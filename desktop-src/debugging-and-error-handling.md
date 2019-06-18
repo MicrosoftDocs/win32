@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Application Recovery and Restart](https://msdn.microsoft.com/library/windows/desktop/cc948909)
--   [Error Handling](https://msdn.microsoft.com/library/windows/desktop/ms679320)
--   [Basic Debugging](https://msdn.microsoft.com/library/windows/desktop/ms679276)
--   [Debug Help Library](https://msdn.microsoft.com/library/windows/desktop/ms679309)
--   [Structured Exception Handling](https://msdn.microsoft.com/library/windows/desktop/ms680657)
--   [Wait Chain Traversal](https://msdn.microsoft.com/library/windows/desktop/ms681622)
--   [Intel AVX](https://msdn.microsoft.com/library/windows/desktop/hh134233)
+-   [Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal)
+-   [Error Handling](https://docs.microsoft.com/windows/desktop/Debug/error-handling)
+-   [Basic Debugging](https://docs.microsoft.com/windows/desktop/Debug/basic-debugging)
+-   [Debug Help Library](https://docs.microsoft.com/windows/desktop/Debug/debug-help-library)
+-   [Structured Exception Handling](https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling)
+-   [Wait Chain Traversal](https://docs.microsoft.com/windows/desktop/Debug/wait-chain-traversal)
+-   [Intel AVX](https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal)
 
  
 

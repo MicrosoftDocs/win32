@@ -542,7 +542,7 @@
       href: windows-event-log-functions.md
       items: 
       - name: "EVT_SUBSCRIBE_CALLBACK"
-        href: https://msdn.microsoft.com/en-us/library/Aa385577(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback
       - name: "EvtArchiveExportedLog"
         href: /windows/desktop/api/WinEvt/nf-winevt-evtarchiveexportedlog
       - name: "EvtCancel"

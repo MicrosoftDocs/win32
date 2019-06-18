@@ -282,21 +282,21 @@
         - name: "AddPayloadFilesEncrypted method"
           href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedpackagewriter2-addpayloadfilesencrypted
       - name: "IAppxEncryptedBlockMapFile"
-        href: https://msdn.microsoft.com/en-us/library/Mt761796(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761796(v=vs.85)
         items: 
         - name: "GetFileHash method"
-          href: https://msdn.microsoft.com/en-us/library/Mt761797(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761797(v=vs.85)
         - name: "GetId method"
-          href: https://msdn.microsoft.com/en-us/library/Mt761798(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761798(v=vs.85)
       - name: "IAppxEncryptedFile"
-        href: https://msdn.microsoft.com/en-us/library/Mt761802(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761802(v=vs.85)
         items: 
         - name: "GetEncryptedSize method"
-          href: https://msdn.microsoft.com/en-us/library/Mt761803(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761803(v=vs.85)
         - name: "GetEncryptedStream method"
-          href: https://msdn.microsoft.com/en-us/library/Mt761804(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761804(v=vs.85)
         - name: "GetKeyContext method"
-          href: https://msdn.microsoft.com/en-us/library/Mt761805(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761805(v=vs.85)
       - name: "IAppxEncryptedBundleWriter"
         href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptedbundlewriter
         items: 
@@ -317,12 +317,12 @@
         - name: "AddPayloadPackageEncrypted method"
           href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedbundlewriter3-addpayloadpackageencrypted
       - name: "IAppxEncryptedPackageFile"
-        href: https://msdn.microsoft.com/en-us/library/Mt761806(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761806(v=vs.85)
         items: 
         - name: "GetStreamWithoutValidation method"
-          href: https://msdn.microsoft.com/en-us/library/Mt761808(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761808(v=vs.85)
         - name: "GetEncryptedPackageReader method"
-          href: https://msdn.microsoft.com/en-us/library/Mt761807(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt761807(v=vs.85)
       - name: "IAppxFactory"
         href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxfactory
         items: 
@@ -463,7 +463,7 @@
         href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestpackageid2
         items: 
         - name: "GetArchitecture2 method"
-          href: https://msdn.microsoft.com/en-us/library/Mt827074(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid2-getarchitecture2
       - name: "IAppxManifestProperties"
         href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestproperties
         items: 

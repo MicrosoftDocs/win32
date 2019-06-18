@@ -79,7 +79,7 @@
         - name: "CheckLocationCapability method"
           href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-checklocationcapability
       - name: "ILogicalSensorManager"
-        href: https://msdn.microsoft.com/en-us/library/Dd318934(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd318934(v=vs.85)
         items: 
         - name: "Connect Method"
           href: winsensors-com-ref/ilogicalsensormanager-connect.md)--

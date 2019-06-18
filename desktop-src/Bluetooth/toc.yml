@@ -161,7 +161,7 @@
       - name: "BluetoothSendAuthenticationResponseEx"
         href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponseex
       - name: "BluetoothSetLocalServiceInfo"
-        href: https://msdn.microsoft.com/en-us/library/Bb870603(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)
       - name: "BluetoothSetServiceState"
         href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsetservicestate
       - name: "BluetoothUnregisterAuthentication"

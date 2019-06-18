@@ -204,7 +204,7 @@
       - name: "GetCurrentActCtx"
         href: /windows/desktop/api/Winbase/nf-winbase-getcurrentactctx
       - name: "IsolationAwareCleanup"
-        href: https://msdn.microsoft.com/en-us/library/Aa375204(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375204(v=vs.85)
       - name: "QueryActCtxW"
         href: /windows/desktop/api/Winbase/nf-winbase-queryactctxw
       - name: "QueryActCtxSettingsW"

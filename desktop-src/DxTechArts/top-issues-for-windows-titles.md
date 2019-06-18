@@ -116,7 +116,7 @@ A silent installation of DirectX can be done by running this command from your i
 Furthermore, the actual size of the redistributable folder can be configured to include only those cabinet files (.cab) that are actually needed for the game's target platforms and usage.
 
 > [!Note]  
-> Before you use **dxsetup**, read [Not So Direct Setup](https://blogs.msdn.microsoft.com/chuckw/2010/09/08/not-so-direct-setup/).
+> Before you use **dxsetup**, read [Not So Direct Setup](https://walbourn.github.io/).
 
  
 

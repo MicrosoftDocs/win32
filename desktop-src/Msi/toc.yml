@@ -2143,7 +2143,7 @@
             href: mergemod-interfaces.md
             items: 
             - name: "IMsmConfigurableItem Interface"
-              href: https://msdn.microsoft.com/en-us/library/Aa369242(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem
               items: 
               - name: "get_Attributes Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_attributes
@@ -2166,82 +2166,82 @@
               - name: "get_Type Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_type
             - name: "IMsmConfigureModule Interface"
-              href: https://msdn.microsoft.com/en-us/library/Aa369243(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmconfiguremodule
               items: 
               - name: "ProvideIntegerData Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata
               - name: "ProvideTextData Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-providetextdata
             - name: "IMsmDependency Interface"
-              href: https://msdn.microsoft.com/en-us/library/Aa369249(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmdependency
               items: 
               - name: "get_Language Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369246(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_language
               - name: "get_Module Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369247(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_module
               - name: "get_Version Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369248(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_version
             - name: "IMsmError Interface"
-              href: https://msdn.microsoft.com/en-us/library/Aa369257(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmerror
               items: 
               - name: "get_DatabaseKeys Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369250(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_databasekeys
               - name: "get_DatabaseTable Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369251(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_databasetable
               - name: "get_Language Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369252(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_language
               - name: "get_ModuleKeys Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369253(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_modulekeys
               - name: "get_ModuleTable Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369254(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_moduletable
               - name: "get_Path Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369255(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_path
               - name: "get_Type Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369256(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type
             - name: "IMsmGetFiles Interface"
-              href: https://msdn.microsoft.com/en-us/library/Aa369259(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmgetfiles
               items: 
               - name: "get_ModuleFiles Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369258(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmgetfiles-get_modulefiles
             - name: "IMsmMerge Interface"
-              href: https://msdn.microsoft.com/en-us/library/Aa369273(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge
             - name: "IMsmMerge2 Interface"
               href: /windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2
               items: 
               - name: "CloseDatabase Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369265(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase
               - name: "CloseLog Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369266(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog
               - name: "CloseModule Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369267(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule
               - name: "Connect Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369268(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect
               - name: "CreateSourceImage Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-createsourceimage
               - name: "ExtractCAB Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369269(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractcab
               - name: "ExtractFiles Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369270(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractfiles
               - name: "ExtractFilesEx Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-extractfilesex
               - name: "get_ConfigurableItems Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-get_configurableitems
               - name: "get_Dependencies Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369271(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_dependencies
               - name: "get_Errors Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369272(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors
               - name: "Log Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369274(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log
               - name: "Merge Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369275(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-merge
               - name: "MergeEx Method"
                 href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-mergeex
               - name: "OpenDatabase Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369276(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-opendatabase
               - name: "OpenLog Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369277(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openlog
               - name: "OpenModule Method"
-                href: https://msdn.microsoft.com/en-us/library/Aa369278(v=VS.85).aspx
+                href: https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openmodule
         - name: "Merge Module Database Tables"
           href: merge-module-database-tables.md
           items: 
@@ -3147,7 +3147,7 @@
         - name: "INSTALLUI_HANDLER"
           href: /windows/desktop/api/Msi/nc-msi-installui_handlera
         - name: "INSTALLUI_HANDLER_RECORD"
-          href: https://msdn.microsoft.com/en-us/library/Aa369545(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handler_record
     - name: "Installer Structures"
       href: installer-structures.md
       items: 

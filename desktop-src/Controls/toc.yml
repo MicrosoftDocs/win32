@@ -763,7 +763,7 @@
           href: bumper-edit-control-reference-functions.md
           items: 
           - name: "EditWordBreakProc"
-            href: https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-editwordbreakproca
         - name: "Edit Control Macros"
           href: bumper-edit-control-reference-macros.md
           items: 
@@ -1469,9 +1469,9 @@
           href: bumper-image-lists-reference-structures.md
           items: 
           - name: "IMAGEINFO"
-            href: https://msdn.microsoft.com/en-us/library/Bb761393(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-tagimageinfo
           - name: "IMAGELISTDRAWPARAMS"
-            href: https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams
           - name: "IMAGELISTSTATS"
             href: /windows/desktop/api/Commoncontrols/ns-commoncontrols-tagimageliststats
         - name: "Image List Constants"
@@ -1811,7 +1811,7 @@
           href: bumper-list-view-control-reference-functions.md
           items: 
           - name: "LVGroupCompare"
-            href: https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare
         - name: "List View Macros"
           href: bumper-list-view-control-reference-macros.md
           items: 
@@ -2872,7 +2872,7 @@
           - name: "PropertySheet"
             href: /windows/desktop/api/Prsht/nf-prsht-propertysheeta
           - name: "LPFNPSPCALLBACK"
-            href: https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka
           - name: "PropSheetProc"
             href: /windows/desktop/api/Prsht/nc-prsht-pfnpropsheetcallback
         - name: "Property Sheet Macros"
@@ -2931,9 +2931,9 @@
           - name: "PropSheet_SetFinishText"
             href: /windows/desktop/api/Prsht/nf-prsht-propsheet_setfinishtext
           - name: "PropSheet_SetHeaderBitmap"
-            href: https://msdn.microsoft.com/en-us/library/Bb760787(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb760787(v=vs.85)
           - name: "PropSheet_SetHeaderBitmapResource"
-            href: https://msdn.microsoft.com/en-us/library/Bb760789(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb760789(v=vs.85)
           - name: "PropSheet_SetHeaderSubTitle"
             href: /windows/desktop/api/Prsht/nf-prsht-propsheet_setheadersubtitle
           - name: "PropSheet_SetHeaderTitle"
@@ -3279,17 +3279,17 @@
           - name: "EditWordBreakProcEx"
             href: /windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex
           - name: "GetMathAlphanumeric"
-            href: https://msdn.microsoft.com/en-us/library/Hh780353(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780353(v=vs.85)
           - name: "GetMathAlphanumericCode"
-            href: https://msdn.microsoft.com/en-us/library/Hh780354(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780354(v=vs.85)
           - name: "HyphenateProc"
             href: /windows/desktop/api/Richedit/nf-richedit-hyphenateproc
           - name: "MathBuildDown"
-            href: https://msdn.microsoft.com/en-us/library/Hh780443(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780443(v=vs.85)
           - name: "MathBuildUp"
-            href: https://msdn.microsoft.com/en-us/library/Hh780445(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780445(v=vs.85)
           - name: "MathTranslate"
-            href: https://msdn.microsoft.com/en-us/library/Hh780446(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780446(v=vs.85)
           - name: "REExtendedRegisterClass"
             href: reextendedregisterclass.md
         - name: "Rich Edit Interfaces"
@@ -3728,7 +3728,7 @@
             href: bumper-text-object-model-reference-interfaces.md
             items: 
             - name: "ITextDisplays"
-              href: https://msdn.microsoft.com/en-us/library/Hh706356(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdisplays
             - name: "ITextDocument"
               href: /windows/desktop/api/Tom/nn-tom-itextdocument
               items: 
@@ -4510,7 +4510,7 @@
               - name: "TypeText"
                 href: /windows/desktop/api/Tom/nf-tom-itextselection-typetext
             - name: "ITextSelection2"
-              href: https://msdn.microsoft.com/en-us/library/Hh768717(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection2
             - name: "ITextStory"
               href: /windows/desktop/api/tom/nn-tom-itextstory
               items: 
@@ -5295,7 +5295,7 @@
           - name: "TaskDialog"
             href: /windows/desktop/api/Commctrl/nf-commctrl-taskdialog
           - name: "PFTASKDIALOGCALLBACK"
-            href: https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pftaskdialogcallback
           - name: "TaskDialogIndirect"
             href: /windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect
         - name: "Task Dialog Messages"
@@ -6313,7 +6313,7 @@
           - name: "NMTVITEMCHANGE"
             href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvitemchange
           - name: "NMTVITEMRECT"
-            href: https://msdn.microsoft.com/en-us/library/Bb773428(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb773428(v=vs.85)
           - name: "NMTVKEYDOWN"
             href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvkeydown
           - name: "NMTVSTATEIMAGECHANGING"

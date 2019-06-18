@@ -23,7 +23,7 @@ The three most common mistakes made by a development team when releasing a produ
 
 -   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
--   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](http://msdn.microsoft.com/magazine/msdn-magazine-issues) by Martyn Lovell. Also, you can get the [banned.h](https://go.microsoft.com/?linkid=9707345) header file that can help you remove banned functions from code.
+-   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](https://msdn.microsoft.com/magazine/msdn-magazine-issues) by Martyn Lovell. Also, you can get the [banned.h](https://go.microsoft.com/?linkid=9707345) header file that can help you remove banned functions from code.
 
 Each of the listed mistakes is not only common but is easily correctable with no significant change in development workload, coding standards, or functionality.
 
@@ -65,7 +65,7 @@ The book, *Writing Secure Code, Second Edition* by Michael Howard and David LeBl
 
 Michael Howard, David LeBlanc, and John Viega have written another book on the subject that covers all common operating systems and programming languages entitled, *19 Deadly Sins of Software Security*.
 
-Security presentations focused on games can be found at the [Microsoft XNA Developer Presentations](https://docs.microsoft.com/previous-versions/dn629515(v=msdn.10)) download page.
+Security presentations focused on games can be found at the [Microsoft XNA Developer Presentations](/previous-versions/dn629515(v=msdn.10)) download page.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://blog
 PREfast is a free tool offered by Microsoft that analyzes execution paths in compiled C or C++ to help find run-time bugs. PREfast operates by working through all execution paths in all functions and assessing each path for problems. Originally used to develop drivers and other kernel code, this tool can help game developers save time by eliminating some bugs that are hard to find or are ignored by the compiler. Using PREfast is an excellent way of reducing workload and focusing the efforts of both the development team and test team. PREfast is available in Visual Studio Team Suite and Visual Studio Team Edition for Software Developers as Code Analysis, enabled by the compiler switch **/analyze**. (This option is also available in the free version of the compiler that ships with the Windows Software Development Kit.)
 
 > [!Note]  
-> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](https://blogs.msdn.microsoft.com/codeanalysis?m=20123).
+> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](https://blogs.msdn.microsoft.com/codeanalysis/?m=20123).
 
  
 
@@ -139,7 +139,7 @@ For more information about Application Verifier, see [Application Verifier](http
 
 *Fuzz testing* is a semi-automated method of testing that can enhance current testing methodologies. The central idea behind fuzz testing is to make a full assessment of all inputs by inputing random data to see what breaks; this includes all network data, mods and saved games, etc. Fuzz testing is fairly easy to do. Simply alter well-formed files or network data by inserting random bytes, flipping adjacent bytes, or negating numerical values. 0xff, 0xffff, 0xffffffff, 0x00, 0x0000, 0x00000000, and 0x80000000 are values that are good at exposing security holes while fuzz testing. You can observe the resulting interaction combinations using AppVerifier. While fuzzing is not exhaustive, it is easy to implement and automate, and it can catch the more elusive and unpredictable bugs.
 
-For more information on fuzz testing, see the [Gamefest 2007](https://docs.microsoft.com/previous-versions/dn629515(v=msdn.10)) presentation *Practical Steps in Game Security*.
+For more information on fuzz testing, see the [Gamefest 2007](/previous-versions/dn629515(v=msdn.10)) presentation *Practical Steps in Game Security*.
 
 </dd> <dt>
 

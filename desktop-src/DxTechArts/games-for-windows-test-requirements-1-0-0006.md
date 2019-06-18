@@ -1325,7 +1325,7 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog
 </dt> <dd>
 
-[Games for Windows and the DirectX SDK](https://blogs.msdn.microsoft.com/chuckw/)
+[Games for Windows and the DirectX SDK](https://walbourn.github.io/)
 
 </dd> <dt>
 

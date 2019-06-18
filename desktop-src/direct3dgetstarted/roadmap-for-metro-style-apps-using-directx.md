@@ -89,7 +89,7 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 | [Windows Imaging Component (WIC)](https://docs.microsoft.com/windows/desktop/wic/-wic-api)<br/>                                       | Documentation for the WIC APIs, which are used for reading and managing different bitmap image formats.<br/>                                                                                   |
 | [DirectDraw Surfaces (DDS)](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds) for textures<br/>                 | Documentation for the DDS APIs, which are used for 2D texture compression and decompression in conjunction with the WIC APIs.<br/>                                                             |
 | [DirectXMath](https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal)<br/>                                              | Documentation for the DirectXMath APIs, which support Direct3D with a set of types and functions suited for 3D real-time graphics development. (Formerly XNAMath.)<br/>                        |
-| [DirectCompute](https://blogs.msdn.microsoft.com/chuckw/2010/07/14/directcompute/)<br/> | Documentation for the DirectCompute APIs, used for compute or general-use shader functionality.<br/>                                                                                           |
+| [DirectCompute](https://walbourn.github.io/)<br/> | Documentation for the DirectCompute APIs, used for compute or general-use shader functionality.<br/>                                                                                           |
 
 
 
@@ -118,7 +118,7 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 | Topic                                                                                                                                          | Description                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | [Migrating to Direct3D 11](https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-programming-guide-migrating)<br/>                                                            | Basic guidance for moving your DirectX 9 codebase to DirectX 11.<br/>                                                   |
-| [Dual-use Coding Techniques for Games](https://blogs.msdn.microsoft.com/chuckw/2012/09/17/dual-use-coding-techniques-for-games-part-1/)<br/> | Detailed blog post on developing for both DirectX 9\_\* and DirectX 11\_\* feature levels in a single application.<br/> |
+| [Dual-use Coding Techniques for Games](https://walbourn.github.io/)<br/> | Detailed blog post on developing for both DirectX 9\_\* and DirectX 11\_\* feature levels in a single application.<br/> |
 | [Implementing shadow buffers for Direct3D feature level 9](https://docs.microsoft.com/previous-versions/windows/apps/jj262110(v=win.10))<br/>            | Guidance for implementing shadow maps under DirectX feature level 9\_\*.<br/>                                           |
 
 
@@ -173,9 +173,9 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 
 | Topic                                                                                | Description                                                                                                                                                               |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Games for Windows and DirectX blog](https://blogs.msdn.microsoft.com/chuckw/)<br/>     | Regularly-updated blog from a key DirectX dev contributor, and an all-around great resource for DirectX devs.<br/>                                                  |
-| [Windows DirectX developer blog](https://blogs.msdn.microsoft.com/directx/)<br/>        | The official Windows DirectX blog.<br/>                                                                                                                             |
-| [Shawn Hargreave's DirectX blog](https://blogs.msdn.microsoft.com/shawnhar/)<br/>       | Dev blog from another well-respected Windows DirectX dev contributor.<br/>                                                                                          |
+| [Games for Windows and DirectX blog](https://walbourn.github.io/)<br/>     | Regularly-updated blog from a key DirectX dev contributor, and an all-around great resource for DirectX devs.<br/>                                                  |
+| [Windows DirectX developer blog](https://devblogs.microsoft.com/directx/)<br/>        | The official Windows DirectX blog.<br/>                                                                                                                             |
+| [Shawn Hargreave's DirectX blog](http://www.shawnhargreaves.com/blogindex.html)<br/>       | Dev blog from another well-respected Windows DirectX dev contributor.<br/>                                                                                          |
 | [DirectX Tool Kit](https://directxtk.codeplex.com/)<br/>                        | CodePlex site for the DirectX Tool Kit (DxTK), which contains a number of helpful support APIs for loading meshes, playing sounds, and other common behaviors.<br/> |
 | [DirectXTex texture processing library](https://directxtex.codeplex.com/)<br/> | Code plex site for the DirectX Texture Processing Library (DxTEX), which contains support APIs for texture processing and compression/decompression.<br/>           |
 

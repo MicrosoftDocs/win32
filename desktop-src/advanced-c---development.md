@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [Windows Runtime C++ Template Library](https://msdn.microsoft.com/en-us/library/Hh438466(v=VS.110).aspx)
--   [Windows Runtime C++ Reference](https://msdn.microsoft.com/library/windows/desktop/br224617)
+-   [Windows Runtime C++ Reference](https://docs.microsoft.com/windows/desktop/WinRT/reference)
 
  
 

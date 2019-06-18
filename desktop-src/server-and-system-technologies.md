@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Develop with server technologies
 
-[Server Technologies](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309471.aspx)
+[Server Technologies](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh309471(v=vs.85))
 
-[System Administration](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309472.aspx)
+[System Administration](https://docs.microsoft.com/windows/desktop/SrvNodes/system-administration)
 
-[Virtualization](https://msdn.microsoft.com/en-us/library/windows/desktop/ee663299.aspx)
+[Virtualization](https://docs.microsoft.com/windows/desktop/SrvNodes/virtualization)
 
-[Windows Server Installation Options](https://msdn.microsoft.com/en-us/library/windows/desktop/ms723891.aspx)
+[Windows Server Installation Options](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
 
  
 

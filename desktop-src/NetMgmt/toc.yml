@@ -108,7 +108,7 @@
       - name: "NetAccessAdd"
         href: /windows/desktop/api/lmaccess/nf-lmaccess-netaccessadd
       - name: "NetAccessCheck"
-        href: https://msdn.microsoft.com/en-us/library/Aa370291(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa370291(v=vs.85)
       - name: "NetAccessDel"
         href: /windows/desktop/api/lmaccess/nf-lmaccess-netaccessdel
       - name: "NetAccessEnum"

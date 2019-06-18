@@ -164,7 +164,7 @@
       - name: "HandlerEx"
         href: /windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex
       - name: "InstallELAMCertificateInfo"
-        href: https://msdn.microsoft.com/en-us/library/Dn369255(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-installelamcertificateinfo
       - name: "LockServiceDatabase"
         href: /windows/desktop/api/Winsvc/nf-winsvc-lockservicedatabase
       - name: "NotifyBootConfigStatus"
@@ -192,7 +192,7 @@
       - name: "RegisterServiceCtrlHandlerEx"
         href: /windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlerexa
       - name: "LPSERVICE_MAIN_FUNCTION"
-        href: https://msdn.microsoft.com/en-us/library/ms685138(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona
       - name: "SetServiceBits"
         href: /windows/desktop/api/Lmserver/nf-lmserver-setservicebits
       - name: "SetServiceStatus"

@@ -610,9 +610,9 @@
       - name: "DXGI_FRAME_STATISTICS_MEDIA"
         href: /windows/desktop/api/dxgi1_3/ns-dxgi1_3-dxgi_frame_statistics_media
       - name: "DXGI_GAMMA_CONTROL"
-        href: https://msdn.microsoft.com/en-us/library/Bb173061(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173061(v=vs.85)
       - name: "DXGI_GAMMA_CONTROL_CAPABILITIES"
-        href: https://msdn.microsoft.com/en-us/library/Bb173062(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173062(v=vs.85)
       - name: "DXGI_HDR_METADATA_HDR10"
         href: /windows/desktop/api/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10
       - name: "DXGI_INFO_QUEUE_FILTER"
@@ -632,7 +632,7 @@
       - name: "DXGI_MAPPED_RECT"
         href: /windows/desktop/api/DXGI/ns-dxgi-dxgi_mapped_rect
       - name: "DXGI_MODE_DESC"
-        href: https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)
       - name: "DXGI_MODE_DESC1"
         href: /windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_mode_desc1
       - name: "DXGI_OUTPUT_DESC"
@@ -656,7 +656,7 @@
       - name: "DXGI_RATIONAL"
         href: /windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational
       - name: "DXGI_RGB"
-        href: https://msdn.microsoft.com/en-us/library/Bb173071(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173071(v=vs.85)
       - name: "DXGI_RGBA"
         href: dxgi-rgba.md
       - name: "DXGI_SAMPLE_DESC"
@@ -709,11 +709,11 @@
       - name: "DXGI_MEMORY_SEGMENT_GROUP"
         href: /windows/desktop/api/dxgi1_4/ne-dxgi1_4-dxgi_memory_segment_group
       - name: "DXGI_MODE_ROTATION"
-        href: https://msdn.microsoft.com/en-us/library/Bb173065(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173065(v=vs.85)
       - name: "DXGI_MODE_SCALING"
-        href: https://msdn.microsoft.com/en-us/library/Bb173066(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173066(v=vs.85)
       - name: "DXGI_MODE_SCANLINE_ORDER"
-        href: https://msdn.microsoft.com/en-us/library/Bb173067(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173067(v=vs.85)
       - name: "DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
         href: /windows/desktop/api/dxgi1_3/ne-dxgi1_3-dxgi_multiplane_overlay_ycbcr_flags
       - name: "DXGI_OFFER_RESOURCE_FLAGS"

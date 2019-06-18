@@ -1023,7 +1023,7 @@
       - name: "CertSaveStore"
         href: /windows/desktop/api/Wincrypt/nf-wincrypt-certsavestore
       - name: "CertSelectCertificate"
-        href: https://msdn.microsoft.com/en-us/library/Aa376568(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea
       - name: "CertSelectCertificateChains"
         href: /windows/desktop/api/Wincrypt/nf-wincrypt-certselectcertificatechains
       - name: "CertSelectionGetSerializedBlob"
@@ -1085,7 +1085,7 @@
       - name: "CertStoreProvCloseCallback"
         href: /windows/desktop/api/Wincrypt/nc-wincrypt-pfn_cert_store_prov_close
       - name: "PFN_CERT_STORE_PROV_CONTROL"
-        href: https://msdn.microsoft.com/en-us/library/Aa377033(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_control
       - name: "CertStoreProvDeleteCertCallback"
         href: /windows/desktop/api/Wincrypt/nc-wincrypt-pfn_cert_store_prov_delete_cert
       - name: "CertStoreProvDeleteCRLCallback"
@@ -1115,7 +1115,7 @@
       - name: "CertStoreProvReadCRLCallback"
         href: /windows/desktop/api/Wincrypt/nc-wincrypt-pfn_cert_store_prov_read_crl
       - name: "PFN_CERT_STORE_PROV_READ_CERT"
-        href: https://msdn.microsoft.com/en-us/library/Aa377153(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_read_ctl
       - name: "CertStoreProvSetCertPropertyCallback"
         href: /windows/desktop/api/Wincrypt/nc-wincrypt-pfn_cert_store_prov_set_cert_property
       - name: "CertStoreProvSetCRLPropertyCallback"
@@ -1307,7 +1307,7 @@
       - name: "CryptGetKeyParam"
         href: /windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam
       - name: "CryptGetLocalKeyLimits"
-        href: https://msdn.microsoft.com/en-us/library/Aa379950(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379950(v=vs.85)
       - name: "CryptGetMessageCertificates"
         href: /windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetmessagecertificates
       - name: "CryptGetMessageSignerCount"
@@ -1517,27 +1517,27 @@
       - name: "CryptXmlDigestReference"
         href: /windows/desktop/api/Cryptxml/nf-cryptxml-cryptxmldigestreference
       - name: "CryptXmlDllCloseDigest"
-        href: https://msdn.microsoft.com/en-us/library/Dd433809(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllclosedigest
       - name: "CryptXmlDllCreateDigest"
-        href: https://msdn.microsoft.com/en-us/library/Dd433810(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest
       - name: "CryptXmlDllCreateKey"
-        href: https://msdn.microsoft.com/en-us/library/Dd433811(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatekey
       - name: "CryptXmlDllDigestData"
-        href: https://msdn.microsoft.com/en-us/library/Dd433812(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldlldigestdata
       - name: "CryptXmlDllEncodeAlgorithm"
-        href: https://msdn.microsoft.com/en-us/library/Dd433813(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllencodealgorithm
       - name: "CryptXmlDllEncodeKeyValue"
-        href: https://msdn.microsoft.com/en-us/library/Dd433814(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllencodekeyvalue
       - name: "CryptXmlDllFinalizeDigest"
-        href: https://msdn.microsoft.com/en-us/library/Dd433815(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllfinalizedigest
       - name: "CryptXmlDllGetAlgorithmInfo"
-        href: https://msdn.microsoft.com/en-us/library/Dd433816(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetalgorithminfo
       - name: "CryptXmlDllGetInterface"
-        href: https://msdn.microsoft.com/en-us/library/Dd433817(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface
       - name: "CryptXmlDllSignData"
-        href: https://msdn.microsoft.com/en-us/library/Dd433818(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllsigndata
       - name: "CryptXmlDllVerifySignature"
-        href: https://msdn.microsoft.com/en-us/library/Dd433819(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllverifysignature
       - name: "CryptXmlEncode"
         href: /windows/desktop/api/Cryptxml/nf-cryptxml-cryptxmlencode
       - name: "CryptXmlGetAlgorithmInfo"
@@ -1581,47 +1581,47 @@
       - name: "IsCatalogFile"
         href: /windows/desktop/api/Mscat/nf-mscat-iscatalogfile
       - name: "OffloadModExpo"
-        href: https://msdn.microsoft.com/en-us/library/Aa387021(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa387021(v=vs.85)
       - name: "OpenPersonalTrustDBDialog"
         href: /windows/desktop/api/wintrust/nf-wintrust-openpersonaltrustdbdialog
       - name: "OpenPersonalTrustDBDialogEx"
         href: /windows/desktop/api/wintrust/nf-wintrust-openpersonaltrustdbdialogex
       - name: "PCRYPT_DECRYPT_PRIVATE_KEY_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387040(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_decrypt_private_key_func
       - name: "PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387041(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func
       - name: "PCRYPT_RESOLVE_HCRYPTPROV_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387042(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func
       - name: "pCryptSIPGetCaps"
         href: /windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps
       - name: "PFN_CDF_PARSE_ERROR_CALLBACK"
-        href: https://msdn.microsoft.com/en-us/library/Bb410248(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mscat/nc-mscat-pfn_cdf_parse_error_callback
       - name: "PFN_CERT_CREATE_CONTEXT_SORT_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa818336(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_create_context_sort_func
       - name: "PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY"
-        href: https://msdn.microsoft.com/en-us/library/Aa387048(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_cng_import_content_encrypt_key
       - name: "PFN_CMSG_CNG_IMPORT_KEY_AGREE"
-        href: https://msdn.microsoft.com/en-us/library/Aa387294(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_cng_import_key_agree
       - name: "PFN_CMSG_CNG_IMPORT_KEY_TRANS"
-        href: https://msdn.microsoft.com/en-us/library/Aa387295(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_cng_import_key_trans
       - name: "PFN_CMSG_EXPORT_KEY_AGREE"
-        href: https://msdn.microsoft.com/en-us/library/Bb931386(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_agree
       - name: "PFN_CMSG_EXPORT_KEY_TRANS"
-        href: https://msdn.microsoft.com/en-us/library/Bb931387(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans
       - name: "PFN_CMSG_EXPORT_MAIL_LIST"
-        href: https://msdn.microsoft.com/en-us/library/Bb931388(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_mail_list
       - name: "PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY"
-        href: https://msdn.microsoft.com/en-us/library/Bb931389(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_gen_content_encrypt_key
       - name: "PFN_CMSG_IMPORT_KEY_AGREE"
-        href: https://msdn.microsoft.com/en-us/library/Bb931392(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_import_key_agree
       - name: "PFN_CMSG_IMPORT_KEY_TRANS"
-        href: https://msdn.microsoft.com/en-us/library/Bb931393(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_import_key_trans
       - name: "PFN_CMSG_IMPORT_MAIL_LIST"
-        href: https://msdn.microsoft.com/en-us/library/Bb931394(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_import_mail_list
       - name: "PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387297(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_export_public_key_info_ex2_func
       - name: "PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387298(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_extract_encoded_signature_parameters_func
       - name: "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH"
         href: /windows/desktop/api/Wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_flush
       - name: "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET"
@@ -1637,9 +1637,9 @@
       - name: "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE"
         href: /windows/desktop/api/Wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize
       - name: "PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387299(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_sign_and_encode_hash_func
       - name: "PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387301(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_verify_encoded_signature_func
       - name: "PFN_CRYPT_XML_CREATE_TRANSFORM"
         href: /windows/desktop/api/Cryptxml/nc-cryptxml-pfn_crypt_xml_create_transform
       - name: "PFN_CRYPT_XML_DATA_PROVIDER_CLOSE"
@@ -1651,7 +1651,7 @@
       - name: "PFN_CRYPT_XML_WRITE_CALLBACK"
         href: /windows/desktop/api/Cryptxml/nc-cryptxml-pfn_crypt_xml_write_callback
       - name: "PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC"
-        href: https://msdn.microsoft.com/en-us/library/Aa387310(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_import_public_key_info_ex2_func
       - name: "PFNCCERTDISPLAYPROC"
         href: pfnccertdisplayproc.md
       - name: "PFNCFILTERPROC"
@@ -1661,9 +1661,9 @@
       - name: "PFNCMHOOKPROC"
         href: /windows/desktop/api/CryptDlg/nc-cryptdlg-pfncmhookproc
       - name: "pfnIsFileSupported"
-        href: https://msdn.microsoft.com/en-us/library/Cc542636(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mssip/nc-mssip-pfnisfilesupported
       - name: "pfnIsFileSupportedName"
-        href: https://msdn.microsoft.com/en-us/library/Cc542640(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mssip/nc-mssip-pfnisfilesupportedname
       - name: "PFXExportCertStore"
         href: /windows/desktop/api/Wincrypt/nf-wincrypt-pfxexportcertstore
       - name: "PFXExportCertStoreEx"
@@ -1847,71 +1847,71 @@
           href: properties-of-icenroll4.md
           items: 
           - name: "CAStoreFlags Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa382519(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoreflags
           - name: "CAStoreName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa382804(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename
           - name: "CAStoreType Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa382806(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoretype
           - name: "ClientID Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll4-get_clientid
           - name: "ContainerName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa382811(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_containername
           - name: "DeleteRequestCert Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa382840(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_deleterequestcert
           - name: "EnableSMIMECapabilities Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll3-get_enablesmimecapabilities
           - name: "EnableT61DNEncoding Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll2-get_enablet61dnencoding
           - name: "GenKeyFlags Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa382866(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags
           - name: "HashAlgID Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll3-get_hashalgid
           - name: "HashAlgorithm Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa382893(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_hashalgorithm
           - name: "IncludeSubjectKeyID Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll4-get_includesubjectkeyid
           - name: "KeySpec Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383155(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec
           - name: "LimitExchangeKeyToEncipherment Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll3-get_limitexchangekeytoencipherment
           - name: "MyStoreFlags Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383164(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoreflags
           - name: "MyStoreName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383167(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename
           - name: "MyStoreType Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383172(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoretype
           - name: "PrivateKeyArchiveCertificate Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll4-get_privatekeyarchivecertificate
           - name: "ProviderFlags Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383177(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providerflags
           - name: "ProviderName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383180(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername
           - name: "ProviderType Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383182(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype
           - name: "PVKFileName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383187(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_pvkfilename
           - name: "RequestStoreFlags Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383193(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoreflags
           - name: "RequestStoreName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383196(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename
           - name: "RequestStoreType Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383198(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoretype
           - name: "ReuseHardwareKeyIfUnableToGenNew Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll3-get_reusehardwarekeyifunabletogennew
           - name: "RootStoreFlags Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383217(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoreflags
           - name: "RootStoreName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383220(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename
           - name: "RootStoreType Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383224(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoretype
           - name: "SignerCertificate Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll4-put_signercertificate
           - name: "SPCFileName Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383227(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_spcfilename
           - name: "ThumbPrint Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll4-get_thumbprint
           - name: "UseExistingKeySet Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa383230(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_useexistingkeyset
           - name: "WriteCertToCSP Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-icenroll-get_writecerttocsp
           - name: "WriteCertToUserDS Property"
@@ -2488,9 +2488,9 @@
           - name: "addExtensionToRequestWStr Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-addextensiontorequestwstr
           - name: "addNameValuePairToRequestWStr Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385520(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-addnamevaluepairtorequestwstr
           - name: "AddNameValuePairToSignatureWStr Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385521(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addnamevaluepairtosignaturewstr
           - name: "binaryBlobToString Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-binaryblobtostring
           - name: "createFilePFXWStr Method"
@@ -2504,7 +2504,7 @@
           - name: "createPKCS10WStr Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll-createpkcs10wstr
           - name: "CreatePKCS7RequestFromRequest Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385544(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs7requestfromrequest
           - name: "createRequestWStr Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createrequestwstr
           - name: "EnumAlgs Method"
@@ -2520,11 +2520,11 @@
           - name: "GetAlgNameWStr Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll2-getalgnamewstr
           - name: "getCAStore Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385581(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getcastore
           - name: "getCertContextFromFileResponseWStr Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-getcertcontextfromfileresponsewstr
           - name: "getCertContextFromPKCS7 Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385586(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getcertcontextfrompkcs7
           - name: "getCertContextFromResponseBlob Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-getcertcontextfromresponseblob
           - name: "GetKeyLen Method"
@@ -2532,13 +2532,13 @@
           - name: "GetKeyLenEx Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-getkeylenex
           - name: "getMyStore Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385599(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getmystore
           - name: "GetPrivateKeyArchiveCertificate Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-getprivatekeyarchivecertificate
           - name: "getProviderTypeWStr Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-getprovidertypewstr
           - name: "getROOTHStore Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385612(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getroothstore
           - name: "GetSupportedKeySpec Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll2-getsupportedkeyspec
           - name: "InstallPKCS7Blob Method"
@@ -2548,7 +2548,7 @@
           - name: "removePendingRequestWStr Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-removependingrequestwstr
           - name: "Reset Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385688(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll2-reset
           - name: "resetAttributes Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll4-resetattributes
           - name: "resetExtensions Method"
@@ -2556,7 +2556,7 @@
           - name: "SetHStoreCA Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll2-sethstoreca
           - name: "SetHStoreMy Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa385802(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll2-sethstoremy
           - name: "SetHStoreRequest Method"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll2-sethstorerequest
           - name: "SetHStoreROOT Method"
@@ -2591,7 +2591,7 @@
           - name: "GenKeyFlags Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll-get_genkeyflags
           - name: "HashAlgID Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa385621(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll2-get_hashalgid
           - name: "HashAlgorithmWStr Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr
           - name: "IncludeSubjectKeyID Property"
@@ -2599,7 +2599,7 @@
           - name: "KeySpec Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll-get_keyspec
           - name: "LimitExchangeKeyToEncipherment Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa385642(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll2-get_limitexchangekeytoencipherment
           - name: "MyStoreFlags Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll-get_mystoreflags
           - name: "MyStoreNameWStr Property"
@@ -2619,11 +2619,11 @@
           - name: "RequestStoreFlags Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll-get_requeststoreflags
           - name: "RequestStoreNameWStr Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa385680(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr
           - name: "RequestStoreTypeWStr Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa385685(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr
           - name: "ReuseHardwareKeyIfUnableToGenNew Property"
-            href: https://msdn.microsoft.com/en-us/library/Aa385698(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll2-get_reusehardwarekeyifunabletogennew
           - name: "RootStoreFlags Property"
             href: /windows/desktop/api/Xenroll/nf-xenroll-ienroll-get_rootstoreflags
           - name: "RootStoreNameWStr Property"
@@ -2903,7 +2903,7 @@
           href: methods-of-iscrdenr.md
           items: 
           - name: "enroll Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa386564(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386564(v=vs.85)
           - name: "enumCAName Method"
             href: iscrdenr-enumcaname.md
           - name: "enumCertTemplateName Method"
@@ -3014,7 +3014,7 @@
           - name: "PathLenConstraint Property"
             href: basicconstraints-pathlenconstraint.md
       - name: "CEnroll"
-        href: https://msdn.microsoft.com/en-us/library/Aa376007(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)
       - name: "Certificate"
         href: certificate.md
         items: 
@@ -4009,7 +4009,7 @@
       - name: "CRYPT_INTEGER_BLOB"
         href: crypt-integer-blob.md
       - name: "CRYPT_KEY_LIMITS"
-        href: https://msdn.microsoft.com/en-us/library/Aa381417(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381417(v=vs.85)
       - name: "CRYPT_KEY_PROV_INFO"
         href: /windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_key_prov_info
       - name: "CRYPT_KEY_PROV_PARAM"
@@ -4239,11 +4239,11 @@
       - name: "DSS Version 3 Public Key BLOBs"
         href: dss-version-3-public-key-blobs.md
       - name: "DSSPRIVKEY_VER3"
-        href: https://msdn.microsoft.com/en-us/library/Aa381981(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381981(v=vs.85)
       - name: "DSSPUBKEY"
-        href: https://msdn.microsoft.com/en-us/library/Aa381982(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)
       - name: "DSSPUBKEY_VER3"
-        href: https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)
       - name: "DSSSEED"
         href: /windows/desktop/api/Wincrypt/ns-wincrypt-_dssseed
       - name: "EV_EXTRA_CERT_CHAIN_POLICY_PARA"
@@ -4283,7 +4283,7 @@
       - name: "OCSP_SIGNED_REQUEST_INFO"
         href: /windows/desktop/api/Wincrypt/ns-wincrypt-_ocsp_signed_request_info
       - name: "PLAINTEXTKEYBLOB"
-        href: https://msdn.microsoft.com/en-us/library/JJ650836(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj650836(v=vs.85)
       - name: "PROV_ENUMALGS"
         href: /windows/desktop/api/Wincrypt/ns-wincrypt-_prov_enumalgs
       - name: "PROV_ENUMALGS_EX"

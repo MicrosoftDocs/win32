@@ -287,19 +287,19 @@
         - name: "Clone method"
           href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-clone
         - name: "GetEventRecord method"
-          href: https://msdn.microsoft.com/en-us/library/Hh706646(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-geteventrecord
         - name: "GetUserContext method"
           href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-getusercontext
         - name: "SetEventDescriptor method"
           href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-seteventdescriptor
         - name: "SetKernelTime method"
-          href: https://msdn.microsoft.com/en-us/library/Hh706649(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh706649(v=vs.85)
         - name: "SetPayload method"
           href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-setpayload
         - name: "SetProcessId method"
           href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-setprocessid
         - name: "SetProcessorNumber method"
-          href: https://msdn.microsoft.com/en-us/library/Hh706652(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh706652(v=vs.85)
         - name: "SetProviderId method"
           href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-setproviderid
         - name: "SetThreadId method"
@@ -307,16 +307,16 @@
         - name: "SetTimeStamp method"
           href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-settimestamp
         - name: "SetUserTime method"
-          href: https://msdn.microsoft.com/en-us/library/Hh706656(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh706656(v=vs.85)
       - name: "ITraceEventCallback"
         href: /windows/desktop/api/Relogger/nn-relogger-itraceeventcallback
         items: 
         - name: "OnBeginProcessTrace method"
-          href: https://msdn.microsoft.com/en-us/library/Hh706642(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onbeginprocesstrace
         - name: "OnEvent method"
-          href: https://msdn.microsoft.com/en-us/library/Hh706643(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onevent
         - name: "OnFinalizeProcessTrace method"
-          href: https://msdn.microsoft.com/en-us/library/Hh706644(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onfinalizeprocesstrace
       - name: "ITraceRelogger"
         href: /windows/desktop/api/Relogger/nn-relogger-itracerelogger
         items: 
@@ -701,7 +701,7 @@
       - name: "EVENT_DATA_DESCRIPTOR"
         href: /windows/desktop/api/Evntprov/ns-evntprov-_event_data_descriptor
       - name: "EVENT_DESCRIPTOR"
-        href: https://msdn.microsoft.com/en-us/library/Aa363754(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor
       - name: "EVENT_EXTENDED_ITEM_INSTANCE"
         href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_instance
       - name: "EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
@@ -723,9 +723,9 @@
       - name: "EVENT_FILTER_HEADER"
         href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_header
       - name: "EVENT_HEADER"
-        href: https://msdn.microsoft.com/en-us/library/Aa363759(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header
       - name: "EVENT_HEADER_EXTENDED_DATA_ITEM"
-        href: https://msdn.microsoft.com/en-us/library/Aa363760(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item
       - name: "EVENT_INSTANCE_HEADER"
         href: event-instance-header.md
       - name: "EVENT_INSTANCE_INFO"
@@ -737,7 +737,7 @@
       - name: "EVENT_PROPERTY_INFO"
         href: /windows/desktop/api/Tdh/ns-tdh-_event_property_info
       - name: "EVENT_RECORD"
-        href: https://msdn.microsoft.com/en-us/library/Aa363769(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record
       - name: "EVENT_TRACE"
         href: event-trace.md
       - name: "EVENT_TRACE_HEADER"

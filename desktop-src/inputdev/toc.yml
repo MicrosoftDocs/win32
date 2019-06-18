@@ -15,73 +15,73 @@
         href: keyboard-input-functions.md
         items: 
         - name: "ActivateKeyboardLayout"
-          href: https://msdn.microsoft.com/en-us/library/ms646289(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-activatekeyboardlayout
         - name: "BlockInput"
-          href: https://msdn.microsoft.com/en-us/library/ms646290(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-blockinput
         - name: "EnableWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms646291(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablewindow
         - name: "GetActiveWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms646292(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getactivewindow
         - name: "GetAsyncKeyState"
-          href: https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate
         - name: "GetFocus"
-          href: https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getfocus
         - name: "GetKBCodePage"
-          href: https://msdn.microsoft.com/en-us/library/ms646295(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkbcodepage
         - name: "GetKeyboardLayout"
-          href: https://msdn.microsoft.com/en-us/library/ms646296(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout
         - name: "GetKeyboardLayoutList"
-          href: https://msdn.microsoft.com/en-us/library/ms646297(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutlist
         - name: "GetKeyboardLayoutName"
-          href: https://msdn.microsoft.com/en-us/library/ms646298(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutnamea
         - name: "GetKeyboardState"
-          href: https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate
         - name: "GetKeyboardType"
-          href: https://msdn.microsoft.com/en-us/library/ms724336(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardtype
         - name: "GetKeyNameText"
-          href: https://msdn.microsoft.com/en-us/library/ms646300(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeynametexta
         - name: "GetKeyState"
-          href: https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate
         - name: "GetLastInputInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms646302(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getlastinputinfo
         - name: "IsWindowEnabled"
-          href: https://msdn.microsoft.com/en-us/library/ms646303(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowenabled
         - name: "keybd_event"
-          href: https://msdn.microsoft.com/en-us/library/ms646304(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-keybd_event
         - name: "LoadKeyboardLayout"
-          href: https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta
         - name: "MapVirtualKey"
-          href: https://msdn.microsoft.com/en-us/library/ms646306(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya
         - name: "MapVirtualKeyEx"
-          href: https://msdn.microsoft.com/en-us/library/ms646307(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa
         - name: "OemKeyScan"
-          href: https://msdn.microsoft.com/en-us/library/ms646308(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemkeyscan
         - name: "RegisterHotKey"
-          href: https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerhotkey
         - name: "SendInput"
-          href: https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput
         - name: "SetActiveWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms646311(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setactivewindow
         - name: "SetFocus"
-          href: https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus
         - name: "SetKeyboardState"
-          href: https://msdn.microsoft.com/en-us/library/ms646314(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate
         - name: "ToAscii"
-          href: https://msdn.microsoft.com/en-us/library/ms646316(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-toascii
         - name: "ToAsciiEx"
-          href: https://msdn.microsoft.com/en-us/library/ms646318(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-toasciiex
         - name: "ToUnicode"
-          href: https://msdn.microsoft.com/en-us/library/ms646320(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tounicode
         - name: "ToUnicodeEx"
-          href: https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tounicodeex
         - name: "UnloadKeyboardLayout"
-          href: https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout
         - name: "UnregisterHotKey"
-          href: https://msdn.microsoft.com/en-us/library/ms646327(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterhotkey
         - name: "VkKeyScan"
-          href: https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana
         - name: "VkKeyScanEx"
-          href: https://msdn.microsoft.com/en-us/library/ms646332(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscanexa
       - name: "Keyboard Input Messages"
         href: keyboard-input-messages.md
         items: 
@@ -122,15 +122,15 @@
         href: keyboard-input-structures.md
         items: 
         - name: "HARDWAREINPUT"
-          href: https://msdn.microsoft.com/en-us/library/ms646269(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghardwareinput
         - name: "INPUT"
-          href: https://msdn.microsoft.com/en-us/library/ms646270(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput
         - name: "KEYBDINPUT"
-          href: https://msdn.microsoft.com/en-us/library/ms646271(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagkeybdinput
         - name: "LASTINPUTINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms646272(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taglastinputinfo
         - name: "MOUSEINPUT"
-          href: https://msdn.microsoft.com/en-us/library/ms646273(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmouseinput
       - name: "Keyboard Input Constants"
         href: keyboard-input-constants.md
         items: 
@@ -150,48 +150,48 @@
         href: mouse-input-functions.md
         items: 
         - name: "_TrackMouseEvent"
-          href: https://msdn.microsoft.com/en-us/library/ms646266(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-_trackmouseevent
         - name: "DragDetect"
-          href: https://msdn.microsoft.com/en-us/library/ms646256(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dragdetect
         - name: "GetCapture"
-          href: https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcapture
         - name: "GetDoubleClickTime"
-          href: https://msdn.microsoft.com/en-us/library/ms646258(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdoubleclicktime
         - name: "GetMouseMovePointsEx"
-          href: https://msdn.microsoft.com/en-us/library/ms646259(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmousemovepointsex
         - name: "mouse_event"
-          href: https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mouse_event
         - name: "ReleaseCapture"
-          href: https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasecapture
         - name: "SetCapture"
-          href: https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcapture
         - name: "SetDoubleClickTime"
-          href: https://msdn.microsoft.com/en-us/library/ms646263(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdoubleclicktime
         - name: "SwapMouseButton"
-          href: https://msdn.microsoft.com/en-us/library/ms646264(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-swapmousebutton
         - name: "TrackMouseEvent"
-          href: https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent
       - name: "Mouse Input Macros"
         href: mouse-input-macros.md
         items: 
         - name: "GET_APPCOMMAND_LPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646247(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_appcommand_lparam
         - name: "GET_DEVICE_LPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646248(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_device_lparam
         - name: "GET_FLAGS_LPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646249(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_flags_lparam
         - name: "GET_KEYSTATE_LPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646250(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_keystate_lparam
         - name: "GET_KEYSTATE_WPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646251(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_keystate_wparam
         - name: "GET_MOUSEORKEY_LPARAM"
           href: get-mouseorkey-lparam.md
         - name: "GET_NCHITTEST_WPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646253(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_nchittest_wparam
         - name: "GET_WHEEL_DELTA_WPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646254(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_wheel_delta_wparam
         - name: "GET_XBUTTON_WPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms646255(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_xbutton_wparam
       - name: "Mouse Input Notifications"
         href: mouse-input-notifications.md
         items: 
@@ -269,9 +269,9 @@
         href: mouse-input-structures.md
         items: 
         - name: "MOUSEMOVEPOINT"
-          href: https://msdn.microsoft.com/en-us/library/ms645603(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousemovepoint
         - name: "TRACKMOUSEEVENT"
-          href: https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtrackmouseevent
   - name: "Raw Input"
     href: raw-input.md
     items: 
@@ -286,26 +286,26 @@
         href: raw-input-functions.md
         items: 
         - name: "DefRawInputProc"
-          href: https://msdn.microsoft.com/en-us/library/ms645594(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defrawinputproc
         - name: "GetRawInputBuffer"
-          href: https://msdn.microsoft.com/en-us/library/ms645595(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer
         - name: "GetRawInputData"
-          href: https://msdn.microsoft.com/en-us/library/ms645596(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdata
         - name: "GetRawInputDeviceInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa
         - name: "GetRawInputDeviceList"
-          href: https://msdn.microsoft.com/en-us/library/ms645598(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist
         - name: "GetRegisteredRawInputDevices"
-          href: https://msdn.microsoft.com/en-us/library/ms645599(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getregisteredrawinputdevices
         - name: "RegisterRawInputDevices"
-          href: https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerrawinputdevices
       - name: "Raw Input Macros"
         href: raw-input-macros.md
         items: 
         - name: "GET_RAWINPUT_CODE_WPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms645592(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_rawinput_code_wparam
         - name: "NEXTRAWINPUTBLOCK"
-          href: https://msdn.microsoft.com/en-us/library/ms645593(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-nextrawinputblock
       - name: "Raw Input Notifications"
         href: raw-input-notifications.md
         items: 
@@ -317,24 +317,24 @@
         href: raw-input-structures.md
         items: 
         - name: "RAWHID"
-          href: https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid
         - name: "RAWINPUT"
-          href: https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput
         - name: "RAWINPUTDEVICE"
-          href: https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice
         - name: "RAWINPUTDEVICELIST"
-          href: https://msdn.microsoft.com/en-us/library/ms645568(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevicelist
         - name: "RAWINPUTHEADER"
-          href: https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader
         - name: "RAWKEYBOARD"
-          href: https://msdn.microsoft.com/en-us/library/ms645575(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawkeyboard
         - name: "RAWMOUSE"
-          href: https://msdn.microsoft.com/en-us/library/ms645578(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawmouse
         - name: "RID_DEVICE_INFO"
-          href: https://msdn.microsoft.com/en-us/library/ms645581(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info
         - name: "RID_DEVICE_INFO_HID"
-          href: https://msdn.microsoft.com/en-us/library/ms645584(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info_hid
         - name: "RID_DEVICE_INFO_KEYBOARD"
-          href: https://msdn.microsoft.com/en-us/library/ms645587(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info_keyboard
         - name: "RID_DEVICE_INFO_MOUSE"
-          href: https://msdn.microsoft.com/en-us/library/ms645589(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info_mouse

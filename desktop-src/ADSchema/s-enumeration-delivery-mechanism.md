@@ -29,7 +29,7 @@ Enumeration(delivery-mechanism) syntax.
 | MAPI Type    | LONG                                                                      |
 | ADS Type     | ADSTYPE\_INTEGER                                                          |
 | Variant Type | VT\_I4                                                                    |
-| SDS Type     | [System.Int32](https://msdn.microsoft.com/library/system.int32.aspx) |
+| SDS Type     | [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) |
 
 
 
@@ -41,7 +41,7 @@ Defined by the ITU. Active Directory treats this as an integer.
 
 <dl> <dt>
 
-[System.Int32](https://msdn.microsoft.com/library/system.int32.aspx)
+[System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)
 </dt> </dl>
 
  

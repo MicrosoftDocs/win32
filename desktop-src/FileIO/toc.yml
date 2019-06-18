@@ -38,11 +38,11 @@
         href: directory-management-control-codes.md
         items: 
         - name: "FSCTL_DELETE_REPARSE_POINT"
-          href: https://msdn.microsoft.com/en-us/library/Aa364560(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_reparse_point
         - name: "FSCTL_GET_REPARSE_POINT"
-          href: https://msdn.microsoft.com/en-us/library/Aa364571(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point
         - name: "FSCTL_SET_REPARSE_POINT"
-          href: https://msdn.microsoft.com/en-us/library/Aa364595(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_reparse_point
       - name: "Directory Management Enumerations"
         href: directory-management-enumerations.md
         items: 
@@ -200,11 +200,11 @@
         href: disk-management-enumeration-types.md
         items: 
         - name: "MEDIA_TYPE"
-          href: https://msdn.microsoft.com/en-us/library/Aa365231(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type
         - name: "PARTITION_STYLE"
-          href: https://msdn.microsoft.com/en-us/library/Aa365452(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style
         - name: "STORAGE_BUS_TYPE"
-          href: https://msdn.microsoft.com/en-us/library/Ff800833(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type
         - name: "STORAGE_COMPONENT_HEALTH_STATUS"
           href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_component_health_status
         - name: "STORAGE_DEVICE_FORM_FACTOR"
@@ -212,21 +212,21 @@
         - name: "STORAGE_DEVICE_POWER_CAP_UNITS"
           href: /windows/desktop/api/winioctl/ne-winioctl-_storage_device_power_cap_units
         - name: "STORAGE_PORT_CODE_SET"
-          href: https://msdn.microsoft.com/en-us/library/Ff800838(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_port_code_set
         - name: "STORAGE_PROPERTY_ID"
-          href: https://msdn.microsoft.com/en-us/library/Ff800839(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id
         - name: "STORAGE_PROTOCOL_TYPE"
           href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_protocol_type
         - name: "STORAGE_QUERY_TYPE"
           href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_query_type
         - name: "WRITE_CACHE_CHANGE"
-          href: https://msdn.microsoft.com/en-us/library/Ff800843(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_change
         - name: "WRITE_CACHE_ENABLE"
-          href: https://msdn.microsoft.com/en-us/library/Ff800844(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_enable
         - name: "WRITE_CACHE_TYPE"
-          href: https://msdn.microsoft.com/en-us/library/Ff800845(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_type
         - name: "WRITE_THROUGH"
-          href: https://msdn.microsoft.com/en-us/library/Ff800846(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_through
       - name: "Disk Management Functions"
         href: disk-management-functions.md
         items: 
@@ -238,110 +238,110 @@
         href: disk-management-interfaces.md
         items: 
         - name: "IDiskQuotaControl"
-          href: https://msdn.microsoft.com/en-us/library/Aa365009(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol
           items: 
           - name: "AddUserName Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365010(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusername
           - name: "AddUserSid Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365011(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusersid
           - name: "CreateEnumUsers Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365012(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createenumusers
           - name: "CreateUserBatch Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365013(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createuserbatch
           - name: "DeleteUser Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365014(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-deleteuser
           - name: "FindUserName Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365015(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername
           - name: "FindUserSid Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365016(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid
           - name: "GetDefaultQuotaLimit Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365017(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotalimit
           - name: "GetDefaultQuotaLimitText Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365018(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotalimittext
           - name: "GetDefaultQuotaThreshold Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365019(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotathreshold
           - name: "GetDefaultQuotaThresholdText Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365020(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotathresholdtext
           - name: "GetQuotaLogFlags Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365021(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getquotalogflags
           - name: "GetQuotaState Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365022(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getquotastate
           - name: "GiveUserNameResolutionPriority Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365023(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-giveusernameresolutionpriority
           - name: "Initialize Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365024(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-initialize
           - name: "InvalidateSidNameCache Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365025(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-invalidatesidnamecache
           - name: "SetDefaultQuotaLimit Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365026(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setdefaultquotalimit
           - name: "SetDefaultQuotaThreshold Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365027(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setdefaultquotathreshold
           - name: "SetQuotaLogFlags Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365028(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags
           - name: "SetQuotaState Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365029(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotastate
           - name: "ShutdownNameResolution Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365030(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-shutdownnameresolution
         - name: "IDiskQuotaEvents"
-          href: https://msdn.microsoft.com/en-us/library/Aa365031(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents
           items: 
           - name: "OnUserNameChanged Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365032(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotaevents-onusernamechanged
         - name: "IDiskQuotaUser"
-          href: https://msdn.microsoft.com/en-us/library/Aa365033(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser
           items: 
           - name: "GetAccountStatus Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365039(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getaccountstatus
           - name: "GetID Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365040(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getid
           - name: "GetName Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365041(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getname
           - name: "GetQuotaInformation Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365042(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotainformation
           - name: "GetQuotaLimit Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365043(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimit
           - name: "GetQuotaLimitText Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365044(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimittext
           - name: "GetQuotaThreshold Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365045(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathreshold
           - name: "GetQuotaThresholdText Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365046(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathresholdtext
           - name: "GetQuotaUsed Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365047(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotaused
           - name: "GetQuotaUsedText Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365048(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotausedtext
           - name: "GetSid Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365049(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsid
           - name: "GetSidLength Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365050(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsidlength
           - name: "Invalidate Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365051(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-invalidate
           - name: "SetQuotaLimit Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365052(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotalimit
           - name: "SetQuotaThreshold Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365053(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold
         - name: "IDiskQuotaUserBatch"
-          href: https://msdn.microsoft.com/en-us/library/Aa365034(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch
           items: 
           - name: "Add Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365035(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-add
           - name: "FlushToDisk Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365036(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk
           - name: "Remove Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365037(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-remove
           - name: "RemoveAll Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365038(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-removeall
         - name: "IEnumDiskQuotaUsers"
-          href: https://msdn.microsoft.com/en-us/library/Aa365054(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers
           items: 
           - name: "Clone Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365055(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-clone
           - name: "Next Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365056(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next
           - name: "Reset Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365057(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-reset
           - name: "Skip Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa365058(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-skip
       - name: "Disk Management Structures"
         href: disk-management-structures.md
         items: 
@@ -687,79 +687,79 @@
         href: file-management-control-codes.md
         items: 
         - name: "FSCTL_ALLOW_EXTENDED_DASD_IO"
-          href: https://msdn.microsoft.com/en-us/library/Aa364556(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_allow_extended_dasd_io
         - name: "FSCTL_CREATE_OR_GET_OBJECT_ID"
-          href: https://msdn.microsoft.com/en-us/library/Aa364557(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id
         - name: "FSCTL_CSV_CONTROL"
-          href: https://msdn.microsoft.com/en-us/library/Dn280516(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control
         - name: "FSCTL_DELETE_OBJECT_ID"
-          href: https://msdn.microsoft.com/en-us/library/Aa364559(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id
         - name: "FSCTL_DUPLICATE_EXTENTS_TO_FILE"
-          href: https://msdn.microsoft.com/en-us/library/Mt590823(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file
         - name: "FSCTL_FILE_LEVEL_TRIM"
-          href: https://msdn.microsoft.com/en-us/library/Hh447306(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim
         - name: "FSCTL_FILESYSTEM_GET_STATISTICS"
-          href: https://msdn.microsoft.com/en-us/library/Aa364565(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics
         - name: "FSCTL_FILESYSTEM_GET_STATISTICS_EX"
-          href: https://msdn.microsoft.com/en-us/library/Dn706122(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics_ex
         - name: "FSCTL_FIND_FILES_BY_SID"
-          href: https://msdn.microsoft.com/en-us/library/Aa364566(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid
         - name: "FSCTL_GET_COMPRESSION"
-          href: https://msdn.microsoft.com/en-us/library/Aa364567(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_compression
         - name: "FSCTL_GET_NTFS_FILE_RECORD"
-          href: https://msdn.microsoft.com/en-us/library/Aa364568(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_ntfs_file_record
         - name: "FSCTL_GET_OBJECT_ID"
-          href: https://msdn.microsoft.com/en-us/library/Aa364570(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id
         - name: "FSCTL_GET_REPAIR"
-          href: https://msdn.microsoft.com/en-us/library/Aa964898(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_repair
         - name: "FSCTL_INITIATE_REPAIR"
-          href: https://msdn.microsoft.com/en-us/library/Aa964899(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_initiate_repair
         - name: "FSCTL_MAKE_MEDIA_COMPATIBLE"
-          href: https://msdn.microsoft.com/en-us/library/Aa964900(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible
         - name: "FSCTL_OPBATCH_ACK_CLOSE_PENDING"
-          href: https://msdn.microsoft.com/en-us/library/Aa364578(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_opbatch_ack_close_pending
         - name: "FSCTL_OPLOCK_BREAK_ACK_NO_2"
-          href: https://msdn.microsoft.com/en-us/library/Aa364580(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_ack_no_2
         - name: "FSCTL_OPLOCK_BREAK_ACKNOWLEDGE"
-          href: https://msdn.microsoft.com/en-us/library/Aa364579(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_acknowledge
         - name: "FSCTL_OPLOCK_BREAK_NOTIFY"
-          href: https://msdn.microsoft.com/en-us/library/Aa364581(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_notify
         - name: "FSCTL_QUERY_ALLOCATED_RANGES"
-          href: https://msdn.microsoft.com/en-us/library/Aa364582(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges
         - name: "FSCTL_QUERY_ON_DISK_VOLUME_INFO"
-          href: https://msdn.microsoft.com/en-us/library/Aa964901(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info
         - name: "FSCTL_QUERY_SPARING_INFO"
-          href: https://msdn.microsoft.com/en-us/library/Aa964902(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_sparing_info
         - name: "FSCTL_RECALL_FILE"
-          href: https://msdn.microsoft.com/en-us/library/Aa364587(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_recall_file
         - name: "FSCTL_REQUEST_BATCH_OPLOCK"
-          href: https://msdn.microsoft.com/en-us/library/Aa364588(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_batch_oplock
         - name: "FSCTL_REQUEST_FILTER_OPLOCK"
-          href: https://msdn.microsoft.com/en-us/library/Aa364589(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_filter_oplock
         - name: "FSCTL_REQUEST_OPLOCK"
-          href: https://msdn.microsoft.com/en-us/library/Ee681828(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock
         - name: "FSCTL_REQUEST_OPLOCK_LEVEL_1"
-          href: https://msdn.microsoft.com/en-us/library/Aa364590(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_1
         - name: "FSCTL_REQUEST_OPLOCK_LEVEL_2"
-          href: https://msdn.microsoft.com/en-us/library/Aa364591(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_2
         - name: "FSCTL_SET_COMPRESSION"
-          href: https://msdn.microsoft.com/en-us/library/Aa364592(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_compression
         - name: "FSCTL_SET_DEFECT_MANAGEMENT"
-          href: https://msdn.microsoft.com/en-us/library/Aa964903(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_defect_management
         - name: "FSCTL_SET_OBJECT_ID"
-          href: https://msdn.microsoft.com/en-us/library/Aa364593(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id
         - name: "FSCTL_SET_OBJECT_ID_EXTENDED"
-          href: https://msdn.microsoft.com/en-us/library/Aa364594(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended
         - name: "FSCTL_SET_REPAIR"
-          href: https://msdn.microsoft.com/en-us/library/Aa964904(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_repair
         - name: "FSCTL_SET_SPARSE"
-          href: https://msdn.microsoft.com/en-us/library/Aa364596(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse
         - name: "FSCTL_SET_ZERO_DATA"
-          href: https://msdn.microsoft.com/en-us/library/Aa364597(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data
         - name: "FSCTL_SET_ZERO_ON_DEALLOCATION"
-          href: https://msdn.microsoft.com/en-us/library/Aa964911(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_on_deallocation
         - name: "FSCTL_WAIT_FOR_REPAIR"
-          href: https://msdn.microsoft.com/en-us/library/Aa964916(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_wait_for_repair
       - name: "File Management Enumerations"
         href: file-management-enumerations.md
         items: 
@@ -774,13 +774,13 @@
         - name: "FILE_ID_TYPE"
           href: /windows/desktop/api/WinBase/ne-winbase-_file_id_type
         - name: "FILE_INFO_BY_HANDLE_CLASS"
-          href: https://msdn.microsoft.com/en-us/library/Aa364228(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class
         - name: "FINDEX_INFO_LEVELS"
-          href: https://msdn.microsoft.com/en-us/library/Aa364415(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-findex_info_levels
         - name: "FINDEX_SEARCH_OPS"
-          href: https://msdn.microsoft.com/en-us/library/Aa364416(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-findex_search_ops
         - name: "GET_FILEEX_INFO_LEVELS"
-          href: https://msdn.microsoft.com/en-us/library/Bb736257(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels
         - name: "PRIORITY_HINT"
           href: /windows/desktop/api/WinBase/ne-winbase-_priority_hint
         - name: "STREAM_INFO_LEVELS"
@@ -847,7 +847,7 @@
         - name: "FileEncryptionStatus"
           href: /windows/desktop/api/WinBase/nf-winbase-fileencryptionstatusa
         - name: "FileIOCompletionRoutine"
-          href: https://msdn.microsoft.com/en-us/library/Aa364052(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine
         - name: "FindClose"
           href: /windows/desktop/api/FileAPI/nf-fileapi-findclose
         - name: "FindFirstFile"
@@ -911,7 +911,7 @@
         - name: "GetLongPathNameTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-getlongpathnametransacteda
         - name: "GetQueuedCompletionStatus"
-          href: https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus
         - name: "GetQueuedCompletionStatusEx"
           href: getqueuedcompletionstatusex-func.md
         - name: "GetShortPathName"
@@ -973,7 +973,7 @@
         - name: "ReplaceFile"
           href: /windows/desktop/api/WinBase/nf-winbase-replacefilea
         - name: "SearchPath"
-          href: https://msdn.microsoft.com/en-us/library/Aa365527(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw
         - name: "SetEndOfFile"
           href: /windows/desktop/api/FileAPI/nf-fileapi-setendoffile
         - name: "SetFileApisToANSI"
@@ -1035,11 +1035,11 @@
         - name: "WofWimUpdateEntry"
           href: /windows/desktop/api/wofapi/nf-wofapi-wofwimupdateentry
         - name: "Wow64DisableWow64FsRedirection"
-          href: https://msdn.microsoft.com/en-us/library/Aa365743(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection
         - name: "Wow64EnableWow64FsRedirection"
           href: /windows/desktop/api/WinBase/nf-winbase-wow64enablewow64fsredirection
         - name: "Wow64RevertWow64FsRedirection"
-          href: https://msdn.microsoft.com/en-us/library/Aa365745(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection
         - name: "WriteEncryptedFileRaw"
           href: /windows/desktop/api/WinBase/nf-winbase-writeencryptedfileraw
         - name: "WriteFile"
@@ -1106,7 +1106,7 @@
         - name: "FILE_FULL_DIR_INFO"
           href: /windows/desktop/api/WinBase/ns-winbase-_file_full_dir_info
         - name: "FILE_ID_128"
-          href: https://msdn.microsoft.com/en-us/library/Hh965605(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128
         - name: "FILE_ID_BOTH_DIR_INFO"
           href: /windows/desktop/api/WinBase/ns-winbase-_file_id_both_dir_info
         - name: "FILE_ID_DESCRIPTOR"
@@ -1212,27 +1212,27 @@
         href: transactional-ntfs-control-codes.md
         items: 
         - name: "FSCTL_TXFS_CREATE_MINIVERSION"
-          href: https://msdn.microsoft.com/en-us/library/Aa364598(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion
         - name: "FSCTL_TXFS_GET_METADATA_INFO"
-          href: https://msdn.microsoft.com/en-us/library/Aa364600(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info
         - name: "FSCTL_TXFS_GET_TRANSACTED_VERSION"
-          href: https://msdn.microsoft.com/en-us/library/Aa364601(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_transacted_version
         - name: "FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES"
-          href: https://msdn.microsoft.com/en-us/library/Aa364604(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transaction_locked_files
         - name: "FSCTL_TXFS_LIST_TRANSACTIONS"
-          href: https://msdn.microsoft.com/en-us/library/Aa364603(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transactions
         - name: "FSCTL_TXFS_MODIFY_RM"
-          href: https://msdn.microsoft.com/en-us/library/Aa364605(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm
         - name: "FSCTL_TXFS_QUERY_RM_INFORMATION"
-          href: https://msdn.microsoft.com/en-us/library/Aa364606(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information
         - name: "FSCTL_TXFS_READ_BACKUP_INFORMATION"
-          href: https://msdn.microsoft.com/en-us/library/Aa364607(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_read_backup_information
         - name: "FSCTL_TXFS_SAVEPOINT_INFORMATION"
-          href: https://msdn.microsoft.com/en-us/library/Bb736256(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_savepoint_information
         - name: "FSCTL_TXFS_TRANSACTION_ACTIVE"
-          href: https://msdn.microsoft.com/en-us/library/Aa364805(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_transaction_active
         - name: "FSCTL_TXFS_WRITE_BACKUP_INFORMATION"
-          href: https://msdn.microsoft.com/en-us/library/Aa364808(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_write_backup_information
       - name: "TxF Functions"
         href: txf-functions.md
         items: 
@@ -1354,71 +1354,71 @@
         href: volume-management-control-codes.md
         items: 
         - name: "FSCTL_CREATE_USN_JOURNAL"
-          href: https://msdn.microsoft.com/en-us/library/Aa364558(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal
         - name: "FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS"
-          href: https://msdn.microsoft.com/en-us/library/Dn280517(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics
         - name: "FSCTL_DELETE_USN_JOURNAL"
-          href: https://msdn.microsoft.com/en-us/library/Aa364561(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal
         - name: "FSCTL_DISMOUNT_VOLUME"
-          href: https://msdn.microsoft.com/en-us/library/Aa364562(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_dismount_volume
         - name: "FSCTL_ENUM_USN_DATA"
-          href: https://msdn.microsoft.com/en-us/library/Aa364563(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data
         - name: "FSCTL_EXTEND_VOLUME"
-          href: https://msdn.microsoft.com/en-us/library/Aa364564(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_extend_volume
         - name: "FSCTL_GET_BOOT_AREA_INFO"
-          href: https://msdn.microsoft.com/en-us/library/Dd405525(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info
         - name: "FSCTL_GET_INTEGRITY_INFORMATION"
-          href: https://msdn.microsoft.com/en-us/library/Hh965606(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information
         - name: "FSCTL_GET_NTFS_VOLUME_DATA"
-          href: https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_ntfs_volume_data
         - name: "FSCTL_GET_RETRIEVAL_POINTER_BASE"
-          href: https://msdn.microsoft.com/en-us/library/Dd405526(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base
         - name: "FSCTL_GET_RETRIEVAL_POINTERS"
-          href: https://msdn.microsoft.com/en-us/library/Aa364572(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers
         - name: "FSCTL_GET_VOLUME_BITMAP"
-          href: https://msdn.microsoft.com/en-us/library/Aa364573(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap
         - name: "FSCTL_IS_CSV_FILE"
-          href: https://msdn.microsoft.com/en-us/library/Dn280518(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file
         - name: "FSCTL_IS_FILE_ON_CSV_VOLUME"
-          href: https://msdn.microsoft.com/en-us/library/Dn280519(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_file_on_csv_volume
         - name: "FSCTL_IS_VOLUME_MOUNTED"
-          href: https://msdn.microsoft.com/en-us/library/Aa364574(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_mounted
         - name: "FSCTL_IS_VOLUME_OWNED_BYCSVFS"
-          href: https://msdn.microsoft.com/en-us/library/Dn280520(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs
         - name: "FSCTL_LOCK_VOLUME"
-          href: https://msdn.microsoft.com/en-us/library/Aa364575(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume
         - name: "FSCTL_LOOKUP_STREAM_FROM_CLUSTER"
-          href: https://msdn.microsoft.com/en-us/library/Ff951637(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster
         - name: "FSCTL_MARK_HANDLE"
-          href: https://msdn.microsoft.com/en-us/library/Aa364576(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle
         - name: "FSCTL_MOVE_FILE"
-          href: https://msdn.microsoft.com/en-us/library/Aa364577(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file
         - name: "FSCTL_QUERY_FILE_SYSTEM_RECOGNITION"
-          href: https://msdn.microsoft.com/en-us/library/Dd442655(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition
         - name: "FSCTL_QUERY_REGION_INFO"
-          href: https://msdn.microsoft.com/en-us/library/Dn393706(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_region_info
         - name: "FSCTL_QUERY_STORAGE_CLASSES"
-          href: https://msdn.microsoft.com/en-us/library/Dn393709(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_storage_classes
         - name: "FSCTL_QUERY_USN_JOURNAL"
-          href: https://msdn.microsoft.com/en-us/library/Aa364583(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal
         - name: "FSCTL_READ_FILE_USN_DATA"
-          href: https://msdn.microsoft.com/en-us/library/Aa364584(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_file_usn_data
         - name: "FSCTL_READ_FROM_PLEX"
-          href: https://msdn.microsoft.com/en-us/library/Aa364585(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_from_plex
         - name: "FSCTL_READ_USN_JOURNAL"
-          href: https://msdn.microsoft.com/en-us/library/Aa364586(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal
         - name: "FSCTL_REPAIR_COPIES"
-          href: https://msdn.microsoft.com/en-us/library/Hh965608(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies
         - name: "FSCTL_SET_INTEGRITY_INFORMATION"
-          href: https://msdn.microsoft.com/en-us/library/Hh965609(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information
         - name: "FSCTL_SHRINK_VOLUME"
-          href: https://msdn.microsoft.com/en-us/library/Aa964912(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume
         - name: "FSCTL_UNLOCK_VOLUME"
-          href: https://msdn.microsoft.com/en-us/library/Aa364814(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume
         - name: "FSCTL_USN_TRACK_MODIFIED_RANGES"
-          href: https://msdn.microsoft.com/en-us/library/Mt684959(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges
         - name: "FSCTL_WRITE_USN_CLOSE_RECORD"
-          href: https://msdn.microsoft.com/en-us/library/Aa364816(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_write_usn_close_record
         - name: "IOCTL_VOLUME_GET_GPT_ATTRIBUTES"
           href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_get_gpt_attributes
         - name: "IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS"
@@ -1535,7 +1535,7 @@
         - name: "READ_USN_JOURNAL_DATA_V0"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-read_usn_journal_data_v0
         - name: "READ_USN_JOURNAL_DATA_V1"
-          href: https://msdn.microsoft.com/en-us/library/Hh802706(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802706(v=vs.85)
         - name: "REPAIR_COPIES_INPUT"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-_repair_copies_input
         - name: "REPAIR_COPIES_OUTPUT"
@@ -1553,7 +1553,7 @@
         - name: "USN_JOURNAL_DATA_V0"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_journal_data_v0
         - name: "USN_JOURNAL_DATA_V1"
-          href: https://msdn.microsoft.com/en-us/library/Hh802707(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802707(v=vs.85)
         - name: "USN_JOURNAL_DATA_V2"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_journal_data_v2
         - name: "USN_RANGE_TRACK_OUTPUT"

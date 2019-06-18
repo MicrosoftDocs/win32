@@ -267,9 +267,9 @@ This white paper provides detailed steps about the design process, along with co
 
 For more information about User Account Control, visit [Windows Vista: User Account Control](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) on [Microsoft TechNet](https://www.microsoft.com/technet/).
 
-Another useful resource is the article [Teach Your Apps To Play Nicely with Windows Vista User Account Control](http://msdn.microsoft.com/magazine/msdn-magazine-issues), from [MSDN Magazine](https://msdn.microsoft.com/magazine/default.aspx), January 2007. This article discusses general issues of application compatibility, as well as the advantages and issues of using Windows Installer packages on Windows Vista.
+Another useful resource is the article [Teach Your Apps To Play Nicely with Windows Vista User Account Control](https://msdn.microsoft.com/magazine/msdn-magazine-issues), from [MSDN Magazine](https://msdn.microsoft.com/magazine/default.aspx), January 2007. This article discusses general issues of application compatibility, as well as the advantages and issues of using Windows Installer packages on Windows Vista.
 
-For more information about the bug and the fix for mt.exe, the tool used by Visual Studio 2005 to automatically merge and embed a manifest into an executable, see [Exploring Manifests Part 2: Default Namespaces and UAC Manifests in Windows Vista](https://blogs.msdn.microsoft.com/cjacks/2006/09/08/exploring-manifests-part-2-default-namespaces-and-uac-manifests-in-windows-vista/) on Chris Jackson's blog on [MSDN](https://blogs.msdn.microsoft.com/).
+For more information about the bug and the fix for mt.exe, the tool used by Visual Studio 2005 to automatically merge and embed a manifest into an executable, see [Exploring Manifests Part 2: Default Namespaces and UAC Manifests in Windows Vista](https://techcommunity.microsoft.com/t5/Windows-Blog-Archive/bg-p/Windows-Blog-Archive/2006/09/08/exploring-manifests-part-2-default-namespaces-and-uac-manifests-in-windows-vista/) on Chris Jackson's blog on [MSDN](https://blogs.msdn.microsoft.com/).
 
  
 

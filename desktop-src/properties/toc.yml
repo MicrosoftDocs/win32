@@ -2350,18 +2350,18 @@
         - name: "GetCount"
           href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtypelist-getcount
       - name: "IPropertyStore"
-        href: https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore
         items: 
         - name: "Commit"
-          href: https://msdn.microsoft.com/en-us/library/Bb761470(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761470(v=vs.85)
         - name: "GetAt"
-          href: https://msdn.microsoft.com/en-us/library/Bb761471(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)
         - name: "GetCount"
-          href: https://msdn.microsoft.com/en-us/library/Bb761472(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)
         - name: "GetValue"
-          href: https://msdn.microsoft.com/en-us/library/Bb761473(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761473(v=vs.85)
         - name: "SetValue"
-          href: https://msdn.microsoft.com/en-us/library/Bb761475(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)
       - name: "IPropertyStoreCache"
         href: /windows/desktop/api/Propsys/nn-propsys-ipropertystorecache
         items: 
@@ -2410,7 +2410,7 @@
         - name: "FormatForDisplay"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-formatfordisplay
         - name: "GetCanonicalName"
-          href: https://msdn.microsoft.com/en-us/library/Dd758076(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758076(v=vs.85)
         - name: "GetDefaultWidth"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getdefaultwidth
         - name: "GetDisplayName"
@@ -2903,7 +2903,7 @@
       - name: "PSCreateMemoryPropertyStore"
         href: /windows/desktop/api/Propsys/nf-propsys-pscreatememorypropertystore
       - name: "PSCreateMemoryPropertyStoreMarshalByValue"
-        href: https://msdn.microsoft.com/en-us/library/Mt712605(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt712605(v=vs.85)
       - name: "PSCreateMultiplexPropertyStore"
         href: /windows/desktop/api/Propsys/nf-propsys-pscreatemultiplexpropertystore
       - name: "PSCreatePropertyChangeArray"
@@ -3011,7 +3011,7 @@
       - name: "PROPDESC_VIEW_FLAGS"
         href: /windows/desktop/api/Propsys/ne-propsys-propdesc_view_flags
       - name: "PROPERTYUI_FLAGS"
-        href: https://msdn.microsoft.com/en-us/library/Bb762529(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags
       - name: "PROPVAR_COMPARE_UNIT"
         href: /windows/desktop/api/PropVarUtil/ne-propvarutil-propvar_compare_unit
       - name: "PSC_STATE"

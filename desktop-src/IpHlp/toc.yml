@@ -67,7 +67,7 @@
       - name: "CancelMibChangeNotify2"
         href: /windows/desktop/api/Netioapi/nf-netioapi-cancelmibchangenotify2
       - name: "CancelSecurityHealthChangeNotify"
-        href: https://msdn.microsoft.com/en-us/library/Bb442512(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb442512(v=vs.85)
       - name: "ConvertInterfaceAliasToLuid"
         href: /windows/desktop/api/Netioapi/nf-netioapi-convertinterfacealiastoluid
       - name: "ConvertInterfaceGuidToLuid"
@@ -327,7 +327,7 @@
       - name: "NotifyRouteChange2"
         href: /windows/desktop/api/Netioapi/nf-netioapi-notifyroutechange2
       - name: "NotifySecurityHealthChange"
-        href: https://msdn.microsoft.com/en-us/library/Bb451761(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb451761(v=vs.85)
       - name: "NotifyStableUnicastIpAddressTable"
         href: /windows/desktop/api/Netioapi/nf-netioapi-notifystableunicastipaddresstable
       - name: "NotifyTeredoPortChange"

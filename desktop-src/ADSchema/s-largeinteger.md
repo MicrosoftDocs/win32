@@ -29,7 +29,7 @@ Represents a 64-bit signed integer value.
 | MAPI Type    | \-                                                                                 |
 | ADS Type     | ADSTYPE\_LARGE\_INTEGER                                                            |
 | Variant Type | VT\_DISPATCH                                                                       |
-| SDS Type     | A COM object that can be cast to an [**IADsLargeInteger**](https://msdn.microsoft.com/library/aa706037). |
+| SDS Type     | A COM object that can be cast to an [**IADsLargeInteger**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadslargeinteger). |
 
 
 
@@ -37,7 +37,7 @@ Represents a 64-bit signed integer value.
 
 <dl> <dt>
 
-[**IADsLargeInteger**](https://msdn.microsoft.com/library/aa706037)
+[**IADsLargeInteger**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadslargeinteger)
 </dt> </dl>
 
  

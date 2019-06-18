@@ -140,7 +140,7 @@
           - name: "AdjustCalendarDate"
             href: adjustcalendardate.md
           - name: "CompareString"
-            href: https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw
           - name: "CompareStringEx"
             href: /windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex
           - name: "CompareStringOrdinal"
@@ -180,9 +180,9 @@
           - name: "EnumLanguageGroupLocales"
             href: /windows/desktop/api/Winnls/nf-winnls-enumlanguagegrouplocalesa
           - name: "EnumLanguageGroupLocalesProc"
-            href: https://msdn.microsoft.com/en-us/library/Dd317820(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca
           - name: "EnumLocalesProcEx"
-            href: https://msdn.microsoft.com/en-us/library/Dd317823(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-locale_enumprocex
           - name: "EnumSystemCodePages"
             href: /windows/desktop/api/Winnls/nf-winnls-enumsystemcodepagesa
           - name: "EnumSystemGeoID"
@@ -206,7 +206,7 @@
           - name: "FindStringOrdinal"
             href: /windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal
           - name: "FoldString"
-            href: https://msdn.microsoft.com/en-us/library/Dd318063(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-foldstringw
           - name: "Geo_EnumNameProc"
             href: /windows/desktop/api/Winnls/nc-winnls-geo_enumnameproc
           - name: "GetACP"
@@ -1030,7 +1030,7 @@
           - name: "CreateUI method"
             href: /windows/desktop/api/Imepad/nf-imepad-iimepadapplet-createui
           - name: "GetAppletCfg method"
-            href: https://msdn.microsoft.com/en-us/library/Hh851787(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)
           - name: "Initialize method"
             href: /windows/desktop/api/Imepad/nf-imepad-iimepadapplet-initialize
           - name: "Notify method"
@@ -1373,7 +1373,7 @@
         - name: "EnumUILanguages"
           href: /windows/desktop/api/Winnls/nf-winnls-enumuilanguagesa
         - name: "EnumUILanguagesProc"
-          href: https://msdn.microsoft.com/en-us/library/Dd317835(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca
         - name: "FreeMUILibrary"
           href: /windows/desktop/api/Muiload/nf-muiload-freemuilibrary
         - name: "GetFileMUIInfo"
@@ -1533,7 +1533,7 @@
         - name: "TranslateCharsetInfo"
           href: /windows/desktop/api/Wingdi/nf-wingdi-translatecharsetinfo
         - name: "UnicodeToBytes"
-          href: https://msdn.microsoft.com/en-us/library/Dd374082(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd374082(v=vs.85)
         - name: "WideCharToMultiByte"
           href: /windows/desktop/api/Stringapiset/nf-stringapiset-widechartomultibyte
       - name: "Unicode and Character Set Macros"

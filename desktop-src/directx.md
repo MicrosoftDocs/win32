@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DirectX Graphics and Gaming
 
-For information on using DirectX in UWP apps, see [Games and DirectX (UWP)](https://msdn.microsoft.com/library/windows/desktop/ee663274.aspx).
+For information on using DirectX in UWP apps, see [Games and DirectX (UWP)](https://docs.microsoft.com/windows/desktop/directx).
 
 ## In this section
 

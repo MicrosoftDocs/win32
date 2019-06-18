@@ -152,7 +152,7 @@
         - name: "AsnAny"
           href: /windows/desktop/api/Snmp/ns-snmp-asnany
         - name: "AsnCounter64"
-          href: https://msdn.microsoft.com/en-us/library/Aa377953(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377953(v=vs.85)
         - name: "AsnObjectIdentifier"
           href: /windows/desktop/api/Snmp/ns-snmp-asnobjectidentifier
         - name: "AsnOctetString"

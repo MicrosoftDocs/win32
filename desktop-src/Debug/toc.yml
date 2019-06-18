@@ -28,11 +28,11 @@
       href: error-handling-functions.md
       items: 
       - name: "Beep"
-        href: https://msdn.microsoft.com/en-us/library/ms679277(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/utilapiset/nf-utilapiset-beep
       - name: "CaptureStackBackTrace"
-        href: https://msdn.microsoft.com/en-us/library/Bb204633(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb204633(v=vs.85)
       - name: "FatalAppExit"
-        href: https://msdn.microsoft.com/en-us/library/ms679336(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fatalexit
       - name: "FlashWindow"
         href: /windows/desktop/api/Winuser/nf-winuser-flashwindow
       - name: "FlashWindowEx"
@@ -40,11 +40,11 @@
       - name: "FormatMessage"
         href: /windows/desktop/api/WinBase/nf-winbase-formatmessage
       - name: "GetErrorMode"
-        href: https://msdn.microsoft.com/en-us/library/ms679355(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode
       - name: "GetLastError"
-        href: https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror
       - name: "GetThreadErrorMode"
-        href: https://msdn.microsoft.com/en-us/library/Dd553629(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode
       - name: "MessageBeep"
         href: /windows/desktop/api/WinUser/nf-winuser-messagebeep
       - name: "RtlLookupFunctionEntry"
@@ -52,7 +52,7 @@
       - name: "RtlNtStatusToDosError"
         href: /windows/desktop/api/Winternl/nf-winternl-rtlntstatustodoserror
       - name: "RtlNtStatusToDosErrorNoTeb"
-        href: https://msdn.microsoft.com/en-us/library/Dn934204(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn934204(v=vs.85)
       - name: "RtlPcToFileHeader"
         href: /windows/desktop/api/WinNT/nf-winnt-rtlpctofileheader
       - name: "RtlUnwind"
@@ -64,13 +64,13 @@
       - name: "RtlVirtualUnwind"
         href: /windows/desktop/api/WinNT/nf-winnt-rtlvirtualunwind
       - name: "SetErrorMode"
-        href: https://msdn.microsoft.com/en-us/library/ms680621(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode
       - name: "SetLastError"
-        href: https://msdn.microsoft.com/en-us/library/ms680627(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror
       - name: "SetLastErrorEx"
         href: /windows/desktop/api/Winuser/nf-winuser-setlasterrorex
       - name: "SetThreadErrorMode"
-        href: https://msdn.microsoft.com/en-us/library/Dd553630(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode
     - name: "Error Handling Macros"
       href: error-handling-macro.md
       items: 
@@ -144,15 +144,15 @@
       href: debugging-functions.md
       items: 
       - name: "CheckRemoteDebuggerPresent"
-        href: https://msdn.microsoft.com/en-us/library/ms679280(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent
       - name: "ContinueDebugEvent"
-        href: https://msdn.microsoft.com/en-us/library/ms679285(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-continuedebugevent
       - name: "DebugActiveProcess"
-        href: https://msdn.microsoft.com/en-us/library/ms679295(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess
       - name: "DebugActiveProcessStop"
-        href: https://msdn.microsoft.com/en-us/library/ms679296(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop
       - name: "DebugBreak"
-        href: https://msdn.microsoft.com/en-us/library/ms679297(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugbreak
       - name: "DebugBreakProcess"
         href: /windows/desktop/api/WinBase/nf-winbase-debugbreakprocess
       - name: "DebugSetProcessKillOnExit"
@@ -160,23 +160,23 @@
       - name: "FatalExit"
         href: /windows/desktop/api/WinBase/nf-winbase-fatalexit
       - name: "FlushInstructionCache"
-        href: https://msdn.microsoft.com/en-us/library/ms679350(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache
       - name: "GetThreadContext"
-        href: https://msdn.microsoft.com/en-us/library/ms679362(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext
       - name: "GetThreadSelectorEntry"
         href: /windows/desktop/api/WinBase/nf-winbase-getthreadselectorentry
       - name: "IsDebuggerPresent"
-        href: https://msdn.microsoft.com/en-us/library/ms680345(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent
       - name: "OutputDebugString"
-        href: https://msdn.microsoft.com/en-us/library/Aa363362(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw
       - name: "ReadProcessMemory"
-        href: https://msdn.microsoft.com/en-us/library/ms680553(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory
       - name: "SetThreadContext"
-        href: https://msdn.microsoft.com/en-us/library/ms680632(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext
       - name: "WaitForDebugEvent"
-        href: https://msdn.microsoft.com/en-us/library/ms681423(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent
       - name: "WaitForDebugEventEx"
-        href: https://msdn.microsoft.com/en-us/library/Mt171594(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugeventex
       - name: "Wow64GetThreadContext"
         href: /windows/desktop/api/WinBase/nf-winbase-wow64getthreadcontext
       - name: "Wow64GetThreadSelectorEntry"
@@ -184,36 +184,36 @@
       - name: "Wow64SetThreadContext"
         href: /windows/desktop/api/WinBase/nf-winbase-wow64setthreadcontext
       - name: "WriteProcessMemory"
-        href: https://msdn.microsoft.com/en-us/library/ms681674(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory
     - name: "Debugging Structures"
       href: debugging-structures.md
       items: 
       - name: "CONTEXT"
         href: /windows/desktop/api/WinNT/ns-winnt-_arm64_nt_context
       - name: "CREATE_PROCESS_DEBUG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms679286(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info
       - name: "CREATE_THREAD_DEBUG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms679287(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info
       - name: "DEBUG_EVENT"
-        href: https://msdn.microsoft.com/en-us/library/ms679308(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event
       - name: "EXCEPTION_DEBUG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms679326(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info
       - name: "EXIT_PROCESS_DEBUG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms679334(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info
       - name: "EXIT_THREAD_DEBUG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms679335(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info
       - name: "LDT_ENTRY"
         href: /windows/desktop/api/WinNT/ns-winnt-_ldt_entry
       - name: "LOAD_DLL_DEBUG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms680351(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info
       - name: "OUTPUT_DEBUG_STRING_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms680545(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info
       - name: "RIP_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms680587(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-rip_info
       - name: "Thread Environment Block (Debugging Notes)"
         href: thread-environment-block--debugging-notes-.md
       - name: "UNLOAD_DLL_DEBUG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms681403(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info
       - name: "WOW64_CONTEXT"
         href: /windows/desktop/api/WinNT/ns-winnt-_wow64_context
       - name: "WOW64_FLOATING_SAVE_AREA"
@@ -860,21 +860,21 @@
       - name: "AbnormalTermination"
         href: abnormaltermination.md
       - name: "AddVectoredContinueHandler"
-        href: https://msdn.microsoft.com/en-us/library/ms679273(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler
       - name: "AddVectoredExceptionHandler"
-        href: https://msdn.microsoft.com/en-us/library/ms679274(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler
       - name: "GetExceptionCode"
         href: getexceptioncode.md
       - name: "GetExceptionInformation"
         href: getexceptioninformation.md
       - name: "RaiseException"
-        href: https://msdn.microsoft.com/en-us/library/ms680552(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-raiseexception
       - name: "RaiseFailFastException"
-        href: https://msdn.microsoft.com/en-us/library/Dd941688(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/dd408166(v%3dvs.85)
       - name: "RemoveVectoredContinueHandler"
-        href: https://msdn.microsoft.com/en-us/library/ms680567(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredcontinuehandler
       - name: "RemoveVectoredExceptionHandler"
-        href: https://msdn.microsoft.com/en-us/library/ms680571(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler
       - name: "RtlAddFunctionTable"
         href: /windows/desktop/api/WinNT/nf-winnt-rtladdfunctiontable
       - name: "RtlAddGrowableFunctionTable"
@@ -892,9 +892,9 @@
       - name: "RtlRestoreContext"
         href: /windows/desktop/api/WinNT/nf-winnt-rtlrestorecontext
       - name: "SetUnhandledExceptionFilter"
-        href: https://msdn.microsoft.com/en-us/library/ms680634(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setunhandledexceptionfilter
       - name: "UnhandledExceptionFilter"
-        href: https://msdn.microsoft.com/en-us/library/ms681401(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter
       - name: "VectoredHandler"
         href: /windows/desktop/api/WinNT/nc-winnt-pvectored_exception_handler
     - name: "Structured Exception Handling Structures"
@@ -923,7 +923,7 @@
     - name: "WAITCHAIN_NODE_INFO"
       href: /windows/desktop/api/Wct/ns-wct-_waitchain_node_info
     - name: "PWAITCHAINCALLBACK"
-      href: https://msdn.microsoft.com/en-us/library/ms681421(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback
 - name: "Intel AVX"
   href: avx-support-portal.md
   items: 

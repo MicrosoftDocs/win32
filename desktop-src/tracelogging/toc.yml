@@ -28,51 +28,51 @@
         href: /windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1
         items: 
         - name: "TraceLoggingActivity constructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn904604(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-traceloggingactivity(traceloggingactivity__)
         - name: "TraceLoggingActivity constructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn975136(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
         - name: "TraceLoggingActivity destructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn975135(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975135(v=vs.85)
         - name: "Level constant"
           href: level-constant.md
         - name: "Keyword constant"
           href: keyword-constant.md
         - name: "Id method"
-          href: https://msdn.microsoft.com/en-us/library/Dn975132(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975132(v=vs.85)
         - name: "IsStarted method"
-          href: https://msdn.microsoft.com/en-us/library/Dn975133(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975133(v=vs.85)
         - name: "Provider method"
           href: /windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-provider
         - name: "SetRelatedActivity method"
           href: /windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-setrelatedactivity
         - name: "SetRelatedActivityId method"
-          href: https://msdn.microsoft.com/en-us/library/Dn904603(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-setrelatedactivityid(constguid)
       - name: "TraceLoggingThreadActivity"
         href: /windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1
         items: 
         - name: "TraceLoggingThreadActivity constructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn904615(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-traceloggingthreadactivity(traceloggingthreadactivity__)
         - name: "TraceLoggingThreadActivity constructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn975141(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975141(v=vs.85)
         - name: "TraceLoggingThreadActivity destructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn975140(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975140(v=vs.85)
         - name: "Keyword constant"
           href: keyword-constant.md
         - name: "Level constant"
           href: level-constant.md
         - name: "Id method"
-          href: https://msdn.microsoft.com/en-us/library/Dn975137(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975137(v=vs.85)
         - name: "IsStarted method"
-          href: https://msdn.microsoft.com/en-us/library/Dn975138(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975138(v=vs.85)
         - name: "Provider method"
           href: /windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-provider
       - name: "TraceLoggingThreadActivityIdSetter"
         href: /windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter
         items: 
         - name: "TraceLoggingThreadActivityIdSetter constructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn904614(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter(constguid)
         - name: "TraceLoggingThreadActivityIdSetter constructor"
-          href: https://msdn.microsoft.com/en-us/library/Dn975139(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter(constguid)
         - name: "TraceLoggingThreadActivityIdSetter destructor"
           href: /windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter
     - name: "TraceLogging Functions"

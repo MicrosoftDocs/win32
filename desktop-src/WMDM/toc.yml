@@ -133,29 +133,29 @@
         href: csecurechannelclient-class.md
         items: 
         - name: "CSecureChannelClient::Authenticate"
-          href: https://msdn.microsoft.com/en-us/library/Ff801017(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms983906(v%3dmsdn.10)
         - name: "CSecureChannelClient::DecryptParam"
-          href: https://msdn.microsoft.com/en-us/library/Ff801022(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231586(v%3dvs.85)
         - name: "CSecureChannelClient::EncryptParam"
-          href: https://msdn.microsoft.com/en-us/library/Ff801024(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231587(v%3dvs.85)
         - name: "CSecureChannelClient::fIsAuthenticated"
-          href: https://msdn.microsoft.com/en-us/library/Ff801027(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868497(v%3dmsdn.10)
         - name: "CSecureChannelClient::GetAppSec"
-          href: https://msdn.microsoft.com/en-us/library/Ff801030(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868498(v%3dmsdn.10)
         - name: "CSecureChannelClient::GetSessionKey"
-          href: https://msdn.microsoft.com/en-us/library/Ff801034(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231590(v%3dvs.85)
         - name: "CSecureChannelClient::MACFinal"
-          href: https://msdn.microsoft.com/en-us/library/Ff801036(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231591(v%3dvs.85)
         - name: "CSecureChannelClient::MACInit"
-          href: https://msdn.microsoft.com/en-us/library/Ff801038(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231592(v%3dvs.85)
         - name: "CSecureChannelClient::MACUpdate"
-          href: https://msdn.microsoft.com/en-us/library/Ff801040(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231593(v%3dvs.85)
         - name: "CSecureChannelClient::SetCertificate"
-          href: https://msdn.microsoft.com/en-us/library/Ff801042(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868504(v%3dmsdn.10)
         - name: "CSecureChannelClient::SetInterface"
-          href: https://msdn.microsoft.com/en-us/library/Ff801044(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231595(v%3dvs.85)
         - name: "CSecureChannelClient::SetSessionKey"
-          href: https://msdn.microsoft.com/en-us/library/Ff801046(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868506(v%3dmsdn.10)
       - name: "IWMDeviceManager Interface"
         href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager
         items: 
@@ -493,29 +493,29 @@
         href: csecurechannelserver-class.md
         items: 
         - name: "CSecureChannelServer::DecryptParam"
-          href: https://msdn.microsoft.com/en-us/library/Ff801048(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231598(v%3dvs.85)
         - name: "CSecureChannelServer::EncryptParam"
-          href: https://msdn.microsoft.com/en-us/library/Ff801049(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868509(v%3dmsdn.10)
         - name: "CSecureChannelServer::fIsAuthenticated"
-          href: https://msdn.microsoft.com/en-us/library/Ff801050(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231600(v%3dvs.85)
         - name: "CSecureChannelServer::GetAppSec"
-          href: https://msdn.microsoft.com/en-us/library/Ff801051(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231601(v%3dvs.85)
         - name: "CSecureChannelServer::GetSessionKey"
-          href: https://msdn.microsoft.com/en-us/library/Ff801052(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/bb231602(v%3dvs.85)
         - name: "CSecureChannelServer::MACFinal"
-          href: https://msdn.microsoft.com/en-us/library/Ff801053(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868513(v%3dmsdn.10)
         - name: "CSecureChannelServer::MACInit"
-          href: https://msdn.microsoft.com/en-us/library/Ff801054(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868514(v%3dmsdn.10)
         - name: "CSecureChannelServer::MACUpdate"
-          href: https://msdn.microsoft.com/en-us/library/Ff801056(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868515(v%3dmsdn.10)
         - name: "CSecureChannelServer::SACAuth"
-          href: https://msdn.microsoft.com/en-us/library/Ff801058(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868516(v%3dmsdn.10)
         - name: "CSecureChannelServer::SACGetProtocols"
-          href: https://msdn.microsoft.com/en-us/library/Ff801060(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868517(v%3dmsdn.10)
         - name: "CSecureChannelServer::SetCertificate"
-          href: https://msdn.microsoft.com/en-us/library/Ff801063(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868518(v%3dmsdn.10)
         - name: "CSecureChannelServer::SetSessionKey"
-          href: https://msdn.microsoft.com/en-us/library/Ff801065(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms868519(v%3dmsdn.10)
       - name: "IMDServiceProvider Interface"
         href: /windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider
         items: 

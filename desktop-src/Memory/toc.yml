@@ -113,13 +113,13 @@
       - name: "AddSecureMemoryCacheCallback"
         href: /windows/desktop/api/WinBase/nf-winbase-addsecurememorycachecallback
       - name: "AllocateUserPhysicalPages"
-        href: https://msdn.microsoft.com/en-us/library/Aa366528(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages
       - name: "AllocateUserPhysicalPagesNuma"
-        href: https://msdn.microsoft.com/en-us/library/Aa366529(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma
       - name: "BadMemoryCallbackRoutine"
-        href: https://msdn.microsoft.com/en-us/library/Hh691011(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh691011(v=vs.85)
       - name: "CopyMemory"
-        href: https://msdn.microsoft.com/en-us/library/Aa366535(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366535(v=vs.85)
       - name: "CreateEnclave"
         href: /windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave
       - name: "CreateFileMapping"
@@ -129,23 +129,23 @@
       - name: "CreateFileMappingNuma"
         href: /windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa
       - name: "CreateMemoryResourceNotification"
-        href: https://msdn.microsoft.com/en-us/library/Aa366541(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-creatememoryresourcenotification
       - name: "DiscardVirtualMemory"
-        href: https://msdn.microsoft.com/en-us/library/Dn781432(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-discardvirtualmemory
       - name: "FillMemory"
-        href: https://msdn.microsoft.com/en-us/library/Aa366561(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366561(v=vs.85)
       - name: "FlushViewOfFile"
-        href: https://msdn.microsoft.com/en-us/library/Aa366563(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-flushviewoffile
       - name: "FreeUserPhysicalPages"
-        href: https://msdn.microsoft.com/en-us/library/Aa366566(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages
       - name: "GetLargePageMinimum"
-        href: https://msdn.microsoft.com/en-us/library/Aa366568(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum
       - name: "GetMappedFileName"
-        href: https://msdn.microsoft.com/library/ms683195(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getmappedfilenamea
       - name: "GetMemoryErrorHandlingCapabilities"
-        href: https://msdn.microsoft.com/en-us/library/Hh691012(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getmemoryerrorhandlingcapabilities
       - name: "GetPhysicallyInstalledSystemMemory"
-        href: https://msdn.microsoft.com/en-us/library/Cc300158(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getphysicallyinstalledsystemmemory
       - name: "GetProcessDEPPolicy"
         href: /windows/desktop/api/WinBase/nf-winbase-getprocessdeppolicy
       - name: "GetProcessHeap"
@@ -155,9 +155,9 @@
       - name: "GetSystemDEPPolicy"
         href: /windows/desktop/api/WinBase/nf-winbase-getsystemdeppolicy
       - name: "GetSystemFileCacheSize"
-        href: https://msdn.microsoft.com/en-us/library/Aa965224(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getsystemfilecachesize
       - name: "GetWriteWatch"
-        href: https://msdn.microsoft.com/en-us/library/Aa366573(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getwritewatch
       - name: "GlobalAlloc"
         href: /windows/desktop/api/WinBase/nf-winbase-globalalloc
       - name: "GlobalDiscard"
@@ -173,7 +173,7 @@
       - name: "GlobalMemoryStatus"
         href: /windows/desktop/api/WinBase/nf-winbase-globalmemorystatus
       - name: "GlobalMemoryStatusEx"
-        href: https://msdn.microsoft.com/en-us/library/Aa366589(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex
       - name: "GlobalReAlloc"
         href: /windows/desktop/api/WinBase/nf-winbase-globalrealloc
       - name: "GlobalSize"
@@ -223,7 +223,7 @@
       - name: "LocalAlloc"
         href: /windows/desktop/api/WinBase/nf-winbase-localalloc
       - name: "LocalDiscard"
-        href: https://msdn.microsoft.com/en-us/library/Aa366727(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/nf-minwinbase-localdiscard
       - name: "LocalFlags"
         href: /windows/desktop/api/WinBase/nf-winbase-localflags
       - name: "LocalFree"
@@ -239,97 +239,97 @@
       - name: "LocalUnlock"
         href: /windows/desktop/api/WinBase/nf-winbase-localunlock
       - name: "MapViewOfFile"
-        href: https://msdn.microsoft.com/en-us/library/Aa366761(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile
       - name: "MapViewOfFile2"
-        href: https://msdn.microsoft.com/en-us/library/Mt492557(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2
       - name: "MapViewOfFile3"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3
       - name: "MapViewOfFile3FromApp"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp
       - name: "MapViewOfFileEx"
-        href: https://msdn.microsoft.com/en-us/library/Aa366763(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex
       - name: "MapViewOfFileExNuma"
         href: /windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma
       - name: "MapViewOfFileFromApp"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp
       - name: "MapViewOfFileNuma2"
-        href: https://msdn.microsoft.com/en-us/library/Mt492558(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffilenuma2
       - name: "MapUserPhysicalPages"
-        href: https://msdn.microsoft.com/en-us/library/Aa366753(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapuserphysicalpages
       - name: "MapUserPhysicalPagesScatter"
         href: /windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter
       - name: "MoveMemory"
-        href: https://msdn.microsoft.com/en-us/library/Aa366788(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366788(v=vs.85)
       - name: "OpenFileMapping"
         href: /windows/desktop/api/WinBase/nf-winbase-openfilemappinga
       - name: "OpenFileMappingFromApp"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-openfilemappingfromapp
       - name: "OfferVirtualMemory"
-        href: https://msdn.microsoft.com/en-us/library/Dn781436(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory
       - name: "PrefetchVirtualMemory"
-        href: https://msdn.microsoft.com/en-us/library/Hh780543(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory
       - name: "QueryMemoryResourceNotification"
-        href: https://msdn.microsoft.com/en-us/library/Aa366799(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-querymemoryresourcenotification
       - name: "QueryVirtualMemoryInformation"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-queryvirtualmemoryinformation
       - name: "ReclaimVirtualMemory"
-        href: https://msdn.microsoft.com/en-us/library/Dn781437(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory
       - name: "RegisterBadMemoryNotification"
-        href: https://msdn.microsoft.com/en-us/library/Hh691013(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-registerbadmemorynotification
       - name: "RemoveSecureMemoryCacheCallback"
         href: /windows/desktop/api/WinBase/nf-winbase-removesecurememorycachecallback
       - name: "ResetWriteWatch"
-        href: https://msdn.microsoft.com/en-us/library/Aa366874(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-resetwritewatch
       - name: "SecureMemoryCacheCallback"
         href: /windows/desktop/api/WinNT/nc-winnt-psecure_memory_cache_callback
       - name: "SecureZeroMemory"
-        href: https://msdn.microsoft.com/en-us/library/Aa366877(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)
       - name: "SetProcessDEPPolicy"
         href: /windows/desktop/api/WinBase/nf-winbase-setprocessdeppolicy
       - name: "SetProcessValidCallTargets"
-        href: https://msdn.microsoft.com/en-us/library/Dn934202(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-setprocessvalidcalltargets
       - name: "SetSystemFileCacheSize"
-        href: https://msdn.microsoft.com/en-us/library/Aa965240(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-setsystemfilecachesize
       - name: "UnmapViewOfFile"
-        href: https://msdn.microsoft.com/en-us/library/Aa366882(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile
       - name: "UnmapViewOfFile2"
-        href: https://msdn.microsoft.com/en-us/library/Mt492559(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile2
       - name: "UnmapViewOfFileEx"
-        href: https://msdn.microsoft.com/en-us/library/Mt670639(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex
       - name: "UnregisterBadMemoryNotification"
-        href: https://msdn.microsoft.com/en-us/library/Hh691014(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unregisterbadmemorynotification
       - name: "VirtualAlloc"
-        href: https://msdn.microsoft.com/en-us/library/Aa366887(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc
       - name: "VirtualAlloc2"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-virtualalloc2
       - name: "VirtualAlloc2FromApp"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-virtualallocfromapp
       - name: "VirtualAllocEx"
-        href: https://msdn.microsoft.com/en-us/library/Aa366890(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex
       - name: "VirtualAllocExNuma"
-        href: https://msdn.microsoft.com/en-us/library/Aa366891(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocexnuma
       - name: "VirtualAllocFromApp"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-virtualallocfromapp
       - name: "VirtualFree"
-        href: https://msdn.microsoft.com/en-us/library/Aa366892(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree
       - name: "VirtualFreeEx"
-        href: https://msdn.microsoft.com/en-us/library/Aa366894(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex
       - name: "VirtualLock"
-        href: https://msdn.microsoft.com/en-us/library/Aa366895(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock
       - name: "VirtualProtect"
-        href: https://msdn.microsoft.com/en-us/library/Aa366898(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect
       - name: "VirtualProtectEx"
-        href: https://msdn.microsoft.com/en-us/library/Aa366899(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex
       - name: "VirtualProtectFromApp"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-virtualprotectfromapp
       - name: "VirtualQuery"
-        href: https://msdn.microsoft.com/en-us/library/Aa366902(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery
       - name: "VirtualQueryEx"
-        href: https://msdn.microsoft.com/en-us/library/Aa366907(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex
       - name: "VirtualUnlock"
-        href: https://msdn.microsoft.com/en-us/library/Aa366910(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock
       - name: "ZeroMemory"
-        href: https://msdn.microsoft.com/en-us/library/Aa366920(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366920(v=vs.85)
       - name: "AtlThunk_AllocateData"
         href: /windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata
       - name: "AtlThunk_InitData"
@@ -364,7 +364,7 @@
       - name: "WIN32_MEMORY_REGION_INFORMATION"
         href: /windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_region_information
       - name: "AtlThunkData_t"
-        href: https://msdn.microsoft.com/en-us/library/Mt805050(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt805050(v=vs.85)
     - name: "Memory Protection Constants"
       href: memory-protection-constants.md
     - name: "Memory Management Tracing Events"
@@ -434,7 +434,7 @@
       - name: "IMAGE_ENCLAVE_CONFIG32"
         href: /windows/desktop/api/winnt/ns-winnt-_image_enclave_config32
       - name: "IMAGE_ENCLAVE_CONFIG64"
-        href: https://msdn.microsoft.com/en-us/library/Mt844244(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt844244(v=vs.85)
       - name: "IMAGE_ENCLAVE_IMPORT"
         href: /windows/desktop/api/winnt/ns-winnt-_image_enclave_import
       - name: "VBS_ENCLAVE_REPORT"

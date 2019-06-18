@@ -331,11 +331,11 @@ For more info about platform-specific extensions, see:
 
 <dl>
 
-[DirectXMath: SSE, SSE2, and ARM-NEON](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-sse-sse2-and-arm-neon/)  
-[DirectXMath: SSE3 and SSSE3](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-sse3-and-ssse3/)  
-[DirectXMath: SSE4.1 and SSE4.2](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-sse4-1-and-sse4-2/)  
-[DirectXMath: AVX](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-avx/)  
-[DirectXMath: F16C and FMA](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-f16c-and-fma/)  
+[DirectXMath: SSE, SSE2, and ARM-NEON](https://walbourn.github.io/)  
+[DirectXMath: SSE3 and SSSE3](https://walbourn.github.io/)  
+[DirectXMath: SSE4.1 and SSE4.2](https://walbourn.github.io/)  
+[DirectXMath: AVX](https://walbourn.github.io/)  
+[DirectXMath: F16C and FMA](https://walbourn.github.io/)  
 </dl>
 
 ## Related topics

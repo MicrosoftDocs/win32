@@ -1079,16 +1079,16 @@
           - name: "VideoProcessorSetStreamMirror method"
             href: /windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetstreammirror
         - name: "ID3D11VideoContext2"
-          href: https://msdn.microsoft.com/en-us/library/Mt808594(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2
           items: 
           - name: "VideoProcessorGetOutputHDRMetaData method"
-            href: https://msdn.microsoft.com/en-us/library/Mt808595(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetoutputhdrmetadata
           - name: "VideoProcessorSetOutputHDRMetaData method"
-            href: https://msdn.microsoft.com/en-us/library/Mt808597(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetoutputhdrmetadata
           - name: "VideoProcessorGetStreamHDRMetaData method"
-            href: https://msdn.microsoft.com/en-us/library/Mt808596(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetstreamhdrmetadata
           - name: "VideoProcessorSetStreamHDRMetaData method"
-            href: https://msdn.microsoft.com/en-us/library/Mt808598(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetstreamhdrmetadata
         - name: "ID3D11VideoDecoder"
           href: /windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder
           items: 
@@ -1753,7 +1753,7 @@
             - name: "Class Identifiers for Table of Contents Parser"
               href: class-identifiers-for-toc-parser.md
             - name: "Table of Contents Generator"
-              href: https://msdn.microsoft.com/en-us/library/Ff819466(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/ee264297(v%3dvs.85)
           - name: "Table of Contents Parser Interfaces"
             href: toc-parser-interfaces.md
             items: 
@@ -3062,7 +3062,7 @@
       - name: "_MFT_DRAIN_TYPE"
         href: /windows/desktop/api/mftransform/ne-mftransform-_mft_drain_type
       - name: "_MFT_ENUM_FLAG"
-        href: https://msdn.microsoft.com/en-us/library/Dd389302(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mft_enum_flag
       - name: "_MFT_INPUT_DATA_BUFFER_FLAGS"
         href: /windows/desktop/api/mftransform/ne-mftransform-_mft_input_data_buffer_flags
       - name: "_MFT_INPUT_STATUS_FLAGS"
@@ -3106,9 +3106,9 @@
       - name: "DXVA2_VideoTransferMatrix"
         href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videotransfermatrix
       - name: "eAVDecDDStereoDownMixMode"
-        href: https://msdn.microsoft.com/en-us/library/Hh447683(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavdecddstereodownmixmode
       - name: "eAVEncAdaptiveMode"
-        href: https://msdn.microsoft.com/en-us/library/Hh447684(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencadaptivemode
       - name: "eAVEncH264PictureType"
         href: eavench264picturetype-.md
       - name: "eAVEncH264PictureType"
@@ -3118,7 +3118,7 @@
       - name: "eAVEncH264VProfile"
         href: /windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile
       - name: "eAVEncVideoContentType"
-        href: https://msdn.microsoft.com/en-us/library/Hh447686(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencvideocontenttype
       - name: "EVRFilterConfigPrefs"
         href: /windows/desktop/api/evr/ne-evr-_evrfilterconfig_prefs
       - name: "MF_ATTRIBUTE_SERIALIZE_OPTIONS"
@@ -3244,7 +3244,7 @@
       - name: "MF_VIDEO_PROCESSOR_ROTATION"
         href: /windows/desktop/api/mfidl/ne-mfidl-_mf_video_processor_rotation
       - name: "MF2DBuffer_LockFlags"
-        href: https://msdn.microsoft.com/en-us/library/Hh162742(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf2dbuffer_lockflags
       - name: "MF3DVideoOutputType"
         href: /windows/desktop/api/mftransform/ne-mftransform-_mf3dvideooutputtype
       - name: "MFASF_INDEXER_FLAGS"
@@ -3300,7 +3300,7 @@
       - name: "MFRATE_DIRECTION"
         href: /windows/desktop/api/mfidl/ne-mfidl-_mfrate_direction
       - name: "MFSampleEncryptionProtectionScheme"
-        href: https://msdn.microsoft.com/en-us/library/Mt804350(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-mfsampleencryptionprotectionscheme
       - name: "MFSensorDeviceType"
         href: /windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0001
       - name: "MFSensorStreamType"
@@ -3316,7 +3316,7 @@
       - name: "MFSHUTDOWN_STATUS"
         href: /windows/desktop/api/mfidl/ne-mfidl-_mfshutdown_status
       - name: "MFSINK_WMDRMACTION"
-        href: https://msdn.microsoft.com/en-us/library/ms703949(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-_mfsink_wmdrmaction
       - name: "MFStandardVideoFormat"
         href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfstandardvideoformat
       - name: "MFSTREAMSINK_MARKER_TYPE"
@@ -3641,7 +3641,7 @@
       - name: "MFCancelWorkItem"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcancelworkitem
       - name: "MFCheckContentProtectionDevice"
-        href: https://msdn.microsoft.com/en-us/library/Mt219215(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt219215(v=vs.85)
       - name: "MFCompareFullToPartialMediaType"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcomparefulltopartialmediatype
       - name: "MFConvertColorInfoFromDXVA"
@@ -3913,7 +3913,7 @@
       - name: "MFFrameRateToAverageTimePerFrame"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe
       - name: "MFGetAttribute2UINT32asUINT64"
-        href: https://msdn.microsoft.com/en-us/library/Dd798601(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattribute2uint32asuint64
       - name: "MFGetAttributeDouble"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfgetattributedouble
       - name: "MFGetAttributeRatio"
@@ -4015,7 +4015,7 @@
       - name: "MFPCreateMediaPlayer"
         href: /windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer
       - name: "MFPERIODICCALLBACK Callback"
-        href: https://msdn.microsoft.com/en-us/library/ms701545(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfapi/nc-mfapi-mfperiodiccallback
       - name: "MFPutWaitingWorkItem"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfputwaitingworkitem
       - name: "MFPutWorkItem"
@@ -4045,7 +4045,7 @@
       - name: "MFSerializePresentationDescriptor"
         href: /windows/desktop/api/mfidl/nf-mfidl-mfserializepresentationdescriptor
       - name: "MFSetAttribute2UINT32asUINT64"
-        href: https://msdn.microsoft.com/en-us/library/Dd757498(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfsetattribute2uint32asuint64
       - name: "MFSetAttributeRatio"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfsetattributeratio
       - name: "MFSetAttributeSize"
@@ -4101,37 +4101,37 @@
       - name: "PDXVAHDSW_CreateDevice"
         href: /windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_createdevice
       - name: "PDXVAHDSW_CreateVideoProcessor"
-        href: https://msdn.microsoft.com/en-us/library/Dd388982(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_createvideoprocessor
       - name: "PDXVAHDSW_DestroyDevice"
-        href: https://msdn.microsoft.com/en-us/library/Dd388983(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_destroydevice
       - name: "PDXVAHDSW_DestroyVideoProcessor"
-        href: https://msdn.microsoft.com/en-us/library/Dd388984(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_destroyvideoprocessor
       - name: "PDXVAHDSW_GetVideoProcessBltStatePrivate"
-        href: https://msdn.microsoft.com/en-us/library/Dd388985(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessbltstateprivate
       - name: "PDXVAHDSW_GetVideoProcessorCaps"
-        href: https://msdn.microsoft.com/en-us/library/Dd388986(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessorcaps
       - name: "PDXVAHDSW_GetVideoProcessorCustomRates"
-        href: https://msdn.microsoft.com/en-us/library/Dd388987(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessorcustomrates
       - name: "PDXVAHDSW_GetVideoProcessorDeviceCaps"
-        href: https://msdn.microsoft.com/en-us/library/Dd388988(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessordevicecaps
       - name: "PDXVAHDSW_GetVideoProcessorFilterRange"
-        href: https://msdn.microsoft.com/en-us/library/Dd388989(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessorfilterrange
       - name: "PDXVAHDSW_GetVideoProcessorInputFormats"
-        href: https://msdn.microsoft.com/en-us/library/Dd388990(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessorinputformats
       - name: "PDXVAHDSW_GetVideoProcessorOutputFormats"
-        href: https://msdn.microsoft.com/en-us/library/Dd388991(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessoroutputformats
       - name: "PDXVAHDSW_GetVideoProcessStreamStatePrivate"
-        href: https://msdn.microsoft.com/en-us/library/Dd388992(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_getvideoprocessstreamstateprivate
       - name: "PDXVAHDSW_Plugin"
-        href: https://msdn.microsoft.com/en-us/library/Dd388993(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_plugin
       - name: "PDXVAHDSW_ProposeVideoPrivateFormat"
-        href: https://msdn.microsoft.com/en-us/library/Dd389268(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_proposevideoprivateformat
       - name: "PDXVAHDSW_SetVideoProcessBltState"
-        href: https://msdn.microsoft.com/en-us/library/Dd389270(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_setvideoprocessbltstate
       - name: "PDXVAHDSW_SetVideoProcessStreamState"
-        href: https://msdn.microsoft.com/en-us/library/Dd389272(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_setvideoprocessstreamstate
       - name: "PDXVAHDSW_VideoProcessBltHD"
-        href: https://msdn.microsoft.com/en-us/library/Dd389274(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_videoprocessblthd
       - name: "Unpack2UINT32AsUINT64"
         href: /windows/desktop/api/mfapi/nf-mfapi-unpack2uint32asuint64
       - name: "UnpackRatio"
@@ -4300,9 +4300,9 @@
         href: /windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2
         items: 
         - name: "Copy2DTo"
-          href: https://msdn.microsoft.com/en-us/library/Hh447828(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer2-copy2dto
         - name: "Lock2DSize"
-          href: https://msdn.microsoft.com/en-us/library/Hh447829(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer2-lock2dsize
       - name: "IMFActivate"
         href: /windows/desktop/api/mfobjects/nn-mfobjects-imfactivate
         items: 
@@ -6269,11 +6269,11 @@
         href: /windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreport
         items: 
         - name: "GetCount method"
-          href: https://msdn.microsoft.com/en-us/library/Mt493227(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getcount
         - name: "GetActivityReport method"
-          href: https://msdn.microsoft.com/en-us/library/Mt493225(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getactivityreport
         - name: "GetActivityReportByDeviceName method"
-          href: https://msdn.microsoft.com/en-us/library/Mt493226(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getactivityreportbydevicename
       - name: "IMFSensorActivitiesReportCallback"
         href: /windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback
         items: 
@@ -6956,10 +6956,10 @@
         - name: "ReleaseServicePointers"
           href: /windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers
       - name: "IMFTrackedSample"
-        href: https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample
         items: 
         - name: "SetAllocator"
-          href: https://msdn.microsoft.com/en-us/library/ms704797(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftrackedsample-setallocator
       - name: "IMFTranscodeProfile"
         href: /windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile
         items: 
@@ -8171,7 +8171,7 @@
       - name: "ROI_AREA"
         href: /windows/desktop/api/mfapi/ns-mfapi-_roi_area
       - name: "SENSORPROFILEID"
-        href: https://msdn.microsoft.com/en-us/library/Mt845826(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-sensorprofileid
       - name: "STREAM_MEDIUM"
         href: /windows/desktop/api/Mftransform/ns-mftransform-_stream_medium
     - name: "Media Foundation Unions"

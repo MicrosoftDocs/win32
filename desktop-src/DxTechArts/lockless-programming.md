@@ -471,7 +471,7 @@ Lockless algorithms are not guaranteed to be faster than algorithms that use loc
 ## References
 
 -   MSDN Library. "[**volatile (C++)**](https://msdn.microsoft.com/en-us/library/12a04hfd(v=VS.71).aspx)." C++ Language Reference.
--   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](http://msdn.microsoft.com/magazine/msdn-magazine-issues)." MSDN Magazine, October 2005.
+-   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](https://msdn.microsoft.com/magazine/msdn-magazine-issues)." MSDN Magazine, October 2005.
 -   Lyons, Michael. "[PowerPC Storage Model and AIX Programming](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)." IBM developerWorks, 16 Nov 2005.
 -   McKenney, Paul E. "[Memory Ordering in Modern Microprocessors, Part II](https://www.linuxjournal.com/article/8212)." Linux Journal, September 2005. \[This article has some x86 details.\]
 -   Intel Corporation. "[Intel® 64 Architecture Memory Ordering](https://developer.intel.com/products/processor/manuals/index.md)." August 2007. \[Applies to both IA-32 and Intel 64 processors.\]

@@ -362,7 +362,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-A vendor-defined identification string that Setup uses to match a device to an INF file. A device can have a list of compatible IDs associated with it. The compatible IDs should be listed in order of decreasing suitability. If Setup cannot locate an INF file that matches one of a device's hardware IDs, it uses compatible IDs to locate an INF file. A compatible ID has the same format as a **HardwareID**. For more information, see [Windows Driver Kit](https://msdn.microsoft.com/en-US/windows/hardware/gg454513).
+A vendor-defined identification string that Setup uses to match a device to an INF file. A device can have a list of compatible IDs associated with it. The compatible IDs should be listed in order of decreasing suitability. If Setup cannot locate an INF file that matches one of a device's hardware IDs, it uses compatible IDs to locate an INF file. A compatible ID has the same format as a **HardwareID**. For more information, see [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
 
 </dd> <dt>
 
@@ -857,7 +857,7 @@ Examples of Hardware IDs are:
 
 <dl> <dd>root\\\*PNPOF08</dd> <dd>PC\\VEN\_1000&DEV\_001&SUBSYS\_00000000&REV\_02</dd> </dl>
 
-For more information, see the [Windows Driver Kit](https://msdn.microsoft.com/en-US/windows/hardware/gg454513).
+For more information, see the [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
 
 </dd> <dt>
 

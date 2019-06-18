@@ -619,17 +619,17 @@
         - name: "WM ASF Writer Filter"
           href: wm-asf-writer-filter.md
         - name: "IAMWMBufferPass Interface"
-          href: https://msdn.microsoft.com/en-us/library/Dd798276(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798276(v=vs.85)
           items: 
           - name: "IAMWMBufferPass::SetNotify"
             href: iamwmbufferpass-setnotify.md
         - name: "IAMWMBufferPassCallback Interface"
-          href: https://msdn.microsoft.com/en-us/library/Dd798277(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)
           items: 
           - name: "IAMWMBufferPassCallback::Notify"
             href: iamwmbufferpasscallback-notify.md
         - name: "IConfigAsfWriter Interface"
-          href: https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd743205(v=vs.85)
           items: 
           - name: "IConfigAsfWriter::ConfigureFilterUsingProfile"
             href: iconfigasfwriter-configurefilterusingprofile.md
@@ -648,7 +648,7 @@
           - name: "IConfigAsfWriter::SetIndexMode"
             href: iconfigasfwriter-setindexmode.md
         - name: "IConfigAsfWriter2 Interface"
-          href: https://msdn.microsoft.com/en-us/library/Dd743206(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd743206(v=vs.85)
           items: 
           - name: "IConfigAsfWriter2::GetParam"
             href: iconfigasfwriter2-getparam.md
@@ -659,9 +659,9 @@
           - name: "IConfigAsfWriter2::StreamNumFromPin"
             href: iconfigasfwriter2-streamnumfrompin.md
         - name: "_AM_ASFWRITERCONFIG_PARAM Enumeration"
-          href: https://msdn.microsoft.com/en-us/library/Dd758054(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758054(v=vs.85)
         - name: "AM_WMT_EVENT_DATA Structure"
-          href: https://msdn.microsoft.com/en-us/library/Dd743050(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data
           items: 
           - name: "EC_WMT_EVENT"
             href: ec-wmt-event.md
@@ -741,7 +741,7 @@
       - name: "WMCreateBackupRestorer"
         href: /windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer
       - name: "WMCreateCertificate"
-        href: https://msdn.microsoft.com/en-us/library/Dd757745(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)
       - name: "WMCreateDeviceRegistration"
         href: /windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration
       - name: "WMCreateDRMTranscryptionManager"
@@ -855,14 +855,14 @@
         - name: "IWMAddressAccess2::GetAccessEntryEx"
           href: /windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmaddressaccess2-getaccessentryex
       - name: "IWMAuthorizer Interface"
-        href: https://msdn.microsoft.com/en-us/library/Dd743287(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer
         items: 
         - name: "IWMAuthorizer::GetCert"
-          href: https://msdn.microsoft.com/en-us/library/Dd743288(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcert
         - name: "IWMAuthorizer::GetCertCount"
-          href: https://msdn.microsoft.com/en-us/library/Dd743289(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcertcount
         - name: "IWMAuthorizer::GetSharedData"
-          href: https://msdn.microsoft.com/en-us/library/Dd743290(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getshareddata
       - name: "IWMBackupRestoreProps Interface"
         href: /windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops
         items: 
@@ -1005,10 +1005,10 @@
         - name: "IWMDRMReader3::GetInclusionList"
           href: /windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader3-getinclusionlist
       - name: "IWMDRMTranscryptionManager Interface"
-        href: https://msdn.microsoft.com/en-us/library/Dd798365(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798365(v=vs.85)
         items: 
         - name: "IWMDRMTranscryptionManager::CreateTranscryptor"
-          href: https://msdn.microsoft.com/en-us/library/Dd798366(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798366(v=vs.85)
       - name: "IWMDRMTranscryptor Interface"
         href: /windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor
         items: 
@@ -1711,30 +1711,30 @@
         - name: "IWMSBufferAllocator::AllocatePageSizeBuffer"
           href: /windows/desktop/api/Wmsbuffer/nf-wmsbuffer-iwmsbufferallocator-allocatepagesizebuffer
       - name: "IWMSecureChannel Interface"
-        href: https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel
         items: 
         - name: "IWMSecureChannel::WMSC_AddCertificate"
-          href: https://msdn.microsoft.com/en-us/library/Dd743706(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addcertificate
         - name: "IWMSecureChannel::WMSC_AddSignature"
-          href: https://msdn.microsoft.com/en-us/library/Dd743707(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addsignature
         - name: "IWMSecureChannel::WMSC_Connect"
-          href: https://msdn.microsoft.com/en-us/library/Dd743708(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_connect
         - name: "IWMSecureChannel::WMSC_IsConnected"
-          href: https://msdn.microsoft.com/en-us/library/Dd743713(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_isconnected
         - name: "IWMSecureChannel::WMSC_Disconnect"
-          href: https://msdn.microsoft.com/en-us/library/Dd743710(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_disconnect
         - name: "IWMSecureChannel::WMSC_GetValidCertificate"
-          href: https://msdn.microsoft.com/en-us/library/Dd743712(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_getvalidcertificate
         - name: "IWMSecureChannel::WMSC_Encrypt"
-          href: https://msdn.microsoft.com/en-us/library/Dd743711(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_encrypt
         - name: "IWMSecureChannel::WMSC_Decrypt"
-          href: https://msdn.microsoft.com/en-us/library/Dd743709(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_decrypt
         - name: "IWMSecureChannel::WMSC_Lock"
-          href: https://msdn.microsoft.com/en-us/library/Dd743714(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_lock
         - name: "IWMSecureChannel::WMSC_Unlock"
-          href: https://msdn.microsoft.com/en-us/library/Dd743716(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_unlock
         - name: "IWMSecureChannel::WMSC_SetSharedData"
-          href: https://msdn.microsoft.com/en-us/library/Dd743715(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_setshareddata
       - name: "IWMSInternalAdminNetSource Interface"
         href: /windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource
         items: 
@@ -2145,7 +2145,7 @@
       - name: "WM_LEAKY_BUCKET_PAIR"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmleakybucketpair
       - name: "WM_LICENSE_STATE_DATA"
-        href: https://msdn.microsoft.com/en-us/library/Dd757942(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)
       - name: "WM_MEDIA_TYPE"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype
       - name: "WMMPEG2VIDEOINFO"

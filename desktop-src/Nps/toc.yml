@@ -201,7 +201,7 @@
           - name: "DICTIONARYPROPERTIES"
             href: /windows/desktop/api/SdoIas/ne-sdoias-_dictionaryproperties
           - name: "EAPWRAPPROPERTIES"
-            href: https://msdn.microsoft.com/en-us/library/Bb960627(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/ms717032(v%3dvs.85)
           - name: "IASCOMMONPROPERTIES"
             href: /windows/desktop/api/SdoIas/ne-sdoias-_iascommonproperties
           - name: "IASCOMPONENTPROPERTIES"

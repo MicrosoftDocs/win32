@@ -29,7 +29,7 @@ A string that contains digits.
 | MAPI Type    | TSTRING                                                                |
 | ADS Type     | ADSTYPE\_NUMERIC\_STRING                                               |
 | Variant Type | VT\_BSTR                                                               |
-| SDS Type     | [System.String](https://msdn.microsoft.com/library/system.string.aspx) |
+| SDS Type     | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) |
 
 
 
@@ -37,7 +37,7 @@ A string that contains digits.
 
 <dl> <dt>
 
-[System.String](https://msdn.microsoft.com/library/system.string.aspx)
+[System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
 </dt> </dl>
 
  
