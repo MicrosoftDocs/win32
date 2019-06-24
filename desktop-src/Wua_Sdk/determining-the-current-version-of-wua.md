@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Determining the Current Version of WUA
 
-Determine the version of Windows Update Agent (WUA) before you use it. The current version of WUA is determined by the version of the Wuaueng.dll that is running in the \\System32 subdirectory of the current Windows installation. If the version of Wuaueng.dll is version 5.4.3790.1000 or a later version, WUA is installed. A version that is earlier than 5.4.3790.1000 indicates that Software Update Services (SUS) 1.0 is installed.
+On versions of Windows prior to Windows 7 and Windows Server 2008 R2, you should determine the installed version of Windows Update Agent (WUA) before you use it. The current version of WUA is determined by the version of the Wuaueng.dll that is running in the \\System32 subdirectory of the current Windows installation. If the version of Wuaueng.dll is version 5.4.3790.1000 or a later version, WUA is installed. A version that is earlier than 5.4.3790.1000 indicates that Software Update Services (SUS) 1.0 is installed.
 
 When a call is made to SUS 1.0 by using the WUA API, an **HRESULT** of WU\_E\_AU\_LEGACYSERVER is returned.
 
