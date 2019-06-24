@@ -1,7 +1,7 @@
 ---
 title: Binding in DirectML
 description: Describes the correctness benefits of barriers, and how you can work with them in DirectML.
-ms.custom: 19H1
+ms.custom: Windows 10 May 2019 Update
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 03/12/2019

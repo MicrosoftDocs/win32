@@ -67,7 +67,7 @@ This function is supported in the following shader models.
 
 |                   |                                                                                                               |
 |-------------------|---------------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Corecrt\_terminate.h (include TBD)</dt> </dl> |
+| Header<br/> | <dl> <dt>Corecrt\_terminate.h</dt> </dl> |
 
 
 

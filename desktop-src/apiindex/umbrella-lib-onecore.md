@@ -13,7 +13,7 @@ api_location:
 
 # OneCore.lib umbrella library (by module)
 
-For convenience, an umbrella library named OneCore.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices. Link your classic desktop app or driver with OneCore.lib (and no other libraries) to access these APIs. If you link your app or driver to OneCore.lib, and you only call Win32 APIs in that library, then your app or driver will load successfully on all Windows 10 devices.
+For convenience, an umbrella library named OneCore.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices. Link your desktop app or driver with OneCore.lib (and no other libraries) to access these APIs. If you link your app or driver to OneCore.lib, and you only call Win32 APIs in that library, then your app or driver will load successfully on all Windows 10 devices.
 
 This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneCore.lib will add to your app or driver dependencies on dlls that are present on all Windows 10 devices. For delay load, use the module name (whether that's an [API set](windows-umbrella-libraries.md) name or a dll name). Note that an umbrella lib can contain some, but not necessarily all, APIs from a given module.
 

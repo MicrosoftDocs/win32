@@ -1,5 +1,5 @@
 ---
-Description: For convenience, an umbrella library named OneCoreUap.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices that support the Universal Windows Platform (UWP). Link your classic Desktop app or driver with OneCoreUap.lib (and no other libraries) to access these APIs. If you link your app or driver to OneCoreUap.lib, and you only call Win32 APIs in that library, then your app or driver will load successfully on all Windows 10 devices that support the UWP.
+Description: For convenience, an umbrella library named OneCoreUap.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices that support the Universal Windows Platform (UWP). Link your desktop app or driver with OneCoreUap.lib (and no other libraries) to access these APIs. If you link your app or driver to OneCoreUap.lib, and you only call Win32 APIs in that library, then your app or driver will load successfully on all Windows 10 devices that support the UWP.
 ms.assetid: 3c01b790-ac12-47b7-a8e2-4d4fa47ba496
 title: OneCoreUap.lib umbrella library (by module)
 ms.topic: article
@@ -13,7 +13,7 @@ api_location:
 
 # OneCoreUap.lib umbrella library (by module)
 
-For convenience, an umbrella library named OneCoreUap.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices that support the Universal Windows Platform (UWP). Link your classic Desktop app or driver with OneCoreUap.lib (and no other libraries) to access these APIs. If you link your app or driver to OneCoreUap.lib, and you only call Win32 APIs in that library, then your app or driver will load successfully on all Windows 10 devices that support the UWP.
+For convenience, an umbrella library named OneCoreUap.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices that support the Universal Windows Platform (UWP). Link your desktop app or driver with OneCoreUap.lib (and no other libraries) to access these APIs. If you link your app or driver to OneCoreUap.lib, and you only call Win32 APIs in that library, then your app or driver will load successfully on all Windows 10 devices that support the UWP.
 
 This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to OneCoreUap.lib will add to your app or driver dependencies on dlls that are present on all Windows 10 devices that support the UWP. For delay load, use the module name (whether that's an [API set](windows-umbrella-libraries.md) name or a dll name). Note that an umbrella lib can contain some, but not necessarily all, APIs from a given module.
 

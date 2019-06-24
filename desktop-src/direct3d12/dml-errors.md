@@ -1,7 +1,7 @@
 ---
 title: Binding in DirectML
 description: This topic discusses how to debug DirectML device-removal, and other error conditions.
-ms.custom: 19H1
+ms.custom: Windows 10 May 2019 Update
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 03/14/2019
