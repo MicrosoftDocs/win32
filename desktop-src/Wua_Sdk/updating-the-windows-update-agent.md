@@ -12,7 +12,7 @@ Windows Update Agent (WUA) updates itself through various means, depending on th
 
 **On versions of Windows beginning with Windows 7 and Windows Server 2008 R2**
 
-Windows Update Agent (WUA) updates are included in the regular periodic updates to Windows distributed through Windows Update or to Windows Server Update Services (WSUS). You do not need to take any special steps to update WAU on these Windows versions.
+Windows Update Agent (WUA) updates are included in the regular periodic updates to Windows distributed through Windows Update or to Windows Server Update Services (WSUS). You do not need to take any special steps to update WUA on these Windows versions.
 
 **On versions of Windows prior to Windows 7 and Windows Server 2008 R2**
 
