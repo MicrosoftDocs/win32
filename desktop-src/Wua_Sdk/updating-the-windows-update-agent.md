@@ -8,13 +8,21 @@ ms.date: 05/31/2018
 
 # Updating Windows Update Agent
 
-Windows Update Agent (WUA) automatically updates itself when it is connected to a Windows Server Update Services (WSUS) server or to Windows Update. You can also use a signed installation package that is available from Microsoft to manually update WUA. You can use this installation package to install the latest released versions of WUA or the latest released versions of the Muauth.cab file. Here we explain how you can programmatically determine whether the version of WUA that is running on the computer meets your needs, that is, whether the version is the latest or at least current enough.
+Windows Update Agent (WUA) updates itself through various means, depending on the version of Windows running on the device. Old versions of WUA may not be able to connect to current update services, may not be compatible with all updates, and may not support all documented APIs. Here is how to insure that WUA is fully updated and compatible.
 
-You can call the [**IWindowsUpdateAgentInfo::GetInfo**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsupdateagentinfo-getinfo) method to get current version info about WUA, but you can't determine if that version is the latest. If you receive a **WU\_E\_SELFUPDATE\_REQUIRED** error message when you use the WUA API to perform a scan, download, or install, this error tells you that the version of WUA is out of date. But even if you know the version of WUA is out of date, you can't use the WUA API to force a self-update. Additionally, if Windows Update on the computer is in such a state that automatic self-updates are failing, you can't use the WUA API to recover from that state. When necessary, to ensure that users have the latest WUA, prompt them to install [KB949104](http://support.microsoft.com/kb/949104) or the latest WUA.
+**On versions of Windows beginning with Windows 7 and Windows Server 2008 R2**
 
-Follow these steps in your app to determine whether or not the running version of WUA is the most recent one (or at least a current one). If the running version of WUA is too old or if WUA isn't running at all, install the most recent version of WUA (or at least a current version of WUA).
+Windows Update Agent (WUA) updates are included in the regular periodic updates to Windows distributed through Windows Update or to Windows Server Update Services (WSUS). You do not need to take any special steps to update WAU on these Windows versions.
 
-**To ensure that an appropriate version of WUA is installed**
+**On versions of Windows prior to Windows 7 and Windows Server 2008 R2**
+
+WUA automatically updates itself when Automatic Updates connects to Windows Update or to WSUS.
+
+If Automatic Updates has not yet successfully run, it is possible that a device running these Windows versions will be running an older version of WUA that does not support all the documented APIs. If you receive a WU_E_SELFUPDATE_REQUIRED result when you use the WUA API to perform a scan, download, or install, this error tells you that the installed version of WUA is too old to connect to current Windows Update services. You cannot use the normal WUA APIs to update WUA on these operating systems. 
+
+A user can manually update WUA to a current version by opening the Windows Update control panel, selecting Check for Updates, then accepting the self-update that appears. Alternately, you can update WUA programmatically.
+
+**To programmatically update WUA on versions of Windows prior to Windows 7 and Windows Server 2008 R2**
 
 1.  Use the [WinHTTP](https://msdn.microsoft.com/library/Aa384273(v=VS.85).aspx) APIs to download [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab).
 2.  Use the [Cryptography Functions](https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx) to verify that the downloaded copy of [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab) has a digital signature from Microsoft. If you can't verify the digital signature, stop.
