@@ -324,7 +324,18 @@ Legacy versions of HTTP (1.1 and prior) cannot be disabled using this option. Th
 Sets a **BOOL** value that specifies whether tracing is currently enabled. For more information about the trace facility in WinHTTP, see [WinHTTP Trace Facility](winhttptracecfg-exe--a-trace-configuration-tool.md). This option can only be set on a **NULL** **HINTERNET** handle.
 
 
-</dt> </dl> </dd> <dt>
+</dt> </dl> </dd> 
+
+<dt>
+
+<span id="WINHTTP_OPTION_ENCODE_EXTRA"></span><span id="winhttp_option_encode_extra"></span>**WINHTTP\_OPTION\_ENCODE\_EXTRA**
+</dt> <dd> <dl> <dt>
+
+Enables URL encoding. Alternatively, you can percent encode before calling WinHttp.
+
+</dt> </dl> </dd>
+
+<dt>
 
 <span id="WINHTTP_OPTION_EXTENDED_ERROR"></span><span id="winhttp_option_extended_error"></span>**WINHTTP\_OPTION\_EXTENDED\_ERROR**
 </dt> <dd> <dl> <dt>
@@ -1065,90 +1076,80 @@ This option has been deprecated; it has no effect.
 
 The following table lists the option flags by specifying which handles they can act upon, whether they can be queried and set, and the data type used. An "X" indicates that the option flag is valid for use with the function or handle, while a "-" specifies that the option flag is invalid.
 
-
-
-| Option flag                                        | Session handle | Request handle | Query option | Set option | Data type                                                                        |
-|----------------------------------------------------|----------------|----------------|--------------|------------|----------------------------------------------------------------------------------|
-| WINHTTP\_OPTION\_ASSURED\_NON\_BLOCKING\_CALLBACKS | X              | \-             | \-           | X          | **BOOL**                                                                         |
-| WINHTTP\_OPTION\_AUTOLOGON\_POLICY                 | \-             | X              | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_CALLBACK                          | X              | X              | X            | X          | **LPVOID**                                                                       |
-| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT             | \-             | X              | \-           | X          | [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)                                       |
-| WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST        | \-             | X              | X            | \-         | [**SecPkgContext\_IssuerListInfoEx**](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_issuerlistinfoex)\* |
-| WINHTTP\_OPTION\_CODEPAGE                          | X              | \-             | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH         | X              | \-             | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_CONNECT\_INFO                     | \-             | X              | X            | \-         | [**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info)                     |
-| WINHTTP\_OPTION\_CONNECT\_RETRIES                  | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_CONNECT\_TIMEOUT                  | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_CONTEXT\_VALUE                    | X              | X              | X            | X          | **DWORD\_PTR**                                                                   |
-| WINHTTP\_OPTION\_DISABLE\_FEATURE                  | \-             | X              | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_ENABLE\_FEATURE                   | \*             | \*             | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL            | X              | X              | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_ENABLETRACING                     | \-             | \-             | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_EXTENDED\_ERROR                   | X              | X              | X            | \-         | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS              | X              | X              | \-           | X          | [**WINHTTP\_CREDS**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds)                                          |
-| WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS             | X              | X              | \-           | X          | [**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex)                                   |
-| WINHTTP\_OPTION\_HANDLE\_TYPE                      | X              | X              | X            | \-         | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_HTTP\_VERSION                     | X              | X              | X            | X          | [**HTTP\_VERSION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_1)                                 |
-| WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED              | \-             | X              | X            | \-         | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_IS\_PROXY\_CONNECT\_RESPONSE      | X              | X              | X            | \-         | **BOOL**                                                                         |
-| WINHTTP\_OPTION\_MAX\_CONNS\_PER\_1\_0\_SERVER     | X              | \-             | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_MAX\_CONNS\_PER\_SERVER           | X              | \-             | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_MAX\_HTTP\_AUTOMATIC\_REDIRECTS   | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_MAX\_HTTP\_STATUS\_CONTINUE       | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_MAX\_RESPONSE\_DRAIN\_SIZE        | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_MAX\_RESPONSE\_HEADER\_SIZE       | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_UPGRADE\_TO\_WEB\_SOCKET          | \-             | X              | \-           | X          | N/A                                                                              |
-| WINHTTP\_OPTION\_PARENT\_HANDLE                    | X              | X              | X            | \-         | [HINTERNET](hinternet-handles-in-winhttp.md)                                    |
-| WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_TEXT        | \-             | X              | X            | \-         | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_URL         | \-             | X              | X            | \-         | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_PASSPORT\_RETURN\_URL             | \-             | X              | X            | \-         | **LPVOID**                                                                       |
-| WINHTTP\_OPTION\_PASSPORT\_SIGN\_OUT               | X              | \-             | \-           | X          | **LPVOID**                                                                       |
-| WINHTTP\_OPTION\_PASSWORD                          | \-             | X              | X            | X          | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_PROXY                             | X              | X              | X            | X          | [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3)                              |
-| WINHTTP\_OPTION\_PROXY\_PASSWORD                   | \-             | X              | X            | X          | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_PROXY\_SPN\_USED                  | \-             | X              | X            | \-         | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_PROXY\_USERNAME                   | \-             | X              | X            | X          | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_READ\_BUFFER\_SIZE                | \-             | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_RECEIVE\_PROXY\_CONNECT\_RESPONSE | X              | X              | \-           | X          | **BOOL**                                                                         |
-| WINHTTP\_OPTION\_RECEIVE\_TIMEOUT                  | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT        | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_REDIRECT\_POLICY                  | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_REJECT\_USERPWD\_IN\_URL          | \-             | X              | \-           | X          | **BOOL**                                                                         |
-| WINHTTP\_OPTION\_REQUEST\_PRIORITY                 | \-             | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_RESOLVE\_TIMEOUT                  | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_SECURE\_PROTOCOLS                 | X              | \-             | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT     | \-             | X              | X            | \-         | [**WINHTTP\_CERTIFICATE\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_5)                  |
-| WINHTTP\_OPTION\_SECURITY\_FLAGS                   | \-             | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_SECURITY\_KEY\_BITNESS            | \-             | X              | X            | \-         | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_SEND\_TIMEOUT                     | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_SERVER\_CBT                       | \-             | X              | X            | \-         | [**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_bindings)\*                 |
-| WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT             | \-             | X              | X            | \-         | [**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)                                        |
-| WINHTTP\_OPTION\_SERVER\_SPN\_USED                 | \-             | X              | X            | \-         | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_SPN                               | \-             | X              | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVEN              | X              | \-             | \-           | X          | [HINTERNET](hinternet-handles-in-winhttp.md)                                    |
-| WINHTTP\_OPTION\_URL                               | \-             | X              | X            | \-         | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS  | X              | X              | \-           | X          | **BOOL**                                                                         |
-| WINHTTP\_OPTION\_USER\_AGENT                       | X              | \-             | X            | X          | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_USERNAME                          | \-             | X              | X            | X          | **LPWSTR**                                                                       |
-| WINHTTP\_OPTION\_WEB\_SOCKET\_CLOSE\_TIMEOUT       | \-             | \-             | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_WEB\_SOCKET\_KEEPALIVE\_INTERVAL  | \-             | \-             | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_WORKER\_THREAD\_COUNT             | \-             | \-             | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_WRITE\_BUFFER\_SIZE               | \-             | X              | X            | X          | **DWORD**                                                                        |
-
-
-
- 
+| Option flag, and data type | Session handle | Request handle | Query option | Set option |
+|-|-|-|-|-|
+| WINHTTP\_OPTION\_ASSURED\_NON\_BLOCKING\_CALLBACKS<br/>**BOOL** | X | \- | \- | X |
+| WINHTTP\_OPTION\_AUTOLOGON\_POLICY<br/>**DWORD** | \- | X | \- | X |
+| WINHTTP\_OPTION\_CALLBACK<br/>**LPVOID** | X | X | X | X |
+| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT<br/>[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) | \- | X | \- | X |
+| WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST<br/>[**SecPkgContext\_IssuerListInfoEx**](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_issuerlistinfoex)\* | \- | X | X | \- |
+| WINHTTP\_OPTION\_CODEPAGE<br/>**DWORD** | X | \- | \- | X |
+| WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH<br/>**DWORD** | X | \- | \- | X |
+| WINHTTP\_OPTION\_CONNECT\_INFO<br/>[**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info) | \- | X | X | \- |
+| WINHTTP\_OPTION\_CONNECT\_RETRIES<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_CONNECT\_TIMEOUT<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_CONTEXT\_VALUE<br/>**DWORD\_PTR** | X | X | X | X |
+| WINHTTP\_OPTION\_DISABLE\_FEATURE<br/>**DWORD** | \- | X | \- | X |
+| WINHTTP\_OPTION\_ENABLE\_FEATURE<br/>**DWORD** | \* | \* | \- | X |
+| WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL<br/>**DWORD** | X | X | \- | X |
+| WINHTTP\_OPTION\_ENABLETRACING<br/>**DWORD** | \- | \- | X | X |
+| WINHTTP\_OPTION\_EXTENDED\_ERROR<br/>**DWORD** | X | X | X | \- |
+| WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds) | X | X | \- | X |
+| WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex) | X | X | \- | X |
+| WINHTTP\_OPTION\_HANDLE\_TYPE<br/>**DWORD** | X | X | X | \- |
+| WINHTTP\_OPTION\_HTTP\_VERSION<br/>[**HTTP\_VERSION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_1) | X | X | X | X |
+| WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED<br/>**DWORD** | \- | X | X | \- |
+| WINHTTP\_OPTION\_IS\_PROXY\_CONNECT\_RESPONSE<br/>**BOOL** | X | X | X | \- |
+| WINHTTP\_OPTION\_MAX\_CONNS\_PER\_1\_0\_SERVER<br/>**DWORD** | X | \- | X | X |
+| WINHTTP\_OPTION\_MAX\_CONNS\_PER\_SERVER<br/>**DWORD** | X | \- | X | X |
+| WINHTTP\_OPTION\_MAX\_HTTP\_AUTOMATIC\_REDIRECTS<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_MAX\_HTTP\_STATUS\_CONTINUE<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_MAX\_RESPONSE\_DRAIN\_SIZE<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_MAX\_RESPONSE\_HEADER\_SIZE<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_UPGRADE\_TO\_WEB\_SOCKET<br/>N/A | \- | X | \- | X |
+| WINHTTP\_OPTION\_PARENT\_HANDLE<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | X | X | \- |
+| WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_TEXT<br/>**LPWSTR** | \- | X | X | \- |
+| WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_URL<br/>**LPWSTR** | \- | X | X | \- |
+| WINHTTP\_OPTION\_PASSPORT\_RETURN\_URL<br/>**LPVOID** | \- | X | X | \- |
+| WINHTTP\_OPTION\_PASSPORT\_SIGN\_OUT<br/>**LPVOID** | X | \- | \- | X |
+| WINHTTP\_OPTION\_PASSWORD<br/>**LPWSTR** | \- | X | X | X |
+| WINHTTP\_OPTION\_PROXY<br/>[**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) | X | X | X | X |
+| WINHTTP\_OPTION\_PROXY\_PASSWORD<br/>**LPWSTR** | \- | X | X | X |
+| WINHTTP\_OPTION\_PROXY\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- |
+| WINHTTP\_OPTION\_PROXY\_USERNAME<br/>**LPWSTR** | \- | X | X | X |
+| WINHTTP\_OPTION\_READ\_BUFFER\_SIZE<br/>**DWORD** | \- | X | X | X |
+| WINHTTP\_OPTION\_RECEIVE\_PROXY\_CONNECT\_RESPONSE<br/>**BOOL** | X | X | \- | X |
+| WINHTTP\_OPTION\_RECEIVE\_TIMEOUT<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_REDIRECT\_POLICY<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_REJECT\_USERPWD\_IN\_URL<br/>**BOOL** | \- | X | \- | X |
+| WINHTTP\_OPTION\_REQUEST\_PRIORITY<br/>**DWORD** | \- | X | X | X |
+| WINHTTP\_OPTION\_RESOLVE\_TIMEOUT<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_SECURE\_PROTOCOLS<br/>**DWORD** | X | \- | \- | X |
+| WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT<br/>[**WINHTTP\_CERTIFICATE\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_5) | \- | X | X | \- |
+| WINHTTP\_OPTION\_SECURITY\_FLAGS<br/>**DWORD** | \- | X | X | X |
+| WINHTTP\_OPTION\_SECURITY\_KEY\_BITNESS<br/>**DWORD** | \- | X | X | \- |
+| WINHTTP\_OPTION\_SEND\_TIMEOUT<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_SERVER\_CBT<br/>[**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_bindings)\* | \- | X | X | \- |
+| WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT<br/>[**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) | \- | X | X | \- |
+| WINHTTP\_OPTION\_SERVER\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- |
+| WINHTTP\_OPTION\_SPN<br/>**DWORD** | \- | X | \- | X |
+| WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVEN<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X |
+| WINHTTP\_OPTION\_URL<br/>**LPWSTR** | \- | X | X | \- |
+| WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS<br/>**BOOL** | X | X | \- | X |
+| WINHTTP\_OPTION\_USER\_AGENT<br/>**LPWSTR** | X | \- | X | X |
+| WINHTTP\_OPTION\_USERNAME<br/>**LPWSTR** | \- | X | X | X |
+| WINHTTP\_OPTION\_WEB\_SOCKET\_CLOSE\_TIMEOUT<br/>**DWORD** | \- | \- | X | X |
+| WINHTTP\_OPTION\_WEB\_SOCKET\_KEEPALIVE\_INTERVAL<br/>**DWORD** | \- | \- | X | X |
+| WINHTTP\_OPTION\_WORKER\_THREAD\_COUNT<br/>**DWORD** | \- | \- | \- | X |
+| WINHTTP\_OPTION\_WRITE\_BUFFER\_SIZE<br/>**DWORD** | \- | X | X | X |
 
 \* See the documentation for this flag earlier in this topic.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).
 
- 
-
 ## Requirements
-
-
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
@@ -1156,8 +1157,6 @@ The following table lists the option flags by specifying which handles they can 
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
 | Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl>       |
-
-
 
 ## See also
 
