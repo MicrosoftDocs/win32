@@ -19,5 +19,3 @@ When creating a pull request in the internal repo, make sure you're merging your
 After you submit your pull request, it is evaluated against a [content quality checklist](https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-pull-request-quality-criteria?branch=master) to ensure it meets our basic standards. If it passes, it is assigned to a member of the UWP documentation team for further review. If it fails, you'll be told what changes to make.
 
 The assigned reviewer(s) may approve or reject the PR, or work with you to make further changes. Reviewers will not merge the PR until you have approved it yourself.
-
-
