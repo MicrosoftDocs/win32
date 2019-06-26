@@ -331,7 +331,9 @@ Sets a **BOOL** value that specifies whether tracing is currently enabled. For m
 <span id="WINHTTP_OPTION_ENCODE_EXTRA"></span><span id="winhttp_option_encode_extra"></span>**WINHTTP\_OPTION\_ENCODE\_EXTRA**
 </dt> <dd> <dl> <dt>
 
-Enables URL encoding. Alternatively, you can percent encode before calling WinHttp.
+Enables URL percent encoding for path and query string. Supported on Windows 10, version 1803 and newer.
+
+Alternatively, you can percent encode before calling WinHttp.
 
 </dt> </dl> </dd>
 
@@ -1093,6 +1095,7 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_ENABLE\_FEATURE<br/>**DWORD** | \* | \* | \- | X |
 | WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL<br/>**DWORD** | X | X | \- | X |
 | WINHTTP\_OPTION\_ENABLETRACING<br/>**DWORD** | \- | \- | X | X |
+| WINHTTP\_OPTION\_ENCODE\_EXTRA<br/>**BOOL** | X | X | \- | X |
 | WINHTTP\_OPTION\_EXTENDED\_ERROR<br/>**DWORD** | X | X | X | \- |
 | WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds) | X | X | \- | X |
 | WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex) | X | X | \- | X |
