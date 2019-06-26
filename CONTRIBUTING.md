@@ -16,12 +16,8 @@ You may clone this repository locally and make edits on your own machine, or you
 
 When creating a pull request in the internal repo, make sure you're merging your personal branch into the branch it was created from.
 
-After you submit your pull request, it is evaluated against a [content quality checklist](https://review.docs.microsoft.com/windows-authoring-guide/managing-contributions/editorial-checklist?branch=master) to ensure it meets our basic standards. If it passes, it is assigned to a member of the UWP documentation team for further review. If it fails, you'll be told what changes to make.
+After you submit your pull request, it is evaluated against a [content quality checklist](https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-pull-request-quality-criteria?branch=master) to ensure it meets our basic standards. If it passes, it is assigned to a member of the UWP documentation team for further review. If it fails, you'll be told what changes to make.
 
 The assigned reviewer(s) may approve or reject the PR, or work with you to make further changes. Reviewers will not merge the PR until you have approved it yourself.
 
-## Using issues to provide feedback on UWP Conceptual documentation
 
-If you want to provide feedback on the docs instead of making edits yourself, you can [create an issue in the public repo](https://github.com/MicrosoftDocs/windows-uwp/issues). Select the **Issues** tab and select the **New issue** button. Be sure to include the topic title and the URL for the page. Your issue will be assigned to members of the UWP documentation team for review.
-
-* For internal issues, use the [WDG Content Request Tool](https://aka.ms/pubrequest).
