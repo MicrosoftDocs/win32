@@ -24,7 +24,7 @@ If you want to programmatically create Windows app packages by using the [Packag
 
 -   You need to have a packaged Windows app. For info about creating an app package, see [How to create an app package](how-to-create-a-package.md).
 -   You need to have a code signing certificate that is appropriate for signing the app package. For info about creating a test code signing certificate, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md). Load this signing certificate into a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) structure. For example, you can use [**PFXImportCertStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore) and [**CertFindCertificateInStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore) to load a signing certificate.
--   Windows 8 introduces the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function. Use **SignerSignEx2** when you sign packaged Windows app packages.
+-   Windows 8 introduces the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function. Use **SignerSignEx2** when you sign Windows app packages.
 
 ## Instructions
 
@@ -185,7 +185,7 @@ typedef struct _APPX_SIP_CLIENT_DATA
 
 ### Step 2: Call SignerSignEx2 to sign the app package
 
-After you define the required structures that are specified in the previous step, you can use any of the options available on the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function to sign an app package. When you use **SignerSignEx2** with packaged Windows app packages, these restrictions apply:
+After you define the required structures that are specified in the previous step, you can use any of the options available on the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function to sign an app package. When you use **SignerSignEx2** with Windows app packages, these restrictions apply:
 
 -   You must provide a pointer to an **APPX\_SIP\_CLIENT\_DATA** structure as the *pSipData* parameter when you sign an app package. You must populate the **pSignerParams** member of **APPX\_SIP\_CLIENT\_DATA** with the same parameters that you use to sign the app package. To do this, define your desired parameters on the **SIGNER\_SIGN\_EX2\_PARAMS** structure, assign the address of this structure to **pSignerParams**, and then directly reference the structure's members as well when you call [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2).
 -   After you call [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2), you must free the **pAppxSipState** on the *pSipData* by calling [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on **pAppxSipState** if it's not **NULL**.
