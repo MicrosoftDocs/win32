@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Access SMBIOS information from a Universal Windows App
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+> [NOTE]
+> Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 How to access System Management BIOS (SMBIOS) information from a Universal Windows app.
 
@@ -26,7 +27,7 @@ To declare the **smbios** restricted capability in the app manifest, add the **r
 ``` syntax
 <Package
   ...
-  xmlns:rescap="https://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap mp rescap">  
   ...
   <Capabilities>
