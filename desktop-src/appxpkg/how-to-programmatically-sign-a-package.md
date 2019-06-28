@@ -10,21 +10,21 @@ ms.date: 05/31/2018
 
 Learn how to sign an app package by using the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function.
 
-If you want to programmatically create UWP app packages by using the [Packaging API](interfaces.md), you also need to sign the app packages before they can be deployed. The Packaging API doesn't provide a specialized method for signing app packages. Instead, use the standard [cryptography functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions) to sign your app packages.
+If you want to programmatically create packaged Windows app packages by using the [Packaging API](interfaces.md), you also need to sign the app packages before they can be deployed. The Packaging API doesn't provide a specialized method for signing app packages. Instead, use the standard [cryptography functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions) to sign your app packages.
 
 ## What you need to know
 
 ### Technologies
 
 -   [Introduction to Code Signing](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
--   [Packaging, deployment, and query of UWP apps](appx-portal.md)
+-   [Packaging, deployment, and query of packaged Windows apps](appx-portal.md)
 -   [Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
 
 ### Prerequisites
 
--   You need to have a packaged UWP app. For info about creating an app package, see [How to create an app package](how-to-create-a-package.md).
+-   You need to have a packaged packaged Windows app. For info about creating an app package, see [How to create an app package](how-to-create-a-package.md).
 -   You need to have a code signing certificate that is appropriate for signing the app package. For info about creating a test code signing certificate, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md). Load this signing certificate into a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) structure. For example, you can use [**PFXImportCertStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore) and [**CertFindCertificateInStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore) to load a signing certificate.
--   Windows 8 introduces the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function. Use **SignerSignEx2** when you sign UWP app packages.
+-   Windows 8 introduces the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function. Use **SignerSignEx2** when you sign packaged Windows app packages.
 
 ## Instructions
 
@@ -185,7 +185,7 @@ typedef struct _APPX_SIP_CLIENT_DATA
 
 ### Step 2: Call SignerSignEx2 to sign the app package
 
-After you define the required structures that are specified in the previous step, you can use any of the options available on the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function to sign an app package. When you use **SignerSignEx2** with UWP app packages, these restrictions apply:
+After you define the required structures that are specified in the previous step, you can use any of the options available on the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function to sign an app package. When you use **SignerSignEx2** with packaged Windows app packages, these restrictions apply:
 
 -   You must provide a pointer to an **APPX\_SIP\_CLIENT\_DATA** structure as the *pSipData* parameter when you sign an app package. You must populate the **pSignerParams** member of **APPX\_SIP\_CLIENT\_DATA** with the same parameters that you use to sign the app package. To do this, define your desired parameters on the **SIGNER\_SIGN\_EX2\_PARAMS** structure, assign the address of this structure to **pSignerParams**, and then directly reference the structure's members as well when you call [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2).
 -   After you call [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2), you must free the **pAppxSipState** on the *pSipData* by calling [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on **pAppxSipState** if it's not **NULL**.
@@ -312,7 +312,7 @@ HRESULT SignAppxPackage(
 
 ## Remarks
 
-After you sign the app package, you can also attempt to validate the signature programmatically by using the [**WinVerifyTrust**](https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) function with **WINTRUST\_ACTION\_GENERIC\_VERIFY\_V2**. There are no special considerations in this case for using **WinVerifyTrust** with UWP app packages.
+After you sign the app package, you can also attempt to validate the signature programmatically by using the [**WinVerifyTrust**](https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) function with **WINTRUST\_ACTION\_GENERIC\_VERIFY\_V2**. There are no special considerations in this case for using **WinVerifyTrust** with packaged Windows app packages.
 
 ## Related topics
 
