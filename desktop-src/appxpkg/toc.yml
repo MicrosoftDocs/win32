@@ -1,4 +1,4 @@
-- name: "Packaging, deployment, and query of packaged Windows apps"
+- name: "Packaging, deployment, and query of Windows apps"
   href: appx-portal.md
   items: 
   - name: "How to create an app package"

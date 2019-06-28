@@ -6,13 +6,13 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Packaging, deployment, and query of packaged Windows apps
+# Packaging, deployment, and query of Windows apps
 
-You deploy, manage, and service Universal Windows Platform (UWP) apps through app packages based on the OPC format. Each app package contains the files that constitute the app, and a manifest file that describes the software to Windows.
+You deploy, manage, and service Windows apps (including UWPs and desktop apps) through .msix and .appx app packages based on the OPC format. Each app package contains the files that constitute the app, and a manifest file that describes the software to Windows.
 
 ## Introduction
 
-Typically, developers create and sign app packages using Visual Studio. For more info, see [Packaging packaged Windows apps](https://aka.ms/packaging-uwp-apps).
+Typically, developers create and sign app packages using Visual Studio. For more info, see [Package a UWP app with Visual Studio](https://aka.ms/packaging-uwp-apps).
 
 The Microsoft Store makes it easy to build, submit, and sell your apps to customers around the world. For more info, see [App submissions](https://aka.ms/app-submissions).
 
