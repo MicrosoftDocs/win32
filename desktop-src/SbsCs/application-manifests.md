@@ -1,9 +1,9 @@
----
+﻿---
 Description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 
