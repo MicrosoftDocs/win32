@@ -1,6 +1,6 @@
 ---
 title: How to create an app package (C++)
-description: Learn how to create an app package for a Windows Store app using the packaging API.
+description: Learn how to create an app package for a UWP app using the packaging API.
 ms.assetid: FD677D75-50D5-4228-891F-73B5F40679B0
 ms.topic: article
 ms.date: 05/31/2018
@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
  
 
-Learn how to create an app package for a Windows Store app using the [packaging API](interfaces.md).
+Learn how to create an app package for a UWP app using the [packaging API](interfaces.md).
 
 If you want to create a desktop app package manually, you can also use the MakeAppx.exe tool which utilizes the [packaging API](interfaces.md). See [App packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) for more information.
 

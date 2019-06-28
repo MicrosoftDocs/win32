@@ -1,6 +1,6 @@
 ---
 title: How to sign an app package using SignTool
-description: Learn how to use SignTool to sign your Windows Store app packages so they can be deployed.
+description: Learn how to use SignTool to sign your UWP app packages so they can be deployed.
 ms.assetid: 93541EB4-3419-45D1-AA63-563E6C6D3055
 ms.topic: article
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ ms.date: 05/31/2018
 
  
 
-Learn how to use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your Windows Store app packages so they can be deployed. [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) is part of the Windows Software Development Kit (SDK).
+Learn how to use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your UWP app packages so they can be deployed. [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) is part of the Windows Software Development Kit (SDK).
 
-All Windows Store app packages must be digitally signed before they can be deployed. While Microsoft Visual Studio 2012 and later can sign an app package during its creation, packages that you create by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool from the Windows SDK aren't signed.
+All UWP app packages must be digitally signed before they can be deployed. While Microsoft Visual Studio 2012 and later can sign an app package during its creation, packages that you create by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool from the Windows SDK aren't signed.
 
 > [!Note]  
-> You can only use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your Windows Store app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down level operating systems such as Windows 7 or Windows Server 2008 R2.
+> You can only use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your UWP app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down level operating systems such as Windows 7 or Windows Server 2008 R2.
 
  
 
@@ -37,13 +37,13 @@ All Windows Store app packages must be digitally signed before they can be deplo
 
     For info about creating a valid code signing certificate, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 
--   A packaged Windows Store app, for example, an .appx file created by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool
+-   A packaged UWP app, for example, an .appx file created by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool
 
 **Additional considerations**
 
 The certificate that you use to sign the app package must meet these criteria:
 
--   The subject name of the certificate must match the **Publisher** attribute that is contained in the [**Identity**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element of the AppxManifest.xml file that is stored within the package. The publisher name is part of the identity of a Windows Store app, so you have to make the subject name of the certificate match the publisher name of the app. This allows the identity of signed packages to be checked against the digital signature. For info about signing errors that can arise from signing an app package using [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool), see the Remarks section of [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
+-   The subject name of the certificate must match the **Publisher** attribute that is contained in the [**Identity**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element of the AppxManifest.xml file that is stored within the package. The publisher name is part of the identity of a UWP app, so you have to make the subject name of the certificate match the publisher name of the app. This allows the identity of signed packages to be checked against the digital signature. For info about signing errors that can arise from signing an app package using [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool), see the Remarks section of [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 -   The certificate must be valid for code signing. This means that both of these items must be true:
 
     -   The Extended Key Usage (EKU) field of the certificate must either be unset or contain the EKU value for code signing (1.3.6.1.5.5.7.3.3).
