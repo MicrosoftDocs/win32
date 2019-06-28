@@ -7,8 +7,6 @@ ms.date: 10/09/2018
 
 # TLS Cipher Suites in Windows 10 v1809
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
 Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.
 
 Availability of cipher suites should be controlled in one of two ways:

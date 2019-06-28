@@ -240,6 +240,8 @@
           - name: "Cipher Suites in TLS/SSL (Schannel SSP)"
             href: cipher-suites-in-schannel.md
             items: 
+            - name: "TLS Cipher Suites in Windows 10 v1903"
+              href: tls-cipher-suites-in-windows-10-v1903.md
             - name: "TLS Cipher Suites in Windows 10 v1809"
               href: tls-cipher-suites-in-windows-10-v1809.md
             - name: "TLS Cipher Suites in Windows 10 v1803"
