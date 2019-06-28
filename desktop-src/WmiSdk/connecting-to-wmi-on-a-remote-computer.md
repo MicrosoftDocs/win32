@@ -121,7 +121,7 @@ Use the [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcl
 
 The previous code samples are arguably the most basic remote connection you can perform with WMI. Specifically, the samples assume the following:
 
--   You are an administrator on the remote machine. Due to [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84365), the account on the remote system must be a domain account in the Administrators group. For more information, see User Account Control and WMI.
+-   You are an administrator on the remote machine. Due to [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84439), the account on the remote system must be a domain account in the Administrators group. For more information, see User Account Control and WMI.
 -   The password on your current local machine is not blank. This is essentially a Windows security requirement that you must have logged onto your system with a password.
 -   Both your local and remote computers are within the same domain. If you need to cross domain boundaries, you would need to supply additional information or use a slightly different programming model.
 -   You are using your own account to access the remote machine. If you were trying to access a different account, you would need to supply additional credentials. (Note that trying to access WMI locally with credentials different than your current account is not permitted.)
