@@ -1,6 +1,6 @@
 ---
 title: Extract app package contents (C++)
-description: Learn how to extract files from the app package for a packaged Windows app using the packaging API.
+description: Learn how to extract files from the app package for a Windows app using the packaging API.
 ms.assetid: 72C368F9-2EBA-4930-81CF-9B85717CC0AA
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Extract app package contents (C++)
 
-Learn how to extract files from the app package for a packaged Windows app using the [packaging API](interfaces.md).
+Learn how to extract files from the app package for a Windows app using the [packaging API](interfaces.md).
 
 You can also use the MakeAppx.exe tool to extract files from an app package or bundle. See [Extract files from a package or bundle](https://aka.ms/extract-from-package) for more information.
 

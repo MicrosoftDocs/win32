@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Packaging and deployment tools and PowerShell cmdlets
 
-Use these tools and cmdlets to create, deploy, and inventory app packages for packaged Windows apps.
+Use these tools and cmdlets to create, deploy, and inventory app packages for Windows apps.
 
 ## App packaging tools and guidance
 
@@ -18,11 +18,11 @@ Learn how to package an app, create a test certificate, and sign your app using 
 -   [Create a certificate for package signing](https://aka.ms/create-cert-package)
 -   [Sign an app package using SignTool](https://aka.ms/sign-package-signtool)
 
-Alternatively, you can use Visual Studio to create and sign an app package. For more info, see [Packaging packaged Windows apps](https://aka.ms/packaging-uwp-apps).
+Alternatively, you can use Visual Studio to create and sign an app package. For more info, see [Package a UWP app with Visual Studio](https://aka.ms/packaging-uwp-apps).
 
 ## PowerShell cmdlets
 
-Use Windows PowerShell to install, inventory, and uninstall line-of-business (LOB) packaged Windows apps for Windows that are not store-signed. For more info, see: [Appx Module Cmdlets](https://aka.ms/appx-cmdlets).
+Use Windows PowerShell to install, inventory, and uninstall line-of-business (LOB) Windows apps that are not Store-signed. For more info, see: [Appx Module Cmdlets](https://aka.ms/appx-cmdlets).
 
 ## Related topics
 

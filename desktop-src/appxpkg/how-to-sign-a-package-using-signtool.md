@@ -1,6 +1,6 @@
 ---
 title: How to sign an app package using SignTool
-description: Learn how to use SignTool to sign your packaged Windows app packages so they can be deployed.
+description: Learn how to use SignTool to sign your Windows app packages so they can be deployed.
 ms.assetid: 93541EB4-3419-45D1-AA63-563E6C6D3055
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ ms.date: 05/31/2018
 # How to sign an app package using SignTool
 
 > [!Note]  
-> For signing a packaged Windows app package, see [Sign an app package using SignTool](https://aka.ms/sign-package-signtool).
+> For signing a Windows app package, see [Sign an app package using SignTool](https://aka.ms/sign-package-signtool).
 
  
 
-Learn how to use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your packaged Windows app packages so they can be deployed. [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) is part of the Windows Software Development Kit (SDK).
+Learn how to use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your Windows app packages so they can be deployed. [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) is part of the Windows Software Development Kit (SDK).
 
-All packaged Windows app packages must be digitally signed before they can be deployed. While Microsoft Visual Studio 2012 and later can sign an app package during its creation, packages that you create by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool from the Windows SDK aren't signed.
+All Windows app packages must be digitally signed before they can be deployed. While Microsoft Visual Studio 2012 and later can sign an app package during its creation, packages that you create by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool from the Windows SDK aren't signed.
 
 > [!Note]  
-> You can only use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your packaged Windows app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down level operating systems such as Windows 7 or Windows Server 2008 R2.
+> You can only use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your Windows app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down-level operating systems such as Windows 7 or Windows Server 2008 R2.
 
  
 
@@ -37,7 +37,7 @@ All packaged Windows app packages must be digitally signed before they can be de
 
     For info about creating a valid code signing certificate, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 
--   A packaged packaged Windows app, for example, an .appx file created by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool
+-   A packaged Windows app, for example, an .appx file created by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool
 
 **Additional considerations**
 

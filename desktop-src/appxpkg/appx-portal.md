@@ -1,6 +1,6 @@
 ---
-title: Packaging, deployment, and query of packaged Windows apps
-description: Programmatically create app packages for packaged Windows apps, and install, update, query, and uninstall app packages.
+title: Packaging, deployment, and query of Windows apps
+description: Programmatically create app packages for Windows apps, and install, update, query, and uninstall app packages.
 ms.assetid: 4ea65e62-4878-41fd-9ad8-424b1546f02a
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Packaging, deployment, and query of Windows apps
 
-You deploy, manage, and service Windows apps (including UWPs and desktop apps) through .msix and .appx app packages based on the OPC format. Each app package contains the files that constitute the app, and a manifest file that describes the software to Windows.
+You deploy, manage, and service Windows apps (including UWPs and desktop apps) through .msix/.appx app packages based on the OPC format. Each app package contains the files that constitute the app, and a manifest file that describes the software to Windows.
 
 ## Introduction
 
@@ -16,11 +16,11 @@ Typically, developers create and sign app packages using Visual Studio. For more
 
 The Microsoft Store makes it easy to build, submit, and sell your apps to customers around the world. For more info, see [App submissions](https://aka.ms/app-submissions).
 
-Windows PowerShell cmdlets enable you to install and manage line-of-business packaged Windows apps without using the Store. For more info, see [Appx Module Cmdlets](https://aka.ms/appx-cmdlets).
+Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store. For more info, see [Appx Module Cmdlets](https://aka.ms/appx-cmdlets).
 
 Using the packaging, deployment, and query APIs, you can programmatically perform these tasks:
 
--   Create an app package for a packaged Windows app
+-   Create an app package for a Windows app
 -   Deploy a packaged Windows app
 -   Enumerate the app packages installed on a system and get information about them from their manifest
 -   Consume the contents of an app package
@@ -44,8 +44,8 @@ Using the packaging, deployment, and query APIs, you can programmatically perfor
 | [Deployment API reference](package-deployment-api.md)                                                   | The deployment API installs, updates, and uninstalls app packages.                                                                                                                    |
 | [Query API reference](functions.md)                                                                     | The query API gets info about the app packages installed on the system.                                                                                                               |
 | [Tools and PowerShell cmdlets](appx-packaging-tools.md)                                                 | Use these tools and cmdlets to create, install, and manage app packages.                                                                                                              |
-| [SDK samples](appx-packaging-samples.md)                                                                | Download SDK samples that demonstrate the packaging, deployment, and query APIs for packaged Windows apps.                                                                               |
-| [Glossary](appx-packaging-glossary.md)                                                                  | Learn about the terms related to packaging, deployment, and query of packaged Windows apps.                                                                                              |
+| [SDK samples](appx-packaging-samples.md)                                                                | Download SDK samples that demonstrate the packaging, deployment, and query APIs for Windows apps.                                                                               |
+| [Glossary](appx-packaging-glossary.md)                                                                  | Learn about the terms related to packaging, deployment, and query of Windows apps.                                                                                              |
 
 
 
