@@ -1,6 +1,6 @@
 ---
 title: How to create an app package signing certificate
-description: Learn how to use MakeCert.exe and Pvk2Pfx.exe to create a test code signing certificate, so that you can sign your Windows Store app packages.
+description: Learn how to use MakeCert.exe and Pvk2Pfx.exe to create a test code signing certificate, so that you can sign your Windows app packages.
 ms.assetid: DEDD3727-3F0E-403D-9A6E-55949E98FE74
 ms.topic: article
 ms.date: 05/31/2018
@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
  
 
-Learn how to use [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) to create a test code signing certificate, so that you can sign your Windows Store app packages.
+Learn how to use [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) to create a test code signing certificate, so that you can sign your Windows app packages.
 
-You must digitally sign your Windows Store apps before you deploy them. If you don't use Microsoft Visual Studio 2012 to create and sign your app packages, you need to create and manage your own code signing certificates. You can create certificates by using [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) from the Windows Driver Kit (WDK). Then you can use the certificates to sign the app packages, so they can be deployed locally for testing.
+You must digitally sign your packaged Windows apps before you deploy them. If you don't use Microsoft Visual Studio 2012 to create and sign your app packages, you need to create and manage your own code signing certificates. You can create certificates by using [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) from the Windows Driver Kit (WDK). Then you can use the certificates to sign the app packages, so they can be deployed locally for testing.
 
 ## What you need to know
 

@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting packaging, deployment, and query of Windows Store apps
+title: Troubleshooting packaging, deployment, and query of Windows apps
 description: Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 ms.assetid: 38E327C6-0345-4FA6-BCDB-5FA2FCD421FB
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Troubleshooting packaging, deployment, and query of Windows Store apps
+# Troubleshooting packaging, deployment, and query of Windows apps
 
 Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 
@@ -144,9 +144,9 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <td>0x80073CFF</td>
 <td>To install this app, you need a developer license or a sideloading-enabled system. <br/> You may get this error if the package doesn't meet one of the following requirements:<br/>
 <ul>
-<li>The app is deployed using F5 in Visual Studio on a computer with a Windows Store developer license.</li>
-<li>The package is signed with a Microsoft signature and deployed as part of Windows or from the Windows Store.</li>
-<li>The package is signed with a trusted signature and installed on a computer with a Windows Store developer license, a domain-joined computer with the AllowAllTrustedApps policy enabled, or a computer with a Windows Sideloading license with the AllowAllTrustedApps policy enabled.</li>
+<li>The app is deployed using F5 in Visual Studio on a computer with a Windows developer license.</li>
+<li>The package is signed with a Microsoft signature and deployed as part of Windows or from the Microsoft Store.</li>
+<li>The package is signed with a trusted signature and installed on a computer with a developer license, a domain-joined computer with the AllowAllTrustedApps policy enabled, or a computer with a Windows Sideloading license with the AllowAllTrustedApps policy enabled.</li>
 </ul></td>
 </tr>
 <tr class="even">
