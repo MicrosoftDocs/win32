@@ -1,10 +1,10 @@
 - name: "Delivery Optimization (DO)"
   href: delivery-optimization-portal.md
   items: 
-  - name: "DO Reference"
+  - name: "DO reference"
     href: do-reference.md
     items: 
-    - name: "DO Enumerations"
+    - name: "DO enumerations"
       href: do-enumerations.md
       items: 
       - name: "BG_ERROR_CONTEXT"
@@ -23,11 +23,17 @@
         href: bits-job-transfer-policy-.md
       - name: "DeliveryOptimizationFileProperty"
         href: deliveryoptimizationfileproperty.md
+      - name: "DODownloadCostPolicy"
+        href: /windows/win32/delivery_optimization/ne-deliveryoptimizationdownloadtypes-dodownloadcostpolicy
+      - name: "DODownloadProperty"
+        href: /windows/win32/delivery_optimization/ne-deliveryoptimizationdownloadtypes-dodownloadproperty
+      - name: "DODownloadState"
+        href: /windows/win32/delivery_optimization/ne-deliveryoptimizationdownloadtypes-dodownloadstate
       - name: "DownloadMode"
         href: downloadmode.md
       - name: "SwarmStatus"
         href: swarmstatus.md
-    - name: "DO Interfaces"
+    - name: "DO interfaces"
       href: do-interfaces.md
       items: 
       - name: "IBackgroundCopyCallback"
@@ -164,9 +170,9 @@
         - name: "AddFile method"
           href: ideliveryoptimizationjob2-addfile.md
         - name: "GetProperty method"
-          href: ideliveryoptimizationjob2-getproperty
+          href: ideliveryoptimizationjob2-getproperty.md
         - name: "SetProperty method"
-          href: ideliveryoptimizationjob2-setproperty
+          href: ideliveryoptimizationjob2-setproperty.md
       - name: "IDeliveryOptimizationFile"
         href: ideliveryoptimizationfile.md
         items: 
@@ -196,9 +202,9 @@
             href: ienumbackgroundcopyfiles-reset.md
           - name: "Skip method"
             href: ienumbackgroundcopyfiles-skip.md
-    - name: "DO Return Values"
+    - name: "DO return values"
       href: do-return-values.md
-    - name: "DO Structures and Unions"
+    - name: "DO structures and unions"
       href: do-structures-and-unions.md
       items: 
       - name: "DOSwarmStats"
