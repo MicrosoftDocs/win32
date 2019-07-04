@@ -84,9 +84,12 @@ Sharing or producing command lists are not widely used externally by third party
 
 ## Interop APIs
 
-Interop is a work in progress.
+The [Direct3D 11 on 12](/windows/win32/direct3d12/direct3d-11-on-12) topic walks you through the usage of much of the API surface related to the kinds of interoperation described in this topic.
+
+Also see the [ID3D12Device::CreateSharedHandle](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle) method, which you can use to share surfaces between Windows graphics APIs.
 
 ## Related topics
 
 * [Understanding Direct3D 12](directx-12-getting-started.md)
 * [Working with Direct3D 11, Direct3D 10 and Direct2D](direct3d-12-interop.md)
+* [Direct3D 11 on 12](/windows/win32/direct3d12/direct3d-11-on-12)
