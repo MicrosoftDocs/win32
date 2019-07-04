@@ -77,7 +77,7 @@ In general, data passed between pipeline stages is completely generic and is not
     -   [System-Value Semantics](#system-value-semantics)
 -   [Migration from Direct3D 9 to Direct3D 10 and later](#migration-from-direct3d-9-to-direct3d-10-and-later)
     -   [Mapping to Direct3D 9 Semantics](#mapping-to-direct3d-9-semantics)
-    -   [Direct3D 9 VPOS and Direct3D 10 SV\_Position](https://docs.microsoft.com/windows)
+    -   [Direct3D 9 VPOS and Direct3D 10 SV\_Position](#direct3d-9-vpos-and-direct3d-10-sv_position)
     -   [User clip planes in HLSL](#user-clip-planes-in-hlsl)
 -   [Double Binding Semantics](#double-binding-semantics)
 -   [Related topics](#related-topics)
@@ -156,14 +156,14 @@ These semantics have meaning when attached to a pixel-shader input parameter. Th
 <td>Floating-point scalar that indicates a back-facing primitive. A negative value faces backwards, while a positive value faces the camera.
 <blockquote>
 [!Note]<br />
-This semantic is available in <a href="dx-graphics-hlsl-sm3">Direct3D 9 Shader Model 3.0</a>. For Direct3D 10 and later, use <a href="#semantics-supported-only-for-direct3d-10-and-newer">SV_IsFrontFace</a> instead.
+This semantic is available in <a href="dx-graphics-hlsl-sm3.md">Direct3D 9 Shader Model 3.0</a>. For Direct3D 10 and later, use <a href="#semantics-supported-only-for-direct3d-10-and-newer">SV_IsFrontFace</a> instead.
 </blockquote>
 <br/></td>
 <td>float</td>
 </tr>
 <tr class="even">
 <td>VPOS</td>
-<td>The pixel location (x,y) in screen space. To convert a Direct3D 9 shader (that uses this semantic) to a Direct3D 10 and later shader, see <a href="https://docs.microsoft.com/windows">Direct3D 9 VPOS and Direct3D 10 SV_Position</a>)</td>
+<td>The pixel location (x,y) in screen space. To convert a Direct3D 9 shader (that uses this semantic) to a Direct3D 10 and later shader, see <a href="#direct3d-9-vpos-and-direct3d-10-sv_position">Direct3D 9 VPOS and Direct3D 10 SV_Position</a>)</td>
 <td>float2</td>
 </tr>
 <tr class="odd">
