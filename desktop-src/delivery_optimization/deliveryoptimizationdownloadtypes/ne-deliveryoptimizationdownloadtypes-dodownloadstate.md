@@ -48,8 +48,8 @@ typedef enum _DODownloadState
 
 ## Requirements
 
-| | |
-|-|-|
-| Minimum supported client | Windows 10, version 1809 \[Win32 applications only\] |
-| Minimum supported server | Windows Server, version 1809 \[Win32 applications only\] |
-| Header | DeliveryoptimizationDownloadTypes.h |
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum supported client** | Windows 10, version 1809 \[Win32 applications only\] |
+| **Minimum supported server** | Windows Server, version 1809 \[Win32 applications only\] |
+| **Header** | DeliveryoptimizationDownloadTypes.h |

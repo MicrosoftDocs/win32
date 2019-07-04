@@ -24,11 +24,11 @@
       - name: "DeliveryOptimizationFileProperty"
         href: deliveryoptimizationfileproperty.md
       - name: "DODownloadCostPolicy"
-        href: /windows/win32/delivery_optimization/ne-deliveryoptimizationdownloadtypes-dodownloadcostpolicy
+        href: /windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadcostpolicy
       - name: "DODownloadProperty"
-        href: /windows/win32/delivery_optimization/ne-deliveryoptimizationdownloadtypes-dodownloadproperty
+        href: /windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty
       - name: "DODownloadState"
-        href: /windows/win32/delivery_optimization/ne-deliveryoptimizationdownloadtypes-dodownloadstate
+        href: /windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadstate
       - name: "DownloadMode"
         href: downloadmode.md
       - name: "SwarmStatus"
@@ -202,13 +202,40 @@
             href: ienumbackgroundcopyfiles-reset.md
           - name: "Skip method"
             href: ienumbackgroundcopyfiles-skip.md
+      - name: "IDODownload"
+        href: /windows/win32/delivery_optimization/do/nn-do-idodownload
+        items: 
+        - name: "Abort method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownload-abort
+        - name: "Finalize method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownload-finalize
+        - name: "GetProperty method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownload-getproperty
+        - name: "GetStatus method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownload-getstatus
+        - name: "Pause method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownload-pause
+        - name: "SetProperty method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownload-setproperty
+        - name: "Start method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownload-start
+      - name: "IDODownloadStatusCallback"
+        href: /windows/win32/delivery_optimization/do/nn-do-idodownloadstatuscallback
+        items: 
+        - name: "OnStatusChanged method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idodownloadstatuscallback-onstatuschanged
+      - name: "IDOManager"
+        href: /windows/win32/delivery_optimization/do/nn-do-idomanager
+        items: 
+        - name: "CreateDownload method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idomanager-createdownload
+        - name: "EnumDownloads method"
+          href: /windows/win32/delivery_optimization/do/nf-do-idomanager-enumdownloads
     - name: "DO return values"
       href: do-return-values.md
     - name: "DO structures and unions"
       href: do-structures-and-unions.md
       items: 
-      - name: "DOSwarmStats"
-        href: doswarmstats.md
       - name: "BG_FILE_PROGRESS"
         href: bg-file-progress.md
       - name: "BG_FILE_RANGE"
@@ -221,3 +248,15 @@
         href: bits-file-property-value.md
       - name: "BITS_JOB_PROPERTY_VALUE"
         href: bits-job-property-value-.md
+      - name: "DO_DOWNLOAD_ENUM_CATEGORY"
+        href: /windows/win32/delivery_optimization/do/ns-do-do_download_enum_category
+      - name: "DO_DOWNLOAD_RANGE"
+        href: /windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ns-deliveryoptimizationdownloadtypes-do_download_range
+      - name: "DO_DOWNLOAD_RANGE_INFO"
+        href: /windows/win32/delivery_optimization/do/ns-do-do_download_range_info
+      - name: "DO_DOWNLOAD_STATUS"
+        href: /windows/win32/delivery_optimization/do/ns-do-do_download_status
+      - name: "DOSwarmStats"
+        href: doswarmstats.md
+
+
