@@ -156,7 +156,7 @@ These semantics have meaning when attached to a pixel-shader input parameter. Th
 <td>Floating-point scalar that indicates a back-facing primitive. A negative value faces backwards, while a positive value faces the camera.
 <blockquote>
 [!Note]<br />
-This semantic is available in <a href="dx-graphics-hlsl-sm3">Direct3D 9 Shader Model 3.0</a>. For Direct3D 10 and later, use <a href="#semantics-supported-only-for-direct3d-10-and-newer">SV_IsFrontFace</a> instead.
+This semantic is available in <a href="dx-graphics-hlsl-sm3.md">Direct3D 9 Shader Model 3.0</a>. For Direct3D 10 and later, use <a href="#semantics-supported-only-for-direct3d-10-and-newer">SV_IsFrontFace</a> instead.
 </blockquote>
 <br/></td>
 <td>float</td>
