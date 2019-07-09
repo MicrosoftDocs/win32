@@ -141,7 +141,7 @@ When using an API to create a directory, the specified path cannot be so long th
 
 The shell and the file system have different requirements. It is possible to create a path with the Windows API that the shell user interface is not able to interpret properly.
 
-#### Enable Long Paths in Windows 10, Version 1607, and Later
+### Enable Long Paths in Windows 10, Version 1607, and Later
 
 Starting in Windows 10, version 1607, **MAX\_PATH** limitations have been removed from common Win32 file and directory functions. However, you must opt-in to the new behavior.
 
