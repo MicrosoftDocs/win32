@@ -128,14 +128,10 @@ In the Windows API (with some exceptions discussed in the following paragraphs),
 > [!Note]  
 > File I/O functions in the Windows API convert "/" to "\\" as part of converting the name to an NT-style name, except when using the "\\\\?\\" prefix as detailed in the following sections.
 
- 
-
 The Windows API has many functions that also have Unicode versions to permit an extended-length path for a maximum total path length of 32,767 characters. This type of path is composed of components separated by backslashes, each up to the value returned in the *lpMaximumComponentLength* parameter of the [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) function (this value is commonly 255 characters). To specify an extended-length path, use the "\\\\?\\" prefix. For example, "\\\\?\\D:\\*very long path*".
 
 > [!Note]  
 > The maximum path of 32,767 characters is approximate, because the "\\\\?\\" prefix may be expanded to a longer string by the system at run time, and this expansion applies to the total length.
-
- 
 
 The "\\\\?\\" prefix can also be used with paths constructed according to the universal naming convention (UNC). To specify such a path using UNC, use the "\\\\?\\UNC\\" prefix. For example, "\\\\?\\UNC\\server\\share", where "server" is the name of the computer and "share" is the name of the shared folder. These prefixes are not used as part of the path itself. They indicate that the path should be passed to the system with minimal modification, which means that you cannot use forward slashes to represent path separators, or a period to represent the current directory, or double dots to represent the parent directory. Because you cannot use the "\\\\?\\" prefix with a relative path, relative paths are always limited to a total of **MAX\_PATH** characters.
 
@@ -145,27 +141,26 @@ When using an API to create a directory, the specified path cannot be so long th
 
 The shell and the file system have different requirements. It is possible to create a path with the Windows API that the shell user interface is not able to interpret properly.
 
-> [!TIP]
-> Starting in Windows 10, version 1607, **MAX\_PATH** limitations have been removed from common Win32 file and directory functions. However, you must opt-in to the new behavior.
+### Enable Long Paths in Windows 10, Version 1607, and Later
 
- 
+Starting in Windows 10, version 1607, **MAX\_PATH** limitations have been removed from common Win32 file and directory functions. However, you must opt-in to the new behavior.
 
-A registry key allows you to enable or disable the new long path behavior. To enable long path behavior set the registry key at `HKLM\SYSTEM\CurrentControlSet\Control\FileSystem LongPathsEnabled (Type: REG_DWORD)`. The key's value will be cached by the system (per process) after the first call to an affected Win32 file or directory function (list follows). The registry key will not be reloaded during the lifetime of the process. In order for all apps on the system to recognize the value of the key, a reboot might be required because some processes may have started before the key was set.
+To enable the new long path behavior, both of the following conditions must be met:
 
-The registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable NTFS long paths`.
+* The registry key `HKLM\SYSTEM\CurrentControlSet\Control\FileSystem LongPathsEnabled (Type: REG_DWORD)` must exist and be set to 1. The key's value will be cached by the system (per process) after the first call to an affected Win32 file or directory function (see below for the list of functions). The registry key will not be reloaded during the lifetime of the process. In order for all apps on the system to recognize the value of the key, a reboot might be required because some processes may have started before the key was set.
 
-You can also enable the new long path behavior per app via the manifest:
+    > [!NOTE]  
+    > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable NTFS long paths`.
 
+* The application manifest must also include the `longPathAware` element.
 
-```XML
-<application xmlns="urn:schemas-microsoft-com:asm.v3">
-    <windowsSettings xmlns:ws2="https://schemas.microsoft.com/SMI/2016/WindowsSettings">
-        <ws2:longPathAware>true</ws2:longPathAware>
-    </windowsSettings>
-</application>
-```
-
-
+    ```XML
+    <application xmlns="urn:schemas-microsoft-com:asm.v3">
+        <windowsSettings xmlns:ws2="https://schemas.microsoft.com/SMI/2016/WindowsSettings">
+            <ws2:longPathAware>true</ws2:longPathAware>
+        </windowsSettings>
+    </application>
+    ```
 
 These are the directory management functions that no longer have **MAX\_PATH** restrictions if you opt-in to long path behavior: CreateDirectoryW, CreateDirectoryExW GetCurrentDirectoryW RemoveDirectoryW SetCurrentDirectoryW.
 
