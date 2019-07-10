@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the FillEllipse methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: '92f6f3ca-337b-4f57-9472-2dc677550b39'
-title: 'Graphics.FillEllipse methods'
+Description: This topic lists the FillEllipse methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 92f6f3ca-337b-4f57-9472-2dc677550b39
+title: Graphics.FillEllipse methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.FillEllipse methods

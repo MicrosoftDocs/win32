@@ -1,14 +1,16 @@
 ---
 title: IDCompositionEffectGroup SetOpacity methods
 description: Animates or changes the value of the Opacity property.
-ms.assetid: '785DE91D-718B-4704-88E4-B8FB12586E5F'
-keywords: ["SetOpacity methods DirectComposition"]
+ms.assetid: 785DE91D-718B-4704-88E4-B8FB12586E5F
+keywords:
+- SetOpacity methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionEffectGroup::SetOpacity methods

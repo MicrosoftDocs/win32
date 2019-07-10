@@ -3,7 +3,7 @@ Description: Subtraction and negation operators.
 ms.assetid: b3a3da02-4fba-4f76-90d8-15f605c73f16
 title: operator - operators
 ms.topic: article
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ---
 
 # operator - operators

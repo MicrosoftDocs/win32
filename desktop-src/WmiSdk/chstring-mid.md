@@ -1,9 +1,10 @@
 ---
-Description: 'The Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). The method returns a copy of the extracted substring.'
+Description: The Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). The method returns a copy of the extracted substring.
 audience: developer
-ms.assetid: '2036813b-f991-4ca3-95d3-8bbe858aae09'
+ms.assetid: 2036813b-f991-4ca3-95d3-8bbe858aae09
 ms.tgt_platform: multiple
-title: 'CHString::Mid methods'
+title: CHString::Mid methods
+ms.date: 07/02/2019
 ---
 
 # CHString::Mid methods

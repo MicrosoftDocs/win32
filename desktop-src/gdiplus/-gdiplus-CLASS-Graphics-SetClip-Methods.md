@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the SetClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'e8348373-da79-4d33-8bea-d594985493d4'
-title: 'Graphics.SetClip methods'
+Description: This topic lists the SetClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: e8348373-da79-4d33-8bea-d594985493d4
+title: Graphics.SetClip methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.SetClip methods

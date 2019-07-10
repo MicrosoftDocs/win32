@@ -1,14 +1,16 @@
 ---
 title: IDCompositionRotateTransform SetCenterY methods
 description: Changes or animates the value of the CenterY property of a 2D rotation transform.
-ms.assetid: '4C586C46-AA3E-4572-AFD6-8661BD26AC50'
-keywords: ["SetCenterY methods DirectComposition"]
+ms.assetid: 4C586C46-AA3E-4572-AFD6-8661BD26AC50
+keywords:
+- SetCenterY methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionRotateTransform::SetCenterY methods

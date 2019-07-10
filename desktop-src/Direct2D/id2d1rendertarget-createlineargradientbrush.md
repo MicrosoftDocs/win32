@@ -1,14 +1,16 @@
 ---
 title: ID2D1RenderTarget CreateLinearGradientBrush methods
 description: Creates an ID2D1LinearGradientBrush object for painting areas with a linear gradient.
-ms.assetid: 'dc07113f-ff93-4b0f-8328-02dd481dccb0'
-keywords: ["CreateLinearGradientBrush methods Direct2D"]
+ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0
+keywords:
+- CreateLinearGradientBrush methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1RenderTarget::CreateLinearGradientBrush methods

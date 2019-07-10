@@ -1,14 +1,16 @@
 ---
 title: ID2D1DeviceContext CreateBitmapFromDxgiSurface methods
 description: Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
-ms.assetid: 'E8C62877-DE26-4819-B9AA-980E473617AD'
-keywords: ["CreateBitmapFromDxgiSurface methods Direct2D"]
+ms.assetid: E8C62877-DE26-4819-B9AA-980E473617AD
+keywords:
+- CreateBitmapFromDxgiSurface methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1_1.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # ID2D1DeviceContext::CreateBitmapFromDxgiSurface methods

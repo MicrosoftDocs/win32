@@ -3,15 +3,15 @@ Description: Translates the specified source string into a Unicode string, using
 ms.assetid: 2871a81b-74f9-462e-9e5c-c59d06bb6841
 title: RtlUTF8ToUnicodeN function
 ms.topic: article
-ms.date: 2/21/2019
-topic_type: 
+ms.date: 02/21/2019
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - RtlUTF8ToUnicodeN
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Ntdll.dll
 ---
 

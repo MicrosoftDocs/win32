@@ -1,14 +1,16 @@
 ---
 title: idcompositionlineartransfereffect SetAlphaSlope methods
 description: Sets the slope of the linear function for the alpha channel.
-ms.assetid: '1de76dcb-9fcb-ddda-0a98-be151ff869ff'
-keywords: ["SetAlphaSlope methods DirectComposition"]
+ms.assetid: 1de76dcb-9fcb-ddda-0a98-be151ff869ff
+keywords:
+- SetAlphaSlope methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # idcompositionlineartransfereffect::SetAlphaSlope methods

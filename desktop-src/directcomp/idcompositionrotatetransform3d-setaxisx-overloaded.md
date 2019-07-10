@@ -1,14 +1,16 @@
 ---
 title: IDCompositionRotateTransform3D SetAxisX methods
 description: Changes or animates the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
-ms.assetid: '6ADBB027-8F80-4DF3-9199-DDB6570DF81B'
-keywords: ["SetAxisX methods DirectComposition"]
+ms.assetid: 6ADBB027-8F80-4DF3-9199-DDB6570DF81B
+keywords:
+- SetAxisX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionRotateTransform3D::SetAxisX methods

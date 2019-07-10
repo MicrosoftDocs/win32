@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the Contains methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.'
-ms.assetid: '7f409554-5d84-4294-bbc9-55f57f40dc56'
-title: 'Rect.Contains methods'
+Description: This topic lists the Contains methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+ms.assetid: 7f409554-5d84-4294-bbc9-55f57f40dc56
+title: Rect.Contains methods
+ms.date: 07/02/2019
 ---
 
 # Rect.Contains methods

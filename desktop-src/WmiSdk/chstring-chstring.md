@@ -1,9 +1,10 @@
 ---
-Description: 'Each of the following constructors initializes a new CHString object with the specified data.'
+Description: Each of the following constructors initializes a new CHString object with the specified data.
 audience: developer
-ms.assetid: 'd49e1600-d5d4-4c44-81c5-1b8c53b768de'
+ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.tgt_platform: multiple
-title: 'CHString::CHString constructors'
+title: CHString::CHString constructors
+ms.date: 07/02/2019
 ---
 
 # CHString::CHString constructors

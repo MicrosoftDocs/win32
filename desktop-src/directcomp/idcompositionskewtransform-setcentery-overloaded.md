@@ -1,14 +1,16 @@
 ---
 title: IDCompositionSkewTransform SetCenterY methods
 description: Changes or animates the value of the CenterY property of a of a 2D skew transform.
-ms.assetid: 'D3F5E009-D6D2-431F-AC5C-C14C0AE1CD36'
-keywords: ["SetCenterY methods DirectComposition"]
+ms.assetid: D3F5E009-D6D2-431F-AC5C-C14C0AE1CD36
+keywords:
+- SetCenterY methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionSkewTransform::SetCenterY methods

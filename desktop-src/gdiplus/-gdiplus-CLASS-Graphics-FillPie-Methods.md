@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the FillPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'e6de6634-b87f-4fe9-a0d4-ffeea0e0ae8b'
-title: 'Graphics.FillPie methods'
+Description: This topic lists the FillPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: e6de6634-b87f-4fe9-a0d4-ffeea0e0ae8b
+title: Graphics.FillPie methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.FillPie methods

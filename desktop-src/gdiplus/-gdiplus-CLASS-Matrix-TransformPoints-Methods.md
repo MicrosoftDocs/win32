@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the TransformPoints methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.'
-ms.assetid: 'a290aa79-64a0-440e-bfec-a8e66057ec14'
-title: 'Matrix.TransformPoints methods'
+Description: This topic lists the TransformPoints methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.
+ms.assetid: a290aa79-64a0-440e-bfec-a8e66057ec14
+title: Matrix.TransformPoints methods
+ms.date: 07/02/2019
 ---
 
 # Matrix.TransformPoints methods

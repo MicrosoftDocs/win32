@@ -1,14 +1,16 @@
 ---
 title: ID2D1ImageSourceFromWic TrimCache methods
 description: Trims the populated regions of the image source cache to just the specified rectangle.
-ms.assetid: '04e6e010-3642-6775-8a95-f20ff0461b09'
-keywords: ["TrimCache methods Direct2D"]
+ms.assetid: 04e6e010-3642-6775-8a95-f20ff0461b09
+keywords:
+- TrimCache methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # ID2D1ImageSourceFromWic::TrimCache methods

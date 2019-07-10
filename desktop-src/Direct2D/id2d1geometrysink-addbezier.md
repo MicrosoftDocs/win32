@@ -1,14 +1,16 @@
 ---
 title: ID2D1GeometrySink AddBezier methods
 description: Creates a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
-ms.assetid: 'd1e228eb-dac6-485d-b3c9-69b2bd45e531'
-keywords: ["AddBezier methods Direct2D"]
+ms.assetid: d1e228eb-dac6-485d-b3c9-69b2bd45e531
+keywords:
+- AddBezier methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1GeometrySink::AddBezier methods

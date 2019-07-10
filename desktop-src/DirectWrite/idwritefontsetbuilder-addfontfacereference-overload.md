@@ -1,14 +1,16 @@
 ---
 title: IDWriteFontSetBuilder AddFontFaceReference methods
 description: Adds a reference to a font to the set being built.
-ms.assetid: '2543720f-1b5a-ca1d-9e24-3fcd61a4de37'
-keywords: ["AddFontFaceReference methods Direct Write"]
+ms.assetid: 2543720f-1b5a-ca1d-9e24-3fcd61a4de37
+keywords:
+- AddFontFaceReference methods Direct Write
 topic_type:
 - apiref
 api_location:
 - dwrite_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDWriteFontSetBuilder::AddFontFaceReference methods

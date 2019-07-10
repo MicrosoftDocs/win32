@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the DrawImage methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'c9577988-e52f-4f71-ab1b-51bb5368812e'
-title: 'Graphics.DrawImage methods'
+Description: This topic lists the DrawImage methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: c9577988-e52f-4f71-ab1b-51bb5368812e
+title: Graphics.DrawImage methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.DrawImage methods

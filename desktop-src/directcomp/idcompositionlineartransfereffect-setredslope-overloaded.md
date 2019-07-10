@@ -1,14 +1,16 @@
 ---
 title: idcompositionlineartransfereffect setredslope methods
 description: Sets the slope of the linear function for the red channel.
-ms.assetid: '486dad35-e9f2-cc7e-1c20-0e69ce1d22bb'
-keywords: ["setredslope methods DirectComposition"]
+ms.assetid: 486dad35-e9f2-cc7e-1c20-0e69ce1d22bb
+keywords:
+- setredslope methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # idcompositionlineartransfereffect::setredslope methods

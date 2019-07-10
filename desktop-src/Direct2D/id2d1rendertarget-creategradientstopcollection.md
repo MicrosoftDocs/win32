@@ -1,14 +1,16 @@
 ---
 title: ID2D1RenderTarget CreateGradientStopCollection methods
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1\_GRADIENT\_STOP structures.
-ms.assetid: '674ffba5-18c5-46bf-8813-d8d13e5ba903'
-keywords: ["CreateGradientStopCollection methods Direct2D"]
+ms.assetid: 674ffba5-18c5-46bf-8813-d8d13e5ba903
+keywords:
+- CreateGradientStopCollection methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1RenderTarget::CreateGradientStopCollection methods

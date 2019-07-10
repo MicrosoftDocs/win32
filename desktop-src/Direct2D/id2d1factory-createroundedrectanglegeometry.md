@@ -1,14 +1,16 @@
 ---
 title: ID2D1Factory CreateRoundedRectangleGeometry methods
 description: Creates an ID2D1RoundedRectangleGeometry.
-ms.assetid: 'b0f7ccb0-5733-4f96-a532-8f665fbc257e'
-keywords: ["CreateRoundedRectangleGeometry methods Direct2D"]
+ms.assetid: b0f7ccb0-5733-4f96-a532-8f665fbc257e
+keywords:
+- CreateRoundedRectangleGeometry methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1Factory::CreateRoundedRectangleGeometry methods

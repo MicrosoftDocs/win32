@@ -1,14 +1,16 @@
 ---
 title: IDCompositionRectangleClip SetBottomRightRadiusY methods
 description: Changes or animates the value of the BottomRightRadiusY property of this clip. The BottomRightRadiusY property specifies the y radius of the ellipse that rounds the lower-right corner of the clip.
-ms.assetid: 'A2A3F43E-62C6-43B8-929F-AEDA11620DF1'
-keywords: ["SetBottomRightRadiusY methods DirectComposition"]
+ms.assetid: A2A3F43E-62C6-43B8-929F-AEDA11620DF1
+keywords:
+- SetBottomRightRadiusY methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionRectangleClip::SetBottomRightRadiusY methods

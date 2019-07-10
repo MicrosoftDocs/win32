@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the constructors of the Font class. For a complete class listing, see Font Class.'
-ms.assetid: 'a0169751-50f6-41d9-bd59-3c85aec1bb78'
-title: 'Font.Font constructors'
+Description: This topic lists the constructors of the Font class. For a complete class listing, see Font Class.
+ms.assetid: a0169751-50f6-41d9-bd59-3c85aec1bb78
+title: Font.Font constructors
+ms.date: 07/02/2019
 ---
 
 # Font.Font constructors

@@ -1,14 +1,16 @@
 ---
 title: ID2D1SvgStrokeDashArray GetDashes methods
 description: Gets dashes from the array.
-ms.assetid: 'd244b59c-2681-1da9-9b89-534b4f3be543'
-keywords: ["GetDashes methods Direct2D"]
+ms.assetid: d244b59c-2681-1da9-9b89-534b4f3be543
+keywords:
+- GetDashes methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1svg.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # ID2D1SvgStrokeDashArray::GetDashes methods

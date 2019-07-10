@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the FillClosedCurve methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: '378f0d34-7328-45e5-9f55-826bdaed3aab'
-title: 'Graphics.FillClosedCurve methods'
+Description: This topic lists the FillClosedCurve methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 378f0d34-7328-45e5-9f55-826bdaed3aab
+title: Graphics.FillClosedCurve methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.FillClosedCurve methods

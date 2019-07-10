@@ -3,12 +3,12 @@ Description: Accesses specific matrix elements referenced by row and column from
 ms.assetid: 917d44b0-4625-412f-b3ad-5955856689d5
 title: XMMATRIX operator () operators
 ms.topic: article
-ms.date: 12/6/2018
-topic_type: 
+ms.date: 12/06/2018
+topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-api_type: 
+api_type:
 - NA
 api_location: 
 ---

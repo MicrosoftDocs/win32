@@ -1,14 +1,16 @@
 ---
 title: IDCompositionRectangleClip SetLeft methods
 description: Animates or changes the value of the Left property of a clip rectangle.
-ms.assetid: 'A8E2C2A3-6146-486F-8FF4-05097BFE9222'
-keywords: ["SetLeft methods DirectComposition"]
+ms.assetid: A8E2C2A3-6146-486F-8FF4-05097BFE9222
+keywords:
+- SetLeft methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionRectangleClip::SetLeft methods

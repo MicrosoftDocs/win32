@@ -1,14 +1,16 @@
 ---
 title: ID2D1HwndRenderTarget Resize methods
 description: Changes the size of the render target to the specified pixel size.
-ms.assetid: 'b8ea2e96-c69b-4018-9572-c9099bf6202d'
-keywords: ["Resize methods Direct2D"]
+ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
+keywords:
+- Resize methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1HwndRenderTarget::Resize methods

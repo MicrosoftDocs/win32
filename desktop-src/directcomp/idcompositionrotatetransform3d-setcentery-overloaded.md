@@ -1,14 +1,16 @@
 ---
 title: IDCompositionRotateTransform3D SetCenterY methods
 description: Changes or animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
-ms.assetid: '19B3B065-BE8C-4CBD-8A94-54934CA0B421'
-keywords: ["SetCenterY methods DirectComposition"]
+ms.assetid: 19B3B065-BE8C-4CBD-8A94-54934CA0B421
+keywords:
+- SetCenterY methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionRotateTransform3D::SetCenterY methods

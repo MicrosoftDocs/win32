@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the DrawPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: '4c6b363f-ffe4-4572-98c0-55f84f789b1e'
-title: 'Graphics.DrawPie methods'
+Description: This topic lists the DrawPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 4c6b363f-ffe4-4572-98c0-55f84f789b1e
+title: Graphics.DrawPie methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.DrawPie methods

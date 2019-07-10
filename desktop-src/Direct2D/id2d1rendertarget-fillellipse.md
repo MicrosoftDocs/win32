@@ -1,14 +1,16 @@
 ---
 title: ID2D1RenderTarget FillEllipse methods
 description: Paints the interior of the specified ellipse.
-ms.assetid: '149fb303-d2e8-416c-b28f-8bc5f1482ba6'
-keywords: ["FillEllipse methods Direct2D"]
+ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
+keywords:
+- FillEllipse methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1RenderTarget::FillEllipse methods

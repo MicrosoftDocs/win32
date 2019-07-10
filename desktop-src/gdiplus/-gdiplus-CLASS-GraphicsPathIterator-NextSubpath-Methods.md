@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the NextSubpath methods of the GraphicsPathIterator class. For a complete list of methods for the GraphicsPathIterator class, see GraphicsPathIterator Methods.'
-ms.assetid: '91137029-182d-4dc5-89a3-f3835f55d327'
-title: 'GraphicsPathIterator.NextSubpath methods'
+Description: This topic lists the NextSubpath methods of the GraphicsPathIterator class. For a complete list of methods for the GraphicsPathIterator class, see GraphicsPathIterator Methods.
+ms.assetid: 91137029-182d-4dc5-89a3-f3835f55d327
+title: GraphicsPathIterator.NextSubpath methods
+ms.date: 07/02/2019
 ---
 
 # GraphicsPathIterator.NextSubpath methods

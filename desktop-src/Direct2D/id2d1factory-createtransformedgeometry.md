@@ -1,14 +1,16 @@
 ---
 title: ID2D1Factory CreateTransformedGeometry methods
 description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
-ms.assetid: '71f26200-0f35-49d7-951d-2962768d16bc'
-keywords: ["CreateTransformedGeometry methods Direct2D"]
+ms.assetid: 71f26200-0f35-49d7-951d-2962768d16bc
+keywords:
+- CreateTransformedGeometry methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1Factory::CreateTransformedGeometry methods

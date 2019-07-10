@@ -1,9 +1,10 @@
 ---
-Description: 'The Format method formats and stores a series of characters and values in a CHString string.'
+Description: The Format method formats and stores a series of characters and values in a CHString string.
 audience: developer
-ms.assetid: '95d24b0e-3580-4a5d-8dad-50d44ef1ca39'
+ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
 ms.tgt_platform: multiple
-title: 'CHString::Format methods'
+title: CHString::Format methods
+ms.date: 07/02/2019
 ---
 
 # CHString::Format methods

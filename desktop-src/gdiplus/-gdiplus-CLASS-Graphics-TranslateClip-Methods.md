@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the TranslateClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: '2ae4af90-2612-4b00-b47d-0155e98bffa5'
-title: 'Graphics.TranslateClip methods'
+Description: This topic lists the TranslateClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 2ae4af90-2612-4b00-b47d-0155e98bffa5
+title: Graphics.TranslateClip methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.TranslateClip methods

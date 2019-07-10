@@ -1,14 +1,16 @@
 ---
 title: IDCompositionScaleTransform3D SetCenterX methods
 description: Changes or animates the value of the CenterX property of a 3D scale transform.
-ms.assetid: '959F8530-D2D5-46BC-9F29-F1DFC8029C12'
-keywords: ["SetCenterX methods DirectComposition"]
+ms.assetid: 959F8530-D2D5-46BC-9F29-F1DFC8029C12
+keywords:
+- SetCenterX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionScaleTransform3D::SetCenterX methods

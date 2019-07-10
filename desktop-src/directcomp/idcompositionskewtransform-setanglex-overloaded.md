@@ -1,14 +1,16 @@
 ---
 title: IDCompositionSkewTransform SetAngleX methods
 description: Changes or animates the value of the AngleX property of a 2D skew transform. The AngleX property specifies the rotation angle, in degrees. The default value is zero.
-ms.assetid: 'DA4AEE0D-A913-434E-9150-DD6763132041'
-keywords: ["SetAngleX methods DirectComposition"]
+ms.assetid: DA4AEE0D-A913-434E-9150-DD6763132041
+keywords:
+- SetAngleX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionSkewTransform::SetAngleX methods

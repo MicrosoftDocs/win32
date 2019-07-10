@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the GetCenterPoint methods of the PathGradientBrush class. For a complete list of methods for the PathGradientBrush class, see PathGradientBrush Methods.'
-ms.assetid: '6bd4993d-2401-4070-be0e-dbac684095d3'
-title: 'PathGradientBrush.GetCenterPoint methods'
+Description: This topic lists the GetCenterPoint methods of the PathGradientBrush class. For a complete list of methods for the PathGradientBrush class, see PathGradientBrush Methods.
+ms.assetid: 6bd4993d-2401-4070-be0e-dbac684095d3
+title: PathGradientBrush.GetCenterPoint methods
+ms.date: 07/02/2019
 ---
 
 # PathGradientBrush.GetCenterPoint methods

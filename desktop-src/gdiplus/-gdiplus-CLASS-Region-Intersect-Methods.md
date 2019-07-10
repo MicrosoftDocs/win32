@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the Intersect methods of the Region class. For a complete list of methods for the Region class, see Region Methods.'
-ms.assetid: '4e50180f-8d53-4033-a619-a98890c6cb37'
-title: 'Region.Intersect methods'
+Description: This topic lists the Intersect methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+ms.assetid: 4e50180f-8d53-4033-a619-a98890c6cb37
+title: Region.Intersect methods
+ms.date: 07/02/2019
 ---
 
 # Region.Intersect methods

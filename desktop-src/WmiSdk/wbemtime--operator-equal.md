@@ -1,9 +1,10 @@
 ---
-Description: 'The WBEMTime class assignment operators are overloaded to facilitate conversions between various Windows and ANSI C run-time time formats. The various overloaded signatures are listed below.'
+Description: The WBEMTime class assignment operators are overloaded to facilitate conversions between various Windows and ANSI C run-time time formats. The various overloaded signatures are listed below.
 audience: developer
-ms.assetid: '47978056-d46f-4f8f-99cb-8463b44da7cf'
+ms.assetid: 47978056-d46f-4f8f-99cb-8463b44da7cf
 ms.tgt_platform: multiple
-title: 'WBEMTime::operator= operators'
+title: WBEMTime::operator= operators
+ms.date: 07/02/2019
 ---
 
 # WBEMTime::operator= operators

@@ -1,14 +1,16 @@
 ---
 title: IDCompositionMatrixTransform SetMatrixElement methods
 description: Changes or animates the value of one element of the matrix of this 2D transform.
-ms.assetid: 'ADF3D443-6764-40A5-AD5C-7C3053E247CB'
-keywords: ["SetMatrixElement methods DirectComposition"]
+ms.assetid: ADF3D443-6764-40A5-AD5C-7C3053E247CB
+keywords:
+- SetMatrixElement methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionMatrixTransform::SetMatrixElement methods

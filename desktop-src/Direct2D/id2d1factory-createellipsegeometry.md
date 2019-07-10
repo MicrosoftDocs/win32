@@ -1,14 +1,16 @@
 ---
 title: ID2D1Factory CreateEllipseGeometry methods
 description: Creates an ID2D1EllipseGeometry.
-ms.assetid: '4c03bb0b-74fe-456a-aa26-5449d758c0ea'
-keywords: ["CreateEllipseGeometry methods Direct2D"]
+ms.assetid: 4c03bb0b-74fe-456a-aa26-5449d758c0ea
+keywords:
+- CreateEllipseGeometry methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1Factory::CreateEllipseGeometry methods

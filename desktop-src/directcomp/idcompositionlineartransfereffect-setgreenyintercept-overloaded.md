@@ -1,14 +1,16 @@
 ---
 title: IDCompositionLinearTransferEffect setgreenyintercept methods
 description: Sets the Y-intercept of the linear function for the green channel.
-ms.assetid: '1aa4c933-ee49-2772-9a7e-b120b5bdd331'
-keywords: ["SetGreenYIntercept methods DirectComposition"]
+ms.assetid: 1aa4c933-ee49-2772-9a7e-b120b5bdd331
+keywords:
+- SetGreenYIntercept methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDCompositionLinearTransferEffect::setgreenyintercept methods

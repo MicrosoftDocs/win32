@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'e7cc93ab-c1e6-40e7-8888-f6bbffa42a00'
-title: 'Graphics.FillPolygon methods'
+Description: This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: e7cc93ab-c1e6-40e7-8888-f6bbffa42a00
+title: Graphics.FillPolygon methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.FillPolygon methods

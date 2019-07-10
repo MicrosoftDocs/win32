@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the IsVisible methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: '35425397-49b2-4388-a99f-a80b0b2027dc'
-title: 'Graphics.IsVisible methods'
+Description: This topic lists the IsVisible methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 35425397-49b2-4388-a99f-a80b0b2027dc
+title: Graphics.IsVisible methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.IsVisible methods

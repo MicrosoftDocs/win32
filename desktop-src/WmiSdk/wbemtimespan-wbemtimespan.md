@@ -1,9 +1,10 @@
 ---
-Description: 'The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.'
+Description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
 audience: developer
-ms.assetid: '337dc247-9904-457a-a1f3-e1cf29b61126'
+ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.tgt_platform: multiple
-title: 'WBEMTimeSpan::WbemTimeSpan constructors'
+title: WBEMTimeSpan::WbemTimeSpan constructors
+ms.date: 07/02/2019
 ---
 
 # WBEMTimeSpan::WbemTimeSpan constructors

@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the Save methods of the Image class. For a complete list of methods for the Image class, see Image Methods.'
-ms.assetid: 'ea264188-3c39-4f00-84f3-114c81a5642e'
-title: 'Image.Save methods'
+Description: This topic lists the Save methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
+ms.assetid: ea264188-3c39-4f00-84f3-114c81a5642e
+title: Image.Save methods
+ms.date: 07/02/2019
 ---
 
 # Image.Save methods

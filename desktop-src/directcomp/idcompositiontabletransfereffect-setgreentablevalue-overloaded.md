@@ -1,14 +1,16 @@
 ---
 title: IDCompositionTableTransferEffect SetGreenTableValue methods
 description: Sets a value in the green table.
-ms.assetid: 'feccfc61-31e6-362a-1e81-0650736b962a'
-keywords: ["SetGreenTableValue methods DirectComposition"]
+ms.assetid: feccfc61-31e6-362a-1e81-0650736b962a
+keywords:
+- SetGreenTableValue methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDCompositionTableTransferEffect::SetGreenTableValue methods

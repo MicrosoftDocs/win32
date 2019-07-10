@@ -1,14 +1,16 @@
 ---
 title: idcompositionhuerotationeffect SetAngle methods
 description: Sets the angle to rotate the hue.
-ms.assetid: 'e4069c7a-c8a1-dadb-a1fc-1d0c4c58834f'
-keywords: ["SetAngle methods DirectComposition"]
+ms.assetid: e4069c7a-c8a1-dadb-a1fc-1d0c4c58834f
+keywords:
+- SetAngle methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # idcompositionhuerotationeffect::SetAngle methods

@@ -1,9 +1,10 @@
 ---
-Description: 'An overloaded method that releases the memory that contains the path.'
+Description: An overloaded method that releases the memory that contains the path.
 audience: developer
-ms.assetid: '9164d7b2-15b8-4b73-ab8c-68ed45692ea0'
+ms.assetid: 9164d7b2-15b8-4b73-ab8c-68ed45692ea0
 ms.tgt_platform: multiple
-title: 'CObjectPathParser::Free methods'
+title: CObjectPathParser::Free methods
+ms.date: 07/02/2019
 ---
 
 # CObjectPathParser::Free methods

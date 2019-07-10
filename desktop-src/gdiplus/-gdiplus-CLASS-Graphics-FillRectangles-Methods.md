@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the FillRectangles methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: '705d1728-5742-4ed0-bea3-651b3ba40b40'
-title: 'Graphics.FillRectangles methods'
+Description: This topic lists the FillRectangles methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 705d1728-5742-4ed0-bea3-651b3ba40b40
+title: Graphics.FillRectangles methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.FillRectangles methods

@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the TransformVectors methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.'
-ms.assetid: '6a2ed6a7-825a-422b-b035-b88746f3ab5d'
-title: 'Matrix.TransformVectors methods'
+Description: This topic lists the TransformVectors methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.
+ms.assetid: 6a2ed6a7-825a-422b-b035-b88746f3ab5d
+title: Matrix.TransformVectors methods
+ms.date: 07/02/2019
 ---
 
 # Matrix.TransformVectors methods

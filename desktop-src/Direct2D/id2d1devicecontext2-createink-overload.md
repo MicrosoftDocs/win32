@@ -1,14 +1,16 @@
 ---
 title: ID2D1DeviceContext2 CreateInk methods
 description: Creates a new ID2D1Ink object that starts at the given point.
-ms.assetid: '1e79b7cc-a6c4-72e3-d3d4-8346b19feac5'
-keywords: ["CreateInk methods Direct2D"]
+ms.assetid: 1e79b7cc-a6c4-72e3-d3d4-8346b19feac5
+keywords:
+- CreateInk methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # ID2D1DeviceContext2::CreateInk methods

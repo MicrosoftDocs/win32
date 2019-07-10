@@ -1,7 +1,8 @@
 ---
-Description: 'Constructors exposed by XMINT2.'
-ms.assetid: '9605c593-6fd1-46f2-9594-7a100c1325ab'
+Description: Constructors exposed by XMINT2.
+ms.assetid: 9605c593-6fd1-46f2-9594-7a100c1325ab
 title: XMINT2 constructors
+ms.date: 07/02/2019
 ---
 
 # XMINT2 constructors

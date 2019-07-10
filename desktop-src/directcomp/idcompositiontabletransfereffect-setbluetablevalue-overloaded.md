@@ -1,14 +1,16 @@
 ---
 title: IDCompositionTableTransferEffect SetBlueTableValue methods
 description: Sets a value in the blue table.
-ms.assetid: '9c7098d5-17aa-3154-02a7-7acf972a212d'
-keywords: ["SetBlueTableValue methods DirectComposition"]
+ms.assetid: 9c7098d5-17aa-3154-02a7-7acf972a212d
+keywords:
+- SetBlueTableValue methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDCompositionTableTransferEffect::SetBlueTableValue methods

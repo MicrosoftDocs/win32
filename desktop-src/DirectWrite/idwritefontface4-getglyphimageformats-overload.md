@@ -1,14 +1,16 @@
 ---
 title: IDWriteFontFace4 GetGlyphImageFormats methods
 description: Gets supported glyph image formats.
-ms.assetid: 'bbbb399a-fdcd-5e08-4c50-1bec4784d696'
-keywords: ["GetGlyphImageFormats methods Direct Write"]
+ms.assetid: bbbb399a-fdcd-5e08-4c50-1bec4784d696
+keywords:
+- GetGlyphImageFormats methods Direct Write
 topic_type:
 - apiref
 api_location:
 - dwrite_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDWriteFontFace4::GetGlyphImageFormats methods

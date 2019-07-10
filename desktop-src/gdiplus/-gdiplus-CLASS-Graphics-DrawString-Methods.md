@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the DrawString methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'b3568ed9-e359-4916-a83d-7553c021d197'
-title: 'Graphics.DrawString methods'
+Description: This topic lists the DrawString methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: b3568ed9-e359-4916-a83d-7553c021d197
+title: Graphics.DrawString methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.DrawString methods

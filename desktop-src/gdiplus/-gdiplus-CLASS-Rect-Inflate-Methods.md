@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.'
-ms.assetid: '4875dec3-e57e-4109-8c63-c3dc4db6080d'
-title: 'Rect.Inflate methods'
+Description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+ms.assetid: 4875dec3-e57e-4109-8c63-c3dc4db6080d
+title: Rect.Inflate methods
+ms.date: 07/02/2019
 ---
 
 # Rect.Inflate methods

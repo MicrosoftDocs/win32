@@ -1,14 +1,16 @@
 ---
 title: IDCompositionTableTransferEffect SetRedTableValue methods
 description: Sets a value in the red table.
-ms.assetid: '9cfa766c-b88d-9a8f-109f-b42e9df79cbf'
-keywords: ["SetRedTableValue methods DirectComposition"]
+ms.assetid: 9cfa766c-b88d-9a8f-109f-b42e9df79cbf
+keywords:
+- SetRedTableValue methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDCompositionTableTransferEffect::SetRedTableValue methods

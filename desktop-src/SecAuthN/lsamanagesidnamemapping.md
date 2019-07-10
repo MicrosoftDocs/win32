@@ -3,10 +3,10 @@ UID:
 title: LsaManageSidNameMapping function
 author: TimShererWithAquent
 description: Adds or removes SID/name mappings from the mapping set registered with the LSA Lookup Service.
-old-location:
+old-location: 
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 4/10/2019
+ms.date: 04/10/2019
 ms.keywords: 
 ms.topic: function
 req.header: Ntsecapi.h
@@ -24,18 +24,18 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Secur32.lib
-req.dll: 
+req.dll:
 - Advapi32.dll
 - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
 - API-MS-Win-security-lsalookup-l2-1-1.dll
 req.irql: 
 topic_type:
 - APIRef
-api_type:
-api_location:
-api_name: 
+api_type: 
+api_location: 
+api_name:
 - LsaManageSidNameMapping
-product: 
+product:
 - Windows SDK
 targetos: Windows
 req.typenames: 

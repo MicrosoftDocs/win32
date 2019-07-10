@@ -1,14 +1,16 @@
 ---
 title: IDWriteGdiInterop1 GetFontSignature methods
 description: Retrieves a font signature.
-ms.assetid: '83967afd-8309-74b7-da76-1caee04a4990'
-keywords: ["GetFontSignature methods Direct Write"]
+ms.assetid: 83967afd-8309-74b7-da76-1caee04a4990
+keywords:
+- GetFontSignature methods Direct Write
 topic_type:
 - apiref
 api_location:
 - dwrite_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDWriteGdiInterop1::GetFontSignature methods

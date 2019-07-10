@@ -1,14 +1,16 @@
 ---
 title: IDCompositionScaleTransform3D SetScaleY methods
 description: Changes or animates the value of the ScaleY property of a scale transform.
-ms.assetid: '90E48F55-B9A3-464D-9FB2-03AA27AA5A08'
-keywords: ["SetScaleY methods DirectComposition"]
+ms.assetid: 90E48F55-B9A3-464D-9FB2-03AA27AA5A08
+keywords:
+- SetScaleY methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionScaleTransform3D::SetScaleY methods

@@ -3,10 +3,10 @@ UID:
 title: CaptureStackBackTrace function
 author: TimShererWithAquent
 description: Captures a stack back trace by walking up the stack.
-old-location:
+old-location: 
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 4/10/2019
+ms.date: 04/10/2019
 ms.keywords: RtlCaptureStackBackTrace
 ms.topic: function
 req.header: WinBase.h
@@ -28,12 +28,12 @@ req.dll: API-MS-Win-Core-rtlsupport-l1-1-0.dll
 req.irql: 
 topic_type:
 - APIRef
-api_type:
-api_location: 
+api_type: 
+api_location:
 - API-MS-Win-Core-rtlsupport-l1-1-0.dll
-api_name: 
+api_name:
 - CaptureStackBackTrace
-product: 
+product:
 - Windows SDK
 targetos: Windows
 req.typenames: 

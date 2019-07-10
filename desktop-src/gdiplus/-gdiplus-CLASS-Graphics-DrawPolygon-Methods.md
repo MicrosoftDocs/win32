@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the DrawPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: '5cc34d59-d8f7-4df6-afc1-df729337d62f'
-title: 'Graphics.DrawPolygon methods'
+Description: This topic lists the DrawPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 5cc34d59-d8f7-4df6-afc1-df729337d62f
+title: Graphics.DrawPolygon methods
+ms.date: 07/02/2019
 ---
 
 # Graphics.DrawPolygon methods

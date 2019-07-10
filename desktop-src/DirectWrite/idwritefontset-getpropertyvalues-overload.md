@@ -1,14 +1,16 @@
 ---
 title: IDWriteFontSet GetPropertyValues methods
 description: Returns property values for the font set.
-ms.assetid: '3c3fd5b7-88dd-d434-0b62-f365b407c379'
-keywords: ["GetPropertyValues methods Direct Write"]
+ms.assetid: 3c3fd5b7-88dd-d434-0b62-f365b407c379
+keywords:
+- GetPropertyValues methods Direct Write
 topic_type:
 - apiref
 api_location:
 - dwrite_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # IDWriteFontSet::GetPropertyValues methods

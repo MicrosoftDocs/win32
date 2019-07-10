@@ -1,14 +1,16 @@
 ---
 title: IDCompositionTranslateTransform3D SetOffsetX methods
 description: Changes or animates the value of the OffsetX property of a 3D translation transform effect.
-ms.assetid: '61EDA0AA-0274-446E-9169-974AB84802FA'
-keywords: ["SetOffsetX methods DirectComposition"]
+ms.assetid: 61EDA0AA-0274-446E-9169-974AB84802FA
+keywords:
+- SetOffsetX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetX methods

@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the constructors of the TextureBrush class. For a complete class listing, see TextureBrush Class.'
-ms.assetid: '9dd14cd1-6aa1-4cb3-b2eb-8dec93c2bbbd'
-title: 'TextureBrush.TextureBrush constructors'
+Description: This topic lists the constructors of the TextureBrush class. For a complete class listing, see TextureBrush Class.
+ms.assetid: 9dd14cd1-6aa1-4cb3-b2eb-8dec93c2bbbd
+title: TextureBrush.TextureBrush constructors
+ms.date: 07/02/2019
 ---
 
 # TextureBrush.TextureBrush constructors

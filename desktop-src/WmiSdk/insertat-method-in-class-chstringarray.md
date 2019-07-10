@@ -1,9 +1,10 @@
 ---
-Description: 'The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.'
+Description: The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
 audience: developer
-ms.assetid: '1d6355bc-7df2-4aa3-8e47-0239d726ed7d'
+ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
 ms.tgt_platform: multiple
-title: 'CHStringArray::InsertAt methods'
+title: CHStringArray::InsertAt methods
+ms.date: 07/02/2019
 ---
 
 # CHStringArray::InsertAt methods

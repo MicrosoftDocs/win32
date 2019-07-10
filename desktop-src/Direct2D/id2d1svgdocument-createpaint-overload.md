@@ -1,14 +1,16 @@
 ---
 title: ID2D1SvgDocument CreatePaint methods
 description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
-ms.assetid: 'dba9be4a-1670-7ab9-e0a8-d9f2895011f4'
-keywords: ["CreatePaint methods Direct2D"]
+ms.assetid: dba9be4a-1670-7ab9-e0a8-d9f2895011f4
+keywords:
+- CreatePaint methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1svg.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # ID2D1SvgDocument::CreatePaint methods

@@ -1,7 +1,8 @@
 ---
-Description: 'Returns a property from the IPropertyStore within the IDList.'
-ms.assetid: 'D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D'
-title: 'CItemIDFactory::GetPropertyFromIDList methods'
+Description: Returns a property from the IPropertyStore within the IDList.
+ms.assetid: D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D
+title: CItemIDFactory::GetPropertyFromIDList methods
+ms.date: 07/02/2019
 ---
 
 # CItemIDFactory::GetPropertyFromIDList methods

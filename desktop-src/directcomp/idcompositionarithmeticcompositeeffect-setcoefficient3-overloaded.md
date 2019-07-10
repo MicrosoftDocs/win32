@@ -1,14 +1,16 @@
 ---
 title: idcompositionarithmeticcompositeeffect setcoefficient3 methods
 description: Sets the third coefficient for the equation used to composite the two input images.
-ms.assetid: '1d330b4e-6ddd-2a9a-6a30-e459c9669c85'
-keywords: ["setcoefficient3 methods DirectComposition"]
+ms.assetid: 1d330b4e-6ddd-2a9a-6a30-e459c9669c85
+keywords:
+- setcoefficient3 methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # idcompositionarithmeticcompositeeffect::setcoefficient3 methods

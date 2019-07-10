@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the constructors of the StringFormat class. For a complete class listing, see StringFormat Class.'
-ms.assetid: 'd20a7217-5c39-4ee9-b355-d10b65d18d86'
-title: 'StringFormat.StringFormat constructors'
+Description: This topic lists the constructors of the StringFormat class. For a complete class listing, see StringFormat Class.
+ms.assetid: d20a7217-5c39-4ee9-b355-d10b65d18d86
+title: StringFormat.StringFormat constructors
+ms.date: 07/02/2019
 ---
 
 # StringFormat.StringFormat constructors

@@ -1,14 +1,16 @@
 ---
 title: idcompositionlineartransfereffect SetBlueSlope methods
 description: The slope of the linear function for the blue channel.
-ms.assetid: '088b6b01-6c0b-c746-85ed-54b822a4615d'
-keywords: ["SetBlueSlope methods DirectComposition"]
+ms.assetid: 088b6b01-6c0b-c746-85ed-54b822a4615d
+keywords:
+- SetBlueSlope methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # idcompositionlineartransfereffect::SetBlueSlope methods

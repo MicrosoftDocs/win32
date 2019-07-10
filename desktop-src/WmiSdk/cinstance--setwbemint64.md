@@ -1,9 +1,10 @@
 ---
-Description: 'The CInstance::GetWBEMINT64 method sets a 64-bit integer property.'
+Description: The CInstance::GetWBEMINT64 method sets a 64-bit integer property.
 audience: developer
-ms.assetid: 'a1789091-ddb6-44f7-bc02-82e7c0209bf9'
+ms.assetid: a1789091-ddb6-44f7-bc02-82e7c0209bf9
 ms.tgt_platform: multiple
-title: 'CInstance::SetWBEMINT64 methods'
+title: CInstance::SetWBEMINT64 methods
+ms.date: 07/02/2019
 ---
 
 # CInstance::SetWBEMINT64 methods

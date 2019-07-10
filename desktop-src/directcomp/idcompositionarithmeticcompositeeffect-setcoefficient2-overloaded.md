@@ -1,14 +1,16 @@
 ---
 title: idcompositionarithmeticcompositeeffect setcoefficient2 methods
 description: Sets the second coefficient for the equation used to composite the two input images.
-ms.assetid: '58ecefbe-ca31-3c13-7bea-e97fb73753e2'
-keywords: ["setcoefficient2 methods DirectComposition"]
+ms.assetid: 58ecefbe-ca31-3c13-7bea-e97fb73753e2
+keywords:
+- setcoefficient2 methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
 ---
 
 # idcompositionarithmeticcompositeeffect::setcoefficient2 methods

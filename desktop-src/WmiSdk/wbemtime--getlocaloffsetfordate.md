@@ -1,9 +1,10 @@
 ---
-Description: 'The GetLocalOffsetForDate method returns the offset in minutes (+ or &\#8211;) between GMT and local time for the time supplied in the argument.'
+Description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &\#8211;) between GMT and local time for the time supplied in the argument.
 audience: developer
-ms.assetid: '15cc5f45-604c-4335-bcd3-92d62dc15420'
+ms.assetid: 15cc5f45-604c-4335-bcd3-92d62dc15420
 ms.tgt_platform: multiple
-title: 'WBEMTime::GetLocalOffsetForDate methods'
+title: WBEMTime::GetLocalOffsetForDate methods
+ms.date: 07/02/2019
 ---
 
 # WBEMTime::GetLocalOffsetForDate methods

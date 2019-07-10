@@ -1,14 +1,16 @@
 ---
 title: IDCompositionRectangleClip SetTop methods
 description: Animates or changes the value of the Top property of a clip rectangle.
-ms.assetid: '32C12765-F580-4E32-9C48-3A7AFD95CA38'
-keywords: ["SetTop methods DirectComposition"]
+ms.assetid: 32C12765-F580-4E32-9C48-3A7AFD95CA38
+keywords:
+- SetTop methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionRectangleClip::SetTop methods

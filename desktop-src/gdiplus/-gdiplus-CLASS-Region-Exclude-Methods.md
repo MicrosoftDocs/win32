@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the Exclude methods of the Region class. For a complete list of methods for the Region class, see Region Methods.'
-ms.assetid: '1a8b639d-c12f-4130-a107-acf008ea1408'
-title: 'Region.Exclude methods'
+Description: This topic lists the Exclude methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+ms.assetid: 1a8b639d-c12f-4130-a107-acf008ea1408
+title: Region.Exclude methods
+ms.date: 07/02/2019
 ---
 
 # Region.Exclude methods

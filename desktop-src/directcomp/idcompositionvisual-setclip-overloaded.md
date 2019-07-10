@@ -1,14 +1,16 @@
 ---
 title: IDCompositionVisual SetClip methods
 description: Sets the Clip property of this visual to the specified rectangular region or clip object.
-ms.assetid: 'ACEBA4F9-E1B0-459B-8DC2-272A822AB214'
-keywords: ["SetClip methods DirectComposition"]
+ms.assetid: ACEBA4F9-E1B0-459B-8DC2-272A822AB214
+keywords:
+- SetClip methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # IDCompositionVisual::SetClip methods

@@ -3,12 +3,12 @@ Description: Accesses specific matrix elements referenced by row and column from
 ms.assetid: de367692-6974-4e54-9f1e-d8c56b3aa752
 title: XMFLOAT4X4 operator () operators
 ms.topic: article
-ms.date: 12/6/2018
-topic_type: 
+ms.date: 12/06/2018
+topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-api_type: 
+api_type:
 - NA
 api_location: 
 ---

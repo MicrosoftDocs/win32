@@ -1,14 +1,16 @@
 ---
 title: ID2D1Factory CreateDxgiSurfaceRenderTarget methods
 description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
-ms.assetid: '101744ea-97bc-4f92-88b0-fcdf0e4aaf4e'
-keywords: ["CreateDxgiSurfaceRenderTarget methods Direct2D"]
+ms.assetid: 101744ea-97bc-4f92-88b0-fcdf0e4aaf4e
+keywords:
+- CreateDxgiSurfaceRenderTarget methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
 ---
 
 # ID2D1Factory::CreateDxgiSurfaceRenderTarget methods

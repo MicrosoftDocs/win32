@@ -3,10 +3,10 @@ UID:
 title: UnicodeToBytes function
 author: TimShererWithAquent
 description: Converts Unicode characters to GB18030 bytes.
-old-location:
+old-location: 
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 4/10/2019
+ms.date: 04/10/2019
 ms.keywords: WideCharToMultiByte, MultiByteToWideChar
 ms.topic: function
 req.header: Gb18030.h
@@ -28,12 +28,12 @@ req.dll: c_g18030.dll
 req.irql: 
 topic_type:
 - APIRef
-api_type:
-api_location: 
+api_type: 
+api_location:
 - c_g18030.dll
-api_name: 
+api_name:
 - UnicodeToBytes
-product: 
+product:
 - Windows SDK
 targetos: Windows
 req.typenames: 

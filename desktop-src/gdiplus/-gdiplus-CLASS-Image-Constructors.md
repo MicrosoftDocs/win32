@@ -1,7 +1,8 @@
 ---
-Description: 'This topic lists the constructors of the Image class. For a complete class listing, see Image Class.'
-ms.assetid: '4962e901-cc4f-4225-8d24-731225e149e6'
-title: 'Image.Image constructors'
+Description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
+ms.assetid: 4962e901-cc4f-4225-8d24-731225e149e6
+title: Image.Image constructors
+ms.date: 07/02/2019
 ---
 
 # Image.Image constructors
