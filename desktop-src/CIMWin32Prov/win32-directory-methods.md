@@ -3,7 +3,7 @@ Description: The Win32\_Directory class exposes the following methods.
 ms.assetid: 8DB08CBE-6E73-475A-9EDB-DE845BDDAE4E
 ms.tgt_platform: multiple
 title: Win32_Directory Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

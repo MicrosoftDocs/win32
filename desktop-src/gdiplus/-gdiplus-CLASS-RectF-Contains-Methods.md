@@ -3,6 +3,7 @@ Description: This topic lists the Contains methods of the RectF class. For a com
 ms.assetid: 59ecbc4d-88d8-4d37-a1af-ed1da536406c
 title: RectF.Contains methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # RectF.Contains methods

@@ -2,7 +2,7 @@
 Description: The ISCardDatabase interface exposes the following methods.
 ms.assetid: CE2BF60E-CBD3-445E-8F09-63BA6C39D538
 title: ISCardDatabase Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

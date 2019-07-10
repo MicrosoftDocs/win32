@@ -3,7 +3,7 @@ title: Win32_TSGatewayServerSettings Methods
 description: The Win32\_TSGatewayServerSettings class exposes the following methods.
 ms.assetid: BD5A5D8E-2EAE-4806-8DE8-B6B02D9D0402
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: IAudioEndpointRT Methods
 description: The IAudioEndpointRT interface exposes the following methods.
 ms.assetid: 55164F4F-D763-4FCF-A2A1-1409318C04D4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

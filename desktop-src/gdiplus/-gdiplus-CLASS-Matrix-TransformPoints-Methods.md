@@ -3,6 +3,7 @@ Description: This topic lists the TransformPoints methods of the Matrix class. F
 ms.assetid: a290aa79-64a0-440e-bfec-a8e66057ec14
 title: Matrix.TransformPoints methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Matrix.TransformPoints methods

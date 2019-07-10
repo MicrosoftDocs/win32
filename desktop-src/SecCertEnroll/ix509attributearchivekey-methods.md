@@ -2,7 +2,7 @@
 Description: The IX509AttributeArchiveKey interface exposes the following methods.
 ms.assetid: 7EE3D2A6-7B67-45A2-B33C-A28CF02748D8
 title: IX509AttributeArchiveKey Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

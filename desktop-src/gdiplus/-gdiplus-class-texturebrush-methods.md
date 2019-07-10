@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the TextureBrush class. For a complete class listing, see TextureBrush Class.
 ms.assetid: b057aee6-5073-4f37-84a8-8e07f0fbdf4a
 title: TextureBrush Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

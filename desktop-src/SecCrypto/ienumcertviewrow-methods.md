@@ -2,7 +2,7 @@
 Description: The IEnumCERTVIEWROW interface exposes the following methods.
 ms.assetid: 724C6957-E449-48AB-916B-227E3C5F3A11
 title: IEnumCERTVIEWROW Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

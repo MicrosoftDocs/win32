@@ -3,7 +3,7 @@ Description: The WBEMTimeSpan class exposes the following methods.
 ms.assetid: 7D450EE2-C52F-4B78-B6B1-9FD74394C3DE
 ms.tgt_platform: multiple
 title: WBEMTimeSpan Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

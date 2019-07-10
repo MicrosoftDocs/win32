@@ -3,6 +3,7 @@ Description: This topic lists the Exclude methods of the Region class. For a com
 ms.assetid: 1a8b639d-c12f-4130-a107-acf008ea1408
 title: Region.Exclude methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Region.Exclude methods

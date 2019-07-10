@@ -3,7 +3,7 @@ Description: The SWbemObject object exposes the following methods.
 ms.assetid: F1534655-488C-4C78-BFE3-B7477149458B
 ms.tgt_platform: multiple
 title: SWbemObject Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

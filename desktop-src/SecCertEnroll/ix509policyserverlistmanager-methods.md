@@ -2,7 +2,7 @@
 Description: The IX509PolicyServerListManager interface exposes the following methods.
 ms.assetid: C3A9BC5B-CD49-4367-823F-0FE9E30CC585
 title: IX509PolicyServerListManager Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

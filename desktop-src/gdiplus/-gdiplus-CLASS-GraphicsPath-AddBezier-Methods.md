@@ -3,6 +3,7 @@ Description: This topic lists the AddBezier methods of the GraphicsPath class. F
 ms.assetid: 1c4f3d1b-1fdb-4fde-8f69-bcfac1a33663
 title: GraphicsPath.AddBezier methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddBezier methods

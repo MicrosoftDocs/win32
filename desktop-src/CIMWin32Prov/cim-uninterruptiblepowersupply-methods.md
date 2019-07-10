@@ -3,7 +3,7 @@ Description: The CIM\_UninterruptiblePowerSupply class exposes the following met
 ms.assetid: 75B2A996-83D7-4611-BF90-ECC28D29A571
 ms.tgt_platform: multiple
 title: CIM_UninterruptiblePowerSupply Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

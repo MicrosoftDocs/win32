@@ -3,7 +3,7 @@ Description: The Win32\_OperatingSystem class exposes the following methods.
 ms.assetid: 15962D61-B231-402C-87B6-C9BB842D87EC
 ms.tgt_platform: multiple
 title: Win32_OperatingSystem Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

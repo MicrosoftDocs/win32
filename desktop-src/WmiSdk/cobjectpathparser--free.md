@@ -5,6 +5,7 @@ ms.assetid: 9164d7b2-15b8-4b73-ab8c-68ed45692ea0
 ms.tgt_platform: multiple
 title: CObjectPathParser::Free methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CObjectPathParser::Free methods

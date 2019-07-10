@@ -3,7 +3,7 @@ title: ITSGAuthorizeResourceSink Methods
 description: The ITSGAuthorizeResourceSink interface exposes the following methods.
 ms.assetid: 5504E68C-10FE-4C06-9E18-73C3BAE17E4C
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

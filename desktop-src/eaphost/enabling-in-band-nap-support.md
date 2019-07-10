@@ -5,7 +5,7 @@ ms.assetid: 298c89d9-7a6a-4280-9af9-77c7c00cab92
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

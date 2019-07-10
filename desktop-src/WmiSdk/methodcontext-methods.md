@@ -3,7 +3,7 @@ Description: The MethodContext class exposes the following methods.
 ms.assetid: 21667048-77B3-4239-A82F-433B847AB4D5
 ms.tgt_platform: multiple
 title: MethodContext Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

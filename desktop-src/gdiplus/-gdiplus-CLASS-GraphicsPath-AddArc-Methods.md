@@ -3,6 +3,7 @@ Description: This topic lists the AddArc methods of the GraphicsPath class. For 
 ms.assetid: 54171039-4cb9-4898-a656-b7a9df4b18f6
 title: GraphicsPath.AddArc methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddArc methods

@@ -2,7 +2,7 @@
 title: IBackgroundCopyCallback2 Methods
 description: The IBackgroundCopyCallback2 interface exposes the following methods.
 ms.assetid: 6BDA5084-53A5-4E20-886A-CF131F996C29
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

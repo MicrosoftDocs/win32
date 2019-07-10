@@ -3,6 +3,7 @@ Description: This topic lists the GetMetafileHeader methods of the Metafile clas
 ms.assetid: 8ad423a9-5557-41e6-b634-9d9dfe604b09
 title: Metafile.GetMetafileHeader methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Metafile.GetMetafileHeader methods

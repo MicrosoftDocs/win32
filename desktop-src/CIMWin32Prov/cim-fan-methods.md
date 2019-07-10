@@ -3,7 +3,7 @@ Description: The CIM\_Fan class exposes the following methods.
 ms.assetid: 84AB7D53-AA24-447A-A715-F521575573C1
 ms.tgt_platform: multiple
 title: CIM_Fan Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

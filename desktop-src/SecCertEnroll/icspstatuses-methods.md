@@ -2,7 +2,7 @@
 Description: The ICspStatuses interface exposes the following methods.
 ms.assetid: 52241F82-FEC5-4C77-97CE-FD5E33D7FA02
 title: ICspStatuses Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

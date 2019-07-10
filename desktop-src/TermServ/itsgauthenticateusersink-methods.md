@@ -3,7 +3,7 @@ title: ITSGAuthenticateUserSink Methods
 description: The ITSGAuthenticateUserSink interface exposes the following methods.
 ms.assetid: 783B65A1-8952-4BA7-8F54-7342B4A432C0
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

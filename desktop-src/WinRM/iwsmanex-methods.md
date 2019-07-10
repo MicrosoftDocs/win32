@@ -3,7 +3,7 @@ title: IWSManEx Methods
 description: The IWSManEx interface exposes the following methods.
 ms.assetid: 609F5D75-879A-4681-B746-8C7A8757F062
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

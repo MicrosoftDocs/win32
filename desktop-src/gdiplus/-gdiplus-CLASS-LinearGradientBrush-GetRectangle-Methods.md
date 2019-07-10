@@ -3,6 +3,7 @@ Description: This topic lists the GetRectangle methods of the LinearGradientBrus
 ms.assetid: 56ec2372-0fd3-4220-a283-5d9691fe2e69
 title: LinearGradientBrush.GetRectangle methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # LinearGradientBrush.GetRectangle methods

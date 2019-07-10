@@ -3,7 +3,7 @@ Description: The CIM\_DiskSpaceCheck class exposes the following methods.
 ms.assetid: F73DF97B-9B6B-4308-888A-9BC133928E65
 ms.tgt_platform: multiple
 title: CIM_DiskSpaceCheck Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

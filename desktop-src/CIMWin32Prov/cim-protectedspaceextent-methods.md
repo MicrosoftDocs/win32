@@ -3,7 +3,7 @@ Description: The CIM\_ProtectedSpaceExtent class exposes the following methods.
 ms.assetid: C715B0F1-488E-4A9E-AFD1-A0146D02DE6D
 ms.tgt_platform: multiple
 title: CIM_ProtectedSpaceExtent Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

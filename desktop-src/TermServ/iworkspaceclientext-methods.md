@@ -3,7 +3,7 @@ title: IWorkspaceClientExt Methods
 description: The IWorkspaceClientExt interface exposes the following methods.
 ms.assetid: 0249F9BE-80BC-46EE-BECB-ED62C30174ED
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

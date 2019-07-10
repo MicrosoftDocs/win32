@@ -5,6 +5,7 @@ ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.tgt_platform: multiple
 title: CHString::FormatMessageW methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CHString::FormatMessageW methods

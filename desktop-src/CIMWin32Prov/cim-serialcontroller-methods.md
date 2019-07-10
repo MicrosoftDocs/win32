@@ -3,7 +3,7 @@ Description: The CIM\_SerialController class exposes the following methods.
 ms.assetid: 6EE3E7A0-D722-475F-BA9A-5221CF5B54A2
 ms.tgt_platform: multiple
 title: CIM_SerialController Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

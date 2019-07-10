@@ -3,7 +3,7 @@ title: ITsSbPlacement Methods
 description: The ITsSbPlacement interface exposes the following methods.
 ms.assetid: 23EB1913-E6C6-4D88-AC2A-9C9B52CC1553
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

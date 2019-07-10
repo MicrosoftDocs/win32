@@ -11,6 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # idcompositionarithmeticcompositeeffect::setcoefficient2 methods

@@ -2,7 +2,7 @@
 Description: The IX509AttributeOSVersion interface exposes the following methods.
 ms.assetid: 87E8CB16-4655-47D3-8402-FD8FE1BAFF00
 title: IX509AttributeOSVersion Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

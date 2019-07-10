@@ -3,7 +3,7 @@ title: Win32_TSGatewayRADIUSServer Methods
 description: The Win32\_TSGatewayRADIUSServer class exposes the following methods.
 ms.assetid: 22F8EB94-CA2C-46A8-BF11-0117FC00C16F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

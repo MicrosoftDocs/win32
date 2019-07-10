@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the FontFamily class. For a co
 ms.assetid: 9d8f73d7-d6ea-44d4-be5c-a003f6eba508
 title: FontFamily.FontFamily constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # FontFamily.FontFamily constructors

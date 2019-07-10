@@ -3,7 +3,7 @@ Description: The IWbemServices interface exposes the following methods.
 ms.assetid: B4A2048E-6C2F-43E0-97BD-E6D37D8E4657
 ms.tgt_platform: multiple
 title: IWbemServices Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

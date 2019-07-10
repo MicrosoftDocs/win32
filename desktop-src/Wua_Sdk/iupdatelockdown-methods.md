@@ -2,7 +2,7 @@
 Description: The IUpdateLockdown interface defines the following method.
 ms.assetid: ed2af951-bafa-4ba0-bc98-d0a14ce0d754
 title: IUpdateLockdown Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

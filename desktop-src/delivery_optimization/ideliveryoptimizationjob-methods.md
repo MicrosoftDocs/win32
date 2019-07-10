@@ -3,7 +3,7 @@ title: IDeliveryOptimizationJob Methods
 description: The IDeliveryOptimizationJob interface exposes the following methods.
 ms.assetid: DEFCF117-AECC-4EF5-B935-302081BE7D64
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

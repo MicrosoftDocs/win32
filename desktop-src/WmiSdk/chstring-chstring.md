@@ -5,6 +5,7 @@ ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.tgt_platform: multiple
 title: CHString::CHString constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CHString::CHString constructors

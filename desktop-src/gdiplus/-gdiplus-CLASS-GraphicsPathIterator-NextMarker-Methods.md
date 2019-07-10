@@ -3,6 +3,7 @@ Description: This topic lists the NextMarker methods of the GraphicsPathIterator
 ms.assetid: 6eb9e19c-df28-4cf9-a434-c27478ba1fa5
 title: GraphicsPathIterator.NextMarker methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPathIterator.NextMarker methods

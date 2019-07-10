@@ -3,7 +3,7 @@ title: Win32_TSPermissionsSetting Methods
 description: The Win32\_TSPermissionsSetting class exposes the following methods.
 ms.assetid: 7F136EB8-2866-47BC-8F1E-04DAFDB4D4D1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

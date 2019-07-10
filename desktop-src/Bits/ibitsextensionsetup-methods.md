@@ -2,7 +2,7 @@
 title: IBITSExtensionSetup Methods
 description: The IBITSExtensionSetup interface exposes the following methods.
 ms.assetid: B7569820-D6C4-427B-8C81-CC693A1E6CEC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Win32\_Process class exposes the following methods.
 ms.assetid: 0A379A68-B54E-4709-8C8C-6BB38B327C28
 ms.tgt_platform: multiple
 title: Win32_Process Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

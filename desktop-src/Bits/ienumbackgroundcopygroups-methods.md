@@ -2,7 +2,7 @@
 title: IEnumBackgroundCopyGroups Methods
 description: The IEnumBackgroundCopyGroups interface exposes the following methods.
 ms.assetid: 6D83DF5F-3CCC-463E-BCF6-03911AC4C045
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

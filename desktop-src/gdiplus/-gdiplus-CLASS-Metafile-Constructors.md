@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the Metafile class. For a comp
 ms.assetid: a9648287-65d9-47d8-b32b-33f74b4fcd07
 title: Metafile.Metafile constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Metafile.Metafile constructors

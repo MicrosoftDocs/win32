@@ -3,6 +3,7 @@ Description: This topic lists the Complement methods of the Region class. For a 
 ms.assetid: f9868ad5-b6eb-45a3-99a3-8edec3a78636
 title: Region.Complement methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Region.Complement methods

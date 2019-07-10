@@ -3,6 +3,7 @@ Description: This topic lists the GetRectangle methods of the PathGradientBrush 
 ms.assetid: 626f4ef4-854f-4744-8a72-c62efb55803f
 title: PathGradientBrush.GetRectangle methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # PathGradientBrush.GetRectangle methods

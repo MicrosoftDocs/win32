@@ -3,6 +3,7 @@ Description: This topic lists the Inflate methods of the Rect class. For a compl
 ms.assetid: 4875dec3-e57e-4109-8c63-c3dc4db6080d
 title: Rect.Inflate methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Rect.Inflate methods

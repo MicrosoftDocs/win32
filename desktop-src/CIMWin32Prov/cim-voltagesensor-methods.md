@@ -3,7 +3,7 @@ Description: The CIM\_VoltageSensor class exposes the following methods.
 ms.assetid: 226FCFEA-1E40-4202-9BD2-B9E5DE407DC0
 ms.tgt_platform: multiple
 title: CIM_VoltageSensor Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

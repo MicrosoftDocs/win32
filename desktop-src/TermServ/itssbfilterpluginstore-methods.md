@@ -3,7 +3,7 @@ title: ITsSbFilterPluginStore Methods
 description: The ITsSbFilterPluginStore interfaces exposes the following methods.
 ms.assetid: C8BC4576-CE27-4E16-B07C-BAB378781D7F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

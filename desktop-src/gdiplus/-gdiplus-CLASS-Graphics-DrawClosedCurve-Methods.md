@@ -3,6 +3,7 @@ Description: This topic lists the DrawClosedCurve methods of the Graphics class.
 ms.assetid: 366c883b-0acf-4c2d-8ecd-18baa1c75b76
 title: Graphics.DrawClosedCurve methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.DrawClosedCurve methods

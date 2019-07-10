@@ -3,7 +3,7 @@ title: IMsRdpClient9 methods
 description: The IMsRdpClient9 interface exposes the following methods.
 ms.assetid: 2C1F156C-D9A6-456D-BD06-37ABE34DD71F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

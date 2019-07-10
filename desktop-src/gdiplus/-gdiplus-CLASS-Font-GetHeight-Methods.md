@@ -3,6 +3,7 @@ Description: This topic lists the GetHeight methods of the Font class. For a com
 ms.assetid: 74ace32d-5650-4a8c-80d8-567ad5ac8c49
 title: Font.GetHeight methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Font.GetHeight methods

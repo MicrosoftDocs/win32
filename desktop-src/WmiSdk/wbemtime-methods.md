@@ -3,7 +3,7 @@ Description: The WBEMTime class exposes the following methods.
 ms.assetid: 56B21156-8FD2-4FF8-805E-DDA63C897F80
 ms.tgt_platform: multiple
 title: WBEMTime Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

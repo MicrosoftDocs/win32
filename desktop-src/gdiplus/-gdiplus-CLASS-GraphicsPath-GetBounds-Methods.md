@@ -3,6 +3,7 @@ Description: This topic lists the GetBounds methods of the GraphicsPath class. F
 ms.assetid: 2fb7e568-fce1-4d00-9d24-2f677e280a67
 title: GraphicsPath.GetBounds methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.GetBounds methods

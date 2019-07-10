@@ -3,7 +3,7 @@ Description: The CIM\_HeatPipe class exposes the following methods.
 ms.assetid: D3A3677D-C037-41E6-AE1F-457D5C645B42
 ms.tgt_platform: multiple
 title: CIM_HeatPipe Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

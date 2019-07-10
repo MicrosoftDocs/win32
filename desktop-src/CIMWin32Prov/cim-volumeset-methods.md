@@ -3,7 +3,7 @@ Description: The CIM\_VolumeSet class exposes the following methods.
 ms.assetid: 1C40D2BA-9041-4776-9E3B-A6C42CC06E56
 ms.tgt_platform: multiple
 title: CIM_VolumeSet Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

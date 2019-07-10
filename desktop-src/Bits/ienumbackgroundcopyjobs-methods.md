@@ -2,7 +2,7 @@
 title: IEnumBackgroundCopyJobs Methods
 description: The IEnumBackgroundCopyJobs interface exposes the following methods.
 ms.assetid: E2051C87-7D2D-435C-98B6-E1FC010F1DED
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

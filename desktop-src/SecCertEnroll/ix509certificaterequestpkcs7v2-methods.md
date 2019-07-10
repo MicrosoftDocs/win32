@@ -2,7 +2,7 @@
 Description: The IX509CertificateRequestPkcs7V2 interface exposes the following methods.
 ms.assetid: 75C20ECB-E79C-4C67-96C7-FF1EAC34D4D9
 title: IX509CertificateRequestPkcs7V2 Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

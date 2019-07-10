@@ -2,7 +2,7 @@
 Description: The IUpdateCollection interface defines the following methods.
 ms.assetid: 88216f8d-eba1-4bf4-bd70-f2856474a96f
 title: IUpdateCollection Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

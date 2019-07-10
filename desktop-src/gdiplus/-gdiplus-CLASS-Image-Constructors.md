@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the Image class. For a complet
 ms.assetid: 4962e901-cc4f-4225-8d24-731225e149e6
 title: Image.Image constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Image.Image constructors

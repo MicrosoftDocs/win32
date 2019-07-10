@@ -3,7 +3,7 @@ Description: The IWbemConfigureRefresher interface exposes the following methods
 ms.assetid: EE12F21C-20C1-4B86-A44D-0802B35DF762
 ms.tgt_platform: multiple
 title: IWbemConfigureRefresher Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

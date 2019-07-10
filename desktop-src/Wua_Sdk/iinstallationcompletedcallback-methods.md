@@ -2,7 +2,7 @@
 Description: The IInstallationCompletedCallback interface defines the following method.
 ms.assetid: 3054f0ff-3d1d-4325-bfd1-8448711552a7
 title: IInstallationCompletedCallback Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

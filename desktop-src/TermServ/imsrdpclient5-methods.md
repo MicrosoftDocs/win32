@@ -3,7 +3,7 @@ title: IMsRdpClient5 Methods
 description: The IMsRdpClient5 interface exposes the following methods.
 ms.assetid: 39583411-8789-496F-A88D-FC58F66F12FE
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The IX509AttributeClientId interface exposes the following methods.
 ms.assetid: 748CF7CE-04BA-4E01-ADAC-D9B00D7DCE69
 title: IX509AttributeClientId Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

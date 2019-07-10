@@ -2,7 +2,7 @@
 title: IVMSerialPort Methods
 description: The IVMSerialPort interface exposes the following properties.
 ms.assetid: BE1FF7B6-0901-4EF6-A8B6-30956B904FCD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

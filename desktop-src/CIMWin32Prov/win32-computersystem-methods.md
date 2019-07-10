@@ -3,7 +3,7 @@ Description: The Win32\_ComputerSystem class exposes the following methods.
 ms.assetid: AA48A5CC-CD2A-41CD-8025-FDA2B92B6D75
 ms.tgt_platform: multiple
 title: Win32_ComputerSystem Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

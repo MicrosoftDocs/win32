@@ -3,7 +3,7 @@ title: Win32_TSGeneralSetting Methods
 description: The Win32\_TSGeneralSetting class exposes the following methods.
 ms.assetid: 8D7720D0-7D7F-4E01-B92F-FAC8D8C58074
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

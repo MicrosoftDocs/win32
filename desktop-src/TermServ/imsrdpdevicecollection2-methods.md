@@ -3,7 +3,7 @@ title: IMsRdpDeviceCollection2 methods
 description: The IMsRdpDeviceCollection2 interface exposes the following methods.
 ms.assetid: D46F5106-1A14-4C48-8438-9BC1C006BA7C
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

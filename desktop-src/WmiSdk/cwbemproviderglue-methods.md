@@ -3,7 +3,7 @@ Description: The CWbemProviderGlue class exposes the following methods.
 ms.assetid: E09290AF-1C2E-458A-811E-5357D470D3DF
 ms.tgt_platform: multiple
 title: CWbemProviderGlue Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

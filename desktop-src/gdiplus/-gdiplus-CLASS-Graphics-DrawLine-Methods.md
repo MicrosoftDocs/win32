@@ -3,6 +3,7 @@ Description: This topic lists the DrawLine methods of the Graphics class. For a 
 ms.assetid: 15c1c3fd-4479-46ad-a70c-f7d15bc69488
 title: Graphics.DrawLine methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.DrawLine methods

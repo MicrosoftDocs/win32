@@ -2,9 +2,9 @@
 title: SystemMonitor Methods
 description: The SystemMonitor class has the following methods
 ms.assetid: c4ed392b-2e71-40a6-9c15-cefed2e4f155
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 

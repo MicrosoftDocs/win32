@@ -3,6 +3,7 @@ Description: This topic lists the SetCenterPoint methods of the PathGradientBrus
 ms.assetid: 41765887-b1de-4259-95af-a1ef8c84d01a
 title: PathGradientBrush.SetCenterPoint methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # PathGradientBrush.SetCenterPoint methods

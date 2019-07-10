@@ -3,7 +3,7 @@ title: IWTSVirtualChannelCallback Methods
 description: The IWTSVirtualChannelCallback interface exposes the following methods.
 ms.assetid: D65ACFBF-1518-4E05-9036-77C83992990F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

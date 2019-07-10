@@ -3,7 +3,7 @@ title: Win32_SessionDirectoryVMMPlugin Methods
 description: The Win32\_SessionDirectoryVMMPlugin class exposes the following methods.
 ms.assetid: 20290932-7993-45D0-9155-945EA51858A1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

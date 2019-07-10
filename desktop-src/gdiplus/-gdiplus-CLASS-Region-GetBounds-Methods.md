@@ -3,6 +3,7 @@ Description: This topic lists the GetBounds methods of the Region class. For a c
 ms.assetid: 20e6f834-1f36-4de0-b574-b89ebce917de
 title: Region.GetBounds methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Region.GetBounds methods

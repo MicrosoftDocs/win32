@@ -2,7 +2,7 @@
 title: IBackgroundCopyError Methods
 description: The IBackgroundCopyError interface exposes the following methods.
 ms.assetid: A840C648-3275-4AAC-89A2-CD0B895F947C
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

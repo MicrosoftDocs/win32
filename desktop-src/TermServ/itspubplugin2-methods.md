@@ -3,7 +3,7 @@ title: ItsPubPlugin2 Methods
 description: The ItsPubPlugin2 interface exposes the following methods.
 ms.assetid: EF06E6F7-51F9-4B6C-8D37-D1CC8CA0BF38
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

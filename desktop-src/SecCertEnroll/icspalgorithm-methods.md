@@ -2,7 +2,7 @@
 Description: The ICspAlgorithm interface exposes the following methods.
 ms.assetid: BF8330A6-9494-4EA7-A6D5-E9DD4A5E178B
 title: ICspAlgorithm Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

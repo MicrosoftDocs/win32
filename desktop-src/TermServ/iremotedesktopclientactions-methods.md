@@ -3,7 +3,7 @@ title: IRemoteDesktopClientActions methods
 description: The IRemoteDesktopClientActions interface exposes the following methods.
 ms.assetid: 4FD10558-559A-4589-B1BA-DF6387CEF549
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

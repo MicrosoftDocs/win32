@@ -3,6 +3,7 @@ Description: This topic lists the AddCurve methods of the GraphicsPath class. Fo
 ms.assetid: 81f43f7e-a383-44f7-a3bd-2969d541b616
 title: GraphicsPath.AddCurve methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddCurve methods

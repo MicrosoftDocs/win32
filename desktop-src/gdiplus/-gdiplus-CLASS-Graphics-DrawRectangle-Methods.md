@@ -3,6 +3,7 @@ Description: This topic lists the DrawRectangle methods of the Graphics class. F
 ms.assetid: 9ebd7158-26bd-447e-8351-4245e1098361
 title: Graphics.DrawRectangle methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.DrawRectangle methods

@@ -2,7 +2,7 @@
 Description: The IUpdate interface defines the following methods.
 ms.assetid: bd5c6693-a9c4-4c8c-9645-0f78be5c037e
 title: IUpdate Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

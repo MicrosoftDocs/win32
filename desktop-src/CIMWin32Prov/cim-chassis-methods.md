@@ -3,7 +3,7 @@ Description: The CIM\_Chassis class exposes the following methods.
 ms.assetid: 6F0FBC1C-2841-4949-ADF6-649D363D9FFF
 ms.tgt_platform: multiple
 title: CIM_Chassis Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

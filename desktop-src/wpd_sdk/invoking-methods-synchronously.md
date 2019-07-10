@@ -2,7 +2,7 @@
 Description: Invoking Service Methods
 ms.assetid: 3a2796c8-1a39-49eb-98e1-c9e06c61f397
 title: Invoking Service Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

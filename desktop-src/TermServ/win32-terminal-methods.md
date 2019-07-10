@@ -3,7 +3,7 @@ title: Win32_Terminal Methods
 description: The Win32\_Terminal class exposes the following methods.
 ms.assetid: FEB05240-A2D9-41E9-A0E7-71AE99DD8DC4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

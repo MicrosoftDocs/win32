@@ -3,6 +3,7 @@ Description: This topic lists the Intersect methods of the RectF class. For a co
 ms.assetid: 4b57bc29-cec2-4a66-9227-6a31d8f1d4de
 title: RectF.Intersect methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # RectF.Intersect methods

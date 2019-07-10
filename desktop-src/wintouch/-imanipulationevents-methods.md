@@ -7,7 +7,7 @@ keywords:
 - Windows Touch,interface methods
 - manipulations,_IManipulationEvents interface
 - _IManipulationEvents interface,methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

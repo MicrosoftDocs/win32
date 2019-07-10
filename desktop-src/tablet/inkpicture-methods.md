@@ -2,7 +2,7 @@
 Description: This section contains Methods for the InkPicture Control.
 ms.assetid: 5691e595-f264-4547-9db6-f984483005e8
 title: InkPicture Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

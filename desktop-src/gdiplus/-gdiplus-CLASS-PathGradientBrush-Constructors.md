@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the PathGradientBrush class. F
 ms.assetid: c2215393-afc5-4c70-b6d0-67c3676d55aa
 title: PathGradientBrush.PathGradientBrush constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # PathGradientBrush.PathGradientBrush constructors

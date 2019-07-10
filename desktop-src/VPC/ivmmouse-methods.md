@@ -2,7 +2,7 @@
 title: IVMMouse Methods
 description: The IVMMouse interface exposes the following methods.
 ms.assetid: AE10204E-8598-46AD-9645-39BDC1EB436C
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

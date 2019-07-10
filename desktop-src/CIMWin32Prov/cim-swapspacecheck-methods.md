@@ -3,7 +3,7 @@ Description: The CIM\_SwapSpaceCheck class exposes the following methods.
 ms.assetid: 09149D0A-9AB8-4582-9976-371278E851D0
 ms.tgt_platform: multiple
 title: CIM_SwapSpaceCheck Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

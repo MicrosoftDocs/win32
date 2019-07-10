@@ -3,6 +3,7 @@ Description: This topic lists the IsOutlineVisible methods of the GraphicsPath c
 ms.assetid: 4a6b7b5d-a74d-43be-b35c-54c49d742f89
 title: GraphicsPath.IsOutlineVisible methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.IsOutlineVisible methods

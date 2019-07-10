@@ -2,7 +2,7 @@
 Description: The IUpdateServiceManager interface defines the following methods.
 ms.assetid: b2ae49bc-3fb6-4cb9-82ce-387409096159
 title: IUpdateServiceManager Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

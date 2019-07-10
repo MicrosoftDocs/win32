@@ -3,7 +3,7 @@ title: Session Methods
 description: The Session object exposes the following methods.
 ms.assetid: B904E30D-5066-4C8C-BEE1-49FB9EC44AAF
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

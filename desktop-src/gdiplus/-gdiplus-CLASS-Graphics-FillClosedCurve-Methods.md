@@ -3,6 +3,7 @@ Description: This topic lists the FillClosedCurve methods of the Graphics class.
 ms.assetid: 378f0d34-7328-45e5-9f55-826bdaed3aab
 title: Graphics.FillClosedCurve methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.FillClosedCurve methods

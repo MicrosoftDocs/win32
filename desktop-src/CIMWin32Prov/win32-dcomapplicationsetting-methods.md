@@ -3,7 +3,7 @@ Description: The Win32\_DCOMApplicationSetting class exposes the following metho
 ms.assetid: E20E0998-B895-4137-B7F5-10F700A121FF
 ms.tgt_platform: multiple
 title: Win32_DCOMApplicationSetting Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

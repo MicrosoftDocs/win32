@@ -3,6 +3,7 @@ Description: This topic lists the GetVisibleClipBounds methods of the Graphics c
 ms.assetid: af7ed6de-00c3-46c8-b597-142bee9b02cc
 title: Graphics.GetVisibleClipBounds methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.GetVisibleClipBounds methods

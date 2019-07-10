@@ -2,7 +2,7 @@
 Description: The ICertPropertyEnrollmentPolicyServer interface exposes the following methods.
 ms.assetid: 3F2B5C35-7C75-4D72-8B89-B98481606A78
 title: ICertPropertyEnrollmentPolicyServer Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

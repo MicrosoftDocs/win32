@@ -3,9 +3,9 @@ title: Win32_RdvhManagement Methods
 description: The Win32\_RdvhManagement Methods class exposes the following methods.
 ms.assetid: 3AAE4833-3BA0-4827-BB11-47D56F37D51A
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbSyntax
 api_name: 
 api_type: 

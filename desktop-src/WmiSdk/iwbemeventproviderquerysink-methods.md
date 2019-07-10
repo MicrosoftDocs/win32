@@ -3,7 +3,7 @@ Description: The IWbemEventProviderQuerySink interface exposes the following met
 ms.assetid: 1AEFDF45-95A4-4E13-AD4E-7D08BC74F066
 ms.tgt_platform: multiple
 title: IWbemEventProviderQuerySink Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

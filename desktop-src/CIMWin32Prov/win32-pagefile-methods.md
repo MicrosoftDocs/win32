@@ -3,7 +3,7 @@ Description: The Win32\_PageFile class exposes the following methods.
 ms.assetid: 1423FC37-302D-47FA-A1CC-D9D59328FA0A
 ms.tgt_platform: multiple
 title: Win32_PageFile Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

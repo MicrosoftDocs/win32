@@ -3,7 +3,7 @@ title: IWorkspaceRegistration Methods
 description: The IWorkspaceRegistration interface exposes the following methods.
 ms.assetid: 247C7E91-2D7A-4925-AF17-1461AD2C3AC1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

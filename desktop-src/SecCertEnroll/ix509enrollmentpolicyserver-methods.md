@@ -2,7 +2,7 @@
 Description: The IX509EnrollmentPolicyServer interface exposes the following methods.
 ms.assetid: 69D9FFFF-856F-46F4-BF4D-9FF03D82986D
 title: IX509EnrollmentPolicyServer Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

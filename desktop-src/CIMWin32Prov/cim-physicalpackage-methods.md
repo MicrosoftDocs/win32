@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalPackage class exposes the following methods.
 ms.assetid: B5D5B2C4-0F8F-4888-A101-121DCAD75321
 ms.tgt_platform: multiple
 title: CIM_PhysicalPackage Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_LogicalDisk class exposes the following methods.
 ms.assetid: 03372D8C-4FDE-423F-820F-822E901F3A71
 ms.tgt_platform: multiple
 title: CIM_LogicalDisk Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

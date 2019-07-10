@@ -2,7 +2,7 @@
 title: IVMParallelPort Methods
 description: The IVMParallelPort interface exposes the following methods.
 ms.assetid: A30D5C8E-09CC-4455-AB22-F2B30DBBA9A7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

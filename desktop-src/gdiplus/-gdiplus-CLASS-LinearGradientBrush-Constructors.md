@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the LinearGradientBrush class.
 ms.assetid: e40d71b5-43eb-4062-86cd-225e593acd36
 title: LinearGradientBrush.LinearGradientBrush constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # LinearGradientBrush.LinearGradientBrush constructors

@@ -3,7 +3,7 @@ Description: The CIM\_USBDevice class exposes the following methods.
 ms.assetid: 760B7B22-925B-4628-8330-BF389E13CD2B
 ms.tgt_platform: multiple
 title: CIM_USBDevice Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

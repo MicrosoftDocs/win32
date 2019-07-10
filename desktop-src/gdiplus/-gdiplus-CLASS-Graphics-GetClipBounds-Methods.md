@@ -3,6 +3,7 @@ Description: This topic lists the GetClipBounds methods of the Graphics class. F
 ms.assetid: b46ce1d3-c2b5-4dbf-86b7-2e6f52ab2787
 title: Graphics.GetClipBounds methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.GetClipBounds methods

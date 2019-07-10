@@ -2,7 +2,7 @@
 Description: The IAzBizRuleInterfaces interface exposes the following methods.
 ms.assetid: C4057FA6-79D0-4E39-851A-541FC71DEE03
 title: IAzBizRuleInterfaces Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

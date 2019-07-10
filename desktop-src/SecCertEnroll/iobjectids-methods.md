@@ -2,7 +2,7 @@
 Description: The IObjectIds interface exposes the following methods.
 ms.assetid: CDA433D4-AD94-4488-B91A-F82A91F1CC8C
 title: IObjectIds Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

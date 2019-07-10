@@ -3,6 +3,7 @@ Description: Constructors exposed by XMUINT4.
 ms.assetid: f942a6a3-467c-4beb-964a-b1f066f30b36
 title: XMUINT4 constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # XMUINT4 constructors

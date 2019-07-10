@@ -3,7 +3,7 @@ Description: The CIM\_RemoveFileAction class exposes the following methods.
 ms.assetid: F761D6FE-E29C-488F-930C-A939B582E2CA
 ms.tgt_platform: multiple
 title: CIM_RemoveFileAction Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

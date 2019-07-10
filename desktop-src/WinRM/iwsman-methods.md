@@ -3,7 +3,7 @@ title: IWSMan Methods
 description: The IWSMan interface exposes the following methods.
 ms.assetid: 43550247-6DD9-4DEB-B7FF-F7946797F00F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

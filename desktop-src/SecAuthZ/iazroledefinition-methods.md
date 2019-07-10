@@ -2,7 +2,7 @@
 Description: The IAzRoleDefinition interface exposes the following methods.
 ms.assetid: A7E8DE2A-8D31-4E84-8757-4A06BEFB1865
 title: IAzRoleDefinition Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Win32_TSLicenseReport Methods
 description: The Win32\_TSLicenseReport class exposes the following methods.
 ms.assetid: 3D332EBB-00C0-431A-AF87-CF300CB4137F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

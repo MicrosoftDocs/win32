@@ -3,6 +3,7 @@ Description: This topic lists the ExcludeClip methods of the Graphics class. For
 ms.assetid: ee2b1bc7-6623-4144-b8fb-2ab9fbe28f59
 title: Graphics.ExcludeClip methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.ExcludeClip methods

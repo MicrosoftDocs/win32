@@ -3,7 +3,7 @@ title: IRemoteDesktopClient methods
 description: The IRemoteDesktopClient interface exposes the following methods.
 ms.assetid: CE2BC8B5-ED33-451C-87E0-32192BF41334
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

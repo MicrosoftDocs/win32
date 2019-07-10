@@ -2,7 +2,7 @@
 Description: The IAzBizRuleParameters interface exposes the following methods.
 ms.assetid: BAACA890-DC15-4EDD-89ED-20076D7FBCAD
 title: IAzBizRuleParameters Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

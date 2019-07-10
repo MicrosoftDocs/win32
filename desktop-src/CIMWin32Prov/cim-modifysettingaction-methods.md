@@ -3,7 +3,7 @@ Description: The CIM\_ModifySettingAction class exposes the following methods.
 ms.assetid: F35EB0C7-3158-412F-970E-C3CBA5D22EEC
 ms.tgt_platform: multiple
 title: CIM_ModifySettingAction Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

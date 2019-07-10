@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the StringFormat class. For a 
 ms.assetid: d20a7217-5c39-4ee9-b355-d10b65d18d86
 title: StringFormat.StringFormat constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # StringFormat.StringFormat constructors

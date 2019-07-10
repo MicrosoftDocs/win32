@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the Graphics class. For a comp
 ms.assetid: 76c4c444-cd6f-43ff-8ab7-96469d4505b9
 title: Graphics.Graphics constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.Graphics constructors

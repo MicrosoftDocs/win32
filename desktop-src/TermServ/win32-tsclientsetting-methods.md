@@ -3,7 +3,7 @@ title: Win32_TSClientSetting Methods
 description: The Win32\_TSClientSetting class exposes the following methods.
 ms.assetid: ED09BFCB-85DF-46D5-833B-C23C732D4FBF
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

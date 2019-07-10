@@ -3,6 +3,7 @@ Description: This topic lists the Union methods of the Region class. For a compl
 ms.assetid: 2b6fef4a-b95e-4384-a978-d1d5c2c84685
 title: Region.Union methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Region.Union methods

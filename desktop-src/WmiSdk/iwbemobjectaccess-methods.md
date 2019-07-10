@@ -3,7 +3,7 @@ Description: The IWbemObjectAccess interface exposes the following methods.
 ms.assetid: F3DC2775-F704-41D8-93C5-11D80C4F31CA
 ms.tgt_platform: multiple
 title: IWbemObjectAccess Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

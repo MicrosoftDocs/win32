@@ -3,6 +3,7 @@ Description: This topic lists the DrawBezier methods of the Graphics class. For 
 ms.assetid: 96060c2f-85cc-449f-bdc6-f4bab887d11f
 title: Graphics.DrawBezier methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.DrawBezier methods

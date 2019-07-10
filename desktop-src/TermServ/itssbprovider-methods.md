@@ -3,7 +3,7 @@ title: ITsSbProvider Methods
 description: The ITsSbProvider interface exposes the following methods.
 ms.assetid: C9498ABC-620D-4313-A1C7-9CB8819C4A08
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

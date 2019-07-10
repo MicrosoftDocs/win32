@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalExtent class exposes the following methods.
 ms.assetid: 541C9F38-6F8F-4DB3-A37F-DAD987D9F54F
 ms.tgt_platform: multiple
 title: CIM_PhysicalExtent Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

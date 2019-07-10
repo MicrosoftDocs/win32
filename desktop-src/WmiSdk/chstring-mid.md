@@ -5,6 +5,7 @@ ms.assetid: 2036813b-f991-4ca3-95d3-8bbe858aae09
 ms.tgt_platform: multiple
 title: CHString::Mid methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CHString::Mid methods

@@ -3,7 +3,7 @@ Description: The SWbemPrivilegeSet object exposes the following methods.
 ms.assetid: 5675FEF0-B1C6-4C63-A190-957DF363547C
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

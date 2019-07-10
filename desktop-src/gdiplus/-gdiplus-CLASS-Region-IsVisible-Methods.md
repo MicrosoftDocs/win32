@@ -3,6 +3,7 @@ Description: This topic lists the IsVisible methods of the Region class. For a c
 ms.assetid: 08773daa-0778-4525-a6e9-d18bcd4b76bf
 title: Region.IsVisible methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Region.IsVisible methods

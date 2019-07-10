@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the SizeF class. For a complete class listing, see SizeF Class.
 ms.assetid: e4efc02b-e8a5-4c4b-a42c-256b746ca3a3
 title: SizeF Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

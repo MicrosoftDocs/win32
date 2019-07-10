@@ -2,7 +2,7 @@
 title: 10Level9 ID3D11DeviceContext Methods
 description: This section lists the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the ID3D11DeviceContext methods.
 ms.assetid: 84478b56-0306-491a-9545-0849b06d8342
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The IAzAuthorizationStore2 interface exposes the following methods.
 ms.assetid: D0DAE827-A2A0-4064-AF07-BB73256CBD86
 title: IAzAuthorizationStore2 Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_DirectoryAction class exposes the following methods.
 ms.assetid: DF0990C4-495D-4860-9DF3-C736579078B5
 ms.tgt_platform: multiple
 title: CIM_DirectoryAction Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

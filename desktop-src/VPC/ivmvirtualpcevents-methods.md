@@ -2,7 +2,7 @@
 title: IVMVirtualPCEvents Methods
 description: The IVMVirtualPCEvents interface exposes the following methods.
 ms.assetid: 8A9F9D06-2349-444B-9086-AB6806225CCF
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

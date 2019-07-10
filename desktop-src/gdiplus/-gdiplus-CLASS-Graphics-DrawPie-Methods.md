@@ -3,6 +3,7 @@ Description: This topic lists the DrawPie methods of the Graphics class. For a c
 ms.assetid: 4c6b363f-ffe4-4572-98c0-55f84f789b1e
 title: Graphics.DrawPie methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.DrawPie methods

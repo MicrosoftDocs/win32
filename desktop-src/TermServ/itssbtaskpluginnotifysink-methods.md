@@ -3,7 +3,7 @@ title: ITsSbTaskPluginNotifySink Methods
 description: The ITsSbTaskPluginNotifySink interfaces exposes the following methods.
 ms.assetid: D22C72A3-E71B-4F00-85BA-0BAE3EFABEE4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

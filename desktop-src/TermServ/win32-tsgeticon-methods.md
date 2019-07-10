@@ -3,7 +3,7 @@ title: Win32_TSGetIcon Methods
 description: The Win32\_TSGetIcon class exposes the following methods.
 ms.assetid: 25724BF6-A377-4219-B8AF-ADCB495BE094
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

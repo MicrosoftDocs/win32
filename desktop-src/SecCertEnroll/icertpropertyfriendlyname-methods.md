@@ -2,7 +2,7 @@
 Description: The ICertPropertyFriendlyName interface exposes the following methods.
 ms.assetid: A2E0787E-5E26-47ED-B628-16961513054B
 title: ICertPropertyFriendlyName Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

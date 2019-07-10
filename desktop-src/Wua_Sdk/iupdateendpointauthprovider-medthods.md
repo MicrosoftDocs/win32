@@ -2,7 +2,7 @@
 Description: The IUpdateEndpointAuthProvider interface defines the following methods.
 ms.assetid: 7F9F8FDF-4924-4085-BE77-C6EA79D6CF4E
 title: IUpdateEndpointAuthProvider Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

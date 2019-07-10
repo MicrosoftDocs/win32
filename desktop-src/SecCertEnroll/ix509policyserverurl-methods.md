@@ -2,7 +2,7 @@
 Description: The IX509PolicyServerUrl interface exposes the following methods.
 ms.assetid: B33109F6-79E1-4301-870E-F65EA3104530
 title: IX509PolicyServerUrl Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

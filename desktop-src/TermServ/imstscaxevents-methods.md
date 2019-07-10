@@ -3,7 +3,7 @@ title: IMsTscAxEvents Methods
 description: The IMsTscAxEvents interface exposes the following methods.
 ms.assetid: 976D9B30-77A5-4616-80E7-AE8F5A9F8534
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

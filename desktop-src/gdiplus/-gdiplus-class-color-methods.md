@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the Color class. For a complete class listing, see Color Class.
 ms.assetid: cbb2cc10-a39f-40a1-91ab-e79ba4ee3cc6
 title: Color Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

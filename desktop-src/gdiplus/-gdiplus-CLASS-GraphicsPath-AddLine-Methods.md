@@ -3,6 +3,7 @@ Description: This topic lists the AddLine methods of the GraphicsPath class. For
 ms.assetid: ff80b2a7-47a9-49dd-b2ea-9bd0453fac0b
 title: GraphicsPath.AddLine methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddLine methods

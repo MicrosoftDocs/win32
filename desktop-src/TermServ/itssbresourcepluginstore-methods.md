@@ -3,7 +3,7 @@ title: ITsSbResourcePluginStore Methods
 description: The ITsSbResourcePluginStore interface exposes the following methods.
 ms.assetid: D3D59244-E319-47C8-A931-72679C11AC40
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

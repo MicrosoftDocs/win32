@@ -3,7 +3,7 @@ Description: The CIM\_Battery class exposes the following methods.
 ms.assetid: 60658CE1-CB06-4411-B809-BD5FE5558F6D
 ms.tgt_platform: multiple
 title: CIM_Battery Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

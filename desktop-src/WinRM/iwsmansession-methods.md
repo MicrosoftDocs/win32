@@ -3,7 +3,7 @@ title: IWSManSession Methods
 description: The IWSManSession interface exposes the following methods.
 ms.assetid: B7D38602-FCCA-44F9-9E54-F07829751E85
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,6 +3,7 @@ Description: This topic lists the AddPolygon methods of the GraphicsPath class. 
 ms.assetid: c768a38e-0b64-4254-b844-ade567eaea8f
 title: GraphicsPath.AddPolygon methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddPolygon methods

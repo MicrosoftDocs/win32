@@ -3,6 +3,7 @@ Description: This topic lists the EnumerateMetafile methods of the Graphics clas
 ms.assetid: 167a04d5-24f4-4885-b97c-b4536e41e125
 title: Graphics.EnumerateMetafile methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.EnumerateMetafile methods

@@ -3,7 +3,7 @@ title: IWTSListenerCallback Methods
 description: The IWTSListenerCallback interface exposes the following methods.
 ms.assetid: 20B3F8AA-4C73-4E5F-9219-1E41C8F581E2
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

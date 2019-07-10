@@ -3,7 +3,7 @@ Description: The CIM\_MagnetoOpticalDrive class exposes the following methods.
 ms.assetid: 5E8C26F5-25FA-4895-A66F-A12FAF7F31AE
 ms.tgt_platform: multiple
 title: CIM_MagnetoOpticalDrive Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: ITsSbProvisioning Methods
 description: The ITsSbProvisioning interfaces exposes the following methods.
 ms.assetid: 882B6A37-FAD6-4783-B2A7-AE3C62C8CC92
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,6 +3,7 @@ Description: This topic lists the constructors of the Pen class. For a complete 
 ms.assetid: 30b58e23-b79a-4746-8b2a-d19711ddcd69
 title: Pen.Pen constructors
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Pen.Pen constructors

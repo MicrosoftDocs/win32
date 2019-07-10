@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Interface Property Methods
 - ADSI ADSI , reference, property methods explained
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

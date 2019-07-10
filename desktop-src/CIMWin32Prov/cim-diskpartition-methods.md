@@ -3,7 +3,7 @@ Description: The CIM\_DiskPartition class exposes the following methods.
 ms.assetid: 3168CA9C-5A74-4AF0-8C08-002C8DB87199
 ms.tgt_platform: multiple
 title: CIM_DiskPartition Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

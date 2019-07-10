@@ -3,7 +3,7 @@ title: IWTSProtocolListenerCallback Methods
 description: The IWTSProtocolListenerCallback interface exposes the following methods.
 ms.assetid: A52B4BDA-9489-48F3-B788-AC82F89D1531
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

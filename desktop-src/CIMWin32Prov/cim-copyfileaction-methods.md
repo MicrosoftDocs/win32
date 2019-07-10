@@ -3,7 +3,7 @@ Description: The CIM\_CopyFileAction class exposes the following methods.
 ms.assetid: C58071FD-8D8A-4FBF-AC70-DD0571152274
 ms.tgt_platform: multiple
 title: CIM_CopyFileAction Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

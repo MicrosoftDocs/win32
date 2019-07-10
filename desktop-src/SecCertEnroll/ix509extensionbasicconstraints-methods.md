@@ -2,7 +2,7 @@
 Description: The IX509ExtensionBasicConstraints interface exposes the following methods.
 ms.assetid: B02CFC5D-0542-42F9-B2B9-E474B43B3C14
 title: IX509ExtensionBasicConstraints Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

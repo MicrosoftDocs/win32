@@ -3,7 +3,7 @@ Description: The CIM\_RebootAction class exposes the following methods.
 ms.assetid: A2ADB2F4-9E96-448F-9BAD-0DBB71EA72AE
 ms.tgt_platform: multiple
 title: CIM_RebootAction Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

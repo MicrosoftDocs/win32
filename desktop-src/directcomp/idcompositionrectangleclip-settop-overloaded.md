@@ -11,6 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionRectangleClip::SetTop methods

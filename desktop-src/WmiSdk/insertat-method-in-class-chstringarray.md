@@ -5,6 +5,7 @@ ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
 ms.tgt_platform: multiple
 title: CHStringArray::InsertAt methods
 ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CHStringArray::InsertAt methods

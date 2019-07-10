@@ -3,7 +3,7 @@ title: Win32_SessionBrokerFarmAccount Methods
 description: The Win32\_SessionBrokerFarmAccount class exposes the following methods.
 ms.assetid: D7B5FB1B-0CD5-4B16-8CC0-6F9283EF82B0
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

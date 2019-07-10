@@ -3,7 +3,7 @@ title: ITsSbLoadBalancing Methods
 description: The ITsSbLoadBalancing interface exposes the following methods.
 ms.assetid: EDB60A92-B8B8-4268-B698-650CB704905C
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
