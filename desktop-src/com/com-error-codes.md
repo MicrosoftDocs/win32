@@ -21,7 +21,7 @@ The following topics provide lists of error codes used by COM-based APIs. These 
 -   [**COM Error Codes (WPN, MBN, P2P, Bluetooth)**](com-error-codes-9.md)
 -   [**COM Error Codes (UI, Audio, DirectX, Codec)**](com-error-codes-10.md)
 
-If you are experiencing difficulty with an application you are installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, go to [https://support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978).
+If you are experiencing difficulty with an application you are installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, go to [https://support.microsoft.com](https://support.microsoft.com).
 
  
 
