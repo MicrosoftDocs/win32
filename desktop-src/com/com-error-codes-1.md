@@ -213,7 +213,7 @@ ms.date: 05/31/2018
 
 The following table provides a list of error codes used by COM-based APIs.
 
-If you are experiencing difficulty with an application you are installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, go to [https://support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978).
+If you are experiencing difficulty with an application you are installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, go to [https://support.microsoft.com](https://support.microsoft.com).
 
 
 

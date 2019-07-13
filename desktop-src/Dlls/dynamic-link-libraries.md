@@ -21,7 +21,7 @@ The Windows application programming interface (API) is implemented as a set of D
 -   [Dynamic-Link Library Reference](dynamic-link-library-reference.md)
 
 > [!Note]  
-> If you are a user experiencing difficulty with a DLL on your computer, you should contact customer support for the software vendor that publishes the DLL. If you feel you are in need of support for a Microsoft product (including Windows), please go to our technical support site at [support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978).
+> If you are a user experiencing difficulty with a DLL on your computer, you should contact customer support for the software vendor that publishes the DLL. If you feel you are in need of support for a Microsoft product (including Windows), please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
 
  
 
