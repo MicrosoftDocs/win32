@@ -9,7 +9,7 @@ title: 'EncryptMessage (NTLM) function'
 The **EncryptMessage (NTLM)** function encrypts a message to provide [*privacy*](security.p_gly#-security-privacy-gly). **EncryptMessage (NTLM)** allows an application to choose among [*cryptographic algorithms*](security.c_gly#-security-cryptographic-algorithm-gly) supported by the chosen mechanism. The **EncryptMessage (NTLM)** function uses the [*security context*](security.s_gly#-security-security-context-gly) referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](security.h_gly#-security-hash-gly) that can be checked.
 
 > [!Note]  
-> **EncryptMessage (NTLM)** and [**DecryptMessage (NTLM)**](decryptmessage--ntlm-.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> **EncryptMessage (NTLM)** and [**DecryptMessage (NTLM)**](decryptmessage--ntlm.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
 
@@ -58,7 +58,7 @@ A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the st
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm-.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
 Applications that do not use SSL must supply a [**SecBuffer**](secbuffer.md) of type SECBUFFER\_PADDING.
 
@@ -142,16 +142,16 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 [SSPI Functions](authentication-functions.md#sspi-functions)
 </dt> <dt>
 
-[**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm-.md)
+[**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md)
 </dt> <dt>
 
-[**DecryptMessage (NTLM)**](decryptmessage--ntlm-.md)
+[**DecryptMessage (NTLM)**](decryptmessage--ntlm.md)
 </dt> <dt>
 
-[**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm-.md)
+[**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md)
 </dt> <dt>
 
-[**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm-.md)
+[**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md)
 </dt> <dt>
 
 [**SecBuffer**](secbuffer.md)

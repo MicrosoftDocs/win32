@@ -9,7 +9,7 @@ title: 'DecryptMessage (Kerberos) function'
 The **DecryptMessage (Kerberos)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](security.h_gly#-security-hash-gly).
 
 > [!Note]  
-> [**EncryptMessage (Kerberos)**](encryptmessage--kerberos-.md) and **DecryptMessage (Kerberos)** can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (Kerberos)**](encryptmessage--kerberos.md) and **DecryptMessage (Kerberos)** can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
 
@@ -75,7 +75,7 @@ If the function fails to decrypt the message, it returns one of the following er
 
 | Return code                                                                                                | Description                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl> | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Kerberos)**](decryptmessage--kerberos-.md) again.<br/> |
+| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl> | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) again.<br/> |
 | <dl> <dt>**SEC\_E\_OUT\_OF\_SEQUENCE**</dt> </dl>   | The message was not received in the correct sequence.<br/>                                                                                                                              |
 
 
@@ -111,7 +111,7 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 [SSPI Functions](authentication-functions.md#sspi-functions)
 </dt> <dt>
 
-[**EncryptMessage (Kerberos)**](encryptmessage--kerberos-.md)
+[**EncryptMessage (Kerberos)**](encryptmessage--kerberos.md)
 </dt> <dt>
 
 [**SecBuffer**](secbuffer.md)

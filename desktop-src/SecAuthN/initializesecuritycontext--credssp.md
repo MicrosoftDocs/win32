@@ -6,7 +6,7 @@ title: 'InitializeSecurityContext (CredSSP) function'
 
 # InitializeSecurityContext (CredSSP) function
 
-The **InitializeSecurityContext (CredSSP)** function initiates the client side, outbound [*security context*](security.s_gly#-security-security-context-gly) from a credential handle. The function builds a security context between the client application and a remote peer. **InitializeSecurityContext (CredSSP)** returns a token that the client must pass to the remote peer; the peer in turn submits that token to the local security implementation through the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp-.md) call. The token generated should be considered opaque by all callers.
+The **InitializeSecurityContext (CredSSP)** function initiates the client side, outbound [*security context*](security.s_gly#-security-security-context-gly) from a credential handle. The function builds a security context between the client application and a remote peer. **InitializeSecurityContext (CredSSP)** returns a token that the client must pass to the remote peer; the peer in turn submits that token to the local security implementation through the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) call. The token generated should be considered opaque by all callers.
 
 Typically, the **InitializeSecurityContext (CredSSP)** function is called in a loop until a sufficient security context is established.
 
@@ -26,7 +26,7 @@ Typically, the **InitializeSecurityContext (CredSSP)** function is called in a l
 *phCredential* \[in, optional\]
 </dt> <dd>
 
-A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp-.md). This handle is used to build the [*security context*](security.s_gly#-security-security-context-gly). The **InitializeSecurityContext (CredSSP)** function requires at least OUTBOUND credentials.
+A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md). This handle is used to build the [*security context*](security.s_gly#-security-security-context-gly). The **InitializeSecurityContext (CredSSP)** function requires at least OUTBOUND credentials.
 
 </dd> <dt>
 
@@ -163,10 +163,10 @@ If the function succeeds, it returns one of the following success codes.
 | Return code                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [**SecBuffer**](secbuffer.md) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** specifies the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function.<br/> |
-| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The [*security context*](security.s_gly#-security-security-context-gly) was successfully initialized. There is no need for another [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp-.md) call. If the function returns an output token -- that is, if the **SECBUFFER\_TOKEN** in *pOutput* is of nonzero length -- that token must be sent to the server.<br/>                                                                                                   |
-| <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](completeauthtoken.md) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp-.md).<br/>                                                                                                                                                                                                                                            |
+| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The [*security context*](security.s_gly#-security-security-context-gly) was successfully initialized. There is no need for another [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) call. If the function returns an output token -- that is, if the **SECBUFFER\_TOKEN** in *pOutput* is of nonzero length -- that token must be sent to the server.<br/>                                                                                                   |
+| <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](completeauthtoken.md) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md).<br/>                                                                                                                                                                                                                                            |
 | <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](completeauthtoken.md) function.<br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
-| <dl> <dt>**SEC\_I\_CONTINUE\_NEEDED**</dt> </dl>        | The client must send the output token to the server and wait for a return token. The client passes the returned token in another call to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp-.md). The output token can be empty.<br/>                                                                                                                                                                                                                                                              |
+| <dl> <dt>**SEC\_I\_CONTINUE\_NEEDED**</dt> </dl>        | The client must send the output token to the server and wait for a return token. The client passes the returned token in another call to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md). The output token can be empty.<br/>                                                                                                                                                                                                                                                              |
 | <dl> <dt>**SEC\_I\_INCOMPLETE\_CREDENTIALS**</dt> </dl> | The server has requested client authentication, but either the supplied credentials do not include a certificate, or the certificate was not issued by a [*certification authority*](security.c_gly#-security-certification-authority-gly) that the server trusts. For more information, see Remarks.<br/>                                                                                                                                                                              |
 
 
@@ -209,8 +209,8 @@ For a two-leg security context, the calling sequence is as follows:
 
 1.  The client calls the function with *phContext* set to **NULL** and fills in the buffer descriptor with the input message.
 2.  The security package examines the parameters and constructs an opaque token, placing it in the TOKEN element in the buffer array. If the *fContextReq* parameter includes the **ISC\_REQ\_ALLOCATE\_MEMORY** flag, the security package allocates the memory and returns the pointer in the TOKEN element.
-3.  The client sends the token returned in the *pOutput* buffer to the target server. The server then passes the token as an input argument in a call to the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp-.md) function.
-4.  [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp-.md) may return a token. The server sends this token to the client through a second **InitializeSecurityContext (CredSSP)** call if the first call returned **SEC\_I\_CONTINUE\_NEEDED**.
+3.  The client sends the token returned in the *pOutput* buffer to the target server. The server then passes the token as an input argument in a call to the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) function.
+4.  [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) may return a token. The server sends this token to the client through a second **InitializeSecurityContext (CredSSP)** call if the first call returned **SEC\_I\_CONTINUE\_NEEDED**.
 
 If the server has successfully responded, the security package returns **SEC\_E\_OK** and a secure session is established.
 
@@ -236,9 +236,9 @@ The client may call **InitializeSecurityContext (CredSSP)** again after it has c
 
 Kernel-mode callers have the following differences: the target name is a [*Unicode*](security.u_gly#-security-unicode-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](base.virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
 
-If the function returns **SEC\_I\_INCOMPLETE\_CREDENTIALS**, check that the r credentials passed to the [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp-.md) function specified a valid and trusted certificate The certificate must be a client authentication certificate issued by a certification authority trusted by the server. To obtain a list of the CAs trusted by the server, call the [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp-.md) function with the **SECPKG\_ATTR\_ISSUER\_LIST\_EX** attribute.
+If the function returns **SEC\_I\_INCOMPLETE\_CREDENTIALS**, check that the r credentials passed to the [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md) function specified a valid and trusted certificate The certificate must be a client authentication certificate issued by a certification authority trusted by the server. To obtain a list of the CAs trusted by the server, call the [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) function with the **SECPKG\_ATTR\_ISSUER\_LIST\_EX** attribute.
 
-After receiving an authentication certificate from a certification authority that the server trusts, the client application creates a new credential. It does so by calling the [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp-.md) function and then calling **InitializeSecurityContext (CredSSP)** again, specifying the new credential in the *phCredential* parameter.
+After receiving an authentication certificate from a certification authority that the server trusts, the client application creates a new credential. It does so by calling the [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md) function and then calling **InitializeSecurityContext (CredSSP)** again, specifying the new credential in the *phCredential* parameter.
 
 ## Requirements
 
@@ -261,10 +261,10 @@ After receiving an authentication certificate from a certification authority tha
 [SSPI Functions](authentication-functions.md#sspi-functions)
 </dt> <dt>
 
-[**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp-.md)
+[**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md)
 </dt> <dt>
 
-[**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp-.md)
+[**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md)
 </dt> <dt>
 
 [**CompleteAuthToken**](completeauthtoken.md)

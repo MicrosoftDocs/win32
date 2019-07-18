@@ -9,7 +9,7 @@ title: 'EncryptMessage (Kerberos) function'
 The **EncryptMessage (Kerberos)** function encrypts a message to provide [*privacy*](security.p_gly#-security-privacy-gly). **EncryptMessage (Kerberos)** allows an application to choose among [*cryptographic algorithms*](security.c_gly#-security-cryptographic-algorithm-gly) supported by the chosen mechanism. The **EncryptMessage (Kerberos)** function uses the [*security context*](security.s_gly#-security-security-context-gly) referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](security.h_gly#-security-hash-gly) that can be checked.
 
 > [!Note]  
-> **EncryptMessage (Kerberos)** and [**DecryptMessage (Kerberos)**](decryptmessage--kerberos-.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> **EncryptMessage (Kerberos)** and [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
 
@@ -58,7 +58,7 @@ A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the st
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Kerberos)**](querycontextattributes--kerberos-.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Kerberos)**](querycontextattributes--kerberos.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
 Applications that do not use SSL must supply a [**SecBuffer**](secbuffer.md) of type SECBUFFER\_PADDING.
 
@@ -142,16 +142,16 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 [SSPI Functions](authentication-functions.md#sspi-functions)
 </dt> <dt>
 
-[**AcceptSecurityContext (Kerberos)**](acceptsecuritycontext--kerberos-.md)
+[**AcceptSecurityContext (Kerberos)**](acceptsecuritycontext--kerberos.md)
 </dt> <dt>
 
-[**DecryptMessage (Kerberos)**](decryptmessage--kerberos-.md)
+[**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md)
 </dt> <dt>
 
-[**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos-.md)
+[**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md)
 </dt> <dt>
 
-[**QueryContextAttributes (Kerberos)**](querycontextattributes--kerberos-.md)
+[**QueryContextAttributes (Kerberos)**](querycontextattributes--kerberos.md)
 </dt> <dt>
 
 [**SecBuffer**](secbuffer.md)

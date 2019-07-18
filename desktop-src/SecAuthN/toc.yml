@@ -614,14 +614,14 @@
       href: authentication-functions.md
       items: 
       - name: "AcceptSecurityContext (General)"
-        href: acceptsecuritycontext--general-md
+        href: acceptsecuritycontext--general.md
         items: 
         - name: "AcceptSecurityContext (CredSSP)"
           href: acceptsecuritycontext--credssp.md
         - name: "AcceptSecurityContext (Digest)"
           href: acceptsecuritycontext--digest.md
         - name: "AcceptSecurityContext (Kerberos)"
-          href: acceptsecuritycontext--digest.md
+          href: acceptsecuritycontext--kerberos.md
         - name: "AcceptSecurityContext (Negotiate)"
           href: acceptsecuritycontext--negotiate.md
         - name: "AcceptSecurityContext (NTLM)"

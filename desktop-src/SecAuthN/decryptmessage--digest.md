@@ -11,7 +11,7 @@ The **DecryptMessage (Digest)** function decrypts a message. Some packages do no
 The Digest [*security support provider*](security.s_gly#-security-security-support-provider-gly) (SSP) provides encryption and decryption confidentiality for messages exchanged between client and server as a SASL mechanism only.
 
 > [!Note]  
-> [**EncryptMessage (Digest)**](encryptmessage--digest-.md) and **DecryptMessage (Digest)** can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (Digest)**](encryptmessage--digest.md) and **DecryptMessage (Digest)** can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
 
@@ -83,7 +83,7 @@ If the function fails to decrypt the message, it returns one of the following er
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC\_E\_BUFFER\_TOO\_SMALL**</dt> </dl>      | The message buffer is too small. Used with the Digest SSP.<br/>                                                                                                                     |
 | <dl> <dt>**SEC\_E\_CRYPTO\_SYSTEM\_INVALID**</dt> </dl> | The cipher chosen for the security context is not supported. Used with the Digest SSP.<br/>                                                                                         |
-| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Digest)**](decryptmessage--digest-.md) again.<br/> |
+| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Digest)**](decryptmessage--digest.md) again.<br/> |
 | <dl> <dt>**SEC\_E\_INVALID\_HANDLE**</dt> </dl>         | A context handle that is not valid was specified in the *phContext* parameter. Used with the Digest SSP.<br/>                                                                       |
 | <dl> <dt>**SEC\_E\_MESSAGE\_ALTERED**</dt> </dl>        | The message has been altered. Used with the Digest SSP.<br/>                                                                                                                        |
 | <dl> <dt>**SEC\_E\_OUT\_OF\_SEQUENCE**</dt> </dl>       | The message was not received in the correct sequence.<br/>                                                                                                                          |
@@ -120,7 +120,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 [SSPI Functions](authentication-functions.md#sspi-functions)
 </dt> <dt>
 
-[**EncryptMessage (Digest)**](encryptmessage--digest-.md)
+[**EncryptMessage (Digest)**](encryptmessage--digest.md)
 </dt> <dt>
 
 [**SecBuffer**](secbuffer.md)

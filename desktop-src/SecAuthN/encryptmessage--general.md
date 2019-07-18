@@ -13,7 +13,7 @@ When using the Digest [*security support provider*](security.s_gly#-security-sec
 When using the Schannel SSP, this function encrypts messages by using a [*session key*](security.s_gly#-security-session-key-gly) negotiated with the remote party that will receive the message. The encryption algorithm is determined by the [cipher suite](cipher-suites-in-schannel.md) in use.
 
 > [!Note]  
-> **EncryptMessage (General)** and [**DecryptMessage (General)**](decryptmessage--general-.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> **EncryptMessage (General)** and [**DecryptMessage (General)**](decryptmessage--general.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
 
@@ -23,11 +23,11 @@ For information about using this function with a specific SSP, see the following
 
 | Topic                                                            | Description                                               |
 |------------------------------------------------------------------|-----------------------------------------------------------|
-| [**EncryptMessage (Digest)**](encryptmessage--digest-.md)       | Encrypts a message to provide privacy by using Digest.    |
-| [**EncryptMessage (Kerberos)**](encryptmessage--kerberos-.md)   | Encrypts a message to provide privacy by using Kerberos.  |
-| [**EncryptMessage (Negotiate)**](encryptmessage--negotiate-.md) | Encrypts a message to provide privacy by using Negotiate. |
-| [**EncryptMessage (NTLM)**](encryptmessage--ntlm-.md)           | Encrypts a message to provide privacy by using NTLM.      |
-| [**EncryptMessage (Schannel)**](encryptmessage--schannel-.md)   | Encrypts a message to provide privacy by using Schannel.  |
+| [**EncryptMessage (Digest)**](encryptmessage--digest.md)       | Encrypts a message to provide privacy by using Digest.    |
+| [**EncryptMessage (Kerberos)**](encryptmessage--kerberos.md)   | Encrypts a message to provide privacy by using Kerberos.  |
+| [**EncryptMessage (Negotiate)**](encryptmessage--negotiate.md) | Encrypts a message to provide privacy by using Negotiate. |
+| [**EncryptMessage (NTLM)**](encryptmessage--ntlm.md)           | Encrypts a message to provide privacy by using NTLM.      |
+| [**EncryptMessage (Schannel)**](encryptmessage--schannel.md)   | Encrypts a message to provide privacy by using Schannel.  |
 
 
 
@@ -80,9 +80,9 @@ A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the st
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (General)**](querycontextattributes--general-.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (General)**](querycontextattributes--general.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
-When using the Digest SSP, there must be a second buffer of type SECBUFFER\_PADDING or SEC\_BUFFER\_DATA to hold [*signature*](security.d_gly#-security-digital-signature-gly) information. To get the size of the output buffer, call the [**QueryContextAttributes (General)**](querycontextattributes--general-.md) function and specify SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](secpkgcontext-sizes.md) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
+When using the Digest SSP, there must be a second buffer of type SECBUFFER\_PADDING or SEC\_BUFFER\_DATA to hold [*signature*](security.d_gly#-security-digital-signature-gly) information. To get the size of the output buffer, call the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specify SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](secpkgcontext-sizes.md) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
 
 Applications that do not use SSL must supply a [**SecBuffer**](secbuffer.md) of type SECBUFFER\_PADDING.
 
@@ -127,7 +127,7 @@ The **EncryptMessage (General)** function encrypts a message based on the messag
 
 If the transport application created the security context to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The [*security package*](security.s_gly#-security-security-package-gly) incorporates the sequence number passed down from the transport application.
 
-When you use the Digest SSP, get the size of the output buffer by calling the [**QueryContextAttributes (General)**](querycontextattributes--general-.md) function and specifying SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](secpkgcontext-sizes.md) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
+When you use the Digest SSP, get the size of the output buffer by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](secpkgcontext-sizes.md) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
 
 When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecBufferDesc**](secbufferdesc.md) structure with the following buffers.
 
@@ -149,7 +149,7 @@ When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecB
 
  
 
-When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (General)**](querycontextattributes--general-.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](secpkgcontext-streamsizes.md) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
+When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](secpkgcontext-streamsizes.md) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
 
 For optimal performance, the *pMessage* structures should be allocated from contiguous memory.
 
@@ -176,16 +176,16 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 [SSPI Functions](authentication-functions.md#sspi-functions)
 </dt> <dt>
 
-[**AcceptSecurityContext (General)**](acceptsecuritycontext--general-.md)
+[**AcceptSecurityContext (General)**](acceptsecuritycontext--general.md)
 </dt> <dt>
 
-[**DecryptMessage (General)**](decryptmessage--general-.md)
+[**DecryptMessage (General)**](decryptmessage--general.md)
 </dt> <dt>
 
-[**InitializeSecurityContext (General)**](initializesecuritycontext--general-.md)
+[**InitializeSecurityContext (General)**](initializesecuritycontext--general.md)
 </dt> <dt>
 
-[**QueryContextAttributes (General)**](querycontextattributes--general-.md)
+[**QueryContextAttributes (General)**](querycontextattributes--general.md)
 </dt> <dt>
 
 [**SecBuffer**](secbuffer.md)

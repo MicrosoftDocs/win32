@@ -11,7 +11,7 @@ The **EncryptMessage (Schannel)** function encrypts a message to provide [*priva
 When using the Schannel SSP, this function encrypts messages by using a [*session key*](security.s_gly#-security-session-key-gly) negotiated with the remote party that will receive the message. The encryption algorithm is determined by the [cipher suite](cipher-suites-in-schannel.md) in use.
 
 > [!Note]  
-> **EncryptMessage (Schannel)** and [**DecryptMessage (Schannel)**](decryptmessage--schannel-.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> **EncryptMessage (Schannel)** and [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
 
@@ -61,7 +61,7 @@ A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the st
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel-.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecB
 
  
 
-When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel-.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](secpkgcontext-streamsizes.md) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
+When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](secpkgcontext-streamsizes.md) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
 
 For optimal performance, the *pMessage* structures should be allocated from contiguous memory.
 
@@ -149,16 +149,16 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 [SSPI Functions](authentication-functions.md#sspi-functions)
 </dt> <dt>
 
-[**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel-.md)
+[**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md)
 </dt> <dt>
 
-[**DecryptMessage (Schannel)**](decryptmessage--schannel-.md)
+[**DecryptMessage (Schannel)**](decryptmessage--schannel.md)
 </dt> <dt>
 
-[**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel-.md)
+[**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md)
 </dt> <dt>
 
-[**QueryContextAttributes (Schannel)**](querycontextattributes--schannel-.md)
+[**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md)
 </dt> <dt>
 
 [**SecBuffer**](secbuffer.md)
