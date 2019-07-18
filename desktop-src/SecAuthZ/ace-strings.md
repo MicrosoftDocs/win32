@@ -91,196 +91,65 @@ A string that indicates the [access rights](access-rights-and-access-masks.md) c
 
 
 
-Access rights string
-
-Constant in Sddl.h
-
-Access right value
-
-Generic access rights<br/>
-
-"GA"
-
-SDDL\_GENERIC\_ALL
-
-GENERIC\_ALL
-
-"GR"
-
-SDDL\_GENERIC\_READ
-
-GENERIC\_READ
-
-"GW"
-
-SDDL\_GENERIC\_WRITE
-
-GENERIC\_WRITE
-
-"GX"
-
-SDDL\_GENERIC\_EXECUTE
-
-GENERIC\_EXECUTE
-
-Standard access rights<br/>
-
-"RC"
-
-SDDL\_READ\_CONTROL
-
-READ\_CONTROL
-
-"SD"
-
-SDDL\_STANDARD\_DELETE
-
-DELETE
-
-"WD"
-
-SDDL\_WRITE\_DAC
-
-WRITE\_DAC
-
-"WO"
-
-SDDL\_WRITE\_OWNER
-
-WRITE\_OWNER
-
-Directory service object access rights<br/>
-
-"RP"
-
-SDDL\_READ\_PROPERTY
-
-ADS\_RIGHT\_DS\_READ\_PROP
-
-"WP"
-
-SDDL\_WRITE\_PROPERTY
-
-ADS\_RIGHT\_DS\_WRITE\_PROP
-
-"CC"
-
-SDDL\_CREATE\_CHILD
-
-ADS\_RIGHT\_DS\_CREATE\_CHILD
-
-"DC"
-
-SDDL\_DELETE\_CHILD
-
-ADS\_RIGHT\_DS\_DELETE\_CHILD
-
-"LC"
-
-SDDL\_LIST\_CHILDREN
-
-ADS\_RIGHT\_ACTRL\_DS\_LIST
-
-"SW"
-
-SDDL\_SELF\_WRITE
-
-ADS\_RIGHT\_DS\_SELF
-
-"LO"
-
-SDDL\_LIST\_OBJECT
-
-ADS\_RIGHT\_DS\_LIST\_OBJECT
-
-"DT"
-
-SDDL\_DELETE\_TREE
-
-ADS\_RIGHT\_DS\_DELETE\_TREE
-
-"CR"
-
-SDDL\_CONTROL\_ACCESS
-
-ADS\_RIGHT\_DS\_CONTROL\_ACCESS
-
-File access rights<br/>
-
-"FA"
-
-SDDL\_FILE\_ALL
-
-FILE\_ALL\_ACCESS
-
-"FR"
-
-SDDL\_FILE\_READ
-
-FILE\_GENERIC\_READ
-
-"FW"
-
-SDDL\_FILE\_WRITE
-
-FILE\_GENERIC\_WRITE
-
-"FX"
-
-SDDL\_FILE\_EXECUTE
-
-FILE\_GENERIC\_EXECUTE
-
-Registry key access rights<br/>
-
-"KA"
-
-SDDL\_KEY\_ALL
-
-KEY\_ALL\_ACCESS
-
-"KR"
-
-SDDL\_KEY\_READ
-
-KEY\_READ
-
-"KW"
-
-SDDL\_KEY\_WRITE
-
-KEY\_WRITE
-
-"KX"
-
-SDDL\_KEY\_EXECUTE
-
-KEY\_EXECUTE
-
-Mandatory label rights<br/>
-
-"NR"
-
-SDDL\_NO\_READ\_UP
-
-SYSTEM\_MANDATORY\_LABEL\_NO\_READ\_UP
-
-"NW"
-
-SDDL\_NO\_WRITE\_UP
-
-SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP
-
-"NX"
-
-SDDL\_NO\_EXECUTE\_UP
-
-SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP
-
-
-
- 
-
+### Generic access rights
+
+| Access rights string | Constant in Sddl.h | Access right value |
+|----------------------|--------------------|--------------------|
+| "GA"                 | SDDL\_GENERIC\_ALL | GENERIC\_ALL       |
+| "GR"                 | SDDL\_GENERIC\_READ | GENERIC\_READ     |
+| "GW"                 | SDDL\_GENERIC\_WRITE | GENERIC\_WRITE |
+| "GX"                 | SDDL\_GENERIC\_EXECUTE | GENERIC\_EXECUTE |
+
+
+### Standard access rights
+
+| Access rights string | Constant in Sddl.h | Access right value |
+|----------------------|--------------------|--------------------|
+| "RC"                 | SDDL\_READ\_CONTROL | READ\_CONTROL      |
+| "SD"                 | SDDL\_STANDARD\_DELETE | DELETE          |
+| "WD"                 | SDDL\_WRITE\_DAC | WRITE\_DAC            |
+| "WO"                 | SDDL\_WRITE\_OWNER | WRITE\_OWNER        |
+
+### Directory service object access rights
+
+| Access rights string | Constant in Sddl.h | Access right value |
+|----------------------|--------------------|--------------------|
+| "RP"                 | SDDL\_READ\_PROPERTY | ADS\_RIGHT\_DS\_READ\_PROP |
+| "WP"                 | SDDL\_WRITE\_PROPERTY | ADS\_RIGHT\_DS\_WRITE\_PROP |
+| "CC"                 | SDDL\_CREATE\_CHILD | ADS\_RIGHT\_DS\_CREATE\_CHILD |
+| "DC"                 | SDDL\_DELETE\_CHILD | ADS\_RIGHT\_DS\_DELETE\_CHILD |
+| "LC"                 | SDDL\_LIST\_CHILDREN | ADS\_RIGHT\_ACTRL\_DS\_LIST |
+| "SW"                 | SDDL\_SELF\_WRITE    | ADS\_RIGHT\_DS\_SELF |
+| "LO"                  | SDDL\_LIST\_OBJECT | ADS\_RIGHT\_DS\_LIST\_OBJECT |
+| "DT"                 | SDDL\_DELETE\_TREE | ADS\_RIGHT\_DS\_DELETE\_TREE |
+| "CR"                  | SDDL\_CONTROL\_ACCESS | ADS\_RIGHT\_DS\_CONTROL\_ACCESS |
+
+### File access rights
+
+| Access rights string | Constant in Sddl.h | Access right value |
+|----------------------|--------------------|--------------------|
+| "FA"                 | SDDL\_FILE\_ALL    | FILE\_ALL\_ACCESS   |
+| "FR"                 | SDDL\_FILE\_READ   | FILE\_GENERIC\_READ |
+| "FW"                 | SDDL\_FILE\_WRITE  | FILE\_GENERIC\_WRITE |
+| "FX"                 | SDDL\_FILE\_EXECUTE | FILE\_GENERIC\_EXECUTE |
+
+
+### Registry key access rights
+
+| Access rights string | Constant in Sddl.h | Access right value |
+|----------------------|--------------------|--------------------|
+| "KA"                 | SDDL\_KEY\_ALL     | KEY\_ALL\_ACCESS   |
+| "KR"                 | SDDL\_KEY\_READ    | KEY\_READ          |
+| "KW"                 | SDDL\_KEY\_WRITE   | KEY\_WRITE         |
+| "KX"                 | SDDL\_KEY\_EXECUTE | KEY\_EXECUTE       |
+
+### Mandatory label rights
+
+| Access rights string | Constant in Sddl.h | Access right value |
+|----------------------|--------------------|--------------------|
+| "NR"                 | SDDL\_NO\_READ\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_READ\_UP |
+| "NW"                 | SDDL\_NO\_WRITE\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP |
+| "NX"                 | SDDL\_NO\_EXECUTE\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP |
 </dd> <dt>
 
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**object\_guid**
