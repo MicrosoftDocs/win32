@@ -614,35 +614,35 @@
       href: authentication-functions.md
       items: 
       - name: "AcceptSecurityContext (General)"
-        href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext
+        href: acceptsecuritycontext--general-md
         items: 
         - name: "AcceptSecurityContext (CredSSP)"
-          href: /windows/desktop/api/Sspi/nf-sspi-acceptsecuritycontext
+          href: acceptsecuritycontext--credssp.md
         - name: "AcceptSecurityContext (Digest)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext
+          href: acceptsecuritycontext--digest.md
         - name: "AcceptSecurityContext (Kerberos)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext
+          href: acceptsecuritycontext--digest.md
         - name: "AcceptSecurityContext (Negotiate)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext
+          href: acceptsecuritycontext--negotiate.md
         - name: "AcceptSecurityContext (NTLM)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext
+          href: acceptsecuritycontext--ntlm.md
         - name: "AcceptSecurityContext (Schannel)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext
+          href: acceptsecuritycontext--schannel.md
       - name: "AcquireCredentialsHandle (General)"
-        href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea
+        href: acquirecredentialshandle--general.md
         items: 
         - name: "AcquireCredentialsHandle (CredSSP)"
-          href: /windows/desktop/api/Sspi/nf-sspi-acquirecredentialshandlea
+          href: acquirecredentialshandle--credssp.md
         - name: "AcquireCredentialsHandle (Digest)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea
+          href: acquirecredentialshandle--digest.md
         - name: "AcquireCredentialsHandle (Kerberos)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea
+          href: acquirecredentialshandle--kerberos.md
         - name: "AcquireCredentialsHandle (Negotiate)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea
+          href: acquirecredentialshandle--negotiate.md
         - name: "AcquireCredentialsHandle (NTLM)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlew
+          href: acquirecredentialshandle--ntlm.md
         - name: "AcquireCredentialsHandle (Schannel)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea
+          href: acquirecredentialshandle--schannel.md
       - name: "AddConnectNotify"
         href: /windows/desktop/api/Npapi/nf-npapi-addconnectnotify
       - name: "AddSecurityPackage"
@@ -766,18 +766,18 @@
       - name: "CredWriteDomainCredentials"
         href: /windows/desktop/api/WinCred/nf-wincred-credwritedomaincredentialsa
       - name: "DecryptMessage (General)"
-        href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage
+        href: decryptmessage--general.md
         items: 
         - name: "DecryptMessage (Digest)"
-          href: /windows/desktop/api/Sspi/nf-sspi-decryptmessage
+          href: decryptmessage--digest.md
         - name: "DecryptMessage (Kerberos)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage
+          href: decryptmessage--kerberos.md
         - name: "DecryptMessage (Negotiate)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage
+          href: decryptmessage--negotiate.md
         - name: "DecryptMessage (NTLM)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage
+          href: decryptmessage--ntlm.md
         - name: "DecryptMessage (Schannel)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage
+          href: decryptmessage--schannel.md
       - name: "DeleteConnectedIdentity"
         href: deleteconnectedidentity.md
       - name: "LSA_DELETE_CREDENTIAL"
@@ -793,18 +793,18 @@
       - name: "DuplicateHandle"
         href: https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_duplicate_handle
       - name: "EncryptMessage (General)"
-        href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage
+        href: encryptmessage--general.md
         items: 
         - name: "EncryptMessage (Digest)"
-          href: /windows/desktop/api/Sspi/nf-sspi-encryptmessage
+          href: encryptmessage--digest.md
         - name: "EncryptMessage (Kerberos)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage
+          href: encryptmessage--kerberos.md
         - name: "EncryptMessage (Negotiate)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage
+          href: encryptmessage--negotiate.md
         - name: "EncryptMessage (NTLM)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage
+          href: encryptmessage--ntlm.md
         - name: "EncryptMessage (Schannel)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage
+          href: encryptmessage--schannel.md
       - name: "EnumerateSecurityPackages"
         href: /windows/desktop/api/Sspi/nf-sspi-enumeratesecuritypackagesa
       - name: "LSA_EXPAND_AUTH_DATA_FOR_DOMAIN"
@@ -848,20 +848,20 @@
       - name: "ImportSecurityContext"
         href: /windows/desktop/api/Sspi/nf-sspi-importsecuritycontexta
       - name: "InitializeSecurityContext (General)"
-        href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta
+        href: initializesecuritycontext--general.md
         items: 
         - name: "InitializeSecurityContext (CredSSP)"
-          href: /windows/desktop/api/Sspi/nf-sspi-initializesecuritycontexta
+          href: initializesecuritycontext--credssp.md
         - name: "InitializeSecurityContext (Digest)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta
+          href: initializesecuritycontext--digest.md
         - name: "InitializeSecurityContext (Kerberos)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta
+          href: initializesecuritycontext--kerberos.md
         - name: "InitializeSecurityContext (Negotiate)"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375509(v=vs.85)
+          href: initializesecuritycontext--negotiate.md
         - name: "InitializeSecurityContext (NTLM)"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375512(v=vs.85)
+          href: initializesecuritycontext--ntlm.md
         - name: "InitializeSecurityContext (Schannel)"
-          href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
+          href: initializesecuritycontext--schannel.md
       - name: "InitSecurityInterface"
         href: /windows/desktop/api/Sspi/nf-sspi-initsecurityinterfacea
       - name: "LogonUser"
@@ -1013,20 +1013,20 @@
       - name: "QueryContextAttributesEx"
         href: /windows/desktop/api/Sspi/nf-sspi-querycontextattributesexa
       - name: "QueryContextAttributes (General)"
-        href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa
+        href: querycontextattributes--general.md
         items: 
         - name: "QueryContextAttributes (CredSSP)"
-          href: /windows/desktop/api/Sspi/nf-sspi-querycontextattributesa
+          href: querycontextattributes--credssp.md
         - name: "QueryContextAttributes (Digest)"
-          href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
+          href: querycontextattributes--digest.md
         - name: "QueryContextAttributes (Kerberos)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw
+          href: querycontextattributes--kerberos.md
         - name: "QueryContextAttributes (Negotiate)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa
+          href: querycontextattributes--negotiate.md
         - name: "QueryContextAttributes (NTLM)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw
+          href: querycontextattributes--ntlm.md
         - name: "QueryContextAttributes (Schannel)"
-          href: https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw
+          href: querycontextattributes--schannel.md
       - name: "QueryCredentialsAttributes"
         href: /windows/desktop/api/Sspi/nf-sspi-querycredentialsattributesa
       - name: "QuerySecurityContextToken"
