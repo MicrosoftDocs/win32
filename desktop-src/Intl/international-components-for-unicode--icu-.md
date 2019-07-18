@@ -20,7 +20,7 @@ International Components for Unicode (ICU) is a mature, widely used set of open-
 -   **Regular Expression**: ICU's regular expressions fully support Unicode while providing very competitive performance.
 -   **Bidi**: Support for handling text containing a mixture of left to right (English) and right to left (Arabic or Hebrew) data.
 
-For more information, you can visit the ICU website: <https://site.icu-project.org/>
+For more information, you can visit the ICU website: <http://site.icu-project.org/>
 
 ## Overview
 
@@ -31,7 +31,7 @@ In Windows 10 Creators Update, ICU was integrated into Windows, making the C API
 
  
 
-For documentation on the ICU C APIs, please refer to the official ICU documentation page here: <https://icu-project.org/apiref/icu4c/index.html#Module>
+For documentation on the ICU C APIs, please refer to the official ICU documentation page here: <http://icu-project.org/apiref/icu4c/index.html#Module>
 
 ## Getting Started
 
