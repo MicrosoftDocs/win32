@@ -13,10 +13,7 @@ When using the Schannel SSP, this function encrypts messages by using a [*sessio
 > [!Note]  
 > **EncryptMessage (Schannel)** and [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
- 
-
 ## Syntax
-
 
 ```C++
 SECURITY_STATUS SEC_Entry EncryptMessage(
@@ -27,40 +24,23 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 );
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *phContext* \[in\]
-</dt> <dd>
 
 A handle to the security [*context*](security.c_gly#-security-context-gly) to be used to encrypt the message.
 
-</dd> <dt>
-
 *fQOP* \[in\]
-</dt> <dd>
 
 Package-specific flags that indicate the quality of protection. A [*security package*](security.s_gly#-security-security-package-gly) can use this parameter to enable the selection of cryptographic algorithms.
 
 This parameter can be the following flag.
 
-
-
 | Value                                                                                                                                                                                | Meaning                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl> <dt>**SECQOP\_WRAP\_OOB\_DATA**</dt> </dl> | Send an Schannel alert message. In this case, the *pMessage* parameter must contain a standard two-byte SSL/TLS event code. This value is supported only by the Schannel SSP.<br/> For example, beginning with Windows Vista, the "server hello" message sent by the server during the re-authentication protocol must be encrypted as a TLS alert.<br/> |
 
-
-
- 
-
-</dd> <dt>
-
 *pMessage* \[in, out\]
-</dt> <dd>
 
 A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the structure references one or more [**SecBuffer**](secbuffer.md) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
@@ -68,24 +48,17 @@ The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
 The length of the [**SecBuffer**](secbuffer.md) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
-</dd> <dt>
-
 *MessageSeqNo* \[in\]
-</dt> <dd>
 
 The sequence number that the transport application assigned to the message. If the transport application does not maintain sequence numbers, this parameter must be zero.
 
 When using the Schannel SSP, this parameter must be set to zero. The Schannel SSP does not use sequence numbers.
-
-</dd> </dl>
 
 ## Return value
 
 If the function succeeds, the function returns SEC\_E\_OK.
 
 If the function fails, it returns one of the following error codes.
-
-
 
 | Return code                                                                                                    | Description                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -96,10 +69,6 @@ If the function fails, it returns one of the following error codes.
 | <dl> <dt>**SEC\_E\_INVALID\_HANDLE**</dt> </dl>         | A context handle that is not valid was specified in the *phContext* parameter.<br/>                                                                   |
 | <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>          | No SECBUFFER\_DATA type buffer was found.<br/>                                                                                                        |
 | <dl> <dt>**SEC\_E\_QOP\_NOT\_SUPPORTED**</dt> </dl>     | Neither confidentiality nor [*integrity*](security.i_gly#-security-integrity-gly) are supported by the security context.<br/> |
-
-
-
- 
 
 ## Remarks
 
@@ -112,20 +81,12 @@ When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecB
 > [!Note]  
 > These buffers must be supplied in the order shown.
 
- 
-
-
-
 | Buffer type                | Description                                                                                                         |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------|
 | SECBUFFER\_STREAM\_HEADER  | Used internally. No initialization required.                                                                        |
 | SECBUFFER\_DATA            | Contains the [*plaintext*](security.p_gly#-security-plaintext-gly) message to be encrypted. |
 | SECBUFFER\_STREAM\_TRAILER | Used internally. No initialization required.                                                                        |
 | SECBUFFER\_EMPTY           | Used internally. No initialization required. Size can be zero.                                                      |
-
-
-
- 
 
 When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](secpkgcontext-streamsizes.md) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
 
@@ -135,47 +96,20 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-
-
-|                                     |                                                                                                        |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>Sspi.h (include Security.h)</dt> </dl> |
-| Library<br/>                  | <dl> <dt>Secur32.lib</dt> </dl>                 |
-| DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
-
-
+|                                     |                                |
+|-------------------------------------|--------------------------------|
+| Minimum supported client | Windows XP \[desktop apps only\]          |
+| Minimum supported server | Windows Server 2003 \[desktop apps only\] |
+| Header                   | Sspi.h (include Security.h)               |
+| Library                  | Secur32.lib                               |
+| DLL                      | Secur32.dll                               |
 
 ## See also
 
-<dl> <dt>
-
-[SSPI Functions](authentication-functions.md#sspi-functions)
-</dt> <dt>
-
-[**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md)
-</dt> <dt>
-
-[**DecryptMessage (Schannel)**](decryptmessage--schannel.md)
-</dt> <dt>
-
-[**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md)
-</dt> <dt>
-
-[**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md)
-</dt> <dt>
-
-[**SecBuffer**](secbuffer.md)
-</dt> <dt>
-
-[**SecBufferDesc**](secbufferdesc.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [SSPI Functions](authentication-functions.md#sspi-functions)
+- [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md)
+- [**DecryptMessage (Schannel)**](decryptmessage--schannel.md)
+- [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md)
+- [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md)
+- [**SecBuffer**](secbuffer.md)
+- [**SecBufferDesc**](secbufferdesc.md)

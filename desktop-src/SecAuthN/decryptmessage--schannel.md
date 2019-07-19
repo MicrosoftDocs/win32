@@ -13,10 +13,7 @@ This function is also used with the Schannel [*security support provider*](secur
 > [!Note]  
 > [**EncryptMessage (Schannel)**](encryptmessage--schannel.md) and **DecryptMessage (Schannel)** can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
- 
-
 ## Syntax
-
 
 ```C++
 SECURITY_STATUS SEC_Entry DecryptMessage(
@@ -27,39 +24,25 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 );
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *phContext* \[in\]
-</dt> <dd>
 
 A handle to the [*security context*](security.s_gly#-security-security-context-gly) to be used to decrypt the message.
 
-</dd> <dt>
-
 *pMessage* \[in, out\]
-</dt> <dd>
 
 A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the structure references one or more [**SecBuffer**](secbuffer.md) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 When using the Schannel SSP with contexts that are not connection oriented, on input, the structure must contain four [**SecBuffer**](secbuffer.md) structures. Exactly one buffer must be of type SECBUFFER\_DATA and contain an encrypted message, which is decrypted in place. The remaining buffers are used for output and must be of type SECBUFFER\_EMPTY. For connection-oriented contexts, a SECBUFFER\_DATA type buffer must be supplied, as noted for nonconnection-oriented contexts. Additionally, a second SECBUFFER\_TOKEN type buffer that contains a security token must also be supplied.
 
-</dd> <dt>
-
 *MessageSeqNo* \[in\]
-</dt> <dd>
 
 The sequence number expected by the transport application, if any. If the transport application does not maintain sequence numbers, this parameter must be set to zero.
 
 When using the Schannel SSP, this parameter must be set to zero. The Schannel SSP does not use sequence numbers.
 
-</dd> <dt>
-
 *pfQOP* \[out\]
-</dt> <dd>
 
 A pointer to a variable of type **ULONG** that receives package-specific flags that indicate the quality of protection.
 
@@ -67,16 +50,8 @@ When using the Schannel SSP, this parameter is not used and should be set to **N
 
 This parameter can be the following flag.
 
-
-
 <table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>The message was not encrypted, but a header or trailer was produced.<br/><blockquote>[!Note]<br />
 KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/></td></tr></tbody></table>
-
-
-
- 
-
-</dd> </dl>
 
 ## Return value
 
@@ -84,21 +59,14 @@ If the function verifies that the message was received in the correct sequence, 
 
 If the function fails to decrypt the message, it returns one of the following error codes.
 
-
-
-| Return code                                                                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl> | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) again.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| <dl> <dt>**SEC\_E\_INVALID\_HANDLE**</dt> </dl>     | A context handle that is not valid was specified in the *phContext* parameter. Used with the Schannel SSP.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>      | The buffers are of the wrong type or no buffer of type SECBUFFER\_DATA was found. Used with the Schannel SSP.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| <dl> <dt>**SEC\_E\_MESSAGE\_ALTERED**</dt> </dl>    | The message has been altered. Used with the Schannel SSP.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| <dl> <dt>**SEC\_E\_OUT\_OF\_SEQUENCE**</dt> </dl>   | The message was not received in the correct sequence.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| <dl> <dt>**SEC\_I\_CONTEXT\_EXPIRED**</dt> </dl>    | The message sender has finished using the connection and has initiated a shutdown. For information about initiating or recognizing a shutdown, see [Shutting Down an Schannel Connection](shutting-down-an-schannel-connection.md). Used with the Schannel SSP.<br/>                                                                                                                                                                                                                                                                                                                                        |
-| <dl> <dt>**SEC\_I\_RENEGOTIATE**</dt> </dl>         | The remote party requires a new handshake sequence or the application has just initiated a shutdown. Return to the negotiation loop and call [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md), passing empty input buffers.<br/> Renegotiation is not supported for Schannel kernel mode. The caller should either ignore this return value or shut down the connection. If the value is ignored, either the client or the server might shut down the connection as a result.<br/> |
-
-
-
- 
+| Return code                     | Description                                                                                                    |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------|
+| **SEC\_E\_INVALID\_HANDLE**     | A context handle that is not valid was specified in the *phContext* parameter. Used with the Schannel SSP.     |
+| **SEC\_E\_INVALID\_TOKEN**      | The buffers are of the wrong type or no buffer of type SECBUFFER\_DATA was found. Used with the Schannel SSP.  |
+| **SEC\_E\_MESSAGE\_ALTERED**    | The message has been altered. Used with the Schannel SSP.                                                      |
+| **SEC\_E\_OUT\_OF\_SEQUENCE**   | The message was not received in the correct sequence.                                                          |
+| **SEC\_I\_CONTEXT\_EXPIRED**    | The message sender has finished using the connection and has initiated a shutdown. For information about initiating or recognizing a shutdown, see [Shutting Down an Schannel Connection](shutting-down-an-schannel-connection.md). Used with the Schannel SSP. |
+| **SEC\_I\_RENEGOTIATE**         | The remote party requires a new handshake sequence or the application has just initiated a shutdown. Return to the negotiation loop and call [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md), passing empty input buffers. Renegotiation is not supported for Schannel kernel mode. The caller should either ignore this return value or shut down the connection. If the value is ignored, either the client or the server might shut down the connection as a result. |
 
 ## Remarks
 
@@ -112,38 +80,17 @@ The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the 
 
 ## Requirements
 
-
-
-|                                     |                                                                                                        |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>Sspi.h (include Security.h)</dt> </dl> |
-| Library<br/>                  | <dl> <dt>Secur32.lib</dt> </dl>                 |
-| DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
-
-
+|                          |                                           |
+|--------------------------|-------------------------------------------|
+| Minimum supported client | Windows XP \[desktop apps only\]          |
+| Minimum supported server | Windows Server 2003 \[desktop apps only\] |
+| Header                   | Sspi.h (include Security.h)               |
+| Library                  | Secur32.lib                               |
+| DLL                      | Secur32.dll                               |
 
 ## See also
 
-<dl> <dt>
-
-[SSPI Functions](authentication-functions.md#sspi-functions)
-</dt> <dt>
-
-[**EncryptMessage (Schannel)**](encryptmessage--schannel.md)
-</dt> <dt>
-
-[**SecBuffer**](secbuffer.md)
-</dt> <dt>
-
-[**SecBufferDesc**](secbufferdesc.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [SSPI Functions](authentication-functions.md#sspi-functions)
+- [**EncryptMessage (Schannel)**](encryptmessage--schannel.md)
+- [**SecBuffer**](secbuffer.md)
+- [**SecBufferDesc**](secbufferdesc.md)
