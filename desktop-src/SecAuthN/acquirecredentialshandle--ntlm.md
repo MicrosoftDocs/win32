@@ -17,6 +17,16 @@ The **AcquireCredentialsHandle (NTLM)** function acquires a handle to preexistin
 
 
 ```C++
+SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
+  _In_  SEC_CHAR       *pszPrincipal,
+  _In_  SEC_CHAR       *pszPackage,
+  _In_  ULONG          fCredentialUse,
+  _In_  PLUID          pvLogonID,
+  _In_  PVOID          pAuthData,
+  _In_  SEC_GET_KEY_FN pGetKeyFn,
+  _In_  PVOID          pvGetKeyArgument,
+  _Out_ PCredHandle    phCredential,
+  _Out_ PTimeStamp     ptsExpiry
 );
 ```
 

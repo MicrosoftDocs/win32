@@ -19,10 +19,13 @@ The Digest [*security support provider*](security.s_gly#-security-security-suppo
 
 
 ```C++
+SECURITY_STATUS SEC_ENTRY DecryptMessage(
+  PCtxtHandle    phContext,
+  PSecBufferDesc pMessage,
+  unsigned long  MessageSeqNo,
+  unsigned long  *pfQOP
 );
 ```
-
-
 
 ## Parameters
 

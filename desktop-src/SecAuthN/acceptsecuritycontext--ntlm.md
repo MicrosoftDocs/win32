@@ -12,6 +12,16 @@ The **AcceptSecurityContext (NTLM)** function enables the server component of a 
 
 
 ```C++
+SECURITY_STATUS SEC_Entry AcceptSecurityContext(
+  _In_opt_    PCredHandle    phCredential,
+  _Inout_opt_ PCtxtHandle    phContext,
+  _In_opt_    PSecBufferDesc pInput,
+  _In_        ULONG          fContextReq,
+  _In_        ULONG          TargetDataRep,
+  _Inout_opt_ PCtxtHandle    phNewContext,
+  _Inout_opt_ PSecBufferDesc pOutput,
+  _Out_       PULONG         pfContextAttr,
+  _Out_opt_   PTimeStamp     ptsTimeStamp
 );
 ```
 

@@ -12,6 +12,16 @@ The **AcceptSecurityContext (CredSSP)** function lets the server component of a 
 
 
 ```C++
+SECURITY_STATUS SEC_ENTRY AcceptSecurityContext(
+  _In_opt_    PCredHandle    phCredential,
+  _In_opt_    PCtxtHandle    phContext,
+  _In_opt_    PSecBufferDesc pInput,
+  _In_        unsigned long  fContextReq,
+  _In_        unsigned long  TargetDataRep,
+  _Inout_opt_ PCtxtHandle    phNewContext,
+  _Inout_opt_ PSecBufferDesc pOutput,
+  _Out_       unsigned long  *pfContextAttr,
+  _Out_opt_   PTimeStamp     ptsExpiry
 );
 ```
 

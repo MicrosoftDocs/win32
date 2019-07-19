@@ -17,6 +17,16 @@ The **AcquireCredentialsHandle (Schannel)** function acquires a handle to preexi
 
 
 ```C++
+SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
+  _In_opt_  SEC_CHAR       *pszPrincipal,
+  _In_      SEC_CHAR       *pszPackage,
+  _In_      ULONG          fCredentialUse,
+  _In_opt_  PLUID          pvLogonID,
+  _In_opt_  PVOID          pAuthData,
+  _In_opt_  SEC_GET_KEY_FN pGetKeyFn,
+  _In_opt_  PVOID          pvGetKeyArgument,
+  _Out_     PCredHandle    phCredential,
+  _Out_opt_ PTimeStamp     ptsExpiry
 );
 ```
 

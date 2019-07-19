@@ -17,6 +17,11 @@ The **EncryptMessage (Negotiate)** function encrypts a message to provide [*priv
 
 
 ```C++
+SECURITY_STATUS SEC_Entry EncryptMessage(
+  _In_    PCtxtHandle    phContext,
+  _In_    ULONG          fQOP,
+  _Inout_ PSecBufferDesc pMessage,
+  _In_    ULONG          MessageSeqNo
 );
 ```
 

@@ -14,6 +14,19 @@ Typically, the **InitializeSecurityContext (CredSSP)** function is called in a l
 
 
 ```C++
+SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
+  _In_opt_    PCredHandle    phCredential,
+  _In_opt_    PCtxtHandle    phContext,
+  _In_opt_    SEC_CHAR       *pszTargetName,
+  _In_        unsigned long  fContextReq,
+  _Reserved_  unsigned long  Reserved1,
+  _In_        unsigned long  TargetDataRep,
+  _Inout_opt_ PSecBufferDesc pInput,
+  _In_        unsigned long  Reserved2,
+  _Inout_opt_ PCtxtHandle    phNewContext,
+  _Out_opt_   PSecBufferDesc pOutput,
+  _Out_       unsigned long  *pfContextAttr,
+  _Out_opt_   PTimeStamp     ptsExpiry
 );
 ```
 

@@ -12,15 +12,16 @@ The **DecryptMessage (Kerberos)** function decrypts a message. Some packages do 
 > [**EncryptMessage (Kerberos)**](encryptmessage--kerberos.md) and **DecryptMessage (Kerberos)** can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
-
 ## Syntax
 
-
 ```C++
+SECURITY_STATUS SEC_Entry DecryptMessage(
+  _In_    PCtxtHandle    phContext,
+  _Inout_ PSecBufferDesc pMessage,
+  _In_    ULONG          MessageSeqNo,
+  _Out_   PULONG         pfQOP
 );
 ```
-
-
 
 ## Parameters
 
@@ -55,13 +56,9 @@ A pointer to a variable of type **ULONG** that receives package-specific flags t
 This parameter can be the following flag.
 
 
-
 <table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>The message was not encrypted, but a header or trailer was produced.<br/><blockquote>[!Note]<br />
 KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/></td></tr></tbody></table>
 
-
-
- 
 
 </dd> </dl>
 
@@ -71,16 +68,10 @@ If the function verifies that the message was received in the correct sequence, 
 
 If the function fails to decrypt the message, it returns one of the following error codes.
 
-
-
 | Return code                                                                                                | Description                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl> | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) again.<br/> |
 | <dl> <dt>**SEC\_E\_OUT\_OF\_SEQUENCE**</dt> </dl>   | The message was not received in the correct sequence.<br/>                                                                                                                              |
-
-
-
- 
 
 ## Remarks
 
@@ -102,8 +93,6 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 | Library<br/>                  | <dl> <dt>Secur32.lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 
-
-
 ## See also
 
 <dl> <dt>
@@ -119,11 +108,3 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 
 [**SecBufferDesc**](secbufferdesc.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

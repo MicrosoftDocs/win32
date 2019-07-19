@@ -19,6 +19,11 @@ This function is also used with the Schannel [*security support provider*](secur
 
 
 ```C++
+SECURITY_STATUS SEC_Entry DecryptMessage(
+  _In_    PCtxtHandle    phContext,
+  _Inout_ PSecBufferDesc pMessage,
+  _In_    ULONG          MessageSeqNo,
+  _Out_   PULONG         pfQOP
 );
 ```
 

@@ -17,6 +17,11 @@ The **DecryptMessage (NTLM)** function decrypts a message. Some packages do not 
 
 
 ```C++
+SECURITY_STATUS SEC_Entry DecryptMessage(
+  _In_    PCtxtHandle    phContext,
+  _Inout_ PSecBufferDesc pMessage,
+  _In_    ULONG          MessageSeqNo,
+  _Out_   PULONG         pfQOP
 );
 ```
 

@@ -19,6 +19,11 @@ When using the Schannel SSP, this function encrypts messages by using a [*sessio
 
 
 ```C++
+SECURITY_STATUS SEC_Entry EncryptMessage(
+  _In_    PCtxtHandle    phContext,
+  _In_    ULONG          fQOP,
+  _Inout_ PSecBufferDesc pMessage,
+  _In_    ULONG          MessageSeqNo
 );
 ```
 

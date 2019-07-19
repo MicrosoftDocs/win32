@@ -17,6 +17,16 @@ The **AcquireCredentialsHandle (CredSSP)** function acquires a handle to preexis
 
 
 ```C++
+SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
+  _In_opt_   SEC_CHAR       *pszPrincipal,
+  _In_       SEC_CHAR       *pszPackage,
+  _In_       unsigned long  fCredentialUse,
+  _In_opt_   void           *pvLogonID,
+  _In_opt_   void           *pAuthData,
+  _In_opt_   SEC_GET_KEY_FN pGetKeyFn,
+  _Reserved_ void           *pvGetKeyArgument,
+  _Out_      PCredHandle    phCredential,
+  _Out_opt_  PTimeStamp     ptsExpiry
 );
 ```
 

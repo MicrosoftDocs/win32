@@ -19,6 +19,11 @@ This function is available as a SASL mechanism only.
 
 
 ```C++
+SECURITY_STATUS SEC_ENTRY EncryptMessage(
+  PCtxtHandle    phContext,
+  unsigned long  fQOP,
+  PSecBufferDesc pMessage,
+  unsigned long  MessageSeqNo
 );
 ```
 
