@@ -46,9 +46,9 @@ The first buffer must be of type **SECBUFFER\_TOKEN** and contain the security t
 
 | Value                          | Meaning                                                                                                                                                                                                        |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ASC\_REQ\_ALLOCATE\_MEMORY** | Credential Security Support Provider (CredSSP) will allocate output buffers. When you have finished using the output buffers, free them by calling the [**FreeContextBuffer**](freecontextbuffer.md) function. |
+| **ASC\_REQ\_ALLOCATE\_MEMORY** | Credential Security Support Provider (CredSSP) will allocate output buffers. When you have finished using the output buffers, free them by calling the [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer) function. |
 | **ASC\_REQ\_CONNECTION**       | The security context will not handle formatting messages.                                                                                                                                                      |
-| **ASC\_REQ\_DELEGATE**         | The server is allowed to impersonate the client. Ignore this flag for [*constrained delegation*](security.c_gly#-security-constrained-delegation-gly).                                                         |
+| **ASC\_REQ\_DELEGATE**         | The server is allowed to impersonate the client. Ignore this flag for constrained delegation.                                                         |
 | **ASC\_REQ\_EXTENDED\_ERROR**  | When errors occur, the remote party will be notified.                                                                                                                                                          |
 | **ASC\_REQ\_REPLAY\_DETECT**   | Detect replayed packets.                                                                                                                                                                                       |
 | **ASC\_REQ\_SEQUENCE\_DETECT** | Detect messages received out of sequence.                                                                                                                                                                      |
@@ -98,11 +98,11 @@ This function returns one of the following values.
 | SEC_E_INVALID_TOKEN <br/> 0x80090308L               | The function failed. The token passed to the function is not valid.                                                                                                         |
 | SEC_E_LOGON_DENIED <br/> 0x8009030CL                | The logon failed.                                                                                                                                                           |
 | SEC_E_NO_AUTHENTICATING_AUTHORITY <br/> 0x80090311L | The function failed. No authority could be contacted for authentication. This could be due to the following conditions:<br/><ul><li>The domain name of the authenticating party is incorrect.</li><li>The domain is unavailable.</li><li>The trust relationship has failed. |
-| SEC_E_NO_CREDENTIALS <br/>0x8009030EL               | The function failed. The [*credentials*](security.c_gly#-security-credentials-gly) handle specified in the *phCredential* parameter is not valid.                            |
+| SEC_E_NO_CREDENTIALS <br/>0x8009030EL               | The function failed. The credentials handle specified in the *phCredential* parameter is not valid.                            |
 | SEC_E_OK <br/> 0x00000000L                          | The function succeeded. The security context received from the client was accepted. If the function generated an output token, the token must be sent to the client process. |
 | SEC_E_UNSUPPORTED_FUNCTION <br/> 0x80090302L        | The function failed. The *fContextReq* parameter specified a context attribute flag (ASC_REQ_DELEGATE or ASC_REQ_PROMPT_FOR_CREDS) that was not valid.                       |
-| SEC_I_COMPLETE_AND_CONTINUE <br/> 0x00090314L       | The function succeeded. The server must call [**CompleteAuthToken**](completeauthtoken.md) and pass the output token to the client. The server must then wait for a return token from the client before making another call to [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md). |
-| SEC_I_COMPLETE_NEEDED <br/> 0x00090313L             | The function succeeded. The server must finish building the message from the client before calling [**CompleteAuthToken**](completeauthtoken.md)                             |
+| SEC_I_COMPLETE_AND_CONTINUE <br/> 0x00090314L       | The function succeeded. The server must call [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken) and pass the output token to the client. The server must then wait for a return token from the client before making another call to [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md). |
+| SEC_I_COMPLETE_NEEDED <br/> 0x00090313L             | The function succeeded. The server must finish building the message from the client before calling [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken)                             |
 | SEC_I_CONTINUE_NEEDED <br/> 0x00090312L             | The function succeeded. The server must send the output token to the client and wait for a returned token. The returned token should be passed in *pInput* for another call to [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md).
 
 
@@ -117,9 +117,9 @@ The *fContextReq* and *pfContextAttr* parameters are bitmasks that represent var
 > [!Note]  
 > While the *pfContextAttr* parameter is valid on any successful return, you should examine the flags pertaining to security aspects of the context only on the final successful return. Intermediate returns can set, for example, the ISC\_RET\_ALLOCATED\_MEMORY flag.
 
-The caller is responsible for determining whether the final context attributes are sufficient. For example, if confidentiality (encryption) was requested but could not be established, some applications may choose to shut down the connection immediately. If the security context cannot be established, the server must free the partially created context by calling the [**DeleteSecurityContext**](deletesecuritycontext.md) function. For information about when to call the **DeleteSecurityContext** function, see **DeleteSecurityContext**.
+The caller is responsible for determining whether the final context attributes are sufficient. For example, if confidentiality (encryption) was requested but could not be established, some applications may choose to shut down the connection immediately. If the security context cannot be established, the server must free the partially created context by calling the [**DeleteSecurityContext**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritycontext) function. For information about when to call the **DeleteSecurityContext** function, see **DeleteSecurityContext**.
 
-After the security context has been established, the server application can use the [**QuerySecurityContextToken**](querysecuritycontexttoken.md) function to retrieve a handle to the user account to which the client certificate was mapped. Also, the server can use the [**ImpersonateSecurityContext**](impersonatesecuritycontext.md) function to impersonate the user.
+After the security context has been established, the server application can use the [**QuerySecurityContextToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-querysecuritycontexttoken) function to retrieve a handle to the user account to which the client certificate was mapped. Also, the server can use the [**ImpersonateSecurityContext**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-impersonatesecuritycontext) function to impersonate the user.
 
 ## Requirements
 
@@ -134,5 +134,5 @@ After the security context has been established, the server application can use 
 ## See also
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
-- [**DeleteSecurityContext**](deletesecuritycontext.md)
+- [**DeleteSecurityContext**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritycontext)
 - [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md)

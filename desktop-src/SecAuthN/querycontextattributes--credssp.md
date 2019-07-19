@@ -82,7 +82,7 @@ If the function fails, it can return the following error codes.
 
 The structure pointed to by the *pBuffer* parameter varies depending on the attribute being queried.
 
-While the caller must allocate the *pBuffer* structure itself, the SSP allocates any memory required to hold variable-sized members of the *pBuffer* structure. Memory allocated by the SSP must be freed by calling the [**FreeContextBuffer**](freecontextbuffer.md) function.
+While the caller must allocate the *pBuffer* structure itself, the SSP allocates any memory required to hold variable-sized members of the *pBuffer* structure. Memory allocated by the SSP must be freed by calling the [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer) function.
 
 ## Requirements
 
@@ -109,7 +109,7 @@ While the caller must allocate the *pBuffer* structure itself, the SSP allocates
 [**CERT\_CONTEXT**](security.cert_context)
 </dt> <dt>
 
-[**FreeContextBuffer**](freecontextbuffer.md)
+[**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 </dt> <dt>
 
 [**SecPkgContext\_ClientCreds**](secpkgcontext-clientcreds.md)

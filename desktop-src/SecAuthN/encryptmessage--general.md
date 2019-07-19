@@ -6,7 +6,7 @@ title: 'EncryptMessage (General) function'
 
 # EncryptMessage (General) function
 
-The **EncryptMessage (General)** function encrypts a message to provide [*privacy*](security.p_gly#-security-privacy-gly). **EncryptMessage (General)** allows an application to choose among [*cryptographic algorithms*](security.c_gly#-security-cryptographic-algorithm-gly) supported by the chosen mechanism. The **EncryptMessage (General)** function uses the security context referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](security.h_gly#-security-hash-gly) that can be checked.
+The **EncryptMessage (General)** function encrypts a message to provide [*privacy*](security.p_gly#-security-privacy-gly). **EncryptMessage (General)** allows an application to choose among cryptographic algorithms supported by the chosen mechanism. The **EncryptMessage (General)** function uses the security context referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](security.h_gly#-security-hash-gly) that can be checked.
 
 When using the Digest security support provider (SSP), this function is available as a SASL mechanism only.
 
@@ -34,7 +34,7 @@ For information about using this function with a specific SSP, see the following
 
 *phContext* \[in\]
 
-A handle to the security [*context*](security.c_gly#-security-context-gly) to be used to encrypt the message.
+A handle to the security context to be used to encrypt the message.
 
 *fQOP* \[in\]
 
@@ -79,7 +79,7 @@ If the function fails, it returns one of the following error codes.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC\_E\_BUFFER\_TOO\_SMALL**      | The output buffer is too small. For more information, see Remarks.                                                                                                          |
 | **SEC\_E\_CONTEXT\_EXPIRED**        | The application is referencing a context that has already been closed. A properly written application should not receive this error.                                        |
-| **SEC\_E\_CRYPTO\_SYSTEM\_INVALID** | The [*cipher*](security.c_gly#-security-cipher-gly) chosen for the security context is not supported.                                                                       |
+| **SEC\_E\_CRYPTO\_SYSTEM\_INVALID** | The cipher chosen for the security context is not supported.                                                                       |
 | **SEC\_E\_INSUFFICIENT\_MEMORY**    | There is not enough memory available to complete the requested action.                                                                                                      |
 | **SEC\_E\_INVALID\_HANDLE**         | A context handle that is not valid was specified in the *phContext* parameter.                                                                                              |
 | **SEC\_E\_INVALID\_TOKEN**          | No SECBUFFER\_DATA type buffer was found.                                                                                                                                   |

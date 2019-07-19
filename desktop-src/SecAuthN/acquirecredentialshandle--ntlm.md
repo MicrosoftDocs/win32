@@ -6,7 +6,7 @@ title: 'AcquireCredentialsHandle (NTLM) function'
 
 # AcquireCredentialsHandle (NTLM) function
 
-The **AcquireCredentialsHandle (NTLM)** function acquires a handle to preexisting [*credentials*](security.c_gly#-security-credentials-gly) of a security principal. This handle is required by the [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) and [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
+The **AcquireCredentialsHandle (NTLM)** function acquires a handle to preexisting credentials of a security principal. This handle is required by the [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) and [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
 
 > [!Note]  
 > This is not a "log on to the network" and does not imply gathering of credentials.
@@ -143,7 +143,7 @@ If the function fails, it returns one of the following error codes.
 
 The **AcquireCredentialsHandle (NTLM)** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific security package. This can be the handle to preexisting credentials, or the function can create a new set of credentials and return it. This handle can be used in subsequent calls to the [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) and [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) functions.
 
-In general, **AcquireCredentialsHandle (NTLM)** does not allow a process to obtain a handle to the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](security.p_gly#-security-privilege-gly) has the option of specifying the [*logon identifier*](security.l_gly#-security-logon-identifier-gly) (LUID) of any existing logon session token to get a handle to that session's [*credentials*](security.c_gly#-security-credentials-gly). Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
+In general, **AcquireCredentialsHandle (NTLM)** does not allow a process to obtain a handle to the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](security.p_gly#-security-privilege-gly) has the option of specifying the [*logon identifier*](security.l_gly#-security-logon-identifier-gly) (LUID) of any existing logon session token to get a handle to that session's credentials. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
 
 A package might call the function in *pGetKeyFn* provided by the RPC run-time transport. If the transport does not support the notion of callback to retrieve credentials, this parameter must be **NULL**.
 

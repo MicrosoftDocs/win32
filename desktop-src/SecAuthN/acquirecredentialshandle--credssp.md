@@ -6,7 +6,7 @@ title: 'AcquireCredentialsHandle (CredSSP) function'
 
 # AcquireCredentialsHandle (CredSSP) function
 
-The **AcquireCredentialsHandle (CredSSP)** function acquires a handle to preexisting [*credentials*](security.c_gly#-security-credentials-gly) of a security principal. This handle is required by the [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) and [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
+The **AcquireCredentialsHandle (CredSSP)** function acquires a handle to preexisting credentials of a security principal. This handle is required by the [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) and [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
 
 > [!Note]  
 > This is not a "log on to the network" and does not imply gathering of credentials.
@@ -140,7 +140,7 @@ If the function fails, it returns one of the following error codes.
 
 The **AcquireCredentialsHandle (CredSSP)** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific security package. The function can return the handle to either preexisting credentials or newly created credentials and return it. This handle can be used in subsequent calls to the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) and [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) functions.
 
-In general, **AcquireCredentialsHandle (CredSSP)** does not provide the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](security.p_gly#-security-privilege-gly) can obtain the [*credentials*](security.c_gly#-security-credentials-gly) of an existing logon session by specifying the [*logon identifier*](security.l_gly#-security-logon-identifier-gly) (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
+In general, **AcquireCredentialsHandle (CredSSP)** does not provide the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](security.p_gly#-security-privilege-gly) can obtain the credentials of an existing logon session by specifying the [*logon identifier*](security.l_gly#-security-logon-identifier-gly) (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
 
 A package might call the function in *pGetKeyFn* provided by the RPC run-time transport. If the transport does not support the notion of callback to retrieve credentials, this parameter must be **NULL**.
 

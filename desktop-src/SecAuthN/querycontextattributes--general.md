@@ -6,7 +6,7 @@ title: 'QueryContextAttributes (General) function'
 
 # QueryContextAttributes (General) function
 
-Enables a transport application to query a security package for certain [*attributes*](security.a_gly#-security-attribute-gly) of a security [*context*](security.c_gly#-security-context-gly).
+Enables a transport application to query a security package for certain [*attributes*](security.a_gly#-security-attribute-gly) of a security context.
 
 For information about using this function with a specific security support provider (SSP), see the following topics.
 
@@ -107,9 +107,9 @@ If the function fails, the return value is a nonzero error code.
 
 ## Remarks
 
-The structure pointed to by the *pBuffer* parameter varies depending on the attribute being queried. The caller must allocate the *pBuffer* structure itself, but the SSP allocates any memory required to hold variable sized members of the *pBuffer* structure. Memory allocated by the SSP can be freed by calling the [**FreeContextBuffer**](freecontextbuffer.md) function.
+The structure pointed to by the *pBuffer* parameter varies depending on the attribute being queried. The caller must allocate the *pBuffer* structure itself, but the SSP allocates any memory required to hold variable sized members of the *pBuffer* structure. Memory allocated by the SSP can be freed by calling the [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer) function.
 
-After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONTEXT value has been read, the **hCertStore** member will be set to a handle to a [*certificate store*](security.c_gly#-security-certificate-store-gly) that contains the intermediate certificates, if any. Also, the application is responsible for calling [**CertFreeCertificateContext**](security.certfreecertificatecontext) to release the memory used by the [*certificate context*](security.c_gly#-security-certificate-context-gly).
+After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONTEXT value has been read, the **hCertStore** member will be set to a handle to a certificate store that contains the intermediate certificates, if any. Also, the application is responsible for calling [**CertFreeCertificateContext**](security.certfreecertificatecontext) to release the memory used by the certificate context.
 
 ## Requirements
 
@@ -136,7 +136,7 @@ After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONT
 [**CERT\_CONTEXT**](security.cert_context)
 </dt> <dt>
 
-[**FreeContextBuffer**](freecontextbuffer.md)
+[**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 </dt> <dt>
 
 [**SecPkgContext\_Authority**](secpkgcontext-authority.md)

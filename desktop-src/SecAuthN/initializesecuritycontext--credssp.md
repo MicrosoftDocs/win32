@@ -39,7 +39,7 @@ SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
 *phCredential* \[in, optional\]
 </dt> <dd>
 
-A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md). This handle is used to build the security context. The **InitializeSecurityContext (CredSSP)** function requires at least OUTBOUND credentials.
+A handle to the credentials returned by [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md). This handle is used to build the security context. The **InitializeSecurityContext (CredSSP)** function requires at least OUTBOUND credentials.
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ This parameter can be one or more of the following attributes flags.
 
 | Value                                                                                                                                                                                                                                                                            | Meaning                                                                                                                                                                                                                                                            |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt>**ISC\_REQ\_ALLOCATE\_MEMORY**</dt> <dt>0x100</dt> </dl>                         | The security package allocates output buffers for the caller. When you have finished using the output buffers, free them by calling the [**FreeContextBuffer**](freecontextbuffer.md) function.<br/>                                                        |
+| <span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt>**ISC\_REQ\_ALLOCATE\_MEMORY**</dt> <dt>0x100</dt> </dl>                         | The security package allocates output buffers for the caller. When you have finished using the output buffers, free them by calling the [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer) function.<br/>                                                        |
 | <span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl> <dt>**ISC\_REQ\_CONNECTION**</dt> <dt>0x800</dt> </dl>                                         | The security context will not handle formatting messages.<br/>                                                                                                                                                                                               |
 | <span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl> <dt>**ISC\_REQ\_EXTENDED\_ERROR**</dt> <dt>0x4000</dt> </dl>                           | When errors occur, the remote party will be notified.<br/>                                                                                                                                                                                                   |
 | <span id="ISC_REQ_MANUAL_CRED_VALIDATION"></span><span id="isc_req_manual_cred_validation"></span><dl> <dt>**ISC\_REQ\_MANUAL\_CRED\_VALIDATION**</dt> <dt>0x80000</dt> </dl> | Credential Security Support Provider (CredSSP) must not authenticate the server automatically. This flag is always set when using CredSSP.<br/>                                                                                                              |
@@ -147,7 +147,7 @@ If the **ISC\_REQ\_ALLOCATE\_MEMORY** flag is specified, CredSSP will allocate m
 *pfContextAttr* \[out\]
 </dt> <dd>
 
-A pointer to a set of bit flags that indicate the [*attributes*](security.a_gly#-security-attribute-gly) of the established [*context*](security.c_gly#-security-context-gly). For a description of the various attributes, see [Context Requirements](context-requirements.md).
+A pointer to a set of bit flags that indicate the [*attributes*](security.a_gly#-security-attribute-gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
 
 Flags used for this parameter are prefixed with ISC\_RET, such as **ISC\_RET\_DELEGATE**. For a list of valid values, see the *fContextReq* parameter.
 
@@ -177,10 +177,10 @@ If the function succeeds, it returns one of the following success codes.
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [**SecBuffer**](secbuffer.md) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** specifies the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function.<br/> |
 | <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The security context was successfully initialized. There is no need for another [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) call. If the function returns an output token -- that is, if the **SECBUFFER\_TOKEN** in *pOutput* is of nonzero length -- that token must be sent to the server.<br/>                                                                                                   |
-| <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](completeauthtoken.md) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md).<br/>                                                                                                                                                                                                                                            |
-| <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](completeauthtoken.md) function.<br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md).<br/>                                                                                                                                                                                                                                            |
+| <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken) function.<br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
 | <dl> <dt>**SEC\_I\_CONTINUE\_NEEDED**</dt> </dl>        | The client must send the output token to the server and wait for a return token. The client passes the returned token in another call to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md). The output token can be empty.<br/>                                                                                                                                                                                                                                                              |
-| <dl> <dt>**SEC\_I\_INCOMPLETE\_CREDENTIALS**</dt> </dl> | The server has requested client authentication, but either the supplied credentials do not include a certificate, or the certificate was not issued by a [*certification authority*](security.c_gly#-security-certification-authority-gly) that the server trusts. For more information, see Remarks.<br/>                                                                                                                                                                              |
+| <dl> <dt>**SEC\_I\_INCOMPLETE\_CREDENTIALS**</dt> </dl> | The server has requested client authentication, but either the supplied credentials do not include a certificate, or the certificate was not issued by a certification authority that the server trusts. For more information, see Remarks.<br/>                                                                                                                                                                              |
 
 
 
@@ -214,7 +214,7 @@ If the function fails, the function returns one of the following error codes.
 
 The caller is responsible for determining whether the final context attributes are sufficient. If, for example, confidentiality was requested, but could not be established, some applications may choose to shut down the connection immediately.
 
-If attributes of the security context are not sufficient, the client must free the partially created context by calling the [**DeleteSecurityContext**](deletesecuritycontext.md) function.
+If attributes of the security context are not sufficient, the client must free the partially created context by calling the [**DeleteSecurityContext**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritycontext) function.
 
 The client calls the **InitializeSecurityContext (CredSSP)** function to initialize an outbound context.
 
@@ -237,13 +237,13 @@ The *fContextReq* and *pfContextAttributes* parameters are bitmasks that represe
 
 If the **ISC\_REQ\_USE\_SUPPLIED\_CREDS** flag is set, the security package must look for a **SECBUFFER\_PKG\_PARAMS** buffer type in the *pInput* input buffer. While this is not a generic solution, it allows a strong pairing of security package and application when appropriate.
 
-If **ISC\_REQ\_ALLOCATE\_MEMORY** was specified, the caller must free the memory by calling the [**FreeContextBuffer**](freecontextbuffer.md) function.
+If **ISC\_REQ\_ALLOCATE\_MEMORY** was specified, the caller must free the memory by calling the [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer) function.
 
 For example, the input token could be the challenge from a LAN Manager. In this case, the output token would be the NTLM-encrypted response to the challenge.
 
-The action the client takes depends on the return code from this function. If the return code is **SEC\_E\_OK**, there will be no second **InitializeSecurityContext (CredSSP)** call, and no response from the server is expected. If the return code is **SEC\_I\_CONTINUE\_NEEDED**, the client expects a token in response from the server and passes it in a second call to **InitializeSecurityContext (CredSSP)**. The **SEC\_I\_COMPLETE\_NEEDED** return code indicates that the client must finish building the message and call the [**CompleteAuthToken**](completeauthtoken.md) function. The **SEC\_I\_COMPLETE\_AND\_CONTINUE** code incorporates both of these actions.
+The action the client takes depends on the return code from this function. If the return code is **SEC\_E\_OK**, there will be no second **InitializeSecurityContext (CredSSP)** call, and no response from the server is expected. If the return code is **SEC\_I\_CONTINUE\_NEEDED**, the client expects a token in response from the server and passes it in a second call to **InitializeSecurityContext (CredSSP)**. The **SEC\_I\_COMPLETE\_NEEDED** return code indicates that the client must finish building the message and call the [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken) function. The **SEC\_I\_COMPLETE\_AND\_CONTINUE** code incorporates both of these actions.
 
-If **InitializeSecurityContext (CredSSP)** returns success on the first (or only) call, the caller must eventually call the [**DeleteSecurityContext**](deletesecuritycontext.md) function on the returned handle, even if the call fails on a later leg of the authentication exchange.
+If **InitializeSecurityContext (CredSSP)** returns success on the first (or only) call, the caller must eventually call the [**DeleteSecurityContext**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritycontext) function on the returned handle, even if the call fails on a later leg of the authentication exchange.
 
 The client may call **InitializeSecurityContext (CredSSP)** again after it has completed successfully. This indicates to the security package that a reauthentication is wanted.
 
@@ -280,13 +280,13 @@ After receiving an authentication certificate from a certification authority tha
 [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md)
 </dt> <dt>
 
-[**CompleteAuthToken**](completeauthtoken.md)
+[**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken)
 </dt> <dt>
 
-[**DeleteSecurityContext**](deletesecuritycontext.md)
+[**DeleteSecurityContext**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritycontext)
 </dt> <dt>
 
-[**FreeContextBuffer**](freecontextbuffer.md)
+[**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 </dt> <dt>
 
 [**SecBuffer**](secbuffer.md)
