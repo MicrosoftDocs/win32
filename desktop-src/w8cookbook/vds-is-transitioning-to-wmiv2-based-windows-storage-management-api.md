@@ -22,9 +22,7 @@ For all usages except mirror boot volumes (using a mirror volume to host the ope
 
 You can continue to use DiskPart, DiskRAID, and Disk Management during the deprecation period, but these tools will not work with Storage Spaces or with any other new Windows Management Instrumentation (WMI)-based Windows Storage Management APIs or in-box storage management utilities or clients.
 
-## APIs
-
-| Tools | Storage Subsystems | Basic Disks | Dynamic Disks | Storage Spaces |
+|  | Storage Subsystems | Basic Disks | Dynamic Disks | Storage Spaces |
 | --- | --- | --- | --- | --- |
 | VDS | Yes | Yes | Yes | No |
 | WMI | Yes | Yes | No | Yes |
