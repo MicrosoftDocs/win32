@@ -6,7 +6,7 @@ title: 'QueryContextAttributes (Schannel) function'
 
 # QueryContextAttributes (Schannel) function
 
-The **QueryContextAttributes (Schannel)** function enables a transport application to query the Schannel [*security package*](security.s_gly#-security-security-package-gly) for certain [*attributes*](security.a_gly#-security-attribute-gly) of a security [*context*](security.c_gly#-security-context-gly).
+The **QueryContextAttributes (Schannel)** function enables a transport application to query the Schannel security package for certain [*attributes*](security.a_gly#-security-attribute-gly) of a security [*context*](security.c_gly#-security-context-gly).
 
 ## Syntax
 

@@ -8,12 +8,12 @@ title: 'DecryptMessage (General) function'
 
 The **DecryptMessage (General)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](security.h_gly#-security-hash-gly).
 
-The Digest [*security support provider*](security.s_gly#-security-security-support-provider-gly) (SSP) provides encryption and decryption confidentiality for messages exchanged between client and server as a SASL mechanism only.
+The Digest security support provider (SSP) provides encryption and decryption confidentiality for messages exchanged between client and server as a SASL mechanism only.
 
 This function is also used with the Schannel SSP to signal a request from a message sender for a renegotiation (redo) of the connection attributes or for a shutdown of the connection.
 
 > [!Note]  
-> [**EncryptMessage (General)**](encryptmessage--general.md) and **DecryptMessage (General)** can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (General)**](encryptmessage--general.md) and **DecryptMessage (General)** can be called at the same time from two different threads in a single Security Support Provider Interface (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
  
 
@@ -49,14 +49,14 @@ For information about using this function with a specific SSP, see the following
 *phContext* \[in\]
 </dt> <dd>
 
-A handle to the [*security context*](security.s_gly#-security-security-context-gly) to be used to decrypt the message.
+A handle to the security context to be used to decrypt the message.
 
 </dd> <dt>
 
 *pMessage* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the structure references one or more [**SecBuffer**](secbuffer.md) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. On input, the structure references one or more [**SecBuffer**](secbuffer.md) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 When using the Digest SSP, on input, the structure references one or more [**SecBuffer**](secbuffer.md) structures. One of these must be of type SECBUFFER\_DATA or SECBUFFER\_STREAM, and it must contain the encrypted message.
 
@@ -155,7 +155,7 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 [**SecBuffer**](secbuffer.md)
 </dt> <dt>
 
-[**SecBufferDesc**](secbufferdesc.md)
+[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
 </dt> </dl>
 
  

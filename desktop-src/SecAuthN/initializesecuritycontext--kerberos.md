@@ -6,7 +6,7 @@ title: 'InitializeSecurityContext (Kerberos) function'
 
 # InitializeSecurityContext (Kerberos) function
 
-The **InitializeSecurityContext (Kerberos)** function initiates the client side, outbound [*security context*](security.s_gly#-security-security-context-gly) from a credential handle. The function is used to build a security context between the client application and a remote peer. **InitializeSecurityContext (Kerberos)** returns a token that the client must pass to the remote peer, which the peer in turn submits to the local security implementation through the [**AcceptSecurityContext (Kerberos)**](acceptsecuritycontext--kerberos.md) call. The token generated should be considered opaque by all callers.
+The **InitializeSecurityContext (Kerberos)** function initiates the client side, outbound security context from a credential handle. The function is used to build a security context between the client application and a remote peer. **InitializeSecurityContext (Kerberos)** returns a token that the client must pass to the remote peer, which the peer in turn submits to the local security implementation through the [**AcceptSecurityContext (Kerberos)**](acceptsecuritycontext--kerberos.md) call. The token generated should be considered opaque by all callers.
 
 Typically, the **InitializeSecurityContext (Kerberos)** function is called in a loop until a sufficient security context is established.
 
@@ -39,7 +39,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 *phCredential* \[in, optional\]
 </dt> <dd>
 
-A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (Kerberos)**](acquirecredentialshandle--kerberos.md). This handle is used to build the [*security context*](security.s_gly#-security-security-context-gly). The **InitializeSecurityContext (Kerberos)** function requires at least OUTBOUND credentials.
+A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (Kerberos)**](acquirecredentialshandle--kerberos.md). This handle is used to build the security context. The **InitializeSecurityContext (Kerberos)** function requires at least OUTBOUND credentials.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **I
 *pszTargetName* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated string that indicates the [*service principal name*](security.s_gly#-security-service-principal-name-gly) (SPN) or the [*security context*](security.s_gly#-security-security-context-gly) of the destination server.
+A pointer to a null-terminated string that indicates the service principal name (SPN) or the security context of the destination server.
 
 Use a fully qualified target name because short names are not supported across forests.
 
@@ -67,7 +67,7 @@ Bit flags that indicate requests for the context. Not all packages can support a
 
 
 <table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt> </dl></td><td>The security package allocates output buffers for you. When you have finished using the output buffers, free them by calling the [<strong>FreeContextBuffer</strong>](freecontextbuffer.md) function.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl> <dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt> </dl></td><td>Encrypt messages by using the [<strong>EncryptMessage</strong>](encryptmessage--general.md) function.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl> <dt><strong>ISC_REQ_CONNECTION</strong></dt> </dl></td><td>The security context will not handle formatting messages. This value is the default.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_DELEGATE"></span><span id="isc_req_delegate"></span><dl> <dt><strong>ISC_REQ_DELEGATE</strong></dt> </dl></td><td>The server can use the context to authenticate to other servers as the client. The ISC_REQ_MUTUAL_AUTH flag must be set for this flag to work. Valid for Kerberos. Ignore this flag for [<em>constrained delegation</em>](security.c_gly#-security-constrained-delegation-gly).<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl> <dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt> </dl></td><td>When errors occur, the remote party will be notified.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl> <dt><strong>ISC_REQ_INTEGRITY</strong></dt> </dl></td><td>Sign messages and verify signatures by using the [<strong>EncryptMessage</strong>](encryptmessage--general.md) and [<strong>MakeSignature</strong>](makesignature.md) functions.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl> <dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt> </dl></td><td>The mutual authentication policy of the service will be satisfied.<br/><blockquote>[!Caution]<br />
-This does not necessarily mean that mutual authentication is performed, only that the authentication policy of the service is satisfied. To ensure that mutual authentication is performed, call the [<strong>QueryContextAttributes (Kerberos)</strong>](querycontextattributes--kerberos.md) function.</blockquote><br/></td></tr><tr class="even"><td><span id="ISC_REQ_NO_INTEGRITY"></span><span id="isc_req_no_integrity"></span><dl> <dt><strong>ISC_REQ_NO_INTEGRITY</strong></dt> </dl></td><td>If this flag is set, the <strong>ISC_REQ_INTEGRITY</strong> flag is ignored.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl> <dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt> </dl></td><td>Detect replayed messages that have been encoded by using the [<strong>EncryptMessage</strong>](encryptmessage--general.md) or [<strong>MakeSignature</strong>](makesignature.md) functions.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl> <dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt> </dl></td><td>Detect messages received out of sequence.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl> <dt><strong>ISC_REQ_STREAM</strong></dt> </dl></td><td>Support a stream-oriented connection.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_USE_SESSION_KEY"></span><span id="isc_req_use_session_key"></span><dl> <dt><strong>ISC_REQ_USE_SESSION_KEY</strong></dt> </dl></td><td>A new [<em>session key</em>](security.s_gly#-security-session-key-gly) must be negotiated.<br/></td></tr></tbody></table>
+This does not necessarily mean that mutual authentication is performed, only that the authentication policy of the service is satisfied. To ensure that mutual authentication is performed, call the [<strong>QueryContextAttributes (Kerberos)</strong>](querycontextattributes--kerberos.md) function.</blockquote><br/></td></tr><tr class="even"><td><span id="ISC_REQ_NO_INTEGRITY"></span><span id="isc_req_no_integrity"></span><dl> <dt><strong>ISC_REQ_NO_INTEGRITY</strong></dt> </dl></td><td>If this flag is set, the <strong>ISC_REQ_INTEGRITY</strong> flag is ignored.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl> <dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt> </dl></td><td>Detect replayed messages that have been encoded by using the [<strong>EncryptMessage</strong>](encryptmessage--general.md) or [<strong>MakeSignature</strong>](makesignature.md) functions.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl> <dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt> </dl></td><td>Detect messages received out of sequence.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl> <dt><strong>ISC_REQ_STREAM</strong></dt> </dl></td><td>Support a stream-oriented connection.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_USE_SESSION_KEY"></span><span id="isc_req_use_session_key"></span><dl> <dt><strong>ISC_REQ_USE_SESSION_KEY</strong></dt> </dl></td><td>A new session key must be negotiated.<br/></td></tr></tbody></table>
 
 
 
@@ -96,7 +96,7 @@ The data representation, such as byte ordering, on the target. This parameter ca
 *pInput* \[in, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **I
 *pOutput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure that contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ Do not check for security-related attributes until the final function call retur
 *ptsExpiry* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [**TimeStamp**](timestamp.md) structure that receives the expiration time of the context. We recommend that the [*security package*](security.s_gly#-security-security-package-gly) always return this value in local time. Because this parameter is optional, **NULL** should be passed for short-lived clients.
+A pointer to a [**TimeStamp**](timestamp.md) structure that receives the expiration time of the context. We recommend that the security package always return this value in local time. Because this parameter is optional, **NULL** should be passed for short-lived clients.
 
 </dd> </dl>
 
@@ -152,7 +152,7 @@ If the function succeeds, the function returns one of the following success code
 
 | Return code                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The [*security context*](security.s_gly#-security-security-context-gly) was successfully initialized. There is no need for another [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md) call. If the function returns an output token, that is, if the SECBUFFER\_TOKEN in *pOutput* is of nonzero length, that token must be sent to the server.<br/> |
+| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The security context was successfully initialized. There is no need for another [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md) call. If the function returns an output token, that is, if the SECBUFFER\_TOKEN in *pOutput* is of nonzero length, that token must be sent to the server.<br/> |
 | <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](completeauthtoken.md) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md).<br/>                                                                                                                                  |
 | <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](completeauthtoken.md) function.<br/>                                                                                                                                                                                                                                                                                           |
 | <dl> <dt>**SEC\_I\_CONTINUE\_NEEDED**</dt> </dl>        | The client must send the output token to the server and wait for a return token. The returned token is then passed in another call to [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md). The output token can be empty.<br/>                                                                                                                                                       |
@@ -174,7 +174,7 @@ If the function fails, the function returns one of the following error codes.
 | <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>                | The error is due to a malformed input token, such as a token corrupted in transit, a token of incorrect size, or a token passed into the wrong security package. Passing a token to the wrong package can happen if the client and server did not negotiate the proper security package.<br/> |
 | <dl> <dt>**SEC\_E\_LOGON\_DENIED**</dt> </dl>                 | The logon failed.<br/>                                                                                                                                                                                                                                                                        |
 | <dl> <dt>**SEC\_E\_NO\_AUTHENTICATING\_AUTHORITY**</dt> </dl> | No authority could be contacted for authentication. The domain name of the authenticating party could be wrong, the domain could be unreachable, or there might have been a trust relationship failure.<br/>                                                                                  |
-| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>               | No credentials are available in the [*security package*](security.s_gly#-security-security-package-gly).<br/>                                                                                                                                                  |
+| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>               | No credentials are available in the security package.<br/>                                                                                                                                                  |
 | <dl> <dt>**SEC\_E\_TARGET\_UNKNOWN**</dt> </dl>               | The target was not recognized.<br/>                                                                                                                                                                                                                                                           |
 | <dl> <dt>**SEC\_E\_UNSUPPORTED\_FUNCTION**</dt> </dl>         | A context attribute flag that is not valid (ISC\_REQ\_DELEGATE or ISC\_REQ\_PROMPT\_FOR\_CREDS) was specified in the *fContextReq* parameter.<br/>                                                                                                                                            |
 | <dl> <dt>**SEC\_E\_WRONG\_PRINCIPAL**</dt> </dl>              | The principal that received the authentication request is not the same as the one passed into the *pszTargetName* parameter. This indicates a failure in mutual authentication.<br/>                                                                                                          |
@@ -210,11 +210,11 @@ If the function returns one of the error responses, the server's response is not
 
 If the function returns SEC\_I\_CONTINUE\_NEEDED, SEC\_I\_COMPLETE\_NEEDED, or SEC\_I\_COMPLETE\_AND\_CONTINUE, steps 2 and 3 are repeated.
 
-To initialize a [*security context*](security.s_gly#-security-security-context-gly), more than one call to this function may be required, depending on the underlying authentication mechanism as well as the choices specified in the *fContextReq* parameter.
+To initialize a security context, more than one call to this function may be required, depending on the underlying authentication mechanism as well as the choices specified in the *fContextReq* parameter.
 
 The *fContextReq* and *pfContextAttributes* parameters are bitmasks that represent various context attributes. For a description of the various attributes, see [Context Requirements](context-requirements.md). The *pfContextAttributes* parameter is valid on any successful return, but only on the final successful return should you examine the flags that pertain to security aspects of the context. Intermediate returns can set, for example, the ISC\_RET\_ALLOCATED\_MEMORY flag.
 
-If the ISC\_REQ\_USE\_SUPPLIED\_CREDS flag is set, the [*security package*](security.s_gly#-security-security-package-gly) must look for a SECBUFFER\_PKG\_PARAMS buffer type in the *pInput* input buffer. This is not a generic solution, but it allows for a strong pairing of security package and application when appropriate.
+If the ISC\_REQ\_USE\_SUPPLIED\_CREDS flag is set, the security package must look for a SECBUFFER\_PKG\_PARAMS buffer type in the *pInput* input buffer. This is not a generic solution, but it allows for a strong pairing of security package and application when appropriate.
 
 If ISC\_REQ\_ALLOCATE\_MEMORY was specified, the caller must free the memory by calling the [**FreeContextBuffer**](freecontextbuffer.md) function.
 
@@ -267,7 +267,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 [**SecBuffer**](secbuffer.md)
 </dt> <dt>
 
-[**SecBufferDesc**](secbufferdesc.md)
+[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
 </dt> </dl>
 
  

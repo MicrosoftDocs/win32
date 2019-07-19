@@ -6,7 +6,7 @@ title: 'AcquireCredentialsHandle (NTLM) function'
 
 # AcquireCredentialsHandle (NTLM) function
 
-The **AcquireCredentialsHandle (NTLM)** function acquires a handle to preexisting [*credentials*](security.c_gly#-security-credentials-gly) of a [*security principal*](security.s_gly#-security-security-principal-gly). This handle is required by the [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) and [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
+The **AcquireCredentialsHandle (NTLM)** function acquires a handle to preexisting [*credentials*](security.c_gly#-security-credentials-gly) of a security principal. This handle is required by the [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) and [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
 
 > [!Note]  
 > This is not a "log on to the network" and does not imply gathering of credentials.
@@ -42,7 +42,7 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
 
 > [!Note]  
-> If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose [*security context*](security.s_gly#-security-security-context-gly) it is executing.
+> If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose security context it is executing.
 
  
 
@@ -51,7 +51,7 @@ A pointer to a null-terminated string that specifies the name of the principal w
 *pszPackage* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated string that specifies the name of the [*security package*](security.s_gly#-security-security-package-gly) with which these credentials will be used. This is a security package name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](enumeratesecuritypackages.md) function. After a context is established, [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the security package in use.
+A pointer to a null-terminated string that specifies the name of the security package with which these credentials will be used. This is a security package name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](enumeratesecuritypackages.md) function. After a context is established, [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the security package in use.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ A pointer to a [*locally unique identifier*](security.l_gly#-security-locally-un
 *pAuthData* \[in\]
 </dt> <dd>
 
-A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that [*package*](security.s_gly#-security-security-package-gly) must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](sec-winnt-auth-identity.md) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](rpc.rpcbindingsetauthinfo).
+A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that security package must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](sec-winnt-auth-identity.md) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](rpc.rpcbindingsetauthinfo).
 
 When using the NTLM package, the maximum character lengths for user name, password, and domain are 256, 256, and 15, respectively.
 
@@ -130,7 +130,7 @@ If the function fails, it returns one of the following error codes.
 |-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC\_E\_INSUFFICIENT\_MEMORY**</dt> </dl> | There is not enough memory available to complete the requested action.<br/>                                                                  |
 | <dl> <dt>**SEC\_E\_INTERNAL\_ERROR**</dt> </dl>      | An error occurred that did not map to an SSPI error code.<br/>                                                                               |
-| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>      | No credentials are available in the [*security package*](security.s_gly#-security-security-package-gly).<br/> |
+| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>      | No credentials are available in the security package.<br/> |
 | <dl> <dt>**SEC\_E\_NOT\_OWNER**</dt> </dl>           | The caller of the function does not have the necessary credentials.<br/>                                                                     |
 | <dl> <dt>**SEC\_E\_SECPKG\_NOT\_FOUND**</dt> </dl>   | The requested security package does not exist.<br/>                                                                                          |
 | <dl> <dt>**SEC\_E\_UNKNOWN\_CREDENTIALS**</dt> </dl> | The credentials supplied to the package were not recognized.<br/>                                                                            |
@@ -141,7 +141,7 @@ If the function fails, it returns one of the following error codes.
 
 ## Remarks
 
-The **AcquireCredentialsHandle (NTLM)** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific [*security package*](security.s_gly#-security-security-package-gly). This can be the handle to preexisting credentials, or the function can create a new set of credentials and return it. This handle can be used in subsequent calls to the [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) and [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) functions.
+The **AcquireCredentialsHandle (NTLM)** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific security package. This can be the handle to preexisting credentials, or the function can create a new set of credentials and return it. This handle can be used in subsequent calls to the [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) and [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) functions.
 
 In general, **AcquireCredentialsHandle (NTLM)** does not allow a process to obtain a handle to the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](security.p_gly#-security-privilege-gly) has the option of specifying the [*logon identifier*](security.l_gly#-security-logon-identifier-gly) (LUID) of any existing logon session token to get a handle to that session's [*credentials*](security.c_gly#-security-credentials-gly). Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
 

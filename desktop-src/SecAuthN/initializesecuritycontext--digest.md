@@ -6,7 +6,7 @@ title: 'InitializeSecurityContext (Digest) function'
 
 # InitializeSecurityContext (Digest) function
 
-The **InitializeSecurityContext (Digest)** function initiates the client side, outbound [*security context*](security.s_gly#-security-security-context-gly) from a credential handle. The function is used to build a security context between the client application and a remote peer. **InitializeSecurityContext (Digest)** returns a token that the client must pass to the remote peer, which the peer in turn submits to the local security implementation through the [**AcceptSecurityContext (Digest)**](acceptsecuritycontext--digest.md) call. The token generated should be considered opaque by all callers.
+The **InitializeSecurityContext (Digest)** function initiates the client side, outbound security context from a credential handle. The function is used to build a security context between the client application and a remote peer. **InitializeSecurityContext (Digest)** returns a token that the client must pass to the remote peer, which the peer in turn submits to the local security implementation through the [**AcceptSecurityContext (Digest)**](acceptsecuritycontext--digest.md) call. The token generated should be considered opaque by all callers.
 
 Typically, the **InitializeSecurityContext (Digest)** function is called in a loop until a sufficient security context is established.
 
@@ -39,7 +39,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 *phCredential* \[in, optional\]
 </dt> <dd>
 
-A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (Digest)**](acquirecredentialshandle--digest.md). This handle is used to build the [*security context*](security.s_gly#-security-security-context-gly). The **InitializeSecurityContext (Digest)** function requires at least OUTBOUND credentials.
+A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (Digest)**](acquirecredentialshandle--digest.md). This handle is used to build the security context. The **InitializeSecurityContext (Digest)** function requires at least OUTBOUND credentials.
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ This parameter is not used with Digest. Set it to zero.
 *pInput* \[in, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
 
 For information about buffer configuration, see [Input Buffers for the Digest Challenge Response](input-buffers-for-the-digest-challenge-response.md).
 
@@ -119,7 +119,7 @@ A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **I
 *pOutput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure that contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
 This parameter receives the challenge response that must be sent to the server.
 
@@ -158,7 +158,7 @@ If the function succeeds, the function returns one of the following success code
 
 | Return code                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The [*security context*](security.s_gly#-security-security-context-gly) was successfully initialized. There is no need for another [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest.md) call. If the function returns an output token, that is, if the SECBUFFER\_TOKEN in *pOutput* is of nonzero length, that token must be sent to the server.<br/> |
+| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The security context was successfully initialized. There is no need for another [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest.md) call. If the function returns an output token, that is, if the SECBUFFER\_TOKEN in *pOutput* is of nonzero length, that token must be sent to the server.<br/> |
 | <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](completeauthtoken.md) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest.md).<br/>                                                                                                                                  |
 | <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](completeauthtoken.md) function.<br/>                                                                                                                                                                                                                                                                                       |
 | <dl> <dt>**SEC\_I\_CONTINUE\_NEEDED**</dt> </dl>        | The client must send the output token to the server and wait for a return token. The returned token is then passed in another call to [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest.md). The output token can be empty.<br/>                                                                                                                                                       |
@@ -180,7 +180,7 @@ If the function fails, the function returns one of the following error codes.
 | <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>                | The error is due to a malformed input token, such as a token corrupted in transit, a token of incorrect size, or a token passed into the wrong security package. Passing a token to the wrong package can happen if the client and server did not negotiate the proper security package.<br/> |
 | <dl> <dt>**SEC\_E\_LOGON\_DENIED**</dt> </dl>                 | The logon failed.<br/>                                                                                                                                                                                                                                                                        |
 | <dl> <dt>**SEC\_E\_NO\_AUTHENTICATING\_AUTHORITY**</dt> </dl> | No authority could be contacted for authentication. The domain name of the authenticating party could be wrong, the domain could be unreachable, or there might have been a trust relationship failure.<br/>                                                                                  |
-| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>               | No credentials are available in the [*security package*](security.s_gly#-security-security-package-gly).<br/>                                                                                                                                                  |
+| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>               | No credentials are available in the security package.<br/>                                                                                                                                                  |
 | <dl> <dt>**SEC\_E\_TARGET\_UNKNOWN**</dt> </dl>               | The target was not recognized.<br/>                                                                                                                                                                                                                                                           |
 | <dl> <dt>**SEC\_E\_UNSUPPORTED\_FUNCTION**</dt> </dl>         | A context attribute flag that is not valid (ISC\_REQ\_DELEGATE or ISC\_REQ\_PROMPT\_FOR\_CREDS) was specified in the *fContextReq* parameter.<br/>                                                                                                                                            |
 | <dl> <dt>**SEC\_E\_WRONG\_PRINCIPAL**</dt> </dl>              | The principal that received the authentication request is not the same as the one passed into the *pszTargetName* parameter. This indicates a failure in mutual authentication.<br/>                                                                                                          |
@@ -216,11 +216,11 @@ If the function returns one of the error responses, the server's response is not
 
 If the function returns SEC\_I\_CONTINUE\_NEEDED, SEC\_I\_COMPLETE\_NEEDED, or SEC\_I\_COMPLETE\_AND\_CONTINUE, steps 2 and 3 are repeated.
 
-To initialize a [*security context*](security.s_gly#-security-security-context-gly), more than one call to this function may be required, depending on the underlying authentication mechanism as well as the choices specified in the *fContextReq* parameter.
+To initialize a security context, more than one call to this function may be required, depending on the underlying authentication mechanism as well as the choices specified in the *fContextReq* parameter.
 
 The *fContextReq* and *pfContextAttributes* parameters are bitmasks that represent various context attributes. For a description of the various attributes, see [Context Requirements](context-requirements.md). The *pfContextAttributes* parameter is valid on any successful return, but only on the final successful return should you examine the flags that pertain to security aspects of the context. Intermediate returns can set, for example, the ISC\_RET\_ALLOCATED\_MEMORY flag.
 
-If the ISC\_REQ\_USE\_SUPPLIED\_CREDS flag is set, the [*security package*](security.s_gly#-security-security-package-gly) must look for a SECBUFFER\_PKG\_PARAMS buffer type in the *pInput* input buffer. This is not a generic solution, but it allows for a strong pairing of security package and application when appropriate.
+If the ISC\_REQ\_USE\_SUPPLIED\_CREDS flag is set, the security package must look for a SECBUFFER\_PKG\_PARAMS buffer type in the *pInput* input buffer. This is not a generic solution, but it allows for a strong pairing of security package and application when appropriate.
 
 If ISC\_REQ\_ALLOCATE\_MEMORY was specified, the caller must free the memory by calling the [**FreeContextBuffer**](freecontextbuffer.md) function.
 
@@ -273,7 +273,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 [**SecBuffer**](secbuffer.md)
 </dt> <dt>
 
-[**SecBufferDesc**](secbufferdesc.md)
+[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
 </dt> </dl>
 
  

@@ -6,7 +6,7 @@ title: 'InitializeSecurityContext (CredSSP) function'
 
 # InitializeSecurityContext (CredSSP) function
 
-The **InitializeSecurityContext (CredSSP)** function initiates the client side, outbound [*security context*](security.s_gly#-security-security-context-gly) from a credential handle. The function builds a security context between the client application and a remote peer. **InitializeSecurityContext (CredSSP)** returns a token that the client must pass to the remote peer; the peer in turn submits that token to the local security implementation through the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) call. The token generated should be considered opaque by all callers.
+The **InitializeSecurityContext (CredSSP)** function initiates the client side, outbound security context from a credential handle. The function builds a security context between the client application and a remote peer. **InitializeSecurityContext (CredSSP)** returns a token that the client must pass to the remote peer; the peer in turn submits that token to the local security implementation through the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) call. The token generated should be considered opaque by all callers.
 
 Typically, the **InitializeSecurityContext (CredSSP)** function is called in a loop until a sufficient security context is established.
 
@@ -39,7 +39,7 @@ SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
 *phCredential* \[in, optional\]
 </dt> <dd>
 
-A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md). This handle is used to build the [*security context*](security.s_gly#-security-security-context-gly). The **InitializeSecurityContext (CredSSP)** function requires at least OUTBOUND credentials.
+A handle to the [*credentials*](security.c_gly#-security-credentials-gly) returned by [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md). This handle is used to build the security context. The **InitializeSecurityContext (CredSSP)** function requires at least OUTBOUND credentials.
 
 </dd> <dt>
 
@@ -113,7 +113,7 @@ The data representation, such as byte ordering, on the target. This parameter ca
 *pInput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
 
 On calls to this function after the initial call, there must be two buffers. The first has type **SECBUFFER\_TOKEN** and contains the token received from the server. The second buffer has type **SECBUFFER\_EMPTY**; set both the **pvBuffer** and **cbBuffer** members to zero.
 
@@ -138,9 +138,9 @@ On calls after the first call, pass the handle returned here as the *phContext* 
 *pOutput* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. This structure in turn contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as **SEC\_READWRITE** in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through **ISC\_REQ\_ALLOCATE\_MEMORY**) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. This structure in turn contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as **SEC\_READWRITE** in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through **ISC\_REQ\_ALLOCATE\_MEMORY**) and fill in the address in the buffer descriptor for the security token.
 
-If the **ISC\_REQ\_ALLOCATE\_MEMORY** flag is specified, CredSSP will allocate memory for the buffer and put the appropriate information in the [**SecBufferDesc**](secbufferdesc.md).
+If the **ISC\_REQ\_ALLOCATE\_MEMORY** flag is specified, CredSSP will allocate memory for the buffer and put the appropriate information in the [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea).
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ Do not check for security-related attributes until the final function call retur
 *ptsExpiry* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [**TimeStamp**](timestamp.md) structure that receives the expiration time of the context. It is recommended that the [*security package*](security.s_gly#-security-security-package-gly) always return this value in local time. This parameter is optional and **NULL** should be passed for short-lived clients.
+A pointer to a [**TimeStamp**](timestamp.md) structure that receives the expiration time of the context. It is recommended that the security package always return this value in local time. This parameter is optional and **NULL** should be passed for short-lived clients.
 
 </dd> </dl>
 
@@ -176,7 +176,7 @@ If the function succeeds, it returns one of the following success codes.
 | Return code                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [**SecBuffer**](secbuffer.md) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** specifies the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function.<br/> |
-| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The [*security context*](security.s_gly#-security-security-context-gly) was successfully initialized. There is no need for another [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) call. If the function returns an output token -- that is, if the **SECBUFFER\_TOKEN** in *pOutput* is of nonzero length -- that token must be sent to the server.<br/>                                                                                                   |
+| <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The security context was successfully initialized. There is no need for another [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) call. If the function returns an output token -- that is, if the **SECBUFFER\_TOKEN** in *pOutput* is of nonzero length -- that token must be sent to the server.<br/>                                                                                                   |
 | <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](completeauthtoken.md) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md).<br/>                                                                                                                                                                                                                                            |
 | <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](completeauthtoken.md) function.<br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
 | <dl> <dt>**SEC\_I\_CONTINUE\_NEEDED**</dt> </dl>        | The client must send the output token to the server and wait for a return token. The client passes the returned token in another call to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md). The output token can be empty.<br/>                                                                                                                                                                                                                                                              |
@@ -198,7 +198,7 @@ If the function fails, the function returns one of the following error codes.
 | <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>                | The input token is malformed . Possible causes include a token corrupted in transit, a token of incorrect size, and a token passed into the wrong security package. This last condition can happen if the client and server did not negotiate the proper security package.<br/> |
 | <dl> <dt>**SEC\_E\_LOGON\_DENIED**</dt> </dl>                 | The logon failed.<br/>                                                                                                                                                                                                                                                          |
 | <dl> <dt>**SEC\_E\_NO\_AUTHENTICATING\_AUTHORITY**</dt> </dl> | No authority could be contacted for authentication. The domain name of the authenticating party could be wrong, the domain could be unreachable, or there might have been a trust relationship failure.<br/>                                                                    |
-| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>               | No credentials are available in the [*security package*](security.s_gly#-security-security-package-gly).<br/>                                                                                                                                    |
+| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>               | No credentials are available in the security package.<br/>                                                                                                                                    |
 | <dl> <dt>**SEC\_E\_TARGET\_UNKNOWN**</dt> </dl>               | The target was not recognized.<br/>                                                                                                                                                                                                                                             |
 | <dl> <dt>**SEC\_E\_UNSUPPORTED\_FUNCTION**</dt> </dl>         | The value of the *fContextReq* parameter is not valid. Either a required flag was not specified, or a flag that is not supported by CredSSP was specified.<br/>                                                                                                                 |
 | <dl> <dt>**SEC\_E\_WRONG\_PRINCIPAL**</dt> </dl>              | The principal that received the authentication request is not the same as the one passed into the *pszTargetName* parameter. This error indicates a failure in mutual authentication.<br/>                                                                                      |
@@ -292,7 +292,7 @@ After receiving an authentication certificate from a certification authority tha
 [**SecBuffer**](secbuffer.md)
 </dt> <dt>
 
-[**SecBufferDesc**](secbufferdesc.md)
+[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
 </dt> </dl>
 
  

@@ -6,10 +6,10 @@ title: 'EncryptMessage (Kerberos) function'
 
 # EncryptMessage (Kerberos) function
 
-The **EncryptMessage (Kerberos)** function encrypts a message to provide [*privacy*](security.p_gly#-security-privacy-gly). **EncryptMessage (Kerberos)** allows an application to choose among [*cryptographic algorithms*](security.c_gly#-security-cryptographic-algorithm-gly) supported by the chosen mechanism. The **EncryptMessage (Kerberos)** function uses the [*security context*](security.s_gly#-security-security-context-gly) referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](security.h_gly#-security-hash-gly) that can be checked.
+The **EncryptMessage (Kerberos)** function encrypts a message to provide [*privacy*](security.p_gly#-security-privacy-gly). **EncryptMessage (Kerberos)** allows an application to choose among [*cryptographic algorithms*](security.c_gly#-security-cryptographic-algorithm-gly) supported by the chosen mechanism. The **EncryptMessage (Kerberos)** function uses the security context referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](security.h_gly#-security-hash-gly) that can be checked.
 
 > [!Note]  
-> **EncryptMessage (Kerberos)** and [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) can be called at the same time from two different threads in a single [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> **EncryptMessage (Kerberos)** and [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) can be called at the same time from two different threads in a single Security Support Provider Interface (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ A handle to the security [*context*](security.c_gly#-security-context-gly) to be
 *fQOP* \[in\]
 </dt> <dd>
 
-Package-specific flags that indicate the quality of protection. A [*security package*](security.s_gly#-security-security-package-gly) can use this parameter to enable the selection of cryptographic algorithms.
+Package-specific flags that indicate the quality of protection. A security package can use this parameter to enable the selection of cryptographic algorithms.
 
 This parameter can be the following flag.
 
@@ -48,7 +48,7 @@ KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/><
 *pMessage* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](secbufferdesc.md) structure. On input, the structure references one or more [**SecBuffer**](secbuffer.md) structures that can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. On input, the structure references one or more [**SecBuffer**](secbuffer.md) structures that can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
@@ -79,13 +79,13 @@ If the function fails, it returns one of the following error codes.
 | <dl> <dt>**SEC\_E\_INSUFFICIENT\_MEMORY**</dt> </dl>    | There is not enough memory available to complete the requested action.                                                                                                                                                             |
 | <dl> <dt>**SEC\_E\_INVALID\_HANDLE**</dt> </dl>         | A context handle that is not valid was specified in the *phContext* parameter.                                                                                                                                                     |
 | <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>          | No SECBUFFER\_DATA type buffer was found.                                                                                                                                                                                          |
-| <dl> <dt>**SEC\_E\_QOP\_NOT\_SUPPORTED**</dt> </dl>     | Neither confidentiality nor [*integrity*](security.i_gly#-security-integrity-gly) are supported by the [*security context*](security.s_gly#-security-security-context-gly). |
+| <dl> <dt>**SEC\_E\_QOP\_NOT\_SUPPORTED**</dt> </dl>     | Neither confidentiality nor [*integrity*](security.i_gly#-security-integrity-gly) are supported by the security context. |
 
 ## Remarks
 
-The **EncryptMessage (Kerberos)** function encrypts a message based on the message and the [*session key*](security.s_gly#-security-session-key-gly) from a [*security context*](security.s_gly#-security-security-context-gly).
+The **EncryptMessage (Kerberos)** function encrypts a message based on the message and the session key from a security context.
 
-If the transport application created the security context to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The [*security package*](security.s_gly#-security-security-package-gly) incorporates the sequence number passed down from the transport application.
+If the transport application created the security context to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The security package incorporates the sequence number passed down from the transport application.
 
 > [!Note]  
 > These buffers must be supplied in the order shown.
@@ -133,5 +133,5 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 [**SecBuffer**](secbuffer.md)
 </dt> <dt>
 
-[**SecBufferDesc**](secbufferdesc.md)
+[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
 </dt> </dl>
