@@ -1392,6 +1392,10 @@
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_configuration_flags
           - name: "D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_conversion_support_flags
+          - name: "D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT"
+              href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component
+          - name: "D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS"
+              href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component_flags
           - name: "D3D12_VIDEO_DECODE_STATUS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_status
           - name: "D3D12_VIDEO_DECODE_SUPPORT_FLAGS"
@@ -1535,6 +1539,8 @@
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_conversion_support
           - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_formats
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_histogram
           - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_profiles
           - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT"
@@ -1563,6 +1569,8 @@
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_frame_argument
           - name: "D3D12_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_input_stream_arguments
+          - name: "D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_histogram
           - name: "D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments
           - name: "D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1"

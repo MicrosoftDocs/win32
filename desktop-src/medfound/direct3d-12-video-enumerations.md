@@ -19,6 +19,8 @@ This section contains reference information for the Microsoft Direct3D 12 video
 | [D3D12_VIDEO_DECODE_ARGUMENT_TYPE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_argument_type)  | Specifies the argument type of a D3D12_VIDEO_DECODE_FRAME_ARGUMENT|
 | [D3D12_VIDEO_DECODE_CONFIGURATION_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_configuration_flags)  | Specifies the configuration for video decoding.|
 | [D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_conversion_support_flags)  | Specifies whether a video decode conversion operation is supported.|
+| [D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component)  | Specifies indices for arrays of per component histogram information.|
+| [D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component_flags)  | Flags for indicating a subset of components used with video decode histogram.|
 | [D3D12_VIDEO_DECODE_STATUS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_status)  | Specifes the status of a video decode operation.|
 | [D3D12_VIDEO_DECODE_SUPPORT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_support_flags)  | Specifies whether a video decoding operation is supported.|
 | [D3D12_VIDEO_DECODE_TIER](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_tier)  | Specifies the decoding tier of a hardware video decoder, which determines the required format of application-defined textures and buffers.|
