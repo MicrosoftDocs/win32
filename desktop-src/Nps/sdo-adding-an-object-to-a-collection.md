@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Adding an Object to a Collection
 
-The following code adds a new policy to the IAS policies collection. The variable pClientsCollection points to an [**ISdoCollection**](https://msdn.microsoft.com/library/bb960640) interface for the collection. See [Retrieving a Collection](https://msdn.microsoft.com/library/bb960708) for information on how to retrieve the collection object.
+The following code adds a new policy to the IAS policies collection. The variable pClientsCollection points to an [**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection) interface for the collection. See [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection) for information on how to retrieve the collection object.
 
 
 ```C++
@@ -109,13 +109,13 @@ The following code adds a new policy to the IAS policies collection. The variabl
 [\_bstr\_t](https://go.microsoft.com/fwlink/p/?linkid=83856)
 </dt> <dt>
 
-[**ISdoCollection::Add**](https://msdn.microsoft.com/library/bb960641)
+[**ISdoCollection::Add**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add)
 </dt> <dt>
 
-[**ISdoCollection::IsNameUnique**](https://msdn.microsoft.com/library/bb960644)
+[**ISdoCollection::IsNameUnique**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-isnameunique)
 </dt> <dt>
 
-[Retrieving a Collection](https://msdn.microsoft.com/library/bb960708)
+[Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
 </dt> <dt>
 
 [**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx)

@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalFrame class exposes the following methods.
 ms.assetid: 6E332F8D-1ED8-4C23-9A59-092A16E3A238
 ms.tgt_platform: multiple
 title: CIM_PhysicalFrame Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

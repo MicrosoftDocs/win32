@@ -3,7 +3,7 @@ title: IWTSProtocolShadowConnection Methods
 description: The IWTSProtocolShadowConnection interface exposes the following methods.
 ms.assetid: F26D5401-B7FF-4BD8-9960-9D9B081F339A
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

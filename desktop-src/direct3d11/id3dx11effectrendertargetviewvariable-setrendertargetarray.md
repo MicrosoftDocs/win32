@@ -52,7 +52,7 @@ Set an array of render-target-view interfaces. See [**ID3D11RenderTargetView**](
 *Offset* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based array index to store the first interface.
 
@@ -61,7 +61,7 @@ The zero-based array index to store the first interface.
 *Count* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of elements in the array.
 

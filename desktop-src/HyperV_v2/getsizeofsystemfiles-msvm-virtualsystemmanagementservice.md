@@ -38,7 +38,7 @@ uint32 GetSizeOfSystemFiles(
 *Vssd* \[in\]
 </dt> <dd>
 
-A reference to the [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) instance whose system files size are to be retrieved. This instance may represent either the current instantiation of the virtual machine, or an instance of a virtual machine snapshot.
+A reference to the [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instance whose system files size are to be retrieved. This instance may represent either the current instantiation of the virtual machine, or an instance of a virtual machine snapshot.
 
 </dd> <dt>
 

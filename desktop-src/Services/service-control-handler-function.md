@@ -14,7 +14,7 @@ A service calls the [**RegisterServiceCtrlHandler**](/windows/desktop/api/Winsvc
 
 When the service control handler is invoked, the service must call the [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus) function to report its status to the SCM only if handling the control code causes the service status to change. If handling the control code does not cause the service status to change, it is not necessary to call **SetServiceStatus**.
 
-A service control program can send control requests using the [**ControlService**](/windows/desktop/api/Winsvc/nf-winsvc-controlservice) function. All services must accept and process the **SERVICE\_CONTROL\_INTERROGATE** control code. You can enable or disable acceptance of the other control codes by calling [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus). To receive the **SERVICE\_CONTROL\_DEVICEEVENT** control code, you must call the [**RegisterDeviceNotification**](https://msdn.microsoft.com/library/windows/desktop/aa363431) function. Services can also handle additional user-defined control codes.
+A service control program can send control requests using the [**ControlService**](/windows/desktop/api/Winsvc/nf-winsvc-controlservice) function. All services must accept and process the **SERVICE\_CONTROL\_INTERROGATE** control code. You can enable or disable acceptance of the other control codes by calling [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus). To receive the **SERVICE\_CONTROL\_DEVICEEVENT** control code, you must call the [**RegisterDeviceNotification**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa) function. Services can also handle additional user-defined control codes.
 
 If a service accepts the **SERVICE\_CONTROL\_STOP** control code, it must stop upon receipt, going to either the **SERVICE\_STOP\_PENDING** or **SERVICE\_STOPPED** state. After the SCM sends this control code, it will not send other control codes.
 
@@ -43,7 +43,7 @@ To set the shutdown order of services manually, create a multistring registry va
 
 **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\PreshutdownOrder="Shutdown Order"**
 
-To set the shutdown order of dependent services from your application, use the [**SetProcessShutdownParameters**](https://msdn.microsoft.com/library/windows/desktop/ms686227) function. The SCM uses this function to give its handler 0x1E0 priority. The SCM sends **SERVICE\_CONTROL\_SHUTDOWN** notifications when its control handler is called and waits for the services to exit before returning from its control handler.
+To set the shutdown order of dependent services from your application, use the [**SetProcessShutdownParameters**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters) function. The SCM uses this function to give its handler 0x1E0 priority. The SCM sends **SERVICE\_CONTROL\_SHUTDOWN** notifications when its control handler is called and waits for the services to exit before returning from its control handler.
 
 ## Related topics
 

@@ -146,7 +146,7 @@ These routines work in either compute shaders or pixel shaders. In compute shade
 
 ## Hardware capability
 
-In order to check that the wave operation features are available on any specific hardware, call [**ID3D12Device::CheckFeatureSupport**](https://msdn.microsoft.com/library/windows/desktop/dn788653), noting the description and use of the [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS1**](https://msdn.microsoft.com/library/windows/desktop/mt709115) structure.
+In order to check that the wave operation features are available on any specific hardware, call [**ID3D12Device::CheckFeatureSupport**](https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport), noting the description and use of the [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS1**](https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options1) structure.
 
 ## Related topics
 

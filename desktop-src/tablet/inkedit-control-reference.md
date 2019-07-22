@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The InkEdit control enables you to collect ink, recognize ink, and display ink as text. This control allows you to enable smart forms, which improves the accuracy of text input.
 
-This control is a superset of the [**RichEdit**](https://msdn.microsoft.com/library/windows/desktop/bb774306) control. It extends the **RichEdit** control with the ability to capture, recognize, and display ink.
+This control is a superset of the [**RichEdit**](https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole) control. It extends the **RichEdit** control with the ability to capture, recognize, and display ink.
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 Creating the InkEdit control behind a transparent control (such as a GroupBox with the WS\_EX\_TRANSPARENT property set) will prevent InkEdit from collecting ink.
 

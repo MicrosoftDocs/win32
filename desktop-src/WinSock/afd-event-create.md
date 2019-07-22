@@ -187,7 +187,7 @@ The **AFD\_EVENT\_CREATE** event is traced for a Winsock network operation to cr
 [Control of Winsock Tracing](control-of-winsock-tracing.md)
 </dt> <dt>
 
-[**EVENT\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa363754)
+[**EVENT\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor)
 </dt> <dt>
 
 [Winsock Tracing](winsock-tracing.md)

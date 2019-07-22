@@ -105,7 +105,7 @@ Defines the rendered messages for the event.
 
 ## Remarks
 
-Only events that have been collected using the [Windows Event Collector](https://msdn.microsoft.com/library/bb427443) service will contain this section.
+Only events that have been collected using the [Windows Event Collector](https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector) service will contain this section.
 
 ## Requirements
 

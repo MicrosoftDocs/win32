@@ -3,10 +3,10 @@ UID:
 title: SHIsChildOrSelf function
 author: TimShererWithAquent
 description: Compares whether a window is equal to, a child of, or a descendant of, a second window.
-old-location:
+old-location: 
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 4/10/2019
+ms.date: 04/10/2019
 ms.keywords: IsChild
 ms.topic: function
 req.header: Shlwapi.h
@@ -28,12 +28,12 @@ req.dll: api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 req.irql: 
 topic_type:
 - APIRef
-api_type:
-api_location: 
+api_type: 
+api_location:
 - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name: 
+api_name:
 - SHIsChildOrSelf
-product: 
+product:
 - Windows SDK
 targetos: Windows
 req.typenames: 

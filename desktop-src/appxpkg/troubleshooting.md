@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting packaging, deployment, and query of Windows Store apps
+title: Troubleshooting packaging, deployment, and query of Windows apps
 description: Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 ms.assetid: 38E327C6-0345-4FA6-BCDB-5FA2FCD421FB
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Troubleshooting packaging, deployment, and query of Windows Store apps
+# Troubleshooting packaging, deployment, and query of Windows apps
 
 Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 
@@ -117,7 +117,7 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <tr class="even">
 <td><strong>ERROR_REMOVE_FAILED</strong></td>
 <td>0x80073CFA</td>
-<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more info, see <a href="https://msdn.microsoft.com/library/windows/apps/dn278489"><strong>RemovePackageAsync</strong></a>.<br/></td>
+<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more info, see <a href="https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackageasync"><strong>RemovePackageAsync</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_PACKAGE_</strong><br/> <strong>ALREADY_EXISTS</strong><br/></td>
@@ -144,9 +144,9 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <td>0x80073CFF</td>
 <td>To install this app, you need a developer license or a sideloading-enabled system. <br/> You may get this error if the package doesn't meet one of the following requirements:<br/>
 <ul>
-<li>The app is deployed using F5 in Visual Studio on a computer with a Windows Store developer license.</li>
-<li>The package is signed with a Microsoft signature and deployed as part of Windows or from the Windows Store.</li>
-<li>The package is signed with a trusted signature and installed on a computer with a Windows Store developer license, a domain-joined computer with the AllowAllTrustedApps policy enabled, or a computer with a Windows Sideloading license with the AllowAllTrustedApps policy enabled.</li>
+<li>The app is deployed using F5 in Visual Studio on a computer with a Windows developer license.</li>
+<li>The package is signed with a Microsoft signature and deployed as part of Windows or from the Microsoft Store.</li>
+<li>The package is signed with a trusted signature and installed on a computer with a developer license, a domain-joined computer with the AllowAllTrustedApps policy enabled, or a computer with a Windows Sideloading license with the AllowAllTrustedApps policy enabled.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -162,7 +162,7 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <li>Package deployment is blocked by Application Control Policies.</li>
 <li>Package deployment is blocked by the &quot;Allow deployment operations in special profiles&quot; policy.</li>
 </ul>
-One of the possible reasons is a need for a roaming profile. See <a href="https://msdn.microsoft.com/en-us/library/JJ649079(v=WS.11).aspx">Deploy Roaming User Profiles</a> to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
+One of the possible reasons is a need for a roaming profile. See <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj649079(v=ws.11)">Deploy Roaming User Profiles</a> to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_IN_USE</strong></td>
@@ -182,7 +182,7 @@ One of the possible reasons is a need for a roaming profile. See <a href="https:
 <tr class="odd">
 <td><strong>ERROR_DELETING_EXISTING_</strong><br/> <strong>APPLICATIONDATA_STORE_FAILED</strong><br/></td>
 <td>0x80073D05</td>
-<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the <a href="https://msdn.microsoft.com/en-us/library/Hh441475(v=VS.110).aspx">simulator</a> is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
+<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the <a href="https://docs.microsoft.com/previous-versions/hh441475(v=vs.110)">simulator</a> is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>PACKAGE_DOWNGRADE</strong><br/></td>
@@ -267,17 +267,17 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="odd">
 <td><strong>CERT_E_UNTRUSTEDROOT</strong></td>
 <td>0x800B0109</td>
-<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See <a href="https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx">Signing a package</a>.<br/></td>
+<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See <a href="https://docs.microsoft.com/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>CERT_E_CHAINING</strong></td>
 <td>0x800B010A</td>
-<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See <a href="https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx">Signing a package</a>.<br/></td>
+<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See <a href="https://docs.microsoft.com/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>SIP_CLIENT_DATA</strong> <br/></td>
 <td>0x80080209</td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/bb736434"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
 </tr>
 <tr class="even">
 <td><strong>E_INVALIDARG</strong></td>

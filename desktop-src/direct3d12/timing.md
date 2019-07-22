@@ -42,7 +42,7 @@ Note that GPU and CPU timestamp counters are not necessarily directly related to
 [**ID3D12Object::SetName**](/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setname)
 </dt> <dt>
 
-[**ID3DUserDefinedAnnotation**](https://msdn.microsoft.com/library/windows/desktop/hh446881)
+[**ID3DUserDefinedAnnotation**](https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation)
 </dt> <dt>
 
 [Performance Measurement](performance-measurement.md)

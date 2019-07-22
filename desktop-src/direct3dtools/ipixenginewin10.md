@@ -26,7 +26,7 @@ Determines if the engine is from Windows 10.
 
 ## Members
 
-The **IPixEngineWin10** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface but does not have additional members.
+The **IPixEngineWin10** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Requirements
 

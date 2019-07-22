@@ -21,7 +21,7 @@ Represents the status of the ink analysis operation by describing whether the an
 
 ## Members
 
-The **IAnalysisStatus** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IAnalysisStatus** also has these types of members:
+The **IAnalysisStatus** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisStatus** also has these types of members:
 
 -   [Methods](#methods)
 

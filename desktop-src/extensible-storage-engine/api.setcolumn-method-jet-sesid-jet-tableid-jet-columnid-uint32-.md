@@ -84,7 +84,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.UInt32](https://msdn.microsoft.com/en-us/library/ctys3981)  
+    Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)  
     
     The data to set.
 

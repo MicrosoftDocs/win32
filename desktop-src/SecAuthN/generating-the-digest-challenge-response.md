@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Generating the Digest Challenge Response
 
-After receiving a challenge from the server, the client creates the Digest challenge response by calling the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/en-us/library/Aa375505(v=VS.85).aspx) function. This function generates an MD5 [*hash*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-gly) fingerprint by using information about the requested resource and data from the challenge, and outputs a security token that represents a partial [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly). To complete the authentication, the client must return the token to the server that issued the challenge.
+After receiving a challenge from the server, the client creates the Digest challenge response by calling the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/en-us/library/Aa375505(v=VS.85).aspx) function. This function generates an MD5 [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) fingerprint by using information about the requested resource and data from the challenge, and outputs a security token that represents a partial [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). To complete the authentication, the client must return the token to the server that issued the challenge.
 
-The following table describes the parameters of the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/en-us/library/Aa375505(v=VS.85).aspx) [*function*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-function-gly), and the values to supply when constructing a Digest challenge response.
+The following table describes the parameters of the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/en-us/library/Aa375505(v=VS.85).aspx) [*function*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly), and the values to supply when constructing a Digest challenge response.
 
 
 
@@ -31,7 +31,7 @@ The following table describes the parameters of the [**InitializeSecurityContext
 Context requirements are flags that determine:
 
 -   Whether Microsoft Digest functions as a SASL mechanism or HTTP authentication protocol.
--   The quality of protection supported by the [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) shared by the client and server.
+-   The quality of protection supported by the [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) shared by the client and server.
 
 By default, Microsoft Digest functions as a SASL mechanism.
 

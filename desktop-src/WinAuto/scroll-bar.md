@@ -30,7 +30,7 @@ A scroll bar supports the following [**IAccessible**](/windows/desktop/api/oleac
 
 -   [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction)—The scroll bar object itself and the scroll thumb do not support the **accDoDefaultAction** method.
 
-    For the other scroll bar parts on a vertical scroll bar, [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) calls [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) with the [**WM\_VSCROLL**](https://msdn.microsoft.com/library/windows/desktop/bb787577) message with *wParam* set to the following values.
+    For the other scroll bar parts on a vertical scroll bar, [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) calls [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) with the [**WM\_VSCROLL**](https://docs.microsoft.com/windows/desktop/Controls/wm-vscroll) message with *wParam* set to the following values.
 
     
 
@@ -45,7 +45,7 @@ A scroll bar supports the following [**IAccessible**](/windows/desktop/api/oleac
 
      
 
-    For the other scroll bar parts on a horizontal scroll bar, [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) calls [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) with the [**WM\_HSCROLL**](https://msdn.microsoft.com/library/windows/desktop/bb787575) message with *wParam* set to the following values.
+    For the other scroll bar parts on a horizontal scroll bar, [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) calls [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) with the [**WM\_HSCROLL**](https://docs.microsoft.com/windows/desktop/Controls/wm-hscroll) message with *wParam* set to the following values.
 
     
 

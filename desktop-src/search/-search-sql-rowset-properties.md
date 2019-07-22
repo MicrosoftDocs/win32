@@ -12,7 +12,7 @@ After a result is returned from a query, you can access several properties for t
 
 In addition to the standard OLE-DB rowset properties, Windows Search SQL offers the following four custom properties. The GUID for this property set is {AA6EE6B0E828-11D0-B23E-00AA0047FC01}.
 
-Windows Search supports the standard OLE-DB property DBPROP\_COMMANDTIMEOUT of the [DBPROPSET\_ROWSET](https://msdn.microsoft.com/en-us/library/ms691738.aspx) property set.
+Windows Search supports the standard OLE-DB property DBPROP\_COMMANDTIMEOUT of the [DBPROPSET\_ROWSET](https://docs.microsoft.com/previous-versions//ms691738(v=vs.85)) property set.
 
 
 

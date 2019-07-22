@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Graphics Low-Level Client Support
 
-\[These functions are subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers. For more information, see [Introduction to Display](https://msdn.microsoft.com/en-us/library/ff567753.aspx).\]
+\[These functions are subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers. For more information, see [Introduction to Display](https://docs.microsoft.com/windows-hardware/drivers/display/introduction-to-display--windows-2000-model-).\]
 
 DirectDraw and Direct3D use some kernel-mode routines to communicate with the operating system and the display driver.
 
@@ -157,7 +157,7 @@ This table lists functions that represent kernel-mode entry points, and the user
 [Command and Vertex Buffer Allocation](https://msdn.microsoft.com/library/Ff539490(v=VS.85).aspx)
 </dt> <dt>
 
-[Introduction to Display](https://msdn.microsoft.com/en-us/library/ff567753.aspx)
+[Introduction to Display](https://docs.microsoft.com/windows-hardware/drivers/display/introduction-to-display--windows-2000-model-)
 </dt> </dl>
 
  

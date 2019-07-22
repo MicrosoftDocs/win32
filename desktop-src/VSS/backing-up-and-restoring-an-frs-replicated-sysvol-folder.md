@@ -47,7 +47,7 @@ To determine whether DFSR or FRS is being used on a domain controller that is ru
 
 ## Backing Up a DFSR-Replicated SYSVOL Folder
 
-If the SYSVOL folder is replicated by [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057), the DFSR VSS writer can be used to back it up. For more information about the DFSR VSS writer, see [DFSR Replicated Folders](https://msdn.microsoft.com/library/bb540026).
+If the SYSVOL folder is replicated by [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057), the DFSR VSS writer can be used to back it up. For more information about the DFSR VSS writer, see [DFSR Replicated Folders](https://docs.microsoft.com/previous-versions/windows/desktop/dfsr/dfsr-replicated-folders).
 
 ## Backing Up an FRS-Replicated SYSVOL Folder on a Windows Server 2008 or Windows Server 2003 Domain
 

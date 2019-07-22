@@ -14,8 +14,8 @@ The following topics provide information about using security management. These 
 
 | Topic                                                                        | Description                                                                                                                                                                                                  |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Using LSA Policy](using-lsa-policy.md)                                     | Information about using the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) Policy functions for the management of local security |
-| [Using Password Filters](using-password-filters.md)                         | Information about installing and registering a [*password filter*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-password-filter-gly)                                                               |
+| [Using LSA Policy](using-lsa-policy.md)                                     | Information about using the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) Policy functions for the management of local security |
+| [Using Password Filters](using-password-filters.md)                         | Information about installing and registering a [*password filter*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly)                                                               |
 | [Using Service Security Attachments](using-service-security-attachments.md) | Information about creating attachment components required to support a service-specific configuration in the Security Configuration snap-in                                                                  |
 
 

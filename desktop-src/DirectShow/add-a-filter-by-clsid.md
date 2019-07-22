@@ -50,11 +50,11 @@ done:
 
 
 > [!Note]  
-> This example uses the [SafeRelease](https://msdn.microsoft.com/library/windows/desktop/dd940435) function to release the [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) pointer.
+> This example uses the [SafeRelease](https://docs.microsoft.com/windows/desktop/medfound/saferelease) function to release the [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) pointer.
 
  
 
-The function calls [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the filter, and then calls [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add the filter to the graph. The following code example uses this function to add the [AVI Mux](avi-mux-filter.md) filter to the graph:
+The function calls [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the filter, and then calls [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add the filter to the graph. The following code example uses this function to add the [AVI Mux](avi-mux-filter.md) filter to the graph:
 
 
 ```C++
@@ -69,7 +69,7 @@ if (SUCCEEDED(hr))
 
 
 
-Note that some filters cannot be created with [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615). This is often the case with filters that manage other software components. For example, the [AVI Compressor](avi-compressor-filter.md) filter is a wrapper for video codecs, and the [WDM Video Capture](wdm-video-capture-filter.md) filter is a wrapper for WDM capture drivers. These filters must be created using either the [System Device Enumerator](system-device-enumerator.md) or the [Filter Mapper](filter-mapper.md). For more information, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md).
+Note that some filters cannot be created with [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). This is often the case with filters that manage other software components. For example, the [AVI Compressor](avi-compressor-filter.md) filter is a wrapper for video codecs, and the [WDM Video Capture](wdm-video-capture-filter.md) filter is a wrapper for WDM capture drivers. These filters must be created using either the [System Device Enumerator](system-device-enumerator.md) or the [Filter Mapper](filter-mapper.md). For more information, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md).
 
 ## Related topics
 

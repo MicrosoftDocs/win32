@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The **WM\_DDE\_ACK** message notifies a Dynamic Data Exchange (DDE) application of the receipt and processing of the following messages: [**WM\_DDE\_POKE**](wm-dde-poke.md), [**WM\_DDE\_EXECUTE**](wm-dde-execute.md), [**WM\_DDE\_DATA**](wm-dde-data.md), [**WM\_DDE\_ADVISE**](wm-dde-advise.md), [**WM\_DDE\_UNADVISE**](wm-dde-unadvise.md), [**WM\_DDE\_INITIATE**](wm-dde-initiate.md), or [**WM\_DDE\_REQUEST**](wm-dde-request.md) (in some cases).
 
-To post this message, call the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function with the following parameters.
+To post this message, call the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function with the following parameters.
 
 
 ```C++
@@ -59,7 +59,7 @@ When replying to all other messages, the low-order word specifies a [**DDEACK**]
 
 ### Posting
 
-Except in response to the [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message, the application posts the **WM\_DDE\_ACK** message by calling the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function, not by calling the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function. When responding to **WM\_DDE\_INITIATE**, the application sends the **WM\_DDE\_ACK** message by calling **SendMessage**. In this case, neither the application-name atom nor the topic-name atom should be **NULL** (even if the **WM\_DDE\_INITIATE** message specified **NULL** atoms).
+Except in response to the [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message, the application posts the **WM\_DDE\_ACK** message by calling the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function, not by calling the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) function. When responding to **WM\_DDE\_INITIATE**, the application sends the **WM\_DDE\_ACK** message by calling **SendMessage**. In this case, neither the application-name atom nor the topic-name atom should be **NULL** (even if the **WM\_DDE\_INITIATE** message specified **NULL** atoms).
 
 When acknowledging any message with an accompanying atom, the application posting **WM\_DDE\_ACK** can either reuse the atom that accompanied the original message, or it can delete it and create a new one.
 
@@ -105,13 +105,13 @@ The application that receives a posted **WM\_DDE\_ACK** message must free the *l
 [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam)
 </dt> <dt>
 
-[**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
+[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
 [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-dde-reuseddelparam)
 </dt> <dt>
 
-[**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
+[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**UnpackDDElParam**](/windows/desktop/api/Dde/nf-dde-unpackddelparam)

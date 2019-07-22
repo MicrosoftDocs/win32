@@ -33,7 +33,7 @@ Defines an 8-byte hexadecimal type.
 
 ## Patterns
 
-The **HexInt64Type** simple type is a [string](https://msdn.microsoft.com/library/system.string.aspx) that is restricted by the following pattern:
+The **HexInt64Type** simple type is a [string](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that is restricted by the following pattern:
 
 -   `0[xX][0-9A-Fa-f]{1,16}`
 

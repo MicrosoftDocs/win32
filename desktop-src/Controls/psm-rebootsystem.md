@@ -46,7 +46,7 @@ No return value.
 
 An application should send this message only in response to the [PSN\_APPLY](psn-apply.md) or [PSN\_KILLACTIVE](psn-killactive.md) notification message.
 
-This message causes the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function to return the ID\_PSREBOOTSYSTEM value, but only if the user clicks the **OK** button to close the property sheet. It is the application's responsibility to reboot the system, which can be done by using the [**ExitWindowsEx**](https://msdn.microsoft.com/library/windows/desktop/aa376868) function.
+This message causes the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function to return the ID\_PSREBOOTSYSTEM value, but only if the user clicks the **OK** button to close the property sheet. It is the application's responsibility to reboot the system, which can be done by using the [**ExitWindowsEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex) function.
 
 This message supersedes all [**PSM\_RESTARTWINDOWS**](psm-restartwindows.md) messages that precede or follow it.
 

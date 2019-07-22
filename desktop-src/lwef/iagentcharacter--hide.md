@@ -39,7 +39,7 @@ Address of a variable that receives the **Hide** request ID.
 
 The server queues the animation associated with the **Hide** method in the character's queue. This allows you to use it to hide the character after a sequence of other animations. You can play the action immediately by using the [**Stop**](iagentcharacter--stop.md) method before calling the **Hide** method.
 
-When using the HTTP protocol to access character and animation data, use the [**Prepare**](https://msdn.microsoft.com/library/windows/desktop/ms699189) method to ensure the availability of the **Hiding** state animation before calling this method.
+When using the HTTP protocol to access character and animation data, use the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method to ensure the availability of the **Hiding** state animation before calling this method.
 
 Hiding a character can also result in triggering the [**IAgentNotifySink::ActivateInputState**](iagentnotifysink--activateinputstate.md) event of another visible character.
 

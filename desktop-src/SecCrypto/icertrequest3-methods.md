@@ -2,7 +2,7 @@
 Description: The ICertRequest3 interface exposes the following methods.
 ms.assetid: 62636EB3-42EC-41EF-87D3-D21E35C6D494
 title: ICertRequest3 Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

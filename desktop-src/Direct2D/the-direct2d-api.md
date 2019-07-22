@@ -156,7 +156,7 @@ A brush, represented by the [**ID2D1Brush**](https://msdn.microsoft.com/en-us/li
 -   [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) paints an area with a radial gradient that blends two or more colors around an ellipse.
 -   [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) paints an area with a bitmap.
 
-To create a brush, you use one of the [**ID2D1RenderTarget::**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)Create*<Type>*Brush methods, such as [**CreateRadialGradientBrush**](https://msdn.microsoft.com/library/windows/desktop/dd371861). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
+To create a brush, you use one of the [**ID2D1RenderTarget::**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)Create*<Type>*Brush methods, such as [**CreateRadialGradientBrush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
 
 For more information about brushes, see the [Brushes Overview](direct2d-brushes-overview.md).
 
@@ -176,7 +176,7 @@ For more information about geometries, see the [Geometries Overview](direct2d-ge
 
 ### Bitmaps
 
-Direct2D does not provide methods for loading or storing bitmaps; rather, it enables you to create bitmaps using the [Windows Imaging Component (WIC)](https://msdn.microsoft.com/en-us/library/Ee719654(v=VS.85).aspx). Bitmap resources can be loaded using WIC and then used to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/windows/desktop/dd371109) through the [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/en-us/library/Dd371797(v=VS.85).aspx) method.
+Direct2D does not provide methods for loading or storing bitmaps; rather, it enables you to create bitmaps using the [Windows Imaging Component (WIC)](https://msdn.microsoft.com/en-us/library/Ee719654(v=VS.85).aspx). Bitmap resources can be loaded using WIC and then used to create an [**ID2D1Bitmap**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap) through the [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/en-us/library/Dd371797(v=VS.85).aspx) method.
 
 Bitmaps can also be created from in-memory data that was set up through other means. After a bitmap has been created, it can be drawn by the render target [**DrawBitmap**](https://msdn.microsoft.com/en-us/library/Dd371880(v=VS.85).aspx) method or with a bitmap brush.
 
@@ -186,13 +186,13 @@ Because creating bitmap resources on hardware render targets is often an expensi
 
 Direct2D was designed to work with the text operations of the new text API, DirectWrite. To make using the DirectWrite API simpler, render targets provide three methods for rendering DirectWrite text resources: [**DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx), [**DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx), and [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371893(v=VS.85).aspx). Because Direct2D uses the GPU for the ClearType text rendering process, Direct2D provides lower CPU usage than GDI for text operations and better scalability as more GPU processing power is available.
 
-The [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) is designed for the simplest scenarios involving rendering a string of Unicode text with minimal formatting. More complex layout and typographic flexibility is provided through the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx) method, which uses an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) object to specify the content and formatting to be rendered. **IDWriteTextLayout** enables you to specify individual formatting for substrings of text and other advanced typography options.
+The [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) is designed for the simplest scenarios involving rendering a string of Unicode text with minimal formatting. More complex layout and typographic flexibility is provided through the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx) method, which uses an [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) object to specify the content and formatting to be rendered. **IDWriteTextLayout** enables you to specify individual formatting for substrings of text and other advanced typography options.
 
-For scenarios where precise control of glyph-level layout is required, the [**ID2D1RenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371893(v=VS.85).aspx) method can be used in conjunction with the measurement facilities provided by [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038).
+For scenarios where precise control of glyph-level layout is required, the [**ID2D1RenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371893(v=VS.85).aspx) method can be used in conjunction with the measurement facilities provided by [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal).
 
-To use the DirectWrite API, include the dwrite.h header. Like Direct2D, DirectWrite uses a factory, [**IDWriteFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368183) to create text objects. Use the [**DWriteCreateFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368040) function to create a factory, and then use its Create methods to create DirectWrite resources (such as [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx)).
+To use the DirectWrite API, include the dwrite.h header. Like Direct2D, DirectWrite uses a factory, [**IDWriteFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory) to create text objects. Use the [**DWriteCreateFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-dwritecreatefactory) function to create a factory, and then use its Create methods to create DirectWrite resources (such as [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx)).
 
-For more information about DirectWrite, see the [Introducing DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd371554) topic.
+For more information about DirectWrite, see the [Introducing DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/introducing-directwrite) topic.
 
 ## Direct2D Primitives
 
@@ -210,7 +210,7 @@ You do not use a factory or a render target to instantiate Direct2D primitives. 
 [DirectWrite Hello World Sample](https://go.microsoft.com/fwlink/?LinkID=624680)
 </dt> <dt>
 
-[Introducing DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd371554)
+[Introducing DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/introducing-directwrite)
 </dt> <dt>
 
 [Resources Overview](resources-and-resource-domains.md)

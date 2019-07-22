@@ -3,10 +3,10 @@ UID:
 title: JournalPlaybackProc callback function
 author: TimShererWithAquent
 description: Plays back a series of mouse and keyboard messages recorded previously.
-old-location:
+old-location: 
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 4/5/2019 
+ms.date: 04/05/2019
 ms.keywords: 
 ms.topic: function
 req.header: 
@@ -27,12 +27,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
-api_type:
-api_location:
-api_name:
-product: 
- - Windows
+- APIRef
+api_type: 
+api_location: 
+api_name: 
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

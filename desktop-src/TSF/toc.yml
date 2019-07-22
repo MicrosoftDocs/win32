@@ -1068,12 +1068,12 @@
         href: /windows/desktop/api/Msctf/nn-msctf-itfinputprocessorprofilesex
         items: 
         - name: "SetLanguageProfileDisplayName"
-          href: https://msdn.microsoft.com/en-us/library/ms629028(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilesex-setlanguageprofiledisplayname
       - name: "ITfInputProcessorProfileSubstituteLayout"
         href: /windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout
         items: 
         - name: "GetSubstituteKeyboardLayout"
-          href: https://msdn.microsoft.com/en-us/library/ms628540(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilesubstitutelayout-getsubstitutekeyboardlayout
       - name: "ITfInputScope"
         href: /windows/desktop/api/InputScope/nn-inputscope-itfinputscope
         items: 

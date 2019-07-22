@@ -49,10 +49,10 @@ Supports smart card key creation and storage and the following algorithms.
 
 <dl> <dt>
 
-[**CNG Algorithm Identifiers**](https://msdn.microsoft.com/library/windows/desktop/aa375534)
+[**CNG Algorithm Identifiers**](https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers)
 </dt> <dt>
 
-[CNG Key Storage Functions](https://msdn.microsoft.com/library/windows/desktop/aa376208)
+[CNG Key Storage Functions](https://docs.microsoft.com/windows/desktop/SecCNG/cng-key-storage-functions)
 </dt> <dt>
 
 [Understanding Cryptographic Providers](understanding-cryptographic-providers.md)

@@ -3,7 +3,7 @@ title: IWTSPlugin Methods
 description: The IWTSPlugin interface exposes the following methods.
 ms.assetid: 5E70488D-2EC3-4648-8E36-47B15EE2B6C7
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

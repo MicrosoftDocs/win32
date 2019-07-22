@@ -174,9 +174,9 @@
         - name: "Projected File System"
           href: projfs/projected-file-system.md
         - name: "Virtual Storage"
-          href: https://msdn.microsoft.com/en-us/library/windows/desktop/dd323653(v=vs.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/VStor/virtual-storage
         - name: "Virtual Disk Service"
-          href: https://msdn.microsoft.com/en-us/library/bb986750(v=vs.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal
       - name: "Devices"
         items: 
         - name: "Overview"
@@ -298,7 +298,7 @@
             - name: "Where is the DirectX SDK?"
               href: directx-sdk--august-2009-.md
           - name: "Tools for DirectX Graphics"
-            href: https://msdn.microsoft.com/en-us/library/windows/desktop/bb232917(v=vs.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools
           - name: "DirectX Graphics Articles"
             href: direct3darticles/directx-graphics-articles-portal.md
           - name: "XAudio2 APIs"
@@ -332,7 +332,7 @@
         - name: "IP Helper"
           href: iphlp/ip-helper-start-page.md
         - name: "Message Queuing"
-          href: https://msdn.microsoft.com/en-us/library/ms711472(v=vs.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)
         - name: "Network interfaces"
           href: network-interfaces.md
         - name: "Network List Manager"
@@ -350,7 +350,7 @@
         - name: "Simple Network Management Protocol"
           href: snmp/snmp-start-page.md
         - name: "Telephony Application Programming Interfaces"
-          href: https://msdn.microsoft.com/en-us/library/windows/desktop/ms734273(v=vs.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/Tapi/telephony-application-programming-interfaces
         - name: "Teredo"
           href: teredo/portal.md
         - name: "WebSocket Protocol Component API"
@@ -368,7 +368,7 @@
           - name: "Bluetooth"
             href: bluetooth/bluetooth-start-page.md
           - name: "Mobile Broadband"
-            href: https://msdn.microsoft.com/en-us/library/windows/desktop/dd323271(v=vs.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/mbn/mobile-broadband-networks-portal
           - name: "Native Wifi"
             href: nativewifi/portal.md
           - name: "Windows Connect Now"
@@ -427,7 +427,7 @@
               - name: "Overview"
                 href: SrvNodes/active-directory-federation-services.md
               - name: "Active Directory Federation Services Overview"
-                href: https://msdn.microsoft.com/en-us/library/ms674895(v=vs.85).aspx
+                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
         - name: "Extensible Authentication Protocol"
           href: eap/eap-start-page.md
         - name: "Extensible Authentication Protocol Host"
@@ -443,7 +443,7 @@
           - name: "Overview"
             href: SrvNodes/rights-management.md
           - name: "RMS Scenarios, Code and Tools"
-            href: https://msdn.microsoft.com/en-us/library/dn609938(v=vs.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/SrvNodes/rms-code-samples-and-tools
         - name: "Security Management"
           href: secmgmt/management-portal.md
         - name: "Security Glossary"
@@ -500,16 +500,16 @@
         href: 
         items: 
         - name: "File Server Resource Manager Reference"
-          href: https://msdn.microsoft.com/en-us/library/mt740695(v=vs.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt740695(v=vs.85)
       - name: "System Administration"
         href: 
         items: 
         - name: "Group Policy"
           items: 
           - name: "Overview"
-            href: https://msdn.microsoft.com/en-us/library/ee663280(v=vs.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/SrvNodes/group-policy
           - name: "GPMC Class Library Reference"
-            href: https://msdn.microsoft.com/en-us/library/mt739121(v=vs.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/class-library/gpmc-class-library-reference
         - name: "Mobile Device Management Registration"
           href: mdmreg/mobile-device-management-registration-portal.md
         - name: "System Restore"
@@ -523,7 +523,7 @@
         - name: "Windows Management Instrumentation"
           href: wmisdk/wmi-start-page.md
         - name: "Windows Management Infrastructure Managed API"
-          href: https://msdn.microsoft.com/en-us/library/mt738833(v=vs.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
         - name: "WMI Providers"
           href: 
           items: 

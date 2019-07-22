@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_IMECHANGE notification code
 
-Notifies a rich edit control's parent that the IME conversion status has changed. This notification code is available *only* for Asian-language versions of the operating system. A rich edit control sends this notification code in the form of a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
+Notifies a rich edit control's parent that the IME conversion status has changed. This notification code is available *only* for Asian-language versions of the operating system. A rich edit control sends this notification code in the form of a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -37,7 +37,7 @@ EN_IMECHANGE
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) contains the identifier of the rich edit control. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the notification code.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the rich edit control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -80,13 +80,13 @@ To receive EN\_IMECHANGE notification codes, specify [**ENM\_IMECHANGE**](rich-e
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)
+[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
+[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
+[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  

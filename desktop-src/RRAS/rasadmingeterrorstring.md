@@ -77,7 +77,7 @@ If the function fails, the return value is an error code. This value can be a la
 
  
 
-There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+There is no extended error information for this function; do not call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 

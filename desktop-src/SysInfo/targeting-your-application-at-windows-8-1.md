@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 In Windows 8.1 and Windows 10, the [**GetVersion**](https://msdn.microsoft.com/en-us/library/ms724439(v=VS.85).aspx) and [**GetVersionEx**](https://msdn.microsoft.com/en-us/library/ms724451(v=VS.85).aspx) functions have been deprecated. In Windows 10, the [**VerifyVersionInfo**](/windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa) function has also been deprecated. While you can still call the deprecated functions, if your application does not specifically target Windows 8.1 or Windows 10, you will get Windows 8 version (6.2.0.0).
 
 > [!Note]  
-> [**GetVersion**](https://msdn.microsoft.com/en-us/library/ms724439(v=VS.85).aspx), [**GetVersionEx**](https://msdn.microsoft.com/en-us/library/ms724451(v=VS.85).aspx), [**VerifyVersionInfo**](/windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa), and the [Version Helper functions](version-helper-apis.md) are for desktop apps only. Universal Windows apps can use the [**AnalyticsInfo.VersionInfo**](https://msdn.microsoft.com/library/windows/apps/dn960164) property for telemetry and diagnostic logs.
+> [**GetVersion**](https://msdn.microsoft.com/en-us/library/ms724439(v=VS.85).aspx), [**GetVersionEx**](https://msdn.microsoft.com/en-us/library/ms724451(v=VS.85).aspx), [**VerifyVersionInfo**](/windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa), and the [Version Helper functions](version-helper-apis.md) are for desktop apps only. Universal Windows apps can use the [**AnalyticsInfo.VersionInfo**](https://docs.microsoft.com/uwp/api/windows.system.profile.analyticsinfo.versioninfo) property for telemetry and diagnostic logs.
 
  
 

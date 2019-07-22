@@ -450,9 +450,9 @@
         - name: "CWMO_FLAGS"
           href: /windows/desktop/api/combaseapi/ne-combaseapi-cwmo_flags
         - name: "APTTYPE"
-          href: https://msdn.microsoft.com/en-us/library/ms693793(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttype
         - name: "APTTYPEQUALIFIER"
-          href: https://msdn.microsoft.com/en-us/library/Dd542638(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttypequalifier
         - name: "BIND_FLAGS"
           href: /windows/desktop/api/Objidl/ne-objidl-tagbind_flags
         - name: "BINDSPEED"
@@ -468,7 +468,7 @@
         - name: "CALLTYPE"
           href: /windows/desktop/api/Objidl/ne-objidl-tagcalltype
         - name: "CLSCTX"
-          href: https://msdn.microsoft.com/en-us/library/ms693716(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx
         - name: "CO_MARSHALING_CONTEXT_ATTRIBUTES"
           href: /windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes
         - name: "COINIT"
@@ -480,9 +480,9 @@
         - name: "EOC_ChangeType"
           href: /windows/desktop/api/EventSys/ne-eventsys-__midl_ieventobjectchange_0001
         - name: "EOLE_AUTHENTICATION_CAPABILITIES"
-          href: https://msdn.microsoft.com/en-us/library/ms693368(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tageole_authentication_capabilities
         - name: "EXTCONN"
-          href: https://msdn.microsoft.com/en-us/library/ms688747(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagextconn
         - name: "GLOBALOPT_PROPERTIES"
           href: /windows/desktop/api/objidl/ne-objidl-tagglobalopt_properties
         - name: "GLOBALOPT_UNMARSHALING_POLICY_VALUES"
@@ -506,7 +506,7 @@
         - name: "SERVERCALL"
           href: /windows/desktop/api/Objidl/ne-objidl-tagservercall
         - name: "THDTYPE"
-          href: https://msdn.microsoft.com/en-us/library/ms692663(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_thdtype
         - name: "TYSPEC"
           href: /windows/desktop/api/WTypes/ne-wtypes-tagtyspec
       - name: "Interfaces"
@@ -542,7 +542,7 @@
           - name: "SetOwner Method"
             href: /windows/desktop/api/IAccess/nf-iaccess-iaccesscontrol-setowner
         - name: "IAgileObject"
-          href: https://msdn.microsoft.com/en-us/library/Hh802476(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagileobject
         - name: "IBindCtx"
           href: /windows/desktop/api/ObjIdl/nn-objidl-ibindctx
           items: 
@@ -574,10 +574,10 @@
           - name: "Unlock Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-iblockinglock-unlock
         - name: "ICallFactory"
-          href: https://msdn.microsoft.com/en-us/library/ms680133(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icallfactory
           items: 
           - name: "CreateCall Method"
-            href: https://msdn.microsoft.com/en-us/library/ms688577(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icallfactory-createcall
         - name: "ICallFrame"
           href: /windows/desktop/api/Callobj/nn-callobj-icallframe
           items: 
@@ -655,12 +655,12 @@
           - name: "Unmarshal Method"
             href: /windows/desktop/api/Callobj/nf-callobj-icallunmarshal-unmarshal
         - name: "ICancelMethodCalls"
-          href: https://msdn.microsoft.com/en-us/library/ms683860(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls
           items: 
           - name: "Cancel Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680711(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel
           - name: "TestCancel Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680121(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel
         - name: "ICatInformation"
           href: /windows/desktop/api/ComCat/nn-comcat-icatinformation
           items: 
@@ -697,12 +697,12 @@
           - name: "GetClassObject Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-iclassactivator-getclassobject
         - name: "IClassFactory"
-          href: https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory
           items: 
           - name: "CreateInstance Method"
             href: /windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance
           - name: "LockServer Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682332(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/unknwnbase/nf-unknwnbase-iclassfactory-lockserver
         - name: "IClassFactory2"
           href: /windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2
           items: 
@@ -716,22 +716,22 @@
           href: /windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity
           items: 
           - name: "CopyProxy Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682239(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-copyproxy
           - name: "QueryBlanket Method"
-            href: https://msdn.microsoft.com/en-us/library/ms687312(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-queryblanket
           - name: "SetBlanket Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691255(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket
         - name: "IComThreadingInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms694502(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo
           items: 
           - name: "GetCurrentApartmentType Method"
-            href: https://msdn.microsoft.com/en-us/library/ms683752(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype
           - name: "GetCurrentLogicalThreadId Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686649(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentlogicalthreadid
           - name: "GetCurrentThreadType Method"
-            href: https://msdn.microsoft.com/en-us/library/ms688696(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentthreadtype
           - name: "SetCurrentLogicalThreadId Method"
-            href: https://msdn.microsoft.com/en-us/library/ms688459(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-setcurrentlogicalthreadid
         - name: "IConnectionPoint"
           href: /windows/desktop/api/OCIdl/nn-ocidl-iconnectionpoint
           items: 
@@ -753,16 +753,16 @@
           - name: "FindConnectionPoint Method"
             href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint
         - name: "IContext"
-          href: https://msdn.microsoft.com/en-us/library/ms688368(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icontext
           items: 
           - name: "EnumContextProps Method"
-            href: https://msdn.microsoft.com/en-us/library/ms687215(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-enumcontextprops
           - name: "GetProperty Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686640(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-getproperty
           - name: "RemoveProperty Method"
-            href: https://msdn.microsoft.com/en-us/library/ms692440(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-removeproperty
           - name: "SetProperty Method"
-            href: https://msdn.microsoft.com/en-us/library/ms688594(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-setproperty
         - name: "IContextCallback"
           href: /windows/desktop/api/Ctxtcall/nn-ctxtcall-icontextcallback
           items: 
@@ -809,18 +809,18 @@
           - name: "Skip Method"
             href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnections-skip
         - name: "IEnumContextProps"
-          href: https://msdn.microsoft.com/en-us/library/ms683946(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumcontextprops
           items: 
           - name: "Clone Method"
-            href: https://msdn.microsoft.com/en-us/library/ms678511(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumcontextprops-clone
           - name: "Count Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691250(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumcontextprops-count
           - name: "Next Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693386(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumcontextprops-next
           - name: "Reset Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693727(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumcontextprops-reset
           - name: "Skip Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680043(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumcontextprops-skip
         - name: "IEnumGUID"
           href: /windows/desktop/api/ComCat/nn-comcat-ienumguid
           items: 
@@ -833,27 +833,27 @@
           - name: "Skip Method"
             href: /windows/desktop/api/ComCat/nf-comcat-ienumguid-skip
         - name: "IEnumString"
-          href: https://msdn.microsoft.com/en-us/library/ms687257(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring
           items: 
           - name: "Clone Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693436(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-clone
           - name: "Next Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693735(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-next
           - name: "Reset Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686598(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-reset
           - name: "Skip Method"
-            href: https://msdn.microsoft.com/en-us/library/ms688527(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-skip
         - name: "IEnumUnknown"
-          href: https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown
           items: 
           - name: "Clone Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680077(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-clone
           - name: "Next Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693367(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-next
           - name: "Reset Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682515(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-reset
           - name: "Skip Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686588(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-skip
         - name: "IEventProperty"
           href: /windows/desktop/api/EventSys/nn-eventsys-ieventproperty
           items: 
@@ -883,14 +883,14 @@
           - name: "RemoveDefaultProperty Method"
             href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-removedefaultproperty
         - name: "IExternalConnection"
-          href: https://msdn.microsoft.com/en-us/library/ms680082(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iexternalconnection
           items: 
           - name: "AddConnection Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686627(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iexternalconnection-addconnection
           - name: "ReleaseConnection Method"
-            href: https://msdn.microsoft.com/en-us/library/ms687252(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection
         - name: "IFastRundown"
-          href: https://msdn.microsoft.com/en-us/library/Dn280413(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ifastrundown
         - name: "IFileBasedLogInit"
           href: /windows/desktop/api/Txlogpub/nn-txlogpub-ifilebasedloginit
           items: 
@@ -905,18 +905,18 @@
           href: /windows/desktop/api/ObjIdl/nn-objidl-iglobalinterfacetable
           items: 
           - name: "GetInterfaceFromGlobal Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680695(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal
           - name: "RegisterInterfaceInGlobal Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682465(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal
           - name: "RevokeInterfaceFromGlobal Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679756(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal
         - name: "IGlobalOptions"
-          href: https://msdn.microsoft.com/en-us/library/Aa344211(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions
           items: 
           - name: "Query Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa344213(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobaloptions-query
           - name: "Set Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa344202(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobaloptions-set
         - name: "IInitializeSpy"
           href: /windows/desktop/api/ObjIdl/nn-objidl-iinitializespy
           items: 
@@ -929,10 +929,10 @@
           - name: "PreUninitialize Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-iinitializespy-preuninitialize
         - name: "IInternalUnknown"
-          href: https://msdn.microsoft.com/en-us/library/ms693412(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinternalunknown
           items: 
           - name: "QueryInternalInterface Method"
-            href: https://msdn.microsoft.com/en-us/library/ms687261(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinternalunknown-queryinternalinterface
         - name: "ILog"
           href: /windows/desktop/api/Txlogpub/nn-txlogpub-ilog
           items: 
@@ -951,20 +951,20 @@
           - name: "TruncatePrefix Method"
             href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-truncateprefix
         - name: "IMalloc"
-          href: https://msdn.microsoft.com/en-us/library/ms678425(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc
           items: 
           - name: "Alloc Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-imalloc-alloc
           - name: "DidAlloc Method"
-            href: https://msdn.microsoft.com/en-us/library/ms678480(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc
           - name: "Free Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693438(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free
           - name: "GetSize Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691226(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize
           - name: "HeapMinimize Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691430(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize
           - name: "Realloc Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680614(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc
         - name: "IMallocSpy"
           href: /windows/desktop/api/ObjIdl/nn-objidl-imallocspy
           items: 
@@ -993,20 +993,20 @@
           - name: "PreRealloc Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-prerealloc
         - name: "IMarshal"
-          href: https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal
           items: 
           - name: "DisconnectObject Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679720(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject
           - name: "GetMarshalSizeMax Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-imarshal-getmarshalsizemax
           - name: "GetUnmarshalClass Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-imarshal-getunmarshalclass
           - name: "MarshalInterface Method"
-            href: https://msdn.microsoft.com/en-us/library/ms692716(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-marshalinterface
           - name: "ReleaseMarshalData Method"
-            href: https://msdn.microsoft.com/en-us/library/ms692773(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-releasemarshaldata
           - name: "UnmarshalInterface Method"
-            href: https://msdn.microsoft.com/en-us/library/ms683769(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface
         - name: "IMarshalingStream"
           href: /windows/desktop/api/objidl/nn-objidl-imarshalingstream
           items: 
@@ -1060,14 +1060,14 @@
           - name: "RelativePathTo Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-relativepathto
         - name: "IMultiQI"
-          href: https://msdn.microsoft.com/en-us/library/ms683863(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi
           items: 
           - name: "QueryMultipleInterfaces Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680748(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imultiqi-querymultipleinterfaces
         - name: "INoMarshal"
-          href: https://msdn.microsoft.com/en-us/library/Hh802477(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-inomarshal
         - name: "IObjContext"
-          href: https://msdn.microsoft.com/en-us/library/ms690097(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iobjcontext
         - name: "IOleItemContainer"
           href: /windows/desktop/api/OleIdl/nn-oleidl-ioleitemcontainer
           items: 
@@ -1155,31 +1155,31 @@
           - name: "Save Method"
             href: /windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-save
         - name: "IPipeByte"
-          href: https://msdn.microsoft.com/en-us/library/ms693750(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipebyte
           items: 
           - name: "Pull Method"
-            href: https://msdn.microsoft.com/en-us/library/ms678467(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-pull
           - name: "Push Method"
-            href: https://msdn.microsoft.com/en-us/library/ms687228(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-push
         - name: "IPipeDouble"
-          href: https://msdn.microsoft.com/en-us/library/ms680764(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipedouble
           items: 
           - name: "Pull Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680655(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipedouble-pull
           - name: "Push Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682276(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipedouble-push
         - name: "IPipeLong"
-          href: https://msdn.microsoft.com/en-us/library/ms692658(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipelong
           items: 
           - name: "Pull Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680507(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipelong-pull
           - name: "Push Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679693(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipelong-push
         - name: "IProcessInitControl"
-          href: https://msdn.microsoft.com/en-us/library/ms691241(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol
           items: 
           - name: "ResetInitializerTimeout Method"
-            href: https://msdn.microsoft.com/en-us/library/ms678810(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprocessinitcontrol-resetinitializertimeout
         - name: "IProcessLock"
           href: /windows/desktop/api/ObjIdl/nn-objidl-iprocesslock
           items: 
@@ -1210,61 +1210,61 @@
           - name: "GetMultiTypeInfoCount Method"
             href: /windows/desktop/api/OCIdl/nf-ocidl-iprovidemultipleclassinfo-getmultitypeinfocount
         - name: "IPSFactoryBuffer"
-          href: https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer
           items: 
           - name: "CreateProxy Method"
-            href: https://msdn.microsoft.com/en-us/library/ms687217(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createproxy
           - name: "CreateStub Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682216(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub
         - name: "IROTData"
           href: /windows/desktop/api/ObjIdl/nn-objidl-irotdata
           items: 
           - name: "GetComparisonData Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-irotdata-getcomparisondata
         - name: "IRpcChannelBuffer"
-          href: https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer
           items: 
           - name: "FreeBuffer Method"
-            href: https://msdn.microsoft.com/en-us/library/ms692532(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer
           - name: "GetBuffer Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686644(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer
           - name: "GetDestCtx Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680558(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getdestctx
           - name: "IsConnected Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680744(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-isconnected
           - name: "SendReceive Method"
-            href: https://msdn.microsoft.com/en-us/library/ms688468(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive
         - name: "IRpcOptions"
-          href: https://msdn.microsoft.com/en-us/library/ms691210(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcoptions
           items: 
           - name: "Query Method"
-            href: https://msdn.microsoft.com/en-us/library/ms687279(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcoptions-query
           - name: "Set Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691387(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcoptions-set
         - name: "IRpcProxyBuffer"
-          href: https://msdn.microsoft.com/en-us/library/ms693743(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer
           items: 
           - name: "Connect Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679710(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-connect
           - name: "Disconnect Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682386(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-disconnect
         - name: "IRpcStubBuffer"
-          href: https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer
           items: 
           - name: "Connect Method"
-            href: https://msdn.microsoft.com/en-us/library/ms678495(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect
           - name: "CountRefs Method"
-            href: https://msdn.microsoft.com/en-us/library/ms678494(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-countrefs
           - name: "DebugServerQueryInterface Method"
-            href: https://msdn.microsoft.com/en-us/library/ms692801(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface
           - name: "DebugServerRelease Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682436(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverrelease
           - name: "Disconnect Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693478(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-disconnect
           - name: "Invoke Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686653(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-invoke
           - name: "IsIIDSupported Method"
-            href: https://msdn.microsoft.com/en-us/library/ms686601(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-isiidsupported
         - name: "IRunnableObject"
           href: /windows/desktop/api/ObjIdl/nn-objidl-irunnableobject
           items: 
@@ -1296,28 +1296,28 @@
           - name: "Revoke Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-revoke
         - name: "IServerSecurity"
-          href: https://msdn.microsoft.com/en-us/library/ms691215(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity
           items: 
           - name: "ImpersonateClient Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679757(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient
           - name: "IsImpersonating Method"
-            href: https://msdn.microsoft.com/en-us/library/ms694428(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-isimpersonating
           - name: "QueryBlanket Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679722(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket
           - name: "RevertToSelf Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680038(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself
         - name: "IStdMarshalInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms694324(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo
           items: 
           - name: "GetClassForHandler Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691220(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istdmarshalinfo-getclassforhandler
         - name: "ISurrogate"
-          href: https://msdn.microsoft.com/en-us/library/ms695062(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogate
           items: 
           - name: "FreeSurrogate Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693453(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogate-freesurrogate
           - name: "LoadDllServer Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679711(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogate-loaddllserver
         - name: "ISurrogateService"
           href: /windows/desktop/api/ObjIdl/nn-objidl-isurrogateservice
           items: 
@@ -1332,40 +1332,40 @@
           - name: "ProcessShutdown Method"
             href: /windows/desktop/api/ObjIdl/nf-objidl-isurrogateservice-processshutdown
         - name: "ISynchronize"
-          href: https://msdn.microsoft.com/en-us/library/ms680096(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize
           items: 
           - name: "Reset Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680401(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-reset
           - name: "Signal Method"
-            href: https://msdn.microsoft.com/en-us/library/ms692771(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-signal
           - name: "Wait Method"
-            href: https://msdn.microsoft.com/en-us/library/ms679723(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-wait
         - name: "ISynchronizeContainer"
-          href: https://msdn.microsoft.com/en-us/library/ms686572(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer
           items: 
           - name: "AddSynchronize Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691331(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizecontainer-addsynchronize
           - name: "WaitMultiple Method"
-            href: https://msdn.microsoft.com/en-us/library/ms680074(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizecontainer-waitmultiple
         - name: "ISynchronizeEvent"
-          href: https://msdn.microsoft.com/en-us/library/ms691402(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizeevent
           items: 
           - name: "SetEventHandle Method"
-            href: https://msdn.microsoft.com/en-us/library/ms693746(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle
         - name: "ISynchronizeHandle"
-          href: https://msdn.microsoft.com/en-us/library/ms688709(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizehandle
           items: 
           - name: "GetHandle Method"
-            href: https://msdn.microsoft.com/en-us/library/ms688741(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizehandle-gethandle
         - name: "IUnknown"
           href: /windows/desktop/api/Unknwn/nn-unknwn-iunknown
           items: 
           - name: "AddRef Method"
-            href: https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref
           - name: "QueryInterface Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)
           - name: "Release Method"
-            href: https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release
       - name: "Macros"
         href: macros.md
         items: 
@@ -1597,13 +1597,13 @@
         - name: "CONNECTDATA"
           href: /windows/desktop/api/Ocidl/ns-ocidl-tagconnectdata
         - name: "COSERVERINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms687322(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo
         - name: "CSPLATFORM"
           href: /windows/desktop/api/WTypes/ns-wtypes-tagcsplatform
         - name: "INTERFACEINFO"
           href: /windows/desktop/api/Objidl/ns-objidl-taginterfaceinfo
         - name: "MULTI_QI"
-          href: https://msdn.microsoft.com/en-us/library/ms687289(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagmulti_qi
         - name: "ORPC_DBG_ALL"
           href: orpc-dbg-all.md
         - name: "ORPC_DBG_BUFFER"
@@ -1613,15 +1613,15 @@
         - name: "QUERYCONTEXT"
           href: /windows/desktop/api/WTypes/ns-wtypes-tagquerycontext
         - name: "RPCOLEMESSAGE"
-          href: https://msdn.microsoft.com/en-us/library/ms691405(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage
         - name: "SOLE_AUTHENTICATION_INFO"
-          href: https://msdn.microsoft.com/en-us/library/ms680049(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_info
         - name: "SOLE_AUTHENTICATION_LIST"
-          href: https://msdn.microsoft.com/en-us/library/ms680039(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_list
         - name: "SOLE_AUTHENTICATION_SERVICE"
-          href: https://msdn.microsoft.com/en-us/library/ms686648(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_service
         - name: "SOleTlsData"
-          href: https://msdn.microsoft.com/en-us/library/ms690269(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms690269(v=vs.85)
       - name: "Functions"
         href: functions.md
         items: 
@@ -1840,9 +1840,9 @@
         - name: "DllGetClassObject"
           href: /windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject
         - name: "DllRegisterServer"
-          href: https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver
         - name: "DllUnregisterServer"
-          href: https://msdn.microsoft.com/en-us/library/ms691457(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver
         - name: "GetClassFile"
           href: /windows/desktop/api/Objbase/nf-objbase-getclassfile
         - name: "GetRunningObjectTable"
@@ -1850,13 +1850,13 @@
         - name: "IIDFromString"
           href: /windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring
         - name: "Initialize"
-          href: https://msdn.microsoft.com/en-us/library/Hh404185(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-initialize
         - name: "IsAccelerator"
           href: /windows/desktop/api/Ole2/nf-ole2-isaccelerator
         - name: "IsEqualCLSID"
           href: /windows/desktop/api/GuidDef/nf-guiddef-isequalclsid
         - name: "IsEqualGUID"
-          href: https://msdn.microsoft.com/en-us/library/ms680575(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequalguid
         - name: "IsEqualIID"
           href: /windows/desktop/api/GuidDef/nf-guiddef-isequaliid
         - name: "MkParseDisplayName"
@@ -1998,7 +1998,7 @@
         - name: "HITRESULT"
           href: /windows/desktop/api/OCIdl/ne-ocidl-taghitresult
         - name: "OLECLOSE"
-          href: https://msdn.microsoft.com/en-us/library/ms680623(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleclose
         - name: "OLECMDEXECOPT"
           href: /windows/desktop/api/DocObj/ne-docobj-olecmdexecopt
         - name: "OLECMDF"
@@ -2024,7 +2024,7 @@
         - name: "OLEUIPASTEFLAG"
           href: /windows/desktop/api/OleDlg/ne-oledlg-tagoleuipasteflag
         - name: "OLEUPDATE"
-          href: https://msdn.microsoft.com/en-us/library/ms679715(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleupdate
         - name: "OLEVERBATTRIB"
           href: /windows/desktop/api/OleIdl/ne-oleidl-tagoleverbattrib
         - name: "OLEWHICHMK"
@@ -2041,7 +2041,7 @@
         href: functions-odt.md
         items: 
         - name: "CreateDataAdviseHolder"
-          href: https://msdn.microsoft.com/en-us/library/ms690308(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createdataadviseholder
         - name: "CreateDataCache"
           href: /windows/desktop/api/ObjBase/nf-objbase-createdatacache
         - name: "CreateFormatEnumerator"
@@ -3074,7 +3074,7 @@
           - name: "SetRatio Method"
             href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-setratio
         - name: "IFontDisp"
-          href: https://msdn.microsoft.com/en-us/library/ms692695(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifontdisp
         - name: "IOleControl"
           href: /windows/desktop/api/OCIdl/nn-ocidl-iolecontrol
           items: 
@@ -3146,7 +3146,7 @@
           - name: "set_hPal Method"
             href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-set_hpal
         - name: "IPictureDisp"
-          href: https://msdn.microsoft.com/en-us/library/ms680762(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp
         - name: "IPointerInactive"
           href: /windows/desktop/api/OCIdl/nn-ocidl-ipointerinactive
           items: 

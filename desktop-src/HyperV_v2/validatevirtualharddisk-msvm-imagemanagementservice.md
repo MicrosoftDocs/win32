@@ -47,9 +47,9 @@ A fully qualified path that specifies the location of the virtual hard disk file
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808)**
+Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -110,7 +110,7 @@ This method can return one of the following values.
 
 If the virtual hard disk is a differencing disk, the entire virtual disk chain is opened. If the link is broken in the disk chain, a job object is returned with the appropriate error initialized and the child and parent properties are initialized to the location where the link is broken.
 
-Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -164,10 +164,10 @@ public static void ValidateVirtualHardDisk(string vhdPath)
 
 <dl> <dt>
 
-[**ValidateVirtualHardDisk (V1)**](https://msdn.microsoft.com/library/cc136983)
+[**ValidateVirtualHardDisk (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/validatevirtualharddisk-msvm-imagemanagementservice)
 </dt> <dt>
 
-[**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808)
+[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)

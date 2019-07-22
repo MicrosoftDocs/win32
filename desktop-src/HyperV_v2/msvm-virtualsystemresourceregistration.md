@@ -88,7 +88,7 @@ A reference to an instance that describes a resource type supported by the servi
 
 ## Remarks
 
-Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -110,7 +110,7 @@ Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restric
 
 <dl> <dt>
 
-[**Msvm\_VirtualizationComponentRegistration**](https://msdn.microsoft.com/library/windows/desktop/hh850251)
+[**Msvm\_VirtualizationComponentRegistration**](https://docs.microsoft.com/windows/desktop/HyperV_v2/msvm-virtualizationcomponentregistration)
 </dt> <dt>
 
 [**Msvm\_VirtualizationComponentRegistration**](msvm-virtualizationcomponentregistration.md)

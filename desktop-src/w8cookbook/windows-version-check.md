@@ -23,7 +23,7 @@ Some apps perform a version check and simply pass a warning to users. However, t
 -   If the app is dependent on specific API functionality, ensure you target the correct API version.
 -   NTDDI (NT device driver interface) version number will increment only if target functionality in the API changes. Ensure you detect the change via APISet or other exposed API as created by the feature team, and do not use the version as a proxy for some feature or fix. If there are breaking changes and a proper check is not exposed, then that is a bug.
 -   Ensure the app does NOT check for version in odd ways, such as via the registry, file versions, offsets, kernel mode, drivers or other means. If the app absolutely needs to check the version, use the GetVersion APIs, which should return the major, minor and build number.
--   If you are using the GetVersion API or other Version Helper functions such as [VerifyVersionInfo](https://msdn.microsoft.com/library/windows/desktop/ms725492.aspx), remember that the behavior of this API has changed since Windows 8.1. Please refer to [the API documentation](https://msdn.microsoft.com/library/windows/desktop/dn424972.aspx) for more details.
+-   If you are using the GetVersion API or other Version Helper functions such as [VerifyVersionInfo](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa), remember that the behavior of this API has changed since Windows 8.1. Please refer to [the API documentation](https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis) for more details.
 -   If you own apps such as antimalware or firewall, you should work through your usual feedback channels and via the Windows Insider program.
 
 ## App Manifest

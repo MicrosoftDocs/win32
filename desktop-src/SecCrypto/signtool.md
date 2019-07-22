@@ -96,7 +96,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/csp</strong> <em>CSPName</em></td>
-<td>Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>cryptographic service provider</em></a> (CSP) that contains the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>private key</em></a> container.<br/></td>
+<td>Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>cryptographic service provider</em></a> (CSP) that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>private key</em></a> container.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/d</strong> <em>Desc</em></td>
@@ -140,7 +140,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/fd</strong></td>
-<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx"><em>Secure Hash Algorithm</em></a> (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
+<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly"><em>Secure Hash Algorithm</em></a> (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/j</strong> <em>DLL</em></td>
@@ -164,7 +164,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/p</strong> <em>Password</em></td>
-<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see <a href="https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx">Handling Passwords</a>.<br/></td>
+<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/p7</strong> <em>Path</em></td>
@@ -176,7 +176,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/p7co</strong> <em>OID</em></td>
-<td>Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx"><em>object identifier</em></a> (OID) that identifies the signed PKCS #7 content.<br/></td>
+<td>Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly"><em>object identifier</em></a> (OID) that identifies the signed PKCS #7 content.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/ph</strong></td>
@@ -233,7 +233,7 @@ The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> 
 </tr>
 <tr class="even">
 <td><strong>/u</strong> <em>Usage</em></td>
-<td>Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx"><em>enhanced key usage</em></a> (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
+<td>Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly"><em>enhanced key usage</em></a> (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/uw</strong></td>

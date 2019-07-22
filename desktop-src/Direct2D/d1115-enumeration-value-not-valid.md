@@ -60,7 +60,7 @@ The name of the method that received the invalid enumeration value.
 
 ## Examples
 
-The following example specifies a [**D2D1\_RENDER\_TARGET\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) enumeration value of 30, which is outside the expected range.
+The following example specifies a [**D2D1\_RENDER\_TARGET\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) enumeration value of 30, which is outside the expected range.
 
 
 ```C++

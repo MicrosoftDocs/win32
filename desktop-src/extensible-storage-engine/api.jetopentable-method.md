@@ -90,7 +90,7 @@ public static JET_wrn JetOpenTable(
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The name of the table to open.
 
@@ -104,7 +104,7 @@ public static JET_wrn JetOpenTable(
 <!-- end list -->
 
   - parametersSize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The parameter is not used.
 

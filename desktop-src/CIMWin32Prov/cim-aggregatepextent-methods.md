@@ -3,7 +3,7 @@ Description: The CIM\_AggregatePExtent class exposes the following methods.
 ms.assetid: 8965EE95-222F-4D97-B437-307BB47DCD82
 ms.tgt_platform: multiple
 title: CIM_AggregatePExtent Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

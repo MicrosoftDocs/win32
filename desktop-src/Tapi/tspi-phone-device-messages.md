@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 This section contains the reference for the following TSPI phone device messages:
 
--   [**PHONE\_BUTTON**](https://msdn.microsoft.com/library/ms725254)
--   [**PHONE\_CLOSE**](https://msdn.microsoft.com/library/ms725255)
--   [**PHONE\_CREATE**](https://msdn.microsoft.com/library/ms725256)
--   [**PHONE\_DEVSPECIFIC**](https://msdn.microsoft.com/library/ms725258)
--   [**PHONE\_REMOVE**](https://msdn.microsoft.com/library/ms725260)
--   [**PHONE\_STATE**](https://msdn.microsoft.com/library/ms725262)
+-   [**PHONE\_BUTTON**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725254(v=vs.85))
+-   [**PHONE\_CLOSE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725255(v=vs.85))
+-   [**PHONE\_CREATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85))
+-   [**PHONE\_DEVSPECIFIC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725258(v=vs.85))
+-   [**PHONE\_REMOVE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725260(v=vs.85))
+-   [**PHONE\_STATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85))
 
  
 

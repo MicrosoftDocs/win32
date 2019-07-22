@@ -21,7 +21,7 @@ Represents a node in a tree of objects that are created as part of ink analysis.
 
 ## Members
 
-The **IContextNode** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IContextNode** also has these types of members:
+The **IContextNode** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextNode** also has these types of members:
 
 -   [Methods](#methods)
 

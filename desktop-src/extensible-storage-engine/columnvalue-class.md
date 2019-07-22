@@ -32,7 +32,7 @@ Base class for objects that represent a column value to be set.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   Microsoft.Isam.Esent.Interop.ColumnValue  
     [Microsoft.Isam.Esent.Interop.BytesColumnValue](dn334170\(v=exchg.10\).md)  
     [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>](dn334171\(v=exchg.10\).md)  

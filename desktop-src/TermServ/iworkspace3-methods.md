@@ -3,7 +3,7 @@ title: IWorkspace3 Methods
 description: The IWorkspace3 interface exposes the following methods.
 ms.assetid: 34C7BADD-C1F2-4EEE-BFB4-1DC1D499AA58
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

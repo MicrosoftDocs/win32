@@ -16,7 +16,7 @@ A filter at the [**FWPM\_LAYER\_ALE\_RESOURCE\_ASSIGNMENT\_V{4\|6}**](management
 
 If a filter at this layer is matched to authorize raw socket creation, the [**FWP\_CONDITION\_FLAG\_IS\_RAW\_ENDPOINT**](filtering-condition-flags-.md) flag will be set.
 
-If a filter at this layer is matched to authorize promiscuous mode receiving, the [**FWP\_CONDITION\_ALE\_PROMISCUOUS\_MODE**](filtering-condition-identifiers-.md) field will be set to SIO\_RCVALL. For a description of SIO\_RCVALL, see [**WSAIoctl**](https://msdn.microsoft.com/library/windows/desktop/ms741621).
+If a filter at this layer is matched to authorize promiscuous mode receiving, the [**FWP\_CONDITION\_ALE\_PROMISCUOUS\_MODE**](filtering-condition-identifiers-.md) field will be set to SIO\_RCVALL. For a description of SIO\_RCVALL, see [**WSAIoctl**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl).
 
 > [!Note]  
 > This is the only layer where promiscuous mode can be filtered.
@@ -25,33 +25,33 @@ If a filter at this layer is matched to authorize promiscuous mode receiving, th
 
 If no port is specified during **bind()**, that is, port is set to 0 (zero), then the TCP/IP stack will select a port from the dynamic port range (19152–65535). The selected port will be classified at this layer along with the [**FWP\_CONDITION\_FLAG\_IS\_WILDCARD\_BIND**](filtering-condition-flags-.md) flag.
 
-If the local address is not specified in the [**bind()**](https://msdn.microsoft.com/library/windows/desktop/ms737550) call, the local address field is set to [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_).
+If the local address is not specified in the [**bind()**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind) call, the local address field is set to [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_).
 
 ## AUTH\_LISTEN
 
-A filter at the [**FWPM\_LAYER\_ALE\_AUTH\_LISTEN\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer is matched for TCP [**listen()**](https://msdn.microsoft.com/library/windows/desktop/ms739168) calls.
+A filter at the [**FWPM\_LAYER\_ALE\_AUTH\_LISTEN\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer is matched for TCP [**listen()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen) calls.
 
 ## AUTH\_RECV\_ACCEPT
 
-A filter at the [**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer is matched for TCP [**accept()**](https://msdn.microsoft.com/library/windows/desktop/ms737526) calls, for first UDP packets (unicast) from a unique remote address/port tuple, and for first inbound non-error ICMP messages (unicast) with a unique ICMP type, code, and ID.
+A filter at the [**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer is matched for TCP [**accept()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept) calls, for first UDP packets (unicast) from a unique remote address/port tuple, and for first inbound non-error ICMP messages (unicast) with a unique ICMP type, code, and ID.
 
 > [!Note]  
 > Protocols that are not TCP or ICMP are treated like UDP.
 
  
 
-TCP packets received by raw sockets are handled similarly to UDP traffic. That is, only the first TCP [**send()**](https://msdn.microsoft.com/library/windows/desktop/ms740149) and the first TCP [**recv()**](https://msdn.microsoft.com/library/windows/desktop/ms740121) over raw sockets will be filtered.
+TCP packets received by raw sockets are handled similarly to UDP traffic. That is, only the first TCP [**send()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send) and the first TCP [**recv()**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv) over raw sockets will be filtered.
 
 ## AUTH\_CONNECT
 
-A filter at the [**FWPM\_LAYER\_ALE\_AUTH\_CONNECT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer is matched for TCP [**connect()**](https://msdn.microsoft.com/library/windows/desktop/ms737625) calls, for first UDP packets sent to a unique remote address and port tuple, and for first outbound non-error ICMP messages with a unique ICMP type, code, and ID.
+A filter at the [**FWPM\_LAYER\_ALE\_AUTH\_CONNECT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer is matched for TCP [**connect()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) calls, for first UDP packets sent to a unique remote address and port tuple, and for first outbound non-error ICMP messages with a unique ICMP type, code, and ID.
 
 > [!Note]  
 > Protocols that are not TCP or ICMP are treated like UDP.
 
  
 
-TCP packets sent by raw sockets are handled similarly to UDP traffic. That is, only the first TCP [**send()**](https://msdn.microsoft.com/library/windows/desktop/ms740149) and the first TCP [**recv()**](https://msdn.microsoft.com/library/windows/desktop/ms740121) over raw sockets will be filtered.
+TCP packets sent by raw sockets are handled similarly to UDP traffic. That is, only the first TCP [**send()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send) and the first TCP [**recv()**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv) over raw sockets will be filtered.
 
 ## FLOW\_ESTABLISHED
 
@@ -106,7 +106,7 @@ For each of the ALE layers described above the filtering engine contains a match
 [UDP Packet Flows](udp-packet-flows.md)
 </dt> <dt>
 
-[Winsock Functions](https://msdn.microsoft.com/library/windows/desktop/ms741394)
+[Winsock Functions](https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions)
 </dt> <dt>
 
 [**Filtering Condition Flags**](filtering-condition-flags-.md)

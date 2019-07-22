@@ -188,7 +188,7 @@ END SUB
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034)
+[**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)
 </dt> <dt>
 
 [**IDiscMaster2**](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)

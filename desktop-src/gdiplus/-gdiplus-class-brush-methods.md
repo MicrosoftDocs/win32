@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the Brush class. For a complete class listing, see Brush Class.
 ms.assetid: 858fd525-08a3-4ec6-bb2f-2b0fe2727cc3
 title: Brush Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

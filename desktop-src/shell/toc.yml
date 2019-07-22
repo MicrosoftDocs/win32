@@ -416,14 +416,14 @@
       href: classes.md
       items: 
       - name: "CCscSearchApiInterface"
-        href: https://msdn.microsoft.com/en-us/library/Cc448312(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc448312(v=vs.85)
         items: 
         - name: "AddRef"
-          href: https://msdn.microsoft.com/en-us/library/Cc448311(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc448311(v=vs.85)
         - name: "DelRef"
-          href: https://msdn.microsoft.com/en-us/library/Cc448313(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc448313(v=vs.85)
         - name: "OfflineFilesOpenIndexingHandle"
-          href: https://msdn.microsoft.com/en-us/library/Cc448314(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc448314(v=vs.85)
       - name: "CFolderItems"
         href: class-cfolderitems-class.md
       - name: "CFolderItemsFDF"
@@ -443,13 +443,13 @@
           href: citemidfactory-getpropertyfromidlist-methods.md
           items: 
           - name: "GetPropertyFromIDList Method"
-            href: https://msdn.microsoft.com/en-us/library/Hh289341(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)
           - name: "GetPropertyFromIDList Method"
-            href: https://msdn.microsoft.com/en-us/library/Hh289344(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)
           - name: "GetPropertyFromIDList Method"
-            href: https://msdn.microsoft.com/en-us/library/Hh289342(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist
           - name: "GetPropertyFromIDList Method"
-            href: https://msdn.microsoft.com/en-us/library/Hh289345(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)
         - name: "GetPropertyStorageFromIDList Method"
           href: /windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertystoragefromidlist
         - name: "CreateItemID Method"
@@ -465,19 +465,19 @@
         - name: "SetAccessibleName"
           href: /windows/desktop/api/Shobjidl/nf-shobjidl-iaccessibleobject-setaccessiblename
       - name: "IAccessibilityDockingService"
-        href: https://msdn.microsoft.com/en-us/library/Hh448546(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)
         items: 
         - name: "DockWindow"
-          href: https://msdn.microsoft.com/en-us/library/Hh448549(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-dockwindow
         - name: "GetAvailableSize"
           href: /windows/desktop/api/Shobjidl/nf-shobjidl-iaccessibilitydockingservice-getavailablesize
         - name: "UndockWindow"
-          href: https://msdn.microsoft.com/en-us/library/Hh448551(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-undockwindow
       - name: "IAccessibilityDockingServiceCallback"
-        href: https://msdn.microsoft.com/en-us/library/Hh448547(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448547(v=vs.85)
         items: 
         - name: "Undocked"
-          href: https://msdn.microsoft.com/en-us/library/Hh448548(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservicecallback-undocked
       - name: "IACLCustomMRU"
         href: iaclcustommru.md
         items: 
@@ -486,17 +486,17 @@
         - name: "Initialize"
           href: iaclcustommru-initialize.md
       - name: "IACList"
-        href: https://msdn.microsoft.com/en-us/library/Bb776378(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist
         items: 
         - name: "Expand"
-          href: https://msdn.microsoft.com/en-us/library/Bb776377(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iaclist-expand
       - name: "IACList2"
-        href: https://msdn.microsoft.com/en-us/library/Bb776375(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2
         items: 
         - name: "GetOptions"
-          href: https://msdn.microsoft.com/en-us/library/Bb776374(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iaclist2-getoptions
         - name: "SetOptions"
-          href: https://msdn.microsoft.com/en-us/library/Bb776376(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iaclist2-setoptions
       - name: "IActionProgress"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress
         items: 
@@ -823,7 +823,7 @@
         - name: "ShowContactCardForWindow"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-icontactmanagerinterop-showcontactcardforwindow
       - name: "IContextMenu"
-        href: https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu
         items: 
         - name: "GetCommandString"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring
@@ -847,69 +847,69 @@
         - name: "CallBack"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenucb-callback
       - name: "IControlMarkup"
-        href: https://msdn.microsoft.com/en-us/library/Bb776063(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776063(v=vs.85)
         items: 
         - name: "CalcIdealSize"
-          href: https://msdn.microsoft.com/en-us/library/Bb776050(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776050(v=vs.85)
         - name: "DrawText"
-          href: https://msdn.microsoft.com/en-us/library/Bb776051(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776051(v=vs.85)
         - name: "GetCallback"
-          href: https://msdn.microsoft.com/en-us/library/Bb776052(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776052(v=vs.85)
         - name: "GetControlRect"
-          href: https://msdn.microsoft.com/en-us/library/Bb776053(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776053(v=vs.85)
         - name: "GetFonts"
-          href: https://msdn.microsoft.com/en-us/library/Bb776054(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776054(v=vs.85)
         - name: "GetId"
-          href: https://msdn.microsoft.com/en-us/library/Bb776055(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776055(v=vs.85)
         - name: "GetLinkCount"
-          href: https://msdn.microsoft.com/en-us/library/Bb776056(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776056(v=vs.85)
         - name: "GetLinkRect"
-          href: https://msdn.microsoft.com/en-us/library/Bb776057(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776057(v=vs.85)
         - name: "GetLinkText"
-          href: https://msdn.microsoft.com/en-us/library/Bb776058(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776058(v=vs.85)
         - name: "GetRenderFlags"
-          href: https://msdn.microsoft.com/en-us/library/Bb776059(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776059(v=vs.85)
         - name: "GetState"
-          href: https://msdn.microsoft.com/en-us/library/Bb776060(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776060(v=vs.85)
         - name: "GetText"
-          href: https://msdn.microsoft.com/en-us/library/Bb776061(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776061(v=vs.85)
         - name: "HitTest"
-          href: https://msdn.microsoft.com/en-us/library/Bb776062(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776062(v=vs.85)
         - name: "IsTabbable"
-          href: https://msdn.microsoft.com/en-us/library/Bb776064(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776064(v=vs.85)
         - name: "KillFocus"
-          href: https://msdn.microsoft.com/en-us/library/Bb776065(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776065(v=vs.85)
         - name: "OnButtonDown"
-          href: https://msdn.microsoft.com/en-us/library/Bb776066(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776066(v=vs.85)
         - name: "OnButtonUp"
-          href: https://msdn.microsoft.com/en-us/library/Bb776067(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776067(v=vs.85)
         - name: "OnKeyDown"
-          href: https://msdn.microsoft.com/en-us/library/Bb776068(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776068(v=vs.85)
         - name: "SetCallback"
-          href: https://msdn.microsoft.com/en-us/library/Bb776069(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776069(v=vs.85)
         - name: "SetFocus"
-          href: https://msdn.microsoft.com/en-us/library/Bb776070(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776070(v=vs.85)
         - name: "SetFonts"
-          href: https://msdn.microsoft.com/en-us/library/Bb776071(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776071(v=vs.85)
         - name: "SetId"
-          href: https://msdn.microsoft.com/en-us/library/Bb776072(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776072(v=vs.85)
         - name: "SetLinkCursor"
-          href: https://msdn.microsoft.com/en-us/library/Bb776073(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776073(v=vs.85)
         - name: "SetLinkText"
-          href: https://msdn.microsoft.com/en-us/library/Bb776074(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776074(v=vs.85)
         - name: "SetRenderFlags"
-          href: https://msdn.microsoft.com/en-us/library/Bb776075(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776075(v=vs.85)
         - name: "SetState"
-          href: https://msdn.microsoft.com/en-us/library/Bb776076(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776076(v=vs.85)
         - name: "SetText"
-          href: https://msdn.microsoft.com/en-us/library/Bb776077(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776077(v=vs.85)
         - name: "SetThemeRenderFlags"
-          href: https://msdn.microsoft.com/en-us/library/Bb776078(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776078(v=vs.85)
       - name: "ICopyHook"
-        href: https://msdn.microsoft.com/en-us/library/Bb776049(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776049(v=vs.85)
         items: 
         - name: "CopyCallback"
-          href: https://msdn.microsoft.com/en-us/library/Bb776048(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)
       - name: "ICreateObject"
         href: /windows/desktop/api/Propsys/nn-propsys-icreateobject
         items: 
@@ -1075,14 +1075,14 @@
         - name: "GetAt"
           href: /windows/desktop/api/CredentialProvider/nf-credentialprovider-icredentialprovideruserarray-getat
       - name: "ICurrentItem"
-        href: https://msdn.microsoft.com/en-us/library/Bb776002(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icurrentitem
       - name: "ICurrentWorkingDirectory"
-        href: https://msdn.microsoft.com/en-us/library/Bb775996(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icurrentworkingdirectory
         items: 
         - name: "GetDirectory"
-          href: https://msdn.microsoft.com/en-us/library/Bb775995(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-getdirectory
         - name: "SetDirectory"
-          href: https://msdn.microsoft.com/en-us/library/Bb775997(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-setdirectory
       - name: "ICustomDestinationList"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist
         items: 
@@ -1168,7 +1168,7 @@
         - name: "SetItemAlloc"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-idelegatefolder-setitemalloc
       - name: "IDelegateItem"
-        href: https://msdn.microsoft.com/en-us/library/Dd378393(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegateitem
       - name: "IDesktopGadget"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-idesktopgadget
         items: 
@@ -1215,7 +1215,7 @@
         - name: "GetDestinationStream"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-idestinationstreamfactory-getdestinationstream
       - name: "IDisplayItem"
-        href: https://msdn.microsoft.com/en-us/library/Bb762053(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idisplayitem
       - name: "IDockingWindow"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow
         items: 
@@ -1226,23 +1226,23 @@
         - name: "ShowDW"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw
       - name: "IDockingWindowFrame"
-        href: https://msdn.microsoft.com/en-us/library/Bb762045(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe
         items: 
         - name: "AddToolbar"
-          href: https://msdn.microsoft.com/en-us/library/Bb762043(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-addtoolbar
         - name: "FindToolbar"
-          href: https://msdn.microsoft.com/en-us/library/Bb762044(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-findtoolbar
         - name: "RemoveToolbar"
-          href: https://msdn.microsoft.com/en-us/library/Bb762046(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-removetoolbar
       - name: "IDockingWindowSite"
-        href: https://msdn.microsoft.com/en-us/library/Bb762040(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite
         items: 
         - name: "GetBorderDW"
-          href: https://msdn.microsoft.com/en-us/library/Bb762039(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-idockingwindowsite-getborderdw
         - name: "RequestBorderSpaceDW"
-          href: https://msdn.microsoft.com/en-us/library/Bb762041(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-idockingwindowsite-requestborderspacedw
         - name: "SetBorderSpaceDW"
-          href: https://msdn.microsoft.com/en-us/library/Bb762042(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-idockingwindowsite-setborderspacedw
       - name: "IDragSourceHelper"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper
         items: 
@@ -1515,12 +1515,12 @@
         - name: "GetPaneState"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate
       - name: "IExtractIcon"
-        href: https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona
         items: 
         - name: "Extract"
-          href: https://msdn.microsoft.com/en-us/library/Bb761850(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract
         - name: "GetIconLocation"
-          href: https://msdn.microsoft.com/en-us/library/Bb761852(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation
       - name: "IExtractImage"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage
         items: 
@@ -1534,54 +1534,54 @@
         - name: "GetDateStamp"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage2-getdatestamp
       - name: "IFileDialog"
-        href: https://msdn.microsoft.com/en-us/library/Bb775966(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog
         items: 
         - name: "AddPlace"
-          href: https://msdn.microsoft.com/en-us/library/Bb775946(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-addplace
         - name: "Advise"
-          href: https://msdn.microsoft.com/en-us/library/Bb775948(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-advise
         - name: "ClearClientData"
-          href: https://msdn.microsoft.com/en-us/library/Bb775950(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-clearclientdata
         - name: "Close"
-          href: https://msdn.microsoft.com/en-us/library/Bb775952(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-close
         - name: "GetCurrentSelection"
-          href: https://msdn.microsoft.com/en-us/library/Bb775954(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getcurrentselection
         - name: "GetFileName"
-          href: https://msdn.microsoft.com/en-us/library/Bb775956(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getfilename
         - name: "GetFileTypeIndex"
-          href: https://msdn.microsoft.com/en-us/library/Bb775958(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775958(v=vs.85)
         - name: "GetFolder"
-          href: https://msdn.microsoft.com/en-us/library/Bb775960(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getfolder
         - name: "GetOptions"
-          href: https://msdn.microsoft.com/en-us/library/Bb775962(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions
         - name: "GetResult"
-          href: https://msdn.microsoft.com/en-us/library/Bb775964(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult
         - name: "SetClientGuid"
-          href: https://msdn.microsoft.com/en-us/library/Bb775968(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid
         - name: "SetDefaultExtension"
-          href: https://msdn.microsoft.com/en-us/library/Bb775970(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setdefaultextension
         - name: "SetDefaultFolder"
-          href: https://msdn.microsoft.com/en-us/library/Bb775972(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setdefaultfolder
         - name: "SetFileName"
-          href: https://msdn.microsoft.com/en-us/library/Bb775974(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfilename
         - name: "SetFileNameLabel"
-          href: https://msdn.microsoft.com/en-us/library/Bb775976(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfilenamelabel
         - name: "SetFileTypeIndex"
-          href: https://msdn.microsoft.com/en-us/library/Bb775978(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775978(v=vs.85)
         - name: "SetFileTypes"
-          href: https://msdn.microsoft.com/en-us/library/Bb775980(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes
         - name: "SetFilter"
-          href: https://msdn.microsoft.com/en-us/library/Bb761826(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfilter
         - name: "SetFolder"
-          href: https://msdn.microsoft.com/en-us/library/Bb761828(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfolder
         - name: "SetOkButtonLabel"
-          href: https://msdn.microsoft.com/en-us/library/Bb761830(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setokbuttonlabel
         - name: "SetOptions"
-          href: https://msdn.microsoft.com/en-us/library/Bb761832(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions
         - name: "SetTitle"
-          href: https://msdn.microsoft.com/en-us/library/Bb761834(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-settitle
         - name: "Unadvise"
-          href: https://msdn.microsoft.com/en-us/library/Bb761838(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-unadvise
       - name: "IFileDialog2"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialog2
         items: 
@@ -1688,12 +1688,12 @@
         - name: "GetUsage"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getusage
       - name: "IFileOpenDialog"
-        href: https://msdn.microsoft.com/en-us/library/Bb775834(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog
         items: 
         - name: "GetResults"
-          href: https://msdn.microsoft.com/en-us/library/Bb775831(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults
         - name: "GetSelectedItems"
-          href: https://msdn.microsoft.com/en-us/library/Bb775833(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getselecteditems
       - name: "IFileOperation"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation
         items: 
@@ -1778,13 +1778,13 @@
         - name: "ApplyProperties"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ifilesavedialog-applyproperties
         - name: "GetOptions"
-          href: https://msdn.microsoft.com/en-us/library/Bb775685(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775685(v=vs.85)
         - name: "GetProperties"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ifilesavedialog-getproperties
         - name: "SetCollectedProperties"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ifilesavedialog-setcollectedproperties
         - name: "SetOptions"
-          href: https://msdn.microsoft.com/en-us/library/Bb775708(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775708(v=vs.85)
         - name: "SetProperties"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ifilesavedialog-setproperties
         - name: "SetSaveAsItem"
@@ -1815,21 +1815,21 @@
         - name: "SetJunctionCLSID"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesystembinddata2-setjunctionclsid
       - name: "IFileViewer"
-        href: https://msdn.microsoft.com/en-us/library/Bb775646(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/schema-library-iconreference
         items: 
         - name: "PrintTo"
-          href: https://msdn.microsoft.com/en-us/library/Bb775648(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/schema-library-islibrarypinned
         - name: "Show"
-          href: https://msdn.microsoft.com/en-us/library/Bb775650(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/search-protocol
         - name: "ShowInitialize"
-          href: https://msdn.microsoft.com/en-us/library/Bb775652(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775652(v=vs.85)
       - name: "IFileViewerSite"
-        href: https://msdn.microsoft.com/en-us/library/Bb775642(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ifileviewersite
         items: 
         - name: "GetPinnedWindow"
-          href: https://msdn.microsoft.com/en-us/library/Bb775640(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ifileviewersite-getpinnedwindow
         - name: "SetPinnedWindow"
-          href: https://msdn.microsoft.com/en-us/library/Bb775644(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ifileviewersite-setpinnedwindow
       - name: "IFolderFilter"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter
         items: 
@@ -2011,7 +2011,7 @@
         - name: "HandleEventWithHWND"
           href: /windows/desktop/api/Shobjidl/nf-shobjidl-ihweventhandler2-handleeventwithhwnd
       - name: "IIdentityName"
-        href: https://msdn.microsoft.com/en-us/library/Bb775474(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iidentityname
       - name: "IImageRecompress"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-iimagerecompress
         items: 
@@ -2038,10 +2038,10 @@
         - name: "Initialize"
           href: /windows/desktop/api/Propsys/nf-propsys-iinitializewithfile-initialize
       - name: "IInitializeWithItem"
-        href: https://msdn.microsoft.com/en-us/library/Bb761814(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem
         items: 
         - name: "Initialize"
-          href: https://msdn.microsoft.com/en-us/library/Bb761816(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize
       - name: "IInitializeWithPropertyStore"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore
         items: 
@@ -2058,14 +2058,14 @@
         - name: "Initialize"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize
       - name: "IInputObject"
-        href: https://msdn.microsoft.com/en-us/library/Bb761804(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject
         items: 
         - name: "HasFocusIO"
-          href: https://msdn.microsoft.com/en-us/library/Bb761802(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio
         - name: "TranslateAcceleratorIO"
-          href: https://msdn.microsoft.com/en-us/library/Bb761806(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio
         - name: "UIActivateIO"
-          href: https://msdn.microsoft.com/en-us/library/Bb761808(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio
       - name: "IInputObject2"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject2
         items: 
@@ -2167,18 +2167,18 @@
         - name: "GetTargetViewSizePreference"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchtargetviewsizepreference-gettargetviewsizepreference
       - name: "IMarkupCallback"
-        href: https://msdn.microsoft.com/en-us/library/Bb761708(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/shell-extensibility-bumper
         items: 
         - name: "CustomDrawText"
-          href: https://msdn.microsoft.com/en-us/library/Bb761704(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/shell-reference-bumper
         - name: "GetState"
-          href: https://msdn.microsoft.com/en-us/library/Bb761706(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/shortcut-choose-method
         - name: "InvalidateRect"
-          href: https://msdn.microsoft.com/en-us/library/Bb761710(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/synchronization-center-bumper
         - name: "Notify"
-          href: https://msdn.microsoft.com/en-us/library/Bb761712(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/syncmgr-about
         - name: "OnCustomDraw"
-          href: https://msdn.microsoft.com/en-us/library/Bb761714(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/syncmgr-app-scenarios
       - name: "IMenuPopup"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup
         items: 
@@ -2203,14 +2203,14 @@
         - name: "SetMonitor"
           href: imultimonitordockingsite-setmonitor.md
       - name: "INamedPropertyBag"
-        href: https://msdn.microsoft.com/en-us/library/Bb761669(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-inamedpropertybag
         items: 
         - name: "ReadPropertyNPB"
-          href: https://msdn.microsoft.com/en-us/library/Bb761671(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-readpropertynpb
         - name: "RemovePropertyNPB"
-          href: https://msdn.microsoft.com/en-us/library/Bb761673(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-removepropertynpb
         - name: "WritePropertyNPB"
-          href: https://msdn.microsoft.com/en-us/library/Bb761675(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-writepropertynpb
       - name: "INamedPropertyStore"
         href: /windows/desktop/api/Propsys/nn-propsys-inamedpropertystore
         items: 
@@ -2382,30 +2382,30 @@
         - name: "SelectAndEditItem"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-selectandedititem
       - name: "INewShortcutHook"
-        href: https://msdn.microsoft.com/en-us/library/Bb775445(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka
         items: 
         - name: "GetExtension"
-          href: https://msdn.microsoft.com/en-us/library/Bb775422(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getextension
         - name: "GetFolder"
-          href: https://msdn.microsoft.com/en-us/library/Bb775424(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getfolder
         - name: "GetName"
-          href: https://msdn.microsoft.com/en-us/library/Bb775440(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getname
         - name: "GetReferent"
-          href: https://msdn.microsoft.com/en-us/library/Bb775442(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getreferent
         - name: "SetFolder"
-          href: https://msdn.microsoft.com/en-us/library/Bb775447(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setfolder
         - name: "SetReferent"
-          href: https://msdn.microsoft.com/en-us/library/Bb775449(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setreferent
       - name: "INewWindowManager"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewwindowmanager
         items: 
         - name: "EvaluateNewWindow"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewwindowmanager-evaluatenewwindow
       - name: "INotifyReplica"
-        href: https://msdn.microsoft.com/en-us/library/Bb775412(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica
         items: 
         - name: "YouAreAReplica"
-          href: https://msdn.microsoft.com/en-us/library/Bb775414(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica
       - name: "IObjectArray"
         href: /windows/desktop/api/Objectarray/nn-objectarray-iobjectarray
         items: 
@@ -2475,12 +2475,12 @@
         - name: "SetSelection"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithselection-setselection
       - name: "IObjMgr"
-        href: https://msdn.microsoft.com/en-us/library/Bb775398(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr
         items: 
         - name: "Append"
-          href: https://msdn.microsoft.com/en-us/library/Bb775396(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-append
         - name: "Remove"
-          href: https://msdn.microsoft.com/en-us/library/Bb775400(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-remove
       - name: "IOpenControlPanel"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel
         items: 
@@ -2613,21 +2613,21 @@
         - name: "GetPropertyStorageSize"
           href: /windows/desktop/api/Propsys/nf-propsys-ipersistserializedpropstorage2-getpropertystoragesize
       - name: "IPlaybackManager"
-        href: https://msdn.microsoft.com/en-us/library/Hh707033(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707033(v=vs.85)
         items: 
         - name: "Advise"
-          href: https://msdn.microsoft.com/en-us/library/Hh707036(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707036(v=vs.85)
         - name: "ChangeSessionState"
-          href: https://msdn.microsoft.com/en-us/library/Hh707037(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707037(v=vs.85)
         - name: "Unadvise"
-          href: https://msdn.microsoft.com/en-us/library/Hh707038(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707038(v=vs.85)
       - name: "IPlaybackManagerEvents"
-        href: https://msdn.microsoft.com/en-us/library/Hh707034(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707034(v=vs.85)
         items: 
         - name: "OnPlaybackManagerEvent"
-          href: https://msdn.microsoft.com/en-us/library/Hh707035(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707035(v=vs.85)
       - name: "IPreviewHandler"
-        href: https://msdn.microsoft.com/en-us/library/Bb775315(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler
         items: 
         - name: "DoPreview"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview
@@ -2644,23 +2644,23 @@
         - name: "Unload"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-unload
       - name: "IPreviewHandlerFrame"
-        href: https://msdn.microsoft.com/en-us/library/Bb775309(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe
         items: 
         - name: "GetWindowContext"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext
         - name: "TranslateAccelerator"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator
       - name: "IPreviewHandlerVisuals"
-        href: https://msdn.microsoft.com/en-us/library/Bb775299(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals
         items: 
         - name: "SetBackgroundColor"
-          href: https://msdn.microsoft.com/en-us/library/Bb775301(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setbackgroundcolor
         - name: "SetFont"
-          href: https://msdn.microsoft.com/en-us/library/Bb775303(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setfont
         - name: "SetTextColor"
-          href: https://msdn.microsoft.com/en-us/library/Bb775305(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-settextcolor
       - name: "IPreviewItem"
-        href: https://msdn.microsoft.com/en-us/library/Dd562067(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewitem
       - name: "IPreviousVersionsInfo"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-ipreviousversionsinfo
         items: 
@@ -2694,28 +2694,28 @@
         - name: "RevokeService"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-revokeservice
       - name: "IProgressDialog"
-        href: https://msdn.microsoft.com/en-us/library/Bb775248(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog
         items: 
         - name: "HasUserCancelled"
-          href: https://msdn.microsoft.com/en-us/library/Bb775246(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-hasusercancelled
         - name: "SetAnimation"
-          href: https://msdn.microsoft.com/en-us/library/Bb775250(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setanimation
         - name: "SetCancelMsg"
-          href: https://msdn.microsoft.com/en-us/library/Bb775252(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setcancelmsg
         - name: "SetLine"
-          href: https://msdn.microsoft.com/en-us/library/Bb775254(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setline
         - name: "SetProgress"
-          href: https://msdn.microsoft.com/en-us/library/Bb775256(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setprogress
         - name: "SetProgress64"
-          href: https://msdn.microsoft.com/en-us/library/Bb775258(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setprogress64
         - name: "SetTitle"
-          href: https://msdn.microsoft.com/en-us/library/Bb775260(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-settitle
         - name: "StartProgressDialog"
-          href: https://msdn.microsoft.com/en-us/library/Bb775262(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-startprogressdialog
         - name: "StopProgressDialog"
-          href: https://msdn.microsoft.com/en-us/library/Bb775264(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-stopprogressdialog
         - name: "Timer"
-          href: https://msdn.microsoft.com/en-us/library/Bb775266(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-timer
       - name: "IPublishedApp"
         href: /windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp
         items: 
@@ -2738,18 +2738,18 @@
         - name: "Initialize"
           href: /windows/desktop/api/Shobjidl/nf-shobjidl-ipublishingwizard-initialize
       - name: "IQueryAssociations"
-        href: https://msdn.microsoft.com/en-us/library/Bb761400(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations
         items: 
         - name: "GetData"
-          href: https://msdn.microsoft.com/en-us/library/Bb761390(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata
         - name: "GetEnum"
-          href: https://msdn.microsoft.com/en-us/library/Bb761392(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getenum
         - name: "GetKey"
-          href: https://msdn.microsoft.com/en-us/library/Bb761394(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey
         - name: "GetString"
-          href: https://msdn.microsoft.com/en-us/library/Bb761396(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring
         - name: "Init"
-          href: https://msdn.microsoft.com/en-us/library/Bb761398(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-init
       - name: "IQueryCancelAutoPlay"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay
         items: 
@@ -2773,12 +2773,12 @@
         - name: "SetStatusMessage"
           href: /windows/desktop/api/Credentialprovider/nf-credentialprovider-iquerycontinuewithstatus-setstatusmessage
       - name: "IQueryInfo"
-        href: https://msdn.microsoft.com/en-us/library/Bb761359(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo
         items: 
         - name: "GetInfoFlags"
-          href: https://msdn.microsoft.com/en-us/library/Bb761355(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iqueryinfo-getinfoflags
         - name: "GetInfoTip"
-          href: https://msdn.microsoft.com/en-us/library/Bb761357(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iqueryinfo-getinfotip
       - name: "IRelatedItem"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem
         items: 
@@ -2830,14 +2830,14 @@
         - name: "GetText"
           href: /windows/desktop/api/Shobjidl/nf-shobjidl-isearchboxinfo-gettext
       - name: "ISearchContext"
-        href: https://msdn.microsoft.com/en-us/library/Bb775199(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-isearchcontext
         items: 
         - name: "GetSearchStyle"
-          href: https://msdn.microsoft.com/en-us/library/Bb775194(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchstyle
         - name: "GetSearchText"
-          href: https://msdn.microsoft.com/en-us/library/Bb775196(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchtext
         - name: "GetSearchURL"
-          href: https://msdn.microsoft.com/en-us/library/Bb775198(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchurl
       - name: "ISearchFolderItemFactory"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory
         items: 
@@ -2909,53 +2909,53 @@
         - name: "IsInstalled"
           href: /windows/desktop/api/Shappmgr/nf-shappmgr-ishellapp-isinstalled
       - name: "IShellBrowser"
-        href: https://msdn.microsoft.com/en-us/library/Bb775123(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser
         items: 
         - name: "BrowseObject"
-          href: https://msdn.microsoft.com/en-us/library/Bb775113(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-browseobject
         - name: "EnableModelessSB"
-          href: https://msdn.microsoft.com/en-us/library/Bb775115(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-enablemodelesssb
         - name: "GetControlWindow"
-          href: https://msdn.microsoft.com/en-us/library/Bb775118(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-getcontrolwindow
         - name: "GetViewStateStream"
-          href: https://msdn.microsoft.com/en-us/library/Bb775119(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-getviewstatestream
         - name: "InsertMenusSB"
-          href: https://msdn.microsoft.com/en-us/library/Bb775121(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb
         - name: "OnViewWindowActive"
-          href: https://msdn.microsoft.com/en-us/library/Bb775126(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-onviewwindowactive
         - name: "QueryActiveShellView"
-          href: https://msdn.microsoft.com/en-us/library/Bb775127(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-queryactiveshellview
         - name: "RemoveMenusSB"
-          href: https://msdn.microsoft.com/en-us/library/Bb775129(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-removemenussb
         - name: "SendControlMsg"
-          href: https://msdn.microsoft.com/en-us/library/Bb775132(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-sendcontrolmsg
         - name: "SetMenuSB"
-          href: https://msdn.microsoft.com/en-us/library/Bb775134(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setmenusb
         - name: "SetStatusTextSB"
-          href: https://msdn.microsoft.com/en-us/library/Bb775136(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setstatustextsb
         - name: "SetToolbarItems"
-          href: https://msdn.microsoft.com/en-us/library/Bb775138(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-settoolbaritems
         - name: "TranslateAcceleratorSB"
-          href: https://msdn.microsoft.com/en-us/library/Bb775140(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb
       - name: "IShellChangeNotify"
-        href: https://msdn.microsoft.com/en-us/library/Bb775108(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellchangenotify
         items: 
         - name: "OnChange"
-          href: https://msdn.microsoft.com/en-us/library/Bb775110(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellchangenotify-onchange
       - name: "IShellDetails"
-        href: https://msdn.microsoft.com/en-us/library/Bb775106(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails
         items: 
         - name: "ColumnClick"
-          href: https://msdn.microsoft.com/en-us/library/Bb775103(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-columnclick
         - name: "GetDetailsOf"
-          href: https://msdn.microsoft.com/en-us/library/Bb775104(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof
       - name: "IShellExtInit"
-        href: https://msdn.microsoft.com/en-us/library/Bb775096(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit
         items: 
         - name: "Initialize"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize
       - name: "IShellFolder"
-        href: https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder
         items: 
         - name: "BindToObject"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject
@@ -3011,10 +3011,10 @@
         - name: "RunEnd"
           href: ishellfoldersearchablecallback-runend.md
       - name: "IShellFolderViewCB"
-        href: https://msdn.microsoft.com/en-us/library/Bb774967(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb
         items: 
         - name: "MessageSFVCB"
-          href: https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb
       - name: "IShellFolderViewDual"
         href: /windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual
         items: 
@@ -3083,12 +3083,12 @@
         - name: "GetIconOf"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellicon-geticonof
       - name: "IShellIconOverlay"
-        href: https://msdn.microsoft.com/en-us/library/Bb761273(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay
         items: 
         - name: "GetOverlayIconIndex"
-          href: https://msdn.microsoft.com/en-us/library/Bb761269(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayiconindex
         - name: "GetOverlayIndex"
-          href: https://msdn.microsoft.com/en-us/library/Bb761271(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayindex
       - name: "IShellIconOverlayIdentifier"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier
         items: 
@@ -3251,39 +3251,39 @@
         - name: "GetArguments"
           href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments
         - name: "GetDescription"
-          href: https://msdn.microsoft.com/en-us/library/Bb774924(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getdescription
         - name: "GetHotkey"
-          href: https://msdn.microsoft.com/en-us/library/Bb774926(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey
         - name: "GetIconLocation"
-          href: https://msdn.microsoft.com/en-us/library/Bb774940(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-geticonlocation
         - name: "GetIDList"
-          href: https://msdn.microsoft.com/en-us/library/Bb774942(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getidlist
         - name: "GetPath"
-          href: https://msdn.microsoft.com/en-us/library/Bb774944(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getpath
         - name: "GetShowCmd"
-          href: https://msdn.microsoft.com/en-us/library/Bb774946(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd
         - name: "GetWorkingDirectory"
-          href: https://msdn.microsoft.com/en-us/library/Bb774948(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getworkingdirectory
         - name: "Resolve"
-          href: https://msdn.microsoft.com/en-us/library/Bb774952(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve
         - name: "SetArguments"
-          href: https://msdn.microsoft.com/en-us/library/Bb774954(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments
         - name: "SetDescription"
-          href: https://msdn.microsoft.com/en-us/library/Bb774955(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription
         - name: "SetHotkey"
-          href: https://msdn.microsoft.com/en-us/library/Bb761045(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-sethotkey
         - name: "SetIconLocation"
-          href: https://msdn.microsoft.com/en-us/library/Bb761047(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation
         - name: "SetIDList"
-          href: https://msdn.microsoft.com/en-us/library/Bb761050(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist
         - name: "SetPath"
-          href: https://msdn.microsoft.com/en-us/library/Bb761052(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath
         - name: "SetRelativePath"
-          href: https://msdn.microsoft.com/en-us/library/Bb761054(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath
         - name: "SetShowCmd"
-          href: https://msdn.microsoft.com/en-us/library/Bb761056(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd
         - name: "SetWorkingDirectory"
-          href: https://msdn.microsoft.com/en-us/library/Bb761058(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setworkingdirectory
       - name: "IShellLinkDataList"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist
         items: 
@@ -3347,7 +3347,7 @@
         - name: "EnableModeless"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-enablemodeless
         - name: "EnableModelessSV"
-          href: https://msdn.microsoft.com/en-us/library/Bb774830(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb774830(v=vs.85)
         - name: "GetCurrentInfo"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getcurrentinfo
         - name: "GetItemObject"
@@ -3423,7 +3423,7 @@
         - name: "RetrieveProperties method"
           href: /windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderpropertyhandler-retrieveproperties
         - name: "SaveProperties method"
-          href: https://msdn.microsoft.com/en-us/library/Mt149092(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/shell/istorageproviderpropertyhandler-saveproperties
       - name: "IStreamAsync"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-istreamasync
         items: 
@@ -3920,7 +3920,7 @@
         - name: "Unadvise"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-unadvise
       - name: "ITransferMediumItem"
-        href: https://msdn.microsoft.com/en-us/library/Bb774545(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfermediumitem
       - name: "ITransferSource"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource
         items: 
@@ -3967,15 +3967,15 @@
         - name: "Update"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iupdateidlist-update
       - name: "IURLSearchHook"
-        href: https://msdn.microsoft.com/en-us/library/Bb774479(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook
         items: 
         - name: "Translate"
-          href: https://msdn.microsoft.com/en-us/library/Bb774480(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iurlsearchhook-translate
       - name: "IURLSearchHook2"
-        href: https://msdn.microsoft.com/en-us/library/Bb774476(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook2
         items: 
         - name: "TranslateWithSearchContext"
-          href: https://msdn.microsoft.com/en-us/library/Bb774478(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iurlsearchhook2-translatewithsearchcontext
       - name: "IUserAccountChangeCallback"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-iuseraccountchangecallback
         items: 
@@ -4017,9 +4017,9 @@
         - name: "OnLeftClick"
           href: /windows/desktop/api/Shobjidl/nf-shobjidl-iusernotificationcallback-onleftclick
       - name: "IUseToBrowseItem"
-        href: https://msdn.microsoft.com/en-us/library/Bb774402(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iusetobrowseitem
       - name: "IViewStateIdentityItem"
-        href: https://msdn.microsoft.com/en-us/library/Dd391679(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iviewstateidentityitem
       - name: "IVirtualDesktopManager"
         href: /windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager
         items: 
@@ -4184,7 +4184,7 @@
           - name: "IntToULong"
             href: /windows/desktop/api/Intsafe/nf-intsafe-inttoulong
           - name: "IntToULongLong"
-            href: https://msdn.microsoft.com/en-us/library/Bb776740(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776740(v=vs.85)
           - name: "IntToUShort"
             href: /windows/desktop/api/Intsafe/nf-intsafe-inttoushort
           - name: "LongLongToChar"
@@ -4332,7 +4332,7 @@
           - name: "UIntPtrToIntPtr"
             href: /windows/desktop/api/Intsafe/nf-intsafe-uintptrtointptr
           - name: "UIntPtrToLong"
-            href: https://msdn.microsoft.com/en-us/library/Bb762399(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762399(v=vs.85)
           - name: "UIntPtrToLongLong"
             href: /windows/desktop/api/intsafe/nf-intsafe-uintptrtolonglong
           - name: "UIntPtrToLongPtr"
@@ -4390,7 +4390,7 @@
           - name: "ULongLongToLong"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulonglongtolong
           - name: "ULongLongToLongLong"
-            href: https://msdn.microsoft.com/en-us/library/Hh707135(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707135(v=vs.85)
           - name: "ULongLongToLongPtr"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulonglongtolongptr
           - name: "ULongLongToShort"
@@ -4414,7 +4414,7 @@
           - name: "ULongPtrToChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-ulongptrtochar
           - name: "ULongPtrToInt"
-            href: https://msdn.microsoft.com/en-us/library/Bb762432(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762432(v=vs.85)
           - name: "ULongPtrToInt8"
             href: /windows/desktop/api/intsafe/nf-intsafe-ulongptrtoint8
           - name: "ULongPtrToIntPtr"
@@ -4422,7 +4422,7 @@
           - name: "ULongPtrToLong"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulongptrtolong
           - name: "ULongPtrToLongLong"
-            href: https://msdn.microsoft.com/en-us/library/Hh707142(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707142(v=vs.85)
           - name: "ULongPtrToLongPtr"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulongptrtolongptr
           - name: "ULongPtrToShort"
@@ -4539,7 +4539,7 @@
           - name: "SizeTMult"
             href: /windows/desktop/api/Intsafe/nf-intsafe-sizetmult
           - name: "SIZETMult_1"
-            href: https://msdn.microsoft.com/en-us/library/Bb776644(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776644(v=vs.85)
           - name: "SizeTSub"
             href: /windows/desktop/api/Intsafe/nf-intsafe-sizetsub
           - name: "SIZETSub_1"
@@ -4571,11 +4571,11 @@
           - name: "ULongAdd"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulongadd
           - name: "ULongLongAdd"
-            href: https://msdn.microsoft.com/en-us/library/Bb776654(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776654(v=vs.85)
           - name: "ULongLongMult"
-            href: https://msdn.microsoft.com/en-us/library/Bb776655(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776655(v=vs.85)
           - name: "ULongLongSub"
-            href: https://msdn.microsoft.com/en-us/library/Bb776656(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776656(v=vs.85)
           - name: "ULongMult"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulongmult
           - name: "ULongPtrAdd"
@@ -4673,7 +4673,7 @@
       - name: "CommandLineToArgvW"
         href: /windows/desktop/api/Shellapi/nf-shellapi-commandlinetoargvw
       - name: "APPLET_PROC"
-        href: https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc
       - name: "CreateAppContainerProfile"
         href: /windows/desktop/api/Userenv/nf-userenv-createappcontainerprofile
       - name: "CreateEnvironmentBlock"
@@ -4707,15 +4707,15 @@
       - name: "DragQueryPoint"
         href: /windows/desktop/api/Shellapi/nf-shellapi-dragquerypoint
       - name: "DuplicateIcon"
-        href: https://msdn.microsoft.com/en-us/library/Bb776411(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-duplicateicon
       - name: "ExpandEnvironmentStringsForUser"
         href: /windows/desktop/api/Userenv/nf-userenv-expandenvironmentstringsforusera
       - name: "ExtractAssociatedIcon"
-        href: https://msdn.microsoft.com/en-us/library/Bb776414(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona
       - name: "ExtractIcon"
-        href: https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona
       - name: "ExtractIconEx"
-        href: https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa
       - name: "FileIconInit"
         href: fileiconinit.md
       - name: "FindExecutable"
@@ -4739,7 +4739,7 @@
       - name: "GetAppContainerRegistryLocation"
         href: /windows/desktop/api/Userenv/nf-userenv-getappcontainerregistrylocation
       - name: "GetContractDelegateWindow"
-        href: https://msdn.microsoft.com/en-us/library/JJ152005(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj152005(v=vs.85)
       - name: "GetCurrentProcessExplicitAppUserModelID"
         href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-getcurrentprocessexplicitappusermodelid
       - name: "GetDefaultUserProfileDirectory"
@@ -4801,7 +4801,7 @@
       - name: "ILNext(PCUIDLIST_RELATIVE)"
         href: /windows/desktop/api/shlobj_core/nf-shlobj_core-ilnext
       - name: "ILNext(PUIDLIST_RELATIVE)"
-        href: https://msdn.microsoft.com/en-us/library/Bb776455(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776455(v=vs.85)
       - name: "ILRemoveLastID"
         href: /windows/desktop/api/shlobj_core/nf-shlobj_core-ilremovelastid
       - name: "ILSaveToStream"
@@ -4809,7 +4809,7 @@
       - name: "ILSkip(PCUIDLIST_RELATIVE, UINT)"
         href: /windows/desktop/api/shlobj_core/nf-shlobj_core-ilskip
       - name: "ILSkip(PUIDLIST_RELATIVE, UINT)"
-        href: https://msdn.microsoft.com/en-us/library/Bb776459(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776459(v=vs.85)
       - name: "InetIsOffline"
         href: /windows/desktop/api/Intshcut/nf-intshcut-inetisoffline
       - name: "InitNetworkAddressControl"
@@ -4949,7 +4949,7 @@
       - name: "SHGetFileInfo"
         href: /windows/desktop/api/Shellapi/nf-shellapi-shgetfileinfoa
       - name: "SHGetFolderPathEx"
-        href: https://msdn.microsoft.com/en-us/library/Mt757093(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt757093(v=vs.85)
       - name: "SHGetIconOverlayIndex"
         href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa
       - name: "SHGetIDListFromObject"
@@ -4973,7 +4973,7 @@
       - name: "SHGetNameFromIDList"
         href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetnamefromidlist
       - name: "SHGetNameFromPropertyKey"
-        href: https://msdn.microsoft.com/en-us/library/Bb762192(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762192(v=vs.85)
       - name: "SHGetNewLinkInfo"
         href: /windows/desktop/api/Shellapi/nf-shellapi-shgetnewlinkinfoa
       - name: "SHGetPathFromIDList"
@@ -5051,14 +5051,14 @@
       - name: "URLAssociationDialog"
         href: /windows/desktop/api/Intshcut/nf-intshcut-urlassociationdialoga
       - name: "WinExecError"
-        href: https://msdn.microsoft.com/en-us/library/Bb762266(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762266(v=vs.85)
       - name: "WinHelp"
         href: /windows/desktop/api/Winuser/nf-winuser-winhelpa
     - name: "Shell Callback Functions"
       href: callbacks.md
       items: 
       - name: "BFFCALLBACK"
-        href: https://msdn.microsoft.com/en-us/library/Bb762598(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762598(v=vs.85)
       - name: "FMExtensionProc"
         href: fmextensionproc.md
       - name: "MRUCMPPROC"
@@ -5066,7 +5066,7 @@
       - name: "PAPPSTATE_CHANGE_ROUTINE"
         href: /windows/desktop/api/appnotify/nc-appnotify-pappstate_change_routine
       - name: "SUBCLASSPROC"
-        href: https://msdn.microsoft.com/en-us/library/Bb776774(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc
       - name: "FM_UNDELETE_PROC"
         href: undeletefile.md
     - name: "Shell Constants, Enumerations, and Flags"
@@ -5089,7 +5089,7 @@
       - name: "ASSOCDATA"
         href: /windows/desktop/api/Shlwapi/ne-shlwapi-assocdata
       - name: "ASSOCF"
-        href: https://msdn.microsoft.com/en-us/library/Bb762471(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0
       - name: "ASSOCIATIONLEVEL"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel
       - name: "ASSOCIATIONTYPE"
@@ -5117,7 +5117,7 @@
       - name: "CATSORT_FLAGS"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-catsort_flags
       - name: "CDCONTROLSTATE"
-        href: https://msdn.microsoft.com/en-us/library/Bb762483(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762483(v=vs.85)
       - name: "CM_ENUM_FLAGS"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_enum_flags
       - name: "CM_MASK"
@@ -5810,7 +5810,7 @@
       - name: "DEFINE_PROPERTYKEY"
         href: /windows/desktop/api/Propkeydef/nf-propkeydef-define_propertykey
       - name: "IID_PPV_ARGS"
-        href: https://msdn.microsoft.com/en-us/library/Ee330727(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args
       - name: "IsEqualPropertyKey"
         href: /windows/desktop/api/Propkeydef/nf-propkeydef-isequalpropertykey
       - name: "MAKEDLLVERULL"
@@ -6546,7 +6546,7 @@
       href: objects-cpp.md
       items: 
       - name: "PublishingWizard"
-        href: https://msdn.microsoft.com/en-us/library/Bb774108(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/scriptable-shell-objects-roadmap
     - name: "Shell Schemas"
       href: schemas.md
       items: 
@@ -6603,7 +6603,7 @@
       - name: "BASEBROWSERDATA"
         href: /windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh
       - name: "BORDERWIDTHS"
-        href: https://msdn.microsoft.com/en-us/library/Cc136564(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)
       - name: "BROWSEINFO"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_browseinfoa
       - name: "CATEGORY_INFO"
@@ -6671,9 +6671,9 @@
       - name: "FILE_ATTRIBUTES_ARRAY"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-file_attributes_array
       - name: "FILEDESCRIPTOR"
-        href: https://msdn.microsoft.com/en-us/library/Bb773288(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filedescriptora
       - name: "FILEGROUPDESCRIPTOR"
-        href: https://msdn.microsoft.com/en-us/library/Bb773290(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filegroupdescriptora
       - name: "FMS_GETDRIVEINFO"
         href: fms-getdriveinfo.md
       - name: "FMS_GETFILESEL"
@@ -6709,7 +6709,7 @@
       - name: "NC_ADDRESS"
         href: /windows/desktop/api/Shellapi/ns-shellapi-tagnc_address
       - name: "NET_ADDRESS_INFO"
-        href: https://msdn.microsoft.com/en-us/library/Bb773346(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/hkey-type
       - name: "NEWCPLINFO"
         href: /windows/desktop/api/Cpl/ns-cpl-tagnewcplinfoa
       - name: "NOTIFYICONDATA"
@@ -6765,7 +6765,7 @@
       - name: "SHCOLUMNDATA"
         href: /windows/desktop/api/Shlobj/ns-shlobj-shcolumndata
       - name: "SHCOLUMNID"
-        href: https://msdn.microsoft.com/en-us/library/Bb759748(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/objects
       - name: "SHCOLUMNINFO"
         href: /windows/desktop/api/Shlobj/ns-shlobj-shcolumninfo
       - name: "SHCOLUMNINIT"
@@ -6783,7 +6783,7 @@
       - name: "SHELLFLAGSTATE"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate
       - name: "SHELLSTATE"
-        href: https://msdn.microsoft.com/en-us/library/Bb759788(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea
       - name: "SHFILEINFO"
         href: /windows/desktop/api/Shellapi/ns-shellapi-_shfileinfoa
       - name: "SHFILEOPSTRUCT"
@@ -6815,7 +6815,7 @@
       - name: "SV2CVW2_PARAMS"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_sv2cvw2_params
       - name: "SYNC_HANDLER_ITEM_INFO"
-        href: https://msdn.microsoft.com/en-us/library/Bb759836(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/objects-cpp
       - name: "SYNCMGR_CONFLICT_ID_INFO"
         href: /windows/desktop/api/Syncmgr/ns-syncmgr-syncmgr_conflict_id_info
       - name: "SYNCMGRHANDLERINFO"
@@ -6850,7 +6850,7 @@
     - name: "DESKBANDINFO"
       href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo
     - name: "SECURELOCK"
-      href: https://msdn.microsoft.com/en-us/library/Bb762536(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-securelockcode
     - name: "FOLDERSETDATA"
       href: /windows/desktop/api/Shdeprecated/ns-shdeprecated-tagfoldersetdata
     - name: "TOOLBARITEM"
@@ -6858,7 +6858,7 @@
     - name: "AddMRUStringW"
       href: addmrustring.md
     - name: "CallCPLEntry16"
-      href: https://msdn.microsoft.com/en-us/library/Bb776387(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776387(v=vs.85)
     - name: "CanShareFolderW"
       href: cansharefolderw.md
     - name: "CharLowerWrapW"
@@ -6876,7 +6876,7 @@
     - name: "CreateUserProfileEx"
       href: createuserprofileex.md
     - name: "CscSearchApiGetInterface"
-      href: https://msdn.microsoft.com/en-us/library/Cc448310(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc448310(v=vs.85)
     - name: "DAD_AutoScroll"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll
     - name: "DAD_DragEnterEx"
@@ -6894,7 +6894,7 @@
     - name: "DoEnvironmentSubst"
       href: /windows/desktop/api/Shellapi/nf-shellapi-doenvironmentsubsta
     - name: "DriveType"
-      href: https://msdn.microsoft.com/en-us/library/Bb776410(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-drivetype
     - name: "EnumMRUListW"
       href: enummrulist.md
     - name: "EstimateFileRiskLevel"
@@ -6906,7 +6906,7 @@
     - name: "GetDateFormatWrapW"
       href: getdateformatwrapw.md
     - name: "GetFileNameFromBrowse"
-      href: https://msdn.microsoft.com/en-us/library/Bb776427(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-getfilenamefrombrowse
     - name: "GetMenuPosFromID"
       href: /windows/desktop/api/Shlwapi/nf-shlwapi-getmenuposfromid
     - name: "GetTimeFormatWrapW"
@@ -6918,9 +6918,9 @@
     - name: "ILLoadFromStreamEx(IStream*, PIDLIST_ABSOLUTE*)"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstreamex
     - name: "ILLoadFromStreamEx(IStream*, PIDLIST_RELATIVE*)"
-      href: https://msdn.microsoft.com/en-us/library/Bb776452(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776452(v=vs.85)
     - name: "ILLoadFromStreamEx(IStream*, PITEMID_CHILD*)"
-      href: https://msdn.microsoft.com/en-us/library/Bb776453(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776453(v=vs.85)
     - name: "IsCharAlphaNumericWrapW"
       href: ischaralphanumericwrapw.md
     - name: "IsNetDrive"
@@ -6928,19 +6928,19 @@
     - name: "IsUserAnAdmin"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-isuseranadmin
     - name: "LPFNDFMCALLBACK"
-      href: https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfndfmcallback
     - name: "LPFNVIEWCALLBACK"
-      href: https://msdn.microsoft.com/en-us/library/Bb776771(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfnviewcallback
     - name: "LinkWindow_RegisterClass"
       href: linkwindow-registerclass.md
     - name: "LinkWindow_UnregisterClass"
       href: linkwindow-unregisterclass.md
     - name: "MLFreeLibrary"
-      href: https://msdn.microsoft.com/en-us/library/Bb773819(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/about-user-profiles
     - name: "MLHtmlHelp"
       href: mlhtmlhelp.md
     - name: "MLLoadLibrary"
-      href: https://msdn.microsoft.com/en-us/library/Bb773822(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/callbacks
     - name: "MLWinHelp"
       href: mlwinhelp.md
     - name: "OpenRegStream"
@@ -6966,7 +6966,7 @@
     - name: "PerUserInit"
       href: /windows/desktop/api/Shlobj/nf-shlobj-peruserinit
     - name: "PFNASYNCICONTASKCALLBACK"
-      href: https://msdn.microsoft.com/en-us/library/Bb776773(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776773(v=vs.85)
     - name: "PickIconDlg"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-pickicondlg
     - name: "ReadCabinetState"
@@ -7034,7 +7034,7 @@
     - name: "SHFindFiles"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shfindfiles
     - name: "SHFlushClipboard"
-      href: https://msdn.microsoft.com/en-us/library/Bb762167(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762167(v=vs.85)
     - name: "SHFlushSFCache"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shflushsfcache
     - name: "SHFormatDateTime"
@@ -7064,7 +7064,7 @@
     - name: "SHGetSetSettings"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings
     - name: "SHGetShellStyleHInstance"
-      href: https://msdn.microsoft.com/en-us/library/Bb762202(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762202(v=vs.85)
     - name: "SHGetSpecialFolderLocation"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation
     - name: "SHGetSpecialFolderPath"
@@ -7078,7 +7078,7 @@
     - name: "SHInvokePrinterCommand"
       href: /windows/desktop/api/Shellapi/nf-shellapi-shinvokeprintercommanda
     - name: "SHIsChildOrSelf"
-      href: https://msdn.microsoft.com/en-us/library/Bb773834(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/common-file-dialog
     - name: "SHLimitInputEdit"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shlimitinputedit
     - name: "SHLoadOLE"
@@ -7086,7 +7086,7 @@
     - name: "SHLockShared"
       href: /windows/desktop/api/Shlwapi/nf-shlwapi-shlockshared
     - name: "SHMapIDListToImageListIndexAsync"
-      href: https://msdn.microsoft.com/en-us/library/Bb762218(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762218(v=vs.85)
     - name: "SHMapPIDLToSystemImageListIndex"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shmappidltosystemimagelistindex
     - name: "SHMessageBoxCheck"
@@ -7148,25 +7148,25 @@
     - name: "SHLWAPI Wrapper Functions"
       href: shlwapi-wrappers.md
     - name: "FileOpen"
-      href: https://msdn.microsoft.com/en-us/library/Bb787887(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/samples-namespacetreecontrol
     - name: "FileTypes"
-      href: https://msdn.microsoft.com/en-us/library/Bb787886(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/samples-nondefaultdropmenuverb
     - name: "FolderItemsFDF"
-      href: https://msdn.microsoft.com/en-us/library/Bb787785(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/functions
     - name: "ImageRecompress"
-      href: https://msdn.microsoft.com/en-us/library/Bb774154(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/known-folders
     - name: "MenuBand"
-      href: https://msdn.microsoft.com/en-us/library/Bb774113(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/profiles-directory
     - name: "MenuBandSite"
-      href: https://msdn.microsoft.com/en-us/library/Bb774112(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/mandatory-user-profiles
     - name: "NewMenu"
-      href: https://msdn.microsoft.com/en-us/library/Bb774110(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/roaming-user-profiles
     - name: "ShellFldSetExt"
-      href: https://msdn.microsoft.com/en-us/library/Bb774061(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/user-profiles
     - name: "ShellFolderBand"
-      href: https://msdn.microsoft.com/en-us/library/Bb774152(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/local-user-profiles
     - name: "Shell Image Store"
-      href: https://msdn.microsoft.com/en-us/library/Bb773967(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/context-menu
     - name: "IBrowserService"
       href: /windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice
       items: 
@@ -7379,33 +7379,33 @@
       - name: "GetSupportedActionTypes method"
         href: /windows/desktop/api/Shobjidl/nf-shobjidl-icdburnext-getsupportedactiontypes
     - name: "IColumnProvider"
-      href: https://msdn.microsoft.com/en-us/library/Bb776147(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider
       items: 
       - name: "GetColumnInfo"
-        href: https://msdn.microsoft.com/en-us/library/Bb776145(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo
       - name: "GetItemData"
-        href: https://msdn.microsoft.com/en-us/library/Bb776146(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata
       - name: "Initialize"
-        href: https://msdn.microsoft.com/en-us/library/Bb776148(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize
     - name: "IContextMenuSite"
       href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite
       items: 
       - name: "DoContextMenuPopup method"
         href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup
     - name: "IDefViewFrame"
-      href: https://msdn.microsoft.com/en-us/library/Bb762075(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-idefviewframe
     - name: "IDefViewID"
-      href: https://msdn.microsoft.com/en-us/library/Bb762074(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762074(v=vs.85)
     - name: "IDefViewSafety"
-      href: https://msdn.microsoft.com/en-us/library/Bb762072(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762072(v=vs.85)
       items: 
       - name: "IsSafePage"
-        href: https://msdn.microsoft.com/en-us/library/Bb762073(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762073(v=vs.85)
     - name: "IDeskBand"
-      href: https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband
       items: 
       - name: "GetBandInfo"
-        href: https://msdn.microsoft.com/en-us/library/Bb762066(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskband-getbandinfo
     - name: "IDeskBand2"
       href: /windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2
       items: 
@@ -7430,39 +7430,39 @@
       - name: "SetClient method"
         href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskbar-setclient
     - name: "IDocViewSite"
-      href: https://msdn.microsoft.com/en-us/library/Bb762037(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-idocviewsite
       items: 
       - name: "OnSetTitle method"
-        href: https://msdn.microsoft.com/en-us/library/Bb762038(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-idocviewsite-onsettitle
     - name: "IDVGetEnum"
-      href: https://msdn.microsoft.com/en-us/library/Bb762022(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762022(v=vs.85)
       items: 
       - name: "CreateEnumIDListFromContents method"
-        href: https://msdn.microsoft.com/en-us/library/Bb762021(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762021(v=vs.85)
       - name: "SetEnumReadyCallback method"
-        href: https://msdn.microsoft.com/en-us/library/Bb762023(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762023(v=vs.85)
     - name: "IEnumSyncItems"
-      href: https://msdn.microsoft.com/en-us/library/Bb761957(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761957(v=vs.85)
       items: 
       - name: "Clone method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761956(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761956(v=vs.85)
       - name: "Next method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761958(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761958(v=vs.85)
       - name: "Reset method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761959(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761959(v=vs.85)
       - name: "Skip method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761960(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761960(v=vs.85)
     - name: "IEnumSyncSchedules"
-      href: https://msdn.microsoft.com/en-us/library/Bb761937(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761937(v=vs.85)
       items: 
       - name: "Clone method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761936(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761936(v=vs.85)
       - name: "Next method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761938(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761938(v=vs.85)
       - name: "Reset method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761939(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761939(v=vs.85)
       - name: "Skip method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761940(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761940(v=vs.85)
     - name: "IEnumUserIdentity"
       href: ienumuseridentity.md
       items: 
@@ -7480,7 +7480,7 @@
       href: /windows/desktop/api/Shdeprecated/nn-shdeprecated-iexpdispsupport
       items: 
       - name: "FindCIE4ConnectionPoint"
-        href: https://msdn.microsoft.com/en-us/library/Bb761926(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupport-findconnectionpoint
       - name: "OnInvoke"
         href: /windows/desktop/api/Shdeprecated/nf-shdeprecated-iexpdispsupport-oninvoke
       - name: "OnTranslateAccelerator"
@@ -7527,15 +7527,15 @@
       - name: "TranslateMenuMessage method"
         href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage
     - name: "IPassportClientServices"
-      href: https://msdn.microsoft.com/en-us/library/Bb775354(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/syncmgr-using-from-a-program
       items: 
       - name: "MemberExists method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775356(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/thumbnails-and-icons-bumper
     - name: "IPassportWizard"
-      href: https://msdn.microsoft.com/en-us/library/Bb775350(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/thumbnail-providers
       items: 
       - name: "SetOptions method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775352(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/thumbnail-provider-guidelines
     - name: "IRegTreeItem"
       href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem
       items: 
@@ -7544,91 +7544,91 @@
       - name: "SetCheckState method"
         href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iregtreeitem-setcheckstate
     - name: "IShellExecuteHook"
-      href: https://msdn.microsoft.com/en-us/library/Bb775101(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application
       items: 
       - name: "Execute"
-        href: https://msdn.microsoft.com/en-us/library/Bb775099(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-file-type
     - name: "IShellFolderBand"
-      href: https://msdn.microsoft.com/en-us/library/Bb775039(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband
       items: 
       - name: "GetBandInfoSFB method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775035(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb
       - name: "InitializeSFB method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775037(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-initializesfb
       - name: "SetBandInfoSFB method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775041(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb
     - name: "IShellFolderView"
-      href: https://msdn.microsoft.com/en-us/library/Bb774989(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderview
       items: 
       - name: "AddObject method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774969(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-addobject
       - name: "ArrangeGrid method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774970(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-arrangegrid
       - name: "AutoArrange method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774971(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-autoarrange
       - name: "GetArrangeParam method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774972(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getarrangeparam
       - name: "GetAutoArrange method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774973(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getautoarrange
       - name: "GetDragPoint method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774974(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getdragpoint
       - name: "GetDropPoint method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774975(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getdroppoint
       - name: "GetItemSpacing method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774976(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getitemspacing
       - name: "GetObject method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774977(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject
       - name: "GetObjectCount method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774979(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobjectcount
       - name: "GetSelectedCount method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774981(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getselectedcount
       - name: "GetSelectedObjects method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774983(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getselectedobjects
       - name: "IsBkDropTarget method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774985(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-isbkdroptarget
       - name: "IsDropOnSource method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774987(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-isdroponsource
       - name: "MoveIcons method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774991(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-moveicons
       - name: "QuerySupport method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774993(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-querysupport
       - name: "Rearrange method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774995(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-rearrange
       - name: "RefreshObject method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774997(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-refreshobject
       - name: "RemoveObject method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775001(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-removeobject
       - name: "Select method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775003(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-select
       - name: "SetAutomationObject method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775005(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setautomationobject
       - name: "SetCallback method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775007(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setcallback
       - name: "SetClipboard method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775009(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setclipboard
       - name: "SetItemPos method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775011(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setitempos
       - name: "SetObjectCount method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775013(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setobjectcount
       - name: "SetPoints method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775015(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setpoints
       - name: "SetRedraw method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775017(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setredraw
       - name: "UpdateObject method"
-        href: https://msdn.microsoft.com/en-us/library/Bb775019(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-updateobject
     - name: "IShellIconOverlayManager"
-      href: https://msdn.microsoft.com/en-us/library/Bb761253(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager
       items: 
       - name: "GetFileOverlayInfo method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761249(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-getfileoverlayinfo
       - name: "GetReservedOverlayInfo method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761251(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-getreservedoverlayinfo
       - name: "LoadNonloadedOverlayIdentifiers method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761255(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-loadnonloadedoverlayidentifiers
       - name: "OverlayIndexFromImageIndex method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761257(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/shell/how-to-suppress-and-control-visibility
       - name: "RefreshOverlayImages method"
-        href: https://msdn.microsoft.com/en-us/library/Bb761259(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-refreshoverlayimages
     - name: "IShellImageData"
       href: /windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata
       items: 
@@ -7693,18 +7693,18 @@
       - name: "SetEncoderParams method"
         href: /windows/desktop/api/Shimgdata/nf-shimgdata-ishellimagedata-setencoderparams
     - name: "IShellImageStore"
-      href: https://msdn.microsoft.com/en-us/library/Bb761154(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore
       items: 
       - name: "Close"
-        href: https://msdn.microsoft.com/en-us/library/Bb761146(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-close
       - name: "Commit"
-        href: https://msdn.microsoft.com/en-us/library/Bb761148(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-commit
       - name: "GetEntry"
-        href: https://msdn.microsoft.com/en-us/library/Bb761150(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-getentry
       - name: "IsEntryInStore"
-        href: https://msdn.microsoft.com/en-us/library/Bb761152(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-isentryinstore
       - name: "Open"
-        href: https://msdn.microsoft.com/en-us/library/Bb761156(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-open
     - name: "IShellService"
       href: /windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice
       items: 
@@ -7722,75 +7722,75 @@
       - name: "Status method"
         href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-status
     - name: "IShellTaskScheduler2"
-      href: https://msdn.microsoft.com/en-us/library/Bb774852(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb774852(v=vs.85)
       items: 
       - name: "AddTask2 method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774848(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb774848(v=vs.85)
       - name: "MoveTask method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774854(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb774854(v=vs.85)
     - name: "ISyncSchedule"
-      href: https://msdn.microsoft.com/en-us/library/Bb774693(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774693(v=vs.85)
       items: 
       - name: "AddItem method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774680(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774680(v=vs.85)
       - name: "EditSyncSchedule method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774681(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774681(v=vs.85)
       - name: "EnumItems method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774682(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774682(v=vs.85)
       - name: "GetAccountInformation method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774683(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774683(v=vs.85)
       - name: "GetConnection method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774684(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774684(v=vs.85)
       - name: "GetFlags method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774685(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774685(v=vs.85)
       - name: "GetITask method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774686(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774686(v=vs.85)
       - name: "GetItemCheck method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774687(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774687(v=vs.85)
       - name: "GetMostRecentRunTime method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774688(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774688(v=vs.85)
       - name: "GetNextRunTime method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774689(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774689(v=vs.85)
       - name: "GetScheduleCookie method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774690(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774690(v=vs.85)
       - name: "GetScheduleName method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774691(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774691(v=vs.85)
       - name: "GetTrigger method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774692(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774692(v=vs.85)
       - name: "RegisterItems method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774694(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774694(v=vs.85)
       - name: "Save method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774696(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774696(v=vs.85)
       - name: "SetAccountInformation method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774698(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb774698(v=vs.85)
       - name: "SetConnection method"
-        href: https://msdn.microsoft.com/en-us/library/Bb760788(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb760788(v=vs.85)
       - name: "SetFlags method"
-        href: https://msdn.microsoft.com/en-us/library/Bb760790(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb760790(v=vs.85)
       - name: "SetItemCheck method"
-        href: https://msdn.microsoft.com/en-us/library/Bb760792(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb760792(v=vs.85)
       - name: "SetScheduleName method"
-        href: https://msdn.microsoft.com/en-us/library/Bb760794(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb760794(v=vs.85)
       - name: "UnregisterItems method"
-        href: https://msdn.microsoft.com/en-us/library/Bb760796(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule/bb760796(v=vs.85)
     - name: "ISyncScheduleMgr"
-      href: https://msdn.microsoft.com/en-us/library/Bb774672(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule-mgr/bb774672(v=vs.85)
       items: 
       - name: "CreateSchedule method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774668(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule-mgr/bb774668(v=vs.85)
       - name: "EnumSyncSchedules method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774670(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule-mgr/bb774670(v=vs.85)
       - name: "LaunchScheduleWizard method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774674(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule-mgr/bb774674(v=vs.85)
       - name: "OpenSchedule method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774676(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule-mgr/bb774676(v=vs.85)
       - name: "RemoveSchedule method"
-        href: https://msdn.microsoft.com/en-us/library/Bb774678(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/isync-schedule-mgr/bb774678(v=vs.85)
     - name: "IThumbnailCapture"
-      href: https://msdn.microsoft.com/en-us/library/Bb774622(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ithumbnailcapture
       items: 
       - name: "CaptureThumbnail"
-        href: https://msdn.microsoft.com/en-us/library/Bb774620(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ithumbnailcapture-capturethumbnail
     - name: "ITravelEntry"
       href: /windows/desktop/api/Shdeprecated/nn-shdeprecated-itravelentry
       items: 

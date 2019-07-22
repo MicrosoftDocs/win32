@@ -153,7 +153,7 @@ The following tables list functionality and feature support comparisons for the 
 [About File Management](about-file-management.md)
 </dt> <dt>
 
-[Single-Instance Store and SIS Backup](https://msdn.microsoft.com/library/windows/desktop/aa362538)
+[Single-Instance Store and SIS Backup](https://docs.microsoft.com/windows/desktop/Backup/single-instance-store-and-sis-backup)
 </dt> </dl>
 
  

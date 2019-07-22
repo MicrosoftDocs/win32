@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Security Descriptor Components
 
-Having used the [**IADs.Get**](https://msdn.microsoft.com/library/aa746347) method to retrieve an [**IADsSecurityDescriptor**](https://msdn.microsoft.com/library/aa706128) interface pointer, you can use the **IADsSecurityDescriptor** properties to read or write the components of a directory object's security descriptor. For example, to get or set the object's DACL, use the [**DiscretionaryAcl**](https://msdn.microsoft.com/library/aa706131) property.
+Having used the [**IADs.Get**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve an [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) interface pointer, you can use the **IADsSecurityDescriptor** properties to read or write the components of a directory object's security descriptor. For example, to get or set the object's DACL, use the [**DiscretionaryAcl**](https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) property.
 
 A security descriptor can store the following data:
 

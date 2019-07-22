@@ -10,18 +10,18 @@ ms.date: 05/31/2018
 
 An app deployment failure can be caused by a failure to validate the digital signature of the app package. Learn how to recognize these failures, and what to do about them.
 
-When you deploy a Windows Store app, Windows always attempts to validate the digital signature on the app package. Failures during signature validation block deployment of the package. But why the package didn't validate might not be obvious. In particular, if you sign your packages with private certificates for local testing, you often must manage the trust for those certificates as well. An incorrect certificate trust configuration can lead to signature validation failures.
+When you deploy a packaged Windows app, Windows always attempts to validate the digital signature on the app package. Failures during signature validation block deployment of the package. But why the package didn't validate might not be obvious. In particular, if you sign your packages with private certificates for local testing, you often must manage the trust for those certificates as well. An incorrect certificate trust configuration can lead to signature validation failures.
 
 ## What you need to know
 
 ### Technologies
 
--   [Packaging, deployment, and query of Windows Store apps](appx-portal.md)
--   [Certificate Trust Verification](https://msdn.microsoft.com/library/windows/desktop/aa376546)
+-   [Packaging, deployment, and query of Windows apps](appx-portal.md)
+-   [Certificate Trust Verification](https://docs.microsoft.com/windows/desktop/SecCrypto/certificate-trust-verification)
 
 ### Prerequisites
 
--   [Windows Event Log](https://msdn.microsoft.com/library/windows/desktop/aa385780) to diagnose installation failures.
+-   [Windows Event Log](https://docs.microsoft.com/windows/desktop/WES/windows-event-log) to diagnose installation failures.
 -   [Certutil tasks for managing certificates](https://msdn.microsoft.com/en-us/library/Cc772898(v=WS.10).aspx) for certificate store manipulation during troubleshooting
 
 ## Instructions
@@ -39,14 +39,14 @@ Depending on how you attempted to deploy your app, you might not have received a
 
     For deployment errors, search for the most recent error event 404. This error event provides you with the error code and a description of why the deployment failed. If an error event 465 preceded the 404 event, there was a problem opening the package.
 
-If the 465 error didn't occur, see general [Troubleshooting packaging, deployment, and query of Windows Store apps](troubleshooting.md). Otherwise, refer to this table for common error codes that can show up in the error string for error event 465:
+If the 465 error didn't occur, see general [Troubleshooting packaging, deployment, and query of Windows apps](troubleshooting.md). Otherwise, refer to this table for common error codes that can show up in the error string for error event 465:
 
 | Error code | Error                                 | Description                                                                                                          | Suggestion                                                                                                                                                                                                 |
 |------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x80073CF0 | ERROR\_INSTALL\_OPEN\_PACKAGE\_FAILED | The app package could not be opened.                                                                                 | This error typically indicates a problem with the package. You need to build and sign the package again. For more info, see [Using App Packager](make-appx-package--makeappx-exe-.md). |
 | 0x80080205 | APPX\_E\_INVALID\_BLOCKMAP            | The app package has been tampered with or has an invalid block map.                                                  | The package is corrupted. You need to build and sign the package again. For more info, see [Using App Packager](make-appx-package--makeappx-exe-.md).                                  |
 | 0x800B0004 | TRUST\_E\_SUBJECT\_NOT\_TRUSTED       | The app package has been tampered with.                                                                              | The package contents no longer match its digital signature. You need to sign the package again. For more info, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md).  |
-| 0x800B0100 | TRUST\_E\_NOSIGNATURE                 | The app package is unsigned.                                                                                         | Only signed Windows Store app packages can be deployed. For info about signing an app package, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md).                  |
+| 0x800B0100 | TRUST\_E\_NOSIGNATURE                 | The app package is unsigned.                                                                                         | Only signed Windows app packages can be deployed. For info about signing an app package, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md).                  |
 | 0x800B0109 | CERT\_E\_UNTRUSTED\_ROOT              | The certificate chain that was used to sign the app package ends in a root certificate that isn't trusted.           | Continue to Step 2 to troubleshoot the certificate trust.                                                                                                                                                  |
 | 0x800B010A | CERT\_E\_CHAINING                     | No certificate chain could be built to a trusted root authority from the cert that was used to sign the app package. | Continue to Step 2 to troubleshoot the certificate trust.                                                                                                                                                  |
 
@@ -132,11 +132,11 @@ You can remove the certificate after you no longer need it.
     Certutil -delStore TrustedPeople certID
     ```
 
-We recommend that you avoid manually adding root certificates to the local machine [Trusted Root Certification Authorities Certificate Store](https://msdn.microsoft.com/library/windows/hardware/ff553506). Having several applications that are signed with certificates that chain to the same root certificate, such as line of business applications, can be more efficient than installing individual certificates to the Trusted People store. The Trusted People store contains certificates that are considered trusted by default and so aren't verified by higher authorities or certificate trust lists or chains. For considerations around adding certificates to the Trusted Root Certification Authorities certificate store, see [Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx).
+We recommend that you avoid manually adding root certificates to the local machine [Trusted Root Certification Authorities Certificate Store](https://docs.microsoft.com/windows-hardware/drivers/install/trusted-root-certification-authorities-certificate-store). Having several applications that are signed with certificates that chain to the same root certificate, such as line of business applications, can be more efficient than installing individual certificates to the Trusted People store. The Trusted People store contains certificates that are considered trusted by default and so aren't verified by higher authorities or certificate trust lists or chains. For considerations around adding certificates to the Trusted Root Certification Authorities certificate store, see [Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx).
 
 ## Security Considerations
 
-By adding a certificate to [local machine certificate stores](https://msdn.microsoft.com/library/windows/hardware/ff548653), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store. Promptly remove those certificates when they are no longer necessary, to prevent them from being used to compromise system trust. If you create your own test certificates for signing app packages, we also recommend that you restrict the privileges that are associated with the test certificate. For info about creating test certificates for signing app packages, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
+By adding a certificate to [local machine certificate stores](https://docs.microsoft.com/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store. Promptly remove those certificates when they are no longer necessary, to prevent them from being used to compromise system trust. If you create your own test certificates for signing app packages, we also recommend that you restrict the privileges that are associated with the test certificate. For info about creating test certificates for signing app packages, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 
 ## Related topics
 
@@ -151,7 +151,7 @@ By adding a certificate to [local machine certificate stores](https://msdn.micro
 **Concepts**
 </dt> <dt>
 
-[Troubleshooting packaging, deployment, and query of Windows Store apps](troubleshooting.md)
+[Troubleshooting packaging, deployment, and query of Windows apps](troubleshooting.md)
 </dt> <dt>
 
 [Certutil tasks for managing certificates](https://msdn.microsoft.com/en-us/library/Cc772898(v=WS.10).aspx)

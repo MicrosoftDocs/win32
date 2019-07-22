@@ -83,7 +83,7 @@ api_location:
 
 # Win32\_ComputerSystem class
 
-The **Win32\_ComputerSystem** [WMI class](https://msdn.microsoft.com/library/aa393244) represents a computer system running Windows.
+The **Win32\_ComputerSystem** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) represents a computer system running Windows.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -199,7 +199,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 24\|Hardware Security Settings\|AdminPasswordStatus")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 24\|Hardware Security Settings\|AdminPasswordStatus")
 </dt> </dl>
 
 System hardware security settings for administrator password status.
@@ -245,7 +245,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 If **True**, the system manages the page file.
@@ -261,7 +261,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|AutoReboot")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|AutoReboot")
 </dt> </dl>
 
 If **True**, the automatic reset boot option is enabled.
@@ -277,7 +277,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 If **True**, the automatic reset is enabled.
@@ -293,7 +293,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|Capabilites\|Boot Option on Limit")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 23\|Capabilites\|Boot Option on Limit")
 </dt> </dl>
 
 Boot option limit is ON. Identifies the system action when the **ResetLimit** value is reached.
@@ -339,7 +339,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|Capabilities\|Boot Option")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 23\|Capabilities\|Boot Option")
 </dt> </dl>
 
 Type of reboot action after the time on the watchdog timer is elapsed.
@@ -385,7 +385,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 If **True**, indicates whether a boot ROM is supported.
@@ -401,7 +401,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 32\|System Boot Information\|Boot Status")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 32\|System Boot Information\|Boot Status")
 </dt> </dl>
 
 Status and Additional Data fields that identify the boot status.
@@ -421,7 +421,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|[**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385)\|SM\_CLEANBOOT")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|[**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)\|SM\_CLEANBOOT")
 </dt> </dl>
 
 System is started. Fail-safe boot bypasses the user startup files also called SafeBoot.
@@ -464,7 +464,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
 </dt> </dl>
 
 Short description of the object a one-line string.
@@ -482,7 +482,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 3\|Bootup State")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 3\|Bootup State")
 </dt> </dl>
 
 Boot up state of the chassis.
@@ -544,7 +544,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 3\|Chassis\|SKU Number")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 3\|Chassis\|SKU Number")
 </dt> </dl>
 
 The chassis or enclosure SKU number as a string.
@@ -564,7 +564,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/aa393651)
+Qualifiers: [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Name of the first concrete class in the inheritance chain of an instance. You can use this property with other properties of the class to identify all instances of the class and its subclasses.
@@ -582,7 +582,7 @@ Data type: **sint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/windows/desktop/ms725481)\|Bias"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("minutes")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information)\|Bias"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Amount of time the unitary computer system is offset from Coordinated Universal Time (UTC).
@@ -598,7 +598,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Time Functions\|[**GetTimeZoneInformation**](https://msdn.microsoft.com/library/windows/desktop/ms724421)")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Time Functions\|[**GetTimeZoneInformation**](https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformation)")
 </dt> </dl>
 
 If **True**, the daylight savings mode is ON.
@@ -614,7 +614,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Description")
+Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -632,7 +632,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|GetComputerNameEx\|ComputerNameDnsHostname")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|GetComputerNameEx\|ComputerNameDnsHostname")
 </dt> </dl>
 
 Name of local computer according to the domain name server (DNS).
@@ -648,7 +648,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Network Management Structures\|[**WKSTA\_INFO\_100**](https://msdn.microsoft.com/library/windows/desktop/aa371402)\|wki100\_langroup")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**WKSTA\_INFO\_100**](https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_100)\|wki100\_langroup")
 </dt> </dl>
 
 Name of the domain to which a computer belongs.
@@ -669,7 +669,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Directory Service (Ds) Structures\| [**DSROLE\_PRIMARY\_DOMAIN\_INFO\_BASIC**](https://msdn.microsoft.com/library/ms676046)\|[**DSROLE\_MACHINE\_ROLE**](https://msdn.microsoft.com/library/ms676043)\| MachineRole")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Directory Service (Ds) Structures\| [**DSROLE\_PRIMARY\_DOMAIN\_INFO\_BASIC**](https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_primary_domain_info_basic)\|[**DSROLE\_MACHINE\_ROLE**](https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_machine_role)\| MachineRole")
 </dt> </dl>
 
 Role of a computer in an assigned domain workgroup. A domain workgroup is a collection of computers on the same network. For example, a **DomainRole** property may show that a computer is a member workstation.
@@ -744,7 +744,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 24\|Hardware Security Settings\|FrontPanelResetStatus")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 24\|Hardware Security Settings\|FrontPanelResetStatus")
 </dt> </dl>
 
 The following table lists the hardware security settings for the reset button on a computer.
@@ -790,7 +790,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 If **True**, a hypervisor is present.
@@ -808,7 +808,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 If **True**, an infrared (IR) port exists on a computer system.
@@ -841,7 +841,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Install Date")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
 </dt> </dl>
 
 Object is installed. An object does not need a value to indicate that it is installed.
@@ -859,7 +859,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 24\|Hardware Security Settings\|KeyboardPasswordStatus")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 24\|Hardware Security Settings\|KeyboardPasswordStatus")
 </dt> </dl>
 
 System hardware security settings for Keyboard Password Status.
@@ -920,7 +920,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 1\|System Information\|Manufacturer")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 1\|System Information\|Manufacturer")
 </dt> </dl>
 
 Name of a computer manufacturer.
@@ -938,7 +938,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 1\|System Information\|Product Name")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 1\|System Information\|Product Name")
 </dt> </dl>
 
 Product name that a manufacturer gives to a computer. This property must have a value.
@@ -954,7 +954,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Key of a [**CIM\_System**](cim-system.md) instance in an enterprise environment.
@@ -1093,7 +1093,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Network Management Structures\|[**SERVER\_INFO\_101**](https://msdn.microsoft.com/library/windows/desktop/aa370903)\|sv101\_type\|SV\_TYPE\_SERVER")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SERVER\_INFO\_101**](https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101)\|sv101\_type\|SV\_TYPE\_SERVER")
 </dt> </dl>
 
 If **True**, the network Server Mode is enabled.
@@ -1109,7 +1109,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 Number of logical processors available on the computer.
@@ -1127,7 +1127,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms724958)\|dwNumberOfProcessors")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info)\|dwNumberOfProcessors")
 </dt> </dl>
 
 Number of physical processors currently available on a system. This is the number of enabled processors for a system, which does not include the disabled processors. If a computer system has two physical processors each containing two logical processors, then the value of **NumberOfProcessors** is 2 and **NumberOfLogicalProcessors** is 4. The processors may be multicore or they may be hyperthreading processors. For more information, see Remarks.
@@ -1143,7 +1143,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 List of data for a bitmap that the original equipment manufacturer (OEM) creates.
@@ -1159,7 +1159,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 11\|OEM Strings")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 11\|OEM Strings")
 </dt> </dl>
 
 List of free-form strings that an OEM defines. For example, an OEM defines the part numbers for system reference documents, manufacturer contact information, and so on.
@@ -1175,7 +1175,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("")
 </dt> </dl>
 
 If **True**, the computer is part of a domain. If the value is **NULL**, the computer is not in a domain or the status is unknown. If you remove the computer from a domain, the value becomes **false**.
@@ -1191,7 +1191,7 @@ Data type: **sint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|Timeout"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("milliseconds")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 23\|Timeout"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("milliseconds")
 </dt> </dl>
 
 Time delay before a reboot is initiated in milliseconds. It is used after a system power cycle, local or remote system reset, and automatic system reset. A value of  1 (minus one) indicates that the pause value is unknown.
@@ -1209,7 +1209,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("")
 </dt> </dl>
 
 Type of the computer in use, such as laptop, desktop, or Tablet.
@@ -1294,7 +1294,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("")
 </dt> </dl>
 
 Type of the computer in use, such as laptop, desktop, or Tablet.
@@ -1384,7 +1384,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|System Power Controls\|001.2")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System Power Controls\|001.2")
 </dt> </dl>
 
 Array of the specific power-related capabilities of a logical device.
@@ -1443,7 +1443,7 @@ The device can change its power state based on usage or other criteria.
 
 </dt> <dd>
 
-The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/library/aa390351).
+The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes).
 
 </dd> <dt>
 
@@ -1497,7 +1497,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 24\|Hardware Security Settings\|PowerOnPasswordStatus")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 24\|Hardware Security Settings\|PowerOnPasswordStatus")
 </dt> </dl>
 
 System hardware security settings for Power-On Password Status.
@@ -1638,7 +1638,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 3\|System Enclosure or Chassis\|Power Supply State")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 3\|System Enclosure or Chassis\|Power Supply State")
 </dt> </dl>
 
 State of the power supply or supplies when last booted.
@@ -1721,7 +1721,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64)
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Name of the primary system owner.
@@ -1739,7 +1739,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|System Hardware Security\|001.4")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System Hardware Security\|001.4")
 </dt> </dl>
 
 If enabled, the value is 4 and the unitary computer system can be reset using the power and reset buttons. If disabled, the value is 3, and a reset is not allowed.
@@ -1798,7 +1798,7 @@ Data type: **sint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|System Reset\|Reset Count")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 23\|System Reset\|Reset Count")
 </dt> </dl>
 
 Number of automatic resets since the last reset. A value of  1 (minus one) indicates that the count is unknown.
@@ -1814,7 +1814,7 @@ Data type: **sint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|System Reset\| Reset Limit")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 23\|System Reset\| Reset Limit")
 </dt> </dl>
 
 Number of consecutive times a system reset is attempted. A value of  1 (minus one) indicates that the limit is unknown.
@@ -1845,7 +1845,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (10), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Status")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
 </dt> </dl>
 
 Current status of an object. Various operational and nonoperational statuses can be defined. Operational statuses include: OK, Degraded, and Pred Fail, which is an element such as a SMART-enabled hard disk drive that may be functioning properly, but predicts a failure in the near future. Nonoperational statuses include: Error, Starting, Stopping, and Service, which can apply during mirror-resilvering of a disk, reloading a user permissions list, or other administrative work. Not all status work is online, but the managed element is not OK or in one of the other states.
@@ -1951,7 +1951,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|[**GetPrivateProfileString**](https://msdn.microsoft.com/library/windows/desktop/ms724353)\|Support Information")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|[**GetPrivateProfileString**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring)\|Support Information")
 </dt> </dl>
 
 List of the support contact information for the Windows operating system.
@@ -1967,7 +1967,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 1\|System Information\|Family")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 1\|System Information\|Family")
 </dt> </dl>
 
 The family to which a particular computer belongs. A family refers to a set of computers that are similar but not identical from a hardware or software point of view.
@@ -1987,7 +1987,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 1\|System Information\|SKU Number")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 1\|System Information\|SKU Number")
 </dt> </dl>
 
 Identifies a particular computer configuration for sale. It is sometimes also called a product ID or purchase order number.
@@ -2007,10 +2007,10 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**Privileges**](https://msdn.microsoft.com/library/aa393651) ("SeSystemEnvironmentPrivilege"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|[**GetPrivateProfileInt**](https://msdn.microsoft.com/library/windows/desktop/ms724345)\|Boot Loader\|timeout"), [**units**](https://msdn.microsoft.com/library/aa393650) ("seconds")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Privileges**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("SeSystemEnvironmentPrivilege"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|[**GetPrivateProfileInt**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofileint)\|Boot Loader\|timeout"), [**units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("seconds")
 </dt> </dl>
 
-**SystemStartupDelay** is no longer available for use because Boot.ini is not used to configure system startup. Instead, use the [BCD classes](https://msdn.microsoft.com/library/windows/desktop/aa362675) supplied by the Boot Configuration Data (BCD) WMI provider or the **Bcdedit** command.
+**SystemStartupDelay** is no longer available for use because Boot.ini is not used to configure system startup. Instead, use the [BCD classes](https://docs.microsoft.com/previous-versions/windows/desktop/bcd/bcd-classes) supplied by the Boot Configuration Data (BCD) WMI provider or the **Bcdedit** command.
 
 </dd> <dt>
 
@@ -2023,10 +2023,10 @@ Data type: **string** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**Privileges**](https://msdn.microsoft.com/library/aa393651) ("SeSystemEnvironmentPrivilege"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|[**GetPrivateProfileSection**](https://msdn.microsoft.com/library/windows/desktop/ms724348)\|Operating Systems")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Privileges**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("SeSystemEnvironmentPrivilege"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|[**GetPrivateProfileSection**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection)\|Operating Systems")
 </dt> </dl>
 
-**SystemStartupOptions** is no longer available for use because Boot.ini is not used to configure system startup. Instead, use the [BCD classes](https://msdn.microsoft.com/library/windows/desktop/aa362675) supplied by the Boot Configuration Data (BCD) WMI provider or the **Bcdedit** command.
+**SystemStartupOptions** is no longer available for use because Boot.ini is not used to configure system startup. Instead, use the [BCD classes](https://docs.microsoft.com/previous-versions/windows/desktop/bcd/bcd-classes) supplied by the Boot Configuration Data (BCD) WMI provider or the **Bcdedit** command.
 
 </dd> <dt>
 
@@ -2039,10 +2039,10 @@ Data type: **uint8**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**Privileges**](https://msdn.microsoft.com/library/aa393651) ("SeSystemEnvironmentPrivilege"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Privileges**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("SeSystemEnvironmentPrivilege"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
-**SystemStartupSetting** is no longer available for use because Boot.ini is not used to configure system startup. Instead, use the [BCD classes](https://msdn.microsoft.com/library/windows/desktop/aa362675) supplied by the Boot Configuration Data (BCD) WMI provider or the **Bcdedit** command.
+**SystemStartupSetting** is no longer available for use because Boot.ini is not used to configure system startup. Instead, use the [BCD classes](https://docs.microsoft.com/previous-versions/windows/desktop/bcd/bcd-classes) supplied by the Boot Configuration Data (BCD) WMI provider or the **Bcdedit** command.
 
 </dd> <dt>
 
@@ -2055,7 +2055,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms724958)\|wProcessorArchitecture")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info)\|wProcessorArchitecture")
 </dt> </dl>
 
 System running on the Windows-based computer. This property must have a value.
@@ -2147,7 +2147,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 3\|System Enclosure or Chassis\|Thermal State")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 3\|System Enclosure or Chassis\|Thermal State")
 </dt> </dl>
 
 Thermal state of the system when last booted.
@@ -2209,14 +2209,14 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Memory Management Structures\|[**MEMORYSTATUS**](https://msdn.microsoft.com/library/windows/desktop/aa366772)\|dwTotalPhys"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("bytes")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Memory Management Structures\|[**MEMORYSTATUS**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_memorystatus)\|dwTotalPhys"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bytes")
 </dt> </dl>
 
 Total size of physical memory. Be aware that, under some circumstances, this property may not return an accurate value for the physical memory. For example, it is not accurate if the BIOS is using some of the physical memory. For an accurate value, use the **Capacity** property in [**Win32\_PhysicalMemory**](win32-physicalmemory.md) instead.
 
 Example: 67108864
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -2229,7 +2229,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|System Information Functions\|[**GetUserName**](https://msdn.microsoft.com/library/windows/desktop/ms724432)")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|System Information Functions\|[**GetUserName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getusernamea)")
 </dt> </dl>
 
 Name of a user that is logged on currently. This property must have a value. In a terminal services session, **UserName** returns the name of the user that is logged on to the console not the user logged on during the terminal service session.
@@ -2247,7 +2247,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 1\|System Information\|Wake-up Type")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 1\|System Information\|Wake-up Type")
 </dt> </dl>
 
 Event that causes the system to power up.
@@ -2330,7 +2330,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("")
 </dt> </dl>
 
 Name of the workgroup for this computer. If the value of the **PartOfDomain** property is **False**, then the name of the workgroup is returned.
@@ -2443,16 +2443,16 @@ else
 [**CIM\_UnitaryComputerSystem**](cim-unitarycomputersystem.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
-[WMI Tasks: Accounts and Domains](https://msdn.microsoft.com/library/aa394586)
+[WMI Tasks: Accounts and Domains](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
 </dt> <dt>
 
-[WMI Tasks: Computer Hardware](https://msdn.microsoft.com/library/aa394587)
+[WMI Tasks: Computer Hardware](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--computer-hardware)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/aa394591)
+[WMI Tasks: Desktop Management](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--desktop-management)
 </dt> </dl>
 
  

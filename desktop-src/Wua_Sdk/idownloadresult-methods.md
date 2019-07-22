@@ -2,7 +2,7 @@
 Description: The IDownloadResult interface defines the following method.
 ms.assetid: 86dd0c8e-8c03-4721-b708-fd3850afe962
 title: IDownloadResult Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

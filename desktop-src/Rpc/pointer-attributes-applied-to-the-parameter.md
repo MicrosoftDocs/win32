@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Pointer Attributes Applied to the Parameter
 
-Each pointer attribute (\[ [ref](https://msdn.microsoft.com/library/windows/desktop/aa367153)\], \[ [unique](https://msdn.microsoft.com/library/windows/desktop/aa367294)\], and \[ [ptr](https://msdn.microsoft.com/library/windows/desktop/aa367149)\]) has characteristics that affect memory allocation. The following table summarizes these characteristics.
+Each pointer attribute (\[ [ref](https://docs.microsoft.com/windows/desktop/Midl/ref)\], \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\], and \[ [ptr](https://docs.microsoft.com/windows/desktop/Midl/ptr)\]) has characteristics that affect memory allocation. The following table summarizes these characteristics.
 
 
 

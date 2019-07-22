@@ -1,14 +1,16 @@
 ---
 Description: 'The WBEMTime class subtraction operator (&\#8211;) has been overloaded to:'
 audience: developer
-ms.assetid: '0fa51aab-7ea2-4af7-bb12-1646388b0405'
+ms.assetid: 0fa51aab-7ea2-4af7-bb12-1646388b0405
 ms.tgt_platform: multiple
-title: 'WBEMTime::operator- operators'
+title: WBEMTime::operator- operators
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # WBEMTime::operator- operators
 
-\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**WBEMTime**](wbemtime.md) class subtraction operator (�) has been overloaded to:
 

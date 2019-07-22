@@ -24,7 +24,7 @@ You can register to have BITS execute a program based on job transferred and err
 
 Note that BITS will not execute the program if you also [registered to receive COM callbacks](registering-a-com-callback.md) and the callback interface pointer is valid or the notification method that BITS calls returns a success code. However, if the notification method returns a failure code, such as E\_FAIL, BITS will execute the command line.
 
-BITS calls the [**CreateProcessAsUser**](https://msdn.microsoft.com/library/windows/desktop/ms682429) function to launch the program. If you specify a parameter string, the first parameter must be the program name.
+BITS calls the [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) function to launch the program. If you specify a parameter string, the first parameter must be the program name.
 
 The following example shows how to register to execute a program when the job-transferred event occurs. The example assumes the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface pointer is valid.
 

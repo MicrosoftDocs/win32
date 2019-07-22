@@ -163,9 +163,9 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://msdn.microsoft.com/library/mt432433) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818) object. This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
+Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/requeststatechange-cim-enabledlogicalelement) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) object. This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
 
-This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 <dl> <dt>
 
@@ -210,7 +210,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from the [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218) class, and it will contain one of the following values.
+A short description of the object. This property is inherited from the [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) class, and it will contain one of the following values.
 
 
 
@@ -234,7 +234,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -247,7 +247,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class or subclass that is used in the creation of an instance. This property is inherited from [**CIM\_System**](https://msdn.microsoft.com/library/aa388503), and it is always set to "Msvm\_ComputerSystem".
+The name of the class or subclass that is used in the creation of an instance. This property is inherited from [**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system), and it is always set to "Msvm\_ComputerSystem".
 
 </dd> <dt>
 
@@ -260,7 +260,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the computer system is a special-purpose system (dedicated to a particular use), versus being a general-purpose system. This property is inherited from [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219), and it is always set to 0 (Not Dedicated).
+Indicates whether the computer system is a special-purpose system (dedicated to a particular use), versus being a general-purpose system. This property is inherited from [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem), and it is always set to 0 (Not Dedicated).
 
 </dd> <dt>
 
@@ -273,7 +273,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218), and it will contain one of the following values.
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it will contain one of the following values.
 
 
 
@@ -297,7 +297,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -310,7 +310,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218), and it is always set to the display name of the computer for a virtual machine or the NetBIOS name of the management operating system.
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to the display name of the computer for a virtual machine or the NetBIOS name of the management operating system.
 
 </dd> <dt>
 
@@ -323,7 +323,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818) and will be one of the following values.
+An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) and will be one of the following values.
 
 <dl> <dt>
 
@@ -347,7 +347,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The enabled and disabled states of an element. This property can also indicate the transitions between these requested states. This property is inherited from the [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818) class, and it is set to 2 (Enabled) for a physical computer or one of the following values for a virtual machine. For a graphical view of these states, see Remarks.
+The enabled and disabled states of an element. This property can also indicate the transitions between these requested states. This property is inherited from the [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) class, and it is set to 2 (Enabled) for a physical computer or one of the following values for a virtual machine. For a graphical view of these states, see Remarks.
 
 
 
@@ -382,7 +382,7 @@ Access type: Read-only
 
 Specifies the current state of enhanced session mode on the virtual machine.
 
-The Hyper-V WMI provider raises an [**\_\_InstanceModificationEvent**](https://msdn.microsoft.com/library/aa394651) each time the **EnhancedSessionModeState** of the **Msvm\_ComputerSystem** class changes. If an active vmconnection session receives an **\_\_InstanceModificationEvent**, it attempts to switch to enhanced session mode if the user enabled that setting.
+The Hyper-V WMI provider raises an [**\_\_InstanceModificationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instancemodificationevent) each time the **EnhancedSessionModeState** of the **Msvm\_ComputerSystem** class changes. If an active vmconnection session receives an **\_\_InstanceModificationEvent**, it attempts to switch to enhanced session mode if the user enabled that setting.
 
 **Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
@@ -434,7 +434,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**FailedOverReplicationType**")
+Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**FailedOverReplicationType**")
 </dt> </dl>
 
 The type of recovery data point that was applied during the failover operation.
@@ -491,7 +491,7 @@ Specifies the current health of the element. This attribute expresses the health
 
 When a critical error occurs, check the event log for details. The **EnabledState** property can also contain more information. For example, when disk space is critically low, **HealthState** is set to 25, the virtual machine pauses, and **EnabledState** is set to 32768 (Paused).
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 
 
@@ -516,7 +516,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219), and it is always set to **Null**.
+This property is inherited from [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -529,7 +529,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time the virtual machine configuration was created for a virtual machine, or **Null**, for a management operating system. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The date and time the virtual machine configuration was created for a virtual machine, or **Null**, for a management operating system. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -545,7 +545,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 In Windows 8, there is a single instance of [**ReplicationSettingData**](msvm-replicationsettingdata.md) for every computer system or virtual machine. For Windows 8.1, a recovery virtual machine has two instances of **ReplicationSettingData**. This change differentiates and associates setting data with replication relationship.
 
@@ -572,7 +572,7 @@ Data type: **DateTime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**LastApplicationConsistentReplicationTime**")
+Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**LastApplicationConsistentReplicationTime**")
 </dt> </dl>
 
 The time at which the last application-consistent replication was received for the virtual machine.
@@ -593,7 +593,7 @@ Data type: **DateTime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**LastReplicationTime**")
+Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**LastReplicationTime**")
 </dt> </dl>
 
 The time at which the last replication is received on recovery for the virtual machine.
@@ -614,7 +614,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**LastReplicationType**")
+Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**LastReplicationType**")
 </dt> </dl>
 
 The type of the last replication that was received for the virtual machine.
@@ -680,7 +680,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The label by which the object is known. This property is inherited from [**CIM\_System**](https://msdn.microsoft.com/library/aa388503), and it is always set to "*GUID*".
+The label by which the object is known. This property is inherited from [**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system), and it is always set to "*GUID*".
 
 </dd> <dt>
 
@@ -693,7 +693,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that identifies how the system name was generated, using the subclass heuristic. This property is inherited from [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219), and it is always set to **Null**.
+A string that identifies how the system name was generated, using the subclass heuristic. This property is inherited from [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -719,7 +719,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) ("MilliSeconds")
+Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MilliSeconds")
 </dt> </dl>
 
 For the virtual machine, this property indicates the time, in milliseconds, since the machine was last turned on, reset, or restored. This time excludes the time the virtual machine was in the paused state. For the management operating system, this property is set to **Null**.
@@ -735,7 +735,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -748,7 +748,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-An array that contains the current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898). The value at index zero (0) is one of the following values.
+An array that contains the current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement). The value at index zero (0) is one of the following values.
 
 
 
@@ -796,7 +796,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-A string that describes how or why the system is dedicated when the **Dedicated** array includes the value 2 (Other). This property is inherited from [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219), and it is always set to **Null**.
+A string that describes how or why the system is dedicated when the **Dedicated** array includes the value 2 (Other). This property is inherited from [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -809,7 +809,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The enabled or disabled state of the virtual machine when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it is always set to **Null**.
+The enabled or disabled state of the virtual machine when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -822,7 +822,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219), and it is always set to **Null**.
+This property is inherited from [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -835,7 +835,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219), but it is not used.
+This property is inherited from [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem), but it is not used.
 
 </dd> <dt>
 
@@ -848,7 +848,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that indicates how the primary system owner can be reached (for example, a phone number or an email address). This property is inherited from [**CIM\_System**](https://msdn.microsoft.com/library/aa388503), and it is always set to **Null**.
+A string that indicates how the primary system owner can be reached (for example, a phone number or an email address). This property is inherited from [**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -861,7 +861,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the primary system owner. This property is inherited from [**CIM\_System**](https://msdn.microsoft.com/library/aa388503), and it is always set to **Null**.
+The name of the primary system owner. This property is inherited from [**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -874,7 +874,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -900,7 +900,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**ReplicationHealth**")
+Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**ReplicationHealth**")
 </dt> </dl>
 
 The replication health for the virtual machine.
@@ -1011,7 +1011,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**ReplicationState**")
+Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("[**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).**ReplicationState**")
 </dt> </dl>
 
 The replication state for the virtual machine.
@@ -1141,7 +1141,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the virtual machine as passed to the [**RequestStateChange**](requeststatechange-msvm-computersystem.md) method, or 12 (Not Applicable) if no state change is in progress. The actual state of the element is represented by **EnabledState**. This property is provided to compare the last requested and current enabled or disabled states. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+The last requested or desired state for the virtual machine as passed to the [**RequestStateChange**](requeststatechange-msvm-computersystem.md) method, or 12 (Not Applicable) if no state change is in progress. The actual state of the element is represented by **EnabledState**. This property is provided to compare the last requested and current enabled or disabled states. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -1154,7 +1154,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219), and it is always set to 1 (Other).
+This property is inherited from [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem), and it is always set to 1 (Other).
 
 </dd> <dt>
 
@@ -1167,7 +1167,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of strings that describe the roles the system plays in the information technology environment. This property is inherited from [**CIM\_System**](https://msdn.microsoft.com/library/aa388503), and it is always set to **Null**.
+An array of strings that describe the roles the system plays in the information technology environment. This property is inherited from [**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -1180,7 +1180,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), but it is not used.
+This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -1196,7 +1196,7 @@ Access type: Read-only
 Qualifiers: **ArrayType** ("Indexed")
 </dt> </dl>
 
-An array that contains strings that describe the corresponding **OperationalStatus** array values. For example, if 11 (In Service) is the value assigned to **OperationalStatus**\[0\], then **StatusDescriptions**\[0\] may contain an explanation as to why the virtual machine is processing a request. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+An array that contains strings that describe the corresponding **OperationalStatus** array values. For example, if 11 (In Service) is the value assigned to **OperationalStatus**\[0\], then **StatusDescriptions**\[0\] may contain an explanation as to why the virtual machine is processing a request. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -1222,7 +1222,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+The date and time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -1235,7 +1235,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), but it is not used.
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not used.
 
 </dd> </dl>
 
@@ -1245,9 +1245,9 @@ The following illustration shows the **EnabledState** values.
 
 ![state diagram for enabledstate values for windows server 2008 r2](images/msvm-computersystem-enabledstate-win2008r2.png)
 
-When a property of the **Msvm\_ComputerSystem** class changes, the WMI provider indicates an [**\_\_InstanceModificationEvent**](https://msdn.microsoft.com/library/aa394651) event that describes the changes. The previous state is contained in the **PreviousInstance** property, and the new state is contained in the **TargetInstance** property. This event is asynchronous; by the time the **\_\_InstanceModificationEvent** event is processed, the **TargetInstance** property may not reflect the current state.
+When a property of the **Msvm\_ComputerSystem** class changes, the WMI provider indicates an [**\_\_InstanceModificationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instancemodificationevent) event that describes the changes. The previous state is contained in the **PreviousInstance** property, and the new state is contained in the **TargetInstance** property. This event is asynchronous; by the time the **\_\_InstanceModificationEvent** event is processed, the **TargetInstance** property may not reflect the current state.
 
-Access to the **Msvm\_ComputerSystem** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ComputerSystem** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -1274,13 +1274,13 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> <dt>
 
-[**\_\_InstanceModificationEvent**](https://msdn.microsoft.com/library/aa394651)
+[**\_\_InstanceModificationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instancemodificationevent)
 </dt> <dt>
 
-[**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219)
+[**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem)
 </dt> <dt>
 
-[**Msvm\_ComputerSystem (V1)**](https://msdn.microsoft.com/library/cc136822)
+[**Msvm\_ComputerSystem (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/msvm-computersystem)
 </dt> <dt>
 
 [Virtual System Classes](virtual-system-classes.md)

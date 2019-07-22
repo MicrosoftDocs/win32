@@ -83,7 +83,7 @@ You can suppress the **WM\_ENTERIDLE** message for a dialog box by creating the 
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 **Conceptual**

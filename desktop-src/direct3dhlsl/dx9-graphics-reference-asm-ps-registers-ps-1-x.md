@@ -40,10 +40,10 @@ Registers hold data for use by the pixel shader. Registers are fully described i
 
  
 
--   Constant registers contain constant data. Data can be loaded into a constant register using [**SetPixelShaderConstantF**](https://msdn.microsoft.com/library/windows/desktop/bb174452) or it can be defined using [def - ps](def---ps.md). Constant registers are not usable by texture address instructions. The only exception is the [texm3x3spec - ps](texm3x3spec---ps.md) instruction, which uses a constant register to supply an eye-ray vector.
+-   Constant registers contain constant data. Data can be loaded into a constant register using [**SetPixelShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf) or it can be defined using [def - ps](def---ps.md). Constant registers are not usable by texture address instructions. The only exception is the [texm3x3spec - ps](texm3x3spec---ps.md) instruction, which uses a constant register to supply an eye-ray vector.
 -   Temporary registers are used to store intermediate results. r0 additionally serves as the pixel shader output. The value in r0 at the end of the shader is the pixel color for the shader.
 
-    Shader validation will fail [**CreatePixelShader**](https://msdn.microsoft.com/library/windows/desktop/bb174359) on any shader that attempts to read from a temporary register that has not been written by a previous instruction. [**D3DXAssembleShader**](https://msdn.microsoft.com/library/windows/desktop/bb172707) will fail similarly, assuming validation is enabled (do not use D3DXSHADER\_SKIPVALIDATION).
+    Shader validation will fail [**CreatePixelShader**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createpixelshader) on any shader that attempts to read from a temporary register that has not been written by a previous instruction. [**D3DXAssembleShader**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dxassembleshader) will fail similarly, assuming validation is enabled (do not use D3DXSHADER\_SKIPVALIDATION).
 
 -   Texture registers
 
@@ -118,7 +118,7 @@ Registers that are RW capable can be used to store intermediate results. This in
 
 ## Range
 
-The range is the maximum and minimum register data value. The ranges vary based on the type of register. The ranges for some of the registers can be queried from the device caps using [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/bb174320).
+The range is the maximum and minimum register data value. The ranges vary based on the type of register. The ranges for some of the registers can be queried from the device caps using [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps).
 
 
 
@@ -137,7 +137,7 @@ Early pixel shader hardware represents data in registers using a fixed-point num
 
 For pixel shader version 1\_1 to 1\_3, MaxTextureRepeat must be a minimum of one. For 1\_4, MaxTextureRepeat must be a minimum of eight.
 
-See [**D3DCAPS9**](https://msdn.microsoft.com/library/windows/desktop/bb172513) for more information about PixelShader1xMaxValue.
+See [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9) for more information about PixelShader1xMaxValue.
 
 ## Related topics
 

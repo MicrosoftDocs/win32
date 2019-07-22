@@ -36,7 +36,7 @@ There are three options for server-side rendering: GDI, GDI+ and Direct2D. Like 
 
 ### GDI
 
-Unlike Direct2D and GDI+, GDI does not support high-quality drawing features. For instance, GDI does not support antialiasing for creating smooth lines and has only limited support for transparency. Based on the graphics performance test results on Windows 7 and Windows Server 2008 R2, Direct2D scales more efficiently than GDI, despite the redesign of locks in GDI. For more information about these test results, see [Engineering Windows 7 Graphics Performance](https://blogs.msdn.com/e7/archive/2009/04/25/engineering-windows-7-for-graphics-performance.aspx).
+Unlike Direct2D and GDI+, GDI does not support high-quality drawing features. For instance, GDI does not support antialiasing for creating smooth lines and has only limited support for transparency. Based on the graphics performance test results on Windows 7 and Windows Server 2008 R2, Direct2D scales more efficiently than GDI, despite the redesign of locks in GDI. For more information about these test results, see [Engineering Windows 7 Graphics Performance](https://blogs.msdn.microsoft.com/e7/2009/04/25/engineering-windows-7-graphics-performance/).
 
 In addition, applications using GDI are limited to 10240 GDI handles per process and 65536 GDI handles per session. The reason is that internally Windows uses a 16-bit WORD to store the index of handles for each session.
 
@@ -60,7 +60,7 @@ The following sections describe how to use software rendering, how to optimally 
 
 ### Software Rendering
 
-Server-side applications use software rendering by creating [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target, with the render target type set to either D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE or D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT. For more information about [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render targets, see the [**ID2D1Factory::CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) method; for more information about the render target types, see [**D2D1\_RENDER\_TARGET\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd756630).
+Server-side applications use software rendering by creating [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target, with the render target type set to either D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE or D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT. For more information about [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render targets, see the [**ID2D1Factory::CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) method; for more information about the render target types, see [**D2D1\_RENDER\_TARGET\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type).
 
 ### Multithreading
 

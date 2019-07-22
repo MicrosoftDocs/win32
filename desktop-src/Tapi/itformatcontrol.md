@@ -16,7 +16,7 @@ This interface is implemented by the [H323 MSP](h323-msp.md) and is exposed only
 
 ## Members
 
-The **ITFormatControl** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITFormatControl** also has these types of members:
+The **ITFormatControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITFormatControl** also has these types of members:
 
 -   [Methods](#methods)
 

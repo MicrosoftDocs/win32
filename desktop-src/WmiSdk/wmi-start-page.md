@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems. You can write WMI scripts or applications to automate administrative tasks on remote computers but WMI also supplies management data to other parts of the operating system and products, for example System Center Operations Manager, formerly Microsoft Operations Manager (MOM), or Windows Remote Management ([WinRM](https://msdn.microsoft.com/library/aa384426)).
+Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems. You can write WMI scripts or applications to automate administrative tasks on remote computers but WMI also supplies management data to other parts of the operating system and products, for example System Center Operations Manager, formerly Microsoft Operations Manager (MOM), or Windows Remote Management ([WinRM](https://docs.microsoft.com/windows/desktop/WinRM/portal)).
 
 > [!Note]  
 > The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](https://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](https://technet.microsoft.com/library/ff406382.aspx)
@@ -19,7 +19,7 @@ Windows Management Instrumentation (WMI) is the infrastructure for management da
  
 
 > [!Note]  
-> WMI is fully supported by Microsoft; however, the latest version of administrative scripting and control is available through the Windows Management Infrastructure (MI). MI is fully compatible with previous versions of WMI, and provides a host of features and benefits that make designing and developing providers and clients easier than ever. For more information, see [Windows Management Infrastructure (MI)](https://msdn.microsoft.com/library/jj152383).
+> WMI is fully supported by Microsoft; however, the latest version of administrative scripting and control is available through the Windows Management Infrastructure (MI). MI is fully compatible with previous versions of WMI, and provides a host of features and benefits that make designing and developing providers and clients easier than ever. For more information, see [Windows Management Infrastructure (MI)](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure).
 
  
 

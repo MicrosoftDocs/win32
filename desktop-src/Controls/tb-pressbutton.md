@@ -34,9 +34,9 @@ Command identifier of the button to press or release.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is a **BOOL** that indicates whether to press or release the specified button. If **TRUE**, the button is pressed. If **FALSE**, the button is released.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates whether to press or release the specified button. If **TRUE**, the button is pressed. If **FALSE**, the button is released.
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) must be zero.
+The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
 
 </dd> </dl>
 

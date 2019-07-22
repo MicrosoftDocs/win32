@@ -44,7 +44,7 @@ The return value is the previous locale identifier. If *wParam* specifies a loca
 
 ## Remarks
 
-Use the [**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd319052) macro to construct a locale identifier and the [**MAKELANGID**](https://msdn.microsoft.com/library/windows/desktop/dd373908) macro to construct a language identifier. The language identifier is made up of a primary language identifier and a sublanguage identifier.
+Use the [**MAKELCID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid) macro to construct a locale identifier and the [**MAKELANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid) macro to construct a language identifier. The language identifier is made up of a primary language identifier and a sublanguage identifier.
 
 ## Requirements
 
@@ -74,10 +74,10 @@ Use the [**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd3190
 **Other Resources**
 </dt> <dt>
 
-[**MAKELANGID**](https://msdn.microsoft.com/library/windows/desktop/dd373908)
+[**MAKELANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid)
 </dt> <dt>
 
-[**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd319052)
+[**MAKELCID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid)
 </dt> </dl>
 
  

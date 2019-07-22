@@ -18,9 +18,9 @@ api_location:
 
 # ChangeSecurityPermissions method of the Win32\_PageFile class
 
-The **ChangeSecurityPermissions** [WMI class](https://msdn.microsoft.com/library/aa393244) method changes the security permissions for the logical paging file specified in the object path. If the logical file is a directory, then **ChangeSecurityPermissions** is recursive, and changes the security permissions of all of the files and subdirectories that the directory contains.
+The **ChangeSecurityPermissions** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method changes the security permissions for the logical paging file specified in the object path. If the logical file is a directory, then **ChangeSecurityPermissions** is recursive, and changes the security permissions of all of the files and subdirectories that the directory contains.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -41,7 +41,7 @@ uint32 ChangeSecurityPermissions(
 *SecurityDescriptor* \[in\]
 </dt> <dd>
 
-Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402). This descriptor contains new security permissions for the instance of [**Win32\_PageFile**](win32-pagefile.md).
+Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). This descriptor contains new security permissions for the instance of [**Win32\_PageFile**](win32-pagefile.md).
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ A specified parameter is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_PageFile**](win32-pagefile.md)

@@ -27,7 +27,7 @@ No return value.
 
 ## Remarks
 
-An appbar should respond to this notification message by sending the [**ABM\_QUERYPOS**](abm-querypos.md) and [**ABM\_SETPOS**](abm-setpos.md) messages. If its position has changed, the appbar should call the [**MoveWindow**](https://msdn.microsoft.com/library/windows/desktop/ms633534) function to move itself to the new position.
+An appbar should respond to this notification message by sending the [**ABM\_QUERYPOS**](abm-querypos.md) and [**ABM\_SETPOS**](abm-setpos.md) messages. If its position has changed, the appbar should call the [**MoveWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-movewindow) function to move itself to the new position.
 
 ## Requirements
 

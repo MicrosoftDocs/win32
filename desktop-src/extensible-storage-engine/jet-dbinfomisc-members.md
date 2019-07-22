@@ -1,4 +1,4 @@
-﻿---
+---
 title: JET_DBINFOMISC members (Microsoft.Isam.Esent.Interop)
 TOCTitle: JET_DBINFOMISC members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC
@@ -265,7 +265,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh557934(v=exchg.10).md">Equals(Object)</a></td>
-<td>Determines whether the specified <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a> is equal to the current <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>. (Overrides <a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Object.Equals(Object)</a>.)</td>
+<td>Determines whether the specified <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a> is equal to the current <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Object.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -274,28 +274,28 @@ Top
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh558400(v=exchg.10).md">GetHashCode</a></td>
-<td>Returns the hash code for this instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/zdee4b3y">Object.GetHashCode()</a>.)</td>
+<td>Returns the hash code for this instance. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">Object.GetHashCode()</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype?redirectedfrom=MSDN#System_Object_GetType">GetType</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh556970(v=exchg.10).md">ToString</a></td>
-<td>Gets a string representation of this object. (Overrides <a href="https://msdn.microsoft.com/en-us/library/7bxwbwt2">Object.ToString()</a>.)</td>
+<td>Gets a string representation of this object. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>

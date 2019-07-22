@@ -2,13 +2,13 @@
 title: IVMVirtualPC Methods
 description: The IVMVirtualPC interface exposes the following methods.
 ms.assetid: 3098D0ED-B16F-4CA1-A76B-83B4988CB6B3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # IVMVirtualPC Methods
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 The [**IVMVirtualPC**](ivmvirtualpc.md) interface exposes the following methods.
 

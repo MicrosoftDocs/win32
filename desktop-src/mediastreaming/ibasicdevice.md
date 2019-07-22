@@ -22,7 +22,7 @@ Encapsulates the methods and events needed to model a DLNA Device.
 
 ## Members
 
-The **IBasicDevice** interface inherits from [**IInspectable**](https://msdn.microsoft.com/library/windows/desktop/br205821). **IBasicDevice** also has these types of members:
+The **IBasicDevice** interface inherits from [**IInspectable**](https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable). **IBasicDevice** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -63,7 +63,7 @@ The **IBasicDevice** interface has these methods.
 
 <dl> <dt>
 
-[**IInspectable**](https://msdn.microsoft.com/library/windows/desktop/br205821)
+[**IInspectable**](https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable)
 </dt> </dl>
 
  

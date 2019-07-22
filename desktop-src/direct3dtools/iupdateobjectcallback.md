@@ -26,7 +26,7 @@ Callback to update the contents of an object.
 
 ## Members
 
-The **IUpdateObjectCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IUpdateObjectCallback** also has these types of members:
+The **IUpdateObjectCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IUpdateObjectCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IUpdateObjectCallback** interface inherits from the [**IUnknown**](https:/
 
 The **IUpdateObjectCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432824"><strong>UpdateComplete</strong></a></td><td style="text-align: left;"><p>A callback used to notify the host that an object was updated.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iupdateobjectcallback-updatecomplete-uint-hresult"><strong>UpdateComplete</strong></a></td><td style="text-align: left;"><p>A callback used to notify the host that an object was updated.</p></td></tr></tbody></table>
 
  
 

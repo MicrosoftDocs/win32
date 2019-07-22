@@ -33,7 +33,7 @@ where:
 | fragmentKeyword   | Required keyword. Either pixelfragment or vertexfragment.                                                                                                                                                                                             |
 | FragmentName      | An ASCII text string that specifies the compiled fragment name.                                                                                                                                                                                       |
 | compile\_fragment | Required keyword.                                                                                                                                                                                                                                     |
-| shaderProfile     | The shader model to compile against. Any valid vertex shader profile (see [**D3DXGetVertexShaderProfile**](https://msdn.microsoft.com/library/windows/desktop/bb172877)) or pixel shader profile (see [**D3DXGetPixelShaderProfile**](https://msdn.microsoft.com/library/windows/desktop/bb172870)). |
+| shaderProfile     | The shader model to compile against. Any valid vertex shader profile (see [**D3DXGetVertexShaderProfile**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dxgetvertexshaderprofile)) or pixel shader profile (see [**D3DXGetPixelShaderProfile**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dxgetpixelshaderprofile)). |
 | FunctionName()    | The shader function name, followed by parentheses.                                                                                                                                                                                                    |
 
 

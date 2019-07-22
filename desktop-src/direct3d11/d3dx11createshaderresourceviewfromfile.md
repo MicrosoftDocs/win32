@@ -66,7 +66,7 @@ A pointer to the device (see [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Name of the file that contains the shader-resource view. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 

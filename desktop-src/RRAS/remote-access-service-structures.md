@@ -54,7 +54,7 @@ Use the following structures to implement RAS functionality.
 
 [**RASENTRYNAME**](https://msdn.microsoft.com/en-us/library/Aa377267(v=VS.85).aspx)
 
-[**RASIKEV2\_PROJECTION\_INFO**](https://msdn.microsoft.com/library/windows/desktop/dd408106)
+[**RASIKEV2\_PROJECTION\_INFO**](https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_rasikev2_projection_info)
 
 [**RASIPADDR**](https://msdn.microsoft.com/en-us/library/Aa377578(v=VS.85).aspx)
 
@@ -80,7 +80,7 @@ Use the following structures to implement RAS functionality.
 
 [**RASPPPNBF**](https://msdn.microsoft.com/en-us/library/Aa377642(v=VS.85).aspx)
 
-[**RASPROJECTION\_INFO\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd408108)
+[**RASPROJECTION\_INFO\_TYPE**](https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-_rasprojection_info_type)
 
 [**RASSLIP**](https://msdn.microsoft.com/en-us/library/Aa377836(v=VS.85).aspx)
 

@@ -15,7 +15,7 @@ The following procedure describes how to connect to WMI using **SWbemLocator**.
 
 **To connect to WMI using SWbemLocator**
 
-1.  Retrieve a locator object with a call to [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx).
+1.  Retrieve a locator object with a call to [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)).
 
     ```VB
     Set Locator = CreateObject("WbemScripting.SWbemLocator")
@@ -113,7 +113,7 @@ The following procedure describes how to connect to WMI and retrieve an object u
 
 <dl> <dt>
 
-[Scripting in WMI](https://msdn.microsoft.com/library/aa389763)
+[Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script)
 </dt> </dl>
 
  

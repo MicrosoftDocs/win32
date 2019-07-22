@@ -2,7 +2,7 @@
 Description: The ICertPolicy2 interface exposes the following methods.
 ms.assetid: 99023C8B-9010-4629-8091-2C05C929281A
 title: ICertPolicy2 Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

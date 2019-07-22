@@ -73,7 +73,7 @@ Type: **DWORD**
 
 The resource type. The **TYPE** member can either be a numeric value or a null-terminated Unicode string that specifies the name of the type. See the following Remarks section for a description of **Name** or **Ordinal** type members.
 
-If the **TYPE** member is a numeric value, it can specify either a standard or a user-defined resource type. If the member is a string, then it is a user-defined resource type. For a list of the predefined resource types, see [Resource Types](https://msdn.microsoft.com/library/windows/desktop/ms648009).
+If the **TYPE** member is a numeric value, it can specify either a standard or a user-defined resource type. If the member is a string, then it is a user-defined resource type. For a list of the predefined resource types, see [Resource Types](https://docs.microsoft.com/windows/desktop/menurc/resource-types).
 
 Values less than 256 are reserved for system use.
 

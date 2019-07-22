@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # The \[max\_is\] Attribute
 
-You can specify the valid bounds of the index numbers of an array using the \[[**max\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367074)\] attribute.
+You can specify the valid bounds of the index numbers of an array using the \[[**max\_is**](https://docs.microsoft.com/windows/desktop/Midl/max-is)\] attribute.
 
 ``` syntax
 /* IDL file */

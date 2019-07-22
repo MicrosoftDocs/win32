@@ -1,14 +1,17 @@
 ---
 title: ID2D1InkStyle SetNibTransform methods
 description: Sets the transform to apply to this style's nib shape.
-ms.assetid: 'e2caee05-192c-1ea5-103c-e1d44e8c30a8'
-keywords: ["SetNibTransform methods Direct2D"]
+ms.assetid: e2caee05-192c-1ea5-103c-e1d44e8c30a8
+keywords:
+- SetNibTransform methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1InkStyle::SetNibTransform methods

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # The type\_UserMarshal Function
 
-The **<type>\_UserMarshal** function is a helper function for the \[ [wire\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367309)\] and \[ [user\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367296)\] attributes. The stubs call this function to marshal data on the client or server side. The function is defined as:
+The **<type>\_UserMarshal** function is a helper function for the \[ [wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\] attributes. The stubs call this function to marshal data on the client or server side. The function is defined as:
 
 ``` syntax
 unsigned char __RPC_FAR * __RPC_USER  <type>_UserMarshal(
@@ -40,10 +40,10 @@ Exceptions must be caught and handled locally, exceptions must not be allowed to
 [Marshaling Rules for user\_marshal and wire\_marshal](marshaling-rules-for-user-marshal-and-wire-marshal.md)
 </dt> <dt>
 
-[wire\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367309)
+[wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)
 </dt> <dt>
 
-[user\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367296)
+[user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)
 </dt> </dl>
 
  

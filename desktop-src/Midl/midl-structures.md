@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # MIDL Structures
 
-Normal C semantics apply to the fields of base types. Fields of more complex types, such as pointers, arrays, and other constructed types, can be modified by type or [**field\_attributes**](https://msdn.microsoft.com/library/windows/desktop/aa373864). For more information, see [**struct**](struct.md).
+Normal C semantics apply to the fields of base types. Fields of more complex types, such as pointers, arrays, and other constructed types, can be modified by type or [**field\_attributes**](https://docs.microsoft.com/windows/desktop/Rpc/field-attributes). For more information, see [**struct**](struct.md).
 
  
 

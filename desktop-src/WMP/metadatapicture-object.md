@@ -17,7 +17,7 @@ api_location:
 
 # MetadataPicture Object
 
-The **MetadataPicture** object provides a way to retrieve the values of the [**WM/Picture**](https://msdn.microsoft.com/library/windows/desktop/dd757977) metadata attribute. This attribute corresponds to album art contained in a digital media file, not to album art downloaded over the Internet.
+The **MetadataPicture** object provides a way to retrieve the values of the [**WM/Picture**](https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmpicture) metadata attribute. This attribute corresponds to album art contained in a digital media file, not to album art downloaded over the Internet.
 
 The **MetadataPicture** object supports the following properties.
 

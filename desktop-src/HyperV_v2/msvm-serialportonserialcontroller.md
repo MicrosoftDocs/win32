@@ -49,32 +49,32 @@ The **Msvm\_SerialPortOnSerialController** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)**
+Data type: **[**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The serial controller to which the port is connected. This property is inherited from [**CIM\_PortOnDevice**](https://msdn.microsoft.com/library/mt146187).
+The serial controller to which the port is connected. This property is inherited from [**CIM\_PortOnDevice**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-portondevice).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalPort**](https://msdn.microsoft.com/library/cc136869)**
+Data type: **[**CIM\_LogicalPort**](https://docs.microsoft.com/previous-versions//cc136869(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The port of the serial controller. This property is inherited from [**CIM\_PortOnDevice**](https://msdn.microsoft.com/library/mt146187).
+The port of the serial controller. This property is inherited from [**CIM\_PortOnDevice**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-portondevice).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_SerialPortOnSerialController** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_SerialPortOnSerialController** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -97,7 +97,7 @@ Access to the **Msvm\_SerialPortOnSerialController** class might be restricted b
 [**CIM\_PortOnDevice**](cim-portondevice.md)
 </dt> <dt>
 
-[**CIM\_PortOnDevice**](https://msdn.microsoft.com/library/mt146187)
+[**CIM\_PortOnDevice**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-portondevice)
 </dt> <dt>
 
 [Serial Devices Classes](serial-devices-classes.md)

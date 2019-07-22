@@ -276,10 +276,10 @@ A title.
 [**IStylesProvider::StyleId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_styleid)
 </dt> <dt>
 
-[**IUIAutomationStylesPattern::CachedStyleId**](https://msdn.microsoft.com/library/windows/desktop/hh437287)
+[**IUIAutomationStylesPattern::CachedStyleId**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedstyleid)
 </dt> <dt>
 
-[**IUIAutomationStylesPattern::CurrentStyleId**](https://msdn.microsoft.com/library/windows/desktop/hh437292)
+[**IUIAutomationStylesPattern::CurrentStyleId**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentstyleid)
 </dt> <dt>
 
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)

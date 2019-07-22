@@ -83,7 +83,7 @@ public static bool TryOpenTable(
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The name of the table.
 
@@ -103,7 +103,7 @@ public static bool TryOpenTable(
 
 #### Return value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
 True if the table was opened, false if the table doesn't exist.  
 
 ## See also

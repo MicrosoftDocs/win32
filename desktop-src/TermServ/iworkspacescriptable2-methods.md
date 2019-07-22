@@ -3,7 +3,7 @@ title: IWorkspaceScriptable2 Methods
 description: The IWorkspaceScriptable2 interface supports the following methods.
 ms.assetid: A1E973E6-DB7E-4BF8-8C10-C920BD3947AE
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

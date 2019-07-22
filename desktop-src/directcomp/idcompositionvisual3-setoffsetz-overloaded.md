@@ -1,14 +1,17 @@
 ---
 title: IDCompositionVisual3 SetOffsetZ methods
 description: Sets the value of the visual's OffsetZ property.
-ms.assetid: '55ad436e-6f95-ee45-c7d3-1636194917da'
-keywords: ["SetOffsetZ methods DirectComposition"]
+ms.assetid: 55ad436e-6f95-ee45-c7d3-1636194917da
+keywords:
+- SetOffsetZ methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionVisual3::SetOffsetZ methods

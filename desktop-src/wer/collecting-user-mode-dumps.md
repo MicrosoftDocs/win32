@@ -55,7 +55,7 @@ This feature is not enabled by default. Enabling the feature requires administra
 </tr>
 <tr class="even">
 <td><strong>CustomDumpFlags</strong></td>
-<td>The custom dump options to be used. This value is used only when <strong>DumpType</strong> is set to 0.<br/> The options are a bitwise combination of the <a href="https://msdn.microsoft.com/library/windows/desktop/ms680519"><strong>MINIDUMP_TYPE</strong></a> enumeration values.<br/></td>
+<td>The custom dump options to be used. This value is used only when <strong>DumpType</strong> is set to 0.<br/> The options are a bitwise combination of the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_type"><strong>MINIDUMP_TYPE</strong></a> enumeration values.<br/></td>
 <td>REG_DWORD</td>
 <td><code>MiniDumpWithDataSegs | MiniDumpWithUnloadedModules | MiniDumpWithProcessThreadData.</code></td>
 </tr>

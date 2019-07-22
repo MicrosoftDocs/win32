@@ -53,7 +53,7 @@ An application should return zero if it processes this message.
 
 If an application is displaying a caret, the caret should be destroyed at this point.
 
-While processing this message, do not make any function calls that display or activate a window. This causes the thread to yield control and can cause the application to stop responding to messages. For more information, see [Message Deadlocks](https://msdn.microsoft.com/library/windows/desktop/ms644927#deadlocks).
+While processing this message, do not make any function calls that display or activate a window. This causes the thread to yield control and can cause the application to stop responding to messages. For more information, see [Message Deadlocks](https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues).
 
 ## Requirements
 

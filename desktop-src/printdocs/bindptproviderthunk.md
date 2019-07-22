@@ -81,7 +81,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 ## Remarks
 
-Before calling this function, the calling thread must initialize COM by calling [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279).
+Before calling this function, the calling thread must initialize COM by calling [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex).
 
 ## Requirements
 

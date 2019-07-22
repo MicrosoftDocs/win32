@@ -91,14 +91,14 @@ public static void JetUpdate2(
 <!-- end list -->
 
   - bookmarkSize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The size of the bookmark buffer.
 
 <!-- end list -->
 
   - actualBookmarkSize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the actual size of the bookmark.
 

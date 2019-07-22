@@ -19,7 +19,7 @@ Microsoft Virtual Server 2005 allows you to create separate virtual machines on 
 
 </dd> <dt>
 
-[Windows Virtual PC](https://msdn.microsoft.com/library/windows/desktop/dd796757)
+[Windows Virtual PC](https://docs.microsoft.com/windows/desktop/VPC/virtual-pc-portal)
 </dt> <dd>
 
 Windows Virtual PC is the latest Microsoft virtualization technology; it enables you to run many productivity applications on a virtual Windows environment, with a single click, directly from Windows 7. You can create separate virtual machines on top of your Windows 7 desktop. Each virtual machine emulates a complete hardware system—from processor to network card—in a self-contained, isolated software environment, enabling the simultaneous operation of otherwise incompatible systems.
@@ -30,7 +30,7 @@ Windows Virtual PC is the latest Microsoft virtualization technology; it enables
 
 <dl> <dt>
 
-[Hyper-V WMI Provider](https://msdn.microsoft.com/library/cc136992)
+[Hyper-V WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/windows-virtualization-portal)
 </dt> </dl>
 
  

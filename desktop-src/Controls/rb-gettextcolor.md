@@ -32,7 +32,7 @@ Retrieves a rebar control's default text color.
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that represent the current default text color.
+Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represent the current default text color.
 
 ## Requirements
 

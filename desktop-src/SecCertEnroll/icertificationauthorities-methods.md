@@ -2,7 +2,7 @@
 Description: The ICertificationAuthorities interface exposes the following methods.
 ms.assetid: D28F9E60-FF6A-4178-8128-4473B622BBEA
 title: ICertificationAuthorities Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

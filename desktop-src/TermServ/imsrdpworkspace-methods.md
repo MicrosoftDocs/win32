@@ -3,7 +3,7 @@ title: IMsRdpWorkspace Methods
 description: The IMsRdpWorkspace interface exposes the following methods.
 ms.assetid: 0D644952-8EC4-41BB-ABD1-C3461C11045B
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -26,7 +26,7 @@ The clipboard is user-driven. A window should transfer data to or from the clipb
 
 A memory object on the clipboard can be in any data format, called a clipboard format. Each format is identified by an unsigned integer value. For standard (predefined) clipboard formats, this value is a constant defined in Winuser.h; for registered clipboard formats, it is the return value of the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function.
 
-Except for registering clipboard formats, individual windows perform most clipboard operations. Typically, a window procedure transfers information to or from the clipboard in response to the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
+Except for registering clipboard formats, individual windows perform most clipboard operations. Typically, a window procedure transfers information to or from the clipboard in response to the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
 
 This section discusses the following:
 

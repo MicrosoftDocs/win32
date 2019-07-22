@@ -102,7 +102,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-Gets the value of the [**objectGuid**](https://msdn.microsoft.com/library/ms679021) attribute of the DSA that is identified by the **DsaDN** property.
+Gets the value of the [**objectGuid**](https://docs.microsoft.com/windows/desktop/ADSchema/a-objectguid) attribute of the DSA that is identified by the **DsaDN** property.
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-Gets the [**objectGuid**](https://msdn.microsoft.com/library/ms679021) attribute of the NC that is identified by the **NamingContextDN** property.
+Gets the [**objectGuid**](https://docs.microsoft.com/windows/desktop/ADSchema/a-objectguid) attribute of the NC that is identified by the **NamingContextDN** property.
 
 </dd> <dt>
 
@@ -263,7 +263,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the ID of the operation, which is unique per-machine and per-boot.

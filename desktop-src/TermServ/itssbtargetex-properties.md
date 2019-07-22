@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # ITsSbTargetEx Properties
 
-The [**ITsSbTargetEx**](https://msdn.microsoft.com/library/mt703466) interface exposes the [ITsSbTarget Properties](itssbtarget-properties.md) as well as the following properties.
+The [**ITsSbTargetEx**](https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex) interface exposes the [ITsSbTarget Properties](itssbtarget-properties.md) as well as the following properties.
 
 ## In this section
 

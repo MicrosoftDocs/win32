@@ -55,7 +55,7 @@ The **\_\_CacheControl** class is derived from [**\_\_SystemClass**](--systemcla
 
 <dl> <dt>
 
-[**\_\_SystemClass**](https://msdn.microsoft.com/library/aa394675)
+[**\_\_SystemClass**](https://docs.microsoft.com/windows/desktop/WmiSdk/--systemclass)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

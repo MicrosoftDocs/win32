@@ -2,7 +2,7 @@
 title: IBackgroundCopyFile2 Methods
 description: The IBackgroundCopyFile2 interface exposes the following methods.
 ms.assetid: DF0DA1AE-3C8E-4145-82BF-6A8E6819BADA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

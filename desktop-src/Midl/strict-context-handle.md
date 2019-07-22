@@ -68,7 +68,7 @@ Normally, when a call to an interface method generates a context handle, that ha
 [**code**](code.md)
 </dt> <dt>
 
-[Context Handles](https://msdn.microsoft.com/library/windows/desktop/aa373605)
+[Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/context-handles)
 </dt> <dt>
 
 [**context\_handle\_serialize**](context-handle-serialize.md)

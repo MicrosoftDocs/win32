@@ -151,7 +151,7 @@ ms.localizationpriority: medium
                     <div class="cardText">
                         <h3>Other resources</h3>
                         <p><a href="https://github.com/Microsoft/Windows-classic-samples">Desktop Win32 samples</a></p>
-                        <p><a href="//mva.microsoft.com/training-topics/c-app-development">Microsoft Virtual Academy</a></p>
+                        <p><a href="//docs.microsoft.com/learn">Microsoft Learn</a></p>
                         <p><a href="//www.linkedin.com/learning/learning-universal-windows-app-development/welcome">LinkedIn Learning</a></p>
                         </div>
                     </div>

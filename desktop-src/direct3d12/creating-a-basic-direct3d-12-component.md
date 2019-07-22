@@ -260,7 +260,7 @@ The following code creates the basics for a graphics pipeline. The process of cr
     </dl>
 -   Create the device:<dl>
 
-[**CreateDXGIFactory1**](https://msdn.microsoft.com/library/windows/desktop/ff471318)  
+[**CreateDXGIFactory1**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1)  
     [**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice)  
     </dl>
 -   Fill out a command queue description, then create the command queue:<dl>
@@ -270,9 +270,9 @@ The following code creates the basics for a graphics pipeline. The process of cr
     </dl>
 -   Fill out a swapchain description, then create the swap chain: <dl>
 
-[**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173075)  
-    [**IDXGIFactory::CreateSwapChain**](https://msdn.microsoft.com/library/windows/desktop/bb174537)  
-    [**IDXGISwapChain3::GetCurrentBackBufferIndex**](https://msdn.microsoft.com/library/windows/desktop/dn903675)  
+[**DXGI\_SWAP\_CHAIN\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc)  
+    [**IDXGIFactory::CreateSwapChain**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain)  
+    [**IDXGISwapChain3::GetCurrentBackBufferIndex**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex)  
     </dl>
 -   Fill out a heap description. then create a descriptor heap: <dl>
 
@@ -284,7 +284,7 @@ The following code creates the basics for a graphics pipeline. The process of cr
 
 [**CD3DX12\_CPU\_DESCRIPTOR\_HANDLE**](cd3dx12-cpu-descriptor-handle.md)  
     [**GetCPUDescriptorHandleForHeapStart**](/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart)  
-    [**IDXGISwapChain::GetBuffer**](https://msdn.microsoft.com/library/windows/desktop/bb174570)  
+    [**IDXGISwapChain::GetBuffer**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer)  
     [**ID3D12Device::CreateRenderTargetView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrendertargetview)  
     </dl>
 -   Create the command allocator: [**ID3D12Device::CreateCommandAllocator**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator).
@@ -417,7 +417,7 @@ The following APIs and processes are called in succession.
     [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)  
     [**ID3D12Device::CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)  
     </dl>
--   Load and compile the shaders: [**D3DCompileFromFile**](https://msdn.microsoft.com/library/windows/desktop/hh446872).
+-   Load and compile the shaders: [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile).
 -   Create the vertex input layout: [**D3D12\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_input_element_desc).
 -   Fill out a pipeline state description, using the helper structures available, then create the graphics pipeline state: <dl>
 
@@ -585,7 +585,7 @@ Rendering involves a call to populate the command list, then the command list ca
 
 -   Populate the command list.
 -   Execute the command list: [**ID3D12CommandQueue::ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists).
--   [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797) the frame.
+-   [**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1) the frame.
 -   Wait on the GPU to finish.
 
 
@@ -699,7 +699,7 @@ The following APIs and processes are called in order:
 -   [**ID3D12Fence::GetCompletedValue**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)
 -   [**ID3D12Fence::SetEventOnCompletion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion)
 -   Wait for the event.
--   Update the frame index: [**IDXGISwapChain3::GetCurrentBackBufferIndex**](https://msdn.microsoft.com/library/windows/desktop/dn903675).
+-   Update the frame index: [**IDXGISwapChain3::GetCurrentBackBufferIndex**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex).
 
 
 ```C++

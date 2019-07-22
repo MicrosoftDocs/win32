@@ -58,7 +58,7 @@ For more information about setting different impersonation or authentication lev
 
 You can change the authentication level in a script using a [moniker](constructing-a-moniker-string.md) string, and the [**SWbemLocator**](swbemlocator.md) and [**SWbemSecurity**](swbemsecurity.md) objects.
 
-The authentication level must be set according to the requirements of the target operating system to which you are connecting. For more information, see [Connecting Between Different Operating Systems](https://msdn.microsoft.com/library/aa389284).
+The authentication level must be set according to the requirements of the target operating system to which you are connecting. For more information, see [Connecting Between Different Operating Systems](https://docs.microsoft.com/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection).
 
 The following VBScript code example shows how to change the authentication level in a script that obtains the free space data from a remote computer named "Server1".
 
@@ -132,7 +132,7 @@ A provider can set the security on a namespace so that no data is returned unles
 
 When you make calls to the Scripting API for WMI, it is recommended that you use the defaults that WMI provides for the impersonation level. Remote calls and some providers with more than one network hop require a higher impersonation level than WMI uses. If the impersonation level is not sufficient, a provider might refuse a request or provide incomplete information.
 
-If you do not set the impersonation level in either a moniker or by setting [**SWbemSecurity.ImpersonationLevel**](swbemsecurity-impersonationlevel.md) on a securable object, then set the default DCOM impersonation level for the operating system. The impersonation level must be set according to the requirements of the target operating system to which you are connecting. For more information, see [Connecting Between Different Operating Systems](https://msdn.microsoft.com/library/aa389284).
+If you do not set the impersonation level in either a moniker or by setting [**SWbemSecurity.ImpersonationLevel**](swbemsecurity-impersonationlevel.md) on a securable object, then set the default DCOM impersonation level for the operating system. The impersonation level must be set according to the requirements of the target operating system to which you are connecting. For more information, see [Connecting Between Different Operating Systems](https://docs.microsoft.com/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection).
 
 The following VBScript code example shows changing the impersonation level in the same script shown above.
 
@@ -165,7 +165,7 @@ The following table lists the authentication levels in [WbemImpersonationLevelEn
 
  
 
-The following example shows how to set the impersonation in a moniker string when obtaining a specific instance of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372).
+The following example shows how to set the impersonation in a moniker string when obtaining a specific instance of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process).
 
 
 ```VB

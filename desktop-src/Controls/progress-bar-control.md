@@ -29,7 +29,7 @@ More information is contained under the following headings.
 
 ## Using Progress Bars
 
-You can create a progress bar by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**PROGRESS\_CLASS**](common-control-window-classes.md) window class. This window class is registered when the common controls DLL is loaded. For more information, see [About Common Controls](common-controls-intro.md).
+You can create a progress bar by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the [**PROGRESS\_CLASS**](common-control-window-classes.md) window class. This window class is registered when the common controls DLL is loaded. For more information, see [About Common Controls](common-controls-intro.md).
 
 The control is also available in the Microsoft Visual Studio Toolbox, where it is called Progress Control.
 

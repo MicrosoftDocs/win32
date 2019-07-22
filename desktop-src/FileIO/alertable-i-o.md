@@ -20,11 +20,11 @@ In this scenario, the calls to [**ReadFileEx**](/windows/desktop/api/FileAPI/nf-
 
 When the row fetch is complete and the thread returns from the function, its highest priority is to process the returned I/O requests on the queue by calling the callback functions. To do this, it must enter an alertable state. A thread can only do this by calling one of the following functions with the appropriate flags:
 
--   [**SleepEx**](https://msdn.microsoft.com/library/windows/desktop/ms686307)
--   [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/windows/desktop/ms687036)
--   [**WaitForMultipleObjectsEx**](https://msdn.microsoft.com/library/windows/desktop/ms687028)
--   [**SignalObjectAndWait**](https://msdn.microsoft.com/library/windows/desktop/ms686293)
--   [**MsgWaitForMultipleObjectsEx**](https://msdn.microsoft.com/library/windows/desktop/ms684245)
+-   [**SleepEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex)
+-   [**WaitForSingleObjectEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex)
+-   [**WaitForMultipleObjectsEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex)
+-   [**SignalObjectAndWait**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-signalobjectandwait)
+-   [**MsgWaitForMultipleObjectsEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex)
 
 When the thread enters an alertable state, the following events occur:
 
@@ -40,13 +40,13 @@ If a thread enters an alertable state while its APC queue is empty, the thread's
 -   The kernel object that is being waited on becomes signaled.
 -   A callback function pointer is placed in the APC queue.
 
-A thread that uses alertable I/O processes asynchronous I/O requests more efficiently than when they simply wait on the event flag in the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure to be set, and the alertable I/O mechanism is less complicated than [I/O completion ports](i-o-completion-ports.md) to use. However, alertable I/O returns the result of the I/O request only to the thread that initiated it. I/O completion ports do not have this limitation.
+A thread that uses alertable I/O processes asynchronous I/O requests more efficiently than when they simply wait on the event flag in the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure to be set, and the alertable I/O mechanism is less complicated than [I/O completion ports](i-o-completion-ports.md) to use. However, alertable I/O returns the result of the I/O request only to the thread that initiated it. I/O completion ports do not have this limitation.
 
 ## Related topics
 
 <dl> <dt>
 
-[Asynchronous Procedure Calls](https://msdn.microsoft.com/library/windows/desktop/ms681951)
+[Asynchronous Procedure Calls](https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls)
 </dt> </dl>
 
  

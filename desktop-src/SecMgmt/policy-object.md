@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Policy Object
 
-The **Policy** object is used to control access to the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) database and contains information that applies to the entire system or establishes defaults for the system. Each system has only one **Policy** object. This **Policy** object is created by the LSA when the system starts up, and applications cannot create or destroy it.
+The **Policy** object is used to control access to the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) database and contains information that applies to the entire system or establishes defaults for the system. Each system has only one **Policy** object. This **Policy** object is created by the LSA when the system starts up, and applications cannot create or destroy it.
 
 The information stored in a **Policy** object includes:
 

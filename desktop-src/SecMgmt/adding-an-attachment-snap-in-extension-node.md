@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 An attachment snap-in extension must add itself under the Services node when that node is expanded by a user.
 
-When a user expands the Services node under one of the Security Configuration snap-ins, MMC uses [**IComponentData::Notify**](https://msdn.microsoft.com/library/aa814770) and the MMCN\_EXPAND notification message to notify the Security Configuration snap-in, plus all its extensions.
+When a user expands the Services node under one of the Security Configuration snap-ins, MMC uses [**IComponentData::Notify**](https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify) and the MMCN\_EXPAND notification message to notify the Security Configuration snap-in, plus all its extensions.
 
 The Security Configuration snap-in then extracts its internal format from the *lpDataObject*, which is passed in from the MMC main framework as type **LPDATAOBJECT**. It stops processing when it sees the Services node type. The attachment snap-in extension then extracts the node type from the *lpDataObject*. If the node type is one of the service's defined node types, the attachment snap-in extension inserts its root nodes under the specified parent node.
 

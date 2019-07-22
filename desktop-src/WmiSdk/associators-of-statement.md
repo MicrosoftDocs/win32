@@ -76,7 +76,7 @@ ASSOCIATORS OF {ObjectPath} WHERE
 
 Note that the optional subclauses are not separated by commas.
 
-The **AssocClass** keyword indicates that the returned endpoints must be associated with the source through the specified class or one of its derived classes. For example, the query in the following list returns only endpoints that are associated with the source through the [**Win32\_SystemDevices**](https://msdn.microsoft.com/library/aa394471) association class or any of its derived classes:
+The **AssocClass** keyword indicates that the returned endpoints must be associated with the source through the specified class or one of its derived classes. For example, the query in the following list returns only endpoints that are associated with the source through the [**Win32\_SystemDevices**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-systemdevices) association class or any of its derived classes:
 
 <dl> <dt>
 
@@ -101,7 +101,7 @@ Win32_ComputerSystem.Name="mycomputer"
 
 </dd> </dl>
 
-The **ClassDefsOnly** keyword indicates that the clause returns a result set of class definition objects rather than actual instances of the classes. These objects are the definitions of classes to which the endpoint instances belong. For example, the query in the following list returns definitions for the [**Win32\_Directory**](https://msdn.microsoft.com/library/aa394130) and [**Win32\_ComputerSystem**](https://msdn.microsoft.com/library/aa394102) classes:
+The **ClassDefsOnly** keyword indicates that the clause returns a result set of class definition objects rather than actual instances of the classes. These objects are the definitions of classes to which the endpoint instances belong. For example, the query in the following list returns definitions for the [**Win32\_Directory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-directory) and [**Win32\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem) classes:
 
 <dl> <dt>
 
@@ -194,7 +194,7 @@ Win32_DiskPartition.DeviceID="Disk #0, Partition #0"
 
 </dd> </dl>
 
-The **ResultClass** keyword indicates that the returned endpoints associated with the source object must belong to or be derived from the specified class. For example, the query in the following list returns endpoint instances that are derived from the [**CIM\_Directory**](https://msdn.microsoft.com/library/aa387248) class:
+The **ResultClass** keyword indicates that the returned endpoints associated with the source object must belong to or be derived from the specified class. For example, the query in the following list returns endpoint instances that are derived from the [**CIM\_Directory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-directory) class:
 
 <dl> <dt>
 

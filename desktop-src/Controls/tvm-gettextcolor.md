@@ -32,7 +32,7 @@ Retrieves the current text color of the control. You can send this message expli
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that represents the current text color. If this value is -1, the control is using the system color for the text color.
+Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the current text color. If this value is -1, the control is using the system color for the text color.
 
 ## Requirements
 

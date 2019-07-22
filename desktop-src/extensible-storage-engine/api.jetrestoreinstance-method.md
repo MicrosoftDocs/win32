@@ -70,14 +70,14 @@ public static void JetRestoreInstance(
 <!-- end list -->
 
   - source  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     Location of the backup. The backup should have been created with [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](dn292102\(v=exchg.10\).md).
 
 <!-- end list -->
 
   - destination  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     Name of the folder where the database files from the backup set will be copied and recovered. If this is set to null, the database files will be copied and recovered to their original location.
 

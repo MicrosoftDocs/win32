@@ -17,7 +17,7 @@ api_location:
 
 # WPD\_DEVICE\_TRANSPORTS enumeration
 
-The [**WPD\_DEVICE\_TRANSPORTS**](https://msdn.microsoft.com/library/windows/hardware/ff597866) enumeration type specifies the inheritance relationship for a service. This enumeration is used by the **WPD\_DEVICE\_TRANSPORT** property.
+The [**WPD\_DEVICE\_TRANSPORTS**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-device-transports) enumeration type specifies the inheritance relationship for a service. This enumeration is used by the **WPD\_DEVICE\_TRANSPORT** property.
 
 ## Syntax
 

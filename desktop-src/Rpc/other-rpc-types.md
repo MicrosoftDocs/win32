@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This section contains information about the following RPC types that are neither structures nor enumerated types:
 
--   [handle\_t](https://msdn.microsoft.com/library/windows/desktop/aa366849)
+-   [handle\_t](https://docs.microsoft.com/windows/desktop/Midl/handle-t)
 -   [**RPC\_AUTH\_IDENTITY\_HANDLE**](rpc-auth-identity-handle.md)
 -   [**RPC\_AUTHZ\_HANDLE**](rpc-authz-handle.md)
 -   [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md)

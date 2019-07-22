@@ -55,7 +55,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-Handle to the resource module containing the shader-resource view. HMODULE can be obtained with [GetModuleHandle Function](https://msdn.microsoft.com/en-us/library/ms683199.aspx).
+Handle to the resource module containing the shader-resource view. HMODULE can be obtained with [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 

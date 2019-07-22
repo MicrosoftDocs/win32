@@ -41,7 +41,7 @@ This section contains detailed information about the tree structure, properties,
 -   [ProgressBar Control Type](uiauto-supportprogressbarcontroltype.md)
 -   [RadioButton Control Type](uiauto-supportradiobuttoncontroltype.md)
 -   [ScrollBar Control Type](uiauto-supportscrollbarcontroltype.md)
--   [SemanticZoom Control Type](https://msdn.microsoft.com/library/windows/desktop/hh920984)
+-   [SemanticZoom Control Type](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-supportsemanticzoomcontroltype)
 -   [Separator Control Type](uiauto-supportseparatorcontroltype.md)
 -   [Slider Control Type](uiauto-supportslidercontroltype.md)
 -   [Spinner Control Type](uiauto-supportspinnercontroltype.md)

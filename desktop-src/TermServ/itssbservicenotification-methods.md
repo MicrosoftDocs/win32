@@ -3,7 +3,7 @@ title: ITsSbServiceNotification Methods
 description: The ITsSbServiceNotification interfaces exposes the following methods.
 ms.assetid: B2DED62A-03B0-4837-A5D2-FC7EFB7EEF0E
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

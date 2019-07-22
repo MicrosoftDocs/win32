@@ -67,7 +67,7 @@ This event does not return a value.
 
 ## Error codes
 
-After completion of the **OnCompleted** event, the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object may contain one of the error codes below.
+After completion of the **OnCompleted** event, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
 
 <dl> <dt>
 

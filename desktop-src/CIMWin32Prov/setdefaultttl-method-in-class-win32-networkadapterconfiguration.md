@@ -18,9 +18,9 @@ api_location:
 
 # SetDefaultTTL method of the Win32\_NetworkAdapterConfiguration class
 
-The **SetDefaultTTL** [WMI class](https://msdn.microsoft.com/library/aa393244) static method is used to set the default Time to Live (TTL) value in the header of outgoing IP packets.
+The **SetDefaultTTL** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) static method is used to set the default Time to Live (TTL) value in the header of outgoing IP packets.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Time to Live value set in the header of outgoing IP packets. The default value i
 
 ## Return value
 
-Returns a value of 0 (zero) for a successful completion when no reboot is required, 1 (one) for a successful completion when a reboot is required, and a different number if there is an error. For more information on error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns a value of 0 (zero) for a successful completion when no reboot is required, 1 (one) for a successful completion when a reboot is required, and a different number if there is an error. For more information on error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -431,13 +431,13 @@ The [Modify the Default Time-to-Live for All Network Adapters](https://Gallery.T
 [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://msdn.microsoft.com/library/aa394595)
+[WMI Tasks: Networking](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--networking)
 </dt> <dt>
 
-[WMI Tasks: Accounts and Domains](https://msdn.microsoft.com/library/aa394586)
+[WMI Tasks: Accounts and Domains](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
 </dt> <dt>
 
-[IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
+[IPv6 and IPv4 Support in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
 </dt> </dl>
 
  

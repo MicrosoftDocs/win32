@@ -1,14 +1,17 @@
 ---
 title: ID2D1RenderTarget FillRectangle methods
 description: Paints the interior of the specified rectangle.
-ms.assetid: '08e498f9-b564-4da6-ba9b-bff08964ce08'
-keywords: ["FillRectangle methods Direct2D"]
+ms.assetid: 08e498f9-b564-4da6-ba9b-bff08964ce08
+keywords:
+- FillRectangle methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1RenderTarget::FillRectangle methods

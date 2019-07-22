@@ -1,14 +1,17 @@
 ---
 title: IDCompositionScaleTransform3D SetScaleX methods
 description: Changes or animates the value of the ScaleX property of a 3D scale transform.
-ms.assetid: '96A7B9EC-7CD9-489F-AB97-A297321BDACD'
-keywords: ["SetScaleX methods DirectComposition"]
+ms.assetid: 96A7B9EC-7CD9-489F-AB97-A297321BDACD
+keywords:
+- SetScaleX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionScaleTransform3D::SetScaleX methods

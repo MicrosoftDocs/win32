@@ -101,21 +101,21 @@ public static bool JetTryPrereadIndexRanges(
 <!-- end list -->
 
   - rangeIndex  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The index of the first key range in the array to read.
 
 <!-- end list -->
 
   - rangeCount  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The maximum number of key ranges to preread.
 
 <!-- end list -->
 
   - rangesPreread  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the number of keys actually preread.
 
@@ -135,7 +135,7 @@ public static bool JetTryPrereadIndexRanges(
 
 #### Return value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
 **\[true\]** if some preread done, **\[false\]** otherwise.  
 
 ## See also

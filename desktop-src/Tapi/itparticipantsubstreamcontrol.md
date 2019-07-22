@@ -14,7 +14,7 @@ The **ITParticipantSubStreamControl** interface is implemented by the IPConf MSP
 
 ## Members
 
-The **ITParticipantSubStreamControl** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITParticipantSubStreamControl** also has these types of members:
+The **ITParticipantSubStreamControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantSubStreamControl** also has these types of members:
 
 -   [Methods](#methods)
 

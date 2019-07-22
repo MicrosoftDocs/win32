@@ -65,7 +65,7 @@ This section describes the functions, structures, and messages associated with t
 
 -   [**acmStreamClose**](/windows/desktop/api/Msacm/nf-msacm-acmstreamclose)
 -   [**acmStreamConvert**](/windows/desktop/api/Msacm/nf-msacm-acmstreamconvert)
--   [**acmStreamConvertCallback**](https://msdn.microsoft.com/library/windows/desktop/dd742925)
+-   [**acmStreamConvertCallback**](https://docs.microsoft.com/previous-versions//dd742925(v=vs.85))
 -   [**ACMSTREAMHEADER**](/windows/desktop/api/Msacm/ns-msacm-tacmstreamheader)
 -   [**acmStreamMessage**](/windows/desktop/api/Msacm/nf-msacm-acmstreammessage)
 -   [**acmStreamOpen**](/windows/desktop/api/Msacm/nf-msacm-acmstreamopen)

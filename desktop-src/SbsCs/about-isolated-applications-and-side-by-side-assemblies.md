@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About Isolated Applications and Side-by-side Assemblies
 
-[Isolated applications](isolated-applications.md) and [side-by-side assemblies](about-side-by-side-assemblies-.md) provide a solution that reduces [*DLL versioning conflicts*](d-sbscs-gly.md). They enable applications to safely share assemblies. For more information, see [Shared Assemblies](https://msdn.microsoft.com/library/windows/desktop/aa371839).
+[Isolated applications](isolated-applications.md) and [side-by-side assemblies](about-side-by-side-assemblies-.md) provide a solution that reduces [*DLL versioning conflicts*](d-sbscs-gly.md). They enable applications to safely share assemblies. For more information, see [Shared Assemblies](https://docs.microsoft.com/windows/desktop/Msi/shared-assemblies).
 
 An assembly is a fundamental unit for naming, binding, versioning, deploying, or configuring a block of programming code. Applications with common functionality may run shared blocks of programming code which are referred to as modules or code assemblies. These code assemblies may be placed in DLLs or COM assemblies. The infrastructure for the safe sharing of assemblies is referred to as side-by-side assembly sharing.
 

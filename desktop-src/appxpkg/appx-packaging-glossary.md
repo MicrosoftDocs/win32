@@ -1,6 +1,6 @@
 ---
 title: Packaging, deployment, and query glossary
-description: Provides definitions for terms related to packaging, deployment, and query for Windows Store apps.
+description: Provides definitions for terms related to packaging, deployment, and query for Windows apps.
 Robots: noindex, nofollow
 ms.assetid: 15E35DCF-C6C1-446A-B09B-6428F9C8A677
 ms.topic: article
@@ -91,7 +91,7 @@ A globally unique identifier for a package. It is composed of a tuple of attribu
 <span id="appxpkg.appx_packaging_glossary_package_relative_application_id"></span><span id="APPXPKG.APPX_PACKAGING_GLOSSARY_PACKAGE_RELATIVE_APPLICATION_ID"></span>**package relative application ID**
 </dt> <dd>
 
-The **Id** attribute on the [**Application**](https://msdn.microsoft.com/library/windows/apps/dn423250) element within the package manifest, which is also known as PRAID. This string uniquely identifies an app within a package. This attribute is required for the **Application** element.
+The **Id** attribute on the [**Application**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema2010-v2/element-application) element within the package manifest, which is also known as PRAID. This string uniquely identifies an app within a package. This attribute is required for the **Application** element.
 
 </dd> <dt>
 

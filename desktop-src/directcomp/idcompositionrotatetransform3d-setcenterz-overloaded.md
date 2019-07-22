@@ -1,14 +1,17 @@
 ---
 title: IDCompositionRotateTransform3D SetCenterZ methods
 description: Changes or animates the value of the CenterZ property of a 3D rotation transform. The CenterZ property specifies the z-coordinate of the point about which the rotation is performed. The default value is zero.
-ms.assetid: '7FF293B6-8FAE-4277-8C07-EBD4E819E2A0'
-keywords: ["SetCenterZ methods DirectComposition"]
+ms.assetid: 7FF293B6-8FAE-4277-8C07-EBD4E819E2A0
+keywords:
+- SetCenterZ methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionRotateTransform3D::SetCenterZ methods

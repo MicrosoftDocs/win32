@@ -27,7 +27,7 @@ When **STRICT** is defined, [data type](windows-data-types.md) definitions chang
 -   Specific handle types are defined to be mutually exclusive; for example, you will not be able to pass an **HWND** where an **HDC** type argument is required. Without **STRICT**, all handles are defined as integers, so the compiler does not prevent you from using one type of handle where another type is expected.
 -   All callback function types (such as dialog procedures, window procedures, and hook procedures) are defined with full prototypes. This prevents you from declaring callback functions with incorrect parameter lists.
 -   Parameter and return value types that should use a generic pointer are declared correctly as **LPVOID** instead of as **LPSTR** or another pointer type.
--   The [**COMSTAT**](https://msdn.microsoft.com/library/windows/desktop/aa363200) structure is declared according to the ANSI standard.
+-   The [**COMSTAT**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_comstat) structure is declared according to the ANSI standard.
 
 ## Related topics
 

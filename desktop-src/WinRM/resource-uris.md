@@ -22,7 +22,7 @@ A URI consists of a prefix and a path to a resource as is shown in the following
 
 "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_LogicalDisk"
 
-This schema specification indicates that the URI is based on version 1 of the official WS-Management protocol and that the resource is a [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) in the "root\\cimv2" namespace of the WMI repository. URI prefixes contain a schema specification, such as "schemas.microsoft.com/wbem/wsman/1/wmi" and a specific type of resource, such as **Win32\_LogicalDisk**. For more information about identifying a specific instance of a WMI class, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
+This schema specification indicates that the URI is based on version 1 of the official WS-Management protocol and that the resource is a [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) in the "root\\cimv2" namespace of the WMI repository. URI prefixes contain a schema specification, such as "schemas.microsoft.com/wbem/wsman/1/wmi" and a specific type of resource, such as **Win32\_LogicalDisk**. For more information about identifying a specific instance of a WMI class, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
 For more information, see [URI Prefixes](uri-prefixes.md).
 
@@ -34,7 +34,7 @@ The following list describes several types of resource URIs used by Windows Remo
 
 -   WMI URIs
 
-    This group of URIs represent a [*Common Information Model*](https://msdn.microsoft.com/library/aa390793#wmi-gloss-common-information-model) class path which includes namespace and class.
+    This group of URIs represent a [*Common Information Model*](https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-c) class path which includes namespace and class.
 
     WMI URIs can be used in:
 
@@ -63,7 +63,7 @@ The following list describes several types of resource URIs used by Windows Remo
 
 The [*WMI plug-in*](windows-remote-management-glossary.md) preserves the case of the resource URI received in a request. However, to ensure interoperability with other implementations of WS-Management protocol, use the correct case for the requested resource in resource URI. The correct case is the spelling defined by the resource provider.
 
-While resource URIs do not require case-sensitivity, [*fragment*](windows-remote-management-glossary.md) XML does. A fragment specifies just one property, rather than the entire set of properties for a resource. In the case of WMI resources, fragment syntax gets one property from a resource instance. For example, getting only the **Version** property from [**Win32\_OperatingSystem**](https://msdn.microsoft.com/library/aa394239) requires using a fragment. For more information about fragments, see "Adding a selector to a ResourceLocator or IWSManResourceLocator object" in [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
+While resource URIs do not require case-sensitivity, [*fragment*](windows-remote-management-glossary.md) XML does. A fragment specifies just one property, rather than the entire set of properties for a resource. In the case of WMI resources, fragment syntax gets one property from a resource instance. For example, getting only the **Version** property from [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem) requires using a fragment. For more information about fragments, see "Adding a selector to a ResourceLocator or IWSManResourceLocator object" in [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
 Following XML and [*XPath*](windows-remote-management-glossary.md) standards, the [*WMI plug-in*](windows-remote-management-glossary.md) enforces case-sensitivity for fragments and XML that defines the input parameters for a method. Case-sensitivity is required to support the XPath 1.0/Level 1 standard. To get WMI data through WinRM, case-sensitivity means that the names of WMI classes, properties, and methods must match the case of the name found in the WMI repository.
 
@@ -71,7 +71,7 @@ For more information, see [XPath Syntax](https://go.microsoft.com/fwlink/p/?link
 
 ## Case Sensitivity Examples
 
-For example, a script that obtains the **SECURITY\_DESCRIPTOR** property from an instance of the WMI [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) class cannot use upper-case for the names in the fragment path, only the URI. The WinRM [*WMI plug-in*](windows-remote-management-glossary.md) returns an error for the following VBScript example because the XPath XML supplied for the **FragmentPath** does not use the correct case. In the WMI repository, the class is spelled "Win32\_Service".
+For example, a script that obtains the **SECURITY\_DESCRIPTOR** property from an instance of the WMI [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) class cannot use upper-case for the names in the fragment path, only the URI. The WinRM [*WMI plug-in*](windows-remote-management-glossary.md) returns an error for the following VBScript example because the XPath XML supplied for the **FragmentPath** does not use the correct case. In the WMI repository, the class is spelled "Win32\_Service".
 
 
 ```VB
@@ -86,7 +86,7 @@ WScript.Echo xml
 
 
 
-The following version of the same example shows the correct use of case for the [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) class and **SECURITY\_DESCRIPTOR** property.
+The following version of the same example shows the correct use of case for the [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) class and **SECURITY\_DESCRIPTOR** property.
 
 
 ```VB

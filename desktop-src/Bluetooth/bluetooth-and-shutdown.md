@@ -12,16 +12,16 @@ ms.date: 05/31/2018
 
 # Bluetooth and shutdown
 
-Bluetooth uses the [**shutdown**](https://msdn.microsoft.com/library/windows/desktop/ms740481) function to disconnect from the remote radio. Bluetooth does not have protocol-level support for the same graceful closes or half-closes that TCP/IP provides.
+Bluetooth uses the [**shutdown**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown) function to disconnect from the remote radio. Bluetooth does not have protocol-level support for the same graceful closes or half-closes that TCP/IP provides.
 
 ## Related topics
 
 <dl> <dt>
 
-[Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
+[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**shutdown**](https://msdn.microsoft.com/library/windows/desktop/ms740481)
+[**shutdown**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown)
 </dt> </dl>
 
  

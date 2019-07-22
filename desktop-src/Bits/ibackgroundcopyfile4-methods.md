@@ -2,7 +2,7 @@
 title: IBackgroundCopyFile4 Methods
 description: The IBackgroundCopyFile4 interface exposes the following methods.
 ms.assetid: 11A9AACD-223F-43FB-AB1E-ED781D2FA60F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -89,7 +89,7 @@ public static Nullable<short> RetrieveColumnAsInt16(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Int16](https://msdn.microsoft.com/en-us/library/e07e6fds)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Int16](https://docs.microsoft.com/dotnet/api/system.int16?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a short. Null if the column is null.  
 
 ## See also

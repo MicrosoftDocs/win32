@@ -182,7 +182,7 @@ For more information and examples, see [Fonts](vis-fonts.md) and [Color](vis-col
 
     The terms document and file are often used interchangeably.
 
--   Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404).
+-   Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop).
 
     ![screen shot of search text box ](images/text-ui-image26.png)
 

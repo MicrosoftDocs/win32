@@ -59,13 +59,13 @@ The following code uses the [**GetDesktopDpi**](https://msdn.microsoft.com/en-us
 
 > [!Note]
 >
-> Starting with Windows 8, you can use the [**Windows::Graphics::Display::DisplayProperties**](https://msdn.microsoft.com/library/windows/apps/br226143) class to get the system DPI.
+> Starting with Windows 8, you can use the [**Windows::Graphics::Display::DisplayProperties**](https://docs.microsoft.com/uwp/api/Windows.Graphics.Display.DisplayProperties) class to get the system DPI.
 
  
 
 ## Step 2: Declare That the Application is DPI-Aware
 
-When an application declares itself to be DPI-aware, it is a statement specifying that the application behaves well at DPI settings up to 200 DPI. In Windows Vista and Windows 7, when DPI virtualization is enabled, applications that are not DPI-aware are scaled, and applications receive virtualized data from the system APIs, such as the [**GetSystemMetric**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function. To declare that your application is DPI-aware, complete the following steps.
+When an application declares itself to be DPI-aware, it is a statement specifying that the application behaves well at DPI settings up to 200 DPI. In Windows Vista and Windows 7, when DPI virtualization is enabled, applications that are not DPI-aware are scaled, and applications receive virtualized data from the system APIs, such as the [**GetSystemMetric**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. To declare that your application is DPI-aware, complete the following steps.
 
 1.  Create a file called DeclareDPIAware.manifest.
 2.  Copy the following xml into the file and save it:

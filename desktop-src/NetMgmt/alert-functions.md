@@ -56,7 +56,7 @@ The following macros are available for use with alert data buffers.
 
  
 
-Instead of using the network management alert functions, you may be able to use the Windows Management Instrumentation (WMI) SDK for event notification. For more information about the platforms that support the WMI event model, see [WMI Infrastructure](https://msdn.microsoft.com/library/aa394562) and [Monitoring Events](https://msdn.microsoft.com/library/aa392396) in the WMI documentation.
+Instead of using the network management alert functions, you may be able to use the Windows Management Instrumentation (WMI) SDK for event notification. For more information about the platforms that support the WMI event model, see [WMI Infrastructure](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-infrastructure) and [Monitoring Events](https://docs.microsoft.com/windows/desktop/WmiSdk/monitoring-events) in the WMI documentation.
 
  
 

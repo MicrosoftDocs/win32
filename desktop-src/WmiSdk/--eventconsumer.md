@@ -110,7 +110,7 @@ Permanent consumers define new consumer classes to describe an action to take an
 
 <dl> <dt>
 
-[**\_\_IndicationRelated**](https://msdn.microsoft.com/library/aa394648)
+[**\_\_IndicationRelated**](https://docs.microsoft.com/windows/desktop/WmiSdk/--indicationrelated)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

@@ -38,7 +38,7 @@ HANDLE WINAPI GetProcessHandleFromHwnd(
 *hwnd* \[in\]
 </dt> <dd>
 
-Type: **[**HWND**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hwnd)**
+Type: **[**HWND**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The window handle.
 
@@ -46,7 +46,7 @@ The window handle.
 
 ## Return value
 
-Type: **[**HANDLE**](https://msdn.microsoft.com/library/windows/desktop/aa383751#handle)**
+Type: **[**HANDLE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 If successful, returns the handle of the process that owns the window.
 
@@ -54,9 +54,9 @@ If not successful, returns **NULL**.
 
 ## Remarks
 
-In previous versions of the operating system, a process could open another process (to access its memory, for example) using [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320). This function succeeds if the caller has appropriate privileges; usually the caller and target process must be the same user.
+In previous versions of the operating system, a process could open another process (to access its memory, for example) using [**OpenProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess). This function succeeds if the caller has appropriate privileges; usually the caller and target process must be the same user.
 
-On Windows Vista, however, [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) fails in the scenario where the caller has UIAccess, and the target process is elevated. In this case, the owner of the target process is in the Administrators group, but the calling process is running with the restricted token, so does not have membership in this group, and is denied access to the elevated process. If the caller has UIAccess, however, they can use a windows hook to inject code into the target process, and from within the target process, send a handle back to the caller.
+On Windows Vista, however, [**OpenProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) fails in the scenario where the caller has UIAccess, and the target process is elevated. In this case, the owner of the target process is in the Administrators group, but the calling process is running with the restricted token, so does not have membership in this group, and is denied access to the elevated process. If the caller has UIAccess, however, they can use a windows hook to inject code into the target process, and from within the target process, send a handle back to the caller.
 
 **GetProcessHandleFromHwnd** is a convenience function that uses this technique to obtain the handle of the process that owns the specified HWND. Note that it only succeeds in cases where the caller and target process are running as the same user. The returned handle has the following privileges: PROCESS\_DUP\_HANDLE \| PROCESS\_VM\_OPERATION \| PROCESS\_VM\_READ \| PROCESS\_VM\_WRITE \| SYNCHRONIZE. If other privileges are required, it may be necessary to implement the hooking technique explicitly instead of using this function.
 

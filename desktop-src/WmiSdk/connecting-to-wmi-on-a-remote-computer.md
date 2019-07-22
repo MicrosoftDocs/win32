@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Connecting to WMI on a Remote Computer
 
-WMI can be used to manage and access WMI data on remote computers. Remote connections in WMI are affected by the [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=84428) and DCOM settings. [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84439) may also require changes to some settings. However, once your have your settings correct, the call to a remote system is very similar to a local WMI call. You may choose to make it more complex however, by using different credentials, alternate authentication protocols, and other security features.
+WMI can be used to manage and access WMI data on remote computers. Remote connections in WMI are affected by the [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=157267) and DCOM settings. [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84439) may also require changes to some settings. However, once your have your settings correct, the call to a remote system is very similar to a local WMI call. You may choose to make it more complex however, by using different credentials, alternate authentication protocols, and other security features.
 
 ## Configuring a Computer for a Remote Connection
 
@@ -61,7 +61,7 @@ Set colSettings = objWMIService.ExecQuery("Select * from Win32_OperatingSystem")
 <span id="Connecting_to_WMI_Remotely_with_C_"></span><span id="connecting_to_wmi_remotely_with_c_"></span><span id="CONNECTING_TO_WMI_REMOTELY_WITH_C_"></span>[Connecting to WMI Remotely with C#](connecting-to-wmi-remotely-with-c-.md)
 </dt> <dd>
 
-For the current version of the WMI managed interface ([Microsoft.Management.Infrastructure](https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx)), use the [CimSession](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.aspx) object to represent a connection to a remote host.
+For the current version of the WMI managed interface ([Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85))), use the [CimSession](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832509(v=vs.85)) object to represent a connection to a remote host.
 
 
 ```CSharp
@@ -80,7 +80,7 @@ IEnumerable<CimInstance> queryInstance = mySession.QueryInstances(Namespace, "WQ
 <span id="Connecting_to_WMI_Remotely_with_C_"></span><span id="connecting_to_wmi_remotely_with_c_"></span><span id="CONNECTING_TO_WMI_REMOTELY_WITH_C_"></span>[Connecting to WMI Remotely with C#](connecting-to-wmi-remotely-with-c-.md)
 </dt> <dd>
 
-For the v1 version of the WMI managed interface ([System.Management](https://msdn.microsoft.com/library/system.management.aspx)), use the [ManagementScope](https://msdn.microsoft.com/library/system.management.managementscope.aspx) object to represent a connection to a remote host.
+For the v1 version of the WMI managed interface ([System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN)), use the [ManagementScope](https://docs.microsoft.com/dotnet/api/system.management.managementscope?redirectedfrom=MSDN) object to represent a connection to a remote host.
 
 
 ```CSharp
@@ -121,7 +121,7 @@ Use the [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcl
 
 The previous code samples are arguably the most basic remote connection you can perform with WMI. Specifically, the samples assume the following:
 
--   You are an administrator on the remote machine. Due to [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84365), the account on the remote system must be a domain account in the Administrators group. For more information, see User Account Control and WMI.
+-   You are an administrator on the remote machine. Due to [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84439), the account on the remote system must be a domain account in the Administrators group. For more information, see User Account Control and WMI.
 -   The password on your current local machine is not blank. This is essentially a Windows security requirement that you must have logged onto your system with a password.
 -   Both your local and remote computers are within the same domain. If you need to cross domain boundaries, you would need to supply additional information or use a slightly different programming model.
 -   You are using your own account to access the remote machine. If you were trying to access a different account, you would need to supply additional credentials. (Note that trying to access WMI locally with credentials different than your current account is not permitted.)

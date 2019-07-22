@@ -42,7 +42,7 @@ HRESULT GetBackingStore(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Index into an array of sampler descriptions. If there is only one sampler variable in the effect, use 0.
 

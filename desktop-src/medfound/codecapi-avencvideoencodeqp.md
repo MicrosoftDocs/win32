@@ -54,7 +54,7 @@ To insure consistent usage across different encoders, you should assume encoders
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
+[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

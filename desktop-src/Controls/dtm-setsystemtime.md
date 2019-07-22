@@ -45,7 +45,7 @@ A value specifying the action that should be performed. This value must be set t
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure containing the system time used to set the DTP control.
+A pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure containing the system time used to set the DTP control.
 
 </dd> </dl>
 

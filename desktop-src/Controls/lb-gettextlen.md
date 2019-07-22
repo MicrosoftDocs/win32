@@ -50,7 +50,7 @@ If the *wParam* parameter does not specify a valid index, the return value is LB
 
 Under certain conditions, the return value is larger than the actual length of the text. This occurs with certain mixtures of ANSI and Unicode, and is due to the operating system allowing for the possible existence of double-byte character set (DBCS) characters within the text. The return value, however, will always be at least as large as the actual length of the text; you can thus always use it to guide buffer allocation. This behavior can occur when an application uses both ANSI functions and common dialogs, which use Unicode.
 
-To obtain the exact length of the text, use the [**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627), [**LB\_GETTEXT**](lb-gettext.md), or [**CB\_GETLBTEXT**](cb-getlbtext.md) messages, or the [**GetWindowText**](https://msdn.microsoft.com/library/windows/desktop/ms633520) function.
+To obtain the exact length of the text, use the [**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext), [**LB\_GETTEXT**](lb-gettext.md), or [**CB\_GETLBTEXT**](cb-getlbtext.md) messages, or the [**GetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta) function.
 
 If the list box has an owner-drawn style, but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the return value is always the size, in bytes, of a **DWORD**.
 
@@ -82,10 +82,10 @@ If the list box has an owner-drawn style, but not the [**LBS\_HASSTRINGS**](list
 **Other Resources**
 </dt> <dt>
 
-[**GetWindowText**](https://msdn.microsoft.com/library/windows/desktop/ms633520)
+[**GetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta)
 </dt> <dt>
 
-[**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627)
+[**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext)
 </dt> </dl>
 
  

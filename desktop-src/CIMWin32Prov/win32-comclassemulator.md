@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_ComClassEmulator class
 
-The **Win32\_ComClassEmulator** association [WMI class](https://msdn.microsoft.com/library/aa393244) relates two versions of a Component Object Model (COM) class.
+The **Win32\_ComClassEmulator** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates two versions of a Component Object Model (COM) class.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_ClassicCOMClass**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_ClassicCOMClass")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
 </dt> </dl>
 
 Reference to the instance representing the COM component that contains interfaces emulating the older version of the component.
@@ -72,7 +72,7 @@ Data type: **Win32\_ClassicCOMClass**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_ClassicCOMClass")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
 </dt> </dl>
 
 Reference to the instance representing the COM component with interfaces that can be emulated by the new version of the component.
@@ -97,7 +97,7 @@ Reference to the instance representing the COM component with interfaces that ca
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

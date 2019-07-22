@@ -74,13 +74,13 @@ The *system small icon* is displayed in the window caption.
 
 ### To retrieve the size of the system small icon
 
--   Call the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function with **SM\_CXSMICON** and **SM\_CYSMICON**.
+-   Call the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function with **SM\_CXSMICON** and **SM\_CYSMICON**.
 
 The *system large icon* is mainly used by applications, but it is also displayed in the Alt+Tab dialog. The [**CreateIconFromResource**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresource), [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon), [**ExtractAssociatedIcon**](/windows/desktop/api/Shellapi/nf-shellapi-extractassociatedicona), [**ExtractIcon**](/windows/desktop/api/Shellapi/nf-shellapi-extracticona), [**ExtractIconEx**](/windows/desktop/api/Shellapi/nf-shellapi-extracticonexa), and [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) functions all use system large icons. The size of the system large icon is defined by the video driver, therefore it cannot be changed.
 
 ### To retrieve the size of the system large icon
 
--   Call [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) with **SM\_CXICON** and **SM\_CYICON**.
+-   Call [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXICON** and **SM\_CYICON**.
 
 The [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect), and [**SHGetFileInfo**](https://msdn.microsoft.com/en-us/library/Bb762179(v=VS.85).aspx) functions can be used to work with icons in sizes other than system large.
 
@@ -112,7 +112,7 @@ Your application should supply groups of icon images in the following sizes:
 -   32x32, 16 color
 -   16x16 pixels, 16 color
 
-When filling in the [**WNDCLASSEX**](https://msdn.microsoft.com/library/windows/desktop/ms633577) structure to be used in registering your window class, set the **hIcon** member to the 32x32 icon and the **hIconSm** member to the 16x16 icon. For more information about class icons, see [Class Icons](https://msdn.microsoft.com/library/windows/desktop/ms633574#class-icons).
+When filling in the [**WNDCLASSEX**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa) structure to be used in registering your window class, set the **hIcon** member to the 32x32 icon and the **hIconSm** member to the 16x16 icon. For more information about class icons, see [Class Icons](https://docs.microsoft.com/windows/desktop/winmsg/about-window-classes).
 
 ## Icon Creation
 

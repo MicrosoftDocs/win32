@@ -27,18 +27,18 @@ The following topics are covered in this document.
 
 The following methods and properties are available through the **window.external** object.
 
--   [**FinalBack**](https://msdn.microsoft.com/library/windows/desktop/bb774354)
--   [**FinalNext**](https://msdn.microsoft.com/library/windows/desktop/bb774356)
--   [**Cancel**](https://msdn.microsoft.com/library/windows/desktop/bb774350)
--   [**PassportAuthenticate**](https://msdn.microsoft.com/library/windows/desktop/bb775420)
--   [**SetHeaderText**](https://msdn.microsoft.com/library/windows/desktop/bb774360)
--   [**SetWizardButtons**](https://msdn.microsoft.com/library/windows/desktop/bb774372)
--   [**Caption**](https://msdn.microsoft.com/library/windows/desktop/bb774352)
--   [**Property**](https://msdn.microsoft.com/library/windows/desktop/bb774358)
+-   [**FinalBack**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-finalback)
+-   [**FinalNext**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-finalnext)
+-   [**Cancel**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-cancel)
+-   [**PassportAuthenticate**](https://docs.microsoft.com/windows/desktop/shell/inewwdevents-passportauthenticate)
+-   [**SetHeaderText**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-setheadertext)
+-   [**SetWizardButtons**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-setwizardbuttons)
+-   [**Caption**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb774352(v=vs.85))
+-   [**Property**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-property)
 
-The server-side page's script calls these methods to notify the client of events during the publishing procedure. Let's look at [**FinalBack**](https://msdn.microsoft.com/library/windows/desktop/bb774354) as an example. When the wizard displays the first server-side HTML page, it does so armed with knowledge of the handles for the wizard pages preceding and following the hosted HTML pages. At this point in our example, the user, sitting at that first HTML page, clicks the **Back** button. The wizard sends a notification of this event to the server. On receipt of this message, the server-side script refers to its **OnBack** handler for this event, which, as this is the first HTML page, calls the **FinalBack** method. This causes the wizard to navigate to the wizard page displayed before entering the server-side UI.
+The server-side page's script calls these methods to notify the client of events during the publishing procedure. Let's look at [**FinalBack**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-finalback) as an example. When the wizard displays the first server-side HTML page, it does so armed with knowledge of the handles for the wizard pages preceding and following the hosted HTML pages. At this point in our example, the user, sitting at that first HTML page, clicks the **Back** button. The wizard sends a notification of this event to the server. On receipt of this message, the server-side script refers to its **OnBack** handler for this event, which, as this is the first HTML page, calls the **FinalBack** method. This causes the wizard to navigate to the wizard page displayed before entering the server-side UI.
 
-For a complete discussion of these methods and properties, see the documentation for the [**WebWizardHost**](https://msdn.microsoft.com/library/windows/desktop/bb773942) and [**NewWDEvents**](https://msdn.microsoft.com/library/windows/desktop/bb774109) objects.
+For a complete discussion of these methods and properties, see the documentation for the [**WebWizardHost**](https://docs.microsoft.com/windows/desktop/shell/webwizardhost) and [**NewWDEvents**](https://docs.microsoft.com/windows/desktop/shell/newwdevents) objects.
 
 ## Design Considerations
 
@@ -50,10 +50,10 @@ Each HTML page must also provide a handler for **OnBack**, **OnNext**, and **OnC
 
 <dl> <dt>
 
-[**WebWizardHost**](https://msdn.microsoft.com/library/windows/desktop/bb773942)
+[**WebWizardHost**](https://docs.microsoft.com/windows/desktop/shell/webwizardhost)
 </dt> <dt>
 
-[**NewWDEvents**](https://msdn.microsoft.com/library/windows/desktop/bb774109)
+[**NewWDEvents**](https://docs.microsoft.com/windows/desktop/shell/newwdevents)
 </dt> <dt>
 
 [Server-Side Design](pubwiz-server.md)

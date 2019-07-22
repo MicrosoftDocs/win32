@@ -17,7 +17,7 @@ When a service calls a remote SCM function, the client-side SCM first attempts t
 TCP does not carry user credentials specified with a **net use** command. Therefore, if RPC/TCP is enabled and **sc.exe** is used to attempt to access the specified service, the command could fail with access denied. Disabling RPC/TCP on the client side causes the **sc.exe** command to use a named pipe that does carry user credentials, so the command will succeed. For information about sc.exe, see [Controlling a Service Using SC](controlling-a-service-using-sc.md).
 
 > [!Note]  
-> A service should not provide explicit credentials to a **net use** command, because those credentials might be inadvertently shared outside of the service boundaries. Instead, the service should use [client impersonation](https://msdn.microsoft.com/library/windows/desktop/aa376391) to impersonate the user.
+> A service should not provide explicit credentials to a **net use** command, because those credentials might be inadvertently shared outside of the service boundaries. Instead, the service should use [client impersonation](https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation) to impersonate the user.
 
  
 

@@ -95,7 +95,7 @@ Returns a pointer to the subscription resulting from the notification callback r
 
 If the function succeeds, the return value is **ERROR\_SUCCESS**.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+If the function fails, the return value is one of the [system error codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 ## Remarks
 

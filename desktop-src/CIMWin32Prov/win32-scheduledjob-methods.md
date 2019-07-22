@@ -3,7 +3,7 @@ Description: The Win32\_ScheduledJob class exposes the following methods.
 ms.assetid: D380783C-35DB-42F8-81F5-881FE43C4F52
 ms.tgt_platform: multiple
 title: Win32_ScheduledJob Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -78,7 +78,7 @@ The **\_\_ObjectProviderCacheControl** class is derived from [**\_\_CacheControl
 
 <dl> <dt>
 
-[**\_\_CacheControl**](https://msdn.microsoft.com/library/aa394625)
+[**\_\_CacheControl**](https://docs.microsoft.com/windows/desktop/WmiSdk/--cachecontrol)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

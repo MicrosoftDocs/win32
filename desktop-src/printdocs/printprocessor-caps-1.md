@@ -67,9 +67,9 @@ The maximum number of copies the printer can handle.
 
 ## Remarks
 
-Values for all structure members are supplied by the [**GetPrintProcessorCapabilities**](https://msdn.microsoft.com/library/windows/hardware/ff550522) function, which is documented in the Windows Driver Kit (WDK).
+Values for all structure members are supplied by the [**GetPrintProcessorCapabilities**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) function, which is documented in the Windows Driver Kit (WDK).
 
-The spooler calls a print processor's [**GetPrintProcessorCapabilities**](https://msdn.microsoft.com/library/windows/hardware/ff550522) function when an application calls [**GetPrinterData**](getprinterdata.md), specifying a value name with a format of PrintProcCaps\_*datatype*, where *datatype* is the name of an input data type.
+The spooler calls a print processor's [**GetPrintProcessorCapabilities**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) function when an application calls [**GetPrinterData**](getprinterdata.md), specifying a value name with a format of PrintProcCaps\_*datatype*, where *datatype* is the name of an input data type.
 
 ## Requirements
 

@@ -30,13 +30,13 @@ Sets the background color of the control. You can send this message explicitly o
 *lParam* 
 </dt> <dd>
 
-[**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that contains the new background color. If this value is -1, the control will revert to using the system color for the background color.
+[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that contains the new background color. If this value is -1, the control will revert to using the system color for the background color.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that represents the previous background color. If this value is -1, the control was using the system color for the background color.
+Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the previous background color. If this value is -1, the control was using the system color for the background color.
 
 ## Requirements
 

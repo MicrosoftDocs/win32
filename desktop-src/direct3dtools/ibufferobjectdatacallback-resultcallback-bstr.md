@@ -47,7 +47,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## <span id="see_also"></span>See also
 
-[**IBufferObjectDataCallback**](https://msdn.microsoft.com/library/windows/desktop/mt422646)
+[**IBufferObjectDataCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/ibufferobjectdatacallback)
 
  
 

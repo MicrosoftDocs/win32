@@ -17,9 +17,9 @@ Because two installations cannot be run in the same process, an attempt to call 
 
 See the [Event Logging](event-logging.md) messages for information about what application is being installed.
 
-In cases where it is impractical to return an ERROR\_INSTALL\_ALREADY\_RUNNING error, you can retrieve the current status of the Windows Installer service before attempting to start the installation by using the [**QueryServiceStatusEx**](https://msdn.microsoft.com/library/windows/desktop/ms684941) function. The Windows Installer service is currently running if the value of the **dwControlsAccepted** member of the returned [**SERVICE\_STATUS\_PROCESS**](https://msdn.microsoft.com/library/windows/desktop/ms685992) structure is **SERVICE\_ACCEPT\_SHUTDOWN**.
+In cases where it is impractical to return an ERROR\_INSTALL\_ALREADY\_RUNNING error, you can retrieve the current status of the Windows Installer service before attempting to start the installation by using the [**QueryServiceStatusEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex) function. The Windows Installer service is currently running if the value of the **dwControlsAccepted** member of the returned [**SERVICE\_STATUS\_PROCESS**](https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process) structure is **SERVICE\_ACCEPT\_SHUTDOWN**.
 
-**Windows Installer 2.0:** Not supported. The use of the [**QueryServiceStatusEx**](https://msdn.microsoft.com/library/windows/desktop/ms684941) function to retrieve the current status of the Windows Installer service requires Windows Installer version 3.0 or greater.
+**Windows Installer 2.0:** Not supported. The use of the [**QueryServiceStatusEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex) function to retrieve the current status of the Windows Installer service requires Windows Installer version 3.0 or greater.
 
  
 

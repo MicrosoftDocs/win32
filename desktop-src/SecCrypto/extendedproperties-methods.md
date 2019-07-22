@@ -2,7 +2,7 @@
 Description: The ExtendedProperties object exposes the following methods.
 ms.assetid: F09E45C2-F8BA-4A4E-B3EE-13C2A7AACF8A
 title: ExtendedProperties Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

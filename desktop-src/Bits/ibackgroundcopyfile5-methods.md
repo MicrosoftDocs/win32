@@ -2,7 +2,7 @@
 title: IBackgroundCopyFile5 Methods
 description: The IBackgroundCopyFile5 interface exposes the following methods.
 ms.assetid: fc407e4b-f039-4a70-94da-151b03c6ddbf
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The IWbemPathKeyList interface exposes the following methods.
 ms.assetid: 87E6B110-2CA0-45FF-BBF2-E7B3D51E95A0
 ms.tgt_platform: multiple
 title: IWbemPathKeyList Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

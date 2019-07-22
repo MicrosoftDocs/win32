@@ -2,7 +2,7 @@
 title: Commands Object Methods
 description: Commands Object Methods
 ms.assetid: 3429c63d-562b-434d-a71e-7040e56aac6c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The server supports the following methods for the [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) collection object:
+The server supports the following methods for the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection object:
 
 -   [**Add**](add-method.md)
 -   [**Command**](command-method.md)

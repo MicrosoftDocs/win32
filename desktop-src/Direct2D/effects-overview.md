@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## What are Direct2D effects?
 
-You can use Direct2D to apply one or more high quality effects to an image or a set of images. The effects APIs are built on [Direct3D 11](https://msdn.microsoft.com/library/windows/desktop/ff476342) and take advantage of GPU features for image processing. You can chain effects in an effect graph and compose or blend the output of effects.
+You can use Direct2D to apply one or more high quality effects to an image or a set of images. The effects APIs are built on [Direct3D 11](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-features) and take advantage of GPU features for image processing. You can chain effects in an effect graph and compose or blend the output of effects.
 
 A Direct2D effect performs an imaging task, like changing brightness, de-saturating an image, or creating a drop shadow. Effects can accept zero or more input images, expose multiple properties that control their operation, and generate a single output image.
 
@@ -28,7 +28,7 @@ There are a range of [built-in effects](built-in-effects.md) from categories lik
 -   [Transforming and Scaling](built-in-effects.md)
 -   [Sources](built-in-effects.md)
 
-You can apply effects to any bitmap, including: images loaded by the [Windows Imaging Component (WIC)](https://msdn.microsoft.com/library/windows/desktop/ee719655), primitives drawn by [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx), text from [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038), or scenes rendered by [Direct3D](https://msdn.microsoft.com/library/windows/desktop/bb205066).
+You can apply effects to any bitmap, including: images loaded by the [Windows Imaging Component (WIC)](https://docs.microsoft.com/windows/desktop/wic/-wic-api), primitives drawn by [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx), text from [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal), or scenes rendered by [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics).
 
 With Direct2D effects you can write your own effects that you can use for your applications. A custom effect framework allows you to use GPU features such as pixel shaders, vertex shaders, and the blending unit. You can also include other built-in or custom effects in your custom effect. The framework for building custom effects is the same one that was used to create the built-in effects of [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx). The [Direct2D effect author API](custom-effects.md) provides a set of interfaces to create and register effects.
 
@@ -42,8 +42,8 @@ The rest of this topic explains the basics of Direct2D effects, like applying an
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Effect Shader Linking](effect-shader-linking.md)<br/>                                                            | Direct2D uses an optimization called effect shader linking which combines multiple effect graph rendering passes into a single pass.<br/>                                               |
 | [Custom effects](custom-effects.md)<br/>                                                                          | Shows you how to write your own custom effects using standard HLSL.<br/>                                                                                                                |
-| [How to load an image into Direct2D Effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md)<br/> | Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://msdn.microsoft.com/library/windows/apps/br207847) to load an image into Direct2D effects.<br/>                                      |
-| [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG.<br/> |
+| [How to load an image into Direct2D Effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md)<br/> | Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker) to load an image into Direct2D effects.<br/>                                      |
+| [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG.<br/> |
 | [How to Apply Effects to Primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | This topic shows how to apply a series of effect to [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) and [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
 | [Controlling Precision and Numerical Clipping in Effect Graphs](precision-and-clipping-in-effect-graphs.md)<br/>  | Applications that render effects using Direct2D must take care to achieve the desired level of quality and predictability with respect to numerical precision. <br/>                    |
 
@@ -56,7 +56,7 @@ The rest of this topic explains the basics of Direct2D effects, like applying an
 You can use the Direct2D effects API to apply transforms to images.
 
 > [!Note]  
-> This example assumes that you already have [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) and [IWICBitmapSource](https://msdn.microsoft.com/library/windows/desktop/ee719896) objects created. For more information on creating these objects see [How to load an image into Direct2D effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md) and [Devices and Device Contexts](devices-and-device-contexts.md).
+> This example assumes that you already have [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) and [IWICBitmapSource](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapsource) objects created. For more information on creating these objects see [How to load an image into Direct2D effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md) and [Devices and Device Contexts](devices-and-device-contexts.md).
 
  
 

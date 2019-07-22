@@ -25,7 +25,7 @@
       - name: "Tbsi_Context_Create"
         href: /windows/desktop/api/Tbs/nf-tbs-tbsi_context_create
       - name: "Tbsi_Create_Attestation_From_Log"
-        href: https://msdn.microsoft.com/en-us/library/Dn455155(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn455155(v=vs.85)
       - name: "Tbsi_GetDeviceInfo"
         href: /windows/desktop/api/Tbs/nf-tbs-tbsi_getdeviceinfo
       - name: "Tbsi_Get_OwnerAuth"
@@ -35,7 +35,7 @@
       - name: "Tbsi_Get_TCG_Log_Ex"
         href: /windows/desktop/api/Tbs/nf-tbs-tbsi_get_tcg_log_ex
       - name: "Tbsi_Get_TCG_Logs"
-        href: https://msdn.microsoft.com/en-us/library/Dn455156(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn455156(v=vs.85)
       - name: "Tbsi_Physical_Presence_Command"
         href: /windows/desktop/api/Tbs/nf-tbs-tbsi_physical_presence_command
       - name: "Tbsi_Revoke_Attestation"

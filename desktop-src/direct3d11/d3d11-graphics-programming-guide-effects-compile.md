@@ -80,7 +80,7 @@ D3D10_SHADER_MACRO Shader_Macros[3] = { "zero", "0", "one", "1.0f", NULL, NULL }
 
 
 
-The macros are a NULL-terminated array of macros; where each macro is defined by using a [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/windows/desktop/bb172436) struct.
+The macros are a NULL-terminated array of macros; where each macro is defined by using a [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro) struct.
 
 Modify the compile effect call to take a pointer to the macros.
 
@@ -101,11 +101,11 @@ Shader flags specify shader constraints to the HLSL compiler. These flags affect
 -   Including debug information, which prevents flow control.
 -   Affects the compile target and whether a shader can run on legacy hardware.
 
-These flags can be logically combined if you have not specified two conflicting characteristics. For a listing of the flags see [D3D10\_SHADER Constants](https://msdn.microsoft.com/library/windows/desktop/bb172416).
+These flags can be logically combined if you have not specified two conflicting characteristics. For a listing of the flags see [D3D10\_SHADER Constants](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-shader).
 
 ## FX Flags
 
-Use these flags when you create an effect to define either compilation behavior or runtime effect behavior. For a listing of the flags see [D3D10\_EFFECT Constants](https://msdn.microsoft.com/library/windows/desktop/bb205045).
+Use these flags when you create an effect to define either compilation behavior or runtime effect behavior. For a listing of the flags see [D3D10\_EFFECT Constants](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-effect).
 
 ## Checking Errors
 

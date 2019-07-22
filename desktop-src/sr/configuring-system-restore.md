@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Configuring System Restore
 
-System Restore uses [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582) (WMI) to provide a scriptable way of configuring and using its functionality. It exposes two classes, [**SystemRestore**](systemrestore.md) and [**SystemRestoreConfig**](systemrestoreconfig.md), in the root\\default namespace.
+System Restore uses [Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page) (WMI) to provide a scriptable way of configuring and using its functionality. It exposes two classes, [**SystemRestore**](systemrestore.md) and [**SystemRestoreConfig**](systemrestoreconfig.md), in the root\\default namespace.
 
 The [**SystemRestore**](systemrestore.md) class provides methods for the following tasks:
 
@@ -19,7 +19,7 @@ The [**SystemRestore**](systemrestore.md) class provides methods for the followi
 
 The [**SystemRestoreConfig**](systemrestoreconfig.md) class provides properties for controlling the frequency of scheduled restore point creation and the amount of disk space consumed by System Restore on each drive.
 
-Both classes can be accessed remotely using standard WMI techniques. For a complete description of WMI, see [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582).
+Both classes can be accessed remotely using standard WMI techniques. For a complete description of WMI, see [Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page).
 
  
 

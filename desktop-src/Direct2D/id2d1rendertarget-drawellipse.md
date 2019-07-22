@@ -1,14 +1,17 @@
 ---
 title: ID2D1RenderTarget DrawEllipse methods
 description: Draws the outline of an ellipse with the specified dimensions and stroke.
-ms.assetid: 'dabbb399-2d72-41c3-8b2f-aea49d7ad0cb'
-keywords: ["DrawEllipse methods Direct2D"]
+ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
+keywords:
+- DrawEllipse methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1RenderTarget::DrawEllipse methods

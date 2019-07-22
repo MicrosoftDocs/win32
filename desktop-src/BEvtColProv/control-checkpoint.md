@@ -43,14 +43,14 @@ Uint32 Checkpoint(
 *OldTimestampLow* \[in\]
 </dt> <dd>
 
-The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OldTimestampHigh* \[in\]
 </dt> <dd>
 
-The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 

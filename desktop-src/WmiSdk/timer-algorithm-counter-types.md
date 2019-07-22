@@ -13,7 +13,7 @@ Timer algorithm counter types are based on the amount of increased use of the pe
 
 Dividing by the sample period results in a proportion of time that the object is active during a time period. Dividing by the number of internal polling interrupts determines the average use between polling samples.
 
-For example, the **AvgDiskSecPerRead** property in the [**Win32\_PerfRawData\_PerfDisk\_PhysicalDisk**](https://msdn.microsoft.com/library/aa394308) class uses the **PERF\_AVERAGE\_TIMER** countertype. It calculates the average time in seconds of a read of data from the disk, and requires the base property **AvgDiskSecPerRead\_Base**. Unlike **PERF\_COUNTER\_TIMER**, the average timer base represents an accumulating number of operations, and the counter data is a running time value, which means that when divided by the time base, it yields the total time of all operations in seconds.
+For example, the **AvgDiskSecPerRead** property in the [**Win32\_PerfRawData\_PerfDisk\_PhysicalDisk**](https://docs.microsoft.com/previous-versions//aa394308(v=vs.85)) class uses the **PERF\_AVERAGE\_TIMER** countertype. It calculates the average time in seconds of a read of data from the disk, and requires the base property **AvgDiskSecPerRead\_Base**. Unlike **PERF\_COUNTER\_TIMER**, the average timer base represents an accumulating number of operations, and the counter data is a running time value, which means that when divided by the time base, it yields the total time of all operations in seconds.
 
 
 

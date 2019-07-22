@@ -24,7 +24,7 @@ Represents a collection of drive objects.
 
 ## Members
 
-The **IMsRdpDriveCollection** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IMsRdpDriveCollection** also has these types of members:
+The **IMsRdpDriveCollection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDriveCollection** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

@@ -29,7 +29,7 @@ The DialIn and MapName samples extend NPS functionality.
 
  
 
-You can find the source code for the MapName and DialIn sample applications in the following list. *Location*, %Install Path%, designates the base installation directory for x64 computers. See also [Windows Software Development Kit (SDK) for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh852363.aspx), Microsoft Windows Software Development Kit (SDK), and [Downloads for Windows Store app development](https://msdn.microsoft.com/windows/apps/br229516).
+You can find the source code for the MapName and DialIn sample applications in the following list. *Location*, %Install Path%, designates the base installation directory for x64 computers. See also [Windows Software Development Kit (SDK) for Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk), Microsoft Windows Software Development Kit (SDK), and [Downloads for Windows Store app development](https://msdn.microsoft.com/windows/apps/br229516).
 
 <dl> <dt>
 
@@ -85,7 +85,7 @@ Location: %Install Path%\\Microsoft SDKs\\Windows\\v6.1\\Samples\\NetDs\\IAS
 [Downloads for Developers](https://msdn.microsoft.com/windows/apps/br229516)
 </dt> <dt>
 
-[Windows SDK for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh852363.aspx)
+[Windows SDK for Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk)
 </dt> </dl>
 
  

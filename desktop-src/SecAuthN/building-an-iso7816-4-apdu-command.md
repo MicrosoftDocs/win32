@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Building an ISO7816-4 APDU Command
 
-To add functionality to a service provider, you need to know how an ISO7816-4 [*application protocol data unit*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-application-protocol-data-unit-gly) (APDU) is built within the base service provider DLLs. The following procedure gives a brief overview of the build process.
+To add functionality to a service provider, you need to know how an ISO7816-4 [*application protocol data unit*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (APDU) is built within the base service provider DLLs. The following procedure gives a brief overview of the build process.
 
 > [!Note]  
 > The example included here is not necessarily complete; for more information, see the sample applications and DLLs.

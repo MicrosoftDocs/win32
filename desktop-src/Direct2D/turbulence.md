@@ -70,22 +70,27 @@ The offset does not have the same effect as a translation because the noise func
 <br/> The type is D2D1_VECTOR_2F.<br/> The default value is {0.0f, 0.0f}.<br/></td>
 </tr>
 <tr class="even">
+<td>Size<br/> D2D1_TURBULENCE_PROP_SIZE<br/></td>
+<td>The size of the turbulence output.<br/> This property is not bounded and the units are specified in DIPs <br/>
+<br/> The type is D2D1_VECTOR_2F.<br/> The default value is {0.0f, 0.0f}.<br/></td>
+</tr>
+<tr class="odd">
 <td>BaseFrequency<br/> D2D1_TURBULENCE_PROP_BASE_FREQUENCY<br/></td>
 <td>The base frequencies in the X and Y direction. This property is a float and must be greater than 0. The units are specified in 1/DIPs. <br/> A value of 1 (1/DIPs) for the base frequency results in the Perlin noise completing an entire cycle between two pixels. The ease interpolation for these pixels results in completely random pixels, since there is no correlation between the pixels.<br/> A value of 0.1(1/DIPs) for the base frequency, the Perlin noise function repeats every 10 DIPs. This results in correlation between pixels and the typical turbulence effect is visible.<br/> The type is D2D1_VECTOR_2F.<br/> The default value is {0.01f, 0.01f}.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>NumOctaves<br/> D2D1_TURBULENCE_PROP_NUM_OCTAVES<br/></td>
 <td>The number of octaves for the noise function. This property is a UINT32 and must be greater than 0.<br/> The type is UINT32.<br/> The default value is 1.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Seed<br/> D2D1_TURBULENCE_PROP_SEED<br/></td>
 <td>The seed for the pseudo random generator. This property is unbounded.<br/> The type is UINT32.<br/> The default value is 0.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Noise<br/> D2D1_TURBULENCE_PROP_NOISE<br/></td>
 <td>The turbulence noise mode. This property can be either <em>fractal sum</em> or <em>turbulence</em>. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. See <a href="#noise-modes">Noise modes</a> for more info. <br/> The type is D2D1_TURBULENCE_NOISE.<br/> The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Stitchable<br/> D2D1_TURBULENCE_PROP_STITCHABLE<br/></td>
 <td>Turns stitching on or off. The base frequency is adjusted so that output bitmap can be stitched. This is useful if you want to tile multiple copies of the turbulence effect output.
 <ul>

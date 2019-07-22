@@ -2,7 +2,7 @@
 Description: The ICertEncodeDateArray interface exposes the following methods.
 ms.assetid: 33105EAD-0F06-464F-A670-EE7628BC7148
 title: ICertEncodeDateArray Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

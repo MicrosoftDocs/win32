@@ -30,7 +30,7 @@ Sets the "today" selection for a month calendar control. You can send this messa
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure that contains the date to be set as the "today" selection for the control. If this parameter is set to **NULL**, the control returns to the default setting.
+Pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that contains the date to be set as the "today" selection for the control. If this parameter is set to **NULL**, the control returns to the default setting.
 
 </dd> </dl>
 

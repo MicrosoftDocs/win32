@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-[**IAgentBalloonEx**](https://msdn.microsoft.com/library/windows/desktop/ms697893) is derived from the **IAgentBalloon** interface. It includes all the **IAgentBalloon** methods and provides access to additional functions.
+[**IAgentBalloonEx**](https://docs.microsoft.com/windows/desktop/lwef/iagentballoon) is derived from the **IAgentBalloon** interface. It includes all the **IAgentBalloon** methods and provides access to additional functions.
 
 **Methods in Vtable Order**
 

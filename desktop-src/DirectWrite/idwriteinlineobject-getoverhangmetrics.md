@@ -72,7 +72,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteInlineObject**](https://msdn.microsoft.com/en-us/library/Dd371221(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDWriteInlineObject**](https://msdn.microsoft.com/library/windows/desktop/dd371221)
+[**IDWriteInlineObject**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject)
 </dt> </dl>
 
  

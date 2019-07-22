@@ -44,7 +44,7 @@ SWbemObjectPath.Namespace As String
 
 ## Examples
 
-The following example shows you how to obtain the namespace name from instances of [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) that are hard disks. The script connects to the default namespace.
+The following example shows you how to obtain the namespace name from instances of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) that are hard disks. The script connects to the default namespace.
 
 
 ```VB

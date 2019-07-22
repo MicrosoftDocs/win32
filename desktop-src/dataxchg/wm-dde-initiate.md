@@ -53,13 +53,13 @@ If the low-order word of *lParam* is **NULL**, any server application can respon
 
 ### Sending
 
-The client broadcasts the message to all top-level windows by setting the first parameter of [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) to **HWND\_BROADCAST**.
+The client broadcasts the message to all top-level windows by setting the first parameter of [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) to **HWND\_BROADCAST**.
 
-If the client application has already obtained the window handle of the desired server, it can send **WM\_DDE\_INITIATE** directly to the server window by passing the server's window handle as the first parameter of [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950).
+If the client application has already obtained the window handle of the desired server, it can send **WM\_DDE\_INITIATE** directly to the server window by passing the server's window handle as the first parameter of [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage).
 
 The client application allocates atoms by calling the [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma) function.
 
-When [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) returns, the client application must delete the atoms.
+When [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) returns, the client application must delete the atoms.
 
 ### Receiving
 
@@ -87,10 +87,10 @@ To complete the initiation of a conversation, the server application must respon
 [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)
 </dt> <dt>
 
-[**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
+[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
-[**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
+[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**WM\_DDE\_ACK**](wm-dde-ack.md)

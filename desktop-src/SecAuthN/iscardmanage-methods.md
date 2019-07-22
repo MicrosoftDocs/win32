@@ -2,7 +2,7 @@
 Description: The ISCardManage interface exposes the following methods.
 ms.assetid: 4F77BFFC-83B8-47B4-8CCA-D85AA0EE1B8C
 title: ISCardManage Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -348,7 +348,7 @@ The following are technologies and APIs that are outdated or have been replaced 
 -   [Virtual Disk Service (VDS)](https://msdn.microsoft.com/en-us/library/Aa383429(v=VS.85).aspx): Use [Windows Storage Management](https://msdn.microsoft.com/en-us/library/Hh830613(v=VS.85).aspx) instead.
 -   Terminal Services: Use [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Aa383494(v=VS.85).aspx).
 -   [Windows Color System](https://msdn.microsoft.com/en-us/library/Dd372181(v=VS.85).aspx)
--   [Windows Media Rights Manager](https://msdn.microsoft.com/en-us/library/windows/desktop/bb614742.aspx)
+-   [Windows Media Rights Manager](https://docs.microsoft.com/previous-versions//bb614742(v=vs.85))
 -   [Windows Messaging (MAPI)](https://msdn.microsoft.com/en-us/library/Dd296730(v=VS.85).aspx): Use [Office MAPI](https://msdn.microsoft.com/en-us/library/Cc765775(v=office.12).aspx) instead.
 -   [Windows Multimedia](https://msdn.microsoft.com/en-us/library/Dd743606(v=VS.85).aspx)
 -   [Windows Gadget Platform](https://msdn.microsoft.com/en-us/library/Dd370869(v=VS.85).aspx): Create Windows Store apps instead.

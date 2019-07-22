@@ -3,7 +3,7 @@ Description: The CIM\_VideoController class exposes the following methods.
 ms.assetid: 166BDB82-72E0-4FAB-98D7-EF056814CE17
 ms.tgt_platform: multiple
 title: CIM_VideoController Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

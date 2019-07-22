@@ -14,7 +14,7 @@ The [**GetMappedFileName**](/windows/desktop/api/Psapi/nf-psapi-getmappedfilenam
 
 \\Device\\Harddisk0\\Partition1\\WINNT\\System32\\ctype.nls
 
-For more information about memory-mapped files, see [File Mapping](https://msdn.microsoft.com/library/windows/desktop/aa366556). For an example that converts file names in device form to drive letters, see [Obtaining a File Name From a File Handle](https://msdn.microsoft.com/library/windows/desktop/aa366789).
+For more information about memory-mapped files, see [File Mapping](https://docs.microsoft.com/windows/desktop/Memory/file-mapping). For an example that converts file names in device form to drive letters, see [Obtaining a File Name From a File Handle](https://docs.microsoft.com/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle).
 
  
 

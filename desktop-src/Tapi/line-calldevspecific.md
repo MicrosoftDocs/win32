@@ -67,9 +67,9 @@ Device specific.
 
 The **LINE\_CALLDEVSPECIFIC** message is used by a service provider in conjunction with the [**TSPI\_lineDevSpecific**](https://msdn.microsoft.com/en-us/library/ms725540(v=VS.85).aspx) function. Its meaning is device specific.
 
-TAPI sends the [**LINE\_DEVSPECIFIC**](https://msdn.microsoft.com/library/ms725225) message to applications in response to receiving this message from a service provider. The *htLine* and *htCall* parameters are translated to the appropriate *hCall* as the *hDevice* parameter at the TAPI level. The *dwParam1*, *dwParam2*, and *dwParam3* parameters are passed through unmodified.
+TAPI sends the [**LINE\_DEVSPECIFIC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)) message to applications in response to receiving this message from a service provider. The *htLine* and *htCall* parameters are translated to the appropriate *hCall* as the *hDevice* parameter at the TAPI level. The *dwParam1*, *dwParam2*, and *dwParam3* parameters are passed through unmodified.
 
-There is no directly corresponding message at the TAPI level, although this message is very similar to [**LINE\_DEVSPECIFIC**](https://msdn.microsoft.com/library/ms725225). At the TSPI level, the device-specific messages are split between those reporting events on lines and addresses, and those reporting events on calls.
+There is no directly corresponding message at the TAPI level, although this message is very similar to [**LINE\_DEVSPECIFIC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)). At the TSPI level, the device-specific messages are split between those reporting events on lines and addresses, and those reporting events on calls.
 
 ## Requirements
 
@@ -86,7 +86,7 @@ There is no directly corresponding message at the TAPI level, although this mess
 
 <dl> <dt>
 
-[**LINE\_DEVSPECIFIC**](https://msdn.microsoft.com/library/ms725225)
+[**LINE\_DEVSPECIFIC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85))
 </dt> <dt>
 
 [**LINEEVENT**](https://msdn.microsoft.com/en-us/library/ms725228(v=VS.85).aspx)

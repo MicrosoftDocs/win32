@@ -34,7 +34,7 @@ The filter graph manager temporarily stops the graph, and then disconnects and r
 
 ## Remarks
 
-Video renderers can send this event in response to a [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/windows/desktop/dd145210) message. The **WM\_DISPLAYCHANGE** message indicates that the user has changed the display resolution.
+Video renderers can send this event in response to a [**WM\_DISPLAYCHANGE**](https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange) message. The **WM\_DISPLAYCHANGE** message indicates that the user has changed the display resolution.
 
 During pin connection, most video renderers pick a format based on the current display mode. If the display mode changes, the video renderer might need to choose another format. By sending this message, the renderer signals to the filter graph manager that it needs to be reconnected. During the reconnection, the renderer can select a new format. If the reconnection fails, the filter graph manager sends an [**EC\_ERRORABORT**](ec-errorabort.md) event to the application.
 

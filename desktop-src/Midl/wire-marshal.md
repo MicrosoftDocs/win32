@@ -65,7 +65,7 @@ Specifies the identifier of the user data type to be marshaled. It can be any ty
 *pFlags* 
 </dt> <dd>
 
-Specifies a pointer to a flag field ( [**unsigned**](unsigned.md) [**long**](long.md)). The high-order word specifies NDR data representation flags as defined by DCE for floating point, big- or little-endian, and character representation. The low-order word specifies a marshaling context flag. The exact layout of the flags is described in [The type\_UserSize Function](https://msdn.microsoft.com/library/windows/desktop/aa378949).
+Specifies a pointer to a flag field ( [**unsigned**](unsigned.md) [**long**](long.md)). The high-order word specifies NDR data representation flags as defined by DCE for floating point, big- or little-endian, and character representation. The low-order word specifies a marshaling context flag. The exact layout of the flags is described in [The type\_UserSize Function](https://docs.microsoft.com/windows/desktop/Rpc/the-type-usersize-function).
 
 </dd> <dt>
 
@@ -92,11 +92,11 @@ Specifies the current buffer pointer.
 
 ## Remarks
 
-Each application-specific data type, *userm-type,* has a one-to-one correspondence with a *wire-type* that defines the wire representation of the type. You must supply routines to size the data for marshaling, to marshal and unmarshal the data, and to free memory. Note that if there are embedded types in your data that are also defined with **\[wire\_marshal\]** or **\[**[**user\_marshal**](user-marshal.md)**\]**, you need to manage the servicing of those embedded types also. For more information on these routines, see [The wire\_marshal Attribute](https://msdn.microsoft.com/library/windows/desktop/aa378976).
+Each application-specific data type, *userm-type,* has a one-to-one correspondence with a *wire-type* that defines the wire representation of the type. You must supply routines to size the data for marshaling, to marshal and unmarshal the data, and to free memory. Note that if there are embedded types in your data that are also defined with **\[wire\_marshal\]** or **\[**[**user\_marshal**](user-marshal.md)**\]**, you need to manage the servicing of those embedded types also. For more information on these routines, see [The wire\_marshal Attribute](https://docs.microsoft.com/windows/desktop/Rpc/the-wire-marshal-attribute).
 
 Your implementation must follow the marshalling rules according to the OSF-DCE specification. Details about NDR transfer syntax can be found at [https://www.opengroup.org/onlinepubs/9629399/chap14.htm](https://go.microsoft.com/fwlink/p/?linkid=84154). It is not recommended to use **\[wire\_marshal\]** if you are not familiar with the wire protocol.
 
-The *wire-type* cannot be an interface pointer or a full pointer. The *wire-type* must have a well-defined memory size. See [Marshaling Rules for user\_marshal and wire\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa373976) for details on how to marshal a given *wire-type*.
+The *wire-type* cannot be an interface pointer or a full pointer. The *wire-type* must have a well-defined memory size. See [Marshaling Rules for user\_marshal and wire\_marshal](https://docs.microsoft.com/windows/desktop/Rpc/marshaling-rules-for-user-marshal-and-wire-marshal) for details on how to marshal a given *wire-type*.
 
 The *userm-type* should not be an interface pointer because these can be marshaled directly. If the user type is a full pointer, you must manage the aliasing yourself.
 
@@ -153,7 +153,7 @@ void __RPC_USER FOUR_BYTE_DATA_UserFree(
 [**allocate**](allocate.md)
 </dt> <dt>
 
-[Data Representation](https://msdn.microsoft.com/library/windows/desktop/aa373622)
+[Data Representation](https://docs.microsoft.com/windows/desktop/Rpc/data-representation)
 </dt> <dt>
 
 [MIDL Base Types](midl-base-types.md)
@@ -162,10 +162,10 @@ void __RPC_USER FOUR_BYTE_DATA_UserFree(
 [**long**](long.md)
 </dt> <dt>
 
-[**NdrGetUserMarshalInfo**](https://msdn.microsoft.com/library/windows/desktop/aa374262)
+[**NdrGetUserMarshalInfo**](https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
 </dt> <dt>
 
-[The wire\_marshal Attribute](https://msdn.microsoft.com/library/windows/desktop/aa378976)
+[The wire\_marshal Attribute](https://docs.microsoft.com/windows/desktop/Rpc/the-wire-marshal-attribute)
 </dt> <dt>
 
 [**transmit\_as**](transmit-as.md)

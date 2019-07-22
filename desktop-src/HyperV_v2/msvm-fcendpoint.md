@@ -128,9 +128,9 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://msdn.microsoft.com/library/mt432433) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818) class. This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
+Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/requeststatechange-cim-enabledlogicalelement) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) class. This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
 
-This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 <dl> <dt>
 
@@ -175,7 +175,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -217,7 +217,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** ( 256 )
 </dt> </dl>
 
-The name of the class or subclass used in the creation of an instance. This property is inherited from [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447).
+The name of the class or subclass used in the creation of an instance. This property is inherited from [**CIM\_ServiceAccessPoint**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-serviceaccesspoint).
 
 </dd> <dt>
 
@@ -230,7 +230,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -256,7 +256,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -269,7 +269,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it will be one of the following values.
+An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it will be one of the following values.
 
 <dl> <dt>
 
@@ -293,7 +293,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the enabled state of the planned system. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it can be one of the following values.
+Specifies the enabled state of the planned system. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it can be one of the following values.
 
 
 
@@ -318,7 +318,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This property expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The current health of the element. This property expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -331,7 +331,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -347,7 +347,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -360,7 +360,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -376,7 +376,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 256 )
 </dt> </dl>
 
-Contains the naming heuristic that is selected to ensure that the value of the **Name** property is unique. This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264).
+Contains the naming heuristic that is selected to ensure that the value of the **Name** property is unique. This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint).
 
 </dd> <dt>
 
@@ -389,7 +389,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -402,7 +402,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -415,7 +415,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 ("Other"). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it is always set to **Null**.
+A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 ("Other"). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -431,7 +431,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 64 )
 </dt> </dl>
 
-A string that describes the type of protocol endpoint when the **ProtocolIFType** property of this class (or any of its subclasses) is set to 1 (Other). This property should be set to **Null** when the **ProtocolIFType** property is any value other than 1. This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264).
+A string that describes the type of protocol endpoint when the **ProtocolIFType** property of this class (or any of its subclasses) is set to 1 (Other). This property should be set to **Null** when the **ProtocolIFType** property is any value other than 1. This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint).
 
 </dd> <dt>
 
@@ -444,7 +444,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -457,7 +457,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The property is used to categorize and classify instances of this class. If the **ProtocolIFType** is set to 1 (Other), then the type information should be provided in the **OtherTypeDescription** property. This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264).
+The property is used to categorize and classify instances of this class. If the **ProtocolIFType** is set to 1 (Other), then the type information should be provided in the **OtherTypeDescription** property. This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint).
 
 > [!Note]  
 > **ProtocolIFType** is an enumeration that is synchronized with the [IANA ifType MIB](https://www.iana.org/assignments/ianaiftype-mib). Additional values defined by the DMTF are also included.
@@ -1263,7 +1263,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is deprecated in lieu of the **ProtocolIFType** property. This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264).
+This property is deprecated in lieu of the **ProtocolIFType** property. This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint).
 
 </dd> <dt>
 
@@ -1276,7 +1276,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the management service. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it is always set to 12 (Not Applicable).
+The last requested or desired state for the management service. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to 12 (Not Applicable).
 
 
 
@@ -1299,7 +1299,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Describes the status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Describes the status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 "OK"
 
@@ -1336,7 +1336,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -1349,7 +1349,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The hosting system's creation class name. This property is inherited from [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447).
+The hosting system's creation class name. This property is inherited from [**CIM\_ServiceAccessPoint**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-serviceaccesspoint).
 
 </dd> <dt>
 
@@ -1365,7 +1365,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** ( 256 )
 </dt> </dl>
 
-The name of the hosting system. This property is inherited from [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447).
+The name of the hosting system. This property is inherited from [**CIM\_ServiceAccessPoint**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-serviceaccesspoint).
 
 </dd> <dt>
 
@@ -1378,7 +1378,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), but it is not supported.
+The date and time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not supported.
 
 </dd> <dt>
 
@@ -1391,7 +1391,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), but it is not used.
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not used.
 
 </dd> <dt>
 

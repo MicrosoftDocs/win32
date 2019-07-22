@@ -24,7 +24,7 @@ A control panel category page lists the items within a single category, along wi
 
 Control panel items are implemented using [task flows](glossary.md) or property sheets. For Windows Vista and later, task flows are the preferred user interface (UI).
 
-**Developers:** To learn how to create control panel items, see [Control Panel Items](https://msdn.microsoft.com/library/bb776838.aspx).
+**Developers:** To learn how to create control panel items, see [Control Panel Items](https://docs.microsoft.com/previous-versions//bb776838(v=vs.85)).
 
 **Note:** Guidelines related to [property sheets](win-property-win.md) are presented in a separate article.
 

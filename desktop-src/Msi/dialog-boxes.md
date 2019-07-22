@@ -20,7 +20,7 @@ The following dialog box names are reserved by Windows Installer and should not 
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [FilesInUse Dialog](filesinuse-dialog.md)           | Alerts user to processes overwriting or deleting files.                                                                                                                 |
 | [FirstRun Dialog](firstrun-dialog.md)               | Collects user name, company name, and product ID.                                                                                                                       |
-| [MsiRMFilesInUse Dialog](msirmfilesinuse-dialog.md) | Alerts the user to processes overwriting or deleting files and gives the user the option to use the [Restart Manager](https://msdn.microsoft.com/library/windows/desktop/cc948910) to close and restart applications. |
+| [MsiRMFilesInUse Dialog](msirmfilesinuse-dialog.md) | Alerts the user to processes overwriting or deleting files and gives the user the option to use the [Restart Manager](https://docs.microsoft.com/windows/desktop/RstMgr/restart-manager-portal) to close and restart applications. |
 
 
 

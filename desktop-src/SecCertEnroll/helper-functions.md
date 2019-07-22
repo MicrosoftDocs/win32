@@ -12,13 +12,13 @@ Each of the following sections discusses a function exported by Xenroll.dll. Eac
 
 ## binaryBlobToString
 
-The [**binaryBlobToString**](https://msdn.microsoft.com/library/windows/desktop/aa385524) function in Xenroll.dll converts a byte array to a string.
+The [**binaryBlobToString**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-binaryblobtostring) function in Xenroll.dll converts a byte array to a string.
 
 Using CertEnroll.dll, you can call the [**VariantByteArrayToString**](/windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-variantbytearraytostring) method on the [**IBinaryConverter**](/windows/desktop/api/CertEnroll/nn-certenroll-ibinaryconverter) interface.
 
 ## stringToBinaryBlob
 
-The [**stringToBinaryBlob**](https://msdn.microsoft.com/library/windows/desktop/aa386145) function in Xenroll.dll converts a string to a byte array.
+The [**stringToBinaryBlob**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-stringtobinaryblob) function in Xenroll.dll converts a string to a byte array.
 
 Using CertEnroll.dll, you can call the [**StringToVariantByteArray**](/windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-stringtovariantbytearray) method on the [**IBinaryConverter**](/windows/desktop/api/CertEnroll/nn-certenroll-ibinaryconverter) interface.
 

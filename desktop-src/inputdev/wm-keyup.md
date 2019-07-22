@@ -67,11 +67,11 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function sends a [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360) message to the top-level window if the F10 key or the ALT key was released. The *wParam* parameter of the message is set to SC\_KEYMENU.
+The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sends a [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) message to the top-level window if the F10 key or the ALT key was released. The *wParam* parameter of the message is set to SC\_KEYMENU.
 
 For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTRL keys on the main section of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; and the divide (/) and ENTER keys in the numeric keypad. Other keyboards may support the extended-key bit in the *lParam* parameter.
 
-Applications must pass *wParam* to [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) without altering it at all.
+Applications must pass *wParam* to [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) without altering it at all.
 
 ## Requirements
 
@@ -92,16 +92,16 @@ Applications must pass *wParam* to [**TranslateMessage**](https://msdn.microsoft
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955)
+[**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage)
 </dt> <dt>
 
 [**WM\_KEYDOWN**](wm-keydown.md)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360)
+[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 **Conceptual**

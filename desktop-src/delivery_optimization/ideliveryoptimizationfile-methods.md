@@ -3,7 +3,7 @@ title: IDeliveryOptimizationFile Methods
 description: The IDeliveryOptimizationFile interface exposes the following methods.
 ms.assetid: 53F77318-3C57-469A-8AD4-5621D1DFDFAD
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

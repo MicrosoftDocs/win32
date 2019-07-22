@@ -3,7 +3,7 @@ Description: The CIM\_UserDevice class exposes the following methods.
 ms.assetid: 1B5726F4-104E-4597-A03E-9CCC2D889A50
 ms.tgt_platform: multiple
 title: CIM_UserDevice Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -116,8 +116,8 @@ This section contains information about the reconciliation interfaces. When hand
     -   -   [**IReconcileInitiator::SetAbortCallback**](https://msdn.microsoft.com/en-us/library/Bb761345(v=VS.85).aspx)
         -   [**IReconcileInitiator::SetProgressFeedback**](https://msdn.microsoft.com/en-us/library/Bb761347(v=VS.85).aspx)
 
--   [**INotifyReplica**](https://msdn.microsoft.com/library/windows/desktop/bb775412) 
-    -   -   [**INotifyReplica::YouAreAReplica**](https://msdn.microsoft.com/library/windows/desktop/bb775414)
+-   [**INotifyReplica**](https://docs.microsoft.com/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica) 
+    -   -   [**INotifyReplica::YouAreAReplica**](https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica)
 
  
 

@@ -27,12 +27,12 @@ The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the
 
 ## Unordered Access Views (UAVs)
 
-Raw ([RWByteAddressBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471475)) and Structured ([RWStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471494)) Unordered Access Views are supported on downlevel hardware, with the following limitations:
+Raw ([RWByteAddressBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer)) and Structured ([RWStructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer)) Unordered Access Views are supported on downlevel hardware, with the following limitations:
 
 -   Only a single UAV may be bound to a pipeline at a time through [**ID3D11DeviceContext::CSSetUnorderedAccessViews**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-cssetunorderedaccessviews).
 -   The base offset for a Raw UAV must be aligned on a 256-byte boundary (instead of 16-byte alignment required for Direct3D 11 hardware).
 
-Typed UAVs are not supported on downlevel hardware. This includes [Texture1D](https://msdn.microsoft.com/library/windows/desktop/ff471499), [Texture2D](https://msdn.microsoft.com/library/windows/desktop/ff471505), and [Texture3D](https://msdn.microsoft.com/library/windows/desktop/ff471511) UAVs.
+Typed UAVs are not supported on downlevel hardware. This includes [Texture1D](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture1d), [Texture2D](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture2d), and [Texture3D](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture3d) UAVs.
 
 Pixel Shaders on downlevel hardware do not support unordered access.
 
@@ -64,7 +64,7 @@ This limitation specifically applies to the following:
 
 -   [**ID3D11DeviceContext::Dispatch**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatch)— The *ThreadGroupCountZ* argument must be 1.
 -   [**ID3D11DeviceContext::DispatchIndirect**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatchindirect)— This function is not supported on downlevel hardware.
--   [numthreads](https://msdn.microsoft.com/library/windows/desktop/ff471442)— The Z value must be 1.
+-   [numthreads](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-attributes-numthreads)— The Z value must be 1.
 
 ### Thread Group Shared Memory (TGSM)
 
@@ -103,7 +103,7 @@ A Compute Shader thread may read the TGSM from any location.
 
 ## D3DCompile with D3DCOMPILE\_SKIP\_OPTIMIZATION
 
-[**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324) returns **E\_NOTIMPL** when you pass cs\_4\_0 as the shader target along with the [**D3DCOMPILE\_SKIP\_OPTIMIZATION**](https://msdn.microsoft.com/library/windows/desktop/gg615083#d3dcompile-skip-optimization) compile option. The cs\_5\_0 shader target works with **D3DCOMPILE\_SKIP\_OPTIMIZATION**.
+[**D3DCompile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile) returns **E\_NOTIMPL** when you pass cs\_4\_0 as the shader target along with the [**D3DCOMPILE\_SKIP\_OPTIMIZATION**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-constants) compile option. The cs\_5\_0 shader target works with **D3DCOMPILE\_SKIP\_OPTIMIZATION**.
 
 ## Related topics
 

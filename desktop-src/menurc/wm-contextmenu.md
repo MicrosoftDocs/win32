@@ -63,9 +63,9 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-If a window does not display a shortcut menu it should pass this message to the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function. If a window is a child window, **DefWindowProc** sends the message to the parent. Otherwise, **DefWindowProc** displays a default shortcut menu if the specified position is in the window's caption.
+If a window does not display a shortcut menu it should pass this message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. If a window is a child window, **DefWindowProc** sends the message to the parent. Otherwise, **DefWindowProc** displays a default shortcut menu if the specified position is in the window's caption.
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) generates the **WM\_CONTEXTMENU** message when it processes the [**WM\_RBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms646243) or [**WM\_NCRBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645630) message or when the user types SHIFT+F10. The **WM\_CONTEXTMENU** message is also generated when the user presses and releases the [**VK\_APPS**](https://msdn.microsoft.com/library/windows/desktop/dd375731) key.
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) generates the **WM\_CONTEXTMENU** message when it processes the [**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup) or [**WM\_NCRBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-ncrbuttonup) message or when the user types SHIFT+F10. The **WM\_CONTEXTMENU** message is also generated when the user presses and releases the [**VK\_APPS**](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes) key.
 
 If the context menu is generated from the keyboard for example, if the user types SHIFT+F10 then the x- and y-coordinates are -1 and the application should display the context menu at the location of the current selection rather than at (xPos, yPos).
 
@@ -88,13 +88,13 @@ If the context menu is generated from the keyboard for example, if the user type
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)
+[**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
 </dt> <dt>
 
-[**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
+[**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
 [**TrackPopupMenu**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenu)
@@ -103,10 +103,10 @@ If the context menu is generated from the keyboard for example, if the user type
 [**TrackPopupMenuEx**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex)
 </dt> <dt>
 
-[**WM\_NCRBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645630)
+[**WM\_NCRBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-ncrbuttonup)
 </dt> <dt>
 
-[**WM\_RBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms646243)
+[**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup)
 </dt> <dt>
 
 **Conceptual**

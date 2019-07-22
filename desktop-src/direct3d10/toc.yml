@@ -107,7 +107,7 @@
             href: /windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10blendstate1
             items: 
             - name: "GetDesc"
-              href: https://msdn.microsoft.com/en-us/library/Bb694545(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb694545(v=vs.85)
           - name: "ID3D10Blob"
             href: /windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob
             items: 
@@ -356,12 +356,12 @@
             - name: "SetPrivateDataInterface"
               href: /windows/desktop/api/D3D10/nf-d3d10-id3d10devicechild-setprivatedatainterface
           - name: "ID3D10Include"
-            href: https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85)
             items: 
             - name: "Close"
-              href: https://msdn.microsoft.com/en-us/library/Bb173776(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173776(v=vs.85)
             - name: "Open"
-              href: https://msdn.microsoft.com/en-us/library/Bb173778(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173778(v=vs.85)
           - name: "ID3D10InfoQueue"
             href: /windows/desktop/api/D3D10SDKLayers/nn-d3d10sdklayers-id3d10infoqueue
             items: 
@@ -436,7 +436,7 @@
             - name: "SetMuteDebugOutput"
               href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-setmutedebugoutput
           - name: "ID3D10InputLayout"
-            href: https://msdn.microsoft.com/en-us/library/Bb173815(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10inputlayout
           - name: "ID3D10Multithread"
             href: /windows/desktop/api/D3D10/nn-d3d10-id3d10multithread
             items: 
@@ -449,7 +449,7 @@
             - name: "SetMultithreadProtected"
               href: /windows/desktop/api/D3D10/nf-d3d10-id3d10multithread-setmultithreadprotected
           - name: "ID3D10Predicate"
-            href: https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate
           - name: "ID3D10Query"
             href: /windows/desktop/api/D3D10/nn-d3d10-id3d10query
             items: 
@@ -595,7 +595,7 @@
           - name: "D3D10_MESSAGE_SEVERITY"
             href: /windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_severity
           - name: "D3D10_PRIMITIVE_TOPOLOGY"
-            href: https://msdn.microsoft.com/en-us/library/Bb205334(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205334(v=vs.85)
           - name: "D3D10_QUERY"
             href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_query
           - name: "D3D10_QUERY_MISC_FLAG"
@@ -603,9 +603,9 @@
           - name: "D3D10_RAISE_FLAG"
             href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_raise_flag
           - name: "D3D10_REGISTER_COMPONENT_TYPE"
-            href: https://msdn.microsoft.com/en-us/library/Bb172409(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_register_component_type
           - name: "D3D10_RESOURCE_RETURN_TYPE"
-            href: https://msdn.microsoft.com/en-us/library/Bb172413(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type
           - name: "D3D10_STENCIL_OP"
             href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_stencil_op
           - name: "D3D10_TEXTURECUBE_FACE"
@@ -795,9 +795,9 @@
           href: d3d10-graphics-reference-d3d10-shader-interfaces.md
           items: 
           - name: "ID3D10GeometryShader"
-            href: https://msdn.microsoft.com/en-us/library/Bb173774(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10geometryshader
           - name: "ID3D10PixelShader"
-            href: https://msdn.microsoft.com/en-us/library/Bb173821(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10pixelshader
           - name: "ID3D10ShaderReflection"
             href: /windows/desktop/api/D3D10Shader/nn-d3d10shader-id3d10shaderreflection
             items: 
@@ -862,7 +862,7 @@
             - name: "GetType"
               href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionvariable-gettype
           - name: "ID3D10VertexShader"
-            href: https://msdn.microsoft.com/en-us/library/Bb173875(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10vertexshader
         - name: "Shader Functions"
           href: d3d10-graphics-reference-d3d10-shader-functions.md
           items: 
@@ -920,7 +920,7 @@
           - name: "D3D10_SHADER_INPUT_BIND_DESC"
             href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_shader_input_bind_desc
           - name: "D3D10_SHADER_MACRO"
-            href: https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro
           - name: "D3D10_SHADER_TYPE_DESC"
             href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_shader_type_desc
           - name: "D3D10_SHADER_VARIABLE_DESC"
@@ -931,33 +931,33 @@
           href: d3d10-graphics-reference-d3d10-shader-enums.md
           items: 
           - name: "D3D10_CBUFFER_TYPE"
-            href: https://msdn.microsoft.com/en-us/library/Bb204899(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb204899(v=vs.85)
           - name: "D3D10_INCLUDE_TYPE"
-            href: https://msdn.microsoft.com/en-us/library/Bb205312(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_include_type
           - name: "D3D10_PRIMITIVE"
-            href: https://msdn.microsoft.com/en-us/library/Cc308053(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive
           - name: "D3D10_SHADER_DEBUG_REGTYPE"
             href: /windows/desktop/api/D3D10_1Shader/ne-d3d10_1shader-_d3d10_shader_debug_regtype
           - name: "D3D10_SHADER_DEBUG_SCOPETYPE"
             href: /windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_scopetype
           - name: "D3D10_NAME"
-            href: https://msdn.microsoft.com/en-us/library/Bb205328(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name
           - name: "D3D10_SHADER_CBUFFER_FLAGS"
-            href: https://msdn.microsoft.com/en-us/library/Bb172418(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_cbuffer_flags
           - name: "D3D10_SHADER_INPUT_FLAGS"
-            href: https://msdn.microsoft.com/en-us/library/Bb172434(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_flags
           - name: "D3D10_SHADER_INPUT_TYPE"
-            href: https://msdn.microsoft.com/en-us/library/Bb172435(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_type
           - name: "D3D10_SHADER_VARIABLE_CLASS"
-            href: https://msdn.microsoft.com/en-us/library/Bb172440(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_class
           - name: "D3D10_SHADER_VARIABLE_FLAGS"
-            href: https://msdn.microsoft.com/en-us/library/Bb172442(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_flags
           - name: "D3D10_SHADER_VARIABLE_TYPE"
-            href: https://msdn.microsoft.com/en-us/library/Bb172443(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type
           - name: "D3D10_SRV_DIMENSION"
-            href: https://msdn.microsoft.com/en-us/library/Bb172452(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb172452(v=vs.85)
           - name: "D3D10_SRV_DIMENSION1"
-            href: https://msdn.microsoft.com/en-us/library/Bb694535(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb694535(v=vs.85)
         - name: "Shader Constants"
           href: d3d10-graphics-reference-d3d10-shader-constants.md
           items: 

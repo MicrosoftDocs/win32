@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 The characteristics of an object in SDO are determined by the object's properties, and the values associated with those properties. Unlike some other object models, SDO objects themselves do not have methods. However, SDO objects do expose COM interfaces that provide methods.
 
-Objects in SDO expose the [**ISdo**](https://msdn.microsoft.com/library/bb960639) interface that provides methods for manipulating the objects properties. To access the object's properties, obtain an **ISdo** interface for the object, and use the [**GetProperty**](https://msdn.microsoft.com/library/bb960671) and [**PutProperty**](https://msdn.microsoft.com/library/bb960674) interface methods to retrieve and set values for the properties. The topic [Retrieving a User SDO](https://msdn.microsoft.com/library/bb960710) contains sample code that demonstrates obtaining the **ISdo** interface for a User object.
+Objects in SDO expose the [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo) interface that provides methods for manipulating the objects properties. To access the object's properties, obtain an **ISdo** interface for the object, and use the [**GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) and [**PutProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty) interface methods to retrieve and set values for the properties. The topic [Retrieving a User SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-user-sdo) contains sample code that demonstrates obtaining the **ISdo** interface for a User object.
 
-After making changes to the properties of an object, use the [**ISdo::Apply**](https://msdn.microsoft.com/library/bb960670) method to write the changes to persistent storage for the object. You can cancel changes made to an object's properties before you call **ISdo::Apply** by calling the [**ISdo::Restore**](https://msdn.microsoft.com/library/bb960676) method. This method restores the values of an object's properties from persistent storage.
+After making changes to the properties of an object, use the [**ISdo::Apply**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-apply) method to write the changes to persistent storage for the object. You can cancel changes made to an object's properties before you call **ISdo::Apply** by calling the [**ISdo::Restore**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-restore) method. This method restores the values of an object's properties from persistent storage.
 
 The following table shows the enumeration types that enumerate the properties of some of the objects in SDO.
 
@@ -21,10 +21,10 @@ The following table shows the enumeration types that enumerate the properties of
 
 | Object                                 | Enumeration type                                       |
 |----------------------------------------|--------------------------------------------------------|
-| All SDO objects                        | [**IASCOMMONPROPERTIES**](https://msdn.microsoft.com/library/bb960631) |
-| User Object                            | [**USERPROPERTIES**](https://msdn.microsoft.com/library/bb960719)           |
-| Service Object (Network Policy Server) | [**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636)             |
-| Microsoft RADIUS Protocol Object       | [**RADIUSPROPERTIES**](https://msdn.microsoft.com/library/bb960699)       |
+| All SDO objects                        | [**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties) |
+| User Object                            | [**USERPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_userproperties)           |
+| Service Object (Network Policy Server) | [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)             |
+| Microsoft RADIUS Protocol Object       | [**RADIUSPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties)       |
 
 
 
@@ -37,9 +37,9 @@ The following table shows the enumeration types that enumerate the properties of
 
 ## Collections
 
-Objects are often grouped into collections. The SDO API provides functionality, through the [**ISdo Collection**](https://msdn.microsoft.com/library/bb960640) interface, to enumerate the objects in a collection and to add and delete objects from a collection.
+Objects are often grouped into collections. The SDO API provides functionality, through the [**ISdo Collection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection) interface, to enumerate the objects in a collection and to add and delete objects from a collection.
 
-Access to a collection is obtained by retrieving a collection property on the object that contains the collection. For more information, see the section [Object Model Hierarchy](https://msdn.microsoft.com/library/bb960691).
+Access to a collection is obtained by retrieving a collection property on the object that contains the collection. For more information, see the section [Object Model Hierarchy](https://docs.microsoft.com/windows/desktop/Nps/sdo-object-model-hierarchy).
 
 The data type for all properties that correspond to collections is VT\_DISPATCH.
 
@@ -47,10 +47,10 @@ The data type for all properties that correspond to collections is VT\_DISPATCH.
 
 <dl> <dt>
 
-[SDO Object Model Hierarchy](https://msdn.microsoft.com/library/bb960691)
+[SDO Object Model Hierarchy](https://docs.microsoft.com/windows/desktop/Nps/sdo-object-model-hierarchy)
 </dt> <dt>
 
-[SDO Supported Attributes](https://msdn.microsoft.com/library/bb960711)
+[SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> </dl>
 
  

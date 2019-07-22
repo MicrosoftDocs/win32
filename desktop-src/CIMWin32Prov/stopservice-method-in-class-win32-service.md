@@ -18,9 +18,9 @@ api_location:
 
 # StopService method of the Win32\_Service class
 
-The **StopService** [WMI class](https://msdn.microsoft.com/library/aa393244) method places the service, represented by the [**Win32\_Service**](win32-service.md) object, in the stopped state.
+The **StopService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method places the service, represented by the [**Win32\_Service**](win32-service.md) object, in the stopped state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -292,7 +292,7 @@ else
 
 The following VBScript code example shows that you cannot stop the NetDDE service until the dependent services have been stopped. To run the script, ensure that the NetDDE service and its dependent services are running by using the Services.msc MMC snap-in or the **Net Start** command.
 
-The [**Win32\_DependentService**](win32-dependentservice.md) class allows you to locate service dependencies through an [Associators Of](https://msdn.microsoft.com/library/aa384793) query.
+The [**Win32\_DependentService**](win32-dependentservice.md) class allows you to locate service dependencies through an [Associators Of](https://docs.microsoft.com/windows/desktop/WmiSdk/associators-of-statement) query.
 
 
 ```VB
@@ -350,13 +350,13 @@ WScript.Echo "Return value: " & Return
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Service**](win32-service.md)
 </dt> <dt>
 
-[WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
+[WMI Tasks: Services](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--services)
 </dt> <dt>
 
 [**PauseService**](pauseservice-method-in-class-win32-systemdriver.md)

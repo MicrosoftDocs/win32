@@ -65,7 +65,7 @@ For print servers, this string is one of the predefined strings listed in the fo
 *Type* \[in\]
 </dt> <dd>
 
-A code that indicates the type of data that the *pData* parameter points to. For a list of the possible type codes, see [Registry Value Types](https://msdn.microsoft.com/library/windows/desktop/ms724884).
+A code that indicates the type of data that the *pData* parameter points to. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types).
 
 </dd> <dt>
 

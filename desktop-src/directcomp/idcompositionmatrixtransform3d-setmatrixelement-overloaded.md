@@ -1,14 +1,17 @@
 ---
 title: IDCompositionMatrixTransform3D SetMatrixElement methods
 description: Changes or animates the value of one element of the matrix of this 3D transform.
-ms.assetid: '0494B335-B613-4F0A-9CDA-3BBC63A7B996'
-keywords: ["SetMatrixElement methods DirectComposition"]
+ms.assetid: 0494B335-B613-4F0A-9CDA-3BBC63A7B996
+keywords:
+- SetMatrixElement methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionMatrixTransform3D::SetMatrixElement methods

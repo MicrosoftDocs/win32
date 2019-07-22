@@ -32,7 +32,7 @@ Defines how conditional indexing is performed for a given index. A conditional i
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

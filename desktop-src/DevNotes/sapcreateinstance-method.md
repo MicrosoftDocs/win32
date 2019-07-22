@@ -43,7 +43,7 @@ Pointer to a **MSSAPDLLObject**.
 
 <dl> <dt>
 
-[Windows Media DRM Client Extended APIs](https://msdn.microsoft.com/library/windows/desktop/dd757736.aspx)
+[Windows Media DRM Client Extended APIs](https://docs.microsoft.com/windows/desktop/wmformat/windows-media-drm-client-extended-apis)
 </dt> </dl>
 
  

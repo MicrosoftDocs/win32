@@ -34,9 +34,9 @@ This parameter is not used.
 *lParam* \[in\]
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) of *lParam* specifies the starting position. If the **LOWORD** is -1, the selection, if any, is removed.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of *lParam* specifies the starting position. If the **LOWORD** is -1, the selection, if any, is removed.
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of *lParam* specifies the ending position. If the **HIWORD** is -1, all text from the starting position to the last character in the edit control is selected.
+The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of *lParam* specifies the ending position. If the **HIWORD** is -1, all text from the starting position to the last character in the edit control is selected.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ The positions are zero-based. The first character of the edit control is in the 
 **Other Resources**
 </dt> <dt>
 
-[**MAKELPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632661)
+[**MAKELPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelparam)
 </dt> </dl>
 
  

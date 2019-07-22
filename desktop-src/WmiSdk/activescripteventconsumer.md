@@ -146,7 +146,7 @@ Access type: Read-only
 Name of the file from which the script text is read, intended as an alternative to specifying the text of the script in the **ScriptText** property. This property must be **NULL** if the **ScriptText** property is not **NULL**.
 
 > [!Note]  
-> When you specify the **ScriptFileName**, it is important to secure the executable that you are launching. If the executable is not in a secure location or secured with a strong access control list (ACL), anyone can replace the executable with a different one. For more information about ACLs, see [Creating a Security Descriptor (SD) for a New Object in C++](https://msdn.microsoft.com/library/windows/desktop/aa446595).
+> When you specify the **ScriptFileName**, it is important to secure the executable that you are launching. If the executable is not in a secure location or secured with a strong access control list (ACL), anyone can replace the executable with a different one. For more information about ACLs, see [Creating a Security Descriptor (SD) for a New Object in C++](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 
@@ -190,7 +190,7 @@ Failure to load the scripting engine or parse and validate the script is conside
 
 Either **ScriptText** or **ScriptFileName** must be not **NULL**. If both properties are **NULL** or not **NULL**, an error is generated.
 
-When WMI is run as a service, scripts run by **ActiveScriptEventConsumer** do not generate screen output. Scripts that use **MsgBox** do run, but they do not display information on the screen. Running the WMI service as an executable file is not supported, but WMI allows scripts that use the **MsgBox** function to display output or accept user input. None of the methods provided by the [WScript](https://msdn.microsoft.com/library/at5ydy31.aspx) object can be used because **ActiveScriptEventConsumer** does not use Windows Script Host (WSH).
+When WMI is run as a service, scripts run by **ActiveScriptEventConsumer** do not generate screen output. Scripts that use **MsgBox** do run, but they do not display information on the screen. Running the WMI service as an executable file is not supported, but WMI allows scripts that use the **MsgBox** function to display output or accept user input. None of the methods provided by the [WScript](https://docs.microsoft.com/previous-versions//at5ydy31(v=vs.85)) object can be used because **ActiveScriptEventConsumer** does not use Windows Script Host (WSH).
 
 ## Examples
 

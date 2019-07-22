@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Customizing Winlogon
 
-Customize [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) behavior by implementing a Credential Provider. For information about Credential Providers, see [**ICredentialProvider Interface**](https://msdn.microsoft.com/en-us/library/Bb776042(v=VS.85).aspx).
+Customize [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) behavior by implementing a Credential Provider. For information about Credential Providers, see [**ICredentialProvider Interface**](https://msdn.microsoft.com/en-us/library/Bb776042(v=VS.85).aspx).
 
 **Windows Server 2003 and Windows XP:** Credential Providers are not supported.
 
@@ -29,7 +29,7 @@ A Winlogon notification package is a DLL that exports functions that handle Winl
 
 ## GINA Stubs
 
-A [*GINA*](https://msdn.microsoft.com/library/windows/desktop/ms721584#-security-gina-gly) stub is a custom GINA DLL that uses the export function implementations of a previously installed GINA DLL (typically MsGina.dll). A GINA stub gets pointers to each function exported by the previously installed GINA DLL. Each GINA stub function then uses the appropriate function pointer to call the corresponding function in the previously installed GINA DLL.
+A [*GINA*](https://docs.microsoft.com/windows/desktop/SecGloss/g-gly) stub is a custom GINA DLL that uses the export function implementations of a previously installed GINA DLL (typically MsGina.dll). A GINA stub gets pointers to each function exported by the previously installed GINA DLL. Each GINA stub function then uses the appropriate function pointer to call the corresponding function in the previously installed GINA DLL.
 
 > [!IMPORTANT]
 > Each GINA stub function must call the corresponding function in the previously installed GINA.
@@ -38,7 +38,7 @@ A [*GINA*](https://msdn.microsoft.com/library/windows/desktop/ms721584#-security
 
 A GINA stub function can implement additional functionality in one or more of its export functions. For example, the [**WlxLoggedOutSAS**](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedoutsas) function of a GINA stub might check the current time before calling the **WlxLoggedOutSAS** function of the MsGina.dll. If the current time was within a specific range, the stub function could display a message that indicates logon is disallowed during that time period and return **WLX\_SAS\_ACTION\_NONE** to Winlogon. The **WlxLoggedOutSAS** function of the MsGina.dll would then be called only during the allowed time period.
 
-The GINA stub application gets a dispatch table to Winlogon support functions through the *pWinlogonFunctions* parameter of the [**WlxInitialize**](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function. The GINA stub application can use this dispatch table to call Winlogon support functions. For example, A GINA stub application can call the [**WlxSasNotify**](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function to cause a [*secure attention sequence*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-attention-sequence-gly) (SAS) event when a [*smart card*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-smart-card-gly) is inserted into a [*reader*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-reader-gly).
+The GINA stub application gets a dispatch table to Winlogon support functions through the *pWinlogonFunctions* parameter of the [**WlxInitialize**](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function. The GINA stub application can use this dispatch table to call Winlogon support functions. For example, A GINA stub application can call the [**WlxSasNotify**](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function to cause a [*secure attention sequence*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SAS) event when a [*smart card*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) is inserted into a [*reader*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly).
 
 For more information about creating a GINA stub, see the Gina Stubs sample in the \\Samples\\Security\\Gina\\GinaStub directory of a Platform Software Development Kit (SDK) installation.
 

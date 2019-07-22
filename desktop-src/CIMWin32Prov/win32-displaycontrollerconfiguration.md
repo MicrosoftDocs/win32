@@ -32,7 +32,7 @@ api_location:
 
 # Win32\_DisplayControllerConfiguration class
 
-The **Win32\_DisplayControllerConfiguration** [WMI class](https://msdn.microsoft.com/library/aa393244) represents the video adapter configuration information of a computer system running Windows.
+The **Win32\_DisplayControllerConfiguration** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) represents the video adapter configuration information of a computer system running Windows.
 
 This class is obsolete. In place of this class, you should use the properties in the [**Win32\_VideoController**](win32-videocontroller.md), [**Win32\_DesktopMonitor**](win32-desktopmonitor.md), and [**CIM\_VideoControllerResolution**](cim-videocontrollerresolution.md) classes.
 
@@ -82,7 +82,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|BITSPIXEL")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|BITSPIXEL")
 </dt> </dl>
 
 Either the number of bits used to represent the color in this configuration, or the bits in each pixel.
@@ -100,7 +100,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64)
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -118,7 +118,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|PLANES")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|PLANES")
 </dt> </dl>
 
 Current number of color planes used in the display configuration. A color plane is another way to represent pixel colors. Instead of assigning a single RGB value to each pixel, color planes separate the graphic into each of the primary color components (red, green, blue), and stores them in their own planes. This allows for greater color depths on 8-bit and 16-bit video systems. Present graphics systems have the bitwidth large enough to store color depth information, meaning only one color plane is needed.
@@ -151,7 +151,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|NUMCOLORS")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|NUMCOLORS")
 </dt> </dl>
 
 Number of color indexes in a color table of a display device (if the device has a color depth of no more than 8 bits per pixel). For devices with greater color depths, -1 is returned.
@@ -169,7 +169,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|NUMPENS")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|NUMPENS")
 </dt> </dl>
 
 Current number of device-specific pens. A value of 0xFFFFFFFF means the device does not support pens. Pens are logical properties that can be assigned by the display controller to display devices, and are used to draw lines, borders of polygons, and text.
@@ -187,7 +187,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|HORZRES"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("pixels")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|HORZRES"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("pixels")
 </dt> </dl>
 
 Current number of pixels in the horizontal direction (x-axis) of the display.
@@ -205,7 +205,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 Name of the adapter used in this configuration.
@@ -221,7 +221,7 @@ Data type: **sint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|HORZRESVREFRESH"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("hertz")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|HORZRESVREFRESH"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("hertz")
 </dt> </dl>
 
 Refresh rate of the video adapter. A value of 0 (zero) or 1 (one) indicates a default rate is being used. A value of -1 indicates that an optimal rate is being used.
@@ -239,7 +239,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|NUMRESERVED")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|NUMRESERVED")
 </dt> </dl>
 
 Current number of color index entries reserved for system use. This value is only valid for display settings that use an indexed palette. Indexed palettes are not used for color depths greater than 8 bits per pixel. If the color depth is more than 8 bits per pixel, this value is set to **NULL**.
@@ -257,7 +257,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (256)
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -275,7 +275,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|NUMRESERVED")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|NUMRESERVED")
 </dt> </dl>
 
 Current number of color index entries reserved for system use. This value is only valid for display settings that use an indexed palette. Indexed palettes are not used for color depths greater than 8 bits per pixel. If the color depth is more than 8 bits per pixel, this value is set to **NULL**.
@@ -293,7 +293,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877)\|VERTRES"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("pixels")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps)\|VERTRES"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("pixels")
 </dt> </dl>
 
 Current number of pixels in the vertical direction (y-axis) of the display.
@@ -311,7 +311,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
+Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 User-readable description of the current screen resolution and color setting of the display.

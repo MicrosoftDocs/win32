@@ -63,7 +63,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-If the window is being activated and is not minimized, the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function sets the keyboard focus to the window. If the window is activated by a mouse click, it also receives a [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md) message.
+If the window is being activated and is not minimized, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sets the keyboard focus to the window. If the window is activated by a mouse click, it also receives a [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md) message.
 
 ## Requirements
 
@@ -84,7 +84,7 @@ If the window is being activated and is not minimized, the [**DefWindowProc**](h
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**SetActiveWindow**](https://msdn.microsoft.com/en-us/library/ms646311(v=VS.85).aspx)
@@ -93,7 +93,7 @@ If the window is being activated and is not minimized, the [**DefWindowProc**](h
 [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md)
 </dt> <dt>
 
-[**WM\_NCACTIVATE**](https://msdn.microsoft.com/library/windows/desktop/ms632633)
+[**WM\_NCACTIVATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-ncactivate)
 </dt> <dt>
 
 **Conceptual**

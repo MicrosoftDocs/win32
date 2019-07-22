@@ -50,7 +50,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBase.Clone Method in the .NET Framework.
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**pClonedRegion* when you no longer need to use the cloned analysis region.
+> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**pClonedRegion* when you no longer need to use the cloned analysis region.
 
  
 

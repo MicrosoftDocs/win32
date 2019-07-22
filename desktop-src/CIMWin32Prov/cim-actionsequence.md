@@ -69,7 +69,7 @@ Data type: **CIM\_Action**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://msdn.microsoft.com/library/aa393650) (1), [**Min**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the next action.
@@ -85,7 +85,7 @@ Data type: **CIM\_Action**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://msdn.microsoft.com/library/aa393650) (1), [**Min**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the prior action.
@@ -118,7 +118,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 <dl> <dt>
 
-[CIM Classes](https://msdn.microsoft.com/library/aa386179)
+[CIM Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/cimclas)
 </dt> </dl>
 
  

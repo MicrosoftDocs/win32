@@ -1,14 +1,17 @@
 ---
 title: ID2D1Brush SetTransform methods
 description: Sets the transformation applied to the brush.
-ms.assetid: '57afadc1-88c9-4a5b-a83f-63c4c69182a7'
-keywords: ["SetTransform methods Direct2D"]
+ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
+keywords:
+- SetTransform methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1Brush::SetTransform methods

@@ -23,7 +23,7 @@ Allows you to create Unicode font fallback mappings and create a font fall back 
 
 ## Members
 
-The **IDWriteFontFallbackBuilder** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IDWriteFontFallbackBuilder** also has these types of members:
+The **IDWriteFontFallbackBuilder** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDWriteFontFallbackBuilder** also has these types of members:
 
 -   [Methods](#methods)
 

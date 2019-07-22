@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Defining Filters
 
-A provider can define filters that a session uses to filter events based on event data. With level and keywords, ETW determines whether the event is written to the log. However, with filters, the provider uses the filter data criteria that the controlling session passes to it (see the [*EnableCallback*](https://msdn.microsoft.com/library/windows/desktop/aa363707) function) to determine whether it writes the event to that session. The filters are applicable only when an ETW tracing session enables your provider.
+A provider can define filters that a session uses to filter events based on event data. With level and keywords, ETW determines whether the event is written to the log. However, with filters, the provider uses the filter data criteria that the controlling session passes to it (see the [*EnableCallback*](https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback) function) to determine whether it writes the event to that session. The filters are applicable only when an ETW tracing session enables your provider.
 
 Typically, providers just write events, and the session identifies the types of events that it wants using level and keywords. If the provider defined a data filter for an event type, the session could use it to filter out events for that event type based on the event data (the semantics of the filter is defined by the provider). For example, if your provider generates process events, you could define a data filter that filtered process events based on a process identifier. The session could then pass a process identifier as filter data to the provider and receive only process events for that process identifier.
 

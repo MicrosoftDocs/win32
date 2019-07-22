@@ -1,14 +1,17 @@
 ---
 title: IDCompositionShadowEffect SetBlue methods
 description: Sets the blue value for the color of the shadow.
-ms.assetid: '1ef324ce-8a62-ebca-45ca-3c92671dfaa3'
-keywords: ["SetBlue methods DirectComposition"]
+ms.assetid: 1ef324ce-8a62-ebca-45ca-3c92671dfaa3
+keywords:
+- SetBlue methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionShadowEffect::SetBlue methods

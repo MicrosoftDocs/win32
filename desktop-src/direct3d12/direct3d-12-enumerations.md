@@ -1,10 +1,10 @@
----
+﻿---
 title: Core enumerations
 description: The following enumerations are declared in d3d12.h.
 ms.assetid: 76E76C85-128E-4F0E-9711-C72C4CF6C835
 ms.localizationpriority: low
 ms.topic: article
-ms.date: 11/27/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 
@@ -70,7 +70,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_MULTIPLE_FENCE_WAIT_FLAGS**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_multiple_fence_wait_flags). Specifies multiple wait flags for multiple fences. |
 | [**D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_multisample_quality_level_flags). Specifies options for determining quality levels.  |
 | [**D3D12_PIPELINE_STATE_FLAGS**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_pipeline_state_flags). Flags to control pipeline state.  |
-| [**D3D12_PIPELINE_STATE_SUBOBJECT_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580). Specifies the type of a sub-object in a pipeline state stream description. |
+| [**D3D12_PIPELINE_STATE_SUBOBJECT_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type). Specifies the type of a sub-object in a pipeline state stream description. |
 | [**D3D12_PREDICATION_OP**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_predication_op). Specifies the predication operation to apply.  |
 | [**D3D12_PRIMITIVE_TOPOLOGY_TYPE**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_primitive_topology_type). Specifies how the pipeline interprets geometry or hull shader input primitives. |
 | [**D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_programmable_sample_positions_tier). Specifies the level of support for programmable sample positions that's offered by the adapter. |

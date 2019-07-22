@@ -8,25 +8,25 @@ ms.date: 05/31/2018
 
 # Creating a DACL
 
-Creating a proper [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL) is a necessary and important part of application development. Because a **NULL** DACL permits all types of access to all users, do not use **NULL** DACLs.
+Creating a proper [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) is a necessary and important part of application development. Because a **NULL** DACL permits all types of access to all users, do not use **NULL** DACLs.
 
-The following example shows how to properly create a DACL. The example contains a function, CreateMyDACL, that uses the [security descriptor definition language](https://msdn.microsoft.com/library/windows/desktop/aa379567) (SDDL) to define the granted and denied access control in a DACL. To provide different access for your application's objects, modify the CreateMyDACL function as needed.
+The following example shows how to properly create a DACL. The example contains a function, CreateMyDACL, that uses the [security descriptor definition language](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) (SDDL) to define the granted and denied access control in a DACL. To provide different access for your application's objects, modify the CreateMyDACL function as needed.
 
 In the example:
 
-1.  The main function passes an address of a [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure to the CreateMyDACL function.
+1.  The main function passes an address of a [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure to the CreateMyDACL function.
 2.  The CreateMyDACL function uses SDDL strings to:
     -   Deny access to guest and anonymous logon users.
     -   Allow read/write/execute access to authenticated users.
     -   Allow full control to administrators.
 
-    For more information about the SDDL string formats, see [Security Descriptor String Format](https://msdn.microsoft.com/library/windows/desktop/aa379570).
-3.  The CreateMyDACL function calls the [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376401) function to convert the SDDL strings to a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly). The security descriptor is pointed to by the **lpSecurityDescriptor** member of the [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure. CreateMyDACL sends the return value from **ConvertStringSecurityDescriptorToSecurityDescriptor** to the main function.
-4.  The main function uses the updated [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure to specify the DACL for a new folder that is created by the [**CreateDirectory**](https://msdn.microsoft.com/library/windows/desktop/aa363855) function.
-5.  When the main function is finished using the [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure, the main function frees the memory allocated for the **lpSecurityDescriptor** member by calling the [**LocalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366730) function.
+    For more information about the SDDL string formats, see [Security Descriptor String Format](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format).
+3.  The CreateMyDACL function calls the [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) function to convert the SDDL strings to a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). The security descriptor is pointed to by the **lpSecurityDescriptor** member of the [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure. CreateMyDACL sends the return value from **ConvertStringSecurityDescriptorToSecurityDescriptor** to the main function.
+4.  The main function uses the updated [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure to specify the DACL for a new folder that is created by the [**CreateDirectory**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya) function.
+5.  When the main function is finished using the [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure, the main function frees the memory allocated for the **lpSecurityDescriptor** member by calling the [**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree) function.
 
 > [!Note]  
-> To successfully compile SDDL functions such as [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376401), you must define the \_WIN32\_WINNT constant as 0x0500 or greater.
+> To successfully compile SDDL functions such as [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora), you must define the \_WIN32\_WINNT constant as 0x0500 or greater.
 
  
 

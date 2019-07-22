@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -103,7 +103,7 @@ Notification queries that request notification of the deletion of a resource and
 
 ## Examples
 
-The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9adb-f99b-4f34-ba65-19b5f5815a38) VBScript code sample on TechNet Gallery uses **\_\_InstanceDeletionEvent** to monitor the first occurrence of a WMI instance deletion event for [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372).
+The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9adb-f99b-4f34-ba65-19b5f5815a38) VBScript code sample on TechNet Gallery uses **\_\_InstanceDeletionEvent** to monitor the first occurrence of a WMI instance deletion event for [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process).
 
 ## Requirements
 
@@ -121,7 +121,7 @@ The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9
 
 <dl> <dt>
 
-[**\_\_InstanceOperationEvent**](https://msdn.microsoft.com/library/aa394652)
+[**\_\_InstanceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instanceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

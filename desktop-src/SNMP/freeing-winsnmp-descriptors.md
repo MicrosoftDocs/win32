@@ -14,7 +14,7 @@ To free the resources for an [**smiOID**](/windows/desktop/api/Winsnmp/ns-winsnm
 
 -   For input parameters
 
-    Because the WinSNMP application allocates the memory for input objects with variable lengths, the application must free that memory using an appropriate function. For example, if the application allocated the resources with a call to the [**GlobalAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366574) function, it should use the [**GlobalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366579) function to deallocate the resources. If the application allocated the resources with a call to the [**HeapAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366597) function, it should call the [**HeapFree**](https://msdn.microsoft.com/library/windows/desktop/aa366701) function.
+    Because the WinSNMP application allocates the memory for input objects with variable lengths, the application must free that memory using an appropriate function. For example, if the application allocated the resources with a call to the [**GlobalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc) function, it should use the [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree) function to deallocate the resources. If the application allocated the resources with a call to the [**HeapAlloc**](https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc) function, it should call the [**HeapFree**](https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree) function.
 
 -   For output parameters
 

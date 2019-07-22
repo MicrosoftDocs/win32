@@ -3,7 +3,7 @@ title: ITsSbTaskPlugin Methods
 description: The ITsSbTaskPlugin interfaces exposes the following methods.
 ms.assetid: 835BAB19-D91F-4F30-9EAB-4301C2E5F485
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

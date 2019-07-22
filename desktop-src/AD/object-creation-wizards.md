@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Object Creation Wizards
 
-In the administrative MMC snap-ins of Active Directory Domain Services, the user can create new objects in a directory by opening the context menu for the container where the new object will be created, choosing **New**, and choosing the class of object to create. Creating new instances of an object starts the object creation wizard. Each object class may specify the use of a specific creation wizard, or it may use a generic creation wizard. For common classes, such as [**user**](https://msdn.microsoft.com/library/ms683980) and [**organizationalUnit**](https://msdn.microsoft.com/library/ms683886), the Active Directory Users and Computers snap-in provides a standard set of creation wizards.
+In the administrative MMC snap-ins of Active Directory Domain Services, the user can create new objects in a directory by opening the context menu for the container where the new object will be created, choosing **New**, and choosing the class of object to create. Creating new instances of an object starts the object creation wizard. Each object class may specify the use of a specific creation wizard, or it may use a generic creation wizard. For common classes, such as [**user**](https://docs.microsoft.com/windows/desktop/ADSchema/c-user) and [**organizationalUnit**](https://docs.microsoft.com/windows/desktop/ADSchema/c-organizationalunit), the Active Directory Users and Computers snap-in provides a standard set of creation wizards.
 
 There are two ways to extend a creation wizard:
 

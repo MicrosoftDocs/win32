@@ -168,7 +168,7 @@ The host of the third party method is not responding and was restarted automatic
 
 
 
-EAPHost not able to communicate with EAP [quarantine enforcement client](https://msdn.microsoft.com/library/windows/desktop/aa369702) (QEC) on a [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP) enabled client.
+EAPHost not able to communicate with EAP [quarantine enforcement client](https://docs.microsoft.com/windows/desktop/NAP/nap-client-architecture) (QEC) on a [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP) enabled client.
 
 
 </dt> </dl> </dd> <dt>

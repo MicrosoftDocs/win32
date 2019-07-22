@@ -14,7 +14,7 @@ The **IKeyFrameControl** interface is implemented by the [H.323 MSP](h323-msp.md
 
 ## Members
 
-The **IKeyFrameControl** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IKeyFrameControl** also has these types of members:
+The **IKeyFrameControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IKeyFrameControl** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -173,7 +173,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 <dl> <dt>
 
-[RAS Administration Functions](https://msdn.microsoft.com/library/windows/desktop/aa378047)
+[RAS Administration Functions](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions)
 </dt> </dl>
 
  

@@ -72,7 +72,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) on \**ppbSerializedData* when you no longer need the information.
+> To avoid a memory leak, call [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) on \**ppbSerializedData* when you no longer need the information.
 
  
 

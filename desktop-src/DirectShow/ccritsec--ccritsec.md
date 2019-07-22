@@ -33,7 +33,7 @@ Destructor method.
 
 ## Remarks
 
-This method calls the [**DeleteCriticalSection**](https://msdn.microsoft.com/library/windows/desktop/ms682552) function to delete the critical section.
+This method calls the [**DeleteCriticalSection**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection) function to delete the critical section.
 
 ## Requirements
 

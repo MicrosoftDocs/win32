@@ -14,7 +14,7 @@ For more information, see [Determining an Installation Database's Code Page](det
 
 ## Adding Localization Information to a Database
 
-When you add localization information to a database, the code page of the database must be supported by the operating system. It does not have to be the current code page of the system. [**IsValidCodePage**](https://msdn.microsoft.com/library/windows/desktop/dd318674) must return **TRUE** for the database code page. Because the system converts ANSI strings to Unicode, there is an error if the current user code page is not the same as the database code page.
+When you add localization information to a database, the code page of the database must be supported by the operating system. It does not have to be the current code page of the system. [**IsValidCodePage**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidcodepage) must return **TRUE** for the database code page. Because the system converts ANSI strings to Unicode, there is an error if the current user code page is not the same as the database code page.
 
 Calling the ANSI version of the Windows Installer API converts the localized string to Unicode by using the current system code page. When the database is committed, the Unicode string is converted to ANSI using the code page of the database. If the current system code page differs from the code page of the localized string, the result can be a loss of data and incorrect string conversion.
 
@@ -23,7 +23,7 @@ The following procedure shows you how to store the localization data.
 **To store localization data**
 
 1.  Set the code page of the database to the code page of the localized string.
-2.  Convert the ANSI string to Unicode by using the [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) function, and specify the code page of the localized data.
+2.  Convert the ANSI string to Unicode by using the [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) function, and specify the code page of the localized data.
 3.  Call the Unicode version of the Windows Installer API by using the Unicode string to add the localized data.
 4.  Commit the localization changes to the database by using [**MsiDatabaseCommit**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasecommit).
 

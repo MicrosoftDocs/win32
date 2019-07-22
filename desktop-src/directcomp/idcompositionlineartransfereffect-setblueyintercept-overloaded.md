@@ -1,14 +1,17 @@
 ---
 title: IDCompositionLinearTransferEffect SetBlueYIntercept methods
 description: Sets the Y-intercept of the linear function for the blue channel.
-ms.assetid: '34bff151-4844-73fa-8e7e-9a542373b820'
-keywords: ["SetBlueYIntercept methods DirectComposition"]
+ms.assetid: 34bff151-4844-73fa-8e7e-9a542373b820
+keywords:
+- SetBlueYIntercept methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionLinearTransferEffect::SetBlueYIntercept methods

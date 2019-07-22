@@ -74,7 +74,7 @@ Data type: **CIM\_Product**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://msdn.microsoft.com/library/aa393650) (1)
+Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 Reference to the product to which the FRU is applied.

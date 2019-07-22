@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the Intersect methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.'
-ms.assetid: 'b391c256-5165-4c5c-a45a-dee74e32d391'
-title: 'Rect.Intersect methods'
+Description: This topic lists the Intersect methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+ms.assetid: b391c256-5165-4c5c-a45a-dee74e32d391
+title: Rect.Intersect methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Rect.Intersect methods

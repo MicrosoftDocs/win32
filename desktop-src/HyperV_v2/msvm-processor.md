@@ -183,7 +183,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Any additional availability and status of the device, beyond that specified in the **Availability** property. The **Availability** property denotes the primary status and availability of the device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+Any additional availability and status of the device, beyond that specified in the **Availability** property. The **Availability** property denotes the primary status and availability of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -196,7 +196,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The processor address width, in bits. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978), and the value is either 32 or 64, depending on the characteristics of the virtual machine.
+The processor address width, in bits. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor), and the value is either 32 or 64, depending on the characteristics of the virtual machine.
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The primary availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The primary availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -222,7 +222,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it is always set to **Null**.
+Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -251,7 +251,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -287,7 +287,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current status of the processor. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The current status of the processor. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -303,7 +303,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (256)
 </dt> </dl>
 
-The name of the class or subclass used in the creation of an instance. When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+The name of the class or subclass used in the creation of an instance. When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -316,7 +316,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The maximum speed of the physical processor, taking into account the capacity for the virtual processor. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The maximum speed of the physical processor, taking into account the capacity for the virtual processor. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -329,7 +329,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The processor data width, in bits. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978), and the value is either 32 or 64, depending on the characteristics of the virtual machine.
+The processor data width, in bits. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor), and the value is either 32 or 64, depending on the characteristics of the virtual machine.
 
 </dd> <dt>
 
@@ -342,7 +342,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -355,7 +355,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -394,7 +394,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-An address or other identifying information to uniquely name the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is always set to "Microsoft:*GUID*\\*device specific data*".
+An address or other identifying information to uniquely name the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to "Microsoft:*GUID*\\*device specific data*".
 
 </dd> <dt>
 
@@ -407,7 +407,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -420,7 +420,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the Enabled State of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+An administrator's default or startup configuration for the Enabled State of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -433,7 +433,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The enabled and disabled states of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+The enabled and disabled states of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -446,7 +446,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the error reported in **LastErrorCode** is now cleared. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+Indicates whether the error reported in **LastErrorCode** is now cleared. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -459,7 +459,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -472,7 +472,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The external bus clock speed of the underlying physical processor. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The external bus clock speed of the underlying physical processor. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -485,7 +485,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The processor family of the underlying physical processor. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The processor family of the underlying physical processor. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -498,7 +498,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -511,7 +511,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of free-form strings that provide explanations and details behind the entries in the [**OtherIdentifyingInfo**](msvm-keyboard.md) array. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is always set to **Null**.
+An array of free-form strings that provide explanations and details behind the entries in the [**OtherIdentifyingInfo**](msvm-keyboard.md) array. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -524,7 +524,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time when the virtual machine was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The date and time when the virtual machine was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -540,7 +540,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -553,7 +553,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The last error code reported by the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The last error code reported by the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -566,7 +566,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current percentage of the total processing power being consumed by the virtual machine. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The current percentage of the total processing power being consumed by the virtual machine. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -579,7 +579,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Indexed")
+Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 The recorded history of percentage of the total processing power being consumed by the virtual machine. This is an array containing samples.
@@ -595,7 +595,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The maximum clock speed, in megahertz, of the virtual processor. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The maximum clock speed, in megahertz, of the virtual processor. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -608,7 +608,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property has been deprecated. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+This property has been deprecated. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -624,7 +624,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (1024)
 </dt> </dl>
 
-The label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -637,7 +637,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -709,7 +709,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The current status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -722,7 +722,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -735,7 +735,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the processor family type. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978), and it is always set to **Null**.
+A description of the processor family type. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -748,7 +748,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Any additional data, beyond device ID information, that could be used to identify a logical device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+Any additional data, beyond device ID information, that could be used to identify a logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -761,7 +761,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The power management capabilities of the device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The power management capabilities of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -774,7 +774,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether power management is supported on the device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+Indicates whether power management is supported on the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -787,7 +787,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The number of consecutive hours that this device has been powered on since its last power cycle. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The number of consecutive hours that this device has been powered on since its last power cycle. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -800,7 +800,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -833,7 +833,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+The last requested or desired state for the element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -846,7 +846,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the role of the processor. For example, "Central Processor" or "Math Processor". This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+A string that describes the role of the processor. For example, "Central Processor" or "Math Processor". This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -859,7 +859,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), but it is not used.
+The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -872,7 +872,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -885,7 +885,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current state of the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The current state of the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -898,7 +898,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The revision level of the processor within the processor family of the underlying physical processor. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The revision level of the processor within the processor family of the underlying physical processor. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> <dt>
 
@@ -914,7 +914,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (256)
 </dt> </dl>
 
-The creation class name of the scoping system. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+The creation class name of the scoping system. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -930,7 +930,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (256)
 </dt> </dl>
 
-The name of the scoping system. This value corresponds to the value of the [**Name**](msvm-computersystem.md) property of the **Msvm\_ComputerSystem** class for the scoping virtual machine. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+The name of the scoping system. This value corresponds to the value of the [**Name**](msvm-computersystem.md) property of the **Msvm\_ComputerSystem** class for the scoping virtual machine. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -943,7 +943,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date or time at which the virtual machine's state was changed. If the state of the element has not changed and this property is populated, then it must be set to a 0 interval value. If a state change was requested, but rejected or not yet processed, the property must not be updated. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+The date or time at which the virtual machine's state was changed. If the state of the element has not changed and this property is populated, then it must be set to a 0 interval value. If a state change was requested, but rejected or not yet processed, the property must not be updated. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -956,7 +956,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The total number of hours that this device has been powered. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The total number of hours that this device has been powered. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -969,7 +969,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), but it is not used.
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not used.
 
 </dd> <dt>
 
@@ -982,7 +982,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A globally unique identifier for the processor. This identifier can only be unique within a processor family. This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978), and it is always set to **Null**.
+A globally unique identifier for the processor. This identifier can only be unique within a processor family. This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -995,13 +995,13 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The CPU socket information, which includes data on how to upgrade the processor (if upgrades are supported). This property is inherited from [**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978).
+The CPU socket information, which includes data on how to upgrade the processor (if upgrades are supported). This property is inherited from [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_Processor** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_Processor** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -1024,7 +1024,7 @@ Access to the **Msvm\_Processor** class might be restricted by UAC Filtering. Fo
 [**CIM\_Processor**](cim-processor.md)
 </dt> <dt>
 
-[**CIM\_Processor**](https://msdn.microsoft.com/library/aa387978)
+[**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor)
 </dt> <dt>
 
 [Processor Classes](processor-classes.md)

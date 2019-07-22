@@ -1,6 +1,6 @@
 ---
 title: Packaging, deployment, and query APIs
-description: Use these APIs to create, deploy, and query app packages for Windows Store apps.
+description: Use these APIs to create, deploy, and query app packages for Windows apps.
 ms.assetid: B3FAE463-3B1D-402C-9698-8366D6A6380D
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Packaging, deployment, and query APIs
 
-Use these APIs in your desktop apps to create, consume, deploy, or query app packages for Windows Store apps:
+Use these APIs in your desktop apps to create, consume, deploy, or query app packages for Windows apps:
 
 -   [Packaging API](interfaces.md)
 -   [Package deployment API](package-deployment-api.md)
@@ -16,15 +16,15 @@ Use these APIs in your desktop apps to create, consume, deploy, or query app pac
 
 Use these APIs in your desktop apps to deploy or query app packages:
 
--   [**Windows.ApplicationModel.Package**](https://msdn.microsoft.com/library/windows/apps/br224667)
--   [**Windows.ApplicationModel.PackageId**](https://msdn.microsoft.com/library/windows/apps/br224668)
--   [**Windows.Management.Deployment.PackageManager**](https://msdn.microsoft.com/library/windows/apps/br240960)
--   [**Windows.Management.Deployment.PackageUserInformation**](https://msdn.microsoft.com/library/windows/apps/br240980)
+-   [**Windows.ApplicationModel.Package**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Package)
+-   [**Windows.ApplicationModel.PackageId**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.PackageId)
+-   [**Windows.Management.Deployment.PackageManager**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment.PackageManager)
+-   [**Windows.Management.Deployment.PackageUserInformation**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment.PackageUserInformation)
 
-Use these APIs in your Windows Store apps to query app packages:
+Use these APIs in your UWP apps to query app packages:
 
--   [**Windows.ApplicationModel.Package**](https://msdn.microsoft.com/library/windows/apps/br224667)
--   [**Windows.ApplicationModel.PackageId**](https://msdn.microsoft.com/library/windows/apps/br224668)
+-   [**Windows.ApplicationModel.Package**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Package)
+-   [**Windows.ApplicationModel.PackageId**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.PackageId)
 
 ## Related topics
 
@@ -39,10 +39,10 @@ Use these APIs in your Windows Store apps to query app packages:
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://msdn.microsoft.com/library/windows/apps/hh464929)
+[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
-[Packaging, deployment, and query of Windows Store apps](appx-portal.md)
+[Packaging, deployment, and query of Windows apps](appx-portal.md)
 </dt> <dt>
 
 [Glossary](appx-packaging-glossary.md)
@@ -51,7 +51,7 @@ Use these APIs in your Windows Store apps to query app packages:
 **Other Reference**
 </dt> <dt>
 
-[App package manifest schema](https://msdn.microsoft.com/library/windows/apps/br211474)
+[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> </dl>
 
  

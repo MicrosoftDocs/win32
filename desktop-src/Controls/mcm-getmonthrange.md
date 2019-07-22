@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MCM\_GETMONTHRANGE message
 
-Retrieves date information (using [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structures) that represents the high and low limits of a month calendar control's display. You can send this message explicitly or by using the [**MonthCal\_GetMonthRange**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getmonthrange) macro.
+Retrieves date information (using [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures) that represents the high and low limits of a month calendar control's display. You can send this message explicitly or by using the [**MonthCal\_GetMonthRange**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getmonthrange) macro.
 
 ## Parameters
 
@@ -45,7 +45,7 @@ Value specifying the scope of the range limits to be retrieved. This value must 
 *lParam* 
 </dt> <dd>
 
-Pointer to a two-element array of [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structures that will receive the lower and upper limits of the scope specified by *wParam*. The lower and upper limits are placed in *lprgSysTimeArray*\[0\] and *lprgSysTimeArray*\[1\], respectively. This parameter must be a valid address and cannot be **NULL**.
+Pointer to a two-element array of [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that will receive the lower and upper limits of the scope specified by *wParam*. The lower and upper limits are placed in *lprgSysTimeArray*\[0\] and *lprgSysTimeArray*\[1\], respectively. This parameter must be a valid address and cannot be **NULL**.
 
 </dd> </dl>
 

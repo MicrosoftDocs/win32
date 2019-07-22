@@ -18,7 +18,7 @@ When you develop an RPC application, you use a text editor to create an IDL file
 -   [Files Generated for an RPC Interface](files-generated-for-an-rpc-interface.md)
 -   [Targeting Stubs for Specific 32-bit or 64-bit Platforms](targeting-stubs-for-specific-32-bit-or-64-bit-platforms.md)
 
-For more information, see [Building RPC Applications](https://msdn.microsoft.com/library/windows/desktop/aa373570).
+For more information, see [Building RPC Applications](https://docs.microsoft.com/windows/desktop/Rpc/building-rpc-applications).
 
  
 

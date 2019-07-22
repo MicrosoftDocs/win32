@@ -16,7 +16,7 @@ For versions of windows prior to Windows 2000, the registry keys in the followi
 
 Using the [**RpcServerUseProtseqEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqex) function affects these settings. Developers should be familiar with the registry settings explained in this section and the **RpcServerUseProtseqEx** function when managing port allocations. An example with three hypothetical applications follows the table below, and illustrates how these settings and the **RpcServerUseProtseqEx** function interoperate.
 
-If a key is missing or if it contains an invalid value, the entire configuration is marked as invalid, and all **RpcServerUseProtseq\*** calls over [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104) or [**ncadg\_ip\_udp**](https://msdn.microsoft.com/library/windows/desktop/aa367113) will fail.
+If a key is missing or if it contains an invalid value, the entire configuration is marked as invalid, and all **RpcServerUseProtseq\*** calls over [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp) or [**ncadg\_ip\_udp**](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp) will fail.
 
 > [!Note]  
 > Ports allocated to a process remain allocated until that process dies. If all available ports are in use, the function returns RPC\_S\_OUT\_OF\_RESOURCES.
@@ -78,7 +78,7 @@ If a key is missing or if it contains an invalid value, the entire configuration
                Linkage
                   Bind</code></pre></td>
 <td><strong>REG_MULTI_SZ</strong></td>
-<td>Lists the device names of all the NICs on which to bind by default (for example, \Device\AMDPCN1). If the key does not exist, the server will bind to all NICs. If the key does exist, the server will bind to the NICs specified in the key, unless the NICFlags field is set to RPC_C_BIND_TO_ALL_NICS. If the key has a null (&quot;&quot;) value, the configuration will be marked as invalid and all calls to <strong>RpcServerUseProtseq*</strong> over <a href="https://msdn.microsoft.com/library/windows/desktop/aa367104"><strong>ncacn_ip_tcp</strong></a> or <a href="https://msdn.microsoft.com/library/windows/desktop/aa367113"><strong>ncadg_ip_udp</strong></a> will fail.</td>
+<td>Lists the device names of all the NICs on which to bind by default (for example, \Device\AMDPCN1). If the key does not exist, the server will bind to all NICs. If the key does exist, the server will bind to the NICs specified in the key, unless the NICFlags field is set to RPC_C_BIND_TO_ALL_NICS. If the key has a null (&quot;&quot;) value, the configuration will be marked as invalid and all calls to <strong>RpcServerUseProtseq*</strong> over <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp"><strong>ncacn_ip_tcp</strong></a> or <a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp"><strong>ncadg_ip_udp</strong></a> will fail.</td>
 </tr>
 </tbody>
 </table>
@@ -146,10 +146,10 @@ The value of the Ports key, for sake of this example, is 5000-5100 for each entr
 [**RpcServerUseProtseqIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqifex)
 </dt> <dt>
 
-[**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104)
+[**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp)
 </dt> <dt>
 
-[**ncadg\_ip\_udp**](https://msdn.microsoft.com/library/windows/desktop/aa367113)
+[**ncadg\_ip\_udp**](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp)
 </dt> </dl>
 
  

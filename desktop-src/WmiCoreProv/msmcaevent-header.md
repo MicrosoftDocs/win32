@@ -128,7 +128,7 @@ Access type: Read-only
 
 Record identifier of the error record for this error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -166,7 +166,7 @@ Type of event log message. These messages correspond to the event log message co
 [MSMCA Classes](msmca-classes.md)
 </dt> <dt>
 
-[WMI C++ Classes](https://msdn.microsoft.com/library/aa394557)
+[WMI C++ Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-c-classes)
 </dt> </dl>
 
  

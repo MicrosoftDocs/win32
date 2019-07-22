@@ -1,14 +1,17 @@
 ---
 title: idcompositiongaussianblureffect SetStandardDeviation methods
 description: Sets the amount of blur to be applied to the image.
-ms.assetid: '2e911c48-69c2-1c71-cc41-a501b13a0ee2'
-keywords: ["SetStandardDeviation methods DirectComposition"]
+ms.assetid: 2e911c48-69c2-1c71-cc41-a501b13a0ee2
+keywords:
+- SetStandardDeviation methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # idcompositiongaussianblureffect::SetStandardDeviation methods

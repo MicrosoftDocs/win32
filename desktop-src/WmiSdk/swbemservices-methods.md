@@ -3,7 +3,7 @@ Description: The SWbemServices object exposes the following methods.
 ms.assetid: B2F99840-702B-4C15-839E-5B038EACA1DC
 ms.tgt_platform: multiple
 title: SWbemServices Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

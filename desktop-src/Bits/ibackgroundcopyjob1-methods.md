@@ -2,7 +2,7 @@
 title: IBackgroundCopyJob1 Methods
 description: The IBackgroundCopyJob1 interface exposes the following methods.
 ms.assetid: 11342CEA-9DFF-46CF-A6FE-7FFE34D8CAE3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

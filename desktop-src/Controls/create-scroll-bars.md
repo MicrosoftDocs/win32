@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create Scroll Bars
 
-When creating an overlapped, pop-up, or child window, you can add standard scroll bars by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying WS\_HSCROLL, WS\_VSCROLL, or both styles.
+When creating an overlapped, pop-up, or child window, you can add standard scroll bars by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying WS\_HSCROLL, WS\_VSCROLL, or both styles.
 
 ## What you need to know
 
@@ -50,7 +50,7 @@ The following example creates a window with standard horizontal and vertical scr
 
 To process scroll bar messages for these scroll bars, you must include appropriate code in the main window procedure.
 
-You can use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create a scroll bar by specifying the SCROLLBAR window class. This creates a horizontal or vertical scroll bar, depending on whether [**SBS\_HORZ**](scroll-bar-control-styles.md) or [**SBS\_VERT**](scroll-bar-control-styles.md) is specified as the window style. The scroll bar size and its position relative to its parent window can also be specified.
+You can use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a scroll bar by specifying the SCROLLBAR window class. This creates a horizontal or vertical scroll bar, depending on whether [**SBS\_HORZ**](scroll-bar-control-styles.md) or [**SBS\_VERT**](scroll-bar-control-styles.md) is specified as the window style. The scroll bar size and its position relative to its parent window can also be specified.
 
 The following example creates a horizontal scroll bar that is positioned along the bottom of the parent window's client area.
 

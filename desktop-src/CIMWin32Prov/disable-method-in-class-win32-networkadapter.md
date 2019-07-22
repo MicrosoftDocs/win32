@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
 ## Requirements
 
@@ -58,10 +58,10 @@ Returns zero (0) to indicate success. Any other number indicates an error. For e
 [**Win32\_NetworkAdapter**](win32-networkadapter.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://msdn.microsoft.com/library/aa394595)
+[WMI Tasks: Networking](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--networking)
 </dt> <dt>
 
-[IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
+[IPv6 and IPv4 Support in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
 </dt> </dl>
 
  

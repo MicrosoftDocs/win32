@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **CreateFile** function. This function may be altered or unavailable in the future. Applications should call **CreateFile** directly.\]
 
-Creates or opens a file. See [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858).
+Creates or opens a file. See [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ BOOL _CreateFile(
 
 <dl> <dt>
 
-[**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858)
+[**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
 </dt> </dl>
 
  

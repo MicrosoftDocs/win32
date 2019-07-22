@@ -19,7 +19,7 @@ By providing a simpler development platform, WFP is designed to replace previous
 
 With the WFP API, developers can implement firewalls, intrusion detection systems, antivirus programs, network monitoring tools, and parental controls. WFP integrates with and provides support for firewall features such as authenticated communication and dynamic firewall configuration based on applications' use of sockets API (application-based policy). WFP also provides infrastructure for IPsec policy management, change notifications, network diagnostics, and stateful filtering.
 
-Windows Filtering Platform is a development platform and not a firewall itself. The firewall application that is built into Windows Vista, Windows Server 2008, and later operating systems   Windows Firewall with Advanced Security (WFAS)   is implemented using WFP. Therefore, applications developed with the WFP API or the [WFAS API](https://msdn.microsoft.com/library/windows/desktop/aa366459) use the common filtering arbitration logic that is built into WFP.
+Windows Filtering Platform is a development platform and not a firewall itself. The firewall application that is built into Windows Vista, Windows Server 2008, and later operating systems   Windows Firewall with Advanced Security (WFAS)   is implemented using WFP. Therefore, applications developed with the WFP API or the [WFAS API](https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference) use the common filtering arbitration logic that is built into WFP.
 
 The WFP API consists of a user-mode API and a kernel-mode API. This section provides an overview of the entire WFP and describes in detail only the user-mode portion of the WFP API. For a detailed description of the kernel-mode WFP API, see the [Windows Driver Kit](https://go.microsoft.com/fwlink/p/?linkid=95958) online help.
 
@@ -66,13 +66,13 @@ To ask questions and have discussions about using the WFP API, visit the [Window
 [Kernel-Mode Windows Filtering Platform API - Reference](https://go.microsoft.com/fwlink/p/?linkid=95959)
 </dt> <dt>
 
-[Windows Firewall with Advanced Security](https://msdn.microsoft.com/library/windows/desktop/ff956124)
+[Windows Firewall with Advanced Security](https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page)
 </dt> <dt>
 
-[WFP Diagnostics Extensible Helper Class](https://msdn.microsoft.com/library/windows/desktop/bb613477)
+[WFP Diagnostics Extensible Helper Class](https://docs.microsoft.com/windows/desktop/NDF/windows-filtering-platform-extensible-helper-class)
 </dt> <dt>
 
-[Winsock Secure Socket Extensions](https://msdn.microsoft.com/library/windows/desktop/bb394815)
+[Winsock Secure Socket Extensions](https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions)
 </dt> </dl>
 
  

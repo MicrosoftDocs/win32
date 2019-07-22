@@ -40,7 +40,7 @@ TxF does not support most operations on Encrypted File System (EFS) files. The o
 
 For more information about encryption, see [Adding Users to an Encrypted File](adding-users-to-an-encrypted-file.md).
 
-For more information about cryptography, see [Cryptography](https://msdn.microsoft.com/library/windows/desktop/aa380255).
+For more information about cryptography, see [Cryptography](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal).
 
  
 

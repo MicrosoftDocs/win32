@@ -50,25 +50,25 @@
       - name: "AddDllDirectory"
         href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory
       - name: "DisableThreadLibraryCalls"
-        href: https://msdn.microsoft.com/en-us/library/ms682579(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls
       - name: "DllMain"
         href: dllmain.md
       - name: "FreeLibrary"
-        href: https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary
       - name: "FreeLibraryAndExitThread"
-        href: https://msdn.microsoft.com/en-us/library/ms683153(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread
       - name: "GetDllDirectory"
         href: /windows/desktop/api/WinBase/nf-winbase-getdlldirectorya
       - name: "GetModuleFileName"
-        href: https://msdn.microsoft.com/en-us/library/ms683197(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea
       - name: "GetModuleHandle"
-        href: https://msdn.microsoft.com/en-us/library/ms683199(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea
       - name: "GetModuleHandleEx"
-        href: https://msdn.microsoft.com/en-us/library/ms683200(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandleexa
       - name: "GetProcAddress"
-        href: https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress
       - name: "LoadLibrary"
-        href: https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya
       - name: "LoadLibraryEx"
         href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa
       - name: "LoadModule"

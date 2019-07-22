@@ -22,7 +22,7 @@ You can enhance applications using Windows Touch features in many ways. Before y
 -   You want your application to behave the same as in legacy versions of Windows but want Windows Touch messages to behave consistently.
 -   You want custom object rotation, translation, panning, or zoom support in your application.
 -   You want your application to have fine-grained interpretation of Windows Touch gestures or to interpret multiple touches on an application that is specifically optimized for Windows Touch input.
--   You have an application that uses the [**RealTimeStylus**](https://msdn.microsoft.com/library/windows/desktop/ms702528) object and want to enhance it with Windows Touch capabilities.
+-   You have an application that uses the [**RealTimeStylus**](https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus) object and want to enhance it with Windows Touch capabilities.
 
 ## You want your application to behave as it did in legacy versions of Windows
 
@@ -55,9 +55,9 @@ If you want to interpret multiple touch points in your application, you should c
 
 ## You want to enable Windows Touch input to an application that uses the RealTimeStylus
 
-If you want to enable input for multiple contacts on the Tablet PC platform, you must implement a custom RealTimeStylus plug-in that interprets the Windows Touch data. Microsoft introduced the [**ITablet3**](https://msdn.microsoft.com/library/windows/desktop/dd373001) and [**IRealTimeStylus3**](https://msdn.microsoft.com/library/windows/desktop/dd372995) interfaces to enable input from multiple contacts in the RealTimeStylus plug-in. These interfaces simplify extending RealTimeStylus plug-ins to support multiple contact points.
+If you want to enable input for multiple contacts on the Tablet PC platform, you must implement a custom RealTimeStylus plug-in that interprets the Windows Touch data. Microsoft introduced the [**ITablet3**](https://docs.microsoft.com/windows/desktop/tablet/itablet3) and [**IRealTimeStylus3**](https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3) interfaces to enable input from multiple contacts in the RealTimeStylus plug-in. These interfaces simplify extending RealTimeStylus plug-ins to support multiple contact points.
 
-To check whether support for multiple contacts is enabled, call [**IsMultiTouch**](https://msdn.microsoft.com/library/windows/desktop/dd373002). To check the number of supported contacts, call [**GetMaximumCursors**](https://msdn.microsoft.com/library/windows/desktop/dd464657). To enable or disable multiple contact support, call [**MultiTouchEnabled**](https://msdn.microsoft.com/library/windows/desktop/dd372996).
+To check whether support for multiple contacts is enabled, call [**IsMultiTouch**](https://docs.microsoft.com/windows/desktop/tablet/itablet3-ismultitouch). To check the number of supported contacts, call [**GetMaximumCursors**](https://docs.microsoft.com/windows/desktop/tablet/itablet3-getmaximumcursors). To enable or disable multiple contact support, call [**MultiTouchEnabled**](https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled).
 
 > [!Note]  
 > If you don't enable multiple contact points in the RealTimeStylus, you will receive gesture messages such as pan and zoom.

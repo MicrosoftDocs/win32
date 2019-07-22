@@ -29,7 +29,7 @@ An OID string, which is a string that contains digits (0-9) and decimal points (
 | MAPI Type    | \-                                                                     |
 | ADS Type     | ADSTYPE\_CASE\_IGNORE\_STRING                                          |
 | Variant Type | VT\_BSTR                                                               |
-| SDS Type     | [System.String](https://msdn.microsoft.com/library/system.string.aspx) |
+| SDS Type     | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) |
 
 
 
@@ -37,7 +37,7 @@ An OID string, which is a string that contains digits (0-9) and decimal points (
 
 <dl> <dt>
 
-[System.String](https://msdn.microsoft.com/library/system.string.aspx)
+[System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
 </dt> </dl>
 
  

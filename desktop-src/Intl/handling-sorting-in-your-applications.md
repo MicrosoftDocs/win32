@@ -168,7 +168,7 @@ The sort key can contain an odd number of bytes. The LCMAP\_BYTEREV flag only re
 
 When generating the sort key, the function treats the hyphen and apostrophe differently from other punctuation symbols, so that words such as "coop" and "co-op" stay together in a list. All punctuation symbols other than the hyphen and apostrophe sort before alphanumeric characters. The application can change this behavior by setting the SORT\_STRINGSORT flag, as described in [Sorting Functions](#sorting-functions).
 
-When used in [memcmp](https://msdn.microsoft.com/en-us/library/zyaebf12.aspx), the sort key produces the same order as when the source string is used in [**CompareString**](https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx) or [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex). The [memcmp](https://msdn.microsoft.com/en-us/library/zyaebf12.aspx) function should be used instead of [strcmp](https://msdn.microsoft.com/en-us/library/e0z9k731.aspx), because the sort key can have embedded null bytes.
+When used in [memcmp](https://docs.microsoft.com/cpp/c-runtime-library/reference/memcmp-wmemcmp), the sort key produces the same order as when the source string is used in [**CompareString**](https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx) or [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex). The [memcmp](https://docs.microsoft.com/cpp/c-runtime-library/reference/memcmp-wmemcmp) function should be used instead of [strcmp](https://docs.microsoft.com/cpp/c-runtime-library/reference/strcmp-wcscmp-mbscmp), because the sort key can have embedded null bytes.
 
 ## Use Sort Versioning
 

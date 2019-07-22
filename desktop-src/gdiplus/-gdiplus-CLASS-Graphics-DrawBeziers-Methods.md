@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the DrawBeziers methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'af91f612-7e65-4a36-8449-32410d275b00'
-title: 'Graphics.DrawBeziers methods'
+Description: This topic lists the DrawBeziers methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: af91f612-7e65-4a36-8449-32410d275b00
+title: Graphics.DrawBeziers methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.DrawBeziers methods

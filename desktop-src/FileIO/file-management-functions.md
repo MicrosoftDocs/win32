@@ -201,7 +201,7 @@ The following functions are used with the encrypted file system.
 [**WriteEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-writeencryptedfileraw)  
 </dl>
 
-The following functions are used with the [file system redirector](https://msdn.microsoft.com/library/windows/desktop/aa384187).
+The following functions are used with the [file system redirector](https://docs.microsoft.com/windows/desktop/WinProg64/file-system-redirector).
 
 <dl>
 

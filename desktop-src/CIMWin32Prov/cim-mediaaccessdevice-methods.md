@@ -3,7 +3,7 @@ Description: The CIM\_MediaAccessDevice class exposes the following methods.
 ms.assetid: 3035A975-4DED-4EDA-AEAD-9111C5C3301E
 ms.tgt_platform: multiple
 title: CIM_MediaAccessDevice Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

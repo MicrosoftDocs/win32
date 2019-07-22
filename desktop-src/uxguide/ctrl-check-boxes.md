@@ -24,7 +24,7 @@ A typical group of check boxes.
 To decide, consider these questions:
 
 -   **Is the check box used to toggle an option on or off or to select or deselect an item?** If not, use another control.
--   **Are the selected and cleared states clear and unambiguous opposites?** If not, use [radio buttons](ctrl-radio-buttons.md) or a [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) so that you can label the states independently.
+-   **Are the selected and cleared states clear and unambiguous opposites?** If not, use [radio buttons](ctrl-radio-buttons.md) or a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) so that you can label the states independently.
 -   **When used in a group, does the group comprise independent choices, from which users may choose zero or more?** If not, consider controls for dependent choices, such as radio buttons and [check box tree views](ctrl-tree-views.md).
 -   **When used in a group, does the group comprise dependent choices, from which users must choose one or more?** If so, use a group of check boxes and handle the error when none of the options are selected.
 -   **Is the number of options in a group 10 or fewer?** Since the screen space used is proportional to the number of options, keep the number of check boxes to 10 or fewer. For more than 10 options, use a [check box list](ctrl-list-boxes.md).

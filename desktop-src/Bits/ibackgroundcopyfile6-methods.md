@@ -2,7 +2,7 @@
 title: IBackgroundCopyFile6 Methods
 description: The IBackgroundCopyFile6 interface exposes the following methods.
 ms.assetid: 589EC0DA-95B1-4E5D-84C8-B273D838B0CB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Win32\_NetworkAdapterConfiguration class exposes the following 
 ms.assetid: 662E3F9C-B878-49B1-9090-F7570A19F220
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapterConfiguration Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -83,7 +83,7 @@ public static bool TrySeek(
 
 #### Return value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
 True if a record matching the criteria was found.  
 
 ## See also

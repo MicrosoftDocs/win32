@@ -41,7 +41,7 @@ The following diagram summarizes the different platforms with which Direct2D is 
 
 ## GDI Interoperability
 
-Direct2D enables two-way interoperability with GDI. You can use an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx) to write Direct2D content to a GDI [device context](https://msdn.microsoft.com/library/windows/desktop/dd183553) (DC), or you can use [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371321(v=VS.85).aspx) to obtain a DC representation of a render target.
+Direct2D enables two-way interoperability with GDI. You can use an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx) to write Direct2D content to a GDI [device context](https://docs.microsoft.com/windows/desktop/gdi/device-contexts) (DC), or you can use [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371321(v=VS.85).aspx) to obtain a DC representation of a render target.
 
 For more information and examples, see the [Direct2D and GDI Interoperability Overview](direct2d-and-gdi-interoperation-overview.md).
 

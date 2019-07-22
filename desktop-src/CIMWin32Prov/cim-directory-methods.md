@@ -3,7 +3,7 @@ Description: The CIM\_Directory class exposes the following methods.
 ms.assetid: 6B854608-9865-47CF-8C24-EB32A57B7B1D
 ms.tgt_platform: multiple
 title: CIM_Directory Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

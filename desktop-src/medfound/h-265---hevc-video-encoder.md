@@ -158,7 +158,7 @@ For the codec requirements for HCK encoder certification, see the **Certified Ha
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Dd317842(v=VS.85).aspx"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonratecontrolmode-property"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a></td>
 <td>Sets the rate control mode. The supported modes are:<br/>
 <ul>
 <li><strong>eAVEncCommonRateControlMode_CBR</strong></li>
@@ -167,19 +167,19 @@ For the codec requirements for HCK encoder certification, see the **Certified Ha
 If other modes are specified, the <strong>eAVEncCommonRateControlMode_CBR</strong> rate control will be used.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx">CODECAPI_AVEncCommonMeanBitRate</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
 <td>Sets the average bit rate for the encoded bit stream, in bits per second. <br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Dd317651(v=VS.85).aspx">CODECAPI_AVEncCommonBufferSize</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a></td>
 <td>Sets the buffer size, in bytes, for constant bit rate (CBR) encoding.<br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Dd317658(v=VS.85).aspx">CODECAPI_AVEncCommonMaxBitRate</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a></td>
 <td>Sets the maximum bitrate for rate control modes that allow a peak bitrate. <br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Dd317889(v=VS.85).aspx">CODECAPI_AVEncMPVGOPSize</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a></td>
 <td>Sets the number of pictures from one GOP header to the next, including the leading anchor but not the following one. <br/> The valid range is [0 ... 2³²–1]. If zero, the encoder selects the GOP size. The default value is zero. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
@@ -187,7 +187,7 @@ If other modes are specified, the <strong>eAVEncCommonRateControlMode_CBR</stron
 <td>Enables or disables low-latency mode. <br/> This is a VT_BOOL value.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
 <td>Sets the quality/speed tradeoff. This value affects how the encoder performs various encoding operations, such as motion compensation. At higher complexity levels, the encoder runs more slowly but produces better quality at the same bit rate. <br/> The valid range is 0 – 100. Internally, this value is mapped to a smaller set of quality/speed levels supported by the encoder.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">

@@ -94,7 +94,7 @@ If this parameter is **FALSE**, the function does not return until the time-out 
 
 If the parameter is **TRUE** and there are no available entries, the function performs an alertable wait. The thread returns when the system queues an I/O completion routine or APC to the thread and the thread executes the function.
 
-A completion routine is queued when the [**ReadFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-readfileex) or [**WriteFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-writefileex) function in which it was specified has completed, and the calling thread is the thread that initiated the operation. An APC is queued when you call [**QueueUserAPC**](https://msdn.microsoft.com/library/windows/desktop/ms684954).
+A completion routine is queued when the [**ReadFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-readfileex) or [**WriteFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-writefileex) function in which it was specified has completed, and the calling thread is the thread that initiated the operation. An APC is queued when you call [**QueueUserAPC**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc).
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ A completion routine is queued when the [**ReadFileEx**](/windows/desktop/api/Fi
 
 Returns nonzero (**TRUE**) if successful or zero (**FALSE**) otherwise.
 
-To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -110,9 +110,9 @@ This function associates a thread with the specified completion port. A thread c
 
 This function returns **TRUE** when at least one pending I/O is completed, but it is possible that one or more I/O operations failed. Note that it is up to the user of this function to check the list of returned entries in the *lpCompletionPortEntries* parameter to determine which of them correspond to any possible failed I/O operations by looking at the status contained in the **lpOverlapped** member in each [**OVERLAPPED\_ENTRY**](/windows/desktop/api/MinWinBase/ns-minwinbase-_overlapped_entry).
 
-This function returns **FALSE** when no I/O operation was dequeued. This typically means that an error occurred while processing the parameters to this call, or that the *CompletionPort* handle was closed or is otherwise invalid. The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function provides extended error information.
+This function returns **FALSE** when no I/O operation was dequeued. This typically means that an error occurred while processing the parameters to this call, or that the *CompletionPort* handle was closed or is otherwise invalid. The [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function provides extended error information.
 
-If a call to [**GetQueuedCompletionStatusEx**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) fails because the handle associated with it is closed, the function returns **FALSE** and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return **ERROR\_ABANDONED\_WAIT\_0**.
+If a call to [**GetQueuedCompletionStatusEx**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) fails because the handle associated with it is closed, the function returns **FALSE** and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return **ERROR\_ABANDONED\_WAIT\_0**.
 
 Server applications may have several threads calling the **GetQueuedCompletionStatusEx** function for the same completion port. As I/O operations complete, they are queued to this port in first-in-first-out order. If a thread is actively waiting on this call, one or more queued requests complete the call for that thread only.
 
@@ -161,19 +161,19 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 [I/O Completion Ports](i-o-completion-ports.md)
 </dt> <dt>
 
-[Using the Windows Headers](https://msdn.microsoft.com/library/windows/desktop/aa383745)
+[Using the Windows Headers](https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers)
 </dt> <dt>
 
 **Functions**
 </dt> <dt>
 
-[**ConnectNamedPipe**](https://msdn.microsoft.com/library/windows/desktop/aa365146)
+[**ConnectNamedPipe**](https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)
 </dt> <dt>
 
 [**CreateIoCompletionPort**](createiocompletionport.md)
 </dt> <dt>
 
-[**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
+[**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 </dt> <dt>
 
 [**GetQueuedCompletionStatusEx**](getqueuedcompletionstatusex-func.md)
@@ -188,10 +188,10 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 [**PostQueuedCompletionStatus**](postqueuedcompletionstatus.md)
 </dt> <dt>
 
-[**TransactNamedPipe**](https://msdn.microsoft.com/library/windows/desktop/aa365790)
+[**TransactNamedPipe**](https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe)
 </dt> <dt>
 
-[**WaitCommEvent**](https://msdn.microsoft.com/library/windows/desktop/aa363479)
+[**WaitCommEvent**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent)
 </dt> <dt>
 
 [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile)

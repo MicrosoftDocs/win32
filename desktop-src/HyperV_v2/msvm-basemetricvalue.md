@@ -75,7 +75,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Specifies one breakdown dimension from the **BreakdownDimensions** array defined in the associated [**Msvm\_BaseMetricDefinition**](msvm-basemetricdefinition.md). This is the dimension along which this set of metric values is broken down. This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+Specifies one breakdown dimension from the **BreakdownDimensions** array defined in the associated [**Msvm\_BaseMetricDefinition**](msvm-basemetricdefinition.md). This is the dimension along which this set of metric values is broken down. This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Defines a value of the **BreakdownDimension** property defined for this metric value instance. For example, if the **BreakdownDimension** is "TransactionName", this property could name the actual transaction to which this particular metric value applies. This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+Defines a value of the **BreakdownDimension** property defined for this metric value instance. For example, if the **BreakdownDimension** is "TransactionName", this property could name the actual transaction to which this particular metric value applies. This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the time duration over which this metric value is valid. This property should not exist for time stamps that apply only to a point in time, but should be specified for values that are considered valid for a certain time period (for example, sampling). If the **Duration** property exists and is not **Null**, the **TimeStamp** property specifies the end of the interval. This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+Specifies the time duration over which this metric value is valid. This property should not exist for time stamps that apply only to a point in time, but should be specified for values that are considered valid for a certain time period (for example, sampling). If the **Duration** property exists and is not **Null**, the **TimeStamp** property specifies the end of the interval. This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -156,7 +156,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -169,7 +169,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A descriptive name for the element to which the metric value belongs (the measured element). This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+A descriptive name for the element to which the metric value belongs (the measured element). This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The key of the [**Msvm\_BaseMetricDefinition**](msvm-basemetricdefinition.md) instance for this value. This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+The key of the [**Msvm\_BaseMetricDefinition**](msvm-basemetricdefinition.md) instance for this value. This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -195,7 +195,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The value of the metric that is represented as a string. This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+The value of the metric that is represented as a string. This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -208,7 +208,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the time when the metric value was captured or computed. Be aware that this is different from the time when the instance was created. This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+Specifies the time when the metric value was captured or computed. Be aware that this is different from the time when the instance was created. This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -221,7 +221,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if the value for the next point in time will use the same class instance and just change the property values (such as the **Value** or **TimeStamp**). If **True**, the instance is reused. If **False**, the existing instances remain unchanged and a new instance is created for the new point in time. This property is inherited from [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218).
+**True** if the value for the next point in time will use the same class instance and just change the property values (such as the **Value** or **TimeStamp**). If **True**, the instance is reused. If **False**, the existing instances remain unchanged and a new instance is created for the new point in time. This property is inherited from [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> </dl>
 

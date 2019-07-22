@@ -140,7 +140,7 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
 
 
 
-The following Visual Basic code example enumerates local groups using the [**IADsContainer**](https://msdn.microsoft.com/library/aa705985) and [**IADsGroup**](https://msdn.microsoft.com/library/aa706021) interfaces.
+The following Visual Basic code example enumerates local groups using the [**IADsContainer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer) and [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup) interfaces.
 
 
 ```VB

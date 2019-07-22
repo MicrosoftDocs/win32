@@ -3,7 +3,7 @@ Description: The CIM\_MultiStateSensor class exposes the following methods.
 ms.assetid: 20E8F660-71B7-4B10-8EB8-EF0EBCF95AE1
 ms.tgt_platform: multiple
 title: CIM_MultiStateSensor Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: ITsSbResourceNotificationEx Methods
 description: The ITsSbResourceNotificationEx interfaces exposes the following methods.
 ms.assetid: 78BC73ED-80A3-4938-881C-6938B6693DE8
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

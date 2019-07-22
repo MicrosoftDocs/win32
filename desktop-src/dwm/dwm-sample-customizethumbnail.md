@@ -72,7 +72,7 @@ This sample is available in the following locations.
 [Desktop Window Manager](dwm-overview.md)
 </dt> <dt>
 
-[Windows Development](https://msdn.microsoft.com/library/windows/desktop/ee663300)
+[Windows Development](https://docs.microsoft.com/windows/desktop/win32-and-com-development)
 </dt> </dl>
 
  

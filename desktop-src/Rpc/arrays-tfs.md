@@ -76,7 +76,7 @@ element_description<>
 FC_END
 ```
 
-The conformance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
+The conformance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used.
 
 ## Conformant Varying Array
 
@@ -92,7 +92,7 @@ element_description<>
 FC_END
 ```
 
-The conformance\_description<> and variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
+The conformance\_description<> and variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used.
 
 ## Varying Array
 
@@ -118,7 +118,7 @@ element_description<>
 FC_END
 ```
 
-The variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on the [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) being used.
+The variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on the [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) being used.
 
 For varying arrays embedded inside of a structure, the offset<2> field of the variance\_description<> is a relative offset from the varying array's position in the structure to the variance describing field. The offset is typically relative to the beginning of the structure.
 
@@ -126,11 +126,11 @@ For varying arrays embedded inside of a structure, the offset<2> field of the va
 
 A complex array is any array with an element that prevents it from being block-copied, and as such, additional action needs to be taken. These elements make an array complex:
 
--   simple types: ENUM16, \_\_INT3264 (on 64-bit platforms only), an integral with \[[**range**](https://msdn.microsoft.com/library/windows/desktop/aa367151)\]
+-   simple types: ENUM16, \_\_INT3264 (on 64-bit platforms only), an integral with \[[**range**](https://docs.microsoft.com/windows/desktop/Midl/range)\]
 -   reference and interface pointers (all pointers on 64-bit platforms)
 -   unions
 -   complex structures (see the Complex Structure Description topic for a full list of reasons for a structure to be complex)
--   elements defined with \[[**transmit\_as**](https://msdn.microsoft.com/library/windows/desktop/aa367286)\], \[[**user\_marshal**](https://msdn.microsoft.com/library/windows/desktop/aa367296)\]
+-   elements defined with \[[**transmit\_as**](https://docs.microsoft.com/windows/desktop/Midl/transmit-as)\], \[[**user\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\]
 -   All multidimensional arrays with at least one conformant and/or varying dimension are complex regardless of the underlying element type.
 
 The complex array description is as follows:
@@ -146,7 +146,7 @@ FC_END
 
 The number\_of\_elements<2> field is zero if the array is conformant.
 
-The conformance\_description<> and variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. If the array has conformance and/or variance then the conformance\_description<> and/or variance\_description<> field(s) have valid descriptions, otherwise the first 4 bytes of the correlation descriptor are set to 0xFFFFFFFF. The flags, when present, are set to zero.
+The conformance\_description<> and variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used. If the array has conformance and/or variance then the conformance\_description<> and/or variance\_description<> field(s) have valid descriptions, otherwise the first 4 bytes of the correlation descriptor are set to 0xFFFFFFFF. The flags, when present, are set to zero.
 
  
 

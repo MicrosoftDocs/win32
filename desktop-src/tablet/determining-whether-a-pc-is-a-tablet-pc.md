@@ -55,7 +55,7 @@ Use this value to determine whether the client computer is a Tablet PC and suppo
 
 <dl> <dt>
 
-[**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385)
+[**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)
 </dt> </dl>
 
  

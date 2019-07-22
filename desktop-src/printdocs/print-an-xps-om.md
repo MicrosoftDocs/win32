@@ -459,13 +459,13 @@ For more information on the structure of an XPS document, see the [XML Paper Spe
 **Used in This Section**
 </dt> <dt>
 
-[**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279)
+[**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex)
 </dt> <dt>
 
-[**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396)
+[**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa)
 </dt> <dt>
 
-[**IOpcPartUri**](https://msdn.microsoft.com/library/windows/desktop/dd371083)
+[**IOpcPartUri**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi)
 </dt> <dt>
 
 [**IXpsOMPackage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage)
@@ -483,7 +483,7 @@ For more information on the structure of an XPS document, see the [XML Paper Spe
 [**StartXpsPrintJob**](https://msdn.microsoft.com/en-us/library/Dd374437(v=VS.85).aspx)
 </dt> <dt>
 
-[**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032)
+[**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject)
 </dt> <dt>
 
 **For More Information**

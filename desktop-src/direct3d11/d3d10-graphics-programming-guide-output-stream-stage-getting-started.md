@@ -154,7 +154,7 @@ defines the output to be a maximum of 12 vertices.</td>
 
 The rest of the shader looks very similar to a vertex or pixel shader. The geometry shader uses a structure to declare input parameters and marks the position member with the SV\_POSITION semantic to tell the hardware that this is positional data. The input structure identifies the other two input parameters as texture coordinates (even though one of them will contain a face normal). You could use your own custom semantic for the face normal if you prefer.
 
-Having designed the geometry shader, call [**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324) to compile as shown in the following code example.
+Having designed the geometry shader, call [**D3DCompile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile) to compile as shown in the following code example.
 
 
 ```
@@ -194,7 +194,7 @@ D3D11Device->CreateGeometryShaderWithStreamOut( pShaderBytecode, ShaderBytecodes
 
 This function takes several parameters including:
 
--   A pointer to the compiled geometry shader (or vertex shader if no geometry shader will be present and data will be streamed out directly from the vertex shader). For information about how to get this pointer, see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/library/windows/desktop/bb509703).
+-   A pointer to the compiled geometry shader (or vertex shader if no geometry shader will be present and data will be streamed out directly from the vertex shader). For information about how to get this pointer, see [Getting a Pointer to a Compiled Shader](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-using-shaders-10).
 -   A pointer to an array of declarations that describe the input data for the stream output stage. (See [**D3D11\_SO\_DECLARATION\_ENTRY**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_so_declaration_entry).) You can supply up to 64 declarations, one for each different type of element to be output from the SO stage. The array of declaration entries describes the data layout regardless of whether only a single buffer or multiple buffers are to be bound for stream output.
 -   The number of elements that are written out by the SO stage.
 -   A pointer to the geometry shader object that is created (see [**ID3D11GeometryShader**](https://msdn.microsoft.com/en-us/library/Ff476536(v=VS.85).aspx)).

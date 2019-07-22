@@ -257,7 +257,7 @@
       - name: "CM_Unregister_Notification"
         href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_unregister_notification
       - name: "CMP_WaitNoPendingInstallEvents"
-        href: https://msdn.microsoft.com/en-us/library/Ff537916(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents
       - name: "CONFLICT_DETAILS"
         href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-_conflict_details_a
       - name: "CS_DES"
@@ -392,7 +392,7 @@
       - name: "SetupDiEnumDriverInfo"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdienumdriverinfoa
       - name: "SetupDiFinishInstallAction"
-        href: https://msdn.microsoft.com/en-us/library/Ff551022(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff551022(v=vs.85)
       - name: "SetupDiGetActualModelsSection"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetactualmodelssectiona
       - name: "SetupDiGetActualSectionToInstall"
@@ -426,7 +426,7 @@
       - name: "SetupDiGetClassPropertyKeys"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclasspropertykeys
       - name: "SetupDiGetClassPropertyKeysEx"
-        href: https://msdn.microsoft.com/en-us/library/Ff551093(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeysexw
       - name: "SetupDiGetClassRegistryProperty"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassregistrypropertya
       - name: "SetupDiGetCustomDeviceProperty"
@@ -436,13 +436,13 @@
       - name: "SetupDiGetDeviceInfoListDetail"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila
       - name: "SetupDiGetDeviceInstallParams"
-        href: https://msdn.microsoft.com/en-us/library/Ff551104(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstallparamsa
       - name: "SetupDiGetDeviceInstanceId"
-        href: https://msdn.microsoft.com/en-us/library/Ff551106(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstanceida
       - name: "SetupDiGetDeviceInterfaceAlias"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinterfacealias
       - name: "SetupDiGetDeviceInterfaceDetail"
-        href: https://msdn.microsoft.com/en-us/library/Ff551120(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila
       - name: "SetupDiGetDeviceInterfaceProperty"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw
       - name: "SetupDiGetDeviceInterfacePropertyKeys"
@@ -518,7 +518,7 @@
       - name: "SetupDiSetClassProperty"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetclasspropertyw
       - name: "SetupDiSetClassPropertyEx"
-        href: https://msdn.microsoft.com/en-us/library/Ff552132(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw
       - name: "SetupDiSetClassRegistryProperty"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetclassregistrypropertya
       - name: "SetupDiSetDeviceInstallParams"
@@ -584,7 +584,7 @@
       - name: "SP_DRVINSTALL_PARAMS"
         href: /windows/desktop/api/setupapi/ns-setupapi-_sp_drvinstall_params
       - name: "SP_NEWDEVICEWIZARD_DATA"
-        href: https://msdn.microsoft.com/en-us/library/Ff553305(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_newdevicewizard_data
       - name: "SP_POWERMESSAGEWAKE_PARAMS"
         href: /windows/desktop/api/setupapi/ns-setupapi-_sp_powermessagewake_params_a
       - name: "SP_PROPCHANGE_PARAMS"

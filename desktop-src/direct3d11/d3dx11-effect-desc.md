@@ -42,7 +42,7 @@ typedef struct _D3DX11_EFFECT_DESC {
 **ConstantBuffers**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -53,7 +53,7 @@ Number of constant buffers in this effect.
 **GlobalVariables**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -64,7 +64,7 @@ Number of global variables in this effect.
 **InterfaceVariables**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ Number of global interfaces in this effect.
 **Techniques**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -86,7 +86,7 @@ Number of techniques in this effect.
 **Groups**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 

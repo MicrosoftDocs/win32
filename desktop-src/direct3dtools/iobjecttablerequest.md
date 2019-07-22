@@ -26,7 +26,7 @@ Request for object table data.
 
 ## Members
 
-The **IObjectTableRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IObjectTableRequest** also has these types of members:
+The **IObjectTableRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IObjectTableRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IObjectTableRequest** interface inherits from the [**IUnknown**](https://m
 
 The **IObjectTableRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422700"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get specified information from the object table for the specified event.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432701"><strong>RequestSupportedColumnsAsync</strong></a></td><td style="text-align: left;"><p>Requests to get information about what columns (fields) this object table request type supports.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iobjecttablerequest-requestasync-dword-dword-dword-arr-iobjecttablecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get specified information from the object table for the specified event.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iobjecttablerequest-requestsupportedcolumnsasync-iobjecttablecallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td style="text-align: left;"><p>Requests to get information about what columns (fields) this object table request type supports.</p></td></tr></tbody></table>
 
  
 

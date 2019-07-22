@@ -3,7 +3,7 @@ Description: The CIM\_DeviceFile class exposes the following methods.
 ms.assetid: B4FFC806-51C0-4183-933B-E693156C6E52
 ms.tgt_platform: multiple
 title: CIM_DeviceFile Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

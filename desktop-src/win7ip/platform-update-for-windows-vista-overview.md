@@ -73,7 +73,7 @@ Windows Automation API 3.0 is a set of DLLs and API elements that enable Assisti
 
 Microsoft Active Accessibility (MSAA) and UI Automation are similar in that both provide a means for exposing and collecting information about user interface elements and controls to support user interface accessibility and software test automation. UI Automation is a Windows implementation of the UI Automation specification. It is a newer technology that addresses many of the limitations of MSAA.
 
-For more information about the Windows Automation API 3.0, see [Windows Automation API: Overview](https://msdn.microsoft.com/library/windows/desktop/dd561932).
+For more information about the Windows Automation API 3.0, see [Windows Automation API: Overview](https://docs.microsoft.com/windows/desktop/WinAuto/windows-automation-api-overview).
 
 The Platform Update for Windows Vista and the Platform Update for Windows Server 2008 support the following Windows Automation API 3.0:
 
@@ -131,7 +131,7 @@ Windows XP Professional with SP3 (x86)<br />
 
 Microsoft Active Accessibility (MSAA) is a legacy technology that was first introduced with Windows 95. It is a set of APIs that improves the way Assistive Technology (AT) products work with applications running on Microsoft Windows. The API provide programming interfaces and methods for exposing information about user interface elements.
 
-For more information about Microsoft Active Accessibility, see the [Technical Overview](https://msdn.microsoft.com/library/windows/desktop/dd373660).
+For more information about Microsoft Active Accessibility, see the [Technical Overview](https://docs.microsoft.com/windows/desktop/WinAuto/technical-overview).
 
 ### Supported Microsoft Active Accessibility API Elements
 
@@ -203,7 +203,7 @@ Ultimate with SP2 (x86 and amd64)<br />
 
 The Direct2D API is a new hardware-accelerated, immediate-mode 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with existing code that uses GDI, GDI+, or Direct3D.
 
-For more information about Direct2D, see [About Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd370987).
+For more information about Direct2D, see [About Direct2D](https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-overview).
 
 ### Supported Direct2D API Elements
 
@@ -229,7 +229,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 The DirectWrite API is a new text API that provides multiple layers of functionality, including text layout, script processing, glyph rendering, and the font system. DirectWrite uses OpenType fonts and sub-pixel ClearType rendering to enhance the text experience provided by applications. Text rendering is hardware-accelerated when used with Direct2D.
 
-For more information about DirectWrite, see [Introducing DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd371554).
+For more information about DirectWrite, see [Introducing DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/introducing-directwrite).
 
 ### Supported DirectWrite API Elements
 
@@ -248,7 +248,7 @@ The following behavioral issues may affect the use of DirectWrite API on previou
 
 The Platform Update for Windows Vista supports a limited subset of the Packaging APIs that are needed to perform tasks with the XPS Document API in unmanaged applications.
 
-For more information about Packaging APIs, please see the [Packaging API Overview](https://msdn.microsoft.com/library/windows/desktop/dd742822).
+For more information about Packaging APIs, please see the [Packaging API Overview](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview).
 
 ### Supported Packaging API Elements
 
@@ -267,13 +267,13 @@ Supported Packaging APIs can be used to create streams over files as well as to 
 
 The behavior and performance of supported Packaging interfaces and methods are the same on all supported platforms.
 
-If an application attempts to instantiate or call an unsupported Packaging interface or method, the attempt will fail. If the call is to an unsupported [**IOpcFactory**](https://msdn.microsoft.com/library/windows/desktop/dd370991) method, the E\_NOTIMPL error code will be returned.
+If an application attempts to instantiate or call an unsupported Packaging interface or method, the attempt will fail. If the call is to an unsupported [**IOpcFactory**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcfactory) method, the E\_NOTIMPL error code will be returned.
 
 ### Windows Imaging Component
 
 New features for the Windows Imaging Component (WIC) include enhanced security, support for high color, and better metadata interoperability. In addition, the Windows Imaging Component broadens its standards compliance by providing support for progressive image decoding, expanded PNG features, GIF metadata, , HD Photo updates, and metadata that spans APPn segments.
 
-For more information about the Windows Imaging Component, see the [Windows Imaging Component Overview](https://msdn.microsoft.com/library/windows/desktop/ee719654).
+For more information about the Windows Imaging Component, see the [Windows Imaging Component Overview](https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec).
 
 ### Supported WIC API Elements
 
@@ -287,13 +287,13 @@ For more information about XPS Document APIs, please see the [XPS Document Progr
 
 ### Supported XPS Document API Elements
 
-Only the [XPS Digital Signatures](https://msdn.microsoft.com/library/windows/desktop/dd372947) interfaces are not supported on down-level OS versions.
+Only the [XPS Digital Signatures](https://docs.microsoft.com/previous-versions/windows/desktop/dd372947(v=vs.85)) interfaces are not supported on down-level OS versions.
 
 ### XPS Print
 
 The XPS Print APIs support the printing of XPS documents from Windows-based applications.
 
-For more information about XPS Print APIs, please see the [XpsPrint API](https://msdn.microsoft.com/library/windows/desktop/dd374565).
+For more information about XPS Print APIs, please see the [XpsPrint API](https://docs.microsoft.com/windows/desktop/printdocs/xpsprint-api).
 
 ### Supported XPS Print API Elements
 
@@ -360,7 +360,7 @@ The Windows Animation Manager (Windows Animation) is a programmatic interface th
 
 Windows Animation is a single-threaded COM API that provides everything a developer needs to create, manage, and drive UI animation.
 
-For more information about the Windows Animation Manager, see [Introducing Windows Animation](https://msdn.microsoft.com/library/windows/desktop/dd756724).
+For more information about the Windows Animation Manager, see [Introducing Windows Animation](https://docs.microsoft.com/windows/desktop/UIAnimation/introducing-windows-animation-manager).
 
 ### Supported Animation Manager API Elements
 

@@ -22,7 +22,7 @@ Represents a tablet attached to the computer.
 
 ## Members
 
-The **ITablet** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITablet** also has these types of members:
+The **ITablet** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITablet** also has these types of members:
 
 -   [Methods](#methods)
 

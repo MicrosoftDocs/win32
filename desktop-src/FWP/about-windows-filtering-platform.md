@@ -81,8 +81,8 @@ A set of data types and functions available to the developers to build and manag
 -   Includes a generic user notification system that informs subscribers of changes to the filtering system.
 -   Implements enumeration functions that report on the state of the system.
 -   Uses net events to record IPsec errors and packet drops.
--   Supports a Network Diagnostics Framework [(NDF) helper class](https://msdn.microsoft.com/library/windows/desktop/aa369845).
--   Supports the [Secure Socket extensions](https://msdn.microsoft.com/library/windows/desktop/bb394815) to the Winsock API, which allow network applications to secure their traffic by configuring WFP.
+-   Supports a Network Diagnostics Framework [(NDF) helper class](https://docs.microsoft.com/windows/desktop/NDF/extensible-helper-classes).
+-   Supports the [Secure Socket extensions](https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions) to the Winsock API, which allow network applications to secure their traffic by configuring WFP.
 -   At Application Layer Enforcement (ALE) layers, minimally impacts network performance by processing only the first packet in a connection.
 -   Integrates hardware offload where kernel-mode callout modules can use hardware to perform specific packet inspection.
 

@@ -24,22 +24,18 @@ The MakeAppx.exe tool is typically found at these locations:
 
 There is no ARM version of the tool.
 
--   [Using App packager](#using-app-packager)
-    -   [To create a package using a directory structure](#to-create-a-package-using-a-directory-structure)
-    -   [To create a package using a mapping file](#to-create-a-package-using-a-mapping-file)
-    -   [To sign the package using SignTool](#to-sign-the-package-using-signtool)
-    -   [To extract files from a package](#to-extract-files-from-a-package)
-    -   [To create a package bundle using a directory structure](#to-create-a-package-bundle-using-a-directory-structure)
-    -   [To create a package bundle using a mapping file](#to-create-a-package-bundle-using-a-mapping-file)
-    -   [To extract packages from a bundle](#to-extract-packages-from-a-bundle)
-    -   [To encrypt a package with a key file](#to-encrypt-a-package-with-a-key-file)
-    -   [To encrypt a package with a global test key](#to-encrypt-a-package-with-a-global-test-key)
-    -   [To decrypt a package with a key file](#to-decrypt-a-package-with-a-key-file)
-    -   [To decrypt a package with a global test key](#to-decrypt-a-package-with-a-global-test-key)
+-   [To create a package using a directory structure](#to-create-a-package-using-a-directory-structure)
+-   [To create a package using a mapping file](#to-create-a-package-using-a-mapping-file)
+-   [To sign the package using SignTool](#to-sign-the-package-using-signtool)
+-   [To extract files from a package](#to-extract-files-from-a-package)
+-   [To create a package bundle using a directory structure](#to-create-a-package-bundle-using-a-directory-structure)
+-   [To create a package bundle using a mapping file](#to-create-a-package-bundle-using-a-mapping-file)
+-   [To extract packages from a bundle](#to-extract-packages-from-a-bundle)
+-   [To encrypt a package with a key file](#to-encrypt-a-package-with-a-key-file)
+-   [To encrypt a package with a global test key](#to-encrypt-a-package-with-a-global-test-key)
+-   [To decrypt a package with a key file](#to-decrypt-a-package-with-a-key-file)
+-   [To decrypt a package with a global test key](#to-decrypt-a-package-with-a-global-test-key)
 -   [Usage](#usage)
--   [Command-line Syntax](#command-line-syntax)
--   [Semantic validation performed by MakeAppx](#semantic-validation-performed-by-makeappx)
--   [Related topics](#related-topics)
 
 ## Using App packager
 
@@ -354,16 +350,6 @@ This validation ensures that:
 -   An application does not register for a forbidden protocol from this list: SMB , FILE, MS-WWA-WEB, MS-WWA.
 
 This semantic validation is not complete, and packages built by MakeAppx are not guaranteed to be installable.
-
-## Related topics
-
-<dl> <dt>
-
-[Packaging your app using Visual Studio](https://msdn.microsoft.com/en-us/library/Hh454036(v=VS.110).aspx)
-</dt> <dt>
-
-[Preparing your app for the Windows Store](https://msdn.microsoft.com/library/BR230835(v=Win.10).aspx)
-</dt> </dl>
 
  
 

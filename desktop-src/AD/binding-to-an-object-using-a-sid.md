@@ -32,25 +32,25 @@ In this example, "servername" is the name of the directory server and "XXXXX" is
 
 
 
-the SID binding string would be "<SID=AB14E2>". The [**ADsEncodeBinaryData**](https://msdn.microsoft.com/library/aa772180) function should not be used to convert the SID array into a string because it precedes each byte character with a backslash, which is not a valid bind string format.
+the SID binding string would be "<SID=AB14E2>". The [**ADsEncodeBinaryData**](https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata) function should not be used to convert the SID array into a string because it precedes each byte character with a backslash, which is not a valid bind string format.
 
-The SID string can also take the form "<SID=S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX>", where the "S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX" portion is the same as the string returned by the [**ConvertSidToStringSid**](https://msdn.microsoft.com/library/windows/desktop/aa376399) function.
+The SID string can also take the form "<SID=S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX>", where the "S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX" portion is the same as the string returned by the [**ConvertSidToStringSid**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida) function.
 
-When binding using the object SID, some [**IADs**](https://msdn.microsoft.com/library/aa705950) and [**IADsContainer**](https://msdn.microsoft.com/library/aa705985) methods and properties are not supported. The following **IADs** properties are not supported by objects obtained by binding using the object SID:
+When binding using the object SID, some [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) and [**IADsContainer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer) methods and properties are not supported. The following **IADs** properties are not supported by objects obtained by binding using the object SID:
 
--   [**ADsPath**](https://msdn.microsoft.com/library/aa746351)
--   [**Name**](https://msdn.microsoft.com/library/aa746351)
--   [**Parent**](https://msdn.microsoft.com/library/aa746351)
+-   [**ADsPath**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods)
+-   [**Name**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods)
+-   [**Parent**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods)
 
 The following **IADsContainer** methods are not supported by objects obtained by binding using the object SID:
 
--   [**GetObject**](https://msdn.microsoft.com/library/aa705989)
--   [**Create**](https://msdn.microsoft.com/library/aa705987)
--   [**Delete**](https://msdn.microsoft.com/library/aa705988)
--   [**CopyHere**](https://msdn.microsoft.com/library/aa705986)
--   [**MoveHere**](https://msdn.microsoft.com/library/aa705991)
+-   [**GetObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-getobject)
+-   [**Create**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create)
+-   [**Delete**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete)
+-   [**CopyHere**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere)
+-   [**MoveHere**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-movehere)
 
-To use these methods and properties after binding to an object using the object SID, use the [**IADs.Get**](https://msdn.microsoft.com/library/aa746347) method to retrieve the object distinguished name and then use the distinguished name to bind to the object again.
+To use these methods and properties after binding to an object using the object SID, use the [**IADs.Get**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve the object distinguished name and then use the distinguished name to bind to the object again.
 
 The following code example shows how to convert an **objectSid** into a bindable string.
 

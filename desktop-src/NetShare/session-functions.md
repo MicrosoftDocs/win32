@@ -39,7 +39,7 @@ Session functions are available at five information levels:
 [**SESSION\_INFO\_502**](/windows/desktop/api/Lmshare/ns-lmshare-_session_info_502)  
 </dl>
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](https://msdn.microsoft.com/library/aa746331) and [**IADsFileServiceOperations**](https://msdn.microsoft.com/library/aa706015).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession) and [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
 
  
 

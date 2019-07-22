@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the GetVisibleClipBounds methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'af7ed6de-00c3-46c8-b597-142bee9b02cc'
-title: 'Graphics.GetVisibleClipBounds methods'
+Description: This topic lists the GetVisibleClipBounds methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: af7ed6de-00c3-46c8-b597-142bee9b02cc
+title: Graphics.GetVisibleClipBounds methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.GetVisibleClipBounds methods

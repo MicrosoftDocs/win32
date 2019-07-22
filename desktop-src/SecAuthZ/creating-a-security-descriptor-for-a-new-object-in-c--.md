@@ -8,12 +8,12 @@ ms.date: 05/31/2018
 
 # Creating a Security Descriptor for a New Object in C++
 
-The following example creates a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) for a new registry key using the following process. Similar code can be used to create a security descriptor for other object types.
+The following example creates a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) for a new registry key using the following process. Similar code can be used to create a security descriptor for other object types.
 
 -   The example fills an array of [**EXPLICIT\_ACCESS**](/windows/desktop/api/AccCtrl/ns-accctrl-_explicit_access_a) structures with the information for two ACEs. One ACE allows read access to everyone; the other ACE allows full access to administrators.
 -   The [**EXPLICIT\_ACCESS**](/windows/desktop/api/AccCtrl/ns-accctrl-_explicit_access_a) array is passed to the [**SetEntriesInAcl**](/windows/desktop/api/Aclapi/nf-aclapi-setentriesinacla) function to create a DACL for the security descriptor.
 -   After allocating memory for the security descriptor, the example calls the [**InitializeSecurityDescriptor**](https://msdn.microsoft.com/en-us/library/Aa378863(v=VS.85).aspx) and [**SetSecurityDescriptorDacl**](https://msdn.microsoft.com/en-us/library/Aa379583(v=VS.85).aspx) functions to initialize the security descriptor and attach the DACL.
--   The security descriptor is then stored in a SECURITY\_ATTRIBUTES structure and passed to the [**RegCreateKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724844) function, which attaches the security descriptor to the newly created key.
+-   The security descriptor is then stored in a SECURITY\_ATTRIBUTES structure and passed to the [**RegCreateKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa) function, which attaches the security descriptor to the newly created key.
 
 
 ```C++

@@ -1,6 +1,6 @@
 ---
 title: Packaging API
-description: Learn about the packaging API, which you can use to create, read, and write app packages. Each app package contains the files that constitute a Windows Store app, and a manifest file that describes the software to Windows.
+description: Learn about the packaging API, which you can use to create, read, and write app packages. Each app package contains the files that constitute a Windows app, and a manifest file that describes the software to Windows.
 ms.assetid: 90E68C37-8552-49DA-9E18-8804F1A5A7AE
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Packaging API
 
-Learn about the packaging API, which you can use to create, read, and write app packages. Each app package contains the files that constitute a Windows Store app, and a manifest file that describes the software to Windows.
+Learn about the packaging API, which you can use to create, read, and write app packages. Each app package contains the files that constitute a Windows app, and a manifest file that describes the software to Windows.
 
 
 
@@ -130,7 +130,7 @@ Learn about the packaging API, which you can use to create, read, and write app 
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://msdn.microsoft.com/library/windows/apps/hh464929)
+[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 [Glossary](appx-packaging-glossary.md)
@@ -139,7 +139,7 @@ Learn about the packaging API, which you can use to create, read, and write app 
 **Reference**
 </dt> <dt>
 
-[App package manifest schema](https://msdn.microsoft.com/library/windows/apps/br211474)
+[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Package deployment API](package-deployment-api.md)

@@ -51,7 +51,7 @@ If the function fails, it returns **INVALID\_HANDLE\_VALUE**.
 
 ## Remarks
 
-With the handle to the spool file, your application can write to the spool file with calls to [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747) followed by [**CommitSpoolData**](commitspooldata.md).
+With the handle to the spool file, your application can write to the spool file with calls to [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile) followed by [**CommitSpoolData**](commitspooldata.md).
 
 Your application must not call [**ClosePrinter**](closeprinter.md) on *hPrinter* until after it has accessed the spool file for the last time. Then it should call [**CloseSpoolFileHandle**](closespoolfilehandle.md) followed by **ClosePrinter**. Attempts to access the spool file handle after the original *hPrinter* has been closed will fail even if the file handle itself has not been closed. **CloseSpoolFileHandle** will itself fail if **ClosePrinter** is called first.
 

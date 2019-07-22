@@ -29,19 +29,19 @@ HKEY_CLASSES_ROOT
 
 ## Registering with Active Directory Domain Services
 
-Property sheet extension registration is specific to one locale. If the property sheet extension applies to all locales, it must be registered in the object class [**displaySpecifier**](https://msdn.microsoft.com/library/ms682163) object in all of the locale subcontainers in the Display Specifiers container. If the property sheet extension is localized for a certain locale, register it in the **displaySpecifier** object in that locale subcontainer. For more information about the Display Specifiers container and locales, see [Display Specifiers](display-specifiers.md) and [DisplaySpecifiers Container](displayspecifiers-container.md).
+Property sheet extension registration is specific to one locale. If the property sheet extension applies to all locales, it must be registered in the object class [**displaySpecifier**](https://docs.microsoft.com/windows/desktop/ADSchema/c-displayspecifier) object in all of the locale subcontainers in the Display Specifiers container. If the property sheet extension is localized for a certain locale, register it in the **displaySpecifier** object in that locale subcontainer. For more information about the Display Specifiers container and locales, see [Display Specifiers](display-specifiers.md) and [DisplaySpecifiers Container](displayspecifiers-container.md).
 
-There are three display specifier attributes that a property sheet extension can be registered under. These are [**adminPropertyPages**](https://msdn.microsoft.com/library/ms675216), [**shellPropertyPages**](https://msdn.microsoft.com/library/ms679813), and [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215).
+There are three display specifier attributes that a property sheet extension can be registered under. These are [**adminPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages), [**shellPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages), and [**adminMultiselectPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminmultiselectpropertypages).
 
-The [**adminPropertyPages**](https://msdn.microsoft.com/library/ms675216) attribute identifies administrative property pages to display in Active Directory administrative snap-ins. The property page appears when the user views properties for objects of the appropriate class in one of the Active Directory administrative MMC snap-ins.
+The [**adminPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages) attribute identifies administrative property pages to display in Active Directory administrative snap-ins. The property page appears when the user views properties for objects of the appropriate class in one of the Active Directory administrative MMC snap-ins.
 
-The [**shellPropertyPages**](https://msdn.microsoft.com/library/ms679813) attribute identifies end-user property pages to display in the Windows shell. The property page appears when the user views the properties for objects of the appropriate class in the Windows Explorer. Beginning with the Windows Server 2003 operating systems, the Windows shell no longer displays objects from Active Directory Domain Services.
+The [**shellPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages) attribute identifies end-user property pages to display in the Windows shell. The property page appears when the user views the properties for objects of the appropriate class in the Windows Explorer. Beginning with the Windows Server 2003 operating systems, the Windows shell no longer displays objects from Active Directory Domain Services.
 
-The [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215) is only available on the Windows Server 2003 operating systems. The property page appears when the user views properties for more than one object of the appropriate class in one of the Active Directory administrative MMC snap-ins.
+The [**adminMultiselectPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminmultiselectpropertypages) is only available on the Windows Server 2003 operating systems. The property page appears when the user views properties for more than one object of the appropriate class in one of the Active Directory administrative MMC snap-ins.
 
 All of these attributes are multi-valued.
 
-The values for the [**adminPropertyPages**](https://msdn.microsoft.com/library/ms675216) and [**shellPropertyPages**](https://msdn.microsoft.com/library/ms679813) attributes require the following format.
+The values for the [**adminPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages) and [**shellPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages) attributes require the following format.
 
 
 ```C++
@@ -50,7 +50,7 @@ The values for the [**adminPropertyPages**](https://msdn.microsoft.com/library/m
 
 
 
-The values for the [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215) attribute require the following format.
+The values for the [**adminMultiselectPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminmultiselectpropertypages) attribute require the following format.
 
 
 ```C++
@@ -63,7 +63,7 @@ The "<order number>" is an unsigned number that represents the page position in 
 
 The "<clsid>" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx) function.
 
-The "<optional data>" is a string value that is not required. This value can be retrieved by the property page COM object using the [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) pointer passed to its [**IShellExtInit::Initialize**](https://msdn.microsoft.com/library/Bb775094(v=VS.85).aspx) method. The property page COM object obtains this data by calling [**IDataObject::GetData**](https://msdn.microsoft.com/en-us/library/ms678431(v=VS.85).aspx) with the [**CFSTR\_DSPROPERTYPAGEINFO**](cfstr-dspropertypageinfo.md) clipboard format. This provides an **HGLOBAL** that contains a [**DSPROPERTYPAGEINFO**](/windows/desktop/api/Dsclient/ns-dsclient-dspropertypageinfo) structure The **DSPROPERTYPAGEINFO** structure contains a Unicode string that contains the "<optional data>". The "<optional data>" is not allowed with the [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215) attribute. The following C/C++ code example shows how to retrieve the "<optional data>".
+The "<optional data>" is a string value that is not required. This value can be retrieved by the property page COM object using the [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) pointer passed to its [**IShellExtInit::Initialize**](https://msdn.microsoft.com/library/Bb775094(v=VS.85).aspx) method. The property page COM object obtains this data by calling [**IDataObject::GetData**](https://msdn.microsoft.com/en-us/library/ms678431(v=VS.85).aspx) with the [**CFSTR\_DSPROPERTYPAGEINFO**](cfstr-dspropertypageinfo.md) clipboard format. This provides an **HGLOBAL** that contains a [**DSPROPERTYPAGEINFO**](/windows/desktop/api/Dsclient/ns-dsclient-dspropertypageinfo) structure The **DSPROPERTYPAGEINFO** structure contains a Unicode string that contains the "<optional data>". The "<optional data>" is not allowed with the [**adminMultiselectPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminmultiselectpropertypages) attribute. The following C/C++ code example shows how to retrieve the "<optional data>".
 
 
 ```C++
@@ -96,7 +96,7 @@ if(SUCCEEDED(hr))
 
 A property sheet extension can implement more than one property page; one possible use of the "<optional data>" is to name the pages to display. This provides the flexibility of choosing to implement multiple COM objects, one for each page, or a single COM object to handle multiple pages.
 
-The following code example is an example value that can be used for the [**adminPropertyPages**](https://msdn.microsoft.com/library/ms675216), [**shellPropertyPages**](https://msdn.microsoft.com/library/ms679813), or [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215) attributes.
+The following code example is an example value that can be used for the [**adminPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages), [**shellPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages), or [**adminMultiselectPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminmultiselectpropertypages) attributes.
 
 
 ```C++
@@ -118,13 +118,13 @@ The following procedure describes how to register a property sheet extension und
 
 1.  Ensure that the extension does not already exist in the attribute values.
 2.  Add the new value at the end of the property page ordering list. That is set the "<order number>" portion of the attribute value to the next value after the highest existing order number.
-3.  The [**IADs::PutEx**](https://msdn.microsoft.com/library/aa746353) method is used to add the new value to the attribute. The *lnControlCode* parameter must be set to **ADS\_PROPERTY\_APPEND** so that the new value is appended to the existing values and does not, therefore, overwrite the existing values. The [**IADs::SetInfo**](https://msdn.microsoft.com/library/aa746354) method must be called afterward to commit the change to the directory.
+3.  The [**IADs::PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) method is used to add the new value to the attribute. The *lnControlCode* parameter must be set to **ADS\_PROPERTY\_APPEND** so that the new value is appended to the existing values and does not, therefore, overwrite the existing values. The [**IADs::SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) method must be called afterward to commit the change to the directory.
 
 Be aware that the same property sheet extension can be registered for more than one object class.
 
-The [**IADs::PutEx**](https://msdn.microsoft.com/library/aa746353) method is used to add the new value to the attribute. The *lnControlCode* parameter must be set to **ADS\_PROPERTY\_APPEND**, so that the new value is appended to the existing values and does not, therefore, overwrite the existing values. The [**IADs::SetInfo**](https://msdn.microsoft.com/library/aa746354) method must be called after to commit the change to the directory.
+The [**IADs::PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) method is used to add the new value to the attribute. The *lnControlCode* parameter must be set to **ADS\_PROPERTY\_APPEND**, so that the new value is appended to the existing values and does not, therefore, overwrite the existing values. The [**IADs::SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) method must be called after to commit the change to the directory.
 
-The following code example adds a property sheet extension to the group class in the computer's default locale. Be aware that the **AddPropertyPageToDisplaySpecifier** function verifies the property sheet extension CLSID in the existing values, gets the highest order number, and adds the value for the property page using [**IADs::PutEx**](https://msdn.microsoft.com/library/aa746353) with the **ADS\_PROPERTY\_APPEND** control code.
+The following code example adds a property sheet extension to the group class in the computer's default locale. Be aware that the **AddPropertyPageToDisplaySpecifier** function verifies the property sheet extension CLSID in the existing values, gets the highest order number, and adds the value for the property page using [**IADs::PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) with the **ADS\_PROPERTY\_APPEND** control code.
 
 
 ```C++

@@ -1,14 +1,17 @@
 ---
 title: ID2D1DeviceContext3 DrawSpriteBatch methods
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
-ms.assetid: '66d049ca-5d4b-1570-3fa3-8991f9fc97a0'
-keywords: ["DrawSpriteBatch methods Direct2D"]
+ms.assetid: 66d049ca-5d4b-1570-3fa3-8991f9fc97a0
+keywords:
+- DrawSpriteBatch methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1DeviceContext3::DrawSpriteBatch methods

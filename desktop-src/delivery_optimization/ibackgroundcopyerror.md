@@ -29,7 +29,7 @@ To get an **IBackgroundCopyError** object, call the [**IBackgroundCopyJob::GetEr
 
 ## Members
 
-The **IBackgroundCopyError** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IBackgroundCopyError** also has these types of members:
+The **IBackgroundCopyError** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyError** also has these types of members:
 
 -   [Methods](#methods)
 

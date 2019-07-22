@@ -1,14 +1,17 @@
 ---
 title: IDCompositionVisual SetTransform methods
 description: Sets the Transform property of this visual. The Transform property specifies a 2D transform used to modify the coordinate system of this visual. The property can specify either a 3-by-2 transform matrix or a transform object.
-ms.assetid: 'DA3CBBB6-DB0A-4FCE-9DAC-7A767783A18D'
-keywords: ["SetTransform methods DirectComposition"]
+ms.assetid: DA3CBBB6-DB0A-4FCE-9DAC-7A767783A18D
+keywords:
+- SetTransform methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionVisual::SetTransform methods

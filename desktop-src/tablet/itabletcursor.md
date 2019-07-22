@@ -22,7 +22,7 @@ Represents a stylus object.
 
 ## Members
 
-The **ITabletCursor** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITabletCursor** also has these types of members:
+The **ITabletCursor** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletCursor** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -37,7 +37,7 @@ User Mode Native Windows APIs:
 
 User Mode Domain-specific Management Wrappers:
 
--   [VDS VHD APIs](https://msdn.microsoft.com/library/windows/desktop/aa381442) - VDS Object Model wrappers for the VHD Windows APIs.
+-   [VDS VHD APIs](https://docs.microsoft.com/windows/desktop/VDS/about-vds) - VDS Object Model wrappers for the VHD Windows APIs.
 
 Kernel Mode Drivers:
 
@@ -66,7 +66,7 @@ All virtual disk types have a minimum size of 3 MB.
 
 ## <span id="related_topics"></span>Related topics
 
-[About VDS](https://msdn.microsoft.com/library/windows/desktop/aa381442)
+[About VDS](https://docs.microsoft.com/windows/desktop/VDS/about-vds)
 
 [VHD Reference](vhd-reference.md)
 

@@ -21,7 +21,7 @@ api_location:
 
 # Win32\_AssociatedProcessorMemory class
 
-The **Win32\_AssociatedProcessorMemory** association [WMI class](https://msdn.microsoft.com/library/aa393244) relates a processor and its cache memory.
+The **Win32\_AssociatedProcessorMemory** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a processor and its cache memory.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -58,7 +58,7 @@ Data type: **Win32\_CacheMemory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_CacheMemory")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_CacheMemory")
 </dt> </dl>
 
 A [**Win32\_CacheMemory**](win32-cachememory.md) that describes the cache memory available to the processor.
@@ -74,7 +74,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) ("megahertz")
+Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("megahertz")
 </dt> </dl>
 
 Speed of the bus, in megahertz (MHz), between the processor and memory.
@@ -92,7 +92,7 @@ Data type: **Win32\_Processor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_Processor")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_Processor")
 </dt> </dl>
 
 A [**Win32\_Processor**](win32-processor.md) that describes the processor that is using the cache memory.

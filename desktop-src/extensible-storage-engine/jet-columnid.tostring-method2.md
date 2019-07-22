@@ -1,4 +1,4 @@
-﻿---
+---
 title: JET_COLUMNID.ToString method  (Microsoft.Isam.Esent.Interop)
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_COLUMNID.ToString
@@ -34,7 +34,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh163501(v=exchg.10).md">ToString()</a></td>
-<td>Generate a string representation of the structure. (Overrides <a href="https://msdn.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
+<td>Generate a string representation of the structure. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring?redirectedfrom=MSDN#System_ValueType_ToString">ValueType.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>

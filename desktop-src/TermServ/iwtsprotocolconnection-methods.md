@@ -3,7 +3,7 @@ title: IWTSProtocolConnection Methods
 description: The IWTSProtocolConnection interface exposes the following methods.
 ms.assetid: DBB96D6B-F5A5-4CAF-974F-44D76B9CBFB6
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

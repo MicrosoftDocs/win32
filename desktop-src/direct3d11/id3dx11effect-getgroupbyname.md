@@ -41,7 +41,7 @@ ID3DX11EffectGroup* GetGroupByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Name of the effect group.
 

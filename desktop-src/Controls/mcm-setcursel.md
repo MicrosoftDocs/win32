@@ -30,7 +30,7 @@ Sets the currently selected date for a month calendar control. If the specified 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure that contains the date to be set as the current selection.
+Pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that contains the date to be set as the current selection.
 
 </dd> </dl>
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The DirectDraw Surface file format (.dds) was introduced with DirectX 7 to store uncompressed and compressed (DXTn) textures. The file format supports mipmaps, cube maps, and volume maps. The DDS file format is supported by [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926), [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929), legacy D3DX, and other DirectX tools. Starting with Direct3D 10, DDS files support texture arrays.
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and [D3DX 11](https://msdn.microsoft.com/library/windows/desktop/ff476162)) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. We recommended that you make use of [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926), [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929), or both.
+> The D3DX (D3DX 9, D3DX 10, and [D3DX 11](https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dx11)) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. We recommended that you make use of [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926), [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929), or both.
 
  
 

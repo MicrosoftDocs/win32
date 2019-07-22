@@ -1,13 +1,13 @@
----
+﻿---
 title: DirectML structures
 description: The following structures are declared in DirectML.h.
 ms.localizationpriority: low
 ms.topic: article
-ms.date: 04/10/2019
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 
-# DirectML enumerations
+# DirectML structures
 
 The following structures are declared in DirectML.h.
 

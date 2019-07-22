@@ -22,9 +22,9 @@ CNG has the following features.
 
 ## Cryptographic Agility
 
-One of the key value propositions of CNG is cryptographic agility, sometimes called cryptographic agnosticism. Converting implementation of protocols like [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) or [*transport layer security*](https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-transport-layer-security-protocol-gly) (TLS), CMS (S/MIME), IPsec, Kerberos, and so on, to CNG, however, was required to make this ability valuable. At the CNG level, it was necessary to provide substitution and discoverability for all the algorithm types (symmetric, asymmetric, hash functions), random number generation, and other utility functions. The protocol-level changes are more significant because in many cases the protocol APIs needed to add algorithm selection and other flexibility options that did not previously exist.
+One of the key value propositions of CNG is cryptographic agility, sometimes called cryptographic agnosticism. Converting implementation of protocols like [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) or [*transport layer security*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS), CMS (S/MIME), IPsec, Kerberos, and so on, to CNG, however, was required to make this ability valuable. At the CNG level, it was necessary to provide substitution and discoverability for all the algorithm types (symmetric, asymmetric, hash functions), random number generation, and other utility functions. The protocol-level changes are more significant because in many cases the protocol APIs needed to add algorithm selection and other flexibility options that did not previously exist.
 
-CNG is first available in Windows Vista and is positioned to replace existing uses of [*CryptoAPI*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptoapi-gly) throughout the Microsoft software stack. Third-party developers will find lots of new features in CNG, including:
+CNG is first available in Windows Vista and is positioned to replace existing uses of [*CryptoAPI*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) throughout the Microsoft software stack. Third-party developers will find lots of new features in CNG, including:
 
 -   A new crypto configuration system, supporting better cryptographic agility.
 -   Finer-grained abstraction for key storage (and separation of storage from algorithm operations).
@@ -34,7 +34,7 @@ CNG is first available in Windows Vista and is positioned to replace existing u
 -   Thread-safety throughout the stack.
 -   Kernel-mode cryptographic API.
 
-In addition, CNG includes support for all required Suite B algorithms, including [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC). Existing CryptoAPI applications will continue to work as CNG becomes available.
+In addition, CNG includes support for all required Suite B algorithms, including [*elliptic curve cryptography*](https://docs.microsoft.com/windows/desktop/SecGloss/e-gly) (ECC). Existing CryptoAPI applications will continue to work as CNG becomes available.
 
 ## Certification and Compliance
 
@@ -48,17 +48,17 @@ An important feature of CNG is its support for the Suite B algorithms. In Februa
 
 All Suite B algorithms are publicly known. They have been developed outside the scope of the government secrecy historically associated with cryptographic algorithm development. In this same time frame, some European countries and regions have also proposed the same Suite B requirements for protecting their information.
 
-Suite B cryptography recommends use of elliptic curve Diffie-Hellman (ECDH) in many existing protocols such as the Internet Key Exchange (IKE, mainly used in IPsec), [*transport layer security*](https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-transport-layer-security-protocol-gly) (TLS), and Secure MIME (S/MIME).
+Suite B cryptography recommends use of elliptic curve Diffie-Hellman (ECDH) in many existing protocols such as the Internet Key Exchange (IKE, mainly used in IPsec), [*transport layer security*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS), and Secure MIME (S/MIME).
 
 CNG includes support for Suite B that extends to all required algorithms: AES (all key sizes), the SHA-2 family (SHA-256, SHA-384 and SHA-512) of hashing algorithms, ECDH, and elliptic curve DSA (ECDSA) over the NIST-standard prime curves P-256, P-384, and P-521. Binary curves, Koblitz curves, custom prime curves, and elliptic curve Menezes-Qu-Vanstone (ECMQV) are not supported by the Microsoft algorithm providers included with Windows Vista.
 
 ## Legacy Support
 
-CNG provides support for the current set of algorithms in [*CryptoAPI*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptoapi-gly) 1.0. Every algorithm that is currently supported in *CryptoAPI* 1.0 will continue to be supported in CNG.
+CNG provides support for the current set of algorithms in [*CryptoAPI*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) 1.0. Every algorithm that is currently supported in *CryptoAPI* 1.0 will continue to be supported in CNG.
 
 ## Kernel Mode Support
 
-CNG supports cryptography in kernel mode. The same APIs are used in both kernel and user mode to fully support the cryptography features. Both SSL/TLS and IPsec operate in kernel mode in addition to boot processes that will be using CNG. Not all CNG functions can be called from kernel mode. The reference topic for the functions that cannot be called from kernel mode will explicitly state that the function cannot be called from kernel mode. Otherwise, all CNG functions can be called from kernel mode if the caller is running at **PASSIVE\_LEVEL** [*IRQL*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-interrupt-request-level-gly). In addition, some kernel mode CNG functions may be callable at **DISPATCH\_LEVEL IRQL**, depending on the provider's capabilities.
+CNG supports cryptography in kernel mode. The same APIs are used in both kernel and user mode to fully support the cryptography features. Both SSL/TLS and IPsec operate in kernel mode in addition to boot processes that will be using CNG. Not all CNG functions can be called from kernel mode. The reference topic for the functions that cannot be called from kernel mode will explicitly state that the function cannot be called from kernel mode. Otherwise, all CNG functions can be called from kernel mode if the caller is running at **PASSIVE\_LEVEL** [*IRQL*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly). In addition, some kernel mode CNG functions may be callable at **DISPATCH\_LEVEL IRQL**, depending on the provider's capabilities.
 
 The Microsoft kernel security support provider interface (Ksecdd.sys) is a general purpose, software-based, cryptographic module residing at the kernel mode level of Windows. Ksecdd.sys runs as a kernel mode export driver, and provides cryptographic services through their documented interfaces to kernel components. The only built-in Microsoft provider algorithm that is not supported by Ksecdd.sys is DSA.
 

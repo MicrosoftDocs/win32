@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the AddClosedCurve methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.'
-ms.assetid: '5a633a04-1de4-43f5-a898-d30245567e5d'
-title: 'GraphicsPath.AddClosedCurve methods'
+Description: This topic lists the AddClosedCurve methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+ms.assetid: 5a633a04-1de4-43f5-a898-d30245567e5d
+title: GraphicsPath.AddClosedCurve methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddClosedCurve methods

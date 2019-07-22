@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_LogicalIdentity class
 
-Associates two managed elements that represent different aspects of the same underlying entity. This class derives from [**CIM\_LogicalIdentity**](https://msdn.microsoft.com/library/aa387895).
+Associates two managed elements that represent different aspects of the same underlying entity. This class derives from [**CIM\_LogicalIdentity**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicalidentity).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -93,7 +93,7 @@ Reference to one aspect of the logical element.
 [**CIM\_LogicalIdentity**](cim-logicalidentity.md)
 </dt> <dt>
 
-[**CIM\_LogicalIdentity**](https://msdn.microsoft.com/library/aa387895)
+[**CIM\_LogicalIdentity**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicalidentity)
 </dt> </dl>
 
  

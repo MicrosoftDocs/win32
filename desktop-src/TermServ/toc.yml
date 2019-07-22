@@ -152,7 +152,7 @@
             - name: "SyncSessionDisplaySettings method"
               href: imsrdpclient9-syncsessiondisplaysettings.md
             - name: "UpdateSessionDisplaySettings method"
-              href: https://msdn.microsoft.com/en-us/library/Mt703457(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt703457(v=vs.85)
           - name: "IMsRdpClient9 properties"
             href: imsrdpclient9-properties.md
             items: 
@@ -493,11 +493,11 @@
             href: imsrdpclientshell-methods.md
             items: 
             - name: "GetRdpProperty method"
-              href: https://msdn.microsoft.com/en-us/library/Aa381303(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381303(v=vs.85)
             - name: "Launch method"
               href: imsrdpclientshell-launch.md
             - name: "SetRdpProperty method"
-              href: https://msdn.microsoft.com/en-us/library/Aa381312(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381312(v=vs.85)
             - name: "ShowTrustedSitesManagementDialog method"
               href: imsrdpclientshell-showtrustedsitesmanagementdialog.md
           - name: "IMsRdpClientShell Properties"
@@ -680,21 +680,21 @@
           href: imsrdpinputsink.md
           items: 
           - name: "AddTouchInput method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786987(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786987(v=vs.85)
           - name: "BeginTouchFrame method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786988(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786988(v=vs.85)
           - name: "EndTouchFrame method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786989(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786989(v=vs.85)
           - name: "SendKeyboardEvent method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786990(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786990(v=vs.85)
           - name: "SendMouseButtonEvent method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786991(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786991(v=vs.85)
           - name: "SendMouseMoveEvent method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786992(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786992(v=vs.85)
           - name: "SendMouseWheelEvent method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786993(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786993(v=vs.85)
           - name: "SendSyncEvent method"
-            href: https://msdn.microsoft.com/en-us/library/Mt786994(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt786994(v=vs.85)
         - name: "IMsRdpPreferredRedirectionInfo"
           href: imsrdppreferredredirectioninfo.md
           items: 
@@ -882,48 +882,48 @@
             - name: "WorkDir property"
               href: imstscsecuredsettings-workdir.md
         - name: "IRemoteDesktopClient"
-          href: https://msdn.microsoft.com/en-us/library/Mt786998(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient
           items: 
           - name: "IRemoteDesktopClient methods"
             href: iremotedesktopclient-methods.md
             items: 
             - name: "attachEvent method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787035(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent
             - name: "Connect method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787036(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect
             - name: "DeleteSavedCredentials method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787037(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials
             - name: "detachEvent method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787038(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-detachevent
             - name: "Disconnect method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787039(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-disconnect
             - name: "Reconnect method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787042(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-reconnect
             - name: "UpdateSessionDisplaySettings method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787045(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-updatesessiondisplaysettings
           - name: "IRemoteDesktopClient properties"
             href: iremotedesktopclient-properties.md
             items: 
             - name: "Actions property"
-              href: https://msdn.microsoft.com/en-us/library/Mt787034(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions
             - name: "Settings property"
               href: iremotedesktopclient-settings.md
             - name: "TouchPointer property"
-              href: https://msdn.microsoft.com/en-us/library/Mt787044(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer
         - name: "IRemoteDesktopClientActions"
-          href: https://msdn.microsoft.com/en-us/library/Mt787001(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions
           items: 
           - name: "IRemoteDesktopClientActions methods"
             href: iremotedesktopclientactions-methods.md
             items: 
             - name: "ExecuteRemoteAction method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787002(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-executeremoteaction
             - name: "GetSnapshot method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787003(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot
             - name: "ResumeScreenUpdates method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787005(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-resumescreenupdates
             - name: "SuspendScreenUpdates method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787006(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-suspendscreenupdates
         - name: "IRemoteDesktopClientEvents"
           href: iremotedesktopclientevents.md
           items: 
@@ -959,21 +959,21 @@
             - name: "OnTouchPointerCursorMoved method"
               href: iremotedesktopclientevents-ontouchpointercursormoved.md
         - name: "IRemoteDesktopClientSettings"
-          href: https://msdn.microsoft.com/en-us/library/Mt787023(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings
           items: 
           - name: "IRemoteDesktopClientSettings methods"
             href: iremotedesktopclientsettings-methods.md
             items: 
             - name: "ApplySettings method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787024(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-applysettings
             - name: "GetRdpProperty method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787025(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-getrdpproperty
             - name: "RetrieveSettings method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787027(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-retrievesettings
             - name: "SetRdpProperty method"
-              href: https://msdn.microsoft.com/en-us/library/Mt787028(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-setrdpproperty
         - name: "IRemoteDesktopClientTouchPointer"
-          href: https://msdn.microsoft.com/en-us/library/Mt787029(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer
           items: 
           - name: "IRemoteDesktopClientTouchPointer properties"
             href: iremotedesktopclienttouchpointer-properties.md
@@ -981,9 +981,9 @@
             - name: "Enabled property"
               href: iremotedesktopclienttouchpointer-enabled.md
             - name: "EventsEnabled property"
-              href: https://msdn.microsoft.com/en-us/library/Mt787031(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled
             - name: "PointerSpeed property"
-              href: https://msdn.microsoft.com/en-us/library/Mt787032(v=VS.85).aspx
+              href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_pointerspeed
         - name: "ITSRemoteProgram"
           href: itsremoteprogram.md
           items: 
@@ -1031,15 +1031,15 @@
         - name: "RedirectDeviceType"
           href: redirectdevicetype.md
         - name: "RemoteActionType"
-          href: https://msdn.microsoft.com/en-us/library/Mt787075(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/ne-rdpappcontainerclient-__midl_iremotedesktopclientactions_0001
         - name: "RemoteSessionActionType"
           href: remotesessionactiontype.md
         - name: "RemoteWindowDisplayedAttribute"
           href: remotewindowdisplayedattribute.md
         - name: "SnapshotEncodingType"
-          href: https://msdn.microsoft.com/en-us/library/Mt787078(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/ne-rdpappcontainerclient-__midl_iremotedesktopclientactions_0002
         - name: "SnapshotFormatType"
-          href: https://msdn.microsoft.com/en-us/library/Mt787079(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/ne-rdpappcontainerclient-__midl_iremotedesktopclientactions_0003
       - name: "Remote Desktop ActiveX control classes"
         href: remote-desktop-activex-control-classes.md
         items: 
@@ -2210,7 +2210,7 @@
         href: terminal-services-api-functions.md
         items: 
         - name: "ProcessIdToSessionId"
-          href: https://msdn.microsoft.com/en-us/library/Aa382990(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-processidtosessionid
         - name: "TLSConnectToLsServer"
           href: tlsconnecttolsserver.md
         - name: "TLSDisconnectFromServer"
@@ -2382,7 +2382,7 @@
         - name: "WTS_PROCESS_INFO_EX"
           href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_process_info_exa
         - name: "WTS_PRODUCT_INFO"
-          href: https://msdn.microsoft.com/en-us/library/Mt283722(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_product_infoa
         - name: "WTS_SERVER_INFO"
           href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_server_infoa
         - name: "WTS_SESSION_ADDRESS"
@@ -2521,22 +2521,22 @@
           href: imsrdpworkspace-methods.md
           items: 
           - name: "ClearWorkspaceCredential method"
-            href: https://msdn.microsoft.com/en-us/library/Ee351596(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351596(v=vs.85)
           - name: "DisconnectWorkspace method"
-            href: https://msdn.microsoft.com/en-us/library/Ee351597(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351597(v=vs.85)
           - name: "IsWorkspaceCredentialSpecified method"
-            href: https://msdn.microsoft.com/en-us/library/Ee351598(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351598(v=vs.85)
           - name: "IsWorkspaceSSOEnabled method"
-            href: https://msdn.microsoft.com/en-us/library/Ee351599(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351599(v=vs.85)
           - name: "OnAuthenticated method"
-            href: https://msdn.microsoft.com/en-us/library/Ee351600(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351600(v=vs.85)
           - name: "StartWorkspace method"
-            href: https://msdn.microsoft.com/en-us/library/Ee351601(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351601(v=vs.85)
       - name: "IMsRdpWorkspace2"
         href: imsrdpworkspace2.md
         items: 
         - name: "StartWorkspaceEx method"
-          href: https://msdn.microsoft.com/en-us/library/Dn123459(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn123459(v=vs.85)
     - name: "Remote Desktop Virtualization API reference"
       href: terminal-services-virtualization-api-reference.md
       items: 
@@ -2608,7 +2608,7 @@
             - name: "UserSidString property"
               href: /windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-get_usersidstring
         - name: "ITsSbClientConnectionPropertySet"
-          href: https://msdn.microsoft.com/en-us/library/Dd379591(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnectionpropertyset
         - name: "ITsSbEnvironment"
           href: /windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironment
           items: 
@@ -2622,7 +2622,7 @@
             - name: "ServerWeight property"
               href: /windows/desktop/api/sbtsv/nf-sbtsv-itssbenvironment-get_serverweight
         - name: "ITsSbEnvironmentPropertySet"
-          href: https://msdn.microsoft.com/en-us/library/Ee351632(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironmentpropertyset
         - name: "ITsSbFilterPluginStore"
           href: /windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore
           items: 
@@ -2742,9 +2742,9 @@
             - name: "OnTerminated method"
               href: /windows/desktop/api/sbtsv/nf-sbtsv-itssbpluginnotifysink-onterminated
         - name: "ITsSbPluginPropertySet"
-          href: https://msdn.microsoft.com/en-us/library/Dd379636(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginpropertyset
         - name: "ITsSbPropertySet"
-          href: https://msdn.microsoft.com/en-us/library/Dd379645(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbpropertyset
         - name: "ITsSbProvider"
           href: /windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider
           items: 
@@ -2832,7 +2832,7 @@
             - name: "NotifyTargetChangeEx method"
               href: /windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotificationex-notifytargetchangeex
         - name: "ITsSbResourcePlugin"
-          href: https://msdn.microsoft.com/en-us/library/Dd379662(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourceplugin
         - name: "ITsSbResourcePluginStore"
           href: /windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore
           items: 
@@ -2976,9 +2976,9 @@
             href: itssbtargetex-properties.md
             items: 
             - name: "TargetLoad property"
-              href: https://msdn.microsoft.com/en-us/library/Mt703468(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt703468(v=vs.85)
         - name: "ITsSbTargetPropertySet"
-          href: https://msdn.microsoft.com/en-us/library/Dd379695(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtargetpropertyset
         - name: "ITsSbTaskInfo"
           href: /windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo
           items: 

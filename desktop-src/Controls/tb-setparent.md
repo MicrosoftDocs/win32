@@ -40,7 +40,7 @@ The return value is a handle to the previous notification window, or **NULL** if
 
 ## Remarks
 
-The **TB\_SETPARENT** message does not change the parent window that was specified when the control was created. Calling the [**GetParent**](https://msdn.microsoft.com/library/windows/desktop/ms633510) function for a toolbar control will return the actual parent window, not the window specified in **TB\_SETPARENT**. To change the control's parent window, call the [**SetParent**](https://msdn.microsoft.com/library/windows/desktop/ms633541) function.
+The **TB\_SETPARENT** message does not change the parent window that was specified when the control was created. Calling the [**GetParent**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent) function for a toolbar control will return the actual parent window, not the window specified in **TB\_SETPARENT**. To change the control's parent window, call the [**SetParent**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent) function.
 
 ## Requirements
 

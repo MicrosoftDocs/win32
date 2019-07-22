@@ -1,14 +1,16 @@
 ---
-Description: 'Each of the following constructors initializes a new CHString object with the specified data.'
+Description: Each of the following constructors initializes a new CHString object with the specified data.
 audience: developer
-ms.assetid: 'd49e1600-d5d4-4c44-81c5-1b8c53b768de'
+ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.tgt_platform: multiple
-title: 'CHString::CHString constructors'
+title: CHString::CHString constructors
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CHString::CHString constructors
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 Each of the following constructors initializes a new [**CHString**](chstring.md) object with the specified data.
 

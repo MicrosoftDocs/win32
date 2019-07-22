@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Auditing Property Page
 
-The access control editor can include an **Auditing** property page that enables the user to view and edit the [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) in an object's [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). For more information about SACLs, see [Access Control Lists](access-control-lists.md) (ACLs).
+The access control editor can include an **Auditing** property page that enables the user to view and edit the [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) in an object's [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL). For more information about SACLs, see [Access Control Lists](access-control-lists.md) (ACLs).
 
 **To view the Auditing property page**
 

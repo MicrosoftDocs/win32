@@ -32,7 +32,7 @@ Retrieves the current background color of the control. You can send this message
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that represents the current background color. If this value is -1, the control is using the system color for the background color.
+Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the current background color. If this value is -1, the control is using the system color for the background color.
 
 ## Requirements
 

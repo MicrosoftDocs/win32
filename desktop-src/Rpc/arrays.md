@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Arrays
 
-For information on arrays, see [**MIDL Arrays**](https://msdn.microsoft.com/library/windows/desktop/aa367081).
+For information on arrays, see [**MIDL Arrays**](https://docs.microsoft.com/windows/desktop/Midl/midl-arrays).
 
  
 

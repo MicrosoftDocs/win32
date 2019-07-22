@@ -3,7 +3,7 @@ Description: The CIM\_AlarmDevice class exposes the following methods.
 ms.assetid: FF1E8B3B-2A38-47E9-A098-5FD086AD494D
 ms.tgt_platform: multiple
 title: CIM_AlarmDevice Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

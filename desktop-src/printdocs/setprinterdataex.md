@@ -96,7 +96,7 @@ For print servers, this string is one of the predefined strings listed in the fo
 *Type* \[in\]
 </dt> <dd>
 
-A code indicating the type of data pointed to by the *pData* parameter. For a list of the possible type codes, see [Registry Value Types](https://msdn.microsoft.com/library/windows/desktop/ms724884).
+A code indicating the type of data pointed to by the *pData* parameter. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types).
 
 If *pKeyName* specifies one of the predefined directory service keys, *Type* must be **REG_SZ**, **REG_MULTI_SZ**, **REG_DWORD**, or **REG_BINARY**. If **REG_BINARY** is used, *cbData* must be equal to 1, and the directory service treats the data as a Boolean value.
 

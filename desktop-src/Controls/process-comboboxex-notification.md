@@ -25,9 +25,9 @@ This topic demonstrates how to process ComboBoxEx notification messages.
 
 ### 
 
-A ComboBoxEx control notifies its parent window of events by sending [**WM\_NOTIFY**](wm-notify.md) messages. It also passes the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) notification messages that it receives from the combo box contained within it to the parent window to be processed. Therefore, your application must be prepared to process **WM\_NOTIFY** messages from the ComboBoxEx and **WM\_COMMAND** messages that are forwarded from the ComboBoxEx child combo box control.
+A ComboBoxEx control notifies its parent window of events by sending [**WM\_NOTIFY**](wm-notify.md) messages. It also passes the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) notification messages that it receives from the combo box contained within it to the parent window to be processed. Therefore, your application must be prepared to process **WM\_NOTIFY** messages from the ComboBoxEx and **WM\_COMMAND** messages that are forwarded from the ComboBoxEx child combo box control.
 
-The example in this section handles the [**WM\_NOTIFY**](wm-notify.md) and [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages from a ComboBoxEx control by calling a corresponding application-defined function to process these messages.
+The example in this section handles the [**WM\_NOTIFY**](wm-notify.md) and [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages from a ComboBoxEx control by calling a corresponding application-defined function to process these messages.
 
 ## Complete example
 
@@ -75,7 +75,7 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 [ComboBoxEx Control Reference](bumper-comboboxex-comboboxex-control-reference.md)
 </dt> <dt>
 
-[Using ComboBoxEx Controls](https://msdn.microsoft.com/library/windows/desktop/bb775744)
+[Using ComboBoxEx Controls](https://docs.microsoft.com/windows/desktop/Controls/using-comboboxex)
 </dt> <dt>
 
 [ComboBoxEx](comboboxex-control-reference.md)

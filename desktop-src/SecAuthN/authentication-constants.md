@@ -29,7 +29,7 @@ Credentials Management uses the following constants to specify maximum string si
 
 ## Gina Defined Values
 
-[*GINA*](https://msdn.microsoft.com/library/windows/desktop/ms721584#-security-gina-gly) interface functions and [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) support functions use the following defined values.
+[*GINA*](https://docs.microsoft.com/windows/desktop/SecGloss/g-gly) interface functions and [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) support functions use the following defined values.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.

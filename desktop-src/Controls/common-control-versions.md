@@ -91,16 +91,16 @@ Ongoing enhancements to common controls have resulted in the need to extend many
 
 ## Using DllGetVersion to Determine the Version Number
 
-The [**DllGetVersion**](https://msdn.microsoft.com/library/windows/desktop/bb776404) function can be called by an application to determine which DLL version is present on the system.
+The [**DllGetVersion**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc) function can be called by an application to determine which DLL version is present on the system.
 
-[**DllGetVersion**](https://msdn.microsoft.com/library/windows/desktop/bb776404) returns a [**DLLVERSIONINFO2**](https://msdn.microsoft.com/library/windows/desktop/bb773265) structure. In addition to the information provided through [**DLLVERSIONINFO**](https://msdn.microsoft.com/library/windows/desktop/bb773263), **DLLVERSIONINFO2** also provides the hotfix number that identifies the latest installed service pack, which provides a more robust way to compare version numbers. Because the first member of **DLLVERSIONINFO2** is a **DLLVERSIONINFO** structure, the later structure is backward-compatible.
+[**DllGetVersion**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc) returns a [**DLLVERSIONINFO2**](https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo2) structure. In addition to the information provided through [**DLLVERSIONINFO**](https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo), **DLLVERSIONINFO2** also provides the hotfix number that identifies the latest installed service pack, which provides a more robust way to compare version numbers. Because the first member of **DLLVERSIONINFO2** is a **DLLVERSIONINFO** structure, the later structure is backward-compatible.
 
 ### 
 
-The following sample function `GetVersion` loads a specified DLL and attempts to call its [**DllGetVersion**](https://msdn.microsoft.com/library/windows/desktop/bb776404) function. If successful, it uses a macro to pack the major and minor version numbers from the [**DLLVERSIONINFO**](https://msdn.microsoft.com/library/windows/desktop/bb773263) structure into a **DWORD** that is returned to the calling application. If the DLL does not export **DllGetVersion**, the function returns zero. You can modify the function to handle the possibility that **DllGetVersion** returns a [**DLLVERSIONINFO2**](https://msdn.microsoft.com/library/windows/desktop/bb773265) structure. If so, use the information in that **DLLVERSIONINFO2** structure's **ullVersion** member to compare versions, build numbers, and service pack releases. The [**MAKEDLLVERULL**](https://msdn.microsoft.com/library/windows/desktop/bb774312) macro simplifies the task of comparing these values to those in **ullVersion**.
+The following sample function `GetVersion` loads a specified DLL and attempts to call its [**DllGetVersion**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc) function. If successful, it uses a macro to pack the major and minor version numbers from the [**DLLVERSIONINFO**](https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo) structure into a **DWORD** that is returned to the calling application. If the DLL does not export **DllGetVersion**, the function returns zero. You can modify the function to handle the possibility that **DllGetVersion** returns a [**DLLVERSIONINFO2**](https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo2) structure. If so, use the information in that **DLLVERSIONINFO2** structure's **ullVersion** member to compare versions, build numbers, and service pack releases. The [**MAKEDLLVERULL**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-makedllverull) macro simplifies the task of comparing these values to those in **ullVersion**.
 
 > [!Note]  
-> Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
+> Using [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
  
 
@@ -179,7 +179,7 @@ else
 
 ## Project Versions
 
-To ensure that your application is compatible with different targeted versions of a .dll file, version macros are present in the header files. These macros are used to define, exclude, or redefine certain definitions for different versions of the DLL. See [Using the Windows Headers](https://msdn.microsoft.com/library/windows/desktop/aa383745) for an in-depth description of these macros.
+To ensure that your application is compatible with different targeted versions of a .dll file, version macros are present in the header files. These macros are used to define, exclude, or redefine certain definitions for different versions of the DLL. See [Using the Windows Headers](https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers) for an in-depth description of these macros.
 
 For example, the macro name **\_WIN32\_IE** is commonly found in older headers. You are responsible for defining the macro as a hexadecimal number. This version number defines the target version of the application that is using the DLL. The following table shows the available version numbers and the effect each has on your application.
 

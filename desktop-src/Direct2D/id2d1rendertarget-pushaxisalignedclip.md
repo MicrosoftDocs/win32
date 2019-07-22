@@ -1,14 +1,17 @@
 ---
 title: ID2D1RenderTarget PushAxisAlignedClip methods
 description: Specifies a rectangle to which all subsequent drawing operations are clipped.
-ms.assetid: '8b777425-07b1-4494-889a-0c947fb61315'
-keywords: ["PushAxisAlignedClip methods Direct2D"]
+ms.assetid: 8b777425-07b1-4494-889a-0c947fb61315
+keywords:
+- PushAxisAlignedClip methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1RenderTarget::PushAxisAlignedClip methods

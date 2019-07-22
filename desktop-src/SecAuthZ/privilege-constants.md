@@ -10,7 +10,7 @@ ms.date: 02/05/2019
 
 Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each user's privileges include those granted to the user and to the groups to which the user belongs.
 
-The functions that get and adjust the privileges in an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) use the [*locally unique identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-locally-unique-identifier-gly) (LUID) type to identify privileges. Use the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) function to determine the [**LUID**](/windows/desktop/api/Winnt/ns-winnt-_luid) on the local system that corresponds to a privilege constant. Use the [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) function to convert a **LUID** to its corresponding string constant.
+The functions that get and adjust the privileges in an [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) use the [*locally unique identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LUID) type to identify privileges. Use the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) function to determine the [**LUID**](/windows/desktop/api/Winnt/ns-winnt-_luid) on the local system that corresponds to a privilege constant. Use the [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) function to convert a **LUID** to its corresponding string constant.
 
 The operating system represents a privilege by using the string that follows "User Right" in the Description column of the following table. The operating system displays the user right strings in the **Policy** column of the **User Rights Assignment** node of the Local Security Settings Microsoft Management Console (MMC) snap-in.
 
@@ -30,7 +30,7 @@ The operating system represents a privilege by using the string that follows "Us
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><span id="SE_ASSIGNPRIMARYTOKEN_NAME"></span><span id="se_assignprimarytoken_name"></span><dl> <dt><strong>SE_ASSIGNPRIMARYTOKEN_NAME</strong></dt> <dt>TEXT(&quot;SeAssignPrimaryTokenPrivilege&quot;)</dt> </dl></td>
-<td style="text-align: left;">Required to assign the <a href="https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-primary-token-gly"><em>primary token</em></a> of a process. <br/> User Right: Replace a process-level token.<br/></td>
+<td style="text-align: left;">Required to assign the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>primary token</em></a> of a process. <br/> User Right: Replace a process-level token.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_AUDIT_NAME"></span><span id="se_audit_name"></span><dl> <dt><strong>SE_AUDIT_NAME</strong></dt> <dt>TEXT(&quot;SeAuditPrivilege&quot;)</dt> </dl></td>
@@ -38,7 +38,7 @@ The operating system represents a privilege by using the string that follows "Us
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SE_BACKUP_NAME"></span><span id="se_backup_name"></span><dl> <dt><strong>SE_BACKUP_NAME</strong></dt> <dt>TEXT(&quot;SeBackupPrivilege&quot;)</dt> </dl></td>
-<td style="text-align: left;">Required to perform backup operations. This privilege causes the system to grant all read access control to any file, regardless of the <a href="https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly"><em>access control list</em></a> (ACL) specified for the file. Any access request other than read is still evaluated with the ACL. This privilege is required by the <a href="https://msdn.microsoft.com/library/windows/desktop/ms724917"><strong>RegSaveKey</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/ms724919"><strong>RegSaveKeyEx</strong></a>functions. The following access rights are granted if this privilege is held:<br/>
+<td style="text-align: left;">Required to perform backup operations. This privilege causes the system to grant all read access control to any file, regardless of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly"><em>access control list</em></a> (ACL) specified for the file. Any access request other than read is still evaluated with the ACL. This privilege is required by the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsavekeya"><strong>RegSaveKey</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsavekeyexa"><strong>RegSaveKeyEx</strong></a>functions. The following access rights are granted if this privilege is held:<br/>
 <ul>
 <li>READ_CONTROL</li>
 <li>ACCESS_SYSTEM_SECURITY</li>
@@ -129,7 +129,7 @@ User Right: Back up files and directories.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_RESTORE_NAME"></span><span id="se_restore_name"></span><dl> <dt><strong>SE_RESTORE_NAME</strong></dt> <dt>TEXT(&quot;SeRestorePrivilege&quot;)</dt> </dl></td>
-<td style="text-align: left;">Required to perform restore operations. This privilege causes the system to grant all write access control to any file, regardless of the ACL specified for the file. Any access request other than write is still evaluated with the ACL. Additionally, this privilege enables you to set any valid user or group SID as the owner of a file. This privilege is required by the <a href="https://msdn.microsoft.com/library/windows/desktop/ms724917"><strong>RegLoadKey</strong></a> function. The following access rights are granted if this privilege is held:<br/>
+<td style="text-align: left;">Required to perform restore operations. This privilege causes the system to grant all write access control to any file, regardless of the ACL specified for the file. Any access request other than write is still evaluated with the ACL. Additionally, this privilege enables you to set any valid user or group SID as the owner of a file. This privilege is required by the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsavekeya"><strong>RegLoadKey</strong></a> function. The following access rights are granted if this privilege is held:<br/>
 <ul>
 <li>WRITE_DAC</li>
 <li>WRITE_OWNER</li>
@@ -151,7 +151,7 @@ User Right: Restore files and directories.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SE_SYNC_AGENT_NAME"></span><span id="se_sync_agent_name"></span><dl> <dt><strong>SE_SYNC_AGENT_NAME</strong></dt> <dt>TEXT(&quot;SeSyncAgentPrivilege&quot;)</dt> </dl></td>
-<td style="text-align: left;">Required for a domain controller to use the <a href="https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-lightweight-directory-access-protocol-gly"><em>Lightweight Directory Access Protocol</em></a> directory synchronization services. This privilege enables the holder to read all objects and properties in the directory, regardless of the protection on the objects and properties. By default, it is assigned to the Administrator and LocalSystem accounts on domain controllers. <br/> User Right: Synchronize directory service data.<br/></td>
+<td style="text-align: left;">Required for a domain controller to use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly"><em>Lightweight Directory Access Protocol</em></a> directory synchronization services. This privilege enables the holder to read all objects and properties in the directory, regardless of the protection on the objects and properties. By default, it is assigned to the Administrator and LocalSystem accounts on domain controllers. <br/> User Right: Synchronize directory service data.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_SYSTEM_ENVIRONMENT_NAME"></span><span id="se_system_environment_name"></span><dl> <dt><strong>SE_SYSTEM_ENVIRONMENT_NAME</strong></dt> <dt>TEXT(&quot;SeSystemEnvironmentPrivilege&quot;)</dt> </dl></td>
@@ -187,7 +187,7 @@ User Right: Restore files and directories.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_UNSOLICITED_INPUT_NAME"></span><span id="se_unsolicited_input_name"></span><dl> <dt><strong>SE_UNSOLICITED_INPUT_NAME</strong></dt> <dt>TEXT(&quot;SeUnsolicitedInputPrivilege&quot;)</dt> </dl></td>
-<td style="text-align: left;">Required to read unsolicited input from a <a href="https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-terminal-gly"><em>terminal</em></a> device.<br/> User Right: Not applicable.<br/></td>
+<td style="text-align: left;">Required to read unsolicited input from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly"><em>terminal</em></a> device.<br/> User Right: Not applicable.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -130,7 +130,7 @@ When dealing with an arbitrary set of font files in local storage, the [**IDWrit
 
 To use this method, use the following process.
 
-<dl> 1. Start by creating the <a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a> interface: 
+<dl> 1. Start by creating the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory5">IDWriteFactory5</a> interface: 
 
 
 ```C++
@@ -200,7 +200,7 @@ If the app needs to run on Windows 10 versions earlier than the Windows 10 Creat
 
 If the AddFontFile method is not available, then the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference) method must be used to add individual font faces. To allow for OpenType Font Collection files that contain multiple faces, the [**IDWriteFontFile::Analyze**](https://msdn.microsoft.com/en-us/library/Dd371099(v=VS.85).aspx) method can be used to determine the number of faces contained within the file. The process is as follows.
 
-<dl> 1. Start by creating the <a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a> interface: 
+<dl> 1. Start by creating the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a> interface: 
 
 
 ```C++
@@ -334,8 +334,8 @@ To use the remote font file loader, it must first be registered with a DirectWri
 The method for creating a custom font set using remote fonts is as follows; this requires the Windows 10 Creators Update.  
 
 <dl> 1. Create an IDWriteFactory5 interface, as shown above.   
-2. Create an <a href="https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx">IDWriteFontSetBuilder</a> interface, as shown above.   
-3. Use the factory to obtain an <a href="https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx">IDWriteRemoteFontFileLoader</a>. 
+2. Create an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder">IDWriteFontSetBuilder</a> interface, as shown above.   
+3. Use the factory to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader">IDWriteRemoteFontFileLoader</a>. 
 
 
 ```C++

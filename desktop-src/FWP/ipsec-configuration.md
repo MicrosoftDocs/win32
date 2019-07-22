@@ -53,9 +53,9 @@ Authenticated Internet Protocol (AuthIP) is a new key exchange protocol that exp
 AuthIP has an authentication-retry mechanism that verifies all configured authentication methods before failing the connection.  
 AuthIP can be used with secure sockets to implement application-based IPsec secured traffic. It provides:
 
--   Per-socket authentication and encryption. See [**WSASetSocketSecurity**](https://msdn.microsoft.com/library/windows/desktop/bb394823) for more information.
+-   Per-socket authentication and encryption. See [**WSASetSocketSecurity**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) for more information.
 -   Client impersonation. (IPsec impersonates the security context under which the socket is created.)
--   Inbound and outbound peer name validation. See [**WSASetSocketPeerTargetName**](https://msdn.microsoft.com/library/windows/desktop/bb394822) for more information.
+-   Inbound and outbound peer name validation. See [**WSASetSocketPeerTargetName**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) for more information.
 
   
 </dl>

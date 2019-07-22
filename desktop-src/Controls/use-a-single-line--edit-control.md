@@ -170,7 +170,7 @@ INT_PTR CALLBACK PasswordProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPa
 [Edit Control Reference](bumper-edit-control-edit-control-reference.md)
 </dt> <dt>
 
-[Using Edit Controls](https://msdn.microsoft.com/library/windows/desktop/bb775462)
+[Using Edit Controls](https://docs.microsoft.com/windows/desktop/Controls/using-edit-controls)
 </dt> <dt>
 
 [Edit Control](edit-controls.md)

@@ -16,7 +16,7 @@ The [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapis
 
 **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP/2000:** The [**QueryUnbiasedInterruptTime**](https://msdn.microsoft.com/en-us/library/Ee662307(v=VS.85).aspx) function is available starting with Windows 7 and Windows Server 2008 R2.
 
-The timer resolution set by the [**timeBeginPeriod**](https://msdn.microsoft.com/library/windows/desktop/dd757624) and [**timeEndPeriod**](https://msdn.microsoft.com/library/windows/desktop/dd757626) functions affects the resolution of the [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime) and [**QueryUnbiasedInterruptTime**](https://msdn.microsoft.com/en-us/library/Ee662307(v=VS.85).aspx) functions. However, increasing the timer resolution is not recommended because it can reduce overall system performance and increase power consumption by preventing the processor from entering power-saving states. Instead, applications should use a high-resolution timer.
+The timer resolution set by the [**timeBeginPeriod**](https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod) and [**timeEndPeriod**](https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timeendperiod) functions affects the resolution of the [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime) and [**QueryUnbiasedInterruptTime**](https://msdn.microsoft.com/en-us/library/Ee662307(v=VS.85).aspx) functions. However, increasing the timer resolution is not recommended because it can reduce overall system performance and increase power consumption by preventing the processor from entering power-saving states. Instead, applications should use a high-resolution timer.
 
 > [!Note]  
 > The [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTime**](https://msdn.microsoft.com/en-us/library/Ee662307(v=VS.85).aspx), and [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) functions produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the [Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink/p/?linkid=8714) Web site.
@@ -88,7 +88,7 @@ int main(void)
 
 
 
-To retrieve elapsed time that accounts for sleep or hibernation, use the [**GetTickCount**](https://msdn.microsoft.com/en-us/library/ms724408(v=VS.85).aspx) or [**GetTickCount64**](https://msdn.microsoft.com/en-us/library/ms724411(v=VS.85).aspx) function, or use the System Up Time performance counter. This performance counter can be retrieved from the performance data in the registry key **HKEY\_PERFORMANCE\_DATA**. The value returned is an 8-byte value. For more information, see [Performance Counters](https://msdn.microsoft.com/library/windows/desktop/aa373083).
+To retrieve elapsed time that accounts for sleep or hibernation, use the [**GetTickCount**](https://msdn.microsoft.com/en-us/library/ms724408(v=VS.85).aspx) or [**GetTickCount64**](https://msdn.microsoft.com/en-us/library/ms724411(v=VS.85).aspx) function, or use the System Up Time performance counter. This performance counter can be retrieved from the performance data in the registry key **HKEY\_PERFORMANCE\_DATA**. The value returned is an 8-byte value. For more information, see [Performance Counters](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal).
 
 ## Related topics
 
@@ -106,10 +106,10 @@ To retrieve elapsed time that accounts for sleep or hibernation, use the [**GetT
 [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise)
 </dt> <dt>
 
-[**timeBeginPeriod**](https://msdn.microsoft.com/library/windows/desktop/dd757624)
+[**timeBeginPeriod**](https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod)
 </dt> <dt>
 
-[**timeEndPeriod**](https://msdn.microsoft.com/library/windows/desktop/dd757626)
+[**timeEndPeriod**](https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timeendperiod)
 </dt> </dl>
 
  

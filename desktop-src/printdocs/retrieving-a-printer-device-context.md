@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How To: Retrieve a Printer Device Context
 
-This topic describes how to retrieve a printer device context. You can retrieve a printer device context by calling the [**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490) function directly, or it can be returned by a **Print** common dialog box.
+This topic describes how to retrieve a printer device context. You can retrieve a printer device context by calling the [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) function directly, or it can be returned by a **Print** common dialog box.
 
 When you display a **Print** common dialog box a user will be able to select the printer, the pages of the document, and the number of document copies they want to print. The **Print** common dialog box returns these selections in a data structure.
 
@@ -21,7 +21,7 @@ This topic describes how to obtain a printer device context by using the followi
 
 ## Call CreateDC
 
-If you know the device to which you want to print, you can call [**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490) and pass that information directly to the function. **CreateDC** returns a device context into which you can render the content to print.
+If you know the device to which you want to print, you can call [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) and pass that information directly to the function. **CreateDC** returns a device context into which you can render the content to print.
 
 The simplest call to retrieve a device context is shown in the code example that follows. The code in this example retrieves a device context to the default display device.
 
@@ -32,9 +32,9 @@ The simplest call to retrieve a device context is shown in the code example that
 
 
 
-To render to a specific printer, you must specify "WINSPOOL" as the device and pass the correct name of the printer to [**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490). You can also pass a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure in the call to **CreateDC** if you want to provide device-specific initialization data for the device driver when you create the device context.
+To render to a specific printer, you must specify "WINSPOOL" as the device and pass the correct name of the printer to [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca). You can also pass a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure in the call to **CreateDC** if you want to provide device-specific initialization data for the device driver when you create the device context.
 
-The following example shows a call to [**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490) in which the "WINSPOOL" driver is selected and the printer name is specified by name.
+The following example shows a call to [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) in which the "WINSPOOL" driver is selected and the printer name is specified by name.
 
 
 ```C++
@@ -43,7 +43,7 @@ The following example shows a call to [**CreateDC**](https://msdn.microsoft.com/
 
 
 
-You can obtain the exact printer name string to pass to [**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490) by calling the [**EnumPrinters**](enumprinters.md) function. The following code example shows how to call **EnumPrinters** and get the names of the local and locally connected printers. Because the size of the required buffer cannot be known in advance, the **EnumPrinters** is called two times. The first call returns the size of the required buffer. That information is used to allocate a buffer of the required size, and the second call to **EnumPrinters** returns the data that you want.
+You can obtain the exact printer name string to pass to [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) by calling the [**EnumPrinters**](enumprinters.md) function. The following code example shows how to call **EnumPrinters** and get the names of the local and locally connected printers. Because the size of the required buffer cannot be known in advance, the **EnumPrinters** is called two times. The first call returns the size of the required buffer. That information is used to allocate a buffer of the required size, and the second call to **EnumPrinters** returns the data that you want.
 
 
 ```C++
@@ -109,13 +109,13 @@ For sample code that illustrates the use of [**PrintDlgEx**](https://msdn.micros
 
 If your application must run on a system that does not support the [**PrintDlgEx**](https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx) function, such as on a system that is running a version of Windows earlier than Windows 2000, or does not need the extra functionality that the **PrintDlgEx** function provides, use the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function. The following steps describe how to display the older style **Print** common dialog box.
 
-1.  Initialize the [**PRINTDLG**](https://msdn.microsoft.com/library/windows/desktop/ms646843) data structure.
+1.  Initialize the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) data structure.
 2.  Call [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) to display the **Print** common dialog box to the user.
 3.  If the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) call returns **TRUE**, lock the returned [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure memory. If the **PrintDlg** call returns **FALSE**, the user pressed the **Cancel** button in the **Print** common dialog box so there is nothing more to process.
 4.  Allocate a local memory buffer that is large enough to contain a copy of the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure.
 5.  Copy the returned [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure to the locally allocated one.
-6.  Save other information that is returned in the [**PRINTDLG**](https://msdn.microsoft.com/library/windows/desktop/ms646843) structure and that you will need to process the print job.
-7.  Free the [**PRINTDLG**](https://msdn.microsoft.com/library/windows/desktop/ms646843) and the memory buffers it references.
+6.  Save other information that is returned in the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure and that you will need to process the print job.
+7.  Free the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) and the memory buffers it references.
 
 The following example code illustrates how to use the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function to get the device context and the name of selected printer.
 

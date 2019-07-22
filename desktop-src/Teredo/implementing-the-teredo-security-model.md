@@ -8,12 +8,12 @@ ms.date: 05/31/2018
 
 # Implementing the Teredo Security Model
 
-The Teredo security model is based on the [Windows Filtering Platform](https://msdn.microsoft.com/library/windows/desktop/aa366510) (WFP) technology built into Windows Vista. As a result, it is recommended that third-party firewalls use WFP to enforce the [Teredo](about-teredo.md) security model.
+The Teredo security model is based on the [Windows Filtering Platform](https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page) (WFP) technology built into Windows Vista. As a result, it is recommended that third-party firewalls use WFP to enforce the [Teredo](about-teredo.md) security model.
 
 The general implementation of the [Teredo Security Model](the-teredo-security-model.md) requires the following:
 
 -   An IPv6-capable host firewall must be registered with Windows Security Center (WSC) on the machine. In the absence of a host-based firewall, or WSC itself, the Teredo interface will not be available for use. This is the only requirement to receive solicited traffic from the Internet over the Teredo interface.
--   Any application that receives unsolicited traffic from the Internet over the Teredo interface must register with an IPv6-capable firewall, like [Windows Firewall](https://msdn.microsoft.com/library/windows/desktop/aa366453), before receiving the unsolicited traffic.
+-   Any application that receives unsolicited traffic from the Internet over the Teredo interface must register with an IPv6-capable firewall, like [Windows Firewall](https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page), before receiving the unsolicited traffic.
 
 A Teredo address will become dormant if traffic has not been sent or received over the Teredo interface for one hour and if applications that meet the required security criteria for unsolicited traffic are not running or do not have listening sockets open.
 

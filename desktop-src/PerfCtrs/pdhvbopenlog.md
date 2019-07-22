@@ -124,7 +124,7 @@ Pointer to a buffer that receives a handle to the opened log file.
 
 If the function succeeds, it returns 0.
 
-If the function fails, the return value is a [system error code](https://msdn.microsoft.com/library/windows/desktop/ms681381) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 

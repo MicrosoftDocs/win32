@@ -38,7 +38,7 @@ These large, general-purpose shaders handle this challenge by recompiling the sa
 
 Direct3D 11 and shader model 5 introduce object-oriented language constructs and provide runtime support of shader linking to help developers program shaders.
 
-See [Dynamic Linking](https://msdn.microsoft.com/library/windows/desktop/ff471420) for additional information.
+See [Dynamic Linking](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking) for additional information.
 
 ## Multithreading
 
@@ -74,13 +74,13 @@ This is a complete list of the features in Direct3D 11.
     -   Multithread resource/shader/object creation
     -   Multithreaded Display list creation
 
--   Direct3D 11 expands shaders with the following features (see [Shader Model 5](https://msdn.microsoft.com/library/windows/desktop/ff471419))
+-   Direct3D 11 expands shaders with the following features (see [Shader Model 5](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl))
 
     -   Addressable resources - textures, constant buffers, and samplers
     -   Additional resource types, such as read/write buffers and textures (see [New Resource Types](direct3d-11-advanced-stages-cs-resources.md)).
     -   Subroutines
     -   Compute shader (see [Compute Shader Overview](direct3d-11-advanced-stages-compute-shader.md)) - A shader that speeds up computations by dividing the problem space between several software threads or groups of threads, and sharing data among shader registers to significantly reduce the amount of data required to input into a shader. Algorithms that the compute shader can significantly improve include post processing, animation, physics, and artificial intelligence.
-    -   Geometry shader (see [Geometry Shader Features](https://msdn.microsoft.com/library/windows/desktop/ff471423))
+    -   Geometry shader (see [Geometry Shader Features](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-gs-features))
 
         -   Instancing - Allows the geometry shader to output a maximum of 1024 vertices, or any combination of instances and vertices up to 1024 (maximum of 32 instances of 32 vertices each).
 
@@ -124,7 +124,7 @@ This is a complete list of the features in Direct3D 11.
     -   Increase Stream output count to 4
     -   Change all stream output buffers to be multi-element
 
--   Direct3D 11 supports Shader Model 5 (see [Shader Model 5](https://msdn.microsoft.com/library/windows/desktop/ff471356))
+-   Direct3D 11 supports Shader Model 5 (see [Shader Model 5](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5))
 
     -   Doubles with denorms
     -   Count bits set instruction

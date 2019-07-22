@@ -33,7 +33,7 @@ A read-only buffer, which can take a T type that is a structure.
 
 The UAV format bound to this resource needs to be created with the DXGI\_FORMAT\_UNKNOWN format.
 
-To find out more about [structured buffers](https://msdn.microsoft.com/library/windows/desktop/ff476335), see the overview material.
+To find out more about [structured buffers](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources), see the overview material.
 
 ## Minimum Shader Model
 

@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the AddRectangles methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.'
-ms.assetid: '467d4a61-8430-403c-90ed-f8c224ce3b61'
-title: 'GraphicsPath.AddRectangles methods'
+Description: This topic lists the AddRectangles methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+ms.assetid: 467d4a61-8430-403c-90ed-f8c224ce3b61
+title: GraphicsPath.AddRectangles methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddRectangles methods

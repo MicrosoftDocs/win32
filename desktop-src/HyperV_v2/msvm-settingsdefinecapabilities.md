@@ -57,26 +57,26 @@ The **Msvm\_SettingsDefineCapabilities** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_Capabilities**](https://msdn.microsoft.com/library/cc136806)**
+Data type: **[**CIM\_Capabilities**](https://docs.microsoft.com/previous-versions//cc136806(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The capabilities instance. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://msdn.microsoft.com/library/cc136913).
+The capabilities instance. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)).
 
 </dd> <dt>
 
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911)**
+Data type: **[**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A setting used to define the associated capabilities instance. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://msdn.microsoft.com/library/cc136913).
+A setting used to define the associated capabilities instance. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the non-null, non-key properties of the associated setting data instance are treated independently or as a correlated set. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://msdn.microsoft.com/library/cc136913) and it is always set to 0 (Independent).
+Indicates whether the non-null, non-key properties of the associated setting data instance are treated independently or as a correlated set. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)) and it is always set to 0 (Independent).
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Any further semantics on the interpretation of all non-null, non-key properties of the setting data. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://msdn.microsoft.com/library/cc136913).
+Any further semantics on the interpretation of all non-null, non-key properties of the setting data. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)).
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Any further semantics on the interpretation of the non-null, non-key properties of the setting data. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://msdn.microsoft.com/library/cc136913).
+Any further semantics on the interpretation of the non-null, non-key properties of the setting data. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)).
 
 </dd> </dl>
 
@@ -182,7 +182,7 @@ The values for the **ValueRole** and **ValueRange** properties are used in the f
 
 "Increments" indicates the granularity at which you can increase or decrease the settings.
 
-Access to the **Msvm\_SettingsDefineCapabilities** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_SettingsDefineCapabilities** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -205,10 +205,10 @@ Access to the **Msvm\_SettingsDefineCapabilities** class might be restricted by 
 [**CIM\_SettingsDefineCapabilities**](cim-settingsdefinecapabilities.md)
 </dt> <dt>
 
-[**CIM\_SettingsDefineCapabilities**](https://msdn.microsoft.com/library/cc136913)
+[**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85))
 </dt> <dt>
 
-[**Msvm\_SettingsDefineCapabilities (V1)**](https://msdn.microsoft.com/library/cc136891)
+[**Msvm\_SettingsDefineCapabilities (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/msvm-settingsdefinecapabilities)
 </dt> <dt>
 
 [Resource Management Classes](resource-management-classes.md)

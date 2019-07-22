@@ -49,7 +49,7 @@ For an introduction to programmatic administration of COM+, see [Automating COM+
 
 ## Remarks
 
-To create this object, call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
+To create this object, call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 To use this class from Microsoft Visual Basic, add a reference to the COM+ Admin Type Library. A COMAdminCatalog object can be declared using "COMAdmin.COMAdminCatalog" as the class name.
 

@@ -32,32 +32,32 @@ vtTemp = sdoRequestHandler.GetProperty(PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE)
 
 
 
-To access the accounting properties using C++, first obtain the request handlers collection. The [Retrieving a Collection](https://msdn.microsoft.com/library/bb960708) contains C++ code that demonstrates how to obtain a collection. The enumeration value for the request handlers collection is **PROPERTY\_IAS\_REQUESTHANDLERS\_COLLECTION**. (The values corresponding to the various NPS collections are enumerated by the [**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636) enumeration type.)
+To access the accounting properties using C++, first obtain the request handlers collection. The [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection) contains C++ code that demonstrates how to obtain a collection. The enumeration value for the request handlers collection is **PROPERTY\_IAS\_REQUESTHANDLERS\_COLLECTION**. (The values corresponding to the various NPS collections are enumerated by the [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties) enumeration type.)
 
-The request handlers collection contains an object named "Microsoft Accounting". Retrieve this object from the collection. The section [Retrieving an Object from a Collection](https://msdn.microsoft.com/library/bb960707) contains C++ code that demonstrates how to obtain an object from a collection.
+The request handlers collection contains an object named "Microsoft Accounting". Retrieve this object from the collection. The section [Retrieving an Object from a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection) contains C++ code that demonstrates how to obtain an object from a collection.
 
-Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://msdn.microsoft.com/library/bb960639) interface for the object using [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx). The section [Retrieving a User SDO](https://msdn.microsoft.com/library/bb960710) contains C++ code that demonstrates how obtain an **ISdo** interface for an object. You can then use the [**ISdo::GetProperty**](https://msdn.microsoft.com/library/bb960671) method to obtain property values for the Microsoft Accounting object.
+Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo) interface for the object using [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx). The section [Retrieving a User SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-user-sdo) contains C++ code that demonstrates how obtain an **ISdo** interface for an object. You can then use the [**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) method to obtain property values for the Microsoft Accounting object.
 
 ## Related topics
 
 <dl> <dt>
 
-[Retrieving a Collection](https://msdn.microsoft.com/library/bb960708)
+[Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
 </dt> <dt>
 
-[Retrieving an Object from a Collection](https://msdn.microsoft.com/library/bb960707)
+[Retrieving an Object from a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection)
 </dt> <dt>
 
-[Retrieving a User SDO](https://msdn.microsoft.com/library/bb960710)
+[Retrieving a User SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-user-sdo)
 </dt> <dt>
 
-[**ISdo**](https://msdn.microsoft.com/library/bb960639)
+[**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
 [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
 </dt> </dl>
 
  

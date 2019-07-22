@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_ImplementedCategory class
 
-The **Win32\_ImplementedCategory** association [WMI class](https://msdn.microsoft.com/library/aa393244) relates a component category and the Component Object Model (COM) class using its interfaces.
+The **Win32\_ImplementedCategory** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a component category and the Component Object Model (COM) class using its interfaces.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_ComponentCategory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_ComponentCategory")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ComponentCategory")
 </dt> </dl>
 
 Reference to the instance representing the component category being used by the COM class.
@@ -72,7 +72,7 @@ Data type: **Win32\_ClassicCOMClass**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_ClassicCOMClass")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
 </dt> </dl>
 
 Reference to the instance representing the COM class using the associated category.
@@ -97,7 +97,7 @@ Reference to the instance representing the COM class using the associated catego
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

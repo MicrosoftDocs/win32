@@ -18,7 +18,7 @@ api_location:
 
 # SetSecurityDescriptor method of the \_\_SystemSecurity class
 
-The [**SetSecurityDescriptor**](https://msdn.microsoft.com/library/aa393594) method writes an updated version of the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is represented by an instance of [**\_\_SecurityDescriptor**](--securitydescriptor.md). For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
+The [**SetSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-printer) method writes an updated version of the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is represented by an instance of [**\_\_SecurityDescriptor**](--securitydescriptor.md). For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
 ## Syntax
 
@@ -85,13 +85,13 @@ A parameter specified in the method call is not valid.
 
 ## Remarks
 
-The [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](https://msdn.microsoft.com/library/windows/desktop/aa379566) data type and contains a [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL) and a [*System Access Control List*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (SACL). For more information, see [Access Control Lists](https://msdn.microsoft.com/library/windows/desktop/aa374872).
+The [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) and a [*System Access Control List*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (SACL). For more information, see [Access Control Lists](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists).
 
 If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](privilege-constants.md) and [Executing Privileged Operations](executing-privileged-operations.md).
 
-You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) instance when calling this method, but you also can update only the DACL or only the SACL.
+You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance when calling this method, but you also can update only the DACL or only the SACL.
 
-The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](https://msdn.microsoft.com/library/windows/desktop/aa379566) determine whether the DACL or the SACL or both are updated.
+The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) determine whether the DACL or the SACL or both are updated.
 
 -   **SE\_DACL\_PRESENT**
 

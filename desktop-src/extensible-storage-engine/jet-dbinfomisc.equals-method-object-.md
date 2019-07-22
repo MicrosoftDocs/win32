@@ -24,7 +24,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_DBINFOMISC.Equals method (Object)
 
-Determines whether the specified [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b) is equal to the current [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b).
+Determines whether the specified [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) is equal to the current [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,14 +53,14 @@ public override bool Equals(
 #### Parameters
 
   - obj  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
     
-    The [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b) to compare with the current [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b).
+    The [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) to compare with the current [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN).
 
 #### Return value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
-True if the specified [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b) is equal to the current [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b); otherwise, false.  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+True if the specified [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) is equal to the current [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN); otherwise, false.  
 
 ## See also
 

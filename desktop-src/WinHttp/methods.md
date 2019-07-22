@@ -2,7 +2,7 @@
 Description: Methods
 ms.assetid: 26DA9C58-B295-4E34-B21A-BF31B55FBB37
 title: Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

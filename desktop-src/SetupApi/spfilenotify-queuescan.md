@@ -40,7 +40,7 @@ If the file in the current node of the queue is in use, *Param2* takes the value
 
 ## Return value
 
-The callback routine should return a [system error code](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+The callback routine should return a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 If the callback routine returns NO\_ERROR, the queue scan continues. If the routine returns any other error code, the queue scan aborts and [**SetupScanFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupscanfilequeuea) returns **FALSE**.
 

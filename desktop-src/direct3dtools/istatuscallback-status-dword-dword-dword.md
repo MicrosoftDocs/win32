@@ -52,7 +52,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## <span id="see_also"></span>See also
 
-[**IStatusCallback**](https://msdn.microsoft.com/library/windows/desktop/mt432807)
+[**IStatusCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/istatuscallback)
 
  
 

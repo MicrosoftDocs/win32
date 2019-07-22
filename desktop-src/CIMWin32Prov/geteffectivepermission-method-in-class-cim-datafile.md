@@ -25,7 +25,7 @@ The **GetEffectivePermission** method determines whether the caller has the aggr
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -238,10 +238,10 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DataFile**](cim-datafile.md)
 </dt> <dt>
 
-[WMI Tasks: Files and Folders](https://msdn.microsoft.com/library/aa394594)
+[WMI Tasks: Files and Folders](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--files-and-folders)
 </dt> <dt>
 
-[**File and Directory Access Rights Constants**](https://msdn.microsoft.com/library/aa822867)
+[**File and Directory Access Rights Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/file-and-directory-access-rights-constants)
 </dt> </dl>
 
  

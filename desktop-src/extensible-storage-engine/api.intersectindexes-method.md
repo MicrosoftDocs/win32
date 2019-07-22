@@ -73,7 +73,7 @@ public static IEnumerable<byte[]> IntersectIndexes(
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0)\<\[\]\>  
+Type: [System.Collections.Generic.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN)\<\[\]\>  
 The bookmarks of the records which are found in all the index ranges. The bookmarks are returned in primary key order.  
 
 ## See also

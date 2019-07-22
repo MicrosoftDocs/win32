@@ -62,7 +62,7 @@ HRESULT put_Description(
 
 ### Using IADsGroup to Retrieve Descriptions of Built-in Groups
 
-The following examples show how to retrieve information about Windows group objects by name. In a multilingual environment, built-in groups are sometimes known by different localized names, which means that they cannot be retrieved directly by using string identifiers such as "WinNT://Microsoft/Administrators". In that case, the user can bind to the well-known SID object for the group, retrieve the localized group name, and supply that to the GetObject method. For more information, see [Well-known SIDs](https://msdn.microsoft.com/library/windows/desktop/aa379649).
+The following examples show how to retrieve information about Windows group objects by name. In a multilingual environment, built-in groups are sometimes known by different localized names, which means that they cannot be retrieved directly by using string identifiers such as "WinNT://Microsoft/Administrators". In that case, the user can bind to the well-known SID object for the group, retrieve the localized group name, and supply that to the GetObject method. For more information, see [Well-known SIDs](https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids).
 
 ## Examples
 

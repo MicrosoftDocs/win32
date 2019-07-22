@@ -3,7 +3,7 @@ Description: The CIM\_VersionCompatibilityCheck class exposes the following meth
 ms.assetid: BF38E389-0598-40AA-BF94-C4265DE5EF13
 ms.tgt_platform: multiple
 title: CIM_VersionCompatibilityCheck Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

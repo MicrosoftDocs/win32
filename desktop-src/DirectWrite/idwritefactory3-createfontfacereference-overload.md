@@ -1,14 +1,17 @@
 ---
 title: IDWriteFactory3 CreateFontFaceReference methods
 description: Creates a reference to a font.
-ms.assetid: 'e4f73eff-84f8-3e86-08b1-aa513fad9a61'
-keywords: ["CreateFontFaceReference methods Direct2D"]
+ms.assetid: e4f73eff-84f8-3e86-08b1-aa513fad9a61
+keywords:
+- CreateFontFaceReference methods Direct2D
 topic_type:
 - apiref
 api_location:
 - dwrite_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDWriteFactory3::CreateFontFaceReference methods

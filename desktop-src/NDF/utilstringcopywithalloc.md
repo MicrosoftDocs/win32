@@ -42,7 +42,7 @@ HRESULT UtilStringCopyWithAlloc(
 
 Type: **LPWSTR\***
 
-The location where the pointer to the allocated memory is stored. When no longer needed, it must be released with [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722). This buffer is always null-terminated.
+The location where the pointer to the allocated memory is stored. When no longer needed, it must be released with [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree). This buffer is always null-terminated.
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ Possible return values include, but are not limited to, the following.
 
 <dl> <dt>
 
-[**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722)
+[**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)
 </dt> <dt>
 
 [**UtilAssembleStringsWithAlloc**](utilassemblestringswithalloc.md)

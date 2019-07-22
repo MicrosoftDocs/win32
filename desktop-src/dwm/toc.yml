@@ -4,7 +4,7 @@
   - name: "DWM Overviews"
     href: desktop-window-manager-overviews.md
     items: 
-    - name: "Enable and Control DWM Composition"
+    - name: "Enable and control DWM composition"
       href: composition-ovw.md
     - name: "DWM Blur Behind Overview"
       href: blur-ovw.md

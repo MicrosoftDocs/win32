@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [Microsoft Management Console 3.0](microsoft-management-console-3-0.md)
--   [Microsoft Management Console 2.0](https://msdn.microsoft.com/library/aa814987)
+-   [Microsoft Management Console 2.0](https://docs.microsoft.com/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page)
 
  
 

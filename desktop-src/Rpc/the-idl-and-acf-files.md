@@ -18,7 +18,7 @@ The IDL file specifies a network contract between the client and server—that i
 
 The ACF specifies attributes that affect only local performance rather than the network contract. Microsoft RPC allows you to combine the ACF and IDL attributes in a single IDL file. You can also combine multiple interfaces in a single IDL file (and its ACF).
 
-This section summarizes the attributes that are specified in the IDL and ACF files. It is intended to only provide an overview. For more detailed information, see the [MIDL Language Reference](https://msdn.microsoft.com/library/windows/desktop/aa367088), and the [MIDL Command-Line Reference](https://msdn.microsoft.com/library/windows/desktop/aa367084). The discussion in this section is presented in the following topics:
+This section summarizes the attributes that are specified in the IDL and ACF files. It is intended to only provide an overview. For more detailed information, see the [MIDL Language Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-language-reference), and the [MIDL Command-Line Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). The discussion in this section is presented in the following topics:
 
 -   [The Interface Definition Language (IDL) File](the-interface-definition-language-idl-file.md)
 -   [The Application Configuration File (ACF)](the-application-configuration-file-acf-.md)

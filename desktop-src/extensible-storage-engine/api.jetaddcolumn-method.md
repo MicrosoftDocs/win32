@@ -87,7 +87,7 @@ public static void JetAddColumn(
 <!-- end list -->
 
   - column  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The name of the column.
 
@@ -108,7 +108,7 @@ public static void JetAddColumn(
 <!-- end list -->
 
   - defaultValueSize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The size of the default value.
 

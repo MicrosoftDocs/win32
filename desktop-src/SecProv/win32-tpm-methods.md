@@ -2,7 +2,7 @@
 Description: The Win32\_Tpm class exposes the following methods.
 ms.assetid: 6027D9A7-524F-478D-8227-97B9DE6AC8ED
 title: Win32_Tpm Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

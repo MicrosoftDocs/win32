@@ -3,7 +3,7 @@ Description: The IWbemQualifierSet interface exposes the following methods.
 ms.assetid: D4D9C330-BEBE-4856-BEBB-64255FFC3FF0
 ms.tgt_platform: multiple
 title: IWbemQualifierSet Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

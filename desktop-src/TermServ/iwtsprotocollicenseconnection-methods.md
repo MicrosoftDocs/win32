@@ -3,7 +3,7 @@ title: IWTSProtocolLicenseConnection Methods
 description: The IWTSProtocolLicenseConnection interface exposes the following methods.
 ms.assetid: 6DE1A6DF-7B03-4568-959C-D18884D19D33
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

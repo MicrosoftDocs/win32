@@ -1,9 +1,9 @@
----
+﻿---
 title: DirectML interfaces
 description: The following interfaces are declared in DirectML.h.
 ms.localizationpriority: low
 ms.topic: article
-ms.date: 04/10/2019
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

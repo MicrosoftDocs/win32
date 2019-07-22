@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The following structures are used with event logging.
 
--   [**ELF\_EOF\_RECORD**](https://msdn.microsoft.com/library/windows/desktop/bb309022)
--   [**ELF\_LOGFILE\_HEADER**](https://msdn.microsoft.com/library/windows/desktop/bb309024)
+-   [**ELF\_EOF\_RECORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309022(v=vs.85))
+-   [**ELF\_LOGFILE\_HEADER**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309024(v=vs.85))
 -   [**EVENTLOG\_FULL\_INFORMATION**](/windows/desktop/api/Winbase/ns-winbase-_eventlog_full_information)
 -   [**EVENTLOGRECORD**](/windows/desktop/api/Winnt/ns-winnt-_eventlogrecord)
 

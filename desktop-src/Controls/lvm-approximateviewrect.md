@@ -34,15 +34,15 @@ The number of items to be displayed in the control. If this parameter is set to 
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is the proposed x-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current width value.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the proposed x-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current width value.
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) is the proposed y-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current height value.
+The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is the proposed y-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current height value.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a **DWORD** value that holds the approximate width (in the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)) and height (in the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)) needed to display the items, in pixels.
+Returns a **DWORD** value that holds the approximate width (in the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))) and height (in the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))) needed to display the items, in pixels.
 
 ## Remarks
 

@@ -59,7 +59,7 @@ A pointer to a constant, null-terminated string that specifies the processor arc
 *pszLanguage* \[in\]
 </dt> <dd>
 
-A pointer to a constant, null-terminated string that specifies the [Multilingual User Interface](https://msdn.microsoft.com/library/windows/desktop/dd319070) language for the driver being installed. This can be **NULL**.
+A pointer to a constant, null-terminated string that specifies the [Multilingual User Interface](https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management) language for the driver being installed. This can be **NULL**.
 
 </dd> <dt>
 

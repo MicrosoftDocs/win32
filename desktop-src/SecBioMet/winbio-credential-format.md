@@ -54,7 +54,7 @@ The password is in a compressed format.
 <span id="WINBIO_PASSWORD_PROTECTED"></span><span id="winbio_password_protected"></span>**WINBIO\_PASSWORD\_PROTECTED**
 </dt> <dd>
 
-The password credential was wrapped with [**CredProtect**](https://msdn.microsoft.com/library/windows/desktop/aa374803).
+The password credential was wrapped with [**CredProtect**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta).
 
 </dd> </dl>
 

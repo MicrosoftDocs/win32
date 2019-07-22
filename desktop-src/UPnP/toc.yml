@@ -95,9 +95,9 @@
         - name: "LoadAsync Method"
           href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-loadasync
         - name: "LoadResult Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381556(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_loadresult
         - name: "ReadyState Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381558(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate
         - name: "RootDevice Method"
           href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-rootdevice
       - name: "IUPnPDescriptionDocumentCallback"
@@ -109,43 +109,43 @@
         href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevice
         items: 
         - name: "Children Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381617(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children
         - name: "Description Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381622(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_description
         - name: "FriendlyName Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381631(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_friendlyname
         - name: "HasChildren Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381638(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren
         - name: "IconURL Method"
           href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevice-iconurl
         - name: "IsRootDevice Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381649(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_isrootdevice
         - name: "ManufacturerName Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381659(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturername
         - name: "ManufacturerURL Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381663(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturerurl
         - name: "ModelName Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381670(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelname
         - name: "ModelNumber Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381683(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelnumber
         - name: "ModelURL Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381690(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl
         - name: "ParentDevice Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381697(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_parentdevice
         - name: "PresentationURL Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381703(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_presentationurl
         - name: "RootDevice Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381709(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_rootdevice
         - name: "SerialNumber Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381712(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_serialnumber
         - name: "Services Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381714(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_services
         - name: "Type Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381718(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_type
         - name: "UniqueDeviceName Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381721(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename
         - name: "UPC Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381724(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_upc
       - name: "IUPnPDeviceDocumentAccess"
         href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicedocumentaccess
         items: 
@@ -187,11 +187,11 @@
         href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevices
         items: 
         - name: "_NewEnum Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381613(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get__newenum
         - name: "Count Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381609(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_count
         - name: "Item Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa381610(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_item
       - name: "IUPnPHttpHeaderControl"
         href: /windows/desktop/api/Upnp/nn-upnp-iupnphttpheadercontrol
         items: 
@@ -203,15 +203,15 @@
         - name: "AddCallback Method"
           href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-addcallback
         - name: "Id Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa382236(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_id
         - name: "InvokeAction Method"
           href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-invokeaction
         - name: "LastTransportStatus Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa382241(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus
         - name: "QueryStateVariable Method"
           href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-querystatevariable
         - name: "ServiceTypeIdentifier Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa382246(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_servicetypeidentifier
       - name: "IUPnPServiceAsync"
         href: /windows/desktop/api/Upnp/nn-upnp-iupnpserviceasync
         items: 
@@ -256,11 +256,11 @@
         href: /windows/desktop/api/Upnp/nn-upnp-iupnpservices
         items: 
         - name: "_NewEnum Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa382231(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservices-get__newenum
         - name: "Count Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa382212(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservices-get_count
         - name: "Item Method"
-          href: https://msdn.microsoft.com/en-us/library/Aa382217(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservices-get_item
   - name: "Device Host API"
     href: device-host-api.md
     items: 

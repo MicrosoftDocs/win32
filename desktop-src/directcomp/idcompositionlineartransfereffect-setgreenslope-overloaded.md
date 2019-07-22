@@ -1,14 +1,17 @@
 ---
 title: IDCompositionLinearTransferEffect SetGreenSlope methods
 description: Sets the slope of the linear function for the green channel.
-ms.assetid: 'e7e92544-dbc5-91ce-b818-056b7b572a7c'
-keywords: ["setgreenslope methods DirectComposition"]
+ms.assetid: e7e92544-dbc5-91ce-b818-056b7b572a7c
+keywords:
+- setgreenslope methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionLinearTransferEffect::SetGreenSlope methods

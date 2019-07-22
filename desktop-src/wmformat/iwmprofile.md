@@ -29,7 +29,7 @@ There are several ways to obtain a pointer to an **IWMProfile** interface. The p
 
 ## Members
 
-The **IWMProfile** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWMProfile** also has these types of members:
+The **IWMProfile** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMProfile** also has these types of members:
 
 -   [Methods](#methods)
 

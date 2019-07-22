@@ -43,7 +43,7 @@ HRESULT GetInputSignatureElementDesc(
 *ShaderIndex* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based shader index.
 
@@ -52,7 +52,7 @@ A zero-based shader index.
 *Element* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based shader-element index.
 

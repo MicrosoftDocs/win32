@@ -2,7 +2,7 @@
 Description: The SignedCode object exposes the following methods.
 ms.assetid: FC721B46-0128-4D52-9351-6E69BA64A8CF
 title: SignedCode Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

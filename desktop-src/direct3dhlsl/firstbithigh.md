@@ -34,7 +34,7 @@ int firstbithigh(
 *value* \[in\]
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The input value.
 
@@ -42,7 +42,7 @@ The input value.
 
 ## Return value
 
-Type: **[**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The location of the first set bit.
 

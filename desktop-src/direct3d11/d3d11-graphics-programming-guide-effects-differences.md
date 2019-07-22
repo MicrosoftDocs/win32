@@ -100,10 +100,10 @@ If you use these shaders in a technique, you must label that technique "techniqu
 
 Direct3D 11 supports the following texture types:
 
--   [AppendStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471448)
--   [ByteAddressBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471453)
--   [ConsumeStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471459)
--   [StructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471514)
+-   [AppendStructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-appendstructuredbuffer)
+-   [ByteAddressBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-byteaddressbuffer)
+-   [ConsumeStructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-consumestructuredbuffer)
+-   [StructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-structuredbuffer)
 
 ## Unordered Access Views
 
@@ -145,7 +145,7 @@ Direct3D 11 supports the following unordered access view types:
 
 ## Interfaces and Class Instances
 
-For interface and class syntax, see [Interfaces and Classes](https://msdn.microsoft.com/library/windows/desktop/ff471421).
+For interface and class syntax, see [Interfaces and Classes](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking-class).
 
 For using interfaces and classes in effects, see [Interfaces and Classes in Effects](d3d11-graphics-programming-guide-effects-interfaces-and-classes.md).
 
@@ -157,7 +157,7 @@ See [Stream Out Syntax](d3d11-graphics-reference-effect-streamout.md) for more i
 
 ## Setting and Unsetting Device State
 
-In Effects 10, you could make constant buffers and texture buffers user-managed by using the [**ID3D10EffectConstantBuffer::SetConstantBuffer**](https://msdn.microsoft.com/library/windows/desktop/bb173637) and [**SetTextureBuffer**](id3dx11effectconstantbuffer-settexturebuffer.md) functions. After you call these functions, the Effects 10 runtime no longer manages the constant buffer or texture buffer and the user must fill the data by using the ID3D10Device interface.
+In Effects 10, you could make constant buffers and texture buffers user-managed by using the [**ID3D10EffectConstantBuffer::SetConstantBuffer**](https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectconstantbuffer-setconstantbuffer) and [**SetTextureBuffer**](id3dx11effectconstantbuffer-settexturebuffer.md) functions. After you call these functions, the Effects 10 runtime no longer manages the constant buffer or texture buffer and the user must fill the data by using the ID3D10Device interface.
 
 In Effects 11, you can also make the state blocks (blend state, rasterizer state, depth-stencil state, and sampler state) user-managed by using the following calls:
 

@@ -2,7 +2,7 @@
 Description: The IUpdate2 interface defines the following method.
 ms.assetid: 1859a70c-9ed1-400a-8e3f-412432862ace
 title: IUpdate2 Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -39,7 +39,7 @@ In the descriptions below, the following terms are used:
 -   Target—The entity that a symbolic link points to.
 
 > [!Note]  
-> The behavior of functions that accept a handle created using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function, such as the [**GetFileTime**](https://msdn.microsoft.com/library/windows/desktop/ms724320) function, will differ based on whether or not the **CreateFile** function was called using the **FILE\_FLAG\_OPEN\_REPARSE\_POINT** flag. For more information, see [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) and the following [CreateFile and CreateFileTransacted](#createfile-and-createfiletransacted) section.
+> The behavior of functions that accept a handle created using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function, such as the [**GetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime) function, will differ based on whether or not the **CreateFile** function was called using the **FILE\_FLAG\_OPEN\_REPARSE\_POINT** flag. For more information, see [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) and the following [CreateFile and CreateFileTransacted](#createfile-and-createfiletransacted) section.
 
  
 
@@ -214,7 +214,7 @@ If the path points to a symbolic link, the function returns attributes for the s
 [**GetFileAttributesEx**](/windows/desktop/api/FileAPI/nf-fileapi-getfileattributesexa)
 </dt> <dt>
 
-[**GetFileSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa446639)
+[**GetFileSecurity**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfilesecuritya)
 </dt> <dt>
 
 [**GetTempPath**](/windows/desktop/api/FileAPI/nf-fileapi-gettemppatha)
@@ -226,7 +226,7 @@ If the path points to a symbolic link, the function returns attributes for the s
 [**SetFileAttributes**](/windows/desktop/api/FileAPI/nf-fileapi-setfileattributesa)
 </dt> <dt>
 
-[**SetFileSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379577)
+[**SetFileSecurity**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilesecuritya)
 </dt> </dl>
 
  

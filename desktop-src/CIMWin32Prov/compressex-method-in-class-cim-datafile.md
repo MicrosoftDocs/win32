@@ -18,14 +18,14 @@ api_location:
 
 # CompressEx method of the CIM\_DataFile class
 
-The **CompressEx** method uses NTFS compression to compress the logical file (or directory) that is specified in the object path. This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md). This method is an extended version of the [**Compress**](compress-method-in-class-cim-datafile.md) method and is inherited from [CIM\_LogicalFile](https://msdn.microsoft.com/library/aa384832).
+The **CompressEx** method uses NTFS compression to compress the logical file (or directory) that is specified in the object path. This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md). This method is an extended version of the [**Compress**](compress-method-in-class-cim-datafile.md) method and is inherited from [CIM\_LogicalFile](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -69,7 +69,7 @@ If **TRUE**, the method is also applied recursively to files and directories wit
 
 ## Return value
 
-Returns a value of 0 (zero) on success, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns a value of 0 (zero) on success, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -194,10 +194,10 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DataFile**](cim-datafile.md)
 </dt> <dt>
 
-[WMI Tasks: Files and Folders](https://msdn.microsoft.com/library/aa394594)
+[WMI Tasks: Files and Folders](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--files-and-folders)
 </dt> <dt>
 
-[**File and Directory Access Rights Constants**](https://msdn.microsoft.com/library/aa822867)
+[**File and Directory Access Rights Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/file-and-directory-access-rights-constants)
 </dt> </dl>
 
  

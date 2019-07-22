@@ -3,7 +3,7 @@ title: ResourceLocator Methods
 description: The ResourceLocator object exposes the following methods.
 ms.assetid: AC74C9C1-366B-43B8-878A-6BBDA6269672
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

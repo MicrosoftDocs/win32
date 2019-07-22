@@ -30,7 +30,7 @@ Retrieves the bounding rectangle of all items in the list-view control. The list
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.
+Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.
 
 </dd> </dl>
 

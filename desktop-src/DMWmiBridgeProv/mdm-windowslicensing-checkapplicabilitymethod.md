@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Checks if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices. See also, [CheckApplicability](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/windowslicensing-csp#checkapplicability).
+Checks if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices. See also, [CheckApplicability](https://docs.microsoft.com/windows/client-management/mdm/windowslicensing-csp).
 
 ## Syntax
 
@@ -71,7 +71,7 @@ TRUE or FALSE
 [**MDM\_WindowsLicensing**](mdm-windowslicensing.md)
 </dt> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
+[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

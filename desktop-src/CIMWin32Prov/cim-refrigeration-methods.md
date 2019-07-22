@@ -3,7 +3,7 @@ Description: The CIM\_Refrigeration class exposes the following methods.
 ms.assetid: B8687944-E034-4C21-B469-4B0195C72B91
 ms.tgt_platform: multiple
 title: CIM_Refrigeration Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

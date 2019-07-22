@@ -36,7 +36,7 @@ PSN_TRANSLATEACCELERATOR
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure that contains information about the notification code. This structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of the **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure is a pointer to the message's [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958). It can be cast to an **LPMSG** type, to get access to the parameters of the message to be translated.
+A pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure that contains information about the notification code. This structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of the **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure is a pointer to the message's [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg). It can be cast to an **LPMSG** type, to get access to the parameters of the message to be translated.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Returns PSNRET\_MESSAGEHANDLED to indicate that no further processing is necessa
 
 ## Remarks
 
-To set the return value, the dialog box procedure for the page must use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function with the DWL\_MSGRESULT value. The dialog box procedure must return **TRUE**.
+To set the return value, the dialog box procedure for the page must use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the DWL\_MSGRESULT value. The dialog box procedure must return **TRUE**.
 
 ## Requirements
 

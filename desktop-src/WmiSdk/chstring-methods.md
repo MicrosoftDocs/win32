@@ -3,13 +3,13 @@ Description: The CHString class exposes the following methods.
 ms.assetid: C064D6DE-14C4-4143-8164-B367C10CBF8E
 ms.tgt_platform: multiple
 title: CHString Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # CHString Methods
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CHString**](chstring.md) class exposes the following methods.
 

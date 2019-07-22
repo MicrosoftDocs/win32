@@ -224,7 +224,7 @@ Effect: App bar is displayed.
 
 The swipe from edge gesture.
 
-Developers: For more info, see [**DIRECTMANIPULATION\_CONFIGURATION**](https://msdn.microsoft.com/library/windows/desktop/hh446956) enumeration.
+Developers: For more info, see [**DIRECTMANIPULATION\_CONFIGURATION**](https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration) enumeration.
 
 ### Control usage
 
@@ -399,7 +399,7 @@ Using the correct controls gets you only part of the way to a touch-optimized ap
     -   Providing auto-complete suggestions when appropriate.
 
     > [!Note]  
-    > Developers: For more info about integrating the touch keyboard, see [**ITextInputPanel**](https://msdn.microsoft.com/library/windows/desktop/ms695563).
+    > Developers: For more info about integrating the touch keyboard, see [**ITextInputPanel**](https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel).
 
      
 
@@ -424,7 +424,7 @@ Forgiveness is the ability to reverse or correct an undesired action easily. You
 
     Routine confirmations are acceptable for interactions that users often do accidentally using touch.
 
-    Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](https://msdn.microsoft.com/library/windows/desktop/hh448799) API.
+    Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_message_source) API.
 
  
 

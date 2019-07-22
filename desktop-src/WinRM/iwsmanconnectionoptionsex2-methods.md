@@ -3,7 +3,7 @@ title: IWSManConnectionOptionsEx2 Methods
 description: The IWSManConnectionOptionsEx2 interface exposes the following methods.
 ms.assetid: 47ED80AD-DE42-45B4-94A7-8AF7E6C27213
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

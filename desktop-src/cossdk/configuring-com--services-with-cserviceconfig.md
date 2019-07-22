@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Configuring COM+ Services with CServiceConfig
 
-The [**CServiceConfig**](cserviceconfig.md) class is used to configure the COM+ services that can be used without components. It aggregates the free-threaded marshaler, so it can be used in different apartments. To configure an individual service, you must call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration. The following table describes the interfaces that are implemented through the **CServiceConfig** class.
+The [**CServiceConfig**](cserviceconfig.md) class is used to configure the COM+ services that can be used without components. It aggregates the free-threaded marshaler, so it can be used in different apartments. To configure an individual service, you must call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration. The following table describes the interfaces that are implemented through the **CServiceConfig** class.
 
 
 

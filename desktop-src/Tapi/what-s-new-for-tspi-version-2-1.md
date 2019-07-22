@@ -25,13 +25,13 @@ Functions and messages that were new or changed for TSPI version 2.1 are as foll
 -   [**TSPI_phoneGetID**](https://msdn.microsoft.com/en-us/library/ms725934(v=VS.85).aspx)
 -   [**TSPI_providerInit**](https://msdn.microsoft.com/en-us/library/ms725960(v=VS.85).aspx)
 -   [**TSPI_providerShutdown**](https://msdn.microsoft.com/en-us/library/ms725963(v=VS.85).aspx)
--   [**LINE_GATHERDIGITS**](https://msdn.microsoft.com/library/ms725229)
--   [**LINE_GENERATE**](https://msdn.microsoft.com/library/ms725230)
--   [**LINE_MONITORDIGITS**](https://msdn.microsoft.com/library/ms725232)
--   [**LINE_MONITORMEDIA**](https://msdn.microsoft.com/library/ms725233)
--   [**LINE_MONITORTONE**](https://msdn.microsoft.com/library/ms725234)
--   [**LINE_REMOVE**](https://msdn.microsoft.com/library/ms725237)
--   [**PHONE_REMOVE**](https://msdn.microsoft.com/library/ms725260)
+-   [**LINE_GATHERDIGITS**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85))
+-   [**LINE_GENERATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725230(v=vs.85))
+-   [**LINE_MONITORDIGITS**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85))
+-   [**LINE_MONITORMEDIA**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725233(v=vs.85))
+-   [**LINE_MONITORTONE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725234(v=vs.85))
+-   [**LINE_REMOVE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725237(v=vs.85))
+-   [**PHONE_REMOVE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725260(v=vs.85))
 
 The Telephony service provider user interface DLL provides a means of allowing user interaction within the context of the application rather than the service provider itself. TSPI version 2.1 delivered the following new functions, messages, and structures for implementation:
 

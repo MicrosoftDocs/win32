@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To determine whether a file system supports reparse points, call the [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) function and examine the **FILE\_SUPPORTS\_REPARSE\_POINTS** bit flag.
 
-The [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) function enables you to set, modify, obtain, and remove reparse points. The following table describes the reparse point operations that you can perform using **DeviceIoControl**.
+The [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function enables you to set, modify, obtain, and remove reparse points. The following table describes the reparse point operations that you can perform using **DeviceIoControl**.
 
 
 

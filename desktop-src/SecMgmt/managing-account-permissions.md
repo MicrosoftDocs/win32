@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Managing Account Permissions
 
-The LSA provides several functions that applications can call to enumerate or set [*privileges*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-privilege-gly) for user, group, and local group accounts.
+The LSA provides several functions that applications can call to enumerate or set [*privileges*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) for user, group, and local group accounts.
 
-Before you can manage account information, your application must get a handle to the local [**Policy**](policy-object.md) object, as demonstrated in [Opening a Policy Object Handle](opening-a-policy-object-handle.md). In addition, to enumerate or edit permissions for an account, you must have the [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID) for that account. Your application can locate a SID given the account name, as described in [Translating Between Names and SIDs](translating-between-names-and-sids.md).
+Before you can manage account information, your application must get a handle to the local [**Policy**](policy-object.md) object, as demonstrated in [Opening a Policy Object Handle](opening-a-policy-object-handle.md). In addition, to enumerate or edit permissions for an account, you must have the [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) for that account. Your application can locate a SID given the account name, as described in [Translating Between Names and SIDs](translating-between-names-and-sids.md).
 
 To access all accounts that have a particular permission, call [**LsaEnumerateAccountsWithUserRight**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright). This function populates an array with the SIDs of all accounts that have the specified permission.
 
@@ -57,7 +57,7 @@ void AddPrivileges(PSID AccountSID, LSA_HANDLE PolicyHandle)
 
 
 
-In the preceding example, the function InitLsaString converts a [*Unicode*](https://msdn.microsoft.com/library/windows/desktop/ms721629#-security-unicode-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
+In the preceding example, the function InitLsaString converts a [*Unicode*](https://docs.microsoft.com/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
  
 

@@ -55,7 +55,7 @@ Returns a positive value if successful, or -1 otherwise. The following return va
 
 ## Remarks
 
-To retrieve extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+To retrieve extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 The return value for this message is identical to what [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) returns for a modal property sheet.
 

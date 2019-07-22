@@ -12,9 +12,9 @@ This topics shows how to initialize a [device](overviews-direct3d-11-devices-int
 
 **To create a device and immediate context**
 
-Fill out the [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173075) structure with information about buffer formats and dimensions. For more information, see Creating a Swap Chain.
+Fill out the [**DXGI\_SWAP\_CHAIN\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc) structure with information about buffer formats and dimensions. For more information, see Creating a Swap Chain.
 
-The following code example demonstrates how to fill in the [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173075) structure.
+The following code example demonstrates how to fill in the [**DXGI\_SWAP\_CHAIN\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc) structure.
 
 
 ```
@@ -35,7 +35,7 @@ sd.Windowed = TRUE;
 
 
 
-Using the [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173075) structure from step one, call [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) to initialize the device and swap chain at the same time.
+Using the [**DXGI\_SWAP\_CHAIN\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc) structure from step one, call [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) to initialize the device and swap chain at the same time.
 
 
 ```

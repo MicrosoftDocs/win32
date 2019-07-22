@@ -57,7 +57,7 @@ public Nullable<T> Value { get; set; }
 
 #### Property value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[T](dn334171\(v=exchg.10\).md)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[T](dn334171\(v=exchg.10\).md)\>  
 
 ## See also
 

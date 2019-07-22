@@ -47,8 +47,8 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx"><strong>CreateProcess</strong></a> with command line parameters</td>
-<td>This is the simplest and most familiar means of implementing a static verb. A process is invoked through a call to the <a href="https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx"><strong>CreateProcess</strong></a> function with the selected files and any optional parameters passed as the command line. This opens the file or folder.<br/> This method has the following limitations:
+<td><a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> with command line parameters</td>
+<td>This is the simplest and most familiar means of implementing a static verb. A process is invoked through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> function with the selected files and any optional parameters passed as the command line. This opens the file or folder.<br/> This method has the following limitations:
 <ul>
 <li>The command-line length is limited to 2000 characters, which limits the number of items that the verb can handle.</li>
 <li>Can only be used with file system items.</li>
@@ -58,8 +58,8 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 <br/></td>
 </tr>
 <tr class="even">
-<td><strong>DropTarget</strong>/<a href="https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx"><strong>IDropTarget</strong></a></td>
-<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/<a href="https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx"><strong>IDropTarget</strong></a> also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx"><strong>QueryService</strong></a>.</td>
+<td><strong>DropTarget</strong>/<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a></td>
+<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a> also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>Windows 7 and later: <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a></td>

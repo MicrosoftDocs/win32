@@ -98,7 +98,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -111,7 +111,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (256)
 </dt> </dl>
 
-The name of the class or the subclass used in the creation of an instance. When used with the other key properties of this class, this property allows all instances of this class and its subclasses to be uniquely identified. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814).
+The name of the class or the subclass used in the creation of an instance. When used with the other key properties of this class, this property allows all instances of this class and its subclasses to be uniquely identified. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85)).
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -166,7 +166,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The status of the entry. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814).
+The status of the entry. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85)).
 
 <dl> <dt>
 
@@ -196,7 +196,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the element. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the element. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is always set to 5 ("OK").
+The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5 ("OK").
 
 </dd> <dt>
 
@@ -222,7 +222,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Automatically populated when the virtual machine is created. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Automatically populated when the virtual machine is created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -254,7 +254,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (12)
 </dt> </dl>
 
-Unicast MAC address for which the transparent bridging service has forwarding and filtering information. The MAC address is formatted as twelve hexadecimal digits (for example, "010203040506"), with each pair representing one of the six octets of the MAC address in "canonical" bit order according to RFC 2469. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814).
+Unicast MAC address for which the transparent bridging service has forwarding and filtering information. The MAC address is formatted as twelve hexadecimal digits (for example, "010203040506"), with each pair representing one of the six octets of the MAC address in "canonical" bit order according to RFC 2469. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85)).
 
 </dd> <dt>
 
@@ -267,7 +267,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -280,7 +280,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -293,7 +293,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), but it is not supported.
+This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not supported.
 
 </dd> <dt>
 
@@ -306,7 +306,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -322,7 +322,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (256)
 </dt> </dl>
 
-The scoping service's **CreationClassName**. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814).
+The scoping service's **CreationClassName**. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85)).
 
 </dd> <dt>
 
@@ -338,7 +338,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (256)
 </dt> </dl>
 
-The scoping service's name. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814).
+The scoping service's name. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85)).
 
 </dd> <dt>
 
@@ -351,7 +351,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), but it is not used.
+This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -364,7 +364,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), but it is not supported.
+This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not supported.
 
 </dd> <dt>
 
@@ -380,7 +380,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (256)
 </dt> </dl>
 
-The scoping system's **CreationClassName**. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814).
+The scoping system's **CreationClassName**. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85)).
 
 </dd> <dt>
 
@@ -396,7 +396,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (256)
 </dt> </dl>
 
-The scoping system's name. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814).
+The scoping system's name. This property is inherited from [**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85)).
 
 </dd> <dt>
 
@@ -415,7 +415,7 @@ The virtual LAN identifier associated with this entry.
 
 ## Remarks
 
-Access to the **Msvm\_DynamicForwardingEntry** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_DynamicForwardingEntry** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -442,7 +442,7 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md)
 </dt> <dt>
 
-[**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814)
+[**CIM\_DynamicForwardingEntry**](https://docs.microsoft.com/previous-versions//cc136814(v=vs.85))
 </dt> </dl>
 
  

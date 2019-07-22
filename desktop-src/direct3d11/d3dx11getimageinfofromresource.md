@@ -25,7 +25,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [resource functions](https://msdn.microsoft.com/library/windows/desktop/ff468902), then use [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) library (tools), **LoadFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
+> Instead of using this function, we recommend that you use [resource functions](https://docs.microsoft.com/windows/desktop/menurc/resources-functions), then use [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) library (tools), **LoadFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 
  
 
@@ -53,7 +53,7 @@ HRESULT D3DX11GetImageInfoFromResource(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**HMODULE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Module where the resource is loaded. Set this parameter to **NULL** to specify the module associated with the image that the operating system used to create the current process.
 
@@ -62,7 +62,7 @@ Module where the resource is loaded. Set this parameter to **NULL** to specify t
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR. See Remarks.
 

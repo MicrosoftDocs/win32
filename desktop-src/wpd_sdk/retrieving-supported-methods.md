@@ -2,7 +2,7 @@
 Description: Retrieving Supported Service Methods
 ms.assetid: 783a6552-9b22-4af4-9252-b443e2624687
 title: Retrieving Supported Service Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

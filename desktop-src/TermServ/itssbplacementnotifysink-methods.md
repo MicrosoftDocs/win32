@@ -3,7 +3,7 @@ title: ITsSbPlacementNotifySink Methods
 description: The ITsSbPlacementNotifySink interface exposes the following methods.
 ms.assetid: FE74D6D4-1B60-41D2-94F9-4D2A71662CD1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

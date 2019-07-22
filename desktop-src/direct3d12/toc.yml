@@ -275,7 +275,7 @@
           - name: "Wait"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-wait
         - name: "ID3D12CommandSignature"
-          href: https://msdn.microsoft.com/en-us/library/Dn891446(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandsignature
         - name: "ID3D12DescriptorHeap"
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap
           items: 
@@ -380,7 +380,7 @@
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12device3
           items: 
           - name: "OpenExistingHeapFromFileMapping"
-            href: https://msdn.microsoft.com/en-us/library/Mt813613(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt813613(v=vs.85)
           - name: "OpenExistingHeapFromAddress"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromaddress
           - name: "EnqueueMakeResident"
@@ -615,7 +615,7 @@
           - name: "SetPrivateDataInterface"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface
         - name: "ID3D12Pageable"
-          href: https://msdn.microsoft.com/en-us/library/Dn788704(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable
         - name: "ID3D12PipelineLibrary"
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary
           items: 
@@ -652,7 +652,7 @@
           - name: "GetSessionStatus"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus
         - name: "ID3D12QueryHeap"
-          href: https://msdn.microsoft.com/en-us/library/Dn891447(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap
         - name: "ID3D12Resource"
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12resource
           items: 
@@ -671,7 +671,7 @@
           - name: "WriteToSubresource"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12resource-writetosubresource
         - name: "ID3D12RootSignature"
-          href: https://msdn.microsoft.com/en-us/library/Dn788714(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignature
         - name: "ID3D12RootSignatureDeserializer"
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer
           items: 
@@ -1324,7 +1324,7 @@
         - name: "D3D12_VARIABLE_SHADING_RATE_TIER"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier
         - name: "D3D12_VIEW_INSTANCE_FLAGS"
-          href: https://msdn.microsoft.com/en-us/library/Mt844810(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_view_instancing_flags
         - name: "D3D12_VIEW_INSTANCING_TIER"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_view_instancing_tier
         - name: "D3D12_WRITEBUFFERIMMEDIATE_MODE"

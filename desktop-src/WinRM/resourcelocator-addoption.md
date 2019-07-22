@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # ResourceLocator.AddOption method
 
-Adds additional data required to process the request. For example, some WMI providers may require an [**IWbemContext**](https://msdn.microsoft.com/library/aa391465) or [**SWbemNamedValueSet**](https://msdn.microsoft.com/library/aa393732) object with provider-specific information. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
+Adds additional data required to process the request. For example, some WMI providers may require an [**IWbemContext**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext) or [**SWbemNamedValueSet**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemnamedvalueset) object with provider-specific information. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
 
 ## Syntax
 

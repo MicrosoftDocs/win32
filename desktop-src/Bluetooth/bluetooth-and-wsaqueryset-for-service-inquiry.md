@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Bluetooth and WSAQUERYSET for Service Inquiry
 
-Bluetooth uses the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure, with various functions, to facilitate the discovery of devices and services in the Bluetooth namespace, NS\_BTH.
+Bluetooth uses the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure, with various functions, to facilitate the discovery of devices and services in the Bluetooth namespace, NS\_BTH.
 
-The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633) and [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) functions use the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure to obtain data about the service inquiry process. The following table describes how to set the member values in the **WSAQUERYSET** structure for this purpose.
+The [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) and [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) functions use the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure to obtain data about the service inquiry process. The following table describes how to set the member values in the **WSAQUERYSET** structure for this purpose.
 
 
 
@@ -33,8 +33,8 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 <tbody>
 <tr class="odd">
 <td><strong>dwSize</strong></td>
-<td>Must be set to <strong>sizeof</strong>(<a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a>).</td>
-<td><strong>sizeof</strong>(<a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a>) returned by system.</td>
+<td>Must be set to <strong>sizeof</strong>(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw"><strong>WSAQUERYSET</strong></a>).</td>
+<td><strong>sizeof</strong>(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw"><strong>WSAQUERYSET</strong></a>) returned by system.</td>
 </tr>
 <tr class="even">
 <td><strong>dwOutputFlags</strong></td>
@@ -73,7 +73,7 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 </tr>
 <tr class="odd">
 <td><strong>lpszContext</strong></td>
-<td>Required. The Bluetooth Device Address with which to establish an SDP connection and query for services. This value must be a string that was converted by using the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741516"><strong>WSAAddressToString</strong></a> function call. If the local Bluetooth device address is provided, the local SDP database is searched.</td>
+<td>Required. The Bluetooth Device Address with which to establish an SDP connection and query for services. This value must be a string that was converted by using the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa"><strong>WSAAddressToString</strong></a> function call. If the local Bluetooth device address is provided, the local SDP database is searched.</td>
 <td>Not used.</td>
 </tr>
 <tr class="even">
@@ -94,19 +94,19 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 <tr class="odd">
 <td><strong>dwNumberOfCsAddrs</strong></td>
 <td>Not used.</td>
-<td>Indicates the number of elements in the array of <a href="https://msdn.microsoft.com/library/windows/desktop/ms737640"><strong>CSADDR_INFO</strong></a> structures.</td>
+<td>Indicates the number of elements in the array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info"><strong>CSADDR_INFO</strong></a> structures.</td>
 </tr>
 <tr class="even">
 <td><strong>lpcsaBuffer</strong></td>
 <td>Not used.</td>
-<td>Pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms737640"><strong>CSADDR_INFO</strong></a> structure whose <strong>LocalAddr.lpSockaddr</strong> member points to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth"><strong>SOCKADDR_BTH</strong></a> that contains the complete connectable address of the remote service, converted from the first entry of the Bluetooth ProtocolDescriptorList SDP attribute. Returned if <strong>LUP_RETURN_ADDR</strong> is specified.</td>
+<td>Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info"><strong>CSADDR_INFO</strong></a> structure whose <strong>LocalAddr.lpSockaddr</strong> member points to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth"><strong>SOCKADDR_BTH</strong></a> that contains the complete connectable address of the remote service, converted from the first entry of the Bluetooth ProtocolDescriptorList SDP attribute. Returned if <strong>LUP_RETURN_ADDR</strong> is specified.</td>
 </tr>
 <tr class="odd">
 <td><strong>lpBlob</strong></td>
 <td>Optional. Pointer to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service"><strong>BTH_QUERY_SERVICE</strong></a> structure that contains advanced parameters to limit the results of the search. If provided, <strong>lpServiceClassId</strong> is ignored and cached queries do not succeed.</td>
 <td><ul>
-<li>If a service search is performed: Pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms737551"><strong>BLOB</strong></a> structure that returns the service handles. (<strong>BLOB.cbSize</strong>)/<strong>sizeof</strong>(ULONG) calculates the number of handles. <strong>BLOB.pBlobData</strong> is an array of ULONG values representing the service handles.</li>
-<li>If an attribute or serviceAttribute search is performed: Pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms737551"><strong>BLOB</strong></a> structure that returns the binary SDP record. <strong>BLOB.cbSize</strong> is the size of the binary SDP record. <strong>BLOB.pBlobData</strong> points to the record itself. The binary SDP record is necessary in many cases because only a limited number of SDP attributes are able to be converted to the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a> structure, and only default encoded UTF-8 strings are converted. Functions to assist in parsing the binary SDP record are provided in the <a href="bluetooth-reference">Bluetooth Reference</a> section.</li>
+<li>If a service search is performed: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob"><strong>BLOB</strong></a> structure that returns the service handles. (<strong>BLOB.cbSize</strong>)/<strong>sizeof</strong>(ULONG) calculates the number of handles. <strong>BLOB.pBlobData</strong> is an array of ULONG values representing the service handles.</li>
+<li>If an attribute or serviceAttribute search is performed: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob"><strong>BLOB</strong></a> structure that returns the binary SDP record. <strong>BLOB.cbSize</strong> is the size of the binary SDP record. <strong>BLOB.pBlobData</strong> points to the record itself. The binary SDP record is necessary in many cases because only a limited number of SDP attributes are able to be converted to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure, and only default encoded UTF-8 strings are converted. Functions to assist in parsing the binary SDP record are provided in the <a href="bluetooth-reference">Bluetooth Reference</a> section.</li>
 <li>Returned if LUP_RETURN_BLOB is specified.</li>
 </ul></td>
 </tr>
@@ -139,25 +139,25 @@ Bluetooth and WSALookupServiceNext
 [Bluetooth Reference](bluetooth-reference.md)
 </dt> <dt>
 
-[**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551)
+[**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob)
 </dt> <dt>
 
 [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service)
 </dt> <dt>
 
-[**CSADDR\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms737640)
+[**CSADDR\_INFO**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info)
 </dt> <dt>
 
 [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth)
 </dt> <dt>
 
-[**WSAAddressToString**](https://msdn.microsoft.com/library/windows/desktop/ms741516)
+[**WSAAddressToString**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa)
 </dt> <dt>
 
-[**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679)
+[**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw)
 </dt> <dt>
 
-[Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
+[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
 
  

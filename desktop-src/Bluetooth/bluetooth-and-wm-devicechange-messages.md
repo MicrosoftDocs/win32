@@ -8,20 +8,20 @@ ms.date: 05/31/2018
 
 # Bluetooth and WM\_DEVICECHANGE Messages
 
-Bluetooth includes specific [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/library/windows/desktop/aa363480) messages that enable developers to obtain messages when Bluetooth devices undergo status changes. This topic describes how to receive Bluetooth-specific **WM\_DEVICECHANGE** messages and lists Bluetooth-specific messages.
+Bluetooth includes specific [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) messages that enable developers to obtain messages when Bluetooth devices undergo status changes. This topic describes how to receive Bluetooth-specific **WM\_DEVICECHANGE** messages and lists Bluetooth-specific messages.
 
 ## Receiving Bluetooth-specific WM\_DEVICECHANGE Messages
 
-To receive [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/library/windows/desktop/aa363480) messages, a handle to the local radio must first be opened. To do this, use one of the following methods:
+To receive [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) messages, a handle to the local radio must first be opened. To do this, use one of the following methods:
 
--   Use the [SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493) function with the following parameters: (GUID\_BTHPORT\_DEVICE\_INTERFACE, …, DIGCF\_PRESENT \| DIGCF\_DEVICEINTERFACE), then use the [SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492), [SetupDiGetDeviceInterfaceDetail](https://go.microsoft.com/fwlink/p/?linkid=91494), [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), and the [SetupDiDestroyDeviceInfoList](https://go.microsoft.com/fwlink/p/?linkid=91491) functions.
+-   Use the [SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493) function with the following parameters: (GUID\_BTHPORT\_DEVICE\_INTERFACE, …, DIGCF\_PRESENT \| DIGCF\_DEVICEINTERFACE), then use the [SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492), [SetupDiGetDeviceInterfaceDetail](https://go.microsoft.com/fwlink/p/?linkid=91494), [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea), and the [SetupDiDestroyDeviceInfoList](https://go.microsoft.com/fwlink/p/?linkid=91491) functions.
 -   Use the [**BluetoothFindFirstRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindfirstradio), [**BluetoothFindNextRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindnextradio), and [**BluetoothFindRadioClose**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindradioclose) functions.
 
-When the Bluetooth radio handle is opened, call the [**RegisterDeviceNotification**](https://msdn.microsoft.com/library/windows/desktop/aa363431) function and register for notifications on the handle using **DBT\_DEVTYP\_HANDLE** as the devicetype. When registered, the following GUIDs are sent, and the [**DEV\_BROADCAST\_HANDLE**](https://msdn.microsoft.com/library/windows/desktop/aa363245)::**dbch\_data** member is the associated buffer.
+When the Bluetooth radio handle is opened, call the [**RegisterDeviceNotification**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa) function and register for notifications on the handle using **DBT\_DEVTYP\_HANDLE** as the devicetype. When registered, the following GUIDs are sent, and the [**DEV\_BROADCAST\_HANDLE**](https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_handle)::**dbch\_data** member is the associated buffer.
 
 ## Bluetooth-specific Messages
 
-The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/library/windows/desktop/aa363480) messages.
+The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) messages.
 
 | GUID                                   | BUFFER                                                  | Description                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://msdn
 [**BluetoothFindRadioClose**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindradioclose)
 </dt> <dt>
 
-[**RegisterDeviceNotification**](https://msdn.microsoft.com/library/windows/desktop/aa363431)
+[**RegisterDeviceNotification**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa)
 </dt> <dt>
 
 [SetupDiDestroyDeviceInfoList](https://go.microsoft.com/fwlink/p/?linkid=91491)
@@ -72,10 +72,10 @@ The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://msdn
 [**BTH\_RADIO\_IN\_RANGE**](/windows/desktop/api/Bthdef/ns-bthdef-_bth_radio_in_range)
 </dt> <dt>
 
-[**DEV\_BROADCAST\_HANDLE**](https://msdn.microsoft.com/library/windows/desktop/aa363245)
+[**DEV\_BROADCAST\_HANDLE**](https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_handle)
 </dt> <dt>
 
-[**WM\_DEVICECHANGE**](https://msdn.microsoft.com/library/windows/desktop/aa363480)
+[**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange)
 </dt> </dl>
 
  

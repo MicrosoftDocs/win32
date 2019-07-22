@@ -48,7 +48,7 @@ The DLL implements the [**VirtualChannelGetInstance**](virtualchannelgetinstance
 <span id="_CLSID_"></span><span id="_clsid_"></span>"{*CLSID*}"
 </dt> <dd>
 
-The RDC client will instantiate the plug-in as a regular COM object using [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) with the *CLSID*.
+The RDC client will instantiate the plug-in as a regular COM object using [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with the *CLSID*.
 
 </dd> </dl>
 

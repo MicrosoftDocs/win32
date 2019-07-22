@@ -51,7 +51,7 @@ If an application processes this message, it must return a handle to a brush. Th
 
 ## Remarks
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function selects the default system colors for the dialog box.
+By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function selects the default system colors for the dialog box.
 
 The system does not automatically destroy the returned brush. It is the application's responsibility to destroy the brush when it is no longer needed.
 
@@ -59,7 +59,7 @@ The **WM\_CTLCOLORDLG** message is never sent between threads. It is sent only w
 
 Note that the **WM\_CTLCOLORDLG** message is sent to the dialog box itself; all of the other **WM\_CTLCOLOR\*** messages are sent to the owner of the control.
 
-If a dialog box procedure handles this message, it should cast the desired return value to an **INT\_PTR** and return the value directly. If the dialog box procedure returns **FALSE**, then default message handling is performed. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function is ignored.
+If a dialog box procedure handles this message, it should cast the desired return value to an **INT\_PTR** and return the value directly. If the dialog box procedure returns **FALSE**, then default message handling is performed. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
 ## Requirements
 
@@ -80,10 +80,10 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591)
+[**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
 </dt> <dt>
 
 **Conceptual**
@@ -95,10 +95,10 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Other Resources**
 </dt> <dt>
 
-[**RealizePalette**](https://msdn.microsoft.com/library/windows/desktop/dd162896)
+[**RealizePalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette)
 </dt> <dt>
 
-[**SelectPalette**](https://msdn.microsoft.com/library/windows/desktop/dd162958)
+[**SelectPalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette)
 </dt> </dl>
 
  

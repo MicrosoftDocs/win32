@@ -17,7 +17,7 @@ api_location:
 
 # Binary (EventDataType) Element
 
-A binary data blob for events that are written using [Event Logging](https://msdn.microsoft.com/library/windows/desktop/aa363652).
+A binary data blob for events that are written using [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging).
 
 ``` syntax
 <xs:element name="Binary"

@@ -68,12 +68,12 @@ The **InkTransform** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 The object stores only six of the nine numbers in a 3x3 matrix because all 3x3 matrices that represent affine transformations have the same third column (0, 0, 1). This object in turn is used to describe transformation operations such as moving, shearing, scaling, or rotating in an [**InkRenderer**](inkrenderer-class.md) object, [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) object, or [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection.
 
 > [!Note]  
-> The **InkTransform** object correlates to the [**XFORM**](https://msdn.microsoft.com/library/windows/desktop/dd145228) structure.
+> The **InkTransform** object correlates to the [**XFORM**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform) structure.
 
  
 

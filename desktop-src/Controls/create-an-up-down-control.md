@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create Up-Down Controls
 
-You create up-down controls by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and passing the value [**UPDOWN\_CLASS**](common-control-window-classes.md) for the Windows class parameter *lpClassName*.
+You create up-down controls by calling the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and passing the value [**UPDOWN\_CLASS**](common-control-window-classes.md) for the Windows class parameter *lpClassName*.
 
 **Note**   The [**CreateUpDownControl**](/windows/desktop/api/Commctrl/nf-commctrl-createupdowncontrol) function is deprecated. You should use the `CreateWindowEx` function instead.
 

@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_ClientApplicationSetting class
 
-The **Win32\_ClientApplicationSetting** association [WMI class](https://msdn.microsoft.com/library/aa393244) relates an executable file and a Component Object Model (COM) application that contains the COM configuration options for the executable file.
+The **Win32\_ClientApplicationSetting** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates an executable file and a Component Object Model (COM) application that contains the COM configuration options for the executable file.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_DCOMApplication**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_DCOMApplication")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_DCOMApplication")
 </dt> </dl>
 
 Reference to the instance that represents the COM application that contains configuration options of the executable file.
@@ -72,7 +72,7 @@ Data type: **CIM\_DataFile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("CIM\|CIM\_DataFile")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_DataFile")
 </dt> </dl>
 
 Reference to the instance that represents the executable file that uses COM settings.
@@ -101,7 +101,7 @@ Reference to the instance that represents the executable file that uses COM sett
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

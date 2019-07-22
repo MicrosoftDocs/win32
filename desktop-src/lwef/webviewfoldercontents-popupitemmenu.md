@@ -44,7 +44,7 @@ retVal = WebViewFolderContents.PopupItemMenu(
 
 Type: **Variant**
 
-The [**FolderItem**](https://msdn.microsoft.com/library/windows/desktop/bb787810) object for which the shortcut menu will be created.
+The [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object for which the shortcut menu will be created.
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ The vertical position of the menu, in screen coordinates.
 
 ## Return value
 
-Type: **[BSTR](https://msdn.microsoft.com/en-US/library/ms221069.aspx)\***
+Type: **[BSTR](https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr)\***
 
 When this method returns, contains the command string.
 

@@ -34,7 +34,7 @@ For conceptual background on file types and handlers, see the following topics:
 
 For background on related technologies and on implementing a data store, see the following topics:
 
--   Windows Search protocol handlers use design specifications similar to SharePoint Server, and they can often be used interchangeably. For more information, see [SharePoint Server Developer Center](https://msdn.microsoft.com/en-us/office/aa905503.aspx).
+-   Windows Search protocol handlers use design specifications similar to SharePoint Server, and they can often be used interchangeably. For more information, see [SharePoint Server Developer Center](https://developer.microsoft.com/office/docs).
 -   In Windows 7 and later, SharePoint Search Server 2008 and MOSS 2007 SP2 also support federated search. For more information about federated search and Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](https://msdn.microsoft.com/en-us/library/bb931109.aspx).
 -   To create a Shell data store, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/cc144093(VS.85).aspx).
 

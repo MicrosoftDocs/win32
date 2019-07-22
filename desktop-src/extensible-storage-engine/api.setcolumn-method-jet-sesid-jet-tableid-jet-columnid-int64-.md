@@ -80,7 +80,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
     
     The data to set.
 

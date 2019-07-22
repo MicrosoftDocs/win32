@@ -25,7 +25,7 @@ Use the **IDeliveryOptimizationJob** interface to download ranges of a file.
 
 ## Members
 
-The **IDeliveryOptimizationJob** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IDeliveryOptimizationJob** also has these types of members:
+The **IDeliveryOptimizationJob** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationJob** also has these types of members:
 
 - [Methods](#methods)
 

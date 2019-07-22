@@ -2,7 +2,7 @@
 title: IEnumBitsPeers Methods
 description: The IEnumBitsPeers interface exposes the following methods.
 ms.assetid: 4925BC00-D235-4806-A75D-E3DE7951104E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

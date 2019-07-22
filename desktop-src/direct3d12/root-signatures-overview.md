@@ -27,7 +27,7 @@ The root constants are inline 32-bit values that show up in the shader as a cons
 
 The inlined root descriptors should contain descriptors that are accessed most often, though is limited to CBVs, and raw or structured UAV or SRV buffers. A more complex type, such as a 2D texture SRV, cannot be used as a root descriptor. Root descriptors do not include a size limit, so there can be no out-of-bounds checking, unlike descriptors in descriptor heaps, which do include a size.
 
-Descriptor table entries within root signatures contain the descriptor, HLSL shader bind name and visibility flag. Refer to [Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277) for details of shader names. On some hardware, there can be a performance gain from only making descriptors visible to the shader stages that require them (refer to [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)).
+Descriptor table entries within root signatures contain the descriptor, HLSL shader bind name and visibility flag. Refer to [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1) for details of shader names. On some hardware, there can be a performance gain from only making descriptors visible to the shader stages that require them (refer to [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)).
 
 ![root descriptor table entry](images/root-descriptor-table.png)
 

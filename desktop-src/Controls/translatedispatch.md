@@ -40,15 +40,15 @@ BOOL CALLBACK TranslateDispatch(
 *lpmsg* \[in\]
 </dt> <dd>
 
-Type: **const [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958)\***
+Type: **const [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg)\***
 
-A pointer to an [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure that contains the intercepted message.
+A pointer to an [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure that contains the intercepted message.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751#bool)**
+Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the message was handled by this function; otherwise, **FALSE**. If **FALSE**, the message is handled by the default reader mode implementation. That implementation handles mouse movement and buttons as well as key presses.
 

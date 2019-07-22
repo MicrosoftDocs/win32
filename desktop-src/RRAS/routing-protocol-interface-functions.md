@@ -20,7 +20,7 @@ Implement the following functions for a routing protocol DLL:
 
 [**DoUpdateRoutes**](/windows/desktop/api/Routprot/nc-routprot-pdo_update_routes)
 
-[*DoUpdateServices*](https://msdn.microsoft.com/library/windows/desktop/aa374005)
+[*DoUpdateServices*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374005(v=vs.85))
 
 [**GetEventMessage**](/windows/desktop/api/Routprot/nc-routprot-pget_event_message)
 
@@ -66,11 +66,11 @@ Implement the following functions for a routing protocol DLL:
 
 [**StopProtocol**](/windows/desktop/api/Routprot/nc-routprot-pstop_protocol)
 
-[**UnbindInterface**](https://msdn.microsoft.com/library/windows/desktop/aa382296)
+[**UnbindInterface**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382296(v=vs.85))
 
 If the routing protocol supports service handling, implement the following function in addition to those listed preceding:
 
-[**DoUpdateServices**](https://msdn.microsoft.com/library/windows/desktop/aa374005)
+[**DoUpdateServices**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374005(v=vs.85))
 
  
 

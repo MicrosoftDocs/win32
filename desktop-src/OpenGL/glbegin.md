@@ -180,7 +180,7 @@ The **glBegin** and [**glend**](glend.md) functions delimit the vertices that de
 [**glEdgeFlag**](gledgeflag-functions.md)
 </dt> <dt>
 
-[**glEnd**](https://msdn.microsoft.com/library/windows/desktop/dd318849)
+[**glEnd**](https://docs.microsoft.com/windows/desktop/OpenGL/glend)
 </dt> <dt>
 
 [**glEvalCoord**](glevalcoord-functions.md)

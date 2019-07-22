@@ -22,7 +22,7 @@ There are two points of interaction between NPS and the state server. One intera
 
 For more information on state servers see:
 
--   [State Server Design Considerations](https://msdn.microsoft.com/library/bb892026)
+-   [State Server Design Considerations](https://docs.microsoft.com/windows/desktop/Nps/ias-state-server-design-considerations)
 
 ## Related topics
 
@@ -31,10 +31,10 @@ For more information on state servers see:
 [Internet Authentication Service and Network Policy Server](internet-authentication-service-vs-network-policy-server.md)
 </dt> <dt>
 
-[RADIUS Authentication, Authorization, and Accounting](https://msdn.microsoft.com/library/bb892012)
+[RADIUS Authentication, Authorization, and Accounting](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-authentication-and-accounting)
 </dt> <dt>
 
-[Logging With Network Policy Server](https://msdn.microsoft.com/library/bb892007)
+[Logging With Network Policy Server](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-accounting-packets)
 </dt> </dl>
 
  

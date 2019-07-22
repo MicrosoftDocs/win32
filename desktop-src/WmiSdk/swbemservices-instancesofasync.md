@@ -141,7 +141,7 @@ This method does not return a value. If successful, the sink receives an [**OnOb
 
 ## Error codes
 
-Upon the completion of the **InstancesOfAsync** method, the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object may contain one of the error codes in the following list.
+Upon the completion of the **InstancesOfAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 

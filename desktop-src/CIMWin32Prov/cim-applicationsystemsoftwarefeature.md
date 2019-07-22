@@ -61,7 +61,7 @@ Data type: **CIM\_ApplicationSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://msdn.microsoft.com/library/aa393650) (0), [**Override**](https://msdn.microsoft.com/library/aa393650) ("GroupComponent")
+Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**CIM\_ApplicationSystem**](cim-applicationsystem.md) that contains the parent system in the association.
@@ -77,7 +77,7 @@ Data type: **CIM\_SoftwareFeature**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://msdn.microsoft.com/library/aa393650) (0), [**Override**](https://msdn.microsoft.com/library/aa393650) ("PartComponent")
+Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_SoftwareFeature**](cim-softwarefeature.md) that contain the child element that is a component of a system.

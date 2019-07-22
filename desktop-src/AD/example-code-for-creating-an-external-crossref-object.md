@@ -17,7 +17,7 @@ api_location:
 
 # Example Code for Creating an External crossRef Object
 
-The following Visual Basic code example shows how to create an external [**crossRef**](https://msdn.microsoft.com/library/ms681007) object.
+The following Visual Basic code example shows how to create an external [**crossRef**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossref) object.
 
 
 ```VB

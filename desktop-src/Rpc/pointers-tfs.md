@@ -83,7 +83,7 @@ FC_IP FC_PAD
 iid_description<> 
 ```
 
-The iid\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. The value calculated by the **NdrComputeConformance** function is the IID pointer.
+The iid\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used. The value calculated by the **NdrComputeConformance** function is the IID pointer.
 
 ## Byte Count Pointers
 
@@ -104,7 +104,7 @@ byte_count_description<>
 pointee_description<>
 ```
 
-The byte\_count\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
+The byte\_count\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used.
 
 The pointee\_description<> is a description of the pointee type.
 

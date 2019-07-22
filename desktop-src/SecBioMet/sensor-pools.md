@@ -34,7 +34,7 @@ Applications can use the shared system pool or they can create a private pool ma
 
 <dl> <dt>
 
-[About the Windows Biometric Framework API](https://msdn.microsoft.com/library/windows/desktop/dd401507)
+[About the Windows Biometric Framework API](https://msdn.microsoft.com/library/dd401509(v=vs.85).aspx)
 </dt> </dl>
 
  

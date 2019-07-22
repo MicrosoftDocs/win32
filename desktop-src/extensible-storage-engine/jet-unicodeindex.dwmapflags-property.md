@@ -61,7 +61,7 @@ public uint dwMapFlags { get; set; }
 
 #### Property value
 
-Type: [System.UInt32](https://msdn.microsoft.com/en-us/library/ctys3981)  
+Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)  
 
 ## See also
 

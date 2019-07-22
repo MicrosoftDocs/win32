@@ -22,7 +22,7 @@ The **IEnumPortableDeviceConnectors** interface supports the enumeration of [**I
 
 ## Members
 
-The **IEnumPortableDeviceConnectors** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IEnumPortableDeviceConnectors** also has these types of members:
+The **IEnumPortableDeviceConnectors** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumPortableDeviceConnectors** also has these types of members:
 
 -   [Methods](#methods)
 

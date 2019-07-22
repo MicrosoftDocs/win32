@@ -122,7 +122,7 @@ DirectWrite defines the following enumerations.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwrite_1/ne-dwrite_1-dwrite_outline_threshold"><strong>DWRITE_OUTLINE_THRESHOLD</strong></a><br/></td>
-<td>The <a href="/windows/desktop/api/Dwrite_1/ne-dwrite_1-dwrite_outline_threshold"><strong>DWRITE_OUTLINE_THRESHOLD</strong></a> enumeration contains values that specify the policy used by the <a href="https://msdn.microsoft.com/library/windows/desktop/dd371015"><strong>IDWriteFontFace1::GetRecommendedRenderingMode</strong></a> method to determine whether to render glyphs in outline mode.<br/></td>
+<td>The <a href="/windows/desktop/api/Dwrite_1/ne-dwrite_1-dwrite_outline_threshold"><strong>DWRITE_OUTLINE_THRESHOLD</strong></a> enumeration contains values that specify the policy used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getrecommendedrenderingmode"><strong>IDWriteFontFace1::GetRecommendedRenderingMode</strong></a> method to determine whether to render glyphs in outline mode.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwrite_1/ne-dwrite_1-dwrite_panose_arm_style"><strong>DWRITE_PANOSE_ARM_STYLE</strong></a><br/></td>

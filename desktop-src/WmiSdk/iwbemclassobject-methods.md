@@ -3,7 +3,7 @@ Description: The IWbemClassObject interface exposes the following methods.
 ms.assetid: 20BF7775-89D9-4851-8561-EEBA398A0584
 ms.tgt_platform: multiple
 title: IWbemClassObject Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

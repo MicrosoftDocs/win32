@@ -16,14 +16,14 @@ This section contains reference pages for the following groups of structures:
 
 ## LSA Policy Management Structures
 
-The following structures are used by the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) policy management functions.
+The following structures are used by the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) policy management functions.
 
 
 
 | Structure                                                                       | Description                                                                                                                                   |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**LSA\_AUTH\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-_lsa_auth_information)                          | Contains authentication information for a trusted domain.                                                                                     |
-| [**LSA\_ENUMERATION\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-_lsa_enumeration_information)            | Contains a pointer to a [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID).    |
+| [**LSA\_ENUMERATION\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-_lsa_enumeration_information)            | Contains a pointer to a [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID).    |
 | [**LSA\_OBJECT\_ATTRIBUTES**](/windows/desktop/api/LsaLookup/ns-lsalookup-_lsa_object_attributes)                        | Specifies the attributes of a connection to the [**Policy**](policy-object.md) object.                                                       |
 | [**LSA\_REFERENCED\_DOMAIN\_LIST**](https://msdn.microsoft.com/en-us/library/ms721834(v=VS.85).aspx)             | Contains information about the domains referenced in a lookup operation.                                                                      |
 | [**LSA\_TRANSLATED\_NAME**](/windows/desktop/api/LsaLookup/ns-lsalookup-_lsa_translated_name)                            | Contains information about the account identified by a SID.                                                                                   |

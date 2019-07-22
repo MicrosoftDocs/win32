@@ -3,7 +3,7 @@ Description: The SWbemSink object exposes the following methods.
 ms.assetid: EED3C850-2E18-4D83-A809-3ABBBBB7A121
 ms.tgt_platform: multiple
 title: SWbemSink Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

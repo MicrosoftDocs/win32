@@ -259,7 +259,7 @@ Advanced annotations provide additional information about the parameter or retur
 
  
 
-The following examples show the buffer and advanced annotations for the [**DeleteTimerQueueTimer**](https://msdn.microsoft.com/library/windows/desktop/ms682569), [**FreeEnvironmentStrings**](https://msdn.microsoft.com/library/windows/desktop/ms683151), and [**UnhandledExceptionFilter**](https://msdn.microsoft.com/library/windows/desktop/ms681401) functions.
+The following examples show the buffer and advanced annotations for the [**DeleteTimerQueueTimer**](https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer), [**FreeEnvironmentStrings**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa), and [**UnhandledExceptionFilter**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter) functions.
 
 
 ```C++

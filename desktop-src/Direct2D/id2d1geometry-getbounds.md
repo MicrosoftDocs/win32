@@ -1,14 +1,17 @@
 ---
 title: ID2D1Geometry GetBounds methods
 description: Retrieves the bounds of the geometry.
-ms.assetid: '3932189a-7c6b-4144-9d4a-32d2aba70835'
-keywords: ["GetBounds methods Direct2D"]
+ms.assetid: 3932189a-7c6b-4144-9d4a-32d2aba70835
+keywords:
+- GetBounds methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1Geometry::GetBounds methods

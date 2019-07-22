@@ -1,14 +1,17 @@
 ---
 title: IDCompositionLinearTransferEffect SetAlphaYIntercept methods
 description: Sets the Y-intercept of the linear function for the alpha channel.
-ms.assetid: '7d0fa3a9-367b-4cb7-b6d2-db2f603f38bd'
-keywords: ["SetAlphaYIntercept methods DirectComposition"]
+ms.assetid: 7d0fa3a9-367b-4cb7-b6d2-db2f603f38bd
+keywords:
+- SetAlphaYIntercept methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionLinearTransferEffect::SetAlphaYIntercept methods

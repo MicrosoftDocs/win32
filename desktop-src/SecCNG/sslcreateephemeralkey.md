@@ -17,7 +17,7 @@ api_location:
 
 # SslCreateEphemeralKey function
 
-The **SslCreateEphemeralKey** function creates an ephemeral key for use during the authentication that occurs during the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) handshake.
+The **SslCreateEphemeralKey** function creates an ephemeral key for use during the authentication that occurs during the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) handshake.
 
 ## Syntax
 
@@ -73,7 +73,7 @@ One of the [**CNG SSL Provider Cipher Suite Identifier**](https://msdn.microsoft
 *dwKeyType* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Key Type Identifier**](https://msdn.microsoft.com/library/Hh971256(v=VS.85).aspx) values. Set this parameter to zero for key types that are not [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC).
+One of the [**CNG SSL Provider Key Type Identifier**](https://msdn.microsoft.com/library/Hh971256(v=VS.85).aspx) values. Set this parameter to zero for key types that are not [*elliptic curve cryptography*](https://docs.microsoft.com/windows/desktop/SecGloss/e-gly) (ECC).
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ The length, in bits, of the key.
 *pbParams* \[in\]
 </dt> <dd>
 
-A pointer to a buffer to contain parameters for the key that is to be created. If a [*Diffie-Hellman (ephemeral) key-exchange algorithm*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-diffie-hellman-ephemeral-key-exchange-algorithm-gly) (DHE) cipher suite is not used, set the *pbParams* parameter to **NULL** and the *cbParams* parameter to zero.
+A pointer to a buffer to contain parameters for the key that is to be created. If a [*Diffie-Hellman (ephemeral) key-exchange algorithm*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DHE) cipher suite is not used, set the *pbParams* parameter to **NULL** and the *cbParams* parameter to zero.
 
 </dd> <dt>
 

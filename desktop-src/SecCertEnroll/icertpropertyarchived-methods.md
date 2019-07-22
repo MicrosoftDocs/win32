@@ -2,7 +2,7 @@
 Description: The ICertPropertyArchived interface exposes the following methods.
 ms.assetid: A2F94821-E1D8-45B6-8C34-CA38591CB1BF
 title: ICertPropertyArchived Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -21,15 +21,15 @@ api_location:
 
 Windows Remote Management (WinRM) is the Microsoft implementation of [WS-Management Protocol](ws-management-protocol.md), a standard Simple Object Access Protocol (SOAP)-based, firewall-friendly protocol that allows hardware and operating systems, from different vendors, to interoperate.
 
-The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md), along with the [Event Collector](https://go.microsoft.com/fwlink/p/?linkid=84396) are components of the [Windows Hardware Management](https://go.microsoft.com/fwlink/p/?linkid=45204) features.
+The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md), along with the [Event Collector](https://go.microsoft.com/fwlink/p/?linkid=84396#event-collector) are components of the [Windows Hardware Management](https://go.microsoft.com/fwlink/p/?linkid=45204) features.
 
 ## Where applicable
 
-You can use WinRM scripting objects, the WinRM command-line tool, or the Windows Remote Shell command line tool WinRS to obtain management data from local and remote computers that may have [*baseboard management controllers (BMCs)*](windows-remote-management-glossary.md). If the computer runs a Windows-based operating system version that includes WinRM, the management data is supplied by [Windows Management Instrumentation (WMI)](https://msdn.microsoft.com/library/aa394582).
+You can use WinRM scripting objects, the WinRM command-line tool, or the Windows Remote Shell command line tool WinRS to obtain management data from local and remote computers that may have [*baseboard management controllers (BMCs)*](windows-remote-management-glossary.md). If the computer runs a Windows-based operating system version that includes WinRM, the management data is supplied by [Windows Management Instrumentation (WMI)](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page).
 
 You can also obtain hardware and system data from WS-Management protocol implementations running on operating systems other than Windows in your enterprise. WinRM establishes a session with a remote computer through the SOAP-based WS-Management protocol rather than a connection through DCOM, as WMI does. Data returned to WS-Management protocol are formatted in XML rather than in objects.
 
-The [Intelligent Platform Management Interface (IPMI)](https://msdn.microsoft.com/library/aa391402) WMI provider is a standard WMI provider with classes that obtain BMC sensor data from computers with appropriate hardware. IPMI data can be accessed using the WinRM scripting API, the WMI [Scripting](https://msdn.microsoft.com/library/aa393258), or [COM](https://msdn.microsoft.com/library/aa389276) APIs.
+The [Intelligent Platform Management Interface (IPMI)](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) WMI provider is a standard WMI provider with classes that obtain BMC sensor data from computers with appropriate hardware. IPMI data can be accessed using the WinRM scripting API, the WMI [Scripting](https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-for-wmi), or [COM](https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi) APIs.
 
 ## Developer audience
 
@@ -37,7 +37,7 @@ The developer audience is the IT Pro who writes scripts to automate the manageme
 
 ## Run-time requirements
 
-WinRM is part of the operating system. However, to obtain data from remote computers, you must configure a WinRM [*listener*](windows-remote-management-glossary.md). For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). If a BMC is detected at system startup, then the IPMI provider loads; otherwise, the WinRM scripting objects and the WinRM command-line tool are still available.
+WinRM is part of the operating system. However, to obtain data from remote computers, you must configure a WinRM [*listener*](windows-remote-management-glossary.md#l). For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). If a BMC is detected at system startup, then the IPMI provider loads; otherwise, the WinRM scripting objects and the WinRM command-line tool are still available.
 
 ## In this section
 

@@ -98,7 +98,7 @@ public static void JetRegisterCallback(
 <!-- end list -->
 
   - context  
-    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
     
     A context that will be given to the callback.
 

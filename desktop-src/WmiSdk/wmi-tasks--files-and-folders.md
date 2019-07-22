@@ -16,7 +16,7 @@ api_location:
 
 WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file. If you want to copy a file or read and write a file, the easiest way is to use the Windows Script Host [FileSystemObject](https://go.microsoft.com/fwlink/p/?linkid=84366) rather than WMI. For other examples, see the [Files and Folders](https://TechNet.Microsoft.Com/library/ee176985.aspx) section of the [TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710).
 
-[**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236) is one of the few [CIM classes](cimclas.md) in WMI that is implemented. Avoid enumerating or querying for all instances of **CIM\_DataFile** on a computer because the volume of data is likely to either affect performance or cause the computer to stop responding.
+[**CIM\_DataFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile) is one of the few [CIM classes](cimclas.md) in WMI that is implemented. Avoid enumerating or querying for all instances of **CIM\_DataFile** on a computer because the volume of data is likely to either affect performance or cause the computer to stop responding.
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -54,7 +54,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...rename a file without getting an error message?</td>
-<td>Use the <a href="https://msdn.microsoft.com/library/aa387236"><strong>CIM_DataFile</strong></a> class. Ensure that you pass the entire path name when calling the <a href="https://msdn.microsoft.com/library/aa393051"><strong>Rename</strong></a> method, for example, &quot;C:\Scripts\Test.txt&quot; instead of &quot;Text.txt&quot;. For PowerShell, using <strong>CIM_DataFile</strong> may be inefficient. As such, you may simply use the Rename-Item cmdlet.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_DataFile</strong></a> class. Ensure that you pass the entire path name when calling the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/rename-method-in-class-cim-datafile"><strong>Rename</strong></a> method, for example, &quot;C:\Scripts\Test.txt&quot; instead of &quot;Text.txt&quot;. For PowerShell, using <strong>CIM_DataFile</strong> may be inefficient. As such, you may simply use the Rename-Item cmdlet.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -95,7 +95,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine whether users have .MP3 files stored on their computer?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa387236"><strong>CIM_DataFile</strong></a> class and select files using the following <a href="querying-with-wql">WQL</a> <strong>WHERE</strong> clause: Where Extension = &quot;MP3&quot;.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_DataFile</strong></a> class and select files using the following <a href="querying-with-wql">WQL</a> <strong>WHERE</strong> clause: Where Extension = &quot;MP3&quot;.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -141,7 +141,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...create shared folders on a computer?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394435"><strong>Win32_Share</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa389393"><strong>Create</strong></a> method.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-share"><strong>Win32_Share</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-share"><strong>Create</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -190,7 +190,7 @@ $Shares= [WMICLASS]&quot;Win32_Share&quot;
 </tr>
 <tr class="even">
 <td>...copy a folder?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394130"><strong>Win32_Directory</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa389347"><strong>Copy</strong></a> method. For PowerShell, you can simply use the Copy-Item cmdlet.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-directory"><strong>Win32_Directory</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/copy-method-in-class-win32-directory"><strong>Copy</strong></a> method. For PowerShell, you can simply use the Copy-Item cmdlet.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -236,7 +236,7 @@ Next </code></pre></td>
 </tr>
 <tr class="odd">
 <td>...move a folder?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394130"><strong>Win32_Directory</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa393057"><strong>Rename</strong></a> method. For PowerShell, you can simply use the Move-Item cmdlet.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-directory"><strong>Win32_Directory</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/rename-method-in-class-win32-directory"><strong>Rename</strong></a> method. For PowerShell, you can simply use the Move-Item cmdlet.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

@@ -1,14 +1,17 @@
 ---
 title: IDCompositionBrightnessEffect SetWhitePointX methods
 description: Sets the x value of the white point.
-ms.assetid: 'a35c4a79-bf30-3334-1cea-ddd055427a0f'
-keywords: ["SetWhitePointX methods DirectComposition"]
+ms.assetid: a35c4a79-bf30-3334-1cea-ddd055427a0f
+keywords:
+- SetWhitePointX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionBrightnessEffect::SetWhitePointX methods

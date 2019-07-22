@@ -63,7 +63,7 @@ The type of driver for the device. See [**D3D10\_DRIVER\_TYPE**](/windows/deskto
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-A handle to the DLL that implements a software rasterizer. Must be **NULL** if DriverType is non-software. The HMODULE of a DLL can be obtained with [LoadLibrary](https://msdn2.microsoft.com/en-us/library/ms684175.aspx), [LoadLibraryEx](https://msdn2.microsoft.com/en-us/library/ms684179.aspx), or [GetModuleHandle](https://msdn.microsoft.com/en-us/library/ms683199.aspx).
+A handle to the DLL that implements a software rasterizer. Must be **NULL** if DriverType is non-software. The HMODULE of a DLL can be obtained with [LoadLibrary](https://msdn2.microsoft.com/en-us/library/ms684175.aspx), [LoadLibraryEx](https://msdn2.microsoft.com/en-us/library/ms684179.aspx), or [GetModuleHandle](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 

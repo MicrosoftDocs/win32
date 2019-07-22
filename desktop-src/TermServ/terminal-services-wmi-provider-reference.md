@@ -70,7 +70,7 @@ The RemoteApp and Desktop Connection Management Service WMI provider provides th
 [**Remote Desktop Services WMI provider error codes**](terminal-services-wmi-provider-error-codes.md)
 </dt> <dd>
 
-Errors returned by the Remote Desktop Services WMI provider. For a list of other WMI errors, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559).
+Errors returned by the Remote Desktop Services WMI provider. For a list of other WMI errors, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants).
 
 </dd> </dl>
 
@@ -79,7 +79,7 @@ Errors returned by the Remote Desktop Services WMI provider. For a list of other
 
  
 
-For information about security issues and WMI applications, see [Maintaining WMI Security](https://msdn.microsoft.com/library/aa392291).
+For information about security issues and WMI applications, see [Maintaining WMI Security](https://docs.microsoft.com/windows/desktop/WmiSdk/maintaining-wmi-security).
 
  
 

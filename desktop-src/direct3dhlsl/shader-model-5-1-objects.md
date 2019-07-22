@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following objects have been added to shader model 5.1.
 
-For the [Rasterizer Order Views](https://msdn.microsoft.com/library/windows/desktop/dn914601) (available in D3D11.3 and D3D12), the following objects are new, and are only allowed in the pixel shader. Note that the methods they support are identical to the corresponding UAV objects.
+For the [Rasterizer Order Views](https://docs.microsoft.com/windows/desktop/direct3d11/rasterizer-order-views) (available in D3D11.3 and D3D12), the following objects are new, and are only allowed in the pixel shader. Note that the methods they support are identical to the corresponding UAV objects.
 
 
 

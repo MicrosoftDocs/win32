@@ -26,7 +26,7 @@ You can then draw the text by using the [**IDWriteTextLayout::Draw**](https://ms
 
 In your implementation of [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx), call the [**IDWriteBitmapRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd368167(v=VS.85).aspx) method to draw the glyphs. The rendering of the underline, strikethrough and inline objects must be done by your custom renderer.
 
-[**IDWriteBitmapRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd368167(v=VS.85).aspx) has an optional RECT out parameter that contains the bounds of the area where the text was drawn. You can use this information to set the bounding rectangle for the device context with the [**SetBoundsRect**](https://msdn.microsoft.com/library/windows/desktop/dd162966) function that is provided by GDI. The following code is an example implementation of the [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) method of a custom renderer.
+[**IDWriteBitmapRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd368167(v=VS.85).aspx) has an optional RECT out parameter that contains the bounds of the area where the text was drawn. You can use this information to set the bounding rectangle for the device context with the [**SetBoundsRect**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setboundsrect) function that is provided by GDI. The following code is an example implementation of the [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) method of a custom renderer.
 
 
 ```C++
@@ -64,7 +64,7 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
 
 The [**IDWriteBitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd368165(v=VS.85).aspx) interface renders to a device context (DC) in memory. You get a handle to this DC by using the [**IDWriteBitmapRenderTarget::GetMemoryDC**](https://msdn.microsoft.com/en-us/library/Dd368171(v=VS.85).aspx) method. As soon as the drawing has been performed, the memory DC of the **IDWriteBitmapRenderTarget** object must be copied to the destination GDI surface.
 
-You can retrieve the bounding rectangle by using the [**GetBoundsRect**](https://msdn.microsoft.com/library/windows/desktop/dd144854) function, then use the bounding rectangle with the [**BitBlt**](https://msdn.microsoft.com/library/windows/desktop/dd183370) function to copy the rendered [DirectWrite](direct-write-portal.md) text from the memory DC to the GDI surface as shown in the following code.
+You can retrieve the bounding rectangle by using the [**GetBoundsRect**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getboundsrect) function, then use the bounding rectangle with the [**BitBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt) function to copy the rendered [DirectWrite](direct-write-portal.md) text from the memory DC to the GDI surface as shown in the following code.
 
 
 ```C++

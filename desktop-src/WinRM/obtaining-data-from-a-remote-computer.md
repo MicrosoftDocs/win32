@@ -14,7 +14,7 @@ api_location:
 
 # Obtaining Data from a Remote Computer
 
-You can obtain data or manage resources on remote computers as well as the local computer. Connecting to a remote computer in a Windows Remote Management script is very similar to making a local connection. WMI instance data is available and, if the remote computer has BMC hardware that can communicate using the WS-Management protocol, then [Intelligent Platform Management Interface (IPMI)](https://msdn.microsoft.com/library/aa391402) data is also available. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md) and [Remote Hardware Management](remote-hardware-management.md).
+You can obtain data or manage resources on remote computers as well as the local computer. Connecting to a remote computer in a Windows Remote Management script is very similar to making a local connection. WMI instance data is available and, if the remote computer has BMC hardware that can communicate using the WS-Management protocol, then [Intelligent Platform Management Interface (IPMI)](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) data is also available. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md) and [Remote Hardware Management](remote-hardware-management.md).
 
 You may need to create a [**ConnectionOptions**](connectionoptions.md) object to specify information about the type of authentication requested for the logon.
 

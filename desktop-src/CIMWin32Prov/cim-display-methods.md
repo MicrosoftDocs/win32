@@ -3,7 +3,7 @@ Description: The CIM\_Display class exposes the following methods.
 ms.assetid: 478EDA67-E375-4DA6-A3E4-C12F898FA3A1
 ms.tgt_platform: multiple
 title: CIM_Display Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

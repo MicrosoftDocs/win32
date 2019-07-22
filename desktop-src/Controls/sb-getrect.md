@@ -34,7 +34,7 @@ Zero-based index of the part whose bounding rectangle is to be retrieved.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that receives the bounding rectangle.
+Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle.
 
 </dd> </dl>
 

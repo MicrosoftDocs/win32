@@ -3,7 +3,7 @@ title: IEnumBackgroundCopyFiles Methods
 description: The IEnumBackgroundCopyFiles interface exposes the following methods.
 ms.assetid: 5BB3263A-31D3-4987-8982-1FED26C9ED71
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -18,9 +18,9 @@ api_location:
 
 # SetDefaultPrinter method of the Win32\_Printer class
 
-The **SetDefaultPrinter** [WMI class](https://msdn.microsoft.com/library/aa393244) method sets the default system printer for the user calling the method.
+The **SetDefaultPrinter** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method sets the default system printer for the user calling the method.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns 0 (zero) if successful, and some other value if an error occurs. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns 0 (zero) if successful, and some other value if an error occurs. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 ## Examples
 
@@ -82,7 +82,7 @@ Next
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Printers and Printing](https://msdn.microsoft.com/library/aa394598)
+[WMI Tasks: Printers and Printing](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--printers-and-printing)
 </dt> <dt>
 
 [**Win32\_Printer**](win32-printer.md)

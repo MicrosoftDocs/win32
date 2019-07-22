@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the BeginContainer methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'f4a031db-eb60-4d01-b8e1-43ba7de41630'
-title: 'Graphics.BeginContainer methods'
+Description: This topic lists the BeginContainer methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: f4a031db-eb60-4d01-b8e1-43ba7de41630
+title: Graphics.BeginContainer methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.BeginContainer methods

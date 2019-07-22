@@ -16,7 +16,7 @@ api_location:
 
 The current release of WMI does contain the System.Management namespace, which exposes a number of API's that interact with WMI. However, it is not recommended that you use this namespace.
 
-If you wish to create a managed WMI client, it is recommended that you use the Windows Management Infrastructure (MI). MI is the next-generation version of WMI, and contains full support for managed code. For more information, see [How to Implement a Managed MI Client](https://msdn.microsoft.com/library/dn313202).
+If you wish to create a managed WMI client, it is recommended that you use the Windows Management Infrastructure (MI). MI is the next-generation version of WMI, and contains full support for managed code. For more information, see [How to Implement a Managed MI Client](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-managed-mi-client).
 
  
 

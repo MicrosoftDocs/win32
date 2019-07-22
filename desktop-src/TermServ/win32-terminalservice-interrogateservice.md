@@ -21,9 +21,9 @@ ms.date: 05/31/2018
 
 # InterrogateService method of the Win32\_Service class
 
-The **InterrogateService** [WMI class](https://msdn.microsoft.com/library/aa393244) method requests that the referenced service update its state to the service manager.
+The **InterrogateService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method requests that the referenced service update its state to the service manager.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -40,7 +40,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns one of the values listed in the following list or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns one of the values listed in the following list or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -82,7 +82,7 @@ The requested control code is not valid, or it is unacceptable to the service.
 **5**
 </dt> <dd>
 
-The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](https://msdn.microsoft.com/library/aa394073).**State** property) is equal to 0, 1, or 2.
+The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-baseservice).**State** property) is equal to 0, 1, or 2.
 
 </dd> <dt>
 
@@ -237,16 +237,16 @@ The service is currently paused in the system.
 
 <dl> <dt>
 
-[**Win32\_Service**](https://msdn.microsoft.com/library/aa394418)
+[**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/dn792258)
+[Operating System Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/operating-system-classes)
 </dt> <dt>
 
 [**Win32\_TerminalService**](win32-terminalservice.md)
 </dt> <dt>
 
-[WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
+[WMI Tasks: Services](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--services)
 </dt> </dl>
 
  

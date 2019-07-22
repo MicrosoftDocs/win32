@@ -42,30 +42,30 @@ typedef struct {
 **dxgiFormat**
 </dt> <dd>
 
-Type: **[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)**
+Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
 </dd> <dd>
 
-The surface pixel format (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)).
+The surface pixel format (see [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)).
 
 </dd> <dt>
 
 **resourceDimension**
 </dt> <dd>
 
-Type: **[**D3D10\_RESOURCE\_DIMENSION**](https://msdn.microsoft.com/library/windows/desktop/bb172411)**
+Type: **[**D3D10\_RESOURCE\_DIMENSION**](https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_resource_dimension)**
 
 </dd> <dd>
 
-Identifies the type of resource. The following values for this member are a subset of the values in the [**D3D10\_RESOURCE\_DIMENSION**](https://msdn.microsoft.com/library/windows/desktop/bb172411) or [**D3D11\_RESOURCE\_DIMENSION**](https://msdn.microsoft.com/library/windows/desktop/ff476202) enumeration:
+Identifies the type of resource. The following values for this member are a subset of the values in the [**D3D10\_RESOURCE\_DIMENSION**](https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_resource_dimension) or [**D3D11\_RESOURCE\_DIMENSION**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_dimension) enumeration:
 
 
 
 | Type                                                              | Description                                                                                                                                                                                                                                                                                                                                                            | Value |
 |-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
-| DDS\_DIMENSION\_TEXTURE1D (D3D10\_RESOURCE\_DIMENSION\_TEXTURE1D) | Resource is a [1D texture](https://msdn.microsoft.com/library/windows/desktop/bb205133). The **dwWidth** member of [**DDS\_HEADER**](dds-header.md) specifies the size of the texture. Typically, you set the **dwHeight** member of **DDS\_HEADER** to 1; you also must set the DDSD\_HEIGHT flag in the **dwFlags** member of **DDS\_HEADER**.                      | 2     |
-| DDS\_DIMENSION\_TEXTURE2D (D3D10\_RESOURCE\_DIMENSION\_TEXTURE2D) | Resource is a [2D texture](https://msdn.microsoft.com/library/windows/desktop/bb205133) with an area specified by the **dwWidth** and **dwHeight** members of [**DDS\_HEADER**](dds-header.md). You can also use this type to identify a cube-map texture. For more information about how to identify a cube-map texture, see **miscFlag** and **arraySize** members. | 3     |
-| DDS\_DIMENSION\_TEXTURE3D (D3D10\_RESOURCE\_DIMENSION\_TEXTURE3D) | Resource is a [3D texture](https://msdn.microsoft.com/library/windows/desktop/bb205133) with a volume specified by the **dwWidth**, **dwHeight**, and **dwDepth** members of [**DDS\_HEADER**](dds-header.md). You also must set the DDSD\_DEPTH flag in the **dwFlags** member of **DDS\_HEADER**.                                                                   | 4     |
+| DDS\_DIMENSION\_TEXTURE1D (D3D10\_RESOURCE\_DIMENSION\_TEXTURE1D) | Resource is a [1D texture](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types). The **dwWidth** member of [**DDS\_HEADER**](dds-header.md) specifies the size of the texture. Typically, you set the **dwHeight** member of **DDS\_HEADER** to 1; you also must set the DDSD\_HEIGHT flag in the **dwFlags** member of **DDS\_HEADER**.                      | 2     |
+| DDS\_DIMENSION\_TEXTURE2D (D3D10\_RESOURCE\_DIMENSION\_TEXTURE2D) | Resource is a [2D texture](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types) with an area specified by the **dwWidth** and **dwHeight** members of [**DDS\_HEADER**](dds-header.md). You can also use this type to identify a cube-map texture. For more information about how to identify a cube-map texture, see **miscFlag** and **arraySize** members. | 3     |
+| DDS\_DIMENSION\_TEXTURE3D (D3D10\_RESOURCE\_DIMENSION\_TEXTURE3D) | Resource is a [3D texture](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types) with a volume specified by the **dwWidth**, **dwHeight**, and **dwDepth** members of [**DDS\_HEADER**](dds-header.md). You also must set the DDSD\_DEPTH flag in the **dwFlags** member of **DDS\_HEADER**.                                                                   | 4     |
 
 
 
@@ -76,17 +76,17 @@ Identifies the type of resource. The following values for this member are a subs
 **miscFlag**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
-Identifies other, less common options for resources. The following value for this member is a subset of the values in the [**D3D10\_RESOURCE\_MISC\_FLAG**](https://msdn.microsoft.com/library/windows/desktop/bb172412) or [**D3D11\_RESOURCE\_MISC\_FLAG**](https://msdn.microsoft.com/library/windows/desktop/ff476203) enumeration:
+Identifies other, less common options for resources. The following value for this member is a subset of the values in the [**D3D10\_RESOURCE\_MISC\_FLAG**](https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_resource_misc_flag) or [**D3D11\_RESOURCE\_MISC\_FLAG**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) enumeration:
 
 
 
 | Type                             | Description                                                                                                  | Value |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|-------|
-| DDS\_RESOURCE\_MISC\_TEXTURECUBE | Indicates a [2D texture](https://msdn.microsoft.com/library/windows/desktop/bb205133) is a cube-map texture. | 0x4   |
+| DDS\_RESOURCE\_MISC\_TEXTURECUBE | Indicates a [2D texture](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types) is a cube-map texture. | 0x4   |
 
 
 
@@ -97,22 +97,22 @@ Identifies other, less common options for resources. The following value for thi
 **arraySize**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
 The number of elements in the array.
 
-For a [2D texture](https://msdn.microsoft.com/library/windows/desktop/bb205133) that is also a cube-map texture, this number represents the number of cubes. This number is the same as the number in the **NumCubes** member of [**D3D10\_TEXCUBE\_ARRAY\_SRV1**](https://msdn.microsoft.com/library/windows/desktop/bb694536) or [**D3D11\_TEXCUBE\_ARRAY\_SRV**](https://msdn.microsoft.com/library/windows/desktop/ff476250)). In this case, the DDS file contains **arraySize**\*6 2D textures. For more information about this case, see the **miscFlag** description.
+For a [2D texture](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types) that is also a cube-map texture, this number represents the number of cubes. This number is the same as the number in the **NumCubes** member of [**D3D10\_TEXCUBE\_ARRAY\_SRV1**](https://docs.microsoft.com/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_texcube_array_srv1) or [**D3D11\_TEXCUBE\_ARRAY\_SRV**](https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_array_srv)). In this case, the DDS file contains **arraySize**\*6 2D textures. For more information about this case, see the **miscFlag** description.
 
-For a [3D texture](https://msdn.microsoft.com/library/windows/desktop/bb205133), you must set this number to 1.
+For a [3D texture](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types), you must set this number to 1.
 
 </dd> <dt>
 
 **miscFlags2**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -133,7 +133,7 @@ Contains additional metadata (formerly was reserved). The lower 3 bits indicate 
  
 
 > [!Note]  
-> The legacy D3DX 10 and [D3DX 11](https://msdn.microsoft.com/library/windows/desktop/ff476162) utility libraries will fail to load any .DDS file with **miscFlags2** not equal to zero.
+> The legacy D3DX 10 and [D3DX 11](https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dx11) utility libraries will fail to load any .DDS file with **miscFlags2** not equal to zero.
 
  
 

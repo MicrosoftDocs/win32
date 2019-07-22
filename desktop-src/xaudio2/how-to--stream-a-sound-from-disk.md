@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # How to: Stream a Sound from Disk
 
 > [!Note]  
-> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for **CreateFile2**, [CreateEventEx](http://msdn.microsoft.com/en-us/library/ms682400(VS.85).aspx), [WaitForSingleObjectEx](http://msdn.microsoft.com/en-us/library/ms687036(VS.85).aspx), [SetFilePointerEx](http://msdn.microsoft.com/en-us/library/aa365542(VS.85).aspx), and **GetOverlappedResultEx**. See the StreamEffect Windows 8 sample from the [Windows SDK Samples Gallery](http://code.msdn.microsoft.com/).
+> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for **CreateFile2**, [CreateEventEx](https://msdn.microsoft.com/library/ms682400(VS.85).aspx), [WaitForSingleObjectEx](https://msdn.microsoft.com/library/ms687036(VS.85).aspx), [SetFilePointerEx](https://msdn.microsoft.com/library/aa365542(VS.85).aspx), and **GetOverlappedResultEx**. See the StreamEffect Windows 8 sample from the [Windows SDK Samples Gallery](https://code.msdn.microsoft.com/).
 
  
 

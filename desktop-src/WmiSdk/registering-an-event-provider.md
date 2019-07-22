@@ -56,9 +56,9 @@ EventQueryList = {
 };
 ```
 
-The first query indicates that the provider generates all event notifications for the extrinsic event class FaxEvent. Because it uses the ISA operator, the second query implies that the provider generates notifications for all instance creation events for the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class and all of its subclasses.
+The first query indicates that the provider generates all event notifications for the extrinsic event class FaxEvent. Because it uses the ISA operator, the second query implies that the provider generates notifications for all instance creation events for the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class and all of its subclasses.
 
-When a provider registers to provide an intrinsic event, the event must apply to all instances of a class. In other words, a query cannot be written to provide instance creation events for only some of the disk drives that belong to the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class.
+When a provider registers to provide an intrinsic event, the event must apply to all instances of a class. In other words, a query cannot be written to provide instance creation events for only some of the disk drives that belong to the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
  
 

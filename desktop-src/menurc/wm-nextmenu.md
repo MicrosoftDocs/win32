@@ -34,7 +34,7 @@ Sent to an application when the right or left arrow key is used to switch betwee
 *wParam* 
 </dt> <dd>
 
-The virtual-key code of the key. See [**Virtual-Key Codes**](https://msdn.microsoft.com/library/windows/desktop/dd375731).
+The virtual-key code of the key. See [**Virtual-Key Codes**](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes).
 
 </dd> <dt>
 

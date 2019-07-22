@@ -3,7 +3,7 @@ title: IWTSProtocolLogonErrorRedirector Methods
 description: The IWTSProtocolLogonErrorRedirector interface exposes the following methods.
 ms.assetid: C0C2E4F8-C0DD-4F4A-9DF2-210A0BF65F45
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

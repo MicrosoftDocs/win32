@@ -20,8 +20,8 @@ This topic demonstrates how to build a simple Microsoft DirectComposition visual
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://msdn.microsoft.com/library/windows/desktop/ff476080)
--   [DirectX Graphics Infrastructure (DXGI)](https://msdn.microsoft.com/library/windows/desktop/hh404534)
+-   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -208,7 +208,7 @@ hr = m_pDevice->Commit();
 
 ### Step 5: Free the DirectComposition objects
 
-Free the visual objects as soon as you no longer need them. This next bit of code calls the application-defined [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435) macro to free the visual objects.
+Free the visual objects as soon as you no longer need them. This next bit of code calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the visual objects.
 
 ```cpp
 Cleanup:
@@ -856,4 +856,4 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 * [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx)
 * [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx)
 * [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx)
-* [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435)
+* [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease)

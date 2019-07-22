@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_DriverForDevice class
 
-The **Win32\_DriverForDevice** association [WMI class](https://msdn.microsoft.com/library/aa393244) relates a printer instance to a printer driver instance.
+The **Win32\_DriverForDevice** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a printer instance to a printer driver instance.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 

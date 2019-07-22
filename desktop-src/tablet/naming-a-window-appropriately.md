@@ -12,13 +12,13 @@ Assign every window a user-friendly caption, even if the window or its caption i
 
 There are three ways to set the window caption:
 
--   Set the string in your resource script when calling [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or related functions.
--   Call the [**SetWindowText**](https://msdn.microsoft.com/library/windows/desktop/ms633546) function.
+-   Set the string in your resource script when calling [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or related functions.
+-   Call the [**SetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta) function.
 -   Define the name of controls in dialog boxes by using the techniques described in [Naming Controls in Dialog Boxes](naming-controls-in-dialog-boxes.md). This is the only method for labeling an edit control, because setting the controls intrinsic label changes the controls contents.
 
 You can query the caption by using either Microsoft Active Accessibility or the WM\_GETTEXT message.
 
-For more information about querying the caption by using Active Accessibility, see the [Accessibility](https://msdn.microsoft.com/library/windows/desktop/ee663255) section.
+For more information about querying the caption by using Active Accessibility, see the [Accessibility](https://docs.microsoft.com/windows/desktop/accessibility) section.
 
  
 

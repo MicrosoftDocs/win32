@@ -56,7 +56,7 @@ The return value indicates how the dialog box should handle the sharing violatio
 
 If the hook procedure returns zero, the dialog box displays the standard warning message for a sharing violation.
 
-To prevent the display of the standard warning message, return a nonzero value from the hook procedure and call the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function to set one of the following **DWL\_MSGRESULT** values.
+To prevent the display of the standard warning message, return a nonzero value from the hook procedure and call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set one of the following **DWL\_MSGRESULT** values.
 
 
 
@@ -109,7 +109,7 @@ The system sends this notification only if the **OFN\_SHAREAWARE** value was not
 [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
 </dt> <dt>
 
-[**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591)
+[**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
 </dt> <dt>
 
 **Conceptual**

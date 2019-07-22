@@ -60,7 +60,7 @@ To add a text layout you must do the following:
 
     
 
-3.  Then, you must change the call to the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) method to [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) as shown in the following code.
+3.  Then, you must change the call to the [**ID2D1RenderTarget::DrawText**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) method to [**ID2D1RenderTarget::DrawTextLayout**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) as shown in the following code.
 ```C++
     pRT_->DrawTextLayout(
         origin,

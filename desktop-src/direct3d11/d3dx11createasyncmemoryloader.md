@@ -46,7 +46,7 @@ HRESULT D3DX11CreateAsyncMemoryLoader(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Pointer to the data.
 
@@ -55,7 +55,7 @@ Pointer to the data.
 *cbData* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Size of the data.
 

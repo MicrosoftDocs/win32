@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx).
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -80,7 +80,7 @@ All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/en-us
 [**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360)
+[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 [**WM\_MOUSELEAVE**](wm-mouseleave.md)

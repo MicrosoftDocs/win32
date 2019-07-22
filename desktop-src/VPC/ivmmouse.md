@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # IVMMouse interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Controls the mouse device within a virtual machine (VM). The **IVMMouse** for a virtual machine can be retrieved using the [**IVMVirtualMachine::Mouse**](ivmvirtualmachine-mouse.md) property. Coordinates for the mouse device can be represented either in absolute coordinates or in delta coordinates. Use the [**UsingAbsoluteCoordinates**](ivmmouse-usingabsolutecoordinates.md) property to distinguish between the two methods of coordinate representation. Note that retrieving the current cursor position and the use of absolute coordinates are only supported if the guest operating system has the integration components installed.
 

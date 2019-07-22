@@ -33,7 +33,7 @@ Refer to the [Shared Heaps](shared-heaps.md) section.
 
 ## Multi-adapter APIs
 
-Similar to previous D3D APIs, each set of linked adapters is enumerated as a single [**IDXGIAdapter3**](https://msdn.microsoft.com/library/windows/desktop/dn933221) object. All outputs attached to any adapter in the link are enumerated as attached to the single **IDXGIAdapter3** object.
+Similar to previous D3D APIs, each set of linked adapters is enumerated as a single [**IDXGIAdapter3**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3) object. All outputs attached to any adapter in the link are enumerated as attached to the single **IDXGIAdapter3** object.
 
 ### Single nodes
 

@@ -6,13 +6,13 @@ ms.tgt_platform: multiple
 keywords:
 - Interface Property Methods
 - ADSI ADSI , reference, property methods explained
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # Interface Property Methods
 
-Many ADSI interfaces are designed to support Automation and thus are dual interfaces in that they support client access through both [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) and [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interfaces. Non-Automation clients, such as those written in C/C++, resolve method invocation directly, using the [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method, and call the method directly. Automation clients, also known as name-bound clients, such as those written in Visual Basic, or Visual Basic Scripting Edition (VBScript), must resolve method invocation indirectly using the [**dispinterface**](https://msdn.microsoft.com/library/windows/desktop/ms221599) method.
+Many ADSI interfaces are designed to support Automation and thus are dual interfaces in that they support client access through both [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) and [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interfaces. Non-Automation clients, such as those written in C/C++, resolve method invocation directly, using the [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method, and call the method directly. Automation clients, also known as name-bound clients, such as those written in Visual Basic, or Visual Basic Scripting Edition (VBScript), must resolve method invocation indirectly using the [**dispinterface**](https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispinterface) method.
 
 An ADSI interface supporting Automation defines property methods for retrieving and modifying properties of an object implementing the interface. The property methods have names that have **get**\_ and **put**\_ prepended to the appropriate property names, for example, **get\_User** and **put\_Name**.
 

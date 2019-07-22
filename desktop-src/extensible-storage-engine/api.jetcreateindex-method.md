@@ -87,7 +87,7 @@ public static void JetCreateIndex(
 <!-- end list -->
 
   - indexName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     Pointer to a null-terminated string that specifies the name of the index to create.
 
@@ -101,21 +101,21 @@ public static void JetCreateIndex(
 <!-- end list -->
 
   - keyDescription  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     Pointer to a double null-terminated string of null-delimited tokens.
 
 <!-- end list -->
 
   - keyDescriptionLength  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The length, in characters, of szKey including the two terminating nulls.
 
 <!-- end list -->
 
   - density  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Initial B+ tree density.
 

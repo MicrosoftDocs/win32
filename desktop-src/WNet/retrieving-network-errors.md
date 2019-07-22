@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Retrieving Network Errors
 
-The WNet functions return error codes for compatibility with Windows for Workgroups. Each WNet function also sets the error code value returned by [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+The WNet functions return error codes for compatibility with Windows for Workgroups. Each WNet function also sets the error code value returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 When one of the WNet functions returns ERROR\_EXTENDED\_ERROR, an application can call the [**WNetGetLastError**](https://msdn.microsoft.com/en-us/library/Aa385459(v=VS.85).aspx) function to retrieve additional information about the error. This information is usually specific to the network provider.
 

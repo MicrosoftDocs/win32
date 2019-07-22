@@ -2,7 +2,7 @@
 title: Optional Methods
 description: Optional Methods
 ms.assetid: 8cdb5686-177c-48c9-8315-e5921520007c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

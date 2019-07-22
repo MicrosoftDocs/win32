@@ -61,7 +61,7 @@ Data type: **CIM\_DirectoryAction**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://msdn.microsoft.com/library/aa393650) (1), [**Min**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the destination directory.
@@ -77,7 +77,7 @@ Data type: **CIM\_CopyFileAction**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the file name.

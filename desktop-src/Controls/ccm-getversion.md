@@ -36,7 +36,7 @@ Returns the version number set by the most recent [**CCM\_SETVERSION**](ccm-setv
 
 ## Remarks
 
-This message does not return the DLL version. See [Shell Versions](common-control-versions.md) for a discussion of how to use [**DllGetVersion**](https://msdn.microsoft.com/library/windows/desktop/bb776404) to retrieve the current DLL version.
+This message does not return the DLL version. See [Shell Versions](common-control-versions.md) for a discussion of how to use [**DllGetVersion**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc) to retrieve the current DLL version.
 
 > [!Note]  
 > The version number is set on a control by control basis, and may not be the same for all controls.

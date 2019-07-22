@@ -53,7 +53,7 @@ The following procedure describes how to monitor and respond to events by using 
 #pragma namespace ("\\\\.\\root\\subscription")
     ```
 
-    Most [*intrinsic events*](gloss-i.md) are associated with changes to class instances in the root\\cimv2 namespace. However, registry events such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040) are fired in the root\\default namespace by the [System Registry Provider](https://msdn.microsoft.com/library/aa393886).
+    Most [*intrinsic events*](gloss-i.md) are associated with changes to class instances in the root\\cimv2 namespace. However, registry events such as [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent) are fired in the root\\default namespace by the [System Registry Provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider).
 
     A consumer can include event classes located in other namespaces by specifying the namespace in the **EventNamespace** property in the [**\_\_EventFilter**](--eventfilter.md) query for events. The [*intrinsic events*](gloss-i.md) classes, such as [**\_\_InstanceOperationEvent**](--instanceoperationevent.md) are available in every namespace.
 
@@ -106,7 +106,7 @@ The following procedure describes how to monitor and respond to events by using 
 
 4.  Identify an event to monitor and create an event query.
 
-    You can check to see if there is an intrinsic or extrinsic event that use. For example, use the [**RegistryTreeChangeEvent**](https://msdn.microsoft.com/library/aa393041) class of the Registry provider to monitor changes to the system registry.
+    You can check to see if there is an intrinsic or extrinsic event that use. For example, use the [**RegistryTreeChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrytreechangeevent) class of the Registry provider to monitor changes to the system registry.
 
     If a class does not exist that describes an event you need to monitor, you must create your own event provider, and define new extrinsic event classes. For more information, see [Writing an Event Provider](writing-an-event-provider.md).
 

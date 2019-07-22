@@ -21,7 +21,7 @@ Overview information about AD FS.
 
 </dd> <dt>
 
-[ADFS Class Library](https://msdn.microsoft.com/library/system.web.security.singlesignon.aspx)
+[ADFS Class Library](https://docs.microsoft.com/previous-versions/windows/desktop/active-directory-federation-services/ms681631(v=vs.85))
 </dt> <dd>
 
 APIs used to develop application that use AD FS.

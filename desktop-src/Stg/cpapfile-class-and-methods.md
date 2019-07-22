@@ -2,7 +2,7 @@
 title: CPapFile Class and Methods
 description: StoClien encapsulates its compound file operations in a CPapFile C++ object.
 ms.assetid: 21a3e170-0a73-4744-8cfc-3a04e0571792
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 # Example Code for Creating a Class
 
-The following C and C++ code example shows how to create a [**classSchema**](https://msdn.microsoft.com/library/ms680982) object in the ADSI cache.
+The following C and C++ code example shows how to create a [**classSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-classschema) object in the ADSI cache.
 
-The **CreateClass** example function shows how to create the [**classSchema**](https://msdn.microsoft.com/library/ms680982) object and returns an [**IADs**](https://msdn.microsoft.com/library/aa705950) pointer to the new object. Be aware that **CreateClass** does not call [**IADs::SetInfo**](https://msdn.microsoft.com/library/aa746354) to commit the new **classSchema** object to the directory. The caller must make the call using the returned pointer.
+The **CreateClass** example function shows how to create the [**classSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-classschema) object and returns an [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) pointer to the new object. Be aware that **CreateClass** does not call [**IADs::SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) to commit the new **classSchema** object to the directory. The caller must make the call using the returned pointer.
 
 The following **BytesToVariantArray** code example shows a utility function that packs an octet string into a variant array.
 

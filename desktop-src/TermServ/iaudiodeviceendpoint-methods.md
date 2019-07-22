@@ -3,7 +3,7 @@ title: IAudioDeviceEndpoint Methods
 description: The IAudioDeviceEndpoint interface exposes the following methods.
 ms.assetid: 9262596A-A739-4BAF-98F1-E45BD4EF16DB
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

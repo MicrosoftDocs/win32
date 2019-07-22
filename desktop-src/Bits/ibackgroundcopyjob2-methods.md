@@ -2,7 +2,7 @@
 title: IBackgroundCopyJob2 Methods
 description: The IBackgroundCopyJob2 interface exposes the following methods.
 ms.assetid: 8F442C80-FBF8-4BAE-9FB0-43657C4F5336
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

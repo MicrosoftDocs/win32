@@ -10,17 +10,17 @@ ms.date: 05/31/2018
 
 The following are some useful graphing references:
 
--   [**AcceptSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa374703)
--   [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/windows/desktop/aa374712)
--   [**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396)
--   [**DecryptMessage**](https://msdn.microsoft.com/library/windows/desktop/aa375211)
--   [**EncryptMessage**](https://msdn.microsoft.com/library/windows/desktop/aa375378)
--   [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284)
--   [**InitializeSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa375506)
--   [Link-Local and Site-Local Addresses](https://msdn.microsoft.com/library/windows/desktop/ms739166)
--   [Naming a File](https://msdn.microsoft.com/library/windows/desktop/aa365247)
--   [**QueryContextAttributes**](https://msdn.microsoft.com/library/windows/desktop/aa379326)
--   [SSPI documentation](https://msdn.microsoft.com/library/windows/desktop/aa380493)
+-   [**AcceptSecurityContext**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext)
+-   [**AcquireCredentialsHandle**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea)
+-   [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa)
+-   [**DecryptMessage**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage)
+-   [**EncryptMessage**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage)
+-   [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)
+-   [**InitializeSecurityContext**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta)
+-   [Link-Local and Site-Local Addresses](https://docs.microsoft.com/windows/desktop/WinSock/link-local-and-site-local-addresses-2)
+-   [Naming a File](https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file)
+-   [**QueryContextAttributes**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa)
+-   [SSPI documentation](https://docs.microsoft.com/windows/desktop/SecAuthN/sspi)
 
  
 

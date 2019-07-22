@@ -176,10 +176,10 @@ SupportsSignatureAlgorithm (
 **Used in This Example**
 </dt> <dt>
 
-[**CryptFindOIDInfo**](https://msdn.microsoft.com/library/windows/desktop/aa379938)
+[**CryptFindOIDInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo)
 </dt> <dt>
 
-[**CRYPT\_OID\_INFO**](https://msdn.microsoft.com/library/windows/desktop/aa381435)
+[**CRYPT\_OID\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info)
 </dt> <dt>
 
 **CryptXmlEnumAlgorithmInfo**
@@ -188,10 +188,10 @@ SupportsSignatureAlgorithm (
 **For More Information**
 </dt> <dt>
 
-[Cryptography API](https://msdn.microsoft.com/library/windows/desktop/aa380255)
+[Cryptography API](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[Cryptography Functions](https://msdn.microsoft.com/library/windows/desktop/aa380252)
+[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
 [XPS Digital Signature API Errors](xps-digital-signatures-errors.md)

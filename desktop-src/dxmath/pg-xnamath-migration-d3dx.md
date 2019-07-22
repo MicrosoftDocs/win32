@@ -60,24 +60,24 @@ When working with Direct3D 10.x or Direct3D 11, you will typically use DirectXMa
 </tr>
 <tr class="even">
 <td>D3DXMATRIX</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx"><strong>XMFLOAT4X4</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a></td>
 </tr>
 <tr class="odd">
 <td>D3DXMATRIXA16</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx"><strong>XMMATRIX</strong></a> or <a href="https://msdn.microsoft.com/en-us/library/Ee419623(v=VS.85).aspx"><strong>XMFLOAT4X4A</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)"><strong>XMFLOAT4X4A</strong></a></td>
 </tr>
 <tr class="even">
 <td>D3DXQUATERNION<br/> D3DXPLANE<br/> D3DXCOLOR<br/></td>
-<td><a href="xmvector-data-type"><strong>XMVECTOR</strong></a> is used rather than having unique types, so you will likely need to use an <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx"><strong>XMFLOAT4</strong></a>
+<td><a href="xmvector-data-type"><strong>XMVECTOR</strong></a> is used rather than having unique types, so you will likely need to use an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a>
 <blockquote>
 [!Note]<br />
-[<strong>D3DXQUATERNION::operator *</strong>](https://msdn.microsoft.com/en-us/library/Bb205422(v=VS.85).aspx) calls the <a href="https://msdn.microsoft.com/en-us/library/Bb205413(v=VS.85).aspx"><strong>D3DXQuaternionMultiply</strong></a> function, which multiplies two quaternions. But, unless you explicitly use the <a href="https://msdn.microsoft.com/en-us/library/Ee420167(v=VS.85).aspx"><strong>XMQuaternionMultiply</strong></a> function, you get an incorrect answer when you use <a href="xmvector-operator-mul"><strong>XMVECTOR::operator *</strong></a> on a quaternion.
+[<strong>D3DXQUATERNION::operator *</strong>](https://msdn.microsoft.com/en-us/library/Bb205422(v=VS.85).aspx) calls the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxquaternionmultiply"><strong>D3DXQuaternionMultiply</strong></a> function, which multiplies two quaternions. But, unless you explicitly use the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionmultiply"><strong>XMQuaternionMultiply</strong></a> function, you get an incorrect answer when you use <a href="xmvector-operator-mul"><strong>XMVECTOR::operator *</strong></a> on a quaternion.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>D3DXVECTOR2</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx"><strong>XMFLOAT2</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat2"><strong>XMFLOAT2</strong></a></td>
 </tr>
 <tr class="even">
 <td>D3DXVECTOR2_16F</td>
@@ -85,11 +85,11 @@ When working with Direct3D 10.x or Direct3D 11, you will typically use DirectXMa
 </tr>
 <tr class="odd">
 <td>D3DXVECTOR3</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx"><strong>XMFLOAT3</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3"><strong>XMFLOAT3</strong></a></td>
 </tr>
 <tr class="even">
 <td>D3DXVECTOR4</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx"><strong>XMFLOAT4</strong></a>(or if you can guarantee the data is 16-byte aligned, <a href="xmvector-data-type"><strong>XMVECTOR</strong></a> or <a href="https://msdn.microsoft.com/en-us/library/Ee419609(v=VS.85).aspx"><strong>XMFLOAT4A</strong></a> )<br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a>(or if you can guarantee the data is 16-byte aligned, <a href="xmvector-data-type"><strong>XMVECTOR</strong></a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)"><strong>XMFLOAT4A</strong></a> )<br/></td>
 </tr>
 <tr class="odd">
 <td>D3DXVECTOR4_16F</td>

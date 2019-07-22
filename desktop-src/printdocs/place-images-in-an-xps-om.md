@@ -213,7 +213,7 @@ CreateRectanglePath(
 **Used in This Page**
 </dt> <dt>
 
-[**IOpcPartUri**](https://msdn.microsoft.com/library/windows/desktop/dd371083)
+[**IOpcPartUri**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi)
 </dt> <dt>
 
 [**IXpsOMImageBrush**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimagebrush)

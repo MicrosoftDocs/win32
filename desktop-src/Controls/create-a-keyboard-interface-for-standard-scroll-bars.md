@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # How to Create a Keyboard Interface for Standard Scroll Bars
 
-Although a scroll bar control provides a built-in keyboard interface, a standard scroll bar does not. To implement a keyboard interface for a standard scroll bar, a window procedure must process the [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) message and examine the virtual-key code specified by the *wParam* parameter. If the virtual-key code corresponds to an arrow key, the window procedure sends itself a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](wm-vscroll.md) message with the low-order word of the *wParam* parameter set to the appropriate scroll bar request code.
+Although a scroll bar control provides a built-in keyboard interface, a standard scroll bar does not. To implement a keyboard interface for a standard scroll bar, a window procedure must process the [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) message and examine the virtual-key code specified by the *wParam* parameter. If the virtual-key code corresponds to an arrow key, the window procedure sends itself a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](wm-vscroll.md) message with the low-order word of the *wParam* parameter set to the appropriate scroll bar request code.
 
-For example, when the user presses the UP arrow key, the window procedure receives a [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) message with *wParam* equal to VK\_UP. In response, the window procedure sends itself a [**WM\_VSCROLL**](wm-vscroll.md) message with the low-order word of *wParam* set to the SB\_LINEUP request code.
+For example, when the user presses the UP arrow key, the window procedure receives a [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) message with *wParam* equal to VK\_UP. In response, the window procedure sends itself a [**WM\_VSCROLL**](wm-vscroll.md) message with the low-order word of *wParam* set to the SB\_LINEUP request code.
 
 ## What you need to know
 

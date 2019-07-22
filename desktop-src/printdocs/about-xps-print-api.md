@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The [XPS Print API](xps-printing.md) provides an interface to the print spooler that applications can use to print jobs that send XPS documents to a printer.
 
-If the destination printer uses an XPSDrv printer driver, the XPS Print API makes it possible for the XPSDrv printer driver to receive document events as the print spooler processes a print job. For a description of the document events that are sent to the XPSDrv printer driver see [XPS Driver Document Events](https://msdn.microsoft.com/library/windows/hardware/ff564295).
+If the destination printer uses an XPSDrv printer driver, the XPS Print API makes it possible for the XPSDrv printer driver to receive document events as the print spooler processes a print job. For a description of the document events that are sent to the XPSDrv printer driver see [XPS Driver Document Events](https://docs.microsoft.com/windows-hardware/drivers/print/xps-driver-document-events).
 
 If the destination printer uses a GDI printer driver, the [XPS Print API](xps-printing.md) lets the system handle the necessary conversion of the print job data from XPS format to the Enhanced Metafile (EMF) format that the GDI printer driver uses. For a description of the GDI printer driver document events see [DocumentEvent Function](documentevent.md).
 

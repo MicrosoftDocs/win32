@@ -15,7 +15,7 @@ Windows Installer does the following when installing a file stored in an externa
 -   The installer checks to see whether the media entry for that external cabinet is listed in the [MsiDigitalSignature table](msidigitalsignature-table.md). A file stored in an external cabinet is identified by having an entry in the Cabinet column of the [Media table](media-table.md) that is not prefixed by a '\#' character.
 -   Before opening the external cabinet, the installer calls WinVerifyTrust to extract the current certificate and hash information. If there is a mismatch between the current signature information on the cabinet and the signature information authored in the package, the installation fails. The installation fails because the cabinet may have been compromised and cannot be trusted.
 
-For more information regarding the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/library/windows/desktop/aa388208), see the [Security](https://go.microsoft.com/fwlink/p/?linkid=83879) section of the Microsoft Windows Software Development Kit (SDK).
+For more information regarding the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust), see the [Security](https://go.microsoft.com/fwlink/p/?linkid=83879) section of the Microsoft Windows Software Development Kit (SDK).
 
 For more information, see [**MsiGetFileSignatureInformation**](/windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa), [MsiDigitalCertificate table](msidigitalcertificate-table.md), and [MsiDigitalSignature table](msidigitalsignature-table.md).
 

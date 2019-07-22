@@ -47,7 +47,7 @@ The cabinet callback routine should return one of the following values.
 | Return code                                                                               | Description                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NO\_ERROR**</dt> </dl>  | No error was encountered, continue processing the cabinet.<br/>                                                                                                                                |
-| <dl> <dt>**ERROR\_XXX**</dt> </dl> | An error of the specified type occurred. [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) will return zero. [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return the specified error code.<br/> |
+| <dl> <dt>**ERROR\_XXX**</dt> </dl> | An error of the specified type occurred. [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) will return zero. [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return the specified error code.<br/> |
 
 
 

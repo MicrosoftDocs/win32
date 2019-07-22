@@ -14,9 +14,9 @@ api_location:
 
 # Windows Remote Management and WMI
 
-Windows Remote Management can be used to retrieve data exposed by Windows Management Instrumentation ([WMI](https://msdn.microsoft.com/library/aa394582) and [MI](https://msdn.microsoft.com/library/jj152383)). You can obtain WMI data with scripts or applications that use the [WinRM Scripting API](winrm-scripting-api.md) or through the **Winrm** command-line tool.
+Windows Remote Management can be used to retrieve data exposed by Windows Management Instrumentation ([WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page) and [MI](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)). You can obtain WMI data with scripts or applications that use the [WinRM Scripting API](winrm-scripting-api.md) or through the **Winrm** command-line tool.
 
-WinRM supports most of the familiar WMI classes and operations, including embedded objects. WinRM can leverage WMI to collect data about [*resources*](windows-remote-management-glossary.md) or to manage resources on a Windows-based operating system. That means that you can obtain data about objects such as disks, network adapters, services, or processes in your enterprise through the existing set of [WMI classes](https://msdn.microsoft.com/library/aa394554). You can also access the hardware data that is available from the standard WMI [IPMI provider](https://msdn.microsoft.com/library/aa391402).
+WinRM supports most of the familiar WMI classes and operations, including embedded objects. WinRM can leverage WMI to collect data about [*resources*](windows-remote-management-glossary.md) or to manage resources on a Windows-based operating system. That means that you can obtain data about objects such as disks, network adapters, services, or processes in your enterprise through the existing set of [WMI classes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-classes). You can also access the hardware data that is available from the standard WMI [IPMI provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider).
 
 ## Identifying a WMI Resource
 
@@ -65,11 +65,11 @@ The following procedure describes how to generate a resource URI either to get a
 
 ## Locating a WMI Resource with WinRM
 
-You can obtain WMI data either through the command-line tool, **Winrm**, or through a Visual Basic script that uses the [WinRM Scripting API](winrm-scripting-api.md). You do not use a [WMI path](https://msdn.microsoft.com/library/aa390350) to locate a resource. Instead, you convert the WMI namespace and hierarchy to a [*URI*](windows-remote-management-glossary.md).
+You can obtain WMI data either through the command-line tool, **Winrm**, or through a Visual Basic script that uses the [WinRM Scripting API](winrm-scripting-api.md). You do not use a [WMI path](https://docs.microsoft.com/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object) to locate a resource. Instead, you convert the WMI namespace and hierarchy to a [*URI*](windows-remote-management-glossary.md).
 
 The WinRM URI for a WMI class contains two parts: the [URI prefix](uri-prefixes.md) and the class that you want to access.
 
-For example, the following URI can be supplied to the [**Session.Enumerate**](session-enumerate.md) method to list all the services on a computer. The URI prefix is https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/ and the class is [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418).
+For example, the following URI can be supplied to the [**Session.Enumerate**](session-enumerate.md) method to list all the services on a computer. The URI prefix is https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/ and the class is [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service).
 
 `strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_CurrentTime"`
 
@@ -79,7 +79,7 @@ In WMI, list the data for all of the instances of a resource or class in several
 
     `Set colServices = objWMIService.ExecQuery("Select * from Win32_Service")`
 
--   A call to [**SWbemServices.InstancesOf**](https://msdn.microsoft.com/library/aa393870) or [**SWbemObject.Instances\_**](https://msdn.microsoft.com/library/aa393778).
+-   A call to [**SWbemServices.InstancesOf**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-instancesof) or [**SWbemObject.Instances\_**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-instances-).
 
     `Set colServices = InstancesOf("Win32_Service")`
 
@@ -95,7 +95,7 @@ Set colServices = objSession.Enumerate( strResource )
 
 ## Locating a Specific Instance of a WMI Resource
 
-In WMI, you can designate a particular instance of a class either by specifying values for the key properties or by querying for an instance that matches a list of property values. Key properties have the WMI [**Key qualifier**](https://msdn.microsoft.com/library/aa392157).
+In WMI, you can designate a particular instance of a class either by specifying values for the key properties or by querying for an instance that matches a list of property values. Key properties have the WMI [**Key qualifier**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier).
 
 You can obtain a specific instance of a class in several ways:
 
@@ -114,7 +114,7 @@ You can obtain a specific instance of a class in several ways:
 
     
 
--   A call to [**SWbemServices.Get**](https://msdn.microsoft.com/library/aa393868). For [**Session.Get**](session-get.md), you must supply one or more specific key values, preceded by a question mark (?).
+-   A call to [**SWbemServices.Get**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-get). For [**Session.Get**](session-get.md), you must supply one or more specific key values, preceded by a question mark (?).
 
     The format of the URI for a specific instance is "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/WMI\_Class?Key1=Value".
 
@@ -126,7 +126,7 @@ You can obtain a specific instance of a class in several ways:
 
     A WMI class may have more than one key. Key name-value pairs are separated by a "+" sign. In that case, the format is: https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Key1=Value1+Key2=Value2.
 
-    The WinRM syntax to obtain a singleton WMI object is different from WMI. A singleton is a WMI class defined so that only one instance is allowed. [**Win32\_CurrentTime**](https://msdn.microsoft.com/library/aa394114) or [**Win32\_WMISetting**](https://msdn.microsoft.com/library/aa394522) are examples of a WMI singleton class.
+    The WinRM syntax to obtain a singleton WMI object is different from WMI. A singleton is a WMI class defined so that only one instance is allowed. [**Win32\_CurrentTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-currenttime) or [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) are examples of a WMI singleton class.
 
     The WMI syntax for singletons is shown in the following VBScript code example.
 
@@ -146,7 +146,7 @@ You can obtain a specific instance of a class in several ways:
 
 -   Adding a [*selector*](windows-remote-management-glossary.md) to a [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) object.
 
-    The following VBScript code example shows how to use a selector to get a specific instance of [**Win32\_Processor**](https://msdn.microsoft.com/library/aa394373).
+    The following VBScript code example shows how to use a selector to get a specific instance of [**Win32\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-processor).
 
     ```VB
     strUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Processor"

@@ -18,7 +18,7 @@ As the article [Introduction to DirectShow Application Programming](introduction
 
 To compile and link the code in this topic, include the header file Dshow.h and link to the static library file strmiids.lib. For more information, see [Building DirectShow Applications](setting-up-the-build-environment.md).
 
-Start by calling [**CoInitialize**](https://msdn.microsoft.com/library/windows/desktop/ms678543) or [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279) to initialize the COM library:
+Start by calling [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) to initialize the COM library:
 
 
 ```C++
@@ -33,7 +33,7 @@ if (FAILED(hr))
 
 To keep things simple, this example ignores the return value, but you should always check the **HRESULT** value from any method call.
 
-Next, call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the Filter Graph Manager:
+Next, call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the Filter Graph Manager:
 
 
 ```C++
@@ -44,9 +44,9 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL,
 
 
 
-As shown, the class identifier (CLSID) is CLSID\_FilterGraph. The Filter Graph Manager is provided by an in-process DLL, so the execution context is **CLSCTX\_INPROC\_SERVER**. DirectShow supports the free-threading model, so you can also call [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279) with the **COINIT\_MULTITHREADED** flag.
+As shown, the class identifier (CLSID) is CLSID\_FilterGraph. The Filter Graph Manager is provided by an in-process DLL, so the execution context is **CLSCTX\_INPROC\_SERVER**. DirectShow supports the free-threading model, so you can also call [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) with the **COINIT\_MULTITHREADED** flag.
 
-The call to [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) returns the [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) interface, which mostly contains methods for building the filter graph. Two other interfaces are needed for this example:
+The call to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) returns the [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) interface, which mostly contains methods for building the filter graph. Two other interfaces are needed for this example:
 
 -   [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) controls streaming. It contains methods for stopping and starting the graph.
 -   [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) has methods for getting events from the Filter Graph Manager. In this example, the interface is used to wait for playback to complete.

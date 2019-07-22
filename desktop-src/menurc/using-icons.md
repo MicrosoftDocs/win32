@@ -178,7 +178,7 @@ DrawIcon(hdc, 10, 20, hIcon1);
 
 
 
-The system automatically displays the class icon(s) for a window. Your application can assign class icons while registering a window class. Your application can replace a class icon by using the [**SetClassLong**](https://msdn.microsoft.com/library/windows/desktop/ms633588) function. This function changes the default window settings for all windows of a given class. The following example replaces a class icon with the icon whose resource identifier is 480.
+The system automatically displays the class icon(s) for a window. Your application can assign class icons while registering a window class. Your application can replace a class icon by using the [**SetClassLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a given class. The following example replaces a class icon with the icon whose resource identifier is 480.
 
 
 ```
@@ -195,13 +195,13 @@ SetClassLong(hwnd,          // window handle
 
 
 
-For more information about window classes, see [Window Classes](https://msdn.microsoft.com/library/windows/desktop/ms632596).
+For more information about window classes, see [Window Classes](https://docs.microsoft.com/windows/desktop/winmsg/window-classes).
 
 ## Sharing Icon Resources
 
 The following code uses the functions [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon), and [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex), and several of the resource functions, to create an icon handle based on icon data from another executable file. Then, it displays the icon in a window.
 
-**Security Warning:** Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
+**Security Warning:** Using [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
 
 ```

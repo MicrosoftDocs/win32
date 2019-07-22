@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 A *window class* defines a set of behaviors that several windows might have in common. For example, in a group of buttons, each button has a similar behavior when the user clicks the button. Of course, buttons are not completely identical; each button displays its own text string and has its own screen coordinates. Data that is unique for each window is called *instance data*.
 
-Every window must be associated with a window class, even if your program only ever creates one instance of that class. It is important to understand that a window class is not a "class" in the C++ sense. Rather, it is a data structure used internally by the operating system. Window classes are registered with the system at run time. To register a new window class, start by filling in a [**WNDCLASS**](https://msdn.microsoft.com/library/windows/desktop/ms633576) structure:
+Every window must be associated with a window class, even if your program only ever creates one instance of that class. It is important to understand that a window class is not a "class" in the C++ sense. Rather, it is a data structure used internally by the operating system. Window classes are registered with the system at run time. To register a new window class, start by filling in a [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) structure:
 
 
 ```C++
@@ -36,9 +36,9 @@ You must set the following structure members:
 
 Class names are local to the current process, so the name only needs to be unique within the process. However, the standard Windows controls also have classes. If you use any of those controls, you must pick class names that do not conflict with the control class names. For example, the window class for the button control is named "Button".
 
-The [**WNDCLASS**](https://msdn.microsoft.com/library/windows/desktop/ms633576) structure has other members not shown here. You can set them to zero, as shown in this example, or fill them in. The MSDN documentation describes the structure in detail.
+The [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) structure has other members not shown here. You can set them to zero, as shown in this example, or fill them in. The MSDN documentation describes the structure in detail.
 
-Next, pass the address of the [**WNDCLASS**](https://msdn.microsoft.com/library/windows/desktop/ms633576) structure to the [**RegisterClass**](https://msdn.microsoft.com/library/windows/desktop/ms633586) function. This function registers the window class with the operating system.
+Next, pass the address of the [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) structure to the [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa) function. This function registers the window class with the operating system.
 
 
 ```C++
@@ -49,7 +49,7 @@ Next, pass the address of the [**WNDCLASS**](https://msdn.microsoft.com/library/
 
 ## Creating the Window
 
-To create a new instance of a window, call the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function:
+To create a new instance of a window, call the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function:
 
 
 ```C++
@@ -88,7 +88,7 @@ You can read detailed parameter descriptions on MSDN, but here is a quick summar
 -   *hInstance* is the instance handle, described previously. (See [WinMain: The Application Entry Point](winmain--the-application-entry-point.md).)
 -   The last parameter is a pointer to arbitrary data of type **void\***. You can use this value to pass a data structure to your window procedure. We'll show one possible way to use this parameter in the section [Managing Application State](managing-application-state-.md).
 
-[**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) returns a handle to the new window, or zero if the function fails. To show the window—that is, make the window visible —pass the window handle to the [**ShowWindow**](https://msdn.microsoft.com/library/windows/desktop/ms633548) function:
+[**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) returns a handle to the new window, or zero if the function fails. To show the window—that is, make the window visible —pass the window handle to the [**ShowWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow) function:
 
 
 ```C++
@@ -97,7 +97,7 @@ You can read detailed parameter descriptions on MSDN, but here is a quick summar
 
 
 
-The *hwnd* parameter is the window handle returned by [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680). The *nCmdShow* parameter can be used to minimize or maximize a window. The operating system passes this value to the program through the **wWinMain** function.
+The *hwnd* parameter is the window handle returned by [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa). The *nCmdShow* parameter can be used to minimize or maximize a window. The operating system passes this value to the program through the **wWinMain** function.
 
 Here is the complete code to create the window. Remember that `WindowProc` is still just a forward declaration of a function.
 

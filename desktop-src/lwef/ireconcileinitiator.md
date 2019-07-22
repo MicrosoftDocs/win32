@@ -23,7 +23,7 @@ Exposes methods that provide the briefcase reconciler with the means to notify t
 
 ## Members
 
-The **IReconcileInitiator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IReconcileInitiator** also has these types of members:
+The **IReconcileInitiator** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IReconcileInitiator** also has these types of members:
 
 -   [Methods](#methods)
 

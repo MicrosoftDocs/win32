@@ -69,7 +69,7 @@ public static IEnumerable<IndexInfo> GetTableIndexes(
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0)\<[IndexInfo](dn350919\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN)\<[IndexInfo](dn350919\(v=exchg.10\).md)\>  
 An iterator over an IndexInfo for each index in the table.  
 
 ## See also

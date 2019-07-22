@@ -48,7 +48,7 @@ This parameter is not used.
 
 A pointer to an [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure.
 
-The [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure contains an [**NMHDR**](https://msdn.microsoft.com/library/windows/desktop/bb775514) structure whose **code** member indicates the **CDN\_INCLUDEITEM** notification message.
+The [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure contains an [**NMHDR**](https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure whose **code** member indicates the **CDN\_INCLUDEITEM** notification message.
 
 The **psf** member of the [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure is a pointer to an interface for the folder whose items are being enumerated. The **pidl** member is a pointer to an item identifier list that identifies the item relative to the folder.
 

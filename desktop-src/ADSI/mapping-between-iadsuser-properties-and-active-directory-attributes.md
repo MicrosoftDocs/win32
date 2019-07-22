@@ -20,53 +20,53 @@ The following table lists the mapping between the [**IADsUser**](/windows/deskto
 
 | IADsUser property                                           | Active Directory attribute                                                                                  |
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [**AccountDisabled**](iadsuser-property-methods.md)        | **ADS\_UF\_ACCOUNTDISABLE** flag in the [**userAccountControl**](https://msdn.microsoft.com/library/ms680832) attribute.  |
-| [**AccountExpirationDate**](iadsuser-property-methods.md)  | [**accountExpires**](https://msdn.microsoft.com/library/ms675098)                                                             |
+| [**AccountDisabled**](iadsuser-property-methods.md)        | **ADS\_UF\_ACCOUNTDISABLE** flag in the [**userAccountControl**](https://docs.microsoft.com/windows/desktop/ADSchema/a-useraccountcontrol) attribute.  |
+| [**AccountExpirationDate**](iadsuser-property-methods.md)  | [**accountExpires**](https://docs.microsoft.com/windows/desktop/ADSchema/a-accountexpires)                                                             |
 | [**BadLoginAddress**](iadsuser-property-methods.md)        | Not Supported.                                                                                              |
-| [**BadLoginCount**](iadsuser-property-methods.md)          | [**badPwdCount**](https://msdn.microsoft.com/library/ms675244)                                                                   |
-| [**Department**](iadsuser-property-methods.md)             | [**department**](https://msdn.microsoft.com/library/ms675490)                                                                     |
-| [**Description**](iadsuser-property-methods.md)            | [**description**](https://msdn.microsoft.com/library/ms675492)                                                                   |
-| [**Division**](iadsuser-property-methods.md)               | [**division**](https://msdn.microsoft.com/library/ms675518)                                                                         |
-| [**EmailAddress**](iadsuser-property-methods.md)           | [**mail**](https://msdn.microsoft.com/library/ms676855)                                                                                 |
-| [**EmployeeID**](iadsuser-property-methods.md)             | [**employeeID**](https://msdn.microsoft.com/library/ms675662)                                                                     |
-| [**FaxNumber**](iadsuser-property-methods.md)              | [**facsimileTelephoneNumber**](https://msdn.microsoft.com/library/ms675675)                                         |
-| [**FirstName**](iadsuser-property-methods.md)              | [**givenName**](https://msdn.microsoft.com/library/ms675719)                                                                       |
-| [**FullName**](iadsuser-property-methods.md)               | [**displayName**](https://msdn.microsoft.com/library/ms675514)                                                                   |
+| [**BadLoginCount**](iadsuser-property-methods.md)          | [**badPwdCount**](https://docs.microsoft.com/windows/desktop/ADSchema/a-badpwdcount)                                                                   |
+| [**Department**](iadsuser-property-methods.md)             | [**department**](https://docs.microsoft.com/windows/desktop/ADSchema/a-department)                                                                     |
+| [**Description**](iadsuser-property-methods.md)            | [**description**](https://docs.microsoft.com/windows/desktop/ADSchema/a-description)                                                                   |
+| [**Division**](iadsuser-property-methods.md)               | [**division**](https://docs.microsoft.com/windows/desktop/ADSchema/a-division)                                                                         |
+| [**EmailAddress**](iadsuser-property-methods.md)           | [**mail**](https://docs.microsoft.com/windows/desktop/ADSchema/a-mail)                                                                                 |
+| [**EmployeeID**](iadsuser-property-methods.md)             | [**employeeID**](https://docs.microsoft.com/windows/desktop/ADSchema/a-employeeid)                                                                     |
+| [**FaxNumber**](iadsuser-property-methods.md)              | [**facsimileTelephoneNumber**](https://docs.microsoft.com/windows/desktop/ADSchema/a-facsimiletelephonenumber)                                         |
+| [**FirstName**](iadsuser-property-methods.md)              | [**givenName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-givenname)                                                                       |
+| [**FullName**](iadsuser-property-methods.md)               | [**displayName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-displayname)                                                                   |
 | [**GraceLoginsAllowed**](iadsuser-property-methods.md)     | Not Supported.                                                                                              |
 | [**GraceLoginsRemaining**](iadsuser-property-methods.md)   | Not Supported.                                                                                              |
-| [**HomeDirectory**](iadsuser-property-methods.md)          | [**homeDirectory**](https://msdn.microsoft.com/library/ms676190)                                                               |
-| [**HomePage**](iadsuser-property-methods.md)               | [**wWWHomePage**](https://msdn.microsoft.com/library/ms680927)                                                                   |
-| [**IsAccountLocked**](iadsuser-property-methods.md)        | [**lockoutTime**](https://msdn.microsoft.com/library/ms676843)                                                                   |
+| [**HomeDirectory**](iadsuser-property-methods.md)          | [**homeDirectory**](https://docs.microsoft.com/windows/desktop/ADSchema/a-homedirectory)                                                               |
+| [**HomePage**](iadsuser-property-methods.md)               | [**wWWHomePage**](https://docs.microsoft.com/windows/desktop/ADSchema/a-wwwhomepage)                                                                   |
+| [**IsAccountLocked**](iadsuser-property-methods.md)        | [**lockoutTime**](https://docs.microsoft.com/windows/desktop/ADSchema/a-lockouttime)                                                                   |
 | [**Languages**](iadsuser-property-methods.md)              | Not Supported.                                                                                              |
-| [**LastFailedLogin**](iadsuser-property-methods.md)        | [**badPasswordTime**](https://msdn.microsoft.com/library/ms675243)                                                           |
-| [**LastLogin**](iadsuser-property-methods.md)              | [**lastLogon**](https://msdn.microsoft.com/library/ms676823)                                                                       |
-| [**LastLogoff**](iadsuser-property-methods.md)             | [**lastLogoff**](https://msdn.microsoft.com/library/ms676822)                                                                     |
-| [**LastName**](iadsuser-property-methods.md)               | [**sn**](https://msdn.microsoft.com/library/ms679872)                                                                                     |
-| [**LoginHours**](iadsuser-property-methods.md)             | [**logonHours**](https://msdn.microsoft.com/library/ms676846)                                                                     |
-| [**LoginScript**](iadsuser-property-methods.md)            | [**scriptPath**](https://msdn.microsoft.com/library/ms679656)                                                                     |
-| [**LoginWorkstations**](iadsuser-property-methods.md)      | [**userWorkstations**](https://msdn.microsoft.com/library/ms680868)                                                         |
-| [**Manager**](iadsuser-property-methods.md)                | [**manager**](https://msdn.microsoft.com/library/ms676859)                                                                           |
+| [**LastFailedLogin**](iadsuser-property-methods.md)        | [**badPasswordTime**](https://docs.microsoft.com/windows/desktop/ADSchema/a-badpasswordtime)                                                           |
+| [**LastLogin**](iadsuser-property-methods.md)              | [**lastLogon**](https://docs.microsoft.com/windows/desktop/ADSchema/a-lastlogon)                                                                       |
+| [**LastLogoff**](iadsuser-property-methods.md)             | [**lastLogoff**](https://docs.microsoft.com/windows/desktop/ADSchema/a-lastlogoff)                                                                     |
+| [**LastName**](iadsuser-property-methods.md)               | [**sn**](https://docs.microsoft.com/windows/desktop/ADSchema/a-sn)                                                                                     |
+| [**LoginHours**](iadsuser-property-methods.md)             | [**logonHours**](https://docs.microsoft.com/windows/desktop/ADSchema/a-logonhours)                                                                     |
+| [**LoginScript**](iadsuser-property-methods.md)            | [**scriptPath**](https://docs.microsoft.com/windows/desktop/ADSchema/a-scriptpath)                                                                     |
+| [**LoginWorkstations**](iadsuser-property-methods.md)      | [**userWorkstations**](https://docs.microsoft.com/windows/desktop/ADSchema/a-userworkstations)                                                         |
+| [**Manager**](iadsuser-property-methods.md)                | [**manager**](https://docs.microsoft.com/windows/desktop/ADSchema/a-manager)                                                                           |
 | [**MaxLogins**](iadsuser-property-methods.md)              | Not Supported.                                                                                              |
-| [**MaxStorage**](iadsuser-property-methods.md)             | [**maxStorage**](https://msdn.microsoft.com/library/ms676865)                                                                     |
-| [**NamePrefix**](iadsuser-property-methods.md)             | [**personalTitle**](https://msdn.microsoft.com/library/ms679115)                                                               |
-| [**NameSuffix**](iadsuser-property-methods.md)             | [**generationQualifier**](https://msdn.microsoft.com/library/ms675717)                                                   |
-| [**OfficeLocations**](iadsuser-property-methods.md)        | [**physicalDeliveryOfficeName**](https://msdn.microsoft.com/library/ms679117)                                     |
-| [**OtherName**](iadsuser-property-methods.md)              | [**middleName**](https://msdn.microsoft.com/library/ms677108)                                                                     |
+| [**MaxStorage**](iadsuser-property-methods.md)             | [**maxStorage**](https://docs.microsoft.com/windows/desktop/ADSchema/a-maxstorage)                                                                     |
+| [**NamePrefix**](iadsuser-property-methods.md)             | [**personalTitle**](https://docs.microsoft.com/windows/desktop/ADSchema/a-personaltitle)                                                               |
+| [**NameSuffix**](iadsuser-property-methods.md)             | [**generationQualifier**](https://docs.microsoft.com/windows/desktop/ADSchema/a-generationqualifier)                                                   |
+| [**OfficeLocations**](iadsuser-property-methods.md)        | [**physicalDeliveryOfficeName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-physicaldeliveryofficename)                                     |
+| [**OtherName**](iadsuser-property-methods.md)              | [**middleName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-middlename)                                                                     |
 | [**PasswordExpirationDate**](iadsuser-property-methods.md) | Set using Group Policy Editor                                                                               |
-| [**PasswordLastChanged**](iadsuser-property-methods.md)    | [**pwdLastSet**](https://msdn.microsoft.com/library/ms679430)                                                                     |
+| [**PasswordLastChanged**](iadsuser-property-methods.md)    | [**pwdLastSet**](https://docs.microsoft.com/windows/desktop/ADSchema/a-pwdlastset)                                                                     |
 | [**PasswordMinimumLength**](iadsuser-property-methods.md)  | Set using Group Policy Editor                                                                               |
-| [**PasswordRequired**](iadsuser-property-methods.md)       | **ADS\_UF\_PASSWD\_NOTREQD** flag in the [**userAccountControl**](https://msdn.microsoft.com/library/ms680832) attribute. |
-| [**Picture**](iadsuser-property-methods.md)                | [**thumbnailPhoto**](https://msdn.microsoft.com/library/ms680034)                                                             |
-| [**PostalAddresses**](iadsuser-property-methods.md)        | [**postalAddress**](https://msdn.microsoft.com/library/ms679365)                                                               |
-| [**PostalCodes**](iadsuser-property-methods.md)            | [**postalCode**](https://msdn.microsoft.com/library/ms679366)                                                                     |
-| [**Profile**](iadsuser-property-methods.md)                | [**profilePath**](https://msdn.microsoft.com/library/ms679422)                                                                   |
+| [**PasswordRequired**](iadsuser-property-methods.md)       | **ADS\_UF\_PASSWD\_NOTREQD** flag in the [**userAccountControl**](https://docs.microsoft.com/windows/desktop/ADSchema/a-useraccountcontrol) attribute. |
+| [**Picture**](iadsuser-property-methods.md)                | [**thumbnailPhoto**](https://docs.microsoft.com/windows/desktop/ADSchema/a-thumbnailphoto)                                                             |
+| [**PostalAddresses**](iadsuser-property-methods.md)        | [**postalAddress**](https://docs.microsoft.com/windows/desktop/ADSchema/a-postaladdress)                                                               |
+| [**PostalCodes**](iadsuser-property-methods.md)            | [**postalCode**](https://docs.microsoft.com/windows/desktop/ADSchema/a-postalcode)                                                                     |
+| [**Profile**](iadsuser-property-methods.md)                | [**profilePath**](https://docs.microsoft.com/windows/desktop/ADSchema/a-profilepath)                                                                   |
 | [**RequireUniquePassword**](iadsuser-property-methods.md)  | Set using Group Policy Editor                                                                               |
-| [**SeeAlso**](iadsuser-property-methods.md)                | [**seeAlso**](https://msdn.microsoft.com/library/ms679769)                                                                           |
-| [**TelephoneHome**](iadsuser-property-methods.md)          | [**homePhone**](https://msdn.microsoft.com/library/ms676192)                                                                       |
-| [**TelephoneMobile**](iadsuser-property-methods.md)        | [**mobile**](https://msdn.microsoft.com/library/ms677119)                                                                             |
-| [**TelephoneNumber**](iadsuser-property-methods.md)        | [**telephoneNumber**](https://msdn.microsoft.com/library/ms680027)                                                           |
-| [**TelephonePager**](iadsuser-property-methods.md)         | [**pager**](https://msdn.microsoft.com/library/ms679102)                                                                               |
-| [**Title**](iadsuser-property-methods.md)                  | [**title**](https://msdn.microsoft.com/library/ms680037)                                                                               |
+| [**SeeAlso**](iadsuser-property-methods.md)                | [**seeAlso**](https://docs.microsoft.com/windows/desktop/ADSchema/a-seealso)                                                                           |
+| [**TelephoneHome**](iadsuser-property-methods.md)          | [**homePhone**](https://docs.microsoft.com/windows/desktop/ADSchema/a-homephone)                                                                       |
+| [**TelephoneMobile**](iadsuser-property-methods.md)        | [**mobile**](https://docs.microsoft.com/windows/desktop/ADSchema/a-mobile)                                                                             |
+| [**TelephoneNumber**](iadsuser-property-methods.md)        | [**telephoneNumber**](https://docs.microsoft.com/windows/desktop/ADSchema/a-telephonenumber)                                                           |
+| [**TelephonePager**](iadsuser-property-methods.md)         | [**pager**](https://docs.microsoft.com/windows/desktop/ADSchema/a-pager)                                                                               |
+| [**Title**](iadsuser-property-methods.md)                  | [**title**](https://docs.microsoft.com/windows/desktop/ADSchema/a-title)                                                                               |
 
 
 

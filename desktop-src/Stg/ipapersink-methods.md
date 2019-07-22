@@ -2,7 +2,7 @@
 title: IPaperSink Methods
 description: COPaper exposes the IConnectionPointContainer interface so clients can connect to COPaper in order to receive notifications of specified events that occur in COPaper.
 ms.assetid: 2466c721-b275-4dbc-a604-2d5e6a29d6a1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

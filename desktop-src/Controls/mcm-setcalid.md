@@ -27,7 +27,7 @@ Sets the calendar ID for the given calendar control. You can send this message e
 *wParam* 
 </dt> <dd>
 
-The calendar ID. One of the [Calendar Identifiers](https://msdn.microsoft.com/library/windows/desktop/dd317732) constants.
+The calendar ID. One of the [Calendar Identifiers](https://docs.microsoft.com/windows/desktop/Intl/calendar-identifiers) constants.
 
 </dd> <dt>
 

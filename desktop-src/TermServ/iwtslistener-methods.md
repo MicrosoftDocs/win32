@@ -3,7 +3,7 @@ title: IWTSListener Methods
 description: The IWTSListener interface exposes the following methods.
 ms.assetid: B542393D-879D-424B-917C-98FBB4979566
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

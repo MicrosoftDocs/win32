@@ -1,14 +1,17 @@
 ---
 title: ID2D1RenderTarget PushLayer methods
 description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.
-ms.assetid: '9336662c-e94e-40ba-adbe-066d704958bc'
-keywords: ["PushLayer methods Direct2D"]
+ms.assetid: 9336662c-e94e-40ba-adbe-066d704958bc
+keywords:
+- PushLayer methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1RenderTarget::PushLayer methods

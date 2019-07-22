@@ -18,8 +18,8 @@ This topic describes how to create and animate a visual that uses the bitmap of 
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://msdn.microsoft.com/library/windows/desktop/ff476080)
--   [DirectX Graphics Infrastructure (DXGI)](https://msdn.microsoft.com/library/windows/desktop/hh404534)
+-   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -33,7 +33,7 @@ This topic describes how to create and animate a visual that uses the bitmap of 
 
 Use the following steps to create a layered child window.
 
-1.  Register the child window class and create a child window that has the [**WS\_EX\_LAYERED**](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-layered) style. In the following example, `m_dpiX` and `m_dpiY` specify the screen resolution in pixels per logical inch, and `m_hwndMain` is the handle of the main application window.
+1.  Register the child window class and create a child window that has the [**WS\_EX\_LAYERED**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles) style. In the following example, `m_dpiX` and `m_dpiY` specify the screen resolution in pixels per logical inch, and `m_hwndMain` is the handle of the main application window.
 ```C++
     HWND m_hwndLayeredChild;
 
@@ -77,7 +77,7 @@ HRESULT hr = S_OK;
 
     
 
-2.  Call the [**SetLayeredWindowAttributes**](https://msdn.microsoft.com/library/windows/desktop/ms633540) function to set the transparency color key and opacity of the layered child window. The following code sets the transparency color key to zero and the opacity to 255 (opaque).
+2.  Call the [**SetLayeredWindowAttributes**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes) function to set the transparency color key and opacity of the layered child window. The following code sets the transparency color key to zero and the opacity to 255 (opaque).
 
 ```C++
     if (!SetLayeredWindowAttributes(m_hwndLayeredChild, 0, 255, LWA_ALPHA))
@@ -208,7 +208,7 @@ hr = pVisual->SetTransform(pScale);
 
 ### Step 8: Cloak the layered child window
 
-Before committing the animation, use the [**DwmSetWindowAttribute**](https://msdn.microsoft.com/library/windows/desktop/aa969524) function with the [**DWMWA\_CLOAK**](https://msdn.microsoft.com/library/windows/desktop/aa969530#dwmwa-cloak) flag to "cloak" the layered child window. Cloaking removes the layered child window from view while the animated version of the window's bitmap view is being rendered to the screen.
+Before committing the animation, use the [**DwmSetWindowAttribute**](https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) function with the [**DWMWA\_CLOAK**](https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwmwindowattribute) flag to "cloak" the layered child window. Cloaking removes the layered child window from view while the animated version of the window's bitmap view is being rendered to the screen.
 
 
 ```C++
@@ -227,11 +227,11 @@ Use the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/libra
 
 ### Step 10: Uncloak the layered child window
 
-After the animation is finished, use the [**DwmSetWindowAttribute**](https://msdn.microsoft.com/library/windows/desktop/aa969524) function with the **DWMWA\_CLOAK** flag to uncloak the layered child window.
+After the animation is finished, use the [**DwmSetWindowAttribute**](https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) function with the **DWMWA\_CLOAK** flag to uncloak the layered child window.
 
 ### Step 11: Release DirectComposition objects
 
-Be sure to release all DirectComposition objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435) macro to free the DirectComposition objects.
+Be sure to release all DirectComposition objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the DirectComposition objects.
 
 
 ```C++

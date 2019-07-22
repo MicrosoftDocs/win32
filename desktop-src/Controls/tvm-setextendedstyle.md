@@ -44,7 +44,7 @@ If this message succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESU
 
 ## Remarks
 
-The extended styles for a tree-view control have nothing to do with the extended styles used with function [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) or function [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591).
+The extended styles for a tree-view control have nothing to do with the extended styles used with function [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) or function [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
 ## Requirements
 

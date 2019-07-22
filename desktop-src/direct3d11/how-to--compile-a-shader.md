@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # How To: Compile a Shader
 
-You typically use the [fxc.exe](https://msdn.microsoft.com/library/windows/desktop/bb232919) HLSL code compiler as part of the build process to compile shader code. For more info about this, see [Compiling Shaders](https://msdn.microsoft.com/library/windows/desktop/bb509633). This topic shows how to use the [**D3DCompileFromFile**](https://msdn.microsoft.com/library/windows/desktop/hh446872) function at run time to compile shader code.
+You typically use the [fxc.exe](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) HLSL code compiler as part of the build process to compile shader code. For more info about this, see [Compiling Shaders](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-part1). This topic shows how to use the [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile) function at run time to compile shader code.
 
 **To compile a shader:**
 
--   Compile HLSL shader code by calling [**D3DCompileFromFile**](https://msdn.microsoft.com/library/windows/desktop/hh446872).
+-   Compile HLSL shader code by calling [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile).
     ```C++
         UINT flags = D3DCOMPILE_ENABLE_STRICTNESS;
     #if defined( DEBUG ) || defined( _DEBUG )

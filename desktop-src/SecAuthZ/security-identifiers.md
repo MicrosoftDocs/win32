@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Security Identifiers
 
-A [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID) is a unique value of variable length used to identify a [trustee](trustees.md). Each account has a unique SID issued by an authority, such as a Windows domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group.
+A [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) is a unique value of variable length used to identify a [trustee](trustees.md). Each account has a unique SID issued by an authority, such as a Windows domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group.
 
 Windows security uses SIDs in the following security elements:
 

@@ -29,8 +29,8 @@ The following screen shots show the visual before and after applying the 2D tran
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://msdn.microsoft.com/library/windows/desktop/ff476080)
--   [DirectX Graphics Infrastructure (DXGI)](https://msdn.microsoft.com/library/windows/desktop/hh404534)
+-   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -182,7 +182,7 @@ if (SUCCEEDED(hr))
 
 ### Step 7: Free the DirectComposition objects
 
-Be sure to free the group of 2D transform objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435) macro to free the transform objects.
+Be sure to free the group of 2D transform objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the transform objects.
 
 
 ```C++

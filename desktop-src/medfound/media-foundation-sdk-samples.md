@@ -124,7 +124,7 @@ This section describes sample applications that demonstrate how to use Media Fou
 <td>Demonstrates some advanced playback features of the <a href="using-mfplay-for-audio-video-playback">MFPlay</a> API.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/Bb970336(v=VS.85).aspx">PlaybackFX</a></td>
+<td><a href="https://docs.microsoft.com/previous-versions//bb970336(v=vs.85)">PlaybackFX</a></td>
 <td>Applies a grayscale effect to video. Shows how to insert MFTs into a playback topology.<br/>
 <blockquote>
 [!Note]<br />

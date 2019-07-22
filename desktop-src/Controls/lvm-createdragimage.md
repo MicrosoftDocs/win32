@@ -34,7 +34,7 @@ The index of the item.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**POINT**](https://msdn.microsoft.com/library/windows/desktop/dd162805) structure that receives the initial location of the upper-left corner of the image, in view coordinates.
+A pointer to a [**POINT**](https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)) structure that receives the initial location of the upper-left corner of the image, in view coordinates.
 
 </dd> </dl>
 

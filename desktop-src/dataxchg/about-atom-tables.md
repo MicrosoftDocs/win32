@@ -24,7 +24,7 @@ The system provides a number of atom tables. Each atom table serves a different 
 
 Applications can use local atom tables to store their own item-name associations.
 
-The system uses atom tables that are not directly accessible to applications. However, the application uses these atoms when calling a variety of functions. For example, registered clipboard formats are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function. Also, registered classes are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClass**](https://msdn.microsoft.com/library/windows/desktop/ms633586) or [**RegisterClassEx**](https://msdn.microsoft.com/library/windows/desktop/ms633587) function.
+The system uses atom tables that are not directly accessible to applications. However, the application uses these atoms when calling a variety of functions. For example, registered clipboard formats are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function. Also, registered classes are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa) or [**RegisterClassEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa) function.
 
 The following topics are discussed in this section.
 

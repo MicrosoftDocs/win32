@@ -59,12 +59,12 @@ public bool Equals(
 
 #### Return value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
 True if the current object is equal to the other parameter; otherwise, false.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals?redirectedfrom=MSDN#System_IEquatable_1_Equals__0_)  
 
 ## See also
 

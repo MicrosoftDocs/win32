@@ -38,7 +38,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the code syntax is valid; otherwise **FALSE**.
 

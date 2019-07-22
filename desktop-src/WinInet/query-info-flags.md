@@ -104,9 +104,9 @@ ms.date: 05/31/2018
 
 # Query Info Flags
 
-The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) and [**QueryInfo**](https://msdn.microsoft.com/library/ms774972).
+The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) and [**QueryInfo**](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774972(v=vs.85)).
 
-The attribute flags are used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](https://docs.microsoft.com/windows), that are not related to a specific header.
+The attribute flags are used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774972(v=vs.85))) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](https://docs.microsoft.com/windows), that are not related to a specific header.
 
 <dl> <dt>
 
@@ -1215,7 +1215,7 @@ Retrieves the X-XSS-Protection header value.
 
 </dt> </dl> </dd> </dl>
 
-The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) should search for the data.
+The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774972(v=vs.85))) should search for the data.
 
 <dl> <dt>
 
@@ -1266,7 +1266,7 @@ Queries request headers only.
 
 
 
-Returns the header value as a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure, which does not require the application to parse the data. Use for headers whose value is a date/time string, such as "Last-Modified-Time".
+Returns the header value as a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure, which does not require the application to parse the data. Use for headers whose value is a date/time string, such as "Last-Modified-Time".
 
 
 </dt> </dl> </dd> </dl>
@@ -1274,7 +1274,7 @@ Returns the header value as a [**SYSTEMTIME**](https://msdn.microsoft.com/librar
 ## Remarks
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

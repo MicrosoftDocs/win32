@@ -131,7 +131,7 @@ This function is supported in the following shader models.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
 
 > [!Note]  
-> **SampleCmp** is also available in ps 4\_0\_level\_9\_1 and 4\_0\_level\_9\_3 when you use the techniques that are described in [Implementing shadow buffers for Direct3D feature level 9](https://msdn.microsoft.com/library/windows/apps/jj262110).
+> **SampleCmp** is also available in ps 4\_0\_level\_9\_1 and 4\_0\_level\_9\_3 when you use the techniques that are described in [Implementing shadow buffers for Direct3D feature level 9](https://docs.microsoft.com/previous-versions/windows/apps/jj262110(v=win.10)).
 
  
 

@@ -30,7 +30,7 @@ Retrieves the minimum and maximum allowable dates set for a month calendar contr
 *lParam* 
 </dt> <dd>
 
-Pointer to a two-element array of [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structures that will receive the date limit information. The minimum limit is set in *lprgSysTimeArray*\[0\], and *lprgSysTimeArray*\[1\] receives the maximum limit. If either element is set to all zeros, then no corresponding limit is set for the month calendar control. This parameter must be a valid address and cannot be **NULL**.
+Pointer to a two-element array of [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that will receive the date limit information. The minimum limit is set in *lprgSysTimeArray*\[0\], and *lprgSysTimeArray*\[1\] receives the maximum limit. If either element is set to all zeros, then no corresponding limit is set for the month calendar control. This parameter must be a valid address and cannot be **NULL**.
 
 </dd> </dl>
 

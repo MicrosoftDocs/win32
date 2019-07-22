@@ -3,7 +3,7 @@ Description: The CIM\_OperatingSystem class exposes the following methods.
 ms.assetid: FFF4336E-20CD-486C-B85A-FC44A697BCEC
 ms.tgt_platform: multiple
 title: CIM_OperatingSystem Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Header file Mmdeviceapi.h defines several properties of [audio endpoint devices](audio-endpoint-devices.md) in Windows Vista and later. The Windows audio service sets the values of these properties. Clients can read these properties, but should not set them. Property values are stored as **PROPVARIANT** structures.
 
-The recommended way of reading the properties of an audio input device is to use the APIs in the [**Windows.Devices.Enumeration**](https://msdn.microsoft.com/library/windows/apps/br225459) namespace. These APIs are supported for Windows Store apps and desktop apps. For existing desktop apps that read device properties using the [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) interface, see [Device Properties](device-properties.md). **IMMDevice** is not supported for Windows Store apps.
+The recommended way of reading the properties of an audio input device is to use the APIs in the [**Windows.Devices.Enumeration**](https://docs.microsoft.com/uwp/api/Windows.Devices.Enumeration) namespace. These APIs are supported for Windows Store apps and desktop apps. For existing desktop apps that read device properties using the [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) interface, see [Device Properties](device-properties.md). **IMMDevice** is not supported for Windows Store apps.
 
 For code examples that show how to access the properties of an audio endpoint device, see the following topics:
 

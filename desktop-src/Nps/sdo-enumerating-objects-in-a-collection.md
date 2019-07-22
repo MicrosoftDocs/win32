@@ -128,19 +128,19 @@ The vtName and vtProtocol variables are of type [\_variant\_t](https://go.micros
 [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857)
 </dt> <dt>
 
-[Adding a Client](https://msdn.microsoft.com/library/bb960607)
+[Adding a Client](https://docs.microsoft.com/windows/desktop/Nps/sdo-adding-a-client)
 </dt> <dt>
 
-[**IASCOMMONPROPERTIES**](https://msdn.microsoft.com/library/bb960631)
+[**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties)
 </dt> <dt>
 
 [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx)
 </dt> <dt>
 
-[**ISdo::GetProperty**](https://msdn.microsoft.com/library/bb960671)
+[**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
 </dt> <dt>
 
-[Retrieving a Service SDO](https://msdn.microsoft.com/library/bb960709)
+[Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
 </dt> <dt>
 
 [**VariantClear**](https://msdn.microsoft.com/en-us/library/ms221165(v=VS.71).aspx)

@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the constructors of the Color class. For a complete class listing, see Color Class.'
-ms.assetid: 'ebd68c22-9b00-4a8e-9954-e8b0eda764f8'
-title: 'Color.Color constructors'
+Description: This topic lists the constructors of the Color class. For a complete class listing, see Color Class.
+ms.assetid: ebd68c22-9b00-4a8e-9954-e8b0eda764f8
+title: Color.Color constructors
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Color.Color constructors

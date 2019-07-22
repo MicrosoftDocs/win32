@@ -2,7 +2,7 @@
 Description: The ISecurityObjectTypeInfo interface exposes the following methods.
 ms.assetid: C5FB28CD-C994-4A0A-964C-23EE032BB9E4
 title: ISecurityObjectTypeInfo Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

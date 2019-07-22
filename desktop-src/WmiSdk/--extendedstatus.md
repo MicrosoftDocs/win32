@@ -165,7 +165,7 @@ End sub
 
 <dl> <dt>
 
-[**\_\_NotifyStatus**](https://msdn.microsoft.com/library/aa394662)
+[**\_\_NotifyStatus**](https://docs.microsoft.com/windows/desktop/WmiSdk/--notifystatus)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

@@ -18,10 +18,10 @@ For information about getting started with DirectX graphics, see [Getting Starte
 
 | Topic                                                                 | Description                                                                                                                                |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [Direct3D 10 Graphics](https://msdn.microsoft.com/library/windows/desktop/bb205066)<br/>          | Provides information about programming with Microsoft Direct3D 10.<br/>                                                              |
-| [Direct3D 9 Graphics](https://msdn.microsoft.com/library/windows/desktop/bb219837)<br/>              | Provides information about programming with Microsoft Direct3D 9.<br/>                                                               |
-| [DirectDraw](https://msdn.microsoft.com/library/windows/desktop/gg426115)<br/>                        | Provides information about programming with DirectDraw.<br/>                                                                         |
-| [Technical Articles](https://msdn.microsoft.com/library/windows/desktop/ee416994)<br/>    | Provides a series of technical articles about developing games for Windows.<br/>                                                     |
+| [Direct3D 10 Graphics](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics)<br/>          | Provides information about programming with Microsoft Direct3D 10.<br/>                                                              |
+| [Direct3D 9 Graphics](https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics)<br/>              | Provides information about programming with Microsoft Direct3D 9.<br/>                                                               |
+| [DirectDraw](https://docs.microsoft.com/windows/desktop/directdraw/directdraw)<br/>                        | Provides information about programming with DirectDraw.<br/>                                                                         |
+| [Technical Articles](https://docs.microsoft.com/windows/desktop/DxTechArts/dx9-technical-articles)<br/>    | Provides a series of technical articles about developing games for Windows.<br/>                                                     |
 | [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx)<br/> | Provides information about where to find DirectX technologies, tools, and documentation that the DirectX SDK formerly provided.<br/> |
 | [DirectX 9.0 for Managed Code](https://msdn.microsoft.com/library/Bb318658(v=VS.85).aspx)<br/>          | Provides information about programming with DirectX 9.0 for Managed Code.<br/>                                                       |
 

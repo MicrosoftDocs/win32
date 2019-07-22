@@ -3,7 +3,7 @@ title: Win32_TSSessionDirectory Methods
 description: The Win32\_TSSessionDirectory class exposes the following methods.
 ms.assetid: 5BABFB2B-4669-446F-B8F5-D06E44DD5E62
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

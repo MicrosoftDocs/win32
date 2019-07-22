@@ -23,7 +23,7 @@ This interface allows the application to enumerate through the color glyph runs.
 
 ## Members
 
-The **IDWriteColorGlyphRunEnumerator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IDWriteColorGlyphRunEnumerator** also has these types of members:
+The **IDWriteColorGlyphRunEnumerator** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDWriteColorGlyphRunEnumerator** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -12,7 +12,7 @@ The [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85
 
 The following is a simple example that demonstrates how to create a new thread that executes the locally defined function, `MyThreadFunction`.
 
-The calling thread uses the [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/windows/desktop/ms687025) function to persist until all worker threads have terminated. The calling thread blocks while it is waiting; to continue processing, a calling thread would use [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032) and wait for each worker thread to signal its wait object. Note that if you were to close the handle to a worker thread before it terminated, this does not terminate the worker thread. However, the handle will be unavailable for use in subsequent function calls.
+The calling thread uses the [**WaitForMultipleObjects**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects) function to persist until all worker threads have terminated. The calling thread blocks while it is waiting; to continue processing, a calling thread would use [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) and wait for each worker thread to signal its wait object. Note that if you were to close the handle to a worker thread before it terminated, this does not terminate the worker thread. However, the handle will be unavailable for use in subsequent function calls.
 
 
 ```C++

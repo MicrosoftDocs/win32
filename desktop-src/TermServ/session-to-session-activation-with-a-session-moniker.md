@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Session-to-Session Activation with a Session Moniker
 
-Session-to-session activation (also called cross-session activation) allows a client process to start (activate) a local server process on a specified session. This feature is available for applications that are configured to run in the security context of the interactive user, also known as the "RunAs Interactive User" object activation mode. For more information about security contexts, see [The Client's Security Context](https://msdn.microsoft.com/library/windows/desktop/aa379621).
+Session-to-session activation (also called cross-session activation) allows a client process to start (activate) a local server process on a specified session. This feature is available for applications that are configured to run in the security context of the interactive user, also known as the "RunAs Interactive User" object activation mode. For more information about security contexts, see [The Client's Security Context](https://docs.microsoft.com/windows/desktop/SecAuthZ/the-client-security-context).
 
 Distributed COM (DCOM) enables object activation on a per-session basis by using a system-supplied [Session Moniker](session-monikers.md). Other system-supplied monikers include [file monikers](https://msdn.microsoft.com/en-us/library/ms688670(v=VS.85).aspx), [item monikers](https://msdn.microsoft.com/en-us/library/ms693722(v=VS.85).aspx), generic [composite monikers](https://msdn.microsoft.com/en-us/library/ms693788(v=VS.85).aspx), [anti-monikers](https://msdn.microsoft.com/en-us/library/ms680703(v=VS.85).aspx), [pointer monikers](https://msdn.microsoft.com/en-us/library/ms690112(v=VS.85).aspx), and [URL monikers](https://msdn.microsoft.com/en-us/library/ms688580(v=VS.85).aspx).
 
@@ -35,7 +35,7 @@ To create a session moniker, you must compose the session ID of the Remote Deskt
     "Session:Console!clsid:[class id]"
     ```
 
-2.  After you have created the session moniker, you can pass the result to either the [**MkParseDisplayName**](https://msdn.microsoft.com/library/windows/desktop/ms691253) function or the [MkParseDisplayNameEx](https://go.microsoft.com/fwlink/p/?linkid=157933) function.
+2.  After you have created the session moniker, you can pass the result to either the [**MkParseDisplayName**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname) function or the [MkParseDisplayNameEx](https://go.microsoft.com/fwlink/p/?linkid=157933) function.
 
 You can use a session moniker in the same way as you would use any other moniker.
 

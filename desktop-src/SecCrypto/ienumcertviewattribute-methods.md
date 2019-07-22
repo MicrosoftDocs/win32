@@ -2,7 +2,7 @@
 Description: The IEnumCERTVIEWATTRIBUTE interface exposes the following methods.
 ms.assetid: 54CAB546-5695-4276-9E9B-4DE3EFEFE7A0
 title: IEnumCERTVIEWATTRIBUTE Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

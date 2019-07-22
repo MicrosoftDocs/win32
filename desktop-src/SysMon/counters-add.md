@@ -42,7 +42,7 @@ Counters.Add( _
 
 Path to the counter. The path can include a machine name, and must include a performance object name, an object instance name if the specified performance object supports multiple instances, and a counter name. This path specification is not case-sensitive.
 
-For details on specifying a counter path, see [Specifying a Counter Path](https://msdn.microsoft.com/library/windows/desktop/aa373193).
+For details on specifying a counter path, see [Specifying a Counter Path](https://docs.microsoft.com/windows/desktop/PerfCtrs/specifying-a-counter-path).
 
 </dd> </dl>
 

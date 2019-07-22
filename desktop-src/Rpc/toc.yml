@@ -749,9 +749,9 @@
         href: rpc-structures.md
         items: 
         - name: "NDR_SCONTEXT"
-          href: https://msdn.microsoft.com/en-US/library/Aa374336(v=VS.80).aspx
+          href: https://docs.microsoft.com/previous-versions/aa374336(v=vs.80)
         - name: "GUID"
-          href: https://msdn.microsoft.com/en-US/library/Aa373931(v=VS.80).aspx
+          href: https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)
         - name: "NDR_USER_MARSHAL_INFO"
           href: /windows/desktop/api/Rpcndr/ns-rpcndr-_ndr_user_marshal_info
         - name: "NDR_USER_MARSHAL_INFO_LEVEL1"
@@ -819,7 +819,7 @@
         - name: "SEC_WINNT_AUTH_IDENTITY"
           href: /windows/desktop/api/Rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a
         - name: "UUID"
-          href: https://msdn.microsoft.com/en-US/library/Aa379358(v=VS.80).aspx
+          href: https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)
         - name: "UUID_VECTOR"
           href: /windows/desktop/api/Rpcdce/ns-rpcdce-_uuid_vector
       - name: "RPC Enumerated Types"
@@ -912,7 +912,7 @@
         - name: "MesInqProcEncodingId"
           href: /windows/desktop/api/Midles/nf-midles-mesinqprocencodingid
         - name: "RpcAbnormalTermination"
-          href: https://msdn.microsoft.com/en-US/library/Aa375386(v=VS.80).aspx
+          href: https://docs.microsoft.com/previous-versions/
         - name: "RpcAsyncAbortCall"
           href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncabortcall
         - name: "RpcAsyncCancelCall"
@@ -972,7 +972,7 @@
         - name: "RpcCertGeneratePrincipalName"
           href: /windows/desktop/api/Rpcssl/nf-rpcssl-rpccertgenerateprincipalname
         - name: "RpcDiagnoseError"
-          href: https://msdn.microsoft.com/en-US/library/Aa375627(v=VS.80).aspx
+          href: https://docs.microsoft.com/previous-versions/aa375627(v=vs.80)
         - name: "RpcEpRegister"
           href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregister
         - name: "RpcEpRegisterNoReplace"
@@ -1234,7 +1234,7 @@
         - name: "RpcSsDisableAllocate"
           href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdisableallocate
         - name: "RpcSsDontSerializeContext"
-          href: https://msdn.microsoft.com/en-US/library/Aa378473(v=VS.80).aspx
+          href: https://docs.microsoft.com/previous-versions/aa378473(v=vs.80)
         - name: "RpcSsEnableAllocate"
           href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssenableallocate
         - name: "RpcSsFree"
@@ -1289,7 +1289,7 @@
         - name: "RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN"
           href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_interface_group_idle_callback_fn
         - name: "RPCNOTIFICATION_ROUTINE"
-          href: https://msdn.microsoft.com/en-US/library/Aa375808(v=VS.80).aspx
+          href: https://docs.microsoft.com/previous-versions/aa375808(v=vs.80)
     - name: "RPC Macros"
       href: rpc-macros.md
       items: 
@@ -1298,15 +1298,15 @@
       - name: "RpcAsyncGetCallHandle"
         href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallhandle
       - name: "RpcEndExcept"
-        href: https://msdn.microsoft.com/en-US/library/Aa375629(v=VS.80).aspx
+        href: https://docs.microsoft.com/previous-versions/aa375629(v=vs.80)
       - name: "RpcEndFinally"
-        href: https://msdn.microsoft.com/en-US/library/Aa375634(v=VS.80).aspx
+        href: https://docs.microsoft.com/previous-versions/aa375634(v=vs.80)
       - name: "RpcExcept"
         href: /windows/desktop/api/Rpc/nf-rpc-rpcexcept
       - name: "RpcExceptionCode"
-        href: https://msdn.microsoft.com/en-US/library/Aa375695(v=VS.80).aspx
+        href: https://docs.microsoft.com/previous-versions/aa375695(v=vs.80)
       - name: "RpcFinally"
-        href: https://msdn.microsoft.com/en-US/library/Aa375699(v=VS.80).aspx
+        href: https://docs.microsoft.com/previous-versions/aa375699(v=vs.80)
       - name: "RpcTryExcept"
         href: rpctryexcept.md
       - name: "RpcTryFinally"
@@ -1440,9 +1440,9 @@
       - name: "NdrConvert"
         href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconvert
       - name: "NdrCStdStubBuffer_Release"
-        href: https://msdn.microsoft.com/en-US/library/Aa374242(v=VS.80).aspx
+        href: https://docs.microsoft.com/previous-versions/aa374242(v=vs.80)
       - name: "NdrCStdStubBuffer2_Release"
-        href: https://msdn.microsoft.com/en-US/library/Aa374240(v=VS.80).aspx
+        href: https://docs.microsoft.com/previous-versions/aa374240(v=vs.80)
       - name: "NdrDcomAsyncClientCall"
         href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrdcomasyncclientcall
       - name: "NdrDcomAsyncClientCall2"

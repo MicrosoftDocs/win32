@@ -1,14 +1,17 @@
 ---
 title: IDCompositionScaleTransform3D SetScaleZ methods
 description: Changes or animates the value of the ScaleZ property of a scale transform.
-ms.assetid: 'CD00FBB3-246E-45D0-A7F6-5A7F9C37376B'
-keywords: ["SetScaleZ methods DirectComposition"]
+ms.assetid: CD00FBB3-246E-45D0-A7F6-5A7F9C37376B
+keywords:
+- SetScaleZ methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionScaleTransform3D::SetScaleZ methods

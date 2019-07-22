@@ -128,7 +128,7 @@ When using fast startup, the system appears to the user as though a full shutdow
 
 Fast startup logs off user sessions, but the contents of kernel (session 0) are written to hard disk. This enables faster boot.
 
-To programmatically initiate a fast startup-style shutdown, call the [**InitiateShutdown**](https://msdn.microsoft.com/library/windows/desktop/aa376872) function with the **SHUTDOWN\_HYBRID** flag or the [**ExitWindowsEx**](https://msdn.microsoft.com/library/windows/desktop/aa376868) function with the **EWX\_HYBRID\_SHUTDOWN** flag.
+To programmatically initiate a fast startup-style shutdown, call the [**InitiateShutdown**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) function with the **SHUTDOWN\_HYBRID** flag or the [**ExitWindowsEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex) function with the **EWX\_HYBRID\_SHUTDOWN** flag.
 
 > [!Note]  
 > Starting in Windows 8, fast startup is the default transition when a system shutdown is requested. A full shutdown (S5) occurs when a system restart is requested (or an application calls a shutdown API).

@@ -395,7 +395,7 @@ Defines properties and methods for use with a RemoteApp.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 
-For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378).
+For a general discussion of property methods, see [Interface Property Methods](https://docs.microsoft.com/windows/desktop/ADSI/interface-property-methods).
 
 ## Related topics
 

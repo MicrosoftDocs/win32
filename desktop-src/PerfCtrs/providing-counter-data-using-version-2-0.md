@@ -40,7 +40,7 @@ With Version 2.0, Performance Counters changed the architecture to simplify the 
 
     Before the provider exits, it must call the [**PerfDeleteInstance**](/windows/desktop/api/Perflib/nf-perflib-perfdeleteinstance) for each counter set instance that it created.
 
-    If you specified the **callback** attribute in the [**provider**](https://msdn.microsoft.com/library/windows/desktop/ee781352) element in your manifest or used the **-NotificationCallback** argument when calling [CTRPP](ctrpp.md), you must implement the [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function. You pass the callback function to [**CounterInitialize**](counterinitialize.md).
+    If you specified the **callback** attribute in the [**provider**](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element in your manifest or used the **-NotificationCallback** argument when calling [CTRPP](ctrpp.md), you must implement the [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function. You pass the callback function to [**CounterInitialize**](counterinitialize.md).
 
     If you used the **-MemoryRoutines** when calling [CTRPP](ctrpp.md), you must implement the [*AllocateMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_alloc) and [*FreeMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_free) callback functions. You pass the callback functions to [**CounterInitialize**](counterinitialize.md).
 

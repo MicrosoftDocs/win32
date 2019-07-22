@@ -27,9 +27,9 @@ Active Directory Domain Services are compliant with Lightweight Directory Access
 
 For more information about specific Active Directory Domain Services technologies, see:
 
--   [Lightweight Directory Access Protocol](https://msdn.microsoft.com/library/aa367008)
--   [Active Directory Service Interfaces](https://msdn.microsoft.com/library/aa772170)
--   [System.DirectoryServices](https://msdn.microsoft.com/library/system.directoryservices.aspx)
+-   [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api)
+-   [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi)
+-   [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN)
 
 This section discusses the following topics:
 

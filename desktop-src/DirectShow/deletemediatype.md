@@ -50,7 +50,7 @@ This function does not return a value.
 
 ## Remarks
 
-Use this function to release any media type structure that was allocated using either [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/windows/desktop/ms692727) or [**CreateMediaType**](createmediatype.md).
+Use this function to release any media type structure that was allocated using either [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) or [**CreateMediaType**](createmediatype.md).
 
 This function is defined in the [DirectShow Base Classes](directshow-base-classes.md) library. If you prefer not to link to the base class library, you can use the following code:
 

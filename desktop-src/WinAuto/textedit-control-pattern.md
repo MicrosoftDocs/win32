@@ -12,16 +12,16 @@ ms.date: 05/31/2018
 
 # TextEdit Control Pattern
 
-Introduces guidelines and conventions for implementing [**ITextEditProvider**](https://msdn.microsoft.com/library/windows/desktop/dn302166), including information about properties and methods. The **TextEdit** control pattern is used for programmatic access to a control that modifies text, for example a control that performs auto-correction or enables input composition.
+Introduces guidelines and conventions for implementing [**ITextEditProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider), including information about properties and methods. The **TextEdit** control pattern is used for programmatic access to a control that modifies text, for example a control that performs auto-correction or enables input composition.
 
 > [!Note]  
-> Implementation notes in this topic refer to APIs that come from Text Services Framework (TSF). For more info about TSF and the API reference, see [Text Services Framework](https://msdn.microsoft.com/library/windows/desktop/ms629032).
+> Implementation notes in this topic refer to APIs that come from Text Services Framework (TSF). For more info about TSF and the API reference, see [Text Services Framework](https://docs.microsoft.com/windows/desktop/TSF/text-services-framework).
 
  
 
 ## Required Members for **ITextEditProvider**
 
-These properties and methods are required for implementing the [**ITextEditProvider**](https://msdn.microsoft.com/library/windows/desktop/dn302166) interface.
+These properties and methods are required for implementing the [**ITextEditProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) interface.
 
 
 

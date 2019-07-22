@@ -56,4 +56,4 @@ ROVs are an HLSL-only construct that applies different behavior semantics to UAV
 * [Conservative Rasterization](conservative-rasterization.md)
 * [Rendering](rendering.md)
 * [Resource Binding in HLSL](resource-binding-in-hlsl.md)
-* [Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277)
+* [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)

@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # How to Create a Tabbed Dialog Box
 
-The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls. The main dialog box is a modal dialog box. Each page of controls is defined by a dialog box template that has the [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) style. When a tab is selected, a modeless dialog box is created for the incoming page and the dialog box for the outgoing page is destroyed.
+The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls. The main dialog box is a modal dialog box. Each page of controls is defined by a dialog box template that has the [**WS\_CHILD**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style. When a tab is selected, a modeless dialog box is created for the incoming page and the dialog box for the outgoing page is destroyed.
 
 > [!Note]  
 > In many cases, you can implement multiple-page dialog boxes more easily by using property sheets. For more information about property sheets, see [About Property Sheets](property-sheets.md).
 
  
 
-The template for the main dialog box simply defines two button controls. When processing the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message, the dialog box procedure creates a tab control and loads the dialog box template resources for each of the child dialog boxes.
+The template for the main dialog box simply defines two button controls. When processing the [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message, the dialog box procedure creates a tab control and loads the dialog box template resources for each of the child dialog boxes.
 
 ## What you need to know
 
@@ -32,7 +32,7 @@ The template for the main dialog box simply defines two button controls. When pr
 
 ### Create a Tabbed Dialog Box
 
-The information is saved in an application-defined structure called DLGHDR. A pointer to this structure is associated with the dialog box window by using the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function. The structure is defined in the application's header file, as follows.
+The information is saved in an application-defined structure called DLGHDR. A pointer to this structure is associated with the dialog box window by using the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function. The structure is defined in the application's header file, as follows.
 
 
 ```C++
@@ -48,9 +48,9 @@ typedef struct tag_dlghdr {
 
 
 
-The following function processes the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message for the main dialog box. The function allocates the `DLGHDR` structure, loads the dialog box template resources for the child dialog boxes, and creates the tab control.
+The following function processes the [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message for the main dialog box. The function allocates the `DLGHDR` structure, loads the dialog box template resources for the child dialog boxes, and creates the tab control.
 
-The size of each child dialog box is specified by the [**DLGTEMPLATEEX**](https://msdn.microsoft.com/library/windows/desktop/ms645398) structure. The function examines the size of each dialog box and uses the macro for the [**TCM\_ADJUSTRECT**](tcm-adjustrect.md) message to calculate an appropriate size for the tab control. Then it sizes the dialog box and positions the two buttons accordingly. This example sends **TCM\_ADJUSTRECT** by using the [**TabCtrl\_AdjustRect**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_adjustrect) macro.
+The size of each child dialog box is specified by the [**DLGTEMPLATEEX**](https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex) structure. The function examines the size of each dialog box and uses the macro for the [**TCM\_ADJUSTRECT**](tcm-adjustrect.md) message to calculate an appropriate size for the tab control. Then it sizes the dialog box and positions the two buttons accordingly. This example sends **TCM\_ADJUSTRECT** by using the [**TabCtrl\_AdjustRect**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_adjustrect) macro.
 
 
 ```C++
@@ -190,7 +190,7 @@ DLGTEMPLATEEX* DoLockDlgRes(LPCTSTR lpszResName)
 
 
 
-The following function processes the [TCN\_SELCHANGE](tcn-selchange.md) notification code for the main dialog box. The function destroys the dialog box for the outgoing page, if any. Then it uses the [**CreateDialogIndirect**](https://msdn.microsoft.com/library/windows/desktop/ms645436) function to create a modeless dialog box for the incoming page.
+The following function processes the [TCN\_SELCHANGE](tcn-selchange.md) notification code for the main dialog box. The function destroys the dialog box for the outgoing page, if any. Then it uses the [**CreateDialogIndirect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirecta) function to create a modeless dialog box for the incoming page.
 
 
 ```C++
@@ -221,7 +221,7 @@ VOID OnSelChanged(HWND hwndDlg)
 
 
 
-The following function processes the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message for each of the child dialog boxes. You cannot specify the position of a dialog box that is created using the [**CreateDialogIndirect**](https://msdn.microsoft.com/library/windows/desktop/ms645436) function. This function uses the [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545) function to position the child dialog within the tab control's display area.
+The following function processes the [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message for each of the child dialog boxes. You cannot specify the position of a dialog box that is created using the [**CreateDialogIndirect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirecta) function. This function uses the [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) function to position the child dialog within the tab control's display area.
 
 
 ```C++

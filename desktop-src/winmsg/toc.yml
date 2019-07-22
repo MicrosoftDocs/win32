@@ -27,218 +27,218 @@
         href: window-functions.md
         items: 
         - name: "AdjustWindowRect"
-          href: https://msdn.microsoft.com/en-us/library/ms632665(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-adjustwindowrect
         - name: "AdjustWindowRectEx"
-          href: https://msdn.microsoft.com/en-us/library/ms632667(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex
         - name: "AllowSetForegroundWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms632668(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow
         - name: "AnimateWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms632669(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow
         - name: "AnyPopup"
-          href: https://msdn.microsoft.com/en-us/library/ms632670(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-anypopup
         - name: "ArrangeIconicWindows"
-          href: https://msdn.microsoft.com/en-us/library/ms632671(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-arrangeiconicwindows
         - name: "BeginDeferWindowPos"
-          href: https://msdn.microsoft.com/en-us/library/ms632672(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos
         - name: "BringWindowToTop"
-          href: https://msdn.microsoft.com/en-us/library/ms632673(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-bringwindowtotop
         - name: "CalculatePopupWindowPosition"
-          href: https://msdn.microsoft.com/en-us/library/Dd565861(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-calculatepopupwindowposition
         - name: "CascadeWindows"
-          href: https://msdn.microsoft.com/en-us/library/ms632674(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-cascadewindows
         - name: "ChangeWindowMessageFilter"
-          href: https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter
         - name: "ChangeWindowMessageFilterEx"
-          href: https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex
         - name: "ChildWindowFromPoint"
-          href: https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint
         - name: "ChildWindowFromPointEx"
-          href: https://msdn.microsoft.com/en-us/library/ms632677(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompointex
         - name: "CloseWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindow
         - name: "CreateWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa
         - name: "CreateWindowEx"
-          href: https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa
         - name: "DeferWindowPos"
-          href: https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos
         - name: "DeregisterShellHookWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms644979(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deregistershellhookwindow
         - name: "DestroyWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow
         - name: "EndDeferWindowPos"
-          href: https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos
         - name: "EndTask"
-          href: https://msdn.microsoft.com/en-us/library/ms633492(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-endtask
         - name: "EnumChildProc"
-          href: https://msdn.microsoft.com/en-us/library/ms633493(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)
         - name: "EnumChildWindows"
-          href: https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows
         - name: "EnumThreadWindows"
-          href: https://msdn.microsoft.com/en-us/library/ms633495(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumthreadwindows
         - name: "EnumThreadWndProc"
-          href: https://msdn.microsoft.com/en-us/library/ms633496(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633496(v=vs.85)
         - name: "EnumWindows"
-          href: https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows
         - name: "EnumWindowsProc"
-          href: https://msdn.microsoft.com/en-us/library/ms633498(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)
         - name: "FindWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa
         - name: "FindWindowEx"
-          href: https://msdn.microsoft.com/en-us/library/ms633500(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowexa
         - name: "GetAltTabInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms633501(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getalttabinfoa
         - name: "GetAncestor"
-          href: https://msdn.microsoft.com/en-us/library/ms633502(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getancestor
         - name: "GetClientRect"
-          href: https://msdn.microsoft.com/en-us/library/ms633503(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect
         - name: "GetDesktopWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdesktopwindow
         - name: "GetForegroundWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633505(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getforegroundwindow
         - name: "GetGUIThreadInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getguithreadinfo
         - name: "GetLastActivePopup"
-          href: https://msdn.microsoft.com/en-us/library/ms633507(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getlastactivepopup
         - name: "GetLayeredWindowAttributes"
-          href: https://msdn.microsoft.com/en-us/library/ms633508(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getlayeredwindowattributes
         - name: "GetNextWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633509(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getnextwindow
         - name: "GetParent"
-          href: https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent
         - name: "GetProcessDefaultLayout"
-          href: https://msdn.microsoft.com/en-us/library/ms633511(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocessdefaultlayout
         - name: "GetShellWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633512(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getshellwindow
         - name: "GetSysColor"
-          href: https://msdn.microsoft.com/en-us/library/ms724371(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor
         - name: "GetTitleBarInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms633513(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettitlebarinfo
         - name: "GetTopWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633514(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettopwindow
         - name: "GetWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow
         - name: "GetWindowDisplayAffinity"
-          href: https://msdn.microsoft.com/en-us/library/Dd375338(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity
         - name: "GetWindowInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms633516(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowinfo
         - name: "GetWindowModuleFileName"
-          href: https://msdn.microsoft.com/en-us/library/ms633517(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowmodulefilenamea
         - name: "GetWindowPlacement"
-          href: https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement
         - name: "GetWindowRect"
-          href: https://msdn.microsoft.com/en-us/library/ms633519(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowrect
         - name: "GetWindowText"
-          href: https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta
         - name: "GetWindowTextLength"
-          href: https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtextlengtha
         - name: "GetWindowThreadProcessId"
-          href: https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid
         - name: "InternalGetWindowText"
-          href: https://msdn.microsoft.com/en-us/library/ms633523(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-internalgetwindowtext
         - name: "IsChild"
-          href: https://msdn.microsoft.com/en-us/library/ms633524(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ischild
         - name: "IsGUIThread"
-          href: https://msdn.microsoft.com/en-us/library/ms633525(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isguithread
         - name: "IsHungAppWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633526(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ishungappwindow
         - name: "IsIconic"
-          href: https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isiconic
         - name: "IsProcessDPIAware"
-          href: https://msdn.microsoft.com/en-us/library/Aa969261(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isprocessdpiaware
         - name: "IsWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633528(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindow
         - name: "IsWindowUnicode"
-          href: https://msdn.microsoft.com/en-us/library/ms633529(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowunicode
         - name: "IsWindowVisible"
-          href: https://msdn.microsoft.com/en-us/library/ms633530(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowvisible
         - name: "IsZoomed"
-          href: https://msdn.microsoft.com/en-us/library/ms633531(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iszoomed
         - name: "LockSetForegroundWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633532(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow
         - name: "LogicalToPhysicalPoint"
-          href: https://msdn.microsoft.com/en-us/library/ms633533(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-logicaltophysicalpoint
         - name: "MoveWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-movewindow
         - name: "OpenIcon"
-          href: https://msdn.microsoft.com/en-us/library/ms633535(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openicon
         - name: "PhysicalToLogicalPoint"
-          href: https://msdn.microsoft.com/en-us/library/ms633536(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint
         - name: "RealChildWindowFromPoint"
-          href: https://msdn.microsoft.com/en-us/library/ms633537(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-realchildwindowfrompoint
         - name: "RealGetWindowClass"
-          href: https://msdn.microsoft.com/en-us/library/ms633538(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-realgetwindowclassw
         - name: "RegisterShellHookWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registershellhookwindow
         - name: "SetForegroundWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow
         - name: "SetLayeredWindowAttributes"
-          href: https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes
         - name: "SetParent"
-          href: https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent
         - name: "SetProcessDefaultLayout"
-          href: https://msdn.microsoft.com/en-us/library/ms633542(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout
         - name: "SetProcessDPIAware"
-          href: https://msdn.microsoft.com/en-us/library/ms633543(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware
         - name: "SetSysColors"
-          href: https://msdn.microsoft.com/en-us/library/ms724940(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors
         - name: "SetWindowDisplayAffinity"
-          href: https://msdn.microsoft.com/en-us/library/Dd375340(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity
         - name: "SetWindowFeedbackSettings"
-          href: https://msdn.microsoft.com/en-us/library/Hh405402(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh405402(v=vs.85)
         - name: "SetWindowPlacement"
-          href: https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement
         - name: "SetWindowPos"
-          href: https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos
         - name: "SetWindowText"
-          href: https://msdn.microsoft.com/en-us/library/ms633546(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta
         - name: "ShowOwnedPopups"
-          href: https://msdn.microsoft.com/en-us/library/ms633547(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showownedpopups
         - name: "ShowWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow
         - name: "ShowWindowAsync"
-          href: https://msdn.microsoft.com/en-us/library/ms633549(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindowasync
         - name: "SoundSentry"
-          href: https://msdn.microsoft.com/en-us/library/Aa969269(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-soundsentry
         - name: "SwitchToThisWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633553(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-switchtothiswindow
         - name: "TileWindows"
-          href: https://msdn.microsoft.com/en-us/library/ms633554(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tilewindows
         - name: "UpdateLayeredWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatelayeredwindow
         - name: "UpdateLayeredWindowIndirect"
-          href: https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)
         - name: "WindowFromPhysicalPoint"
-          href: https://msdn.microsoft.com/en-us/library/Aa969270(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfromphysicalpoint
         - name: "WindowFromPoint"
-          href: https://msdn.microsoft.com/en-us/library/ms633558(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfrompoint
         - name: "WinMain"
-          href: https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-winmain
       - name: "Window Macros"
         href: window-macros.md
         items: 
         - name: "GET_X_LPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms632654(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam
         - name: "GET_Y_LPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms632655(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam
         - name: "HIBYTE"
-          href: https://msdn.microsoft.com/en-us/library/ms632656(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)
         - name: "HIWORD"
-          href: https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)
         - name: "LOBYTE"
-          href: https://msdn.microsoft.com/en-us/library/ms632658(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)
         - name: "LOWORD"
-          href: https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)
         - name: "MAKELONG"
-          href: https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632660(v=vs.85)
         - name: "MAKELPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms632661(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelparam
         - name: "MAKELRESULT"
-          href: https://msdn.microsoft.com/en-us/library/ms632662(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelresult
         - name: "MAKEWORD"
-          href: https://msdn.microsoft.com/en-us/library/ms632663(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632663(v=vs.85)
         - name: "MAKEWPARAM"
-          href: https://msdn.microsoft.com/en-us/library/ms632664(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makewparam
       - name: "Window Messages"
         href: window-messages.md
         items: 
@@ -331,33 +331,33 @@
         href: window-structures.md
         items: 
         - name: "ALTTABINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms632601(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagalttabinfo
         - name: "CHANGEFILTERSTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/Dd388197(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagchangefilterstruct
         - name: "CLIENTCREATESTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms632602(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagclientcreatestruct
         - name: "CREATESTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa
         - name: "GUITHREADINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms632604(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagguithreadinfo
         - name: "MINMAXINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms632605(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagminmaxinfo
         - name: "NCCALCSIZE_PARAMS"
-          href: https://msdn.microsoft.com/en-us/library/ms632606(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagnccalcsize_params
         - name: "STYLESTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms632607(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagstylestruct
         - name: "TITLEBARINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtitlebarinfo
         - name: "TITLEBARINFOEX"
-          href: https://msdn.microsoft.com/en-us/library/Aa969233(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtitlebarinfoex
         - name: "UPDATELAYEREDWINDOWINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms632609(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagupdatelayeredwindowinfo
         - name: "WINDOWINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms632610(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowinfo
         - name: "WINDOWPLACEMENT"
-          href: https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowplacement
         - name: "WINDOWPOS"
-          href: https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos
   - name: "Window Classes"
     href: window-classes.md
     items: 
@@ -375,44 +375,44 @@
         href: window-class-functions.md
         items: 
         - name: "GetClassInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa
         - name: "GetClassInfoEx"
-          href: https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa
         - name: "GetClassLong"
-          href: https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga
         - name: "GetClassLongPtr"
-          href: https://msdn.microsoft.com/en-us/library/ms633581(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslongptra
         - name: "GetClassName"
-          href: https://msdn.microsoft.com/en-us/library/ms633582(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassname
         - name: "GetClassWord"
-          href: https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassword
         - name: "GetWindowLong"
-          href: https://msdn.microsoft.com/en-us/library/ms633584(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga
         - name: "GetWindowLongPtr"
-          href: https://msdn.microsoft.com/en-us/library/ms633585(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlongptra
         - name: "RegisterClass"
-          href: https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa
         - name: "RegisterClassEx"
-          href: https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa
         - name: "SetClassLong"
-          href: https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga
         - name: "SetClassLongPtr"
-          href: https://msdn.microsoft.com/en-us/library/ms633589(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslongptra
         - name: "SetClassWord"
-          href: https://msdn.microsoft.com/en-us/library/ms633590(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclassword
         - name: "SetWindowLong"
-          href: https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga
         - name: "SetWindowLongPtr"
-          href: https://msdn.microsoft.com/en-us/library/ms644898(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlongptra
         - name: "UnregisterClass"
-          href: https://msdn.microsoft.com/en-us/library/ms644899(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterclassa
       - name: "Window Class Structures"
         href: window-class-structures.md
         items: 
         - name: "WNDCLASS"
-          href: https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa
         - name: "WNDCLASSEX"
-          href: https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa
       - name: "Window Class Styles"
         href: window-class-styles.md
   - name: "Window Procedures"
@@ -432,11 +432,11 @@
         href: window-procedure-functions.md
         items: 
         - name: "CallWindowProc"
-          href: https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca
         - name: "DefWindowProc"
-          href: https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca
         - name: "WindowProc"
-          href: https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)
   - name: "Messages and Message Queues"
     href: messages-and-message-queues.md
     items: 
@@ -454,62 +454,62 @@
         href: message-and-message-queue-functions.md
         items: 
         - name: "BroadcastSystemMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage
         - name: "BroadcastSystemMessageEx"
-          href: https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa
         - name: "DispatchMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage
         - name: "GetInputState"
-          href: https://msdn.microsoft.com/en-us/library/ms644935(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getinputstate
         - name: "GetMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage
         - name: "GetMessageExtraInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo
         - name: "GetMessagePos"
-          href: https://msdn.microsoft.com/en-us/library/ms644938(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessagepos
         - name: "GetMessageTime"
-          href: https://msdn.microsoft.com/en-us/library/ms644939(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessagetime
         - name: "GetQueueStatus"
-          href: https://msdn.microsoft.com/en-us/library/ms644940(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getqueuestatus
         - name: "InSendMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644941(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessage
         - name: "InSendMessageEx"
-          href: https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex
         - name: "PeekMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea
         - name: "PostMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea
         - name: "PostQuitMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage
         - name: "PostThreadMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea
         - name: "RegisterWindowMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea
         - name: "ReplyMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644948(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-replymessage
         - name: "SendAsyncProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644949(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-sendasyncproc
         - name: "SendMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage
         - name: "SendMessageCallback"
-          href: https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka
         - name: "SendMessageTimeout"
-          href: https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta
         - name: "SendNotifyMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea
         - name: "SetMessageExtraInfo"
-          href: https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmessageextrainfo
         - name: "TranslateMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage
         - name: "WaitMessage"
-          href: https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage
       - name: "Message Structures"
         href: message-and-message-queue-structures.md
         items: 
         - name: "BSMINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-bsminfo
         - name: "MSG"
-          href: https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg
       - name: "Message Constants"
         href: message-and-message-queue-notifications.md
         items: 
@@ -536,13 +536,13 @@
         href: timer-functions.md
         items: 
         - name: "KillTimer"
-          href: https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-killtimer
         - name: "SetCoalescableTimer"
-          href: https://msdn.microsoft.com/en-us/library/Hh405404(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcoalescabletimer
         - name: "SetTimer"
-          href: https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer
         - name: "TimerProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc
       - name: "Timer Notifications"
         href: timer-notifications.md
         items: 
@@ -565,19 +565,19 @@
         href: window-property-functions.md
         items: 
         - name: "EnumProps"
-          href: https://msdn.microsoft.com/en-us/library/ms633562(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumpropsa
         - name: "EnumPropsEx"
-          href: https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumpropsexa
         - name: "GetProp"
-          href: https://msdn.microsoft.com/en-us/library/ms633564(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpropa
         - name: "PropEnumProc"
-          href: https://msdn.microsoft.com/en-us/library/ms633565(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumproca
         - name: "PropEnumProcEx"
-          href: https://msdn.microsoft.com/en-us/library/ms633566(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumprocexa
         - name: "RemoveProp"
-          href: https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-removepropa
         - name: "SetProp"
-          href: https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa
   - name: "Configuration"
     href: configuration.md
     items: 
@@ -594,18 +594,18 @@
         - name: "Pen Visualization"
           href: pen-visualization.md
       - name: "GetSystemMetrics"
-        href: https://msdn.microsoft.com/en-us/library/ms724385(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics
       - name: "SystemParametersInfo"
-        href: https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa
         items: 
         - name: "ANIMATIONINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms724197(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taganimationinfo
         - name: "AUDIODESCRIPTION"
-          href: https://msdn.microsoft.com/en-us/library/Aa379651(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaudiodescription
         - name: "MINIMIZEDMETRICS"
-          href: https://msdn.microsoft.com/en-us/library/ms724500(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagminimizedmetrics
         - name: "NONCLIENTMETRICS"
-          href: https://msdn.microsoft.com/en-us/library/Ff729175(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagnonclientmetricsa
         - name: "WM_SETTINGCHANGE"
           href: wm-settingchange.md
         - name: "WM_WININICHANGE"
@@ -624,43 +624,43 @@
         href: hook-functions.md
         items: 
         - name: "CallMsgFilter"
-          href: https://msdn.microsoft.com/en-us/library/ms644973(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callmsgfiltera
         - name: "CallNextHookEx"
-          href: https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex
         - name: "CallWndProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644975(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)
         - name: "CallWndRetProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644976(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-hookproc
         - name: "CBTProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)
         - name: "DebugProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)
         - name: "ForegroundIdleProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644980(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)
         - name: "GetMsgProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644981(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)
         - name: "JournalPlaybackProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)
         - name: "JournalRecordProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644983(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)
         - name: "KeyboardProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644984(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)
         - name: "LowLevelKeyboardProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644985(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)
         - name: "LowLevelMouseProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644986(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)
         - name: "MessageProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644987(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)
         - name: "MouseProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)
         - name: "SetWindowsHookEx"
-          href: https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa
         - name: "ShellProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644991(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)
         - name: "SysMsgProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644992(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)
         - name: "UnhookWindowsHookEx"
-          href: https://msdn.microsoft.com/en-us/library/ms644993(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex
       - name: "Hook Notifications"
         href: hook-notifications.md
         items: 
@@ -672,25 +672,25 @@
         href: hook-structures.md
         items: 
         - name: "CBT_CREATEWND"
-          href: https://msdn.microsoft.com/en-us/library/ms644962(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcbt_createwnda
         - name: "CBTACTIVATESTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms644961(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcbtactivatestruct
         - name: "CWPRETSTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms644963(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpretstruct
         - name: "CWPSTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms644964(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpstruct
         - name: "DEBUGHOOKINFO"
-          href: https://msdn.microsoft.com/en-us/library/ms644965(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdebughookinfo
         - name: "EVENTMSG"
-          href: https://msdn.microsoft.com/en-us/library/ms644966(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tageventmsg
         - name: "KBDLLHOOKSTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms644967(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagkbdllhookstruct
         - name: "MOUSEHOOKSTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstruct
         - name: "MOUSEHOOKSTRUCTEX"
-          href: https://msdn.microsoft.com/en-us/library/ms644969(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstructex
         - name: "MSLLHOOKSTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms644970(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsllhookstruct
   - name: "Multiple Document Interface (MDI)"
     href: multiple-document-interface.md
     items: 
@@ -708,13 +708,13 @@
         href: multiple-document-interface-functions.md
         items: 
         - name: "CreateMDIWindow"
-          href: https://msdn.microsoft.com/en-us/library/ms644923(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createmdiwindowa
         - name: "DefFrameProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644924(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defframeproca
         - name: "DefMDIChildProc"
-          href: https://msdn.microsoft.com/en-us/library/ms644925(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defmdichildproca
         - name: "TranslateMDISysAccel"
-          href: https://msdn.microsoft.com/en-us/library/ms644926(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemdisysaccel
       - name: "MDI Messages"
         href: multiple-document-interface-messages.md
         items: 
@@ -746,4 +746,4 @@
         href: multiple-document-interface-structures.md
         items: 
         - name: "MDICREATESTRUCT"
-          href: https://msdn.microsoft.com/en-us/library/ms644910(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmdicreatestructa

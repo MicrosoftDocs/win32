@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 
 # Windows Animation Error Codes
 
-If an error occurs, Windows Animation returns a code as an **HRESULT** value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see [COM Error Codes](https://msdn.microsoft.com/library/windows/desktop/dd542642).
+If an error occurs, Windows Animation returns a code as an **HRESULT** value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see [COM Error Codes](https://docs.microsoft.com/windows/desktop/com/com-error-codes).
 
 <dl> <dt>
 

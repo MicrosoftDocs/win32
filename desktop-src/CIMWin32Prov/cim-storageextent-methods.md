@@ -3,7 +3,7 @@ Description: The CIM\_StorageExtent class exposes the following methods.
 ms.assetid: 501F0ED4-93D0-4973-923B-6280A3E9AD56
 ms.tgt_platform: multiple
 title: CIM_StorageExtent Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

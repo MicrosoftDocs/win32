@@ -41,7 +41,7 @@ BOOL WINAPI MirrorIcon(
 *phIconSmall* \[in, out, optional\]
 </dt> <dd>
 
-Type: **[**HICON**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hicon)\***
+Type: **[**HICON**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the icon handle that references a small version of an icon.
 
@@ -50,7 +50,7 @@ A pointer to the icon handle that references a small version of an icon.
 *phIconLarge* \[in, out, optional\]
 </dt> <dd>
 
-Type: **[**HICON**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hicon)\***
+Type: **[**HICON**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the icon handle that references a large version of an icon.
 
@@ -58,13 +58,13 @@ A pointer to the icon handle that references a large version of an icon.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751#bool)**
+Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if successful; otherwise, **FALSE**.
 
 ## Remarks
 
-**MirrorIcon** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) and request ordinal 414 from ComCtl32.dll to obtain a function pointer.
+**MirrorIcon** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 414 from ComCtl32.dll to obtain a function pointer.
 
 ## Requirements
 

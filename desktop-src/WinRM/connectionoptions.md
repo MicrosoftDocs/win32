@@ -47,7 +47,7 @@ The **ConnectionOptions** object has these properties.
 
 The **ConnectionOptions** object corresponds to the [**IWSManConnectionOptions**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptions) interface.
 
-If a Windows Remote Management client application is running under impersonation, then a failure occurs if you set the [**Password**](connectionoptions-password.md) property. A client application is a script or other program that sends a request to WinRM on the local or a remote computer. The client application may be running under impersonation because it called a function like [**ImpersonateClient**](https://msdn.microsoft.com/library/windows/desktop/aa375494). An Active Server Page (ASP) or service cannot request a user name and password if the ASP process runs under an account that impersonates a client.
+If a Windows Remote Management client application is running under impersonation, then a failure occurs if you set the [**Password**](connectionoptions-password.md) property. A client application is a script or other program that sends a request to WinRM on the local or a remote computer. The client application may be running under impersonation because it called a function like [**ImpersonateClient**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375494(v=vs.85)). An Active Server Page (ASP) or service cannot request a user name and password if the ASP process runs under an account that impersonates a client.
 
 The **WSManFlagCredUserNamePassword** flag should be set on the [**WSman.CreateSession**](wsman-createsession.md) call when using the [**UserName**](connectionoptions-username.md) and [**Password**](connectionoptions-password.md) for authentication.
 

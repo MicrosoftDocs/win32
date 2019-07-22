@@ -24,11 +24,11 @@ propertyDescription
 
 UI\_PKEY\_ItemsSource is used by an application to query the collection of items in a gallery control, such as the Quick Access Toolbar (QAT).
 
-The property value is an [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) object.
+The property value is an [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object.
 
-Each item in this [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) must implement [**IUISimplePropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd371358) to expose the read-only properties associated with the item, such as the label or image.
+Each item in this [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) must implement [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) to expose the read-only properties associated with the item, such as the label or image.
 
-To add or delete items in a gallery control at run time, use the [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) methods.
+To add or delete items in a gallery control at run time, use the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) methods.
 
 The following screen shot illustrates a collection of items in a [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) menu.
 

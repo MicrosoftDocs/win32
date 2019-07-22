@@ -73,7 +73,7 @@ public static void JetOpenFileInstance(
 <!-- end list -->
 
   - file  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The file to open.
 
@@ -87,14 +87,14 @@ public static void JetOpenFileInstance(
 <!-- end list -->
 
   - fileSizeLow  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
     
     Returns the least significant 32 bits of the file size.
 
 <!-- end list -->
 
   - fileSizeHigh  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
     
     Returns the most significant 32 bits of the file size.
 

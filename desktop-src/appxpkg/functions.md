@@ -1,15 +1,15 @@
----
+﻿---
 title: Package query API
-description: Learn about the package query API, which you can use to get info about the app packages installed on the system. Each app package contains the files that constitute a Windows Store app, and a manifest file that describes the software to Windows.
+description: Learn about the package query API, which you can use to get info about the app packages installed on the system. Each app package contains the files that constitute a Windows app, and a manifest file that describes the software to Windows.
 ms.assetid: EDDFC8B1-E224-4921-BED6-FC81711BA5BF
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 
 # Package query API
 
-Learn about the package query API, which you can use to get info about the app packages installed on the system. Each app package contains the files that constitute a Windows Store app, and a manifest file that describes the software to Windows.
+Learn about the package query API, which you can use to get info about the app packages installed on the system. Each app package contains the files that constitute a Windows app, and a manifest file that describes the software to Windows.
 
 ## In this section
 
@@ -70,7 +70,7 @@ Learn about the package query API, which you can use to get info about the app p
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://msdn.microsoft.com/library/windows/apps/hh464929)
+[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 [Glossary](appx-packaging-glossary.md)
@@ -79,7 +79,7 @@ Learn about the package query API, which you can use to get info about the app p
 **Reference**
 </dt> <dt>
 
-[App package manifest schema](https://msdn.microsoft.com/library/windows/apps/br211474)
+[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Packaging API](interfaces.md)

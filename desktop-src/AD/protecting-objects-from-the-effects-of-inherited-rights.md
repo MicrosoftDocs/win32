@@ -15,9 +15,9 @@ As discussed in the topic [Inheritance and Delegation of Administration](inherit
 
 If you have a secure object or an object whose ACEs you want to explicitly control, such as a private OU or a special user, you can prevent ACEs from being propagated to the object by its parent container or its parent container's predecessors.
 
-Use the [**IADsSecurityDescriptor.Control**](https://msdn.microsoft.com/library/aa706131) property to control whether DACLs and SACLs are inherited by the object from its parent container.
+Use the [**IADsSecurityDescriptor.Control**](https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) property to control whether DACLs and SACLs are inherited by the object from its parent container.
 
-The [**IADsSecurityDescriptor.Control**](https://msdn.microsoft.com/library/aa706131) property can be used to protect an object from the effects of inherited ACEs. The following flags force access control to be set explicitly on the object and prevent a user from modifying access control to the object by setting inheritable ACEs on the object's parent container, or its parent container's predecessors.
+The [**IADsSecurityDescriptor.Control**](https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) property can be used to protect an object from the effects of inherited ACEs. The following flags force access control to be set explicitly on the object and prevent a user from modifying access control to the object by setting inheritable ACEs on the object's parent container, or its parent container's predecessors.
 
 
 

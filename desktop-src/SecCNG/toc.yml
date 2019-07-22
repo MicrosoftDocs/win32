@@ -93,7 +93,7 @@
       - name: "BCryptRegisterConfigChangeNotify(HANDLE*)"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify
       - name: "BCryptRegisterConfigChangeNotify(PRKEVENT)"
-        href: https://msdn.microsoft.com/en-us/library/Bb394681(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify
       - name: "BCryptRemoveContextFunction"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptremovecontextfunction
       - name: "BCryptResolveProviders"
@@ -103,7 +103,7 @@
       - name: "BCryptUnregisterConfigChangeNotify(HANDLE)"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify
       - name: "BCryptUnregisterConfigChangeNotify(PRKEVENT)"
-        href: https://msdn.microsoft.com/en-us/library/Bb394683(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify
     - name: "CNG Cryptographic Primitive Functions"
       href: cng-cryptographic-primitive-functions.md
       items: 
@@ -436,9 +436,9 @@
       - name: "NCryptAlgorithmName"
         href: /windows/desktop/api/Ncrypt/ns-ncrypt-_ncryptalgorithmname
       - name: "NCryptBuffer"
-        href: https://msdn.microsoft.com/en-us/library/Aa376245(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer
       - name: "NCryptBufferDesc"
-        href: https://msdn.microsoft.com/en-us/library/Aa376244(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc
       - name: "NCryptKeyName"
         href: /windows/desktop/api/Ncrypt/ns-ncrypt-ncryptkeyname
       - name: "NCryptProviderName"

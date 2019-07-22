@@ -34,7 +34,7 @@ The XPS Digital Signature interfaces that are described in this section are not 
 
 <dl> <dt>
 
-[Packaging](https://msdn.microsoft.com/library/windows/desktop/dd371623)
+[Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
 [XML Paper Specification](https://go.microsoft.com/?linkid=8435939)

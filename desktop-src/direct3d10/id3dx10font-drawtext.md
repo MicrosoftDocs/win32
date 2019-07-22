@@ -72,7 +72,7 @@ The number of characters in the string. If Count is -1, then the pString paramet
 
 Type: **LPRECT**
 
-Pointer to a [RECT](https://msdn.microsoft.com/en-us/library/ms536136.aspx) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. As with any RECT object, the coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
+Pointer to a [RECT](https://docs.microsoft.com/previous-versions//ms536136(v=vs.85)) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. As with any RECT object, the coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
 
 </dd> <dt>
 

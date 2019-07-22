@@ -3,7 +3,7 @@ Description: The CIM\_MemoryCheck class exposes the following methods.
 ms.assetid: 5ED95541-2E74-453A-9A65-F3E1E9ADCC83
 ms.tgt_platform: multiple
 title: CIM_MemoryCheck Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

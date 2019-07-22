@@ -146,7 +146,7 @@ Applications that support warm or hot data links typically provide a **Copy** or
 
 ### Atoms and Shared Memory Objects
 
-Certain arguments of DDE messages are global atoms or shared memory objects. Applications using these arguments must follow explicit rules about when to allocate and delete them. In all cases, the message sender must delete any atom or shared memory object that the intended receiver will not receive because of an error condition, such as failure of the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function.
+Certain arguments of DDE messages are global atoms or shared memory objects. Applications using these arguments must follow explicit rules about when to allocate and delete them. In all cases, the message sender must delete any atom or shared memory object that the intended receiver will not receive because of an error condition, such as failure of the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function.
 
 DDE uses shared memory objects for three purposes:
 
@@ -184,7 +184,7 @@ The following table summarizes the DDE messages.
 
  
 
-An application calls [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) to issue the [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message or a [**WM\_DDE\_ACK**](wm-dde-ack.md) message sent in response to **WM\_DDE\_INITIATE**. All other messages are sent by [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944). The first parameter of these calls is a handle to the receiving window; the second parameter contains the message to be sent; the third parameter identifies the sending window; and the fourth parameter contains the message-specific arguments.
+An application calls [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) to issue the [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message or a [**WM\_DDE\_ACK**](wm-dde-ack.md) message sent in response to **WM\_DDE\_INITIATE**. All other messages are sent by [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea). The first parameter of these calls is a handle to the receiving window; the second parameter contains the message to be sent; the third parameter identifies the sending window; and the fourth parameter contains the message-specific arguments.
 
 ## Dynamic Data Exchange Message Flow
 

@@ -3,7 +3,7 @@ Description: The CIM\_NumericSensor class exposes the following methods.
 ms.assetid: DF50F3B7-1C12-4929-B9A7-82921CBD543B
 ms.tgt_platform: multiple
 title: CIM_NumericSensor Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

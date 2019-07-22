@@ -29,7 +29,7 @@ String that contains a distinguished name (DN). For attributes with this syntax,
 | MAPI Type    | OBJECT                                                                 |
 | ADS Type     | ADSTYPE\_DN\_STRING                                                    |
 | Variant Type | VT\_BSTR                                                               |
-| SDS Type     | [System.String](https://msdn.microsoft.com/library/system.string.aspx) |
+| SDS Type     | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) |
 
 
 
@@ -37,7 +37,7 @@ String that contains a distinguished name (DN). For attributes with this syntax,
 
 <dl> <dt>
 
-[System.String](https://msdn.microsoft.com/library/system.string.aspx)
+[System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
 </dt> </dl>
 
  

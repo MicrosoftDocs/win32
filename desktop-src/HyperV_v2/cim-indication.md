@@ -65,7 +65,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Recommendation.ITU\|X733.Correlated notifications"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_Indication**.**IndicationIdentifier**")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Correlated notifications"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**IndicationIdentifier**")
 </dt> </dl>
 
 A array that contains **IndicationIdentifier** values of notifications that are related this one.
@@ -81,7 +81,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("CIM\_IndicationFilter.Name")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_IndicationFilter.Name")
 </dt> </dl>
 
 The identifier of the indication filter that processes the indication. The sending service sets this property. This property correlates with the **Name** property of the **CIM\_IndicationFilter** object. The value of **IndicationFilterName** should use the following format:
@@ -102,7 +102,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Recommendation.ITU\|X733.Notification identifier")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Notification identifier")
 </dt> </dl>
 
 An identifier of the indication. This property can be used as a key value in the **CorrelatedIndications** property array. Therefore, **IndicationIdentifier** should be a unique value within the namespace of this class instance.
@@ -144,7 +144,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_AlertIndication**](cim-alertindication.md).**PerceivedSeverity**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_AlertIndication**](cim-alertindication.md).**PerceivedSeverity**")
 </dt> </dl>
 
 The severity of the indication from the notifier's point of view when **PerceivedSeverity** is set to "1" (Other).
@@ -160,7 +160,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Recommendation.ITU\|X733.Perceived severity")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Perceived severity")
 </dt> </dl>
 
 The severity of the indication from the notifier's point of view.
@@ -273,7 +273,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_Indication**.**SequenceNumber**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**SequenceNumber**")
 </dt> </dl>
 
 The sequence context of the sequence identifier for the indication. If a service does not support sequence identifiers for indications, this property should be set to **NULL**. If the indication is redelivered, this property remains the same.
@@ -301,7 +301,7 @@ Data type: **sint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_Indication**.**SequenceContext**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**SequenceContext**")
 </dt> </dl>
 
 The sequence number of the sequence identifier for the indication.
@@ -338,7 +338,7 @@ The sequence number has the following characteristics:
 
 <dl> <dt>
 
-[**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/aa394646)
+[**\_\_ExtrinsicEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extrinsicevent)
 </dt> </dl>
 
  

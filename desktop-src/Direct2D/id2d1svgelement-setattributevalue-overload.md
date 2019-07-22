@@ -1,14 +1,17 @@
 ---
 title: ID2D1SvgElement SetAttributeValue methods
 description: Sets an attribute of this element.
-ms.assetid: '33403a07-28d1-4138-ea7f-04f3ac42a8f7'
-keywords: ["SetAttributeValue methods Direct2D"]
+ms.assetid: 33403a07-28d1-4138-ea7f-04f3ac42a8f7
+keywords:
+- SetAttributeValue methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1svg.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1SvgElement::SetAttributeValue methods

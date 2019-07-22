@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Event Log File Format
 
-Each event log contains a header (represented by the [**ELF\_LOGFILE\_HEADER**](https://msdn.microsoft.com/library/windows/desktop/bb309024) structure) that has a fixed size, followed by a variable number of event records (represented by [**EVENTLOGRECORD**](https://msdn.microsoft.com/library/windows/desktop/aa363646) structures), and an end-of-file record (represented by the [**ELF\_EOF\_RECORD**](https://msdn.microsoft.com/library/windows/desktop/bb309022) structure).
+Each event log contains a header (represented by the [**ELF\_LOGFILE\_HEADER**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)) structure) that has a fixed size, followed by a variable number of event records (represented by [**EVENTLOGRECORD**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_eventlogrecord) structures), and an end-of-file record (represented by the [**ELF\_EOF\_RECORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309022(v=vs.85)) structure).
 
 The **ELF\_LOGFILE\_HEADER** structure and the **ELF\_EOF\_RECORD** structure are written in the event log when the event log is created and are updated each time an event is written to the log.
 

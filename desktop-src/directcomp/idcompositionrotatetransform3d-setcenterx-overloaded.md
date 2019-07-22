@@ -1,14 +1,17 @@
 ---
 title: IDCompositionRotateTransform3D SetCenterX methods
 description: Changes or animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
-ms.assetid: '2E4924A5-64D0-4415-B345-0DE9A0900258'
-keywords: ["SetCenterX methods DirectComposition"]
+ms.assetid: 2E4924A5-64D0-4415-B345-0DE9A0900258
+keywords:
+- SetCenterX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionRotateTransform3D::SetCenterX methods

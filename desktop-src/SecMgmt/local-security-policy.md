@@ -14,10 +14,10 @@ The local security policy information includes the following:
 
 -   The domains trusted to authenticate logon attempts.
 -   Which user accounts may access the system and how. For example, interactively, through a network, or as a service.
--   The rights and [*privileges*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-privilege-gly) assigned to accounts.
+-   The rights and [*privileges*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) assigned to accounts.
 -   The security auditing policy.
 
-The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) stores the local policy information in a set of [LSA Policy Objects](lsa-policy-objects.md).
+The [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) stores the local policy information in a set of [LSA Policy Objects](lsa-policy-objects.md).
 
  
 

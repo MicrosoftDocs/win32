@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
 ms.assetid: 17dc4bef-a8ee-4ff2-ade0-ff5cdb0633df
 title: PathGradientBrush Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

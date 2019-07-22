@@ -19,7 +19,7 @@ The following sections provide information about authentication.
 | [Network Provider API](network-provider-api.md)<br/>                           | How to interact with other types of networks.<br/>                                                                                                               |
 | [Smart Card Authentication](smart-card-authentication.md)<br/>                 | Describes the smart card authentication architecture.<br/>                                                                                                       |
 | [SSPI](sspi.md)<br/>                                                           | How an application can use various security models available on a computer or network without changing the interface to the security system.<br/>                |
-| [Winlogon and Credential Providers](winlogon-and-credential-providers.md)<br/> | How to customize [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) behavior by implementing and registering a Credential Provider.<br/> |
+| [Winlogon and Credential Providers](winlogon-and-credential-providers.md)<br/> | How to customize [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) behavior by implementing and registering a Credential Provider.<br/> |
 
 
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EM\_SETTEXTEX message
 
-Combines the functionality of the [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644) and [**EM\_REPLACESEL**](em-replacesel.md) messages, and adds the ability to set text using a code page and to use either rich text or plain text.
+Combines the functionality of the [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) and [**EM\_REPLACESEL**](em-replacesel.md) messages, and adds the ability to set text using a code page and to use either rich text or plain text.
 
 ## Parameters
 

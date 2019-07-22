@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Other Predefined Attributes
 
-The following values identify miscellaneous attributes obtained with the [ITfContext::GetAppProperty](https://msdn.microsoft.com/library/windows/desktop/ms538788) method. The data format and contents of each property type are included.
+The following values identify miscellaneous attributes obtained with the [ITfContext::GetAppProperty](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty) method. The data format and contents of each property type are included.
 
 ## Properties
 

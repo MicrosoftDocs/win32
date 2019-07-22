@@ -204,7 +204,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Any additional availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is set to 6 (Not Applicable).
+Any additional availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to 6 (Not Applicable).
 
 </dd> <dt>
 
@@ -217,7 +217,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The primary availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is set to 6 (Not Applicable).
+The primary availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to 6 (Not Applicable).
 
 </dd> <dt>
 
@@ -230,9 +230,9 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://msdn.microsoft.com/library/mt432433) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818) object. This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
+Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/requeststatechange-cim-enabledlogicalelement) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) object. This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
 
-This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -245,7 +245,7 @@ Data type: **uint32** array
 Access type: Read-only
 </dt> </dl>
 
-The capabilities of the media access device. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901), and it is set to the following values.
+The capabilities of the media access device. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice), and it is set to the following values.
 
 
 
@@ -270,7 +270,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of free-form strings that provides detailed explanations for access device features indicated in the **Capabilities** property array. Each entry of this array is related to the entry in the **Capabilities** property array, located at the same index. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+An array of free-form strings that provides detailed explanations for access device features indicated in the **Capabilities** property array. Each entry of this array is related to the entry in the **Capabilities** property array, located at the same index. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -283,7 +283,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -296,7 +296,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -309,7 +309,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that indicates the algorithm or tool used to compress the logical file. If the compression scheme is unknown or not described, use "Unknown". If the logical file is compressed, but the compression scheme is unknown or not described, use "Compressed". If the logical file is not compressed, use "Not Compressed". This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+A string that indicates the algorithm or tool used to compress the logical file. If the compression scheme is unknown or not described, use "Unknown". If the logical file is compressed, but the compression scheme is unknown or not described, use "Compressed". If the logical file is not compressed, use "Not Compressed". This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 "Not Compressed"
 
@@ -330,7 +330,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class or subclass used in the creation of an instance. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+The name of the class or subclass used in the creation of an instance. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -343,7 +343,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The default block size, in bytes, for the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The default block size, in bytes, for the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -356,7 +356,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -369,7 +369,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -382,7 +382,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is set to "Microsoft:*GUID*\\*device-specific-data*".
+This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to "Microsoft:*GUID*\\*device-specific-data*".
 
 </dd> <dt>
 
@@ -395,7 +395,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -408,7 +408,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -421,7 +421,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The enabled and disabled states of an element. It can also indicate the transitions between these requested states. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+The enabled and disabled states of an element. It can also indicate the transitions between these requested states. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -434,7 +434,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the error reported in **LastErrorCode** is now cleared. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+Indicates whether the error reported in **LastErrorCode** is now cleared. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -447,7 +447,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -460,7 +460,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the types of error detection and correction supported by this device. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+A string that describes the types of error detection and correction supported by this device. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -473,7 +473,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The CD and DVD formats that are supported by this device. This property is inherited from [**CIM\_DVDDrive**](https://msdn.microsoft.com/library/cc136812).
+The CD and DVD formats that are supported by this device. This property is inherited from [**CIM\_DVDDrive**](https://docs.microsoft.com/previous-versions//cc136812(v=vs.85)).
 
 This array contains the following values for ISO.
 
@@ -569,7 +569,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -582,7 +582,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of free-form strings that provide explanations and details behind the entries in the **OtherIdentifyingInfo** property array. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is set to **Null**.
+An array of free-form strings that provide explanations and details behind the entries in the **OtherIdentifyingInfo** property array. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to **Null**.
 
 </dd> <dt>
 
@@ -595,7 +595,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -611,7 +611,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -624,7 +624,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time on which the device was last cleaned. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The date and time on which the device was last cleaned. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -637,7 +637,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The last error code reported by the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The last error code reported by the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -650,7 +650,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The time, in milliseconds, from 'load' to being able to read or write a media. For example, for disk drives, this is the interval between a disk not spinning to the disk reporting that it is ready for read/write (that is, the disk spinning at nominal speeds). For tape drives, this is the time from a media being injected to reporting that it is ready for an application. This is usually at the tape's BOT area. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The time, in milliseconds, from 'load' to being able to read or write a media. For example, for disk drives, this is the interval between a disk not spinning to the disk reporting that it is ready for read/write (that is, the disk spinning at nominal speeds). For tape drives, this is the time from a media being injected to reporting that it is ready for an application. This is usually at the tape's BOT area. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -663,7 +663,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The time, in milliseconds, to move from the first location on the media to the location that is furthest with respect to time. For a disk drive, this represents full seek + full rotational delay. For tape drives, this represents a search from the beginning of the tape to the most physically distant point. (The end of a tape may be at its most physically distant point, but this is not necessarily true.) This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The time, in milliseconds, to move from the first location on the media to the location that is furthest with respect to time. For a disk drive, this represents full seek + full rotational delay. For tape drives, this represents a search from the beginning of the tape to the most physically distant point. (The end of a tape may be at its most physically distant point, but this is not necessarily true.) This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -676,7 +676,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The maximum block size, in bytes, for media accessed by the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The maximum block size, in bytes, for media accessed by the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -689,7 +689,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The maximum size, in kilobytes, of media supported by this device. Kilobytes are interpreted as the number of bytes multiplied by 1000 (not the number of bytes multiplied by 1024). This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The maximum size, in kilobytes, of media supported by this device. Kilobytes are interpreted as the number of bytes multiplied by 1000 (not the number of bytes multiplied by 1024). This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -702,7 +702,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property has been deprecated. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+This property has been deprecated. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -715,7 +715,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The maximum units that can be used before the device should be cleaned. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The maximum units that can be used before the device should be cleaned. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -728,7 +728,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if the media is locked in the device and cannot be ejected; otherwise, **False**. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+**True** if the media is locked in the device and cannot be ejected; otherwise, **False**. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -741,7 +741,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The minimum block size, in bytes, for media accessed by the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The minimum block size, in bytes, for media accessed by the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -754,7 +754,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-For a device that supports removable media, the number of times that media have been mounted for data transfer or to clean the device. For devices accessing nonremovable media, such as hard disks, this property is not applicable and should be set to 0. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+For a device that supports removable media, the number of times that media have been mounted for data transfer or to clean the device. For devices accessing nonremovable media, such as hard disks, this property is not applicable and should be set to 0. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -767,7 +767,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is the same as the **ElementName** property.
+The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is the same as the **ElementName** property.
 
 </dd> <dt>
 
@@ -780,7 +780,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if the media access device needs cleaning; otherwise, **False**. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+**True** if the media access device needs cleaning; otherwise, **False**. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -793,7 +793,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The maximum number of multiple individual media that can be supported or inserted. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The maximum number of multiple individual media that can be supported or inserted. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -806,7 +806,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -819,7 +819,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -832,7 +832,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when the **EnabledState** property is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when the **EnabledState** property is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -845,7 +845,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Any additional data, beyond device ID information, that could be used to identify a logical device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is set to **Null**.
+Any additional data, beyond device ID information, that could be used to identify a logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to **Null**.
 
 </dd> <dt>
 
@@ -858,7 +858,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The power management capabilities of the device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The power management capabilities of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -871,7 +871,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the device can be power managed. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+Indicates whether the device can be power managed. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -884,7 +884,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The number of consecutive hours that this device has been powered on since its last power cycle. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The number of consecutive hours that this device has been powered on since its last power cycle. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -897,7 +897,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -910,7 +910,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the element. The actual state of the element is represented by the **EnabledState** property. This property is provided to compare the last requested and current enabled or disabled states. A particular instance of [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818) might not support the **RequestStateChange** method. If this occurs, the value 12 (Not Applicable) is used. This property is inherited from **CIM\_EnabledLogicalElement**.
+The last requested or desired state for the element. The actual state of the element is represented by the **EnabledState** property. This property is provided to compare the last requested and current enabled or disabled states. A particular instance of [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) might not support the **RequestStateChange** method. If this occurs, the value 12 (Not Applicable) is used. This property is inherited from **CIM\_EnabledLogicalElement**.
 
 </dd> <dt>
 
@@ -923,7 +923,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The operational security defined for the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The operational security defined for the device. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -936,7 +936,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), but it is not used.
+The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -949,7 +949,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -962,7 +962,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current state of the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The current state of the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -975,7 +975,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -988,7 +988,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The unique identifier for the scoping virtual machine. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
+The unique identifier for the scoping virtual machine. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -1001,7 +1001,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-For a device that supports removable media, the most recent date and time that media was mounted on the device. For devices accessing nonremovable media, such as hard disks, this property has no meaning and is not applicable. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+For a device that supports removable media, the most recent date and time that media was mounted on the device. For devices accessing nonremovable media, such as hard disks, this property has no meaning and is not applicable. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -1014,7 +1014,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it is always set to **Null**.
+The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -1027,7 +1027,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-For a device that supports removable media, the total time (in seconds) that media have been mounted for data transfer or to clean the device. For devices accessing nonremovable media, such as hard disks, this property is not applicable and should be set to 0. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+For a device that supports removable media, the total time (in seconds) that media have been mounted for data transfer or to clean the device. For devices accessing nonremovable media, such as hard disks, this property is not applicable and should be set to 0. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -1040,7 +1040,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The total number of hours that this device has been powered. This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), but it is not used.
+The total number of hours that this device has been powered. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1053,7 +1053,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), but it is not used.
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not used.
 
 </dd> <dt>
 
@@ -1066,7 +1066,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The sustained data transfer rate, in KB/sec, that the device can read from and write to a media. This is a sustained, raw data rate. Maximum rates or rates assuming compression should not be reported in this property. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The sustained data transfer rate, in KB/sec, that the device can read from and write to a media. This is a sustained, raw data rate. Maximum rates or rates assuming compression should not be reported in this property. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -1079,7 +1079,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The units relative to its use in **MaxUnitsBeforeCleaning**. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The units relative to its use in **MaxUnitsBeforeCleaning**. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -1092,7 +1092,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The current number of units used. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The current number of units used. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> <dt>
 
@@ -1105,13 +1105,13 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The time, in milliseconds, from being able to read or write a media to its 'unload'. This property is inherited from [**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901).
+The time, in milliseconds, from being able to read or write a media to its 'unload'. This property is inherited from [**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_DVDDrive** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_DVDDrive** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -1134,7 +1134,7 @@ Access to the **Msvm\_DVDDrive** class might be restricted by UAC Filtering. For
 [**CIM\_DVDDrive**](cim-dvddrive.md)
 </dt> <dt>
 
-[**CIM\_DVDDrive**](https://msdn.microsoft.com/library/cc136812)
+[**CIM\_DVDDrive**](https://docs.microsoft.com/previous-versions//cc136812(v=vs.85))
 </dt> <dt>
 
 [Storage Classes](storage-classes.md)

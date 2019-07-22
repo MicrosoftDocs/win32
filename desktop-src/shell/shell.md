@@ -55,7 +55,7 @@ The **Shell** object has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537735(v=VS.85).aspx"><strong>AddToRecent</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-addtorecent"><strong>AddToRecent</strong></a></td>
 <td style="text-align: left;">Adds a file to the most recently used (MRU) list.<br/></td>
 </tr>
 <tr class="even">
@@ -63,7 +63,7 @@ The **Shell** object has these methods.
 <td style="text-align: left;">Creates a dialog box that enables the user to select a folder and then returns the selected folder's <a href="folder"><strong>Folder</strong></a> object.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537736(v=VS.85).aspx"><strong>CanStartStopService</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-canstartstopservice"><strong>CanStartStopService</strong></a></td>
 <td style="text-align: left;">Determines if the current user can start and stop the named service.<br/></td>
 </tr>
 <tr class="even">
@@ -105,15 +105,15 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the <strong>Find: All Files</strong> dialog box. This is the same as clicking the <strong>Start</strong> menu and then selecting <strong>Search</strong> (or its equivalent under systems earlier than Windows XP.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537738(v=VS.85).aspx"><strong>FindPrinter</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-findprinter"><strong>FindPrinter</strong></a></td>
 <td style="text-align: left;">Displays the <strong>Find Printer</strong> dialog box.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537739(v=VS.85).aspx"><strong>GetSetting</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-getsetting"><strong>GetSetting</strong></a></td>
 <td style="text-align: left;">Retrieves a global Shell setting.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537740(v=VS.85).aspx"><strong>GetSystemInformation</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-getsysteminformation"><strong>GetSystemInformation</strong></a></td>
 <td style="text-align: left;">Retrieves system information.<br/></td>
 </tr>
 <tr class="odd">
@@ -121,11 +121,11 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the Windows Help and Support Center. This method has the same effect as clicking the <strong>Start</strong> menu and selecting <strong>Help and Support</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537741(v=VS.85).aspx"><strong>IsRestricted</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-isrestricted"><strong>IsRestricted</strong></a></td>
 <td style="text-align: left;">Retrieves a group's restriction setting from the registry.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537742(v=VS.85).aspx"><strong>IsServiceRunning</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-isservicerunning"><strong>IsServiceRunning</strong></a></td>
 <td style="text-align: left;">Returns a value that indicates whether a particular service is running.<br/></td>
 </tr>
 <tr class="even">
@@ -149,11 +149,11 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the Apps Search pane.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537743(v=VS.85).aspx"><strong>ServiceStart</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-servicestart"><strong>ServiceStart</strong></a></td>
 <td style="text-align: left;">Starts a named service.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537744(v=VS.85).aspx"><strong>ServiceStop</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-servicestop"><strong>ServiceStop</strong></a></td>
 <td style="text-align: left;">Stops a named service.<br/></td>
 </tr>
 <tr class="odd">
@@ -161,11 +161,11 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the <strong>Date and Time Properties</strong> dialog box. This method has the same effect as right-clicking the clock in the taskbar status area and selecting <strong>Adjust Date/Time</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537745(v=VS.85).aspx"><strong>ShellExecute</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-shellexecute"><strong>ShellExecute</strong></a></td>
 <td style="text-align: left;">Performs a specified operation on a specified file.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Gg537746(v=VS.85).aspx"><strong>ShowBrowserBar</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/shell/shell-showbrowserbar"><strong>ShowBrowserBar</strong></a></td>
 <td style="text-align: left;">Displays a browser bar.<br/></td>
 </tr>
 <tr class="even">

@@ -17,7 +17,7 @@ api_location:
 
 # SslGenerateMasterKey function
 
-The **SslGenerateMasterKey** function computes the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) master secret key.
+The **SslGenerateMasterKey** function computes the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) master secret key.
 
 ## Syntax
 
@@ -54,21 +54,21 @@ The handle to the SSL protocol provider instance.
 *hPrivateKey* \[in\]
 </dt> <dd>
 
-The handle to the [*private key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-private-key-gly) used in the exchange.
+The handle to the [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) used in the exchange.
 
 </dd> <dt>
 
 *hPublicKey* \[in\]
 </dt> <dd>
 
-The handle to the [*public key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-gly) used in the exchange.
+The handle to the [*public key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) used in the exchange.
 
 </dd> <dt>
 
 *phMasterKey* \[out\]
 </dt> <dd>
 
-A pointer to the handle to the generated [*master key*](https://msdn.microsoft.com/library/windows/desktop/ms721594#-security-master-key-gly).
+A pointer to the handle to the generated [*master key*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly).
 
 </dd> <dt>
 

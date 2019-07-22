@@ -2,7 +2,7 @@
 Description: The ICertProperties interface exposes the following methods.
 ms.assetid: F1950715-641E-42B0-AC48-E4C85D1801C6
 title: ICertProperties Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

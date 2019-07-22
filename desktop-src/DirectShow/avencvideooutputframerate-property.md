@@ -45,7 +45,7 @@ The value of this property is a ratio that defines the frame rate. The upper 32 
 
 Applications can set this property to specify the output frame rate. Encoders can also return this property as a capability. Depending on the encoder, the value might be restricted to the input frame rate. If not, the encoder is able to convert the frame rate internally. See [**AVEncVideoOutputFrameRateConversion Property**](avencvideooutputframerateconversion-property.md).
 
-This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.microsoft.com/library/windows/desktop/jj218765).
+This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
 ## Requirements
 

@@ -186,7 +186,7 @@ The following table lists the values that can be used for the MF_MT_AAC_PROFILE_
 
  
 
-After the output type is set, the AAC encoder updates the type by adding the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute. This attribute contains the portion of the [**HEAACWAVEINFO**](https://msdn.microsoft.com/library/windows/desktop/dd757806) structure that appears after the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/windows/desktop/dd390970) structure (that is, after the **wfx** member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.
+After the output type is set, the AAC encoder updates the type by adding the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute. This attribute contains the portion of the [**HEAACWAVEINFO**](https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag) structure that appears after the [**WAVEFORMATEX**](https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)) structure (that is, after the **wfx** member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.
 
 Each output sample contains one compressed AAC frame with no header. This format is equivalent to the raw\_data\_block() element defined by MPEG-2. The [MF\_MT\_AAC\_PAYLOAD\_TYPE](mf-mt-aac-payload-type.md) attribute, if present in the output type, must be set to zero to indicate this payload type.
 

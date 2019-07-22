@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the RectF class. For a complete class listing, see RectF Class.
 ms.assetid: f14f1693-b0f3-4e68-8245-846aef1ed299
 title: RectF Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -70,14 +70,14 @@ public static void JetCreateInstance2(
 <!-- end list -->
 
   - name  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     Specifies a unique string identifier for the instance to be created. This string must be unique within a given process hosting the database engine.
 
 <!-- end list -->
 
   - displayName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     A display name for the instance to be created. This will be used in eventlog entries.
 

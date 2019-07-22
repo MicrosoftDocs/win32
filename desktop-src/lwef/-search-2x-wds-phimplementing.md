@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-Creating a protocol handler involves implementing [**ISearchProtocol**](https://msdn.microsoft.com/library/windows/desktop/bb231440) to manage UrlAccessor objects, [**IUrlAccessor**](https://msdn.microsoft.com/library/windows/desktop/bb231426) to generate metadata about and to identify appropriate filters for items in the data store, IProtocolHandlerSite to instantiate a SearchProtocol object and identify appropriate filters, and [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)to filter proprietary files or to enumerate and filter hierarchically stored files. The protocol handler must be multithreaded.
+Creating a protocol handler involves implementing [**ISearchProtocol**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol) to manage UrlAccessor objects, [**IUrlAccessor**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) to generate metadata about and to identify appropriate filters for items in the data store, IProtocolHandlerSite to instantiate a SearchProtocol object and identify appropriate filters, and [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)to filter proprietary files or to enumerate and filter hierarchically stored files. The protocol handler must be multithreaded.
 
 This sections contains the following topics:
 
@@ -37,21 +37,21 @@ Microsoft Windows Desktop Search (WDS) uses URLs to uniquely identify items in 
 
 **ISearchProtocol**
 
-The [**ISearchProtocol**](https://msdn.microsoft.com/library/windows/desktop/bb231440) interface invokes, initializes, and manages UrlAccessor objects. For more information on implementing the ISearchProtocol interface, see **ISearchProtocol Interface reference**.
+The [**ISearchProtocol**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol) interface invokes, initializes, and manages UrlAccessor objects. For more information on implementing the ISearchProtocol interface, see **ISearchProtocol Interface reference**.
 
 **IUrlAccessor**
 
-For a specified URL, the [**IUrlAccessor**](https://msdn.microsoft.com/library/windows/desktop/bb231426) interface generates metadata about the location structure as well as contained items, and it binds those items to an filter. The **IUrlAccessor** object is instantiated and initialized by an SearchProtocol object; however, you can also implement an internal initialization method so your **IUrlAccessor** object can perform initialization tasks specific to your protocol handler, such as validating the URL for an item being accessed or checking the last modified time to determine if a file must be processed in the current crawl.
+For a specified URL, the [**IUrlAccessor**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) interface generates metadata about the location structure as well as contained items, and it binds those items to an filter. The **IUrlAccessor** object is instantiated and initialized by an SearchProtocol object; however, you can also implement an internal initialization method so your **IUrlAccessor** object can perform initialization tasks specific to your protocol handler, such as validating the URL for an item being accessed or checking the last modified time to determine if a file must be processed in the current crawl.
 
 > [!Note]
 >
-> Modified times for directories are ignored. The [**IUrlAccessor**](https://msdn.microsoft.com/library/windows/desktop/bb231426) object must enumerate the child objects to determine whether there have been any modifications or deletions.
+> Modified times for directories are ignored. The [**IUrlAccessor**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) object must enumerate the child objects to determine whether there have been any modifications or deletions.
 
  
 
 Much of the design of the **UrlAccessor** object is dependent on whether the structure is hierarchical or link-based. For hierarchical data stores, the **UrlAccessor** object must find an filter that can enumerate their contents. Another distinction between hierarchical and link-based protocol handlers is the use of the IsDirectory method. In link-based protocol handlers, this method should return S\_FALSE. Hierarchical protocol handlers must return S\_OK for containers.
 
-For further instructions on implementing an [**IUrlAccessor**](https://msdn.microsoft.com/library/windows/desktop/bb231426) interface, see the [**IUrlAccessor Interface**](https://msdn.microsoft.com/library/windows/desktop/bb231426) reference.
+For further instructions on implementing an [**IUrlAccessor**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) interface, see the [**IUrlAccessor Interface**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) reference.
 
 **IProtocolHandlerSite**
 
@@ -59,7 +59,7 @@ This interface is used to instantiate a **SearchProtocol** object and also provi
 
 ## IFilters for Containers
 
-If you are implementing a hierarchical protocol handler, you must implement a container [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)component that enumerates URLs representing containers or folders. The enumeration process is a loop through the **GetChunk** and **GetValue** methods of the IFilter interface that return a list of URLs that represent each item in the container.
+If you are implementing a hierarchical protocol handler, you must implement a container [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)component that enumerates URLs representing containers or folders. The enumeration process is a loop through the **GetChunk** and **GetValue** methods of the IFilter interface that return a list of URLs that represent each item in the container.
 
 First, **GetChunk** returns a FULLPROSPEC with the property set GATHER\_PROPSET and either:
 
@@ -148,7 +148,7 @@ HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &ftLastModifie
 
 > [!Note]
 >
-> A container [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)component should always enumerate all child URLs even if the child URLs have not changed, because the Indexer detects deletions through the enumeration process. If the date output in a DIR\_LINKS\_WITH\_TIME indicates that the data has not changed, the indexer does not update the data for that URL.
+> A container [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)component should always enumerate all child URLs even if the child URLs have not changed, because the Indexer detects deletions through the enumeration process. If the date output in a DIR\_LINKS\_WITH\_TIME indicates that the data has not changed, the indexer does not update the data for that URL.
 
  
 

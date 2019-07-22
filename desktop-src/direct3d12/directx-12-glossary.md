@@ -241,7 +241,7 @@ A user-mode heap that is focused on multiple GPU-read-only resources that are ty
 <span id="direct3d12.directx_12_glossary_swap_chain"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_SWAP_CHAIN"></span>**swap chain**
 </dt> <dd>
 
-Swap chains control the back buffer rotation, forming the basis of graphics animation. Swap chains are handled by the low level API set DXGI (see [DXGI Overview](https://msdn.microsoft.com/library/windows/desktop/bb205075)).
+Swap chains control the back buffer rotation, forming the basis of graphics animation. Swap chains are handled by the low level API set DXGI (see [DXGI Overview](https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)).
 
 </dd> <dt>
 

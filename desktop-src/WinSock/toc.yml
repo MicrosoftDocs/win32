@@ -810,7 +810,7 @@
       - name: "accept"
         href: /windows/desktop/api/Winsock2/nf-winsock2-accept
       - name: "AcceptEx"
-        href: https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex
       - name: "bind"
         href: /windows/desktop/api/winsock/nf-winsock-bind
       - name: "closesocket"
@@ -820,7 +820,7 @@
       - name: "LPFN_CONNECTEX"
         href: /windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex
       - name: "DisconnectEx"
-        href: https://msdn.microsoft.com/en-us/library/ms737757(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms737757(v=vs.85)
       - name: "EnumProtocols"
         href: /windows/desktop/api/Nspapi/nf-nspapi-enumprotocolsa
       - name: "freeaddrinfo"
@@ -832,7 +832,7 @@
       - name: "gai_strerror"
         href: /windows/desktop/api/Ws2tcpip/nf-ws2tcpip-gai_strerrora
       - name: "GetAcceptExSockaddrs"
-        href: https://msdn.microsoft.com/en-us/library/ms738516(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-getacceptexsockaddrs
       - name: "GetAddressByName"
         href: /windows/desktop/api/Nspapi/nf-nspapi-getaddressbynamea
       - name: "getaddrinfo"
@@ -846,9 +846,9 @@
       - name: "GetAddrInfoW"
         href: /windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfow
       - name: "gethostbyaddr"
-        href: https://msdn.microsoft.com/en-us/library/ms738521(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr
       - name: "gethostbyname"
-        href: https://msdn.microsoft.com/en-us/library/ms738524(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname
       - name: "gethostname"
         href: /windows/desktop/api/winsock/nf-winsock-gethostname
       - name: "GetHostNameW"
@@ -892,9 +892,9 @@
       - name: "htons"
         href: /windows/desktop/api/winsock/nf-winsock-htons
       - name: "inet_addr"
-        href: https://msdn.microsoft.com/en-us/library/ms738563(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr
       - name: "inet_ntoa"
-        href: https://msdn.microsoft.com/en-us/library/ms738564(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa
       - name: "InetNtop"
         href: /windows/desktop/api/Ws2tcpip/nf-ws2tcpip-inetntopw
       - name: "InetPton"
@@ -918,31 +918,31 @@
       - name: "recvfrom"
         href: /windows/desktop/api/winsock/nf-winsock-recvfrom
       - name: "RIOCloseCompletionQueue"
-        href: https://msdn.microsoft.com/en-us/library/Hh448837(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448837(v=vs.85)
       - name: "RIOCreateCompletionQueue"
-        href: https://msdn.microsoft.com/en-us/library/Hh448841(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448841(v=vs.85)
       - name: "RIOCreateRequestQueue"
-        href: https://msdn.microsoft.com/en-us/library/Hh448843(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448843(v=vs.85)
       - name: "RIODequeueCompletion"
-        href: https://msdn.microsoft.com/en-us/library/Hh448845(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448845(v=vs.85)
       - name: "RIODeregisterBuffer"
-        href: https://msdn.microsoft.com/en-us/library/Hh448847(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448847(v=vs.85)
       - name: "RIONotify"
-        href: https://msdn.microsoft.com/en-us/library/Hh437191(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)
       - name: "RIOReceive"
-        href: https://msdn.microsoft.com/en-us/library/Hh437193(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437193(v=vs.85)
       - name: "RIOReceiveEx"
-        href: https://msdn.microsoft.com/en-us/library/Hh437196(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437196(v=vs.85)
       - name: "RIORegisterBuffer"
-        href: https://msdn.microsoft.com/en-us/library/Hh437199(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437199(v=vs.85)
       - name: "RIOResizeCompletionQueue"
-        href: https://msdn.microsoft.com/en-us/library/Hh437202(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437202(v=vs.85)
       - name: "RIOResizeRequestQueue"
-        href: https://msdn.microsoft.com/en-us/library/Hh437204(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437204(v=vs.85)
       - name: "RIOSend"
-        href: https://msdn.microsoft.com/en-us/library/Hh437213(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437213(v=vs.85)
       - name: "RIOSendEx"
-        href: https://msdn.microsoft.com/en-us/library/Hh437216(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437216(v=vs.85)
       - name: "select"
         href: /windows/desktop/api/Winsock2/nf-winsock2-select
       - name: "send"
@@ -966,7 +966,7 @@
       - name: "socket"
         href: /windows/desktop/api/Winsock2/nf-winsock2-socket
       - name: "TransmitFile"
-        href: https://msdn.microsoft.com/en-us/library/ms740565(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile
       - name: "LPFN_TRANSMITPACKETS"
         href: /windows/desktop/api/Mswsock/nc-mswsock-lpfn_transmitpackets
       - name: "WSAAccept"
@@ -974,9 +974,9 @@
       - name: "WSAAddressToString"
         href: /windows/desktop/api/Winsock2/nf-winsock2-wsaaddresstostringa
       - name: "WSAAsyncGetHostByAddr"
-        href: https://msdn.microsoft.com/en-us/library/ms741519(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyaddr
       - name: "WSAAsyncGetHostByName"
-        href: https://msdn.microsoft.com/en-us/library/ms741522(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname
       - name: "WSAAsyncGetProtoByName"
         href: /windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname
       - name: "WSAAsyncGetProtoByNumber"
@@ -1056,7 +1056,7 @@
       - name: "WSANtohs"
         href: /windows/desktop/api/Winsock2/nf-winsock2-wsantohs
       - name: "WSAPoll"
-        href: https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll
       - name: "WSAQuerySocketSecurity"
         href: /windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity
       - name: "WSAProviderConfigChange"
@@ -1066,11 +1066,11 @@
       - name: "WSARecvDisconnect"
         href: /windows/desktop/api/Winsock2/nf-winsock2-wsarecvdisconnect
       - name: "WSARecvEx"
-        href: https://msdn.microsoft.com/en-us/library/ms741684(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-wsarecvex
       - name: "WSARecvFrom"
         href: /windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom
       - name: "WSARecvMsg"
-        href: https://msdn.microsoft.com/en-us/library/ms741687(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)
       - name: "WSARemoveServiceClass"
         href: /windows/desktop/api/Winsock2/nf-winsock2-wsaremoveserviceclass
       - name: "WSAResetEvent"
@@ -1111,7 +1111,7 @@
       href: winsock-structures.md
       items: 
       - name: "addrinfo"
-        href: https://msdn.microsoft.com/en-us/library/ms737530(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa
       - name: "addrinfoW"
         href: /windows/desktop/api/Ws2def/ns-ws2def-addrinfow
       - name: "addrinfoex"
@@ -1127,9 +1127,9 @@
       - name: "ASSOCIATE_NAMERES_CONTEXT_INPUT"
         href: /windows/desktop/api/Mstcpip/ns-mstcpip-_associate_nameres_context_input
       - name: "BLOB"
-        href: https://msdn.microsoft.com/en-us/library/ms737551(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob
       - name: "CSADDR_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info
       - name: "fd_set"
         href: /windows/desktop/api/winsock/nf-winsock-fd_set
       - name: "GROUP_FILTER"
@@ -1141,11 +1141,11 @@
       - name: "hostent"
         href: /windows/desktop/api/winsock/ns-winsock-hostent
       - name: "in_addr"
-        href: https://msdn.microsoft.com/en-us/library/ms738571(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr
       - name: "in_pktinfo"
         href: /windows/desktop/api/Ws2ipdef/ns-ws2ipdef-in_pktinfo
       - name: "in6_addr"
-        href: https://msdn.microsoft.com/en-us/library/ms738560(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)
       - name: "in6_pktinfo"
         href: /windows/desktop/api/Ws2ipdef/ns-ws2ipdef-in6_pktinfo
       - name: "INET_PORT_RANGE"
@@ -1179,7 +1179,7 @@
       - name: "REAL_TIME_NOTIFICATION_SETTING_OUTPUT"
         href: /windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_output
       - name: "RIO_EXTENSION_FUNCTION_TABLE"
-        href: https://msdn.microsoft.com/en-us/library/Hh437226(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_rio_extension_function_table
       - name: "RIO_BUF"
         href: /windows/desktop/api/Mswsockdef/ns-mswsockdef-_rio_buf
       - name: "RIO_BUFFERID"
@@ -1217,11 +1217,11 @@
       - name: "SOCKADDR_IRDA"
         href: /windows/desktop/api/Af_irda/ns-af_irda-_sockaddr_irda
       - name: "SOCKADDR_STORAGE"
-        href: https://msdn.microsoft.com/en-us/library/ms740504(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)
       - name: "SOCKET_ADDRESS"
         href: /windows/desktop/api/Ws2def/ns-ws2def-_socket_address
       - name: "SOCKET_ADDRESS_LIST"
-        href: https://msdn.microsoft.com/en-us/library/Aa385467(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)
       - name: "SOCKET_PEER_TARGET_NAME"
         href: /windows/desktop/api/Mstcpip/ns-mstcpip-_socket_peer_target_name
       - name: "SOCKET_PROCESSOR_AFFINITY"
@@ -1245,7 +1245,7 @@
       - name: "TRANSMIT_PACKETS_ELEMENT"
         href: /windows/desktop/api/Mswsock/ns-mswsock-_transmit_packets_element
       - name: "TRANSPORT_SETTING_ID"
-        href: https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id
       - name: "WSABUF"
         href: /windows/desktop/api/ws2def/ns-ws2def-_wsabuf
       - name: "WSACOMPLETION"
@@ -1267,7 +1267,7 @@
       - name: "WSAPOLLFD"
         href: /windows/desktop/api/Winsock2/ns-winsock2-pollfd
       - name: "WSAPROTOCOL_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa
       - name: "WSAPROTOCOL_INFOW"
         href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaprotocol_infow
       - name: "WSAPROTOCOLCHAIN"
@@ -1446,57 +1446,57 @@
         - name: "LPWSPADDRESSTOSTRING"
           href: /windows/desktop/api/Ws2spi/nc-ws2spi-lpwspaddresstostring
         - name: "LPWSPASYNCSELECT"
-          href: https://msdn.microsoft.com/en-us/library/ms742267(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742267(v=vs.85)
         - name: "LPWSPBIND"
-          href: https://msdn.microsoft.com/en-us/library/ms742268(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v%3dvs.85)
         - name: "LPWSPCANCELBLOCKINGCALL"
-          href: https://msdn.microsoft.com/en-us/library/ms742269(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742269(v=vs.85)
         - name: "LPWSPCLEANUP"
-          href: https://msdn.microsoft.com/en-us/library/ms742270(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)
         - name: "LPWSPCLOSESOCKET"
-          href: https://msdn.microsoft.com/en-us/library/ms742271(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v%3dvs.85)
         - name: "LPWSPCONNECT"
-          href: https://msdn.microsoft.com/en-us/library/ms742272(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)
         - name: "LPWSPDUPLICATESOCKET"
-          href: https://msdn.microsoft.com/en-us/library/ms742274(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)
         - name: "LPWSPENUMNETWORKEVENTS"
-          href: https://msdn.microsoft.com/en-us/library/ms742275(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566284(v%3dvs.85)
         - name: "LPWSPEVENTSELECT"
-          href: https://msdn.microsoft.com/en-us/library/ms742276(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)
         - name: "LPWSPGETOVERLAPPEDRESULT"
           href: /windows/desktop/api/Ws2spi/nc-ws2spi-lpwspgetoverlappedresult
         - name: "LPWSPGETPEERNAME"
-          href: https://msdn.microsoft.com/en-us/library/ms742278(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742278(v=vs.85)
         - name: "LPWSPGETQOSBYNAME"
           href: /windows/desktop/api/Ws2spi/nc-ws2spi-lpwspgetqosbyname
         - name: "LPWSPGETSOCKNAME"
-          href: https://msdn.microsoft.com/en-us/library/ms742280(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742280(v=vs.85)
         - name: "LPWSPGETSOCKOPT"
-          href: https://msdn.microsoft.com/en-us/library/ms742281(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v%3dvs.85)
         - name: "LPWSPIOCTL"
-          href: https://msdn.microsoft.com/en-us/library/ms742282(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)
         - name: "LPWSPJOINLEAF"
           href: /windows/desktop/api/Ws2spi/nc-ws2spi-lpwspjoinleaf
         - name: "LPWSPLISTEN"
-          href: https://msdn.microsoft.com/en-us/library/ms742284(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)
         - name: "LPWSPRECV"
-          href: https://msdn.microsoft.com/en-us/library/ms742288(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)
         - name: "LPWSPRECVDISCONNECT"
-          href: https://msdn.microsoft.com/en-us/library/ms742285(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742285(v=vs.85)
         - name: "LPWSPRECVFROM"
-          href: https://msdn.microsoft.com/en-us/library/ms742287(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)
         - name: "LPWSPSELECT"
-          href: https://msdn.microsoft.com/en-us/library/ms742289(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)
         - name: "LPWSPSEND"
-          href: https://msdn.microsoft.com/en-us/library/ms742292(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)
         - name: "LPWSPSENDDISCONNECT"
-          href: https://msdn.microsoft.com/en-us/library/ms742290(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742290(v=vs.85)
         - name: "LPWSPSENDTO"
-          href: https://msdn.microsoft.com/en-us/library/ms742291(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742291(v=vs.85)
         - name: "LPWSPSETSOCKOPT"
-          href: https://msdn.microsoft.com/en-us/library/ms742293(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)
         - name: "LPWSPSHUTDOWN"
-          href: https://msdn.microsoft.com/en-us/library/ms742294(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742294(v=vs.85)
         - name: "LPWSPSOCKET"
           href: /windows/desktop/api/Ws2spi/nc-ws2spi-lpwspsocket
         - name: "WSPStartup"

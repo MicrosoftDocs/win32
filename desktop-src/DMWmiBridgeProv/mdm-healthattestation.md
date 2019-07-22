@@ -77,7 +77,7 @@ The **MDM\_HealthAttestation** class has these properties.
 
 <dl> <dt>
 
-[Certificate](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/healthattestation-csp#certificate)
+[Certificate](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Qualifiers: **Octetstring**
 
 </dd> <dt>
 
-[CorrelationID](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/healthattestation-csp#correlationid)
+[CorrelationID](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -115,7 +115,7 @@ TBD
 
 </dd> <dt>
 
-[ForceRetrieve](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/healthattestation-csp#forceretrieve)
+[ForceRetrieve](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -126,7 +126,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HASEndpoint](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/healthattestation-csp#)
+[HASEndpoint](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -146,7 +146,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "HealthAttestation".
@@ -166,7 +166,7 @@ TBD
 
 </dd> <dt>
 
-[Nonce](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/healthattestation-csp#nonce)
+[Nonce](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -186,7 +186,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/"
@@ -206,7 +206,7 @@ TBD
 
 </dd> <dt>
 
-[Status](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/healthattestation-csp#status)
+[Status](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -217,7 +217,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TpmReadyStatus](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/healthattestation-csp#tpmreadystatus)
+[TpmReadyStatus](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -246,7 +246,7 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
+[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

@@ -48,7 +48,7 @@ If the operation fails, the return value is zero.
 
 When an edit control has the [**ES\_READONLY**](edit-control-styles.md) style, the user cannot change the text within the edit control.
 
-To determine whether an edit control has the [**ES\_READONLY**](edit-control-styles.md) style, use the [**GetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633584) function with the GWL\_STYLE flag.
+To determine whether an edit control has the [**ES\_READONLY**](edit-control-styles.md) style, use the [**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga) function with the GWL\_STYLE flag.
 
 **Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
@@ -68,7 +68,7 @@ To determine whether an edit control has the [**ES\_READONLY**](edit-control-sty
 
 <dl> <dt>
 
-[**GetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633584)
+[**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga)
 </dt> </dl>
 
  

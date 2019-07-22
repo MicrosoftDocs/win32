@@ -119,7 +119,7 @@
           href: iautomaticupdates2-methods.md
           items: 
           - name: "Results Method"
-            href: https://msdn.microsoft.com/library/Bb513699(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/bb513699(v=vs.85)
       - name: "IAutomaticUpdatesResults"
         href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatesresults
         items: 
@@ -221,7 +221,7 @@
           - name: "Invoke Method"
             href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadcompletedcallback-invoke
       - name: "IDownloadCompletedCallbackArgs"
-        href: https://msdn.microsoft.com/library/Aa385859(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/aa385859(v=vs.85)
       - name: "IDownloadJob"
         href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadjob
         items: 
@@ -343,7 +343,7 @@
           - name: "Invoke Method"
             href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationcompletedcallback-invoke
       - name: "IInstallationCompletedCallbackArgs"
-        href: https://msdn.microsoft.com/library/Aa385908(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/aa385908(v=vs.85)
       - name: "IInstallationJob"
         href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationjob
         items: 
@@ -432,7 +432,7 @@
           - name: "Invoke Method"
             href: /windows/desktop/api/Wuapi/nf-wuapi-isearchcompletedcallback-invoke
       - name: "ISearchCompletedCallbackArgs"
-        href: https://msdn.microsoft.com/library/Aa386067(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/aa386067(v=vs.85)
       - name: "ISearchJob"
         href: /windows/desktop/api/Wuapi/nn-wuapi-isearchjob
         items: 
@@ -816,7 +816,7 @@
           - name: "Title Property"
             href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_title
           - name: "UninstallationNotes Property"
-            href: https://msdn.microsoft.com/library/Aa386478(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationnotes
           - name: "UninstallationSteps Property"
             href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationsteps
           - name: "UnmappedResultCode Property"
@@ -968,7 +968,7 @@
           href: iupdatesearcher3-properties.md
           items: 
           - name: "SearchScope Method"
-            href: https://msdn.microsoft.com/library/Ee694850(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/ee694850(v=vs.85)
       - name: "IUpdateService"
         href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservice
         items: 
@@ -1043,7 +1043,7 @@
           href: iupdateservicemanager-properties.md
           items: 
           - name: "Services Property"
-            href: https://msdn.microsoft.com/library/Aa386831(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-get_services
       - name: "IUpdateServiceManager2"
         href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager2
         items: 

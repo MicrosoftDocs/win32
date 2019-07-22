@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Extra Buffers Returned by Schannel
 
-Information must be sent between the client and server while a [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) is being established and afterward because secure messages are exchanged by using the encryption and decryption features provided by Schannel. The following functions are used to accomplish these tasks:
+Information must be sent between the client and server while a [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) is being established and afterward because secure messages are exchanged by using the encryption and decryption features provided by Schannel. The following functions are used to accomplish these tasks:
 
 -   [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa374703(v=VS.85).aspx)
 -   [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx)

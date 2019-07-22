@@ -152,7 +152,7 @@ The following code example illustrates the use of a custom template in a **Group
 [Group control](windowsribbon-controls-group.md)
 </dt> <dt>
 
-[**SetModes**](https://msdn.microsoft.com/library/windows/desktop/dd371476)
+[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  

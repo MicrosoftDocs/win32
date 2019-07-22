@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **CreateFontIndirect** function. This function may be altered or unavailable in the future. Applications should call **CreateFontIndirect** directly.\]
 
-Creates a logical font. See [**CreateFontIndirect**](https://msdn.microsoft.com/library/windows/desktop/dd183500).
+Creates a logical font. See [**CreateFontIndirect**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta).
 
 ## Syntax
 
@@ -53,7 +53,7 @@ HFONT _CreateFontIndirect(
 
 <dl> <dt>
 
-[**CreateFontIndirect**](https://msdn.microsoft.com/library/windows/desktop/dd183500)
+[**CreateFontIndirect**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta)
 </dt> </dl>
 
  

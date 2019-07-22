@@ -112,7 +112,7 @@ After appending an end segment, you cannot append any other segments to the anim
 
 Windows Animation Manager (Windows Animation) outputs animation primitives in a format that is compatible with the DirectComposition API. This means that DirectComposition can create animations based on animation primitives created by Windows Animation.
 
-For more information, see [Windows Animation Manager](https://msdn.microsoft.com/library/windows/desktop/dd371981), the [**IUIAnimationVariable2::GetCurve**](https://msdn.microsoft.com/library/windows/desktop/hh448634) method, and [Managing DirectComposition Animation with Windows Animation Manager v2](https://go.microsoft.com/fwlink/p/?linkid=231195).
+For more information, see [Windows Animation Manager](https://docs.microsoft.com/windows/desktop/UIAnimation/-main-portal), the [**IUIAnimationVariable2::GetCurve**](https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) method, and [Managing DirectComposition Animation with Windows Animation Manager v2](https://go.microsoft.com/fwlink/p/?linkid=231195).
 
 ## Related topics
 

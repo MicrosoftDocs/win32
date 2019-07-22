@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the Bitmap class. For a complete class listing, see Bitmap Class.
 ms.assetid: e8768602-7ea2-42c2-b2ae-9ef1d7bdd30e
 title: Bitmap Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

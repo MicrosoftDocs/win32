@@ -290,7 +290,7 @@
       - name: "UI_COLLECTIONCHANGE"
         href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_collectionchange
       - name: "UI_COMMANDCATEGORY"
-        href: https://msdn.microsoft.com/en-us/library/Hh448736(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448736(v=vs.85)
       - name: "UI_COMMANDTYPE"
         href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_commandtype
       - name: "UI_CONTEXTAVAILABILITY"
@@ -378,7 +378,7 @@
         href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuieventlogger
         items: 
         - name: "OnUIEvent"
-          href: https://msdn.microsoft.com/en-us/library/Hh973493(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent
       - name: "IUIFramework"
         href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiframework
         items: 
@@ -428,9 +428,9 @@
       href: windowsribbon-reference-objects.md
       items: 
       - name: "UIRibbonFramework"
-        href: https://msdn.microsoft.com/en-us/library/Dd742706(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd742706(v=vs.85)
       - name: "UIRibbonImageFromBitmapFactory"
-        href: https://msdn.microsoft.com/en-us/library/Dd742707(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd742707(v=vs.85)
     - name: "Property Keys"
       href: windowsribbon-reference-properties.md
       items: 

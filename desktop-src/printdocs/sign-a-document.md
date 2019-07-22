@@ -124,7 +124,7 @@ The following code example illustrates how to use the preceding steps in a progr
 **Used in This Section**
 </dt> <dt>
 
-[**CertFreeCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376075)
+[**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext)
 </dt> <dt>
 
 [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager)
@@ -154,10 +154,10 @@ The following code example illustrates how to use the preceding steps in a progr
 **For More Information**
 </dt> <dt>
 
-[Cryptography API](https://msdn.microsoft.com/library/windows/desktop/aa380255)
+[Cryptography API](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[Cryptography Functions](https://msdn.microsoft.com/library/windows/desktop/aa380252)
+[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
 [Load a Certificate From a File](load-a-certificate-from-a-file.md)

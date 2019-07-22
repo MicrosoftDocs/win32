@@ -162,8 +162,8 @@ Providing programmatic access to the UI is essential so that assistive technolog
 
 Do this well by:
 
--   Enabling programmatic access to all UI elements and text (for example, using the Active Accessibility COM interface, [**IAccessible**](https://msdn.microsoft.com/library/windows/desktop/dd318466)).
--   Placing names (or titles) and descriptions on UI objects, frames, and pages (for example, using the [**IAccessible**](https://msdn.microsoft.com/library/windows/desktop/dd318466) Name property).
+-   Enabling programmatic access to all UI elements and text (for example, using the Active Accessibility COM interface, [**IAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible)).
+-   Placing names (or titles) and descriptions on UI objects, frames, and pages (for example, using the [**IAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible) Name property).
 -   Ensuring programmatic events are triggered by all UI activities (for example, focus events for all UI activities involving focus movement).
 
 **If you do only four things...**

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Direct2D Quickstart for Windows 8
 
-Direct2D is a native-code, immediate-mode API for creating 2D graphics. This topic illustrates how to use Direct2D to draw to a [**Windows::UI::Core::CoreWindow**](https://msdn.microsoft.com/library/windows/apps/br208225).
+Direct2D is a native-code, immediate-mode API for creating 2D graphics. This topic illustrates how to use Direct2D to draw to a [**Windows::UI::Core::CoreWindow**](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow).
 
 This topic contains the following sections:
 
@@ -24,7 +24,7 @@ This topic contains the following sections:
 
 ## Drawing a Simple Rectangle
 
-To draw a rectangle using [GDI](https://msdn.microsoft.com/library/windows/desktop/dd145203), you could handle the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message, as shown in the following code.
+To draw a rectangle using [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi), you could handle the [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, as shown in the following code.
 
 
 ```C++
@@ -86,7 +86,7 @@ In addition to the headers required for the application, include the d2d1.h and 
 
 ## Step 2: Create an ID2D1Factory1
 
-One of the first things that any Direct2D example does is create an [**ID2D1Factory1**](https://msdn.microsoft.com/library/windows/desktop/hh404596).
+One of the first things that any Direct2D example does is create an [**ID2D1Factory1**](https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1).
 
 
 ```C++
@@ -102,7 +102,7 @@ DX::ThrowIfFailed(
 
 
 
-The [**ID2D1Factory1**](https://msdn.microsoft.com/library/windows/desktop/hh404596) interface is the starting point for using Direct2D; use an **ID2D1Factory1** to create Direct2D resources.
+The [**ID2D1Factory1**](https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1) interface is the starting point for using Direct2D; use an **ID2D1Factory1** to create Direct2D resources.
 
 When you create a factory, you can specify whether it is multi- or single-threaded. (For more information about multi-threaded factories, see the remarks on the [**ID2D1Factory reference page**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx).) This example creates a single-threaded factory.
 
@@ -110,7 +110,7 @@ In general, your application should create the factory once and retain it for th
 
 ## Step 3: Create an ID2D1Device and an ID2D1DeviceContext
 
-After you create a factory, use it to create a Direct2D device and then use the device to create a Direct2D device context. In order to create these Direct2D objects, you must have a [**Direct3D 11 device**](https://msdn.microsoft.com/library/windows/desktop/ff476379) , a [**DXGI device**](https://msdn.microsoft.com/library/windows/desktop/bb174527), and a [**DXGI swap chain**](https://msdn.microsoft.com/library/windows/desktop/hh404631). See [Devices and Device Contexts](devices-and-device-contexts.md) for info on creating the necessary prerequisites.
+After you create a factory, use it to create a Direct2D device and then use the device to create a Direct2D device context. In order to create these Direct2D objects, you must have a [**Direct3D 11 device**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device) , a [**DXGI device**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice), and a [**DXGI swap chain**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1). See [Devices and Device Contexts](devices-and-device-contexts.md) for info on creating the necessary prerequisites.
 
 
 ```C++
@@ -138,7 +138,7 @@ After you create a factory, use it to create a Direct2D device and then use the 
 
 A device context is a device that can perform drawing operations and create device-dependent drawing resources such as brushes. You also use the device context to link a [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) to a DXGI surface to use as a render target. The device context can render to different types of targets.
 
-The code here declares the properties for bitmap that links to a DXGI swap chain that renders to a [**CoreWindow**](https://msdn.microsoft.com/library/windows/apps/br208225). The [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](https://msdn.microsoft.com/en-us/library/Hh404482(v=VS.85).aspx) method gets a Direct2D surface from the DXGI surface. This makes it so anything rendered to the target [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) is rendered to the surface of the swap chain.
+The code here declares the properties for bitmap that links to a DXGI swap chain that renders to a [**CoreWindow**](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow). The [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](https://msdn.microsoft.com/en-us/library/Hh404482(v=VS.85).aspx) method gets a Direct2D surface from the DXGI surface. This makes it so anything rendered to the target [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) is rendered to the surface of the swap chain.
 
 Once you have the Direct2D surface, use the [**ID2D1DeviceContext::SetTarget**](https://msdn.microsoft.com/en-us/library/Hh404533(v=VS.85).aspx) method to set it as the active render target.
 
@@ -233,7 +233,7 @@ The [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.8
 
 You must call the [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method before issuing any drawing commands, and you must call the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method after you've finished issuing drawing commands. The **EndDraw** method returns an **HRESULT** that indicates whether the drawing commands were successful. If it is not successful, the ThrowIfFailed helper function will throw an exception.
 
-The [**IDXGISwapChain::Present**](https://msdn.microsoft.com/library/windows/desktop/bb174576) method swaps the buffer surface with the on screen surface to display the result.
+The [**IDXGISwapChain::Present**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present) method swaps the buffer surface with the on screen surface to display the result.
 
 ## Example code
 

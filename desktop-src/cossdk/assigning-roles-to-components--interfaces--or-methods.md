@@ -2,7 +2,7 @@
 Description: Assigning Roles to Components, Interfaces, or Methods
 ms.assetid: 687d5692-4a83-4de8-b99d-859aaaddd16d
 title: Assigning Roles to Components, Interfaces, or Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

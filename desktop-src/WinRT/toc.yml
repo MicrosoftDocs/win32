@@ -11,9 +11,9 @@
     - name: "HSTRING_BUFFER"
       href: hstring-buffer.md
     - name: "PINSPECT_HSTRING_CALLBACK"
-      href: https://msdn.microsoft.com/en-us/library/JJ219265(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nc-winstring-pinspect_hstring_callback
     - name: "PINSPECT_MEMORY_CALLBACK"
-      href: https://msdn.microsoft.com/en-us/library/Dn302147(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nc-roerrorapi-pinspect_memory_callback
     - name: "RO_REGISTRATION_COOKIE"
       href: ro-registration-cookie.md
   - name: "Enumerations"
@@ -28,35 +28,35 @@
     - name: "HANDLE_SHARING_OPTIONS"
       href: /windows/desktop/api/windowsstoragecom/ne-windowsstoragecom-handle_sharing_options
     - name: "ActivationType"
-      href: https://msdn.microsoft.com/en-us/library/Dn408447(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-activationtype
     - name: "AgileReferenceOptions"
       href: /windows/desktop/api/combaseapi/ne-combaseapi-agilereferenceoptions
     - name: "BSOS_OPTIONS"
-      href: https://msdn.microsoft.com/en-us/library/Hh846254(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shcore/ne-shcore-bsos_options
     - name: "AsyncStatus"
-      href: https://msdn.microsoft.com/en-us/library/BR205767(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/asyncinfo/ne-asyncinfo-asyncstatus
     - name: "ErrorOptions"
-      href: https://msdn.microsoft.com/en-us/library/Hh438361(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438361(v=vs.85)
     - name: "IdentityType"
-      href: https://msdn.microsoft.com/en-us/library/Dn408454(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-identitytype
     - name: "InputStreamOptions"
-      href: https://msdn.microsoft.com/en-us/library/Hh438389(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438389(v=vs.85)
     - name: "InstancingType"
-      href: https://msdn.microsoft.com/en-us/library/Dn408469(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-instancingtype
     - name: "PropertyType"
-      href: https://msdn.microsoft.com/en-us/library/BR224615(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ne-windows-foundation-propertytype
     - name: "RegisteredTrustLevel"
       href: registeredtrustlevel.md
     - name: "RegistrationScope"
-      href: https://msdn.microsoft.com/en-us/library/Dn408471(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-registrationscope
     - name: "ThreadingType"
-      href: https://msdn.microsoft.com/en-us/library/Dn408472(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-threadingtype
     - name: "TrustLevel"
-      href: https://msdn.microsoft.com/en-us/library/BR224625(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/inspectable/ne-inspectable-trustlevel
     - name: "RO_INIT_TYPE"
-      href: https://msdn.microsoft.com/en-us/library/BR224661(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-ro_init_type
     - name: "RO_ERROR_REPORTING_FLAGS"
-      href: https://msdn.microsoft.com/en-us/library/BR224647(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags
   - name: "Functions"
     href: functions.md
     items: 
@@ -75,15 +75,15 @@
     - name: "CreateDirect3DSurface"
       href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface
     - name: "CreateRandomAccessStreamOnFile"
-      href: https://msdn.microsoft.com/en-us/library/Hh846256(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamonfile
     - name: "CreateRandomAccessStreamOverStream"
-      href: https://msdn.microsoft.com/en-us/library/Hh846257(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamoverstream
     - name: "CreateStreamOverRandomAccessStream"
-      href: https://msdn.microsoft.com/en-us/library/Hh846258(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream
     - name: "CreateXamlUIPresenter"
       href: createxamluipresenter.md
     - name: "DbgRaiseAssertionFailure"
-      href: https://msdn.microsoft.com/en-us/library/JJ635749(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//jj635749(v=vs.85)
     - name: "GetDXGIInterface(IDirect3DDevice^, DXGI_TYPE**)"
       href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface
     - name: "GetDXGIInterface(IDirect3DSurface^, DXGI_TYPE**)"
@@ -91,164 +91,164 @@
     - name: "GetDXGIInterfaceFromObject"
       href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterfacefromobject
     - name: "GetRestrictedErrorInfo"
-      href: https://msdn.microsoft.com/en-us/library/JJ219013(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-getrestrictederrorinfo
     - name: "HSTRING_UserFree"
-      href: https://msdn.microsoft.com/en-us/library/Hh846259(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userfree
     - name: "HSTRING_UserFree64"
-      href: https://msdn.microsoft.com/en-us/library/Hh846260(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userfree64
     - name: "HSTRING_UserMarshal"
-      href: https://msdn.microsoft.com/en-us/library/Hh846261(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usermarshal
     - name: "HSTRING_UserMarshal64"
-      href: https://msdn.microsoft.com/en-us/library/Hh846262(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usermarshal64
     - name: "HSTRING_UserSize"
-      href: https://msdn.microsoft.com/en-us/library/Hh846263(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usersize
     - name: "HSTRING_UserSize64"
-      href: https://msdn.microsoft.com/en-us/library/Hh846264(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usersize64
     - name: "HSTRING_UserUnmarshal"
-      href: https://msdn.microsoft.com/en-us/library/Hh846265(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userunmarshal
     - name: "HSTRING_UserUnmarshal64"
-      href: https://msdn.microsoft.com/en-us/library/Hh846266(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userunmarshal64
     - name: "IsErrorPropagationEnabled"
-      href: https://msdn.microsoft.com/en-us/library/Dn975143(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-iserrorpropagationenabled
     - name: "DllGetActivationFactory"
-      href: https://msdn.microsoft.com/en-us/library/BR205771(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205771(v=vs.85)
     - name: "MetaDataGetDispenser"
-      href: https://msdn.microsoft.com/en-us/library/BR229853(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadata/nf-rometadata-metadatagetdispenser
     - name: "PdfCreateRenderer"
       href: /windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer
     - name: "PdfRenderParams"
       href: /windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfrenderparams
     - name: "RoActivateInstance"
-      href: https://msdn.microsoft.com/en-us/library/BR224646(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roactivateinstance
     - name: "RoCaptureErrorContext"
-      href: https://msdn.microsoft.com/en-us/library/JJ219014(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext
     - name: "RoClearError"
-      href: https://msdn.microsoft.com/en-us/library/Dn302148(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roclearerror
     - name: "RoFailFastWithErrorContext"
-      href: https://msdn.microsoft.com/en-us/library/JJ219015(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext
     - name: "RoFreeParameterizedTypeExtra"
-      href: https://msdn.microsoft.com/en-us/library/BR229854(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rofreeparameterizedtypeextra
     - name: "RoGetActivatableClassRegistration"
-      href: https://msdn.microsoft.com/en-us/library/BR229855(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration
     - name: "RoGetActivationFactory"
-      href: https://msdn.microsoft.com/en-us/library/BR224648(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory
     - name: "RoGetAgileReference"
       href: /windows/desktop/api/ComBaseApi/nf-combaseapi-rogetagilereference
     - name: "RoGetApartmentIdentifier"
-      href: https://msdn.microsoft.com/en-us/library/JJ219266(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rogetapartmentidentifier
     - name: "RoGetBufferMarshaler"
-      href: https://msdn.microsoft.com/en-us/library/Hh438433(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/robuffer/nf-robuffer-rogetbuffermarshaler
     - name: "RoGetErrorReportingFlags"
-      href: https://msdn.microsoft.com/en-us/library/BR224649(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags
     - name: "RoGetMetaDataFile"
-      href: https://msdn.microsoft.com/en-us/library/BR229856(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile
     - name: "RoGetParameterizedTypeInstanceIID"
-      href: https://msdn.microsoft.com/en-us/library/BR229857(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid
     - name: "RoGetServerActivatableClasses"
-      href: https://msdn.microsoft.com/en-us/library/BR229858(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetserveractivatableclasses
     - name: "RoInitialize"
-      href: https://msdn.microsoft.com/en-us/library/BR224650(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roinitialize
     - name: "RoInspectThreadErrorInfo"
-      href: https://msdn.microsoft.com/en-us/library/Dn302171(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectthreaderrorinfo
     - name: "RoInspectCapturedStackBackTrace"
-      href: https://msdn.microsoft.com/en-us/library/Dn302149(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectcapturedstackbacktrace
     - name: "RoOriginateError"
-      href: https://msdn.microsoft.com/en-us/library/BR224651(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror
     - name: "RoOriginateErrorW"
-      href: https://msdn.microsoft.com/en-us/library/BR224652(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw
     - name: "RoOriginateLanguageException"
-      href: https://msdn.microsoft.com/en-us/library/Dn302172(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception
     - name: "RoParameterizedTypeExtraGetTypeSignature"
-      href: https://msdn.microsoft.com/en-us/library/BR229859(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-roparameterizedtypeextragettypesignature
     - name: "RoParseTypeName"
-      href: https://msdn.microsoft.com/en-us/library/Hh438434(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roparsetypename
     - name: "RoRegisterActivationFactories"
-      href: https://msdn.microsoft.com/en-us/library/BR224653(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisteractivationfactories
     - name: "RoRegisterForApartmentShutdown"
-      href: https://msdn.microsoft.com/en-us/library/JJ219267(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown
     - name: "RoReportUnhandledError"
-      href: https://msdn.microsoft.com/en-us/library/Dn457328(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roreportunhandlederror
     - name: "RoReportFailedDelegate"
-      href: https://msdn.microsoft.com/en-us/library/Dn957499(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roreportfaileddelegate
     - name: "RoResolveNamespace"
-      href: https://msdn.microsoft.com/en-us/library/BR229860(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace
     - name: "RoResolveRestrictedErrorInfoReference"
-      href: https://msdn.microsoft.com/en-us/library/BR229861(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roresolverestrictederrorinforeference
     - name: "RoRevokeActivationFactories"
-      href: https://msdn.microsoft.com/en-us/library/BR224655(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rorevokeactivationfactories
     - name: "RoSetErrorReportingFlags"
-      href: https://msdn.microsoft.com/en-us/library/BR224657(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags
     - name: "RoTransformError"
-      href: https://msdn.microsoft.com/en-us/library/BR224658(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror
     - name: "RoTransformErrorW"
-      href: https://msdn.microsoft.com/en-us/library/BR224659(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerrorw
     - name: "RoUninitialize"
-      href: https://msdn.microsoft.com/en-us/library/BR224660(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rouninitialize
     - name: "RoUnregisterForApartmentShutdown"
-      href: https://msdn.microsoft.com/en-us/library/JJ219268(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rounregisterforapartmentshutdown
     - name: "SetRestrictedErrorInfo"
-      href: https://msdn.microsoft.com/en-us/library/JJ219016(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo
     - name: "WindowsCompareStringOrdinal"
-      href: https://msdn.microsoft.com/en-us/library/BR224628(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscomparestringordinal
     - name: "WindowsConcatString"
-      href: https://msdn.microsoft.com/en-us/library/BR224629(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsconcatstring
     - name: "WindowsCreateString"
-      href: https://msdn.microsoft.com/en-us/library/BR224630(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestring
     - name: "WindowsCreateStringReference"
-      href: https://msdn.microsoft.com/en-us/library/BR224631(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference
     - name: "WindowsDeleteString"
-      href: https://msdn.microsoft.com/en-us/library/BR224632(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring
     - name: "WindowsDeleteStringBuffer"
-      href: https://msdn.microsoft.com/en-us/library/BR224633(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer
     - name: "WindowsDuplicateString"
-      href: https://msdn.microsoft.com/en-us/library/BR224634(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsduplicatestring
     - name: "WindowsGetStringLen"
-      href: https://msdn.microsoft.com/en-us/library/BR224635(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsgetstringlen
     - name: "WindowsGetStringRawBuffer"
-      href: https://msdn.microsoft.com/en-us/library/BR224636(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsgetstringrawbuffer
     - name: "WindowsInspectString"
-      href: https://msdn.microsoft.com/en-us/library/Hh438435(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsinspectstring
     - name: "WindowsInspectString2"
-      href: https://msdn.microsoft.com/en-us/library/Mt829377(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsinspectstring2
     - name: "WindowsIsStringEmpty"
-      href: https://msdn.microsoft.com/en-us/library/BR224637(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsisstringempty
     - name: "WindowsPreallocateStringBuffer"
-      href: https://msdn.microsoft.com/en-us/library/BR224638(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer
     - name: "WindowsPromoteStringBuffer"
-      href: https://msdn.microsoft.com/en-us/library/BR224639(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer
     - name: "WindowsReplaceString"
-      href: https://msdn.microsoft.com/en-us/library/BR224640(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsreplacestring
     - name: "WindowsStringHasEmbeddedNull"
-      href: https://msdn.microsoft.com/en-us/library/BR224641(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsstringhasembeddednull
     - name: "WindowsSubstring"
-      href: https://msdn.microsoft.com/en-us/library/BR224642(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowssubstring
     - name: "WindowsSubstringWithSpecifiedLength"
-      href: https://msdn.microsoft.com/en-us/library/BR224643(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowssubstringwithspecifiedlength
     - name: "WindowsTrimStringEnd"
-      href: https://msdn.microsoft.com/en-us/library/BR224644(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowstrimstringend
     - name: "WindowsTrimStringStart"
-      href: https://msdn.microsoft.com/en-us/library/BR224645(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowstrimstringstart
   - name: "Interfaces"
     href: interfaces.md
     items: 
     - name: "IActivatableClassRegistration"
-      href: https://msdn.microsoft.com/en-us/library/Dn408448(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration
       items: 
       - name: "ActivatableClassId method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408449(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activatableclassid
       - name: "ActivationType method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408450(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activationtype
       - name: "Attributes method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408451(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_attributes
       - name: "RegisteredTrustLevel method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408452(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registeredtrustlevel
       - name: "RegistrationScope method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408453(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registrationscope
     - name: "IActivationFactory"
-      href: https://msdn.microsoft.com/en-us/library/BR205779(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activation/nn-activation-iactivationfactory
       items: 
       - name: "ActivateInstance method"
-        href: https://msdn.microsoft.com/en-us/library/BR205780(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance
     - name: "IAgileReference"
       href: /windows/desktop/api/objidl/nn-objidl-iagilereference
       items: 
@@ -265,7 +265,7 @@
       - name: "Invoke method"
         href: asyncactioncompletedhandler-invoke.md
     - name: "IAsyncAction"
-      href: https://msdn.microsoft.com/en-us/library/BR205781(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-iasyncaction
       items: 
       - name: "get_Completed method"
         href: iasyncaction-get-completed.md
@@ -274,75 +274,75 @@
       - name: "GetResults method"
         href: iasyncaction-getresults.md
     - name: "IAsyncActionProgressHandler<TProgress>"
-      href: https://msdn.microsoft.com/en-us/library/BR205782(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205782(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/BR205783(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205783(v=vs.85)
     - name: "IAsyncActionWithProgress<TProgress>"
-      href: https://msdn.microsoft.com/en-us/library/BR205784(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205784(v=vs.85)
       items: 
       - name: "get_Completed method"
-        href: https://msdn.microsoft.com/en-us/library/BR205788(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205788(v=vs.85)
       - name: "put_Completed method"
-        href: https://msdn.microsoft.com/en-us/library/BR205790(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205790(v=vs.85)
       - name: "get_Progress method"
-        href: https://msdn.microsoft.com/en-us/library/BR205789(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205789(v=vs.85)
       - name: "put_Progress method"
-        href: https://msdn.microsoft.com/en-us/library/BR205791(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205791(v=vs.85)
       - name: "GetResults method"
-        href: https://msdn.microsoft.com/en-us/library/BR205787(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205787(v=vs.85)
     - name: "IAsyncActionWithProgressCompletedHandler<TProgress>"
-      href: https://msdn.microsoft.com/en-us/library/BR205785(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205785(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/BR205786(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205786(v=vs.85)
     - name: "IAsyncInfo"
-      href: https://msdn.microsoft.com/en-us/library/BR205795(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/asyncinfo/nn-asyncinfo-iasyncinfo
       items: 
       - name: "Cancel method"
-        href: https://msdn.microsoft.com/en-us/library/BR205796(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-cancel
       - name: "Close method"
-        href: https://msdn.microsoft.com/en-us/library/BR205797(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-close
       - name: "ErrorCode property"
-        href: https://msdn.microsoft.com/en-us/library/BR205798(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_errorcode
       - name: "Id property"
-        href: https://msdn.microsoft.com/en-us/library/BR205799(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_id
       - name: "Status property"
-        href: https://msdn.microsoft.com/en-us/library/Dn600248(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_status
     - name: "IAsyncOperation<TResult>"
-      href: https://msdn.microsoft.com/en-us/library/BR205802(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205802(v=vs.85)
       items: 
       - name: "get_Completed method"
-        href: https://msdn.microsoft.com/en-us/library/BR205816(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205816(v=vs.85)
       - name: "put_Completed method"
-        href: https://msdn.microsoft.com/en-us/library/BR205817(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205817(v=vs.85)
       - name: "GetResults method"
-        href: https://msdn.microsoft.com/en-us/library/BR205815(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205815(v=vs.85)
     - name: "IAsyncOperationCompletedHandler<TResult>"
-      href: https://msdn.microsoft.com/en-us/library/BR205803(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205803(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/BR205804(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205804(v=vs.85)
     - name: "IAsyncOperationProgressHandler"
-      href: https://msdn.microsoft.com/en-us/library/BR205805(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205805(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/BR205806(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205806(v=vs.85)
     - name: "IAsyncOperationWithProgress"
-      href: https://msdn.microsoft.com/en-us/library/BR205807(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205807(v=vs.85)
       items: 
       - name: "get_Completed method"
-        href: https://msdn.microsoft.com/en-us/library/BR205811(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205811(v=vs.85)
       - name: "put_Completed method"
-        href: https://msdn.microsoft.com/en-us/library/BR205813(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205813(v=vs.85)
       - name: "get_Progress method"
-        href: https://msdn.microsoft.com/en-us/library/BR205812(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205812(v=vs.85)
       - name: "put_Progress method"
-        href: https://msdn.microsoft.com/en-us/library/BR205814(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205814(v=vs.85)
       - name: "GetResults method"
-        href: https://msdn.microsoft.com/en-us/library/BR205810(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205810(v=vs.85)
     - name: "IAsyncOperationWithProgressCompletedHandler<TResult, TProgress>"
-      href: https://msdn.microsoft.com/en-us/library/BR205808(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205808(v=vs.85)
       items: 
       - name: "Invoke method"
         href: iasyncoperationwithprogresscompletedhandler-invoke.md
@@ -357,72 +357,72 @@
       - name: "CreateFromMFSample method"
         href: /windows/desktop/api/windows.media.core.interop/nf-windows-media-core-interop-iaudioframenativefactory-createfrommfsample
     - name: "IBuffer"
-      href: https://msdn.microsoft.com/en-us/library/Hh438362(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438362(v=vs.85)
       items: 
       - name: "Capacity property"
-        href: https://msdn.microsoft.com/en-us/library/Hh438363(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438363(v=vs.85)
       - name: "Length property"
-        href: https://msdn.microsoft.com/en-us/library/Hh438364(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438364(v=vs.85)
     - name: "IBufferByteAccess"
-      href: https://msdn.microsoft.com/en-us/library/Hh846267(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh846267(v=vs.85)
       items: 
       - name: "Buffer method"
-        href: https://msdn.microsoft.com/en-us/library/Hh846268(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh846268(v=vs.85)
     - name: "IClosable"
-      href: https://msdn.microsoft.com/en-us/library/Hh846269(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-iclosable
       items: 
       - name: "Close method"
-        href: https://msdn.microsoft.com/en-us/library/Hh846270(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close
     - name: "IContactManagerInterop"
-      href: https://msdn.microsoft.com/en-us/library/Dn302109(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//dn302109(v=vs.85)
       items: 
       - name: "ShowContactCardForWindow method"
-        href: https://msdn.microsoft.com/en-us/library/Dn302110(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn302110(v=vs.85)
     - name: "ICoreApplication"
-      href: https://msdn.microsoft.com/en-us/library/Hh438365(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438365(v=vs.85)
       items: 
       - name: "add_Resuming method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438375(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438375(v=vs.85)
       - name: "remove_Resuming method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438380(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438380(v=vs.85)
       - name: "add_Suspending method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438376(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438376(v=vs.85)
       - name: "remove_Suspending method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438381(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438381(v=vs.85)
       - name: "get_ID method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438378(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438378(v=vs.85)
       - name: "get_Properties method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438379(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438379(v=vs.85)
       - name: "GetCurrentView method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438377(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438377(v=vs.85)
     - name: "ICoreApplicationExit"
-      href: https://msdn.microsoft.com/en-us/library/Hh438366(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438366(v=vs.85)
       items: 
       - name: "add_Exiting method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438367(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438367(v=vs.85)
       - name: "remove_Exiting method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438369(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438369(v=vs.85)
       - name: "Exit method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438368(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438368(v=vs.85)
     - name: "ICoreApplicationInitialization"
-      href: https://msdn.microsoft.com/en-us/library/Hh438370(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438370(v=vs.85)
       items: 
       - name: "Run method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438371(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438371(v=vs.85)
     - name: "ICoreApplicationView"
-      href: https://msdn.microsoft.com/en-us/library/Hh438372(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438372(v=vs.85)
       items: 
       - name: "Activated event"
         href: icoreapplicationview-activated.md
       - name: "CoreWindow property"
-        href: https://msdn.microsoft.com/en-us/library/Hh438374(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438374(v=vs.85)
     - name: "ICoreImmersiveApplication"
-      href: https://msdn.microsoft.com/en-us/library/Hh438382(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438382(v=vs.85)
       items: 
       - name: "get_Views method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438384(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438384(v=vs.85)
       - name: "CreateNewView method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438383(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438383(v=vs.85)
     - name: "ICoreInputInterop"
       href: /windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop
       items: 
@@ -443,93 +443,93 @@
       - name: "GetInterface"
         href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess-getinterface
     - name: "IDllServerActivatableClassRegistration"
-      href: https://msdn.microsoft.com/en-us/library/Dn408455(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration
       items: 
       - name: "DllPath method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408456(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_dllpath
       - name: "ThreadingType method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408457(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_threadingtype
     - name: "IErrorReportingSettings"
-      href: https://msdn.microsoft.com/en-us/library/BR205818(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205818(v=vs.85)
       items: 
       - name: "GetErrorOptions method"
-        href: https://msdn.microsoft.com/en-us/library/BR205819(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205819(v=vs.85)
       - name: "SetErrorOptions method"
-        href: https://msdn.microsoft.com/en-us/library/BR205820(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205820(v=vs.85)
     - name: "IEventHandler<T>"
-      href: https://msdn.microsoft.com/en-us/library/Hh438385(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438385(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438386(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438386(v=vs.85)
     - name: "IExeServerActivatableClassRegistration"
-      href: https://msdn.microsoft.com/en-us/library/Dn408458(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration
       items: 
       - name: "ServerRegistration method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408459(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserveractivatableclassregistration-get_serverregistration
     - name: "IExeServerRegistration"
-      href: https://msdn.microsoft.com/en-us/library/Dn408460(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iexeserverregistration
       items: 
       - name: "ServerName method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408468(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_servername
       - name: "ExePath method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408463(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_exepath
       - name: "CommandLine method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408462(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_commandline
       - name: "AppUserModelId method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408461(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_appusermodelid
       - name: "IdentityType method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408465(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identitytype
       - name: "Identity method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408464(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identity
       - name: "Instancing method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408466(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_instancing
       - name: "Permissions method"
-        href: https://msdn.microsoft.com/en-us/library/Dn408467(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_permissions
     - name: "IFindReferenceTargetsCallback"
-      href: https://msdn.microsoft.com/en-us/library/JJ542493(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback
       items: 
       - name: "FoundTrackerTarget Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542494(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget
     - name: "IInputPaneInterop"
       href: /windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop
       items: 
       - name: "GetForWindow method"
         href: /windows/desktop/api/inputpaneinterop/nf-inputpaneinterop-iinputpaneinterop-getforwindow
     - name: "IInputStream"
-      href: https://msdn.microsoft.com/en-us/library/Hh438387(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438387(v=vs.85)
       items: 
       - name: "ReadAsync method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438388(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438388(v=vs.85)
     - name: "IInspectable"
-      href: https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable
       items: 
       - name: "GetIids method"
-        href: https://msdn.microsoft.com/en-us/library/BR205822(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getiids
       - name: "GetRuntimeClassName method"
-        href: https://msdn.microsoft.com/en-us/library/BR205823(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname
       - name: "GetTrustLevel method"
-        href: https://msdn.microsoft.com/en-us/library/BR205824(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel
     - name: "IIterable<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR205825(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205825(v=vs.85)
       items: 
       - name: "First method"
-        href: https://msdn.microsoft.com/en-us/library/BR205826(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205826(v=vs.85)
     - name: "IIterator<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR205827(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205827(v=vs.85)
       items: 
       - name: "get_Current method"
-        href: https://msdn.microsoft.com/en-us/library/BR205828(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205828(v=vs.85)
       - name: "get_HasCurrent method"
-        href: https://msdn.microsoft.com/en-us/library/BR205829(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205829(v=vs.85)
       - name: "MoveNext method"
-        href: https://msdn.microsoft.com/en-us/library/BR205830(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205830(v=vs.85)
     - name: "IKeyValuePair<K, V>"
-      href: https://msdn.microsoft.com/en-us/library/BR205831(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205831(v=vs.85)
       items: 
       - name: "get_Key method"
-        href: https://msdn.microsoft.com/en-us/library/BR205832(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205832(v=vs.85)
       - name: "get_Value method"
-        href: https://msdn.microsoft.com/en-us/library/BR205833(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205833(v=vs.85)
     - name: "ILanguageExceptionErrorInfo"
       href: /windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo
       items: 
@@ -555,308 +555,308 @@
       - name: "GetStackBackTrace method"
         href: /windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionstackbacktrace-getstackbacktrace
     - name: "IMap<K, V>"
-      href: https://msdn.microsoft.com/en-us/library/BR205834(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205834(v=vs.85)
       items: 
       - name: "Clear method"
-        href: https://msdn.microsoft.com/en-us/library/BR205843(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205843(v=vs.85)
       - name: "get_Size method"
-        href: https://msdn.microsoft.com/en-us/library/BR205845(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205845(v=vs.85)
       - name: "GetView method"
-        href: https://msdn.microsoft.com/en-us/library/BR205844(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205844(v=vs.85)
       - name: "HasKey method"
-        href: https://msdn.microsoft.com/en-us/library/BR205846(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205846(v=vs.85)
       - name: "Insert method"
-        href: https://msdn.microsoft.com/en-us/library/BR205847(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205847(v=vs.85)
       - name: "Lookup method"
-        href: https://msdn.microsoft.com/en-us/library/BR205848(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205848(v=vs.85)
       - name: "Remove method"
-        href: https://msdn.microsoft.com/en-us/library/BR205849(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205849(v=vs.85)
     - name: "IMapChangedEventArgs<K>"
-      href: https://msdn.microsoft.com/en-us/library/BR205835(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205835(v=vs.85)
       items: 
       - name: "get_CollectionChange method"
-        href: https://msdn.microsoft.com/en-us/library/BR205836(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205836(v=vs.85)
       - name: "get_Key method"
-        href: https://msdn.microsoft.com/en-us/library/BR205837(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205837(v=vs.85)
     - name: "IMapView<K, V>"
-      href: https://msdn.microsoft.com/en-us/library/BR205838(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205838(v=vs.85)
       items: 
       - name: "get_Size method"
-        href: https://msdn.microsoft.com/en-us/library/BR205839(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205839(v=vs.85)
       - name: "HasKey method"
-        href: https://msdn.microsoft.com/en-us/library/BR205840(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205840(v=vs.85)
       - name: "Lookup method"
-        href: https://msdn.microsoft.com/en-us/library/BR205841(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205841(v=vs.85)
       - name: "Split method"
-        href: https://msdn.microsoft.com/en-us/library/BR205842(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205842(v=vs.85)
     - name: "IMemoryBufferByteAccess"
-      href: https://msdn.microsoft.com/en-us/library/Mt297505(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//mt297505(v=vs.85)
       items: 
       - name: "GetBuffer method"
         href: imemorybufferbyteaccess-getbuffer.md
     - name: "IMetaDataAssemblyImport"
-      href: https://msdn.microsoft.com/en-us/library/Hh870550(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport
       items: 
       - name: "CloseEnum Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870551(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-closeenum
       - name: "EnumAssemblyRefs Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870552(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumassemblyrefs
       - name: "EnumExportedTypes Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870553(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumexportedtypes
       - name: "EnumFiles Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870554(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumfiles
       - name: "EnumManifestResources Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870556(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enummanifestresources
       - name: "FindAssembliesByName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870557(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findassembliesbyname
       - name: "FindExportedTypeByName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870558(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findexportedtypebyname
       - name: "FindManifestResourceByName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870559(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findmanifestresourcebyname
       - name: "GetAssemblyFromScope Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870560(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyfromscope
       - name: "GetAssemblyProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870561(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyprops
       - name: "GetAssemblyRefProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870562(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyrefprops
       - name: "GetExportedTypeProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870563(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getexportedtypeprops
       - name: "GetFileProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870564(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getfileprops
       - name: "GetManifestResourceProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870565(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getmanifestresourceprops
     - name: "IMetaDataDispenser"
-      href: https://msdn.microsoft.com/en-us/library/Hh870566(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser
       items: 
       - name: "DefineScope Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870574(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenser-definescope
       - name: "OpenScope Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870575(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenser-openscope
       - name: "OpenScopeOnMemory Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870576(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenser-openscopeonmemory
     - name: "IMetaDataDispenserEx"
-      href: https://msdn.microsoft.com/en-us/library/Hh870567(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex
       items: 
       - name: "FindAssembly Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870568(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-findassembly
       - name: "FindAssemblyModule Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870569(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-findassemblymodule
       - name: "GetCORSystemDirectory Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870570(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-getcorsystemdirectory
       - name: "GetOption Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870571(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-getoption
       - name: "OpenScopeOnITypeInfo Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870572(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-openscopeonitypeinfo
       - name: "SetOption Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870573(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-setoption
     - name: "IMetaDataImport"
-      href: https://msdn.microsoft.com/en-us/library/Hh870577(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport
       items: 
       - name: "CloseEnum Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870587(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-closeenum
       - name: "CountEnum Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870588(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-countenum
       - name: "EnumCustomAttributes Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870589(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumcustomattributes
       - name: "EnumEvents Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870590(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumevents
       - name: "EnumFields Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870591(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfields
       - name: "EnumFieldsWithName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870592(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfieldswithname
       - name: "EnumInterfaceImpls Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870593(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enuminterfaceimpls
       - name: "EnumMemberRefs Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870594(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummemberrefs
       - name: "EnumMembers Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870595(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummembers
       - name: "EnumMembersWithName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870596(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummemberswithname
       - name: "EnumMethodImpls Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870597(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethodimpls
       - name: "EnumMethods Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870598(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethods
       - name: "EnumMethodSemantics Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870599(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethodsemantics
       - name: "EnumMethodsWithName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870600(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethodswithname
       - name: "EnumModuleRefs Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870601(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummodulerefs
       - name: "EnumParams Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870602(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumparams
       - name: "EnumPermissionSets Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870603(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumpermissionsets
       - name: "EnumProperties Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870604(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumproperties
       - name: "EnumSignatures Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870605(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumsignatures
       - name: "EnumTypeDefs Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870606(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypedefs
       - name: "EnumTypeRefs Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870607(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtyperefs
       - name: "EnumTypeSpecs Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870608(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypespecs
       - name: "EnumUnresolvedMethods Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870609(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumunresolvedmethods
       - name: "EnumUserStrings Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870610(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumuserstrings
       - name: "FindMemberRef Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870611(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-findmemberref
       - name: "FindTypeDefByName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870612(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-findtypedefbyname
       - name: "FindTypeRef Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870613(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-findtyperef
       - name: "GetCustomAttributeByName Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870614(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getcustomattributebyname
       - name: "GetCustomAttributeProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870615(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getcustomattributeprops
       - name: "GetFieldMarshal Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870616(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getfieldmarshal
       - name: "GetFieldProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870617(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getfieldprops
       - name: "GetInterfaceImplProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870618(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getinterfaceimplprops
       - name: "GetMemberProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870619(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmemberprops
       - name: "GetMemberRefProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870620(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmemberrefprops
       - name: "GetMethodProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870621(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmethodprops
       - name: "GetMethodSemantics Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870622(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmethodsemantics
       - name: "GetModuleFromScope Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870623(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmodulefromscope
       - name: "GetModuleRefProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870624(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmodulerefprops
       - name: "GetNameFromToken Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870625(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getnamefromtoken
       - name: "GetNativeCallConvFromSig Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870626(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getnativecallconvfromsig
       - name: "GetNestedClassProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870627(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getnestedclassprops
       - name: "GetParamForMethodIndex Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870628(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh870628(v=vs.85)
       - name: "GetParamProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870629(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getparamprops
       - name: "GetPermissionSetProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870630(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getpermissionsetprops
       - name: "GetPinvokeMap Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870631(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getpinvokemap
       - name: "GetRVA Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870632(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getrva
       - name: "GetScopeProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870633(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getscopeprops
       - name: "GetSigFromToken Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870634(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getsigfromtoken
       - name: "GetTypeDefProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870635(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-gettypedefprops
       - name: "GetTypeRefProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870636(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-gettyperefprops
       - name: "GetTypeSpecFromToken Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870637(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-gettypespecfromtoken
       - name: "GetUserString Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870638(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getuserstring
       - name: "IsGlobal Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870639(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-isglobal
       - name: "IsValidToken Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870640(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-isvalidtoken
       - name: "ResetEnum Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870641(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-resetenum
       - name: "ResolveTypeRef Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870642(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-resolvetyperef
     - name: "IMetaDataImport2"
-      href: https://msdn.microsoft.com/en-us/library/Hh870578(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2
       items: 
       - name: "EnumGenericParamConstraints Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870579(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-enumgenericparamconstraints
       - name: "EnumGenericParams Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870580(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-enumgenericparams
       - name: "EnumMethodSpecs Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870581(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-enummethodspecs
       - name: "GetGenericParamConstraintProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870582(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getgenericparamconstraintprops
       - name: "GetGenericParamProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870583(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getgenericparamprops
       - name: "GetMethodSpecProps Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870584(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getmethodspecprops
       - name: "GetPEKind Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870585(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getpekind
       - name: "GetVersionString Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870586(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getversionstring
     - name: "IMetaDataTables"
-      href: https://msdn.microsoft.com/en-us/library/Hh870643(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatatables
       items: 
       - name: "GetBlob Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870647(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getblob
       - name: "GetBlobHeapSize Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870648(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getblobheapsize
       - name: "GetCodedTokenInfo Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870649(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcodedtokeninfo
       - name: "GetColumn Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870650(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumn
       - name: "GetColumnInfo Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870651(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumninfo
       - name: "GetGuid Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870652(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getguid
       - name: "GetGuidHeapSize Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870653(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getguidheapsize
       - name: "GetNextBlob Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870654(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextblob
       - name: "GetNextGuid Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870655(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextguid
       - name: "GetNextString Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870656(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextstring
       - name: "GetNextUserString Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870657(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextuserstring
       - name: "GetNumTables Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870658(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnumtables
       - name: "GetRow Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870659(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getrow
       - name: "GetString Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870660(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getstring
       - name: "GetStringHeapSize Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870661(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getstringheapsize
       - name: "GetTableIndex Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870662(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh870662(v=vs.85)
       - name: "GetTableInfo Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870663(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-gettableinfo
       - name: "GetUserString Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870664(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstring
       - name: "GetUserStringHeapSize Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870665(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstringheapsize
     - name: "IMetaDataTables2"
-      href: https://msdn.microsoft.com/en-us/library/Hh870644(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatatables2
       items: 
       - name: "GetMetaDataStorage Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870645(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastorage
       - name: "GetMetaDataStreamInfo Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh870646(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastreaminfo
     - name: "IObservableMap<K, V>"
-      href: https://msdn.microsoft.com/en-us/library/BR205851(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205851(v=vs.85)
       items: 
       - name: "add_MapChanged method"
-        href: https://msdn.microsoft.com/en-us/library/BR205852(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205852(v=vs.85)
       - name: "remove_MapChanged method"
-        href: https://msdn.microsoft.com/en-us/library/BR205853(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205853(v=vs.85)
     - name: "IObservableVector<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR205854(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br205854(v=vs.85)
       items: 
       - name: "add_VectorChanged method"
-        href: https://msdn.microsoft.com/en-us/library/BR205855(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205855(v=vs.85)
       - name: "remove_VectorChanged method"
-        href: https://msdn.microsoft.com/en-us/library/BR205856(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br205856(v=vs.85)
     - name: "IOplockBreakingHandler"
       href: /windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler
       items: 
       - name: "OplockBreaking method"
         href: /windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-ioplockbreakinghandler-oplockbreaking
     - name: "IOutputStream"
-      href: https://msdn.microsoft.com/en-us/library/Hh438390(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438390(v=vs.85)
       items: 
       - name: "WriteAsync method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438392(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438392(v=vs.85)
       - name: "FlushAsync method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438391(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438391(v=vs.85)
     - name: "IPdfRendererNative"
       href: /windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative
       items: 
@@ -865,38 +865,38 @@
       - name: "RenderPageToSurface method"
         href: /windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface
     - name: "IPackageDebugSettings"
-      href: https://msdn.microsoft.com/en-us/library/Hh438393(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438393(v=vs.85)
       items: 
       - name: "ActivateBackgroundTask method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315019(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315019(v=vs.85)
       - name: "DisableDebugging method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438394(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438394(v=vs.85)
       - name: "EnableDebugging method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438395(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438395(v=vs.85)
       - name: "EnumerateBackgroundTasks method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315020(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315020(v=vs.85)
       - name: "GetPackageExecutionState method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315021(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315021(v=vs.85)
       - name: "RegisterForPackageStateChanges method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315022(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315022(v=vs.85)
       - name: "Resume method"
         href: ipackagedebugsettings-resume.md
       - name: "SetTargetSessionId method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438397(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438397(v=vs.85)
       - name: "StartServicing method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315023(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315023(v=vs.85)
       - name: "StartSessionRedirection method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315024(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315024(v=vs.85)
       - name: "StopServicing method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315025(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315025(v=vs.85)
       - name: "StopSessionRedirection method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315026(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315026(v=vs.85)
       - name: "Suspend method"
         href: ipackagedebugsettings-suspend.md
       - name: "TerminateAllProcesses method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438399(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438399(v=vs.85)
       - name: "UnregisterForPackageStateChanges method"
-        href: https://msdn.microsoft.com/en-us/library/Dn315027(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//dn315027(v=vs.85)
     - name: "IPlayToManagerInterop"
       href: /windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop
       items: 
@@ -912,227 +912,227 @@
       - name: "ShowPrintUIForWindowAsync method"
         href: /windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync
     - name: "IPropertyValue"
-      href: https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue
       items: 
       - name: "GetBoolean method"
-        href: https://msdn.microsoft.com/en-us/library/BR224547(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getboolean
       - name: "GetBooleanArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224548(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getbooleanarray
       - name: "GetChar16 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224549(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getchar16
       - name: "GetChar16Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224550(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getchar16array
       - name: "GetDateTime method"
-        href: https://msdn.microsoft.com/en-us/library/BR224551(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetime
       - name: "GetDateTimeArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224552(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetimearray
       - name: "GetDouble method"
-        href: https://msdn.microsoft.com/en-us/library/BR224553(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdouble
       - name: "GetDoubleArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224554(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdoublearray
       - name: "GetGuid method"
-        href: https://msdn.microsoft.com/en-us/library/BR224556(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getguid
       - name: "GetGuidArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224557(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getguidarray
       - name: "GetInspectableArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224559(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getinspectablearray
       - name: "GetInt32 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224560(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint32
       - name: "GetInt32Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224561(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint32array
       - name: "GetInt64 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224562(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint64
       - name: "GetInt64Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224563(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint64array
       - name: "GetPoint method"
-        href: https://msdn.microsoft.com/en-us/library/BR224564(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpoint
       - name: "GetPointArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224565(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpointarray
       - name: "GetRect method"
-        href: https://msdn.microsoft.com/en-us/library/BR224566(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrect
       - name: "GetRectArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224567(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrectarray
       - name: "GetSingle method"
-        href: https://msdn.microsoft.com/en-us/library/BR224568(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsingle
       - name: "GetSingleArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224569(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsinglearray
       - name: "GetSize method"
-        href: https://msdn.microsoft.com/en-us/library/BR224570(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsize
       - name: "GetSizeArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224571(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsizearray
       - name: "GetString method"
-        href: https://msdn.microsoft.com/en-us/library/BR224572(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getstring
       - name: "GetStringArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224573(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getstringarray
       - name: "GetTimeSpan method"
-        href: https://msdn.microsoft.com/en-us/library/BR224574(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-gettimespan
       - name: "GetTimeSpanArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224575(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-gettimespanarray
       - name: "GetUInt32 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224576(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint32
       - name: "GetUInt32Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224577(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint32array
       - name: "GetUInt64 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224578(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint64
       - name: "GetUInt64Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224579(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint64array
       - name: "GetUInt8 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224580(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8
       - name: "GetUInt8Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224581(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8array
       - name: "Type property"
-        href: https://msdn.microsoft.com/en-us/library/BR224582(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type
     - name: "IPropertyValueStatics"
-      href: https://msdn.microsoft.com/en-us/library/BR224511(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics
       items: 
       - name: "CreateBoolean method"
-        href: https://msdn.microsoft.com/en-us/library/BR224512(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createboolean
       - name: "CreateBooleanArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224513(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createbooleanarray
       - name: "CreateChar16 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224514(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createchar16
       - name: "CreateChar16Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224515(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createchar16array
       - name: "CreateDateTime method"
-        href: https://msdn.microsoft.com/en-us/library/BR224516(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetime
       - name: "CreateDateTimeArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224517(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetimearray
       - name: "CreateDouble method"
-        href: https://msdn.microsoft.com/en-us/library/BR224518(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdouble
       - name: "CreateDoubleArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224519(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdoublearray
       - name: "CreateEmpty method"
-        href: https://msdn.microsoft.com/en-us/library/BR224520(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createempty
       - name: "CreateGuid method"
-        href: https://msdn.microsoft.com/en-us/library/BR224521(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguid
       - name: "CreateGuidArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224522(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguidarray
       - name: "CreateInspectable method"
-        href: https://msdn.microsoft.com/en-us/library/BR224523(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createinspectable
       - name: "CreateInspectableArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224524(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createinspectablearray
       - name: "CreateInt32 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224525(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint32
       - name: "CreateInt32Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224526(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint32array
       - name: "CreateInt64 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224527(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64
       - name: "CreateInt64Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224528(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64array
       - name: "CreatePoint method"
-        href: https://msdn.microsoft.com/en-us/library/BR224529(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpoint
       - name: "CreatePointArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224530(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpointarray
       - name: "CreateRect method"
-        href: https://msdn.microsoft.com/en-us/library/BR224531(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrect
       - name: "CreateRectArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224532(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrectarray
       - name: "CreateSingle method"
-        href: https://msdn.microsoft.com/en-us/library/BR224533(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsingle
       - name: "CreateSingleArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224534(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsinglearray
       - name: "CreateSize method"
-        href: https://msdn.microsoft.com/en-us/library/BR224535(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsize
       - name: "CreateSizeArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224536(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsizearray
       - name: "CreateString method"
-        href: https://msdn.microsoft.com/en-us/library/BR224537(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createstring
       - name: "CreateStringArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224538(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createstringarray
       - name: "CreateTimeSpan method"
-        href: https://msdn.microsoft.com/en-us/library/BR224539(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createtimespan
       - name: "CreateTimeSpanArray method"
-        href: https://msdn.microsoft.com/en-us/library/BR224540(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createtimespanarray
       - name: "CreateUInt32 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224541(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint32
       - name: "CreateUInt32Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224542(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint32array
       - name: "CreateUInt64 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224543(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint64
       - name: "CreateUInt64Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224544(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint64array
       - name: "CreateUInt8 method"
-        href: https://msdn.microsoft.com/en-us/library/BR224545(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint8
       - name: "CreateUInt8Array method"
-        href: https://msdn.microsoft.com/en-us/library/BR224546(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint8array
     - name: "IRandomAccessStream"
-      href: https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)
       items: 
       - name: "GetInputStreamAt method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438401(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438401(v=vs.85)
       - name: "GetOutputStreamAt method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438402(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438402(v=vs.85)
       - name: "Size property"
-        href: https://msdn.microsoft.com/en-us/library/Hh438403(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438403(v=vs.85)
     - name: "IRandomAccessStreamFileAccessMode"
       href: /windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode
       items: 
       - name: "GetMode method"
         href: /windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-irandomaccessstreamfileaccessmode-getmode
     - name: "IReference<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR224583(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br224583(v=vs.85)
       items: 
       - name: "get_Value method"
-        href: https://msdn.microsoft.com/en-us/library/BR224586(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224586(v=vs.85)
     - name: "IReferenceArray<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR224584(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br224584(v=vs.85)
       items: 
       - name: "get_Value method"
-        href: https://msdn.microsoft.com/en-us/library/BR224585(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224585(v=vs.85)
     - name: "IReferenceTracker"
-      href: https://msdn.microsoft.com/en-us/library/JJ542495(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker
       items: 
       - name: "ConnectFromTrackerSource Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542514(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-connectfromtrackersource
       - name: "DisconnectFromTrackerSource Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542515(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-disconnectfromtrackersource
       - name: "FindTrackerTargets Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542516(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets
       - name: "GetReferenceTrackerManager Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542517(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-getreferencetrackermanager
       - name: "AddRefFromTrackerSource Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542513(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-addreffromtrackersource
       - name: "ReleaseFromTrackerSource Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542519(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-releasefromtrackersource
       - name: "PegFromTrackerSource Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542518(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-pegfromtrackersource
     - name: "IReferenceTrackerHost"
-      href: https://msdn.microsoft.com/en-us/library/JJ542496(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost
       items: 
       - name: "DisconnectUnusedReferenceSources Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542498(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-disconnectunusedreferencesources
       - name: "ReleaseDisconnectedReferenceSources Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542501(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-releasedisconnectedreferencesources
       - name: "NotifyEndOfReferenceTrackingOnThread Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542500(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-notifyendofreferencetrackingonthread
       - name: "GetTrackerTarget Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542499(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-gettrackertarget
       - name: "AddMemoryPressure Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542497(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-addmemorypressure
       - name: "RemoveMemoryPressure Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542502(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-removememorypressure
     - name: "IReferenceTrackerManager"
-      href: https://msdn.microsoft.com/en-us/library/JJ542503(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager
       items: 
       - name: "ReferenceTrackingStarted Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542506(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-referencetrackingstarted
       - name: "FindTrackerTargetsCompleted Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542504(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-findtrackertargetscompleted
       - name: "ReferenceTrackingCompleted Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542505(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-referencetrackingcompleted
       - name: "SetReferenceTrackerHost Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542507(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-setreferencetrackerhost
     - name: "IReferenceTrackerTarget"
-      href: https://msdn.microsoft.com/en-us/library/JJ542508(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget
       items: 
       - name: "AddRefFromReferenceTracker Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542509(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-addreffromreferencetracker
       - name: "ReleaseFromReferenceTracker Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542511(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-releasefromreferencetracker
       - name: "Peg Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542510(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-peg
       - name: "Unpeg Method"
-        href: https://msdn.microsoft.com/en-us/library/JJ542512(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-unpeg
     - name: "IRestrictedErrorInfo"
       href: /windows/desktop/api/RestrictedErrorInfo/nn-restrictederrorinfo-irestrictederrorinfo
       items: 
@@ -1163,10 +1163,10 @@
       - name: "Create method"
         href: /windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-istorageitemhandleaccess-create
     - name: "IStringable"
-      href: https://msdn.microsoft.com/en-us/library/Dn302135(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-istringable
       items: 
       - name: "ToString method"
-        href: https://msdn.microsoft.com/en-us/library/Dn302136(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-istringable-tostring
     - name: "ISurfaceImageSourceManagerNative"
       href: /windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcemanagernative
       items: 
@@ -1227,10 +1227,10 @@
       - name: "SetSwapChainHandle method"
         href: /windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2-setswapchainhandle
     - name: "ITypedEventHandler<TSender, TArgs>"
-      href: https://msdn.microsoft.com/en-us/library/Hh438424(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438424(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/Hh438425(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//hh438425(v=vs.85)
     - name: "IUnbufferedFileHandleOplockCallback"
       href: /windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleoplockcallback
       items: 
@@ -1244,28 +1244,28 @@
       - name: "OpenUnbufferedFileHandle method"
         href: /windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle
     - name: "IVector<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR224590(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br224590(v=vs.85)
       items: 
       - name: "Append method"
-        href: https://msdn.microsoft.com/en-us/library/BR224598(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224598(v=vs.85)
       - name: "Clear method"
-        href: https://msdn.microsoft.com/en-us/library/BR224599(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224599(v=vs.85)
       - name: "get_Size method"
-        href: https://msdn.microsoft.com/en-us/library/BR224602(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224602(v=vs.85)
       - name: "GetAt method"
-        href: https://msdn.microsoft.com/en-us/library/BR224600(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224600(v=vs.85)
       - name: "GetView method"
-        href: https://msdn.microsoft.com/en-us/library/BR224601(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224601(v=vs.85)
       - name: "IndexOf method"
-        href: https://msdn.microsoft.com/en-us/library/BR224603(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224603(v=vs.85)
       - name: "InsertAt method"
-        href: https://msdn.microsoft.com/en-us/library/BR224604(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224604(v=vs.85)
       - name: "RemoveAt method"
-        href: https://msdn.microsoft.com/en-us/library/BR224605(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224605(v=vs.85)
       - name: "RemoveAtEnd method"
-        href: https://msdn.microsoft.com/en-us/library/BR224606(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224606(v=vs.85)
       - name: "SetAt method"
-        href: https://msdn.microsoft.com/en-us/library/BR224607(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224607(v=vs.85)
     - name: "IVectorChangedEventArgs"
       href: ivectorchangedeventargs.md
       items: 
@@ -1274,14 +1274,14 @@
       - name: "get_Index method"
         href: ivectorchangedeventargs-get-index.md
     - name: "IVectorView<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR224594(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br224594(v=vs.85)
       items: 
       - name: "get_Size method"
-        href: https://msdn.microsoft.com/en-us/library/BR224596(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224596(v=vs.85)
       - name: "GetAt method"
-        href: https://msdn.microsoft.com/en-us/library/BR224595(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224595(v=vs.85)
       - name: "IndexOf method"
-        href: https://msdn.microsoft.com/en-us/library/BR224597(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224597(v=vs.85)
     - name: "IVideoFrameNative"
       href: /windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative
       items: 
@@ -1295,9 +1295,9 @@
       - name: "CreateFromMFSample method"
         href: /windows/desktop/api/windows.media.core.interop/nf-windows-media-core-interop-ivideoframenativefactory-createfrommfsample
     - name: "IViewProvider"
-      href: https://msdn.microsoft.com/en-us/library/Hh438426(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438426(v=vs.85)
     - name: "IViewProviderFactory"
-      href: https://msdn.microsoft.com/en-us/library/Hh438427(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//hh438427(v=vs.85)
     - name: "IVirtualSurfaceImageSourceNative"
       href: /windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative
       items: 
@@ -1319,36 +1319,36 @@
       - name: "UpdatesNeeded method"
         href: /windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative-updatesneeded
     - name: "IWeakReference"
-      href: https://msdn.microsoft.com/en-us/library/BR224608(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreference
       items: 
       - name: "Resolve method"
-        href: https://msdn.microsoft.com/en-us/library/BR224611(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/weakreference/nf-weakreference-iweakreference-resolve(refiid_iinspectable)
     - name: "IWeakReferenceSource"
-      href: https://msdn.microsoft.com/en-us/library/BR224609(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource
       items: 
       - name: "GetWeakReference method"
-        href: https://msdn.microsoft.com/en-us/library/BR224610(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/weakreference/nf-weakreference-iweakreferencesource-getweakreference
     - name: "MapChangedEventHandler<K, V>"
-      href: https://msdn.microsoft.com/en-us/library/BR224612(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br224612(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/BR224613(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224613(v=vs.85)
     - name: "VectorChangedEventHandler<T>"
-      href: https://msdn.microsoft.com/en-us/library/BR224626(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//br224626(v=vs.85)
       items: 
       - name: "Invoke method"
-        href: https://msdn.microsoft.com/en-us/library/BR224627(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions//br224627(v=vs.85)
   - name: "Structures"
     href: structures.md
     items: 
     - name: "APARTMENT_SHUTDOWN_REGISTRATION_COOKIE"
-      href: https://msdn.microsoft.com/en-us/library/JJ219262(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//jj219262(v=vs.85)
     - name: "EventRegistrationToken"
-      href: https://msdn.microsoft.com/en-us/library/BR205773(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/eventtoken/ns-eventtoken-eventregistrationtoken
     - name: "DateTime"
-      href: https://msdn.microsoft.com/en-us/library/BR205770(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime
     - name: "HSTRING_HEADER"
-      href: https://msdn.microsoft.com/en-us/library/BR205778(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/hstring/ns-hstring-hstring_header
     - name: "IRoSimpleMetaDataBuilder"
       href: irosimplemetadatabuilder-struct.md
       items: 
@@ -1378,16 +1378,16 @@
       - name: "Locate method"
         href: irometadatalocator-locate.md
     - name: "Point"
-      href: https://msdn.microsoft.com/en-us/library/BR224614(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-point
     - name: "PDF_RENDER_PARAMS"
       href: /windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params
     - name: "Rect"
-      href: https://msdn.microsoft.com/en-us/library/BR224616(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect
     - name: "ServerInformation"
       href: /windows/desktop/api/combaseapi/ns-combaseapi-tagserverinformation
     - name: "Size"
-      href: https://msdn.microsoft.com/en-us/library/BR224622(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-size
     - name: "TextRange"
-      href: https://msdn.microsoft.com/en-us/library/Dn302173(v=VS.85).aspx
+      href: https://docs.microsoft.com/previous-versions//dn302173(v=vs.85)
     - name: "TimeSpan"
-      href: https://msdn.microsoft.com/en-us/library/BR224624(v=VS.85).aspx
+      href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-timespan

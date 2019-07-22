@@ -1,14 +1,17 @@
 ---
 title: ID2D1RenderTarget CreateLayer methods
 description: Creates a layer resource that can be used with this render target and its compatible render targets.
-ms.assetid: '074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7'
-keywords: ["CreateLayer methods Direct2D"]
+ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
+keywords:
+- CreateLayer methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1RenderTarget::CreateLayer methods

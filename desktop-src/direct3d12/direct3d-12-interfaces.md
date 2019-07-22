@@ -1,10 +1,10 @@
----
+﻿---
 title: Core interfaces
 description: The following interfaces are declared in d3d12.h.
 ms.assetid: A9BD5910-8FF2-4540-BB8E-E8EA5C10528C
 ms.localizationpriority: low
 ms.topic: article
-ms.date: 11/27/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

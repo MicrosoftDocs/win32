@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Use Mainstream Protocol Sequences
 
-Use [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104), [**ncacn\_http**](https://msdn.microsoft.com/library/windows/desktop/aa367103) or [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108) for remote RPC calls. Use [**ncalrpc**](https://msdn.microsoft.com/library/windows/desktop/aa367115) for local RPC calls. These protocols are most widely used and receive the most scrutiny and testing.
+Use [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp), [**ncacn\_http**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-http) or [**ncacn\_np**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np) for remote RPC calls. Use [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc) for local RPC calls. These protocols are most widely used and receive the most scrutiny and testing.
 
  
 

@@ -19,7 +19,7 @@ The **ITParticipantEvent** interface contains methods that retrieve the descript
 
 ## Members
 
-The **ITParticipantEvent** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITParticipantEvent** also has these types of members:
+The **ITParticipantEvent** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantEvent** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -48,7 +48,7 @@ List-view controls internally track items by index. This can present problems be
 
 The list-view control can tag an item with an ID when the item is created. You can use this ID to guarantee uniqueness during the lifetime of the list-view control.
 
-To uniquely identify an item, take the index that is returned from a call such as [**IComponent::GetDisplayInfo**](https://msdn.microsoft.com/library/aa814775) and call **LVM\_MAPINDEXTOID**. The return value is a unique ID.
+To uniquely identify an item, take the index that is returned from a call such as [**IComponent::GetDisplayInfo**](https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo) and call **LVM\_MAPINDEXTOID**. The return value is a unique ID.
 
 > [!Note]  
 > In a multithreaded environment, the index is only guaranteed on the thread that hosts the list-view control, not on background threads.

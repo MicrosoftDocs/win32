@@ -194,7 +194,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 ## Remarks
 
-The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
+The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
 
 This attribute value is only reset when the account is logged onto successfully. This means that this value may be non zero, yet the account is not locked out. To accurately determine if the account is locked out, you must add the [**Lockout-Duration**](a-lockoutduration.md) to this time and compare the result to the current time, accounting for local time zones and daylight savings time.
 
@@ -202,7 +202,7 @@ This attribute value is only reset when the account is logged onto successfully.
 
 <dl> <dt>
 
-[**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284)
+[**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)
 </dt> <dt>
 
 [**Lockout-Duration**](a-lockoutduration.md)

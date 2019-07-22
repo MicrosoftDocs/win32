@@ -40,9 +40,9 @@ The encoder returns the values that it supports.
 
 **H.264/AVC encoders:**
 
-It is recommended that the encoder supports [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](https://msdn.microsoft.com/library/windows/desktop/dd311966), and [**GetParameterRange**](https://msdn.microsoft.com/library/windows/desktop/dd311956).
+It is recommended that the encoder supports [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRange**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
 
-If [**SetValue**](https://msdn.microsoft.com/library/windows/desktop/dd311966) is not called for CODECAPI\_AVEncSliceControlMode, [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) for CODECAPI\_AVEncSliceControlMode can return **VFW\_E\_CODECAPI\_NO\_CURRENT\_VALUE**. [**GetDefaultValue**](https://msdn.microsoft.com/library/windows/desktop/dd311955) may return **VFW\_E\_CODECAPI\_NO\_DEFAULT** for CODECAPI\_AVEncSliceControlMode.
+If [**SetValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue) is not called for CODECAPI\_AVEncSliceControlMode, [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) for CODECAPI\_AVEncSliceControlMode can return **VFW\_E\_CODECAPI\_NO\_CURRENT\_VALUE**. [**GetDefaultValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getdefaultvalue) may return **VFW\_E\_CODECAPI\_NO\_DEFAULT** for CODECAPI\_AVEncSliceControlMode.
 
 Recommended default value is 2 (size in MB row per slice).
 

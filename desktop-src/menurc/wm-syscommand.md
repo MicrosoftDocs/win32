@@ -56,7 +56,7 @@ The type of system command requested. This parameter can be one of the following
 </tr>
 <tr class="even">
 <td><span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl> <dt><strong>SC_CONTEXTHELP</strong></dt> <dt>0xF180</dt> </dl></td>
-<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a <a href="https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx"><strong>WM_HELP</strong></a> message.<br/></td>
+<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a <a href="https://docs.microsoft.com/windows/desktop/shell/wm-help"><strong>WM_HELP</strong></a> message.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="SC_DEFAULT"></span><span id="sc_default"></span><dl> <dt><strong>SC_DEFAULT</strong></dt> <dt>0xF160</dt> </dl></td>
@@ -165,15 +165,15 @@ yPos = GET_Y_LPARAM(lParam);    // vertical position
 
 
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function carries out the window menu request for the predefined actions specified in the previous table.
+The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function carries out the window menu request for the predefined actions specified in the previous table.
 
 In **WM\_SYSCOMMAND** messages, the four low-order bits of the *wParam* parameter are used internally by the system. To obtain the correct result when testing the value of *wParam*, an application must combine the value 0xFFF0 with the *wParam* value by using the bitwise AND operator.
 
 The menu items in a window menu can be modified by using the [**GetSystemMenu**](/windows/desktop/api/Winuser/nf-winuser-getsystemmenu), [**AppendMenu**](/windows/desktop/api/Winuser/nf-winuser-appendmenua), [**InsertMenu**](/windows/desktop/api/Winuser/nf-winuser-insertmenua), [**ModifyMenu**](/windows/desktop/api/Winuser/nf-winuser-modifymenua), [**InsertMenuItem**](/windows/desktop/api/Winuser/nf-winuser-insertmenuitema), and [**SetMenuItemInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuiteminfoa) functions. Applications that modify the window menu must process **WM\_SYSCOMMAND** messages.
 
-An application can carry out any system command at any time by passing a **WM\_SYSCOMMAND** message to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572). Any **WM\_SYSCOMMAND** messages not handled by the application must be passed to **DefWindowProc**. Any command values added by an application must be processed by the application and cannot be passed to **DefWindowProc**.
+An application can carry out any system command at any time by passing a **WM\_SYSCOMMAND** message to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca). Any **WM\_SYSCOMMAND** messages not handled by the application must be passed to **DefWindowProc**. Any command values added by an application must be processed by the application and cannot be passed to **DefWindowProc**.
 
-If password protection is enabled by policy, the screen saver is started regardless of what an application does with the **SC\_SCREENSAVE** notification even if fails to pass it to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If password protection is enabled by policy, the screen saver is started regardless of what an application does with the **SC\_SCREENSAVE** notification even if fails to pass it to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
 Accelerator keys that are defined to choose items from the window menu are translated into **WM\_SYSCOMMAND** messages; all other accelerator keystrokes are translated into [**WM\_COMMAND**](wm-command.md) messages.
 
@@ -201,13 +201,13 @@ If the *wParam* is **SC\_KEYMENU**, *lParam* contains the character code of the 
 [**AppendMenu**](/windows/desktop/api/Winuser/nf-winuser-appendmenua)
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)
+[**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
 </dt> <dt>
 
-[**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
+[**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
 [**GetSystemMenu**](/windows/desktop/api/Winuser/nf-winuser-getsystemmenu)

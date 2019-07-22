@@ -13,7 +13,7 @@ The type of accounting provider to use. Currently, only one type is supported.
 
 **LDAP Name:** msAcctProviderType
 
-**ID:** 4138 = [**IAS\_ATTRIBUTE\_ACCT\_PROVIDER\_TYPE**](https://msdn.microsoft.com/library/bb960612)
+**ID:** 4138 = [**IAS\_ATTRIBUTE\_ACCT\_PROVIDER\_TYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
 
 **Syntax:** Enumerator
 

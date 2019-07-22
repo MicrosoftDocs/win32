@@ -1,14 +1,16 @@
 ---
-Description: 'The overloaded FormatMessageW method formats a message string.'
+Description: The overloaded FormatMessageW method formats a message string.
 audience: developer
-ms.assetid: '45780467-d3aa-4927-aa53-60e5ee277c27'
+ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.tgt_platform: multiple
-title: 'CHString::FormatMessageW methods'
+title: CHString::FormatMessageW methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CHString::FormatMessageW methods
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The overloaded **FormatMessageW** method formats a message string.
 

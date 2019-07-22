@@ -50,7 +50,7 @@ Since each band contains a control, you can provide additional flexibility throu
 
 Most of the features of the Internet Explorer toolbar are actually implemented in the individual bands. The implementation of the rebar control itself is straightforward and is listed below.
 
-1.  Create the rebar control with [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680). Set *dwExStyle* to [**WS\_EX\_TOOLWINDOW**](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-toolwindow) and *lpClassName* to [**REBARCLASSNAME**](common-control-window-classes.md). Internet Explorer uses the following window styles:
+1.  Create the rebar control with [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa). Set *dwExStyle* to [**WS\_EX\_TOOLWINDOW**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles) and *lpClassName* to [**REBARCLASSNAME**](common-control-window-classes.md). Internet Explorer uses the following window styles:
 
     -   [**RBS\_BANDBORDERS**](rebar-control-styles.md)
     -   [**RBS\_DBLCLKTOGGLE**](rebar-control-styles.md)
@@ -58,15 +58,15 @@ Most of the features of the Internet Explorer toolbar are actually implemented i
     -   [**RBS\_VARHEIGHT**](rebar-control-styles.md)
     -   [**CCS\_NODIVIDER**](common-control-styles.md)
     -   [**CCS\_NOPARENTALIGN**](common-control-styles.md)
-    -   [**WS\_BORDER**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-border)
-    -   [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child)
-    -   [**WS\_CLIPCHILDREN**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-clipchildren)
-    -   [**WS\_CLIPSIBLINGS**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-clipsiblings)
-    -   [**WS\_VISIBLE**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-visible)
+    -   [**WS\_BORDER**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles)
+    -   [**WS\_CHILD**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles)
+    -   [**WS\_CLIPCHILDREN**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles)
+    -   [**WS\_CLIPSIBLINGS**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles)
+    -   [**WS\_VISIBLE**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles)
 
     Set the other parameters as appropriate for your application.
 
-2.  Create a control with [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) or a specialized control creation function such as [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex).
+2.  Create a control with [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) or a specialized control creation function such as [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex).
 3.  Initialize a band for the control by filling in the members of [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa). Include the RBBS\_USECHEVRON style with the **fStyle** member to enable chevrons.
 4.  Add the band to the rebar control with an [**RB\_INSERTBAND**](rb-insertband.md) message.
 5.  Repeat steps 2-4 for the remaining bands.
@@ -76,18 +76,18 @@ The grippers are included by default. To omit the gripper for a band, set the RB
 
 ### Handling Chevrons
 
-When a user clicks a chevron, the rebar control sends your application an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification. The [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron) structure that is passed with the notification contains the band's identifier and a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure with the rectangle that is occupied by the chevron. Your handler must determine which buttons are hidden and display the associated commands on a pop-up menu.
+When a user clicks a chevron, the rebar control sends your application an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification. The [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron) structure that is passed with the notification contains the band's identifier and a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure with the rectangle that is occupied by the chevron. Your handler must determine which buttons are hidden and display the associated commands on a pop-up menu.
 
 The following procedure outlines how to handle an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification:
 
 1.  Retrieve the current bounding rectangle for the selected band by sending the rebar control an [**RB\_GETRECT**](rb-getrect.md) message.
 2.  Retrieve the total number of buttons by sending the band's toolbar control a [**TB\_BUTTONCOUNT**](tb-buttoncount.md) message.
 3.  Starting from the leftmost button, retrieve the button's bounding rectangle by sending the toolbar control a [**TB\_GETITEMRECT**](tb-getitemrect.md) message.
-4.  Pass the band and button rectangles to the [**IntersectRect**](https://msdn.microsoft.com/library/windows/desktop/dd145001) function. This function will return a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that corresponds to the visible portion of the button.
-5.  Pass the button rectangle and the rectangle for the visible portion of the button to the [**EqualRect**](https://msdn.microsoft.com/library/windows/desktop/dd162699) function.
-6.  If [**EqualRect**](https://msdn.microsoft.com/library/windows/desktop/dd162699) returns **TRUE**, the entire button is visible. Repeat steps 3-5 for the next button on the toolbar. If **EqualRect** returns **FALSE**, the button is at least partially hidden and all remaining buttons will be completely hidden. Continue to the next step.
+4.  Pass the band and button rectangles to the [**IntersectRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-intersectrect) function. This function will return a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that corresponds to the visible portion of the button.
+5.  Pass the button rectangle and the rectangle for the visible portion of the button to the [**EqualRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-equalrect) function.
+6.  If [**EqualRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-equalrect) returns **TRUE**, the entire button is visible. Repeat steps 3-5 for the next button on the toolbar. If **EqualRect** returns **FALSE**, the button is at least partially hidden and all remaining buttons will be completely hidden. Continue to the next step.
 7.  Create a pop-up menu with items for each of the hidden buttons.
-8.  Display the pop-up menu by using the [**TrackPopupMenu**](https://msdn.microsoft.com/library/windows/desktop/ms648002) function. Use the chevron rectangle that was passed with the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification to position the menu. The menu should be immediately below the chevron, with the left edges aligned.
+8.  Display the pop-up menu by using the [**TrackPopupMenu**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) function. Use the chevron rectangle that was passed with the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification to position the menu. The menu should be immediately below the chevron, with the left edges aligned.
 9.  Handle the menu commands.
 
 ## The Toolbars
@@ -124,7 +124,7 @@ Drop-down functionality can be added to any button style by adding a style flag 
 
 When the user clicks a drop-down button with either the plain or simple arrow styles, the toolbar control sends your application a [TBN\_DROPDOWN](tbn-dropdown.md) notification. When your application receives this message, it is responsible for creating and displaying the menu, and for handling the selected command.
 
-When the user clicks a separated arrow, the toolbar control sends your application a [TBN\_DROPDOWN](tbn-dropdown.md) notification. Your application should handle it the same way as it handles the other two types of drop-down buttons. If the user clicks the main button, your application receives a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message with the button's command ID, just as if it were a standard button. Applications typically respond by launching the top command in the drop-down menu, but you are free to respond in any suitable way.
+When the user clicks a separated arrow, the toolbar control sends your application a [TBN\_DROPDOWN](tbn-dropdown.md) notification. Your application should handle it the same way as it handles the other two types of drop-down buttons. If the user clicks the main button, your application receives a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message with the button's command ID, just as if it were a standard button. Applications typically respond by launching the top command in the drop-down menu, but you are free to respond in any suitable way.
 
 ### List-Style Buttons
 

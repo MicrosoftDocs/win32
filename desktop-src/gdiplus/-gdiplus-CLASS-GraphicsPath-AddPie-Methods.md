@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the AddPie methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.'
-ms.assetid: '8327b2cc-855e-419e-82c1-2a424aef2838'
-title: 'GraphicsPath.AddPie methods'
+Description: This topic lists the AddPie methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+ms.assetid: 8327b2cc-855e-419e-82c1-2a424aef2838
+title: GraphicsPath.AddPie methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # GraphicsPath.AddPie methods

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Taking Object Ownership in C++
 
-The following example tries to change the DACL of a file object by taking ownership of that object. This will succeed only if the caller has WRITE\_DAC access to the object or is the owner of the object. If the initial attempt to change the DACL fails, an administrator can take ownership of the object. To give the administrator ownership, the example enables the SE\_TAKE\_OWNERSHIP\_NAME privilege in the caller's [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly), and makes the local system's Administrators group the owner of the object. If the caller is a member of the Administrators group, the code will then be able to change the object's DACL.
+The following example tries to change the DACL of a file object by taking ownership of that object. This will succeed only if the caller has WRITE\_DAC access to the object or is the owner of the object. If the initial attempt to change the DACL fails, an administrator can take ownership of the object. To give the administrator ownership, the example enables the SE\_TAKE\_OWNERSHIP\_NAME privilege in the caller's [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly), and makes the local system's Administrators group the owner of the object. If the caller is a member of the Administrators group, the code will then be able to change the object's DACL.
 
 To enable and disable privileges, this example uses the SetPrivilege sample function described in [Enabling and Disabling Privileges in C++](enabling-and-disabling-privileges-in-c--.md).
 

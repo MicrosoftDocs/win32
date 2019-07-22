@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The LSA provides functions you can use to receive notification when there is a change in policy on the local system.
 
-To receive notification, create a new event object by calling the [**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396) function, and then call the [**LsaRegisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification) function. Your application can then call a wait function such as [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/windows/desktop/ms687036), or [**RegisterWaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms685061) to wait for the event to occur. The wait function returns when the event occurs, or when the time-out period expires. Typically, notification events are used in multithreaded applications, in which one thread waits for an event, while other threads continue processing.
+To receive notification, create a new event object by calling the [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa) function, and then call the [**LsaRegisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification) function. Your application can then call a wait function such as [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject), [**WaitForSingleObjectEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex), or [**RegisterWaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject) to wait for the event to occur. The wait function returns when the event occurs, or when the time-out period expires. Typically, notification events are used in multithreaded applications, in which one thread waits for an event, while other threads continue processing.
 
-When your application no longer needs to receive notifications, it should call [**LsaUnregisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification) and then call [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) to free the event object handle.
+When your application no longer needs to receive notifications, it should call [**LsaUnregisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification) and then call [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) to free the event object handle.
 
 The following example shows how a single-threaded application can receive notification events when the system's auditing policy changes.
 
@@ -81,7 +81,7 @@ void WaitForPolicyChanges()
 
 
 
-For more information about event objects, wait functions, and synchronization, see [Using Event Objects](https://msdn.microsoft.com/library/windows/desktop/ms686915).
+For more information about event objects, wait functions, and synchronization, see [Using Event Objects](https://docs.microsoft.com/windows/desktop/Sync/using-event-objects).
 
  
 

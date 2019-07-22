@@ -57,10 +57,10 @@ Data type: **[**Msvm\_EthernetSwitchFeatureCapabilities**](msvm-ethernetswitchfe
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Capabilities")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Capabilities")
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_EthernetSwitchFeatureCapabilities**](msvm-ethernetswitchfeaturecapabilities.md) class that represents the capabilities object associated with the switch. This property is inherited from [**CIM\_ElementCapabilities**](https://msdn.microsoft.com/library/mt446044).
+A reference to an instance of the [**Msvm\_EthernetSwitchFeatureCapabilities**](msvm-ethernetswitchfeaturecapabilities.md) class that represents the capabilities object associated with the switch. This property is inherited from [**CIM\_ElementCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementcapabilities).
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Provides descriptive information about the capabilities. This property is inherited from [**CIM\_ElementCapabilities**](https://msdn.microsoft.com/library/mt446044).
+Provides descriptive information about the capabilities. This property is inherited from [**CIM\_ElementCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementcapabilities).
 
 
 
@@ -97,10 +97,10 @@ Data type: **[**Msvm\_InstalledEthernetSwitchExtension**](msvm-installedethernet
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("ManagedElement")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("ManagedElement")
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_InstalledEthernetSwitchExtension**](msvm-installedethernetswitchextension.md) class that represents the installed extension. This property is inherited from [**CIM\_ElementCapabilities**](https://msdn.microsoft.com/library/mt446044).
+A reference to an instance of the [**Msvm\_InstalledEthernetSwitchExtension**](msvm-installedethernetswitchextension.md) class that represents the installed extension. This property is inherited from [**CIM\_ElementCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementcapabilities).
 
 </dd> </dl>
 

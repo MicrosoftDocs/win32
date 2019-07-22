@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the Region class. For a complete class listing, see Region Class.
 ms.assetid: bbaa4027-94aa-497f-8efb-a82d251847af
 title: Region Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

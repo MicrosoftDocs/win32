@@ -59,7 +59,7 @@ This method can return one of these values.
 
 ## Remarks
 
-It is the caller's responsibility to free the memory returned from this method by using [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722).
+It is the caller's responsibility to free the memory returned from this method by using [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 ## Requirements
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Command-Line Options
 
-The executable program that interprets packages and installs products is Msiexec.exe. Note that Msiexec also sets an error level on return that corresponds to [system error codes](https://msdn.microsoft.com/library/windows/desktop/ms681381). Command-line options are case-insensitive.
+The executable program that interprets packages and installs products is Msiexec.exe. Note that Msiexec also sets an error level on return that corresponds to [system error codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes). Command-line options are case-insensitive.
 
 The command-line options in the following table are available with Windows Installer  3.0 and earlier versions. The [Standard Installer Command-Line Options](standard-installer-command-line-options.md) are also available beginning with Windows Installer 3.0.
 

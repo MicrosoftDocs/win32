@@ -2,7 +2,7 @@
 Description: The Chain object exposes the following methods.
 ms.assetid: 717F9577-3843-4207-8C61-181296F9F6C0
 title: Chain Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

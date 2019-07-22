@@ -12,10 +12,10 @@ Pointers are not required to have an explicit attribute description. When an exp
 
 The default cases for unattributed pointers are the following:
 
--   Top-level pointers that appear in parameter lists default to \[[**ref**](https://msdn.microsoft.com/library/windows/desktop/aa367153)\] pointers.
--   All other pointers default to the type specified by the \[[**pointer\_default**](https://msdn.microsoft.com/library/windows/desktop/aa367141)\] attribute. When no \[**pointer\_default**\] attribute is supplied, these pointers default to the \[ [**unique**](https://msdn.microsoft.com/library/windows/desktop/aa367294) \] attribute when the MIDL compiler is in [Microsoft Extensions](microsoft-rpc-binding-handle-extensions.md) mode or the \[[**ptr**](https://msdn.microsoft.com/library/windows/desktop/aa367149)\] attribute when the MIDL compiler is in DCE-compatible mode.
+-   Top-level pointers that appear in parameter lists default to \[[**ref**](https://docs.microsoft.com/windows/desktop/Midl/ref)\] pointers.
+-   All other pointers default to the type specified by the \[[**pointer\_default**](https://docs.microsoft.com/windows/desktop/Midl/pointer-default)\] attribute. When no \[**pointer\_default**\] attribute is supplied, these pointers default to the \[ [**unique**](https://docs.microsoft.com/windows/desktop/Midl/unique) \] attribute when the MIDL compiler is in [Microsoft Extensions](microsoft-rpc-binding-handle-extensions.md) mode or the \[[**ptr**](https://docs.microsoft.com/windows/desktop/Midl/ptr)\] attribute when the MIDL compiler is in DCE-compatible mode.
 
-When a remote procedure returns a pointer, the return value must be a \[ [**unique**](https://msdn.microsoft.com/library/windows/desktop/aa367294) \] or full (\[ [**ptr**](https://msdn.microsoft.com/library/windows/desktop/aa367149) \]) pointer.
+When a remote procedure returns a pointer, the return value must be a \[ [**unique**](https://docs.microsoft.com/windows/desktop/Midl/unique) \] or full (\[ [**ptr**](https://docs.microsoft.com/windows/desktop/Midl/ptr) \]) pointer.
 
 ``` syntax
 /* IDL file compiled without /osf */

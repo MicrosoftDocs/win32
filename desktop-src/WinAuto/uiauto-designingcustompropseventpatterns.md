@@ -56,7 +56,7 @@ A custom automation element property or control pattern property should adhere t
     -   **UIAutomationType\_Int**
     -   **UIAutomationType\_Point**
     -   **UIAutomationType\_String**
--   If the custom property contains string data ([**BSTR**](https://msdn.microsoft.com/library/windows/desktop/ms221069)), the specification must state whether the property is localizable (that is, whether the string can be translated into different UI languages).
+-   If the custom property contains string data ([**BSTR**](https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr)), the specification must state whether the property is localizable (that is, whether the string can be translated into different UI languages).
 -   The custom property should not overlap with the features or functionality of existing properties.
 
 ## Designing Custom Events

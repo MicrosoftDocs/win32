@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # To Find Audio Formats
 
-The following example code demonstrates how to find an audio format that matches criteria you specify. The **FindAudioFormat** function accepts a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/windows/desktop/dd757720) structure that contains the number of channels, bits per sample, and sample rate that you want to use. The function finds the format that matches those requirements and has the highest bit rate that does not exceed the *dwMaxRate* parameter. If you set *fAVSync* to **TRUE**, the function only validates formats that can be synchronized with video. For simplicity, this function only works with 1-pass CBR formats.
+The following example code demonstrates how to find an audio format that matches criteria you specify. The **FindAudioFormat** function accepts a pointer to a [**WAVEFORMATEX**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)) structure that contains the number of channels, bits per sample, and sample rate that you want to use. The function finds the format that matches those requirements and has the highest bit rate that does not exceed the *dwMaxRate* parameter. If you set *fAVSync* to **TRUE**, the function only validates formats that can be synchronized with video. For simplicity, this function only works with 1-pass CBR formats.
 
 
 ```C++

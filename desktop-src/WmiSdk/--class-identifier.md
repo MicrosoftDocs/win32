@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The well-known identifier \_\_CLASS refers to a pseudo-property on every WMI object that indicates the class of the current object.
 
-Use \_\_CLASS in a [WHERE](where-clause.md) clause to filter out any objects of derived classes from your result set. For example, the result set of the following query contains not only objects whose class is [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173), but also objects whose class is derived from **Win32\_LogicalDisk**.
+Use \_\_CLASS in a [WHERE](where-clause.md) clause to filter out any objects of derived classes from your result set. For example, the result set of the following query contains not only objects whose class is [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk), but also objects whose class is derived from **Win32\_LogicalDisk**.
 
 
 ```sql
@@ -20,7 +20,7 @@ SELECT * FROM Win32_LogicalDisk
 
 
 
-In the following example, the use of \_\_CLASS in the **WHERE** clause filters out all objects of classes derived from [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) because their class is not **Win32\_LogicalDisk**.
+In the following example, the use of \_\_CLASS in the **WHERE** clause filters out all objects of classes derived from [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) because their class is not **Win32\_LogicalDisk**.
 
 
 ```sql

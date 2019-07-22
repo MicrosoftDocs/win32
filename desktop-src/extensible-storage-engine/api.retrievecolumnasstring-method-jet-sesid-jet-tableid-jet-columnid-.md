@@ -79,7 +79,7 @@ public static string RetrieveColumnAsString(
 
 #### Return value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
 The data retrieved from the column as a string. Null if the column is null.  
 
 ## See also

@@ -89,7 +89,7 @@ The following samples illustrate this conversion process. The service descriptio
 </scpd>
 ```
 
-The next step is to run the Utl2idl tool. It produces the IDL file that contains the COM interface. For more information about IDL files and the **interface** keyword, see [Interface Definition (IDL) File](https://msdn.microsoft.com/library/windows/desktop/aa367062) and [**interface**](https://msdn.microsoft.com/library/windows/desktop/aa367054) in the MIDL reference.
+The next step is to run the Utl2idl tool. It produces the IDL file that contains the COM interface. For more information about IDL files and the **interface** keyword, see [Interface Definition (IDL) File](https://docs.microsoft.com/windows/desktop/Midl/interface-definition-idl-file) and [**interface**](https://docs.microsoft.com/windows/desktop/Midl/interface) in the MIDL reference.
 
 ``` syntax
 #include <windows.h>

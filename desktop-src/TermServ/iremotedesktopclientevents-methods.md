@@ -3,7 +3,7 @@ title: IRemoteDesktopClientEvents methods
 description: The IRemoteDesktopClientEvents interface exposes the following methods.
 ms.assetid: D8035924-736D-495D-BF78-950DAEB69774
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -48,7 +48,7 @@ The following functions are used with multimedia.
 -   [**acmMetrics**](/windows/desktop/api/Msacm/nf-msacm-acmmetrics)
 -   [**acmStreamClose**](/windows/desktop/api/Msacm/nf-msacm-acmstreamclose)
 -   [**acmStreamConvert**](/windows/desktop/api/Msacm/nf-msacm-acmstreamconvert)
--   [**acmStreamConvertCallback**](https://msdn.microsoft.com/library/windows/desktop/dd742925)
+-   [**acmStreamConvertCallback**](https://docs.microsoft.com/previous-versions//dd742925(v=vs.85))
 -   [**acmStreamMessage**](/windows/desktop/api/Msacm/nf-msacm-acmstreammessage)
 -   [**acmStreamOpen**](/windows/desktop/api/Msacm/nf-msacm-acmstreamopen)
 -   [**acmStreamPrepareHeader**](/windows/desktop/api/Msacm/nf-msacm-acmstreamprepareheader)

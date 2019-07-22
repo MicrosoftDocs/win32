@@ -78,7 +78,7 @@ You can make your program more efficient by obtaining a pointer to an [**IXpsOMO
 **For More Information**
 </dt> <dt>
 
-[Packaging](https://msdn.microsoft.com/library/windows/desktop/dd371623)
+[Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
 [XPS Document API Reference](xps-programming-reference.md)

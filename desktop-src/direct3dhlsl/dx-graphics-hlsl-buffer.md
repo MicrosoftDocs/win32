@@ -73,7 +73,7 @@ float4 bufferData = g_Buffer.Load( 1 );
 
 
 
-Use the [stream-output stage](https://msdn.microsoft.com/library/windows/desktop/bb205121) to output data to a buffer.
+Use the [stream-output stage](https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage) to output data to a buffer.
 
 ## See also
 

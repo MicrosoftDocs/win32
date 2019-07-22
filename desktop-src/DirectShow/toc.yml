@@ -828,7 +828,7 @@
         href: impeg2psiparser.md
         items: 
         - name: "FindRecordProgramMapPid"
-          href: https://msdn.microsoft.com/en-us/library/Dd407137(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd407137(v=vs.85)
         - name: "GetCountOfElementaryStreams"
           href: impeg2psiparser-getcountofelementarystreams.md
         - name: "GetCountOfPrograms"
@@ -838,13 +838,13 @@
         - name: "GetPmtVersionNumber"
           href: impeg2psiparser-getpmtversionnumber.md
         - name: "GetRecordElementaryPid"
-          href: https://msdn.microsoft.com/en-us/library/Dd376623(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd376623(v=vs.85)
         - name: "GetRecordProgramMapPid"
-          href: https://msdn.microsoft.com/en-us/library/Dd376624(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd376624(v=vs.85)
         - name: "GetRecordProgramNumber"
           href: impeg2psiparser-getrecordprogramnumber.md
         - name: "GetRecordStreamType"
-          href: https://msdn.microsoft.com/en-us/library/Dd376626(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd376626(v=vs.85)
         - name: "GetTransportStreamId"
           href: impeg2psiparser-gettransportstreamid.md
     - name: "Push Source Filters Sample"
@@ -2918,7 +2918,7 @@
         href: /windows/desktop/api/Strmif/nn-strmif-imediasample
         items: 
         - name: "GetActualDataLength"
-          href: https://msdn.microsoft.com/en-us/library/Dd407007(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getactualdatalength
         - name: "GetMediaTime"
           href: /windows/desktop/api/Strmif/nf-strmif-imediasample-getmediatime
         - name: "GetMediaType"
@@ -4166,7 +4166,7 @@
       - name: "TIMECODE"
         href: /windows/desktop/api/strmif/ns-strmif-tagtimecode
       - name: "TIMECODE_SAMPLE"
-        href: https://msdn.microsoft.com/en-us/library/Dd407197(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample
       - name: "TRUECOLORINFO"
         href: /windows/desktop/api/amvideo/ns-amvideo-tag_truecolorinfo
       - name: "VIDEO_STREAM_CONFIG_CAPS"
@@ -4391,7 +4391,7 @@
       - name: "QualityMessageType"
         href: /windows/desktop/api/strmif/ne-strmif-tagqualitymessagetype
       - name: "REG_PINFLAG"
-        href: https://msdn.microsoft.com/en-us/library/Dd377518(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd377518(v=vs.85)
       - name: "REM_FILTER_FLAGS"
         href: /windows/desktop/api/strmif/ne-strmif-_rem_filter_flags
       - name: "SNDDEV_ERR"
@@ -4415,7 +4415,7 @@
       - name: "VideoProcAmpProperty"
         href: /windows/desktop/api/strmif/ne-strmif-tagvideoprocampproperty
       - name: "VMR_ASPECT_RATIO_MODE"
-        href: https://msdn.microsoft.com/en-us/library/Dd390954(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmr_aspect_ratio_mode
       - name: "VMR9_SampleFormat"
         href: /windows/desktop/api/Vmr9/ne-vmr9-_vmr9_sampleformat
       - name: "VMR9AlphaBitmapFlags"
@@ -4724,7 +4724,7 @@
       href: functions.md
       items: 
       - name: "AMGetErrorText"
-        href: https://msdn.microsoft.com/en-us/library/Dd373430(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/errors/nf-errors-amgeterrortexta
     - name: "DirectShow Data Types"
       href: directshow-data-types.md
       items: 
@@ -5478,7 +5478,7 @@
         - name: "eAVDDSurroundMode"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavddsurroundmode
         - name: "eAVDecAACDownmixMode"
-          href: https://msdn.microsoft.com/en-us/library/Dd757608(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavdecaacdownmixmode
         - name: "eAVDecAudioDualMono"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavdecaudiodualmono
         - name: "eAVDecAudioDualMonoReproMode"
@@ -5488,7 +5488,7 @@
         - name: "eAVDecHEAACDynamicRangeControl"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavdecheaacdynamicrangecontrol
         - name: "eAVDecVideoInputScanType"
-          href: https://msdn.microsoft.com/en-us/library/Dd388763(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavdecvideoinputscantype
         - name: "eAVDecVideoSoftwareDeinterlaceMode"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavdecvideosoftwaredeinterlacemode
         - name: "eAVDecVideoSWPowerLevel"
@@ -5498,23 +5498,23 @@
         - name: "eAVDSPSpeakerFill"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavdspspeakerfill
         - name: "eAVEncAudioDualMono"
-          href: https://msdn.microsoft.com/en-us/library/Dd388765(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencaudiodualmono
         - name: "eAVEncAudioInputContent"
-          href: https://msdn.microsoft.com/en-us/library/Dd388768(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencaudioinputcontent
         - name: "eAVEncCommonRateControlMode"
-          href: https://msdn.microsoft.com/en-us/library/Dd388772(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavenccommonratecontrolmode
         - name: "eAVEncCommonStreamEndHandling"
-          href: https://msdn.microsoft.com/en-us/library/Dd388776(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavenccommonstreamendhandling
         - name: "eAVEncDDAtoDConverterType"
-          href: https://msdn.microsoft.com/en-us/library/Dd388780(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencddatodconvertertype
         - name: "eAVEncDDDynamicRangeCompressionControl"
-          href: https://msdn.microsoft.com/en-us/library/Dd319379(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencdddynamicrangecompressioncontrol
         - name: "eAVEncDDHeadphoneMode"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencddheadphonemode
         - name: "eAVEncDDPreferredStereoDownMixMode"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencddpreferredstereodownmixmode
         - name: "eAVEncDDProductionRoomType"
-          href: https://msdn.microsoft.com/en-us/library/Dd319390(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencddproductionroomtype
         - name: "eAVEncDDService"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencddservice
         - name: "eAVEncDDSurroundExMode"
@@ -5524,9 +5524,9 @@
         - name: "eAVEncMPACodingMode"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencmpacodingmode
         - name: "eAVEncMPAEmphasisType"
-          href: https://msdn.microsoft.com/en-us/library/Dd319403(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencmpaemphasistype
         - name: "eAVEncMPALayer"
-          href: https://msdn.microsoft.com/en-us/library/Dd319405(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencmpalayer
         - name: "eAVEncMPVFrameFieldMode"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencmpvframefieldmode
         - name: "eAVEncMPVIntraVLCTable"
@@ -5534,17 +5534,17 @@
         - name: "eAVEncMPVLevel"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencmpvlevel
         - name: "eAVEncMPVProfile"
-          href: https://msdn.microsoft.com/en-us/library/Dd319417(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencmpvprofile
         - name: "eAVEncMPVQScaleType"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencmpvqscaletype
         - name: "eAVEncMPVScanPattern"
-          href: https://msdn.microsoft.com/en-us/library/Dd319423(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencmpvscanpattern
         - name: "eAVEncMPVSceneDetection"
-          href: https://msdn.microsoft.com/en-us/library/Dd319426(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencmpvscenedetection
         - name: "eAVEncMuxOutput"
-          href: https://msdn.microsoft.com/en-us/library/Dd757614(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencmuxoutput
         - name: "eAVEncVideoChromaResolution"
-          href: https://msdn.microsoft.com/en-us/library/Dd319429(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencvideochromaresolution
         - name: "eAVEncVideoChromaSubsampling"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencvideochromasubsampling
         - name: "eAVEncVideoColorLighting"
@@ -5558,11 +5558,11 @@
         - name: "eAVEncVideoColorTransferMatrix"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencvideocolortransfermatrix
         - name: "eAVEncVideoFilmContent"
-          href: https://msdn.microsoft.com/en-us/library/Dd319452(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencvideofilmcontent
         - name: "eAVEncVideoOutputFrameRateConversion"
-          href: https://msdn.microsoft.com/en-us/library/Dd319454(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencvideooutputframerateconversion
         - name: "eAVEncVideoOutputScanType"
-          href: https://msdn.microsoft.com/en-us/library/Dd319457(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencvideooutputscantype
         - name: "eAVEncVideoSourceScanType"
           href: /windows/desktop/api/codecapi/ne-codecapi-eavencvideosourcescantype
         - name: "eAVFastDecodeMode"
@@ -8309,7 +8309,7 @@
           - name: "HEADER"
             href: /windows/desktop/api/Amvideo/nf-amvideo-header
           - name: "MPEG1_SEQUENCE_INFO"
-            href: https://msdn.microsoft.com/en-us/library/Dd390702(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-mpeg1_sequence_info
           - name: "PALETTE_ENTRIES"
             href: /windows/desktop/api/Amvideo/nf-amvideo-palette_entries
           - name: "PALETTISED"
@@ -8321,19 +8321,19 @@
           - name: "RESET_PALETTE"
             href: /windows/desktop/api/Amvideo/nf-amvideo-reset_palette
           - name: "SIZE_EGA_PALETTE"
-            href: https://msdn.microsoft.com/en-us/library/Dd377602(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd377602(v=vs.85)
           - name: "SIZE_MASKS"
-            href: https://msdn.microsoft.com/en-us/library/Dd377603(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd377603(v=vs.85)
           - name: "SIZE_MPEG1VIDEOINFO"
             href: /windows/desktop/api/Amvideo/nf-amvideo-size_mpeg1videoinfo
           - name: "SIZE_PALETTE"
-            href: https://msdn.microsoft.com/en-us/library/Dd377605(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd377605(v=vs.85)
           - name: "SIZE_PREHEADER"
-            href: https://msdn.microsoft.com/en-us/library/Dd377606(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd377606(v=vs.85)
           - name: "SIZE_VIDEOHEADER"
-            href: https://msdn.microsoft.com/en-us/library/Dd377607(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd377607(v=vs.85)
           - name: "TRUECOLOR"
-            href: https://msdn.microsoft.com/en-us/library/Dd407230(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd407230(v=vs.85)
           - name: "ValidateBitmapInfoHeader"
             href: validatebitmapinfoheader.md
       - name: "Debugging Utilities"
@@ -8678,25 +8678,25 @@
         - name: "LockIt"
           href: imediaobjectimpl-lockit.md
         - name: "CheckTypesSet"
-          href: https://msdn.microsoft.com/en-us/library/Dd406927(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms807621(v%3dmsdn.10)
         - name: "InputType"
-          href: https://msdn.microsoft.com/en-us/library/Dd406929(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms807633(v%3dmsdn.10)
         - name: "InputTypeSet"
-          href: https://msdn.microsoft.com/en-us/library/Dd406930(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms807638(v%3dmsdn.10)
         - name: "InternalAcceptingInput"
-          href: https://msdn.microsoft.com/en-us/library/Dd406931(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms809095(v%3dmsdn.10)
         - name: "InternalCheckInputType"
-          href: https://msdn.microsoft.com/en-us/library/Dd406932(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms809096(v%3dmsdn.10)
         - name: "InternalCheckOutputType"
-          href: https://msdn.microsoft.com/en-us/library/Dd406933(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms809098(v%3dmsdn.10)
         - name: "Lock"
-          href: https://msdn.microsoft.com/en-us/library/Dd406934(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms809100(v%3dmsdn.10)
         - name: "OutputType"
-          href: https://msdn.microsoft.com/en-us/library/Dd406936(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms807644(v%3dmsdn.10)
         - name: "OutputTypeSet"
-          href: https://msdn.microsoft.com/en-us/library/Dd406937(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms807649(v%3dmsdn.10)
         - name: "Unlock"
-          href: https://msdn.microsoft.com/en-us/library/Dd406938(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/ms809101(v%3dmsdn.10)
   - name: "DirectShow Editing Services"
     href: directshow-editing-services.md
     items: 
@@ -10270,7 +10270,7 @@
         - name: "UnregisterPin"
           href: /windows/desktop/api/Strmif/nf-strmif-ifiltermapper-unregisterpin
       - name: "IVideoEncoder"
-        href: https://msdn.microsoft.com/en-us/library/Dd377231(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nn-strmif-ivideoencoder
     - name: "AVI File Format"
       href: avi-file-format.md
       items: 

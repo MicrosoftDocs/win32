@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Specifying Other Search Options
 
-Active Directory Domain Services support most search options provided by the search technology. For more information about additional search options, see [Specifying Other Search Options with IDirectorySearch](https://msdn.microsoft.com/library/aa746493).
+Active Directory Domain Services support most search options provided by the search technology. For more information about additional search options, see [Specifying Other Search Options with IDirectorySearch](https://docs.microsoft.com/windows/desktop/ADSI/specifying-other-search-options-with-idirectorysearch).
 
  
 

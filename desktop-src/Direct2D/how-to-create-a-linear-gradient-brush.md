@@ -51,7 +51,7 @@ The code produces the output shown in the following illustration.
 
     
 
-3.  Use the [**ID2D1RenderTarget::CreateLinearGradientBrush**](https://msdn.microsoft.com/library/windows/desktop/dd371842) to create a linear gradient brush, fill the square with the brush, and draw the square with the black color brush.
+3.  Use the [**ID2D1RenderTarget::CreateLinearGradientBrush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)) to create a linear gradient brush, fill the square with the brush, and draw the square with the black color brush.
     ```C++
     // The line that determines the direction of the gradient starts at
     // the upper-left corner of the square and ends at the lower-right corner.

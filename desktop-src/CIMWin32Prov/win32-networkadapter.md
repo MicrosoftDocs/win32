@@ -1909,7 +1909,7 @@ The [Two WMI Functions](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-
 
 The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_NetworkAdapter**, to display information about a local or remote system.
 
-The following C\# code sample uses [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/en-us/library/microsoft.management.infrastructure.aspx) namespace to retrieve the current network adapters on the local machine.
+The following C\# code sample uses [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) namespace to retrieve the current network adapters on the local machine.
 
 
 ```CSharp
@@ -1937,7 +1937,7 @@ static void QueryInstanceFunc()
 The following C\# code sample uses https://msdn.microsoft.com/en-us/library/system.management.aspx namespace to retrieve the current network adapters on the local machine.
 
 > [!Note]  
-> https://msdn.microsoft.com/en-us/library/system.management.aspx contains the original classes used to access WMI; however, they are considered slower and generally do not scale as well as their [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/en-us/library/microsoft.management.infrastructure.aspx) counterparts.
+> https://msdn.microsoft.com/en-us/library/system.management.aspx contains the original classes used to access WMI; however, they are considered slower and generally do not scale as well as their [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) counterparts.
 
  
 

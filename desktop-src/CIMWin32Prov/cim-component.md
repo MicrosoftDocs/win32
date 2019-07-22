@@ -61,7 +61,7 @@ Data type: **CIM\_ManagedSystemElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that describes the parent element in the association.

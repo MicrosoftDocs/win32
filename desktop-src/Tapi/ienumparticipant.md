@@ -16,7 +16,7 @@ The **IEnumParticipant** interface is hidden from Visual Basic and scripting lan
 
 ## Members
 
-The **IEnumParticipant** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IEnumParticipant** also has these types of members:
+The **IEnumParticipant** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumParticipant** also has these types of members:
 
 -   [Methods](#methods)
 

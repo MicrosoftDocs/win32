@@ -20,7 +20,7 @@ Legacy audio APIs such as DirectSound and the Windows multimedia functions have 
 
 During DirectSound device enumeration, DirectSound supplies the endpoint ID string for each device that it enumerates. For more information, see [Audio Events for Legacy Audio Applications](audio-events-for-legacy-audio-applications.md).
 
-To obtain the endpoint ID string for a legacy waveform device, use the [**waveOutMessage**](https://msdn.microsoft.com/library/windows/desktop/dd743865) or [**waveInMessage**](https://msdn.microsoft.com/library/windows/desktop/dd743846) function to send a DRV\_QUERYFUNCTIONINSTANCEID message to the waveform device driver. For a code example that shows the use of this message, see [Device Roles for Legacy Windows Multimedia Applications](device-roles-for-legacy-windows-multimedia-applications.md).
+To obtain the endpoint ID string for a legacy waveform device, use the [**waveOutMessage**](https://docs.microsoft.com/previous-versions//dd743865(v=vs.85)) or [**waveInMessage**](https://docs.microsoft.com/previous-versions//dd743846(v=vs.85)) function to send a DRV\_QUERYFUNCTIONINSTANCEID message to the waveform device driver. For a code example that shows the use of this message, see [Device Roles for Legacy Windows Multimedia Applications](device-roles-for-legacy-windows-multimedia-applications.md).
 
 For more information about using the capabilities of the core audio APIs to enhance applications that use legacy audio APIs, see [Interoperability with Legacy Audio APIs](interoperability-with-legacy-audio-apis.md).
 

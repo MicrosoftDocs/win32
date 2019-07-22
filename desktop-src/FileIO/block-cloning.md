@@ -14,7 +14,7 @@ A file system manages the mappings of [Clusters and Extents](clusters-and-extent
 
 A block clone operation does not break the isolation provided between files. After a block clone completes, writes to the source file do not appear in the destination, or vice versa.
 
-Block cloning is available only on the [ReFS file system](https://msdn.microsoft.com/library/windows/desktop/hh848060) type beginning with Windows Server 2016.
+Block cloning is available only on the [ReFS file system](https://docs.microsoft.com/windows/desktop/w8cookbook/resilient-file-system--refs-) type beginning with Windows Server 2016.
 
 ## Block Cloning on ReFS
 

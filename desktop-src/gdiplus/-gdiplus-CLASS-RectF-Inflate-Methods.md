@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the Inflate methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.'
-ms.assetid: '5f393247-0209-41b4-a97c-89e4d5d7d55d'
-title: 'RectF.Inflate methods'
+Description: This topic lists the Inflate methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
+ms.assetid: 5f393247-0209-41b4-a97c-89e4d5d7d55d
+title: RectF.Inflate methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # RectF.Inflate methods

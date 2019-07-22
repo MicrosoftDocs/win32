@@ -78,7 +78,7 @@ In addition to the operators above, LDAP defines two matching rule object identi
 
 
 
-"<attribute name>" is the **lDAPDisplayName** of the attribute, "<rule OID>" is the OID for the matching rule, and "<value>" is the value to use for comparison. Be aware that spaces cannot be used in this string. "<value>" must be a decimal number; it cannot be a hexadecimal number or a constant name such as **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED**. For more information about the available Active Directory attributes, see [All Attributes](https://msdn.microsoft.com/library/ms675090).
+"<attribute name>" is the **lDAPDisplayName** of the attribute, "<rule OID>" is the OID for the matching rule, and "<value>" is the value to use for comparison. Be aware that spaces cannot be used in this string. "<value>" must be a decimal number; it cannot be a hexadecimal number or a constant name such as **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED**. For more information about the available Active Directory attributes, see [All Attributes](https://docs.microsoft.com/windows/desktop/ADSchema/attributes-all).
 
 The following table lists the matching rule OIDs implemented by LDAP.
 

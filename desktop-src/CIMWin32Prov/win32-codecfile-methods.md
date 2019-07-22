@@ -3,7 +3,7 @@ Description: The Win32\_CodecFile class exposes the following methods.
 ms.assetid: 1C8A0F34-1F03-4A01-8E13-1355F38FF277
 ms.tgt_platform: multiple
 title: Win32_CodecFile Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

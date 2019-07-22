@@ -1,14 +1,17 @@
 ---
 title: idcompositionaffinetransform2deffect SetTransformMatrixElement methods
 description: Sets an element of the transform matrix of the effect.
-ms.assetid: 'c618926b-c059-69dc-ab90-c58344128589'
-keywords: ["settransformmatrixelement methods DirectComposition"]
+ms.assetid: c618926b-c059-69dc-ab90-c58344128589
+keywords:
+- settransformmatrixelement methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # idcompositionaffinetransform2deffect::SetTransformMatrixElement methods

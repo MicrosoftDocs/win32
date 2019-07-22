@@ -106,7 +106,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**BitMap**](https://msdn.microsoft.com/library/aa393650) ("0", "1", "2", "3"), [**BitValues**](https://msdn.microsoft.com/library/aa393650) ("RD Session", "VDI Session", "Calista", "VDI Partners")
+Qualifiers: [**BitMap**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("0", "1", "2", "3"), [**BitValues**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("RD Session", "VDI Session", "Calista", "VDI Partners")
 </dt> </dl>
 
 Qualifier for TS Licensing key pack access rights
@@ -142,7 +142,7 @@ Description of the Remote Desktop Services license key pack.
 **ExpirationDate**
 </dt> <dd> <dl> <dt>
 
-Data type: **[DATETIME](https://msdn.microsoft.com/library/aa389799)**
+Data type: **[DATETIME](https://docs.microsoft.com/windows/desktop/WmiSdk/datetime)**
 </dt> <dt>
 
 Access type: Read-only
@@ -174,7 +174,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifier for the Remote Desktop Services license key pack.
@@ -397,7 +397,7 @@ Qualifier for TS Licensing key pack type and model. Examples: VDI Per Device sub
 
 You must be a member of the Administrators group to use this class.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/aa823192).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## Requirements
 

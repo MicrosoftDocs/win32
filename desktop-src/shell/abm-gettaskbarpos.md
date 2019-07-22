@@ -34,7 +34,7 @@ Returns **TRUE** if successful; otherwise, **FALSE**.
 
 ## Remarks
 
-Note that this applies only to the system taskbar. Other objects, particularly toolbars supplied with third-party software, also can be present. As a result, some of the screen area not covered by the Windows taskbar might not be visible to the user. To retrieve the area of the screen not covered by both the taskbar and other app bars the working area available to your application , use the [**GetMonitorInfo**](https://msdn.microsoft.com/library/windows/desktop/dd144901) function.
+Note that this applies only to the system taskbar. Other objects, particularly toolbars supplied with third-party software, also can be present. As a result, some of the screen area not covered by the Windows taskbar might not be visible to the user. To retrieve the area of the screen not covered by both the taskbar and other app bars the working area available to your application , use the [**GetMonitorInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa) function.
 
 ## Requirements
 

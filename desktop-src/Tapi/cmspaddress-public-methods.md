@@ -2,7 +2,7 @@
 Description: The following list contains the public CMSP methods.
 ms.assetid: e1453c04-6baa-4755-9b81-33af7d8958d4
 title: CMSPAddress Public Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

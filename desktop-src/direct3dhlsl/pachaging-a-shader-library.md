@@ -51,7 +51,7 @@ The source string contains the uncompiled ASCII HLSL code.
 
 ### 2. Load the compiled code into a shader library.
 
-Call the [**D3DLoadModule**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d3dloadmodule) function to load the compiled code ([**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)) into a module ([**ID3D11Module**](https://msdn.microsoft.com/library/windows/desktop/dn280563)) that represents a shader library.
+Call the [**D3DLoadModule**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d3dloadmodule) function to load the compiled code ([**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))) into a module ([**ID3D11Module**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11module)) that represents a shader library.
 
 
 ```C++
@@ -64,9 +64,9 @@ Call the [**D3DLoadModule**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d3d
 
 ### 3. Bind resources from source slots to destination slots.
 
-Call the [**ID3D11Module::CreateInstance**](https://msdn.microsoft.com/library/windows/desktop/dn280608) method to create an instance ([**ID3D11ModuleInstance**](https://msdn.microsoft.com/library/windows/desktop/dn280564)) of the library so you can then define resource bindings for the instance.
+Call the [**ID3D11Module::CreateInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11module-createinstance) method to create an instance ([**ID3D11ModuleInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance)) of the library so you can then define resource bindings for the instance.
 
-Call the bind methods of [**ID3D11ModuleInstance**](https://msdn.microsoft.com/library/windows/desktop/dn280564) to bind the resources you need from source slots to destination slots. The resources can be textures, buffers, samplers, constant buffers, or UAVs. Typically, you will use the same slots as the source library.
+Call the bind methods of [**ID3D11ModuleInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance) to bind the resources you need from source slots to destination slots. The resources can be textures, buffers, samplers, constant buffers, or UAVs. Typically, you will use the same slots as the source library.
 
 
 ```C++
@@ -85,7 +85,7 @@ Call the bind methods of [**ID3D11ModuleInstance**](https://msdn.microsoft.com/l
 
 
 
-This HLSL code from the [HLSL shader compiler sample](https://go.microsoft.com/fwlink/?LinkId=321937) shows that the source library uses the same slots (t0, s0, b0, b1, and b2) as the slots used in the preceding bind methods of [**ID3D11ModuleInstance**](https://msdn.microsoft.com/library/windows/desktop/dn280564).
+This HLSL code from the [HLSL shader compiler sample](https://go.microsoft.com/fwlink/?LinkId=321937) shows that the source library uses the same slots (t0, s0, b0, b1, and b2) as the slots used in the preceding bind methods of [**ID3D11ModuleInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance).
 
 ``` syntax
 // This is the default code in the fixed header section.

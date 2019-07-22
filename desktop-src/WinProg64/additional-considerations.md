@@ -114,7 +114,7 @@ When porting your code, consider the following points:
     malloc(offsetof(struct xx, Pointers) + 100*sizeof(PVOID));
     ```
 
--   Do not pass `(HANDLE)0xFFFFFFFF` to functions such as [**CreateFileMapping**](https://msdn.microsoft.com/library/windows/desktop/aa366537). Instead, use **INVALID\_HANDLE\_VALUE**.
+-   Do not pass `(HANDLE)0xFFFFFFFF` to functions such as [**CreateFileMapping**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga). Instead, use **INVALID\_HANDLE\_VALUE**.
 -   Use the proper format specifiers when printing a string. Use %p to print pointers in hexadecimal. This is the best choice for printing pointers. Microsoft Visual C++ supports %I to print polymorphic data. Visual C++ also supports %I64 to print values that are 64 bits.
 
  

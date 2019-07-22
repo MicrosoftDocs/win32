@@ -2,7 +2,7 @@
 title: IBitsTokenOptions Methods
 description: The IBitsTokenOptions interface exposes the following methods.
 ms.assetid: 1C78E31B-0536-4319-A148-8ED9D0F698BB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -80,7 +80,7 @@ The format the texture will be saved as. See [**D3DX11\_IMAGE\_FILE\_FORMAT**](d
 *ppDestBuf* \[out\]
 </dt> <dd>
 
-Type: **[**LPD3D10BLOB**](https://msdn.microsoft.com/library/windows/desktop/bb173507)\***
+Type: **[**LPD3D10BLOB**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\***
 
 Address of a pointer to the memory containing the saved texture.
 
@@ -89,7 +89,7 @@ Address of a pointer to the memory containing the saved texture.
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Optional.
 

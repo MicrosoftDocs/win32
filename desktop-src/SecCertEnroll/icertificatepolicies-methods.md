@@ -2,7 +2,7 @@
 Description: The ICertificatePolicies interface exposes the following methods.
 ms.assetid: 6AFD3EFB-AAFB-4E0F-8221-14AC0CBFF5BF
 title: ICertificatePolicies Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

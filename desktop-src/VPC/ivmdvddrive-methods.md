@@ -2,13 +2,13 @@
 title: IVMDVDDrive Methods
 description: The IVMDVDDrive interface exposes the following methods.
 ms.assetid: 13F2C071-6972-4458-89E0-82EC4A071317
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # IVMDVDDrive Methods
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 The [**IVMDVDDrive**](ivmdvddrive.md) interface exposes the following methods.
 

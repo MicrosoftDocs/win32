@@ -28,7 +28,7 @@ Returns or sets the client's **ConfidenceText** that appears in the Listening Ti
 
 | Part     | Description                                                                                                           |
 |----------|-----------------------------------------------------------------------------------------------------------------------|
-| *string* | A string expression that evaluates to the text for the **ConfidenceText** for the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441). |
+| *string* | A string expression that evaluates to the text for the **ConfidenceText** for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object). |
 
 
 

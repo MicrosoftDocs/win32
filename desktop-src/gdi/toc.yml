@@ -147,7 +147,7 @@
         - name: "BITMAPINFO"
           href: /windows/desktop/api/Wingdi/ns-wingdi-tagbitmapinfo
         - name: "BITMAPINFOHEADER"
-          href: https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)
         - name: "BITMAPV4HEADER"
           href: /windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header
         - name: "BITMAPV5HEADER"
@@ -167,7 +167,7 @@
         - name: "RGBTRIPLE"
           href: /windows/desktop/api/Wingdi/ns-wingdi-tagrgbtriple
         - name: "SIZE"
-          href: https://msdn.microsoft.com/en-us/library/Dd145106(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)
         - name: "TRIVERTEX"
           href: /windows/desktop/api/Wingdi/ns-wingdi-_trivertex
       - name: "Bitmap Macros"
@@ -366,7 +366,7 @@
         - name: "LOGPALETTE"
           href: /windows/desktop/api/Wingdi/ns-wingdi-taglogpalette
         - name: "PALETTEENTRY"
-          href: https://msdn.microsoft.com/en-us/library/Dd162769(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)
       - name: "Color Macros"
         href: color-macros.md
         items: 
@@ -448,7 +448,7 @@
         - name: "GetCurrentPositionEx"
           href: /windows/desktop/api/Wingdi/nf-wingdi-getcurrentpositionex
         - name: "GetDisplayAutoRotationPreferences"
-          href: https://msdn.microsoft.com/en-us/library/Dn376360(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dn376360(v=vs.85)
         - name: "GetGraphicsMode"
           href: /windows/desktop/api/Wingdi/nf-wingdi-getgraphicsmode
         - name: "GetMapMode"
@@ -480,7 +480,7 @@
         - name: "ScreenToClient"
           href: /windows/desktop/api/Winuser/nf-winuser-screentoclient
         - name: "SetDisplayAutoRotationPreferences"
-          href: https://msdn.microsoft.com/en-us/library/Dn376361(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dn376361(v=vs.85)
         - name: "SetGraphicsMode"
           href: /windows/desktop/api/Wingdi/nf-wingdi-setgraphicsmode
         - name: "SetMapMode"
@@ -582,7 +582,7 @@
         - name: "EnumObjects"
           href: /windows/desktop/api/Wingdi/nf-wingdi-enumobjects
         - name: "GOBJENUMPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd162686(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162686(v=vs.85)
         - name: "GetCurrentObject"
           href: /windows/desktop/api/Wingdi/nf-wingdi-getcurrentobject
         - name: "GetDC"
@@ -629,7 +629,7 @@
         - name: "DISPLAY_DEVICE"
           href: /windows/desktop/api/Wingdi/ns-wingdi-_display_devicea
         - name: "VIDEOPARAMETERS"
-          href: https://msdn.microsoft.com/en-us/library/Dd145196(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)
       - name: "Device Context Messages"
         href: device-context-messages.md
         items: 
@@ -781,17 +781,17 @@
         - name: "EnableEUDC"
           href: enableeudc.md
         - name: "FONTENUMPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd162618(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162618(v=vs.85)
         - name: "EnumFontFamilies"
           href: /windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa
         - name: "EnumFontFamiliesEx"
           href: /windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa
         - name: "FONTENUMPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd162621(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162621(v=vs.85)
         - name: "EnumFonts"
           href: /windows/desktop/api/Wingdi/nf-wingdi-enumfontsa
         - name: "FONTENUMPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd162623(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162623(v=vs.85)
         - name: "ExtTextOut"
           href: /windows/desktop/api/Wingdi/nf-wingdi-exttextouta
         - name: "GetAspectRatioFilterEx"
@@ -962,7 +962,7 @@
         - name: "MergeFontPackage"
           href: /windows/desktop/api/FontSub/nf-fontsub-mergefontpackage
         - name: "READEMBEDPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd162894(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162894(v=vs.85)
         - name: "TTCharToUnicode"
           href: /windows/desktop/api/T2embapi/nf-t2embapi-ttchartounicode
         - name: "TTDeleteEmbeddedFont"
@@ -992,7 +992,7 @@
         - name: "TTRunValidationTestsEx"
           href: /windows/desktop/api/T2embapi/nf-t2embapi-ttrunvalidationtestsex
         - name: "WRITEEMBEDPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd145225(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd145225(v=vs.85)
       - name: "Font Embedding Structures"
         href: font-embedding-services-structures.md
         items: 
@@ -1116,13 +1116,13 @@
         - name: "DeleteMetaFile"
           href: /windows/desktop/api/Wingdi/nf-wingdi-deletemetafile
         - name: "ENHMFENUMPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd162606(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)
         - name: "EnumEnhMetaFile"
           href: /windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile
         - name: "EnumMetaFile"
           href: /windows/desktop/api/Wingdi/nf-wingdi-enummetafile
         - name: "MFENUMPROC"
-          href: https://msdn.microsoft.com/en-us/library/Dd162630(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)
         - name: "GdiComment"
           href: /windows/desktop/api/Wingdi/nf-wingdi-gdicomment
         - name: "GetEnhMetaFile"
@@ -1307,9 +1307,9 @@
         - name: "METARECORD"
           href: /windows/desktop/api/Wingdi/ns-wingdi-tagmetarecord
         - name: "POINTL"
-          href: https://msdn.microsoft.com/en-us/library/Dd162807(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)
         - name: "RECTL"
-          href: https://msdn.microsoft.com/en-us/library/Dd162907(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)
   - name: "Multiple Display Monitors"
     href: multiple-display-monitors.md
     items: 
@@ -1704,11 +1704,11 @@
         href: rectangle-structures.md
         items: 
         - name: "POINT"
-          href: https://msdn.microsoft.com/en-us/library/Dd162805(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)
         - name: "POINTS"
-          href: https://msdn.microsoft.com/en-us/library/Dd162808(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)
         - name: "RECT"
-          href: https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)
       - name: "Rectangle Macros"
         href: rectangle-macros.md
         items: 

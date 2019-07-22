@@ -225,13 +225,13 @@
       - name: "PSAM_PASSWORD_FILTER_ROUTINE"
         href: /windows/desktop/api/Ntsecapi/nc-ntsecapi-psam_password_filter_routine
       - name: "PFSCE_FREE_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms721887(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info
       - name: "PFSCE_LOG_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms721889(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_log_info
       - name: "PFSCE_QUERY_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms721890(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info
       - name: "PFSCE_SET_INFO"
-        href: https://msdn.microsoft.com/en-us/library/ms721892(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info
       - name: "SaferCloseLevel"
         href: /windows/desktop/api/WinSafer/nf-winsafer-safercloselevel
       - name: "SaferComputeTokenFromLevel"
@@ -332,7 +332,7 @@
       - name: "LSA_OBJECT_ATTRIBUTES"
         href: /windows/desktop/api/LsaLookup/ns-lsalookup-_lsa_object_attributes
       - name: "LSA_REFERENCED_DOMAIN_LIST"
-        href: https://msdn.microsoft.com/en-us/library/ms721834(v=VS.85).aspx
+        href: https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list
       - name: "LSA_TRANSLATED_NAME"
         href: /windows/desktop/api/LsaLookup/ns-lsalookup-_lsa_translated_name
       - name: "LSA_TRANSLATED_SID"

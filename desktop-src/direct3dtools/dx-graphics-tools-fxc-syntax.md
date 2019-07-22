@@ -116,7 +116,7 @@ lib_4_0_level_9_3<br />
 lib_4_0_level_9_3_vs_only<br />
 lib_4_0_level_9_3_ps_only<br />
 lib_5_0<br />
-</dl> For more info about shader linking, see <a href="https://msdn.microsoft.com/library/windows/desktop/dn280558"><strong>ID3D11Linker</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dn280535"><strong>ID3D11FunctionLinkingGraph</strong></a>. <br/></td></tr><tr class="odd"><td>Hull Shader</td><td><dl> hs_5_0<br />
+</dl> For more info about shader linking, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11linker"><strong>ID3D11Linker</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionlinkinggraph"><strong>ID3D11FunctionLinkingGraph</strong></a>. <br/></td></tr><tr class="odd"><td>Hull Shader</td><td><dl> hs_5_0<br />
 hs_5_1<br />
 </dl></td></tr><tr class="even"><td>Pixel Shader</td><td><dl> ps_2_0<br />
 ps_2_a<br />
@@ -156,11 +156,11 @@ vs_5_1<br />
 
   : this option requires the D3dcompiler\_47.dll or a later version of the DLL.
 
-For Direct3D 12 refer to [Specifying Root Signatures in HLSL](https://msdn.microsoft.com/library/windows/desktop/dn913202), [Resource Binding in HLSL](https://msdn.microsoft.com/library/windows/desktop/dn899207) and [Dynamic Indexing using HLSL 5.1](https://msdn.microsoft.com/library/windows/desktop/mt186614).
+For Direct3D 12 refer to [Specifying Root Signatures in HLSL](https://docs.microsoft.com/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl), [Resource Binding in HLSL](https://docs.microsoft.com/windows/desktop/direct3d12/resource-binding-in-hlsl) and [Dynamic Indexing using HLSL 5.1](https://docs.microsoft.com/windows/desktop/direct3d12/dynamic-indexing-using-hlsl-5-1).
 
-In Direct3D 10 use the API to get the vertex, geometry, and pixel-shader profile best suited to a given device by calling these functions: [**D3D10GetVertexShaderProfile**](https://msdn.microsoft.com/library/windows/desktop/bb205099), [**D3D10GetPixelShaderProfile**](https://msdn.microsoft.com/library/windows/desktop/bb205097), and [**D3D10GetGeometryShaderProfile**](https://msdn.microsoft.com/library/windows/desktop/bb205093).
+In Direct3D 10 use the API to get the vertex, geometry, and pixel-shader profile best suited to a given device by calling these functions: [**D3D10GetVertexShaderProfile**](https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-d3d10getvertexshaderprofile), [**D3D10GetPixelShaderProfile**](https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-d3d10getpixelshaderprofile), and [**D3D10GetGeometryShaderProfile**](https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-d3d10getgeometryshaderprofile).
 
-In Direct3D 9 use the [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/bb174320) or [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/bb174385) methods to retrieve the vertex and pixel-shader profiles supported by a device. The [**D3DCAPS9**](https://msdn.microsoft.com/library/windows/desktop/bb172513) structure returned by those methods indicates the vertex and pixel-shader profiles supported by a device in its **VertexShaderVersion** and **PixelShaderVersion** members.
+In Direct3D 9 use the [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps) or [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdevicecaps) methods to retrieve the vertex and pixel-shader profiles supported by a device. The [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9) structure returned by those methods indicates the vertex and pixel-shader profiles supported by a device in its **VertexShaderVersion** and **PixelShaderVersion** members.
 
 For examples, see [Compiling with the Current Compiler](dx-graphics-tools-fxc-using.md).
 

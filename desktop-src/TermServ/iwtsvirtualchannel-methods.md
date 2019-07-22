@@ -3,7 +3,7 @@ title: IWTSVirtualChannel Methods
 description: The IWTSVirtualChannel interface exposes the following methods.
 ms.assetid: 3B9AA1F6-0414-4860-AB28-9A450B3450E0
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

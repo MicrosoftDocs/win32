@@ -51,10 +51,10 @@ To submit your app for certification, you'll need to log in or register a compan
 
 | Topic                                                                                                                   | Description                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Set up your account](https://msdn.microsoft.com/library/windows/hardware/br230795.aspx)                 | If your company isn't already registered, you must register it through the Windows Certification Dashboard.                                        |
-| [Get a code signing certificate](https://msdn.microsoft.com/library/windows/hardware/hh801887.aspx)      | Before you can establish a Windows Certification Dashboard account, you need to get a code signing certificate to secure your digital information. |
-| [Test locally and upload the results](https://msdn.microsoft.com/library/windows/hardware/br230771.aspx) | After your run the Windows App Certification Kit tests, upload the results to the Windows Certification Dashboard.                                 |
-| [Manage your submission](https://msdn.microsoft.com/library/windows/hardware/br230791.aspx)              | After you submit your app for certification, you can review your submission through the Windows Certification Dashboard.                           |
+| [Set up your account](https://docs.microsoft.com/windows-hardware/drivers/dashboard/)                 | If your company isn't already registered, you must register it through the Windows Certification Dashboard.                                        |
+| [Get a code signing certificate](https://docs.microsoft.com/windows-hardware/drivers/dashboard/)      | Before you can establish a Windows Certification Dashboard account, you need to get a code signing certificate to secure your digital information. |
+| [Test locally and upload the results](https://docs.microsoft.com/windows-hardware/drivers/dashboard/) | After your run the Windows App Certification Kit tests, upload the results to the Windows Certification Dashboard.                                 |
+| [Manage your submission](https://docs.microsoft.com/windows-hardware/drivers/dashboard/)              | After you submit your app for certification, you can review your submission through the Windows Certification Dashboard.                           |
 
 
 
@@ -81,7 +81,7 @@ To submit your app for certification, you'll need to log in or register a compan
 
 [Windows Server forum]( https://go.microsoft.com/fwlink/p/?LinkId=703928): Visit the Certification forum to get answers.
 
-[Compatibility cookbook](https://msdn.microsoft.com/library/windows/desktop/hh848074): Get info about what's new or changed in the latest version of Windows.
+[Compatibility cookbook](https://docs.microsoft.com/windows/desktop/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal): Get info about what's new or changed in the latest version of Windows.
 
  
 

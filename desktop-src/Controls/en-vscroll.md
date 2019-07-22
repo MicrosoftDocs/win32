@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_VSCROLL notification code
 
-Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. The parent window is notified before the screen is updated.
+Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. The parent window is notified before the screen is updated.
 
 
 ```C++
@@ -37,7 +37,7 @@ EN_VSCROLL
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) contains the identifier of the edit control. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the notification code.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -52,7 +52,7 @@ A handle to the edit control.
 
 This message is sent for the following mouse events on the vertical scroll bar: clicking either arrow button or clicking between the arrow button and the thumb. However, the message is not sent when clicking the scroll bar mouse itself. The message is also sent when a keyboard event causes a change in the view area of the edit control, for example, pressing HOME, END, PAGE UP, PAGE DOWN, UP ARROW, or DOWN ARROW.
 
-The mouse wheel is a mouse that has a center wheel that scrolls. For more information, see "The Mouse Wheel" in [About Mouse Input](https://msdn.microsoft.com/library/windows/desktop/ms645601).
+The mouse wheel is a mouse that has a center wheel that scrolls. For more information, see "The Mouse Wheel" in [About Mouse Input](https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input).
 
 **Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_VSCROLL notification codes, specify [**ENM\_SCROLL**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
@@ -87,7 +87,7 @@ The mouse wheel is a mouse that has a center wheel that scrolls. For more inform
 **Other Resources**
 </dt> <dt>
 
-[**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
+[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  

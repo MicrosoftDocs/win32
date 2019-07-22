@@ -49,7 +49,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_RO
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_ROOT\_SIGNATURE(ID3D12RootSignature\* const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_ROOT\_SIGNATURE, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_ROOT\_SIGNATURE** and subobject data copied from *i*, a [**ID3D12RootSignature**](https://msdn.microsoft.com/library/windows/desktop/dn788714) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_ROOT\_SIGNATURE, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_ROOT\_SIGNATURE** and subobject data copied from *i*, a [**ID3D12RootSignature**](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignature) structure.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ Copy-assignment operator.
 **operator ID3D12RootSignature\*() const**
 </dt> <dd>
 
-Implicit conversion to a [**ID3D12RootSignature**](https://msdn.microsoft.com/library/windows/desktop/dn788714) structure pointer.
+Implicit conversion to a [**ID3D12RootSignature**](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignature) structure pointer.
 
 </dd> </dl>
 
@@ -100,7 +100,7 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<ID3D12RootSignature*, D3D12_PIPE
 [**CD3DX12\_PIPELINE\_STATE\_STREAM\_SUBOBJECT**](cd3dx12-pipeline-state-stream-subobject.md)
 </dt> <dt>
 
-[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
+[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type)
 </dt> </dl>
 
  

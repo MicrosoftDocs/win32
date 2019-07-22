@@ -2,7 +2,7 @@
 title: IBitsPeerCacheAdministration Methods
 description: The IBitsPeerCacheAdministration interface exposes the following methods.
 ms.assetid: 8EE6537F-8BCC-47FE-9CF4-05D1102F8BF5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -189,7 +189,7 @@ The following table lists the generic format output for a **PROP\_TYPE\_RAW\_DAT
 
 The following table lists the generic format output for a **PROP\_TYPE\_TIME** data type property. Be aware that the formatted output may vary depending on the data qualifier of the property.
 
-The generic formatter calls [**GetDateFormat**](https://msdn.microsoft.com/library/windows/desktop/dd318086) to get a time that is based on the system clock of the local computer.
+The generic formatter calls [**GetDateFormat**](https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata) to get a time that is based on the system clock of the local computer.
 
 
 

@@ -15,11 +15,11 @@ The following two settings can be specified relative to impersonation on the cli
 
 The impersonation level can be set in a variety of ways. If the client does not indicate an impersonation level, the machine-wide default will be used by COM. The machine-wide default can be set using either the Component Services administrative tool or Dcomcnfg.exe. The client can also indicate a preferred impersonation level administratively with Dcomcnfg.exe.
 
-The client can indicate the impersonation level programmatically, using either [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/windows/desktop/ms692692)—equivalent to [**IClientSecurity::SetBlanket**](https://msdn.microsoft.com/library/windows/desktop/ms691255), which can be called as often as necessary—or [**CoInitializeSecurity**](https://msdn.microsoft.com/library/windows/desktop/ms693736), which can be called once per process.
+The client can indicate the impersonation level programmatically, using either [**CoSetProxyBlanket**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket)—equivalent to [**IClientSecurity::SetBlanket**](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket), which can be called as often as necessary—or [**CoInitializeSecurity**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), which can be called once per process.
 
 If the client indicates delegate-level impersonation—the broadest authority it can grant to the server—the client should be running under an identity that is properly configured in the Active Directory Service to enable its identity to be delegated.
 
-For more detail regarding impersonation levels and the requirements for delegation to work, see [Delegation and Impersonation](https://msdn.microsoft.com/library/windows/desktop/ms680054).
+For more detail regarding impersonation levels and the requirements for delegation to work, see [Delegation and Impersonation](https://docs.microsoft.com/windows/desktop/com/delegation-and-impersonation).
 
 COM+ applications can always act as clients, of course. When the COM+ application makes a call to another application or resource, it expresses an impersonation level. For COM+ server applications, you can set an impersonation level administratively. COM+ library applications cannot set their own impersonation level; they use that of the host process instead. To learn how to set impersonation for a COM+ application, see [Setting an Impersonation Level](setting-an-impersonation-level.md).
 

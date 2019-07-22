@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Embedding Objects in a Class
 
-An embedded object is an object of a class that exists within a class or instance declaration of another class. For example, the [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) class contains [**Win32\_Trustee**](https://msdn.microsoft.com/library/aa394501) embedded objects. Each of the **Win32\_Trustee** objects contains a [**Win32\_ACE**](https://msdn.microsoft.com/library/aa394063) object. WMI does not limit the depth to which a class can have embedded objects. However, using another design, such as creating an association class, may make a more manageable schema.
+An embedded object is an object of a class that exists within a class or instance declaration of another class. For example, the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class contains [**Win32\_Trustee**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-trustee) embedded objects. Each of the **Win32\_Trustee** objects contains a [**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace) object. WMI does not limit the depth to which a class can have embedded objects. However, using another design, such as creating an association class, may make a more manageable schema.
 
 For more information about embedded objects, see the following topics:
 

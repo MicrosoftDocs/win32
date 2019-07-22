@@ -219,7 +219,7 @@ Do not use this function or the <strong>StrCatN</strong> macro. See Remarks for 
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobstr"><strong>StrRetToBSTR</strong></a><br/></td>
-<td>Accepts a <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a> that contains or points to a string, and returns that string as a <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx"><strong>BSTR</strong></a>.<br/></td>
+<td>Accepts a <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a> that contains or points to a string, and returns that string as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr"><strong>BSTR</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobufa"><strong>StrRetToBuf</strong></a><br/></td>
@@ -267,7 +267,7 @@ Do not use this function or the <strong>StrCatN</strong> macro. See Remarks for 
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-wnsprintfa"><strong>wnsprintf</strong></a><br/></td>
-<td>Takes a variable-length argument list and returns the values of the arguments as a <a href="https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx"><strong>printf</strong></a>-style formatted string. <br/>
+<td>Takes a variable-length argument list and returns the values of the arguments as a <a href="https://www.microsoft.com/download/details.aspx?id=55979"><strong>printf</strong></a>-style formatted string. <br/>
 <blockquote>
 [!Note]<br />
 Do not use this function. See Remarks for alternative functions.
@@ -276,7 +276,7 @@ Do not use this function. See Remarks for alternative functions.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-wvnsprintfa"><strong>wvnsprintf</strong></a><br/></td>
-<td>Takes a list of arguments and returns the values of the arguments as a <a href="https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx"><strong>printf</strong></a>-style formatted string. <br/>
+<td>Takes a list of arguments and returns the values of the arguments as a <a href="https://www.microsoft.com/download/details.aspx?id=55979"><strong>printf</strong></a>-style formatted string. <br/>
 <blockquote>
 [!Note]<br />
 Do not use this function. See Remarks for alternative functions.

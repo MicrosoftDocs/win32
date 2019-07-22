@@ -27,7 +27,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 [Smart Card Functions](authentication-functions.md) return the following return values. These return values are defined in Scarderr.h.
 
 > [!Note]  
-> Some return values may have the same value as existing Windows return values that signify a similar condition. For information about error codes not listed here, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+> Some return values may have the same value as existing Windows return values that signify a similar condition. For information about error codes not listed here, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
  
 
@@ -43,12 +43,12 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 | SCARD\_E\_CERTIFICATE\_UNAVAILABLE<br/> 0x8010002D<br/> | The requested certificate could not be obtained.<br/>                                                                                                                                                 |
 | SCARD\_E\_COMM\_DATA\_LOST<br/> 0x8010002F<br/>         | A communications error with the smart card has been detected. <br/>                                                                                                                                   |
 | SCARD\_E\_DIR\_NOT\_FOUND<br/> 0x80100023<br/>          | The specified directory does not exist in the smart card.<br/>                                                                                                                                        |
-| SCARD\_E\_DUPLICATE\_READER<br/> 0x8010001B<br/>        | The [*reader*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-reader-gly) driver did not produce a unique reader name.<br/>                                                                            |
+| SCARD\_E\_DUPLICATE\_READER<br/> 0x8010001B<br/>        | The [*reader*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) driver did not produce a unique reader name.<br/>                                                                            |
 | SCARD\_E\_FILE\_NOT\_FOUND<br/> 0x80100024<br/>         | The specified file does not exist in the smart card.<br/>                                                                                                                                             |
 | SCARD\_E\_ICC\_CREATEORDER<br/> 0x80100021<br/>         | The requested order of object creation is not supported.<br/>                                                                                                                                         |
 | SCARD\_E\_ICC\_INSTALLATION<br/> 0x80100020<br/>        | No primary provider can be found for the smart card.<br/>                                                                                                                                             |
 | SCARD\_E\_INSUFFICIENT\_BUFFER<br/> 0x80100008<br/>     | The data buffer for returned data is too small for the returned data.<br/>                                                                                                                            |
-| SCARD\_E\_INVALID\_ATR<br/> 0x80100015<br/>             | An [*ATR string*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-atr-string-gly) obtained from the registry is not a valid ATR string.<br/>                                                        |
+| SCARD\_E\_INVALID\_ATR<br/> 0x80100015<br/>             | An [*ATR string*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) obtained from the registry is not a valid ATR string.<br/>                                                        |
 | SCARD\_E\_INVALID\_CHV<br/> 0x8010002A<br/>             | The supplied PIN is incorrect.<br/>                                                                                                                                                                   |
 | SCARD\_E\_INVALID\_HANDLE<br/> 0x80100003<br/>          | The supplied handle was not valid.<br/>                                                                                                                                                               |
 | SCARD\_E\_INVALID\_PARAMETER<br/> 0x80100004<br/>       | One or more of the supplied parameters could not be properly interpreted.<br/>                                                                                                                        |
@@ -61,7 +61,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 | SCARD\_E\_NO\_MEMORY<br/> 0x80100006<br/>               | Not enough memory available to complete this command.<br/>                                                                                                                                            |
 | SCARD\_E\_NO\_PIN\_CACHE<br/> 0x80100033<br/>           | The smart card PIN cannot be cached.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This error code is not available.<br/> <br/>                        |
 | SCARD\_E\_NO\_READERS\_AVAILABLE<br/> 0x8010002E<br/>   | No smart card reader is available.<br/>                                                                                                                                                               |
-| SCARD\_E\_NO\_SERVICE<br/> 0x8010001D<br/>              | The smart card [*resource manager*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-resource-manager-gly) is not running.<br/>                                                                |
+| SCARD\_E\_NO\_SERVICE<br/> 0x8010001D<br/>              | The smart card [*resource manager*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) is not running.<br/>                                                                |
 | SCARD\_E\_NO\_SMARTCARD<br/> 0x8010000C<br/>            | The operation requires a smart card, but no smart card is currently in the device.<br/>                                                                                                               |
 | SCARD\_E\_NO\_SUCH\_CERTIFICATE<br/> 0x8010002C<br/>    | The requested certificate does not exist.<br/>                                                                                                                                                        |
 | SCARD\_E\_NOT\_READY<br/> 0x80100010<br/>               | The reader or card is not ready to accept commands.<br/>                                                                                                                                              |
@@ -112,7 +112,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 
 <dl> <dt>
 
-[System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381)
+[System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes)
 </dt> </dl>
 
  

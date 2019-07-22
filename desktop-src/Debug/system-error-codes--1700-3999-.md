@@ -1,20 +1,19 @@
 ---
-Description: The System Error Codes are very broad.
+Description: Describes error codes 1700-3999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 7e57c087-53e4-443d-9227-21d9eb3cc71f
 title: System Error Codes (1700-3999)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/18/2019
 ---
 
 # System Error Codes (1700-3999)
 
-**Note**  
+> [!NOTE]
+> This information is intended for developers so that the software they write can better deal with errors. If you're experiencing difficulty with an application that you're installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, visit [Microsoft Support](https://support.microsoft.com).
 
-The information on this page is intended to be used by programmers so that the software they write can better deal with errors. If you are an end-user that is experiencing difficulty with an application you are installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, go to [https://support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978).
+System Error Codes are very broad: each one can occur in one of many hundreds of locations in the system. Consequently, the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the runtime context in which these errors occur. Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. And sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
 
-The System Error Codes are very broad. Each one can occur in one of many hundreds of locations in the system. Consequently the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the run-time context in which these errors occur. Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. Sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
-
-The following list describes [system error codes](system-error-codes.md) for errors 1700 to 3999. They are returned by the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
+The following list describes [system error codes](system-error-codes.md) for errors 1700 to 3999. They are returned by the [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
 
 <dl> <dt>
 
@@ -2930,9 +2929,6 @@ Reissue the given operation as a cached IO operation.
 
 </dt> </dl> </dd> </dl>
 
-## Suggestions?
-
-If you have additional suggestions regarding the System Error Codes documentation, given the constraints enumerated at the top of the page, please click the link labeled "Send comments about this topic to Microsoft" below. We appreciate the input.
 
 ## Requirements
 

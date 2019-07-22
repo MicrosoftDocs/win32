@@ -1,14 +1,16 @@
 ---
-Description: 'The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.'
+Description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
 audience: developer
-ms.assetid: '337dc247-9904-457a-a1f3-e1cf29b61126'
+ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.tgt_platform: multiple
-title: 'WBEMTimeSpan::WbemTimeSpan constructors'
+title: WBEMTimeSpan::WbemTimeSpan constructors
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # WBEMTimeSpan::WbemTimeSpan constructors
 
-\[The [**WBEMTimeSpan**](https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**WBEMTimeSpan**](https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The **WBEMTimeSpan** class constructor creates a time span object. The constructor is overloaded.
 

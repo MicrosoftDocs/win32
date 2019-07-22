@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareElementVersionCheck class exposes the following me
 ms.assetid: BEAB9093-6188-4BA7-8654-DBEA709E0E5F
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementVersionCheck Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

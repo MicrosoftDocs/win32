@@ -52,7 +52,7 @@ public static bool SupportsServer2003Features { get; }
 
 #### Property value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
 
 ## See also
 

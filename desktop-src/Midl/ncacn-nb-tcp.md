@@ -81,7 +81,7 @@ interface iface
 [**ncalrpc**](ncalrpc.md)
 </dt> <dt>
 
-[**string binding**](https://msdn.microsoft.com/library/windows/desktop/aa378691)
+[**string binding**](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ title: Win32_TSGatewayResourceAuthorizationPolicy Methods
 description: The Win32\_TSGatewayResourceAuthorizationPolicy class exposes the following methods.
 ms.assetid: A30CB78B-7A60-4582-802C-3742CB5B84CC
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

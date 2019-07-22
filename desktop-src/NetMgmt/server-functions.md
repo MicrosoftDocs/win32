@@ -61,7 +61,7 @@ Server-specific information is available at the following levels:
 -   [**SERVER\_INFO\_1550**](/windows/desktop/api/Lmserver/ns-lmserver-_server_info_1550)
 -   [**SERVER\_INFO\_1552**](/windows/desktop/api/Lmserver/ns-lmserver-_server_info_1552)
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management server functions. For more information, see [**IADsComputer**](https://msdn.microsoft.com/library/aa705980).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management server functions. For more information, see [**IADsComputer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer).
 
 For more information, see the [Server and Workstation Transport Functions](server-and-workstation-transport-functions.md).
 

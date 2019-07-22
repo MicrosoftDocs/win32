@@ -3,7 +3,7 @@ title: Win32_TerminalServiceSetting Methods
 description: The Win32\_TerminalServiceSetting class exposes the following methods.
 ms.assetid: B25BD6DE-077C-46FB-8F09-A875B6FAEE3E
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

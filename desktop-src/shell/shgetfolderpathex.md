@@ -3,10 +3,10 @@ UID:
 title: SHGetFolderPathEx function
 author: TimShererWithAquent
 description: Retrieves the path of a known folder identified by the KNOWNFOLDERID.
-old-location:
+old-location: 
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 4/10/2019
+ms.date: 04/10/2019
 ms.keywords: SHGetFolderPath
 ms.topic: function
 req.header: Shlobj.h
@@ -28,12 +28,12 @@ req.dll: API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
 req.irql: 
 topic_type:
 - APIRef
-api_type:
-api_location: 
+api_type: 
+api_location:
 - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
-api_name: 
+api_name:
 - SHGetFolderPathEx
-product: 
+product:
 - Windows SDK
 targetos: Windows
 req.typenames: 

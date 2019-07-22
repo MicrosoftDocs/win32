@@ -22,7 +22,7 @@ The **IWMDRMEventGenerator** interface is an extension of the **IMFMediaEventGen
 
 ## Members
 
-The **IWMDRMEventGenerator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWMDRMEventGenerator** also has these types of members:
+The **IWMDRMEventGenerator** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMEventGenerator** also has these types of members:
 
 -   [Methods](#methods)
 

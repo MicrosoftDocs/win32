@@ -15,7 +15,7 @@ The Basetsd.h header file defines the new data types needed for writing applicat
 
 Alternatively, you can include or import the Basetsd.idl file into your IDL file.
 
-For more information on adding system header files to your IDL file, see [Importing Files and Type Libraries](https://msdn.microsoft.com/library/windows/desktop/aa367048) and [Importing System Header Files](https://msdn.microsoft.com/library/windows/desktop/aa367049).
+For more information on adding system header files to your IDL file, see [Importing Files and Type Libraries](https://docs.microsoft.com/windows/desktop/Midl/importing-files-and-type-libraries) and [Importing System Header Files](https://docs.microsoft.com/windows/desktop/Midl/importing-system-header-files).
 
  
 

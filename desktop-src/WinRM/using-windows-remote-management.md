@@ -29,7 +29,7 @@ The following list includes topics that describe how to use WinRM scripting:
 
 ## Tracing WinRM Activity
 
-Because WinRM obtains data through [Windows Management Instrumentation (WMI)](https://msdn.microsoft.com/library/aa394582), you can trace WMI activity that results from WinRM messages. Starting with Windows Vista, the WMI service no longer uses the [WMI Log Files](https://msdn.microsoft.com/library/aa394564). Instead it uses [Event Tracing](https://msdn.microsoft.com/library/windows/desktop/bb968803) (ETW) and events are available through the **Event Viewer** UI or the Evtutil command line tool.
+Because WinRM obtains data through [Windows Management Instrumentation (WMI)](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page), you can trace WMI activity that results from WinRM messages. Starting with Windows Vista, the WMI service no longer uses the [WMI Log Files](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-log-files). Instead it uses [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) (ETW) and events are available through the **Event Viewer** UI or the Evtutil command line tool.
 
 ## Related topics
 

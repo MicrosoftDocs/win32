@@ -94,7 +94,7 @@ interface iface
 [**ncadg\_ipx**](ncadg-ipx.md)
 </dt> <dt>
 
-[String Binding](https://msdn.microsoft.com/library/windows/desktop/aa378691)
+[String Binding](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 ## Description
 
-Due to internal rendering changes in Internet Explorer 9, the [IHTMLElementRender::DrawToDC](https://msdn.microsoft.com/library/aa752273.aspx) and [IViewObject::Draw](https://msdn.microsoft.com/library/ms688655.aspx) APIs will now create a metafile containing a single bitmap that represents the web content instead of a rich metafile containing text and vector info. This change was due to the move from GDI rendering to hardware-accelerated Direct2D (D2D) rendering.
+Due to internal rendering changes in Internet Explorer 9, the [IHTMLElementRender::DrawToDC](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752273(v=vs.85)) and [IViewObject::Draw](https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw) APIs will now create a metafile containing a single bitmap that represents the web content instead of a rich metafile containing text and vector info. This change was due to the move from GDI rendering to hardware-accelerated Direct2D (D2D) rendering.
 
 This change affects apps that use these APIs and rely on text or vector info in the metafile.
 
@@ -28,7 +28,7 @@ Depending on the app that is affected by this change, users might see broken or 
 
 Apps that only need to extract text info from a web document (without positioning info) can use the [innerText](https://msdn.microsoft.com/library/aa752299(VS.85).aspx) property to extract text.
 
-Apps that use IViewObject::Draw can use the [FEATURE\_IVIEWOBJECTDRAW\_DMLT9\_WITH\_GDI](https://msdn.microsoft.com/library/ee330732.aspx) feature control key to revert to GDI rendering if the document mode:
+Apps that use IViewObject::Draw can use the [FEATURE\_IVIEWOBJECTDRAW\_DMLT9\_WITH\_GDI](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/general-info/ee330732(v=vs.85)) feature control key to revert to GDI rendering if the document mode:
 
 -   Is less or equal to 8
 -   The FCK authorizes that host to use GDI

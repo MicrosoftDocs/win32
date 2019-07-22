@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Dictionary
 
-[**IPropertyStorage::WritePropertyNames**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writepropertynames) is implemented using the [Property ID 0 dictionary](https://msdn.microsoft.com/library/windows/desktop/aa380307). Property ID 0 is not accessible through [**IPropertyStorage::ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple) or [**IPropertyStorage::WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple).
+[**IPropertyStorage::WritePropertyNames**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writepropertynames) is implemented using the [Property ID 0 dictionary](https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers). Property ID 0 is not accessible through [**IPropertyStorage::ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple) or [**IPropertyStorage::WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple).
 
  
 

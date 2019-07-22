@@ -1,14 +1,17 @@
 ---
 title: ID2D1ImageSourceFromWic EnsureCached methods
 description: Loads image data into caches of image sources if that data is not already cached.
-ms.assetid: '9addc82b-7446-1f2c-5666-f817b8b5707d'
-keywords: ["EnsureCached methods Direct2D"]
+ms.assetid: 9addc82b-7446-1f2c-5666-f817b8b5707d
+keywords:
+- EnsureCached methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1ImageSourceFromWic::EnsureCached methods

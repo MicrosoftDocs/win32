@@ -18,7 +18,7 @@ api_location:
 
 # NetConfigSet
 
-The **NetConfigSet** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the [registry](https://msdn.microsoft.com/library/windows/desktop/ms724871).
+The **NetConfigSet** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the [registry](https://docs.microsoft.com/windows/desktop/SysInfo/registry).
 
  
 

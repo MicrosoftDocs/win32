@@ -30,7 +30,7 @@ Get-WmiObject CIM_RegisteredProfile  -namespace root\interop
 
 ## Retrieving instances of a specific device profile
 
-The following Windows PowerShell command returns all instances of a specified profile through [**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375):
+The following Windows PowerShell command returns all instances of a specified profile through [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)):
 
 
 ```PowerShell
@@ -63,7 +63,7 @@ $pplan
 
 ## Calling a method
 
-The following Windows PowerShell command calls the [**Activate**](https://msdn.microsoft.com/library/dd904499) method for the power plan:
+The following Windows PowerShell command calls the [**Activate**](https://docs.microsoft.com/previous-versions/windows/desktop/powerwmiprov/activate-win32-powerplan) method for the power plan:
 
 
 ```PowerShell
@@ -82,10 +82,10 @@ $pplan[2].Activate()
 [Writing an Association Provider](writing-an-association-provider-for-interop.md)
 </dt> <dt>
 
-[**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375)
+[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))
 </dt> <dt>
 
-[**Win32\_PowerPlan**](https://msdn.microsoft.com/library/dd904531)
+[**Win32\_PowerPlan**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd904531(v=vs.85))
 </dt> </dl>
 
  

@@ -19,7 +19,7 @@ api_location:
 
 # SWbemEventSource object
 
-The **SWbemEventSource** object retrieves events from an event query in conjunction with [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md). You get an **SWbemEventSource** object if you make a call to **SWbemServices.ExecNotificationQuery** to make an event query. You can then use the [**NextEvent**](swbemeventsource-nextevent.md) method to retrieve events as they arrive. This object cannot be created by the VBScript [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) call.
+The **SWbemEventSource** object retrieves events from an event query in conjunction with [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md). You get an **SWbemEventSource** object if you make a call to **SWbemServices.ExecNotificationQuery** to make an event query. You can then use the [**NextEvent**](swbemeventsource-nextevent.md) method to retrieve events as they arrive. This object cannot be created by the VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) call.
 
 ## Members
 

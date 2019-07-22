@@ -41,7 +41,7 @@ uint32 GetSummaryInformation(
 
 Type: **CIM\_VirtualSystemSettingData\[\]**
 
-An array of [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) instances that specify the virtual machines or snapshots for which information is to be retrieved. If this parameter is **Null**, information for all virtual machines is retrieved.
+An array of [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instances that specify the virtual machines or snapshots for which information is to be retrieved. If this parameter is **Null**, information for all virtual machines is retrieved.
 
 </dd> <dt>
 
@@ -534,7 +534,7 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -673,7 +673,7 @@ public class GetSummaryInformationClassV2
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> <dt>
 
-[**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954)
+[**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85))
 </dt> <dt>
 
 [**Msvm\_SummaryInformation**](msvm-summaryinformation.md)

@@ -79,7 +79,7 @@ public static Nullable<float> RetrieveColumnAsFloat(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Single](https://msdn.microsoft.com/en-us/library/3www918f)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a float. Null if the column is null.  
 
 ## See also

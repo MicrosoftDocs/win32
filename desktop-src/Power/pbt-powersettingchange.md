@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PBT\_POWERSETTINGCHANGE event
 
-Power setting change event sent with a [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) window message or in a [**HandlerEx**](https://msdn.microsoft.com/library/windows/desktop/ms683241) notification callback for services.
+Power setting change event sent with a [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) window message or in a [**HandlerEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) notification callback for services.
 
 
 ```C++
@@ -83,7 +83,7 @@ No return value.
 [Power Management Events](power-management-events.md)
 </dt> <dt>
 
-[**HandlerEx**](https://msdn.microsoft.com/library/windows/desktop/ms683241)
+[**HandlerEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex)
 </dt> <dt>
 
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)

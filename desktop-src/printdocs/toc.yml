@@ -786,10 +786,10 @@
             - name: "WriteToStream1"
               href: /windows/desktop/api/XpsObjectModel_1/nf-xpsobjectmodel_1-ixpsompackage1-writetostream1
           - name: "IXpsOMPackageTarget"
-            href: https://msdn.microsoft.com/library/Ff970304(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/ff970304(v=vs.85)
             items: 
             - name: "CreateXpsOMPackageWriter"
-              href: https://msdn.microsoft.com/library/Ff970305(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/ff970305(v=vs.85)
           - name: "IXpsOMPackageWriter"
             href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter
             items: 
@@ -1080,7 +1080,7 @@
             - name: "SetAt"
               href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomremotedictionaryresourcecollection-setat
           - name: "IXpsOMResource"
-            href: https://msdn.microsoft.com/library/Dd372762(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/dd372762(v=vs.85)
           - name: "IXpsOMShareable"
             href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable
             items: 
@@ -1252,9 +1252,9 @@
             href: xps-color.md
             items: 
             - name: "XPS_COLOR_TYPE_SRGB"
-              href: https://msdn.microsoft.com/library/Dd372944(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/dd372944(v=vs.85)
             - name: "XPS_COLOR_TYPE_SCRGB"
-              href: https://msdn.microsoft.com/library/Dd372943(v=VS.85).aspx
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/dd372943(v=vs.85)
             - name: "XPS_COLOR_TYPE_CONTEXT"
               href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0024
           - name: "XPS_DASH"
@@ -1548,7 +1548,7 @@
           - name: "PackageStatusUpdated"
             href: /windows/desktop/api/Documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated
         - name: "IPrintDocumentPackageTarget"
-          href: https://msdn.microsoft.com/library/Hh448393(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget
           items: 
           - name: "Cancel"
             href: /windows/desktop/api/Documenttarget/nf-documenttarget-iprintdocumentpackagetarget-cancel

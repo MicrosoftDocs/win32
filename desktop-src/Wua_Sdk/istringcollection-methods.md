@@ -2,7 +2,7 @@
 Description: The IStringCollection interface defines the following methods.
 ms.assetid: 5decd8d1-1eae-4336-bce9-7df7ad09982a
 title: IStringCollection Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -26,7 +26,7 @@ The following C++ example shows how to test for the end of a file during a synch
 
 
 
-The test for end-of-file during an asynchronous read operation is slightly more involved than for a similar synchronous read operation. The end-of-file indicator for asynchronous read operations is when [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) returns **FALSE** and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_HANDLE\_EOF**.
+The test for end-of-file during an asynchronous read operation is slightly more involved than for a similar synchronous read operation. The end-of-file indicator for asynchronous read operations is when [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) returns **FALSE** and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_HANDLE\_EOF**.
 
 The following C++ example shows how to test for the end of file during an asynchronous read operation.
 

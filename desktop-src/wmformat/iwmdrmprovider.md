@@ -24,7 +24,7 @@ You can obtain a pointer to an instance of this interface by calling the [**WMDR
 
 ## Members
 
-The **IWMDRMProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWMDRMProvider** also has these types of members:
+The **IWMDRMProvider** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMProvider** also has these types of members:
 
 -   [Methods](#methods)
 

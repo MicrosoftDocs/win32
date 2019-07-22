@@ -17,7 +17,7 @@ api_location:
 
 # Qualifiers Specific to the WDM Provider
 
-The following qualifiers are used by the [WDM Provider](https://msdn.microsoft.com/library/windows/desktop/aa394052) in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.
+The following qualifiers are used by the [WDM Provider](https://docs.microsoft.com/windows/desktop/WmiCoreProv/wdm-provider) in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.
 
 <dt>
 

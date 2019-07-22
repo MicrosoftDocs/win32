@@ -3,13 +3,13 @@ Description: The CInstance class exposes the following methods.
 ms.assetid: B9846350-405D-440E-AC35-16446D3F03F5
 ms.tgt_platform: multiple
 title: CInstance Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # CInstance Methods
 
-\[The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class exposes the following methods.
 

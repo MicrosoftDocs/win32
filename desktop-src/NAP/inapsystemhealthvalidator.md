@@ -28,7 +28,7 @@ The **INapSystemHealthValidator** provides methods that must be implemented by S
 
 ## Members
 
-The **INapSystemHealthValidator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapSystemHealthValidator** also has these types of members:
+The **INapSystemHealthValidator** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthValidator** also has these types of members:
 
 -   [Methods](#methods)
 

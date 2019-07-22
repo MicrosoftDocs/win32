@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the Clone methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.'
-ms.assetid: 'f2cd46c1-914c-4b9e-a2e5-d31dceaa4826'
-title: 'Bitmap.Clone methods'
+Description: This topic lists the Clone methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.
+ms.assetid: f2cd46c1-914c-4b9e-a2e5-d31dceaa4826
+title: Bitmap.Clone methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Bitmap.Clone methods

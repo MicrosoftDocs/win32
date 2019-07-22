@@ -2,7 +2,7 @@
 Description: The IX509NameValuePairs interface exposes the following methods.
 ms.assetid: BA722088-17B0-4989-9AD8-BB875F3097CC
 title: IX509NameValuePairs Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

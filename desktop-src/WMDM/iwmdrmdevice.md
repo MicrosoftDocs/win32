@@ -24,7 +24,7 @@ The **IWMDRMDevice** interface enables a secure content provider to communicate 
 
 ## Members
 
-The **IWMDRMDevice** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWMDRMDevice** also has these types of members:
+The **IWMDRMDevice** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMDevice** also has these types of members:
 
 -   [Methods](#methods)
 

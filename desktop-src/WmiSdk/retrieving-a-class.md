@@ -67,7 +67,7 @@ As with PowerShell, C# uses a **meta\_class** query to retrieve class definition
 
 **To retrieve a class definition in C# (System.Management)**
 
-1.  You can use the [ManagementObjectSerarcher](https://msdn.microsoft.com/library/system.management.managementobjectsearcher.aspx) with a query to **meta\_class**, with the WHERE clause containing the name of the class you with to retrieve.
+1.  You can use the [ManagementObjectSerarcher](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher?redirectedfrom=MSDN) with a query to **meta\_class**, with the WHERE clause containing the name of the class you with to retrieve.
 
     ```PowerShell
     using System.Management;
@@ -78,9 +78,9 @@ As with PowerShell, C# uses a **meta\_class** query to retrieve class definition
 
     
 
-    [ManagementObjectSerarcher](https://msdn.microsoft.com/library/system.management.managementobjectsearcher.aspx) is the standard class .NET uses to retrieve class and instance information from WMI. [ManagementObjectSerarcher.Get](https://msdn.microsoft.com/library/67a77ef1.aspx) returns a [ManagementObjectCollection](https://msdn.microsoft.com/library/system.management.managementobjectcollection.aspx) that contains the schema definition class. The **meta\_class** class defines the query as a schema query. Without the **meta\_class** class, this query would return all instances of [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173). For more information about querying WMI, see [SELECT Statement for Schema Queries](select-statement-for-schema-queries.md).
+    [ManagementObjectSerarcher](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher?redirectedfrom=MSDN) is the standard class .NET uses to retrieve class and instance information from WMI. [ManagementObjectSerarcher.Get](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher.get?redirectedfrom=MSDN#System_Management_ManagementObjectSearcher_Get) returns a [ManagementObjectCollection](https://docs.microsoft.com/dotnet/api/system.management.managementobjectcollection?redirectedfrom=MSDN) that contains the schema definition class. The **meta\_class** class defines the query as a schema query. Without the **meta\_class** class, this query would return all instances of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk). For more information about querying WMI, see [SELECT Statement for Schema Queries](select-statement-for-schema-queries.md).
 
-2.  Alternately, create a new [ManagementClass](https://msdn.microsoft.com/library/system.management.managementclass.aspx) object, with the name as the path, to retrieve the class.
+2.  Alternately, create a new [ManagementClass](https://docs.microsoft.com/dotnet/api/system.management.managementclass?redirectedfrom=MSDN) object, with the name as the path, to retrieve the class.
 
     ```PowerShell
     using System.Management;
@@ -111,10 +111,10 @@ You can retrieve a class definition in VBScript in a similar way to retrieving a
 
     
 
-    On Active Server Pages (ASP) use [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) or [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) in the server-side script. For more information, see [Creating Active Server Pages for WMI](creating-active-server-pages-for-wmi.md).
+    On Active Server Pages (ASP) use [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) or [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) in the server-side script. For more information, see [Creating Active Server Pages for WMI](creating-active-server-pages-for-wmi.md).
 
-3.  A class or instance can also be specified, in which case the returned object is a WMI object, for example, an instance of [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173), rather than a services object. Note that you cannot use the VBScript [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) functions to create an instance of the generic object [**SWbemObject**](swbemobject.md).
-4.  In HTML pages running in Microsoft Internet Explorer (IE), [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) and [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) can fail because WMI scripting objects, like ActiveX controls, are not marked as safe for scripting. The one exception is the [**SWbemDateTime**](swbemdatetime.md) object. The only way that these calls can succeed is when you lower the IE security settings, which is not recommended.
+3.  A class or instance can also be specified, in which case the returned object is a WMI object, for example, an instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk), rather than a services object. Note that you cannot use the VBScript [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) functions to create an instance of the generic object [**SWbemObject**](swbemobject.md).
+4.  In HTML pages running in Microsoft Internet Explorer (IE), [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) and [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) can fail because WMI scripting objects, like ActiveX controls, are not marked as safe for scripting. The one exception is the [**SWbemDateTime**](swbemdatetime.md) object. The only way that these calls can succeed is when you lower the IE security settings, which is not recommended.
 
 When retrieving a class in C++, call the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) version of [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject).
 

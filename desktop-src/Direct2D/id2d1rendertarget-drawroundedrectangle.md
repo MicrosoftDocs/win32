@@ -1,14 +1,17 @@
 ---
 title: ID2D1RenderTarget DrawRoundedRectangle methods
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
-ms.assetid: 'd718c355-ffd8-4a7f-90f3-9a10d37a19c8'
-keywords: ["DrawRoundedRectangle methods Direct2D"]
+ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
+keywords:
+- DrawRoundedRectangle methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1RenderTarget::DrawRoundedRectangle methods

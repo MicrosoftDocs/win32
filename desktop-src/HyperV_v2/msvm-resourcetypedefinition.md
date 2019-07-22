@@ -60,7 +60,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class derived from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884) that implements the logical device for this resource type.
+The name of the class derived from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice) that implements the logical device for this resource type.
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-A string that describes the resource type when a well-defined value is not available and **ResourceType** has the value 1 (Other). There is a correspondence with the **OtherResourceType** property of [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
+A string that describes the resource type when a well-defined value is not available and **ResourceType** has the value 1 (Other). There is a correspondence with the **OtherResourceType** property of [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
 </dd> <dt>
 
@@ -92,7 +92,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-A string that describes an implementation specific sub-type for this resource. For example, this may be used to distinguish different models of the same resource type. There is a correspondence with the **ResourceSubType** property of [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
+A string that describes an implementation specific sub-type for this resource. For example, this may be used to distinguish different models of the same resource type. There is a correspondence with the **ResourceSubType** property of [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
 </dd> <dt>
 
@@ -108,7 +108,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-The type of resource this allocation setting represents. There is a correspondence with the **ResourceType** property of [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
+The type of resource this allocation setting represents. There is a correspondence with the **ResourceType** property of [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
 <dl> <dt>
 
@@ -216,13 +216,13 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class derived from [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214) that implements the settings for this resource type.
+The name of the class derived from [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) that implements the settings for this resource type.
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ResourceTypeDefinition** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ResourceTypeDefinition** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 

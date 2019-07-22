@@ -30,7 +30,7 @@ Retrieves the date information for the date specified as "today" for a month cal
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure that will receive the date information. This parameter must be a valid address and cannot be **NULL**.
+Pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that will receive the date information. This parameter must be a valid address and cannot be **NULL**.
 
 </dd> </dl>
 

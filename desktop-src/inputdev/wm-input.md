@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the window that is getting raw input.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -42,8 +42,8 @@ The input code. This parameter can be one of the following values.
 
 | Value                                                                                                                                                                                                                | Meaning                                                                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="RIM_INPUT"></span><span id="rim_input"></span><dl> <dt>**RIM\_INPUT**</dt> <dt>0</dt> </dl>             | Input occurred while the application was in the foreground. The application must call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) so the system can perform cleanup.<br/>         |
-| <span id="RIM_INPUTSINK"></span><span id="rim_inputsink"></span><dl> <dt>**RIM\_INPUTSINK**</dt> <dt>1</dt> </dl> | Input occurred while the application was not in the foreground. The application must call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) so the system can perform the cleanup.<br/> |
+| <span id="RIM_INPUT"></span><span id="rim_input"></span><dl> <dt>**RIM\_INPUT**</dt> <dt>0</dt> </dl>             | Input occurred while the application was in the foreground. The application must call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) so the system can perform cleanup.<br/>         |
+| <span id="RIM_INPUTSINK"></span><span id="rim_inputsink"></span><dl> <dt>**RIM\_INPUTSINK**</dt> <dt>1</dt> </dl> | Input occurred while the application was not in the foreground. The application must call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) so the system can perform the cleanup.<br/> |
 
 
 

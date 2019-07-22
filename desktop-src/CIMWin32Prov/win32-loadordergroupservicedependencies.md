@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_LoadOrderGroupServiceDependencies class
 
-The **Win32\_LoadOrderGroupServiceDependencies** association [WMI class](https://msdn.microsoft.com/library/aa393244) relates a base service and a load order group that the service depends on to start running.
+The **Win32\_LoadOrderGroupServiceDependencies** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a base service and a load order group that the service depends on to start running.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_LoadOrderGroup**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_LoadOrderGroup")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_LoadOrderGroup")
 </dt> </dl>
 
 Reference to the instance representing the properties of the load order group that must start before the dependent base service of this class can start.
@@ -72,7 +72,7 @@ Data type: **Win32\_BaseService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_BaseService")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_BaseService")
 </dt> </dl>
 
 Reference to the instance representing the properties of the base service that is dependent upon the load order group to start running.
@@ -104,7 +104,7 @@ The **Win32\_LoadOrderGroupServiceDependencies** class is derived from [**CIM\_D
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

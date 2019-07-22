@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Constructed Types
 
-A constructed [*Abstract Syntax Notation One*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-abstract-syntax-notation-one-gly) (ASN.1) type is made up from basic types, string types, or other constructed types. For example, an X.509 certificate extension is composed from three basic ASN.1 types as shown by the following example.
+A constructed [*Abstract Syntax Notation One*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ASN.1) type is made up from basic types, string types, or other constructed types. For example, an X.509 certificate extension is composed from three basic ASN.1 types as shown by the following example.
 
 ``` syntax
 Extension ::= SEQUENCE 
@@ -19,7 +19,7 @@ Extension ::= SEQUENCE
 }
 ```
 
-An extension consists of an [*object identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OID), a Boolean value that identifies whether the extension is critical, and a byte array that contains the value. The Certificate Enrollment API supports the following constructed ASN.1 types.
+An extension consists of an [*object identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/o-gly) (OID), a Boolean value that identifies whether the extension is critical, and a byte array that contains the value. The Certificate Enrollment API supports the following constructed ASN.1 types.
 
 ## SEQUENCE and SEQUENCE OF
 

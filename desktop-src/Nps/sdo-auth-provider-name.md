@@ -13,7 +13,7 @@ The name of the RADIUS server or server group that provides authentication.
 
 **LDAP Name:** msAuthProviderName
 
-**ID:** 4137 = [**IAS\_ATTRIBUTE\_AUTH\_PROVIDER\_NAME**](https://msdn.microsoft.com/library/bb960612)
+**ID:** 4137 = [**IAS\_ATTRIBUTE\_AUTH\_PROVIDER\_NAME**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
 
 **Syntax:** String
 

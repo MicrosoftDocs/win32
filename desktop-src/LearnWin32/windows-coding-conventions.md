@@ -83,7 +83,7 @@ Be aware that **BOOL** is an integer type and is not interchangeable with the C+
 
 ### Pointer Types
 
-Windows defines many data types of the form *pointer-to-X*. These usually have the prefix *P-* or *LP-* in the name. For example, **LPRECT** is a pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897), where **RECT** is a structure that describes a rectangle. The following variable declarations are equivalent.
+Windows defines many data types of the form *pointer-to-X*. These usually have the prefix *P-* or *LP-* in the name. For example, **LPRECT** is a pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)), where **RECT** is a structure that describes a rectangle. The following variable declarations are equivalent.
 
 
 ```C++

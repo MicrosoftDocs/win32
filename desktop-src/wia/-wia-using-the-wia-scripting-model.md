@@ -16,11 +16,11 @@ api_location:
 Through the [WIA Scripting Model](-wia-wia-scripting-model.md), Windows Image Acquisition (WIA) functionality is made available to scripting languages such as Microsoft JScript development software and Microsoft Visual Basic Scripting Edition (VBScript), and high-level languages such as Microsoft Visual Basic development system.
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 
-The WIA scripting model exposes objects that inherit the [IDispatch](https://msdn.microsoft.com/en-US/library/ms221608.aspx) interface.
+The WIA scripting model exposes objects that inherit the [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface.
 
 The scripting model offers a simplified version of the WIAAPI.
 

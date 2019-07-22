@@ -44,7 +44,7 @@ int WINAPI Str_GetPtr(
 *pszSource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751#lpctstr)**
+Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A pointer to a source string.
 
@@ -53,7 +53,7 @@ A pointer to a source string.
 *pszDest* \[in, out\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751#lpcstr)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A pointer to the destination buffer. This value can be **NULL**.
 
@@ -80,7 +80,7 @@ If *pszDest* cannot hold the entire string pointed to by *pszSource*, then (*cch
 
 ## Remarks
 
-**Str\_GetPtr** is available as ANSI (**Str\_GetPtrA**) and Unicode (**Str\_GetPtrW**) versions. These functions are not exported by name or declared in a public header file. To use them, you must use [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) and request ordinal 233 (**Str\_GetPtrA**) or 235 (**Str\_GetPtrW**) from ComCtl32.dll to obtain a function pointer.
+**Str\_GetPtr** is available as ANSI (**Str\_GetPtrA**) and Unicode (**Str\_GetPtrW**) versions. These functions are not exported by name or declared in a public header file. To use them, you must use [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 233 (**Str\_GetPtrA**) or 235 (**Str\_GetPtrW**) from ComCtl32.dll to obtain a function pointer.
 
 ## Requirements
 

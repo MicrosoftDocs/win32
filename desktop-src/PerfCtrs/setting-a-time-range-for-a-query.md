@@ -12,9 +12,9 @@ If the data source is a log file, you can specify a time range for the query. Th
 
 To create time value, use the following steps.
 
-1.  Allocate a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure and initialize the fields with the desired time value.
-2.  Call [**SystemTimeToFileTime**](https://msdn.microsoft.com/library/windows/desktop/ms724948) to convert the [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure time value to a [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284) structure time.
-3.  Cast the [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284) structure as a LONGLONG variable, keeping in mind the structure member padding conventions of your platform and compiler.
+1.  Allocate a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure and initialize the fields with the desired time value.
+2.  Call [**SystemTimeToFileTime**](https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetofiletime) to convert the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure time value to a [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure time.
+3.  Cast the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure as a LONGLONG variable, keeping in mind the structure member padding conventions of your platform and compiler.
 4.  Copy the LONGLONG value to the appropriate field in the [**PDH\_TIME\_INFO**](/windows/desktop/api/Pdh/ns-pdh-_pdh_time_info) structure.
 
 To retrieve the time range of all of the performance data contained in a log file, call the [**PdhGetDataSourceTimeRange**](/windows/desktop/api/Pdh/nf-pdh-pdhgetdatasourcetimerangea) function.

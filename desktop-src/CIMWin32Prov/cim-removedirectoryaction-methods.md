@@ -3,7 +3,7 @@ Description: The CIM\_RemoveDirectoryAction class exposes the following methods.
 ms.assetid: 6C8619D4-2D40-4B96-B2DD-BDDD2FCE4030
 ms.tgt_platform: multiple
 title: CIM_RemoveDirectoryAction Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

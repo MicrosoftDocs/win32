@@ -1,14 +1,17 @@
 ---
 title: ID2D1Properties SetValueByName methods
 description: Sets the named property to the given value.
-ms.assetid: 'E00C7BDA-B950-435E-AFD8-216FB0E3BA8C'
-keywords: ["SetValueByName overload methods methods Direct2D"]
+ms.assetid: E00C7BDA-B950-435E-AFD8-216FB0E3BA8C
+keywords:
+- SetValueByName overload methods methods Direct2D
 topic_type:
 - apiref
 api_location:
 - d2d1_1.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1Properties::SetValueByName methods

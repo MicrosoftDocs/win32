@@ -2,13 +2,13 @@
 title: IVMVirtualMachineEvents Methods
 description: The IVMVirtualMachineEvents interface exposes the following methods.
 ms.assetid: C248949A-4F01-43B3-9841-6752A592E646
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # IVMVirtualMachineEvents Methods
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 The [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md) interface exposes the following methods.
 

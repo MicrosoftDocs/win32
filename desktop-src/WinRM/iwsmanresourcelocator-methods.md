@@ -3,7 +3,7 @@ title: IWSManResourceLocator Methods
 description: The IWSManResourceLocator interface exposes the following methods.
 ms.assetid: 22302ADA-A3E6-4317-9423-7BC90A5C1610
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

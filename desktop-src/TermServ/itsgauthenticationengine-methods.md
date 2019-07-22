@@ -3,7 +3,7 @@ title: ITSGAuthenticationEngine Methods
 description: The ITSGAuthenticationEngine interface exposes the following methods.
 ms.assetid: 5F0396FF-8C62-4FC6-8CD3-06B28D5BC328
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

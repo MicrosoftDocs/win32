@@ -3,7 +3,7 @@ Description: The CIM\_AggregatePSExtent class exposes the following methods.
 ms.assetid: 0655D80B-752C-49F5-9687-40BEA06D9292
 ms.tgt_platform: multiple
 title: CIM_AggregatePSExtent Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

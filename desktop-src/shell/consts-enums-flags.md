@@ -62,11 +62,11 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shlwapi/ne-shlwapi-assocdata"><strong>ASSOCDATA</strong></a><br/></td>
-<td>Used by <a href="https://msdn.microsoft.com/en-us/library/Bb761390(v=VS.85).aspx"><strong>IQueryAssociations::GetData</strong></a> to define the type of data that is to be returned.<br/></td>
+<td>Used by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata"><strong>IQueryAssociations::GetData</strong></a> to define the type of data that is to be returned.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762471(v=VS.85).aspx"><strong>ASSOCF</strong></a><br/></td>
-<td>Provides information to the <a href="https://msdn.microsoft.com/en-us/library/Bb761400(v=VS.85).aspx"><strong>IQueryAssociations</strong></a> interface methods.<br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0"><strong>ASSOCF</strong></a><br/></td>
+<td>Provides information to the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>IQueryAssociations</strong></a> interface methods.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel"><strong>ASSOCIATIONLEVEL</strong></a><br/></td>
@@ -78,11 +78,11 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shlwapi/ne-shlwapi-assockey"><strong>ASSOCKEY</strong></a><br/></td>
-<td>Specifies the type of key to be returned by <a href="https://msdn.microsoft.com/en-us/library/Bb761394(v=VS.85).aspx"><strong>IQueryAssociations::GetKey</strong></a>.<br/></td>
+<td>Specifies the type of key to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey"><strong>IQueryAssociations::GetKey</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlwapi/ne-shlwapi-assocstr"><strong>ASSOCSTR</strong></a><br/></td>
-<td>Used by <a href="https://msdn.microsoft.com/en-us/library/Bb761396(v=VS.85).aspx"><strong>IQueryAssociations::GetString</strong></a> to define the type of string that is to be returned.<br/></td>
+<td>Used by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring"><strong>IQueryAssociations::GetString</strong></a> to define the type of string that is to be returned.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_action"><strong>ATTACHMENT_ACTION</strong></a><br/></td>
@@ -102,7 +102,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td><a href="str-constants"><strong>Bind Context String Keys</strong></a><br/></td>
-<td>A set of string keys that are used with the <a href="https://msdn.microsoft.com/en-us/library/ms687254(v=VS.85).aspx"><strong>IBindCtx::RegisterObjectParam</strong></a> method to specify a bind context.<br/></td>
+<td>A set of string keys that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam"><strong>IBindCtx::RegisterObjectParam</strong></a> method to specify a bind context.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shdeprecated/ne-shdeprecated-tagbnstate"><strong>BNSTATE</strong></a><br/></td>
@@ -121,7 +121,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Specifies methods for sorting category data.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762483(v=VS.85).aspx"><strong>CDCONTROLSTATE</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762483(v=vs.85)"><strong>CDCONTROLSTATE</strong></a><br/></td>
 <td>Specifies the values that indicate whether a control is visible and enabled. Used by members of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize"><strong>IFileDialogCustomize</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
@@ -190,7 +190,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-tagdeskbandcid"><strong>DBID Command Flags</strong></a><br/></td>
-<td>These command IDs can be sent to the band object's container with <a href="https://msdn.microsoft.com/en-us/library/ms690300(v=VS.85).aspx"><strong>IOleCommandTarget::Exec</strong></a>.<br/></td>
+<td>These command IDs can be sent to the band object's container with <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec"><strong>IOleCommandTarget::Exec</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-def_share_id"><strong>DEF_SHARE_ID</strong></a><br/></td>
@@ -290,7 +290,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td><a href="iactivedesktop-flags"><strong>IActiveDesktop Flags</strong></a><br/></td>
-<td>This section describes the flags used by <a href="https://msdn.microsoft.com/en-us/library/Bb776357(v=VS.85).aspx"><strong>IActiveDesktop</strong></a> interface methods.<br/></td>
+<td>This section describes the flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop"><strong>IActiveDesktop</strong></a> interface methods.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-tagieshortcutflags"><strong>IESHORTCUTFLAGS</strong></a><br/></td>
@@ -507,7 +507,7 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 </tr>
 <tr class="odd">
 <td><a href="ssf-constants"><strong>SSF Constants</strong></a><br/></td>
-<td>Used by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings"><strong>SHGetSetSettings</strong></a> function to specify which members of its <a href="https://msdn.microsoft.com/en-us/library/Bb759788(v=VS.85).aspx"><strong>SHELLSTATE</strong></a> structure should be set or retrived.<br/></td>
+<td>Used by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings"><strong>SHGetSetSettings</strong></a> function to specify which members of its <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea"><strong>SHELLSTATE</strong></a> structure should be set or retrived.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-stpflag"><strong>STPFLAG</strong></a><br/></td>
@@ -631,7 +631,7 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl/ne-shobjidl-undock_reason"><strong>UNDOCK_REASON</strong></a><br/></td>
-<td>Values that indicate the reason that a docked accessibility app window has been undocked. Used by <a href="https://msdn.microsoft.com/en-us/library/Hh448548(v=VS.85).aspx"><strong>IAccessibilityDockingServiceCallback::Undocked</strong></a>.<br/></td>
+<td>Values that indicate the reason that a docked accessibility app window has been undocked. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservicecallback-undocked"><strong>IAccessibilityDockingServiceCallback::Undocked</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlwapi/ne-shlwapi-url_scheme"><strong>URL_SCHEME</strong></a><br/></td>

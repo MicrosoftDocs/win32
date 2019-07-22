@@ -44,7 +44,7 @@ The return value is ignored except for notification messages that specify otherw
 
 ## Remarks
 
-The destination of the message must be the **HWND** of the parent of the control. This value can be obtained by using [**GetParent**](https://msdn.microsoft.com/library/windows/desktop/ms633510), as shown in the following example, where *m\_controlHwnd* is the **HWND** of the control itself.
+The destination of the message must be the **HWND** of the parent of the control. This value can be obtained by using [**GetParent**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent), as shown in the following example, where *m\_controlHwnd* is the **HWND** of the control itself.
 
 
 ```
@@ -89,9 +89,9 @@ INT_PTR CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 
-Some notifications, chiefly those that have been in the API for a long time, are sent as [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages. For more information, see [Control Messages](control-messages.md).
+Some notifications, chiefly those that have been in the API for a long time, are sent as [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages. For more information, see [Control Messages](control-messages.md).
 
-If the message handler is in a dialog box procedure, you must use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function with DWL\_MSGRESULT to set a return value.
+If the message handler is in a dialog box procedure, you must use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with DWL\_MSGRESULT to set a return value.
 
 For Windows Vista and later systems, the **WM\_NOTIFY** message cannot be sent between processes.
 

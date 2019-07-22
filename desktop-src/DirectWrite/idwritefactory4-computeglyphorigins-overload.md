@@ -1,14 +1,17 @@
 ---
 title: IDWriteFactory4 ComputeGlyphOrigins methods
 description: Converts glyph run placements to glyph origins.
-ms.assetid: '4cfe6667-f2ca-0cb7-8429-6050bf4fddb3'
-keywords: ["ComputeGlyphOrigins methods Direct Write"]
+ms.assetid: 4cfe6667-f2ca-0cb7-8429-6050bf4fddb3
+keywords:
+- ComputeGlyphOrigins methods Direct Write
 topic_type:
 - apiref
 api_location:
 - dwrite_3.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDWriteFactory4::ComputeGlyphOrigins methods

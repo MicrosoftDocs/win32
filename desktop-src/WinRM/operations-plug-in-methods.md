@@ -3,7 +3,7 @@ title: Operations Plug-in Methods
 description: Operations Plug-in Methods
 ms.assetid: 81fe751f-51fd-4da6-b44a-0af9007eea9a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

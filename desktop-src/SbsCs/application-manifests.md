@@ -1,9 +1,9 @@
----
+﻿---
 Description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 
@@ -32,7 +32,7 @@ Application manifests have the following elements and attributes.
 | **compatibility**                     |                           | No       |
 | **application**                       |                           | No       |
 | **supportedOS**                       | **Id**                    | No       |
-| **maxVersionTested**                  | **Id**                    | No       |
+| **maxversiontested**                  | **Id**                    | No       |
 | **dependency**                        |                           | No       |
 | **dependentAssembly**                 |                           | No       |
 | **file**                              |                           | No       |
@@ -100,7 +100,7 @@ The **assembly** element has the following attributes.
 <span id="noInherit"></span><span id="noinherit"></span><span id="NOINHERIT"></span>**noInherit**
 </dt> <dd>
 
-Include this element in an application manifest to set the [activation contexts](activation-contexts.md) generated from the manifest with the "no inherit" flag. When this flag is not set in an activation context, and the activation context is active, it is inherited by new threads in the same process, windows, window procedures, and [Asynchronous Procedure Calls](https://msdn.microsoft.com/library/windows/desktop/ms681951). Setting this flag prevents the new object from inheriting the active context.
+Include this element in an application manifest to set the [activation contexts](activation-contexts.md) generated from the manifest with the "no inherit" flag. When this flag is not set in an activation context, and the activation context is active, it is inherited by new threads in the same process, windows, window procedures, and [Asynchronous Procedure Calls](https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls). Setting this flag prevents the new object from inheriting the active context.
 
 The **noInherit** element is optional and typically omitted. Most assemblies do not work correctly using a no-inherit activation context because the assembly must be explicitly designed to manage the propagation of their own activation context. The use of the **noInherit** element requires that any dependent assemblies referenced by the application manifest have a **noInherit** element in their [assembly manifest](assembly-manifests.md).
 
@@ -142,7 +142,7 @@ Contains at least one **application**. It has no attributes. Optional. Applicati
 <span id="application"></span><span id="APPLICATION"></span>**application**
 </dt> <dd>
 
-Contains at least one **supportedOS** element. Starting in Windows 10, version 1903, it can also contain one optional **maxVersionTested** element. It has no attributes. Optional.
+Contains at least one **supportedOS** element. Starting in Windows 10, version 1903, it can also contain one optional **maxversiontested** element. It has no attributes. Optional.
 
 </dd> <dt>
 
@@ -158,12 +158,12 @@ The **supportedOS** element has the following attribute. It has no subelements.
 | **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](https://www.microsoft.com/download/details.aspx?id=27416).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10 and Windows Server 2016<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
 </dd> <dt>
 
-<span id="maxVersionTested"></span><span id="maxversiontested"></span><span id="MAXVERSIONTESTED"></span>**maxVersionTested**
+<span id="maxVersionTested"></span><span id="maxversiontested"></span><span id="MAXVERSIONTESTED"></span>**maxversiontested**
 </dt> <dd>
 
-The **maxVersionTested** element specifies the maximum version of Windows that the application was tested against. This is intended to be used by desktop applications that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
+The **maxversiontested** element specifies the maximum version of Windows that the application was tested against. This is intended to be used by desktop applications that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
 
-The **maxVersionTested** element has the following attribute. It has no subelements.
+The **maxversiontested** element has the following attribute. It has no subelements.
 
 | Attribute | Description    |
 |-----------|----------------|
@@ -254,18 +254,18 @@ The following table describes the behavior that results based upon the presence 
 
 | State of the **dpiAware** element | Description                                                                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Absent                            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.                                                                                                                                                            |
+| Absent                            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.                                                                                                                                                            |
 | Contains "true"                   | The current process is system dpi aware.                                                                                                                                                                                                                                                                                                                                                          |
-| Contains "false"                  | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.<br/> |
+| Contains "false"                  | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.<br/> |
 | Contains "true/pm"                | **Windows Vista, Windows 7 and Windows 8:** The current process is system dpi aware.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                                          |
 | Contains "per monitor"            | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                      |
-| Contains any other string         | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.<br/> |
+| Contains any other string         | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.<br/> |
 
 
 
  
 
-For more information about dpi awareness settings, see [Comparison of DPI Awareness Levels](https://msdn.microsoft.com/library/windows/desktop/dn469266#comparison-of-dpi-awareness-levels).
+For more information about dpi awareness settings, see [Comparison of DPI Awareness Levels](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot)).
 
 **dpiAware** has no attributes.
 
@@ -302,17 +302,17 @@ The following table describes the behavior that results based upon the presence 
 | **dpiAwareness** element status:        | Description                                                                                                                                                                                                                            |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element is absent                       | The **dpiAware** element specifies whether the process is dpi aware.                                                                                                                                                                   |
-| Contains no recognized items            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function. |
+| Contains no recognized items            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function. |
 | First recognized item is "system"       | The current process is system dpi aware.                                                                                                                                                                                               |
 | First recognized item is "permonitor"   | The current process is per-monitor dpi aware.                                                                                                                                                                                          |
 | First recognized item is "permonitorv2" | The current process uses the per-monitor-v2 dpi awareness context. This item will only be recognized on Windows 10 version 1703 or later.                                                                                              |
-| First recognized item is "unaware"      | The current process is dpi unaware. You**cannot** programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.      |
+| First recognized item is "unaware"      | The current process is dpi unaware. You**cannot** programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.      |
 
 
 
  
 
-For more information about dpi awareness settings supported by this element, see [DPI\_AWARENESS](https://msdn.microsoft.com/library/windows/desktop/mt748620) and [DPI\_AWARENESS\_CONTEXT](https://msdn.microsoft.com/library/windows/desktop/mt791579).
+For more information about dpi awareness settings supported by this element, see [DPI\_AWARENESS](https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness) and [DPI\_AWARENESS\_CONTEXT](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context).
 
 **dpiAwareness** has no attributes.
 

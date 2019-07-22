@@ -43,7 +43,7 @@ For C++ development, see [**RunLevel Property of IPrincipal**](/windows/desktop/
 
 For script development, see [**Principal.RunLevel**](principal-runlevel.md).
 
-If a task is registered using the **Builtin\\Administrator** account or the [LocalSystem](https://msdn.microsoft.com/library/windows/desktop/ms684190) or [LocalService](https://msdn.microsoft.com/library/windows/desktop/ms684188) accounts, the [**RunLevel**](principal-runlevel.md) property is ignored. The attribute value will also be ignored if [User Account Control](https://msdn.microsoft.com/library/windows/desktop/bb648649) (UAC) is turned off.
+If a task is registered using the **Builtin\\Administrator** account or the [LocalSystem](https://docs.microsoft.com/windows/desktop/Services/localsystem-account) or [LocalService](https://docs.microsoft.com/windows/desktop/Services/localservice-account) accounts, the [**RunLevel**](principal-runlevel.md) property is ignored. The attribute value will also be ignored if [User Account Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/user-account-control) (UAC) is turned off.
 
 If a task is registered using the **Administrators** group for the security context of the task, then you must also set the [**RunLevel**](principal-runlevel.md) property to "HighestAvailable" to run the task. For more information, see [Security Contexts for Tasks](security-contexts-for-running-tasks.md).
 

@@ -49,12 +49,12 @@ The size of the array and the range of array elements transmitted to the remote 
 
 | Attribute                             | Description                                             | Default |
 |---------------------------------------|---------------------------------------------------------|---------|
-| \[ [**first\_is**](https://msdn.microsoft.com/library/windows/desktop/aa366831)\]   | Index of the first array element transmitted.           | 0       |
-| \[ [**last\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367066)\]     | Index of the last array element transmitted.            | \-      |
-| \[ [**length\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367068)\] | Total number of array elements transmitted.             | \-      |
-| \[ [**max\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367074)\]       | Highest valid array index value.                        | \-      |
-| \[ [**min\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367097)\]       | Lowest valid array index value.                         | 0       |
-| \[ [**size\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367164)\]     | Total number of array elements allocated for the array. | \-      |
+| \[ [**first\_is**](https://docs.microsoft.com/windows/desktop/Midl/first-is)\]   | Index of the first array element transmitted.           | 0       |
+| \[ [**last\_is**](https://docs.microsoft.com/windows/desktop/Midl/last-is)\]     | Index of the last array element transmitted.            | \-      |
+| \[ [**length\_is**](https://docs.microsoft.com/windows/desktop/Midl/length-is)\] | Total number of array elements transmitted.             | \-      |
+| \[ [**max\_is**](https://docs.microsoft.com/windows/desktop/Midl/max-is)\]       | Highest valid array index value.                        | \-      |
+| \[ [**min\_is**](https://docs.microsoft.com/windows/desktop/Midl/min-is)\]       | Lowest valid array index value.                         | 0       |
+| \[ [**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)\]     | Total number of array elements allocated for the array. | \-      |
 
 
 

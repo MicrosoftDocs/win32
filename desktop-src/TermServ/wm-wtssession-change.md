@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 Notifies applications of changes in session state.
 
-The window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+The window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -155,7 +155,7 @@ The session identified by *lParam* has been unlocked.
 
 </dt> <dd>
 
-The session identified by *lParam* has changed its remote controlled status. To determine the status, call [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) and check the **SM\_REMOTECONTROL** metric.
+The session identified by *lParam* has changed its remote controlled status. To determine the status, call [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) and check the **SM\_REMOTECONTROL** metric.
 
 </dd> <dt>
 

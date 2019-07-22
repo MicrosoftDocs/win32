@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Getting and Providing Data on a 64-bit Computer
 
-Client applications and scripts that access standard WMI 32-bit providers continue to operate normally when running on a 64-bit operating system. Only two preinstalled providers, the [System Registry provider](https://msdn.microsoft.com/library/aa393886) and the [View provider](view-provider.md), have 64-bit versions which run side-by-side with the 32-bit versions. However, a 32-bit application that requests 32-bit Windows Driver Model (WDM) instances receives the default 64-bit WDM class instances on a 64-bit operating system.
+Client applications and scripts that access standard WMI 32-bit providers continue to operate normally when running on a 64-bit operating system. Only two preinstalled providers, the [System Registry provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider) and the [View provider](view-provider.md), have 64-bit versions which run side-by-side with the 32-bit versions. However, a 32-bit application that requests 32-bit Windows Driver Model (WDM) instances receives the default 64-bit WDM class instances on a 64-bit operating system.
 
 ## Accessing Default and Nondefault Provider Data
 

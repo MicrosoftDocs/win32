@@ -1,7 +1,9 @@
 ---
-Description: 'This topic lists the FromHDC methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.'
-ms.assetid: 'c1d3fc6e-6b7d-4fcf-9bc4-a2bab36304ed'
-title: 'Graphics.FromHDC methods'
+Description: This topic lists the FromHDC methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: c1d3fc6e-6b7d-4fcf-9bc4-a2bab36304ed
+title: Graphics.FromHDC methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # Graphics.FromHDC methods

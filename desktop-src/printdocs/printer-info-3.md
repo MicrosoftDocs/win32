@@ -37,7 +37,7 @@ typedef struct _PRINTER_INFO_3 {
 **pSecurityDescriptor**
 </dt> <dd>
 
-Pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure that specifies a printer's security information.
+Pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure that specifies a printer's security information.
 
 </dd> </dl>
 
@@ -82,7 +82,7 @@ The **PRINTER\_INFO\_3** structure lets an application get and set a printer's s
 [**PRINTER\_INFO\_4**](printer-info-4.md)
 </dt> <dt>
 
-[**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561)
+[**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor)
 </dt> </dl>
 
  

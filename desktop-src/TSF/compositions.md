@@ -22,13 +22,13 @@ An application uses the presence and absence of a composition to determine how t
 
 ## Text Services
 
-A text service creates a composition by calling [ITfContextComposition::StartComposition](https://msdn.microsoft.com/library/windows/desktop/ms538713). The text service can optionally implement an [ITfCompositionSink](https://msdn.microsoft.com/library/windows/desktop/ms538654) object that receives composition event notifications. StartComposition returns an [ITfComposition](https://msdn.microsoft.com/library/windows/desktop/ms538653) object that the text service keeps a reference to and uses to modify and terminate the composition. The text service terminates the composition by calling [ITfComposition::EndComposition](https://msdn.microsoft.com/library/windows/desktop/ms538675).
+A text service creates a composition by calling [ITfContextComposition::StartComposition](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition). The text service can optionally implement an [ITfCompositionSink](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionsink) object that receives composition event notifications. StartComposition returns an [ITfComposition](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition) object that the text service keeps a reference to and uses to modify and terminate the composition. The text service terminates the composition by calling [ITfComposition::EndComposition](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition).
 
 If a text service is going to create compositions, it should also support display attributes to enable an application to display text that is part of a composition differently than standard text. For more information, see [Providing Display Attributes](providing-display-attributes.md).
 
 ## Applications
 
-An application can monitor the creation, change and termination of compositions by installing an [ITfContextOwnerCompositionSink](https://msdn.microsoft.com/library/windows/desktop/ms538740) sink. When a composition is started, [ITfContextOwnerCompositionSink::OnStartComposition](https://msdn.microsoft.com/library/windows/desktop/ms538745) is called. Likewise, when a composition is changed or terminated, [ITfContextOwnerCompositionSink::OnUpdateComposition](https://msdn.microsoft.com/library/windows/desktop/ms538747) and [ITfContextOwnerCompositionSink::OnEndComposition](https://msdn.microsoft.com/library/windows/desktop/ms538743) will be called, respectively.
+An application can monitor the creation, change and termination of compositions by installing an [ITfContextOwnerCompositionSink](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink) sink. When a composition is started, [ITfContextOwnerCompositionSink::OnStartComposition](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition) is called. Likewise, when a composition is changed or terminated, [ITfContextOwnerCompositionSink::OnUpdateComposition](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onupdatecomposition) and [ITfContextOwnerCompositionSink::OnEndComposition](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition) will be called, respectively.
 
 The following is a typical procedure to update a document using a composition.
 
@@ -39,7 +39,7 @@ The following is a typical procedure to update a document using a composition.
 
 The application should use the display attributes provided by the text service to modify the display of text at all times and not just when a composition is active. For more information, see [Using Display Attributes](using-display-attributes.md).
 
-If necessary, an application can terminate a composition by calling [ITfContextOwnerCompositionServices::TerminateComposition](https://msdn.microsoft.com/library/windows/desktop/ms538738).
+If necessary, an application can terminate a composition by calling [ITfContextOwnerCompositionServices::TerminateComposition](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition).
 
  
 

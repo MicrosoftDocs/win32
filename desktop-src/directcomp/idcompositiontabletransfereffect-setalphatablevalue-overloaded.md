@@ -1,14 +1,17 @@
 ---
 title: IDCompositionTableTransferEffect SetAlphaTableValue methods
 description: Sets a value in the alpha table.
-ms.assetid: '6f4e04e0-1ec6-a475-264e-d64f68e23fb9'
-keywords: ["SetAlphaTableValue methods DirectComposition"]
+ms.assetid: 6f4e04e0-1ec6-a475-264e-d64f68e23fb9
+keywords:
+- SetAlphaTableValue methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - dcomp.h
 api_type:
 - HeaderDef
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionTableTransferEffect::SetAlphaTableValue methods

@@ -105,22 +105,22 @@ if (NULL != certFileHandle) CloseHandle(certFileHandle);
 **Used in This Example**
 </dt> <dt>
 
-[**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858)
+[**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
 </dt> <dt>
 
-[**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467)
+[**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile)
 </dt> <dt>
 
-[**CertCreateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376033)
+[**CertCreateCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext)
 </dt> <dt>
 
 **For More Information**
 </dt> <dt>
 
-[Cryptography API](https://msdn.microsoft.com/library/windows/desktop/aa380255)
+[Cryptography API](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[Cryptography Functions](https://msdn.microsoft.com/library/windows/desktop/aa380252)
+[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
 [XPS Digital Signature API Errors](xps-digital-signatures-errors.md)

@@ -49,35 +49,35 @@ The **Msvm\_SystemDevice** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_System**](https://msdn.microsoft.com/library/aa388503)**
+Data type: **[**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650), [**Min**](https://msdn.microsoft.com/library/aa393650) ( 1 ), [**Max**](https://msdn.microsoft.com/library/aa393650) ( 1 )
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ( 1 ), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ( 1 )
 </dt> </dl>
 
-The parent system in the association. This property is inherited from [**CIM\_Component**](https://msdn.microsoft.com/library/aa387218).
+The parent system in the association. This property is inherited from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
 
 </dd> <dt>
 
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)**
+Data type: **[**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The logical device that is an element of a system. This property is inherited from [**CIM\_Component**](https://msdn.microsoft.com/library/aa387218).
+The logical device that is an element of a system. This property is inherited from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -100,7 +100,7 @@ Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering.
 [**CIM\_SystemDevice**](cim-systemdevice.md)
 </dt> <dt>
 
-[**CIM\_SystemDevice**](https://msdn.microsoft.com/library/aa388509)
+[**CIM\_SystemDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-systemdevice)
 </dt> <dt>
 
 [Virtual System Classes](virtual-system-classes.md)

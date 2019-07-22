@@ -2,7 +2,7 @@
 title: IBackgroundCopyCallback3 Methods
 description: The IBackgroundCopyCallback3 interface exposes the following methods.
 ms.assetid: FF0BA13F-63DA-46A4-ACC6-DE72AC20EAA2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

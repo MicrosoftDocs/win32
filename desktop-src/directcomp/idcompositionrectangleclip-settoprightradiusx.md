@@ -1,14 +1,17 @@
 ---
 title: IDCompositionRectangleClip SetTopRightRadiusX methods
 description: Changes or animates the value of the TopRightRadiusX property of this clip. The TopRightRadiusX property specifies the x radius of the ellipse that rounds the top-right corner of the clip.
-ms.assetid: '2FCE8558-2EED-4A44-93F3-796984C47AF0'
-keywords: ["SetTopRightRadiusX methods DirectComposition"]
+ms.assetid: 2FCE8558-2EED-4A44-93F3-796984C47AF0
+keywords:
+- SetTopRightRadiusX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionRectangleClip::SetTopRightRadiusX methods

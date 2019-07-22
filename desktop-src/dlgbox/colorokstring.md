@@ -55,7 +55,7 @@ If the hook procedure returns a nonzero value, the **Color** dialog box rejects 
 
 ## Remarks
 
-The hook procedure must specify the **COLOROKSTRING** constant in a call to the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function to get the identifier of the message sent by the dialog box.
+The hook procedure must specify the **COLOROKSTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier of the message sent by the dialog box.
 
 ## Requirements
 
@@ -80,7 +80,7 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora)
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
+[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 **Conceptual**

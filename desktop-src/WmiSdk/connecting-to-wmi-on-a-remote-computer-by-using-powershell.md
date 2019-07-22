@@ -29,7 +29,7 @@ Get-WmiObject -Namespace "root\cimv2" -Class Win32_Process -Impersonation 3 -Com
 
 In the preceding example, the user connects to a remote computer by using the same credentials (domain and user name) that they logged on with. The user also requested to use impersonation. Unlike the original VBScript example, a moniker string is not needed because the impersonation level is set by the "Impersonation" property. By default, the impersonation level is set to 3 (Impersonate).
 
-The example lists all the instances of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class that are running on remote computer.
+The example lists all the instances of the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class that are running on remote computer.
 
 > [!Note]  
 > You should specify the WMI namespace to connect to on the remote computer because it is possible that the default namespace is not the same on different computers.
@@ -56,7 +56,7 @@ In the preceding example, the computer name was assigned to the $Computer variab
 
  
 
-The following Windows PowerShell example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of [**Win32\_PnPEntity**](https://msdn.microsoft.com/library/aa394353)—on each computer:
+The following Windows PowerShell example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of [**Win32\_PnPEntity**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-pnpentity)—on each computer:
 
 
 ```PowerShell
@@ -89,7 +89,7 @@ $ColItems[0..47] | Format-List Name, Status
 -   The range operator \[\] limited the list of Plug and Play devices to 48 instances. For more information, see [About\_Operators](https://go.microsoft.com/fwlink/p/?linkid=153524).
 -   The "\|" is the pipeline character. The object returned by ColItems is sent to the [Format-List]( https://go.microsoft.com/fwlink/p/?linkid=153477) cmdlet.
 
-The following Windows PowerShell example enables you to connect to a remote computer on a different domain. This example also displays the process names for instances of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) on the remote computer.
+The following Windows PowerShell example enables you to connect to a remote computer on a different domain. This example also displays the process names for instances of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) on the remote computer.
 
 
 ```PowerShell
@@ -112,7 +112,7 @@ write-host "Process Name:" $ObjItem.name
 
  
 
-In the preceding example, the user connects to a remote computer on a different domain and specifies a preferred locale. The [Get-Credential](https://go.microsoft.com/fwlink/p/?linkid=155904) command requests the user's credentials and assigns the credentials to an object. The example also lists the names of instances of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class that are running on the computer.
+In the preceding example, the user connects to a remote computer on a different domain and specifies a preferred locale. The [Get-Credential](https://go.microsoft.com/fwlink/p/?linkid=155904) command requests the user's credentials and assigns the credentials to an object. The example also lists the names of instances of the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class that are running on the computer.
 
 ## Related topics
 

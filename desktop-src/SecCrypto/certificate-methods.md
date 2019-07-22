@@ -2,7 +2,7 @@
 Description: The Certificate object exposes the following methods.
 ms.assetid: E0B3EBE1-F04D-4BD4-AF26-AB3EFA12628A
 title: Certificate Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

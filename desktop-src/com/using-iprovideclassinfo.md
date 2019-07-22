@@ -18,7 +18,7 @@ In other cases, however, only the connectable object knows its outgoing interfac
 4.  The client creates a sink object supporting the outgoing interface.
 5.  The process continues, and the client calls [**IConnectionPoint::Advise**](/windows/desktop/api/OCIdl/nf-ocidl-iconnectionpoint-advise) to connect its sink to the connection point.
 
-In the type information, the attribute [**source**](https://msdn.microsoft.com/library/windows/desktop/aa367166) marks an [**interface**](https://msdn.microsoft.com/library/windows/desktop/aa367054) or [**dispinterface**](https://msdn.microsoft.com/library/windows/desktop/aa366802) listed under a [**coclass**](https://msdn.microsoft.com/library/windows/desktop/aa366751) as an outgoing interface. Those listed without this attribute are considered incoming interfaces.
+In the type information, the attribute [**source**](https://docs.microsoft.com/windows/desktop/Midl/source) marks an [**interface**](https://docs.microsoft.com/windows/desktop/Midl/interface) or [**dispinterface**](https://docs.microsoft.com/windows/desktop/Midl/dispinterface) listed under a [**coclass**](https://docs.microsoft.com/windows/desktop/Midl/coclass) as an outgoing interface. Those listed without this attribute are considered incoming interfaces.
 
 ## Related topics
 

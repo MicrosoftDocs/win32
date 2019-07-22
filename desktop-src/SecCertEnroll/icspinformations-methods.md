@@ -2,7 +2,7 @@
 Description: The ICspInformations interface exposes the following methods.
 ms.assetid: 48A1EF07-ED9D-4729-ABE1-225EFC77A44F
 title: ICspInformations Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

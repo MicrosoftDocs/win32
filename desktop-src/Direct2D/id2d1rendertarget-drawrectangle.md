@@ -1,14 +1,17 @@
 ---
 title: ID2D1RenderTarget DrawRectangle methods
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
-ms.assetid: '3f8c0754-fa68-4b5b-812f-24d8b544ba6e'
-keywords: ["DrawRectangle methods Direct2D"]
+ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
+keywords:
+- DrawRectangle methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # ID2D1RenderTarget::DrawRectangle methods

@@ -39,13 +39,13 @@ foreach (ShellObject so in KnownFolders.SavedSearches)
 
 You can access index results through either OLE DB or the Shell data model. There are advantages and disadvantages with either approach. One advantage is that OLE DB and Structured Query Language (SQL) are familiar to database programmers. Other advantages are better control over performance when querying only the indexer, and access to additional functionality such as the ability to locate previous results in a new rowset quickly.
 
-Advantages of the Shell data model are that it abstracts across different sources of information such as OpenSearch, and provides access to additional functionality such as thumbnails and property handlers. Nor does the Shell object model require special case support for non-filename results such as mail items and OneNote results, nor for any item that resides in the user's index. Note that in Shell [KNOWNFOLDERID](https://msdn.microsoft.com/en-us/library/dd378457.aspx) is the known folder scope for local indexed content. For more information on creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/cc144093(VS.85).aspx).
+Advantages of the Shell data model are that it abstracts across different sources of information such as OpenSearch, and provides access to additional functionality such as thumbnails and property handlers. Nor does the Shell object model require special case support for non-filename results such as mail items and OneNote results, nor for any item that resides in the user's index. Note that in Shell [KNOWNFOLDERID](https://docs.microsoft.com/windows/desktop/shell/knownfolderid) is the known folder scope for local indexed content. For more information on creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/cc144093(VS.85).aspx).
 
-OpenSearch data sources are not exposed through OLE DB for federated search in Windows 7 and later. For this reason we recommend that you consider writing a LINQ provider for the Shell namespace instead of using OLE DB to access the indexer results. For more information, see [Walkthrough: Creating an IQueryable LINQ Provider](https://msdn.microsoft.com/en-us/library/bb546158.aspx).
+OpenSearch data sources are not exposed through OLE DB for federated search in Windows 7 and later. For this reason we recommend that you consider writing a LINQ provider for the Shell namespace instead of using OLE DB to access the indexer results. For more information, see [Walkthrough: Creating an IQueryable LINQ Provider](https://docs.microsoft.com/previous-versions/bb546158(v=vs.140)).
 
 ### Sample Application Using the Windows API Codepack
 
-The following screenshot represents a mock up of a sample application created with the [Windows API Code Pack for Microsoft .NET Framework](https://code.msdn.microsoft.com/WindowsAPICodePack).
+The following screenshot represents a mock up of a sample application created with the [Windows API Code Pack for Microsoft .NET Framework](http://archive.msdn.microsoft.com/WindowsAPICodePack).
 
 ![screen shot of media player application showing email messages](images/folderid-searchhome.png)
 

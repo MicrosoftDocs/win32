@@ -67,7 +67,7 @@ Exstrace.dll is an optional component that installs with the Simple Mail Transfe
 
 The **va\_list** data type is a standard type that is used to hold information needed by **va\_arg** and **va\_end** macros. For more information, see [Standard Types](https://go.microsoft.com/fwlink/p/?linkid=85306).
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 

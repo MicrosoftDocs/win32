@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LSA Policy
 
-The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) is a protected subsystem of Windows that maintains information about all aspects of local security on a system, collectively known as the [local security policy](local-security-policy.md) of the system. In addition to housing policy information, the LSA provides services for translation between names and [*security identifiers*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SIDs).
+The [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) is a protected subsystem of Windows that maintains information about all aspects of local security on a system, collectively known as the [local security policy](local-security-policy.md) of the system. In addition to housing policy information, the LSA provides services for translation between names and [*security identifiers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SIDs).
 
  
 

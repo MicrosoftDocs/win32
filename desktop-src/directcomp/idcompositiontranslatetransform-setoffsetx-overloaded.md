@@ -1,14 +1,17 @@
 ---
 title: IDCompositionTranslateTransform SetOffsetX methods
 description: Changes or animates the value of the OffsetX property of a 2D translation transform.
-ms.assetid: 'E77645DB-6C6F-4A6C-9BD1-F2CF5915A85E'
-keywords: ["SetOffsetX methods DirectComposition"]
+ms.assetid: E77645DB-6C6F-4A6C-9BD1-F2CF5915A85E
+keywords:
+- SetOffsetX methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionTranslateTransform::SetOffsetX methods

@@ -18,7 +18,7 @@ A [**RecognizerContext**](inkrecognizercontext-class.md) object is the instantia
 
 A single Tablet PC may have one or more recognizers available. You can query the recognizer's collection to determine which recognizer to use. A recognizer provides specific information about its capabilities such as the language it can recognize and the manufacturer.
 
-To determine whether at least one recognizer is installed, instantiate an [**InkRecognizerContext**](inkrecognizercontext-class.md) object as shown in the following C++ and C\# code examples. If a recognizer is not present, this call to [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) fails.
+To determine whether at least one recognizer is installed, instantiate an [**InkRecognizerContext**](inkrecognizercontext-class.md) object as shown in the following C++ and C\# code examples. If a recognizer is not present, this call to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) fails.
 
 
 ```C++

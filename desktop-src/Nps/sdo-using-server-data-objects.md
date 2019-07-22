@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 The following sections provide sample code that demonstrates how to use the Server Data Objects (SDO) API.
 
--   [Fundamental SDO Operations](https://msdn.microsoft.com/library/bb960630)
--   [SDO Tasks](https://msdn.microsoft.com/library/bb960712)
+-   [Fundamental SDO Operations](https://docs.microsoft.com/windows/desktop/Nps/sdo-fundamental-sdo-operations)
+-   [SDO Tasks](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-tasks)
 
  
 

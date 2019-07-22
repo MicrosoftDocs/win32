@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.SelectedItems method
 
-Gets a [**FolderItems**](https://msdn.microsoft.com/library/windows/desktop/bb787800) object that represents all of the selected items in the view.
+Gets a [**FolderItems**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems) object that represents all of the selected items in the view.
 
 ## Syntax
 
@@ -37,9 +37,9 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FolderItems**](https://msdn.microsoft.com/library/windows/desktop/bb787800)\*\***
+Type: **[**FolderItems**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems)\*\***
 
-An object reference to the [**FolderItems**](https://msdn.microsoft.com/library/windows/desktop/bb787800) object.
+An object reference to the [**FolderItems**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems) object.
 
 ## Examples
 

@@ -12,19 +12,19 @@ This section shows the use of a DLL entry-point function to set up a thread loca
 
 The TLS index is stored in a global variable, making it available to all of the DLL functions. This example assumes that the DLL's global data is not shared, because the TLS index is not necessarily the same for each process that loads the DLL.
 
-The entry-point function uses the [**TlsAlloc**](https://msdn.microsoft.com/library/windows/desktop/ms686801) function to allocate a TLS index whenever a process loads the DLL. Each thread can then use this index to store a pointer to its own block of memory.
+The entry-point function uses the [**TlsAlloc**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc) function to allocate a TLS index whenever a process loads the DLL. Each thread can then use this index to store a pointer to its own block of memory.
 
 When the entry-point function is called with the DLL\_PROCESS\_ATTACH value, the code performs the following actions:
 
-1.  Uses the [**TlsAlloc**](https://msdn.microsoft.com/library/windows/desktop/ms686801) function to allocate a TLS index.
+1.  Uses the [**TlsAlloc**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc) function to allocate a TLS index.
 2.  Allocates a block of memory to be used exclusively by the initial thread of the process.
-3.  Uses the TLS index in a call to the [**TlsSetValue**](https://msdn.microsoft.com/library/windows/desktop/ms686818) function to store the address of the memory block in the TLS slot associated with the index.
+3.  Uses the TLS index in a call to the [**TlsSetValue**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue) function to store the address of the memory block in the TLS slot associated with the index.
 
 Each time the process creates a new thread, the entry-point function is called with the DLL\_THREAD\_ATTACH value. The entry-point function then allocates a block of memory for the new thread and stores a pointer to it by using the TLS index.
 
-When a function requires access to the data associated with a TLS index, specify the index in a call to the [**TlsGetValue**](https://msdn.microsoft.com/library/windows/desktop/ms686812) function. This retrieves the contents of the TLS slot for the calling thread, which in this case is a pointer to the memory block for the data. When a process uses load-time linking with this DLL, the entry-point function is sufficient to manage the thread local storage. Problems can occur with a process that uses run-time linking because the entry-point function is not called for threads that exist before the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) function is called, so TLS memory is not allocated for these threads. This example solves this problem by checking the value returned by the [**TlsGetValue**](https://msdn.microsoft.com/library/windows/desktop/ms686812) function and allocating memory if the value indicates that the TLS slot for this thread is not set.
+When a function requires access to the data associated with a TLS index, specify the index in a call to the [**TlsGetValue**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue) function. This retrieves the contents of the TLS slot for the calling thread, which in this case is a pointer to the memory block for the data. When a process uses load-time linking with this DLL, the entry-point function is sufficient to manage the thread local storage. Problems can occur with a process that uses run-time linking because the entry-point function is not called for threads that exist before the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) function is called, so TLS memory is not allocated for these threads. This example solves this problem by checking the value returned by the [**TlsGetValue**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue) function and allocating memory if the value indicates that the TLS slot for this thread is not set.
 
-When each thread no longer needs to use a TLS index, it must free the memory whose pointer is stored in the TLS slot. When all threads have finished using a TLS index, use the [**TlsFree**](https://msdn.microsoft.com/library/windows/desktop/ms686804) function to release the index.
+When each thread no longer needs to use a TLS index, it must free the memory whose pointer is stored in the TLS slot. When all threads have finished using a TLS index, use the [**TlsFree**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsfree) function to release the index.
 
 When a thread terminates, the entry-point function is called with the DLL\_THREAD\_DETACH value and the memory for that thread is freed. When a process terminates, the entry-point function is called with the DLL\_PROCESS\_DETACH value and the memory referenced by the pointer in the TLS index is freed.
 
@@ -250,7 +250,7 @@ VOID ErrorExit (LPSTR lpszMessage)
 [Dynamic-Link Library Data](dynamic-link-library-data.md)
 </dt> <dt>
 
-[Using Thread Local Storage](https://msdn.microsoft.com/library/windows/desktop/ms686991)
+[Using Thread Local Storage](https://docs.microsoft.com/windows/desktop/ProcThread/using-thread-local-storage)
 </dt> </dl>
 
  

@@ -21,7 +21,7 @@ Represents a warning or error that occurs during an ink analysis operation.
 
 ## Members
 
-The **IAnalysisWarning** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IAnalysisWarning** also has these types of members:
+The **IAnalysisWarning** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisWarning** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -36,7 +36,7 @@ The **IAnalysisWarning** interface has these methods.
 | [**GetBackgroundError**](ianalysiswarning-getbackgrounderror.md) | Retrieves the error code for the background ink analysis operation if an error occurred.<br/>                                    |
 | [**GetHint**](ianalysiswarning-gethint.md)                       | Retrieves the analysis hint that caused this warning<br/>                                                                        |
 | [**GetNodeIds**](ianalysiswarning-getnodeids.md)                 | Retrieves the identifiers of any relevant context nodes that are associated with this warning.<br/>                              |
-| [**GetWarningCode**](ianalysiswarning-getwarningcode.md)         | Retrieves the type of warning that occurred by using the [**AnalysisWarningCode**](https://msdn.microsoft.com/library/windows/desktop/ms698513) enumeration.<br/> |
+| [**GetWarningCode**](ianalysiswarning-getwarningcode.md)         | Retrieves the type of warning that occurred by using the [**AnalysisWarningCode**](https://docs.microsoft.com/windows/desktop/tablet/analysiswarningcode) enumeration.<br/> |
 
 
 
@@ -44,9 +44,9 @@ The **IAnalysisWarning** interface has these methods.
 
 ## Remarks
 
-The types of warnings that can occur are described by the [**AnalysisWarningCode**](https://msdn.microsoft.com/library/windows/desktop/ms698513) enumeration. Often warnings occur when you try to use a feature that is not supported by the [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) that the [**IInkAnalyzer**](iinkanalyzer.md) is using.
+The types of warnings that can occur are described by the [**AnalysisWarningCode**](https://docs.microsoft.com/windows/desktop/tablet/analysiswarningcode) enumeration. Often warnings occur when you try to use a feature that is not supported by the [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) that the [**IInkAnalyzer**](iinkanalyzer.md) is using.
 
-Some warnings indicate that the [**IInkAnalyzer**](iinkanalyzer.md) did not complete the analysis operation. For more information, see [**AnalysisWarningCode**](https://msdn.microsoft.com/library/windows/desktop/ms698513).
+Some warnings indicate that the [**IInkAnalyzer**](iinkanalyzer.md) did not complete the analysis operation. For more information, see [**AnalysisWarningCode**](https://docs.microsoft.com/windows/desktop/tablet/analysiswarningcode).
 
 ## Examples
 

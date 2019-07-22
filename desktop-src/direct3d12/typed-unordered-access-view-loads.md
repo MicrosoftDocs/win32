@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Typed unordered access view (UAV) loads
 
-Unordered Access View (UAV) Typed Load is the ability for a shader to read from a UAV with a specific [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
+Unordered Access View (UAV) Typed Load is the ability for a shader to read from a UAV with a specific [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 -   [Overview](#overview)
 -   [Supported formats and API calls](#supported-formats-and-api-calls)
@@ -19,7 +19,7 @@ Unordered Access View (UAV) Typed Load is the ability for a shader to read from 
 
 ## Overview
 
-An unordered access view (UAV) is a view of an unordered access resource (which can include buffers, textures, and texture arrays, though without multi-sampling). A UAV allows temporally unordered read/write access from multiple threads. This means that this resource type can be read/written simultaneously by multiple threads without generating memory conflicts. This simultaneous access is handled through the use of [Atomic Functions](https://msdn.microsoft.com/library/windows/desktop/ff476334.aspx).
+An unordered access view (UAV) is a view of an unordered access resource (which can include buffers, textures, and texture arrays, though without multi-sampling). A UAV allows temporally unordered read/write access from multiple threads. This means that this resource type can be read/written simultaneously by multiple threads without generating memory conflicts. This simultaneous access is handled through the use of [Atomic Functions](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-atomic-functions).
 
 D3D12 (and D3D11.3) expands on the list of formats that can be used with typed UAV loads.
 
@@ -136,7 +136,7 @@ RWBuffer<unorm float> uav;
 [Resource Binding in HLSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277)
+[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)

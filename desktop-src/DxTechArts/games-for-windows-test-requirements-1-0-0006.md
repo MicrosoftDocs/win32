@@ -769,7 +769,7 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 [!Note]<br />
 Autorun programs that were written for use on versions of Windows prior to Windows Vista should not use the .NET runtime, because this technology is not included with Windows XP or older versions of Windows.
 </blockquote>
-<br/> For further guidance, please refer to <a href="https://msdn.microsoft.com/library/windows/desktop/ee417691">Games for Windows Technical Requirements</a> 3.7, Support Autorun. <br/></td>
+<br/> For further guidance, please refer to <a href="https://docs.microsoft.com/windows/desktop/DxTechArts/games-for-windows-technical-requirements-1-1-0006">Games for Windows Technical Requirements</a> 3.7, Support Autorun. <br/></td>
 </tr>
 <tr class="even">
 
@@ -1283,7 +1283,7 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Games_for_Windows__Technical_Requirements"></span><span id="games_for_windows__technical_requirements"></span><span id="GAMES_FOR_WINDOWS__TECHNICAL_REQUIREMENTS"></span>Games for Windows: Technical Requirements
 </dt> <dd>
 
-[Games for Windows Technical Requirements: Best Practices for Games on Windows XP, Windows Vista, and Windows 7](https://msdn.microsoft.com/library/windows/desktop/ee417691)
+[Games for Windows Technical Requirements: Best Practices for Games on Windows XP, Windows Vista, and Windows 7](https://docs.microsoft.com/windows/desktop/DxTechArts/games-for-windows-technical-requirements-1-1-0006)
 
 </dd> <dt>
 
@@ -1297,14 +1297,14 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="User_Account_Control_Guidelines"></span><span id="user_account_control_guidelines"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES"></span>User Account Control Guidelines
 </dt> <dd>
 
-[Windows Vista Application Development Requirements for User Account Control Compatibility](https://msdn.microsoft.com/library/bb530410.aspx)
+[Windows Vista Application Development Requirements for User Account Control Compatibility](/previous-versions/dotnet/articles/bb530410(v=msdn.10))
 
 </dd> <dt>
 
 <span id="Windows_Installer_Information"></span><span id="windows_installer_information"></span><span id="WINDOWS_INSTALLER_INFORMATION"></span>Windows Installer Information
 </dt> <dd>
 
-[Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688)
+[Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal)
 
 </dd> <dt>
 
@@ -1318,21 +1318,21 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="DirectX_Developer_Portal"></span><span id="directx_developer_portal"></span><span id="DIRECTX_DEVELOPER_PORTAL"></span>DirectX Developer Portal
 </dt> <dd>
 
-[DirectX Developer Center](https://msdn.microsoft.com/directx/)
+[DirectX Developer Center](https://docs.microsoft.com/previous-versions/windows/apps/hh452744(v=win.10))
 
 </dd> <dt>
 
 <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog
 </dt> <dd>
 
-[Games for Windows and the DirectX SDK](https://blogs.msdn.com/b/chuckw/)
+[Games for Windows and the DirectX SDK](https://walbourn.github.io/)
 
 </dd> <dt>
 
 <span id="Additional_DirectX_Articles"></span><span id="additional_directx_articles"></span><span id="ADDITIONAL_DIRECTX_ARTICLES"></span>Additional DirectX Articles
 </dt> <dd>
 
-[DirectX Technical Articles](https://msdn.microsoft.com/library/windows/desktop/ee416994)
+[DirectX Technical Articles](https://docs.microsoft.com/windows/desktop/DxTechArts/dx9-technical-articles)
 
 </dd> </dl>
 

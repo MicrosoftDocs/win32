@@ -26,7 +26,7 @@ The sample code is split into separate directories as described below:
 -   stcpcommon - the folder that contains common library code that is shared between the secure TCP client and server.
 -   stcpserver - the folder that contains the secure TCP server code.
 
-It should be noted that the samples are meant to be run on two different computers running Windows Vista or later. Additionally, IPsec credentials must be provisioned on both the computers for the connection to succeed, because the sample uses IPsec for securing its traffic. Please refer to the documentation on [IPsec Configuration](https://msdn.microsoft.com/library/windows/desktop/bb736264) for more information on setting up IPsec credentials.
+It should be noted that the samples are meant to be run on two different computers running Windows Vista or later. Additionally, IPsec credentials must be provisioned on both the computers for the connection to succeed, because the sample uses IPsec for securing its traffic. Please refer to the documentation on [IPsec Configuration](https://docs.microsoft.com/windows/desktop/FWP/ipsec-configuration) for more information on setting up IPsec credentials.
 
 Building the sample will generate two executable files:
 
@@ -54,28 +54,28 @@ Execute the following command for more usage options for the client:
 
 <dl> <dt>
 
-[About Windows Filtering Platform](https://msdn.microsoft.com/library/windows/desktop/aa363967)
+[About Windows Filtering Platform](https://docs.microsoft.com/windows/desktop/FWP/about-windows-filtering-platform)
 </dt> <dt>
 
-[Application Layer Enforcement (ALE)](https://msdn.microsoft.com/library/windows/desktop/aa363971)
+[Application Layer Enforcement (ALE)](https://docs.microsoft.com/windows/desktop/FWP/application-layer-enforcement--ale-)
 </dt> <dt>
 
-[IPsec Configuration](https://msdn.microsoft.com/library/windows/desktop/bb736264)
+[IPsec Configuration](https://docs.microsoft.com/windows/desktop/FWP/ipsec-configuration)
 </dt> <dt>
 
-[IPsec Functions](https://msdn.microsoft.com/library/windows/desktop/aa364938)
+[IPsec Functions](https://docs.microsoft.com/windows/desktop/FWP/fwp-ipsec-functions)
 </dt> <dt>
 
 [Using Secure Socket Extensions](using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/library/windows/desktop/aa378663)
+[Security Support Provider Interface (SSPI)](https://docs.microsoft.com/windows/desktop/Rpc/security-support-provider-interface-sspi-)
 </dt> <dt>
 
-[Windows Filtering Platform](https://msdn.microsoft.com/library/windows/desktop/aa366510)
+[Windows Filtering Platform](https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page)
 </dt> <dt>
 
-[Windows Filtering Platform API Functions](https://msdn.microsoft.com/library/windows/desktop/aa364931)
+[Windows Filtering Platform API Functions](https://docs.microsoft.com/windows/desktop/FWP/fwp-functions)
 </dt> <dt>
 
 [Winsock Secure Socket Extensions](winsock-secure-socket-extensions.md)

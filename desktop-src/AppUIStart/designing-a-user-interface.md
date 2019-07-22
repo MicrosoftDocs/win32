@@ -45,7 +45,7 @@ Consider the following suggestions early in the design phase to optimize the use
 
 -   Support the international marketplace.
 
-    Windows includes technologies that enable support for many cultures and written languages in a Windows application. If the application is targeting the international marketplace, it is important to include internationalization support in the UI design from the beginning of the project. For more information, see [Internationalization for Windows Applications](https://msdn.microsoft.com/library/windows/desktop/dd318661).
+    Windows includes technologies that enable support for many cultures and written languages in a Windows application. If the application is targeting the international marketplace, it is important to include internationalization support in the UI design from the beginning of the project. For more information, see [Internationalization for Windows Applications](https://docs.microsoft.com/windows/desktop/Intl/international-support).
 
 ## User Analysis
 

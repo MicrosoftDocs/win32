@@ -34,11 +34,11 @@ This topic describes the pixel formats and alpha modes supported by the various 
 
 ## Supported YUV Formats for DXGI Image Source
 
-An [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) is an abstracted provider of pixels. It can be instantiated from either WIC ([**CreateImageSourceFromWic**](/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_id2d1imagesourcefromwic)) or an [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) ([**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx)).
+An [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) is an abstracted provider of pixels. It can be instantiated from either WIC ([**CreateImageSourceFromWic**](/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_id2d1imagesourcefromwic)) or an [**IDXGISurface**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) ([**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx)).
 
 [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx) supports the same set of pixel formats and alpha modes as [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx).
 
-In addition to the above, an [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) that is instantiated from [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) also supports some YUV pixel formats, including planar data split into multiple surfaces. See [**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx) for more information about requirements for each pixel format.
+In addition to the above, an [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) that is instantiated from [**IDXGISurface**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) also supports some YUV pixel formats, including planar data split into multiple surfaces. See [**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx) for more information about requirements for each pixel format.
 
 
 
@@ -106,15 +106,15 @@ Different render targets support different format and alpha mode combinations. T
 The supported formats for an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) depend on whether it renders by using hardware or software, or whether Direct2D handles the rendering mode automatically by default.
 
 > [!Note]  
-> We recommend that you use [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](https://msdn.microsoft.com/library/windows/desktop/bb173059) as the pixel format for better performance. This is particularly helpful for software render targets. BGRA format targets perform better than RGBA formats.
+> We recommend that you use [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) as the pixel format for better performance. This is particularly helpful for software render targets. BGRA format targets perform better than RGBA formats.
 
  
 
 When you create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx), you use the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure to specify rendering options. The options include the pixel format, as noted in the previous section. The type field of this structure enables you to specify whether the render target renders to hardware or software, or whether Direct2D should automatically determine the rendering mode.
 
-To enable Direct2D to determine whether the render target uses hardware or software rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting.
+To enable Direct2D to determine whether the render target uses hardware or software rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) setting.
 
-The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that are created by using the [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting.
+The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that are created by using the [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) setting.
 
 
 
@@ -131,7 +131,7 @@ The following table lists the supported formats for [**ID2D1HwndRenderTarget**](
 
  
 
-To force a render target to use hardware rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that explicitly use hardware rendering.
+To force a render target to use hardware rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that explicitly use hardware rendering.
 
 
 
@@ -151,7 +151,7 @@ To force a render target to use hardware rendering, use the [**D2D1\_RENDER\_TAR
 
  
 
-To force a render target to use software rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that explicitly use software rendering.
+To force a render target to use software rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that explicitly use software rendering.
 
 
 
@@ -172,7 +172,7 @@ Regardless of whether the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com
 
 ## Supported formats for ID2D1DeviceContext
 
-Starting with Windows 8 the [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) takes advantage of more of the [**Direct3D high color formats**](https://msdn.microsoft.com/library/windows/desktop/bb173059) like:
+Starting with Windows 8 the [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) takes advantage of more of the [**Direct3D high color formats**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) like:
 
 -   DXGI\_FORMAT\_B8G8R8A8\_UNORM\_SRGB
 -   DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB

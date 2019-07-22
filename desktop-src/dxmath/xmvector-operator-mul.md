@@ -34,7 +34,7 @@ Multiplication operators
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee421390(v=VS.85).aspx"><strong>XMVECTOR::operator * (float,XMVECTOR)</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee421390(v=vs.85)"><strong>XMVECTOR::operator * (float,XMVECTOR)</strong></a></td>
 <td style="text-align: left;">Multiply a floating point value by an instance of <code>XMVECTOR</code>, returning the result a new instance of <code>XMVECTOR</code>.<br/> The <code>operator *</code> multiplies a floating point value against each component of an instance of <a href="xmvector-data-type"><strong>XMVECTOR Data Type</strong></a>, returning a new <code>XMVECTOR</code> instance whose components contain the result. <br/>
 <blockquote>
 [!Note]<br />
@@ -43,7 +43,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee421391(v=VS.85).aspx"><strong>XMVECTOR::operator * (XMVECTOR,float)</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee421391(v=vs.85)"><strong>XMVECTOR::operator * (XMVECTOR,float)</strong></a></td>
 <td style="text-align: left;">Multiply an instance of <code>XMVECTOR</code> by a floating point value, returning the result a new instance of <code>XMVECTOR</code>.<br/> The <code>operator *</code> multiplies each component of an instance of <a href="xmvector-data-type"><strong>XMVECTOR Data Type</strong></a> by a floating point value, returning a new <code>XMVECTOR</code> instance whose components contain the result. <br/>
 <blockquote>
 [!Note]<br />
@@ -52,7 +52,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee421392(v=VS.85).aspx"><strong>XMVECTOR::operator * (XMVECTOR,XMVECTOR)</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee421392(v=vs.85)"><strong>XMVECTOR::operator * (XMVECTOR,XMVECTOR)</strong></a></td>
 <td style="text-align: left;">Multiplies one instance of <code>XMVECTOR</code> by a second instance, returning the result in a third instance. <br/> The <code>operator *</code> multiplies each component of an instance of <a href="xmvector-data-type"><strong>XMVECTOR Data Type</strong></a> by the corresponding component in a second instance of <code>XMVECTOR</code>, returning a new <code>XMVECTOR</code> instance containing the result. <br/>
 <blockquote>
 [!Note]<br />

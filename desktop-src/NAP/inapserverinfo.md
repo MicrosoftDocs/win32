@@ -28,7 +28,7 @@ The **INapServerInfo** provides methods that Management clients (for example, WM
 
 ## Members
 
-The **INapServerInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapServerInfo** also has these types of members:
+The **INapServerInfo** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapServerInfo** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -17,7 +17,7 @@ The [registry redirector](registry-redirector.md) isolates 32-bit and 64-bit app
 
 The process of *registry reflection* copies registry keys and values between two registry views to keep them synchronized. Each view has a separate physical copy of each reflected registry key, one for the 32-bit registry view and the other for the 64-bit registry view.
 
-A reflected key is copied when a key is closed by calling [**RegCloseKey**](https://msdn.microsoft.com/library/windows/desktop/ms724837). Note that this gives rise to a possible race condition: if more than one process changes the reflected key, the last **RegCloseKey** call determines the key's final value.
+A reflected key is copied when a key is closed by calling [**RegCloseKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey). Note that this gives rise to a possible race condition: if more than one process changes the reflected key, the last **RegCloseKey** call determines the key's final value.
 
 The reflector copies COM activation data for Local servers between the views, but it does not copy in-process data because 32/64 in-process data mixing is not permitted on 64-bit Windows.
 
@@ -41,9 +41,9 @@ For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\CLSID** and **HKEY\_CURRENT\_USER
 
 For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\Appid** and **HKEY\_CURRENT\_USER\\Software\\Classes\\Appid**, the [DllSurrogate](https://go.microsoft.com/fwlink/p/?linkid=150167) and [DllSurrogateExecutable]( https://go.microsoft.com/fwlink/p/?linkid=150169) registry values are not reflected if their value is an empty string.
 
-To disable and enable registry reflection for a particular reflected key, use the [**RegDisableReflectionKey**](https://msdn.microsoft.com/library/windows/desktop/ms724858) and [**RegEnableReflectionKey**](https://msdn.microsoft.com/library/windows/desktop/ms724859) functions. These functions do not affect keys that are not on the list of reflected keys earlier in this topic. Applications should disable reflection only for the registry keys that they create and not attempt to disable reflection for the predefined keys such as **HKEY\_LOCAL\_MACHINE** or **HKEY\_CURRENT\_USER**. To determine whether the keys on the reflection list have been disabled, use the [**RegQueryReflectionKey**](https://msdn.microsoft.com/library/windows/desktop/ms724907) function.
+To disable and enable registry reflection for a particular reflected key, use the [**RegDisableReflectionKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey) and [**RegEnableReflectionKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenablereflectionkey) functions. These functions do not affect keys that are not on the list of reflected keys earlier in this topic. Applications should disable reflection only for the registry keys that they create and not attempt to disable reflection for the predefined keys such as **HKEY\_LOCAL\_MACHINE** or **HKEY\_CURRENT\_USER**. To determine whether the keys on the reflection list have been disabled, use the [**RegQueryReflectionKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryreflectionkey) function.
 
-Reflected keys should not be used in transacted registry operations. Writing to reflected keys during a transaction can cause the transaction to fail. For more information about transactions, see [Kernel Transaction Manager](https://msdn.microsoft.com/library/windows/desktop/bb986748).
+Reflected keys should not be used in transacted registry operations. Writing to reflected keys during a transaction can cause the transaction to fail. For more information about transactions, see [Kernel Transaction Manager](https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-portal).
 
 ## Related topics
 

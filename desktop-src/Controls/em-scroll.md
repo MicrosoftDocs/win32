@@ -53,7 +53,7 @@ This parameter is not used.
 
 ## Return value
 
-If the message is successful, the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of the return value is **TRUE**, and the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is the number of lines that the command scrolls. The number returned may not be the same as the actual number of lines scrolled if the scrolling moves to the beginning or the end of the text. If the *wParam* parameter specifies an invalid value, the return value is **FALSE**.
+If the message is successful, the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of the return value is **TRUE**, and the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the number of lines that the command scrolls. The number returned may not be the same as the actual number of lines scrolled if the scrolling moves to the beginning or the end of the text. If the *wParam* parameter specifies an invalid value, the return value is **FALSE**.
 
 ## Remarks
 

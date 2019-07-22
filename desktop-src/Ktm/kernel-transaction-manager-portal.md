@@ -47,10 +47,10 @@ KTM is supported starting with Windows Vista.
 
 <dl> <dt>
 
-[Common Log File System](https://msdn.microsoft.com/library/windows/desktop/bb986747)
+[Common Log File System](https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-portal)
 </dt> <dt>
 
-[Transactional NTFS (TxF)](https://msdn.microsoft.com/library/windows/desktop/bb968806)
+[Transactional NTFS (TxF)](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal)
 </dt> <dt>
 
 [Distributed Transaction Coordinator](https://go.microsoft.com/fwlink/p/?linkid=139572)

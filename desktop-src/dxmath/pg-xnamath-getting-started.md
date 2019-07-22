@@ -68,7 +68,7 @@ Because the library is delivered using header files, use the source code to cust
 
 DirectXMath uses row-major matrices, row vectors, and pre-multiplication. Handedness is determined by which function version is used (RH vs. LH), otherwise the function works with either left-handed or right-handed view coordinates.
 
-For reference, Direct3D has historically used left-handed coordinate system, row-major matrices, row vectors, and pre-multiplication. Modern Direct3D does not have a strong requirement for left vs. right-handed coordinates, and typically HLSL shaders default to consuming column-major matrices. See [HLSL Matrix Ordering](https://msdn.microsoft.com/en-us/library/windows/desktop/bb509634.aspx#matrix-ordering) for details.
+For reference, Direct3D has historically used left-handed coordinate system, row-major matrices, row vectors, and pre-multiplication. Modern Direct3D does not have a strong requirement for left vs. right-handed coordinates, and typically HLSL shaders default to consuming column-major matrices. See [HLSL Matrix Ordering](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-per-component-math) for details.
 
 ## Basic Usage
 

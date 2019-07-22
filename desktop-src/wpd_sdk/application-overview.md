@@ -18,7 +18,7 @@ The WPD infrastructure offers highly extensible device representation and contro
 
 <dl> <dt>
 
-[**Windows Portable Devices**](https://msdn.microsoft.com/library/windows/desktop/dd388998)
+[**Windows Portable Devices**](https://docs.microsoft.com/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  

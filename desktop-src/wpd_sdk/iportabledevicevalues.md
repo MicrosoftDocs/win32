@@ -30,7 +30,7 @@ This interface can be retrieved from a method or, if a new object is required, c
 
 ## Members
 
-The **IPortableDeviceValues** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPortableDeviceValues** also has these types of members:
+The **IPortableDeviceValues** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPortableDeviceValues** also has these types of members:
 
 -   [Methods](#methods)
 

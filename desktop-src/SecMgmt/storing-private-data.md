@@ -16,7 +16,7 @@ To retrieve and decode previously stored private data, call [**LsaRetrievePrivat
 
 Before you can store or retrieve private data, your application must get a handle to the local [**Policy**](policy-object.md) object, as demonstrated in [Opening a Policy Object Handle](opening-a-policy-object-handle.md).
 
-The following example creates a local private data object. Note that the function InitLsaString converts a [*Unicode*](https://msdn.microsoft.com/library/windows/desktop/ms721629#-security-unicode-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
+The following example creates a local private data object. Note that the function InitLsaString converts a [*Unicode*](https://docs.microsoft.com/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
 
 ```C++
@@ -63,7 +63,7 @@ BOOL CreatePrivateDataObject(LSA_HANDLE PolicyHandle)
 
 
 > [!Note]  
-> The data stored by the [**LsaStorePrivateData**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsastoreprivatedata) function is not absolutely protected. The key, however, has a [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL) that allows only the creator and administrators to read the data.
+> The data stored by the [**LsaStorePrivateData**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsastoreprivatedata) function is not absolutely protected. The key, however, has a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) that allows only the creator and administrators to read the data.
 
  
 

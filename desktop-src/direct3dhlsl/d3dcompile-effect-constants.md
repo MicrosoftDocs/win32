@@ -32,7 +32,7 @@ These constants direct how the compiler compiles an effect file or how the runti
 Compile the effects (.fx) file to a child effect. Child effects have no initializers for any shared values because these child effects are initialized in the master effect (the effect pool).
 
 > [!Note]  
-> Effect pools are supported by Effects 10 (FX10) but not by Effects 11 (FX11). For more info about differences between effect pools in Direct3D 10 and effect groups in Direct3D 11, see [Effect Pools and Groups](https://msdn.microsoft.com/library/windows/desktop/ff476141#effect-pools-groups).
+> Effect pools are supported by Effects 10 (FX10) but not by Effects 11 (FX11). For more info about differences between effect pools in Direct3D 10 and effect groups in Direct3D 11, see [Effect Pools and Groups](https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-programming-guide-effects-differences).
 
  
 

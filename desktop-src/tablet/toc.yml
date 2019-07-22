@@ -700,13 +700,13 @@
           - name: "DivisionType Property"
             href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype
           - name: "RecognitionString Property"
-            href: https://msdn.microsoft.com/en-us/library/ms703283(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703283(v=vs.85)
           - name: "RotationTransform Property"
             href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_rotationtransform
           - name: "Strokes Property"
             href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_strokes
           - name: "ToString Method"
-            href: https://msdn.microsoft.com/en-us/library/ms699557(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms699557(v=vs.85)
         - name: "IInkDivisionUnits Interface"
           href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits
           items: 
@@ -779,7 +779,7 @@
           - name: "Strokes Property"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_strokes
           - name: "ToString Method"
-            href: https://msdn.microsoft.com/en-us/library/Dd314585(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd314585(v=vs.85)
         - name: "IInkRecognitionAlternates Interface"
           href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates
           items: 
@@ -793,7 +793,7 @@
           href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult
           items: 
           - name: "GetAlternatesFromSelection Method"
-            href: https://msdn.microsoft.com/en-us/library/ms698186(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)
           - name: "ModifyTopAlternate Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-modifytopalternate
           - name: "SetResultOnStrokes Method"
@@ -822,7 +822,7 @@
           - name: "SupportedProperties Property"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_supportedproperties
           - name: "ToString Method"
-            href: https://msdn.microsoft.com/en-us/library/Dd314588(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd314588(v=vs.85)
           - name: "Vendor Property"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_vendor
         - name: "IInkRecognizer2 Interface"
@@ -925,12 +925,12 @@
           - name: "DeviceKind Property"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet2-get_devicekind
         - name: "IInkTablet3 Interface"
-          href: https://msdn.microsoft.com/en-us/library/Dd464653(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3
           items: 
           - name: "IsMultiTouch Property"
-            href: https://msdn.microsoft.com/en-us/library/Dd464654(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_ismultitouch
           - name: "MaximumCursors Property"
-            href: https://msdn.microsoft.com/en-us/library/Dd464655(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_maximumcursors
         - name: "IInkWordList2 Interface"
           href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2
           items: 
@@ -1082,13 +1082,13 @@
           href: inkdivider-class.md
           items: 
           - name: "Divide Method"
-            href: https://msdn.microsoft.com/en-us/library/ms702500(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide
           - name: "LineHeight Property"
-            href: https://msdn.microsoft.com/en-us/library/ms699524(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight
           - name: "RecognizerContext Property"
-            href: https://msdn.microsoft.com/en-us/library/ms701736(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext
           - name: "Strokes Property"
-            href: https://msdn.microsoft.com/en-us/library/ms698600(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes
         - name: "InkDrawingAttributes Class"
           href: inkdrawingattributes-class.md
           items: 
@@ -1245,7 +1245,7 @@
           - name: "BackgroundRecognizeWithAlternates Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates
           - name: "CharacterAutoCompletion Property"
-            href: https://msdn.microsoft.com/en-us/library/ms701136(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_characterautocompletionmode
           - name: "Clone Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-clone
           - name: "EndInkInput Method"
@@ -1292,7 +1292,7 @@
           - name: "WritingBox Property"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox
         - name: "InkRecognizers Collection"
-          href: https://msdn.microsoft.com/en-us/library/ms702438(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)
           items: 
           - name: "Count Property"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-get_count
@@ -1335,7 +1335,7 @@
           - name: "Measure Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure
           - name: "MeasureStroke Method"
-            href: https://msdn.microsoft.com/en-us/library/ms702493(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke
           - name: "Move Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-move
           - name: "PixelToInkSpace Method"
@@ -1351,7 +1351,7 @@
           - name: "SetViewTransform Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform
         - name: "InkStrokes Collection"
-          href: https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)
           items: 
           - name: "Add Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-add
@@ -1396,7 +1396,7 @@
           - name: "Transform Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-transform
         - name: "InkTablets Collection"
-          href: https://msdn.microsoft.com/en-us/library/ms704832(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)
           items: 
           - name: "Count Property"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_count
@@ -1443,18 +1443,18 @@
           href: inkwordlist-class.md
           items: 
           - name: "AddWord Method"
-            href: https://msdn.microsoft.com/en-us/library/ms702462(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword
           - name: "Merge Method"
-            href: https://msdn.microsoft.com/en-us/library/ms700650(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-merge
           - name: "RemoveWord Method"
-            href: https://msdn.microsoft.com/en-us/library/ms701127(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword
         - name: "PenInputPanel Class"
           href: peninputpanel-class.md
           items: 
           - name: "AttachedEditWindow Property"
             href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow
           - name: "AutoShow Property"
-            href: https://msdn.microsoft.com/en-us/library/ms703289(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow
           - name: "Busy Property"
             href: /windows/desktop/api/Peninputpanel/nf-peninputpanel-ipeninputpanel-get_busy
           - name: "CommitPendingInput Method"
@@ -1474,7 +1474,7 @@
           - name: "InputFailed Event"
             href: peninputpanel-inputfailed.md
           - name: "Left Property"
-            href: https://msdn.microsoft.com/en-us/library/ms701203(v=VS.85).aspx
+            href: https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left
           - name: "MoveTo Method"
             href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto
           - name: "PanelChanged Event"
@@ -1520,7 +1520,7 @@
         - name: "InkCursorButtonState Enumeration"
           href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate
         - name: "InkDivisionType Enumeration"
-          href: https://msdn.microsoft.com/en-us/library/ms694985(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype
         - name: "InkExtractFlags Enumeration"
           href: /windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags
         - name: "InkMouseButton Enumeration"
@@ -1562,7 +1562,7 @@
         - name: "ItemSelectionConstants Enumeration"
           href: /windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants
         - name: "PanelType Enumeration"
-          href: https://msdn.microsoft.com/en-us/library/ms704908(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-paneltype
         - name: "SelectionHitResult Enumeration"
           href: /windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult
         - name: "TabletHardwareCapabilities Enumeration"
@@ -1589,7 +1589,7 @@
         - name: "RecognizerContextSet Function"
           href: recognizercontextset.md
         - name: "RemoveStrokes Function"
-          href: https://msdn.microsoft.com/en-us/library/Cc836538(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc836538(v=vs.85)
         - name: "SetLineHeight Function"
           href: setlineheight.md
         - name: "SetLineRecoCallback Function"
@@ -2311,7 +2311,7 @@
         - name: "Cursors Property"
           href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors
         - name: "CustomStrokes Property [InkPicture Control"
-          href: https://msdn.microsoft.com/en-us/library/ms703274(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)
         - name: "DefaultDrawingAttributes Property"
           href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes
         - name: "DesiredPacketDescription Property"
@@ -2377,16 +2377,16 @@
         href: mic-classes-and-interfaces.md
         items: 
         - name: "_IMathInputControlEvents"
-          href: https://msdn.microsoft.com/en-us/library/Dd317349(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-_imathinputcontrolevents
           items: 
           - name: "Clear Method"
-            href: https://msdn.microsoft.com/en-us/library/Dd317350(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317350(v=vs.85)
           - name: "Close Method"
-            href: https://msdn.microsoft.com/en-us/library/Dd317351(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317351(v=vs.85)
           - name: "Insert Method"
-            href: https://msdn.microsoft.com/en-us/library/Dd317352(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317352(v=vs.85)
           - name: "Paint Method"
-            href: https://msdn.microsoft.com/en-us/library/Dd317353(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317353(v=vs.85)
         - name: "IMathInputControl"
           href: /windows/desktop/api/micaut/nn-micaut-imathinputcontrol
           items: 
@@ -2438,7 +2438,7 @@
         href: realtimestylus-classes-and-interfaces.md
         items: 
         - name: "DynamicRenderer Class"
-          href: https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)
         - name: "GestureRecognizer Class"
           href: gesturerecognizer-class.md
         - name: "IDynamicRenderer Interface"
@@ -2563,7 +2563,7 @@
           - name: "Ink Property"
             href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-get_ink
         - name: "IStylusAsyncPlugin Interface"
-          href: https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin
         - name: "IStylusPlugin Interface"
           href: /windows/desktop/api/RTSCom/nn-rtscom-istylusplugin
           items: 
@@ -2602,7 +2602,7 @@
           - name: "UpdateMapping Method"
             href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-updatemapping
         - name: "IStylusSyncPlugin Interface"
-          href: https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin
         - name: "RealTimeStylus Class"
           href: realtimestylus-class.md
         - name: "StrokeBuilder Class"
@@ -2632,21 +2632,21 @@
         - name: "DestroyAlternate Function"
           href: /windows/desktop/api/recapis/nf-recapis-destroyalternate
         - name: "GetConfidenceLevel Function"
-          href: https://msdn.microsoft.com/en-us/library/ms704829(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704829(v=vs.85)
         - name: "GetGuideIndex Function"
-          href: https://msdn.microsoft.com/en-us/library/ms701152(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701152(v=vs.85)
         - name: "GetMetrics Function"
-          href: https://msdn.microsoft.com/en-us/library/ms695560(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms695560(v=vs.85)
         - name: "GetPropertyRanges Function"
-          href: https://msdn.microsoft.com/en-us/library/ms695602(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms695602(v=vs.85)
         - name: "GetRangePropertyValue Function"
-          href: https://msdn.microsoft.com/en-us/library/ms703427(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-destroyalternate
         - name: "GetSegmentAlternateList Function"
-          href: https://msdn.microsoft.com/en-us/library/ms701702(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701702(v=vs.85)
         - name: "GetString Function"
-          href: https://msdn.microsoft.com/en-us/library/ms704890(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704890(v=vs.85)
         - name: "GetStrokeRanges Function"
-          href: https://msdn.microsoft.com/en-us/library/ms705304(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms705304(v=vs.85)
       - name: "HRECOCONTEXT Handle"
         href: hrecocontext-handle.md
         items: 
@@ -2659,9 +2659,9 @@
         - name: "EndInkInput Function"
           href: /windows/desktop/api/recapis/nf-recapis-endinkinput
         - name: "GetAlternateList Function"
-          href: https://msdn.microsoft.com/en-us/library/ms698163(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698163(v=vs.85)
         - name: "GetBestAlternate Function"
-          href: https://msdn.microsoft.com/en-us/library/ms699575(v=VS.85).aspx
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms699575(v=vs.85)
         - name: "GetBestResultString Function"
           href: /windows/desktop/api/recapis/nf-recapis-getbestresultstring
         - name: "GetContextPreferenceFlags"
@@ -2937,7 +2937,7 @@
           - name: "CreateContext Method"
             href: itablet-createcontext.md
           - name: "GetCursor Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa373535(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373535(v=vs.85)
           - name: "GetCursorCount Method"
             href: itablet-getcursorcount.md
           - name: "GetDefaultContextSettings Method"
@@ -2951,7 +2951,7 @@
           - name: "GetPlugAndPlayId Method"
             href: itablet-getplugandplayid.md
           - name: "GetPropertyMetrics Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa367722(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa367722(v=vs.85)
         - name: "ITablet2 Interface"
           href: itablet2.md
           items: 
@@ -3026,7 +3026,7 @@
           href: itabletmanager.md
           items: 
           - name: "GetTablet Method"
-            href: https://msdn.microsoft.com/en-us/library/Aa373683(v=VS.85).aspx
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373683(v=vs.85)
           - name: "GetTabletCount Method"
             href: itabletmanager-gettabletcount.md
       - name: "Enumerations Used by WPF"

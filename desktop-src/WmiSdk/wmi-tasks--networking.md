@@ -52,7 +52,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...disable a network connection using WMI?</td>
-<td>If you are using DHCP, use the <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a> and the <a href="https://msdn.microsoft.com/library/aa393047"><strong>ReleaseDHCPLease</strong></a> method to release the IP address. If you are not using DHCP, you cannot use WMI to disable a network connection. To re-enable the network connection, use <a href="https://msdn.microsoft.com/library/aa393064"><strong>objNetCard.RenewDHCPLease</strong></a>. You can also release or renew all of the DHCP leases using the <a href="https://msdn.microsoft.com/library/aa393046"><strong>ReleaseDHCPLeaseAll</strong></a> and <a href="https://msdn.microsoft.com/library/aa393063"><strong>RenewDHCPLeaseAll</strong></a> methods.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>If you are using DHCP, use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a> and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/releasedhcplease-method-in-class-win32-networkadapterconfiguration"><strong>ReleaseDHCPLease</strong></a> method to release the IP address. If you are not using DHCP, you cannot use WMI to disable a network connection. To re-enable the network connection, use <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/renewdhcplease-method-in-class-win32-networkadapterconfiguration"><strong>objNetCard.RenewDHCPLease</strong></a>. You can also release or renew all of the DHCP leases using the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/releasedhcpleaseall-method-in-class-win32-networkadapterconfiguration"><strong>ReleaseDHCPLeaseAll</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/renewdhcpleaseall-method-in-class-win32-networkadapterconfiguration"><strong>RenewDHCPLeaseAll</strong></a> methods.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -102,11 +102,11 @@ foreach ($NetCard in $netenabled) {
 </tr>
 <tr class="even">
 <td>...disable or enable a NIC?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394216"><strong>Win32_NetworkAdapter</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa390364"><strong>Disable</strong></a> or <a href="https://msdn.microsoft.com/library/aa390385"><strong>Enable</strong></a> methods.</p></td>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapter"><strong>Win32_NetworkAdapter</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/disable-method-in-class-win32-networkadapter"><strong>Disable</strong></a> or <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/enable-method-in-class-win32-networkadapter"><strong>Enable</strong></a> methods.</p></td>
 </tr>
 <tr class="odd">
 <td>...determine which IP address has been assigned to a given network connection?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394216"><strong>Win32_NetworkAdapter</strong></a> class and the <strong>NetConnectionID</strong> property to determine the MAC address of the network connection. Then, use the <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a> class to find the IP address associated with the MAC address.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapter"><strong>Win32_NetworkAdapter</strong></a> class and the <strong>NetConnectionID</strong> property to determine the MAC address of the network connection. Then, use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a> class to find the IP address associated with the MAC address.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -188,11 +188,11 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine the MAC address of a network adapter?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and check the value of the <strong>MACAddress</strong> property.</p></td>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and check the value of the <strong>MACAddress</strong> property.</p></td>
 </tr>
 <tr class="odd">
 <td>...determine the IP address of a computer?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and check the value of the <strong>IPAddress</strong> property. This is returned as an array, so use a For-Each loop to get the value.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and check the value of the <strong>IPAddress</strong> property. This is returned as an array, so use a For-Each loop to get the value.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -258,7 +258,7 @@ else {&quot;$Count IP addresses found on this system&quot;}</code></pre></td>
 </tr>
 <tr class="even">
 <td>...configure a computer to start getting its IP address through DHCP?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa390378"><strong>EnableDHCP</strong></a> method.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/enabledhcp-method-in-class-win32-networkadapterconfiguration"><strong>EnableDHCP</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -290,7 +290,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...assign a computer a static IP address?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa390383"><strong>EnableStatic</strong></a> method.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/enablestatic-method-in-class-win32-networkadapterconfiguration"><strong>EnableStatic</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -329,7 +329,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...get information about network adapters without also retrieving information about things like RAS and VPN connections?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a> class. In your <a href="querying-with-wql">WQL</a> query, use this clause: Where <strong>IPEnabled</strong> = <strong>True</strong>.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a> class. In your <a href="querying-with-wql">WQL</a> query, use this clause: Where <strong>IPEnabled</strong> = <strong>True</strong>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -366,8 +366,8 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...ping a computer without using Ping.exe?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394350"><strong>Win32_PingStatus</strong></a> class.</p>
-<p><a href="https://msdn.microsoft.com/library/aa394350"><strong>Win32_PingStatus</strong></a> can return data for computers that have both IPv4 addresses and IPv6 addresses.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmipicmp/win32-pingstatus"><strong>Win32_PingStatus</strong></a> class.</p>
+<p><a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmipicmp/win32-pingstatus"><strong>Win32_PingStatus</strong></a> can return data for computers that have both IPv4 addresses and IPv6 addresses.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

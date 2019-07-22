@@ -17,7 +17,7 @@ api_location:
 
 # DllMain Expert callback function
 
-The expert implements the [**DllMain**](https://msdn.microsoft.com/library/windows/desktop/ms682583) function. The operating system calls **DllMain** to obtain a handle to an instance of the expert.
+The expert implements the [**DllMain**](https://docs.microsoft.com/windows/desktop/Dlls/dllmain) function. The operating system calls **DllMain** to obtain a handle to an instance of the expert.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ If the expert uses the Network Monitor user interface, the *hInstance* value mus
 
 Indicator of why the function was called. A value of DLL\_PROCESS\_ATTACH, (which applies when the DLL is first loaded) indicates that the expert should save the *hInstance* value in a global variable.
 
-With any other value, all calls to the [**DllMain**](https://msdn.microsoft.com/library/windows/desktop/ms682583) function can be ignored. For a list of all possible flags set by the operating system, see **DLLMain**.
+With any other value, all calls to the [**DllMain**](https://docs.microsoft.com/windows/desktop/Dlls/dllmain) function can be ignored. For a list of all possible flags set by the operating system, see **DLLMain**.
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 The operating system calls the **DllMain** expert function when a process loads or unloads the expert DLL. The **DllMain** expert function must be exported only if the expert has a user interface for viewing either configuration or results, and then only to return the proper *hInstance* value.
 
-The **DllMain** expert function is based on the dynamic link library [**DllMain**](https://msdn.microsoft.com/library/windows/desktop/ms682583) function.
+The **DllMain** expert function is based on the dynamic link library [**DllMain**](https://docs.microsoft.com/windows/desktop/Dlls/dllmain) function.
 
 ## Requirements
 

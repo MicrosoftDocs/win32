@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 Opens a handle to the specified Remote Desktop license server.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) functions to dynamically link to Mstlsapi.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mstlsapi.dll.
 
  
 
@@ -52,7 +52,7 @@ Pointer to a **null**-terminated string that specifies the NetBIOS name of the R
 
 If the function succeeds, the return value is a handle to the specified server.
 
-If the function fails, the return value is **NULL**. To get extended error information, call the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function.
+If the function fails, the return value is **NULL**. To get extended error information, call the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
 ## Remarks
 

@@ -3,7 +3,7 @@ Description: The IWbemPropertyProvider interface exposes the following methods.
 ms.assetid: 8A2DA881-00B8-45D1-9C81-4E2D7EEA017C
 ms.tgt_platform: multiple
 title: IWbemPropertyProvider Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

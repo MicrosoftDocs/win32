@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Access Control Model
 
-The access control model enables you to control the ability of a [*process*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-process-gly) to access [securable objects](securable-objects.md) or to perform various system administration tasks.
+The access control model enables you to control the ability of a [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) to access [securable objects](securable-objects.md) or to perform various system administration tasks.
 
 The following topics provide a high-level description of the parts of the access control model and how they interact with each other.
 

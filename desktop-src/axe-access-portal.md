@@ -24,8 +24,8 @@ AXE and AXE assessments can be installed and run on Windows 7, Windows Server 
 
 ## In this section
 
--   [Unmanaged C++ Version of the AXE API](https://msdn.microsoft.com/library/windows/desktop/hh802981)
--   [AXE Schema Reference](https://msdn.microsoft.com/library/windows/desktop/hh449339)
+-   [Unmanaged C++ Version of the AXE API](https://docs.microsoft.com/previous-versions/windows/desktop/axe/unmanaged-c---version-of-the-axe-api)
+-   [AXE Schema Reference](https://docs.microsoft.com/previous-versions/windows/desktop/axe/axe-schema-reference)
 
  
 

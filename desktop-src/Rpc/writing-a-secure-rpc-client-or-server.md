@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This section provides best practice recommendations for writing a secure RPC client or server.
 
-The information in this section applies to Windows 2000 and Windows XP. This section applies to all protocol sequences, including [**ncalrpc**](https://msdn.microsoft.com/library/windows/desktop/aa367115). Developers tend to think **ncalrpc** is not a probable target for an attack, which is not true on a terminal server where potentially hundreds of users have access to a service, and compromising or even bringing down a service can lead to acquiring extra access.
+The information in this section applies to Windows 2000 and Windows XP. This section applies to all protocol sequences, including [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc). Developers tend to think **ncalrpc** is not a probable target for an attack, which is not true on a terminal server where potentially hundreds of users have access to a service, and compromising or even bringing down a service can lead to acquiring extra access.
 
 This section is divided into the following topics:
 

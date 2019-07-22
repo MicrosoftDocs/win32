@@ -160,7 +160,7 @@ The **Data** member is a **DWORD** that indicates battery saver state.
 0x1 - Battery saver is on. Save energy where possible.
 </dt> </dl>
 
-For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://msdn.microsoft.com/library/windows/hardware/mt186374).
+For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).
 
 </dl> </dd> <dt>
 

@@ -21,7 +21,7 @@ When you create a [**RealTimeStylus**](realtimestylus-class.md) object, you have
 
 If you use the default constructor, you create a [**RealTimeStylus**](realtimestylus-class.md) object that can only accept input from another **RealTimeStylus** object. For more information about connecting two **RealTimeStylus** objects, see [The Cascaded RealTimeStylus Model](the-cascaded-realtimestylus-model.md).
 
-The [**RealTimeStylus**](realtimestylus-class.md) object implements the [IDisposable](https://msdn.microsoft.com/library/system.idisposable.aspx) interface.
+The [**RealTimeStylus**](realtimestylus-class.md) object implements the [IDisposable](https://docs.microsoft.com/dotnet/api/system.idisposable?redirectedfrom=MSDN) interface.
 
 ## Extending the RealTimeStylus Class
 

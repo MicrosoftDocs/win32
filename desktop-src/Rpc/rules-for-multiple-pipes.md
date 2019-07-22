@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Rules for Multiple Pipes
 
-You can combine \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\], \[[**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136)\], and \[**in, out**\] pipe parameters in any combination in a single call, but you must process the pipes in a specific order, as shown in the following pseudocode example:
+You can combine \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\], \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\], and \[**in, out**\] pipe parameters in any combination in a single call, but you must process the pipes in a specific order, as shown in the following pseudocode example:
 
 > [!Note]  
 > This feature is no longer supported in Windows Vista and later platforms.

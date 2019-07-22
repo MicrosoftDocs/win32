@@ -70,7 +70,7 @@ public static void JetBackupInstance(
 <!-- end list -->
 
   - destination  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The directory where the backup is to be stored. If the backup path is null to use the function will truncate the logs, if possible.
 

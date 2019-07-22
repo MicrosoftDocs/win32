@@ -3,10 +3,10 @@ UID: NF:ntw.EtwEventUnregister
 title: EtwEventUnregister function
 author: windows-sdk-content
 description: Unregisters an event.
-old-location:
+old-location: 
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: EtwEventUnregister
 ms.topic: function
 req.header: ntetw.h
@@ -27,14 +27,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntetw.h
+- ntetw.h
 api_name:
- - EtwEventUnregister
+- EtwEventUnregister
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ The
 			
 
 Providers can only call this function from their 
-<a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 
 ## -parameters

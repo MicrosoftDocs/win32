@@ -88,7 +88,7 @@ A. Certain parts of the Tablet PC platform may be installed on non-Tablet versio
 
 The proper way to determine if a component of the API is installed is to attempt to create an instance of an object or control and check that it exists before attempting to use it.
 
-For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
+For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 
 ```C++

@@ -55,7 +55,7 @@ The following support functions are provided by the Security Configuration tool 
 
 ## LSA Policy Functions
 
-The following topics provide reference information for the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) Policy functions.
+The following topics provide reference information for the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) Policy functions.
 
 
 
@@ -64,7 +64,7 @@ The following topics provide reference information for the [*Local Security Auth
 | Policy Functions<br/>         | Details functions used to open the local [**Policy**](policy-object.md) object and to set or retrieve global policy information.<br/>                                                  |
 | Account Functions<br/>        | Details functions used to manage account permissions and to create and delete user accounts.<br/>                                                                                       |
 | Trusted Domain Functions<br/> | Details functions used to create and delete trusted domain relationships and to set and retrieve information about those trusted domains.<br/>                                          |
-| Private Data Functions<br/>   | Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](https://msdn.microsoft.com/library/windows/desktop/aa380261) and [**CryptUnprotectData**](https://msdn.microsoft.com/library/windows/desktop/aa380882) functions.<br/> |
+| Private Data Functions<br/>   | Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata) functions.<br/> |
 | Miscellaneous Functions<br/>  | Details functions not described elsewhere.<br/>                                                                                                                                         |
 
 
@@ -83,7 +83,7 @@ The following functions enumerate user accounts and trusted domains, receive pol
 | [**LsaEnumerateTrustedDomainsEx**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomainsex)<br/>                   | Enumerates the trusted domains.<br/>                                                                                                                                                                                                                                                                                                            |
 | [**LsaLookupNames**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames)<br/>                                               | Maps the specified names to their SIDs. Returns the SID as an RID/Domain SID pair.<br/>                                                                                                                                                                                                                                                         |
 | [**LsaLookupNames2**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames2)<br/>                                             | Maps the specified names to their SIDs. Returns the SID as a single element.<br/>                                                                                                                                                                                                                                                               |
-| [**LsaLookupPrivilegeValue**](/windows/desktop/api/ntlsa/nf-ntlsa-lsalookupprivilegevalue)<br/>                             | Retrieves the [*locally unique identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-locally-unique-identifier-gly) (LUID) used by the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) to represent the specified privilege name.<br/> |
+| [**LsaLookupPrivilegeValue**](/windows/desktop/api/ntlsa/nf-ntlsa-lsalookupprivilegevalue)<br/>                             | Retrieves the [*locally unique identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LUID) used by the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) to represent the specified privilege name.<br/> |
 | [**LsaLookupSids**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids)<br/>                                                 | Maps the specified account names to their SIDs.<br/>                                                                                                                                                                                                                                                                                            |
 | [**LsaRegisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification)<br/>     | Registers an event object to receive notifications when the local policy information changes.<br/>                                                                                                                                                                                                                                              |
 | [**LsaUnregisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification)<br/> | Unregisters an event object that is receiving policy change notifications.<br/>                                                                                                                                                                                                                                                                 |
@@ -131,7 +131,7 @@ The following functions create, enumerate, and delete trusted domains and set an
 
 ### Private Data Functions
 
-Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](https://msdn.microsoft.com/library/windows/desktop/aa380261) and [**CryptUnprotectData**](https://msdn.microsoft.com/library/windows/desktop/aa380882) functions.
+Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata) functions.
 
 
 
@@ -171,7 +171,7 @@ The following functions are used to create, enumerate, find, and delete managed 
 | [**NetAddServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netaddserviceaccount)<br/>               | Creates a managed service account.<br/>                                                                               |
 | [**NetEnumerateServiceAccounts**](/windows/desktop/api/Lmaccess/nf-lmaccess-netenumerateserviceaccounts)<br/> | Enumerates the server accounts on the specified server.<br/>                                                          |
 | [**NetIsServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netisserviceaccount)<br/>                 | Tests whether the specified service account exists in the Netlogon store on the specified server.<br/>                |
-| [**NetRemoveServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netremoveserviceaccount)<br/>         | Deletes the specified service account from the [Active Directory](https://msdn.microsoft.com/library/aa362244) database.<br/> |
+| [**NetRemoveServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netremoveserviceaccount)<br/>         | Deletes the specified service account from the [Active Directory](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services) database.<br/> |
 
 
 
@@ -179,7 +179,7 @@ The following functions are used to create, enumerate, find, and delete managed 
 
 ## Password Filter Functions
 
-The following [*password filter*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-password-filter-gly) functions are implemented by custom password filter DLLs to provide password filtering and password change notification.
+The following [*password filter*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) functions are implemented by custom password filter DLLs to provide password filtering and password change notification.
 
 
 

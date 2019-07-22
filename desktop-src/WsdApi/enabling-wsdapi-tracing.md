@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Enabling WSDAPI Tracing
 
-WSDAPI logs contain debugging information that can be used to find the root cause of WSDAPI application failures. When tracing is enabled, logging information is stored in an .etl file in a user-specified location. This .etl file can be sent to Microsoft developer support for root cause analysis. For information about contacting support, go to [https://support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978).
+WSDAPI logs contain debugging information that can be used to find the root cause of WSDAPI application failures. When tracing is enabled, logging information is stored in an .etl file in a user-specified location. This .etl file can be sent to Microsoft developer support for root cause analysis. For information about contacting support, go to [https://support.microsoft.com](https://support.microsoft.com).
 
 This procedure must be done twice: once on the client, and once on the host.
 
@@ -54,7 +54,7 @@ Once the application failure has been captured, the \*.etl files can be sent to 
 [Getting Started with WSDAPI Troubleshooting](getting-started-with-wsdapi-troubleshooting.md)
 </dt> <dt>
 
-[https://support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978)
+[https://support.microsoft.com](https://support.microsoft.com)
 </dt> </dl>
 
  

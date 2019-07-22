@@ -3,7 +3,7 @@ Description: The CIM\_TapeDrive class exposes the following methods.
 ms.assetid: 53D03E02-DD6D-4C81-9EED-703A99ADE270
 ms.tgt_platform: multiple
 title: CIM_TapeDrive Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

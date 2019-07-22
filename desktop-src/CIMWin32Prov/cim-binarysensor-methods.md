@@ -3,7 +3,7 @@ Description: The CIM\_BinarySensor class exposes the following methods.
 ms.assetid: 87DFE689-CE38-4AFF-BFDD-C19A6620B4AD
 ms.tgt_platform: multiple
 title: CIM_BinarySensor Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

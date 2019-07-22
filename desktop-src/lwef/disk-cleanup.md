@@ -248,7 +248,7 @@ In general, the name of the key holding a handler's particulars is named for the
 <tr class="even">
 <td>CSIDL</td>
 <td>REG_DWORD</td>
-<td>A system-independent identifier for a special folder to include in the file search. This value must be entered as a numerical value for instance, 0x0000001c rather than CSIDL_LOCAL_APPDATA. For a list of possible values, see <a href="https://msdn.microsoft.com/library/windows/desktop/bb762494"><strong>CSIDL</strong></a>. Only a single value can be used.<br/> If the Folder value is specified, the location indicated by the CSIDL value is prepended to that information to compose a search path. For instance, consider the following scenario.<br/>
+<td>A system-independent identifier for a special folder to include in the file search. This value must be entered as a numerical value for instance, 0x0000001c rather than CSIDL_LOCAL_APPDATA. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/shell/csidl"><strong>CSIDL</strong></a>. Only a single value can be used.<br/> If the Folder value is specified, the location indicated by the CSIDL value is prepended to that information to compose a search path. For instance, consider the following scenario.<br/>
 <ul>
 <li>The CSIDL value is specified as 0x0000000d (CSIDL_MYMUSIC)</li>
 <li>Your My Music folder is located at C:\Documents and Settings\<em>username</em>\My Music</li>

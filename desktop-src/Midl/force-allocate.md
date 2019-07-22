@@ -52,10 +52,10 @@ Func2([force_allocate] pData);
 
 <dl> <dt>
 
-[Avoiding Information Hiding](https://msdn.microsoft.com/library/windows/desktop/aa384150)
+[Avoiding Information Hiding](https://docs.microsoft.com/windows/desktop/WinProg64/avoiding-information-hiding)
 </dt> <dt>
 
-[Designing 64-bit-Compatible Interfaces](https://msdn.microsoft.com/library/windows/desktop/aa384167)
+[Designing 64-bit-Compatible Interfaces](https://docs.microsoft.com/windows/desktop/WinProg64/designing-64-bit-compatible-interfaces)
 </dt> <dt>
 
 [**midl\_user\_allocate**](midl-user-allocate-1.md)

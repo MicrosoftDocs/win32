@@ -18,11 +18,11 @@ WMI contains a set of classes for [troubleshooting](wmi-troubleshooting-classes.
 
 The following list contains examples of troubleshooting event classes:
 
--   [**Msft\_WmiProvider\_ExecMethodAsyncEvent\_Pre**](https://msdn.microsoft.com/library/aa392562)
+-   [**Msft\_WmiProvider\_ExecMethodAsyncEvent\_Pre**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-execmethodasyncevent-pre)
 
     Raised before WMI calls [**IWbemServices::ExecMethodAsync()**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync) on the provider.
 
--   [**Msft\_WmiProvider\_ExecMethodAsyncEvent\_Post**](https://msdn.microsoft.com/library/aa392561)
+-   [**Msft\_WmiProvider\_ExecMethodAsyncEvent\_Post**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-execmethodasyncevent-post)
 
     Raised after WMI calls [**IWbemServices::ExecMethodAsync()**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync) on the provider.
 
@@ -34,7 +34,7 @@ The following procedure shows how to troubleshoot application execution.
 2.  Run your client application.
 3.  View the troubleshooting log file for all provider operation and failure events, and analyze the log to diagnose the client problems you are encountering.
 
-Another troubleshooting approach is to view the list of providers currently in the computer cache, by enumerating [**MSFT\_Providers**](https://msdn.microsoft.com/library/aa392509) in the **root\\cimv2** namespace. There are methods in this class that enable you to load and unload providers for debugging or setup purposes.
+Another troubleshooting approach is to view the list of providers currently in the computer cache, by enumerating [**MSFT\_Providers**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-providers) in the **root\\cimv2** namespace. There are methods in this class that enable you to load and unload providers for debugging or setup purposes.
 
 The following code example uses the WMI logging event consumer to capture all events of the parent event class, thus capturing all provider operation events.
 
@@ -65,7 +65,7 @@ instance of __FilterToConsumerBinding
 } ;
 ```
 
-When error messages indicate provider load failure, use [**MSFT\_WmiProvider\_LoadOperationFailureEvent**](https://msdn.microsoft.com/library/aa392570) to identify which provider caused the fault.
+When error messages indicate provider load failure, use [**MSFT\_WmiProvider\_LoadOperationFailureEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-loadoperationfailureevent) to identify which provider caused the fault.
 
 ## Related topics
 

@@ -71,7 +71,7 @@ Access type: Read-only
 
 Unique value that indicates the time the event is generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -95,7 +95,7 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 
 <dl> <dt>
 
-[**\_\_IndicationRelated**](https://msdn.microsoft.com/library/aa394648)
+[**\_\_IndicationRelated**](https://docs.microsoft.com/windows/desktop/WmiSdk/--indicationrelated)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

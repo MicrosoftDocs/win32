@@ -47,7 +47,7 @@ HKEY_LOCAL_MACHINE
                   Namespace
 ```
 
-Because the default namespace is easy to change, either with this control or programmatically by calling methods of [**StdRegProv**](https://msdn.microsoft.com/library/aa393664), specify the namespace when connecting to WMI either through the [moniker](constructing-a-moniker-string.md) or calls to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md). For more information, see [Creating a WMI Script](creating-a-wmi-script.md)
+Because the default namespace is easy to change, either with this control or programmatically by calling methods of [**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov), specify the namespace when connecting to WMI either through the [moniker](constructing-a-moniker-string.md) or calls to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md). For more information, see [Creating a WMI Script](creating-a-wmi-script.md)
 
 **To set the default namespace for scripts**
 

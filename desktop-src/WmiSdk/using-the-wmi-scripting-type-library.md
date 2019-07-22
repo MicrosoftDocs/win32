@@ -41,7 +41,7 @@ You can include the reference to the **WbemScripting.SWbemLocator** in a Windows
 
 Scripts can connect with the Scripting API for WMI type library using the following methods:
 
--   Specifying the WbemScripting GUID in the VBScript methods [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) and [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx).
+-   Specifying the WbemScripting GUID in the VBScript methods [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) and [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx).
 
     This alerts Windows Script Host to connect to the WMI object set.
 
@@ -55,7 +55,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
 -   Using the [Moniker string](constructing-a-moniker-string.md) "winmgmts:" when obtaining a new or existing object.
 
-    The following VBScript code example uses the "winmgmts:" moniker to get the instance of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) with a **Handle** property of 0 (zero). **Handle** is the key property for this class.
+    The following VBScript code example uses the "winmgmts:" moniker to get the instance of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) with a **Handle** property of 0 (zero). **Handle** is the key property for this class.
 
     ```VB
     Set Process = GetObject("winmgmts:Win32_Process.Handle=0")
@@ -111,7 +111,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
 <dl> <dt>
 
-[Scripting in WMI](https://msdn.microsoft.com/library/aa389763)
+[Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script)
 </dt> <dt>
 
 [Scripting API for WMI](scripting-api-for-wmi.md)

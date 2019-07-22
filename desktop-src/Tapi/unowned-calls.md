@@ -12,7 +12,7 @@ To prevent unowned calls from being in the telephony system, TAPI drops calls th
 
 The service provider can know in advance whether or not there is an application available to take ownership of a new call. TAPI always informs the service provider of the media types for which there is an application available by using the [**TSPI\_lineSetDefaultMediaDetection**](https://msdn.microsoft.com/en-us/library/ms725601(v=VS.85).aspx) function.
 
-For example, if a service provider determines that there is an active call on the line having LINEMEDIAMODE\_INTERACTIVEVOICE mode, it should check the default media detection before generating the [**LINE\_NEWCALL**](line-newcall.md) and [**LINE\_CALLSTATE**](https://msdn.microsoft.com/library/ms725219) messages. If the default media detection shows that no application is looking for a LINEMEDIAMODE\_INTERACTIVEVOICE call, the service provider should not send the messages because TAPI will immediately drop it.
+For example, if a service provider determines that there is an active call on the line having LINEMEDIAMODE\_INTERACTIVEVOICE mode, it should check the default media detection before generating the [**LINE\_NEWCALL**](line-newcall.md) and [**LINE\_CALLSTATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)) messages. If the default media detection shows that no application is looking for a LINEMEDIAMODE\_INTERACTIVEVOICE call, the service provider should not send the messages because TAPI will immediately drop it.
 
  
 

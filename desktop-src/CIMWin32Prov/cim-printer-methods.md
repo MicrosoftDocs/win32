@@ -3,7 +3,7 @@ Description: The CIM\_Printer class exposes the following methods.
 ms.assetid: F8DB0681-9A3D-4007-8FFF-4B77FEC6AEFF
 ms.tgt_platform: multiple
 title: CIM_Printer Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

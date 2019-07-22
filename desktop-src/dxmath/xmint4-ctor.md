@@ -1,7 +1,9 @@
 ---
-Description: 'Constructors exposed by XMINT4.'
-ms.assetid: '8b4084b1-513f-4de7-94ac-1bbafb5ba042'
+Description: Constructors exposed by XMINT4.
+ms.assetid: 8b4084b1-513f-4de7-94ac-1bbafb5ba042
 title: XMINT4 constructors
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # XMINT4 constructors

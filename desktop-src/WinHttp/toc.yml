@@ -241,7 +241,7 @@
         href: winhttp-prototypes.md
         items: 
         - name: "WINHTTP_STATUS_CALLBACK"
-          href: https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx
+          href: https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback
       - name: "WinHTTP Structures"
         href: winhttp-structures.md
         items: 

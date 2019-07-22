@@ -33,7 +33,7 @@ The **INapClientManagement** interface provides methods for NAP client managemen
 
 ## Members
 
-The **INapClientManagement** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapClientManagement** also has these types of members:
+The **INapClientManagement** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapClientManagement** also has these types of members:
 
 -   [Methods](#methods)
 

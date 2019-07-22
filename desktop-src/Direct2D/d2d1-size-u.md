@@ -66,7 +66,7 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
 
 <dl> <dt>
 
-[**D2D\_SIZE\_U**](https://msdn.microsoft.com/library/windows/desktop/dd368191)
+[**D2D\_SIZE\_U**](https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_size_u)
 </dt> <dt>
 
 [**D2D1\_SIZE\_F**](d2d1-size-f.md)

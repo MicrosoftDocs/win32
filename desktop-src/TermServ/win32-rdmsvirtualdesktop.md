@@ -93,7 +93,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**optional**](https://msdn.microsoft.com/library/aa393651)
+Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Gets the alias to the virtual desktop collection that manages the virtual machine.
@@ -122,7 +122,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the name of the of virtual machine.
@@ -138,7 +138,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**optional**](https://msdn.microsoft.com/library/aa393651)
+Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Gets the state of the virtual desktop session.
@@ -154,7 +154,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**optional**](https://msdn.microsoft.com/library/aa393651)
+Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Gets the username of the user that is logged in to the virtual desktop session.
@@ -183,7 +183,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**optional**](https://msdn.microsoft.com/library/aa393651)
+Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Gets the domain name of the user that is assigned to the virtual desktop.
@@ -199,7 +199,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**optional**](https://msdn.microsoft.com/library/aa393651)
+Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Gets the username of the user that is assigned to the virtual desktop.

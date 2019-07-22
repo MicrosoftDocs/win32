@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IOfflineAnalysisCallback**](https://msdn.microsoft.com/library/windows/desktop/mt432706)
+[**IOfflineAnalysisCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/iofflineanalysiscallback)
 
  
 

@@ -1,14 +1,17 @@
 ---
 title: IDCompositionTranslateTransform3D SetOffsetY methods
 description: Changes or animates the value of the OffsetY property of a 3D translation transform effect.
-ms.assetid: '254DCA74-DB51-442D-9483-F7597643C538'
-keywords: ["SetOffsetY methods DirectComposition"]
+ms.assetid: 254DCA74-DB51-442D-9483-F7597643C538
+keywords:
+- SetOffsetY methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetY methods

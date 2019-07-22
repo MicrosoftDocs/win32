@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_SENSORSTREAM\_REQUIRED\_CAPABILITIES attribute
 
-This attribute contains a semi-colon delimited list of capability strings which specifies the capabilities required for a specific stream. For the list of capability strings that can be included in this attribute, see [DeviceCapability](https://msdn.microsoft.com/en-us/library/windows/apps/br211430).
+This attribute contains a semi-colon delimited list of capability strings which specifies the capabilities required for a specific stream. For the list of capability strings that can be included in this attribute, see [DeviceCapability](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability).
 
 ## Data type
 

@@ -1,14 +1,17 @@
 ---
 title: IDCompositionRectangleClip SetRight methods
 description: Animates or changes the value of the Right property of a clip rectangle.
-ms.assetid: 'DBF1C6CE-5256-4175-9530-30D0B24FAB6D'
-keywords: ["SetRight methods DirectComposition"]
+ms.assetid: DBF1C6CE-5256-4175-9530-30D0B24FAB6D
+keywords:
+- SetRight methods DirectComposition
 topic_type:
 - apiref
 api_location:
 - Dcomp.dll
 api_type:
 - DllExport
+ms.date: 07/02/2019
+ms.topic: article
 ---
 
 # IDCompositionRectangleClip::SetRight methods

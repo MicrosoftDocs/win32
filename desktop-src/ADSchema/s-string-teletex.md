@@ -29,7 +29,7 @@ A case insensitive string that contains characters from the teletex character se
 | MAPI Type    | TSTRING                                                                |
 | ADS Type     | ADSTYPE\_CASE\_IGNORE\_STRING                                          |
 | Variant Type | VT\_BSTR                                                               |
-| SDS Type     | [System.String](https://msdn.microsoft.com/library/system.string.aspx) |
+| SDS Type     | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) |
 
 
 
@@ -37,7 +37,7 @@ A case insensitive string that contains characters from the teletex character se
 
 <dl> <dt>
 
-[System.String](https://msdn.microsoft.com/library/system.string.aspx)
+[System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
 </dt> </dl>
 
  

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 ## Description
 
-Beginning with Windows 8 and Windows Server 2012, the Virtual Disk Service COM interface is superseded by the Storage Management API, a WMI-based programming interface. For managing storage subsystems, (Windows) disks, partitions, and volumes, we strongly recommend using the Storage Management API. For more info, see [Windows Storage Management API](https://msdn.microsoft.com/library/hh830613.aspx).
+Beginning with Windows 8 and Windows Server 2012, the Virtual Disk Service COM interface is superseded by the Storage Management API, a WMI-based programming interface. For managing storage subsystems, (Windows) disks, partitions, and volumes, we strongly recommend using the Storage Management API. For more info, see [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).
 
 For all usages except mirror boot volumes (using a mirror volume to host the operating system), dynamic disks are deprecated. For data that requires resiliency against drive failure, use Storage Spaces, a resilient storage virtualization solution. For more info, see [Storage Spaces Technical Preview](https://technet.microsoft.com/library/hh831739.aspx).
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_UPDATE notification code
 
-Sent when an edit control is about to redraw itself. This notification code is sent after the control has formatted the text, but before it displays the text. This makes it possible to resize the edit control window, if necessary. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
+Sent when an edit control is about to redraw itself. This notification code is sent after the control has formatted the text, but before it displays the text. This makes it possible to resize the edit control window, if necessary. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -37,7 +37,7 @@ EN_UPDATE
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) contains the identifier of the edit control. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the notification code.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ For information about the compatibility of rich edit versions with the various s
 **Other Resources**
 </dt> <dt>
 
-[**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
+[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  

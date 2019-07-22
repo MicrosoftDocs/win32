@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Data signing does not protect the data. It only to verifies the integrity of the data. The sender hashes that data and signs (encrypts) the hash by using a private key. The intended recipient performs verification by creating a hash of the data received, decrypting the signature to obtain the original hash, and comparing the two hashes.
 
-When data is signed, the sender creates a [*hash*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-gly) value and signs (encrypts) the hash by using a private key. This signature is then attached to the data and sent in a message to a recipient. The hashing algorithm that was used to create the signature must be known in advance by the recipient or identified in the message. How this is done is up to the message protocol.
+When data is signed, the sender creates a [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) value and signs (encrypts) the hash by using a private key. This signature is then attached to the data and sent in a message to a recipient. The hashing algorithm that was used to create the signature must be known in advance by the recipient or identified in the message. How this is done is up to the message protocol.
 
 To verify the signature, the recipient extracts the data and the signature from the message. The recipient then creates another hash value from the data, decrypts the signed hash by using the sender's public key, and compares the two hash values. If the values are identical, the signature has been verified and the data is assumed to be unaltered.
 

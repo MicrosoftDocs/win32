@@ -60,7 +60,7 @@ COM components built for COM+ applications are in-process server components. The
 An *unconfigured component* is a component that isn't installed in a COM+ application. You can transform most unconfigured components into configured components simply by integrating them into a COM+ application.
 
 > [!Note]  
-> Do not use the same AppID for both a COM+ application and in the registry for an unconfigured component. When the unconfigured component is activated , as activation may retrieve the COM+ application information from the registry that does not contain the information required for COM activation. Similar problems could arise if a call is made to [**CoRegisterClassObject**](https://msdn.microsoft.com/library/windows/desktop/ms693407) from DllHost that hosts COM+ Server application.
+> Do not use the same AppID for both a COM+ application and in the registry for an unconfigured component. When the unconfigured component is activated , as activation may retrieve the COM+ application information from the registry that does not contain the information required for COM activation. Similar problems could arise if a call is made to [**CoRegisterClassObject**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) from DllHost that hosts COM+ Server application.
 
  
 

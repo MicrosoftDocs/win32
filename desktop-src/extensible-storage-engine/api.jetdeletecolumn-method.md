@@ -74,7 +74,7 @@ public static void JetDeleteColumn(
 <!-- end list -->
 
   - column  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The name of the column to be deleted.
 

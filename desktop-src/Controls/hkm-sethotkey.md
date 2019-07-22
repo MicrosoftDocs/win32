@@ -27,7 +27,7 @@ Sets the hot key combination for a hot key control.
 *wParam* 
 </dt> <dd>
 
-The [**LOBYTE**](https://msdn.microsoft.com/library/windows/desktop/ms632658) of the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is the virtual key code of the hot key. The [**HIBYTE**](https://msdn.microsoft.com/library/windows/desktop/ms632656) of the **LOWORD** is the key modifier that indicates the keys that define a hot key combination. For a list of modifier flag values, see the description of the [**HKM\_GETHOTKEY**](hkm-gethotkey.md) message.
+The [**LOBYTE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the virtual key code of the hot key. The [**HIBYTE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)) of the **LOWORD** is the key modifier that indicates the keys that define a hot key combination. For a list of modifier flag values, see the description of the [**HKM\_GETHOTKEY**](hkm-gethotkey.md) message.
 
 </dd> <dt>
 

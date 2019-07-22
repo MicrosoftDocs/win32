@@ -16,7 +16,7 @@ HRESULT SetConfidenceThreshold(
 );
 ```
 
-Sets the value of the [**Confidence**](confidence-property.md) property for a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441).
+Sets the value of the [**Confidence**](confidence-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the value of the [**Confidence**](confidence-property.md) property for a [*
 <span id="lConfidence"></span><span id="lconfidence"></span><span id="LCONFIDENCE"></span>*lConfidence*
 </dt> <dd>
 
-The value for the [**Confidence**](confidence-property.md) property of a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441).
+The value for the [**Confidence**](confidence-property.md) property of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
-If the confidence value returned of the best match returned in the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) event does not exceed the value set for the [**ConfidenceThreshold**](https://msdn.microsoft.com/library/windows/desktop/ms697248) property, the text supplied in [**SetConfidenceText**](iagentcommand--setconfidencetext.md) is displayed in the Listening Tip.
+If the confidence value returned of the best match returned in the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) event does not exceed the value set for the [**ConfidenceThreshold**](https://docs.microsoft.com/windows/desktop/lwef/confidence-property) property, the text supplied in [**SetConfidenceText**](iagentcommand--setconfidencetext.md) is displayed in the Listening Tip.
 
 ## See Also
 

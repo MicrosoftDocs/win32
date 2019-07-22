@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Realms processing, which is also known as attribute manipulation, refers to transforming the name of the user requesting access. The calling-station ID and called-station ID can also be manipulated. The realms-processing rules are part of the Proxy profile attributes collection.
 
-For each manipulation, you need to create two [Manipulation-Rule](https://msdn.microsoft.com/library/bb960679) attributes. Each of these attributes is a string value. The first rule contains a regular expression representing the pattern to match. The second rule contains a regular expression representing the replacement text. You must also create a [Manipulation-Target](https://msdn.microsoft.com/library/bb960680) attribute. This attribute is an enumeration that specifies which part of the user's information to manipulate.
+For each manipulation, you need to create two [Manipulation-Rule](https://docs.microsoft.com/windows/desktop/Nps/sdo-manipulation-rule) attributes. Each of these attributes is a string value. The first rule contains a regular expression representing the pattern to match. The second rule contains a regular expression representing the replacement text. You must also create a [Manipulation-Target](https://docs.microsoft.com/windows/desktop/Nps/sdo-manipulation-target) attribute. This attribute is an enumeration that specifies which part of the user's information to manipulate.
 
 The order in which the attributes are created is important. NPS processes the attributes in the order in which they were created.
 
@@ -40,22 +40,22 @@ The following table shows an example of a set of manipulation attributes.
 
 <dl> <dt>
 
-[Object Model Hierarchy](https://msdn.microsoft.com/library/bb960691)
+[Object Model Hierarchy](https://docs.microsoft.com/windows/desktop/Nps/sdo-object-model-hierarchy)
 </dt> <dt>
 
-[SDO Supported Attributes](https://msdn.microsoft.com/library/bb960711)
+[SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> <dt>
 
-[Creating a Connection Request Policy](https://msdn.microsoft.com/library/bb960625)
+[Creating a Connection Request Policy](https://docs.microsoft.com/windows/desktop/Nps/sdo-creating-a-connection-request-policy)
 </dt> <dt>
 
-[**ISdoCollection**](https://msdn.microsoft.com/library/bb960640)
+[**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
 </dt> <dt>
 
-[**ISdoDictionaryOld**](https://msdn.microsoft.com/library/bb960649)
+[**ISdoDictionaryOld**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
 </dt> </dl>
 
  

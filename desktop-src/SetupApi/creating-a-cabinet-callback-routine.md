@@ -64,7 +64,7 @@ For SPFILENOTIFY\_NEEDNEWCABINET and SPFILENOTIFY\_FILEEXTRACTED notifications, 
 | Value      | Meaning                                                                                                                                                                                                                           |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | NO\_ERROR  | No error was encountered, continue processing the cabinet.                                                                                                                                                                        |
-| ERROR\_XXX | An error of the specified type occurred. The [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360). |
+| ERROR\_XXX | An error of the specified type occurred. The [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). |
 
 
 

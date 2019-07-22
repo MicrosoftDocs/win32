@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColumnStream methods (Microsoft.Isam.Esent.Interop)
 TOCTitle: ColumnStream methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnStream
@@ -28,128 +28,128 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/1atfd1k6">BeginRead</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginread?redirectedfrom=MSDN#System_IO_Stream_BeginRead_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">BeginRead</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/yhk84w80">BeginWrite</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginwrite?redirectedfrom=MSDN#System_IO_Stream_BeginWrite_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">BeginWrite</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/4sa733cf">Close</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.close?redirectedfrom=MSDN#System_IO_Stream_Close">Close</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/2ch65xad">CreateObjRef</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/w4302s1f">MarshalByRefObject</a>.)</td>
-</tr>
-<tr class="odd">
-<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/sk94aky6">CreateWaitHandle</a></td>
-<td><strong>Obsolete.</strong> (Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
-</tr>
-<tr class="even">
-<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms227422">Dispose()</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref?redirectedfrom=MSDN#System_MarshalByRefObject_CreateObjRef_System_Type_">CreateObjRef</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms143450">Dispose(Boolean)</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.createwaithandle?redirectedfrom=MSDN#System_IO_Stream_CreateWaitHandle">CreateWaitHandle</a></td>
+<td><strong>Obsolete.</strong> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/h3w78864">EndRead</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
-</tr>
-<tr class="odd">
-<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/wdw3d87b">EndWrite</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
-</tr>
-<tr class="even">
-<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose?redirectedfrom=MSDN#System_IO_Stream_Dispose">Dispose()</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose?redirectedfrom=MSDN#System_IO_Stream_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.endread?redirectedfrom=MSDN#System_IO_Stream_EndRead_System_IAsyncResult_">EndRead</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.endwrite?redirectedfrom=MSDN#System_IO_Stream_EndWrite_System_IAsyncResult_">EndWrite</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Equals</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334193(v=exchg.10).md">Flush</a></td>
-<td>Flush the stream. (Overrides <a href="https://msdn.microsoft.com/en-us/library/ke2cwez4">Stream.Flush()</a>.)</td>
+<td>Flush the stream. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.io.stream.flush?redirectedfrom=MSDN#System_IO_Stream_Flush">Stream.Flush()</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">GetHashCode</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/c6y7316f">GetLifetimeService</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/w4302s1f">MarshalByRefObject</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice?redirectedfrom=MSDN#System_MarshalByRefObject_GetLifetimeService">GetLifetimeService</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype?redirectedfrom=MSDN#System_Object_GetType">GetType</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/zwt5tzck">InitializeLifetimeService</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/w4302s1f">MarshalByRefObject</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice?redirectedfrom=MSDN#System_MarshalByRefObject_InitializeLifetimeService">InitializeLifetimeService</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone()</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone()</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms131262">MemberwiseClone(Boolean)</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/w4302s1f">MarshalByRefObject</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone?redirectedfrom=MSDN#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MemberwiseClone(Boolean)</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334198(v=exchg.10).md">Read</a></td>
-<td>Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. (Overrides <a href="https://msdn.microsoft.com/en-us/library/29tb55d8">Stream.Read([], Int32, Int32)</a>.)</td>
+<td>Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.io.stream.read?redirectedfrom=MSDN#System_IO_Stream_Read_System_Byte___System_Int32_System_Int32_">Stream.Read([], Int32, Int32)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/5k3tk84z">ReadByte</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.readbyte?redirectedfrom=MSDN#System_IO_Stream_ReadByte">ReadByte</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334154(v=exchg.10).md">Seek</a></td>
-<td>Sets the position in the current stream. (Overrides <a href="https://msdn.microsoft.com/en-us/library/x3d54zs7">Stream.Seek(Int64, SeekOrigin)</a>.)</td>
+<td>Sets the position in the current stream. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.io.stream.seek?redirectedfrom=MSDN#System_IO_Stream_Seek_System_Int64_System_IO_SeekOrigin_">Stream.Seek(Int64, SeekOrigin)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334196(v=exchg.10).md">SetLength</a></td>
-<td>Sets the length of the stream. (Overrides <a href="https://msdn.microsoft.com/en-us/library/7c2w1ac6">Stream.SetLength(Int64)</a>.)</td>
+<td>Sets the length of the stream. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.io.stream.setlength?redirectedfrom=MSDN#System_IO_Stream_SetLength_System_Int64_">Stream.SetLength(Int64)</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334149(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="https://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a> that represents the current <a href="dn334143(v=exchg.10).md">ColumnStream</a>. (Overrides <a href="https://msdn.microsoft.com/en-us/library/7bxwbwt2">Object.ToString()</a>.)</td>
+<td>Returns a <a href="https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN">String</a> that represents the current <a href="dn334143(v=exchg.10).md">ColumnStream</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334197(v=exchg.10).md">Write</a></td>
-<td>Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. (Overrides <a href="https://msdn.microsoft.com/en-us/library/xsfehx6h">Stream.Write([], Int32, Int32)</a>.)</td>
+<td>Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.io.stream.write?redirectedfrom=MSDN#System_IO_Stream_Write_System_Byte___System_Int32_System_Int32_">Stream.Write([], Int32, Int32)</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/015bdtez">WriteByte</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.writebyte?redirectedfrom=MSDN#System_IO_Stream_WriteByte_System_Byte_">WriteByte</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 </tbody>
 </table>

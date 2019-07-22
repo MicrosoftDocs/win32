@@ -2,7 +2,7 @@
 Description: This topic lists the methods of the StringFormat class. For a complete class listing, see StringFormat Class.
 ms.assetid: 5a24308a-b899-469b-b9e2-703f1f171e63
 title: StringFormat Methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

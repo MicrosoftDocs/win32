@@ -75,11 +75,11 @@ A pointer to a [**PRINTER\_OPTIONS**](printer-options.md) structure. This value 
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. For extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+If the function fails, the return value is zero. For extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
-Do not call this method in [**DllMain**](https://msdn.microsoft.com/library/windows/desktop/ms682583).
+Do not call this method in [**DllMain**](https://docs.microsoft.com/windows/desktop/Dlls/dllmain).
 
 > [!Note]  
 > This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.
@@ -100,15 +100,15 @@ Use the **DesiredAccess** member of the [**PRINTER\_DEFAULTS**](printer-defaults
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PRINTER\_ACCESS\_ADMINISTER                 | To perform administrative tasks, such as those provided by [**SetPrinter**](setprinter.md).                                                                                                 |
 | PRINTER\_ACCESS\_USE                        | To perform basic printing operations.                                                                                                                                                        |
-| PRINTER\_ALL\_ACCESS                        | To perform all administrative tasks and basic printing operations except SYNCHRONIZE. See [Standard Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa379607).                                         |
+| PRINTER\_ALL\_ACCESS                        | To perform all administrative tasks and basic printing operations except SYNCHRONIZE. See [Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights).                                         |
 | PRINTER\_ACCESS\_MANAGE\_LIMITED            | To perform administrative tasks, such as those provided by [**SetPrinter**](setprinter.md) and [**SetPrinterData**](setprinterdata.md). This value is available starting from Windows 8.1. |
-| generic security values, such as WRITE\_DAC | To allow specific control access rights. See [Standard Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa379607).                                                                                      |
+| generic security values, such as WRITE\_DAC | To allow specific control access rights. See [Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights).                                                                                      |
 
 
 
  
 
-If a user does not have permission to open a specified printer or print server with the desired access, the **OpenPrinter2** call will fail, and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return the value ERROR\_ACCESS\_DENIED.
+If a user does not have permission to open a specified printer or print server with the desired access, the **OpenPrinter2** call will fail, and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return the value ERROR\_ACCESS\_DENIED.
 
 When *pPrinterName* is a local printer, then **OpenPrinter2** ignores all values of the **dwFlags** that the [**PRINTER\_OPTIONS**](printer-options.md) structure pointed to using *pOptions*, except PRINTER\_OPTION\_CLIENT\_CHANGE. If the latter is passed, then **OpenPrinter2** will return ERROR\_ACCESS\_DENIED. Accordingly, when opening a local printer, **OpenPrinter2** provides no advantage over [**OpenPrinter**](openprinter.md).
 

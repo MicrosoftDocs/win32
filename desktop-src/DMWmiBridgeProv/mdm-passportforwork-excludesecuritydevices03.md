@@ -60,7 +60,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Root node.
@@ -76,14 +76,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Describes the full path to the parent node. For more information, see [PassportForWork CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/passportforwork-csp).
+Describes the full path to the parent node. For more information, see [PassportForWork CSP](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp).
 
 </dd> <dt>
 
-[TPM12](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/passportforwork-csp#tenantid-policies-excludesecuritydevices-tpm12--only-for---device-vendor-msft-)
+[TPM12](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**

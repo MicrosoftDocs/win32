@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[Boot Configuration Data WMI Provider](https://msdn.microsoft.com/library/windows/desktop/bb986746)
+[Boot Configuration Data WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/bcd/boot-configuration-data-portal)
 </dt> <dd>
 
 The Boot Configuration Data (BCD) Windows Management Instrumentation (WMI) provider provides programmatic access to BCD stores, which describe boot applications and boot application settings.
@@ -38,105 +38,105 @@ Microsoft Management Console (MMC) provides a simple, consistent, and integrated
 
 </dd> <dt>
 
-[Mobile Device Management Application Provider](https://msdn.microsoft.com/library/dn610375)
+[Mobile Device Management Application Provider](https://docs.microsoft.com/previous-versions/windows/desktop/mdmappprov/mobile-device-management-application-provider-portal)
 </dt> <dd>
 
 The Mobile Device Management (MDM) application provider manages applications on devices that are subscribed to a MDM service.
 
 </dd> <dt>
 
-[Mobile Device Management Registration](https://msdn.microsoft.com/library/windows/desktop/dn574819)
+[Mobile Device Management Registration](https://docs.microsoft.com/windows/desktop/MDMReg/mobile-device-management-registration-portal)
 </dt> <dd>
 
 MDM Registration enrolls devices into a MDM service.
 
 </dd> <dt>
 
-[Mobile Device Management Settings Provider](https://msdn.microsoft.com/library/dn610402)
+[Mobile Device Management Settings Provider](https://docs.microsoft.com/previous-versions/windows/desktop/mdmsettingsprov/mobile-device-management-settings-provider-portal)
 </dt> <dd>
 
 The MDM Settings Provider enables management of settings on devices subscribed to a MDM service.
 
 </dd> <dt>
 
-[NetShell](https://msdn.microsoft.com/library/windows/desktop/ms708353)
+[NetShell](https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-start-page)
 </dt> <dd>
 
 NetShell is a command line based tool that enables administrators to remotely administer and configure critical network services.
 
 </dd> <dt>
 
-[Settings Management Infrastructure](https://msdn.microsoft.com/library/windows/desktop/aa817312)
+[Settings Management Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/smi/settings-management-infrastructure--smi-)
 </dt> <dd>
 
 Settings Management Infrastructure (SMI) provides a standardized infrastructure to access and manipulate settings that are modifiable by users and applications.
 
 </dd> <dt>
 
-[Software Inventory Logging](https://msdn.microsoft.com/library/dn440662)
+[Software Inventory Logging](https://docs.microsoft.com/previous-versions/windows/desktop/sil/software-inventory-logging-portal)
 </dt> <dd>
 
 Software Inventory Logging collects licensing data about software installed on a Windows Server, and provides remote access to the data so it can be aggregated easily by a datacenter.
 
 </dd> <dt>
 
-[Software Licensing API](https://msdn.microsoft.com/library/windows/desktop/cc296101)
+[Software Licensing API](https://docs.microsoft.com/previous-versions/windows/desktop/secslapi/software-licensing-api-portal)
 </dt> <dd>
 
 The Software Licensing API (SLAPI) can be used to determine a genuine Microsoft Windows installation, install and log an asset management license, and retrieve information about the licensing policy of a software component.
 
 </dd> <dt>
 
-[System Restore](https://msdn.microsoft.com/library/windows/desktop/dd408121)
+[System Restore](https://docs.microsoft.com/windows/desktop/sr/system-restore-portal)
 </dt> <dd>
 
 System Restore automatically monitors and records key system changes on a user's computer. It is designed to reduce support costs and increase customer satisfaction by enabling a user to undo a change that may have caused a problem with the system, or revert to a day when the system was performing optimally.
 
 </dd> <dt>
 
-[System Shutdown](https://msdn.microsoft.com/library/windows/desktop/aa376882)
+[System Shutdown](https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown)
 </dt> <dd>
 
 The system shutdown functions and messages allow applications to log off the current user, shut down the system, or lock the workstation.
 
 </dd> <dt>
 
-[Task Scheduler](https://msdn.microsoft.com/library/windows/desktop/aa383614)
+[Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)
 </dt> <dd>
 
 The Task Scheduler enables you to automatically perform routine tasks on a chosen computer. The Task Scheduler does this by monitoring whatever criteria you choose to initiate the tasks (referred to as triggers) and then executing the tasks when the criteria is met.
 
 </dd> <dt>
 
-[User Access Logging](https://msdn.microsoft.com/library/hh437528)
+[User Access Logging](https://docs.microsoft.com/previous-versions/windows/desktop/ual/user-access-logging)
 </dt> <dd>
 
 User Access Logging (UAL) is a common framework for Windows Server roles to report their respective consumption metrics. This UAL framework is a foundational and critical component of the larger licensing management solution.
 
 </dd> <dt>
 
-[Windows Deployment Services](https://msdn.microsoft.com/library/windows/desktop/dd379586)
+[Windows Deployment Services](https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-portal)
 </dt> <dd>
 
 Windows Deployment Services (WDS) is the revised version of Remote Installation Services (RIS). WDS enables the deployment of Windows operating systems. You can use WDS to set up new clients with a network-based installation without requiring that administrators visit each computer or install directly from CD or DVD media.
 
 </dd> <dt>
 
-[Windows Genuine Advantage API](https://msdn.microsoft.com/library/windows/desktop/ee428180)
+[Windows Genuine Advantage API](https://docs.microsoft.com/previous-versions/windows/desktop/wingen/windows-genuine-advantage-api-portal)
 </dt> <dd>
 
 The Windows Genuine Advantage API is used to determine whether the Windows operating system that is running on the current system is a genuine copy.
 
 </dd> <dt>
 
-[Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582)
+[Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page)
 </dt> <dd>
 
 Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems. You can write WMI scripts or applications to automate administrative tasks on remote computers.
 
 </dd> <dt>
 
-[Windows Defender WMIv2 APIs](https://msdn.microsoft.com/library/windows/desktop/dn439477)
+[Windows Defender WMIv2 APIs](https://docs.microsoft.com/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 </dt> <dd>
 
 Windows Defender WMI APIs can be used to manage malware protection through scripts or applications.
@@ -150,14 +150,14 @@ Windows PowerShell is a task-based command-line shell and scripting language des
 
 </dd> <dt>
 
-[Windows Remote Management](https://msdn.microsoft.com/library/aa384426)
+[Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal)
 </dt> <dd>
 
 The Windows Remote Management (WinRM) is the Microsoft implementation of WS-Management protocol, a standard Simple Object Access Protocol (SOAP)-based, firewall-friendly protocol that allows hardware and operating systems, from different vendors, to interoperate. The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure.
 
 </dd> <dt>
 
-[Windows Resource Protection](https://msdn.microsoft.com/library/windows/desktop/cc185681)
+[Windows Resource Protection](https://docs.microsoft.com/windows/desktop/Wfp/windows-resource-protection-portal)
 </dt> <dd>
 
 Windows Resource Protection (WRP) prevents the replacement of essential system files, folders, and registry keys that are installed as part of the operating system.
@@ -173,14 +173,14 @@ Independent software vendors and end-user developers can integrate WSUS features
 
 </dd> <dt>
 
-[Windows System Assessment Tool](https://msdn.microsoft.com/library/windows/desktop/cc948912)
+[Windows System Assessment Tool](https://docs.microsoft.com/windows/desktop/WinSAT/windows-system-assessment-tool-portal)
 </dt> <dd>
 
 How to use WinSAT to assess the performance characteristics and capabilities of a computer.
 
 </dd> <dt>
 
-[Work Folders](https://msdn.microsoft.com/library/dn632596)
+[Work Folders](https://docs.microsoft.com/previous-versions/windows/desktop/syncshareservermgmt/sync-share-server-management-portal)
 </dt> <dd>
 
 Work Folders allows users to store and access work files on personal computers and devices.

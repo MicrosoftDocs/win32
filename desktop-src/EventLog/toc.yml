@@ -88,9 +88,9 @@
       href: event-logging-structures.md
       items: 
       - name: "ELF_EOF_RECORD"
-        href: https://msdn.microsoft.com/en-us/library/Bb309022(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309022(v=vs.85)
       - name: "ELF_LOGFILE_HEADER"
-        href: https://msdn.microsoft.com/en-us/library/Bb309024(v=VS.85).aspx
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)
       - name: "EVENTLOG_FULL_INFORMATION"
         href: /windows/desktop/api/Winbase/ns-winbase-_eventlog_full_information
       - name: "EVENTLOGRECORD"

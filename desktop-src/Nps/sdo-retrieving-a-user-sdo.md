@@ -44,16 +44,16 @@ The following code retrieves a Server Data Object (SDO) for the Administrator.
 
 <dl> <dt>
 
-[Attaching to an SDO-Enabled Computer](https://msdn.microsoft.com/library/bb960609)
+[Attaching to an SDO-Enabled Computer](https://docs.microsoft.com/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
 </dt> <dt>
 
-[**ISdo**](https://msdn.microsoft.com/library/bb960639)
+[**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[**ISdoMachine**](https://msdn.microsoft.com/library/bb960655)
+[**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
 </dt> <dt>
 
-[**ISdoMachine::GetUserSDO**](https://msdn.microsoft.com/library/bb960662)
+[**ISdoMachine::GetUserSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo)
 </dt> <dt>
 
 [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx)

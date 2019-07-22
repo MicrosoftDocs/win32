@@ -31,7 +31,7 @@ A COM server that supplies instances of classes and implements methods of the [*
 <span id="wmi.gloss_intrinsic_event"></span><span id="WMI.GLOSS_INTRINSIC_EVENT"></span>**intrinsic event**
 </dt> <dd>
 
-An event that WMI provides, which is a notification of a change in the standard WMI data model. For example, the creation of a new instance of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) is an [**\_\_InstanceCreationEvent**](--instancecreationevent.md) type of intrinsic event. Also see [*extrinsic event*](gloss-e.md).
+An event that WMI provides, which is a notification of a change in the standard WMI data model. For example, the creation of a new instance of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) is an [**\_\_InstanceCreationEvent**](--instancecreationevent.md) type of intrinsic event. Also see [*extrinsic event*](gloss-e.md).
 
 </dd> <dt>
 

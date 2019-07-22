@@ -13,7 +13,7 @@ api_location:
 
 # LARGEINT
 
-The **LARGEINT** datatype defines a [**LARGE\_INTEGER**](https://msdn.microsoft.com/library/windows/desktop/aa383713) value.
+The **LARGEINT** datatype defines a [**LARGE\_INTEGER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer) value.
 
 
 ```C++

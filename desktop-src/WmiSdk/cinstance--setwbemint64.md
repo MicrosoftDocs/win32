@@ -1,14 +1,16 @@
 ---
-Description: 'The CInstance::GetWBEMINT64 method sets a 64-bit integer property.'
+Description: The CInstance::GetWBEMINT64 method sets a 64-bit integer property.
 audience: developer
-ms.assetid: 'a1789091-ddb6-44f7-bc02-82e7c0209bf9'
+ms.assetid: a1789091-ddb6-44f7-bc02-82e7c0209bf9
 ms.tgt_platform: multiple
-title: 'CInstance::SetWBEMINT64 methods'
+title: CInstance::SetWBEMINT64 methods
+ms.date: 07/02/2019
+ms.topic: reference
 ---
 
 # CInstance::SetWBEMINT64 methods
 
-\[The [**CInstance**](https://msdn.microsoft.com/en-us/library/Aa388679(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**CInstance**](https://msdn.microsoft.com/en-us/library/Aa388679(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CInstance::GetWBEMINT64**](cinstance-getwbemint64.md) method sets a 64-bit integer property.
 

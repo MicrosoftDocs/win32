@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Logging WMI Activity
 
-The WMI log files are no longer supported. Starting with Windows Vista, WMI uses [Event Tracing for Windows (ETW](https://msdn.microsoft.com/library/windows/desktop/bb968803)) and events that are available through the **Event Viewer** UI or the Wevtutil command line tool. For more information, see the ETW provider and the [Wevutil](https://technet.microsoft.com/library/cc732848.aspx) command-line documentation.
+The WMI log files are no longer supported. Starting with Windows Vista, WMI uses [Event Tracing for Windows (ETW](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal)) and events that are available through the **Event Viewer** UI or the Wevtutil command line tool. For more information, see the ETW provider and the [Wevutil](https://technet.microsoft.com/library/cc732848.aspx) command-line documentation.
 
 The following sections are discussed in this topic:
 

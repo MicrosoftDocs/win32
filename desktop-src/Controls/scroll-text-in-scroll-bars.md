@@ -25,13 +25,13 @@ This section describes the changes you can make to an application's main window 
 
 ### Processing the WM\_CREATE Message
 
-Scrolling units are typically set while processing the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message. It is convenient to base the scrolling units on the dimensions of the font associated with the window's device context (DC). To retrieve the font dimensions for a specific DC, use the [**GetTextMetrics**](https://msdn.microsoft.com/library/windows/desktop/dd144941) function.
+Scrolling units are typically set while processing the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message. It is convenient to base the scrolling units on the dimensions of the font associated with the window's device context (DC). To retrieve the font dimensions for a specific DC, use the [**GetTextMetrics**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics) function.
 
 In the example in this section, one vertical scrolling unit is equivalent to the height of a character cell, plus external leading. One horizontal scrolling unit is equivalent to the average width of a character cell. The horizontal scrolling positions, therefore, do not correspond to actual characters, unless the screen font is fixed-width.
 
 ### Processing the WM\_SIZE Message
 
-When processing the [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) message, it is convenient to adjust the scrolling range and scrolling position to reflect the dimensions of the client area as well as the number of lines of text that will be displayed.
+When processing the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message, it is convenient to adjust the scrolling range and scrolling position to reflect the dimensions of the client area as well as the number of lines of text that will be displayed.
 
 The [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) function sets the minimum and maximum position values, the page size, and the scrolling position for a scroll bar.
 
@@ -41,11 +41,11 @@ The scroll bar sends [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-v
 
 When the [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md) messages are processed, the scroll bar request code is examined and the scrolling increment is calculated. After the increment is applied to the current scrolling position, the window is scrolled to the new position by using the [**ScrollWindowEx**](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex) function, and the position of the scroll box is adjusted by using the [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) function.
 
-After a window is scrolled, part of its client area is made invalid. To ensure that the invalid region is updated, the [**UpdateWindow**](https://msdn.microsoft.com/library/windows/desktop/dd145167) function is used to generate a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message.
+After a window is scrolled, part of its client area is made invalid. To ensure that the invalid region is updated, the [**UpdateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow) function is used to generate a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message.
 
 ### Processing the WM\_PAINT Message
 
-When processing the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message, it is convenient to draw the lines of text that you want to appear in the invalid portion of the window. The following example uses the current scrolling position and the dimensions of the invalid region to determine the range of lines within the invalid region in order to display them.
+When processing the [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, it is convenient to draw the lines of text that you want to appear in the invalid portion of the window. The following example uses the current scrolling position and the dimensions of the invalid region to determine the range of lines within the invalid region in order to display them.
 
 ## Example of Scrolling Text
 

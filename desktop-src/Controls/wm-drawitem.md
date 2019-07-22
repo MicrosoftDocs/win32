@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the parent window of an owner-drawn button, combo box, list box, or menu when a visual aspect of the button, combo box, list box, or menu has changed.
 
-A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+A window receives this message through its [*WindowProc*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -56,7 +56,7 @@ If an application processes this message, it should return **TRUE**.
 
 ## Remarks
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function draws the focus rectangle for an owner-drawn list box item.
+By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function draws the focus rectangle for an owner-drawn list box item.
 
 The *itemAction* member of the [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure specifies the drawing operation that an application should perform.
 
@@ -87,7 +87,7 @@ Before returning from processing this message, an application should ensure that
 **Other Resources**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> </dl>
 
  

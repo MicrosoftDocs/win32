@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -130,7 +130,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office"
 
 
 
-You must also have the following in your [**STYLE**](https://msdn.microsoft.com/library/ms535898) element to register the behavior of VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second behavior definition.
+You must also have the following in your [**STYLE**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style) element to register the behavior of VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second behavior definition.
 
 
 ```HTML

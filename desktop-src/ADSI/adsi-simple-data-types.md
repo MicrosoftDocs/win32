@@ -80,7 +80,7 @@ DWORD
 **ADS\_LARGE\_INTEGER**
 </dt> <dd>
 
-[**LARGE\_INTEGER**](https://msdn.microsoft.com/library/windows/desktop/aa383713)
+[**LARGE\_INTEGER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer)
 
 </dd> <dt>
 
@@ -115,7 +115,7 @@ HANDLE
 **ADS\_UTC\_TIME**
 </dt> <dd>
 
-[**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950)
+[**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
 
 </dd> </dl>
 

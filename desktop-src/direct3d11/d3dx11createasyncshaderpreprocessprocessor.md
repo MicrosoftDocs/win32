@@ -49,7 +49,7 @@ HRESULT D3DX11CreateAsyncShaderPreprocessProcessor(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A string that contains the shader filename.
 
@@ -67,7 +67,7 @@ A NULL-terminated array of shader macros; set this to **NULL** to specify no mac
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/library/windows/desktop/bb173775)**
+Type: **[**LPD3D10INCLUDE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
 A pointer to an include interface; set this to **NULL** to specify there is no include file.
 
@@ -76,7 +76,7 @@ A pointer to an include interface; set this to **NULL** to specify there is no i
 *ppShaderText* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://msdn.microsoft.com/library/windows/desktop/bb173507)\*\***
+Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 Address of a pointer to a buffer that contains the ASCII text of the shader.
 
@@ -85,7 +85,7 @@ Address of a pointer to a buffer that contains the ASCII text of the shader.
 *ppErrorBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://msdn.microsoft.com/library/windows/desktop/bb173507)\*\***
+Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 Address of a pointer to a buffer that contains compile errors.
 

@@ -102,7 +102,7 @@ The following code example assumes that the initialization, described in [Initia
 
 ## Best Practices
 
-After you have used an [**IOpcPartUri**](https://msdn.microsoft.com/library/windows/desktop/dd371083) interface to create a component (such as after calling the **CreateDocument** method in the code example), release the pointer to that interface—unless you need it for another call.
+After you have used an [**IOpcPartUri**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi) interface to create a component (such as after calling the **CreateDocument** method in the code example), release the pointer to that interface—unless you need it for another call.
 
 ## Related topics
 
@@ -126,7 +126,7 @@ After you have used an [**IOpcPartUri**](https://msdn.microsoft.com/library/wind
 **Used in This Page**
 </dt> <dt>
 
-[**IOpcPartUri**](https://msdn.microsoft.com/library/windows/desktop/dd371083)
+[**IOpcPartUri**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi)
 </dt> <dt>
 
 [**IXpsOMObjectFactory**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory)
@@ -162,7 +162,7 @@ After you have used an [**IOpcPartUri**](https://msdn.microsoft.com/library/wind
 [Initialize an XPS OM](xps-object-model-initialization.md)
 </dt> <dt>
 
-[Packaging API](https://msdn.microsoft.com/library/windows/desktop/dd371623)
+[Packaging API](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
 [XPS Document API Reference](xps-programming-reference.md)

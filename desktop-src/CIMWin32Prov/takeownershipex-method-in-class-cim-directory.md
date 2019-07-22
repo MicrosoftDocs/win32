@@ -25,7 +25,7 @@ The **TakeOwnerShipEx** method obtains ownership of the logical directory entry 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ String that represents the name of the file (or directory) where the method fail
 *StartFileName* \[in\]
 </dt> <dd>
 
-String that represents the child file (or directory) to use as a starting point for this method. Typically, this parameter is the *StopFileName* parameter that specifies the file or directory at which an error occurred from the previous method call. If this parameter is null, the operation is performed on the file (or directory) specified in the [**ExecMethod**](https://msdn.microsoft.com/library/aa393862) call.
+String that represents the child file (or directory) to use as a starting point for this method. Typically, this parameter is the *StopFileName* parameter that specifies the file or directory at which an error occurred from the previous method call. If this parameter is null, the operation is performed on the file (or directory) specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 </dd> <dt>
 
