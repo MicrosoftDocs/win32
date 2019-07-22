@@ -1089,6 +1089,10 @@
             href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetstreamhdrmetadata
           - name: "VideoProcessorSetStreamHDRMetaData method"
             href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetstreamhdrmetadata
+        - name: "ID3D11VideoContext3"
+            href: /windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext3
+            - name: "ID3D11VideoContext3::DecoderBeginFrame1"
+              href: /windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext3-decoderbeginframe1
         - name: "ID3D11VideoDecoder"
           href: /windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder
           items: 
@@ -1149,6 +1153,10 @@
             href: /windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-getvideodecodercaps
           - name: "RecommendVideoDecoderDownsampleParameters method"
             href: /windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-recommendvideodecoderdownsampleparameters
+        - name: "ID3D11VideoDevice2"
+          href: /windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videodevice2
+          - name: "ID3D11VideoDevice2::CheckFeatureSupport"
+            href: /windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videodevice2-checkfeaturesupport
         - name: "ID3D11VideoProcessor"
           href: /windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor
           items: 
@@ -1199,12 +1207,18 @@
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_content_protection_caps
         - name: "D3D11_CRYPTO_SESSION_STATUS"
           href: /windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_crypto_session_status
+        - name: "D3D11_FEATURE_VIDEO"
+          href: /windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_feature_video
         - name: "D3D11_VDOV_DIMENSION"
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_vdov_dimension
         - name: "D3D11_VIDEO_DECODER_BUFFER_TYPE"
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_video_decoder_buffer_type
         - name: "D3D11_VIDEO_DECODER_CAPS"
           href: /windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_decoder_caps
+        - name: "D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT"
+          href: /windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component
+        - name: "D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS"
+          href: /windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component_flags
         - name: "D3D11_VIDEO_FRAME_FORMAT"
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_video_frame_format
         - name: "D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE"
@@ -1316,6 +1330,10 @@
           href: /windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_input_data
         - name: "D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA"
           href: /windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_output_data
+        - name: "D3D11_FEATURE_DATA_D3D11_OPTIONS4 (d3d11_4.h)"
+          href: /windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4
+        - name: "D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM"
+          href: /windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_video_decoder_histogram
         - name: "D3D11_OMAC"
           href: /windows/desktop/api/d3d11/ns-d3d11-d3d11_omac
         - name: "D3D11_TEX2D_ARRAY_VPOV"
