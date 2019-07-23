@@ -152,13 +152,7 @@
         - name: "Background Intelligent Transfer Service"
           href: bits/background-intelligent-transfer-service-portal.md
         - name: "Backup"
-          items: 
-          - name: "Overview"
-            href: backup.md
-          - name: "Backup"
-            href: backup/backup.md
-          - name: "Volume Shadow Copy Service"
-            href: vss/volume-shadow-copy-service-portal.md
+          href: backup/backup.md
         - name: "Cloud Sync Engines"
           href: cfapi/cloud-files-api-portal.md
         - name: "Distributed File System"
@@ -173,10 +167,14 @@
           href: fileio/file-systems.md
         - name: "Projected File System"
           href: projfs/projected-file-system.md
+        - name: "Persistent Memory Programming"
+          href: persistent-memory-programming-in-windows---nvml-integration.md
         - name: "Virtual Storage"
           href: https://docs.microsoft.com/windows/desktop/VStor/virtual-storage
         - name: "Virtual Disk Service"
           href: https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal
+        - name: "Volume Shadow Copy Service"
+          href: vss/volume-shadow-copy-service-portal.md
       - name: "Devices"
         items: 
         - name: "Overview"
@@ -205,8 +203,6 @@
         items: 
         - name: "Overview"
           href: diagnostics.md
-        - name: "Assessment Execution Engine"
-          href: axe-access-portal.md
         - name: "Debugging and Error Handling"
           items: 
           - name: "Overview"
