@@ -4,6 +4,7 @@ ms.assetid: 8097ee91-f9f9-4e49-a501-5c54153eced8
 title: Data Access and Storage
 ms.topic: article
 ms.date: 02/06/2019
+ms.technology: data-access-storage
 ---
 
 # Data Access and Storage
