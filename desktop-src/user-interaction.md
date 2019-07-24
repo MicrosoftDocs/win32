@@ -4,6 +4,7 @@ ms.assetid: 053003a1-8c04-42d1-9b1c-bbbb58248376
 title: User Interaction
 ms.topic: article
 ms.date: 05/31/2018
+ms.technology: desktop-app-ui
 ---
 
 # User Interaction
