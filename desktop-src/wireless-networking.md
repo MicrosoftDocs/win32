@@ -4,6 +4,7 @@ ms.assetid: 54303cfc-7737-47d4-a0ea-b5a531c3014d
 title: Wireless Networking
 ms.topic: article
 ms.date: 05/31/2018
+ms.technology: networking
 ---
 
 # Wireless Networking
