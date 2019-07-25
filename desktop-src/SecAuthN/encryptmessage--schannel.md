@@ -90,7 +90,7 @@ When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecB
 | SECBUFFER\_STREAM\_TRAILER | Used internally. No initialization required.                                                                        |
 | SECBUFFER\_EMPTY           | Used internally. No initialization required. Size can be zero.                                                      |
 
-When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](secpkgcontext-streamsizes.md) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
+When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkgcontext_streamsizes) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
 
 For optimal performance, the *pMessage* structures should be allocated from contiguous memory.
 
