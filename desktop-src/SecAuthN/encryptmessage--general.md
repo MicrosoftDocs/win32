@@ -8,14 +8,14 @@ ms.date: 07/25/2019
 
 # EncryptMessage (General) function
 
-The **EncryptMessage (General)** function encrypts a message to provide [*privacy*](security.p_gly#-security-privacy-gly). **EncryptMessage (General)** allows an application to choose among cryptographic algorithms supported by the chosen mechanism. The **EncryptMessage (General)** function uses the security context referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](security.h_gly#-security-hash-gly) that can be checked.
+The **EncryptMessage (General)** function encrypts a message to provide [*privacy*](https://docs.microsoft.com/en-us/windows/win32/secgloss/p-gly). **EncryptMessage (General)** allows an application to choose among [*cryptographic algorithms*](https://docs.microsoft.com/en-us/windows/win32/secgloss/c-gly) supported by the chosen mechanism. The **EncryptMessage (General)** function uses the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity [*hash*](https://docs.microsoft.com/en-us/windows/win32/secgloss/h-gly) that can be checked.
 
-When using the Digest security support provider (SSP), this function is available as a SASL mechanism only.
+When using the Digest [*security support provider*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) (SSP), this function is available as a SASL mechanism only.
 
-When using the Schannel SSP, this function encrypts messages by using a session key negotiated with the remote party that will receive the message. The encryption algorithm is determined by the [cipher suite](cipher-suites-in-schannel.md) in use.
+When using the Schannel SSP, this function encrypts messages by using a [*session key*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) negotiated with the remote party that will receive the message. The encryption algorithm is determined by the [[*cipher*](https://docs.microsoft.com/en-us/windows/win32/secgloss/c-gly) suite]([*cipher*](https://docs.microsoft.com/en-us/windows/win32/secgloss/c-gly)-suites-in-schannel.md) in use.
 
 > [!Note]  
-> **EncryptMessage (General)** and [**DecryptMessage (General)**](decryptmessage--general.md) can be called at the same time from two different threads in a single Security Support Provider Interface (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> **EncryptMessage (General)** and [**DecryptMessage (General)**](decryptmessage--general.md) can be called at the same time from two different threads in a single [*security support provider interface*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
 For information about using this function with a specific SSP, see the following topics.
 
@@ -36,11 +36,11 @@ For information about using this function with a specific SSP, see the following
 
 *phContext* \[in\]
 
-A handle to the security context to be used to encrypt the message.
+A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) to be used to encrypt the message.
 
 *fQOP* \[in\]
 
-Package-specific flags that indicate the quality of protection. A security package can use this parameter to enable the selection of cryptographic algorithms.
+Package-specific flags that indicate the quality of protection. A [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) can use this parameter to enable the selection of [*cryptographic algorithms*](https://docs.microsoft.com/en-us/windows/win32/secgloss/c-gly).
 
 When using the Digest SSP, this parameter must be set to zero.
 
@@ -81,17 +81,17 @@ If the function fails, it returns one of the following error codes.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC\_E\_BUFFER\_TOO\_SMALL**      | The output buffer is too small. For more information, see Remarks.                                                                                                          |
 | **SEC\_E\_CONTEXT\_EXPIRED**        | The application is referencing a context that has already been closed. A properly written application should not receive this error.                                        |
-| **SEC\_E\_CRYPTO\_SYSTEM\_INVALID** | The cipher chosen for the security context is not supported.                                                                       |
+| **SEC\_E\_CRYPTO\_SYSTEM\_INVALID** | The [*cipher*](https://docs.microsoft.com/en-us/windows/win32/secgloss/c-gly) chosen for the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) is not supported.                                                                       |
 | **SEC\_E\_INSUFFICIENT\_MEMORY**    | There is not enough memory available to complete the requested action.                                                                                                      |
 | **SEC\_E\_INVALID\_HANDLE**         | A context handle that is not valid was specified in the *phContext* parameter.                                                                                              |
 | **SEC\_E\_INVALID\_TOKEN**          | No SECBUFFER\_DATA type buffer was found.                                                                                                                                   |
-| **SEC\_E\_QOP\_NOT\_SUPPORTED**     | Neither confidentiality nor [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly) are supported by the security context. |
+| **SEC\_E\_QOP\_NOT\_SUPPORTED**     | Neither confidentiality nor [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly) are supported by the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly). |
 
 ## Remarks
 
-The **EncryptMessage (General)** function encrypts a message based on the message and the session key from a security context.
+The **EncryptMessage (General)** function encrypts a message based on the message and the [*session key*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 
-If the transport application created the security context to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The security package incorporates the sequence number passed down from the transport application.
+If the transport application created the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) incorporates the sequence number passed down from the transport application.
 
 When you use the Digest SSP, get the size of the output buffer by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](secpkgcontext-sizes.md) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
 
@@ -103,7 +103,7 @@ When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecB
 | Buffer type                | Description                                                                                 |
 |----------------------------|---------------------------------------------------------------------------------------------|
 | SECBUFFER\_STREAM\_HEADER  | Used internally. No initialization required.                                                |
-| SECBUFFER\_DATA            | Contains the [*plaintext*](security.p_gly#-security-plaintext-gly) message to be encrypted. |
+| SECBUFFER\_DATA            | Contains the [*plaintext*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) message to be encrypted. |
 | SECBUFFER\_STREAM\_TRAILER | Used internally. No initialization required.                                                |
 | SECBUFFER\_EMPTY           | Used internally. No initialization required. Size can be zero.                              |
 

@@ -8,10 +8,10 @@ ms.date: 07/25/2019
 
 # DecryptMessage (NTLM) function
 
-The **DecryptMessage (NTLM)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](security.h_gly#-security-hash-gly).
+The **DecryptMessage (NTLM)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](https://docs.microsoft.com/en-us/windows/win32/secgloss/h-gly).
 
 > [!Note]  
-> [**EncryptMessage (NTLM)**](encryptmessage--ntlm.md) and **DecryptMessage (NTLM)** can be called at the same time from two different threads in a single Security Support Provider Interface (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (NTLM)**](encryptmessage--ntlm.md) and **DecryptMessage (NTLM)** can be called at the same time from two different threads in a single [*security support provider interface*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 *phContext* \[in\]
 
-A handle to the security context to be used to decrypt the message.
+A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) to be used to decrypt the message.
 
 *pMessage* \[in, out\]
 
