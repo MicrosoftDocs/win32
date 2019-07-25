@@ -2,6 +2,8 @@
 Description: 'Encrypts a message to provide privacy by using Kerberos.'
 ms.assetid: 'b9b6ca95-b986-4de7-bd28-994a5125ad05'
 title: 'EncryptMessage (Kerberos) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # EncryptMessage (Kerberos) function
@@ -79,7 +81,7 @@ If the function fails, it returns one of the following error codes.
 | <dl> <dt>**SEC\_E\_INSUFFICIENT\_MEMORY**</dt> </dl>    | There is not enough memory available to complete the requested action.                                                                                                                                                             |
 | <dl> <dt>**SEC\_E\_INVALID\_HANDLE**</dt> </dl>         | A context handle that is not valid was specified in the *phContext* parameter.                                                                                                                                                     |
 | <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>          | No SECBUFFER\_DATA type buffer was found.                                                                                                                                                                                          |
-| <dl> <dt>**SEC\_E\_QOP\_NOT\_SUPPORTED**</dt> </dl>     | Neither confidentiality nor [*integrity*](security.i_gly#-security-integrity-gly) are supported by the security context. |
+| <dl> <dt>**SEC\_E\_QOP\_NOT\_SUPPORTED**</dt> </dl>     | Neither confidentiality nor [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly) are supported by the security context. |
 
 ## Remarks
 

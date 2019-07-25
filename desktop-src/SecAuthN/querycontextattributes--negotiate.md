@@ -2,6 +2,8 @@
 Description: 'Enables a transport application to query the Negotiate security package for certain attributes of a security context.'
 ms.assetid: '9e499161-d5fb-4a64-ac36-f82031a3a7c9'
 title: 'QueryContextAttributes (Negotiate) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # QueryContextAttributes (Negotiate) function

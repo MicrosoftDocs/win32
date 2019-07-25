@@ -2,6 +2,8 @@
 Description: 'Enables a transport application to query the Kerberos security package for certain attributes of a security context.'
 ms.assetid: '8e80a9ed-0631-4932-aacc-ba3badcbd0a5'
 title: 'QueryContextAttributes (Kerberos) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # QueryContextAttributes (Kerberos) function

@@ -2,6 +2,8 @@
 Description: 'Initiates the client side, outbound security context from a credential handle by using the Negotiate security package.'
 ms.assetid: '031b0e82-f246-4291-aed3-f443ab152e00'
 title: 'InitializeSecurityContext (Negotiate) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # InitializeSecurityContext (Negotiate) function

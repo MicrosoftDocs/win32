@@ -2,6 +2,8 @@
 Description: 'Initiates the client side, outbound security context from a credential handle by using the Digest security package.'
 ms.assetid: '4b482dcc-3878-4bc6-85e4-229a1726cecc'
 title: 'InitializeSecurityContext (Digest) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # InitializeSecurityContext (Digest) function

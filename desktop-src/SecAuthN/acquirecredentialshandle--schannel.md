@@ -2,6 +2,8 @@
 Description: 'Acquires a handle to preexisting credentials of a security principal that is using Schannel.'
 ms.assetid: '0f006670-a1e5-47ed-baf5-ed55bd42b468'
 title: 'AcquireCredentialsHandle (Schannel) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # AcquireCredentialsHandle (Schannel) function

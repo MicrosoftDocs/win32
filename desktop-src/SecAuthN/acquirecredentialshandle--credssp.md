@@ -2,6 +2,8 @@
 Description: 'The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.'
 ms.assetid: '3b73decf-75d4-4bc4-b7ca-5f16aaadff29'
 title: 'AcquireCredentialsHandle (CredSSP) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # AcquireCredentialsHandle (CredSSP) function
@@ -11,10 +13,7 @@ The **AcquireCredentialsHandle (CredSSP)** function acquires a handle to preexis
 > [!Note]  
 > This is not a "log on to the network" and does not imply gathering of credentials.
 
- 
-
 ## Syntax
-
 
 ```C++
 SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
@@ -30,90 +29,51 @@ SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
 );
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *pszPrincipal* \[in, optional\]
-</dt> <dd>
 
 A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
 
 > [!Note]  
 > If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose security context it is executing.
 
- 
-
-</dd> <dt>
-
 *pszPackage* \[in\]
-</dt> <dd>
 
 A pointer to a null-terminated string that specifies the name of the security package with which these credentials will be used. This is a security package name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](enumeratesecuritypackages.md) function. After a context is established, [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) can be called with *ulAttribute* set to **SECPKG\_ATTR\_PACKAGE\_INFO** to return information on the security package in use.
 
-</dd> <dt>
-
 *fCredentialUse* \[in\]
-</dt> <dd>
 
 A flag that indicates how these credentials will be used. This parameter can be one of the following values.
 
-
-
 | Value                                                                                                                                                                                                                                        | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SECPKG_CRED_INBOUND"></span><span id="secpkg_cred_inbound"></span><dl> <dt>**SECPKG\_CRED\_INBOUND**</dt> <dt>0x1</dt> </dl>    | Validate an incoming server credential. Inbound credentials might be validated by using an authenticating authority when [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) or [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) is called. If such an authority is not available, the function will fail and return **SEC\_E\_NO\_AUTHENTICATING\_AUTHORITY**. Validation is package specific.<br/> |
-| <span id="SECPKG_CRED_OUTBOUND"></span><span id="secpkg_cred_outbound"></span><dl> <dt>**SECPKG\_CRED\_OUTBOUND**</dt> <dt>0x0</dt> </dl> | Allow a local client credential to prepare an outgoing token.<br/>                                                                                                                                                                                                                                                                                                                                                                                            |
-
-
-
- 
-
-</dd> <dt>
+| **SECPKG\_CRED\_INBOUND**<br/>0x1  | Validate an incoming server credential. Inbound credentials might be validated by using an authenticating authority when [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) or [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) is called. If such an authority is not available, the function will fail and return **SEC\_E\_NO\_AUTHENTICATING\_AUTHORITY**. Validation is package specific |
+| **SECPKG\_CRED\_OUTBOUND**<br/>0x0 | Allow a local client credential to prepare an outgoing token. |
 
 *pvLogonId* \[in, optional\]
-</dt> <dd>
 
 A pointer to a [*locally unique identifier*](security.l_gly#-security-locally-unique-identifier-gly) (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be **NULL**.
 
-</dd> <dt>
-
 *pAuthData* \[in, optional\]
-</dt> <dd>
 
 A pointer to a [**CREDSSP\_CRED**](credssp-cred.md) structure that specifies authentication data for both Schannel and Negotiate packages.
 
-</dd> <dt>
-
 *pGetKeyFn* \[in, optional\]
-</dt> <dd>
 
 Reserved. This parameter is not used and should be set to **NULL**.
 
-</dd> <dt>
-
 *pvGetKeyArgument* \[in, optional\]
-</dt> <dd>
 
 Reserved. This parameter must be set to **NULL**.
 
-</dd> <dt>
-
 *phCredential* \[out\]
-</dt> <dd>
 
 A pointer to the [CredHandle](sspi-handles.md) structure that will receive the credential handle.
 
-</dd> <dt>
-
 *ptsExpiry* \[out, optional\]
-</dt> <dd>
 
 A pointer to a [**TimeStamp**](timestamp.md) structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time.
-
-</dd> </dl>
 
 ## Return value
 
@@ -121,20 +81,14 @@ If the function succeeds, it returns **SEC\_E\_OK**.
 
 If the function fails, it returns one of the following error codes.
 
-
-
-| Return code                                                                                                 | Description                                                                                                                                        |
-|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**SEC\_E\_INSUFFICIENT\_MEMORY**</dt> </dl> | There is insufficient memory available to complete the requested action.<br/>                                                                |
-| <dl> <dt>**SEC\_E\_INTERNAL\_ERROR**</dt> </dl>      | An error occurred that did not map to an SSPI error code.<br/>                                                                               |
-| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>      | No credentials are available in the security package.<br/> |
-| <dl> <dt>**SEC\_E\_NOT\_OWNER**</dt> </dl>           | The caller of the function does not have the necessary credentials.<br/>                                                                     |
-| <dl> <dt>**SEC\_E\_SECPKG\_NOT\_FOUND**</dt> </dl>   | The requested security package does not exist.<br/>                                                                                          |
-| <dl> <dt>**SEC\_E\_UNKNOWN\_CREDENTIALS**</dt> </dl> | The credentials supplied to the package were not recognized.<br/>                                                                            |
-
-
-
- 
+| Return code                      | Description                                                              |
+|----------------------------------|--------------------------------------------------------------------------|
+| **SEC\_E\_INSUFFICIENT\_MEMORY** | There is insufficient memory available to complete the requested action. |
+| **SEC\_E\_INTERNAL\_ERROR**      | An error occurred that did not map to an SSPI error code.                |
+| **SEC\_E\_NO\_CREDENTIALS**      | No credentials are available in the security package.                    |
+| **SEC\_E\_NOT\_OWNER**           | The caller of the function does not have the necessary credentials.      |
+| **SEC\_E\_SECPKG\_NOT\_FOUND**   | The requested security package does not exist.                           |
+| **SEC\_E\_UNKNOWN\_CREDENTIALS** | The credentials supplied to the package were not recognized.             |
 
 ## Remarks
 
@@ -146,46 +100,25 @@ A package might call the function in *pGetKeyFn* provided by the RPC run-time tr
 
 For kernel mode callers, the following differences must be noted:
 
--   The two string parameters must be [*Unicode*](security.u_gly#-security-unicode-gly) strings.
--   The buffer values must be allocated in process virtual memory, not from the pool.
+- The two string parameters must be [*Unicode*](security.u_gly#-security-unicode-gly) strings.
+- The buffer values must be allocated in process virtual memory, not from the pool.
 
 When you have finished using the returned credentials, free the memory used by the credentials by calling the [**FreeCredentialsHandle**](freecredentialshandle.md) function.
 
 ## Requirements
 
-
-
-|                                     |                                                                                                        |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>Sspi.h (include Security.h)</dt> </dl> |
-| Library<br/>                  | <dl> <dt>Secur32.lib</dt> </dl>                 |
-| DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
-| Unicode and ANSI names<br/>   | **AcquireCredentialsHandleW** (Unicode) and **AcquireCredentialsHandleA** (ANSI)<br/>            |
-
-
+|                          |                                                                                  |
+|--------------------------|----------------------------------------------------------------------------------|
+| Minimum supported client | Windows Vista \[desktop apps only\]                                              |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\]                                        |
+| Header                   | Sspi.h (include Security.h)                                                      |
+| Library                  | Secur32.lib                                                                      |
+| DLL                      | Secur32.dll                                                                      |
+| Unicode and ANSI names   | **AcquireCredentialsHandleW** (Unicode) and **AcquireCredentialsHandleA** (ANSI) |
 
 ## See also
 
-<dl> <dt>
-
-[SSPI Functions](authentication-functions.md#sspi-functions)
-</dt> <dt>
-
-[**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md)
-</dt> <dt>
-
-[**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md)
-</dt> <dt>
-
-[**FreeCredentialsHandle**](freecredentialshandle.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [SSPI Functions](authentication-functions.md#sspi-functions)
+- [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md)
+- [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md)
+- [**FreeCredentialsHandle**](freecredentialshandle.md)

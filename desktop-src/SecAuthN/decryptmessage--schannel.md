@@ -2,6 +2,8 @@
 Description: 'Decrypts a message by using Schannel.'
 ms.assetid: '5d7c8598-2d6b-4839-ae98-dff964bc962c'
 title: 'DecryptMessage (Schannel) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # DecryptMessage (Schannel) function

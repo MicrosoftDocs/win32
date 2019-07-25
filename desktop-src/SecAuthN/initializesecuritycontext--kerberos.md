@@ -2,6 +2,8 @@
 Description: 'Initiates the client side, outbound security context from a credential handle by using the Kerberos security package.'
 ms.assetid: 'b5c968dc-9343-44ed-acbc-a89c58c14e4a'
 title: 'InitializeSecurityContext (Kerberos) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # InitializeSecurityContext (Kerberos) function

@@ -2,6 +2,8 @@
 Description: 'Lets the server component of a transport application establish a security context between the server and a remote client.'
 ms.assetid: 'a53f733e-b646-4431-b021-a2c446308849'
 title: 'AcceptSecurityContext (CredSSP) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # AcceptSecurityContext (CredSSP) function
@@ -110,7 +112,7 @@ This function returns one of the following values.
 
 The **AcceptSecurityContext (CredSSP)** function is the server counterpart to the [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) function.
 
-When the server receives a request from a client, it uses the *fContextReq* parameter to specify what it requires of the session. In this fashion, a server can require that clients be capable of using a confidential or [*integrity*](security.i_gly#-security-integrity-gly)-checked session; it can reject clients that cannot meet that demand. Alternatively, a server can require nothing; whatever the client requires or can provide is returned in the *pfContextAttr* parameter.
+When the server receives a request from a client, it uses the *fContextReq* parameter to specify what it requires of the session. In this fashion, a server can require that clients be capable of using a confidential or [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly)-checked session; it can reject clients that cannot meet that demand. Alternatively, a server can require nothing; whatever the client requires or can provide is returned in the *pfContextAttr* parameter.
 
 The *fContextReq* and *pfContextAttr* parameters are bitmasks that represent various context attributes. For a description of the various attributes, see [Context Requirements](context-requirements.md).
 
@@ -128,7 +130,7 @@ After the security context has been established, the server application can use 
 | Minimum supported client | Windows Vista \[desktop apps only\]       |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Header                   | Sspi.h (include Security.h)               |
-| Library                  | Secur32.libvvvvv                          |
+| Library                  | Secur32.lib                               |
 | DLL                      | Secur32.dll                               |
 
 ## See also

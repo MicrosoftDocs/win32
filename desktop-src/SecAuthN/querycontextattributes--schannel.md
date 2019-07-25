@@ -2,6 +2,8 @@
 Description: 'Enables a transport application to query the Schannel security package for certain attributes of a security context.'
 ms.assetid: '0329e525-a743-4e6c-aac4-9f74274dadd2'
 title: 'QueryContextAttributes (Schannel) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # QueryContextAttributes (Schannel) function

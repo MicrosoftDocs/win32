@@ -2,6 +2,8 @@
 Description: 'Decrypts a message by using Digest.'
 ms.assetid: '46d45f59-33fa-434a-b329-20b6257c9a19'
 title: 'DecryptMessage (Digest) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # DecryptMessage (Digest) function
@@ -65,7 +67,7 @@ If the function fails to decrypt the message, it returns one of the following er
 | **SEC\_E\_INVALID\_HANDLE**         | A context handle that is not valid was specified in the *phContext* parameter. Used with the Digest SSP.                                                                     |
 | **SEC\_E\_MESSAGE\_ALTERED**        | The message has been altered. Used with the Digest SSP.                                                                                                                      |
 | **SEC\_E\_OUT\_OF\_SEQUENCE**       | The message was not received in the correct sequence.                                                                                                                        |
-| **SEC\_E\_QOP\_NOT\_SUPPORTED**     | Neither confidentiality nor [*integrity*](security.i_gly#-security-integrity-gly) are supported by the security context. Used with the Digest SSP.                           |
+| **SEC\_E\_QOP\_NOT\_SUPPORTED**     | Neither confidentiality nor [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly) are supported by the security context. Used with the Digest SSP.                           |
 
 ## Remarks
 

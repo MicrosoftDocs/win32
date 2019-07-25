@@ -2,6 +2,8 @@
 Description: 'Encrypts a message to provide privacy by using Negotiate.'
 ms.assetid: 'b80b3d64-9c0a-4602-9378-1e208f6593fc'
 title: 'EncryptMessage (Negotiate) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # EncryptMessage (Negotiate) function
@@ -65,7 +67,7 @@ If the function fails, it returns one of the following error codes.
 | **SEC\_E\_INSUFFICIENT\_MEMORY**    | There is not enough memory available to complete the requested action.                                                               |
 | **SEC\_E\_INVALID\_HANDLE**         | A context handle that is not valid was specified in the *phContext* parameter.                                                       |
 | **SEC\_E\_INVALID\_TOKEN**          | No SECBUFFER\_DATA type buffer was found.                                                                                            |
-| **SEC\_E\_QOP\_NOT\_SUPPORTED**     | Neither confidentiality nor [*integrity*](security.i_gly#-security-integrity-gly) are supported by the security context.             |
+| **SEC\_E\_QOP\_NOT\_SUPPORTED**     | Neither confidentiality nor [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly) are supported by the security context.             |
 
 ## Remarks
 

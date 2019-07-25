@@ -2,6 +2,8 @@
 Description: 'Enables the server component of a transport application to establish a security context between the server and a remote client that is using Digest.'
 ms.assetid: '017683e3-b21a-4e97-9232-582ac7dbd5b2'
 title: 'AcceptSecurityContext (Digest) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # AcceptSecurityContext (Digest) function
@@ -164,7 +166,7 @@ This function returns one of the following values.
 
 The **AcceptSecurityContext (Digest)** function is the server counterpart to the [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest.md) function.
 
-When the server receives a request from a client, the server uses the *fContextReq* parameter to specify what it requires of the session. In this fashion, a server can specify that clients must be capable of using a confidential or [*integrity*](security.i_gly#-security-integrity-gly)-checked session, and it can reject clients that cannot meet that demand. Alternatively, a server can require nothing, and whatever the client can provide or requires is returned in the *pfContextAttr* parameter.
+When the server receives a request from a client, the server uses the *fContextReq* parameter to specify what it requires of the session. In this fashion, a server can specify that clients must be capable of using a confidential or [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly)-checked session, and it can reject clients that cannot meet that demand. Alternatively, a server can require nothing, and whatever the client can provide or requires is returned in the *pfContextAttr* parameter.
 
 For a package that supports multiple-leg authentication, such as mutual authentication, the calling sequence is as follows:
 

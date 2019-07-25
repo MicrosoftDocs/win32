@@ -2,6 +2,8 @@
 Description: 'Enables a transport application to query a security package for certain attributes of a security context.'
 ms.assetid: '67bc087f-7519-4c8a-9b34-b3ecd306a334'
 title: 'QueryContextAttributes (General) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # QueryContextAttributes (General) function

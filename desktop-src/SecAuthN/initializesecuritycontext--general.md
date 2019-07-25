@@ -2,6 +2,8 @@
 Description: 'Initiates the client side, outbound security context from a credential handle.'
 ms.assetid: '21d965d4-3c03-4e29-a70d-4538c5c366b0'
 title: 'InitializeSecurityContext (General) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # InitializeSecurityContext (General) function

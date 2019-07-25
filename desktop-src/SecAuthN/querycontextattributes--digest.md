@@ -2,6 +2,8 @@
 Description: 'Enables a transport application to query the Digest security package for certain attributes of a security context.'
 ms.assetid: 'd4cd2cc4-77a2-42ba-9029-f4d92706c5c2'
 title: 'QueryContextAttributes (Digest) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # QueryContextAttributes (Digest) function

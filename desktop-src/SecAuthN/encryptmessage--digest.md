@@ -2,6 +2,8 @@
 Description: 'Encrypts a message to provide privacy by using Digest.'
 ms.assetid: '0045e931-929b-40c4-a524-5664d2fc5170'
 title: 'EncryptMessage (Digest) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # EncryptMessage (Digest) function
@@ -89,7 +91,7 @@ If the function fails, it returns one of the following error codes.
 | <dl> <dt>**SEC\_E\_INSUFFICIENT\_MEMORY**</dt> </dl>    | There is not enough memory available to complete the requested action.<br/>                                                                                                                                                             |
 | <dl> <dt>**SEC\_E\_INVALID\_HANDLE**</dt> </dl>         | A context handle that is not valid was specified in the *phContext* parameter.<br/>                                                                                                                                                     |
 | <dl> <dt>**SEC\_E\_INVALID\_TOKEN**</dt> </dl>          | No SECBUFFER\_DATA type buffer was found.<br/>                                                                                                                                                                                          |
-| <dl> <dt>**SEC\_E\_QOP\_NOT\_SUPPORTED**</dt> </dl>     | Neither confidentiality nor [*integrity*](security.i_gly#-security-integrity-gly) are supported by the security context.<br/> |
+| <dl> <dt>**SEC\_E\_QOP\_NOT\_SUPPORTED**</dt> </dl>     | Neither confidentiality nor [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly) are supported by the security context.<br/> |
 
 
 

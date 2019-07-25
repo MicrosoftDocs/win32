@@ -2,6 +2,8 @@
 Description: 'Enables the server component of a transport application to establish a security context between the server and a remote client that is using Kerberos.'
 ms.assetid: '838eaaa7-6fce-4ed1-bd69-6e76a804c67b'
 title: 'AcceptSecurityContext (Kerberos) function'
+ms.topic: article
+ms.date: 07/25/2019
 ---
 
 # AcceptSecurityContext (Kerberos) function
@@ -142,7 +144,7 @@ This function returns one of the following values.
 
 The **AcceptSecurityContext (Kerberos)** function is the server counterpart to the [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md) function.
 
-When the server receives a request from a client, the server uses the *fContextReq* parameter to specify what it requires of the session. In this fashion, a server can specify that clients must be capable of using a confidential or [*integrity*](security.i_gly#-security-integrity-gly)-checked session, and it can reject clients that cannot meet that demand. Alternatively, a server can require nothing, and whatever the client can provide or requires is returned in the *pfContextAttr* parameter.
+When the server receives a request from a client, the server uses the *fContextReq* parameter to specify what it requires of the session. In this fashion, a server can specify that clients must be capable of using a confidential or [*integrity*](https://docs.microsoft.com/en-us/windows/win32/secgloss/i-gly)-checked session, and it can reject clients that cannot meet that demand. Alternatively, a server can require nothing, and whatever the client can provide or requires is returned in the *pfContextAttr* parameter.
 
 For a package that supports multiple-leg authentication, such as mutual authentication, the calling sequence is as follows:
 
