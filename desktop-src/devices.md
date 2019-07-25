@@ -4,6 +4,7 @@ ms.assetid: dee73082-8dd0-430b-8fa2-7c29fa7cff9a
 title: Devices
 ms.topic: article
 ms.date: 05/31/2018
+ms.technology: devices
 ---
 
 # Devices

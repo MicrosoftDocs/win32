@@ -5,6 +5,7 @@ title: Desktop app technologies
 layout: LandingPage
 ms.topic: landing-page
 ms.date: 05/31/2018
+ms.technology: get-started
 ---
 
 # Desktop app technologies

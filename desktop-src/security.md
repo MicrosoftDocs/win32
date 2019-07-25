@@ -4,6 +4,7 @@ ms.assetid: 1d078a53-250e-4f40-8a3b-83396f2201fc
 title: Security and Identity
 ms.topic: article
 ms.date: 05/31/2018
+ms.technology: security-identity
 ---
 
 # Security and Identity
