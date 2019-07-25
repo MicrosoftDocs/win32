@@ -53,7 +53,7 @@ A pointer to a null-terminated string that specifies the name of the principal w
 *pszPackage* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](enumeratesecuritypackages.md) function. After a context is established, [**QueryContextAttributes (Kerberos)**](querycontextattributes--kerberos.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) in use.
+A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) function. After a context is established, [**QueryContextAttributes (Kerberos)**](querycontextattributes--kerberos.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) in use.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ A pointer to a [*locally unique identifier*](https://docs.microsoft.com/en-us/wi
 *pAuthData* \[in\]
 </dt> <dd>
 
-A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](sec-winnt-auth-identity.md) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](rpc.rpcbindingsetauthinfo).
+A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_sec_winnt_auth_identity_a) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](https://docs.microsoft.com/en-us/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo).
 
 </dd> <dt>
 
@@ -152,7 +152,7 @@ For kernel mode callers, the following differences must be noted:
 -   The two string parameters must be [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly) strings.
 -   The buffer values must be allocated in process virtual memory, not from the pool.
 
-When you have finished using the returned credentials, free the memory used by the credentials by calling the [**FreeCredentialsHandle**](freecredentialshandle.md) function.
+When you have finished using the returned credentials, free the memory used by the credentials by calling the [**FreeCredentialsHandle**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecredentialshandle) function.
 
 ## Requirements
 
@@ -182,7 +182,7 @@ When you have finished using the returned credentials, free the memory used by t
 [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md)
 </dt> <dt>
 
-[**FreeCredentialsHandle**](freecredentialshandle.md)
+[**FreeCredentialsHandle**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecredentialshandle)
 </dt> </dl>
 
  

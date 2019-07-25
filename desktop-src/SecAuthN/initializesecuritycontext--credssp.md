@@ -249,7 +249,7 @@ If **InitializeSecurityContext (CredSSP)** returns success on the first (or only
 
 The client may call **InitializeSecurityContext (CredSSP)** again after it has completed successfully. This indicates to the security package that a reauthentication is wanted.
 
-Kernel-mode callers have the following differences: the target name is a [*Unicode*](security.u_gly#-security-unicode-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](base.virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
+Kernel-mode callers have the following differences: the target name is a [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly#-security-unicode-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](base.virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
 
 If the function returns **SEC\_I\_INCOMPLETE\_CREDENTIALS**, check that the r credentials passed to the [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md) function specified a valid and trusted certificate The certificate must be a client authentication certificate issued by a certification authority trusted by the server. To obtain a list of the CAs trusted by the server, call the [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) function with the **SECPKG\_ATTR\_ISSUER\_LIST\_EX** attribute.
 

@@ -32,7 +32,7 @@ A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/wi
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. On input, the structure references one or more [**SecBuffer**](secbuffer.md) structures that may be of type SECBUFFER\_DATA. The buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures that may be of type SECBUFFER\_DATA. The buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 *MessageSeqNo* \[in\]
 
@@ -84,5 +84,5 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (Kerberos)**](encryptmessage--kerberos.md)
-- [**SecBuffer**](secbuffer.md)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)

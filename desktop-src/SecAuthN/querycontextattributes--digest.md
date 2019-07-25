@@ -8,7 +8,7 @@ ms.date: 07/25/2019
 
 # QueryContextAttributes (Digest) function
 
-The **QueryContextAttributes (Digest)** function enables a transport application to query the Digest [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain [*attributes*](security.a_gly#-security-attribute-gly) of a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
+The **QueryContextAttributes (Digest)** function enables a transport application to query the Digest [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain [*attributes*](https://docs.microsoft.com/en-us/windows/win32/secgloss/a-gly#-security-attribute-gly) of a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 
 ## Syntax
 

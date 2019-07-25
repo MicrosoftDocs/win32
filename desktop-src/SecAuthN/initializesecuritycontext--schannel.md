@@ -129,7 +129,7 @@ On calls after the first call, pass the handle returned here as the *phContext* 
 *pOutput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
 If the ISC\_REQ\_ALLOCATE\_MEMORY flag is specified, the Schannel SSP will allocate memory for the buffer and put the appropriate information in the [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea). In addition, the caller must pass in a buffer of type **SECBUFFER\_ALERT**. On output, if an alert is generated, this buffer contains information about that alert, and the function fails.
 
@@ -138,7 +138,7 @@ If the ISC\_REQ\_ALLOCATE\_MEMORY flag is specified, the Schannel SSP will alloc
 *pfContextAttr* \[out\]
 </dt> <dd>
 
-A pointer to a variable to receive a set of bit flags that indicate the [*attributes*](security.a_gly#-security-attribute-gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
+A pointer to a variable to receive a set of bit flags that indicate the [*attributes*](https://docs.microsoft.com/en-us/windows/win32/secgloss/a-gly#-security-attribute-gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
 
 Flags used for this parameter are prefixed with ISC\_RET, such as ISC\_RET\_DELEGATE. For a list of valid values, see the *fContextReq* parameter.
 
@@ -170,7 +170,7 @@ If the function succeeds, the function returns one of the following success code
 | <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken) function.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | <dl> <dt>**SEC\_I\_CONTINUE\_NEEDED**</dt> </dl>        | The client must send the output token to the server and wait for a return token. The returned token is then passed in another call to [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md). The output token can be empty.<br/>                                                                                                                                                                                                                                                                                     |
 | <dl> <dt>**SEC\_I\_INCOMPLETE\_CREDENTIALS**</dt> </dl> | The server has requested client authentication, and the supplied credentials either do not include a certificate or the certificate was not issued by a certification authority (CA) that is trusted by the server. For more information, see Remarks.<br/>                                                                                                                                                                                         |
-| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [**SecBuffer**](secbuffer.md) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** contains a value that indicates the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function.<br/> |
+| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** contains a value that indicates the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function.<br/> |
 | <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) was successfully initialized. There is no need for another [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md) call. If the function returns an output token, that is, if the SECBUFFER\_TOKEN in *pOutput* is of nonzero length, that token must be sent to the server.<br/>                                                                                                                               |
 
 
@@ -284,7 +284,7 @@ After a client application receives an authentication certificate from a CA that
 [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 </dt> <dt>
 
-[**SecBuffer**](secbuffer.md)
+[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
 </dt> <dt>
 
 [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)

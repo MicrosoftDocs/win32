@@ -53,11 +53,11 @@ A flag that indicates how these credentials will be used. This parameter can be 
 
 *pvLogonId* \[in, optional\]
 
-A pointer to a [*locally unique identifier*](security.l_gly#-security-locally-unique-identifier-gly) (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be **NULL**.
+A pointer to a [*locally unique identifier*](https://docs.microsoft.com/en-us/windows/win32/secgloss/l-gly#-security-locally-unique-identifier-gly) (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be **NULL**.
 
 *pAuthData* \[in, optional\]
 
-A pointer to a [**CREDSSP\_CRED**](credssp-cred.md) structure that specifies authentication data for both Schannel and Negotiate packages.
+A pointer to a [**CREDSSP\_CRED**](https://docs.microsoft.com/en-us/windows/win32/api/credssp/ns-credssp-_credssp_cred) structure that specifies authentication data for both Schannel and Negotiate packages.
 
 *pGetKeyFn* \[in, optional\]
 
@@ -94,16 +94,16 @@ If the function fails, it returns one of the following error codes.
 
 The **AcquireCredentialsHandle (CredSSP)** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific security package. The function can return the handle to either preexisting credentials or newly created credentials and return it. This handle can be used in subsequent calls to the [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) and [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) functions.
 
-In general, **AcquireCredentialsHandle (CredSSP)** does not provide the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](security.p_gly#-security-privilege-gly) can obtain the credentials of an existing logon session by specifying the [*logon identifier*](security.l_gly#-security-logon-identifier-gly) (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
+In general, **AcquireCredentialsHandle (CredSSP)** does not provide the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](https://docs.microsoft.com/en-us/windows/win32/secgloss/p-gly#-security-privilege-gly) can obtain the credentials of an existing logon session by specifying the [*logon identifier*](https://docs.microsoft.com/en-us/windows/win32/secgloss/l-gly#-security-logon-identifier-gly) (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
 
 A package might call the function in *pGetKeyFn* provided by the RPC run-time transport. If the transport does not support the notion of callback to retrieve credentials, this parameter must be **NULL**.
 
 For kernel mode callers, the following differences must be noted:
 
-- The two string parameters must be [*Unicode*](security.u_gly#-security-unicode-gly) strings.
+- The two string parameters must be [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly#-security-unicode-gly) strings.
 - The buffer values must be allocated in process virtual memory, not from the pool.
 
-When you have finished using the returned credentials, free the memory used by the credentials by calling the [**FreeCredentialsHandle**](freecredentialshandle.md) function.
+When you have finished using the returned credentials, free the memory used by the credentials by calling the [**FreeCredentialsHandle**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecredentialshandle) function.
 
 ## Requirements
 
@@ -121,4 +121,4 @@ When you have finished using the returned credentials, free the memory used by t
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md)
 - [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md)
-- [**FreeCredentialsHandle**](freecredentialshandle.md)
+- [**FreeCredentialsHandle**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecredentialshandle)

@@ -6,7 +6,7 @@ title: 'QueryContextAttributes (NTLM) function'
 
 # QueryContextAttributes (NTLM) function
 
-The **QueryContextAttributes (NTLM)** function enables a transport application to query the NTLM [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain [*attributes*](security.a_gly#-security-attribute-gly) of a [security context](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
+The **QueryContextAttributes (NTLM)** function enables a transport application to query the NTLM [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain [*attributes*](https://docs.microsoft.com/en-us/windows/win32/secgloss/a-gly#-security-attribute-gly) of a [security context](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 
 ## Syntax
 

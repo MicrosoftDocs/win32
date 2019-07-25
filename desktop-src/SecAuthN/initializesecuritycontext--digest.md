@@ -121,7 +121,7 @@ A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **I
 *pOutput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](secbuffer.md) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
 This parameter receives the challenge response that must be sent to the server.
 
@@ -130,7 +130,7 @@ This parameter receives the challenge response that must be sent to the server.
 *pfContextAttr* \[out\]
 </dt> <dd>
 
-A pointer to a variable to receive a set of bit flags that indicate the [*attributes*](security.a_gly#-security-attribute-gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
+A pointer to a variable to receive a set of bit flags that indicate the [*attributes*](https://docs.microsoft.com/en-us/windows/win32/secgloss/a-gly#-security-attribute-gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
 
 Flags used for this parameter are prefixed with ISC\_RET, such as ISC\_RET\_DELEGATE. For a list of valid values, see the *fContextReq* parameter.
 
@@ -272,7 +272,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 </dt> <dt>
 
-[**SecBuffer**](secbuffer.md)
+[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
 </dt> <dt>
 
 [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
