@@ -5757,8 +5757,8 @@ This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneC
 | [**LsaUnregisterPolicyChangeNotification**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification) | Introduced into sspicli.dll in 10.0.10240. |
 | [**MakeSignature**](/previous-versions/windows/embedded/ms926142(v=msdn.10))                       | Introduced into sspicli.dll in 10.0.10240. |
 | [**QueryContextAttributesA**](https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig)               | Introduced into sspicli.dll in 10.0.10240. |
-| [**QueryContextAttributesExA**](../SecAuthN/querycontextattributesex--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
-| [**QueryContextAttributesExW**](../SecAuthN/querycontextattributesex--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
+| [**QueryContextAttributesExA**](../SecAuthN/querycontextattributes--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
+| [**QueryContextAttributesExW**](../SecAuthN/querycontextattributes--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
 | [**QueryCredentialsAttributesA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa)           | Introduced into sspicli.dll in 10.0.10240. |
 | QueryCredentialsAttributesExA                                                                                | Introduced into sspicli.dll in 10.0.10240. |
 | QueryCredentialsAttributesExW                                                                                | Introduced into sspicli.dll in 10.0.10240. |
