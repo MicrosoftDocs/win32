@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 The following are some useful graphing references:
 
--   [**AcceptSecurityContext**](acceptsecuritycontext--general.md)
--   [**AcquireCredentialsHandle**](acquirecredentialshandle--general.md)
+-   [**AcceptSecurityContext**](..\SecAuthN\acceptsecuritycontext--general.md)
+-   [**AcquireCredentialsHandle**](..\SecAuthN\acquirecredentialshandle--general.md)
 -   [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa)
--   [**DecryptMessage**](decryptmessage--general.md)
--   [**EncryptMessage**](encryptmessage--general.md)
+-   [**DecryptMessage**](..\SecAuthN\decryptmessage--general.md)
+-   [**EncryptMessage**](..\SecAuthN\encryptmessage--general.md)
 -   [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)
--   [**InitializeSecurityContext**](initializesecuritycontext--general.md)
+-   [**InitializeSecurityContext**](..\SecAuthN\initializesecuritycontext--general.md)
 -   [Link-Local and Site-Local Addresses](https://docs.microsoft.com/windows/desktop/WinSock/link-local-and-site-local-addresses-2)
 -   [Naming a File](https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file)
 -   [**QueryContextAttributes**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa)

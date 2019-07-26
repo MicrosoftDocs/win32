@@ -6057,7 +6057,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                                                          | Requirements                               |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [**AcquireCredentialsHandleA**](acquirecredentialshandle--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
+| [**AcquireCredentialsHandleA**](..\SecAuthN\acquirecredentialshandle--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
 | AddCredentialsA                                                                                              | Introduced into sspicli.dll in 10.0.10240. |
 | AddCredentialsW                                                                                              | Introduced into sspicli.dll in 10.0.10240. |
 | [**AddSecurityPackageA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-addsecuritypackagea)                   | Introduced into sspicli.dll in 10.0.10240. |
@@ -6073,7 +6073,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**ImpersonateSecurityContext**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext)            | Introduced into sspicli.dll in 10.0.10240. |
 | [**ImportSecurityContextA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta)                | Introduced into sspicli.dll in 10.0.10240. |
 | [**ImportSecurityContextW**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta)                | Introduced into sspicli.dll in 10.0.10240. |
-| [**InitializeSecurityContextA**](initializesecuritycontext--general.md)            | Introduced into sspicli.dll in 10.0.10240. |
+| [**InitializeSecurityContextA**](..\SecAuthN\initializesecuritycontext--general.md)            | Introduced into sspicli.dll in 10.0.10240. |
 | [**InitSecurityInterfaceA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initsecurityinterfacea)                | Introduced into sspicli.dll in 10.0.10240. |
 | [**InitSecurityInterfaceW**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initsecurityinterfacea)                | Introduced into sspicli.dll in 10.0.10240. |
 | [**LogonUserExExW**](https://docs.microsoft.com/windows/desktop/SecAuthN/logonuserexexw)                        | Introduced into sspicli.dll in 10.0.10240. |
@@ -6084,8 +6084,8 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**LsaUnregisterPolicyChangeNotification**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification) | Introduced into sspicli.dll in 10.0.10240. |
 | [**MakeSignature**](/previous-versions/windows/embedded/ms926142(v=msdn.10))                       | Introduced into sspicli.dll in 10.0.10240. |
 | [**QueryContextAttributesA**](https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig)               | Introduced into sspicli.dll in 10.0.10240. |
-| [**QueryContextAttributesExA**](querycontextattributesex--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
-| [**QueryContextAttributesExW**](querycontextattributesex--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
+| [**QueryContextAttributesExA**](..\SecAuthN\querycontextattributesex--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
+| [**QueryContextAttributesExW**](..\SecAuthN\querycontextattributesex--general.md)             | Introduced into sspicli.dll in 10.0.10240. |
 | [**QueryCredentialsAttributesA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa)           | Introduced into sspicli.dll in 10.0.10240. |
 | QueryCredentialsAttributesExA                                                                                | Introduced into sspicli.dll in 10.0.10240. |
 | QueryCredentialsAttributesExW                                                                                | Introduced into sspicli.dll in 10.0.10240. |
