@@ -33,7 +33,7 @@ The **KnownHeader** member of [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](/windows/desk
 
     WWW-Authenticate: Digest realm="testrealm@host.com"
 
-If the scheme in the **pRawValue** member of [**HTTP\_KNOWN\_HEADER**](/windows/desktop/api/Http/ns-http-_http_known_header) is Negotiate or NTLM, the authentication scheme name is sufficient. If the specified scheme is Basic, the realm name is appended to the scheme name; the application doesn't need to supply the realm name in **pRawValue**. If the specified scheme is Digest, HTTP calls [**AcceptSecurityContext**](..\SecAuthN\acceptsecuritycontext--general.md) to generate the challenge that is appended to the scheme name. The parameters for Basic (realm) and Digest (realm and domain name) scheme are obtained from the corresponding configuration group authentication information.
+If the scheme in the **pRawValue** member of [**HTTP\_KNOWN\_HEADER**](/windows/desktop/api/Http/ns-http-_http_known_header) is Negotiate or NTLM, the authentication scheme name is sufficient. If the specified scheme is Basic, the realm name is appended to the scheme name; the application doesn't need to supply the realm name in **pRawValue**. If the specified scheme is Digest, HTTP calls [**AcceptSecurityContext**](../SecAuthN/acceptsecuritycontext--general.md) to generate the challenge that is appended to the scheme name. The parameters for Basic (realm) and Digest (realm and domain name) scheme are obtained from the corresponding configuration group authentication information.
 
 When the application sends multiple authentication challenges to the client in Unknown request headers, the HTTP Server API sends these to the client without intervention. However this usage is not recommended.
 

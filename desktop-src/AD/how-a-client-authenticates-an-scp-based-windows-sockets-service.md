@@ -58,8 +58,8 @@ This code example consists of two routines: **DoAuthentication** and **GenClient
 The **GenClientContext** routine interacts with the SSPI package to generate the authentication data to send to the service and process the data received from the service. The key components of the authentication data provided by the client include:
 
 -   The service principal name which identifies the credentials that the service must authenticate.
--   The client's credentials. The [**AcquireCredentialsHandle**](..\SecAuthN\acquirecredentialshandle--general.md) function of the security package extracts these credentials from the client's security context established at logon.
--   To request mutual authentication, the client must specify the ISC\_REQ\_MUTUAL\_AUTH flag when it calls the [**InitializeSecurityContext**](..\SecAuthN\initializesecuritycontext--general.md) function during the **GenClientContext** routine.
+-   The client's credentials. The [**AcquireCredentialsHandle**](../SecAuthN/acquirecredentialshandle--general.md) function of the security package extracts these credentials from the client's security context established at logon.
+-   To request mutual authentication, the client must specify the ISC\_REQ\_MUTUAL\_AUTH flag when it calls the [**InitializeSecurityContext**](../SecAuthN/initializesecuritycontext--general.md) function during the **GenClientContext** routine.
 
 
 ```C++

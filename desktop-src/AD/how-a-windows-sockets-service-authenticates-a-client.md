@@ -17,8 +17,8 @@ The **DoAuthentication** routine uses the socket handle to receive the first aut
 
 **GenServerContext** calls the following functions from an SSPI security package:
 
--   [**AcquireCredentialsHandle**](..\SecAuthN\acquirecredentialshandle--general.md) extracts the service credentials from the service security context that was established when the service started.
--   [**AcceptSecurityContext**](..\SecAuthN\acceptsecuritycontext--general.md) attempts to perform the mutual authentication using the service credentials and the authentication data received from the client. To request mutual authentication, the **AcceptSecurityContext** call must specify the ASC\_REQ\_MUTUAL\_AUTH flag.
+-   [**AcquireCredentialsHandle**](../SecAuthN/acquirecredentialshandle--general.md) extracts the service credentials from the service security context that was established when the service started.
+-   [**AcceptSecurityContext**](../SecAuthN/acceptsecuritycontext--general.md) attempts to perform the mutual authentication using the service credentials and the authentication data received from the client. To request mutual authentication, the **AcceptSecurityContext** call must specify the ASC\_REQ\_MUTUAL\_AUTH flag.
 -   [**CompleteAuthToken**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken) is called, if necessary, to complete the authentication operation.
 
 The following code example uses the negotiate package from the Secur32.dll library of security packages.
