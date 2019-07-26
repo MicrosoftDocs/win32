@@ -104,7 +104,7 @@ This parameter is not used with Schannel. Set it to zero.
 *pInput* \[in, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
 
 On calls to this function after the initial call, there must be two buffers. The first has type **SECBUFFER\_TOKEN** and contains the token received from the server. The second buffer has type **SECBUFFER\_EMPTY**; set both the **pvBuffer** and **cbBuffer** members to zero.
 
@@ -129,9 +129,9 @@ On calls after the first call, pass the handle returned here as the *phContext* 
 *pOutput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
-If the ISC\_REQ\_ALLOCATE\_MEMORY flag is specified, the Schannel SSP will allocate memory for the buffer and put the appropriate information in the [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea). In addition, the caller must pass in a buffer of type **SECBUFFER\_ALERT**. On output, if an alert is generated, this buffer contains information about that alert, and the function fails.
+If the ISC\_REQ\_ALLOCATE\_MEMORY flag is specified, the Schannel SSP will allocate memory for the buffer and put the appropriate information in the [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc). In addition, the caller must pass in a buffer of type **SECBUFFER\_ALERT**. On output, if an alert is generated, this buffer contains information about that alert, and the function fails.
 
 </dd> <dt>
 
@@ -242,7 +242,7 @@ If **InitializeSecurityContext (Schannel)** returns success on the first (or onl
 
 The client may call **InitializeSecurityContext (Schannel)** again after it has completed successfully. This indicates to the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) that a reauthentication is wanted.
 
-Kernel mode callers have the following differences: the target name is a [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](base.virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
+Kernel mode callers have the following differences: the target name is a [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
 
 If the function returns SEC\_I\_INCOMPLETE\_CREDENTIALS, check that you specified a valid and trusted certificate in your credentials. The certificate is specified when calling the [**AcquireCredentialsHandle (Schannel)**](acquirecredentialshandle--schannel.md) function. The certificate must be a client authentication certificate issued by a certification authority (CA) trusted by the server. To obtain a list of the CAs trusted by the server, call the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) function and specify the SECPKG\_ATTR\_ISSUER\_LIST\_EX attribute.
 
@@ -287,7 +287,7 @@ After a client application receives an authentication certificate from a CA that
 [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
 </dt> <dt>
 
-[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
+[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)
 </dt> </dl>
 
  

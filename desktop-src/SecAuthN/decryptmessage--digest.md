@@ -34,7 +34,7 @@ A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/wi
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 When using the Digest SSP, on input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these must be of type SECBUFFER\_DATA or SECBUFFER\_STREAM, and it must contain the encrypted message.
 
@@ -90,4 +90,4 @@ Sometimes an application will read data from the remote party, attempt to decryp
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (Digest)**](encryptmessage--digest.md)
 - [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
-- [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
+- [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

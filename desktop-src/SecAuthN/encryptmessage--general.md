@@ -51,7 +51,7 @@ KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/><
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
@@ -95,7 +95,7 @@ If the transport application created the [*security context*](https://docs.micro
 
 When you use the Digest SSP, get the size of the output buffer by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkgcontext_sizes) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
 
-When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure with the following buffers.
+When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure with the following buffers.
 
 > [!Note]  
 > These buffers must be supplied in the order shown.
@@ -130,4 +130,4 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 - [**InitializeSecurityContext (General)**](initializesecuritycontext--general.md)
 - [**QueryContextAttributes (General)**](querycontextattributes--general.md)
 - [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
-- [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
+- [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

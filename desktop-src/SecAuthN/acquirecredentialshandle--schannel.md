@@ -55,7 +55,7 @@ When using the Schannel SSP, this parameter is not used and should be set to **N
 *pszPackage* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) function. After a context is established, [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) in use.
+A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) function. After a context is established, [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) in use.
 
 When using the Schannel SSP, set this parameter to UNISP\_NAME.
 
@@ -93,7 +93,7 @@ When using the Schannel SSP, this parameter is not used and should be set to **N
 
 A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_sec_winnt_auth_identity_a) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](https://docs.microsoft.com/en-us/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo).
 
-When using the Schannel SSP, specify an [**SCHANNEL\_CRED**](schannel-cred.md) structure that indicates the protocol to use and the settings for various customizable channel features.
+When using the Schannel SSP, specify an [**SCHANNEL\_CRED**](https://docs.microsoft.com/en-us/windows/win32/api/schannel/ns-schannel-_schannel_cred) structure that indicates the protocol to use and the settings for various customizable channel features.
 
 </dd> <dt>
 

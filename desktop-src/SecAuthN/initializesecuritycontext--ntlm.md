@@ -100,7 +100,7 @@ The data representation, such as byte ordering, on the target. This parameter ca
 *pInput* \[in, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be **NULL** on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
 
 </dd> <dt>
 
@@ -121,7 +121,7 @@ A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **I
 *pOutput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
 </dd> <dt>
 
@@ -229,7 +229,7 @@ If **InitializeSecurityContext (NTLM)** returns success on the first (or only) c
 
 The client may call **InitializeSecurityContext (NTLM)** again after it has completed successfully. This indicates to the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) that a reauthentication is wanted.
 
-Kernel mode callers have the following differences: the target name is a [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](base.virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
+Kernel mode callers have the following differences: the target name is a [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
 
 ## Requirements
 
@@ -270,7 +270,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
 </dt> <dt>
 
-[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
+[**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)
 </dt> </dl>
 
  

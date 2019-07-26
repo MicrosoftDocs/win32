@@ -40,7 +40,7 @@ A pointer to a null-terminated string that specifies the name of the principal w
 
 *pszPackage* \[in\]
 
-A pointer to a null-terminated string that specifies the name of the security package with which these credentials will be used. This is a security package name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](enumeratesecuritypackages.md) function. After a context is established, [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) can be called with *ulAttribute* set to **SECPKG\_ATTR\_PACKAGE\_INFO** to return information on the security package in use.
+A pointer to a null-terminated string that specifies the name of the security package with which these credentials will be used. This is a security package name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-enumeratesecuritypackagesa) function. After a context is established, [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) can be called with *ulAttribute* set to **SECPKG\_ATTR\_PACKAGE\_INFO** to return information on the security package in use.
 
 *fCredentialUse* \[in\]
 

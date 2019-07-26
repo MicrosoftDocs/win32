@@ -44,7 +44,7 @@ This parameter can be the following flag.
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
@@ -78,7 +78,7 @@ The **EncryptMessage (Schannel)** function encrypts a message based on the messa
 
 If the transport application created the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) incorporates the sequence number passed down from the transport application.
 
-When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea) structure with the following buffers.
+When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure with the following buffers.
 
 > [!Note]  
 > These buffers must be supplied in the order shown.
@@ -114,4 +114,4 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 - [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md)
 - [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md)
 - [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
-- [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-deletesecuritypackagea)
+- [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

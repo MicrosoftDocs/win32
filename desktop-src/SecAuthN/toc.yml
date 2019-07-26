@@ -1906,9 +1906,9 @@
       - name: "LSA_TOKEN_INFORMATION_NULL"
         href: /windows/desktop/api/Ntsecpkg/ns-ntsecpkg-_lsa_token_information_null
       - name: "LSA_TOKEN_INFORMATION_V1"
-        href: lsa-token-information-v1.md
-      - name: "LSA_TOKEN_INFORMATION_V2"
         href: /windows/desktop/api/Ntsecpkg/ns-ntsecpkg-_lsa_token_information_v1
+      - name: "LSA_TOKEN_INFORMATION_V2"
+        href: /windows/desktop/api/Ntsecpkg/ns-ntsecpkg-_lsa_token_information_v2
       - name: "LSA_TOKEN_INFORMATION_V3"
         href: /windows/desktop/api/Ntsecpkg/ns-ntsecpkg-_lsa_token_information_v3
       - name: "MSV1_0_CHANGEPASSWORD_REQUEST"

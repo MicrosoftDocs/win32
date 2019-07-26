@@ -64,7 +64,7 @@ When using the Schannel SSP, this parameter is not used and should be set to **N
 *pszPackage* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](secpkginfo.md) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) function. After a context is established, [**QueryContextAttributes (General)**](querycontextattributes--general.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) in use.
+A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) function. After a context is established, [**QueryContextAttributes (General)**](querycontextattributes--general.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) in use.
 
 When using the Digest SSP, set this parameter to WDIGEST\_SP\_NAME.
 
@@ -109,7 +109,7 @@ A pointer to package-specific data. This parameter can be **NULL**, which indica
 
 When using the Digest SSP, this parameter is a pointer to a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_sec_winnt_auth_identity_a) structure that contains authentication information to use to locate the credentials.
 
-When using the Schannel SSP, specify an [**SCHANNEL\_CRED**](schannel-cred.md) structure that indicates the protocol to use and the settings for various customizable channel features.
+When using the Schannel SSP, specify an [**SCHANNEL\_CRED**](https://docs.microsoft.com/en-us/windows/win32/api/schannel/ns-schannel-_schannel_cred) structure that indicates the protocol to use and the settings for various customizable channel features.
 
 When using the NTLM or Negotiate packages, the maximum character lengths for user name, password, and domain are 256, 256, and 15, respectively.
 
