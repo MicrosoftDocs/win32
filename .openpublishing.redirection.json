@@ -61,6 +61,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/accessibility/index.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/AD/index.md",
       "redirect_url": "/windows/desktop/AD/active-directory-domain-services",
       "redirect_document_id": false
