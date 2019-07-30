@@ -66,6 +66,46 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/accessibility/accessibility.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-appdev.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility-appdev",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-atdev.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility-atdev",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-legacy.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility-legacy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-reference.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-testwithuia.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility-testwithuia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-uiframeworkdev.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility-uiframeworkdev",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-whatsnew.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility-whatsnew",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/AD/index.md",
       "redirect_url": "/windows/desktop/AD/active-directory-domain-services",
       "redirect_document_id": false
