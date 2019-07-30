@@ -25,6 +25,7 @@ The [Delivery Optimization (DO) interfaces](do-interfaces.md) use the following 
 | [**DeliveryOptimizationFileProperty**](deliveryoptimizationfileproperty.md) | Specifies the ID of an optional property for the DO file. |
 | [**DODownloadCostPolicy**](/windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadcostpolicy) | Specifies the ID of cost policies options associated with the **DODownloadProperty_CostPolicy** property. |
 | [**DODownloadProperty**](/windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty) | Specifies the ID of properties for the DO download operation. |
+| [**DODownloadPropertyEx**](/windows/win32/delivery_optimization/deliveryoptimizationtypesinternal/ne-deliveryoptimizationtypesinternal-dodownloadpropertyex) | Specifies the ID of extended properties for the DO download operation. |
 | [**DODownloadState**](/windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadstate) | Specifies the ID of the current download state, which is part of the **DO_DOWNLOAD_STATUS** structure. |
 | [**DownloadMode**](downloadmode.md) | Defines the different download modes that Delivery Optimization uses.  |
 | [**SwarmStatus**](swarmstatus.md) | Defines the status of a file within the delivery optimization client. |

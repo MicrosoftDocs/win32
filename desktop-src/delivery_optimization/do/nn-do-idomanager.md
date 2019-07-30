@@ -27,8 +27,8 @@ The **IDOManager** interface has these methods.
 
 | Method | Description |
 | ---- |:---- |
-| [ID3D12Device5::CheckDriverMatchingIdentifier](/windows/win32/delivery_optimization/do/nf-do-idomanager-createdownload) | Creates a new download. |
-| [ID3D12Device5::EnumDownloads](/windows/win32/delivery_optimization/do/nf-do-idomanager-enumdownloads) | Retrieves an interface pointer to an enumerator object that is used to enumerate existing downloads. |
+| [IDOManager::CreateDownload](/windows/win32/delivery_optimization/do/nf-do-idomanager-createdownload) | Creates a new download. |
+| [IDOManager::EnumDownloads](/windows/win32/delivery_optimization/do/nf-do-idomanager-enumdownloads) | Retrieves an interface pointer to an enumerator object that is used to enumerate existing downloads. |
 
 ## Requirements
 

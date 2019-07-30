@@ -27,6 +27,8 @@
         href: /windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadcostpolicy
       - name: "DODownloadProperty"
         href: /windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty
+      - name: "DODownloadPropertyEx"
+        href: /windows/win32/delivery_optimization/deliveryoptimizationtypesinternal/ne-deliveryoptimizationtypesinternal-dodownloadpropertyex
       - name: "DODownloadState"
         href: /windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadstate
       - name: "DownloadMode"
@@ -219,6 +221,13 @@
           href: /windows/win32/delivery_optimization/do/nf-do-idodownload-setproperty
         - name: "Start method"
           href: /windows/win32/delivery_optimization/do/nf-do-idodownload-start
+      - name: "IDODownloadInternal"
+        href: /windows/win32/delivery_optimization/deliveryoptimizationinternal/nn-deliveryoptimizationinternal-idodownloadinternal
+        items: 
+        - name: "GetPropertyEx method"
+          href: /windows/win32/delivery_optimization/deliveryoptimizationinternal/nf-deliveryoptimizationinternal-idodownloadinternal-getpropertyex
+        - name: "SetPropertyEx method"
+          href: /windows/win32/delivery_optimization/deliveryoptimizationinternal/nf-deliveryoptimizationinternal-idodownloadinternal-setpropertyex
       - name: "IDODownloadStatusCallback"
         href: /windows/win32/delivery_optimization/do/nn-do-idodownloadstatuscallback
         items: 
