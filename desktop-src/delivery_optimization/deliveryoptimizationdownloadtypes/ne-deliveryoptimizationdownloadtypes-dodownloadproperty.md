@@ -43,13 +43,11 @@ typedef enum _DODownloadProperty
   DODownloadProperty_StreamInterface,
   DODownloadProperty_SecurityContext,
   DODownloadProperty_NetworkToken
-
   DODownloadProperty_CorrelationVector,
   DODownloadProperty_DecryptionInfo,
   DODownloadProperty_IntegrityCheckInfo,
   DODownloadProperty_IntegrityCheckMandatory,
   DODownloadProperty_TotalSizeBytes
-
 } DODownloadProperty;
 ```
 
@@ -72,7 +70,7 @@ typedef enum _DODownloadProperty
 | DODownloadProperty_BlockingMode | Optional. Use this property to set or get the current download blocking mode. VARIANT_TRUE value will cause **IDODownload::Start** to block until download is complete or error has occurred. The default is nonblocking mode. VARIANT type is VT_BOOL. |
 | DODownloadProperty_CallbackInterface | Optional. Use this property to set or get the pointer to **IDODownloadStatusCallback** interface used for download callbacks. VARIANT type is VT_UNKNOWN. |
 | DODownloadProperty_StreamInterface | Optional. Use this property to set or get the pointer to IStream interface used for stream download type. VARIANT type is VT_UNKNOWN. |
-| DODownloadProperty_SecurityContext | Optional write-only. Use this property to set the certificate context to be used during HTTP request operations. The value must consist of serialized bytes of CERT_CONTEXT. VARIANT type is (VT_ARRAY | VT_UI1). |
+| DODownloadProperty_SecurityContext | Optional write-only. Use this property to set the certificate context to be used during HTTP request operations. The value must consist of serialized bytes of CERT_CONTEXT. VARIANT type is (VT_ARRAY \| VT_UI1). |
 | DODownloadProperty_NetworkToken | Optional write-only. Use this property to set the network token to be used during HTTP operations. VARIANT_TRUE value will cause DO to capture the caller's identity token and VARIANT_FALSE will clear the existing token. The default is the token of the logged-on user. VARIANT type is VT_BOOL. |
 | DODownloadProperty_CorrelationVector | Optional. Sets a specific correlation vector for telemetry purposes. VARIANT type is VT_BSTR. |
 | DODownloadProperty_DecryptionInfo | Optional write-only. Sets decryption information in the form of a JSON string. VARIANT type is VT_BSTR. |

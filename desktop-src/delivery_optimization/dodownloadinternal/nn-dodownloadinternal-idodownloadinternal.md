@@ -30,8 +30,8 @@ The **IDODownloadInternal** interface has these methods.
 
 | Method | Description |
 | ---- |:---- |
-| [IDODownloadInternal::GetPropertyEx](/windows/win32/delivery_optimization/deliveryoptimizationinternal/nf-deliveryoptimizationinternal-idodownloadinternal-getpropertyex) | Retrieves a pointer to a **VARIANT** that contains a specific extended download property value. |
-| [IDODownloadInternal::SetPropertyEx](/windows/win32/delivery_optimization/deliveryoptimizationinternal/nf-deliveryoptimizationinternal-idodownloadinternal-setpropertyex) | Sets an extended download property. The method accepts a pointer to a **VARIANT** that contains a specific property value to apply to the download. |
+| [IDODownloadInternal::GetPropertyEx](/windows/win32/delivery_optimization/dodownloadinternal/nf-dodownloadinternal-idodownloadinternal-getpropertyex) | Retrieves a pointer to a **VARIANT** that contains a specific extended download property value. |
+| [IDODownloadInternal::SetPropertyEx](/windows/win32/delivery_optimization/dodownloadinternal/nf-dodownloadinternal-idodownloadinternal-setpropertyex) | Sets an extended download property. The method accepts a pointer to a **VARIANT** that contains a specific property value to apply to the download. |
 
 ## Requirements
 
@@ -39,4 +39,4 @@ The **IDODownloadInternal** interface has these methods.
 | ---- |:---- |
 | **Minimum supported client** | Windows 10, version 1809 \[Win32 applications only\] |
 | **Minimum supported server** | Windows Server, version 1809 \[Win32 applications only\] |
-| **Header** | DeliveryOptimizationInternal.h |
+| **Header** | DODownloadInternal.h |

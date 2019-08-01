@@ -58,4 +58,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 | ---- |:---- |
 | **Minimum supported client** | Windows 10, version 1809 \[Win32 applications only\] |
 | **Minimum supported server** | Windows Server, version 1809 \[Win32 applications only\] |
-| **Header** | DeliveryOptimizationInternal.h |
+| **Header** | DODownloadInternal.h |
