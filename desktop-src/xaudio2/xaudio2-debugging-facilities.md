@@ -16,7 +16,7 @@ You can set the level of debugging information shown by XAudio2 at any time by f
 
 ## Debug Support
 
-The debugging facilities are always availlabe for XAUDIO2 in Windows 8.
+The debugging facilities are always available for XAUDIO2 in Windows 8.
 
 For the DirectX SDK versions of XAUDIO2, you must use **XAUDIO2\_DEBUG\_ENGINE** when creating the XAUDIO2 object with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) and the system must have the DirectX SDK Developer Runtime installed for debugging to be supported.
 
