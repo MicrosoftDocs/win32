@@ -273,7 +273,7 @@
       - name: "QueryVirtualMemoryInformation"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-queryvirtualmemoryinformation
       - name: "ReadProcessMemory"
-        href: /windows/desktop/api/MemoryApi/nf-memoryapi-writeprocessmemory.md
+        href: /windows/desktop/api/MemoryApi/nf-memoryapi-readprocessmemory.md
       - name: "ReclaimVirtualMemory"
         href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory
       - name: "RegisterBadMemoryNotification"
