@@ -273,7 +273,7 @@
       - name: "QueryVirtualMemoryInformation"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-queryvirtualmemoryinformation
       - name: "ReadProcessMemory"
-        href: /windows/desktop/api/MemoryApi/nf-memoryapi-readprocessmemory.md
+        href: /windows/desktop/api/MemoryApi/nf-memoryapi-readprocessmemory
       - name: "ReclaimVirtualMemory"
         href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory
       - name: "RegisterBadMemoryNotification"
@@ -331,7 +331,7 @@
       - name: "VirtualUnlock"
         href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock
       - name: "WriteProcessMemory"
-        href: /windows/desktop/api/MemoryApi/nf-memoryapi-writeprocessmemory.md
+        href: /windows/desktop/api/MemoryApi/nf-memoryapi-writeprocessmemory
       - name: "ZeroMemory"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366920(v=vs.85)
       - name: "AtlThunk_AllocateData"
