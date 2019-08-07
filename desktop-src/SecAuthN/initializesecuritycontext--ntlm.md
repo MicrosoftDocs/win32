@@ -1,7 +1,7 @@
-﻿---
-Description: 'Initiates the client side, outbound [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a credential handle by using the NTLM [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).'
-ms.assetid: 'a96b04f6-504c-4fd1-b62e-c08ba2b616e5'
-title: 'InitializeSecurityContext (NTLM) function'
+---
+Description: Initiates the client side, outbound [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a credential handle by using the NTLM [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
+ms.assetid: a96b04f6-504c-4fd1-b62e-c08ba2b616e5
+title: InitializeSecurityContext (NTLM) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -121,7 +121,7 @@ A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **I
 *pOutput* \[in, out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structure that receives the output data. If a buffer was typed as SEC\_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC\_REQ\_ALLOCATE\_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
 </dd> <dt>
 
@@ -267,7 +267,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 </dt> <dt>
 
-[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 </dt> <dt>
 
 [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

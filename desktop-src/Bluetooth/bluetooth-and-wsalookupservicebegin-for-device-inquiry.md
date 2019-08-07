@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 This topic describes how to use the [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function to perform an inquiry of both visible and ghosted devices. For more information, see [Discovering Bluetooth Devices and Services](discovering-bluetooth-devices-and-services.md).
 
-The [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function uses a [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure in its first parameter, *lpqsRestrictions*, to define search criteria. Bluetooth provides specific guidelines for use of the **WSALookupServiceBegin** function and **WSAQUERYSET**.
+The [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function uses a [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure in its first parameter, *lpqsRestrictions*, to define search criteria. Bluetooth provides specific guidelines for use of the **WSALookupServiceBegin** function and **WSAQUERYSET**.
 
-The following table lists restrictions that apply to the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure passed to the *lpqsRestrictions* parameter when querying for devices.
+The following table lists restrictions that apply to the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure passed to the *lpqsRestrictions* parameter when querying for devices.
 
 
 
@@ -32,7 +32,7 @@ The following table lists restrictions that apply to the [**WSAQUERYSET**](https
 <tbody>
 <tr class="odd">
 <td><strong>dwSize</strong></td>
-<td>Set to <strong>sizeof</strong>(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw"><strong>WSAQUERYSET</strong></a>).</td>
+<td>Set to <strong>sizeof</strong>(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>).</td>
 </tr>
 <tr class="even">
 <td><strong>lpBlob</strong></td>
@@ -48,7 +48,7 @@ The following table lists restrictions that apply to the [**WSAQUERYSET**](https
 </tr>
 <tr class="even">
 <td>Other members</td>
-<td>Other members of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure are ignored.</td>
+<td>Other members of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure are ignored.</td>
 </tr>
 </tbody>
 </table>
@@ -63,10 +63,10 @@ The flags listed in the following table are used in the *dwControlFlags* paramet
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LUP\_CONTAINERS    | Specifies that the query purpose is to obtain a list of Bluetooth devices and not a list of services. This flag must be set.                                                                                                                                                                                                                                                                                       |
 | LUP\_FLUSHCACHE    | Triggers an inquiry of local devices or causes cached results from previous queries to be returned.                                                                                                                                                                                                                                                                                                                |
-| LUP\_RETURN\_TYPE  | Return the Bluetooth COD (class of device bits) directly in the **lpServiceClassId** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure. The COD is mapped to the **Data1** member of the GUID.                                                                                                                                                                                                      |
+| LUP\_RETURN\_TYPE  | Return the Bluetooth COD (class of device bits) directly in the **lpServiceClassId** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure. The COD is mapped to the **Data1** member of the GUID.                                                                                                                                                                                                      |
 | LUP\_RES\_SERVICE  | Return information for the local Bluetooth address. This flag has an effect only if **LUP\_RETURN\_ADDR** is also specified.                                                                                                                                                                                                                                                                                       |
-| LUP\_RETURN\_NAME  | Return the display name of the device in the **lpszServiceInstanceName** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure for each call to the [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) function. This flag must also be specified to retrieve the **name** member of the [**BTH\_DEVICE\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-_bth_device_info) structure when specifying the **LUP\_RETURN\_BLOB** flag. |
-| LUP\_RETURN\_ADDR  | Return a [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure that contains the 48-bit address of the peer in the **lpcsaBuffer** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure for each call to the [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) function. Other members in the **SOCKADDR\_BTH** structure will be empty.                                                            |
+| LUP\_RETURN\_NAME  | Return the display name of the device in the **lpszServiceInstanceName** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure for each call to the [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) function. This flag must also be specified to retrieve the **name** member of the [**BTH\_DEVICE\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-_bth_device_info) structure when specifying the **LUP\_RETURN\_BLOB** flag. |
+| LUP\_RETURN\_ADDR  | Return a [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure that contains the 48-bit address of the peer in the **lpcsaBuffer** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure for each call to the [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) function. Other members in the **SOCKADDR\_BTH** structure will be empty.                                                            |
 | LUP\_RETURN\_BLOB  | Return the [**BTH\_DEVICE\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-_bth_device_info) structure on each subsequent call to [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta).                                                                                                                                                                                                                                                           |
 | LUP\_FLUSHPREVIOUS | Skip the next available device, and return the device that follows it.                                                                                                                                                                                                                                                                                                                                             |
 
@@ -108,7 +108,7 @@ The flags listed in the following table are used in the *dwControlFlags* paramet
 [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth)
 </dt> <dt>
 
-[**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw)
+[**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)
 </dt> <dt>
 
 [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)

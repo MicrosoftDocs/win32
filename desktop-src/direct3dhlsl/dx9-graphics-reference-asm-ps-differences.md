@@ -4,7 +4,7 @@ description: Pixel Shader Differences
 ms.assetid: 11aefb26-eb82-486c-81ff-7c0cfbab1b7a
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -70,7 +70,7 @@ New registers:
 
 ## ps\_2\_x Features
 
-New features (See [**D3DPSHADERCAPS2\_0**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0).):
+New features (See [**D3DPSHADERCAPS2\_0**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0).):
 
 -   Dynamic flow control
 -   Static flow control

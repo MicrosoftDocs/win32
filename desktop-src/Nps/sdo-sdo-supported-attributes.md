@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
  
 
-An NPS Server Data Object has a [**Profiles**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties) property which provides access to a collection of attributes. The supported attributes are as follows.
+An NPS Server Data Object has a [**Profiles**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-profileproperties) property which provides access to a collection of attributes. The supported attributes are as follows.
 
 -   [Acct-Provider-Name](https://docs.microsoft.com/windows/desktop/Nps/sdo-acct-provider-name)
 -   [Acct-Provider-Type](https://docs.microsoft.com/windows/desktop/Nps/sdo-acct-provider-type)

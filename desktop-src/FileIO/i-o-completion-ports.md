@@ -54,7 +54,7 @@ The system also allows a thread waiting in [**GetQueuedCompletionStatus**](https
 
 ## Supported I/O Functions
 
-The following functions can be used to start I/O operations that complete by using I/O completion ports. You must pass the function an instance of the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure and a file handle previously associated with an I/O completion port (by a call to [**CreateIoCompletionPort**](createiocompletionport.md)) to enable the I/O completion port mechanism:
+The following functions can be used to start I/O operations that complete by using I/O completion ports. You must pass the function an instance of the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure and a file handle previously associated with an I/O completion port (by a call to [**CreateIoCompletionPort**](createiocompletionport.md)) to enable the I/O completion port mechanism:
 
 -   [**ConnectNamedPipe**](https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)
 -   [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)

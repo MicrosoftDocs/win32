@@ -27,9 +27,9 @@ The following list identifies links to topics about the Windows Sockets Function
 
 The following list identifies links to topics about the Windows Sockets Structures:
 
--   [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob)
--   [**WSACOMPLETION**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsacompletion)
--   [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw)
+-   [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob)
+-   [**WSACOMPLETION**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsacompletion)
+-   [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)
 
  
 

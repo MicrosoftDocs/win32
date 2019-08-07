@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # CryptoAPI 2.0 Private Keys
 
-Schannel credentials are represented internally as [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) structures. Schannel locates the [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) associated with a particular certificate context using the certificate's CERT\_KEY\_PROV\_INFO\_PROP\_ID property. Using this property, Schannel accesses the *private key* by calling the [**CryptAcquireContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta) function. For additional details, see [Public/Private Key Pairs](https://docs.microsoft.com/windows/desktop/SecCrypto/public-private-key-pairs).
+Schannel credentials are represented internally as [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structures. Schannel locates the [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) associated with a particular certificate context using the certificate's CERT\_KEY\_PROV\_INFO\_PROP\_ID property. Using this property, Schannel accesses the *private key* by calling the [**CryptAcquireContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta) function. For additional details, see [Public/Private Key Pairs](https://docs.microsoft.com/windows/desktop/SecCrypto/public-private-key-pairs).
 
 Every Schannel credential contains a reference to one or more private keys, each associated with a particular certificate. The [*private keys*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) are handled quite differently depending on whether the credential is for a client or a server.
 

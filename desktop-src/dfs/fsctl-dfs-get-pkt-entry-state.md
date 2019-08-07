@@ -1,4 +1,4 @@
-﻿---
+---
 title: FSCTL_DFS_GET_PKT_ENTRY_STATE control code
 Description: The FSCTL_DFS_GET_PKT_ENTRY_STATE control code can get the same information as the NetDfsGetClientInfo function but can provide better performance in some configurations with high latencies to the DFS servers.
 ms.assetid: d4eec104-128b-43b5-9fae-08ab0b977dec
@@ -98,7 +98,7 @@ A pointer to an [**OVERLAPPED**](base.overlapped_str) structure.
 
 If *hDevice* was opened without specifying **FILE_FLAG_OVERLAPPED**, *lpOverlapped* is ignored.
 
-If *hDevice* was opened with the **FILE_FLAG_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://docs.microsoft.com/en-us/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
+If *hDevice* was opened with the **FILE_FLAG_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://docs.microsoft.com/en-us/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
 
 For overlapped operations, [**DeviceIoControl**](base.deviceiocontrol) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
 

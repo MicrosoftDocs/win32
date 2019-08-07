@@ -5,10 +5,10 @@ ms.tgt_platform: multiple
 title: Win32_DiskPartition class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_DiskPartition
 - Win32_DiskPartition.AdditionalAvailability
 - Win32_DiskPartition.Availability
@@ -50,9 +50,9 @@ api_name:
 - Win32_DiskPartition.SystemCreationClassName
 - Win32_DiskPartition.SystemName
 - Win32_DiskPartition.Type
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -1335,7 +1335,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**PARTITION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information)\|RewritePartition")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**PARTITION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information)\|RewritePartition")
 </dt> </dl>
 
 If **True**, the partition information has changed. When you change a partition (with [**IOCTL\_DISK\_SET\_DRIVE\_LAYOUT**](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout)), the system uses this property to determine which partitions have changed and need their information rewritten. If **TRUE**, the partition must be rewritten.

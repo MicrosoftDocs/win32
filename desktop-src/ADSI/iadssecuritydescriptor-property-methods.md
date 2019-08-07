@@ -254,7 +254,7 @@ HRESULT put_OwnerDefaulted(
 **Revision**
 </dt> <dd> <dl>
 
-Revision level of the security descriptor. This value is taken from the Win32 [**ACL\_REVISION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl_revision_information) structure. All ACEs in an ACL must be at the same revision level.
+Revision level of the security descriptor. This value is taken from the Win32 [**ACL\_REVISION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_revision_information) structure. All ACEs in an ACL must be at the same revision level.
 
 <dt>
 

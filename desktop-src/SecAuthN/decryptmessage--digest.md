@@ -1,7 +1,7 @@
-﻿---
-Description: 'Decrypts a message by using Digest.'
-ms.assetid: '46d45f59-33fa-434a-b329-20b6257c9a19'
-title: 'DecryptMessage (Digest) function'
+---
+Description: Decrypts a message by using Digest.
+ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
+title: DecryptMessage (Digest) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -34,9 +34,9 @@ A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/wi
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
-When using the Digest SSP, on input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these must be of type SECBUFFER\_DATA or SECBUFFER\_STREAM, and it must contain the encrypted message.
+When using the Digest SSP, on input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these must be of type SECBUFFER\_DATA or SECBUFFER\_STREAM, and it must contain the encrypted message.
 
 *MessageSeqNo* \[in\]
 
@@ -89,5 +89,5 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (Digest)**](encryptmessage--digest.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

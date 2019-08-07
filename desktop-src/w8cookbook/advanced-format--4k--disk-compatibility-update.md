@@ -47,7 +47,7 @@ One of the problems of introducing this change in the media format is the potent
 
 <dl> **Logical sector:** The unit that is used for logical block addressing for the media. We can also think of it as the smallest unit of write that the storage can accept. This is the  emulation.   
 **Physical sector:** The unit for which read and write operations to the device are completed in a single operation. This is the unit of atomic write.  
-</dl> Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL\_STORAGE\_QUERY\_PROPERTY</a> control code, with the relevant info contained in the BytesPerPhysicalSector field in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_access_alignment_descriptor">STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR</a> structure. This is discussed in more detail later in the article.
+</dl> Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL\_STORAGE\_QUERY\_PROPERTY</a> control code, with the relevant info contained in the BytesPerPhysicalSector field in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR</a> structure. This is discussed in more detail later in the article.
 
 **Initial types of large sector media**
 
@@ -163,7 +163,7 @@ typedef struct _FILE_FS_SECTOR_SIZE_INFORMATION {
 
 **Legacy method for Windows 7 and Windows Vista**
 
-Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. Microsoft has provided a [code sample](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_access_alignment_descriptor) on MSDN detailing how an app can query for the physical sector size of the volume.
+Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. Microsoft has provided a [code sample](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor) on MSDN detailing how an app can query for the physical sector size of the volume.
 
 While the code sample above allows you to get the physical sector size of the volume, you should do some basic sanity checking of the reported physical sector size before using it, as it has been observed that some drivers may not return correctly formatted data:
 

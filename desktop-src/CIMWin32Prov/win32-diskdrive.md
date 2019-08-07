@@ -5,10 +5,10 @@ ms.tgt_platform: multiple
 title: Win32_DiskDrive class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_DiskDrive
 - Win32_DiskDrive.Reset
 - Win32_DiskDrive.SetPowerState
@@ -63,9 +63,9 @@ api_name:
 - Win32_DiskDrive.TotalSectors
 - Win32_DiskDrive.TotalTracks
 - Win32_DiskDrive.TracksPerCylinder
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -363,7 +363,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|BytesPerSector"), [**units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bytes")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|BytesPerSector"), [**units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bytes")
 </dt> </dl>
 
 Number of bytes in each sector for the physical disk drive.
@@ -1087,7 +1087,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor)\|ProductRevisionOffset")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor)\|ProductRevisionOffset")
 </dt> </dl>
 
 Revision for the disk drive firmware that is assigned by the manufacturer.
@@ -1106,7 +1106,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Windows 95/98 Functions\|DRIVE\_MAP\_INFO\|btInt13Unit")
 </dt> </dl>
 
-Physical drive number of the given drive. This property is filled by the [**STORAGE\_DEVICE\_NUMBER**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_number) structure returned from the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number) control code. A value of 0xffffffff indicates that the given drive does not map to a physical drive.
+Physical drive number of the given drive. This property is filled by the [**STORAGE\_DEVICE\_NUMBER**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_number) structure returned from the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number) control code. A value of 0xffffffff indicates that the given drive does not map to a physical drive.
 
 Example: 1
 
@@ -1240,7 +1240,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|MediaType\|FixedMedia")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|MediaType\|FixedMedia")
 </dt> </dl>
 
 If **True**, the media for a disk drive is loaded, which means that the device has a readable file system and is accessible. For fixed disk drives, this property will always be **TRUE**.
@@ -1256,7 +1256,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|MediaType")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|MediaType")
 </dt> </dl>
 
 Type of media used or accessed by this device.
@@ -1390,7 +1390,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**PARTITION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information)\|RecognizedPartition")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**PARTITION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information)\|RecognizedPartition")
 </dt> </dl>
 
 Number of partitions on this physical disk drive that are recognized by the operating system.
@@ -1614,7 +1614,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|SectorsPerTrack")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|SectorsPerTrack")
 </dt> </dl>
 
 Number of sectors in each track for this physical disk drive.
@@ -1632,7 +1632,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor)\|SerialNumberOffset")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor)\|SerialNumberOffset")
 </dt> </dl>
 
 Number allocated by the manufacturer to identify the physical media.
@@ -1650,7 +1650,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DRIVE\_LAYOUT\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information)\|Signature")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DRIVE\_LAYOUT\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information)\|Signature")
 </dt> </dl>
 
 Disk identification. This property can be used to identify a shared resource.
@@ -1666,7 +1666,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)"), [**units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bytes")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)"), [**units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bytes")
 </dt> </dl>
 
 Size of the disk drive. It is calculated by multiplying the total number of cylinders, tracks in each cylinder, sectors in each track, and bytes in each sector.
@@ -1881,7 +1881,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|Cylinders")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|Cylinders")
 </dt> </dl>
 
 Total number of cylinders on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
@@ -1901,7 +1901,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|TracksPerCylinder")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|TracksPerCylinder")
 </dt> </dl>
 
 Total number of heads on the disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
@@ -1917,7 +1917,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|SectorsPerTrack")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|SectorsPerTrack")
 </dt> </dl>
 
 Total number of sectors on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
@@ -1937,7 +1937,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|TracksPerCylinder")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|TracksPerCylinder")
 </dt> </dl>
 
 Total number of tracks on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
@@ -1957,7 +1957,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry)\|TracksPerCylinder")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**DISK\_GEOMETRY**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry)\|TracksPerCylinder")
 </dt> </dl>
 
 Number of tracks in each cylinder on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.

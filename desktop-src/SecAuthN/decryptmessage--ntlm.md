@@ -1,7 +1,7 @@
-﻿---
-Description: 'Decrypts a message by using NTLM.'
-ms.assetid: '44c63152-507d-4769-9c0c-d275d2b0deac'
-title: 'DecryptMessage (NTLM) function'
+---
+Description: Decrypts a message by using NTLM.
+ms.assetid: 44c63152-507d-4769-9c0c-d275d2b0deac
+title: DecryptMessage (NTLM) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -32,7 +32,7 @@ A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/wi
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 *MessageSeqNo* \[in\]
 
@@ -78,5 +78,5 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (NTLM)**](encryptmessage--ntlm.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

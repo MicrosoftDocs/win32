@@ -28,28 +28,28 @@ The second way that objects provide access to other objects is that an object co
 
 For sample code that retrieves the Policies collection, see [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection).
 
-The [**NPS Server Data Object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties) has the following properties that represent collections:
+The [**NPS Server Data Object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties) has the following properties that represent collections:
 
 <dl> <dt>
 
 <span id="Auditors"></span><span id="auditors"></span><span id="AUDITORS"></span>Auditors
 </dt> <dd>
 
-The only auditor in the Auditors collection is the [**NT Event Log**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_nteventlogproperties).
+The only auditor in the Auditors collection is the [**NT Event Log**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-nteventlogproperties).
 
 </dd> <dt>
 
 <span id="Policies"></span><span id="policies"></span><span id="POLICIES"></span>Policies
 </dt> <dd>
 
-Each [**policy object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties) has a property that represents a collection of conditions.
+Each [**policy object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-policyproperties) has a property that represents a collection of conditions.
 
 </dd> <dt>
 
 <span id="Profiles"></span><span id="profiles"></span><span id="PROFILES"></span>Profiles
 </dt> <dd>
 
-Each [**profile object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties) in the Profiles collections has a property that represents an attributes collection. See [SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes) for a list of the attributes supported by SDO.
+Each [**profile object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-profileproperties) in the Profiles collections has a property that represents an attributes collection. See [SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes) for a list of the attributes supported by SDO.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ This collection contains profiles used for connection request processing.
 <span id="RADIUS_Server_Groups"></span><span id="radius_server_groups"></span><span id="RADIUS_SERVER_GROUPS"></span>RADIUS Server Groups
 </dt> <dd>
 
-Each [**RADIUS server group**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusservergroupproperties) in the RADIUS Server Groups collection has a property that represents the collection of servers in that server group.
+Each [**RADIUS server group**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties) in the RADIUS Server Groups collection has a property that represents the collection of servers in that server group.
 
 </dd> <dt>
 

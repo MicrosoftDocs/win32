@@ -1,7 +1,7 @@
-﻿---
-Description: 'Initiates the client side, outbound security context from a credential handle.'
-ms.assetid: 'f3d8c07b-db28-4f26-ba29-8733fc95bdb5'
-title: 'InitializeSecurityContext (CredSSP) function'
+---
+Description: Initiates the client side, outbound security context from a credential handle.
+ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
+title: InitializeSecurityContext (CredSSP) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -140,7 +140,7 @@ On calls after the first call, pass the handle returned here as the *phContext* 
 *pOutput* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. This structure in turn contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that receives the output data. If a buffer was typed as **SEC\_READWRITE** in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through **ISC\_REQ\_ALLOCATE\_MEMORY**) and fill in the address in the buffer descriptor for the security token.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. This structure in turn contains pointers to the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structure that receives the output data. If a buffer was typed as **SEC\_READWRITE** in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through **ISC\_REQ\_ALLOCATE\_MEMORY**) and fill in the address in the buffer descriptor for the security token.
 
 If the **ISC\_REQ\_ALLOCATE\_MEMORY** flag is specified, CredSSP will allocate memory for the buffer and put the appropriate information in the [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc).
 
@@ -177,7 +177,7 @@ If the function succeeds, it returns one of the following success codes.
 
 | Return code                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** specifies the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function.<br/> |
+| <dl> <dt>**SEC\_E\_INCOMPLETE\_MESSAGE**</dt> </dl>     | Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** specifies the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function.<br/> |
 | <dl> <dt>**SEC\_E\_OK**</dt> </dl>                      | The security context was successfully initialized. There is no need for another [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) call. If the function returns an output token -- that is, if the **SECBUFFER\_TOKEN** in *pOutput* is of nonzero length -- that token must be sent to the server.<br/>                                                                                                   |
 | <dl> <dt>**SEC\_I\_COMPLETE\_AND\_CONTINUE**</dt> </dl> | The client must call [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md).<br/>                                                                                                                                                                                                                                            |
 | <dl> <dt>**SEC\_I\_COMPLETE\_NEEDED**</dt> </dl>        | The client must finish building the message and then call the [**CompleteAuthToken**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-completeauthtoken) function.<br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -291,7 +291,7 @@ After receiving an authentication certificate from a certification authority tha
 [**FreeContextBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 </dt> <dt>
 
-[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 </dt> <dt>
 
 [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

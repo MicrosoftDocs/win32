@@ -1,7 +1,7 @@
-﻿---
-Description: 'Decrypts a message by using Kerberos.'
-ms.assetid: '9e699f7c-f738-4702-bdef-fb2c276c38fc'
-title: 'DecryptMessage (Kerberos) function'
+---
+Description: Decrypts a message by using Kerberos.
+ms.assetid: 9e699f7c-f738-4702-bdef-fb2c276c38fc
+title: DecryptMessage (Kerberos) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -32,7 +32,7 @@ A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/wi
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures that may be of type SECBUFFER\_DATA. The buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures that may be of type SECBUFFER\_DATA. The buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 *MessageSeqNo* \[in\]
 
@@ -84,5 +84,5 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (Kerberos)**](encryptmessage--kerberos.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

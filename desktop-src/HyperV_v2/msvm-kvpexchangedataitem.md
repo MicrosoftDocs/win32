@@ -4,10 +4,10 @@ ms.assetid: B13E9C5F-5B13-4EE5-AE5F-F51B61BDB9B7
 title: Msvm_KvpExchangeDataItem class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Msvm_KvpExchangeDataItem
 - Msvm_KvpExchangeDataItem.InstanceID
 - Msvm_KvpExchangeDataItem.Caption
@@ -16,9 +16,9 @@ api_name:
 - Msvm_KvpExchangeDataItem.Source
 - Msvm_KvpExchangeDataItem.Name
 - Msvm_KvpExchangeDataItem.Data
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - vmms.exe
 ---
 
@@ -157,13 +157,13 @@ The key portion of the key/value pair.
 | <dl> <dt>"OSMinorVersion"</dt> </dl>             | A string that represents the minor version number of the operating system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <dl> <dt>"OSPlatformId"</dt> </dl>               | A string that represents the operating system platform. The possible values of the **Data** property are "1" to indicate an unsupported Windows system and "2" to indicate a supported Windows system.<br/>                                                                                                                                                                                                                                                                                                               |
 | <dl> <dt>"OSVersion"</dt> </dl>                  | A string that represents the operating system version. The format of this string is *MajorVersion*.*MinorVersion*.*BuildNumber*. For example, "5.2.3790" for Windows Server 2003.<br/>                                                                                                                                                                                                                                                                                                                                    |
-| <dl> <dt>"ProcessorArchitecture"</dt> </dl>      | A string that represents the processor architecture of the operating system. For a list of values, see the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info) structure.<br/>                                                                                                                                                                                                                                                                                                              |
-| <dl> <dt>"ProductType"</dt> </dl>                | A string that represents the product type. For a list of values, see the **wProductType** member of the [**OSVERSIONINFOEX**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                                                                   |
+| <dl> <dt>"ProcessorArchitecture"</dt> </dl>      | A string that represents the processor architecture of the operating system. For a list of values, see the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) structure.<br/>                                                                                                                                                                                                                                                                                                              |
+| <dl> <dt>"ProductType"</dt> </dl>                | A string that represents the product type. For a list of values, see the **wProductType** member of the [**OSVERSIONINFOEX**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                                                                   |
 | <dl> <dt>"RDPAddressIPv4"</dt> </dl>             | A string that contains a semicolon-delimited list of the IPv4 addresses that the guest virtual machine RDP stack is currently listening on. If the RDP stack is not currently running, the string will be empty. The list is automatically updated whenever a TCP/IP configuration change affects the RDP stack on the guest virtual machine. Each address is represented in dot-decimal notation.<br/>                                                                                                                   |
 | <dl> <dt>"RDPAddressIPv6"</dt> </dl>             | A string that contains a semicolon-delimited list of the IPv6 addresses that the guest virtual machine RDP stack is currently listening on. If the RDP stack is not currently running, the string will be empty. The list is automatically updated whenever a TCP/IP configuration change affects the RDP stack on the guest virtual machine. Each address is represented in colon-hexadecimal notation.<br/>                                                                                                             |
 | <dl> <dt>"ServicePackMajor"</dt> </dl>           | A string that represents the major version number of the latest service pack installed on the system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                |
 | <dl> <dt>"ServicePackMinor"</dt> </dl>           | A string that represents the minor version number of the latest service pack installed on the system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                |
-| <dl> <dt>"SuiteMask"</dt> </dl>                  | A string that represents the product suites available on the system. This string is a combination of any of the values of the **wSuiteMask** member of the [**OSVERSIONINFOEX**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                |
+| <dl> <dt>"SuiteMask"</dt> </dl>                  | A string that represents the product suites available on the system. This string is a combination of any of the values of the **wSuiteMask** member of the [**OSVERSIONINFOEX**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                |
 
 
 

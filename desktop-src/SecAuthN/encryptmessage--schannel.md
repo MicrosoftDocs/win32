@@ -1,7 +1,7 @@
-﻿---
-Description: 'Encrypts a message to provide privacy by using Schannel.'
-ms.assetid: 'b02b38bd-f3dd-4bf8-a36e-44ff9fbbe550'
-title: 'EncryptMessage (Schannel) function'
+---
+Description: Encrypts a message to provide privacy by using Schannel.
+ms.assetid: b02b38bd-f3dd-4bf8-a36e-44ff9fbbe550
+title: EncryptMessage (Schannel) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -44,11 +44,11 @@ This parameter can be the following flag.
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
 *MessageSeqNo* \[in\]
 
@@ -90,7 +90,7 @@ When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecB
 | SECBUFFER\_STREAM\_TRAILER | Used internally. No initialization required.                                                                        |
 | SECBUFFER\_EMPTY           | Used internally. No initialization required. Size can be zero.                                                      |
 
-When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkgcontext_streamsizes) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
+When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secpkgcontext_streamsizes) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
 
 For optimal performance, the *pMessage* structures should be allocated from contiguous memory.
 
@@ -113,5 +113,5 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 - [**DecryptMessage (Schannel)**](decryptmessage--schannel.md)
 - [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md)
 - [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

@@ -5,10 +5,10 @@ ms.tgt_platform: multiple
 title: Win32_ComputerSystem class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_ComputerSystem
 - Win32_ComputerSystem.SetPowerState
 - Win32_ComputerSystem.AdminPasswordStatus
@@ -75,9 +75,9 @@ api_name:
 - Win32_ComputerSystem.UserName
 - Win32_ComputerSystem.WakeUpType
 - Win32_ComputerSystem.Workgroup
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -582,7 +582,7 @@ Data type: **sint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information)\|Bias"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information)\|Bias"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Amount of time the unitary computer system is offset from Coordinated Universal Time (UTC).
@@ -648,7 +648,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**WKSTA\_INFO\_100**](https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_100)\|wki100\_langroup")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**WKSTA\_INFO\_100**](https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_100)\|wki100\_langroup")
 </dt> </dl>
 
 Name of the domain to which a computer belongs.
@@ -669,7 +669,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Directory Service (Ds) Structures\| [**DSROLE\_PRIMARY\_DOMAIN\_INFO\_BASIC**](https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_primary_domain_info_basic)\|[**DSROLE\_MACHINE\_ROLE**](https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_machine_role)\| MachineRole")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Directory Service (Ds) Structures\| [**DSROLE\_PRIMARY\_DOMAIN\_INFO\_BASIC**](https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic)\|[**DSROLE\_MACHINE\_ROLE**](https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_machine_role)\| MachineRole")
 </dt> </dl>
 
 Role of a computer in an assigned domain workgroup. A domain workgroup is a collection of computers on the same network. For example, a **DomainRole** property may show that a computer is a member workstation.
@@ -1093,7 +1093,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SERVER\_INFO\_101**](https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101)\|sv101\_type\|SV\_TYPE\_SERVER")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SERVER\_INFO\_101**](https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101)\|sv101\_type\|SV\_TYPE\_SERVER")
 </dt> </dl>
 
 If **True**, the network Server Mode is enabled.
@@ -1127,7 +1127,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info)\|dwNumberOfProcessors")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info)\|dwNumberOfProcessors")
 </dt> </dl>
 
 Number of physical processors currently available on a system. This is the number of enabled processors for a system, which does not include the disabled processors. If a computer system has two physical processors each containing two logical processors, then the value of **NumberOfProcessors** is 2 and **NumberOfLogicalProcessors** is 4. The processors may be multicore or they may be hyperthreading processors. For more information, see Remarks.
@@ -2055,7 +2055,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info)\|wProcessorArchitecture")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|System Information Structures\|[**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info)\|wProcessorArchitecture")
 </dt> </dl>
 
 System running on the Windows-based computer. This property must have a value.
@@ -2209,7 +2209,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Memory Management Structures\|[**MEMORYSTATUS**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_memorystatus)\|dwTotalPhys"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bytes")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Memory Management Structures\|[**MEMORYSTATUS**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-memorystatus)\|dwTotalPhys"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bytes")
 </dt> </dl>
 
 Total size of physical memory. Be aware that, under some circumstances, this property may not return an accurate value for the physical memory. For example, it is not accurate if the BIOS is using some of the physical memory. For an accurate value, use the **Capacity** property in [**Win32\_PhysicalMemory**](win32-physicalmemory.md) instead.

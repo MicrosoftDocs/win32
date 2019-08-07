@@ -58,22 +58,22 @@ Name of the type, for example "float4" or "MyStruct".
 **Class**
 </dt> <dd>
 
-Type: **[**D3D10\_SHADER\_VARIABLE\_CLASS**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_class)**
+Type: **[**D3D10\_SHADER\_VARIABLE\_CLASS**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class)**
 
 </dd> <dd>
 
-The variable class (see [**D3D10\_SHADER\_VARIABLE\_CLASS**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_class)).
+The variable class (see [**D3D10\_SHADER\_VARIABLE\_CLASS**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class)).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**D3D10\_SHADER\_VARIABLE\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type)**
+Type: **[**D3D10\_SHADER\_VARIABLE\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type)**
 
 </dd> <dd>
 
-The variable type (see [**D3D10\_SHADER\_VARIABLE\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type)).
+The variable type (see [**D3D10\_SHADER\_VARIABLE\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type)).
 
 </dd> <dt>
 

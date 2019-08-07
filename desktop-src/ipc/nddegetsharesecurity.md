@@ -4,16 +4,16 @@ ms.assetid: 7d3cc965-45ee-40ce-a462-568200592345
 title: NDdeGetShareSecurity function
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - NDdeGetShareSecurity
 - NDdeGetShareSecurityA
 - NDdeGetShareSecurityW
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Nddeapi.dll
 ---
 
@@ -67,7 +67,7 @@ A [**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuth
 *pSD* \[out\]
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure that receives the self-relative security descriptor. This parameter can be **NULL**. If this parameter is **NULL**, the DSDM determines the size of the requested security information and returns the number of bytes needed in the *lpcbsdRequired* parameter along with the NDDE\_BUF\_TOO\_SMALL error code.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that receives the self-relative security descriptor. This parameter can be **NULL**. If this parameter is **NULL**, the DSDM determines the size of the requested security information and returns the number of bytes needed in the *lpcbsdRequired* parameter along with the NDDE\_BUF\_TOO\_SMALL error code.
 
 </dd> <dt>
 

@@ -1,7 +1,7 @@
-﻿---
-Description: 'Decrypts a message.'
-ms.assetid: 'ea271d0c-9167-41c5-8919-09611206fc71'
-title: 'DecryptMessage (General) function'
+---
+Description: Decrypts a message.
+ms.assetid: ea271d0c-9167-41c5-8919-09611206fc71
+title: DecryptMessage (General) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -58,11 +58,11 @@ A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/wi
 *pMessage* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
-When using the Digest SSP, on input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these must be of type SECBUFFER\_DATA or SECBUFFER\_STREAM, and it must contain the encrypted message.
+When using the Digest SSP, on input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these must be of type SECBUFFER\_DATA or SECBUFFER\_STREAM, and it must contain the encrypted message.
 
-When using the Schannel SSP with contexts that are not connection oriented, on input, the structure must contain four [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. Exactly one buffer must be of type SECBUFFER\_DATA and contain an encrypted message, which is decrypted in place. The remaining buffers are used for output and must be of type SECBUFFER\_EMPTY. For connection-oriented contexts, a SECBUFFER\_DATA type buffer must be supplied, as noted for nonconnection-oriented contexts. Additionally, a second SECBUFFER\_TOKEN type buffer that contains a security token must also be supplied.
+When using the Schannel SSP with contexts that are not connection oriented, on input, the structure must contain four [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. Exactly one buffer must be of type SECBUFFER\_DATA and contain an encrypted message, which is decrypted in place. The remaining buffers are used for output and must be of type SECBUFFER\_EMPTY. For connection-oriented contexts, a SECBUFFER\_DATA type buffer must be supplied, as noted for nonconnection-oriented contexts. Additionally, a second SECBUFFER\_TOKEN type buffer that contains a security token must also be supplied.
 
 </dd> <dt>
 
@@ -154,7 +154,7 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 [**EncryptMessage (General)**](encryptmessage--general.md)
 </dt> <dt>
 
-[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+[**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 </dt> <dt>
 
 [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

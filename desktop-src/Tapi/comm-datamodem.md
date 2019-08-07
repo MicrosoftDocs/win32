@@ -47,7 +47,7 @@ The following is device configuration information for use with the [**lineGetDev
 <span id="dwSize"></span><span id="dwsize"></span><span id="DWSIZE"></span>**dwSize**
 </dt> <dd>
 
-Sum of the size of the **DEVCFGHDR** structure and the actual size of the [**COMMCONFIG**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig) structure.
+Sum of the size of the **DEVCFGHDR** structure and the actual size of the [**COMMCONFIG**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig) structure.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ Number of seconds (in two seconds granularity) to replace the wait for credit to
 <span id="Commconfig"></span><span id="commconfig"></span><span id="COMMCONFIG"></span>**Commconfig**
 </dt> <dd>
 
-[**COMMCONFIG**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig) structure that can be used with the communications and modem configuration functions.
+[**COMMCONFIG**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig) structure that can be used with the communications and modem configuration functions.
 
 </dd> </dl>
 

@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 # Bluetooth and BLOB
 
-Bluetooth uses the [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob) structure to pass or receive transport-specific data to the [**WSAQUERYSET**](bluetooth-and-wsaqueryset-for-set-service.md) structure during calls to the [**WSASetService**](bluetooth-and-wsasetservice.md) or **WSALookupService**\* functions.
+Bluetooth uses the [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob) structure to pass or receive transport-specific data to the [**WSAQUERYSET**](bluetooth-and-wsaqueryset-for-set-service.md) structure during calls to the [**WSASetService**](bluetooth-and-wsasetservice.md) or **WSALookupService**\* functions.
 
-For use with Bluetooth and the [**WSASetService**](bluetooth-and-wsasetservice.md) function, the [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob) structure members are required to have the following settings:
+For use with Bluetooth and the [**WSASetService**](bluetooth-and-wsasetservice.md) function, the [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob) structure members are required to have the following settings:
 
 -   The **cbsize** member must be set to the size of the [**BTH\_SET\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_set_service) structure used in the **pBlobData** member, in bytes.
 -   The **pBlobData** member must be a pointer to a [**BTH\_SET\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_set_service) structure.
@@ -48,7 +48,7 @@ For more information, see the Remarks section in the [**BTH\_SET\_SERVICE**](/wi
 [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob)
+[**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob)
 </dt> <dt>
 
 [**BTH\_QUERY\_DEVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_device)

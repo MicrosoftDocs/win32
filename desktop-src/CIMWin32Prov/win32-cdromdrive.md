@@ -5,10 +5,10 @@ ms.tgt_platform: multiple
 title: Win32_CDROMDrive class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_CDROMDrive
 - Win32_CDROMDrive.Reset
 - Win32_CDROMDrive.SetPowerState
@@ -61,9 +61,9 @@ api_name:
 - Win32_CDROMDrive.TransferRate
 - Win32_CDROMDrive.VolumeName
 - Win32_CDROMDrive.VolumeSerialNumber
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -1502,7 +1502,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win2000DDK\|KernelModeDrivers\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor)\|ProductRevisionOffset")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win2000DDK\|KernelModeDrivers\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor)\|ProductRevisionOffset")
 </dt> </dl>
 
 Firmware revision level that is assigned by the manufacturer.
@@ -1808,7 +1808,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor)\|SerialNumberOffset")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Device Input and Output Structures\|[**STORAGE\_DEVICE\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor)\|SerialNumberOffset")
 </dt> </dl>
 
 Number supplied by the manufacturer that identifies the physical media. Example: WD-WM3493798728.

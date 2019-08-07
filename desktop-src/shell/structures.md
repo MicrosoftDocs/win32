@@ -7,9 +7,8 @@ ms.assetid: 814ae153-39b3-49ee-9da1-efe7e649c73e
 api_name: 
 api_type: 
 api_location: 
-topic_type: 
- - kbArticle
-
+topic_type:
+- kbArticle
 ---
 
 # Shell Structures
@@ -214,11 +213,11 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Contains the clipboard format definition for CFSTR_FILE_ATTRIBUTES_ARRAY.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filedescriptora"><strong>FILEDESCRIPTOR</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>FILEDESCRIPTOR</strong></a><br/></td>
 <td>Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="dragdrop">drag-and-drop</a> operation.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filegroupdescriptora"><strong>FILEGROUPDESCRIPTOR</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-filegroupdescriptora"><strong>FILEGROUPDESCRIPTOR</strong></a><br/></td>
 <td>Defines the CF_FILEGROUPDESCRIPTOR clipboard format.<br/></td>
 </tr>
 <tr class="odd">
@@ -406,7 +405,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Specifies the FMTID/PID identifier of a column that will be displayed by the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-As of Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/shell/objects"><strong>SHCOLUMNID</strong></a> is considered a legacy form and should not be used. In its place, use the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey"><strong>PROPERTYKEY</strong></a> structure.
+As of Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/shell/objects"><strong>SHCOLUMNID</strong></a> is considered a legacy form and should not be used. In its place, use the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> structure.
 </blockquote>
 <br/></td>
 </tr>

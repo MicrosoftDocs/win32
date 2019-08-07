@@ -112,7 +112,7 @@ The vtClientsCollection variable is of type [\_variant\_t](https://go.microsoft.
 
 After the call to "pSdo->GetProperty()", the vtProtocolsCollection variable specifies an object. The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface for the object.
 
-The above sample code can be adapted to retrieve other NPS collections, for example the NPS Request Handlers collections. The [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties) enumeration type enumerated values that correspond to the available NPS collections.
+The above sample code can be adapted to retrieve other NPS collections, for example the NPS Request Handlers collections. The [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties) enumeration type enumerated values that correspond to the available NPS collections.
 
 ## Related topics
 
@@ -121,7 +121,7 @@ The above sample code can be adapted to retrieve other NPS collections, for exam
 [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> <dt>
 
 [**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)

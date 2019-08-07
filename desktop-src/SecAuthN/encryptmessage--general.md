@@ -1,7 +1,7 @@
-﻿---
-Description: 'Encrypts a message to provide privacy.'
-ms.assetid: '2e09f262-9c3e-4db2-9285-017f5e1810c7'
-title: 'EncryptMessage (General) function'
+---
+Description: Encrypts a message to provide privacy.
+ms.assetid: 2e09f262-9c3e-4db2-9285-017f5e1810c7
+title: EncryptMessage (General) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -51,15 +51,15 @@ KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/><
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (General)**](querycontextattributes--general.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (General)**](querycontextattributes--general.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
-When using the Digest SSP, there must be a second buffer of type SECBUFFER\_PADDING or SEC\_BUFFER\_DATA to hold [*signature*](https://docs.microsoft.com/en-us/windows/win32/secgloss/d-gly#-security-digital-signature-gly) information. To get the size of the output buffer, call the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specify SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkgcontext_sizes) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
+When using the Digest SSP, there must be a second buffer of type SECBUFFER\_PADDING or SEC\_BUFFER\_DATA to hold [*signature*](https://docs.microsoft.com/en-us/windows/win32/secgloss/d-gly#-security-digital-signature-gly) information. To get the size of the output buffer, call the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specify SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
 
-Applications that do not use SSL must supply a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) of type SECBUFFER\_PADDING.
+Applications that do not use SSL must supply a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) of type SECBUFFER\_PADDING.
 
 *MessageSeqNo* \[in\]
 
@@ -93,7 +93,7 @@ The **EncryptMessage (General)** function encrypts a message based on the messag
 
 If the transport application created the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) incorporates the sequence number passed down from the transport application.
 
-When you use the Digest SSP, get the size of the output buffer by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkgcontext_sizes) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
+When you use the Digest SSP, get the size of the output buffer by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying SECPKG\_ATTR\_SIZES. The function will return a [**SecPkgContext\_Sizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes) structure. The size of the output buffer is the sum of the values in the **cbMaxSignature** and **cbBlockSize** members.
 
 When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure with the following buffers.
 
@@ -107,7 +107,7 @@ When used with the Schannel SSP, the *pMessage* parameter must contain a [**SecB
 | SECBUFFER\_STREAM\_TRAILER | Used internally. No initialization required.                                                |
 | SECBUFFER\_EMPTY           | Used internally. No initialization required. Size can be zero.                              |
 
-When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkgcontext_streamsizes) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
+When you use the Schannel SSP, determine the maximum size of each of the buffers by calling the [**QueryContextAttributes (General)**](querycontextattributes--general.md) function and specifying the SECPKG\_ATTR\_STREAM\_SIZES attribute. This function returns a [**SecPkgContext\_StreamSizes**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secpkgcontext_streamsizes) structure whose members contain the maximum sizes for the header (**cbHeader** member), message (**cbMaximumMessage** member) and trailer (**cbTrailer** member) buffers.
 
 For optimal performance, the *pMessage* structures should be allocated from contiguous memory.
 
@@ -129,5 +129,5 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 - [**DecryptMessage (General)**](decryptmessage--general.md)
 - [**InitializeSecurityContext (General)**](initializesecuritycontext--general.md)
 - [**QueryContextAttributes (General)**](querycontextattributes--general.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

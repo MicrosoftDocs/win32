@@ -5,14 +5,14 @@ ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_DataFile class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - CIM_DataFile.ChangeSecurityPermissionsEx
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -52,7 +52,7 @@ uint32 ChangeSecurityPermissionsEx(
 Specifies security information.
 
 > [!Note]  
-> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure grants unlimited access. For more information about the implications of unlimited access, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
+> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure grants unlimited access. For more information about the implications of unlimited access, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 

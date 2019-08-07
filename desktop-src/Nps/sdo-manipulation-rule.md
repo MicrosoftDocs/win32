@@ -18,7 +18,7 @@ The manipulation rule to apply to the data specified by the [Manipulation-Target
 
 **LDAP Name:** msManipulationRule
 
-**ID:** 4114 = [**IAS\_ATTRIBUTE\_MANIPULATION\_RULE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
+**ID:** 4114 = [**IAS\_ATTRIBUTE\_MANIPULATION\_RULE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** String
 

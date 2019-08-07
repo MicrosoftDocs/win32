@@ -28,8 +28,8 @@ The [**NetFileEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-
 
 File information is available at the following levels:
 
--   [**FILE\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_2)
--   [**FILE\_INFO\_3**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_3)
+-   [**FILE\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2)
+-   [**FILE\_INFO\_3**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3)
 
 Levels 0 and 1 are not supported. Level 2 returns only the identification number assigned to the resource when it was opened. Level 3 returns the identification number, permissions, file locks, and the name of the user who opened the resource.
 

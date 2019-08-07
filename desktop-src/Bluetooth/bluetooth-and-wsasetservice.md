@@ -16,8 +16,8 @@ Bluetooth uses the [**WSASetService**](https://docs.microsoft.com/windows/deskto
 
 Bluetooth has two means of advertising services using the [**WSASetService**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) function:
 
--   The application can have the system advertise a simple Bluetooth SDP service record, constructed from standard members in the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure.
--   The application can have the system advertise their own Bluetooth SDP record by passing a [**BTH\_SET\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_set_service) structure in the **lpBlob** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure. This is a more complex approach.
+-   The application can have the system advertise a simple Bluetooth SDP service record, constructed from standard members in the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure.
+-   The application can have the system advertise their own Bluetooth SDP record by passing a [**BTH\_SET\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_set_service) structure in the **lpBlob** member of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure. This is a more complex approach.
 
 > [!Note]  
 > SDP records advertised by [**WSASetService**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) do not persist after the process that published them has quit.
@@ -26,7 +26,7 @@ Bluetooth has two means of advertising services using the [**WSASetService**](ht
 
 Use of [**WSASetService**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) with Bluetooth has the following requirements:
 
--   The *lpqsRegInfo* parameter is the address of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure to be registered.
+-   The *lpqsRegInfo* parameter is the address of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure to be registered.
 -   The *essOperation* parameter is an enumeration that contains one of the operations shown in the following table.
 
 

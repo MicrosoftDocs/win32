@@ -4,7 +4,7 @@ description: This vertex shader output register contains per-vertex texture coor
 ms.assetid: d42c8e4c-8227-4fe8-9432-90c592011024
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -37,7 +37,7 @@ The fixed function vertex pipeline flags, [**D3DTEXTURETRANSFORMFLAGS**](https:/
 
 Object vertex data supplies input texture coordinates. Objects that do not use tiled textures commonly have texture coordinates in the range \[0,1\]. Objects that use tiled textures, such as terrain, typically have texture coordinates that range from \[-n,+n\] where n can be any floating point number.
 
-Texture coordinate interpolation is performed on vertex data for rasterization. During rasterization, texture coordinates are interpolated between object vertices, modified by texture wrapping, and scaled by the texture size (also taking into account texture addressing modes) to produce an integer index. The index is then used to perform a texture lookup. Use the MaxTextureRepeat value in [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9) to determine how many times a texture can be tiled.
+Texture coordinate interpolation is performed on vertex data for rasterization. During rasterization, texture coordinates are interpolated between object vertices, modified by texture wrapping, and scaled by the texture size (also taking into account texture addressing modes) to produce an integer index. The index is then used to perform a texture lookup. Use the MaxTextureRepeat value in [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9) to determine how many times a texture can be tiled.
 
 ## Example
 

@@ -1,7 +1,7 @@
-﻿---
-Description: 'The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.'
-ms.assetid: '3b73decf-75d4-4bc4-b7ca-5f16aaadff29'
-title: 'AcquireCredentialsHandle (CredSSP) function'
+---
+Description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
+ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
+title: AcquireCredentialsHandle (CredSSP) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -40,7 +40,7 @@ A pointer to a null-terminated string that specifies the name of the principal w
 
 *pszPackage* \[in\]
 
-A pointer to a null-terminated string that specifies the name of the security package with which these credentials will be used. This is a security package name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-enumeratesecuritypackagesa) function. After a context is established, [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) can be called with *ulAttribute* set to **SECPKG\_ATTR\_PACKAGE\_INFO** to return information on the security package in use.
+A pointer to a null-terminated string that specifies the name of the security package with which these credentials will be used. This is a security package name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-enumeratesecuritypackagesa) function. After a context is established, [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) can be called with *ulAttribute* set to **SECPKG\_ATTR\_PACKAGE\_INFO** to return information on the security package in use.
 
 *fCredentialUse* \[in\]
 
@@ -57,7 +57,7 @@ A pointer to a [*locally unique identifier*](https://docs.microsoft.com/en-us/wi
 
 *pAuthData* \[in, optional\]
 
-A pointer to a [**CREDSSP\_CRED**](https://docs.microsoft.com/en-us/windows/win32/api/credssp/ns-credssp-_credssp_cred) structure that specifies authentication data for both Schannel and Negotiate packages.
+A pointer to a [**CREDSSP\_CRED**](https://docs.microsoft.com/en-us/windows/win32/api/credssp/ns-credssp-credssp_cred) structure that specifies authentication data for both Schannel and Negotiate packages.
 
 *pGetKeyFn* \[in, optional\]
 

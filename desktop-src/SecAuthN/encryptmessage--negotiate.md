@@ -1,7 +1,7 @@
-﻿---
-Description: 'Encrypts a message to provide privacy by using Negotiate.'
-ms.assetid: 'b80b3d64-9c0a-4602-9378-1e208f6593fc'
-title: 'EncryptMessage (Negotiate) function'
+---
+Description: Encrypts a message to provide privacy by using Negotiate.
+ms.assetid: b80b3d64-9c0a-4602-9378-1e208f6593fc
+title: EncryptMessage (Negotiate) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -42,13 +42,13 @@ This parameter can be the following flag.
 > KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.
 
 *pMessage* \[in, out\]
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures that can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures that can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Negotiate)**](querycontextattributes--negotiate.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (Negotiate)**](querycontextattributes--negotiate.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
-Applications that do not use SSL must supply a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) of type SECBUFFER\_PADDING.
+Applications that do not use SSL must supply a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) of type SECBUFFER\_PADDING.
 
 *MessageSeqNo* \[in\]
 The sequence number that the transport application assigned to the message. If the transport application does not maintain sequence numbers, this parameter must be zero.
@@ -106,5 +106,5 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 - [**DecryptMessage (Negotiate)**](decryptmessage--negotiate.md)
 - [**InitializeSecurityContext (Negotiate)**](initializesecuritycontext--negotiate.md)
 - [**QueryContextAttributes (Negotiate)**](querycontextattributes--negotiate.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

@@ -4,16 +4,16 @@ ms.assetid: c9814919-412e-4f13-98cc-373b69545734
 title: NDdeShareAdd function
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - NDdeShareAdd
 - NDdeShareAddA
 - NDdeShareAddW
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Nddeapi.dll
 ---
 
@@ -59,7 +59,7 @@ The information level. This parameter must be 2.
 *pSD* \[in\]
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure to be associated with this share and against which access checks will be performed on subsequent initiates to this share. This parameter can be **NULL**, in which case the DSDM creates a default security descriptor that grants "Full Control" to the owner and "Read and Link" to everyone.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure to be associated with this share and against which access checks will be performed on subsequent initiates to this share. This parameter can be **NULL**, in which case the DSDM creates a default security descriptor that grants "Full Control" to the owner and "Read and Link" to everyone.
 
 </dd> <dt>
 

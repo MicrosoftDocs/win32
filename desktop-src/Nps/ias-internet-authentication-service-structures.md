@@ -14,12 +14,12 @@ ms.date: 05/31/2018
 
  
 
-Use the [**RADIUS\_ATTRIBUTE**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute) structures to represent a RADIUS attribute or an extended attribute when developing NPS Extension DLLs.
+Use the [**RADIUS\_ATTRIBUTE**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute) structures to represent a RADIUS attribute or an extended attribute when developing NPS Extension DLLs.
 
--   [**RADIUS\_ATTRIBUTE**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute)
--   [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute_array)
--   [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block)
--   [**RADIUS\_VSA\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_vsa_format)
+-   [**RADIUS\_ATTRIBUTE**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute)
+-   [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array)
+-   [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block)
+-   [**RADIUS\_VSA\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_vsa_format)
 
  
 

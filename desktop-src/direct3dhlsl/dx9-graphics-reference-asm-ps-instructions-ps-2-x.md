@@ -4,7 +4,7 @@ description: This section contains reference information for the pixel shader ve
 ms.assetid: a9b5f9dd-1139-4f80-ada6-e2fc0fb7effe
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -94,12 +94,12 @@ There are several types of pixel shader instructions, as shown in the table. Col
 
 Notes:
 
-1.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0) is set, slots = 2; otherwise slots = 1.
-2.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0) is set and the texture is a cube map, slots = 4; otherwise slot = 1.
-3.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0) is set, slots = 6; otherwise slots = 1.
-4.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0) is not set, slots = 1; otherwise:
-    -   if [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0) is set and the texture is a cube map, slots = 4.
-    -   if [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0) is set and the texture is not a cube map, slots = 3.
+1.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) is set, slots = 2; otherwise slots = 1.
+2.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) is set and the texture is a cube map, slots = 4; otherwise slot = 1.
+3.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) is set, slots = 6; otherwise slots = 1.
+4.  If [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) is not set, slots = 1; otherwise:
+    -   if [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) is set and the texture is a cube map, slots = 4.
+    -   if [**D3DD3DPSHADERCAPS2\_0\_NOTEXINSTRUCTIONLIMIT**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) is set and the texture is not a cube map, slots = 3.
 
 ## Related topics
 

@@ -33,7 +33,7 @@ For more information about performing mutual authentication in an RPC service, s
 
     For more information about composing an SPN for an RpcNs service, see [Composing SPNs for an RpcNs Service](composing-spns-for-an-rpcns-service.md).
 
-3.  Set up an [**RPC\_SECURITY\_QOS**](https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos) structure to request mutual authentication.
+3.  Set up an [**RPC\_SECURITY\_QOS**](https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos) structure to request mutual authentication.
 4.  Call the [**RpcBindingSetAuthInfoEx**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa) function to set the authentication data for the RPC binding. The client must request at least **RPC\_C\_AUTHN\_LEVEL\_PKT\_INTEGRITY** to ensure that communications have not been tampered. For increased security, the client should specify **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** to request encryption.
 5.  Perform the RPC call.
 

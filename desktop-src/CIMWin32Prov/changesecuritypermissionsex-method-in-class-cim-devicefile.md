@@ -5,14 +5,14 @@ ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_DeviceFile class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - CIM_DeviceFile.ChangeSecurityPermissionsEx
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -52,7 +52,7 @@ uint32 ChangeSecurityPermissionsEx(
 Specifies the security information.
 
 > [!Caution]  
-> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure grants unlimited access.
+> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure grants unlimited access.
 
  
 

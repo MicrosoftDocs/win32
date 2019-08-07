@@ -1,7 +1,7 @@
-﻿---
-Description: 'Decrypts a message by using Schannel.'
-ms.assetid: '5d7c8598-2d6b-4839-ae98-dff964bc962c'
-title: 'DecryptMessage (Schannel) function'
+---
+Description: Decrypts a message by using Schannel.
+ms.assetid: 5d7c8598-2d6b-4839-ae98-dff964bc962c
+title: DecryptMessage (Schannel) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -34,9 +34,9 @@ A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/wi
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
-When using the Schannel SSP with contexts that are not connection oriented, on input, the structure must contain four [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures. Exactly one buffer must be of type SECBUFFER\_DATA and contain an encrypted message, which is decrypted in place. The remaining buffers are used for output and must be of type SECBUFFER\_EMPTY. For connection-oriented contexts, a SECBUFFER\_DATA type buffer must be supplied, as noted for nonconnection-oriented contexts. Additionally, a second SECBUFFER\_TOKEN type buffer that contains a security token must also be supplied.
+When using the Schannel SSP with contexts that are not connection oriented, on input, the structure must contain four [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures. Exactly one buffer must be of type SECBUFFER\_DATA and contain an encrypted message, which is decrypted in place. The remaining buffers are used for output and must be of type SECBUFFER\_EMPTY. For connection-oriented contexts, a SECBUFFER\_DATA type buffer must be supplied, as noted for nonconnection-oriented contexts. Additionally, a second SECBUFFER\_TOKEN type buffer that contains a security token must also be supplied.
 
 *MessageSeqNo* \[in\]
 
@@ -94,5 +94,5 @@ The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the 
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (Schannel)**](encryptmessage--schannel.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

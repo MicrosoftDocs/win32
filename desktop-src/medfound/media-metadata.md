@@ -60,7 +60,7 @@ Shell metadata in general does not require Windows 7, but Media Foundation did 
 </tr>
 <tr class="odd">
 <td>Property keys are wide-character strings.</td>
-<td>Property keys are <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey"><strong>PROPERTYKEY</strong></a> values.</td>
+<td>Property keys are <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> values.</td>
 </tr>
 <tr class="even">
 <td>Property values are <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant"><strong>PROPVARIANT</strong></a> values.</td>

@@ -163,7 +163,7 @@ Other applications that need to monitor system state restores should store the d
 
 ## MaxShadowCopies
 
-The **MaxShadowCopies** registry value specifies the maximum number of [*client-accessible shadow copies*](https://docs.microsoft.com/windows/desktop/VSS/vssgloss-c) that can be stored on each volume of the computer. A client-accessible shadow copy is a shadow copy that is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context) enumeration. Client-accessible shadow copies are used by Shadow Copies for Shared Folders. For more information about shadow copies, see the [VSS](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) documentation.
+The **MaxShadowCopies** registry value specifies the maximum number of [*client-accessible shadow copies*](https://docs.microsoft.com/windows/desktop/VSS/vssgloss-c) that can be stored on each volume of the computer. A client-accessible shadow copy is a shadow copy that is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context) enumeration. Client-accessible shadow copies are used by Shadow Copies for Shared Folders. For more information about shadow copies, see the [VSS](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) documentation.
 
 If the **MaxShadowCopies** registry value does not exist, the backup application can create it under the following registry key:
 

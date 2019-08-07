@@ -345,7 +345,7 @@ When <a href="imsrdpclientnonscriptable3-enablecredsspsupport"><strong>CredSspSu
 <tr class="odd">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable4-publishercertificatechain"><strong>PublisherCertificateChain</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
+<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices"><strong>RedirectDynamicDevices</strong></a><br/></td>

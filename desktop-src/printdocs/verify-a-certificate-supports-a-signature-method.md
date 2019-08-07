@@ -179,7 +179,7 @@ SupportsSignatureAlgorithm (
 [**CryptFindOIDInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo)
 </dt> <dt>
 
-[**CRYPT\_OID\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info)
+[**CRYPT\_OID\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info)
 </dt> <dt>
 
 **CryptXmlEnumAlgorithmInfo**

@@ -239,13 +239,13 @@ End Sub
 
 <dl> <dt>
 
-[**CLIENTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_clientproperties)
+[**CLIENTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-clientproperties)
 </dt> <dt>
 
 [Enumerating Objects in a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-enumerating-objects-in-a-collection)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> <dt>
 
 [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
@@ -254,7 +254,7 @@ End Sub
 [**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
 </dt> <dt>
 
-[**RADIUSPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties)
+[**RADIUSPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)
 </dt> </dl>
 
  

@@ -1,7 +1,7 @@
-﻿---
-Description: 'Encrypts a message to provide privacy by using NTLM.'
-ms.assetid: '852a4624-792d-4f7d-bd3e-5a28692e2ef3'
-title: 'EncryptMessage (NTLM) function'
+---
+Description: Encrypts a message to provide privacy by using NTLM.
+ms.assetid: 852a4624-792d-4f7d-bd3e-5a28692e2ef3
+title: EncryptMessage (NTLM) function
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -41,13 +41,13 @@ KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/><
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structures that can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures that can be of type SECBUFFER\_DATA. That buffer contains the message to be encrypted. The message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER\_READONLY attribute.
 
-The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
+The length of the [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structure that contains the message must be no greater than **cbMaximumMessage**, which is obtained from the [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md) (SECPKG\_ATTR\_STREAM\_SIZES) function.
 
-Applications that do not use SSL must supply a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer) of type SECBUFFER\_PADDING.
+Applications that do not use SSL must supply a [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) of type SECBUFFER\_PADDING.
 
 *MessageSeqNo* \[in\]
 
@@ -106,5 +106,5 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 - [**DecryptMessage (NTLM)**](decryptmessage--ntlm.md)
 - [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md)
 - [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-_secbuffer)
+- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)

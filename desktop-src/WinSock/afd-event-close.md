@@ -4,12 +4,12 @@ ms.assetid: C59B2B51-288A-46C9-B390-26A18DB0C2FB
 title: AFD_EVENT_CLOSE event
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - AFD_EVENT_CLOSE
-api_type: 
+api_type:
 - NA
 api_location: 
 ---
@@ -102,7 +102,7 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 [Control of Winsock Tracing](control-of-winsock-tracing.md)
 </dt> <dt>
 
-[**EVENT\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor)
+[**EVENT\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
 </dt> <dt>
 
 [Winsock Tracing](winsock-tracing.md)

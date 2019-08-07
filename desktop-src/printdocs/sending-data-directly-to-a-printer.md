@@ -13,7 +13,7 @@ The code sample later in this topic shows how to send printer control data direc
 The following steps describe how to send data directly to a printer. These steps are also illustrated in the code example that follows.
 
 1.  Call [**OpenPrinter**](openprinter.md) to get a handle to the printer.
-2.  Initialize a [**DOCINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa) structure with the printer data.
+2.  Initialize a [**DOCINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa) structure with the printer data.
 3.  Call [**StartDocPrinter**](startdocprinter.md) to indicate that the application will be sending document data to the printer.
 4.  Call [**StartPagePrinter**](startpageprinter.md) to indicate that the application will be sending a new page to the printer.
 5.  Call [**WritePrinter**](writeprinter.md) to send the data.
