@@ -1,0 +1,95 @@
+- name: "DXCore"
+  href: dxcore.md
+  items: 
+  - name: "DXCore programming guide"
+    href: dxcore-programming-guide.md
+    items: 
+    - name: "Using DXCore to enumerate adapters"
+      href: dxcore-enum-adapters.md
+    - name: "Minimal DXCore application"
+      href: dxcore-source-code.md
+  - name: "DXCore Reference"
+    href: dxcore-reference.md
+    items: 
+    - name: "DXCore adapter attribute GUIDs"
+      href: dxcore-adapter-attribute-guids.md
+    - name: "DXCore callbacks"
+      href: dxcore-callbacks.md
+      items: 
+      - name: "PFN_DXCORE_NOTIFICATION_CALLBACK"
+        href: /windows/desktop/dxcore/dxcore_interface/nc-dxcore_interface-pfn_dxcore_notification_callback
+    - name: "DXCore enumerations"
+      href: dxcore-enumerations.md
+      items: 
+      - name: "DXCoreAdapterProperty"
+        href: /windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty
+      - name: "DXCoreAdapterState"
+        href: /windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate
+      - name: "DXCoreNotificationType"
+        href: /windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype
+      - name: "DXCoreSegmentGroup"
+        href: /windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup
+    - name: "DXCore functions"
+      href: dxcore-functions.md
+      items: 
+      - name: "DXCoreCreateAdapterFactory"
+        href: /windows/desktop/dxcore/dxcore/nf-dxcore-dxcorecreateadapterfactory
+    - name: "DXCore interfaces"
+      href: dxcore-interfaces.md
+      items: 
+      - name: "IDXCoreAdapter"
+        href: /windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter
+        items: 
+        - name: "GetProperty"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty
+        - name: "GetPropertySize"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize
+        - name: "IsAttributeSupported"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported
+        - name: "IsPropertySupported"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported
+        - name: "IsQueryStateSupported"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported
+        - name: "IsSetStateSupported"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-issetstatesupported
+        - name: "IsValid"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isvalid
+        - name: "QueryState"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate
+        - name: "SetState"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate
+      - name: "IDXCoreAdapterFactory"
+        href: /windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory
+        items: 
+        - name: "CreateAdapterList"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist
+        - name: "GetAdapterByLuid"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-getadapterbyluid
+        - name: "IsNotificationTypeSupported"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-isnotificationtypesupported
+        - name: "RegisterEventNotification"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification
+        - name: "UnregisterEventNotification"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification
+      - name: "IDXCoreAdapterList"
+        href: /windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist
+        items: 
+        - name: "GetAdapter"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadapter
+        - name: "GetAdapterCount"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadaptercount
+        - name: "IsStale"
+          href: /windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale
+    - name: "DXCore structures"
+      href: dxcore-structures.md
+      items: 
+      - name: "DXCoreAdapterMemoryBudget"
+        href: /windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget
+      - name: "DXCoreAdapterMemoryBudgetNodeSegmentGroup"
+        href: /windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup
+      - name: "DXCoreAdapterMemoryBudgetSetReservation"
+        href: /windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetsetreservation
+      - name: "DXCoreExtendedSupportInfo"
+        href: /windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreextendedsupportinfo
+      - name: "DXCoreHardwareID"
+        href: /windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcorehardwareid
