@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 # Reading from a Stream
 
-You can retrieve information about an open stream by using the [**AVIStreamInfo**](/windows/desktop/api/Vfw/nf-vfw-avistreaminfoa) function. This function fills the [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-_avistreaminfoa) structure with information such as the type of data in the stream, the compression method used when writing stream data, the suggested buffer size, the playback rate, and a text description of the stream.
+You can retrieve information about an open stream by using the [**AVIStreamInfo**](/windows/desktop/api/Vfw/nf-vfw-avistreaminfoa) function. This function fills the [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-avistreaminfoa) structure with information such as the type of data in the stream, the compression method used when writing stream data, the suggested buffer size, the playback rate, and a text description of the stream.
 
-Some members of the [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-_avistreaminfoa) structure are also present in the [**AVIFILEINFO**](/windows/desktop/api/Vfw/ns-vfw-_avifileinfoa) structure. The information in the **AVIFILEINFO** structure applies to the entire file. The information in the **AVISTREAMINFO** structure is specific to the accessed stream and has precedence over the information in the **AVIFILEINFO** structure.
+Some members of the [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-avistreaminfoa) structure are also present in the [**AVIFILEINFO**](/windows/desktop/api/Vfw/ns-vfw-avifileinfoa) structure. The information in the **AVIFILEINFO** structure applies to the entire file. The information in the **AVISTREAMINFO** structure is specific to the accessed stream and has precedence over the information in the **AVIFILEINFO** structure.
 
 If a stream has supplementary information associated with it, you can retrieve this information by using the [**AVIStreamReadData**](/windows/desktop/api/Vfw/nf-vfw-avistreamreaddata) function. This function returns the information in an application-supplied buffer. Supplementary stream information might include configuration settings for the compression and decompression methods used on a stream. You can obtain the required buffer size by using the [**AVIStreamDataSize**](/windows/desktop/api/Vfw/nf-vfw-avistreamdatasize) macro.
 

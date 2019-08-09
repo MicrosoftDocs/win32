@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 
 | Constant                  | Value      | Description                                                                                                                                                                                |
 |---------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RTM\_ROUTE\_CHANGE\_FIRST | 0x01       | Indicates that the routing table manager should not check the **Neighbour** member of the [**RTM\_ROUTE\_INFO**](/windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_route_info) structure when determining when two routes are equal. |
+| RTM\_ROUTE\_CHANGE\_FIRST | 0x01       | Indicates that the routing table manager should not check the **Neighbour** member of the [**RTM\_ROUTE\_INFO**](/windows/desktop/api/Rtmv2/ns-rtmv2-rtm_route_info) structure when determining when two routes are equal. |
 | RTM\_ROUTE\_CHANGE\_NEW   | 0x02       | Returned by the routing table manager to indicate a new route was created.                                                                                                                 |
 | RTM\_ROUTE\_CHANGE\_BEST  | 0x00010000 | Returned by the routing table manager to indicate that the route that was added or updated was the best route, or that because of the change, a new route became the best route.           |
 

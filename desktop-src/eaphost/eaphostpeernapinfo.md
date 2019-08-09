@@ -44,7 +44,7 @@ typedef struct _tagEapHostPeerNapInfo {
 **isolationState**
 </dt> <dd>
 
-An [**ISOLATION\_STATE**](/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state) structure that specifies the NAP isolation state of a computer. The isolation state determines the level of network access granted.
+An [**ISOLATION\_STATE**](/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state) structure that specifies the NAP isolation state of a computer. The isolation state determines the level of network access granted.
 
 </dd> <dt>
 

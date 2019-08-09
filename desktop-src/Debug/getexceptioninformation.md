@@ -38,10 +38,10 @@ This macro has no parameters.
 
 ## Return value
 
-A pointer to an [**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-_exception_pointers) structure that contains pointers to the following two structures:
+A pointer to an [**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-exception_pointers) structure that contains pointers to the following two structures:
 
--   [**EXCEPTION\_RECORD**](/windows/desktop/api/WinNT/ns-winnt-_exception_record) structure that contains a description of the exception.
--   [**CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-_arm64_nt_context) structure that contains the computer state information.
+-   [**EXCEPTION\_RECORD**](/windows/desktop/api/WinNT/ns-winnt-exception_record) structure that contains a description of the exception.
+-   [**CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-arm64_nt_context) structure that contains the computer state information.
 
 ## Remarks
 
@@ -49,7 +49,7 @@ The filter expression (from which the function is called) is evaluated if an exc
 
 The filter expression can invoke a filter function. The filter function cannot call **GetExceptionInformation**. However, the return value of **GetExceptionInformation** can be passed as a parameter to a filter function.
 
-To pass the [**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-_exception_pointers) information to the exception-handler block, the filter expression or filter function must copy the pointer or the data to safe storage that the handler can later access.
+To pass the [**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-exception_pointers) information to the exception-handler block, the filter expression or filter function must copy the pointer or the data to safe storage that the handler can later access.
 
 In the case of nested handlers, each filter expression is evaluated until one is evaluated as **EXCEPTION\_EXECUTE\_HANDLER** or **EXCEPTION\_CONTINUE\_EXECUTION**. Each filter expression can invoke **GetExceptionInformation** to get exception information.
 
@@ -68,13 +68,13 @@ In the case of nested handlers, each filter expression is evaluated until one is
 
 <dl> <dt>
 
-[**CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-_arm64_nt_context)
+[**CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-arm64_nt_context)
 </dt> <dt>
 
-[**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-_exception_pointers)
+[**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-exception_pointers)
 </dt> <dt>
 
-[**EXCEPTION\_RECORD**](/windows/desktop/api/WinNT/ns-winnt-_exception_record)
+[**EXCEPTION\_RECORD**](/windows/desktop/api/WinNT/ns-winnt-exception_record)
 </dt> <dt>
 
 [**GetExceptionCode**](getexceptioncode.md)

@@ -48,7 +48,7 @@ Pointer to a GUID that specifies the device to create.
 *pUncompData* 
 </dt> <dd>
 
-Pointer to a [**DXVAUncompDataInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvauncompdatainfo) structure that specifies the format of the uncompressed image.
+Pointer to a [**DXVAUncompDataInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxvauncompdatainfo) structure that specifies the format of the uncompressed image.
 
 </dd> <dt>
 

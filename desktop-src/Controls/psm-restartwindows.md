@@ -49,7 +49,7 @@ An application should send this message only in response to the [PSN\_APPLY](psn
 This message causes the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function to return the ID\_PSRESTARTWINDOWS value, but only if the user clicks the **OK** button to close the property sheet. It is the application's responsibility to restart Windows, which can be done by using the [**ExitWindowsEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex) function.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).
 
  
 

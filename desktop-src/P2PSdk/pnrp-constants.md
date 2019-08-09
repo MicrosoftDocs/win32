@@ -14,9 +14,9 @@ The PNRP Namespace Provider API uses the following constants.
 
 | Constant                                                 | Description                                                |
 |----------------------------------------------------------|------------------------------------------------------------|
-| [**PNRP\_CLOUD\_FLAGS**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_flags)           | Specifies the validity of a cloud name.                    |
-| [**PNRP\_CLOUD\_STATE**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_state)           | Specifies the different states a PNRP cloud can be in.     |
-| [**PNRP\_RESOLVE\_CRITERIA**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria) | Specifies the criteria that PNRP uses to resolve searches. |
+| [**PNRP\_CLOUD\_FLAGS**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_flags)           | Specifies the validity of a cloud name.                    |
+| [**PNRP\_CLOUD\_STATE**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_state)           | Specifies the different states a PNRP cloud can be in.     |
+| [**PNRP\_RESOLVE\_CRITERIA**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-pnrp_resolve_criteria) | Specifies the criteria that PNRP uses to resolve searches. |
 
 
 

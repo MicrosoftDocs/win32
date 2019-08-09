@@ -83,7 +83,7 @@ A string that describes the trigger. This string is created by the Task Schedule
 <span id="_msb_trigger_structures_gly"></span><span id="_MSB_TRIGGER_STRUCTURES_GLY"></span>**trigger structures**
 </dt> <dd>
 
-The [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger) structure used when setting or retrieving the criteria that defines the trigger. The criteria includes when the trigger will fire, and the type of the trigger.
+The [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-task_trigger) structure used when setting or retrieving the criteria that defines the trigger. The criteria includes when the trigger will fire, and the type of the trigger.
 
 </dd> </dl>
 

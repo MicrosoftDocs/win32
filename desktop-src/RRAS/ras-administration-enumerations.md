@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The [RAS Administration Functions](ras-administration-functions.md) use the following enumerated types:
 
--   [**RAS\_HARDWARE\_CONDITION**](/windows/desktop/api/Mprapi/ne-mprapi-_ras_hardware_condition)
--   [**RAS\_PORT\_CONDITION**](/windows/desktop/api/Mprapi/ne-mprapi-_ras_port_condition)
--   [**RAS\_QUARANTINE\_STATE**](/windows/desktop/api/Mprapi/ne-mprapi-_ras_quarantine_state)
+-   [**RAS\_HARDWARE\_CONDITION**](/windows/desktop/api/Mprapi/ne-mprapi-ras_hardware_condition)
+-   [**RAS\_PORT\_CONDITION**](/windows/desktop/api/Mprapi/ne-mprapi-ras_port_condition)
+-   [**RAS\_QUARANTINE\_STATE**](/windows/desktop/api/Mprapi/ne-mprapi-ras_quarantine_state)
 
  
 

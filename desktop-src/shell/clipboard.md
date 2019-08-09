@@ -56,9 +56,9 @@ These formats are used to transfer one or more files or other Shell objects.
 
 ### CF\_HDROP
 
-This clipboard format is used when transferring the locations of a group of existing files. Unlike the other Shell formats, it is predefined, so there is no need to call [RegisterClipboardFormat](https://go.microsoft.com/fwlink/p/?linkid=215068). The data consists of an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_dropfiles) structure as its **hGlobal** member.
+This clipboard format is used when transferring the locations of a group of existing files. Unlike the other Shell formats, it is predefined, so there is no need to call [RegisterClipboardFormat](https://go.microsoft.com/fwlink/p/?linkid=215068). The data consists of an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) structure as its **hGlobal** member.
 
-The **pFiles** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_dropfiles) structure contains an offset to a double **null**-terminated character array that contains the file names. If you are extracting a CF\_HDROP format from a data object, you can use [**DragQueryFile**](/windows/desktop/api/Shellapi/nf-shellapi-dragqueryfilea) to extract individual file names from the global memory object. If you are creating a CF\_HDROP format to place in a data object, you will need to construct the file name array.
+The **pFiles** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) structure contains an offset to a double **null**-terminated character array that contains the file names. If you are extracting a CF\_HDROP format from a data object, you can use [**DragQueryFile**](/windows/desktop/api/Shellapi/nf-shellapi-dragqueryfilea) to extract individual file names from the global memory object. If you are creating a CF\_HDROP format to place in a data object, you will need to construct the file name array.
 
 The file name array consists of a series of strings, each containing one file's fully qualified path, including the terminating **NULL** character. An additional **null** character is appended to the final string to terminate the array. For example, if the files c:\\temp1.txt and c:\\temp2.txt are being transferred, the character array looks like this:
 
@@ -74,7 +74,7 @@ c:\temp1.txt'\0'c:\temp2.txt'\0''\0'
 
  
 
-If the object was copied to the clipboard as part of a drag-and-drop operation, the **pt** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_dropfiles) structure contains the coordinates of the point where the object was dropped. You can use [**DragQueryPoint**](/windows/desktop/api/Shellapi/nf-shellapi-dragquerypoint) to extract the cursor coordinates.
+If the object was copied to the clipboard as part of a drag-and-drop operation, the **pt** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) structure contains the coordinates of the point where the object was dropped. You can use [**DragQueryPoint**](/windows/desktop/api/Shellapi/nf-shellapi-dragquerypoint) to extract the cursor coordinates.
 
 If this format is present in a data object, an OLE drag loop simulates [**WM\_DROPFILES**](wm-dropfiles.md) functionality with non-OLE drop targets. This is important if your application is the source of a drag-and-drop operation on a Windows 3.1 system.
 
@@ -112,7 +112,7 @@ If only drive letters will be used to mount volumes, only [CF\_HDROP](https://do
 
 This format identifier is used when transferring the locations of one or more existing namespace objects. It is used in much the same way as [CF\_HDROP](https://docs.microsoft.com/windows), but it contains PIDLs instead of file system paths. Using PIDLs allows the CFSTR\_SHELLIDLIST format to handle virtual objects as well as file system objects. The data is an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a [**CIDA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida) structure.
 
-The **aoffset** member of the [**CIDA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida) structure is an array containing offsets to the beginning of the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure for each PIDL that is being transferred. To extract a particular PIDL, first determine its index. Then, add the **aoffset** value that corresponds to that index to the address of the **CIDA** structure.
+The **aoffset** member of the [**CIDA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida) structure is an array containing offsets to the beginning of the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure for each PIDL that is being transferred. To extract a particular PIDL, first determine its index. Then, add the **aoffset** value that corresponds to that index to the address of the **CIDA** structure.
 
 The first element of **aoffset** contains an offset to the fully qualified PIDL of a parent folder. If this PIDL is empty, the parent folder is the desktop. Each of the remaining elements of the array contains an offset to one of the PIDLs to be transferred. All of these PIDLs are relative to the PIDL of the parent folder.
 
@@ -128,7 +128,7 @@ The following two macros can be used to retrieve PIDLs from a [**CIDA**](/window
 
 
 > [!Note]  
-> The value that is returned by these macros is a pointer to the PIDL's [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure. Since these structures vary in length, you must determine the end of the structure by walking through each of the **ITEMIDLIST** structure's [**SHITEMID**](/windows/desktop/api/Shtypes/ns-shtypes-_shitemid) structures until you reach the two-byte **NULL** that marks the end.
+> The value that is returned by these macros is a pointer to the PIDL's [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure. Since these structures vary in length, you must determine the end of the structure by walking through each of the **ITEMIDLIST** structure's [**SHITEMID**](/windows/desktop/api/Shtypes/ns-shtypes-shitemid) structures until you reach the two-byte **NULL** that marks the end.
 
  
 
@@ -147,11 +147,11 @@ The CFSTR\_SHELLIDLIST format can be used to transfer both file system and virtu
 
 ### CFSTR\_NETRESOURCES
 
-This format identifier is used when transferring network resources, such as a domain or server. The data is an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a [**NRESARRAY**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_nresarray) structure. The **nr** member of that structure indicates a [**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx) structure whose **lpRemoteName** member contains a **null**-terminated string identifying the network resource. The drop target can then use the data with any of the [Windows Networking (WNet)](https://msdn.microsoft.com/en-us/library/Aa385406(v=VS.85).aspx) API functions, such as [**WNetAddConnection**](https://msdn.microsoft.com/en-us/library/Aa385410(v=VS.85).aspx), to perform network operations on the object.
+This format identifier is used when transferring network resources, such as a domain or server. The data is an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a [**NRESARRAY**](/windows/desktop/api/shlobj_core/ns-shlobj_core-nresarray) structure. The **nr** member of that structure indicates a [**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx) structure whose **lpRemoteName** member contains a **null**-terminated string identifying the network resource. The drop target can then use the data with any of the [Windows Networking (WNet)](https://msdn.microsoft.com/en-us/library/Aa385406(v=VS.85).aspx) API functions, such as [**WNetAddConnection**](https://msdn.microsoft.com/en-us/library/Aa385410(v=VS.85).aspx), to perform network operations on the object.
 
 ### CFSTR\_PRINTERGROUP
 
-This format identifier is used when transferring the friendly names of printers. The data is an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a string in the same format as that used with [CF\_HDROP](https://docs.microsoft.com/windows). However, the **pFiles** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_dropfiles) structure contains one or more friendly names of printers instead of file paths.
+This format identifier is used when transferring the friendly names of printers. The data is an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a string in the same format as that used with [CF\_HDROP](https://docs.microsoft.com/windows). However, the **pFiles** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) structure contains one or more friendly names of printers instead of file paths.
 
 ### CFSTR\_INETURL
 

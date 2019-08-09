@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Drawing a Shaded Rectangle
 
-To draw a shaded rectangle, define a [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-_trivertex) array with two elements and a single [**GRADIENT\_RECT**](/windows/desktop/api/Wingdi/ns-wingdi-_gradient_rect) structure. The following code example shows how to draw a shaded rectangle using the [**GradientFill**](/windows/desktop/api/WinGdi/nf-wingdi-gradientfill) function with the GRADIENT\_FILL\_RECT mode defined.
+To draw a shaded rectangle, define a [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-trivertex) array with two elements and a single [**GRADIENT\_RECT**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_rect) structure. The following code example shows how to draw a shaded rectangle using the [**GradientFill**](/windows/desktop/api/WinGdi/nf-wingdi-gradientfill) function with the GRADIENT\_FILL\_RECT mode defined.
 
 
 ```C++
@@ -62,13 +62,13 @@ The following image shows the drawing output of the preceding code example.
 [**EMRGRADIENTFILL**](/windows/desktop/api/Wingdi/ns-wingdi-tagemrgradientfill)
 </dt> <dt>
 
-[**GRADIENT\_RECT**](/windows/desktop/api/Wingdi/ns-wingdi-_gradient_rect)
+[**GRADIENT\_RECT**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_rect)
 </dt> <dt>
 
 [**GradientFill**](/windows/desktop/api/WinGdi/nf-wingdi-gradientfill)
 </dt> <dt>
 
-[**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-_trivertex)
+[**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-trivertex)
 </dt> </dl>
 
  

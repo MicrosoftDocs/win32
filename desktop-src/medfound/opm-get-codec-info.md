@@ -15,8 +15,8 @@ Gets the merit value of a hardware codec.
 |              |                                                                                           |
 |--------------|-------------------------------------------------------------------------------------------|
 | Request GUID | **OPM\_GET\_CODEC\_INFO**                                                                 |
-| Input data   | An [**OPM\_GET\_CODEC\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_codec_info_parameters) structure   |
-| Return data  | An [**OPM\_GET\_CODEC\_INFO\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_codec_info_information) structure |
+| Input data   | An [**OPM\_GET\_CODEC\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_codec_info_parameters) structure   |
+| Return data  | An [**OPM\_GET\_CODEC\_INFO\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_codec_info_information) structure |
 
 
 

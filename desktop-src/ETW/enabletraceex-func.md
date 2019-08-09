@@ -130,7 +130,7 @@ Optional information that ETW can include when writing the event. The data is wr
 *EnableFilterDesc* \[in, optional\]
 </dt> <dd>
 
-An [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structure that points to the filter data. The provider uses to filter data to prevent events that match the filter criteria from being written to the session; the provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
+An [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structure that points to the filter data. The provider uses to filter data to prevent events that match the filter criteria from being written to the session; the provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
 
 A session can call the [**TdhEnumerateProviderFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviderfilters) function to determine the filters that it can pass to the provider.
 

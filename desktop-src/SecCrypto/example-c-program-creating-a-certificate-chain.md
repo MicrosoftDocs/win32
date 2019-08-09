@@ -12,7 +12,7 @@ The following example creates and installs a nondefault certificate chain engine
 
 This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions:
 
--   Preparing to create a nondefault certificate chain engine by declaring and initializing a [**CERT\_CHAIN\_ENGINE\_CONFIG**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_chain_engine_config) data structure.
+-   Preparing to create a nondefault certificate chain engine by declaring and initializing a [**CERT\_CHAIN\_ENGINE\_CONFIG**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_chain_engine_config) data structure.
 -   Creating the search engine using [**CertCreateCertificateChainEngine**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecertificatechainengine).
 -   Using [**CertOpenSystemStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopensystemstorea) to open the My system store.
 -   Retrieving all of the certificates from the open store using [**CertEnumCertificatesInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumcertificatesinstore) in a loop.

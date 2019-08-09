@@ -14,9 +14,9 @@ This section lists the available status requests for [Output Protection Manager]
 
 |              |                                                                                                                                                            |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Request GUID | Identifies the request. Set the **guidSetting** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure equal to this value. |
-| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure.                      |
-| Output data  | Specifies how to interpret the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure.         |
+| Request GUID | Identifies the request. Set the **guidSetting** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure equal to this value. |
+| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure.                      |
+| Output data  | Specifies how to interpret the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure.         |
 
 
 

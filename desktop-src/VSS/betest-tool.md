@@ -189,7 +189,7 @@ Stops BETest when the first writer error is encountered.
 <span id="_T_BackupType"></span><span id="_t_backuptype"></span><span id="_T_BACKUPTYPE"></span>**/T** *BackupType*
 </dt> <dd>
 
-Specifies the backup type. *BackupType* can be FULL, LOG, COPY, INCREMENTAL, or DIFFERENTIAL. For more information about backup types, see [**VSS\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_backup_type).
+Specifies the backup type. *BackupType* can be FULL, LOG, COPY, INCREMENTAL, or DIFFERENTIAL. For more information about backup types, see [**VSS\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_backup_type).
 
 </dd> <dt>
 

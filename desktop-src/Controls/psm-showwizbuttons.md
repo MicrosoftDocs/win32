@@ -62,7 +62,7 @@ No return value.
 
 Wizards display either three or four buttons below each page. This message is used to specify which buttons are visible. Wizards normally display **Back**, **Cancel**, and either a **Next** or **Finish** button. The **Cancel** button is always visible.
 
-Typically, set **PSWIZB\_FINISH** or **PSWIZB\_DISABLEDFINISH** to replace the **Next** button with a **Finish** button. To display **Next** and **Finish** buttons simultaneously, set the **PSH\_WIZARDHASFINISH** flag in the **dwFlags** member of the [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2) structure when you create the wizard. Every page will then display all four buttons: **Back**, **Next**, **Cancel**, and **Finish**.
+Typically, set **PSWIZB\_FINISH** or **PSWIZB\_DISABLEDFINISH** to replace the **Next** button with a **Finish** button. To display **Next** and **Finish** buttons simultaneously, set the **PSH\_WIZARDHASFINISH** flag in the **dwFlags** member of the [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure when you create the wizard. Every page will then display all four buttons: **Back**, **Next**, **Cancel**, and **Finish**.
 
 If you use the [**PropSheet\_ShowWizButtons**](/windows/desktop/api/Prsht/nf-prsht-propsheet_showwizbuttons) macro to send this message, it will be posted. At any other time, you can use [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) to send **PSM\_SHOWWIZBUTTONS**.
 

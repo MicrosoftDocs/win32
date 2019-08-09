@@ -27,9 +27,9 @@ The network management get functions are listed following.
 
 The information returned by the [**NetQueryDisplayInformation**](/windows/desktop/api/Lmaccess/nf-lmaccess-netquerydisplayinformation) function is available at the following levels:
 
--   [**NET\_DISPLAY\_GROUP**](/windows/desktop/api/Lmaccess/ns-lmaccess-_net_display_group)
--   [**NET\_DISPLAY\_MACHINE**](/windows/desktop/api/Lmaccess/ns-lmaccess-_net_display_machine)
--   [**NET\_DISPLAY\_USER**](/windows/desktop/api/Lmaccess/ns-lmaccess-_net_display_user)
+-   [**NET\_DISPLAY\_GROUP**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_group)
+-   [**NET\_DISPLAY\_MACHINE**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_machine)
+-   [**NET\_DISPLAY\_USER**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_user)
 
  
 

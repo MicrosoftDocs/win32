@@ -153,7 +153,7 @@ HRESULT hr = factory->UnregisterEventNotification(m_eventCookie);
 ## Display information
 
 > [!NOTE]
-> DXCore doesn't itself provide any display information. Where necessary, you should use the Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) class to retrieve this information. An adapter's [**LUID**](/windows/win32/api/winnt/ns-winnt-_luid) provides a common identifier that you can use to map a DXCore adapter to [**DisplayMonitor.DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) information. To obtain an adapter's LUID, pass [**DXCoreAdapterProperty::InstanceLuid**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) to the [**IDXCoreAdapter::GetProperty**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty) method.
+> DXCore doesn't itself provide any display information. Where necessary, you should use the Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) class to retrieve this information. An adapter's [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) provides a common identifier that you can use to map a DXCore adapter to [**DisplayMonitor.DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) information. To obtain an adapter's LUID, pass [**DXCoreAdapterProperty::InstanceLuid**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) to the [**IDXCoreAdapter::GetProperty**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty) method.
 
 ## See also
 

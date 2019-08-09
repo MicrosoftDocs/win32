@@ -14,7 +14,7 @@ The network management enumerations include the following:
 
 | Enumerations                                 | Description                                                                                  |
 |----------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**DSREG\_JOIN\_TYPE**](/windows/desktop/api/lmjoin/ne-lmjoin-_dsreg_join_type) | Specifies the possible ways that a device can be joined to Microsoft Azure Active Directory. |
+| [**DSREG\_JOIN\_TYPE**](/windows/desktop/api/lmjoin/ne-lmjoin-dsreg_join_type) | Specifies the possible ways that a device can be joined to Microsoft Azure Active Directory. |
 
 
 

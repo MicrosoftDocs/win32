@@ -22,7 +22,7 @@ The following enumeration types are used with Pulse Width Modulation:
 
 | Topic                                            | Description                                                                                                  |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**PWM\_POLARITY**](/windows/desktop/api/Pwm/ne-pwm-_pwm_polarity)<br/> | Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.<br/> |
+| [**PWM\_POLARITY**](/windows/desktop/api/Pwm/ne-pwm-pwm_polarity)<br/> | Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.<br/> |
 
 
 

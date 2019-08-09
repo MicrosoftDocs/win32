@@ -36,7 +36,7 @@ To get the number of media types, call the [**IAMStreamConfig::GetNumberOfCapabi
 -   The number of media types.
 -   The size of the structure that holds the capabilities information.
 
-The size value is necessary because the [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) interface is used for both audio and video (and could be extended to other media types). For video, the capabilities are described using the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps) structure, while audio uses the [**AUDIO\_STREAM\_CONFIG\_CAPS**](/windows/desktop/api/strmif/ns-strmif-_audio_stream_config_caps) structure.
+The size value is necessary because the [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) interface is used for both audio and video (and could be extended to other media types). For video, the capabilities are described using the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structure, while audio uses the [**AUDIO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-audio_stream_config_caps) structure.
 
 To enumerate the media types, call the [**IAMStreamConfig::GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method with a zero-based index. The **GetStreamCaps** method returns a media type and the corresponding capability structure:
 
@@ -80,7 +80,7 @@ hr = pConfig->SetFormat(pmtConfig);
 
 If the pin is not connected, it will attempt to use this format when it does connect. If the pin is already connected, it attempts to reconnect using the new format. In either case, it is possible that the downstream filter will reject the format.
 
-You can also modify the media type before passing it to the [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) method. This is where the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps) structure comes in. It describes all of the valid ways to change the media type. To use this information, you must understand the details of that particular media type.
+You can also modify the media type before passing it to the [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) method. This is where the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structure comes in. It describes all of the valid ways to change the media type. To use this information, you must understand the details of that particular media type.
 
 For example, suppose that [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) returns a 24-bit RGB format, with a frame size of 320 x 240 pixels. You can get this information by examining the major type, subtype, and format block of the media type:
 
@@ -101,7 +101,7 @@ if ((pmtConfig.majortype == MEDIATYPE_Video) &&
 
 
 
-The [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps) structure gives the minimum and maximum width and height that can be used for this media type. It also gives you the "step" size, which defines the increments by which you can adjust the width or height. For example, the device might return the following:
+The [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structure gives the minimum and maximum width and height that can be used for this media type. It also gives you the "step" size, which defines the increments by which you can adjust the width or height. For example, the device might return the following:
 
 -   MinOutputSize: 160 x 120
 -   MaxOutputSize: 320 x 240
@@ -125,7 +125,7 @@ pVih->bmiHeader.biSizeImage = DIBSIZE(pVih->bmiHeader);
 
 Then pass the media type to the [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) method, as described previously.
 
-The **MinFrameInterval** and **MaxFrameInterval** members of [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps) are the minimum and maximum length of each video frame, which you can translate into frame rates as follows:
+The **MinFrameInterval** and **MaxFrameInterval** members of [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) are the minimum and maximum length of each video frame, which you can translate into frame rates as follows:
 
 `frames per second = 10,000,000 / frame duration`
 

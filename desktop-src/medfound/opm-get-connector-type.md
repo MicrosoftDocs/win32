@@ -16,7 +16,7 @@ Returns the physical connector type of the video output.
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CONNECTOR\_TYPE                                                   |
 | Input data   | None                                                                        |
-| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure |
+| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure |
 
 
 
@@ -24,7 +24,7 @@ Returns the physical connector type of the video output.
 
 ## Remarks
 
-The connector type is returned in the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure. The value of **ulInformation** is equal to one of the connector types listed in [**OPM Connector Type Flags**](opm-connector-type-flags.md).
+The connector type is returned in the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure. The value of **ulInformation** is equal to one of the connector types listed in [**OPM Connector Type Flags**](opm-connector-type-flags.md).
 
 In COPP emulation mode, the connector type might be combined with the **OPM\_COPP\_COMPATIBLE\_CONNECTOR\_TYPE\_INTERNAL** flag. Use a bitwise **AND** to extract the connector type:
 

@@ -183,7 +183,7 @@ End Sub
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**IMAPI\_MEDIA\_PHYSICAL\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-_imapi_media_physical_type)
+[**IMAPI\_MEDIA\_PHYSICAL\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type)
 </dt> <dt>
 
 [**IDiscMaster2**](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)

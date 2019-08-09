@@ -865,7 +865,7 @@ Sets or retrieves an unsigned long integer value that contains the time-out valu
 
 
 
-Gets a pointer to [**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_bindings) structure that specifies a Channel Binding Token (CBT).
+Gets a pointer to [**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings) structure that specifies a Channel Binding Token (CBT).
 
 A Channel Binding Token is a property of a secure transport channel and is used to bind an authentication channel to the secure transport channel. This token can only be obtained by this option after an SSL connection has been established.
 
@@ -882,7 +882,7 @@ A Channel Binding Token is a property of a secure transport channel and is used 
 
 
 
-Retrieves the server certification context. **WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT** can be passed to obtain a duplicated pointer to the [**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) for a server certificate received during a negotiated SSL connection. The client must call [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) on the returned PCCERT\_CONTEXT pointer that is filled into the buffer.
+Retrieves the server certification context. **WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT** can be passed to obtain a duplicated pointer to the [**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) for a server certificate received during a negotiated SSL connection. The client must call [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) on the returned PCCERT\_CONTEXT pointer that is filled into the buffer.
 
 
 </dt> </dl> </dd> <dt>
@@ -1083,7 +1083,7 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_ASSURED\_NON\_BLOCKING\_CALLBACKS<br/>**BOOL** | X | \- | \- | X |
 | WINHTTP\_OPTION\_AUTOLOGON\_POLICY<br/>**DWORD** | \- | X | \- | X |
 | WINHTTP\_OPTION\_CALLBACK<br/>**LPVOID** | X | X | X | X |
-| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT<br/>[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) | \- | X | \- | X |
+| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT<br/>[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X |
 | WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST<br/>[**SecPkgContext\_IssuerListInfoEx**](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)\* | \- | X | X | \- |
 | WINHTTP\_OPTION\_CODEPAGE<br/>**DWORD** | X | \- | \- | X |
 | WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH<br/>**DWORD** | X | \- | \- | X |
@@ -1133,8 +1133,8 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_SECURITY\_FLAGS<br/>**DWORD** | \- | X | X | X |
 | WINHTTP\_OPTION\_SECURITY\_KEY\_BITNESS<br/>**DWORD** | \- | X | X | \- |
 | WINHTTP\_OPTION\_SEND\_TIMEOUT<br/>**DWORD** | X | X | X | X |
-| WINHTTP\_OPTION\_SERVER\_CBT<br/>[**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_bindings)\* | \- | X | X | \- |
-| WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT<br/>[**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) | \- | X | X | \- |
+| WINHTTP\_OPTION\_SERVER\_CBT<br/>[**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings)\* | \- | X | X | \- |
+| WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT<br/>[**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | X | \- |
 | WINHTTP\_OPTION\_SERVER\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- |
 | WINHTTP\_OPTION\_SPN<br/>**DWORD** | \- | X | \- | X |
 | WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVEN<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X |

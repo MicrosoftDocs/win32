@@ -12,7 +12,7 @@ This section contains information about the structures used with Direct3D.
 
 -   [**D3DADAPTER\_IDENTIFIER9**](d3dadapter-identifier9.md)
 -   [**D3DBOX**](d3dbox.md)
--   [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9)
+-   [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9)
 -   [**D3DCLIPSTATUS9**](d3dclipstatus9.md)
 -   [**D3DCOLORVALUE**](d3dcolorvalue.md)
 -   
@@ -84,7 +84,7 @@ This section contains information about the structures used with Direct3D.
 
      
 
--   [**D3DPSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dpshadercaps2_0)
+-   [**D3DPSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dpshadercaps2_0)
 -   [**D3DRANGE**](d3drange.md)
 -   [**D3DRASTER\_STATUS**](d3draster-status.md)
 -   [**D3DRECT**](d3drect.md)
@@ -97,7 +97,7 @@ This section contains information about the structures used with Direct3D.
 -   [**D3DVERTEXELEMENT9**](d3dvertexelement9.md)
 -   [**D3DVIEWPORT9**](d3dviewport9.md)
 -   [**D3DVOLUME\_DESC**](d3dvolume-desc.md)
--   [**D3DVSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dvshadercaps2_0)
+-   [**D3DVSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dvshadercaps2_0)
 -   [**D3DXF\_FILELOADMEMORY**](d3dxf-fileloadmemory.md)
 -   [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry)
 -   [**XFILECOMPRESSEDANIMATIONSET**](xfilecompressedanimationset.md)

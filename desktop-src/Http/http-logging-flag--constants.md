@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 The **HTTP\_LOGGING\_FLAG\_** constants define the options to configure logging on the HTTP Server API.
 
-These constants are used in the [**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info) structure.
+These constants are used in the [**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-http_logging_info) structure.
 
 <dl> <dt>
 
@@ -88,7 +88,7 @@ This flag cannot be set if the **HTTP\_LOGGING\_FLAG\_LOG\_ERRORS\_ONLY** flag i
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info)
+[**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-http_logging_info)
 </dt> <dt>
 
 [**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty)

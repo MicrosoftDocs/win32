@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Process Memory Usage Information
 
-The [**GetProcessMemoryInfo**](/windows/desktop/api/Psapi/nf-psapi-getprocessmemoryinfo) function takes a process handle as input and fills a [**PROCESS\_MEMORY\_COUNTERS**](/windows/desktop/api/Psapi/ns-psapi-_process_memory_counters) structure with information about the memory statistics for the process. The **cb** member receives the size of the structure. The **PageFaultCount** member receives the number of page faults. The remaining members receive the current and peak memory usage in the following categories:
+The [**GetProcessMemoryInfo**](/windows/desktop/api/Psapi/nf-psapi-getprocessmemoryinfo) function takes a process handle as input and fills a [**PROCESS\_MEMORY\_COUNTERS**](/windows/desktop/api/Psapi/ns-psapi-process_memory_counters) structure with information about the memory statistics for the process. The **cb** member receives the size of the structure. The **PageFaultCount** member receives the number of page faults. The remaining members receive the current and peak memory usage in the following categories:
 
 -   working set
 -   paged pool

@@ -53,7 +53,7 @@ Specifies flags that modify window visual style attributes. Use one, or a bitwis
 **Reference**
 </dt> <dt>
 
-[**WTA\_OPTIONS**](/windows/desktop/api/Uxtheme/ns-uxtheme-_wta_options)
+[**WTA\_OPTIONS**](/windows/desktop/api/Uxtheme/ns-uxtheme-wta_options)
 </dt> <dt>
 
 [**SetWindowThemeNonClientAttributes**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowthemenonclientattributes)

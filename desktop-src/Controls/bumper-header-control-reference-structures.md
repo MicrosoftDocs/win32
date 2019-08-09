@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 -   [**HDHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_hittestinfo)
 -   [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema)
 -   [**HDLAYOUT**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_layout)
--   [**HDTEXTFILTER**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_textfiltera)
+-   [**HDTEXTFILTER**](/windows/desktop/api/Commctrl/ns-commctrl-hd_textfiltera)
 -   [**NMHDDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhddispinfoa)
 -   [**NMHDFILTERBTNCLICK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhdfilterbtnclick)
 -   [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera)

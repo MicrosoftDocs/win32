@@ -71,7 +71,7 @@ The ELS platform loads and manages all ELS services, making operation transparen
 
 After service enumeration, the application calls the [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) function to use a particular ELS service to map any text range of input text to output text. An example of text recognition is the use of a language detection service that receives a text segment and detects its most probable language.
 
-After the service has recognized the text, [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) returns with a [**MAPPING\_PROPERTY\_BAG**](/windows/desktop/api/Elscore/ns-elscore-_mapping_property_bag) structure populated with output data and properties produced by the service. To avoid memory leaks, the application must free the property bag by calling [**MappingFreePropertyBag**](/windows/desktop/api/Elscore/nf-elscore-mappingfreepropertybag) for each time that the [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) returns S\_OK. Usually the application does this either when it finishes using the output data or when the output data is no longer relevant because the input region of text has been modified, for example, edited or deleted. When the property bag is released, **MappingFreePropertyBag** returns.
+After the service has recognized the text, [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) returns with a [**MAPPING\_PROPERTY\_BAG**](/windows/desktop/api/Elscore/ns-elscore-mapping_property_bag) structure populated with output data and properties produced by the service. To avoid memory leaks, the application must free the property bag by calling [**MappingFreePropertyBag**](/windows/desktop/api/Elscore/nf-elscore-mappingfreepropertybag) for each time that the [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) returns S\_OK. Usually the application does this either when it finishes using the output data or when the output data is no longer relevant because the input region of text has been modified, for example, edited or deleted. When the property bag is released, **MappingFreePropertyBag** returns.
 
 Programming instructions for text recognition are provided in [Requesting Text Recognition](requesting-text-recognition.md).
 
@@ -81,7 +81,7 @@ When your application no longer requires ELS services, it calls [**MappingFreeSe
 
 ### Versioning
 
-Future versions of ELS will allow the ELS services to be updated. The application will be able to check the version numbers of the [**MAPPING\_SERVICE\_INFO**](/windows/desktop/api/Elscore/ns-elscore-_mapping_service_info) structure to detect any changes in the services.
+Future versions of ELS will allow the ELS services to be updated. The application will be able to check the version numbers of the [**MAPPING\_SERVICE\_INFO**](/windows/desktop/api/Elscore/ns-elscore-mapping_service_info) structure to detect any changes in the services.
 
 > [!Note]  
 > Your ELS application should not make the assumption that different versions of the same service can retrieve exactly the same results.

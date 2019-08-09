@@ -47,7 +47,7 @@ Returns **TRUE** if all pages successfully applied the changes, or **FALSE** oth
 The property sheet sends the [PSN\_KILLACTIVE](psn-killactive.md) notification code to the current page. If the current page returns **FALSE**, the property sheet sends the [PSN\_APPLY](psn-apply.md) notification code to all active pages. You can send the PSM\_APPLY message explicitly or by using the [**PropSheet\_Apply**](/windows/desktop/api/Prsht/nf-prsht-propsheet_apply) macro.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).
 
  
 

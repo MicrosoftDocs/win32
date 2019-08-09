@@ -25,7 +25,7 @@ You can copy one or more samples from a stream and paste them into an editable s
 
 You can duplicate an editable stream by using the [**EditStreamClone**](/windows/desktop/api/Vfw/nf-vfw-editstreamclone) function. This function returns a pointer to the stream interface of the new stream. You can copy these streams to the clipboard or use them to maintain a trail of edits made to a stream.
 
-You can change several of the characteristics of an editable stream by using the [**EditStreamSetInfo**](/windows/desktop/api/Vfw/nf-vfw-editstreamsetinfoa) function. This function updates the priority setting, language, scale and rate, starting time, quality setting, destination rectangle dimensions and coordinates, and the textual description of the stream. These items are stored in the [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-_avistreaminfoa) structure associated with the editable stream.
+You can change several of the characteristics of an editable stream by using the [**EditStreamSetInfo**](/windows/desktop/api/Vfw/nf-vfw-editstreamsetinfoa) function. This function updates the priority setting, language, scale and rate, starting time, quality setting, destination rectangle dimensions and coordinates, and the textual description of the stream. These items are stored in the [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-avistreaminfoa) structure associated with the editable stream.
 
 You can also change the textual description of an editable stream by using the [**EditStreamSetName**](/windows/desktop/api/Vfw/nf-vfw-editstreamsetnamea) function. This function updates the **szName** member of the **AVISTREAMINFO** structure associated with the editable stream.
 

@@ -36,7 +36,7 @@ TRBN_THUMBPOSCHANGING
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMTRBTHUMBPOSCHANGING**](/windows/desktop/api/Commctrl/ns-commctrl-tagtrbthumbposchanging) structure. The caller is responsible for allocating this structure and setting its members, including the members of the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure.
+Pointer to a [**NMTRBTHUMBPOSCHANGING**](/windows/desktop/api/Commctrl/ns-commctrl-tagtrbthumbposchanging) structure. The caller is responsible for allocating this structure and setting its members, including the members of the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure.
 
 </dd> </dl>
 

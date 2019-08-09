@@ -16,7 +16,7 @@ Specifies how a 3D video frame is stored in a media sample.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideo3DSampleFormat**](/windows/desktop/api/mfapi/ne-mfapi-_mfvideo3dsampleformat) enumeration.
+The value of this attribute is a member of the [**MFVideo3DSampleFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideo3dsampleformat) enumeration.
 
 A component that generates 3D video frames should set this attribute to **TRUE** on every media sample that contains a 3D frame. The attribute is ignored if the [MFSampleExtension\_3DVideo](mfsampleextension-3dvideo.md) attribute is **FALSE** or not set.
 

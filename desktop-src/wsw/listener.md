@@ -63,11 +63,11 @@ The following handle is part of the listener:
 
 The following structures are part of the listener:
 
--   [**WS\_CUSTOM\_LISTENER\_CALLBACKS**](/windows/desktop/api/WebServices/ns-webservices-_ws_custom_listener_callbacks)
--   [**WS\_DISALLOWED\_USER\_AGENT\_SUBSTRINGS**](/windows/desktop/api/WebServices/ns-webservices-_ws_disallowed_user_agent_substrings)
--   [**WS\_HOST\_NAMES**](/windows/desktop/api/WebServices/ns-webservices-_ws_host_names)
--   [**WS\_LISTENER\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-_ws_listener_properties)
--   [**WS\_LISTENER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_listener_property)
+-   [**WS\_CUSTOM\_LISTENER\_CALLBACKS**](/windows/desktop/api/WebServices/ns-webservices-ws_custom_listener_callbacks)
+-   [**WS\_DISALLOWED\_USER\_AGENT\_SUBSTRINGS**](/windows/desktop/api/WebServices/ns-webservices-ws_disallowed_user_agent_substrings)
+-   [**WS\_HOST\_NAMES**](/windows/desktop/api/WebServices/ns-webservices-ws_host_names)
+-   [**WS\_LISTENER\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-ws_listener_properties)
+-   [**WS\_LISTENER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_listener_property)
 
  
 

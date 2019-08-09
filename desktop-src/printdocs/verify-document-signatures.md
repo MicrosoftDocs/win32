@@ -309,7 +309,7 @@ To verify the certificate trust if the signature status was valid or questionabl
 2.  Evaluate the returned certificate trust status.
 3.  Return the resulting status.
 
-The next code example does not test for every possible certificate trust status. For additional details on the status values that can be returned, see [**CERT\_TRUST\_STATUS**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status).
+The next code example does not test for every possible certificate trust status. For additional details on the status values that can be returned, see [**CERT\_TRUST\_STATUS**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status).
 
 
 ```C++
@@ -519,13 +519,13 @@ CreateCertificateChain (
 **Used in This Section**
 </dt> <dt>
 
-[**CERT\_CHAIN\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context)
+[**CERT\_CHAIN\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context)
 </dt> <dt>
 
-[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)
+[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context)
 </dt> <dt>
 
-[**CERT\_TRUST\_STATUS**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status)
+[**CERT\_TRUST\_STATUS**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status)
 </dt> <dt>
 
 [**CertAddCertificateContextToStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore)

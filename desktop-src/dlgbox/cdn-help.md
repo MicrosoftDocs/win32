@@ -46,7 +46,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure. The **OFNOTIFY** structure contains an [**NMHDR**](https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx) structure whose **code** member indicates the **CDN\_HELP** notification message.
+A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure. The **OFNOTIFY** structure contains an [**NMHDR**](https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx) structure whose **code** member indicates the **CDN\_HELP** notification message.
 
 </dd> </dl>
 
@@ -86,7 +86,7 @@ The system sends this notification only if the dialog box was created using the 
 [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
 </dt> <dt>
 
-[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya)
+[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 </dt> <dt>
 
 [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)

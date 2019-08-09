@@ -18,7 +18,7 @@ This section contains information about the common version structures.
 
 | Topic                                                     | Description                        |
 |-----------------------------------------------------------|------------------------------------|
-| [**D3D\_SHADER\_MACRO**](/windows/desktop/api/D3DCommon/ns-d3dcommon-_d3d_shader_macro)<br/> | Defines a shader macro.<br/> |
+| [**D3D\_SHADER\_MACRO**](/windows/desktop/api/D3DCommon/ns-d3dcommon-d3d_shader_macro)<br/> | Defines a shader macro.<br/> |
 
 
 

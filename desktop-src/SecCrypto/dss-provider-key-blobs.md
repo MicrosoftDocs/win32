@@ -36,9 +36,9 @@ The following table describes these components. All values are in [*little-endia
 | dsspubkey      | A [**DSSPUBKEY**](https://msdn.microsoft.com/en-us/library/Aa381982(v=VS.85).aspx) structure. The **magic** member must have a value of 0x31535344. This hexadecimal number is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of DSS1. |
 | g              | A **BYTE** sequence. The generator, g. Must be the same length as p. If it is not the same length as p, then it must be padded with 0x00 bytes.                                                                      |
 | p              | A **BYTE** sequence. The prime modulus, p. The most significant bit of the most significant byte must be set to one.                                                                                                 |
-| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                                |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                                |
 | q              | A **BYTE** sequence. The prime, q, 20 bytes in length. The most significant bit of the most significant byte must be set to one.                                                                                     |
-| seedstruct     | A [**DSSSEED**](/windows/desktop/api/Wincrypt/ns-wincrypt-_dssseed) structure. Seed and counter values for verifying primes.                                                                                                                                |
+| seedstruct     | A [**DSSSEED**](/windows/desktop/api/Wincrypt/ns-wincrypt-dssseed) structure. Seed and counter values for verifying primes.                                                                                                                                |
 | y              | A **BYTE** sequence. The public key, y. Must be same length as p. If it is not the same length as p, then it must be padded with 0x00 bytes.                                                                         |
 
 
@@ -72,17 +72,17 @@ The following table describes each component. All values are in [*little-endian*
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | dsspubkey      | A [**DSSPUBKEY**](https://msdn.microsoft.com/en-us/library/Aa381982(v=VS.85).aspx) structure. The **magic** member must be set to 0x32535344. This hexadecimal number is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of DSS2. |
 | g              | A **BYTE** sequence. The generator, g. Must be the same length as p. If it is not the same length as p, then it must be padded with 0x00 bytes.                                                                |
-| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                          |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                          |
 | p              | A **BYTE** sequence. The prime modulus, p. The most significant bit of the most significant byte must be set to one.                                                                                           |
 | q              | A **BYTE** sequence. The prime, q. q is 20 bytes in length. The most significant bit of the most significant byte must be set to one.                                                                          |
-| seedstruct     | A [**DSSSEED**](/windows/desktop/api/Wincrypt/ns-wincrypt-_dssseed) structure. Seed and counter values for verifying primes.                                                                                                                          |
+| seedstruct     | A [**DSSSEED**](/windows/desktop/api/Wincrypt/ns-wincrypt-dssseed) structure. Seed and counter values for verifying primes.                                                                                                                          |
 | x              | A **BYTE** sequence. The secret exponent, x. Must always be 20 bytes in length. If x is smaller than 20 bytes in length, then it must be padded with 0x00.                                                     |
 
 
 
  
 
-When calling [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), the developer can choose whether to encrypt the key. The **PRIVATEKEYBLOB** is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) portion of the BLOB is encrypted.
+When calling [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), the developer can choose whether to encrypt the key. The **PRIVATEKEYBLOB** is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) portion of the BLOB is encrypted.
 
 > [!Note]  
 > The encryption algorithm and encryption key parameters are not stored along with the private key BLOB. The application must manage and store this information. If zero is passed for *hExpKey*, the private key will be exported without encryption.

@@ -27,7 +27,7 @@ SPFILENOTIFY_FILEINCABINET
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-_file_in_cabinet_info_a) structure that contains information about the file in the cabinet.
+Pointer to a [**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-file_in_cabinet_info_a) structure that contains information about the file in the cabinet.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ Your callback routine should return one of the following.
 
  
 
-If your callback routine returns FILEOP\_DOIT, the name to use for the extracted file should be specified in the **FullTargetName** member of the [**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-_file_in_cabinet_info_a) structure passed to the routine in *Param1*.
+If your callback routine returns FILEOP\_DOIT, the name to use for the extracted file should be specified in the **FullTargetName** member of the [**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-file_in_cabinet_info_a) structure passed to the routine in *Param1*.
 
 > [!Note]  
 > There is no default cabinet callback routine. The setup application should supply a callback routine to handle the notifications sent by [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta).
@@ -82,7 +82,7 @@ If your callback routine returns FILEOP\_DOIT, the name to use for the extracted
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-_file_in_cabinet_info_a)
+[**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-file_in_cabinet_info_a)
 </dt> <dt>
 
 [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta)

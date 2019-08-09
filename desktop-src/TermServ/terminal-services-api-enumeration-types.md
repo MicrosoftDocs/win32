@@ -15,42 +15,42 @@ The following enumeration types are used with the Remote Desktop Services API.
 
 <dl> <dt>
 
-[**WTS\_CONFIG\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_config_class)
+[**WTS\_CONFIG\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class)
 </dt> <dd>
 
 Contains values that indicate the type of user configuration information to set or retrieve in a call to the [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) and [**WTSSetUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtssetuserconfiga) functions.
 
 </dd> <dt>
 
-[**WTS\_CONFIG\_SOURCE**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_config_source)
+[**WTS\_CONFIG\_SOURCE**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_source)
 </dt> <dd>
 
 Specifies the source of configuration information returned by the [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) function.
 
 </dd> <dt>
 
-[**WTS\_CONNECTSTATE\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_connectstate_class)
+[**WTS\_CONNECTSTATE\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_connectstate_class)
 </dt> <dd>
 
 Specifies the connection state of a Remote Desktop Services session.
 
 </dd> <dt>
 
-[**WTS\_INFO\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_info_class)
+[**WTS\_INFO\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_info_class)
 </dt> <dd>
 
 Contains values that indicate the type of session information to retrieve in a call to the [**WTSQuerySessionInformation**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsquerysessioninformationa) function.
 
 </dd> <dt>
 
-[**WTS\_TYPE\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_type_class)
+[**WTS\_TYPE\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_type_class)
 </dt> <dd>
 
 Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 
 </dd> <dt>
 
-[**WTS\_VIRTUAL\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_virtual_class)
+[**WTS\_VIRTUAL\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_virtual_class)
 </dt> <dd>
 
 Contains values that indicate the type of virtual channel information to retrieve.

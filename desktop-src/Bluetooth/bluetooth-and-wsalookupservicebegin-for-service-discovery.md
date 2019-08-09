@@ -34,7 +34,7 @@ The [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/w
 
  
 
-The SDP connection to the remote device does not remain active after the [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function completes a service query; the connection is terminated before **WSALookupServiceBegin** returns. Applications that require the SDP connection to remain active after a service query completes should specify the service class UUID to which to connect by using the **serviceClassId** member of the [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure when issuing the Windows Sockets [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function call.
+The SDP connection to the remote device does not remain active after the [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function completes a service query; the connection is terminated before **WSALookupServiceBegin** returns. Applications that require the SDP connection to remain active after a service query completes should specify the service class UUID to which to connect by using the **serviceClassId** member of the [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) structure when issuing the Windows Sockets [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function call.
 
 The flags, listed in the following table, are used in the *dwControlFlags* parameter of the [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) and [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) functions to control the query results. The **LUP\_CONTAINERS** and **LUP\_FLUSHCACHE** flags are used by the **WSALookupServiceBegin** function; the rest of the flags are used in calls to the **WSALookupServiceNext** function.
 
@@ -114,7 +114,7 @@ To perform an advanced query for services, Bluetooth clients must specify the fo
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **dwSize**           | Set to **sizeof**([**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)).                                                                                                                                                                                                                                                                        |
 | **lpszContext**      | Set to the Bluetooth Device Address with which to establish an SDP connection to perform the query of services. This member must be a string that is converted by using the [**WSAAddressToString**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa) function. If the local radio address is supplied, the local SDP records are searched.<br/> |
-| **lpBlob.pBlobData** | Pointer to a [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service) structure that contains all parameters that limit the results of the query.                                                                                                                                                                                           |
+| **lpBlob.pBlobData** | Pointer to a [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_service) structure that contains all parameters that limit the results of the query.                                                                                                                                                                                           |
 | **dwNameSpace**      | Set to **NS\_BTH**.                                                                                                                                                                                                                                                                                                                 |
 | Other members        | All other members of the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure are ignored.                                                                                                                                                                                                                                            |
 
@@ -140,7 +140,7 @@ The following flags are passed in the *dwControlFlags* parameter of [**WSALookup
 
  
 
-On input, **lpBlob**->**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service) structure that contains the values listed in the following table.
+On input, **lpBlob**->**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_service) structure that contains the values listed in the following table.
 
 > [!Note]  
 > The initial search request must be able to fit into one L2CAP packet. The response, however, may be broken into many L2CAP packets.
@@ -193,13 +193,13 @@ After each successful call to the [**WSALookupServiceNext**](https://docs.micros
 [Bluetooth and WSALookupServiceBegin for Device Inquiry](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md)
 </dt> <dt>
 
-[**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service)
+[**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_service)
 </dt> <dt>
 
 [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth)
+[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)
 </dt> <dt>
 
 [**WSAAddressToString**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa)

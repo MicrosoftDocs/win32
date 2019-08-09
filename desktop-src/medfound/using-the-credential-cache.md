@@ -49,7 +49,7 @@ After the credential cache is created, the application can use the following met
 
     
 
-    The *dwOptionsFlags* parameter values are defined in the [**MFNetCredentialOptions**](/windows/desktop/api/mfidl/ne-mfidl-_mfnetcredentialoptions) enumeration. To save user credentials for a URL in a persistent storage, set the MFNET\_CREDENTIAL\_SAVE flag. If the [**SetUserOptions**](/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-setuseroptions) call completes successfully, then the subsequent call to [**GetCredential**](/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-getcredential) searches for the credentials in the persistent storage. If a match is found, this method returns a pointer to the credential object that contains the information.
+    The *dwOptionsFlags* parameter values are defined in the [**MFNetCredentialOptions**](/windows/desktop/api/mfidl/ne-mfidl-mfnetcredentialoptions) enumeration. To save user credentials for a URL in a persistent storage, set the MFNET\_CREDENTIAL\_SAVE flag. If the [**SetUserOptions**](/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-setuseroptions) call completes successfully, then the subsequent call to [**GetCredential**](/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-getcredential) searches for the credentials in the persistent storage. If a match is found, this method returns a pointer to the credential object that contains the information.
 
     By default, user credentials sent over the network are encrypted. To change this to clear text, set the MFNET\_CREDENTIAL\_ALLOW\_CLEAR\_TEXT flag.
 

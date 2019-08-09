@@ -12,7 +12,7 @@ The **GetSignerCert** function goes through (enumerates) the certificates in a [
 
 -   Finding a certificate with a certificate property.
 -   Checking that property.
--   Returning a pointer to the [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context) where the attribute was found.
+-   Returning a pointer to the [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) where the attribute was found.
 
 This code uses an error handler called **MyHandleError**. To view the implementation for this error handler, see the [**MyHandleError**](myhandleerror.md) topic.
 

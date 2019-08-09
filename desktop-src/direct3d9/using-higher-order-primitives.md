@@ -16,7 +16,7 @@ This section shows you how to use higher-order primitives in your application.
 
 ## Determining Higher-Order Primitive Support
 
-The [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure's DevCaps member can be queried to determine the level of support for operations involving higher-order primitives. The following table lists the device capabilities related to higher-order primitives in Direct3D 9.
+The [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure's DevCaps member can be queried to determine the level of support for operations involving higher-order primitives. The following table lists the device capabilities related to higher-order primitives in Direct3D 9.
 
 
 

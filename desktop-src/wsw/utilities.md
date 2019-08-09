@@ -25,13 +25,13 @@ The following definitions are general utilities used with various other API elem
     -   [**WsCountOf**](/windows/desktop/api/WebServices/nf-webservices-wscountof)
     -   [**WsOffsetOf**](/windows/desktop/api/WebServices/nf-webservices-wsoffsetof)
 -   Structures:
-    -   [**WS\_BUFFERS**](/windows/desktop/api/WebServices/ns-webservices-_ws_buffers)
-    -   [**WS\_BYTES**](/windows/desktop/api/WebServices/ns-webservices-_ws_bytes)
-    -   [**WS\_DATETIME**](/windows/desktop/api/WebServices/ns-webservices-_ws_datetime)
-    -   [**WS\_DURATION**](/windows/desktop/api/WebServices/ns-webservices-_ws_duration)
-    -   [**WS\_STRING**](/windows/desktop/api/WebServices/ns-webservices-_ws_string)
-    -   [**WS\_TIMESPAN**](/windows/desktop/api/WebServices/ns-webservices-_ws_timespan)
-    -   [**WS\_UNIQUE\_ID**](/windows/desktop/api/WebServices/ns-webservices-_ws_unique_id)
+    -   [**WS\_BUFFERS**](/windows/desktop/api/WebServices/ns-webservices-ws_buffers)
+    -   [**WS\_BYTES**](/windows/desktop/api/WebServices/ns-webservices-ws_bytes)
+    -   [**WS\_DATETIME**](/windows/desktop/api/WebServices/ns-webservices-ws_datetime)
+    -   [**WS\_DURATION**](/windows/desktop/api/WebServices/ns-webservices-ws_duration)
+    -   [**WS\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_string)
+    -   [**WS\_TIMESPAN**](/windows/desktop/api/WebServices/ns-webservices-ws_timespan)
+    -   [**WS\_UNIQUE\_ID**](/windows/desktop/api/WebServices/ns-webservices-ws_unique_id)
 
  
 

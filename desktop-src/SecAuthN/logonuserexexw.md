@@ -159,7 +159,7 @@ A pointer to a **DWORD** that receives the length of the profile buffer.
 *pQuotaLimits* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [**QUOTA\_LIMITS**](/windows/desktop/api/Winnt/ns-winnt-_quota_limits) structure that receives information about the quotas for the logged on user.
+A pointer to a [**QUOTA\_LIMITS**](/windows/desktop/api/Winnt/ns-winnt-quota_limits) structure that receives information about the quotas for the logged on user.
 
 </dd> </dl>
 
@@ -221,7 +221,7 @@ If the optional *pTokenGroups* parameter is supplied, LSA will not add either th
 [**LogonUserEx**](/windows/desktop/api/Winbase/nf-winbase-logonuserexa)
 </dt> <dt>
 
-[**QUOTA\_LIMITS**](/windows/desktop/api/Winnt/ns-winnt-_quota_limits)
+[**QUOTA\_LIMITS**](/windows/desktop/api/Winnt/ns-winnt-quota_limits)
 </dt> </dl>
 
  

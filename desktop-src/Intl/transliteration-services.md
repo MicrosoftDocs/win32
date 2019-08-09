@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The ELS transliteration services map UTF-16 text from one writing system to another writing system. Each service is really data applying to a specific set of input and output Unicode scripts, and the actual transliteration is internal to the ELS platform. The application can optionally enumerate the available services for specific input and output scripts and select the service that it requires.
 
-The platform maintains metadata for the ELS transliteration services. Metadata for each service provides a description of the service and lists the input and output scripts that the service supports. The metadata is represented by a [**MAPPING\_SERVICE\_INFO**](/windows/desktop/api/Elscore/ns-elscore-_mapping_service_info) structure retrieved by the [**MappingGetServices**](/windows/desktop/api/Elscore/nf-elscore-mappinggetservices) function.
+The platform maintains metadata for the ELS transliteration services. Metadata for each service provides a description of the service and lists the input and output scripts that the service supports. The metadata is represented by a [**MAPPING\_SERVICE\_INFO**](/windows/desktop/api/Elscore/ns-elscore-mapping_service_info) structure retrieved by the [**MappingGetServices**](/windows/desktop/api/Elscore/nf-elscore-mappinggetservices) function.
 
 ## Input to a Transliteration Service
 

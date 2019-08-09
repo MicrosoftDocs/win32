@@ -72,9 +72,9 @@ For more information about how to embed certificates in an XPS document, see [Em
 
 ### Using the CERT\_CONTEXT Structure
 
-The [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) and [**CERT\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info) structures are the main data structures that hold certificate information. For more information about using these structures, see [Using a CERT\_INFO Data Structure](https://docs.microsoft.com/windows/desktop/SecCrypto/using-a-cert-info-data-structure).
+The [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) and [**CERT\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info) structures are the main data structures that hold certificate information. For more information about using these structures, see [Using a CERT\_INFO Data Structure](https://docs.microsoft.com/windows/desktop/SecCrypto/using-a-cert-info-data-structure).
 
-[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) structures that are returned by Crypto API functions must be released when they are no longer needed. To release a **CERT\_CONTEXT** structure, call the [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) function.
+[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structures that are returned by Crypto API functions must be released when they are no longer needed. To release a **CERT\_CONTEXT** structure, call the [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) function.
 
 ## Related topics
 
@@ -86,10 +86,10 @@ The [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/
 [Additional Digital Signature Programming Tasks](advanced-digital-signature-programming-tasks.md)
 </dt> <dt>
 
-[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)
+[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context)
 </dt> <dt>
 
-[**CERT\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info)
+[**CERT\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info)
 </dt> <dt>
 
 [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext)

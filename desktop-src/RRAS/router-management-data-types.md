@@ -29,7 +29,7 @@ The version of the Router Management data structures depends on the operating sy
 
 
 
-The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS2**](/windows/desktop/api/mprapi/ns-mprapi-_ikev2_tunnel_config_params2) structure is supported on Windows Server 2012.
+The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS2**](/windows/desktop/api/mprapi/ns-mprapi-ikev2_tunnel_config_params2) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -39,7 +39,7 @@ The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS2**](/windows/desktop/api/mprapi/ns-mprapi-_
 
 
 
-The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS1**](/windows/desktop/api/mprapi/ns-mprapi-_ikev2_tunnel_config_params1) structure is supported on Windows Server 2008 R2 and earlier versions.
+The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS1**](/windows/desktop/api/mprapi/ns-mprapi-ikev2_tunnel_config_params1) structure is supported on Windows Server 2008 R2 and earlier versions.
 
 
 </dt> </dl> </dd> <dt>
@@ -49,7 +49,7 @@ The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS1**](/windows/desktop/api/mprapi/ns-mprapi-_
 
 
 
-The [**ROUTER\_IKEv2\_IF\_CUSTOM\_CONFIG0**](/windows/desktop/api/mprapi/ns-mprapi-_router_ikev2_if_custom_config0) structure is supported on Windows Server 2012.
+The [**ROUTER\_IKEv2\_IF\_CUSTOM\_CONFIG0**](/windows/desktop/api/mprapi/ns-mprapi-router_ikev2_if_custom_config0) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -59,7 +59,7 @@ The [**ROUTER\_IKEv2\_IF\_CUSTOM\_CONFIG0**](/windows/desktop/api/mprapi/ns-mpra
 
 
 
-The [**MPR\_IF\_CUSTOMINFOEX0**](/windows/desktop/api/mprapi/ns-mprapi-_mpr_if_custominfoex0) structure is supported on Windows Server 2012.
+The [**MPR\_IF\_CUSTOMINFOEX0**](/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -69,7 +69,7 @@ The [**MPR\_IF\_CUSTOMINFOEX0**](/windows/desktop/api/mprapi/ns-mprapi-_mpr_if_c
 
 
 
-The [**ROUTER\_CUSTOM\_IKEv2\_POLICY0**](/windows/desktop/api/mprapi/ns-mprapi-_router_custom_ikev2_policy0) structure is supported on Windows Server 2012.
+The [**ROUTER\_CUSTOM\_IKEv2\_POLICY0**](/windows/desktop/api/mprapi/ns-mprapi-router_custom_ikev2_policy0) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> </dl>

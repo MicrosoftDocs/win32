@@ -27,7 +27,7 @@ SPFILENOTIFY_ENDCOPY
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a) structure. The **Win32Error** member of the **FILEPATHS** structure indicates the outcome of the copy operation.
+Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_a) structure. The **Win32Error** member of the **FILEPATHS** structure indicates the outcome of the copy operation.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ The return code is ignored.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a)
+[**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_a)
 </dt> <dt>
 
 [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea)

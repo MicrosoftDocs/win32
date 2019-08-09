@@ -34,23 +34,23 @@ Windows Server 2008 and Windows Vista with Service Pack 1 (SP1) introduce the
 
 <dl>
 
-[**\_VSS\_HARDWARE\_OPTIONS**](/windows/desktop/api/Vss/ne-vss-_vss_hardware_options)  
-[**VSS\_PROTECTION\_FAULT**](/windows/desktop/api/VsMgmt/ne-vsmgmt-_vss_protection_fault)  
-[**VSS\_PROTECTION\_LEVEL**](/windows/desktop/api/VsMgmt/ne-vsmgmt-_vss_protection_level)  
+[**\_VSS\_HARDWARE\_OPTIONS**](/windows/desktop/api/Vss/ne-vss-vss_hardware_options)  
+[**VSS\_PROTECTION\_FAULT**](/windows/desktop/api/VsMgmt/ne-vsmgmt-vss_protection_fault)  
+[**VSS\_PROTECTION\_LEVEL**](/windows/desktop/api/VsMgmt/ne-vsmgmt-vss_protection_level)  
 </dl>
 
 ## New VSS Structures
 
 <dl>
 
-[**VSS\_VOLUME\_PROTECTION\_INFO**](/windows/desktop/api/VsMgmt/ns-vsmgmt-_vss_volume_protection_info)  
+[**VSS\_VOLUME\_PROTECTION\_INFO**](/windows/desktop/api/VsMgmt/ns-vsmgmt-vss_volume_protection_info)  
 </dl>
 
 ## Existing VSS Enumeration Modifications
 
 <dl> <dt>
 
-<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema) enumeration
+<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-vss_backup_schema) enumeration
 </dt> <dd>
 
 <dl> <dt>
@@ -64,7 +64,7 @@ VSS\_BS\_WRITER\_SUPPORTS\_PARALLEL\_RESTORES
 
 <dl> <dt>
 
-<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes) enumeration
+<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes) enumeration
 </dt> <dd>
 
 <dl> <dt>

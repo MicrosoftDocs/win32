@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PacketProperty GUIDs
 
-The following table lists packet property GUIDs used by the [**PACKET\_PROPERTY**](/windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_property) structure.
+The following table lists packet property GUIDs used by the [**PACKET\_PROPERTY**](/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_property) structure.
 
 
 

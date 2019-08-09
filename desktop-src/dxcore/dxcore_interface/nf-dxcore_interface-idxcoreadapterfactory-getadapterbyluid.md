@@ -22,7 +22,7 @@ Retrieves the DXCore adapter object ([IDXCoreAdapter](/windows/win32/dxcore/dxco
 
 ### adapterLUID
 
-Type: **[LUID](/windows/win32/api/winnt/ns-winnt-_luid) const\&**
+Type: **[LUID](/windows/win32/api/winnt/ns-winnt-luid) const\&**
 
 The locally unique value that identifies the adapter instance.
 
@@ -53,7 +53,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## Remarks
 
-Multiple calls passing the same [LUID](/windows/win32/api/winnt/ns-winnt-_luid) return identical interface pointers. As a result, it's safe to compare interface pointers to determine whether multiple pointers refer to the same adapter object.
+Multiple calls passing the same [LUID](/windows/win32/api/winnt/ns-winnt-luid) return identical interface pointers. As a result, it's safe to compare interface pointers to determine whether multiple pointers refer to the same adapter object.
 
 ## See also
 

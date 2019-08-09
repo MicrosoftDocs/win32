@@ -86,7 +86,7 @@ The values in this enumerated type are used by the D3DRS\_CULLMODE render state.
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9)
+[**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9)
 </dt> <dt>
 
 [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)

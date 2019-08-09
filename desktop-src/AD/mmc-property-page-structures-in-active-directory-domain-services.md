@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 The Active Directory Manager MMC snap-in uses property sheets to display the attributes of objects in Active Directory Domain Services. The following structures help provide the infrastructure to control the operations performed on the pages of these property sheets:
 
--   [**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-adsprop-_adsproperror)
--   [**ADSPROPINITPARAMS**](/windows/desktop/api/Adsprop/ns-adsprop-_adspropinitparams)
+-   [**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-adsprop-adsproperror)
+-   [**ADSPROPINITPARAMS**](/windows/desktop/api/Adsprop/ns-adsprop-adspropinitparams)
 
  
 

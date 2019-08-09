@@ -94,16 +94,16 @@ The following new functions are used with UMS.
 
 | Structure                                                                                                 | Description                                                                                         |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [**CACHE\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-_cache_relationship)<br/>                                              | Describes cache attributes. <br/>                                                             |
-| [**GROUP\_AFFINITY**](/windows/desktop/api/WinNT/ns-winnt-_group_affinity)<br/>                                                      | Contains a processor group-specific affinity, such as the affinity of a thread.<br/>          |
-| [**GROUP\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-_group_relationship)<br/>                                              | Contains information about processor groups. <br/>                                            |
-| [**NUMA\_NODE\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-_numa_node_relationship)<br/>                                     | Contains information about a NUMA node in a processor group. <br/>                            |
-| [**PROCESSOR\_GROUP\_INFO**](/windows/desktop/api/WinNT/ns-winnt-_processor_group_info)<br/>                                         | Contains the number and affinity of processors in a processor group.<br/>                     |
-| [**PROCESSOR\_NUMBER**](/windows/desktop/api/WinNT/ns-winnt-_processor_number)<br/>                                                  | Represents a logical processor in a processor group.<br/>                                     |
-| [**PROCESSOR\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-_processor_relationship)<br/>                                      | Contains information about affinity within a processor group.<br/>                            |
-| [**SYSTEM\_LOGICAL\_PROCESSOR\_INFORMATION\_EX**](/windows/desktop/api/WinNT/ns-winnt-_system_logical_processor_information_ex)<br/> | Contains information about the relationships of logical processors and related hardware.<br/> |
-| [**UMS\_CREATE\_THREAD\_ATTRIBUTES**](/windows/desktop/api/WinNT/ns-winnt-_ums_create_thread_attributes)<br/>                        | Specifies attributes for a UMS worker thread. <br/>                                           |
-| [**UMS\_SCHEDULER\_STARTUP\_INFO**](/windows/desktop/api/WinBase/ns-winbase-_ums_scheduler_startup_info)<br/>                            | Specifies attributes for a UMS scheduler thread<br/>                                          |
+| [**CACHE\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-cache_relationship)<br/>                                              | Describes cache attributes. <br/>                                                             |
+| [**GROUP\_AFFINITY**](/windows/desktop/api/WinNT/ns-winnt-group_affinity)<br/>                                                      | Contains a processor group-specific affinity, such as the affinity of a thread.<br/>          |
+| [**GROUP\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-group_relationship)<br/>                                              | Contains information about processor groups. <br/>                                            |
+| [**NUMA\_NODE\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-numa_node_relationship)<br/>                                     | Contains information about a NUMA node in a processor group. <br/>                            |
+| [**PROCESSOR\_GROUP\_INFO**](/windows/desktop/api/WinNT/ns-winnt-processor_group_info)<br/>                                         | Contains the number and affinity of processors in a processor group.<br/>                     |
+| [**PROCESSOR\_NUMBER**](/windows/desktop/api/WinNT/ns-winnt-processor_number)<br/>                                                  | Represents a logical processor in a processor group.<br/>                                     |
+| [**PROCESSOR\_RELATIONSHIP**](/windows/desktop/api/WinNT/ns-winnt-processor_relationship)<br/>                                      | Contains information about affinity within a processor group.<br/>                            |
+| [**SYSTEM\_LOGICAL\_PROCESSOR\_INFORMATION\_EX**](/windows/desktop/api/WinNT/ns-winnt-system_logical_processor_information_ex)<br/> | Contains information about the relationships of logical processors and related hardware.<br/> |
+| [**UMS\_CREATE\_THREAD\_ATTRIBUTES**](/windows/desktop/api/WinNT/ns-winnt-ums_create_thread_attributes)<br/>                        | Specifies attributes for a UMS worker thread. <br/>                                           |
+| [**UMS\_SCHEDULER\_STARTUP\_INFO**](/windows/desktop/api/WinBase/ns-winbase-ums_scheduler_startup_info)<br/>                            | Specifies attributes for a UMS scheduler thread<br/>                                          |
 
 
 

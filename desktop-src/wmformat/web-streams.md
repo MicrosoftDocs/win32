@@ -22,7 +22,7 @@ Web streams can be particularly useful for ASF files that are used as presentati
 
 With Web streams, the constituent parts of Web pages can be included in the ASF file as a stream. As the files are received, they can be cached so that, when the command to display (or render) a URL is delivered, they can be instantly accessed by a browser. This enables smooth, consistent playback. The render command is delivered in the Web stream itself, not as a script command in a separate stream.
 
-It is recommended that Web streams created by using the Windows Media Format 9 Series SDK, or later be given the version number 1. This value is specified in the [**WMT\_WEBSTREAM\_FORMAT**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_webstream_format) structure in the **wVersion** member. The SDK itself does nothing to enforce this version.
+It is recommended that Web streams created by using the Windows Media Format 9 Series SDK, or later be given the version number 1. This value is specified in the [**WMT\_WEBSTREAM\_FORMAT**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_webstream_format) structure in the **wVersion** member. The SDK itself does nothing to enforce this version.
 
 > [!Note]  
 > When connecting to live broadcast streams that have Web streams, it is possible that the user may receive a render command before the specified file is actually in the local cache. Unless your application handles this condition, the browser will display a "Page not found" error.

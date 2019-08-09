@@ -59,7 +59,7 @@ In addition, you can specify the following flags.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-_editstream) structure. On input, the **pfnCallback** member of this structure must point to an application defined [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function. On output, the **dwError** member can contain a nonzero error code if an error occurred.
+Pointer to an [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) structure. On input, the **pfnCallback** member of this structure must point to an application defined [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function. On output, the **dwError** member can contain a nonzero error code if an error occurred.
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ This message returns the number of characters read.
 
 ## Remarks
 
-When you send an **EM\_STREAMIN** message, the rich edit control makes repeated calls to the [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function specified by the **pfnCallback** member of the [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-_editstream) structure. Each time the callback function is called, it fills a buffer with data to read into the control. This continues until the callback function indicates that the stream-in operation has been completed or an error occurs.
+When you send an **EM\_STREAMIN** message, the rich edit control makes repeated calls to the [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function specified by the **pfnCallback** member of the [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) structure. Each time the callback function is called, it fills a buffer with data to read into the control. This continues until the callback function indicates that the stream-in operation has been completed or an error occurs.
 
 ## Requirements
 
@@ -90,7 +90,7 @@ When you send an **EM\_STREAMIN** message, the rich edit control makes repeated 
 **Reference**
 </dt> <dt>
 
-[**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-_editstream)
+[**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream)
 </dt> <dt>
 
 [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback)

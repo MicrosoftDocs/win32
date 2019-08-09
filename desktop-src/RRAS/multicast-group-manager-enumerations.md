@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The MGM API use the following enumeration:
 
-[**MGM\_ENUM\_TYPES**](/windows/desktop/api/Mgm/ne-mgm-_mgm_enum_types)
+[**MGM\_ENUM\_TYPES**](/windows/desktop/api/Mgm/ne-mgm-mgm_enum_types)
 
  
 

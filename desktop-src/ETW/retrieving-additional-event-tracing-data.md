@@ -20,7 +20,7 @@ The following procedure describes how to use the [**TraceSetInformation**](trace
 
 2.  Call [**TraceSetInformation**](tracesetinformation.md) to set additional event tracing data.
 
-    use the [**EVENT\_INFO\_CLASS**](/windows/desktop/api/Evntprov/ne-evntprov-_event_info_class) enumeration in the *ClassInformation* parameter to describe the additional information you wish to retrieve. The following example describes how to call [**TraceSetInformation**](tracesetinformation.md), using the session handle returned from the call to [**StartTrace**](starttrace.md), and the **TraceProviderBinaryTracking** value from **EVENT\_INFO\_CLASS**.
+    use the [**EVENT\_INFO\_CLASS**](/windows/desktop/api/Evntprov/ne-evntprov-event_info_class) enumeration in the *ClassInformation* parameter to describe the additional information you wish to retrieve. The following example describes how to call [**TraceSetInformation**](tracesetinformation.md), using the session handle returned from the call to [**StartTrace**](starttrace.md), and the **TraceProviderBinaryTracking** value from **EVENT\_INFO\_CLASS**.
 
     ```C++
     BOOLEAN enabled = TRUE;
@@ -35,7 +35,7 @@ The following procedure describes how to use the [**TraceSetInformation**](trace
 
 3.  Alternately, you can use [**TraceQueryInformation**](tracequeryinformation.md) to retrieve information about the current event tracing session settings.
 
-    Like [**TraceSetInformation**](tracesetinformation.md), [**TraceQueryInformation**](tracequeryinformation.md) uses the [**EVENT\_INFO\_CLASS**](/windows/desktop/api/Evntprov/ne-evntprov-_event_info_class) enumeration to describe what information to retrieve from the system.
+    Like [**TraceSetInformation**](tracesetinformation.md), [**TraceQueryInformation**](tracequeryinformation.md) uses the [**EVENT\_INFO\_CLASS**](/windows/desktop/api/Evntprov/ne-evntprov-event_info_class) enumeration to describe what information to retrieve from the system.
 
  
 

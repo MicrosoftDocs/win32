@@ -12,7 +12,7 @@ This section contains reference information for the Microsoft Direct3D 11 video
 
 ## In this section
 
--   [**D3D11\_AES\_CTR\_IV**](/windows/desktop/api/d3d11/ns-d3d11-_d3d11_aes_ctr_iv)
+-   [**D3D11\_AES\_CTR\_IV**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_aes_ctr_iv)
 -   [**D3D11\_AUTHENTICATED\_CONFIGURE\_ACCESSIBLE\_ENCRYPTION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_accessible_encryption_input)
 -   [**D3D11\_AUTHENTICATED\_CONFIGURE\_CRYPTO\_SESSION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input)
 -   [**D3D11\_AUTHENTICATED\_CONFIGURE\_INITIALIZE\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input)

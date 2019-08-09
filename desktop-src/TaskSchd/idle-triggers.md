@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 An idle trigger is an event-based trigger that is fired a specific number of times after the computer becomes idle. There are multiple conditions that define when a computer becomes idle, such as when no keyboard or mouse input occurs.
 
-Idle triggers are created by specifying TASK\_EVENT\_TRIGGER\_ON\_IDLE in the [**TASK\_TRIGGER\_TYPE**](/windows/desktop/api/Mstask/ne-mstask-_task_trigger_type) member of the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger) structure. The idle trigger is fired when the system becomes idle for the amount of time that is specified by the idle wait time of the work item.
+Idle triggers are created by specifying TASK\_EVENT\_TRIGGER\_ON\_IDLE in the [**TASK\_TRIGGER\_TYPE**](/windows/desktop/api/Mstask/ne-mstask-task_trigger_type) member of the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-task_trigger) structure. The idle trigger is fired when the system becomes idle for the amount of time that is specified by the idle wait time of the work item.
 
 > [!Note]  
-> When TASK\_EVENT\_TRIGGER\_ON\_IDLE is specified, the **wStartHour**, **wStartMinute**, and **Type** members of the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger) structure are ignored.
+> When TASK\_EVENT\_TRIGGER\_ON\_IDLE is specified, the **wStartHour**, **wStartMinute**, and **Type** members of the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-task_trigger) structure are ignored.
 
  
 

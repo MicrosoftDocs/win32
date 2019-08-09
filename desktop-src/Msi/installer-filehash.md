@@ -19,7 +19,7 @@ api_location:
 
 The **FileHash** method of the [**Installer Object**](installer-object.md) takes the path to a file and returns a 128-bit hash of that file. The file hash information is returned as a [**Record Object**](record-object.md). The entire 128-bit file hash is returned as four 32-bit [**IntegerData**](record-integerdata.md) property fields.
 
-The values returned in the [**Record Object**](record-object.md) correspond to the four fields of the [**MSIFILEHASHINFO**](/windows/desktop/api/Msi/ns-msi-_msifilehashinfo) structure returned by [**MsiGetFileHash**](/windows/desktop/api/Msi/nf-msi-msigetfilehasha). The numbering of four fields is 1-based in the [MsiFileHash Table](msifilehash-table.md).
+The values returned in the [**Record Object**](record-object.md) correspond to the four fields of the [**MSIFILEHASHINFO**](/windows/desktop/api/Msi/ns-msi-msifilehashinfo) structure returned by [**MsiGetFileHash**](/windows/desktop/api/Msi/nf-msi-msigetfilehasha). The numbering of four fields is 1-based in the [MsiFileHash Table](msifilehash-table.md).
 
 -   Field 1 corresponds to the HashPart1 column.
 -   Field 2 corresponds to the HashPart2 column.

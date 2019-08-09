@@ -27,7 +27,7 @@ SPFILENOTIFY_NEEDNEWCABINET
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-_cabinet_info_a) structure that contains information about the cabinet and the file to be extracted.
+Pointer to a [**CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-cabinet_info_a) structure that contains information about the cabinet and the file to be extracted.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ Your callback function should ensure that the cabinet is accessible before it re
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-_cabinet_info_a)
+[**CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-cabinet_info_a)
 </dt> <dt>
 
 [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta)

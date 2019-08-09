@@ -152,10 +152,10 @@ An IHV can assign a value for its proprietary PHY types from **dot11\_phy\_type\
 
 <dl> <dt>
 
-[**WLAN\_ASSOCIATION\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_association_attributes)
+[**WLAN\_ASSOCIATION\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_association_attributes)
 </dt> <dt>
 
-[**WLAN\_INTERFACE\_CAPABILITY**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_capability)
+[**WLAN\_INTERFACE\_CAPABILITY**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_capability)
 </dt> </dl>
 
  

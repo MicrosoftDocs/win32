@@ -18,8 +18,8 @@ XML Reader is a cursor over an input source of XML. At its core, an XML Reader r
 
 The following types of readers input are supported:
 
--   [**An in-memory buffer of encoded bytes**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_buffer_input)
--   [**A stream**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_stream_input)
+-   [**An in-memory buffer of encoded bytes**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_buffer_input)
+-   [**A stream**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_stream_input)
 -   An [XML Buffer](xml-buffer.md)
 
 ### Security
@@ -28,7 +28,7 @@ The reader will verify that the attributes present on an element are unique. The
 
 The reader will map prefixes to namespaces for each element and attributes. The time required to perform this mapping is a function of the number of xmlns attributes in scope which may be as large as [**WS\_XML\_READER\_PROPERTY\_MAX\_NAMESPACES**](/windows/desktop/api/WebServices/ne-webservices-ws_xml_reader_property_id). Therefore, processing large documents when this property is set to a large value may present an opportunity for a denial of service attack.
 
-While the reader will ensure that the document follows the grammatical specification of xml and furthermore that its aspects are within the quotas specified, the content of the document must still be considered untrusted when coming from an untrusted source. Users of the reader should check all element and attribute names and namespaces using [**WsReadToStartElement**](/windows/desktop/api/WebServices/nf-webservices-wsreadtostartelement), [**WsFindAttribute**](/windows/desktop/api/WebServices/nf-webservices-wsfindattribute), or by manually inspecting [**nodes**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_node).
+While the reader will ensure that the document follows the grammatical specification of xml and furthermore that its aspects are within the quotas specified, the content of the document must still be considered untrusted when coming from an untrusted source. Users of the reader should check all element and attribute names and namespaces using [**WsReadToStartElement**](/windows/desktop/api/WebServices/nf-webservices-wsreadtostartelement), [**WsFindAttribute**](/windows/desktop/api/WebServices/nf-webservices-wsfindattribute), or by manually inspecting [**nodes**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_node).
 
 Some other situations to consider include, but are not limited to:
 
@@ -96,15 +96,15 @@ The following handle is used with XML readers:
 
 The following structures are used with XML readers:
 
--   [**WS\_XML\_READER\_BINARY\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_binary_encoding)
--   [**WS\_XML\_READER\_BUFFER\_INPUT**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_buffer_input)
--   [**WS\_XML\_READER\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_encoding)
--   [**WS\_XML\_READER\_INPUT**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_input)
--   [**WS\_XML\_READER\_MTOM\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_mtom_encoding)
--   [**WS\_XML\_READER\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_properties)
--   [**WS\_XML\_READER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_property)
--   [**WS\_XML\_READER\_STREAM\_INPUT**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_stream_input)
--   [**WS\_XML\_READER\_TEXT\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_reader_text_encoding)
+-   [**WS\_XML\_READER\_BINARY\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_binary_encoding)
+-   [**WS\_XML\_READER\_BUFFER\_INPUT**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_buffer_input)
+-   [**WS\_XML\_READER\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_encoding)
+-   [**WS\_XML\_READER\_INPUT**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_input)
+-   [**WS\_XML\_READER\_MTOM\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_mtom_encoding)
+-   [**WS\_XML\_READER\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_properties)
+-   [**WS\_XML\_READER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_property)
+-   [**WS\_XML\_READER\_STREAM\_INPUT**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_stream_input)
+-   [**WS\_XML\_READER\_TEXT\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_reader_text_encoding)
 
  
 

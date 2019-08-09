@@ -20,13 +20,13 @@ ms.date: 05/31/2018
 4.  Open a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 5.  Get the recipient certificate.
 6.  Create the recipient certificate array.
-7.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier) structure.
-8.  Initialize the [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_encrypt_message_para) structure.
+7.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier) structure.
+8.  Initialize the [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_encrypt_message_para) structure.
 9.  Call [**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage) to encrypt the content and create a digitally enveloped message.
 
 The following example implements this procedure.
 
-Comments relate code fragments to each step in the procedure. For more information about the function, see [**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage). For more information about the data structures, see [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier) and [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_encrypt_message_para).
+Comments relate code fragments to each step in the procedure. For more information about the function, see [**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage). For more information about the data structures, see [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier) and [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_encrypt_message_para).
 
 This example uses the functions [**MyHandleError**](myhandleerror.md) and [**ByteToStr**](bytetostr.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

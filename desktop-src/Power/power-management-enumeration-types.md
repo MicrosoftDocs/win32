@@ -14,8 +14,8 @@ The following enumeration types are used with power schemes:
 
 [**EFFECTIVE_POWER_MODE**](/windows/desktop/api/powersetting/ne-powersetting-effective_power_mode)  
 [**POWER\_ACTION**](/windows/desktop/api/WinNT/ne-winnt-power_action)  
-[**POWER\_DATA\_ACCESSOR**](/windows/desktop/api/PowrProf/ne-powrprof-_power_data_accessor)  
-[**POWER\_PLATFORM\_ROLE**](/windows/desktop/api/WinNT/ne-winnt-_power_platform_role)  
+[**POWER\_DATA\_ACCESSOR**](/windows/desktop/api/PowrProf/ne-powrprof-power_data_accessor)  
+[**POWER\_PLATFORM\_ROLE**](/windows/desktop/api/WinNT/ne-winnt-power_platform_role)  
 [**SYSTEM\_POWER\_CONDITION**](/windows/desktop/api/WinNT/ne-winnt-system_power_condition)  
-[**SYSTEM\_POWER\_STATE**](/windows/desktop/api/WinNT/ne-winnt-_system_power_state)  
+[**SYSTEM\_POWER\_STATE**](/windows/desktop/api/WinNT/ne-winnt-system_power_state)  
 </dl>

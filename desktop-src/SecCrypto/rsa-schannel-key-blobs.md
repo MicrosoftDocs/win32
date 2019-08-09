@@ -31,8 +31,8 @@ The following table describes each public key component. All values are in [*lit
 | Field          | Description                                                                                                                                                                                                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | modulus        | A **BYTE** sequence. The public key modulus data is located directly after the **RSAPUBKEY** structure. The length of this data varies, depending on the length of the public key. The number of bytes can be determined by dividing the value of the **bitlen** member of **RSAPUBKEY** by eight. |
-| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                                                                                                              |
-| rsapubkey      | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_rsapubkey) structure. The **magic** member must be set to 0x31415352. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of RSA1.                                                                                      |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                                                                                                              |
+| rsapubkey      | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-rsapubkey) structure. The **magic** member must be set to 0x31415352. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of RSA1.                                                                                      |
 
 
 
@@ -59,7 +59,7 @@ BYTE            coefficient[rsapubkey.bitlen/16];
 BYTE            privateExponent[rsapubkey.bitlen/8];
 ```
 
-If the [*key BLOB*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) is encrypted, then everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) portion of the BLOB is encrypted.
+If the [*key BLOB*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) is encrypted, then everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) portion of the BLOB is encrypted.
 
 > [!Note]  
 > The encryption algorithm and encryption key parameters are not stored along with the private key BLOB. It is the responsibility of the application to manage this information.
@@ -83,9 +83,9 @@ The following table describes each private key BLOB component.
 | Modulus         | A **BYTE** sequence. The modulus. This has a string that contains *Prime1* \* *Prime2*. It is often known as n.                                                                                               |
 | prime1          | A **BYTE** sequence. Prime number 1, often known as p.                                                                                                                                                        |
 | prime2          | A **BYTE** sequence. Prime number 2, often known as q.                                                                                                                                                        |
-| publickeystruc  | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                         |
+| publickeystruc  | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                         |
 | privateExponent | A **BYTE** sequence. The private exponent, often known as d.                                                                                                                                                  |
-| rsapubkey       | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_rsapubkey) structure. The **magic** member must be set to 0x32415352. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of RSA2. |
+| rsapubkey       | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-rsapubkey) structure. The **magic** member must be set to 0x32415352. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of RSA2. |
 
 
 
@@ -96,7 +96,7 @@ The following table describes each private key BLOB component.
 
  
 
-When calling [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), the developer can choose whether to encrypt the key. The **PRIVATEKEYBLOB** is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) portion of the BLOB is encrypted.
+When calling [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), the developer can choose whether to encrypt the key. The **PRIVATEKEYBLOB** is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) portion of the BLOB is encrypted.
 
 > [!Note]  
 > The encryption algorithm and encryption key parameters are not stored along with the private key BLOB. The application must manage and store this information. If zero is passed for *hExpKey*, the private key will be exported without encryption.
@@ -126,7 +126,7 @@ The following table describes each simple BLOB component.
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | algid          | An [**ALG\_ID**](alg-id.md) structure. This typically specifies the CALG\_RSA\_KEYX algorithm, which indicates that the session key data was encrypted with a key exchange public key, using the [*RSA Public Key algorithm*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx). |
 | encryptedkey   | A **BYTE** sequence. The encrypted session key data is in the form of a PKCS \#1, type 2 encryption block. For information about this data format, see the Public Key Cryptography Standards (PKCS), published by RSA Data Security, Inc.                                                                                     |
-| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                                                                                                                                         |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                                                                                                                                         |
 
 
 

@@ -33,8 +33,8 @@ Wmpdevices.h defines the following structures.
 
 | Structure                                                                                 | Description                                                                                                                                       |
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_PC2DEVICE](/windows/desktop/api/wmpdevices/ns-wmpdevices-_wmp_wmdm_metadata_round_trip_pc2device) | Structure used by Windows Media Player to request accelerated metadata synchronization information from portable devices that do not support MTP. |
-| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_DEVICE2PC](/windows/desktop/api/wmpdevices/ns-wmpdevices-_wmp_wmdm_metadata_round_trip_device2pc) | Structure used by Windows Media Player to receive accelerated metadata synchronization information from portable devices that do not support MTP. |
+| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_PC2DEVICE](/previous-versions/windows/desktop/api/wmpdevices/ns-wmpdevices-wmp_wmdm_metadata_round_trip_pc2device) | Structure used by Windows Media Player to request accelerated metadata synchronization information from portable devices that do not support MTP. |
+| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_DEVICE2PC](/previous-versions/windows/desktop/api/wmpdevices/ns-wmpdevices-wmp_wmdm_metadata_round_trip_device2pc) | Structure used by Windows Media Player to receive accelerated metadata synchronization information from portable devices that do not support MTP. |
 
 
 

@@ -207,12 +207,12 @@ The following interfaces, structure, and topics were added for version 2.0:
 
 -   [**IBackgroundCopyJob3**](/windows/desktop/api/Bits2_0/nn-bits2_0-ibackgroundcopyjob3)
 -   [**IBackgroundCopyFile2**](/windows/desktop/api/Bits2_0/nn-bits2_0-ibackgroundcopyfile2)
--   [**BG\_FILE\_RANGE**](/windows/desktop/api/Bits2_0/ns-bits2_0-_bg_file_range)
+-   [**BG\_FILE\_RANGE**](/windows/desktop/api/Bits2_0/ns-bits2_0-bg_file_range)
 -   [Group Policies](group-policies.md)
 
 For information about concurrent foreground downloads, see the Remarks section for [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001).
 
-For information about using the SMB protocol, see [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-_bg_file_info).
+For information about using the SMB protocol, see [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-bg_file_info).
 
 ## Version 1.5
 

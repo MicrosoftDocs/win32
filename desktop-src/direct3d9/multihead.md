@@ -25,7 +25,7 @@ Drivers are given adequate knowledge to switch between the two modes of operatio
 
 One head will be called the master head, and all other heads on the same card be called subordinate heads. If more than one multihead adapter is present in a system, the master and its subordinates from one multihead adapter are called a group. Groups are denoted by the adapter ordinal of their master head.
 
-The [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure has been updated to expose the following new hardware caps.
+The [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure has been updated to expose the following new hardware caps.
 
 
 ```

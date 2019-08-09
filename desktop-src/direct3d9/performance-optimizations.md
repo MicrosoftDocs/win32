@@ -84,7 +84,7 @@ Direct3D uses the world and view matrices that you set to configure several inte
 
 ## Using Dynamic Textures
 
-To find out if the driver supports dynamic textures, check the D3DCAPS2\_DYNAMICTEXTURES flag of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure.
+To find out if the driver supports dynamic textures, check the D3DCAPS2\_DYNAMICTEXTURES flag of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure.
 
 Keep the following things in mind when working with dynamic textures.
 

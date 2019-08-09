@@ -16,7 +16,7 @@ Returns the list of protection mechanisms that are supported by the connector.
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_SUPPORTED\_PROTECTION\_TYPES                                      |
 | Input data   | None                                                                        |
-| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure |
+| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure |
 
 
 
@@ -24,7 +24,7 @@ Returns the list of protection mechanisms that are supported by the connector.
 
 ## Remarks
 
-The protection mechanisms are returned in the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure. The value is a bitwise **OR** of [OPM Protection Type Flags](opm-protection-type-flags.md).
+The protection mechanisms are returned in the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure. The value is a bitwise **OR** of [OPM Protection Type Flags](opm-protection-type-flags.md).
 
 This query is equivalent to the DXVA\_COPPQueryProtectionType query used in Certified Output Protection Protocol (COPP).
 

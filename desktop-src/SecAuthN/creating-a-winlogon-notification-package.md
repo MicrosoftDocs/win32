@@ -12,7 +12,7 @@ A [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) notifi
 
 The names of the event handler functions implemented in a notification package are left up to the developer; Winlogon checks the registry to obtain the names of the event handler functions. For example, one notification package might implement the logon event handler function as `WLEventLogon` whereas another might use `HandleLogonEvent`.
 
-You do not have to implement and register event handlers for every Winlogon event, only for events that are useful to your application. Each event handler function must use the function prototype described in [Event Handler Function Prototype](event-handler-function-prototype.md). This prototype has a single parameter: a [**WLX\_NOTIFICATION\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-_wlx_notification_info) structure that contains details about the event.
+You do not have to implement and register event handlers for every Winlogon event, only for events that are useful to your application. Each event handler function must use the function prototype described in [Event Handler Function Prototype](event-handler-function-prototype.md). This prototype has a single parameter: a [**WLX\_NOTIFICATION\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-wlx_notification_info) structure that contains details about the event.
 
 Winlogon ignores the output of event handler functions. If handling an event requires interacting with Winlogon, use the [Winlogon Support Functions](authentication-functions.md).
 

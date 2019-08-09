@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A Native Wifi API call may fail with when a caller does not have adequate permissions to perform the requested operation.
 
-Permissions are stored in a [discretionary access control lists (DACL)](https://msdn.microsoft.com/en-us/library/Aa374872(v=VS.85).aspx) associated with a [**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object). For more information about DACLs and securable objects, see [How DACLs Control Access to an Object](https://msdn.microsoft.com/en-us/library/Aa446683(v=VS.85).aspx).
+Permissions are stored in a [discretionary access control lists (DACL)](https://msdn.microsoft.com/en-us/library/Aa374872(v=VS.85).aspx) associated with a [**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object). For more information about DACLs and securable objects, see [How DACLs Control Access to an Object](https://msdn.microsoft.com/en-us/library/Aa446683(v=VS.85).aspx).
 
 The following table shows the Native Wifi functions that use securable objects to determine if the caller has sufficient permissions to perform the requested operation. It also shows the securable objects used by each function.
 
@@ -93,7 +93,7 @@ All-user profiles have additional permissions associated with the profile itself
 [How DACLs Control Access to an Object](https://msdn.microsoft.com/en-us/library/Aa446683(v=VS.85).aspx)
 </dt> <dt>
 
-[**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object)
+[**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object)
 </dt> </dl>
 
  

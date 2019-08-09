@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 An object's ACL can contain ACEs that it inherited from its parent container. For example, a registry subkey can inherit ACEs from the key above it in the registry hierarchy. Likewise, a file in an NTFS file system can inherit ACEs from the directory that contains it.
 
-The [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-_ace_header) structure of an ACE contains a set of inheritance flags that control ACE inheritance and the effect of an ACE on the object to which it is attached. The system interprets the inheritance flags and other inheritance information according to the [rules of ACE inheritance](ace-inheritance-rules.md).
+The [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-ace_header) structure of an ACE contains a set of inheritance flags that control ACE inheritance and the effect of an ACE on the object to which it is attached. The system interprets the inheritance flags and other inheritance information according to the [rules of ACE inheritance](ace-inheritance-rules.md).
 
 These rules have been enhanced with the following features:
 

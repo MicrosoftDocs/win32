@@ -18,8 +18,8 @@ XML Writer is an API for emitting XML. At its core, an XML Writer writes one [XM
 
 The following types of writer output are supported:
 
--   [**An in-memory buffer of encoded bytes**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_buffer_output)
--   [**A stream**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_stream_output)
+-   [**An in-memory buffer of encoded bytes**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_buffer_output)
+-   [**A stream**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_stream_output)
 -   An [XML Buffer](xml-buffer.md)
 
 The following callbacks are used with the XML writer:
@@ -73,15 +73,15 @@ The following handle is used with the XML writer:
 
 The following structures are used with the XML writer:
 
--   [**WS\_XML\_WRITER\_BINARY\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_binary_encoding)
--   [**WS\_XML\_WRITER\_BUFFER\_OUTPUT**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_buffer_output)
--   [**WS\_XML\_WRITER\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_encoding)
--   [**WS\_XML\_WRITER\_MTOM\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_mtom_encoding)
--   [**WS\_XML\_WRITER\_OUTPUT**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_output)
--   [**WS\_XML\_WRITER\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_properties)
--   [**WS\_XML\_WRITER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_property)
--   [**WS\_XML\_WRITER\_STREAM\_OUTPUT**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_stream_output)
--   [**WS\_XML\_WRITER\_TEXT\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_writer_text_encoding)
+-   [**WS\_XML\_WRITER\_BINARY\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_binary_encoding)
+-   [**WS\_XML\_WRITER\_BUFFER\_OUTPUT**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_buffer_output)
+-   [**WS\_XML\_WRITER\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_encoding)
+-   [**WS\_XML\_WRITER\_MTOM\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_mtom_encoding)
+-   [**WS\_XML\_WRITER\_OUTPUT**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_output)
+-   [**WS\_XML\_WRITER\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_properties)
+-   [**WS\_XML\_WRITER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_property)
+-   [**WS\_XML\_WRITER\_STREAM\_OUTPUT**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_stream_output)
+-   [**WS\_XML\_WRITER\_TEXT\_ENCODING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_writer_text_encoding)
 
  
 

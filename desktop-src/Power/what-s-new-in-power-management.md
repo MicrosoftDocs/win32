@@ -16,7 +16,7 @@ In this release, your application can be notified when battery saver is turned o
 
 -   [**GUID\_POWER\_SAVING\_STATUS**](power-setting-guids.md) : Use this new GUID with the [**PowerSettingRegisterNotification**](/windows/desktop/api/Powersetting/nf-powersetting-powersettingregisternotification) function to be notified when battery saver is turned on or off.
 
--   [**SYSTEM\_POWER\_STATUS**](/windows/desktop/api/Winbase/ns-winbase-_system_power_status) : This structure has been updated to support battery saver. The fourth member, **SystemStatusFlag** (previously named **Reserved1**), now indicates if battery saver is engaged or not. Use the [**GetSystemPowerStatus**](/windows/desktop/api/Winbase/nf-winbase-getsystempowerstatus) function to retrieve a pointer to this structure.
+-   [**SYSTEM\_POWER\_STATUS**](/windows/desktop/api/Winbase/ns-winbase-system_power_status) : This structure has been updated to support battery saver. The fourth member, **SystemStatusFlag** (previously named **Reserved1**), now indicates if battery saver is engaged or not. Use the [**GetSystemPowerStatus**](/windows/desktop/api/Winbase/nf-winbase-getsystempowerstatus) function to retrieve a pointer to this structure.
 
  
 

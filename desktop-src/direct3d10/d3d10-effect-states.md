@@ -83,7 +83,7 @@ See [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/en-us/library/Bb509
 | VERTEXSHADER                                | A compiled vertex shader object.                                    |
 | PIXELSHADER                                 | A compiled pixel shader object.                                     |
 | GEOMETRYSHADER                              | A compiled geometry shader object.                                  |
-| DS\_STENCILREFAB\_BLENDFACTORAB\_SAMPLEMASK | Members of [**D3D10\_PASS\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_pass_desc).            |
+| DS\_STENCILREFAB\_BLENDFACTORAB\_SAMPLEMASK | Members of [**D3D10\_PASS\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_pass_desc).            |
 
 
 

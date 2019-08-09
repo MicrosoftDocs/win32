@@ -22,7 +22,7 @@ When a DMO is first created, the streams do not have a media type. Before the DM
 
 A DMO can add a list of media types that it supports to the registry, by calling the [**DMORegister**](/windows/desktop/api/Dmoreg/nf-dmoreg-dmoregister) function. An application can use this information to search for DMOs that match a particular format. The information in the registry is not meant to be comprehensive. Typically, you would include only the main types that the DMO supports. The registry entry has separate keys for input and output types, but does not distinguish among individual streams.
 
-The **DMORegister** function uses the [**DMO\_PARTIAL\_MEDIATYPE**](/windows/desktop/api/Dmoreg/ns-dmoreg-_dmo_partial_mediatype) structure to describe media types. This structure contains a subset of the information found in the **DMO\_MEDIA\_TYPE** structure—namely the major type and the subtype. It does not include a format block, because the format block typically contains information that is too granular to include in the registry, such as the height and width of a video image.
+The **DMORegister** function uses the [**DMO\_PARTIAL\_MEDIATYPE**](/previous-versions/windows/desktop/api/Dmoreg/ns-dmoreg-dmo_partial_mediatype) structure to describe media types. This structure contains a subset of the information found in the **DMO\_MEDIA\_TYPE** structure—namely the major type and the subtype. It does not include a format block, because the format block typically contains information that is too granular to include in the registry, such as the height and width of a video image.
 
 **Preferred Media Types**
 

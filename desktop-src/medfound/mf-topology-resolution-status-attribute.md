@@ -16,7 +16,7 @@ Specifies the status of an attempt to resolve a topology.
 
 ## Remarks
 
-The topology loader or the Media Session might set this attribute on a topology. The value of this attribute is a bitwise **OR** of flags from the [**MF\_TOPOLOGY\_RESOLUTION\_STATUS\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-_mf_topology_resolution_status_flags) enumeration.
+The topology loader or the Media Session might set this attribute on a topology. The value of this attribute is a bitwise **OR** of flags from the [**MF\_TOPOLOGY\_RESOLUTION\_STATUS\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-mf_topology_resolution_status_flags) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

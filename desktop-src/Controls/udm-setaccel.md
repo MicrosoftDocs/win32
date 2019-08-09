@@ -27,14 +27,14 @@ Sets the acceleration for an up-down control.
 *wParam* 
 </dt> <dd>
 
-Number of [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-_udaccel) structures specified by *aAccels*.
+Number of [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-udaccel) structures specified by *aAccels*.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to an array of [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-_udaccel) structures that contain acceleration information. Elements should be sorted in ascending order based on the **nSec** member.
+Pointer to an array of [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-udaccel) structures that contain acceleration information. Elements should be sorted in ascending order based on the **nSec** member.
 
 </dd> </dl>
 

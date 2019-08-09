@@ -15,7 +15,7 @@ Updates the system renewability message (SRM) for High-Bandwidth Digital Content
 |              |                                                                                     |
 |--------------|-------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_HDCP\_SRM                                                                 |
-| Input data   | An [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_hdcp_srm_parameters) structure |
+| Input data   | An [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_hdcp_srm_parameters) structure |
 
 
 

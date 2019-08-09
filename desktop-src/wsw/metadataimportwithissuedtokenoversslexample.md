@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # MetadataImportWithIssuedTokenOverSslExample
 
-This example illustrates importing metadata from an endpoint that supports using an issued token that is obtained from the issuing security token service (STS) using [**WsRequestSecurityToken**](/windows/desktop/api/WebServices/nf-webservices-wsrequestsecuritytoken) and presented to the service using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_token_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding). See [Federation](federation.md) for more information.
+This example illustrates importing metadata from an endpoint that supports using an issued token that is obtained from the issuing security token service (STS) using [**WsRequestSecurityToken**](/windows/desktop/api/WebServices/nf-webservices-wsrequestsecuritytoken) and presented to the service using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). See [Federation](federation.md) for more information.
 
 ## MetadataImportWithIssuedTokenOverSslExample.cpp
 
@@ -629,10 +629,10 @@ Exit:
 [**WsRequestSecurityToken**](/windows/desktop/api/WebServices/nf-webservices-wsrequestsecuritytoken)
 </dt> <dt>
 
-[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_token_message_security_binding)
+[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding)
 </dt> <dt>
 
-[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding)
+[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
 </dt> <dt>
 
 [Federation](federation.md)

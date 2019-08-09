@@ -12,14 +12,14 @@ The following are the DbgHelp enumeration types.
 
 <dl>
 
-[**IMAGEHLP\_SYMBOL\_TYPE\_INFO**](/windows/desktop/api/DbgHelp/ne-dbghelp-_imagehlp_symbol_type_info)  
-[**MINIDUMP\_CALLBACK\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_callback_type)  
-[**MINIDUMP\_HANDLE\_OBJECT\_INFORMATION\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_handle_object_information_type)  
-[**MINIDUMP\_SECONDARY\_FLAGS**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_secondary_flags)  
-[**MINIDUMP\_STREAM\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type)  
-[**MINIDUMP\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_type)  
-[**MODULE\_WRITE\_FLAGS**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags)  
-[**THREAD\_WRITE\_FLAGS**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_thread_write_flags)  
+[**IMAGEHLP\_SYMBOL\_TYPE\_INFO**](/windows/desktop/api/DbgHelp/ne-dbghelp-imagehlp_symbol_type_info)  
+[**MINIDUMP\_CALLBACK\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type)  
+[**MINIDUMP\_HANDLE\_OBJECT\_INFORMATION\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_handle_object_information_type)  
+[**MINIDUMP\_SECONDARY\_FLAGS**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_secondary_flags)  
+[**MINIDUMP\_STREAM\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type)  
+[**MINIDUMP\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type)  
+[**MODULE\_WRITE\_FLAGS**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags)  
+[**THREAD\_WRITE\_FLAGS**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags)  
 </dl>
 
  

@@ -28,7 +28,7 @@ The [**WSAQUERYSET**](pnrp-and-wsaqueryset.md) structure must be configured acco
 
 -   **dwSize** must specify the size the [**WSAQUERYSET**](pnrp-and-wsaqueryset.md) structure.
 -   **lpszServiceInstanceName** must point to the peer name that is being unregistered.
--   **lpBlob** must point to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) structure.
+-   **lpBlob** must point to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1) structure.
 -   **lpcsaBuffer** must point to the address list.
 
 > [!Note]  

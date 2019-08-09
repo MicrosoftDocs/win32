@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Bluetooth and bind
 
-Bluetooth uses the [**bind**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind) function to bind to a socket. To bind a Bluetooth socket, call the **bind** function using the [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure. Use the **SOCKADDR\_BTH** structure with the following settings:
+Bluetooth uses the [**bind**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind) function to bind to a socket. To bind a Bluetooth socket, call the **bind** function using the [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) structure. Use the **SOCKADDR\_BTH** structure with the following settings:
 
 ``` syntax
 name.addressFamily = AF_BTH;

@@ -19,10 +19,10 @@ The following are new Network Management functions:
 
 The following are new Network Management structures:
 
--   [**NETSETUP\_PROVISIONING\_PARAMS**](/windows/desktop/api/Lmjoin/ns-lmjoin-_netsetup_provisioning_params)
--   [**USER\_INFO\_24**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_info_24)
+-   [**NETSETUP\_PROVISIONING\_PARAMS**](/windows/desktop/api/Lmjoin/ns-lmjoin-netsetup_provisioning_params)
+-   [**USER\_INFO\_24**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_24)
 
-The [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo) function has been enhanced on Windows 8 to support a new information level and return a [**USER\_INFO\_24**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_info_24) structure with user account information for an account connected to an Internet identity.
+The [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo) function has been enhanced on Windows 8 to support a new information level and return a [**USER\_INFO\_24**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_24) structure with user account information for an account connected to an Internet identity.
 
 ## Windows 7 and Windows Server 2008 R2
 

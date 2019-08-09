@@ -22,7 +22,7 @@ CPU Sets that are reserved can be determined by inspecting the **Allocated** fla
 -   [**SetProcessDefaultCpuSets**](setprocessdefaultcpusets.md) function
 -   [**SetThreadSelectedCpuSets**](setthreadselectedcpusets.md) function
 -   [**CPU\_SET\_INFORMATION\_TYPE**](cpu-set-information-type.md) enumeration
--   [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/desktop/api/winnt/ns-winnt-_system_cpu_set_information) structure
+-   [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/desktop/api/winnt/ns-winnt-system_cpu_set_information) structure
 
  
 

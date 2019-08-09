@@ -51,7 +51,7 @@ Generates code using the Windows Vista code templates. The tool generates the fo
 -   .rc
 -   \_r.h
 
-The .h file contains the provider GUID, a counter set GUID and [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-_perf_counterset_info) block for each counter set defined in the manifest, the function declarations for the initialization, cleanup, and notification (if specified) functions, and the provider handle that is used when starting and stopping the provider.
+The .h file contains the provider GUID, a counter set GUID and [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_info) block for each counter set defined in the manifest, the function declarations for the initialization, cleanup, and notification (if specified) functions, and the provider handle that is used when starting and stopping the provider.
 
 The .c file contains the **PerfAutoInitialize** function, the **PerfAutoCleanup** function, and the default implementation of the notification callback function. You can include the rest of your provider implementation in this file or another file.
 
@@ -152,7 +152,7 @@ Note that these files include code for each provider included in the manifest.
 
 The .h file contains the initialization and cleanup functions that your provider calls. The initialization function is called [***prefix*CounterInitialize**](counterinitialize.md) and the cleanup function is called [***prefix*CounterCleanup**](countercleanup.md). The function names include the *prefix* string if you specify the **-prefix** argument. The functions are inline functions.
 
-The .h file also includes a counter set GUID and [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-_perf_counterset_info) block for each counter set defined in the manifest and the symbolic names for the provider, counter sets, and counters (if specified). You specify the symbolic names in the manifest. You can use the symbolic names when you reference the provider, counter set, or counter. For example, when calling the [**PerfCreateInstance**](/windows/desktop/api/Perflib/nf-perflib-perfcreateinstance) function, set the *CounterSetGuid* parameter to the symbolic name.
+The .h file also includes a counter set GUID and [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_info) block for each counter set defined in the manifest and the symbolic names for the provider, counter sets, and counters (if specified). You specify the symbolic names in the manifest. You can use the symbolic names when you reference the provider, counter set, or counter. For example, when calling the [**PerfCreateInstance**](/windows/desktop/api/Perflib/nf-perflib-perfcreateinstance) function, set the *CounterSetGuid* parameter to the symbolic name.
 
 The .rc file contains the strings for the counter names and descriptions.
 

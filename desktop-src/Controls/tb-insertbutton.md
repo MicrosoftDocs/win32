@@ -36,7 +36,7 @@ Zero-based index of a button. The message inserts the new button to the left of 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure containing information about the button to insert.
+Pointer to a [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure containing information about the button to insert.
 
 </dd> </dl>
 

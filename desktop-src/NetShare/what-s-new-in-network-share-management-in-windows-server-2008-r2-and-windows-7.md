@@ -14,7 +14,7 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to Netwo
 
 <dl>
 
-[**SHARE\_INFO\_1005**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_1005) structureAdded **shi1005\_flags** values: <dl> **SHI1005\_FLAGS\_FORCE\_LEVELII\_OPLOCK**  
+[**SHARE\_INFO\_1005**](/windows/desktop/api/Lmshare/ns-lmshare-share_info_1005) structureAdded **shi1005\_flags** values: <dl> **SHI1005\_FLAGS\_FORCE\_LEVELII\_OPLOCK**  
 **SHI1005\_FLAGS\_ENABLE\_HASH**  
 </dl> </dd> </dl>
 

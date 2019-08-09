@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # MetadataImportWithUsernameOverSslExample
 
-This example illustrates importing metadata from an endpoint that supports [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_username_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding).
+This example illustrates importing metadata from an endpoint that supports [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding).
 
 ## MetadataImportWithUsernameOverSslExample.cpp
 
@@ -577,10 +577,10 @@ Exit:
 
 <dl> <dt>
 
-[**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_username_message_security_binding)
+[**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding)
 </dt> <dt>
 
-[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding)
+[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
 </dt> </dl>
 
  

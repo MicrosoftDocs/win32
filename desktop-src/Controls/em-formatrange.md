@@ -34,7 +34,7 @@ Specifies whether to render the text. If this parameter is not zero, the text is
 *lParam* 
 </dt> <dd>
 
-A [**FORMATRANGE**](/windows/desktop/api/Richedit/ns-richedit-_formatrange) structure containing information about the output device, or **NULL** to free information cached by the control.
+A [**FORMATRANGE**](/windows/desktop/api/Richedit/ns-richedit-formatrange) structure containing information about the output device, or **NULL** to free information cached by the control.
 
 </dd> </dl>
 

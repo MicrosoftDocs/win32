@@ -21,7 +21,7 @@ For more information, see the following topics.
 
 -   [EAP Peer Supplicant Action Codes](/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction).
 -   [EAP Peer Supplicant Reason Codes](/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeermethodresultreason).
--   [EAP Authenticator Method Action Codes](/previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action).
+-   [EAP Authenticator Method Action Codes](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action).
 
 Supplicants are expected to ignore attributes that they do not recognize or cannot act upon. Using [**EapHostPeerSetResponseAttributes**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetresponseattributes) these ignored attributes are sent back to EAPHost and the EAP method.
 
@@ -32,7 +32,7 @@ By using the vendor-specific EAP attribute, EAP methods and supplicants can enga
 For more information, see the following topics.
 
 -   [EAP Attributes](about-eap-attributes.md).
--   [**EAP\_ATTRIBUTE\_TYPE**](/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_attribute_type).
+-   [**EAP\_ATTRIBUTE\_TYPE**](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type).
 
 ## Related topics
 

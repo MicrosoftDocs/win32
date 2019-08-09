@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-_iconinfo)
--   [**ICONINFOEX**](/windows/desktop/api/Winuser/ns-winuser-_iconinfoexa)
+-   [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo)
+-   [**ICONINFOEX**](/windows/desktop/api/Winuser/ns-winuser-iconinfoexa)
 -   [**ICONMETRICS**](/windows/desktop/api/Winuser/ns-winuser-tagiconmetricsa)
 
  

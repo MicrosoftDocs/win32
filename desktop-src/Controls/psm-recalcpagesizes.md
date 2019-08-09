@@ -47,7 +47,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 When a property sheet is created, it is sized to fit its initial collection of pages. In order to maintain compatibility with previous versions of the common controls, property sheets and wizards do not automatically resize themselves when pages are subsequently added or removed. With common controls [version 5.80](common-control-versions.md), applications should send a **PSM\_RECALCPAGESIZES** message after adding or removing pages with [**PSM\_ADDPAGE**](psm-addpage.md), [**PSM\_INSERTPAGE**](psm-insertpage.md), [**PSM\_REMOVEPAGE**](psm-removepage.md), or their equivalent macros. It ensures that the property sheet is properly sized for its current collection of pages. If this message is not sent, some property sheet pages may be truncated or too large.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).
 
  
 

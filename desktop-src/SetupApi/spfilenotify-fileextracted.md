@@ -27,7 +27,7 @@ SPFILENOTIFY_FILEEXTRACTED
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a) structure that contains path information for the extracted file. The **SourceFile** member of the **FILEPATHS** structure contains the full source path of the cabinet. The **TargetFile** member supplies the full target path of the file to be installed on the system.
+Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_a) structure that contains path information for the extracted file. The **SourceFile** member of the **FILEPATHS** structure contains the full source path of the cabinet. The **TargetFile** member supplies the full target path of the file to be installed on the system.
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ The cabinet callback routine should return one of the following values.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a)
+[**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_a)
 </dt> <dt>
 
 [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta)

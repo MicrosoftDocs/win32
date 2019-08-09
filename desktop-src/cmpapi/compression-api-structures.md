@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The native Compression API contains the following structure.
 
-[**COMPRESS\_ALLOCATION\_ROUTINES**](/windows/desktop/api/compressapi/ns-compressapi-_compress_allocation_routines)
+[**COMPRESS\_ALLOCATION\_ROUTINES**](/windows/desktop/api/compressapi/ns-compressapi-compress_allocation_routines)
 
 ## Related topics
 

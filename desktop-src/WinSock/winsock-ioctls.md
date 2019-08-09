@@ -291,14 +291,14 @@ Retrieve the [**QOS**](https://msdn.microsoft.com/en-US/library/Aa374024(v=VS.80
 <span id="SIO_GET_INTERFACE_LIST__opcode_setting__O__T__0_"></span><span id="sio_get_interface_list__opcode_setting__o__t__0_"></span><span id="SIO_GET_INTERFACE_LIST__OPCODE_SETTING__O__T__0_"></span>SIO\_GET\_INTERFACE\_LIST (opcode setting: O, T==0)
 </dt> <dd>
 
-Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info) structures.
+Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info) structures.
 
 > [!Note]  
 > Support of this command is mandatory for Windows Sockets 2-compliant TCP/IP service providers.
 
  
 
-The *lpvOutBuffer* parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info) structures for unicast IP addresses on the interfaces. The *cbOutBuffer* parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in the buffer pointed to by *lpvOutBuffer* parameter) can be determined based on the actual length of the output buffer returned in *lpcbBytesReturned* parameter.
+The *lpvOutBuffer* parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info) structures for unicast IP addresses on the interfaces. The *cbOutBuffer* parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in the buffer pointed to by *lpvOutBuffer* parameter) can be determined based on the actual length of the output buffer returned in *lpcbBytesReturned* parameter.
 
 If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function is called with **SIO\_GET\_INTERFACE\_LIST** and the level member of the socket *s* parameter is not defined as **IPPROTO\_IP**, **WSAEINVAL** is returned. A call to the **WSAIoctl** function with **SIO\_GET\_INTERFACE\_LIST** returns **WSAEFAULT** if the *cbOutBuffer* parameter that specifies the length of the output buffer is too small ro receive the list of configured interfaces.
 
@@ -311,9 +311,9 @@ If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) functi
 
 Reserved for future use with sockets.
 
-Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE\_INFO\_EX**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info_ex) structures.
+Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE\_INFO\_EX**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info_ex) structures.
 
-The *lpvOutBuffer* parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE\_INFO\_EX**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info_ex) structures for unicast IP addresses on the interface. The *cbOutBuffer* parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in *lpvOutBuffer*) can be determined based on the actual length of the output buffer returned in *lpcbBytesReturned* parameter.
+The *lpvOutBuffer* parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE\_INFO\_EX**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info_ex) structures for unicast IP addresses on the interface. The *cbOutBuffer* parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in *lpvOutBuffer*) can be determined based on the actual length of the output buffer returned in *lpcbBytesReturned* parameter.
 
 **SIO\_GET\_INTERFACE\_LIST\_EX** is not currently supported on Windows.
 
@@ -401,7 +401,7 @@ Specifies the scope over which multicast transmissions will occur. Scope is defi
 
 Queries the association between a socket and an RSS processor core and NUMA node.
 
-The [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](https://msdn.microsoft.com/en-us/library/JJ553482(v=VS.85).aspx) IOCTL returns a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure that contains the [**PROCESSOR\_NUMBER**](https://msdn.microsoft.com/en-us/library/Dd405505(v=VS.85).aspx) and the NUMA node ID. The returned **PROCESSOR\_NUMBER** structure contains a group number and relative processor number within the group.
+The [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](https://msdn.microsoft.com/en-us/library/JJ553482(v=VS.85).aspx) IOCTL returns a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity) structure that contains the [**PROCESSOR\_NUMBER**](https://msdn.microsoft.com/en-us/library/Dd405505(v=VS.85).aspx) and the NUMA node ID. The returned **PROCESSOR\_NUMBER** structure contains a group number and relative processor number within the group.
 
 For more detailed information, see the [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](https://msdn.microsoft.com/en-us/library/JJ553482(v=VS.85).aspx) reference. **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** is supported on Windows 8, Windows Server 2012, and later.
 
@@ -440,7 +440,7 @@ Queries the transport settings on a socket. The transport setting being queried 
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket.
 
-If the [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](https://msdn.microsoft.com/en-us/library/Hh701032(v=WIN.10).aspx) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](https://msdn.microsoft.com/en-us/library/ms742282(v=VS.85).aspx) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_input) structure with the current status.
+If the [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](https://msdn.microsoft.com/en-us/library/Hh701032(v=WIN.10).aspx) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](https://msdn.microsoft.com/en-us/library/ms742282(v=VS.85).aspx) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) structure with the current status.
 
 For more detailed information, see the [**SIO\_QUERY\_TRANSPORT\_SETTING**](https://msdn.microsoft.com/en-us/library/JJ553483(v=VS.85).aspx) reference. **SIO\_QUERY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
@@ -641,7 +641,7 @@ Associate the specified [**QOS**](https://msdn.microsoft.com/en-US/library/Aa374
 <span id="SIO_TCP_INITIAL_RTO__opcode_setting__I__T__3_"></span><span id="sio_tcp_initial_rto__opcode_setting__i__t__3_"></span><span id="SIO_TCP_INITIAL_RTO__OPCODE_SETTING__I__T__3_"></span>SIO\_TCP\_INITIAL\_RTO (opcode setting: I, T==3)
 </dt> <dd>
 
-Controls the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket by configuring initial retransmission timeout (RTO) parameters. The configuration parameters are specified in a [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-_transmit_file_buffers) structure.
+Controls the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket by configuring initial retransmission timeout (RTO) parameters. The configuration parameters are specified in a [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers) structure.
 
 For more detailed information, see the [**SIO\_TCP\_INITIAL\_RTO**](https://msdn.microsoft.com/en-us/library/JJ710203(v=VS.85).aspx) reference. [**SIO\_TCP\_INITIAL\_RTO**](https://msdn.microsoft.com/en-us/library/JJ710203(v=VS.85).aspx) is supported on Windows 8, Windows Server 2012, and later.
 
@@ -677,7 +677,7 @@ For more detailed information, see the [**SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_R
 <span id="SIO_TCP_INFO_opcode_setting__I___O__T__3_"></span><span id="sio_tcp_info_opcode_setting__i___o__t__3_"></span><span id="SIO_TCP_INFO_OPCODE_SETTING__I___O__T__3_"></span>SIO\_TCP\_INFO(opcode setting: I, O, T==3)
 </dt> <dd>
 
-Retrieves the TCP statistics for a socket. The TCP statistics are provided in a [**TCP\_INFO\_v0**](/windows/desktop/api/Mstcpip/ns-mstcpip-_tcp_info_v0) structure.
+Retrieves the TCP statistics for a socket. The TCP statistics are provided in a [**TCP\_INFO\_v0**](/windows/desktop/api/Mstcpip/ns-mstcpip-tcp_info_v0) structure.
 
 Unlike retrieving TCP statistics with the [**GetPerTcpConnectionEStats**](https://msdn.microsoft.com/en-us/library/Bb485738(v=VS.85).aspx) function, retrieving TCP statistics with this control code does not require the user code to load, store, and filter the TCP connection table, and does not require elevated privileges to use.
 

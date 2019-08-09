@@ -16,7 +16,7 @@ The Queue Manager (QMGR) [interfaces](qmgr-interfaces.md) use the following stru
 
 | Structure                                     | Purpose                                                                   |
 |-----------------------------------------------|---------------------------------------------------------------------------|
-| [**FILESETINFO**](/windows/desktop/api/Qmgr/ns-qmgr-_filesetinfo)<br/> | Identifies the remote and local names of the file to download.<br/> |
+| [**FILESETINFO**](/windows/desktop/api/Qmgr/ns-qmgr-filesetinfo)<br/> | Identifies the remote and local names of the file to download.<br/> |
 | **BACKGROUND\_COPY\_TIMES**<br/>        | Not supported.<br/>                                                 |
 
 

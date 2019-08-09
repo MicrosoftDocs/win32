@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 ## In This Section
 
 -   [**NMUPDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-_nm_updown)
--   [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-_udaccel)
+-   [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-udaccel)
 
  
 

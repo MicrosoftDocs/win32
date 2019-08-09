@@ -59,7 +59,7 @@ An FTP internet scheme. This scheme is only supported for use in [**WinHttpGetPr
 
 
 
-A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry).
+A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry).
 
 
 </dt> </dl> </dd> </dl>
@@ -80,7 +80,7 @@ A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PR
 
 <dl> <dt>
 
-[**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry)
+[**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry)
 </dt> </dl>
 
  

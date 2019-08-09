@@ -33,7 +33,7 @@ RegisteredTask.State As Integer
 
 ## Property value
 
-A [**TASK\_STATE**](/windows/desktop/api/taskschd/ne-taskschd-_task_state) constant that defines the operational state of the task.
+A [**TASK\_STATE**](/windows/desktop/api/taskschd/ne-taskschd-task_state) constant that defines the operational state of the task.
 
 
 

@@ -35,8 +35,8 @@ This section contains information about the following core structures:
 | [**D3D10\_SAMPLER\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_sampler_desc)                                       | A sampler description.                                               |
 | [**D3D10\_SHADER\_RESOURCE\_VIEW\_DESC**](/windows/desktop/api/d3d10/ns-d3d10-d3d10_shader_resource_view_desc)           | Describes a shader-resource view for Direct3D 10.0.                  |
 | [**D3D10\_SHADER\_RESOURCE\_VIEW\_DESC1**](/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_shader_resource_view_desc1)         | Describes a shader-resource view for Direct3D 10.1.                  |
-| [**D3D10\_SIGNATURE\_PARAMETER\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_signature_parameter_desc)              | A shader-parameter description.                                      |
-| [**D3D10\_STATE\_BLOCK\_MASK**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask)                              | A state-block mask.                                                  |
+| [**D3D10\_SIGNATURE\_PARAMETER\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_signature_parameter_desc)              | A shader-parameter description.                                      |
+| [**D3D10\_STATE\_BLOCK\_MASK**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask)                              | A state-block mask.                                                  |
 | [**D3D10\_SO\_DECLARATION\_ENTRY**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_so_declaration_entry)                      | A vertex-buffer element description for an output slot.              |
 | [**D3D10\_VIEWPORT**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_viewport)                                                | Viewport dimensions.                                                 |
 

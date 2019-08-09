@@ -17,9 +17,9 @@ The following is the layout of a client-side service operation:
 -   [WS\_SERVICE\_PROXY](ws-service-proxy.md)\* serviceProxy: The [service proxy](service-proxy.md) for the call.
 -   [WS\_HEAP](ws-heap.md)\* heap: A required heap used for body serialization and deserialization of the [WS\_MESSAGE](ws-message.md).
 -   Service Operations Parameters: Parameters pertaining to the service operation.
--   [**Call Properties and their count**](/windows/desktop/api/WebServices/ns-webservices-_ws_call_property): An array of call properties.
--   [**Call**](/windows/desktop/api/WebServices/ns-webservices-_ws_call_property) property count: The count of call properties.
--   [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context) asyncContext: Async context for executing the call asynchronously.
+-   [**Call Properties and their count**](/windows/desktop/api/WebServices/ns-webservices-ws_call_property): An array of call properties.
+-   [**Call**](/windows/desktop/api/WebServices/ns-webservices-ws_call_property) property count: The count of call properties.
+-   [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) asyncContext: Async context for executing the call asynchronously.
 -   [WS\_ERROR](ws-error.md) error: Rich error object.
 
 ## 

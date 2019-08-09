@@ -72,7 +72,7 @@ A wildcard SSID is an SSID whose **uSSIDLength** member is set to zero. When the
 
 <dl> <dt>
 
-[**WLAN\_CONNECTION\_PARAMETERS**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters)
+[**WLAN\_CONNECTION\_PARAMETERS**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters)
 </dt> <dt>
 
 [**WlanGetNetworkBssList**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlangetnetworkbsslist)

@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 Vendors should use the following structure types for authentication protocols and authentication providers:
 
--   [**PPP\_EAP\_INFO**](/previous-versions/windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_info)
--   [**PPP\_EAP\_INPUT**](/previous-versions/windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_input)
--   [**PPP\_EAP\_OUTPUT**](/previous-versions/windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_output)
--   [**PPP\_EAP\_PACKET**](/previous-versions/windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_packet)
--   [**RAS\_AUTH\_ATTRIBUTE**](/previous-versions/windows/desktop/api/Raseapif/ns-raseapif-_ras_auth_attribute)
+-   [**PPP\_EAP\_INFO**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_info)
+-   [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input)
+-   [**PPP\_EAP\_OUTPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_output)
+-   [**PPP\_EAP\_PACKET**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_packet)
+-   [**RAS\_AUTH\_ATTRIBUTE**](/windows/desktop/api/Raseapif/ns-raseapif-ras_auth_attribute)
 
  
 

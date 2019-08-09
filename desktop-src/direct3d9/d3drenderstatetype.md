@@ -685,7 +685,7 @@ This state is only useful for debug builds. The debug monitor defaults to D3DDMT
 <span id="D3DRS_POINTSIZE_MAX"></span><span id="d3drs_pointsize_max"></span>**D3DRS\_POINTSIZE\_MAX**
 </dt> <dd>
 
-A float value that specifies the maximum size to which point sprites will be clamped. The value must be less than or equal to the MaxPointSize member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) and greater than or equal to D3DRS\_POINTSIZE\_MIN. The default value is 64.0. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that specifies the maximum size to which point sprites will be clamped. The value must be less than or equal to the MaxPointSize member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) and greater than or equal to D3DRS\_POINTSIZE\_MIN. The default value is 64.0. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -706,7 +706,7 @@ bool value that enables or disables indexed vertex blending. The default value i
 <span id="D3DRS_COLORWRITEENABLE"></span><span id="d3drs_colorwriteenable"></span>**D3DRS\_COLORWRITEENABLE**
 </dt> <dd>
 
-UINT value that enables a per-channel write for the render-target color buffer. A set bit results in the color channel being updated during 3D rendering. A clear bit results in the color channel being unaffected. This functionality is available if the D3DPMISCCAPS\_COLORWRITEENABLE capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure for the device. This render state does not affect the clear operation. The default value is 0x0000000F.
+UINT value that enables a per-channel write for the render-target color buffer. A set bit results in the color channel being updated during 3D rendering. A clear bit results in the color channel being unaffected. This functionality is available if the D3DPMISCCAPS\_COLORWRITEENABLE capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure for the device. This render state does not affect the clear operation. The default value is 0x0000000F.
 
 Valid values for this render state can be any combination of the D3DCOLORWRITEENABLE\_ALPHA, D3DCOLORWRITEENABLE\_BLUE, D3DCOLORWRITEENABLE\_GREEN, or D3DCOLORWRITEENABLE\_RED flags.
 
@@ -830,7 +830,7 @@ Amount to adaptively tessellate, in the w direction. Default value is 0.0f. See 
 
 **TRUE** enables two-sided stenciling, **FALSE** disables it. The default value is **FALSE**. The application should set D3DRS\_CULLMODE to D3DCULL\_NONE to enable two-sided stencil mode. If the triangle winding order is clockwise, the D3DRS\_STENCIL\* operations will be used. If the winding order is counterclockwise, the D3DRS\_CCW\_STENCIL\* operations will be used.
 
-To see if two-sided stencil is supported, check the StencilCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) for D3DSTENCILCAPS\_TWOSIDED. See also [D3DSTENCILCAPS](d3dstencilcaps.md).
+To see if two-sided stencil is supported, check the StencilCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) for D3DSTENCILCAPS\_TWOSIDED. See also [D3DSTENCILCAPS](d3dstencilcaps.md).
 
 </dd> <dt>
 
@@ -865,28 +865,28 @@ The comparison function. CCW stencil test passes if ((ref & mask) stencil functi
 <span id="D3DRS_COLORWRITEENABLE1"></span><span id="d3drs_colorwriteenable1"></span>**D3DRS\_COLORWRITEENABLE1**
 </dt> <dd>
 
-Additional ColorWriteEnable values for the devices. See D3DRS\_COLORWRITEENABLE. This functionality is available if the D3DPMISCCAPS\_INDEPENDENTWRITEMASKS capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure for the device. The default value is 0x0000000f.
+Additional ColorWriteEnable values for the devices. See D3DRS\_COLORWRITEENABLE. This functionality is available if the D3DPMISCCAPS\_INDEPENDENTWRITEMASKS capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure for the device. The default value is 0x0000000f.
 
 </dd> <dt>
 
 <span id="D3DRS_COLORWRITEENABLE2"></span><span id="d3drs_colorwriteenable2"></span>**D3DRS\_COLORWRITEENABLE2**
 </dt> <dd>
 
-Additional ColorWriteEnable values for the devices. See D3DRS\_COLORWRITEENABLE. This functionality is available if the D3DPMISCCAPS\_INDEPENDENTWRITEMASKS capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure for the device. The default value is 0x0000000f.
+Additional ColorWriteEnable values for the devices. See D3DRS\_COLORWRITEENABLE. This functionality is available if the D3DPMISCCAPS\_INDEPENDENTWRITEMASKS capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure for the device. The default value is 0x0000000f.
 
 </dd> <dt>
 
 <span id="D3DRS_COLORWRITEENABLE3"></span><span id="d3drs_colorwriteenable3"></span>**D3DRS\_COLORWRITEENABLE3**
 </dt> <dd>
 
-Additional ColorWriteEnable values for the devices. See D3DRS\_COLORWRITEENABLE. This functionality is available if the D3DPMISCCAPS\_INDEPENDENTWRITEMASKS capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure for the device. The default value is 0x0000000f.
+Additional ColorWriteEnable values for the devices. See D3DRS\_COLORWRITEENABLE. This functionality is available if the D3DPMISCCAPS\_INDEPENDENTWRITEMASKS capabilities bit is set in the PrimitiveMiscCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure for the device. The default value is 0x0000000f.
 
 </dd> <dt>
 
 <span id="D3DRS_BLENDFACTOR"></span><span id="d3drs_blendfactor"></span>**D3DRS\_BLENDFACTOR**
 </dt> <dd>
 
-[**D3DCOLOR**](d3dcolor.md) used for a constant blend-factor during alpha blending. This functionality is available if the D3DPBLENDCAPS\_BLENDFACTOR capabilities bit is set in the SrcBlendCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) or the DestBlendCaps member of **D3DCAPS9**. See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx). The default value is 0xffffffff.
+[**D3DCOLOR**](d3dcolor.md) used for a constant blend-factor during alpha blending. This functionality is available if the D3DPBLENDCAPS\_BLENDFACTOR capabilities bit is set in the SrcBlendCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) or the DestBlendCaps member of **D3DCAPS9**. See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx). The default value is 0xffffffff.
 
 </dd> <dt>
 

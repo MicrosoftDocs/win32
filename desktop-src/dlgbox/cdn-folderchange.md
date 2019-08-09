@@ -46,7 +46,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure. The **OFNOTIFY** structure contains an [**NMHDR**](https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx) structure whose **code** member indicates the **CDN\_FOLDERCHANGE** notification message.
+A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure. The **OFNOTIFY** structure contains an [**NMHDR**](https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx) structure whose **code** member indicates the **CDN\_FOLDERCHANGE** notification message.
 
 </dd> </dl>
 
@@ -91,7 +91,7 @@ To get the path of the newly opened folder, the hook procedure can send the [**C
 [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
 </dt> <dt>
 
-[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya)
+[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 </dt> <dt>
 
 **Conceptual**

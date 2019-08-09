@@ -26,7 +26,7 @@ SPFILENOTIFY_QUEUESCAN_EX
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a) structure. The **Target** member is the filename of the target file on the system. The **Source** member is the expected path of the source file. The **Win32Error** member is the signing error.
+Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_a) structure. The **Target** member is the filename of the target file on the system. The **Source** member is the expected path of the source file. The **Win32Error** member is the signing error.
 
 </dd> </dl>
 

@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # ITsSbTaskInfo::Status property
 
-Retrieves an [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status) enumeration value that represents the state of the task.
+Retrieves an [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration value that represents the state of the task.
 
 This property is read-only.
 
@@ -39,7 +39,7 @@ HRESULT get_Status(
 
 ## Property value
 
-An [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status) enumeration value that represents the state of the task.
+An [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration value that represents the state of the task.
 
 ## Requirements
 

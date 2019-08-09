@@ -14,7 +14,7 @@ Tasks are registered and run under a specific security context. Users can create
 
 You can specify the security context for a task by specifying credentials in the [**ITaskFolder::RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) or [**ITaskFolder::RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) ([**TaskFolder.RegisterTask**](taskfolder-registertask.md) or [**TaskFolder.RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) for scripting) methods or by assigning a principal to the [**Principal Property of ITaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal) ([**TaskDefinition.Principal**](taskdefinition-principal.md) for scripting). If a principal is created for a task definition, and then the task definition is registered using the **RegisterTaskDefinition** method with different credentials specified in the method parameters, then the credentials specified in the **RegisterTaskDefinition** method will overwrite the credentials in the principal. If a principal is created for a task definition using XML, and then the XML for the task is registered using the **RegisterTask** method with different credentials specified in the method parameters, then the credentials specified in the **RegisterTask** method will overwrite the credentials in the principal.
 
-You specify a user account or group when registering a task or specifying the principle for a task. The security context of the user account or group is used for the security context of the task. In these methods and properties, you also define the logon type. The logon type is defined by one of the constants in the [**TASK\_LOGON\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-_task_logon_type) enumeration.
+You specify a user account or group when registering a task or specifying the principle for a task. The security context of the user account or group is used for the security context of the task. In these methods and properties, you also define the logon type. The logon type is defined by one of the constants in the [**TASK\_LOGON\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-task_logon_type) enumeration.
 
 Tasks registered with the TASK\_LOGON\_PASSWORD or TASK\_LOGON\_S4U flag will only launch if the specified user has the Logon as Batch privilege enabled. Administrators and Backup Operators group users have this privilege enabled by default.
 
@@ -76,7 +76,7 @@ A user must have WriteDAC permission in addition to the read/write permissions t
 [**Principal Property of ITaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal)
 </dt> <dt>
 
-[**TASK\_LOGON\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-_task_logon_type)
+[**TASK\_LOGON\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-task_logon_type)
 </dt> </dl>
 
  

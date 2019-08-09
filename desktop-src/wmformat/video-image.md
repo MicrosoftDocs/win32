@@ -29,7 +29,7 @@ A Video Image stream has its own media type and a specialized structure that def
 [**Video Image Transitions**](video-image-transitions.md)
 </dt> <dt>
 
-[**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2)
+[**WMT\_VIDEOIMAGE\_SAMPLE2**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2)
 </dt> <dt>
 
 [**Writing Video Image Samples**](writing-video-image-samples.md)

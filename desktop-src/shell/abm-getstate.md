@@ -34,7 +34,7 @@ uState = (UINT) SHAppBarMessage(ABM_GETSTATE, pabd);
 *pabd* 
 </dt> <dd>
 
-Pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure. You must specify the **cbSize** member when sending this message; all other members are ignored.
+Pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure. You must specify the **cbSize** member when sending this message; all other members are ignored.
 
 </dd> </dl>
 

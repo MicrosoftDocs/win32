@@ -16,7 +16,7 @@ Specifies whether a video media type requires the enforcement of copy protection
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoDRMFlags**](/windows/desktop/api/mfapi/ne-mfapi-_mfvideodrmflags) enumeration.
+The value of this attribute is a member of the [**MFVideoDRMFlags**](/windows/desktop/api/mfapi/ne-mfapi-mfvideodrmflags) enumeration.
 
 This attribute provides a hint to the application. It is not used to enforce copy protection or to specify the copy protection mechanism.
 

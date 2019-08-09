@@ -32,7 +32,7 @@ ms.date: 05/31/2018
 
 # MSAD\_ReplPendingOp class
 
-Represents the [**DS\_REPL\_OP**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_opw) structure, which describes a replication task that is currently executing or pending execution. This structure is returned by the [**DsReplicaGetInfo**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfow) function.
+Represents the [**DS\_REPL\_OP**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw) structure, which describes a replication task that is currently executing or pending execution. This structure is returned by the [**DsReplicaGetInfo**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfow) function.
 
 ## Syntax
 
@@ -224,7 +224,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Gets the [**DS\_REPL\_OP\_TYPE**](/windows/desktop/api/Ntdsapi/ne-ntdsapi-_ds_repl_op_type) value that indicates the type of operation that this class represents.
+Gets the [**DS\_REPL\_OP\_TYPE**](/windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repl_op_type) value that indicates the type of operation that this class represents.
 
 </dd> <dt>
 

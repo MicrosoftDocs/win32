@@ -40,7 +40,7 @@ DFM_MERGECONTEXTMENU_BOTTOM
 *pqcminfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**QCMINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_qcminfo) structure containing the information used in the merge.
+A pointer to a [**QCMINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo) structure containing the information used in the merge.
 
 </dd> <dt>
 

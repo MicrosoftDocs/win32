@@ -28,7 +28,7 @@ ms.date: 05/31/2018
 
 
 
-The Active Directory Users and Computers, the Active Directory Sites and Services, and the Active Directory Domains and Trusts snap-ins support the **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format provides an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-_dsdisplayspecoptions) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
+The Active Directory Users and Computers, the Active Directory Sites and Services, and the Active Directory Domains and Trusts snap-ins support the **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format provides an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-dsdisplayspecoptions) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
 
 
 </dt> </dl> </dd> <dt>
@@ -59,7 +59,7 @@ The **CFSTR\_DSDISPLAYSPECOPTIONS** clipboard format is identical to the **CFSTR
 
 <dl> <dt>
 
-[**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-_dsdisplayspecoptions)
+[**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-dsdisplayspecoptions)
 </dt> </dl>
 
  

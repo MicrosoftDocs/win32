@@ -16,7 +16,7 @@ Varies; see Remarks.
 
 ## Remarks
 
-The constant MFNETSOURCE\_STATISTICS defines a GUID that is used in conjunction with the [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_statistics_ids) enumeration to define a set of property keys. Each property key in the set has **fmtid** equal to MFNETSOURCE\_STATISTICS and **pid** equal to one member of the enumeration. For more information, see [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_statistics_ids).
+The constant MFNETSOURCE\_STATISTICS defines a GUID that is used in conjunction with the [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids) enumeration to define a set of property keys. Each property key in the set has **fmtid** equal to MFNETSOURCE\_STATISTICS and **pid** equal to one member of the enumeration. For more information, see [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids).
 
 ## Requirements
 

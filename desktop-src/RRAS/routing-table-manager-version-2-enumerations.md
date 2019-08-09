@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The RTMv2 functions use the following enumeration:
 
-[**RTM\_EVENT\_TYPE**](/windows/desktop/api/Rtmv2/ne-rtmv2-_rtm_event_type)
+[**RTM\_EVENT\_TYPE**](/windows/desktop/api/Rtmv2/ne-rtmv2-rtm_event_type)
 
  
 

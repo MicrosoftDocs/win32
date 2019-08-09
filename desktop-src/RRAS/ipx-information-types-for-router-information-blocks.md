@@ -16,7 +16,7 @@ The following information types are listed in Ipxrtdef.h. Use these information 
 |-----------------------------------------------|----------------------------------------------------------------|
 | IPX\_ADAPTER\_INFO\_TYPE                      | IPX\_ADAPTER\_INFO                                             |
 | IPX\_GLOBAL\_INFO\_TYPE                       | IPX\_GLOBAL\_INFO                                              |
-| IPX\_INTERFACE\_INFO\_TYPE                    | [**IPX\_IF\_INFO**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-_ipx_if_info)                           |
+| IPX\_INTERFACE\_INFO\_TYPE                    | [**IPX\_IF\_INFO**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-ipx_if_info)                           |
 | IPX\_IN\_TRAFFIC\_FILTER\_GLOBAL\_INFO\_TYPE  | IPX\_TRAFFIC\_FILTER\_GLOBAL\_INFO                             |
 | IPX\_OUT\_TRAFFIC\_FILTER\_GLOBAL\_INFO\_TYPE | IPX\_TRAFFIC\_FILTER\_GLOBAL\_INFO                             |
 | IPX\_IN\_TRAFFIC\_FILTER\_INFO\_TYPE          | IPX\_TRAFFIC\_FILTER\_INFO                                     |
@@ -24,7 +24,7 @@ The following information types are listed in Ipxrtdef.h. Use these information 
 | IPX\_STATIC\_NETBIOS\_NAME\_INFO\_TYPE        | IPX\_STATIC\_NETBIOS\_NAME\_INFO                               |
 | IPX\_STATIC\_ROUTE\_INFO\_TYPE                | IPX\_STATIC\_ROUTE\_INFO                                       |
 | IPX\_STATIC\_SERVICE\_INFO\_TYPE              | [**IPX\_STATIC\_SERVICE\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)) |
-| IPXWAN\_INTERFACE\_INFO\_TYPE                 | [**IPXWAN\_IF\_INFO**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-_ipxwan_if_info)                     |
+| IPXWAN\_INTERFACE\_INFO\_TYPE                 | [**IPXWAN\_IF\_INFO**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-ipxwan_if_info)                     |
 
 
 

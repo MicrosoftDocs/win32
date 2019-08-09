@@ -35,7 +35,7 @@ The time-based and event-based triggers that are described below allow you to st
 
 ## Task Scheduler 2.0 Triggers
 
-The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2) enumeration.
+The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2) enumeration.
 
 | Trigger                                                                                                                                                                                                                                                                                                                                                                                                                | Description                                                                                                                                                                                  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE2**](/windo
 
 ## Task Scheduler 1.0 Triggers
 
-The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE**](/windows/desktop/api/Mstask/ne-mstask-_task_trigger_type) enumeration. To implement any of the following triggers, see the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger) structure.
+The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE**](/windows/desktop/api/Mstask/ne-mstask-task_trigger_type) enumeration. To implement any of the following triggers, see the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-task_trigger) structure.
 
 -   Once trigger: Starts the task a single time.
 -   Daily trigger: Starts the task on a daily interval.

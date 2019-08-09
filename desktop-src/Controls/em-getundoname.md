@@ -42,7 +42,7 @@ Not used; must be zero.
 
 ## Return value
 
-If there is an undo action, the value returned is an [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-_undonameid) enumeration value that indicates the type of the next action in the control's undo queue.
+If there is an undo action, the value returned is an [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-undonameid) enumeration value that indicates the type of the next action in the control's undo queue.
 
 If there are no actions that can be undone or the type of the next undo action is unknown, the return value is zero.
 
@@ -78,7 +78,7 @@ The types of actions that can be undone or redone include typing, delete, drag, 
 [**EM\_UNDO**](em-undo.md)
 </dt> <dt>
 
-[**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-_undonameid)
+[**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-undonameid)
 </dt> </dl>
 
  

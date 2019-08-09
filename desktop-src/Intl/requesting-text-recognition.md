@@ -27,7 +27,7 @@ This section provides instructions for several ways to perform synchronous text 
 
 **Synchronous Text Recognition with Microsoft Language Detection Service**
 
-The following example illustrates the use of [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) with the Microsoft Language Detection service, and prints all the results retrieved by the service. The output format of this service is a single [**MAPPING\_DATA\_RANGE**](/windows/desktop/api/Elscore/ns-elscore-_mapping_data_range) structure with its **pData** member pointing to a Unicode double-null-terminated, registry-formatted array of strings. Every string of the array is null-terminated and an empty string is used to specify the end of the array. The contents of the array are language names sorted by confidence.
+The following example illustrates the use of [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) with the Microsoft Language Detection service, and prints all the results retrieved by the service. The output format of this service is a single [**MAPPING\_DATA\_RANGE**](/windows/desktop/api/Elscore/ns-elscore-mapping_data_range) structure with its **pData** member pointing to a Unicode double-null-terminated, registry-formatted array of strings. Every string of the array is null-terminated and an empty string is used to specify the end of the array. The contents of the array are language names sorted by confidence.
 
 
 ```C++
@@ -119,7 +119,7 @@ void PrintAllResults(PMAPPING_PROPERTY_BAG pBag)
 
 **Synchronous Text Recognition with Microsoft Script Detection Service**
 
-The next example illustrates the use of [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) with the Microsoft Script Detection service, and prints all the retrieved results. The output format of this service is an array of [**MAPPING\_DATA\_RANGE**](/windows/desktop/api/Elscore/ns-elscore-_mapping_data_range) structures, each specifying text written in the same script. Common (Zyyy) characters are added to the previous range, or to the next range if the previous range does not exist. The **pData** member of each structure points to a Unicode null-terminated string containing the standard Unicode name of the script for the particular range.
+The next example illustrates the use of [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) with the Microsoft Script Detection service, and prints all the retrieved results. The output format of this service is an array of [**MAPPING\_DATA\_RANGE**](/windows/desktop/api/Elscore/ns-elscore-mapping_data_range) structures, each specifying text written in the same script. Common (Zyyy) characters are added to the previous range, or to the next range if the previous range does not exist. The **pData** member of each structure points to a Unicode null-terminated string containing the standard Unicode name of the script for the particular range.
 
 > [!Note]  
 > As of Windows 7, the Microsoft Script Detection service complies with Unicode 5.1.
@@ -223,7 +223,7 @@ void PrintAllResults(PMAPPING_PROPERTY_BAG pBag)
 
 The following example illustrates the use of [**MappingRecognizeText**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) with the Microsoft Cyrillic to Latin transliteration service, and prints the retrieved results. Note the two different ways to enumerate this service, either by GUID or by category and input script.
 
-The output format is the same for all available transliteration services. It is a single [**MAPPING\_DATA\_RANGE**](/windows/desktop/api/Elscore/ns-elscore-_mapping_data_range) structure with its **pData** member pointing to an array of Unicode characters representing the original text transliterated into the output script by applying only the rules of the specific transliteration service. This service does not null-terminate its output if the input does not contain the terminating null character.
+The output format is the same for all available transliteration services. It is a single [**MAPPING\_DATA\_RANGE**](/windows/desktop/api/Elscore/ns-elscore-mapping_data_range) structure with its **pData** member pointing to an array of Unicode characters representing the original text transliterated into the output script by applying only the rules of the specific transliteration service. This service does not null-terminate its output if the input does not contain the terminating null character.
 
 
 ```C++

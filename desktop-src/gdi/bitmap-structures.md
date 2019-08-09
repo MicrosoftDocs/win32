@@ -18,15 +18,15 @@ The following structures are used with bitmaps:
 -   [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx)
 -   [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)
 -   [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header)
--   [**BLENDFUNCTION**](/windows/desktop/api/Wingdi/ns-wingdi-_blendfunction)
+-   [**BLENDFUNCTION**](/windows/desktop/api/Wingdi/ns-wingdi-blendfunction)
 -   [**COLORADJUSTMENT**](/windows/desktop/api/Wingdi/ns-wingdi-tagcoloradjustment)
 -   [**DIBSECTION**](/windows/desktop/api/Wingdi/ns-wingdi-tagdibsection)
--   [**GRADIENT\_RECT**](/windows/desktop/api/Wingdi/ns-wingdi-_gradient_rect)
--   [**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-_gradient_triangle)
+-   [**GRADIENT\_RECT**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_rect)
+-   [**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_triangle)
 -   [**RGBQUAD**](/windows/desktop/api/Wingdi/ns-wingdi-tagrgbquad)
 -   [**RGBTRIPLE**](/windows/desktop/api/Wingdi/ns-wingdi-tagrgbtriple)
 -   [**SIZE**](https://msdn.microsoft.com/en-us/library/Dd145106(v=VS.85).aspx)
--   [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-_trivertex)
+-   [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-trivertex)
 
  
 

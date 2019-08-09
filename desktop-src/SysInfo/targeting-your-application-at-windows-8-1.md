@@ -83,10 +83,10 @@ Adding the **trustInfo** isn’t essential, but it is highly recommended. This w
 [Version Helper functions](version-helper-apis.md)
 </dt> <dt>
 
-[OSVERSIONINFO](/windows/desktop/api/winnt/ns-winnt-_osversioninfoa)
+[OSVERSIONINFO](/windows/desktop/api/winnt/ns-winnt-osversioninfoa)
 </dt> <dt>
 
-[OSVERSIONINFOEX](/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa)
+[OSVERSIONINFOEX](/windows/desktop/api/winnt/ns-winnt-osversioninfoexa)
 </dt> </dl>
 
  

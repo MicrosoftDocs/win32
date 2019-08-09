@@ -14,9 +14,9 @@ The following list provides concise descriptions of each Winsock TCP/IP structur
 
 | TCP/IP Structure                                 | Description                                                                                                                              |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info)      | Used with the ioctl command to obtain information about an interface IP address.                                                         |
-| [**INTERFACE\_INFO\_EX**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info_ex) | Used with the **SIO\_GET\_INTERFACE\_LIST IOCTL** command to obtain information about an interface IP address, including IPv6 addresses. |
-| [**sockaddr\_gen**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-sockaddr_gen)            | Provides generic socket address information. Used with the [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info) structure.                        |
+| [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info)      | Used with the ioctl command to obtain information about an interface IP address.                                                         |
+| [**INTERFACE\_INFO\_EX**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info_ex) | Used with the **SIO\_GET\_INTERFACE\_LIST IOCTL** command to obtain information about an interface IP address, including IPv6 addresses. |
+| [**sockaddr\_gen**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-sockaddr_gen)            | Provides generic socket address information. Used with the [**INTERFACE\_INFO**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info) structure.                        |
 
 
 

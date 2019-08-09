@@ -118,7 +118,7 @@ For example, if your application requires Windows 8 or later, use the following 
 
 <dl> <dt>
 
-[**OSVERSIONINFOEX**](/windows/desktop/api/Winnt/ns-winnt-_osversioninfoexa)
+[**OSVERSIONINFOEX**](/windows/desktop/api/Winnt/ns-winnt-osversioninfoexa)
 </dt> </dl>
 
  

@@ -154,7 +154,7 @@ With these methods, you access or modify the property with a comma delimited, nu
 
  
 
-This method enables the expansion of some query terms with wild card characters, similar to regular expression expansion. Prefix expansion searches for words with the same prefix (fun/funnel). If not set, the default value is SEARCH\_TERM\_PREFIX\_ALL. The supported values of the [**SEARCH\_TERM\_EXPANSION**](/windows/desktop/api/Searchapi/ne-searchapi-_search_term_expansion) enumeration are as follows:
+This method enables the expansion of some query terms with wild card characters, similar to regular expression expansion. Prefix expansion searches for words with the same prefix (fun/funnel). If not set, the default value is SEARCH\_TERM\_PREFIX\_ALL. The supported values of the [**SEARCH\_TERM\_EXPANSION**](/windows/desktop/api/Searchapi/ne-searchapi-search_term_expansion) enumeration are as follows:
 
 -   SEARCH\_TERM\_PREFIX\_ALL - All search terms are expanded
 -   SEARCH\_TERM\_NO\_EXPANSION - No search terms are expanded

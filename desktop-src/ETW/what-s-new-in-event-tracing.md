@@ -14,7 +14,7 @@ This section describes the new features that were added to Event Tracing for Win
 
 ETW can now optionally track binaries for all providers that are enabled to the session. The tracking applies retroactively for providers that were enabled to the session prior to the call, as well as for all future providers that are enabled to the session. You can also now query for the currently-configured maximum number of system loggers allowed by the operating system. For more information, see the **TraceProviderBinaryTracking** and **TraceMaxLoggersQuery** values of the [**TRACE\_INFO\_CLASS**](trace-info-class.md) enumeration, as well as [Retrieving Additional Event Tracing Data](retrieving-additional-event-tracing-data.md).
 
-ETW can now filter events based on event name. You can also determine which events get their stacks captured. For more information, see the **EVENT\_FILTER\_TYPE\_EVENT\_NAME**, **EVENT\_FILTER\_TYPE\_STACKWALK\_NAME** , and **EVENT\_FILTER\_TYPE\_STACKWALK\_LEVEL\_KW** values of the [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structure, as well as the associated [**EVENT\_FILTER\_EVENT\_NAME**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_event_name) and [**EVENT\_FILTER\_LEVEL\_KW**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_level_kw) structures.
+ETW can now filter events based on event name. You can also determine which events get their stacks captured. For more information, see the **EVENT\_FILTER\_TYPE\_EVENT\_NAME**, **EVENT\_FILTER\_TYPE\_STACKWALK\_NAME** , and **EVENT\_FILTER\_TYPE\_STACKWALK\_LEVEL\_KW** values of the [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structure, as well as the associated [**EVENT\_FILTER\_EVENT\_NAME**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_event_name) and [**EVENT\_FILTER\_LEVEL\_KW**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_level_kw) structures.
 
 ## Windows 10
 
@@ -28,19 +28,19 @@ Periodic capture state is a way to allow capture state notifications to be routi
 
 The following features have been added to Event Tracing on Windows 8.1 and Windows Server 2012 R2.
 
-Functions that support using event payload, scope, and stack walk filters used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information, see:
+Functions that support using event payload, scope, and stack walk filters used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information, see:
 
 -   [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters)
 -   [**TdhCleanupPayloadEventFilterDescriptor**](/windows/desktop/api/Tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor)
 -   [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter)
 -   [**TdhDeletePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhdeletepayloadfilter)
 
-In addition, see the extensively revised documentation for the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structures that are used by these features.
+In addition, see the extensively revised documentation for the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures that are used by these features.
 
 A structure that defines an event payload filter predicate that describes how to filter on a single field in a trace session used by the new [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter) function and a new structure used by event ID and stack walk filters. For more information, see:
 
--   [**EVENT\_FILTER\_EVENT\_ID**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_event_id)
--   [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-_payload_filter_predicate)
+-   [**EVENT\_FILTER\_EVENT\_ID**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_event_id)
+-   [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate)
 
 Functions that retrieve information on events present in the provider manifest. For more information, see:
 
@@ -49,7 +49,7 @@ Functions that retrieve information on events present in the provider manifest. 
 
 A structure that defines an array of events in a provider manifest used by the new [**TdhEnumerateManifestProviderEvents**](/windows/desktop/api/Tdh/nf-tdh-tdhenumeratemanifestproviderevents) function. For more information, see:
 
--   [**PROVIDER\_EVENT\_INFO**](/windows/desktop/api/Tdh/ns-tdh-_provider_event_info)
+-   [**PROVIDER\_EVENT\_INFO**](/windows/desktop/api/Tdh/ns-tdh-provider_event_info)
 
 ## Windows 8 and Windows Server 2012
 
@@ -75,7 +75,7 @@ Interfaces that provide information to the relogger on the tracing process and w
 
 Additional enumerations used by the new functions and interfaces. For more information, see:
 
--   [**EVENT\_INFO\_CLASS**](/windows/desktop/api/Evntprov/ne-evntprov-_event_info_class)
+-   [**EVENT\_INFO\_CLASS**](/windows/desktop/api/Evntprov/ne-evntprov-event_info_class)
 -   [**TRACE\_QUERY\_INFO\_CLASS**](https://msdn.microsoft.com/library/Aa364147(v=VS.85).aspx)
 
 ## Windows 7 and Windows Server 2008 R2
@@ -105,10 +105,10 @@ The following structures were added in this release:
 
 -   [**CLASSIC\_EVENT\_ID**](classic-event-id.md)
 -   [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md)
--   [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE32**](/windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace32)
--   [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE64**](/windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace64)
--   [**EVENT\_FILTER\_HEADER**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_header)
--   [**PROVIDER\_FILTER\_INFO**](/windows/desktop/api/Tdh/ns-tdh-_provider_filter_info)
+-   [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE32**](/windows/desktop/api/Evntcons/ns-evntcons-event_extended_item_stack_trace32)
+-   [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE64**](/windows/desktop/api/Evntcons/ns-evntcons-event_extended_item_stack_trace64)
+-   [**EVENT\_FILTER\_HEADER**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_header)
+-   [**PROVIDER\_FILTER\_INFO**](/windows/desktop/api/Tdh/ns-tdh-provider_filter_info)
 
 The following enumerations were added in this release:
 

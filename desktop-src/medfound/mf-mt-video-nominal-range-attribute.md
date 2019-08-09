@@ -16,7 +16,7 @@ Specifies the nominal range of the color information in a video media type.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFNominalRange**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfnominalrange) enumeration.
+The value of this attribute is a member of the [**MFNominalRange**](/windows/desktop/api/mfobjects/ne-mfobjects-mfnominalrange) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -26,7 +26,7 @@ On the output media type, MF\_MT\_VIDEO\_NOMINAL\_RANGE can be set with **MFNomi
 
 H.264/AVC encoder shall treat **MFNominalRange\_Unknown** as **MFNominalRange\_16\_235**.
 
-H.264/AVC encoder shall reject a output media type when MF\_MT\_VIDEO\_NOMINAL\_RANGE is set to **MFNominalRange\_48\_208**, **MFNominalRange\_64\_127**, or any other values not defined on [**MFNominalRange**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfnominalrange).
+H.264/AVC encoder shall reject a output media type when MF\_MT\_VIDEO\_NOMINAL\_RANGE is set to **MFNominalRange\_48\_208**, **MFNominalRange\_64\_127**, or any other values not defined on [**MFNominalRange**](/windows/desktop/api/mfobjects/ne-mfobjects-mfnominalrange).
 
 ## Requirements
 

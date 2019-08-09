@@ -31,7 +31,7 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to the V
 
 <dl>
 
-[**VSS\_RECOVERY\_OPTIONS**](/windows/desktop/api/Vss/ne-vss-_vss_recovery_options)  
+[**VSS\_RECOVERY\_OPTIONS**](/windows/desktop/api/Vss/ne-vss-vss_recovery_options)  
 </dl>
 
 ## New VSS Functions

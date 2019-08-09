@@ -12,8 +12,8 @@ The following structures are part of the Kernel Transaction Manager (KTM) API:
 
 <dl>
 
-[**TRANSACTION\_NOTIFICATION**](/windows/desktop/api/KtmTypes/ns-ktmtypes-_transaction_notification)  
-[**TRANSACTION\_NOTIFICATION\_RECOVERY\_ARGUMENT**](/windows/desktop/api/KtmTypes/ns-ktmtypes-_transaction_notification_recovery_argument)  
+[**TRANSACTION\_NOTIFICATION**](/windows/desktop/api/KtmTypes/ns-ktmtypes-transaction_notification)  
+[**TRANSACTION\_NOTIFICATION\_RECOVERY\_ARGUMENT**](/windows/desktop/api/KtmTypes/ns-ktmtypes-transaction_notification_recovery_argument)  
 </dl>
 
  

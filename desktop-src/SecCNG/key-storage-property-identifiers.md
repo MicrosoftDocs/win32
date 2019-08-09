@@ -103,7 +103,7 @@ L"DHParameters"
 
 
 
-Specifies parameters to use with a Diffie-Hellman key. This data type is a pointer to a [**BCRYPT\_DH\_PARAMETER\_HEADER**](/windows/desktop/api/Bcrypt/ns-bcrypt-_bcrypt_dh_parameter_header) structure. This property can only be set and must be set for the key before the key is completed.
+Specifies parameters to use with a Diffie-Hellman key. This data type is a pointer to a [**BCRYPT\_DH\_PARAMETER\_HEADER**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) structure. This property can only be set and must be set for the key before the key is completed.
 
 
 </dt> </dl> </dd> <dt>
@@ -243,7 +243,7 @@ L"Lengths"
 
 
 
-Indicates the key sizes that are supported by the key. This data type is a pointer to an [**NCRYPT\_SUPPORTED\_LENGTHS**](/windows/desktop/api/Ncrypt/ns-ncrypt-__ncrypt_supported_lengths) structure that contains this information. This property only applies to keys.
+Indicates the key sizes that are supported by the key. This data type is a pointer to an [**NCRYPT\_SUPPORTED\_LENGTHS**](/windows/desktop/api/Ncrypt/ns-ncrypt-ncrypt_supported_lengths) structure that contains this information. This property only applies to keys.
 
 
 </dt> </dl> </dd> <dt>
@@ -394,7 +394,7 @@ L"Security Descr"
 
 
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure that contains access control information for the key. This property only applies to persistent keys. The *dwFlags* parameter of the [**NCryptGetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptgetproperty) or [**NCryptSetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsetproperty) function identifies the part of the security descriptor to get or set.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains access control information for the key. This property only applies to persistent keys. The *dwFlags* parameter of the [**NCryptGetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptgetproperty) or [**NCryptSetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsetproperty) function identifies the part of the security descriptor to get or set.
 
 
 </dt> </dl> </dd> <dt>
@@ -433,7 +433,7 @@ L"UI Policy"
 
 
 
-If used with the [**NCryptSetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsetproperty) or [**NCryptGetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptgetproperty) function, this is a pointer to an [**NCRYPT\_UI\_POLICY**](/windows/desktop/api/Ncrypt/ns-ncrypt-__ncrypt_ui_policy) structure that contains the strong key user interface policy for the key. This property only applies to persistent keys. This property can only be set when the key is being generated. Once the [**NCryptFinalizeKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptfinalizekey) function has been called for this key, this property becomes read-only.
+If used with the [**NCryptSetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsetproperty) or [**NCryptGetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptgetproperty) function, this is a pointer to an [**NCRYPT\_UI\_POLICY**](/windows/desktop/api/Ncrypt/ns-ncrypt-ncrypt_ui_policy) structure that contains the strong key user interface policy for the key. This property only applies to persistent keys. This property can only be set when the key is being generated. Once the [**NCryptFinalizeKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptfinalizekey) function has been called for this key, this property becomes read-only.
 
 A key storage provider can receive this parameter through an [**NCryptSetPropertyFn**](https://www.bing.com/search?q=**NCryptSetPropertyFn**) callback function. The parameter value is an NCRYPT\_UI\_POLICY\_BLOB structure that contains the same information. Similarly, when an application makes a request through NCryptSetPropertyFn to the provider to return this property, the provider is expected to return an NCRYPT\_UI\_POLICY\_BLOB structure.
 

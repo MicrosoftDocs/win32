@@ -12,7 +12,7 @@ The default queue callback routine handles notifications sent by [**SetupCommitF
 
 The default callback routine requires a context structure for internal record keeping. In addition, the queue passes additional information relevant to the current notification in a set of parameters, *Param1* and *Param2*.
 
-For example, if the queue sends an SPFILENOTIFY\_NEEDMEDIA notification to the default callback routine, *Param1* points to a [**SOURCE\_MEDIA**](/windows/desktop/api/Setupapi/ns-setupapi-_source_media_a) structure that contains information about the media needed, and *Param2* points to a character array that can receive new path information from the user.
+For example, if the queue sends an SPFILENOTIFY\_NEEDMEDIA notification to the default callback routine, *Param1* points to a [**SOURCE\_MEDIA**](/windows/desktop/api/Setupapi/ns-setupapi-source_media_a) structure that contains information about the media needed, and *Param2* points to a character array that can receive new path information from the user.
 
 The default callback routine uses this information to prompt the user to either insert the needed source media, specify a new path, skip copying the current file, or cancel the current operation. The default queue callback routine returns FILEOP\_NEWPATH, FILEOP\_DOIT , FILEOP\_SKIP, or FILEOP\_ABORT to the queue, depending on which action the user took.
 

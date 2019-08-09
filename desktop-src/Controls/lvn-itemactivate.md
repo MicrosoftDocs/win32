@@ -42,7 +42,7 @@ LVN_ITEMACTIVATE
 
 [Version 4.71](common-control-versions.md). Pointer to an [**NMITEMACTIVATE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmitemactivate) structure that contains information about this notification code.
 
-[Version 4.70](common-control-versions.md) and earlier. Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure that contains information about this notification code.
+[Version 4.70](common-control-versions.md) and earlier. Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains information about this notification code.
 
 </dd> </dl>
 

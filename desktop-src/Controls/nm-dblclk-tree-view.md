@@ -36,7 +36,7 @@ NM_DBLCLK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure that contains additional information about this notification.
+Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains additional information about this notification.
 
 </dd> </dl>
 

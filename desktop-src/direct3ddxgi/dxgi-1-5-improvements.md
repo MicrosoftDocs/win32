@@ -30,7 +30,7 @@ A single interface, [**IDXGIOutput5**](/windows/desktop/api/DXGI1_5/nn-dxgi1_5-i
 
 ## Offering and Reclaiming Resources
 
-Updated methods, [**OfferResources1**](/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1) and [**ReclaimResources1**](/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1), have been added to a new interface, [**IDXGIDevice4**](/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4), to allow de-committing of memory in addition to discarding resources. Opting in to the new [**DXGI\_OFFER\_RESOURCE\_FLAG\_ALLOW\_DECOMMIT**](/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_offer_resource_flags) flag means the new reclaim results must be properly handled.
+Updated methods, [**OfferResources1**](/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1) and [**ReclaimResources1**](/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1), have been added to a new interface, [**IDXGIDevice4**](/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4), to allow de-committing of memory in addition to discarding resources. Opting in to the new [**DXGI\_OFFER\_RESOURCE\_FLAG\_ALLOW\_DECOMMIT**](/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_offer_resource_flags) flag means the new reclaim results must be properly handled.
 
 ## Related topics
 

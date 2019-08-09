@@ -30,7 +30,7 @@ The basic composition of a Video Image frame is determined by two factors for ea
 
 By manipulating the region of interest for an image, you can create pan and zoom effects. The blend coefficients enable you to cross-fade (dissolve) between images. In addition to these effects, you can use one of the predefined transitions to create more complex frames. The available transitions are described in the [Video Image Transitions](video-image-transitions.md) section of this documentation. When using a transition, you must configure each frame. The easiest way to do this is to create a function that incrementally changes members of the **WMT\_VIDEOIMAGE\_SAMPLE2** structure for a complete effect.
 
-For more information about the values to set for deformations, see [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2).
+For more information about the values to set for deformations, see [**WMT\_VIDEOIMAGE\_SAMPLE2**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2).
 
 **Note** If you want to include audio in a file with a Video Image stream, you must use uncompressed audio input. To combine a Video Image stream with an existing compressed audio stream, you must decompress the audio and pass the samples in uncompressed. If you pass compressed samples to the writer when writing a Video Image stream, an error will occur, resulting in samples being dropped from the video.
 

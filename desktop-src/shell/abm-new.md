@@ -24,7 +24,7 @@ fRegistered = (BOOL) SHAppBarMessage(ABM_NEW, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure that contains the new appbar's window handle and message identifier. You must specify the **cbSize**, **hWnd**, and **uCallbackMessage** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure that contains the new appbar's window handle and message identifier. You must specify the **cbSize**, **hWnd**, and **uCallbackMessage** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 

@@ -20,7 +20,7 @@ The following attributes are used with the transcode API.
 | [MF\_TRANSCODE\_ENCODINGPROFILE](mf-transcode-encodingprofile.md)                 | Specifies the device conformance profile for encoding Advanced Streaming Format (ASF) files. |
 | [MF\_TRANSCODE\_QUALITYVSSPEED](mf-transcode-qualityvsspeed.md)                   | Specifies the tradeoff between encoding quality and encoding speed.                          |
 | [MF\_TRANSCODE\_SKIP\_METADATA\_TRANSFER](mf-transcode-skip-metadata-transfer.md) | Specifies whether metadata is written to the transcoded file.                                |
-| [**MF\_TRANSCODE\_TOPOLOGYMODE**](/windows/desktop/api/mfidl/ne-mfidl-_mf_transcode_topologymode_flags)             | Specifies whether the topology loader will load hardware-based transforms.                   |
+| [**MF\_TRANSCODE\_TOPOLOGYMODE**](/windows/desktop/api/mfidl/ne-mfidl-mf_transcode_topologymode_flags)             | Specifies whether the topology loader will load hardware-based transforms.                   |
 
 
 

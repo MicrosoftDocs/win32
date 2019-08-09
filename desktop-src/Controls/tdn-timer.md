@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # TDN\_TIMER notification code
 
-Sent by a task dialog approximately every 200 milliseconds. This notification code is sent when the TDF\_CALLBACK\_TIMER flag has been set in the **dwFlags** member of the [**TASKDIALOGCONFIG**](/windows/desktop/api/Commctrl/ns-commctrl-_taskdialogconfig) structure that was passed to the [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) function. This notification code is received only through the task dialog callback function, which can be registered using the **TaskDialogIndirect** method.
+Sent by a task dialog approximately every 200 milliseconds. This notification code is sent when the TDF\_CALLBACK\_TIMER flag has been set in the **dwFlags** member of the [**TASKDIALOGCONFIG**](/windows/desktop/api/Commctrl/ns-commctrl-taskdialogconfig) structure that was passed to the [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) function. This notification code is received only through the task dialog callback function, which can be registered using the **TaskDialogIndirect** method.
 
 
 ```C++

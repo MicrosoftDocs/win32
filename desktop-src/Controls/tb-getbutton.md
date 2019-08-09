@@ -34,7 +34,7 @@ Zero-based index of the button for which to retrieve information.
 *lParam* 
 </dt> <dd>
 
-Pointer to the [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure that receives the button information.
+Pointer to the [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure that receives the button information.
 
 </dd> </dl>
 

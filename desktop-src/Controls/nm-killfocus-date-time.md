@@ -36,7 +36,7 @@ NM_KILLFOCUS
 *lParam* 
 </dt> <dd>
 
-The address of an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure that contains additional information about this notification.
+The address of an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains additional information about this notification.
 
 </dd> </dl>
 

@@ -14,8 +14,8 @@ The following structures are used with cabinets.
 
 | Structure                                                   | Description                            |
 |-------------------------------------------------------------|----------------------------------------|
-| [**CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-_cabinet_info_a)                   | Cabinet file information.              |
-| [**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-_file_in_cabinet_info_a) | Information about a file in a cabinet. |
+| [**CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-cabinet_info_a)                   | Cabinet file information.              |
+| [**FILE\_IN\_CABINET\_INFO**](/windows/desktop/api/Setupapi/ns-setupapi-file_in_cabinet_info_a) | Information about a file in a cabinet. |
 
 
 

@@ -441,9 +441,9 @@ The version of the structure. This should be set to "2" for this version.
 **FilterDesc**
 </dt> <dd>
 
-Supported [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) filter types for system wide private loggers: **EVENT\_FILTER\_TYPE\_EXECUTABLE\_NAME** and **EVENT\_FILTER\_TYPE\_PID**
+Supported [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) filter types for system wide private loggers: **EVENT\_FILTER\_TYPE\_EXECUTABLE\_NAME** and **EVENT\_FILTER\_TYPE\_PID**
 
-A pointer to an array of [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structures that points to the filter data. The number of elements in the array is specified in the **FilterDescCount** member. There can only be one filter for a specific filter type as specified by the **Type** member of the **EVENT\_FILTER\_DESCRIPTOR** structure.
+A pointer to an array of [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures that points to the filter data. The number of elements in the array is specified in the **FilterDescCount** member. There can only be one filter for a specific filter type as specified by the **Type** member of the **EVENT\_FILTER\_DESCRIPTOR** structure.
 
 This is only applicable to Private Loggers. The only time this should not be null is when it is used for system wide Private Loggers.
 

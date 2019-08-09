@@ -56,7 +56,7 @@ ADD_VER_STR(L"FileVer",  _strEscapedFileVersion);
 
 Event logging consumes resources such as disk space and processor time. The amount of disk space that an event log requires and the overhead for an application that logs events depend on how much information you choose to log. This is why it is important to log only essential information. It is also good to place event logging calls in an error path in the code rather than in the main code path, which would reduce performance.
 
-The amount of disk space required for each event log record includes the members of the [**EVENTLOGRECORD**](/windows/desktop/api/Winnt/ns-winnt-_eventlogrecord) structure. This is a variable length structure; strings and binary data are stored following the structure.
+The amount of disk space required for each event log record includes the members of the [**EVENTLOGRECORD**](/windows/desktop/api/Winnt/ns-winnt-eventlogrecord) structure. This is a variable length structure; strings and binary data are stored following the structure.
 
  
 

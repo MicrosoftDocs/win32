@@ -18,7 +18,7 @@ Specifies how the topology loader connects this topology node, and whether this 
 
 This attribute applies to all node types.
 
-The attribute value is a bitwise **OR** of flags from the [**MF\_CONNECT\_METHOD**](/windows/desktop/api/mfidl/ne-mfidl-_mf_connect_method) enumeration. If this attribute is not set, the default value is **MF\_CONNECT\_ALLOW\_DECODER**.
+The attribute value is a bitwise **OR** of flags from the [**MF\_CONNECT\_METHOD**](/windows/desktop/api/mfidl/ne-mfidl-mf_connect_method) enumeration. If this attribute is not set, the default value is **MF\_CONNECT\_ALLOW\_DECODER**.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

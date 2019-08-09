@@ -16,7 +16,7 @@ Returns the version number of the system renewability message (SRM) currently us
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION                                       |
 | Input data   | None                                                                        |
-| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure |
+| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure |
 
 
 
@@ -24,7 +24,7 @@ Returns the version number of the system renewability message (SRM) currently us
 
 ## Remarks
 
-If this query succeeds, the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure contains the SRM version number, in little-endian format.
+If this query succeeds, the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure contains the SRM version number, in little-endian format.
 
 SRMs are used to update the list of revoked High-Bandwidth Digital Content Protection (HDCP) devices. SRMs are delivered with the video content. To set the SRM, send the [**OPM\_SET\_HDCP\_SRM**](opm-set-hdcp-srm.md) command.
 

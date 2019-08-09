@@ -90,7 +90,7 @@ The following flags are overloaded.
 
  
 
-The rpc\_flags<4> field describes how to set the **RpcFlags** field of the [**RPC\_MESSAGE**](/windows/desktop/api/RpcdceP/ns-rpcdcep-_rpc_message) structure. This field is only present if the Oi\_flags<1> field has Oi\_HAD\_RPCFLAGS set. If this field is not present, then the RPC flags for the remote procedure are zero.
+The rpc\_flags<4> field describes how to set the **RpcFlags** field of the [**RPC\_MESSAGE**](/windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_message) structure. This field is only present if the Oi\_flags<1> field has Oi\_HAD\_RPCFLAGS set. If this field is not present, then the RPC flags for the remote procedure are zero.
 
 > [!Note]  
 > For performance, the async interpreters always have the rpc\_flags<4> field present.

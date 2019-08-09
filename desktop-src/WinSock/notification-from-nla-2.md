@@ -15,7 +15,7 @@ In order to receive change notification from NLA, a client must first call the [
 The [**WSALookupServiceNext**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicenexta) function returns WSA\_E\_NO\_MORE as a set delimiter. When a client has registered for notification using the [**WSANSPIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsanspioctl) function and **WSALookupServiceNext** returns WSA\_E\_NO\_MORE, calling **WSALookupServiceNext** again reveals whether a change has occurred:
 
 -   If no changes have occurred since the previous WSA\_E\_NO\_MORE, WSA\_E\_NO\_MORE is returned.
--   If a change has occurred, or if a change has occurred and a polling call is made, the [**WSALookupServiceNext**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicenexta) function call returns networks as [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-_wsaquerysetw) structures, with one of the following flags set in its **dwOutputFlags** member:
+-   If a change has occurred, or if a change has occurred and a polling call is made, the [**WSALookupServiceNext**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicenexta) function call returns networks as [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) structures, with one of the following flags set in its **dwOutputFlags** member:
 
     <dl> RESULT\_IS\_ADDED  
     RESULT\_IS\_CHANGED  

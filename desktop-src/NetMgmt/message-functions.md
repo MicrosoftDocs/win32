@@ -36,8 +36,8 @@ The messenger service must be running on the receiving computer to display a pop
 
 Message functions are available at two information levels:
 
--   [**MSG\_INFO\_0**](/windows/desktop/api/Lmmsg/ns-lmmsg-_msg_info_0)
--   [**MSG\_INFO\_1**](/windows/desktop/api/Lmmsg/ns-lmmsg-_msg_info_1)
+-   [**MSG\_INFO\_0**](/windows/desktop/api/Lmmsg/ns-lmmsg-msg_info_0)
+-   [**MSG\_INFO\_1**](/windows/desktop/api/Lmmsg/ns-lmmsg-msg_info_1)
 
 The **MSG\_INFO\_1** information level exists only for compatibility. The messenger service does not forward names or allow names to be forwarded to it.
 

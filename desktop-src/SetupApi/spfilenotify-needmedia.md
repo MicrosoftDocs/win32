@@ -27,7 +27,7 @@ SPFILENOTIFY_NEEDMEDIA
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**SOURCE\_MEDIA**](/windows/desktop/api/Setupapi/ns-setupapi-_source_media_a) structure.
+Pointer to a [**SOURCE\_MEDIA**](/windows/desktop/api/Setupapi/ns-setupapi-source_media_a) structure.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ The callback routine should return one of the following.
 [**SetupDefaultQueueCallback**](/windows/desktop/api/Setupapi/nf-setupapi-setupdefaultqueuecallbacka)
 </dt> <dt>
 
-[**SOURCE\_MEDIA**](/windows/desktop/api/Setupapi/ns-setupapi-_source_media_a)
+[**SOURCE\_MEDIA**](/windows/desktop/api/Setupapi/ns-setupapi-source_media_a)
 </dt> </dl>
 
  

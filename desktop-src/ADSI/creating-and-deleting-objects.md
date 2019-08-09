@@ -29,10 +29,10 @@ With ADSI, objects are created and deleted using either the [**IADsContainer**](
 **To create an object with the IDirectoryObject interface**
 
 1.  Bind to the container that will contain the object to be created and obtain the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface.
-2.  Allocate an array of [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) structures that contains one structure for each attribute to be set when the object is created.
-3.  Fill in an [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) structure for each required attribute for the object. The attributes required to create an object will depend on the directory service and the type of object created. For more information about creating Active Directory objects, see [Creating and Deleting Active Directory Objects](https://docs.microsoft.com/windows/desktop/AD/creating-and-deleting-objects-in-active-directory-domain-services).
-4.  Fill in an [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) structure for each optional attribute for the object.
-5.  Use the [**IDirectoryObject::CreateDSObject**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject) method to create the object in the container. This method also commits the object to the underlying directory service. If the [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) array does not contain all of the required attributes for the object, **IDirectoryObject::CreateDSObject** will fail.
+2.  Allocate an array of [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) structures that contains one structure for each attribute to be set when the object is created.
+3.  Fill in an [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) structure for each required attribute for the object. The attributes required to create an object will depend on the directory service and the type of object created. For more information about creating Active Directory objects, see [Creating and Deleting Active Directory Objects](https://docs.microsoft.com/windows/desktop/AD/creating-and-deleting-objects-in-active-directory-domain-services).
+4.  Fill in an [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) structure for each optional attribute for the object.
+5.  Use the [**IDirectoryObject::CreateDSObject**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject) method to create the object in the container. This method also commits the object to the underlying directory service. If the [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) array does not contain all of the required attributes for the object, **IDirectoryObject::CreateDSObject** will fail.
 
 ## Deleting an Object
 

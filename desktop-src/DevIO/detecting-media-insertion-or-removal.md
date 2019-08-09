@@ -15,7 +15,7 @@ Windows sends all top-level windows a set of default [**WM\_DEVICECHANGE**](wm-d
 
  
 
-Each [**WM\_DEVICECHANGE**](wm-devicechange.md) message has an associated event that describes the change, and a structure that provides detailed information about the change. The structure consists of an event-independent header, [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_hdr), followed by event-dependent members. The event-dependent members describe the device to which the event applies. To use this structure, applications must first determine the event type and the device type. Then, they can use the correct structure to take appropriate action.
+Each [**WM\_DEVICECHANGE**](wm-devicechange.md) message has an associated event that describes the change, and a structure that provides detailed information about the change. The structure consists of an event-independent header, [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_hdr), followed by event-dependent members. The event-dependent members describe the device to which the event applies. To use this structure, applications must first determine the event type and the device type. Then, they can use the correct structure to take appropriate action.
 
 When the user inserts a new CD or DVD into a drive, applications receive a [**WM\_DEVICECHANGE**](wm-devicechange.md) message with a [DBT\_DEVICEARRIVAL](dbt-devicearrival.md) event. The application must check the event to ensure that the type of device arriving is a volume (the **dbch\_devicetype** member is **DBT\_DEVTYP\_VOLUME**) and that the change affects the media (the **dbcv\_flags** member is **DBTF\_MEDIA**).
 

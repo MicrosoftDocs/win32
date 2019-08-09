@@ -36,7 +36,7 @@ PSN_TRANSLATEACCELERATOR
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure that contains information about the notification code. This structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of the **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure is a pointer to the message's [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg). It can be cast to an **LPMSG** type, to get access to the parameters of the message to be translated.
+A pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure that contains information about the notification code. This structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of the **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure is a pointer to the message's [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg). It can be cast to an **LPMSG** type, to get access to the parameters of the message to be translated.
 
 </dd> </dl>
 

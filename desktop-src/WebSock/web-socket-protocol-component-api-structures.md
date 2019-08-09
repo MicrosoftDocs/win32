@@ -16,9 +16,9 @@ The WebSocket Protocol Component API defines these structures.
 
 | Topic                                                                  | Description                                               |
 |------------------------------------------------------------------------|-----------------------------------------------------------|
-| [**WEB\_SOCKET\_BUFFER**](/windows/desktop/api/Websocket/ns-websocket-_web_socket_buffer)<br/>            | contains data for a specific WebSocket action.<br/> |
-| [**WEB\_SOCKET\_HTTP\_HEADER**](/windows/desktop/api/Websocket/ns-websocket-_web_socket_http_header)<br/> | contains an HTTP header.<br/>                       |
-| [**WEB\_SOCKET\_PROPERTY**](/windows/desktop/api/Websocket/ns-websocket-_web_socket_property)<br/>        | contains a single WebSocket property.<br/>          |
+| [**WEB\_SOCKET\_BUFFER**](/windows/desktop/api/Websocket/ns-websocket-web_socket_buffer)<br/>            | contains data for a specific WebSocket action.<br/> |
+| [**WEB\_SOCKET\_HTTP\_HEADER**](/windows/desktop/api/Websocket/ns-websocket-web_socket_http_header)<br/> | contains an HTTP header.<br/>                       |
+| [**WEB\_SOCKET\_PROPERTY**](/windows/desktop/api/Websocket/ns-websocket-web_socket_property)<br/>        | contains a single WebSocket property.<br/>          |
 
 
 

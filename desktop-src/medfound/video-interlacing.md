@@ -30,7 +30,7 @@ Information about interlacing is stored in two places:
 
 ## Interlace Information in the Media Type
 
-The [**MF\_MT\_INTERLACE\_MODE**](mf-mt-interlace-mode-attribute.md) attribute on the media type describes how the stream as a whole is interlaced. The value of this attribute is a member of the [**MFVideoInterlaceMode**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode) enumeration. A video media type should always have this attribute.
+The [**MF\_MT\_INTERLACE\_MODE**](mf-mt-interlace-mode-attribute.md) attribute on the media type describes how the stream as a whole is interlaced. The value of this attribute is a member of the [**MFVideoInterlaceMode**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideointerlacemode) enumeration. A video media type should always have this attribute.
 
 -   If the stream contains only progressive frames, with no interlaced frames, use MFVideoInterlace\_Progressive.
 -   If the stream contains only interlaced frames, and every sample contains two interleaved fields, use MFVideoInterlace\_FieldInterleavedUpperFirst or MFVideoInterlace\_FieldInterleavedLowerFirst.

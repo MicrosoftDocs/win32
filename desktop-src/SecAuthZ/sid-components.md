@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # SID Components
 
-A SID value includes components that provide information about the [**SID**](/windows/desktop/api/Winnt/ns-winnt-_sid) structure and components that uniquely identify a trustee. A SID consists of the following components:
+A SID value includes components that provide information about the [**SID**](/windows/desktop/api/Winnt/ns-winnt-sid) structure and components that uniquely identify a trustee. A SID consists of the following components:
 
--   The revision level of the [**SID**](/windows/desktop/api/Winnt/ns-winnt-_sid) structure
+-   The revision level of the [**SID**](/windows/desktop/api/Winnt/ns-winnt-sid) structure
 -   A 48-bit identifier authority value that identifies the authority that issued the SID
 -   A variable number of subauthority or [*relative identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) (RID) values that uniquely identify the trustee relative to the authority that issued the SID
 
 The combination of the identifier authority value and the subauthority values ensures that no two SIDs will be the same, even if two different SID-issuing authorities issue the same combination of RID values. Each SID-issuing authority issues a given RID only once.
 
-SIDs are stored in binary format in a [**SID**](/windows/desktop/api/Winnt/ns-winnt-_sid) structure. To display a SID, you can call the [**ConvertSidToStringSid**](/windows/desktop/api/Sddl/nf-sddl-convertsidtostringsida) function to convert a binary SID to string format. To convert a SID string back to a valid, functional SID, call the [**ConvertStringSidToSid**](/windows/desktop/api/Sddl/nf-sddl-convertstringsidtosida) function.
+SIDs are stored in binary format in a [**SID**](/windows/desktop/api/Winnt/ns-winnt-sid) structure. To display a SID, you can call the [**ConvertSidToStringSid**](/windows/desktop/api/Sddl/nf-sddl-convertsidtostringsida) function to convert a binary SID to string format. To convert a SID string back to a valid, functional SID, call the [**ConvertStringSidToSid**](/windows/desktop/api/Sddl/nf-sddl-convertstringsidtosida) function.
 
 These functions use the following standardized string notation for SIDs, which makes it simpler to visualize their components:
 

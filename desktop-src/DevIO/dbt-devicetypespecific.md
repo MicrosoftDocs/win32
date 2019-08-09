@@ -52,7 +52,7 @@ Set to DBT\_DEVICETYPESPECIFIC.
 *lParam* 
 </dt> <dd>
 
-A pointer to a structure identifying the device. The structure consists of an event-independent header, followed by event-dependent members that describe the device. To use this structure, treat the structure as a [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_hdr) structure, then check its **dbch\_devicetype** member to determine the device type.
+A pointer to a structure identifying the device. The structure consists of an event-independent header, followed by event-dependent members that describe the device. To use this structure, treat the structure as a [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_hdr) structure, then check its **dbch\_devicetype** member to determine the device type.
 
 </dd> </dl>
 
@@ -82,7 +82,7 @@ Return **TRUE**.
 [Device Management Events](device-management-events.md)
 </dt> <dt>
 
-[**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_hdr)
+[**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_hdr)
 </dt> <dt>
 
 [**WM\_DEVICECHANGE**](wm-devicechange.md)

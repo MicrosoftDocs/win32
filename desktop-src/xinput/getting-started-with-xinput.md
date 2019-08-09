@@ -31,9 +31,9 @@ Using this API, any connected Xbox 360 Controller can be queried for its state, 
 
 ### The Xbox 360 Controller
 
-The Xbox 360 Controller has two analog directional sticks, each with a digital button, two analog triggers, a digital directional pad with four directions, and eight digital buttons. The states of each of these inputs are returned in the [**XINPUT\_GAMEPAD**](/windows/desktop/api/XInput/ns-xinput-_xinput_gamepad) structure when the [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) function is called.
+The Xbox 360 Controller has two analog directional sticks, each with a digital button, two analog triggers, a digital directional pad with four directions, and eight digital buttons. The states of each of these inputs are returned in the [**XINPUT\_GAMEPAD**](/windows/desktop/api/XInput/ns-xinput-xinput_gamepad) structure when the [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) function is called.
 
-The controller also has two vibration motors to supply force feedback effects to the user. The speeds of these motors are specified in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-_xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function to set vibration effects.
+The controller also has two vibration motors to supply force feedback effects to the user. The speeds of these motors are specified in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function to set vibration effects.
 
 Optionally, a headset can be connected to the controller. The headset has a microphone for voice input, and a headphone for sound output. You can call the [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) or legacy [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function to obtain the device identifiers that correspond to the devices for the microphone and headphone. You can then use [system audio APIs](https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-apis-in-windows-vista) to receive voice input and send sound output.
 
@@ -81,9 +81,9 @@ for (DWORD i=0; i< XUSER_MAX_COUNT; i++ )
 
 Note that the return value of [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) can be used to determine if the controller is connected. Applications should define a structure to hold internal controller information; this information should be compared against the results of **XInputGetState** to determine what changes, such as button presses or analog controller deltas, were made that frame. In the above example, *g\_Controllers* represents such a structure.
 
-Once the state has been retrieved in a [**XINPUT\_STATE**](/windows/desktop/api/XInput/ns-xinput-_xinput_state) structure, you can check it for changes and get specific information about controller state.
+Once the state has been retrieved in a [**XINPUT\_STATE**](/windows/desktop/api/XInput/ns-xinput-xinput_state) structure, you can check it for changes and get specific information about controller state.
 
-The *dwPacketNumber* member of the [**XINPUT\_STATE**](/windows/desktop/api/XInput/ns-xinput-_xinput_state) structure can be used to check if the state of the controller has changed since the last call to [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate). If *dwPacketNumber* does not change between two sequential calls to **XInputGetState**, then there has been no change in state. If it differs, then the application should check the *Gamepad* member of the **XINPUT\_STATE** structure to get more detailed state information.
+The *dwPacketNumber* member of the [**XINPUT\_STATE**](/windows/desktop/api/XInput/ns-xinput-xinput_state) structure can be used to check if the state of the controller has changed since the last call to [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate). If *dwPacketNumber* does not change between two sequential calls to **XInputGetState**, then there has been no change in state. If it differs, then the application should check the *Gamepad* member of the **XINPUT\_STATE** structure to get more detailed state information.
 
 For performance reasons, don't call [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) for an 'empty' user slot every frame. We recommend that you space out checks for new controllers every few seconds instead.
 
@@ -161,7 +161,7 @@ For example, with driving games, it may be helpful to cube the result to provide
 
 In addition to getting the state of the controller, you may also send vibration data to the controller to alter the feedback provided to the user of the controller. The controller contains two rumble motors that can be independently controlled by passing values to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function.
 
-The speed of each motor can be specified using a WORD value in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-_xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function as follows:
+The speed of each motor can be specified using a WORD value in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function as follows:
 
 
 ```

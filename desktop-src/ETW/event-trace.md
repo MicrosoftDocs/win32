@@ -95,7 +95,7 @@ Reserved.
 **BufferContext**
 </dt> <dd>
 
-Provides information about the event such as the session identifier and processor number of the CPU on which the provider process ran. For details, see the [**ETW\_BUFFER\_CONTEXT**](/windows/desktop/api/relogger/ns-relogger-_etw_buffer_context) structure.
+Provides information about the event such as the session identifier and processor number of the CPU on which the provider process ran. For details, see the [**ETW\_BUFFER\_CONTEXT**](/windows/desktop/api/relogger/ns-relogger-etw_buffer_context) structure.
 
 **Prior to Windows Vista:** Not supported.
 

@@ -45,7 +45,7 @@ Asynchronous MFTs must respond to this message as described. Synchronous MFTs sh
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type)
+[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type)
 </dt> </dl>
 
  

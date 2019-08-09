@@ -20,7 +20,7 @@ To get this attribute, call [**IMFMediaSourceEx::GetStreamAttributes**](/windows
 
 ## Remarks
 
-The value of the attribute is a [**MFCameraExtrinsics**](/windows/desktop/api/mfapi/ns-mfapi-_mfcameraextrinsics).
+The value of the attribute is a [**MFCameraExtrinsics**](/windows/desktop/api/mfapi/ns-mfapi-mfcameraextrinsics).
 
 ## Requirements
 

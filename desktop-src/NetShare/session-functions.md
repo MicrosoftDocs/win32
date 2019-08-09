@@ -32,11 +32,11 @@ Session functions are available at five information levels:
 
 <dl>
 
-[**SESSION\_INFO\_0**](/windows/desktop/api/Lmshare/ns-lmshare-_session_info_0)  
-[**SESSION\_INFO\_1**](/windows/desktop/api/Lmshare/ns-lmshare-_session_info_1)  
-[**SESSION\_INFO\_2**](/windows/desktop/api/Lmshare/ns-lmshare-_session_info_2)  
-[**SESSION\_INFO\_10**](/windows/desktop/api/Lmshare/ns-lmshare-_session_info_10)  
-[**SESSION\_INFO\_502**](/windows/desktop/api/Lmshare/ns-lmshare-_session_info_502)  
+[**SESSION\_INFO\_0**](/windows/desktop/api/Lmshare/ns-lmshare-session_info_0)  
+[**SESSION\_INFO\_1**](/windows/desktop/api/Lmshare/ns-lmshare-session_info_1)  
+[**SESSION\_INFO\_2**](/windows/desktop/api/Lmshare/ns-lmshare-session_info_2)  
+[**SESSION\_INFO\_10**](/windows/desktop/api/Lmshare/ns-lmshare-session_info_10)  
+[**SESSION\_INFO\_502**](/windows/desktop/api/Lmshare/ns-lmshare-session_info_502)  
 </dl>
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession) and [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).

@@ -12,7 +12,7 @@ As each service entry is read from the database of installed services, the SCM c
 
 -   Service name
 -   Start type (auto-start or demand-start)
--   Service status (see the [**SERVICE\_STATUS**](/windows/desktop/api/Winsvc/ns-winsvc-_service_status) structure) <dl> Type  
+-   Service status (see the [**SERVICE\_STATUS**](/windows/desktop/api/Winsvc/ns-winsvc-service_status) structure) <dl> Type  
     Current state  
     Acceptable control codes  
     Exit code  

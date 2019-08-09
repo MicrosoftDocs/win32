@@ -47,7 +47,7 @@ Pointer to a GUID that specifies the DXVA profile. To get a list of supported pr
 *pUncompData* 
 </dt> <dd>
 
-Pointer to a [**DXVAUncompDataInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvauncompdatainfo) structure that specifies the size and pixel format of the uncompressed data.
+Pointer to a [**DXVAUncompDataInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxvauncompdatainfo) structure that specifies the size and pixel format of the uncompressed data.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ On output, if *pBufferInfo* is **NULL**, *pNumBuffers* receives the size of arra
 *pBufferInfo* 
 </dt> <dd>
 
-Address of an array of [**DXVACompBufferInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvacompbufferinfo) structures or **NULL**. If the value is non-**NULL**, the method copies a list of **DXVACompBufferInfo** structures to this array. Each structure corresponds to one type of compressed data buffer that is used by the video accelerator.
+Address of an array of [**DXVACompBufferInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxvacompbufferinfo) structures or **NULL**. If the value is non-**NULL**, the method copies a list of **DXVACompBufferInfo** structures to this array. Each structure corresponds to one type of compressed data buffer that is used by the video accelerator.
 
 Set all of the array elements to zero before calling this method.
 

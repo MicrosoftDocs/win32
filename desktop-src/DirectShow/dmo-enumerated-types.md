@@ -23,8 +23,8 @@ This section describes the Microsoft DirectX Media Object (DMO) enumerated types
 | [**DMO\_REGISTER\_FLAGS**](/windows/desktop/api/Dmoreg/ne-dmoreg-dmo_register_flags)                         | Defines flags that specify registry information for a DMO.                   |
 | [**DMO\_SET\_TYPE\_FLAGS**](/windows/desktop/api/Mediaobj/ne-mediaobj-_dmo_set_type_flags)                        | Defines flags for setting the media type on a stream.                        |
 | [**DMO\_VIDEO\_OUTPUT\_STREAM\_FLAGS**](/windows/desktop/api/Mediaobj/ne-mediaobj-_dmo_video_output_stream_flags) | Defines flags that describe requested features for video optimizations.      |
-| [**MP\_CURVE\_TYPE**](/windows/desktop/api/Medparam/ne-medparam-_mp_curve_type)                                   | Defines the curve that a media parameter follows within an envelope segment. |
-| [**MP\_TYPE**](/windows/desktop/api/Medparam/ne-medparam-_mp_type)                                                | Specifies the data type for a parameter.                                     |
+| [**MP\_CURVE\_TYPE**](/previous-versions/windows/desktop/api/Medparam/ne-medparam-mp_curve_type)                                   | Defines the curve that a media parameter follows within an envelope segment. |
+| [**MP\_TYPE**](/previous-versions/windows/desktop/api/Medparam/ne-medparam-mp_type)                                                | Specifies the data type for a parameter.                                     |
 
 
 

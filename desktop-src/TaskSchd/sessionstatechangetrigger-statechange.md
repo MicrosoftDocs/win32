@@ -35,7 +35,7 @@ SessionStateChangeTrigger.StateChange As Integer
 
 The kind of Terminal Server session change that triggers a task to launch.
 
-The possible values are from the [**TASK\_SESSION\_STATE\_CHANGE\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-_task_session_state_change_type) enumeration.
+The possible values are from the [**TASK\_SESSION\_STATE\_CHANGE\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-task_session_state_change_type) enumeration.
 
 
 

@@ -26,14 +26,14 @@ Signals a DVD error condition.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value indicating the error condition. Member of the [**DVD\_ERROR**](/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_error) enumerated data type.
+**DWORD** value indicating the error condition. Member of the [**DVD\_ERROR**](/previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_error) enumerated data type.
 
 </dd> <dt>
 
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-Meaning depends on the value of *lParam1*. See [**DVD\_ERROR**](/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_error) for more information.
+Meaning depends on the value of *lParam1*. See [**DVD\_ERROR**](/previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_error) for more information.
 
 </dd> </dl>
 

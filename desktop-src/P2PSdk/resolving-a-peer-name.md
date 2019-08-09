@@ -13,7 +13,7 @@ This topic discusses methods for resolving a peer name using the PNRP Namespace 
 When you resolve a peer name, you must provide the following information:
 
 -   [Peer name](peer-names.md)
--   [Resolve criteria](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria)
+-   [Resolve criteria](/windows/desktop/api/Pnrpdef/ne-pnrpdef-pnrp_resolve_criteria)
 -   Cloud name in which to resolve the peer name
 -   IP address, which is optional and is used as a hint
 

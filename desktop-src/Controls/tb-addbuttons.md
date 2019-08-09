@@ -36,7 +36,7 @@ Number of buttons to add.
 *lParam* 
 </dt> <dd>
 
-Pointer to an array of [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structures that contain information about the buttons to add. There must be the same number of elements in the array as buttons specified by *wParam*.
+Pointer to an array of [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structures that contain information about the buttons to add. There must be the same number of elements in the array as buttons specified by *wParam*.
 
 </dd> </dl>
 

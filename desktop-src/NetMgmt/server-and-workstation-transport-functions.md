@@ -25,8 +25,8 @@ The server transport functions are listed following.
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**NetServerComputerNameAdd**](/windows/desktop/api/Lmserver/nf-lmserver-netservercomputernameadd) | Binds an emulated server name to each of the transport protocols on which a server is active. (Combines the functionality of the [**NetServerTransportEnum**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportenum) function and the [**NetServerTransportAddEx**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportaddex) function.)                                            |
 | [**NetServerComputerNameDel**](/windows/desktop/api/Lmserver/nf-lmserver-netservercomputernamedel) | Disconnects each network transport protocol from an emulated server name set by a previous call to the **NetServerComputerNameAdd** function.                                                                                                                                                                               |
-| [**NetServerTransportAdd**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportadd)       | Binds the specified server to the transport protocol. (This function supports only the [**SERVER\_TRANSPORT\_INFO\_0**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_0) information level.)                                                                                                                                                |
-| [**NetServerTransportAddEx**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportaddex)   | Binds the specified server to the transport protocol. (This extended function supports the [**SERVER\_TRANSPORT\_INFO\_1**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_1), [**SERVER\_TRANSPORT\_INFO\_2**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_2), and [**SERVER\_TRANSPORT\_INFO\_3**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_3) information levels.) |
+| [**NetServerTransportAdd**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportadd)       | Binds the specified server to the transport protocol. (This function supports only the [**SERVER\_TRANSPORT\_INFO\_0**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_0) information level.)                                                                                                                                                |
+| [**NetServerTransportAddEx**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportaddex)   | Binds the specified server to the transport protocol. (This extended function supports the [**SERVER\_TRANSPORT\_INFO\_1**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_1), [**SERVER\_TRANSPORT\_INFO\_2**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_2), and [**SERVER\_TRANSPORT\_INFO\_3**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_3) information levels.) |
 | [**NetServerTransportDel**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportdel)       | Disconnects the transport protocol from the server.                                                                                                                                                                                                                                                                         |
 | [**NetServerTransportEnum**](/windows/desktop/api/Lmserver/nf-lmserver-netservertransportenum)     | Enumerates the transport protocols managed by the server.                                                                                                                                                                                                                                                                   |
 
@@ -36,10 +36,10 @@ The server transport functions are listed following.
 
 Server transport functions are available at the following information levels:
 
--   [**SERVER\_TRANSPORT\_INFO\_0**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_0)
--   [**SERVER\_TRANSPORT\_INFO\_1**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_1)
--   [**SERVER\_TRANSPORT\_INFO\_2**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_2)
--   [**SERVER\_TRANSPORT\_INFO\_3**](/windows/desktop/api/Lmserver/ns-lmserver-_server_transport_info_3)
+-   [**SERVER\_TRANSPORT\_INFO\_0**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_0)
+-   [**SERVER\_TRANSPORT\_INFO\_1**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_1)
+-   [**SERVER\_TRANSPORT\_INFO\_2**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_2)
+-   [**SERVER\_TRANSPORT\_INFO\_3**](/windows/desktop/api/Lmserver/ns-lmserver-server_transport_info_3)
 
 The workstation transport functions perform equivalent operations for the workstation.
 
@@ -61,7 +61,7 @@ The workstation transport functions are listed following.
 
 Workstation transport functions are available at one information level:
 
--   [**WKSTA\_TRANSPORT\_INFO\_0**](/windows/desktop/api/Lmwksta/ns-lmwksta-_wksta_transport_info_0)
+-   [**WKSTA\_TRANSPORT\_INFO\_0**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_transport_info_0)
 
  
 

@@ -29,8 +29,8 @@ The following table lists related interfaces, enumerations, and structures.
 | Interfaces that are always exposed by this object                                                 | [**IVdsController**](/windows/desktop/api/Vds/nn-vds-ivdscontroller)                                                                                       |
 | Interfaces that are always exposed by this object in VDS 1.1 and 2.0 Fibre Channel providers only | [**IVdsControllerControllerPort**](/windows/desktop/api/Vds/nn-vds-ivdscontrollercontrollerport)                                                           |
 | Interfaces that may be exposed by this object                                                     | [**IVdsMaintenance**](/windows/desktop/api/Vds/nn-vds-ivdsmaintenance)                                                                                     |
-| Associated enumerations                                                                           | [**VDS\_CONTROLLER\_STATUS**](/windows/desktop/api/Vds/ne-vds-_vds_controller_status).                                                                      |
-| Associated structures                                                                             | [**VDS\_CONTROLLER\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_controller_prop) and [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_controller_notification). |
+| Associated enumerations                                                                           | [**VDS\_CONTROLLER\_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_controller_status).                                                                      |
+| Associated structures                                                                             | [**VDS\_CONTROLLER\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_controller_prop) and [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_controller_notification). |
 
 
 

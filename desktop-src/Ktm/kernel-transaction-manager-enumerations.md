@@ -14,7 +14,7 @@ The following enumeration is used with transactions.
 
 | Enumeration                                         | Description                                                          |
 |-----------------------------------------------------|----------------------------------------------------------------------|
-| [**TRANSACTION\_OUTCOME**](/windows/desktop/api/Winnt/ne-winnt-_transaction_outcome) | Defines the outcomes (results) that KTM can assign to a transaction. |
+| [**TRANSACTION\_OUTCOME**](/windows/desktop/api/Winnt/ne-winnt-transaction_outcome) | Defines the outcomes (results) that KTM can assign to a transaction. |
 
 
 

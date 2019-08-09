@@ -30,7 +30,7 @@ Constants describing the vertex data types supported by a device.
 
  
 
-These constants are used by the DeclTypes member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
+These constants are used by the DeclTypes member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
 ## Constant Information
 

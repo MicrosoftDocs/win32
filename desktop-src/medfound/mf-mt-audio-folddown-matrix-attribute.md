@@ -18,7 +18,7 @@ Byte array
 
 This attribute applies to audio media types.
 
-The value of this attribute is an [**MFFOLDDOWN\_MATRIX**](/windows/desktop/api/mfapi/ns-mfapi-_mffolddown_matrix) structure.
+The value of this attribute is an [**MFFOLDDOWN\_MATRIX**](/windows/desktop/api/mfapi/ns-mfapi-mffolddown_matrix) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

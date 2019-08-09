@@ -32,7 +32,7 @@ In the following versions of Windows, the offset of the 32-bit TEB address withi
 [Debugging Structures](debugging-structures.md)
 </dt> <dt>
 
-[**WOW64\_CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-_wow64_context)
+[**WOW64\_CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-wow64_context)
 </dt> </dl>
 
  

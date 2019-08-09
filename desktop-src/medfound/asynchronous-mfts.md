@@ -69,7 +69,7 @@ An asynchronous MFT uses the following events to signal its data-processing stat
 
 These events are sent out-of-band. It is important to understand the difference between in-band and out-of-band events in the context of an MFT.
 
-The original MFT design supports *in-band* events. An in-band event contains information about the data stream, such as information about a format change. The client sends in-band events to the MFT by calling [**IMFTransform::ProcessEvent**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processevent). The MFT can send in-band events back to the client in the [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method. (Specifically, events are conveyed in the **pEvents** member of the [**MFT_OUTPUT_DATA_BUFFER**](/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer) structure.)
+The original MFT design supports *in-band* events. An in-band event contains information about the data stream, such as information about a format change. The client sends in-band events to the MFT by calling [**IMFTransform::ProcessEvent**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processevent). The MFT can send in-band events back to the client in the [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method. (Specifically, events are conveyed in the **pEvents** member of the [**MFT_OUTPUT_DATA_BUFFER**](/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer) structure.)
 
 An MFT sends out-of-band events through the [**IMFMediaEventGenerator**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator) interface as follows:
 

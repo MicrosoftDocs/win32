@@ -46,7 +46,7 @@ ms.date: 05/31/2018
 
 # WINBIO\_OPERATION\_TYPE Constants
 
-The following constants can be returned by the Windows Biometric Framework in a [**WINBIO\_ASYNC\_RESULT**](/windows/desktop/api/Winbio/ns-winbio-_winbio_async_result) to specify the type of asynchronous operation being performed.
+The following constants can be returned by the Windows Biometric Framework in a [**WINBIO\_ASYNC\_RESULT**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) to specify the type of asynchronous operation being performed.
 
 <dl> <dt>
 

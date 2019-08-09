@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-_bidioptions) structure that indicates how to set the state of the bidirectional options in the rich edit control.
+Pointer to a [**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-bidioptions) structure that indicates how to set the state of the bidirectional options in the rich edit control.
 
 </dd> </dl>
 
@@ -70,7 +70,7 @@ In plain text controls, **EM\_SETBIDIOPTIONS** automatically determines the para
 **Reference**
 </dt> <dt>
 
-[**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-_bidioptions)
+[**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-bidioptions)
 </dt> <dt>
 
 [**EM\_GETBIDIOPTIONS**](em-getbidioptions.md)

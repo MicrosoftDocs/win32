@@ -49,7 +49,7 @@ Specifies the behavior of the search operation. This parameter can be one or mor
 *lParam* 
 </dt> <dd>
 
-A [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) structure containing information about the find operation.
+A [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure containing information about the find operation.
 
 </dd> </dl>
 
@@ -63,9 +63,9 @@ Use this message to find Unicode strings. For ANSI;, use [**EM\_FINDTEXTEX**](em
 
 The **cpMin** member of **FINDTEXTEX.chrg** always specifies the starting-point of the search, and **cpMax** specifies the end point. When searching backward, **cpMin** must be equal to or greater than **cpMax**. When searching forward, a value of -1 in **cpMax** extends the search range to the end of the text.
 
-If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) structure returns the range of character positions that contains the matching text.
+If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure returns the range of character positions that contains the matching text.
 
-**EM\_FINDTEXTEXW** uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) structure, while [**EM\_FINDTEXTW**](em-findtextw.md) uses the [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure. The difference is that **EM\_FINDTEXTEXW** reports the range of text that was found.
+**EM\_FINDTEXTEXW** uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure, while [**EM\_FINDTEXTW**](em-findtextw.md) uses the [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure. The difference is that **EM\_FINDTEXTEXW** reports the range of text that was found.
 
 ## Requirements
 

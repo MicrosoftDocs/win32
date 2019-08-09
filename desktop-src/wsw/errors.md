@@ -45,7 +45,7 @@ Note that the same error object can be used for multiple API calls, but may only
 
 Rich error information consists of the following:
 
--   A set of property values, which provide additional information about the error if present. See [**WS\_ERROR\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_error_property).
+-   A set of property values, which provide additional information about the error if present. See [**WS\_ERROR\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_error_property).
 -   Zero or more error strings. The strings are added using [**WsAddErrorString**](/windows/desktop/api/WebServices/nf-webservices-wsadderrorstring), and can be queried using using [**WsGetErrorString**](/windows/desktop/api/WebServices/nf-webservices-wsgeterrorstring). The number of strings can be queried using [**WS\_ERROR\_PROPERTY\_STRING\_COUNT**](/windows/desktop/api/WebServices/ne-webservices-ws_error_property_id).
 
 ## Faults and Errors
@@ -137,7 +137,7 @@ The following handle is part of tracing:
 
 The following structure is part of tracing:
 
--   [**WS\_ERROR\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_error_property)
+-   [**WS\_ERROR\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_error_property)
 
 ## Security
 

@@ -15,10 +15,10 @@ The following unions are used with the Remote Desktop Services API.
 
 <dl> <dt>
 
-[**WTSINFOEX\_LEVEL**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsinfoex_level_a)
+[**WTSINFOEX\_LEVEL**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsinfoex_level_a)
 </dt> <dd>
 
-Contains a [**WTSINFOEX\_LEVEL1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a) structure that contains extended information about a Remote Desktop Services session.
+Contains a [**WTSINFOEX\_LEVEL1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsinfoex_level1_a) structure that contains extended information about a Remote Desktop Services session.
 
 </dd> </dl>
 

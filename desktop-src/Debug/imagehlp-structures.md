@@ -12,15 +12,15 @@ The following are the ImageHlp data structures:
 
 <dl>
 
-[**IMAGE\_COFF\_SYMBOLS\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-_image_coff_symbols_header)  
-[**IMAGE\_DATA\_DIRECTORY**](/windows/desktop/api/WinNT/ns-winnt-_image_data_directory)  
-[**IMAGE\_DEBUG\_DIRECTORY**](/windows/desktop/api/WinNT/ns-winnt-_image_debug_directory)  
-[**IMAGE\_FILE\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-_image_file_header)  
-[**IMAGE\_FUNCTION\_ENTRY**](/windows/desktop/api/WinNT/ns-winnt-_image_function_entry)  
-[**IMAGE\_LOAD\_CONFIG\_DIRECTORY64**](/windows/desktop/api/WinNT/ns-winnt-_image_load_config_directory32)  
+[**IMAGE\_COFF\_SYMBOLS\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-image_coff_symbols_header)  
+[**IMAGE\_DATA\_DIRECTORY**](/windows/desktop/api/WinNT/ns-winnt-image_data_directory)  
+[**IMAGE\_DEBUG\_DIRECTORY**](/windows/desktop/api/WinNT/ns-winnt-image_debug_directory)  
+[**IMAGE\_FILE\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-image_file_header)  
+[**IMAGE\_FUNCTION\_ENTRY**](/windows/desktop/api/WinNT/ns-winnt-image_function_entry)  
+[**IMAGE\_LOAD\_CONFIG\_DIRECTORY64**](/windows/desktop/api/WinNT/ns-winnt-image_load_config_directory32)  
 [**IMAGE\_NT\_HEADERS**](/windows/desktop/api/WinNT/ns-winnt-_image_nt_headers)  
 [**IMAGE\_OPTIONAL\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-_image_optional_header)  
-[**IMAGE\_SECTION\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-_image_section_header)  
+[**IMAGE\_SECTION\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-image_section_header)  
 </dl>
 
  

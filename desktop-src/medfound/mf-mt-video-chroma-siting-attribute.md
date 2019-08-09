@@ -16,7 +16,7 @@ Describes how chroma was sampled for a Y'Cb'Cr' video media type.
 
 ## Remarks
 
-The value of this attribute is a bitwise **OR** of flags from the [**MFVideoChromaSubsampling**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideochromasubsampling) enumeration.
+The value of this attribute is a bitwise **OR** of flags from the [**MFVideoChromaSubsampling**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideochromasubsampling) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

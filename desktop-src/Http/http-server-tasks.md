@@ -53,7 +53,7 @@ For more information and a code example, see [Receive a Request](http-server-sam
 
 The sample application shows how to handle the HTTP GET and POST request verbs. The application sends a 503 (**NOT\_IMPLEMENTED**) error if verbs are present in the request that the application does not handle.
 
-Note that the URL to be used in handling requests is the processed URL contained in the **CookedUrl** member of the [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-_http_request_v1) structure. Do not the unprocessed URL in the **pRawUrl** member, which is solely for tracking and statistical purposes.
+Note that the URL to be used in handling requests is the processed URL contained in the **CookedUrl** member of the [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-http_request_v1) structure. Do not the unprocessed URL in the **pRawUrl** member, which is solely for tracking and statistical purposes.
 
 For more information and a code example, see [Handle the HTTP Request](http-server-sample-application.md).
 

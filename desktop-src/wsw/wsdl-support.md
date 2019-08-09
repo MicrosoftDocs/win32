@@ -94,9 +94,9 @@ The output header file contains definitions and descriptions for external refere
 -   An operation prototype as defined in current file.
 -   A function table prototype for the contracts specified in the WSDL file.
 -   Client proxy and service stub prototypes for all the functions specified in current file.
--   A [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_element_description) data structure for the global schema elements defined in current file.
--   A [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_description) data structure for all the messages specified in current file.
--   A [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_contract_description) data structure for all the contracts specified in current file.
+-   A [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description) data structure for the global schema elements defined in current file.
+-   A [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_message_description) data structure for all the messages specified in current file.
+-   A [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_contract_description) data structure for all the contracts specified in current file.
 
 One global structure is generated to encapsulate all the global descriptions for the schema types and service model types to which the application can refer. The structure is named using a normalized file name. In this example, Wsutil.exe generates a global definitions structure named "example\_wsdl" that contains all the web service descriptions. The structure definition is generated in the stub file.
 
@@ -119,7 +119,7 @@ typedef struct _example_wsdl
 extern const _stockquote_wsdl stockquote_wsdl;
 ```
 
-For global element definitions in the XML schema document (XSD), one [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_element_description) prototype, as well as the corresponding C type definition, are generated for each of the elements. The prototypes for the element descriptions for SimpleMethod and SimpleMethodResponse are generated as members in the structure above. The C structures are generated as follows:
+For global element definitions in the XML schema document (XSD), one [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description) prototype, as well as the corresponding C type definition, are generated for each of the elements. The prototypes for the element descriptions for SimpleMethod and SimpleMethodResponse are generated as members in the structure above. The C structures are generated as follows:
 
 ``` syntax
 typedef struct SimpleMethod
@@ -139,8 +139,8 @@ Similarly for global complex types, Wsutil.exe generates type C structure defini
 
 For WSDL input, Wsutil.exe generates the following prototypes and definitions:
 
--   A [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_description) prototype is generated for the message description. This description can be used by the service model as well as the message layer. Message description structures are fields named "messagename" in the global structure. In this example, the message description is generated as the ISimpleService\_SimpleMethod\_InputMessage field in the ISimpleService\_SimpleMethod\_InputMessage structure as specified in the WSDL file.
--   [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_contract_description) prototype is generated for the contract description. This description is used by service model. Contract description structures are fields named "contractname" in the global structure. In this example, the contract description is generated as the DefaultBinding\_ISimpleService field in the structure "\_example\_wsdl".
+-   A [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_message_description) prototype is generated for the message description. This description can be used by the service model as well as the message layer. Message description structures are fields named "messagename" in the global structure. In this example, the message description is generated as the ISimpleService\_SimpleMethod\_InputMessage field in the ISimpleService\_SimpleMethod\_InputMessage structure as specified in the WSDL file.
+-   [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_contract_description) prototype is generated for the contract description. This description is used by service model. Contract description structures are fields named "contractname" in the global structure. In this example, the contract description is generated as the DefaultBinding\_ISimpleService field in the structure "\_example\_wsdl".
 
 Operation and type specifications are common to both proxy and stub and they are generated in both files. Wsutil.exe generates one copy only if both the proxy and stub are generated in the same file.
 
@@ -242,7 +242,7 @@ typedef struct _SimpleServiceLocal
 }
 ```
 
-Other descriptions required by the element description are generated as part of the containing structure. If the element is a simple type element, there is only one [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_element_description) field. If the element type is a structure, all of the related fields and structure descriptions are generated as part of the element structure. In this example, SimpleMethod element is a structure containing two fields, **a** and **b**. Wsutil.exe generates the structure as follows:
+Other descriptions required by the element description are generated as part of the containing structure. If the element is a simple type element, there is only one [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description) field. If the element type is a structure, all of the related fields and structure descriptions are generated as part of the element structure. In this example, SimpleMethod element is a structure containing two fields, **a** and **b**. Wsutil.exe generates the structure as follows:
 
 ``` syntax
 ...
@@ -280,9 +280,9 @@ struct { // WSDL
 ...
 ```
 
-Wsutil.exe generates one field f that contains all the descriptions needed for the operation, a signle array of pointers to each of the operation descriptions for each method, and one [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_contract_description) for the specified **portType**.
+Wsutil.exe generates one field f that contains all the descriptions needed for the operation, a signle array of pointers to each of the operation descriptions for each method, and one [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_contract_description) for the specified **portType**.
 
-All the descriptions needed by operations are generated inside the **operationName** field under the specified **portType**. These include the [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_element_description) field as well as the sub-structure for input and output parameter s. Likewise, the [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_description) fields for the input message and the optional output message are included along with the; [**WS\_PARAMETER\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_parameter_description) list field for all of the operation parameters and the [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_operation_description) field for the operation itself. In this example, the code structure for the SimpleMethod description is generated as seen below:
+All the descriptions needed by operations are generated inside the **operationName** field under the specified **portType**. These include the [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description) field as well as the sub-structure for input and output parameter s. Likewise, the [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_message_description) fields for the input message and the optional output message are included along with the; [**WS\_PARAMETER\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_parameter_description) list field for all of the operation parameters and the [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description) field for the operation itself. In this example, the code structure for the SimpleMethod description is generated as seen below:
 
 ``` syntax
 ...
@@ -309,7 +309,7 @@ struct // contracts
 
 ## XML dictionary related definitions
 
-Names and namespaces used in various descriptions are generated as fields of type [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_string). All of these strings are generated as part a per-file constant dictionary. The list of strings and the [**WS\_XML\_DICTIONARY**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_dictionary) field (named **dict** in the example below) are generated as part of the dictionary field of the **fileNameLocal** structure.
+Names and namespaces used in various descriptions are generated as fields of type [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_string). All of these strings are generated as part a per-file constant dictionary. The list of strings and the [**WS\_XML\_DICTIONARY**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_dictionary) field (named **dict** in the example below) are generated as part of the dictionary field of the **fileNameLocal** structure.
 
 ``` syntax
 struct { // fileNameLocal
@@ -325,7 +325,7 @@ struct { // fileNameLocal
 }; // fileNameLocal;
 ```
 
-The array of [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_string)s are generated as a series of fields of type **WS\_XML\_STRING**, named with with user-friendly names. The generated stub uses the user-friendly names in various descriptions for better readability.
+The array of [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_string)s are generated as a series of fields of type **WS\_XML\_STRING**, named with with user-friendly names. The generated stub uses the user-friendly names in various descriptions for better readability.
 
 Client proxy for WSDL operations
 
@@ -434,9 +434,9 @@ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
 
 The layout of the input andoutput message data elements is evaluated by the tool to generate the serialization metadata for the infrastructure along with the actual signature of the resulting service operation to which the input and output messages are associated.
 
-The metadata for each operation within a specific **portType** has input and optionally an output message, each of these messages is mapped to a [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_description). In this example, the input and the output message on the operation in the portType mapped to inputMessageDescription and optionally the outputMessageDescription on the [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_operation_description) respectively.
+The metadata for each operation within a specific **portType** has input and optionally an output message, each of these messages is mapped to a [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_message_description). In this example, the input and the output message on the operation in the portType mapped to inputMessageDescription and optionally the outputMessageDescription on the [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description) respectively.
 
-For each WSDL message the tool generates [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_description) that references the [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_element_description) definition, as demonstrated below:
+For each WSDL message the tool generates [**WS\_MESSAGE\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_message_description) that references the [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description) definition, as demonstrated below:
 
 ``` syntax
 ... 
@@ -458,7 +458,7 @@ The message description refers to the input element description. Because the ele
 ...
 ```
 
-Each message description contains the action and the specific element description (a field of type [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_element_description)) for all the message data elements. In the case of an RPC-style message or a message with multiple parts, a wrapper element is created to encapsulate the additional information.
+Each message description contains the action and the specific element description (a field of type [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description)) for all the message data elements. In the case of an RPC-style message or a message with multiple parts, a wrapper element is created to encapsulate the additional information.
 
 ## RPC style support
 
@@ -564,9 +564,9 @@ In this example, the ISimpleService **portType** only contains the SimpleMethod 
 
 Since the ISimpleService **portType** only has one operation -- SimpleMethod -- the corresponding function table only contains SimpleMethod as a service operation.
 
-In terms of metadata each **portType** is mapped by Wsutil.exe to a [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_contract_description). Each operation within a **portType** is mapped to a [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_operation_description).
+In terms of metadata each **portType** is mapped by Wsutil.exe to a [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_contract_description). Each operation within a **portType** is mapped to a [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description).
 
-In this example, **portType** the tool generates [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_contract_description) for ISimpleService. This contract description contains the specific number of operations available on the ISimpleService **portType** along with an array of [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_operation_description) representing the individual operations defined on the portType for ISimpleService. Since there is only one operation on ISimpleService portType for ISimpleService, there is also only one **WS\_OPERATION\_DESCRIPTION** definition.
+In this example, **portType** the tool generates [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_contract_description) for ISimpleService. This contract description contains the specific number of operations available on the ISimpleService **portType** along with an array of [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description) representing the individual operations defined on the portType for ISimpleService. Since there is only one operation on ISimpleService portType for ISimpleService, there is also only one **WS\_OPERATION\_DESCRIPTION** definition.
 
 ``` syntax
 ...  part of LocalDefinitions structure
@@ -585,7 +585,7 @@ WS_HTTP_CHANNEL_BINDING,
 
 WsUtil.exe uses the services to find binding/porttypes, and generates contract structure that describes types, message, porttype definitions, and so on. Contract descriptions are externally accessible, and they are generated as part of the global definition structure specified through generated header.
 
-WsUtil.exe supports EndpointReference extensions defined in wsdl:port. Endpoint reference is defined in WS-ADDRESSING as a way to describe [endpoint](endpoint-address.md) information of a service. The input endpoint reference extension text saved as [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_string), together with matching [**WS\_ENDPOINT\_ADDRESS\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_endpoint_address_description) are generated in endpointReferences section in the global structure.
+WsUtil.exe supports EndpointReference extensions defined in wsdl:port. Endpoint reference is defined in WS-ADDRESSING as a way to describe [endpoint](endpoint-address.md) information of a service. The input endpoint reference extension text saved as [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_string), together with matching [**WS\_ENDPOINT\_ADDRESS\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_address_description) are generated in endpointReferences section in the global structure.
 
 ``` syntax
 <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://Example.org" 
@@ -635,7 +635,7 @@ WS_HTTP_CHANNEL_BINDING,
 }
 ```
 
-To Create [**WS\_ENDPOINT\_ADDRESS**](/windows/desktop/api/WebServices/ns-webservices-_ws_endpoint_address) using the WsUtil generated metadata:
+To Create [**WS\_ENDPOINT\_ADDRESS**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_address) using the WsUtil generated metadata:
 
 ``` syntax
 WsCreateReader      // Create a WS_XML_READER
@@ -834,7 +834,7 @@ SimpleMethodResponse  * SimpleMethodResponse;
 
 Wsutil.exe generates a version signature for the operation description such that the WsCall and server-side service model engine can check if the generated description is applicable for the current platform.
 
-This version info is generated as part of the [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_operation_description) structure. The version number can be treated as a union arm selector to make the structure extensible. Currently, the **versionID** is set to1 with no subsequent fields. Future versiosn may increment the version number and include more fields as needed. For example, Wsutil.exe currently generates the following code based on the version ID:
+This version info is generated as part of the [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description) structure. The version number can be treated as a union arm selector to make the structure extensible. Currently, the **versionID** is set to1 with no subsequent fields. Future versiosn may increment the version number and include more fields as needed. For example, Wsutil.exe currently generates the following code based on the version ID:
 
 ``` syntax
 { // SimpleMethod

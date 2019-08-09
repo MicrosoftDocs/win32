@@ -36,7 +36,7 @@ EN_OBJECTPOSITIONS
 *lParam* 
 </dt> <dd>
 
-An [**OBJECTPOSITIONS**](/windows/desktop/api/Richedit/ns-richedit-_objectpositions) structure.
+An [**OBJECTPOSITIONS**](/windows/desktop/api/Richedit/ns-richedit-objectpositions) structure.
 
 </dd> </dl>
 
@@ -72,7 +72,7 @@ To receive an EN\_OBJECTPOSITIONS notification code, specify the [**ENM\_OBJECTP
 [**EM\_SETEVENTMASK**](em-seteventmask.md)
 </dt> <dt>
 
-[**OBJECTPOSITIONS**](/windows/desktop/api/Richedit/ns-richedit-_objectpositions)
+[**OBJECTPOSITIONS**](/windows/desktop/api/Richedit/ns-richedit-objectpositions)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)

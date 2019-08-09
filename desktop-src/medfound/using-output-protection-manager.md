@@ -77,8 +77,8 @@ The OPM API defines a handshake that establishes trust and sets the session key.
 
     These numbers must be generated using a cryptographically secure pseudo-random number generator, such as **CryptGenRandom**.
 
-6.  Copy the driver's random number (obtained in step 1), the session key, and the two sequence numbers into an [**OPM\_ENCRYPTED\_INITIALIZATION\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_encrypted_initialization_parameters) structure, as described in [**IOPMVideoOutput::FinishInitialization**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization).
-7.  Encrypt the [**OPM\_ENCRYPTED\_INITIALIZATION\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_encrypted_initialization_parameters) structure with RSAES-OAEP, using the driver's public key, which is found in the driver's certificate.
+6.  Copy the driver's random number (obtained in step 1), the session key, and the two sequence numbers into an [**OPM\_ENCRYPTED\_INITIALIZATION\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_encrypted_initialization_parameters) structure, as described in [**IOPMVideoOutput::FinishInitialization**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization).
+7.  Encrypt the [**OPM\_ENCRYPTED\_INITIALIZATION\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_encrypted_initialization_parameters) structure with RSAES-OAEP, using the driver's public key, which is found in the driver's certificate.
 8.  Call [**IOPMVideoOutput::FinishInitialization**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization).
 
 ## Sending OPM Status Requests
@@ -87,7 +87,7 @@ OPM status requests return information about the video output, such as the type 
 
 To send a status request, perform the following steps.
 
-1.  Initialize an [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure as shown in the following table.
+1.  Initialize an [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure as shown in the following table.
 
     | Member               | Description                                                                                                                                                                                                                                                                                                                                                                 |
     |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -103,12 +103,12 @@ To send a status request, perform the following steps.
      
 
 2.  Calculate the one-key CBC MAC (OMAC-1) to calculate a hash for the block of data that appears after the **omac** member, and then set the **omac** member to this value. See [OPM Example Code](opm-example-code.md).
-3.  Call the [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) method. Pass in a pointer to the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure and a pointer to an [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure. The driver's response is written to the **OPM\_REQUESTED\_INFORMATION** structure.
+3.  Call the [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) method. Pass in a pointer to the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure and a pointer to an [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure. The driver's response is written to the **OPM\_REQUESTED\_INFORMATION** structure.
     -   The **omac** member of this structure contains an OMAC computed for the data that follows this member.
     -   The **abRequestedInformation** member is a byte array that contains output data for the response. The format of the output data is listed in the reference topic for each status request.
-4.  Calculate an OMAC for the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure, not including the **omac** member. Verify that the OMAC matches the value in the **omac** member.
-5.  Make sure the **cbRequestedInformationSize** member of the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure gives the correct size for the output data. For example, the output data for the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) query is an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure, so the value of **cbRequestedInformationSize** should be `sizeof(OPM_STANDARD_INFORMATION)`.
-6.  Cast the **abRequestedInformation** member of the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure to the correct output data structure. For example, if the status request is [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md), cast **abRequestedInformation** to an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure.
+4.  Calculate an OMAC for the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure, not including the **omac** member. Verify that the OMAC matches the value in the **omac** member.
+5.  Make sure the **cbRequestedInformationSize** member of the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure gives the correct size for the output data. For example, the output data for the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) query is an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure, so the value of **cbRequestedInformationSize** should be `sizeof(OPM_STANDARD_INFORMATION)`.
+6.  Cast the **abRequestedInformation** member of the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure to the correct output data structure. For example, if the status request is [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md), cast **abRequestedInformation** to an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure.
 7.  Make sure the **rnRandomNumber** member of the output data structure matches the value of **rnRandomNumber** from step 1.
 8.  Check the **ulStatusFlags** member of the output data structure, as described in [Handling a Disabled Video Output](#handling-a-disabled-video-output).
 
@@ -120,7 +120,7 @@ OPM commands are used to set the protection level and other settings on the vide
 
 To send an OPM command, perform the following steps.
 
-1.  Fill in an [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters) structure as shown in the following table.
+1.  Fill in an [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) structure as shown in the following table.
 
     | Member                | Description                                                                                                                                                                                                                                                                                                                                                   |
     |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -145,9 +145,9 @@ A video output might disable itself at any time to prevent the unauthorized use 
 
 While content protection is enabled, an application should periodically (at least once every 2 seconds) perform the following steps.
 
-1.  Call [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) to send either the [**OPM\_GET\_ACTUAL\_PROTECTION\_LEVEL**](opm-get-actual-protection-level.md) or [**OPM\_GET\_VIRTUAL\_PROTECTION\_LEVEL**](opm-get-virtual-protection-level.md) status request. The return data for both commands is an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure.
-2.  Check the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure. This member contains a flag indicating whether content protection is still enabled. If content protection is off, stop playing the video immediately.
-3.  If content protection is on, check the **ulStatusFlags** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure. If no flags are set, the video output is working correctly. Otherwise, the video output is disabled.
+1.  Call [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) to send either the [**OPM\_GET\_ACTUAL\_PROTECTION\_LEVEL**](opm-get-actual-protection-level.md) or [**OPM\_GET\_VIRTUAL\_PROTECTION\_LEVEL**](opm-get-virtual-protection-level.md) status request. The return data for both commands is an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure.
+2.  Check the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure. This member contains a flag indicating whether content protection is still enabled. If content protection is off, stop playing the video immediately.
+3.  If content protection is on, check the **ulStatusFlags** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure. If no flags are set, the video output is working correctly. Otherwise, the video output is disabled.
 
 The following flags are defined for **ulStatusFlags**.
 
@@ -208,27 +208,27 @@ This section describes how to enable HDCP output protection using OPM. Here is a
 
 To set the SRM, perform the following steps.
 
-1.  Initialize an [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_hdcp_srm_parameters) structure with the SRM version number.
+1.  Initialize an [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_hdcp_srm_parameters) structure with the SRM version number.
 2.  Store the SRM in a variable.
 3.  Send an [**OPM\_SET\_HDCP\_SRM**](opm-set-hdcp-srm.md) command to the video output. Use the procedure described in [Sending OPM Commands](#sending-opm-commands).
-    -   The **abParameters** member of the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters) structure contains the [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_hdcp_srm_parameters) structure.
+    -   The **abParameters** member of the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) structure contains the [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_hdcp_srm_parameters) structure.
     -   The *pbAdditionalParameters* parameter of the [**IOPMVideoOutput::Configure**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure) method points to the variable that contains the SRM.
-4.  Send an [**OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION**](opm-get-current-hdcp-srm-version.md) status request to the video output. Use the procedure described in [Sending OPM Status Requests](#sending-opm-status-requests). This status request has no input data, so the contents of the **abParameters** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure are undefined.
-5.  When the [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) method returns, the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure contains an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure. The **ulInformation** member of this structure contains the version number of the current SRM. This value must equal the value from step 2.
+4.  Send an [**OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION**](opm-get-current-hdcp-srm-version.md) status request to the video output. Use the procedure described in [Sending OPM Status Requests](#sending-opm-status-requests). This status request has no input data, so the contents of the **abParameters** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure are undefined.
+5.  When the [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) method returns, the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure contains an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure. The **ulInformation** member of this structure contains the version number of the current SRM. This value must equal the value from step 2.
 
 ### Enabling HDCP
 
 To enable HDCP, perform the following steps.
 
-1.  Initialize an [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_protection_level_parameters) structure with the following values:
+1.  Initialize an [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_protection_level_parameters) structure with the following values:
     -   **ulProtectionType** = **OPM\_PROTECTION\_TYPE\_HDCP**
     -   **ulProtectionLevel** = **OPM\_HDCP\_ON**
     -   **Reserved** = 0
     -   **Reserved2** = 0
-2.  Send an [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command. The input data in the **abParameters** array is the [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_protection_level_parameters) structure.
-3.  Send an [**OPM\_GET\_VIRTUAL\_PROTECTION\_LEVEL**](opm-get-virtual-protection-level.md) status request to check whether HDCP is enabled. The first 4 bytes of the **abParameters** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure contain the value **OPM\_PROTECTION\_TYPE\_HDCP**.
+2.  Send an [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command. The input data in the **abParameters** array is the [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_protection_level_parameters) structure.
+3.  Send an [**OPM\_GET\_VIRTUAL\_PROTECTION\_LEVEL**](opm-get-virtual-protection-level.md) status request to check whether HDCP is enabled. The first 4 bytes of the **abParameters** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure contain the value **OPM\_PROTECTION\_TYPE\_HDCP**.
 
-When the [**GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) method returns, the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure contains an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure. The **ulInformation** member of this structure contains a value from the [**OPM\_HDCP\_PROTECTION\_LEVEL**](/windows/desktop/api/opmapi/ne-opmapi-_opm_hdcp_protection_level) enumeration. If the value equals **OPM\_HDCP\_ON**, it means HDCP is enabled. Otherwise, repeat steps 1–2 until HDCP is enabled, or an error occurs. (Remember to increment the sequence number and generate a new random number each time.)
+When the [**GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) method returns, the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure contains an [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure. The **ulInformation** member of this structure contains a value from the [**OPM\_HDCP\_PROTECTION\_LEVEL**](/windows/desktop/api/opmapi/ne-opmapi-opm_hdcp_protection_level) enumeration. If the value equals **OPM\_HDCP\_ON**, it means HDCP is enabled. Otherwise, repeat steps 1–2 until HDCP is enabled, or an error occurs. (Remember to increment the sequence number and generate a new random number each time.)
 
 It usually takes between 100 and 200 milliseconds to enable HDCP, but it can take longer. Do not assume that HDCP is enabled until you have verified it.
 

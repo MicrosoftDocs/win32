@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Starting a Service
 
-To start a service, a [service control program](service-control-programs.md) opens a handle to an installed database and then specifies the handle in a call to the [**StartService**](/windows/desktop/api/Winsvc/nf-winsvc-startservicea) function. After starting the service, the program uses the members of the [**SERVICE\_STATUS\_PROCESS**](/windows/desktop/api/Winsvc/ns-winsvc-_service_status_process) structure returned by the [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex) function to track the progress of the service.
+To start a service, a [service control program](service-control-programs.md) opens a handle to an installed database and then specifies the handle in a call to the [**StartService**](/windows/desktop/api/Winsvc/nf-winsvc-startservicea) function. After starting the service, the program uses the members of the [**SERVICE\_STATUS\_PROCESS**](/windows/desktop/api/Winsvc/ns-winsvc-service_status_process) structure returned by the [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex) function to track the progress of the service.
 
 The DoStartSvc function in the following example shows how to start a service. The szSvcName variable is a global variable that contains the name of the service to be started. For the complete example that sets this variable, see [SvcControl.cpp](svccontrol-cpp.md).
 

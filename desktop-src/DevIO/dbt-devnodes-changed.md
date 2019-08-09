@@ -86,7 +86,7 @@ There is no additional information about which device has been added to or remov
 [Device Management Events](device-management-events.md)
 </dt> <dt>
 
-[**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_hdr)
+[**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_hdr)
 </dt> <dt>
 
 [**WM\_DEVICECHANGE**](wm-devicechange.md)

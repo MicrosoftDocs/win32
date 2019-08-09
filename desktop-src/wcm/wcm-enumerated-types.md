@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 The Windows Connection Manager (WCM) enumerated types are as follows.
 
--   [**WCM\_CONNECTION\_COST**](/windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_connection_cost)
--   [**WCM\_CONNECTION\_COST\_SOURCE**](/windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_connection_cost_source)
--   [**WCM\_MEDIA\_TYPE**](/windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_media_type)
--   [**WCM\_PROPERTY**](/windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_property)
+-   [**WCM\_CONNECTION\_COST**](/windows/desktop/api/Wcmapi/ne-wcmapi-wcm_connection_cost)
+-   [**WCM\_CONNECTION\_COST\_SOURCE**](/windows/desktop/api/Wcmapi/ne-wcmapi-wcm_connection_cost_source)
+-   [**WCM\_MEDIA\_TYPE**](/windows/desktop/api/Wcmapi/ne-wcmapi-wcm_media_type)
+-   [**WCM\_PROPERTY**](/windows/desktop/api/Wcmapi/ne-wcmapi-wcm_property)
 
  
 

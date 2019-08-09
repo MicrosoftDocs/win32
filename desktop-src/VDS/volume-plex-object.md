@@ -27,8 +27,8 @@ The following table lists related interfaces, enumerations, and structures.
 | Type                                              | Element                                                                                                                                                                            |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces that are always exposed by this object | [**IVdsVolumePlex**](/windows/desktop/api/Vds/nn-vds-ivdsvolumeplex).                                                                                                                                          |
-| Associated enumerations                           | [**VDS\_VOLUME\_PLEX\_STATUS**](/windows/desktop/api/Vds/ne-vds-_vds_volume_plex_status), [**VDS\_VOLUME\_PLEX\_TYPE**](/windows/desktop/api/Vds/ne-vds-_vds_volume_plex_type), and [**VDS\_DISK\_EXTENT\_TYPE**](/windows/desktop/api/Vds/ne-vds-_vds_disk_extent_type). |
-| Associated structures                             | [**VDS\_VOLUME\_PLEX\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_volume_plex_prop).                                                                                                                           |
+| Associated enumerations                           | [**VDS\_VOLUME\_PLEX\_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_volume_plex_status), [**VDS\_VOLUME\_PLEX\_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_volume_plex_type), and [**VDS\_DISK\_EXTENT\_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_disk_extent_type). |
+| Associated structures                             | [**VDS\_VOLUME\_PLEX\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_volume_plex_prop).                                                                                                                           |
 
 
 

@@ -221,13 +221,13 @@ Returns zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Returns a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo) structure—if **LUP\_RETURN\_BLOB**, **LUP\_RETURN\_ALL**, or **NULL** are specified.
+Returns a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo) structure—if **LUP\_RETURN\_BLOB**, **LUP\_RETURN\_ALL**, or **NULL** are specified.
 
 </dd> </dl>
 
 ## PNRPCLOUDINFO Structure
 
-When enumerating cloud names, the following values are returned in the [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo) structure:
+When enumerating cloud names, the following values are returned in the [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo) structure:
 
 <dl> <dt>
 
@@ -248,14 +248,14 @@ The actual cloud value.
 <span id="enCloudState"></span><span id="encloudstate"></span><span id="ENCLOUDSTATE"></span>**enCloudState**
 </dt> <dd>
 
-The current state of a cloud. [**PNRP\_CLOUD\_STATE**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_state) specifies the valid values.
+The current state of a cloud. [**PNRP\_CLOUD\_STATE**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_state) specifies the valid values.
 
 </dd> <dt>
 
 <span id="enCloudFlags"></span><span id="encloudflags"></span><span id="ENCLOUDFLAGS"></span>**enCloudFlags**
 </dt> <dd>
 
-Indicates that a cloud name is valid on a network, or only valid on a current computer. [**PNRP\_CLOUD\_FLAGS**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_flags) specifies the valid values. Some cloud names are valid on any computer on the same network. Other cloud names are valid only on a current computer, and may be valid only for a period of time.
+Indicates that a cloud name is valid on a network, or only valid on a current computer. [**PNRP\_CLOUD\_FLAGS**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_flags) specifies the valid values. Some cloud names are valid on any computer on the same network. Other cloud names are valid only on a current computer, and may be valid only for a period of time.
 
 -   If **enCloudFlags** is set to **PNRP\_CLOUD\_NAME\_LOCAL,** the name is only valid locally.
 -   If **enCloudFlags** is not set, then the cloud name can be transferred to other computers.
@@ -278,10 +278,10 @@ Indicates that a cloud name is valid on a network, or only valid on a current co
 [PNRP and WSAQUERYSET](pnrp-and-wsaqueryset.md)
 </dt> <dt>
 
-[**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo)
+[**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo)
 </dt> <dt>
 
-[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1)
+[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1)
 </dt> <dt>
 
 [PNRP NSP Error Codes](pnrp-nsp-error-codes.md)

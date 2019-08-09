@@ -35,7 +35,7 @@ To add volumes to the shadow copy set, a requester must first set the context fo
 
 To begin the completion of its setup prior to backup, a requester must call [**IVssBackupComponents::SetBackupState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate). By doing this, a requester indicates to the writers:
 
--   The type of backup (as defined in [**VSS\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_backup_type))
+-   The type of backup (as defined in [**VSS\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_backup_type))
 -   Whether the backup includes a bootable system state
 -   Whether the requester supports the selection of individual components or backs up entire volumes.
 

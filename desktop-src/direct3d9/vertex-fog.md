@@ -30,7 +30,7 @@ Sometimes, using fog can introduce graphic artifacts that cause objects to be bl
 
 Range-based fog is another, more accurate, way to determine the fog effects. In range-based fog, Direct3D uses the actual distance from the viewpoint to a vertex for its fog calculations. Direct3D increases the effect of fog as the distance between the two points increases, rather than the depth of the vertex within in the scene, thereby avoiding rotational artifacts.
 
-If the current device supports range-based fog, it will set the D3DPRASTERCAPS\_FOGRANGE value in the RasterCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) when you call the [**IDirect3DDevice9::GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx) method. To enable range-based fog, set the D3DRS\_RANGEFOGENABLE render state to **TRUE**.
+If the current device supports range-based fog, it will set the D3DPRASTERCAPS\_FOGRANGE value in the RasterCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) when you call the [**IDirect3DDevice9::GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx) method. To enable range-based fog, set the D3DRS\_RANGEFOGENABLE render state to **TRUE**.
 
 Range-based fog is computed by Direct3D during transformation and lighting. Applications that don't use the Direct3D transformation and lighting engine must also perform their own vertex fog calculations. In this case, provide the range-based fog factor in the alpha component of the specular component for each vertex.
 

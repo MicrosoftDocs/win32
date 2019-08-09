@@ -30,8 +30,8 @@ The [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/w
 | **lpafpProtocols**          | Not used.                                                                                                                                                                                                  | Not used.                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **lpszQueryString**         | Not used.                                                                                                                                                                                                  | Not used.                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **dwNumberOfCsAddrs**       | Not used.                                                                                                                                                                                                  | Indicates the number of elements in the array of [**CSADDR\_INFO**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info) structures.                                                                                                                                                                                                                                                                                                                          |
-| **lpcsaBuffer**             | Not used.                                                                                                                                                                                                  | Pointer to a [**CSADDR\_INFO**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info) structure with its **LocalAddr.lpSockaddr** member pointing to a [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure with the address of the remote device. Returned if **LUP\_RETURN\_ADDR** is specified.                                                                                                                                                                  |
-| **lpBlob**                  | Optional. May point to a [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob) structure that points to a [**BTH\_QUERY\_DEVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_device) structure that may limit the length of non-cached device inquiry operations. | Pointer to a [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob) structure that points to a [**BTH\_DEVICE\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-_bth_device_info) structure. **lpBlob** is returned if **LUP\_RETURN\_BLOB** is specified. Specify **LUP\_RETURN\_NAME** to retrieve the name field of **BTH\_DEVICE\_INFO**.                                                                                                                                                     |
+| **lpcsaBuffer**             | Not used.                                                                                                                                                                                                  | Pointer to a [**CSADDR\_INFO**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info) structure with its **LocalAddr.lpSockaddr** member pointing to a [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) structure with the address of the remote device. Returned if **LUP\_RETURN\_ADDR** is specified.                                                                                                                                                                  |
+| **lpBlob**                  | Optional. May point to a [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob) structure that points to a [**BTH\_QUERY\_DEVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device) structure that may limit the length of non-cached device inquiry operations. | Pointer to a [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob) structure that points to a [**BTH\_DEVICE\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-bth_device_info) structure. **lpBlob** is returned if **LUP\_RETURN\_BLOB** is specified. Specify **LUP\_RETURN\_NAME** to retrieve the name field of **BTH\_DEVICE\_INFO**.                                                                                                                                                     |
 
 
 
@@ -56,19 +56,19 @@ The [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/w
 [Bluetooth and WSALookupServiceNext](bluetooth-and-wsasetservice.md)
 </dt> <dt>
 
-[**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob)
+[**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob)
 </dt> <dt>
 
-[**BTH\_DEVICE\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-_bth_device_info)
+[**BTH\_DEVICE\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-bth_device_info)
 </dt> <dt>
 
-[**BTH\_QUERY\_DEVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_device)
+[**BTH\_QUERY\_DEVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device)
 </dt> <dt>
 
 [**CSADDR\_INFO**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth)
+[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)
 </dt> <dt>
 
 [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)

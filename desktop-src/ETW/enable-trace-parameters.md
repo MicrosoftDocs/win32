@@ -62,7 +62,7 @@ Optional settings that ETW can include when writing the event. Some settings wri
 | <span id="EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE"></span><span id="event_enable_property_exclude_inprivate"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_EXCLUDE\_INPRIVATE**</dt> </dl>  | Filters out all events that are either marked as an InPrivate event or come from a process that is marked as InPrivate.<br/> InPrivate implies that the event or process contains some data that would be considered private or personal. It is up to the process or event to designate itself as InPrivate for this to work.<br/> Supported on Windows 10, version 1507 and later.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | <span id="EVENT_ENABLE_PROPERTY_SID"></span><span id="event_enable_property_sid"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_SID**</dt> </dl>                                             | Include in the extended data the security identifier (SID) of the user.<br/> Supported on Windows Vista and later.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="EVENT_ENABLE_PROPERTY_TS_ID"></span><span id="event_enable_property_ts_id"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_TS\_ID**</dt> </dl>                                      | Include in the extended data the terminal session identifier.<br/> Supported on Windows Vista and later.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| <span id="EVENT_ENABLE_PROPERTY_STACK_TRACE"></span><span id="event_enable_property_stack_trace"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**</dt> </dl>                    | Include in the extended data a call stack trace for events written using [**EventWrite**](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite).<br/> If you set **EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**, ETW will drop the event if the total event size exceeds 64K. If the provider is logging events close in size to 64K maximum, it is possible that enabling stack capture will cause the event to be lost.<br/> If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.<br/> For consumers, the events will include the [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE32**](/windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace32) or [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE64**](/windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace64) extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.<br/> Supported on Windows 7 and later.<br/> |
+| <span id="EVENT_ENABLE_PROPERTY_STACK_TRACE"></span><span id="event_enable_property_stack_trace"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**</dt> </dl>                    | Include in the extended data a call stack trace for events written using [**EventWrite**](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite).<br/> If you set **EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**, ETW will drop the event if the total event size exceeds 64K. If the provider is logging events close in size to 64K maximum, it is possible that enabling stack capture will cause the event to be lost.<br/> If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.<br/> For consumers, the events will include the [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE32**](/windows/desktop/api/Evntcons/ns-evntcons-event_extended_item_stack_trace32) or [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE64**](/windows/desktop/api/Evntcons/ns-evntcons-event_extended_item_stack_trace64) extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.<br/> Supported on Windows 7 and later.<br/> |
 
 
 
@@ -87,7 +87,7 @@ A GUID that uniquely identifies the session that is enabling or disabling the pr
 **EnableFilterDesc**
 </dt> <dd>
 
-A pointer to an array of [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structures that points to the filter data. The number of elements in the array is specified in the **FilterDescCount** member. There can only be one filter for a specific filter type as specified by the **Type** member of the **EVENT\_FILTER\_DESCRIPTOR** structure.
+A pointer to an array of [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures that points to the filter data. The number of elements in the array is specified in the **FilterDescCount** member. There can only be one filter for a specific filter type as specified by the **Type** member of the **EVENT\_FILTER\_DESCRIPTOR** structure.
 
 For a schematized filter (a **Type** member equal to **EVENT\_FILTER\_TYPE\_SCHEMATIZED**), the provider uses filter data to prevent events that match the filter criteria from being written to the session. The provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one schematized filter to the provider.
 
@@ -98,9 +98,9 @@ A session can call the [**TdhEnumerateProviderFilters**](/windows/desktop/api/Td
 **FilterDescCount**
 </dt> <dd>
 
-The number of elements (filters) in the [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) array pointed to by **EnableFilterDesc** member.
+The number of elements (filters) in the [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) array pointed to by **EnableFilterDesc** member.
 
-The **FilterDescCount** member should match the number of [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structures in the array pointed to by the **EnableFilterDesc** member.
+The **FilterDescCount** member should match the number of [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures in the array pointed to by the **EnableFilterDesc** member.
 
 .
 
@@ -110,7 +110,7 @@ The **FilterDescCount** member should match the number of [**EVENT\_FILTER\_DESC
 
 The **ENABLE\_TRACE\_PARAMETERS** structure is a version 2 structure and replaces the [**ENABLE\_TRACE\_PARAMETERS\_V1**](enable-trace-parameters-v1.md) structure for use with the [**EnableTraceEx2**](enabletraceex2.md) function.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the **ENABLE\_TRACE\_PARAMETERS** and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the **EnableTraceEx2**, [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter), and [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) functions and the **EVENT\_FILTER\_DESCRIPTOR** and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-_payload_filter_predicate) structures.
+On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the **ENABLE\_TRACE\_PARAMETERS** and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the **EnableTraceEx2**, [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter), and [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) functions and the **EVENT\_FILTER\_DESCRIPTOR** and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) structures.
 
 Typically, on 64-bit computers, you cannot capture the kernel stack in certain contexts when page faults are not allowed. To enable walking the kernel stack on x64, set the **DisablePagingExecutive** Memory Management registry value to 1. The **DisablePagingExecutive** registry value is located under the following registry key:
 
@@ -140,13 +140,13 @@ You should consider the cost of setting this registry value before doing so.
 [**ENABLE\_TRACE\_PARAMETERS\_V1**](enable-trace-parameters-v1.md)
 </dt> <dt>
 
-[**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor)
+[**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor)
 </dt> <dt>
 
-[**EVENT\_FILTER\_EVENT\_ID**](/windows/desktop/api/Evntprov/ns-evntprov-_event_filter_event_id)
+[**EVENT\_FILTER\_EVENT\_ID**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_event_id)
 </dt> <dt>
 
-[**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-_payload_filter_predicate)
+[**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate)
 </dt> <dt>
 
 [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters)

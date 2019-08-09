@@ -15,7 +15,7 @@ The personal desktop task agent API supports the following enumerations.
 
 <dl> <dt>
 
-[**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status)
+[**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status)
 </dt> <dd>
 
 Used with the [**IRDVTaskPluginNotifySink::OnTaskStateChange**](irdvtaskpluginnotifysink-ontaskstatechange.md) method to indicate the status of a task.

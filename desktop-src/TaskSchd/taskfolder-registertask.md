@@ -73,7 +73,7 @@ The following topics contain tasks defined using XML.
 *flags* \[in\]
 </dt> <dd>
 
-A [**TASK\_CREATION**](/windows/desktop/api/taskschd/ne-taskschd-_task_creation) constant.
+A [**TASK\_CREATION**](/windows/desktop/api/taskschd/ne-taskschd-task_creation) constant.
 
 
 

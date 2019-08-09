@@ -34,17 +34,17 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat) structure that receives the paragraph formatting attributes of the current selection.
+Pointer to a [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat) structure that receives the paragraph formatting attributes of the current selection.
 
 If more than one paragraph is selected, the structure receives the attributes of the first paragraph, and the **dwMask** member specifies which attributes are consistent throughout the entire selection.
 
-Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) structure, which is an extension of the [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat) structure. Before sending the **EM\_GETPARAFORMAT** message, set the structure's **cbSize** member to indicate the version of the structure.
+Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) structure, which is an extension of the [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat) structure. Before sending the **EM\_GETPARAFORMAT** message, set the structure's **cbSize** member to indicate the version of the structure.
 
 </dd> </dl>
 
 ## Return value
 
-This message returns the value of the **dwMask** member of the [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat) structure.
+This message returns the value of the **dwMask** member of the [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat) structure.
 
 ## Requirements
 
@@ -65,7 +65,7 @@ This message returns the value of the **dwMask** member of the [**PARAFORMAT**](
 **Reference**
 </dt> <dt>
 
-[**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat)
+[**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat)
 </dt> <dt>
 
 [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2)

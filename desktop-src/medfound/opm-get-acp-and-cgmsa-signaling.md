@@ -19,7 +19,7 @@ Returns the following information about a video output:
 |--------------|-------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ACP\_AND\_CGMSA\_SIGNALING                                                |
 | Input data   | None                                                                                |
-| Return data  | An [**OPM\_ACP\_AND\_CGMSA\_SIGNALING**](/windows/desktop/api/opmapi/ns-opmapi-_opm_acp_and_cgmsa_signaling) structure |
+| Return data  | An [**OPM\_ACP\_AND\_CGMSA\_SIGNALING**](/windows/desktop/api/opmapi/ns-opmapi-opm_acp_and_cgmsa_signaling) structure |
 
 
 

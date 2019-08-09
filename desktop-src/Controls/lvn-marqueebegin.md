@@ -36,7 +36,7 @@ LVN_MARQUEEBEGIN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure.
+Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure.
 
 </dd> </dl>
 

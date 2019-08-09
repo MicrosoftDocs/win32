@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Writer Backup Schema Support
 
-To fully implement a backup requires participation of the system's writers. Different types of supported backups are referred to as schemas and are indicated by a bitmask (or bitwise OR) of members of the [**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema) enumeration. The currently supported valid schemas include the following:
+To fully implement a backup requires participation of the system's writers. Different types of supported backups are referred to as schemas and are indicated by a bitmask (or bitwise OR) of members of the [**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-vss_backup_schema) enumeration. The currently supported valid schemas include the following:
 
 -   Default Schema: Full (VSS\_BS\_UNDEFINED)—indicates that a writer supports a backup where all files will be backed up regardless of their last backup date. The backup history of each file can be updated by the requester, and writers supporting the VSS\_BS\_TIMESTAMPED enumeration value, it will store an updated time stamp with the requester. This backup scheme can be used as the basis of an incremental or differential backup.
 

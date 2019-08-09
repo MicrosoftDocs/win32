@@ -12,7 +12,7 @@ When you specify the [**TBSTYLE\_TOOLTIPS**](toolbar-control-and-button-styles.m
 
 Your application can supply text to the tooltip control in any one of the following ways:
 
--   Set the tooltip text as the **iString** member of the [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure for each button. You must also send a [**TB\_SETMAXTEXTROWS**](tb-setmaxtextrows.md) message and set the maximum text rows to 0, so that the text does not appear as the button label rather than as a tooltip.
+-   Set the tooltip text as the **iString** member of the [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure for each button. You must also send a [**TB\_SETMAXTEXTROWS**](tb-setmaxtextrows.md) message and set the maximum text rows to 0, so that the text does not appear as the button label rather than as a tooltip.
 -   Create the toolbar with the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) style and then set the [**TBSTYLE\_EX\_MIXEDBUTTONS**](toolbar-extended-styles.md) extended style. Labels are shown only for buttons that have the [**BTNS\_SHOWTEXT**](toolbar-control-and-button-styles.md) style. For buttons that do not have this style, a tooltip is shown that contains the button text.
 -   Respond to the [TTN\_GETDISPINFO](ttn-getdispinfo.md) notification code.
 -   Respond to the [TBN\_GETINFOTIP](tbn-getinfotip.md) notification code.

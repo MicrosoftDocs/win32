@@ -14,7 +14,7 @@ The following functions are used with communications resources.
 
 | Function                                                   | Description                                                                                                                    |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [**BuildCommDCB**](/windows/desktop/api/Winbase/nf-winbase-buildcommdcba)                       | Fills a specified [**DCB**](/windows/desktop/api/Winbase/ns-winbase-_dcb) structure with values specified in a device-control string.                           |
+| [**BuildCommDCB**](/windows/desktop/api/Winbase/nf-winbase-buildcommdcba)                       | Fills a specified [**DCB**](/windows/desktop/api/Winbase/ns-winbase-dcb) structure with values specified in a device-control string.                           |
 | [**BuildCommDCBAndTimeouts**](/windows/desktop/api/Winbase/nf-winbase-buildcommdcbandtimeoutsa) | Translates a device-definition string into appropriate device-control block codes and places them into a device control block. |
 | [**ClearCommBreak**](/windows/desktop/api/Winbase/nf-winbase-clearcommbreak)                   | Restores character transmission for a specified communications device and places the transmission line in a nonbreak state.    |
 | [**ClearCommError**](/windows/desktop/api/Winbase/nf-winbase-clearcommerror)                   | Retrieves information about a communications error and reports the current status of a communications device.                  |

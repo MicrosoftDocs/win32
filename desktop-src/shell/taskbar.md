@@ -89,11 +89,11 @@ The taskbar modification capabilities are implemented in a Component Object Mode
 
 ### Adding, Modifying, and Deleting Icons in the Notification Area
 
-Use the [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) function to add, modify, or delete icons from the notification area. The *dwMessage* parameter of **Shell\_NotifyIcon** is a message to the taskbar that specifies the action to be taken. The *pnid* parameter is a pointer to a [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure that is used to identify the icon and pass any additional information that is needed for the system to process the message.
+Use the [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) function to add, modify, or delete icons from the notification area. The *dwMessage* parameter of **Shell\_NotifyIcon** is a message to the taskbar that specifies the action to be taken. The *pnid* parameter is a pointer to a [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure that is used to identify the icon and pass any additional information that is needed for the system to process the message.
 
 You can perform the following actions with notification area icons.
 
--   To add an icon to the taskbar's notification area, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with the *dwMessage* parameter set to NIM\_ADD. The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure is used to specify the icon's handle and identifier, and any tooltip text. If the user has selected the **Show Clock** check box in the taskbar properties, the system places the icon to the immediate left of the clock. Otherwise, the icon appears on the right side or at the bottom of the taskbar. Any existing icons are shifted to the left to make room for the new icon.
+-   To add an icon to the taskbar's notification area, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with the *dwMessage* parameter set to NIM\_ADD. The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure is used to specify the icon's handle and identifier, and any tooltip text. If the user has selected the **Show Clock** check box in the taskbar properties, the system places the icon to the immediate left of the clock. Otherwise, the icon appears on the right side or at the bottom of the taskbar. Any existing icons are shifted to the left to make room for the new icon.
 -   To modify an icon's information, including its icon handle, tooltip text, and callback message identifier, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to NIM\_MODIFY.
 -   To delete an icon from the notification area, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with the *dwMessage* parameter set to NIM\_DELETE.
 
@@ -105,11 +105,11 @@ Applications commonly put icons in the notification area of the taskbar to serve
 
 The system notifies you of mouse and keyboard events by sending an application-defined callback message that is associated with a particular icon. In this way, the system can notify an application when the user, for instance, clicks the icon or selects it by pressing a key.
 
-You define an icon's callback message when you add the icon to the taskbar. The callback message identifier is specified in the **uCallbackMessage** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure passed with NIM\_ADD. When an event occurs, the system sends the callback message to the window procedure of the window specified by the **hWnd** member. The *wParam* parameter of the message contains the identifier of the taskbar icon in which the event occurred. The *lParam* parameter holds the mouse or keyboard message associated with the event. For example, when the mouse pointer moves onto a taskbar icon, *lParam* contains [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx).
+You define an icon's callback message when you add the icon to the taskbar. The callback message identifier is specified in the **uCallbackMessage** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure passed with NIM\_ADD. When an event occurs, the system sends the callback message to the window procedure of the window specified by the **hWnd** member. The *wParam* parameter of the message contains the identifier of the taskbar icon in which the event occurred. The *lParam* parameter holds the mouse or keyboard message associated with the event. For example, when the mouse pointer moves onto a taskbar icon, *lParam* contains [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx).
 
 The results of various mouse events can be summarized as follows:
 
--   When the user moves the mouse pointer over the icon, the system displays the tooltip text that was specified in [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa).
+-   When the user moves the mouse pointer over the icon, the system displays the tooltip text that was specified in [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa).
 -   When the user clicks the icon, your application receives a [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/en-us/library/ms645607(v=VS.85).aspx) notification.
 -   When the user right-clicks the icon, your application receives a [**WM\_RBUTTONDOWN**](https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx) notification.
 -   When the user double-clicks the icon, your application receives a [**WM\_LBUTTONDBLCLK**](https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx) notification.
@@ -129,7 +129,7 @@ Versions 5.0 and later of the Shell handle [**Shell\_NotifyIcon**](/windows/desk
         -   **NIN\_BALLOONTIMEOUT** - Sent when the balloon is dismissed because of a timeout.
         -   **NIN\_BALLOONUSERCLICK** - Sent when the balloon is dismissed because of a mouse click.
 
-You can select which way the Shell should behave by calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_SETVERSION**. Set the **uVersion** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure to indicate whether you want version 5.0 or pre-version 5.0 behavior.
+You can select which way the Shell should behave by calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_SETVERSION**. Set the **uVersion** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure to indicate whether you want version 5.0 or pre-version 5.0 behavior.
 
 ### Taskbar Creation Notification
 
@@ -168,7 +168,7 @@ This section includes examples that demonstrate how to add icons to the taskbar 
 
 ### Adding and Deleting Taskbar Icons in the Notification Area
 
-You add an icon to the taskbar notification area by filling in a [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure and then passing the structure to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_ADD**. The structure members must specify the handle to the window that is adding the icon, as well as the icon identifier and icon handle. You can also specify tooltip text for the icon. If you need to receive mouse messages for the icon, specify the identifier of the callback message that the system should use to send the message to the window procedure.
+You add an icon to the taskbar notification area by filling in a [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure and then passing the structure to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_ADD**. The structure members must specify the handle to the window that is adding the icon, as well as the icon identifier and icon handle. You can also specify tooltip text for the icon. If you need to receive mouse messages for the icon, specify the identifier of the callback message that the system should use to send the message to the window procedure.
 
 The function in the following example demonstrates how to add an icon to the taskbar.
 
@@ -210,7 +210,7 @@ BOOL MyTaskBarAddIcon(HWND hwnd, UINT uID, HICON hicon, LPSTR lpszTip)
 
 
 
-To delete an icon from the taskbar notification area, fill a [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure and call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_DELETE**. When deleting a taskbar icon, specify only the **cbSize**, **hWnd**, and **uID** members of the structure. For example:
+To delete an icon from the taskbar notification area, fill a [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure and call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_DELETE**. When deleting a taskbar icon, specify only the **cbSize**, **hWnd**, and **uID** members of the structure. For example:
 
 
 ```

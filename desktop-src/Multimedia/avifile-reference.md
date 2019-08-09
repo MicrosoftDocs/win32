@@ -25,7 +25,7 @@ This section describes the functions, structures, and macros for applications us
 ## Reading from a File
 
 -   [**AVIFileInfo**](/windows/desktop/api/Vfw/nf-vfw-avifileinfo)
--   [**AVIFILEINFO**](/windows/desktop/api/Vfw/ns-vfw-_avifileinfoa)
+-   [**AVIFILEINFO**](/windows/desktop/api/Vfw/ns-vfw-avifileinfoa)
 -   [**AVIFileReadData**](/windows/desktop/api/Vfw/nf-vfw-avifilereaddata)
 
 ## Writing to a File
@@ -47,7 +47,7 @@ This section describes the functions, structures, and macros for applications us
 
 ## Reading Stream Information
 
--   [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-_avistreaminfoa)
+-   [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-avistreaminfoa)
 -   [**AVIStreamReadData**](/windows/desktop/api/Vfw/nf-vfw-avistreamreaddata)
 -   [**AVIStreamDataSize**](/windows/desktop/api/Vfw/nf-vfw-avistreamdatasize)
 -   [**AVIStreamReadFormat**](/windows/desktop/api/Vfw/nf-vfw-avistreamreadformat)

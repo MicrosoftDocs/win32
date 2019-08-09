@@ -50,7 +50,7 @@ if(FAILED(m_pD3D->CheckDepthStencilMatch(pCaps->AdapterOrdinal,
 
 When you know that the driver supports depth buffers, you can verify w-buffer support. Although depth buffers are supported for all software rasterizers, w-buffers are supported only by the reference rasterizer, which is not suited for use by real-world applications. Regardless of the type of device your application uses, verify support for w-buffers before you attempt to enable w-based depth buffering.
 
-1.  After creating your device, call the [**IDirect3DDevice9::GetDeviceCaps**](/windows/desktop/api) method, passing an initialized [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure.
+1.  After creating your device, call the [**IDirect3DDevice9::GetDeviceCaps**](/windows/desktop/api) method, passing an initialized [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure.
 2.  After the call, the LineCaps member contains information about the driver's support for rendering primitives.
 3.  If the RasterCaps member of this structure contains the D3DPRASTERCAPS\_WBUFFER flag, then the driver supports w-based depth buffering for that primitive type.
 

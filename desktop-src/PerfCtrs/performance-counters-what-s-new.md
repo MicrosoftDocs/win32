@@ -50,10 +50,10 @@ The following functions were added for this release:
 
 The following structures were added for this release:
 
--   [**PERF\_COUNTER\_IDENTITY**](/windows/desktop/api/Perflib/ns-perflib-_perf_counter_identity)
--   [**PERF\_COUNTER\_INFO**](/windows/desktop/api/Perflib/ns-perflib-_perf_counter_info)
--   [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-_perf_counterset_info)
--   [**PERF\_COUNTERSET\_INSTANCE**](/windows/desktop/api/Perflib/ns-perflib-_perf_counterset_instance)
+-   [**PERF\_COUNTER\_IDENTITY**](/windows/desktop/api/Perflib/ns-perflib-perf_counter_identity)
+-   [**PERF\_COUNTER\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counter_info)
+-   [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_info)
+-   [**PERF\_COUNTERSET\_INSTANCE**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_instance)
 
 For a list of the XML elements that you use in your manifest to define your counters, see [Performance Counters Schema](performance-counters-schema.md).
 

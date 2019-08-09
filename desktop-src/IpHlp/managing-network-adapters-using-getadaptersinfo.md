@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Managing Network Adapters Using GetAdaptersInfo
 
-The [**GetAdaptersInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getadaptersinfo) function fills a pointer to an [**IP\_ADAPTER\_INFO**](/windows/desktop/api/Iptypes/ns-iptypes-_ip_adapter_info) structure with information about the network adapters associated with the system.
+The [**GetAdaptersInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getadaptersinfo) function fills a pointer to an [**IP\_ADAPTER\_INFO**](/windows/desktop/api/Iptypes/ns-iptypes-ip_adapter_info) structure with information about the network adapters associated with the system.
 
 **To use GetAdaptersInfo**
 
-1.  Declare a pointer to an [**IP\_ADAPTER\_INFO**](/windows/desktop/api/Iptypes/ns-iptypes-_ip_adapter_info) variable called *pAdapterInfo*, and a **ULONG** variable called *ulOutBufLen*. These variables are passed as parameters to the [**GetAdaptersInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getadaptersinfo) function. Also create a **DWORD** variable called *dwRetVal* (for error checking).
+1.  Declare a pointer to an [**IP\_ADAPTER\_INFO**](/windows/desktop/api/Iptypes/ns-iptypes-ip_adapter_info) variable called *pAdapterInfo*, and a **ULONG** variable called *ulOutBufLen*. These variables are passed as parameters to the [**GetAdaptersInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getadaptersinfo) function. Also create a **DWORD** variable called *dwRetVal* (for error checking).
     ```C++
     IP_ADAPTER_INFO  *pAdapterInfo;
     ULONG            ulOutBufLen;

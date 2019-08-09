@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # D3DVS20CAPS
 
-Vertex shader caps constants. These constants are used by the VS20Caps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
+Vertex shader caps constants. These constants are used by the VS20Caps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
 
 
@@ -46,7 +46,7 @@ Vertex shader caps constants. These constants are used by the VS20Caps member of
 [Direct3D Constants](dx9-graphics-reference-d3d-constants.md)
 </dt> <dt>
 
-[**D3DVSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dvshadercaps2_0)
+[**D3DVSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dvshadercaps2_0)
 </dt> </dl>
 
  

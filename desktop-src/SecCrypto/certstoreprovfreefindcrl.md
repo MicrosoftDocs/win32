@@ -46,7 +46,7 @@ BOOL WINAPI CertStoreProvFreeFindCRL(
 *pCrlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context).
+A pointer to a [**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context).
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 [**CertStoreProvFindCRL**](certstoreprovfindcrl.md)
 </dt> <dt>
 
-[**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context)
+[**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context)
 </dt> </dl>
 
  

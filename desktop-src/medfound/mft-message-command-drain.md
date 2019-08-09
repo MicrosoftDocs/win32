@@ -67,7 +67,7 @@ Otherwise, a synchronous MFT must implement this message.
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type)
+[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type)
 </dt> <dt>
 
 [Asynchronous MFTs](asynchronous-mfts.md)

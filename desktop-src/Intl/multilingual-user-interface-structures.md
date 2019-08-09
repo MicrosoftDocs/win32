@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following structures are used with the Multilingual User Interface (MUI):
 
-[**FILEMUIINFO**](/windows/desktop/api/Winnls/ns-winnls-_filemuiinfo)
+[**FILEMUIINFO**](/windows/desktop/api/Winnls/ns-winnls-filemuiinfo)
 
  
 

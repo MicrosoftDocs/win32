@@ -36,11 +36,11 @@ The EAP peer method implementation receives a TLV containing an SoH TLV from EAP
 The EAP peer method implementation passes the TLV containing the SoH response TLV to EAPHost as follows.
 
 -   The EAP peer method implementation returns the action code **EapPeerMethodResponseActionRespond** to EAPHost on return from [**EapPeerProcessRequestPacket**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket).
--   EAPHost calls [**EapPeerGetResponseAttributes**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes) from the EAP peer method implementations. The [**EAP\_ATTRIBUTES**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes) structure is passed in the process.
+-   EAPHost calls [**EapPeerGetResponseAttributes**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes) from the EAP peer method implementations. The [**EAP\_ATTRIBUTES**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes) structure is passed in the process.
 -   The EAP peer method implementation returns the TLV containing the SoH response TLV in [**EapPeerSetResponseAttributes**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes).
 
 > [!Note]  
-> The **eapType** member of the [**EAP\_ATTRIBUTE**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
+> The **eapType** member of the [**EAP\_ATTRIBUTE**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
 
  
 
@@ -61,7 +61,7 @@ The EAP server method implementation receives a TLV containing an SoH response T
 -   The EAP server method implementation sends the TLV containing the SoH response TLV.
 
 > [!Note]  
-> The **eapType** member of the [**EAP\_ATTRIBUTE**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
+> The **eapType** member of the [**EAP\_ATTRIBUTE**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
 
  
 

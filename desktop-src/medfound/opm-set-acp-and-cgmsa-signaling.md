@@ -15,7 +15,7 @@ Specifies information about the video signal, other than the protection level.
 |              |                                                                                                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING                                                                                |
-| Input data   | An [**OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_acp_and_cgmsa_signaling_parameters) structure |
+| Input data   | An [**OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_acp_and_cgmsa_signaling_parameters) structure |
 
 
 

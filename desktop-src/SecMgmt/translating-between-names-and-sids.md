@@ -69,7 +69,7 @@ void GetSIDInformation (LPWSTR AccountName,LSA_HANDLE PolicyHandle)
 
 
 
-In the preceding example, the function **InitLsaString** converts a Unicode string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
+In the preceding example, the function **InitLsaString** converts a Unicode string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
 > [!Note]  
 > These translation functions are primarily provided for use by permissions editors to display [*access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACL) information. A permission editor should always call these functions using the [**Policy**](policy-object.md) object for the system where the name or [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) SID is located. This ensures that the proper set of trusted domains is referenced during the translation.

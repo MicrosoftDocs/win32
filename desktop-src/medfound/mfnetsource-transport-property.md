@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFNETSOURCE\_TRANSPORT property
 
-Specifies the transport protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_TRANSPORT\_TYPE**](/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_transport_type) enumeration.
+Specifies the transport protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_TRANSPORT\_TYPE**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_transport_type) enumeration.
 
 
 

@@ -39,7 +39,7 @@ m_pD3DDevice->SetRenderState( D3DRS_VERTEXBLEND, D3DVBF_3WEIGHTS );
 
 ## Determining Indexed Vertex Blending Support
 
-To determine the maximum size for the indexed vertex blending matrix, check the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure's MaxVertexBlendMatrixIndex member. The code example below uses the [**IDirect3DDevice9::GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx) method to retrieve this size.
+To determine the maximum size for the indexed vertex blending matrix, check the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure's MaxVertexBlendMatrixIndex member. The code example below uses the [**IDirect3DDevice9::GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx) method to retrieve this size.
 
 
 ```

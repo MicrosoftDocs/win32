@@ -142,7 +142,7 @@ URL of the time stamp server.
 *psRequest* \[in, optional\]
 </dt> <dd>
 
-Pointer to an array of [**CRYPT\_ATTRIBUTE**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_attribute) structures that are added to a sign request. This parameter is ignored if the *pwszHttpTimeStamp* parameter does not contain a valid value or is **NULL**.
+Pointer to an array of [**CRYPT\_ATTRIBUTE**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_attribute) structures that are added to a sign request. This parameter is ignored if the *pwszHttpTimeStamp* parameter does not contain a valid value or is **NULL**.
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structu
 *pCryptoPolicy* \[in, optional\]
 </dt> <dd>
 
-If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_strong_sign_para) structure that contains the parameters used to check for strong signatures. If either a certificate or its chain does not pass, the file is not altered in any way. If a URL is passed in to specify a Time Stamping Authority (TSA), this policy is also applied to the time stamp.
+If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_strong_sign_para) structure that contains the parameters used to check for strong signatures. If either a certificate or its chain does not pass, the file is not altered in any way. If a URL is passed in to specify a Time Stamping Authority (TSA), this policy is also applied to the time stamp.
 
 </dd> <dt>
 

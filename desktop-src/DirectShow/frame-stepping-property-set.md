@@ -24,7 +24,7 @@ Decoders that implement frame-accurate seeking under Microsoft DirectShow must i
 
 | Property ID                              | Description                                                                                                                                                                     |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AM\_PROPERTY\_FRAMESTEP\_STEP            | Instructs the decoder to begin a step operation and passes an [**AM\_PROPERTY\_FRAMESTEP**](/windows/desktop/api/amvideo/ns-amvideo-_am_framestep_step) structure that specifies the number of steps.            |
+| AM\_PROPERTY\_FRAMESTEP\_STEP            | Instructs the decoder to begin a step operation and passes an [**AM\_PROPERTY\_FRAMESTEP**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-am_framestep_step) structure that specifies the number of steps.            |
 | AM\_PROPERTY\_FRAMESTEP\_CANCEL          | Instructs the decoder to cancel the current step operation. No instance data is associated with this property.                                                                  |
 | AM\_PROPERTY\_FRAMESTEP\_CANSTEP         | The decoder returns S\_OK on this instruction to indicate that it can perform frame stepping, S\_FALSE otherwise. No instance data is passed when this property is set.         |
 | AM\_PROPERTY\_FRAMESTEP\_CANSTEPMULTIPLE | The decoder returns S\_OK on this instruction to indicate that it can step multiple frames at a time, S\_FALSE otherwise. No instance data is passed when this property is set. |

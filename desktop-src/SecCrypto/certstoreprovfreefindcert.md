@@ -46,7 +46,7 @@ BOOL WINAPI CertStoreProvFreeFindCert(
 *pCertContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context).
+A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context).
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context)
+[**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context)
 </dt> <dt>
 
 [**CertStoreProvFindCert**](certstoreprovfindcert.md)

@@ -46,7 +46,7 @@ This documentation assumes that the reader is familiar with COM operation and co
 
         </dd> </dl>
 
-    -   [**CFSTR\_DSDISPLAYSPECOPTIONS**](cfstr-ds-display-spec-options.md) This data format contains a [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-_dsdisplayspecoptions) structure that contains data that will be used by the property pages, such as where to load the property pages from, the server and credentials to use, and so on. The more significant members of the **DSDISPLAYSPECOPTIONS** are shown in the following list.
+    -   [**CFSTR\_DSDISPLAYSPECOPTIONS**](cfstr-ds-display-spec-options.md) This data format contains a [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-dsdisplayspecoptions) structure that contains data that will be used by the property pages, such as where to load the property pages from, the server and credentials to use, and so on. The more significant members of the **DSDISPLAYSPECOPTIONS** are shown in the following list.
 
         <dl> <dt>
 

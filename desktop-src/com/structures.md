@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 The following structures are provided by COM:
 
 -   [**ACTRL\_ACCESS**](/windows/desktop/api/AccCtrl/ns-accctrl-_actrl_alista)
--   [**ACTRL\_ACCESS\_ENTRY**](/windows/desktop/api/AccCtrl/ns-accctrl-_actrl_access_entrya)
--   [**ACTRL\_ACCESS\_ENTRY\_LIST**](/windows/desktop/api/AccCtrl/ns-accctrl-_actrl_access_entry_lista)
--   [**ACTRL\_PROPERTY\_ENTRY**](/windows/desktop/api/AccCtrl/ns-accctrl-_actrl_property_entrya)
+-   [**ACTRL\_ACCESS\_ENTRY**](/windows/desktop/api/AccCtrl/ns-accctrl-actrl_access_entrya)
+-   [**ACTRL\_ACCESS\_ENTRY\_LIST**](/windows/desktop/api/AccCtrl/ns-accctrl-actrl_access_entry_lista)
+-   [**ACTRL\_PROPERTY\_ENTRY**](/windows/desktop/api/AccCtrl/ns-accctrl-actrl_property_entrya)
 -   [**BIND\_OPTS**](/windows/desktop/api/Objidl/ns-objidl-tagbind_opts)
 -   [**BIND\_OPTS2**](/windows/desktop/api/Objidl/ns-objidl-tagbind_opts2)
 -   [**BIND\_OPTS3**](/windows/desktop/api/Objidl/ns-objidl-tagbind_opts3)
@@ -21,8 +21,8 @@ The following structures are provided by COM:
 -   [**CALLFRAMEINFO**](/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0001)
 -   [**CALLFRAMEPARAMINFO**](/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0002)
 -   [**CATEGORYINFO**](/windows/desktop/api/Comcat/ns-comcat-tagcategoryinfo)
--   [**COAUTHIDENTITY**](/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthidentity)
--   [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthinfo)
+-   [**COAUTHIDENTITY**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthidentity)
+-   [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo)
 -   [**CONNECTDATA**](/windows/desktop/api/Ocidl/ns-ocidl-tagconnectdata)
 -   [**COSERVERINFO**](https://msdn.microsoft.com/en-us/library/ms687322(v=VS.85).aspx)
 -   [**CSPLATFORM**](/windows/desktop/api/WTypes/ns-wtypes-tagcsplatform)

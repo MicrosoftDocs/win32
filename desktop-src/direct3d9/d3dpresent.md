@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # D3DPRESENT
 
-Describes the relationship between the adapter refresh rate and the rate at which [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) or [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
+Describes the relationship between the adapter refresh rate and the rate at which [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) or [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
 
 
@@ -50,15 +50,15 @@ Describes the relationship between the adapter refresh rate and the rate at whic
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_TWO"></span><span id="d3dpresent_interval_two"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_TWO</strong></dt> </dl></td>
-<td style="text-align: left;">The driver will wait for the vertical retrace period. <a href="/windows/desktop/api"><strong>Present</strong></a> operations will not be affected more frequently than every second screen refresh. Check the PresentationIntervals cap (see <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9"><strong>D3DCAPS9</strong></a>) to see if D3DPRESENT_INTERVAL_TWO is supported by the driver.<br/></td>
+<td style="text-align: left;">The driver will wait for the vertical retrace period. <a href="/windows/desktop/api"><strong>Present</strong></a> operations will not be affected more frequently than every second screen refresh. Check the PresentationIntervals cap (see <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>) to see if D3DPRESENT_INTERVAL_TWO is supported by the driver.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_THREE"></span><span id="d3dpresent_interval_three"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_THREE</strong></dt> </dl></td>
-<td style="text-align: left;">The driver will wait for the vertical retrace period. <a href="/windows/desktop/api"><strong>Present</strong></a> operations will not be affected more frequently than every third screen refresh. Check the PresentationIntervals cap (see <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9"><strong>D3DCAPS9</strong></a>) to see if D3DPRESENT_INTERVAL_THREE is supported by the driver.<br/></td>
+<td style="text-align: left;">The driver will wait for the vertical retrace period. <a href="/windows/desktop/api"><strong>Present</strong></a> operations will not be affected more frequently than every third screen refresh. Check the PresentationIntervals cap (see <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>) to see if D3DPRESENT_INTERVAL_THREE is supported by the driver.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_FOUR"></span><span id="d3dpresent_interval_four"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_FOUR</strong></dt> </dl></td>
-<td style="text-align: left;">The driver will wait for the vertical retrace period. <a href="/windows/desktop/api"><strong>Present</strong></a> operations will not be affected more frequently than every fourth screen refresh. Check the PresentationIntervals member (see <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9"><strong>D3DCAPS9</strong></a>) to see if D3DPRESENT_INTERVAL_FOUR is supported by the driver.<br/></td>
+<td style="text-align: left;">The driver will wait for the vertical retrace period. <a href="/windows/desktop/api"><strong>Present</strong></a> operations will not be affected more frequently than every fourth screen refresh. Check the PresentationIntervals member (see <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>) to see if D3DPRESENT_INTERVAL_FOUR is supported by the driver.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_IMMEDIATE"></span><span id="d3dpresent_interval_immediate"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_IMMEDIATE</strong></dt> </dl></td>

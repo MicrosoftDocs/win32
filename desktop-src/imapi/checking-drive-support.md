@@ -114,13 +114,13 @@ End Function
 [**IDiscRecorder2**](/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2)
 </dt> <dt>
 
-[**IMAPI\_FEATURE\_PAGE\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type)
+[**IMAPI\_FEATURE\_PAGE\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type)
 </dt> <dt>
 
-[**IMAPI\_MODE\_PAGE\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-_imapi_mode_page_type)
+[**IMAPI\_MODE\_PAGE\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type)
 </dt> <dt>
 
-[**IMAPI\_PROFILE\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type)
+[**IMAPI\_PROFILE\_TYPE**](/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type)
 </dt> </dl>
 
  

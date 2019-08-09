@@ -67,7 +67,7 @@ Retrieves the earliest time the task agent can start the task.
 [**Status property**](itssbtaskinfo-status.md)
 </dt> <dd>
 
-Retrieves an [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status) enumeration value that represents the state of the task.
+Retrieves an [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration value that represents the state of the task.
 
 </dd> <dt>
 

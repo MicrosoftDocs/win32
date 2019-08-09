@@ -16,7 +16,7 @@ Byte array
 
 ## Remarks
 
-The attribute value is an [**MFVideoArea**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoarea) structure.
+The attribute value is an [**MFVideoArea**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea) structure.
 
 The minimum display aperture is the region that contains the valid portion of the signal. The pixels outside the aperture contain invalid data and should not be displayed.
 

@@ -60,7 +60,7 @@ The EVR can mix one or more video substreams onto the primary video stream. To c
 
 ## Video Processor Settings
 
-The EVR mixer uses DirectX Video Acceleration (DXVA) to perform video processing on the input streams. The exact processing capabilities depend on the graphics driver. Video processing capabilities are described by using the [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps) structure. A particular set of capabilities is called a *video processing mode*, each mode being identified by a GUID. For a list of predefined GUIDs, see [**IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids). The driver might define additional vendor-specific GUIDs, representing different combinations of capabilities.
+The EVR mixer uses DirectX Video Acceleration (DXVA) to perform video processing on the input streams. The exact processing capabilities depend on the graphics driver. Video processing capabilities are described by using the [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) structure. A particular set of capabilities is called a *video processing mode*, each mode being identified by a GUID. For a list of predefined GUIDs, see [**IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids). The driver might define additional vendor-specific GUIDs, representing different combinations of capabilities.
 
 To find the supported modes and the capabilities of each mode, do the following:
 
@@ -68,11 +68,11 @@ To find the supported modes and the capabilities of each mode, do the following:
 
 2.  Call [**IMFVideoProcessor::GetAvailableVideoProcessorModes**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getavailablevideoprocessormodes). This method returns an array of GUIDs, which identify the available video processor modes. The list is returned in descending quality order, the mode with the highest quality appearing first in the list. The list can change depending on the format of the video.
 
-3.  For each GUID in the list, call [**IMFVideoProcessor::GetVideoProcessorCaps**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps) to find the capabilities of the corresponding video processor mode. The method fills a [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps) structure with a description of the capabilities.
+3.  For each GUID in the list, call [**IMFVideoProcessor::GetVideoProcessorCaps**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps) to find the capabilities of the corresponding video processor mode. The method fills a [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) structure with a description of the capabilities.
 
 4.  To select a mode, call [**IMFVideoProcessor::SetVideoProcessorMode**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setvideoprocessormode). Otherwise, the EVR automatically selects a mode when streaming begins. In that case, you can call [**IMFVideoProcessor::GetVideoProcessorMode**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessormode) to find which mode was selected.
 
-Most of the fields in the [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps) structure describe low-level driver behavior and are not of interest in a typical application. The following fields are most likely to be of interest:
+Most of the fields in the [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) structure describe low-level driver behavior and are not of interest in a typical application. The following fields are most likely to be of interest:
 
 -   **DeviceCaps**. This field indicates whether video processing is performed in hardware or software, and whether the graphics driver is an older DXVA 1.0 driver.
 
@@ -94,7 +94,7 @@ To use these features, perform the following steps:
 
 1.  Select a video processing mode as described in the previous section.
 
-2.  Call [**IMFVideoProcessor::GetVideoProcessorCaps**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps) to find the video processing capabilities as described in the previous section. The method fills in a [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps) structure which describes the capabilities, including whether the driver supports color adjustment and image filter.
+2.  Call [**IMFVideoProcessor::GetVideoProcessorCaps**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps) to find the video processing capabilities as described in the previous section. The method fills in a [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) structure which describes the capabilities, including whether the driver supports color adjustment and image filter.
 
 3.  For each color adjustment that is supported by driver, call [**IMFVideoProcessor::GetProcAmpRange**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getprocamprange) to find the possible range of value for that setting. This method also returns the default value for the setting. Call [**IMFVideoProcessor::GetProcAmpValues**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getprocampvalues) to find the current value of the settings. The values do not have specified units. It is up to the driver to define the range of values.
 

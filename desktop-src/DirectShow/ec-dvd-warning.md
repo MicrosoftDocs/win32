@@ -26,7 +26,7 @@ Signals a DVD warning condition.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value indicating the warning condition. Member of the [**DVD\_WARNING**](/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_warning) enumerated data type.
+**DWORD** value indicating the warning condition. Member of the [**DVD\_WARNING**](/previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_warning) enumerated data type.
 
 </dd> <dt>
 

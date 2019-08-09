@@ -12,13 +12,13 @@ ms.date: 05/31/2018
 
 # Asynchronous Model
 
-Most operations in Windows Web Services API can be performed synchronously or asynchronously. To call a function synchronously, pass a null value for the [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context) structure. To specify that a function may be performed asynchronously, pass a non-null **WS\_ASYNC\_CONTEXT** to the function.
+Most operations in Windows Web Services API can be performed synchronously or asynchronously. To call a function synchronously, pass a null value for the [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) structure. To specify that a function may be performed asynchronously, pass a non-null **WS\_ASYNC\_CONTEXT** to the function.
 
 When called asynchronously, a function can nevertheless complete synchronously or asynchronously. If the function completes synchronously, it returns a value that indicates the final success or error, and this value is always something other than **WS\_S\_ASYNC** (See [Windows Web Services Return Values](windows-web-services-return-values.md)). A return value of **WS\_S\_ASYNC**, however, indicates that the function will complete asynchronously. When the function completes asynchronously, a callback is invoked to signal completion of the operation. This callback indicates the final success or error value. The callback is not called if the operation completes synchronously.
 
-To create an asynchronous context, initialize the **callback** and **callbackState** fields of the [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context) structure. The **callbackState** field is used to specify a pointer to user-defined data which is passed to the [**WS\_ASYNC\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_async_callback) function.
+To create an asynchronous context, initialize the **callback** and **callbackState** fields of the [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) structure. The **callbackState** field is used to specify a pointer to user-defined data which is passed to the [**WS\_ASYNC\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_async_callback) function.
 
-The following example shows calling a function asynchronously by passing a pointer to a [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context) structure that contains the callback and a pointer to the state data.
+The following example shows calling a function asynchronously by passing a pointer to a [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) structure that contains the callback and a pointer to the state data.
 
 ``` syntax
 HRESULT ExampleAsyncFunction(WS_ASYNC_CONTEXT* asyncContext);
@@ -51,9 +51,9 @@ void CALLBACK MyCallback(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* call
 }
 ```
 
-The [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context) structure is used by the asynchronous function only for the duration of the function call (not for the duration of the asynchronous operation), so you can safely declare it on the stack.
+The [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) structure is used by the asynchronous function only for the duration of the function call (not for the duration of the asynchronous operation), so you can safely declare it on the stack.
 
-If any other parameters, besides the [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context) structure, are passed to an asynchronous function as pointers and the function completes asynchronously, it is the responsibility of the caller to keep the values pointed to by these parameters alive (not freed) until the asynchronous callback is invoked.
+If any other parameters, besides the [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) structure, are passed to an asynchronous function as pointers and the function completes asynchronously, it is the responsibility of the caller to keep the values pointed to by these parameters alive (not freed) until the asynchronous callback is invoked.
 
 There are limitations on what operations a callback may perform. For more information on possible operations , see the [**WS\_CALLBACK\_MODEL**](/windows/desktop/api/WebServices/ne-webservices-ws_callback_model).
 
@@ -100,9 +100,9 @@ The asynchronous model uses the following API elements.
 
 | Structure                                          | Description                                                                                                                           |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context)     | Specifies the asynchronous callback and a pointer to user-defined data, which will be passed to the asynchronous callback.            |
-| [**WS\_ASYNC\_OPERATION**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_operation) | Used with the [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute) to specify the next function to invoke in a series of asynchronous operations. |
-| [**WS\_ASYNC\_STATE**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_state)         | Used by [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute) to manage the state of an asynchronous operation.                                    |
+| [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context)     | Specifies the asynchronous callback and a pointer to user-defined data, which will be passed to the asynchronous callback.            |
+| [**WS\_ASYNC\_OPERATION**](/windows/desktop/api/WebServices/ns-webservices-ws_async_operation) | Used with the [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute) to specify the next function to invoke in a series of asynchronous operations. |
+| [**WS\_ASYNC\_STATE**](/windows/desktop/api/WebServices/ns-webservices-ws_async_state)         | Used by [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute) to manage the state of an asynchronous operation.                                    |
 
 
 
@@ -118,7 +118,7 @@ The asynchronous model uses the following API elements.
 [**WS\_ASYNC\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_async_callback)
 </dt> <dt>
 
-[**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context)
+[**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context)
 </dt> <dt>
 
 [**WS\_CALLBACK\_MODEL**](/windows/desktop/api/WebServices/ne-webservices-ws_callback_model)

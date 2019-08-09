@@ -15,14 +15,14 @@ The RemoteApp and Desktop Connection Management Service API provides the followi
 
 <dl> <dt>
 
-[**TSPUB\_PLUGIN\_PD\_ASSIGNMENT\_TYPE**](/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_assignment_type)
+[**TSPUB\_PLUGIN\_PD\_ASSIGNMENT\_TYPE**](/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_assignment_type)
 </dt> <dd>
 
 Specifies the type of assignment for a personal desktop resolution.
 
 </dd> <dt>
 
-[**TSPUB\_PLUGIN\_PD\_RESOLUTION\_TYPE**](/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_resolution_type)
+[**TSPUB\_PLUGIN\_PD\_RESOLUTION\_TYPE**](/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_resolution_type)
 </dt> <dd>
 
 Specifies the type of personal desktop resolution being requested.

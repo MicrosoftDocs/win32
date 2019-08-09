@@ -34,7 +34,7 @@ A thread's affinity can be specified at creation using the [**PROC\_THREAD\_ATTR
 
 To specify affinity for all processes associated with a job object, use the [**SetInformationJobObject**](https://msdn.microsoft.com/en-us/library/ms686216(v=VS.85).aspx) function with the **JobObjectGroupInformation** or **JobObjectGroupInformationEx** information class.
 
-A logical processor is identified by its group number and its group-relative processor number. This is represented by a [**PROCESSOR\_NUMBER**](/windows/desktop/api/WinNT/ns-winnt-_processor_number) structure. Numeric processor numbers used by legacy functions are group-relative.
+A logical processor is identified by its group number and its group-relative processor number. This is represented by a [**PROCESSOR\_NUMBER**](/windows/desktop/api/WinNT/ns-winnt-processor_number) structure. Numeric processor numbers used by legacy functions are group-relative.
 
 For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](https://go.microsoft.com/fwlink/p/?linkid=133891).
 

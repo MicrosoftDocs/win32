@@ -14,7 +14,7 @@ The following enumeration types are used to retrieve or set system information.
 
 [**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/en-us/library/ms724224(v=VS.85).aspx)  
 [**EXTENDED\_NAME\_FORMAT**](/windows/desktop/api/Secext/ne-secext-extended_name_format)  
-[**FIRMWARE\_TYPE**](/windows/desktop/api/Winnt/ne-winnt-_firmware_type)  
+[**FIRMWARE\_TYPE**](/windows/desktop/api/Winnt/ne-winnt-firmware_type)  
 [**IMAGE\_FILE\_MACHINE**](https://docs.microsoft.com/previous-versions//mt804320(v=vs.85))  
 </dl>
 

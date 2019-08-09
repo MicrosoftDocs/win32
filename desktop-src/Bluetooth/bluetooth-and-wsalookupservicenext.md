@@ -32,13 +32,13 @@ The steps for device inquiry and service discovery in Bluetooth are sufficiently
 [Bluetooth and WSALookupServiceEnd](bluetooth-and-wsalookupserviceend.md)
 </dt> <dt>
 
-[**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service)
+[**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_service)
 </dt> <dt>
 
 [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth)
+[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)
 </dt> <dt>
 
 [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)

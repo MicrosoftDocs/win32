@@ -102,7 +102,7 @@ The following PSK cipher suites are enabled and in this priority order by defaul
  
 
 > [!Note]  
-> No PSK cipher suites are enabled by default. Applications need to request PSK using SCH\_USE\_PRESHAREDKEY\_ONLY. For more information on Schannel flags, see [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-_schannel_cred).
+> No PSK cipher suites are enabled by default. Applications need to request PSK using SCH\_USE\_PRESHAREDKEY\_ONLY. For more information on Schannel flags, see [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred).
 
  
 

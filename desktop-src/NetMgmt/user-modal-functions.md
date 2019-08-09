@@ -27,20 +27,20 @@ The **NetUserModalsGet** and **NetUserModalsSet** functions examine and modify t
 
 User modal information is available at the following levels:
 
--   [**USER\_MODALS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_0)
--   [**USER\_MODALS\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1)
--   [**USER\_MODALS\_INFO\_2**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_2)
--   [**USER\_MODALS\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_3)
+-   [**USER\_MODALS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_0)
+-   [**USER\_MODALS\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1)
+-   [**USER\_MODALS\_INFO\_2**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_2)
+-   [**USER\_MODALS\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_3)
 
 The following information levels are valid only for [**NetUserModalsSet**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusermodalsset) and replace the older way of passing in a *Parmnum* to set a specific field:
 
--   [**USER\_MODALS\_INFO\_1001**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1001)
--   [**USER\_MODALS\_INFO\_1002**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1002)
--   [**USER\_MODALS\_INFO\_1003**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1003)
--   [**USER\_MODALS\_INFO\_1004**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1004)
--   [**USER\_MODALS\_INFO\_1005**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1005)
--   [**USER\_MODALS\_INFO\_1006**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1006)
--   [**USER\_MODALS\_INFO\_1007**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_modals_info_1007)
+-   [**USER\_MODALS\_INFO\_1001**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1001)
+-   [**USER\_MODALS\_INFO\_1002**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1002)
+-   [**USER\_MODALS\_INFO\_1003**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1003)
+-   [**USER\_MODALS\_INFO\_1004**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1004)
+-   [**USER\_MODALS\_INFO\_1005**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1005)
+-   [**USER\_MODALS\_INFO\_1006**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1006)
+-   [**USER\_MODALS\_INFO\_1007**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1007)
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see [**IADsDomain**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdomain).
 

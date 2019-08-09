@@ -32,9 +32,9 @@ Within each type the data is categorized by security access. Data that is guest-
 
 Workstation information is available at the following levels:
 
--   [**WKSTA\_INFO\_100**](/windows/desktop/api/Lmwksta/ns-lmwksta-_wksta_info_100)
--   [**WKSTA\_INFO\_101**](/windows/desktop/api/Lmwksta/ns-lmwksta-_wksta_info_101)
--   [**WKSTA\_INFO\_102**](/windows/desktop/api/Lmwksta/ns-lmwksta-_wksta_info_102)
+-   [**WKSTA\_INFO\_100**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_info_100)
+-   [**WKSTA\_INFO\_101**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_info_101)
+-   [**WKSTA\_INFO\_102**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_info_102)
 
 The network management workstation user functions allow access to user-specific information. The user-specific information is separated from the workstation information because there can be more than one user on a workstation.
 
@@ -54,9 +54,9 @@ The workstation user functions are listed following.
 
 Workstation user information is available at the following levels:
 
--   [**WKSTA\_USER\_INFO\_0**](/windows/desktop/api/Lmwksta/ns-lmwksta-_wksta_user_info_0)
--   [**WKSTA\_USER\_INFO\_1**](/windows/desktop/api/Lmwksta/ns-lmwksta-_wksta_user_info_1)
--   [**WKSTA\_USER\_INFO\_1101**](/windows/desktop/api/Lmwksta/ns-lmwksta-_wksta_user_info_1101)
+-   [**WKSTA\_USER\_INFO\_0**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_0)
+-   [**WKSTA\_USER\_INFO\_1**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_1)
+-   [**WKSTA\_USER\_INFO\_1101**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_1101)
 
  
 

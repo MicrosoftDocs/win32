@@ -36,18 +36,18 @@ User accounts automatically belong to the special global group Domain Users. Mem
 
 Global group account information is available at the following levels:
 
--   [**GROUP\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-_group_info_0)
--   [**GROUP\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-_group_info_1)
--   [**GROUP\_INFO\_2**](/windows/desktop/api/Lmaccess/ns-lmaccess-_group_info_2)
--   [**GROUP\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-_group_info_3)
--   [**GROUP\_INFO\_1002**](/windows/desktop/api/Lmaccess/ns-lmaccess-_group_info_1002)
--   [**GROUP\_INFO\_1005**](/windows/desktop/api/Lmaccess/ns-lmaccess-_group_info_1005)
+-   [**GROUP\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_0)
+-   [**GROUP\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_1)
+-   [**GROUP\_INFO\_2**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_2)
+-   [**GROUP\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_3)
+-   [**GROUP\_INFO\_1002**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_1002)
+-   [**GROUP\_INFO\_1005**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_1005)
 
 The 1002 and 1005 levels are valid only for the [**NetGroupSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupsetinfo) function.
 
 Global group member information is available at the following information level:
 
--   [**GROUP\_USERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-_group_users_info_0)
+-   [**GROUP\_USERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_users_info_0)
 
 For more information, see the network management [Local Group Functions](local-group-functions.md).
 

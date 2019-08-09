@@ -114,7 +114,7 @@ Drop-down buttons support multiple commands. When the user clicks a drop-down bu
 
 ![screen shot showing the mail drop-down menu](images/howto3.jpg)
 
-Drop-down functionality can be added to any button style by adding a style flag to the **fStyle** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure. There are three styles of drop-down button, all of which are used by Internet Explorer:
+Drop-down functionality can be added to any button style by adding a style flag to the **fStyle** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure. There are three styles of drop-down button, all of which are used by Internet Explorer:
 
 -   Plain drop-down buttons have the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style. They look like normal buttons, but they display a menu when clicked instead of launching a command.
 -   Simple drop-down arrow buttons have the [**BTNS\_WHOLEDROPDOWN**](toolbar-control-and-button-styles.md) style. They have an arrow displayed next to the button image or text. Other than the difference in appearance, they are identical to plain drop-down buttons. The Mail button used as the example in the preceding illustration is a drop-down arrow button.

@@ -27,7 +27,7 @@ SPFILENOTIFY_RENAMEERROR
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a) structure. The **Win32Error** member of the **FILEPATHS** structure specifies the error that occurred during the rename operation.
+Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_a) structure. The **Win32Error** member of the **FILEPATHS** structure specifies the error that occurred during the rename operation.
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ The callback routine should return one of the following.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a)
+[**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_a)
 </dt> <dt>
 
 [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea)

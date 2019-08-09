@@ -26,7 +26,7 @@ To set this attribute, call [**IMFAttributes::SetBlob**](/windows/desktop/api/mf
 
 ## Remarks
 
-The value of the attribute is a [**MFCameraExtrinsics**](/windows/desktop/api/mfapi/ns-mfapi-_mfcameraextrinsics).
+The value of the attribute is a [**MFCameraExtrinsics**](/windows/desktop/api/mfapi/ns-mfapi-mfcameraextrinsics).
 
 This attribute is optional to support cameras that are not calibrated.
 

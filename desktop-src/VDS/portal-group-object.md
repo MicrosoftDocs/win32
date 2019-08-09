@@ -24,7 +24,7 @@ The following table lists related interfaces, enumerations, and structures.
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces that are always exposed by this object in VDS 1.1 and 2.0 iSCSI providers only | [**IVdsIscsiPortalGroup**](/windows/desktop/api/Vds/nn-vds-ivdsiscsiportalgroup).                                                                                              |
 | Associated enumerations                                                                   | None.                                                                                                                                              |
-| Associated structures                                                                     | [**VDS\_ISCSI\_PORTALGROUP\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_iscsi_portalgroup_prop) and [**VDS\_PORTAL\_GROUP\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_portal_group_notification). |
+| Associated structures                                                                     | [**VDS\_ISCSI\_PORTALGROUP\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_iscsi_portalgroup_prop) and [**VDS\_PORTAL\_GROUP\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_portal_group_notification). |
 
 
 

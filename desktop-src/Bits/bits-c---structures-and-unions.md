@@ -18,10 +18,10 @@ The Background Intelligent Transfer Service (BITS) [interfaces](bits-interfaces.
 | [**BG_AUTH_CREDENTIALS_UNION**](/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials_union) | Identifies the credentials to use for the authentication scheme specified in the [BG_AUTH_CREDENTIALS structure](/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials). |
 | [**BG_BASIC_CREDENTIALS**](/windows/desktop/api/bits1_5/ns-bits1_5-bg_basic_credentials) | Identifies the user name and password to authenticate. |
 | [**BG_FILE_INFO**](/windows/desktop/api/bits/ns-bits-bg_file_info) | Provides the local and remote names of the file to transfer. |
-| [**BG_FILE_PROGRESS**](/windows/desktop/api/bits/ns-bits-_bg_file_progress) | Provides file-related progress information, such as the number of bytes transferred. |
-| [**BG_FILE_RANGE**](/windows/desktop/api/bits2_0/ns-bits2_0-_bg_file_range) | Identifies a range of bytes to download from a file. |
-| [**BG_JOB_PROGRESS**](/windows/desktop/api/bits/ns-bits-_bg_job_progress) | Provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file. To view reply file progress, see the [BG_JOB_REPLY_PROGRESS structure](/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress). |
-| [**BG_JOB_REPLY_PROGRESS**](/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress) | Provides progress information related to the reply portion of an upload-reply job. |
-| [**BG_JOB_TIMES**](/windows/desktop/api/bits/ns-bits-_bg_job_times) | Provides job-related time stamps. |
+| [**BG_FILE_PROGRESS**](/windows/desktop/api/bits/ns-bits-bg_file_progress) | Provides file-related progress information, such as the number of bytes transferred. |
+| [**BG_FILE_RANGE**](/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range) | Identifies a range of bytes to download from a file. |
+| [**BG_JOB_PROGRESS**](/windows/desktop/api/bits/ns-bits-bg_job_progress) | Provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file. To view reply file progress, see the [BG_JOB_REPLY_PROGRESS structure](/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress). |
+| [**BG_JOB_REPLY_PROGRESS**](/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress) | Provides progress information related to the reply portion of an upload-reply job. |
+| [**BG_JOB_TIMES**](/windows/desktop/api/bits/ns-bits-bg_job_times) | Provides job-related time stamps. |
 | [**BITS_FILE_PROPERTY_VALUE union**](/windows/desktop/api/bits5_0/ns-bits5_0-bits_file_property_value) | Provides the property value of a BITS file. |
 | [**BITS_JOB_PROPERTY_VALUE**](/windows/desktop/api/bits5_0/ns-bits5_0-bits_file_property_value) | Provides the property value of the BITS job based on the value of the [BITS_JOB_PROPERTY_ID enumeration](/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id). |

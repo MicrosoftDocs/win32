@@ -40,20 +40,20 @@ When you create a local group by calling the [**NetLocalGroupAdd**](/windows/des
 
 Local group account information is available at the following levels:
 
--   [**LOCALGROUP\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_info_0)
--   [**LOCALGROUP\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_info_1)
--   [**LOCALGROUP\_INFO\_1002**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_info_1002)
+-   [**LOCALGROUP\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_info_0)
+-   [**LOCALGROUP\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_info_1)
+-   [**LOCALGROUP\_INFO\_1002**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_info_1002)
 
 Local group membership information is available at the following information levels:
 
--   [**LOCALGROUP\_MEMBERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_members_info_0)
--   [**LOCALGROUP\_MEMBERS\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_members_info_1)
--   [**LOCALGROUP\_MEMBERS\_INFO\_2**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_members_info_2)
--   [**LOCALGROUP\_MEMBERS\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_members_info_3)
+-   [**LOCALGROUP\_MEMBERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_members_info_0)
+-   [**LOCALGROUP\_MEMBERS\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_members_info_1)
+-   [**LOCALGROUP\_MEMBERS\_INFO\_2**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_members_info_2)
+-   [**LOCALGROUP\_MEMBERS\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_members_info_3)
 
 You can retrieve the names of the local groups to which a user belongs by calling the [**NetUserGetLocalGroups**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetlocalgroups) function, specifying the following information level:
 
-[**LOCALGROUP\_USERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-_localgroup_users_info_0)
+[**LOCALGROUP\_USERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_users_info_0)
 
 For more information, see the network management [Group Functions](group-functions.md).
 

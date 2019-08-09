@@ -169,7 +169,7 @@ EmbedCertificateChainInXpsPackage (
 **Used in This Example**
 </dt> <dt>
 
-[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)
+[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context)
 </dt> <dt>
 
 [**CertGetCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain)

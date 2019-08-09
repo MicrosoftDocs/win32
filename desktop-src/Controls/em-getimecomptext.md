@@ -27,7 +27,7 @@ Retrieves the Input Method Editor (IME) composition text.
 *wParam* 
 </dt> <dd>
 
-The [**IMECOMPTEXT**](/windows/desktop/api/Richedit/ns-richedit-_imecomptext) structure.
+The [**IMECOMPTEXT**](/windows/desktop/api/Richedit/ns-richedit-imecomptext) structure.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ This message only takes Unicode strings.
 
 <dl> <dt>
 
-[**IMECOMPTEXT**](/windows/desktop/api/Richedit/ns-richedit-_imecomptext)
+[**IMECOMPTEXT**](/windows/desktop/api/Richedit/ns-richedit-imecomptext)
 </dt> </dl>
 
  

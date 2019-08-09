@@ -57,7 +57,7 @@ For more information, see [Direct3D-Aware MFTs](direct3d-aware-mfts.md).
 [Supporting Direct3D 11 Video Decoding in Media Foundation](supporting-direct3d-11-video-decoding-in-media-foundation.md)
 </dt> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type)
+[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type)
 </dt> </dl>
 
  

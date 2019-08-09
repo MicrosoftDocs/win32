@@ -20,7 +20,7 @@ The following is the layout of a server side service operation
 
 -   const [WS\_OPERATION\_CONTEXT](ws-operation-context.md)\* context: The operation [context](context.md).
 -   Service Operations Parameters: Parameters pertaining to the service operation.
--   const [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-_ws_async_context)\* asyncContext: Async context for executing the service operations asynchronously.
+-   const [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context)\* asyncContext: Async context for executing the service operations asynchronously.
 -   [WS\_ERROR](ws-error.md)\* error: Rich error object.
 
 ``` syntax

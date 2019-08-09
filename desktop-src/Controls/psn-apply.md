@@ -36,7 +36,7 @@ PSN_APPLY
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure that contains information about the notification code, including the ID of the page.
+Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure that contains information about the notification code, including the ID of the page.
 
 </dd> </dl>
 
@@ -58,9 +58,9 @@ When the user clicks the OK, Apply, or Close button, the property sheet sends a 
 
  
 
-The **lParam** member of the [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure pointed to by *lParam* is set to **TRUE** if the user clicks the OK button. It is also set to **TRUE** if the [**PSM\_CANCELTOCLOSE**](psm-canceltoclose.md) message has been sent and the user clicks the Close button. It is set to **FALSE** if the user clicks the Apply button.
+The **lParam** member of the [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure pointed to by *lParam* is set to **TRUE** if the user clicks the OK button. It is also set to **TRUE** if the [**PSM\_CANCELTOCLOSE**](psm-canceltoclose.md) message has been sent and the user clicks the Close button. It is set to **FALSE** if the user clicks the Apply button.
 
-The [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
+The [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
 
 Do not call the [**EndDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog) function when processing this notification code.
 
@@ -69,7 +69,7 @@ A modal property sheet is destroyed if the user clicks the OK button and every p
 To receive this notification code, a page must set the DWL\_MSGRESULT value to **FALSE** in response to the [PSN\_KILLACTIVE](psn-killactive.md) notification code.
 
 > [!Note]  
-> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)).
+> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).
 
  
 

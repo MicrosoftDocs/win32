@@ -56,7 +56,7 @@ The **RIO\_BUFFERID** typedef is defined in the *Mswsockdef.h* header file which
 
 <dl> <dt>
 
-[**RIO\_BUF**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-_rio_buf)
+[**RIO\_BUF**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-rio_buf)
 </dt> <dt>
 
 [**RIODeregisterBuffer**](https://msdn.microsoft.com/en-us/library/Hh448847(v=VS.85).aspx)

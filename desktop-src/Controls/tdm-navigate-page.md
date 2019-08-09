@@ -34,7 +34,7 @@ Not used. Must be zero.
 *lParam* \[in\]
 </dt> <dd>
 
-A pointer to a [**TASKDIALOGCONFIG**](/windows/desktop/api/Commctrl/ns-commctrl-_taskdialogconfig) structure that describes the task dialog to create. The calling application must allocate this structure and set its members. The values of the members vary depending on the kind of page the user navigates to.
+A pointer to a [**TASKDIALOGCONFIG**](/windows/desktop/api/Commctrl/ns-commctrl-taskdialogconfig) structure that describes the task dialog to create. The calling application must allocate this structure and set its members. The values of the members vary depending on the kind of page the user navigates to.
 
 </dd> </dl>
 

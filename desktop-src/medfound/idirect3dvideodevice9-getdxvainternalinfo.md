@@ -46,7 +46,7 @@ Pointer to a GUID that specifies the DXVA profile. To get a list of supported pr
 *pUncompData* 
 </dt> <dd>
 
-Pointer to a [**DXVAUncompDataInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvauncompdatainfo) structure that specifies the size and pixel format of the uncompressed data.
+Pointer to a [**DXVAUncompDataInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxvauncompdatainfo) structure that specifies the size and pixel format of the uncompressed data.
 
 </dd> <dt>
 

@@ -13,12 +13,12 @@ The following structures are used with NLS:
 <dl>
 
 [**CALDATETIME**](caldatetime.md)  
-[**CPINFO**](/windows/desktop/api/Winnls/ns-winnls-_cpinfo)  
-[**CPINFOEX**](/windows/desktop/api/Winnls/ns-winnls-_cpinfoexa)  
-[**CURRENCYFMT**](/windows/desktop/api/Winnls/ns-winnls-_currencyfmta)  
+[**CPINFO**](/windows/desktop/api/Winnls/ns-winnls-cpinfo)  
+[**CPINFOEX**](/windows/desktop/api/Winnls/ns-winnls-cpinfoexa)  
+[**CURRENCYFMT**](/windows/desktop/api/Winnls/ns-winnls-currencyfmta)  
 [**NLSVERSIONINFO**](/windows/desktop/api/Winnls/ns-winnls-_nlsversioninfo)  
-[**NLSVERSIONINFOEX**](/windows/desktop/api/Winnls/ns-winnls-_nlsversioninfoex)  
-[**NUMBERFMT**](/windows/desktop/api/Winnls/ns-winnls-_numberfmta)  
+[**NLSVERSIONINFOEX**](/windows/desktop/api/Winnls/ns-winnls-nlsversioninfoex)  
+[**NUMBERFMT**](/windows/desktop/api/Winnls/ns-winnls-numberfmta)  
 </dl>
 
  

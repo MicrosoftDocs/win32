@@ -81,7 +81,7 @@ This section contains information about the programming elements used with up-do
 | Topic                        | Contents                                                                                                                                          |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**NMUPDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-_nm_updown) | Contains information specific to up-down control notification messages. It is identical to and replaces the **NM\_UPDOWN** structure. <br/> |
-| [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-_udaccel)   | Contains acceleration information for an up-down control. <br/>                                                                             |
+| [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-udaccel)   | Contains acceleration information for an up-down control. <br/>                                                                             |
 
 
 

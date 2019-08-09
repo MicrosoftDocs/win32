@@ -115,7 +115,7 @@ A two-byte checksum calculated over the bytes starting at the **FsName** data me
 [File System Recognition](file-system-recognition.md)
 </dt> <dt>
 
-[**FILE\_SYSTEM\_RECOGNITION\_INFORMATION**](/windows/desktop/api/WinIoCtl/ns-winioctl-_file_system_recognition_information)
+[**FILE\_SYSTEM\_RECOGNITION\_INFORMATION**](/windows/desktop/api/WinIoCtl/ns-winioctl-file_system_recognition_information)
 </dt> <dt>
 
 [**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](https://msdn.microsoft.com/en-us/library/Dd442655(v=VS.85).aspx)

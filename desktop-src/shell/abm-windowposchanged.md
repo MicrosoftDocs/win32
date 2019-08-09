@@ -24,7 +24,7 @@ SHAppBarMessage(ABM_WINDOWPOSCHANGED, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure that identifies the appbar to activate. You must specify the **cbSize** and **hWnd** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure that identifies the appbar to activate. You must specify the **cbSize** and **hWnd** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 

@@ -34,7 +34,7 @@ hwndAutoHide = (HWND) SHAppBarMessage(ABM_GETAUTOHIDEBAR, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure that specifies the screen edge and monitor. You must specify the **cbSize**, **uEdge**, and **rc** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure that specifies the screen edge and monitor. You must specify the **cbSize**, **uEdge**, and **rc** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 

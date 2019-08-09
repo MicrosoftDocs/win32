@@ -46,11 +46,11 @@ A job can enforce limits such as working set size, process priority, and end-of-
 
 To set limits for a job, use the [**SetInformationJobObject**](https://msdn.microsoft.com/en-us/library/ms686216(v=VS.85).aspx) function. For a list of possible limits that can be set for a job, see the following topics:
 
--   [**JOBOBJECT\_BASIC\_LIMIT\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_limit_information)
--   [**JOBOBJECT\_BASIC\_UI\_RESTRICTIONS**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_ui_restrictions)
--   [**JOBOBJECT\_CPU\_RATE\_CONTROL\_INFORMATION**](/windows/desktop/api/Winnt/ns-winnt-_jobobject_cpu_rate_control_information)
--   [**JOBOBJECT\_EXTENDED\_LIMIT\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_extended_limit_information)
--   [**JOBOBJECT\_NOTIFICATION\_LIMIT\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_notification_limit_information)
+-   [**JOBOBJECT\_BASIC\_LIMIT\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-jobobject_basic_limit_information)
+-   [**JOBOBJECT\_BASIC\_UI\_RESTRICTIONS**](/windows/desktop/api/WinNT/ns-winnt-jobobject_basic_ui_restrictions)
+-   [**JOBOBJECT\_CPU\_RATE\_CONTROL\_INFORMATION**](/windows/desktop/api/Winnt/ns-winnt-jobobject_cpu_rate_control_information)
+-   [**JOBOBJECT\_EXTENDED\_LIMIT\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-jobobject_extended_limit_information)
+-   [**JOBOBJECT\_NOTIFICATION\_LIMIT\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-jobobject_notification_limit_information)
 
 Security limits must be set individually for each process associated with a job object. For more information, see [Process Security and Access Rights](process-security-and-access-rights.md).
 
@@ -58,16 +58,16 @@ Security limits must be set individually for each process associated with a job 
 
 If the job is nested, parent jobs in the hierarchy influence the limit that is enforced for the job. For more information, see [Nested Jobs](nested-jobs.md).
 
-If the job has an associated I/O completion port, it can receive notifications when certain job limits are exceeded. The system sends messages to the completion port when a limit is exceeded or certain other events occur. To associate a completion port with a job, use the [**SetInformationJobObject**](https://msdn.microsoft.com/en-us/library/ms686216(v=VS.85).aspx) function with the job object information class **JobObjectAssociateCompletionPortInformation** and a pointer to a [**JOBOBJECT\_ASSOCIATE\_COMPLETION\_PORT**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_associate_completion_port) structure. It is best to do this when the job is inactive, to reduce the chance of missing notifications for processes whose states change during the association of the completion port.
+If the job has an associated I/O completion port, it can receive notifications when certain job limits are exceeded. The system sends messages to the completion port when a limit is exceeded or certain other events occur. To associate a completion port with a job, use the [**SetInformationJobObject**](https://msdn.microsoft.com/en-us/library/ms686216(v=VS.85).aspx) function with the job object information class **JobObjectAssociateCompletionPortInformation** and a pointer to a [**JOBOBJECT\_ASSOCIATE\_COMPLETION\_PORT**](/windows/desktop/api/WinNT/ns-winnt-jobobject_associate_completion_port) structure. It is best to do this when the job is inactive, to reduce the chance of missing notifications for processes whose states change during the association of the completion port.
 
-All messages are sent directly from the job as if the job had called the [**PostQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx) function. A thread must monitor the completion port using the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function to pick up the messages. Note that, with the exception of limits set with the **JobObjectNotificationLimitInformation** information class, delivery of messages to the completion port is not guaranteed; failure of a message to arrive does not necessarily mean that the event did not occur. Notifications for limits set with **JobObjectNotificationLimitInformation** are guaranteed to arrive at the completion port. For a list of possible messages, see [**JOBOBJECT\_ASSOCIATE\_COMPLETION\_PORT**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_associate_completion_port).
+All messages are sent directly from the job as if the job had called the [**PostQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx) function. A thread must monitor the completion port using the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function to pick up the messages. Note that, with the exception of limits set with the **JobObjectNotificationLimitInformation** information class, delivery of messages to the completion port is not guaranteed; failure of a message to arrive does not necessarily mean that the event did not occur. Notifications for limits set with **JobObjectNotificationLimitInformation** are guaranteed to arrive at the completion port. For a list of possible messages, see [**JOBOBJECT\_ASSOCIATE\_COMPLETION\_PORT**](/windows/desktop/api/WinNT/ns-winnt-jobobject_associate_completion_port).
 
 ## Resource Accounting for Jobs
 
 The job object records basic accounting information for all its associated processes, including those that have terminated. To retrieve this accounting information, use the [**QueryInformationJobObject**](https://msdn.microsoft.com/en-us/library/ms684925(v=VS.85).aspx) function. For a list of the accounting information that is maintained for a job, see the following topics:
 
--   [**JOBOBJECT\_BASIC\_ACCOUNTING\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_accounting_information)
--   [**JOBOBJECT\_BASIC\_AND\_IO\_ACCOUNTING\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_and_io_accounting_information)
+-   [**JOBOBJECT\_BASIC\_ACCOUNTING\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-jobobject_basic_accounting_information)
+-   [**JOBOBJECT\_BASIC\_AND\_IO\_ACCOUNTING\_INFORMATION**](/windows/desktop/api/WinNT/ns-winnt-jobobject_basic_and_io_accounting_information)
 
 If the job object is nested, accounting information for each child job is aggregated in its parent job. For more information, see [Nested Jobs](nested-jobs.md).
 

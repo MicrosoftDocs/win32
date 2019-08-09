@@ -79,7 +79,7 @@ HRESULT put_OctetList(
 [**IADsOctetList**](/windows/desktop/api/Iads/nn-iads-iadsoctetlist)
 </dt> <dt>
 
-[**ADS\_OCTET\_LIST**](/windows/desktop/api/Iads/ns-iads-_ads_octet_list)
+[**ADS\_OCTET\_LIST**](/windows/desktop/api/Iads/ns-iads-ads_octet_list)
 </dt> </dl>
 
  

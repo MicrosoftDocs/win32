@@ -16,7 +16,7 @@ Dictionaries allow tokenization of common node data such as element / attribute 
 
 ## 
 
-A [**Dictionary>**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_dictionary) can be specified as part of the [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_string) type. All strings within a single **Dictionary>** must be unique.
+A [**Dictionary>**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_dictionary) can be specified as part of the [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_string) type. All strings within a single **Dictionary>** must be unique.
 
 Dictionary ID's are supported for all encodings (not just the binary XML format).
 

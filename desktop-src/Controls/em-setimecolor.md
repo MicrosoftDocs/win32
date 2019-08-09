@@ -39,7 +39,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-_compcolor) structure that contains the composition color to be set.
+Pointer to a [**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-compcolor) structure that contains the composition color to be set.
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ If the operation fails, the return value is zero.
 [**EM\_GETIMECOLOR**](em-getimecolor.md)
 </dt> <dt>
 
-[**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-_compcolor)
+[**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-compcolor)
 </dt> </dl>
 
  

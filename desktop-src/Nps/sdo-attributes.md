@@ -17,14 +17,14 @@ Use the following enumeration types when manipulating RADIUS dictionary attribut
 -   [**ATTRIBUTEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeproperties)
 -   [**ATTRIBUTERESTRICTIONS**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions)
 -   [**ATTRIBUTESYNTAX**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributesyntax)
--   [**AUTHENTICATION\_TYPE**](/windows/desktop/api/SdoIas/ne-sdoias-_authentication_type)
--   [**CLIENTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_clientproperties)
--   [**CONDITIONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_conditionproperties)
--   [**DICTIONARYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_dictionaryproperties)
+-   [**AUTHENTICATION\_TYPE**](/windows/desktop/api/SdoIas/ne-sdoias-authentication_type)
+-   [**CLIENTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-clientproperties)
+-   [**CONDITIONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-conditionproperties)
+-   [**DICTIONARYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties)
 -   [**EAPWRAPPROPERTIES**](https://docs.microsoft.com/previous-versions/ms717032(v%3dvs.85))
--   [**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties)
--   [**POLICYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties)
--   [**PROFILEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties)
+-   [**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
+-   [**POLICYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
+-   [**PROFILEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 
  
 

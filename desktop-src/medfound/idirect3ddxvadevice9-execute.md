@@ -85,7 +85,7 @@ The number of elements in the *pBufferInfo* array.
 *pBufferInfo* 
 </dt> <dd>
 
-A pointer to an array of [**DXVABufferInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvabufferinfo) structures.
+A pointer to an array of [**DXVABufferInfo**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxvabufferinfo) structures.
 
 </dd> </dl>
 

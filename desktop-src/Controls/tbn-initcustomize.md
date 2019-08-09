@@ -36,7 +36,7 @@ TBN_INITCUSTOMIZE
 *lParam* 
 </dt> <dd>
 
-Pointer to the toolbar's [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure.
+Pointer to the toolbar's [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure.
 
 </dd> </dl>
 

@@ -20,7 +20,7 @@ Video from a handheld device, such as a mobile phone, is often rotated by 90, 18
 
 If this attribute set to **MFVideoRotationFormat\_90**, it means that the content has been rotated 90 degrees in the counter-clockwise direction. If the content was rotated 90 degrees in the clockwise direction, the attribute value would be **MFVideoRotationFormat\_270**.
 
-The supported values for this attribute are enumerated in [**MFVideoRotationFormat**](/windows/desktop/api/mfapi/ne-mfapi-_mfvideorotationformat).
+The supported values for this attribute are enumerated in [**MFVideoRotationFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideorotationformat).
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

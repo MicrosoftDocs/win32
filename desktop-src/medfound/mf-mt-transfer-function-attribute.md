@@ -16,7 +16,7 @@ Specifies the conversion function from RGB to R'G'B' for a video media type.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoTransferFunction**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideotransferfunction) enumeration.
+The value of this attribute is a member of the [**MFVideoTransferFunction**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideotransferfunction) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

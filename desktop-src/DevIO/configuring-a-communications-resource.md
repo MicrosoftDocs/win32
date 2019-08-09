@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Configuring a Communications Resource
 
-The following example opens a handle to COM2 and fills in a [**DCB**](/windows/desktop/api/Winbase/ns-winbase-_dcb) structure with the current configuration. The **DCB** structure is then modified and used to reconfigure the device.
+The following example opens a handle to COM2 and fills in a [**DCB**](/windows/desktop/api/Winbase/ns-winbase-dcb) structure with the current configuration. The **DCB** structure is then modified and used to reconfigure the device.
 
 
 ```C++

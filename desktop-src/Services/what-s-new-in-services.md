@@ -37,10 +37,10 @@ A service can register to be started or stopped when a trigger event occurs. Thi
 
 | Structure                                                                                       | Description                                                            |
 |-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**SERVICE\_TIMECHANGE\_INFO**](/windows/desktop/api/winsvc/ns-winsvc-_service_timechange_info)<br/>                         | Contains system time change settings. <br/>                      |
-| [**SERVICE\_TRIGGER**](/windows/desktop/api/winsvc/ns-winsvc-_service_trigger)<br/>                                          | Represents a service trigger event.<br/>                         |
-| [**SERVICE\_TRIGGER\_INFO**](/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_info)<br/>                               | Contains trigger event information for a service.<br/>           |
-| [**SERVICE\_TRIGGER\_SPECIFIC\_DATA\_ITEM**](/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_specific_data_item)<br/> | Contains trigger-specific data for a service trigger event.<br/> |
+| [**SERVICE\_TIMECHANGE\_INFO**](/windows/desktop/api/winsvc/ns-winsvc-service_timechange_info)<br/>                         | Contains system time change settings. <br/>                      |
+| [**SERVICE\_TRIGGER**](/windows/desktop/api/winsvc/ns-winsvc-service_trigger)<br/>                                          | Represents a service trigger event.<br/>                         |
+| [**SERVICE\_TRIGGER\_INFO**](/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info)<br/>                               | Contains trigger event information for a service.<br/>           |
+| [**SERVICE\_TRIGGER\_SPECIFIC\_DATA\_ITEM**](/windows/desktop/api/winsvc/ns-winsvc-service_trigger_specific_data_item)<br/> | Contains trigger-specific data for a service trigger event.<br/> |
 
 
 

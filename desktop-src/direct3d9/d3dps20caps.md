@@ -33,7 +33,7 @@ Pixel shader capability flags.
 
  
 
-These constants are used by the D3DPSHADERCAPS2\_0 member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
+These constants are used by the D3DPSHADERCAPS2\_0 member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
 ## Constant Information
 
@@ -55,7 +55,7 @@ These constants are used by the D3DPSHADERCAPS2\_0 member of [**D3DCAPS9**](/win
 [Direct3D Constants](dx9-graphics-reference-d3d-constants.md)
 </dt> <dt>
 
-[**D3DPSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dpshadercaps2_0)
+[**D3DPSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dpshadercaps2_0)
 </dt> </dl>
 
  

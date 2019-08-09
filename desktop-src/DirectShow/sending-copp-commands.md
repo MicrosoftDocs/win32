@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Sending COPP Commands
 
-To send a Certified Output Protection Protocol (COPP) command, fill in an [**AMCOPPCommand**](/windows/desktop/api/strmif/ns-strmif-_amcoppcommand) structure as follows:
+To send a Certified Output Protection Protocol (COPP) command, fill in an [**AMCOPPCommand**](/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppcommand) structure as follows:
 
 -   **guidCommandID**. The GUID that identifies the command. See the COPP Command Reference.
 -   **dwSequence**. The command sequence number. Increment this value after each command. (This value is shown as **uCommandSeq** in [Initiating a COPP Session](initiating-a-copp-session.md).)

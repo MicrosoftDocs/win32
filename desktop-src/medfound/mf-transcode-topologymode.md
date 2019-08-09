@@ -14,7 +14,7 @@ The topology mode specifies whether hardware transforms (such as hardware codecs
 
 ## Data type
 
-**[**MF\_TRANSCODE\_TOPOLOGYMODE\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-_mf_transcode_topologymode_flags)** stored as **UINT32**
+**[**MF\_TRANSCODE\_TOPOLOGYMODE\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-mf_transcode_topologymode_flags)** stored as **UINT32**
 
 ## Get/set
 

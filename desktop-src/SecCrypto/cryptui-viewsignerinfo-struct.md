@@ -84,7 +84,7 @@ A pointer to a null-terminated string that contains the title to be displayed in
 **pSignerInfo**
 </dt> <dd>
 
-A pointer to a [**CMSG\_SIGNER\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cmsg_signer_info) structure that contains the signer information to display.
+A pointer to a [**CMSG\_SIGNER\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cmsg_signer_info) structure that contains the signer information to display.
 
 </dd> <dt>
 

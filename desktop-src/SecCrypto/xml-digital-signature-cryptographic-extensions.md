@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 CryptXML allows developers to extend natively supported cryptographic algorithms by registering a system wide cryptographic extension DLL. Extension DLLs extend the algorithms supported by **SignatureMethod** and **DigestMethod** XML elements. Extension DLLs can support algorithms that encode additional parameters into the XML digital signature.
 
-All extensions DLLs must support the [**CryptXmlDllGetInterface**](https://msdn.microsoft.com/en-us/library/Dd433817(v=VS.85).aspx) function, which returns a pointer to a [**CRYPT\_XML\_CRYPTOGRAPHIC\_INTERFACE**](/windows/desktop/api/Cryptxml/ns-cryptxml-_crypt_xml_cryptographic_interface) structure. This structure provides function pointers to implemented cryptographic extension functions. The functions supported depend on the type of cryptographic algorithm supported and whether the algorithm must encode parameters into the XML digital signature.
+All extensions DLLs must support the [**CryptXmlDllGetInterface**](https://msdn.microsoft.com/en-us/library/Dd433817(v=VS.85).aspx) function, which returns a pointer to a [**CRYPT\_XML\_CRYPTOGRAPHIC\_INTERFACE**](/windows/desktop/api/Cryptxml/ns-cryptxml-crypt_xml_cryptographic_interface) structure. This structure provides function pointers to implemented cryptographic extension functions. The functions supported depend on the type of cryptographic algorithm supported and whether the algorithm must encode parameters into the XML digital signature.
 
 Cryptographic extensions functions include the following function pointers:
 

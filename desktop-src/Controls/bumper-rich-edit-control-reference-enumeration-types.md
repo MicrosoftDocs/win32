@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 -   [**KHYPH**](/windows/desktop/api/Richedit/ne-richedit-tagkhyph)
 -   [**TEXTMODE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode)
--   [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-_undonameid)
+-   [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-undonameid)
 
  
 

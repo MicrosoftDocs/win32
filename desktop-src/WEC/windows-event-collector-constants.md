@@ -35,7 +35,7 @@ The Windows Event Collector SDK contains the following constants.
 
 
 
-Used to mask out the array bit from the **Type** property of an [**EC\_VARIANT**](/windows/desktop/api/Evcoll/ns-evcoll-_ec_variant) to extract the type of the variant value.
+Used to mask out the array bit from the **Type** property of an [**EC\_VARIANT**](/windows/desktop/api/Evcoll/ns-evcoll-ec_variant) to extract the type of the variant value.
 
 
 </dt> </dl> </dd> <dt>
@@ -48,7 +48,7 @@ Used to mask out the array bit from the **Type** property of an [**EC\_VARIANT**
 
 
 
-When this bit is set in the **Type** property of an [**EC\_VARIANT**](/windows/desktop/api/Evcoll/ns-evcoll-_ec_variant), the variant contains a pointer to an array of values, rather than the value itself.
+When this bit is set in the **Type** property of an [**EC\_VARIANT**](/windows/desktop/api/Evcoll/ns-evcoll-ec_variant), the variant contains a pointer to an array of values, rather than the value itself.
 
 
 </dt> </dl> </dd> <dt>

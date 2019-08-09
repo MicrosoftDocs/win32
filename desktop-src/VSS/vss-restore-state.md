@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VSS Restore State
 
-During a restore operation, the requester can use the [**IVssBackupComponents::SetRestoreState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestorestate) method to define the type of restore operation in progress. However, most restore operations will not need to override the default restore type (VSS\_RTYPE\_UNDEFINED). Writers should treat this restore type as if it were VSS\_RTYPE\_BY\_COPY. For more information about restore type values, see the [**VSS\_RESTORE\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_restore_type) enumeration.
+During a restore operation, the requester can use the [**IVssBackupComponents::SetRestoreState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestorestate) method to define the type of restore operation in progress. However, most restore operations will not need to override the default restore type (VSS\_RTYPE\_UNDEFINED). Writers should treat this restore type as if it were VSS\_RTYPE\_BY\_COPY. For more information about restore type values, see the [**VSS\_RESTORE\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_restore_type) enumeration.
 
  
 

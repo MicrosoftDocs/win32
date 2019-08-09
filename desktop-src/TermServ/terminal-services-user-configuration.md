@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Remote Desktop Services User Configuration
 
-The [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) and [**WTSSetUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtssetuserconfiga) functions enable you to set and retrieve configuration information for a specified user account. The [**WTS\_CONFIG\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_config_class) enumeration type defines the user configuration parameters.
+The [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) and [**WTSSetUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtssetuserconfiga) functions enable you to set and retrieve configuration information for a specified user account. The [**WTS\_CONFIG\_CLASS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class) enumeration type defines the user configuration parameters.
 
  
 

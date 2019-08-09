@@ -16,7 +16,7 @@ Byte array
 
 ## Remarks
 
-The attribute value is an [**MFVideoArea**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoarea) structure.
+The attribute value is an [**MFVideoArea**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea) structure.
 
 This attribute is used to crop widescreen video to a 4:3 aspect ratio. The pan/scan aperture is used only in pan/scan mode, which is enabled by setting the [**MF\_MT\_PAN\_SCAN\_ENABLED**](mf-mt-pan-scan-enabled-attribute.md) attribute to **TRUE**.
 

@@ -27,7 +27,7 @@ Sets the protection level for a specified output protection mechanism. Depending
 
 **GUID**: DXVA\_COPPSetProtectionLevel
 
-**Input data**: A [**DXVA\_COPPSetProtectionLevelCmdData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppsetprotectionlevelcmddata) structure.
+**Input data**: A [**DXVA\_COPPSetProtectionLevelCmdData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppsetprotectionlevelcmddata) structure.
 
 Set Signaling Command
 
@@ -39,7 +39,7 @@ This command is also designed to be extensible if additional signal information 
 
 **GUID**: DXVA\_COPPSetSignaling
 
-**Input data**: A [**DXVA\_COPPSetSignalingCmdData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppsetsignalingcmddata) structure.
+**Input data**: A [**DXVA\_COPPSetSignalingCmdData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppsetsignalingcmddata) structure.
 
 ## Related topics
 

@@ -34,7 +34,7 @@ Specifies the [Clipboard Formats](https://docs.microsoft.com/windows/desktop/dat
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-_repastespecial) structure or **NULL**. If an object is being pasted, the **REPASTESPECIAL** structure is filled in with the desired display aspect. If *lParam* is **NULL** or the **dwAspect** member is zero, the display aspect used will be the contents of the object descriptor.
+Pointer to a [**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-repastespecial) structure or **NULL**. If an object is being pasted, the **REPASTESPECIAL** structure is filled in with the desired display aspect. If *lParam* is **NULL** or the **dwAspect** member is zero, the display aspect used will be the contents of the object descriptor.
 
 </dd> </dl>
 
@@ -58,7 +58,7 @@ This message does not return a value.
 
 <dl> <dt>
 
-[**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-_repastespecial)
+[**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-repastespecial)
 </dt> </dl>
 
  

@@ -68,7 +68,7 @@ The address of a null-terminated Unicode string that contains the URL of a time 
 *psRequest* \[in\]
 </dt> <dd>
 
-Optional. The address of a [**CRYPT\_ATTRIBUTES**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_attributes) structure that contains additional attributes that are added to the time stamp request.
+Optional. The address of a [**CRYPT\_ATTRIBUTES**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_attributes) structure that contains additional attributes that are added to the time stamp request.
 
 This parameter is optional and can be **NULL** if it is not included.
 

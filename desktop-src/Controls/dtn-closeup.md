@@ -36,7 +36,7 @@ DTN_CLOSEUP
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure that contains information about the notification.
+A pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains information about the notification.
 
 </dd> </dl>
 

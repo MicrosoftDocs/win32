@@ -46,13 +46,13 @@ There are several macros that can help you detect the partition type: **IsContai
 
 <dl> <dt>
 
-[**PARTITION\_INFORMATION\_EX**](/windows/desktop/api/WinIoCtl/ns-winioctl-_partition_information_ex)
+[**PARTITION\_INFORMATION\_EX**](/windows/desktop/api/WinIoCtl/ns-winioctl-partition_information_ex)
 </dt> <dt>
 
-[**PARTITION\_INFORMATION\_MBR**](/windows/desktop/api/WinIoCtl/ns-winioctl-_partition_information_mbr)
+[**PARTITION\_INFORMATION\_MBR**](/windows/desktop/api/WinIoCtl/ns-winioctl-partition_information_mbr)
 </dt> <dt>
 
-[**SET\_PARTITION\_INFORMATION**](/windows/desktop/api/WinIoCtl/ns-winioctl-_set_partition_information)
+[**SET\_PARTITION\_INFORMATION**](/windows/desktop/api/WinIoCtl/ns-winioctl-set_partition_information)
 </dt> </dl>
 
  

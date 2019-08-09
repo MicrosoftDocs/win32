@@ -24,7 +24,7 @@ XInput 1.4 has these primary advantages over other versions of XInput:
 
 -   This is the only version that can be used in C++/DirectX Windows Store apps.
 -   The new [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function provides an audio device ID string that you can use to open an XAudio2 mastering voice or audio device for a headset attached to an Xbox 360 common controller. The [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function is not available in this version.
--   Provides improved device capabilities reporting including XINPUT\_CAPS\_WIRELESS, XINPUT\_CAPS\_FFB\_SUPPORTED, XINPUT\_CAPS\_PMD\_SUPPORTED, and XINPUT\_CAPS\_NO\_NAVIGATION flags and more accurate reporting of XINPUT\_CAPS\_VOICE\_SUPPORTED. These flags are combined in the **Flags** member of the [**XINPUT\_CAPABILITIES**](/windows/desktop/api/XInput/ns-xinput-_xinput_capabilities) structure. The [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) function returns **XINPUT\_CAPABILITIES**.
+-   Provides improved device capabilities reporting including XINPUT\_CAPS\_WIRELESS, XINPUT\_CAPS\_FFB\_SUPPORTED, XINPUT\_CAPS\_PMD\_SUPPORTED, and XINPUT\_CAPS\_NO\_NAVIGATION flags and more accurate reporting of XINPUT\_CAPS\_VOICE\_SUPPORTED. These flags are combined in the **Flags** member of the [**XINPUT\_CAPABILITIES**](/windows/desktop/api/XInput/ns-xinput-xinput_capabilities) structure. The [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) function returns **XINPUT\_CAPABILITIES**.
 
 ### XInput 9.1.0
 

@@ -36,7 +36,7 @@ NM_RCLICK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure that contains additional information about this notification.
+A pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains additional information about this notification.
 
 </dd> </dl>
 

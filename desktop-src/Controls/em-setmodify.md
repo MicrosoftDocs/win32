@@ -72,7 +72,7 @@ The system automatically clears the modification flag to zero when the control i
 [**EM\_GETMODIFY**](em-getmodify.md)
 </dt> <dt>
 
-[**REOBJECT**](/windows/desktop/api/Richole/ns-richole-_reobject)
+[**REOBJECT**](/windows/desktop/api/Richole/ns-richole-reobject)
 </dt> </dl>
 
  

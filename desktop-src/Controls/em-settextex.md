@@ -27,7 +27,7 @@ Combines the functionality of the [**WM\_SETTEXT**](https://docs.microsoft.com/w
 *wParam* 
 </dt> <dd>
 
-Pointer to a [**SETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_settextex) structure that specifies flags and an optional code page to use in translating to Unicode.
+Pointer to a [**SETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-settextex) structure that specifies flags and an optional code page to use in translating to Unicode.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ If the operation fails, the return value is zero.
 [**EM\_GETTEXTEX**](em-gettextex.md)
 </dt> <dt>
 
-[**SETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_settextex)
+[**SETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-settextex)
 </dt> </dl>
 
  

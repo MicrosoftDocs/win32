@@ -36,7 +36,7 @@ HDN_OVERFLOWCLICK
 *lParam* \[in\]
 </dt> <dd>
 
-A pointer to a [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that describes the notification code. The calling process is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure. Set the members of the **NMHDR** structure, including the *code* member that must be set to HDN\_OVERFLOWCLICK.
+A pointer to a [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that describes the notification code. The calling process is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure. Set the members of the **NMHDR** structure, including the *code* member that must be set to HDN\_OVERFLOWCLICK.
 
 Set the **iItem** member of the [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure to the index of the first header item that is not visible and thus should be displayed on an overflow.
 

@@ -224,7 +224,7 @@ If you provide a hook procedure for an Explorer-style dialog box, the default di
 
 The hook procedure receives [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) notification messages indicating actions taken by the user in the dialog box. You can use some of these messages to control the behavior of the dialog box. For example, the hook procedure receives the [**CDN\_FILEOK**](cdn-fileok.md) message when the user chooses a file name and clicks the **OK** button. In response to this message, the hook procedure can use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to reject the selected name and force the dialog box to remain open.
 
-The *lParam* parameter for each [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message is a pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) or [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure that defines the action. The **code** member in the header of this structure contains one of the following notification messages.
+The *lParam* parameter for each [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message is a pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) or [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure that defines the action. The **code** member in the header of this structure contains one of the following notification messages.
 
 
 

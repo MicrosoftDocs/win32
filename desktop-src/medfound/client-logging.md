@@ -124,7 +124,7 @@ HRESULT CreateMediaSourceWithLogParams(
 
 When the application calls one of the source resolver methods, it creates the network source, sets the properties specified in the property store, and opens a session with the media server. In addition to the configurable information described in the previous section, additional data is transferred between the server and the client at the beginning of the session, during streaming, and when the session is closed.
 
-The application can retrieve network statistics by using the **MFNETSOURCE\_STATISTICS\_SERVICE** service identifier. To use this service, the application can call the [**MFGetService**](/windows/desktop/api/mfidl/nf-mfidl-mfgetservice) function to get the property store that contains network statistics in the [**MFNETSOURCE\_STATISTICS**](/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_statistics_ids) property. Specific values can be retrieved by providing the corresponding identifier defined in the **MFNETSOURCE\_STATISTICS\_IDS** enumeration.
+The application can retrieve network statistics by using the **MFNETSOURCE\_STATISTICS\_SERVICE** service identifier. To use this service, the application can call the [**MFGetService**](/windows/desktop/api/mfidl/nf-mfidl-mfgetservice) function to get the property store that contains network statistics in the [**MFNETSOURCE\_STATISTICS**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids) property. Specific values can be retrieved by providing the corresponding identifier defined in the **MFNETSOURCE\_STATISTICS\_IDS** enumeration.
 
 The following code example shows how to use the service to get the number of packets received by the client.
 
@@ -166,7 +166,7 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
 
 
 
-The following list describes some of the network statistics identifiers defined in [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_statistics_ids).
+The following list describes some of the network statistics identifiers defined in [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids).
 
 
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Forcing a User to Change the Logon Password
 
-This code sample demonstrates how to force a user to change the logon password on the next logon using the [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo) and [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) functions and the [**USER\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_info_3) structure. Note that starting with Windows XP, it is recommended that you use the [**USER\_INFO\_4**](/windows/desktop/api/Lmaccess/ns-lmaccess-_user_info_4) structure instead.
+This code sample demonstrates how to force a user to change the logon password on the next logon using the [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo) and [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) functions and the [**USER\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_3) structure. Note that starting with Windows XP, it is recommended that you use the [**USER\_INFO\_4**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_4) structure instead.
 
 Set the **usri3\_password\_expired** member of the **USER\_INFO\_3** structure to a nonzero value using the following code fragment:
 

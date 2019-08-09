@@ -104,7 +104,7 @@ RIFF ('AVI '
 
 ## AVI Main Header
 
-The 'hdrl' list begins with the main AVI header, which is contained in an 'avih' chunk. The main header contains global information for the entire AVI file, such as the number of streams within the file and the width and height of the AVI sequence. The main header chunk consists of an [**AVIMAINHEADER**](/windows/desktop/api/Aviriff/ns-aviriff-_avimainheader) structure.
+The 'hdrl' list begins with the main AVI header, which is contained in an 'avih' chunk. The main header contains global information for the entire AVI file, such as the number of streams within the file and the width and height of the AVI sequence. The main header chunk consists of an [**AVIMAINHEADER**](/previous-versions/windows/desktop/api/Aviriff/ns-aviriff-avimainheader) structure.
 
 ## AVI Stream Headers
 
@@ -150,14 +150,14 @@ Text streams can use arbitrary two-character codes.
 <span id="AVI_1.0_index"></span><span id="avi_1.0_index"></span><span id="AVI_1.0_INDEX"></span>AVI 1.0 index
 </dt> <dd>
 
-An optional index ('idx1') chunk can follow the 'movi' list. The index contains a list of the data chunks and their location in the file. It consists of an [**AVIOLDINDEX**](/windows/desktop/api/Aviriff/ns-aviriff-_avioldindex) structure with entries for each data chunk, including 'rec ' chunks. If the file contains an index, set the **AVIF\_HASINDEX** flag in the **dwFlags** member of the [**AVIMAINHEADER**](/windows/desktop/api/Aviriff/ns-aviriff-_avimainheader) structure.
+An optional index ('idx1') chunk can follow the 'movi' list. The index contains a list of the data chunks and their location in the file. It consists of an [**AVIOLDINDEX**](/previous-versions/windows/desktop/api/Aviriff/ns-aviriff-avioldindex) structure with entries for each data chunk, including 'rec ' chunks. If the file contains an index, set the **AVIF\_HASINDEX** flag in the **dwFlags** member of the [**AVIMAINHEADER**](/previous-versions/windows/desktop/api/Aviriff/ns-aviriff-avimainheader) structure.
 
 </dd> <dt>
 
 <span id="AVI_2.0_index"></span><span id="avi_2.0_index"></span><span id="AVI_2.0_INDEX"></span>AVI 2.0 index
 </dt> <dd>
 
-An AVI 2.0 index can appear as a single chunk. Alternatively, index segments can be interleaved within the 'movi' chunk. If the index segments are placed in the 'movi' chunk, a super index contains an index of the index segments. The [**AVIMETAINDEX**](/windows/desktop/api/aviriff/ns-aviriff-_avimetaindex) structure is the base structure for both the index segments and the super index. For more information, see the *OpenDML AVI File Format Extensions*, published by the OpenDML AVI M-JPEG File Format Subcommittee. (This resource may not be available in some languages and countries.)
+An AVI 2.0 index can appear as a single chunk. Alternatively, index segments can be interleaved within the 'movi' chunk. If the index segments are placed in the 'movi' chunk, a super index contains an index of the index segments. The [**AVIMETAINDEX**](/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimetaindex) structure is the base structure for both the index segments and the super index. For more information, see the *OpenDML AVI File Format Extensions*, published by the OpenDML AVI M-JPEG File Format Subcommittee. (This resource may not be available in some languages and countries.)
 
 </dd> </dl>
 

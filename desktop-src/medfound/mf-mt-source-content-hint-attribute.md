@@ -16,7 +16,7 @@ Describes the intended aspect ratio for a video media type.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoSrcContentHintFlags**](/windows/desktop/api/mfapi/ne-mfapi-_mfvideosrccontenthintflags) enumeration.
+The value of this attribute is a member of the [**MFVideoSrcContentHintFlags**](/windows/desktop/api/mfapi/ne-mfapi-mfvideosrccontenthintflags) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

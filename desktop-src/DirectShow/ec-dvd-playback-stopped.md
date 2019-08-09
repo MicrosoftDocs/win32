@@ -26,7 +26,7 @@ Indicates that DVD playback has been stopped. This event is sent when a title or
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-A member of the [**DVD\_PB\_STOPPED**](/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_pb_stopped) enumeration, indicating why playback stopped.
+A member of the [**DVD\_PB\_STOPPED**](/previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_pb_stopped) enumeration, indicating why playback stopped.
 
 </dd> <dt>
 

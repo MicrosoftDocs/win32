@@ -369,7 +369,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
 The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) status request.
 
-1.  Fill in an [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure with the information for the status request.
+1.  Fill in an [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure with the information for the status request.
     ```C++
         //--------------------------------------------------------------------
         // Prepare the status request structure.
@@ -414,7 +414,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
     
 
-2.  The **omac** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure is a one-key CBC MAC (OMAC) computed for the rest of the structure. The ComputeOMAC function (shown later) is declared as follows:
+2.  The **omac** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure is a one-key CBC MAC (OMAC) computed for the rest of the structure. The ComputeOMAC function (shown later) is declared as follows:
     ```C++
     HRESULT ComputeOMAC(
         OPM_RANDOM_NUMBER&  AesKey,     // Session key
@@ -440,7 +440,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
     
 
-4.  The driver writes the response to the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure. The response structure includes an OMAC value, computed for the remainder of the structure. Verify this value before trusting the response data:
+4.  The driver writes the response to the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure. The response structure includes an OMAC value, computed for the remainder of the structure. Verify this value before trusting the response data:
     ```C++
         //--------------------------------------------------------------------
         // Verify the signature.
@@ -475,7 +475,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
     
 
-5.  The **abRequestedInformation** member of the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure contains the response data. For the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) request, the response data consists of a [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure.
+5.  The **abRequestedInformation** member of the [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information) structure contains the response data. For the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) request, the response data consists of a [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure.
     ```C++
         // Examine the response. 
         // The response data is an OPM_STANDARD_INFORMATION structure.
@@ -519,7 +519,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
 The next example shows how to enable High-Bandwidth Digital Content Protection (HDCP) by sending the [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command.
 
-1.  All OPM commands use the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters) structure for input data. The **abParameters** array in this structure contains command-specific data. For the [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command, the **abParameters** array contains an [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_protection_level_parameters) structure. Fill in this structure as follows:
+1.  All OPM commands use the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) structure for input data. The **abParameters** array in this structure contains command-specific data. For the [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command, the **abParameters** array contains an [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_protection_level_parameters) structure. Fill in this structure as follows:
     ```C++
         //--------------------------------------------------------------------
         // Prepare the command structure.
@@ -539,7 +539,7 @@ The next example shows how to enable High-Bandwidth Digital Content Protection (
 
     
 
-2.  Next, fill in the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters) structure and compute the OMAC.
+2.  Next, fill in the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) structure and compute the OMAC.
     ```C++
         // Common command parameters
         OPM_CONFIGURE_PARAMETERS Command;

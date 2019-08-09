@@ -36,7 +36,7 @@ LVN_COLUMNOVERFLOWCLICK
 *lParam* \[in\]
 </dt> <dd>
 
-Pointer to a [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_COLUMNOVERFLOWCLICK.
+Pointer to a [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_COLUMNOVERFLOWCLICK.
 
 Set the **iItem** member of the [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure to -1. Set the **iSubItem** member to the index of the subitem. Set the **uNewState**, **uOldState**, and **lParam** members to zero. The remaining members of the **NMLISTVIEW** structure are not used.
 

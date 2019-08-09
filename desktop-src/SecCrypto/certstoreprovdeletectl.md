@@ -45,7 +45,7 @@ BOOL WINAPI CertStoreProvDeleteCTL(
 *pCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_ctl_context) structure.
+A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) structure.
 
 </dd> <dt>
 

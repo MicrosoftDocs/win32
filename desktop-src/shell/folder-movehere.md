@@ -49,7 +49,7 @@ The item or items to move. This can be a string that represents a file name, a [
 
 Type: **Variant**
 
-Options for the move operation. This value can be zero or a combination of the following values. These values are based upon flags defined for use with the **fFlags** member of the C++ [**SHFILEOPSTRUCT**](/windows/desktop/api/Shellapi/ns-shellapi-_shfileopstructa) structure. These flags are not defined as such for Visual Basic, VBScript, or JScript, so you must define them yourself or use their numeric equivalents.
+Options for the move operation. This value can be zero or a combination of the following values. These values are based upon flags defined for use with the **fFlags** member of the C++ [**SHFILEOPSTRUCT**](/windows/desktop/api/Shellapi/ns-shellapi-shfileopstructa) structure. These flags are not defined as such for Visual Basic, VBScript, or JScript, so you must define them yourself or use their numeric equivalents.
 
 <dt>
 

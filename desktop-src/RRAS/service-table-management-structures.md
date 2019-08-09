@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 Use the following structures to implement routing protocols that register for service handling.
 
--   [**IPX\_SERVER\_ENTRY**](/windows/desktop/api/Stm/ns-stm-_ipx_server_entry)
--   [**IPX\_SERVICE**](/windows/desktop/api/Stm/ns-stm-_ipx_service)
+-   [**IPX\_SERVER\_ENTRY**](/windows/desktop/api/Stm/ns-stm-ipx_server_entry)
+-   [**IPX\_SERVICE**](/windows/desktop/api/Stm/ns-stm-ipx_service)
 
  
 
