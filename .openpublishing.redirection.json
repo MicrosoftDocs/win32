@@ -336,6 +336,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/dxcore/index.md",
+      "redirect_url": "/windows/desktop/dxcore/dxcore",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/EventLog/index.md",
       "redirect_url": "/windows/desktop/EventLog/event-logging",
       "redirect_document_id": false

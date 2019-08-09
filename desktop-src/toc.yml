@@ -275,6 +275,8 @@
               href: direct3dhlsl/dx-graphics-hlsl.md
             - name: "DDS"
               href: direct3ddds/dx-graphics-dds.md
+          - name: "DXCore"
+            href: dxcore/dxcore.md
           - name: "DirectWrite"
             href: directwrite/direct-write-portal.md
           - name: "DirectXMath"
