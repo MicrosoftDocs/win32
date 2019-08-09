@@ -20,13 +20,13 @@ The following enumerations are declared in dxcore_interface.h.
 
 | Topic and description |
 |-|
-| [**DXCoreAdapterProperty**](/windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty). Defines constants that specify DXCore adapter properties. |
-| [**DXCoreAdapterState**](/windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate). Defines constants that specify kinds of DXCore adapter states. |
-| [**DXCoreNotificationType**](/windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype). Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects. |
-| [**DXCoreSegmentGroup**](/windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup). Defines constants that specify an adapter's memory segment grouping. |
+| [**DXCoreAdapterProperty**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty). Defines constants that specify DXCore adapter properties. |
+| [**DXCoreAdapterState**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate). Defines constants that specify kinds of DXCore adapter states. |
+| [**DXCoreNotificationType**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype). Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects. |
+| [**DXCoreSegmentGroup**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup). Defines constants that specify an adapter's memory segment grouping. |
 
 ## Related topics
 
-* [DXCore Reference](/windows/desktop/dxcore/dxcore-reference)
-* [Using DXCore to enumerate adapters](/windows/desktop/dxcore/dxcore-enum-adapters)
-* [Direct3D 12 graphics](/windows/desktop/direct3d12/direct3d-12-graphics)
+* [DXCore Reference](/windows/win32/dxcore/dxcore-reference)
+* [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+* [Direct3D 12 graphics](/windows/win32/direct3d12/direct3d-12-graphics)

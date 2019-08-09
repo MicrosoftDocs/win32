@@ -29,6 +29,6 @@ This section covers DXCore APIs declared in dxcore.h and dxcore_interface.h.
 
 ## Related topics
 
-* [Using DXCore to enumerate adapters](/windows/desktop/dxcore/dxcore-enum-adapters)
+* [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
 * [DXCore programming guide](dxcore-programming-guide.md)
-* [Direct3D 12 graphics](/windows/desktop/direct3d12/direct3d-12-graphics)
+* [Direct3D 12 graphics](/windows/win32/direct3d12/direct3d-12-graphics)

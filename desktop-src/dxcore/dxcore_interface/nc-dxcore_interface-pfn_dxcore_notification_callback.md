@@ -1,44 +1,9 @@
 ---
-UID: NC:dxcore_interface.PFN_DXCORE_NOTIFICATION_CALLBACK
 title: PFN_DXCORE_NOTIFICATION_CALLBACK
 description: A callback function (implemented by your application), which is called by a DXCore object for notification events.
-author: windows-sdk-content
-tech.root: dxcore
-ms.author: windowssdkdev
-ms.date: 06/10/2019
-ms.keywords: PFN_DXCORE_NOTIFICATION_CALLBACK, dxcore_interface.pfn_dxcore_notification_callback
 ms.localizationpriority: low
-ms.topic: callback
-targetos: Windows
-product: Windows
-req.assembly: 
-req.construct-type: callback
-req.ddi-compliance: 
-req.dll: dxcore.dll
-req.header: dxcore_interface.h
-req.idl: 
-req.include-header: dxcore.h
-req.irql: 
-req.kmdf-ver: 
-req.lib: dxcore.lib
-req.max-support: 
-req.namespace: 
-req.redist: 
-req.target-min-winverclnt: Windows 10 (Build 18936)
-req.target-min-winversvr: 
-req.target-type: Windows
-req.type-library: 
-req.umdf-ver: 
-req.unicode-ansi: 
-topic_type:
- - apiref
- - kbsyntax
-api_type:
- - LibDef
-api_location:
- - dxcore.dll
-api_name:
- - PFN_DXCORE_NOTIFICATION_CALLBACK
+ms.topic: article
+ms.date: 06/20/2019
 ---
 
 # PFN_DXCORE_NOTIFICATION_CALLBACK callback
@@ -57,15 +22,15 @@ A callback function (implemented by your application), which is called by a DXCo
 
 ### notificationType
 
-Type: **[DXCoreNotificationType](/windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype)**
+Type: **[DXCoreNotificationType](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype)**
 
-The type of notification representing this invocation. See the table in [DXCoreNotificationType](/windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) for info about what types are valid with which kinds of objects.
+The type of notification representing this invocation. See the table in [DXCoreNotificationType](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) for info about what types are valid with which kinds of objects.
 
 ### object
 
-Type: **[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown)\***
+Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-The [IDXCoreAdapter](/windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) object raising the notification.
+The [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) object raising the notification.
 
 ### context [in]
 
@@ -75,4 +40,4 @@ A pointer, which may be `nullptr`, to an object containing context info.
 
 ## See also
 
-[IDXCoreAdapter](/windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [IDXCoreAdapterList](/windows/desktop/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/desktop/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/desktop/dxcore/dxcore-enum-adapters)
+[IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)

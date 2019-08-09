@@ -20,12 +20,12 @@ The following structures are declared in dxcore_interface.h.
 
 | Topic and description |
 |-|
-| [**DXCoreAdapterMemoryBudget**](/windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget). Describes the memory budget for an adapter. |
-| [**DXCoreAdapterMemoryBudgetNodeSegmentGroup**](/windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup). Describes a memory segment group for an adapter. |
-| [**DXCoreHardwareID**](/windows/desktop/dxcore/dxcore_interface/ns-dxcore_interface-dxcorehardwareid). Represents the PnP hardware ID parts for an adapter. |
+| [**DXCoreAdapterMemoryBudget**](/windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget). Describes the memory budget for an adapter. |
+| [**DXCoreAdapterMemoryBudgetNodeSegmentGroup**](/windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup). Describes a memory segment group for an adapter. |
+| [**DXCoreHardwareID**](/windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcorehardwareid). Represents the PnP hardware ID parts for an adapter. |
 
 ## Related topics
 
-* [DXCore Reference](/windows/desktop/dxcore/dxcore-reference)
-* [Using DXCore to enumerate adapters](/windows/desktop/dxcore/dxcore-enum-adapters)
-* [Direct3D 12 graphics](/windows/desktop/direct3d12/direct3d-12-graphics)
+* [DXCore Reference](/windows/win32/dxcore/dxcore-reference)
+* [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+* [Direct3D 12 graphics](/windows/win32/direct3d12/direct3d-12-graphics)

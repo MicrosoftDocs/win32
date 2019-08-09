@@ -1,44 +1,9 @@
 ---
-UID: NS:dxcore_interface.DXCoreAdapterMemoryBudget
 title: DXCoreAdapterMemoryBudget
 description: Describes the memory budget for an adapter.
-author: windows-sdk-content
-tech.root: dxcore
-ms.author: windowssdkdev
-ms.date: 06/06/2019
-ms.keywords: DXCoreAdapterMemoryBudget structure, dxcore_interface.dxcoreadaptermemorybudget
 ms.localizationpriority: low
-ms.topic: structure
-targetos: Windows
-product: Windows
-req.assembly: 
-req.construct-type: structure
-req.ddi-compliance: 
-req.dll: dxcore.dll
-req.header: dxcore_interface.h
-req.idl: 
-req.include-header: dxcore.h
-req.irql: 
-req.kmdf-ver: 
-req.lib: dxcore.lib
-req.max-support: 
-req.namespace: 
-req.redist: 
-req.target-min-winverclnt: Windows 10 (Build 18936)
-req.target-min-winversvr: 
-req.target-type: Windows
-req.type-library: 
-req.umdf-ver: 
-req.unicode-ansi: 
-topic_type:
- - apiref
- - kbsyntax
-api_type:
- - HeaderDef
-api_location:
- - dxcore.dll
-api_name:
- - DXCoreAdapterMemoryBudget
+ms.topic: article
+ms.date: 06/20/2019
 ---
 
 # DXCoreAdapterMemoryBudget structure
@@ -71,7 +36,7 @@ Specifies your applicaton's current adapter memory usage, in bytes.
 
 Type: **uint64_t**
 
-Specifies the amount of adapter memory, in bytes, that your application has available for reservation. To reserve this adapter memory, your application should call [IDXCoreAdapter::SetState](/windows/desktop/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) with *state* set to [DXCoreAdapterState::AdapterMemoryBudget](/windows/desktop/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate).
+Specifies the amount of adapter memory, in bytes, that your application has available for reservation. To reserve this adapter memory, your application should call [IDXCoreAdapter::SetState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) with *state* set to [DXCoreAdapterState::AdapterMemoryBudget](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate).
 
 ### availableForReservation
 
@@ -81,4 +46,4 @@ Specifies the amount of adapter memory, in bytes, that is reserved by your appli
 
 ## See also
 
-[DXCore Reference](/windows/desktop/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/desktop/dxcore/dxcore-enum-adapters)
+[DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)

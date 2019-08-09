@@ -40,6 +40,8 @@
       - name: "IDXCoreAdapter"
         href: /windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter
         items: 
+        - name: "GetFactory"
+          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getfactory
         - name: "GetProperty"
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty
         - name: "GetPropertySize"
@@ -78,6 +80,8 @@
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadapter
         - name: "GetAdapterCount"
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadaptercount
+        - name: "GetFactory"
+          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getfactory
         - name: "IsStale"
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale
     - name: "DXCore structures"
@@ -87,9 +91,5 @@
         href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget
       - name: "DXCoreAdapterMemoryBudgetNodeSegmentGroup"
         href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup
-      - name: "DXCoreAdapterMemoryBudgetSetReservation"
-        href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetsetreservation
-      - name: "DXCoreExtendedSupportInfo"
-        href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreextendedsupportinfo
       - name: "DXCoreHardwareID"
         href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcorehardwareid

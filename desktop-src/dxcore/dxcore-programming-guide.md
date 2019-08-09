@@ -14,7 +14,7 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-DXCore is an adapter enumeration API for DirectX devices, so some of its facilities overlap with those of [DXGI](/windows/desktop/direct3ddxgi/dx-graphics-dxgi).
+DXCore is an adapter enumeration API for DirectX devices, so some of its facilities overlap with those of [DXGI](/windows/win32/direct3ddxgi/dx-graphics-dxgi).
 
 ## In this section
 
@@ -25,5 +25,5 @@ DXCore is an adapter enumeration API for DirectX devices, so some of its facilit
 
 ## Related topics
 
-* [DXCore Reference](/windows/desktop/dxcore/dxcore-reference)
-* [Direct3D 12 graphics](/windows/desktop/direct3d12/direct3d-12-graphics)
+* [DXCore Reference](/windows/win32/dxcore/dxcore-reference)
+* [Direct3D 12 graphics](/windows/win32/direct3d12/direct3d-12-graphics)
