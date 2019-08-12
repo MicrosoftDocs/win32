@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Contains the NetBIOS or DNS names of the computers running Windows NT Workstation or Windows 2000 Professional from which the user can log on. Each NetBIOS name is separated by a comma. Multiple names should be separated by commas.
 
->![Note]
+>[!Note]
 >This user attribute should not be used anymore. To manage what accounts can logon to which workstations, we recommend using the “Allow Log on locally” and “Deny Log on locally” or “Allow log on through Remote Desktop Services” and “Deny log on through Remote Desktop Services”.
 
 |                   |                                                                                            |
