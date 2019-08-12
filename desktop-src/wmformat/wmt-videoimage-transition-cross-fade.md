@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WMT\_VIDEOIMAGE\_TRANSITION\_CROSS\_FADE
 
-The cross-fade transition has no special effect; the characteristics of the fade (dissolve) are determined by the **fPrevBlendCoef** and **fCurrBlendCoef** members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2) structure.
+The cross-fade transition has no special effect; the characteristics of the fade (dissolve) are determined by the **fPrevBlendCoef** and **fCurrBlendCoef** members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2) structure.
 
 ## Parameters
 

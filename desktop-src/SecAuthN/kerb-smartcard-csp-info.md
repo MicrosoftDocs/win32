@@ -166,7 +166,7 @@ When this structure is serialized, the structure members must be aligned to boun
 
 <dl> <dt>
 
-[**KERB\_CERTIFICATE\_LOGON**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-_kerb_certificate_logon)
+[**KERB\_CERTIFICATE\_LOGON**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-kerb_certificate_logon)
 </dt> </dl>
 
  

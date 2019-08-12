@@ -32,15 +32,34 @@ For information on which operating systems are required to use a particular inte
 | [COM Language Translations](com-language-translations.md)<br/>     | Describes the differences between programming languages and describe how to translate COM object syntax from one language to another.<br/> |
 
 
+## Related documentation
+
+
+
+| Topic                                                                     | Description                                                                                                                                      |
+|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [COM Fundamentals](com-fundamentals.md)<br/>                       | Describes the fundamental concepts and programming reference.<br/>                                                                         |
+| [OLE and Data Transfer](ole-and-data-transfer.md)<br/>             | Describes compound documents and data transfer.<br/>                                                                                       |
+| [Controls and Property Pages](controls-and-property-pages.md)<br/> | Describes ActiveX controls and property pages.<br/>                                                                                        |
+| [COM Language Translations](com-language-translations.md)<br/>     | Describes the differences between programming languages and describe how to translate COM object syntax from one language to another.<br/> |
+
+
 
  
 
 ## Related topics
 
-<dl> <dt>
+| Topic                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Component Object Model (COM)](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal)<br/> | COM is a platform-independent, distributed, object-oriented system for creating binary software components that can interact. COM is the foundation technology for Microsoft's OLE (compound documents) and ActiveX (Internet-enabled components) technologies.<br/>                                                                                                                                                                                                              |
+| [Automation](https://msdn.microsoft.com/en-us/library/ms221375(v=VS.71).aspx)<br/>                      | Automation enables software packages to expose their unique features to scripting tools and other applications. Automation uses the Component Object Model (COM), but may be implemented independently from other OLE features, such as in-place activation.<br/>                                                                                                                                                                                                                 |
+| [Microsoft Interface Definition Language (MIDL)](https://docs.microsoft.com/windows/desktop/Midl/midl-start-page)<br/>  | The Microsoft Interface Definition Language (MIDL) defines interfaces between client and server programs. Microsoft includes the MIDL compiler with the Platform Software Development Kit (SDK) to enable developers to create the interface definition language (IDL) files and application configuration files (ACF) required for remote procedure call (RPC) interfaces and COM/DCOM interfaces. MIDL also supports the generation of type libraries for OLE Automation. <br/> |
+| [Structured Storage](https://docs.microsoft.com/windows/desktop/Stg/structured-storage-start-page)<br/>                 | Structured Storage provides file and data persistence in COM by handling a single file as a structured collection of objects known as storages and streams.<br/>                                                                                                                                                                                                                                                                                                                  |
+| [COM+](https://msdn.microsoft.com/en-us/library/ms685978(v=VS.85).aspx)<br/>                 | COM+ is an evolution of Microsoft Component Object Model (COM) and Microsoft Transaction Server (MTS). COM+ builds on and extends applications written using COM, MTS, and other COM-based technologies.<br/>                                                                                                                                                                                                                                                                                                                  |
 
-[COM+](https://msdn.microsoft.com/en-us/library/ms685978(v=VS.85).aspx)
-</dt> </dl>
+
+
+
 
  
 

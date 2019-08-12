@@ -55,7 +55,7 @@ Data passed in the *DynamicGroupArgs* parameter of a call to the [**AuthzInitial
 *pSidAttrArray* \[out\]
 </dt> <dd>
 
-A pointer to a pointer variable that receives the address of an array of [**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-_sid_and_attributes) structures. These structures represent the groups to which the client belongs.
+A pointer to a pointer variable that receives the address of an array of [**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes) structures. These structures represent the groups to which the client belongs.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ The number of structures in *pSidAttrArray*.
 *pRestrictedSidAttrArray* \[out\]
 </dt> <dd>
 
-A pointer to a pointer variable that receives the address of an array of [**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-_sid_and_attributes) structures. These structures represent the groups from which the client is restricted.
+A pointer to a pointer variable that receives the address of an array of [**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes) structures. These structures represent the groups from which the client is restricted.
 
 </dd> <dt>
 
@@ -129,7 +129,7 @@ Attribute variables must be in the form of an expression when used with logical 
 [**AuthzInitializeResourceManager**](/windows/desktop/api/Authz/nf-authz-authzinitializeresourcemanager)
 </dt> <dt>
 
-[**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-_sid_and_attributes)
+[**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes)
 </dt> </dl>
 
  

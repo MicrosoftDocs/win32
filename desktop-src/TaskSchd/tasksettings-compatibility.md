@@ -74,7 +74,7 @@ For more information about task compatibility, see [What's New in Task Scheduler
 
 <dl> <dt>
 
-[**TASK\_COMPATIBILITY**](/windows/desktop/api/taskschd/ne-taskschd-_task_compatibility)
+[**TASK\_COMPATIBILITY**](/windows/desktop/api/taskschd/ne-taskschd-task_compatibility)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)

@@ -30,7 +30,7 @@ Functions that were added:
 
 Structures that were added:
 
--   [**WER\_RUNTIME\_EXCEPTION\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-_wer_runtime_exception_information)
+-   [**WER\_RUNTIME\_EXCEPTION\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-wer_runtime_exception_information)
 
 ## Windows Server 2008 and Windows Vista SP1
 

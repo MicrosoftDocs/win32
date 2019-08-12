@@ -65,7 +65,7 @@ The following window styles are specific to toolbars. They are combined with oth
 
 
 
-**Note:** A toolbar button can have a combination of the following styles. To specify a button style, set the appropriate flags in the **fsStyle** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure. Not all styles can be combined.
+**Note:** A toolbar button can have a combination of the following styles. To specify a button style, set the appropriate flags in the **fsStyle** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure. Not all styles can be combined.
 
 For Shell version 4.72 and earlier, both window and button style flags had the form TBSTYLE\_XXX. If you are compiling an application with [version 4.72](common-control-versions.md) or earlier of Commctrl.h, you must use the TBSTYLE\_XXX button style flags. For version 5.80 and later, all button styles have the form BTNS\_XXX. All of the TBSTYLE\_XXX values have equivalent BTNS\_XXX values, with the same meaning and numerical value. For convenience, both forms are given in the following table.
 

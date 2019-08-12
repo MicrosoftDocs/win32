@@ -22,7 +22,7 @@ INT WSASetService(
 );
 ```
 
-For the *lpqsRegInfo* parameter, provide a [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-_wsaquerysetw) structure from either an NLA SP query result, or constructed adhering to the requirements of an NLA SP query, as specified in [Querying NLA](querying-nla-2.md).
+For the *lpqsRegInfo* parameter, provide a [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) structure from either an NLA SP query result, or constructed adhering to the requirements of an NLA SP query, as specified in [Querying NLA](querying-nla-2.md).
 
 Operations supported for the *essOperation* parameter are the following:
 
@@ -31,14 +31,14 @@ Operations supported for the *essOperation* parameter are the following:
 <span id="RNRSERVICE_REGISTER"></span><span id="rnrservice_register"></span>RNRSERVICE\_REGISTER
 </dt> <dd>
 
-The network defined in the [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-_wsaquerysetw) structure provided in *lpqsRegInfo* is made persistent for the active user by storing the network instance in the registry hive for the current user, which allows impersonation.
+The network defined in the [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) structure provided in *lpqsRegInfo* is made persistent for the active user by storing the network instance in the registry hive for the current user, which allows impersonation.
 
 </dd> <dt>
 
 <span id="RNRSERVICE_DELETE"></span><span id="rnrservice_delete"></span>RNRSERVICE\_DELETE
 </dt> <dd>
 
-If the network defined in the [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-_wsaquerysetw) structure provided in *lpqsRegInfo* is persistent, it will be removed.
+If the network defined in the [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) structure provided in *lpqsRegInfo* is persistent, it will be removed.
 
 </dd> </dl>
 

@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 This section documents the following structures:
 
-[**AUTHENTICATION\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_authentication_info)
+[**AUTHENTICATION\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-authentication_info)
 
-[**FILTERED\_DATA\_SOURCES**](/windows/desktop/api/filtereg/ns-filtereg-_filtered_data_sources)
+[**FILTERED\_DATA\_SOURCES**](/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources)
 
 [**FILTERREGION**](https://msdn.microsoft.com/en-us/library/Bb231251(v=VS.85).aspx)
 
@@ -22,29 +22,29 @@ This section documents the following structures:
 
 [**HITRANGE**](/windows/desktop/api/Structuredquery/ns-structuredquery-taghitrange)
 
-[**INCREMENTAL\_ACCESS\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_incremental_access_info)
+[**INCREMENTAL\_ACCESS\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-incremental_access_info)
 
 [**INLINE\_NOTIFY\_DATA\_CHANGE\_ENTRY**](https://msdn.microsoft.com/en-us/library/Aa965367(v=VS.85).aspx)
 
-[**ITEM\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_item_info)
+[**ITEM\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-item_info)
 
 [**LINKINFO**](-search-linkinfo.md)
 
-[**PROXY\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_proxy_info)
+[**PROXY\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-proxy_info)
 
-[**SEARCH\_COLUMN\_PROPERTIES**](/windows/desktop/api/searchapi/ns-searchapi-_search_column_properties)
+[**SEARCH\_COLUMN\_PROPERTIES**](/windows/desktop/api/searchapi/ns-searchapi-search_column_properties)
 
-[**SEARCH\_ITEM\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-_search_item_change)
+[**SEARCH\_ITEM\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-search_item_change)
 
-[**SEARCH\_ITEM\_INDEXING\_STATUS**](/windows/desktop/api/Searchapi/ns-searchapi-_search_item_indexing_status)
+[**SEARCH\_ITEM\_INDEXING\_STATUS**](/windows/desktop/api/Searchapi/ns-searchapi-search_item_indexing_status)
 
-[**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-_search_item_persistent_change)
+[**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-search_item_persistent_change)
 
 [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx)
 
 [**TEXT\_SOURCE**](/windows/desktop/api/Indexsrv/ns-indexsrv-tagtext_source)
 
-[**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_timeout_info)
+[**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-timeout_info)
 
  
 

@@ -258,10 +258,10 @@ The following are new Windows Sockets enumerations, structures, and typedefs add
 -   [**RIO\_CQ**](riocqueue.md)
 -   [**RIO\_RQ**](riorqueue.md)
 -   [**RIO\_BUFFERID**](rio-bufferid.md)
--   [**RIO\_BUF**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-_rio_buf)
--   [**RIO\_NOTIFICATION\_COMPLETION**](/windows/desktop/api/Mswsock/ns-mswsock-_rio_notification_completion)
--   [**RIO\_NOTIFICATION\_COMPLETION\_TYPE**](/windows/desktop/api/Mswsock/ne-mswsock-_rio_notification_completion_type)
--   [**RIORESULT**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-_rioresult)
+-   [**RIO\_BUF**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-rio_buf)
+-   [**RIO\_NOTIFICATION\_COMPLETION**](/windows/desktop/api/Mswsock/ns-mswsock-rio_notification_completion)
+-   [**RIO\_NOTIFICATION\_COMPLETION\_TYPE**](/windows/desktop/api/Mswsock/ne-mswsock-rio_notification_completion_type)
+-   [**RIORESULT**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-rioresult)
 
 A set of enhancements for asynchronous naming support are available.
 
@@ -311,12 +311,12 @@ The following are new Windows IP socket options added to support the Windows Fil
 The following are a new Windows Sockets Ioctl and an associated structure added to control the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket:
 
 -   [**SIO\_TCP\_INITIAL\_RTO**](https://msdn.microsoft.com/en-us/library/JJ710203(v=VS.85).aspx)
--   [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-_transmit_file_buffers)
+-   [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers)
 
 The following are a new Windows Sockets Ioctl and an associated structure added to retrieve the association between a socket and an RSS processor core and NUMA node:
 
 -   [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](https://msdn.microsoft.com/en-us/library/JJ553482(v=VS.85).aspx)
--   [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity)
+-   [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity)
 
 The following new Windows Sockets Ioctls are added to apply and query transport settings on a socket:
 
@@ -325,10 +325,10 @@ The following new Windows Sockets Ioctls are added to apply and query transport 
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket. The following new structures and enumerations are added to support the **REAL\_TIME\_NOTIFICATION\_CAPABILITY**:
 
--   [**CONTROL\_CHANNEL\_TRIGGER\_STATUS**](/windows/desktop/api/Mswsock/ne-mswsock-_rio_notification_completion_type)
--   [**REAL\_TIME\_NOTIFICATION\_SETTING\_INPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_input)
--   [**REAL\_TIME\_NOTIFICATION\_SETTING\_INPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_input)
--   [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_input)
+-   [**CONTROL\_CHANNEL\_TRIGGER\_STATUS**](/windows/desktop/api/Mswsock/ne-mswsock-rio_notification_completion_type)
+-   [**REAL\_TIME\_NOTIFICATION\_SETTING\_INPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)
+-   [**REAL\_TIME\_NOTIFICATION\_SETTING\_INPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)
+-   [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)
 -   [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx)
 
 The following new Windows Sockets Ioctl is added to enable a fast path for loopback on a TCP socket. This feature can lower latency and improve performance for applications that use TCP loopback (applications used by the financial service industry, for example).:
@@ -425,14 +425,14 @@ The following are new Windows Sockets structures and enumerations:
 -   [**NAPI\_PROVIDER\_INSTALLATION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_provider_installation_blob_tag)
 -   [**NAPI\_PROVIDER\_LEVEL**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_level_tag)
 -   [**NAPI\_PROVIDER\_TYPE**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_type_tag)
--   [**SOCKET\_PEER\_TARGET\_NAME**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_peer_target_name)
--   [**SOCKET\_SECURITY\_PROTOCOL**](/windows/desktop/api/Mstcpip/ne-mstcpip-_socket_security_protocol)
--   [**SOCKET\_SECURITY\_QUERY\_INFO**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_query_info)
--   [**SOCKET\_SECURITY\_QUERY\_TEMPLATE**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_query_template)
--   [**SOCKET\_SECURITY\_SETTINGS**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_settings)
--   [**SOCKET\_SECURITY\_SETTINGS\_IPSEC**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_settings_ipsec)
--   [**SOCKET\_USAGE\_TYPE**](/windows/desktop/api/Mstcpip/ne-mstcpip-_socket_usage_type)
--   [**WSAQUERYSET2**](/windows/desktop/api/Winsock2/ns-winsock2-_wsaqueryset2w)
+-   [**SOCKET\_PEER\_TARGET\_NAME**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_peer_target_name)
+-   [**SOCKET\_SECURITY\_PROTOCOL**](/windows/desktop/api/Mstcpip/ne-mstcpip-socket_security_protocol)
+-   [**SOCKET\_SECURITY\_QUERY\_INFO**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_query_info)
+-   [**SOCKET\_SECURITY\_QUERY\_TEMPLATE**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_query_template)
+-   [**SOCKET\_SECURITY\_SETTINGS**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_settings)
+-   [**SOCKET\_SECURITY\_SETTINGS\_IPSEC**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_settings_ipsec)
+-   [**SOCKET\_USAGE\_TYPE**](/windows/desktop/api/Mstcpip/ne-mstcpip-socket_usage_type)
+-   [**WSAQUERYSET2**](/windows/desktop/api/Winsock2/ns-winsock2-wsaqueryset2w)
 
 Microsoft Windows Vista introduces new Windows Sockets SPI functions to provide the ability to categorize applications for a layered service providers. New functions are also added for namespace providers.
 
@@ -459,7 +459,7 @@ The following are new Windows Sockets SPI functions:
 
 The following are new Windows Sockets SPI structures:
 
--   [**NSPV2\_ROUTINE**](/windows/desktop/api/Ws2spi/ns-ws2spi-_nspv2_routine)
+-   [**NSPV2\_ROUTINE**](/windows/desktop/api/Ws2spi/ns-ws2spi-nspv2_routine)
 
 Microsoft Windows Vista introduces new Windows Sockets programming elements.
 
@@ -512,8 +512,8 @@ The following are new Windows Sockets structure definitions:
 -   [**addrinfo**](https://msdn.microsoft.com/en-us/library/ms737530(v=VS.85).aspx)
 -   [**in\_pktinfo**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-in_pktinfo)
 -   [**SOCKADDR\_STORAGE**](https://msdn.microsoft.com/en-us/library/ms740504(v=VS.85).aspx)
--   [**TRANSMIT\_PACKETS\_ELEMENT**](/windows/desktop/api/Mswsock/ns-mswsock-_transmit_packets_element)
--   [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-_wsamsg)
+-   [**TRANSMIT\_PACKETS\_ELEMENT**](/windows/desktop/api/Mswsock/ns-mswsock-transmit_packets_element)
+-   [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg)
 
  
 

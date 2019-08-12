@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**TASKDIALOG\_BUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_taskdialog_button)
--   [**TASKDIALOGCONFIG**](/windows/desktop/api/Commctrl/ns-commctrl-_taskdialogconfig)
+-   [**TASKDIALOG\_BUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-taskdialog_button)
+-   [**TASKDIALOGCONFIG**](/windows/desktop/api/Commctrl/ns-commctrl-taskdialogconfig)
 
  
 

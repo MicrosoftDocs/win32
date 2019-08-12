@@ -25,7 +25,7 @@ An application can send messages to a rich edit control in order to format chara
 
 ### Format Text in a Rich Edit Control
 
-You can apply paragraph formatting by using the [**EM\_SETPARAFORMAT**](em-setparaformat.md) message. To determine the current paragraph formatting for the selected text, use the [**EM\_GETPARAFORMAT**](em-getparaformat.md) message. The [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat) or [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) structure is used with both messages to specify paragraph formatting attributes.
+You can apply paragraph formatting by using the [**EM\_SETPARAFORMAT**](em-setparaformat.md) message. To determine the current paragraph formatting for the selected text, use the [**EM\_GETPARAFORMAT**](em-getparaformat.md) message. The [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat) or [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) structure is used with both messages to specify paragraph formatting attributes.
 
 You can apply character formatting by using the [**EM\_SETCHARFORMAT**](em-setcharformat.md) message. To determine the current character formatting for the selected text, you can use the [**EM\_GETCHARFORMAT**](em-getcharformat.md) message. The [**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat) or [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a) structure is used with both messages to specify character attributes.
 

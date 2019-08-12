@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # To Seek By SMPTE Time Code Using the Synchronous Reader
 
-The synchronous reader object can seek to a point in a file based on the SMPTE time code associated with a video stream. Time code data is encapsulated in [**WMT\_TIMECODE\_EXTENSION\_DATA**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data) structures that are attached to video samples as data unit extensions.
+The synchronous reader object can seek to a point in a file based on the SMPTE time code associated with a video stream. Time code data is encapsulated in [**WMT\_TIMECODE\_EXTENSION\_DATA**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data) structures that are attached to video samples as data unit extensions.
 
 SMPTE time codes are defined by a range and a time code within that range. A range is a continuous series of time codes. Each time code is defined by hours, minutes, seconds, and frames.
 

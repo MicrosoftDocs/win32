@@ -33,7 +33,7 @@ Windows Event Log defines the following constants:
 
 
 
-A bitmask that you use to mask out the array bit of the variant type, so you can determine the data type of the variant value that the [**EVT\_VARIANT**](/windows/desktop/api/WinEvt/ns-winevt-_evt_variant) structure contains.
+A bitmask that you use to mask out the array bit of the variant type, so you can determine the data type of the variant value that the [**EVT\_VARIANT**](/windows/desktop/api/WinEvt/ns-winevt-evt_variant) structure contains.
 
 
 </dt> </dl> </dd> <dt>
@@ -46,7 +46,7 @@ A bitmask that you use to mask out the array bit of the variant type, so you can
 
 
 
-The **Type** member of the [**EVT\_VARIANT**](/windows/desktop/api/WinEvt/ns-winevt-_evt_variant) structure has this bit set if the variant contains a pointer to an array of values, rather than the value itself.
+The **Type** member of the [**EVT\_VARIANT**](/windows/desktop/api/WinEvt/ns-winevt-evt_variant) structure has this bit set if the variant contains a pointer to an array of values, rather than the value itself.
 
 
 </dt> </dl> </dd> <dt>

@@ -477,7 +477,7 @@ The parameters should be set as follows:
 
 ### (ShellExecuteEx)
 
-The **lpFile** member of the [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-_shellexecuteinfoa) structure passed in this function's only parameter may not exceed INTERNET\_MAX\_URL\_LENGTH characters. If the SEE\_MASK\_CLASSNAME flag is omitted, the **lpClass** member must be initialized to **NULL**.
+The **lpFile** member of the [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa) structure passed in this function's only parameter may not exceed INTERNET\_MAX\_URL\_LENGTH characters. If the SEE\_MASK\_CLASSNAME flag is omitted, the **lpClass** member must be initialized to **NULL**.
 
 ### (ValueEx)
 

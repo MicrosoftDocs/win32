@@ -114,8 +114,8 @@ The following table describes the methods of ISearchCatalogManager used for mana
 There are three catalog properties that you can manage with the Catalog Manager:
 
 - **Diacritic sensitivity.** Diacritics are accent marks added to letters to signify a word's meaning or pronunciation. This property determines whether the catalog is sensitive to diacritics, and is important when you or your users search and index text in multiple languages. For example, with this property set to **FALSE**, the catalog would treat "resume" and "resumé" as if they were the same word.
-- **Connection timeouts.** This property represents the amount of time to wait for a connection response from a server or data store, as represented in a [**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_timeout_info) structure. You can use this property to fine tune Windows Search.
-- **Data timeouts** This property represents the amount of time to wait for a data transaction between the indexer and a protocol handler or filter, as represented in a [**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_timeout_info) structure. If this time has elapsed, the process from the Filter Daemon is terminated to prevent deadlock and other resource problems.
+- **Connection timeouts.** This property represents the amount of time to wait for a connection response from a server or data store, as represented in a [**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-timeout_info) structure. You can use this property to fine tune Windows Search.
+- **Data timeouts** This property represents the amount of time to wait for a data transaction between the indexer and a protocol handler or filter, as represented in a [**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-timeout_info) structure. If this time has elapsed, the process from the Filter Daemon is terminated to prevent deadlock and other resource problems.
 
 The last two properties are intended primarily for future use. Each of these properties has `get` and `put` methods.
 

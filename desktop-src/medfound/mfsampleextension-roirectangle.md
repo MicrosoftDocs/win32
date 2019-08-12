@@ -12,7 +12,7 @@ Specifies the bounds of the region of interest which indicates the region of the
 
 ## Data type
 
-**[**ROI\_AREA**](/windows/desktop/api/mfapi/ns-mfapi-_roi_area)** stored as **BLOB**
+**[**ROI\_AREA**](/windows/desktop/api/mfapi/ns-mfapi-roi_area)** stored as **BLOB**
 
 ## Remarks
 
@@ -22,7 +22,7 @@ If [CODECAPI\_AVEncVideoROIEnabled](codecapi-avencvideoroienabled.md) is not set
 
 MFSampleExtension\_ROIRectangle is set on an input sample and is only applied to the current input sample.
 
-The **QPDelta** field on the [**ROI\_AREA**](/windows/desktop/api/mfapi/ns-mfapi-_roi_area) structure specifies the quantization parameter delta for the specified region from the rest of the frame. If **QPDelta** is positive, this indicates the application wants the rectangle to have lower quality than the rest of the frame.
+The **QPDelta** field on the [**ROI\_AREA**](/windows/desktop/api/mfapi/ns-mfapi-roi_area) structure specifies the quantization parameter delta for the specified region from the rest of the frame. If **QPDelta** is positive, this indicates the application wants the rectangle to have lower quality than the rest of the frame.
 
 **H.264/AVC encoders:** **QPDelta** shall be between \[-25, +25\]. The encoder shall ensure that the final QP is in a valid range for the video standard.
 

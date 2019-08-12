@@ -122,13 +122,13 @@ Ignored. Set to zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) structure. Specific parameters in the **PNRPINFO** structure must be set. For more information, see the following **PNRPINFO** structure section.
+Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1) structure. Specific parameters in the **PNRPINFO** structure must be set. For more information, see the following **PNRPINFO** structure section.
 
 </dd> </dl>
 
 ## PNRPINFO Structure
 
-If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) structure must be set:
+If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1) structure must be set:
 
 <dl> <dt>
 
@@ -304,7 +304,7 @@ Ignored. Set to zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) structure. The **lpszIdentity** member of the **lpBlob** structure identifies the name of the identity that is used to register a peer name. The remaining members must be set to the same values that are used when registering a name.
+Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1) structure. The **lpszIdentity** member of the **lpBlob** structure identifies the name of the identity that is used to register a peer name. The remaining members must be set to the same values that are used when registering a name.
 
 </dd> </dl>
 
@@ -318,7 +318,7 @@ Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to
 [PNRP and WSAQUERYSET](pnrp-and-wsaqueryset.md)
 </dt> <dt>
 
-[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1)
+[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1)
 </dt> <dt>
 
 [PNRP NSP Error Codes](pnrp-nsp-error-codes.md)

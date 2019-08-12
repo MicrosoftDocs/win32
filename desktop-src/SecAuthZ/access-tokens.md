@@ -58,15 +58,15 @@ The access token functions use the following structures to describe the parts of
 
 | Structure                                            | Description                                                                                           |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**TOKEN\_CONTROL**](/windows/desktop/api/Winnt/ns-winnt-_token_control)              | Information that identifies an access token.                                                          |
-| [**TOKEN\_DEFAULT\_DACL**](/windows/desktop/api/Winnt/ns-winnt-_token_default_dacl)   | The default DACL that the system uses in the security descriptors of new objects created by a thread. |
-| [**TOKEN\_GROUPS**](/windows/desktop/api/Winnt/ns-winnt-_token_groups)                | Specifies the SIDs and attributes of the group SIDs in an access token.                               |
-| [**TOKEN\_OWNER**](/windows/desktop/api/Winnt/ns-winnt-_token_owner)                  | The default owner SID for the security descriptors of new objects.                                    |
-| [**TOKEN\_PRIMARY\_GROUP**](/windows/desktop/api/Winnt/ns-winnt-_token_primary_group) | The default primary group SID for the security descriptors of new objects.                            |
-| [**TOKEN\_PRIVILEGES**](/windows/desktop/api/Winnt/ns-winnt-_token_privileges)        | The privileges associated with an access token. Also determines whether the privileges are enabled.   |
-| [**TOKEN\_SOURCE**](/windows/desktop/api/Winnt/ns-winnt-_token_source)                | The source of an access token.                                                                        |
-| [**TOKEN\_STATISTICS**](/windows/desktop/api/Winnt/ns-winnt-_token_statistics)        | Statistics associated with an access token.                                                           |
-| [**TOKEN\_USER**](/windows/desktop/api/Winnt/ns-winnt-_token_user)                    | The SID of the user associated with an access token.                                                  |
+| [**TOKEN\_CONTROL**](/windows/desktop/api/Winnt/ns-winnt-token_control)              | Information that identifies an access token.                                                          |
+| [**TOKEN\_DEFAULT\_DACL**](/windows/desktop/api/Winnt/ns-winnt-token_default_dacl)   | The default DACL that the system uses in the security descriptors of new objects created by a thread. |
+| [**TOKEN\_GROUPS**](/windows/desktop/api/Winnt/ns-winnt-token_groups)                | Specifies the SIDs and attributes of the group SIDs in an access token.                               |
+| [**TOKEN\_OWNER**](/windows/desktop/api/Winnt/ns-winnt-token_owner)                  | The default owner SID for the security descriptors of new objects.                                    |
+| [**TOKEN\_PRIMARY\_GROUP**](/windows/desktop/api/Winnt/ns-winnt-token_primary_group) | The default primary group SID for the security descriptors of new objects.                            |
+| [**TOKEN\_PRIVILEGES**](/windows/desktop/api/Winnt/ns-winnt-token_privileges)        | The privileges associated with an access token. Also determines whether the privileges are enabled.   |
+| [**TOKEN\_SOURCE**](/windows/desktop/api/Winnt/ns-winnt-token_source)                | The source of an access token.                                                                        |
+| [**TOKEN\_STATISTICS**](/windows/desktop/api/Winnt/ns-winnt-token_statistics)        | Statistics associated with an access token.                                                           |
+| [**TOKEN\_USER**](/windows/desktop/api/Winnt/ns-winnt-token_user)                    | The SID of the user associated with an access token.                                                  |
 
 
 
@@ -78,8 +78,8 @@ The access token functions use the following enumeration types.
 
 | Enumeration type                                             | Specifies                                                                       |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [**TOKEN\_INFORMATION\_CLASS**](/windows/desktop/api/Winnt/ne-winnt-_token_information_class) | Identifies the type of information being set or retrieved from an access token. |
-| [**TOKEN\_TYPE**](/windows/desktop/api/Winnt/ne-winnt-_token_type)                            | Identifies an access token as a primary or impersonation token.                 |
+| [**TOKEN\_INFORMATION\_CLASS**](/windows/desktop/api/Winnt/ne-winnt-token_information_class) | Identifies the type of information being set or retrieved from an access token. |
+| [**TOKEN\_TYPE**](/windows/desktop/api/Winnt/ne-winnt-token_type)                            | Identifies an access token as a primary or impersonation token.                 |
 
 
 

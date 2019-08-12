@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Hardware Provider Interactions and Behaviors
 
-Hardware providers may support copy-on-write and/or full copy mirror (differential and/or plex) shadow copies. Resource allocation for shadow copies should follow the context specified by the requester in [**IVssBackupComponents::SetContext**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setcontext), enumerated by [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/desktop/api/Vss/ne-vss-_vss_snapshot_context), for the shadow copy set.
+Hardware providers may support copy-on-write and/or full copy mirror (differential and/or plex) shadow copies. Resource allocation for shadow copies should follow the context specified by the requester in [**IVssBackupComponents::SetContext**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setcontext), enumerated by [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/desktop/api/Vss/ne-vss-vss_snapshot_context), for the shadow copy set.
 
 -   If the requester specifies a shadow copy context that is supported by the provider, the provider should create a shadow copy using that method.
 -   If the requester specifies a shadow copy context that is not supported by the provider, then the provider should not attempt to create the shadow copy and return **FALSE** through the *pbIsSupported* parameter in [**IVssHardwareSnapshotProvider::AreLunsSupported**](/windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported).

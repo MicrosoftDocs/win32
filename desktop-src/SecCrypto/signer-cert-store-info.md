@@ -51,7 +51,7 @@ The size, in bytes, of the structure.
 **pSigningCert**
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context) structure for the signing certificate.
+A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) structure for the signing certificate.
 
 </dd> <dt>
 

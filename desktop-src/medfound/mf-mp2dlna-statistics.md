@@ -12,7 +12,7 @@ Gets statistics from the Digital Living Network Alliance (DLNA) media sink.
 
 ## Data type
 
-**[**MFMPEG2DLNASINKSTATS**](/windows/desktop/api/mfmp2dlna/ns-mfmp2dlna-_mfmpeg2dlnasinkstats)** stored as **BYTE\[\]**
+**[**MFMPEG2DLNASINKSTATS**](/windows/desktop/api/mfmp2dlna/ns-mfmp2dlna-mfmpeg2dlnasinkstats)** stored as **BYTE\[\]**
 
 ## Get/set
 

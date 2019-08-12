@@ -49,7 +49,7 @@ Your message loop should use the **PSM\_ISDIALOGMESSAGE** message with modeless 
 If the return value indicates that the message was processed, it must not be passed to the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) or [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).
 
  
 

@@ -13,7 +13,7 @@ The following procedure outlines the steps used to update a route in place. The 
 **To update a route in place, the client should take the following steps**
 
 1.  Lock the route by calling [**RtmLockRoute**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmlockroute). Currently, this function actually locks the route's destination. The routing table manager returns a pointer to the route.
-2.  Use the pointer to the routing table manager's [**RTM\_ROUTE\_INFO**](/windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_route_info) structure, obtained in step 1, to make the necessary changes to the route. Only certain members of the **RTM\_ROUTE\_INFO** structure can be modified when updating in place. These members are: **Neighbour**, **PrefInfo**, **EntitySpecificInfo**, **BelongsToViews**, and **NextHopsList**.
+2.  Use the pointer to the routing table manager's [**RTM\_ROUTE\_INFO**](/windows/desktop/api/Rtmv2/ns-rtmv2-rtm_route_info) structure, obtained in step 1, to make the necessary changes to the route. Only certain members of the **RTM\_ROUTE\_INFO** structure can be modified when updating in place. These members are: **Neighbour**, **PrefInfo**, **EntitySpecificInfo**, **BelongsToViews**, and **NextHopsList**.
     > [!Note]  
     > If the client adds information to either the **Neighbour** or **NextHopsList** members, the client must call [**RtmReferenceHandles**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreferencehandles) to explicitly increment the reference count that the routing table manager keeps on the next-hop object. Similarly, if the client removes information from the **NextHopsList** member, the client must call [**RtmReleaseNextHops**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasenexthops) to decrement the reference count.
 

@@ -14,7 +14,7 @@ This contains examples that use the [**VerifyVersionInfo**](/windows/desktop/api
 
 The main steps in each example are as follows:
 
-1.  Set the appropriate values in the [**OSVERSIONINFOEX**](/windows/desktop/api/Winnt/ns-winnt-_osversioninfoexa) structure.
+1.  Set the appropriate values in the [**OSVERSIONINFOEX**](/windows/desktop/api/Winnt/ns-winnt-osversioninfoexa) structure.
 2.  Set the appropriate condition mask using the [**VER\_SET\_CONDITION**](/windows/desktop/api/Winnt/nf-winnt-ver_set_condition) macro.
 3.  Call [**VerifyVersionInfo**](/windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa) to perform the test.
 

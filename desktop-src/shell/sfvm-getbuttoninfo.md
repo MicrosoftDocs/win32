@@ -38,7 +38,7 @@ SFVM_GETBUTTONINFO
 *ptbinfo* \[out\]
 </dt> <dd>
 
-The address of a [**TBINFO**](/windows/desktop/api/Shlobj/ns-shlobj-_tbinfo) structure that specifies the number of buttons and how they are to be added to the toolbar.
+The address of a [**TBINFO**](/windows/desktop/api/Shlobj/ns-shlobj-tbinfo) structure that specifies the number of buttons and how they are to be added to the toolbar.
 
 </dd> </dl>
 

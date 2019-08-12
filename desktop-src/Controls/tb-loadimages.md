@@ -63,7 +63,7 @@ The count of images in the image list. Returns zero if the toolbar has no image 
 
 ## Remarks
 
-You must use the proper image index values when you prepare [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structures prior to sending the [**TB\_ADDBUTTONS**](tb-addbuttons.md) message. For a list of image index values for these preset bitmaps, see [Toolbar Standard Button Image Index Values](toolbar-standard-button-image-index-values.md).
+You must use the proper image index values when you prepare [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structures prior to sending the [**TB\_ADDBUTTONS**](tb-addbuttons.md) message. For a list of image index values for these preset bitmaps, see [Toolbar Standard Button Image Index Values](toolbar-standard-button-image-index-values.md).
 
 ## Examples
 

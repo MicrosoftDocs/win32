@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 This example shows a HTTP client that uses service proxy to talk to a calculator service, with XML security token over SSL mixed-mode security. In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication. Client authentication is provided by a WS-Security username/password pair that is used as an XML security token by the example.
 
-Note that this client side example uses the [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_token_message_security_binding). An equivalent way of doing the same client side security using the [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_username_message_security_binding) is illustrated by the example [HttpCalculatorWithUsernameOverSslClientExample](httpcalculatorwithusernameoversslclientexample.md).
+Note that this client side example uses the [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding). An equivalent way of doing the same client side security using the [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding) is illustrated by the example [HttpCalculatorWithUsernameOverSslClientExample](httpcalculatorwithusernameoversslclientexample.md).
 
 A matching server side for both of these client side examples is provided by the example [HttpCalculatorWithUserNameOverSslServiceExample](httpcalculatorwithusernameoversslserviceexample.md).
 
@@ -493,10 +493,10 @@ clean:
 
 <dl> <dt>
 
-[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_token_message_security_binding)
+[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding)
 </dt> <dt>
 
-[**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_username_message_security_binding)
+[**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding)
 </dt> <dt>
 
 [HttpCalculatorWithUsernameOverSslClientExample](httpcalculatorwithusernameoversslclientexample.md)

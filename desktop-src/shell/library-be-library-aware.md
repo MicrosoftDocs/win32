@@ -113,7 +113,7 @@ hr = fileOpenDialogBox->SetOptions(fileOptions);
 
 
 
-To allow users to select folders when calling the SHBrowseForFolder function, in the ulFlags member of the [**BROWSEINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_browseinfoa) structure, set the BIF\_USENEWUI flag and clear the BIF\_RETURNONLYFSDIRS flag.
+To allow users to select folders when calling the SHBrowseForFolder function, in the ulFlags member of the [**BROWSEINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-browseinfoa) structure, set the BIF\_USENEWUI flag and clear the BIF\_RETURNONLYFSDIRS flag.
 
 
 ```C++

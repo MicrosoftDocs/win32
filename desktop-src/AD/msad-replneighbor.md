@@ -52,7 +52,7 @@ ms.date: 05/31/2018
 
 # MSAD\_ReplNeighbor class
 
-Represents the [**DS\_REPL\_NEIGHBOR**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_neighborw) structure, which contains the inbound replication state information for a particular naming context (NC) and source server pair, as returned by the [**DsReplicaGetInfo**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfow) function.
+Represents the [**DS\_REPL\_NEIGHBOR**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw) structure, which contains the inbound replication state information for a particular naming context (NC) and source server pair, as returned by the [**DsReplicaGetInfo**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfow) function.
 
 ## Syntax
 
@@ -432,7 +432,7 @@ This neighbor is in a state where it returns parent objects before children obje
 
 </dt> <dd>
 
-The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (such as [**DS\_REPL\_CURSORS**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursors)) for filtering updates. Full synchronizations are not used as a part of the default replication protocol.
+The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (such as [**DS\_REPL\_CURSORS**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors)) for filtering updates. Full synchronizations are not used as a part of the default replication protocol.
 
 </dd> <dt>
 

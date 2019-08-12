@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Multilingual User Interface Macros
 
-MUI provides the following macros, used to retrieve information from a [**FILEMUIINFO**](/windows/desktop/api/Winnls/ns-winnls-_filemuiinfo) structure:
+MUI provides the following macros, used to retrieve information from a [**FILEMUIINFO**](/windows/desktop/api/Winnls/ns-winnls-filemuiinfo) structure:
 
 <dl>
 

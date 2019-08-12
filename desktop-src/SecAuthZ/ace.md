@@ -32,7 +32,7 @@ The following table lists the currently defined **ACE** types.
 <td><ul>
 <li>Access allowed</li>
 </ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_allowed_ace"><strong>ACCESS_ALLOWED_ACE</strong></a></td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_ace"><strong>ACCESS_ALLOWED_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="even">
@@ -64,7 +64,7 @@ The following table lists the currently defined **ACE** types.
 <td><ul>
 <li>Access denied</li>
 </ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_denied_ace"><strong>ACCESS_DENIED_ACE</strong></a></td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_ace"><strong>ACCESS_DENIED_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="even">
@@ -128,7 +128,7 @@ The following table lists the currently defined **ACE** types.
 <td><ul>
 <li>System audit</li>
 </ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_audit_ace"><strong>SYSTEM_AUDIT_ACE</strong></a></td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_audit_ace"><strong>SYSTEM_AUDIT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="even">
@@ -153,7 +153,7 @@ The following table lists the currently defined **ACE** types.
 <li>System audit</li>
 <li>Object specific</li>
 </ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_alarm_object_ace"><strong>SYSTEM_AUDIT_OBJECT_ACE</strong></a></td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_AUDIT_OBJECT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 </tbody>
@@ -166,7 +166,7 @@ The following table lists the currently defined **ACE** types.
 System-alarm and object-specific system-alarm ACEs are not currently supported.
 
 > [!Note]  
-> Each ACE starts with an [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-_ace_header) structure. The format of the data following the header varies according to the ACE type specified in the header.
+> Each ACE starts with an [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-ace_header) structure. The format of the data following the header varies according to the ACE type specified in the header.
 
  
 
@@ -189,19 +189,19 @@ System-alarm and object-specific system-alarm ACEs are not currently supported.
 [**AddAce**](https://msdn.microsoft.com/en-us/library/Aa374970(v=VS.85).aspx)
 </dt> <dt>
 
-[**ACCESS\_ALLOWED\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_ace)
+[**ACCESS\_ALLOWED\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_allowed_ace)
 </dt> <dt>
 
-[**ACCESS\_DENIED\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_denied_ace)
+[**ACCESS\_DENIED\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_denied_ace)
 </dt> <dt>
 
-[**ACL**](/windows/desktop/api/Winnt/ns-winnt-_acl)
+[**ACL**](/windows/desktop/api/Winnt/ns-winnt-acl)
 </dt> <dt>
 
-[**SYSTEM\_ALARM\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_system_alarm_object_ace)
+[**SYSTEM\_ALARM\_ACE**](/windows/desktop/api/Winnt/ns-winnt-system_alarm_object_ace)
 </dt> <dt>
 
-[**SYSTEM\_AUDIT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_system_audit_ace)
+[**SYSTEM\_AUDIT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-system_audit_ace)
 </dt> </dl>
 
  

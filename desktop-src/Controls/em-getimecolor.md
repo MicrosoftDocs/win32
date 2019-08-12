@@ -39,7 +39,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A four-element array of [**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-_compcolor) structures that receives the composition color.
+A four-element array of [**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-compcolor) structures that receives the composition color.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ If the operation fails, the return value is zero.
 
 <dl> <dt>
 
-[**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-_compcolor)
+[**COMPCOLOR**](/windows/desktop/api/Richedit/ns-richedit-compcolor)
 </dt> </dl>
 
  

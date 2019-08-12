@@ -46,7 +46,7 @@ A trim action is performed.
 
 
 
-A notification action is performed. The parameters are in a [**DEVICE\_DSM\_NOTIFICATION\_PARAMETERS**](/windows/desktop/api/WinIoCtl/ns-winioctl-_device_dsm_notification_parameters) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
+A notification action is performed. The parameters are in a [**DEVICE\_DSM\_NOTIFICATION\_PARAMETERS**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_notification_parameters) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
 
 </dt> </dl> </dd> <dt>
@@ -59,7 +59,7 @@ A notification action is performed. The parameters are in a [**DEVICE\_DSM\_NOTI
 
 
 
-An offload read action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_READ\_PARAMETERS**](/windows/desktop/api/WinIoCtl/ns-winioctl-_device_dsm_offload_read_parameters) structure. The output is in a [**STORAGE\_OFFLOAD\_READ\_OUTPUT**](/windows/desktop/api/WinIoCtl/ns-winioctl-_storage_offload_read_output) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
+An offload read action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_READ\_PARAMETERS**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_read_parameters) structure. The output is in a [**STORAGE\_OFFLOAD\_READ\_OUTPUT**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_read_output) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
 **Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
@@ -74,7 +74,7 @@ An offload read action is performed. The parameters are in a [**DEVICE\_DSM\_OFF
 
 
 
-An offload write action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_WRITE\_PARAMETERS**](/windows/desktop/api/WinIoCtl/ns-winioctl-_device_dsm_offload_write_parameters) structure. The output is in a [**STORAGE\_OFFLOAD\_WRITE\_OUTPUT**](/windows/desktop/api/WinIoCtl/ns-winioctl-_storage_offload_write_output) structure.
+An offload write action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_WRITE\_PARAMETERS**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_write_parameters) structure. The output is in a [**STORAGE\_OFFLOAD\_WRITE\_OUTPUT**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_write_output) structure.
 
 **Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
@@ -89,7 +89,7 @@ An offload write action is performed. The parameters are in a [**DEVICE\_DSM\_OF
 
 
 
-An allocation bitmap is returned for the first data set range passed in. The output is in a [**DEVICE\_DATA\_SET\_LB\_PROVISIONING\_STATE**](/windows/desktop/api/WinIoCtl/ns-winioctl-_device_data_set_lb_provisioning_state) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
+An allocation bitmap is returned for the first data set range passed in. The output is in a [**DEVICE\_DATA\_SET\_LB\_PROVISIONING\_STATE**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_data_set_lb_provisioning_state) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
 **Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 

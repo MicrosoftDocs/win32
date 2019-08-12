@@ -17,8 +17,8 @@ The EAPHost Authenticator Method structures are as follows.
 
 | Structure                                                                         | Description                                                                          |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**EAP\_AUTHENTICATOR\_METHOD\_ROUTINES**](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-_eap_authenticator_method_routines) | Contains a set of function pointers to the EAPHost Authenticator Method APIs.        |
-| [**EAP\_METHOD\_AUTHENTICATOR\_RESULT**](/previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-_eap_method_authenticator_result)     | Contains the EAP attributes provided as the result of an EAP authentication session. |
+| [**EAP\_AUTHENTICATOR\_METHOD\_ROUTINES**](/windows/desktop/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-eap_authenticator_method_routines) | Contains a set of function pointers to the EAPHost Authenticator Method APIs.        |
+| [**EAP\_METHOD\_AUTHENTICATOR\_RESULT**](/windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result)     | Contains the EAP attributes provided as the result of an EAP authentication session. |
 
 
 

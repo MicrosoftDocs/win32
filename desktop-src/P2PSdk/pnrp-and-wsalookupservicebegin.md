@@ -123,13 +123,13 @@ Reserved, must be zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Must be either a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure or **NULL**. If it is **NULL**, default values are used. If it is set, **lpBlob** points to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) structure, and specific parameters in the **PNRPINFO** structure must be set. For more information, see the following descriptions for the PNRPINFO Structure.
+Must be either a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure or **NULL**. If it is **NULL**, default values are used. If it is set, **lpBlob** points to a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1) structure, and specific parameters in the **PNRPINFO** structure must be set. For more information, see the following descriptions for the PNRPINFO Structure.
 
 </dd> </dl>
 
 PNRPINFO Structure
 
-If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) structure must be set:
+If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1) structure must be set:
 
 <dl> <dt>
 
@@ -171,7 +171,7 @@ Reserved, must be zero (0).
 <span id="enResolveCriteria"></span><span id="enresolvecriteria"></span><span id="ENRESOLVECRITERIA"></span>**enResolveCriteria**
 </dt> <dd>
 
-Must be one of the allowed values. The default is **PNRP\_RESOLVE\_CRITERIA\_NON\_CURRENT\_PROCESS\_PEER\_NAME**. Valid values are specified by [**PNRP\_RESOLVE\_CRITERIA**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria).
+Must be one of the allowed values. The default is **PNRP\_RESOLVE\_CRITERIA\_NON\_CURRENT\_PROCESS\_PEER\_NAME**. Valid values are specified by [**PNRP\_RESOLVE\_CRITERIA**](/windows/desktop/api/Pnrpdef/ne-pnrpdef-pnrp_resolve_criteria).
 
 </dd> <dt>
 
@@ -314,13 +314,13 @@ Reserved, must be zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo) structure. If **lpBlob** is **NULL**, all clouds are enumerated.
+Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo) structure. If **lpBlob** is **NULL**, all clouds are enumerated.
 
 </dd> </dl>
 
 PNRPCLOUDINFO Structure
 
-When enumerating clouds, the following members of the [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo) structure must be set:
+When enumerating clouds, the following members of the [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo) structure must be set:
 
 <dl> <dt>
 
@@ -379,10 +379,10 @@ The following LUP\_RETURN\_\* flags are supported by PNRP:
 [PNRP and WSAQUERYSET](pnrp-and-wsaqueryset.md)
 </dt> <dt>
 
-[**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo)
+[**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo)
 </dt> <dt>
 
-[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1)
+[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1)
 </dt> <dt>
 
 [PNRP NSP Error Codes](pnrp-nsp-error-codes.md)

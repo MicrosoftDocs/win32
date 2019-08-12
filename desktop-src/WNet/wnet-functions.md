@@ -95,7 +95,7 @@ Call the following WNet function to retrieve the name of the user associated wit
 
  
 
-Many of the WNet functions use a [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-_netresourcea) structure to store information about a network resource.
+Many of the WNet functions use a [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea) structure to store information about a network resource.
 
  
 

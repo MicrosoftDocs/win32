@@ -36,7 +36,7 @@ EN_OLEOPFAILED
 *lParam* 
 </dt> <dd>
 
-An [**ENOLEOPFAILED**](/windows/desktop/api/Richedit/ns-richedit-_enoleopfailed) structure that contains information about the failure.
+An [**ENOLEOPFAILED**](/windows/desktop/api/Richedit/ns-richedit-enoleopfailed) structure that contains information about the failure.
 
 </dd> </dl>
 
@@ -67,7 +67,7 @@ The parent window will always get a [**WM\_NOTIFY**](wm-notify.md) message for t
 **Reference**
 </dt> <dt>
 
-[**ENOLEOPFAILED**](/windows/desktop/api/Richedit/ns-richedit-_enoleopfailed)
+[**ENOLEOPFAILED**](/windows/desktop/api/Richedit/ns-richedit-enoleopfailed)
 </dt> </dl>
 
  

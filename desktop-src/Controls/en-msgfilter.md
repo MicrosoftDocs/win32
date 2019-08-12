@@ -36,7 +36,7 @@ EN_MSGFILTER
 *lParam* 
 </dt> <dd>
 
-A [**MSGFILTER**](/windows/desktop/api/Richedit/ns-richedit-_msgfilter) structure containing information about the keyboard or mouse message. If the parent window modifies this structure and returns a nonzero value, the modified message is processed instead of the original one.
+A [**MSGFILTER**](/windows/desktop/api/Richedit/ns-richedit-msgfilter) structure containing information about the keyboard or mouse message. If the parent window modifies this structure and returns a nonzero value, the modified message is processed instead of the original one.
 
 </dd> </dl>
 
@@ -81,7 +81,7 @@ To receive EN\_MSGFILTER notification codes for events, specify one or more of t
 **Reference**
 </dt> <dt>
 
-[**MSGFILTER**](/windows/desktop/api/Richedit/ns-richedit-_msgfilter)
+[**MSGFILTER**](/windows/desktop/api/Richedit/ns-richedit-msgfilter)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)

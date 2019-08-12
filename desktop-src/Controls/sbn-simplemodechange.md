@@ -36,7 +36,7 @@ SBN_SIMPLEMODECHANGE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure that contains information about the notification code.
+Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains information about the notification code.
 
 </dd> </dl>
 

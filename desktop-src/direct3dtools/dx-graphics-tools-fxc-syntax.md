@@ -24,50 +24,219 @@ Here is the syntax for calling FXC.exe, the effect-compiler tool. For an example
 **fxc** *SwitchOptions* *Filenames*
 
 ## Arguments
+Separate each switch option with a space or a colon.
 
-<dl> <dt>
-
-<span id="SwitchOptions"></span><span id="switchoptions"></span><span id="SWITCHOPTIONS"></span>*SwitchOptions*
-</dt> <dd>
-
+### *SwitchOptions*
 \[in\] Compile options. There is just one required option, and many more that are optional. Separate each with a space or colon.
 
+#### Required option
+##### /T <*profile*>
+Shader model (see [Profiles](#profiles)).
 
+#### Optional options
+##### /?, /help
+Print help for `FXC.exe`.
 
-| Required SwitchOptions | Description                               |
-|------------------------|-------------------------------------------|
-| /T <*profile*>   | Shader model (see [Profiles](#profiles)). |
+##### @<*command.option.file*>
+File that contains additional compile options. This option can be mixed with other command line compile options. The *command.option.file* must contain only one option per line. The *command.option.file* cannot contain any blank lines. Options specified in the file must not contain any leading or trailing spaces.
 
+##### /all_resources_bound
+Enable aggressive flattening in SM5.1+. New for Direct3D 12.
 
+##### /Cc
+Output color-coded assembly.
 
- 
+##### /compress
+Compress DX10 shader bytecode from files.
 
+##### /D <*id*>=<*text*>
+Define macro.
 
+##### /decompress
+Decompress DX10 shader bytecode from first file. Output files should be listed in the order they were in during compression.
 
-<table><colgroup><col style="width: 33%" /><col style="width: 33%" /><col style="width: 33%" /></colgroup><thead><tr class="header"><th>New for Direct3D 12</th><th>Optional SwitchOptions</th><th>Description</th></tr></thead><tbody><tr class="odd"><td>/?, /help</td><td>Print help for FXC.exe.</td></tr><tr class="even"><td>@<<em>command.option.file</em>></td><td>File that contains additional compile options.<ul><li>This option can be mixed with other command line compile options.</li><li>The <em>command.option.file</em> must contain only one option per line.</li><li>The <em>command.option.file</em> cannot contain any blank lines.</li><li>Options specified in the file must not contain any leading or trailing spaces.</li></ul></td></tr><tr class="odd"><td>Yes</td><td>/all_resources_bound</td><td>Enable aggressive flattening in SM5.1+.</td></tr><tr class="even"><td>/Cc</td><td>Output color-coded assembly.</td></tr><tr class="odd"><td>/compress</td><td>Compress DX10 shader bytecode from files.</td></tr><tr class="even"><td>/D <<em>id</em>>=<<em>text</em>></td><td>Define macro.</td></tr><tr class="odd"><td>/decompress</td><td>Decompress DX10 shader bytecode from first file. Output files should be listed in the order they were in during compression.</td></tr><tr class="even"><td>/dumpbin</td><td>Loads a binary file rather than compiling a shader.</td></tr><tr class="odd"><td>/E <name></td><td>Shader entry point. If no entry point is given, <strong>main</strong> is considered to be the shader entry name.</td></tr><tr class="even"><td>Yes</td><td>/enable_unbounded_descriptor_tables</td><td>Enables unbounded descriptor tables.</td></tr><tr class="odd"><td>Yes</td><td>/extractrootsignature <<em>file</em>></td><td>Extract root signature from shader bytecode.</td></tr><tr class="even"><td>/Fc <<em>file</em>></td><td>Output assembly code listing file.</td></tr><tr class="odd"><td>/Fd <<em>file</em>></td><td>Extract shader program database (PDB) info and write to the given file.When you compile the shader, use /Fd to generate a PDB file with shader debugging info.</td></tr><tr class="even"><td>/Fe <<em>file</em>></td><td>Output warnings and errors to the given file.</td></tr><tr class="odd"><td>/Fh <<em>file</em>></td><td>Output header file containing object code.</td></tr><tr class="even"><td>/Fl <<em>file</em>></td><td>Output a library .</td></tr><tr class="odd"><td>/Fo <<em>file</em>></td><td>Output object file. Often given the extension &quot;.fxc&quot;, though other extensions are used, such as &quot;.o&quot;, &quot;.obj&quot; or &quot;.dxbc&quot;.</td></tr><tr class="even"><td>/Fx <<em>file</em>></td><td>Output assembly code and hex listing file.</td></tr><tr class="odd"><td>/Gch</td><td>Compile as a child effect for fx_4_x profiles.<blockquote>[!Note]<br />
-Support for legacy Effects profiles is deprecated.</blockquote><br/></td></tr><tr class="even"><td>/Gdp</td><td>Disable effect performance mode.</td></tr><tr class="odd"><td>/Gec</td><td>Enable backwards compatibility mode.</td></tr><tr class="even"><td>/Ges</td><td>Enable strict mode.</td></tr><tr class="odd"><td>/getprivate <<em>file</em>></td><td>Save private data from the shader blob (compiled shader binary) to the given file. Extracts private data, previously embedded by /setprivate, from the shader blob. <br/> You must specify the /dumpbin option with /getprivate. For example:<span data-codelanguage=""></span><table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><pre><code>fxc /getprivate ps01.private.data 
-    /dumpbin ps01.with.private.obj</code></pre></td></tr></tbody></table></td></tr><tr class="even"><td>/Gfa</td><td>Avoid flow control constructs.</td></tr><tr class="odd"><td>/Gfp</td><td>Prefer flow control constructs.</td></tr><tr class="even"><td>/Gis</td><td>Force IEEE strictness.</td></tr><tr class="odd"><td>/Gpp</td><td>Force partial precision.</td></tr><tr class="even"><td>/I <<em>include</em>></td><td>Additional include path.</td></tr><tr class="odd"><td>/Lx</td><td>Output hexadecimal literals .</td></tr><tr class="even"><td>/matchUAVs</td><td>Match template shader UAV slot allocations in the current shader. For more info, see <a href="#remarks">Remarks</a>.</td></tr><tr class="odd"><td>/mergeUAVs</td><td>Merge UAV slot allocations of template shader and the current shader. For more info, see <a href=""></a><a href="#remarks">Remarks</a>.</td></tr><tr class="even"><td>/Ni</td><td>Output instruction numbers in assembly listings.</td></tr><tr class="odd"><td>/No</td><td>Output instruction byte offset in assembly listings. When you produce assembly, use /No to annotate it with the byte offset for each instruction.</td></tr><tr class="even"><td>/nologo</td><td>Suppress copyright message.</td></tr><tr class="odd"><td>/Od</td><td>Disable optimizations. /Od implies /Gfp though output may not be identical to /Od /Gfp.</td></tr><tr class="even"><td>/Op</td><td>Disable preshaders (deprecated).</td></tr><tr class="odd"><td>/O0 /O1, /O2, /O3</td><td>Optimization levels. O1 is the default setting.<ul><li>O0 - Disables instruction reordering. This helps reduce register load and enables faster loop simulation.</li><li>O1 - Disables instruction reordering for ps_3_0 and up.</li><li>O2 - Same as O1. Reserved for future use.</li><li>O3 - Same as O1. Reserved for future use.</li></ul></td></tr><tr class="even"><td>/P <<em>file</em>></td><td>Preprocess to file (must be used alone).</td></tr><tr class="odd"><td>/Qstrip_debug</td><td>Strip debug data from shader bytecode for 4_0+ profiles.</td></tr><tr class="even"><td>/Qstrip_priv</td><td><p>Strip the private data from 4_0+ shader bytecode. Removes private data (arbitrary sequence of bytes) from the shader blob (compiled shader binary) that you previously embedded with the /setprivate <file> option.</p><p>You must specify the /dumpbin option with /Qstrip_priv. For example:</p><div class="code"><span data-codelanguage=""></span><table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><pre><code>fxc /Qstrip_priv /dumpbin /Fo ps01.no.private.obj 
-    ps01.with.private.obj</code></pre></td></tr></tbody></table></div></td></tr><tr class="odd"><td>/Qstrip_reflect</td><td>Strip reflection data from shader bytecode for 4_0+ profiles.</td></tr><tr class="even"><td>Yes</td><td>/Qstrip_rootsignature</td><td>Strip root signature from shader bytecode.</td></tr><tr class="odd"><td>/res_may_alias</td><td>Assume that UAVs/SRVs may alias for cs_5_0+ .</td></tr><tr class="even"><td>/setprivate <<em>file</em>></td><td>Add private data in the given file to the compiled shader blob. Embeds the given file, which is treated as a raw buffer, to the shader blob. Use /setprivate to add private data when you compile a shader. Or, use the /dumpbin option with /setprivate to load an existing shader object, and then after the object is in memory, to add the private data blob. For example, use either a single command with /setprivate to add private data to a compiled shader blob:<div class="code"><span data-codelanguage=""></span><table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><pre><code>fxc /T ps_4_0 /Fo ps01.with.private.obj ps01.fx 
-    /setprivate ps01.private.data</code></pre></td></tr></tbody></table></div>Or, use two commands where the second command loads a shader object and then adds private data:<div class="code"><span data-codelanguage=""></span><table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><pre><code>fxc /T ps_4_0 /Fo ps01.no.private.obj ps01.fx
+##### /dumpbin
+Loads a binary file rather than compiling a shader.
+
+##### /E <name>
+Shader entry point. If no entry point is given, **main** is considered to be the shader entry name.
+
+##### /enable_unbounded_descriptor_tables
+Enables unbounded descriptor tables. New for Direct3D 12.
+
+##### /extractrootsignature <*file*>
+Extract root signature from shader bytecode. New for Direct3D 12.
+
+##### /Fc <*file*>
+Output assembly code listing file.
+
+##### /Fd <*file*>
+Extract shader program database (PDB) info and write to the given file.When you compile the shader, use /Fd to generate a PDB file with shader debugging info.
+
+##### /Fe <*file*>
+Output warnings and errors to the given file.
+
+##### /Fh <*file*>
+Output header file containing object code.
+
+##### /Fl <*file*
+Output a library. Requires the D3dcompiler\_47.dll or a later version of the DLL.
+
+##### /Fo <*file*>
+Output object file. Often given the extension &quot;.fxc&quot;, though other extensions are used, such as &quot;.o&quot;, &quot;.obj&quot; or &quot;.dxbc&quot;.
+
+##### /Fx <*file*>
+Output assembly code and hex listing file.
+
+##### /Gch
+Compile as a child effect for fx_4_x profiles.
+
+> [!NOTE]
+> Support for legacy Effects profiles is deprecated.
+
+##### /Gdp
+Disable effect performance mode.
+
+##### /Gec
+Enable backward compatibility mode.
+
+##### /Ges
+Enable strict mode.
+
+##### /getprivate <*file*>
+Save private data from the shader blob (compiled shader binary) to the given file. Extracts private data, previously embedded by /setprivate, from the shader blob.
+
+You must specify the /dumpbin option with /getprivate. For example:
+
+```console
+fxc /getprivate ps01.private.data 
+    /dumpbin ps01.with.private.obj
+```
+	
+##### /Gfa
+Avoid flow control constructs.
+
+##### /Gfp
+Prefer flow control constructs.
+
+##### /Gis
+Force IEEE strictness.
+
+##### /Gpp
+Force partial precision.
+	
+##### /I <*include*>
+Additional include path.
+
+##### /Lx
+Output hexadecimal literals. Requires the D3dcompiler\_47.dll or a later version of the DLL.
+
+##### /matchUAVs
+Match template shader UAV slot allocations in the current shader. For more info, see <a href="#remarks">Remarks</a>.
+
+##### /mergeUAVs
+Merge UAV slot allocations of template shader and the current shader. For more info, see <a href=""></a><a href="#remarks">Remarks</a>.
+
+##### /Ni
+Output instruction numbers in assembly listings.
+
+##### /No
+Output instruction byte offset in assembly listings. When you produce assembly, use /No to annotate it with the byte offset for each instruction.
+
+##### /nologo
+Suppress copyright message.
+
+##### /Od
+Disable optimizations. /Od implies /Gfp, though output may not be identical to /Od /Gfp.
+
+##### /Op
+Disable preshaders (deprecated).
+
+##### /O0 /O1, /O2, /O3
+Optimization levels. O1 is the default setting.
+- O0 - Disables instruction reordering. This helps reduce register load and enables faster loop simulation.
+- O1 - Disables instruction reordering for ps_3_0 and up.
+- O2 - Same as O1. Reserved for future use.
+- O3 - Same as O1. Reserved for future use.
+
+##### /P <*file*>
+Preprocess to file (must be used alone).
+
+##### /Qstrip_debug
+Strip debug data from shader bytecode for 4_0+ profiles.
+
+##### /Qstrip_priv
+Strip the private data from 4_0+ shader bytecode. Removes private data (arbitrary sequence of bytes) from the shader blob (compiled shader binary) that you previously embedded with the `/setprivate <file>` option.
+
+You must specify the /dumpbin option with /Qstrip_priv. For example:
+
+```console
+fxc /Qstrip_priv /dumpbin /Fo ps01.no.private.obj 
+    ps01.with.private.obj
+```
+
+##### /Qstrip_reflect
+Strip reflection data from shader bytecode for 4_0+ profiles.
+
+##### /Qstrip_rootsignature
+Strip root signature from shader bytecode. New for Direct3D 12.
+
+##### /res_may_alias
+Assume that UAVs/SRVs may alias for cs_5_0+. Requires the D3dcompiler\_47.dll or a later version of the DLL.
+
+##### /setprivate <*file*>
+Add private data in the given file to the compiled shader blob. Embeds the given file, which is treated as a raw buffer, to the shader blob. Use /setprivate to add private data when you compile a shader. Or, use the /dumpbin option with /setprivate to load an existing shader object, and then after the object is in memory, to add the private data blob. For example, use either a single command with /setprivate to add private data to a compiled shader blob:
+
+```console
+fxc /T ps_4_0 /Fo ps01.with.private.obj ps01.fx 
+    /setprivate ps01.private.data
+```
+	
+Or, use two commands where the second command loads a shader object and then adds private data:
+
+```console
+fxc /T ps_4_0 /Fo ps01.no.private.obj ps01.fx
 fxc /dumpbin /Fo ps01.with.private.obj ps01.no.private.obj 
-    /setprivate ps01.private.data</code></pre></td></tr></tbody></table></div></td></tr><tr class="odd"><td>Yes</td><td>/setrootsignature <<em>file</em>></td><td>Attach root signature to shader bytecode.</td></tr><tr class="even"><td>/shtemplate <<em>file</em>></td><td>Use given template shader file for merging (/mergeUAVs) and matching (/matchUAVs) resources. For more info, see <a href="#remarks">Remarks</a>.</td></tr><tr class="odd"><td>/Vd</td><td>Disable validation.</td></tr><tr class="even"><td>Yes</td><td>/verifyrootsignature <<em>file</em>></td><td>Verify shader bytecode against root signature.</td></tr><tr class="odd"><td>/Vi</td><td>Display details about the include process.</td></tr><tr class="even"><td>/Vn <<em>name</em>></td><td>Use name as variable name in header file.</td></tr><tr class="odd"><td>/WX</td><td>Treat warnings as errors.</td></tr><tr class="even"><td>/Zi</td><td>Enable debugging information.</td></tr><tr class="odd"><td>/Zpc</td><td>Pack matrices in column-major order.</td></tr><tr class="even"><td>/Zpr</td><td>Pack matrices in row-major order.</td></tr></tbody></table>
+    /setprivate ps01.private.data
+```
+	
+##### /setrootsignature <*file*>
+Attach root signature to shader bytecode. New for Direct3D 12.
 
+##### /shtemplate <*file*>
+Use given template shader file for merging (/mergeUAVs) and matching (/matchUAVs) resources. For more info, see <a href="#remarks">Remarks</a>.
 
+##### /Vd
+Disable validation.
 
- 
+##### /verifyrootsignature <*file*>
+Verify shader bytecode against root signature. New for Direct3D 12.
 
-</dd> <dt>
+##### /Vi
+Display details about the include process.
 
-<span id="Filenames"></span><span id="filenames"></span><span id="FILENAMES"></span>*Filenames*
-</dt> <dd>
+##### /Vn <*name*>
+Use name as variable name in header file.
+
+##### /WX
+Treat warnings as errors.
+
+##### /Zi
+Enable debugging information.
+
+##### /Zpc
+Pack matrices in column-major order.
+
+##### /Zpr
+Pack matrices in row-major order.
+
+### *Filenames*
 
 \[in\] The files that contains the shader(s) and/or the effect(s).
 
-</dd> </dl>
-
 ## Remarks
 
-Use the /mergeUAVs, /matchUAVs, and /shtemplate options to align the UAV binding slots for a chain of shaders.
+Use the `/mergeUAVs`, `/matchUAVs`, and `/shtemplate` options to align the UAV binding slots for a chain of shaders.
 
 Suppose you have shaders A.fx, B.fx, and C.fx. To align the UAV binding slots for this chain of shaders, you need two passes of compilation:
 
@@ -77,25 +246,17 @@ Suppose you have shaders A.fx, B.fx, and C.fx. To align the UAV binding slots fo
     ```
     fxc.exe /T cs_5_0 C.fx /Fo C.o /mergeUAVs /shtemplate Btmp.o
     ```
-
-    
-
 2.  Use /matchUAVs to compile shaders, and specify the last shader blob from the first pass with /shtemplate. You can compile in any order. For example:
     ```
     fxc.exe /T cs_5_0 A.fx /Fo A.o /matchUAVs /shtemplate C.o
     ```
-
-    
-
-    Note that you don't have to recompile C.fx in the second pass.
+You don't have to recompile C.fx in the second pass.
 
 After you perform the preceding two compilation passes, you can use A.o, B.o, and C.o as final shader blobs with aligned UAV slots.
 
 ## Profiles
 
 Each shader model is labeled with an HLSL profile. To compile a shader against a particular shader model, choose the appropriate shader profile from the following table.
-
-
 
 <table><thead><tr class="header"><th>Shader Type</th><th>Profiles</th></tr></thead><tbody><tr class="odd"><td>Compute Shader</td><td><dl> cs_4_0<br />
 cs_4_1<br />
@@ -148,34 +309,16 @@ vs_5_0<br />
 vs_5_1<br />
 </dl></td></tr></tbody></table>
 
-
-
- 
-
 ## Version notes
-
-  : this option requires the D3dcompiler\_47.dll or a later version of the DLL.
 
 For Direct3D 12 refer to [Specifying Root Signatures in HLSL](https://docs.microsoft.com/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl), [Resource Binding in HLSL](https://docs.microsoft.com/windows/desktop/direct3d12/resource-binding-in-hlsl) and [Dynamic Indexing using HLSL 5.1](https://docs.microsoft.com/windows/desktop/direct3d12/dynamic-indexing-using-hlsl-5-1).
 
 In Direct3D 10 use the API to get the vertex, geometry, and pixel-shader profile best suited to a given device by calling these functions: [**D3D10GetVertexShaderProfile**](https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-d3d10getvertexshaderprofile), [**D3D10GetPixelShaderProfile**](https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-d3d10getpixelshaderprofile), and [**D3D10GetGeometryShaderProfile**](https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-d3d10getgeometryshaderprofile).
 
-In Direct3D 9 use the [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps) or [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdevicecaps) methods to retrieve the vertex and pixel-shader profiles supported by a device. The [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9) structure returned by those methods indicates the vertex and pixel-shader profiles supported by a device in its **VertexShaderVersion** and **PixelShaderVersion** members.
+In Direct3D 9 use the [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps) or [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdevicecaps) methods to retrieve the vertex and pixel-shader profiles supported by a device. The [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9) structure returned by those methods indicates the vertex and pixel-shader profiles supported by a device in its **VertexShaderVersion** and **PixelShaderVersion** members.
 
 For examples, see [Compiling with the Current Compiler](dx-graphics-tools-fxc-using.md).
 
 ## Related topics
 
-<dl> <dt>
-
-[Effect-Compiler Tool](fxc.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [Effect-Compiler Tool](fxc.md)

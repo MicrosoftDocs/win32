@@ -120,7 +120,7 @@ A hash algorithm to be used for performing RFC 3161–compliant time stamps. Thi
 *psRequest* \[in, optional\]
 </dt> <dd>
 
-Optional. The address of a [**CRYPT\_ATTRIBUTES**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_attributes) structure that contains additional attributes that are added to the time stamp request.
+Optional. The address of a [**CRYPT\_ATTRIBUTES**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_attributes) structure that contains additional attributes that are added to the time stamp request.
 
 This parameter is optional and can be **NULL** if it is not included.
 
@@ -145,7 +145,7 @@ Optional. The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.m
 *pCryptoPolicy* \[in, optional\]
 </dt> <dd>
 
-If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_strong_sign_para) structure that contains the parameters used to check for strong signatures. The time stamp must pass this cryptographic policy.
+If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_strong_sign_para) structure that contains the parameters used to check for strong signatures. The time stamp must pass this cryptographic policy.
 
 </dd> <dt>
 

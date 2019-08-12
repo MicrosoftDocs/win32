@@ -34,9 +34,9 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat) structure specifying the new paragraph formatting attributes. Only the attributes specified by the **dwMask** member are changed.
+Pointer to a [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat) structure specifying the new paragraph formatting attributes. Only the attributes specified by the **dwMask** member are changed.
 
-Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) structure, which is an extension of the [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat) structure. Before sending the **EM\_SETPARAFORMAT** message, set the structure's **cbSize** member to indicate the version of the structure.
+Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) structure, which is an extension of the [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat) structure. Before sending the **EM\_SETPARAFORMAT** message, set the structure's **cbSize** member to indicate the version of the structure.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ If the operation fails, the return value is zero.
 **Reference**
 </dt> <dt>
 
-[**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_paraformat)
+[**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat)
 </dt> <dt>
 
 [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2)

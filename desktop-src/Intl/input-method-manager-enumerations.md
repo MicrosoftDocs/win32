@@ -14,7 +14,7 @@ This section describes the IMM enumerations.
 
 | Enumeration              | Description                                                   |
 |--------------------------|---------------------------------------------------------------|
-| [**IMEUCT**](/windows/desktop/api/Msime/ne-msime-imeuct) | Type of user comment in a [**IMEWRD**](/windows/desktop/api/Msime/ns-msime-_imewrd) structure. |
+| [**IMEUCT**](/windows/desktop/api/Msime/ne-msime-imeuct) | Type of user comment in a [**IMEWRD**](/windows/desktop/api/Msime/ns-msime-imewrd) structure. |
 
 
 

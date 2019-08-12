@@ -36,7 +36,7 @@ Adds a single file to a job. Use this method if you want to download ranges of d
 
 </dd> </dl>
 
-When you add a file to a job, you specify the remote name and the local name of the file. For details on the format of the local and remote file names, see the [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-_bg_file_info) structure.
+When you add a file to a job, you specify the remote name and the local name of the file. For details on the format of the local and remote file names, see the [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-bg_file_info) structure.
 
 An upload job can contain only one file. The [**IBackgroundCopyJob::AddFile**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-addfile) and [**IBackgroundCopyJob::AddFileSet**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-addfileset) methods return BG\_E\_TOO\_MANY\_FILES if you try to add more than one file to an upload job. If you need to upload more than one file, consider using a CAB or ZIP file.
 

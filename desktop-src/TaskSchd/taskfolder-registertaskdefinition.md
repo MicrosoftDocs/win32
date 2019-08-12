@@ -63,7 +63,7 @@ The definition of the task that is registered.
 *flags* \[in\]
 </dt> <dd>
 
-A [**TASK\_CREATION**](/windows/desktop/api/taskschd/ne-taskschd-_task_creation) constant.
+A [**TASK\_CREATION**](/windows/desktop/api/taskschd/ne-taskschd-task_creation) constant.
 
 
 

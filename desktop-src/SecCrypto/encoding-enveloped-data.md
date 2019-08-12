@@ -41,9 +41,9 @@ To use low-level message functions to accomplish the typical tasks just listed, 
 1.  Create or retrieve the content.
 2.  Get a cryptographic provider.
 3.  Get a recipient certificate.
-4.  Initialize the [**CMSG\_ENVELOPED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info) structure.
+4.  Initialize the [**CMSG\_ENVELOPED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cmsg_enveloped_encode_info) structure.
 5.  Call [**CryptMsgCalculateEncodedLength**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength) to get the size of the encoded message BLOB. Allocate memory for it.
-6.  Call [**CryptMsgOpenToEncode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentoencode), passing in CMSG\_ENVELOPED for *dwMsgType* and a pointer to [**CMSG\_ENVELOPED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info) for *pvMsgEncodeInfo*. As a result of this call, you will get a handle to the opened message.
+6.  Call [**CryptMsgOpenToEncode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentoencode), passing in CMSG\_ENVELOPED for *dwMsgType* and a pointer to [**CMSG\_ENVELOPED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cmsg_enveloped_encode_info) for *pvMsgEncodeInfo*. As a result of this call, you will get a handle to the opened message.
 7.  Call [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate), passing in the handle retrieved in step 6 and a pointer to the data that is to be encrypted, enveloped, and encoded. This function can be called as many times as necessary to complete the encoding process.
 8.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in the handle retrieved in step 6 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire PKCS \#7 message.
 

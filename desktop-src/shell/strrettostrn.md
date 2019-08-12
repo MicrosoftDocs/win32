@@ -27,7 +27,7 @@ topic_type:
 
 # StrRetToStrN function
 
-Takes an [**STRRET**](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure returned by [**IShellFolder::GetDisplayNameOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof), converts it to a string, and places the result in a buffer.
+Takes an [**STRRET**](/windows/desktop/api/Shtypes/ns-shtypes-strret) structure returned by [**IShellFolder::GetDisplayNameOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof), converts it to a string, and places the result in a buffer.
 
 ## Syntax
 
@@ -70,7 +70,7 @@ Size of *pszOut*, in characters. If *cchOut* is too small, the string will be tr
 
 Type: **LPSTRRET**
 
-Pointer to an [**STRRET**](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure. When the function returns, this pointer will no longer be valid.
+Pointer to an [**STRRET**](/windows/desktop/api/Shtypes/ns-shtypes-strret) structure. When the function returns, this pointer will no longer be valid.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ Pointer to an [**STRRET**](/windows/desktop/api/Shtypes/ns-shtypes-_strret) stru
 
 Type: **LPCITEMIDLIST**
 
-Pointer to the item's [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure.
+Pointer to the item's [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure.
 
 </dd> </dl>
 

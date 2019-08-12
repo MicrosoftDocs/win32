@@ -35,9 +35,9 @@ Implicit UNC connections are made by the function responsible for the connection
 
 The use functions are available at the following information levels:
 
--   [**USE\_INFO\_0**](/windows/desktop/api/Lmuse/ns-lmuse-_use_info_0)
--   [**USE\_INFO\_1**](/windows/desktop/api/Lmuse/ns-lmuse-_use_info_1)
--   [**USE\_INFO\_2**](/windows/desktop/api/Lmuse/ns-lmuse-_use_info_2)
+-   [**USE\_INFO\_0**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_0)
+-   [**USE\_INFO\_1**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_1)
+-   [**USE\_INFO\_2**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_2)
 
  
 

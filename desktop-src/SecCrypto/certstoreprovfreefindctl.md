@@ -46,7 +46,7 @@ BOOL CertStoreProvFreeFindCTL(
 *pCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context) structure.
+A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) structure.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 [**CertStoreProvFindCTL**](certstoreprovfindctl.md)
 </dt> <dt>
 
-[**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context)
+[**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context)
 </dt> </dl>
 
  

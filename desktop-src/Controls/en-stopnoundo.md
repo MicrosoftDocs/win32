@@ -36,7 +36,7 @@ EN_STOPNOUNDO
 *lParam* 
 </dt> <dd>
 
-An [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure.
+An [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure.
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ The parent window will always get a [**WM\_NOTIFY**](wm-notify.md) message for t
 **Reference**
 </dt> <dt>
 
-[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr)
+[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)

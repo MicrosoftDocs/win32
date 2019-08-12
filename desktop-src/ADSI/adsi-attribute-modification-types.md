@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # ADSI Attribute Modification Types
 
-The following constants are used with the **dwControlCode** member of [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) structure to specify the type of operation to be performed when an attribute is modified with the [**IDirectoryObject::SetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes) method. For more information about using these values, see [Modifying Attributes with ADSI](modifying-attributes-with-adsi.md).
+The following constants are used with the **dwControlCode** member of [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) structure to specify the type of operation to be performed when an attribute is modified with the [**IDirectoryObject::SetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes) method. For more information about using these values, see [Modifying Attributes with ADSI](modifying-attributes-with-adsi.md).
 
 <dl> <dt>
 
@@ -80,7 +80,7 @@ Causes the specified attribute values to be removed from an object.
 
 ## Remarks
 
-These constants are intended to be used with the [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) structure in the [**IDirectoryObject::SetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes) method. These constants should not be confused with members of the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027) enumeration, which are intended to be used with the [**IADs::PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) method.
+These constants are intended to be used with the [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) structure in the [**IDirectoryObject::SetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes) method. These constants should not be confused with members of the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027) enumeration, which are intended to be used with the [**IADs::PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) method.
 
 ## Requirements
 
@@ -98,7 +98,7 @@ These constants are intended to be used with the [**ADS\_ATTR\_INFO**](/windows/
 
 <dl> <dt>
 
-[**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info)
+[**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info)
 </dt> <dt>
 
 [**IDirectoryObject::SetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes)

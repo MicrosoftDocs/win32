@@ -12,8 +12,8 @@ The following structures are used with structured exception handling:
 
 <dl>
 
-[**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-_exception_pointers)  
-[**EXCEPTION\_RECORD**](/windows/desktop/api/WinNT/ns-winnt-_exception_record)  
+[**EXCEPTION\_POINTERS**](/windows/desktop/api/WinNT/ns-winnt-exception_pointers)  
+[**EXCEPTION\_RECORD**](/windows/desktop/api/WinNT/ns-winnt-exception_record)  
 </dl>
 
  

@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 The MGM API use the following structures:
 
-[**MGM\_IF\_ENTRY**](/windows/desktop/api/Mgm/ns-mgm-_mgm_if_entry)
+[**MGM\_IF\_ENTRY**](/windows/desktop/api/Mgm/ns-mgm-mgm_if_entry)
 
-[**ROUTING\_PROTOCOL\_CONFIG**](/windows/desktop/api/Mgm/ns-mgm-_routing_protocol_config)
+[**ROUTING\_PROTOCOL\_CONFIG**](/windows/desktop/api/Mgm/ns-mgm-routing_protocol_config)
 
-[**SOURCE\_GROUP\_ENTRY**](/windows/desktop/api/Mgm/ns-mgm-_source_group_entry)
+[**SOURCE\_GROUP\_ENTRY**](/windows/desktop/api/Mgm/ns-mgm-source_group_entry)
 
  
 

@@ -16,7 +16,7 @@ To retrieve and decode previously stored private data, call [**LsaRetrievePrivat
 
 Before you can store or retrieve private data, your application must get a handle to the local [**Policy**](policy-object.md) object, as demonstrated in [Opening a Policy Object Handle](opening-a-policy-object-handle.md).
 
-The following example creates a local private data object. Note that the function InitLsaString converts a [*Unicode*](https://docs.microsoft.com/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
+The following example creates a local private data object. Note that the function InitLsaString converts a [*Unicode*](https://docs.microsoft.com/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
 
 ```C++

@@ -44,7 +44,7 @@ HRESULT CALLBACK Subtract (const WS_OPERATION_CONTEXT* context,
 }
 ```
 
-Define the service contract by setting the fields of a [**WS\_SERVICE\_CONTRACT**](/windows/desktop/api/WebServices/ns-webservices-_ws_service_contract) structure.
+Define the service contract by setting the fields of a [**WS\_SERVICE\_CONTRACT**](/windows/desktop/api/WebServices/ns-webservices-ws_service_contract) structure.
 
 ``` syntax
 static const DefaultBinding_ICalculatorFunctionTable calculatorFunctions = {Add, Subtract};

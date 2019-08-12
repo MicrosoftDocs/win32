@@ -40,21 +40,21 @@
       - name: "Accessibility"
         items: 
         - name: "Overview"
-          href: accessibility.md
+          href: accessibility/accessibility.md
         - name: "What's new in Windows accessibility and automation"
-          href: accessibility-whatsnew.md
+          href: accessibility/accessibility-whatsnew.md
         - name: "Developing accessible Windows applications"
-          href: accessibility-appdev.md
+          href: accessibility/accessibility-appdev.md
         - name: "Developing accessible UI frameworks"
-          href: accessibility-uiframeworkdev.md
+          href: accessibility/accessibility-uiframeworkdev.md
         - name: "Developing assistive technology for Windows"
-          href: accessibility-atdev.md
+          href: accessibility/accessibility-atdev.md
         - name: "Testing for accessibility"
-          href: accessibility-testwithuia.md
+          href: accessibility/accessibility-testwithuia.md
         - name: "Legacy accessibility and automation technology"
-          href: accessibility-legacy.md
+          href: accessibility/accessibility-legacy.md
         - name: "Accessibility and automation feature reference"
-          href: accessibility-reference.md
+          href: accessibility/accessibility-reference.md
       - name: "Desktop App User Interface"
         items: 
         - name: "Overview"
@@ -152,13 +152,7 @@
         - name: "Background Intelligent Transfer Service"
           href: bits/background-intelligent-transfer-service-portal.md
         - name: "Backup"
-          items: 
-          - name: "Overview"
-            href: backup.md
-          - name: "Backup"
-            href: backup/backup.md
-          - name: "Volume Shadow Copy Service"
-            href: vss/volume-shadow-copy-service-portal.md
+          href: backup/backup.md
         - name: "Cloud Sync Engines"
           href: cfapi/cloud-files-api-portal.md
         - name: "Distributed File System"
@@ -173,10 +167,14 @@
           href: fileio/file-systems.md
         - name: "Projected File System"
           href: projfs/projected-file-system.md
+        - name: "Persistent Memory Programming"
+          href: persistent-memory-programming-in-windows---nvml-integration.md
         - name: "Virtual Storage"
           href: https://docs.microsoft.com/windows/desktop/VStor/virtual-storage
         - name: "Virtual Disk Service"
           href: https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal
+        - name: "Volume Shadow Copy Service"
+          href: vss/volume-shadow-copy-service-portal.md
       - name: "Devices"
         items: 
         - name: "Overview"
@@ -205,8 +203,6 @@
         items: 
         - name: "Overview"
           href: diagnostics.md
-        - name: "Assessment Execution Engine"
-          href: axe-access-portal.md
         - name: "Debugging and Error Handling"
           items: 
           - name: "Overview"
@@ -279,6 +275,8 @@
               href: direct3dhlsl/dx-graphics-hlsl.md
             - name: "DDS"
               href: direct3ddds/dx-graphics-dds.md
+          - name: "DXCore"
+            href: dxcore/dxcore.md
           - name: "DirectWrite"
             href: directwrite/direct-write-portal.md
           - name: "DirectXMath"

@@ -42,8 +42,8 @@ The following functions are used with canonicalization:
 
 The following structures are used with canonicalization:
 
--   [**WS\_XML\_CANONICALIZATION\_INCLUSIVE\_PREFIXES**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_canonicalization_inclusive_prefixes)
--   [**WS\_XML\_CANONICALIZATION\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_canonicalization_property)
+-   [**WS\_XML\_CANONICALIZATION\_INCLUSIVE\_PREFIXES**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_canonicalization_inclusive_prefixes)
+-   [**WS\_XML\_CANONICALIZATION\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_canonicalization_property)
 
  
 

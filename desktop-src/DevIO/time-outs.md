@@ -14,7 +14,7 @@ When an application opens a communications resource, the system sets the resourc
 
 Two types of time-outs are enabled by the time-out parameters. An interval time-out occurs when the time between the receipt of any two characters exceeds a specified number of milliseconds. Timing starts when the first character is received and is restarted when each new character is received. A total time-out occurs when the total amount of time consumed by a read operation exceeds a calculated number of milliseconds. Timing starts immediately when the I/O operation begins. Write operations support only total time-outs. Read operations support both interval and total time-outs, which can be used separately or combined.
 
-The time, in milliseconds, of the total time-out period for a read or write operation is calculated by using the multiplier and constant values from the [**COMMTIMEOUTS**](/windows/desktop/api/Winbase/ns-winbase-_commtimeouts) structure specified in the [**GetCommTimeouts**](/windows/desktop/api/Winbase/nf-winbase-getcommtimeouts) or [**SetCommTimeouts**](/windows/desktop/api/Winbase/nf-winbase-setcommtimeouts) function. The following formula is used:
+The time, in milliseconds, of the total time-out period for a read or write operation is calculated by using the multiplier and constant values from the [**COMMTIMEOUTS**](/windows/desktop/api/Winbase/ns-winbase-commtimeouts) structure specified in the [**GetCommTimeouts**](/windows/desktop/api/Winbase/nf-winbase-getcommtimeouts) or [**SetCommTimeouts**](/windows/desktop/api/Winbase/nf-winbase-setcommtimeouts) function. The following formula is used:
 
 
 ```C++

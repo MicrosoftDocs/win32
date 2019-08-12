@@ -23,8 +23,8 @@ The following table lists related interfaces, enumerations, and structures.
 | Type                                              | Element                                                                                                                                                          |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces that are always exposed by this object | [**IVdsLunPlex**](/windows/desktop/api/Vds/nn-vds-ivdslunplex).                                                                                                                              |
-| Associated enumerations                           | [**VDS\_LUN\_PLEX\_FLAG**](/windows/desktop/api/Vds/ne-vds-_vds_lun_plex_flag), [**VDS\_LUN\_PLEX\_STATUS**](/windows/desktop/api/Vds/ne-vds-_vds_lun_plex_status), and [**VDS\_LUN\_PLEX\_TYPE**](/windows/desktop/api/Vds/ne-vds-_vds_lun_plex_type). |
-| Associated structures                             | [**VDS\_LUN\_PLEX\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_lun_plex_prop).                                                                                                               |
+| Associated enumerations                           | [**VDS\_LUN\_PLEX\_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_lun_plex_flag), [**VDS\_LUN\_PLEX\_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_lun_plex_status), and [**VDS\_LUN\_PLEX\_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_lun_plex_type). |
+| Associated structures                             | [**VDS\_LUN\_PLEX\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_lun_plex_prop).                                                                                                               |
 
 
 

@@ -15,7 +15,7 @@ Sets the protection level for an output protection mechanism.
 |              |                                                                                                     |
 |--------------|-----------------------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_PROTECTION\_LEVEL                                                                         |
-| Input data   | An [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_set_protection_level_parameters) structure |
+| Input data   | An [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_protection_level_parameters) structure |
 
 
 

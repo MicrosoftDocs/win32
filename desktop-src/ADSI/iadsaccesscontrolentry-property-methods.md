@@ -83,7 +83,7 @@ HRESULT put_AccessMask(
 
 Contains a set of flags that specifies if other containers or objects can inherit the ACE. Valid values for Active Directory object are defined in the [**ADS\_ACEFLAG\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0003) enumeration.
 
-For more information and possible values for file, file share, and registry objects, see the **AceFlags** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header) structure.
+For more information and possible values for file, file share, and registry objects, see the **AceFlags** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
 <dt>
 
@@ -113,7 +113,7 @@ HRESULT put_AceFlags(
 
 Contains a value that indicates the type of ACE. Valid values for Active Directory objects are defined in the [**ADS\_ACETYPE\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0002) enumeration.
 
-For more information and possible values for file, file share, and registry objects, see the **AceType** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header) structure.
+For more information and possible values for file, file share, and registry objects, see the **AceType** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
 <dt>
 

@@ -87,7 +87,7 @@ During streaming, the client can call [**IMFStreamSink::PlaceMarker**](/windows/
 
 Markers provide a way for the client to indicate specific points in the stream. A marker consists of the following information:
 
--   The marker type, defined as a member of the [**MFSTREAMSINK\_MARKER\_TYPE**](/windows/desktop/api/mfidl/ne-mfidl-_mfstreamsink_marker_type) enumeration.
+-   The marker type, defined as a member of the [**MFSTREAMSINK\_MARKER\_TYPE**](/windows/desktop/api/mfidl/ne-mfidl-mfstreamsink_marker_type) enumeration.
 -   Data associated with the marker. The meaning of the data depends on the marker type. Some marker types do not have data.
 -   Optional data for the client's own use.
 

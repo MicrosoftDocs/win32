@@ -34,7 +34,7 @@ Not used; must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-_tageditballoontip) structure that contains information about the balloon tip to display.
+A pointer to an [**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-editballoontip) structure that contains information about the balloon tip to display.
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 **Reference**
 </dt> <dt>
 
-[**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-_tageditballoontip)
+[**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-editballoontip)
 </dt> <dt>
 
 [**Edit\_ShowBalloonTip**](/windows/desktop/api/Commctrl/nf-commctrl-edit_showballoontip)

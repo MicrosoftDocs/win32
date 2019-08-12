@@ -7,9 +7,8 @@ ms.assetid: 30B02395-8407-4B70-A70F-F0DEE20D8ACC
 api_name: 
 api_type: 
 api_location: 
-topic_type: 
- - kbArticle
-
+topic_type:
+- kbArticle
 ---
 
 # Deprecated Shell APIs
@@ -571,7 +570,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist"><strong>SHChangeDWORDAsIDList</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-_shchangeproductkeyasidlist"><strong>SHChangeProductKeyAsIDList</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shchangeproductkeyasidlist"><strong>SHChangeProductKeyAsIDList</strong></a><br/></td>
 
 </tr>
 <tr class="odd">

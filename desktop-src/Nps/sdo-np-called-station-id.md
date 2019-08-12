@@ -13,7 +13,7 @@ Phone number dialed by user.
 
 **LDAP Name:** msNPCalledStationID
 
-**ID:** 4103 = [**IAS\_ATTRIBUTE\_NP\_CALLED\_STATION\_ID**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
+**ID:** 4103 = [**IAS\_ATTRIBUTE\_NP\_CALLED\_STATION\_ID**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** String
 

@@ -18,8 +18,8 @@ The following structures are used by the monitor configuration functions.
 
 | Structure                                      | Description                                                                 |
 |------------------------------------------------|-----------------------------------------------------------------------------|
-| [**MC\_TIMING\_REPORT**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-_mc_timing_report) | Contains information from a monitor's timing report.                        |
-| [**PHYSICAL\_MONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/ns-physicalmonitorenumerationapi-_physical_monitor)  | Contains a handle and text description corresponding to a physical monitor. |
+| [**MC\_TIMING\_REPORT**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-mc_timing_report) | Contains information from a monitor's timing report.                        |
+| [**PHYSICAL\_MONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/ns-physicalmonitorenumerationapi-physical_monitor)  | Contains a handle and text description corresponding to a physical monitor. |
 
 
 

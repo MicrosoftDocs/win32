@@ -447,7 +447,7 @@ HRESULT GetSourceFlags(IMFSourceReader *pReader, ULONG *pulFlags)
 
 
 
-This function gets a set of capabilities flags from the source. These flags are defined in the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics) enumeration. Two flags relate to seeking:
+This function gets a set of capabilities flags from the source. These flags are defined in the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics) enumeration. Two flags relate to seeking:
 
 
 

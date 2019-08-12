@@ -14,7 +14,7 @@ Gets the characteristics of the media source from the [Source Reader](source-rea
 
 **UINT32**
 
-The value is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics) enumeration.
+The value is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics) enumeration.
 
 ## Remarks
 

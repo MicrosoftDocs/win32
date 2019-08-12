@@ -27,7 +27,7 @@ These conditions are set by calling [**IScheduledWorkItem::SetFlags**](/windows/
 
 An event-based trigger that is fired when the computer becomes idle for a specific amount of time.
 
-Idle triggers are created by setting the TASK\_TRIGGER\_TYPE member of the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger) structure to TASK\_EVENT\_TRIGGER\_ON\_IDLE.
+Idle triggers are created by setting the TASK\_TRIGGER\_TYPE member of the [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-task_trigger) structure to TASK\_EVENT\_TRIGGER\_ON\_IDLE.
 
 </dd> <dt>
 

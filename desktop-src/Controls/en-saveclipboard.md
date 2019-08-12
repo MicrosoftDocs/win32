@@ -36,7 +36,7 @@ EN_SAVECLIPBOARD
 *lParam* 
 </dt> <dd>
 
-An [**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-_ensaveclipboard) structure that contains information about clipboard information.
+An [**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard) structure that contains information about clipboard information.
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ The parent window will always get a [**WM\_NOTIFY**](wm-notify.md) message for t
 **Reference**
 </dt> <dt>
 
-[**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-_ensaveclipboard)
+[**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard)
 </dt> </dl>
 
  

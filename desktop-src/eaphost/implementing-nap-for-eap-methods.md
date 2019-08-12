@@ -32,13 +32,13 @@ If the supplicant is shutting down or choosing to no longer receive notification
 
 For EAPHost API related NAP information refer to the following topics.
 
--   [**EAP\_ATTRIBUTE\_TYPE**](/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_attribute_type)
--   [**EAP\_ERROR**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error)
+-   [**EAP\_ATTRIBUTE\_TYPE**](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type)
+-   [**EAP\_ERROR**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_error)
 -   [EAPHost Supplicant Frequently Asked Questions](eaphost-supplicant-frequently-asked-questions.md)
 -   [**EAP Method Properties**](eap-method-properties.md)
 -   [**EapHostPeerBeginSession**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession)
 -   [**EAP Related Error and Information Constants**](eap-related-error-and-information-constants.md)
--   [**ISOLATION\_STATE**](/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state)
+-   [**ISOLATION\_STATE**](/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state)
 -   [**NotificationHandler**](/previous-versions/windows/desktop/api)
 
 ## Additional Resources

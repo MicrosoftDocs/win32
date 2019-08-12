@@ -42,7 +42,7 @@ All MFTs must implement this message. When it receives this message, the MFT sho
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type)
+[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type)
 </dt> </dl>
 
  

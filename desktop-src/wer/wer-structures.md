@@ -16,11 +16,11 @@ The following structures are used in Windows Error Reporting:
 
 [**STOWED\_EXCEPTION\_INFORMATION\_HEADER**](stowed-exception-information-header.md)  
 [**STOWED\_EXCEPTION\_INFORMATION\_V2**](stowed-exception-information-v2.md)  
-[**WER\_DUMP\_CUSTOM\_OPTIONS**](/windows/desktop/api/Werapi/ns-werapi-_wer_dump_custom_options)  
-[**WER\_EXCEPTION\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-_wer_exception_information)  
-[**WER\_REPORT\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-_wer_report_information)  
-[**WER\_REPORT\_METADATA\_V2**](/windows/desktop/api/Werapi/ns-werapi-_wer_report_metadata_v2)  
-[**WER\_RUNTIME\_EXCEPTION\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-_wer_runtime_exception_information)  
+[**WER\_DUMP\_CUSTOM\_OPTIONS**](/windows/desktop/api/Werapi/ns-werapi-wer_dump_custom_options)  
+[**WER\_EXCEPTION\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-wer_exception_information)  
+[**WER\_REPORT\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-wer_report_information)  
+[**WER\_REPORT\_METADATA\_V2**](/windows/desktop/api/Werapi/ns-werapi-wer_report_metadata_v2)  
+[**WER\_RUNTIME\_EXCEPTION\_INFORMATION**](/windows/desktop/api/Werapi/ns-werapi-wer_runtime_exception_information)  
 </dl>
 
  

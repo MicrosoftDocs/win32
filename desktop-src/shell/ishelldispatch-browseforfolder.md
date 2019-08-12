@@ -73,7 +73,7 @@ A **String** value that represents the title displayed inside the **Browse** dia
 
 Type: **Integer**
 
-An **Integer** value that contains the options for the method. This can be zero or a combination of the values listed under the **ulFlags** member of the [**BROWSEINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_browseinfoa) structure.
+An **Integer** value that contains the options for the method. This can be zero or a combination of the values listed under the **ulFlags** member of the [**BROWSEINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-browseinfoa) structure.
 
 </dd> <dt>
 

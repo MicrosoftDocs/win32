@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFNETSOURCE\_PROXYSETTINGS property
 
-Specifies the configuration setting for the default proxy locator. The value of this property is a member of the [**MFNET\_PROXYSETTINGS**](/windows/desktop/api/mfidl/ne-mfidl-_mfnet_proxysettings) enumeration.
+Specifies the configuration setting for the default proxy locator. The value of this property is a member of the [**MFNET\_PROXYSETTINGS**](/windows/desktop/api/mfidl/ne-mfidl-mfnet_proxysettings) enumeration.
 
 
 

@@ -61,7 +61,7 @@ The VCP code to query.
 *pvct* \[out, optional\]
 </dt> <dd>
 
-Receives the VCP code type, as a member of the [**MC\_VCP\_CODE\_TYPE**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/ne-lowlevelmonitorconfigurationapi-_mc_vcp_code_type) enumeration.
+Receives the VCP code type, as a member of the [**MC\_VCP\_CODE\_TYPE**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/ne-lowlevelmonitorconfigurationapi-mc_vcp_code_type) enumeration.
 
 </dd> <dt>
 

@@ -57,7 +57,7 @@ When an icon is added to the notification area on Windows 7, it is added to the
 
  
 
-The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure sent in the call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) contains information that specifies both the notification area icon and the notification itself. The following are those items specific to the notification area icon itself that can be set through **NOTIFYICONDATA**.
+The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure sent in the call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) contains information that specifies both the notification area icon and the notification itself. The following are those items specific to the notification area icon itself that can be set through **NOTIFYICONDATA**.
 
 -   The resource from which the icon is taken.
 -   A unique identifier for the icon.
@@ -79,7 +79,7 @@ The application responsible for the notification area icon should handle a mouse
 
 The placement of a popup window or dialog box that results from the click should be placed near the coordinate of the click in the notification area. Use the [**CalculatePopupWindowPosition**](https://msdn.microsoft.com/en-us/library/Dd565861(v=VS.85).aspx) to determine its location.
 
-The icon can be added to the notification area without displaying a notification by defining only the icon-specific members of [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) (discussed above) and calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) as shown here:
+The icon can be added to the notification area without displaying a notification by defining only the icon-specific members of [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) (discussed above) and calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) as shown here:
 
 
 ```
@@ -95,7 +95,7 @@ You can also add the icon to the notification area and display a notification al
 
 ### Define the NOTIFYICONDATA Version
 
-As Windows has progressed, the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure has expanded to include more members to define more functionality. Constants are used to declare which version of **NOTIFYICONDATA** to use with your notification area icon, to allow for backward compatibility. Unless there is a compelling reason to do otherwise, it is strongly recommended that you use the NOTIFYICON\_VERSION\_4 version, introduced in Windows Vista. This version provides the full available functionality, including the preferred ability to identify the notification area icon though a registered GUID, a superior callback mechanism, and better accessibility.
+As Windows has progressed, the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure has expanded to include more members to define more functionality. Constants are used to declare which version of **NOTIFYICONDATA** to use with your notification area icon, to allow for backward compatibility. Unless there is a compelling reason to do otherwise, it is strongly recommended that you use the NOTIFYICON\_VERSION\_4 version, introduced in Windows Vista. This version provides the full available functionality, including the preferred ability to identify the notification area icon though a registered GUID, a superior callback mechanism, and better accessibility.
 
 Set the version through the following calls:
 
@@ -120,14 +120,14 @@ A notification is a special type of balloon tooltip control. It contains a title
 
 ![screen shot of notification balloon indicating that battery power is low](images/taskbar/notificationballoon.png)
 
-The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure sent in the call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) contains information that specifies both the notification area icon and the notification balloon itself. The following are those items specific to the notification that can be set through **NOTIFYICONDATA**.
+The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure sent in the call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) contains information that specifies both the notification area icon and the notification balloon itself. The following are those items specific to the notification that can be set through **NOTIFYICONDATA**.
 
 -   An icon to display in the notification balloon, which is specified by the notification type. The size of the icon can be specified, as well as custom icons.
 -   A notification title. This title should be a maximum of 48 characters long in English (to accommodate localization). The title is the first line of the notification, and set apart through the use of font size, color, and weight.
 -   Text for use in the body of the notification. This text should be a maximum of 200 characters in English (to accommodate localization).
 -   Whether the notification should be discarded if it cannot be displayed immediately.
 -   A timeout for the notification. This setting is ignored in Windows Vista and later systems in favor of a system-wide accessibility timeout setting.
--   Whether the notification should respect quiet time, set through the [**NIIF\_RESPECT\_QUIET\_TIME**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) flag.
+-   Whether the notification should respect quiet time, set through the [**NIIF\_RESPECT\_QUIET\_TIME**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) flag.
 
 > [!Note]  
 > The [**IUserNotification**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification) and [**IUserNotification2**](/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2) interfaces are Component Object Model (COM) wrappers for [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona). However, at this time, they do not provide the full NOTIFYICON\_VERSION\_4 functionality available through **Shell\_NotifyIcon** directly, including the use of a GUID to identify the notification area icon.
@@ -149,7 +149,7 @@ Notifications sent during quiet time are discarded unshown. Design guidelines as
 
 ### Display the Notification
 
-Once you have set the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) version and defined the notification in a **NOTIFYICONDATA** structure, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to display the icon.
+Once you have set the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) version and defined the notification in a **NOTIFYICONDATA** structure, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to display the icon.
 
 -   If the notification area icon is not present, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to add the icon. Do this for both transient and non-transient icons.
     ```
@@ -169,7 +169,7 @@ Once you have set the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shel
 
     
 
-The following code shows an example of setting [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) data and sending it through [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona). Note that this example identifies the notification icon through a GUID (preferred in Windows 7).
+The following code shows an example of setting [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) data and sending it through [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona). Note that this example identifies the notification icon through a GUID (preferred in Windows 7).
 
 
 ```
@@ -204,7 +204,7 @@ The following code shows an example of setting [**NOTIFYICONDATA**](/windows/des
 
 ### Removing an Icon
 
-To remove an icon—for instance, when you have only added the icon temporarily to broadcast a notification—call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona)as shown here. Only a minimal [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) structure that identifies the icon is needed in this call.
+To remove an icon—for instance, when you have only added the icon temporarily to broadcast a notification—call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona)as shown here. Only a minimal [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure that identifies the icon is needed in this call.
 
 
 ```
@@ -234,7 +234,7 @@ See the [NotificationIcon Sample](samples-notificationicon.md) sample in the Win
 [**Shell\_NotifyIconGetRect**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicongetrect)
 </dt> <dt>
 
-[**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa)
+[**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa)
 </dt> <dt>
 
 [**SHQueryUserNotificationState**](/windows/desktop/api/Shellapi/nf-shellapi-shqueryusernotificationstate)

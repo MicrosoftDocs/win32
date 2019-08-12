@@ -30,7 +30,7 @@ Retrieve information concerning the title of a tooltip control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TTGETTITLE**](/windows/desktop/api/Commctrl/ns-commctrl-_ttgettitle) structure that contains information about a tooltip title.
+Pointer to a [**TTGETTITLE**](/windows/desktop/api/Commctrl/ns-commctrl-ttgettitle) structure that contains information about a tooltip title.
 
 </dd> </dl>
 

@@ -20,7 +20,7 @@ To get this attribute, call [**IMFMediaSourceEx::GetStreamAttributes**](/windows
 
 ## Remarks
 
-The value of the attribute is a [**MFPinholeCameraIntrinsics**](/windows/desktop/api/mfapi/ns-mfapi-_mfpinholecameraintrinsics).
+The value of the attribute is a [**MFPinholeCameraIntrinsics**](/windows/desktop/api/mfapi/ns-mfapi-mfpinholecameraintrinsics).
 
 ## Requirements
 

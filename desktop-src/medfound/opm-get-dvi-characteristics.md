@@ -16,7 +16,7 @@ Queries whether a digital video interface (DVI) connector supports DVI version 1
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_DVI\_CHARACTERISTICS                                              |
 | Input data   | None                                                                        |
-| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure |
+| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure |
 
 
 
@@ -24,7 +24,7 @@ Queries whether a digital video interface (DVI) connector supports DVI version 1
 
 ## Remarks
 
-If this query succeeds, the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure contains one of the following values.
+If this query succeeds, the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure contains one of the following values.
 
 
 

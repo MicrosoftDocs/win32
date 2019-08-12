@@ -13,8 +13,8 @@ The following procedures create a signed [*certificate trust list*](https://msdn
 **To create and sign a CTL**
 
 1.  Create an array of items to be stored in the [*CTL*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). In the case of trusted certificates, this must be the SHA1 or MD5 hashes of the trusted certificates.
-2.  Initialize a [**CTL\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_ctl_info) structure that includes the array of items just created.
-3.  Initialize a [**CMSG\_SIGNED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cmsg_signed_encode_info) structure.
+2.  Initialize a [**CTL\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_info) structure that includes the array of items just created.
+3.  Initialize a [**CMSG\_SIGNED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cmsg_signed_encode_info) structure.
 4.  Call [**CryptMsgEncodeAndSignCTL**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgencodeandsignctl). This function call returns a pointer to a signed, encoded CTL (in PKCS \#7 format) that contains the list of items created in step 1.
 
 **To add a CTL to a certificate store**

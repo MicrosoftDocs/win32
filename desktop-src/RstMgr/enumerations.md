@@ -14,12 +14,12 @@ The Restart Manager API contains the following enumerations:
 
 <dl>
 
-[**RM\_APP\_STATUS**](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_app_status)  
-[**RM\_APP\_TYPE**](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_app_type)  
-[**RM\_FILTER\_ACTION**](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_filter_action)  
-[**RM\_FILTER\_TRIGGER**](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_filter_trigger)  
-[**RM\_REBOOT\_REASON**](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_reboot_reason)  
-[**RM\_SHUTDOWN\_TYPE**](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_shutdown_type)  
+[**RM\_APP\_STATUS**](/windows/desktop/api/RestartManager/ne-restartmanager-rm_app_status)  
+[**RM\_APP\_TYPE**](/windows/desktop/api/RestartManager/ne-restartmanager-rm_app_type)  
+[**RM\_FILTER\_ACTION**](/windows/desktop/api/RestartManager/ne-restartmanager-rm_filter_action)  
+[**RM\_FILTER\_TRIGGER**](/windows/desktop/api/RestartManager/ne-restartmanager-rm_filter_trigger)  
+[**RM\_REBOOT\_REASON**](/windows/desktop/api/RestartManager/ne-restartmanager-rm_reboot_reason)  
+[**RM\_SHUTDOWN\_TYPE**](/windows/desktop/api/RestartManager/ne-restartmanager-rm_shutdown_type)  
 </dl>
 
  

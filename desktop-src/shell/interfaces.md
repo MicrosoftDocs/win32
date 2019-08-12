@@ -7,9 +7,8 @@ ms.assetid: 05223970-14f5-44c2-937b-07826b8aecf9
 api_name: 
 api_type: 
 api_location: 
-topic_type: 
- - kbArticle
-
+topic_type:
+- kbArticle
 ---
 
 # Shell Interfaces
@@ -159,7 +158,7 @@ As of Windows 8, the only functionality of this interface that is supported is 
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>IColumnManager</strong></a><br/></td>
-<td>Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey"><strong>PROPERTYKEY</strong></a> structure, which names a property.<br/></td>
+<td>Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> structure, which names a property.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a><br/></td>

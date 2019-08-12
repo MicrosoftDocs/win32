@@ -12,15 +12,15 @@ ms.date: 05/31/2018
 Display functions and interfaces in Active Directory Domain Services use the following structures to contain display data about directory user interface elements:
 
 -   [**CQFORM**](/windows/desktop/api/Cmnquery/ns-cmnquery-cqform)
--   [**CQPAGE**](/windows/desktop/api/Cmnquery/ns-cmnquery-_cqpage)
+-   [**CQPAGE**](/windows/desktop/api/Cmnquery/ns-cmnquery-cqpage)
 -   [**DSA\_SEC\_PAGE\_INFO**](dsa-sec-page-info.md)
--   [**DOMAINDESC**](/windows/desktop/api/Dsclient/ns-dsclient-_domaindesc)
+-   [**DOMAINDESC**](/windows/desktop/api/Dsclient/ns-dsclient-domaindesc)
 -   [**DOMAINTREE**](/windows/desktop/api/Dsclient/ns-dsclient-domain_tree)
 -   [**DSBITEM**](/windows/desktop/api/Dsclient/ns-dsclient-dsbitema)
 -   [**DSBROWSEINFO**](/windows/desktop/api/Dsclient/ns-dsclient-dsbrowseinfoa)
 -   [**DSCLASSCREATIONINFO**](/windows/desktop/api/Dsclient/ns-dsclient-dsclasscreationinfo)
 -   [**DSCOLUMN**](/windows/desktop/api/Dsquery/ns-dsquery-dscolumn)
--   [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-_dsdisplayspecoptions)
+-   [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-dsdisplayspecoptions)
 -   [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject)
 -   [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames)
 -   [**DSPROPERTYPAGEINFO**](/windows/desktop/api/Dsclient/ns-dsclient-dspropertypageinfo)

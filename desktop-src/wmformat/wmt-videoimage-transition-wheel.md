@@ -22,7 +22,7 @@ The wheel transition reveals the new image by rotating four lines around a commo
 
 ## Parameters
 
-The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2) structure to which they are assigned.
+The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2) structure to which they are assigned.
 
 
 

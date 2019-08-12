@@ -14,7 +14,7 @@ You can use anisotropic texture filtering in conjunction with linear texture fil
 
 Your application must also set the degree of anisotropy to a value greater than one. Do this by calling the [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) method. Set the value of the first parameter to the integer index number (0-7) of the texture for which you are setting the degree of isotropy. Pass D3DSAMP\_MAXANISOTROPY as the value of the second parameter. The final parameter should be the degree of isotropy.
 
-You can disable isotropic filtering by setting the degree of isotropy to one; any value larger than one enables it. Check the MaxAnisotropy flag in the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure to determine the possible range of values for the degree of anisotropy.
+You can disable isotropic filtering by setting the degree of isotropy to one; any value larger than one enables it. Check the MaxAnisotropy flag in the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure to determine the possible range of values for the degree of anisotropy.
 
 ## Related topics
 

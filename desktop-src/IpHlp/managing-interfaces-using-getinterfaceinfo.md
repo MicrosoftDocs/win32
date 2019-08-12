@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Managing Interfaces Using GetInterfaceInfo
 
-The [**GetInterfaceInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo) function fills a pointer to an [**IP\_INTERFACE\_INFO**](/windows/desktop/api/Ipexport/ns-ipexport-_ip_interface_info) structure with information about the interfaces associated with the system.
+The [**GetInterfaceInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo) function fills a pointer to an [**IP\_INTERFACE\_INFO**](/windows/desktop/api/Ipexport/ns-ipexport-ip_interface_info) structure with information about the interfaces associated with the system.
 
 **To use GetInterfaceInfo**
 
-1.  Declare a pointer to an [**IP\_INTERFACE\_INFO**](/windows/desktop/api/Ipexport/ns-ipexport-_ip_interface_info) object called `pInfo`, and a **ULONG** object called `ulOutBufLen`. Also declare a **DWORD** object called `dwRetVal` (used for error checking).
+1.  Declare a pointer to an [**IP\_INTERFACE\_INFO**](/windows/desktop/api/Ipexport/ns-ipexport-ip_interface_info) object called `pInfo`, and a **ULONG** object called `ulOutBufLen`. Also declare a **DWORD** object called `dwRetVal` (used for error checking).
     ```C++
         ULONG               ulOutBufLen;
         DWORD               dwRetVal;
@@ -80,7 +80,7 @@ The [**GetInterfaceInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getinterfac
     
 
     > [!Note]  
-    > The %ws in the first line denotes a wide string. This is used because the **Name** attribute of the [**IP\_ADAPTER\_INDEX\_MAP**](/windows/desktop/api/Ipexport/ns-ipexport-_ip_adapter_index_map) structure `Adapter` is a **WCHAR**, which is a Unicode string.
+    > The %ws in the first line denotes a wide string. This is used because the **Name** attribute of the [**IP\_ADAPTER\_INDEX\_MAP**](/windows/desktop/api/Ipexport/ns-ipexport-ip_adapter_index_map) structure `Adapter` is a **WCHAR**, which is a Unicode string.
 
      
 

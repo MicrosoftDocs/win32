@@ -34,7 +34,7 @@ SHAppBarMessage(ABM_SETSTATE, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure. You must specify the **cbSize** and **hWnd** members when sending this message. Data for the desired state is sent in the **lParam** member using one of the following values.
+A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure. You must specify the **cbSize** and **hWnd** members when sending this message. Data for the desired state is sent in the **lParam** member using one of the following values.
 
 <dt>
 

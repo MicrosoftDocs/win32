@@ -34,12 +34,12 @@ The secure socket extension functions are as follows:
 
 The structures and enumerations used by the secure socket functions are as follows:
 
--   [**SOCKET\_PEER\_TARGET\_NAME**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_peer_target_name)
--   [**SOCKET\_SECURITY\_PROTOCOL**](/windows/desktop/api/Mstcpip/ne-mstcpip-_socket_security_protocol)
--   [**SOCKET\_SECURITY\_QUERY\_INFO**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_query_info)
--   [**SOCKET\_SECURITY\_QUERY\_TEMPLATE**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_query_template)
--   [**SOCKET\_SECURITY\_SETTINGS**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_settings)
--   [**SOCKET\_SECURITY\_SETTINGS\_IPSEC**](/windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_settings_ipsec)
+-   [**SOCKET\_PEER\_TARGET\_NAME**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_peer_target_name)
+-   [**SOCKET\_SECURITY\_PROTOCOL**](/windows/desktop/api/Mstcpip/ne-mstcpip-socket_security_protocol)
+-   [**SOCKET\_SECURITY\_QUERY\_INFO**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_query_info)
+-   [**SOCKET\_SECURITY\_QUERY\_TEMPLATE**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_query_template)
+-   [**SOCKET\_SECURITY\_SETTINGS**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_settings)
+-   [**SOCKET\_SECURITY\_SETTINGS\_IPSEC**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_settings_ipsec)
 
 The secure socket functions are simple to use for normal applications and are flexible enough for applications that need a high degree of control over their security. These functions make it possible to keep the underlying security mechanism hidden from the application. An application can specify generic security requirements and let the administrator control the security protocol that is used to support the requirements. While it is possible to extend these functions to add other security protocols, currently only IPsec integrates with the secure socket functions.
 

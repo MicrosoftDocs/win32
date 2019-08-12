@@ -4,7 +4,7 @@ description: Performs a function call to the instruction marked with the provide
 ms.assetid: 3c1ec529-1ee4-40d9-8ce5-f8e7a61fde9c
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -47,7 +47,7 @@ This instruction does the following:
 
 In vertex shader 2\_0, nesting calls are not allowed.
 
-In vertex shader 2\_x, the nesting depth is limited by the StaticFlowControlDepth element of the [**D3DVSHADERCAPS2\_0**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dvshadercaps2_0) structure. For more information, see [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps).
+In vertex shader 2\_x, the nesting depth is limited by the StaticFlowControlDepth element of the [**D3DVSHADERCAPS2\_0**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dvshadercaps2_0) structure. For more information, see [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps).
 
 In vertex shader 3\_0, four levels of call nesting are allowed.
 

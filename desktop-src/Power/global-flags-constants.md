@@ -38,7 +38,7 @@ The global flags constants are used to enable or disable user power policy optio
 
 <dl> <dt>
 
-[**GLOBAL\_USER\_POWER\_POLICY**](/windows/desktop/api/PowrProf/ns-powrprof-_global_user_power_policy)
+[**GLOBAL\_USER\_POWER\_POLICY**](/windows/desktop/api/PowrProf/ns-powrprof-global_user_power_policy)
 </dt> </dl>
 
  

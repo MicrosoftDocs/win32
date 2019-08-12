@@ -1,4 +1,4 @@
-﻿---
+---
 title: DNS Structures
 description: Domain Name System (DNS) structures navigation page.
 ms.assetid: 636399be-43a5-4ddf-b652-f8efb81fbf42
@@ -17,10 +17,10 @@ The following structures are defined for use with DNS:
 
 - [**DNS_ADDR**](/windows/desktop/api/Windns/ns-windns-_dnsaddr)
 - [**DNS_ADDR_ARRAY**](/windows/desktop/api/Windns/ns-windns-_dnsaddrarray)
-- [**DNS_HEADER**](/windows/desktop/api/Windns/ns-windns-_dns_header)
-- [**DNS_MESSAGE_BUFFER**](/windows/desktop/api/Windns/ns-windns-_dns_message_buffer)
+- [**DNS_HEADER**](/windows/desktop/api/Windns/ns-windns-dns_header)
+- [**DNS_MESSAGE_BUFFER**](/windows/desktop/api/Windns/ns-windns-dns_message_buffer)
 - [**DNS_PROXY_INFORMATION**](/windows/desktop/api/Windns/ns-windns-dns_proxy_information)
-- [**DNS_QUERY_REQUEST**](/windows/desktop/api/Windns/ns-windns-_dns_query_request)
+- [**DNS_QUERY_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_query_request)
 - [**DNS_RECORD**](/windows/desktop/api/Windns/ns-windns-_dnsrecorda)
 - [**DNS_RECORD_FLAGS**](/windows/desktop/api/Windns/ns-windns-_dnsrecordflags)
 - [**DNS_SERVICE_BROWSE_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_service_browse_request)
@@ -28,7 +28,7 @@ The following structures are defined for use with DNS:
 - [**DNS_SERVICE_INSTANCE**](/windows/desktop/api/Windns/ns-windns-dns_service_instance)
 - [**DNS_SERVICE_REGISTER_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_service_register_request)
 - [**DNS_SERVICE_RESOLVE_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_service_resolve_request)
-- [**IP4_ARRAY**](/windows/desktop/api/Windns/ns-windns-_ip4_array)
+- [**IP4_ARRAY**](/windows/desktop/api/Windns/ns-windns-ip4_array)
 - [**IP6_ADDRESS**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_0)
 - [**MDNS_QUERY_HANDLE**](/windows/desktop/api/Windns/ns-windns-mdns_query_handle)
 - [**MDNS_QUERY_REQUEST**](/windows/desktop/api/Windns/ns-windns-mdns_query_request)
@@ -61,6 +61,6 @@ The following Resource Record (RR) structures are also included in the DNS API. 
 - [**DNS_TXT_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_11)
 - [**DNS_WINS_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_40)
 - [**DNS_WINSR_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_41)
-- [**DNS_WIRE_QUESTION**](/windows/desktop/api/Windns/ns-windns-_dns_wire_question)
-- [**DNS_WIRE_RECORD**](/windows/desktop/api/Windns/ns-windns-_dns_wire_record)
+- [**DNS_WIRE_QUESTION**](/windows/desktop/api/Windns/ns-windns-dns_wire_question)
+- [**DNS_WIRE_RECORD**](/windows/desktop/api/Windns/ns-windns-dns_wire_record)
 - [**DNS_WKS_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_14)

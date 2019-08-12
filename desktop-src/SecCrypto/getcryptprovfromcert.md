@@ -61,7 +61,7 @@ The handle of the window to use as the owner of any dialog boxes that are displa
 *pCert* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context) structure for the certificate.
+A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) structure for the certificate.
 
 </dd> <dt>
 

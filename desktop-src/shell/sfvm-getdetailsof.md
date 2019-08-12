@@ -36,7 +36,7 @@ The zero-based ID of the column.
 *pDi* \[out\]
 </dt> <dd>
 
-A pointer to a [**DETAILSINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_detailsinfo) structure filled with the requested information.
+A pointer to a [**DETAILSINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-detailsinfo) structure filled with the requested information.
 
 </dd> </dl>
 

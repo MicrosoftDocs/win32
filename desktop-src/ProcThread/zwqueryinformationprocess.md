@@ -128,7 +128,7 @@ typedef struct _PROCESS_BASIC_INFORMATION {
 
 The **UniqueProcessId** member points to the system's unique identifier for this process. It is best to use the [**GetProcessId**](https://msdn.microsoft.com/en-us/library/ms683215(v=VS.85).aspx) function to retrieve this information.
 
-The **PebBaseAddress** member points to a [**PEB**](/windows/desktop/api/Winternl/ns-winternl-_peb) structure.
+The **PebBaseAddress** member points to a [**PEB**](/windows/desktop/api/Winternl/ns-winternl-peb) structure.
 
 The other members of this structure are reserved for internal use by the operating system.
 

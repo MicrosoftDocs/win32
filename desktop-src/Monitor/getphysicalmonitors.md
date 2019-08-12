@@ -46,7 +46,7 @@ NTSTATUS WINAPI GetPhysicalMonitors(
 *pstrDeviceName* \[in\]
 </dt> <dd>
 
-A pointer to a [**UNICODE\_STRING**](https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa) function.
+A pointer to a [**UNICODE\_STRING**](https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa) function.
 
 </dd> <dt>
 

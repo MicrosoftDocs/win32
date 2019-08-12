@@ -50,7 +50,7 @@ HRESULT CancelAsyncSearch(
 
 Type: **LPCITEMIDLIST**
 
-A pointer to an [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) for the search.
+A pointer to an [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) for the search.
 
 </dd> <dt>
 

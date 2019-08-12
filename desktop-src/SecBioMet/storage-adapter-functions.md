@@ -41,7 +41,7 @@ A storage adapter manages template databases. The following functions must be im
 | [**StorageAdapterQueryByContent**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_content_fn)<br/>               | Queries the database that is currently open for templates associated with a specified index vector.<br/>                          |
 | [**StorageAdapterQueryBySubject**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_subject_fn)<br/>               | Queries the database that is currently open for templates associated with a specified identity and sub-factor.<br/>               |
 | [**StorageAdapterQueryExtendedInfo**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_query_extended_info_fn)<br/>         | Determines the capabilities and limitations of the biometric storage component.<br/>                                              |
-| [**WbioQueryStorageInterface**](/windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerystorageinterface)<br/>                     | Retrieves a pointer to the [**WINBIO\_STORAGE\_INTERFACE**](/windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_storage_interface) structure for the storage adapter.<br/> |
+| [**WbioQueryStorageInterface**](/windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerystorageinterface)<br/>                     | Retrieves a pointer to the [**WINBIO\_STORAGE\_INTERFACE**](/windows/desktop/api/Winbio_adapter/ns-winbio_adapter-winbio_storage_interface) structure for the storage adapter.<br/> |
 
 
 

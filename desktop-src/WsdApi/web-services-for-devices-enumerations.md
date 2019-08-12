@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 The Web Services on Devices programming interface defines and uses the following enumerations:
 
 -   [**WSD\_CONFIG\_PARAM\_TYPE**](/windows/desktop/api/wsdbase/ne-wsdbase-__midl___midl_itf_wsdbase_0000_0000_0001)
--   [**WSD\_PROTOCOL\_TYPE**](/windows/desktop/api/WsdTypes/ne-wsdtypes-_wsd_protocol_type)
--   [**WSDEventType**](/windows/desktop/api/Wsdtypes/ne-wsdtypes-_wsdeventtype)
--   [**WSDUdpMessageType**](/windows/desktop/api/Wsdbase/ne-wsdbase-_wsdudpmessagetype)
+-   [**WSD\_PROTOCOL\_TYPE**](/windows/desktop/api/WsdTypes/ne-wsdtypes-wsd_protocol_type)
+-   [**WSDEventType**](/windows/desktop/api/Wsdtypes/ne-wsdtypes-wsdeventtype)
+-   [**WSDUdpMessageType**](/windows/desktop/api/Wsdbase/ne-wsdbase-wsdudpmessagetype)
 
  
 

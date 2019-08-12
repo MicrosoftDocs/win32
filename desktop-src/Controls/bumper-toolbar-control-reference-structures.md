@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**COLORMAP**](/windows/desktop/api/Commctrl/ns-commctrl-_colormap)
--   [**NMTBCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-_nmtbcustomdraw)
+-   [**COLORMAP**](/windows/desktop/api/Commctrl/ns-commctrl-colormap)
+-   [**NMTBCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-nmtbcustomdraw)
 -   [**NMTBDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-nmtbdispinfoa)
 -   [**NMTBGETINFOTIP**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbgetinfotipa)
 -   [**NMTBHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem)
@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 -   [**NMTBSAVE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave)
 -   [**NMTOOLBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtoolbara)
 -   [**TBADDBITMAP**](/windows/desktop/api/Commctrl/ns-commctrl-tagtbaddbitmap)
--   [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton)
+-   [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton)
 -   [**TBBUTTONINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tbbuttoninfoa)
 -   [**TBINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-tbinsertmark)
 -   [**TBMETRICS**](/windows/desktop/api/Commctrl/ns-commctrl-tbmetrics)

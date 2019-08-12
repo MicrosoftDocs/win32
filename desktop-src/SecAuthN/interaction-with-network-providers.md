@@ -12,7 +12,7 @@ You can configure a system to support zero or more network providers. Each of th
 
 Winlogon calls network providers under a number of circumstances. Following a successful logon, Winlogon calls network providers so they can collect [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and authenticate the user for their network. Winlogon also calls network providers when users change their passwords. This lets each user maintain a single password for use on all networks.
 
-The [**WLX\_MPR\_NOTIFY\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-_wlx_mpr_notify_info) structure is used to provide identification and authentication information in the relevant GINA functions. This structure includes the following members.
+The [**WLX\_MPR\_NOTIFY\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-wlx_mpr_notify_info) structure is used to provide identification and authentication information in the relevant GINA functions. This structure includes the following members.
 
 
 

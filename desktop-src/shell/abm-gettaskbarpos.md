@@ -24,7 +24,7 @@ fResult = (BOOL) SHAppBarMessage(ABM_GETTASKBARPOS, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure whose **rc** member receives the bounding rectangle, in screen coordinates, of the taskbar. You must specify the **cbSize** when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure whose **rc** member receives the bounding rectangle, in screen coordinates, of the taskbar. You must specify the **cbSize** when sending this message; all other members are ignored.
 
 </dd> </dl>
 

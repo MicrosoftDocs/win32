@@ -16,8 +16,8 @@ To send an OPM command, call [**IOPMVideoOutput::Configure**](/windows/desktop/a
 
 |              |                                                                                                                                                             |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Command GUID | Identifies the command. Set the **guidSetting** member of the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters) structure equal to this value. |
-| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters) structure.                      |
+| Command GUID | Identifies the command. Set the **guidSetting** member of the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) structure equal to this value. |
+| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) structure.                      |
 
 
 

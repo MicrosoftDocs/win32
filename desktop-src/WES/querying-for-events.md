@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 You can query for events from a channel or a log file. The channel or log file can exist on the local computer or a remote computer. To specify the events that you want to get from the channel or log file, you use an XPath query or a structure XML query. For details on writing the query, see [Consuming Events](consuming-events.md).
 
-To query events, call the [**EvtQuery**](/windows/desktop/api/WinEvt/nf-winevt-evtquery) function. You can specify the order in which the events are returned (oldest to newest (the default) or newest to oldest) and whether to tolerate malformed XPath expressions in the query (for details on how the function ignores the malformed expressions, see the [**EvtQueryTolerateQueryErrors**](/windows/desktop/api/WinEvt/ne-winevt-_evt_query_flags) flag).
+To query events, call the [**EvtQuery**](/windows/desktop/api/WinEvt/nf-winevt-evtquery) function. You can specify the order in which the events are returned (oldest to newest (the default) or newest to oldest) and whether to tolerate malformed XPath expressions in the query (for details on how the function ignores the malformed expressions, see the [**EvtQueryTolerateQueryErrors**](/windows/desktop/api/WinEvt/ne-winevt-evt_query_flags) flag).
 
 The following example shows how to query events from a channel using an XPath expression.
 

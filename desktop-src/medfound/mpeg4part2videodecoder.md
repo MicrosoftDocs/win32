@@ -50,7 +50,7 @@ The MPEG4 Part 2 Video decoder accepts the following formats.
 
 -   [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx)
 -   [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) (VIH2)
--   [**MFVideoInfo**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoinfo)
+-   [**MFVideoInfo**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoinfo)
 -   [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx) (Only the VIH2 portion of the header is used.)
 
 ## Interfaces for the DMO

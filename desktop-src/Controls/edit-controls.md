@@ -192,7 +192,7 @@ This section contains information about the programming elements used with edit 
 
 | Topic                                    | Contents                                                                              |
 |------------------------------------------|---------------------------------------------------------------------------------------|
-| [**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-_tageditballoontip) | Contains information about a balloon tip associated with a button control.<br/> |
+| [**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-editballoontip) | Contains information about a balloon tip associated with a button control.<br/> |
 
 
 

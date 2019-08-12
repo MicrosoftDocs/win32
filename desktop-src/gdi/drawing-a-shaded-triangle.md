@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Drawing a Shaded Triangle
 
-To draw a shaded triangle, define a [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-_trivertex) structure with three elements and a single [**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-_gradient_triangle) structure. The following code example shows how to draw a shaded triangle using the [**GradientFill**](/windows/desktop/api/WinGdi/nf-wingdi-gradientfill) function with the GRADIENT\_FILL\_TRIANGLE mode defined.
+To draw a shaded triangle, define a [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-trivertex) structure with three elements and a single [**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_triangle) structure. The following code example shows how to draw a shaded triangle using the [**GradientFill**](/windows/desktop/api/WinGdi/nf-wingdi-gradientfill) function with the GRADIENT\_FILL\_TRIANGLE mode defined.
 
 
 ```C++
@@ -105,13 +105,13 @@ The following image shows the drawing output of the preceding code example.
 [**EMRGRADIENTFILL**](/windows/desktop/api/Wingdi/ns-wingdi-tagemrgradientfill)
 </dt> <dt>
 
-[**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-_gradient_triangle)
+[**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_triangle)
 </dt> <dt>
 
 [**GradientFill**](/windows/desktop/api/WinGdi/nf-wingdi-gradientfill)
 </dt> <dt>
 
-[**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-_trivertex)
+[**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-trivertex)
 </dt> </dl>
 
  

@@ -5,7 +5,7 @@ ms.assetid: ef05f2e1-88be-4adb-aca7-a7b1451cfd04
 keywords:
 - what's new BITS
 ms.topic: article
-ms.date: 11/29/2018
+ms.date: 7/12/2019
 ---
 
 # What's New
@@ -29,13 +29,38 @@ The following table identifies what is new for each release of Background Intell
 </thead>
 <tbody>
 <tr class="odd">
+<td>Version 10.3</td>
+<td>New features:<br/>
+<ul>
+<li>Added <a href="/windows/desktop/api/bits10_3/nn-bits10_3-ibackgroundcopyjobhttpoptions3"><strong>BackgroundCopyJobHttpOptions3</strong></a> to mark HTTP headers as write-only, and to set a server certificate validation callback.</li>
+<li>BITS will retain its service identity when created by another system service.</li>
+<li>BITS will continue to transfer files on connected standby as long as the device is plugged in.</li>
+</ul>
+BITS version 10.3 is included in the Windows 10 May 2019 Update (10.0; Build 18362), and later.
+</td>
+</tr>
+<tr class="even">
+<td>Version 10.2</td>
+<td>New features:<br/>
+<ul>
+<li>Added <a href="/windows/desktop/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2"><strong>BackgroundCopyJobHttpOptions2</strong></a> to change the HTTP method for HTTP downloads.</li>
+<li>BITS now uses the default proxy ordering to be more consistent with the rest of the system.</li>
+<li>It's easier for programmers to set BITS proxy configuration for enterprise scenarios.</li>
+<li>BITS is now more careful of power and supports [Modern Standby](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/modern-standby).</li>
+<li>BITS now support Mobile device manager (MDM) [policies](/windows/client-management/mdm/policy-configuration-service-provider) in addition to [group policies](./group-policies).</li>
+</ul>
+BITS version 10.2 is included in Windows 10 October 2018 Update(10.0; Build 17763), and later.
+</td>
+</tr>
+<tr class="odd">
 <td>Version 10.1</td>
 <td>New features:<br/>
 <ul>
-<li>BITS version 10.1 is included in Windows 10 Creator's Update and later.</li>
-<li>Added <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6"><strong>BackgroundCopyFile6</strong></a> and <a href="/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3"><strong>IBackgroundCopyCallback3</strong></a> to enable  random access  scenarios for HTTP downloads.</li>
+<li>Added <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6"><strong>BackgroundCopyFile6</strong></a> and <a href="/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3"><strong>IBackgroundCopyCallback3</strong></a> to enable  random-access scenarios for HTTP downloads.</li>
 <li>Added <strong>BITS_JOB_PROPERTY_ON_DEMAND_MODE</strong> and <strong>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</strong> to the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a> enumeration to tweak download and notification behaviors, respectively.</li>
-</ul></td>
+</ul>
+BITS version 10.1 is included in Windows 10 Creator's Update and later.
+</td>
 </tr>
 <tr class="even">
 <td>Version 5.0</td>
@@ -110,6 +135,19 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 To light up features in your program based on BITS capabilities, use QueryInterface on (for example) your Job object to see if the Job object allows you to create the version you need. Alternatively, 
 see [Determining the Version of BITS on a Computer](/windows/desktop/Bits/determining-the-version-of-bits-on-a-computer) to convert the QMgr.dll version number into the BITS version.
 
+## Version 10.3
+
+The following interfaces were added for this version
+-   [**IBackgroundCopyJobHttpOptions3**](/windows/desktop/api/Bits10_3/nn-bits10_3-ibackgroundcopyjobhttpoptions3)
+    [**IBackgroundCopyServerCertificateValidationCallback**](/windows/desktop/api/Bits10_3/nn-bits10_3-ibackgroundcopyservercertificatevalidationcallback)
+
+
+## Version 10.2
+
+The following interfaces were added for this version
+-   [**IBackgroundCopyJobHttpOptions2**](/windows/desktop/api/Bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2)
+
+
 ## Version 10.1
 
 The following interfaces were added for this version
@@ -169,12 +207,12 @@ The following interfaces, structure, and topics were added for version 2.0:
 
 -   [**IBackgroundCopyJob3**](/windows/desktop/api/Bits2_0/nn-bits2_0-ibackgroundcopyjob3)
 -   [**IBackgroundCopyFile2**](/windows/desktop/api/Bits2_0/nn-bits2_0-ibackgroundcopyfile2)
--   [**BG\_FILE\_RANGE**](/windows/desktop/api/Bits2_0/ns-bits2_0-_bg_file_range)
+-   [**BG\_FILE\_RANGE**](/windows/desktop/api/Bits2_0/ns-bits2_0-bg_file_range)
 -   [Group Policies](group-policies.md)
 
 For information about concurrent foreground downloads, see the Remarks section for [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001).
 
-For information about using the SMB protocol, see [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-_bg_file_info).
+For information about using the SMB protocol, see [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-bg_file_info).
 
 ## Version 1.5
 

@@ -94,7 +94,7 @@ For the sake of simplicity, this asynchronous server routine does not process ac
 
 <dl> <dt>
 
-[**RPC\_ASYNC\_STATE**](/windows/desktop/api/Rpcasync/ns-rpcasync-_rpc_async_state)
+[**RPC\_ASYNC\_STATE**](/windows/desktop/api/Rpcasync/ns-rpcasync-rpc_async_state)
 </dt> <dt>
 
 [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall)

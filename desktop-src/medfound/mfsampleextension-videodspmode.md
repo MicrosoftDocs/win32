@@ -26,7 +26,7 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 ## Remarks
 
-The [**Video Stabilization MFT**](video-stabilization-mft.md) sets this attribute on the output samples that it produces. The value of the attribute is an [**MFVideoDSPMode**](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-_mfvideodspmode) enumeration value. If the value is **MFVideoDSPMode\_Stabilization**, it means that the MFT applied image stabilization to the frame.
+The [**Video Stabilization MFT**](video-stabilization-mft.md) sets this attribute on the output samples that it produces. The value of the attribute is an [**MFVideoDSPMode**](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-mfvideodspmode) enumeration value. If the value is **MFVideoDSPMode\_Stabilization**, it means that the MFT applied image stabilization to the frame.
 
 ## Requirements
 

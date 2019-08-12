@@ -16,8 +16,8 @@ Credentials Management uses the following constants to specify maximum string si
 
 | Constant                                        | Description                                                                                                                   |
 |-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| CREDUI\_MAX\_MESSAGE\_LENGTH<br/>         | Maximum number of characters for the **pszMessageText** member of a [**CREDUI\_INFO**](/windows/desktop/api/WinCred/ns-wincred-_credui_infoa) structure.<br/> |
-| CREDUI\_MAX\_CAPTION\_LENGTH<br/>         | Maximum number of characters for the **pszCaptionText** member of a [**CREDUI\_INFO**](/windows/desktop/api/WinCred/ns-wincred-_credui_infoa) structure.<br/> |
+| CREDUI\_MAX\_MESSAGE\_LENGTH<br/>         | Maximum number of characters for the **pszMessageText** member of a [**CREDUI\_INFO**](/windows/desktop/api/WinCred/ns-wincred-credui_infoa) structure.<br/> |
+| CREDUI\_MAX\_CAPTION\_LENGTH<br/>         | Maximum number of characters for the **pszCaptionText** member of a [**CREDUI\_INFO**](/windows/desktop/api/WinCred/ns-wincred-credui_infoa) structure.<br/> |
 | CREDUI\_MAX\_GENERIC\_TARGET\_LENGTH<br/> | Maximum number of characters in a string that specifies a target name.<br/>                                             |
 | CREDUI\_MAX\_DOMAIN\_TARGET\_LENGTH<br/>  | Maximum number of characters in a string that specifies a domain name.<br/>                                             |
 | CREDUI\_MAX\_USERNAME\_LENGTH<br/>        | Maximum number of characters in a string that specifies a user account name.<br/>                                       |

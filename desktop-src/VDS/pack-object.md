@@ -42,8 +42,8 @@ The following table lists related interfaces, enumerations, and structures.
 | Type                                              | Element                                                                                                |
 |---------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Interfaces that are always exposed by this object | [**IVdsPack**](/windows/desktop/api/Vds/nn-vds-ivdspack) and [**IVdsPack2**](/windows/desktop/api/Vds/nn-vds-ivdspack2)\*.                                     |
-| Associated enumerations                           | [**VDS\_PACK\_FLAG**](/windows/desktop/api/Vds/ne-vds-_vds_pack_flag) and [**VDS\_PACK\_STATUS**](/windows/desktop/api/Vds/ne-vds-_vds_pack_status).             |
-| Associated structures                             | [**VDS\_PACK\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_pack_prop) and [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_pack_notification). |
+| Associated enumerations                           | [**VDS\_PACK\_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_pack_flag) and [**VDS\_PACK\_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_pack_status).             |
+| Associated structures                             | [**VDS\_PACK\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_pack_prop) and [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification). |
 
 
 

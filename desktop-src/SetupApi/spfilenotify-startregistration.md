@@ -29,7 +29,7 @@ SPFILENOTIFY_STARTREGISTRATION
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**SP\_REGISTER\_CONTROL\_STATUS**](/windows/desktop/api/Setupapi/ns-setupapi-_sp_register_control_statusa) structure containing information about the file being registered or unregistered. The member **cbsize** should be set to the size of the structure. The **FileName** member should be set to the fully qualified path of the file being registered. **Win32Error** is not used and should be set to NO\_ERROR. **FailureCode** is not used and should be set to SPREG\_SUCCESS.
+Pointer to a [**SP\_REGISTER\_CONTROL\_STATUS**](/windows/desktop/api/Setupapi/ns-setupapi-sp_register_control_statusa) structure containing information about the file being registered or unregistered. The member **cbsize** should be set to the size of the structure. The **FileName** member should be set to the fully qualified path of the file being registered. **Win32Error** is not used and should be set to NO\_ERROR. **FailureCode** is not used and should be set to SPREG\_SUCCESS.
 
 </dd> <dt>
 

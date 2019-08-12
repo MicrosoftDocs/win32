@@ -42,7 +42,7 @@ These structures are equivalent.
 <td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideomediatypefrombitmapinfoheaderex"><strong>MFCreateVideoMediaTypeFromBitMapInfoHeaderEx</strong></a></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat"><strong>MFVIDEOFORMAT</strong></a></td>
+<td><a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat"><strong>MFVIDEOFORMAT</strong></a></td>
 <td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommfvideoformat"><strong>MFInitMediaTypeFromMFVideoFormat</strong></a></td>
 </tr>
 <tr class="even">
@@ -80,9 +80,9 @@ The following functions create or initialize a format structure from a Media Fou
 
 | Function                                                                             | Target Structure                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx), [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat), [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx), or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) |
+| [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx), [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat), [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx), or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) |
 | [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
-| [**MFCreateMFVideoFormatFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype) | [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat)                                                                                                                                              |
+| [**MFCreateMFVideoFormatFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype) | [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat)                                                                                                                                              |
 | [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype)   | [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) or [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx)                                                                                    |
 | [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)         | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
 

@@ -59,10 +59,10 @@ Pointer to a MAC address in unicast, multicast, or broadcast format.
 [**DOT11\_BSSID\_LIST**](dot11-bssid-list.md)
 </dt> <dt>
 
-[**WLAN\_ASSOCIATION\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_association_attributes)
+[**WLAN\_ASSOCIATION\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_association_attributes)
 </dt> <dt>
 
-[**WLAN\_BSS\_ENTRY**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry)
+[**WLAN\_BSS\_ENTRY**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry)
 </dt> </dl>
 
  

@@ -38,7 +38,7 @@ SFVM_ADDPROPERTYPAGES
 *pData* \[out\]
 </dt> <dd>
 
-The address of a [**SFVM\_PROPPAGE\_DATA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfvm_proppage_data) structure.
+The address of a [**SFVM\_PROPPAGE\_DATA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-sfvm_proppage_data) structure.
 
 </dd> </dl>
 

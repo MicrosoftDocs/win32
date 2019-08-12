@@ -40,7 +40,7 @@ For the transport functions, the information header contains global information 
 
 The information headers and their contents should be manipulated only by using the [MprInfo](router-information-functions.md) functions. Developers should not attempt to manipulate the contents of the information headers directly.
 
-The interface-only functions such as [**MprAdminInterfaceSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacesetinfo) do not require the use of MprInfo functions. The information that is passed and returned with these functions is always in the form of an [**MPR\_INTERFACE**](/windows/desktop/api/Mprapi/ns-mprapi-_mpr_interface_0) structure.
+The interface-only functions such as [**MprAdminInterfaceSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacesetinfo) do not require the use of MprInfo functions. The information that is passed and returned with these functions is always in the form of an [**MPR\_INTERFACE**](/windows/desktop/api/Mprapi/ns-mprapi-mpr_interface_0) structure.
 
  
 

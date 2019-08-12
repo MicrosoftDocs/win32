@@ -86,7 +86,7 @@ To programmatically obtain the virtual machine generation identifier, perform th
 
     To issue the IOCTL in event driven mode, submit the IOCTL with an input buffer that contains an existing generation identifier. In response to this, the driver waits until the current generation identifier becomes different from the generation identifier that was passed in. When the generation identifier changes, the driver writes the current generation identifier to the output buffer and completes the IOCTL.
 
-    In both modes, the format and length of the output buffer is dictated by the [**VM\_GENCOUNTER**](/windows/desktop/api/Vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter) structure.
+    In both modes, the format and length of the output buffer is dictated by the [**VM\_GENCOUNTER**](/windows/desktop/api/Vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter) structure.
 
     Polling mode is supported on all of the guest operating systems listed above. Event driven mode is supported only on Windows Vista with SP2, Windows Server 2008 with SP2, and later operating systems. On earlier operating systems, the IOCTL will fail with the error code **ERROR\_NOT\_SUPPORTED** when issued in event driven mode.
 

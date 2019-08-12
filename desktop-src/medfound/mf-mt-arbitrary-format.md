@@ -22,7 +22,7 @@ To set this attribute, call [**IMFAttributes::SetBlob**](/windows/desktop/api/mf
 
 ## Remarks
 
-Applications can use binary streams to hold custom data types. The ASF media source treats the value of this attribute as an opaque blob. The **formattype** member of the [**MT\_ARBITRARY\_HEADER**](/windows/desktop/api/mfapi/ns-mfapi-_mt_arbitrary_header) structure defines the layout of the format data.
+Applications can use binary streams to hold custom data types. The ASF media source treats the value of this attribute as an opaque blob. The **formattype** member of the [**MT\_ARBITRARY\_HEADER**](/windows/desktop/api/mfapi/ns-mfapi-mt_arbitrary_header) structure defines the layout of the format data.
 
 This structure corresponds to the Format Data field of the type-specific data in the Stream Properties Object, in files where the stream type is **ASF\_Binary\_Media**. For more information, see the ASF specification.
 

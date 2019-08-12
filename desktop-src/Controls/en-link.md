@@ -43,7 +43,7 @@ The window ID retrieved by calling the [**GetWindowLong**](https://docs.microsof
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**ENLINK**](/windows/desktop/api/Richedit/ns-richedit-_enlink) structure. The structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure, information about the notification code, and a [**CHARRANGE**](/windows/desktop/api/Richedit/ns-richedit-_charrange) structure that indicates the range of characters that have the **CFE\_LINK** effect.
+Pointer to an [**ENLINK**](/windows/desktop/api/Richedit/ns-richedit-enlink) structure. The structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure, information about the notification code, and a [**CHARRANGE**](/windows/desktop/api/Richedit/ns-richedit-charrange) structure that indicates the range of characters that have the **CFE\_LINK** effect.
 
 </dd> </dl>
 
@@ -92,19 +92,19 @@ If you send the [**EM\_AUTOURLDETECT**](em-autourldetect.md) message to enable a
 
 <dl> <dt>
 
-[**CHARRANGE**](/windows/desktop/api/Richedit/ns-richedit-_charrange)
+[**CHARRANGE**](/windows/desktop/api/Richedit/ns-richedit-charrange)
 </dt> <dt>
 
 [**EM\_AUTOURLDETECT**](em-autourldetect.md)
 </dt> <dt>
 
-[**ENLINK**](/windows/desktop/api/Richedit/ns-richedit-_enlink)
+[**ENLINK**](/windows/desktop/api/Richedit/ns-richedit-enlink)
 </dt> <dt>
 
 [**ITextRange2::SetURL**](/windows/desktop/api/Tom/nf-tom-itextrange2-seturl)
 </dt> <dt>
 
-[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr)
+[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr)
 </dt> </dl>
 
  

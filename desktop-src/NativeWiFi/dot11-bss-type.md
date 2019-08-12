@@ -74,10 +74,10 @@ Specifies either infrastructure or IBSS network.
 
 <dl> <dt>
 
-[**WLAN\_BSS\_ENTRY**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry)
+[**WLAN\_BSS\_ENTRY**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry)
 </dt> <dt>
 
-[**WLAN\_CONNECTION\_PARAMETERS**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters)
+[**WLAN\_CONNECTION\_PARAMETERS**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters)
 </dt> <dt>
 
 [**WlanGetNetworkBssList**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlangetnetworkbsslist)

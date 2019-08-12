@@ -13,7 +13,7 @@ Port types permitted for a connection.
 
 **LDAP Name:** msNPAllowedPortTypes
 
-**ID:** 4104 = [**IAS\_ATTRIBUTE\_NP\_ALLOWED\_PORT\_TYPES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
+**ID:** 4104 = [**IAS\_ATTRIBUTE\_NP\_ALLOWED\_PORT\_TYPES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** Enumerator
 

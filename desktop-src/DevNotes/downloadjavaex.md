@@ -77,7 +77,7 @@ If a certificate is present, this parameter is **TRUE**. Otherwise, it is **FALS
 *pTrust* \[in\]
 </dt> <dd>
 
-A [**JAVA\_TRUST**](/windows/desktop/api/Capi/ns-capi-_java_trust) structure that contains trust information such as encoded permission, encoder signature, and authentic return policy code.
+A [**JAVA\_TRUST**](/windows/desktop/api/Capi/ns-capi-java_trust) structure that contains trust information such as encoded permission, encoder signature, and authentic return policy code.
 
 </dd> </dl>
 

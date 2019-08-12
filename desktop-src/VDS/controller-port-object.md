@@ -25,8 +25,8 @@ The following table lists related interfaces, enumerations, and structures.
 | Type                                                                                              | Element                                                                                               |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | Interfaces that are always exposed by this object in VDS 1.1 and 2.0 Fibre Channel providers only | [**IVdsControllerPort**](/windows/desktop/api/Vds/nn-vds-ivdscontrollerport)                                                      |
-| Associated enumerations                                                                           | [**VDS\_PORT\_STATUS**](/windows/desktop/api/Vds/ne-vds-_vds_port_status)                                                          |
-| Associated structures                                                                             | [**VDS\_PORT\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_port_prop) and [**VDS\_PORT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_port_notification) |
+| Associated enumerations                                                                           | [**VDS\_PORT\_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_port_status)                                                          |
+| Associated structures                                                                             | [**VDS\_PORT\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_port_prop) and [**VDS\_PORT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_port_notification) |
 
 
 

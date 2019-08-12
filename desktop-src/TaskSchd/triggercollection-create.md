@@ -41,7 +41,7 @@ TriggerCollection.Create( _
 *type* \[in\]
 </dt> <dd>
 
-This parameter is set to one of the following [**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2) enumeration constants.
+This parameter is set to one of the following [**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2) enumeration constants.
 
 
 

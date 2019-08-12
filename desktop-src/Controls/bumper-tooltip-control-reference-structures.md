@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 -   [**NMTTCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttcustomdraw)
 -   [**NMTTDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttdispinfoa)
 -   [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa)
--   [**TTGETTITLE**](/windows/desktop/api/Commctrl/ns-commctrl-_ttgettitle)
+-   [**TTGETTITLE**](/windows/desktop/api/Commctrl/ns-commctrl-ttgettitle)
 -   [**TTHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_tt_hittestinfoa)
 
  

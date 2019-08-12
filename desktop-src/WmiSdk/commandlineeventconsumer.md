@@ -5,10 +5,10 @@ ms.tgt_platform: multiple
 title: CommandLineEventConsumer class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - CommandLineEventConsumer
 - CommandLineEventConsumer.CreatorSID
 - CommandLineEventConsumer.MachineName
@@ -38,9 +38,9 @@ api_name:
 - CommandLineEventConsumer.YNumCharacters
 - CommandLineEventConsumer.YSize
 - CommandLineEventConsumer.FillAttribute
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Wbemcons.dll
 ---
 
@@ -590,7 +590,7 @@ Activates and displays a window to its most recent size and position. An applica
 
 </dt> <dd>
 
-Sets the show state based on the **SW\_\*** value specified in the [**STARTUPINFO**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa) structure passed to the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function by the program that starts an application.
+Sets the show state based on the **SW\_\*** value specified in the [**STARTUPINFO**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure passed to the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function by the program that starts an application.
 
 </dd> </dl>
 

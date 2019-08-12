@@ -24,8 +24,8 @@ The following table lists related interfaces, enumerations, and structures.
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces that are always exposed by this object | [**IVdsDrive**](/windows/desktop/api/Vds/nn-vds-ivdsdrive)                                                                                                                  |
 | Interfaces that may be exposed by this object     | [**IVdsMaintenance**](/windows/desktop/api/Vds/nn-vds-ivdsmaintenance)                                                                                                      |
-| Associated enumerations                           | [**VDS\_DRIVE\_FLAG**](/windows/desktop/api/Vds/ne-vds-_vds_drive_flag), [**VDS\_DRIVE\_STATUS**](/windows/desktop/api/Vds/ne-vds-_vds_drive_status), and [**VDS\_DRIVE\_EXTENT**](/windows/desktop/api/Vds/ns-vds-_vds_drive_extent). |
-| Associated structures                             | [**VDS\_DRIVE\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_drive_prop) and [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_drive_notification).                                      |
+| Associated enumerations                           | [**VDS\_DRIVE\_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_drive_flag), [**VDS\_DRIVE\_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_drive_status), and [**VDS\_DRIVE\_EXTENT**](/windows/desktop/api/Vds/ns-vds-vds_drive_extent). |
+| Associated structures                             | [**VDS\_DRIVE\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_drive_prop) and [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_notification).                                      |
 
 
 

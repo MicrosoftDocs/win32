@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # SMPTE Time Code Support
 
-The Windows Media Format SDK provides limited support for SMPTE time code, which is a standard time code format for movies and television. You can include SMPTE time code data with samples as data unit extensions. The data portion of the extension is a [**WMT\_TIMECODE\_EXTENSION\_DATA**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data) structure containing the information from the original SMPTE time stamp.
+The Windows Media Format SDK provides limited support for SMPTE time code, which is a standard time code format for movies and television. You can include SMPTE time code data with samples as data unit extensions. The data portion of the extension is a [**WMT\_TIMECODE\_EXTENSION\_DATA**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data) structure containing the information from the original SMPTE time stamp.
 
 Maintaining SMPTE time code in your ASF files comes with performance limits. Each sample with an associated SMPTE time stamp requires transport of the 14 bytes in the time stamp structure. In a streaming scenario, this increased bandwidth requirement could be catastrophic. As a result, it is suggested that SMPTE time codes only be persisted in ASF files during the video editing process, which is typically done with local files. When the final file is created, you should remove the data unit extensions.
 

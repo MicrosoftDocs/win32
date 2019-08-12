@@ -87,28 +87,28 @@ Contains the session or default proxy configuration.
 
 </dd> <dt>
 
-[**WINHTTP\_PROXY\_RESULT**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result)
+[**WINHTTP\_PROXY\_RESULT**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result)
 </dt> <dd>
 
 A collection of proxy result entries provided by [**WinHttpGetProxyResult**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyresult).
 
 </dd> <dt>
 
-[**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry)
+[**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry)
 </dt> <dd>
 
 A result entry from a call to [**WinHttpGetProxyResult**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyresult).
 
 </dd> <dt>
 
-[**WINHTTP\_WEB\_SOCKET\_ASYNC\_RESULT**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_async_result)
+[**WINHTTP\_WEB\_SOCKET\_ASYNC\_RESULT**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_async_result)
 </dt> <dd>
 
 Result status of a WebSocket operation.
 
 </dd> <dt>
 
-[**WINHTTP\_WEB\_SOCKET\_STATUS**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_status)
+[**WINHTTP\_WEB\_SOCKET\_STATUS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_status)
 </dt> <dd>
 
 Status of a WebSocket operation.

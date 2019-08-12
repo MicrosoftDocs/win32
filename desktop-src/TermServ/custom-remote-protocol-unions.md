@@ -15,28 +15,28 @@ The custom remote protocol API supports the following unions.
 
 <dl> <dt>
 
-[**WRDS\_CONNECTION\_SETTING**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_connection_setting)
+[**WRDS\_CONNECTION\_SETTING**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_connection_setting)
 </dt> <dd>
 
 Contains different levels of settings for a remote desktop connection.
 
 </dd> <dt>
 
-[**WRDS\_LISTENER\_SETTING**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_listener_setting)
+[**WRDS\_LISTENER\_SETTING**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_listener_setting)
 </dt> <dd>
 
 Contains different levels of listener settings for a remote desktop connection.
 
 </dd> <dt>
 
-[**WRDS\_SETTING**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_setting)
+[**WRDS\_SETTING**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_setting)
 </dt> <dd>
 
 Contains different levels of policy-related settings for a remote desktop connection.
 
 </dd> <dt>
 
-[**WTS\_CACHE\_STATS\_UN**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_cache_stats_un)
+[**WTS\_CACHE\_STATS\_UN**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_cache_stats_un)
 </dt> <dd>
 
 Contains cache statistics.

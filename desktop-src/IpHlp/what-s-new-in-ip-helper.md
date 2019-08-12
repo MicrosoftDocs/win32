@@ -18,7 +18,7 @@ A function that retrieves historical bandwidth estimates for a network connectio
 
 A structure that contains information on the available bandwidth estimates and associated variance as determined by the TCP/IP stack. For more information, see:
 
--   [**NL\_BANDWIDTH\_INFORMATION**](/windows/desktop/api/Nldef/ns-nldef-_nl_bandwidth_information)
+-   [**NL\_BANDWIDTH\_INFORMATION**](/windows/desktop/api/Nldef/ns-nldef-nl_bandwidth_information)
 
 ## Windows 7 and Windows Server 2008 R2
 

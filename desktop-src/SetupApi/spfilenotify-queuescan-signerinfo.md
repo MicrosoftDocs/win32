@@ -26,7 +26,7 @@ SPFILENOTIFY_QUEUESCAN_SIGNERINFO
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS\_SIGNERINFO**](/windows/desktop/api/Setupapi/ns-setupapi-_filepaths_signerinfo_a) structure. The **Target** member is the filename of the target file on the system. The **Source** member is the expected path of the source file. The **Win32Error** member is the signing error. Signature information is returned if the callback routine returns **Win32Error**==NO\_ERROR. The **DigitalSigner** member is the digital signer. The **Version** member is the version. The **CatalogFile** is the catalog file.
+Pointer to a [**FILEPATHS\_SIGNERINFO**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths_signerinfo_a) structure. The **Target** member is the filename of the target file on the system. The **Source** member is the expected path of the source file. The **Win32Error** member is the signing error. Signature information is returned if the callback routine returns **Win32Error**==NO\_ERROR. The **DigitalSigner** member is the digital signer. The **Version** member is the version. The **CatalogFile** is the catalog file.
 
 </dd> </dl>
 

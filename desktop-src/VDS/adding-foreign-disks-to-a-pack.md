@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Most commonly, a foreign disk is a dynamic disk that is allocated on one computer and physically moved to another computer. However, any disk that belongs to a pack other than the online pack is considered to be a foreign disk that belongs to a foreign disk pack.
 
-A foreign pack has the **VDS\_PKF\_FOREIGN** flag set in the **ulFlags** member of the [**VDS\_PACK\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_pack_prop) structure. Foreign packs are always offline.
+A foreign pack has the **VDS\_PKF\_FOREIGN** flag set in the **ulFlags** member of the [**VDS\_PACK\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_pack_prop) structure. Foreign packs are always offline.
 
 The following procedure describes how to import one or more foreign disks.
 

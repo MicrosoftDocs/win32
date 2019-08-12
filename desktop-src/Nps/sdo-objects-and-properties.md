@@ -21,10 +21,10 @@ The following table shows the enumeration types that enumerate the properties of
 
 | Object                                 | Enumeration type                                       |
 |----------------------------------------|--------------------------------------------------------|
-| All SDO objects                        | [**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties) |
-| User Object                            | [**USERPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_userproperties)           |
-| Service Object (Network Policy Server) | [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)             |
-| Microsoft RADIUS Protocol Object       | [**RADIUSPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties)       |
+| All SDO objects                        | [**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties) |
+| User Object                            | [**USERPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-userproperties)           |
+| Service Object (Network Policy Server) | [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)             |
+| Microsoft RADIUS Protocol Object       | [**RADIUSPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)       |
 
 
 

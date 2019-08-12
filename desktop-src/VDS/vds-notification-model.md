@@ -31,35 +31,35 @@ The table that follows lists the provider-generated notifications by object type
 
 | Object     | Notification                              | Value | Link to event description                                             |
 |------------|-------------------------------------------|-------|-----------------------------------------------------------------------|
-| Pack       | **VDS\_NF\_PACK\_ARRIVE**                 | 1     | [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_pack_notification)              |
-| Pack       | **VDS\_NF\_PACK\_DEPART**                 | 2     | [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_pack_notification)              |
-| Pack       | **VDS\_NF\_PACK\_MODIFY**                 | 3     | [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_pack_notification)              |
-| Volume     | **VDS\_NF\_VOLUME\_ARRIVE**               | 4     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_volume_notification)          |
-| Volume     | **VDS\_NF\_VOLUME\_DEPART**               | 5     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_volume_notification)          |
-| Volume     | **VDS\_NF\_VOLUME\_MODIFY**               | 6     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_volume_notification)          |
-| Volume     | **VDS\_NF\_VOLUME\_REBUILDING\_PROGRESS** | 7     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_volume_notification)          |
-| Disk       | **VDS\_NF\_DISK\_ARRIVE**                 | 8     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_disk_notification)              |
-| Disk       | **VDS\_NF\_DISK\_DEPART**                 | 9     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_disk_notification)              |
-| Disk       | **VDS\_NF\_DISK\_MODIFY**                 | 10    | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_disk_notification)              |
-| Partition  | **VDS\_NF\_PARTITION\_ARRIVE**            | 11    | [**VDS\_PARTITION\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_partition_notification)    |
-| Partition  | **VDS\_NF\_PARTITION\_DEPART**            | 12    | [**VDS\_PARTITION\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_partition_notification)    |
-| Partition  | **VDS\_NF\_PARTITION\_MODIFY**            | 13    | [**VDS\_PARTITION\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_partition_notification)    |
-| Subsystem  | **VDS\_NF\_SUB\_SYSTEM\_ARRIVE**          | 101   | [**VDS\_SUB\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_sub_system_notification) |
-| Subsystem  | **VDS\_NF\_SUB\_SYSTEM\_DEPART**          | 102   | [**VDS\_SUB\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_sub_system_notification) |
-| Subsystem  | **VDS\_NF\_SUB\_SYSTEM\_MODIFY**          | 151   | [**VDS\_SUB\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_sub_system_notification) |
-| Controller | **VDS\_NF\_CONTROLLER\_ARRIVE**           | 103   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_controller_notification)  |
-| Controller | **VDS\_NF\_CONTROLLER\_DEPART**           | 104   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_controller_notification)  |
-| Controller | **VDS\_NF\_CONTROLLER\_MODIFY**           | 350   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_controller_notification)  |
-| Controller | **VDS\_NF\_CONTROLLER\_REMOVED**          | 351   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_controller_notification)  |
-| Port       | **VDS\_NF\_PORT\_MODIFY**                 | 352   | [**VDS\_PORT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_port_notification)              |
-| Port       | **VDS\_NF\_PORT\_REMOVED**                | 353   | [**VDS\_PORT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_port_notification)              |
-| Drive      | **VDS\_NF\_DRIVE\_ARRIVE**                | 105   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_drive_notification)            |
-| Drive      | **VDS\_NF\_DRIVE\_DEPART**                | 106   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_drive_notification)            |
-| Drive      | **VDS\_NF\_DRIVE\_MODIFY**                | 107   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_drive_notification)            |
-| Drive      | **VDS\_NF\_DRIVE\_REMOVED**               | 354   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_drive_notification)            |
-| LUN        | **VDS\_NF\_LUN\_ARRIVE**                  | 108   | [**VDS\_LUN\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_lun_notification)                |
-| LUN        | **VDS\_NF\_LUN\_DEPART**                  | 109   | [**VDS\_LUN\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_lun_notification)                |
-| LUN        | **VDS\_NF\_LUN\_MODIFY**                  | 110   | [**VDS\_LUN\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_lun_notification)                |
+| Pack       | **VDS\_NF\_PACK\_ARRIVE**                 | 1     | [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification)              |
+| Pack       | **VDS\_NF\_PACK\_DEPART**                 | 2     | [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification)              |
+| Pack       | **VDS\_NF\_PACK\_MODIFY**                 | 3     | [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification)              |
+| Volume     | **VDS\_NF\_VOLUME\_ARRIVE**               | 4     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Volume     | **VDS\_NF\_VOLUME\_DEPART**               | 5     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Volume     | **VDS\_NF\_VOLUME\_MODIFY**               | 6     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Volume     | **VDS\_NF\_VOLUME\_REBUILDING\_PROGRESS** | 7     | [**VDS\_VOLUME\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Disk       | **VDS\_NF\_DISK\_ARRIVE**                 | 8     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)              |
+| Disk       | **VDS\_NF\_DISK\_DEPART**                 | 9     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)              |
+| Disk       | **VDS\_NF\_DISK\_MODIFY**                 | 10    | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)              |
+| Partition  | **VDS\_NF\_PARTITION\_ARRIVE**            | 11    | [**VDS\_PARTITION\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_partition_notification)    |
+| Partition  | **VDS\_NF\_PARTITION\_DEPART**            | 12    | [**VDS\_PARTITION\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_partition_notification)    |
+| Partition  | **VDS\_NF\_PARTITION\_MODIFY**            | 13    | [**VDS\_PARTITION\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_partition_notification)    |
+| Subsystem  | **VDS\_NF\_SUB\_SYSTEM\_ARRIVE**          | 101   | [**VDS\_SUB\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_sub_system_notification) |
+| Subsystem  | **VDS\_NF\_SUB\_SYSTEM\_DEPART**          | 102   | [**VDS\_SUB\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_sub_system_notification) |
+| Subsystem  | **VDS\_NF\_SUB\_SYSTEM\_MODIFY**          | 151   | [**VDS\_SUB\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_sub_system_notification) |
+| Controller | **VDS\_NF\_CONTROLLER\_ARRIVE**           | 103   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_controller_notification)  |
+| Controller | **VDS\_NF\_CONTROLLER\_DEPART**           | 104   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_controller_notification)  |
+| Controller | **VDS\_NF\_CONTROLLER\_MODIFY**           | 350   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_controller_notification)  |
+| Controller | **VDS\_NF\_CONTROLLER\_REMOVED**          | 351   | [**VDS\_CONTROLLER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_controller_notification)  |
+| Port       | **VDS\_NF\_PORT\_MODIFY**                 | 352   | [**VDS\_PORT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_port_notification)              |
+| Port       | **VDS\_NF\_PORT\_REMOVED**                | 353   | [**VDS\_PORT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_port_notification)              |
+| Drive      | **VDS\_NF\_DRIVE\_ARRIVE**                | 105   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_notification)            |
+| Drive      | **VDS\_NF\_DRIVE\_DEPART**                | 106   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_notification)            |
+| Drive      | **VDS\_NF\_DRIVE\_MODIFY**                | 107   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_notification)            |
+| Drive      | **VDS\_NF\_DRIVE\_REMOVED**               | 354   | [**VDS\_DRIVE\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_notification)            |
+| LUN        | **VDS\_NF\_LUN\_ARRIVE**                  | 108   | [**VDS\_LUN\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_lun_notification)                |
+| LUN        | **VDS\_NF\_LUN\_DEPART**                  | 109   | [**VDS\_LUN\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_lun_notification)                |
+| LUN        | **VDS\_NF\_LUN\_MODIFY**                  | 110   | [**VDS\_LUN\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_lun_notification)                |
 
 
 
@@ -71,14 +71,14 @@ VDS generates the remaining notifications. The following table lists service-bas
 
 | Category     | Notification                                | Value | Link to event description                                                 |
 |--------------|---------------------------------------------|-------|---------------------------------------------------------------------------|
-| Disk         | **VDS\_NF\_DISK\_ARRIVE**                   | 8     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_disk_notification)                  |
-| Disk         | **VDS\_NF\_DISK\_DEPART**                   | 9     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_disk_notification)                  |
-| Disk         | **VDS\_NF\_DISK\_MODIFY**                   | 10    | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_disk_notification)                  |
-| Drive letter | **VDS\_NF\_DRIVE\_LETTER\_FREE**            | 201   | [**VDS\_DRIVE\_LETTER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_drive_letter_notification) |
-| Drive letter | **VDS\_NF\_DRIVE\_LETTER\_ASSIGN**          | 202   | [**VDS\_DRIVE\_LETTER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_drive_letter_notification) |
-| File system  | **VDS\_NF\_FILE\_SYSTEM\_MODIFY**           | 203   | [**VDS\_FILE\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_file_system_notification)   |
-| File system  | **VDS\_NF\_FILE\_SYSTEM\_FORMAT\_PROGRESS** | 204   | [**VDS\_FILE\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_file_system_notification)   |
-| Volume       | **VDS\_NF\_MOUNT\_POINTS\_CHANGE**          | 205   | [**VDS\_MOUNT\_POINT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_mount_point_notification)   |
+| Disk         | **VDS\_NF\_DISK\_ARRIVE**                   | 8     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)                  |
+| Disk         | **VDS\_NF\_DISK\_DEPART**                   | 9     | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)                  |
+| Disk         | **VDS\_NF\_DISK\_MODIFY**                   | 10    | [**VDS\_DISK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)                  |
+| Drive letter | **VDS\_NF\_DRIVE\_LETTER\_FREE**            | 201   | [**VDS\_DRIVE\_LETTER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_letter_notification) |
+| Drive letter | **VDS\_NF\_DRIVE\_LETTER\_ASSIGN**          | 202   | [**VDS\_DRIVE\_LETTER\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_letter_notification) |
+| File system  | **VDS\_NF\_FILE\_SYSTEM\_MODIFY**           | 203   | [**VDS\_FILE\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_file_system_notification)   |
+| File system  | **VDS\_NF\_FILE\_SYSTEM\_FORMAT\_PROGRESS** | 204   | [**VDS\_FILE\_SYSTEM\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_file_system_notification)   |
+| Volume       | **VDS\_NF\_MOUNT\_POINTS\_CHANGE**          | 205   | [**VDS\_MOUNT\_POINT\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_mount_point_notification)   |
 
 
 

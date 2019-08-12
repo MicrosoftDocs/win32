@@ -18,9 +18,9 @@ Specifies when a transform is flushed.
 
 This attribute applies to transform nodes (**MF\_TOPOLOGY\_TRANSFORM\_NODE**).
 
-The value of the attribute is a member of the [**MF\_TOPONODE\_FLUSH\_MODE**](/windows/desktop/api/mfidl/ne-mfidl-_mf_toponode_flush_mode) enumeration. If this attribute is not set, the default value is **MF\_TOPONODE\_FLUSH\_ALWAYS**.
+The value of the attribute is a member of the [**MF\_TOPONODE\_FLUSH\_MODE**](/windows/desktop/api/mfidl/ne-mfidl-mf_toponode_flush_mode) enumeration. If this attribute is not set, the default value is **MF\_TOPONODE\_FLUSH\_ALWAYS**.
 
-Flushing is performed by calling [**IMFTransform::ProcessMessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) on the transform with the [**MFT\_MESSAGE\_COMMAND\_FLUSH**](mft-message-command-flush.md) message. For more information, see [**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type) enumeration.
+Flushing is performed by calling [**IMFTransform::ProcessMessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) on the transform with the [**MFT\_MESSAGE\_COMMAND\_FLUSH**](mft-message-command-flush.md) message. For more information, see [**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

@@ -16,7 +16,7 @@ Specifies the current characteristics of the media source.
 
 ## Remarks
 
-The value of this attribute is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics) enumeration.
+The value of this attribute is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics) enumeration.
 
 This attribute is used with the [MESourceCharacteristicsChanged](mesourcecharacteristicschanged.md) event.
 

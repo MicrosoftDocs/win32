@@ -40,7 +40,7 @@ If a thread enters an alertable state while its APC queue is empty, the thread's
 -   The kernel object that is being waited on becomes signaled.
 -   A callback function pointer is placed in the APC queue.
 
-A thread that uses alertable I/O processes asynchronous I/O requests more efficiently than when they simply wait on the event flag in the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure to be set, and the alertable I/O mechanism is less complicated than [I/O completion ports](i-o-completion-ports.md) to use. However, alertable I/O returns the result of the I/O request only to the thread that initiated it. I/O completion ports do not have this limitation.
+A thread that uses alertable I/O processes asynchronous I/O requests more efficiently than when they simply wait on the event flag in the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure to be set, and the alertable I/O mechanism is less complicated than [I/O completion ports](i-o-completion-ports.md) to use. However, alertable I/O returns the result of the I/O request only to the thread that initiated it. I/O completion ports do not have this limitation.
 
 ## Related topics
 

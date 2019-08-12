@@ -22,7 +22,7 @@ For classic events, the flag in [**EVENT\_TRACE\_HEADER**](event-trace-header.md
 
 Both MOF and WPP are classic providers. However, the WPP implementation takes care of all of this for you.
 
-For non-classic events, a number of [**EVENT\_DATA\_DESCRIPTORS**](/windows/desktop/api/Evntprov/ns-evntprov-_event_data_descriptor) are passed into [**EventWrite**](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite). The ETW runtime will concatenate the event data as specified in these descriptors to form the event payload.
+For non-classic events, a number of [**EVENT\_DATA\_DESCRIPTORS**](/windows/desktop/api/Evntprov/ns-evntprov-event_data_descriptor) are passed into [**EventWrite**](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite). The ETW runtime will concatenate the event data as specified in these descriptors to form the event payload.
 
 Both Manifest-based and TraceLogging technologies are generally modern providers. With manifest-based, if you let mc.exe generate logging code for you (um or km switch), payload generation is taken care of for you. Payload generation is always taken care of by TraceLogging.
 

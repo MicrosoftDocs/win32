@@ -56,9 +56,9 @@ Three types of object-specific ACEs are supported.
 
 | Type                      | Description                                                                                                                                                                                                                                       |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Access-denied object ACE  | Used in a DACL to deny a trustee access to a property or property set on the object, or to limit ACE inheritance to a specified type of child object. Uses the [**ACCESS\_DENIED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_denied_object_ace) structure.         |
-| Access-allowed object ACE | Used in a DACL to allow a trustee access to a property or property set on the object, or to limit ACE inheritance to a specified type of child object. Uses the [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_object_ace) structure.      |
-| System-audit object ACE   | Used in a SACL to log a trustee's attempts to access a property or property set on the object, or to limit ACE inheritance to a specified type of child object. Uses the [**SYSTEM\_AUDIT\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_system_alarm_object_ace) structure. |
+| Access-denied object ACE  | Used in a DACL to deny a trustee access to a property or property set on the object, or to limit ACE inheritance to a specified type of child object. Uses the [**ACCESS\_DENIED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_denied_object_ace) structure.         |
+| Access-allowed object ACE | Used in a DACL to allow a trustee access to a property or property set on the object, or to limit ACE inheritance to a specified type of child object. Uses the [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_allowed_object_ace) structure.      |
+| System-audit object ACE   | Used in a SACL to log a trustee's attempts to access a property or property set on the object, or to limit ACE inheritance to a specified type of child object. Uses the [**SYSTEM\_AUDIT\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-system_alarm_object_ace) structure. |
 
 
 

@@ -36,7 +36,7 @@ PSN_QUERYINITIALFOCUS
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure. Cast the **lParam** member of this structure to an **HWND** type, to retrieve the handle of the control that will be given focus by default. The structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
+Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure. Cast the **lParam** member of this structure to an **HWND** type, to retrieve the handle of the control that will be given focus by default. The structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ case PSN_QUERYINITIALFOCUS :
 ```
 
 > [!Note]  
-> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)).
+> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).
 
  
 

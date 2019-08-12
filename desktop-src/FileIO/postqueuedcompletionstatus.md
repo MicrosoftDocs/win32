@@ -4,14 +4,14 @@ ms.assetid: 69a9b1e5-2d40-42de-a14a-f7b6f29bf571
 title: PostQueuedCompletionStatus function
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - PostQueuedCompletionStatus
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Kernel32.dll
 - API-MS-Win-Core-io-l1-1-0.dll
 - KernelBase.dll
@@ -78,7 +78,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-The I/O completion packet will satisfy an outstanding call to the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function. This function returns with the three values passed as the second, third, and fourth parameters of the call to **PostQueuedCompletionStatus**. The system does not use or validate these values. In particular, the *lpOverlapped* parameter need not point to an [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure.
+The I/O completion packet will satisfy an outstanding call to the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function. This function returns with the three values passed as the second, third, and fourth parameters of the call to **PostQueuedCompletionStatus**. The system does not use or validate these values. In particular, the *lpOverlapped* parameter need not point to an [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -125,7 +125,7 @@ CsvFs will do redirected IO for compressed files.
 [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx)
 </dt> <dt>
 
-[**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped)
+[**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
 </dt> </dl>
 
  

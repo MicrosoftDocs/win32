@@ -75,7 +75,7 @@ SoC systems that support modern standby (the low-power idle state) do not use S1
 
  
 
-The [**SYSTEM\_POWER\_STATE**](/windows/desktop/api/WinNT/ne-winnt-_system_power_state) enumeration defines values that are used to specify system power states.
+The [**SYSTEM\_POWER\_STATE**](/windows/desktop/api/WinNT/ne-winnt-system_power_state) enumeration defines values that are used to specify system power states.
 
 ## Working state (S0)
 

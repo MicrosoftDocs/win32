@@ -88,7 +88,7 @@ This function is used by the enrollFromPublicKey sample.<br/></td>
 </tr>
 <tr class="even">
 <td>verifyCertContext</td>
-<td>Verifies compliance of the certificate chain against the specified (base) policy and, optionally, against a specified Enhanced Key Usage (EKU) extension. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy"><strong>CertVerifyCertificateChainPolicy</strong></a> function and the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_para"><strong>CERT_CHAIN_POLICY_PARA</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para"><strong>CERT_CHAIN_PARA</strong></a> structures. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
+<td>Verifies compliance of the certificate chain against the specified (base) policy and, optionally, against a specified Enhanced Key Usage (EKU) extension. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy"><strong>CertVerifyCertificateChainPolicy</strong></a> function and the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_para"><strong>CERT_CHAIN_POLICY_PARA</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para"><strong>CERT_CHAIN_PARA</strong></a> structures. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
 </tr>
 <tr class="odd">
 <td>decConvertFromUnicode</td>

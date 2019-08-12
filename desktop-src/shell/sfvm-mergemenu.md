@@ -38,7 +38,7 @@ SFVM_MERGEMENU
 *pInfo* \[out\]
 </dt> <dd>
 
-A [**QCMINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_qcminfo) structure containing the information needed to merge the items into the menu.
+A [**QCMINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo) structure containing the information needed to merge the items into the menu.
 
 </dd> </dl>
 

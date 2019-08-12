@@ -77,7 +77,7 @@ Indicates that a writer does not support mixing incremental backups with differe
 
 </dd> </dl>
 
-The writer can determine what type of backup is being performed by calling [**CVssWriter::GetBackupType**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getbackuptype). The earliest point when this can be performed is while processing the PrepareForBackup event. **CVssWriter::GetBackupType** will return a member of the [**VSS\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_backup_type) enumeration. If the backup type is not supported by the writer, then the writer should treat the backup as a full backup.
+The writer can determine what type of backup is being performed by calling [**CVssWriter::GetBackupType**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getbackuptype). The earliest point when this can be performed is while processing the PrepareForBackup event. **CVssWriter::GetBackupType** will return a member of the [**VSS\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_backup_type) enumeration. If the backup type is not supported by the writer, then the writer should treat the backup as a full backup.
 
 ## Backup Stamps
 

@@ -7,9 +7,8 @@ ms.assetid: f4d6c0c4-8db3-4721-80f5-2a73bb57cd99
 api_name: 
 api_type: 
 api_location: 
-topic_type: 
- - kbArticle
-
+topic_type:
+- kbArticle
 ---
 
 # Shell Functions
@@ -693,7 +692,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762192(v=vs.85)"><strong>SHGetNameFromPropertyKey</strong></a><br/></td>
-<td>Retrieves the property's canonical name given its <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey"><strong>PROPERTYKEY</strong></a>.<br/></td>
+<td>Retrieves the property's canonical name given its <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shgetnewlinkinfoa"><strong>SHGetNewLinkInfo</strong></a><br/></td>

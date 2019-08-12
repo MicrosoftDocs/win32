@@ -4,7 +4,7 @@ description: A programmable vertex shader is made up of a set of instructions th
 ms.assetid: 0f40f946-3525-4203-bfe2-1cd941d8e2ec
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -65,7 +65,7 @@ Instruction predication is supported. Use [setp\_comp - vs](setp-comp---vs.md) t
 
 ### Instruction Count
 
-Each vertex shader is allowed anywhere from 512 up to the number of slots in MaxVertexShader30InstructionSlots in [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9). The number of instructions run can be much higher because of the loop/rep support; however, this is capped by MaxVShaderInstructionsExecuted in D3DCAPS9 which should be at least 0xFFFF.
+Each vertex shader is allowed anywhere from 512 up to the number of slots in MaxVertexShader30InstructionSlots in [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9). The number of instructions run can be much higher because of the loop/rep support; however, this is capped by MaxVShaderInstructionsExecuted in D3DCAPS9 which should be at least 0xFFFF.
 
 ### Device Caps
 

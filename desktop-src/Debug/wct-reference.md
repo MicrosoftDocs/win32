@@ -13,7 +13,7 @@ The following elements are part of the wait chain traversal API:
 -   [**GetThreadWaitChain**](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) function
 -   [**OpenThreadWaitChainSession**](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) function
 -   [**RegisterWaitChainCOMCallback**](/windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback) function
--   [**WAITCHAIN\_NODE\_INFO**](/windows/desktop/api/Wct/ns-wct-_waitchain_node_info) structure
+-   [**WAITCHAIN\_NODE\_INFO**](/windows/desktop/api/Wct/ns-wct-waitchain_node_info) structure
 -   [*WaitChainCallback*](https://msdn.microsoft.com/en-us/library/ms681421(v=VS.85).aspx) callback function
 
  

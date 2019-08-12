@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # DWM Blur Behind Constants
 
-Flags used by the [**DWM\_BLURBEHIND**](/windows/desktop/api/Dwmapi/ns-dwmapi-_dwm_blurbehind) structure to indicate which of its members contain valid information.
+Flags used by the [**DWM\_BLURBEHIND**](/windows/desktop/api/Dwmapi/ns-dwmapi-dwm_blurbehind) structure to indicate which of its members contain valid information.
 
 <dl> <dt>
 

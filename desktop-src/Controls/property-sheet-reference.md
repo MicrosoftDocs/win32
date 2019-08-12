@@ -116,9 +116,9 @@ This section contains information about programming elements used with property 
 
 | Topic                                      | Contents                                                                   |
 |--------------------------------------------|----------------------------------------------------------------------------|
-| [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2) | Defines the frame and pages of a property sheet.<br/>                |
-| [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-_propsheetpagea_v2)     | Defines a page in a property sheet.<br/>                             |
-| [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify)             | Contains information for the property sheet notification codes.<br/> |
+| [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) | Defines the frame and pages of a property sheet.<br/>                |
+| [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2)     | Defines a page in a property sheet.<br/>                             |
+| [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify)             | Contains information for the property sheet notification codes.<br/> |
 
 
 

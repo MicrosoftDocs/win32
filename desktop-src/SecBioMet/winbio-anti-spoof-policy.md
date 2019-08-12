@@ -73,7 +73,7 @@ The source for the antispoofing policy.
 [**WINBIO\_POLICY\_SOURCE**](winbio-policy-source.md)
 </dt> <dt>
 
-[**WINBIO\_ASYNC\_RESULT**](/windows/desktop/api/Winbio/ns-winbio-_winbio_async_result)
+[**WINBIO\_ASYNC\_RESULT**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result)
 </dt> <dt>
 
 [**WinBioGetProperty**](/windows/desktop/api/Winbio/nf-winbio-winbiogetproperty)

@@ -5,14 +5,14 @@ ms.tgt_platform: multiple
 title: GetSD method of the __SystemSecurity class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - __SystemSecurity.GetSD
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - All
 ---
 
@@ -140,7 +140,7 @@ WScript.Echo DisplaySD
 [**\_\_SystemSecurity::SetSD**](--systemsecurity-setsd.md)
 </dt> <dt>
 
-[**Security\_Descriptor**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor)
+[**Security\_Descriptor**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> <dt>
 
 [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)

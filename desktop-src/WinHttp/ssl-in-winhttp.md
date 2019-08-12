@@ -76,7 +76,7 @@ Before resending a request that contains a client certificate, you can determine
 
 When the WinHttp client application sends a request to a secure HTTP server that requires SSL client authentication, WinHttp returns an **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED** if the application has not supplied a client certificate. For computers running on Windows Server 2008 and Windows Vista, WinHttp enables the application to retrieve the certificate issuer list supplied by the server in the authentication challenge. The Issuer List specifies a list of Certificate Authorities (CAs) that are authorized by the server to issue client certificates. The application filters the issuer list to obtain the required certificate.
 
-The WinHttp client application retrieves the issuer list when [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. When this error is returned, the application calls [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. The *lpBuffer* parameter must be large enough to contain a pointer to the [SecPkgContext\_IssuerListInfoEx](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_issuerlistinfoex) structure. The following code example shows how to retrieve the issuer list.
+The WinHttp client application retrieves the issuer list when [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. When this error is returned, the application calls [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. The *lpBuffer* parameter must be large enough to contain a pointer to the [SecPkgContext\_IssuerListInfoEx](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) structure. The following code example shows how to retrieve the issuer list.
 
 
 ```C++
@@ -104,7 +104,7 @@ void GetIssuerList(HINTERNET hRequest)
 
 
 
-The information in the [SecPkgContext\_IssuerListInfoEx](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_issuerlistinfoex) structure, *cIssuers* and *aIssuers*, can be used to search for the certificate as shown in the code example below. For more information, see [**CertFindChainInStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore).
+The information in the [SecPkgContext\_IssuerListInfoEx](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) structure, *cIssuers* and *aIssuers*, can be used to search for the certificate as shown in the code example below. For more information, see [**CertFindChainInStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore).
 
 
 ```C++

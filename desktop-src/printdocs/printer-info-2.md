@@ -143,7 +143,7 @@ A pointer to a null-terminated string that specifies the default print-processor
 **pSecurityDescriptor**
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure for the printer. This member may be **NULL**.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure for the printer. This member may be **NULL**.
 
 </dd> <dt>
 
@@ -326,7 +326,7 @@ The average number of pages per minute that have been printed on the printer.
 [**PRINTER\_INFO\_4**](printer-info-4.md)
 </dt> <dt>
 
-[**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor)
+[**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> </dl>
 
  

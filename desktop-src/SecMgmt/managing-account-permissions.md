@@ -16,7 +16,7 @@ To access all accounts that have a particular permission, call [**LsaEnumerateAc
 
 After you have obtained the SID of an account, you can modify its permissions. Call [**LsaAddAccountRights**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaaddaccountrights) to add permissions to the account. If the specified account does not exist, **LsaAddAccountRights** creates it. To remove permissions from an account, call [**LsaRemoveAccountRights**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaremoveaccountrights). If you remove all permissions from an account, **LsaRemoveAccountRights** also deletes the account.
 
-Your application can check the permissions currently assigned to an account by calling [**LsaEnumerateAccountRights**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumerateaccountrights). This function populates an array of [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structures. Each structure contains the name of a privilege held by the specified account.
+Your application can check the permissions currently assigned to an account by calling [**LsaEnumerateAccountRights**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumerateaccountrights). This function populates an array of [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string) structures. Each structure contains the name of a privilege held by the specified account.
 
 The following example adds the SeServiceLogonRight permission to an account. In this example, the AccountSID variable specifies the SID of the account. For more information about how to lookup an account SID, see [Translating Between Names and SIDs](translating-between-names-and-sids.md).
 
@@ -57,7 +57,7 @@ void AddPrivileges(PSID AccountSID, LSA_HANDLE PolicyHandle)
 
 
 
-In the preceding example, the function InitLsaString converts a [*Unicode*](https://docs.microsoft.com/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
+In the preceding example, the function InitLsaString converts a [*Unicode*](https://docs.microsoft.com/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
  
 

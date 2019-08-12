@@ -52,7 +52,7 @@ The punctuation type can be one of the following values.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PUNCTUATION**](/windows/desktop/api/Richedit/ns-richedit-_punctuation) structure that receives the punctuation characters.
+Pointer to a [**PUNCTUATION**](/windows/desktop/api/Richedit/ns-richedit-punctuation) structure that receives the punctuation characters.
 
 </dd> </dl>
 
@@ -84,7 +84,7 @@ If the operation fails, the return value is zero.
 [**EM\_SETPUNCTUATION**](em-setpunctuation.md)
 </dt> <dt>
 
-[**PUNCTUATION**](/windows/desktop/api/Richedit/ns-richedit-_punctuation)
+[**PUNCTUATION**](/windows/desktop/api/Richedit/ns-richedit-punctuation)
 </dt> </dl>
 
  

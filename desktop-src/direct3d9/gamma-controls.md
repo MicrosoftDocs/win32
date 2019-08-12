@@ -34,7 +34,7 @@ Gamma ramp levels are effectively look-up tables that Direct3D uses to map the f
 
 You can include the D3DSGR\_CALIBRATE value for the first parameter of [**SetGammaRamp**](https://msdn.microsoft.com/library/Bb174434(v=VS.85).aspx) to invoke the calibrator when setting new gamma levels. Calibrating gamma ramps incurs some processing overhead, and should not be used frequently. Setting a calibrated gamma ramp provides a consistent and absolute gamma value for the user, regardless of the display adapter and monitor.
 
-Not all systems support gamma calibration. To determine if gamma calibration is supported, call [**GetDeviceCaps**](/windows/desktop/api), and examine the Caps2 member of the associated [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure after the method returns. If the D3DCAPS2\_CANCALIBRATEGAMMA capability flag is present, then gamma calibration is supported.
+Not all systems support gamma calibration. To determine if gamma calibration is supported, call [**GetDeviceCaps**](/windows/desktop/api), and examine the Caps2 member of the associated [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure after the method returns. If the D3DCAPS2\_CANCALIBRATEGAMMA capability flag is present, then gamma calibration is supported.
 
 When setting new ramp levels, keep in mind that the levels you set in the arrays are only used when your application is in full-screen, exclusive mode. Whenever your application changes to normal mode, the ramp levels are set aside, taking effect again when the application reinstates full-screen mode.
 

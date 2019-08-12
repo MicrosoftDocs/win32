@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_EVENT\_SOURCE\_CHARACTERISTICS\_OLD attribute
 
-Specifies the previous characteristics of the media source. The attribute data is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics) enumeration.
+Specifies the previous characteristics of the media source. The attribute data is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics) enumeration.
 
 ## Data type
 

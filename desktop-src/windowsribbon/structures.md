@@ -16,8 +16,8 @@ The topics in this section provide the reference specifications for [Windows Rib
 
 | Topic                                                                  | Description                                                                                                       |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**UI\_EVENTPARAMS**](/windows/desktop/api/Uiribbon/ns-uiribbon-_ui_eventparams)<br/>                   | Contains information about a [**Ribbon**](windowsribbon-element-ribbon.md) event.<br/>                     |
-| [**UI\_EVENTPARAMS\_COMMAND**](/windows/desktop/api/Uiribbon/ns-uiribbon-_ui_eventparams_command)<br/> | Contains information about a [**Command**](windowsribbon-element-command.md) associated with a event.<br/> |
+| [**UI\_EVENTPARAMS**](/windows/desktop/api/Uiribbon/ns-uiribbon-ui_eventparams)<br/>                   | Contains information about a [**Ribbon**](windowsribbon-element-ribbon.md) event.<br/>                     |
+| [**UI\_EVENTPARAMS\_COMMAND**](/windows/desktop/api/Uiribbon/ns-uiribbon-ui_eventparams_command)<br/> | Contains information about a [**Command**](windowsribbon-element-command.md) associated with a event.<br/> |
 
 
 

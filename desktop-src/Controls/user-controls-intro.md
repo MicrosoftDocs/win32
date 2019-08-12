@@ -124,7 +124,7 @@ SendMessage(GetParent(hwndControl),
 
 
 
-Note that the [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure can be part of a larger control-defined structure that contains additional information. In the example, the old and new values of the control might be contained in this structure. (Such extended structures are used with many standard notifications; for example, see [LVN\_INSERTITEM](lvn-insertitem.md), which uses the [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure.)
+Note that the [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure can be part of a larger control-defined structure that contains additional information. In the example, the old and new values of the control might be contained in this structure. (Such extended structures are used with many standard notifications; for example, see [LVN\_INSERTITEM](lvn-insertitem.md), which uses the [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure.)
 
 ## Accessibility
 

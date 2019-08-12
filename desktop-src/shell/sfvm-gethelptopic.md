@@ -38,7 +38,7 @@ SFVM_GETHELPTOPIC
 *phtd* \[out\]
 </dt> <dd>
 
-The address of a [**SFVM\_HELPTOPIC\_DATA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfvm_helptopic_data) structure that specifies the HTML Help file and topic.
+The address of a [**SFVM\_HELPTOPIC\_DATA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-sfvm_helptopic_data) structure that specifies the HTML Help file and topic.
 
 </dd> </dl>
 

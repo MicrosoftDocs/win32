@@ -56,7 +56,7 @@ Pointer to a variable that receives a pointer to a buffer that contains an array
 *pcEntriesRead* \[out\]
 </dt> <dd>
 
-Pointer to a 16-bit variable that receives the total number of [**RAS\_PORT\_0**](/windows/desktop/api/Mprapi/ns-mprapi-_ras_port_0) structures returned in the *ppRasPort0* array.
+Pointer to a 16-bit variable that receives the total number of [**RAS\_PORT\_0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_0) structures returned in the *ppRasPort0* array.
 
 </dd> </dl>
 

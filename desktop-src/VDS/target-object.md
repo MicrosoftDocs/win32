@@ -26,7 +26,7 @@ The following table lists related interfaces, enumerations, and structures.
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Interfaces that are always exposed by this object in VDS 1.1 and 2.0 iSCSI providers only | [**IVdsIscsiTarget**](/windows/desktop/api/Vds/nn-vds-ivdsiscsitarget).                                                                                 |
 | Associated enumerations                                                                   | None.                                                                                                                       |
-| Associated structures                                                                     | [**VDS\_ISCSI\_TARGET\_PROP**](/windows/desktop/api/Vds/ns-vds-_vds_iscsi_target_prop) and [**VDS\_TARGET\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-_vds_target_notification). |
+| Associated structures                                                                     | [**VDS\_ISCSI\_TARGET\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_iscsi_target_prop) and [**VDS\_TARGET\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_target_notification). |
 
 
 

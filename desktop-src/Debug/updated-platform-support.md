@@ -42,14 +42,14 @@ The following is a list of the updated structures:
 
 <dl>
 
-[**ADDRESS64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_tagaddress)  
-[**IMAGEHLP\_DEFERRED\_SYMBOL\_LOAD64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_deferred_symbol_load)  
-[**IMAGEHLP\_DUPLICATE\_SYMBOL64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_duplicate_symbol)  
-[**IMAGEHLP\_LINE64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_line)  
-[**IMAGEHLP\_MODULE64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_module)  
-[**IMAGEHLP\_SYMBOL64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_symbol)  
-[**KDHELP64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_kdhelp)  
-[**STACKFRAME64**](/windows/desktop/api/DbgHelp/ns-dbghelp-_tagstackframe)  
+[**ADDRESS64**](/windows/desktop/api/DbgHelp/ns-dbghelp-address)  
+[**IMAGEHLP\_DEFERRED\_SYMBOL\_LOAD64**](/windows/desktop/api/DbgHelp/ns-dbghelp-imagehlp_deferred_symbol_load)  
+[**IMAGEHLP\_DUPLICATE\_SYMBOL64**](/windows/desktop/api/DbgHelp/ns-dbghelp-imagehlp_duplicate_symbol)  
+[**IMAGEHLP\_LINE64**](/windows/desktop/api/DbgHelp/ns-dbghelp-imagehlp_line)  
+[**IMAGEHLP\_MODULE64**](/windows/desktop/api/DbgHelp/ns-dbghelp-imagehlp_module)  
+[**IMAGEHLP\_SYMBOL64**](/windows/desktop/api/DbgHelp/ns-dbghelp-imagehlp_symbol)  
+[**KDHELP64**](/windows/desktop/api/DbgHelp/ns-dbghelp-kdhelp)  
+[**STACKFRAME64**](/windows/desktop/api/DbgHelp/ns-dbghelp-stackframe)  
 </dl>
 
  

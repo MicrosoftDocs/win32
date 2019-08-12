@@ -21,7 +21,7 @@ A fault message is used to communicate error information about a failure at a re
 
 ## Overview
 
-The contents of the body of a fault message is represented in this API using the [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault) structure. Although a fault has a fixed set of fields used to providing information about the failure (like the [**WS\_FAULT\_CODE**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault_code) that identifies the type of fault, and the [**WS\_FAULT\_REASON**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault_reason) that contains text describing the fault), it also contains a detail field that can be used to specify arbitrary XML content relating to the fault.
+The contents of the body of a fault message is represented in this API using the [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) structure. Although a fault has a fixed set of fields used to providing information about the failure (like the [**WS\_FAULT\_CODE**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_code) that identifies the type of fault, and the [**WS\_FAULT\_REASON**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_reason) that contains text describing the fault), it also contains a detail field that can be used to specify arbitrary XML content relating to the fault.
 
 ## Generating faults in a Service
 
@@ -30,7 +30,7 @@ A service will typically send a fault due to some error that was encountered whi
 The following properties can be used with [**WsSetFaultErrorProperty**](/windows/desktop/api/WebServices/nf-webservices-wssetfaulterrorproperty) to capture fault information for a [WS\_ERROR](ws-error.md) object:
 
 -   [**WS\_FAULT\_ERROR\_PROPERTY\_ACTION**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_error_property_id). This specifies the action to use for the fault message. If this is not specified, then a default action is supplied.
--   [**WS\_FAULT\_ERROR\_PROPERTY\_FAULT**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_error_property_id). This contains the [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault) structure that is sent in the body of the fault message.
+-   [**WS\_FAULT\_ERROR\_PROPERTY\_FAULT**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_error_property_id). This contains the [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) structure that is sent in the body of the fault message.
 -   [**WS\_FAULT\_ERROR\_PROPERTY\_HEADER**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_error_property_id). Some faults include message headers which are added to the fault message to convey processing failures relating to headers of the request message. This property can be used to specify a [WS\_XML\_BUFFER](ws-xml-buffer.md) containing a header to be added to the fault message.
 
 Any error strings that are added to the [WS\_ERROR](ws-error.md) object are used as the text in the fault that is sent. Error strings can be added to the error object using [**WsAddErrorString**](/windows/desktop/api/WebServices/nf-webservices-wsadderrorstring).
@@ -50,7 +50,7 @@ If a client receives a fault when using a [Service Proxy](service-proxy.md) or v
 The following properties of an [WS\_ERROR](ws-error.md) object can be queried using [**WsGetFaultErrorProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetfaulterrorproperty) to obtain information about a fault that was received:
 
 -   [**WS\_FAULT\_ERROR\_PROPERTY\_ACTION**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_error_property_id). This specifies the action value of the fault message.
--   [**WS\_FAULT\_ERROR\_PROPERTY\_FAULT**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_error_property_id). This contains the [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault) structure that was deserialized from the body of the fault message.
+-   [**WS\_FAULT\_ERROR\_PROPERTY\_FAULT**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_error_property_id). This contains the [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) structure that was deserialized from the body of the fault message.
 
 A fault may contain arbitrary additional XML content in the detail of the fault. This can be accessed using the use the [**WsGetFaultErrorDetail**](/windows/desktop/api/WebServices/nf-webservices-wsgetfaulterrordetail) function.
 
@@ -58,7 +58,7 @@ A fault may contain arbitrary additional XML content in the detail of the fault.
 
 The following section applies when dealing directly with the contents of the body of a fault message.
 
-The contents of the body of a fault message is represented by the standard [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault) structure, which has built-in support for serialization.
+The contents of the body of a fault message is represented by the standard [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) structure, which has built-in support for serialization.
 
 For example, the following code can be used to write a fault to a message body:
 
@@ -80,7 +80,7 @@ hr = WsReadBody(message, &faultDescription, WS_READ_REQUIRED_VALUE, &fault, size
 
 In order to know whether a received message is a fault or not, the [**WS\_MESSAGE\_PROPERTY\_IS\_FAULT**](/windows/desktop/api/WebServices/ne-webservices-ws_message_property_id) can be consulted. This property is set based on whether the first element in the body is a fault element during [**WsReadMessageStart**](/windows/desktop/api/WebServices/nf-webservices-wsreadmessagestart) or [**WsReadEnvelopeStart**](/windows/desktop/api/WebServices/nf-webservices-wsreadenvelopestart).
 
-To create a [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault) given a [WS\_ERROR](ws-error.md), use the [**WsCreateFaultFromError**](/windows/desktop/api/WebServices/nf-webservices-wscreatefaultfromerror) function.
+To create a [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) given a [WS\_ERROR](ws-error.md), use the [**WsCreateFaultFromError**](/windows/desktop/api/WebServices/nf-webservices-wscreatefaultfromerror) function.
 
 The following enumerations are part of faults:
 
@@ -97,10 +97,10 @@ The following functions are part of faults:
 
 The following structures are part of faults:
 
--   [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault)
--   [**WS\_FAULT\_CODE**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault_code)
--   [**WS\_FAULT\_DETAIL\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault_detail_description)
--   [**WS\_FAULT\_REASON**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault_reason)
+-   [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault)
+-   [**WS\_FAULT\_CODE**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_code)
+-   [**WS\_FAULT\_DETAIL\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_detail_description)
+-   [**WS\_FAULT\_REASON**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_reason)
 
  
 

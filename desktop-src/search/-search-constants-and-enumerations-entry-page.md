@@ -14,13 +14,13 @@ This section documents the following constants and enumerations:
 
 [**Search Protocol Handler Error Messages**](-search-prth-error-constants.md)
 
-[**AUTH\_TYPE**](/windows/desktop/api/Searchapi/ne-searchapi-_auth_type)
+[**AUTH\_TYPE**](/windows/desktop/api/Searchapi/ne-searchapi-auth_type)
 
 [**CASE\_REQUIREMENT**](/windows/desktop/api/Structuredquery/ne-structuredquery-case_requirement)
 
-[**CatalogPausedReason**](/windows/desktop/api/Searchapi/ne-searchapi-_catalogpausedreason)
+[**CatalogPausedReason**](/windows/desktop/api/Searchapi/ne-searchapi-catalogpausedreason)
 
-[**CatalogStatus**](/windows/desktop/api/Searchapi/ne-searchapi-_catalogstatus)
+[**CatalogStatus**](/windows/desktop/api/Searchapi/ne-searchapi-catalogstatus)
 
 [**CHUNKSTATE**](https://msdn.microsoft.com/en-us/library/Bb266508(v=VS.85).aspx)
 
@@ -34,7 +34,7 @@ This section documents the following constants and enumerations:
 
 [**CONDITION\_TYPE**](/windows/desktop/api/Structuredquerycondition/ne-structuredquerycondition-tagcondition_type)
 
-[**FOLLOW\_FLAGS**](/windows/desktop/api/Searchapi/ne-searchapi-_follow_flags)
+[**FOLLOW\_FLAGS**](/windows/desktop/api/Searchapi/ne-searchapi-follow_flags)
 
 [**IFILTER\_FLAGS**](https://msdn.microsoft.com/en-us/library/Bb266510(v=VS.85).aspx)
 
@@ -50,7 +50,7 @@ This section documents the following constants and enumerations:
 
 [**PRIORITY\_LEVEL**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001)
 
-[**PROXY\_ACCESS**](/windows/desktop/api/Searchapi/ne-searchapi-_proxy_access)
+[**PROXY\_ACCESS**](/windows/desktop/api/Searchapi/ne-searchapi-proxy_access)
 
 [**QUERY\_PARSER\_MANAGER\_OPTION**](/windows/desktop/api/Structuredquery/ne-structuredquery-tagquery_parser_manager_option)
 
@@ -58,15 +58,15 @@ This section documents the following constants and enumerations:
 
 [**ROWSETEVENT\_TYPE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002)
 
-[**SEARCH\_INDEXING\_PHASE**](/windows/desktop/api/Searchapi/ne-searchapi-_search_indexing_phase)
+[**SEARCH\_INDEXING\_PHASE**](/windows/desktop/api/Searchapi/ne-searchapi-search_indexing_phase)
 
-[**SEARCH\_KIND\_OF\_CHANGE**](/windows/desktop/api/Searchapi/ne-searchapi-_search_kind_of_change)
+[**SEARCH\_KIND\_OF\_CHANGE**](/windows/desktop/api/Searchapi/ne-searchapi-search_kind_of_change)
 
-[**SEARCH\_NOTIFICATION\_PRIORITY**](/windows/desktop/api/Searchapi/ne-searchapi-_search_notification_priority)
+[**SEARCH\_NOTIFICATION\_PRIORITY**](/windows/desktop/api/Searchapi/ne-searchapi-search_notification_priority)
 
-[**SEARCH\_QUERY\_SYNTAX**](/windows/desktop/api/Searchapi/ne-searchapi-_search_query_syntax)
+[**SEARCH\_QUERY\_SYNTAX**](/windows/desktop/api/Searchapi/ne-searchapi-search_query_syntax)
 
-[**SEARCH\_TERM\_EXPANSION**](/windows/desktop/api/Searchapi/ne-searchapi-_search_term_expansion)
+[**SEARCH\_TERM\_EXPANSION**](/windows/desktop/api/Searchapi/ne-searchapi-search_term_expansion)
 
 [**STRUCTURED\_QUERY\_MULTIOPTION**](/windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_multioption)
 

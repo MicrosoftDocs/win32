@@ -28,7 +28,7 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 <span id="ace_type"></span><span id="ACE_TYPE"></span>**ace\_type**
 </dt> <dd>
 
-A string that indicates the value of the **AceType** member of the [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-_ace_header) structure. The ACE type string can be one of the following strings defined in Sddl.h.
+A string that indicates the value of the **AceType** member of the [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-ace_header) structure. The ACE type string can be one of the following strings defined in Sddl.h.
 
 
 
@@ -64,7 +64,7 @@ A string that indicates the value of the **AceType** member of the [**ACE\_HEADE
 <span id="ace_flags"></span><span id="ACE_FLAGS"></span>**ace\_flags**
 </dt> <dd>
 
-A string that indicates the value of the **AceFlags** member of the [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-_ace_header) structure. The ACE flags string can be a concatenation of the following strings defined in Sddl.h.
+A string that indicates the value of the **AceFlags** member of the [**ACE\_HEADER**](/windows/desktop/api/Winnt/ns-winnt-ace_header) structure. The ACE flags string can be a concatenation of the following strings defined in Sddl.h.
 
 
 
@@ -155,7 +155,7 @@ A string that indicates the [access rights](access-rights-and-access-masks.md) c
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**object\_guid**
 </dt> <dd>
 
-A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_object_ace). The GUID string uses the format returned by the [**UuidToString**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) function.
+A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_allowed_object_ace). The GUID string uses the format returned by the [**UuidToString**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) function.
 
 The following table lists some commonly used object GUIDs.
 

@@ -16,7 +16,7 @@ This section contains reference topics for the Cfg.h header.
 
 | Topic                                               | Description                                                                                                                                                |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PNP\_VETO\_TYPE**](/windows/desktop/api/cfg/ne-cfg-_pnp_veto_type)<br/> | If the PnP manager rejects a request to perform an operation, the PNP\_VETO\_TYPE enumeration is used to identify the reason for the rejection.<br/> |
+| [**PNP\_VETO\_TYPE**](/windows/desktop/api/cfg/ne-cfg-pnp_veto_type)<br/> | If the PnP manager rejects a request to perform an operation, the PNP\_VETO\_TYPE enumeration is used to identify the reason for the rejection.<br/> |
 
 
 

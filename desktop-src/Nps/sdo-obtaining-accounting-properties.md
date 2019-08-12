@@ -32,7 +32,7 @@ vtTemp = sdoRequestHandler.GetProperty(PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE)
 
 
 
-To access the accounting properties using C++, first obtain the request handlers collection. The [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection) contains C++ code that demonstrates how to obtain a collection. The enumeration value for the request handlers collection is **PROPERTY\_IAS\_REQUESTHANDLERS\_COLLECTION**. (The values corresponding to the various NPS collections are enumerated by the [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties) enumeration type.)
+To access the accounting properties using C++, first obtain the request handlers collection. The [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection) contains C++ code that demonstrates how to obtain a collection. The enumeration value for the request handlers collection is **PROPERTY\_IAS\_REQUESTHANDLERS\_COLLECTION**. (The values corresponding to the various NPS collections are enumerated by the [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties) enumeration type.)
 
 The request handlers collection contains an object named "Microsoft Accounting". Retrieve this object from the collection. The section [Retrieving an Object from a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection) contains C++ code that demonstrates how to obtain an object from a collection.
 
@@ -57,7 +57,7 @@ Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://docs
 [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> </dl>
 
  

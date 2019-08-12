@@ -36,7 +36,7 @@ EN_DROPFILES
 *lParam* 
 </dt> <dd>
 
-An [**ENDROPFILES**](/windows/desktop/api/Richedit/ns-richedit-_endropfiles) structure that receives dropped files information.
+An [**ENDROPFILES**](/windows/desktop/api/Richedit/ns-richedit-endropfiles) structure that receives dropped files information.
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ To receive EN\_DROPFILES notification codes, specify [**ENM\_DROPFILES**](rich-e
 **Reference**
 </dt> <dt>
 
-[**ENDROPFILES**](/windows/desktop/api/Richedit/ns-richedit-_endropfiles)
+[**ENDROPFILES**](/windows/desktop/api/Richedit/ns-richedit-endropfiles)
 </dt> </dl>
 
  

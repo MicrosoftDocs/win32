@@ -14,11 +14,11 @@ The following structures are used in Windows networking:
 
 [**CONNECTDLGSTRUCT**](https://msdn.microsoft.com/en-us/library/Aa385332(v=VS.85).aspx)  
 [**DISCDLGSTRUCT**](https://msdn.microsoft.com/en-us/library/Aa385339(v=VS.85).aspx)  
-[**NETCONNECTINFOSTRUCT**](/windows/desktop/api/Winnetwk/ns-winnetwk-_netconnectinfostruct)  
+[**NETCONNECTINFOSTRUCT**](/windows/desktop/api/Winnetwk/ns-winnetwk-netconnectinfostruct)  
 [**NETINFOSTRUCT**](https://msdn.microsoft.com/en-us/library/Aa385349(v=VS.85).aspx)  
-[**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-_netresourcea)  
-[**REMOTE\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-_remote_name_infoa)  
-[**UNIVERSAL\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-_universal_name_infoa)  
+[**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea)  
+[**REMOTE\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-remote_name_infoa)  
+[**UNIVERSAL\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-universal_name_infoa)  
 </dl>
 
  

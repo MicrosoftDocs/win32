@@ -4,14 +4,14 @@ ms.assetid: 6B09B519-1E2F-4757-AAD5-1E4C81023E14
 title: IOCTL_VOLUME_IS_CSV control code
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - IOCTL_VOLUME_IS_CSV
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - Ntddvol.h
 ---
 
@@ -97,11 +97,11 @@ If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this pa
 *lpOverlapped* 
 </dt> <dd>
 
-A pointer to an [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure.
+A pointer to an [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure.
 
 If *hDevice* was opened without specifying **FILE\_FLAG\_OVERLAPPED**, *lpOverlapped* is ignored.
 
-If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
+If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
 
 For overlapped operations, [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
 

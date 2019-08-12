@@ -113,7 +113,7 @@ level-of-detail index of largest map to use. Values range from 0 to (n - 1) wher
 <span id="D3DSAMP_MAXANISOTROPY"></span><span id="d3dsamp_maxanisotropy"></span>**D3DSAMP\_MAXANISOTROPY**
 </dt> <dd>
 
-DWORD maximum anisotropy. Values range from 1 to the value that is specified in the **MaxAnisotropy** member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure. The default value is 1.
+DWORD maximum anisotropy. Values range from 1 to the value that is specified in the **MaxAnisotropy** member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure. The default value is 1.
 
 </dd> <dt>
 

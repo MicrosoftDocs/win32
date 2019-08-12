@@ -13,13 +13,13 @@ Authentication types permitted for a connection.
 
 **LDAP Name:** msNPAuthenticationType2
 
-**ID:** 4105 = [**IAS\_ATTRIBUTE\_NP\_AUTHENTICATION\_TYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
+**ID:** 4105 = [**IAS\_ATTRIBUTE\_NP\_AUTHENTICATION\_TYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** Integer
 
 **Values:  **
 
-Defined in the [**AUTHENTICATION\_TYPE**](/windows/desktop/api/SdoIas/ne-sdoias-_authentication_type) enumerated type declared in the SdoIas.h public header file.
+Defined in the [**AUTHENTICATION\_TYPE**](/windows/desktop/api/SdoIas/ne-sdoias-authentication_type) enumerated type declared in the SdoIas.h public header file.
 
 -   **IAS\_AUTH\_INVALID** (0)
 -   **IAS\_AUTH\_PAP** (1)

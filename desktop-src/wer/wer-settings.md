@@ -288,7 +288,7 @@ This setting is not supported in the **HKEY\_CURRENT\_USER** registry hive.
 
 **REG\_DWORD**
 
-One or more values from the [**MINIDUMP\_TYPE**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_type) enumeration. The default is {**MiniDumpWithDataSegs**\|**MiniDumpWithUnloadedModules**\|**MiniDumpWithProcessThreadData**}.
+One or more values from the [**MINIDUMP\_TYPE**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type) enumeration. The default is {**MiniDumpWithDataSegs**\|**MiniDumpWithUnloadedModules**\|**MiniDumpWithProcessThreadData**}.
 
 **Windows Vista:** The registry values under the **LocalDumps** key are not supported. Note that this behavior changed with Windows Server 2008 and Windows Vista with SP1.
 

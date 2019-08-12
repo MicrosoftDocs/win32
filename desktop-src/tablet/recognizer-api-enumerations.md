@@ -19,7 +19,7 @@ This section describes the recognizer enumerations.
 | [**ALT\_BREAKS**](/windows/desktop/api/rectypes/ne-rectypes-enumalt_breaks)             | Specifies how to create alternates from a best result string.<br/>                   |
 | [**CONFIDENCE\_LEVEL**](/windows/desktop/api/rectypes/ne-rectypes-enumconfidence_level) | Indicates the level of confidence the recognizer has in the recognition result.<br/> |
 | [**LINE\_METRICS**](/windows/desktop/api/rectypes/ne-rectypes-enumline_metrics)         | Represents the lines found in a segment.<br/>                                        |
-| [**PROPERTY\_UNITS**](/windows/desktop/api/tpcshrd/ne-tpcshrd-_property_units)     | Specifies the unit of measurement of a property.<br/>                                |
+| [**PROPERTY\_UNITS**](/windows/desktop/api/tpcshrd/ne-tpcshrd-property_units)     | Specifies the unit of measurement of a property.<br/>                                |
 
 
 

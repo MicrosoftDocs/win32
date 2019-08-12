@@ -44,7 +44,7 @@ See [*component dependency*](vssgloss-c.md).
 <span id="base.vssgloss_device_object"></span><span id="BASE.VSSGLOSS_DEVICE_OBJECT"></span>**device object**
 </dt> <dd>
 
-A string indicating the "root" of a shadow copied volume. Files and directories on a shadow copied volume can be referenced by prepending the device object string to a corresponding path on the original volume. As obtained as the **m\_pwszSnapshotDeviceObject** member of the [**VSS\_SNAPSHOT\_PROP**](/windows/desktop/api/Vss/ns-vss-_vss_snapshot_prop) structure, the device object has no backslash ("\\").
+A string indicating the "root" of a shadow copied volume. Files and directories on a shadow copied volume can be referenced by prepending the device object string to a corresponding path on the original volume. As obtained as the **m\_pwszSnapshotDeviceObject** member of the [**VSS\_SNAPSHOT\_PROP**](/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop) structure, the device object has no backslash ("\\").
 
 </dd> <dt>
 

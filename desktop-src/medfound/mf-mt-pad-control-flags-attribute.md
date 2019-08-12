@@ -16,7 +16,7 @@ Specifies the aspect ratio of the output rectangle for a video media type.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoPadFlags**](/windows/desktop/api/mfapi/ne-mfapi-_mfvideopadflags) enumeration.
+The value of this attribute is a member of the [**MFVideoPadFlags**](/windows/desktop/api/mfapi/ne-mfapi-mfvideopadflags) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

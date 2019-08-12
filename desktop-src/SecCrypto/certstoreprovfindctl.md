@@ -48,14 +48,14 @@ BOOL WINAPI CertStoreProvFindCTL(
 *pFindInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_store_prov_find_info) structure containing all the parameters passed to the [**CertFindCTLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindctlinstore). function.
+A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_store_prov_find_info) structure containing all the parameters passed to the [**CertFindCTLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindctlinstore). function.
 
 </dd> <dt>
 
 *pPrevCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_ctl_context) structure of the last CTL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCTLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
+A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) structure of the last CTL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCTLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
 
 </dd> <dt>
 
@@ -99,13 +99,13 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_store_prov_find_info)
+[**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_store_prov_find_info)
 </dt> <dt>
 
 [**CertFindCTLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindctlinstore)
 </dt> <dt>
 
-[**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_ctl_context)
+[**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context)
 </dt> </dl>
 
  

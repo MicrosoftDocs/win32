@@ -59,7 +59,7 @@ If the target string is found, the return value is the zero-based position of th
 
 ## Remarks
 
-**EM\_FINDTEXTW** uses the [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure, while [**EM\_FINDTEXTEXW**](em-findtextexw.md) uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) structure. The difference is that **FINDTEXTEXW** reports back the range of text that was found.
+**EM\_FINDTEXTW** uses the [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure, while [**EM\_FINDTEXTEXW**](em-findtextexw.md) uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure. The difference is that **FINDTEXTEXW** reports back the range of text that was found.
 
 ## Requirements
 

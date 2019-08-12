@@ -21,9 +21,9 @@ To enable 4GT, use the [BCDEdit /set](https://go.microsoft.com/fwlink/p/?linkid=
 
 The **/3GB** switch makes a full 3 GB of virtual address space available to applications and reduces the amount available to the system to 1 GB. On Windows Server 2003, the amount of address space available to applications can be adjusted by setting the **/USERVA** switch in Boot.ini to a value between 2048 and 3072, which increases the amount of address space available to the system. This can help maintain overall system performance when the application requires more than 2 GB but less than 3 GB of address space.
 
-To enable an application to use the larger address space, set the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image) flag in the image header. The linker included with Microsoft Visual C++ supports the **/LARGEADDRESSAWARE** switch to set this flag. Setting this flag and then running the application on a system that does not have 4GT support should not affect the application.
+To enable an application to use the larger address space, set the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag in the image header. The linker included with Microsoft Visual C++ supports the **/LARGEADDRESSAWARE** switch to set this flag. Setting this flag and then running the application on a system that does not have 4GT support should not affect the application.
 
-On 64-bit editions of Windows, 32-bit applications marked with the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image) flag have 4 GB of address space available.
+On 64-bit editions of Windows, 32-bit applications marked with the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag have 4 GB of address space available.
 
 **Itanium editions of Windows Server 2003:** Prior to SP1, 32-bit processes have only 2 GB of address space available.
 

@@ -16,7 +16,7 @@ Sets the processing mode of the [**Video Stabilization MFT**](video-stabilizatio
 
 ## Remarks
 
-The value of this attribute is an [**MFVideoDSPMode**](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-_mfvideodspmode) enumeration value. This attribute can be used to enable or disable the image stabilization, and can be updated for each output sample.
+The value of this attribute is an [**MFVideoDSPMode**](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-mfvideodspmode) enumeration value. This attribute can be used to enable or disable the image stabilization, and can be updated for each output sample.
 
 To set this attribute:
 

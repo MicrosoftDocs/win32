@@ -20,7 +20,7 @@ The following API elements are part of endpoint indentity:
 
 | Enumeration                                                       | Description                                                                                                                   |
 |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [**WS\_ENDPOINT\_IDENTITY\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_endpoint_identity_type) | The type of the endpoint identity, used as a selector for subtypes of [**WS\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_endpoint_identity). |
+| [**WS\_ENDPOINT\_IDENTITY\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_endpoint_identity_type) | The type of the endpoint identity, used as a selector for subtypes of [**WS\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_identity). |
 
 
 
@@ -30,13 +30,13 @@ The following API elements are part of endpoint indentity:
 
 | Structure                                                               | Description                                                                                  |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**WS\_CERT\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_cert_endpoint_identity)       | The type for certificate endpoint identity .                                                 |
-| [**WS\_DNS\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_dns_endpoint_identity)         | The type for specifying an endpoint identity represented by a DNS name.                      |
-| [**WS\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_endpoint_identity)                  | The base type for all endpoint identities.                                                   |
-| [**WS\_RSA\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_rsa_endpoint_identity)         | Type for RSA endpoint identity.                                                              |
-| [**WS\_SPN\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_spn_endpoint_identity)         | The type for specifying an endpoint identity represented by an SPN (service principal name). |
-| [**WS\_UNKNOWN\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_unknown_endpoint_identity) | The type for an unknown endpoint identity.                                                   |
-| [**WS\_UPN\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-_ws_upn_endpoint_identity)         | The type for specifying an endpoint identity represented by a UPN (user principal name).     |
+| [**WS\_CERT\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_endpoint_identity)       | The type for certificate endpoint identity .                                                 |
+| [**WS\_DNS\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_dns_endpoint_identity)         | The type for specifying an endpoint identity represented by a DNS name.                      |
+| [**WS\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_identity)                  | The base type for all endpoint identities.                                                   |
+| [**WS\_RSA\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_rsa_endpoint_identity)         | Type for RSA endpoint identity.                                                              |
+| [**WS\_SPN\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_spn_endpoint_identity)         | The type for specifying an endpoint identity represented by an SPN (service principal name). |
+| [**WS\_UNKNOWN\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_unknown_endpoint_identity) | The type for an unknown endpoint identity.                                                   |
+| [**WS\_UPN\_ENDPOINT\_IDENTITY**](/windows/desktop/api/WebServices/ns-webservices-ws_upn_endpoint_identity)         | The type for specifying an endpoint identity represented by a UPN (user principal name).     |
 
 
 

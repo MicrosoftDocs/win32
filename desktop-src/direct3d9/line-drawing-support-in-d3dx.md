@@ -46,7 +46,7 @@ The library uses native hardware line drawing support (if available in the devic
 -   Line width is 1.
 -   No line pattern is enabled.
 
-Single-pixel-wide antialiased lines are supported by some hardware, so the library uses that, if available. The LineCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure enumerates hardware capabilities for line-drawing primitives.
+Single-pixel-wide antialiased lines are supported by some hardware, so the library uses that, if available. The LineCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure enumerates hardware capabilities for line-drawing primitives.
 
 When the software line drawing is used, each line is expanded into a rectangle and four vertices are sent down to the driver.
 

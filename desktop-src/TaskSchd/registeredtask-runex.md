@@ -58,7 +58,7 @@ For more information and a list of action properties that can use $(Arg0), $(Arg
 *flags* \[in\]
 </dt> <dd>
 
-A [TASK\_RUN\_FLAGS](/windows/desktop/api/taskschd/ne-taskschd-_task_run_flags) constant that defines how the task is run.
+A [TASK\_RUN\_FLAGS](/windows/desktop/api/taskschd/ne-taskschd-task_run_flags) constant that defines how the task is run.
 
 </dd> <dt>
 

@@ -54,7 +54,7 @@ ID of the central access policy to retrieve.
 *pArgs* \[in, optional\]
 </dt> <dd>
 
-Optional arguments that were passed to the [**AuthzAccessCheck**](/windows/desktop/api/Authz/nf-authz-authzaccesscheck) function through the **OptionalArguments** member of the [**AUTHZ\_ACCESS\_REQUEST**](/windows/desktop/api/Authz/ns-authz-_authz_access_request) structure.
+Optional arguments that were passed to the [**AuthzAccessCheck**](/windows/desktop/api/Authz/nf-authz-authzaccesscheck) function through the **OptionalArguments** member of the [**AUTHZ\_ACCESS\_REQUEST**](/windows/desktop/api/Authz/ns-authz-authz_access_request) structure.
 
 </dd> <dt>
 
@@ -94,10 +94,10 @@ If the function is unable to perform the evaluation, it returns **FALSE**. Use [
 
 <dl> <dt>
 
-[**AUTHZ\_ACCESS\_REQUEST**](/windows/desktop/api/Authz/ns-authz-_authz_access_request)
+[**AUTHZ\_ACCESS\_REQUEST**](/windows/desktop/api/Authz/ns-authz-authz_access_request)
 </dt> <dt>
 
-[**AUTHZ\_INIT\_INFO**](/windows/desktop/api/Authz/ns-authz-_authz_init_info)
+[**AUTHZ\_INIT\_INFO**](/windows/desktop/api/Authz/ns-authz-authz_init_info)
 </dt> <dt>
 
 [**AuthzAccessCheck**](/windows/desktop/api/Authz/nf-authz-authzaccesscheck)

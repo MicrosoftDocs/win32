@@ -44,7 +44,7 @@ HRESULT get_State(
 
 ## Property value
 
-A value of the [**TSSESSION\_STATE**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_tssession_state) enumeration that indicates the state of a session.
+A value of the [**TSSESSION\_STATE**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-tssession_state) enumeration that indicates the state of a session.
 
 ## Requirements
 
@@ -65,7 +65,7 @@ A value of the [**TSSESSION\_STATE**](/windows/desktop/api/SessDirPublicTypes/ne
 [**ITsSbSession**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession)
 </dt> <dt>
 
-[**TSSESSION\_STATE**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_tssession_state)
+[**TSSESSION\_STATE**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-tssession_state)
 </dt> </dl>
 
  

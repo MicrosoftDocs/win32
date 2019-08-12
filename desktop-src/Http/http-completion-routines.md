@@ -12,11 +12,11 @@ Applications have several options for receiving completion indications and provi
 
 ## Blocked I/O
 
-Applications can block while waiting for the API call to complete by setting the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure to **NULL**. This truly blocks all operations on the thread. For example, in calls to [**HttpWaitForDisconnect**](/windows/desktop/api/Http/nf-http-httpwaitfordisconnect), the call blocks until the connection is broken.
+Applications can block while waiting for the API call to complete by setting the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure to **NULL**. This truly blocks all operations on the thread. For example, in calls to [**HttpWaitForDisconnect**](/windows/desktop/api/Http/nf-http-httpwaitfordisconnect), the call blocks until the connection is broken.
 
 ## Asynchronous I/O
 
-Applications that prefer not to block can use the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure to obtain the completion results. The application supplies a pointer to an **OVERLAPPED** structure, which is used with an event object or a completion port. With an I/O completion port, an HTTP handle is used as a file handle would be in an asynchronous file I/O operation. The following table summarizes the completion options available to the applications.
+Applications that prefer not to block can use the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure to obtain the completion results. The application supplies a pointer to an **OVERLAPPED** structure, which is used with an event object or a completion port. With an I/O completion port, an HTTP handle is used as a file handle would be in an asynchronous file I/O operation. The following table summarizes the completion options available to the applications.
 
 
 
@@ -32,7 +32,7 @@ Applications that prefer not to block can use the [**OVERLAPPED**](https://docs.
 
 ## Returning the Number of Bytes Read
 
-Some of the functions that use the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure for asynchronous completion return a *pBytesReceived* (or *pBytesSent* or *pBytesRead*) parameter that indicates the number of bytes transferred synchronously. For asynchronous calls, this parameter should be set to **NULL**. For synchronous calls, the *pBytesReceived* parameter is optional and can be either **NULL** or non-**NULL**.
+Some of the functions that use the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure for asynchronous completion return a *pBytesReceived* (or *pBytesSent* or *pBytesRead*) parameter that indicates the number of bytes transferred synchronously. For asynchronous calls, this parameter should be set to **NULL**. For synchronous calls, the *pBytesReceived* parameter is optional and can be either **NULL** or non-**NULL**.
 
 If the event object is used for asynchronous completion, the [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) function is called to determine the number of bytes read. If the completion port is used (the *hFile* parameter is associated with an I/O completion port), the application calls the [**GetQueuedCompletionStatus**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) function to determine the number of bytes read. If the asynchronous operations have not completed, applications can call the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function to obtain extended error information.
 

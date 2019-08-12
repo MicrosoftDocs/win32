@@ -69,7 +69,7 @@ A pointer to an object of type [**IUnknown**](https://msdn.microsoft.com/en-us/l
 
 Type: **LPITEMIDLIST**
 
-A pointer to an [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure for the search folder.
+A pointer to an [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure for the search folder.
 
 </dd> </dl>
 

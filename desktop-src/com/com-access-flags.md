@@ -44,7 +44,7 @@ These values indicate whether an entry in the access list describes rights that 
 
 <dl> <dt>
 
-[**ACTRL\_ACCESS\_ENTRY**](/windows/desktop/api/AccCtrl/ns-accctrl-_actrl_access_entrya)
+[**ACTRL\_ACCESS\_ENTRY**](/windows/desktop/api/AccCtrl/ns-accctrl-actrl_access_entrya)
 </dt> </dl>
 
  

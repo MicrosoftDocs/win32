@@ -18,7 +18,7 @@ Once your application has located a file object, the next step is often to act o
 
 ## Using ShellExecute and ShellExecuteEx
 
-To use [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) or [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa), your application must specify the file or folder object that is to be acted on, and a *verb* that specifies the operation. For **ShellExecute**, assign these values to the appropriate parameters. For **ShellExecuteEx**, fill in the appropriate members of a [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-_shellexecuteinfoa) structure. There are also several other members or parameters that can be used to fine-tune the behavior of the two functions.
+To use [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) or [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa), your application must specify the file or folder object that is to be acted on, and a *verb* that specifies the operation. For **ShellExecute**, assign these values to the appropriate parameters. For **ShellExecuteEx**, fill in the appropriate members of a [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa) structure. There are also several other members or parameters that can be used to fine-tune the behavior of the two functions.
 
 File and folder objects can be part of the file system or virtual objects, and they can be identified by either paths or pointers to item identifier lists (PIDLs).
 
@@ -69,8 +69,8 @@ In general, trying to determine the list of available verbs for a particular fil
 
 A site chain's services can control many behaviors of item activation. As of Windows 8, you can provide a pointer to the site chain to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) to enable these behaviors. To provide the site to **ShellExecuteEx**:
 
--   Specify the SEE\_MASK\_FLAG\_HINST\_IS\_SITE flag in the **fMask** member of [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-_shellexecuteinfoa).
--   Provide the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) in the **hInstApp** member of [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-_shellexecuteinfoa).
+-   Specify the SEE\_MASK\_FLAG\_HINST\_IS\_SITE flag in the **fMask** member of [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa).
+-   Provide the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) in the **hInstApp** member of [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa).
 
 ### Using ShellExecute to Launch the Search Dialog Box
 
@@ -156,7 +156,7 @@ main()
 
 The application first retrieves the PIDL of the Windows directory, and enumerates its contents until it finds the first .bmp file. Unlike the earlier example, [**IShellFolder::GetDisplayNameOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) is used to retrieve the file's parsing name instead of its display name. Because this is a file system folder, the parsing name is a fully qualified path, which is what is needed for [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa).
 
-Once the first .bmp file has been located, appropriate values are assigned to the members of a [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-_shellexecuteinfoa) structure. The **lpFile** member is set to the parsing name of the file, and the **lpVerb** member to **NULL**, to begin the default operation. In this case, the default operation is "open". The structure is then passed to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa), which launches the default handler for bitmap files, typically MSPaint.exe, to open the file. After the function returns, the PIDLs are freed and the Windows folder's [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface is released.
+Once the first .bmp file has been located, appropriate values are assigned to the members of a [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa) structure. The **lpFile** member is set to the parsing name of the file, and the **lpVerb** member to **NULL**, to begin the default operation. In this case, the default operation is "open". The structure is then passed to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa), which launches the default handler for bitmap files, typically MSPaint.exe, to open the file. After the function returns, the PIDLs are freed and the Windows folder's [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface is released.
 
  
 

@@ -188,8 +188,8 @@ IPsec Structures
     -   [**IPSEC\_GETSPI0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_getspi0_) (Windows Vista)
     -   [**IPSEC\_GETSPI1**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_getspi1_) (Windows 7 and later)
 -   [**IPSEC\_ID0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_id0_)
--   [**IPSEC\_KEY\_MANAGER0**](/windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0)
--   [**IPSEC\_KEY\_MANAGER\_CALLBACKS0**](/windows/desktop/api/fwpmu/ns-fwpmu-_ipsec_key_manager_callbacks0)
+-   [**IPSEC\_KEY\_MANAGER0**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0)
+-   [**IPSEC\_KEY\_MANAGER\_CALLBACKS0**](/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0)
 -   IPSEC\_KEYING\_POLICY:
     -   [**IPSEC\_KEYING\_POLICY0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_keying_policy0_) (Windows Vista and Windows 7)
     -   [**IPSEC\_KEYING\_POLICY1**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1_) (Windows 8)

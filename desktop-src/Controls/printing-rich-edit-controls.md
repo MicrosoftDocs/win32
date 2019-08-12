@@ -29,7 +29,7 @@ To format text in a rich edit control as it will appear on a target device (usua
 
 ### Format Print for a Specific Device
 
-To format part of a rich edit control's contents for a specific device, send the [**EM\_FORMATRANGE**](em-formatrange.md) message. The [**FORMATRANGE**](/windows/desktop/api/Richedit/ns-richedit-_formatrange) structure that is used with this message specifies the range of text to format as well as the HDC for the target device. Optionally, this message also sends the text to the printer.
+To format part of a rich edit control's contents for a specific device, send the [**EM\_FORMATRANGE**](em-formatrange.md) message. The [**FORMATRANGE**](/windows/desktop/api/Richedit/ns-richedit-formatrange) structure that is used with this message specifies the range of text to format as well as the HDC for the target device. Optionally, this message also sends the text to the printer.
 
 ### Use Banding
 

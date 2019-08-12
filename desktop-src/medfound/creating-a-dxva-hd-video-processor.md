@@ -34,7 +34,7 @@ const UINT          VIDEO_HEIGHT         = 480;
 
 To create a DXVA-HD video processor:
 
-1.  Fill in a [**DXVAHD\_CONTENT\_DESC**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_content_desc) structure with a description of the video content. The driver uses this information as a hint to optimize the capabilities of the video processor. The structure does not contain a complete format description.
+1.  Fill in a [**DXVAHD\_CONTENT\_DESC**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_content_desc) structure with a description of the video content. The driver uses this information as a hint to optimize the capabilities of the video processor. The structure does not contain a complete format description.
     ```C++
         DXVAHD_RATIONAL fps = { VIDEO_FPS, 1 }; 
 
@@ -59,7 +59,7 @@ To create a DXVA-HD video processor:
 
     
 
-3.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps). This method fills in a [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps) structure with the device capabilities. If you require specific video processing features, such as luma keying or image filtering, check their availability by using this structure.
+3.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps). This method fills in a [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps) structure with the device capabilities. If you require specific video processing features, such as luma keying or image filtering, check their availability by using this structure.
     ```C++
         DXVAHD_VPDEVCAPS caps;
 
@@ -70,7 +70,7 @@ To create a DXVA-HD video processor:
 
 4.  Check whether the DXVA-HD device supports the input video formats that you require. The topic [Checking Supported DXVA-HD Formats](checking-supported-dxva-hd-formats.md) describes this step in more detail.
 5.  Check whether the DXVA-HD device supports the output format that you require. The section [Checking Supported DXVA-HD Formats](checking-supported-dxva-hd-formats.md) describes this step in more detail.
-6.  Allocate an array of [**DXVAHD\_VPCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps) structures. The number of array elements that must be allocated is given by the **VideoProcessorCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps) structure, obtained in step 3.
+6.  Allocate an array of [**DXVAHD\_VPCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps) structures. The number of array elements that must be allocated is given by the **VideoProcessorCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps) structure, obtained in step 3.
     ```C++
         // Create the array of video processor caps. 
         
@@ -85,8 +85,8 @@ To create a DXVA-HD video processor:
 
     
 
-7.  Each [**DXVAHD\_VPCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps) structure represents a distinct video processor. You can loop through this array to discover the capabilities of each video processor. The structure includes information about the deinterlacing, telecine, and frame-rate conversion capabilities of the video processor.
-8.  Select a video processor to create. The **VPGuid** member of the [**DXVAHD\_VPCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps) structure contains a GUID that uniquely identifies the video processor. Pass this GUID to the [**IDXVAHD\_Device::CreateVideoProcessor**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor) method. The method returns an [**IDXVAHD\_VideoProcessor**](/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_videoprocessor) pointer.
+7.  Each [**DXVAHD\_VPCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps) structure represents a distinct video processor. You can loop through this array to discover the capabilities of each video processor. The structure includes information about the deinterlacing, telecine, and frame-rate conversion capabilities of the video processor.
+8.  Select a video processor to create. The **VPGuid** member of the [**DXVAHD\_VPCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps) structure contains a GUID that uniquely identifies the video processor. Pass this GUID to the [**IDXVAHD\_Device::CreateVideoProcessor**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor) method. The method returns an [**IDXVAHD\_VideoProcessor**](/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_videoprocessor) pointer.
     ```C++
         HRESULT hr = pDXVAHD->GetVideoProcessorCaps(
             caps.VideoProcessorCount, pVPCaps);

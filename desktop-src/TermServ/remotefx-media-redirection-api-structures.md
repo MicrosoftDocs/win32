@@ -15,7 +15,7 @@ The RemoteFX media redirection API defines the following structures.
 
 <dl> <dt>
 
-[**BITMAP\_RENDERER\_STATISTICS**](/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics)
+[**BITMAP\_RENDERER\_STATISTICS**](/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics)
 </dt> <dd>
 
 Contains statistics for the RemoteFX media redirection bitmap renderer.

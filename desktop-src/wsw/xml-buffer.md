@@ -26,7 +26,7 @@ Once a writer has been set to an XML Buffer, in addition to all of the XML Write
 
 Nodes may be deleted from the XML Buffer by obtaining the position of the node using [**WsGetReaderPosition**](/windows/desktop/api/WebServices/nf-webservices-wsgetreaderposition) or [**WsGetWriterPosition**](/windows/desktop/api/WebServices/nf-webservices-wsgetwriterposition) and then calling [**WsRemoveNode**](/windows/desktop/api/WebServices/nf-webservices-wsremovenode) with that position. For elements, this will delete the element, all its children including its matching end element.
 
-A position is represented by the value [**WS\_XML\_NODE\_POSITION**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_node_position). Positions are specific to a particular XML Buffer, and are only valid as long as the XML Buffer is valid.
+A position is represented by the value [**WS\_XML\_NODE\_POSITION**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_node_position). Positions are specific to a particular XML Buffer, and are only valid as long as the XML Buffer is valid.
 
 The following enumerations are used with XML buffers:
 
@@ -44,8 +44,8 @@ The following handle is used with XML buffers:
 
 The following structures are used with XML buffers:
 
--   [**WS\_XML\_BUFFER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_buffer_property)
--   [**WS\_XML\_NODE\_POSITION**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_node_position)
+-   [**WS\_XML\_BUFFER\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_buffer_property)
+-   [**WS\_XML\_NODE\_POSITION**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_node_position)
 
  
 

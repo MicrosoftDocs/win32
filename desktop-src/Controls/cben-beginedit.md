@@ -36,7 +36,7 @@ CBEN_BEGINEDIT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure that contains information about the notification code.
+A pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains information about the notification code.
 
 </dd> </dl>
 

@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The following structures are used with regions:
 
--   [**RGNDATA**](/windows/desktop/api/Wingdi/ns-wingdi-_rgndata)
--   [**RGNDATAHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-_rgndataheader)
+-   [**RGNDATA**](/windows/desktop/api/Wingdi/ns-wingdi-rgndata)
+-   [**RGNDATAHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-rgndataheader)
 
  
 

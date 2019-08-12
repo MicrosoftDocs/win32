@@ -101,7 +101,7 @@ Beginning in Windows 10, version 1607 and Windows Server 2016, the following P
  
 
 > [!Note]  
-> No PSK cipher suites are enabled by default. Applications need to request PSK using SCH\_USE\_PRESHAREDKEY\_ONLY. For more information on Schannel flags, see [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-_schannel_cred).
+> No PSK cipher suites are enabled by default. Applications need to request PSK using SCH\_USE\_PRESHAREDKEY\_ONLY. For more information on Schannel flags, see [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred).
 
  
 

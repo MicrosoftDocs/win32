@@ -12,9 +12,9 @@ The following enumeration types are used with device management:
 
 <dl>
 
-[**ELEMENT TYPE**](/windows/desktop/api/WinIoCtl/ne-winioctl-_element_type)  
+[**ELEMENT TYPE**](/windows/desktop/api/WinIoCtl/ne-winioctl-element_type)  
 [**STORAGE\_BUS\_TYPE**](https://msdn.microsoft.com/en-us/library/Aa363465(v=VS.85).aspx)  
-[**STORAGE\_MEDIA\_TYPE**](/windows/desktop/api/WinIoCtl/ne-winioctl-_storage_media_type)  
+[**STORAGE\_MEDIA\_TYPE**](/windows/desktop/api/WinIoCtl/ne-winioctl-storage_media_type)  
 </dl>
 
  

@@ -3,7 +3,7 @@ title: Best Practices When Using BITS
 description: This section contains information you should consider when designing an application that uses BITS.
 ms.assetid: f4a09a80-2a85-4b59-b0fd-c23c128973f7
 ms.topic: article
-ms.date: 10/31/2018
+ms.date: 7/12/2019
 ---
 
 # Best Practices When Using BITS
@@ -57,6 +57,8 @@ By default, BITS uses the user's Internet Explorer proxy settings. To override t
 The Internet Explorer proxy settings do not apply to system accounts, so the default proxy behavior (**BG\_JOB\_PROXY\_USAGE\_PRECONFIG**) will only work correctly in Web Proxy Auto-Discovery Protocol (WPAD) deployments, unless additional configuration steps are taken. If your application is a service running as LocalSystem, LocalService, or NetworkService, consider configuring a helper token on your BITS jobs, or explicitly setting the correct proxy settings by calling [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) with **BG\_JOB\_PROXY\_USAGE\_OVERRIDE**. As an alternative, you can use the **/Util /SetIEProxy** switches of BitsAdmin.exe to set Internet Explorer proxy settings for the LocalSystem, LocalService, or NetworkService system account. For details, see [BitsAdmin Tool](bitsadmin-tool.md).
 
 BITS does not recognize the proxy settings that are set using the Proxycfg.exe file.
+
+Starting with the Windows 10 October 2018 Update (10.0; Build 17763), BITS uses the same proxy order that WinHttp uses with AUTOMATIC_PROXY. BITS uses this more compatible ordering when BG_JOB_PROXY_USAGE_PRECONFIG is specified. BG_JOB_PROXY_USAGE_PRECONFIG is the default value for specifying the HTTP proxy.
 
 ## Specifying user-specific settings for authenticating proxies
 

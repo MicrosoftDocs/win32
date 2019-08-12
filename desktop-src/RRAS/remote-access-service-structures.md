@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Use the following structures to implement RAS functionality.
 
-[**RAS\_PROJECTION\_INFO**](/windows/desktop/api/Ras/ns-ras-_ras_projection_info)
+[**RAS\_PROJECTION\_INFO**](/windows/desktop/api/Ras/ns-ras-ras_projection_info)
 
-[**RAS\_STATS**](/windows/desktop/api/Ras/ns-ras-_ras_stats)
+[**RAS\_STATS**](/windows/desktop/api/Ras/ns-ras-ras_stats)
 
 [**RASADPARAMS**](https://msdn.microsoft.com/en-us/library/Aa376719(v=VS.85).aspx)
 
@@ -54,19 +54,19 @@ Use the following structures to implement RAS functionality.
 
 [**RASENTRYNAME**](https://msdn.microsoft.com/en-us/library/Aa377267(v=VS.85).aspx)
 
-[**RASIKEV2\_PROJECTION\_INFO**](https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_rasikev2_projection_info)
+[**RASIKEV2\_PROJECTION\_INFO**](https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info)
 
 [**RASIPADDR**](https://msdn.microsoft.com/en-us/library/Aa377578(v=VS.85).aspx)
 
 [**RASMONITORDLG**](https://msdn.microsoft.com/en-us/library/Aa377591(v=VS.85).aspx)
 
-[**RASNAPSTATE**](/windows/desktop/api/Ras/ns-ras-_tagrasnapstate)
+[**RASNAPSTATE**](/windows/desktop/api/Ras/ns-ras-rasnapstate)
 
 [**RASNOUSER**](https://msdn.microsoft.com/en-us/library/Aa377598(v=VS.85).aspx)
 
 [**RASPBDLG**](https://msdn.microsoft.com/en-us/library/Aa377607(v=VS.85).aspx)
 
-[**RASPPP\_PROJECTION\_INFO**](/windows/desktop/api/Ras/ns-ras-_rasppp_projection_info)
+[**RASPPP\_PROJECTION\_INFO**](/windows/desktop/api/Ras/ns-ras-rasppp_projection_info)
 
 [**RASPPPCCP**](https://msdn.microsoft.com/en-us/library/Aa377620(v=VS.85).aspx)
 
@@ -80,7 +80,7 @@ Use the following structures to implement RAS functionality.
 
 [**RASPPPNBF**](https://msdn.microsoft.com/en-us/library/Aa377642(v=VS.85).aspx)
 
-[**RASPROJECTION\_INFO\_TYPE**](https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-_rasprojection_info_type)
+[**RASPROJECTION\_INFO\_TYPE**](https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-rasprojection_info_type)
 
 [**RASSLIP**](https://msdn.microsoft.com/en-us/library/Aa377836(v=VS.85).aspx)
 

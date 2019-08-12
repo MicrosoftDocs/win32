@@ -5,10 +5,10 @@ ms.tgt_platform: multiple
 title: Win32_ClusterShare class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_ClusterShare
 - Win32_ClusterShare.Caption
 - Win32_ClusterShare.Description
@@ -21,29 +21,9 @@ api_name:
 - Win32_ClusterShare.Path
 - Win32_ClusterShare.Type
 - Win32_ClusterShare.ServerName
-api_type: 
+api_type:
 - DllExport
-api_location: 
-- CIMWin32.dll
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Win32_ClusterShare
-- Win32_ClusterShare.Caption
-- Win32_ClusterShare.Description
-- Win32_ClusterShare.InstallDate
-- Win32_ClusterShare.Status
-- Win32_ClusterShare.AccessMask
-- Win32_ClusterShare.AllowMaximum
-- Win32_ClusterShare.MaximumAllowed
-- Win32_ClusterShare.Name
-- Win32_ClusterShare.Path
-- Win32_ClusterShare.Type
-- Win32_ClusterShare.ServerName
-api_type: 
-- DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -132,7 +112,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502)\|shi502\_max\_uses")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502)\|shi502\_max\_uses")
 </dt> </dl>
 
 Number of concurrent users for this resource has been limited. If **True**, the value in the **MaximumAllowed** property is ignored.
@@ -204,7 +184,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502)\|shi502\_max\_uses")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502)\|shi502\_max\_uses")
 </dt> </dl>
 
 Limit on the maximum number of users allowed to use this resource concurrently. The value is only valid if the **AllowMaximum** property is set to **FALSE**.
@@ -222,7 +202,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1)\|shi1\_netname")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1)\|shi1\_netname")
 </dt> </dl>
 
 Alias given to a path set up as a share on a computer system running Windows.
@@ -242,7 +222,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502)\|shi502\_path")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502)\|shi502\_path")
 </dt> </dl>
 
 Local path of the Windows share.
@@ -262,7 +242,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("ServerName"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_503**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503)\|shi503\_servername")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("ServerName"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_503**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503)\|shi503\_servername")
 </dt> </dl>
 
 The cluster server on which the share is hosted.
@@ -386,7 +366,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502)\|shi502\_type")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502)\|shi502\_type")
 </dt> </dl>
 
 Type of resource being shared. Types include: disk drives, print queues, interprocess communications (IPC), and general devices.

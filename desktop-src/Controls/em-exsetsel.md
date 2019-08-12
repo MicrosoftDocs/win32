@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A [**CHARRANGE**](/windows/desktop/api/Richedit/ns-richedit-_charrange) structure that specifies the selection range.
+A [**CHARRANGE**](/windows/desktop/api/Richedit/ns-richedit-charrange) structure that specifies the selection range.
 
 </dd> </dl>
 

@@ -35,7 +35,7 @@ TaskSettings.MultipleInstances As Integer
 
 ## Property value
 
-[**TASK\_INSTANCES\_POLICY**](/windows/desktop/api/taskschd/ne-taskschd-_task_instances_policy) constants.
+[**TASK\_INSTANCES\_POLICY**](/windows/desktop/api/taskschd/ne-taskschd-task_instances_policy) constants.
 
 
 
@@ -71,7 +71,7 @@ When reading or writing XML for a task, this setting is specified in the [**Mult
 
 <dl> <dt>
 
-[**TASK\_INSTANCES\_POLICY**](/windows/desktop/api/taskschd/ne-taskschd-_task_instances_policy)
+[**TASK\_INSTANCES\_POLICY**](/windows/desktop/api/taskschd/ne-taskschd-task_instances_policy)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)

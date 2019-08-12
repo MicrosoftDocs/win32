@@ -14,9 +14,9 @@ The Restart Manager API contains the following structures:
 
 <dl>
 
-[**RM\_FILTER\_INFO**](/windows/desktop/api/RestartManager/ns-restartmanager-_rm_filter_info)  
-[**RM\_PROCESS\_INFO**](/windows/desktop/api/RestartManager/ns-restartmanager-_rm_process_info)  
-[**RM\_UNIQUE\_PROCESS**](/windows/desktop/api/RestartManager/ns-restartmanager-_rm_unique_process)  
+[**RM\_FILTER\_INFO**](/windows/desktop/api/RestartManager/ns-restartmanager-rm_filter_info)  
+[**RM\_PROCESS\_INFO**](/windows/desktop/api/RestartManager/ns-restartmanager-rm_process_info)  
+[**RM\_UNIQUE\_PROCESS**](/windows/desktop/api/RestartManager/ns-restartmanager-rm_unique_process)  
 </dl>
 
  

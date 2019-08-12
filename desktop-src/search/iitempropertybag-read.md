@@ -46,7 +46,7 @@ The number of properties to read. This argument specifies the number of elements
 *pPropBag* \[in\]
 </dt> <dd>
 
-Pointer to an array of [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-_tagitemprop) structures that specifies the properties that are requested.
+Pointer to an array of [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-itemprop) structures that specifies the properties that are requested.
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ If the method succeeds, it returns S\_OK. Otherwise, it returns an **HRESULT** e
 
 The [**IItemPropertyBag**](iitempropertybag.md) interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the [**IItemPropertyBag**](iitempropertybag.md) interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-_tagitemprop) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the [**IItemPropertyBag**](iitempropertybag.md) interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-itemprop) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
 
 ## Requirements
 

@@ -38,7 +38,7 @@ void Event_Handler_Function_Name(
 *pInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**WLX\_NOTIFICATION\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-_wlx_notification_info) structure that contains the details of the event.
+A pointer to a [**WLX\_NOTIFICATION\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-wlx_notification_info) structure that contains the details of the event.
 
 </dd> </dl>
 

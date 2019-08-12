@@ -50,7 +50,7 @@ HRESULT InvalidateSearch(
 
 Type: **LPCITEMIDLIST**
 
-A pointer to the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure for the search folder.
+A pointer to the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure for the search folder.
 
 </dd> <dt>
 

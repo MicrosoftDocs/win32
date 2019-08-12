@@ -16,7 +16,7 @@ An application can implement custom authorization for incoming messages on a ser
 
 ## 
 
-A service host receives a security callback [**WS\_SERVICE\_SECURITY\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_service_security_callback) as part of the [**WS\_SERVICE\_ENDPOINT**](/windows/desktop/api/WebServices/ns-webservices-_ws_service_endpoint) which is passed to the [**WsCreateServiceHost**](/windows/desktop/api/WebServices/nf-webservices-wscreateservicehost) function. This callback is invoked when the [WS\_MESSAGE](ws-message.md) is received.
+A service host receives a security callback [**WS\_SERVICE\_SECURITY\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_service_security_callback) as part of the [**WS\_SERVICE\_ENDPOINT**](/windows/desktop/api/WebServices/ns-webservices-ws_service_endpoint) which is passed to the [**WsCreateServiceHost**](/windows/desktop/api/WebServices/nf-webservices-wscreateservicehost) function. This callback is invoked when the [WS\_MESSAGE](ws-message.md) is received.
 
 The application can rely on this callback to implement custom authorization for incoming messages on the service host. If the authorization fails the security callback function returns a failure HR, and the service host aborts the channel.
 

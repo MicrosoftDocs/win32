@@ -4,7 +4,7 @@ description: Shader Model 3 added additional capabilities to shader model 2.
 ms.assetid: bd09f86e-946f-4281-bc48-1db5cd32b2ae
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -43,11 +43,11 @@ Shader Model 3 added additional capabilities to [shader model 2](dx-graphics-hls
 </tr>
 <tr class="even">
 <td>Pixel Shader Max</td>
-<td>512 minimum, and up to the number of slots in D3DCAPS9.MaxPixelShader30InstructionSlots (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0"><strong>D3DPSHADERCAPS2_0</strong></a>).</td>
+<td>512 minimum, and up to the number of slots in D3DCAPS9.MaxPixelShader30InstructionSlots (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0"><strong>D3DPSHADERCAPS2_0</strong></a>).</td>
 </tr>
 <tr class="odd">
 <td>Vertex Shader Max</td>
-<td>512 minimum, and up to the number of slots in D3DCAPS9.MaxVertexShader30InstructionSlots (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9"><strong>D3DCAPS9</strong></a>).</td>
+<td>512 minimum, and up to the number of slots in D3DCAPS9.MaxVertexShader30InstructionSlots (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>).</td>
 </tr>
 <tr class="even">
 <td>Shader Profiles</td>

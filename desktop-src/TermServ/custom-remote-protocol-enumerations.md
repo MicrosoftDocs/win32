@@ -15,38 +15,38 @@ The following enumeration types are supported by the Remote Desktop Protocol Pro
 
 <dl> <dt>
 
-[**WRDS\_CONNECTION\_SETTING\_LEVEL**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_connection_setting_level)
+[**WRDS\_CONNECTION\_SETTING\_LEVEL**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wrds_connection_setting_level)
 </dt> <dd>
 
-Specifies the type of structure contained in the **WRdsConnectionSetting** member of the [**WRDS\_CONNECTION\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_connection_settings) structure.
+Specifies the type of structure contained in the **WRdsConnectionSetting** member of the [**WRDS\_CONNECTION\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_connection_settings) structure.
 
 </dd> <dt>
 
-[**WRDS\_LISTENER\_SETTING\_LEVEL**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_listener_setting_level)
+[**WRDS\_LISTENER\_SETTING\_LEVEL**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wrds_listener_setting_level)
 </dt> <dd>
 
-Used to specify the type of structure that is contained in the **WRdsListenerSetting** member of the [**WRDS\_LISTENER\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_listener_settings) structure.
+Used to specify the type of structure that is contained in the **WRdsListenerSetting** member of the [**WRDS\_LISTENER\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_listener_settings) structure.
 
 </dd> <dt>
 
-[**WRDS\_SETTING\_LEVEL**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_setting_level)
+[**WRDS\_SETTING\_LEVEL**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wrds_setting_level)
 </dt> <dd>
 
-Specifies the type of structure contained in the **WRdsSetting** member of the [**WRDS\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_settings) structure.
+Specifies the type of structure contained in the **WRdsSetting** member of the [**WRDS\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_settings) structure.
 
 </dd> <dt>
 
-[**WRDS\_SETTING\_STATUS**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_setting_status)
+[**WRDS\_SETTING\_STATUS**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wrds_setting_status)
 </dt> <dd>
 
-Specifies the status of a policy setting for various members of the [**WRDS\_SETTINGS\_1**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_settings_1) structure.
+Specifies the status of a policy setting for various members of the [**WRDS\_SETTINGS\_1**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_settings_1) structure.
 
 </dd> <dt>
 
-[**WRDS\_SETTING\_TYPE**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_setting_type)
+[**WRDS\_SETTING\_TYPE**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wrds_setting_type)
 </dt> <dd>
 
-Specifies the category of settings being stored in a [**WRDS\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_settings) structure.
+Specifies the category of settings being stored in a [**WRDS\_SETTINGS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wrds_settings) structure.
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ Contains values that specify the type of certificate used to obtain a license.
 
 </dd> <dt>
 
-[**WTS\_LOGON\_ERROR\_REDIRECTOR\_RESPONSE**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-_wts_logon_error_redirector_response)
+[**WTS\_LOGON\_ERROR\_REDIRECTOR\_RESPONSE**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response)
 </dt> <dd>
 
 Contains values that specify the preferred response of the protocol to a logon error.

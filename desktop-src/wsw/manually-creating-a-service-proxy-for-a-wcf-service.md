@@ -40,7 +40,7 @@ The function creates the service proxy and returns a pointer to it in the *servi
 
 When you manually create a service proxy for a WCF service that uses a BasicHttpBinding binding, however, it is necessary to set the SOAP version and WS-Addressing properties of the channel. This is because WWSAPI defaults to SOAP version 1.2 and WS-Addressing 1.0. WCF's BasicHttpBinding, on the other hand, uses SOAP version 1.1 and no WS-Addressing.
 
-To set the SOAP version and WS-Addrssing properties of the channel, declare an array of [**WS\_CHANNEL\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_channel_property) structures to hold the channel properties and related information.
+To set the SOAP version and WS-Addrssing properties of the channel, declare an array of [**WS\_CHANNEL\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_channel_property) structures to hold the channel properties and related information.
 
 
 ```

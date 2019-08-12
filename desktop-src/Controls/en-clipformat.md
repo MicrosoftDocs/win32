@@ -43,7 +43,7 @@ The window ID retrieved by calling the [**GetWindowLong**](https://docs.microsof
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CLIPBOARDFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_clipboardformat) structure that contains information about the clipboard format.
+A pointer to a [**CLIPBOARDFORMAT**](/windows/desktop/api/Richedit/ns-richedit-clipboardformat) structure that contains information about the clipboard format.
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ To receive EN\_CLIPFORMAT notification codes, specify [**ENM\_CLIPFORMAT**](rich
 
 <dl> <dt>
 
-[**CLIPBOARDFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_clipboardformat)
+[**CLIPBOARDFORMAT**](/windows/desktop/api/Richedit/ns-richedit-clipboardformat)
 </dt> </dl>
 
  

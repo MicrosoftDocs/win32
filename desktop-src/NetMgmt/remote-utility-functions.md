@@ -23,7 +23,7 @@ The network management remote utility functions are listed following.
 
 The remote time-of-day information is available at one information level:
 
--   [**TIME\_OF\_DAY\_INFO**](/windows/desktop/api/Lmremutl/ns-lmremutl-_time_of_day_info)
+-   [**TIME\_OF\_DAY\_INFO**](/windows/desktop/api/Lmremutl/ns-lmremutl-time_of_day_info)
 
  
 

@@ -47,7 +47,7 @@ This section contains reference information for the constants defined in Direct3
 -   [D3DPRESENT](d3dpresent.md) - Presentation timing constants
 -   [D3DPRESENT\_BACK\_BUFFERS](d3dpresent-back-buffers.md) - Back buffer quantity constants
 -   [D3DPRESENTFLAG](d3dpresentflag.md) - Presentation constants
--   [**D3DPSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dpshadercaps2_0) - Pixel shader "2\_0 Extended" constants
+-   [**D3DPSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dpshadercaps2_0) - Pixel shader "2\_0 Extended" constants
 -   [D3DPTFILTERCAPS](d3dptfiltercaps.md) - Texture filtering constants
 -   [D3DSTENCILCAPS](d3dstencilcaps.md) - Driver stencil capability flags
 -   [D3DTA](d3dta.md) - Texture argument constants

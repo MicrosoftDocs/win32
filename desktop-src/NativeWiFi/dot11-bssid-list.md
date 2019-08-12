@@ -82,7 +82,7 @@ A list of BSS identifiers. A BSS identifier is stored as a [**DOT11\_MAC\_ADDRES
 
 <dl> <dt>
 
-[**WLAN\_CONNECTION\_PARAMETERS**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters)
+[**WLAN\_CONNECTION\_PARAMETERS**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters)
 </dt> </dl>
 
  

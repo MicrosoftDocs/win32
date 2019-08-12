@@ -14,8 +14,8 @@ Windows Event Log defines the following structures.
 
 | Structure                                | Description                                                    |
 |------------------------------------------|----------------------------------------------------------------|
-| [**EVT\_RPC\_LOGIN**](/windows/desktop/api/WinEvt/ns-winevt-_evt_rpc_login) | Contains the information used to connect to a remote computer. |
-| [**EVT\_VARIANT**](/windows/desktop/api/WinEvt/ns-winevt-_evt_variant)      | Contains event data or property values.                        |
+| [**EVT\_RPC\_LOGIN**](/windows/desktop/api/WinEvt/ns-winevt-evt_rpc_login) | Contains the information used to connect to a remote computer. |
+| [**EVT\_VARIANT**](/windows/desktop/api/WinEvt/ns-winevt-evt_variant)      | Contains event data or property values.                        |
 
 
 

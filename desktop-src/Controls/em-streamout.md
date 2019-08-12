@@ -66,7 +66,7 @@ In addition, you can specify the following flags.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-_editstream) structure. On input, the **pfnCallback** member of this structure must point to an application defined [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function. On output, the **dwError** member can contain a nonzero error code if an error occurred.
+Pointer to an [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) structure. On input, the **pfnCallback** member of this structure must point to an application defined [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function. On output, the **dwError** member can contain a nonzero error code if an error occurred.
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ This message returns the number of characters written to the data stream.
 
 ## Remarks
 
-When you send an **EM\_STREAMOUT** message, the rich edit control makes repeated calls to the [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function specified by the **pfnCallback** member of the [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-_editstream) structure. Each time it calls the callback function, the control passes a buffer containing a portion of the contents of the control. This process continues until the control has passed all its contents to the callback function, or until an error occurs.
+When you send an **EM\_STREAMOUT** message, the rich edit control makes repeated calls to the [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) function specified by the **pfnCallback** member of the [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) structure. Each time it calls the callback function, the control passes a buffer containing a portion of the contents of the control. This process continues until the control has passed all its contents to the callback function, or until an error occurs.
 
 ## Requirements
 
@@ -97,7 +97,7 @@ When you send an **EM\_STREAMOUT** message, the rich edit control makes repeated
 **Reference**
 </dt> <dt>
 
-[**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-_editstream)
+[**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream)
 </dt> <dt>
 
 [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback)

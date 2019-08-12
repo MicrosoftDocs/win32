@@ -2,22 +2,22 @@
 Description: Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.
 ms.assetid: 168505d7-4677-4f41-935e-149f22de2cb5
 ms.tgt_platform: multiple
-title: '__NamespaceModificationEvent class'
+title: __NamespaceModificationEvent class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - __NamespaceModificationEvent
 - All
 - All
 - All
 - All
 - All
-api_type: 
+api_type:
 - Schema
-api_location: 
+api_location:
 - All
 ---
 
@@ -90,7 +90,7 @@ Access type: Read-only
 Descriptor that the event provider uses to determine the users that can receive an event. This property is inherited from [**\_\_Event**](--event.md).
 
 > [!Note]  
-> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
+> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 

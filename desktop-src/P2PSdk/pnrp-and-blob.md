@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PNRP and BLOB
 
-PNRP uses the [**BLOB**](winsock-nsp-reference-links.md) structure to pass data to the **WSAQUERYSET** structure during calls to several functions. For use with PNRP, the **BLOB** structure points to either a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) structure or a [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo) structure.
+PNRP uses the [**BLOB**](winsock-nsp-reference-links.md) structure to pass data to the **WSAQUERYSET** structure during calls to several functions. For use with PNRP, the **BLOB** structure points to either a [**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1) structure or a [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo) structure.
 
 ## Related topics
 
@@ -29,10 +29,10 @@ PNRP uses the [**BLOB**](winsock-nsp-reference-links.md) structure to pass data 
 [PNRP and WSASetService](pnrp-and-wsasetservice.md)
 </dt> <dt>
 
-[**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo)
+[**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo)
 </dt> <dt>
 
-[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1)
+[**PNRPINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1)
 </dt> <dt>
 
 [**WSAQUERYSET**](winsock-nsp-reference-links.md)

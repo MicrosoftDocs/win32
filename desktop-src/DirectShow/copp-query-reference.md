@@ -33,7 +33,7 @@ Returns the type of I/O bus used by the graphics adapter.
 
 -   **GUID**: DXVA\_COPPQueryBusData
 -   **Input data**: None.
--   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatusdata) structure. The bus type is returned in the **dwData** member as a flag from the [**COPP\_BusType**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_bustype) enumeration.
+-   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdata) structure. The bus type is returned in the **dwData** member as a flag from the [**COPP\_BusType**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_bustype) enumeration.
 
 Connector Type Query
 
@@ -41,7 +41,7 @@ Returns the physical connector type.
 
 -   **GUID**: DXVA\_COPPQueryConnectorType
 -   **Input data**: None.
--   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatusdata) structure. The connector type is returned in the **dwData** member as a flag from the [**COPP\_ConnectorType**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_connectortype) enumeration.
+-   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdata) structure. The connector type is returned in the **dwData** member as a flag from the [**COPP\_ConnectorType**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_connectortype) enumeration.
 
 Display Data Query
 
@@ -51,7 +51,7 @@ The video signal that is transmitted over the connector does not necessarily hav
 
 -   **GUID**: DXVA\_COPPQueryDisplayData
 -   **Input data**: None.
--   **Return data**: Returns a [**DXVA\_COPPStatusDisplayData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatusdisplaydata) structure.
+-   **Return data**: Returns a [**DXVA\_COPPStatusDisplayData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdisplaydata) structure.
 
 HDCP Key Data Query
 
@@ -63,7 +63,7 @@ This query also determines whether the connected HDCP device is a monitor or an 
 
 -   **GUID**: DXVA\_COPPQueryHDCPKeyData
 -   **Input data**: None.
--   **Return data**: Returns a [**DXVA\_COPPStatusHDCPKeyData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatushdcpkeydata) structure.
+-   **Return data**: Returns a [**DXVA\_COPPStatusHDCPKeyData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatushdcpkeydata) structure.
 
 Global Protection Level Query
 
@@ -73,13 +73,13 @@ The global protection level is the protection level that is currently being appl
 
 -   **GUID**: DXVA\_COPPQueryGlobalProtectionLevel
 -   **Input data**: The protection mechanism to query, specified as a 32-bit integer. See [COPP Protection Type Flags](copp-protection-type-flags.md).
--   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatusdata) structure. The current protection level is returned in the **dwData** member. The meaning of this value depends on the protection mechanism that is queried. For each protection mechanism, the value of the **dwData** member is a flag from a different enumeration, as shown in the following table.
+-   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdata) structure. The current protection level is returned in the **dwData** member. The meaning of this value depends on the protection mechanism that is queried. For each protection mechanism, the value of the **dwData** member is a flag from a different enumeration, as shown in the following table.
 
     | Protection mechanism | Enumeration                                                           |
     |----------------------|-----------------------------------------------------------------------|
-    | ACP                  | [**COPP\_ACP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_acp_protection_level)     |
-    | CGMS-A               | [**COPP\_CGMSA\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_cgmsa_protection_level) |
-    | HDCP                 | [**COPP\_HDCP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_hdcp_protection_level)   |
+    | ACP                  | [**COPP\_ACP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level)     |
+    | CGMS-A               | [**COPP\_CGMSA\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_cgmsa_protection_level) |
+    | HDCP                 | [**COPP\_HDCP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_hdcp_protection_level)   |
 
     
 
@@ -93,13 +93,13 @@ The local protection level is the protection level that was requested through th
 
 -   **GUID**: DXVA\_COPPQueryLocalProtectionLevel
 -   **Input data**: The protection mechanism to query, as a 32-bit integer. See [COPP Protection Type Flags](copp-protection-type-flags.md).
--   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatusdata) structure. The current protection level is returned in the **dwData** member. The meaning of this value depends on the protection mechanism that is queried. For each protection mechanism, the value of the **dwData** member is a flag from a different enumeration, as shown in the following table.
+-   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdata) structure. The current protection level is returned in the **dwData** member. The meaning of this value depends on the protection mechanism that is queried. For each protection mechanism, the value of the **dwData** member is a flag from a different enumeration, as shown in the following table.
 
     | Protection mechanism | Enumeration                                                           |
     |----------------------|-----------------------------------------------------------------------|
-    | ACP                  | [**COPP\_ACP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_acp_protection_level)     |
-    | CGMS-A               | [**COPP\_CGMSA\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_cgmsa_protection_level) |
-    | HDCP                 | [**COPP\_HDCP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_hdcp_protection_level)   |
+    | ACP                  | [**COPP\_ACP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level)     |
+    | CGMS-A               | [**COPP\_CGMSA\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_cgmsa_protection_level) |
+    | HDCP                 | [**COPP\_HDCP\_Protection\_Level**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_hdcp_protection_level)   |
 
     
 
@@ -111,7 +111,7 @@ Returns the protection mechanisms that are available for the connector.
 
 -   **GUID**: DXVA\_COPPQueryProtectionType
 -   **Input data**: None.
--   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatusdata) structure. The protection mechanisms are returned in the **dwData** member as a combination of zero or more flags. See [COPP Protection Type Flags](copp-protection-type-flags.md). If more than one protection mechanism is available, the flags are combined with a bitwise **OR**.
+-   **Return data**: Returns a [**DXVA\_COPPStatusData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdata) structure. The protection mechanisms are returned in the **dwData** member as a combination of zero or more flags. See [COPP Protection Type Flags](copp-protection-type-flags.md). If more than one protection mechanism is available, the flags are combined with a bitwise **OR**.
 
 Signaling Query
 
@@ -119,7 +119,7 @@ Returns a list of all the protection standards that are supported by the driver,
 
 -   **GUID**: DXVA\_COPPQuerySignaling
 -   **Input data**: None.
--   **Return data**: Returns a [**DXVA\_COPPStatusSignalingCmdData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatussignalingcmddata) structure.
+-   **Return data**: Returns a [**DXVA\_COPPStatusSignalingCmdData**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatussignalingcmddata) structure.
 
 ## Related topics
 

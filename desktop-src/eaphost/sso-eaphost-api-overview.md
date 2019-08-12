@@ -21,8 +21,8 @@ The following enumerations support SSO.
 
 | Name                                                                    | Purpose                                                                                      |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**EAP\_CONFIG\_INPUT\_FIELD\_TYPE**](/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_config_input_field_type)  | Defines a set of possible input field types available when querying for user credentials.    |
-| [**EAP\_INTERACTIVE\_UI\_DATA\_TYPE**](/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_config_input_field_type) | Specifies the types of interactive UI context data supplied to certain supplicant API calls. |
+| [**EAP\_CONFIG\_INPUT\_FIELD\_TYPE**](/windows/desktop/api/eaptypes/ne-eaptypes-eap_config_input_field_type)  | Defines a set of possible input field types available when querying for user credentials.    |
+| [**EAP\_INTERACTIVE\_UI\_DATA\_TYPE**](/windows/desktop/api/eaptypes/ne-eaptypes-eap_config_input_field_type) | Specifies the types of interactive UI context data supplied to certain supplicant API calls. |
 
 
 
@@ -36,12 +36,12 @@ The following data structures support SSO.
 
 | Name                                                                     | Purpose                                                                                                                                                                         |
 |--------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**EAP\_CONFIG\_INPUT\_FIELD\_DATA**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data)   | Contains the data associated with a single input field.                                                                                                                         |
-| [**EAP\_CONFIG\_INPUT\_FIELD\_ARRAY**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_array) | Contains a set of [**EAP\_CONFIG\_INPUT\_FIELD\_DATA**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data) structures that collectively contain the user input field data obtained from the user. |
-| [**EAP\_INTERACTIVE\_UI\_DATA**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data)            | Contains configuration information for interactive UI components raised on an EAP supplicant.                                                                                   |
+| [**EAP\_CONFIG\_INPUT\_FIELD\_DATA**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data)   | Contains the data associated with a single input field.                                                                                                                         |
+| [**EAP\_CONFIG\_INPUT\_FIELD\_ARRAY**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array) | Contains a set of [**EAP\_CONFIG\_INPUT\_FIELD\_DATA**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data) structures that collectively contain the user input field data obtained from the user. |
+| [**EAP\_INTERACTIVE\_UI\_DATA**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data)            | Contains configuration information for interactive UI components raised on an EAP supplicant.                                                                                   |
 | [**EAP\_CRED\_REQ**](eap-cred-req.md)                                   | Contains both the old and new EAP credentials for a credential change operations.                                                                                               |
 | [**EAP\_CRED\_RESP**](eap-cred-resp.md)                                 | Contains both the old and new EAP credentials for a credential change operations.                                                                                               |
-| [**EAP\_CRED\_EXPIRY\_REQ**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_cred_expiry_req)                    | Contains both the old and new EAP credentials for credential expiry operations.                                                                                                 |
+| [**EAP\_CRED\_EXPIRY\_REQ**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req)                    | Contains both the old and new EAP credentials for credential expiry operations.                                                                                                 |
 | [**EAP\_CRED\_EXPIRY\_RESP**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb530539(v=vs.85))              | Contains both the old and new EAP credentials for credential expiry operations.                                                                                                 |
 
 

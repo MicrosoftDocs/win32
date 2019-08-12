@@ -52,21 +52,21 @@ The following functions support the wireless Hosted Network feature.
 
 The following new structures that work with wireless Hosted Network.
 
--   [**WLAN\_HOSTED\_NETWORK\_CONNECTION\_SETTINGS**](/windows/desktop/api/Wlanapi/ns-wlanapi-_wlan_hosted_network_connection_settings)
--   [**WLAN\_HOSTED\_NETWORK\_DATA\_PEER\_STATE\_CHANGE**](/windows/desktop/api/Wlanapi/ns-wlanapi-_wlan_hosted_network_data_peer_state_change)
--   [**WLAN\_HOSTED\_NETWORK\_PEER\_STATE**](/windows/desktop/api/Wlanapi/ns-wlanapi-_wlan_hosted_network_peer_state)
--   [**WLAN\_HOSTED\_NETWORK\_RADIO\_STATE**](/windows/desktop/api/Wlanapi/ns-wlanapi-_wlan_hosted_network_radio_state)
--   [**WLAN\_HOSTED\_NETWORK\_SECURITY\_SETTINGS**](/windows/desktop/api/Wlanapi/ns-wlanapi-_wlan_hosted_network_security_settings)
--   [**WLAN\_HOSTED\_NETWORK\_STATE\_CHANGE**](/windows/desktop/api/Wlanapi/ns-wlanapi-_wlan_hosted_network_state_change)
--   [**WLAN\_HOSTED\_NETWORK\_STATUS**](/windows/desktop/api/Wlanapi/ns-wlanapi-_wlan_hosted_network_status)
+-   [**WLAN\_HOSTED\_NETWORK\_CONNECTION\_SETTINGS**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings)
+-   [**WLAN\_HOSTED\_NETWORK\_DATA\_PEER\_STATE\_CHANGE**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change)
+-   [**WLAN\_HOSTED\_NETWORK\_PEER\_STATE**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_peer_state)
+-   [**WLAN\_HOSTED\_NETWORK\_RADIO\_STATE**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_radio_state)
+-   [**WLAN\_HOSTED\_NETWORK\_SECURITY\_SETTINGS**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_security_settings)
+-   [**WLAN\_HOSTED\_NETWORK\_STATE\_CHANGE**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_state_change)
+-   [**WLAN\_HOSTED\_NETWORK\_STATUS**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_status)
 
 The following new enumerations that work with wireless Hosted Network.
 
--   [**WLAN\_HOSTED\_NETWORK\_NOTIFICATION\_CODE**](/windows/desktop/api/Wlanapi/ne-wlanapi-_wlan_hosted_network_notification_code)
--   [**WLAN\_HOSTED\_NETWORK\_OPCODE**](/windows/desktop/api/Wlanapi/ne-wlanapi-_wlan_hosted_network_opcode)
--   [**WLAN\_HOSTED\_NETWORK\_PEER\_AUTH\_STATE**](/windows/desktop/api/Wlanapi/ne-wlanapi-_wlan_hosted_network_peer_auth_state)
--   [**WLAN\_HOSTED\_NETWORK\_REASON**](/windows/desktop/api/Wlanapi/ne-wlanapi-_wlan_hosted_network_reason)
--   [**WLAN\_HOSTED\_NETWORK\_STATE**](/windows/desktop/api/Wlanapi/ne-wlanapi-_wlan_hosted_network_state)
+-   [**WLAN\_HOSTED\_NETWORK\_NOTIFICATION\_CODE**](/windows/desktop/api/Wlanapi/ne-wlanapi-wlan_hosted_network_notification_code)
+-   [**WLAN\_HOSTED\_NETWORK\_OPCODE**](/windows/desktop/api/Wlanapi/ne-wlanapi-wlan_hosted_network_opcode)
+-   [**WLAN\_HOSTED\_NETWORK\_PEER\_AUTH\_STATE**](/windows/desktop/api/Wlanapi/ne-wlanapi-wlan_hosted_network_peer_auth_state)
+-   [**WLAN\_HOSTED\_NETWORK\_REASON**](/windows/desktop/api/Wlanapi/ne-wlanapi-wlan_hosted_network_reason)
+-   [**WLAN\_HOSTED\_NETWORK\_STATE**](/windows/desktop/api/Wlanapi/ne-wlanapi-wlan_hosted_network_state)
 
 ## Related topics
 

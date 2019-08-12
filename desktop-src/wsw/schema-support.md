@@ -22,9 +22,9 @@ Identifier generation
 
 Element name or type name in the schema might not be valid C identifier, and the names are normalized to generated valid C names. Invalid C identifier characters are converted to the hex name, and a underscore '\_' might be prefixed to the name if necessary. Anonymous types are named after the enclosing element name but prefixed with underscore "\_" to avoid name collision. Global type names are preserved as it is after invalid characters are normalized. Nested anonymous types are prefixed with the parent type name.
 
-For every global element definition, wsutil.exe generates a [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_element_description) in the global description structure. For every global type definition, wsutil.exe generates a type description in the global description structure to be referenced by application.
+For every global element definition, wsutil.exe generates a [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description) in the global description structure. For every global type definition, wsutil.exe generates a type description in the global description structure to be referenced by application.
 
-For each field in the structure, wsutil.exe generates a [**WS\_FIELD\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_field_description) embedded as part of the enclosure structure.
+For each field in the structure, wsutil.exe generates a [**WS\_FIELD\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_field_description) embedded as part of the enclosure structure.
 
 ## Simple Types
 
@@ -563,7 +563,7 @@ struct _DerivedLinkList* WINAPI LinkList_As_DerivedLinkList(LinkList*);
 
 In C style helper, before serialiation, application calls wsutil generated routine LinkList\_Init to initialize the structure and set the type description to LinkList type description. After deserialization, application can call LinkList\_As\_DerivedLinkList to get the derived type.
 
-To retrieve type information in runtime, wsutil generates the first field of base type with [**WS\_STRUCT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_struct_description)\* type and [**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_field_mapping) field mapping to describe the xsi:type information. Application can directly set or check the field to determine the actual type of structures. For example, the following code set the type of the structure to be DrivedLinkList:
+To retrieve type information in runtime, wsutil generates the first field of base type with [**WS\_STRUCT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_struct_description)\* type and [**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_field_mapping) field mapping to describe the xsi:type information. Application can directly set or check the field to determine the actual type of structures. For example, the following code set the type of the structure to be DrivedLinkList:
 
 ``` syntax
 _DerivedLinkList derivedLinkList;

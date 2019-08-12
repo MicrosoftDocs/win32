@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # RAS\_USER\_0 structure
 
-\[This version of the **RAS\_USER\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_USER\_0**](/windows/desktop/api/Mprapi/ns-mprapi-_ras_user_0) defined in mprapi.h instead.\]
+\[This version of the **RAS\_USER\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_USER\_0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0) defined in mprapi.h instead.\]
 
 The **RAS\_USER\_0** structure is used in the [**RasAdminUserSetInfo**](rasadminusersetinfo.md) and [**RasAdminUserGetInfo**](rasadminusergetinfo.md) functions to specify information about a user.
 

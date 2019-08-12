@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A [**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-_bidioptions) structure that receives the current state of the bidirectional options in the rich edit control.
+A [**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-bidioptions) structure that receives the current state of the bidirectional options in the rich edit control.
 
 </dd> </dl>
 
@@ -66,7 +66,7 @@ This message sets the values of the **wMask** and **wEffects** members to the va
 **Reference**
 </dt> <dt>
 
-[**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-_bidioptions)
+[**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-richedit-bidioptions)
 </dt> <dt>
 
 [**EM\_SETBIDIOPTIONS**](em-setbidioptions.md)

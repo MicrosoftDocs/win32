@@ -21,7 +21,7 @@ For both [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecu
 
 -   To initialize the property pages.
 
-    Your implementation of the [**GetObjectInformation**](https://msdn.microsoft.com/en-us/library/Aa379102(v=VS.85).aspx) method passes an [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-_si_object_info) structure to the editor. This structure specifies the property pages that you want the editor to display and other information that determines the editing options available to the user.
+    Your implementation of the [**GetObjectInformation**](https://msdn.microsoft.com/en-us/library/Aa379102(v=VS.85).aspx) method passes an [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-si_object_info) structure to the editor. This structure specifies the property pages that you want the editor to display and other information that determines the editing options available to the user.
 
 -   To provide security information about the object being edited.
 

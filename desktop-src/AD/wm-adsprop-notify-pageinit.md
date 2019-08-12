@@ -53,7 +53,7 @@ Not used.
 *pADsPropInitParams* 
 </dt> <dd>
 
-Pointer to an [**ADSPROPINITPARAMS**](/windows/desktop/api/Adsprop/ns-adsprop-_adspropinitparams) structure that receives the directory object information. This is the *pInitParams* parameter passed to [**ADsPropCreateNotifyObj**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj).
+Pointer to an [**ADSPROPINITPARAMS**](/windows/desktop/api/Adsprop/ns-adsprop-adspropinitparams) structure that receives the directory object information. This is the *pInitParams* parameter passed to [**ADsPropCreateNotifyObj**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj).
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ This message has no return value.
 [**ADsPropGetInitInfo**](/windows/desktop/api/Adsprop/nf-adsprop-adspropgetinitinfo)
 </dt> <dt>
 
-[**ADSPROPINITPARAMS**](/windows/desktop/api/Adsprop/ns-adsprop-_adspropinitparams)
+[**ADSPROPINITPARAMS**](/windows/desktop/api/Adsprop/ns-adsprop-adspropinitparams)
 </dt> </dl>
 
  

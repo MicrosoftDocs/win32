@@ -12,12 +12,12 @@ ms.date: 05/31/2018
 
 # Bluetooth and connect
 
-Bluetooth uses the [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function to connect to a target Bluetooth device, using a previously created Bluetooth socket. The *name* parameter of the **connect** function, which is a [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure, must specify a target Bluetooth device. Two mechanisms are used to identify the target device:
+Bluetooth uses the [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function to connect to a target Bluetooth device, using a previously created Bluetooth socket. The *name* parameter of the **connect** function, which is a [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) structure, must specify a target Bluetooth device. Two mechanisms are used to identify the target device:
 
--   The [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure can directly specify the port number to which a connect is requested. This mechanism requires the application to perform its own SDP queries prior to attempting a [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) operation.
--   The [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure can specify the unique service class ID of the service to which it wants to connect. If the peer device has more than one port that corresponds to the service class ID, the [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function call connects to the first valid service. This mechanism can be used without prior SDP queries.
+-   The [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) structure can directly specify the port number to which a connect is requested. This mechanism requires the application to perform its own SDP queries prior to attempting a [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) operation.
+-   The [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) structure can specify the unique service class ID of the service to which it wants to connect. If the peer device has more than one port that corresponds to the service class ID, the [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function call connects to the first valid service. This mechanism can be used without prior SDP queries.
 
-When using the [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) structure with the [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function, the following requirements apply:
+When using the [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) structure with the [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) function, the following requirements apply:
 
 -   The **btAddr** member must be a valid remote radio address.
 -   For the **serviceClassId** member, if the port member is zero, the system attempts to use **serviceClassId** to resolve the remote port corresponding to the service. The service class is a normalized 128-bit GUID, defined by the Bluetooth specification. Common GUIDs are defined by the Bluetooth Assigned Numbers document. Alternatively, a unique GUID may be used for a domain-specific application.
@@ -56,7 +56,7 @@ The following table lists the result codes for Bluetooth and the [**connect**](h
 [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth)
+[**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)
 </dt> </dl>
 
  

@@ -14,8 +14,8 @@ ms.date: 05/31/2018
 The following structures are used with AVIFile.
 
 -   [**AVICOMPRESSOPTIONS**](/windows/desktop/api/Vfw/ns-vfw-avicompressoptions)
--   [**AVIFILEINFO**](/windows/desktop/api/Vfw/ns-vfw-_avifileinfoa)
--   [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-_avistreaminfoa)
+-   [**AVIFILEINFO**](/windows/desktop/api/Vfw/ns-vfw-avifileinfoa)
+-   [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-avistreaminfoa)
 
 ## Related topics
 

@@ -16,7 +16,7 @@ Returns a description of the video signal that is being transmitted over the con
 |--------------|------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ACTUAL\_OUTPUT\_FORMAT                                             |
 | Input data   | None                                                                         |
-| Return data  | An [**OPM\_ACTUAL\_OUTPUT\_FORMAT**](/windows/desktop/api/opmapi/ns-opmapi-_opm_actual_output_format) structure |
+| Return data  | An [**OPM\_ACTUAL\_OUTPUT\_FORMAT**](/windows/desktop/api/opmapi/ns-opmapi-opm_actual_output_format) structure |
 
 
 

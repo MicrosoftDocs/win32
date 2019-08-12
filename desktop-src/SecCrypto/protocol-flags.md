@@ -39,7 +39,7 @@ The following are predefined constants for cryptography protocols. These values 
 
 <dl> <dt>
 
-[**PROV\_ENUMALGS\_EX**](/windows/desktop/api/Wincrypt/ns-wincrypt-_prov_enumalgs_ex)
+[**PROV\_ENUMALGS\_EX**](/windows/desktop/api/Wincrypt/ns-wincrypt-prov_enumalgs_ex)
 </dt> </dl>
 
  

@@ -53,7 +53,7 @@ Not used.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-adsprop-_adsproperror) structure that contains error message data.
+Pointer to an [**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-adsprop-adsproperror) structure that contains error message data.
 
 </dd> </dl>
 
@@ -86,7 +86,7 @@ The error messages added by the **WM\_ADSPROP\_NOTIFY\_ERROR** message are accum
 [Messages in Active Directory Domain Services](messages-in-active-directory-domain-services.md)
 </dt> <dt>
 
-[**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-adsprop-_adsproperror)
+[**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-adsprop-adsproperror)
 </dt> <dt>
 
 [**ADsPropSendErrorMessage**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage)

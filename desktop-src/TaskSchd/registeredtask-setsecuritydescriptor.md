@@ -53,7 +53,7 @@ The security descriptor that is used as credentials for the registered task.
 *flags* \[in\]
 </dt> <dd>
 
-Flags that specify how to set the security descriptor. The TASK\_DONT\_ADD\_PRINCIPAL\_ACE flag (0x10) from the [**TASK\_CREATION**](/windows/desktop/api/taskschd/ne-taskschd-_task_creation) enumeration can be specified.
+Flags that specify how to set the security descriptor. The TASK\_DONT\_ADD\_PRINCIPAL\_ACE flag (0x10) from the [**TASK\_CREATION**](/windows/desktop/api/taskschd/ne-taskschd-task_creation) enumeration can be specified.
 
 </dd> </dl>
 

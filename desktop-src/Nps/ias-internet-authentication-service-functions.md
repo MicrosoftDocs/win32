@@ -33,17 +33,17 @@ If the Extension DLL exports [**RadiusExtensionProcessEx**](https://docs.microso
 
 ## System Defined
 
-When NPS calls an implementation of [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2), NPS passes the function a pointer to a [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block) structure.
+When NPS calls an implementation of [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2), NPS passes the function a pointer to a [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block) structure.
 
-The [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block) structure contains function pointers to the following functions provided by NPS:
+The [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block) structure contains function pointers to the following functions provided by NPS:
 
 -   [**GetRequest**](https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85))
 -   [**GetResponse**](https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85))
 -   [**SetResponseType**](https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85))
 
-The functions [**GetRequest**](https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)) and [**GetResponse**](https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)) return pointers to a structure of type [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute_array).
+The functions [**GetRequest**](https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)) and [**GetResponse**](https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)) return pointers to a structure of type [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array).
 
-The [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute_array) structure contains function pointers to the following functions provided by NPS:
+The [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array) structure contains function pointers to the following functions provided by NPS:
 
 -   [**Add**](https://docs.microsoft.com/previous-versions/ms688246(v%3dvs.85))
 -   [**AttributeAt**](https://docs.microsoft.com/previous-versions/ms688253(v%3dvs.85))

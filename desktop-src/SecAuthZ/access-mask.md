@@ -104,7 +104,7 @@ The following constants defined in Winnt.h represent the specific and standard a
 [Access Rights and Access Masks](access-rights-and-access-masks.md)
 </dt> <dt>
 
-[**GENERIC\_MAPPING**](/windows/desktop/api/Winnt/ns-winnt-_generic_mapping)
+[**GENERIC\_MAPPING**](/windows/desktop/api/Winnt/ns-winnt-generic_mapping)
 </dt> </dl>
 
  

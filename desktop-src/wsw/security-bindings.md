@@ -37,22 +37,22 @@ The following functions are part of the security binding:
 
 The following structures are part of the security binding:
 
--   [**WS\_CAPI\_ASYMMETRIC\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-_ws_capi_asymmetric_security_key_handle)
--   [**WS\_CERT\_SIGNED\_SAML\_AUTHENTICATOR**](/windows/desktop/api/WebServices/ns-webservices-_ws_cert_signed_saml_authenticator)
--   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_http_header_auth_security_binding)
--   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_kerberos_apreq_message_security_binding)
--   [**WS\_NAMEDPIPE\_SSPI\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding)
--   [**WS\_NCRYPT\_ASYMMETRIC\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-_ws_ncrypt_asymmetric_security_key_handle)
--   [**WS\_RAW\_SYMMETRIC\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-_ws_raw_symmetric_security_key_handle)
--   [**WS\_SAML\_AUTHENTICATOR**](/windows/desktop/api/WebServices/ns-webservices-_ws_saml_authenticator)
--   [**WS\_SAML\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_saml_message_security_binding)
--   [**WS\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_binding)
--   [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_context_message_security_binding)
--   [**WS\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_key_handle)
--   [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding)
--   [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_tcp_sspi_transport_security_binding)
--   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_username_message_security_binding)
--   [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_token_message_security_binding)
+-   [**WS\_CAPI\_ASYMMETRIC\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-ws_capi_asymmetric_security_key_handle)
+-   [**WS\_CERT\_SIGNED\_SAML\_AUTHENTICATOR**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_signed_saml_authenticator)
+-   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding)
+-   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding)
+-   [**WS\_NAMEDPIPE\_SSPI\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_namedpipe_sspi_transport_security_binding)
+-   [**WS\_NCRYPT\_ASYMMETRIC\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-ws_ncrypt_asymmetric_security_key_handle)
+-   [**WS\_RAW\_SYMMETRIC\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-ws_raw_symmetric_security_key_handle)
+-   [**WS\_SAML\_AUTHENTICATOR**](/windows/desktop/api/WebServices/ns-webservices-ws_saml_authenticator)
+-   [**WS\_SAML\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_saml_message_security_binding)
+-   [**WS\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_security_binding)
+-   [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_security_context_message_security_binding)
+-   [**WS\_SECURITY\_KEY\_HANDLE**](/windows/desktop/api/WebServices/ns-webservices-ws_security_key_handle)
+-   [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
+-   [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding)
+-   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding)
+-   [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding)
 
  
 

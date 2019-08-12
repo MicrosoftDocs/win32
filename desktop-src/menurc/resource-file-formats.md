@@ -50,7 +50,7 @@ A *menu resource* consists of a [**MENUHEADER**](menuheader.md) structure follow
 
 ## Message Table Resources
 
-A *message table* is a resource that contains formatted text for display as an error message or in a message box. The main structure in a message table resource is the [**MESSAGE\_RESOURCE\_DATA**](/windows/desktop/api/Winnt/ns-winnt-_message_resource_data) structure.
+A *message table* is a resource that contains formatted text for display as an error message or in a message box. The main structure in a message table resource is the [**MESSAGE\_RESOURCE\_DATA**](/windows/desktop/api/Winnt/ns-winnt-message_resource_data) structure.
 
 ## Version Resources
 

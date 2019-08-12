@@ -16,7 +16,7 @@ Describes how the frames in a video media type are interlaced.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoInterlaceMode**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode) enumeration.
+The value of this attribute is a member of the [**MFVideoInterlaceMode**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideointerlacemode) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

@@ -24,7 +24,7 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 This attribute can be set on the EVRmedia sink. To set the attribute, **QueryInterface** to query the EVR media sink for the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface.
 
-Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_AllowDropToBob** flag on the EVR. See [**MFVideoMixPrefs**](/windows/desktop/api/evr/ne-evr-_mfvideomixprefs) for a description of this flag.
+Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_AllowDropToBob** flag on the EVR. See [**MFVideoMixPrefs**](/windows/desktop/api/evr/ne-evr-mfvideomixprefs) for a description of this flag.
 
 The GUID constant for this attribute is exported from strmiids.lib.
 

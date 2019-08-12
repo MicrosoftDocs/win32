@@ -35,7 +35,7 @@ Unregisters an appbar by removing it from the system's internal list. The system
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure that contains the handle to the appbar to unregister. You must specify the **cbSize** and **hWnd** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure that contains the handle to the appbar to unregister. You must specify the **cbSize** and **hWnd** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 

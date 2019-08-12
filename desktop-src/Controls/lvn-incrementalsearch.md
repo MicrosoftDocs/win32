@@ -38,7 +38,7 @@ LVN_INCREMENTALSEARCH
 *lParam* \[in\]
 </dt> <dd>
 
-Pointer to a [**NMLVFINDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) and [**LVFINDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfindinfoa) structures. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_INCREMENTALSEARCH.
+Pointer to a [**NMLVFINDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) and [**LVFINDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfindinfoa) structures. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_INCREMENTALSEARCH.
 
 </dd> </dl>
 

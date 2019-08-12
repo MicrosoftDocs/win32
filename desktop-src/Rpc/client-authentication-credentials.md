@@ -19,7 +19,7 @@ Clients should refrain from supplying explicit credentials because storing, mani
 
 To use implicit credentials, the client calls **RpcBindingSetAuthInfo**(*Ex*). The security system and RPC obtain credentials from the thread or process token for use in the authentication session.
 
-If the client uses explicit credentials, the fifth parameter of these two functions is of type [**RPC\_AUTH\_IDENTITY\_HANDLE**](rpc-auth-identity-handle.md). This is a flexible type that is a pointer to a data structure. The contents of the data structure can differ with each authentication service. Currently, the SSPs that RPC supports require that your application set **RPC\_AUTH\_IDENTITY\_HANDLE** to point to a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a) structure. The **SEC\_WINNT\_AUTH\_IDENTITY** structure contains fields for a user name, domain, and password.
+If the client uses explicit credentials, the fifth parameter of these two functions is of type [**RPC\_AUTH\_IDENTITY\_HANDLE**](rpc-auth-identity-handle.md). This is a flexible type that is a pointer to a data structure. The contents of the data structure can differ with each authentication service. Currently, the SSPs that RPC supports require that your application set **RPC\_AUTH\_IDENTITY\_HANDLE** to point to a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a) structure. The **SEC\_WINNT\_AUTH\_IDENTITY** structure contains fields for a user name, domain, and password.
 
  
 

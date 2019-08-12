@@ -4,6 +4,7 @@ ms.assetid: 8dbc4807-e634-4204-8be7-e200f99ac6e2
 title: Diagnostics
 ms.topic: article
 ms.date: 05/31/2018
+ms.technology: diagnostics
 ---
 
 # Diagnostics

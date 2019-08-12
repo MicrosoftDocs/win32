@@ -43,7 +43,7 @@ The *lParam* parameter of a custom draw notification will be the address of an [
 |------------------------------------------|--------------------------------------|
 | [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo)     | Rebar, trackbar, and header controls |
 | [**NMLVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcustomdraw) | List-view controls                   |
-| [**NMTBCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-_nmtbcustomdraw) | Toolbar controls                     |
+| [**NMTBCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-nmtbcustomdraw) | Toolbar controls                     |
 | [**NMTTCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttcustomdraw) | Tooltip controls                     |
 | [**NMTVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvcustomdraw) | Tree-view controls                   |
 

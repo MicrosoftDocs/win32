@@ -27,11 +27,11 @@ A rich edit control's parent window can process notification codes to monitor ev
 
 You can determine which notification codes a rich edit control sends its parent window by setting its event mask. To set the event mask for a rich edit control, use the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. You can retrieve the current event mask for a rich edit control by using the [**EM\_GETEVENTMASK**](em-geteventmask.md) message. For a list of event mask flags, see [Rich Edit Control Event Mask Flags](rich-edit-control-event-mask-flags.md).
 
-A rich edit control's parent window can filter all keyboard and mouse input to the control by processing the [EN\_MSGFILTER](en-msgfilter.md) notification code. The parent window can prevent the keyboard or mouse message from being processed or can change the message by modifying the specified [**MSGFILTER**](/windows/desktop/api/Richedit/ns-richedit-_msgfilter) structure.
+A rich edit control's parent window can filter all keyboard and mouse input to the control by processing the [EN\_MSGFILTER](en-msgfilter.md) notification code. The parent window can prevent the keyboard or mouse message from being processed or can change the message by modifying the specified [**MSGFILTER**](/windows/desktop/api/Richedit/ns-richedit-msgfilter) structure.
 
 An application can process the [EN\_PROTECTED](en-protected.md) notification code to detect when the user attempts to modify protected text. To mark a range of text as protected, you can set the protected character effect.
 
-You can enable the user to drop files in a rich edit control by processing the [EN\_DROPFILES](en-dropfiles.md) notification code. The specified [**ENDROPFILES**](/windows/desktop/api/Richedit/ns-richedit-_endropfiles) structure contains information about the files that are being dropped.
+You can enable the user to drop files in a rich edit control by processing the [EN\_DROPFILES](en-dropfiles.md) notification code. The specified [**ENDROPFILES**](/windows/desktop/api/Richedit/ns-richedit-endropfiles) structure contains information about the files that are being dropped.
 
 ## Related topics
 

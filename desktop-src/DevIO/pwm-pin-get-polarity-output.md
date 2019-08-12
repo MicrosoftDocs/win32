@@ -39,7 +39,7 @@ typedef struct _PWM_PIN_GET_POLARITY_OUTPUT {
 **Polarity**
 </dt> <dd>
 
-The polarity of the pin or channel as a [**PWM\_POLARITY**](/windows/desktop/api/Pwm/ne-pwm-_pwm_polarity) value. The polarity is either Active High or Active Low.
+The polarity of the pin or channel as a [**PWM\_POLARITY**](/windows/desktop/api/Pwm/ne-pwm-pwm_polarity) value. The polarity is either Active High or Active Low.
 
 </dd> </dl>
 

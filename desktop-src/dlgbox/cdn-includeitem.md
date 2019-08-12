@@ -46,11 +46,11 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure.
+A pointer to an [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure.
 
-The [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure contains an [**NMHDR**](https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure whose **code** member indicates the **CDN\_INCLUDEITEM** notification message.
+The [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure contains an [**NMHDR**](https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr) structure whose **code** member indicates the **CDN\_INCLUDEITEM** notification message.
 
-The **psf** member of the [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure is a pointer to an interface for the folder whose items are being enumerated. The **pidl** member is a pointer to an item identifier list that identifies the item relative to the folder.
+The **psf** member of the [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure is a pointer to an interface for the folder whose items are being enumerated. The **pidl** member is a pointer to an item identifier list that identifies the item relative to the folder.
 
 </dd> </dl>
 
@@ -92,7 +92,7 @@ The dialog box always includes items that have both the **SFGAO\_FILESYSTEM** an
 [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
 </dt> <dt>
 
-[**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa)
+[**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa)
 </dt> <dt>
 
 **Conceptual**

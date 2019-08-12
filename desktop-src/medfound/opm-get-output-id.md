@@ -16,7 +16,7 @@ Returns the unique identifier of the monitor associated with this video output.
 |--------------|------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_OUTPUT\_ID                                             |
 | Input data   | None                                                             |
-| Return data  | An [**OPM\_OUTPUT\_ID\_DATA**](/windows/desktop/api/opmapi/ns-opmapi-_opm_output_id_data) structure |
+| Return data  | An [**OPM\_OUTPUT\_ID\_DATA**](/windows/desktop/api/opmapi/ns-opmapi-opm_output_id_data) structure |
 
 
 

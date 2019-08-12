@@ -336,7 +336,7 @@ For the [Microsoft Base DSS and Diffie-Hellman Cryptographic Provider](microsoft
 [Cryptography Functions](cryptography-functions.md)
 </dt> <dt>
 
-[**CRYPT_ALGORITHM_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier)
+[**CRYPT_ALGORITHM_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier)
 </dt> <dt>
 
 [**CryptFindOIDInfo**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindoidinfo)

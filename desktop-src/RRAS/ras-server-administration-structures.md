@@ -19,11 +19,11 @@ For Windows NT 4.0, use the following structures to implement RAS server admin
 -   [**RAS\_PPP\_IPXCP\_RESULT**](ras-ppp-ipxcp-result-str.md)
 -   [**RAS\_PPP\_NBFCP\_RESULT**](ras-ppp-nbfcp-result-str.md)
 -   [**RAS\_PPP\_PROJECTION\_RESULT**](ras-ppp-projection-result-str.md)
--   [**RAS\_SECURITY\_INFO**](/windows/desktop/api/Rasshost/ns-rasshost-_ras_security_info)
+-   [**RAS\_SECURITY\_INFO**](/windows/desktop/api/Rasshost/ns-rasshost-ras_security_info)
 -   [**RAS\_SERVER\_0**](ras-server-0-str.md)
--   [**RAS\_STATS**](/windows/desktop/api/Ras/ns-ras-_ras_stats)
+-   [**RAS\_STATS**](/windows/desktop/api/Ras/ns-ras-ras_stats)
 -   [**RAS\_USER\_0**](ras-user-0-str.md)
--   [**SECURITY\_MESSAGE**](/windows/desktop/api/Rasshost/ns-rasshost-_security_message)
+-   [**SECURITY\_MESSAGE**](/windows/desktop/api/Rasshost/ns-rasshost-security_message)
 
  
 

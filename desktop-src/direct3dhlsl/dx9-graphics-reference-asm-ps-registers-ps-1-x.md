@@ -6,7 +6,7 @@ keywords:
 - Registers - ps_1_1 to ps_1_4
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -137,7 +137,7 @@ Early pixel shader hardware represents data in registers using a fixed-point num
 
 For pixel shader version 1\_1 to 1\_3, MaxTextureRepeat must be a minimum of one. For 1\_4, MaxTextureRepeat must be a minimum of eight.
 
-See [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9) for more information about PixelShader1xMaxValue.
+See [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9) for more information about PixelShader1xMaxValue.
 
 ## Related topics
 

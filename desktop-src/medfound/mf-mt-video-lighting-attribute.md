@@ -16,7 +16,7 @@ Specifies the optimal lighting conditions for a video media type.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoLighting**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideolighting) enumeration.
+The value of this attribute is a member of the [**MFVideoLighting**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideolighting) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

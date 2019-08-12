@@ -36,7 +36,7 @@ EN_REQUESTRESIZE
 *lParam* 
 </dt> <dd>
 
-A [**REQRESIZE**](/windows/desktop/api/Richedit/ns-richedit-_reqresize) structure that receives the requested size.
+A [**REQRESIZE**](/windows/desktop/api/Richedit/ns-richedit-reqresize) structure that receives the requested size.
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ To receive EN\_REQUESTRESIZE notification codes, specify [**ENM\_REQUESTRESIZE**
 **Reference**
 </dt> <dt>
 
-[**REQRESIZE**](/windows/desktop/api/Richedit/ns-richedit-_reqresize)
+[**REQRESIZE**](/windows/desktop/api/Richedit/ns-richedit-reqresize)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)

@@ -22,7 +22,7 @@ D3DRS_DESTBLENDALPHA
 
 
 
-Like the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND, these can be set to one of the values in the [**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) enumeration. The source and destination blend settings can be combined in several ways, depending on the settings in the SrcBlendCaps and DestBlendCaps members of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
+Like the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND, these can be set to one of the values in the [**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) enumeration. The source and destination blend settings can be combined in several ways, depending on the settings in the SrcBlendCaps and DestBlendCaps members of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
 The alpha blending is done as follows:
 

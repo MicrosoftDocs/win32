@@ -181,7 +181,7 @@ A value that specifies the type of events consumed by the subscription. The addr
 <span id="_cm_CONFIGURATION_MODE"></span><span id="_cm_configuration_mode"></span><span id="_CM_CONFIGURATION_MODE"></span>**/cm:***CONFIGURATION\_MODE*
 </dt> <dd>
 
-A value that specifies the configuration mode of the event subscription. *CONFIGURATION\_MODE* can be one of the following strings: "Normal", "Custom", "MinLatency", or "MinBandwidth". The [**EC\_SUBSCRIPTION\_CONFIGURATION\_MODE**](/windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_configuration_mode) enumeration defines the configuration modes. The /dm, /dmi, /hi, and /dmlt parameters can only be specified if the configuration mode is set to Custom.
+A value that specifies the configuration mode of the event subscription. *CONFIGURATION\_MODE* can be one of the following strings: "Normal", "Custom", "MinLatency", or "MinBandwidth". The [**EC\_SUBSCRIPTION\_CONFIGURATION\_MODE**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_configuration_mode) enumeration defines the configuration modes. The /dm, /dmi, /hi, and /dmlt parameters can only be specified if the configuration mode is set to Custom.
 
 </dd> <dt>
 
@@ -328,7 +328,7 @@ A value that specifies the DNS name of the local computer. This name is used by 
 <span id="_ct_TYPE"></span><span id="_ct_type"></span><span id="_CT_TYPE"></span>**/ct:***TYPE*
 </dt> <dd>
 
-A value that specifies the credential type used for accessing remote event sources. *TYPE* can be "default", "negotiate", "digest", "basic", or "localmachine". The default is "default". These values are defined in the [**EC\_SUBSCRIPTION\_CREDENTIALS\_TYPE**](/windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_credentials_type) enumeration.
+A value that specifies the credential type used for accessing remote event sources. *TYPE* can be "default", "negotiate", "digest", "basic", or "localmachine". The default is "default". These values are defined in the [**EC\_SUBSCRIPTION\_CREDENTIALS\_TYPE**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_credentials_type) enumeration.
 
 </dd> <dt>
 

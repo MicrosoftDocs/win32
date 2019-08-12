@@ -33,7 +33,7 @@ Trigger.Type As TASK_TRIGGER_TYPE2
 
 ## Property value
 
-One of the following [**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2) enumeration values.
+One of the following [**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2) enumeration values.
 
 
 
@@ -75,7 +75,7 @@ One of the following [**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne
 [**TriggerCollection.Create**](triggercollection-create.md)
 </dt> <dt>
 
-[**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2)
+[**TASK\_TRIGGER\_TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)

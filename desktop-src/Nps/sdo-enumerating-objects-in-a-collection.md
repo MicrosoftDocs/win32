@@ -131,7 +131,7 @@ The vtName and vtProtocol variables are of type [\_variant\_t](https://go.micros
 [Adding a Client](https://docs.microsoft.com/windows/desktop/Nps/sdo-adding-a-client)
 </dt> <dt>
 
-[**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties)
+[**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
 </dt> <dt>
 
 [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx)

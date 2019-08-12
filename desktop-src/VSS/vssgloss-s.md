@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 <span id="base.vssgloss_selectability_for_backup"></span><span id="BASE.VSSGLOSS_SELECTABILITY_FOR_BACKUP"></span>**selectability for backup**
 </dt> <dd>
 
-A component is said to be selectable for backup if its explicit inclusion in a backup operation is optional. Selectability for backup is enabled if the value of the **bSelectable** member of the [**VSS\_COMPONENTINFO**](/windows/desktop/api/VsBackup/ns-vsbackup-_vss_componentinfo) structure is **true**. There is no default value for a component's selectability for backup; a writer must always set this value explicitly.
+A component is said to be selectable for backup if its explicit inclusion in a backup operation is optional. Selectability for backup is enabled if the value of the **bSelectable** member of the [**VSS\_COMPONENTINFO**](/windows/desktop/api/VsBackup/ns-vsbackup-vss_componentinfo) structure is **true**. There is no default value for a component's selectability for backup; a writer must always set this value explicitly.
 
 Writers also use selectability for restore to organize their component's participation in restore operations.
 
@@ -27,7 +27,7 @@ See also *selectable component*, *selectability for restore*, [*explicit compone
 <span id="base.vssgloss_selectability_for_restore"></span><span id="BASE.VSSGLOSS_SELECTABILITY_FOR_RESTORE"></span>**selectability for restore**
 </dt> <dd>
 
-A component is said to be selectable for restore if it can be implicitly backed up as part of a component set, and then later individually restored without the rest of the component set. Selectability for restore is enabled if the value of the **bSelectableForRestore** member of the [**VSS\_COMPONENTINFO**](/windows/desktop/api/VsBackup/ns-vsbackup-_vss_componentinfo) structure is **true**. By default, a component's selectability for restore is **false**. Selectability for restore has meaning only when a component has not been added to the backup document.
+A component is said to be selectable for restore if it can be implicitly backed up as part of a component set, and then later individually restored without the rest of the component set. Selectability for restore is enabled if the value of the **bSelectableForRestore** member of the [**VSS\_COMPONENTINFO**](/windows/desktop/api/VsBackup/ns-vsbackup-vss_componentinfo) structure is **true**. By default, a component's selectability for restore is **false**. Selectability for restore has meaning only when a component has not been added to the backup document.
 
 See also *selectable component*, *selectability for backup*, [*explicit component inclusion*](vssgloss-e.md), [*implicit component inclusion*](vssgloss-i.md).
 

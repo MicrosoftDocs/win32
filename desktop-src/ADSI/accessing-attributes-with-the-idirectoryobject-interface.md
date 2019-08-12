@@ -17,12 +17,12 @@ The [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) i
 
 Clients written in languages such as C and C++ should use the methods of the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface to optimize performance and take advantage of native directory service interfaces. Automation clients cannot use **IDirectoryObject**. Instead, they should use the [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) interface.
 
-The [**IDirectoryObject::GetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectattributes) method retrieves attributes with both single and multiple values. This method takes a list of requested attributes and returns an [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) structure. ADSI allocates this structure; the caller must free this memory when it is no longer required using the [**FreeADsMem**](/windows/desktop/api/Adshlp/nf-adshlp-freeadsmem) function.
+The [**IDirectoryObject::GetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectattributes) method retrieves attributes with both single and multiple values. This method takes a list of requested attributes and returns an [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) structure. ADSI allocates this structure; the caller must free this memory when it is no longer required using the [**FreeADsMem**](/windows/desktop/api/Adshlp/nf-adshlp-freeadsmem) function.
 
 The order of returned attribute values is not necessarily the same as the order in which the attributes were requested. Therefore, it is necessary to compare the attribute names returned from ADSI.
 
 > [!Note]  
-> The [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-_ads_attr_info) structure does not return all of the attributes requested. Only those attributes that contain values are part of the returned structure.
+> The [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) structure does not return all of the attributes requested. Only those attributes that contain values are part of the returned structure.
 
  
 

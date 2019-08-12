@@ -114,7 +114,7 @@ Before attempting to apply encryption, get the content protection capabilities o
 
 1.  Get a pointer to the Direct3D 9 device.
 2.  Call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) for the [**IDirect3DDevice9Video**](/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video) interface.
-3.  Call [**IDirect3DDevice9Video::GetContentProtectionCaps**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps). This method fills in a [**D3DCONTENTPROTECTIONCAPS**](/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcontentprotectioncaps) structure with the driver’s content protection capabilities.
+3.  Call [**IDirect3DDevice9Video::GetContentProtectionCaps**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps). This method fills in a [**D3DCONTENTPROTECTIONCAPS**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcontentprotectioncaps) structure with the driver’s content protection capabilities.
 
 In particular, look for the following capabilities:
 
@@ -181,11 +181,11 @@ ExtensionExecute.PrivateOutputDataSize = sizeof(HANDLE);
 
 
 
-Set the **pExtensionData** member of the [**DXVA2_DecodeExecuteParams**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeexecuteparams) structure to the address of a [**DXVA2_DecodeExtensionData**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeextensiondata) structure.
+Set the **pExtensionData** member of the [**DXVA2_DecodeExecuteParams**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeexecuteparams) structure to the address of a [**DXVA2_DecodeExtensionData**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeextensiondata) structure.
 
-In the [**DXVA2_DecodeExtensionData**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeextensiondata) structure, set the **Function** member to **DXVA2_DECODE_GET_DRIVER_HANDLE**. Set **pPrivateOutputData** to the address of a buffer that is large enough to store a **HANDLE** value. (In the previous example, this buffer is the *hDecodeDeviceHandle* variable.)
+In the [**DXVA2_DecodeExtensionData**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeextensiondata) structure, set the **Function** member to **DXVA2_DECODE_GET_DRIVER_HANDLE**. Set **pPrivateOutputData** to the address of a buffer that is large enough to store a **HANDLE** value. (In the previous example, this buffer is the *hDecodeDeviceHandle* variable.)
 
-Then call [**IDirectXVideoDecoder::Execute**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute) and pass in the address of the [**DXVA2_DecodeExecuteParams**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeexecuteparams) structure. The handle to the DXVA decoder is returned in **pPrivateOutputData**.
+Then call [**IDirectXVideoDecoder::Execute**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute) and pass in the address of the [**DXVA2_DecodeExecuteParams**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeexecuteparams) structure. The handle to the DXVA decoder is returned in **pPrivateOutputData**.
 
 ### 5. Associate the DXVA Decoder with the Cryptographic Session
 
@@ -203,7 +203,7 @@ The following diagram illustrates the exchange of handles:
 
 ![a diagram that shows how the dxva decoder is associated with the cryptographic session.](images/d3d9video03.png)
 
-The software decoder can now use the cryptographic session key to encrypt the compressed video buffers. Each compressed buffer will have its own initialization vector (IV) specified in the **pvPVPState** member of the [**DXVA2_DecodeBufferDesc**](/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc) structure.
+The software decoder can now use the cryptographic session key to encrypt the compressed video buffers. Each compressed buffer will have its own initialization vector (IV) specified in the **pvPVPState** member of the [**DXVA2_DecodeBufferDesc**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc) structure.
 
 ## Sending Authenticated Channel Commands
 

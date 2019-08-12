@@ -14,7 +14,7 @@ The Microsoft Peer Distribution service supports the following enumerations.
 
 | Enumeration                                                                               | Description                                                          |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [**PEERDIST\_CLIENT\_INFO\_BY\_HANDLE\_CLASS**](/windows/desktop/api/peerdist/ne-peerdist-_peerdist_client_info_by_handle_class) | Defines the possible client information values.                      |
+| [**PEERDIST\_CLIENT\_INFO\_BY\_HANDLE\_CLASS**](/windows/desktop/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class) | Defines the possible client information values.                      |
 | [**PEERDIST\_STATUS**](/windows/desktop/api/peerdist/ne-peerdist-peerdist_status)                                               | Defines the possible Status values of the Peer Distribution service. |
 
 

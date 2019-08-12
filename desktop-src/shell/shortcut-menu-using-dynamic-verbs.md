@@ -174,9 +174,9 @@ IFACEMETHODIMP CMenuExtension::GetCommandString(UINT idCommand,
 
 This method is called when a user clicks a menu item to tell the handler to run the associated command. The *pici* parameter points to a structure that contains the information required.
 
-Although *pici* is declared in Shlobj.h as a [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo) structure, in practice it often points to a [**CMINVOKECOMMANDINFOEX**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex) structure. This structure is an extended version of **CMINVOKECOMMANDINFO** and has several additional members that make it possible to pass Unicode strings.
+Although *pici* is declared in Shlobj.h as a [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo) structure, in practice it often points to a [**CMINVOKECOMMANDINFOEX**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex) structure. This structure is an extended version of **CMINVOKECOMMANDINFO** and has several additional members that make it possible to pass Unicode strings.
 
-Check the **cbSize** member of *pici* to determine which structure was passed in. If it is a [**CMINVOKECOMMANDINFOEX**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex) structure and the **fMask** member has the **CMIC\_MASK\_UNICODE** flag set, cast *pici* to **CMINVOKECOMMANDINFOEX**. This enables your application to use the Unicode information contained in the last five members of the structure.
+Check the **cbSize** member of *pici* to determine which structure was passed in. If it is a [**CMINVOKECOMMANDINFOEX**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex) structure and the **fMask** member has the **CMIC\_MASK\_UNICODE** flag set, cast *pici* to **CMINVOKECOMMANDINFOEX**. This enables your application to use the Unicode information contained in the last five members of the structure.
 
 The structure's **lpVerb** or **lpVerbW** member is used to identify the command to be executed. Commands are identified in one of the following two ways:
 

@@ -36,7 +36,7 @@ EN_SELCHANGE
 *lParam* 
 </dt> <dd>
 
-A [**SELCHANGE**](/windows/desktop/api/Richedit/ns-richedit-_selchange) structure that receives information about the selection.
+A [**SELCHANGE**](/windows/desktop/api/Richedit/ns-richedit-selchange) structure that receives information about the selection.
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ This notification code is sent when the caret position changes and no text is se
 **Reference**
 </dt> <dt>
 
-[**SELCHANGE**](/windows/desktop/api/Richedit/ns-richedit-_selchange)
+[**SELCHANGE**](/windows/desktop/api/Richedit/ns-richedit-selchange)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)

@@ -13,7 +13,7 @@ NLS supports the following enumeration types:
 <dl>
 
 [**CALDATETIME\_DATEUNIT**](caldatetime-dateunit.md)  
-[**NORM\_FORM**](/windows/desktop/api/Winnls/ne-winnls-_norm_form)  
+[**NORM\_FORM**](/windows/desktop/api/Winnls/ne-winnls-norm_form)  
 [**SYSGEOCLASS**](/windows/desktop/api/Winnls/ne-winnls-sysgeoclass)  
 [**SYSGEOTYPE**](/windows/desktop/api/Winnls/ne-winnls-sysgeotype)  
 [**SYSNLS\_FUNCTION**](/windows/desktop/api/Winnls/ne-winnls-sysnls_function)  

@@ -86,7 +86,7 @@ Specifies whether the operations plug-in is 32-bit or 64-bit. If this element is
 <span id="PlugInConfiguration_XmlRenderingType"></span><span id="pluginconfiguration_xmlrenderingtype"></span><span id="PLUGINCONFIGURATION_XMLRENDERINGTYPE"></span>**PlugInConfiguration**/**XmlRenderingType**
 </dt> <dd>
 
-Configures the format in which XML is passed to plug-ins through the [**WSMAN\_DATA**](/windows/desktop/api/Wsman/ns-wsman-_wsman_data) object. The following types are available:
+Configures the format in which XML is passed to plug-ins through the [**WSMAN\_DATA**](/windows/desktop/api/Wsman/ns-wsman-wsman_data) object. The following types are available:
 
 <dl> <dt>
 

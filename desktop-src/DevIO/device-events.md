@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 Applications, including services, can register to receive notification of device events. For example, a catalog service can receive notice of volumes being mounted or dismounted so it can adjust the paths to files on the volume. The system notifies an application that a device event has occurred by sending the application a [**WM\_DEVICECHANGE**](wm-devicechange.md) message. The system notifies a service that a device event has occurred by invoking the service's event handler function, [**HandlerEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex).
 
-To receive device event notices, call the [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) function with a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_handle) structure. Be sure to set the **dbch\_handle** member to the device handle obtained from the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Also, set the **dbch\_devicetype** member to **DBT\_DEVTYP\_HANDLE**. The function returns a device notification handle. Note that this is not the same as the volume handle.
+To receive device event notices, call the [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) function with a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle) structure. Be sure to set the **dbch\_handle** member to the device handle obtained from the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Also, set the **dbch\_devicetype** member to **DBT\_DEVTYP\_HANDLE**. The function returns a device notification handle. Note that this is not the same as the volume handle.
 
 When your application receives notification, if the event type is [DBT\_CUSTOMEVENT](dbt-customevent.md), you may have received one of the device events defined in IoEvent.h. To determine if one of these events has occurred, use the following steps.
 
-1.  Treat the event data as a [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_hdr) structure. Verify that the **dbch\_devicetype** member is set to **DBT\_DEVTYP\_HANDLE**.
-2.  If **dbch\_devicetype** is **DBT\_DEVTYP\_HANDLE**, the event data is really a pointer to a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_handle) structure.
+1.  Treat the event data as a [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_hdr) structure. Verify that the **dbch\_devicetype** member is set to **DBT\_DEVTYP\_HANDLE**.
+2.  If **dbch\_devicetype** is **DBT\_DEVTYP\_HANDLE**, the event data is really a pointer to a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle) structure.
 3.  Compare the **dbch\_eventguid** member to the **GUID**s listed in the following table using the [**IsEqualGUID**](https://msdn.microsoft.com/en-us/library/ms680575(v=VS.85).aspx) function.
 
 <dl> <dt>
@@ -84,7 +84,7 @@ d07433c0-a98e-11d2-917a-00a0c9068ff3
 
 
 
-Removable media has been added to the device. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](/windows/desktop/api/WinIoCtl/ns-winioctl-_class_media_change_context) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
+Removable media has been added to the device. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](/windows/desktop/api/WinIoCtl/ns-winioctl-class_media_change_context) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
 
 **Windows XP:** The **dbch\_data** member is a **ULONG** value that represents the number of times that media has been changed since system startup.
 
@@ -112,7 +112,7 @@ d07433c1-a98e-11d2-917a-00a0c9068ff3
 
 
 
-Removable media has been removed from the device or is unavailable. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](/windows/desktop/api/WinIoCtl/ns-winioctl-_class_media_change_context) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
+Removable media has been removed from the device or is unavailable. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](/windows/desktop/api/WinIoCtl/ns-winioctl-class_media_change_context) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
 
 **Windows XP:** The **dbch\_data** member is a **ULONG** value that represents the number of times that media has been changed since system startup.
 
@@ -330,7 +330,7 @@ The media is wearing out. This event is sent when a file system determines that 
 
 The **GUID\_IO\_VOLUME\_DISMOUNT** and **GUID\_IO\_VOLUME\_DISMOUNT\_FAILED** events are related, as are the **GUID\_IO\_VOLUME\_LOCK** and **GUID\_IO\_VOLUME\_LOCK\_FAILED** event. The **GUID\_IO\_VOLUME\_DISMOUNT** and **GUID\_IO\_VOLUME\_LOCK** events indicate that an operation is being attempted. You should act on the event notification, and record the action taken. The **GUID\_IO\_VOLUME\_DISMOUNT\_FAILED** and **GUID\_IO\_VOLUME\_LOCK\_FAILED** events indicate that the attempted operation failed. You may then use your record to undo the actions you made in response to the operation.
 
-The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_handle) structure indicates the affected device. Note that this is the device notification handle returned by [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa), not a volume handle. To perform operations on the volume, map this handle to the corresponding volume handle.
+The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle) structure indicates the affected device. Note that this is the device notification handle returned by [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa), not a volume handle. To perform operations on the volume, map this handle to the corresponding volume handle.
 
 ## Requirements
 

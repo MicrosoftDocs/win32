@@ -14,8 +14,8 @@ You use the following enumerations when working with performance data.
 
 Consumers that use the nine low-level functions that can consume version 2 performance counter data use the following enumerations.
 
--   [**PerfCounterDataType**](/windows/desktop/api/Perflib/ne-perflib-_perfcounterdatatype)
--   [**PerfRegInfoType**](/windows/desktop/api/Perflib/ne-perflib-_perfreginfotype)
+-   [**PerfCounterDataType**](/windows/desktop/api/Perflib/ne-perflib-perfcounterdatatype)
+-   [**PerfRegInfoType**](/windows/desktop/api/Perflib/ne-perflib-perfreginfotype)
 
 For information about the functions that are available for working with performance counters, see [Performance Counters Functions](performance-counters-functions.md).
 

@@ -55,7 +55,7 @@ The following table shows an example of a set of manipulation attributes.
 [**ISdoDictionaryOld**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> </dl>
 
  

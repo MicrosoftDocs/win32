@@ -34,7 +34,7 @@ A single function, [**CryptVerifyMessageSignature**](/windows/desktop/api/Wincry
 1.  Get a pointer to the signed message.
 2.  Get the size of the signed message.
 3.  Get a handle on a cryptographic provider.
-4.  Initialize the [**CRYPT\_VERIFY\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_verify_message_para) structure.
+4.  Initialize the [**CRYPT\_VERIFY\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_verify_message_para) structure.
 5.  Call [**CryptVerifyMessageSignature**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifymessagesignature) to verify the signature.
 
 Code that implements this procedure is included in [Example C Program: Signing a Message and Verifying a Message Signature](example-c-program-signing-a-message-and-verifying-a-message-signature.md).

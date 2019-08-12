@@ -19,15 +19,15 @@ d3d12shader.h declares the following structures, which are used to create and us
 
 | Topic                                                                                  | Description                                                             |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| [**D3D12\_FUNCTION\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_function_desc)<br/>                        | Describes a function. <br/>                                       |
-| [**D3D12\_LIBRARY\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_library_desc)<br/>                          | Describes a library. <br/>                                        |
-| [**D3D12\_PARAMETER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_parameter_desc)<br/>                      | Describes a function parameter. <br/>                             |
-| [**D3D12\_SHADER\_BUFFER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_buffer_desc)<br/>             | Describes a shader constant-buffer. <br/>                         |
-| [**D3D12\_SHADER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_desc)<br/>                            | Describes a shader. <br/>                                         |
-| [**D3D12\_SHADER\_INPUT\_BIND\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_input_bind_desc)<br/>    | Describes how a shader resource is bound to a shader input. <br/> |
-| [**D3D12\_SHADER\_TYPE\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_type_desc)<br/>                 | Describes a shader-variable type. <br/>                           |
-| [**D3D12\_SHADER\_VARIABLE\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_variable_desc)<br/>         | Describes a shader variable. <br/>                                |
-| [**D3D12\_SIGNATURE\_PARAMETER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_signature_parameter_desc)<br/> | Describes a shader signature. <br/>                               |
+| [**D3D12\_FUNCTION\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_function_desc)<br/>                        | Describes a function. <br/>                                       |
+| [**D3D12\_LIBRARY\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_library_desc)<br/>                          | Describes a library. <br/>                                        |
+| [**D3D12\_PARAMETER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_parameter_desc)<br/>                      | Describes a function parameter. <br/>                             |
+| [**D3D12\_SHADER\_BUFFER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_buffer_desc)<br/>             | Describes a shader constant-buffer. <br/>                         |
+| [**D3D12\_SHADER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_desc)<br/>                            | Describes a shader. <br/>                                         |
+| [**D3D12\_SHADER\_INPUT\_BIND\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc)<br/>    | Describes how a shader resource is bound to a shader input. <br/> |
+| [**D3D12\_SHADER\_TYPE\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_type_desc)<br/>                 | Describes a shader-variable type. <br/>                           |
+| [**D3D12\_SHADER\_VARIABLE\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_variable_desc)<br/>         | Describes a shader variable. <br/>                                |
+| [**D3D12\_SIGNATURE\_PARAMETER\_DESC**](/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc)<br/> | Describes a shader signature. <br/>                               |
 
 
 

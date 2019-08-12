@@ -31,7 +31,7 @@ These share function apply only to shares on a Server Message Block (LAN Manager
 
 The [**NetShareAdd**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd) function allows a user or application to share a resource of a specific type using the specified share name. The **NetShareAdd** function requires the share name and local device name to share the resource. A user or application must have an account on the server to access the resource.
 
-You can also specify a security descriptor to be associated with a share. Security descriptors specify which users are allowed to access files through the share, and with what type of access. Specify a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) with the [**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502) information level when calling **NetShareAdd** or [**NetShareSetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo). **NetShareSetInfo** supports the [**SHARE\_INFO\_1501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1501) information level. For more information about security descriptors, see [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control).
+You can also specify a security descriptor to be associated with a share. Security descriptors specify which users are allowed to access files through the share, and with what type of access. Specify a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) with the [**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502) information level when calling **NetShareAdd** or [**NetShareSetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo). **NetShareSetInfo** supports the [**SHARE\_INFO\_1501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1501) information level. For more information about security descriptors, see [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control).
 
 The network management functions use the following special share names for interprocess communication (IPC) and remote administration of the server:
 
@@ -39,20 +39,20 @@ The network management functions use the following special share names for inter
 -   ADMIN$, reserved for remote administration
 -   A$, B$, C$ (and other local disk names followed by a dollar sign), assigned to local disk devices
 
-To list all connections made to a shared resource on a server, or to list all connections established from a particular computer, call the [**NetConnectionEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum) function. You can call **NetConnectionEnum** at the [**CONNECTION\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_0) and [**CONNECTION\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_1) information levels.
+To list all connections made to a shared resource on a server, or to list all connections established from a particular computer, call the [**NetConnectionEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum) function. You can call **NetConnectionEnum** at the [**CONNECTION\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-connection_info_0) and [**CONNECTION\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-connection_info_1) information levels.
 
 Share functions are available at the following information levels although some share levels are only applicable to some of the share functions:
 
--   [**SHARE\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_0)
--   [**SHARE\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1)
--   [**SHARE\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_2)
--   [**SHARE\_INFO\_501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_501)
--   [**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502)
--   [**SHARE\_INFO\_503**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503)
--   [**SHARE\_INFO\_1004**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1004)
--   [**SHARE\_INFO\_1005**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005)
--   [**SHARE\_INFO\_1006**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1006)
--   [**SHARE\_INFO\_1501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1501)
+-   [**SHARE\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0)
+-   [**SHARE\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1)
+-   [**SHARE\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2)
+-   [**SHARE\_INFO\_501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_501)
+-   [**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502)
+-   [**SHARE\_INFO\_503**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503)
+-   [**SHARE\_INFO\_1004**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1004)
+-   [**SHARE\_INFO\_1005**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005)
+-   [**SHARE\_INFO\_1006**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1006)
+-   [**SHARE\_INFO\_1501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1501)
 
 Please review to documentation for a specific share function for details.
 

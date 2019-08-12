@@ -50,7 +50,7 @@ If the function is unable to perform the evaluation, it returns **FALSE**. Use [
 
 <dl> <dt>
 
-[**AUTHZ\_INIT\_INFO**](/windows/desktop/api/Authz/ns-authz-_authz_init_info)
+[**AUTHZ\_INIT\_INFO**](/windows/desktop/api/Authz/ns-authz-authz_init_info)
 </dt> <dt>
 
 [*AuthzGetCentralAccessPolicyCallback*](authzgetcentralaccesspolicycallback-.md)

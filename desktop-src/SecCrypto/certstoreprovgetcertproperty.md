@@ -48,7 +48,7 @@ BOOL WINAPI CertStoreProvGetCertProperty(
 *pCertContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context) structure.
+A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) structure.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Any needed flag values.
 *pvData* \[out\]
 </dt> <dd>
 
-A pointer to a buffer to contain the pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context) structure to be returned by the function. May be set to **NULL** on a first call to the function to get the value of *pcbData* before allocating memory for the buffer.
+A pointer to a buffer to contain the pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) structure to be returned by the function. May be set to **NULL** on a first call to the function to get the value of *pcbData* before allocating memory for the buffer.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context)
+[**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context)
 </dt> </dl>
 
  

@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 The following structures are used with communications resources:
 
--   [**COMMCONFIG**](/windows/desktop/api/Winbase/ns-winbase-_commconfig)
--   [**COMMPROP**](/windows/desktop/api/WinBase/ns-winbase-_commprop)
--   [**COMMTIMEOUTS**](/windows/desktop/api/Winbase/ns-winbase-_commtimeouts)
--   [**COMSTAT**](/windows/desktop/api/Winbase/ns-winbase-_comstat)
--   [**DCB**](/windows/desktop/api/Winbase/ns-winbase-_dcb)
--   [**MODEMDEVCAPS**](/windows/desktop/api/Mcx/ns-mcx-_modemdevcaps)
--   [**MODEMSETTINGS**](/windows/desktop/api/Mcx/ns-mcx-_modemsettings)
+-   [**COMMCONFIG**](/windows/desktop/api/Winbase/ns-winbase-commconfig)
+-   [**COMMPROP**](/windows/desktop/api/WinBase/ns-winbase-commprop)
+-   [**COMMTIMEOUTS**](/windows/desktop/api/Winbase/ns-winbase-commtimeouts)
+-   [**COMSTAT**](/windows/desktop/api/Winbase/ns-winbase-comstat)
+-   [**DCB**](/windows/desktop/api/Winbase/ns-winbase-dcb)
+-   [**MODEMDEVCAPS**](/windows/desktop/api/Mcx/ns-mcx-modemdevcaps)
+-   [**MODEMSETTINGS**](/windows/desktop/api/Mcx/ns-mcx-modemsettings)
 
  
 

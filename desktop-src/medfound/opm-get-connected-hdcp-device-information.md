@@ -18,7 +18,7 @@ Gets information about a High-Bandwidth Digital Content Protection (HDCP) device
 |--------------|---------------------------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CONNECTED\_HDCP\_DEVICE\_INFORMATION                                                          |
 | Input data   | None                                                                                                    |
-| Return data  | An [**OPM\_CONNECTED\_HDCP\_DEVICE\_INFORMATION**](/windows/desktop/api/opmapi/ns-opmapi-_opm_connected_hdcp_device_information) structure |
+| Return data  | An [**OPM\_CONNECTED\_HDCP\_DEVICE\_INFORMATION**](/windows/desktop/api/opmapi/ns-opmapi-opm_connected_hdcp_device_information) structure |
 
 
 

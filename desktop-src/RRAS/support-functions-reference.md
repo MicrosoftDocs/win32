@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Support Functions Reference
 
-The following functions are provided to routing protocols by the router manager. When the router manager calls the [**StartProtocol**](/windows/desktop/api/Routprot/nc-routprot-pstart_protocol) function (implemented by the routing protocol), the router manager passes the routing protocol a [**SUPPORT\_FUNCTIONS**](/windows/desktop/api/Routprot/ns-routprot-_support_functions_50) structure containing pointers to these functions:
+The following functions are provided to routing protocols by the router manager. When the router manager calls the [**StartProtocol**](/windows/desktop/api/Routprot/nc-routprot-pstart_protocol) function (implemented by the routing protocol), the router manager passes the routing protocol a [**SUPPORT\_FUNCTIONS**](/windows/desktop/api/Routprot/ns-routprot-support_functions_50) structure containing pointers to these functions:
 
 [**DemandDialRequest**](https://msdn.microsoft.com/en-us/library/Aa373924(v=VS.85).aspx)
 

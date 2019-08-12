@@ -14,13 +14,13 @@ This section contains information about the following effect structures:
 
 | Structures                                                          | Description                        |
 |---------------------------------------------------------------------|------------------------------------|
-| [**D3D10\_EFFECT\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_desc)                    | Describes an effect.               |
-| [**D3D10\_EFFECT\_SHADER\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_shader_desc)     | Describes an effect shader.        |
-| [**D3D10\_EFFECT\_TYPE\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_type_desc)         | Describes an effect-variable type. |
-| [**D3D10\_EFFECT\_VARIABLE\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_variable_desc) | Describes an effect variable.      |
-| [**D3D10\_PASS\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_pass_desc)                        | Describes a pass.                  |
-| [**D3D10\_PASS\_SHADER\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_pass_shader_desc)         | Describes a shader variable.       |
-| [**D3D10\_TECHNIQUE\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_technique_desc)              | Describes a technique.             |
+| [**D3D10\_EFFECT\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_desc)                    | Describes an effect.               |
+| [**D3D10\_EFFECT\_SHADER\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_shader_desc)     | Describes an effect shader.        |
+| [**D3D10\_EFFECT\_TYPE\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_type_desc)         | Describes an effect-variable type. |
+| [**D3D10\_EFFECT\_VARIABLE\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_variable_desc) | Describes an effect variable.      |
+| [**D3D10\_PASS\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_pass_desc)                        | Describes a pass.                  |
+| [**D3D10\_PASS\_SHADER\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_pass_shader_desc)         | Describes a shader variable.       |
+| [**D3D10\_TECHNIQUE\_DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_technique_desc)              | Describes a technique.             |
 
 
 

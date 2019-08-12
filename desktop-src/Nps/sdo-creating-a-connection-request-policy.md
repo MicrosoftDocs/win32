@@ -346,13 +346,13 @@ End Module
 [**ISdoDictionaryOld**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> <dt>
 
-[**POLICYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties)
+[**POLICYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
 </dt> <dt>
 
-[**PROFILEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties)
+[**PROFILEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 </dt> </dl>
 
  

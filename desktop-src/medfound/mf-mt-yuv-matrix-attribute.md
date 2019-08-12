@@ -16,7 +16,7 @@ For YUV media types, defines the conversion matrix from the Y'Cb'Cr' color space
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoTransferMatrix**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideotransfermatrix) enumeration.
+The value of this attribute is a member of the [**MFVideoTransferMatrix**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideotransfermatrix) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

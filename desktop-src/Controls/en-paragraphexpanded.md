@@ -36,7 +36,7 @@ EN_PARAGRAPHEXPANDED
 *lParam* 
 </dt> <dd>
 
-An [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure.
+An [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure.
 
 </dd> </dl>
 

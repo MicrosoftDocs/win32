@@ -21,7 +21,7 @@ Retransmission data is stored in a file, therefore the maximum window size is li
 
  
 
-The transmission rate is the combined outflow of original data packets (ODATA), retransmitted data packets (RDATA) and transport-specific bookkeeping packets (SPMs), expressed per second. If the rate limit is set to 56 kilobits per sec by default. The default window size is 10 megabytes, with a default rate of 56 kilobits per second. Due to the relationship between the three members of the [**RM\_SEND\_WINDOW**](/windows/desktop/api/Wsrm/ns-wsrm-_rm_send_window) structure, the default window size is therefore 1428 seconds. See **RM\_SEND\_WINDOW** for more information.
+The transmission rate is the combined outflow of original data packets (ODATA), retransmitted data packets (RDATA) and transport-specific bookkeeping packets (SPMs), expressed per second. If the rate limit is set to 56 kilobits per sec by default. The default window size is 10 megabytes, with a default rate of 56 kilobits per second. Due to the relationship between the three members of the [**RM\_SEND\_WINDOW**](/windows/desktop/api/Wsrm/ns-wsrm-rm_send_window) structure, the default window size is therefore 1428 seconds. See **RM\_SEND\_WINDOW** for more information.
 
 ## Window Advance Rate
 

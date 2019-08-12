@@ -31,14 +31,14 @@ For more information and a list of possible values for registry objects, see [Re
 <span id="AceType"></span><span id="acetype"></span><span id="ACETYPE"></span>[**AceType**](iadsaccesscontrolentry-property-methods.md)
 </dt> <dd>
 
-For more information, see the **AceType** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header) structure.
+For more information, see the **AceType** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
 </dd> <dt>
 
 <span id="AceFlags"></span><span id="aceflags"></span><span id="ACEFLAGS"></span>[**AceFlags**](iadsaccesscontrolentry-property-methods.md)
 </dt> <dd>
 
-For more information, see the **AceFlags** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header) structure.
+For more information, see the **AceFlags** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
 </dd> <dt>
 
@@ -66,14 +66,14 @@ Contains zero or a combination of one or more of the following values from WinNT
 <span id="ObjectType"></span><span id="objecttype"></span><span id="OBJECTTYPE"></span>[**ObjectType**](iadsaccesscontrolentry-property-methods.md)
 </dt> <dd>
 
-For more information, see the **ObjectType** member of the [**ACCESS\_DENIED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_object_ace), [**ACCESS\_ALLOWED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_object_ace), and similar structures. This property should not be set or modified for non-Active Directory objects.
+For more information, see the **ObjectType** member of the [**ACCESS\_DENIED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace), [**ACCESS\_ALLOWED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_object_ace), and similar structures. This property should not be set or modified for non-Active Directory objects.
 
 </dd> <dt>
 
 <span id="InheritedObjectType"></span><span id="inheritedobjecttype"></span><span id="INHERITEDOBJECTTYPE"></span>[**InheritedObjectType**](iadsaccesscontrolentry-property-methods.md)
 </dt> <dd>
 
-For more information, see the **InheritedObjectType** member of the [**ACCESS\_DENIED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_object_ace), [**ACCESS\_ALLOWED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_object_ace), and similar structures. This property should not be set or modified for non-Active Directory objects.
+For more information, see the **InheritedObjectType** member of the [**ACCESS\_DENIED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace), [**ACCESS\_ALLOWED\_OBJECT\_ACE**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_object_ace), and similar structures. This property should not be set or modified for non-Active Directory objects.
 
 </dd> </dl>
 

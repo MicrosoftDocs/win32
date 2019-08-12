@@ -142,7 +142,7 @@ Gets the maximum update sequence number to which the destination server can indi
 
 <dl> <dt>
 
-[**DS\_REPL\_CURSOR**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursor)
+[**DS\_REPL\_CURSOR**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor)
 </dt> </dl>
 
  

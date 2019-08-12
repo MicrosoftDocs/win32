@@ -21,9 +21,9 @@ Except in the case of the VMR-7 using hardware overlay, deinterlacing is perform
 
 To get the deinterlacing capabilities for a video stream, do the following:
 
-1.  Fill in a [**VMR9VideoDesc**](/windows/desktop/api/Vmr9/ns-vmr9-_vmr9videodesc) structure with a description of the video stream. Details of how to fill in this structure are given later.
+1.  Fill in a [**VMR9VideoDesc**](/previous-versions/windows/desktop/api/Vmr9/ns-vmr9-vmr9videodesc) structure with a description of the video stream. Details of how to fill in this structure are given later.
 2.  Pass the structure to the [**IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes) method. Call the method twice. The first call returns the number of deinterlace modes the hardware supports for the specified format. Allocate an array of GUIDs of this size, and call the method again, passing in the address of the array. The second call fills the array with GUIDs. Each GUID identifies one deinterlacing mode.
-3.  To get the capabiltiies of a particular mode, call the [**IVMRDeinterlaceControl9::GetDeinterlaceModeCaps**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps) method. Pass in the same **VMR9VideoDesc** structure, along with one of the GUIDs from the array. The method fills a [**VMR9DeinterlaceCaps**](/windows/desktop/api/Vmr9/ns-vmr9-_vmr9deinterlacecaps) structure with the mode capabilities.
+3.  To get the capabiltiies of a particular mode, call the [**IVMRDeinterlaceControl9::GetDeinterlaceModeCaps**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps) method. Pass in the same **VMR9VideoDesc** structure, along with one of the GUIDs from the array. The method fills a [**VMR9DeinterlaceCaps**](/previous-versions/windows/desktop/api/Vmr9/ns-vmr9-vmr9deinterlacecaps) structure with the mode capabilities.
 
 The following code shows these steps:
 
@@ -82,7 +82,7 @@ Assume that the variable **pBMI** is a pointer to the [**BITMAPINFOHEADER**](/wi
 -   **dwSize**: Set this field to `sizeof(VMR9VideoDesc)`.
 -   **dwSampleWidth**: Set this field to `pBMI->biWidth`.
 -   **dwSampleHeight**: Set this field to `abs(pBMI->biHeight)`.
--   **SampleFormat**: This field describes the interlace characteristics of the media type. Check the **dwInterlaceFlags** field in the **VIDEOINFOHEADER2** structure, and set **SampleFormat** equal to the equivalent [**VMR9\_SampleFormat**](/windows/desktop/api/Vmr9/ne-vmr9-_vmr9_sampleformat) flag. A helper function to do this is given below.
+-   **SampleFormat**: This field describes the interlace characteristics of the media type. Check the **dwInterlaceFlags** field in the **VIDEOINFOHEADER2** structure, and set **SampleFormat** equal to the equivalent [**VMR9\_SampleFormat**](/previous-versions/windows/desktop/api/Vmr9/ne-vmr9-vmr9_sampleformat) flag. A helper function to do this is given below.
 -   **InputSampleFreq**: This field gives the input frequency, which can be calculated from the **AvgTimePerFrame** field in the **VIDEOINFOHEADER2** structure. In the general case, set **dwNumerator** to 10000000, and set **dwDenominator** to **AvgTimePerFrame**. However, you can also check for some well-known frame rates:
 
     | Average time per frame | Frame rate (fps) | Numerator | Denominator |
@@ -103,7 +103,7 @@ Assume that the variable **pBMI** is a pointer to the [**BITMAPINFOHEADER**](/wi
     -   If the input video is interleaved, set **OutputFrameFreq.dwNumerator** to 2 x **InputSampleFreq.dwNumerator**. (After deinterlacing, the frame rate is doubled.) Otherwise, set the value to **InputSampleFreq.dwNumerator**.
 -   **dwFourCC**: Set this field to `pBMI->biCompression`.
 
-The following helper function converts AMINTERLACE\_*X* flags to [**VMR9\_SampleFormat**](/windows/desktop/api/Vmr9/ne-vmr9-_vmr9_sampleformat) values:
+The following helper function converts AMINTERLACE\_*X* flags to [**VMR9\_SampleFormat**](/previous-versions/windows/desktop/api/Vmr9/ne-vmr9-vmr9_sampleformat) values:
 
 
 ```C++

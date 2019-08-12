@@ -79,7 +79,7 @@ HRESULT put_CaseIgnoreList(
 [**IADsCaseIgnoreList**](/windows/desktop/api/Iads/nn-iads-iadscaseignorelist)
 </dt> <dt>
 
-[**ADS\_CASEIGNORE\_LIST**](/windows/desktop/api/Iads/ns-iads-_ads_caseignore_list)
+[**ADS\_CASEIGNORE\_LIST**](/windows/desktop/api/Iads/ns-iads-ads_caseignore_list)
 </dt> </dl>
 
  

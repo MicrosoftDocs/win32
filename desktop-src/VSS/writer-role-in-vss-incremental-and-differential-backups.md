@@ -12,9 +12,9 @@ A writer's participation in incremental and differential backups typically takes
 
 ## Handling Identify Events during Incremental and Differential Backups
 
-While handling the Identify event, writers establish their basic architecture for incremental and differential backup operation through the backup schema ([**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema)) and file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) masks.
+While handling the Identify event, writers establish their basic architecture for incremental and differential backup operation through the backup schema ([**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-vss_backup_schema)) and file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)) masks.
 
-A writer indicates which operations it supports in its Writer Metadata Document by creating a bit mask of [**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema) values and passing it to the [**IVssCreateWriterMetadata::SetBackupSchema**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema) method. With this, a writer can indicate whether it supports the following:
+A writer indicates which operations it supports in its Writer Metadata Document by creating a bit mask of [**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-vss_backup_schema) values and passing it to the [**IVssCreateWriterMetadata::SetBackupSchema**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema) method. With this, a writer can indicate whether it supports the following:
 
 -   Incremental backups (**VSS\_BS\_INCREMENTAL**)
 -   Differential backups (**VSS\_BS\_DIFFERENTIAL**)
@@ -24,9 +24,9 @@ A writer indicates which operations it supports in its Writer Metadata Document 
 
 Writers use the file specification backup type mask to provide file set level information to requesters on how to include files in an incremental or differential backup.
 
-A writer can set a file set's file specification backup type mask when it adds the file set to a component by creating a bit mask of [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type) values and passing it to [**IVssCreateWriterMetadata::AddDatabaseFiles**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles), [**IVssCreateWriterMetadata::AddDatabaseLogFiles**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles), or [**IVssCreateWriterMetadata::AddFilesToFileGroup**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup).
+A writer can set a file set's file specification backup type mask when it adds the file set to a component by creating a bit mask of [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type) values and passing it to [**IVssCreateWriterMetadata::AddDatabaseFiles**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles), [**IVssCreateWriterMetadata::AddDatabaseLogFiles**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles), or [**IVssCreateWriterMetadata::AddFilesToFileGroup**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup).
 
-There are three "backup required" values of the [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type) enumeration that affect differential and incremental backups:
+There are three "backup required" values of the [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type) enumeration that affect differential and incremental backups:
 
 -   **VSS\_FSBT\_ALL\_BACKUP\_REQUIRED**
 -   **VSS\_FSBT\_INCREMENTAL\_BACKUP\_REQUIRED**

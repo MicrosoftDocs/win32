@@ -178,15 +178,15 @@ After each button is saved, a [TBN\_SAVE](tbn-save.md) notification code is sent
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **iItem**                    | The zero-based index of the button number.                                                                                                                                                                                                                           |
 | **pCurrent**                 | A pointer to the first unused byte in the data stream. If you want to store additional information about the button, store it at the location pointed to by **pCurrent** and update **pCurrent** to point to the first unused portion of the data stream after that. |
-| [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) | A [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure that describes the button that is being saved.                                                                                                                                                                              |
+| [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) | A [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure that describes the button that is being saved.                                                                                                                                                                              |
 
 
 
  
 
-When you receive the notification code, you should extract any button-specific information you need from [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton). Remember that when you add a button, you can use the **dwData** member of **TBBUTTON** to hold application-specific data. Load your data into the data stream at **pCurrent**. Advance **pCurrent** to the end of your data, again pointing to the beginning of the unused portion of the stream, and return.
+When you receive the notification code, you should extract any button-specific information you need from [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton). Remember that when you add a button, you can use the **dwData** member of **TBBUTTON** to hold application-specific data. Load your data into the data stream at **pCurrent**. Advance **pCurrent** to the end of your data, again pointing to the beginning of the unused portion of the stream, and return.
 
-The Shell then goes to the next button, adds its information to **pData**, advances **pCurrent**, loads [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton), and sends another [TBN\_SAVE](tbn-save.md) notification code. This process continues until all buttons are saved.
+The Shell then goes to the next button, adds its information to **pData**, advances **pCurrent**, loads [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton), and sends another [TBN\_SAVE](tbn-save.md) notification code. This process continues until all buttons are saved.
 
 ### Restoring Saved Toolbars
 
@@ -194,7 +194,7 @@ The restore process basically reverses the save process. At the beginning, your 
 
 Your notification handler should extract the global information that was placed at the beginning of **pData** during the save, and advance **pCurrent** to the start of the first block of Shell-defined data. Set **cBytesPerRecord** to the size of the data blocks you used to save the button data. Set **cButtons** to the number of buttons, and return.
 
-The next [**NMTBRESTORE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbrestore) is for the first button. The **pCurrent** member points to the start of your first block of button data, and **iItem** is set to the button index. Extract that data and advance **pCurrent**. Load the data into [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton), and return. To omit a button from the restored toolbar, set the **idCommand** member of **TBBUTTON** to zero. The Shell will repeat the process for the remaining buttons. In addition to the [**NMTBSAVE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave) and **NMTBRESTORE** messages, you can also use messages such as [TBN\_RESET](tbn-reset.md) to save and restore a toolbar.
+The next [**NMTBRESTORE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbrestore) is for the first button. The **pCurrent** member points to the start of your first block of button data, and **iItem** is set to the button index. Extract that data and advance **pCurrent**. Load the data into [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton), and return. To omit a button from the restored toolbar, set the **idCommand** member of **TBBUTTON** to zero. The Shell will repeat the process for the remaining buttons. In addition to the [**NMTBSAVE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave) and **NMTBRESTORE** messages, you can also use messages such as [TBN\_RESET](tbn-reset.md) to save and restore a toolbar.
 
 The following code example saves a toolbar before it is customized, and restores it if the application receives a [TBN\_RESET](tbn-reset.md) message.
 

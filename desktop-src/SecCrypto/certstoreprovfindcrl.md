@@ -48,14 +48,14 @@ BOOL WINAPI CertStoreProvFindCRL(
 *pFindInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_store_prov_find_info) structure containing all the parameters passed to the [**CertFindCRLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindcrlinstore) function.
+A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_store_prov_find_info) structure containing all the parameters passed to the [**CertFindCRLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindcrlinstore) function.
 
 </dd> <dt>
 
 *pPrevCrlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crl_context) structure of the last CRL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCRLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
+A pointer to a [**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-crl_context) structure of the last CRL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCRLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
 
 </dd> <dt>
 
@@ -99,13 +99,13 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_store_prov_find_info)
+[**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_store_prov_find_info)
 </dt> <dt>
 
 [**CertFindCRLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindcrlinstore)
 </dt> <dt>
 
-[**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crl_context)
+[**CRL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-crl_context)
 </dt> </dl>
 
  

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Envelope Segments
 
-A parameter curve consists of one or more envelope segments, defined using the [**MP\_ENVELOPE\_SEGMENT**](/windows/desktop/api/Medparam/ns-medparam-_mp_envelope_segment) structure. This structure contains the following information:
+A parameter curve consists of one or more envelope segments, defined using the [**MP\_ENVELOPE\_SEGMENT**](/previous-versions/windows/desktop/api/Medparam/ns-medparam-mp_envelope_segment) structure. This structure contains the following information:
 
 -   The start and end times.
 -   The starting and ending values.

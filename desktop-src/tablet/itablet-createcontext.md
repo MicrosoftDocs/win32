@@ -183,7 +183,7 @@ The *dwOptions* parameter is a set of bit flags that describe context options. T
 [**TABLET\_CONTEXT\_SETTINGS Structure**](tablet-context-settings.md)
 </dt> <dt>
 
-[**PACKET\_DESCRIPTION Structure**](/windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_description)
+[**PACKET\_DESCRIPTION Structure**](/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description)
 </dt> <dt>
 
 [**ITabletContextP Interface**](itabletcontextp.md)

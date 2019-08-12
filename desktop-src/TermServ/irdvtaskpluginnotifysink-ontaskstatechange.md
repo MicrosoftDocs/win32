@@ -50,9 +50,9 @@ The identifier of the task. This is the identifier passed to the [**StartTask**]
 *status* \[in\]
 </dt> <dd>
 
-Type: **[**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status)**
+Type: **[**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status)**
 
-A value of the [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status) enumeration that specifies the new state of the task.
+A value of the [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration that specifies the new state of the task.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status)
+[**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status)
 </dt> <dt>
 
 [**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md)

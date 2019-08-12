@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To support an [*incremental*](vssgloss-i.md) or [*differential*](vssgloss-d.md) backup operation, a requester must do the following:
 
-1.  Determine what degree of writer support is available (using [**IVssBackupComponents::GetWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata) to get access to information in Writer Metadata Documents)—in particular, determine which backup schema are supported ([**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema)).
+1.  Determine what degree of writer support is available (using [**IVssBackupComponents::GetWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata) to get access to information in Writer Metadata Documents)—in particular, determine which backup schema are supported ([**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-vss_backup_schema)).
 2.  Set an appropriate backup state.
 3.  Obtain file and file set level specifications for an incremental or differential backup.
 4.  Perform the backup.
@@ -26,7 +26,7 @@ A requester needs to obtain information about writer support prior to selecting 
 
 A requester determines if a given writer supports VSS incremental or differential backups by retrieving the writer's backup schema mask using the [**IVssExamineWriterMetadata::GetBackupSchema**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema) method.
 
-The backup schema mask of a writer supporting VSS incremental or differential techniques will contain either **VSS\_BS\_INCREMENTAL** or **VSS\_BS\_DIFFERENTIAL**, or both. Writers may also indicate restrictions on their participation with the **VSS\_BS\_EXCLUSIVE\_INCREMENTAL\_DIFFERENTIAL** flag. (See [**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema) for more information on backup schemas).
+The backup schema mask of a writer supporting VSS incremental or differential techniques will contain either **VSS\_BS\_INCREMENTAL** or **VSS\_BS\_DIFFERENTIAL**, or both. Writers may also indicate restrictions on their participation with the **VSS\_BS\_EXCLUSIVE\_INCREMENTAL\_DIFFERENTIAL** flag. (See [**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-vss_backup_schema) for more information on backup schemas).
 
 </dd> <dt>
 
@@ -41,7 +41,7 @@ The [**IVssBackupComponents::SetBackupState**](/windows/desktop/api/VsBackup/nf-
 
 ## Getting Writer Specifications for Incremental and Differential Backups
 
-The file-set-level file backup specification information ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) contained in each writer's Writer Metadata Document is available for examination after the successful return of [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata).
+The file-set-level file backup specification information ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)) contained in each writer's Writer Metadata Document is available for examination after the successful return of [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata).
 
 However, a writer can add [*differenced files*](vssgloss-d.md) or ask for [*partial file support*](vssgloss-p.md) until its successful handling of the [*PostSnapshot*](vssgloss-p.md) event.
 
@@ -52,9 +52,9 @@ Differenced file and partial file support specification can override the file sp
 <span id="Getting_File_Backup_Specification_Information"></span><span id="getting_file_backup_specification_information"></span><span id="GETTING_FILE_BACKUP_SPECIFICATION_INFORMATION"></span>Getting File Backup Specification Information
 </dt> <dd>
 
-The file-set-level file backup specification information ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) is contained in each writer's Writer Metadata Document, and can be examined immediately after the successful return of [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata).
+The file-set-level file backup specification information ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)) is contained in each writer's Writer Metadata Document, and can be examined immediately after the successful return of [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata).
 
-Requesters must obtain file backup specification masks ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) for every file set of each of a writer's components to be included in the incremental or differential backup, regardless of whether the component was [*explicitly*](vssgloss-e.md) or [*implicitly*](vssgloss-i.md) included.
+Requesters must obtain file backup specification masks ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)) for every file set of each of a writer's components to be included in the incremental or differential backup, regardless of whether the component was [*explicitly*](vssgloss-e.md) or [*implicitly*](vssgloss-i.md) included.
 
 A requester can determine which writers' Writer Metadata Document must be queried by using [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) and [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents). The instance of the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/en-us/library/Aa384312(v=VS.85).aspx) interface returned by **IVssBackupComponents::GetWriterComponents** provides writer information through the [**IVssWriterComponentsExt::GetWriterInfo**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo) method.
 
@@ -115,7 +115,7 @@ The last alternative should be used with great care, and only if the requester u
 <span id="Supporting_Writers"></span><span id="supporting_writers"></span><span id="SUPPORTING_WRITERS"></span>Supporting Writers
 </dt> <dd>
 
-A requester needs to process (in order) all of a writer's [*differenced files*](vssgloss-d.md), then handle any [*partial file*](vssgloss-p.md) requests, and then back up remaining files according to their file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)).
+A requester needs to process (in order) all of a writer's [*differenced files*](vssgloss-d.md), then handle any [*partial file*](vssgloss-p.md) requests, and then back up remaining files according to their file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)).
 
 1.  **Backing up Differenced Files:**
 
@@ -142,9 +142,9 @@ A requester needs to process (in order) all of a writer's [*differenced files*](
 
 3.  **Working with File Specification Backup Type:**
 
-    Having processed all differenced files and partial file operations, the requester now processes all remaining files in its backup set on the basis of their file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)).
+    Having processed all differenced files and partial file operations, the requester now processes all remaining files in its backup set on the basis of their file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)).
 
-    There are three "backup required" values of the [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type) enumeration that affect differential and incremental backups:
+    There are three "backup required" values of the [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type) enumeration that affect differential and incremental backups:
 
     -   VSS\_FSBT\_ALL\_BACKUP\_REQUIRED
     -   VSS\_FSBT\_INCREMENTAL\_BACKUP\_REQUIRED

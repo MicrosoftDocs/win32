@@ -66,7 +66,7 @@ A pointer to a custom draw-related structure that contains information about the
 | List view                   | [**NMLVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcustomdraw) |
 | Tooltip                     | [**NMTTCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttcustomdraw) |
 | Tree view                   | [**NMTVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvcustomdraw) |
-| Toolbar                     | [**NMTBCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-_nmtbcustomdraw) |
+| Toolbar                     | [**NMTBCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-nmtbcustomdraw) |
 
 
 

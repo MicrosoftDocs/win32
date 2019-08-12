@@ -16,12 +16,12 @@ The following enumerations are used with IP Helper:
 -   [**IP\_SUFFIX\_ORIGIN**](/windows/desktop/api/Nldef/ne-nldef-nl_suffix_origin)
 -   [**NET\_ADDRESS\_FORMAT**](/windows/desktop/api/Iphlpapi/ne-iphlpapi-net_address_format_)
 -   [**SCOPE\_LEVEL**](/windows/desktop/api/Ws2def/ne-ws2def-scope_level)
--   [**TCP\_BOOLEAN\_OPTIONAL**](/windows/desktop/api/Tcpestats/ne-tcpestats-_tcp_boolean_optional)
+-   [**TCP\_BOOLEAN\_OPTIONAL**](/windows/desktop/api/Tcpestats/ne-tcpestats-tcp_boolean_optional)
 -   [**TCP\_ESTATS\_TYPE**](/windows/desktop/api/Tcpestats/ne-tcpestats-tcp_estats_type)
 -   [**TCP\_SOFT\_ERROR**](/windows/desktop/api/Tcpestats/ne-tcpestats-tcp_soft_error)
--   [**TCP\_TABLE\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-_tcp_table_class)
--   [**TCPIP\_OWNER\_MODULE\_INFO\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-_tcpip_owner_module_info_class)
--   [**UDP\_TABLE\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-_udp_table_class)
+-   [**TCP\_TABLE\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-tcp_table_class)
+-   [**TCPIP\_OWNER\_MODULE\_INFO\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-tcpip_owner_module_info_class)
+-   [**UDP\_TABLE\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-udp_table_class)
 
  
 

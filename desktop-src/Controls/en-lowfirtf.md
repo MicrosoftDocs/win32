@@ -36,7 +36,7 @@ EN_LOWFIRTF
 *lParam* 
 </dt> <dd>
 
-The [**ENLOWFIRTF**](/windows/desktop/api/Richedit/ns-richedit-_enlowfirtf) structure.
+The [**ENLOWFIRTF**](/windows/desktop/api/Richedit/ns-richedit-enlowfirtf) structure.
 
 </dd> </dl>
 
@@ -67,7 +67,7 @@ To receive an EN\_LOWFIRTF notification, specify the ENM\_LOWFIRTF flag in the m
 **Reference**
 </dt> <dt>
 
-[**ENLOWFIRTF**](/windows/desktop/api/Richedit/ns-richedit-_enlowfirtf)
+[**ENLOWFIRTF**](/windows/desktop/api/Richedit/ns-richedit-enlowfirtf)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)

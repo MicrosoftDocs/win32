@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Making the Asynchronous Call
 
-Before it can make an asynchronous remote call, the client must initialize the asynchronous handle. Client and server programs use pointers to the [**RPC\_ASYNC\_STATE**](/windows/desktop/api/Rpcasync/ns-rpcasync-_rpc_async_state) structure for asynchronous handles.
+Before it can make an asynchronous remote call, the client must initialize the asynchronous handle. Client and server programs use pointers to the [**RPC\_ASYNC\_STATE**](/windows/desktop/api/Rpcasync/ns-rpcasync-rpc_async_state) structure for asynchronous handles.
 
 Every outstanding call must have its own unique asynchronous handle. The client creates the handle and passes it to the [**RpcAsyncInitializeHandle**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncinitializehandle) function. For the call to complete correctly, the client must ensure that the memory for the handle is not released until it receives the server's asynchronous reply. Also, before making another call on an existing asynchronous handle, the client must reinitialize the handle. Failure to do this can cause the client stub to raise an exception during the call. The client must also ensure that the buffers it supplies for \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] parameters and \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in), **out**\] parameters to an asynchronous remote procedure remain allocated until it has received the reply from the server.
 

@@ -30,7 +30,7 @@ Retrieves the margins of a band.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**MARGINS**](/windows/desktop/api/Uxtheme/ns-uxtheme-_margins) structure that receives the retrieved margins.
+Pointer to a [**MARGINS**](/windows/desktop/api/Uxtheme/ns-uxtheme-margins) structure that receives the retrieved margins.
 
 </dd> </dl>
 

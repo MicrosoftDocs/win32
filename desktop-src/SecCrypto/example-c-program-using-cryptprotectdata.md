@@ -12,7 +12,7 @@ The following example encrypts and decrypts a data [*BLOB*](https://msdn.microso
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Initializing a [**CRYPTPROTECT\_PROMPTSTRUCT**](/windows/desktop/api/Dpapi/ns-dpapi-_cryptprotect_promptstruct) data structure.
+-   Initializing a [**CRYPTPROTECT\_PROMPTSTRUCT**](/windows/desktop/api/Dpapi/ns-dpapi-cryptprotect_promptstruct) data structure.
 -   Using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) to encrypt a data BLOB.
 -   Using [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata) to decrypt the data.
 -   Using [**LocalFree**](https://msdn.microsoft.com/en-us/library/Aa366730(v=VS.85).aspx) to release allocated memory.

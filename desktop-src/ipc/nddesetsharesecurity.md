@@ -4,16 +4,16 @@ ms.assetid: 8bb8c466-3dd7-49a6-8ba5-632001b8a47f
 title: NDdeSetShareSecurity function
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - NDdeSetShareSecurity
 - NDdeSetShareSecurityA
 - NDdeSetShareSecurityW
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Nddeapi.dll
 ---
 
@@ -65,7 +65,7 @@ A [**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuth
 *pSD* \[in\]
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure that contains security information. This parameter cannot be **NULL** and should point to a valid security descriptor.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains security information. This parameter cannot be **NULL** and should point to a valid security descriptor.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ If the function fails, the return value is an error code, which can be translate
 
 ## Remarks
 
-To modify the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) associated with a DDE share in the DSDM, the user must have appropriate privilege; the share creator has this privilege.
+To modify the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) associated with a DDE share in the DSDM, the user must have appropriate privilege; the share creator has this privilege.
 
 ## Requirements
 

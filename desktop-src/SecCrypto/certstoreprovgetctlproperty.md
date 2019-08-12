@@ -48,7 +48,7 @@ A **HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.co
 *pCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_ctl_context) structure.
+A pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) structure.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Any needed flag values.
 *pvData* \[out\]
 </dt> <dd>
 
-A pointer to a buffer to contain the pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_ctl_context) structure to be returned by the function. To get the value of *pcbData* before allocating memory for the buffer, this parameter can be set to **NULL** on a first call to the function.
+A pointer to a buffer to contain the pointer to a [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) structure to be returned by the function. To get the value of *pcbData* before allocating memory for the buffer, this parameter can be set to **NULL** on a first call to the function.
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ If the function fails, it returns zero.
 
 <dl> <dt>
 
-[**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_ctl_context)
+[**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context)
 </dt> </dl>
 
  

@@ -16,7 +16,7 @@ Returns the type of I/O bus used by the video output.
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ADAPTER\_BUS\_TYPE                                                |
 | Input data   | None                                                                        |
-| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure |
+| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure |
 
 
 
@@ -24,7 +24,7 @@ Returns the type of I/O bus used by the video output.
 
 ## Remarks
 
-The bus type is returned in the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information) structure. The value is a bitwise **OR** of [**OPM Bus Type Flags**](opm-bus-type-flags.md).
+The bus type is returned in the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) structure. The value is a bitwise **OR** of [**OPM Bus Type Flags**](opm-bus-type-flags.md).
 
 This query is equivalent to the DXVA\_COPPQueryBusData query used in Certified Output Protection Protocol (COPP).
 

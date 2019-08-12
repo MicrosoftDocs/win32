@@ -93,15 +93,15 @@ If the path points to a symbolic link, the notification handle is created for th
 
 ## FindFirstFile and FindFirstFileTransacted
 
-If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/desktop/api/MinWinBase/ns-minwinbase-_win32_find_dataa) buffer contains information about the symbolic link, not the target.
+If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/desktop/api/MinWinBase/ns-minwinbase-win32_find_dataa) buffer contains information about the symbolic link, not the target.
 
 ## FindFirstFileEx
 
-If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/desktop/api/MinWinBase/ns-minwinbase-_win32_find_dataa) buffer contains information about the symbolic link, not the target.
+If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/desktop/api/MinWinBase/ns-minwinbase-win32_find_dataa) buffer contains information about the symbolic link, not the target.
 
 ## FindNextFile
 
-If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/desktop/api/MinWinBase/ns-minwinbase-_win32_find_dataa) buffer contains information about the symbolic link, not the target.
+If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/desktop/api/MinWinBase/ns-minwinbase-win32_find_dataa) buffer contains information about the symbolic link, not the target.
 
 ## GetBinaryType
 

@@ -17,7 +17,7 @@ api_location:
 
 # CPU\_SET\_INFORMATION\_TYPE enumeration
 
-Represents the type of information in the [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/desktop/api/winnt/ns-winnt-_system_cpu_set_information) structure.
+Represents the type of information in the [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/desktop/api/winnt/ns-winnt-system_cpu_set_information) structure.
 
 ## Syntax
 

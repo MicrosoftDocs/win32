@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
 The **HTTP\_AUTH\_ENABLE** constants define authentication schemes that can be enabled on a URL Group.
 
-These constants are used in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-_http_server_authentication_info) structure.
+These constants are used in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-http_server_authentication_info) structure.
 
 <dl> <dt>
 
@@ -132,7 +132,7 @@ All authentication schemes are enabled.
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-_http_server_authentication_info)
+[**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-http_server_authentication_info)
 </dt> <dt>
 
 [**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty)

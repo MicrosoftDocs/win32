@@ -12,7 +12,7 @@ Type-specific data for a binary stream in an Advanced Systems Format (ASF) file.
 
 ## Data type
 
-**[**MT\_ARBITRARY\_HEADER**](/windows/desktop/api/mfapi/ns-mfapi-_mt_arbitrary_header)** stored as **BYTE\[\]**
+**[**MT\_ARBITRARY\_HEADER**](/windows/desktop/api/mfapi/ns-mfapi-mt_arbitrary_header)** stored as **BYTE\[\]**
 
 ## Get/set
 
@@ -22,7 +22,7 @@ To set this attribute, call [**IMFAttributes::SetBlob**](/windows/desktop/api/mf
 
 ## Remarks
 
-ASF files can contain streams with binary data. The MF\_MT\_ARBITRARY\_HEADER attribute in the media type contains an [**MT\_ARBITRARY\_HEADER**](/windows/desktop/api/mfapi/ns-mfapi-_mt_arbitrary_header) structure that describes the stream.
+ASF files can contain streams with binary data. The MF\_MT\_ARBITRARY\_HEADER attribute in the media type contains an [**MT\_ARBITRARY\_HEADER**](/windows/desktop/api/mfapi/ns-mfapi-mt_arbitrary_header) structure that describes the stream.
 
 In addition to the MF\_MT\_ARBITRARY\_HEADER attribute, the media type for an ASF binary stream contains the following attributes:
 

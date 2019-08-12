@@ -21,7 +21,7 @@ Enumerations are used to specify information about shaders.
 | Topic                                                                                          | Description                                                        |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [**D3D11\_CBUFFER\_TYPE**](https://msdn.microsoft.com/en-us/library/Ff476097(v=VS.85).aspx)<br/>                                  | Indicates a constant buffer's type.<br/>                     |
-| [**D3D\_PARAMETER\_FLAGS**](/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_parameter_flags)<br/>                                | Indicates semantic flags for function parameters.<br/>       |
+| [**D3D\_PARAMETER\_FLAGS**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_parameter_flags)<br/>                                | Indicates semantic flags for function parameters.<br/>       |
 | [**D3D11\_RESOURCE\_RETURN\_TYPE**](https://msdn.microsoft.com/en-us/library/Ff476204(v=VS.85).aspx)<br/>                 | Indicates return value type.<br/>                            |
 | [**D3D11\_SHADER\_TYPE**](/windows/desktop/api/D3D11ShaderTracing/ne-d3d11shadertracing-d3d11_shader_type)<br/>                                    | Identifies a shader type for tracing.<br/>                   |
 | [**D3D11\_SHADER\_VERSION\_TYPE**](/windows/desktop/api/d3d11shader/ne-d3d11shader-d3d11_shader_version_type)<br/>                   | Indicates shader type.<br/>                                  |

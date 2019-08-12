@@ -30,16 +30,16 @@ The following table lists constant values that indicate why an interface is unre
 
 <dl> <dt>
 
-[**MPR\_INTERFACE\_0**](/windows/desktop/api/Mprapi/ns-mprapi-_mpr_interface_0)
+[**MPR\_INTERFACE\_0**](/windows/desktop/api/Mprapi/ns-mprapi-mpr_interface_0)
 </dt> <dt>
 
-[**MPR\_INTERFACE\_1**](/windows/desktop/api/Mprapi/ns-mprapi-_mpr_interface_1)
+[**MPR\_INTERFACE\_1**](/windows/desktop/api/Mprapi/ns-mprapi-mpr_interface_1)
 </dt> <dt>
 
-[**MIB\_IFROW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow)
+[**MIB\_IFROW**](https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow)
 </dt> <dt>
 
-[**MIB\_IFSTATUS**](https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_ifstatus)
+[**MIB\_IFSTATUS**](https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_ifstatus)
 </dt> </dl>
 
  

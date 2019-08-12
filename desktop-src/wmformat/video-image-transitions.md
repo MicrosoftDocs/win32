@@ -56,7 +56,7 @@ Each transition is fully described in its own topic.
 [**Programming Reference**](programming-reference.md)
 </dt> <dt>
 
-[**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2)
+[**WMT\_VIDEOIMAGE\_SAMPLE2**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2)
 </dt> </dl>
 
  

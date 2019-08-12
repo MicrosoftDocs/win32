@@ -4,14 +4,14 @@ ms.assetid: 527d635d-2d75-4b56-bab7-e95c9919a8fb
 title: PRINTER_INFO_3 structure
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - PRINTER_INFO_3
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - Winspool.h
 ---
 
@@ -37,7 +37,7 @@ typedef struct _PRINTER_INFO_3 {
 **pSecurityDescriptor**
 </dt> <dd>
 
-Pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure that specifies a printer's security information.
+Pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that specifies a printer's security information.
 
 </dd> </dl>
 
@@ -82,7 +82,7 @@ The **PRINTER\_INFO\_3** structure lets an application get and set a printer's s
 [**PRINTER\_INFO\_4**](printer-info-4.md)
 </dt> <dt>
 
-[**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor)
+[**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> </dl>
 
  

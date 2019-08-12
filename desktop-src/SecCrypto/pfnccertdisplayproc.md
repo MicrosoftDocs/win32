@@ -38,7 +38,7 @@ BOOL WINAPI * PFNCCERTDISPLAYPROC(
 *pCertContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_context) structure that represents the certificate to display.
+A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) structure that represents the certificate to display.
 
 </dd> <dt>
 

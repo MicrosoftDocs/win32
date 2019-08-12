@@ -55,7 +55,7 @@ With [version 5.80](common-control-versions.md) or later of the common controls,
 
 1.  Enable multiple image lists by sending the toolbar control a [**CCM\_SETVERSION**](ccm-setversion.md) message with *wParam* (the version number) set to 5.
 2.  For each image list you want to use, send the toolbar control a **TB\_SETIMAGELIST** message. Set *wParam* to an application-defined *wParam* value that will be used to identify the list. Set *lParam* to the list's HIMAGELIST handle.
-3.  For each button, set the **iBitmap** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure to MAKELONG(*iIndex*, *iImageID*). The *iImageID* value is the ID of the appropriate image list that was defined in step two. The *iIndex* value is the index of the particular image within that list.
+3.  For each button, set the **iBitmap** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure to MAKELONG(*iIndex*, *iImageID*). The *iImageID* value is the ID of the appropriate image list that was defined in step two. The *iIndex* value is the index of the particular image within that list.
 4.  Add the buttons by sending the toolbar control a [**TB\_ADDBUTTONS**](tb-addbuttons.md) message.
 
 The following code fragment illustrates how to add five buttons to a toolbar, with images from three different image lists. Support for multiple image lists is enabled with a [**CCM\_SETVERSION**](ccm-setversion.md) message. The image lists are then set and assigned IDs of 0-2. The buttons are assigned images from the image lists as follows:

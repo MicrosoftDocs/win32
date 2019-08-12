@@ -14,14 +14,14 @@ The following structures are used by MDM Registration.
 
 <dl> <dt>
 
-[**MANAGEMENT\_SERVICE\_INFO**](/windows/desktop/api/MDMRegistration/ns-mdmregistration-_management_service_info)
+[**MANAGEMENT\_SERVICE\_INFO**](/windows/desktop/api/MDMRegistration/ns-mdmregistration-management_service_info)
 </dt> <dd>
 
 Contains the endpoints and information about the management service.
 
 </dd> <dt>
 
-[**REGISTRATION\_INFORMATION\_CLASS**](/windows/desktop/api/MDMRegistration/ne-mdmregistration-_registration_information_class)
+[**REGISTRATION\_INFORMATION\_CLASS**](/windows/desktop/api/MDMRegistration/ne-mdmregistration-registration_information_class)
 </dt> <dd>
 
 Contains information about the device registration.

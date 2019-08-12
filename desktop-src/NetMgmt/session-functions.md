@@ -30,11 +30,11 @@ The network management session functions manage information on a per-user basis 
 
 Session functions are available at the following information levels:
 
--   [**SESSION\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0)
--   [**SESSION\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1)
--   [**SESSION\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2)
--   [**SESSION\_INFO\_10**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10)
--   [**SESSION\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_502)
+-   [**SESSION\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_0)
+-   [**SESSION\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_1)
+-   [**SESSION\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_2)
+-   [**SESSION\_INFO\_10**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10)
+-   [**SESSION\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_502)
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession) and [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
 

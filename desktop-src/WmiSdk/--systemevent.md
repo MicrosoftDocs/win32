@@ -2,19 +2,19 @@
 Description: Represents a system event.
 ms.assetid: 84099483-03e4-4c21-b680-f0975b18c1f6
 ms.tgt_platform: multiple
-title: '__SystemEvent class'
+title: __SystemEvent class
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - __SystemEvent
 - All
 - All
-api_type: 
+api_type:
 - Schema
-api_location: 
+api_location:
 - All
 ---
 
@@ -58,7 +58,7 @@ Access type: Read-only
 Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](--event.md).
 
 > [!Note]  
-> A **NULL** Access Control List (ACL) in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
+> A **NULL** Access Control List (ACL) in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 

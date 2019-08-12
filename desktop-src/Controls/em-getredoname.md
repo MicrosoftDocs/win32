@@ -40,7 +40,7 @@ Not used; must be zero.
 
 ## Return value
 
-If the redo queue for the control is not empty, the value returned is an [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-_undonameid) enumeration value that indicates the type of the next action in the control's redo queue.
+If the redo queue for the control is not empty, the value returned is an [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-undonameid) enumeration value that indicates the type of the next action in the control's redo queue.
 
 If there are no redoable actions or the type of the next redoable action is unknown, the return value is zero.
 
@@ -76,7 +76,7 @@ The types of actions that can be undone or redone include typing, delete, drag-d
 [**EM\_UNDO**](em-undo.md)
 </dt> <dt>
 
-[**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-_undonameid)
+[**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-undonameid)
 </dt> </dl>
 
  

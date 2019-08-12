@@ -47,7 +47,7 @@ The [**CreateUserProfileEx**](createuserprofileex.md) function is not supported.
 
 | Structure                          | Description                                |
 |------------------------------------|--------------------------------------------|
-| [**PROFILEINFO**](/windows/desktop/api/Profinfo/ns-profinfo-_profileinfoa) | Contains information about a user profile. |
+| [**PROFILEINFO**](/windows/desktop/api/Profinfo/ns-profinfo-profileinfoa) | Contains information about a user profile. |
 
 
 

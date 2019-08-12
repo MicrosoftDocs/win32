@@ -51,7 +51,7 @@ To provide an object, an application must set values in some members of the [**N
 If an application does not provide an object, it must set **pObject** to **NULL** and **hResult** to a failure flag.
 
 > [!Note]  
-> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)).
+> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).
 
  
 

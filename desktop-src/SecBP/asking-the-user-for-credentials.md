@@ -14,7 +14,7 @@ However, simply prompting for credentials may train users to supply those to any
 
 **To properly acquire user credentials**
 
-1.  Inform the user, by using a message that is clearly part of your application, that they will see a dialog box that requests their user name and password. You can also use the [**CREDUI\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa) structure on the call to [**CredUIPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to convey identifying data or a message.
+1.  Inform the user, by using a message that is clearly part of your application, that they will see a dialog box that requests their user name and password. You can also use the [**CREDUI\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa) structure on the call to [**CredUIPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to convey identifying data or a message.
 2.  Call [**CredUIPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa). Note that the maximum number of characters specified for user name and password information includes the terminating null character.
 3.  Call [**CredUIParseUserName**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea) and [**CredUIConfirmCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa) to verify that you obtained appropriate credentials.
 
@@ -73,7 +73,7 @@ if(!dwErr)
 [**CredUICmdLinePromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa)
 </dt> <dt>
 
-[**CREDUI\_UINFO**](https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa)
+[**CREDUI\_UINFO**](https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa)
 </dt> </dl>
 
  

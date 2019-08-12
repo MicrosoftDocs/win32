@@ -16,7 +16,7 @@ This section identifies the structures that are used in Hyper-V management.
 
 | Topic                                              | Description                                                   |
 |----------------------------------------------------|---------------------------------------------------------------|
-| [**VM\_GENCOUNTER**](/windows/desktop/api/Vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter)<br/> | Describes a virtual machine generation identifier.<br/> |
+| [**VM\_GENCOUNTER**](/windows/desktop/api/Vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter)<br/> | Describes a virtual machine generation identifier.<br/> |
 
 
 

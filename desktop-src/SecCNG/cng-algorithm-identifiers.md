@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # CNG Algorithm Identifiers
 
-The following identifiers are used to identify standard encryption algorithms in various CNG functions and structures, such as the [**CRYPT\_INTERFACE\_REG**](/windows/desktop/api/Bcrypt/ns-bcrypt-_crypt_interface_reg) structure. Third party providers may have additional algorithms that they support.
+The following identifiers are used to identify standard encryption algorithms in various CNG functions and structures, such as the [**CRYPT\_INTERFACE\_REG**](/windows/desktop/api/Bcrypt/ns-bcrypt-crypt_interface_reg) structure. Third party providers may have additional algorithms that they support.
 
 
 

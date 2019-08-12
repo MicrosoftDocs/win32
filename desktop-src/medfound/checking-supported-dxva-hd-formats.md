@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 To get a list of the input formats that the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device supports, do the following:
 
 1.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps) to get the device capabilities.
-2.  Check the **InputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps) structure. This member gives the number of supported input formats.
+2.  Check the **InputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps) structure. This member gives the number of supported input formats.
 3.  Allocate an array of **D3DFORMAT** values, of size **InputFormatCount**.
 4.  Pass this array to the [**IDXVAHD\_Device::GetVideoProcessorInputFormats**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorinputformats) method. The methods fills the array with a list of input formats.
 
@@ -71,7 +71,7 @@ done:
 To get a list of the output formats that the DXVA-HD device supports, do the following:
 
 1.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps) to get the device capabilities.
-2.  Check the **OutputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps) structure. This member gives the number of supported input formats.
+2.  Check the **OutputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps) structure. This member gives the number of supported input formats.
 3.  Allocate an array of **D3DFORMAT** values, of size **OutputFormatCount**.
 4.  Pass this array to the [**IDXVAHD\_Device::GetVideoProcessorOutputFormats**](/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessoroutputformats) method. The methods fills the array with a list of output formats.
 

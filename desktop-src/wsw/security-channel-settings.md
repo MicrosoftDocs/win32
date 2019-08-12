@@ -16,7 +16,7 @@ Security channel settings control the way security is applied and verified on a 
 
 ## 
 
-[Security binding settings](security-binding-settings.md) contain similar collections of property-value pairs whose keys are defined by the [**WS\_SECURITY\_BINDING\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_binding_property) structure. The difference between these two sorts of settings is that the security channel settings are scoped to a security description (that is, they contain channel-wide security properties), whereas security binding settings are scoped to one of the security bindings, and there may be many security bindings. Consequently, for example, a custom security description that contains three security bindings will have one security channel settings bag for the entire channel and three security binding settings bags, one for each security binding.
+[Security binding settings](security-binding-settings.md) contain similar collections of property-value pairs whose keys are defined by the [**WS\_SECURITY\_BINDING\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_security_binding_property) structure. The difference between these two sorts of settings is that the security channel settings are scoped to a security description (that is, they contain channel-wide security properties), whereas security binding settings are scoped to one of the security bindings, and there may be many security bindings. Consequently, for example, a custom security description that contains three security bindings will have one security channel settings bag for the entire channel and three security binding settings bags, one for each security binding.
 
 The following enumerations are used with security channel settings:
 
@@ -32,11 +32,11 @@ The following enumerations are used with security channel settings:
 
 The following structures are used with security channel settings:
 
--   [**WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_request_security_token_property)
--   [**WS\_SECURITY\_ALGORITHM\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_algorithm_property)
--   [**WS\_SECURITY\_ALGORITHM\_SUITE**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_algorithm_suite)
--   [**WS\_SECURITY\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_property)
--   [**WS\_XML\_SECURITY\_TOKEN\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_security_token_property)
+-   [**WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_request_security_token_property)
+-   [**WS\_SECURITY\_ALGORITHM\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_security_algorithm_property)
+-   [**WS\_SECURITY\_ALGORITHM\_SUITE**](/windows/desktop/api/WebServices/ns-webservices-ws_security_algorithm_suite)
+-   [**WS\_SECURITY\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_security_property)
+-   [**WS\_XML\_SECURITY\_TOKEN\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_security_token_property)
 
  
 

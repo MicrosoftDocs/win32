@@ -39,7 +39,7 @@ fSuccess = (BOOL) SHAppBarMessage(ABM_SETAUTOHIDEBAR, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure. Set the **lParam** member to **TRUE** to register the appbar or **FALSE** to unregister it. You must specify the **cbSize**, **hWnd**, **uEdge**, and **lParam** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure. Set the **lParam** member to **TRUE** to register the appbar or **FALSE** to unregister it. You must specify the **cbSize**, **hWnd**, **uEdge**, and **lParam** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 
@@ -49,7 +49,7 @@ Returns **TRUE** if successful, or **FALSE** if an error occurs or if an autohid
 
 ## Remarks
 
-The system allows only one autohide appbar for each edge of the screen. This is determined when the member **uEdge** of the [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_appbardata) structure is set.
+The system allows only one autohide appbar for each edge of the screen. This is determined when the member **uEdge** of the [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) structure is set.
 
 ## Requirements
 

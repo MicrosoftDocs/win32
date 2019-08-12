@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Parameter Information
 
-The [**IMediaParamInfo::GetParamInfo**](/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getparaminfo) method returns an [**MP\_PARAMINFO**](/windows/desktop/api/Medparam/ns-medparam-_mp_paraminfo) structure that describes a parameter. This structure contains the following information:
+The [**IMediaParamInfo::GetParamInfo**](/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getparaminfo) method returns an [**MP\_PARAMINFO**](/previous-versions/windows/desktop/api/Medparam/ns-medparam-mp_paraminfo) structure that describes a parameter. This structure contains the following information:
 
--   The **mpType** member indicates the data type of the parameter value. For efficiency, all parameters are implemented as 32-bit floating-point values. The [**MP\_TYPE**](/windows/desktop/api/Medparam/ne-medparam-_mp_type) enumeration defines whether to interpret the value as an integer, floating-point value, Boolean, or enumeration (integer series).
+-   The **mpType** member indicates the data type of the parameter value. For efficiency, all parameters are implemented as 32-bit floating-point values. The [**MP\_TYPE**](/previous-versions/windows/desktop/api/Medparam/ne-medparam-mp_type) enumeration defines whether to interpret the value as an integer, floating-point value, Boolean, or enumeration (integer series).
 -   The **mopCaps** member indicates which curves this parameter supports. If the data type is Boolean or enumeration, the only curve that the parameter can support is "Jump."
 -   The **mpdMinValue** and **mpdMaxValue** members define the minimum and maximum values for this parameter. Any curves for this parameter must fall within this range.
 -   The **mpdNeutralValue** member is the default value of the parameter.

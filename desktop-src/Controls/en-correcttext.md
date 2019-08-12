@@ -36,7 +36,7 @@ EN_CORRECTTEXT
 *lParam* 
 </dt> <dd>
 
-An [**ENCORRECTTEXT**](/windows/desktop/api/Richedit/ns-richedit-_encorrecttext) structure specifying the selection to be corrected.
+An [**ENCORRECTTEXT**](/windows/desktop/api/Richedit/ns-richedit-encorrecttext) structure specifying the selection to be corrected.
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ To receive EN\_CORRECTTEXT notification codes, specify [**ENM\_CORRECTTEXT**](ri
 **Reference**
 </dt> <dt>
 
-[**ENCORRECTTEXT**](/windows/desktop/api/Richedit/ns-richedit-_encorrecttext)
+[**ENCORRECTTEXT**](/windows/desktop/api/Richedit/ns-richedit-encorrecttext)
 </dt> </dl>
 
  

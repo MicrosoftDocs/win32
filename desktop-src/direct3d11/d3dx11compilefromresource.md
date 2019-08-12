@@ -88,9 +88,9 @@ Optional. Effect file name, which is used for error messages only. Can be **NULL
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)\***
 
-Optional. Pointer to an array of macro definitions (see [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
+Optional. Pointer to an array of macro definitions (see [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
 
 </dd> <dt>
 

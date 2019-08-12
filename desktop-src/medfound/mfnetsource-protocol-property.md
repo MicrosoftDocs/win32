@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFNETSOURCE\_PROTOCOL property
 
-Specifies the control protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_PROTOCOL\_TYPE**](/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_protocol_type) enumeration.
+Specifies the control protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_PROTOCOL\_TYPE**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_protocol_type) enumeration.
 
 
 

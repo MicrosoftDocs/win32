@@ -74,7 +74,7 @@ This topic provides answers to commonly-asked programming questions about EAP me
 <td>The EAP-FAST scenario works as follows. <br/>
 <ul>
 <li>The method processes a password change at single-sign-on (SSO) employing the method UI.</li>
-<li>The method returns the [<strong>eatCredentialsChanged</strong>](/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_attribute_type) attribute.</li>
+<li>The method returns the [<strong>eatCredentialsChanged</strong>](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type) attribute.</li>
 <li>The supplicant indicates to the user that credentials have changed and requests the user to re-enter their credentials.</li>
 <li>The supplicant re-enters the user credentials, and sends those credentials to the method.</li>
 </ul>
@@ -82,7 +82,7 @@ For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tu
 </tr>
 <tr class="even">
 <td>What is Pre-Shared Key(PSK)?</td>
-<td>A method of transmitting and receiving digital signals in which the phase of a transmitted signal is varied to convey information. The [<strong>EAPConfigInputPSK</strong>](/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_config_input_field_type) input field contains the user's EAP-FAST PSK.</td>
+<td>A method of transmitting and receiving digital signals in which the phase of a transmitted signal is varied to convey information. The [<strong>EAPConfigInputPSK</strong>](/windows/desktop/api/eaptypes/ne-eaptypes-eap_config_input_field_type) input field contains the user's EAP-FAST PSK.</td>
 </tr>
 <tr class="odd">
 <td>What is WOW and how does it matter to EAPHost?</td>

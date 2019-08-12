@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_TRANSCODE\_ADJUST\_PROFILE attribute
 
-Profile flags that define the stream settings for the transcode topology. The flags are defined in the [**MF\_TRANSCODE\_ADJUST\_PROFILE\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-_mf_transcode_adjust_profile_flags) enumeration.
+Profile flags that define the stream settings for the transcode topology. The flags are defined in the [**MF\_TRANSCODE\_ADJUST\_PROFILE\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-mf_transcode_adjust_profile_flags) enumeration.
 
 ## Data type
 

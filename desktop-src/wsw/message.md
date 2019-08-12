@@ -22,7 +22,7 @@ Messages have a set of properties which can be used to specify optional settings
 
 A message is addressed to a specific [Endpoint Address](endpoint-address.md).
 
-A [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault) is a special sort of message content used to represent failures returned from from a remote endpoint.
+A [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) is a special sort of message content used to represent failures returned from from a remote endpoint.
 
 Messages undergo encoding that transforms the XML to a linear wire format before being transmitted.
 
@@ -112,11 +112,11 @@ The following API elements are used with messages.
 
 | Structure                                                | Description                                                                          |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault)                            | A fault value carried in the body of a message which indicates a processing failure. |
-| [**WS\_FAULT\_CODE**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault_code)                 | Represents a fault code.                                                             |
-| [**WS\_FAULT\_REASON**](/windows/desktop/api/WebServices/ns-webservices-_ws_fault_reason)             | Contains an explanation of the fault.                                                |
-| [**WS\_MESSAGE\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_properties) | Specifies a set of [**WS\_MESSAGE\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_property) structures.  |
-| [**WS\_MESSAGE\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_message_property)     | Specifies a message specific setting.                                                |
+| [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault)                            | A fault value carried in the body of a message which indicates a processing failure. |
+| [**WS\_FAULT\_CODE**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_code)                 | Represents a fault code.                                                             |
+| [**WS\_FAULT\_REASON**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_reason)             | Contains an explanation of the fault.                                                |
+| [**WS\_MESSAGE\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-ws_message_properties) | Specifies a set of [**WS\_MESSAGE\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_message_property) structures.  |
+| [**WS\_MESSAGE\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_message_property)     | Specifies a message specific setting.                                                |
 
 
 

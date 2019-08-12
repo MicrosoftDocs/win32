@@ -30,13 +30,13 @@ Note that all changes for Windows Vista also apply to Windows Server 2008 and 
 
 ## New VSS Enumerations
 
-[**VSS\_ROLLFORWARD\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_rollforward_type)
+[**VSS\_ROLLFORWARD\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_rollforward_type)
 
 ## Existing VSS Enumeration Modifications
 
 <dl> <dt>
 
-<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema) enumeration
+<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-vss_backup_schema) enumeration
 </dt> <dd>
 
 <dl> <dt>
@@ -70,7 +70,7 @@ VSS\_CF\_NOT\_SYSTEM\_STATE
 
 <dl> <dt>
 
-<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes) enumeration
+<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes) enumeration
 </dt> <dd>
 
 <dl> <dt>

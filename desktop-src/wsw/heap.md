@@ -46,8 +46,8 @@ The following handle is used with the heap:
 
 The following structures are used with the heap:
 
--   [**WS\_HEAP\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-_ws_heap_properties)
--   [**WS\_HEAP\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_heap_property)
+-   [**WS\_HEAP\_PROPERTIES**](/windows/desktop/api/WebServices/ns-webservices-ws_heap_properties)
+-   [**WS\_HEAP\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_heap_property)
 
  
 

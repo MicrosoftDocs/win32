@@ -46,7 +46,7 @@ Any MFT can initiate a change to its output type, as follows:
 
 1.  The client calls [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput). The MFT responds as follows:
     1.  The MFT does not produce an output sample in [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput).
-    2.  The MFT sets the **MFT\_OUTPUT\_DATA\_BUFFER\_FORMAT\_CHANGE** flag in the **dwStatus** member of the [**MFT\_OUTPUT\_DATA\_BUFFER**](/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer) structure.
+    2.  The MFT sets the **MFT\_OUTPUT\_DATA\_BUFFER\_FORMAT\_CHANGE** flag in the **dwStatus** member of the [**MFT\_OUTPUT\_DATA\_BUFFER**](/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer) structure.
     3.  The [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method returns the error code **MF\_E\_TRANSFORM\_STREAM\_CHANGE**.
 2.  The client calls [**IMFTransform::GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype). This method returns an updated set of output types.
 3.  The client calls [**SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) to set a new output type.

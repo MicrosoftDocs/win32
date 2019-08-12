@@ -28,7 +28,7 @@ As the preceding diagram and the following code illustrate, a service proxy is c
 It also accepts optional parameters using the following data types:
 
 -   [**WS\_PROXY\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_proxy_property_id)
--   [**WS\_SECURITY\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_description)
+-   [**WS\_SECURITY\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description)
 
 When the service proxy has been created, the **WsCreateServiceProxy** function returns a reference to the service proxy, [WS\_SERVICE\_PROXY](ws-service-proxy.md), through an out parameter.
 
@@ -46,7 +46,7 @@ hr = WsCreateServiceProxy (
     error);
 ```
 
-When the service proxy has been created, the application can open the service proxy for communication to a service by calling the [**WsOpenServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wsopenserviceproxy) function, passing an [**address**](/windows/desktop/api/WebServices/ns-webservices-_ws_endpoint_address) structure containing the network address of the service endpoint to connect to.
+When the service proxy has been created, the application can open the service proxy for communication to a service by calling the [**WsOpenServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wsopenserviceproxy) function, passing an [**address**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_address) structure containing the network address of the service endpoint to connect to.
 
 ``` syntax
 WS_ENDPOINT_ADDRESS address = {0};
@@ -107,7 +107,7 @@ Following application design considerations should be carefully noted when you u
 
 -   The service proxy will not perform any validation of the data beyond Basic Profile 2.0 validation and XML serialization. It is the responsibility of the application to validate the data contained in the parameters it receives back as part of the call.
 -   Configuring the maximum number of pending calls on the service proxy, by using the [**WS\_PROXY\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_proxy_property_id) enumeration value **WS\_PROXY\_PROPERTY\_MAX\_PENDING\_CALLS**, provides protection against a slow running server. The default maximum is 100. Applications must be careful in modifying the defaults.
--   The service proxy provides no security guarantees beyond those specified in the [**WS\_SECURITY\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_description) structure used to communicate with the server.
+-   The service proxy provides no security guarantees beyond those specified in the [**WS\_SECURITY\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description) structure used to communicate with the server.
 -   Take care when you modifying [message](message.md) and [channel](channel.md) defaults on the service proxy. Read the security considerations associated with messages and channels before you modify any of the related properties.
 -   Service proxy encrypts all credentials that it keeps in memory.
 
@@ -165,8 +165,8 @@ The following API elements relate to service proxies.
 
 | Structure                                         | Description                 |
 |---------------------------------------------------|-----------------------------|
-| [**WS\_CALL\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_call_property)    | Specifies a call property.  |
-| [**WS\_PROXY\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_proxy_property). | Specifies a proxy property. |
+| [**WS\_CALL\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_call_property)    | Specifies a call property.  |
+| [**WS\_PROXY\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_proxy_property). | Specifies a proxy property. |
 
 
 

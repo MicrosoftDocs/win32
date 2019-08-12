@@ -203,7 +203,7 @@ The following example, taken from above, demonstrates how to restrict results to
 
 ### Specifying File Types for a Dialog
 
-To set specific file types that the dialog can handle, use the [**IFileDialog::SetFileTypes**](https://msdn.microsoft.com/en-us/library/Bb775980(v=VS.85).aspx) method. That method accepts an array of [**COMDLG\_FILTERSPEC**](/windows/desktop/api/Shtypes/ns-shtypes-_comdlg_filterspec) structures, each of which represents a file type.
+To set specific file types that the dialog can handle, use the [**IFileDialog::SetFileTypes**](https://msdn.microsoft.com/en-us/library/Bb775980(v=VS.85).aspx) method. That method accepts an array of [**COMDLG\_FILTERSPEC**](/windows/desktop/api/Shtypes/ns-shtypes-comdlg_filterspec) structures, each of which represents a file type.
 
 The default extension mechanism in a dialog is unchanged from [**GetOpenFileName**](https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx) and [**GetSaveFileName**](https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx). The file name extension that is appended to the text the user types in the file name edit box is initialized when the dialog opens. It should match the default file type (that selected as the dialog opens). If the default file type is "\*.\*" (all files), the file can be an extension of your choice. If the user chooses a different file type, the extension automatically updates to the first file name extension associated with that file type. If the user chooses "\*.\*" (all files), then the extension reverts to its original value.
 

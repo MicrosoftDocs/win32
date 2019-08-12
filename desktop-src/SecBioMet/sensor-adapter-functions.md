@@ -40,7 +40,7 @@ A sensor adapter wraps a biometric device and provides a standard interface that
 | [**SensorAdapterSetIndicatorStatus**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_indicator_status_fn)<br/>           | Toggles the sensor indicator on or off.<br/>                                                                                                                           |
 | [**SensorAdapterSetMode**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_mode_fn)<br/>                                 | Sets the sensor adapter mode.<br/>                                                                                                                                     |
 | [**SensorAdapterStartCapture**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn)<br/>                       | Begins an asynchronous biometric capture.<br/>                                                                                                                         |
-| [**WbioQuerySensorInterface**](/windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerysensorinterface)<br/>                         | Retrieves a pointer to the [**WINBIO\_SENSOR\_INTERFACE**](/windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_sensor_interface) structure for the sensor adapter.<br/>                                         |
+| [**WbioQuerySensorInterface**](/windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerysensorinterface)<br/>                         | Retrieves a pointer to the [**WINBIO\_SENSOR\_INTERFACE**](/windows/desktop/api/Winbio_adapter/ns-winbio_adapter-winbio_sensor_interface) structure for the sensor adapter.<br/>                                         |
 
 
 

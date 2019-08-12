@@ -133,10 +133,10 @@ Specifies the end of the range that is used to define proprietary cipher algorit
 [**DOT11\_AUTH\_CIPHER\_PAIR**](dot11-auth-cipher-pair.md)
 </dt> <dt>
 
-[**WLAN\_AVAILABLE\_NETWORK**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network)
+[**WLAN\_AVAILABLE\_NETWORK**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network)
 </dt> <dt>
 
-[**WLAN\_SECURITY\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_security_attributes)
+[**WLAN\_SECURITY\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_security_attributes)
 </dt> </dl>
 
  

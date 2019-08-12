@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Security Binding Settings
 
-Security binding settings control the way a security token is obtained or used. They are represented as a collection of property-value pairs, with the property keys defined by the enumeration [**WS\_SECURITY\_BINDING\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_binding_property). Each property in the collection has a reasonable default value. As a result, it is possible to define and use a security description without specifying any of the security binding settings.
+Security binding settings control the way a security token is obtained or used. They are represented as a collection of property-value pairs, with the property keys defined by the enumeration [**WS\_SECURITY\_BINDING\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_security_binding_property). Each property in the collection has a reasonable default value. As a result, it is possible to define and use a security description without specifying any of the security binding settings.
 
 ## 
 
@@ -42,7 +42,7 @@ The following API elements are used with security binding settings.
 
 | Structure                                                               | Description                                    |
 |-------------------------------------------------------------------------|------------------------------------------------|
-| [**WS\_SECURITY\_BINDING\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_binding_property) | Specifies a security binding specific setting. |
+| [**WS\_SECURITY\_BINDING\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_security_binding_property) | Specifies a security binding specific setting. |
 
 
 

@@ -94,13 +94,13 @@ Reserved for future use.
 [**IOCTL\_STORAGE\_FIRMWARE\_ACTIVATE**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_activate)
 </dt> <dt>
 
-[**STORAGE\_HW\_FIRMWARE\_ACTIVATE**](/windows/desktop/api/winioctl/ns-winioctl-_storage_hw_firmware_activate)
+[**STORAGE\_HW\_FIRMWARE\_ACTIVATE**](/windows/desktop/api/winioctl/ns-winioctl-storage_hw_firmware_activate)
 </dt> <dt>
 
 [**IOCTL\_STORAGE\_FIRMWARE\_DOWNLOAD**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_download)
 </dt> <dt>
 
-[**STORAGE\_HW\_FIRMWARE\_DOWNLOAD**](/windows/desktop/api/winioctl/ns-winioctl-_storage_hw_firmware_download)
+[**STORAGE\_HW\_FIRMWARE\_DOWNLOAD**](/windows/desktop/api/winioctl/ns-winioctl-storage_hw_firmware_download)
 </dt> <dt>
 
 [**IOCTL\_STORAGE\_FIRMWARE\_GET\_INFO**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_get_info)

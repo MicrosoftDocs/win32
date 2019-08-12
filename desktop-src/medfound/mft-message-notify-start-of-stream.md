@@ -44,7 +44,7 @@ An asynchronous MFT must implement this message, as described in [Asynchronous M
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type)
+[**MFT\_MESSAGE\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type)
 </dt> </dl>
 
  

@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # MetadataImportWithX509OverSslExample
 
-This example illustrates importing metadata from an endpoint that supports using a X509 token using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_token_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding).
+This example illustrates importing metadata from an endpoint that supports using a X509 token using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding).
 
 ## MetadataImportWithX509OverSslExample.cpp
 
@@ -582,10 +582,10 @@ Exit:
 
 <dl> <dt>
 
-[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_xml_token_message_security_binding)
+[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding)
 </dt> <dt>
 
-[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding)
+[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
 </dt> </dl>
 
  

@@ -36,7 +36,7 @@ PSN_RESET
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure that contains information about the notification code.
+Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure that contains information about the notification code.
 
 </dd> </dl>
 
@@ -46,9 +46,9 @@ No return value.
 
 ## Remarks
 
-All changes made since the last [PSN\_APPLY](psn-apply.md) notification code are canceled, except in the case of [**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2), which does not support that notification code.
+All changes made since the last [PSN\_APPLY](psn-apply.md) notification code are canceled, except in the case of [**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2), which does not support that notification code.
 
-The **lParam** member of the [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) structure pointed to by *lParam* will be set to **TRUE** if the user clicked the **X** button in the upper-right corner of the property sheet. It will be **FALSE** if the user clicked the **Cancel** button. The **PSHNOTIFY** structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
+The **lParam** member of the [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure pointed to by *lParam* will be set to **TRUE** if the user clicked the **X** button in the upper-right corner of the property sheet. It will be **FALSE** if the user clicked the **Cancel** button. The **PSHNOTIFY** structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
 
 An application can use this notification code as an opportunity to perform cleanup operations.
 

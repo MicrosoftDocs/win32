@@ -14,8 +14,8 @@ The following structures are used with INF files.
 
 | Structure                                              | Description                        |
 |--------------------------------------------------------|------------------------------------|
-| [**INFCONTEXT**](/windows/desktop/api/Setupapi/ns-setupapi-_infcontext)                   | Positional context in an INF file. |
-| [**SP\_INF\_INFORMATION**](/windows/desktop/api/Setupapi/ns-setupapi-_sp_inf_information) | Information about the INF file.    |
+| [**INFCONTEXT**](/windows/desktop/api/Setupapi/ns-setupapi-infcontext)                   | Positional context in an INF file. |
+| [**SP\_INF\_INFORMATION**](/windows/desktop/api/Setupapi/ns-setupapi-sp_inf_information) | Information about the INF file.    |
 
 
 

@@ -16,9 +16,9 @@ Specifies the color primaries for a video media type.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoPrimaries**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoprimaries) enumeration.
+The value of this attribute is a member of the [**MFVideoPrimaries**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideoprimaries) enumeration.
 
-The [**MFVideoPrimaries**](/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoprimaries) enumeration identifies color primaries associated with certain common video standards. If the media type uses color primaries that are not identified in the **MFVideoPrimaries** enumeration, set the [**MF\_MT\_CUSTOM\_VIDEO\_PRIMARIES**](mf-mt-custom-video-primaries-attribute.md) attribute instead of this attribute.
+The [**MFVideoPrimaries**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideoprimaries) enumeration identifies color primaries associated with certain common video standards. If the media type uses color primaries that are not identified in the **MFVideoPrimaries** enumeration, set the [**MF\_MT\_CUSTOM\_VIDEO\_PRIMARIES**](mf-mt-custom-video-primaries-attribute.md) attribute instead of this attribute.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [**DownloadJavaEX**](downloadjavaex.md)
--   [**JAVA\_TRUST**](/windows/desktop/api/Capi/ns-capi-_java_trust)
+-   [**JAVA\_TRUST**](/windows/desktop/api/Capi/ns-capi-java_trust)
 -   [**NotifyBrowserShutdown**](notifybrowsershutdown.md)
 -   [**ShowJavaConsole**](showjavaconsole.md)
 

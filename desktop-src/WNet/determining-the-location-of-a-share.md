@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following example demonstrates how to call the [**WNetGetUniversalName**](https://msdn.microsoft.com/en-us/library/Aa385474(v=VS.85).aspx) function to determine the location of a share on a redirected drive.
 
-First the code sample calls the **WNetGetUniversalName** function, specifying the [**UNIVERSAL\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-_universal_name_infoa) information level to retrieve a pointer to a Universal Naming Convention (UNC) name string for the resource. Then the sample calls **WNetGetUniversalName** a second time, specifying the [**REMOTE\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-_remote_name_infoa) information level to retrieve two additional network connection information strings. If the calls are successful, the sample prints the location of the share.
+First the code sample calls the **WNetGetUniversalName** function, specifying the [**UNIVERSAL\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-universal_name_infoa) information level to retrieve a pointer to a Universal Naming Convention (UNC) name string for the resource. Then the sample calls **WNetGetUniversalName** a second time, specifying the [**REMOTE\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-remote_name_infoa) information level to retrieve two additional network connection information strings. If the calls are successful, the sample prints the location of the share.
 
 To test the following code sample, perform the following steps:
 

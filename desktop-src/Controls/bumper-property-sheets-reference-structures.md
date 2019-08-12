@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2)
--   [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-_propsheetpagea_v2)
--   [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify)
+-   [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)
+-   [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2)
+-   [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify)
 
  
 

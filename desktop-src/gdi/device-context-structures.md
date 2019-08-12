@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following structures are used with device contexts.
 
-[**DISPLAY\_DEVICE**](/windows/desktop/api/Wingdi/ns-wingdi-_display_devicea)
+[**DISPLAY\_DEVICE**](/windows/desktop/api/Wingdi/ns-wingdi-display_devicea)
 
 [**VIDEOPARAMETERS**](https://msdn.microsoft.com/en-us/library/Dd145196(v=VS.85).aspx)
 

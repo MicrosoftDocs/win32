@@ -45,7 +45,7 @@ One of the concerns in introducing this change in the media format is compatibil
 
 -   **Physical Sector**: The unit for which read and write operations to the device are completed in a single operation. This is the unit of atomic write.
 
-Most current Windows APIs, such as **IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY** will return the logical sector size, but the physical sector size can be retrieved through the [IOCTL\_STORAGE\_QUERY\_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) control code, with the relevant information contained in the **BytesPerPhysicalSector** field in the [STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_access_alignment_descriptor) structure. This is discussed in more detail later in the article.
+Most current Windows APIs, such as **IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY** will return the logical sector size, but the physical sector size can be retrieved through the [IOCTL\_STORAGE\_QUERY\_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) control code, with the relevant information contained in the **BytesPerPhysicalSector** field in the [STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor) structure. This is discussed in more detail later in the article.
 
 ## Initial Types of Large Sector Media
 
@@ -181,7 +181,7 @@ This is a living document, and is meant as an aid for developers to help underst
 -   **IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code**: [https://msdn.microsoft.com/library/ff800830.aspx](https://msdn.microsoft.com/library/ff800830(VS.85).aspx)
 -   **General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure**: [https://msdn.microsoft.com/library/ff566344.aspx](https://msdn.microsoft.com/library/ff566344(VS.85).aspx)
 -   **Description of the standard terminology used to describe Microsoft software updates**: <https://support.microsoft.com/kb/824684/>
--   **WDK sample code** with details for how to extract the reported storage access alignment information from the **STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR** structure when making a call to the **IOCTL\_STORAGE\_QUERY\_PROPERTY** control code: [https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_access_alignment_descriptor](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_access_alignment_descriptor)
+-   **WDK sample code** with details for how to extract the reported storage access alignment information from the **STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR** structure when making a call to the **IOCTL\_STORAGE\_QUERY\_PROPERTY** control code: [https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor)
 -   **General information about ImageX Command-Line Options**: <https://technet.microsoft.com/library/dd799302(WS.10).aspx>
 -   **Intel Chipset driver requirements to support 4 KB Sector Drives**: <https://www.intel.com/support/chipsets/imsm/sb/CS-031502.htm>
 -   For more information on Advanced Format Disks, visit the following IDEMA websites:

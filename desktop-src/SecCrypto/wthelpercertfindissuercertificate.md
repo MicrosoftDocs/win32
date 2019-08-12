@@ -120,7 +120,7 @@ An issuer certificate that matches the subject certificate specified by the *pCh
 To successfully find a matching issuer certificate, the following requirements must be met:
 
 -   The signature of the subject certificate specified by the *pChildContext* parameter must be valid.
--   The **rgExtension** member of the **pCertInfo** member of the *pChildContext* parameter must contain a [**CERT\_AUTHORITY\_KEY\_ID\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_authority_key_id_info) structure. The **CertIssuer** and **CertSerialMember** members of this structure much match the corresponding members for the issuer certificate.
+-   The **rgExtension** member of the **pCertInfo** member of the *pChildContext* parameter must contain a [**CERT\_AUTHORITY\_KEY\_ID\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_authority_key_id_info) structure. The **CertIssuer** and **CertSerialMember** members of this structure much match the corresponding members for the issuer certificate.
 -   The value of the *psftVerifyAsOf* parameter must be within the period of validity of the subject certificate.
 -   The period of validity of the subject certificate must be within the period of validity of the issuer certificate.
 

@@ -39,7 +39,7 @@ Sets the position of an item in the Shell view. Used by [**SHShellFolderView\_Me
 *sip* \[in\]
 </dt> <dd>
 
-A pointer to an [**SFV\_SETITEMPOS**](/windows/desktop/api/Shlobj/ns-shlobj-_sfv_setitempos) structure.
+A pointer to an [**SFV\_SETITEMPOS**](/windows/desktop/api/Shlobj/ns-shlobj-sfv_setitempos) structure.
 
 </dd> </dl>
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-_tageditballoontip)
+-   [**EDITBALLOONTIP**](/windows/desktop/api/Commctrl/ns-commctrl-editballoontip)
 
  
 

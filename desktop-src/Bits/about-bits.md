@@ -7,7 +7,7 @@ keywords:
 - transfer queue BITS
 - transfer queue BITS , throttle
 ms.topic: article
-ms.date: 11/29/2018
+ms.date: 7/12/2019
 ---
 
 # About BITS
@@ -17,6 +17,8 @@ Use Background Intelligent Transfer Service (BITS) to download files from or upl
 BITS continues to transfer files after an application exits as long as the user who initiated the transfer remains logged on and a network connection is maintained. BITS will not force a network connection. BITS resumes transfers after a network connection that had been lost is reestablished or after a user who had logged off logs back in. For more information, see [Users and Network Connections](users-and-network-connections.md).
 
 BITS is mindful of the current network cost and congestion so that a background job interferes as little as possible with the user's foreground experience. BITS uses idle [network bandwidth](network-bandwidth.md) to transfer the files and will increase or decrease the rate at which files are transferred based on the amount of idle network bandwidth available. If a network application begins to consume more bandwidth, BITS decreases its transfer rate to preserve the user's interactive experience. BITS uses app-specified [transfer policies](how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md) to prevent files from transferring on costed network connections.
+
+BITS is also mindful of power usage. Starting with the Windows 10 May 2019 Update, BITS will transfer files when the machine is in [Modern Standby](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/modern-standby) mode and the machine is plugged in.
 
 The BITS application can use the different BITS [priority levels](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001) to let BITS intelligently pick which transfer jobs to run. Higher priority jobs preempt lower priority jobs. Jobs at the same priority level share transfer time, which prevents a large job from blocking small jobs in the transfer queue. Lower priority jobs do not receive transfer time until all higher priority jobs are complete or in an error state.
 

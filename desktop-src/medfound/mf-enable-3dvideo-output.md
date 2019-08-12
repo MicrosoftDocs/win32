@@ -16,7 +16,7 @@ Specifies how a Media Foundation transform (MFT) should output a 3D stereoscopic
 
 ## Remarks
 
-The value of the attribute is a member of the [**MF3DVideoOutputType**](/windows/desktop/api/mftransform/ne-mftransform-_mf3dvideooutputtype) enumeration.
+The value of the attribute is a member of the [**MF3DVideoOutputType**](/windows/desktop/api/mftransform/ne-mftransform-mf3dvideooutputtype) enumeration.
 
 This attribute applies only if the MFT returns **TRUE** for the [MFT\_SUPPORT\_3DVIDEO](mft-support-3dvideo.md) attribute.
 

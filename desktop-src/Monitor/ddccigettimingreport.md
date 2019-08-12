@@ -51,7 +51,7 @@ A handle to a physical monitor.
 *pmtr* \[out\]
 </dt> <dd>
 
-A pointer to an [**MC\_TIMING\_REPORT**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-_mc_timing_report) structure that receives the timing information.
+A pointer to an [**MC\_TIMING\_REPORT**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-mc_timing_report) structure that receives the timing information.
 
 </dd> </dl>
 

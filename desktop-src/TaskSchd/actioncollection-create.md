@@ -40,7 +40,7 @@ ActionCollection.Create( _
 *type* \[in\]
 </dt> <dd>
 
-This parameter is set to one of the following [**TASK\_ACTION\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-_task_action_type) enumeration constants.
+This parameter is set to one of the following [**TASK\_ACTION\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-task_action_type) enumeration constants.
 
 
 
@@ -82,7 +82,7 @@ You cannot add more than 32 actions to the collection.
 
 <dl> <dt>
 
-[**TASK\_ACTION\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-_task_action_type)
+[**TASK\_ACTION\_TYPE**](/windows/desktop/api/taskschd/ne-taskschd-task_action_type)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)

@@ -106,7 +106,7 @@ The Parental Controls system will fire a warning event at 15 minutes and again a
 [Parental Controls Extensibility Features Overview](parental-controls-extensibility-features-overview.md)
 </dt> <dt>
 
-[**EVENT\_DATA\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_data_descriptor)
+[**EVENT\_DATA\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor)
 </dt> <dt>
 
 [**EventDataDescCreate**](https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventdatadesccreate)

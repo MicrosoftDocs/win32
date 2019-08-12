@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # RAS\_PORT\_0 structure
 
-\[This version of the **RAS\_PORT\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_PORT\_0**](/windows/desktop/api/Mprapi/ns-mprapi-_ras_port_0) defined in mprapi.h instead.\]
+\[This version of the **RAS\_PORT\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_PORT\_0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_0) defined in mprapi.h instead.\]
 
 The **RAS\_PORT\_0** structure contains information that describes a RAS port.
 

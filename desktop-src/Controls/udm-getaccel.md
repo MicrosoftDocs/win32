@@ -34,7 +34,7 @@ Number of elements in the array specified by *lParam*.
 *lParam* 
 </dt> <dd>
 
-Pointer to an array of [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-_udaccel) structures that receive acceleration information.
+Pointer to an array of [**UDACCEL**](/windows/desktop/api/Commctrl/ns-commctrl-udaccel) structures that receive acceleration information.
 
 </dd> </dl>
 

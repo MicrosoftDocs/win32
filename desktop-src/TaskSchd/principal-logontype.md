@@ -33,7 +33,7 @@ Principal.LogonType As Integer
 
 ## Property value
 
-Set to one of the following [**TASK\_LOGON TYPE**](/windows/desktop/api/taskschd/ne-taskschd-_task_logon_type) enumeration constants.
+Set to one of the following [**TASK\_LOGON TYPE**](/windows/desktop/api/taskschd/ne-taskschd-task_logon_type) enumeration constants.
 
 
 

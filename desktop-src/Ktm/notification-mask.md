@@ -299,7 +299,7 @@ Reserved.
 [**SinglePhaseReject**](/windows/desktop/api/Ktmw32/nf-ktmw32-singlephasereject)
 </dt> <dt>
 
-[**TRANSACTION\_NOTIFICATION**](/windows/desktop/api/KtmTypes/ns-ktmtypes-_transaction_notification)
+[**TRANSACTION\_NOTIFICATION**](/windows/desktop/api/KtmTypes/ns-ktmtypes-transaction_notification)
 </dt> </dl>
 
  

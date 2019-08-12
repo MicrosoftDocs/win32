@@ -29,7 +29,7 @@ The following table shows the sequence of actions and events that are required f
 </thead>
 <tbody>
 <tr class="odd">
-<td>Access files on the shadow-copied volume (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>IVssBackupComponents::GetSnapshotProperties</strong></a>, <a href="/windows/desktop/api/Vss/ns-vss-_vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>)</td>
+<td>Access files on the shadow-copied volume (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>IVssBackupComponents::GetSnapshotProperties</strong></a>, <a href="/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>)</td>
 <td>None</td>
 <td>None</td>
 </tr>
@@ -84,7 +84,7 @@ When the call to [**CVssWriter::OnBackupComplete**](/windows/desktop/api/VsWrite
 
 As noted in [Overview of the Backup Discovery Phase](overview-of-the-backup-discovery-phase.md), you should not generate the actual list of files to be backed up until the shadow copy has completed.
 
-The [*device object*](vssgloss-d.md) corresponding to the shadow copy of a given volume is used to get access to files on the shadow copied volume once the shadow copy has completed. The device object is obtained from the [**VSS\_SNAPSHOT\_PROP**](/windows/desktop/api/Vss/ns-vss-_vss_snapshot_prop) object returned by [**IVssBackupComponents::GetSnapshotProperties**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties). Each shadow copy of a shadow copy set will have its own device object.
+The [*device object*](vssgloss-d.md) corresponding to the shadow copy of a given volume is used to get access to files on the shadow copied volume once the shadow copy has completed. The device object is obtained from the [**VSS\_SNAPSHOT\_PROP**](/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop) object returned by [**IVssBackupComponents::GetSnapshotProperties**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties). Each shadow copy of a shadow copy set will have its own device object.
 
 The device object and the paths obtained from the Writer Metadata Document specifications of components are then used to select files for backup. See [Requester Access to Shadow Copied Data](requestor-access-to-shadow-copied-data.md) for more information.
 

@@ -65,10 +65,10 @@ Microsoft RPC NDR currently supports the following functions and structures:
 -   [**NdrUserMarshalBufferSize**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalbuffersize)
 -   [**NdrUserMarshalFree**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalfree)
 -   [**NdrUserMarshalMarshall**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalmarshall)
--   [**MIDL\_STUB\_DESC**](/windows/desktop/api/Rpcndr/ns-rpcndr-_midl_stub_desc)
--   [**MIDL\_STUB\_MESSAGE**](/windows/desktop/api/Rpcndr/ns-rpcndr-_midl_stub_message)
+-   [**MIDL\_STUB\_DESC**](/windows/desktop/api/Rpcndr/ns-rpcndr-midl_stub_desc)
+-   [**MIDL\_STUB\_MESSAGE**](/windows/desktop/api/Rpcndr/ns-rpcndr-midl_stub_message)
 -   [**ProxyFileInfo**](/windows/desktop/api/Rpcproxy/ns-rpcproxy-tagproxyfileinfo)
--   [**RPC\_MESSAGE**](/windows/desktop/api/RpcdceP/ns-rpcdcep-_rpc_message)
+-   [**RPC\_MESSAGE**](/windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_message)
 
  
 

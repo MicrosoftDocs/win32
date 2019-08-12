@@ -91,7 +91,7 @@ The version number is a combination of the major version and the minor vertex sh
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[D3DCAPS9](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9)
+[D3DCAPS9](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9)
 </dt> </dl>
 
  

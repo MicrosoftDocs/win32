@@ -49,7 +49,7 @@ Specifies the behavior of the search operation. This parameter can be one or mor
 *lParam* 
 </dt> <dd>
 
-A [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) structure containing information about the find operation.
+A [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure containing information about the find operation.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ Use this message to find ANSI strings. For Unicode, use [**EM\_FINDTEXTEXW**](em
 
 The **cpMin** member of **FINDTEXTEX.chrg** always specifies the starting-point of the search, and **cpMax** specifies the end point. When searching backward, **cpMin** must be equal to or greater than **cpMax**. When searching forward, a value of -1 in **cpMax** extends the search range to the end of the text.
 
-If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) structure returns the range of character positions that contains the matching text.
+If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure returns the range of character positions that contains the matching text.
 
 ## Requirements
 

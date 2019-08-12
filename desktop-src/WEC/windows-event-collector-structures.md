@@ -15,7 +15,7 @@ The following table lists the structures of the Windows Event Collector SDK.
 
 | Structure                         | Description                                                                 |
 |-----------------------------------|-----------------------------------------------------------------------------|
-| [**EC\_VARIANT**](/windows/desktop/api/Evcoll/ns-evcoll-_ec_variant) | Contains event collector data (event subscription data) or property values. |
+| [**EC\_VARIANT**](/windows/desktop/api/Evcoll/ns-evcoll-ec_variant) | Contains event collector data (event subscription data) or property values. |
 
 
 
