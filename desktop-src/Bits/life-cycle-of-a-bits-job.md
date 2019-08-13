@@ -8,7 +8,7 @@ ms.date: 11/13/2018
 
 
 # BITS Job states
-There are four classes of BITS [**states**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002): starting, action, transferred, and final. As a job runs, it transitions between states in the different state classes. Once a job is in a final state, it won't move out of the final state and won't show up in a [job enumeration](/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs).
+There are four classes of BITS [**states**](/windows/desktop/api/Bits/ne-bits-bg_job_state): starting, action, transferred, and final. As a job runs, it transitions between states in the different state classes. Once a job is in a final state, it won't move out of the final state and won't show up in a [job enumeration](/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs).
 
 ## State-changing methods
 There are four state-changing methods on a job: [**Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-cancel), [**Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete), [**Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume), and [**Suspend**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-suspend). As long as a job is not in a final state, you can call any of the state-changing methods. 
@@ -69,4 +69,4 @@ The transferred files are not available to the client until the application call
 
 If an error occurs, the job moves to either the fatal or transient error state. Fatal errors are errors that BITS cannot recover from or which require intervention to fix. If the application is able to fix the error, the application resumes the job and BITS moves the job to the queued state. Transient errors are errors that may resolve themselves. BITS retries jobs in the transient error state until the transfer is successful or the job times out. The job times out when no progress is made within an application-specified period. If the job times out, BITS moves the job to fatal error state.
 
-For more information on job states, see [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002).
+For more information on job states, see [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-bg_job_state).
