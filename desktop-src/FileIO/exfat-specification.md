@@ -38,17 +38,52 @@ In the context of this specification, certain terms (see Table 1) carry
 specific meaning for the design and implementation of the exFAT file
 system.
 
-[]{#_Ref166947189 .anchor}Table Definition of Terms Which Carry Very
+[]{#_Ref166947189 .anchor}Table 1 Definition of Terms Which Carry Very
 Specific Meaning
 
-| **Term**                          | **Definition**                    |
-| Shall                             | This specification uses the term "shall" to describe a behavior which is mandatory. |
-| Should                            | This specification uses the term "should" to describe a behavior which it strongly recommends, but does not make mandatory.          |
-| May                               | This specification uses the term "may" to describe a behavior which is optional.                |
-| Mandatory                         | This term describes a field or  structure which an implementation shall modify and shall interpret as this specification describes.  |
-| Optional                          | This term describes a field or structure which an implementation may or may not support. If an implementation supports a given optional field or structure, it shall modify and shall interpret the field or structure as this specification describes.          |
-| Undefined                         | This term describes field or structure contents which an implementation may modify as necessary (i.e. clear to zero  when setting surrounding fields or structures) and shall not interpret to hold any specific meaning. |
-| Reserved                          | This term describes field or structure contents which implementations:  1.  Shall initialize to zero and should not use for any purpose 2.  Should not interpret, except when computing checksums 3.  Shall preserve across operations which modify surrounding fields or  structures                    |
+<table>
+<thead>
+<tr class="header">
+<th><strong>Term</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Shall</td>
+<td>This specification uses the term “shall” to describe a behavior which is mandatory.</td>
+</tr>
+<tr class="even">
+<td>Should</td>
+<td>This specification uses the term “should” to describe a behavior which it strongly recommends, but does not make mandatory.</td>
+</tr>
+<tr class="odd">
+<td>May</td>
+<td>This specification uses the term “may” to describe a behavior which is optional.</td>
+</tr>
+<tr class="even">
+<td>Mandatory</td>
+<td>This term describes a field or structure which an implementation shall modify and shall interpret as this specification describes.</td>
+</tr>
+<tr class="odd">
+<td>Optional</td>
+<td>This term describes a field or structure which an implementation may or may not support. If an implementation supports a given optional field or structure, it shall modify and shall interpret the field or structure as this specification describes.</td>
+</tr>
+<tr class="even">
+<td>Undefined</td>
+<td>This term describes field or structure contents which an implementation may modify as necessary (i.e. clear to zero when setting surrounding fields or structures) and shall not interpret to hold any specific meaning.</td>
+</tr>
+<tr class="odd">
+<td>Reserved</td>
+<td><p>This term describes field or structure contents which implementations:</p>
+<ol type="1">
+<li><p>Shall initialize to zero and should not use for any purpose</p></li>
+<li><p>Should not interpret, except when computing checksums</p></li>
+<li><p>Shall preserve across operations which modify surrounding fields or structures</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
 Full Text of Common Acronyms
 ----------------------------
@@ -56,7 +91,7 @@ Full Text of Common Acronyms
 This specification uses acronyms in common use in the personal computer
 industry (see Table 2).
 
-[]{#_Ref166950984 .anchor}Table Full Text of Common Acronyms
+[]{#_Ref166950984 .anchor}Table 2 Full Text of Common Acronyms
 
   **Acronym**   **Full Text**
   ------------- ----------------------------------------------------
@@ -108,192 +143,148 @@ A volume is the set of all file system structures and data space
 necessary to store and retrieve user data. All exFAT volumes contain
 four regions (see Table 3).
 
-[]{#_Ref167092592 .anchor}Table Volume Structure
+[]{#_Ref167092592 .anchor}Table 3 Volume Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Sub-region    | **Offset**      | **Size**        | **Comments**    |
-| Name**          |                 |                 |                 |
-|                 | **(sector)**    | **(sectors)**   |                 |
-+=================+=================+=================+=================+
-| **Main Boot     |                 |                 |                 |
-| Region**        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Main Boot       | 0               | 1               | This sub-region |
-| Sector          |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Main Extended   | 1               | 8               | This sub-region |
-| Boot Sectors    |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.2 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Main OEM        | 9               | 1               | This sub-region |
-| Parameters      |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.3 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Main Reserved   | 10              | 1               | This sub-region |
-|                 |                 |                 | is mandatory    |
-|                 |                 |                 | and its         |
-|                 |                 |                 | contents are    |
-|                 |                 |                 | reserved.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Main Boot       | 11              | 1               | This sub-region |
-| Checksum        |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.4 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| **Backup Boot   |                 |                 |                 |
-| Region**        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Backup Boot     | 12              | 1               | This sub-region |
-| Sector          |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Backup Extended | 13              | 8               | This sub-region |
-| Boot Sectors    |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.2 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Backup OEM      | 21              | 1               | This sub-region |
-| Parameters      |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.3 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Backup Reserved | 22              | 1               | This sub-region |
-|                 |                 |                 | is mandatory    |
-|                 |                 |                 | and its         |
-|                 |                 |                 | contents are    |
-|                 |                 |                 | reserved.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Backup Boot     | 23              | 1               | This sub-region |
-| Checksum        |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 3.4 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| **FAT Region**  |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| FAT Alignment   | 24              | FatOffset -- 24 | This sub-region |
-|                 |                 |                 | is mandatory    |
-|                 |                 |                 | and its         |
-|                 |                 |                 | contents, if    |
-|                 |                 |                 | any, are        |
-|                 |                 |                 | undefined.      |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | FatOffset       |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
-| First FAT       | FatOffset       | FatLength       | This sub-region |
-|                 |                 |                 | is mandatory    |
-|                 |                 |                 | and Section 4.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | FatOffset and   |
-|                 |                 |                 | FatLength       |
-|                 |                 |                 | fields.         |
-+-----------------+-----------------+-----------------+-----------------+
-| Second FAT      | FatOffset +     | FatLength \*    | This sub-region |
-|                 | FatLength       | (NumberOfFats   | is mandatory    |
-|                 |                 | -- 1)           | and Section 4.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents, if    |
-|                 |                 |                 | any.            |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | FatOffset,      |
-|                 |                 |                 | FatLength, and  |
-|                 |                 |                 | NumberOfFats    |
-|                 |                 |                 | fields. The     |
-|                 |                 |                 | NumberOfFats    |
-|                 |                 |                 | field may only  |
-|                 |                 |                 | hold values 1   |
-|                 |                 |                 | and 2.          |
-+-----------------+-----------------+-----------------+-----------------+
-| **Data Region** |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Cluster Heap    | FatOffset +     | ClusterHeapOffs | This sub-region |
-| Alignment       | FatLength \*    | et              | is mandatory    |
-|                 | NumberOfFats    | -- (FatOffset + | and its         |
-|                 |                 | FatLength \*    | contents, if    |
-|                 |                 | NumberOfFats)   | any, are        |
-|                 |                 |                 | undefined.      |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | FatOffset,      |
-|                 |                 |                 | FatLength,      |
-|                 |                 |                 | NumberOfFats,   |
-|                 |                 |                 | and             |
-|                 |                 |                 | ClusterHeapOffs |
-|                 |                 |                 | et              |
-|                 |                 |                 | fields. The     |
-|                 |                 |                 | NumberOfFats    |
-|                 |                 |                 | field's valid   |
-|                 |                 |                 | values are 1    |
-|                 |                 |                 | and 2.          |
-+-----------------+-----------------+-----------------+-----------------+
-| Cluster Heap    | ClusterHeapOffs | ClusterCount \* | This sub-region |
-|                 | et              | 2^SectorsPerClu | is mandatory    |
-|                 |                 | sterShift^      | and Section 5.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterHeapOffs |
-|                 |                 |                 | et,             |
-|                 |                 |                 | ClusterCount,   |
-|                 |                 |                 | and             |
-|                 |                 |                 | SectorsPerClust |
-|                 |                 |                 | erShift         |
-|                 |                 |                 | fields.         |
-+-----------------+-----------------+-----------------+-----------------+
-| Excess Space    | ClusterHeapOffs | VolumeLength -- | This sub-region |
-|                 | et              | (ClusterHeapOff | is mandatory    |
-|                 | + ClusterCount  | set             | and its         |
-|                 | \*              | + ClusterCount  | contents, if    |
-|                 | 2^SectorsPerClu | \*              | any, are        |
-|                 | sterShift^      | 2^SectorsPerClu | undefined.      |
-|                 |                 | sterShift^)     |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterHeapOffs |
-|                 |                 |                 | et,             |
-|                 |                 |                 | ClusterCount,   |
-|                 |                 |                 | SectorsPerClust |
-|                 |                 |                 | erShift,        |
-|                 |                 |                 | and             |
-|                 |                 |                 | VolumeLength    |
-|                 |                 |                 | fields.         |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Sub-region Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(sector)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(sectors)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Main Boot Region</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Main Boot Sector</td>
+<td>0</td>
+<td>1</td>
+<td>This sub-region is mandatory and Section 3.1 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Main Extended Boot Sectors</td>
+<td>1</td>
+<td>8</td>
+<td>This sub-region is mandatory and Section 3.2 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Main OEM Parameters</td>
+<td>9</td>
+<td>1</td>
+<td>This sub-region is mandatory and Section 3.3 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Main Reserved</td>
+<td>10</td>
+<td>1</td>
+<td>This sub-region is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="even">
+<td>Main Boot Checksum</td>
+<td>11</td>
+<td>1</td>
+<td>This sub-region is mandatory and Section 3.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td><strong>Backup Boot Region</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Backup Boot Sector</td>
+<td>12</td>
+<td>1</td>
+<td>This sub-region is mandatory and Section 3.1 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Backup Extended Boot Sectors</td>
+<td>13</td>
+<td>8</td>
+<td>This sub-region is mandatory and Section 3.2 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Backup OEM Parameters</td>
+<td>21</td>
+<td>1</td>
+<td>This sub-region is mandatory and Section 3.3 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Backup Reserved</td>
+<td>22</td>
+<td>1</td>
+<td>This sub-region is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="even">
+<td>Backup Boot Checksum</td>
+<td>23</td>
+<td>1</td>
+<td>This sub-region is mandatory and Section 3.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td><strong>FAT Region</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FAT Alignment</td>
+<td>24</td>
+<td>FatOffset – 24</td>
+<td><p>This sub-region is mandatory and its contents, if any, are undefined.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the FatOffset field.</p></td>
+</tr>
+<tr class="odd">
+<td>First FAT</td>
+<td>FatOffset</td>
+<td>FatLength</td>
+<td><p>This sub-region is mandatory and Section 4.1 defines its contents.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the FatOffset and FatLength fields.</p></td>
+</tr>
+<tr class="even">
+<td>Second FAT</td>
+<td>FatOffset + FatLength</td>
+<td>FatLength * (NumberOfFats – 1)</td>
+<td><p>This sub-region is mandatory and Section 4.1 defines its contents, if any.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the FatOffset, FatLength, and NumberOfFats fields. The NumberOfFats field may only hold values 1 and 2.</p></td>
+</tr>
+<tr class="odd">
+<td><strong>Data Region</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Cluster Heap Alignment</td>
+<td>FatOffset + FatLength * NumberOfFats</td>
+<td>ClusterHeapOffset – (FatOffset + FatLength * NumberOfFats)</td>
+<td><p>This sub-region is mandatory and its contents, if any, are undefined.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the FatOffset, FatLength, NumberOfFats, and ClusterHeapOffset fields. The NumberOfFats field’s valid values are 1 and 2.</p></td>
+</tr>
+<tr class="odd">
+<td>Cluster Heap</td>
+<td>ClusterHeapOffset</td>
+<td>ClusterCount * 2<sup>SectorsPerClusterShift</sup></td>
+<td><p>This sub-region is mandatory and Section 5.1 defines its contents.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterHeapOffset, ClusterCount, and SectorsPerClusterShift fields.</p></td>
+</tr>
+<tr class="even">
+<td>Excess Space</td>
+<td>ClusterHeapOffset + ClusterCount * 2<sup>SectorsPerClusterShift</sup></td>
+<td>VolumeLength – (ClusterHeapOffset + ClusterCount * 2<sup>SectorsPerClusterShift</sup>)</td>
+<td><p>This sub-region is mandatory and its contents, if any, are undefined.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterHeapOffset, ClusterCount, SectorsPerClusterShift, and VolumeLength fields.</p></td>
+</tr>
+</tbody>
+</table>
 
  Main and Backup Boot Regions
 ============================
@@ -340,152 +331,155 @@ needed. However, implementations may update either the VolumeFlags or
 PercentInUse fields without updating their respective Boot Checksum (the
 checksum specifically excludes these two fields).
 
-[]{#_Ref184448042 .anchor}Table Main and Backup Boot Sector Structure
+[]{#_Ref184448042 .anchor}Table 4 Main and Backup Boot Sector Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| JumpBoot        | 0               | 3               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FileSystemName  | 3               | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| MustBeZero      | 11              | 53              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| PartitionOffset | 64              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VolumeLength    | 72              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FatOffset       | 80              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.6   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FatLength       | 84              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.7   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| ClusterHeapOffs | 88              | 4               | This field is   |
-| et              |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.8   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| ClusterCount    | 92              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.9   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstClusterOfR | 96              | 4               | This field is   |
-| ootDirectory    |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.10  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VolumeSerialNum | 100             | 4               | This field is   |
-| ber             |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.11  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FileSystemRevis | 104             | 2               | This field is   |
-| ion             |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.12  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VolumeFlags     | 106             | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.13  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| BytesPerSectorS | 108             | 1               | This field is   |
-| hift            |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.14  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SectorsPerClust | 109             | 1               | This field is   |
-| erShift         |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.15  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| NumberOfFats    | 110             | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.16  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DriveSelect     | 111             | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.17  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| PercentInUse    | 112             | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.18  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 113             | 7               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| BootCode        | 120             | 390             | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.19  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| BootSignature   | 510             | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.1.20  |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| ExcessSpace     | 512             | 2^BytesPerSecto | This field is   |
-|                 |                 | rShift^         | mandatory and   |
-|                 |                 | -- 512          | its contents,   |
-|                 |                 |                 | if any, are     |
-|                 |                 |                 | undefined.      |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | BytesPerSectorS |
-|                 |                 |                 | hift            |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>JumpBoot</td>
+<td>0</td>
+<td>3</td>
+<td>This field is mandatory and Section 3.1.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>FileSystemName</td>
+<td>3</td>
+<td>8</td>
+<td>This field is mandatory and Section 3.1.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>MustBeZero</td>
+<td>11</td>
+<td>53</td>
+<td>This field is mandatory and Section 3.1.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>PartitionOffset</td>
+<td>64</td>
+<td>8</td>
+<td>This field is mandatory and Section 3.1.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>VolumeLength</td>
+<td>72</td>
+<td>8</td>
+<td>This field is mandatory and Section 3.1.5 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>FatOffset</td>
+<td>80</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.1.6 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>FatLength</td>
+<td>84</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.1.7 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>ClusterHeapOffset</td>
+<td>88</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.1.8 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>ClusterCount</td>
+<td>92</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.1.9 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>FirstClusterOfRootDirectory</td>
+<td>96</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.1.10 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>VolumeSerialNumber</td>
+<td>100</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.1.11 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>FileSystemRevision</td>
+<td>104</td>
+<td>2</td>
+<td>This field is mandatory and Section 3.1.12 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>VolumeFlags</td>
+<td>106</td>
+<td>2</td>
+<td>This field is mandatory and Section 3.1.13 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>BytesPerSectorShift</td>
+<td>108</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.14 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>SectorsPerClusterShift</td>
+<td>109</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.15 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>NumberOfFats</td>
+<td>110</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.16 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>DriveSelect</td>
+<td>111</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.17 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>PercentInUse</td>
+<td>112</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.18 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Reserved</td>
+<td>113</td>
+<td>7</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="even">
+<td>BootCode</td>
+<td>120</td>
+<td>390</td>
+<td>This field is mandatory and Section 3.1.19 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>BootSignature</td>
+<td>510</td>
+<td>2</td>
+<td>This field is mandatory and Section 3.1.20 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>ExcessSpace</td>
+<td>512</td>
+<td>2<sup>BytesPerSectorShift</sup> – 512</td>
+<td><p>This field is mandatory and its contents, if any, are undefined.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the BytesPerSectorShift field.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### JumpBoot Field
 
@@ -671,46 +665,52 @@ Implementations shall not include this field when computing its
 respective Main Boot or Backup Boot region checksum. When referring to
 the Backup Boot Sector, implementations shall treat this field as stale.
 
-[]{#_Ref184708644 .anchor}Table VolumeFlags Field Structure
+[]{#_Ref184708644 .anchor}Table 5 VolumeFlags Field Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| ActiveFat       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section         |
-|                 |                 |                 | 3.1.13.1        |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VolumeDirty     | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section         |
-|                 |                 |                 | 3.1.13.2        |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| MediaFailure    | 2               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section         |
-|                 |                 |                 | 3.1.13.3        |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| ClearToZero     | 3               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section         |
-|                 |                 |                 | 3.1.13.4        |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 4               | 12              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ActiveFat</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.13.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>VolumeDirty</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.13.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>MediaFailure</td>
+<td>2</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.13.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>ClearToZero</td>
+<td>3</td>
+<td>1</td>
+<td>This field is mandatory and Section 3.1.13.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Reserved</td>
+<td>4</td>
+<td>12</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 #### ActiveFat Field
 
@@ -897,41 +897,36 @@ the Main and Backup Extended Boot Sectors, implementations may update
 these sectors (and shall also update their respective Boot Checksum) as
 needed.
 
-[]{#_Ref179847506 .anchor}Table Extended Boot Sector Structure
+[]{#_Ref179847506 .anchor}Table 6 Extended Boot Sector Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| ExtendedBootCod | 0               | 2^BytesPerSecto | This field is   |
-| e               |                 | rShift^         | mandatory and   |
-|                 |                 | -- 4            | Section 3.2.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | BytesPerSectorS |
-|                 |                 |                 | hift            |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
-| ExtendedBootSig | 2^BytesPerSecto | 4               | This field is   |
-| nature          | rShift^         |                 | mandatory and   |
-|                 | -- 4            |                 | Section 3.2.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | BytesPerSectorS |
-|                 |                 |                 | hift            |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ExtendedBootCode</td>
+<td>0</td>
+<td>2<sup>BytesPerSectorShift</sup> – 4</td>
+<td><p>This field is mandatory and Section 3.2.1 defines its contents.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the BytesPerSectorShift field.</p></td>
+</tr>
+<tr class="even">
+<td>ExtendedBootSignature</td>
+<td>2<sup>BytesPerSectorShift</sup> – 4</td>
+<td>4</td>
+<td><p>This field is mandatory and Section 3.2.2 defines its contents.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the BytesPerSectorShift field.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### ExtendedBootCode Field
 
@@ -979,42 +974,53 @@ Implementations may update the Main and Backup OEM Parameters as needed
 
 []{#_Ref184783933 .anchor}Table 7 OEM Parameters Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| Parameters\[0\] | 0               | 48              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-+-----------------+-----------------+-----------------+-----------------+
-| Parameters\[9\] | 432             | 48              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 480             | 2^BytesPerSecto | This field is   |
-|                 |                 | rShift^         | mandatory and   |
-|                 |                 | -- 480          | its contents    |
-|                 |                 |                 | are reserved.   |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | BytesPerSectorS |
-|                 |                 |                 | hift            |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Parameters[0]</td>
+<td>0</td>
+<td>48</td>
+<td>This field is mandatory and Section 3.3.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+</tr>
+<tr class="odd">
+<td>Parameters[9]</td>
+<td>432</td>
+<td>48</td>
+<td>This field is mandatory and Section 3.3.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved</td>
+<td>480</td>
+<td>2<sup>BytesPerSectorShift</sup> – 480</td>
+<td><p>This field is mandatory and its contents are reserved.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the BytesPerSectorShift field.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Parameters\[0\] ... Parameters\[9\]
 
@@ -1032,25 +1038,32 @@ mandatory.
 
 []{#_Ref184796186 .anchor}Table 8 Generic Parameters Template
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| ParametersGuid  | 0               | 16              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.2.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CustomDefined   | 16              | 32              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | the structures  |
-|                 |                 |                 | which derive    |
-|                 |                 |                 | from this       |
-|                 |                 |                 | template define |
-|                 |                 |                 | its contents.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ParametersGuid</td>
+<td>0</td>
+<td>16</td>
+<td>This field is mandatory and Section 3.3.2.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>CustomDefined</td>
+<td>16</td>
+<td>32</td>
+<td>This field is mandatory and the structures which derive from this template define its contents.</td>
+</tr>
+</tbody>
+</table>
 
 #### ParametersGuid Field
 
@@ -1076,22 +1089,32 @@ Support for the Null Parameters structure is mandatory.
 
 []{#_Ref200877497 .anchor}Table 9 Null Parameters Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| ParametersGuid  | 0               | 16              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.3.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 16              | 32              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ParametersGuid</td>
+<td>0</td>
+<td>16</td>
+<td>This field is mandatory and Section 3.3.3.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved</td>
+<td>16</td>
+<td>32</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 #### ParametersGuid Field
 
@@ -1116,64 +1139,74 @@ Support for the Flash Parameters structure is optional.
 
 []{#_Ref179850155 .anchor}Table 10 Flash Parameters Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| ParametersGuid  | 0               | 16              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| EraseBlockSize  | 16              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.2 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| PageSize        | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.3 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SpareSectors    | 24              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.4 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| RandomAccessTim | 28              | 4               | This field is   |
-| e               |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.5 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| ProgrammingTime | 32              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.6 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| ReadCycle       | 36              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.7 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| WriteCycle      | 40              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 3.3.4.8 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 44              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ParametersGuid</td>
+<td>0</td>
+<td>16</td>
+<td>This field is mandatory and Section 3.3.4.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>EraseBlockSize</td>
+<td>16</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.3.4.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>PageSize</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.3.4.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>SpareSectors</td>
+<td>24</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.3.4.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>RandomAccessTime</td>
+<td>28</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.3.4.5 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>ProgrammingTime</td>
+<td>32</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.3.4.6 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>ReadCycle</td>
+<td>36</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.3.4.7 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>WriteCycle</td>
+<td>40</td>
+<td>4</td>
+<td>This field is mandatory and Section 3.3.4.8 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Reserved</td>
+<td>44</td>
+<td>4</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 All possible values for all Flash Parameters fields, except for the
 ParametersGuid field, are valid. However, the value 0 indicates the
@@ -1243,48 +1276,33 @@ Backup Boot Checksums with the repeating checksum pattern,
 implementations shall update these sectors as the contents of the other
 sectors in their respective Boot regions change.
 
-[]{#_Ref179851758 .anchor}Figure Boot Checksum Computation
+[]{#_Ref179851758 .anchor}Figure 1 Boot Checksum Computation
 
-+-----------------------------------------------------------------------+
-| UInt32 BootChecksum                                                   |
-|                                                                       |
-| (                                                                     |
-|                                                                       |
-| UCHAR \* Sectors, // points to an in-memory copy of the 11 sectors    |
-|                                                                       |
-| USHORT BytesPerSector                                                 |
-|                                                                       |
-| )                                                                     |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| UInt32 NumberOfBytes = (UInt32)BytesPerSector \* 11;                  |
-|                                                                       |
-| UInt32 Checksum = 0;                                                  |
-|                                                                       |
-| UInt32 Index;                                                         |
-|                                                                       |
-| for (Index = 0; Index \< NumberOfBytes; Index++)                      |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| if ((Index == 106) \|\| (Index == 107) \|\| (Index == 112))           |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| continue;                                                             |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum\>\>1) +        |
-| (UInt32)Sectors\[Index\];                                             |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| return Checksum;                                                      |
-|                                                                       |
-| }                                                                     |
-+-----------------------------------------------------------------------+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>UInt32 BootChecksum</p>
+<p>(</p>
+<p>UCHAR * Sectors, // points to an in-memory copy of the 11 sectors</p>
+<p>USHORT BytesPerSector</p>
+<p>)</p>
+<p>{</p>
+<p>UInt32 NumberOfBytes = (UInt32)BytesPerSector * 11;</p>
+<p>UInt32 Checksum = 0;</p>
+<p>UInt32 Index;</p>
+<p>for (Index = 0; Index &lt; NumberOfBytes; Index++)</p>
+<p>{</p>
+<p>if ((Index == 106) || (Index == 107) || (Index == 112))</p>
+<p>{</p>
+<p>continue;</p>
+<p>}</p>
+<p>Checksum = ((Checksum&amp;1) ? 0x80000000 : 0) + (Checksum&gt;&gt;1) + (UInt32)Sectors[Index];</p>
+<p>}</p>
+<p>return Checksum;</p>
+<p>}</p></td>
+</tr>
+</tbody>
+</table>
 
  File Allocation Table Region
 ============================
@@ -1311,71 +1329,69 @@ structures. A FAT represents a cluster chain as a singly-linked list of
 cluster indices. With the exception of the first two entries, every
 entry in a FAT represents exactly one cluster.
 
-[]{#_Ref179847570 .anchor}Table File Allocation Table Structure
+[]{#_Ref179847570 .anchor}Table 11 File Allocation Table Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| FatEntry\[0\]   | 0               | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 4.1.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FatEntry\[1\]   | 4               | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 4.1.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FatEntry\[2\]   | 8               | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 4.1.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-+-----------------+-----------------+-----------------+-----------------+
-| FatEntry\[Clust | (ClusterCount + | 4               | This field is   |
-| erCount+1\]     | 1) \* 4         |                 | mandatory and   |
-|                 |                 |                 | Section 4.1.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | ClusterCount +  |
-|                 |                 |                 | 1 can never     |
-|                 |                 |                 | exceed          |
-|                 |                 |                 | FFFFFFF6h.      |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterCount    |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
-| ExcessSpace     | (ClusterCount + | (FatLength \*   | This field is   |
-|                 | 2) \* 4         | 2^BytesPerSecto | mandatory and   |
-|                 |                 | rShift^)        | its contents,   |
-|                 |                 | --              | if any, are     |
-|                 |                 | ((ClusterCount  | undefined.      |
-|                 |                 | + 2) \* 4)      |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterCount,   |
-|                 |                 |                 | FatLength, and  |
-|                 |                 |                 | BytesPerSectorS |
-|                 |                 |                 | hift            |
-|                 |                 |                 | fields.         |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>FatEntry[0]</td>
+<td>0</td>
+<td>4</td>
+<td>This field is mandatory and Section 4.1.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>FatEntry[1]</td>
+<td>4</td>
+<td>4</td>
+<td>This field is mandatory and Section 4.1.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>FatEntry[2]</td>
+<td>8</td>
+<td>4</td>
+<td>This field is mandatory and Section 4.1.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+</tr>
+<tr class="odd">
+<td>FatEntry[ClusterCount+1]</td>
+<td>(ClusterCount + 1) * 4</td>
+<td>4</td>
+<td><p>This field is mandatory and Section 4.1.3 defines its contents.</p>
+<p>ClusterCount + 1 can never exceed FFFFFFF6h.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterCount field.</p></td>
+</tr>
+<tr class="even">
+<td>ExcessSpace</td>
+<td>(ClusterCount + 2) * 4</td>
+<td>(FatLength * 2<sup>BytesPerSectorShift</sup>) – ((ClusterCount + 2) * 4)</td>
+<td><p>This field is mandatory and its contents, if any, are undefined.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterCount, FatLength, and BytesPerSectorShift fields.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### FatEntry\[0\] Field
 
@@ -1438,54 +1454,50 @@ significant difference from exFAT's predecessors (FAT12, FAT16, and
 FAT32), in which a FAT maintained a record of the allocation state of
 all clusters in the Cluster Heap.
 
-[]{#_Ref179867754 .anchor}Table Cluster Heap Structure
+[]{#_Ref179867754 .anchor}Table 12 Cluster Heap Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(sector)**    | **(sectors)**   |                 |
-+=================+=================+=================+=================+
-| Cluster\[2\]    | ClusterHeapOffs | 2^SectorsPerClu | This field is   |
-|                 | et              | sterShift^      | mandatory and   |
-|                 |                 |                 | Section 5.1.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterHeapOffs |
-|                 |                 |                 | et              |
-|                 |                 |                 | and             |
-|                 |                 |                 | SectorsPerClust |
-|                 |                 |                 | erShift         |
-|                 |                 |                 | fields.         |
-+-----------------+-----------------+-----------------+-----------------+
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-+-----------------+-----------------+-----------------+-----------------+
-| Cluster\[Cluste | ClusterHeapOffs | 2^SectorsPerClu | This field is   |
-| rCount+1\]      | et              | sterShift^      | mandatory and   |
-|                 | + (ClusterCount |                 | Section 5.1.1   |
-|                 | -- 1) \*        |                 | defines its     |
-|                 | 2^SectorsPerClu |                 | contents.       |
-|                 | sterShift^      |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterCount,   |
-|                 |                 |                 | ClusterHeapOffs |
-|                 |                 |                 | et,             |
-|                 |                 |                 | and             |
-|                 |                 |                 | SectorsPerClust |
-|                 |                 |                 | erShift         |
-|                 |                 |                 | fields.         |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(sector)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(sectors)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cluster[2]</td>
+<td>ClusterHeapOffset</td>
+<td>2<sup>SectorsPerClusterShift</sup></td>
+<td><p>This field is mandatory and Section 5.1.1 defines its contents.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterHeapOffset and SectorsPerClusterShift fields.</p></td>
+</tr>
+<tr class="even">
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+</tr>
+<tr class="odd">
+<td>Cluster[ClusterCount+1]</td>
+<td>ClusterHeapOffset + (ClusterCount – 1) * 2<sup>SectorsPerClusterShift</sup></td>
+<td>2<sup>SectorsPerClusterShift</sup></td>
+<td><p>This field is mandatory and Section 5.1.1 defines its contents.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterCount, ClusterHeapOffset, and SectorsPerClusterShift fields.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Cluster\[2\] ... Cluster\[ClusterCount+1\] Fields
 
@@ -1510,47 +1522,49 @@ One or more directory entries combine into a directory entry set which
 describes something of interest, such as a file system structure,
 sub-directory, or file.
 
-[]{#_Ref185161811 .anchor}Table Directory Structure
+[]{#_Ref185161811 .anchor}Table 13 Directory Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| DirectoryEntry\ | 0               | 32              | This field is   |
-| [0\]            |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.1     |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-+-----------------+-----------------+-----------------+-----------------+
-| DirectoryEntry\ | (N -- 1) \* 32  | 32              | This field is   |
-| [N--1\]         |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.1     |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | N, the number   |
-|                 |                 |                 | of              |
-|                 |                 |                 | DirectoryEntry  |
-|                 |                 |                 | fields, is the  |
-|                 |                 |                 | size, in bytes, |
-|                 |                 |                 | of the cluster  |
-|                 |                 |                 | chain which     |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | given           |
-|                 |                 |                 | directory,      |
-|                 |                 |                 | divided by the  |
-|                 |                 |                 | size of a       |
-|                 |                 |                 | DirectoryEntry  |
-|                 |                 |                 | field, 32       |
-|                 |                 |                 | bytes.          |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DirectoryEntry[0]</td>
+<td>0</td>
+<td>32</td>
+<td>This field is mandatory and Section 6.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+</tr>
+<tr class="odd">
+<td>DirectoryEntry[N–1]</td>
+<td>(N – 1) * 32</td>
+<td>32</td>
+<td><p>This field is mandatory and Section 6.1 defines its contents.</p>
+<p>N, the number of DirectoryEntry fields, is the size, in bytes, of the cluster chain which contains the given directory, divided by the size of a DirectoryEntry field, 32 bytes.</p></td>
+</tr>
+</tbody>
+</table>
 
 DirectoryEntry\[0\] ... DirectoryEntry\[N--1\]
 ----------------------------------------------
@@ -1569,40 +1583,46 @@ directory entry structures except as defined in section 7.8 and section
 7.9). The ability to interpret the Generic DirectoryEntry template is
 mandatory.
 
-[]{#_Ref185069561 .anchor}Table Generic DirectoryEntry Template
+[]{#_Ref185069561 .anchor}Table 14 Generic DirectoryEntry Template
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.2.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CustomDefined   | 1               | 19              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | structures      |
-|                 |                 |                 | which derive    |
-|                 |                 |                 | from this       |
-|                 |                 |                 | template may    |
-|                 |                 |                 | define its      |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstCluster    | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.2.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DataLength      | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.2.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.2.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>CustomDefined</td>
+<td>1</td>
+<td>19</td>
+<td>This field is mandatory and structures which derive from this template may define its contents.</td>
+</tr>
+<tr class="odd">
+<td>FirstCluster</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 6.2.2 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>DataLength</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and Section 6.2.3 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -1655,37 +1675,46 @@ To prevent modifications to the InUse field (see Section 6.2.1.4)
 erroneously resulting in an end-of-directory marker, the value 80h is
 invalid.
 
-[]{#_Ref185071589 .anchor}Table Generic EntryType Field Structure
+[]{#_Ref185071589 .anchor}Table 15 Generic EntryType Field Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| TypeCode        | 0               | 5               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.2.1.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| TypeImportance  | 5               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.2.1.2 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| TypeCategory    | 6               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.2.1.3 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| InUse           | 7               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.2.1.4 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TypeCode</td>
+<td>0</td>
+<td>5</td>
+<td>This field is mandatory and Section 6.2.1.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>TypeImportance</td>
+<td>5</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.2.1.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>TypeCategory</td>
+<td>6</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.2.1.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>InUse</td>
+<td>7</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.2.1.4 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 #### TypeCode Field
 
@@ -1788,57 +1817,65 @@ All primary directory entry structures derive from the Generic Primary
 DirectoryEntry template (see Table 16), which derives from the Generic
 DirectoryEntry template (see Section 6.2).
 
-[]{#_Ref185658221 .anchor}Table Generic Primary DirectoryEntry Template
+[]{#_Ref185658221 .anchor}Table 16 Generic Primary DirectoryEntry
+Template
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SecondaryCount  | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SetChecksum     | 2               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| GeneralPrimaryF | 4               | 2               | This field is   |
-| lags            |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CustomDefined   | 6               | 14              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | structures      |
-|                 |                 |                 | which derive    |
-|                 |                 |                 | from this       |
-|                 |                 |                 | template define |
-|                 |                 |                 | its contents.   |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstCluster    | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DataLength      | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.6   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.3.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>SecondaryCount</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.3.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>SetChecksum</td>
+<td>2</td>
+<td>2</td>
+<td>This field is mandatory and Section 6.3.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>GeneralPrimaryFlags</td>
+<td>4</td>
+<td>2</td>
+<td>This field is mandatory and Section 6.3.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>CustomDefined</td>
+<td>6</td>
+<td>14</td>
+<td>This field is mandatory and structures which derive from this template define its contents.</td>
+</tr>
+<tr class="even">
+<td>FirstCluster</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 6.3.5 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>DataLength</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and Section 6.3.6 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -1921,49 +1958,33 @@ given directory entry set.
 Critical primary directory entry structures which derive from this
 template may redefine both the SecondaryCount and SetChecksum fields.
 
-[]{#_Ref185924885 .anchor}Figure EntrySetChecksum Computation
+[]{#_Ref185924885 .anchor}Figure 2 EntrySetChecksum Computation
 
-+-----------------------------------------------------------------------+
-| UInt16 EntrySetChecksum                                               |
-|                                                                       |
-| (                                                                     |
-|                                                                       |
-| UCHAR \* Entries, // points to an in-memory copy of the directory     |
-| entry set                                                             |
-|                                                                       |
-| UCHAR SecondaryCount                                                  |
-|                                                                       |
-| )                                                                     |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| UInt16 NumberOfBytes = ((UInt16)SecondaryCount + 1) \* 32;            |
-|                                                                       |
-| UInt16 Checksum = 0;                                                  |
-|                                                                       |
-| UInt16 Index;                                                         |
-|                                                                       |
-| for (Index = 0; Index \< NumberOfBytes; Index++)                      |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| if ((Index == 2) \|\| (Index == 3))                                   |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| continue;                                                             |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| Checksum = ((Checksum&1) ? 0x8000 : 0) + (Checksum\>\>1) +            |
-| (UInt16)Entries\[Index\];                                             |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| return Checksum;                                                      |
-|                                                                       |
-| }                                                                     |
-+-----------------------------------------------------------------------+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>UInt16 EntrySetChecksum</p>
+<p>(</p>
+<p>UCHAR * Entries, // points to an in-memory copy of the directory entry set</p>
+<p>UCHAR SecondaryCount</p>
+<p>)</p>
+<p>{</p>
+<p>UInt16 NumberOfBytes = ((UInt16)SecondaryCount + 1) * 32;</p>
+<p>UInt16 Checksum = 0;</p>
+<p>UInt16 Index;</p>
+<p>for (Index = 0; Index &lt; NumberOfBytes; Index++)</p>
+<p>{</p>
+<p>if ((Index == 2) || (Index == 3))</p>
+<p>{</p>
+<p>continue;</p>
+<p>}</p>
+<p>Checksum = ((Checksum&amp;1) ? 0x8000 : 0) + (Checksum&gt;&gt;1) + (UInt16)Entries[Index];</p>
+<p>}</p>
+<p>return Checksum;</p>
+<p>}</p></td>
+</tr>
+</tbody>
+</table>
 
 ### GeneralPrimaryFlags Field
 
@@ -1972,35 +1993,41 @@ The GeneralPrimaryFlags field contains flags (see Table 17).
 Critical primary directory entry structures which derive from this
 template may redefine this field.
 
-[]{#_Ref185695203 .anchor}Table Generic GeneralPrimaryFlags Field
+[]{#_Ref185695203 .anchor}Table 17 Generic GeneralPrimaryFlags Field
 Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| AllocationPossi | 0               | 1               | This field is   |
-| ble             |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.4.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| NoFatChain      | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.3.4.2 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CustomDefined   | 2               | 14              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | structures      |
-|                 |                 |                 | which derive    |
-|                 |                 |                 | from this       |
-|                 |                 |                 | template may    |
-|                 |                 |                 | define this     |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AllocationPossible</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.3.4.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>NoFatChain</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.3.4.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>CustomDefined</td>
+<td>2</td>
+<td>14</td>
+<td>This field is mandatory and structures which derive from this template may define this field.</td>
+</tr>
+</tbody>
+</table>
 
 #### AllocationPossible Field
 
@@ -2087,46 +2114,53 @@ All secondary directory entry structures derive from the Generic
 Secondary DirectoryEntry template (see Table 18), which derives from the
 Generic DirectoryEntry template (see Section 6.2).
 
-[]{#_Ref185429473 .anchor}Table Generic Secondary DirectoryEntry
+[]{#_Ref185429473 .anchor}Table 18 Generic Secondary DirectoryEntry
 Template
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.4.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| GeneralSecondar | 1               | 1               | This field is   |
-| yFlags          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.4.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CustomDefined   | 2               | 18              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | structures      |
-|                 |                 |                 | which derive    |
-|                 |                 |                 | from this       |
-|                 |                 |                 | template define |
-|                 |                 |                 | its contents.   |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstCluster    | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.4.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DataLength      | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.4.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.4.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>GeneralSecondaryFlags</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.4.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>CustomDefined</td>
+<td>2</td>
+<td>18</td>
+<td>This field is mandatory and structures which derive from this template define its contents.</td>
+</tr>
+<tr class="even">
+<td>FirstCluster</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 6.4.3 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>DataLength</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and Section 6.4.4 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -2186,35 +2220,41 @@ DirectoryEntry template (see Section 6.2.1.4).
 
 The GeneralSecondaryFlags field contains flags (see Table 19).
 
-[]{#_Ref185430374 .anchor}Table Generic GeneralSecondaryFlags Field
+[]{#_Ref185430374 .anchor}Table 19 Generic GeneralSecondaryFlags Field
 Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| AllocationPossi | 0               | 1               | This field is   |
-| ble             |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.4.2.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| NoFatChain      | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 6.4.2.2 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CustomDefined   | 2               | 6               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | structures      |
-|                 |                 |                 | which derive    |
-|                 |                 |                 | from this       |
-|                 |                 |                 | template may    |
-|                 |                 |                 | define this     |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AllocationPossible</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.4.2.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>NoFatChain</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 6.4.2.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>CustomDefined</td>
+<td>2</td>
+<td>6</td>
+<td>This field is mandatory and structures which derive from this template may define this field.</td>
+</tr>
+</tbody>
+</table>
 
 #### AllocationPossible Field
 
@@ -2299,43 +2339,53 @@ Further, the two Allocation Bitmap directory entries are only valid if
 one describes the First Allocation Bitmap and the other describes the
 Second Allocation Bitmap.
 
-[]{#_Ref187105521 .anchor}Table Allocation Bitmap DirectoryEntry
+[]{#_Ref187105521 .anchor}Table 20 Allocation Bitmap DirectoryEntry
 Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.1.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| BitmapFlags     | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.1.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 2               | 18              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstCluster    | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.1.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DataLength      | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.1.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.1.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>BitmapFlags</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.1.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Reserved</td>
+<td>2</td>
+<td>18</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="even">
+<td>FirstCluster</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.1.3 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>DataLength</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and Section 7.1.4 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -2372,24 +2422,34 @@ Primary DirectoryEntry template (see Section 6.3.1.4).
 
 The BitmapFlags field contains flags (see Table 21).
 
-[]{#_Ref187105939 .anchor}Table BitmapFlags Field Structure
+[]{#_Ref187105939 .anchor}Table 21 BitmapFlags Field Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| BitmapIdentifie | 0               | 1               | This field is   |
-| r               |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.1.2.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 1               | 7               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BitmapIdentifier</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.1.2.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved</td>
+<td>1</td>
+<td>7</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 #### BitmapIdentifier Field
 
@@ -2432,51 +2492,56 @@ An Allocation Bitmap represents clusters from lowest to highest index
 Note: the first bit in the bitmap is the lowest-order bit of the first
 byte.
 
-[]{#_Ref187103198 .anchor}Table Allocation Bitmap Structure
+[]{#_Ref187103198 .anchor}Table 22 Allocation Bitmap Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| BitmapEntry\[2\ | 0               | 1               | This field is   |
-| ]               |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.1.5.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-|                 |                 |                 |                 |
-| .               | .               | .               | .               |
-+-----------------+-----------------+-----------------+-----------------+
-| BitmapEntry\[Cl | ClusterCount -  | 1               | This field is   |
-| usterCount+1\]  | 1               |                 | mandatory and   |
-|                 |                 |                 | Section 7.1.5.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterCount    |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | ClusterCount    | (DataLength \*  | This field is   |
-|                 |                 | 8) --           | mandatory and   |
-|                 |                 | ClusterCount    | its contents,   |
-|                 |                 |                 | if any, are     |
-|                 |                 |                 | reserved.       |
-|                 |                 |                 |                 |
-|                 |                 |                 | Note: the Main  |
-|                 |                 |                 | and Backup Boot |
-|                 |                 |                 | Sectors both    |
-|                 |                 |                 | contain the     |
-|                 |                 |                 | ClusterCount    |
-|                 |                 |                 | field.          |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BitmapEntry[2]</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.1.5.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+</tr>
+<tr class="odd">
+<td>BitmapEntry[ClusterCount+1]</td>
+<td>ClusterCount - 1</td>
+<td>1</td>
+<td><p>This field is mandatory and Section 7.1.5.1 defines its contents.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterCount field.</p></td>
+</tr>
+<tr class="even">
+<td>Reserved</td>
+<td>ClusterCount</td>
+<td>(DataLength * 8) – ClusterCount</td>
+<td><p>This field is mandatory and its contents, if any, are reserved.</p>
+<p>Note: the Main and Backup Boot Sectors both contain the ClusterCount field.</p></td>
+</tr>
+</tbody>
+</table>
 
 #### BitmapEntry\[2\] ... BitmapEntry\[ClusterCount+1\] Fields
 
@@ -2510,47 +2575,59 @@ Due to the relationship between the Up-case Table and file names,
 implementations should not modify the Up-case Table, except as a result
 of format operations.
 
-[]{#_Ref187116618 .anchor}Table Up-case Table DirectoryEntry Structure
+[]{#_Ref187116618 .anchor}Table 23 Up-case Table DirectoryEntry
+Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.2.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved1       | 1               | 3               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| TableChecksum   | 4               | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.2.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved2       | 8               | 12              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstCluster    | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.2.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DataLength      | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.2.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.2.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved1</td>
+<td>1</td>
+<td>3</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="odd">
+<td>TableChecksum</td>
+<td>4</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.2.2 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved2</td>
+<td>8</td>
+<td>12</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="odd">
+<td>FirstCluster</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.2.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>DataLength</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and Section 7.2.4 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -2590,38 +2667,28 @@ The TableChecksum field contains the checksum of the Up-case Table
 shall verify the contents of this field are valid prior to using the
 Up-case Table.
 
-[]{#_Toc219626627 .anchor}Figure TableChecksum Computation
+[]{#_Toc219626627 .anchor}Figure 3 TableChecksum Computation
 
-+-----------------------------------------------------------------------+
-| UInt32 TableChecksum                                                  |
-|                                                                       |
-| (                                                                     |
-|                                                                       |
-| UCHAR \* Table, // points to an in-memory copy of the up-case table   |
-|                                                                       |
-| UInt64 DataLength                                                     |
-|                                                                       |
-| )                                                                     |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| UInt32 Checksum = 0;                                                  |
-|                                                                       |
-| UInt64 Index;                                                         |
-|                                                                       |
-| for (Index = 0; Index \< DataLength; Index++)                         |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum\>\>1) +        |
-| (UInt32)Table\[Index\];                                               |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| return Checksum;                                                      |
-|                                                                       |
-| }                                                                     |
-+-----------------------------------------------------------------------+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>UInt32 TableChecksum</p>
+<p>(</p>
+<p>UCHAR * Table, // points to an in-memory copy of the up-case table</p>
+<p>UInt64 DataLength</p>
+<p>)</p>
+<p>{</p>
+<p>UInt32 Checksum = 0;</p>
+<p>UInt64 Index;</p>
+<p>for (Index = 0; Index &lt; DataLength; Index++)</p>
+<p>{</p>
+<p>Checksum = ((Checksum&amp;1) ? 0x80000000 : 0) + (Checksum&gt;&gt;1) + (UInt32)Table[Index];</p>
+<p>}</p>
+<p>return Checksum;</p>
+<p>}</p></td>
+</tr>
+</tbody>
+</table>
 
 ### FirstCluster Field
 
@@ -2661,7 +2728,7 @@ range as equivalent. While such file names are only potentially
 equivalent, such implementations cannot ensure the fully up-cased file
 name does not collide with the name under comparison.
 
-[]{#_Ref187772045 .anchor}Table Mandatory First 128 Up-case Table
+[]{#_Ref187772045 .anchor}Table 24 Mandatory First 128 Up-case Table
 Entries
 
   **Table Index**   **Table Entries**                                                                           
@@ -2720,8 +2787,8 @@ If an implementation defines its own up-case table, either compressed or
 uncompressed, then that table shall cover the complete Unicode character
 range (from character codes 0000h to FFFFh inclusive).
 
-[]{#_Ref188111300 .anchor}Table Recommended Up-case Table in Compressed
-Format
+[]{#_Ref188111300 .anchor}Table 25 Recommended Up-case Table in
+Compressed Format
 
   **Raw Offset**   **Compressed Table Entries**                                                               
   ---------------- ------------------------------ --------- --------- --------- --------- --------- --------- ---------
@@ -3101,36 +3168,46 @@ Label exists as a critical primary directory entry in the root directory
 (see Table 26). The valid number of Volume Label directory entries
 ranges from 0 to 1.
 
-[]{#_Ref187589117 .anchor}Table Volume Label DirectoryEntry Structure
+[]{#_Ref187589117 .anchor}Table 26 Volume Label DirectoryEntry Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.3.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CharacterCount  | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.3.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VolumeLabel     | 2               | 22              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.3.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.3.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>CharacterCount</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.3.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>VolumeLabel</td>
+<td>2</td>
+<td>22</td>
+<td>This field is mandatory and Section 7.3.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -3192,95 +3269,106 @@ valid, exactly one Stream Extension directory entry and at least one
 File Name directory entry must immediately follow the File directory
 entry (see Sections 7.6 and 7.7, respectively).
 
-[]{#_Ref187590744 .anchor}Table File DirectoryEntry
+[]{#_Ref187590744 .anchor}Table 27 File DirectoryEntry
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SecondaryCount  | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SetChecksum     | 2               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FileAttributes  | 4               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved1       | 6               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| CreateTimestamp | 8               | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| LastModifiedTim | 12              | 4               | This field is   |
-| estamp          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.6   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| LastAccessedTim | 16              | 4               | This field is   |
-| estamp          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.7   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Create10msIncre | 20              | 1               | This field is   |
-| ment            |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| LastModified10m | 21              | 1               | This field is   |
-| sIncrement      |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.6   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| CreateUtcOffset | 22              | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| LastModifiedUtc | 23              | 1               | This field is   |
-| Offset          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.6   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| LastAccessedUtc | 24              | 1               | This field is   |
-| Offset          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.7   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved2       | 25              | 7               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>SecondaryCount</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>SetChecksum</td>
+<td>2</td>
+<td>2</td>
+<td>This field is mandatory and Section 7.4.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>FileAttributes</td>
+<td>4</td>
+<td>2</td>
+<td>This field is mandatory and Section 7.4.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Reserved1</td>
+<td>6</td>
+<td>2</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="even">
+<td>CreateTimestamp</td>
+<td>8</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.4.5 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>LastModifiedTimestamp</td>
+<td>12</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.4.6 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>LastAccessedTimestamp</td>
+<td>16</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.4.7 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Create10msIncrement</td>
+<td>20</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.5 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>LastModified10msIncrement</td>
+<td>21</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.6 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>CreateUtcOffset</td>
+<td>22</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.5 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>LastModifiedUtcOffset</td>
+<td>23</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.6 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>LastAccessedUtcOffset</td>
+<td>24</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.7 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved2</td>
+<td>25</td>
+<td>7</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -3325,53 +3413,64 @@ Generic Primary DirectoryEntry template (see Section 6.3.3).
 
 The FileAttributes field contains flags (see Table 28).
 
-[]{#_Ref187591866 .anchor}Table FileAttributes Field Structure
+[]{#_Ref187591866 .anchor}Table 28 FileAttributes Field Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| ReadOnly        | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | conforms to the |
-|                 |                 |                 | MS-DOS          |
-|                 |                 |                 | definition.     |
-+-----------------+-----------------+-----------------+-----------------+
-| Hidden          | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | conforms to the |
-|                 |                 |                 | MS-DOS          |
-|                 |                 |                 | definition.     |
-+-----------------+-----------------+-----------------+-----------------+
-| System          | 2               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | conforms to the |
-|                 |                 |                 | MS-DOS          |
-|                 |                 |                 | definition.     |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved1       | 3               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| Directory       | 4               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | conforms to the |
-|                 |                 |                 | MS-DOS          |
-|                 |                 |                 | definition.     |
-+-----------------+-----------------+-----------------+-----------------+
-| Archive         | 5               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | conforms to the |
-|                 |                 |                 | MS-DOS          |
-|                 |                 |                 | definition.     |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved2       | 6               | 10              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ReadOnly</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and conforms to the MS-DOS definition.</td>
+</tr>
+<tr class="even">
+<td>Hidden</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and conforms to the MS-DOS definition.</td>
+</tr>
+<tr class="odd">
+<td>System</td>
+<td>2</td>
+<td>1</td>
+<td>This field is mandatory and conforms to the MS-DOS definition.</td>
+</tr>
+<tr class="even">
+<td>Reserved1</td>
+<td>3</td>
+<td>1</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="odd">
+<td>Directory</td>
+<td>4</td>
+<td>1</td>
+<td>This field is mandatory and conforms to the MS-DOS definition.</td>
+</tr>
+<tr class="even">
+<td>Archive</td>
+<td>5</td>
+<td>1</td>
+<td>This field is mandatory and conforms to the MS-DOS definition.</td>
+</tr>
+<tr class="odd">
+<td>Reserved2</td>
+<td>6</td>
+<td>10</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 ### CreateTimestamp, Create10msIncrement, and CreateUtcOffset Fields
 
@@ -3432,49 +3531,58 @@ UtcOffset fields (see Sections 7.4.8 and 7.4.10, respectively).
 Timestamp fields describe both local date and time, down to a two-second
 resolution (see Table 29).
 
-[]{#_Ref187595538 .anchor}Table Timestamp Field Structure
+[]{#_Ref187595538 .anchor}Table 29 Timestamp Field Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| DoubleSeconds   | 0               | 5               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.8.1 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Minute          | 5               | 6               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.8.2 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Hour            | 11              | 5               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.8.3 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Day             | 16              | 5               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.8.4 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Month           | 21              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.8.5 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Year            | 25              | 7               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.4.8.6 |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DoubleSeconds</td>
+<td>0</td>
+<td>5</td>
+<td>This field is mandatory and Section 7.4.8.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Minute</td>
+<td>5</td>
+<td>6</td>
+<td>This field is mandatory and Section 7.4.8.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Hour</td>
+<td>11</td>
+<td>5</td>
+<td>This field is mandatory and Section 7.4.8.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Day</td>
+<td>16</td>
+<td>5</td>
+<td>This field is mandatory and Section 7.4.8.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Month</td>
+<td>21</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.4.8.5 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Year</td>
+<td>25</td>
+<td>7</td>
+<td>This field is mandatory and Section 7.4.8.6 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 #### DoubleSeconds Field
 
@@ -3556,27 +3664,34 @@ fields describe. The offset from UTC to the local date and time includes
 the effects of time zones and other date-time adjustments, such as
 daylight saving and regional summer time changes.
 
-[]{#_Ref200958757 .anchor}Table UtcOffset Field Structure
+[]{#_Ref200958757 .anchor}Table 30 UtcOffset Field Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(bit)**       | **(bits)**      |                 |
-+=================+=================+=================+=================+
-| OffsetFromUtc   | 0               | 7               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section         |
-|                 |                 |                 | 7.4.10.1        |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| OffsetValid     | 7               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section         |
-|                 |                 |                 | 7.4.10.2        |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(bit)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bits)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>OffsetFromUtc</td>
+<td>0</td>
+<td>7</td>
+<td>This field is mandatory and Section 7.4.10.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>OffsetValid</td>
+<td>7</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.4.10.2 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 #### OffsetFromUtc Field
 
@@ -3585,46 +3700,77 @@ date and time the related Timestamp and 10msIncrement fields contains.
 This field describes the offset from UTC in 15 minute intervals (see
 Table 31).
 
-[]{#_Ref200960690 .anchor}Table Meaning of the Values of the
+[]{#_Ref200960690 .anchor}Table 31 Meaning of the Values of the
 OffsetFromUtc Field
 
-+-----------------------+-----------------------+-----------------------+
-| **Value**             | **Signed Decimal      | **Description**       |
-|                       | Equivalent**          |                       |
-+=======================+=======================+=======================+
-| 3Fh                   | 63                    | Local date and time   |
-|                       |                       | is UTC + 15:45        |
-+-----------------------+-----------------------+-----------------------+
-| 3Eh                   | 62                    | Local date and time   |
-|                       |                       | is UTC + 15:30        |
-+-----------------------+-----------------------+-----------------------+
-| .                     | .                     | .                     |
-|                       |                       |                       |
-| .                     | .                     | .                     |
-|                       |                       |                       |
-| .                     | .                     | .                     |
-+-----------------------+-----------------------+-----------------------+
-| 01h                   | 1                     | Local date and time   |
-|                       |                       | is UTC + 00:15        |
-+-----------------------+-----------------------+-----------------------+
-| 00h                   | 0                     | Local date and time   |
-|                       |                       | is UTC                |
-+-----------------------+-----------------------+-----------------------+
-| 7Fh                   | -1                    | Local date and time   |
-|                       |                       | is UTC -- 00:15       |
-+-----------------------+-----------------------+-----------------------+
-| .                     | .                     | .                     |
-|                       |                       |                       |
-| .                     | .                     | .                     |
-|                       |                       |                       |
-| .                     | .                     | .                     |
-+-----------------------+-----------------------+-----------------------+
-| 41h                   | -63                   | Local date and time   |
-|                       |                       | is UTC -- 15:45       |
-+-----------------------+-----------------------+-----------------------+
-| 40h                   | -64                   | Local date and time   |
-|                       |                       | is UTC -- 16:00       |
-+-----------------------+-----------------------+-----------------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Value</strong></th>
+<th><strong>Signed Decimal Equivalent</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3Fh</td>
+<td>63</td>
+<td>Local date and time is UTC + 15:45</td>
+</tr>
+<tr class="even">
+<td>3Eh</td>
+<td>62</td>
+<td>Local date and time is UTC + 15:30</td>
+</tr>
+<tr class="odd">
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+</tr>
+<tr class="even">
+<td>01h</td>
+<td>1</td>
+<td>Local date and time is UTC + 00:15</td>
+</tr>
+<tr class="odd">
+<td>00h</td>
+<td>0</td>
+<td>Local date and time is UTC</td>
+</tr>
+<tr class="even">
+<td>7Fh</td>
+<td>-1</td>
+<td>Local date and time is UTC – 00:15</td>
+</tr>
+<tr class="odd">
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+<td><p>.</p>
+<p>.</p>
+<p>.</p></td>
+</tr>
+<tr class="even">
+<td>41h</td>
+<td>-63</td>
+<td>Local date and time is UTC – 15:45</td>
+</tr>
+<tr class="odd">
+<td>40h</td>
+<td>-64</td>
+<td>Local date and time is UTC – 16:00</td>
+</tr>
+</tbody>
+</table>
 
 As the table above indicates, all possible values for this field are
 valid. However, implementations should only record the value 00h for
@@ -3669,48 +3815,58 @@ The Volume GUID exists as a benign primary directory entry in the root
 directory (see Table 32). The valid number of Volume GUID directory
 entries ranges from 0 to 1.
 
-[]{#_Ref187676829 .anchor}Table Volume GUID DirectoryEntry
+[]{#_Ref187676829 .anchor}Table 32 Volume GUID DirectoryEntry
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.5.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SecondaryCount  | 1               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.5.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| SetChecksum     | 2               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.5.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| GeneralPrimaryF | 4               | 2               | This field is   |
-| lags            |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.5.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VolumeGuid      | 6               | 16              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.5.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved        | 22              | 10              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.5.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>SecondaryCount</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.5.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>SetChecksum</td>
+<td>2</td>
+<td>2</td>
+<td>This field is mandatory and Section 7.5.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>GeneralPrimaryFlags</td>
+<td>4</td>
+<td>2</td>
+<td>This field is mandatory and Section 7.5.4 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>VolumeGuid</td>
+<td>6</td>
+<td>16</td>
+<td>This field is mandatory and Section 7.5.5 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved</td>
+<td>22</td>
+<td>10</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -3792,70 +3948,82 @@ Stream Extension directory entries in a File directory entry set is 1.
 Further, this directory entry is valid only if it immediately follows
 the File directory entry.
 
-[]{#_Ref187680258 .anchor}Table Stream Extension DirectoryEntry
+[]{#_Ref187680258 .anchor}Table 33 Stream Extension DirectoryEntry
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.6.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| GeneralSecondar | 1               | 1               | This field is   |
-| yFlags          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.6.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved1       | 2               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| NameLength      | 3               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.6.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| NameHash        | 4               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.6.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved2       | 6               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| ValidDataLength | 8               | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.6.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| Reserved3       | 16              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | its contents    |
-|                 |                 |                 | are reserved.   |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstCluster    | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.6.6   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DataLength      | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.6.7   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.6.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>GeneralSecondaryFlags</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.6.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>Reserved1</td>
+<td>2</td>
+<td>1</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="even">
+<td>NameLength</td>
+<td>3</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.6.3 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>NameHash</td>
+<td>4</td>
+<td>2</td>
+<td>This field is mandatory and Section 7.6.4 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved2</td>
+<td>6</td>
+<td>2</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="odd">
+<td>ValidDataLength</td>
+<td>8</td>
+<td>8</td>
+<td>This field is mandatory and Section 7.6.5 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>Reserved3</td>
+<td>16</td>
+<td>4</td>
+<td>This field is mandatory and its contents are reserved.</td>
+</tr>
+<tr class="odd">
+<td>FirstCluster</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.6.6 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>DataLength</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and Section 7.6.7 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -3930,43 +4098,30 @@ comparison when searching for a file by name. Importantly, the NameHash
 provides a sure verification of a mismatch. Implementations shall verify
 all NameHash matches with a comparison of the up-cased file name.
 
-[]{#_Ref187682999 .anchor}Figure NameHash Computation
+[]{#_Ref187682999 .anchor}Figure 4 NameHash Computation
 
-+-----------------------------------------------------------------------+
-| UInt16 NameHash                                                       |
-|                                                                       |
-| (                                                                     |
-|                                                                       |
-| WCHAR \* FileName, // points to an in-memory copy of the up-cased     |
-| file name                                                             |
-|                                                                       |
-| UCHAR NameLength                                                      |
-|                                                                       |
-| )                                                                     |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| UCHAR \* Buffer = (UCHAR \*)FileName;                                 |
-|                                                                       |
-| UInt16 NumberOfBytes = (UInt16)NameLength \* 2;                       |
-|                                                                       |
-| UInt16 Hash = 0;                                                      |
-|                                                                       |
-| UInt16 Index;                                                         |
-|                                                                       |
-| for (Index = 0; Index \< NumberOfBytes; Index++)                      |
-|                                                                       |
-| {                                                                     |
-|                                                                       |
-| Hash = ((Hash&1) ? 0x8000 : 0) + (Hash\>\>1) +                        |
-| (UInt16)Buffer\[Index\];                                              |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| return Hash;                                                          |
-|                                                                       |
-| }                                                                     |
-+-----------------------------------------------------------------------+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>UInt16 NameHash</p>
+<p>(</p>
+<p>WCHAR * FileName, // points to an in-memory copy of the up-cased file name</p>
+<p>UCHAR NameLength</p>
+<p>)</p>
+<p>{</p>
+<p>UCHAR * Buffer = (UCHAR *)FileName;</p>
+<p>UInt16 NumberOfBytes = (UInt16)NameLength * 2;</p>
+<p>UInt16 Hash = 0;</p>
+<p>UInt16 Index;</p>
+<p>for (Index = 0; Index &lt; NumberOfBytes; Index++)</p>
+<p>{</p>
+<p>Hash = ((Hash&amp;1) ? 0x8000 : 0) + (Hash&gt;&gt;1) + (UInt16)Buffer[Index];</p>
+<p>}</p>
+<p>return Hash;</p>
+<p>}</p></td>
+</tr>
+</tbody>
+</table>
 
 ### ValidDataLength Field
 
@@ -4021,31 +4176,40 @@ All children of a given directory entry shall have unique File Name
 Directory Entry Sets. That is to say there can be no duplicate file or
 directory names after up-casing within any one directory.
 
-[]{#_Ref188096306 .anchor}Table File Name DirectoryEntry
+[]{#_Ref188096306 .anchor}Table 34 File Name DirectoryEntry
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.7.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| GeneralSecondar | 1               | 1               | This field is   |
-| yFlags          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.7.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FileName        | 2               | 30              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.7.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.7.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>GeneralSecondaryFlags</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.7.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>FileName</td>
+<td>2</td>
+<td>30</td>
+<td>This field is mandatory and Section 7.7.3 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -4111,7 +4275,7 @@ The concatenated file name has the same set of illegal characters as
 other FAT-based file systems (see Table 35). Implementations should set
 the unused characters of FileName fields to the value 0000h.
 
-[]{#_Ref188098921 .anchor}Table Invalid FileName Characters
+[]{#_Ref188098921 .anchor}Table 35 Invalid FileName Characters
 
   **Character Code**   **Description**   **Character Code**   **Description**     **Character Code**   **Description**
   -------------------- ----------------- -------------------- ------------------- -------------------- -----------------
@@ -4166,37 +4330,46 @@ Implementations which do not recognize the GUID of a Vendor Extension
 directory entry shall treat the directory entry the same as any other
 unrecognized benign secondary directory entry (see Section 8.2).
 
-[]{#_Ref200972245 .anchor}Table Vendor Extension DirectoryEntry
+[]{#_Ref200972245 .anchor}Table 36 Vendor Extension DirectoryEntry
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.8.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| GeneralSecondar | 1               | 1               | This field is   |
-| yFlags          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.8.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VendorGuid      | 2               | 16              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.8.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VendorDefined   | 18              | 14              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | vendors may     |
-|                 |                 |                 | define its      |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.8.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>GeneralSecondaryFlags</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.8.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>VendorGuid</td>
+<td>2</td>
+<td>16</td>
+<td>This field is mandatory and Section 7.8.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>VendorDefined</td>
+<td>18</td>
+<td>14</td>
+<td>This field is mandatory and vendors may define its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -4284,49 +4457,58 @@ Implementations which do not recognize the GUID of a Vendor Allocation
 directory entry shall treat the directory entry the same as any other
 unrecognized benign secondary directory entry (see Section 8.2).
 
-[]{#_Ref201072192 .anchor}Table Vendor Allocation DirectoryEntry
+[]{#_Ref201072192 .anchor}Table 37 Vendor Allocation DirectoryEntry
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(byte)**      |                 |
-+=================+=================+=================+=================+
-| EntryType       | 0               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.9.1   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| GeneralSecondar | 1               | 1               | This field is   |
-| yFlags          |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.9.2   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VendorGuid      | 2               | 16              | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.9.3   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| VendorDefined   | 18              | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | vendors may     |
-|                 |                 |                 | define its      |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| FirstCluster    | 20              | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.9.4   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
-| DataLength      | 24              | 8               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | Section 7.9.5   |
-|                 |                 |                 | defines its     |
-|                 |                 |                 | contents.       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EntryType</td>
+<td>0</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.9.1 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>GeneralSecondaryFlags</td>
+<td>1</td>
+<td>1</td>
+<td>This field is mandatory and Section 7.9.2 defines its contents.</td>
+</tr>
+<tr class="odd">
+<td>VendorGuid</td>
+<td>2</td>
+<td>16</td>
+<td>This field is mandatory and Section 7.9.3 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>VendorDefined</td>
+<td>18</td>
+<td>2</td>
+<td>This field is mandatory and vendors may define its contents.</td>
+</tr>
+<tr class="odd">
+<td>FirstCluster</td>
+<td>20</td>
+<td>4</td>
+<td>This field is mandatory and Section 7.9.4 defines its contents.</td>
+</tr>
+<tr class="even">
+<td>DataLength</td>
+<td>24</td>
+<td>8</td>
+<td>This field is mandatory and Section 7.9.5 defines its contents.</td>
+</tr>
+</tbody>
+</table>
 
 ### EntryType Field
 
@@ -4581,117 +4763,88 @@ hexadecimal digits, followed by three groups of 4 hexadecimal digits
 each, and followed by one group of 12 hexadecimal digits, for example
 {6B29FC40-CA47-1067-B31D-00DD010662DA}, (see Table 38).
 
-[]{#_Ref188115059 .anchor}Table GUID Structure
+[]{#_Ref188115059 .anchor}Table 38 GUID Structure
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Field Name**  | **Offset**      | **Size**        | **Comments**    |
-|                 |                 |                 |                 |
-|                 | **(byte)**      | **(bytes)**     |                 |
-+=================+=================+=================+=================+
-| Data1           | 0               | 4               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | four bytes from |
-|                 |                 |                 | the first group |
-|                 |                 |                 | of the GUID     |
-|                 |                 |                 | (6B29FC40h from |
-|                 |                 |                 | the example).   |
-+-----------------+-----------------+-----------------+-----------------+
-| Data2           | 4               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | two bytes from  |
-|                 |                 |                 | the second      |
-|                 |                 |                 | group of the    |
-|                 |                 |                 | GUID (CA47h     |
-|                 |                 |                 | from the        |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
-| Data3           | 6               | 2               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | two bytes from  |
-|                 |                 |                 | the third group |
-|                 |                 |                 | of the GUID     |
-|                 |                 |                 | (1067h from the |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[0\]      | 8               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | most            |
-|                 |                 |                 | significant     |
-|                 |                 |                 | byte from       |
-|                 |                 |                 | fourth group of |
-|                 |                 |                 | the GUID (B3h   |
-|                 |                 |                 | from the        |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[1\]      | 9               | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | least           |
-|                 |                 |                 | significant     |
-|                 |                 |                 | byte from the   |
-|                 |                 |                 | fourth group of |
-|                 |                 |                 | the GUID (1Dh   |
-|                 |                 |                 | from the        |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[2\]      | 10              | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | first byte from |
-|                 |                 |                 | the fifth group |
-|                 |                 |                 | of the GUID     |
-|                 |                 |                 | (00h from the   |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[3\]      | 11              | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | second byte     |
-|                 |                 |                 | from the fifth  |
-|                 |                 |                 | group of the    |
-|                 |                 |                 | GUID (DDh from  |
-|                 |                 |                 | the example).   |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[4\]      | 12              | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | third byte from |
-|                 |                 |                 | the fifth group |
-|                 |                 |                 | of the GUID     |
-|                 |                 |                 | (01h from the   |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[5\]      | 13              | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | fourth byte     |
-|                 |                 |                 | from the fifth  |
-|                 |                 |                 | group of the    |
-|                 |                 |                 | GUID (06h from  |
-|                 |                 |                 | the example).   |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[6\]      | 14              | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | fifth byte from |
-|                 |                 |                 | the fifth group |
-|                 |                 |                 | of the GUID     |
-|                 |                 |                 | (62h from the   |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
-| Data4\[7\]      | 15              | 1               | This field is   |
-|                 |                 |                 | mandatory and   |
-|                 |                 |                 | contains the    |
-|                 |                 |                 | sixth byte from |
-|                 |                 |                 | the fifth group |
-|                 |                 |                 | of the GUID     |
-|                 |                 |                 | (DAh from the   |
-|                 |                 |                 | example).       |
-+-----------------+-----------------+-----------------+-----------------+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Field Name</strong></th>
+<th><p><strong>Offset</strong></p>
+<p><strong>(byte)</strong></p></th>
+<th><p><strong>Size</strong></p>
+<p><strong>(bytes)</strong></p></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Data1</td>
+<td>0</td>
+<td>4</td>
+<td>This field is mandatory and contains the four bytes from the first group of the GUID (6B29FC40h from the example).</td>
+</tr>
+<tr class="even">
+<td>Data2</td>
+<td>4</td>
+<td>2</td>
+<td>This field is mandatory and contains the two bytes from the second group of the GUID (CA47h from the example).</td>
+</tr>
+<tr class="odd">
+<td>Data3</td>
+<td>6</td>
+<td>2</td>
+<td>This field is mandatory and contains the two bytes from the third group of the GUID (1067h from the example).</td>
+</tr>
+<tr class="even">
+<td>Data4[0]</td>
+<td>8</td>
+<td>1</td>
+<td>This field is mandatory and contains the most significant byte from fourth group of the GUID (B3h from the example).</td>
+</tr>
+<tr class="odd">
+<td>Data4[1]</td>
+<td>9</td>
+<td>1</td>
+<td>This field is mandatory and contains the least significant byte from the fourth group of the GUID (1Dh from the example).</td>
+</tr>
+<tr class="even">
+<td>Data4[2]</td>
+<td>10</td>
+<td>1</td>
+<td>This field is mandatory and contains the first byte from the fifth group of the GUID (00h from the example).</td>
+</tr>
+<tr class="odd">
+<td>Data4[3]</td>
+<td>11</td>
+<td>1</td>
+<td>This field is mandatory and contains the second byte from the fifth group of the GUID (DDh from the example).</td>
+</tr>
+<tr class="even">
+<td>Data4[4]</td>
+<td>12</td>
+<td>1</td>
+<td>This field is mandatory and contains the third byte from the fifth group of the GUID (01h from the example).</td>
+</tr>
+<tr class="odd">
+<td>Data4[5]</td>
+<td>13</td>
+<td>1</td>
+<td>This field is mandatory and contains the fourth byte from the fifth group of the GUID (06h from the example).</td>
+</tr>
+<tr class="even">
+<td>Data4[6]</td>
+<td>14</td>
+<td>1</td>
+<td>This field is mandatory and contains the fifth byte from the fifth group of the GUID (62h from the example).</td>
+</tr>
+<tr class="odd">
+<td>Data4[7]</td>
+<td>15</td>
+<td>1</td>
+<td>This field is mandatory and contains the sixth byte from the fifth group of the GUID (DAh from the example).</td>
+</tr>
+</tbody>
+</table>
 
 Partition Tables
 ----------------
@@ -4709,173 +4862,89 @@ Documentation Change History
 Table 39 describes the history of releases of, corrections to, additions
 to, removals from, and clarifications of this document.
 
-[]{#_Ref197808580 .anchor}Table Documentation Change History
+[]{#_Ref197808580 .anchor}Table 39 Documentation Change History
 
-+-----------------------------------+-----------------------------------+
-| **Date**                          | **Description of Change**         |
-+===================================+===================================+
-| 08-Jan-2008                       | First release of the Basic        |
-|                                   | Specification, which includes:    |
-|                                   |                                   |
-|                                   | > Section 1, Introduction         |
-|                                   | >                                 |
-|                                   | > Section 2,\                     |
-|                                   | > Volume Structure                |
-|                                   | >                                 |
-|                                   | > Section 3, Main and Backup Boot |
-|                                   | > Regions                         |
-|                                   | >                                 |
-|                                   | > Section 4, File Allocation      |
-|                                   | > Table Region                    |
-|                                   | >                                 |
-|                                   | > Section 5, Data Region          |
-|                                   | >                                 |
-|                                   | > Section 6, Directory Structure  |
-|                                   | >                                 |
-|                                   | > Section 7, Directory Entry      |
-|                                   | > Definitions                     |
-|                                   | >                                 |
-|                                   | > Section 8, Implementation Notes |
-|                                   | >                                 |
-|                                   | > Section 9, File System Limits   |
-|                                   | >                                 |
-|                                   | > Section 10, Appendix            |
-+-----------------------------------+-----------------------------------+
-| 08-Jun-2008                       | Second release of the Basic       |
-|                                   | Specification, which includes the |
-|                                   | following changes:                |
-|                                   |                                   |
-|                                   | > Addition of Section 11,\        |
-|                                   | > Documentation Change History    |
-|                                   | >                                 |
-|                                   | > Addition of the Vendor          |
-|                                   | > Extension and Vendor Allocation |
-|                                   | > directory entries in Sections   |
-|                                   | > 7.8 and 7.9                     |
-|                                   | >                                 |
-|                                   | > Addition of the recommended     |
-|                                   | > up-case table in Sections 7.2.5 |
-|                                   | > and 7.2.5.1                     |
-|                                   | >                                 |
-|                                   | > Addition of the UtcOffset       |
-|                                   | > fields in Section 7.4 and       |
-|                                   | > addition of the UTC acronym in  |
-|                                   | > Section 1.3                     |
-|                                   | >                                 |
-|                                   | > Correction of the size of the   |
-|                                   | > CustomDefined field in Table 19 |
-|                                   | >                                 |
-|                                   | > Correction of the valid range   |
-|                                   | > of NameLength values in Section |
-|                                   | > 7.6.3                           |
-|                                   | >                                 |
-|                                   | > Correction and clarification of |
-|                                   | > the Timestamp and 10msIncrement |
-|                                   | > fields in Section 7.4           |
-|                                   | >                                 |
-|                                   | > Clarification of the Null       |
-|                                   | > Parameters structure in Section |
-|                                   | > 3.3                             |
-|                                   | >                                 |
-|                                   | > Clarification of the meaning of |
-|                                   | > the values of the NoFatChain    |
-|                                   | > field in Section 6.3.4.2        |
-|                                   | >                                 |
-|                                   | > Clarification of the meaning of |
-|                                   | > the values of the DataLength    |
-|                                   | > field in Section 6.2.3          |
-|                                   | >                                 |
-|                                   | > Clarification of the            |
-|                                   | > VolumeDirty field in Section    |
-|                                   | > 3.1.13.2 and recommended write  |
-|                                   | > ordering in Section 8.1         |
-|                                   | >                                 |
-|                                   | > Clarification of the            |
-|                                   | > MediaFailure field in Section   |
-|                                   | > 3.1.13.3                        |
-+-----------------------------------+-----------------------------------+
-| 01-Oct-2008                       | Third release of the Basic        |
-|                                   | Specification, which includes the |
-|                                   | following changes:                |
-|                                   |                                   |
-|                                   | > Addition of SHALL, SHOULD and   |
-|                                   | > MAY to field explanations       |
-|                                   | >                                 |
-|                                   | > Addition of UTC definition in   |
-|                                   | > Table 2 Section 1.3             |
-|                                   | >                                 |
-|                                   | > Modified sections 1.5, to       |
-|                                   | > ensure alignment with the       |
-|                                   | > TexFAT specification document.  |
-|                                   | >                                 |
-|                                   | > Clarified the restriction that  |
-|                                   | > only Microsoft may define the   |
-|                                   | > layout of Directory Entries in  |
-|                                   | > Section 6.2                     |
-|                                   | >                                 |
-|                                   | > Added clarification that        |
-|                                   | > FirstCluster Field shall be     |
-|                                   | > zero if the DataLength is zero  |
-|                                   | > and NoFatChain is set to        |
-|                                   | > Section 6.3.5 and Section 6.4.3 |
-|                                   | >                                 |
-|                                   | > Clarified requirements for      |
-|                                   | > valid file directory entries in |
-|                                   | > Section 7.4                     |
-|                                   | >                                 |
-|                                   | > Added requirement for unique    |
-|                                   | > file and directory names to     |
-|                                   | > Section 7.7                     |
-|                                   | >                                 |
-|                                   | > Added implementation note for   |
-|                                   | > ASCII to the end of Section     |
-|                                   | > 7.7.3                           |
-+-----------------------------------+-----------------------------------+
-| 01-Jan-2009                       | Fourth release of the Basic       |
-|                                   | Specification, which includes the |
-|                                   | following changes:                |
-|                                   |                                   |
-|                                   | > Removed references to Windows   |
-|                                   | > CE Access Control entries       |
-|                                   | >                                 |
-|                                   | > Added clarification to Section  |
-|                                   | > 7.2.5.1 to explicitly require a |
-|                                   | > full up-case table              |
-+-----------------------------------+-----------------------------------+
-| 02-Sep-2009                       | Fifth release of the Basic        |
-|                                   | Specification, which includes the |
-|                                   | following changes:                |
-|                                   |                                   |
-|                                   | > Document formatting changes to  |
-|                                   | > allow better PDF conversion     |
-+-----------------------------------+-----------------------------------+
-| 24-Feb-2010                       | Sixth release of the Basic        |
-|                                   | Specification, which includes the |
-|                                   | following changes:                |
-|                                   |                                   |
-|                                   | > Amended incorrect statement:    |
-|                                   | > "FirstCluster Field shall be    |
-|                                   | > zero if the DataLength is zero  |
-|                                   | > and NoFatChain is set" in       |
-|                                   | > Section 6.3.5 and Section 6.4.3 |
-|                                   | > to "If the NoFatChain bit is 1  |
-|                                   | > then FirstCluster must point to |
-|                                   | > a valid cluster in the cluster  |
-|                                   | > heap" to clarify that there     |
-|                                   | > must be valid allocation if the |
-|                                   | > NoFatChain bit is set.          |
-|                                   | >                                 |
-|                                   | > Added "If the NoFatChain bit is |
-|                                   | > 1 then DataLength must not be   |
-|                                   | > zero. If the FirstCluster field |
-|                                   | > is zero, then DataLength must   |
-|                                   | > also be zero" to Section 6.3.6  |
-|                                   | > and Section 6.4.4 to clarify    |
-|                                   | > that there must be valid        |
-|                                   | > allocation if the NoFatChain    |
-|                                   | > bit is set.                     |
-|                                   | >                                 |
-|                                   | > Updated copyright notice to     |
-|                                   | > 2010                            |
-+-----------------------------------+-----------------------------------+
-
+<table>
+<thead>
+<tr class="header">
+<th><strong>Date</strong></th>
+<th><strong>Description of Change</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>08-Jan-2008</td>
+<td><p>First release of the Basic Specification, which includes:</p>
+<blockquote>
+<p>Section 1, Introduction</p>
+<p>Section 2,<br />
+Volume Structure</p>
+<p>Section 3, Main and Backup Boot Regions</p>
+<p>Section 4, File Allocation Table Region</p>
+<p>Section 5, Data Region</p>
+<p>Section 6, Directory Structure</p>
+<p>Section 7, Directory Entry Definitions</p>
+<p>Section 8, Implementation Notes</p>
+<p>Section 9, File System Limits</p>
+<p>Section 10, Appendix</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td>08-Jun-2008</td>
+<td><p>Second release of the Basic Specification, which includes the following changes:</p>
+<blockquote>
+<p>Addition of Section 11,<br />
+Documentation Change History</p>
+<p>Addition of the Vendor Extension and Vendor Allocation directory entries in Sections 7.8 and 7.9</p>
+<p>Addition of the recommended up-case table in Sections 7.2.5 and 7.2.5.1</p>
+<p>Addition of the UtcOffset fields in Section 7.4 and addition of the UTC acronym in Section 1.3</p>
+<p>Correction of the size of the CustomDefined field in Table 19</p>
+<p>Correction of the valid range of NameLength values in Section 7.6.3</p>
+<p>Correction and clarification of the Timestamp and 10msIncrement fields in Section 7.4</p>
+<p>Clarification of the Null Parameters structure in Section 3.3</p>
+<p>Clarification of the meaning of the values of the NoFatChain field in Section 6.3.4.2</p>
+<p>Clarification of the meaning of the values of the DataLength field in Section 6.2.3</p>
+<p>Clarification of the VolumeDirty field in Section 3.1.13.2 and recommended write ordering in Section 8.1</p>
+<p>Clarification of the MediaFailure field in Section 3.1.13.3</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td>01-Oct-2008</td>
+<td><p>Third release of the Basic Specification, which includes the following changes:</p>
+<blockquote>
+<p>Addition of SHALL, SHOULD and MAY to field explanations</p>
+<p>Addition of UTC definition in Table 2 Section 1.3</p>
+<p>Modified sections 1.5, to ensure alignment with the TexFAT specification document.</p>
+<p>Clarified the restriction that only Microsoft may define the layout of Directory Entries in Section 6.2</p>
+<p>Added clarification that FirstCluster Field shall be zero if the DataLength is zero and NoFatChain is set to Section 6.3.5 and Section 6.4.3</p>
+<p>Clarified requirements for valid file directory entries in Section 7.4</p>
+<p>Added requirement for unique file and directory names to Section 7.7</p>
+<p>Added implementation note for ASCII to the end of Section 7.7.3</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td>01-Jan-2009</td>
+<td><p>Fourth release of the Basic Specification, which includes the following changes:</p>
+<blockquote>
+<p>Removed references to Windows CE Access Control entries</p>
+<p>Added clarification to Section 7.2.5.1 to explicitly require a full up-case table</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td>02-Sep-2009</td>
+<td><p>Fifth release of the Basic Specification, which includes the following changes:</p>
+<blockquote>
+<p>Document formatting changes to allow better PDF conversion</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td>24-Feb-2010</td>
+<td><p>Sixth release of the Basic Specification, which includes the following changes:</p>
+<blockquote>
+<p>Amended incorrect statement: “FirstCluster Field shall be zero if the DataLength is zero and NoFatChain is set” in Section 6.3.5 and Section 6.4.3 to “If the NoFatChain bit is 1 then FirstCluster must point to a valid cluster in the cluster heap“ to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
+<p>Added “If the NoFatChain bit is 1 then DataLength must not be zero. If the FirstCluster field is zero, then DataLength must also be zero” to Section 6.3.6 and Section 6.4.4 to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
+<p>Updated copyright notice to 2010</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
