@@ -62,9 +62,7 @@ When running in Per-Monitor v2 Awareness mode, applications are notified when th
 > [!Note]  
 > Per-Monitor V1 (PMv1) awareness is very limited. It is recommended that applications use PMv2.
 
- 
-
-The table below shows how applications will render under different scenarios:
+The following table shows how applications will render under different scenarios:
 
 <table>
 <colgroup>
@@ -115,16 +113,12 @@ The table below shows how applications will render under different scenarios:
 <ul>
 <li>Non-client area</li>
 <li>Theme-drawn bitmaps in common controls (comctl32 V6)</li>
-<li>Dialogs ([CreateDialog](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogw))</li>
+<li>Dialogs (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogw">CreateDialog</a>)</li>
 </ul>
 <br/></td>
 </tr>
 </tbody>
 </table>
-
-
-
- 
 
 ### Per Monitor (V1) DPI Awareness
 
