@@ -154,7 +154,7 @@ The function in the preceding code example obtains the waveform device ID for a 
 
 -   Replace all of the **waveOutXxx** function calls in the preceding example with the corresponding **waveInXxx** function calls.
 -   Change handle type HWAVEOUT to HWAVEIN.
--   Replace [**ERole**](/windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002) enumeration constant eRender with eCapture.
+-   Replace [**ERole**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole) enumeration constant eRender with eCapture.
 
 In Windows Vista, the **waveOutOpen** and **waveInOpen** functions always assign the audio streams that they create to the default session—the process-specific session that is identified by the session GUID value GUID\_NULL.
 

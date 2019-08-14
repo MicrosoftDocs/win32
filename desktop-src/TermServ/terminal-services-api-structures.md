@@ -22,14 +22,14 @@ Contains the name and options of a Remote Desktop Services virtual channel.
 
 </dd> <dt>
 
-[**CHANNEL\_ENTRY\_POINTS**](/windows/desktop/api/Cchannel/ns-cchannel-tagchannel_entry_points)
+[**CHANNEL\_ENTRY\_POINTS**](/windows/win32/api/cchannel/ns-cchannel-channel_entry_points)
 </dt> <dd>
 
 Contains pointers to the functions called by a client-side DLL to access virtual channels.
 
 </dd> <dt>
 
-[**CHANNEL\_PDU\_HEADER**](/windows/desktop/api/Pchannel/ns-pchannel-tagchannel_pdu_header)
+[**CHANNEL\_PDU\_HEADER**](/windows/win32/api/pchannel/ns-pchannel-channel_pdu_header)
 </dt> <dd>
 
 Contains information about a data block being received by the server end of a virtual channel.
@@ -92,35 +92,35 @@ Contains information about a Remote Desktop Services listener.
 
 </dd> <dt>
 
-[**WTSSBX\_IP\_ADDRESS**](/windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0004)
+[**WTSSBX\_IP\_ADDRESS**](/windows/win32/api/tssbx/ns-tssbx-wtssbx_ip_address)
 </dt> <dd>
 
 Contains information about the IP address of a network resource.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_CONNECT\_INFO**](/windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0006)
+[**WTSSBX\_MACHINE\_CONNECT\_INFO**](/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info)
 </dt> <dd>
 
 Contains information about a computer that is accepting remote connections.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_INFO**](/windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0007)
+[**WTSSBX\_MACHINE\_INFO**](/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_info)
 </dt> <dd>
 
 Contains information about a computer and its current state.
 
 </dd> <dt>
 
-[**WTSSBX\_SESSION\_INFO**](/windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0009)
+[**WTSSBX\_SESSION\_INFO**](/windows/win32/api/tssbx/ns-tssbx-wtssbx_session_info)
 </dt> <dd>
 
 Contains information about sessions that are available to Remote Desktop Connection Broker (RD Connection Broker).
 
 </dd> <dt>
 
-[**WTSSESSION\_NOTIFICATION**](/windows/desktop/api/Winuser/ns-winuser-tagwtssession_notification)
+[**WTSSESSION\_NOTIFICATION**](/windows/win32/api/winuser/ns-winuser-wtssession_notification)
 </dt> <dd>
 
 Provides information about the session change notification. A service receives this structure in its [*HandlerEx*](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function in response to a session change event.

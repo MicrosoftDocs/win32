@@ -43,7 +43,7 @@ The data copy feature enables you to send data from one application to another.
 
 | Name                                                | Description                                                                                                       |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**COPYDATASTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcopydatastruct)<br/> | Contains data to be passed to another application by the [**WM\_COPYDATA**](wm-copydata.md) message. <br/> |
+| [**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-winuser-copydatastruct)<br/> | Contains data to be passed to another application by the [**WM\_COPYDATA**](wm-copydata.md) message. <br/> |
 
 
 

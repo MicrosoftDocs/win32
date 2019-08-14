@@ -15,7 +15,7 @@ This topic explains the procedure for matching a device context to a pixel forma
 
 **To obtain a device context's best match to a pixel format**
 
-1.  Specify the desired pixel format in a [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) structure.
+1.  Specify the desired pixel format in a [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) structure.
 2.  Call [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat).
 
     The **ChoosePixelFormat** function returns a pixel format index, which you can then pass to [**SetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-setpixelformat) to set the best pixel format match as the device context's current pixel format.

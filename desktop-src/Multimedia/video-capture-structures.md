@@ -13,10 +13,10 @@ ms.date: 05/31/2018
 
 The following structures are used with video capture.
 
--   [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps)
--   [**CAPINFOCHUNK**](/windows/desktop/api/Vfw/ns-vfw-tagcapinfochunk)
--   [**CAPSTATUS**](/windows/desktop/api/Vfw/ns-vfw-tagcapstatus)
--   [**CAPTUREPARMS**](/windows/desktop/api/Vfw/ns-vfw-tagcaptureparms)
+-   [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps)
+-   [**CAPINFOCHUNK**](/windows/win32/api/vfw/ns-vfw-capinfochunk)
+-   [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus)
+-   [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms)
 
 ## Related topics
 

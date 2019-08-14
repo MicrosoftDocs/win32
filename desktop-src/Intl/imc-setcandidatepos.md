@@ -31,7 +31,7 @@ Set to IMC\_SETCANDIDATEPOS.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform) structure that contains the x coordinate and y coordinate for the candidates window. The application should set the **dwIndex** member of this structure.
+Pointer to a [**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform) structure that contains the x coordinate and y coordinate for the candidates window. The application should set the **dwIndex** member of this structure.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ This command is intended for applications that display composition characters on
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform)
+[**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform)
 </dt> <dt>
 
 [**WM\_IME\_CONTROL**](wm-ime-control.md)

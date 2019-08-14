@@ -38,7 +38,7 @@ LVN_INCREMENTALSEARCH
 *lParam* \[in\]
 </dt> <dd>
 
-Pointer to a [**NMLVFINDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) and [**LVFINDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfindinfoa) structures. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_INCREMENTALSEARCH.
+Pointer to a [**NMLVFINDITEM**](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) and [**LVFINDINFO**](/windows/win32/api/commctrl/ns-commctrl-lvfindinfoa) structures. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_INCREMENTALSEARCH.
 
 </dd> </dl>
 
@@ -48,11 +48,11 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLVFINDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema) structure. The *wParam* parameter contains the ID of the control that sends this notification code.
+The notification receiver casts *lParam* to retrieve the [**NMLVFINDITEM**](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema) structure. The *wParam* parameter contains the ID of the control that sends this notification code.
 
 This notification code gives an application (or the notification receiver) the opportunity to customize an incremental search. For example, if the search items are numeric, the application can perform a numerical search instead of a string search.
 
-The application sets the **lParam** member of the [**LVFINDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfindinfoa) structure contained in [**NMLVFINDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema) structure  to the result of the search, or to another application defined value to fail the search and indicate to the control how to proceed.
+The application sets the **lParam** member of the [**LVFINDINFO**](/windows/win32/api/commctrl/ns-commctrl-lvfindinfoa) structure contained in [**NMLVFINDITEM**](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema) structure  to the result of the search, or to another application defined value to fail the search and indicate to the control how to proceed.
 
 ## Requirements
 

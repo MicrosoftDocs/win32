@@ -24,7 +24,7 @@ g\_wszWMPicture
 
 ## Data Type
 
-[**WM\_PICTURE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmpicture) (**WMT\_TYPE\_BINARY**)
+[**WM\_PICTURE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture) (**WMT\_TYPE\_BINARY**)
 
 ## Remarks
 
@@ -39,7 +39,7 @@ WM/Picture attributes added with the objects of the Windows Media Format SDK are
 [**Attribute List**](attribute-list.md)
 </dt> <dt>
 
-[**WM\_PICTURE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmpicture)
+[**WM\_PICTURE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture)
 </dt> </dl>
 
  

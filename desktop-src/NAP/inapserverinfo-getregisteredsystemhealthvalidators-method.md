@@ -54,7 +54,7 @@ A pointer to a [**SystemHealthEntityCount**](nap-type-constants.md) that contain
 *validators* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) structure that contains the SHV registration information.
+A pointer to a pointer to a [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) structure that contains the SHV registration information.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ Other COM-specific error codes also may be returned.
 
 <dl> <dt>
 
-[**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo)
+[**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo)
 </dt> <dt>
 
 [**INapServerInfo**](inapserverinfo.md)

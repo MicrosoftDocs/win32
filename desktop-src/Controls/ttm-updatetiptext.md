@@ -32,7 +32,7 @@ Sets the tooltip text for a tool.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure. The **hinst** and **lpszText** members must specify the instance handle and the address of the text. The **hwnd** and **uId** members identify the tool to update. The **cbSize** member of this structure must be filled in before sending this message.
+Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure. The **hinst** and **lpszText** members must specify the instance handle and the address of the text. The **hwnd** and **uId** members identify the tool to update. The **cbSize** member of this structure must be filled in before sending this message.
 
 </dd> </dl>
 

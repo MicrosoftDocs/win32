@@ -38,13 +38,13 @@ NM_CUSTOMDRAW
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure that contains information about the drawing operation. The **dwItemSpec** member of this structure contains the index of the item being drawn and the **lItemlParam** member of this structure contains the item's *lParam*.
+A pointer to an [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure that contains information about the drawing operation. The **dwItemSpec** member of this structure contains the index of the item being drawn and the **lItemlParam** member of this structure contains the item's *lParam*.
 
 </dd> </dl>
 
 ## Return value
 
-The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure holds a value that specifies the drawing stage. You must return one of the following values.
+The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure holds a value that specifies the drawing stage. You must return one of the following values.
 
 
 

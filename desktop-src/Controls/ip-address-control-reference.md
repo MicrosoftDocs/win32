@@ -74,7 +74,7 @@ This section contains information about the programming elements used with IP ad
 
 | Topic                              | Contents                                                                                              |
 |------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**NMIPADDRESS**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmipaddress) | Contains information for the [IPN\_FIELDCHANGED](ipn-fieldchanged.md) notification code. <br/> |
+| [**NMIPADDRESS**](/windows/win32/api/commctrl/ns-commctrl-nmipaddress) | Contains information for the [IPN\_FIELDCHANGED](ipn-fieldchanged.md) notification code. <br/> |
 
 
 

@@ -31,9 +31,9 @@ The *name* describes how the verb is appended by an [**AppendMenu**](https://msd
 
 The *menu\_flag* value indicates how the verb should appear in the menu. All flags supported by [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx) are supported, except for MF\_BITMAP, MF\_OWNERDRAW, and MF\_POPUP.
 
-The *verb\_flag* value describes attributes of the verbs. Use one of the values from [**OLEVERBATTRIB**](/windows/desktop/api/OleIdl/ne-oleidl-tagoleverbattrib), or 0.
+The *verb\_flag* value describes attributes of the verbs. Use one of the values from [**OLEVERBATTRIB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib), or 0.
 
-For more information, see [**OLEVERB**](/windows/desktop/api/OleIdl/ns-oleidl-tagoleverb), [**IOleObject::DoVerb**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-doverb), and [**IOleObject::EnumVerbs**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-enumverbs).
+For more information, see [**OLEVERB**](/windows/win32/api/oleidl/ns-oleidl-oleverb), [**IOleObject::DoVerb**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-doverb), and [**IOleObject::EnumVerbs**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-enumverbs).
 
 ## Related topics
 
@@ -42,10 +42,10 @@ For more information, see [**OLEVERB**](/windows/desktop/api/OleIdl/ns-oleidl-ta
 [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx)
 </dt> <dt>
 
-[**OLEVERB**](/windows/desktop/api/OleIdl/ns-oleidl-tagoleverb)
+[**OLEVERB**](/windows/win32/api/oleidl/ns-oleidl-oleverb)
 </dt> <dt>
 
-[**OLEVERBATTRIB**](/windows/desktop/api/OleIdl/ne-oleidl-tagoleverbattrib)
+[**OLEVERBATTRIB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib)
 </dt> </dl>
 
  

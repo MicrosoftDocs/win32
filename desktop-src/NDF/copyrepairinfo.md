@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CopyRepairInfo function
 
-The **CopyRepairInfo** function creates a copy of a [**RepairInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo) structure.
+The **CopyRepairInfo** function creates a copy of a [**RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo) structure.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT CopyRepairInfo(
 *Dest* \[out\]
 </dt> <dd>
 
-Type: **[**RepairInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo)\***
+Type: **[**RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo)\***
 
 The structure to be updated.
 
@@ -48,7 +48,7 @@ The structure to be updated.
 *Source* \[in\]
 </dt> <dd>
 
-Type: **const [**RepairInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo)\***
+Type: **const [**RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo)\***
 
 The existing structure to be copied.
 
@@ -88,7 +88,7 @@ Possible return values include, but are not limited to, the following.
 
 <dl> <dt>
 
-[**RepairInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo)
+[**RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo)
 </dt> </dl>
 
  

@@ -82,7 +82,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (16), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Component Categories\|[**CATEGORYINFO**](https://docs.microsoft.com/windows/desktop/api/comcat/ns-comcat-tagcategoryinfo)\|catid")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (16), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Component Categories\|[**CATEGORYINFO**](https://docs.microsoft.com/windows/win32/api/comcat/ns-comcat-categoryinfo)\|catid")
 </dt> </dl>
 
 GUID for this component category.
@@ -134,7 +134,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Component Categories\|[**CATEGORYINFO**](https://docs.microsoft.com/windows/desktop/api/comcat/ns-comcat-tagcategoryinfo)\|szDescription")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Component Categories\|[**CATEGORYINFO**](https://docs.microsoft.com/windows/win32/api/comcat/ns-comcat-categoryinfo)\|szDescription")
 </dt> </dl>
 
 The Name property indicates a descriptive name of this component category.

@@ -38,7 +38,7 @@ The version of the media application that is generating the event.
 *MediaType* 
 </dt> <dd>
 
-A value of the [**WPC\_MEDIA\_TYPE**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpc_media_type) enumeration that indicates information about the type of media file accessed.
+A value of the [**WPC\_MEDIA\_TYPE**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_media_type) enumeration that indicates information about the type of media file accessed.
 
 </dd> <dt>
 
@@ -73,14 +73,14 @@ The album metadata for the content.
 *Explicit* 
 </dt> <dd>
 
-A value of the [**WPC\_MEDIA\_EXPLICIT**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpc_media_explicit_type) enumeration that indicates information about the explicit rating of the media file.
+A value of the [**WPC\_MEDIA\_EXPLICIT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_media_explicit) enumeration that indicates information about the explicit rating of the media file.
 
 </dd> <dt>
 
 *Reason* 
 </dt> <dd>
 
-A value of the [**WPCFLAG\_ISBLOCKED**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpcflag_isblocked) enumeration that indicates information about what events are blocked from use and what controls are in place.
+A value of the [**WPCFLAG\_ISBLOCKED**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_isblocked) enumeration that indicates information about what events are blocked from use and what controls are in place.
 
 </dd> </dl>
 
@@ -103,7 +103,7 @@ A value of the [**WPCFLAG\_ISBLOCKED**](/windows/desktop/api/Wpcevent/ne-wpceven
 [Using Logging APIs for Parental Controls](using-logging-apis-for-parental-controls.md)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
 </dt> </dl>
 
  

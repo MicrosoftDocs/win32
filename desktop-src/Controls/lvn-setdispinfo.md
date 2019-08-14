@@ -38,7 +38,7 @@ LVN_SETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvdispinfo) structure that specifies information for the changed item. The **item** member of this structure is an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure that contains information about the item that was changed. The **pszText** member of **item** contains a valid value, regardless of whether the LVIF\_TEXT flag is set in the **mask** member of this structure.
+Pointer to an [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) structure that specifies information for the changed item. The **item** member of this structure is an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure that contains information about the item that was changed. The **pszText** member of **item** contains a valid value, regardless of whether the LVIF\_TEXT flag is set in the **mask** member of this structure.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvdispinfo) structure. The *wParam* parameter contains the message code.
+The notification receiver casts *lParam* to retrieve the [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) structure. The *wParam* parameter contains the message code.
 
 ## Requirements
 

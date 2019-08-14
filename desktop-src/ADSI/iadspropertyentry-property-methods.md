@@ -40,7 +40,7 @@ The property methods of the [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn
 **ADsType**
 </dt> <dd> <dl>
 
-The data type of the **Name** property. The values of the data type is defined in the [**ADSTYPEENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001) enumeration.
+The data type of the **Name** property. The values of the data type is defined in the [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) enumeration.
 
 <dt>
 
@@ -68,7 +68,7 @@ HRESULT put_ADsType(
 **ControlCode**
 </dt> <dd> <dl>
 
-A constant that specifies the operation to be performed on the named property. The value is defined in the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027) enumeration.
+A constant that specifies the operation to be performed on the named property. The value is defined in the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum) enumeration.
 
 <dt>
 
@@ -298,13 +298,13 @@ Cleanup:
 
 <dl> <dt>
 
-[**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027)
+[**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum)
 </dt> <dt>
 
 [ADSI Error Codes](adsi-error-codes.md)
 </dt> <dt>
 
-[**ADSTYPEENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001)
+[**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum)
 </dt> <dt>
 
 [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)

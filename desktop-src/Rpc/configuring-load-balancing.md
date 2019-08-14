@@ -70,7 +70,7 @@ DWORD. When the **NoSecurity** DWORD is not present or set to 0, incoming non-se
 
 **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy\\LBSConfiguration\\AssumeResourceUUID**
 
-DWORD. When the **AssumeResourceUUID** DWORD is not present no change in the LBS service occurs. When present, it must be set with a valid [**UUID**](https://msdn.microsoft.com/en-US/library/Aa379358(v=VS.80).aspx). This **UUID** will be used as the resource UUID for all connections which do not specify a resource UUID. This is commonly used in cases where clients do not specify a Resource UUID when they create the RPC/HTTP binding, but an administrator wishes to load balance the RPC/HTTP traffic to a server farm. If this key cannot be parsed to a UUID, an internal RPC error is lodged, generating [**RPC\_EXTENDED\_ERROR\_INFO**](/windows/desktop/api/Rpcasync/ns-rpcasync-tagrpc_extended_error_info) if it is enabled.
+DWORD. When the **AssumeResourceUUID** DWORD is not present no change in the LBS service occurs. When present, it must be set with a valid [**UUID**](https://msdn.microsoft.com/en-US/library/Aa379358(v=VS.80).aspx). This **UUID** will be used as the resource UUID for all connections which do not specify a resource UUID. This is commonly used in cases where clients do not specify a Resource UUID when they create the RPC/HTTP binding, but an administrator wishes to load balance the RPC/HTTP traffic to a server farm. If this key cannot be parsed to a UUID, an internal RPC error is lodged, generating [**RPC\_EXTENDED\_ERROR\_INFO**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_extended_error_info) if it is enabled.
 
 \-
 

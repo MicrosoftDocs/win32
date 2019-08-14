@@ -20,9 +20,9 @@ The following structures are specified in this section.
 
 | Structure                                          | Description                                                                              |
 |----------------------------------------------------|------------------------------------------------------------------------------------------|
-| [**GESTURECONFIG**](/windows/desktop/api/winuser/ns-winuser-taggestureconfig)             | Is used to set the configuration of which gesture messages are enabled or disabled.      |
-| [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo)                 | Contains information about a gesture.                                                    |
-| [**GESTURENOTIFYSTRUCT**](/windows/desktop/api/winuser/ns-winuser-taggesturenotifystruct) | Contains information about a [**WM\_GESTURENOTIFY**](wm-gesturenotify.md) notification. |
+| [**GESTURECONFIG**](/windows/win32/api/winuser/ns-winuser-gestureconfig)             | Is used to set the configuration of which gesture messages are enabled or disabled.      |
+| [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo)                 | Contains information about a gesture.                                                    |
+| [**GESTURENOTIFYSTRUCT**](/windows/win32/api/winuser/ns-winuser-gesturenotifystruct) | Contains information about a [**WM\_GESTURENOTIFY**](wm-gesturenotify.md) notification. |
 
 
 

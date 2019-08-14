@@ -44,9 +44,9 @@ GetMessage(&msg, NULL, 0, 0);
 
 This function removes the first message from the head of the queue. If the queue is empty, the function blocks until another message is queued. The fact that [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) blocks will not make your program unresponsive. If there are no messages, there is nothing for the program to do. If you have to perform background processing, you can create additional threads that continue to run while **GetMessage** waits for another message. (See [Avoiding Bottlenecks in Your Window Procedure](writing-the-window-procedure.md).)
 
-The first parameter of [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) is the address of a [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure. If the function succeeds, it fills in the **MSG** structure with information about the message. This includes the target window and the message code. The other three parameters let you filter which messages you get from the queue. In almost all cases, you will set these parameters to zero.
+The first parameter of [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) is the address of a [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure. If the function succeeds, it fills in the **MSG** structure with information about the message. This includes the target window and the message code. The other three parameters let you filter which messages you get from the queue. In almost all cases, you will set these parameters to zero.
 
-Although the [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure contains information about the message, you will almost never examine this structure directly. Instead, you will pass it directly to two other functions.
+Although the [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure contains information about the message, you will almost never examine this structure directly. Instead, you will pass it directly to two other functions.
 
 
 ```C++
@@ -64,7 +64,7 @@ For example, suppose that the user presses the left mouse button. This causes a 
 
 1.  The operating system puts a [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message on the message queue.
 2.  Your program calls the [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) function.
-3.  [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) pulls the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message from the queue and fills in the [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure.
+3.  [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) pulls the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message from the queue and fills in the [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure.
 4.  Your program calls the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) and [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) functions.
 5.  Inside [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage), the operating system calls your window procedure.
 6.  Your window procedure can either respond to the message or ignore it.

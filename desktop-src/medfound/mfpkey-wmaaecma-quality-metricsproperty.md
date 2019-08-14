@@ -20,7 +20,7 @@ VT\_BLOB
 
 ## Remarks
 
-The value of this property is an [AecQualityMetrics\_Struct](/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-tagaecqualitymetrics_struct) structure. This property is read-only.
+The value of this property is an [AecQualityMetrics\_Struct](/windows/win32/api/wmcodecdsp/ns-wmcodecdsp-aecqualitymetrics_struct) structure. This property is read-only.
 
 ## Requirements
 

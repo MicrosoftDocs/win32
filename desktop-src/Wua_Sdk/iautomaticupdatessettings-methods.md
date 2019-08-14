@@ -22,7 +22,7 @@ The [**IAutomaticUpdatesSettings**](/windows/desktop/api/Wuapi/nn-wuapi-iautomat
  
 
 > [!Note]  
-> On Windows RT, you can no longer use the [**IAutomaticUpdatesSettings::Save**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-save) method to configure Windows Update settings programmatically. The configuration operation fails if you use **Save** to set any value other than 4 ([**aunlScheduledInstallation**](/windows/desktop/api/Wuapi/ne-wuapi-tagautomaticupdatesnotificationlevel)).
+> On Windows RT, you can no longer use the [**IAutomaticUpdatesSettings::Save**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-save) method to configure Windows Update settings programmatically. The configuration operation fails if you use **Save** to set any value other than 4 ([**aunlScheduledInstallation**](/windows/win32/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel)).
 
  
 

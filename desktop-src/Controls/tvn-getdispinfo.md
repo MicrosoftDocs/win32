@@ -38,7 +38,7 @@ TVN_GETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoa) structure. The **item** member is a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure whose **mask**, **hItem**, **state**, and **lParam** members specify the type of information required. You must fill the members of the structure with the appropriate information.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoa) structure. The **item** member is a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure whose **mask**, **hItem**, **state**, and **lParam** members specify the type of information required. You must fill the members of the structure with the appropriate information.
 
 </dd> </dl>
 
@@ -50,9 +50,9 @@ The return value is ignored.
 
 This notification code is sent under the following circumstances:
 
--   If the **pszText** member of the item's [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification code to retrieve the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
--   If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure is the I\_IMAGECALLBACK value, the control sends this notification code to retrieve the index of an item's icons in the control's image list. In this case, if the item is selected, the **mask** member of *lParam* will have the TVIF\_SELECTEDIMAGE flag set. If the item is not selected, the **mask** member of *lParam* will have the TVIF\_IMAGE flag set.
--   If the **cChildren** member of the item's [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure is the I\_CHILDRENCALLBACK value, the control sends this notification code to retrieve a value that indicates whether the item has child items. In this case, the **mask** member of *lParam* will have the TVIF\_CHILDREN flag set.
+-   If the **pszText** member of the item's [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification code to retrieve the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
+-   If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure is the I\_IMAGECALLBACK value, the control sends this notification code to retrieve the index of an item's icons in the control's image list. In this case, if the item is selected, the **mask** member of *lParam* will have the TVIF\_SELECTEDIMAGE flag set. If the item is not selected, the **mask** member of *lParam* will have the TVIF\_IMAGE flag set.
+-   If the **cChildren** member of the item's [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure is the I\_CHILDRENCALLBACK value, the control sends this notification code to retrieve a value that indicates whether the item has child items. In this case, the **mask** member of *lParam* will have the TVIF\_CHILDREN flag set.
 
 ## Requirements
 

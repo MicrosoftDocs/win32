@@ -45,7 +45,7 @@ HRESULT GetIsolationInfo(
 *isolationInfo* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**IsolationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfo) structure that contains the connectivity state of the client.
+A pointer to a pointer to an [**IsolationInfo**](/windows/win32/api/naptypes/ns-naptypes-isolationinfo) structure that contains the connectivity state of the client.
 
 </dd> </dl>
 
@@ -67,7 +67,7 @@ Other COM-specific error codes also may be returned.
 
 ## Remarks
 
-This information is set by the NapAgent after processing a [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and must not be set by the enforcer.
+This information is set by the NapAgent after processing a [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) and must not be set by the enforcer.
 
 ## Requirements
 

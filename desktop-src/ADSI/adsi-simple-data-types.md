@@ -80,7 +80,7 @@ DWORD
 **ADS\_LARGE\_INTEGER**
 </dt> <dd>
 
-[**LARGE\_INTEGER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer)
+[**LARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1)
 
 </dd> <dt>
 

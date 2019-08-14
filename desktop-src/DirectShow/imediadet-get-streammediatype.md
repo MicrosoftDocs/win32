@@ -23,7 +23,7 @@ api_location:
 
  
 
-The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) types.
+The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) types.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ HRESULT get_StreamMediaType(
 *pVal* \[out, retval\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure that is filled with the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure that is filled with the media type.
 
 </dd> </dl>
 

@@ -10,18 +10,18 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora)
--   [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
--   [**DEVNAMES**](/windows/desktop/api/Commdlg/ns-commdlg-tagdevnames)
--   [**FINDREPLACE**](/windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea)
+-   [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1)
+-   [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
+-   [**DEVNAMES**](/windows/win32/api/commdlg/ns-commdlg-devnames)
+-   [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea)
 -   [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 -   [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa)
--   [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
--   [**OPENFILENAME\_NT4**](/windows/desktop/api/Commdlg/ns-commdlg-tagofn_nt4a)
--   [**PAGESETUPDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpsda)
--   [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda)
--   [**PRINTDLGEX**](/windows/desktop/api/Commdlg/ns-commdlg-tagpdexa)
--   [**PRINTPAGERANGE**](/windows/desktop/api/Commdlg/ns-commdlg-tagprintpagerange)
+-   [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
+-   [**OPENFILENAME\_NT4**](/windows/win32/api/commdlg/ns-commdlg-openfilename_nt4a)
+-   [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga)
+-   [**PRINTDLG**](/windows/win32/api/commdlg/ns-commdlg-printdlga)
+-   [**PRINTDLGEX**](/windows/win32/api/commdlg/ns-commdlg-printdlgexa)
+-   [**PRINTPAGERANGE**](/windows/win32/api/commdlg/ns-commdlg-printpagerange)
 
  
 

@@ -36,9 +36,9 @@ LVN_COLUMNDROPDOWN
 *lParam* \[in\]
 </dt> <dd>
 
-Pointer to a [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_COLUMNDROPDOWN.
+Pointer to a [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_COLUMNDROPDOWN.
 
-Set the **iItem** member of the [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure to -1. Set the **iSubItem** member to the index of the subitem. Set the **uNewState**, **uOldState**, and **lParam** members to zero. The remaining members of the **NMLISTVIEW** structure are not used.
+Set the **iItem** member of the [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure to -1. Set the **iSubItem** member to the index of the subitem. Set the **uNewState**, **uOldState**, and **lParam** members to zero. The remaining members of the **NMLISTVIEW** structure are not used.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure. The *wParam* parameter contains the ID of the control that sends the notification code.
+The notification receiver casts *lParam* to retrieve the [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure. The *wParam* parameter contains the ID of the control that sends the notification code.
 
 If a header control is a child of the list-view, the header control should send this notidication code to the list-view control when the header control receives the [HDN\_DROPDOWN](hdn-dropdown.md) notification code.
 

@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **SoHAttributeValue** union defines the contents of the **type** member in a [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute) structure. The structure of the **SoHAttributeValue** union is determined by the [**SoHAttributeType**](sohattributetype-enum.md) specified in the **type** member of the [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute) structure.
+The **SoHAttributeValue** union defines the contents of the **type** member in a [**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute) structure. The structure of the **SoHAttributeValue** union is determined by the [**SoHAttributeType**](sohattributetype-enum.md) specified in the **type** member of the [**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute) structure.
 
 ## Syntax
 
@@ -65,7 +65,7 @@ typedef union tagSoHAttributeValue {
 
 **case(sohAttributeTypeSystemHealthId)**
 
-A unique [SystemHealthEntityId](nap-datatypes.md) that contains the ID of the System Health Agent (SHA) or System Health Validator (SHV) that constructed this [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet.
+A unique [SystemHealthEntityId](nap-datatypes.md) that contains the ID of the System Health Agent (SHA) or System Health Validator (SHV) that constructed this [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet.
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ The number of IPv4 addresses in the **addresses** member in the range 1 to [**ma
 **addresses**
 </dt> <dd>
 
-An array of [**Ipv4Address**](/windows/desktop/api/NapTypes/ns-naptypes-tagipv4address) structures that contain the IPv4 addresses.
+An array of [**Ipv4Address**](/windows/win32/api/naptypes/ns-naptypes-ipv4address) structures that contain the IPv4 addresses.
 
 </dd> </dl> </dd> <dt>
 
@@ -111,7 +111,7 @@ The number of IPv4 addresses in the **addresses** member in the range 1 to [**ma
 **addresses**
 </dt> <dd>
 
-An array of [**Ipv6Address**](/windows/desktop/api/NapTypes/ns-naptypes-tagipv6address) structures that contain the IPv4 addresses.
+An array of [**Ipv6Address**](/windows/win32/api/naptypes/ns-naptypes-ipv6address) structures that contain the IPv4 addresses.
 
 </dd> </dl> </dd> <dt>
 
@@ -120,7 +120,7 @@ An array of [**Ipv6Address**](/windows/desktop/api/NapTypes/ns-naptypes-tagipv6a
 
 **case(sohAttributeTypeComplianceResultCodes, sohAttributeTypeErrorCodes)**
 
-A [**ResultCodes**](/windows/desktop/api/NapTypes/ns-naptypes-tagresultcodes) structure that contains either the application defined compliance result codes of the client or [**NAP error constants**](nap-error-constants.md). An [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet must contain this TLV or the **sohAttributeTypeFailureCategory** TLV.
+A [**ResultCodes**](/windows/win32/api/naptypes/ns-naptypes-resultcodes) structure that contains either the application defined compliance result codes of the client or [**NAP error constants**](nap-error-constants.md). An [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet must contain this TLV or the **sohAttributeTypeFailureCategory** TLV.
 
 </dd> <dt>
 
@@ -129,7 +129,7 @@ A [**ResultCodes**](/windows/desktop/api/NapTypes/ns-naptypes-tagresultcodes) st
 
 **case(sohAttributeTypeTimeOfLastUpdate, sohAttributeTypeSoHGenerationTime)**
 
-A [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=90006) structure that contains the time of the last [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) update or the **SoH** generation time.
+A [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=90006) structure that contains the time of the last [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) update or the **SoH** generation time.
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ A pointer to the vendor specific data in network byte order.
 
 **case(sohAttributeTypeHealthClass, sohAttributeTypeFailureCategory,sohAttributeTypeExtendedIsolationState)**
 
-The health class, failure category, or extended isolation state of a NAP component as either a [**HealthClassValue**](healthclassvalue-enum.md) or [**FailureCategory**](/windows/desktop/api/NapTypes/ne-naptypes-tagfailurecategory) value, or a [**IsolationInfoEx**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfoex) structure.
+The health class, failure category, or extended isolation state of a NAP component as either a [**HealthClassValue**](healthclassvalue-enum.md) or [**FailureCategory**](/windows/win32/api/naptypes/ne-naptypes-failurecategory) value, or a [**IsolationInfoEx**](/windows/win32/api/naptypes/ns-naptypes-isolationinfoex) structure.
 
 </dd> <dt>
 

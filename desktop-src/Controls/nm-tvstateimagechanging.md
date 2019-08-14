@@ -36,7 +36,7 @@ NM_TVSTATEIMAGECHANGING
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMTVSTATEIMAGECHANGING**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvstateimagechanging) structure that contains additional information about this notification.
+A pointer to an [**NMTVSTATEIMAGECHANGING**](/windows/win32/api/commctrl/ns-commctrl-nmtvstateimagechanging) structure that contains additional information about this notification.
 
 </dd> </dl>
 

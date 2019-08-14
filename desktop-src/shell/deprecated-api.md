@@ -13,7 +13,7 @@ topic_type:
 
 # Deprecated Shell APIs
 
-\[ [**FOLDERSETDATA**](/windows/desktop/api/Shdeprecated/ns-shdeprecated-tagfoldersetdata) may be altered or unavailable in subsequent versions of the operating system or product.\]
+\[ [**FOLDERSETDATA**](/windows/win32/api/shdeprecated/ns-shdeprecated-foldersetdata) may be altered or unavailable in subsequent versions of the operating system or product.\]
 
 \[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. \]
 
@@ -254,7 +254,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Deprecated. This enumeration is used by the <a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh"><strong>BASEBROWSERDATA</strong></a> structure to indicate the base browser's lock icon status.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-tagfoldersetdata"><strong>FOLDERSETDATA</strong></a><br/></td>
+<td><a href="/windows/win32/api/shdeprecated/ns-shdeprecated-foldersetdata"><strong>FOLDERSETDATA</strong></a><br/></td>
 <td>Deprecated. Data used in <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata"><strong>IBrowserService2::GetFolderSetData</strong></a>.<br/></td>
 </tr>
 <tr class="even">

@@ -28,7 +28,7 @@ Retrieves the states and attributes of an item.
 </dt> <dd>Must be **NULL**. </dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglitem">LITEM</a> structure to be filled with information about the item. </dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/win32/api/commctrl/ns-commctrl-litem">LITEM</a> structure to be filled with information about the item. </dd> </dl>
 
 ## Return value
 
@@ -36,7 +36,7 @@ Returns **TRUE** if the message succeeds in getting the values and attributes sp
 
 ## Remarks
 
-With the **LM\_GETITEM** message, links can only be accessed through the numeric index returned in the **iLink** member of [**LITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglitem). Accessing the link through the ID name returned in **szID** is not supported.
+With the **LM\_GETITEM** message, links can only be accessed through the numeric index returned in the **iLink** member of [**LITEM**](/windows/win32/api/commctrl/ns-commctrl-litem). Accessing the link through the ID name returned in **szID** is not supported.
 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).

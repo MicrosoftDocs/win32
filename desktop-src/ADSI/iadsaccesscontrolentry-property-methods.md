@@ -49,7 +49,7 @@ The property methods of the [**IADsAccessControlEntry**](/windows/desktop/api/Ia
 **AccessMask**
 </dt> <dd> <dl>
 
-Contains a set of flags that specifies access privileges for the object. Valid values for Active Directory objects are defined in the [**ADS\_RIGHTS\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0001) enumeration.
+Contains a set of flags that specifies access privileges for the object. Valid values for Active Directory objects are defined in the [**ADS\_RIGHTS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_rights_enum) enumeration.
 
 For more information and a list of possible values for file or file share objects, see [File Security and Access Rights](https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights).
 
@@ -81,7 +81,7 @@ HRESULT put_AccessMask(
 **AceFlags**
 </dt> <dd> <dl>
 
-Contains a set of flags that specifies if other containers or objects can inherit the ACE. Valid values for Active Directory object are defined in the [**ADS\_ACEFLAG\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0003) enumeration.
+Contains a set of flags that specifies if other containers or objects can inherit the ACE. Valid values for Active Directory object are defined in the [**ADS\_ACEFLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_aceflag_enum) enumeration.
 
 For more information and possible values for file, file share, and registry objects, see the **AceFlags** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
@@ -111,7 +111,7 @@ HRESULT put_AceFlags(
 **AceType**
 </dt> <dd> <dl>
 
-Contains a value that indicates the type of ACE. Valid values for Active Directory objects are defined in the [**ADS\_ACETYPE\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0002) enumeration.
+Contains a value that indicates the type of ACE. Valid values for Active Directory objects are defined in the [**ADS\_ACETYPE\_ENUM**](/windows/win32/api/iads/ne-iads-ads_acetype_enum) enumeration.
 
 For more information and possible values for file, file share, and registry objects, see the **AceType** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
@@ -141,7 +141,7 @@ HRESULT put_AceType(
 **Flags**
 </dt> <dd> <dl>
 
-A flag that indicates if the ACE has an object type or inherited object type. Valid flags are defined in the [**ADS\_FLAGTYPE\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0004) enumeration.
+A flag that indicates if the ACE has an object type or inherited object type. Valid flags are defined in the [**ADS\_FLAGTYPE\_ENUM**](/windows/win32/api/iads/ne-iads-ads_flagtype_enum) enumeration.
 
 <dt>
 

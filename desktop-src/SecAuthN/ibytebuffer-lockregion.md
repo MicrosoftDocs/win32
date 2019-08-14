@@ -79,7 +79,7 @@ The return value is an **HRESULT**. A value of S\_OK indicates the call was succ
 
 The byte range can extend past the current end of the stream. Locking beyond the end of a stream is useful as a method of communication between different instances of the stream without changing data that is actually part of the stream.
 
-Three types of locking can be supported: locking to exclude other writers, locking to exclude other readers or writers, and locking that allows only one requester to obtain a lock on the given range, which is usually an alias for one of the other two lock types. A given stream instance might support either of the first two types, or both. The lock type is specified by *dwLockType*, using a value from the [**LOCKTYPE**](https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype) enumeration.
+Three types of locking can be supported: locking to exclude other writers, locking to exclude other readers or writers, and locking that allows only one requester to obtain a lock on the given range, which is usually an alias for one of the other two lock types. A given stream instance might support either of the first two types, or both. The lock type is specified by *dwLockType*, using a value from the [**LOCKTYPE**](https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-locktype) enumeration.
 
 Any region locked with **LockRegion** must later be explicitly unlocked by calling [**IByteBuffer::UnlockRegion**](ibytebuffer-unlockregion.md) with exactly the same values for the *libOffset*, *cb*, and *dwLockType* parameters. The region must be unlocked before the stream is released. Two adjacent regions cannot be locked separately and then unlocked with a single unlock call.
 

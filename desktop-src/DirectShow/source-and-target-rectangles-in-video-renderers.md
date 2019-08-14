@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Source and Target Rectangles in Video Renderers
 
-There are three sizes found in the [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo), [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader), and [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) format structures of video media types. This article explains what they are and how they work.
+There are three sizes found in the [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo), [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader), and [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) format structures of video media types. This article explains what they are and how they work.
 
-First, there is a size in the **bmiHeader** member of these structures. The **bmiHeader** member is a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure with its own width and height members, **bmiHeader.biWidth** and **bmiHeader.biHeight**.
+First, there is a size in the **bmiHeader** member of these structures. The **bmiHeader** member is a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure with its own width and height members, **bmiHeader.biWidth** and **bmiHeader.biHeight**.
 
 Second, there is a rectangle in the **rcSource** member of these structures; and last, there is a rectangle in the **rcTarget** member of these structures.
 

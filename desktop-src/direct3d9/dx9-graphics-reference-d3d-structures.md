@@ -99,7 +99,7 @@ This section contains information about the structures used with Direct3D.
 -   [**D3DVOLUME\_DESC**](d3dvolume-desc.md)
 -   [**D3DVSHADERCAPS2\_0**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dvshadercaps2_0)
 -   [**D3DXF\_FILELOADMEMORY**](d3dxf-fileloadmemory.md)
--   [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry)
+-   [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry)
 -   [**XFILECOMPRESSEDANIMATIONSET**](xfilecompressedanimationset.md)
 
 ## Related topics

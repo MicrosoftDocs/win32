@@ -44,7 +44,7 @@ NAPAPI HRESULT WINAPI InitializeNapAgentNotifier(
 *type* \[in\]
 </dt> <dd>
 
-A [**NapNotifyType**](/windows/desktop/api/NapTypes/ne-naptypes-tagnapnotifytype) value that specifies the type of service notifications to receive.
+A [**NapNotifyType**](/windows/win32/api/naptypes/ne-naptypes-napnotifytype) value that specifies the type of service notifications to receive.
 
 </dd> <dt>
 

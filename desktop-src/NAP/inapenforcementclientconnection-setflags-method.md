@@ -45,7 +45,7 @@ HRESULT SetFlags(
 *flags* \[in\]
 </dt> <dd>
 
-Flags that determines if the [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) is due to a cached **SoHRequest**. If *flags* has a value of [**freshSoHRequest**](nap-type-constants.md), it is a new request; otherwise it is a cached request.
+Flags that determines if the [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) is due to a cached **SoHRequest**. If *flags* has a value of [**freshSoHRequest**](nap-type-constants.md), it is a new request; otherwise it is a cached request.
 
 </dd> </dl>
 

@@ -32,7 +32,7 @@ The simplest call to retrieve a device context is shown in the code example that
 
 
 
-To render to a specific printer, you must specify "WINSPOOL" as the device and pass the correct name of the printer to [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca). You can also pass a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure in the call to **CreateDC** if you want to provide device-specific initialization data for the device driver when you create the device context.
+To render to a specific printer, you must specify "WINSPOOL" as the device and pass the correct name of the printer to [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca). You can also pass a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure in the call to **CreateDC** if you want to provide device-specific initialization data for the device driver when you create the device context.
 
 The following example shows a call to [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) in which the "WINSPOOL" driver is selected and the printer name is specified by name.
 
@@ -109,13 +109,13 @@ For sample code that illustrates the use of [**PrintDlgEx**](https://msdn.micros
 
 If your application must run on a system that does not support the [**PrintDlgEx**](https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx) function, such as on a system that is running a version of Windows earlier than Windows 2000, or does not need the extra functionality that the **PrintDlgEx** function provides, use the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function. The following steps describe how to display the older style **Print** common dialog box.
 
-1.  Initialize the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) data structure.
+1.  Initialize the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) data structure.
 2.  Call [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) to display the **Print** common dialog box to the user.
-3.  If the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) call returns **TRUE**, lock the returned [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure memory. If the **PrintDlg** call returns **FALSE**, the user pressed the **Cancel** button in the **Print** common dialog box so there is nothing more to process.
-4.  Allocate a local memory buffer that is large enough to contain a copy of the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure.
-5.  Copy the returned [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure to the locally allocated one.
-6.  Save other information that is returned in the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure and that you will need to process the print job.
-7.  Free the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) and the memory buffers it references.
+3.  If the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) call returns **TRUE**, lock the returned [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure memory. If the **PrintDlg** call returns **FALSE**, the user pressed the **Cancel** button in the **Print** common dialog box so there is nothing more to process.
+4.  Allocate a local memory buffer that is large enough to contain a copy of the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure.
+5.  Copy the returned [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure to the locally allocated one.
+6.  Save other information that is returned in the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure and that you will need to process the print job.
+7.  Free the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) and the memory buffers it references.
 
 The following example code illustrates how to use the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function to get the device context and the name of selected printer.
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Unicode Subset Bitfields
 
-The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows/desktop/api/Wingdi/ns-wingdi-tagfontsignature) and [**LOCALESIGNATURE**](/windows/desktop/api/Wingdi/ns-wingdi-taglocalesignature) structures.
+The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-fontsignature) and [**LOCALESIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-localesignature) structures.
 
 
 

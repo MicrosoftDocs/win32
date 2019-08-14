@@ -53,7 +53,7 @@ A [**MessageId**](nap-datatypes.md) that contains the resource ID of the string 
 *string* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) that contains the localized version of the message.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) that contains the localized version of the message.
 
 </dd> </dl>
 

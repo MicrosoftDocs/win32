@@ -36,7 +36,7 @@ NM_CHAR
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMCHAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmchar) structure that contains additional information about the character that caused the notification code. The **dwItemPrev** member of this structure contains the command identifier of the item that is currently hot or -1 if no item is currently hot. The **dwItemNext** member of this structure contains the command identifier of the item that will become hot or -1 if the key does not match any item's accelerator.
+Pointer to an [**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar) structure that contains additional information about the character that caused the notification code. The **dwItemPrev** member of this structure contains the command identifier of the item that is currently hot or -1 if no item is currently hot. The **dwItemNext** member of this structure contains the command identifier of the item that will become hot or -1 if the key does not match any item's accelerator.
 
 </dd> </dl>
 

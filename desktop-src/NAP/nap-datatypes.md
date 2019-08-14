@@ -56,7 +56,7 @@ A [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=90006) structure that con
 **ProtocolMaxSize**
 </dt> <dd>
 
-A value that specifies the range of possible values for the maximum size, in bytes, of an [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet as defined by range([**minProtocolMaxSize, maxProtocolMaxSize**](nap-type-constants.md)).
+A value that specifies the range of possible values for the maximum size, in bytes, of an [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet as defined by range([**minProtocolMaxSize, maxProtocolMaxSize**](nap-type-constants.md)).
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ A value that specifies the number of enforcement clients in the NAP system in th
 **StringCorrelationId**
 </dt> <dd>
 
-The [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) version of a [**CorrelationId**](/windows/desktop/api/NapTypes/ns-naptypes-tagcorrelationid) structure used to pair [**SoHRequests**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) to **SoHResponses**.
+The [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) version of a [**CorrelationId**](/windows/win32/api/naptypes/ns-naptypes-correlationid) structure used to pair [**SoHRequests**](/windows/win32/api/naptypes/ns-naptypes-soh) to **SoHResponses**.
 
 </dd> <dt>
 

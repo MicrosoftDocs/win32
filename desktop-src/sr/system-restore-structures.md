@@ -12,8 +12,8 @@ ms.date: 05/31/2018
 
 The following structures are used with System Restore:
 
--   [**RESTOREPOINTINFO**](/windows/desktop/api/SRRestorePtAPI/ns-srrestoreptapi-_restoreptinfoa)
--   [**STATEMGRSTATUS**](/windows/desktop/api/SRRestorePtAPI/ns-srrestoreptapi-_smgrstatus)
+-   [**RESTOREPOINTINFO**](/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa)
+-   [**STATEMGRSTATUS**](/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus)
 
  
 

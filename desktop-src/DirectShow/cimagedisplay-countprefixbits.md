@@ -50,7 +50,7 @@ Returns the number of zero bits that occur before the first 1 bit, or 0x80000000
 
 ## Remarks
 
-This method is useful for working with color masks in [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structures.
+This method is useful for working with color masks in [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structures.
 
 ## Requirements
 

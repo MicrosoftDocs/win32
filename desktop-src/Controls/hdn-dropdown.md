@@ -36,7 +36,7 @@ HDN_DROPDOWN
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that contains information on the header control.
+A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains information on the header control.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ No return value.
 
 ## Remarks
 
-The example in the Syntax section shows how the notification receiver casts **LPARAM** to retrieve the [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure. **WPARAM** contains the ID of the control that sends this message.
+The example in the Syntax section shows how the notification receiver casts **LPARAM** to retrieve the [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure. **WPARAM** contains the ID of the control that sends this message.
 
 This message is sent only if style HDF\_SPLITBUTTON is set on the header item.
 

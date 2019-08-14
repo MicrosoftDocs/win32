@@ -46,7 +46,7 @@ HRESULT GetSystemIsolationInfoEx(
 *isolationInfo* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**IsolationInfoEx**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfoex) structure that contains isolation state information.
+A pointer to a pointer to an [**IsolationInfoEx**](/windows/win32/api/naptypes/ns-naptypes-isolationinfoex) structure that contains isolation state information.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 The isolation information that is retrieved does not reflect unknown states.
 
-The SHA must free the [**IsolationInfoEx**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfoex) structure by calling [**FreeIsolationInfoEx**](freeisolationinfoex.md).
+The SHA must free the [**IsolationInfoEx**](/windows/win32/api/naptypes/ns-naptypes-isolationinfoex) structure by calling [**FreeIsolationInfoEx**](freeisolationinfoex.md).
 
 ## Requirements
 

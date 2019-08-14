@@ -14,13 +14,13 @@ Structures are primarily collections of data elements or members that facilitate
 
 -   [**PROPSPEC**](https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx)
 -   [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx)
--   [**RemSNB**](/windows/desktop/api/Objidl/ns-objidl-tagremsnb)
+-   [**RemSNB**](/windows/win32/api/objidl/ns-objidl-remsnb)
 -   [**SNB**](snb.md)
 -   [**STATPROPSETSTG**](https://msdn.microsoft.com/en-us/library/Aa379184(v=VS.85).aspx)
 -   [**STATPROPSTG**](https://msdn.microsoft.com/en-us/library/Aa379210(v=VS.85).aspx)
--   [**STATSTG**](/windows/desktop/api/Objidl/ns-objidl-tagstatstg)
--   [**STGOPTIONS**](/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions)
--   [**StorageLayout**](/windows/desktop/api/Objidl/ns-objidl-tagstoragelayout)
+-   [**STATSTG**](/windows/win32/api/objidl/ns-objidl-statstg)
+-   [**STGOPTIONS**](/windows/win32/api/coml2api/ns-coml2api-stgoptions)
+-   [**StorageLayout**](/windows/win32/api/objidl/ns-objidl-storagelayout)
 
  
 

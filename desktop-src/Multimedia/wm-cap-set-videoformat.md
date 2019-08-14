@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by **s**.
 <span id="psVideoFormat"></span><span id="psvideoformat"></span><span id="PSVIDEOFORMAT"></span>*psVideoFormat*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure.
+Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure.
 
 </dd> </dl>
 

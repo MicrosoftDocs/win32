@@ -40,7 +40,7 @@ The following features are not supported in Windows Installer 2.0 and earlier v
 
 [Windows Installer Structures](installer-structures.md)
 
--   [**MSIPATCHSEQUENCEINFO**](/windows/desktop/api/Msi/ns-msi-tagmsipatchsequenceinfoa)
+-   [**MSIPATCHSEQUENCEINFO**](/windows/win32/api/msi/ns-msi-msipatchsequenceinfoa)
 
 [Database Tables](database-tables.md)
 

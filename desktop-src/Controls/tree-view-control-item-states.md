@@ -46,7 +46,7 @@ This section lists the item state flags used to indicate the state of an item in
 
 ## Remarks
 
-When you set or retrieve an item's overlay image index or state image index, you must specify the following masks in the **stateMask** member of the [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure:
+When you set or retrieve an item's overlay image index or state image index, you must specify the following masks in the **stateMask** member of the [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure:
 
 -   **TVIS\_OVERLAYMASK**
 -   **TVIS\_STATEIMAGEMASK**

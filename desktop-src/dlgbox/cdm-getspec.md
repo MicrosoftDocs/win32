@@ -88,7 +88,7 @@ int CommDlg_OpenSave_GetSpec(hwnd, lparam, wparam);
 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
+[**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
 **Conceptual**

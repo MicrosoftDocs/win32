@@ -27,7 +27,7 @@ Within the [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_e
 
 On the server, the **bInitialID** member of [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) specifies the ID that the server uses for the first EAP packet. The server increments this ID for subsequent packets.
 
-Also on the server, the **pUserAttributes** pointer in [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) points to an array of attributes of the [**RAS\_AUTH\_ATTRIBUTE\_TYPE**](/previous-versions/windows/desktop/api/Raseapif/ne-raseapif-_ras_auth_attribute_type_) type. These are attributes for the user that were obtained from the client.
+Also on the server, the **pUserAttributes** pointer in [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) points to an array of attributes of the [**RAS\_AUTH\_ATTRIBUTE\_TYPE**](/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type) type. These are attributes for the user that were obtained from the client.
 
 If the [**RasEapBegin**](https://msdn.microsoft.com/en-us/library/Aa363520(v=VS.85).aspx) call returns any value other than **NO\_ERROR**, the session is disconnected. The returned error is logged (on the server), or displayed to the user (on the client).
 

@@ -48,7 +48,7 @@ The LEAP authentication process differs from the regular EAPhost authentication 
 
 When developing a LEAP authenticator method, please ensure the following:
 
--   LEAP authenticator methods must return the [**EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_SEND**](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action) action code after the 1st phase of authentication (peer authentication) is successful. Then when [**EapMethodAuthenticatorSendPacket**](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsendpacket) is called, it should return a valid [**EapPacket**](/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket) with an EAP code of [**EapCodeSuccess**](/previous-versions/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode).
+-   LEAP authenticator methods must return the [**EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_SEND**](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action) action code after the 1st phase of authentication (peer authentication) is successful. Then when [**EapMethodAuthenticatorSendPacket**](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsendpacket) is called, it should return a valid [**EapPacket**](/windows/win32/api/eapmethodtypes/ns-eapmethodtypes-eappacket) with an EAP code of [**EapCodeSuccess**](/windows/win32/api/eapmethodtypes/ne-eapmethodtypes-eapcode).
 -   LEAP authenticator methods should return the [**EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_RESULT**](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action) action code if the 1st phase of peer authentication is unsuccessful.
 -   LEAP authenticator methods must return the final authentication response packet with the [**EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_RESULT**](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action) action code when [**EapMethodAuthenticatorSendPacket**](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsendpacket) is called. Then in subsequent calls to [**EapMethodAuthenticatorGetResult**](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetresult) the **EAP\_SESSION\_HANDLE** must be returned to identify the authenticated session.
 -   
@@ -57,8 +57,8 @@ When developing a LEAP authenticator method, please ensure the following:
 
 When developing a LEAP peer method, please ensure the following
 
--   LEAP peer methods should return the [**EapPeerMethodResponseActionSend**](/previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction) action code after the 1st phase of authentication (peer authentication) is successful.
--   LEAP peer methods should return the [**EapPeerMethodResponseActionResult**](/previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction) action code after the 2nd phase of authentication is successful.
+-   LEAP peer methods should return the [**EapPeerMethodResponseActionSend**](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) action code after the 1st phase of authentication (peer authentication) is successful.
+-   LEAP peer methods should return the [**EapPeerMethodResponseActionResult**](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) action code after the 2nd phase of authentication is successful.
 
 ## Related topics
 

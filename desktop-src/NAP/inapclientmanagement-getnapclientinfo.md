@@ -55,21 +55,21 @@ A pointer to a BOOL that is set to **TRUE** if NAP is enabled; otherwise it is s
 *clientName* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the client name.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the client name.
 
 </dd> <dt>
 
 *clientDescription* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the client description.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the client description.
 
 </dd> <dt>
 
 *protocolVersion* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the protocol version.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the protocol version.
 
 </dd> </dl>
 

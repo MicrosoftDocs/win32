@@ -99,7 +99,7 @@ Contains as many zero words as necessary to align the **Value** member on a 32-b
 **Value**
 </dt> <dd>
 
-Type: **[**VS\_FIXEDFILEINFO**](/windows/desktop/api/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo)**
+Type: **[**VS\_FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo)**
 
 </dd> <dd>
 
@@ -160,7 +160,7 @@ This structure is not a true C-language structure because it contains variable-l
 [**VarFileInfo**](varfileinfo.md)
 </dt> <dt>
 
-[**VS\_FIXEDFILEINFO**](/windows/desktop/api/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo)
+[**VS\_FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo)
 </dt> <dt>
 
 **Conceptual**

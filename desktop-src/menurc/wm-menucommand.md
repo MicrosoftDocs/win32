@@ -47,9 +47,9 @@ A handle to the menu for the item selected.
 
 ## Remarks
 
-The **WM\_MENUCOMMAND** message gives you a handle to the menu so you can access the menu data in the [**MENUINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuinfo) structure and also gives you the index of the selected item, which is typically what applications need. In contrast, the [**WM\_COMMAND**](wm-command.md) message gives you the menu item identifier.
+The **WM\_MENUCOMMAND** message gives you a handle to the menu so you can access the menu data in the [**MENUINFO**](/windows/win32/api/winuser/ns-winuser-menuinfo) structure and also gives you the index of the selected item, which is typically what applications need. In contrast, the [**WM\_COMMAND**](wm-command.md) message gives you the menu item identifier.
 
-The **WM\_MENUCOMMAND** message is sent only for menus that are defined with the **MNS\_NOTIFYBYPOS** flag set in the **dwStyle** member of the [**MENUINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuinfo) structure.
+The **WM\_MENUCOMMAND** message is sent only for menus that are defined with the **MNS\_NOTIFYBYPOS** flag set in the **dwStyle** member of the [**MENUINFO**](/windows/win32/api/winuser/ns-winuser-menuinfo) structure.
 
 ## Requirements
 

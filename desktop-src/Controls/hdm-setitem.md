@@ -36,7 +36,7 @@ The current index of the item whose attributes are to be changed.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema) structure that contains item information. When this message is sent, the **mask** member of the structure must be set to indicate which attributes are being set.
+A pointer to an [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) structure that contains item information. When this message is sent, the **mask** member of the structure must be set to indicate which attributes are being set.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Returns nonzero upon success, or zero otherwise.
 
 ## Remarks
 
-The [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema) structure that supports this message supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items.
+The [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) structure that supports this message supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items.
 
 ## Requirements
 

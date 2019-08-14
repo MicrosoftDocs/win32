@@ -16,7 +16,7 @@ The following enumerations are used by the Print Ticket API.
 
 | Enumeration                                                   | Description                                                                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**EDefaultDevmodeType**](/windows/desktop/api/prntvpt/ne-prntvpt-tagedefaultdevmodetype)<br/> | Enables users to specify which [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) to use as the source of default values when a print ticket does not specify all possible settings.<br/> |
+| [**EDefaultDevmodeType**](/windows/win32/api/prntvpt/ne-prntvpt-edefaultdevmodetype)<br/> | Enables users to specify which [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) to use as the source of default values when a print ticket does not specify all possible settings.<br/> |
 | [**EPrintTicketScope**](/windows/desktop/api/prntvpt/ne-prntvpt-eprintticketscope)<br/>     | Specifies the scope of a print ticket.<br/>                                                                                                                       |
 
 

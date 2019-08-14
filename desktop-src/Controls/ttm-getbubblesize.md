@@ -30,7 +30,7 @@ Returns the width and height of a tooltip control.
 *lParam* 
 </dt> <dd>
 
-Pointer to the tooltip [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure.
+Pointer to the tooltip [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure.
 
 </dd> </dl>
 
@@ -40,7 +40,7 @@ Returns the width of the tooltip in the low word and the height in the high word
 
 ## Remarks
 
-If the TTF\_TRACK and TTF\_ABSOLUTE flags are set in the **uFlags** member of the tooltip [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure, this message can be used to help position the tooltip accurately.
+If the TTF\_TRACK and TTF\_ABSOLUTE flags are set in the **uFlags** member of the tooltip [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure, this message can be used to help position the tooltip accurately.
 
 ## Requirements
 

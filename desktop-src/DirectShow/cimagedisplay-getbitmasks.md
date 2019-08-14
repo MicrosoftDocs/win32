@@ -20,7 +20,7 @@ api_location:
 
 # CImageDisplay.GetBitMasks method
 
-The `GetBitMasks` method retrieves the color masks for a specified [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) format.
+The `GetBitMasks` method retrieves the color masks for a specified [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) format.
 
 ## Syntax
 

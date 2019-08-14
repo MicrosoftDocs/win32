@@ -214,7 +214,7 @@ Access rights define what abilities a security principal has when it attempts to
 
 The security descriptor is stored as a property of a directory object in the **nTSecurityDescriptor** property. When an authenticated user attempts to access a directory object, the directory server determines the access granted or denied to the user based on the object security descriptor.
 
-The [**ADS\_SD\_CONTROL\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0005) enumeration specifies control flags for a security descriptor.
+The [**ADS\_SD\_CONTROL\_ENUM**](/windows/win32/api/iads/ne-iads-ads_sd_control_enum) enumeration specifies control flags for a security descriptor.
 
 The following code example shows how to obtain a security descriptor.
 

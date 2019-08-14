@@ -66,7 +66,7 @@ The instant messaging account identity string for the account that is issuing th
 *Reason* 
 </dt> <dd>
 
-A value of the [**WPCFLAG\_ISBLOCKED**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpcflag_isblocked) enumeration that indicates information about what events are blocked from use and what controls are in place.
+A value of the [**WPCFLAG\_ISBLOCKED**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_isblocked) enumeration that indicates information about what events are blocked from use and what controls are in place.
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ A delimited string that contains instant messaging account identity strings for 
 [Using Logging APIs for Parental Controls](using-logging-apis-for-parental-controls.md)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
 </dt> </dl>
 
  

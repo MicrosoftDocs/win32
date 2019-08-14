@@ -41,7 +41,7 @@ A handle to the clipboard viewer window.
 *lParam* 
 </dt> <dd>
 
-A handle to a global memory object that contains a [**PAINTSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct) structure. The structure defines the part of the client area to paint.
+A handle to a global memory object that contains a [**PAINTSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-paintstruct) structure. The structure defines the part of the client area to paint.
 
 </dd> </dl>
 
@@ -51,9 +51,9 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-To determine whether the entire client area or just a portion of it needs repainting, the clipboard owner must compare the dimensions of the drawing area given in the **rcPaint** member of [**PAINTSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct) to the dimensions given in the most recent [**WM\_SIZECLIPBOARD**](wm-sizeclipboard.md) message.
+To determine whether the entire client area or just a portion of it needs repainting, the clipboard owner must compare the dimensions of the drawing area given in the **rcPaint** member of [**PAINTSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-paintstruct) to the dimensions given in the most recent [**WM\_SIZECLIPBOARD**](wm-sizeclipboard.md) message.
 
-The clipboard owner must use the [**GlobalLock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock) function to lock the memory that contains the [**PAINTSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct) structure. Before returning, the clipboard owner must unlock that memory by using the [**GlobalUnlock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalunlock) function.
+The clipboard owner must use the [**GlobalLock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock) function to lock the memory that contains the [**PAINTSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-paintstruct) structure. Before returning, the clipboard owner must unlock that memory by using the [**GlobalUnlock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalunlock) function.
 
 ## Requirements
 

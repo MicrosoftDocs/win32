@@ -72,7 +72,7 @@ subitem and return CDRF_NEWFONT.*/
 
 
 
-The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification has the **dwDrawStage** member of the [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure set to **CDDS\_PREPAINT**. The handler returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md) to indicate that it wishes to modify one or more items individually.
+The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification has the **dwDrawStage** member of the [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure set to **CDDS\_PREPAINT**. The handler returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md) to indicate that it wishes to modify one or more items individually.
 
 If [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md) was returned in the previous step, the next [NM\_CUSTOMDRAW](nm-customdraw.md) notification has **dwDrawStage** set to **CDDS\_ITEMPREPAINT**. The handler retrieves the current color and font values. At this point, you can specify new values for small icon, large icon, and list modes. If the control is in report mode, you can also specify new values that will apply to all subitems of the item. If you have changed anything, return [**CDRF\_NEWFONT**](cdrf-constants.md). If the control is in report mode and you want to handle the subitems individually, return **CDRF\_NOTIFYSUBITEMDRAW**.
 

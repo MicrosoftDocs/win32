@@ -110,7 +110,7 @@ HRESULT put_TelephoneNumber(
 [**IADsFaxNumber**](/windows/desktop/api/Iads/nn-iads-iadsfaxnumber)
 </dt> <dt>
 
-[**ADS\_FAXNUMBER**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0013)
+[**ADS\_FAXNUMBER**](/windows/win32/api/iads/ns-iads-ads_faxnumber)
 </dt> </dl>
 
  

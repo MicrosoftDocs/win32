@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # IMR\_CONFIRMRECONVERTSTRING notification code
 
-Notifies an application when the IME needs to change the [**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring) structure. The application receives this command through the [**WM\_IME\_REQUEST**](wm-ime-request.md) message with parameter settings as shown below.
+Notifies an application when the IME needs to change the [**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring) structure. The application receives this command through the [**WM\_IME\_REQUEST**](wm-ime-request.md) message with parameter settings as shown below.
 
 
 ```C++
@@ -31,19 +31,19 @@ Set to IMR\_CONFIRMRECONVERTSTRING.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring) structure from the IME. For more information, see the Remarks section.
+Pointer to a [**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring) structure from the IME. For more information, see the Remarks section.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application accepts the changed [**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring) structure. Otherwise, the command returns 0 and the IME uses the original **RECONVERTSTRING** structure.
+Returns a nonzero value if the application accepts the changed [**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring) structure. Otherwise, the command returns 0 and the IME uses the original **RECONVERTSTRING** structure.
 
 ## Remarks
 
-The application fills in the [**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring) structure upon receiving the [IMR\_RECONVERTSTRING](imr-reconvertstring.md) command.
+The application fills in the [**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring) structure upon receiving the [IMR\_RECONVERTSTRING](imr-reconvertstring.md) command.
 
-After the application has handled [IMR\_RECONVERTSTRING](imr-reconvertstring.md), the IME might or might not adjust the [**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring) structure. The IME sends WM\_IME\_REQUEST with **IMR\_CONFIRMRECONVERTSTRING** to confirm the changes to the **RECONVERTSTRING** structure. If the application returns **TRUE** for **IMR\_CONFIRMRECONVERTSTRING**, the IME generates a new composition string based on the **RECONVERTSTRING** structure for the **IMR\_CONFIRMRECONVERTSTRING** command. If the application returns **FALSE** for **IMR\_CONFIRMRECONVERTSTRING**, the IME generates a new composition string based on the original **RECONVERTSTRING** structure specified by the application in the IMR\_RECONVERTSTRING command.
+After the application has handled [IMR\_RECONVERTSTRING](imr-reconvertstring.md), the IME might or might not adjust the [**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring) structure. The IME sends WM\_IME\_REQUEST with **IMR\_CONFIRMRECONVERTSTRING** to confirm the changes to the **RECONVERTSTRING** structure. If the application returns **TRUE** for **IMR\_CONFIRMRECONVERTSTRING**, the IME generates a new composition string based on the **RECONVERTSTRING** structure for the **IMR\_CONFIRMRECONVERTSTRING** command. If the application returns **FALSE** for **IMR\_CONFIRMRECONVERTSTRING**, the IME generates a new composition string based on the original **RECONVERTSTRING** structure specified by the application in the IMR\_RECONVERTSTRING command.
 
 ## Requirements
 
@@ -70,7 +70,7 @@ After the application has handled [IMR\_RECONVERTSTRING](imr-reconvertstring.md)
 [IMR\_RECONVERTSTRING](imr-reconvertstring.md)
 </dt> <dt>
 
-[**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring)
+[**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

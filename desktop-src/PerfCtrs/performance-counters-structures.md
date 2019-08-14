@@ -14,8 +14,8 @@ You use the following structures when working with performance data.
 
 Consumers that use the Performance Data Helper functions that consume both version 1 and version 2 performance counter data use the following structures.
 
--   [**PDH\_BROWSE\_DLG\_CONFIG**](/windows/desktop/api/Pdh/ns-pdh-_browsedlgconfig_a)
--   [**PDH\_BROWSE\_DLG\_CONFIG\_H**](/windows/desktop/api/Pdh/ns-pdh-_browsedlgconfig_ha)
+-   [**PDH\_BROWSE\_DLG\_CONFIG**](/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a)
+-   [**PDH\_BROWSE\_DLG\_CONFIG\_H**](/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_ha)
 -   [**PDH\_COUNTER\_INFO**](/windows/desktop/api/Pdh/ns-pdh-pdh_counter_info_a)
 -   [**PDH\_COUNTER\_PATH\_ELEMENTS**](/windows/desktop/api/Pdh/ns-pdh-pdh_counter_path_elements_a)
 -   [**PDH\_DATA\_ITEM\_PATH\_ELEMENTS**](/windows/desktop/api/Pdh/ns-pdh-pdh_data_item_path_elements_a)
@@ -38,8 +38,8 @@ Consumers that use the nine low-level functions that can consume version 2 perfo
 -   [**PERF\_INSTANCE\_HEADER**](/windows/desktop/api/Perflib/ns-perflib-perf_instance_header)
 -   [**PERF\_MULTI\_COUNTERS**](/windows/desktop/api/Perflib/ns-perflib-perf_multi_counters)
 -   [**PERF\_MULTI\_INSTANCES**](/windows/desktop/api/Perflib/ns-perflib-perf_multi_instances)
--   [**PERF\_STRING\_BUFFER\_HEADER**](/windows/desktop/api/Perflib/ns-perflib-_string_buffer_header)
--   [**PERF\_STRING\_COUNTER\_HEADER**](/windows/desktop/api/Perflib/ns-perflib-_string_counter_header)
+-   [**PERF\_STRING\_BUFFER\_HEADER**](/windows/win32/api/perflib/ns-perflib-perf_string_buffer_header)
+-   [**PERF\_STRING\_COUNTER\_HEADER**](/windows/win32/api/perflib/ns-perflib-perf_string_counter_header)
 
 For information about the functions that are available for working with performance counters, see [Performance Counters Functions](performance-counters-functions.md).
 
@@ -51,7 +51,7 @@ Performance providers use the following structures.
 -   [**PERF\_COUNTER\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counter_info)
 -   [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_info)
 -   [**PERF\_COUNTERSET\_INSTANCE**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_instance)
--   [**PERF\_PROVIDER\_CONTEXT**](/windows/desktop/api/Perflib/ns-perflib-_provider_context)
+-   [**PERF\_PROVIDER\_CONTEXT**](/windows/win32/api/perflib/ns-perflib-perf_provider_context)
 
 Performance extension DLL providers and consumers that use the registry functions to consume counter data use the following structures.
 

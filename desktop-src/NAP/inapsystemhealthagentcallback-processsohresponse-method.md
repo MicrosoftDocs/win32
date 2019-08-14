@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
  
 
-The **INapSystemHealthAgentCallback::ProcessSoHResponse** method is called when the NapAgent receives an [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) destined for this health agent.
+The **INapSystemHealthAgentCallback::ProcessSoHResponse** method is called when the NapAgent receives an [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) destined for this health agent.
 
 ## Syntax
 
@@ -68,7 +68,7 @@ This method can return one of these values.
 
 This callback method is declared by the NAP system and is to be implemented by the SHA writer.
 
-When the NapAgent receives an [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) destined for this health agent, it invokes this method. The health agent must query the SoHResponse from the request object. It must not hold references to the request object once this call has completed.
+When the NapAgent receives an [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) destined for this health agent, it invokes this method. The health agent must query the SoHResponse from the request object. It must not hold references to the request object once this call has completed.
 
 The **INapSystemHealthAgentCallback::ProcessSoHResponse** method must not block. If any fix-up processing is required, any implementation of **ProcessSoHResponse** must start a new thread to perform fix-up processing. The NapAgent must call [**INapSystemHealthAgentCallBack::GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) to determine the fix-up status of the SHA.
 

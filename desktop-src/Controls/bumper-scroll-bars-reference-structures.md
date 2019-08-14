@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**SCROLLBARINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollbarinfo)
--   [**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo)
+-   [**SCROLLBARINFO**](/windows/win32/api/winuser/ns-winuser-scrollbarinfo)
+-   [**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo)
 
  
 

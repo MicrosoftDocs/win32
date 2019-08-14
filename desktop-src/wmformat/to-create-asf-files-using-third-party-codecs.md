@@ -25,7 +25,7 @@ You can use the Windows Media Format SDK to create ASF files that contain digita
 3.  Create a new profile, or modify an existing profile for use with the encoded content.
     -   Create a stream for the encoded content with the appropriate major type. For more information about major media types, see [Media Types](media-types.md). Use the GUID identified in step 2 as the media subtype.
     -   Set the bit rate and buffer window for the stream to values that will not result in buffer overflow. You should be able to obtain these values from the codec at the time of encoding. The SDK runtime components check the bitrate/buffer window values and drop samples if necessary to make the given data fit in with these values. If you set the values incorrectly, the file will not stream properly, resulting in poor playback.
-    -   For video streams, you must set the **biCompression** member of the **BITMAPINFOHEADER** structure contained in the [**WMVIDEOINFOHEADER**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader) structure to the appropriate FOURCC value for the content. This value must be equal to the first four bytes of the subtype GUID. For example, if **biCompression** is MAKEFOURCC('T','E','S','T')=0x54455354, then the subtype GUID will begin like this: 54455354-XXXX-XXXX-XXXX-XXXXXXXXXXXX.
+    -   For video streams, you must set the **biCompression** member of the **BITMAPINFOHEADER** structure contained in the [**WMVIDEOINFOHEADER**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader) structure to the appropriate FOURCC value for the content. This value must be equal to the first four bytes of the subtype GUID. For example, if **biCompression** is MAKEFOURCC('T','E','S','T')=0x54455354, then the subtype GUID will begin like this: 54455354-XXXX-XXXX-XXXX-XXXXXXXXXXXX.
 4.  Create a writer object and load the profile created in the previous step. For more information about writing files, see [Writing ASF Files](writing-asf-files.md).
 5.  Loop through the inputs of the file and assign input properties for each as you normally would. For more information about inputs, see [Working with Inputs](working-with-inputs.md). For the stream encoded with a third-party codec, set the [**IWMInputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops) interface pointer to **NULL** before calling [**IWMWriter::BeginWriting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting).
 6.  Use the new profile created in the previous step to write the file. Pass the compressed samples using [**IWMWriterAdvanced::WriteStreamSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample) instead of [**IWMWriter::WriteSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample). For video, you must specify which samples are key frames by passing WM\_SF\_CLEANPOINT as the *dwFlags* parameter.
@@ -69,7 +69,7 @@ When reading the file:
 [**To Retrieve Stream Samples with the Synchronous Reader**](to-retrieve-stream-samples-with-the-synchronous-reader.md)
 </dt> <dt>
 
-[**WMVIDEOINFOHEADER**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader)
+[**WMVIDEOINFOHEADER**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

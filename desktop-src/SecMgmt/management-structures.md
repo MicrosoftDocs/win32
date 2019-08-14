@@ -67,11 +67,11 @@ The following structures are used by the Security Configuration attachment DLLs 
 
 | Structure                                                        | Description                                                                                                                                     |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCESVC\_CONFIGURATION\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_info_) | Contains configuration information for a service.                                                                                               |
-| [**SCESVC\_CONFIGURATION\_LINE**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_line_) | Contains information about a line of configuration data.                                                                                        |
-| [**SCESVC\_ANALYSIS\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_info_)           | Contains the analysis information.                                                                                                              |
-| [**SCESVC\_ANALYSIS\_LINE**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_line_)           | Contains the key, value, and value length for a specific line specified by an [**SCESVC\_ANALYSIS\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_info_) structure. |
-| [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_)           | Contains an opaque database handle and callback function pointers to query, set, and free information.                                          |
+| [**SCESVC\_CONFIGURATION\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info) | Contains configuration information for a service.                                                                                               |
+| [**SCESVC\_CONFIGURATION\_LINE**](/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_line) | Contains information about a line of configuration data.                                                                                        |
+| [**SCESVC\_ANALYSIS\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info)           | Contains the analysis information.                                                                                                              |
+| [**SCESVC\_ANALYSIS\_LINE**](/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line)           | Contains the key, value, and value length for a specific line specified by an [**SCESVC\_ANALYSIS\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info) structure. |
+| [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info)           | Contains an opaque database handle and callback function pointers to query, set, and free information.                                          |
 
 
 

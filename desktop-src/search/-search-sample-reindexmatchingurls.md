@@ -65,7 +65,7 @@ This sample is available in the following location.
 
 [**ISearchViewChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchviewchangedsink)
 
-[**PRIORITIZE\_FLAGS**](/windows/desktop/api/Searchapi/ne-searchapi-tagprioritize_flags)
+[**PRIORITIZE\_FLAGS**](/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags)
 
 ### Other Samples
 

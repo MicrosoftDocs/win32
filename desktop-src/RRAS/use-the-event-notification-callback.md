@@ -17,7 +17,7 @@ The following procedure outlines the steps the client should use to receive chan
 3.  Release the destinations using [**RtmReleaseChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasechangeddests).
 4.  Repeat steps 1, 2, and 3 until [**RtmGetChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests) returns ERROR\_NO\_MORE\_ITEMS.
 
-The following sample code shows how to process an [**RTM\_EVENT\_CALLBACK**](/windows/desktop/api/Rtmv2/nc-rtmv2-_event_callback) callback received from the routing table manager.
+The following sample code shows how to process an [**RTM\_EVENT\_CALLBACK**](/windows/win32/api/rtmv2/nc-rtmv2-_event_callback) callback received from the routing table manager.
 
 
 ```C++

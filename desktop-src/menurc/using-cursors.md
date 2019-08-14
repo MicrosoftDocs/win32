@@ -185,7 +185,7 @@ Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuse
 
 ## Displaying a Cursor
 
-The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing). You can assign a class cursor while registering a window class. The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) structure identified by the *wc* parameter.
+The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing). You can assign a class cursor while registering a window class. The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa) structure identified by the *wc* parameter.
 
 
 ```

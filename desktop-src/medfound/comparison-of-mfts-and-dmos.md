@@ -150,7 +150,7 @@ MFTs: No equivalent enumeration.
 
 DMOs: [**\_DMO\_PROCESS\_OUTPUT\_FLAGS**](https://msdn.microsoft.com/en-us/library/Dd375511(v=VS.85).aspx) enumeration.
 
-MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](/windows/desktop/api/mftransform/ne-mftransform-_mft_process_output_flags) enumeration.
+MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_flags) enumeration.
 
 
 
@@ -164,7 +164,7 @@ MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](/windows/desktop/api/mftransform/ne-mf
 
 DMOs: [**\_DMO\_OUTPUT\_DATA\_BUFFER\_FLAGS**](https://msdn.microsoft.com/en-us/library/Dd375508(v=VS.85).aspx) enumeration.
 
-MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/windows/desktop/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags) enumeration.
+MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags) enumeration.
 
 
 
@@ -186,7 +186,7 @@ MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/windows/desktop/api/mftransform/
 
 DMOs: **\_DMO\_INPUT\_STATUS\_FLAGS** enumeration.
 
-MFTs: [**\_MFT\_INPUT\_STATUS\_FLAGS**](/windows/desktop/api/mftransform/ne-mftransform-_mft_input_status_flags) enumeration.
+MFTs: [**\_MFT\_INPUT\_STATUS\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_input_status_flags) enumeration.
 
 
 
@@ -202,7 +202,7 @@ MFTs: [**\_MFT\_INPUT\_STATUS\_FLAGS**](/windows/desktop/api/mftransform/ne-mftr
 
 DMOs: No equivalent enumeration.
 
-MFTs: [**\_MFT\_OUTPUT\_STATUS\_FLAGS**](/windows/desktop/api/mftransform/ne-mftransform-_mft_output_status_flags) enumeration.
+MFTs: [**\_MFT\_OUTPUT\_STATUS\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_output_status_flags) enumeration.
 
 
 
@@ -218,7 +218,7 @@ MFTs: [**\_MFT\_OUTPUT\_STATUS\_FLAGS**](/windows/desktop/api/mftransform/ne-mft
 
 DMOs: [**\_DMO\_INPUT\_STREAM\_INFO\_FLAGS**](https://msdn.microsoft.com/en-us/library/Dd375502(v=VS.85).aspx) enumeration.
 
-MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](/windows/desktop/api/mftransform/ne-mftransform-_mft_input_stream_info_flags) enumeration.
+MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_input_stream_info_flags) enumeration.
 
 
 
@@ -240,7 +240,7 @@ MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](/windows/desktop/api/mftransform/n
 
 DMOs: [**\_DMO\_OUTPUT\_STREAM\_INFO\_FLAGS**](https://msdn.microsoft.com/en-us/library/Dd375509(v=VS.85).aspx) enumeration.
 
-MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](/windows/desktop/api/mftransform/ne-mftransform-_mft_output_stream_info_flags) enumeration.
+MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_output_stream_info_flags) enumeration.
 
 
 
@@ -264,7 +264,7 @@ MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](/windows/desktop/api/mftransform/
 
 DMOs: [**\_DMO\_SET\_TYPE\_FLAGS**](https://msdn.microsoft.com/en-us/library/Dd375514(v=VS.85).aspx) enumeration.
 
-MFTs: [**\_MFT\_SET\_TYPE\_FLAGS**](/windows/desktop/api/mftransform/ne-mftransform-_mft_set_type_flags) enumeration.
+MFTs: [**\_MFT\_SET\_TYPE\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_set_type_flags) enumeration.
 
 
 

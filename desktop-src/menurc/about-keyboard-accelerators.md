@@ -30,7 +30,7 @@ This section covers the following topics.
 
 ## Accelerator Tables
 
-An accelerator table consists of an array of [**ACCEL**](/windows/desktop/api/Winuser/ns-winuser-tagaccel) structures, each defining an individual accelerator. Each **ACCEL** structure includes the following information:
+An accelerator table consists of an array of [**ACCEL**](/windows/win32/api/winuser/ns-winuser-accel) structures, each defining an individual accelerator. Each **ACCEL** structure includes the following information:
 
 -   The accelerator's keystroke combination.
 -   The accelerator's identifier.
@@ -50,7 +50,7 @@ The system also maintains accelerator tables for each application. An applicatio
 
 Several steps are required to create an accelerator table for an application. First, a resource compiler is used to create accelerator-table resources and to add them to the application's executable file. At run time, the [**LoadAccelerators**](/windows/desktop/api/Winuser/nf-winuser-loadacceleratorsa) function is used to load the accelerator table into memory and retrieve the handle to the accelerator table. This handle is passed to the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function to activate the accelerator table.
 
-An accelerator table can also be created for an application at run time by passing an array of [**ACCEL**](/windows/desktop/api/Winuser/ns-winuser-tagaccel) structures to the [**CreateAcceleratorTable**](/windows/desktop/api/Winuser/nf-winuser-createacceleratortablea) function. This method supports user-defined accelerators in the application. Like the [**LoadAccelerators**](/windows/desktop/api/Winuser/nf-winuser-loadacceleratorsa) function, **CreateAcceleratorTable** returns an accelerator-table handle that can be passed to [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) to activate the accelerator table.
+An accelerator table can also be created for an application at run time by passing an array of [**ACCEL**](/windows/win32/api/winuser/ns-winuser-accel) structures to the [**CreateAcceleratorTable**](/windows/desktop/api/Winuser/nf-winuser-createacceleratortablea) function. This method supports user-defined accelerators in the application. Like the [**LoadAccelerators**](/windows/desktop/api/Winuser/nf-winuser-loadacceleratorsa) function, **CreateAcceleratorTable** returns an accelerator-table handle that can be passed to [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) to activate the accelerator table.
 
 The system automatically destroys accelerator tables loaded by [**LoadAccelerators**](/windows/desktop/api/Winuser/nf-winuser-loadacceleratorsa) or created by [**CreateAcceleratorTable**](/windows/desktop/api/Winuser/nf-winuser-createacceleratortablea). However, an application can free resources while it is running by destroying accelerator tables no longer needed by calling the [**DestroyAcceleratorTable**](/windows/desktop/api/Winuser/nf-winuser-destroyacceleratortable) function.
 

@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 -   [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo)
 -   [**ICONINFOEX**](/windows/desktop/api/Winuser/ns-winuser-iconinfoexa)
--   [**ICONMETRICS**](/windows/desktop/api/Winuser/ns-winuser-tagiconmetricsa)
+-   [**ICONMETRICS**](/windows/win32/api/winuser/ns-winuser-iconmetricsa)
 
  
 

@@ -36,7 +36,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure that contains the new item attributes. With [version 4.71](common-control-versions.md) and later, you can use a [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa) structure instead.
+Pointer to a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure that contains the new item attributes. With [version 4.71](common-control-versions.md) and later, you can use a [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) structure instead.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-The **hItem** member of the [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) or [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa) structure identifies the item, and the **mask** member specifies which attributes to set.
+The **hItem** member of the [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) or [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) structure identifies the item, and the **mask** member specifies which attributes to set.
 
 ## Requirements
 

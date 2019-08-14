@@ -85,7 +85,7 @@ Columns are identified by their OLE property set ID (FMTID) and an associated pr
 
 If possible, your handler should use existing FMTIDs and PIDs to identify the column it supports. If you use a custom [**SHCOLUMNID**](https://docs.microsoft.com/windows/desktop/shell/objects) structure, the column will display data only for those files that are supported by the handler. If the folder contains other files, their entries will be blank. If a folder contains files from more than one file type, using standard FMTID/PID values could make it possible to merge data from different types into the same column.
 
-Set the **vt** member to the [**VARIANT**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant) type of the data you want to display in the column. The most commonly used type is VT\_LPSTR, as most columns display their data as character strings. The remaining members of the [**SHCOLUMNINFO**](https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo) structure are used to define the characteristics of the column. Assign values as appropriate.
+Set the **vt** member to the [**VARIANT**](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant) type of the data you want to display in the column. The most commonly used type is VT\_LPSTR, as most columns display their data as character strings. The remaining members of the [**SHCOLUMNINFO**](https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo) structure are used to define the characteristics of the column. Assign values as appropriate.
 
 ### The GetItemData Method
 

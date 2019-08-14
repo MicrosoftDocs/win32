@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 The following callbacks are used to inform clients of registration events.
 
-[**RTM\_ENTITY\_EXPORT\_METHOD**](/windows/desktop/api/Rtmv2/nc-rtmv2-_entity_method)
+[**RTM\_ENTITY\_EXPORT\_METHOD**](/windows/win32/api/rtmv2/nc-rtmv2-_entity_method)
 
-[**RTM\_EVENT\_CALLBACK**](/windows/desktop/api/Rtmv2/nc-rtmv2-_event_callback)
+[**RTM\_EVENT\_CALLBACK**](/windows/win32/api/rtmv2/nc-rtmv2-_event_callback)
 
  
 

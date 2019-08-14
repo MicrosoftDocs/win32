@@ -19,8 +19,8 @@ Using EAP attributes allows data to be exchanged between supplicants and EAP met
 
 For more information, see the following topics.
 
--   [EAP Peer Supplicant Action Codes](/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction).
--   [EAP Peer Supplicant Reason Codes](/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeermethodresultreason).
+-   [EAP Peer Supplicant Action Codes](/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction).
+-   [EAP Peer Supplicant Reason Codes](/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason).
 -   [EAP Authenticator Method Action Codes](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action).
 
 Supplicants are expected to ignore attributes that they do not recognize or cannot act upon. Using [**EapHostPeerSetResponseAttributes**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetresponseattributes) these ignored attributes are sent back to EAPHost and the EAP method.

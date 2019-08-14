@@ -36,7 +36,7 @@ NM_NCHITTEST
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMMOUSE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmmouse) structure that contains information about the notification code. The *pt* member contains the mouse coordinates of the hit test message.
+A pointer to a [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse) structure that contains information about the notification code. The *pt* member contains the mouse coordinates of the hit test message.
 
 </dd> </dl>
 

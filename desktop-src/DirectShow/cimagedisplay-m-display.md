@@ -20,7 +20,7 @@ api_location:
 
 # CImageDisplay::m\_Display member
 
-The `m_Display` member is a [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure that describes the current display format.
+The `m_Display` member is a [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure that describes the current display format.
 
 ## Syntax
 

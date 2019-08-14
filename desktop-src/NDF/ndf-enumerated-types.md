@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 The following enumerated types support Network Diagnostics Framework (NDF):
 
--   [**ATTRIBUTE\_TYPE**](/windows/desktop/api/ndattrib/ne-ndattrib-tagattribute_type)
--   [**DIAGNOSIS\_STATUS**](/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status)
--   [**PROBLEM\_TYPE**](/windows/desktop/api/ndhelper/ne-ndhelper-tagproblem_type)
--   [**REPAIR\_RISK**](/windows/desktop/api/Ndattrib/ne-ndattrib-__midl___midl_itf_ndattrib_0000_0000_0002)
--   [**REPAIR\_STATUS**](/windows/desktop/api/ndhelper/ne-ndhelper-tagrepair_status)
--   [**REPAIR\_SCOPE**](/windows/desktop/api/Ndattrib/ne-ndattrib-tagrepair_scope)
--   [**UI\_INFO\_TYPE**](/windows/desktop/api/Ndattrib/ne-ndattrib-__midl___midl_itf_ndattrib_0000_0000_0003)
+-   [**ATTRIBUTE\_TYPE**](/windows/win32/api/ndattrib/ne-ndattrib-attribute_type)
+-   [**DIAGNOSIS\_STATUS**](/windows/win32/api/ndhelper/ne-ndhelper-diagnosis_status)
+-   [**PROBLEM\_TYPE**](/windows/win32/api/ndhelper/ne-ndhelper-problem_type)
+-   [**REPAIR\_RISK**](/windows/win32/api/ndattrib/ne-ndattrib-repair_risk)
+-   [**REPAIR\_STATUS**](/windows/win32/api/ndhelper/ne-ndhelper-repair_status)
+-   [**REPAIR\_SCOPE**](/windows/win32/api/ndattrib/ne-ndattrib-repair_scope)
+-   [**UI\_INFO\_TYPE**](/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type)
 
  
 

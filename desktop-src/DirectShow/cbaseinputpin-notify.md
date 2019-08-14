@@ -48,7 +48,7 @@ Pointer to the filter that is sending the quality-control message.
 *q* 
 </dt> <dd>
 
-[**Quality**](/windows/desktop/api/strmif/ns-strmif-tagquality) structure that contains the quality-control message.
+[**Quality**](/previous-versions/windows/desktop/api/strmif/ns-strmif-quality) structure that contains the quality-control message.
 
 </dd> </dl>
 

@@ -45,7 +45,7 @@ HRESULT GetPrivateData(
 *privateData* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to [**PrivateData**](/windows/desktop/api/NapTypes/ns-naptypes-tagprivatedata) opaque data blob that contains state information.
+A pointer to a pointer to [**PrivateData**](/windows/win32/api/naptypes/ns-naptypes-privatedata) opaque data blob that contains state information.
 
 </dd> </dl>
 

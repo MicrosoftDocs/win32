@@ -30,13 +30,13 @@ Determines which list-view item or subitem is at a given position. You can send 
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvhittestinfo) structure. The [**POINT**](https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)) structure within **LVHITTESTINFO** should be set to the client coordinates to be hit-tested.
+Pointer to an [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo) structure. The [**POINT**](https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)) structure within **LVHITTESTINFO** should be set to the client coordinates to be hit-tested.
 
 </dd> </dl>
 
 ## Return value
 
-Returns the index of the item or subitem tested, if any, or -1 otherwise. If an item or subitem is at the given coordinates, the fields of the [**LVHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvhittestinfo) structure will be filled with the applicable hit information.
+Returns the index of the item or subitem tested, if any, or -1 otherwise. If an item or subitem is at the given coordinates, the fields of the [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo) structure will be filled with the applicable hit information.
 
 ## Requirements
 

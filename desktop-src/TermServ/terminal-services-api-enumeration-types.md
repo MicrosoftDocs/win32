@@ -57,42 +57,42 @@ Contains values that indicate the type of virtual channel information to retriev
 
 </dd> <dt>
 
-[**WTSSBX\_ADDRESS\_FAMILY**](/windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0003)
+[**WTSSBX\_ADDRESS\_FAMILY**](/windows/win32/api/tssbx/ne-tssbx-wtssbx_address_family)
 </dt> <dd>
 
 Contains values that indicate the address family of a network address that is being used for redirection.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_DRAIN**](/windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0001)
+[**WTSSBX\_MACHINE\_DRAIN**](/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_drain)
 </dt> <dd>
 
 Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_SESSION\_MODE**](/windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0002)
+[**WTSSBX\_MACHINE\_SESSION\_MODE**](/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_session_mode)
 </dt> <dd>
 
 Contains values that indicate the session mode of a RD Session Host server.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_STATE**](/windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0005)
+[**WTSSBX\_MACHINE\_STATE**](/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_state)
 </dt> <dd>
 
 Contains values that indicate the current state of a server.
 
 </dd> <dt>
 
-[**WTSSBX\_NOTIFICATION\_TYPE**](/windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0010)
+[**WTSSBX\_NOTIFICATION\_TYPE**](/windows/win32/api/tssbx/ne-tssbx-wtssbx_notification_type)
 </dt> <dd>
 
 Contains values that indicate the type of status change that occurred on a RD Session Host server or a user session.
 
 </dd> <dt>
 
-[**WTSSBX\_SESSION\_STATE**](/windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0008)
+[**WTSSBX\_SESSION\_STATE**](/windows/win32/api/tssbx/ne-tssbx-wtssbx_session_state)
 </dt> <dd>
 
 Contains values that indicate the connection state of a user session.

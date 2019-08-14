@@ -39,7 +39,7 @@ The following interfaces are supported by the stream configuration object.
 
 | Interface                                        | Description                                                                                                                  |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)           | Sets and retrieves the [**WM\_MEDIA\_TYPE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype) structure for the stream.                                    |
+| [**IWMMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)           | Sets and retrieves the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure for the stream.                                    |
 | [**IWMPropertyVault**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault)     | Sets and retrieves properties that are not required for all streams, like variable bit rate (VBR) settings.                  |
 | [**IWMStreamConfig**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)       | Sets and retrieves all of the basic information about a stream.                                                              |
 | [**IWMStreamConfig2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2)     | Configures the types of data unit extensions associated with the stream. Inherits all of the methods of **IWMStreamConfig**. |

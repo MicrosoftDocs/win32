@@ -72,7 +72,7 @@ If the source filter's output pin supports exactly one media format, you should 
 
 If the pin supports more than one format, override (2). Initialize the [**CMediaType**](cmediatype.md) object according to the value of the index variable. The pin should return the formats as an ordered list. In this case, you must also override the [**CheckMediaType**](csourcestream-checkmediatype.md) to check the media type against your list of formats.
 
-For uncompressed video formats, remember that the downstream filter can propose formats with various stride values. Your filter should accept any valid stride value. For more information, see [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader).
+For uncompressed video formats, remember that the downstream filter can propose formats with various stride values. Your filter should accept any valid stride value. For more information, see [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader).
 
 You must also override the pure-virtual [**CBaseOutputPin::DecideBufferSize**](cbaseoutputpin-decidebuffersize.md) method. Use this method to set the size of the sample buffers.
 

@@ -13,9 +13,9 @@ The System Monitor (SYSMON) [classes](sysmon-classes.md) use the following enume
 -   [**DataSourceTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-edatasourcetypeconstant)
 -   [**DisplayTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-edisplaytypeconstant)
 -   [**ReportValueTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-ereportvaluetypeconstant)
--   [**SysmonBatchReason**](/windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0003)
--   [**SysmonDataType**](/windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0002)
--   [**SysmonFileType**](/windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0001)
+-   [**SysmonBatchReason**](/windows/win32/api/isysmon/ne-isysmon-sysmonbatchreason)
+-   [**SysmonDataType**](/windows/win32/api/isysmon/ne-isysmon-sysmondatatype)
+-   [**SysmonFileType**](/windows/win32/api/isysmon/ne-isysmon-sysmonfiletype)
 
  
 

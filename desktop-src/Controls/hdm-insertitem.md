@@ -36,7 +36,7 @@ The index of the item after which the new item is to be inserted. The new item i
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema) structure that contains information about the new item.
+A pointer to an [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) structure that contains information about the new item.
 
 </dd> </dl>
 

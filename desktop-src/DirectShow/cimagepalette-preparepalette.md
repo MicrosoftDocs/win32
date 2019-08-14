@@ -42,7 +42,7 @@ HRESULT PreparePalette(
 *pmtNew* 
 </dt> <dd>
 
-Pointer to the new media type. The format block must be a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure.
+Pointer to the new media type. The format block must be a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure.
 
 </dd> <dt>
 

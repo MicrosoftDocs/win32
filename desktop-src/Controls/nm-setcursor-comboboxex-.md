@@ -36,7 +36,7 @@ NM_SETCURSOR
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMMOUSE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmmouse) structure that contains additional information about this notification.
+A pointer to an [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse) structure that contains additional information about this notification.
 
 </dd> </dl>
 

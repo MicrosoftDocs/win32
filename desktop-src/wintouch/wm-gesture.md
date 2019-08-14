@@ -27,7 +27,7 @@ Passes information about a gesture.
 *wParam* 
 </dt> <dd>
 
-Provides information identifying the gesture command and gesture-specific argument values. This information is the same information passed in the **ullArguments** member of the [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo) structure.
+Provides information identifying the gesture command and gesture-specific argument values. This information is the same information passed in the **ullArguments** member of the [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) structure.
 
 </dd> <dt>
 

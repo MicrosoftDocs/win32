@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The following structures are used with brushes:
 
--   [**LOGBRUSH**](/windows/desktop/api/Wingdi/ns-wingdi-taglogbrush)
--   [**LOGBRUSH32**](/windows/desktop/api/Wingdi/ns-wingdi-taglogbrush32)
+-   [**LOGBRUSH**](/windows/win32/api/wingdi/ns-wingdi-logbrush)
+-   [**LOGBRUSH32**](/windows/win32/api/wingdi/ns-wingdi-logbrush32)
 
  
 

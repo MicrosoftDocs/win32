@@ -109,7 +109,7 @@ Removes the access restriction on a range of bytes previously restricted with [*
 <span id="IStream__Stat"></span><span id="istream__stat"></span><span id="ISTREAM__STAT"></span>[**IStream::Stat**](/windows/desktop/api/Objidl/nf-objidl-istream-stat)
 </dt> <dd>
 
-Retrieves the [**STATSTG**](/windows/desktop/api/Objidl/ns-objidl-tagstatstg) structure for this stream
+Retrieves the [**STATSTG**](/windows/win32/api/objidl/ns-objidl-statstg) structure for this stream
 
 </dd> <dt>
 

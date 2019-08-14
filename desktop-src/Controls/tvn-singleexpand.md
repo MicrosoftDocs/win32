@@ -36,7 +36,7 @@ TVN_SINGLEEXPAND
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa) structure that contains information about this notification code.
+Pointer to an [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreeviewa) structure that contains information about this notification code.
 
 </dd> </dl>
 

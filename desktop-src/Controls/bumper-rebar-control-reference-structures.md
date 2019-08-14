@@ -10,15 +10,15 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**NMRBAUTOSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrbautosize)
--   [**NMREBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebar)
--   [**NMREBARAUTOBREAK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarautobreak)
--   [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron)
--   [**NMREBARCHILDSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchildsize)
--   [**NMREBARSPLITTER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarsplitter)
--   [**RBHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_rb_hittestinfo)
--   [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa)
--   [**REBARINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarinfo)
+-   [**NMRBAUTOSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrbautosize)
+-   [**NMREBAR**](/windows/win32/api/commctrl/ns-commctrl-nmrebar)
+-   [**NMREBARAUTOBREAK**](/windows/win32/api/commctrl/ns-commctrl-nmrebarautobreak)
+-   [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron)
+-   [**NMREBARCHILDSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchildsize)
+-   [**NMREBARSPLITTER**](/windows/win32/api/commctrl/ns-commctrl-nmrebarsplitter)
+-   [**RBHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-rbhittestinfo)
+-   [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa)
+-   [**REBARINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarinfo)
 
  
 

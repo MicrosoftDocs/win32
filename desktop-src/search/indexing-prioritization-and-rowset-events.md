@@ -93,7 +93,7 @@ Rowset prioritization works as follows:
 
 ### IRowsetPrioritization Events
 
-There are three rowset events in [**IRowsetEvents::OnRowsetEvent**](/windows/desktop/api/Searchapi/nf-searchapi-irowsetevents-onrowsetevent) in the [**ROWSETEVENT\_TYPE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002) enumeration:
+There are three rowset events in [**IRowsetEvents::OnRowsetEvent**](/windows/desktop/api/Searchapi/nf-searchapi-irowsetevents-onrowsetevent) in the [**ROWSETEVENT\_TYPE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type) enumeration:
 
 
 ```
@@ -127,10 +127,10 @@ See the following resources related to prioritization and rowsets:
     -   [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents)
     -   [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization)
 -   Enumerations:
-    -   [**PRIORITIZE\_FLAGS**](/windows/desktop/api/Searchapi/ne-searchapi-tagprioritize_flags)
-    -   [**PRIORITY\_LEVEL**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001)
-    -   [**ROWSETEVENT\_ITEMSTATE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001)
-    -   [**ROWSETEVENT\_TYPE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002)
+    -   [**PRIORITIZE\_FLAGS**](/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags)
+    -   [**PRIORITY\_LEVEL**](/windows/win32/api/searchapi/ne-searchapi-priority_level)
+    -   [**ROWSETEVENT\_ITEMSTATE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate)
+    -   [**ROWSETEVENT\_TYPE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type)
 
 ## Related topics
 

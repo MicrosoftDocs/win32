@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 The following example demonstrates how to send information between two applications using the [**WM\_COPYDATA**](wm-copydata.md) message.
 
-The sending application displays a dialog box to the user which requests certain information. The application packages the information into a private data structure, includes a pointer to the structure in the [**COPYDATASTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcopydatastruct) structure, and sends the information to the receiving application using the [**WM\_COPYDATA**](wm-copydata.md) message. The receiving application has a hidden window with the class name Disp32Class.
+The sending application displays a dialog box to the user which requests certain information. The application packages the information into a private data structure, includes a pointer to the structure in the [**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-winuser-copydatastruct) structure, and sends the information to the receiving application using the [**WM\_COPYDATA**](wm-copydata.md) message. The receiving application has a hidden window with the class name Disp32Class.
 
 
 ```

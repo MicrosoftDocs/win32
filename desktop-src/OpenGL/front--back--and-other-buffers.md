@@ -23,7 +23,7 @@ Two color buffers are available to applications that use double buffering: a fro
 
 The generic implementation uses a device-independent bitmap (DIB) as the back buffer and the screen display as the front buffer. Hardware devices and their drivers may use different approaches.
 
-Double buffering is a pixel-format property. To request double buffering for a pixel format, set the PFD\_DOUBLEBUFFER flag in the [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) data structure in a call to [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat).
+Double buffering is a pixel-format property. To request double buffering for a pixel format, set the PFD\_DOUBLEBUFFER flag in the [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) data structure in a call to [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat).
 
 The OpenGL core function, [**glDrawBuffer**](gldrawbuffer.md), selects buffers for writing and clearing.
 

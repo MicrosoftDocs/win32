@@ -62,7 +62,7 @@ An image static control can display bitmaps, icons (including animated icons), o
 
 ### Owner-Drawn Static Control
 
-By using the SS\_OWNERDRAW style, an application can take responsibility for painting a static control. The parent window of an owner-drawn static control (its owner) receives a [**WM\_DRAWITEM**](wm-drawitem.md) message whenever the static control needs to be painted. The message includes a pointer to a [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure that contains information that the owner window uses when drawing the control.
+By using the SS\_OWNERDRAW style, an application can take responsibility for painting a static control. The parent window of an owner-drawn static control (its owner) receives a [**WM\_DRAWITEM**](wm-drawitem.md) message whenever the static control needs to be painted. The message includes a pointer to a [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure that contains information that the owner window uses when drawing the control.
 
 ## Static Control Default Message Processing
 

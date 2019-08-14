@@ -46,7 +46,7 @@ HRESULT GetIcon(
 *dllFilePath* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) used to return the file path of the DLL that contains the icon.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) used to return the file path of the DLL that contains the icon.
 
 </dd> <dt>
 

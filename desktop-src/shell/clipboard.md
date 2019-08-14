@@ -110,13 +110,13 @@ If only drive letters will be used to mount volumes, only [CF\_HDROP](https://do
 
 ### CFSTR\_SHELLIDLIST
 
-This format identifier is used when transferring the locations of one or more existing namespace objects. It is used in much the same way as [CF\_HDROP](https://docs.microsoft.com/windows), but it contains PIDLs instead of file system paths. Using PIDLs allows the CFSTR\_SHELLIDLIST format to handle virtual objects as well as file system objects. The data is an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a [**CIDA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida) structure.
+This format identifier is used when transferring the locations of one or more existing namespace objects. It is used in much the same way as [CF\_HDROP](https://docs.microsoft.com/windows), but it contains PIDLs instead of file system paths. Using PIDLs allows the CFSTR\_SHELLIDLIST format to handle virtual objects as well as file system objects. The data is an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a [**CIDA**](/windows/win32/api/shlobj_core/ns-shlobj_core-cida) structure.
 
-The **aoffset** member of the [**CIDA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida) structure is an array containing offsets to the beginning of the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure for each PIDL that is being transferred. To extract a particular PIDL, first determine its index. Then, add the **aoffset** value that corresponds to that index to the address of the **CIDA** structure.
+The **aoffset** member of the [**CIDA**](/windows/win32/api/shlobj_core/ns-shlobj_core-cida) structure is an array containing offsets to the beginning of the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure for each PIDL that is being transferred. To extract a particular PIDL, first determine its index. Then, add the **aoffset** value that corresponds to that index to the address of the **CIDA** structure.
 
 The first element of **aoffset** contains an offset to the fully qualified PIDL of a parent folder. If this PIDL is empty, the parent folder is the desktop. Each of the remaining elements of the array contains an offset to one of the PIDLs to be transferred. All of these PIDLs are relative to the PIDL of the parent folder.
 
-The following two macros can be used to retrieve PIDLs from a [**CIDA**](/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida) structure. The first takes a pointer to the structure and retrieves the PIDL of the parent folder. The second takes a pointer to the structure and retrieves one of the other PIDLs, identified by its zero-based index.
+The following two macros can be used to retrieve PIDLs from a [**CIDA**](/windows/win32/api/shlobj_core/ns-shlobj_core-cida) structure. The first takes a pointer to the structure and retrieves the PIDL of the parent folder. The second takes a pointer to the structure and retrieves one of the other PIDLs, identified by its zero-based index.
 
 
 ```C++

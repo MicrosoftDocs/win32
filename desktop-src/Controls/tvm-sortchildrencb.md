@@ -34,7 +34,7 @@ Reserved. Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TVSORTCB**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvsortcb) structure. The **lpfnCompare** member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of **TVSORTCB**.
+Pointer to a [**TVSORTCB**](/windows/win32/api/commctrl/ns-commctrl-tvsortcb) structure. The **lpfnCompare** member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of **TVSORTCB**.
 
 </dd> </dl>
 

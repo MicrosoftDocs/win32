@@ -40,7 +40,7 @@ BOOL IsValidDevmode(
 *pDevmode* \[in\]
 </dt> <dd>
 
-A pointer to the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) to validate.
+A pointer to the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) to validate.
 
 </dd> <dt>
 
@@ -53,15 +53,15 @@ The size in bytes of the input byte buffer.
 
 ## Return value
 
-**TRUE**, if the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) is structurally valid. If minor errors are found the function will fix them and return **TRUE**.
+**TRUE**, if the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) is structurally valid. If minor errors are found the function will fix them and return **TRUE**.
 
-**FALSE**, if the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) has one or more significant structural problems. For example, its **dmSize** member is misaligned or specifies a buffer that is too small. Also, **FALSE** if **pDevmode** is **NULL**.
+**FALSE**, if the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) has one or more significant structural problems. For example, its **dmSize** member is misaligned or specifies a buffer that is too small. Also, **FALSE** if **pDevmode** is **NULL**.
 
 ## Remarks
 
-No private printer driver fields of the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) are checked, only the public fields.
+No private printer driver fields of the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) are checked, only the public fields.
 
-Callers should use **dmSize**+**dmDriverExtra** for **DevmodeSize** only if they can guarantee that the input buffer size is at least that big. Since the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) is generally untrusted data, the values that are in the input buffer at the **dmSize** and **dmDriverExtra** offsets are also untrusted.
+Callers should use **dmSize**+**dmDriverExtra** for **DevmodeSize** only if they can guarantee that the input buffer size is at least that big. Since the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) is generally untrusted data, the values that are in the input buffer at the **dmSize** and **dmDriverExtra** offsets are also untrusted.
 
 This function is executable in Least-Privileged User Account (LUA) context.
 
@@ -90,7 +90,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 [Print Spooler API Functions](printing-and-print-spooler-functions.md)
 </dt> <dt>
 
-[**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea)
+[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)
 </dt> </dl>
 
  

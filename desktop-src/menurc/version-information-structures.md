@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 -   [**StringTable**](stringtable.md)
 -   [**Var**](var-str.md)
 -   [**VarFileInfo**](varfileinfo.md)
--   [**VS\_FIXEDFILEINFO**](/windows/desktop/api/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo)
+-   [**VS\_FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo)
 -   [**VS\_VERSIONINFO**](vs-versioninfo.md)
 
  

@@ -105,7 +105,7 @@ This overview does not describe how to copy and paste linked or embedded objects
 
 | Name                                            | Description                                                                                              |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| [**METAFILEPICT**](/windows/desktop/api/Wingdi/ns-wingdi-tagmetafilepict)<br/> | Defines the metafile picture format used for exchanging metafile data through the clipboard. <br/> |
+| [**METAFILEPICT**](/windows/win32/api/wingdi/ns-wingdi-metafilepict)<br/> | Defines the metafile picture format used for exchanging metafile data through the clipboard. <br/> |
 
 
 

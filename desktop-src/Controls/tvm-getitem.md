@@ -32,7 +32,7 @@ Retrieves some or all of a tree-view item's attributes. You can send this messag
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure that specifies the information to retrieve and receives information about the item. With [version 4.71](common-control-versions.md) and later, you can use a [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa) structure instead.
+Pointer to a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure that specifies the information to retrieve and receives information about the item. With [version 4.71](common-control-versions.md) and later, you can use a [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) structure instead.
 
 </dd> </dl>
 
@@ -42,9 +42,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-When the message is sent, the **hItem** member of the [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) or [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa) structure identifies the item to retrieve information about, and the **mask** member specifies the attributes to retrieve.
+When the message is sent, the **hItem** member of the [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) or [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) structure identifies the item to retrieve information about, and the **mask** member specifies the attributes to retrieve.
 
-If the TVIF\_TEXT flag is set in the **mask** member of the [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) or [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa) structure, the **pszText** member must point to a valid buffer and the **cchTextMax** member must be set to the number of characters in that buffer.
+If the TVIF\_TEXT flag is set in the **mask** member of the [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) or [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) structure, the **pszText** member must point to a valid buffer and the **cchTextMax** member must be set to the number of characters in that buffer.
 
 ## Requirements
 

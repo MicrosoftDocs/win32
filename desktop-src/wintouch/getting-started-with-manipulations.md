@@ -25,7 +25,7 @@ The Manipulation APIs are used to simplify transformation operations on objects 
 
 | Section                                                                                            | Description                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Adding Manipulation Support to Unmanaged Code](adding-manipulation-support-in-unmanaged-code.md) | Explains how to implement an event sink for the [**\_IManipulationEvents**](/windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents) interface and add event handlers to your code. |
+| [Adding Manipulation Support to Unmanaged Code](adding-manipulation-support-in-unmanaged-code.md) | Explains how to implement an event sink for the [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) interface and add event handlers to your code. |
 | [Advanced Manipulations](advanced-manipulations.md)                                               | Explains how to perform complex manipulations.                                                                                                       |
 | [Single Finger Rotation](single-finger-rotation.md)                                               | Explains how to rotate an object by using a pivot point and the manipulation processor.                                                              |
 

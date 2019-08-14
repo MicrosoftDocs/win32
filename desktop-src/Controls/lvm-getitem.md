@@ -32,7 +32,7 @@ Retrieves some or all of a list-view item's attributes. You can send this messag
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure that specifies the information to retrieve and receives information about the list-view item.
+Pointer to an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure that specifies the information to retrieve and receives information about the list-view item.
 
 </dd> </dl>
 
@@ -42,9 +42,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-When the **LVM\_GETITEM** message is sent, the **iItem** and **iSubItem** members identify the item or subitem to retrieve information about and the **mask** member specifies which attributes to retrieve. For a list of possible values, see the description of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure.
+When the **LVM\_GETITEM** message is sent, the **iItem** and **iSubItem** members identify the item or subitem to retrieve information about and the **mask** member specifies which attributes to retrieve. For a list of possible values, see the description of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure.
 
-If the LVIF\_TEXT flag is set in the **mask** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure, the **pszText** member must point to a valid buffer and the **cchTextMax** member must be set to the number of characters in that buffer. Applications should not assume that the text will necessarily be placed in the specified buffer. The control may instead change the **pszText** member of the structure to point to the new text, rather than place it in the buffer.
+If the LVIF\_TEXT flag is set in the **mask** member of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure, the **pszText** member must point to a valid buffer and the **cchTextMax** member must be set to the number of characters in that buffer. Applications should not assume that the text will necessarily be placed in the specified buffer. The control may instead change the **pszText** member of the structure to point to the new text, rather than place it in the buffer.
 
 If the **mask** member specifies the LVIF\_STATE value, the **stateMask** member must specify the item state bits to retrieve. On output, the **state** member contains the values of the specified state bits.
 

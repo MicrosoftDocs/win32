@@ -30,7 +30,7 @@ Determines which tab, if any, is at a specified screen position. You can send th
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TCHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtchittestinfo) structure that specifies the screen position to test.
+Pointer to a [**TCHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-tchittestinfo) structure that specifies the screen position to test.
 
 </dd> </dl>
 

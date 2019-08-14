@@ -19,7 +19,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Stream                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1System                       |
 | Format Type           | FORMAT\_MPEGStreams                             |
-| Format Structure      | [**AM\_MPEGSYSTEMTYPE**](/windows/desktop/api/mpegtype/ns-mpegtype-tagam_mpegsystemtype) |
+| Format Structure      | [**AM\_MPEGSYSTEMTYPE**](/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype) |
 | Media Sample Contents | Byte stream; no alignment                       |
 
 
@@ -83,7 +83,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Video                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
 | Format Type           | FORMAT\_MPEGVideo                              |
-| Format Structure      | [**MPEG1VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo)       |
+| Format Structure      | [**MPEG1VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo)       |
 | Media Sample Contents | Single MPEG-1 packet, including packet header. |
 
 
@@ -99,7 +99,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Video                         |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload               |
 | Format Type           | FORMAT\_MPEGVideo                        |
-| Format Structure      | [**MPEG1VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo) |
+| Format Structure      | [**MPEG1VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo) |
 | Media Sample Contents | Byte-aligned MPEG-1 video data.          |
 
 

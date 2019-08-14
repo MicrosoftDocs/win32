@@ -195,11 +195,11 @@ A drag list box notifies the parent window of drag events by sending it a drag l
 
 The drag list box registers this message when the [**MakeDragList**](/windows/desktop/api/Commctrl/nf-commctrl-makedraglist) function is called. To retrieve the message identifier (numeric value) of the drag list message, call the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function and specify the DRAGLISTMSGSTRING value.
 
-The *wParam* parameter of the drag list message is the control identifier for the drag list box. The *lParam* parameter is the address of a [**DRAGLISTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagdraglistinfo) structure, which contains the notification code for the drag event and other information. The return value of the message depends on the notification.
+The *wParam* parameter of the drag list message is the control identifier for the drag list box. The *lParam* parameter is the address of a [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-commctrl-draglistinfo) structure, which contains the notification code for the drag event and other information. The return value of the message depends on the notification.
 
 ### Drag List Box Notification Codes
 
-The drag list notification code, which is identified by the **uNotification** member of the [**DRAGLISTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagdraglistinfo) structure included with the drag list message, can be [DL\_BEGINDRAG](dl-begindrag.md), [DL\_DRAGGING](dl-dragging.md), [DL\_CANCELDRAG](dl-canceldrag.md), or [DL\_DROPPED](dl-dropped.md).
+The drag list notification code, which is identified by the **uNotification** member of the [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-commctrl-draglistinfo) structure included with the drag list message, can be [DL\_BEGINDRAG](dl-begindrag.md), [DL\_DRAGGING](dl-dragging.md), [DL\_CANCELDRAG](dl-canceldrag.md), or [DL\_DROPPED](dl-dropped.md).
 
 The [DL\_BEGINDRAG](dl-begindrag.md) notification code is sent when the cursor is on a list item and the user clicks the left mouse button. The parent window can return **TRUE** to begin the drag operation or **FALSE** to disallow dragging. In this way, the parent window can enable dragging for some list items and disable it for others. You can determine which list item is at the specified location by using the [**LBItemFromPt**](/windows/desktop/api/Commctrl/nf-commctrl-lbitemfrompt) function.
 

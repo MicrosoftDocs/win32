@@ -15,7 +15,7 @@ The Remote Desktop Gateway (RD Gateway) API supports the following structures.
 
 <dl> <dt>
 
-[**AAAccountingData**](/windows/desktop/api/TSGPolicyEngine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003)
+[**AAAccountingData**](/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata)
 </dt> <dd>
 
 This structure contains information about a connection event.

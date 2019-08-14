@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [**WM\_COPYDATA**](wm-copydata.md)
--   [**COPYDATASTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcopydatastruct)
+-   [**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-winuser-copydatastruct)
 
  
 

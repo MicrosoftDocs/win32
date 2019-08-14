@@ -23,15 +23,15 @@ ms.date: 05/31/2018
 
 The **Font** dialog box lets the user choose attributes for a logical font, such as font family and associated font style, point size, effects (underline, strikeout, and text color), and a script (or character set).
 
-You create and display a **Font** dialog box by initializing a [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure and passing the structure to the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function.
+You create and display a **Font** dialog box by initializing a [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure and passing the structure to the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function.
 
 The following screen shot shows a typical **Font** dialog box.
 
 ![screen shot showing the font dialog box](images/fontdialogboxxp.png)
 
-If the user clicks the **OK** button, the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function returns **TRUE** and sets the information about the user's selection in the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure.
+If the user clicks the **OK** button, the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function returns **TRUE** and sets the information about the user's selection in the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure.
 
-If the user cancels the **Font** dialog box or an error occurs, [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) returns **FALSE** and the contents of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure are not defined. You can determine the cause of an error by using the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
+If the user cancels the **Font** dialog box or an error occurs, [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) returns **FALSE** and the contents of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure are not defined. You can determine the cause of an error by using the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
 
 The following topics are discussed in this section.
 
@@ -41,36 +41,36 @@ The following topics are discussed in this section.
 
 ## Font Dialog Box Initialization Flags
 
-Before calling [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta), the **Flags** member of the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure must specify **CF\_SCREENFONTS**, **CF\_PRINTERFONTS**, or **CF\_BOTH**, to indicate whether the dialog box should list screen fonts, printer fonts, or both. If you specify **CF\_PRINTERFONTS** or **CF\_BOTH**, the **hDC** member of the **CHOOSEFONT** structure must specify a handle to a device context for the printer.
+Before calling [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta), the **Flags** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure must specify **CF\_SCREENFONTS**, **CF\_PRINTERFONTS**, or **CF\_BOTH**, to indicate whether the dialog box should list screen fonts, printer fonts, or both. If you specify **CF\_PRINTERFONTS** or **CF\_BOTH**, the **hDC** member of the **CHOOSEFONT** structure must specify a handle to a device context for the printer.
 
 If the **CF\_PRINTERFONTS** or **CF\_BOTH** flag is set, the font type description label appears at the bottom of the **Font** dialog box.
 
-Starting with Windows 7, the **CF\_PRINTERFONTS**, **CF\_SCREENFONTS**, **CF\_BOTH**, and **CF\_WYSIWYG** flags are no longer used by the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function for font enumeration. They are obsolete in Windows 7. However, the **CF\_PRINTERFONTS** flag retains one function: to display the font type description label at the bottom of the **Font** dialog box.
+Starting with Windows 7, the **CF\_PRINTERFONTS**, **CF\_SCREENFONTS**, **CF\_BOTH**, and **CF\_WYSIWYG** flags are no longer used by the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function for font enumeration. They are obsolete in Windows 7. However, the **CF\_PRINTERFONTS** flag retains one function: to display the font type description label at the bottom of the **Font** dialog box.
 
-You can use the **Flags** member to enable or disable some of the **Font** dialog box controls, and you can use the **Flags** member in conjunction with other [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) members to control the initial values of some controls.
+You can use the **Flags** member to enable or disable some of the **Font** dialog box controls, and you can use the **Flags** member in conjunction with other [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) members to control the initial values of some controls.
 
 **To display the controls that allow the user to select strikeout, underline, and color options:**
 
--   Set the **CF\_EFFECTS** flag. You can use the **rgbColors** member of the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure to specify an initial font color.
+-   Set the **CF\_EFFECTS** flag. You can use the **rgbColors** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify an initial font color.
 
 **To specify the initial values for the Font, Font Style, Size, Strikeout, and Underline dialog box controls:**
 
 1.  To specify the initial values for the Font, Font Style, Size, Strikeout, and Underline dialog box controls:
-2.  Set the **CF\_INITTOLOGFONTSTRUCT** flag in the **Flags** member, along with members of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure that is pointed to by the **lpLogFont**, to specify the initial values for the font attributes.
-3.  You can also use the **CF\_NOFACESEL**, **CF\_NOSTYLESEL**, and **CF\_NOSIZESEL** flags to prevent the **Font** dialog box from displaying initial values for the corresponding controls. This is useful when you are working with a selection of text that has more than one typeface, style, or point size. These values will also be set in **Flags** when [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) returns, if the user did not select a corresponding value.
+2.  Set the **CF\_INITTOLOGFONTSTRUCT** flag in the **Flags** member, along with members of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that is pointed to by the **lpLogFont**, to specify the initial values for the font attributes.
+3.  You can also use the **CF\_NOFACESEL**, **CF\_NOSTYLESEL**, and **CF\_NOSIZESEL** flags to prevent the **Font** dialog box from displaying initial values for the corresponding controls. This is useful when you are working with a selection of text that has more than one typeface, style, or point size. These values will also be set in **Flags** when [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) returns, if the user did not select a corresponding value.
 
 **To initialize the Font Style control to a specified style name**
 
 -   Set the **CF\_USESTYLE** flag and use the **lpszStyle** member to specify the style name.
 
 > [!Note]  
-> To globalize your application, specify the style by using the **lfWeight** and **lfItalic** members of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure that is pointed to by **lpLogFont**. The style name may change depending on the system user interface language.
+> To globalize your application, specify the style by using the **lfWeight** and **lfItalic** members of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that is pointed to by **lpLogFont**. The style name may change depending on the system user interface language.
 
  
 
 **To display the Apply button**
 
--   Set the **CF\_APPLY** flag and provide a hook procedure to process [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages for the **Apply** button. The hook procedure can send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) message to the dialog box to retrieve the address of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure that contains the current selections for the font.
+-   Set the **CF\_APPLY** flag and provide a hook procedure to process [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages for the **Apply** button. The hook procedure can send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) message to the dialog box to retrieve the address of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that contains the current selections for the font.
 
 **To display the Help button**
 
@@ -93,12 +93,12 @@ Starting with Windows 7, the list of fonts displayed in the dialog box is restr
 
 ## Customizing the Font Dialog Box on earlier versions of Windows
 
-You can provide a custom template for the **Font** dialog box, for example, if you want to include additional controls that are unique to your application. The [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function uses your custom template in place of the default template.
+You can provide a custom template for the **Font** dialog box, for example, if you want to include additional controls that are unique to your application. The [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function uses your custom template in place of the default template.
 
 **To provide a custom template for the Font dialog box**
 
 1.  Create the custom template by modifying the default template specified in the Font.dlg file. The control identifiers used in the default Font dialog template are defined in the Dlgs.h file.
-2.  Use the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure to enable the template as follows:
+2.  Use the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to enable the template as follows:
     -   If your custom template is a resource in an application or dynamic link library, set the **CF\_ENABLETEMPLATE** flag in the **Flags** member. Use the **hInstance** and **lpTemplateName** members of the structure to identify the module and resource name.
     -   If your custom template is already in memory, set the **CF\_ENABLETEMPLATEHANDLE** flag. Use the **hInstance** member to identify the memory object that contains the template.
 
@@ -106,10 +106,10 @@ You can provide a [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms64
 
 **To enable a hook procedure for the Font dialog box**
 
-1.  Set the **CF\_ENABLEHOOK** flag in the **Flags** member of the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure.
+1.  Set the **CF\_ENABLEHOOK** flag in the **Flags** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure.
 2.  Specify the address of the hook procedure in the **lpfnHook** member.
 
-After processing the [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the hook procedure. The *lParam* parameter of this message is a pointer to the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure that is used to initialize the dialog box.
+After processing the [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the hook procedure. The *lParam* parameter of this message is a pointer to the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure that is used to initialize the dialog box.
 
 The hook procedure can send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md), [**WM\_CHOOSEFONT\_SETLOGFONT**](wm-choosefont-setlogfont.md), and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages to the dialog box to get and set the current values and flags of the dialog box.
 
@@ -125,7 +125,7 @@ In earlier Windows versions, the font.dlg template file contains one default Cho
 
     ![screen shot showing the font control panel in windows 7](images/fontcontrolpanelforwin7.png)
 
-2.  To use this link control, your calling application must use the COMCTL32.DLL version 6 or later. Otherwise, the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function returns an error when it tries to create the link control in your custom template. To determine if this control is enabled, compile your calling application against COMCTL32.DLL version 6.0. For more information, see [Enabling Visual Styles with Common Controls](https://msdn.microsoft.com/library/ms649781(VS.85).aspx).
+2.  To use this link control, your calling application must use the COMCTL32.DLL version 6 or later. Otherwise, the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function returns an error when it tries to create the link control in your custom template. To determine if this control is enabled, compile your calling application against COMCTL32.DLL version 6.0. For more information, see [Enabling Visual Styles with Common Controls](https://msdn.microsoft.com/library/ms649781(VS.85).aspx).
 3.  If your application uses COMCTL32.DLL version 5.0 or earlier, you must do the following when you create a custom template:
 
     -   Specify the control as a **PUSHBUTTON**. The control used to launch the **Fonts Control Panel** will appear as a button rather than as a link.

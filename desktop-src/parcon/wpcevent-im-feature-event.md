@@ -52,14 +52,14 @@ The ID for this conversation.
 *MediaType* 
 </dt> <dd>
 
-A value of the [**WPCFLAG\_IM\_FEATURE**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpcflag_im_feature) enumeration that indicates information about the features accessed during an instant messaging interaction.
+A value of the [**WPCFLAG\_IM\_FEATURE**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_im_feature) enumeration that indicates information about the features accessed during an instant messaging interaction.
 
 </dd> <dt>
 
 *Reason* 
 </dt> <dd>
 
-A value of the [**WPCFLAG\_ISBLOCKED**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpcflag_isblocked) enumeration that indicates information about what events are blocked from use and what controls are in place.
+A value of the [**WPCFLAG\_ISBLOCKED**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_isblocked) enumeration that indicates information about what events are blocked from use and what controls are in place.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ The description of the data in the feature.
 [Using Logging APIs for Parental Controls](using-logging-apis-for-parental-controls.md)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
 </dt> </dl>
 
  

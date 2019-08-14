@@ -36,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo) structure. Before calling [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo), set the **cbSize** member of the structure to **sizeof**(**SCROLLINFO**), and set the **fMask** member to specify the scroll bar parameters to retrieve. Before returning, the message copies the specified parameters to the appropriate members of the structure.
+Pointer to a [**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo) structure. Before calling [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo), set the **cbSize** member of the structure to **sizeof**(**SCROLLINFO**), and set the **fMask** member to specify the scroll bar parameters to retrieve. Before returning, the message copies the specified parameters to the appropriate members of the structure.
 
 The **fMask** member can be one or more of the following values.
 
@@ -62,9 +62,9 @@ If the message retrieved any values, the return value is **TRUE**; otherwise, it
 
 ## Remarks
 
-The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md), provide only 16 bits of position data. However, the [**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo) structure used by **SBM\_GETSCROLLINFO**, [**SBM\_SETSCROLLINFO**](sbm-setscrollinfo.md), [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo), and [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) provides 32 bits of scroll bar position data. You can use these messages and functions while processing either the **WM\_HSCROLL** or **WM\_VSCROLL** messages to obtain 32-bit scroll bar position data.
+The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md), provide only 16 bits of position data. However, the [**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo) structure used by **SBM\_GETSCROLLINFO**, [**SBM\_SETSCROLLINFO**](sbm-setscrollinfo.md), [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo), and [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) provides 32 bits of scroll bar position data. You can use these messages and functions while processing either the **WM\_HSCROLL** or **WM\_VSCROLL** messages to obtain 32-bit scroll bar position data.
 
-To get the 32-bit position of the scroll box (thumb) during a SB\_THUMBTRACK request code in a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](wm-vscroll.md) message, send **SBM\_GETSCROLLINFO** with the SIF\_TRACKPOS value in the **fMask** member of the [**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo) structure. The message returns the tracking position of the scroll box in the **nTrackPos** member of the **SCROLLINFO** structure. This allows you to get the position of the scroll box as the user moves it. Alternatively, you can use the [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo) function to get the same information.
+To get the 32-bit position of the scroll box (thumb) during a SB\_THUMBTRACK request code in a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](wm-vscroll.md) message, send **SBM\_GETSCROLLINFO** with the SIF\_TRACKPOS value in the **fMask** member of the [**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo) structure. The message returns the tracking position of the scroll box in the **nTrackPos** member of the **SCROLLINFO** structure. This allows you to get the position of the scroll box as the user moves it. Alternatively, you can use the [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo) function to get the same information.
 
 ## Requirements
 
@@ -91,7 +91,7 @@ To get the 32-bit position of the scroll box (thumb) during a SB\_THUMBTRACK req
 [**SBM\_SETSCROLLINFO**](sbm-setscrollinfo.md)
 </dt> <dt>
 
-[**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo)
+[**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo)
 </dt> <dt>
 
 [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo)

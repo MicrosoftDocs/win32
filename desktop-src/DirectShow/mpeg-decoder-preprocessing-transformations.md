@@ -20,7 +20,7 @@ Below is a description of how to correctly display each of the modes and their h
 
 **MPEG preprocessing with the DVD Navigator and VMR**
 
-Currently, the decoder is passed a FORMAT\_MPEG2\_VIDEO media type (whose format block points to a [**MPEG2VIDEOINFO**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo) structure). On the output pins, the decoder produces a FORMAT\_VideoInfo2 media type, whose format block points to a [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) structure. The structure's **dwReserved** field has been renamed to **dwControls** flags.
+Currently, the decoder is passed a FORMAT\_MPEG2\_VIDEO media type (whose format block points to a [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) structure). On the output pins, the decoder produces a FORMAT\_VideoInfo2 media type, whose format block points to a [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure. The structure's **dwReserved** field has been renamed to **dwControls** flags.
 
 The **dwControlFlags** member will now contain the new bits.
 

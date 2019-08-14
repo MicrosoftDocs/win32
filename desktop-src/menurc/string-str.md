@@ -178,7 +178,7 @@ The **Value** member identifies the original name of the file, not including a p
 
 </dt> <dd>
 
-The **Value** member describes by whom, where, and why this private version of the file was built. This string should only be present if the **VS\_FF\_PRIVATEBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](/windows/desktop/api/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo) structure. For example, **Value** could be "Built by OSCAR on \\OSCAR2".
+The **Value** member describes by whom, where, and why this private version of the file was built. This string should only be present if the **VS\_FF\_PRIVATEBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo) structure. For example, **Value** could be "Built by OSCAR on \\OSCAR2".
 
 </dd> <dt>
 
@@ -211,7 +211,7 @@ The **Value** member identifies the version of the product with which this file 
 
 </dt> <dd>
 
-The **Value** member describes how this version of the file differs from the normal version. This entry should only be present if the **VS\_FF\_SPECIALBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](/windows/desktop/api/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo) structure. For example, **Value** could be "Private build for Olivetti solving mouse problems on M250 and M250E computers".
+The **Value** member describes how this version of the file differs from the normal version. This entry should only be present if the **VS\_FF\_SPECIALBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo) structure. For example, **Value** could be "Private build for Olivetti solving mouse problems on M250 and M250E computers".
 
 </dd> </dl> </dd> <dt>
 
@@ -264,7 +264,7 @@ A **String** structure may have an **szKey** value of, for example, "CompanyName
 [**StringTable**](stringtable.md)
 </dt> <dt>
 
-[**VS\_FIXEDFILEINFO**](/windows/desktop/api/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo)
+[**VS\_FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo)
 </dt> <dt>
 
 [**StringFileInfo**](stringfileinfo.md)

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # FreeRepairInfoExs function
 
-The **FreeRepairInfoExs** function deallocates the memory allocated internally to an array of [**RepairInfoEx**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex) structures. This function calls [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to deallocate memory.
+The **FreeRepairInfoExs** function deallocates the memory allocated internally to an array of [**RepairInfoEx**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex) structures. This function calls [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to deallocate memory.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ VOID FreeRepairInfoExs(
 *pInfo* \[in\]
 </dt> <dd>
 
-Type: **[**RepairInfoEx**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex)\***
+Type: **[**RepairInfoEx**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex)\***
 
 The array of structures. The allocated memory pointed to by these structures will be freed.
 
@@ -84,7 +84,7 @@ This function does not return a value.
 
 <dl> <dt>
 
-[**RepairInfoEx**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex)
+[**RepairInfoEx**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex)
 </dt> <dt>
 
 [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)

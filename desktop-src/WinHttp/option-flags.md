@@ -354,7 +354,7 @@ Retrieves an unsigned long integer value that contains a Microsoft Windows Socke
 
 
 
-Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
+Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
 
 
 </dt> </dl> </dd> <dt>
@@ -364,7 +364,7 @@ Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-wi
 
 
 
-Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
+Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
 
 
 </dt> </dl> </dd> <dt>
@@ -420,7 +420,7 @@ Gets a DWORD indicating which advanced HTTP version was used on a given request.
 
 
 
-Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_1) structure that contains the HTTP version being supported. This is a process-wide option; use **NULL** for the handle.
+Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) structure that contains the HTTP version being supported. This is a process-wide option; use **NULL** for the handle.
 
 
 </dt> </dl> </dd> <dt>
@@ -572,7 +572,7 @@ Sets or retrieves a string value that contains the password associated with a re
 
 
 
-Sets or retrieves an [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure that contains the proxy data on an existing session handle or request handle. When retrieving proxy data, an application must free the **lpszProxy** and **lpszProxyBypass** strings contained in this structure (if they are non-**NULL**) using the [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree) function. An application can query for the global proxy data (the default proxy) by passing a **NULL** handle.
+Sets or retrieves an [**WINHTTP\_PROXY\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info) structure that contains the proxy data on an existing session handle or request handle. When retrieving proxy data, an application must free the **lpszProxy** and **lpszProxyBypass** strings contained in this structure (if they are non-**NULL**) using the [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree) function. An application can query for the global proxy data (the default proxy) by passing a **NULL** handle.
 
 
 </dt> </dl> </dd> <dt>
@@ -759,7 +759,7 @@ The TLS 1.2 protocol can be used.
 
 
 
-Retrieves the certificate for a SSL/TLS server into the [**WINHTTP\_CERTIFICATE\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_5) structure. The application must free the **lpszSubjectInfo** and **lpszIssuerInfo** members with [**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree).
+Retrieves the certificate for a SSL/TLS server into the [**WINHTTP\_CERTIFICATE\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) structure. The application must free the **lpszSubjectInfo** and **lpszIssuerInfo** members with [**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree).
 
 
 </dt> </dl> </dd> <dt>
@@ -1097,10 +1097,10 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_ENABLETRACING<br/>**DWORD** | \- | \- | X | X |
 | WINHTTP\_OPTION\_ENCODE\_EXTRA<br/>**BOOL** | X | X | \- | X |
 | WINHTTP\_OPTION\_EXTENDED\_ERROR<br/>**DWORD** | X | X | X | \- |
-| WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds) | X | X | \- | X |
-| WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex) | X | X | \- | X |
+| WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X |
+| WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X |
 | WINHTTP\_OPTION\_HANDLE\_TYPE<br/>**DWORD** | X | X | X | \- |
-| WINHTTP\_OPTION\_HTTP\_VERSION<br/>[**HTTP\_VERSION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_1) | X | X | X | X |
+| WINHTTP\_OPTION\_HTTP\_VERSION<br/>[**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X |
 | WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED<br/>**DWORD** | \- | X | X | \- |
 | WINHTTP\_OPTION\_IS\_PROXY\_CONNECT\_RESPONSE<br/>**BOOL** | X | X | X | \- |
 | WINHTTP\_OPTION\_MAX\_CONNS\_PER\_1\_0\_SERVER<br/>**DWORD** | X | \- | X | X |
@@ -1116,7 +1116,7 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_PASSPORT\_RETURN\_URL<br/>**LPVOID** | \- | X | X | \- |
 | WINHTTP\_OPTION\_PASSPORT\_SIGN\_OUT<br/>**LPVOID** | X | \- | \- | X |
 | WINHTTP\_OPTION\_PASSWORD<br/>**LPWSTR** | \- | X | X | X |
-| WINHTTP\_OPTION\_PROXY<br/>[**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) | X | X | X | X |
+| WINHTTP\_OPTION\_PROXY<br/>[**WINHTTP\_PROXY\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info) | X | X | X | X |
 | WINHTTP\_OPTION\_PROXY\_PASSWORD<br/>**LPWSTR** | \- | X | X | X |
 | WINHTTP\_OPTION\_PROXY\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- |
 | WINHTTP\_OPTION\_PROXY\_USERNAME<br/>**LPWSTR** | \- | X | X | X |
@@ -1129,7 +1129,7 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_REQUEST\_PRIORITY<br/>**DWORD** | \- | X | X | X |
 | WINHTTP\_OPTION\_RESOLVE\_TIMEOUT<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_SECURE\_PROTOCOLS<br/>**DWORD** | X | \- | \- | X |
-| WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT<br/>[**WINHTTP\_CERTIFICATE\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_5) | \- | X | X | \- |
+| WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT<br/>[**WINHTTP\_CERTIFICATE\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) | \- | X | X | \- |
 | WINHTTP\_OPTION\_SECURITY\_FLAGS<br/>**DWORD** | \- | X | X | X |
 | WINHTTP\_OPTION\_SECURITY\_KEY\_BITNESS<br/>**DWORD** | \- | X | X | \- |
 | WINHTTP\_OPTION\_SEND\_TIMEOUT<br/>**DWORD** | X | X | X | X |

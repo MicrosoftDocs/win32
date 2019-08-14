@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**METAFILEPICT**](/windows/desktop/api/Wingdi/ns-wingdi-tagmetafilepict)
+-   [**METAFILEPICT**](/windows/win32/api/wingdi/ns-wingdi-metafilepict)
 
  
 

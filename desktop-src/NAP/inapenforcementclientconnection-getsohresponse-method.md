@@ -45,7 +45,7 @@ HRESULT GetSoHResponse(
 *sohResponse* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a unique [**NetworkSoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagnetworksoh) structure, which is an opaque data blob to the enforcer.
+A pointer to a pointer to a unique [**NetworkSoHResponse**](/windows/win32/api/naptypes/ns-naptypes-networksoh) structure, which is an opaque data blob to the enforcer.
 
 </dd> </dl>
 

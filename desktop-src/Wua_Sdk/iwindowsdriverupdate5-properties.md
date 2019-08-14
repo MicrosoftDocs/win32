@@ -14,8 +14,8 @@ The [**IWindowsDriverUpdate5**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriv
 
 | Property                                                     | Description                                                                                                                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AutoDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autodownload)   | Gets an [**AutoDownloadMode**](/windows/desktop/api/Wuapi/ne-wuapi-tagautodownloadmode) value that indicates the automatic download mode of update.                                          |
-| [**AutoSelection**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autoselection) | Gets an [**AutoSelectionMode**](/windows/desktop/api/Wuapi/ne-wuapi-tagautoselectionmode) value indicating the automatic selection mode of an update in the Control Panel of Windows Update. |
+| [**AutoDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autodownload)   | Gets an [**AutoDownloadMode**](/windows/win32/api/wuapi/ne-wuapi-autodownloadmode) value that indicates the automatic download mode of update.                                          |
+| [**AutoSelection**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autoselection) | Gets an [**AutoSelectionMode**](/windows/win32/api/wuapi/ne-wuapi-autoselectionmode) value indicating the automatic selection mode of an update in the Control Panel of Windows Update. |
 
 
 

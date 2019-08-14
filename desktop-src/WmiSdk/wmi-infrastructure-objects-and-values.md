@@ -13,7 +13,7 @@ This section includes information about WMI [*qualifiers*](gloss-q.md), [*Manage
 
 <dl> <dt>
 
-<span id="CIMTYPE_ENUMERATION"></span><span id="cimtype_enumeration"></span>[**CIMTYPE\_ENUMERATION**](/windows/desktop/api/Wbemcli/ne-wbemcli-tag_cimtype_enumeration)
+<span id="CIMTYPE_ENUMERATION"></span><span id="cimtype_enumeration"></span>[**CIMTYPE\_ENUMERATION**](/windows/win32/api/wbemcli/ne-wbemcli-cimtype_enumeration)
 </dt> <dd>
 
 Defines values that specify different CIM data types.

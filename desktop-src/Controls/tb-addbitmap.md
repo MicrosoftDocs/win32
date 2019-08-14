@@ -34,7 +34,7 @@ Number of button images in the bitmap. If *lParam* specifies a system-defined bi
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBADDBITMAP**](/windows/desktop/api/Commctrl/ns-commctrl-tagtbaddbitmap) structure that contains the identifier of a bitmap resource and the handle to the module instance with the executable file that contains the bitmap resource.
+Pointer to a [**TBADDBITMAP**](/windows/win32/api/commctrl/ns-commctrl-tbaddbitmap) structure that contains the identifier of a bitmap resource and the handle to the module instance with the executable file that contains the bitmap resource.
 
 </dd> </dl>
 

@@ -45,7 +45,7 @@ HRESULT GetSoHRequest(
 *sohRequest* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh).
+A pointer to a pointer to a [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh).
 
 </dd> </dl>
 

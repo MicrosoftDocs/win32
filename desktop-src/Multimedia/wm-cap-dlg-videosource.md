@@ -35,7 +35,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 ## Remarks
 
-The Video Source dialog box is unique for each capture driver. Some capture drivers might not support a Video Source dialog box. Applications can determine if the capture driver supports this message by checking the **fHasDlgVideoSource** member of the [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps) structure.
+The Video Source dialog box is unique for each capture driver. Some capture drivers might not support a Video Source dialog box. Applications can determine if the capture driver supports this message by checking the **fHasDlgVideoSource** member of the [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) structure.
 
 ## Requirements
 

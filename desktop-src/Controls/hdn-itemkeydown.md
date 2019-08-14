@@ -36,7 +36,7 @@ HDN_ITEMKEYDOWN
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that contains additional information about the key that is being pressed.
+A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains additional information about the key that is being pressed.
 
 </dd> </dl>
 

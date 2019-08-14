@@ -18,8 +18,8 @@ The following are the ImageHlp data structures:
 [**IMAGE\_FILE\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-image_file_header)  
 [**IMAGE\_FUNCTION\_ENTRY**](/windows/desktop/api/WinNT/ns-winnt-image_function_entry)  
 [**IMAGE\_LOAD\_CONFIG\_DIRECTORY64**](/windows/desktop/api/WinNT/ns-winnt-image_load_config_directory32)  
-[**IMAGE\_NT\_HEADERS**](/windows/desktop/api/WinNT/ns-winnt-_image_nt_headers)  
-[**IMAGE\_OPTIONAL\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-_image_optional_header)  
+[**IMAGE\_NT\_HEADERS**](/windows/win32/api/winnt/ns-winnt-image_nt_headers32)  
+[**IMAGE\_OPTIONAL\_HEADER**](/windows/win32/api/winnt/ns-winnt-image_optional_header32)  
 [**IMAGE\_SECTION\_HEADER**](/windows/desktop/api/WinNT/ns-winnt-image_section_header)  
 </dl>
 

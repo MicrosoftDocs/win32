@@ -70,9 +70,9 @@ When start codes are not present in the bitstream, the following media type is u
 
  
 
-The format block is an [**MPEG2VIDEOINFO**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo) structure. This structure should be filled in as follows:
+The format block is an [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) structure. This structure should be filled in as follows:
 
--   **hdr**: A [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) structure that describes the bitstream. No color table is present after the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) portion of the structure, and **biClrUsed** must be zero.
+-   **hdr**: A [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure that describes the bitstream. No color table is present after the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) portion of the structure, and **biClrUsed** must be zero.
 -   **dwStartTimeCode**: Not used. Set to zero.
 -   **cbSequenceHeader**: The length of the **dwSequenceHeader** array in bytes.
 -   **dwProfile**: Specifies the H.264 profile.

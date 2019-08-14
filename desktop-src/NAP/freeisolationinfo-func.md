@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **FreeIsolationInfo** function frees an [**IsolationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfo) data structure.
+The **FreeIsolationInfo** function frees an [**IsolationInfo**](/windows/win32/api/naptypes/ns-naptypes-isolationinfo) data structure.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ NAPAPI VOID WINAPI FreeIsolationInfo(
 *isolationInfo* \[in\]
 </dt> <dd>
 
-A pointer to the [**IsolationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfo) data structure to free.
+A pointer to the [**IsolationInfo**](/windows/win32/api/naptypes/ns-naptypes-isolationinfo) data structure to free.
 
 </dd> </dl>
 

@@ -24,7 +24,7 @@ Must be zero.
 *lphi* 
 </dt> <dd>
 
-The address of a [**HELPINFO**](/windows/desktop/api/Winuser/ns-winuser-taghelpinfo) structure that contains information about the menu item, control, dialog box, or window for which Help is requested.
+The address of a [**HELPINFO**](/windows/win32/api/winuser/ns-winuser-helpinfo) structure that contains information about the menu item, control, dialog box, or window for which Help is requested.
 
 </dd> </dl>
 

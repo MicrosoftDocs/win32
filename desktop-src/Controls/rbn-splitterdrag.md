@@ -36,7 +36,7 @@ RBN_SPLITTERDRAG
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMREBARSPLITTER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarsplitter) structure that contains information about the notification code.
+Pointer to an [**NMREBARSPLITTER**](/windows/win32/api/commctrl/ns-commctrl-nmrebarsplitter) structure that contains information about the notification code.
 
 </dd> </dl>
 

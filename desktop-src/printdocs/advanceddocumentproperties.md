@@ -66,14 +66,14 @@ A pointer to a null-terminated string specifying the name of the device for whic
 *pDevModeOutput* \[out\]
 </dt> <dd>
 
-A pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that will contain the configuration data specified by the user.
+A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that will contain the configuration data specified by the user.
 
 </dd> <dt>
 
 *pDevModeInput* \[in\]
 </dt> <dd>
 
-A pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that contains the configuration data used to initialize the controls of the printer-configuration dialog box.
+A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that contains the configuration data used to initialize the controls of the printer-configuration dialog box.
 
 </dd> </dl>
 
@@ -88,7 +88,7 @@ If the [**DocumentProperties**](documentproperties.md) function with these param
 
  
 
-This function can only display the printer-configuration dialog box so a user can configure it. For more control, use [**DocumentProperties**](documentproperties.md). The input parameters for this function are passed directly to **DocumentProperties** and the *fMode* value is set to DM\_IN\_BUFFER \| DM\_IN\_PROMPT \| DM\_OUT\_BUFFER. Unlike **DocumentProperties**, this function only returns 1 or 0. Thus, you cannot determine the required size of [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) by setting *pDevMode* to zero.
+This function can only display the printer-configuration dialog box so a user can configure it. For more control, use [**DocumentProperties**](documentproperties.md). The input parameters for this function are passed directly to **DocumentProperties** and the *fMode* value is set to DM\_IN\_BUFFER \| DM\_IN\_PROMPT \| DM\_OUT\_BUFFER. Unlike **DocumentProperties**, this function only returns 1 or 0. Thus, you cannot determine the required size of [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) by setting *pDevMode* to zero.
 
 An application can obtain the name pointed to by the *pDeviceName* parameter by calling the [**GetPrinter**](getprinter.md) function and then examining the **pPrinterName** member of the [**PRINTER\_INFO\_2**](printer-info-2.md) structure.
 
@@ -120,7 +120,7 @@ An application can obtain the name pointed to by the *pDeviceName* parameter by 
 [**AddPrinter**](addprinter.md)
 </dt> <dt>
 
-[**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea)
+[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)
 </dt> <dt>
 
 [**DocumentProperties**](documentproperties.md)

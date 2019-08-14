@@ -36,13 +36,13 @@ Index of the list-view item.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure. To retrieve the item text, set **iSubItem** to zero. To retrieve the text of a subitem, set **iSubItem** to the subitem's index. The **pszText** member points to a buffer that receives the text. The **cchTextMax** member specifies the number of characters in the buffer.
+Pointer to an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure. To retrieve the item text, set **iSubItem** to zero. To retrieve the text of a subitem, set **iSubItem** to the subitem's index. The **pszText** member points to a buffer that receives the text. The **cchTextMax** member specifies the number of characters in the buffer.
 
 </dd> </dl>
 
 ## Return value
 
-If you send this message explicitly, it returns the number of characters in the **pszText** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure.
+If you send this message explicitly, it returns the number of characters in the **pszText** member of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure.
 
 ## Remarks
 

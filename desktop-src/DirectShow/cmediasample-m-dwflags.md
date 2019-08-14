@@ -20,7 +20,7 @@ api_location:
 
 # CMediaSample::m\_dwFlags member
 
-Sample property flags. Bitwise combination of flags from the [**AM\_SAMPLE\_PROPERTY\_FLAGS**](/windows/desktop/api/Strmif/ne-strmif-tagam_sample_property_flags) enumerated type.
+Sample property flags. Bitwise combination of flags from the [**AM\_SAMPLE\_PROPERTY\_FLAGS**](/previous-versions/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags) enumerated type.
 
 ## Syntax
 

@@ -36,7 +36,7 @@ MCN_VIEWCHANGE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMVIEWCHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmviewchange) structure that contains information about the current view.
+Pointer to an [**NMVIEWCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmviewchange) structure that contains information about the current view.
 
 </dd> </dl>
 

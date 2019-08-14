@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Basic Capture Options
 
-By modifying one or more of the capture parameters defined in the [**CAPTUREPARMS**](/windows/desktop/api/Vfw/ns-vfw-tagcaptureparms) structure, you can perform the following tasks:
+By modifying one or more of the capture parameters defined in the [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) structure, you can perform the following tasks:
 
 -   Change the frame capture rate.
 -   Specify keyboard or mouse control for ending a capture session.

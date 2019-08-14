@@ -36,7 +36,7 @@ The advance width of a [glyph](#glyph) is the movement in the direction of writi
 
 ## bidirectional stack
 
-The bidirectional stack is a 5-bit integer that keeps track of nesting levels between left-to-right and right-to-left text. It always starts at zero for left-to-right. Thus all even-numbered values represent left-to-right text and all odd-numbered values represent right-to-left text. The bidirectional stack is represented in the **uBidiLevel** member of a [**SCRIPT\_STATE**](/windows/desktop/api/Usp10/ns-usp10-tag_script_state) structure.
+The bidirectional stack is a 5-bit integer that keeps track of nesting levels between left-to-right and right-to-left text. It always starts at zero for left-to-right. Thus all even-numbered values represent left-to-right text and all odd-numbered values represent right-to-left text. The bidirectional stack is represented in the **uBidiLevel** member of a [**SCRIPT\_STATE**](/windows/win32/api/usp10/ns-usp10-script_state) structure.
 
 ## bidirectional text
 

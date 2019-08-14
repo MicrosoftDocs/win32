@@ -61,9 +61,9 @@ Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb20590
 *pSrcPalette* \[in\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry)\***
 
-Pointer to a [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry) type that contains the source palette of 256 colors or **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry) type that contains the source palette of 256 colors or **NULL**.
 
 </dd> <dt>
 

@@ -40,7 +40,7 @@ Returns the previous height of the items, in pixels.
 
 ## Remarks
 
-The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the **iIntegral** member of the [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa) structure.
+The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the **iIntegral** member of the [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) structure.
 
 ## Requirements
 

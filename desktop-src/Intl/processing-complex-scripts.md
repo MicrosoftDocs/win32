@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Processing Complex Scripts
 
-To provide text justification, an application can use one of two methods. For a simple implementation of multilingual justification, the application should call [**ScriptJustify**](/windows/desktop/api/Usp10/nf-usp10-scriptjustify). It generates the delta dx array by considering kashida, then interword spacing, and then intercharacter spacing. For more sophisticated justification, the application can generate an updated delta dx array using its own language knowledge and the information retrieved by [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) in the [**SCRIPT\_VISATTR**](/windows/desktop/api/Usp10/ns-usp10-tag_script_visattr) array.
+To provide text justification, an application can use one of two methods. For a simple implementation of multilingual justification, the application should call [**ScriptJustify**](/windows/desktop/api/Usp10/nf-usp10-scriptjustify). It generates the delta dx array by considering kashida, then interword spacing, and then intercharacter spacing. For more sophisticated justification, the application can generate an updated delta dx array using its own language knowledge and the information retrieved by [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) in the [**SCRIPT\_VISATTR**](/windows/win32/api/usp10/ns-usp10-script_visattr) array.
 
-Justification space or kashida should be inserted where identified by the **uJustification** member of [**SCRIPT\_VISATTR**](/windows/desktop/api/Usp10/ns-usp10-tag_script_visattr). When performing inter-character justification, the application should insert extra space only after glyphs marked with SCRIPT\_JUSTIFY\_CHARACTER.
+Justification space or kashida should be inserted where identified by the **uJustification** member of [**SCRIPT\_VISATTR**](/windows/win32/api/usp10/ns-usp10-script_visattr). When performing inter-character justification, the application should insert extra space only after glyphs marked with SCRIPT\_JUSTIFY\_CHARACTER.
 
 The application does caret placement and hit testing by using [**ScriptXtoCP**](/windows/desktop/api/Usp10/nf-usp10-scriptxtocp) and [**ScriptCPtoX**](/windows/desktop/api/Usp10/nf-usp10-scriptcptox). For more information, see [Managing Caret Placement and Hit Testing](managing-caret-placement-and-hit-testing.md).
 

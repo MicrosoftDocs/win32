@@ -112,7 +112,7 @@ Your application should supply groups of icon images in the following sizes:
 -   32x32, 16 color
 -   16x16 pixels, 16 color
 
-When filling in the [**WNDCLASSEX**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa) structure to be used in registering your window class, set the **hIcon** member to the 32x32 icon and the **hIconSm** member to the 16x16 icon. For more information about class icons, see [Class Icons](https://docs.microsoft.com/windows/desktop/winmsg/about-window-classes).
+When filling in the [**WNDCLASSEX**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to be used in registering your window class, set the **hIcon** member to the 32x32 icon and the **hIconSm** member to the 16x16 icon. For more information about class icons, see [Class Icons](https://docs.microsoft.com/windows/desktop/winmsg/about-window-classes).
 
 ## Icon Creation
 

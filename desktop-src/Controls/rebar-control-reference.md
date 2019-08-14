@@ -109,15 +109,15 @@ This section contains information about programming elements used with rebar con
 
 | Topic                                        | Contents                                                                                                                                      |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NMRBAUTOSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrbautosize)         | Contains information used in handling the [RBN\_AUTOSIZE](rbn-autosize.md) notification codes. <br/>                                   |
-| [**NMREBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebar)                   | Contains information used in handling various rebar notification codes. <br/>                                                           |
-| [**NMREBARAUTOBREAK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarautobreak) | Contains information used with the [RBN\_AUTOBREAK](rbn-autobreak.md) notification.<br/>                                               |
-| [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron)     | Contains information used in handling the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification code. <br/>                          |
-| [**NMREBARCHILDSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchildsize) | Contains information used in handling the [RBN\_CHILDSIZE](rbn-childsize.md) notification code. <br/>                                  |
-| [**NMREBARSPLITTER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarsplitter)   | Contains information used to handle an [RBN\_SPLITTERDRAG](rbn-splitterdrag.md) notification code.<br/>                                |
-| [**RBHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_rb_hittestinfo)       | Contains information specific to a hit test operation. This structure is used with the [**RB\_HITTEST**](rb-hittest.md) message. <br/> |
-| [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa)       | Contains information that defines a band in a rebar control. <br/>                                                                      |
-| [**REBARINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarinfo)               | Contains information that describes rebar control characteristics. <br/>                                                                |
+| [**NMRBAUTOSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrbautosize)         | Contains information used in handling the [RBN\_AUTOSIZE](rbn-autosize.md) notification codes. <br/>                                   |
+| [**NMREBAR**](/windows/win32/api/commctrl/ns-commctrl-nmrebar)                   | Contains information used in handling various rebar notification codes. <br/>                                                           |
+| [**NMREBARAUTOBREAK**](/windows/win32/api/commctrl/ns-commctrl-nmrebarautobreak) | Contains information used with the [RBN\_AUTOBREAK](rbn-autobreak.md) notification.<br/>                                               |
+| [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron)     | Contains information used in handling the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification code. <br/>                          |
+| [**NMREBARCHILDSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchildsize) | Contains information used in handling the [RBN\_CHILDSIZE](rbn-childsize.md) notification code. <br/>                                  |
+| [**NMREBARSPLITTER**](/windows/win32/api/commctrl/ns-commctrl-nmrebarsplitter)   | Contains information used to handle an [RBN\_SPLITTERDRAG](rbn-splitterdrag.md) notification code.<br/>                                |
+| [**RBHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-rbhittestinfo)       | Contains information specific to a hit test operation. This structure is used with the [**RB\_HITTEST**](rb-hittest.md) message. <br/> |
+| [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa)       | Contains information that defines a band in a rebar control. <br/>                                                                      |
+| [**REBARINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarinfo)               | Contains information that describes rebar control characteristics. <br/>                                                                |
 
 
 

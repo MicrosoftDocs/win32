@@ -36,7 +36,7 @@ RBN_AUTOBREAK
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMREBARAUTOBREAK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarautobreak) structure that contains information about the notification code.
+Pointer to a [**NMREBARAUTOBREAK**](/windows/win32/api/commctrl/ns-commctrl-nmrebarautobreak) structure that contains information about the notification code.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ The return value for this notification is not used.
 
 ## Remarks
 
-The value in the **fAutoBreak** member of the [**NMREBARAUTOBREAK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarautobreak) structure indicates whether a break should occur in the rebar.
+The value in the **fAutoBreak** member of the [**NMREBARAUTOBREAK**](/windows/win32/api/commctrl/ns-commctrl-nmrebarautobreak) structure indicates whether a break should occur in the rebar.
 
 To use this notification code, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 

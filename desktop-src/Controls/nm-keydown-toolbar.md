@@ -36,7 +36,7 @@ NM_KEYDOWN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMKEY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmkey) structure that contains additional information about the key that caused the notification code.
+Pointer to an [**NMKEY**](/windows/win32/api/commctrl/ns-commctrl-nmkey) structure that contains additional information about the key that caused the notification code.
 
 </dd> </dl>
 

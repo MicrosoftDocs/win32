@@ -78,7 +78,7 @@ Not used.
 *dwData1* 
 </dt> <dd>
 
-A pointer to a [**CONVCONTEXT**](/windows/desktop/api/Ddeml/ns-ddeml-tagconvcontext) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is 0.
+A pointer to a [**CONVCONTEXT**](/windows/win32/api/ddeml/ns-ddeml-convcontext) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is 0.
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 **Reference**
 </dt> <dt>
 
-[**CONVCONTEXT**](/windows/desktop/api/Ddeml/ns-ddeml-tagconvcontext)
+[**CONVCONTEXT**](/windows/win32/api/ddeml/ns-ddeml-convcontext)
 </dt> <dt>
 
 [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)

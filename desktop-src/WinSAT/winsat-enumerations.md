@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 The Windows System Assessment Tool (WinSAT) defines the following enumerations:
 
--   [**WINSAT\_ASSESSMENT\_STATE**](/windows/desktop/api/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0002)
--   [**WINSAT\_ASSESSMENT\_TYPE**](/windows/desktop/api/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0003)
--   [**WINSAT\_BITMAP\_SIZE**](/windows/desktop/api/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0004)
+-   [**WINSAT\_ASSESSMENT\_STATE**](/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_state)
+-   [**WINSAT\_ASSESSMENT\_TYPE**](/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type)
+-   [**WINSAT\_BITMAP\_SIZE**](/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size)
 
  
 

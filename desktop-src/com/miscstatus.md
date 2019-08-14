@@ -24,7 +24,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 ## Remarks
 
-For more information, see the [**OLEMISC**](/windows/desktop/api/OleIdl/ne-oleidl-tagolemisc) enumeration and [**IOleObject::GetMiscStatus**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus).
+For more information, see the [**OLEMISC**](/windows/win32/api/oleidl/ne-oleidl-olemisc) enumeration and [**IOleObject::GetMiscStatus**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus).
 
 If no subkey that corresponds to a DVASPECT is found, the default value of **MiscStatus** is used.
 

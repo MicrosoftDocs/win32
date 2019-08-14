@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**NMIPADDRESS**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmipaddress)
+-   [**NMIPADDRESS**](/windows/win32/api/commctrl/ns-commctrl-nmipaddress)
 
  
 

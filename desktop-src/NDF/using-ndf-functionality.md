@@ -37,7 +37,7 @@ There are two ways to launch the diagnosis and repair functionality.
 
     Different functions are available to use in scenarios where no user interface is being shown, or where the standard Windows experience is not being used (such as Media Center, embedded applications, and the command prompt). This option bypasses the user experience functionality provided in the NDF Wizard, which includes limiting the results to fully-supported root causes, as well as heuristics to present repairs to the user in recommended order. When using these functions, you must provide any such functionality yourself. You must also make sure to free memory used by the diagnosis results.
 
-    To begin diagnosis, call the [**NdfDiagnoseIncident**](/windows/desktop/api/Ndfapi/nf-ndfapi-ndfdiagnoseincident) function. Any problems found will be returned to the application as a collection of [**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo) structures describing identified root causes and possible repairs.
+    To begin diagnosis, call the [**NdfDiagnoseIncident**](/windows/desktop/api/Ndfapi/nf-ndfapi-ndfdiagnoseincident) function. Any problems found will be returned to the application as a collection of [**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo) structures describing identified root causes and possible repairs.
 
     After selecting a repair (or asking the user to select a repair), [**NdfRepairIncident**](/windows/desktop/api/Ndfapi/nf-ndfapi-ndfrepairincident) should be called to attempt the repair and determine whether the problem was resolved.
 

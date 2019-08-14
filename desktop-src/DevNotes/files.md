@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**\_lcreat**](/windows/desktop/api/Winbase/nf-winbase-_lcreat)
--   [**\_llseek**](/windows/desktop/api/Winbase/nf-winbase-_llseek)
--   [**\_lwrite**](/windows/desktop/api/Winbase/nf-winbase-_lwrite)
+-   [**\_lcreat**](/windows/win32/api/winbase/nf-winbase-_lcreat)
+-   [**\_llseek**](/windows/win32/api/winbase/nf-winbase-_llseek)
+-   [**\_lwrite**](/windows/win32/api/winbase/nf-winbase-_lwrite)
 -   [**FSCTL\_SRV\_REQUEST\_RESUME\_KEY**](fsctl-srv-request-resume-key.md)
 -   [**IOCTL\_COPYCHUNK**](ioctl-copychunk.md)
 -   [**IOCTL\_LMR\_DISABLE\_LOCAL\_BUFFERING**](ioctl-lmr-disable-local-buffering.md)

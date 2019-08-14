@@ -36,7 +36,7 @@ Zero-based index of the location where the band will be inserted. If you set thi
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa) structure that defines the band to be inserted. You must set the **cbSize** member of this structure to **sizeof**(REBARBANDINFO) before sending this message.
+Pointer to a [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure that defines the band to be inserted. You must set the **cbSize** member of this structure to **sizeof**(REBARBANDINFO) before sending this message.
 
 </dd> </dl>
 

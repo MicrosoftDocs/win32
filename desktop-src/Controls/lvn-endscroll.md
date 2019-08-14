@@ -36,7 +36,7 @@ LVN_ENDSCROLL
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMLVSCROLL**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvscroll) structure that contains the horizontal or vertical position of where the scroll operation ends.
+Pointer to a [**NMLVSCROLL**](/windows/win32/api/commctrl/ns-commctrl-nmlvscroll) structure that contains the horizontal or vertical position of where the scroll operation ends.
 
 </dd> </dl>
 

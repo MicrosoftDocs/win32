@@ -48,7 +48,7 @@ A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya
 
 The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure contains an [**NMHDR**](https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx) structure whose **code** member indicates the **CDN\_FILEOK** notification message.
 
-The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure also contains a pointer to an [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure whose **lpstrFile** member specifies the address of the selected file name.
+The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure also contains a pointer to an [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure whose **lpstrFile** member specifies the address of the selected file name.
 
 </dd> </dl>
 
@@ -93,7 +93,7 @@ The system sends this notification only if the dialog box was created using the 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 </dt> <dt>
 
-[**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
+[**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
 [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga)

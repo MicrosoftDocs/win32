@@ -51,7 +51,7 @@ The following Authorization interoperability wrapper methods and objects are doc
 -   [Microsoft.Interop.Security.AzRoles.IAzTask Interface](microsoft-interop-security-azroles-iaztask-interface.md)
 -   [Microsoft.Interop.Security.AzRoles.IAzTask2 Interface](microsoft-interop-security-azroles-iaztask2-interface.md)
 -   [Microsoft.Interop.Security.AzRoles.IAzTasks Interface](microsoft-interop-security-azroles-iaztasks-interface.md)
--   [**Microsoft.Interop.Security.AzRoles.tagAZ\_PROP\_CONSTANTS Enumeration**](/windows/desktop/api/Azroles/ne-azroles-tagaz_prop_constants)
+-   [**Microsoft.Interop.Security.AzRoles.tagAZ\_PROP\_CONSTANTS Enumeration**](/windows/win32/api/azroles/ne-azroles-az_prop_constants)
 
  
 

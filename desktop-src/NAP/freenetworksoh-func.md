@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **FreeNetworkSoH** function frees a [**NetworkSoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagnetworksoh) data structure.
+The **FreeNetworkSoH** function frees a [**NetworkSoH**](/windows/win32/api/naptypes/ns-naptypes-networksoh) data structure.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ NAPAPI VOID WINAPI FreeNetworkSoH(
 *networkSoh* \[in\]
 </dt> <dd>
 
-A pointer to the [**NetworkSoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagnetworksoh) data structure to free.
+A pointer to the [**NetworkSoH**](/windows/win32/api/naptypes/ns-naptypes-networksoh) data structure to free.
 
 </dd> </dl>
 

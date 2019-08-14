@@ -47,14 +47,14 @@ HRESULT Initialize(
 *soh* \[in\]
 </dt> <dd>
 
-A pointer to the [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet to be processed.
+A pointer to the [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet to be processed.
 
 </dd> <dt>
 
 *isRequest* \[in\]
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the packet is an [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and **FALSE** if it is an **SoHResponse**.
+A **BOOL** that is **TRUE** if the packet is an [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) and **FALSE** if it is an **SoHResponse**.
 
 </dd> <dt>
 

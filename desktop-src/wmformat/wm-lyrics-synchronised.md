@@ -24,7 +24,7 @@ g\_wszWMLyrics\_Synchronised
 
 ## Data Type
 
-[**WM\_SYNCHRONISED\_LYRICS**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmsynchronisedlyrics) (**WMT\_TYPE\_BINARY**)
+[**WM\_SYNCHRONISED\_LYRICS**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_synchronised_lyrics) (**WMT\_TYPE\_BINARY**)
 
 ## See also
 

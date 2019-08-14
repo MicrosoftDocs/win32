@@ -17,7 +17,7 @@ The resulting display is shown in the following illustration.
 ![screen shot of a dialog box with a tooltip that contains text arranged like a multi-line paragraph](images/tt-multiline.png)
 
 > [!Note]  
-> The text buffer specified by the **szText** member of the [**NMTTDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttdispinfoa) structure can accommodate only 80 characters. If you need to use a longer string, point the **lpszText** member of **NMTTDISPINFO** to a buffer containing the desired text.
+> The text buffer specified by the **szText** member of the [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure can accommodate only 80 characters. If you need to use a longer string, point the **lpszText** member of **NMTTDISPINFO** to a buffer containing the desired text.
 
  
 

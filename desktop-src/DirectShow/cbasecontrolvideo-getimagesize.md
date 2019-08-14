@@ -42,7 +42,7 @@ HRESULT GetImageSize(
 *pVideoInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure to be filled in.
+Pointer to a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure to be filled in.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 ## Remarks
 
-This member function is a helper function used for creating memory image renderings of DIB images. It is called from the base class implementation of [**CBaseControlVideo::GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) when a **NULL***pVideoImage* parameter is passed to that member function. As a result, this member function constructs and returns a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure, using the information in *pBufferSize* and *pSourceRect*.
+This member function is a helper function used for creating memory image renderings of DIB images. It is called from the base class implementation of [**CBaseControlVideo::GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) when a **NULL***pVideoImage* parameter is passed to that member function. As a result, this member function constructs and returns a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure, using the information in *pBufferSize* and *pSourceRect*.
 
 ## Requirements
 

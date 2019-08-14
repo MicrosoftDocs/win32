@@ -153,7 +153,7 @@ After you have used an [**IOpcPartUri**](https://docs.microsoft.com/previous-ver
 [**IXpsOMPageReferenceCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereferencecollection)
 </dt> <dt>
 
-[**XPS\_SIZE**](/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018)
+[**XPS\_SIZE**](/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size)
 </dt> <dt>
 
 **For More Information**

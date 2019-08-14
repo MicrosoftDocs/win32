@@ -47,14 +47,14 @@ HRESULT CompareSoHRequests(
 *lhs* \[in\]
 </dt> <dd>
 
-A pointer to the [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) on the left of the comparison operation.
+A pointer to the [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) on the left of the comparison operation.
 
 </dd> <dt>
 
 *rhs* \[in\]
 </dt> <dd>
 
-A pointer to the [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) on the right of the comparison operation.
+A pointer to the [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) on the right of the comparison operation.
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ The SHA should compare the SoHs and return **TRUE** if the SoHs are semantically
 
 If SHAs have put incremental IDs or time-stamps into their SoH, then SoHs may be semantically equal (i.e. they may convey the same health information), but they may be byte-wise unequal. SHAs should implement this function to check for semantic equality of SoHs.
 
-If SHAs have not put any time-stamps or Ids into their SoHs, they may choose to not implement this function and return **E\_NOTIMPL**. In this case, the NapAgent performs a byte-wise comparison on the [**SoHRequests**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh).
+If SHAs have not put any time-stamps or Ids into their SoHs, they may choose to not implement this function and return **E\_NOTIMPL**. In this case, the NapAgent performs a byte-wise comparison on the [**SoHRequests**](/windows/win32/api/naptypes/ns-naptypes-soh).
 
 ## Requirements
 
@@ -110,7 +110,7 @@ If SHAs have not put any time-stamps or Ids into their SoHs, they may choose to 
 [**INapSystemHealthAgentCallback**](inapsystemhealthagentcallback.md)
 </dt> <dt>
 
-[**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh)
+[**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh)
 </dt> </dl>
 
  

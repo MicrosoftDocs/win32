@@ -116,7 +116,7 @@ An application can load an accelerator-table resource at any time. Usually, a si
 
 ### Calling the Translate Accelerator Function
 
-To process accelerators, an application's (or thread's) message loop must contain a call to the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function. **TranslateAccelerator** compares keystrokes to an accelerator table and, if it finds a match, translates the keystrokes into a [**WM\_COMMAND**](wm-command.md) (or [**WM\_SYSCOMMAND**](wm-syscommand.md)) message. The function then sends the message to a window procedure. The parameters of the **TranslateAccelerator** function include the handle to the window that is to receive the **WM\_COMMAND** messages, the handle to the accelerator table used to translate accelerators, and a pointer to an [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure containing a message from the queue. The following example shows how to call **TranslateAccelerator** from within a message loop.
+To process accelerators, an application's (or thread's) message loop must contain a call to the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function. **TranslateAccelerator** compares keystrokes to an accelerator table and, if it finds a match, translates the keystrokes into a [**WM\_COMMAND**](wm-command.md) (or [**WM\_SYSCOMMAND**](wm-syscommand.md)) message. The function then sends the message to a window procedure. The parameters of the **TranslateAccelerator** function include the handle to the window that is to receive the **WM\_COMMAND** messages, the handle to the accelerator table used to translate accelerators, and a pointer to an [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure containing a message from the queue. The following example shows how to call **TranslateAccelerator** from within a message loop.
 
 
 ```
@@ -330,7 +330,7 @@ This topic discusses how to use accelerator tables created at run time.
 
 ### Creating a Run-Time Accelerator Table
 
-The first step in creating an accelerator table at run time is filling an array of [**ACCEL**](/windows/desktop/api/Winuser/ns-winuser-tagaccel) structures. Each structure in the array defines an accelerator in the table. An accelerator's definition includes its flags, its key, and its identifier. The **ACCEL** structure has the following form.
+The first step in creating an accelerator table at run time is filling an array of [**ACCEL**](/windows/win32/api/winuser/ns-winuser-accel) structures. Each structure in the array defines an accelerator in the table. An accelerator's definition includes its flags, its key, and its identifier. The **ACCEL** structure has the following form.
 
 ``` syntax
 typedef struct tagACCEL { // accl 
@@ -340,9 +340,9 @@ typedef struct tagACCEL { // accl
 } ACCEL;
 ```
 
-You define an accelerator's keystroke by specifying an ASCII character code or a virtual-key code in the **key** member of the [**ACCEL**](/windows/desktop/api/Winuser/ns-winuser-tagaccel) structure. If you specify a virtual-key code, you must first include the **FVIRTKEY** flag in the **fVirt** member; otherwise, the system interprets the code as an ASCII character code. You can include the **FCONTROL**, **FALT**, or **FSHIFT** flag, or all three, to combine the CTRL, ALT, or SHIFT key with the keystroke.
+You define an accelerator's keystroke by specifying an ASCII character code or a virtual-key code in the **key** member of the [**ACCEL**](/windows/win32/api/winuser/ns-winuser-accel) structure. If you specify a virtual-key code, you must first include the **FVIRTKEY** flag in the **fVirt** member; otherwise, the system interprets the code as an ASCII character code. You can include the **FCONTROL**, **FALT**, or **FSHIFT** flag, or all three, to combine the CTRL, ALT, or SHIFT key with the keystroke.
 
-To create the accelerator table, pass a pointer to the array of [**ACCEL**](/windows/desktop/api/Winuser/ns-winuser-tagaccel) structures to the [**CreateAcceleratorTable**](/windows/desktop/api/Winuser/nf-winuser-createacceleratortablea) function. **CreateAcceleratorTable** creates the accelerator table and returns the handle to the table.
+To create the accelerator table, pass a pointer to the array of [**ACCEL**](/windows/win32/api/winuser/ns-winuser-accel) structures to the [**CreateAcceleratorTable**](/windows/desktop/api/Winuser/nf-winuser-createacceleratortablea) function. **CreateAcceleratorTable** creates the accelerator table and returns the handle to the table.
 
 ### Processing Accelerators
 

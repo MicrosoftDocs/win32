@@ -51,49 +51,49 @@ Returns the story type, which can be a client-defined custom value, or one of th
 
 <dl> <dt>
 
-**[**tomCommentsStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomCommentsStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomEndnotesStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomEndnotesStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomEvenPagesFooterStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomEvenPagesFooterStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomEvenPagesHeaderStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomEvenPagesHeaderStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomFindStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomFindStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomFirstPageFooterStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomFirstPageFooterStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomFirstPageHeaderStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomFirstPageHeaderStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomFootnotesStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomFootnotesStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomMainTextStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomMainTextStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomPrimaryFooterStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomPrimaryFooterStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomPrimaryHeaderStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomPrimaryHeaderStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomReplaceStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomReplaceStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomScratchStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomScratchStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomTextFrameStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomTextFrameStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> <dt>
 
-**[**tomUnknownStory**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)**
+**[**tomUnknownStory**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> </dl>
 
 ## Requirements

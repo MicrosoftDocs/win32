@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to a [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure.
+Returns a pointer to a [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure.
 
 ## Requirements
 

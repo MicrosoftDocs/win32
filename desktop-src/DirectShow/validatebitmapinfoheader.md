@@ -17,10 +17,10 @@ api_location:
 
 # ValidateBitmapInfoHeader function
 
-The `ValidateBitmapInfoHeader` function checks a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure for certain common errors that can cause buffer overruns or integer overflows.
+The `ValidateBitmapInfoHeader` function checks a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure for certain common errors that can cause buffer overruns or integer overflows.
 
 > [!Note]  
-> This function does not guarantee that the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure is valid or that code using the structure is secure.
+> This function does not guarantee that the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure is valid or that code using the structure is secure.
 
  
 
@@ -43,7 +43,7 @@ BOOL ValidateBitmapInfoHeader(
 *pbmi* 
 </dt> <dd>
 
-Pointer to the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure to validate.
+Pointer to the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure to validate.
 
 </dd> <dt>
 
@@ -56,7 +56,7 @@ Size of the memory block that holds the structure, in bytes.
 
 ## Return value
 
-Returns a Boolean value. If the value is **FALSE**, the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure is not valid.
+Returns a Boolean value. If the value is **FALSE**, the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure is not valid.
 
 ## Remarks
 

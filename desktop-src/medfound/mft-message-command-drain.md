@@ -36,7 +36,7 @@ The draining process varies slightly between synchronous MFTs and asynchronous M
 After the client has drained the MFT, the client can send more input data. The first sample after the drain operation must have the discontinuity attribute ([**MFSampleExtension\_Discontinuity**](mfsampleextension-discontinuity-attribute.md) attribute).
 
 > [!Note]  
-> Earlier versions of this documentation stated that the *ulParam* event parameter is a member of the [**\_MFT\_DRAIN\_TYPE**](/windows/desktop/api/mftransform/ne-mftransform-_mft_drain_type) enumeration. That is not correct. The *ulParam* contains a stream identifier.
+> Earlier versions of this documentation stated that the *ulParam* event parameter is a member of the [**\_MFT\_DRAIN\_TYPE**](/windows/win32/api/mftransform/ne-mftransform-_mft_drain_type) enumeration. That is not correct. The *ulParam* contains a stream identifier.
 
  
 

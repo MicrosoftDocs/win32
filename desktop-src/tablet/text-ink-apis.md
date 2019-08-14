@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 In addition to supporting the standard OLE interfaces, the text ink object (tInk) also supports the [**IInkLineInfo**](/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo).
 
-For information about specifying display properties for a text ink object, see [**INKMETRIC**](/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric) structure.
+For information about specifying display properties for a text ink object, see [**INKMETRIC**](/windows/win32/api/msinkaut/ns-msinkaut-inkmetric) structure.
 
  
 

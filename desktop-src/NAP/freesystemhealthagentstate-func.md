@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **FreeSystemHealthAgentState** function frees a [**SystemHealthAgentState**](/windows/desktop/api/NapTypes/ns-naptypes-tagsystemhealthagentstate) data structure.
+The **FreeSystemHealthAgentState** function frees a [**SystemHealthAgentState**](/windows/win32/api/naptypes/ns-naptypes-systemhealthagentstate) data structure.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ NAPAPI VOID WINAPI FreeSystemHealthAgentState(
 *state* \[in\]
 </dt> <dd>
 
-A pointer to the [**SystemHealthAgentState**](/windows/desktop/api/NapTypes/ns-naptypes-tagsystemhealthagentstate) data structure to free.
+A pointer to the [**SystemHealthAgentState**](/windows/win32/api/naptypes/ns-naptypes-systemhealthagentstate) data structure to free.
 
 </dd> </dl>
 

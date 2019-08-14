@@ -17,7 +17,7 @@ api_location:
 
 # UpdateImpactLevel enumeration
 
-Indicates a high, medium, or low impact of a device running an out-of-date OS. This enumeration is generally used by [**UpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment) structures, which is in turn nested inside the returned [**OSUpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment) from [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment).
+Indicates a high, medium, or low impact of a device running an out-of-date OS. This enumeration is generally used by [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) structures, which is in turn nested inside the returned [**OSUpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) from [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment).
 
 ## Syntax
 
@@ -67,7 +67,7 @@ The device has been out-of-date for a long time. This device may have security v
 
 ## Remarks
 
-When [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment) is called, an [**OSUpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment) structure is returned. Within the structure there is an **assessmentForCurrent** and **assessmentForUpToDate**. Both of these are [**UpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment) structures. Both members have an **UpdateImpactLevel** enumeration, which indicates a high, medium, low or no impact for a device running an out-of-date OS. The These levels are determined by the value of **daysOutOfDate**.
+When [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment) is called, an [**OSUpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) structure is returned. Within the structure there is an **assessmentForCurrent** and **assessmentForUpToDate**. Both of these are [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) structures. Both members have an **UpdateImpactLevel** enumeration, which indicates a high, medium, low or no impact for a device running an out-of-date OS. The These levels are determined by the value of **daysOutOfDate**.
 
 ## Requirements
 

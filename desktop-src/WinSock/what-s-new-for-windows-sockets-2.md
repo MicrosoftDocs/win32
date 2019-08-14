@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The following functions are supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later. Microsoft Visual Studio 2013 Update 3 or later is required for Windows Store apps.
 
--   [**\_\_WSAFDIsSet**](/windows/desktop/api/winsock/nf-winsock-__wsafdisset)
+-   [**\_\_WSAFDIsSet**](/windows/win32/api/winsock/nf-winsock-__wsafdisset)
 -   [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept)
 -   [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx)
 -   [**bind**](/windows/desktop/api/winsock/nf-winsock-bind)
@@ -135,7 +135,7 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 
 The following functions are supported for Windows Phone Store apps on Windows Phone 8 and later.
 
--   [**\_\_WSAFDIsSet**](/windows/desktop/api/winsock/nf-winsock-__wsafdisset)
+-   [**\_\_WSAFDIsSet**](/windows/win32/api/winsock/nf-winsock-__wsafdisset)
 -   [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx)
 -   [**bind**](/windows/desktop/api/winsock/nf-winsock-bind)
 -   [**closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket)

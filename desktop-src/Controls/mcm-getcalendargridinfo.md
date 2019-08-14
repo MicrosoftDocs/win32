@@ -34,7 +34,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**MCGRIDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagmcgridinfo) structure that contains information about the calendar grid.
+Pointer to an [**MCGRIDINFO**](/windows/win32/api/commctrl/ns-commctrl-mcgridinfo) structure that contains information about the calendar grid.
 
 </dd> </dl>
 

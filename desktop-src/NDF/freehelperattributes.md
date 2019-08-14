@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # FreeHelperAttributes function
 
-The **FreeHelperAttributes** function deallocates the memory allocated internally to an array of [**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute) structures. This function calls [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to deallocate memory.
+The **FreeHelperAttributes** function deallocates the memory allocated internally to an array of [**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute) structures. This function calls [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to deallocate memory.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ VOID FreeHelperAttributes(
 *pInfo* \[in\]
 </dt> <dd>
 
-Type: **[**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)\***
+Type: **[**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)\***
 
 The array of structures. The allocated memory pointed to by these structures will be freed.
 
@@ -84,7 +84,7 @@ This function does not return a value.
 
 <dl> <dt>
 
-[**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)
+[**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)
 </dt> <dt>
 
 [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)

@@ -91,13 +91,13 @@ The DDE event. This parameter can be one of the following values.
 
 | Value                                                                                                                                                                                                                      | Meaning                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="MF_CALLBACKS"></span><span id="mf_callbacks"></span><dl> <dt>**MF\_CALLBACKS**</dt> <dt>0x08000000</dt> </dl> | The system sent a transaction to a DDE callback function. The DDE object contains a [**MONCBSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmoncbstruct) structure that provides information about the transaction.<br/>                                                                                                                                               |
-| <span id="MF_CONV"></span><span id="mf_conv"></span><dl> <dt>**MF\_CONV**</dt> <dt>0x40000000</dt> </dl>                | A DDE conversation was established or terminated. The DDE object contains a [**MONCONVSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonconvstruct) structure that provides information about the conversation.<br/>                                                                                                                                                  |
-| <span id="MF_ERRORS"></span><span id="mf_errors"></span><dl> <dt>**MF\_ERRORS**</dt> <dt>0x10000000</dt> </dl>          | A DDE error occurred. The DDE object contains a [**MONERRSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonerrstruct) structure that provides information about the error.<br/>                                                                                                                                                                                       |
-| <span id="MF_HSZ_INFO"></span><span id="mf_hsz_info"></span><dl> <dt>**MF\_HSZ\_INFO**</dt> <dt>0x01000000</dt> </dl>   | A DDE application created, freed, or incremented the usage count of a string handle, or a string handle was freed as a result of a call to the [**DdeUninitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeuninitialize) function. The DDE object contains a [**MONHSZSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonhszstructa) structure that provides information about the string handle.<br/> |
-| <span id="MF_LINKS"></span><span id="mf_links"></span><dl> <dt>**MF\_LINKS**</dt> <dt>0x20000000</dt> </dl>             | A DDE application started or stopped an advise loop. The DDE object contains a [**MONLINKSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonlinkstruct) structure that provides information about the advise loop.<br/>                                                                                                                                                |
-| <span id="MF_POSTMSGS"></span><span id="mf_postmsgs"></span><dl> <dt>**MF\_POSTMSGS**</dt> <dt>0x04000000</dt> </dl>    | The system or an application posted a DDE message. The DDE object contains a [**MONMSGSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonmsgstruct) structure that provides information about the message.<br/>                                                                                                                                                        |
-| <span id="MF_SENDMSGS"></span><span id="mf_sendmsgs"></span><dl> <dt>**MF\_SENDMSGS**</dt> <dt>0x02000000</dt> </dl>    | The system or an application sent a DDE message. The DDE object contains a [**MONMSGSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonmsgstruct) structure that provides information about the message.<br/>                                                                                                                                                          |
+| <span id="MF_CALLBACKS"></span><span id="mf_callbacks"></span><dl> <dt>**MF\_CALLBACKS**</dt> <dt>0x08000000</dt> </dl> | The system sent a transaction to a DDE callback function. The DDE object contains a [**MONCBSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-moncbstruct) structure that provides information about the transaction.<br/>                                                                                                                                               |
+| <span id="MF_CONV"></span><span id="mf_conv"></span><dl> <dt>**MF\_CONV**</dt> <dt>0x40000000</dt> </dl>                | A DDE conversation was established or terminated. The DDE object contains a [**MONCONVSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monconvstruct) structure that provides information about the conversation.<br/>                                                                                                                                                  |
+| <span id="MF_ERRORS"></span><span id="mf_errors"></span><dl> <dt>**MF\_ERRORS**</dt> <dt>0x10000000</dt> </dl>          | A DDE error occurred. The DDE object contains a [**MONERRSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monerrstruct) structure that provides information about the error.<br/>                                                                                                                                                                                       |
+| <span id="MF_HSZ_INFO"></span><span id="mf_hsz_info"></span><dl> <dt>**MF\_HSZ\_INFO**</dt> <dt>0x01000000</dt> </dl>   | A DDE application created, freed, or incremented the usage count of a string handle, or a string handle was freed as a result of a call to the [**DdeUninitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeuninitialize) function. The DDE object contains a [**MONHSZSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monhszstructa) structure that provides information about the string handle.<br/> |
+| <span id="MF_LINKS"></span><span id="mf_links"></span><dl> <dt>**MF\_LINKS**</dt> <dt>0x20000000</dt> </dl>             | A DDE application started or stopped an advise loop. The DDE object contains a [**MONLINKSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monlinkstruct) structure that provides information about the advise loop.<br/>                                                                                                                                                |
+| <span id="MF_POSTMSGS"></span><span id="mf_postmsgs"></span><dl> <dt>**MF\_POSTMSGS**</dt> <dt>0x04000000</dt> </dl>    | The system or an application posted a DDE message. The DDE object contains a [**MONMSGSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monmsgstruct) structure that provides information about the message.<br/>                                                                                                                                                        |
+| <span id="MF_SENDMSGS"></span><span id="mf_sendmsgs"></span><dl> <dt>**MF\_SENDMSGS**</dt> <dt>0x02000000</dt> </dl>    | The system or an application sent a DDE message. The DDE object contains a [**MONMSGSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monmsgstruct) structure that provides information about the message.<br/>                                                                                                                                                          |
 
 
 
@@ -137,22 +137,22 @@ If the callback function processes this transaction, it should return 0.
 [**DdeUninitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeuninitialize)
 </dt> <dt>
 
-[**MONCBSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmoncbstruct)
+[**MONCBSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-moncbstruct)
 </dt> <dt>
 
-[**MONCONVSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonconvstruct)
+[**MONCONVSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monconvstruct)
 </dt> <dt>
 
-[**MONERRSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonerrstruct)
+[**MONERRSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monerrstruct)
 </dt> <dt>
 
-[**MONHSZSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonhszstructa)
+[**MONHSZSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monhszstructa)
 </dt> <dt>
 
-[**MONLINKSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonlinkstruct)
+[**MONLINKSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monlinkstruct)
 </dt> <dt>
 
-[**MONMSGSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonmsgstruct)
+[**MONMSGSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monmsgstruct)
 </dt> <dt>
 
 **Conceptual**

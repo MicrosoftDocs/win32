@@ -62,7 +62,7 @@ For an example of how to verify document signatures in a program, see [Verify Do
 
 The digital signature signing policy determines which parts of an XPS document are signed. One signing policy option is to sign the signature relationships that start from the signature origin part. Because the signature relationships change with each signature that is added, signatures that are made under this policy will break when new signatures are added. Make sure that you understand clearly the implications and effects of setting this policy; otherwise, unexpected or undesired behavior might result.
 
-For more information about signing policies, see [**XPS\_SIGN\_POLICY**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002).
+For more information about signing policies, see [**XPS\_SIGN\_POLICY**](/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy).
 
 ### Embedding a Certificate Chain
 
@@ -95,7 +95,7 @@ The [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/
 [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext)
 </dt> <dt>
 
-[**XPS\_SIGN\_POLICY**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002)
+[**XPS\_SIGN\_POLICY**](/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy)
 </dt> <dt>
 
 [XML Paper Specification](https://go.microsoft.com/?linkid=8435939)

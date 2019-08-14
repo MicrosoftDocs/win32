@@ -12,15 +12,15 @@ This topic describes how to collect print job information from the user.
 
 ## Overview
 
-Collect print job information from the user by calling the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function. This function displays the **Print** common dialog box to the user, and returns the print job information in a [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) data structure.
+Collect print job information from the user by calling the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function. This function displays the **Print** common dialog box to the user, and returns the print job information in a [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) data structure.
 
 The **Print** common dialog box is displayed when the user starts a print job. The **Print** common dialog box is a modal dialog box, which means that the user cannot interact with the main window until the common dialog box is closed.
 
 ## Collecting Print Job Information
 
-1.  Initialize the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure element.
+1.  Initialize the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure element.
 
-    Before a program can display the **Print** common dialog box , it must allocate and initialize a [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure. It then passes this structure to the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function, which displays the dialog and returns the print job data in the same structure. The following code example shows how the sample program performs this step.
+    Before a program can display the **Print** common dialog box , it must allocate and initialize a [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure. It then passes this structure to the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function, which displays the dialog and returns the print job data in the same structure. The following code example shows how the sample program performs this step.
 
     ```C++
     // Initialize the print dialog box's data structure.
@@ -39,7 +39,7 @@ The **Print** common dialog box is displayed when the user starts a print job. T
 
 2.  Display the **Print** common dialog box.
 
-    Call [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) with the initialized [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure to display the **Print** common dialog box and collect the user data, as shown in the following code example.
+    Call [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) with the initialized [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure to display the **Print** common dialog box and collect the user data, as shown in the following code example.
 
     ```C++
     // Display the printer dialog and retrieve the printer DC
@@ -48,13 +48,13 @@ The **Print** common dialog box is displayed when the user starts a print job. T
 
     
 
-3.  Save the fields from the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure and start the print job.
+3.  Save the fields from the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure and start the print job.
 
-    The [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure contains the data that describes the selections that the user made in the print dialog box. Some members of the **PRINTDLG** structure are handles to global memory objects. The [Print Sample Program](https://go.microsoft.com/?linkid=9737083) copies the data from the global memory objects to memory blocks that the program manages and copies other fields from the **PRINTDLG** structure to fields in a data structure that the program defined.
+    The [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure contains the data that describes the selections that the user made in the print dialog box. Some members of the **PRINTDLG** structure are handles to global memory objects. The [Print Sample Program](https://go.microsoft.com/?linkid=9737083) copies the data from the global memory objects to memory blocks that the program manages and copies other fields from the **PRINTDLG** structure to fields in a data structure that the program defined.
 
-    After you store the data from the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure in the program's data structure, you can open the print progress dialog box. The print progress dialog box procedure handles the dialog box messages and starts the print processing thread.
+    After you store the data from the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure in the program's data structure, you can open the print progress dialog box. The print progress dialog box procedure handles the dialog box messages and starts the print processing thread.
 
-    The following code example shows how to copy the data from the [**PRINTDLG**](https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda) structure to the program's data structure and how to start the print job.
+    The following code example shows how to copy the data from the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure to the program's data structure and how to start the print job.
 
     ```C++
     // A printer was returned so copy the information from 

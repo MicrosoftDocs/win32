@@ -34,7 +34,7 @@ This parameter is not used.
 *lParam* \[out\]
 </dt> <dd>
 
-A pointer to a [**COMBOBOXINFO**](/windows/desktop/api/Winuser/ns-winuser-tagcomboboxinfo) structure that receives the information.
+A pointer to a [**COMBOBOXINFO**](/windows/win32/api/winuser/ns-winuser-comboboxinfo) structure that receives the information.
 
 </dd> </dl>
 
@@ -67,7 +67,7 @@ This message is equivalent to [**GetComboBoxInfo**](/windows/desktop/api/Winuser
 **Reference**
 </dt> <dt>
 
-[**COMBOBOXINFO**](/windows/desktop/api/Winuser/ns-winuser-tagcomboboxinfo)
+[**COMBOBOXINFO**](/windows/win32/api/winuser/ns-winuser-comboboxinfo)
 </dt> <dt>
 
 [**GetComboBoxInfo**](/windows/desktop/api/Winuser/nf-winuser-getcomboboxinfo)

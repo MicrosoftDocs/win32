@@ -12,7 +12,7 @@ This topic describes how to implement the [**IMFAsyncResult**](/windows/desktop/
 
 It is rare that you will need to write a custom implementation of the [**IMFAsyncResult**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult) interface. In almost all cases, the standard Media Foundation implementation is sufficient. (This implementation is returned by the [**MFCreateAsyncResult**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult) function.) However, if you do write a custom implementation, there are some issues to be aware of.
 
-First, your implementation must inherit the [**MFASYNCRESULT**](/windows/desktop/api/mfapi/ns-mfapi-tagmfasyncresult) structure. The Media Foundation work queues use this structure internally to dispatch the operation. Initialize all of the structure members to zero, except for the **pCallback** member, which contains a pointer to the caller's callback interface.
+First, your implementation must inherit the [**MFASYNCRESULT**](/windows/win32/api/mfapi/ns-mfapi-mfasyncresult) structure. The Media Foundation work queues use this structure internally to dispatch the operation. Initialize all of the structure members to zero, except for the **pCallback** member, which contains a pointer to the caller's callback interface.
 
 Second, your object should call [**MFLockPlatform**](/windows/desktop/api/mfapi/nf-mfapi-mflockplatform) in its constructor, to lock the Media Foundation platform. Call [**MFUnlockPlatform**](/windows/desktop/api/mfapi/nf-mfapi-mfunlockplatform) to unlock the platform. These functions help to prevent the platform from shutting down before the object is destroyed. For more information, see [Work Queues](work-queues.md).
 

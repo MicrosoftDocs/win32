@@ -11,4 +11,4 @@ ms.date: 05/31/2018
 The following are the Distributed File System (DFS) enumerations:
 
 - [**DFS_NAMESPACE_VERSION_ORIGIN**](/windows/desktop/api/lmdfs/ne-lmdfs-dfs_namespace_version_origin)
-- [**DFS_TARGET_PRIORITY_CLASS**](/windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class)
+- [**DFS_TARGET_PRIORITY_CLASS**](/windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1)

@@ -30,7 +30,7 @@ Retrieves the color scheme information from the toolbar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COLORSCHEME**](/windows/desktop/api/Commctrl/ns-commctrl-tagcolorscheme) structure that will receive the color scheme information. You must set the **cbSize** member of this structure to **sizeof**(COLORSCHEME) before sending this message.
+Pointer to a [**COLORSCHEME**](/windows/win32/api/commctrl/ns-commctrl-colorscheme) structure that will receive the color scheme information. You must set the **cbSize** member of this structure to **sizeof**(COLORSCHEME) before sending this message.
 
 </dd> </dl>
 

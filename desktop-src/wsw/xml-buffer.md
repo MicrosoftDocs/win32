@@ -31,7 +31,7 @@ A position is represented by the value [**WS\_XML\_NODE\_POSITION**](/windows/de
 The following enumerations are used with XML buffers:
 
 -   [**WS\_MOVE\_TO**](/windows/desktop/api/WebServices/ne-webservices-ws_move_to)
--   [**WS\_XML\_BUFFER\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-__unnamed_enum_0)
+-   [**WS\_XML\_BUFFER\_PROPERTY\_ID**](/windows/win32/api/webservices/ne-webservices-ws_xml_reader_property_id)
 
 The following functions are used with XML buffers:
 

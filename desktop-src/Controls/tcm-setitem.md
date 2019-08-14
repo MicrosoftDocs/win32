@@ -36,7 +36,7 @@ Index of the item.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TCITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitema) structure that contains the new item attributes. The **mask** member specifies which attributes to set. If the **mask** member specifies the TCIF\_TEXT value, the **pszText** member is the address of a null-terminated string and the **cchTextMax** member is ignored.
+Pointer to a [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl-tcitema) structure that contains the new item attributes. The **mask** member specifies which attributes to set. If the **mask** member specifies the TCIF\_TEXT value, the **pszText** member is the address of a null-terminated string and the **cchTextMax** member is ignored.
 
 </dd> </dl>
 

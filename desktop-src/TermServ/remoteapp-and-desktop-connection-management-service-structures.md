@@ -15,21 +15,21 @@ The RemoteApp and Desktop Connection Management Service API provides the followi
 
 <dl> <dt>
 
-[**pluginResource**](/windows/desktop/api/tspubplugincom/ns-tspubplugincom-__midl_itspubplugin_0001)
+[**pluginResource**](/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource)
 </dt> <dd>
 
 Contains information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
 
 </dd> <dt>
 
-[**pluginResource2**](/windows/desktop/api/tspubplugin2com/ns-tspubplugin2com-__midl_itspubplugin2_0002)
+[**pluginResource2**](/windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2)
 </dt> <dd>
 
 Contains additional information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
 
 </dd> <dt>
 
-[**pluginResource2FileAssociation**](/windows/desktop/api/tspubplugin2com/ns-tspubplugin2com-__midl_itspubplugin2_0001)
+[**pluginResource2FileAssociation**](/windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2fileassociation)
 </dt> <dd>
 
 Contains information about a file association in RemoteApp and Desktop Connection.

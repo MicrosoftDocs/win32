@@ -16,7 +16,7 @@ Microsoft Rich Edit 3.0 assigns a character set to plain-text characters depend
 -   Non-neutral ANSI characters are assigned **ANSI\_CHARSET** in any event.
 
 > [!Note]  
-> The rich edit control uses Unicode internally, so this use of character sets differs from the original one used in font specifications. But the [**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat) structure has a well-defined place for the character set.
+> The rich edit control uses Unicode internally, so this use of character sets differs from the original one used in font specifications. But the [**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata) structure has a well-defined place for the character set.
 
  
 

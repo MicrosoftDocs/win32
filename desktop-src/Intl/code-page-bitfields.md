@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Code Page Bitfields
 
-The code page bitfields are used in the [**FONTSIGNATURE**](/windows/desktop/api/Wingdi/ns-wingdi-tagfontsignature) and [**LOCALESIGNATURE**](/windows/desktop/api/Wingdi/ns-wingdi-taglocalesignature) structures.
+The code page bitfields are used in the [**FONTSIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-fontsignature) and [**LOCALESIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-localesignature) structures.
 
 > [!Note]  
 > All locales do not support code pages. The bitfields described in this topic do not apply to Unicode locales. To determine supported scripts for a locale, your application can use the locale identifier constant [LOCALE\_SSCRIPTS](locale-sscripts.md) with [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex).

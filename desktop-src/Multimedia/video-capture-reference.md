@@ -24,7 +24,7 @@ This section describes the functions, structures, messages, and macros associate
 
 ## Capture Windows
 
--   [**CAPSTATUS**](/windows/desktop/api/Vfw/ns-vfw-tagcapstatus)
+-   [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus)
 -   [**capGetDriverDescription**](/windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona)
 -   [**WM\_CAP\_DRIVER\_CONNECT**](wm-cap-driver-connect.md)
 -   [**WM\_CAP\_DRIVER\_DISCONNECT**](wm-cap-driver-disconnect.md)
@@ -32,7 +32,7 @@ This section describes the functions, structures, messages, and macros associate
 
 ## Capture Drivers
 
--   [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps)
+-   [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps)
 -   [**WM\_CAP\_DRIVER\_GET\_CAPS**](wm-cap-driver-get-caps.md)
 -   [**WM\_CAP\_DRIVER\_GET\_NAME**](wm-cap-driver-get-name.md)
 -   [**WM\_CAP\_DRIVER\_GET\_VERSION**](wm-cap-driver-get-version.md)
@@ -63,13 +63,13 @@ This section describes the functions, structures, messages, and macros associate
 
 ## Video Capture Settings
 
--   [**CAPTUREPARMS**](/windows/desktop/api/Vfw/ns-vfw-tagcaptureparms)
+-   [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms)
 -   [**WM\_CAP\_GET\_SEQUENCE\_SETUP**](wm-cap-get-sequence-setup.md)
 -   [**WM\_CAP\_SET\_SEQUENCE\_SETUP**](wm-cap-set-sequence-setup.md)
 
 ## Capture File and Buffers
 
--   [**CAPTUREPARMS**](/windows/desktop/api/Vfw/ns-vfw-tagcaptureparms)
+-   [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms)
 -   [**WM\_CAP\_FILE\_ALLOCATE**](wm-cap-file-allocate.md)
 -   [**WM\_CAP\_FILE\_GET\_CAPTURE\_FILE**](wm-cap-file-get-capture-file.md)
 -   [**WM\_CAP\_FILE\_SAVEAS**](wm-cap-file-saveas.md)

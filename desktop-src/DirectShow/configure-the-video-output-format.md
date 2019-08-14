@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Configure the Video Output Format
 
 > [!Note]  
-> The functionality described in this topic is deprecated. To configure a capture device's output format, an application should use the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure returned by [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) in the *pmt* parameter.
+> The functionality described in this topic is deprecated. To configure a capture device's output format, an application should use the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure returned by [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) in the *pmt* parameter.
 
  
 
@@ -67,7 +67,7 @@ if (iSize == sizeof(VIDEO_STREAM_CONFIG_CAPS))
 
 
 
-Note how the structures are allocated for the [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method. The method allocates the media type structure, whereas the caller allocates the capabilities structure. Coerce the capabilities structure to a byte array pointer. After you are done with the media type, delete the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure, along with the media type's format block.
+Note how the structures are allocated for the [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method. The method allocates the media type structure, whereas the caller allocates the capabilities structure. Coerce the capabilities structure to a byte array pointer. After you are done with the media type, delete the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure, along with the media type's format block.
 
 You can configure the device to use a format returned in the [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method. Simply call [**IAMStreamConfig::SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) with the media type:
 
@@ -112,7 +112,7 @@ Given these numbers, you could set the width to anything in the range (160, 168,
 
 ![video format sizes](images/strmcap3.png)
 
-To set a new frame size, directly modify the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure returned in [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps):
+To set a new frame size, directly modify the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure returned in [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps):
 
 
 ```C++
@@ -129,7 +129,7 @@ The **MinFrameInterval** and **MaxFrameInterval** members of [**VIDEO\_STREAM\_C
 
 `frames per second = 10,000,000 / frame duration`
 
-To request a particular frame rate, modify the value of **AvgTimePerFrame** in the [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) or [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) structure in the media type. The device may not support every possible value between the minimum and maximum, so the driver will use the closest value that it can. To see what value the driver actually used, call [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) after you call [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat).
+To request a particular frame rate, modify the value of **AvgTimePerFrame** in the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) or [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure in the media type. The device may not support every possible value between the minimum and maximum, so the driver will use the closest value that it can. To see what value the driver actually used, call [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) after you call [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat).
 
 Some drivers may report **MAXLONGLONG** (0x7FFFFFFFFFFFFFFF) for the value of **MaxFrameInterval**, which in effect means there is no maximum duration. However, you might want to enforce a minimum frame rate in your application, such as 1 fps.
 

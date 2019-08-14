@@ -60,7 +60,7 @@ The following NAP constants are defined in NapTypes.h:
 
 
 
-The maximum number of [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute) type-length-value (TLV) objects associated with an [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet.
+The maximum number of [**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute) type-length-value (TLV) objects associated with an [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -73,7 +73,7 @@ The maximum number of [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptyp
 
 
 
-The maximum size, in bytes, of a [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute) object associated with a statement of health ([**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh)) packet.
+The maximum size, in bytes, of a [**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute) object associated with a statement of health ([**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh)) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -86,7 +86,7 @@ The maximum size, in bytes, of a [**SoHAttribute**](/windows/desktop/api/NapType
 
 
 
-The minimum size, in bytes, of an [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet.
+The minimum size, in bytes, of an [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -99,7 +99,7 @@ The minimum size, in bytes, of an [**SoH**](/windows/desktop/api/NapTypes/ns-nap
 
 
 
-The maximum size, in bytes, of an [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet.
+The maximum size, in bytes, of an [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -112,7 +112,7 @@ maxSoHAttributeSize / sizeof(DWORD)
 
 
 
-The maximum number of DWORD values associated with an [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute).
+The maximum number of DWORD values associated with an [**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute).
 
 
 </dt> </dl> </dd> <dt>
@@ -125,7 +125,7 @@ maxSoHAttributeSize / 0x4
 
 
 
-The maximum number of IPv4 addresses associated with an [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute).
+The maximum number of IPv4 addresses associated with an [**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute).
 
 
 </dt> </dl> </dd> <dt>
@@ -138,7 +138,7 @@ maxSoHAttributeSize / 0x10
 
 
 
-The maximum number of IPv6 addresses associated with an [**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute).
+The maximum number of IPv6 addresses associated with an [**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute).
 
 
 </dt> </dl> </dd> <dt>
@@ -151,7 +151,7 @@ The maximum number of IPv6 addresses associated with an [**SoHAttribute**](/wind
 
 
 
-The maximum length of a string specified by the [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure.
+The maximum length of a string specified by the [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -164,7 +164,7 @@ The maximum length of a string specified by the [**CountedString**](/windows/des
 
 
 
-The maximum length, in bytes, of a string specified by the [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure.
+The maximum length, in bytes, of a string specified by the [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -229,7 +229,7 @@ The range of possible values for the number of enforcement entities.
 
 
 
-The maximum size, in bytes, of a [**PrivateData**](/windows/desktop/api/NapTypes/ns-naptypes-tagprivatedata) structure.
+The maximum size, in bytes, of a [**PrivateData**](/windows/win32/api/naptypes/ns-naptypes-privatedata) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -268,7 +268,7 @@ The maximum number of cached SoH connections for all system health and enforceme
 
 
 
-Specifies that an [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagnetworksoh)is due to a new request, not a cached request. This flag is used by the NAP agent on an [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) object.
+Specifies that an [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-networksoh)is due to a new request, not a cached request. This flag is used by the NAP agent on an [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) object.
 
 
 </dt> </dl> </dd> <dt>
@@ -294,7 +294,7 @@ Specifies that fix-up is required. This flag is used by a SHA.
 
 
 
-The number of failure categories contained within a [**FailureCategoryMapping**](/windows/desktop/api/NapTypes/ns-naptypes-tagfailurecategorymapping) structure.
+The number of failure categories contained within a [**FailureCategoryMapping**](/windows/win32/api/naptypes/ns-naptypes-failurecategorymapping) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -307,7 +307,7 @@ The number of failure categories contained within a [**FailureCategoryMapping**]
 
 
 
-The component is a quarantine enforcement client (QEC) that sends an [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet in-band during connection authentication.
+The component is a quarantine enforcement client (QEC) that sends an [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet in-band during connection authentication.
 
 > [!Note]  
 > This value is not used by SHAs and SHVs.

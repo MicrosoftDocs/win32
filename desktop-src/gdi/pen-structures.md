@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The following structures are used with pens:
 
--   [**EXTLOGPEN**](/windows/desktop/api/Wingdi/ns-wingdi-tagextlogpen)
--   [**LOGPEN**](/windows/desktop/api/Wingdi/ns-wingdi-taglogpen)
+-   [**EXTLOGPEN**](/windows/win32/api/wingdi/ns-wingdi-extlogpen)
+-   [**LOGPEN**](/windows/win32/api/wingdi/ns-wingdi-logpen)
 
  
 

@@ -20,7 +20,7 @@ This section documents the following structures:
 
 [**FULLPROPSPEC**](https://msdn.microsoft.com/en-us/library/Bb231252(v=VS.85).aspx)
 
-[**HITRANGE**](/windows/desktop/api/Structuredquery/ns-structuredquery-taghitrange)
+[**HITRANGE**](/windows/win32/api/structuredquery/ns-structuredquery-hitrange)
 
 [**INCREMENTAL\_ACCESS\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-incremental_access_info)
 
@@ -42,7 +42,7 @@ This section documents the following structures:
 
 [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx)
 
-[**TEXT\_SOURCE**](/windows/desktop/api/Indexsrv/ns-indexsrv-tagtext_source)
+[**TEXT\_SOURCE**](/windows/win32/api/indexsrv/ns-indexsrv-text_source)
 
 [**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-timeout_info)
 

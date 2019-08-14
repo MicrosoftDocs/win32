@@ -36,7 +36,7 @@ Save or restore flag. If this parameter is **TRUE**, the information is saved. I
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBSAVEPARAMS**](/windows/desktop/api/Commctrl/ns-commctrl-tagtbsaveparamsa) structure that specifies the registry key, subkey, and value name for the toolbar state information.
+Pointer to a [**TBSAVEPARAMS**](/windows/win32/api/commctrl/ns-commctrl-tbsaveparamsa) structure that specifies the registry key, subkey, and value name for the toolbar state information.
 
 </dd> </dl>
 

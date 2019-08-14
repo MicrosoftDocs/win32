@@ -22,11 +22,11 @@ WinHTTP provides two functions for handling URLs. [**WinHttpCrackUrl**](/windows
 
 ### Separating URLs
 
-The [**WinHttpCrackUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcrackurl) function separates a URL into its component parts and returns the components indicated by the [**URL\_COMPONENTS**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_2) structure that is passed to the function.
+The [**WinHttpCrackUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcrackurl) function separates a URL into its component parts and returns the components indicated by the [**URL\_COMPONENTS**](/windows/win32/api/winhttp/ns-winhttp-url_components) structure that is passed to the function.
 
-The components that make up the [**URL\_COMPONENTS**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_2) structure are the scheme number, host name, port number, user name, password, URL path, and additional information such as search parameters. Each component, except the scheme and port numbers, has a string member that holds the information and a member that holds the length of the string member. The scheme and port numbers have only a member that stores the corresponding value; both the scheme and port numbers are returned on all successful calls to [**WinHttpCrackUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcrackurl).
+The components that make up the [**URL\_COMPONENTS**](/windows/win32/api/winhttp/ns-winhttp-url_components) structure are the scheme number, host name, port number, user name, password, URL path, and additional information such as search parameters. Each component, except the scheme and port numbers, has a string member that holds the information and a member that holds the length of the string member. The scheme and port numbers have only a member that stores the corresponding value; both the scheme and port numbers are returned on all successful calls to [**WinHttpCrackUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcrackurl).
 
-To retrieve the value of a particular component in the [**URL\_COMPONENTS**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_2) structure, the member that stores the string length of that component must be set to a nonzero value. The string member can be either a pointer to a buffer or **NULL**.
+To retrieve the value of a particular component in the [**URL\_COMPONENTS**](/windows/win32/api/winhttp/ns-winhttp-url_components) structure, the member that stores the string length of that component must be set to a nonzero value. The string member can be either a pointer to a buffer or **NULL**.
 
 If the pointer member contains a pointer to a buffer, the string length member must contain the size of that buffer. The [**WinHttpCrackUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcrackurl) function returns the component information as a string in the buffer and stores the string length in the string length member.
 
@@ -34,11 +34,11 @@ If the pointer member is set to **NULL**, the string length member can be set to
 
 All pointer members set to **NULL** with a nonzero length member point to the appropriate starting point in the URL string. The length stored in the length member must be used to determine the end of the individual component's information.
 
-To finish initializing the [**URL\_COMPONENTS**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_2) structure properly, the **dwStructSize** member must be set to the size of the [**URL\_COMPONENTS**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_2) structure.
+To finish initializing the [**URL\_COMPONENTS**](/windows/win32/api/winhttp/ns-winhttp-url_components) structure properly, the **dwStructSize** member must be set to the size of the [**URL\_COMPONENTS**](/windows/win32/api/winhttp/ns-winhttp-url_components) structure.
 
 ### Creating URLs
 
-The [**WinHttpCreateUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcreateurl) function uses the information in the previously described [**URL\_COMPONENTS**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_2) structure to create a URL.
+The [**WinHttpCreateUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcreateurl) function uses the information in the previously described [**URL\_COMPONENTS**](/windows/win32/api/winhttp/ns-winhttp-url_components) structure to create a URL.
 
 For each required component, the pointer member should contain a pointer to the buffer that holds the information. The length member should be set to zero if the pointer member contains a pointer to a zero-terminated string; the length member should be set to the string length if the pointer member contains a pointer to a string that is not zero-terminated. The pointer member of any components that are not required must be set to **NULL**.
 

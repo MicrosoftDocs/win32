@@ -36,7 +36,7 @@ NM_CLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMMOUSE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmmouse) structure that contains additional information about this notification. The **dwItemSpec** member contains the index of the section that was clicked.
+Pointer to an [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse) structure that contains additional information about this notification. The **dwItemSpec** member contains the index of the section that was clicked.
 
 </dd> </dl>
 

@@ -42,7 +42,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure that contains new settings in the **Flags** member.
+A pointer to a [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure that contains new settings in the **Flags** member.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ No return value.
 
 ## Remarks
 
-The [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
+The [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
 
 Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx) hook procedure.
 
@@ -78,10 +78,10 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
 </dt> <dt>
 
-[**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
+[**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
+[**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
 **Conceptual**

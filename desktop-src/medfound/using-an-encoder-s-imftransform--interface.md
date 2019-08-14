@@ -22,7 +22,7 @@ Upon successful registration of Windows Media encoders with the system, an appli
 
 -   The GUID that represents the category, which is either **MFT\_CATEGORY\_AUDIO\_ENCODER** or **MFT\_CATEGORY\_VIDEO\_ENCODER**.
 
--   The format to match. This is set in the [**MFT\_REGISTER\_TYPE\_INFO**](/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003) structure that specifies the major type and subtype of the media type that the encoder will generate samples in. This structure is passed in the *pOutputType* parameter. For information about the supported types, see [Media Type GUIDs](media-type-guids.md).
+-   The format to match. This is set in the [**MFT\_REGISTER\_TYPE\_INFO**](/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info) structure that specifies the major type and subtype of the media type that the encoder will generate samples in. This structure is passed in the *pOutputType* parameter. For information about the supported types, see [Media Type GUIDs](media-type-guids.md).
 
     > [!Note]  
     > The input type information in the *pInputType* parameter is not required. This is because the input type is known to the application and the encoder expects the input stream to be in an uncompressed format.

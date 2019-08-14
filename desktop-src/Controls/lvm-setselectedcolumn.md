@@ -36,7 +36,7 @@ The return value is not used.
 
 ## Remarks
 
-The column indices are stored in an **int** array. See the **puColumns** member of [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema).
+The column indices are stored in an **int** array. See the **puColumns** member of [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema).
 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).

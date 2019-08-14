@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Translation
 
-Some applications translate (or shift) objects drawn in the client area. by calling the [**SetWorldTransform**](/windows/desktop/api/Wingdi/nf-wingdi-setworldtransform) function to set the appropriate world-space to page-space transformation. The SetWorldTransform function receives a pointer to an [**XFORM**](/windows/desktop/api/Wingdi/ns-wingdi-tagxform) structure containing the appropriate values. The eDx and eDy members of XFORM specify the horizontal and vertical translation components, respectively.
+Some applications translate (or shift) objects drawn in the client area. by calling the [**SetWorldTransform**](/windows/desktop/api/Wingdi/nf-wingdi-setworldtransform) function to set the appropriate world-space to page-space transformation. The SetWorldTransform function receives a pointer to an [**XFORM**](/windows/win32/api/wingdi/ns-wingdi-xform) structure containing the appropriate values. The eDx and eDy members of XFORM specify the horizontal and vertical translation components, respectively.
 
 When *translation* occurs, each point in an object is shifted vertically, horizontally, or both, by a specified amount. The following illustration shows a 20- by 20-unit rectangle that was translated to the right by 10 units when copied from world-coordinate space to page-coordinate space.
 

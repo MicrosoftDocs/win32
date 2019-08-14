@@ -14,18 +14,18 @@ This section describes the enumerations that are used by the Core Audio APIs in 
 
 | Enumeration                                                                   | Description                                                                                        |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [**\_AUDCLNT\_BUFFERFLAGS**](/windows/desktop/api/Audioclient/ne-audioclient-_audclnt_bufferflags)                        | Status flags for an audio endpoint buffer.                                                         |
+| [**\_AUDCLNT\_BUFFERFLAGS**](/windows/win32/api/audioclient/ne-audioclient-_audclnt_bufferflags)                        | Status flags for an audio endpoint buffer.                                                         |
 | [**AUDCLNT\_SHAREMODE**](/windows/desktop/api/Audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode)                               | The sharing mode for a stream.                                                                     |
 | [**AUDCLNT\_STREAMOPTIONS**](/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions)                       | Defines values that describe the characteristics of an audio stream.                               |
 | [**AUDIO\_STREAM\_CATEGORY**](/windows/desktop/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category)                      | Specifies the category of an audio stream.                                                         |
 | [**AudioSessionState**](/windows/desktop/api/Audiosessiontypes/ne-audiosessiontypes-audiosessionstate)                                | The state of an audio session.                                                                     |
-| [**ConnectorType**](/windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0013)                                        | The type of connector in a device topology.                                                        |
-| [**DataFlow**](/windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0011)                                                  | The data-flow direction of an audio stream.                                                        |
-| [**EDataFlow**](/windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001)                                                | The direction in which audio data flows between an audio endpoint device and a client application. |
-| [**EndpointFormFactor**](/windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0003)                              | The general physical attributes of an audio endpoint device.                                       |
-| [**ERole**](/windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002)                                                        | The system role of an audio endpoint device.                                                       |
-| [**KSJACK\_SINK\_CONNECTIONTYPE**](/windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0010)<br/> | The type of connection.<br/>                                                                 |
-| [**PartType**](/windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0012)                                                  | The part type of a part (connector or subunit) in a device topology.                               |
+| [**ConnectorType**](/windows/win32/api/devicetopology/ne-devicetopology-connectortype)                                        | The type of connector in a device topology.                                                        |
+| [**DataFlow**](/windows/win32/api/devicetopology/ne-devicetopology-dataflow)                                                  | The data-flow direction of an audio stream.                                                        |
+| [**EDataFlow**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow)                                                | The direction in which audio data flows between an audio endpoint device and a client application. |
+| [**EndpointFormFactor**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-endpointformfactor)                              | The general physical attributes of an audio endpoint device.                                       |
+| [**ERole**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole)                                                        | The system role of an audio endpoint device.                                                       |
+| [**KSJACK\_SINK\_CONNECTIONTYPE**](/windows/win32/api/devicetopology/ne-devicetopology-ksjack_sink_connectiontype)<br/> | The type of connection.<br/>                                                                 |
+| [**PartType**](/windows/win32/api/devicetopology/ne-devicetopology-parttype)                                                  | The part type of a part (connector or subunit) in a device topology.                               |
 
 
 

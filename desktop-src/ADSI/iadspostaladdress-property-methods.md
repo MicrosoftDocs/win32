@@ -79,7 +79,7 @@ HRESULT put_PostalAddress(
 [**IADsPostalAddress**](/windows/desktop/api/Iads/nn-iads-iadspostaladdress)
 </dt> <dt>
 
-[**ADS\_POSTALADDRESS**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0006)
+[**ADS\_POSTALADDRESS**](/windows/win32/api/iads/ns-iads-ads_postaladdress)
 </dt> </dl>
 
  

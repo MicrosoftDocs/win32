@@ -36,7 +36,7 @@ LVN_HOTTRACK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure that contains information about this notification code. The **iItem**, **iSubItem**, and **ptAction** members of this structure contain information about the item. The receiving application can modify the **iItem** member to specify the item that will be selected. If **iItem** is set to -1, no item will be selected.
+Pointer to an [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure that contains information about this notification code. The **iItem**, **iSubItem**, and **ptAction** members of this structure contain information about the item. The receiving application can modify the **iItem** member to specify the item that will be selected. If **iItem** is set to -1, no item will be selected.
 
 </dd> </dl>
 

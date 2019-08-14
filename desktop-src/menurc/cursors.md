@@ -74,7 +74,7 @@ When the user moves the mouse, the system moves the cursor accordingly. The curs
 
 | Name                             | Description                                    |
 |----------------------------------|------------------------------------------------|
-| [**CURSORINFO**](/windows/desktop/api/Winuser/ns-winuser-tagcursorinfo) | Contains global cursor information.<br/> |
+| [**CURSORINFO**](/windows/win32/api/winuser/ns-winuser-cursorinfo) | Contains global cursor information.<br/> |
 
 
 

@@ -46,7 +46,7 @@ HRESULT RegisterSystemHealthValidator(
 *validator* \[in\]
 </dt> <dd>
 
-A pointer to a [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) structure that contains the SHV registration information.
+A pointer to a [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) structure that contains the SHV registration information.
 
 </dd> <dt>
 

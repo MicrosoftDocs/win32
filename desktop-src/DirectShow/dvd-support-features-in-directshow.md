@@ -22,7 +22,7 @@ The DVD Navigator supports the following features:
 -   Support for frame stepping, frame-accurate seeking, and reverse play. These features require a video decoder that supports them.
 -   The ability to save the current location in a title and return to it at any time.
 -   Simplified support for time events in non-sequential PGC titles: For non-sequential PGC titles, the DVD Navigator relays the raw time code information to the application.
--   Time code information. The [**DVD\_HMSF\_TIMECODE**](/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode) structure can be used in place of the binary coded decimal (BCD) format. **DVD\_HMSF\_TIMECODE** contains easily accessed members for hours, minutes, seconds, and frames, and can be cast to/from a **ULONG**.
+-   Time code information. The [**DVD\_HMSF\_TIMECODE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure can be used in place of the binary coded decimal (BCD) format. **DVD\_HMSF\_TIMECODE** contains easily accessed members for hours, minutes, seconds, and frames, and can be cast to/from a **ULONG**.
 -   The ability to control whether the filter graph flushes after a seek operation: The graph buffers can contain up to a few seconds of video at any given time. You can instruct the graph to either finish playing the buffered video after a seek, or begin playing immediately at the new location.
 -   The ability to set values in general parameter registers: An advanced feature for those familiar with the DVD specification who wish to implement advanced functionality.
 -   The ability to generate numeric disc identifiers that are for all practical purposes unique

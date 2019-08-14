@@ -15,21 +15,21 @@ The Remote Desktop Gateway (RD Gateway) API supports the following enumeration 
 
 <dl> <dt>
 
-[**AAAccountingDataType**](/windows/desktop/api/Tsgpolicyengine/ne-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0002)
+[**AAAccountingDataType**](/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-aaaccountingdatatype)
 </dt> <dd>
 
 Specifies the type of event that the [**ITSGAccountingEngine::DoAccounting**](/windows/desktop/api/TSGPolicyEngine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting) method is being notified of.
 
 </dd> <dt>
 
-[**AAAuthSchemes**](/windows/desktop/api/Tsgpolicyengine/ne-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0001)
+[**AAAuthSchemes**](/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-aaauthschemes)
 </dt> <dd>
 
 Specifies the type of authentication used to connect to RD Gateway.
 
 </dd> <dt>
 
-[**PolicyAttributeType**](/windows/desktop/api/TSGPolicyEngine/ne-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0005)
+[**PolicyAttributeType**](/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-policyattributetype)
 </dt> <dd>
 
 Specifies the redirection settings associated with a connection.

@@ -159,9 +159,9 @@ Pointer to a [**D3DXIMAGE\_INFO**](d3dximage-info.md) structure to be filled wit
 *pPalette* \[out\]
 </dt> <dd>
 
-Type: **[**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry)\***
+Type: **[**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry)\***
 
-Pointer to a [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry) structure, representing a 256-color palette to fill in, or **NULL**. See Remarks.
+Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry) structure, representing a 256-color palette to fill in, or **NULL**. See Remarks.
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ Cube textures differ from other surfaces in that they are collections of surface
 
 This method is designed to be used for loading image files stored as RT\_RCDATA, which is an application-defined resource (raw data). Otherwise this method will fail.
 
-For details on [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
+For details on [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
 
 **D3DXCreateCubeTextureFromFileInMemoryEx** uses the DirectDraw surface (DDS) file format. The DirectX Texture Editor (Dxtex.exe) enables you to generate a cube map from other file formats and save it in the DDS file format. You can get Dxtex.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx).
 

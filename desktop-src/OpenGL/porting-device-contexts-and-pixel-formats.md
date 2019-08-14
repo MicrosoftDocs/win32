@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Porting Device Contexts and Pixel Formats
 
-Each window in the Microsoft implementation of OpenGL for Windows has its own current pixel format. A pixel format is defined by a [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) data structure. Because each window has its own pixel format, you obtain a device context, set the pixel format of the device context, and then create an OpenGL rendering context for the device context. The rendering context automatically uses the pixel format of its device context.
+Each window in the Microsoft implementation of OpenGL for Windows has its own current pixel format. A pixel format is defined by a [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) data structure. Because each window has its own pixel format, you obtain a device context, set the pixel format of the device context, and then create an OpenGL rendering context for the device context. The rendering context automatically uses the pixel format of its device context.
 
 The X Window System also uses a data structure, **XVisualInfo**, to specify the properties of pixels in a window. **XVisualInfo** structures contain a **Visual** data structure that describes how color resources are used in a specific screen.
 

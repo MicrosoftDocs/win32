@@ -16,7 +16,7 @@ A DMO is an object that takes *m* inputs and produces *n* outputs. The inputs an
 
 **Media Types**
 
-All data is typed using a *media type*, which defines how to interpret the contents of the data. For example, 320 x 240 24-bit RGB video is one type; 44.1-kilohertz (kHz) 16-bit stereo PCM audio is another type. Media types are described using the [**DMO\_MEDIA\_TYPE**](/windows/desktop/api/Mediaobj/ns-mediaobj-_dmomediatype) structure. Before the client can process any data, it must set the media type for each stream on the DMO.
+All data is typed using a *media type*, which defines how to interpret the contents of the data. For example, 320 x 240 24-bit RGB video is one type; 44.1-kilohertz (kHz) 16-bit stereo PCM audio is another type. Media types are described using the [**DMO\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) structure. Before the client can process any data, it must set the media type for each stream on the DMO.
 
 Typically, a stream can accept a range of media types. Some DMOs support a wider range of types than others. The DMO interfaces define methods for the client to discover the supported types. For example, one DMO might support RGB video at any bit depth, while another might support only 24-bit RGB. Also, a DMO might be limited to certain combinations of inputs and outputs. For example, if the input type is 16-bit video, the output stream might require the same bit depth. The client can enumerate each stream's preferred types and then test specific combinations.
 

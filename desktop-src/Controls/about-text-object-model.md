@@ -79,7 +79,7 @@ In addition to the **HRESULT** return values, many methods include out parameter
 
 Use methods with Get and Set prefixes to get and set properties. Boolean variables use **tomFalse** (0) for **FALSE**, and **tomTrue** (-1) for **TRUE**.
 
-TOM constants are defined in the [**tomConstants**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001) enumeration type and begin with the prefix *tom*, for example **tomWord**.
+TOM constants are defined in the [**tomConstants**](/windows/win32/api/tom/ne-tom-tomconstants) enumeration type and begin with the prefix *tom*, for example **tomWord**.
 
 ## The tomBool Type
 

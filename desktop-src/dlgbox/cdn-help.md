@@ -89,7 +89,7 @@ The system sends this notification only if the dialog box was created using the 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 </dt> <dt>
 
-[**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
+[**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
 **Conceptual**

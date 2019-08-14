@@ -40,7 +40,7 @@ Not used; must be zero.
 
 ## Return value
 
-The return value is one or more values from the [**TEXTMODE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode) enumeration type. The values indicate the current text mode and undo level of the control.
+The return value is one or more values from the [**TEXTMODE**](/windows/win32/api/richedit/ne-richedit-textmode) enumeration type. The values indicate the current text mode and undo level of the control.
 
 ## Requirements
 
@@ -64,7 +64,7 @@ The return value is one or more values from the [**TEXTMODE**](/windows/desktop/
 [**EM\_SETTEXTMODE**](em-settextmode.md)
 </dt> <dt>
 
-[**TEXTMODE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode)
+[**TEXTMODE**](/windows/win32/api/richedit/ne-richedit-textmode)
 </dt> </dl>
 
  

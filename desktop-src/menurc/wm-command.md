@@ -69,7 +69,7 @@ Use of the *wParam* and *lParam* parameters are summarized here.
 
 If an application enables a menu separator, the system sends a **WM\_COMMAND** message with the low-word of the *wParam* parameter set to zero when the user selects the separator.
 
-If a menu is defined with a [**MENUINFO.dwStyle**](/windows/desktop/api/Winuser/ns-winuser-tagmenuinfo) value of **MNS\_NOTIFYBYPOS**, [**WM\_MENUCOMMAND**](wm-menucommand.md) is sent instead of **WM\_COMMAND**.
+If a menu is defined with a [**MENUINFO.dwStyle**](/windows/win32/api/winuser/ns-winuser-menuinfo) value of **MNS\_NOTIFYBYPOS**, [**WM\_MENUCOMMAND**](wm-menucommand.md) is sent instead of **WM\_COMMAND**.
 
 ### Accelerators
 

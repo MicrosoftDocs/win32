@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Exposing Owner-Drawn Menu Items
 
-Application developers can use the [**MSAAMENUINFO**](/windows/desktop/api/Oleacc/ns-oleacc-tagmsaamenuinfo) structure to expose the names of owner-drawn menu items. By associating this structure with the owner-drawn menu item data, you do not need to expose the menu items with [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible).
+Application developers can use the [**MSAAMENUINFO**](/windows/win32/api/oleacc/ns-oleacc-msaamenuinfo) structure to expose the names of owner-drawn menu items. By associating this structure with the owner-drawn menu item data, you do not need to expose the menu items with [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible).
 
 When creating an owner-drawn menu, define a class or structure for the owner-drawn menu item data and create instances of this class for each menu item. Pass in a pointer to the item data when adding items to the menu.
 
-To expose the names of the menu items, the [**MSAAMENUINFO**](/windows/desktop/api/Oleacc/ns-oleacc-tagmsaamenuinfo) structure must be the first member of the structure that defines the application-specific item data, as shown in the following example:
+To expose the names of the menu items, the [**MSAAMENUINFO**](/windows/win32/api/oleacc/ns-oleacc-msaamenuinfo) structure must be the first member of the structure that defines the application-specific item data, as shown in the following example:
 
 
 ```C++
@@ -31,7 +31,7 @@ struct MenuEntry
 
 
 
-The [**MSAAMENUINFO**](/windows/desktop/api/Oleacc/ns-oleacc-tagmsaamenuinfo) structure cannot be a member in a class that contains virtual functions. When the code is compiled, the first member of the class is always a compiler-generated pointer to a table of the virtual functions. To work around this problem, create an item data structure that contains **MSAAMENUINFO** as the first member. The second member is a pointer to an instance of the class that defines the owner-drawn data. The following example demonstrates this technique.
+The [**MSAAMENUINFO**](/windows/win32/api/oleacc/ns-oleacc-msaamenuinfo) structure cannot be a member in a class that contains virtual functions. When the code is compiled, the first member of the class is always a compiler-generated pointer to a table of the virtual functions. To work around this problem, create an item data structure that contains **MSAAMENUINFO** as the first member. The second member is a pointer to an instance of the class that defines the owner-drawn data. The following example demonstrates this technique.
 
 
 ```C++
@@ -59,7 +59,7 @@ struct MenuInfo
 
 
 
-When adding items to the menu, pass a pointer to an instance of the structure that contains [**MSAAMENUINFO**](/windows/desktop/api/Oleacc/ns-oleacc-tagmsaamenuinfo) to expose the names of the menu items.
+When adding items to the menu, pass a pointer to an instance of the structure that contains [**MSAAMENUINFO**](/windows/win32/api/oleacc/ns-oleacc-msaamenuinfo) to expose the names of the menu items.
 
  
 

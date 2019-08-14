@@ -95,7 +95,7 @@ The system event, prefixed SE\_\*, associated with this header. See the remarks 
 **sysEvtData**
 </dt> <dd>
 
-The [**SYSTEM\_EVENT\_DATA**](/windows/desktop/api/tpcshrd/ns-tpcshrd-tagsystem_event_data) structure associated with the system event.
+The [**SYSTEM\_EVENT\_DATA**](/windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data) structure associated with the system event.
 
 </dd> <dt>
 
@@ -145,7 +145,7 @@ The following values are defined for the **sysEvt** member.
 
 <dl> <dt>
 
-[**SYSTEM\_EVENT\_DATA**](/windows/desktop/api/tpcshrd/ns-tpcshrd-tagsystem_event_data)
+[**SYSTEM\_EVENT\_DATA**](/windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data)
 </dt> </dl>
 
  

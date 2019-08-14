@@ -28,7 +28,7 @@ You can programmatically set the proxy data from within your application or scri
                             0);
     ```
 
--   Use the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function. The [**WINHTTP\_OPTION\_PROXY**](option-flags.md) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure. The following example code shows how the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function can be used to set proxy data.
+-   Use the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function. The [**WINHTTP\_OPTION\_PROXY**](option-flags.md) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info) structure. The following example code shows how the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function can be used to set proxy data.
 
     ``` syntax
     WINHTTP_PROXY_INFO proxyInfo;

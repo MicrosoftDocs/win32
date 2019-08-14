@@ -36,7 +36,7 @@ lParam = (LPARAM) (LPCAPINFOCHUNK) (lpInfoChunk);
 <span id="lpInfoChunk"></span><span id="lpinfochunk"></span><span id="LPINFOCHUNK"></span>*lpInfoChunk*
 </dt> <dd>
 
-Pointer to a [**CAPINFOCHUNK**](/windows/desktop/api/Vfw/ns-vfw-tagcapinfochunk) structure defining the information chunk to be created or deleted.
+Pointer to a [**CAPINFOCHUNK**](/windows/win32/api/vfw/ns-vfw-capinfochunk) structure defining the information chunk to be created or deleted.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 
 ## Remarks
 
-Multiple registered information chunks can be added to an AVI file. After an information chunk is set, it continues to be added to subsequent capture files until either the entry is cleared or all information chunk entries are cleared. To clear a single entry, specify the information chunk in the **fccInfoID** member and **NULL** in the **lpData** member of the [**CAPINFOCHUNK**](/windows/desktop/api/Vfw/ns-vfw-tagcapinfochunk) structure. To clear all entries, specify **NULL** in **fccInfoID**.
+Multiple registered information chunks can be added to an AVI file. After an information chunk is set, it continues to be added to subsequent capture files until either the entry is cleared or all information chunk entries are cleared. To clear a single entry, specify the information chunk in the **fccInfoID** member and **NULL** in the **lpData** member of the [**CAPINFOCHUNK**](/windows/win32/api/vfw/ns-vfw-capinfochunk) structure. To clear all entries, specify **NULL** in **fccInfoID**.
 
 ## Requirements
 

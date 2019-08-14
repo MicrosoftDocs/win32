@@ -53,7 +53,7 @@ A pointer to a [**EnforcementEntityCount**](nap-datatypes.md) that contains the 
 *enforcers* \[out\]
 </dt> <dd>
 
-A pointer to an array of [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) structures that describe the registered enforcement clients.
+A pointer to an array of [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) structures that describe the registered enforcement clients.
 
 </dd> </dl>
 

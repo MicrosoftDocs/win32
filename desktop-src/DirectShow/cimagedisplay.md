@@ -22,7 +22,7 @@ api_location:
 
 ![cimagedisplayclasshierarchy](images/wutil06.png)
 
-The `CImageDisplay` class is a helper class for GDI video renderers to manage the display format. The object stores a [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure that describes the current display mode, which is initialized in the object's constructor method. The object's **CheckMediaType** method checks whether a proposed media type can be rendered efficiently using GDI.
+The `CImageDisplay` class is a helper class for GDI video renderers to manage the display format. The object stores a [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure that describes the current display mode, which is initialized in the object's constructor method. The object's **CheckMediaType** method checks whether a proposed media type can be rendered efficiently using GDI.
 
 
 
@@ -34,7 +34,7 @@ The `CImageDisplay` class is a helper class for GDI video renderers to manage th
 | [**CountPrefixBits**](cimagedisplay-countprefixbits.md)         | Calculates the number of zero bits at the start of a specified bit field.              |
 | [**CountSetBits**](cimagedisplay-countsetbits.md)               | Returns the number of bits set to 1 in a specified bit field.                          |
 | Public Methods                                                   | Description                                                                            |
-| [**CheckHeaderValidity**](cimagedisplay-checkheadervalidity.md) | Validates a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure.                    |
+| [**CheckHeaderValidity**](cimagedisplay-checkheadervalidity.md) | Validates a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure.                    |
 | [**CheckMediaType**](cimagedisplay-checkmediatype.md)           | Determines whether a proposed media type is compatible with the display format.        |
 | [**CheckPaletteHeader**](cimagedisplay-checkpaletteheader.md)   | Validates the palette entries in a **VIDEOINFO** structure.                            |
 | [**CheckVideoType**](cimagedisplay-checkvideotype.md)           | Checks whether a specified **VIDEOINFO** format is compatible with the display format. |

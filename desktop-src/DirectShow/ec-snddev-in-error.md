@@ -17,7 +17,7 @@ A device error has occurred in an audio capture filter.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-DWORD value from the [**SNDDEV\_ERR**](/windows/desktop/api/audevcod/ne-audevcod-_tagsnd_device_error) enumerated type, indicating how the device was being accessed when the failure occurred.
+DWORD value from the [**SNDDEV\_ERR**](/previous-versions/windows/desktop/api/audevcod/ne-audevcod-snddev_err) enumerated type, indicating how the device was being accessed when the failure occurred.
 
 </dd> <dt>
 

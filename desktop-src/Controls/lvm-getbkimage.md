@@ -32,7 +32,7 @@ Gets the background image in a list-view control. You can send this message expl
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**LVBKIMAGE**](/windows/desktop/api/Commctrl/ns-commctrl-taglvbkimagea) structure that will receive the background image information.
+A pointer to an [**LVBKIMAGE**](/windows/win32/api/commctrl/ns-commctrl-lvbkimagea) structure that will receive the background image information.
 
 </dd> </dl>
 

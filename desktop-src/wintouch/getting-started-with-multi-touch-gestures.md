@@ -85,7 +85,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 ## Interpreting the Gesture Messages
 
-The [**GetGestureInfo**](/windows/desktop/api/winuser/nf-winuser-getgestureinfo) function is used to interpret a gesture message into a structure describing the gesture. The structure, [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo), has information about the gesture such as the location where the gesture was performed and the type of gesture. The following code shows how you can retrieve and interpret a gesture message.
+The [**GetGestureInfo**](/windows/desktop/api/winuser/nf-winuser-getgestureinfo) function is used to interpret a gesture message into a structure describing the gesture. The structure, [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo), has information about the gesture such as the location where the gesture was performed and the type of gesture. The following code shows how you can retrieve and interpret a gesture message.
 
 
 ```C++

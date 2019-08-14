@@ -38,7 +38,7 @@ HDN_GETDISPINFO
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhddispinfoa) structure. On input, the fields of the structure specify what information is required and the item of interest.
+A pointer to an [**NMHDDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmhddispinfoa) structure. On input, the fields of the structure specify what information is required and the item of interest.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ Returns an LRESULT.
 
 ## Remarks
 
-Fill the appropriate members of the structure to return the requested information to the header control. If your message handler sets the **mask** member of the [**NMHDDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhddispinfoa) structure to HDI\_DI\_SETITEM, the header control stores the information and will not request it again.
+Fill the appropriate members of the structure to return the requested information to the header control. If your message handler sets the **mask** member of the [**NMHDDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmhddispinfoa) structure to HDI\_DI\_SETITEM, the header control stores the information and will not request it again.
 
 ## Requirements
 

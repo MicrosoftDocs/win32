@@ -27,7 +27,7 @@ Retrieves information about hyphenation for a Microsoft Rich Edit control.
 *wParam* 
 </dt> <dd>
 
-The [**HYPHENATEINFO**](/windows/desktop/api/Richedit/ns-richedit-taghyphenateinfo) structure.
+The [**HYPHENATEINFO**](/windows/win32/api/richedit/ns-richedit-hyphenateinfo) structure.
 
 </dd> <dt>
 

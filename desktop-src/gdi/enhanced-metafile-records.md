@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Enhanced Metafile Records
 
-An enhanced metafile is an array of records. A metafile record is a variable-length [**ENHMETARECORD**](/windows/desktop/api/Wingdi/ns-wingdi-tagenhmetarecord) structure. At the beginning of every enhanced metafile record is an [**EMR**](/windows/desktop/api/Wingdi/ns-wingdi-tagemr) structure, which contains two members. The first member, iType, identifies the record type that is, the GDI function whose parameters are contained in the record. Because the structures are variable in length, the other member, nSize, contains the size of the record. Immediately following the nSize member are the remaining parameters, if any, of the GDI function. The remainder of the structure contains additional data that is dependent on the record type.
+An enhanced metafile is an array of records. A metafile record is a variable-length [**ENHMETARECORD**](/windows/win32/api/wingdi/ns-wingdi-enhmetarecord) structure. At the beginning of every enhanced metafile record is an [**EMR**](/windows/win32/api/wingdi/ns-wingdi-emr) structure, which contains two members. The first member, iType, identifies the record type that is, the GDI function whose parameters are contained in the record. Because the structures are variable in length, the other member, nSize, contains the size of the record. Immediately following the nSize member are the remaining parameters, if any, of the GDI function. The remainder of the structure contains additional data that is dependent on the record type.
 
-The first record in an enhanced metafile is always the [**ENHMETAHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagenhmetaheader) structure, which is the enhanced-metafile header. The header specifies the following information:
+The first record in an enhanced metafile is always the [**ENHMETAHEADER**](/windows/win32/api/wingdi/ns-wingdi-enhmetaheader) structure, which is the enhanced-metafile header. The header specifies the following information:
 
 -   Size of the metafile, in bytes
 -   Dimensions of the picture frame, in device units

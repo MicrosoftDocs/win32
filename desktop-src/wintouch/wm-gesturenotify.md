@@ -34,7 +34,7 @@ Unused.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**GESTURENOTIFYSTRUCT**](/windows/desktop/api/winuser/ns-winuser-taggesturenotifystruct).
+A pointer to a [**GESTURENOTIFYSTRUCT**](/windows/win32/api/winuser/ns-winuser-gesturenotifystruct).
 
 </dd> </dl>
 
@@ -96,7 +96,7 @@ The following example shows how to enable all gestures. For more examples, see [
 [Windows Touch Gestures Programming Guide](guide-multi-touch-gestures.md)
 </dt> <dt>
 
-[**GESTURENOTIFYSTRUCT**](/windows/desktop/api/winuser/ns-winuser-taggesturenotifystruct)
+[**GESTURENOTIFYSTRUCT**](/windows/win32/api/winuser/ns-winuser-gesturenotifystruct)
 </dt> <dt>
 
 [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig)

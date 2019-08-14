@@ -34,7 +34,7 @@ Zero-based index of the band whose chevron is to be pushed.
 *lParam* 
 </dt> <dd>
 
-An application defined 32-bit value. It will be passed back to the application as the **lParamNM** member of the [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron) structure that is passed with the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification.
+An application defined 32-bit value. It will be passed back to the application as the **lParamNM** member of the [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) structure that is passed with the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification.
 
 </dd> </dl>
 

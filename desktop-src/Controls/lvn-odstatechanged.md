@@ -36,7 +36,7 @@ LVN_ODSTATECHANGED
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVODSTATECHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvodstatechange) structure that contains information about the item or items that have changed.
+Pointer to an [**NMLVODSTATECHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmlvodstatechange) structure that contains information about the item or items that have changed.
 
 </dd> </dl>
 

@@ -38,7 +38,7 @@ HDN_DIVIDERDBLCLICK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that contains information about the header control and the item whose divider was double-clicked.
+A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains information about the header control and the item whose divider was double-clicked.
 
 </dd> </dl>
 

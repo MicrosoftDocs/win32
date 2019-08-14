@@ -36,7 +36,7 @@ LVN_LINKCLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVLINK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvlink) structure. The identifier of the group containing the link is in the **iSubItem** member.
+Pointer to an [**NMLVLINK**](/windows/win32/api/commctrl/ns-commctrl-nmlvlink) structure. The identifier of the group containing the link is in the **iSubItem** member.
 
 </dd> </dl>
 

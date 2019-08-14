@@ -50,7 +50,7 @@ HRESULT EnumViews(
 
 Type: **ULONG**
 
-Flags indicating which items to include in the enumeration. For a list of possible values, see the [**SHCONTF**](/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf) enumerated type. This parameter may be ignored.
+Flags indicating which items to include in the enumeration. For a list of possible values, see the [**SHCONTF**](/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf) enumerated type. This parameter may be ignored.
 
 </dd> <dt>
 

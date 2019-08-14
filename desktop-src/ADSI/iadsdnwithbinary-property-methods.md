@@ -110,7 +110,7 @@ HRESULT put_DNString(
 [**IADsDNWithBinary**](/windows/desktop/api/Iads/nn-iads-iadsdnwithbinary)
 </dt> <dt>
 
-[**ADS\_DN\_WITH\_BINARY**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0015)
+[**ADS\_DN\_WITH\_BINARY**](/windows/win32/api/iads/ns-iads-ads_dn_with_binary)
 </dt> </dl>
 
  

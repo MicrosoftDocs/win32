@@ -98,7 +98,7 @@ If the filter is running or paused, the IPropertyBag::Write method returns VFW\_
 
 Frame Rates
 
-If the upstream filter does not specify a frame rate in the **AvgTimePerFrame** member of the [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure, the AVI Mux uses the time stamps on the first video frame. The AVI file format does not support variable frame rates.
+If the upstream filter does not specify a frame rate in the **AvgTimePerFrame** member of the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure, the AVI Mux uses the time stamps on the first video frame. The AVI file format does not support variable frame rates.
 
 Dropped Frames
 

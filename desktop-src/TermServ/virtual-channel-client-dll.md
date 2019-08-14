@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The client of a virtual channels application is a DLL that is loaded during the Remote Desktop Services initialization on the client computer. The DLL must be registered on the client computer. For more information, see [Virtual Channel Client Registration](virtual-channel-client-registration.md).
 
-The client DLL must export a [**VirtualChannelEntry**](/windows/desktop/api/Cchannel/nc-cchannel-virtualchannelentry) function, which Remote Desktop Services calls during initialization. The **VirtualChannelEntry** entry point receives a pointer to a [**CHANNEL\_ENTRY\_POINTS**](/windows/desktop/api/Cchannel/ns-cchannel-tagchannel_entry_points) structure. This structure contains pointers to the functions that the client DLL calls to access virtual channels.
+The client DLL must export a [**VirtualChannelEntry**](/windows/desktop/api/Cchannel/nc-cchannel-virtualchannelentry) function, which Remote Desktop Services calls during initialization. The **VirtualChannelEntry** entry point receives a pointer to a [**CHANNEL\_ENTRY\_POINTS**](/windows/win32/api/cchannel/ns-cchannel-channel_entry_points) structure. This structure contains pointers to the functions that the client DLL calls to access virtual channels.
 
 
 

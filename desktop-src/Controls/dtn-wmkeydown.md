@@ -38,7 +38,7 @@ DTN_WMKEYDOWN
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMEWMKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimewmkeydowna) structure containing information about this instance of the notification code. The structure includes information about the key that the user typed, the substring that defines the callback field, and the current system date and time.
+A pointer to an [**NMDATETIMEWMKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimewmkeydowna) structure containing information about this instance of the notification code. The structure includes information about the key that the user typed, the substring that defines the callback field, and the current system date and time.
 
 </dd> </dl>
 

@@ -22,11 +22,11 @@ Internally, recognizers use a lattice to hold basic recognition units for a give
 
 The lattice structures are defined in the RecTypes.h header file. The lattice structures include the following structures:
 
--   [**RECO\_LATTICE**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice)
--   [**RECO\_LATTICE\_COLUMN**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_column)
--   [**RECO\_LATTICE\_ELEMENT**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element)
--   [**RECO\_LATTICE\_PROPERTIES**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties)
--   [**RECO\_LATTICE\_PROPERTY**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_property)
+-   [**RECO\_LATTICE**](/windows/win32/api/rectypes/ns-rectypes-reco_lattice)
+-   [**RECO\_LATTICE\_COLUMN**](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_column)
+-   [**RECO\_LATTICE\_ELEMENT**](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_element)
+-   [**RECO\_LATTICE\_PROPERTIES**](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_properties)
+-   [**RECO\_LATTICE\_PROPERTY**](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_property)
 
 ## Lattice Components
 
@@ -34,7 +34,7 @@ The following examples use the strokes for the word "together" as shown in the f
 
 ![strokes for the word "together"](images/1d5fa9fb-6c38-49b8-8caa-2b6dcc1d5dec.gif)
 
-A lattice is composed of one or more columns, one for each segment. Each column in turn contains one or more elements. An element holds a discrete recognition alternate. For more information about columns, see the [**RECO\_LATTICE\_COLUMN**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_column) structure. For more information about elements, see the [**RECO\_LATTICE\_ELEMENT**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element) structure.
+A lattice is composed of one or more columns, one for each segment. Each column in turn contains one or more elements. An element holds a discrete recognition alternate. For more information about columns, see the [**RECO\_LATTICE\_COLUMN**](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_column) structure. For more information about elements, see the [**RECO\_LATTICE\_ELEMENT**](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_element) structure.
 
 The recognizer might return a single segment when evaluating the ink sample shown in the previous example. In this case the lattice contains a single column with a single element.
 

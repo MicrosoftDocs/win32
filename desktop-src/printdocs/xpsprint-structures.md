@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 | Structure                                             | Description                                   |
 |-------------------------------------------------------|-----------------------------------------------|
-| [**XPS\_JOB\_STATUS**](/windows/desktop/api/XpsPrint/ns-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0002)<br/> | Contains a snapshot of job status.<br/> |
+| [**XPS\_JOB\_STATUS**](/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status)<br/> | Contains a snapshot of job status.<br/> |
 
 
 

@@ -20,7 +20,7 @@ api_location:
 
 # CImageDisplay.UpdateFormat method
 
-The `UpdateFormat` method fills in some optional members of the [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure.
+The `UpdateFormat` method fills in some optional members of the [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure.
 
 ## Syntax
 

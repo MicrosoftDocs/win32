@@ -32,7 +32,7 @@ The variables in this formula have the following meanings.
 
 This formula should not be used to convert device units back to design units. Device units are always rounded to the nearest pixel. The propagated round-off error can become very large, especially when an application is working with screen sizes.
 
-To request design units, create a logical font whose height is specified as *unitsPerEm*. Applications can retrieve the value for *unitsPerEm* by calling the [**EnumFontFamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa) function and checking the **ntmSizeEM** member of the [**NEWTEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-tagnewtextmetrica) structure.
+To request design units, create a logical font whose height is specified as *unitsPerEm*. Applications can retrieve the value for *unitsPerEm* by calling the [**EnumFontFamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa) function and checking the **ntmSizeEM** member of the [**NEWTEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-newtextmetrica) structure.
 
  
 

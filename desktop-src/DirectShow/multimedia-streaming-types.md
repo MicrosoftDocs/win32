@@ -19,8 +19,8 @@ This section lists the enumeration types defined for Microsoft DirectShow multim
 
 | Enumeration Type                      | Description                                      |
 |---------------------------------------|--------------------------------------------------|
-| [**STREAM\_STATE**](/windows/desktop/api/Mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0002) | Describes the state of a stream.                 |
-| [**STREAM\_TYPE**](/windows/desktop/api/Mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0001)   | Defines the direction of data flow for a stream. |
+| [**STREAM\_STATE**](/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_state) | Describes the state of a stream.                 |
+| [**STREAM\_TYPE**](/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type)   | Defines the direction of data flow for a stream. |
 
 
 

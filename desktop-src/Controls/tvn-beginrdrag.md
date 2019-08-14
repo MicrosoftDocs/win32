@@ -38,7 +38,7 @@ TVN_BEGINRDRAG
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa) structure. The **itemNew** member is a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure that contains valid information in the **hItem**, **state**, and **lParam** members about the item to be dragged. The **ptDrag** member specifies the current screen coordinates of the mouse.
+Pointer to an [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreeviewa) structure. The **itemNew** member is a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure that contains valid information in the **hItem**, **state**, and **lParam** members about the item to be dragged. The **ptDrag** member specifies the current screen coordinates of the mouse.
 
 </dd> </dl>
 

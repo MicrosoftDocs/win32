@@ -225,7 +225,7 @@ The encoder uses this formula to calculate the value of pel\_aspect\_ratio for M
 The encoder tries the following settings, in order:
 
 1.  If the application sets the [**AVEncVideoPixelAspectRatio**](avencvideopixelaspectratio-property.md) property at any time before the filter graph runs, this property is used for the PAR.
-2.  Otherwise, if the **dwPictAspectRatioX** and **dwPictAspectRatioY** members of the [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) structure are non-zero, these members are used for the display aspect ratio, and the PAR is calculated from the display aspect ratio.
+2.  Otherwise, if the **dwPictAspectRatioX** and **dwPictAspectRatioY** members of the [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure are non-zero, these members are used for the display aspect ratio, and the PAR is calculated from the display aspect ratio.
 3.  If none of these values is present, the PAR is assumed to be 1.0, and the display aspect ratio is calculated accordingly.
 
 In live encoding mode ([**AVEncCommonQualityVsSpeed**](avenccommonqualityvsspeed-property.md) equal to zero), the display aspect ratio must be either 4:3 or 16:9, with a default value of 4:3. If the computed display aspect ratio is not 4:3 or 16:9, the encoder uses the value 4:3.

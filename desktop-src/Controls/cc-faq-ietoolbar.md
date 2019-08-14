@@ -40,7 +40,7 @@ An application can add or remove bands as needed. Typically, applications enable
 
 If the combined width of the bands on a strip exceeds the width of the window, the rebar control will adjust their widths as needed. Some of the tools might be covered by the adjacent band.
 
-[Version 5.80](common-control-versions.md) of the common controls provides a way to make tools that have been covered by another band accessible to the user. If you set the RBBS\_USECHEVRON flag in the **fStyle** member of the band's [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa) structure, a *chevron* will be displayed for toolbars that have been covered. When a user clicks the chevron, a menu is displayed that allows him or her to use the hidden tools. The following screen shot from Microsoft Internet Explorer 6 shows the menu that is displayed when part of the standard toolbar is covered.
+[Version 5.80](common-control-versions.md) of the common controls provides a way to make tools that have been covered by another band accessible to the user. If you set the RBBS\_USECHEVRON flag in the **fStyle** member of the band's [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure, a *chevron* will be displayed for toolbars that have been covered. When a user clicks the chevron, a menu is displayed that allows him or her to use the hidden tools. The following screen shot from Microsoft Internet Explorer 6 shows the menu that is displayed when part of the standard toolbar is covered.
 
 ![screen shot that shows the menu displayed by clicking the chevron](images/howto2.jpg)
 
@@ -67,16 +67,16 @@ Most of the features of the Internet Explorer toolbar are actually implemented i
     Set the other parameters as appropriate for your application.
 
 2.  Create a control with [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) or a specialized control creation function such as [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex).
-3.  Initialize a band for the control by filling in the members of [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa). Include the RBBS\_USECHEVRON style with the **fStyle** member to enable chevrons.
+3.  Initialize a band for the control by filling in the members of [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa). Include the RBBS\_USECHEVRON style with the **fStyle** member to enable chevrons.
 4.  Add the band to the rebar control with an [**RB\_INSERTBAND**](rb-insertband.md) message.
 5.  Repeat steps 2-4 for the remaining bands.
 6.  Implement handlers for the rebar notifications. In particular, you will need to handle [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) to display a drop-down menu when a chevron is clicked. For further information, see [Handling Chevrons](#handling-chevrons).
 
-The grippers are included by default. To omit the gripper for a band, set the RBBS\_NOGRIPPER flag in the **fStyle** member of the band's [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa) structure. For further information on implementing rebar controls, see [About Rebar Controls](rebar-controls.md).
+The grippers are included by default. To omit the gripper for a band, set the RBBS\_NOGRIPPER flag in the **fStyle** member of the band's [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure. For further information on implementing rebar controls, see [About Rebar Controls](rebar-controls.md).
 
 ### Handling Chevrons
 
-When a user clicks a chevron, the rebar control sends your application an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification. The [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron) structure that is passed with the notification contains the band's identifier and a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure with the rectangle that is occupied by the chevron. Your handler must determine which buttons are hidden and display the associated commands on a pop-up menu.
+When a user clicks a chevron, the rebar control sends your application an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification. The [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) structure that is passed with the notification contains the band's identifier and a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure with the rectangle that is occupied by the chevron. Your handler must determine which buttons are hidden and display the associated commands on a pop-up menu.
 
 The following procedure outlines how to handle an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification:
 

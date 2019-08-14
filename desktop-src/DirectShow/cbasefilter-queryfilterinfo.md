@@ -40,7 +40,7 @@ HRESULT QueryFilterInfo(
 *pInfo* 
 </dt> <dd>
 
-Pointer to a [**FILTER\_INFO**](/windows/desktop/api/strmif/ns-strmif-_filterinfo) structure.
+Pointer to a [**FILTER\_INFO**](/previous-versions/windows/desktop/api/strmif/ns-strmif-filter_info) structure.
 
 </dd> </dl>
 

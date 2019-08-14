@@ -55,9 +55,9 @@ Character formatting that applies to the control. If this parameter is zero, the
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat) structure specifying the character formatting to use. Only the formatting attributes specified by the **dwMask** member are changed.
+Pointer to a [**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata) structure specifying the character formatting to use. Only the formatting attributes specified by the **dwMask** member are changed.
 
-Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a) structure, which is an extension of the [**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat) structure. Before sending the **EM\_SETCHARFORMAT** message, set the structure's **cbSize** member to `sizeof(CHARFORMAT)` or `sizeof(CHARFORMAT2)` indicate which version of the structure is being used.
+Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a) structure, which is an extension of the [**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata) structure. Before sending the **EM\_SETCHARFORMAT** message, set the structure's **cbSize** member to `sizeof(CHARFORMAT)` or `sizeof(CHARFORMAT2)` indicate which version of the structure is being used.
 
 The **szFaceName** and **bCharSet** members may be overruled when invalid for characters, for example: Arial on kanji characters.
 
@@ -92,7 +92,7 @@ If this message is sent more than once with the same parameters, the effect on t
 **Reference**
 </dt> <dt>
 
-[**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat)
+[**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata)
 </dt> <dt>
 
 [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a)

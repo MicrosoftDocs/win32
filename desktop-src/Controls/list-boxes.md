@@ -123,8 +123,8 @@ This section contains information about the programming elements used with list 
 
 | Topic                                        | Contents                                                                                                                                                               |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DELETEITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdeleteitemstruct) | Contains information about a deleted list box or combo box item.<br/>                                                                                            |
-| [**DRAGLISTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagdraglistinfo)         | Contains information about a drag event. The pointer to [**DRAGLISTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagdraglistinfo) is passed as the *lParam* parameter of the drag list message. <br/> |
+| [**DELETEITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-deleteitemstruct) | Contains information about a deleted list box or combo box item.<br/>                                                                                            |
+| [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-commctrl-draglistinfo)         | Contains information about a drag event. The pointer to [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-commctrl-draglistinfo) is passed as the *lParam* parameter of the drag list message. <br/> |
 
 
 

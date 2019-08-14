@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section presents information about the following enumerations used by WIA:
 
--   [**WIAVIDEO\_STATE**](/windows/desktop/api/Wiavideo/ne-wiavideo-__midl___midl_itf_wiavideo_xp_0000_0000_0001)
+-   [**WIAVIDEO\_STATE**](/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state)
 
  
 

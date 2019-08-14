@@ -63,7 +63,7 @@ if (!bFound) return VFW_E_INVALIDMEDIATYPE;
 
 If no video stream was found, the function exits.
 
-In the previous code, the [**IMediaDet::get\_StreamType**](imediadet-get-streamtype.md) method returns just the major type GUID. This is convenient if you do not need to examine the complete media type. To get the video dimensions, however, it is necessary to examine the format block, so the full media type is needed. You can retrieve that by calling the [**IMediaDet::get\_StreamMediaType**](imediadet-get-streammediatype.md) method, which fills in an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure. The Media Detector converts all video streams into uncompressed format, with a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) format block.
+In the previous code, the [**IMediaDet::get\_StreamType**](imediadet-get-streamtype.md) method returns just the major type GUID. This is convenient if you do not need to examine the complete media type. To get the video dimensions, however, it is necessary to examine the format block, so the full media type is needed. You can retrieve that by calling the [**IMediaDet::get\_StreamMediaType**](imediadet-get-streammediatype.md) method, which fills in an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure. The Media Detector converts all video streams into uncompressed format, with a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) format block.
 
 
 ```C++

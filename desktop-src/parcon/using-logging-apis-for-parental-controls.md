@@ -112,7 +112,7 @@ The Parental Controls system will fire a warning event at 15 minutes and again a
 [**EventDataDescCreate**](https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventdatadesccreate)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
 </dt> </dl>
 
  

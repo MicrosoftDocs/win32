@@ -40,7 +40,7 @@ const GUID GetTrueColorType(
 *pHeader* 
 </dt> <dd>
 
-Pointer to a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure that defines the bitmap.
+Pointer to a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure that defines the bitmap.
 
 </dd> </dl>
 

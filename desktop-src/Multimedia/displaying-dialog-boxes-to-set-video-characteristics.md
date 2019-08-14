@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Displaying Dialog Boxes to Set Video Characteristics
 
-Each capture driver can provide up to three different dialog boxes used to control aspects of the video digitization and capture process. The following example demonstrates how to display these dialog boxes. Before displaying each dialog box, the example calls the [**capDriverGetCaps**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps) macro and checks the [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps) structure returned to see if the capture driver can display it.
+Each capture driver can provide up to three different dialog boxes used to control aspects of the video digitization and capture process. The following example demonstrates how to display these dialog boxes. Before displaying each dialog box, the example calls the [**capDriverGetCaps**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps) macro and checks the [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) structure returned to see if the capture driver can display it.
 
 
 ```C++

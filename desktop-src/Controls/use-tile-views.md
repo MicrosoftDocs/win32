@@ -25,9 +25,9 @@ This topic demonstrates how to set the tile view for a list-view control. In til
 
 ### 
 
-Set the general display parameters for tile view by using the [**ListView\_SetTileViewInfo**](/windows/desktop/api/Commctrl/nf-commctrl-listview_settileviewinfo) macro. Use the [**LVTILEVIEWINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvtileviewinfo) structure that is passed to this macro to specify the position of the text in relation to the icon, the size of each tile (including accompanying text), and the maximum number of lines of text.
+Set the general display parameters for tile view by using the [**ListView\_SetTileViewInfo**](/windows/desktop/api/Commctrl/nf-commctrl-listview_settileviewinfo) macro. Use the [**LVTILEVIEWINFO**](/windows/win32/api/commctrl/ns-commctrl-lvtileviewinfo) structure that is passed to this macro to specify the position of the text in relation to the icon, the size of each tile (including accompanying text), and the maximum number of lines of text.
 
-If you do not want tiles to be automatically sized, you must set **LVTVIF\_FIXEDSIZE** in the **dwFlags** member and **LVTVIM\_TILESIZE** in the **dwMask** member of [**LVTILEVIEWINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvtileviewinfo), as well as providing the dimensions in the **sizeTile** member.
+If you do not want tiles to be automatically sized, you must set **LVTVIF\_FIXEDSIZE** in the **dwFlags** member and **LVTVIM\_TILESIZE** in the **dwMask** member of [**LVTILEVIEWINFO**](/windows/win32/api/commctrl/ns-commctrl-lvtileviewinfo), as well as providing the dimensions in the **sizeTile** member.
 
 The following C++ code example sets the tile view info for a list-view control so that a maximum of two subitems are displayed for each item. It also sets the size of each tile.
 
@@ -48,7 +48,7 @@ The following C++ code example sets the tile view info for a list-view control s
 
 
 
-For each item in the list, you can set further parameters when the item is inserted in the list, or later. The [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure that is used with [**ListView\_InsertItem**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertitem) contains members that specify which columns of data to display below the item, and their alignment. These same display parameters are also found in the [**LVTILEINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvtileinfo) structure used with [**ListView\_SetTileInfo**](/windows/desktop/api/Commctrl/nf-commctrl-listview_settileinfo).
+For each item in the list, you can set further parameters when the item is inserted in the list, or later. The [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure that is used with [**ListView\_InsertItem**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertitem) contains members that specify which columns of data to display below the item, and their alignment. These same display parameters are also found in the [**LVTILEINFO**](/windows/win32/api/commctrl/ns-commctrl-lvtileinfo) structure used with [**ListView\_SetTileInfo**](/windows/desktop/api/Commctrl/nf-commctrl-listview_settileinfo).
 
 > [!Note]  
 > "Columns" here refers not to display columns in tile view but rather to subitems, which are displayed in columns in details view.

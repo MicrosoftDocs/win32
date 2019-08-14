@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**KHYPH**](/windows/desktop/api/Richedit/ne-richedit-tagkhyph)
--   [**TEXTMODE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode)
+-   [**KHYPH**](/windows/win32/api/richedit/ne-richedit-khyph)
+-   [**TEXTMODE**](/windows/win32/api/richedit/ne-richedit-textmode)
 -   [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-undonameid)
 
  

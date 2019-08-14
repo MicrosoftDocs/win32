@@ -74,7 +74,7 @@ This function does not return a value.
 
 The **glAddSwapHintRectWIN** function speeds up animation by reducing the amount of repainting between frames. With **glAddSwapHintRectWIN**, you specify a set of rectangular areas that you want copied when you call [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers). When you do not specify any rectangles with **glAddSwapHintRectWIN** before calling **SwapBuffers**, the entire framebuffer is swapped. Using **glAddSwapHintRectWIN** to copy only changed parts of the buffer can significantly increase the performance of **SwapBuffers**, especially when **SwapBuffers** is implemented in software.
 
-The **glAddSwapHintRectWIN** function adds a rectangle to the hint region. When the PFD\_SWAP\_COPY flag of the [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) pixel format structure is set, **SwapBuffers** uses this region to clip the copying of the back buffer to the front buffer. You don't specify PFD\_SWAP\_COPY; it is set by capable hardware. The hint region is cleared after each call to **SwapBuffers**. With some hardware configurations, **SwapBuffers** can ignore the hint region and exchange the entire buffer. **SwapBuffers** is implemented by the system, not by the application.
+The **glAddSwapHintRectWIN** function adds a rectangle to the hint region. When the PFD\_SWAP\_COPY flag of the [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) pixel format structure is set, **SwapBuffers** uses this region to clip the copying of the back buffer to the front buffer. You don't specify PFD\_SWAP\_COPY; it is set by capable hardware. The hint region is cleared after each call to **SwapBuffers**. With some hardware configurations, **SwapBuffers** can ignore the hint region and exchange the entire buffer. **SwapBuffers** is implemented by the system, not by the application.
 
 OpenGL maintains a separate hint region for each window. When you call **glAddSwapHintRectWIN** on any rendering contexts associated with a window, the hint rectangles are combined into a single region.
 
@@ -104,7 +104,7 @@ Call **glAddSwapHintRectWIN** with a bounding rectangle for each object drawn fo
 [**glGetString**](glgetstring.md)
 </dt> <dt>
 
-[**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor)
+[**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor)
 </dt> <dt>
 
 [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers)

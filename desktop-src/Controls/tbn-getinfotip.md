@@ -38,7 +38,7 @@ TBN_GETINFOTIP
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBGETINFOTIP**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbgetinfotipa) structure that contains item information and receives infotip information.
+Pointer to an [**NMTBGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtbgetinfotipa) structure that contains item information and receives infotip information.
 
 </dd> </dl>
 

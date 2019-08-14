@@ -86,7 +86,7 @@ void CommDlg_OpenSave_SetDefExt(hwnd, lparam)
 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
+[**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
 **Conceptual**

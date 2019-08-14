@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DVD Karaoke Property Set
 
-When the [DVD Navigator](dvd-navigator-filter.md) filter goes into karaoke mode, it informs the audio decoder through the **AM\_PROPERTY\_DVDKARAOKE\_ENABLE** property. The decoder should then mute audio channels 2 through 5 until it receives from the DVD Navigator an **AM\_PROPERTY\_DVDKARAOKE\_DATA** property with a pointer to an [**AM\_DvdKaraokeData**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagam_dvdkaraokedata) data structure indicating how the auxiliary channels are to be mixed.
+When the [DVD Navigator](dvd-navigator-filter.md) filter goes into karaoke mode, it informs the audio decoder through the **AM\_PROPERTY\_DVDKARAOKE\_ENABLE** property. The decoder should then mute audio channels 2 through 5 until it receives from the DVD Navigator an **AM\_PROPERTY\_DVDKARAOKE\_DATA** property with a pointer to an [**AM\_DvdKaraokeData**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdkaraokedata) data structure indicating how the auxiliary channels are to be mixed.
 
 
 
@@ -25,7 +25,7 @@ When the [DVD Navigator](dvd-navigator-filter.md) filter goes into karaoke mode,
 | Property ID                      | Description                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AM\_PROPERTY\_DVDKARAOKE\_ENABLE | BOOLEAN value. The DVD Navigator sends the decoder an AM\_PROPERTY\_DVDKARAOKE\_ENABLE with a value of **TRUE** to enable karaoke downmixing or **FALSE** to disable it.                                                                                                                                    |
-| AM\_PROPERTY\_DVDKARAOKE\_DATA   | The DVD Navigator sends the decoder an AM\_PROPERTY\_DVDKARAOKE\_DATA property with a pointer to an [**AM\_DvdKaraokeData**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagam_dvdkaraokedata) structure to change the downmix configuration; that is, to turn certain karaoke channels on or off and direct them to the right or left output channel. |
+| AM\_PROPERTY\_DVDKARAOKE\_DATA   | The DVD Navigator sends the decoder an AM\_PROPERTY\_DVDKARAOKE\_DATA property with a pointer to an [**AM\_DvdKaraokeData**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdkaraokedata) structure to change the downmix configuration; that is, to turn certain karaoke channels on or off and direct them to the right or left output channel. |
 
 
 

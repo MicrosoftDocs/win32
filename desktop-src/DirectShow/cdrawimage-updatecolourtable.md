@@ -48,7 +48,7 @@ Device context containing the image.
 *pbmi* 
 </dt> <dd>
 
-Pointer to a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure containing the new palette.
+Pointer to a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure containing the new palette.
 
 </dd> </dl>
 

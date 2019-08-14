@@ -141,7 +141,7 @@ HRESULT put_VolumeName(
 [**IADsPath**](/windows/desktop/api/Iads/nn-iads-iadspath)
 </dt> <dt>
 
-[**ADS\_PATH**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0005)
+[**ADS\_PATH**](/windows/win32/api/iads/ns-iads-ads_path)
 </dt> </dl>
 
  

@@ -15,7 +15,7 @@ The side-by-side assembly API uses the following enumerations.
 | Enumeration                                                     | Description                                                                            |
 |-----------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [**ASSEMBLY\_INFO**](/windows/desktop/api/Winsxs/ns-winsxs-assembly_info)                        | Contains information about an assembly in the system's side-by-side assembly store.    |
-| [**FUSION\_INSTALL\_REFERENCE**](/windows/desktop/api/Winsxs/ns-winsxs-_fusion_install_reference_) | Contains information about the application which references the side-by-side assembly. |
+| [**FUSION\_INSTALL\_REFERENCE**](/windows/win32/api/winsxs/ns-winsxs-fusion_install_reference) | Contains information about the application which references the side-by-side assembly. |
 
 
 

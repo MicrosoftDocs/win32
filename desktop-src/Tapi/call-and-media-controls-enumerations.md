@@ -63,7 +63,7 @@ TAPI 3.x methods use the following enumerations to set and report on events and 
 -   [**TERMINAL\_MEDIA\_STATE**](/windows/desktop/api/Tapi3if/ne-tapi3if-terminal_media_state)
 -   [**TERMINAL\_STATE**](/windows/desktop/api/Tapi3if/ne-tapi3if-terminal_state)
 -   [**TERMINAL\_TYPE**](/windows/desktop/api/Tapi3if/ne-tapi3if-terminal_type)
--   [**TMGR\_DIRECTION**](/windows/desktop/api/Termmgr/ne-termmgr-__midl___midl_itf_termmgr_0000_0000_0001)
+-   [**TMGR\_DIRECTION**](/windows/win32/api/termmgr/ne-termmgr-tmgr_direction)
 
  
 

@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure that contains the current video format.
+Returns a pointer to a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure that contains the current video format.
 
 ## Remarks
 

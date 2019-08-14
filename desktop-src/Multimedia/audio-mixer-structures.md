@@ -20,7 +20,7 @@ The following structures are used with audio mixers.
 
 -   [**MIXERCAPS**](https://msdn.microsoft.com/en-us/library/Dd757291(v=VS.85).aspx)
 -   [**MIXERCONTROL**](https://msdn.microsoft.com/en-us/library/Dd757293(v=VS.85).aspx)
--   [**MIXERCONTROLDETAILS**](/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta)
+-   [**MIXERCONTROLDETAILS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta)
 -   [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/en-us/library/Dd757295(v=VS.85).aspx)
 -   [**MIXERCONTROLDETAILS\_LISTTEXT**](https://msdn.microsoft.com/en-us/library/Dd757296(v=VS.85).aspx)
 -   [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/en-us/library/Dd757297(v=VS.85).aspx)

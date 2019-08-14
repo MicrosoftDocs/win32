@@ -45,7 +45,7 @@ HRESULT RegisterEnforcementClient(
 *enforcer* \[in\]
 </dt> <dd>
 
-A pointer to a [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) data structure that contains the registration information that is associated with the enforcement client.
+A pointer to a [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) data structure that contains the registration information that is associated with the enforcement client.
 
 </dd> </dl>
 

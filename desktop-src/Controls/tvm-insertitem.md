@@ -32,7 +32,7 @@ Inserts a new item in a tree-view control. You can send this message explicitly 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TVINSERTSTRUCT**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvinsertstructa) structure that specifies the attributes of the tree-view item.
+Pointer to a [**TVINSERTSTRUCT**](/windows/win32/api/commctrl/ns-commctrl-tvinsertstructa) structure that specifies the attributes of the tree-view item.
 
 </dd> </dl>
 

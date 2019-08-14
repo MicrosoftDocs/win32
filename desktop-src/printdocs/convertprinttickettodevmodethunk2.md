@@ -19,7 +19,7 @@ api_location:
 
 \[This function is not supported and might be disabled or deleted in future versions of Windows. [**PTConvertPrintTicketToDevMode**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertprinttickettodevmode) provides equivalent functionality and should be used instead.\]
 
-Converts a print ticket to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure.
+Converts a print ticket to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure.
 
 ## Syntax
 
@@ -67,7 +67,7 @@ The size, in bytes, of the buffer passed in *pPrintTicket*.
 *baseType* \[in\]
 </dt> <dd>
 
-A value indicating whether the user's default [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) or the print queue's default **DEVMODE** is used to provide values to the output **DEVMODE** when *pPrintTicket* does not specify every possible setting for a **DEVMODE**. The value of this parameter must be a member of the [**EDefaultDevmodeType**](/windows/desktop/api/prntvpt/ne-prntvpt-tagedefaultdevmodetype) enumeration, cast as an **INT**.
+A value indicating whether the user's default [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) or the print queue's default **DEVMODE** is used to provide values to the output **DEVMODE** when *pPrintTicket* does not specify every possible setting for a **DEVMODE**. The value of this parameter must be a member of the [**EDefaultDevmodeType**](/windows/win32/api/prntvpt/ne-prntvpt-edefaultdevmodetype) enumeration, cast as an **INT**.
 
 </dd> <dt>
 
@@ -81,14 +81,14 @@ A value that specifies the scope of *pPrintTicket*. This value can specify a sin
 *ppDevmode* \[out\]
 </dt> <dd>
 
-The address of the newly created [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea). This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+The address of the newly created [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea). This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 
 *pcbDevModeLength* \[out\]
 </dt> <dd>
 
-The size, in bytes, of the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) returned in *ppDevmode*.
+The size, in bytes, of the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) returned in *ppDevmode*.
 
 </dd> <dt>
 

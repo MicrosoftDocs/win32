@@ -203,7 +203,7 @@ HRESULT put_ServerName(
 [**IADsReplicaPointer**](/windows/desktop/api/Iads/nn-iads-iadsreplicapointer)
 </dt> <dt>
 
-[**ADS\_REPLICAPOINTER**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0012)
+[**ADS\_REPLICAPOINTER**](/windows/win32/api/iads/ns-iads-ads_replicapointer)
 </dt> </dl>
 
  

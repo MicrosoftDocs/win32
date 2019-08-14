@@ -15,14 +15,14 @@ The Remote Desktop Virtualization API supports the following structures.
 
 <dl> <dt>
 
-[**CLIENT\_DISPLAY**](/windows/desktop/api/SessDirPublicTypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0001)
+[**CLIENT\_DISPLAY**](/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-client_display)
 </dt> <dd>
 
 Contains information about the display of a Remote Desktop Connection (RDC) client.
 
 </dd> <dt>
 
-[**TSSD\_ConnectionPoint**](/windows/desktop/api/SessDirPublicTypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0002)
+[**TSSD\_ConnectionPoint**](/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint)
 </dt> <dd>
 
 Defines the IP address of a target.

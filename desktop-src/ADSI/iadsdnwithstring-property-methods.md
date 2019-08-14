@@ -110,7 +110,7 @@ HRESULT put_StringValue(
 [**IADsDNWithString**](/windows/desktop/api/Iads/nn-iads-iadsdnwithstring)
 </dt> <dt>
 
-[**ADS\_DN\_WITH\_STRING**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0016)
+[**ADS\_DN\_WITH\_STRING**](/windows/win32/api/iads/ns-iads-ads_dn_with_string)
 </dt> </dl>
 
  

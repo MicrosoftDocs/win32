@@ -36,7 +36,7 @@ The index of the item to begin the search with or -1 to start from the beginning
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**LVFINDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfindinfoa) structure that contains information about what to search for.
+A pointer to an [**LVFINDINFO**](/windows/win32/api/commctrl/ns-commctrl-lvfindinfoa) structure that contains information about what to search for.
 
 </dd> </dl>
 

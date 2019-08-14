@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **AllocCountedString** function allocates memory for a null-terminated string and returns it in a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure.
+The **AllocCountedString** function allocates memory for a null-terminated string and returns it in a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ NAPAPI HRESULT WINAPI AllocCountedString(
 *countedString* \[in, out\]
 </dt> <dd>
 
-A pointer to the address of a newly allocated [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure.
+A pointer to the address of a newly allocated [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure.
 
 </dd> <dt>
 

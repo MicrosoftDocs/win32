@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SMC\_CHEVRONGETTIP message
 
-Requests the title and text for a chevron infotip for the item specified by the accompanying [**SMDATA**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata) structure.
+Requests the title and text for a chevron infotip for the item specified by the accompanying [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) structure.
 
 
 ```C++

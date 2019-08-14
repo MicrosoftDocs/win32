@@ -38,7 +38,7 @@ TVN_DELETEITEM
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa) structure. The **itemOld** member is a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure whose **hItem** and **lParam** members contain valid information about the item being deleted.
+Pointer to an [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreeviewa) structure. The **itemOld** member is a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure whose **hItem** and **lParam** members contain valid information about the item being deleted.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ The return value is ignored.
 
 ## Remarks
 
-If the **lParam** member of the [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure points to memory allocated by your application, you can free it when you receive the TVN\_DELETEITEM notification code.
+If the **lParam** member of the [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure points to memory allocated by your application, you can free it when you receive the TVN\_DELETEITEM notification code.
 
 ## Requirements
 

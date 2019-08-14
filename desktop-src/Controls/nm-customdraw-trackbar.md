@@ -36,7 +36,7 @@ NM_CUSTOMDRAW
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure that contains information about the drawing operation. The **dwItemSpec** member of this structure will contain one of the [Custom Draw Values](custom-draw-values.md) that indicates which part of the control is being drawn. Trackbar controls insert the following values into the **dwItemSpec** member of this structure to identify the portion of the control being drawn:
+Pointer to an [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure that contains information about the drawing operation. The **dwItemSpec** member of this structure will contain one of the [Custom Draw Values](custom-draw-values.md) that indicates which part of the control is being drawn. Trackbar controls insert the following values into the **dwItemSpec** member of this structure to identify the portion of the control being drawn:
 
 
 
@@ -54,7 +54,7 @@ Pointer to an [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnm
 
 ## Return value
 
-The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure holds a value that specifies the drawing stage. You must return one of the following values.
+The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure holds a value that specifies the drawing stage. You must return one of the following values.
 
 
 

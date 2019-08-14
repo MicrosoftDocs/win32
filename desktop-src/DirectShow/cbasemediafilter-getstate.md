@@ -48,7 +48,7 @@ Time-out interval, in milliseconds.
 *State* 
 </dt> <dd>
 
-Pointer to a variable that receives a member of the [**FILTER\_STATE**](/windows/desktop/api/strmif/ne-strmif-_filterstate) enumerated type, indicating the object's state.
+Pointer to a variable that receives a member of the [**FILTER\_STATE**](/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state) enumerated type, indicating the object's state.
 
 </dd> </dl>
 

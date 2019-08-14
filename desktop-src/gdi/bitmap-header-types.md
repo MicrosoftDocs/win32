@@ -10,22 +10,22 @@ ms.date: 05/31/2018
 
 The bitmap has four basic header types:
 
--   [**BITMAPCOREHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreheader)
+-   [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader)
 -   [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx)
 -   [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)
 -   [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header)
 
 The four types of bitmap headers are differentiated by the **Size** member, which is the first **DWORD** in each of the structures.
 
-The [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) structure is an extended [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header) structure, which is an extended [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx) structure. However, the **BITMAPINFOHEADER** and [**BITMAPCOREHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreheader) have only the **Size** member in common with other bitmap header structures.
+The [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) structure is an extended [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header) structure, which is an extended [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx) structure. However, the **BITMAPINFOHEADER** and [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) have only the **Size** member in common with other bitmap header structures.
 
-The [**BITMAPCOREHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreheader) and [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header) formats have been superseded by [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx) and [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) formats, respectively. The **BITMAPCOREHEADER** and **BITMAPV4HEADER** formats are presented for completeness and backward compatibility.
+The [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) and [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header) formats have been superseded by [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx) and [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) formats, respectively. The **BITMAPCOREHEADER** and **BITMAPV4HEADER** formats are presented for completeness and backward compatibility.
 
 The format for a DIB is the following (for more information, see [Bitmap Storage](bitmap-storage.md) ):
 
--   a [**BITMAPFILEHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagbitmapfileheader) structure
--   either a [**BITMAPCOREHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreheader), a [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx), a [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header), or a [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) structure.
--   an optional color table, which is either a set of [**RGBQUAD**](/windows/desktop/api/Wingdi/ns-wingdi-tagrgbquad) structures or a set of [**RGBTRIPLE**](/windows/desktop/api/Wingdi/ns-wingdi-tagrgbtriple) structures.
+-   a [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader) structure
+-   either a [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader), a [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx), a [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header), or a [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) structure.
+-   an optional color table, which is either a set of [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) structures or a set of [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple) structures.
 -   the bitmap data
 -   optional Profile data
 
@@ -55,9 +55,9 @@ The red, green, and blue bitfield masks for BI\_BITFIELD bitmaps immediately fol
 
  
 
-When the **biCompression** member of [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx) is set to BI\_BITFIELDS and the function receives an argument of type **LPBITMAPINFO**, the color masks will immediately follow the header. The color table, if present, will follow the color masks. [**BITMAPCOREHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreheader) bitmaps do not support color masks.
+When the **biCompression** member of [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx) is set to BI\_BITFIELDS and the function receives an argument of type **LPBITMAPINFO**, the color masks will immediately follow the header. The color table, if present, will follow the color masks. [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) bitmaps do not support color masks.
 
-By default, bitmap data is bottom-up in its format. Bottom-up means that the first scan line in the bitmap data is the last scan line to be displayed. For example, the 0<sup>th</sup> pixel of the 0<sup>th</sup> scan line of the bitmap data of a 10-pixel by 10-pixel bitmap will be the 0<sup>th</sup> pixel of the 9<sup>th</sup> scan line of the displayed or printed image. Run-length encoded (RLE) format bitmaps and [**BITMAPCOREHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreheader) bitmaps cannot be top-down bitmaps. The scan lines are **DWORD** aligned, except for RLE-compressed bitmaps. They must be padded for scan line widths, in bytes, that are not evenly divisible by four, except for RLE compressed bitmaps. For example, a 10- by 10-pixel 24-bpp bitmap will have two padding bytes at the end of each scan line.
+By default, bitmap data is bottom-up in its format. Bottom-up means that the first scan line in the bitmap data is the last scan line to be displayed. For example, the 0<sup>th</sup> pixel of the 0<sup>th</sup> scan line of the bitmap data of a 10-pixel by 10-pixel bitmap will be the 0<sup>th</sup> pixel of the 9<sup>th</sup> scan line of the displayed or printed image. Run-length encoded (RLE) format bitmaps and [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) bitmaps cannot be top-down bitmaps. The scan lines are **DWORD** aligned, except for RLE-compressed bitmaps. They must be padded for scan line widths, in bytes, that are not evenly divisible by four, except for RLE compressed bitmaps. For example, a 10- by 10-pixel 24-bpp bitmap will have two padding bytes at the end of each scan line.
 
  
 

@@ -30,7 +30,7 @@ The property method of the [**IADsNameTranslate**](/windows/desktop/api/Iads/nn-
 **ChaseReferral**
 </dt> <dd> <dl>
 
-Options of referral chasing as defined in [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024). When referral chasing is set, the name translation is performed on objects that do not belong to this directory and are the referrals returned from referral chasing.
+Options of referral chasing as defined in [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum). When referral chasing is set, the name translation is performed on objects that do not belong to this directory and are the referrals returned from referral chasing.
 
 <dt>
 
@@ -58,7 +58,7 @@ HRESULT put_ChaseReferral(
 
 The referral chasing options apply only when you use [**IADsNameTranslate::Set**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-set) and [**IADsNameTranslate::Get**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-get). The feature is not available with [**IADsNameTranslate::SetEx**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-setex) or [**IADsNameTranslate::GetEx**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-getex).
 
-The [**IADsNameTranslate**](/windows/desktop/api/Iads/nn-iads-iadsnametranslate) interface has a partial implementation of [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024) through the **ChaseReferral** property. If the **ChaseReferral** property is set to zero (0), it is the same as specifying **ADS\_CHASE\_REFERRALS\_NEVER** (0). If a nonzero value is used, it is the same as specifying **ADS\_CHASE\_REFERRALS\_ALWAYS** (0x60). **IADsNameTranslate** does not implement the **ADS\_CHASE\_REFERRALS\_SUBORDINATE** (0x20) or **ADS\_CHASE\_REFERRALS\_EXTERNAL** (0x40) options.
+The [**IADsNameTranslate**](/windows/desktop/api/Iads/nn-iads-iadsnametranslate) interface has a partial implementation of [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum) through the **ChaseReferral** property. If the **ChaseReferral** property is set to zero (0), it is the same as specifying **ADS\_CHASE\_REFERRALS\_NEVER** (0). If a nonzero value is used, it is the same as specifying **ADS\_CHASE\_REFERRALS\_ALWAYS** (0x60). **IADsNameTranslate** does not implement the **ADS\_CHASE\_REFERRALS\_SUBORDINATE** (0x20) or **ADS\_CHASE\_REFERRALS\_EXTERNAL** (0x40) options.
 
 The default setting for referral chasing is enabled (**ADS\_CHASE\_REFERRALS\_ALWAYS**). Without referral chasing, you can have name translation performed on those objects residing on the connected directory server only. If you are uncertain whether the object of interest is on the specified server, you should set this property to be **ADS\_CHASE\_REFERRALS\_ALWAYS**.
 
@@ -80,7 +80,7 @@ The default setting for referral chasing is enabled (**ADS\_CHASE\_REFERRALS\_AL
 
 <dl> <dt>
 
-[**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024)
+[**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum)
 </dt> <dt>
 
 [**IADsNameTranslate**](/windows/desktop/api/Iads/nn-iads-iadsnametranslate)

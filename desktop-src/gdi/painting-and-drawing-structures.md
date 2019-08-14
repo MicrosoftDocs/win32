@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following structure is used with painting and drawing.
 
-[**PAINTSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagpaintstruct)
+[**PAINTSTRUCT**](/windows/win32/api/winuser/ns-winuser-paintstruct)
 
  
 

@@ -29,7 +29,7 @@ The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://docs
 | GUID\_BLUETOOTH\_L2CAP\_EVENT          | [**BTH\_L2CAP\_EVENT\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-bth_l2cap_event_info) | This message is sent when an L2CAP channel between the local radio and a remote Bluetooth device has been established or terminated. For L2CAP channels that are multiplexers, such as RFCOMM, this message is only sent when the underlying channel is established, not when each multiplexed channel, such as an RFCOMM channel, is established or terminated. |
 | GUID\_BLUETOOTH\_PIN\_REQUEST          | Not applicable.                                         | This message should be ignored by the application. If the application must receive PIN requests, the [**BluetoothRegisterForAuthentication**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothregisterforauthentication) function should be used.                                                                                                                                                   |
 | GUID\_BLUETOOTH\_RADIO\_IN\_RANGE      | [**BTH\_RADIO\_IN\_RANGE**](/windows/desktop/api/Bthdef/ns-bthdef-bth_radio_in_range)     | This message is sent when any of the following attributes of a remote Bluetooth device has changed: the device has been discovered, the class of device, name, connected state, or device remembered state. This message is also sent when these attributes are set or cleared.                                                                                  |
-| GUID\_BLUETOOTH\_RADIO\_OUT\_OF\_RANGE | [**BLUETOOTH\_ADDRESS**](/windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_address)         | This message is sent when a previously discovered device has not been found after the completion of the last inquiry. This message will not be sent for remembered devices. The **BTH\_ADDRESS** structure is the address of the device that was not found.                                                                                                      |
+| GUID\_BLUETOOTH\_RADIO\_OUT\_OF\_RANGE | [**BLUETOOTH\_ADDRESS**](/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct)         | This message is sent when a previously discovered device has not been found after the completion of the last inquiry. This message will not be sent for remembered devices. The **BTH\_ADDRESS** structure is the address of the device that was not found.                                                                                                      |
 
 
 
@@ -60,7 +60,7 @@ The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://docs
 [SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493)
 </dt> <dt>
 
-[**BLUETOOTH\_ADDRESS**](/windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_address)
+[**BLUETOOTH\_ADDRESS**](/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct)
 </dt> <dt>
 
 [**BTH\_HCI\_EVENT\_INFO**](/windows/desktop/api/Bthdef/ns-bthdef-bth_hci_event_info)

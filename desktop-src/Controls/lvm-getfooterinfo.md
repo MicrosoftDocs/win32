@@ -34,7 +34,7 @@ Not used. Must be 0.
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**LVFOOTERINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfooterinfo) structure to receive information depending on the value of the **mask** member. The calling process is responsible for allocating this structure and setting the **mask** member.
+A pointer to a [**LVFOOTERINFO**](/windows/win32/api/commctrl/ns-commctrl-lvfooterinfo) structure to receive information depending on the value of the **mask** member. The calling process is responsible for allocating this structure and setting the **mask** member.
 
 </dd> </dl>
 

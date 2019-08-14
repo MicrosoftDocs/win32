@@ -36,7 +36,7 @@ RBN_BEGINDRAG
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMREBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebar) structure that contains information about the notification code.
+Pointer to an [**NMREBAR**](/windows/win32/api/commctrl/ns-commctrl-nmrebar) structure that contains information about the notification code.
 
 </dd> </dl>
 

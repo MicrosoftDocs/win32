@@ -45,7 +45,7 @@ HRESULT SetIsolationInfo(
 *isolationInfo* \[in\]
 </dt> <dd>
 
-A pointer to an [**IsolationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfo) structure that contains the connectivity state of the client.
+A pointer to an [**IsolationInfo**](/windows/win32/api/naptypes/ns-naptypes-isolationinfo) structure that contains the connectivity state of the client.
 
 </dd> </dl>
 

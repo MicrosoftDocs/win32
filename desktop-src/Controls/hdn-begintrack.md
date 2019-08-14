@@ -38,7 +38,7 @@ HDN_BEGINTRACK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that contains information about the header control and the item whose divider is to be dragged.
+A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains information about the header control and the item whose divider is to be dragged.
 
 </dd> </dl>
 

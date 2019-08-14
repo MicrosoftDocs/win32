@@ -22,7 +22,7 @@ For MPEG-2 video, the media types are as follows.
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**                | **MEDIATYPE\_Video**           |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           | **MEDIASUBTYPE\_MPEG2\_VIDEO** |
 | Format Type      | **FORMAT\_MPEG2Video**                   | **FORMAT\_MPEG2Video**         |
-| Format Structure | [**MPEG2VIDEOINFO**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo) | **MPEG2VIDEOINFO**             |
+| Format Structure | [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) | **MPEG2VIDEOINFO**             |
 
 
 

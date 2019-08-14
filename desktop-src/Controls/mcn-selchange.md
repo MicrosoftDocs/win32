@@ -36,7 +36,7 @@ MCN_SELCHANGE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMSELCHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmselchange) structure that contains information about the currently selected date range.
+Pointer to an [**NMSELCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmselchange) structure that contains information about the currently selected date range.
 
 </dd> </dl>
 

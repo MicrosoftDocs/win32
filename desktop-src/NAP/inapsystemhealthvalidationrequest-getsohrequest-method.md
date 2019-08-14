@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
  
 
-The **INapSystemHealthValidationRequest::GetSoHRequest** method allows System Health Validators (SHVs) to retrieve and validate the [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) information sent by their System Health Agent (SHA) counterparts on the client.
+The **INapSystemHealthValidationRequest::GetSoHRequest** method allows System Health Validators (SHVs) to retrieve and validate the [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) information sent by their System Health Agent (SHA) counterparts on the client.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ HRESULT GetSoHRequest(
 *sohRequest* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) structure.
+A pointer to a pointer to an [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) structure.
 
 </dd> <dt>
 
@@ -75,12 +75,12 @@ Other COM-specific error codes also may be returned.
 
 ## Remarks
 
-The *sohRequest* parameter may return **NULL** if the client did not send an [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) to the SHV. In that scenario the SHV can populate an **SoHResponse** with the error code of [**NAP\_E\_MISSING\_SOH**](nap-error-constants.md).
+The *sohRequest* parameter may return **NULL** if the client did not send an [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) to the SHV. In that scenario the SHV can populate an **SoHResponse** with the error code of [**NAP\_E\_MISSING\_SOH**](nap-error-constants.md).
 
 If the *napSystemGenerated* parameter is **TRUE**, the format of *SoHRequest* is as follows:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/desktop/api/NapTypes/ne-naptypes-tagfailurecategory)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**<sha-failure-error-code>**](nap-error-constants.md)
 
 ## Requirements

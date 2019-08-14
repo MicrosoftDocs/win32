@@ -21,7 +21,7 @@ The following functions are used for Windows Touch gestures.
 | Function                                                 | Description                                                                                             |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [**CloseGestureInfoHandle**](/windows/desktop/api/winuser/nf-winuser-closegestureinfohandle) | Closes the resources associated with a manually retrieved handle to a gesture information structure.    |
-| [**GetGestureExtraArgs**](/windows/desktop/api/winuser/nf-winuser-getgestureextraargs)       | Retrieves additional information about a gesture from its [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo) handle.    |
+| [**GetGestureExtraArgs**](/windows/desktop/api/winuser/nf-winuser-getgestureextraargs)       | Retrieves additional information about a gesture from its [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) handle.    |
 | [**GetGestureInfo**](/windows/desktop/api/winuser/nf-winuser-getgestureinfo)                 | Manually retrieves a gesture information structure given a handle to the gesture information structure. |
 | [**GetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-getgestureconfig)             | Retrieves the gesture configuration information for a window.                                           |
 | [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig)             | Sets the gesture configuration for a window.                                                            |

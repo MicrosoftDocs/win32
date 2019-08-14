@@ -53,7 +53,7 @@ A handle to the parent or owner window. A valid window handle must be supplied.
 *machineName* \[in\]
 </dt> <dd>
 
-A pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) that contains the machine name of the NAP client.
+A pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) that contains the machine name of the NAP client.
 
 </dd> </dl>
 

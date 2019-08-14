@@ -70,18 +70,18 @@ The DDEML informs a monitoring application of a DDE event by sending an [**XTYP\
 
 | Structure                                  | Description                                                       |
 |--------------------------------------------|-------------------------------------------------------------------|
-| [**MONCBSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmoncbstruct)     | Contains information about a transaction.                         |
-| [**MONCONVSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonconvstruct) | Contains information about a conversation.                        |
-| [**MONERRSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonerrstruct)   | Contains information about the latest DDE error.                  |
-| [**MONLINKSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonlinkstruct) | Contains information about an advise loop.                        |
-| [**MONHSZSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonhszstructa)   | Contains information about a string handle.                       |
-| [**MONMSGSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonmsgstruct)   | Contains information about a DDE message that was sent or posted. |
+| [**MONCBSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-moncbstruct)     | Contains information about a transaction.                         |
+| [**MONCONVSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monconvstruct) | Contains information about a conversation.                        |
+| [**MONERRSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monerrstruct)   | Contains information about the latest DDE error.                  |
+| [**MONLINKSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monlinkstruct) | Contains information about an advise loop.                        |
+| [**MONHSZSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monhszstructa)   | Contains information about a string handle.                       |
+| [**MONMSGSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monmsgstruct)   | Contains information about a DDE message that was sent or posted. |
 
 
 
  
 
-The following example shows the DDE callback function of a DDE monitoring application that formats information about each string handle event and then displays the information in a window. The function uses the [**MONHSZSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonhszstructa) structure to extract the information from the DDE object.
+The following example shows the DDE callback function of a DDE monitoring application that formats information about each string handle event and then displays the information in a window. The function uses the [**MONHSZSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monhszstructa) structure to extract the information from the DDE object.
 
 
 ```

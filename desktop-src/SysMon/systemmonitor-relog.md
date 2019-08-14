@@ -49,7 +49,7 @@ File path of the log file. You can specify the path as an absolute, relative, or
 *fileType* \[in\]
 </dt> <dd>
 
-Format of the counter data saved to the log file. You can specify either [**SysmonFileType.sysmonFileBlg**](/windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0001), **SysmonFileType.sysmonFileCsv**, or **SysmonFileType.sysmonFileTsv**.
+Format of the counter data saved to the log file. You can specify either [**SysmonFileType.sysmonFileBlg**](/windows/win32/api/isysmon/ne-isysmon-sysmonfiletype), **SysmonFileType.sysmonFileCsv**, or **SysmonFileType.sysmonFileTsv**.
 
 </dd> <dt>
 

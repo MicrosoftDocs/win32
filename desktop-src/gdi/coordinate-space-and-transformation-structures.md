@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following structure is used with coordinate spaces and transformations.
 
-[**XFORM**](/windows/desktop/api/Wingdi/ns-wingdi-tagxform)
+[**XFORM**](/windows/win32/api/wingdi/ns-wingdi-xform)
 
  
 

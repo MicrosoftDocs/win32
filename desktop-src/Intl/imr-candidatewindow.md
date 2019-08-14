@@ -31,13 +31,13 @@ Set to IMR\_CANDIDATEWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing a [**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform) structure. Its **dwIndex** member contains the index to the candidate window referenced.
+Pointer to a buffer containing a [**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform) structure. Its **dwIndex** member contains the index to the candidate window referenced.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills in the [**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills in the [**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform) structure. Otherwise, the command returns 0.
 
 ## Remarks
 
@@ -65,7 +65,7 @@ This command can be sent by the IME to a window that has cleared the ISC\_SHOWUI
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform)
+[**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

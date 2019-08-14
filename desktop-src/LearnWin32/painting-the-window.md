@@ -71,7 +71,7 @@ In our first example program, the painting routine is very simple. It just fills
 
 
 
-Start the painting operation by calling the [**BeginPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint) function. This function fills in the [**PAINTSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct) structure with information on the repaint request. The current update region is given in the **rcPaint** member of **PAINTSTRUCT**. This update region is defined relative to the client area:
+Start the painting operation by calling the [**BeginPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint) function. This function fills in the [**PAINTSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-paintstruct) structure with information on the repaint request. The current update region is given in the **rcPaint** member of **PAINTSTRUCT**. This update region is defined relative to the client area:
 
 ![illustration showing the origin of the client area](images/painting04.png)
 
@@ -91,7 +91,7 @@ The following line of code fills the update region with a single color, using th
 
 
 
-The details of [**FillRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect) are not important for this example, but the second parameter gives the coordinates of the rectangle to fill. In this case, we pass in the entire update region (the **rcPaint** member of [**PAINTSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct)). On the first [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, the entire client area needs to be painted, so **rcPaint** will contain the entire client area. On subsequent **WM\_PAINT** messages, **rcPaint** might contain a smaller rectangle.
+The details of [**FillRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect) are not important for this example, but the second parameter gives the coordinates of the rectangle to fill. In this case, we pass in the entire update region (the **rcPaint** member of [**PAINTSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-paintstruct)). On the first [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, the entire client area needs to be painted, so **rcPaint** will contain the entire client area. On subsequent **WM\_PAINT** messages, **rcPaint** might contain a smaller rectangle.
 
 The [**FillRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect) function is part of the Graphics Device Interface (GDI), which has powered Windows graphics for a very long time. In Windows 7, Microsoft introduced a new graphics engine, named Direct2D, which supports high-performance graphics operations, such as hardware acceleration. Direct2D is also available for Windows Vista through the [Platform Update for Windows Vista](https://msdn.microsoft.com/library/Ee663866(v=VS.85).aspx) and for Windows Server 2008 through the Platform Update for Windows Server 2008. (GDI is still fully supported.)
 

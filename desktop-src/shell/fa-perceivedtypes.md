@@ -43,7 +43,7 @@ The default perceived types are as follows:
 ## Additional Resources
 
 -   For information about how to register perceived types, see [Application Registration](app-registration.md).
--   For a list of default perceived types, see the [**PERCEIVED**](/windows/desktop/api/Shtypes/ne-shtypes-tagperceived) enumeration.
+-   For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/api/shtypes/ne-shtypes-perceived) enumeration.
 -   To retrieves a file's perceived type based on its file name extension, see the [**AssocGetPerceivedType**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype) function.
 
 ## Related topics

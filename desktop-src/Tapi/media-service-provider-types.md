@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Media Service Provider Types
 
--   [**MSP\_ADDRESS\_EVENT**](/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0001)
--   [**MSP\_CALL\_EVENT**](/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0002)
--   [**MSP\_CALL\_EVENT\_CAUSE**](/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0003)
--   [**MSP\_EVENT**](/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0004)
--   [**MSP\_EVENT\_INFO**](/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005)
+-   [**MSP\_ADDRESS\_EVENT**](/windows/win32/api/msp/ne-msp-msp_address_event)
+-   [**MSP\_CALL\_EVENT**](/windows/win32/api/msp/ne-msp-msp_call_event)
+-   [**MSP\_CALL\_EVENT\_CAUSE**](/windows/win32/api/msp/ne-msp-msp_call_event_cause)
+-   [**MSP\_EVENT**](/windows/win32/api/msp/ne-msp-msp_event)
+-   [**MSP\_EVENT\_INFO**](/windows/win32/api/msp/ns-msp-msp_event_info)
 -   [**MSP\_ADDRESS\_EVENT\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733454(v=vs.85))
 -   [**MSP\_CALL\_EVENT\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733464(v=vs.85))
 -   [**MSP\_TSP\_DATA**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733475(v=vs.85))

@@ -483,15 +483,15 @@ The following are the APIs that enable an application to migrate to or from the 
 
 -   [**CreateFontFromLOGFONT**](https://msdn.microsoft.com/en-us/library/Dd371187(v=VS.85).aspx)
 
-    Creates an [**IDWriteFont**](https://msdn.microsoft.com/en-us/library/Dd368213(v=VS.85).aspx) object that matches the properties specified by the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure.
+    Creates an [**IDWriteFont**](https://msdn.microsoft.com/en-us/library/Dd368213(v=VS.85).aspx) object that matches the properties specified by the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 -   [**ConvertFontToLOGFONT**](https://msdn.microsoft.com/en-us/library/Dd371177(v=VS.85).aspx)
 
-    Initializes a [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure based on the GDI-compatible properties of the specified [**IDWriteFont**](https://msdn.microsoft.com/en-us/library/Dd368213(v=VS.85).aspx).
+    Initializes a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure based on the GDI-compatible properties of the specified [**IDWriteFont**](https://msdn.microsoft.com/en-us/library/Dd368213(v=VS.85).aspx).
 
 -   [**ConvertFontFaceToLOGFONT**](https://msdn.microsoft.com/en-us/library/Dd371175(v=VS.85).aspx)
 
-    Initializes a [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure based on the GDI-compatible properties of the specified [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx).
+    Initializes a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure based on the GDI-compatible properties of the specified [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx).
 
 -   [**CreateFontFaceFromHdc**](https://msdn.microsoft.com/en-us/library/Dd371185(v=VS.85).aspx)
 

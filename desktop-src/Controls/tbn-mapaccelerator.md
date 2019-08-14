@@ -36,7 +36,7 @@ TBN_MAPACCELERATOR
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCHAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmchar) structure that contains the accelerator key character and that receives the index of the corresponding button. The **dwItemNext** field is -1 if the accelerator does not correspond to a command.
+A pointer to an [**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar) structure that contains the accelerator key character and that receives the index of the corresponding button. The **dwItemNext** field is -1 if the accelerator does not correspond to a command.
 
 </dd> </dl>
 

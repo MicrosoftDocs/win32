@@ -36,7 +36,7 @@ TBN_RESTORE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBRESTORE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbrestore) structure.
+Pointer to an [**NMTBRESTORE**](/windows/win32/api/commctrl/ns-commctrl-nmtbrestore) structure.
 
 </dd> </dl>
 

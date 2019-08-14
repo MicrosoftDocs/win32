@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 Text streams are essentially the same as custom arbitrary streams. There is no configuration information associated with a text stream to identify the type of text encoding, so the writer object cannot verify samples.
 
-To configure a text stream, you must ensure that the [**WM\_MEDIA\_TYPE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype) structure contains a major media type of WMMEDIATYPE\_TEXT. You must also set a bit rate and buffer window for the stream.
+To configure a text stream, you must ensure that the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure contains a major media type of WMMEDIATYPE\_TEXT. You must also set a bit rate and buffer window for the stream.
 
 ## Related topics
 

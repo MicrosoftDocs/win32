@@ -38,7 +38,7 @@ TBN_GETBUTTONINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtoolbara) structure. The **iItem** member specifies a zero-based index that provides a count of the buttons the Customize Toolbar dialog box displays as both available and present on the toolbar. The **pszText** member specifies the address of the current button text, and **cchText** specifies its length in characters. The application should fill the structure with information about the button.
+Pointer to an [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commctrl-nmtoolbara) structure. The **iItem** member specifies a zero-based index that provides a count of the buttons the Customize Toolbar dialog box displays as both available and present on the toolbar. The **pszText** member specifies the address of the current button text, and **cchText** specifies its length in characters. The application should fill the structure with information about the button.
 
 </dd> </dl>
 

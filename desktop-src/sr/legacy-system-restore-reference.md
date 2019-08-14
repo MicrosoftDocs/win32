@@ -44,7 +44,7 @@ Each RP*n* folder contains a Snapshot folder that contains the following:
 -   A snapshot of the COM+ database
 -   A snapshot of the IIS database
 
-Each RP*n* folder contains an RP.log file that contains general information about the restore point from the [**RESTOREPOINTINFOW**](/windows/desktop/api/SRRestorePtAPI/ns-srrestoreptapi-_restoreptinfoa) structure.
+Each RP*n* folder contains an RP.log file that contains general information about the restore point from the [**RESTOREPOINTINFOW**](/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa) structure.
 
 Each RP*n* folder may contain files used to track changes for a restore point. The first file is named change.log, the next file is named change.log.1, and so on. Each change log file contains the following structures:
 

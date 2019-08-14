@@ -69,11 +69,11 @@ When you call [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/ap
 
 
 
-When you receive the [**WM\_NCCREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate) and [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) messages, the *lParam* parameter of each message is a pointer to a [**CREATESTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa) structure. The **CREATESTRUCT** structure, in turn, contains the pointer that you passed into [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa).
+When you receive the [**WM\_NCCREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate) and [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) messages, the *lParam* parameter of each message is a pointer to a [**CREATESTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-createstructa) structure. The **CREATESTRUCT** structure, in turn, contains the pointer that you passed into [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa).
 
 ![diagram that shows the layout of the createstruct structure](images/appstate01.png)
 
-Here is how you extract the pointer to your data structure. First, get the [**CREATESTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa) structure by casting the *lParam* parameter.
+Here is how you extract the pointer to your data structure. First, get the [**CREATESTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-createstructa) structure by casting the *lParam* parameter.
 
 
 ```C++
@@ -82,7 +82,7 @@ Here is how you extract the pointer to your data structure. First, get the [**CR
 
 
 
-The **lpCreateParams** member of the [**CREATESTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa) structure is the original void pointer that you specified in [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa). Get a pointer to your own data structure by casting **lpCreateParams**.
+The **lpCreateParams** member of the [**CREATESTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-createstructa) structure is the original void pointer that you specified in [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa). Get a pointer to your own data structure by casting **lpCreateParams**.
 
 
 ```C++

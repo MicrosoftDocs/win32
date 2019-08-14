@@ -41,7 +41,7 @@ Not used; must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RICHEDIT\_IMAGE\_PARAMETERS**](/windows/desktop/api/Richedit/ns-richedit-tagrichedit_image_parameters) structure that contains the image blob.
+A pointer to a [**RICHEDIT\_IMAGE\_PARAMETERS**](/windows/win32/api/richedit/ns-richedit-richedit_image_parameters) structure that contains the image blob.
 
 </dd> </dl>
 

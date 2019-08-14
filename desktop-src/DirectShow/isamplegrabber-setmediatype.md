@@ -43,7 +43,7 @@ HRESULT SetMediaType(
 *pType* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure specifies the required media type. It is not necessary to set all the structure members; see Remarks for details.
+Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure specifies the required media type. It is not necessary to set all the structure members; see Remarks for details.
 
 </dd> </dl>
 

@@ -47,21 +47,21 @@ HRESULT GetNapServerInfo(
 *serverName* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the server name.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the server name.
 
 </dd> <dt>
 
 *serverDescription* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the server description.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the server description.
 
 </dd> <dt>
 
 *protocolVersion* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the protocol version.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the protocol version.
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ Other COM-specific error codes also may be returned.
 [**INapServerInfo**](inapserverinfo.md)
 </dt> <dt>
 
-[**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring)
+[**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring)
 </dt> </dl>
 
  

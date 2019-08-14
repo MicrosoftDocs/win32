@@ -46,7 +46,7 @@ Specifies the identifier of the control that sent the **WM\_DRAWITEM** message. 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure containing information about the item to be drawn and the type of drawing required.
+Pointer to a [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure containing information about the item to be drawn and the type of drawing required.
 
 </dd> </dl>
 
@@ -58,9 +58,9 @@ If an application processes this message, it should return **TRUE**.
 
 By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function draws the focus rectangle for an owner-drawn list box item.
 
-The *itemAction* member of the [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure specifies the drawing operation that an application should perform.
+The *itemAction* member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure specifies the drawing operation that an application should perform.
 
-Before returning from processing this message, an application should ensure that the device context identified by the *hDC* member of the [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure is in the default state.
+Before returning from processing this message, an application should ensure that the device context identified by the *hDC* member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure is in the default state.
 
 ## Requirements
 
@@ -81,7 +81,7 @@ Before returning from processing this message, an application should ensure that
 **Reference**
 </dt> <dt>
 
-[**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct)
+[**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct)
 </dt> <dt>
 
 **Other Resources**

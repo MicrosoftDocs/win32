@@ -26,13 +26,13 @@ This section documents the following constants and enumerations:
 
 [**CHUNK\_BREAKTYPE**](https://msdn.microsoft.com/en-us/library/Bb266509(v=VS.85).aspx)
 
-[**CLUSION\_REASON**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0013_0001)
+[**CLUSION\_REASON**](/windows/win32/api/searchapi/ne-searchapi-clusion_reason)
 
 [**CONDITION\_CREATION\_OPTIONS**](/windows/desktop/api/Structuredquery/ne-structuredquery-condition_creation_options)
 
-[**CONDITION\_OPERATION**](/windows/desktop/api/Structuredquerycondition/ne-structuredquerycondition-tagcondition_operation)
+[**CONDITION\_OPERATION**](/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation)
 
-[**CONDITION\_TYPE**](/windows/desktop/api/Structuredquerycondition/ne-structuredquerycondition-tagcondition_type)
+[**CONDITION\_TYPE**](/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type)
 
 [**FOLLOW\_FLAGS**](/windows/desktop/api/Searchapi/ne-searchapi-follow_flags)
 
@@ -40,23 +40,23 @@ This section documents the following constants and enumerations:
 
 [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx)
 
-[**INTERVAL\_LIMIT\_KIND**](/windows/desktop/api/Structuredquery/ne-structuredquery-taginterval_limit_kind)
+[**INTERVAL\_LIMIT\_KIND**](/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind)
 
 [**LINKTYPE**](-search-linktype.md)
 
-[**NAMED\_ENTITY\_CERTAINTY**](/windows/desktop/api/Structuredquery/ne-structuredquery-__midl___midl_itf_structuredquery_0000_0012_0001)
+[**NAMED\_ENTITY\_CERTAINTY**](/windows/win32/api/structuredquery/ne-structuredquery-named_entity_certainty)
 
-[**PRIORITIZE\_FLAGS**](/windows/desktop/api/Searchapi/ne-searchapi-tagprioritize_flags)
+[**PRIORITIZE\_FLAGS**](/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags)
 
-[**PRIORITY\_LEVEL**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001)
+[**PRIORITY\_LEVEL**](/windows/win32/api/searchapi/ne-searchapi-priority_level)
 
 [**PROXY\_ACCESS**](/windows/desktop/api/Searchapi/ne-searchapi-proxy_access)
 
-[**QUERY\_PARSER\_MANAGER\_OPTION**](/windows/desktop/api/Structuredquery/ne-structuredquery-tagquery_parser_manager_option)
+[**QUERY\_PARSER\_MANAGER\_OPTION**](/windows/win32/api/structuredquery/ne-structuredquery-query_parser_manager_option)
 
-[**ROWSETEVENT\_ITEMSTATE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001)
+[**ROWSETEVENT\_ITEMSTATE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate)
 
-[**ROWSETEVENT\_TYPE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002)
+[**ROWSETEVENT\_TYPE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type)
 
 [**SEARCH\_INDEXING\_PHASE**](/windows/desktop/api/Searchapi/ne-searchapi-search_indexing_phase)
 
@@ -68,15 +68,15 @@ This section documents the following constants and enumerations:
 
 [**SEARCH\_TERM\_EXPANSION**](/windows/desktop/api/Searchapi/ne-searchapi-search_term_expansion)
 
-[**STRUCTURED\_QUERY\_MULTIOPTION**](/windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_multioption)
+[**STRUCTURED\_QUERY\_MULTIOPTION**](/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption)
 
-[**STRUCTURED\_QUERY\_PARSE\_ERROR**](/windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_parse_error)
+[**STRUCTURED\_QUERY\_PARSE\_ERROR**](/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error)
 
 [**STRUCTURED\_QUERY\_RESOLVE\_OPTION**](/windows/desktop/api/Structuredquery/ne-structuredquery-structured_query_resolve_option)
 
-[**STRUCTURED\_QUERY\_SINGLE\_OPTION**](/windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_single_option)
+[**STRUCTURED\_QUERY\_SINGLE\_OPTION**](/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option)
 
-[**STRUCTURED\_QUERY\_SYNTAX**](/windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_syntax)
+[**STRUCTURED\_QUERY\_SYNTAX**](/windows/win32/api/structuredquery/ne-structuredquery-structured_query_syntax)
 
 [**WORDREP\_BREAK\_TYPE**](https://msdn.microsoft.com/en-us/library/Ff819130(v=VS.85).aspx)
 

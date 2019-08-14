@@ -38,7 +38,7 @@ DTN_FORMAT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMEFORMAT**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimeformata) structure containing information regarding this instance of the notification code. The structure contains the substring that defines the callback field and receives the formatted string that the control will display.
+A pointer to an [**NMDATETIMEFORMAT**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimeformata) structure containing information regarding this instance of the notification code. The structure contains the substring that defines the callback field and receives the formatted string that the control will display.
 
 </dd> </dl>
 

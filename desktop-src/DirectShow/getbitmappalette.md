@@ -20,7 +20,7 @@ api_location:
 
 # GetBitmapPalette function
 
-The `GetBitmapPalette` function returns the first palette entry in a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure.
+The `GetBitmapPalette` function returns the first palette entry in a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ const RGBQUAD* GetBitmapPalette(
 *pVideoInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure.
+Pointer to a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure.
 
 </dd> </dl>
 

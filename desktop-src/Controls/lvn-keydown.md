@@ -36,7 +36,7 @@ LVN_KEYDOWN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-taglvkeydown) structure.
+Pointer to an [**NMLVKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmlvkeydown) structure.
 
 </dd> </dl>
 

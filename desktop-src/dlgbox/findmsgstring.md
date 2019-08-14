@@ -43,7 +43,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**FINDREPLACE**](/windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea) structure. The members of this structure contain the latest user input, including the string to search for, the replacement string (if any) and the search-and-replacement options.
+A pointer to a [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure. The members of this structure contain the latest user input, including the string to search for, the replacement string (if any) and the search-and-replacement options.
 
 </dd> </dl>
 
@@ -55,9 +55,9 @@ This message has no return value.
 
 You must specify the **FINDMSGSTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
 
-When you create the dialog box, use the **hwndOwner** member of the [**FINDREPLACE**](/windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea) structure to identify the window to receive **FINDMSGSTRING** messages.
+When you create the dialog box, use the **hwndOwner** member of the [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure to identify the window to receive **FINDMSGSTRING** messages.
 
-The **Flags** member of the [**FINDREPLACE**](/windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea) structure includes one of the following flags to indicate the event that caused the message.
+The **Flags** member of the [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure includes one of the following flags to indicate the event that caused the message.
 
 
 
@@ -106,7 +106,7 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 **Reference**
 </dt> <dt>
 
-[**FINDREPLACE**](/windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea)
+[**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea)
 </dt> <dt>
 
 [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)

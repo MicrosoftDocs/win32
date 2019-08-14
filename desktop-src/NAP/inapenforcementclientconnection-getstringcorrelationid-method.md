@@ -45,7 +45,7 @@ HRESULT GetStringCorrelationId(
 *correlationId* \[out\]
 </dt> <dd>
 
-A pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the string version of the connection's [**CorrelationId**](/windows/desktop/api/NapTypes/ns-naptypes-tagcorrelationid).
+A pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the string version of the connection's [**CorrelationId**](/windows/win32/api/naptypes/ns-naptypes-correlationid).
 
 </dd> </dl>
 

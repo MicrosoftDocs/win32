@@ -45,7 +45,7 @@ Value specifying whether tracking is being activated or deactivated. This value 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure that identifies the tool to which this message applies. The **hwnd** and **uId** members identify the tool, and the **cbSize** member specifies the size of the structure. All other members are ignored.
+Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure that identifies the tool to which this message applies. The **hwnd** and **uId** members identify the tool, and the **cbSize** member specifies the size of the structure. All other members are ignored.
 
 </dd> </dl>
 

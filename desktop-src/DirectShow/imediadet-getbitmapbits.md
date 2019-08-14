@@ -61,7 +61,7 @@ Receives the required buffer size. If *pBuffer* is **NULL**, the variable receiv
 *pBuffer* 
 </dt> <dd>
 
-Pointer to a buffer that receives a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure followed by the DIB bits.
+Pointer to a buffer that receives a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure followed by the DIB bits.
 
 </dd> <dt>
 

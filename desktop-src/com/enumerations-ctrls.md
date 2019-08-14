@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 The following enumerations are used to create standard COM objects and property pages.
 
--   [**GUIDKIND**](/windows/desktop/api/OCIdl/ne-ocidl-tagguidkind)
+-   [**GUIDKIND**](/windows/win32/api/ocidl/ne-ocidl-guidkind)
 -   [**KEYMODIFIERS**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683763(v=vs.85))
--   [**PICTUREATTRIBUTES**](/windows/desktop/api/OCIdl/ne-ocidl-tagpictureattributes)
--   [**POINTERINACTIVE**](/windows/desktop/api/OCIdl/ne-ocidl-tagpointerinactive)
--   [**QACONTAINERFLAGS**](/windows/desktop/api/OCIdl/ne-ocidl-tagqacontainerflags)
+-   [**PICTUREATTRIBUTES**](/windows/win32/api/ocidl/ne-ocidl-pictureattributes)
+-   [**POINTERINACTIVE**](/windows/win32/api/ocidl/ne-ocidl-pointerinactive)
+-   [**QACONTAINERFLAGS**](/windows/win32/api/ocidl/ne-ocidl-qacontainerflags)
 
  
 

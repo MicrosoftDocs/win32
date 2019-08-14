@@ -17,7 +17,7 @@ The following example animates a palette by using the [**DrawDibRealize**](/wind
 
 You can change the colors of a bitmap by using the [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin) function in combination with [**DrawDibChangePalette**](/windows/desktop/api/Vfw/nf-vfw-drawdibchangepalette). First, to allow palette changes, specify the DDF\_ANIMATE flag in the call to **DrawDibBegin**. Second, set the color table values from the palette entries by using **DrawDibChangePalette**.
 
-For example, if *lppe* is an address of the [PALETTEENTRY](https://go.microsoft.com/fwlink/p/?linkid=16938) array containing the new colors, and *lpbi* is the [**BITMAPINFOHEADER**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader) structure used in [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin) or [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw), the following fragment updates the DIB color table.
+For example, if *lppe* is an address of the [PALETTEENTRY](https://go.microsoft.com/fwlink/p/?linkid=16938) array containing the new colors, and *lpbi* is the [**BITMAPINFOHEADER**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure used in [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin) or [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw), the following fragment updates the DIB color table.
 
 
 ```C++

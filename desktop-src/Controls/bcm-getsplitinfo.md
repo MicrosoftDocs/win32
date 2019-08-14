@@ -34,7 +34,7 @@ Must be zero.
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**BUTTON\_SPLITINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagbutton_splitinfo) structure to receive information on the button. The caller is responsible for allocating the memory for the structure. Set the **mask** member of this structure to determine what information to receive.
+A pointer to a [**BUTTON\_SPLITINFO**](/windows/win32/api/commctrl/ns-commctrl-button_splitinfo) structure to receive information on the button. The caller is responsible for allocating the memory for the structure. Set the **mask** member of this structure to determine what information to receive.
 
 </dd> </dl>
 

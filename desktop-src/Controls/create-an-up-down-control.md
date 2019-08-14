@@ -88,7 +88,7 @@ INT_PTR CALLBACK UpDownDialogProc(HWND, UINT, WPARAM, LPARAM);
 
 ### Step 3: Initialize the INITCOMMONCONTROLSEX Structure's **dwSize** Member
 
-The [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure carries the information used to load common control classes from the DLL. This structure is used with the **InitCommonControlsEx** function, which requires the structure's size in order to do its job.
+The [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure carries the information used to load common control classes from the DLL. This structure is used with the **InitCommonControlsEx** function, which requires the structure's size in order to do its job.
 
 
 ```C++

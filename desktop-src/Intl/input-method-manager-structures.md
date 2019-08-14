@@ -12,22 +12,22 @@ This section describes the structures used with IMM functions and messages.
 
 <dl>
 
-[**APPLETIDLIST**](/windows/desktop/api/Imepad/ns-imepad-tagappletidlist)  
-[**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform)  
-[**CANDIDATELIST**](/windows/desktop/api/Imm/ns-imm-tagcandidatelist)  
-[**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform)  
-[**IMEAPPLETCFG**](/windows/desktop/api/Imepad/ns-imepad-tagappletcfg)  
-[**IMEAPPLETUI**](/windows/desktop/api/Imepad/ns-imepad-tagimeappletui)  
-[**IMECHARPOSITION**](/windows/desktop/api/Imm/ns-imm-tagimecharposition)  
-[**IMECOMPOSITIONSTRINGINFO**](/windows/desktop/api/Imepad/ns-imepad-tagimecompositionstringinfo)  
+[**APPLETIDLIST**](/windows/win32/api/imepad/ns-imepad-appletidlist)  
+[**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform)  
+[**CANDIDATELIST**](/windows/win32/api/imm/ns-imm-candidatelist)  
+[**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform)  
+[**IMEAPPLETCFG**](/windows/win32/api/imepad/ns-imepad-imeappletcfg)  
+[**IMEAPPLETUI**](/windows/win32/api/imepad/ns-imepad-imeappletui)  
+[**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition)  
+[**IMECOMPOSITIONSTRINGINFO**](/windows/win32/api/imepad/ns-imepad-imecompositionstringinfo)  
 [**IMEDLG**](/windows/desktop/api/Msime/ns-msime-imedlg)  
 [**IMESHF**](/windows/desktop/api/Msime/ns-msime-imeshf)  
-[**IMEMENUITEMINFO**](/windows/desktop/api/Imm/ns-imm-tagimemenuiteminfoa)  
+[**IMEMENUITEMINFO**](/windows/win32/api/imm/ns-imm-imemenuiteminfoa)  
 [**IMEWRD**](/windows/desktop/api/Msime/ns-msime-imewrd)  
 [**POSTBL**](/windows/desktop/api/Msime/ns-msime-postbl)  
-[**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring)  
-[**REGISTERWORD**](/windows/desktop/api/Imm/ns-imm-tagregisterworda)  
-[**STYLEBUF**](/windows/desktop/api/Imm/ns-imm-tagstylebufa)  
+[**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring)  
+[**REGISTERWORD**](/windows/win32/api/imm/ns-imm-registerworda)  
+[**STYLEBUF**](/windows/win32/api/imm/ns-imm-stylebufa)  
 </dl>
 
  

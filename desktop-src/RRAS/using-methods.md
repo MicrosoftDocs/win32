@@ -12,7 +12,7 @@ When a client registers with the routing table manager, it can export a set of m
 
 A client can obtain the list of methods exported by another client. The client calls the [**RtmGetEntityMethods**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetentitymethods) function, supplying the target client's handle.
 
-Each method exported by a client is uniquely identified by its method identifier. Each client can export up to 32 methods. Each method corresponds to a bit set in the **MethodType** member of the [**RTM\_ENTITY\_EXPORT\_METHOD**](/windows/desktop/api/Rtmv2/nc-rtmv2-_entity_method) structure. To invoke multiple methods, the client should perform a logical OR of the identifiers for those methods. The syntax and semantics of input and output structures for each protocol must be specified when the protocol is implemented.
+Each method exported by a client is uniquely identified by its method identifier. Each client can export up to 32 methods. Each method corresponds to a bit set in the **MethodType** member of the [**RTM\_ENTITY\_EXPORT\_METHOD**](/windows/win32/api/rtmv2/nc-rtmv2-_entity_method) structure. To invoke multiple methods, the client should perform a logical OR of the identifiers for those methods. The syntax and semantics of input and output structures for each protocol must be specified when the protocol is implemented.
 
 > [!Note]  
 > Method identifier values that correspond to a bit set in the lower half of the **MethodType** member (the lower 16 bits) are reserved by Microsoft.

@@ -20,7 +20,7 @@ api_location:
 
 # DeleteMediaType function
 
-The **DeleteMediaType** function deletes an allocated [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure, including the format block.
+The **DeleteMediaType** function deletes an allocated [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure, including the format block.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ void WINAPI DeleteMediaType(
 *pmt* 
 </dt> <dd>
 
-A pointer to an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure.
+A pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure.
 
 </dd> </dl>
 

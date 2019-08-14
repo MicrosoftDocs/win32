@@ -38,13 +38,13 @@ DTN_FORMATQUERY
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMEFORMATQUERY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimeformatquerya) structure containing information about the callback field. The structure contains a substring that defines a callback field and receives the maximum allowable size of the string that will be displayed in the callback field.
+A pointer to an [**NMDATETIMEFORMATQUERY**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimeformatquerya) structure containing information about the callback field. The structure contains a substring that defines a callback field and receives the maximum allowable size of the string that will be displayed in the callback field.
 
 </dd> </dl>
 
 ## Return value
 
-The owner of the control must calculate the maximum possible width of the text that will be displayed in the callback field, set the **szMax** member of the [**NMDATETIMEFORMATQUERY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimeformatquerya) structure, and return zero.
+The owner of the control must calculate the maximum possible width of the text that will be displayed in the callback field, set the **szMax** member of the [**NMDATETIMEFORMATQUERY**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimeformatquerya) structure, and return zero.
 
 ## Remarks
 

@@ -17,7 +17,7 @@ This section contains structures that belong to the [**RealTimeStylus Class**](r
 | Structure                                        | Description                                                           |
 |--------------------------------------------------|-----------------------------------------------------------------------|
 | [**StylusInfo Structure**](/windows/desktop/api/RTSCom/ns-rtscom-stylusinfo)       | Provides information about the strokes defining a gesture.<br/> |
-| [**SYSTEM\_EVENT\_DATA**](/windows/desktop/api/tpcshrd/ns-tpcshrd-tagsystem_event_data) | Contains information about a tablet system event.<br/>          |
+| [**SYSTEM\_EVENT\_DATA**](/windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data) | Contains information about a tablet system event.<br/>          |
 
 
 

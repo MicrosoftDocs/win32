@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **FreeCountedString** function frees a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) data structure.
+The **FreeCountedString** function frees a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) data structure.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ NAPAPI VOID WINAPI FreeCountedString(
 *countedString* \[in\]
 </dt> <dd>
 
-A pointer to the [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) data structure to free.
+A pointer to the [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) data structure to free.
 
 </dd> </dl>
 

@@ -46,7 +46,7 @@ HRESULT GetSystemIsolationInfo(
 *isolationInfo* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**IsolationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfo) structure that contains isolation state information.
+A pointer to a pointer to an [**IsolationInfo**](/windows/win32/api/naptypes/ns-naptypes-isolationinfo) structure that contains isolation state information.
 
 </dd> <dt>
 

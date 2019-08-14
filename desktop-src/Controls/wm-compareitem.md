@@ -44,7 +44,7 @@ Specifies the identifier of the control that sent the **WM\_COMPAREITEM** messag
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COMPAREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcompareitemstruct) structure that contains the identifiers and application-supplied data for two items in the combo or list box.
+Pointer to a [**COMPAREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-compareitemstruct) structure that contains the identifiers and application-supplied data for two items in the combo or list box.
 
 </dd> </dl>
 
@@ -67,7 +67,7 @@ The return value indicates the relative position of the two items. It may be any
 
 ## Remarks
 
-When the owner of an owner-drawn combo box or list box receives this message, the owner returns a value indicating which of the items specified by the [**COMPAREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcompareitemstruct) structure will appear before the other. Typically, the system sends this message several times until it determines the exact position for the new item.
+When the owner of an owner-drawn combo box or list box receives this message, the owner returns a value indicating which of the items specified by the [**COMPAREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-compareitemstruct) structure will appear before the other. Typically, the system sends this message several times until it determines the exact position for the new item.
 
 If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The DWL\_MSGRESULT value set by the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
@@ -90,7 +90,7 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Reference**
 </dt> <dt>
 
-[**COMPAREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcompareitemstruct)
+[**COMPAREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-compareitemstruct)
 </dt> <dt>
 
 **Other Resources**

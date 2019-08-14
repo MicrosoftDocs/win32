@@ -53,7 +53,7 @@ A [**SystemHealthEntityId**](nap-type-constants.md) that contains the unique ide
 *mapping* \[out\]
 </dt> <dd>
 
-A pointer to a [**FailureCategoryMapping**](/windows/desktop/api/NapTypes/ns-naptypes-tagfailurecategorymapping) that contains the mapping data.
+A pointer to a [**FailureCategoryMapping**](/windows/win32/api/naptypes/ns-naptypes-failurecategorymapping) that contains the mapping data.
 
 </dd> </dl>
 

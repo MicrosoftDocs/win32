@@ -36,7 +36,7 @@ NM_CUSTOMTEXT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCUSTOMTEXT**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomtext) structure that contains additional information about this notification.
+A pointer to an [**NMCUSTOMTEXT**](/windows/win32/api/commctrl/ns-commctrl-nmcustomtext) structure that contains additional information about this notification.
 
 </dd> </dl>
 

@@ -46,7 +46,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 ## Remarks
 
-The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The **fLiveWindow** member of the [**CAPSTATUS**](/windows/desktop/api/Vfw/ns-vfw-tagcapstatus) structure indicates if preview mode is currently enabled.
+The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The **fLiveWindow** member of the [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure indicates if preview mode is currently enabled.
 
 Enabling preview mode automatically disables overlay mode.
 

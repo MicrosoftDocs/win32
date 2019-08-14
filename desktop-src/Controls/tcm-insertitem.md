@@ -36,7 +36,7 @@ Index of the new tab.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TCITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitema) structure that specifies the attributes of the tab. The **dwState** and **dwStateMask** members of this structure are ignored by this message.
+Pointer to a [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl-tcitema) structure that specifies the attributes of the tab. The **dwState** and **dwStateMask** members of this structure are ignored by this message.
 
 </dd> </dl>
 

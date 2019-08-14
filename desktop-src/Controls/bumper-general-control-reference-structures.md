@@ -10,17 +10,17 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**COLORSCHEME**](/windows/desktop/api/Commctrl/ns-commctrl-tagcolorscheme)
+-   [**COLORSCHEME**](/windows/win32/api/commctrl/ns-commctrl-colorscheme)
 -   [**DPASTREAMINFO**](/windows/desktop/api/dpa_dsa/ns-dpa_dsa-dpastreaminfo)
--   [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex)
--   [**NMCHAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmchar)
--   [**NMCUSTOMSPLITRECTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo)
--   [**NMCUSTOMTEXT**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomtext)
+-   [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex)
+-   [**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar)
+-   [**NMCUSTOMSPLITRECTINFO**](/windows/win32/api/commctrl/ns-commctrl-nmcustomsplitrectinfo)
+-   [**NMCUSTOMTEXT**](/windows/win32/api/commctrl/ns-commctrl-nmcustomtext)
 -   [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr)
--   [**NMKEY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmkey)
--   [**NMMOUSE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmmouse)
--   [**NMOBJECTNOTIFY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmobjectnotify)
--   [**NMTOOLTIPSCREATED**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtooltipscreated)
+-   [**NMKEY**](/windows/win32/api/commctrl/ns-commctrl-nmkey)
+-   [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse)
+-   [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-commctrl-nmobjectnotify)
+-   [**NMTOOLTIPSCREATED**](/windows/win32/api/commctrl/ns-commctrl-nmtooltipscreated)
 -   [**READERMODEINFO**](readermodeinfo.md)
 
  

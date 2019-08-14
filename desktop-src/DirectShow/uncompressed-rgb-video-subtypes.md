@@ -40,7 +40,7 @@ The following subtypes define uncompressed RGB formats with alpha channel.
 
 ## Remarks
 
-For palettized formats, the color of each pixel is specified as an index into a palette. The palette must be included in the format block, following the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure. For non-palettized formats, the color of each pixel is specified directly; the memory layout depends on the bit depth:
+For palettized formats, the color of each pixel is specified as an index into a palette. The palette must be included in the format block, following the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure. For non-palettized formats, the color of each pixel is specified directly; the memory layout depends on the bit depth:
 
 -   RGB 555 uses the following memory layout:
     ```C++

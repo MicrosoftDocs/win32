@@ -34,7 +34,7 @@ The index of the group.
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to an [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure to receive information on the group specified by *wParam*. The calling process is responsible for allocating memory for the structure and any buffers in the structure, such as the one pointed to by the **pszHeader** member. Set any contingent members of the structure, such as **cchHeader** the size of the buffer pointed to by **pszHeader** in **WCHARs** including the terminating **NULL**. Set **cbSize** to sizeof(LVGROUP).
+A pointer to an [**LVGROUP**](/windows/win32/api/commctrl/ns-commctrl-lvgroup) structure to receive information on the group specified by *wParam*. The calling process is responsible for allocating memory for the structure and any buffers in the structure, such as the one pointed to by the **pszHeader** member. Set any contingent members of the structure, such as **cchHeader** the size of the buffer pointed to by **pszHeader** in **WCHARs** including the terminating **NULL**. Set **cbSize** to sizeof(LVGROUP).
 
 The message receiver is responsible for setting the structure members with information for the group specified by *wParam*.
 

@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **FreeFixupInfo** function frees a [**FixupInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagfixupinfo) data structure.
+The **FreeFixupInfo** function frees a [**FixupInfo**](/windows/win32/api/naptypes/ns-naptypes-fixupinfo) data structure.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ NAPAPI VOID WINAPI FreeFixupInfo(
 *fixupInfo* \[in\]
 </dt> <dd>
 
-A pointer to the [**FixupInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagfixupinfo) data structure to free.
+A pointer to the [**FixupInfo**](/windows/win32/api/naptypes/ns-naptypes-fixupinfo) data structure to free.
 
 </dd> </dl>
 

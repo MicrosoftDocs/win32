@@ -88,7 +88,7 @@ case WM_DESTROY:
 
 An owner-drawn combo box sends the [**WM\_MEASUREITEM**](wm-measureitem.md) message to its parent window or dialog box procedure so that the application can set the dimensions of each list item. Because the example combo box has the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md) style, the system sends the **WM\_MEASUREITEM** message only once. Combo boxes with the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md) style send a **WM\_MEASUREITEM** message for each list item.
 
-The *lParam* parameter is a pointer to a [**MEASUREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagmeasureitemstruct) structure that identifies the control and list item. It also contains the default dimensions of the list item. The example modifies the **itemHeight** structure member to ensure that the list items are high enough to accommodate the food-group bitmaps.
+The *lParam* parameter is a pointer to a [**MEASUREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) structure that identifies the control and list item. It also contains the default dimensions of the list item. The example modifies the **itemHeight** structure member to ensure that the list items are high enough to accommodate the food-group bitmaps.
 
 
 ```C++
@@ -108,11 +108,11 @@ case WM_MEASUREITEM:
 
 ### Step 4: Process the WM\_DRAWITEM message.
 
-An owner-drawn combo box sends the [**WM\_DRAWITEM**](wm-drawitem.md) message to its parent window or dialog box procedure each time the application must repaint a list item. The *lParam* parameter is a pointer to a [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure that identifies the control and list item. It also contains information needed to paint the item.
+An owner-drawn combo box sends the [**WM\_DRAWITEM**](wm-drawitem.md) message to its parent window or dialog box procedure each time the application must repaint a list item. The *lParam* parameter is a pointer to a [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure that identifies the control and list item. It also contains information needed to paint the item.
 
 The example application displays the list-item text and the bitmap associated with the food group. If the item has the focus, it also draws a focus rectangle. Before displaying the text, the example sets the foreground and background colors, based on the item selected. Because the combo box has the [**CBS\_HASSTRINGS**](combo-box-styles.md) style, the combo box maintains the text for each list item that can be retrieved using the [**CB\_GETLBTEXT**](cb-getlbtext.md) message.
 
-The bitmaps used for the list item depend on the food group. `InitGroupList` uses the [**CB\_SETITEMDATA**](cb-setitemdata.md) message to associate a bitmap handle with each list item. The window procedure retrieves the bitmap handle from the **itemData** member of the [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure. The system uses two bitmaps for each food group symbol: a monochrome bitmap with the SRCAND raster operation to erase the irregular region behind the image, and a color bitmap with the SRCPAINT raster operation to paint the image.
+The bitmaps used for the list item depend on the food group. `InitGroupList` uses the [**CB\_SETITEMDATA**](cb-setitemdata.md) message to associate a bitmap handle with each list item. The window procedure retrieves the bitmap handle from the **itemData** member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure. The system uses two bitmaps for each food group symbol: a monochrome bitmap with the SRCAND raster operation to erase the irregular region behind the image, and a color bitmap with the SRCPAINT raster operation to paint the image.
 
 
 ```C++

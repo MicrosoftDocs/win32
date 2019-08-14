@@ -38,7 +38,7 @@ For related reference documentation, see the following topics:
 -   To execute a verb on a Shell item, see the [**InvokeVerb**](folderitem-invokeverb.md) method.
 -   To retrieve a collection of verbs that can be executed on a Shell item, see the [**Verbs**](folderitem-verbs.md) method.
 -   For performing an operation on a specified file, see either the [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) or [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) functions.
--   For a list of default perceived types, see the [**PERCEIVED**](/windows/desktop/api/Shtypes/ne-shtypes-tagperceived) enumeration.
+-   For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/api/shtypes/ne-shtypes-perceived) enumeration.
 -   To retrieves a file's perceived type based on its extension, see the [**AssocGetPerceivedType**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype) function.
 
  

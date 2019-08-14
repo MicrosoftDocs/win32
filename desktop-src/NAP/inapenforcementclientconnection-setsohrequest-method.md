@@ -45,7 +45,7 @@ HRESULT SetSoHRequest(
 *sohRequest* \[in\]
 </dt> <dd>
 
-A pointer to a unique [**NetworkSoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagnetworksoh) structure, which is an opaque data blob to the enforcer.
+A pointer to a unique [**NetworkSoHRequest**](/windows/win32/api/naptypes/ns-naptypes-networksoh) structure, which is an opaque data blob to the enforcer.
 
 </dd> </dl>
 

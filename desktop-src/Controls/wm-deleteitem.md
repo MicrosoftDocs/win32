@@ -44,7 +44,7 @@ Specifies the identifier of the control that sent the **WM\_DELETEITEM** message
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**DELETEITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdeleteitemstruct) structure that contains information about the item deleted from a list box.
+Pointer to a [**DELETEITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-deleteitemstruct) structure that contains information about the item deleted from a list box.
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ Windows 95: Windows sends the **WM\_DELETEITEM** message for any deleted list bo
 [**CB\_RESETCONTENT**](cb-resetcontent.md)
 </dt> <dt>
 
-[**DELETEITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdeleteitemstruct)
+[**DELETEITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-deleteitemstruct)
 </dt> <dt>
 
 [**LB\_DELETESTRING**](lb-deletestring.md)

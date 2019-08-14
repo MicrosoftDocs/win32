@@ -50,9 +50,9 @@ Pointer to an [**IDirect3DBaseTexture9**](https://msdn.microsoft.com/library/Bb1
 *pPalette* \[out\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry)\***
 
-Pointer to a [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry) structure that represents a 256-color palette to fill in, or **NULL** for nonpalettized formats. If a palette is not specified, the default Direct3D palette (an all opaque white palette) is provided. See Remarks.
+Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry) structure that represents a 256-color palette to fill in, or **NULL** for nonpalettized formats. If a palette is not specified, the default Direct3D palette (an all opaque white palette) is provided. See Remarks.
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Writing to a non-level-zero surface of the texture will not cause the dirty rect
 
 Textures created in the default pool (D3DPOOL\_DEFAULT) cannot be used with **D3DXFilterTexture** (unless created with D3DUSAGE\_DYNAMIC) because a lock operation is needed on the object. Note that locks are prohibited on textures in the default pool (unless they are dynamic).
 
-For details on [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
+For details on [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
 
 There is only one texture filtering function, but two macros that call this method.
 

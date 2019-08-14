@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 ## In This Section
 
 -   [**NMPGCALCSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-nmpgcalcsize)
--   [**NMPGHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmpghotitem)
+-   [**NMPGHOTITEM**](/windows/win32/api/commctrl/ns-commctrl-nmpghotitem)
 -   [**NMPGSCROLL**](/windows/desktop/api/Commctrl/ns-commctrl-nmpgscroll)
 
  

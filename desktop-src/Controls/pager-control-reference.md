@@ -94,7 +94,7 @@ This section contains information about the programming elements used with pager
 | Topic                                | Contents                                                                                                                                                                                                |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**NMPGCALCSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-nmpgcalcsize) | Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the [PGN\_CALCSIZE](pgn-calcsize.md) notification. <br/> |
-| [**NMPGHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmpghotitem)   | Contains information used with the [PGN\_HOTITEMCHANGE](pgn-hotitemchange.md) notification. <br/>                                                                                                |
+| [**NMPGHOTITEM**](/windows/win32/api/commctrl/ns-commctrl-nmpghotitem)   | Contains information used with the [PGN\_HOTITEMCHANGE](pgn-hotitemchange.md) notification. <br/>                                                                                                |
 | [**NMPGSCROLL**](/windows/desktop/api/Commctrl/ns-commctrl-nmpgscroll)     | Contains and receives information that the pager control uses when scrolling the contained window. It is used with the [PGN\_SCROLL](pgn-scroll.md) notification. <br/>                          |
 
 

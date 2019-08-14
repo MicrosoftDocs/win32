@@ -45,7 +45,7 @@ HRESULT RegisterSystemHealthAgent(
 *agent* \[in\]
 </dt> <dd>
 
-A pointer to a [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) structure that contains the registration information for the SHA.
+A pointer to a [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) structure that contains the registration information for the SHA.
 
 </dd> </dl>
 

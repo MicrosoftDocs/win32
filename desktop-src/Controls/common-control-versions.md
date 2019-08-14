@@ -64,26 +64,26 @@ Ongoing enhancements to common controls have resulted in the need to extend many
 
 |                               |                                                                                              |
 |-------------------------------|----------------------------------------------------------------------------------------------|
-| HDITEM\_V1\_SIZE              | The size of the [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema) structure in version 4.0.                           |
+| HDITEM\_V1\_SIZE              | The size of the [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) structure in version 4.0.                           |
 | IMAGELISTDRAWPARAMS\_V3\_SIZE | The size of the [**IMAGELISTDRAWPARAMS**](https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx) structure in version 5.9. |
-| LVCOLUMN\_V1\_SIZE            | The size of the [**LVCOLUMN**](/windows/desktop/api/Commctrl/ns-commctrl-taglvcolumna) structure in version 4.0.                       |
-| LVGROUP\_V5\_SIZE             | The size of the [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure in version 6.0.                         |
-| LVHITTESTINFO\_V1\_SIZE       | The size of the [**LVHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvhittestinfo) structure in version 4.0.             |
-| LVITEM\_V1\_SIZE              | The size of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure in version 4.0.                           |
-| LVITEM\_V5\_SIZE              | The size of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure in version 6.0.                           |
-| LVTILEINFO\_V5\_SIZE          | The size of the [**LVTILEINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvtileinfo) structure in version 6.0.                   |
+| LVCOLUMN\_V1\_SIZE            | The size of the [**LVCOLUMN**](/windows/win32/api/commctrl/ns-commctrl-lvcolumna) structure in version 4.0.                       |
+| LVGROUP\_V5\_SIZE             | The size of the [**LVGROUP**](/windows/win32/api/commctrl/ns-commctrl-lvgroup) structure in version 6.0.                         |
+| LVHITTESTINFO\_V1\_SIZE       | The size of the [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo) structure in version 4.0.             |
+| LVITEM\_V1\_SIZE              | The size of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure in version 4.0.                           |
+| LVITEM\_V5\_SIZE              | The size of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure in version 6.0.                           |
+| LVTILEINFO\_V5\_SIZE          | The size of the [**LVTILEINFO**](/windows/win32/api/commctrl/ns-commctrl-lvtileinfo) structure in version 6.0.                   |
 | MCHITTESTINFO\_V1\_SIZE       | The size of the [**MCHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-mchittestinfo) structure in version 4.0.             |
-| NMLVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMLVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcustomdraw) structure in version 4.7.           |
-| NMTTDISPINFO\_V1\_SIZE        | The size of the [**NMTTDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttdispinfoa) structure in version 4.0.               |
-| NMTVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMTVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvcustomdraw) structure in version 4.7.           |
+| NMLVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMLVCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmlvcustomdraw) structure in version 4.7.           |
+| NMTTDISPINFO\_V1\_SIZE        | The size of the [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure in version 4.0.               |
+| NMTVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMTVCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmtvcustomdraw) structure in version 4.7.           |
 | PROPSHEETHEADER\_V1\_SIZE     | The size of the [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure in version 4.0.         |
 | PROPSHEETPAGE\_V1\_SIZE       | The size of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure in version 4.0.             |
-| REBARBANDINFO\_V3\_SIZE       | The size of the [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa) structure in version 4.7.             |
-| REBARBANDINFO\_V6\_SIZE       | The size of the [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa) structure in version 6.0.             |
-| TTTOOLINFO\_V1\_SIZE          | The size of the [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure in version 4.0.                       |
-| TTTOOLINFO\_V2\_SIZE          | The size of the [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure in version 4.7.                       |
-| TTTOOLINFO\_V3\_SIZE          | The size of the [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure in version 6.0.                       |
-| TVINSERTSTRUCT\_V1\_SIZE      | The size of the [**TVINSERTSTRUCT**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvinsertstructa) structure in version 4.0.           |
+| REBARBANDINFO\_V3\_SIZE       | The size of the [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure in version 4.7.             |
+| REBARBANDINFO\_V6\_SIZE       | The size of the [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure in version 6.0.             |
+| TTTOOLINFO\_V1\_SIZE          | The size of the [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure in version 4.0.                       |
+| TTTOOLINFO\_V2\_SIZE          | The size of the [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure in version 4.7.                       |
+| TTTOOLINFO\_V3\_SIZE          | The size of the [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure in version 6.0.                       |
+| TVINSERTSTRUCT\_V1\_SIZE      | The size of the [**TVINSERTSTRUCT**](/windows/win32/api/commctrl/ns-commctrl-tvinsertstructa) structure in version 4.0.           |
 
 
 

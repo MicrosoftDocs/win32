@@ -36,7 +36,7 @@ LVN_GETEMPTYMARKUP
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMLVEMPTYMARKUP**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvemptymarkup) structure. Set the members of this structure to provide markup text for the list-view control.
+Pointer to a [**NMLVEMPTYMARKUP**](/windows/win32/api/commctrl/ns-commctrl-nmlvemptymarkup) structure. Set the members of this structure to provide markup text for the list-view control.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Return **TRUE** to set the markup text in the list-view control, or **FALSE** ot
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLVEMPTYMARKUP**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvemptymarkup) structure. The *wParam* parameter contains the ID of the control that sends this message.
+The notification receiver casts *lParam* to retrieve the [**NMLVEMPTYMARKUP**](/windows/win32/api/commctrl/ns-commctrl-nmlvemptymarkup) structure. The *wParam* parameter contains the ID of the control that sends this message.
 
 ## Requirements
 

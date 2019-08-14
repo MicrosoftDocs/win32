@@ -38,7 +38,7 @@ TVN_ENDLABELEDIT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoa) structure. The **item** member of this structure is a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure whose **hItem**, **lParam**, and **pszText** members contain valid information about the item that was edited. If label editing was canceled, the **pszText** member of the **TVITEM** structure is **NULL**; otherwise, **pszText** is the address of the edited text.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoa) structure. The **item** member of this structure is a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure whose **hItem**, **lParam**, and **pszText** members contain valid information about the item that was edited. If label editing was canceled, the **pszText** member of the **TVITEM** structure is **NULL**; otherwise, **pszText** is the address of the edited text.
 
 </dd> </dl>
 

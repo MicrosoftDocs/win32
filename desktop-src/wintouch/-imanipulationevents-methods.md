@@ -13,15 +13,15 @@ ms.date: 05/31/2018
 
 # Methods
 
-This section contains the methods for the [**\_IManipulationEvents**](/windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents) interface.
+This section contains the methods for the [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) interface.
 
 
 
 | Method                                                                      | Description                                                   |
 |-----------------------------------------------------------------------------|---------------------------------------------------------------|
-| [**ManipulationStarted**](/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted)     | Handles the event for when manipulation or inertia begins.    |
-| [**ManipulationDelta**](/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta)         | Handles events that happen when a manipulated object changes. |
-| [**ManipulationCompleted**](/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted) | Handles the event when manipulation or inertia finishes.      |
+| [**ManipulationStarted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted)     | Handles the event for when manipulation or inertia begins.    |
+| [**ManipulationDelta**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta)         | Handles events that happen when a manipulated object changes. |
+| [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted) | Handles the event when manipulation or inertia finishes.      |
 
 
 
@@ -31,7 +31,7 @@ This section contains the methods for the [**\_IManipulationEvents**](/windows/d
 
 <dl> <dt>
 
-[**\_IManipulationEvents**](/windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents)
+[**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)
 </dt> </dl>
 
  

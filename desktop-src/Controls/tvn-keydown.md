@@ -36,7 +36,7 @@ TVN_KEYDOWN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvkeydown) structure. The **wVKey** member specifies the virtual key code.
+Pointer to an [**NMTVKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmtvkeydown) structure. The **wVKey** member specifies the virtual key code.
 
 </dd> </dl>
 

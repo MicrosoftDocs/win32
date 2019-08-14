@@ -40,7 +40,7 @@ iRetVal = FolderItems3.Filter(
 
 Type: **Integer**
 
-This parameter can be one of the flags listed in [**SHCONTF**](/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf).
+This parameter can be one of the flags listed in [**SHCONTF**](/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf).
 
 </dd> <dt>
 

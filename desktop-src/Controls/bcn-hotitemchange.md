@@ -36,7 +36,7 @@ BCN_HOTITEMCHANGE
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMBCHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmbchotitem) structure.
+A pointer to a [**NMBCHOTITEM**](/windows/win32/api/commctrl/ns-commctrl-nmbchotitem) structure.
 
 </dd> </dl>
 

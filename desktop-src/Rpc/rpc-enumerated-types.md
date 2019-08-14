@@ -15,9 +15,9 @@ This section details the enumerated types that are part of the RPC run-time libr
 -   [**RPC\_ASYNC\_EVENT**](/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event)
 -   [**RPC\_NOTIFICATION\_TYPES**](/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_notification_types)
 -   [**RPC\_NOTIFICATIONS**](/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_notifications)
--   [**RpcCallClientLocality**](/windows/desktop/api/RpcAsync/ne-rpcasync-tagrpccallclientlocality)
--   [**RpcCallType**](/windows/desktop/api/Rpcasync/ne-rpcasync-tagrpccalltype)
--   [**RpcLocalAddressFormat**](/windows/desktop/api/Rpcasync/ne-rpcasync-tagrpclocaladdressformat)
+-   [**RpcCallClientLocality**](/windows/win32/api/rpcasync/ne-rpcasync-rpccallclientlocality)
+-   [**RpcCallType**](/windows/win32/api/rpcasync/ne-rpcasync-rpccalltype)
+-   [**RpcLocalAddressFormat**](/windows/win32/api/rpcasync/ne-rpcasync-rpclocaladdressformat)
 
  
 

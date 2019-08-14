@@ -85,7 +85,7 @@ Copies or moves a substorage or stream from this storage object to another stora
 
 Ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage; for a root storage, reflects the changes in the actual device; for example, a file on disk. For a root storage object opened in direct mode, this method has no effect except to flush all memory buffers to the disk. For nonroot storage objects in direct mode, this method has no effect.
 
-The COM-provided compound files implementation uses a two-phase commit process unless STGC\_OVERWRITE is specified in the *grfCommitFlags* parameter. This two-phase process ensures the robustness of data, in case the commit operation fails. First, all new data is written to unused space in the underlying file. If necessary, new space is allocated to the file. After this step has been completed, a table in the file is updated using a single-sector write operation to indicate that the new data is to be used in place of the old. The old data becomes free space to be used at the next commit operation. Thus, the old data is available and can be restored if an error occurs when committing changes. If STGC\_OVERWRITE is specified, a single phase commit operation is used. For more information about transacted mode flags, see [**STGC**](/windows/desktop/api/WTypes/ne-wtypes-tagstgc) enumeration.
+The COM-provided compound files implementation uses a two-phase commit process unless STGC\_OVERWRITE is specified in the *grfCommitFlags* parameter. This two-phase process ensures the robustness of data, in case the commit operation fails. First, all new data is written to unused space in the underlying file. If necessary, new space is allocated to the file. After this step has been completed, a table in the file is updated using a single-sector write operation to indicate that the new data is to be used in place of the old. The old data becomes free space to be used at the next commit operation. Thus, the old data is available and can be restored if an error occurs when committing changes. If STGC\_OVERWRITE is specified, a single phase commit operation is used. For more information about transacted mode flags, see [**STGC**](/windows/win32/api/wtypes/ne-wtypes-stgc) enumeration.
 
 </dd> <dt>
 
@@ -141,7 +141,7 @@ Stores up to 32 bits of state information in this storage object. The state set 
 <span id="IStorage__Stat"></span><span id="istorage__stat"></span><span id="ISTORAGE__STAT"></span>[**IStorage::Stat**](/windows/desktop/api/Objidl/nf-objidl-istorage-stat)
 </dt> <dd>
 
-Retrieves the [**STATSTG**](/windows/desktop/api/Objidl/ns-objidl-tagstatstg) structure for this open storage object.
+Retrieves the [**STATSTG**](/windows/win32/api/objidl/ns-objidl-statstg) structure for this open storage object.
 
 </dd> </dl>
 

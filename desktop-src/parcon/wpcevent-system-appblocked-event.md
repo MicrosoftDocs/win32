@@ -68,7 +68,7 @@ The ID of the rule within the set of Parental Controls safer rules that is block
 [Using Logging APIs for Parental Controls](using-logging-apis-for-parental-controls.md)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/desktop/api/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
 </dt> </dl>
 
  

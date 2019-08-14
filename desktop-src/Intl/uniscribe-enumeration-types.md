@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following enumeration type is used with Uniscribe typography and complex script processing:
 
-[**SCRIPT\_JUSTIFY**](/windows/desktop/api/Usp10/ne-usp10-tag_script_justify)
+[**SCRIPT\_JUSTIFY**](/windows/win32/api/usp10/ne-usp10-script_justify)
 
  
 

@@ -53,7 +53,7 @@ A unique [SystemHealthEntityId](nap-datatypes.md) that contains the ID of the SH
 *isRequest* \[in\]
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the packet is to be an [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and **FALSE** if it is to be an **SoHResponse**.
+A **BOOL** that is **TRUE** if the packet is to be an [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) and **FALSE** if it is to be an **SoHResponse**.
 
 </dd> </dl>
 

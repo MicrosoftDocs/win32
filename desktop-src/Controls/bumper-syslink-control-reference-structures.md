@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**LHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglhittestinfo)
--   [**LITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglitem)
--   [**NMLINK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlink)
+-   [**LHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lhittestinfo)
+-   [**LITEM**](/windows/win32/api/commctrl/ns-commctrl-litem)
+-   [**NMLINK**](/windows/win32/api/commctrl/ns-commctrl-nmlink)
 
  
 

@@ -12,9 +12,9 @@ The following structures are used by the character set functions.
 
 <dl>
 
-[**CHARSETINFO**](/windows/desktop/api/Wingdi/ns-wingdi-tagcharsetinfo)  
-[**FONTSIGNATURE**](/windows/desktop/api/Wingdi/ns-wingdi-tagfontsignature)  
-[**LOCALESIGNATURE**](/windows/desktop/api/Wingdi/ns-wingdi-taglocalesignature)  
+[**CHARSETINFO**](/windows/win32/api/wingdi/ns-wingdi-charsetinfo)  
+[**FONTSIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-fontsignature)  
+[**LOCALESIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-localesignature)  
 </dl>
 
  

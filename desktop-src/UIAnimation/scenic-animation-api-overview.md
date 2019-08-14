@@ -153,7 +153,7 @@ Developers can implement a *priority comparison* callback to compare the priorit
 
 If none of the above actions is allowed by the registered priority comparison objects, the attempt to schedule the new storyboard fails. By default, all storyboards can be trimmed, concluded, or compressed to prevent failure, but none can be canceled.
 
-The following diagram shows the life cycle of a storyboard, using the states defined by the [**UI\_ANIMATION\_STORYBOARD\_STATUS**](/windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0002_0001) enumeration. Applications use the Windows Animation API to build a storyboard and submit it for scheduling. The animation manager schedules the storyboard and manages the animation.
+The following diagram shows the life cycle of a storyboard, using the states defined by the [**UI\_ANIMATION\_STORYBOARD\_STATUS**](/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status) enumeration. Applications use the Windows Animation API to build a storyboard and submit it for scheduling. The animation manager schedules the storyboard and manages the animation.
 
 ![diagram that shows how the animation manager schedules the storyboard and manages the animation.](images/statediagram.png)
 

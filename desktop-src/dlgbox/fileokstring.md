@@ -45,7 +45,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure. The **lpstrFile** member of this structure contains the drive, path, and file name specified by the user.
+A pointer to an [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure. The **lpstrFile** member of this structure contains the drive, path, and file name specified by the user.
 
 </dd> </dl>
 
@@ -82,7 +82,7 @@ The hook procedure must specify the **FILEOKSTRING** constant in a call to the [
 [**CDN\_FILEOK**](cdn-fileok.md)
 </dt> <dt>
 
-[**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
+[**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
 [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)

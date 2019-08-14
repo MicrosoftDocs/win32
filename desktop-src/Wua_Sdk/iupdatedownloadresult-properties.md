@@ -15,7 +15,7 @@ The [**IUpdateDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownl
 | Property                                               | Description                                                                                                                          |
 |--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | [**HResult**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadresult-get_hresult)       | Gets the exception **HRESULT** value, if any, that is raised during an operation on an update.                                       |
-| [**ResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadresult-get_resultcode) | Gets an [**OperationResultCode**](/windows/desktop/api/Wuapi/ne-wuapi-tagoperationresultcode) enumeration value that specifies the result of an operation on an update. |
+| [**ResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadresult-get_resultcode) | Gets an [**OperationResultCode**](/windows/win32/api/wuapi/ne-wuapi-operationresultcode) enumeration value that specifies the result of an operation on an update. |
 
 
 

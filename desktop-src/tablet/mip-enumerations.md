@@ -16,8 +16,8 @@ This section describes the enumerations used with the math input control.
 
 | Name                                           | Description                                                               |
 |------------------------------------------------|---------------------------------------------------------------------------|
-| [**MICUIELEMENT**](/windows/desktop/api/micaut/ne-micaut-__midl___midl_itf_micaut_0000_0000_0001)           | Specifies the user interface (UI) elements of a math input control (MIC). |
-| [**MICUIELEMENTSTATE**](/windows/desktop/api/micaut/ne-micaut-__midl___midl_itf_micaut_0000_0000_0002) | Specifies the button states of a math input control (MIC).                |
+| [**MICUIELEMENT**](/windows/win32/api/micaut/ne-micaut-micuielement)           | Specifies the user interface (UI) elements of a math input control (MIC). |
+| [**MICUIELEMENTSTATE**](/windows/win32/api/micaut/ne-micaut-micuielementstate) | Specifies the button states of a math input control (MIC).                |
 
 
 

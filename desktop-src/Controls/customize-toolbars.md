@@ -51,7 +51,7 @@ The toolbar control then collects the information it needs to initialize the dia
 
 -   A [TBN\_QUERYINSERT](tbn-queryinsert.md) notification code for each button on the toolbar to determine where buttons can be inserted. Return **FALSE** to prevent a button from being inserted to the left of the button specified in the notification message. If you return **FALSE** to all TBN\_QUERYINSERT notification codes, the dialog box will not be displayed.
 -   A [TBN\_QUERYDELETE](tbn-querydelete.md) notification code for each tool that is currently on the toolbar. Return **TRUE** if a tool can be deleted, or **FALSE** if not.
--   A series of [TBN\_GETBUTTONINFO](tbn-getbuttoninfo.md) notification codes to populate the list of available buttons. To add a button to the list, fill in the [**NMTOOLBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtoolbara) structure that is passed with the notification code and return **TRUE**. When you have no more tools to add, return **FALSE**. Note that you can return information for buttons that are already on the toolbar; these buttons will not be added to the list.
+-   A series of [TBN\_GETBUTTONINFO](tbn-getbuttoninfo.md) notification codes to populate the list of available buttons. To add a button to the list, fill in the [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commctrl-nmtoolbara) structure that is passed with the notification code and return **TRUE**. When you have no more tools to add, return **FALSE**. Note that you can return information for buttons that are already on the toolbar; these buttons will not be added to the list.
 
 The dialog box is then displayed, and the user can begin to customize the toolbar.
 
@@ -150,7 +150,7 @@ Toolbar states are saved in a data stream that consists of blocks of Shell-defin
 
 ### How to Handle a TBN\_SAVE Notification
 
-The first [TBN\_SAVE](tbn-save.md) notification code is sent at the beginning of the save process. Before any buttons are saved, the members of the [**NMTBSAVE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave) structure are set as shown in the following table.
+The first [TBN\_SAVE](tbn-save.md) notification code is sent at the beginning of the save process. Before any buttons are saved, the members of the [**NMTBSAVE**](/windows/win32/api/commctrl/ns-commctrl-nmtbsave) structure are set as shown in the following table.
 
 
 
@@ -170,7 +170,7 @@ If you want to add some global toolbar information, put it at the start of the d
 
 After you return, the Shell starts saving button information. It adds the Shell-defined data for the first button at **pCurrent** and then advances **pCurrent** to the start of the unused portion.
 
-After each button is saved, a [TBN\_SAVE](tbn-save.md) notification code is sent and [**NMTBSAVE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave) is returned with these members set as follows.
+After each button is saved, a [TBN\_SAVE](tbn-save.md) notification code is sent and [**NMTBSAVE**](/windows/win32/api/commctrl/ns-commctrl-nmtbsave) is returned with these members set as follows.
 
 
 
@@ -190,11 +190,11 @@ The Shell then goes to the next button, adds its information to **pData**, advan
 
 ### Restoring Saved Toolbars
 
-The restore process basically reverses the save process. At the beginning, your application will receive a [TBN\_RESTORE](tbn-restore.md) notification code with the **iItem** member of the [**NMTBRESTORE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbrestore) structure set to –1. The **cbData** member is set to the size of **pData**, and **cButtons** is set to the number of buttons.
+The restore process basically reverses the save process. At the beginning, your application will receive a [TBN\_RESTORE](tbn-restore.md) notification code with the **iItem** member of the [**NMTBRESTORE**](/windows/win32/api/commctrl/ns-commctrl-nmtbrestore) structure set to –1. The **cbData** member is set to the size of **pData**, and **cButtons** is set to the number of buttons.
 
 Your notification handler should extract the global information that was placed at the beginning of **pData** during the save, and advance **pCurrent** to the start of the first block of Shell-defined data. Set **cBytesPerRecord** to the size of the data blocks you used to save the button data. Set **cButtons** to the number of buttons, and return.
 
-The next [**NMTBRESTORE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbrestore) is for the first button. The **pCurrent** member points to the start of your first block of button data, and **iItem** is set to the button index. Extract that data and advance **pCurrent**. Load the data into [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton), and return. To omit a button from the restored toolbar, set the **idCommand** member of **TBBUTTON** to zero. The Shell will repeat the process for the remaining buttons. In addition to the [**NMTBSAVE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave) and **NMTBRESTORE** messages, you can also use messages such as [TBN\_RESET](tbn-reset.md) to save and restore a toolbar.
+The next [**NMTBRESTORE**](/windows/win32/api/commctrl/ns-commctrl-nmtbrestore) is for the first button. The **pCurrent** member points to the start of your first block of button data, and **iItem** is set to the button index. Extract that data and advance **pCurrent**. Load the data into [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton), and return. To omit a button from the restored toolbar, set the **idCommand** member of **TBBUTTON** to zero. The Shell will repeat the process for the remaining buttons. In addition to the [**NMTBSAVE**](/windows/win32/api/commctrl/ns-commctrl-nmtbsave) and **NMTBRESTORE** messages, you can also use messages such as [TBN\_RESET](tbn-reset.md) to save and restore a toolbar.
 
 The following code example saves a toolbar before it is customized, and restores it if the application receives a [TBN\_RESET](tbn-reset.md) message.
 

@@ -34,7 +34,7 @@ Not used; must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SCROLLBARINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollbarinfo) structure that receives the information.
+Pointer to a [**SCROLLBARINFO**](/windows/win32/api/winuser/ns-winuser-scrollbarinfo) structure that receives the information.
 
 </dd> </dl>
 
@@ -66,7 +66,7 @@ To get extended error information, call [**GetLastError**](https://docs.microsof
 [**GetScrollBarInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo)
 </dt> <dt>
 
-[**SCROLLBARINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollbarinfo)
+[**SCROLLBARINFO**](/windows/win32/api/winuser/ns-winuser-scrollbarinfo)
 </dt> </dl>
 
  

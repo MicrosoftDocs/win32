@@ -17,7 +17,7 @@ api_location:
 
 # EC\_DVD\_CURRENT\_HMSF\_TIME
 
-Signals the current time, in [**DVD\_HMSF\_TIMECODE**](/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode) format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.
+Signals the current time, in [**DVD\_HMSF\_TIMECODE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.
 
 ## Parameters
 
@@ -33,7 +33,7 @@ A ULONG value that contains the DVD\_HMSF\_TIMECODE structure. Assign lParam1 to
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-A ULONG value containing a union of [**DVD\_TIMECODE\_FLAGS**](/windows/desktop/api/strmif/ne-strmif-tagdvd_timecode_flags).
+A ULONG value containing a union of [**DVD\_TIMECODE\_FLAGS**](/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags).
 
 </dd> </dl>
 

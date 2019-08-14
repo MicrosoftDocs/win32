@@ -14,8 +14,8 @@ ms.date: 05/31/2018
 Following are the structures associated with OpenGL:
 
 -   [**GLYPHMETRICSFLOAT**](/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat)
--   [**LAYERPLANEDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-taglayerplanedescriptor)
--   [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor)
+-   [**LAYERPLANEDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-layerplanedescriptor)
+-   [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor)
 -   [**POINTFLOAT**](/windows/desktop/api/wingdi/ns-wingdi-pointfloat)
 
  

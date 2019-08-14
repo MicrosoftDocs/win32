@@ -30,7 +30,7 @@ Determines which portion of a rebar band is at a given point on the screen, if a
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**RBHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_rb_hittestinfo) structure. Before sending the message, the **pt** member of this structure must be initialized to the point that will be hit tested, in client coordinates.
+Pointer to an [**RBHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-rbhittestinfo) structure. Before sending the message, the **pt** member of this structure must be initialized to the point that will be hit tested, in client coordinates.
 
 </dd> </dl>
 

@@ -31,13 +31,13 @@ Set to IMR\_COMPOSITIONWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing a [**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform) structure.
+Pointer to a buffer containing a [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform) structure.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills in the [**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills in the [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform) structure. Otherwise, the command returns 0.
 
 ## Remarks
 
@@ -65,7 +65,7 @@ This command can be sent by the IME to a window that has cleared the ISC\_SHOWUI
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform)
+[**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

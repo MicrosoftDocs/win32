@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 -   [**DLGITEMTEMPLATEEX**](dlgitemtemplateex.md)
 -   [**DLGTEMPLATE**](/windows/desktop/api/Winuser/ns-winuser-dlgtemplate)
 -   [**DLGTEMPLATEEX**](dlgtemplateex.md)
--   [**MSGBOXPARAMS**](/windows/desktop/api/Winuser/ns-winuser-tagmsgboxparamsa)
+-   [**MSGBOXPARAMS**](/windows/win32/api/winuser/ns-winuser-msgboxparamsa)
 
  
 
