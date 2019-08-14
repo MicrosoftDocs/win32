@@ -75,6 +75,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_PRIMITIVE_TOPOLOGY_TYPE**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_primitive_topology_type). Specifies how the pipeline interprets geometry or hull shader input primitives. |
 | [**D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_programmable_sample_positions_tier). Specifies the level of support for programmable sample positions that's offered by the adapter. |
 | [**D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_resource_session_support_flags). Defines constants that specify protected resource session support. |
+| [**D3D12_PROTECTED_SESSION_STATUS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_session_status). Defines constants that specify protected session status. |
 | [**D3D12_QUERY_HEAP_TYPE**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_query_heap_type). Specifies the type of query heap to create. |
 | [**D3D12_QUERY_TYPE**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_query_type). Specifies the type of query. |
 | [**D3D12_RAY_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_ray_flags). Flags passed to the [**TraceRay**](/windows/desktop/direct3d12/traceray-function) function to override transparency, culling, and early-out behavior. |
