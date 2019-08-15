@@ -63,7 +63,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>API index</h3>
-                        <p>Navigate the full Win32 API index for developing desktop and server applications Windows 10 and earlier versions.</p>
+                        <p>Navigate the full Win32 API index for developing desktop and server applications for Windows 10 and earlier versions.</p>
                     </div>
                 </div>
             </div>
