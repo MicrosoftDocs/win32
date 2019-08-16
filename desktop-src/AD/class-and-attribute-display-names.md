@@ -27,7 +27,7 @@ The **attributeDisplayNames** values are Unicode strings; each element consists 
 
 
 
-In this example, "<attribute name>" is the **lDAPDisplayName** of the attribute and "<display text>" is the text to display as the name of that attribute in the user interface.
+In this example, "&lt;attribute name&gt;" is the **lDAPDisplayName** of the attribute and "&lt;display text&gt;" is the text to display as the name of that attribute in the user interface.
 
 ## Guidelines for Class and Attribute Display Names
 

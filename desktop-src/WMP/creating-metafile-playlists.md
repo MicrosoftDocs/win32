@@ -27,13 +27,13 @@ You can create a playlist using any text editor, such as Microsoft Notepad. Open
 
 If an element does not have any child elements (those that modify or are contained within another element), a single slash character (/) can be used at the end of the opening tag, just before the '>', in place of a closing tag. Child elements of an element must appear between the opening and closing tag for that element; otherwise they are not child elements for that element, and are ignored or cause an error in the syntax of the playlist.
 
-The first four characters of a playlist must be "<ASX". The **ASX** element is used in all playlists whether their extension is .wax, .wvx, or .asx. There must be only one **ASX** element per playlist. This element identifies the file as a Windows Media metafile playlist. It does not specify the type of playlist.
+The first four characters of a playlist must be "&lt;ASX". The **ASX** element is used in all playlists whether their extension is .wax, .wvx, or .asx. There must be only one **ASX** element per playlist. This element identifies the file as a Windows Media metafile playlist. It does not specify the type of playlist.
 
 The **ASX** element has three possible attributes:
 
 **VERSION**
 
-The **VERSION** attribute is required and must follow immediately after the **ASX** element, for example "<ASX version = "3.0">". The current version number is 3.0. Windows Media Player supports all previous versions. Acceptable values for the **VERSION** attribute include both 3.0 and 3 (with no decimal point).
+The **VERSION** attribute is required and must follow immediately after the **ASX** element, for example "<ASX version = "3.0"&gt;". The current version number is 3.0. Windows Media Player supports all previous versions. Acceptable values for the **VERSION** attribute include both 3.0 and 3 (with no decimal point).
 
 **PREVIEWMODE**
 

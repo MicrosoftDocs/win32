@@ -32,7 +32,7 @@ An application directory partition also has a corresponding [**crossRef**](https
 
 **To create a new application directory partition with its first replica, perform the following steps**
 
-1.  Bind to the namespace for the new partition, specifying the domain controller that will host the application directory partition in the ADsPath. For example, to create a partition with an ADsPath of "DC=dynamicdata,DC=mydomain,DC=com", the binding ADsPath would be "LDAP://<domain controller>/DC=mydomain,DC=com", where "<domain controller>" is the DNS name of the domain controller that will host the partition.
+1.  Bind to the namespace for the new partition, specifying the domain controller that will host the application directory partition in the ADsPath. For example, to create a partition with an ADsPath of "DC=dynamicdata,DC=mydomain,DC=com", the binding ADsPath would be "LDAP://<domain controller>/DC=mydomain,DC=com", where "&lt;domain controller&gt;" is the DNS name of the domain controller that will host the partition.
 
     The bind operation must specify the fast and delegation options. The fast option allows the bind to succeed even if the namespace does not exist. The delegation option is required to allow the domain controller to contact the Domain-Naming FSMO role holder using the same credentials.
 

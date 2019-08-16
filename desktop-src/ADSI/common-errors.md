@@ -48,7 +48,7 @@ Any error code of the hexadecimal form 8007xxxx is a standard Win32 error code. 
 
 **net helpmsg <number>**
 
-In the command line above, "<number>" is the decimal number obtained by converting the last four digits of the error code from hexadecimal. This command line will provide a more useful description of the Win32 error, which can be of great help in debugging your script.
+In the command line above, "&lt;number&gt;" is the decimal number obtained by converting the last four digits of the error code from hexadecimal. This command line will provide a more useful description of the Win32 error, which can be of great help in debugging your script.
 
  
 

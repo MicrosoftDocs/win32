@@ -55,9 +55,9 @@ Notification handlers are registered under the **dsUIAdminNotification** attribu
 
 
 
-The "<order number>" is an unsigned number that represents the position of the handler in the confirmation dialog. When the confirmation dialog is displayed, the values are sorted using a comparison of each value's "<order number>". If more than one value has the same "<order number>", those handlers are displayed in the order they are read from the Active Directory server. A non-existing, that is, one not used by other values in the property, "<order number>" should be used if possible. There is no prescribed starting position, and gaps can appear in the "<order number>" sequence.
+The "&lt;order number&gt;" is an unsigned number that represents the position of the handler in the confirmation dialog. When the confirmation dialog is displayed, the values are sorted using a comparison of each value's "&lt;order number&gt;". If more than one value has the same "&lt;order number&gt;", those handlers are displayed in the order they are read from the Active Directory server. A non-existing, that is, one not used by other values in the property, "&lt;order number&gt;" should be used if possible. There is no prescribed starting position, and gaps can appear in the "&lt;order number&gt;" sequence.
 
-The "<CLSID>" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx) function.
+The "&lt;CLSID&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx) function.
 
  
 

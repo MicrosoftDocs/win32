@@ -41,9 +41,9 @@ Beginning with Windows 2000, the LDAP provider is used to access Active Directo
 
 In the examples above, "LDAP:" specifies the LDAP provider. "GC:" uses the LDAP provider to bind to the Global Catalog service to execute fast queries.
 
-"<host name>" specifies the server to bind to and is optional. If possible, do not specify a server. It is also possible to bind to an object in a different domain. To do this pass the domain naming system (DNS) name of the target domain for "<host name>". For example, to bind to the Users container in the domain2 domain of fabrikam.com, the binding string would be "LDAP://domain2.fabrikam.com/CN=Users,DC=domain2,DC=fabrikam,DC=com".
+"&lt;host name&gt;" specifies the server to bind to and is optional. If possible, do not specify a server. It is also possible to bind to an object in a different domain. To do this pass the domain naming system (DNS) name of the target domain for "&lt;host name&gt;". For example, to bind to the Users container in the domain2 domain of fabrikam.com, the binding string would be "LDAP://domain2.fabrikam.com/CN=Users,DC=domain2,DC=fabrikam,DC=com".
 
-"<object name>" represents a specific object in Active Directory Domain Services. The object name can be a distinguished name or an object GUID.
+"&lt;object name&gt;" represents a specific object in Active Directory Domain Services. The object name can be a distinguished name or an object GUID.
 
 For more information about LDAP binding strings, see [LDAP ADsPath](https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath).
 
