@@ -2,8 +2,9 @@
   href: learn-to-program-for-windows.md
   items: 
   - name: "Intro to Win32 programming in C++"
-    href: introduction-to-windows-programming-in-c--.md
     items: 
+    - name: "Overview"
+      href: introduction-to-windows-programming-in-c--.md
     - name: "Prepare Your Development Environment"
       href: prepare-your-development-environment.md
     - name: "Windows Coding Conventions"
@@ -31,8 +32,9 @@
     - name: "Managing Application State"
       href: managing-application-state-.md
   - name: "Module 2. Using COM in Your Windows Program"
-    href: module-2--using-com-in-your-windows-program.md
     items: 
+    - name: "Overview"
+      href: module-2--using-com-in-your-windows-program.md
     - name: "What Is a COM Interface?"
       href: what-is-a-com-interface-.md
     - name: "Initializing the COM Library"
@@ -54,8 +56,9 @@
     - name: "Error Handling in COM"
       href: error-handling-in-com.md
   - name: "Module 3. Windows Graphics"
-    href: module-3---windows-graphics.md
     items: 
+    - name: "Overview"
+      href: module-3---windows-graphics.md
     - name: "Overview of the Windows Graphics Architecture"
       href: overview-of-the-windows-graphics-architecture.md
     - name: "The Desktop Window Manager"
@@ -77,8 +80,9 @@
     - name: "Appendix: Matrix Transforms"
       href: appendix--matrix-transforms.md
   - name: "Module 4. User Input"
-    href: module-4--user-input.md
     items: 
+    - name: "Overview"
+      href: module-4--user-input.md
     - name: "Mouse Input"
       href: mouse-input.md
     - name: "Responding to Mouse Clicks"
@@ -96,8 +100,9 @@
     - name: "User Input: Extended Example"
       href: user-input--extended-example.md
   - name: "Get Started with Win32: Sample Code"
-    href: learn-to-program-for-windows--sample-code.md
     items: 
+    - name: "Overview"
+      href: learn-to-program-for-windows--sample-code.md
     - name: "Windows Hello World Sample"
       href: windows-hello-world-sample.md
     - name: "BaseWindow Sample"
