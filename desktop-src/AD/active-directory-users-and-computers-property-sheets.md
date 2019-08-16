@@ -30,16 +30,17 @@ This documentation assumes that the reader is familiar with COM operation and co
 
     -   [**CFSTR\_DSOBJECTNAMES**](cfstr-dsobjectnames.md) This data format contains a [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) that identifies the object that the property sheet applies to. When hosting a property sheet, the more significant members of the **DSOBJECTNAMES** structure are shown in the following list.
 
-**clsidNamespace** Reserved. Set this to a GUID for your application here in case that it is used in the future.
-**aObjects** Contains an array of [**DSBOJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structures. Each **DSBOJECT** structure represents a single directory object. The **cItems** member contains the number of elements in the array. Only the first object in this array is used. Other objects are ignored.
+        **clsidNamespace** Reserved. Set this to a GUID for your application here in case that it is used in the future.
+        
+        **aObjects** Contains an array of [**DSBOJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structures. Each **DSBOJECT** structure represents a single directory object. The **cItems** member contains the number of elements in the array. Only the first object in this array is used. Other objects are ignored.
 
     -   [**CFSTR\_DSDISPLAYSPECOPTIONS**](cfstr-ds-display-spec-options.md) This data format contains a [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-dsdisplayspecoptions) structure that contains data that will be used by the property pages, such as where to load the property pages from, the server and credentials to use, and so on. The more significant members of the **DSDISPLAYSPECOPTIONS** are shown in the following list.
 
-**offsetAttribPrefix** The attribute prefix string determines where the list of property pages is obtained. This must contain one of the following strings.
+        **offsetAttribPrefix** The attribute prefix string determines where the list of property pages is obtained. This must contain one of the following strings.
 
         
 
-        | Attribute prefix string | Description                                                                                                          |
+        | Attribute prefix string | Description                                              |
         |-------------------------|----------------------------------------------------------------------------------------------------------------------|
         | "admin"<br/>      | The property pages are loaded from the [**adminPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages) attribute.<br/> |
         | "shell"<br/>      | The property pages are loaded from the [**shellPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages) attribute.<br/> |
@@ -49,12 +50,12 @@ This documentation assumes that the reader is familiar with COM operation and co
 
     -   [**CFSTR\_DS\_PROPSHEETCONFIG**](cfstr-ds-propsheetconfig.md) This data format contains a [**PROPSHEETCFG**](propsheetcfg.md) structure that contains property sheet host data. When hosting a property sheet, the more significant members of the **PROPSHEETCFG** structure contain the data shown in the following list.
 
-**lNotifyHandle** Must be zero.
-**hwndParentSheet**  Contains the handle of the window to receive [**WM\_ADSPROP\_NOTIFY\_CHANGE**](wm-adsprop-notify-change.md) messages when something in one of the pages changes and is applied. Can be **NULL** if this message is not desired.
+        **lNotifyHandle** Must be zero.
+        **hwndParentSheet**  Contains the handle of the window to receive [**WM\_ADSPROP\_NOTIFY\_CHANGE**](wm-adsprop-notify-change.md) messages when something in one of the pages changes and is applied. Can be **NULL** if this message is not desired.
 
-**hwndHidden** Contains the handle of the window to receive [**WM\_DSA\_SHEET\_CREATE\_NOTIFY**](wm-dsa-sheet-create-notify.md) and [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) messages. Set this to the handle of your hidden window.
+        **hwndHidden** Contains the handle of the window to receive [**WM\_DSA\_SHEET\_CREATE\_NOTIFY**](wm-dsa-sheet-create-notify.md) and [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) messages. Set this to the handle of your hidden window.
 
-**wParamSheetClose** Contains an application-defined identifier that is returned in the *wParam* in the [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) message. If this member is zero, the **WM\_DSA\_SHEET\_CLOSE\_NOTIFY** message will not be posted to the hidden window.
+        **wParamSheetClose** Contains an application-defined identifier that is returned in the *wParam* in the [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) message. If this member is zero, the **WM\_DSA\_SHEET\_CLOSE\_NOTIFY** message will not be posted to the hidden window.
 
 
 3.  Create an instance of the [**CLSID\_DsPropertyPages**](guids-of-user-interface-elements.md) object and obtain the [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) interface for the object. It is also possible to duplicate the behavior of the **CLSID\_DsPropertyPages** object. For more information, see Duplicating the Behavior of the CLSID\_DsPropertyPages Object.
