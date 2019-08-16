@@ -15,8 +15,9 @@
     - name: "WinMain: The Application Entry Point"
       href: winmain--the-application-entry-point.md
   - name: "Module 1. Your First Windows Program"
-    href: your-first-windows-program.md
     items: 
+    - name: "Overview"
+      href: your-first-windows-program.md
     - name: "Creating a Window"
       href: creating-a-window.md
     - name: "Window Messages"
