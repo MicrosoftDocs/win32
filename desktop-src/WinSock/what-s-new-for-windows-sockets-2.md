@@ -421,7 +421,7 @@ The following are new Windows Sockets structures and enumerations:
 -   [**GROUP\_REQ**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_req)
 -   [**GROUP\_SOURCE\_REQ**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_source_req)
 -   [**MULTICAST\_MODE\_TYPE**](/windows/desktop/api/Ws2ipdef/ne-ws2ipdef-multicast_mode_type)
--   [**NAPI\_DOMAIN\_DESCRIPTION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_domain_description_blob_tag)
+-   [**NAPI\_DOMAIN\_DESCRIPTION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_domain_description_blob)
 -   [**NAPI\_PROVIDER\_INSTALLATION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_provider_installation_blob_tag)
 -   [**NAPI\_PROVIDER\_LEVEL**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_level_tag)
 -   [**NAPI\_PROVIDER\_TYPE**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_type_tag)
