@@ -93,22 +93,22 @@ industry (see Table 2).
 
 []{#_Ref166950984 .anchor}Table 2 Full Text of Common Acronyms
 
-  **Acronym**   **Full Text**
-  ------------- ----------------------------------------------------
-  ASCII         American Standard Code for Information Interchange
-  BIOS          Basic Input Output System
-  CPU           Central Processing Unit
-  exFAT         extensible File Allocation Table
-  FAT           File Allocation Table
-  FAT12         File Allocation Table, 12-bit cluster indices
-  FAT16         File Allocation Table, 16-bit cluster indices
-  FAT32         File Allocation Table, 32-bit cluster indices
-  GPT           GUID Partition Table
-  GUID          Globally Unique Identifier (see Section 10.1)
-  INT           Interrupt
-  MBR           Master Boot Record
-  texFAT        Transaction-safe exFAT
-  UTC           Coordinated Universal Time
+| **Acronym** | **Full Text**                                      |
+|-------------|----------------------------------------------------|
+| ASCII       | American Standard Code for Information Interchange |
+| BIOS        | Basic Input Output System                          |
+| CPU         | Central Processing Unit                            |
+| exFAT       | extensible File Allocation Table                   |
+| FAT         | File Allocation Table                              |
+| FAT12       | File Allocation Table, 12-bit cluster indices      |
+| FAT16       | File Allocation Table, 16-bit cluster indices      |
+| FAT32       | File Allocation Table, 32-bit cluster indices      |
+| GPT         | GUID Partition Table                               |
+| GUID        | Globally Unique Identifier (see Section 10.1)      |
+| INT         | Interrupt                                          |
+| MBR         | Master Boot Record                                 |
+| texFAT      | Transaction-safe exFAT                             |
+| UTC         | Coordinated Universal Time                         |
 
 Default Field and Structure Qualifiers
 --------------------------------------
@@ -2731,25 +2731,25 @@ name does not collide with the name under comparison.
 []{#_Ref187772045 .anchor}Table 24 Mandatory First 128 Up-case Table
 Entries
 
-  **Table Index**   **Table Entries**                                                                           
-  ----------------- ------------------- ----------- ----------- ----------- ----------- ----------- ----------- -----------
-                    **+ 0**             **+ 1**     **+ 2**     **+ 3**     **+ 4**     **+ 5**     **+ 6**     **+ 7**
-  **0000h**         0000h               0001h       0002h       0003h       0004h       0005h       0006h       0007h
-  **0008h**         0008h               0009h       000Ah       000Bh       000Ch       000Dh       000Eh       000Fh
-  **0010h**         0010h               0011h       0012h       0013h       0014h       0015h       0016h       0017h
-  **0018h**         0018h               0019h       001Ah       001Bh       001Ch       001Dh       001Eh       001Fh
-  **0020h**         0020h               0021h       0022h       0023h       0024h       0025h       0026h       0027h
-  **0028h**         0028h               0029h       002Ah       002Bh       002Ch       002Dh       002Eh       002Fh
-  **0030h**         0030h               0031h       0032h       0033h       0034h       0035h       0036h       0037h
-  **0038h**         0038h               0039h       003Ah       003Bh       003Ch       003Dh       003Eh       003Fh
-  **0040h**         0040h               0041h       0042h       0043h       0044h       0045h       0046h       0047h
-  **0048h**         0048h               0049h       004Ah       004Bh       004Ch       004Dh       004Eh       004Fh
-  **0050h**         0050h               0051h       0052h       0053h       0054h       0055h       0056h       0057h
-  **0058h**         0058h               0059h       005Ah       005Bh       005Ch       005Dh       005Eh       005Fh
-  **0060h**         0060h               **0041h**   **0042h**   **0043h**   **0044h**   **0045h**   **0046h**   **0047h**
-  **0068h**         **0048h**           **0049h**   **004Ah**   **004Bh**   **004Ch**   **004Dh**   **004Eh**   **004Fh**
-  **0070h**         **0050h**           **0051h**   **0052h**   **0053h**   **0054h**   **0055h**   **0056h**   **0057h**
-  **0078h**         **0058h**           **0059h**   **005Ah**   007Bh       007Ch       007Dh       007Eh       007Fh
+| **Table Index** | **Table Entries** |           |           |           |           |           |           |           |
+|-----------------|-------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|                 | **+ 0**           | **+ 1**   | **+ 2**   | **+ 3**   | **+ 4**   | **+ 5**   | **+ 6**   | **+ 7**   |
+| **0000h**       | 0000h             | 0001h     | 0002h     | 0003h     | 0004h     | 0005h     | 0006h     | 0007h     |
+| **0008h**       | 0008h             | 0009h     | 000Ah     | 000Bh     | 000Ch     | 000Dh     | 000Eh     | 000Fh     |
+| **0010h**       | 0010h             | 0011h     | 0012h     | 0013h     | 0014h     | 0015h     | 0016h     | 0017h     |
+| **0018h**       | 0018h             | 0019h     | 001Ah     | 001Bh     | 001Ch     | 001Dh     | 001Eh     | 001Fh     |
+| **0020h**       | 0020h             | 0021h     | 0022h     | 0023h     | 0024h     | 0025h     | 0026h     | 0027h     |
+| **0028h**       | 0028h             | 0029h     | 002Ah     | 002Bh     | 002Ch     | 002Dh     | 002Eh     | 002Fh     |
+| **0030h**       | 0030h             | 0031h     | 0032h     | 0033h     | 0034h     | 0035h     | 0036h     | 0037h     |
+| **0038h**       | 0038h             | 0039h     | 003Ah     | 003Bh     | 003Ch     | 003Dh     | 003Eh     | 003Fh     |
+| **0040h**       | 0040h             | 0041h     | 0042h     | 0043h     | 0044h     | 0045h     | 0046h     | 0047h     |
+| **0048h**       | 0048h             | 0049h     | 004Ah     | 004Bh     | 004Ch     | 004Dh     | 004Eh     | 004Fh     |
+| **0050h**       | 0050h             | 0051h     | 0052h     | 0053h     | 0054h     | 0055h     | 0056h     | 0057h     |
+| **0058h**       | 0058h             | 0059h     | 005Ah     | 005Bh     | 005Ch     | 005Dh     | 005Eh     | 005Fh     |
+| **0060h**       | 0060h             | **0041h** | **0042h** | **0043h** | **0044h** | **0045h** | **0046h** | **0047h** |
+| **0068h**       | **0048h**         | **0049h** | **004Ah** | **004Bh** | **004Ch** | **004Dh** | **004Eh** | **004Fh** |
+| **0070h**       | **0050h**         | **0051h** | **0052h** | **0053h** | **0054h** | **0055h** | **0056h** | **0057h** |
+| **0078h**       | **0058h**         | **0059h** | **005Ah** | 007Bh     | 007Ch     | 007Dh     | 007Eh     | 007Fh     |
 
 **(Note: entries with non-identity up-case mappings are in bold)**
 
@@ -2790,374 +2790,374 @@ range (from character codes 0000h to FFFFh inclusive).
 []{#_Ref188111300 .anchor}Table 25 Recommended Up-case Table in
 Compressed Format
 
-  **Raw Offset**   **Compressed Table Entries**                                                               
-  ---------------- ------------------------------ --------- --------- --------- --------- --------- --------- ---------
-                   **+ 0**                        **+ 1**   **+ 2**   **+ 3**   **+ 4**   **+ 5**   **+ 6**   **+ 7**
-  **0000h**        0000h                          0001h     0002h     0003h     0004h     0005h     0006h     0007h
-  **0008h**        0008h                          0009h     000Ah     000Bh     000Ch     000Dh     000Eh     000Fh
-  **0010h**        0010h                          0011h     0012h     0013h     0014h     0015h     0016h     0017h
-  **0018h**        0018h                          0019h     001Ah     001Bh     001Ch     001Dh     001Eh     001Fh
-  **0020h**        0020h                          0021h     0022h     0023h     0024h     0025h     0026h     0027h
-  **0028h**        0028h                          0029h     002Ah     002Bh     002Ch     002Dh     002Eh     002Fh
-  **0030h**        0030h                          0031h     0032h     0033h     0034h     0035h     0036h     0037h
-  **0038h**        0038h                          0039h     003Ah     003Bh     003Ch     003Dh     003Eh     003Fh
-  **0040h**        0040h                          0041h     0042h     0043h     0044h     0045h     0046h     0047h
-  **0048h**        0048h                          0049h     004Ah     004Bh     004Ch     004Dh     004Eh     004Fh
-  **0050h**        0050h                          0051h     0052h     0053h     0054h     0055h     0056h     0057h
-  **0058h**        0058h                          0059h     005Ah     005Bh     005Ch     005Dh     005Eh     005Fh
-  **0060h**        0060h                          0041h     0042h     0043h     0044h     0045h     0046h     0047h
-  **0068h**        0048h                          0049h     004Ah     004Bh     004Ch     004Dh     004Eh     004Fh
-  **0070h**        0050h                          0051h     0052h     0053h     0054h     0055h     0056h     0057h
-  **0078h**        0058h                          0059h     005Ah     007Bh     007Ch     007Dh     007Eh     007Fh
-  **0080h**        0080h                          0081h     0082h     0083h     0084h     0085h     0086h     0087h
-  **0088h**        0088h                          0089h     008Ah     008Bh     008Ch     008Dh     008Eh     008Fh
-  **0090h**        0090h                          0091h     0092h     0093h     0094h     0095h     0096h     0097h
-  **0098h**        0098h                          0099h     009Ah     009Bh     009Ch     009Dh     009Eh     009Fh
-  **00A0h**        00A0h                          00A1h     00A2h     00A3h     00A4h     00A5h     00A6h     00A7h
-  **00A8h**        00A8h                          00A9h     00AAh     00ABh     00ACh     00ADh     00AEh     00AFh
-  **00B0h**        00B0h                          00B1h     00B2h     00B3h     00B4h     00B5h     00B6h     00B7h
-  **00B8h**        00B8h                          00B9h     00BAh     00BBh     00BCh     00BDh     00BEh     00BFh
-  **00C0h**        00C0h                          00C1h     00C2h     00C3h     00C4h     00C5h     00C6h     00C7h
-  **00C8h**        00C8h                          00C9h     00CAh     00CBh     00CCh     00CDh     00CEh     00CFh
-  **00D0h**        00D0h                          00D1h     00D2h     00D3h     00D4h     00D5h     00D6h     00D7h
-  **00D8h**        00D8h                          00D9h     00DAh     00DBh     00DCh     00DDh     00DEh     00DFh
-  **00E0h**        00C0h                          00C1h     00C2h     00C3h     00C4h     00C5h     00C6h     00C7h
-  **00E8h**        00C8h                          00C9h     00CAh     00CBh     00CCh     00CDh     00CEh     00CFh
-  **00F0h**        00D0h                          00D1h     00D2h     00D3h     00D4h     00D5h     00D6h     00F7h
-  **00F8h**        00D8h                          00D9h     00DAh     00DBh     00DCh     00DDh     00DEh     0178h
-  **0100h**        0100h                          0100h     0102h     0102h     0104h     0104h     0106h     0106h
-  **0108h**        0108h                          0108h     010Ah     010Ah     010Ch     010Ch     010Eh     010Eh
-  **0110h**        0110h                          0110h     0112h     0112h     0114h     0114h     0116h     0116h
-  **0118h**        0118h                          0118h     011Ah     011Ah     011Ch     011Ch     011Eh     011Eh
-  **0120h**        0120h                          0120h     0122h     0122h     0124h     0124h     0126h     0126h
-  **0128h**        0128h                          0128h     012Ah     012Ah     012Ch     012Ch     012Eh     012Eh
-  **0130h**        0130h                          0131h     0132h     0132h     0134h     0134h     0136h     0136h
-  **0138h**        0138h                          0139h     0139h     013Bh     013Bh     013Dh     013Dh     013Fh
-  **0140h**        013Fh                          0141h     0141h     0143h     0143h     0145h     0145h     0147h
-  **0148h**        0147h                          0149h     014Ah     014Ah     014Ch     014Ch     014Eh     014Eh
-  **0150h**        0150h                          0150h     0152h     0152h     0154h     0154h     0156h     0156h
-  **0158h**        0158h                          0158h     015Ah     015Ah     015Ch     015Ch     015Eh     015Eh
-  **0160h**        0160h                          0160h     0162h     0162h     0164h     0164h     0166h     0166h
-  **0168h**        0168h                          0168h     016Ah     016Ah     016Ch     016Ch     016Eh     016Eh
-  **0170h**        0170h                          0170h     0172h     0172h     0174h     0174h     0176h     0176h
-  **0178h**        0178h                          0179h     0179h     017Bh     017Bh     017Dh     017Dh     017Fh
-  **0180h**        0243h                          0181h     0182h     0182h     0184h     0184h     0186h     0187h
-  **0188h**        0187h                          0189h     018Ah     018Bh     018Bh     018Dh     018Eh     018Fh
-  **0190h**        0190h                          0191h     0191h     0193h     0194h     01F6h     0196h     0197h
-  **0198h**        0198h                          0198h     023Dh     019Bh     019Ch     019Dh     0220h     019Fh
-  **01A0h**        01A0h                          01A0h     01A2h     01A2h     01A4h     01A4h     01A6h     01A7h
-  **01A8h**        01A7h                          01A9h     01AAh     01ABh     01ACh     01ACh     01AEh     01AFh
-  **01B0h**        01AFh                          01B1h     01B2h     01B3h     01B3h     01B5h     01B5h     01B7h
-  **01B8h**        01B8h                          01B8h     01BAh     01BBh     01BCh     01BCh     01BEh     01F7h
-  **01C0h**        01C0h                          01C1h     01C2h     01C3h     01C4h     01C5h     01C4h     01C7h
-  **01C8h**        01C8h                          01C7h     01CAh     01CBh     01CAh     01CDh     01CDh     01CFh
-  **01D0h**        01CFh                          01D1h     01D1h     01D3h     01D3h     01D5h     01D5h     01D7h
-  **01D8h**        01D7h                          01D9h     01D9h     01DBh     01DBh     018Eh     01DEh     01DEh
-  **01E0h**        01E0h                          01E0h     01E2h     01E2h     01E4h     01E4h     01E6h     01E6h
-  **01E8h**        01E8h                          01E8h     01EAh     01EAh     01ECh     01ECh     01EEh     01EEh
-  **01F0h**        01F0h                          01F1h     01F2h     01F1h     01F4h     01F4h     01F6h     01F7h
-  **01F8h**        01F8h                          01F8h     01FAh     01FAh     01FCh     01FCh     01FEh     01FEh
-  **0200h**        0200h                          0200h     0202h     0202h     0204h     0204h     0206h     0206h
-  **0208h**        0208h                          0208h     020Ah     020Ah     020Ch     020Ch     020Eh     020Eh
-  **0210h**        0210h                          0210h     0212h     0212h     0214h     0214h     0216h     0216h
-  **0218h**        0218h                          0218h     021Ah     021Ah     021Ch     021Ch     021Eh     021Eh
-  **0220h**        0220h                          0221h     0222h     0222h     0224h     0224h     0226h     0226h
-  **0228h**        0228h                          0228h     022Ah     022Ah     022Ch     022Ch     022Eh     022Eh
-  **0230h**        0230h                          0230h     0232h     0232h     0234h     0235h     0236h     0237h
-  **0238h**        0238h                          0239h     2C65h     023Bh     023Bh     023Dh     2C66h     023Fh
-  **0240h**        0240h                          0241h     0241h     0243h     0244h     0245h     0246h     0246h
-  **0248h**        0248h                          0248h     024Ah     024Ah     024Ch     024Ch     024Eh     024Eh
-  **0250h**        0250h                          0251h     0252h     0181h     0186h     0255h     0189h     018Ah
-  **0258h**        0258h                          018Fh     025Ah     0190h     025Ch     025Dh     025Eh     025Fh
-  **0260h**        0193h                          0261h     0262h     0194h     0264h     0265h     0266h     0267h
-  **0268h**        0197h                          0196h     026Ah     2C62h     026Ch     026Dh     026Eh     019Ch
-  **0270h**        0270h                          0271h     019Dh     0273h     0274h     019Fh     0276h     0277h
-  **0278h**        0278h                          0279h     027Ah     027Bh     027Ch     2C64h     027Eh     027Fh
-  **0280h**        01A6h                          0281h     0282h     01A9h     0284h     0285h     0286h     0287h
-  **0288h**        01AEh                          0244h     01B1h     01B2h     0245h     028Dh     028Eh     028Fh
-  **0290h**        0290h                          0291h     01B7h     0293h     0294h     0295h     0296h     0297h
-  **0298h**        0298h                          0299h     029Ah     029Bh     029Ch     029Dh     029Eh     029Fh
-  **02A0h**        02A0h                          02A1h     02A2h     02A3h     02A4h     02A5h     02A6h     02A7h
-  **02A8h**        02A8h                          02A9h     02AAh     02ABh     02ACh     02ADh     02AEh     02AFh
-  **02B0h**        02B0h                          02B1h     02B2h     02B3h     02B4h     02B5h     02B6h     02B7h
-  **02B8h**        02B8h                          02B9h     02BAh     02BBh     02BCh     02BDh     02BEh     02BFh
-  **02C0h**        02C0h                          02C1h     02C2h     02C3h     02C4h     02C5h     02C6h     02C7h
-  **02C8h**        02C8h                          02C9h     02CAh     02CBh     02CCh     02CDh     02CEh     02CFh
-  **02D0h**        02D0h                          02D1h     02D2h     02D3h     02D4h     02D5h     02D6h     02D7h
-  **02D8h**        02D8h                          02D9h     02DAh     02DBh     02DCh     02DDh     02DEh     02DFh
-  **02E0h**        02E0h                          02E1h     02E2h     02E3h     02E4h     02E5h     02E6h     02E7h
-  **02E8h**        02E8h                          02E9h     02EAh     02EBh     02ECh     02EDh     02EEh     02EFh
-  **02F0h**        02F0h                          02F1h     02F2h     02F3h     02F4h     02F5h     02F6h     02F7h
-  **02F8h**        02F8h                          02F9h     02FAh     02FBh     02FCh     02FDh     02FEh     02FFh
-  **0300h**        0300h                          0301h     0302h     0303h     0304h     0305h     0306h     0307h
-  **0308h**        0308h                          0309h     030Ah     030Bh     030Ch     030Dh     030Eh     030Fh
-  **0310h**        0310h                          0311h     0312h     0313h     0314h     0315h     0316h     0317h
-  **0318h**        0318h                          0319h     031Ah     031Bh     031Ch     031Dh     031Eh     031Fh
-  **0320h**        0320h                          0321h     0322h     0323h     0324h     0325h     0326h     0327h
-  **0328h**        0328h                          0329h     032Ah     032Bh     032Ch     032Dh     032Eh     032Fh
-  **0330h**        0330h                          0331h     0332h     0333h     0334h     0335h     0336h     0337h
-  **0338h**        0338h                          0339h     033Ah     033Bh     033Ch     033Dh     033Eh     033Fh
-  **0340h**        0340h                          0341h     0342h     0343h     0344h     0345h     0346h     0347h
-  **0348h**        0348h                          0349h     034Ah     034Bh     034Ch     034Dh     034Eh     034Fh
-  **0350h**        0350h                          0351h     0352h     0353h     0354h     0355h     0356h     0357h
-  **0358h**        0358h                          0359h     035Ah     035Bh     035Ch     035Dh     035Eh     035Fh
-  **0360h**        0360h                          0361h     0362h     0363h     0364h     0365h     0366h     0367h
-  **0368h**        0368h                          0369h     036Ah     036Bh     036Ch     036Dh     036Eh     036Fh
-  **0370h**        0370h                          0371h     0372h     0373h     0374h     0375h     0376h     0377h
-  **0378h**        0378h                          0379h     037Ah     03FDh     03FEh     03FFh     037Eh     037Fh
-  **0380h**        0380h                          0381h     0382h     0383h     0384h     0385h     0386h     0387h
-  **0388h**        0388h                          0389h     038Ah     038Bh     038Ch     038Dh     038Eh     038Fh
-  **0390h**        0390h                          0391h     0392h     0393h     0394h     0395h     0396h     0397h
-  **0398h**        0398h                          0399h     039Ah     039Bh     039Ch     039Dh     039Eh     039Fh
-  **03A0h**        03A0h                          03A1h     03A2h     03A3h     03A4h     03A5h     03A6h     03A7h
-  **03A8h**        03A8h                          03A9h     03AAh     03ABh     0386h     0388h     0389h     038Ah
-  **03B0h**        03B0h                          0391h     0392h     0393h     0394h     0395h     0396h     0397h
-  **03B8h**        0398h                          0399h     039Ah     039Bh     039Ch     039Dh     039Eh     039Fh
-  **03C0h**        03A0h                          03A1h     03A3h     03A3h     03A4h     03A5h     03A6h     03A7h
-  **03C8h**        03A8h                          03A9h     03AAh     03ABh     038Ch     038Eh     038Fh     03CFh
-  **03D0h**        03D0h                          03D1h     03D2h     03D3h     03D4h     03D5h     03D6h     03D7h
-  **03D8h**        03D8h                          03D8h     03DAh     03DAh     03DCh     03DCh     03DEh     03DEh
-  **03E0h**        03E0h                          03E0h     03E2h     03E2h     03E4h     03E4h     03E6h     03E6h
-  **03E8h**        03E8h                          03E8h     03EAh     03EAh     03ECh     03ECh     03EEh     03EEh
-  **03F0h**        03F0h                          03F1h     03F9h     03F3h     03F4h     03F5h     03F6h     03F7h
-  **03F8h**        03F7h                          03F9h     03FAh     03FAh     03FCh     03FDh     03FEh     03FFh
-  **0400h**        0400h                          0401h     0402h     0403h     0404h     0405h     0406h     0407h
-  **0408h**        0408h                          0409h     040Ah     040Bh     040Ch     040Dh     040Eh     040Fh
-  **0410h**        0410h                          0411h     0412h     0413h     0414h     0415h     0416h     0417h
-  **0418h**        0418h                          0419h     041Ah     041Bh     041Ch     041Dh     041Eh     041Fh
-  **0420h**        0420h                          0421h     0422h     0423h     0424h     0425h     0426h     0427h
-  **0428h**        0428h                          0429h     042Ah     042Bh     042Ch     042Dh     042Eh     042Fh
-  **0430h**        0410h                          0411h     0412h     0413h     0414h     0415h     0416h     0417h
-  **0438h**        0418h                          0419h     041Ah     041Bh     041Ch     041Dh     041Eh     041Fh
-  **0440h**        0420h                          0421h     0422h     0423h     0424h     0425h     0426h     0427h
-  **0448h**        0428h                          0429h     042Ah     042Bh     042Ch     042Dh     042Eh     042Fh
-  **0450h**        0400h                          0401h     0402h     0403h     0404h     0405h     0406h     0407h
-  **0458h**        0408h                          0409h     040Ah     040Bh     040Ch     040Dh     040Eh     040Fh
-  **0460h**        0460h                          0460h     0462h     0462h     0464h     0464h     0466h     0466h
-  **0468h**        0468h                          0468h     046Ah     046Ah     046Ch     046Ch     046Eh     046Eh
-  **0470h**        0470h                          0470h     0472h     0472h     0474h     0474h     0476h     0476h
-  **0478h**        0478h                          0478h     047Ah     047Ah     047Ch     047Ch     047Eh     047Eh
-  **0480h**        0480h                          0480h     0482h     0483h     0484h     0485h     0486h     0487h
-  **0488h**        0488h                          0489h     048Ah     048Ah     048Ch     048Ch     048Eh     048Eh
-  **0490h**        0490h                          0490h     0492h     0492h     0494h     0494h     0496h     0496h
-  **0498h**        0498h                          0498h     049Ah     049Ah     049Ch     049Ch     049Eh     049Eh
-  **04A0h**        04A0h                          04A0h     04A2h     04A2h     04A4h     04A4h     04A6h     04A6h
-  **04A8h**        04A8h                          04A8h     04AAh     04AAh     04ACh     04ACh     04AEh     04AEh
-  **04B0h**        04B0h                          04B0h     04B2h     04B2h     04B4h     04B4h     04B6h     04B6h
-  **04B8h**        04B8h                          04B8h     04BAh     04BAh     04BCh     04BCh     04BEh     04BEh
-  **04C0h**        04C0h                          04C1h     04C1h     04C3h     04C3h     04C5h     04C5h     04C7h
-  **04C8h**        04C7h                          04C9h     04C9h     04CBh     04CBh     04CDh     04CDh     04C0h
-  **04D0h**        04D0h                          04D0h     04D2h     04D2h     04D4h     04D4h     04D6h     04D6h
-  **04D8h**        04D8h                          04D8h     04DAh     04DAh     04DCh     04DCh     04DEh     04DEh
-  **04E0h**        04E0h                          04E0h     04E2h     04E2h     04E4h     04E4h     04E6h     04E6h
-  **04E8h**        04E8h                          04E8h     04EAh     04EAh     04ECh     04ECh     04EEh     04EEh
-  **04F0h**        04F0h                          04F0h     04F2h     04F2h     04F4h     04F4h     04F6h     04F6h
-  **04F8h**        04F8h                          04F8h     04FAh     04FAh     04FCh     04FCh     04FEh     04FEh
-  **0500h**        0500h                          0500h     0502h     0502h     0504h     0504h     0506h     0506h
-  **0508h**        0508h                          0508h     050Ah     050Ah     050Ch     050Ch     050Eh     050Eh
-  **0510h**        0510h                          0510h     0512h     0512h     0514h     0515h     0516h     0517h
-  **0518h**        0518h                          0519h     051Ah     051Bh     051Ch     051Dh     051Eh     051Fh
-  **0520h**        0520h                          0521h     0522h     0523h     0524h     0525h     0526h     0527h
-  **0528h**        0528h                          0529h     052Ah     052Bh     052Ch     052Dh     052Eh     052Fh
-  **0530h**        0530h                          0531h     0532h     0533h     0534h     0535h     0536h     0537h
-  **0538h**        0538h                          0539h     053Ah     053Bh     053Ch     053Dh     053Eh     053Fh
-  **0540h**        0540h                          0541h     0542h     0543h     0544h     0545h     0546h     0547h
-  **0548h**        0548h                          0549h     054Ah     054Bh     054Ch     054Dh     054Eh     054Fh
-  **0550h**        0550h                          0551h     0552h     0553h     0554h     0555h     0556h     0557h
-  **0558h**        0558h                          0559h     055Ah     055Bh     055Ch     055Dh     055Eh     055Fh
-  **0560h**        0560h                          0531h     0532h     0533h     0534h     0535h     0536h     0537h
-  **0568h**        0538h                          0539h     053Ah     053Bh     053Ch     053Dh     053Eh     053Fh
-  **0570h**        0540h                          0541h     0542h     0543h     0544h     0545h     0546h     0547h
-  **0578h**        0548h                          0549h     054Ah     054Bh     054Ch     054Dh     054Eh     054Fh
-  **0580h**        0550h                          0551h     0552h     0553h     0554h     0555h     0556h     FFFFh
-  **0588h**        17F6h                          2C63h     1D7Eh     1D7Fh     1D80h     1D81h     1D82h     1D83h
-  **0590h**        1D84h                          1D85h     1D86h     1D87h     1D88h     1D89h     1D8Ah     1D8Bh
-  **0598h**        1D8Ch                          1D8Dh     1D8Eh     1D8Fh     1D90h     1D91h     1D92h     1D93h
-  **05A0h**        1D94h                          1D95h     1D96h     1D97h     1D98h     1D99h     1D9Ah     1D9Bh
-  **05A8h**        1D9Ch                          1D9Dh     1D9Eh     1D9Fh     1DA0h     1DA1h     1DA2h     1DA3h
-  **05B0h**        1DA4h                          1DA5h     1DA6h     1DA7h     1DA8h     1DA9h     1DAAh     1DABh
-  **05B8h**        1DACh                          1DADh     1DAEh     1DAFh     1DB0h     1DB1h     1DB2h     1DB3h
-  **05C0h**        1DB4h                          1DB5h     1DB6h     1DB7h     1DB8h     1DB9h     1DBAh     1DBBh
-  **05C8h**        1DBCh                          1DBDh     1DBEh     1DBFh     1DC0h     1DC1h     1DC2h     1DC3h
-  **05D0h**        1DC4h                          1DC5h     1DC6h     1DC7h     1DC8h     1DC9h     1DCAh     1DCBh
-  **05D8h**        1DCCh                          1DCDh     1DCEh     1DCFh     1DD0h     1DD1h     1DD2h     1DD3h
-  **05E0h**        1DD4h                          1DD5h     1DD6h     1DD7h     1DD8h     1DD9h     1DDAh     1DDBh
-  **05E8h**        1DDCh                          1DDDh     1DDEh     1DDFh     1DE0h     1DE1h     1DE2h     1DE3h
-  **05F0h**        1DE4h                          1DE5h     1DE6h     1DE7h     1DE8h     1DE9h     1DEAh     1DEBh
-  **05F8h**        1DECh                          1DEDh     1DEEh     1DEFh     1DF0h     1DF1h     1DF2h     1DF3h
-  **0600h**        1DF4h                          1DF5h     1DF6h     1DF7h     1DF8h     1DF9h     1DFAh     1DFBh
-  **0608h**        1DFCh                          1DFDh     1DFEh     1DFFh     1E00h     1E00h     1E02h     1E02h
-  **0610h**        1E04h                          1E04h     1E06h     1E06h     1E08h     1E08h     1E0Ah     1E0Ah
-  **0618h**        1E0Ch                          1E0Ch     1E0Eh     1E0Eh     1E10h     1E10h     1E12h     1E12h
-  **0620h**        1E14h                          1E14h     1E16h     1E16h     1E18h     1E18h     1E1Ah     1E1Ah
-  **0628h**        1E1Ch                          1E1Ch     1E1Eh     1E1Eh     1E20h     1E20h     1E22h     1E22h
-  **0630h**        1E24h                          1E24h     1E26h     1E26h     1E28h     1E28h     1E2Ah     1E2Ah
-  **0638h**        1E2Ch                          1E2Ch     1E2Eh     1E2Eh     1E30h     1E30h     1E32h     1E32h
-  **0640h**        1E34h                          1E34h     1E36h     1E36h     1E38h     1E38h     1E3Ah     1E3Ah
-  **0648h**        1E3Ch                          1E3Ch     1E3Eh     1E3Eh     1E40h     1E40h     1E42h     1E42h
-  **0650h**        1E44h                          1E44h     1E46h     1E46h     1E48h     1E48h     1E4Ah     1E4Ah
-  **0658h**        1E4Ch                          1E4Ch     1E4Eh     1E4Eh     1E50h     1E50h     1E52h     1E52h
-  **0660h**        1E54h                          1E54h     1E56h     1E56h     1E58h     1E58h     1E5Ah     1E5Ah
-  **0668h**        1E5Ch                          1E5Ch     1E5Eh     1E5Eh     1E60h     1E60h     1E62h     1E62h
-  **0670h**        1E64h                          1E64h     1E66h     1E66h     1E68h     1E68h     1E6Ah     1E6Ah
-  **0678h**        1E6Ch                          1E6Ch     1E6Eh     1E6Eh     1E70h     1E70h     1E72h     1E72h
-  **0680h**        1E74h                          1E74h     1E76h     1E76h     1E78h     1E78h     1E7Ah     1E7Ah
-  **0688h**        1E7Ch                          1E7Ch     1E7Eh     1E7Eh     1E80h     1E80h     1E82h     1E82h
-  **0690h**        1E84h                          1E84h     1E86h     1E86h     1E88h     1E88h     1E8Ah     1E8Ah
-  **0698h**        1E8Ch                          1E8Ch     1E8Eh     1E8Eh     1E90h     1E90h     1E92h     1E92h
-  **06A0h**        1E94h                          1E94h     1E96h     1E97h     1E98h     1E99h     1E9Ah     1E9Bh
-  **06A8h**        1E9Ch                          1E9Dh     1E9Eh     1E9Fh     1EA0h     1EA0h     1EA2h     1EA2h
-  **06B0h**        1EA4h                          1EA4h     1EA6h     1EA6h     1EA8h     1EA8h     1EAAh     1EAAh
-  **06B8h**        1EACh                          1EACh     1EAEh     1EAEh     1EB0h     1EB0h     1EB2h     1EB2h
-  **06C0h**        1EB4h                          1EB4h     1EB6h     1EB6h     1EB8h     1EB8h     1EBAh     1EBAh
-  **06C8h**        1EBCh                          1EBCh     1EBEh     1EBEh     1EC0h     1EC0h     1EC2h     1EC2h
-  **06D0h**        1EC4h                          1EC4h     1EC6h     1EC6h     1EC8h     1EC8h     1ECAh     1ECAh
-  **06D8h**        1ECCh                          1ECCh     1ECEh     1ECEh     1ED0h     1ED0h     1ED2h     1ED2h
-  **06E0h**        1ED4h                          1ED4h     1ED6h     1ED6h     1ED8h     1ED8h     1EDAh     1EDAh
-  **06E8h**        1EDCh                          1EDCh     1EDEh     1EDEh     1EE0h     1EE0h     1EE2h     1EE2h
-  **06F0h**        1EE4h                          1EE4h     1EE6h     1EE6h     1EE8h     1EE8h     1EEAh     1EEAh
-  **06F8h**        1EECh                          1EECh     1EEEh     1EEEh     1EF0h     1EF0h     1EF2h     1EF2h
-  **0700h**        1EF4h                          1EF4h     1EF6h     1EF6h     1EF8h     1EF8h     1EFAh     1EFBh
-  **0708h**        1EFCh                          1EFDh     1EFEh     1EFFh     1F08h     1F09h     1F0Ah     1F0Bh
-  **0710h**        1F0Ch                          1F0Dh     1F0Eh     1F0Fh     1F08h     1F09h     1F0Ah     1F0Bh
-  **0718h**        1F0Ch                          1F0Dh     1F0Eh     1F0Fh     1F18h     1F19h     1F1Ah     1F1Bh
-  **0720h**        1F1Ch                          1F1Dh     1F16h     1F17h     1F18h     1F19h     1F1Ah     1F1Bh
-  **0728h**        1F1Ch                          1F1Dh     1F1Eh     1F1Fh     1F28h     1F29h     1F2Ah     1F2Bh
-  **0730h**        1F2Ch                          1F2Dh     1F2Eh     1F2Fh     1F28h     1F29h     1F2Ah     1F2Bh
-  **0738h**        1F2Ch                          1F2Dh     1F2Eh     1F2Fh     1F38h     1F39h     1F3Ah     1F3Bh
-  **0740h**        1F3Ch                          1F3Dh     1F3Eh     1F3Fh     1F38h     1F39h     1F3Ah     1F3Bh
-  **0748h**        1F3Ch                          1F3Dh     1F3Eh     1F3Fh     1F48h     1F49h     1F4Ah     1F4Bh
-  **0750h**        1F4Ch                          1F4Dh     1F46h     1F47h     1F48h     1F49h     1F4Ah     1F4Bh
-  **0758h**        1F4Ch                          1F4Dh     1F4Eh     1F4Fh     1F50h     1F59h     1F52h     1F5Bh
-  **0760h**        1F54h                          1F5Dh     1F56h     1F5Fh     1F58h     1F59h     1F5Ah     1F5Bh
-  **0768h**        1F5Ch                          1F5Dh     1F5Eh     1F5Fh     1F68h     1F69h     1F6Ah     1F6Bh
-  **0770h**        1F6Ch                          1F6Dh     1F6Eh     1F6Fh     1F68h     1F69h     1F6Ah     1F6Bh
-  **0778h**        1F6Ch                          1F6Dh     1F6Eh     1F6Fh     1FBAh     1FBBh     1FC8h     1FC9h
-  **0780h**        1FCAh                          1FCBh     1FDAh     1FDBh     1FF8h     1FF9h     1FEAh     1FEBh
-  **0788h**        1FFAh                          1FFBh     1F7Eh     1F7Fh     1F88h     1F89h     1F8Ah     1F8Bh
-  **0790h**        1F8Ch                          1F8Dh     1F8Eh     1F8Fh     1F88h     1F89h     1F8Ah     1F8Bh
-  **0798h**        1F8Ch                          1F8Dh     1F8Eh     1F8Fh     1F98h     1F99h     1F9Ah     1F9Bh
-  **07A0h**        1F9Ch                          1F9Dh     1F9Eh     1F9Fh     1F98h     1F99h     1F9Ah     1F9Bh
-  **07A8h**        1F9Ch                          1F9Dh     1F9Eh     1F9Fh     1FA8h     1FA9h     1FAAh     1FABh
-  **07B0h**        1FACh                          1FADh     1FAEh     1FAFh     1FA8h     1FA9h     1FAAh     1FABh
-  **07B8h**        1FACh                          1FADh     1FAEh     1FAFh     1FB8h     1FB9h     1FB2h     1FBCh
-  **07C0h**        1FB4h                          1FB5h     1FB6h     1FB7h     1FB8h     1FB9h     1FBAh     1FBBh
-  **07C8h**        1FBCh                          1FBDh     1FBEh     1FBFh     1FC0h     1FC1h     1FC2h     1FC3h
-  **07D0h**        1FC4h                          1FC5h     1FC6h     1FC7h     1FC8h     1FC9h     1FCAh     1FCBh
-  **07D8h**        1FC3h                          1FCDh     1FCEh     1FCFh     1FD8h     1FD9h     1FD2h     1FD3h
-  **07E0h**        1FD4h                          1FD5h     1FD6h     1FD7h     1FD8h     1FD9h     1FDAh     1FDBh
-  **07E8h**        1FDCh                          1FDDh     1FDEh     1FDFh     1FE8h     1FE9h     1FE2h     1FE3h
-  **07F0h**        1FE4h                          1FECh     1FE6h     1FE7h     1FE8h     1FE9h     1FEAh     1FEBh
-  **07F8h**        1FECh                          1FEDh     1FEEh     1FEFh     1FF0h     1FF1h     1FF2h     1FF3h
-  **0800h**        1FF4h                          1FF5h     1FF6h     1FF7h     1FF8h     1FF9h     1FFAh     1FFBh
-  **0808h**        1FF3h                          1FFDh     1FFEh     1FFFh     2000h     2001h     2002h     2003h
-  **0810h**        2004h                          2005h     2006h     2007h     2008h     2009h     200Ah     200Bh
-  **0818h**        200Ch                          200Dh     200Eh     200Fh     2010h     2011h     2012h     2013h
-  **0820h**        2014h                          2015h     2016h     2017h     2018h     2019h     201Ah     201Bh
-  **0828h**        201Ch                          201Dh     201Eh     201Fh     2020h     2021h     2022h     2023h
-  **0830h**        2024h                          2025h     2026h     2027h     2028h     2029h     202Ah     202Bh
-  **0838h**        202Ch                          202Dh     202Eh     202Fh     2030h     2031h     2032h     2033h
-  **0840h**        2034h                          2035h     2036h     2037h     2038h     2039h     203Ah     203Bh
-  **0848h**        203Ch                          203Dh     203Eh     203Fh     2040h     2041h     2042h     2043h
-  **0850h**        2044h                          2045h     2046h     2047h     2048h     2049h     204Ah     204Bh
-  **0858h**        204Ch                          204Dh     204Eh     204Fh     2050h     2051h     2052h     2053h
-  **0860h**        2054h                          2055h     2056h     2057h     2058h     2059h     205Ah     205Bh
-  **0868h**        205Ch                          205Dh     205Eh     205Fh     2060h     2061h     2062h     2063h
-  **0870h**        2064h                          2065h     2066h     2067h     2068h     2069h     206Ah     206Bh
-  **0878h**        206Ch                          206Dh     206Eh     206Fh     2070h     2071h     2072h     2073h
-  **0880h**        2074h                          2075h     2076h     2077h     2078h     2079h     207Ah     207Bh
-  **0888h**        207Ch                          207Dh     207Eh     207Fh     2080h     2081h     2082h     2083h
-  **0890h**        2084h                          2085h     2086h     2087h     2088h     2089h     208Ah     208Bh
-  **0898h**        208Ch                          208Dh     208Eh     208Fh     2090h     2091h     2092h     2093h
-  **08A0h**        2094h                          2095h     2096h     2097h     2098h     2099h     209Ah     209Bh
-  **08A8h**        209Ch                          209Dh     209Eh     209Fh     20A0h     20A1h     20A2h     20A3h
-  **08B0h**        20A4h                          20A5h     20A6h     20A7h     20A8h     20A9h     20AAh     20ABh
-  **08B8h**        20ACh                          20ADh     20AEh     20AFh     20B0h     20B1h     20B2h     20B3h
-  **08C0h**        20B4h                          20B5h     20B6h     20B7h     20B8h     20B9h     20BAh     20BBh
-  **08C8h**        20BCh                          20BDh     20BEh     20BFh     20C0h     20C1h     20C2h     20C3h
-  **08D0h**        20C4h                          20C5h     20C6h     20C7h     20C8h     20C9h     20CAh     20CBh
-  **08D8h**        20CCh                          20CDh     20CEh     20CFh     20D0h     20D1h     20D2h     20D3h
-  **08E0h**        20D4h                          20D5h     20D6h     20D7h     20D8h     20D9h     20DAh     20DBh
-  **08E8h**        20DCh                          20DDh     20DEh     20DFh     20E0h     20E1h     20E2h     20E3h
-  **08F0h**        20E4h                          20E5h     20E6h     20E7h     20E8h     20E9h     20EAh     20EBh
-  **08F8h**        20ECh                          20EDh     20EEh     20EFh     20F0h     20F1h     20F2h     20F3h
-  **0900h**        20F4h                          20F5h     20F6h     20F7h     20F8h     20F9h     20FAh     20FBh
-  **0908h**        20FCh                          20FDh     20FEh     20FFh     2100h     2101h     2102h     2103h
-  **0910h**        2104h                          2105h     2106h     2107h     2108h     2109h     210Ah     210Bh
-  **0918h**        210Ch                          210Dh     210Eh     210Fh     2110h     2111h     2112h     2113h
-  **0920h**        2114h                          2115h     2116h     2117h     2118h     2119h     211Ah     211Bh
-  **0928h**        211Ch                          211Dh     211Eh     211Fh     2120h     2121h     2122h     2123h
-  **0930h**        2124h                          2125h     2126h     2127h     2128h     2129h     212Ah     212Bh
-  **0938h**        212Ch                          212Dh     212Eh     212Fh     2130h     2131h     2132h     2133h
-  **0940h**        2134h                          2135h     2136h     2137h     2138h     2139h     213Ah     213Bh
-  **0948h**        213Ch                          213Dh     213Eh     213Fh     2140h     2141h     2142h     2143h
-  **0950h**        2144h                          2145h     2146h     2147h     2148h     2149h     214Ah     214Bh
-  **0958h**        214Ch                          214Dh     2132h     214Fh     2150h     2151h     2152h     2153h
-  **0960h**        2154h                          2155h     2156h     2157h     2158h     2159h     215Ah     215Bh
-  **0968h**        215Ch                          215Dh     215Eh     215Fh     2160h     2161h     2162h     2163h
-  **0970h**        2164h                          2165h     2166h     2167h     2168h     2169h     216Ah     216Bh
-  **0978h**        216Ch                          216Dh     216Eh     216Fh     2160h     2161h     2162h     2163h
-  **0980h**        2164h                          2165h     2166h     2167h     2168h     2169h     216Ah     216Bh
-  **0988h**        216Ch                          216Dh     216Eh     216Fh     2180h     2181h     2182h     2183h
-  **0990h**        2183h                          FFFFh     034Bh     24B6h     24B7h     24B8h     24B9h     24BAh
-  **0998h**        24BBh                          24BCh     24BDh     24BEh     24BFh     24C0h     24C1h     24C2h
-  **09A0h**        24C3h                          24C4h     24C5h     24C6h     24C7h     24C8h     24C9h     24CAh
-  **09A8h**        24CBh                          24CCh     24CDh     24CEh     24CFh     FFFFh     0746h     2C00h
-  **09B0h**        2C01h                          2C02h     2C03h     2C04h     2C05h     2C06h     2C07h     2C08h
-  **09B8h**        2C09h                          2C0Ah     2C0Bh     2C0Ch     2C0Dh     2C0Eh     2C0Fh     2C10h
-  **09C0h**        2C11h                          2C12h     2C13h     2C14h     2C15h     2C16h     2C17h     2C18h
-  **09C8h**        2C19h                          2C1Ah     2C1Bh     2C1Ch     2C1Dh     2C1Eh     2C1Fh     2C20h
-  **09D0h**        2C21h                          2C22h     2C23h     2C24h     2C25h     2C26h     2C27h     2C28h
-  **09D8h**        2C29h                          2C2Ah     2C2Bh     2C2Ch     2C2Dh     2C2Eh     2C5Fh     2C60h
-  **09E0h**        2C60h                          2C62h     2C63h     2C64h     2C65h     2C66h     2C67h     2C67h
-  **09E8h**        2C69h                          2C69h     2C6Bh     2C6Bh     2C6Dh     2C6Eh     2C6Fh     2C70h
-  **09F0h**        2C71h                          2C72h     2C73h     2C74h     2C75h     2C75h     2C77h     2C78h
-  **09F8h**        2C79h                          2C7Ah     2C7Bh     2C7Ch     2C7Dh     2C7Eh     2C7Fh     2C80h
-  **0A00h**        2C80h                          2C82h     2C82h     2C84h     2C84h     2C86h     2C86h     2C88h
-  **0A08h**        2C88h                          2C8Ah     2C8Ah     2C8Ch     2C8Ch     2C8Eh     2C8Eh     2C90h
-  **0A10h**        2C90h                          2C92h     2C92h     2C94h     2C94h     2C96h     2C96h     2C98h
-  **0A18h**        2C98h                          2C9Ah     2C9Ah     2C9Ch     2C9Ch     2C9Eh     2C9Eh     2CA0h
-  **0A20h**        2CA0h                          2CA2h     2CA2h     2CA4h     2CA4h     2CA6h     2CA6h     2CA8h
-  **0A28h**        2CA8h                          2CAAh     2CAAh     2CACh     2CACh     2CAEh     2CAEh     2CB0h
-  **0A30h**        2CB0h                          2CB2h     2CB2h     2CB4h     2CB4h     2CB6h     2CB6h     2CB8h
-  **0A38h**        2CB8h                          2CBAh     2CBAh     2CBCh     2CBCh     2CBEh     2CBEh     2CC0h
-  **0A40h**        2CC0h                          2CC2h     2CC2h     2CC4h     2CC4h     2CC6h     2CC6h     2CC8h
-  **0A48h**        2CC8h                          2CCAh     2CCAh     2CCCh     2CCCh     2CCEh     2CCEh     2CD0h
-  **0A50h**        2CD0h                          2CD2h     2CD2h     2CD4h     2CD4h     2CD6h     2CD6h     2CD8h
-  **0A58h**        2CD8h                          2CDAh     2CDAh     2CDCh     2CDCh     2CDEh     2CDEh     2CE0h
-  **0A60h**        2CE0h                          2CE2h     2CE2h     2CE4h     2CE5h     2CE6h     2CE7h     2CE8h
-  **0A68h**        2CE9h                          2CEAh     2CEBh     2CECh     2CEDh     2CEEh     2CEFh     2CF0h
-  **0A70h**        2CF1h                          2CF2h     2CF3h     2CF4h     2CF5h     2CF6h     2CF7h     2CF8h
-  **0A78h**        2CF9h                          2CFAh     2CFBh     2CFCh     2CFDh     2CFEh     2CFFh     10A0h
-  **0A80h**        10A1h                          10A2h     10A3h     10A4h     10A5h     10A6h     10A7h     10A8h
-  **0A88h**        10A9h                          10AAh     10ABh     10ACh     10ADh     10AEh     10AFh     10B0h
-  **0A90h**        10B1h                          10B2h     10B3h     10B4h     10B5h     10B6h     10B7h     10B8h
-  **0A98h**        10B9h                          10BAh     10BBh     10BCh     10BDh     10BEh     10BFh     10C0h
-  **0AA0h**        10C1h                          10C2h     10C3h     10C4h     10C5h     FFFFh     D21Bh     FF21h
-  **0AA8h**        FF22h                          FF23h     FF24h     FF25h     FF26h     FF27h     FF28h     FF29h
-  **0AB0h**        FF2Ah                          FF2Bh     FF2Ch     FF2Dh     FF2Eh     FF2Fh     FF30h     FF31h
-  **0AB8h**        FF32h                          FF33h     FF34h     FF35h     FF36h     FF37h     FF38h     FF39h
-  **0AC0h**        FF3Ah                          FF5Bh     FF5Ch     FF5Dh     FF5Eh     FF5Fh     FF60h     FF61h
-  **0AC8h**        FF62h                          FF63h     FF64h     FF65h     FF66h     FF67h     FF68h     FF69h
-  **0AD0h**        FF6Ah                          FF6Bh     FF6Ch     FF6Dh     FF6Eh     FF6Fh     FF70h     FF71h
-  **0AD8h**        FF72h                          FF73h     FF74h     FF75h     FF76h     FF77h     FF78h     FF79h
-  **0AE0h**        FF7Ah                          FF7Bh     FF7Ch     FF7Dh     FF7Eh     FF7Fh     FF80h     FF81h
-  **0AE8h**        FF82h                          FF83h     FF84h     FF85h     FF86h     FF87h     FF88h     FF89h
-  **0AF0h**        FF8Ah                          FF8Bh     FF8Ch     FF8Dh     FF8Eh     FF8Fh     FF90h     FF91h
-  **0AF8h**        FF92h                          FF93h     FF94h     FF95h     FF96h     FF97h     FF98h     FF99h
-  **0B00h**        FF9Ah                          FF9Bh     FF9Ch     FF9Dh     FF9Eh     FF9Fh     FFA0h     FFA1h
-  **0B08h**        FFA2h                          FFA3h     FFA4h     FFA5h     FFA6h     FFA7h     FFA8h     FFA9h
-  **0B10h**        FFAAh                          FFABh     FFACh     FFADh     FFAEh     FFAFh     FFB0h     FFB1h
-  **0B18h**        FFB2h                          FFB3h     FFB4h     FFB5h     FFB6h     FFB7h     FFB8h     FFB9h
-  **0B20h**        FFBAh                          FFBBh     FFBCh     FFBDh     FFBEh     FFBFh     FFC0h     FFC1h
-  **0B28h**        FFC2h                          FFC3h     FFC4h     FFC5h     FFC6h     FFC7h     FFC8h     FFC9h
-  **0B30h**        FFCAh                          FFCBh     FFCCh     FFCDh     FFCEh     FFCFh     FFD0h     FFD1h
-  **0B38h**        FFD2h                          FFD3h     FFD4h     FFD5h     FFD6h     FFD7h     FFD8h     FFD9h
-  **0B40h**        FFDAh                          FFDBh     FFDCh     FFDDh     FFDEh     FFDFh     FFE0h     FFE1h
-  **0B48h**        FFE2h                          FFE3h     FFE4h     FFE5h     FFE6h     FFE7h     FFE8h     FFE9h
-  **0B50h**        FFEAh                          FFEBh     FFECh     FFEDh     FFEEh     FFEFh     FFF0h     FFF1h
-  **0B58h**        FFF2h                          FFF3h     FFF4h     FFF5h     FFF6h     FFF7h     FFF8h     FFF9h
-  **0B60h**        FFFAh                          FFFBh     FFFCh     FFFDh     FFFEh     FFFFh               
+| **Raw Offset** | **Compressed Table Entries** |         |         |         |         |         |         |         |
+|----------------|------------------------------|---------|---------|---------|---------|---------|---------|---------|
+|                | **+ 0**                      | **+ 1** | **+ 2** | **+ 3** | **+ 4** | **+ 5** | **+ 6** | **+ 7** |
+| **0000h**      | 0000h                        | 0001h   | 0002h   | 0003h   | 0004h   | 0005h   | 0006h   | 0007h   |
+| **0008h**      | 0008h                        | 0009h   | 000Ah   | 000Bh   | 000Ch   | 000Dh   | 000Eh   | 000Fh   |
+| **0010h**      | 0010h                        | 0011h   | 0012h   | 0013h   | 0014h   | 0015h   | 0016h   | 0017h   |
+| **0018h**      | 0018h                        | 0019h   | 001Ah   | 001Bh   | 001Ch   | 001Dh   | 001Eh   | 001Fh   |
+| **0020h**      | 0020h                        | 0021h   | 0022h   | 0023h   | 0024h   | 0025h   | 0026h   | 0027h   |
+| **0028h**      | 0028h                        | 0029h   | 002Ah   | 002Bh   | 002Ch   | 002Dh   | 002Eh   | 002Fh   |
+| **0030h**      | 0030h                        | 0031h   | 0032h   | 0033h   | 0034h   | 0035h   | 0036h   | 0037h   |
+| **0038h**      | 0038h                        | 0039h   | 003Ah   | 003Bh   | 003Ch   | 003Dh   | 003Eh   | 003Fh   |
+| **0040h**      | 0040h                        | 0041h   | 0042h   | 0043h   | 0044h   | 0045h   | 0046h   | 0047h   |
+| **0048h**      | 0048h                        | 0049h   | 004Ah   | 004Bh   | 004Ch   | 004Dh   | 004Eh   | 004Fh   |
+| **0050h**      | 0050h                        | 0051h   | 0052h   | 0053h   | 0054h   | 0055h   | 0056h   | 0057h   |
+| **0058h**      | 0058h                        | 0059h   | 005Ah   | 005Bh   | 005Ch   | 005Dh   | 005Eh   | 005Fh   |
+| **0060h**      | 0060h                        | 0041h   | 0042h   | 0043h   | 0044h   | 0045h   | 0046h   | 0047h   |
+| **0068h**      | 0048h                        | 0049h   | 004Ah   | 004Bh   | 004Ch   | 004Dh   | 004Eh   | 004Fh   |
+| **0070h**      | 0050h                        | 0051h   | 0052h   | 0053h   | 0054h   | 0055h   | 0056h   | 0057h   |
+| **0078h**      | 0058h                        | 0059h   | 005Ah   | 007Bh   | 007Ch   | 007Dh   | 007Eh   | 007Fh   |
+| **0080h**      | 0080h                        | 0081h   | 0082h   | 0083h   | 0084h   | 0085h   | 0086h   | 0087h   |
+| **0088h**      | 0088h                        | 0089h   | 008Ah   | 008Bh   | 008Ch   | 008Dh   | 008Eh   | 008Fh   |
+| **0090h**      | 0090h                        | 0091h   | 0092h   | 0093h   | 0094h   | 0095h   | 0096h   | 0097h   |
+| **0098h**      | 0098h                        | 0099h   | 009Ah   | 009Bh   | 009Ch   | 009Dh   | 009Eh   | 009Fh   |
+| **00A0h**      | 00A0h                        | 00A1h   | 00A2h   | 00A3h   | 00A4h   | 00A5h   | 00A6h   | 00A7h   |
+| **00A8h**      | 00A8h                        | 00A9h   | 00AAh   | 00ABh   | 00ACh   | 00ADh   | 00AEh   | 00AFh   |
+| **00B0h**      | 00B0h                        | 00B1h   | 00B2h   | 00B3h   | 00B4h   | 00B5h   | 00B6h   | 00B7h   |
+| **00B8h**      | 00B8h                        | 00B9h   | 00BAh   | 00BBh   | 00BCh   | 00BDh   | 00BEh   | 00BFh   |
+| **00C0h**      | 00C0h                        | 00C1h   | 00C2h   | 00C3h   | 00C4h   | 00C5h   | 00C6h   | 00C7h   |
+| **00C8h**      | 00C8h                        | 00C9h   | 00CAh   | 00CBh   | 00CCh   | 00CDh   | 00CEh   | 00CFh   |
+| **00D0h**      | 00D0h                        | 00D1h   | 00D2h   | 00D3h   | 00D4h   | 00D5h   | 00D6h   | 00D7h   |
+| **00D8h**      | 00D8h                        | 00D9h   | 00DAh   | 00DBh   | 00DCh   | 00DDh   | 00DEh   | 00DFh   |
+| **00E0h**      | 00C0h                        | 00C1h   | 00C2h   | 00C3h   | 00C4h   | 00C5h   | 00C6h   | 00C7h   |
+| **00E8h**      | 00C8h                        | 00C9h   | 00CAh   | 00CBh   | 00CCh   | 00CDh   | 00CEh   | 00CFh   |
+| **00F0h**      | 00D0h                        | 00D1h   | 00D2h   | 00D3h   | 00D4h   | 00D5h   | 00D6h   | 00F7h   |
+| **00F8h**      | 00D8h                        | 00D9h   | 00DAh   | 00DBh   | 00DCh   | 00DDh   | 00DEh   | 0178h   |
+| **0100h**      | 0100h                        | 0100h   | 0102h   | 0102h   | 0104h   | 0104h   | 0106h   | 0106h   |
+| **0108h**      | 0108h                        | 0108h   | 010Ah   | 010Ah   | 010Ch   | 010Ch   | 010Eh   | 010Eh   |
+| **0110h**      | 0110h                        | 0110h   | 0112h   | 0112h   | 0114h   | 0114h   | 0116h   | 0116h   |
+| **0118h**      | 0118h                        | 0118h   | 011Ah   | 011Ah   | 011Ch   | 011Ch   | 011Eh   | 011Eh   |
+| **0120h**      | 0120h                        | 0120h   | 0122h   | 0122h   | 0124h   | 0124h   | 0126h   | 0126h   |
+| **0128h**      | 0128h                        | 0128h   | 012Ah   | 012Ah   | 012Ch   | 012Ch   | 012Eh   | 012Eh   |
+| **0130h**      | 0130h                        | 0131h   | 0132h   | 0132h   | 0134h   | 0134h   | 0136h   | 0136h   |
+| **0138h**      | 0138h                        | 0139h   | 0139h   | 013Bh   | 013Bh   | 013Dh   | 013Dh   | 013Fh   |
+| **0140h**      | 013Fh                        | 0141h   | 0141h   | 0143h   | 0143h   | 0145h   | 0145h   | 0147h   |
+| **0148h**      | 0147h                        | 0149h   | 014Ah   | 014Ah   | 014Ch   | 014Ch   | 014Eh   | 014Eh   |
+| **0150h**      | 0150h                        | 0150h   | 0152h   | 0152h   | 0154h   | 0154h   | 0156h   | 0156h   |
+| **0158h**      | 0158h                        | 0158h   | 015Ah   | 015Ah   | 015Ch   | 015Ch   | 015Eh   | 015Eh   |
+| **0160h**      | 0160h                        | 0160h   | 0162h   | 0162h   | 0164h   | 0164h   | 0166h   | 0166h   |
+| **0168h**      | 0168h                        | 0168h   | 016Ah   | 016Ah   | 016Ch   | 016Ch   | 016Eh   | 016Eh   |
+| **0170h**      | 0170h                        | 0170h   | 0172h   | 0172h   | 0174h   | 0174h   | 0176h   | 0176h   |
+| **0178h**      | 0178h                        | 0179h   | 0179h   | 017Bh   | 017Bh   | 017Dh   | 017Dh   | 017Fh   |
+| **0180h**      | 0243h                        | 0181h   | 0182h   | 0182h   | 0184h   | 0184h   | 0186h   | 0187h   |
+| **0188h**      | 0187h                        | 0189h   | 018Ah   | 018Bh   | 018Bh   | 018Dh   | 018Eh   | 018Fh   |
+| **0190h**      | 0190h                        | 0191h   | 0191h   | 0193h   | 0194h   | 01F6h   | 0196h   | 0197h   |
+| **0198h**      | 0198h                        | 0198h   | 023Dh   | 019Bh   | 019Ch   | 019Dh   | 0220h   | 019Fh   |
+| **01A0h**      | 01A0h                        | 01A0h   | 01A2h   | 01A2h   | 01A4h   | 01A4h   | 01A6h   | 01A7h   |
+| **01A8h**      | 01A7h                        | 01A9h   | 01AAh   | 01ABh   | 01ACh   | 01ACh   | 01AEh   | 01AFh   |
+| **01B0h**      | 01AFh                        | 01B1h   | 01B2h   | 01B3h   | 01B3h   | 01B5h   | 01B5h   | 01B7h   |
+| **01B8h**      | 01B8h                        | 01B8h   | 01BAh   | 01BBh   | 01BCh   | 01BCh   | 01BEh   | 01F7h   |
+| **01C0h**      | 01C0h                        | 01C1h   | 01C2h   | 01C3h   | 01C4h   | 01C5h   | 01C4h   | 01C7h   |
+| **01C8h**      | 01C8h                        | 01C7h   | 01CAh   | 01CBh   | 01CAh   | 01CDh   | 01CDh   | 01CFh   |
+| **01D0h**      | 01CFh                        | 01D1h   | 01D1h   | 01D3h   | 01D3h   | 01D5h   | 01D5h   | 01D7h   |
+| **01D8h**      | 01D7h                        | 01D9h   | 01D9h   | 01DBh   | 01DBh   | 018Eh   | 01DEh   | 01DEh   |
+| **01E0h**      | 01E0h                        | 01E0h   | 01E2h   | 01E2h   | 01E4h   | 01E4h   | 01E6h   | 01E6h   |
+| **01E8h**      | 01E8h                        | 01E8h   | 01EAh   | 01EAh   | 01ECh   | 01ECh   | 01EEh   | 01EEh   |
+| **01F0h**      | 01F0h                        | 01F1h   | 01F2h   | 01F1h   | 01F4h   | 01F4h   | 01F6h   | 01F7h   |
+| **01F8h**      | 01F8h                        | 01F8h   | 01FAh   | 01FAh   | 01FCh   | 01FCh   | 01FEh   | 01FEh   |
+| **0200h**      | 0200h                        | 0200h   | 0202h   | 0202h   | 0204h   | 0204h   | 0206h   | 0206h   |
+| **0208h**      | 0208h                        | 0208h   | 020Ah   | 020Ah   | 020Ch   | 020Ch   | 020Eh   | 020Eh   |
+| **0210h**      | 0210h                        | 0210h   | 0212h   | 0212h   | 0214h   | 0214h   | 0216h   | 0216h   |
+| **0218h**      | 0218h                        | 0218h   | 021Ah   | 021Ah   | 021Ch   | 021Ch   | 021Eh   | 021Eh   |
+| **0220h**      | 0220h                        | 0221h   | 0222h   | 0222h   | 0224h   | 0224h   | 0226h   | 0226h   |
+| **0228h**      | 0228h                        | 0228h   | 022Ah   | 022Ah   | 022Ch   | 022Ch   | 022Eh   | 022Eh   |
+| **0230h**      | 0230h                        | 0230h   | 0232h   | 0232h   | 0234h   | 0235h   | 0236h   | 0237h   |
+| **0238h**      | 0238h                        | 0239h   | 2C65h   | 023Bh   | 023Bh   | 023Dh   | 2C66h   | 023Fh   |
+| **0240h**      | 0240h                        | 0241h   | 0241h   | 0243h   | 0244h   | 0245h   | 0246h   | 0246h   |
+| **0248h**      | 0248h                        | 0248h   | 024Ah   | 024Ah   | 024Ch   | 024Ch   | 024Eh   | 024Eh   |
+| **0250h**      | 0250h                        | 0251h   | 0252h   | 0181h   | 0186h   | 0255h   | 0189h   | 018Ah   |
+| **0258h**      | 0258h                        | 018Fh   | 025Ah   | 0190h   | 025Ch   | 025Dh   | 025Eh   | 025Fh   |
+| **0260h**      | 0193h                        | 0261h   | 0262h   | 0194h   | 0264h   | 0265h   | 0266h   | 0267h   |
+| **0268h**      | 0197h                        | 0196h   | 026Ah   | 2C62h   | 026Ch   | 026Dh   | 026Eh   | 019Ch   |
+| **0270h**      | 0270h                        | 0271h   | 019Dh   | 0273h   | 0274h   | 019Fh   | 0276h   | 0277h   |
+| **0278h**      | 0278h                        | 0279h   | 027Ah   | 027Bh   | 027Ch   | 2C64h   | 027Eh   | 027Fh   |
+| **0280h**      | 01A6h                        | 0281h   | 0282h   | 01A9h   | 0284h   | 0285h   | 0286h   | 0287h   |
+| **0288h**      | 01AEh                        | 0244h   | 01B1h   | 01B2h   | 0245h   | 028Dh   | 028Eh   | 028Fh   |
+| **0290h**      | 0290h                        | 0291h   | 01B7h   | 0293h   | 0294h   | 0295h   | 0296h   | 0297h   |
+| **0298h**      | 0298h                        | 0299h   | 029Ah   | 029Bh   | 029Ch   | 029Dh   | 029Eh   | 029Fh   |
+| **02A0h**      | 02A0h                        | 02A1h   | 02A2h   | 02A3h   | 02A4h   | 02A5h   | 02A6h   | 02A7h   |
+| **02A8h**      | 02A8h                        | 02A9h   | 02AAh   | 02ABh   | 02ACh   | 02ADh   | 02AEh   | 02AFh   |
+| **02B0h**      | 02B0h                        | 02B1h   | 02B2h   | 02B3h   | 02B4h   | 02B5h   | 02B6h   | 02B7h   |
+| **02B8h**      | 02B8h                        | 02B9h   | 02BAh   | 02BBh   | 02BCh   | 02BDh   | 02BEh   | 02BFh   |
+| **02C0h**      | 02C0h                        | 02C1h   | 02C2h   | 02C3h   | 02C4h   | 02C5h   | 02C6h   | 02C7h   |
+| **02C8h**      | 02C8h                        | 02C9h   | 02CAh   | 02CBh   | 02CCh   | 02CDh   | 02CEh   | 02CFh   |
+| **02D0h**      | 02D0h                        | 02D1h   | 02D2h   | 02D3h   | 02D4h   | 02D5h   | 02D6h   | 02D7h   |
+| **02D8h**      | 02D8h                        | 02D9h   | 02DAh   | 02DBh   | 02DCh   | 02DDh   | 02DEh   | 02DFh   |
+| **02E0h**      | 02E0h                        | 02E1h   | 02E2h   | 02E3h   | 02E4h   | 02E5h   | 02E6h   | 02E7h   |
+| **02E8h**      | 02E8h                        | 02E9h   | 02EAh   | 02EBh   | 02ECh   | 02EDh   | 02EEh   | 02EFh   |
+| **02F0h**      | 02F0h                        | 02F1h   | 02F2h   | 02F3h   | 02F4h   | 02F5h   | 02F6h   | 02F7h   |
+| **02F8h**      | 02F8h                        | 02F9h   | 02FAh   | 02FBh   | 02FCh   | 02FDh   | 02FEh   | 02FFh   |
+| **0300h**      | 0300h                        | 0301h   | 0302h   | 0303h   | 0304h   | 0305h   | 0306h   | 0307h   |
+| **0308h**      | 0308h                        | 0309h   | 030Ah   | 030Bh   | 030Ch   | 030Dh   | 030Eh   | 030Fh   |
+| **0310h**      | 0310h                        | 0311h   | 0312h   | 0313h   | 0314h   | 0315h   | 0316h   | 0317h   |
+| **0318h**      | 0318h                        | 0319h   | 031Ah   | 031Bh   | 031Ch   | 031Dh   | 031Eh   | 031Fh   |
+| **0320h**      | 0320h                        | 0321h   | 0322h   | 0323h   | 0324h   | 0325h   | 0326h   | 0327h   |
+| **0328h**      | 0328h                        | 0329h   | 032Ah   | 032Bh   | 032Ch   | 032Dh   | 032Eh   | 032Fh   |
+| **0330h**      | 0330h                        | 0331h   | 0332h   | 0333h   | 0334h   | 0335h   | 0336h   | 0337h   |
+| **0338h**      | 0338h                        | 0339h   | 033Ah   | 033Bh   | 033Ch   | 033Dh   | 033Eh   | 033Fh   |
+| **0340h**      | 0340h                        | 0341h   | 0342h   | 0343h   | 0344h   | 0345h   | 0346h   | 0347h   |
+| **0348h**      | 0348h                        | 0349h   | 034Ah   | 034Bh   | 034Ch   | 034Dh   | 034Eh   | 034Fh   |
+| **0350h**      | 0350h                        | 0351h   | 0352h   | 0353h   | 0354h   | 0355h   | 0356h   | 0357h   |
+| **0358h**      | 0358h                        | 0359h   | 035Ah   | 035Bh   | 035Ch   | 035Dh   | 035Eh   | 035Fh   |
+| **0360h**      | 0360h                        | 0361h   | 0362h   | 0363h   | 0364h   | 0365h   | 0366h   | 0367h   |
+| **0368h**      | 0368h                        | 0369h   | 036Ah   | 036Bh   | 036Ch   | 036Dh   | 036Eh   | 036Fh   |
+| **0370h**      | 0370h                        | 0371h   | 0372h   | 0373h   | 0374h   | 0375h   | 0376h   | 0377h   |
+| **0378h**      | 0378h                        | 0379h   | 037Ah   | 03FDh   | 03FEh   | 03FFh   | 037Eh   | 037Fh   |
+| **0380h**      | 0380h                        | 0381h   | 0382h   | 0383h   | 0384h   | 0385h   | 0386h   | 0387h   |
+| **0388h**      | 0388h                        | 0389h   | 038Ah   | 038Bh   | 038Ch   | 038Dh   | 038Eh   | 038Fh   |
+| **0390h**      | 0390h                        | 0391h   | 0392h   | 0393h   | 0394h   | 0395h   | 0396h   | 0397h   |
+| **0398h**      | 0398h                        | 0399h   | 039Ah   | 039Bh   | 039Ch   | 039Dh   | 039Eh   | 039Fh   |
+| **03A0h**      | 03A0h                        | 03A1h   | 03A2h   | 03A3h   | 03A4h   | 03A5h   | 03A6h   | 03A7h   |
+| **03A8h**      | 03A8h                        | 03A9h   | 03AAh   | 03ABh   | 0386h   | 0388h   | 0389h   | 038Ah   |
+| **03B0h**      | 03B0h                        | 0391h   | 0392h   | 0393h   | 0394h   | 0395h   | 0396h   | 0397h   |
+| **03B8h**      | 0398h                        | 0399h   | 039Ah   | 039Bh   | 039Ch   | 039Dh   | 039Eh   | 039Fh   |
+| **03C0h**      | 03A0h                        | 03A1h   | 03A3h   | 03A3h   | 03A4h   | 03A5h   | 03A6h   | 03A7h   |
+| **03C8h**      | 03A8h                        | 03A9h   | 03AAh   | 03ABh   | 038Ch   | 038Eh   | 038Fh   | 03CFh   |
+| **03D0h**      | 03D0h                        | 03D1h   | 03D2h   | 03D3h   | 03D4h   | 03D5h   | 03D6h   | 03D7h   |
+| **03D8h**      | 03D8h                        | 03D8h   | 03DAh   | 03DAh   | 03DCh   | 03DCh   | 03DEh   | 03DEh   |
+| **03E0h**      | 03E0h                        | 03E0h   | 03E2h   | 03E2h   | 03E4h   | 03E4h   | 03E6h   | 03E6h   |
+| **03E8h**      | 03E8h                        | 03E8h   | 03EAh   | 03EAh   | 03ECh   | 03ECh   | 03EEh   | 03EEh   |
+| **03F0h**      | 03F0h                        | 03F1h   | 03F9h   | 03F3h   | 03F4h   | 03F5h   | 03F6h   | 03F7h   |
+| **03F8h**      | 03F7h                        | 03F9h   | 03FAh   | 03FAh   | 03FCh   | 03FDh   | 03FEh   | 03FFh   |
+| **0400h**      | 0400h                        | 0401h   | 0402h   | 0403h   | 0404h   | 0405h   | 0406h   | 0407h   |
+| **0408h**      | 0408h                        | 0409h   | 040Ah   | 040Bh   | 040Ch   | 040Dh   | 040Eh   | 040Fh   |
+| **0410h**      | 0410h                        | 0411h   | 0412h   | 0413h   | 0414h   | 0415h   | 0416h   | 0417h   |
+| **0418h**      | 0418h                        | 0419h   | 041Ah   | 041Bh   | 041Ch   | 041Dh   | 041Eh   | 041Fh   |
+| **0420h**      | 0420h                        | 0421h   | 0422h   | 0423h   | 0424h   | 0425h   | 0426h   | 0427h   |
+| **0428h**      | 0428h                        | 0429h   | 042Ah   | 042Bh   | 042Ch   | 042Dh   | 042Eh   | 042Fh   |
+| **0430h**      | 0410h                        | 0411h   | 0412h   | 0413h   | 0414h   | 0415h   | 0416h   | 0417h   |
+| **0438h**      | 0418h                        | 0419h   | 041Ah   | 041Bh   | 041Ch   | 041Dh   | 041Eh   | 041Fh   |
+| **0440h**      | 0420h                        | 0421h   | 0422h   | 0423h   | 0424h   | 0425h   | 0426h   | 0427h   |
+| **0448h**      | 0428h                        | 0429h   | 042Ah   | 042Bh   | 042Ch   | 042Dh   | 042Eh   | 042Fh   |
+| **0450h**      | 0400h                        | 0401h   | 0402h   | 0403h   | 0404h   | 0405h   | 0406h   | 0407h   |
+| **0458h**      | 0408h                        | 0409h   | 040Ah   | 040Bh   | 040Ch   | 040Dh   | 040Eh   | 040Fh   |
+| **0460h**      | 0460h                        | 0460h   | 0462h   | 0462h   | 0464h   | 0464h   | 0466h   | 0466h   |
+| **0468h**      | 0468h                        | 0468h   | 046Ah   | 046Ah   | 046Ch   | 046Ch   | 046Eh   | 046Eh   |
+| **0470h**      | 0470h                        | 0470h   | 0472h   | 0472h   | 0474h   | 0474h   | 0476h   | 0476h   |
+| **0478h**      | 0478h                        | 0478h   | 047Ah   | 047Ah   | 047Ch   | 047Ch   | 047Eh   | 047Eh   |
+| **0480h**      | 0480h                        | 0480h   | 0482h   | 0483h   | 0484h   | 0485h   | 0486h   | 0487h   |
+| **0488h**      | 0488h                        | 0489h   | 048Ah   | 048Ah   | 048Ch   | 048Ch   | 048Eh   | 048Eh   |
+| **0490h**      | 0490h                        | 0490h   | 0492h   | 0492h   | 0494h   | 0494h   | 0496h   | 0496h   |
+| **0498h**      | 0498h                        | 0498h   | 049Ah   | 049Ah   | 049Ch   | 049Ch   | 049Eh   | 049Eh   |
+| **04A0h**      | 04A0h                        | 04A0h   | 04A2h   | 04A2h   | 04A4h   | 04A4h   | 04A6h   | 04A6h   |
+| **04A8h**      | 04A8h                        | 04A8h   | 04AAh   | 04AAh   | 04ACh   | 04ACh   | 04AEh   | 04AEh   |
+| **04B0h**      | 04B0h                        | 04B0h   | 04B2h   | 04B2h   | 04B4h   | 04B4h   | 04B6h   | 04B6h   |
+| **04B8h**      | 04B8h                        | 04B8h   | 04BAh   | 04BAh   | 04BCh   | 04BCh   | 04BEh   | 04BEh   |
+| **04C0h**      | 04C0h                        | 04C1h   | 04C1h   | 04C3h   | 04C3h   | 04C5h   | 04C5h   | 04C7h   |
+| **04C8h**      | 04C7h                        | 04C9h   | 04C9h   | 04CBh   | 04CBh   | 04CDh   | 04CDh   | 04C0h   |
+| **04D0h**      | 04D0h                        | 04D0h   | 04D2h   | 04D2h   | 04D4h   | 04D4h   | 04D6h   | 04D6h   |
+| **04D8h**      | 04D8h                        | 04D8h   | 04DAh   | 04DAh   | 04DCh   | 04DCh   | 04DEh   | 04DEh   |
+| **04E0h**      | 04E0h                        | 04E0h   | 04E2h   | 04E2h   | 04E4h   | 04E4h   | 04E6h   | 04E6h   |
+| **04E8h**      | 04E8h                        | 04E8h   | 04EAh   | 04EAh   | 04ECh   | 04ECh   | 04EEh   | 04EEh   |
+| **04F0h**      | 04F0h                        | 04F0h   | 04F2h   | 04F2h   | 04F4h   | 04F4h   | 04F6h   | 04F6h   |
+| **04F8h**      | 04F8h                        | 04F8h   | 04FAh   | 04FAh   | 04FCh   | 04FCh   | 04FEh   | 04FEh   |
+| **0500h**      | 0500h                        | 0500h   | 0502h   | 0502h   | 0504h   | 0504h   | 0506h   | 0506h   |
+| **0508h**      | 0508h                        | 0508h   | 050Ah   | 050Ah   | 050Ch   | 050Ch   | 050Eh   | 050Eh   |
+| **0510h**      | 0510h                        | 0510h   | 0512h   | 0512h   | 0514h   | 0515h   | 0516h   | 0517h   |
+| **0518h**      | 0518h                        | 0519h   | 051Ah   | 051Bh   | 051Ch   | 051Dh   | 051Eh   | 051Fh   |
+| **0520h**      | 0520h                        | 0521h   | 0522h   | 0523h   | 0524h   | 0525h   | 0526h   | 0527h   |
+| **0528h**      | 0528h                        | 0529h   | 052Ah   | 052Bh   | 052Ch   | 052Dh   | 052Eh   | 052Fh   |
+| **0530h**      | 0530h                        | 0531h   | 0532h   | 0533h   | 0534h   | 0535h   | 0536h   | 0537h   |
+| **0538h**      | 0538h                        | 0539h   | 053Ah   | 053Bh   | 053Ch   | 053Dh   | 053Eh   | 053Fh   |
+| **0540h**      | 0540h                        | 0541h   | 0542h   | 0543h   | 0544h   | 0545h   | 0546h   | 0547h   |
+| **0548h**      | 0548h                        | 0549h   | 054Ah   | 054Bh   | 054Ch   | 054Dh   | 054Eh   | 054Fh   |
+| **0550h**      | 0550h                        | 0551h   | 0552h   | 0553h   | 0554h   | 0555h   | 0556h   | 0557h   |
+| **0558h**      | 0558h                        | 0559h   | 055Ah   | 055Bh   | 055Ch   | 055Dh   | 055Eh   | 055Fh   |
+| **0560h**      | 0560h                        | 0531h   | 0532h   | 0533h   | 0534h   | 0535h   | 0536h   | 0537h   |
+| **0568h**      | 0538h                        | 0539h   | 053Ah   | 053Bh   | 053Ch   | 053Dh   | 053Eh   | 053Fh   |
+| **0570h**      | 0540h                        | 0541h   | 0542h   | 0543h   | 0544h   | 0545h   | 0546h   | 0547h   |
+| **0578h**      | 0548h                        | 0549h   | 054Ah   | 054Bh   | 054Ch   | 054Dh   | 054Eh   | 054Fh   |
+| **0580h**      | 0550h                        | 0551h   | 0552h   | 0553h   | 0554h   | 0555h   | 0556h   | FFFFh   |
+| **0588h**      | 17F6h                        | 2C63h   | 1D7Eh   | 1D7Fh   | 1D80h   | 1D81h   | 1D82h   | 1D83h   |
+| **0590h**      | 1D84h                        | 1D85h   | 1D86h   | 1D87h   | 1D88h   | 1D89h   | 1D8Ah   | 1D8Bh   |
+| **0598h**      | 1D8Ch                        | 1D8Dh   | 1D8Eh   | 1D8Fh   | 1D90h   | 1D91h   | 1D92h   | 1D93h   |
+| **05A0h**      | 1D94h                        | 1D95h   | 1D96h   | 1D97h   | 1D98h   | 1D99h   | 1D9Ah   | 1D9Bh   |
+| **05A8h**      | 1D9Ch                        | 1D9Dh   | 1D9Eh   | 1D9Fh   | 1DA0h   | 1DA1h   | 1DA2h   | 1DA3h   |
+| **05B0h**      | 1DA4h                        | 1DA5h   | 1DA6h   | 1DA7h   | 1DA8h   | 1DA9h   | 1DAAh   | 1DABh   |
+| **05B8h**      | 1DACh                        | 1DADh   | 1DAEh   | 1DAFh   | 1DB0h   | 1DB1h   | 1DB2h   | 1DB3h   |
+| **05C0h**      | 1DB4h                        | 1DB5h   | 1DB6h   | 1DB7h   | 1DB8h   | 1DB9h   | 1DBAh   | 1DBBh   |
+| **05C8h**      | 1DBCh                        | 1DBDh   | 1DBEh   | 1DBFh   | 1DC0h   | 1DC1h   | 1DC2h   | 1DC3h   |
+| **05D0h**      | 1DC4h                        | 1DC5h   | 1DC6h   | 1DC7h   | 1DC8h   | 1DC9h   | 1DCAh   | 1DCBh   |
+| **05D8h**      | 1DCCh                        | 1DCDh   | 1DCEh   | 1DCFh   | 1DD0h   | 1DD1h   | 1DD2h   | 1DD3h   |
+| **05E0h**      | 1DD4h                        | 1DD5h   | 1DD6h   | 1DD7h   | 1DD8h   | 1DD9h   | 1DDAh   | 1DDBh   |
+| **05E8h**      | 1DDCh                        | 1DDDh   | 1DDEh   | 1DDFh   | 1DE0h   | 1DE1h   | 1DE2h   | 1DE3h   |
+| **05F0h**      | 1DE4h                        | 1DE5h   | 1DE6h   | 1DE7h   | 1DE8h   | 1DE9h   | 1DEAh   | 1DEBh   |
+| **05F8h**      | 1DECh                        | 1DEDh   | 1DEEh   | 1DEFh   | 1DF0h   | 1DF1h   | 1DF2h   | 1DF3h   |
+| **0600h**      | 1DF4h                        | 1DF5h   | 1DF6h   | 1DF7h   | 1DF8h   | 1DF9h   | 1DFAh   | 1DFBh   |
+| **0608h**      | 1DFCh                        | 1DFDh   | 1DFEh   | 1DFFh   | 1E00h   | 1E00h   | 1E02h   | 1E02h   |
+| **0610h**      | 1E04h                        | 1E04h   | 1E06h   | 1E06h   | 1E08h   | 1E08h   | 1E0Ah   | 1E0Ah   |
+| **0618h**      | 1E0Ch                        | 1E0Ch   | 1E0Eh   | 1E0Eh   | 1E10h   | 1E10h   | 1E12h   | 1E12h   |
+| **0620h**      | 1E14h                        | 1E14h   | 1E16h   | 1E16h   | 1E18h   | 1E18h   | 1E1Ah   | 1E1Ah   |
+| **0628h**      | 1E1Ch                        | 1E1Ch   | 1E1Eh   | 1E1Eh   | 1E20h   | 1E20h   | 1E22h   | 1E22h   |
+| **0630h**      | 1E24h                        | 1E24h   | 1E26h   | 1E26h   | 1E28h   | 1E28h   | 1E2Ah   | 1E2Ah   |
+| **0638h**      | 1E2Ch                        | 1E2Ch   | 1E2Eh   | 1E2Eh   | 1E30h   | 1E30h   | 1E32h   | 1E32h   |
+| **0640h**      | 1E34h                        | 1E34h   | 1E36h   | 1E36h   | 1E38h   | 1E38h   | 1E3Ah   | 1E3Ah   |
+| **0648h**      | 1E3Ch                        | 1E3Ch   | 1E3Eh   | 1E3Eh   | 1E40h   | 1E40h   | 1E42h   | 1E42h   |
+| **0650h**      | 1E44h                        | 1E44h   | 1E46h   | 1E46h   | 1E48h   | 1E48h   | 1E4Ah   | 1E4Ah   |
+| **0658h**      | 1E4Ch                        | 1E4Ch   | 1E4Eh   | 1E4Eh   | 1E50h   | 1E50h   | 1E52h   | 1E52h   |
+| **0660h**      | 1E54h                        | 1E54h   | 1E56h   | 1E56h   | 1E58h   | 1E58h   | 1E5Ah   | 1E5Ah   |
+| **0668h**      | 1E5Ch                        | 1E5Ch   | 1E5Eh   | 1E5Eh   | 1E60h   | 1E60h   | 1E62h   | 1E62h   |
+| **0670h**      | 1E64h                        | 1E64h   | 1E66h   | 1E66h   | 1E68h   | 1E68h   | 1E6Ah   | 1E6Ah   |
+| **0678h**      | 1E6Ch                        | 1E6Ch   | 1E6Eh   | 1E6Eh   | 1E70h   | 1E70h   | 1E72h   | 1E72h   |
+| **0680h**      | 1E74h                        | 1E74h   | 1E76h   | 1E76h   | 1E78h   | 1E78h   | 1E7Ah   | 1E7Ah   |
+| **0688h**      | 1E7Ch                        | 1E7Ch   | 1E7Eh   | 1E7Eh   | 1E80h   | 1E80h   | 1E82h   | 1E82h   |
+| **0690h**      | 1E84h                        | 1E84h   | 1E86h   | 1E86h   | 1E88h   | 1E88h   | 1E8Ah   | 1E8Ah   |
+| **0698h**      | 1E8Ch                        | 1E8Ch   | 1E8Eh   | 1E8Eh   | 1E90h   | 1E90h   | 1E92h   | 1E92h   |
+| **06A0h**      | 1E94h                        | 1E94h   | 1E96h   | 1E97h   | 1E98h   | 1E99h   | 1E9Ah   | 1E9Bh   |
+| **06A8h**      | 1E9Ch                        | 1E9Dh   | 1E9Eh   | 1E9Fh   | 1EA0h   | 1EA0h   | 1EA2h   | 1EA2h   |
+| **06B0h**      | 1EA4h                        | 1EA4h   | 1EA6h   | 1EA6h   | 1EA8h   | 1EA8h   | 1EAAh   | 1EAAh   |
+| **06B8h**      | 1EACh                        | 1EACh   | 1EAEh   | 1EAEh   | 1EB0h   | 1EB0h   | 1EB2h   | 1EB2h   |
+| **06C0h**      | 1EB4h                        | 1EB4h   | 1EB6h   | 1EB6h   | 1EB8h   | 1EB8h   | 1EBAh   | 1EBAh   |
+| **06C8h**      | 1EBCh                        | 1EBCh   | 1EBEh   | 1EBEh   | 1EC0h   | 1EC0h   | 1EC2h   | 1EC2h   |
+| **06D0h**      | 1EC4h                        | 1EC4h   | 1EC6h   | 1EC6h   | 1EC8h   | 1EC8h   | 1ECAh   | 1ECAh   |
+| **06D8h**      | 1ECCh                        | 1ECCh   | 1ECEh   | 1ECEh   | 1ED0h   | 1ED0h   | 1ED2h   | 1ED2h   |
+| **06E0h**      | 1ED4h                        | 1ED4h   | 1ED6h   | 1ED6h   | 1ED8h   | 1ED8h   | 1EDAh   | 1EDAh   |
+| **06E8h**      | 1EDCh                        | 1EDCh   | 1EDEh   | 1EDEh   | 1EE0h   | 1EE0h   | 1EE2h   | 1EE2h   |
+| **06F0h**      | 1EE4h                        | 1EE4h   | 1EE6h   | 1EE6h   | 1EE8h   | 1EE8h   | 1EEAh   | 1EEAh   |
+| **06F8h**      | 1EECh                        | 1EECh   | 1EEEh   | 1EEEh   | 1EF0h   | 1EF0h   | 1EF2h   | 1EF2h   |
+| **0700h**      | 1EF4h                        | 1EF4h   | 1EF6h   | 1EF6h   | 1EF8h   | 1EF8h   | 1EFAh   | 1EFBh   |
+| **0708h**      | 1EFCh                        | 1EFDh   | 1EFEh   | 1EFFh   | 1F08h   | 1F09h   | 1F0Ah   | 1F0Bh   |
+| **0710h**      | 1F0Ch                        | 1F0Dh   | 1F0Eh   | 1F0Fh   | 1F08h   | 1F09h   | 1F0Ah   | 1F0Bh   |
+| **0718h**      | 1F0Ch                        | 1F0Dh   | 1F0Eh   | 1F0Fh   | 1F18h   | 1F19h   | 1F1Ah   | 1F1Bh   |
+| **0720h**      | 1F1Ch                        | 1F1Dh   | 1F16h   | 1F17h   | 1F18h   | 1F19h   | 1F1Ah   | 1F1Bh   |
+| **0728h**      | 1F1Ch                        | 1F1Dh   | 1F1Eh   | 1F1Fh   | 1F28h   | 1F29h   | 1F2Ah   | 1F2Bh   |
+| **0730h**      | 1F2Ch                        | 1F2Dh   | 1F2Eh   | 1F2Fh   | 1F28h   | 1F29h   | 1F2Ah   | 1F2Bh   |
+| **0738h**      | 1F2Ch                        | 1F2Dh   | 1F2Eh   | 1F2Fh   | 1F38h   | 1F39h   | 1F3Ah   | 1F3Bh   |
+| **0740h**      | 1F3Ch                        | 1F3Dh   | 1F3Eh   | 1F3Fh   | 1F38h   | 1F39h   | 1F3Ah   | 1F3Bh   |
+| **0748h**      | 1F3Ch                        | 1F3Dh   | 1F3Eh   | 1F3Fh   | 1F48h   | 1F49h   | 1F4Ah   | 1F4Bh   |
+| **0750h**      | 1F4Ch                        | 1F4Dh   | 1F46h   | 1F47h   | 1F48h   | 1F49h   | 1F4Ah   | 1F4Bh   |
+| **0758h**      | 1F4Ch                        | 1F4Dh   | 1F4Eh   | 1F4Fh   | 1F50h   | 1F59h   | 1F52h   | 1F5Bh   |
+| **0760h**      | 1F54h                        | 1F5Dh   | 1F56h   | 1F5Fh   | 1F58h   | 1F59h   | 1F5Ah   | 1F5Bh   |
+| **0768h**      | 1F5Ch                        | 1F5Dh   | 1F5Eh   | 1F5Fh   | 1F68h   | 1F69h   | 1F6Ah   | 1F6Bh   |
+| **0770h**      | 1F6Ch                        | 1F6Dh   | 1F6Eh   | 1F6Fh   | 1F68h   | 1F69h   | 1F6Ah   | 1F6Bh   |
+| **0778h**      | 1F6Ch                        | 1F6Dh   | 1F6Eh   | 1F6Fh   | 1FBAh   | 1FBBh   | 1FC8h   | 1FC9h   |
+| **0780h**      | 1FCAh                        | 1FCBh   | 1FDAh   | 1FDBh   | 1FF8h   | 1FF9h   | 1FEAh   | 1FEBh   |
+| **0788h**      | 1FFAh                        | 1FFBh   | 1F7Eh   | 1F7Fh   | 1F88h   | 1F89h   | 1F8Ah   | 1F8Bh   |
+| **0790h**      | 1F8Ch                        | 1F8Dh   | 1F8Eh   | 1F8Fh   | 1F88h   | 1F89h   | 1F8Ah   | 1F8Bh   |
+| **0798h**      | 1F8Ch                        | 1F8Dh   | 1F8Eh   | 1F8Fh   | 1F98h   | 1F99h   | 1F9Ah   | 1F9Bh   |
+| **07A0h**      | 1F9Ch                        | 1F9Dh   | 1F9Eh   | 1F9Fh   | 1F98h   | 1F99h   | 1F9Ah   | 1F9Bh   |
+| **07A8h**      | 1F9Ch                        | 1F9Dh   | 1F9Eh   | 1F9Fh   | 1FA8h   | 1FA9h   | 1FAAh   | 1FABh   |
+| **07B0h**      | 1FACh                        | 1FADh   | 1FAEh   | 1FAFh   | 1FA8h   | 1FA9h   | 1FAAh   | 1FABh   |
+| **07B8h**      | 1FACh                        | 1FADh   | 1FAEh   | 1FAFh   | 1FB8h   | 1FB9h   | 1FB2h   | 1FBCh   |
+| **07C0h**      | 1FB4h                        | 1FB5h   | 1FB6h   | 1FB7h   | 1FB8h   | 1FB9h   | 1FBAh   | 1FBBh   |
+| **07C8h**      | 1FBCh                        | 1FBDh   | 1FBEh   | 1FBFh   | 1FC0h   | 1FC1h   | 1FC2h   | 1FC3h   |
+| **07D0h**      | 1FC4h                        | 1FC5h   | 1FC6h   | 1FC7h   | 1FC8h   | 1FC9h   | 1FCAh   | 1FCBh   |
+| **07D8h**      | 1FC3h                        | 1FCDh   | 1FCEh   | 1FCFh   | 1FD8h   | 1FD9h   | 1FD2h   | 1FD3h   |
+| **07E0h**      | 1FD4h                        | 1FD5h   | 1FD6h   | 1FD7h   | 1FD8h   | 1FD9h   | 1FDAh   | 1FDBh   |
+| **07E8h**      | 1FDCh                        | 1FDDh   | 1FDEh   | 1FDFh   | 1FE8h   | 1FE9h   | 1FE2h   | 1FE3h   |
+| **07F0h**      | 1FE4h                        | 1FECh   | 1FE6h   | 1FE7h   | 1FE8h   | 1FE9h   | 1FEAh   | 1FEBh   |
+| **07F8h**      | 1FECh                        | 1FEDh   | 1FEEh   | 1FEFh   | 1FF0h   | 1FF1h   | 1FF2h   | 1FF3h   |
+| **0800h**      | 1FF4h                        | 1FF5h   | 1FF6h   | 1FF7h   | 1FF8h   | 1FF9h   | 1FFAh   | 1FFBh   |
+| **0808h**      | 1FF3h                        | 1FFDh   | 1FFEh   | 1FFFh   | 2000h   | 2001h   | 2002h   | 2003h   |
+| **0810h**      | 2004h                        | 2005h   | 2006h   | 2007h   | 2008h   | 2009h   | 200Ah   | 200Bh   |
+| **0818h**      | 200Ch                        | 200Dh   | 200Eh   | 200Fh   | 2010h   | 2011h   | 2012h   | 2013h   |
+| **0820h**      | 2014h                        | 2015h   | 2016h   | 2017h   | 2018h   | 2019h   | 201Ah   | 201Bh   |
+| **0828h**      | 201Ch                        | 201Dh   | 201Eh   | 201Fh   | 2020h   | 2021h   | 2022h   | 2023h   |
+| **0830h**      | 2024h                        | 2025h   | 2026h   | 2027h   | 2028h   | 2029h   | 202Ah   | 202Bh   |
+| **0838h**      | 202Ch                        | 202Dh   | 202Eh   | 202Fh   | 2030h   | 2031h   | 2032h   | 2033h   |
+| **0840h**      | 2034h                        | 2035h   | 2036h   | 2037h   | 2038h   | 2039h   | 203Ah   | 203Bh   |
+| **0848h**      | 203Ch                        | 203Dh   | 203Eh   | 203Fh   | 2040h   | 2041h   | 2042h   | 2043h   |
+| **0850h**      | 2044h                        | 2045h   | 2046h   | 2047h   | 2048h   | 2049h   | 204Ah   | 204Bh   |
+| **0858h**      | 204Ch                        | 204Dh   | 204Eh   | 204Fh   | 2050h   | 2051h   | 2052h   | 2053h   |
+| **0860h**      | 2054h                        | 2055h   | 2056h   | 2057h   | 2058h   | 2059h   | 205Ah   | 205Bh   |
+| **0868h**      | 205Ch                        | 205Dh   | 205Eh   | 205Fh   | 2060h   | 2061h   | 2062h   | 2063h   |
+| **0870h**      | 2064h                        | 2065h   | 2066h   | 2067h   | 2068h   | 2069h   | 206Ah   | 206Bh   |
+| **0878h**      | 206Ch                        | 206Dh   | 206Eh   | 206Fh   | 2070h   | 2071h   | 2072h   | 2073h   |
+| **0880h**      | 2074h                        | 2075h   | 2076h   | 2077h   | 2078h   | 2079h   | 207Ah   | 207Bh   |
+| **0888h**      | 207Ch                        | 207Dh   | 207Eh   | 207Fh   | 2080h   | 2081h   | 2082h   | 2083h   |
+| **0890h**      | 2084h                        | 2085h   | 2086h   | 2087h   | 2088h   | 2089h   | 208Ah   | 208Bh   |
+| **0898h**      | 208Ch                        | 208Dh   | 208Eh   | 208Fh   | 2090h   | 2091h   | 2092h   | 2093h   |
+| **08A0h**      | 2094h                        | 2095h   | 2096h   | 2097h   | 2098h   | 2099h   | 209Ah   | 209Bh   |
+| **08A8h**      | 209Ch                        | 209Dh   | 209Eh   | 209Fh   | 20A0h   | 20A1h   | 20A2h   | 20A3h   |
+| **08B0h**      | 20A4h                        | 20A5h   | 20A6h   | 20A7h   | 20A8h   | 20A9h   | 20AAh   | 20ABh   |
+| **08B8h**      | 20ACh                        | 20ADh   | 20AEh   | 20AFh   | 20B0h   | 20B1h   | 20B2h   | 20B3h   |
+| **08C0h**      | 20B4h                        | 20B5h   | 20B6h   | 20B7h   | 20B8h   | 20B9h   | 20BAh   | 20BBh   |
+| **08C8h**      | 20BCh                        | 20BDh   | 20BEh   | 20BFh   | 20C0h   | 20C1h   | 20C2h   | 20C3h   |
+| **08D0h**      | 20C4h                        | 20C5h   | 20C6h   | 20C7h   | 20C8h   | 20C9h   | 20CAh   | 20CBh   |
+| **08D8h**      | 20CCh                        | 20CDh   | 20CEh   | 20CFh   | 20D0h   | 20D1h   | 20D2h   | 20D3h   |
+| **08E0h**      | 20D4h                        | 20D5h   | 20D6h   | 20D7h   | 20D8h   | 20D9h   | 20DAh   | 20DBh   |
+| **08E8h**      | 20DCh                        | 20DDh   | 20DEh   | 20DFh   | 20E0h   | 20E1h   | 20E2h   | 20E3h   |
+| **08F0h**      | 20E4h                        | 20E5h   | 20E6h   | 20E7h   | 20E8h   | 20E9h   | 20EAh   | 20EBh   |
+| **08F8h**      | 20ECh                        | 20EDh   | 20EEh   | 20EFh   | 20F0h   | 20F1h   | 20F2h   | 20F3h   |
+| **0900h**      | 20F4h                        | 20F5h   | 20F6h   | 20F7h   | 20F8h   | 20F9h   | 20FAh   | 20FBh   |
+| **0908h**      | 20FCh                        | 20FDh   | 20FEh   | 20FFh   | 2100h   | 2101h   | 2102h   | 2103h   |
+| **0910h**      | 2104h                        | 2105h   | 2106h   | 2107h   | 2108h   | 2109h   | 210Ah   | 210Bh   |
+| **0918h**      | 210Ch                        | 210Dh   | 210Eh   | 210Fh   | 2110h   | 2111h   | 2112h   | 2113h   |
+| **0920h**      | 2114h                        | 2115h   | 2116h   | 2117h   | 2118h   | 2119h   | 211Ah   | 211Bh   |
+| **0928h**      | 211Ch                        | 211Dh   | 211Eh   | 211Fh   | 2120h   | 2121h   | 2122h   | 2123h   |
+| **0930h**      | 2124h                        | 2125h   | 2126h   | 2127h   | 2128h   | 2129h   | 212Ah   | 212Bh   |
+| **0938h**      | 212Ch                        | 212Dh   | 212Eh   | 212Fh   | 2130h   | 2131h   | 2132h   | 2133h   |
+| **0940h**      | 2134h                        | 2135h   | 2136h   | 2137h   | 2138h   | 2139h   | 213Ah   | 213Bh   |
+| **0948h**      | 213Ch                        | 213Dh   | 213Eh   | 213Fh   | 2140h   | 2141h   | 2142h   | 2143h   |
+| **0950h**      | 2144h                        | 2145h   | 2146h   | 2147h   | 2148h   | 2149h   | 214Ah   | 214Bh   |
+| **0958h**      | 214Ch                        | 214Dh   | 2132h   | 214Fh   | 2150h   | 2151h   | 2152h   | 2153h   |
+| **0960h**      | 2154h                        | 2155h   | 2156h   | 2157h   | 2158h   | 2159h   | 215Ah   | 215Bh   |
+| **0968h**      | 215Ch                        | 215Dh   | 215Eh   | 215Fh   | 2160h   | 2161h   | 2162h   | 2163h   |
+| **0970h**      | 2164h                        | 2165h   | 2166h   | 2167h   | 2168h   | 2169h   | 216Ah   | 216Bh   |
+| **0978h**      | 216Ch                        | 216Dh   | 216Eh   | 216Fh   | 2160h   | 2161h   | 2162h   | 2163h   |
+| **0980h**      | 2164h                        | 2165h   | 2166h   | 2167h   | 2168h   | 2169h   | 216Ah   | 216Bh   |
+| **0988h**      | 216Ch                        | 216Dh   | 216Eh   | 216Fh   | 2180h   | 2181h   | 2182h   | 2183h   |
+| **0990h**      | 2183h                        | FFFFh   | 034Bh   | 24B6h   | 24B7h   | 24B8h   | 24B9h   | 24BAh   |
+| **0998h**      | 24BBh                        | 24BCh   | 24BDh   | 24BEh   | 24BFh   | 24C0h   | 24C1h   | 24C2h   |
+| **09A0h**      | 24C3h                        | 24C4h   | 24C5h   | 24C6h   | 24C7h   | 24C8h   | 24C9h   | 24CAh   |
+| **09A8h**      | 24CBh                        | 24CCh   | 24CDh   | 24CEh   | 24CFh   | FFFFh   | 0746h   | 2C00h   |
+| **09B0h**      | 2C01h                        | 2C02h   | 2C03h   | 2C04h   | 2C05h   | 2C06h   | 2C07h   | 2C08h   |
+| **09B8h**      | 2C09h                        | 2C0Ah   | 2C0Bh   | 2C0Ch   | 2C0Dh   | 2C0Eh   | 2C0Fh   | 2C10h   |
+| **09C0h**      | 2C11h                        | 2C12h   | 2C13h   | 2C14h   | 2C15h   | 2C16h   | 2C17h   | 2C18h   |
+| **09C8h**      | 2C19h                        | 2C1Ah   | 2C1Bh   | 2C1Ch   | 2C1Dh   | 2C1Eh   | 2C1Fh   | 2C20h   |
+| **09D0h**      | 2C21h                        | 2C22h   | 2C23h   | 2C24h   | 2C25h   | 2C26h   | 2C27h   | 2C28h   |
+| **09D8h**      | 2C29h                        | 2C2Ah   | 2C2Bh   | 2C2Ch   | 2C2Dh   | 2C2Eh   | 2C5Fh   | 2C60h   |
+| **09E0h**      | 2C60h                        | 2C62h   | 2C63h   | 2C64h   | 2C65h   | 2C66h   | 2C67h   | 2C67h   |
+| **09E8h**      | 2C69h                        | 2C69h   | 2C6Bh   | 2C6Bh   | 2C6Dh   | 2C6Eh   | 2C6Fh   | 2C70h   |
+| **09F0h**      | 2C71h                        | 2C72h   | 2C73h   | 2C74h   | 2C75h   | 2C75h   | 2C77h   | 2C78h   |
+| **09F8h**      | 2C79h                        | 2C7Ah   | 2C7Bh   | 2C7Ch   | 2C7Dh   | 2C7Eh   | 2C7Fh   | 2C80h   |
+| **0A00h**      | 2C80h                        | 2C82h   | 2C82h   | 2C84h   | 2C84h   | 2C86h   | 2C86h   | 2C88h   |
+| **0A08h**      | 2C88h                        | 2C8Ah   | 2C8Ah   | 2C8Ch   | 2C8Ch   | 2C8Eh   | 2C8Eh   | 2C90h   |
+| **0A10h**      | 2C90h                        | 2C92h   | 2C92h   | 2C94h   | 2C94h   | 2C96h   | 2C96h   | 2C98h   |
+| **0A18h**      | 2C98h                        | 2C9Ah   | 2C9Ah   | 2C9Ch   | 2C9Ch   | 2C9Eh   | 2C9Eh   | 2CA0h   |
+| **0A20h**      | 2CA0h                        | 2CA2h   | 2CA2h   | 2CA4h   | 2CA4h   | 2CA6h   | 2CA6h   | 2CA8h   |
+| **0A28h**      | 2CA8h                        | 2CAAh   | 2CAAh   | 2CACh   | 2CACh   | 2CAEh   | 2CAEh   | 2CB0h   |
+| **0A30h**      | 2CB0h                        | 2CB2h   | 2CB2h   | 2CB4h   | 2CB4h   | 2CB6h   | 2CB6h   | 2CB8h   |
+| **0A38h**      | 2CB8h                        | 2CBAh   | 2CBAh   | 2CBCh   | 2CBCh   | 2CBEh   | 2CBEh   | 2CC0h   |
+| **0A40h**      | 2CC0h                        | 2CC2h   | 2CC2h   | 2CC4h   | 2CC4h   | 2CC6h   | 2CC6h   | 2CC8h   |
+| **0A48h**      | 2CC8h                        | 2CCAh   | 2CCAh   | 2CCCh   | 2CCCh   | 2CCEh   | 2CCEh   | 2CD0h   |
+| **0A50h**      | 2CD0h                        | 2CD2h   | 2CD2h   | 2CD4h   | 2CD4h   | 2CD6h   | 2CD6h   | 2CD8h   |
+| **0A58h**      | 2CD8h                        | 2CDAh   | 2CDAh   | 2CDCh   | 2CDCh   | 2CDEh   | 2CDEh   | 2CE0h   |
+| **0A60h**      | 2CE0h                        | 2CE2h   | 2CE2h   | 2CE4h   | 2CE5h   | 2CE6h   | 2CE7h   | 2CE8h   |
+| **0A68h**      | 2CE9h                        | 2CEAh   | 2CEBh   | 2CECh   | 2CEDh   | 2CEEh   | 2CEFh   | 2CF0h   |
+| **0A70h**      | 2CF1h                        | 2CF2h   | 2CF3h   | 2CF4h   | 2CF5h   | 2CF6h   | 2CF7h   | 2CF8h   |
+| **0A78h**      | 2CF9h                        | 2CFAh   | 2CFBh   | 2CFCh   | 2CFDh   | 2CFEh   | 2CFFh   | 10A0h   |
+| **0A80h**      | 10A1h                        | 10A2h   | 10A3h   | 10A4h   | 10A5h   | 10A6h   | 10A7h   | 10A8h   |
+| **0A88h**      | 10A9h                        | 10AAh   | 10ABh   | 10ACh   | 10ADh   | 10AEh   | 10AFh   | 10B0h   |
+| **0A90h**      | 10B1h                        | 10B2h   | 10B3h   | 10B4h   | 10B5h   | 10B6h   | 10B7h   | 10B8h   |
+| **0A98h**      | 10B9h                        | 10BAh   | 10BBh   | 10BCh   | 10BDh   | 10BEh   | 10BFh   | 10C0h   |
+| **0AA0h**      | 10C1h                        | 10C2h   | 10C3h   | 10C4h   | 10C5h   | FFFFh   | D21Bh   | FF21h   |
+| **0AA8h**      | FF22h                        | FF23h   | FF24h   | FF25h   | FF26h   | FF27h   | FF28h   | FF29h   |
+| **0AB0h**      | FF2Ah                        | FF2Bh   | FF2Ch   | FF2Dh   | FF2Eh   | FF2Fh   | FF30h   | FF31h   |
+| **0AB8h**      | FF32h                        | FF33h   | FF34h   | FF35h   | FF36h   | FF37h   | FF38h   | FF39h   |
+| **0AC0h**      | FF3Ah                        | FF5Bh   | FF5Ch   | FF5Dh   | FF5Eh   | FF5Fh   | FF60h   | FF61h   |
+| **0AC8h**      | FF62h                        | FF63h   | FF64h   | FF65h   | FF66h   | FF67h   | FF68h   | FF69h   |
+| **0AD0h**      | FF6Ah                        | FF6Bh   | FF6Ch   | FF6Dh   | FF6Eh   | FF6Fh   | FF70h   | FF71h   |
+| **0AD8h**      | FF72h                        | FF73h   | FF74h   | FF75h   | FF76h   | FF77h   | FF78h   | FF79h   |
+| **0AE0h**      | FF7Ah                        | FF7Bh   | FF7Ch   | FF7Dh   | FF7Eh   | FF7Fh   | FF80h   | FF81h   |
+| **0AE8h**      | FF82h                        | FF83h   | FF84h   | FF85h   | FF86h   | FF87h   | FF88h   | FF89h   |
+| **0AF0h**      | FF8Ah                        | FF8Bh   | FF8Ch   | FF8Dh   | FF8Eh   | FF8Fh   | FF90h   | FF91h   |
+| **0AF8h**      | FF92h                        | FF93h   | FF94h   | FF95h   | FF96h   | FF97h   | FF98h   | FF99h   |
+| **0B00h**      | FF9Ah                        | FF9Bh   | FF9Ch   | FF9Dh   | FF9Eh   | FF9Fh   | FFA0h   | FFA1h   |
+| **0B08h**      | FFA2h                        | FFA3h   | FFA4h   | FFA5h   | FFA6h   | FFA7h   | FFA8h   | FFA9h   |
+| **0B10h**      | FFAAh                        | FFABh   | FFACh   | FFADh   | FFAEh   | FFAFh   | FFB0h   | FFB1h   |
+| **0B18h**      | FFB2h                        | FFB3h   | FFB4h   | FFB5h   | FFB6h   | FFB7h   | FFB8h   | FFB9h   |
+| **0B20h**      | FFBAh                        | FFBBh   | FFBCh   | FFBDh   | FFBEh   | FFBFh   | FFC0h   | FFC1h   |
+| **0B28h**      | FFC2h                        | FFC3h   | FFC4h   | FFC5h   | FFC6h   | FFC7h   | FFC8h   | FFC9h   |
+| **0B30h**      | FFCAh                        | FFCBh   | FFCCh   | FFCDh   | FFCEh   | FFCFh   | FFD0h   | FFD1h   |
+| **0B38h**      | FFD2h                        | FFD3h   | FFD4h   | FFD5h   | FFD6h   | FFD7h   | FFD8h   | FFD9h   |
+| **0B40h**      | FFDAh                        | FFDBh   | FFDCh   | FFDDh   | FFDEh   | FFDFh   | FFE0h   | FFE1h   |
+| **0B48h**      | FFE2h                        | FFE3h   | FFE4h   | FFE5h   | FFE6h   | FFE7h   | FFE8h   | FFE9h   |
+| **0B50h**      | FFEAh                        | FFEBh   | FFECh   | FFEDh   | FFEEh   | FFEFh   | FFF0h   | FFF1h   |
+| **0B58h**      | FFF2h                        | FFF3h   | FFF4h   | FFF5h   | FFF6h   | FFF7h   | FFF8h   | FFF9h   |
+| **0B60h**      | FFFAh                        | FFFBh   | FFFCh   | FFFDh   | FFFEh   | FFFFh   |         |         |
 
 Volume Label Directory Entry
 ----------------------------
@@ -4277,22 +4277,22 @@ the unused characters of FileName fields to the value 0000h.
 
 []{#_Ref188098921 .anchor}Table 35 Invalid FileName Characters
 
-  **Character Code**   **Description**   **Character Code**   **Description**     **Character Code**   **Description**
-  -------------------- ----------------- -------------------- ------------------- -------------------- -----------------
-  0000h                Control code      0001h                Control code        0002h                Control code
-  0003h                Control code      0004h                Control code        0005h                Control code
-  0006h                Control code      0007h                Control code        0008h                Control code
-  0009h                Control code      000Ah                Control code        000Bh                Control code
-  000Ch                Control code      000Dh                Control code        000Eh                Control code
-  000Fh                Control code      0010h                Control code        0011h                Control code
-  0012h                Control code      0013h                Control code        0014h                Control code
-  0015h                Control code      0016h                Control code        0017h                Control code
-  0018h                Control code      0019h                Control code        001Ah                Control code
-  001Bh                Control code      001Ch                Control code        001Dh                Control code
-  001Eh                Control code      001Fh                Control code        0022h                Quotation mark
-  002Ah                Asterisk          002Fh                Forward slash       003Ah                Colon
-  003Ch                Less-than sign    003Eh                Greater-than sign   003Fh                Question mark
-  005Ch                Back slash        007Ch                Vertical bar                             
+| **Character Code** | **Description** | **Character Code** | **Description**   | **Character Code** | **Description** |
+|--------------------|-----------------|--------------------|-------------------|--------------------|-----------------|
+| 0000h              | Control code    | 0001h              | Control code      | 0002h              | Control code    |
+| 0003h              | Control code    | 0004h              | Control code      | 0005h              | Control code    |
+| 0006h              | Control code    | 0007h              | Control code      | 0008h              | Control code    |
+| 0009h              | Control code    | 000Ah              | Control code      | 000Bh              | Control code    |
+| 000Ch              | Control code    | 000Dh              | Control code      | 000Eh              | Control code    |
+| 000Fh              | Control code    | 0010h              | Control code      | 0011h              | Control code    |
+| 0012h              | Control code    | 0013h              | Control code      | 0014h              | Control code    |
+| 0015h              | Control code    | 0016h              | Control code      | 0017h              | Control code    |
+| 0018h              | Control code    | 0019h              | Control code      | 001Ah              | Control code    |
+| 001Bh              | Control code    | 001Ch              | Control code      | 001Dh              | Control code    |
+| 001Eh              | Control code    | 001Fh              | Control code      | 0022h              | Quotation mark  |
+| 002Ah              | Asterisk        | 002Fh              | Forward slash     | 003Ah              | Colon           |
+| 003Ch              | Less-than sign  | 003Eh              | Greater-than sign | 003Fh              | Question mark   |
+| 005Ch              | Back slash      | 007Ch              | Vertical bar      |                    |                 |
 
 The file names "." and ".." have the special meaning of "this directory"
 and "containing directory", respectively. Implementations shall not
@@ -4944,6 +4944,16 @@ Documentation Change History</p>
 <p>Amended incorrect statement: “FirstCluster Field shall be zero if the DataLength is zero and NoFatChain is set” in Section 6.3.5 and Section 6.4.3 to “If the NoFatChain bit is 1 then FirstCluster must point to a valid cluster in the cluster heap“ to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
 <p>Added “If the NoFatChain bit is 1 then DataLength must not be zero. If the FirstCluster field is zero, then DataLength must also be zero” to Section 6.3.6 and Section 6.4.4 to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
 <p>Updated copyright notice to 2010</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td>26-Aug-2019</td>
+<td><p>Seventh release of the Basic Specification, which includes the following changes:</p>
+<blockquote>
+<p>Updated legal terms pertaining to the specification, including:</p>
+<p>Removal of Microsoft Confidential notice</p>
+<p>Removal of Microsoft Corporation Technical Documentation License Agreement section</p>
+<p>Updated copyright notice to 2019</p>
 </blockquote></td>
 </tr>
 </tbody>
