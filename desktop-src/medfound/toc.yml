@@ -1397,6 +1397,8 @@
       items:
       - name: "Direct3D 12 Video Overview"
         href: direct3d-12-video-overview.md
+      - name: "Direct3D Video Decode Histograms"
+        href: direct3d-video-decode-histograms.md
       - name: "Migrating to Direct3D 12 video"
         href: direct3d-12-video-migration.md
       - name: "Direct3D 12 Video Enumerations"
