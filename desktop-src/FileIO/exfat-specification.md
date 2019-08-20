@@ -117,9 +117,7 @@ qualifiers (see list below), unless the specification notes otherwise.
 
 1.  Are unsigned
 
-2.  Use decimal notation to describe values, where not otherwise noted;
-    > this specification uses the post-fix letter "h" to denote
-    > hexadecimal numbers and encloses GUIDs in curly braces
+2.  Use decimal notation to describe values, where not otherwise noted; this specification uses the post-fix letter "h" to denote  hexadecimal numbers and encloses GUIDs in curly braces
 
 3.  Are in little-endian format
 
