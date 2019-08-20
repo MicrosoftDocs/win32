@@ -38,8 +38,7 @@ In the context of this specification, certain terms (see Table 1) carry
 specific meaning for the design and implementation of the exFAT file
 system.
 
-**Table 1 Definition of Terms Which Carry Very
-Specific Meaning
+**Table 1 Definition of Terms Which Carry Very Specific Meaning**
 
 <table>
 <thead>
