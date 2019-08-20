@@ -1,5 +1,5 @@
 ---
-title: Inspect
+title: Accessibility tools - Inspect
 description: Inspect (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the element's accessibility data.
 ms.assetid: 38edacbc-cf24-4818-b029-561b21e3704c
 keywords:
@@ -9,20 +9,20 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Inspect
+# Accessibility tools - Inspect
 
 **Inspect** (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the element's accessibility data. You can view Microsoft UI Automation properties and control patterns, as well as Microsoft Active Accessibility properties. **Inspect** also enables you to test the navigational structure of the automation elements in the UI Automation tree, and the accessible objects in the Microsoft Active Accessibility hierarchy.
 
 **Inspect** is installed with the Windows Software Development Kit (SDK). (It is also available in previous versions of Windows SDK.) It is located in the \\bin\\<*version*>\\<*platform*> folder of the SDK installation path (Inspect.exe).
 
--   [Requirements](#requirements)
--   [The **Inspect** Window](#the-inspect-window)
--   [Using **Inspect**](#using-inspect)
--   [Verifying Accessibility Property Information](#verifying-accessibility-property-information)
--   [Verifying Accessibility Navigation](#verifying-accessibility-navigation)
--   [Interacting with UI Elements](#interacting-with-ui-elements)
--   [Keyboard Shortcuts](#keyboard-shortcuts)
--   [Related topics](#related-topics)
+- [Requirements](#requirements)
+- [The **Inspect** Window](#the-inspect-window)
+- [Using **Inspect**](#using-inspect)
+- [Verifying Accessibility Property Information](#verifying-accessibility-property-information)
+- [Verifying Accessibility Navigation](#verifying-accessibility-navigation)
+- [Interacting with UI Elements](#interacting-with-ui-elements)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Related topics](#related-topics)
 
 ## Requirements
 
@@ -36,11 +36,11 @@ To run **Inspect**, find Inspect.exe in the \\bin\\<*version*>\\<*platform*> fol
 
 The **Inspect** window has several main parts:
 
--   Title bar. Displays the **Inspect** window handle (HWND).
--   Menu bar. Provides access to **Inspect** functionality.
--   Toolbar. Provides access to **Inspect** functionality.
--   Tree view. Presents the hierarchical structure of UI elements as a tree-view control that you can use to navigate among the elements.
--   Data view. Displays all exposed accessibility properties for the selected UI element.
+- Title bar. Displays the **Inspect** window handle (HWND).
+- Menu bar. Provides access to **Inspect** functionality.
+- Toolbar. Provides access to **Inspect** functionality.
+- Tree view. Presents the hierarchical structure of UI elements as a tree-view control that you can use to navigate among the elements.
+- Data view. Displays all exposed accessibility properties for the selected UI element.
 
 The commands available in the menu bar are also available in the toolbar. The following image shows the **Inspect** tool querying the UI Automation properties of the **Edit** menu element in Notepad.
 
@@ -52,11 +52,11 @@ When you start **Inspect**, the **Tree** view shows the location of the currentl
 
 To navigate among UI elements, you can use any of the following:
 
--   The mouse
--   The keyboard
--   The tree-view control in the **Tree** view
--   The navigation options in the **Navigation** menu
--   The navigation options in the toolbar
+- The mouse
+- The keyboard
+- The tree-view control in the **Tree** view
+- The navigation options in the **Navigation** menu
+- The navigation options in the toolbar
 
 The last three options enable you to navigate the tree hierarchy of the UI. The structure of this tree may differ slightly between UI Automation and Microsoft Active Accessibility modes.
 
@@ -74,7 +74,7 @@ The **Data** view shows the property information of the UI element that is curre
 
 **To Configure Viewing Options**
 
--   In the **Options** menu or in the toolbar, you can select the following viewing options.
+- In the **Options** menu or in the toolbar, you can select the following viewing options.
 
 
 

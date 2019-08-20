@@ -1,26 +1,26 @@
 ---
-title: Accessible Event Watcher
-description: The Accessible Event Watcher (AccEvent) tool allows developers and testers to validate that an application's UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur.
+title: Accessibility tools - AccEvent (Accessible Event Watcher)
+description: AccEvent (Accessible Event Watcher) lets developers and testers to validate that an application's UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur.
 ms.assetid: 0077da81-7a1f-4f8b-b519-ebefcc63d264
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Accessible Event Watcher
+# Accessibility tools - AccEvent (Accessible Event Watcher)
 
-The Accessible Event Watcher (AccEvent) tool allows developers and testers to validate that an application's UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur. Changes in the UI can occur when focus changes, or when a UI element is invoked, selected, or has a state or property change.
+AccEvent (Accessible Event Watcher) lets developers and testers to validate that an application's UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur. Changes in the UI can occur when focus changes, or when a UI element is invoked, selected, or has a state or property change.
 
-Accessible Event Watcher is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*> folder of the SDK installation path (Accevent.exe).
+AccEvent is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*> folder of the SDK installation path (Accevent.exe).
 
--   [Requirements](#requirements)
--   [The Accessible Event Watcher Window](#the-accessible-event-watcher-window)
--   [Accessible Event Watcher Tasks](#accessible-event-watcher-tasks)
-    -   [Configuring the Operating Mode](#configuring-the-operating-mode)
-    -   [Filtering UI Automation Events](#filtering-ui-automation-events)
-    -   [Filtering Active Accessibility Events](#filtering-active-accessibility-events)
-    -   [Using the Event Menu](#using-the-event-menu)
-    -   [Saving Active Accessibility Events](#saving-active-accessibility-events)
--   [Related topics](#related-topics)
+- [Requirements](#requirements)
+- [The AccEvent Window](#the-accessible-event-watcher-window)
+- [AccEvent Tasks](#accessible-event-watcher-tasks)
+  - [Configuring the Operating Mode](#configuring-the-operating-mode)
+  - [Filtering UI Automation Events](#filtering-ui-automation-events)
+  - [Filtering Active Accessibility Events](#filtering-active-accessibility-events)
+  - [Using the Event Menu](#using-the-event-menu)
+  - [Saving Active Accessibility Events](#saving-active-accessibility-events)
+- [Related topics](#related-topics)
 
 ## Requirements
 
@@ -34,9 +34,9 @@ To run AccEvent, find AccEvent.exe in the \\bin\\<*version*>\\<*platform*> folde
 
 When you launch AccEvent, the main window is displayed. The main AccEvent window displays the UI Automation or Microsoft Active Accessibility events raised by applications that are running. The main window has the following major parts:
 
--   Title bar. Displays the current operating mode and state.
--   Menu bar. Provides access to AccEvent functionality.
--   Data view. Displays information about each event, including the event ID and selected properties of the UI element that raised the event.
+- Title bar. Displays the current operating mode and state.
+- Menu bar. Provides access to AccEvent functionality.
+- Data view. Displays information about each event, including the event ID and selected properties of the UI element that raised the event.
 
 AccEvent has a graphical user interface only; there are no command line arguments for this tool, but you could use other tools to process the output log as text.
 
@@ -74,23 +74,23 @@ To configure the UI Automation events and properties that are displayed in the A
 
 The **UIA Event Settings** dialog box contains the following panes:
 
--   **Global Events**
+- **Global Events**
 
     Select the **FocusChangedEvent** check box to display information about global focus-changed events.
 
--   **Event Type**
+- **Event Type**
 
     Select the events that you are interested in.
 
--   **Scope**
+- **Scope**
 
     Select the UI element that you want AccEvent to listen to for events.
 
--   **Include events from**
+- **Include events from**
 
     Select **Immediate children** if you what to see events from the immediate child elements of the UI element selected in the **Scope** pane. If you want to see events from all descendant elements, select **All Descendants**.
 
--   **Report Properties**
+- **Report Properties**
 
     Select the properties that you want displayed after each event in the main window. If **Show Information Tooltip** is selected in the **Mode** menu, the selected properties are also displayed in a tooltip.
 
@@ -100,31 +100,31 @@ To configure the Microsoft Active Accessibility events and properties that are d
 
 The **WinEvent Settings** dialog box contains the following panes:
 
--   **Objects**
+- **Objects**
 
     Select the objects that you want AccEvent to listen to for events. AccEvent can listen for events originating from windows, from the cursor, or from the caret. **Window** is selected by default.
 
--   **Events**
+- **Events**
 
     Select the events that you are interested in. All events are displayed by default.
 
--   **Event Information**
+- **Event Information**
 
     Select the information you want displayed after each event's name in the main window.
 
--   **Object Properties**
+- **Object Properties**
 
     Select the properties that you want displayed after each event in the main window. If **Show Information Tooltip** is selected in the **Mode** menu, the selected properties are also displayed in a tooltip. **Name**, **Role**, and **State** are selected by default.
 
--   **Filtering**
+- **Filtering**
 
     Select one of the radio buttons in the filtering section to filter the events raised by the windows specified in the **hWNDs** field. The **Don't filter** radio button is selected by default.
 
-    -   Select the **Exclude** radio button to display only the events raised from objects other than the specified windows.
-    -   Select the **Include only** radio button and specify one or more window handles to display only events raised from those windows.
-    -   Check the **and Descendants** check box to include events raised by the descendants of the specified windows.
+    - Select the **Exclude** radio button to display only the events raised from objects other than the specified windows.
+    - Select the **Include only** radio button and specify one or more window handles to display only events raised from those windows.
+    - Check the **and Descendants** check box to include events raised by the descendants of the specified windows.
 
--   **Options**
+- **Options**
 
     Select any of the following options:
 

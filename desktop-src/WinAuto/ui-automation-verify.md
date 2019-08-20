@@ -1,6 +1,6 @@
 ---
-title: UI Automation Verify
-description: UI Automation Verify (or UIA Verify) is a testing framework for manual and automated testing of a control's or application's implementation of Microsoft UI Automation.
+title: UI Automation Verify (UIA Verify)
+description: UI Automation Verify (UIA Verify) is a testing framework for manual and automated testing of a control's or application's implementation of Microsoft UI Automation.
 ms.assetid: C66AF411-2746-4695-A893-1552B3ED1066
 keywords:
 - UI Automation Verify
@@ -13,9 +13,9 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# UI Automation Verify
+# Accessibility tools - UI Automation Verify (UIA Verify)
 
-UI Automation Verify (or UIA Verify) is a testing framework for manual and automated testing of a control's or application's implementation of Microsoft UI Automation. Most of the testing framework's functionality comes from a DLL called WUIATestLibrary.dll. This DLL contains the code for testing specific UI Automation functionality, and it also supports logging of the test results. You can integrate your application into the test code and conduct regular, automated testing or spot checks of your UI Automation scenarios.
+UI Automation Verify (UIA Verify) is a testing framework for manual and automated testing of a control's or application's implementation of Microsoft UI Automation. Most of the testing framework's functionality comes from a DLL called WUIATestLibrary.dll. This DLL contains the code for testing specific UI Automation functionality, and it also supports logging of the test results. You can integrate your application into the test code and conduct regular, automated testing or spot checks of your UI Automation scenarios.
 
 UIA Verify is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*>\\UIAVerify folder of the SDK installation path (VisualUIAVerifyNative.exe).
 

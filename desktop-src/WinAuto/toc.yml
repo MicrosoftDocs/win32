@@ -3186,13 +3186,13 @@
 - name: "Accessibility testing tools"
   href: testing-tools.md
   items: 
-  - name: "Accessible Event Watcher"
+  - name: "AccEvent (Accessible Event Watcher)"
     href: accessible-event-watcher.md
   - name: "Inspect"
     href: inspect-objects.md
   - name: "AccScope"
     href: accscope.md
-  - name: "UI Accessibility Checker"
+  - name: "AccChecker (UI Accessibility Checker)"
     href: ui-accessibility-checker.md
     items: 
     - name: "Testing with AccChecker"
@@ -3352,7 +3352,7 @@
         href: variantnotint.md
       - name: "VariantNotInt (CheckState)"
         href: variantnotint--checkstate-.md
-  - name: "UI Automation Verify"
+  - name: "UI Automation Verify (UIA Verify)"
     href: ui-automation-verify.md
     items: 
     - name: "UI Automation Test Library"
