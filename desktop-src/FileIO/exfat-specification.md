@@ -38,7 +38,7 @@ In the context of this specification, certain terms (see Table 1) carry
 specific meaning for the design and implementation of the exFAT file
 system.
 
-[]{#_Ref166947189 .anchor}Table 1 Definition of Terms Which Carry Very
+**Table 1 Definition of Terms Which Carry Very
 Specific Meaning
 
 <table>
@@ -91,7 +91,7 @@ Full Text of Common Acronyms
 This specification uses acronyms in common use in the personal computer
 industry (see Table 2).
 
-[]{#_Ref166950984 .anchor}Table 2 Full Text of Common Acronyms
+**Table 2 Full Text of Common Acronyms**
 
 | **Acronym** | **Full Text**                                      |
 |-------------|----------------------------------------------------|
@@ -141,7 +141,7 @@ A volume is the set of all file system structures and data space
 necessary to store and retrieve user data. All exFAT volumes contain
 four regions (see Table 3).
 
-[]{#_Ref167092592 .anchor}Table 3 Volume Structure
+**Table 3 Volume Structure**
 
 <table>
 <thead>
@@ -329,7 +329,7 @@ needed. However, implementations may update either the VolumeFlags or
 PercentInUse fields without updating their respective Boot Checksum (the
 checksum specifically excludes these two fields).
 
-[]{#_Ref184448042 .anchor}Table 4 Main and Backup Boot Sector Structure
+**Table 4 Main and Backup Boot Sector Structure**
 
 <table>
 <thead>
@@ -663,7 +663,7 @@ Implementations shall not include this field when computing its
 respective Main Boot or Backup Boot region checksum. When referring to
 the Backup Boot Sector, implementations shall treat this field as stale.
 
-[]{#_Ref184708644 .anchor}Table 5 VolumeFlags Field Structure
+**Table 5 VolumeFlags Field Structure**
 
 <table>
 <thead>
@@ -895,7 +895,7 @@ the Main and Backup Extended Boot Sectors, implementations may update
 these sectors (and shall also update their respective Boot Checksum) as
 needed.
 
-[]{#_Ref179847506 .anchor}Table 6 Extended Boot Sector Structure
+**Table 6 Extended Boot Sector Structure**
 
 <table>
 <thead>
@@ -970,7 +970,7 @@ the Main and Backup OEM Parameters.
 Implementations may update the Main and Backup OEM Parameters as needed
 (and shall also update their respective Boot Checksum).
 
-[]{#_Ref184783933 .anchor}Table 7 OEM Parameters Structure
+**Table 7 OEM Parameters Structure**
 
 <table>
 <thead>
@@ -1034,7 +1034,7 @@ parameters structure (see Table 8). All parameters structures derive
 from this template. Support for this Generic Parameters template is
 mandatory.
 
-[]{#_Ref184796186 .anchor}Table 8 Generic Parameters Template
+**Table 8 Generic Parameters Template**
 
 <table>
 <thead>
@@ -1085,7 +1085,7 @@ structures at the beginning of the OEM Parameters structure.
 
 Support for the Null Parameters structure is mandatory.
 
-[]{#_Ref200877497 .anchor}Table 9 Null Parameters Structure
+**Table 9 Null Parameters Structure**
 
 <table>
 <thead>
@@ -1135,7 +1135,7 @@ formatting of the media.
 
 Support for the Flash Parameters structure is optional.
 
-[]{#_Ref179850155 .anchor}Table 10 Flash Parameters Structure
+**Table 10 Flash Parameters Structure**
 
 <table>
 <thead>
@@ -1274,7 +1274,7 @@ Backup Boot Checksums with the repeating checksum pattern,
 implementations shall update these sectors as the contents of the other
 sectors in their respective Boot regions change.
 
-[]{#_Ref179851758 .anchor}Figure 1 Boot Checksum Computation
+**Figure 1 Boot Checksum Computation**
 
 <table>
 <tbody>
@@ -1327,7 +1327,7 @@ structures. A FAT represents a cluster chain as a singly-linked list of
 cluster indices. With the exception of the first two entries, every
 entry in a FAT represents exactly one cluster.
 
-[]{#_Ref179847570 .anchor}Table 11 File Allocation Table Structure
+**Table 11 File Allocation Table Structure**
 
 <table>
 <thead>
@@ -1452,7 +1452,7 @@ significant difference from exFAT's predecessors (FAT12, FAT16, and
 FAT32), in which a FAT maintained a record of the allocation state of
 all clusters in the Cluster Heap.
 
-[]{#_Ref179867754 .anchor}Table 12 Cluster Heap Structure
+**Table 12 Cluster Heap Structure**
 
 <table>
 <thead>
@@ -1520,7 +1520,7 @@ One or more directory entries combine into a directory entry set which
 describes something of interest, such as a file system structure,
 sub-directory, or file.
 
-[]{#_Ref185161811 .anchor}Table 13 Directory Structure
+**Table 13 Directory Structure**
 
 <table>
 <thead>
@@ -1581,7 +1581,7 @@ directory entry structures except as defined in section 7.8 and section
 7.9). The ability to interpret the Generic DirectoryEntry template is
 mandatory.
 
-[]{#_Ref185069561 .anchor}Table 14 Generic DirectoryEntry Template
+**Table 14 Generic DirectoryEntry Template**
 
 <table>
 <thead>
@@ -1673,7 +1673,7 @@ To prevent modifications to the InUse field (see Section 6.2.1.4)
 erroneously resulting in an end-of-directory marker, the value 80h is
 invalid.
 
-[]{#_Ref185071589 .anchor}Table 15 Generic EntryType Field Structure
+**Table 15 Generic EntryType Field Structure**
 
 <table>
 <thead>
@@ -1815,8 +1815,7 @@ All primary directory entry structures derive from the Generic Primary
 DirectoryEntry template (see Table 16), which derives from the Generic
 DirectoryEntry template (see Section 6.2).
 
-[]{#_Ref185658221 .anchor}Table 16 Generic Primary DirectoryEntry
-Template
+**Table 16 Generic Primary DirectoryEntry Template**
 
 <table>
 <thead>
@@ -1956,7 +1955,7 @@ given directory entry set.
 Critical primary directory entry structures which derive from this
 template may redefine both the SecondaryCount and SetChecksum fields.
 
-[]{#_Ref185924885 .anchor}Figure 2 EntrySetChecksum Computation
+**Figure 2 EntrySetChecksum Computation**
 
 <table>
 <tbody>
@@ -1991,8 +1990,7 @@ The GeneralPrimaryFlags field contains flags (see Table 17).
 Critical primary directory entry structures which derive from this
 template may redefine this field.
 
-[]{#_Ref185695203 .anchor}Table 17 Generic GeneralPrimaryFlags Field
-Structure
+**Table 17 Generic GeneralPrimaryFlags Field Structure**
 
 <table>
 <thead>
@@ -2112,8 +2110,7 @@ All secondary directory entry structures derive from the Generic
 Secondary DirectoryEntry template (see Table 18), which derives from the
 Generic DirectoryEntry template (see Section 6.2).
 
-[]{#_Ref185429473 .anchor}Table 18 Generic Secondary DirectoryEntry
-Template
+**Table 18 Generic Secondary DirectoryEntry Template**
 
 <table>
 <thead>
@@ -2218,8 +2215,7 @@ DirectoryEntry template (see Section 6.2.1.4).
 
 The GeneralSecondaryFlags field contains flags (see Table 19).
 
-[]{#_Ref185430374 .anchor}Table 19 Generic GeneralSecondaryFlags Field
-Structure
+**Table 19 Generic GeneralSecondaryFlags Field Structure**
 
 <table>
 <thead>
@@ -2337,8 +2333,7 @@ Further, the two Allocation Bitmap directory entries are only valid if
 one describes the First Allocation Bitmap and the other describes the
 Second Allocation Bitmap.
 
-[]{#_Ref187105521 .anchor}Table 20 Allocation Bitmap DirectoryEntry
-Structure
+**Table 20 Allocation Bitmap DirectoryEntry Structure**
 
 <table>
 <thead>
@@ -2420,7 +2415,7 @@ Primary DirectoryEntry template (see Section 6.3.1.4).
 
 The BitmapFlags field contains flags (see Table 21).
 
-[]{#_Ref187105939 .anchor}Table 21 BitmapFlags Field Structure
+**Table 21 BitmapFlags Field Structure**
 
 <table>
 <thead>
@@ -2490,7 +2485,7 @@ An Allocation Bitmap represents clusters from lowest to highest index
 Note: the first bit in the bitmap is the lowest-order bit of the first
 byte.
 
-[]{#_Ref187103198 .anchor}Table 22 Allocation Bitmap Structure
+**Table 22 Allocation Bitmap Structure**
 
 <table>
 <thead>
@@ -2573,8 +2568,7 @@ Due to the relationship between the Up-case Table and file names,
 implementations should not modify the Up-case Table, except as a result
 of format operations.
 
-[]{#_Ref187116618 .anchor}Table 23 Up-case Table DirectoryEntry
-Structure
+**Table 23 Up-case Table DirectoryEntry Structure**
 
 <table>
 <thead>
@@ -2665,7 +2659,7 @@ The TableChecksum field contains the checksum of the Up-case Table
 shall verify the contents of this field are valid prior to using the
 Up-case Table.
 
-[]{#_Toc219626627 .anchor}Figure 3 TableChecksum Computation
+**Figure 3 TableChecksum Computation**
 
 <table>
 <tbody>
@@ -2726,8 +2720,7 @@ range as equivalent. While such file names are only potentially
 equivalent, such implementations cannot ensure the fully up-cased file
 name does not collide with the name under comparison.
 
-[]{#_Ref187772045 .anchor}Table 24 Mandatory First 128 Up-case Table
-Entries
+**Table 24 Mandatory First 128 Up-case Table Entries**
 
 | **Table Index** | **Table Entries** |           |           |           |           |           |           |           |
 |-----------------|-------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -2785,8 +2778,7 @@ If an implementation defines its own up-case table, either compressed or
 uncompressed, then that table shall cover the complete Unicode character
 range (from character codes 0000h to FFFFh inclusive).
 
-[]{#_Ref188111300 .anchor}Table 25 Recommended Up-case Table in
-Compressed Format
+**Table 25 Recommended Up-case Table in Compressed Format**
 
 | **Raw Offset** | **Compressed Table Entries** |         |         |         |         |         |         |         |
 |----------------|------------------------------|---------|---------|---------|---------|---------|---------|---------|
@@ -3166,7 +3158,7 @@ Label exists as a critical primary directory entry in the root directory
 (see Table 26). The valid number of Volume Label directory entries
 ranges from 0 to 1.
 
-[]{#_Ref187589117 .anchor}Table 26 Volume Label DirectoryEntry Structure
+**Table 26 Volume Label DirectoryEntry Structure**
 
 <table>
 <thead>
@@ -3267,7 +3259,7 @@ valid, exactly one Stream Extension directory entry and at least one
 File Name directory entry must immediately follow the File directory
 entry (see Sections 7.6 and 7.7, respectively).
 
-[]{#_Ref187590744 .anchor}Table 27 File DirectoryEntry
+**Table 27 File DirectoryEntry**
 
 <table>
 <thead>
@@ -3411,7 +3403,7 @@ Generic Primary DirectoryEntry template (see Section 6.3.3).
 
 The FileAttributes field contains flags (see Table 28).
 
-[]{#_Ref187591866 .anchor}Table 28 FileAttributes Field Structure
+**Table 28 FileAttributes Field Structure**
 
 <table>
 <thead>
@@ -3529,7 +3521,7 @@ UtcOffset fields (see Sections 7.4.8 and 7.4.10, respectively).
 Timestamp fields describe both local date and time, down to a two-second
 resolution (see Table 29).
 
-[]{#_Ref187595538 .anchor}Table 29 Timestamp Field Structure
+**Table 29 Timestamp Field Structure**
 
 <table>
 <thead>
@@ -3662,7 +3654,7 @@ fields describe. The offset from UTC to the local date and time includes
 the effects of time zones and other date-time adjustments, such as
 daylight saving and regional summer time changes.
 
-[]{#_Ref200958757 .anchor}Table 30 UtcOffset Field Structure
+**Table 30 UtcOffset Field Structure**
 
 <table>
 <thead>
@@ -3698,8 +3690,7 @@ date and time the related Timestamp and 10msIncrement fields contains.
 This field describes the offset from UTC in 15 minute intervals (see
 Table 31).
 
-[]{#_Ref200960690 .anchor}Table 31 Meaning of the Values of the
-OffsetFromUtc Field
+**Table 31 Meaning of the Values of the OffsetFromUtc Field**
 
 <table>
 <thead>
@@ -3813,7 +3804,7 @@ The Volume GUID exists as a benign primary directory entry in the root
 directory (see Table 32). The valid number of Volume GUID directory
 entries ranges from 0 to 1.
 
-[]{#_Ref187676829 .anchor}Table 32 Volume GUID DirectoryEntry
+**Table 32 Volume GUID DirectoryEntry**
 
 <table>
 <thead>
@@ -3946,7 +3937,7 @@ Stream Extension directory entries in a File directory entry set is 1.
 Further, this directory entry is valid only if it immediately follows
 the File directory entry.
 
-[]{#_Ref187680258 .anchor}Table 33 Stream Extension DirectoryEntry
+**Table 33 Stream Extension DirectoryEntry**
 
 <table>
 <thead>
@@ -4096,7 +4087,7 @@ comparison when searching for a file by name. Importantly, the NameHash
 provides a sure verification of a mismatch. Implementations shall verify
 all NameHash matches with a comparison of the up-cased file name.
 
-[]{#_Ref187682999 .anchor}Figure 4 NameHash Computation
+**Figure 4 NameHash Computation**
 
 <table>
 <tbody>
@@ -4174,7 +4165,7 @@ All children of a given directory entry shall have unique File Name
 Directory Entry Sets. That is to say there can be no duplicate file or
 directory names after up-casing within any one directory.
 
-[]{#_Ref188096306 .anchor}Table 34 File Name DirectoryEntry
+**Table 34 File Name DirectoryEntry**
 
 <table>
 <thead>
@@ -4273,7 +4264,7 @@ The concatenated file name has the same set of illegal characters as
 other FAT-based file systems (see Table 35). Implementations should set
 the unused characters of FileName fields to the value 0000h.
 
-[]{#_Ref188098921 .anchor}Table 35 Invalid FileName Characters
+**Table 35 Invalid FileName Characters**
 
 | **Character Code** | **Description** | **Character Code** | **Description**   | **Character Code** | **Description** |
 |--------------------|-----------------|--------------------|-------------------|--------------------|-----------------|
@@ -4328,7 +4319,7 @@ Implementations which do not recognize the GUID of a Vendor Extension
 directory entry shall treat the directory entry the same as any other
 unrecognized benign secondary directory entry (see Section 8.2).
 
-[]{#_Ref200972245 .anchor}Table 36 Vendor Extension DirectoryEntry
+**Table 36 Vendor Extension DirectoryEntry**
 
 <table>
 <thead>
@@ -4455,7 +4446,7 @@ Implementations which do not recognize the GUID of a Vendor Allocation
 directory entry shall treat the directory entry the same as any other
 unrecognized benign secondary directory entry (see Section 8.2).
 
-[]{#_Ref201072192 .anchor}Table 37 Vendor Allocation DirectoryEntry
+**Table 37 Vendor Allocation DirectoryEntry**
 
 <table>
 <thead>
@@ -4761,7 +4752,7 @@ hexadecimal digits, followed by three groups of 4 hexadecimal digits
 each, and followed by one group of 12 hexadecimal digits, for example
 {6B29FC40-CA47-1067-B31D-00DD010662DA}, (see Table 38).
 
-[]{#_Ref188115059 .anchor}Table 38 GUID Structure
+**Table 38 GUID Structure**
 
 <table>
 <thead>
@@ -4852,15 +4843,13 @@ scenarios, implementations should use partition type 07h for MBR
 partitioned storage and partition GUID
 {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} for GPT partitioned storage.
 
-[]{#_Ref197808421 .anchor}
-
 Documentation Change History
 ============================
 
 Table 39 describes the history of releases of, corrections to, additions
 to, removals from, and clarifications of this document.
 
-[]{#_Ref197808580 .anchor}Table 39 Documentation Change History
+**Table 39 Documentation Change History**
 
 <table>
 <thead>
