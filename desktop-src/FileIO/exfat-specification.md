@@ -520,8 +520,7 @@ in sectors.
 
 The valid range of values for this field shall be:
 
--   At least 2^20^ / 2^BytesPerSectorShift^, which ensures the smallest
-    > volume is no less than 1MB
+-   At least 2^20^ / 2^BytesPerSectorShift^, which ensures the smallest volume is no less than 1MB
 
 -   At most 2^64^ -- 1, the largest value this field can describe
 
@@ -537,11 +536,9 @@ to the characteristics of the underlying storage media.
 
 The valid range of values for this field shall be:
 
--   At least 24, which accounts for the sectors the Main Boot and Backup
-    > Boot regions consume
+-   At least 24, which accounts for the sectors the Main Boot and Backup Boot regions consume
 
--   At most ClusterHeapOffset -- (FatLength \* NumberOfFats), which
-    > accounts for the sectors the Cluster Heap consumes
+-   At most ClusterHeapOffset -- (FatLength \* NumberOfFats), which accounts for the sectors the Cluster Heap consumes
 
 ### 3.1.7 FatLength Field
 
@@ -550,13 +547,9 @@ table (the volume may contain up to two FATs).
 
 The valid range of values for this field shall be:
 
--   At least (ClusterCount + 2) \* 2^2^ / 2^BytesPerSectorShift^ rounded
-    > up to the nearest integer, which ensures each FAT has sufficient
-    > space for describing all the clusters in the Cluster Heap
+-   At least (ClusterCount + 2) \* 2^2^ / 2^BytesPerSectorShift^ rounded up to the nearest integer, which ensures each FAT has sufficient  space for describing all the clusters in the Cluster Heap
 
--   At most (ClusterHeapOffset -- FatOffset) / NumberOfFats rounded down
-    > to the nearest integer, which ensures the FATs exist before the
-    > Cluster Heap
+-   At most (ClusterHeapOffset -- FatOffset) / NumberOfFats rounded down to the nearest integer, which ensures the FATs exist before the  Cluster Heap
 
 This field may contain a value in excess of its lower bound (as
 described above) to enable the Second FAT, if present, to also be
@@ -572,11 +565,9 @@ the Cluster Heap to the characteristics of the underlying storage media.
 
 The valid range of values for this field shall be:
 
--   At least FatOffset + FatLength \* NumberOfFats, to account for the
-    > sectors all the preceding regions consume
+-   At least FatOffset + FatLength \* NumberOfFats, to account for the sectors all the preceding regions consume
 
--   At most 2^32^ -- 1 or VolumeLength -- (ClusterCount \*
-    > 2^SectorsPerClusterShift^), whichever calculation is less
+-   At most 2^32^ -- 1 or VolumeLength -- (ClusterCount \* 2^SectorsPerClusterShift^), whichever calculation is less
 
 ### 3.1.9 ClusterCount Field
 
@@ -585,13 +576,9 @@ Heap contains.
 
 The valid value for this field shall be the lesser of the following:
 
--   (VolumeLength -- ClusterHeapOffset) / 2^SectorsPerClusterShift^
-    > rounded down to the nearest integer, which is exactly the number
-    > of clusters which can fit between the beginning of the Cluster
-    > Heap and the end of the volume
+-   (VolumeLength -- ClusterHeapOffset) / 2^SectorsPerClusterShift^ rounded down to the nearest integer, which is exactly the number of clusters which can fit between the beginning of the Cluster Heap and the end of the volume
 
--   2^32^ -- 11, which is the maximum number of clusters a FAT can
-    > describe
+-   2^32^ -- 11, which is the maximum number of clusters a FAT can describe
 
 The value of the ClusterCount field determines the minimum size of a
 FAT. To avoid extremely large FATs, implementations can control the
@@ -613,8 +600,7 @@ The valid range of values for this field shall be:
 
 -   At least 2, the index of the first cluster in the Cluster Heap
 
--   At most ClusterCount + 1, the index of the last cluster in the
-    > Cluster Heap
+-   At most ClusterCount + 1, the index of the last cluster in the Cluster Heap
 
 ### 3.1.11 VolumeSerialNumber Field
 
@@ -716,9 +702,7 @@ active (and implementations shall use), as follows:
 
 -   0, which means the First FAT and First Allocation Bitmap are active
 
--   1, which means the Second FAT and Second Allocation Bitmap are
-    > active and is possible only when the NumberOfFats field contains
-    > the value 2
+-   1, which means the Second FAT and Second Allocation Bitmap are active and is possible only when the NumberOfFats field contains the value 2
 
 Implementations shall consider the inactive FAT and Allocation Bitmap as
 stale. Only TexFAT-aware implementations shall switch the active FAT and
@@ -751,11 +735,9 @@ recommended write ordering described in Section 8.1.
 The MediaFailure field shall describe whether an implementation has
 discovered media failures or not, as follows:
 
--   0, which means the hosting media has not reported failures or any
-    > known failures are already recorded in the FAT as "bad" clusters
+-   0, which means the hosting media has not reported failures or any known failures are already recorded in the FAT as "bad" clusters
 
--   1, which means the hosting media has reported failures (i.e. has
-    > failed read or write operations)
+-   1, which means the hosting media has reported failures (i.e. has failed read or write operations)
 
 An implementation should set this field to 1 when:
 
@@ -777,8 +759,7 @@ The valid values for this field are:
 
 -   0, which does not have any particular meaning
 
--   1, which means implementations shall clear this field to 0 prior to
-    > modifying any file system structures, directories, or files
+-   1, which means implementations shall clear this field to 0 prior to modifying any file system structures, directories, or files
 
 ### 3.1.14 BytesPerSectorShift Field
 
@@ -788,11 +769,9 @@ example, for 512 bytes per sector, the value of this field is 9.
 
 The valid range of values for this field shall be:
 
--   At least 9 (sector size of 512 bytes), which is the smallest sector
-    > possible for an exFAT volume
+-   At least 9 (sector size of 512 bytes), which is the smallest sector possible for an exFAT volume
 
--   At most 12 (sector size of 4096 bytes), which is the memory page
-    > size of CPUs common in personal computers
+-   At most 12 (sector size of 4096 bytes), which is the memory page size of CPUs common in personal computers
 
 ### 3.1.15 SectorsPerClusterShift Field
 
@@ -802,11 +781,9 @@ example, for 8 sectors per cluster, the value of this field is 3.
 
 The valid range of values for this field shall be:
 
--   At least 0 (1 sector per cluster), which is the smallest cluster
-    > possible
+-   At least 0 (1 sector per cluster), which is the smallest cluster possible
 
--   At most 25 -- BytesPerSectorShift, which evaluates to a cluster size
-    > of 32MB
+-   At most 25 -- BytesPerSectorShift, which evaluates to a cluster size of 32MB
 
 ### 3.1.16 NumberOfFats Field
 
@@ -815,12 +792,9 @@ Bitmaps the volume contains.
 
 The valid range of values for this field shall be:
 
--   1, which indicates the volume only contains the First FAT and First
-    > Allocation Bitmap
+-   1, which indicates the volume only contains the First FAT and First Allocation Bitmap
 
--   2, which indicates the volume contains the First FAT, Second FAT,
-    > First Allocation Bitmap, and Second Allocation Bitmap; this value
-    > is only valid for TexFAT volumes
+-   2, which indicates the volume contains the First FAT, Second FAT, First Allocation Bitmap, and Second Allocation Bitmap; this value is only valid for TexFAT volumes
 
 ### 3.1.17 DriveSelect Field
 
@@ -838,11 +812,9 @@ Cluster Heap which are allocated.
 
 The valid range of values for this field shall be:
 
--   Between 0 and 100 inclusively, which is the percentage of allocated
-    > clusters in the Cluster Heap, rounded down to the nearest integer
+-   Between 0 and 100 inclusively, which is the percentage of allocated clusters in the Cluster Heap, rounded down to the nearest integer
 
--   Exactly FFh, which indicates the percentage of allocated clusters in
-    > the Cluster Heap is not available
+-   Exactly FFh, which indicates the percentage of allocated clusters in the Cluster Heap is not available
 
 Implementations shall change the value of this field to reflect changes
 in the allocation of clusters in the Cluster Heap or shall change it to
@@ -1418,17 +1390,11 @@ Cluster Heap.
 
 The valid range of values for these fields shall be:
 
--   Between 2 and ClusterCount + 1, inclusively, which points to the
-    > next FatEntry in the given cluster chain; the given FatEntry shall
-    > not point to any FatEntry which precedes it in the given cluster
-    > chain
+-   Between 2 and ClusterCount + 1, inclusively, which points to the next FatEntry in the given cluster chain; the given FatEntry shall not point to any FatEntry which precedes it in the given cluster chain
 
--   Exactly FFFFFFF7h, which marks the given FatEntry's corresponding
-    > cluster as "bad"
+-   Exactly FFFFFFF7h, which marks the given FatEntry's corresponding cluster as "bad"
 
--   Exactly FFFFFFFFh, which marks the given FatEntry's corresponding
-    > cluster as the last cluster of a cluster chain; this is the only
-    > valid value for the last FatEntry of any given cluster chain
+-   Exactly FFFFFFFFh, which marks the given FatEntry's corresponding cluster as the last cluster of a cluster chain; this is the only valid value for the last FatEntry of any given cluster chain
 
  5 Data Region
 ===========
@@ -2056,10 +2022,7 @@ The valid values for this field shall be:
     clusters; the corresponding FAT entries for the clusters are invalid
     and implementations shall not interpret them; implementations may
     use the following equation to calculate the size of the associated
-    allocation:
-
-> DataLength / (2^SectorsPerClusterShift^ \* 2^BytesPerSectorShift^)
-> rounded up to the nearest integer
+    allocation: DataLength / (2^SectorsPerClusterShift^ \* 2^BytesPerSectorShift^) rounded up to the nearest integer
 
 If critical primary directory entry structures which derive from this
 template redefine the GeneralPrimaryFlags field, then the corresponding
@@ -4660,15 +4623,15 @@ describe implications of these scenarios:
     -   Delete contained directory entries
 
     -   Move contained directory entries to a different directory
+     
+    However, implementations shall not:
 
-> However, implementations shall not:
+    -   Modify contained directory entries, except delete, as noted
 
--   Modify contained directory entries, except delete, as noted
+    -   Create new contained directory entries
 
--   Create new contained directory entries
-
--   Open contained directory entries, except traverse and enumerate, as
-    noted
+    -   Open contained directory entries, except traverse and enumerate, as
+        noted
 
 4.  Implementations shall not modify unrecognized benign secondary
     directory entries or their associated cluster allocations.
