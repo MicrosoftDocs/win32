@@ -1091,8 +1091,9 @@
             href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetstreamhdrmetadata
         - name: "ID3D11VideoContext3"
           href: /windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext3
-           - name: "ID3D11VideoContext3::DecoderBeginFrame1"
-             href: /windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext3-decoderbeginframe1
+          items:
+          - name: "ID3D11VideoContext3::DecoderBeginFrame1"
+            href: /windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext3-decoderbeginframe1
         - name: "ID3D11VideoDecoder"
           href: /windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder
           items: 
