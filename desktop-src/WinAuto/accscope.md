@@ -8,44 +8,37 @@ ms.date: 05/31/2018
 
 # Accessibility tools - AccScope
 
-The AccScope tool enables developers and testers to evaluate the accessibility of their app during the app's development and design, rather than in the late testing phases of an app's development cycle. Testing can even start in early prototype phases. AccScope can visualize how a screen reader exposes the UI Automation information that an app provides, and can show areas where you might want to add info or support to your app to improve its accessibility.
+The **AccScope** tool enables developers and testers to evaluate the accessibility of their app during the app's development and design, rather than in the late testing phases of an app's development cycle. Testing can even start in early prototype phases. **AccScope** can visualize how a screen reader exposes the UI Automation information that an app provides, and can show areas where you might want to add info or support to your app to improve its accessibility.
 
-- [About AccScope](#about-accscope)
-- [File menu options](#file-menu-options)
-- [View options](#view-options)
-- [Element Mode](#element-mode)
-- [Layout options](#layout-options)
-- [Choosing a window](#choosing-a-window)
-- [Using the AccScope visualization](#using-the-accscope-visualization)
-- [Testing the Narrator scenario](#testing-the-narrator-scenario)
-- [Related topics](#related-topics)
+> [!NOTE]
+> **AccScope** is a legacy tool. We recommend using [Accessibility Insights](https://accessibilityinsights.io/) instead.
 
 ## About AccScope
 
-AccScope is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*>\\AccScope folder of the SDK installation path. Run the program AccScope.exe.
+**AccScope** is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*>\\AccScope folder of the SDK installation path. Run the program AccScope.exe.
 
-AccScope is a desktop app, not a Windows Store app. You can use it to look at any app that appears as a window, including a desktop app, or a Windows Store app.
+**AccScope** is a desktop app, not a Windows Store app. You can use it to look at any app that appears as a window, including a desktop app, or a Windows Store app.
 
-You might need to run AccScope as administrator the first time you use it, to enable the Narrator mode.
+You might need to run **AccScope** as administrator the first time you use it, to enable the Narrator mode.
 
 **AccScope** is available as part of the accessibility tools binaries, in the Windows SDK. It is not distributed as a separate exe download and does not exist in previous SDKs.
 
 ## File menu options
 
-- Select **Refresh** to refresh all info in AccScope to match the current state of the target window. For a UI that contains a large number of elements this can take several seconds to complete.
-- Check or uncheck **Always on Top** to change the windowing behavior of the AccScope UI. **Always on Top** checked is the default.
-- Select **Exit** to quit AccScope.
+- Select **Refresh** to refresh all info in **AccScope** to match the current state of the target window. For a UI that contains a large number of elements this can take several seconds to complete.
+- Check or uncheck **Always on Top** to change the windowing behavior of the **AccScope** UI. **Always on Top** checked is the default.
+- Select **Exit** to quit **AccScope**.
 
 ## View options
 
-- Select **Full Screen** to run the AccScope tool in a full screen view (then use tabbing to view the target window). If both AccScope and the target app are running full screen, placement, bounding rectangles and overall visualization of elements will correspond between your app and the AccScope view.
+- Select **Full Screen** to run the **AccScope** tool in a full screen view (then use tabbing to view the target window). If both **AccScope** and the target app are running full screen, placement, bounding rectangles and overall visualization of elements will correspond between your app and the **AccScope** view.
     > [!Note]  
-    > AccScope and its target should be run on the same display.
+    > **AccScope** and its target should be run on the same display.
 
      
 
 - Select **Auto Focus** to enable AccScope to change the target window whenever a user moves focus to the window (using mouse or keyboard).
-- Select **Auto Refresh** to enable the AccScope mode that refreshes all accessibility data of the target window every 5 seconds. This is useful if the Microsoft UI Automation data of target window changes constantly.
+- Select **Auto Refresh** to enable the **AccScope** mode that refreshes all accessibility data of the target window every 5 seconds. This is useful if the Microsoft UI Automation data of target window changes constantly.
 - Select **Live Regions** to highlight any live regions that issue notifications in the target window. A live region event firing display a red popup that has info about the live region including its name and its "aria-live" value (or the equivalent ARIA value analog for apps not directly using HTML but using the Live Regions concept in the UI Automation support).
 
 ## Element Mode
@@ -61,10 +54,10 @@ Changing the **Element Mode** setting triggers a refresh of the visualization. F
 
 ## Layout options
 
-You can select either **Visual** or **List** as the visualization mode for the AccScope layout. **Visual** places the elements in coordinate space in the same relationship as the target window. **List** orders the elements in a descending list that's left-aligned in the AccScope window and the list order is equivalent to tab order or reading order.
+You can select either **Visual** or **List** as the visualization mode for the **AccScope** layout. **Visual** places the elements in coordinate space in the same relationship as the target window. **List** orders the elements in a descending list that's left-aligned in the **AccScope** window and the list order is equivalent to tab order or reading order.
 
-- Select an option from **Show Images** to control when the simple rectangles for image elements are replaced by the actual image (or a small viewport of that image, since often the rectangles are smaller than the actual image). The default is **On Hover**, which displays the image when you navigate within AccScope and hover the mouse over the rectangle for an image element. Alternate choices are **Always** or **Never**.
-- Select **Show Tooltip** to show basic element info whenever you hover the mouse over the an element in the AccScope visualization. If the **Element Mode** is **Leaf Control** or **Text Pattern** the info shown in the tooltip is the highest-priority element-level UI Automation properties. If the **Element Mode** is **Narrator** the info includes the text that Narrator would read for the element.
+- Select an option from **Show Images** to control when the simple rectangles for image elements are replaced by the actual image (or a small viewport of that image, since often the rectangles are smaller than the actual image). The default is **On Hover**, which displays the image when you navigate within **AccScope** and hover the mouse over the rectangle for an image element. Alternate choices are **Always** or **Never**.
+- Select **Show Tooltip** to show basic element info whenever you hover the mouse over the an element in the **AccScope** visualization. If the **Element Mode** is **Leaf Control** or **Text Pattern** the info shown in the tooltip is the highest-priority element-level UI Automation properties. If the **Element Mode** is **Narrator** the info includes the text that Narrator would read for the element.
 - Select **Show Numbers** to display sequence numbers that indicate control render order in layout. The number scheme is based on the **Element Mode** setting:
     - **Leaf Control**: the numbers indicates the order in which leaf controls appear in the UI Automation tree.
     - **Text Pattern**: the numbers indicate the order in which text ranges appear in a document range.
@@ -72,28 +65,28 @@ You can select either **Visual** or **List** as the visualization mode for the A
 
 ## Choosing a window
 
-Under the label **Window** you'll find a dropdown that lists all the HWND windows that are currently active on the system. The text for each window that appears in the dropdown list is the window title, and also a hex window ID in square brackets. Choose one of these to change the target window that AccScope is reporting on. You can choose the same item again to get the same behavior as an explicit **Refresh**.
+Under the label **Window** you'll find a dropdown that lists all the HWND windows that are currently active on the system. The text for each window that appears in the dropdown list is the window title, and also a hex window ID in square brackets. Choose one of these to change the target window that **AccScope** is reporting on. You can choose the same item again to get the same behavior as an explicit **Refresh**.
 
 ## Using the AccScope visualization
 
-The image below is a screenshot of the AccScope visualization. This particular screenshot shows the AccScope tool viewing the top-level window for the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) output, running as an app on the same machine. This screenshot shows the default element mode of **Leaf Control** and the **Visual** value for **Layout**.
+The image below is a screenshot of the **AccScope** visualization. This particular screenshot shows the **AccScope** tool viewing the top-level window for the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) output, running as an app on the same machine. This screenshot shows the default element mode of **Leaf Control** and the **Visual** value for **Layout**.
 
-![](images/accscopescreenshot.png)
+![Screenshot of the AccScope visualization](images/accscopescreenshot.png)
 
 Note how this visualization represents the controls in the approximate coordinate space you'd see in the app. But instead of showing you the XAML visuals, or the complete text of text controls, it shows the **Name** property values that come from every control element, using UI Automation.
 
 In addition to the menu options described previously you also can use these techniques:
 
 - Click on any element's rectangle in either **Visual** or **List** visualizations to display a **UIA Properties** popup. This lists a number of the important UI Automation properties for that element including some of the standard [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) properties and other info such as ARIA values and a **Provider description**.
-- Right-click on any element's rectangle in either **Visual** or **List** visualizations to display a context menu for exercising the patterns that the element supports. For example, if an element supports [**InvokePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationinvokepattern), the context menu includes an item for **Invoke**. Select that item and the appropriate pattern API is exercised in the corresponding app. AccScope supports this feature for the following patterns: **Invoke**, **ExpandCollapse**, **Toggle**, **SelectionItem**, **ScrollItem**.
-- Adjust the **Transparency** slider to change the opacity/transparency of the AccScope window. By default it's shown as 100% opacity. Making the window partly transparent can be useful for seeing the parts of the target window through the AccScope UI while using the **Always On Top** mode.
-- If they're shown, use the horizontal and vertical scrollbars to change the view center of the visualization. This is useful if you're using the **Visual** layout option but not using the **Full Screen** view option, while leaving the AccScope window small in comparison to the target window.
+- Right-click on any element's rectangle in either **Visual** or **List** visualizations to display a context menu for exercising the patterns that the element supports. For example, if an element supports [**InvokePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationinvokepattern), the context menu includes an item for **Invoke**. Select that item and the appropriate pattern API is exercised in the corresponding app. **AccScope** supports this feature for the following patterns: **Invoke**, **ExpandCollapse**, **Toggle**, **SelectionItem**, **ScrollItem**.
+- Adjust the **Transparency** slider to change the opacity/transparency of the **AccScope** window. By default it's shown as 100% opacity. Making the window partly transparent can be useful for seeing the parts of the target window through the **AccScope** UI while using the **Always On Top** mode.
+- If they're shown, use the horizontal and vertical scrollbars to change the view center of the visualization. This is useful if you're using the **Visual** layout option but not using the **Full Screen** view option, while leaving the **AccScope** window small in comparison to the target window.
 
 ## Testing the Narrator scenario
 
-The Narrator scenario is the most important aspect to test when using AccScope. AccScope is specifically designed so that you can visualize how basic Narrator item navigation works when it's applied to your app.
+The Narrator scenario is the most important aspect to test when using **AccScope**, which is specifically designed to visualize how basic Narrator item navigation works when it's applied to your app.
 
-To test the Narrator scenario, use these AccScope configuration options:
+To test the Narrator scenario, use these **AccScope** configuration options:
 
 - **Element Mode**: **Narrator**
 - **Layout**: **Visual**
@@ -111,27 +104,8 @@ Here are some specific areas of your app to test for the Narrator scenario:
 
 ## Related topics
 
-<dl> <dt>
-
-[Accessible Event Watcher](accessible-event-watcher.md)
-</dt> <dt>
-
-[Testing Tools](testing-tools.md)
-</dt> <dt>
-
-[UI Accessibility Checker](ui-accessibility-checker.md)
-</dt> <dt>
-
-[UI Automation Verify](ui-automation-verify.md)
-</dt> <dt>
-
-[Microsoft Accessibility](https://go.microsoft.com/fwlink/p/?LinkId=320802)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Accessible Event Watcher](accessible-event-watcher.md)
+- [Testing Tools](testing-tools.md)
+- [UI Accessibility Checker](ui-accessibility-checker.md)
+- [UI Automation Verify](ui-automation-verify.md)
+- [Microsoft Accessibility](https://go.microsoft.com/fwlink/p/?LinkId=320802)
