@@ -22,7 +22,7 @@ Call [ID3D12VideoDevice::CheckFeatureSupport](/windows/desktop/api/d3d12video/nf
 
 Call [ID3D11VideoDevice2::CheckFeatureSupport](docs.microsoft.com/windows/win32/api/d3d11_4/nf-d3d11_4-id3d11videodevice2-checkfeaturesupport) and pass in the **D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM** value of the [D3D11_FEATURE_VIDEO](docs.microsoft.com/windows/win32/api/d3d11_4/ne-d3d11_4-d3d11_feature_video) to determine if histograms are supported for the current device.
 
-## Enabling historgram during decode
+## Enabling histogram during decode
 
 The collection of histogram data is enabled by the caller providing the buffers in which the histogram data is stored.  A null histogram output buffer for a given component indicates that histogram collection is disabled.
 
