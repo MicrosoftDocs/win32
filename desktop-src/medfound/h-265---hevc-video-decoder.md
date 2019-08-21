@@ -22,10 +22,7 @@ The H.265 video decoder exposes the following interfaces.
 -   [**IMFRealTimeClient**](/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 
-To create an instance of the decoder, do one of the following:
-
--   Call the [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) or [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) function.
--   Call [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx). The CLSID for the decoder is **CLSID\_CMSH265EncoderMFT**, declared in wmcodecdsp.h.
+To create an instance of the decoder call the [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) or [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) function.
 
 ## Input Types
 
@@ -96,7 +93,7 @@ The decoder supports the following formats:
 | Chroma Formats     | 4:2:0 chroma                                                                                                                                                                                                                                                         |
 | Minimum Resolution | 48 × 48 pixels                                                                                                                                                                                                                                                       |
 | Maximum Resolution | 4096 × 2304 pixels<br/> The maximum guaranteed resolution for DXVA acceleration is 1920 × 1088 pixels; at higher resolutions, decoding is done with DXVA, if it is supported by the underlying hardware, otherwise, decoding is done with software.<br/> |
-| DXVA               | The decoder supports DXVA version 2, but not DXVA version 1.                                                                                                                                                                                                         |
+| DXVA               | The decoder supports DX11 and DX12 DXVA, but not DXVA version 2 or DXVA version 1.                                                                                                                                                                                                         |
 
 
 
@@ -112,7 +109,7 @@ Input data must conform to Annex B of ITU-T H.265 \| ISO/IEC 23008-2. The data m
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | None supported<br/>                                                                |
-| DLL<br/>                      | <dl> <dt>Mshevcdec.dll</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>hevcdecoder.dll</dt> <dt>hevcdecoder_store.dll</dt> </dl> |
 
 
 
