@@ -2662,7 +2662,7 @@ name does not collide with the name under comparison.
 
 **Table 24 Mandatory First 128 Up-case Table Entries**
 
-| **Table Index** | **Table Entries** |           |           |           |           |           |           |           |
+| **Table Index** | **Table Entries**  |
 |-----------------|-------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |                 | **+ 0**           | **+ 1**   | **+ 2**   | **+ 3**   | **+ 4**   | **+ 5**   | **+ 6**   | **+ 7**   |
 | **0000h**       | 0000h             | 0001h     | 0002h     | 0003h     | 0004h     | 0005h     | 0006h     | 0007h     |
