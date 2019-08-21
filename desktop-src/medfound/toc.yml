@@ -1156,6 +1156,7 @@
             href: /windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-recommendvideodecoderdownsampleparameters
         - name: "ID3D11VideoDevice2"
           href: /windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videodevice2
+          items:
           - name: "ID3D11VideoDevice2::CheckFeatureSupport"
             href: /windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videodevice2-checkfeaturesupport
         - name: "ID3D11VideoProcessor"
