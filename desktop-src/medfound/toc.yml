@@ -1417,9 +1417,9 @@
           - name: "D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_conversion_support_flags
           - name: "D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT"
-              href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component
           - name: "D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS"
-              href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component_flags
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component_flags
           - name: "D3D12_VIDEO_DECODE_STATUS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_status
           - name: "D3D12_VIDEO_DECODE_SUPPORT_FLAGS"
