@@ -7,7 +7,7 @@ file systems. This specification describes the exFAT file system and
 provides all the information necessary for implementing the exFAT file
 system.
 
-###1.1 Design Goals
+### 1.1 Design Goals
 
 The exFAT file system has three central design goals (see list below).
 
