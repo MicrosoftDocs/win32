@@ -1,4 +1,4 @@
-Specification for the exFAT file system
+Specification of the exFAT file system
 ============
 
 1 Introduction
