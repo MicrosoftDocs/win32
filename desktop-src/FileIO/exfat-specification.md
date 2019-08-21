@@ -1237,31 +1237,30 @@ sectors in their respective Boot regions change.
 
 **Figure 1 Boot Checksum Computation**
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>UInt32 BootChecksum</p>
-<p>(</p>
-<p>UCHAR * Sectors, // points to an in-memory copy of the 11 sectors</p>
-<p>USHORT BytesPerSector</p>
-<p>)</p>
-<p>{</p>
-<p>UInt32 NumberOfBytes = (UInt32)BytesPerSector * 11;</p>
-<p>UInt32 Checksum = 0;</p>
-<p>UInt32 Index;</p>
-<p>for (Index = 0; Index &lt; NumberOfBytes; Index++)</p>
-<p>{</p>
-<p>if ((Index == 106) || (Index == 107) || (Index == 112))</p>
-<p>{</p>
-<p>continue;</p>
-<p>}</p>
-<p>Checksum = ((Checksum&amp;1) ? 0x80000000 : 0) + (Checksum&gt;&gt;1) + (UInt32)Sectors[Index];</p>
-<p>}</p>
-<p>return Checksum;</p>
-<p>}</p></td>
-</tr>
-</tbody>
-</table>
+```
+UInt32	BootChecksum
+(
+    UCHAR *	Sectors,		// points to an in-memory copy of the 11 sectors
+	   USHORT	BytesPerSector
+)
+{
+	   UInt32	NumberOfBytes =	(UInt32)BytesPerSector * 11;
+	   UInt32	Checksum =		0;
+	   UInt32 	Index;
+	
+	   for (Index = 0; Index < NumberOfBytes; Index++)
+	   {
+        if ((Index == 106) || (Index == 107) || (Index == 112))
+		      {
+			         continue;
+		      }
+		      Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum>>1) + (UInt32)Sectors[Index];
+    }
+	
+	   return Checksum;
+}
+
+```
 
 ## 4 File Allocation Table Region
 
@@ -1904,31 +1903,30 @@ template may redefine both the SecondaryCount and SetChecksum fields.
 
 **Figure 2 EntrySetChecksum Computation**
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>UInt16 EntrySetChecksum</p>
-<p>(</p>
-<p>UCHAR * Entries, // points to an in-memory copy of the directory entry set</p>
-<p>UCHAR SecondaryCount</p>
-<p>)</p>
-<p>{</p>
-<p>UInt16 NumberOfBytes = ((UInt16)SecondaryCount + 1) * 32;</p>
-<p>UInt16 Checksum = 0;</p>
-<p>UInt16 Index;</p>
-<p>for (Index = 0; Index &lt; NumberOfBytes; Index++)</p>
-<p>{</p>
-<p>if ((Index == 2) || (Index == 3))</p>
-<p>{</p>
-<p>continue;</p>
-<p>}</p>
-<p>Checksum = ((Checksum&amp;1) ? 0x8000 : 0) + (Checksum&gt;&gt;1) + (UInt16)Entries[Index];</p>
-<p>}</p>
-<p>return Checksum;</p>
-<p>}</p></td>
-</tr>
-</tbody>
-</table>
+```
+UInt16	EntrySetChecksum
+(
+    UCHAR *	Entries,		// points to an in-memory copy of the directory entry set
+	   UCHAR	SecondaryCount
+)
+{
+	   UInt16	NumberOfBytes =	((UInt16)SecondaryCount + 1) * 32;
+   	UInt16	Checksum =		0;
+   	UInt16	Index;
+	
+	   for (Index = 0; Index < NumberOfBytes; Index++)
+   	{
+	      	if ((Index == 2) || (Index == 3))
+		      {
+		         	continue;
+	      	}
+	      	Checksum = ((Checksum&1) ? 0x8000 : 0) + (Checksum>>1) + (UInt16)Entries[Index];
+	   }
+	
+	   return Checksum;
+}
+
+```
 
 #### 6.3.4 GeneralPrimaryFlags Field
 
@@ -2601,26 +2599,24 @@ Up-case Table.
 
 **Figure 3 TableChecksum Computation**
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>UInt32 TableChecksum</p>
-<p>(</p>
-<p>UCHAR * Table, // points to an in-memory copy of the up-case table</p>
-<p>UInt64 DataLength</p>
-<p>)</p>
-<p>{</p>
-<p>UInt32 Checksum = 0;</p>
-<p>UInt64 Index;</p>
-<p>for (Index = 0; Index &lt; DataLength; Index++)</p>
-<p>{</p>
-<p>Checksum = ((Checksum&amp;1) ? 0x80000000 : 0) + (Checksum&gt;&gt;1) + (UInt32)Table[Index];</p>
-<p>}</p>
-<p>return Checksum;</p>
-<p>}</p></td>
-</tr>
-</tbody>
-</table>
+```
+UInt32	TableChecksum
+(
+	   UCHAR *	Table,		// points to an in-memory copy of the up-case table
+	   UInt64	DataLength
+)
+{
+	   UInt32	Checksum =	0;
+	   UInt64	Index;
+	
+	   for (Index = 0; Index < DataLength; Index++)
+	   {
+	      	Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum>>1) + (UInt32)Table[Index];
+   	}
+	
+	   return Checksum;
+}
+```
 
 #### 7.2.3 FirstCluster Field
 
@@ -4025,28 +4021,27 @@ all NameHash matches with a comparison of the up-cased file name.
 
 **Figure 4 NameHash Computation**
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>UInt16 NameHash</p>
-<p>(</p>
-<p>WCHAR * FileName, // points to an in-memory copy of the up-cased file name</p>
-<p>UCHAR NameLength</p>
-<p>)</p>
-<p>{</p>
-<p>UCHAR * Buffer = (UCHAR *)FileName;</p>
-<p>UInt16 NumberOfBytes = (UInt16)NameLength * 2;</p>
-<p>UInt16 Hash = 0;</p>
-<p>UInt16 Index;</p>
-<p>for (Index = 0; Index &lt; NumberOfBytes; Index++)</p>
-<p>{</p>
-<p>Hash = ((Hash&amp;1) ? 0x8000 : 0) + (Hash&gt;&gt;1) + (UInt16)Buffer[Index];</p>
-<p>}</p>
-<p>return Hash;</p>
-<p>}</p></td>
-</tr>
-</tbody>
-</table>
+```
+UInt16	NameHash
+(
+   	WCHAR *	FileName,		// points to an in-memory copy of the up-cased file name
+	   UCHAR	NameLength
+)
+{
+	   UCHAR *	Buffer =		(UCHAR *)FileName;
+	   UInt16	NumberOfBytes =	(UInt16)NameLength * 2;
+	   UInt16	Hash =			0;
+	   UInt16	Index;
+	
+	   for (Index = 0; Index < NumberOfBytes; Index++)
+	   {
+		      Hash = ((Hash&1) ? 0x8000 : 0) + (Hash>>1) + (UInt16)Buffer[Index];
+   	}
+	
+   	return Hash;
+}
+
+```
 
 #### 7.6.5 ValidDataLength Field
 
