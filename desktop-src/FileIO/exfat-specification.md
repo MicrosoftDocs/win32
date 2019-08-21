@@ -126,8 +126,7 @@ TexFAT is an extension to exFAT that adds transaction-safe operational
 semantics on top of the base file system. TexFAT is used by Windows CE.
 TexFAT requires the use of the two FATs and allocation bitmaps for use
 in transactions. It also defines several additional structures including
-padding descriptors and security descriptors. See the **exFAT 1.00
-Enhanced Specification** document for details.
+padding descriptors and security descriptors.
 
 ## 2 Volume Structure
 
@@ -513,13 +512,13 @@ in sectors.
 
 The valid range of values for this field shall be:
 
--   At least 2^20^ / 2^BytesPerSectorShift^, which ensures the smallest volume is no less than 1MB
+-   At least 2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>, which ensures the smallest volume is no less than 1MB
 
--   At most 2^64^ -- 1, the largest value this field can describe
+-   At most 2<sup>64</sup>- 1, the largest value this field can describe
 
 However, if the size of the Excess Space sub-region is 0, then the value
-of this field is ClusterHeapOffset + (2^32^ -- 11) \*
-2^SectorsPerClusterShift^.
+of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
+2<sup>SectorsPerClusterShift</sup>.
 
 #### 3.1.6 FatOffset Field
 
@@ -531,7 +530,7 @@ The valid range of values for this field shall be:
 
 -   At least 24, which accounts for the sectors the Main Boot and Backup Boot regions consume
 
--   At most ClusterHeapOffset -- (FatLength \* NumberOfFats), which accounts for the sectors the Cluster Heap consumes
+-   At most ClusterHeapOffset - (FatLength \* NumberOfFats), which accounts for the sectors the Cluster Heap consumes
 
 #### 3.1.7 FatLength Field
 
@@ -540,9 +539,9 @@ table (the volume may contain up to two FATs).
 
 The valid range of values for this field shall be:
 
--   At least (ClusterCount + 2) \* 2^2^ / 2^BytesPerSectorShift^ rounded up to the nearest integer, which ensures each FAT has sufficient  space for describing all the clusters in the Cluster Heap
+-   At least (ClusterCount + 2) \* 2<sup>2</sup>/ 2<sup>BytesPerSectorShift</sup>rounded up to the nearest integer, which ensures each FAT has sufficient  space for describing all the clusters in the Cluster Heap
 
--   At most (ClusterHeapOffset -- FatOffset) / NumberOfFats rounded down to the nearest integer, which ensures the FATs exist before the  Cluster Heap
+-   At most (ClusterHeapOffset - FatOffset) / NumberOfFats rounded down to the nearest integer, which ensures the FATs exist before the  Cluster Heap
 
 This field may contain a value in excess of its lower bound (as
 described above) to enable the Second FAT, if present, to also be
@@ -560,7 +559,7 @@ The valid range of values for this field shall be:
 
 -   At least FatOffset + FatLength \* NumberOfFats, to account for the sectors all the preceding regions consume
 
--   At most 2^32^ -- 1 or VolumeLength -- (ClusterCount \* 2^SectorsPerClusterShift^), whichever calculation is less
+-   At most 2<sup>32</sup>- 1 or VolumeLength - (ClusterCount \* 2<sup>SectorsPerClusterShift</sup>), whichever calculation is less
 
 #### 3.1.9 ClusterCount Field
 
@@ -569,16 +568,16 @@ Heap contains.
 
 The valid value for this field shall be the lesser of the following:
 
--   (VolumeLength -- ClusterHeapOffset) / 2^SectorsPerClusterShift^ rounded down to the nearest integer, which is exactly the number of clusters which can fit between the beginning of the Cluster Heap and the end of the volume
+-   (VolumeLength - ClusterHeapOffset) / 2<sup>SectorsPerClusterShift</sup>rounded down to the nearest integer, which is exactly the number of clusters which can fit between the beginning of the Cluster Heap and the end of the volume
 
--   2^32^ -- 11, which is the maximum number of clusters a FAT can describe
+-   2<sup>32</sup>- 11, which is the maximum number of clusters a FAT can describe
 
 The value of the ClusterCount field determines the minimum size of a
 FAT. To avoid extremely large FATs, implementations can control the
 number of clusters in the Cluster Heap by increasing the cluster size
 (via the SectorsPerClusterShift field). This specification recommends no
-more than 2^24^ -- 2 clusters in the Cluster Heap. However,
-implementations shall be able to handle volumes with up to 2^32^ -- 11
+more than 2<sup>24</sup>- 2 clusters in the Cluster Heap. However,
+implementations shall be able to handle volumes with up to 2<sup>32</sup>- 11
 clusters in the Cluster Heap.
 
 #### 3.1.10 FirstClusterOfRootDirectory Field
@@ -776,7 +775,7 @@ The valid range of values for this field shall be:
 
 -   At least 0 (1 sector per cluster), which is the smallest cluster possible
 
--   At most 25 -- BytesPerSectorShift, which evaluates to a cluster size of 32MB
+-   At most 25 - BytesPerSectorShift, which evaluates to a cluster size of 32MB
 
 #### 3.1.16 NumberOfFats Field
 
@@ -1740,8 +1739,8 @@ The valid range of value for this field is:
 -   At least 0; if the FirstCluster field contains the value 0, then
     this field's only valid value is 0
 
--   At most ClusterCount \* 2^SectorsPerClusterShift^ \*
-    2^BytesPerSectorShift^
+-   At most ClusterCount \* 2<sup>SectorsPerClusterShift</sup>\*
+    2<sup>BytesPerSectorShift</sup>
 
 Structures which derive from this template may redefine both the
 FirstCluster and DataLength fields, if a cluster allocation is not
@@ -2002,7 +2001,7 @@ The valid values for this field shall be:
     clusters; the corresponding FAT entries for the clusters are invalid
     and implementations shall not interpret them; implementations may
     use the following equation to calculate the size of the associated
-    allocation: DataLength / (2^SectorsPerClusterShift^ \* 2^BytesPerSectorShift^) rounded up to the nearest integer
+    allocation: DataLength / (2<sup>SectorsPerClusterShift</sup>\* 2<sup>BytesPerSectorShift</sup>) rounded up to the nearest integer
 
 If critical primary directory entry structures which derive from this
 template redefine the GeneralPrimaryFlags field, then the corresponding
@@ -4631,20 +4630,20 @@ either 3 or 4 clusters, depending on the value the NumberOfFats field.
 
 The upper Cluster Heap size limit is a simple function of the maximum
 possible number of clusters, which the ClusterCount field defines
-(**upper limit: 2^32^ -- 11 clusters**). Regardless of the cluster size,
+(**upper limit: 2<sup>32</sup>- 11 clusters**). Regardless of the cluster size,
 such a cluster heap has enough space to at least host the basic file
 system structures.
 
 ### 9.4 Volume Size Limits
 
 The VolumeLength field defines the lower and upper volume size limits
-(lower limit: **2^20^ / 2^BytesPerSectorShift^ sectors**, which
-evaluates to 1MB; **upper limit: 2^64^ -- 1 sectors**, which, given the
+(lower limit: **2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>sectors**, which
+evaluates to 1MB; **upper limit: 2<sup>64</sup>- 1 sectors**, which, given the
 largest possible sector size, evaluates to approximately 64ZB). However,
-this specification recommends no more than 2^24^ -- 2 clusters in the
+this specification recommends no more than 2<sup>24</sup>- 2 clusters in the
 Cluster Heap (see Section 3.1.9). Therefore, the recommended upper limit
-of a volume is: ClusterHeapOffset + (2^24^ -- 2) \*
-2^SectorsPerClusterShift^. Given the largest possible cluster size,
+of a volume is: ClusterHeapOffset + (2<sup>24</sup>- 2) \*
+2<sup>SectorsPerClusterShift</sup>. Given the largest possible cluster size,
 32MB, and assuming ClusterHeapOffset is 96MB (enough space for the Main
 and Backup Boot regions and only the First FAT), the recommended upper
 limit of a volume evaluates to approximately 512TB.
