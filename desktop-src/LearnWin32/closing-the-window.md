@@ -14,7 +14,6 @@ The user can close an application window by clicking the **Close** button, or by
 
 Here is an example of how a program might handle [**WM\_CLOSE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-close).
 
-
 ```C++
 case WM_CLOSE:
     if (MessageBox(hwnd, L"Really quit?", L"My application", MB_OKCANCEL) == IDOK)
@@ -25,8 +24,6 @@ case WM_CLOSE:
     return 0;
 ```
 
-
-
 In this example, the [**MessageBox**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox) function shows a modal dialog that contains **OK** and **Cancel** buttons. If the user clicks **OK**, the program calls [**DestroyWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow). Otherwise, if the user clicks **Cancel**, the call to **DestroyWindow** is skipped, and the window remains open. In either case, return zero to indicate that you handled the message.
 
 If you want to close the window without prompting the user, you could simply call [**DestroyWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow) without the call to [**MessageBox**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox). However, there is a shortcut in this case. Recall that [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) executes the default action for any window message. In the case of [**WM\_CLOSE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-close), **DefWindowProc** automatically calls **DestroyWindow**. That means if you ignore the **WM\_CLOSE** message in your **switch** statement, the window is destroyed by default.
@@ -35,14 +32,11 @@ When a window is about to be destroyed, it receives a [**WM\_DESTROY**](https://
 
 In your main application window, you will typically respond to [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) by calling [**PostQuitMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage).
 
-
 ```C++
-    case WM_DESTROY:
-        PostQuitMessage(0);
-        return 0;
+case WM_DESTROY:
+    PostQuitMessage(0);
+    return 0;
 ```
-
-
 
 We saw in the [Window Messages](window-messages.md) section that [**PostQuitMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage) puts a [**WM\_QUIT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-quit) message on the message queue, causing the message loop to end.
 
@@ -53,11 +47,3 @@ Here is a flow chart showing the typical way to process [**WM\_CLOSE**](https://
 ## Next
 
 [Managing Application State](managing-application-state-.md)
-
- 
-
- 
-
-
-
-
