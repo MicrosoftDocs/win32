@@ -125,6 +125,7 @@ This method returns one of the following codes or another error code if it fails
 | <dl> <dt>**TBS\_E\_SERVICE\_NOT\_RUNNING**</dt> <dt>2150121480 (0x80284008)</dt> </dl> | No compatible TPM is found on this computer.<br/>                                                                                                                            |
 | <dl> <dt>**FVE\_E\_FOREIGN\_VOLUME**</dt> <dt>2150694947 (0x80310023)</dt> </dl>       | The TPM cannot secure the volume's encryption key because the volume does not contain the currently running operating system.<br/>                                           |
 | <dl> <dt>**E\_INVALIDARG**</dt> <dt>2147942487 (0x80070057)</dt> </dl>                 | The *PlatformValidationProfile* parameter is provided but its values are not within the known range, or it does not match the Group Policy setting currently in effect.<br/> |
+| <dl> <dt>**FVE\_E\_PROTECTOR\_EXISTS**</dt> <dt>2150694961 (0x80310031)</dt> </dl>            | A key protector of this type already exists.<br/>                                                                                                                             |
 
 
 
