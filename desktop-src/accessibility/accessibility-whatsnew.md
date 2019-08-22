@@ -11,7 +11,7 @@ The Windows platform is constantly being updated with new accessibility and auto
 
 [Install the tools and SDK](https://go.microsoft.com/fwlink/?LinkId=821431) on Windows 10 and you’re ready to either create a new Universal Windows app or explore how you can use your existing app code on Windows.
 
-For more info on the latest tools available for testing the accessibility implementation of your Windows and web applications, see [Testing for accessibility](accessibility-whatsnew.md).
+For more info on the latest tools available for testing the accessibility implementation of your Windows and web applications, see [Testing for accessibility](accessibility-testwithuia.md).
 
 ## What's new for Windows 10 May 2019 Update (Version 1903)
 
