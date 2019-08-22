@@ -132,7 +132,7 @@ This topic describes the named constants used to identify text attributes of a M
 <td style="text-align: left;">Identifies the <strong>FontSize</strong> text attribute, which specifies the point size of the font. <br/> Variant type: <strong>VT_R8</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="UIA_FontWeightAttributeId"></span><span id="uia_fontweightattributeid"></span><span id="UIA_FONTWEIGHTATTRIBUTEID"></span><dl> <dt><strong>UIA_FontWeightAttributeId</strong></dt> <dt>400007</dt> </dl></td>
+<td style="text-align: left;"><span id="UIA_FontWeightAttributeId"></span><span id="uia_fontweightattributeid"></span><span id="UIA_FONTWEIGHTATTRIBUTEID"></span><dl> <dt><strong>UIA_FontWeightAttributeId</strong></dt> <dt>40007</dt> </dl></td>
 <td style="text-align: left;">Identifies the <strong>FontWeight</strong> text attribute, which specifies the relative stroke, thickness, or boldness of the font. The <strong>FontWeight</strong> attribute is modeled after the <strong>lfWeight</strong> member of the GDI <a href="https://go.microsoft.com/fwlink/p/?linkid=157188">LOGFONT</a> structure, and related standards, and can be one of the following values:
 <ul>
 <li>0 = <strong>DontCare</strong></li>
