@@ -12,8 +12,6 @@ Available XInput functions.
 
 ## In this section
 
-
-
 | Topic                                                                                 | Description                                                                                                                                             |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**XInputEnable**](/windows/desktop/api/XInput/nf-xinput-xinputenable)<br/>                                       | Sets the reporting state of XInput.<br/>                                                                                                          |
@@ -24,16 +22,3 @@ Available XInput functions.
 | [**XInputGetKeystroke**](/windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke)<br/>                           | Retrieves a gamepad input event.<br/>                                                                                                             |
 | [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate)<br/>                                   | Retrieves the current state of the specified controller.<br/>                                                                                     |
 | [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate)<br/>                                   | Sends data to a connected controller. This function is used to activate the vibration function of a controller.<br/>                              |
-
-
-
- 
-
- 
-
- 
-
-
-
-
-

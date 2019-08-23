@@ -23,21 +23,5 @@ A table of controller subtypes available in XInput.
 | XINPUT\_DEVSUBTYPE\_GUITAR XINPUT\_DEVSUBTYPE\_GUITAR\_ALTERNATE XINPUT\_DEVSUBTYPE\_GUITAR\_BASS | Guitar controller. <br/> The strum bar maps to DPAD (up and down), and the frets are assigned to A (green), B (red), Y (yellow), X (blue), and LB (orange). Right Stick Y is associated with a vertical orientation sensor; Right Stick X is the whammy bar. Includes support for BACK, START, DPAD (left, right). Left Trigger (pickup selector), Right Trigger, RB, LSB (fret modifier), RSB are optional.<br/> Guitar Bass is identical to Guitar, with the distinct subtype to simplify setup.<br/> Guitar Alt supports a larger range of movement for the vertical orientation sensor.<br/> |
 | XINPUT\_DEVSUBTYPE\_DRUM\_KIT                                                                     | Drum controller.<br/> The drum pads are assigned to buttons: A for green (Floor Tom), B for red (Snare Drum), X for blue (Low Tom), Y for yellow (High Tom), and LB for the pedal (Bass Drum). Includes Directional-Pad, BACK, and START. RB, LSB, and RSB are optional.<br/>                                                                                                                                                                                                                                                                                                                                |
 | XINPUT\_DEVSUBTYPE\_ARCADE\_PAD                                                                   | Arcade pad controller. <br/> Includes Directional Pad and most standard buttons (A, B, X, Y, START, BACK, LB, RB). The Left and Right Triggers are implemented as digital buttons and report either 0 or 0xFF. Left Stick, Right Stick, LSB, and RSB are optional.<br/>                                                                                                                                                                                                                                                                                                                                      |
-
-
-
- 
-
 > [!Note]  
-> The legacy version of XINPUT on Windows Vista (XInput 9.1.0) will always return a fixed subtype of **XINPUT\_DEVSUBTYPE\_GAMEPAD** regardless of attached device.
-
- 
-
- 
-
- 
-
-
-
-
-
+> The legacy version of XINPUT on Windows Vista (XInput 9.1.0) always returns a fixed subtype of **XINPUT\_DEVSUBTYPE\_GAMEPAD**, regardless of attached device.
