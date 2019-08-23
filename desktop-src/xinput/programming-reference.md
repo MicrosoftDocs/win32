@@ -10,13 +10,5 @@ ms.date: 05/31/2018
 
 XInput functions and structures.
 
--   [XInput Functions](functions.md)
--   [XInput Structures](structures.md)
-
- 
-
- 
-
-
-
-
+- [XInput Functions](functions.md)
+- [XInput Structures](structures.md)

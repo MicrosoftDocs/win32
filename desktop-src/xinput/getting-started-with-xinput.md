@@ -1,6 +1,6 @@
 ---
 title: Getting Started With XInput
-description: XInput is an API that allows applications to receive input from the Xbox 360 Controller for Windows. Controller rumble effects and voice input and output are supported.
+description: XInput is an API that allows applications to receive input from the Xbox Controller for Windows. Controller rumble effects and voice input and output are supported.
 ms.assetid: 7b5eec3e-b3da-de5c-c926-8258c1418ef0
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,12 +8,12 @@ ms.date: 05/31/2018
 
 # Getting Started With XInput
 
-XInput is an API that allows applications to receive input from the Xbox 360 Controller for Windows. Controller rumble effects and voice input and output are supported.
+XInput is an API that allows applications to receive input from the Xbox Controller for Windows. Controller rumble effects and voice input and output are supported.
 
 This topic provides a brief overview of the capabilities of XInput and how to set it up in an application. It includes the following:
 
 -   [Introduction to XInput](#introduction-to-xinput)
-    -   [The Xbox 360 Controller](#the-xbox-360-controller)
+    -   [The Xbox Controller](#the-xbox-360-controller)
 -   [Using XInput](#using-xinput)
     -   [Multiple Controllers](#multiple-controllers)
     -   [Getting Controller State](#getting-controller-state)
@@ -25,17 +25,17 @@ This topic provides a brief overview of the capabilities of XInput and how to se
 
 ## Introduction to XInput
 
-The Xbox 360 console uses a gaming controller that is compatible with Windows. Applications can use the XInput API to communicate with these controllers when they are plugged into a Windows PC (up to four unique controllers can be plugged in at a time).
+The Xbox console uses a gaming controller that is compatible with Windows. Applications can use the XInput API to communicate with these controllers when they are plugged into a Windows PC (up to four unique controllers can be plugged in at a time).
 
-Using this API, any connected Xbox 360 Controller can be queried for its state, and vibration effects can be set. Controllers that have the headset attached can also be queried for sound input and output devices that can be used with the headset for voice processing.
+Using this API, any connected Xbox Controller can be queried for its state, and vibration effects can be set. Controllers that have the headset attached can also be queried for sound input and output devices that can be used with the headset for voice processing.
 
-### The Xbox 360 Controller
+### The Xbox Controller
 
-The Xbox 360 Controller has two analog directional sticks, each with a digital button, two analog triggers, a digital directional pad with four directions, and eight digital buttons. The states of each of these inputs are returned in the [**XINPUT\_GAMEPAD**](/windows/desktop/api/XInput/ns-xinput-xinput_gamepad) structure when the [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) function is called.
+The Xbox Controller has two analog directional sticks, each with a digital button, two analog triggers, a digital directional pad with four directions, and eight digital buttons. The states of each of these inputs are returned in the [**XINPUT\_GAMEPAD**](/windows/desktop/api/XInput/ns-xinput-xinput_gamepad) structure when the [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) function is called.
 
 The controller also has two vibration motors to supply force feedback effects to the user. The speeds of these motors are specified in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function to set vibration effects.
 
-Optionally, a headset can be connected to the controller. The headset has a microphone for voice input, and a headphone for sound output. You can call the [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) or legacy [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function to obtain the device identifiers that correspond to the devices for the microphone and headphone. You can then use [system audio APIs](https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-apis-in-windows-vista) to receive voice input and send sound output.
+Optionally, a headset can be connected to the controller. The headset has a microphone for voice input, and a headphone for sound output. You can call the [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) or legacy [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function to obtain the device identifiers that correspond to the devices for the microphone and headphone. You can then use the [Core Audio APIs](https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-apis-in-windows-vista) to receive voice input and send sound output.
 
 ## Using XInput
 
@@ -92,7 +92,7 @@ For performance reasons, don't call [**XInputGetState**](/windows/desktop/api/XI
 In order for users to have a consistent gameplay experience, your game must implement dead zone correctly. The dead zone is "movement" values reported by the controller even when the analog thumbsticks are untouched and centered. There is also a dead zone for the 2 analog triggers.
 
 > [!Note]  
-> Games that use XInput that do not filter dead zone at all will experience poor gameplay. Please note that some controllers are more sensitive than others, thus the dead zone may vary from unit to unit. It is recommended that you test your games with several Xbox 360 controllers on different systems.
+> Games that use XInput that do not filter dead zone at all will experience poor gameplay. Please note that some controllers are more sensitive than others, thus the dead zone may vary from unit to unit. It is recommended that you test your games with several Xbox controllers on different systems.
 
  
 
@@ -178,7 +178,7 @@ Note that the right motor is the high-frequency motor, the left motor is the low
 
 ### Getting Audio Device Identifiers
 
-The headset for an Xbox 360 Controller has these functions:
+The headset for an Xbox Controller has these functions:
 
 -   Record sound using a microphone
 -   Play back sound using a headphone
@@ -217,7 +217,7 @@ For info about how to use the captureId device identifier, see [Capturing a Stre
 
 ### Getting DirectSound GUIDs (legacy DirectX SDK only)
 
-The headset that can be connected to an Xbox 360 Controller has two functions: it can record sound using a microphone, and it can play back sound using a headphone. In the XInput API, these functions are accomplished through [DirectSound](https://msdn.microsoft.com/en-us/library/Ee416960(v=VS.85).aspx), using the **IDirectSound8** and **IDirectSoundCapture8** interfaces.
+The headset that can be connected to an Xbox Controller has two functions: it can record sound using a microphone, and it can play back sound using a headphone. In the XInput API, these functions are accomplished through [DirectSound](https://msdn.microsoft.com/en-us/library/Ee416960(v=VS.85).aspx), using the **IDirectSound8** and **IDirectSoundCapture8** interfaces.
 
 To associate the headset microphone and headphone with their appropriate [DirectSound](https://msdn.microsoft.com/en-us/library/Ee416960(v=VS.85).aspx) interfaces, you must get the DirectSoundGUIDs for the capture and render devices by calling [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids).
 
