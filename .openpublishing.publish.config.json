@@ -20,6 +20,9 @@
   "notification_subscribers": [
     "jken@microsoft.com"
   ],
+  "sync_notification_subscribers": [
+    "quradic@microsoft.com"
+  ],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/win32",
   "git_repository_branch_open_to_public_contributors": "docs",
@@ -35,5 +38,6 @@
     }
   ],
   "branch_target_mapping": {},
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": false,
+  "targets": {}
 }
