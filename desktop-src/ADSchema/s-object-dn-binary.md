@@ -41,7 +41,7 @@ A value with this syntax has the following format:
 B:<char count>:<binary value>:<object DN>
 ```
 
-where "<char count>" is the number of hexadecimal digits in "<binary value>", "<binary value>" is the hexadecimal representation of the binary value, and "<object DN>" is a distinguished name. Active Directory automatically updates the DN if the object that it refers to is moved or renamed. For more information and a code example that uses this syntax, see [Enabling Rename-safe Binding with the otherWellKnownObjects Property](https://docs.microsoft.com/windows/desktop/AD/enabling-rename-safe-binding-with-the-otherwellknownobjects-property).
+where "&lt;char count&gt;" is the number of hexadecimal digits in "&lt;binary value&gt;", "&lt;binary value&gt;" is the hexadecimal representation of the binary value, and "&lt;object DN&gt;" is a distinguished name. Active Directory automatically updates the DN if the object that it refers to is moved or renamed. For more information and a code example that uses this syntax, see [Enabling Rename-safe Binding with the otherWellKnownObjects Property](https://docs.microsoft.com/windows/desktop/AD/enabling-rename-safe-binding-with-the-otherwellknownobjects-property).
 
 ## See also
 

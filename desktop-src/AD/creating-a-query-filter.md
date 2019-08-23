@@ -32,7 +32,7 @@ A filter can contain one, or more, expressions. An expression has the following 
 
 
 
-where "<logicaloperator>" is one of the following.
+where "&lt;logicaloperator&gt;" is one of the following.
 
 
 
@@ -46,7 +46,7 @@ where "<logicaloperator>" is one of the following.
 
  
 
-and "<comparison>" is the following:
+and "&lt;comparison&gt;" is the following:
 
 
 ```C++
@@ -55,7 +55,7 @@ and "<comparison>" is the following:
 
 
 
-where "<attribute>" is the **lDAPDisplayName** of the attribute to evaluate, "<value>" is the value to compare against, and "<operator>" is one of the following comparison operators.
+where "&lt;attribute&gt;" is the **lDAPDisplayName** of the attribute to evaluate, "&lt;value&gt;" is the value to compare against, and "&lt;operator&gt;" is one of the following comparison operators.
 
 
 
@@ -70,7 +70,7 @@ where "<attribute>" is the **lDAPDisplayName** of the attribute to evaluate, "<v
 
  
 
-In addition, depending on the attribute syntax, the "<value>" may contain the wildcard symbol ("\*"). A "<value>" that contains only a wildcard will check for the existence of any value in "<attribute>". If no value is set for "<attribute>", the test will fail.
+In addition, depending on the attribute syntax, the "&lt;value&gt;" may contain the wildcard symbol ("\*"). A "&lt;value&gt;" that contains only a wildcard will check for the existence of any value in "&lt;attribute&gt;". If no value is set for "&lt;attribute&gt;", the test will fail.
 
 If any of the following special characters must appear in the query filter as literals, they must be replaced by the listed escape sequence.
 

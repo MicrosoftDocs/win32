@@ -11,6 +11,7 @@ ms.date: 05/31/2018
 
 Describes the most significant new documentation available with the latest SDK release.
 
+-   [Windows 7](#windows-7)
 -   [Windows 10, version 1809](#windows-10-version-1809)
 -   [Windows 10, version 1709](#windows-10-version-1709)
 -   [Windows 10, version 1703](#windows-10-version-1703)
@@ -19,6 +20,10 @@ Describes the most significant new documentation available with the latest SDK r
 -   [August 2016 documentation update 1](#august-2016-documentation-update-1)
 -   [Windows 10, version 1607](#windows-10-version-1607)
 -   [Related topics](#related-topics)
+
+## Windows 7
+
+- [Direct3D 12 on Windows 7](http://aka.ms/d3d12on7) is now available for developers to use.
 
 ## Windows 10, version 1809
 

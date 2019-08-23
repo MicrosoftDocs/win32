@@ -7,20 +7,32 @@ ms.date: 04/18/2019
 
 # Testing for accessibility
 
-Testing the accessibility of your Windows applications, assistive technology tools, and UI frameworks is a critical step in ensuring successful user experiences for people with various disabilities, as well as users who just prefer using a keyboard.
+Programmatic access and keyboard access are critical requirements for supporting accessibility in your application. Testing the accessibility of your Windows applications, assistive technology (AT) tools, and UI frameworks is crucial to ensure a successful user experience for people with various disabilities and limitations (including vision, learning, dexterity/mobility, and language/communication disabilities), or those who simply prefer using a keyboard.
 
-Without adequate access, many users of assistive technology, such as screen reader and on-screen keyboard users, would be unable to use your application. It is important to thoroughly test your application to ensure that it provides adequate information about its UI elements, and that all of your application scenarios can be accomplished with just a keyboard.
+Without adequate access through AT such as screen-readers and on-screen keyboards, users with vision, learning, dexterity/mobility, and language/communication disabilities or limitations (and users who just prefer using the keyboard) would be unable to use your application.
 
-This section describes tools for testing the accessibility implementation of your application to ensure that the UI is fully accessible to client applications, people with vision, learning, dexterity/mobility, and language/communication disabilities or limitations, and users who just prefer using the keyboard.
+This section describes the various tools that can be used to test the accessibility implementation of both Windows and web applications.
 
-## In this section
+> [!NOTE]
+> It is also important to do manual testing to verify keyboard access to your application.
 
-- [Accessibility Insights](https://accessibilityinsights.io/) - Helps developers find and fix accessibility issues in websites, and Windows applications. The tool supports two primary scenarios: 
-    - **FastPass** - a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.  
-    - **Assessment** - lets anyone verify that a web site is 100% compliant with accessibility standards and guidelines.  Accessibility Insights for Windows also includes the ability to review UI Automation elements, properties, control patterns, and events similar to [Inspect](https://docs.microsoft.com/windows/desktop/winauto/inspect-objects) and [Accessible Event Watcher (AccEvent)](https://docs.microsoft.com/windows/desktop/winauto/accessible-event-watcher).
- 
- **Legacy testing tools**
- 
+## Tools
+
+[Accessibility Insights](https://accessibilityinsights.io/) - Helps developers find and fix accessibility issues in both websites and Windows applications.
+
+- [Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/overview) is an extension for Chrome and [Microsoft Edge Insider](https://www.microsoftedgeinsider.com) that helps developers find and fix accessibility issues in web apps and sites. It supports two primary scenarios:
+  - **FastPass** - a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.  
+  - **Assessment** - lets anyone verify that a web site is 100% compliant with accessibility standards and guidelines. [Accessibility Insights](https://accessibilityinsights.io/) also lets you review UI Automation elements, properties, control patterns, and events (similar to the [Inspect](https://docs.microsoft.com/windows/desktop/winauto/inspect-objects) and [AccEvent](https://docs.microsoft.com/windows/desktop/winauto/accessible-event-watcher) legacy tools described in the following section).
+
+- [Accessibility Insights for Windows](https://accessibilityinsights.io/docs/windows/overview) helps developers find and fix accessibility issues in Windows apps. The tool supports three primary scenarios:
+  - **Live Inspect** lets developers verify that an element in an app has the right UI Automation properties simply by hovering over the element or setting keyboard focus on it.
+  - **FastPass** - a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
+  - **Troubleshooting** allows you to diagnose and fix specific accessibility issues.
+
+### Legacy testing tools
+
+The following tools are still available in the Windows SDK and are documented here for continued support, but we recommend transitioning to [Accessibility Insights](https://accessibilityinsights.io/).
+
 - [Inspect](https://docs.microsoft.com/windows/desktop/winauto/inspect-objects): Lets you view the accessibility data of any UI element. It is especially useful for ensuring properties and control patterns are set correctly when extending a common control or creating a custom control.
 - [Accessible Event Watcher (AccEvent)](https://docs.microsoft.com/windows/desktop/winauto/accessible-event-watcher): Examines accessibility data to validate application UI elements and ensure UI elements raise proper Microsoft Active Accessibility and UI Automation events on UI events. AccEvent is typically used to debug issues and to validate that custom and extended controls are working correctly.
 - [AccScope](https://docs.microsoft.com/windows/desktop/winauto/accscope): Enables visual evaluation of an application's accessibility during the early design and development phases. AccScope helps visualize how a screen reader uses UI Automation information provided by an app, and shows where adding information or support to your application can improve its accessibility.

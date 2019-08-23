@@ -30,75 +30,33 @@ This documentation assumes that the reader is familiar with COM operation and co
 
     -   [**CFSTR\_DSOBJECTNAMES**](cfstr-dsobjectnames.md) This data format contains a [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) that identifies the object that the property sheet applies to. When hosting a property sheet, the more significant members of the **DSOBJECTNAMES** structure are shown in the following list.
 
-        <dl> <dt>
-
-<span id="clsidNamespace"></span><span id="clsidnamespace"></span><span id="CLSIDNAMESPACE"></span>**clsidNamespace**
-</dt> <dd>
-
-        Reserved. Set this to a GUID for your application here in case that it is used in the future.
-
-        </dd> <dt>
-
-<span id="aObjects"></span><span id="aobjects"></span><span id="AOBJECTS"></span>**aObjects**
-</dt> <dd>
-
-        Contains an array of [**DSBOJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structures. Each **DSBOJECT** structure represents a single directory object. The **cItems** member contains the number of elements in the array. Only the first object in this array is used. Other objects are ignored.
-
-        </dd> </dl>
+        **clsidNamespace** Reserved. Set this to a GUID for your application here in case that it is used in the future.
+        
+        **aObjects** Contains an array of [**DSBOJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structures. Each **DSBOJECT** structure represents a single directory object. The **cItems** member contains the number of elements in the array. Only the first object in this array is used. Other objects are ignored.
 
     -   [**CFSTR\_DSDISPLAYSPECOPTIONS**](cfstr-ds-display-spec-options.md) This data format contains a [**DSDISPLAYSPECOPTIONS**](/windows/desktop/api/Dsclient/ns-dsclient-dsdisplayspecoptions) structure that contains data that will be used by the property pages, such as where to load the property pages from, the server and credentials to use, and so on. The more significant members of the **DSDISPLAYSPECOPTIONS** are shown in the following list.
 
-        <dl> <dt>
-
-<span id="offsetAttribPrefix"></span><span id="offsetattribprefix"></span><span id="OFFSETATTRIBPREFIX"></span>**offsetAttribPrefix**
-</dt> <dd>
-
-        The attribute prefix string determines where the list of property pages is obtained. This must contain one of the following strings.
+        **offsetAttribPrefix** The attribute prefix string determines where the list of property pages is obtained. This must contain one of the following strings.
 
         
 
-        | Attribute prefix string | Description                                                                                                          |
+        | Attribute prefix string | Description                                              |
         |-------------------------|----------------------------------------------------------------------------------------------------------------------|
         | "admin"<br/>      | The property pages are loaded from the [**adminPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages) attribute.<br/> |
         | "shell"<br/>      | The property pages are loaded from the [**shellPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages) attribute.<br/> |
 
         
 
-         
-
-        </dd> </dl>
 
     -   [**CFSTR\_DS\_PROPSHEETCONFIG**](cfstr-ds-propsheetconfig.md) This data format contains a [**PROPSHEETCFG**](propsheetcfg.md) structure that contains property sheet host data. When hosting a property sheet, the more significant members of the **PROPSHEETCFG** structure contain the data shown in the following list.
 
-        <dl> <dt>
+        **lNotifyHandle** Must be zero.
+        **hwndParentSheet**  Contains the handle of the window to receive [**WM\_ADSPROP\_NOTIFY\_CHANGE**](wm-adsprop-notify-change.md) messages when something in one of the pages changes and is applied. Can be **NULL** if this message is not desired.
 
-<span id="lNotifyHandle"></span><span id="lnotifyhandle"></span><span id="LNOTIFYHANDLE"></span>**lNotifyHandle**
-</dt> <dd>
+        **hwndHidden** Contains the handle of the window to receive [**WM\_DSA\_SHEET\_CREATE\_NOTIFY**](wm-dsa-sheet-create-notify.md) and [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) messages. Set this to the handle of your hidden window.
 
-        Must be zero.
+        **wParamSheetClose** Contains an application-defined identifier that is returned in the *wParam* in the [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) message. If this member is zero, the **WM\_DSA\_SHEET\_CLOSE\_NOTIFY** message will not be posted to the hidden window.
 
-        </dd> <dt>
-
-<span id="hwndParentSheet"></span><span id="hwndparentsheet"></span><span id="HWNDPARENTSHEET"></span>**hwndParentSheet**
-</dt> <dd>
-
-        Contains the handle of the window to receive [**WM\_ADSPROP\_NOTIFY\_CHANGE**](wm-adsprop-notify-change.md) messages when something in one of the pages changes and is applied. Can be **NULL** if this message is not desired.
-
-        </dd> <dt>
-
-<span id="hwndHidden"></span><span id="hwndhidden"></span><span id="HWNDHIDDEN"></span>**hwndHidden**
-</dt> <dd>
-
-        Contains the handle of the window to receive [**WM\_DSA\_SHEET\_CREATE\_NOTIFY**](wm-dsa-sheet-create-notify.md) and [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) messages. Set this to the handle of your hidden window.
-
-        </dd> <dt>
-
-<span id="wParamSheetClose"></span><span id="wparamsheetclose"></span><span id="WPARAMSHEETCLOSE"></span>**wParamSheetClose**
-</dt> <dd>
-
-        Contains an application-defined identifier that is returned in the *wParam* in the [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md) message. If this member is zero, the **WM\_DSA\_SHEET\_CLOSE\_NOTIFY** message will not be posted to the hidden window.
-
-        </dd> </dl>
 
 3.  Create an instance of the [**CLSID\_DsPropertyPages**](guids-of-user-interface-elements.md) object and obtain the [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) interface for the object. It is also possible to duplicate the behavior of the **CLSID\_DsPropertyPages** object. For more information, see Duplicating the Behavior of the CLSID\_DsPropertyPages Object.
 4.  Initialize the [**CLSID\_DsPropertyPages**](guids-of-user-interface-elements.md) object by calling the [**IShellExtInit::Initialize**](https://msdn.microsoft.com/library/Bb775094(v=VS.85).aspx) method. The *pidlFolder* and *hkeyProgID* parameters are not used in this method. The *pdtobj* parameter is the pointer to the data object created in Step 2. When the **IShellExtInit::Initialize** method is called, the **CLSID\_DsPropertyPages** object will save a reference to the data object.

@@ -47,9 +47,9 @@ When registering a context menu extension, the values for the [**adminContextMen
 
 
 
-The "<order number>" is an unsigned number that represents the item position in the context menu. When a context menu is displayed, the values are sorted using a comparison of each value's "<order number>". If more than one value has the same "<order number>", those context menu extensions are loaded in the order they are read from the Active Directory server. If possible, use a non-existing "<order number>", that is, one that has not been used by other values in the property. There is no prescribed starting position and gaps are allowed in the "<order number>" sequence.
+The "&lt;order number&gt;" is an unsigned number that represents the item position in the context menu. When a context menu is displayed, the values are sorted using a comparison of each value's "&lt;order number&gt;". If more than one value has the same "&lt;order number&gt;", those context menu extensions are loaded in the order they are read from the Active Directory server. If possible, use a non-existing "&lt;order number&gt;", that is, one that has not been used by other values in the property. There is no prescribed starting position and gaps are allowed in the "&lt;order number&gt;" sequence.
 
-The "<clsid>" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx) function.
+The "&lt;clsid&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx) function.
 
 In the Windows shell, multiple-selection context menu items are supported. In this case, the context menu extension is invoked for each selected object. In Active Directory administrative snap-ins, multiple-selection context menu extension items are also supported. In this case, the [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) structure will contain a [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structure for each directory object selected.
 
