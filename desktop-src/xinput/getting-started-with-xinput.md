@@ -13,7 +13,7 @@ XInput is an API that allows applications to receive input from the Xbox Control
 This topic provides a brief overview of the capabilities of XInput and how to set it up in an application. It includes the following:
 
 -   [Introduction to XInput](#introduction-to-xinput)
-    -   [The Xbox Controller](#the-xbox-360-controller)
+    -   [The Xbox Controller](#the-xbox-controller)
 -   [Using XInput](#using-xinput)
     -   [Multiple Controllers](#multiple-controllers)
     -   [Getting Controller State](#getting-controller-state)
