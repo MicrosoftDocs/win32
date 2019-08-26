@@ -44,7 +44,7 @@ If a program does not account for DPI, the following defects might be apparent a
 
 -   Clipped UI elements.
 -   Incorrect layout.
--   Pixilated bitmaps and icons.
+-   Pixelated bitmaps and icons.
 -   Incorrect mouse coordinates, which can affect hit testing, drag and drop, and so forth.
 
 To ensure that older programs work at high-DPI settings, the DWM implements a useful fallback. If a program is not marked as being DPI aware, the DWM will scale the entire UI to match the DPI setting. For example, at 144 DPI, the UI is scaled by 150%, including text, graphics, controls, and window sizes. If the program creates a 500 × 500 window, the window actually appears as 750 × 750 pixels, and the contents of the window are scaled accordingly.
