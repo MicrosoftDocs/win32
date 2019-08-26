@@ -3,7 +3,7 @@ Description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: article
-ms.date: 03/18/2019
+ms.date: 08/26/2019
 ---
 
 # PE Format
@@ -2121,7 +2121,7 @@ Each resource directory table has the following format. This data structure shou
 
 #### Resource Directory Entries
 
-The directory entries make up the rows of a table. Each resource directory entry has the following format. Whether the entry is a Name or ID entry is indicated by the resource directory table, which indicates how many Name and ID entries follow it (remember that all the Name entries precede all the ID entries for the table). All entries for the table are sorted in ascending order: the Name entries by case-sensitive string and the ID entries by numeric value. Offsets are relative to the address in the IMAGE\_DIRECTORY\_ENTRY\_RESOURCE DataDirectory.
+The directory entries make up the rows of a table. Each resource directory entry has the following format. Whether the entry is a Name or ID entry is indicated by the resource directory table, which indicates how many Name and ID entries follow it (remember that all the Name entries precede all the ID entries for the table). All entries for the table are sorted in ascending order: the Name entries by case-sensitive string and the ID entries by numeric value. Offsets are relative to the address in the IMAGE\_DIRECTORY\_ENTRY\_RESOURCE DataDirectory. See [Peering Inside the PE: A Tour of the Win32 Portable Executable File Format](https://docs.microsoft.com/previous-versions/ms809762(v=msdn.10)#pe-file-resources) for more information.
 
 
 
