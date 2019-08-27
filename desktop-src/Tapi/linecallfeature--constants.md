@@ -336,9 +336,9 @@ Take the call off hold ( [**lineUnhold**](/windows/desktop/api/Tapi/nf-tapi-line
 
 No extensibility. All 32 bits are reserved.
 
-These constants are used both in [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag) (returned by [**lineGetAddressCaps**](/windows/desktop/api/Tapi/nf-tapi-linegetaddresscaps)) and in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag) (returned by [**lineGetCallStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetcallstatus)). **LINEADDRESSCAPS** reports the availability of the call features on the specified address. An application would use this information when it initializes to determine what it may be able to do later when calls exist. For the specified call, **LINECALLSTATUS** reports which call features can be invoked while the call is in the current call state. The latter takes call privileges into account. An application would make this determination dynamically, after call state changes.
+These constants are used both in [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps) (returned by [**lineGetAddressCaps**](/windows/desktop/api/Tapi/nf-tapi-linegetaddresscaps)) and in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) (returned by [**lineGetCallStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetcallstatus)). **LINEADDRESSCAPS** reports the availability of the call features on the specified address. An application would use this information when it initializes to determine what it may be able to do later when calls exist. For the specified call, **LINECALLSTATUS** reports which call features can be invoked while the call is in the current call state. The latter takes call privileges into account. An application would make this determination dynamically, after call state changes.
 
-The LINECALLFEATURE\_RELEASEUSERUSERINFO value is new to TAPI 1.4. There are no backward compatibility considerations. A service provider may elect to return this value in relevant members (in [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag) and [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag)) even when older API versions have been negotiated on the line device.
+The LINECALLFEATURE\_RELEASEUSERUSERINFO value is new to TAPI 1.4. There are no backward compatibility considerations. A service provider may elect to return this value in relevant members (in [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps) and [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus)) even when older API versions have been negotiated on the line device.
 
 ## Requirements
 
@@ -355,10 +355,10 @@ The LINECALLFEATURE\_RELEASEUSERUSERINFO value is new to TAPI 1.4. There are no 
 
 <dl> <dt>
 
-[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag)
+[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps)
 </dt> <dt>
 
-[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag)
+[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus)
 </dt> <dt>
 
 [**lineGetAddressCaps**](/windows/desktop/api/Tapi/nf-tapi-linegetaddresscaps)

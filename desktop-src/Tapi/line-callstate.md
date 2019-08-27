@@ -120,7 +120,7 @@ This message cannot be disabled.
 [**lineDeallocateCall**](/windows/desktop/api/Tapi/nf-tapi-linedeallocatecall)
 </dt> <dt>
 
-[**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams_tag)
+[**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams)
 </dt> <dt>
 
 [**lineForward**](/windows/desktop/api/Tapi/nf-tapi-lineforward)

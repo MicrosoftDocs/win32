@@ -1558,64 +1558,64 @@ Use with TAPI version(s)
 
 | TAPI structure                                                     | Use with TAPI version(s) |     |     |     |
 |--------------------------------------------------------------------|--------------------------|-----|-----|-----|
-| [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus_tag)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEAGENTACTIVITYENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagentactivityentry_tag)       |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEAGENTACTIVITYLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentactivitylist_tag)         |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEAGENTCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineagentcaps_tag)                         |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEAGENTENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagententry_tag)                       |                          |     |     | 2.2 |
-| [**LINEAGENTGROUPENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagentgroupentry_tag)             |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEAGENTGROUPLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentgrouplist_tag)               |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEAGENTINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentinfo_tag)                             |                          |     |     | 2.2 |
-| [**LINEAGENTLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentlist_tag)                             |                          |     |     | 2.2 |
+| [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEAGENTACTIVITYENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagentactivityentry)       |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEAGENTACTIVITYLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentactivitylist)         |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEAGENTCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineagentcaps)                         |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEAGENTENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagententry)                       |                          |     |     | 2.2 |
+| [**LINEAGENTGROUPENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagentgroupentry)             |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEAGENTGROUPLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentgrouplist)               |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEAGENTINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentinfo)                             |                          |     |     | 2.2 |
+| [**LINEAGENTLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentlist)                             |                          |     |     | 2.2 |
 | [**LINEAGENTSESSIONENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagentsession_tag)         |                          |     |     | 2.2 |
-| [**LINEAGENTSESSIONINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessioninfo_tag)           |                          |     |     | 2.2 |
-| [**LINEAGENTSESSIONLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessionlist_tag)           |                          |     |     | 2.2 |
-| [**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus_tag)                     |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEAPPINFO**](/windows/desktop/api/Tapi/ns-tapi-lineappinfo_tag)                             |                          | 2.0 | 2.1 | 2.2 |
-| [**LINECALLHUBTRACKINGINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallhubtrackinginfo_tag)     |                          |     |     | 2.2 |
-| [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag)                           | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINECALLLIST**](/windows/desktop/api/Tapi/ns-tapi-linecalllist_tag)                           | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams_tag)                       | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag)                       | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINECALLTREATMENTENTRY**](/windows/desktop/api/Tapi/ns-tapi-linecalltreatmententry_tag)       |                          | 2.0 | 2.1 | 2.2 |
-| [**LINECARDENTRY**](/windows/desktop/api/Tapi/ns-tapi-linecardentry_tag)                         | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINECOUNTRYENTRY**](/windows/desktop/api/Tapi/ns-tapi-linecountryentry_tag)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINECOUNTRYLIST**](/windows/desktop/api/Tapi/ns-tapi-linecountrylist_tag)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps_tag)                             | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag)                         | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams_tag)                       | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEEXTENSIONID**](/windows/desktop/api/Tapi/ns-tapi-lineextensionid_tag)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEFORWARD**](/windows/desktop/api/Tapi/ns-tapi-lineforward_tag)                             | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEFORWARDLIST**](/windows/desktop/api/Tapi/ns-tapi-lineforwardlist_tag)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEGENERATETONE**](/windows/desktop/api/Tapi/ns-tapi-linegeneratetone_tag)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEINITIALIZEEXPARAMS**](/windows/desktop/api/Tapi/ns-tapi-lineinitializeexparams_tag)       |                          | 2.0 | 2.1 | 2.2 |
-| [**LINELOCATIONENTRY**](/windows/desktop/api/Tapi/ns-tapi-linelocationentry_tag)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEMEDIACONTROLCALLSTATE**](/windows/desktop/api/Tapi/ns-tapi-linemediacontrolcallstate_tag) | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEMEDIACONTROLDIGIT**](/windows/desktop/api/Tapi/ns-tapi-linemediacontroldigit_tag)         | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEMEDIACONTROLMEDIA**](/windows/desktop/api/Tapi/ns-tapi-linemediacontrolmedia_tag)         | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEMEDIACONTROLTONE**](/windows/desktop/api/Tapi/ns-tapi-linemediacontroltone_tag)           | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEMESSAGE**](/windows/desktop/api/Tapi/ns-tapi-linemessage_tag)                             |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEMONITORTONE**](/windows/desktop/api/Tapi/ns-tapi-linemonitortone_tag)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEPROVIDERENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineproviderentry_tag)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEPROVIDERLIST**](/windows/desktop/api/Tapi/ns-tapi-lineproviderlist_tag)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEPROXYREQUEST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequest_tag)                   |                          | 2.0 | 2.1 | 2.2 |
-| [**LINEPROXYREQUESTLIST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequestlist_tag)               |                          |     |     | 2.2 |
-| [**LINEQUEUEENTRY**](/windows/desktop/api/Tapi/ns-tapi-linequeueentry_tag)                           |                          |     |     | 2.2 |
-| [**LINEQUEUEINFO**](/windows/desktop/api/Tapi/ns-tapi-linequeueinfo_tag)                             |                          |     |     | 2.2 |
-| [**LINEQUEUELIST**](/windows/desktop/api/Tapi/ns-tapi-linequeuelist_tag)                             |                          |     |     | 2.2 |
-| [**LINEREQMAKECALL**](/windows/desktop/api/Tapi/ns-tapi-linereqmakecall_tag)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINEREQMEDIACALL**](/windows/desktop/api/Tapi/ns-tapi-linereqmediacall_tag)                   |                          | 2.0 | 2.1 | 2.2 |
-| [**LINETERMCAPS**](/windows/desktop/api/Tapi/ns-tapi-linetermcaps_tag)                           | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINETRANSLATECAPS**](/windows/desktop/api/Tapi/ns-tapi-linetranslatecaps_tag)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**LINETRANSLATEOUTPUT**](/windows/desktop/api/Tapi/ns-tapi-linetranslateoutput_tag)             | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**PHONEBUTTONINFO**](/windows/desktop/api/Tapi/ns-tapi-phonebuttoninfo_tag)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps_tag)                                 | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**PHONEEXTENSIONID**](/windows/desktop/api/Tapi/ns-tapi-phoneextensionid_tag)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**PHONEINITIALIZEEXPARAMS**](/windows/desktop/api/Tapi/ns-tapi-phoneinitializeexparams_tag)     |                          | 2.0 | 2.1 | 2.2 |
-| [**PHONEMESSAGE**](/windows/desktop/api/Tapi/ns-tapi-phonemessage_tag)                           |                          | 2.0 | 2.1 | 2.2 |
-| [**PHONESTATUS**](/windows/desktop/api/Tapi/ns-tapi-phonestatus_tag)                             | 1.4                      | 2.0 | 2.1 | 2.2 |
-| [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring_tag)                                 | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEAGENTSESSIONINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessioninfo)           |                          |     |     | 2.2 |
+| [**LINEAGENTSESSIONLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessionlist)           |                          |     |     | 2.2 |
+| [**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus)                     |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEAPPINFO**](/windows/desktop/api/Tapi/ns-tapi-lineappinfo)                             |                          | 2.0 | 2.1 | 2.2 |
+| [**LINECALLHUBTRACKINGINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallhubtrackinginfo)     |                          |     |     | 2.2 |
+| [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo)                           | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINECALLLIST**](/windows/desktop/api/Tapi/ns-tapi-linecalllist)                           | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams)                       | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus)                       | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINECALLTREATMENTENTRY**](/windows/desktop/api/Tapi/ns-tapi-linecalltreatmententry)       |                          | 2.0 | 2.1 | 2.2 |
+| [**LINECARDENTRY**](/windows/desktop/api/Tapi/ns-tapi-linecardentry)                         | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINECOUNTRYENTRY**](/windows/desktop/api/Tapi/ns-tapi-linecountryentry)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINECOUNTRYLIST**](/windows/desktop/api/Tapi/ns-tapi-linecountrylist)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps)                             | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus)                         | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams)                       | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEEXTENSIONID**](/windows/desktop/api/Tapi/ns-tapi-lineextensionid)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEFORWARD**](/windows/desktop/api/Tapi/ns-tapi-lineforward)                             | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEFORWARDLIST**](/windows/desktop/api/Tapi/ns-tapi-lineforwardlist)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEGENERATETONE**](/windows/desktop/api/Tapi/ns-tapi-linegeneratetone)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEINITIALIZEEXPARAMS**](/windows/desktop/api/Tapi/ns-tapi-lineinitializeexparams)       |                          | 2.0 | 2.1 | 2.2 |
+| [**LINELOCATIONENTRY**](/windows/desktop/api/Tapi/ns-tapi-linelocationentry)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEMEDIACONTROLCALLSTATE**](/windows/desktop/api/Tapi/ns-tapi-linemediacontrolcallstate) | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEMEDIACONTROLDIGIT**](/windows/desktop/api/Tapi/ns-tapi-linemediacontroldigit)         | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEMEDIACONTROLMEDIA**](/windows/desktop/api/Tapi/ns-tapi-linemediacontrolmedia)         | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEMEDIACONTROLTONE**](/windows/desktop/api/Tapi/ns-tapi-linemediacontroltone)           | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEMESSAGE**](/windows/desktop/api/Tapi/ns-tapi-linemessage)                             |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEMONITORTONE**](/windows/desktop/api/Tapi/ns-tapi-linemonitortone)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEPROVIDERENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineproviderentry)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEPROVIDERLIST**](/windows/desktop/api/Tapi/ns-tapi-lineproviderlist)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEPROXYREQUEST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequest)                   |                          | 2.0 | 2.1 | 2.2 |
+| [**LINEPROXYREQUESTLIST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequestlist)               |                          |     |     | 2.2 |
+| [**LINEQUEUEENTRY**](/windows/desktop/api/Tapi/ns-tapi-linequeueentry)                           |                          |     |     | 2.2 |
+| [**LINEQUEUEINFO**](/windows/desktop/api/Tapi/ns-tapi-linequeueinfo)                             |                          |     |     | 2.2 |
+| [**LINEQUEUELIST**](/windows/desktop/api/Tapi/ns-tapi-linequeuelist)                             |                          |     |     | 2.2 |
+| [**LINEREQMAKECALL**](/windows/desktop/api/Tapi/ns-tapi-linereqmakecall)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINEREQMEDIACALL**](/windows/desktop/api/Tapi/ns-tapi-linereqmediacall)                   |                          | 2.0 | 2.1 | 2.2 |
+| [**LINETERMCAPS**](/windows/desktop/api/Tapi/ns-tapi-linetermcaps)                           | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINETRANSLATECAPS**](/windows/desktop/api/Tapi/ns-tapi-linetranslatecaps)                 | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**LINETRANSLATEOUTPUT**](/windows/desktop/api/Tapi/ns-tapi-linetranslateoutput)             | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**PHONEBUTTONINFO**](/windows/desktop/api/Tapi/ns-tapi-phonebuttoninfo)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps)                                 | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**PHONEEXTENSIONID**](/windows/desktop/api/Tapi/ns-tapi-phoneextensionid)                   | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**PHONEINITIALIZEEXPARAMS**](/windows/desktop/api/Tapi/ns-tapi-phoneinitializeexparams)     |                          | 2.0 | 2.1 | 2.2 |
+| [**PHONEMESSAGE**](/windows/desktop/api/Tapi/ns-tapi-phonemessage)                           |                          | 2.0 | 2.1 | 2.2 |
+| [**PHONESTATUS**](/windows/desktop/api/Tapi/ns-tapi-phonestatus)                             | 1.4                      | 2.0 | 2.1 | 2.2 |
+| [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring)                                 | 1.4                      | 2.0 | 2.1 | 2.2 |
 
 
 

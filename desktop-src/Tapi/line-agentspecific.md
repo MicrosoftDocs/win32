@@ -38,7 +38,7 @@ The callback instance supplied when opening the call's line.
 *dwParam1* 
 </dt> <dd>
 
-The index into the array of handler extension identifiers in the [**LINEAGENTCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineagentcaps_tag) structure of the handler extension with which the message is associated.
+The index into the array of handler extension identifiers in the [**LINEAGENTCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineagentcaps) structure of the handler extension with which the message is associated.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ The **LINE\_AGENTSPECIFIC** message is not sent to applications that support old
 
 <dl> <dt>
 
-[**LINEAGENTCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineagentcaps_tag)
+[**LINEAGENTCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineagentcaps)
 </dt> <dt>
 
 [**lineAgentSpecific**](/windows/desktop/api/Tapi/nf-tapi-lineagentspecific)

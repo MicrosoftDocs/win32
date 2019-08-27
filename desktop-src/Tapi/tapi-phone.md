@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The tapi/phone device class consists of all phone devices. You access these devices by using the TAPI phone functions.
 
-The [**phoneGetID**](/windows/desktop/api/Tapi/nf-tapi-phonegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring_tag) structure, setting the **dwStringFormat** member to the STRINGFORMAT\_BINARY value and appending this additional member:
+The [**phoneGetID**](/windows/desktop/api/Tapi/nf-tapi-phonegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring) structure, setting the **dwStringFormat** member to the STRINGFORMAT\_BINARY value and appending this additional member:
 
 ``` syntax
 DWORD dwDeviceI;  // phone device identifier
@@ -18,7 +18,7 @@ DWORD dwDeviceI;  // phone device identifier
 
 The **dwDeviceId** member is the identifier of the phone device associated with the phone handle given by [**phoneGetID**](/windows/desktop/api/Tapi/nf-tapi-phonegetid).
 
-The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function also fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring_tag) structure, setting **dwStringFormat** to STRINGFORMAT\_BINARY and appending this additional member:
+The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function also fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring) structure, setting **dwStringFormat** to STRINGFORMAT\_BINARY and appending this additional member:
 
 ``` syntax
 DWORD adwDeviceIds[];  // array of phone device identifiers

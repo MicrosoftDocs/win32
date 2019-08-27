@@ -25,7 +25,7 @@ The functions in the filter and format groups are very similar. Almost every fun
 
 In the format group, some functions use waveform-audio format tags (the **wFormatTag** member of a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx) structure) while others require full waveform-audio formats (the full **WAVEFORMATEX** structure). (For reference information about the **WAVEFORMATEX** structure, see [Error](error.md).)
 
-In the filter group, some functions use waveform-audio filter tags (the **dwFilterTag** member of a [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter_tag) structure), while others require full waveform-audio filters (the full **WAVEFILTER** structure).
+In the filter group, some functions use waveform-audio filter tags (the **dwFilterTag** member of a [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter) structure), while others require full waveform-audio filters (the full **WAVEFILTER** structure).
 
 The functions in the stream group represent the many steps involved in a conversion: opening a conversion instance, preparing for the conversion, performing the conversion, cleaning up after the conversion is complete, and closing the conversion instance.
 

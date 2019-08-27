@@ -100,7 +100,7 @@ Media control can be set on this line.
 Terminal modes for this line can be set.
 
 > [!Note]  
-> If neither of the new modified "FORWARD" bits is set in the **dwLineFeatures** member in [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag) but the LINEFEATURE\_FORWARD bit is set, then any of the forward modes can work; the service provider has simply not specified which ones.
+> If neither of the new modified "FORWARD" bits is set in the **dwLineFeatures** member in [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) but the LINEFEATURE\_FORWARD bit is set, then any of the forward modes can work; the service provider has simply not specified which ones.
 
  
 
@@ -111,7 +111,7 @@ Terminal modes for this line can be set.
 
 No extensibility. All 32 bits are reserved.
 
-The LINEFEATURE\_ constants are used in [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag) (returned by [**lineGetLineDevStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetlinedevstatus)). [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag) reports, for a given line, which line features can actually be invoked while the line is in the current state. An application would make this determination dynamically after line state changes, typically caused by address or call-related activities on the line.
+The LINEFEATURE\_ constants are used in [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) (returned by [**lineGetLineDevStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetlinedevstatus)). [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) reports, for a given line, which line features can actually be invoked while the line is in the current state. An application would make this determination dynamically after line state changes, typically caused by address or call-related activities on the line.
 
 ## Requirements
 
@@ -128,7 +128,7 @@ The LINEFEATURE\_ constants are used in [**LINEDEVSTATUS**](/windows/desktop/api
 
 <dl> <dt>
 
-[**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag)
+[**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus)
 </dt> <dt>
 
 [**lineForward**](/windows/desktop/api/Tapi/nf-tapi-lineforward)

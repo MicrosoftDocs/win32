@@ -52,7 +52,7 @@ Specifies the agent status that has changed; can be a combination of [**LINEAGEN
 *dwParam3* 
 </dt> <dd>
 
-If *dwParam2* includes the LINEAGENTSTATUS\_STATE bit, then *dwParam3* indicates the new value of the **dwState** member in [**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus_tag). Otherwise, this parameter is set to zero.
+If *dwParam2* includes the LINEAGENTSTATUS\_STATE bit, then *dwParam3* indicates the new value of the **dwState** member in [**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus). Otherwise, this parameter is set to zero.
 
 </dd> </dl>
 
@@ -79,7 +79,7 @@ The **LINE\_AGENTSTATUS** message is not sent to applications that support older
 
 <dl> <dt>
 
-[**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus_tag)
+[**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus)
 </dt> <dt>
 
 [**lineGetAgentStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetagentstatusa)

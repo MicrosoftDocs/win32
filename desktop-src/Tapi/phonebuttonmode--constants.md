@@ -76,7 +76,7 @@ The button is a local function button, such as mute or volume control.
 
 No extensibility. All 32 bits are reserved.
 
-This enumeration type is used in the [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps_tag) data structure to describe the meaning associated with the phone's buttons.
+This enumeration type is used in the [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps) data structure to describe the meaning associated with the phone's buttons.
 
 ## Requirements
 

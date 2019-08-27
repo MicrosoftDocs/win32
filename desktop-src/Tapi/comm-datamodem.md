@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # comm/datamodem
 
-The comm/datamodem device class consists of datamodem devices. You access these devices by using the [file](https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions) and [communications functions](https://docs.microsoft.com/windows/desktop/DevIO/communications-functions). Devices in this class are associated with line devices that support the LINEMEDIAMODE\_DATAMODEM media type, which is specified in the **dwMediaModes** member of the [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps_tag) structure for the line device.
+The comm/datamodem device class consists of datamodem devices. You access these devices by using the [file](https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions) and [communications functions](https://docs.microsoft.com/windows/desktop/DevIO/communications-functions). Devices in this class are associated with line devices that support the LINEMEDIAMODE\_DATAMODEM media type, which is specified in the **dwMediaModes** member of the [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps) structure for the line device.
 
-The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring_tag) structure, setting **dwStringFormat** to the STRINGFORMAT\_BINARY value and appending these additional members:
+The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring) structure, setting **dwStringFormat** to the STRINGFORMAT\_BINARY value and appending these additional members:
 
 ``` syntax
 HANDLE hComm;            // file handle to data modem

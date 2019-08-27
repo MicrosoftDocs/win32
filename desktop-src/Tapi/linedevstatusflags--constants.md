@@ -56,7 +56,7 @@ Indicates whether the line has a message waiting. If **TRUE**, a message is wait
 
 No extensibility. All 32 bits are reserved.
 
-LINEDEVSTATUSFLAGS\_ constants are used within the **dwDevStatusFlags** member of the [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag) data structure.
+LINEDEVSTATUSFLAGS\_ constants are used within the **dwDevStatusFlags** member of the [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) data structure.
 
 ## Requirements
 

@@ -86,7 +86,7 @@ Party identifier information is currently unknown but may become known later.
 
 No extensibility. All 32 bits are reserved.
 
-For each of the possible parties involved in a call, the **LINECALLPARTYID\_** constants describe how the party identifier information is formatted. This information is supplied in the [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) data structure.
+For each of the possible parties involved in a call, the **LINECALLPARTYID\_** constants describe how the party identifier information is formatted. This information is supplied in the [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) data structure.
 
 ## Requirements
 

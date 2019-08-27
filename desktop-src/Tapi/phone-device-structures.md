@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 The following is the reference for phone device structures, which includes:
 
--   [**PHONEBUTTONINFO**](/windows/desktop/api/Tapi/ns-tapi-phonebuttoninfo_tag)
--   [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps_tag)
--   [**PHONEEXTENSIONID**](/windows/desktop/api/Tapi/ns-tapi-phoneextensionid_tag)
--   [**PHONEINITIALIZEEXPARAMS**](/windows/desktop/api/Tapi/ns-tapi-phoneinitializeexparams_tag)
--   [**PHONEMESSAGE**](/windows/desktop/api/Tapi/ns-tapi-phonemessage_tag)
--   [**PHONESTATUS**](/windows/desktop/api/Tapi/ns-tapi-phonestatus_tag)
--   [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring_tag)
+-   [**PHONEBUTTONINFO**](/windows/desktop/api/Tapi/ns-tapi-phonebuttoninfo)
+-   [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps)
+-   [**PHONEEXTENSIONID**](/windows/desktop/api/Tapi/ns-tapi-phoneextensionid)
+-   [**PHONEINITIALIZEEXPARAMS**](/windows/desktop/api/Tapi/ns-tapi-phoneinitializeexparams)
+-   [**PHONEMESSAGE**](/windows/desktop/api/Tapi/ns-tapi-phonemessage)
+-   [**PHONESTATUS**](/windows/desktop/api/Tapi/ns-tapi-phonestatus)
+-   [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring)
 
  
 

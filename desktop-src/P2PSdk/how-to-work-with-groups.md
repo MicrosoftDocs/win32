@@ -66,7 +66,7 @@ The roles of peer group members are set in the invitations the administrator giv
 
 Members can participate in a peer group, but cannot invite and authorize new members, set group properties, or update or delete group records that they do not specifically create. To assign member status to a participating peer, set the value of the **pRoles** parameter of [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation) to PEER\_GROUP\_ROLE\_MEMBER when you create an invitation for that peer.
 
-To change the role of a member, new credentials containing the new role must be issued to that member. To accomplish this, obtain the [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info_tag) structure for this member from the PEER\_MEMBER structure returned by [**PeerGroupEnumMembers**](/windows/desktop/api/P2P/nf-p2p-peergroupenummembers). Change the **pRoles** field in **PEER\_CREDENTIAL\_INFO** to the new role, and pass the structure to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials).
+To change the role of a member, new credentials containing the new role must be issued to that member. To accomplish this, obtain the [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) structure for this member from the PEER\_MEMBER structure returned by [**PeerGroupEnumMembers**](/windows/desktop/api/P2P/nf-p2p-peergroupenummembers). Change the **pRoles** field in **PEER\_CREDENTIAL\_INFO** to the new role, and pass the structure to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials).
 
 The new credentials will not go into effect for the peer until they connect to the peer group. If they are currently connected, they must close the group and reconnect to obtain the updated credentials.
 
@@ -74,7 +74,7 @@ The new credentials will not go into effect for the peer until they connect to t
 
 To obtain an enumerated list of all peers participating in the peer group, call [**PeerGroupEnumMembers**](/windows/desktop/api/P2P/nf-p2p-peergroupenummembers) with the group handle, which returns a handle to the enumeration. To obtain the members, call [**PeerGetNextItem**](/windows/desktop/api/P2P/nf-p2p-peergetnextitem) with the enum handle and the number of members to retrieve. Continue calling **PeerGetNextItem** until the *pCount* parameter returns a value less than the number of members requested. Note that the complete list of available members may not be returned.
 
-Each member is represented as a [**PEER\_MEMBER**](/windows/desktop/api/P2P/ns-p2p-peer_member_tag) structure, which contains the identity of the peer, node IDs, and IP addresses for active peers.
+Each member is represented as a [**PEER\_MEMBER**](/windows/desktop/api/P2P/ns-p2p-peer_member) structure, which contains the identity of the peer, node IDs, and IP addresses for active peers.
 
 When finished, close the enumeration and release the associated memory by calling [**PeerEndEnumeration**](/windows/desktop/api/P2P/nf-p2p-peerendenumeration).
 

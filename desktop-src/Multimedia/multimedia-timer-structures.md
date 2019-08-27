@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 The following structures are used with multimedia timers.
 
 -   [**MMTIME**](https://msdn.microsoft.com/en-us/library/Dd757347(v=VS.85).aspx)
--   [**TIMECAPS**](/windows/desktop/api/TimeAPI/ns-timeapi-timecaps_tag)
+-   [**TIMECAPS**](/windows/desktop/api/TimeAPI/ns-timeapi-timecaps)
 
 ## Related topics
 

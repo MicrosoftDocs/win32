@@ -99,7 +99,7 @@ The following media type attributes apply to AAC audio.
 <td><a href="mf-mt-user-data-attribute"><strong>MF_MT_USER_DATA</strong></a></td>
 <td>The value of this attribute depends on the subtype:<br/>
 <ul>
-<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag"><strong>HEAACWAVEINFO</strong></a> structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
+<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a> structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
 <li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: Contains the AudioSpecificConfig() data.</li>
 </ul></td>
 </tr>

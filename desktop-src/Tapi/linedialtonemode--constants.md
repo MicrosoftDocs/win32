@@ -76,7 +76,7 @@ The dial tone mode is not currently known but may become known later.
 
 The high-order 16 bits can be assigned for device-specific extensions. The low-order 16 bits are reserved.
 
-The **LINEDIALTONEMODE\_constants** are used within the [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag) data structure for a call in the dialtone state.
+The **LINEDIALTONEMODE\_constants** are used within the [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) data structure for a call in the dialtone state.
 
 ## Requirements
 

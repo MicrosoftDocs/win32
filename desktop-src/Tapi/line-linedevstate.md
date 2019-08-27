@@ -89,7 +89,7 @@ The sending of the **LINE\_LINEDEVSTATE** message can be controlled with [**line
 [**LINE\_CREATE**](line-create.md)
 </dt> <dt>
 
-[**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps_tag)
+[**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps)
 </dt> <dt>
 
 [**lineGetDevCaps**](/windows/desktop/api/Tapi/nf-tapi-linegetdevcaps)
@@ -113,7 +113,7 @@ The sending of the **LINE\_LINEDEVSTATE** message can be controlled with [**line
 [**lineShutdown**](/windows/desktop/api/Tapi/nf-tapi-lineshutdown)
 </dt> <dt>
 
-[**LINETRANSLATECAPS**](/windows/desktop/api/Tapi/ns-tapi-linetranslatecaps_tag)
+[**LINETRANSLATECAPS**](/windows/desktop/api/Tapi/ns-tapi-linetranslatecaps)
 </dt> <dt>
 
 [**lineUncompleteCall**](/windows/desktop/api/Tapi/nf-tapi-lineuncompletecall)

@@ -70,7 +70,7 @@ If this bit is on, a "no hold conference" can be created by using the LINECALLPA
 If this bit is on, "one step transfer" can be created by using the LINECALLPARAMFLAGS\_ONESTEPTRANSFER option with [**lineSetupTransfer**](/windows/desktop/api/Tapi/nf-tapi-linesetuptransfer). The LINECALLFEATURE\_SETUPTRANSFER bit will also be on in the **dwCallFeatures** member.
 
 > [!Note]  
-> If none of the "COMPL" bits is specified in the **dwCallFeatures2** member in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag) but LINECALLFEATURE\_COMPLETECALL is specified, then it is possible that any of them will work, but the service provider has not specified which.
+> If none of the "COMPL" bits is specified in the **dwCallFeatures2** member in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) but LINECALLFEATURE\_COMPLETECALL is specified, then it is possible that any of them will work, but the service provider has not specified which.
 
  
 
@@ -95,7 +95,7 @@ If this bit is on, the [**lineCompleteTransfer**](/windows/desktop/api/Tapi/nf-t
 If this bit is on, the [**lineCompleteTransfer**](/windows/desktop/api/Tapi/nf-tapi-linecompletetransfer) function can be used to resolve the transfer as a normal transfer. The LINECALLFEATURE\_COMPLETETRANSF bit will also be on in the **dwCallFeatures** member.
 
 > [!Note]  
-> If neither TRANSFERNORM nor TRANSFERCONF is specified in the **dwCallFeatures2** member in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag) but LINECALLFEATURE\_COMPLETETRANSF is specified, then it is possible that either will work, but the service provider has not specified which.
+> If neither TRANSFERNORM nor TRANSFERCONF is specified in the **dwCallFeatures2** member in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) but LINECALLFEATURE\_COMPLETETRANSF is specified, then it is possible that either will work, but the service provider has not specified which.
 
  
 
@@ -120,7 +120,7 @@ If this bit is on, the "directed park" feature can be invoked by using the LINEP
 If this bit is on, the "non-directed park" feature can be invoked by using the LINEPARKMODE\_NONDIRECTED option with [**linePark**](/windows/desktop/api/Tapi/nf-tapi-linepark). The LINECALLFEATURE\_PARK bit will also be on in the **dwCallFeatures** member.
 
 > [!Note]  
-> If neither PARKDIRECT nor PARKNONDIRECT is specified in the **dwCallFeatures2** member in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag) but LINECALLFEATURE\_PARK is specified, then it is possible that either will work, but the service provider has not specified which.
+> If neither PARKDIRECT nor PARKNONDIRECT is specified in the **dwCallFeatures2** member in [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) but LINECALLFEATURE\_PARK is specified, then it is possible that either will work, but the service provider has not specified which.
 
  
 
@@ -142,7 +142,7 @@ If this bit is on, the "non-directed park" feature can be invoked by using the L
 
 <dl> <dt>
 
-[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag)
+[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus)
 </dt> <dt>
 
 [**lineCompleteCall**](/windows/desktop/api/Tapi/nf-tapi-linecompletecall)

@@ -51,7 +51,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Audio                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
 | Format Type           | FORMAT\_WaveFormatEx                           |
-| Format Structure      | [**MPEG1WAVEFORMAT**](/windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat_tag)     |
+| Format Structure      | [**MPEG1WAVEFORMAT**](/windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat)     |
 | Media Sample Contents | Single MPEG-1 packet, including packet header. |
 
 
@@ -67,7 +67,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Audio                           |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload                 |
 | Format Type           | FORMAT\_WaveFormatEx                       |
-| Format Structure      | [**MPEG1WAVEFORMAT**](/windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat_tag) |
+| Format Structure      | [**MPEG1WAVEFORMAT**](/windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat) |
 | Media Sample Contents | Byte-aligned MPEG-1 audio data.            |
 
 
