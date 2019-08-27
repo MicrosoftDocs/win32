@@ -48,7 +48,7 @@ The following fundamental rules enable applications to create and process valid 
     -   The following reserved characters:
 
         -   < (less than)
-        -   > (greater than)
+        -   \> (greater than)
         -   : (colon)
         -   " (double quote)
         -   / (forward slash)
