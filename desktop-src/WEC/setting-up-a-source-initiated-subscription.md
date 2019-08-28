@@ -194,11 +194,11 @@ Find more information in this article: https://technet.microsoft.com/en-us/libra
     - The Event Collector validates the client certificate chain and revocations status
     - If the above steps succeeds the authentication is completed.
 
-You may get an Access denied error complaining about the authentication method, this could be misleading. Check the CAPI log on the Event Collector for troubleshooting.
+> [!NOTE]
+> You might get an Access denied error complaining about the authentication method, which could be misleading. To troubleshoot, check the CAPI log on the Event Collector.
 
-You can list the configured certmapping entries with the command:
-
-**winrm enum winrm/config/service/certmapping**
+4. List the configured certmapping entries with the command:
+  **winrm enum winrm/config/service/certmapping**
 
 ### Event subscription configuration
 
