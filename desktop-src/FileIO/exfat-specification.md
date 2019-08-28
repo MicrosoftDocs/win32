@@ -1,3 +1,10 @@
+---
+Description: Specification of the exFat file system.
+title: exFAT file system specification
+ms.topic: article
+ms.date: 08/27/2019
+---
+
 # exFAT file system specification
 
 ## 1 Introduction
