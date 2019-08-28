@@ -24,8 +24,8 @@ Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/D
 
 | Method                                                                                                                                                      | Description                                                                  |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [**CreateEllipseGeometry(D2D1\_ELLIPSE&,ID2D1EllipseGeometry\*\*)**](id2d1factory-createellipsegeometry-ref-d2d1-ellipse-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx)  | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
-| [**CreateEllipseGeometry(D2D1\_ELLIPSE\*,ID2D1EllipseGeometry\*\*)**](id2d1factory-createellipsegeometry-ptr-d2d1-ellipse-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx) | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
+| [**CreateEllipseGeometry(D2D1\_ELLIPSE&,ID2D1EllipseGeometry\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createellipsegeometry(constd2d1_ellipse__id2d1ellipsegeometry))  | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
+| [**CreateEllipseGeometry(D2D1\_ELLIPSE\*,ID2D1EllipseGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371265(v=vs.85)) | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
 
 
 
