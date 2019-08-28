@@ -194,17 +194,11 @@ Find more information in this article: https://technet.microsoft.com/en-us/libra
     - The Event Collector validates the client certificate chain and revocations status
     - If the above steps succeeds the authentication is completed.
 
-You may get an Access denied error complaining about the authentication method, this could be misleading. Check the CAPI log on the Event Collector for troubleshooting.
+> [!NOTE]
+> You might get an Access denied error complaining about the authentication method, which could be misleading. To troubleshoot, check the CAPI log on the Event Collector.
 
-You can list the configured certmapping entries with the command:
-
-**winrm enum winrm/config/service/certmapping**
-
-Once tested the listener you can restrict the security of the certificate mapping:
-
-**winrm delete winrm/config/service/certmapping?Issuer=**&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; -remote:localhost**
-
-**winrm create winrm/config/service/certmapping?Issuer=**&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=https://**&lt;_Event Collector FQDN_&gt;**/WEC/* @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
+4. List the configured certmapping entries with the command:
+  **winrm enum winrm/config/service/certmapping**
 
 ### Event subscription configuration
 
