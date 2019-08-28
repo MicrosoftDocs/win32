@@ -200,12 +200,6 @@ You can list the configured certmapping entries with the command:
 
 **winrm enum winrm/config/service/certmapping**
 
-Once tested the listener you can restrict the security of the certificate mapping:
-
-**winrm delete winrm/config/service/certmapping?Issuer=**&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; -remote:localhost**
-
-**winrm create winrm/config/service/certmapping?Issuer=**&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=https://**&lt;_Event Collector FQDN_&gt;**/WEC/* @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
-
 ### Event subscription configuration
 
 1. Open Event Viewer in the Event Collector and navigate to the Subscriptions node.
