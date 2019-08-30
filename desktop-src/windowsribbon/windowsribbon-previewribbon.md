@@ -43,6 +43,19 @@ The following screen shot shows the Preview Ribbon application and a basic one b
 
 The [Preview Ribbon Code Sample](https://go.microsoft.com/fwlink/p/?linkid=177607) can be downloaded as a standalone Microsoft Visual Studio project from the [MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=177607).
 
+https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+
+
+
+
+
+The Preview Ribbon Code Sample can be downloaded as a Microsoft Visual Studio project from the following locations:
+
+-   Microsoft Download Center: [Windows Ribbon Samples](https://go.microsoft.com/fwlink/p/?linkid=137045)
+-   Windows Software Development Kit (SDK) (standard installation path): %ProgramFiles%\\Microsoft SDKs\\Windows\\\[version number\]\\Samples\\winui\\WindowsRibbon\\FontControl
+
+
+
 ### Building the Sample
 
 Download the sample to your hard disk.
