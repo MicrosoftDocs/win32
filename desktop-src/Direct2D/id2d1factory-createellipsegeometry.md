@@ -24,8 +24,8 @@ Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/D
 
 | Method                                                                                                                                                      | Description                                                                  |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [**CreateEllipseGeometry(D2D1\_ELLIPSE&,ID2D1EllipseGeometry\*\*)**](id2d1factory-createellipsegeometry-ref-d2d1-ellipse-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx)  | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
-| [**CreateEllipseGeometry(D2D1\_ELLIPSE\*,ID2D1EllipseGeometry\*\*)**](id2d1factory-createellipsegeometry-ptr-d2d1-ellipse-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx) | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
+| [**CreateEllipseGeometry(D2D1\_ELLIPSE&,ID2D1EllipseGeometry\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createellipsegeometry(constd2d1_ellipse__id2d1ellipsegeometry))  | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
+| [**CreateEllipseGeometry(D2D1\_ELLIPSE\*,ID2D1EllipseGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371265(v=vs.85)) | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx). <br/> |
 
 
 
@@ -49,7 +49,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
     hr = m_pD2DFactory->CreateEllipseGeometry(
         circle1,
-        &amp;m_pCircleGeometry1
+        &m_pCircleGeometry1
         );
 
     if (SUCCEEDED(hr))
@@ -61,7 +61,7 @@ HRESULT DemoApp::CreateGeometryResources()
             50.0f
             );
 
-        hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &amp;m_pCircleGeometry2);
+        hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &m_pCircleGeometry2);
     }
 
 
@@ -70,11 +70,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_UNION to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryUnion);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryUnion);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryUnion->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryUnion->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -92,7 +92,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -101,11 +101,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_INTERSECT to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryIntersect);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryIntersect);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryIntersect->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryIntersect->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -123,7 +123,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -132,11 +132,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_XOR to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryXOR);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryXOR);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryXOR->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryXOR->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -154,7 +154,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -163,11 +163,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_EXCLUDE to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryExclude);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryExclude);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryExclude->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryExclude->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -185,7 +185,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -217,12 +217,3 @@ This code produces the output shown in the following illustration.
 
 [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
 </dt> </dl>
-
-�
-
-�
-
-
-
-
-
