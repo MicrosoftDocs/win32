@@ -2291,5 +2291,26 @@
             href: ray-payload.md
           - name: "RayDesc Structure"
             href: raydesc.md
+    - name: "Direct3D 12 On Windows 7"
+      href: direct3d-12on7-reference.md
+      items:
+      - name: "Direct3D 12 On Windows 7 interfaces"
+        href: direct3d-12on7-interfaces.md
+        items:
+        - name: "ID3D12CommandQueueDownlevel"
+          href: id3d12commandqueuedownlevel.md
+          items:
+          - name: "ID3D12CommandQueueDownlevel::Present"
+            href: id3d12commandqueuedownlevel-present.md
+        - name: "ID3D12DeviceDownlevel"
+          href: id3d12devicedownlevel.md
+          items:
+          - name: "ID3D12DeviceDownlevel::QueryVideoMemoryInfo"
+            href: id3d12devicedownlevel-queryvideomemoryinfo.md
+      - name: "Direct3D 12 On Windows 7 enumerations"
+        href: direct3d-12on7-enumerations.md
+        items:
+        - name: "D3D12_DOWNLEVEL_PRESENT_FLAGS"
+          href: d3d12_downlevel_present_flags.md
   - name: "Direct3D 12 Glossary"
     href: directx-12-glossary.md
