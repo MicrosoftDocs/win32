@@ -102,7 +102,7 @@ The following table lists some examples of compatible and non-compatible embedde
 |   | Compatible embedded objects | Non-compatible embedded objects |
 | --- | --- | --- |
 | Non-TextPattern embedded objects | Button in Microsoft Edge<br>Data Table in Microsoft Edge | Button in RichTextBlock in Microsoft’s XAML framework<br>Images with alt-text in Microsoft Edge<br>ListView with ListItems in RichTextBlock in Microsoft’s XAML framework |
-| Text Pattern embedded objects | Input control of type “text” in Microsoft Edge<br>Table in a Word document | TextBox element in a Microsoft Word document |
+| TextPattern embedded objects | Input control of type “text” in Microsoft Edge<br>Table in a Word document | TextBox element in a Microsoft Word document |
 
 ## Exposing Embedded Objects
 
@@ -154,7 +154,7 @@ An [ITextProvider](https://docs.microsoft.com/windows/win32/api/uiautomationcore
 
 Nested TextPattern objects that are in a similar child relationship and share the same backing text store are called comparable. In this case, ranges from either of the TextPattern objects can be compared using [ITextRangeProvider::Compare](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-compare) and [ITextRangeProvider::CompareEndpoints](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-compareendpoints). Both result in a valid numerical value specifying their relative position.
 
-An non-Text Pattern object embedded in a TextPattern object is comparable to the TextPattern if the object has a valid range in the Text Pattern ([ITextProvider::RangeFromChild](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefromchild)) and the content behind the text range is not empty and is not a replacement character.
+A non-TextPattern object embedded in a TextPattern object is comparable to the TextPattern if the object has a valid range in the TextPattern ([ITextProvider::RangeFromChild](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefromchild)) and the content behind the text range is not empty and is not a replacement character.
 
 ## Embedded TextPattern objects and the Document TextUnit
 
