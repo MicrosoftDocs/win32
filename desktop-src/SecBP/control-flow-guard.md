@@ -36,7 +36,7 @@ You also have the option of dynamically controlling the set of icall target addr
 
 ## How Do I Tell That a Binary is under Control Flow Guard?
 
-Run the [dumpbin tool](https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference) (included in the Visual Studio 2015 installation) from the Visual Studio command prompt with the */headers* and */loadconfig* options: **dumpbin /headers /loadconfig test.exe**. The output for a binary under CFG should show that the header values include "Guard", and that the load config values include "CF Instrumented" and "FID table present".
+Run the [dumpbin tool](https://docs.microsoft.com/cpp/build/reference/dumpbin-reference) (included in the Visual Studio 2015 installation) from the Visual Studio command prompt with the */headers* and */loadconfig* options: **dumpbin /headers /loadconfig test.exe**. The output for a binary under CFG should show that the header values include "Guard", and that the load config values include "CF Instrumented" and "FID table present".
 
 ![output from dumpbin /headers](images/cfg-dumpbin-headers.png)
 
