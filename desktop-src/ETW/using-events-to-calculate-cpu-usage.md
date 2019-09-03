@@ -154,7 +154,7 @@ VOID WINAPI ProcessEvent(PEVENT_TRACE pEvent)
                     wprintf(L"CPU time units used (kernel), %d.\n", CPUUnits);
 
                     // Calculate the kernel mode CPU time in seconds for the set of instructions.
-                    // 100 = 100 nanoseconds, 1000000000 = nanoseconds in one minute
+                    // 100 = 100 nanoseconds, 1000000000 = nanoseconds in one second
 
                     CPUTime = (double)(g_TimerResolution * CPUUnits * 100) / 1000000000;
                     wprintf(L"Kernel mode CPU usage in seconds, %Lf.\n", CPUTime);
@@ -165,7 +165,7 @@ VOID WINAPI ProcessEvent(PEVENT_TRACE pEvent)
                     wprintf(L"\nCPU time units used (user), %d.\n", CPUUnits);
 
                     // Calculate the user mode CPU time in seconds for the set of instructions.
-                    // 100 = 100 nanoseconds, 1000000000 = nanoseconds in one minute
+                    // 100 = 100 nanoseconds, 1000000000 = nanoseconds in one second
 
                     CPUTime = (double)(g_TimerResolution * CPUUnits * 100) / 1000000000;
                     wprintf(L"User mode CPU usage in seconds, %Lf.\n", CPUTime);
