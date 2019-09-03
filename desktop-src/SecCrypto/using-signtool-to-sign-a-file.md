@@ -23,7 +23,7 @@ The following command signs the file using a certificate stored in a password-pr
 
 The following command signs and time stamps the file:
 
-**SignTool sign /f***MyCert***.pfx /t https://timestamp.verisign.com/scripts/timstamp.dll MyControl.exe**
+**SignTool sign /f***MyCert***.pfx /t http://timestamp.digicert.com MyControl.exe**
 
 > [!Note]  
 > For information about time stamping a file after it has already been signed, see [Adding Time Stamps to Previously Signed Files](adding-time-stamps-to-previously-signed-files.md).
