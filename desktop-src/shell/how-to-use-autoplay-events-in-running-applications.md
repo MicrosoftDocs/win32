@@ -36,88 +36,63 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 
 > [!Note]  
 > [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
->
-> <span codelanguage=""></span>
->
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>typedef HRESULT (*CREATEHARDWAREEVENTMONIKER)(REFCLSID clsid, LPCWSTR pszEventHandler, IMoniker **ppmoniker);
->
-> HRESULT RegisterComponent(IUnknown* punk, DWORD* dpwToken)
-> {
->     HRESULT hr = E_FAIL;
->     HINSTANCE hinstShSvcs = LoadLibrary(TEXT(&quot;shsvcs.dll&quot;));
->     
->     if (hinstShSvcs)
->     {   
->         CREATEHARDWAREEVENTMONIKER fct = (CREATEHARDWAREEVENTMONIKER)GetProcAddress(hinstShSvcs, &quot;CreateHardwareEventMoniker&quot;);
->         if (fct)
->         {
->             IMoniker* pmoniker;
->             
->             hr = fct(CLSID_App, TEXT(&quot;VideoCameraArrival&quot;), &pmoniker);
->
->             if (SUCCEEDED(hr))
->             {
->                 IRunningObjectTable *prot;
->                     
->                 if (SUCCEEDED(GetRunningObjectTable(0, &prot)))
->                 {
->                     hr = prot->Register(ROTFLAGS_ALLOWANYCLIENT | ROTFLAGS_REGISTRATIONKEEPSALIVE, punk, pmoniker, &amp;_dwRegisterROT);
->                     prot->Release();
->                 }
->                 pmoniker->Release();
->             }
->             CoRegisterClassObject(CLSID_App, static_cast<IClassFactory *>(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &amp;_dwRegisterClass;
->         }
->         FreeLibrary(hinstShSvcs);
->     }
->     return hr;
-> }
->                 </code></pre></td>
-> </tr>
-> </tbody>
-> </table>
->
-> 
->
->  
->
-> The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/en-us/library/ms680747(v=VS.85).aspx) requires that the component have the following **AppID** information in the registry.
->
-> ```
-> HKEY_CLASSES_ROOT
->    AppID
->       MyApp.exe
->          (Default) = MyApplication
->          AppID [REG_SZ] = {Your GUID here}
-> ```
->
-> ```
-> HKEY_CLASSES_ROOT
->    AppID
->       {The same GUID here}
->          (Default) = MyApplication
->          RunAs = Interactive User
-> ```
->
-> ## Related topics
->
-> <dl> <dt>
+
+```cpp
+typedef HRESULT (*CREATEHARDWAREEVENTMONIKER)(REFCLSID clsid, LPCWSTR pszEventHandler, IMoniker **ppmoniker);
+
+HRESULT RegisterComponent(IUnknown* punk, DWORD* dpwToken)
+{
+    HRESULT hr = E_FAIL;
+    HINSTANCE hinstShSvcs = LoadLibrary(TEXT("shsvcs.dll"));
+    
+    if (hinstShSvcs)
+    {   
+        CREATEHARDWAREEVENTMONIKER fct = (CREATEHARDWAREEVENTMONIKER)GetProcAddress(hinstShSvcs, "CreateHardwareEventMoniker");
+        if (fct)
+        {
+            IMoniker* pmoniker;
+            
+            hr = fct(CLSID_App, TEXT("VideoCameraArrival"), &pmoniker);
+
+            if (SUCCEEDED(hr))
+            {
+                IRunningObjectTable *prot;
+                    
+                if (SUCCEEDED(GetRunningObjectTable(0, &prot)))
+                {
+                    hr = prot->Register(ROTFLAGS_ALLOWANYCLIENT | ROTFLAGS_REGISTRATIONKEEPSALIVE, punk, pmoniker, &_dwRegisterROT);
+                    prot->Release();
+                }
+                pmoniker->Release();
+            }
+            CoRegisterClassObject(CLSID_App, static_cast<IClassFactory *>(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &_dwRegisterClass;
+        }
+        FreeLibrary(hinstShSvcs);
+    }
+    return hr;
+}
+```
+
+The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/en-us/library/ms680747(v=VS.85).aspx) requires that the component have the following **AppID** information in the registry.
+
+```
+HKEY_CLASSES_ROOT
+   AppID
+      MyApp.exe
+         (Default) = MyApplication
+         AppID [REG_SZ] = {Your GUID here}
+```
+
+```
+HKEY_CLASSES_ROOT
+   AppID
+      {The same GUID here}
+         (Default) = MyApplication
+         RunAs = Interactive User
+```
+
+## Related topics
 
 [**IHWEventHandler**](/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler)
-</dt> <dt>
 
 [**CreateHardwareEventMoniker**](createhardwareeventmoniker.md)
-</dt> </dl>
->
->  
->
->  
->
-
-
