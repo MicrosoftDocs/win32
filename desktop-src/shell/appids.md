@@ -155,7 +155,7 @@ Be aware that certain executable files as well as shortcuts that contain certain
 
  
 
-If any of the following strings, regardless of case, are included in the shortcut name, the program is not pinnable and is not displayed in the most frequently used list:
+If any of the following strings, regardless of case, are included in the shortcut name, the program is not pinnable and is not displayed in the most frequently used list (not applicable to Windows 10):
 
 -   Documentation
 -   Help
@@ -210,7 +210,6 @@ HKEY_LOCAL_MACHINE
                Explorer
                   FileAssociation
                      AddRemoveApps
-                     AddRemoveNames
                      HostApps
 ```
 
