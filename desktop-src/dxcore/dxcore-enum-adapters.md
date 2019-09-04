@@ -88,6 +88,46 @@ for (uint32_t i = 0; i < count; ++i)
 }
 ```
 
+## Select the most preferable adapter by sorting an adapter list
+
+You can sort a DXCore adapter list by calling the [IDXCoreAdapterList::Sort](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort) method.
+
+The [DXCoreAdapterPreference](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference) enumeration defines values that representing sort criteria. Pass an array of those values to **Sort**, and then read off the first adapter in the resulting sorted list.
+
+To determine whether a sort type is going to be understood by **Sort**, first call [IDXCoreAdapterList::IsAdapterPreferenceSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported).
+
+```cppwinrt
+winrt::com_ptr<IDXCoreAdapter> TryFindHardwareHighPerformanceGraphicsAdapter()
+{
+    // You begin DXCore adapter enumeration by creating an adapter factory.
+    winrt::com_ptr<IDXCoreAdapterFactory> adapterFactory;
+    winrt::check_hresult(::DXCoreCreateAdapterFactory(adapterFactory.put()));
+
+    // From the factory, retrieve a list of all the Direct3D 12 Graphics adapters.
+    winrt::com_ptr<IDXCoreAdapterList> d3D12GraphicsAdapters;
+    GUID attributes[]{ DXCORE_ADAPTER_ATTRIBUTE_D3D12_GRAPHICS };
+    winrt::check_hresult(
+        adapterFactory->CreateAdapterList(_countof(attributes),
+            attributes,
+            d3D12GraphicsAdapters.put()));
+
+    DXCoreAdapterPreference sortPreferences[]{
+        DXCoreAdapterPreference::Hardware, DXCoreAdapterPreference::HighPerformance };
+
+    // Ask the OS to sort for the highest performance hardware adapter.
+    winrt::check_hresult(d3D12GraphicsAdapters->Sort(_countof(sortPreferences), sortPreferences));
+
+    winrt::com_ptr<IDXCoreAdapter> preferredAdapter;
+
+    if (d3D12GraphicsAdapters->GetAdapterCount() > 0)
+    {
+        winrt::check_hresult(d3D12GraphicsAdapters->GetAdapter(0, preferredAdapter.put()));
+    }
+
+    return preferredAdapter;
+}
+```
+
 ## Query and set adapter state (properties)
 
 You can retrieve and set the state of a specified state item of an adapter by calling the [**IDXCoreAdapter::QueryState**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate) and [**IDXCoreAdapter::SetState**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) methods.

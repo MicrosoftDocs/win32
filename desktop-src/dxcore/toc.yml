@@ -21,6 +21,8 @@
     - name: "DXCore enumerations"
       href: dxcore-enumerations.md
       items: 
+      - name: "DXCoreAdapterPreference"
+        href: /windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference
       - name: "DXCoreAdapterProperty"
         href: /windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty
       - name: "DXCoreAdapterState"
@@ -82,8 +84,12 @@
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadaptercount
         - name: "GetFactory"
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getfactory
+        - name: "IsAdapterPreferenceSupported"
+          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported
         - name: "IsStale"
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale
+        - name: "Sort"
+          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort
     - name: "DXCore structures"
       href: dxcore-structures.md
       items: 

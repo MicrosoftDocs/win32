@@ -20,6 +20,7 @@ The following enumerations are declared in dxcore_interface.h.
 
 | Topic and description |
 |-|
+| [**DXCoreAdapterPreference**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference). Defines constants that specify DXCore adapter preferences to be used as list-sorting criteria. |
 | [**DXCoreAdapterProperty**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty). Defines constants that specify DXCore adapter properties. |
 | [**DXCoreAdapterState**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate). Defines constants that specify kinds of DXCore adapter states. |
 | [**DXCoreNotificationType**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype). Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects. |
