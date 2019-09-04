@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # HLSL Shader Model 5.1
 
-This section describes the features of Shader Model 5.1 as they apply in practice to D3D12 and D3D11.3. All DirectX 12 hardware supports Shader Model 5.1.
+This section describes the features of Shader Model 5.1 as they apply in practice to D3D12. All DirectX 12 hardware supports Shader Model 5.1.
 
 ## In this section
 
