@@ -95,7 +95,43 @@ winrt::com_ptr<IDXCoreAdapter> TryFindComputeAdapter()
 }
 
 //
-// Example 2 : SetDesiredMemoryReservation
+// Example 2 : TryFindHardwareHighPerformanceGraphicsAdapter
+//
+// Shows how to select the preferred adapter by sorting an adapter list.
+//
+
+winrt::com_ptr<IDXCoreAdapter> TryFindHardwareHighPerformanceGraphicsAdapter()
+{
+    // You begin DXCore adapter enumeration by creating an adapter factory.
+    winrt::com_ptr<IDXCoreAdapterFactory> adapterFactory;
+    winrt::check_hresult(::DXCoreCreateAdapterFactory(adapterFactory.put()));
+
+    // From the factory, retrieve a list of all the Direct3D 12 Graphics adapters.
+    winrt::com_ptr<IDXCoreAdapterList> d3D12GraphicsAdapters;
+    GUID attributes[]{ DXCORE_ADAPTER_ATTRIBUTE_D3D12_GRAPHICS };
+    winrt::check_hresult(
+        adapterFactory->CreateAdapterList(_countof(attributes),
+            attributes,
+            d3D12GraphicsAdapters.put()));
+
+    DXCoreAdapterPreference sortPreferences[]{
+        DXCoreAdapterPreference::Hardware, DXCoreAdapterPreference::HighPerformance };
+
+    // Ask the OS to sort for the highest performance hardware adapter.
+    winrt::check_hresult(d3D12GraphicsAdapters->Sort(_countof(sortPreferences), sortPreferences));
+
+    winrt::com_ptr<IDXCoreAdapter> preferredAdapter;
+
+    if (d3D12GraphicsAdapters->GetAdapterCount() > 0)
+    {
+        winrt::check_hresult(d3D12GraphicsAdapters->GetAdapter(0, preferredAdapter.put()));
+    }
+
+    return preferredAdapter;
+}
+
+//
+// Example 3 : SetDesiredMemoryReservation
 //
 // Shows how to get and set properties on an adapter. In this case, we
 // set the desired memory reservation (in bytes) for node 0's local segment group.
@@ -123,7 +159,7 @@ void SetDesiredMemoryReservation(winrt::com_ptr<IDXCoreAdapter> const& adapter, 
 }
 
 //
-// Example 3: WatchedAdapterList
+// Example 4: WatchedAdapterList
 //
 // Shows how to register for, and handle, notifications; in this case, the
 // notification that the adapter list has become stale.
@@ -217,9 +253,12 @@ int main()
     // Example 1.
     winrt::com_ptr<IDXCoreAdapter> computeAdapter{ TryFindComputeAdapter() };
 
+    // Example 2.
+    winrt::com_ptr<IDXCoreAdapter> graphicsAdapter{ TryFindHardwareHighPerformanceGraphicsAdapter() };
+
     if (computeAdapter)
     {
-        // Example 2.
+        // Example 3.
         SetDesiredMemoryReservation(computeAdapter, 0x40000000);
     }
 
@@ -232,7 +271,7 @@ int main()
             attributes,
             d3D12CoreComputeAdapters.put()));
 
-    // Example 3.
+    // Example 4.
     WatchedAdapterList watchedAdapterList;
     watchedAdapterList.Watch(d3D12CoreComputeAdapters, AdapterListIsStaleCallback);
 }

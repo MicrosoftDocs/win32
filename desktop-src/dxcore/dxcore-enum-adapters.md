@@ -88,7 +88,7 @@ for (uint32_t i = 0; i < count; ++i)
 }
 ```
 
-## Select the most preferable adapter by sorting an adapter list
+## Select the preferred adapter by sorting an adapter list
 
 You can sort a DXCore adapter list by calling the [IDXCoreAdapterList::Sort](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort) method.
 
