@@ -38,6 +38,8 @@ A [DXCoreAdapterPreference](/windows/win32/dxcore/dxcore_interface/ne-dxcore_int
 
 Type: **bool**
 
-Returns `true` if the sort type is understood by the current OS. Otherwise, returns `false`.
+Returns `true` if the sort type is understood by the current OS. Otherwise, returns `false`.
+
+## See also
 
 [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
