@@ -14,9 +14,16 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 A callback function (implemented by your application), which is called by a DXCore object for notification events.
+
+## Syntax
+
+```cpp
+typedef void (STDMETHODCALLTYPE *PFN_DXCORE_NOTIFICATION_CALLBACK)(
+  DXCoreNotificationType notificationType,
+  _In_ IUnknown *object,
+  _In_opt_ void *context);
+```
 
 ## Parameters
 

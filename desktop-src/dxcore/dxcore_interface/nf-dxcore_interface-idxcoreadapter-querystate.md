@@ -14,9 +14,29 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Retrieves the current state of the specified item on the adapter. Before calling **QueryState** for a property type, call [IsQueryStateSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported) to confirm that querying the state kind is available for this adapter and operating system (OS).
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE QueryState( 
+  DXCoreAdapterState state,
+  size_t inputStateDetailsSize,
+  _In_reads_bytes_opt_(inputStateDetailsSize) const void *inputStateDetails,
+  size_t outputBufferSize,
+  _Out_writes_bytes_(outputBufferSize) void *outputBuffer) = 0;
+
+template <class T1, class T2>
+HRESULT QueryState( 
+  DXCoreAdapterState state,
+  _In_reads_bytes_opt_(sizeof(T1)) const T1 *inputStateDetails,
+  _Out_writes_bytes_(sizeof(T2)) T2 *outputBuffer);
+
+template <class T>
+HRESULT QueryState( 
+  DXCoreAdapterState state,
+  _Out_writes_bytes_(sizeof(T)) T *outputBuffer);
+```
 
 ## Parameters
 

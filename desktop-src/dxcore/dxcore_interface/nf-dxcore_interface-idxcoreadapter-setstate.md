@@ -14,9 +14,24 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Sets the state of the specified item on the adapter. Before calling **SetState** for a property type, call [IsSetStateSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-issetstatesupported) to confirm that setting the state kind is available for this adapter and operating system (OS).
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE SetState( 
+  DXCoreAdapterState state,
+  size_t inputStateDetailsSize,
+  _In_reads_bytes_opt_(inputStateDetailsSize) const void *inputStateDetails,
+  size_t inputDataSize,
+  _In_reads_bytes_(inputDataSize) const void *inputData) = 0;
+
+template <class T1, class T2>
+HRESULT SetState( 
+  DXCoreAdapterState state,
+  const T1 *inputStateDetails,
+  const T2 *inputData);
+```
 
 ## Parameters
 

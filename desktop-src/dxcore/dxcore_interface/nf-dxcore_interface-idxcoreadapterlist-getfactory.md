@@ -14,9 +14,19 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Retrieves an [IDXCoreAdapterFactory](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory) interface pointer to the DXCore adapter factory object. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE GetFactory(
+  REFIID riid,
+  _COM_Outptr_ void** ppvFactory) = 0;
+
+template <class T>
+HRESULT GetFactory(
+  _COM_Outptr_ T** ppvFactory);
+```
 
 ## Parameters
 

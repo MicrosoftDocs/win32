@@ -14,9 +14,21 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Retrieves a specific adapter by index from a DXCore adapter list object. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE GetAdapter(
+  uint32_t index,
+  REFIID riid,
+  _COM_Outptr_ void **ppvAdapter) = 0;
+
+template<class T>
+HRESULT STDMETHODCALLTYPE GetAdapter( 
+  uint32_t index,
+  _COM_Outptr_ T **ppvAdapter);
+```
 
 ## Parameters
 

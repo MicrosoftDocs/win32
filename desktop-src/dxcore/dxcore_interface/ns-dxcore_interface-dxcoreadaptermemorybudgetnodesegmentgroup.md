@@ -14,11 +14,19 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Describes a memory segment group for an adapter.
 
-## -struct-fields
+## Syntax
+
+```cpp
+struct DXCoreAdapterMemoryBudgetNodeSegmentGroup
+{
+  uint32_t nodeIndex;
+  DXCoreSegmentGroup segmentGroup;
+};
+```
+
+## Members
 
 ### nodeIndex
 

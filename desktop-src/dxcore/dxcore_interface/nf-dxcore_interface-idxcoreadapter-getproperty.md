@@ -14,9 +14,21 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Retrieves the value of the specified adapter property. Before calling **GetProperty** for a property type, call [IsPropertySupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported) to confirm that the property type is available for this adapter and operating system (OS). Also before calling **GetProperty**, call [GetPropertySize](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize) to determine the necessary size of the buffer in which to receive the property value.
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE GetProperty(
+  DXCoreAdapterProperty property,
+  size_t bufferSize,
+  _Out_writes_bytes_(bufferSize) void *propertyData) = 0;
+
+template <class T>
+HRESULT GetProperty( 
+  DXCoreAdapterProperty property,
+  _Out_writes_bytes_(sizeof(T)) T *propertyData);
+```
 
 ## Parameters
 

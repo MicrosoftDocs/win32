@@ -14,11 +14,19 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Defines constants that specify an adapter's memory segment grouping.
 
-## Enum fields
+## Syntax
+
+```cpp
+enum class DXCoreSegmentGroup : uint32_t
+{
+  Local = 0,
+  NonLocal = 1
+};
+```
+
+## Constants
 
 ### Local
 

@@ -14,9 +14,14 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Determines whether this DXCore adapter object supports the specified adapter attribute.
+
+## Syntax
+
+```cpp
+virtual bool STDMETHODCALLTYPE IsAttributeSupported( 
+  REFGUID attributeGUID) = 0;
+```
 
 ## Parameters
 

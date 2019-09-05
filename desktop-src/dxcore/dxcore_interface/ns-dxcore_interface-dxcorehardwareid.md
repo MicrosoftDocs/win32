@@ -14,11 +14,21 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Represents the PnP hardware ID parts for an adapter.
 
-## -struct-fields
+## Syntax
+
+```cpp
+struct DXCoreHardwareID
+{
+  uint32_t vendorID;
+  uint32_t deviceID;
+  uint32_t subSysID;
+  uint32_t revision;
+};
+```
+
+## Members
 
 ### vendorId
 

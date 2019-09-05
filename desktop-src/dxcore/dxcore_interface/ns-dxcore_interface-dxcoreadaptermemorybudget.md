@@ -14,11 +14,21 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Describes the memory budget for an adapter.
 
-## -struct-fields
+## Syntax
+
+```cpp
+struct DXCoreAdapterMemoryBudget
+{
+  uint64_t budget;
+  uint64_t currentUsage;
+  uint64_t availableForReservation;
+  uint64_t currentReservation;
+};
+```
+
+## Members
 
 ### budget
 
