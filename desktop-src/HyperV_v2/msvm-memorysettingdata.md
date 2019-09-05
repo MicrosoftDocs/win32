@@ -19,6 +19,7 @@ api_name:
 - Msvm_MemorySettingData.PoolID
 - Msvm_MemorySettingData.ConsumerVisibility
 - Msvm_MemorySettingData.HostResource
+- Msvm_MemorySettingData.HugePagesEnabled
 - Msvm_MemorySettingData.AllocationUnits
 - Msvm_MemorySettingData.VirtualQuantity
 - Msvm_MemorySettingData.Reservation
@@ -67,6 +68,7 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
   string  PoolID;
   uint16  ConsumerVisibility;
   string  HostResource[];
+  boolean HugePagesEnabled;
   string  AllocationUnits = "byte * 2^20";
   uint64  VirtualQuantity;
   uint64  Reservation;
@@ -258,6 +260,19 @@ Access type: Read-only
 </dt> </dl>
 
 The first element of this array contains a reference to the underlying host resource to be assigned. This property is inherited from [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata), but it is not used.
+
+</dd> <dt>
+  
+**HugePagesEnabled**
+</dt> <dd> <dl> <dt>
+
+Data type: **boolean**
+</dt> <dt>
+
+Access type: Read-only
+</dt> </dl>
+
+Whether the memory is backed by 1GB pages or not.
 
 </dd> <dt>
 
