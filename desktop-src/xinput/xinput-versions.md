@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XInput Versions
 
-XInput is a cross-platform API that has shipped for use on Xbox and Windows. On Xbox 360, XInput ships as a static library that is compiled into the main game executable. On Windows, XInput is provided as a DLL that is installed into the system folders of the operating system.
+XInput is a cross-platform API that has shipped for use on Xbox and Windows. On Xbox, XInput ships as a static library that is compiled into the main game executable. On Windows, XInput is provided as a DLL that is installed into the system folders of the operating system.
 
 There are three current versions of the XInput DLL today. Choose the appropriate version of XInput based on the functionality of XInput you use and the versions of Windows you intend to support.
 
