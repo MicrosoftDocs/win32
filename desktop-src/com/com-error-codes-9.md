@@ -1359,7 +1359,7 @@ Invalid search.
 
 
 
-The search atributes are invalid.
+The search attributes are invalid.
 
 
 </dt> </dl> </dd> <dt>
