@@ -4640,7 +4640,7 @@ The registration packet supplied by the GPIO client driver is not valid.
 
 
 
-The requested operation is not suppported for the specified handle.
+The requested operation is not supported for the specified handle.
 
 
 </dt> </dl> </dd> <dt>
