@@ -54,33 +54,15 @@ The following example obtains a DXGI surface (*pBackBuffer*) from an [IDXGISwapC
 // Get a surface in the swap chain
 hr = m_pSwapChain->GetBuffer(
     0,
-    IID_PPV_ARGS(&amp;pBackBuffer)
+    IID_PPV_ARGS(&pBackBuffer)
     );
-
 
     if (SUCCEEDED(hr))
     {
-```
-
-
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>        // Create the DXGI Surface Render Target.
+        // Create the DXGI Surface Render Target.
         FLOAT dpiX;
         FLOAT dpiY;
-        m_pD2DFactory-&gt;GetDesktopDpi(&amp;dpiX, &amp;dpiY);
+        m_pD2DFactory->GetDesktopDpi(&dpiX, &dpiY);
 
         D2D1_RENDER_TARGET_PROPERTIES props =
             D2D1::RenderTargetProperties(
@@ -90,35 +72,15 @@ hr = m_pSwapChain->GetBuffer(
                 dpiY
                 );
 
-        // Create a Direct2D render target which can draw into the surface in the swap chain</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>        hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(
+        // Create a Direct2D render target which can draw into the surface in the swap chain
+        hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
             pBackBuffer,
-            &amp;props,
-            &amp;m_pBackBufferRT
+            &props,
+            &m_pBackBufferRT
             );
 
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
-
+    }
+```
 
 
 ## Requirements
@@ -135,19 +97,6 @@ hr = m_pSwapChain->GetBuffer(
 
 ## See also
 
-<dl> <dt>
-
 [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
-</dt> <dt>
 
 [Direct2D and Direct3D Interoperability Overview](direct2d-and-direct3d-interoperation-overview.md)
-</dt> </dl>
-
-�
-
-�
-
-
-
-
-
