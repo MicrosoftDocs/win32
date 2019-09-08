@@ -49,7 +49,7 @@ This table lists the most common error codes.
 <tbody>
 <tr class="odd">
 <td><strong>ERROR_BAD_FORMAT</strong></td>
-<td>0x800700B</td>
+<td>0x8007000B</td>
 <td>The package isn't correctly formatted and needs to be re-built or re-signed.<br/> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br/> See <a href="how-to-sign-a-package-using-signtool">How to sign an app package using SignTool</a>.<br/></td>
 </tr>
 <tr class="even">
