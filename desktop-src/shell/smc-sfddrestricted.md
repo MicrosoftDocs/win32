@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SMC\_SFDDRESTRICTED message
 
-Requests whether it is acceptable to drop a data object on the item specified by the accompanying [**SMDATA**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata) structure.
+Requests whether it is acceptable to drop a data object on the item specified by the accompanying [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) structure.
 
 
 ```C++

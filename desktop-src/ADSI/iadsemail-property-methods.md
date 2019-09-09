@@ -110,7 +110,7 @@ HRESULT put_Type(
 [**IADsEmail**](/windows/desktop/api/Iads/nn-iads-iadsemail)
 </dt> <dt>
 
-[**ADS\_EMAIL**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0014)
+[**ADS\_EMAIL**](/windows/win32/api/iads/ns-iads-ads_email)
 </dt> </dl>
 
  

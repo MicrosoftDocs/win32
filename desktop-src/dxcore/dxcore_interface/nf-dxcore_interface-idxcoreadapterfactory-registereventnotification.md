@@ -14,9 +14,18 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Registers to receive notifications of specific conditions from a DXCore adapter or adapter list. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE RegisterEventNotification(
+  _In_ IUnknown *dxCoreObject,
+  DXCoreNotificationType notificationType,
+  _In_ PFN_DXCORE_NOTIFICATION_CALLBACK callbackFunction,
+  _In_opt_ void *callbackContext,
+  _Out_ uint32_t *eventCookie) = 0;
+```
 
 ## Parameters
 

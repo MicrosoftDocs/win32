@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
  
 
-The **INapSoHConstructor** provides methods that are used by SHAs to construct [**SoHRequests**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and by SHVs to construct **SoHResponses**.
+The **INapSoHConstructor** provides methods that are used by SHAs to construct [**SoHRequests**](/windows/win32/api/naptypes/ns-naptypes-soh) and by SHVs to construct **SoHResponses**.
 
 ## Members
 

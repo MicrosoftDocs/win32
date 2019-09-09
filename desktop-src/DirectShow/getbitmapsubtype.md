@@ -40,7 +40,7 @@ const GUID GetBitmapSubtype(
 *pHeader* 
 </dt> <dd>
 
-Pointer to a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure.
+Pointer to a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure.
 
 </dd> </dl>
 

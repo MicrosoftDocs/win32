@@ -65,7 +65,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Used by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata"><strong>IQueryAssociations::GetData</strong></a> to define the type of data that is to be returned.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0"><strong>ASSOCF</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme"><strong>ASSOCF</strong></a><br/></td>
 <td>Provides information to the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>IQueryAssociations</strong></a> interface methods.<br/></td>
 </tr>
 <tr class="even">

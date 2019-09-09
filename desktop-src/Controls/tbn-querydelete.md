@@ -36,7 +36,7 @@ TBN_QUERYDELETE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtoolbara) structure. The **iItem** member contains the zero-based index of the button to be deleted.
+Pointer to an [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commctrl-nmtoolbara) structure. The **iItem** member contains the zero-based index of the button to be deleted.
 
 </dd> </dl>
 

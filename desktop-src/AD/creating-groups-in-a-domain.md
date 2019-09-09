@@ -27,7 +27,7 @@ Specifies the name of the group object in the directory. This will be the object
 <span id="groupType"></span><span id="grouptype"></span><span id="GROUPTYPE"></span>**groupType**
 </dt> <dd>
 
-Contains an integer that specifies the group type and scope. The [**ADS\_GROUP\_TYPE\_ENUM**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0023_0001) enumeration defines the possible values for the **groupType** attribute.
+Contains an integer that specifies the group type and scope. The [**ADS\_GROUP\_TYPE\_ENUM**](https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_group_type_enum) enumeration defines the possible values for the **groupType** attribute.
 
 The following list defines common group types and values for this attribute.
 

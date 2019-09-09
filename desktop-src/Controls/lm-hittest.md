@@ -36,7 +36,7 @@ Returns **TRUE** if user clicked on a link, otherwise returns **FALSE**.
 
 ## Remarks
 
-If the **LM\_HITTEST** message succeeds, the system fills in [**LITEM.iLink**](/windows/desktop/api/Commctrl/ns-commctrl-taglitem) and **LITEM.szID**. If the **LM\_HITTEST** message fails, do not assume that any information in **LITEM** is valid.
+If the **LM\_HITTEST** message succeeds, the system fills in [**LITEM.iLink**](/windows/win32/api/commctrl/ns-commctrl-litem) and **LITEM.szID**. If the **LM\_HITTEST** message fails, do not assume that any information in **LITEM** is valid.
 
 > [!Note]  
 > To use this API, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).

@@ -108,7 +108,7 @@ A pointer to a null-terminated string that specifies the physical location of th
 **pDevMode**
 </dt> <dd>
 
-A pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that defines default printer data such as the paper orientation and the resolution.
+A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that defines default printer data such as the paper orientation and the resolution.
 
 </dd> <dt>
 
@@ -311,7 +311,7 @@ The average number of pages per minute that have been printed on the printer.
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea)
+[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)
 </dt> <dt>
 
 [**EnumPrinters**](enumprinters.md)

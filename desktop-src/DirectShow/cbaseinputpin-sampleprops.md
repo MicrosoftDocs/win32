@@ -20,7 +20,7 @@ api_location:
 
 # CBaseInputPin.SampleProps method
 
-The `SampleProps` method retrieves the properties of the most recent sample, in an [**AM\_SAMPLE2\_PROPERTIES**](/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties) structure.
+The `SampleProps` method retrieves the properties of the most recent sample, in an [**AM\_SAMPLE2\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
 
 ## Syntax
 

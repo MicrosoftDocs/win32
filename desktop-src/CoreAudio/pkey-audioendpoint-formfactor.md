@@ -12,7 +12,7 @@ The **PKEY\_AudioEndpoint\_FormFactor** property specifies the form factor of th
 
 The **vt** member of the **PROPVARIANT** structure is set to VT\_UI4.
 
-The **uintVal** member of the **PROPVARIANT** structure contains an enumeration value that is cast to type UINT. It is set to one of the following [**EndpointFormFactor**](/windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0003) enumeration values:
+The **uintVal** member of the **PROPVARIANT** structure contains an enumeration value that is cast to type UINT. It is set to one of the following [**EndpointFormFactor**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-endpointformfactor) enumeration values:
 
 -   RemoteNetworkDevice
 -   Speakers

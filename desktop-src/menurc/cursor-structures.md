@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**CURSORINFO**](/windows/desktop/api/Winuser/ns-winuser-tagcursorinfo)
+-   [**CURSORINFO**](/windows/win32/api/winuser/ns-winuser-cursorinfo)
 
  
 

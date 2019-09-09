@@ -20,7 +20,7 @@ api_location:
 
 # CImageDisplay.CheckPaletteHeader method
 
-The `CheckPaletteHeader` method validates the palette entries in a [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure.
+The `CheckPaletteHeader` method validates the palette entries in a [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure.
 
 ## Syntax
 

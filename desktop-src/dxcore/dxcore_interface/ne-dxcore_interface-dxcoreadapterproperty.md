@@ -14,11 +14,31 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Defines constants that specify DXCore adapter properties. Pass one of these constants to the [IDXCoreAdapter::GetPropertySize](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize) method to retrieve the buffer size necessary to receive the value of the corresponding property; then pass the same constant to the [IDXCoreAdapter::GetProperty](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty) method to retrieve the property's value in a buffer that you allocate.
 
-## Enum fields
+## Syntax
+
+```cpp
+enum class DXCoreAdapterProperty : uint32_t
+{
+  InstanceLuid = 0,
+  DriverVersion = 1,
+  DriverDescription = 2,
+  HardwareID = 3,
+  KmdModelVersion = 4,
+  ComputePreemptionGranularity = 5,
+  GraphicsPreemptionGranularity = 6,
+  DedicatedAdapterMemory = 7,
+  DedicatedSystemMemory = 8,
+  SharedSystemMemory = 9,
+  AcgCompatible = 10,
+  IsHardware = 11,
+  IsIntegrated = 12,
+  IsDetachable = 13
+};
+```
+
+## Constants
 
 ### InstanceLuid
 

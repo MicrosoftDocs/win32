@@ -64,14 +64,14 @@ Length, in bytes, of the buffer pointed to by the *pPacket* parameter.
 *pLocalAddress* \[in\]
 </dt> <dd>
 
-Pointer to a [**PXE\_ADDRESS**](/windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_address) structure that contains the local address on which the packet was received.
+Pointer to a [**PXE\_ADDRESS**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_address) structure that contains the local address on which the packet was received.
 
 </dd> <dt>
 
 *pRemoteAddress* \[in\]
 </dt> <dd>
 
-Pointer to a [**PXE\_ADDRESS**](/windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_address) structure that contains the source address of the packet.
+Pointer to a [**PXE\_ADDRESS**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_address) structure that contains the source address of the packet.
 
 </dd> <dt>
 

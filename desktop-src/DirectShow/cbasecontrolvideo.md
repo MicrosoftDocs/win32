@@ -42,7 +42,7 @@ When working with video, the application can select a portion of the video to us
 | [**GetSourceRect**](cbasecontrolvideo-getsourcerect.md)                                 | Retrieves the current source video rectangle (pure virtual).                                    |
 | [**GetStaticImage**](cbasecontrolvideo-getstaticimage.md)                               | Returns the current image in a memory buffer (pure virtual).                                    |
 | [**GetTargetRect**](cbasecontrolvideo-gettargetrect.md)                                 | Retrieves the current target video rectangle (pure virtual).                                    |
-| [**GetVideoFormat**](cbasecontrolvideo-getvideoformat.md)                               | Retrieves the [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure containing the video format. |
+| [**GetVideoFormat**](cbasecontrolvideo-getvideoformat.md)                               | Retrieves the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure containing the video format. |
 | [**IsDefaultSourceRect**](cbasecontrolvideo-isdefaultsourcerect.md)                     | Determines if the renderer is using the default source rectangle (pure virtual).                |
 | [**IsDefaultTargetRect**](cbasecontrolvideo-isdefaulttargetrect.md)                     | Determines if the renderer is using the default target rectangle (pure virtual).                |
 | [**OnUpdateRectangles**](cbasecontrolvideo-onupdaterectangles.md)                       | Called when the source or target rectangle changes.                                             |

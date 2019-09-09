@@ -20,7 +20,7 @@ api_location:
 
 # CopyMediaType function
 
-The **CopyMediaType** function copies an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure into another structure, including the format block
+The **CopyMediaType** function copies an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure into another structure, including the format block
 
 ## Syntax
 
@@ -41,14 +41,14 @@ HRESULT WINAPI CopyMediaType(
 *pmtTarget* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure. The method copies the media type into this structure.
+Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure. The method copies the media type into this structure.
 
 </dd> <dt>
 
 *pmtSource* 
 </dt> <dd>
 
-Pointer to a source [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure to copy.
+Pointer to a source [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure to copy.
 
 </dd> </dl>
 

@@ -12,13 +12,13 @@ Enabling a privilege in an access token allows the process to perform system-lev
 
 
 
-| Privilege constant/string                                            | Display name                        |
-|----------------------------------------------------------------------|-------------------------------------|
-| SE\_ASSIGNPRIMARYTOKEN\_NAMESeAssignPrimaryTokenPrivilege<br/> | Replace a process-level token       |
-| SE\_BACKUP\_NAMESeBackupPrivilege<br/>                         | Back up files and directories       |
-| SE\_DEBUG\_NAMESeDebugPrivilege<br/>                           | Debug programs                      |
-| SE\_INCREASE\_QUOTA\_NAMESeIncreaseQuotaPrivilege<br/>         | Adjust memory quotas for a process  |
-| SE\_TCB\_NAMESeTcbPrivilege<br/>                               | Act as part of the operating system |
+| Privilege constant           | String value                  | Display name                        |
+|------------------------------|-------------------------------|-------------------------------------|
+| SE\_ASSIGNPRIMARYTOKEN\_NAME | SeAssignPrimaryTokenPrivilege | Replace a process-level token       |
+| SE\_BACKUP\_NAME             | SeBackupPrivilege             | Back up files and directories       |
+| SE\_DEBUG\_NAME              | SeDebugPrivilege              | Debug programs                      |
+| SE\_INCREASE\_QUOTA\_NAME    | SeIncreaseQuotaPrivilege      | Adjust memory quotas for a process  |
+| SE\_TCB\_NAME                | SeTcbPrivilege                | Act as part of the operating system |
 
 
 

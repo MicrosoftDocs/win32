@@ -128,7 +128,7 @@ Windows Server 2016 and later (server)
   <tr>
     <td>
       <p>
-        <a href="gg294069(v=exchg.10).md" Anchor="#ExtensibleStorageEngineFiles_CheckpointFiles" runat="server">Checkpoint Files</a>
+        <a href="gg294069(v=exchg.10).md">Checkpoint Files</a>
       </p>
     </td>
     <td>
@@ -145,7 +145,7 @@ Windows Server 2016 and later (server)
   <tr>
     <td>
       <p>
-        <a href="gg294069(v=exchg.10).md" Anchor="#ExtensibleStorageEngineFiles_TemporaryDatabases" runat="server">Temporary Databases</a>
+        <a href="gg294069(v=exchg.10).md">Temporary Databases</a>
       </p>
     </td>
     <td>
@@ -161,7 +161,7 @@ Windows Server 2016 and later (server)
   <tr>
     <td>
       <p>
-        <a href="gg294069(v=exchg.10).md" Anchor="#ExtensibleStorageEngineFiles_ReservedTransactionLogFiles" runat="server">Reserved Transaction Log Files</a>
+        <a href="gg294069(v=exchg.10).md">Reserved Transaction Log Files</a>
       </p>
     </td>
     <td>
@@ -177,7 +177,7 @@ Windows Server 2016 and later (server)
   <tr>
     <td>
       <p>
-        <a href="gg294069(v=exchg.10).md" Anchor="#ExtensibleStorageEngineFiles_DatabaseFiles" runat="server">Database Files</a>
+        <a href="gg294069(v=exchg.10).md">Database Files</a>
       </p>
     </td>
     <td>
@@ -194,7 +194,7 @@ Windows Server 2016 and later (server)
   <tr>
     <td>
       <p>
-        <a href="gg294069(v=exchg.10).md" Anchor="#ExtensibleStorageEngineFiles_FlushMapFiles" runat="server">Flush Map Files</a>
+        <a href="gg294069(v=exchg.10).md">Flush Map Files</a>
       </p>
     </td>
     <td>

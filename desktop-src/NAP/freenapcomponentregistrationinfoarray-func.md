@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **FreeNapComponentRegistrationInfoArray** function frees a specified number of [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) data structures from an array.
+The **FreeNapComponentRegistrationInfoArray** function frees a specified number of [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) data structures from an array.
 
 ## Syntax
 
@@ -44,14 +44,14 @@ NAPAPI VOID WINAPI FreeNapComponentRegistrationInfoArray(
 *count* \[in\]
 </dt> <dd>
 
-The number of [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) structures in *info* to free.
+The number of [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) structures in *info* to free.
 
 </dd> <dt>
 
 *info* \[in\]
 </dt> <dd>
 
-A pointer to an array of [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) data structures to be freed.
+A pointer to an array of [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) data structures to be freed.
 
 </dd> </dl>
 

@@ -109,7 +109,7 @@ The remote user's station does not answer.
 
 
 
-A dial tone was not detected within a service-provider defined timeout, at a point during dialing when one was expected (such as at a "W" in the dialable string). This can also occur without a service-provider-defined timeout period or without a value specified in the **dwWaitForDialTone** member of the [**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams_tag) structure. (TAPI versions 1.4 and later)
+A dial tone was not detected within a service-provider defined timeout, at a point during dialing when one was expected (such as at a "W" in the dialable string). This can also occur without a service-provider-defined timeout period or without a value specified in the **dwWaitForDialTone** member of the [**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams) structure. (TAPI versions 1.4 and later)
 
 
 </dt> </dl> </dd> <dt>
@@ -220,7 +220,7 @@ The remote user could not be reached.
 
 The high-order 16 bits can be assigned for device-specific extensions. The low-order 16 bits are reserved.
 
-A remote disconnect request for a given call results in the call state transitioning to the disconnected state and a [**LINE\_CALLSTATE**](line-callstate.md) message is sent to the application. The LINEDISCONNECTMODE\_ information provides details about the remote disconnect request. It is available in the call's [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag) structure when the call is in the disconnected state. While a call is in this state, the application is still allowed to query the call's information and status. For example, user-user information that is received as part of the remote disconnect is available then. The application can clear a disconnected call by dropping the call.
+A remote disconnect request for a given call results in the call state transitioning to the disconnected state and a [**LINE\_CALLSTATE**](line-callstate.md) message is sent to the application. The LINEDISCONNECTMODE\_ information provides details about the remote disconnect request. It is available in the call's [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) structure when the call is in the disconnected state. While a call is in this state, the application is still allowed to query the call's information and status. For example, user-user information that is received as part of the remote disconnect is available then. The application can clear a disconnected call by dropping the call.
 
 For backward compatibility, it is the responsibility of the service provider to examine the negotiated API version on the line, and to not use this LINEDISCONNECTMODE\_ value if it is not supported on the negotiated version (LINEDISCONNECTMODE\_NORMAL or \_UNKNOWN could be used instead).
 
@@ -242,10 +242,10 @@ For backward compatibility, it is the responsibility of the service provider to 
 [**LINE\_CALLSTATE**](line-callstate.md)
 </dt> <dt>
 
-[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag)
+[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus)
 </dt> <dt>
 
-[**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams_tag)
+[**LINEDIALPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linedialparams)
 </dt> </dl>
 
  

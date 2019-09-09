@@ -38,7 +38,7 @@ LVN_GETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvdispinfo) structure. On input, the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure contained in this structure specifies the type of information required and identifies the item or subitem of interest. Use the **LVITEM** structure to return the requested information to the control. If your message handler sets the LVIF\_DI\_SETITEM flag in the **mask** member of the **LVITEM** structure, the list-view control stores the requested information and will not ask for it again.
+Pointer to an [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) structure. On input, the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure contained in this structure specifies the type of information required and identifies the item or subitem of interest. Use the **LVITEM** structure to return the requested information to the control. If your message handler sets the LVIF\_DI\_SETITEM flag in the **mask** member of the **LVITEM** structure, the list-view control stores the requested information and will not ask for it again.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvdispinfo) structure. The *wParam* parameter contains the notification code.
+The notification receiver casts *lParam* to retrieve the [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) structure. The *wParam* parameter contains the notification code.
 
 A list-view control sends the **LVN\_GETDISPINFO** notification code to retrieve item information that is stored by the application rather than the control. The information can be text or icon information for an item. It can also be item state information. See the [**LVM\_SETCALLBACKMASK**](lvm-setcallbackmask.md) message for more information on implementing item state on a callback basis.
 

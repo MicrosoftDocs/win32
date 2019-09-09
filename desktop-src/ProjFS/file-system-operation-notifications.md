@@ -12,7 +12,7 @@ In addition to required callbacks for handling enumeration, returning file metad
 
 ## How to Specify Notifications to Receive
 
-If the provider supplies an implementation of **PRJ_NOTIFICATION_CB** when it starts a virtualization instance, it should also specify which notifications it wishes to receive.  The notifications for which the provider can register are defined in the [PRJ_NOTIFICATION_TYPES](https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification_types) enum.
+If the provider supplies an implementation of **PRJ_NOTIFICATION_CB** when it starts a virtualization instance, it should also specify which notifications it wishes to receive.  The notifications for which the provider can register are defined in the [PRJ_NOTIFICATION](https://docs.microsoft.com/en-us/windows/win32/api/projectedfslib/ne-projectedfslib-prj_notification) enum.
 
 When the provider specifies the notifications it wishes to receive, it does so using an array of one or more [PRJ_NOTIFICATION_MAPPING](https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_notification_mapping) structures.  These define "notification mappings".  A notification mapping is a pairing between a directory, referred to as a "notification root", and a set of notifications, expressed as a bit mask, which ProjFS should send for that directory and its descendants.  A notification mapping can also be established for a single file.  A file or directory specified in a notification mapping does not have to exist already at the time the provider calls **PrjStartVirtualizing**, the provider can specify any path and the mapping will apply to it if it is ever created.
 

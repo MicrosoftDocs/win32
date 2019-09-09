@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The following functions are supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later. Microsoft Visual Studio 2013 Update 3 or later is required for Windows Store apps.
 
--   [**\_\_WSAFDIsSet**](/windows/desktop/api/winsock/nf-winsock-__wsafdisset)
+-   [**\_\_WSAFDIsSet**](/windows/win32/api/winsock/nf-winsock-__wsafdisset)
 -   [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept)
 -   [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx)
 -   [**bind**](/windows/desktop/api/winsock/nf-winsock-bind)
@@ -135,7 +135,7 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 
 The following functions are supported for Windows Phone Store apps on Windows Phone 8 and later.
 
--   [**\_\_WSAFDIsSet**](/windows/desktop/api/winsock/nf-winsock-__wsafdisset)
+-   [**\_\_WSAFDIsSet**](/windows/win32/api/winsock/nf-winsock-__wsafdisset)
 -   [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx)
 -   [**bind**](/windows/desktop/api/winsock/nf-winsock-bind)
 -   [**closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket)
@@ -421,10 +421,10 @@ The following are new Windows Sockets structures and enumerations:
 -   [**GROUP\_REQ**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_req)
 -   [**GROUP\_SOURCE\_REQ**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_source_req)
 -   [**MULTICAST\_MODE\_TYPE**](/windows/desktop/api/Ws2ipdef/ne-ws2ipdef-multicast_mode_type)
--   [**NAPI\_DOMAIN\_DESCRIPTION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_domain_description_blob_tag)
--   [**NAPI\_PROVIDER\_INSTALLATION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_provider_installation_blob_tag)
--   [**NAPI\_PROVIDER\_LEVEL**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_level_tag)
--   [**NAPI\_PROVIDER\_TYPE**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_type_tag)
+-   [**NAPI\_DOMAIN\_DESCRIPTION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_domain_description_blob)
+-   [**NAPI\_PROVIDER\_INSTALLATION\_BLOB**](/windows/desktop/api/Nsemail/ns-nsemail-napi_provider_installation_blob)
+-   [**NAPI\_PROVIDER\_LEVEL**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_level)
+-   [**NAPI\_PROVIDER\_TYPE**](/windows/desktop/api/Nsemail/ne-nsemail-napi_provider_type)
 -   [**SOCKET\_PEER\_TARGET\_NAME**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_peer_target_name)
 -   [**SOCKET\_SECURITY\_PROTOCOL**](/windows/desktop/api/Mstcpip/ne-mstcpip-socket_security_protocol)
 -   [**SOCKET\_SECURITY\_QUERY\_INFO**](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_query_info)

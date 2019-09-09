@@ -80,7 +80,7 @@ Other COM-specific error codes also may be returned.
 
 ## Remarks
 
-Validators must return S\_OK if the [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) validation could be completed, regardless of whether the **SoHRequest** passed the health check.
+Validators must return S\_OK if the [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) validation could be completed, regardless of whether the **SoHRequest** passed the health check.
 
 ## Requirements
 

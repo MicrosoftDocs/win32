@@ -36,7 +36,7 @@ NM_CHAR
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCHAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmchar) structure that contains additional information about the character that caused the notification code.
+A pointer to an [**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar) structure that contains additional information about the character that caused the notification code.
 
 </dd> </dl>
 

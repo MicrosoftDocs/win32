@@ -36,7 +36,7 @@ Index of the column.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVCOLUMN**](/windows/desktop/api/Commctrl/ns-commctrl-taglvcolumna) structure that contains the new column attributes. The **mask** member specifies which column attributes to set. If the **mask** member specifies the LVCF\_TEXT value, the **pszText** member is the address of a null-terminated string and the **cchTextMax** member is ignored.
+Pointer to an [**LVCOLUMN**](/windows/win32/api/commctrl/ns-commctrl-lvcolumna) structure that contains the new column attributes. The **mask** member specifies which column attributes to set. If the **mask** member specifies the LVCF\_TEXT value, the **pszText** member is the address of a null-terminated string and the **cchTextMax** member is ignored.
 
 </dd> </dl>
 

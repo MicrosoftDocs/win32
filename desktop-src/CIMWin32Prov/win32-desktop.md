@@ -249,7 +249,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Font and Text Structures\|[**LOGFONTW**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta)\|lfHeight"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("point")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Font and Text Structures\|[**LOGFONTW**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta)\|lfHeight"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("point")
 </dt> </dl>
 
 Icon font size.

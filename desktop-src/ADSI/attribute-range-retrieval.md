@@ -24,7 +24,7 @@ range=<low range>-<high range>
 
 
 
-where "<low range>" is the zero-based index of the first property value to retrieve and "<high range>" is the zero-based index of the last property value to retrieve. Zero is used for "<low range>" to specify the first entry. The wildcard character (\*) can be used for "<high range>" to specify all remaining entries.
+where "&lt;low range&gt;" is the zero-based index of the first property value to retrieve and "&lt;high range&gt;" is the zero-based index of the last property value to retrieve. Zero is used for "&lt;low range&gt;" to specify the first entry. The wildcard character (\*) can be used for "&lt;high range&gt;" to specify all remaining entries.
 
 The following table lists examples of range specifiers.
 

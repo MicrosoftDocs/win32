@@ -20,7 +20,7 @@ api_location:
 
 # ContainsPalette function
 
-The **ContainsPalette** function determines whether a specified [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure contains a palette.
+The **ContainsPalette** function determines whether a specified [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure contains a palette.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ BOOL ContainsPalette(
 *pVideoInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure.
+Pointer to a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure.
 
 </dd> </dl>
 

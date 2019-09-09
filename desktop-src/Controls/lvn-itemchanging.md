@@ -36,7 +36,7 @@ LVN_ITEMCHANGING
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure that identifies the item and specifies which of its attributes are changing.
+Pointer to an [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure that identifies the item and specifies which of its attributes are changing.
 
 </dd> </dl>
 

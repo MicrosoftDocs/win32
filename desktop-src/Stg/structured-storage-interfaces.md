@@ -26,7 +26,7 @@ Pointers to the compound file implementation of these interfaces are acquired by
 
 An alternative method for acquiring a pointer to the compound file implementation of these interfaces is by calling the older and more limited [**StgCreateDocfile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile) or [**StgOpenStorage**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage) function. All four functions are treated as compound file implementations.
 
-The compound file implementation can be configured to use 512 or 4096 byte sectors, as defined in the [**STGOPTIONS**](/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions) structure.
+The compound file implementation can be configured to use 512 or 4096 byte sectors, as defined in the [**STGOPTIONS**](/windows/win32/api/coml2api/ns-coml2api-stgoptions) structure.
 
 The compound file implementation of compound files is subject to the following implementation constraints.
 

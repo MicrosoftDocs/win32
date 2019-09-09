@@ -15,7 +15,7 @@ This topic lists structures that are used with processes, threads, processors, j
 The following structures are used with processes and threads:
 
 -   [**APP\_MEMORY\_INFORMATION**](https://msdn.microsoft.com/en-us/library/Mt767995(v=VS.85).aspx)
--   [**AR\_STATE**](/windows/desktop/api/WinUser/ne-winuser-tagar_state)
+-   [**AR\_STATE**](/windows/win32/api/winuser/ne-winuser-ar_state)
 -   [**CACHE\_DESCRIPTOR**](/windows/desktop/api/WinNT/ns-winnt-cache_descriptor)
 -   [**IO\_COUNTERS**](/windows/desktop/api/WinNT/ns-winnt-io_counters)
 -   [**ORIENTATION\_PREFERENCE**](/windows/desktop/api/WinUser/ne-winuser-orientation_preference)

@@ -14,7 +14,7 @@ The Peer Infrastructure uses events to notify applications of changes that have 
 
 A peer can register to receive notification when an attribute of a graph or group changes, or a specific peer event occurs. A peer application calls the [**PeerGraphRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphregisterevent) or [**PeerGroupRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergroupregisterevent) function, and passes an event handle to the Peer Infrastructure, which is created previously by a call to [**CreateEvent**](graphing-reference-links.md). The Peer Infrastructure uses the handle to signal an application that a peer event has occurred.
 
-The application also passes a series of [**PEER\_GRAPH\_EVENT\_REGISTRATION**](/windows/desktop/api/P2P/ns-p2p-peer_graph_event_registration_tag) or [**PEER\_GROUP\_EVENT\_REGISTRATION**](/windows/desktop/api/P2P/ns-p2p-peer_group_event_registration_tag) structures that indicate to the Peer Infrastructure the specific peer events for which the application is requesting notification. The application must also specify exactly how many structures are being passed.
+The application also passes a series of [**PEER\_GRAPH\_EVENT\_REGISTRATION**](/windows/desktop/api/P2P/ns-p2p-peer_graph_event_registration) or [**PEER\_GROUP\_EVENT\_REGISTRATION**](/windows/desktop/api/P2P/ns-p2p-peer_group_event_registration) structures that indicate to the Peer Infrastructure the specific peer events for which the application is requesting notification. The application must also specify exactly how many structures are being passed.
 
 ## Peer Graphing Events
 
@@ -40,7 +40,7 @@ A Peer Graphing application can register to receive notification for 9 peer grap
 -   **PEER\_GRAPH\_EVENT\_NODE\_CHANGED** indicates that node presence information is changed, for example, an IP address has changed.
 -   **PEER\_GRAPH\_EVENT\_SYNCHRONIZED** indicates that a specific record type is synchronized.
 
-After an application receives notification that a peer event has occurred, the application calls [**PeerGraphGetEventData**](/windows/desktop/api/P2P/nf-p2p-peergraphgeteventdata), and passes the peer event handle returned by [**PeerGraphRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphregisterevent). The Peer Infrastructure returns a pointer to a [**PEER\_GRAPH\_EVENT\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_graph_event_data_tag) structure that contains the requested data. This function should be called until **PEER\_S\_NO\_EVENT\_DATA** is returned.
+After an application receives notification that a peer event has occurred, the application calls [**PeerGraphGetEventData**](/windows/desktop/api/P2P/nf-p2p-peergraphgeteventdata), and passes the peer event handle returned by [**PeerGraphRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphregisterevent). The Peer Infrastructure returns a pointer to a [**PEER\_GRAPH\_EVENT\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_graph_event_data) structure that contains the requested data. This function should be called until **PEER\_S\_NO\_EVENT\_DATA** is returned.
 
 After an application does not require a peer event notification, the application calls either [**PeerGraphUnregisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphunregisterevent), and passes the peer event handle returned by [**PeerGraphRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphregisterevent) when the application registered.
 

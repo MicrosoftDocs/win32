@@ -38,7 +38,7 @@ HDN_ITEMDBLCLICK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that contains information about this notification code.
+A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains information about this notification code.
 
 </dd> </dl>
 

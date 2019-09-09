@@ -31,7 +31,7 @@ The following table specifies the most important font metrics for applications t
 
  
 
-The **otmsCharSlopeRise**, **otmsCharSlopeRun**, **otmAscent**, **otmDescent**, and **otmLineGap** members of the [OUTLINETEXTMETRIC](/windows/desktop/api/Wingdi/ns-wingdi-outlinetextmetrica) structure are scaled or transformed to correspond to the current device mode and physical height (as specified in the **tmHeight** member of the [NEWTEXTMETRIC](/windows/desktop/api/Wingdi/ns-wingdi-tagnewtextmetrica) structure).
+The **otmsCharSlopeRise**, **otmsCharSlopeRun**, **otmAscent**, **otmDescent**, and **otmLineGap** members of the [OUTLINETEXTMETRIC](/windows/desktop/api/Wingdi/ns-wingdi-outlinetextmetrica) structure are scaled or transformed to correspond to the current device mode and physical height (as specified in the **tmHeight** member of the [NEWTEXTMETRIC](/windows/win32/api/wingdi/ns-wingdi-newtextmetrica) structure).
 
 Font identification is important in those instances when an application must select the same font, for example, when a document is reopened or moved to a different operating system. The font mapper always selects the correct font when an application requests a font by full name. The family and style names provide input to the standard font dialog box, which ensures that the selection bars are properly placed.
 

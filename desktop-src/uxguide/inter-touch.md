@@ -424,7 +424,7 @@ Forgiveness is the ability to reverse or correct an undesired action easily. You
 
     Routine confirmations are acceptable for interactions that users often do accidentally using touch.
 
-    Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_message_source) API.
+    Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-input_message_source) API.
 
  
 

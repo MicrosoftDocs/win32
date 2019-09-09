@@ -24,7 +24,7 @@ g\_wszWMUserWebURL
 
 ## Data Type
 
-[**WM\_USER\_WEB\_URL**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmuserweburl) (**WMT\_TYPE\_BINARY**)
+[**WM\_USER\_WEB\_URL**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_user_web_url) (**WMT\_TYPE\_BINARY**)
 
 ## See also
 

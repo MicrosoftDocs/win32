@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**HDHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_hittestinfo)
--   [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema)
--   [**HDLAYOUT**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_layout)
+-   [**HDHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-hdhittestinfo)
+-   [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema)
+-   [**HDLAYOUT**](/windows/win32/api/commctrl/ns-commctrl-hdlayout)
 -   [**HDTEXTFILTER**](/windows/desktop/api/Commctrl/ns-commctrl-hd_textfiltera)
--   [**NMHDDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhddispinfoa)
--   [**NMHDFILTERBTNCLICK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhdfilterbtnclick)
--   [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera)
+-   [**NMHDDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmhddispinfoa)
+-   [**NMHDFILTERBTNCLICK**](/windows/win32/api/commctrl/ns-commctrl-nmhdfilterbtnclick)
+-   [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera)
 
  
 

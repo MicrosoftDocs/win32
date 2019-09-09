@@ -15,7 +15,7 @@ The graphics virtual channels API defines the following enumerations.
 
 <dl> <dt>
 
-[**WRdsGraphicsChannelType**](/windows/desktop/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-__midl___midl_itf_wrdsgraphicschannels_0000_0002_0001)
+[**WRdsGraphicsChannelType**](/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype)
 </dt> <dd>
 
 Used to specify the type of graphics virtual channel to create in the [**IWRdsGraphicsChannelManager::CreateChannel**](/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelmanager-createchannel) method.

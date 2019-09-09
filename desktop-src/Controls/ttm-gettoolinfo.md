@@ -32,7 +32,7 @@ Retrieves the information that a tooltip control maintains about a tool.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure. When sending the message, the **hwnd** and **uId** members identify a tool, and the **cbSize** member must specify the size of the structure. When using this message to retrieve the tooltip text, ensure that the **lpszText** member of the **TOOLINFO** structure points to a valid buffer of adquate size
+Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure. When sending the message, the **hwnd** and **uId** members identify a tool, and the **cbSize** member must specify the size of the structure. When using this message to retrieve the tooltip text, ensure that the **lpszText** member of the **TOOLINFO** structure points to a valid buffer of adquate size
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-If the tooltip control includes the tool, the [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure receives information about the tool.
+If the tooltip control includes the tool, the [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure receives information about the tool.
 
 ## Examples
 

@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="s"></span><span id="S"></span>*s*
 </dt> <dd>
 
-Pointer to a [**CAPTUREPARMS**](/windows/desktop/api/Vfw/ns-vfw-tagcaptureparms) structure.
+Pointer to a [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) structure.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 ## Remarks
 
-For information about the parameters used to control streaming capture, see the [**CAPTUREPARMS**](/windows/desktop/api/Vfw/ns-vfw-tagcaptureparms) structure.
+For information about the parameters used to control streaming capture, see the [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) structure.
 
 ## Requirements
 

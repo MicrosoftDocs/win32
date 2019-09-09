@@ -10,16 +10,16 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**MDINEXTMENU**](/windows/desktop/api/Winuser/ns-winuser-tagmdinextmenu)
--   [**MENUBARINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenubarinfo)
+-   [**MDINEXTMENU**](/windows/win32/api/winuser/ns-winuser-mdinextmenu)
+-   [**MENUBARINFO**](/windows/win32/api/winuser/ns-winuser-menubarinfo)
 -   [**MENUEX\_TEMPLATE\_HEADER**](menuex-template-header.md)
 -   [**MENUEX\_TEMPLATE\_ITEM**](menuex-template-item.md)
--   [**MENUGETOBJECTINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenugetobjectinfo)
--   [**MENUINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuinfo)
--   [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa)
+-   [**MENUGETOBJECTINFO**](/windows/win32/api/winuser/ns-winuser-menugetobjectinfo)
+-   [**MENUINFO**](/windows/win32/api/winuser/ns-winuser-menuinfo)
+-   [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa)
 -   [**MENUITEMTEMPLATE**](/windows/desktop/api/Winuser/ns-winuser-menuitemtemplate)
 -   [**MENUITEMTEMPLATEHEADER**](/windows/desktop/api/Winuser/ns-winuser-menuitemtemplateheader)
--   [**TPMPARAMS**](/windows/desktop/api/Winuser/ns-winuser-tagtpmparams)
+-   [**TPMPARAMS**](/windows/win32/api/winuser/ns-winuser-tpmparams)
 
  
 

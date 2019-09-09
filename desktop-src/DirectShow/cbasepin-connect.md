@@ -48,7 +48,7 @@ Pointer to the receiving pin's [**IPin**](/windows/desktop/api/Strmif/nn-strmif-
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure that specifies the media type for the connection.
+Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure that specifies the media type for the connection.
 
 </dd> </dl>
 

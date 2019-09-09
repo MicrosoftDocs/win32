@@ -36,7 +36,7 @@ SMC_GETINFO
 *psminfo* 
 </dt> <dd>
 
-Pointer to a [**SMINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsminfo) structure. Fill the structure with the appropriate information and return S\_OK.
+Pointer to a [**SMINFO**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-sminfo) structure. Fill the structure with the appropriate information and return S\_OK.
 
 </dd> </dl>
 

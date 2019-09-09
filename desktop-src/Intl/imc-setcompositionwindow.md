@@ -31,7 +31,7 @@ Set to IMC\_SETCOMPOSITIONWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform) structure that contains the style information.
+Pointer to a [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform) structure that contains the style information.
 
 </dd> </dl>
 
@@ -67,7 +67,7 @@ By default, the IME window has the CFS\_POINT style. With this style, the IME wi
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform)
+[**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform)
 </dt> <dt>
 
 [**WM\_IME\_CONTROL**](wm-ime-control.md)

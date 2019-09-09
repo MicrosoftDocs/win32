@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Filters support the [**IBaseFilter::EnumPins**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-enumpins) method, which enumerates the pins available on the filter. It returns a pointer to the [**IEnumPins**](/windows/desktop/api/Strmif/nn-strmif-ienumpins) interface. The [**IEnumPins::Next**](/windows/desktop/api/Strmif/nf-strmif-ienumpins-next) method retrieves [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface pointers.
 
-The following example shows a function that locates a pin with a given direction (input or output) on a given filter. It uses the [**PIN\_DIRECTION**](/windows/desktop/api/strmif/ne-strmif-_pindirection) enumeration to specify the pin direction, and the [**IPin::QueryDirection**](/windows/desktop/api/Strmif/nf-strmif-ipin-querydirection) method to find the direction of each enumerated pin. If this function finds a matching pin, it returns an **IPin** interface pointer with an outstanding reference count. The caller is responsible for releasing the interface.
+The following example shows a function that locates a pin with a given direction (input or output) on a given filter. It uses the [**PIN\_DIRECTION**](/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction) enumeration to specify the pin direction, and the [**IPin::QueryDirection**](/windows/desktop/api/Strmif/nf-strmif-ipin-querydirection) method to find the direction of each enumerated pin. If this function finds a matching pin, it returns an **IPin** interface pointer with an outstanding reference count. The caller is responsible for releasing the interface.
 
 
 ```C++

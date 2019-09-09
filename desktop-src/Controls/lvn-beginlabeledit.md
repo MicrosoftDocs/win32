@@ -38,7 +38,7 @@ LVN_BEGINLABELEDIT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvdispinfo) structure. The **item** member of this structure is an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure whose **iItem** member identifies the item being edited. Note that subitems cannot be edited; the **iSubItem** member is always set to zero.
+Pointer to an [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) structure. The **item** member of this structure is an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure whose **iItem** member identifies the item being edited. Note that subitems cannot be edited; the **iSubItem** member is always set to zero.
 
 </dd> </dl>
 

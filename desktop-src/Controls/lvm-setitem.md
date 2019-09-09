@@ -32,7 +32,7 @@ Sets some or all of a list-view item's attributes. You can also send LVM\_SETITE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure that contains the new item attributes. The **iItem** and **iSubItem** members identify the item or subitem, and the **mask** member specifies which attributes to set. If the **mask** member specifies the LVIF\_TEXT value, the **pszText** member is the address of a null-terminated string and the **cchTextMax** member is ignored. If the **mask** member specifies the LVIF\_STATE value, the **stateMask** member specifies which item states to change and the **state** member contains the values for those states.
+Pointer to an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure that contains the new item attributes. The **iItem** and **iSubItem** members identify the item or subitem, and the **mask** member specifies which attributes to set. If the **mask** member specifies the LVIF\_TEXT value, the **pszText** member is the address of a null-terminated string and the **cchTextMax** member is ignored. If the **mask** member specifies the LVIF\_STATE value, the **stateMask** member specifies which item states to change and the **state** member contains the values for those states.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-To set the attributes of a list-view item, set the **iItem** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure to the index of the item, and set the **iSubItem** member to zero. For an item, you can set the **state**, **pszText**, **iImage**, and **lParam** members of the **LVITEM** structure.
+To set the attributes of a list-view item, set the **iItem** member of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure to the index of the item, and set the **iSubItem** member to zero. For an item, you can set the **state**, **pszText**, **iImage**, and **lParam** members of the **LVITEM** structure.
 
 To set the text of a subitem, set the **iItem** and **iSubItem** members to indicate the specific subitem, and use the **pszText** member to specify the text. Alternatively, you can use the [**ListView\_SetItemText**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemtext) macro to set the text of a subitem. You cannot set the **state** or **lParam** members for subitems because subitems do not have these attributes. In version 4.70 and later, you can set the **iImage** member for subitems. The subitem image will be displayed if the list-view control has the [**LVS\_EX\_SUBITEMIMAGES**](extended-list-view-styles.md) extended style. Previous versions will ignore the subitem image.
 

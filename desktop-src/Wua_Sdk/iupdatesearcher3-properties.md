@@ -14,7 +14,7 @@ The [**IUpdateSearcher3**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher3)
 
 | Method                                              | Description                                                                                                                                    |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SearchScope**](https://msdn.microsoft.com/library/Ee694850(v=VS.85).aspx) | Gets and sets a [**SearchScope**](/windows/desktop/api/Wuapi/ne-wuapi-tagsearchscope) enumeration value which indicates the scope of the updates that are returned by the search. |
+| [**SearchScope**](https://msdn.microsoft.com/library/Ee694850(v=VS.85).aspx) | Gets and sets a [**SearchScope**](/windows/win32/api/wuapi/ne-wuapi-searchscope) enumeration value which indicates the scope of the updates that are returned by the search. |
 
 
 

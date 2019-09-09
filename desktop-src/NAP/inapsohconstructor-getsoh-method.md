@@ -45,7 +45,7 @@ HRESULT GetSoH(
 *soh* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to the constructed [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) or **SoHResponse** packet.
+A pointer to a pointer to the constructed [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) or **SoHResponse** packet.
 
 </dd> </dl>
 

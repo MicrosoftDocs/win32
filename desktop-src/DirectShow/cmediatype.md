@@ -22,7 +22,7 @@ api_location:
 
 ![cmediatype class hierarchy](images/mtype01.png)
 
-The `CMediaType` class manages media types. This class inherits the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure. It can be cast to a variable of type **AM\_MEDIA\_TYPE**.
+The `CMediaType` class manages media types. This class inherits the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure. It can be cast to a variable of type **AM\_MEDIA\_TYPE**.
 
 
 

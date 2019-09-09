@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Working with Device Roles
 
-The [MMDevice API](mmdevice-api.md) supports device roles. The [**ERole**](/windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002) enumeration defines the device roles that are supported by the MMDevice API.
+The [MMDevice API](mmdevice-api.md) supports device roles. The [**ERole**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole) enumeration defines the device roles that are supported by the MMDevice API.
 
 > [!Note]  
 > Although the [MMDevice API](mmdevice-api.md) supports device roles, the user interface in Windows Vista does not implement support for this feature.

@@ -15,7 +15,7 @@ This section contains information about the following structures used with Direc
 -   [**DDCAPS**](/windows/desktop/api/Ddraw/ns-ddraw-ddcaps_dx3)
 -   [**DDCOLORCONTROL**](/windows/desktop/api/Ddraw/ns-ddraw-_ddcolorcontrol)
 -   [**DDCOLORKEY**](/windows/desktop/api/Ddraw/ns-ddraw-ddcolorkey)
--   [**DDDEVICEIDENTIFIER2**](/windows/desktop/api/Ddraw/ns-ddraw-tagdddeviceidentifier2)
+-   [**DDDEVICEIDENTIFIER2**](/windows/win32/api/ddraw/ns-ddraw-dddeviceidentifier2)
 -   [**DDGAMMARAMP**](/windows/desktop/api/Ddraw/ns-ddraw-ddgammaramp)
 -   [**DDOVERLAYFX**](/windows/desktop/api/Ddraw/ns-ddraw-ddoverlayfx)
 -   [**DDPIXELFORMAT**](/windows/desktop/api/Ddraw/ns-ddraw-ddpixelformat)

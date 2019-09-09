@@ -3,7 +3,7 @@ title: Painting the Window
 description: You've created your window. Now you want to show something inside it. In Windows terminology, this is called painting the window. To mix metaphors, a window is a blank canvas, waiting for you to fill it.
 ms.assetid: db97a4c9-7592-42d1-a5de-9c468169eefc
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/16/2019
 ---
 
 # Painting the Window
@@ -28,70 +28,42 @@ The update region also changes if the user stretches the window. In the followin
 
 In our first example program, the painting routine is very simple. It just fills the entire client area with a solid color. Still, this example is enough to demonstrate some of the important concepts.
 
-
 ```C++
-    switch (uMsg)
-    {
-
-
+switch (uMsg)
+{
     case WM_PAINT:
-        {
-            PAINTSTRUCT ps;
-            HDC hdc = BeginPaint(hwnd, &ps);
+    {
+        PAINTSTRUCT ps;
+        HDC hdc = BeginPaint(hwnd, &ps);
 
-            // All painting occurs here, between BeginPaint and EndPaint.
+        // All painting occurs here, between BeginPaint and EndPaint.
 
-            FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+        FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 
-            EndPaint(hwnd, &ps);
-        }
-        return 0;
-
+        EndPaint(hwnd, &ps);
+    }
+    return 0;
+}
 ```
 
-
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    }</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-
-
-Start the painting operation by calling the [**BeginPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint) function. This function fills in the [**PAINTSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct) structure with information on the repaint request. The current update region is given in the **rcPaint** member of **PAINTSTRUCT**. This update region is defined relative to the client area:
+Start the painting operation by calling the [**BeginPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint) function. This function fills in the [**PAINTSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-paintstruct) structure with information on the repaint request. The current update region is given in the **rcPaint** member of **PAINTSTRUCT**. This update region is defined relative to the client area:
 
 ![illustration showing the origin of the client area](images/painting04.png)
 
 In your painting code, you have two basic options:
 
--   Paint the entire client area, regardless of the size of the update region. Anything that falls outside of the update region is clipped. That is, the operating system ignores it.
--   Optimize by painting just the portion of the window inside the update region.
+- Paint the entire client area, regardless of the size of the update region. Anything that falls outside of the update region is clipped. That is, the operating system ignores it.
+- Optimize by painting just the portion of the window inside the update region.
 
 If you always paint the entire client area, the code will be simpler. If you have complicated painting logic, however, it can be more efficient to skip the areas outside of the update region.
 
 The following line of code fills the update region with a single color, using the system-defined window background color (**COLOR\_WINDOW**). The actual color indicated by **COLOR\_WINDOW** depends on the user's current color scheme.
 
-
 ```C++
-            FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 ```
 
-
-
-The details of [**FillRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect) are not important for this example, but the second parameter gives the coordinates of the rectangle to fill. In this case, we pass in the entire update region (the **rcPaint** member of [**PAINTSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct)). On the first [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, the entire client area needs to be painted, so **rcPaint** will contain the entire client area. On subsequent **WM\_PAINT** messages, **rcPaint** might contain a smaller rectangle.
+The details of [**FillRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect) are not important for this example, but the second parameter gives the coordinates of the rectangle to fill. In this case, we pass in the entire update region (the **rcPaint** member of [**PAINTSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-paintstruct)). On the first [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, the entire client area needs to be painted, so **rcPaint** will contain the entire client area. On subsequent **WM\_PAINT** messages, **rcPaint** might contain a smaller rectangle.
 
 The [**FillRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect) function is part of the Graphics Device Interface (GDI), which has powered Windows graphics for a very long time. In Windows 7, Microsoft introduced a new graphics engine, named Direct2D, which supports high-performance graphics operations, such as hardware acceleration. Direct2D is also available for Windows Vista through the [Platform Update for Windows Vista](https://msdn.microsoft.com/library/Ee663866(v=VS.85).aspx) and for Windows Server 2008 through the Platform Update for Windows Server 2008. (GDI is still fully supported.)
 
@@ -100,11 +72,3 @@ After you are done painting, call the [**EndPaint**](https://docs.microsoft.com/
 ## Next
 
 [Closing the Window](closing-the-window.md)
-
- 
-
- 
-
-
-
-

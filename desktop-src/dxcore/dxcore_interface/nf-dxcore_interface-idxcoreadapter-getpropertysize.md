@@ -14,9 +14,15 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 For a specified adapter property, retrieves the size of buffer, in bytes, that is required for a call to [GetProperty](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty). Before calling **GetPropertySize** for a property type, call [IsPropertySupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported) to confirm that the property type is available for this adapter and operating system (OS).
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE GetPropertySize(
+  DXCoreAdapterProperty property,
+  _Out_ size_t *bufferSize) = 0;
+```
 
 ## Parameters
 

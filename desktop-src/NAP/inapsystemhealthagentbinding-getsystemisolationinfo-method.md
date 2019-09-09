@@ -51,7 +51,7 @@ HRESULT GetSystemIsolationInfo(
 *isolationInfo* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**IsolationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfo) structure that contains the isolation state of the system for known connections. *isolationInfoindicates* if the system is in a state of restricted access, probation, or unrestricted access.
+A pointer to a pointer to an [**IsolationInfo**](/windows/win32/api/naptypes/ns-naptypes-isolationinfo) structure that contains the isolation state of the system for known connections. *isolationInfoindicates* if the system is in a state of restricted access, probation, or unrestricted access.
 
 </dd> <dt>
 

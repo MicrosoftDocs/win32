@@ -36,7 +36,7 @@ TCN_KEYDOWN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTCKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagtckeydown) structure.
+Pointer to an [**NMTCKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmtckeydown) structure.
 
 </dd> </dl>
 

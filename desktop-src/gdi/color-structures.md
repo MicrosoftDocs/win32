@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following structures are used with color:
 
 -   [**COLORREF**](colorref.md)
--   [**LOGPALETTE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogpalette)
+-   [**LOGPALETTE**](/windows/win32/api/wingdi/ns-wingdi-logpalette)
 -   [**PALETTEENTRY**](https://msdn.microsoft.com/en-us/library/Dd162769(v=VS.85).aspx)
 
  

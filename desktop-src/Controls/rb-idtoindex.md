@@ -27,7 +27,7 @@ Converts a band identifier to a band index in a rebar control.
 *wParam* 
 </dt> <dd>
 
-The application-defined identifier of the band in question. This is the value that was passed in the **wID** member of the [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa) structure when the band was inserted.
+The application-defined identifier of the band in question. This is the value that was passed in the **wID** member of the [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure when the band was inserted.
 
 </dd> <dt>
 

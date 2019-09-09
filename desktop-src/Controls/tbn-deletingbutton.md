@@ -36,7 +36,7 @@ Sent by a toolbar control when a button is about to be deleted. This notificatio
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtoolbara) structure that contains information about the button being deleted. For this notification code, only the **hdr** and **iItem** members of this structure are valid. The **iItem** member of this structure contains the command identifier of the button being deleted.
+Pointer to an [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commctrl-nmtoolbara) structure that contains information about the button being deleted. For this notification code, only the **hdr** and **iItem** members of this structure are valid. The **iItem** member of this structure contains the command identifier of the button being deleted.
 
 </dd> </dl>
 

@@ -148,7 +148,7 @@ The following code example illustrates how to use the preceding steps in a progr
 [**IXpsSigningOptions::SetSignatureMethod**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignaturemethod)
 </dt> <dt>
 
-[**XPS\_SIGN\_POLICY**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002)
+[**XPS\_SIGN\_POLICY**](/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy)
 </dt> <dt>
 
 **For More Information**

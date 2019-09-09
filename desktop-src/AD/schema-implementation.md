@@ -23,7 +23,7 @@ To summarize the schema implementation:
 
     
 
-    where "<DC=forestroot>" is the distinguished name of the root of the forest, for example, "DC=Fabrikam,DC=Com".
+    where "&lt;DC=forestroot&gt;" is the distinguished name of the root of the forest, for example, "DC=Fabrikam,DC=Com".
 
     To get the distinguished name of the schema container, read the **schemaNamingContext** attribute of rootDSE. For more information about rootDSE and its attributes, see [Serverless Binding and RootDSE](serverless-binding-and-rootdse.md).
 

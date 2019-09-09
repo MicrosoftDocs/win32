@@ -48,7 +48,7 @@ Pointer to the [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilt
 *q* 
 </dt> <dd>
 
-Specifies a [**Quality**](/windows/desktop/api/strmif/ns-strmif-tagquality) structure that contains the quality-control message.
+Specifies a [**Quality**](/previous-versions/windows/desktop/api/strmif/ns-strmif-quality) structure that contains the quality-control message.
 
 </dd> </dl>
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo)
+-   [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw)
 
  
 

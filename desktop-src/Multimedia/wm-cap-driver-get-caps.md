@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="psCaps"></span><span id="pscaps"></span><span id="PSCAPS"></span>*psCaps*
 </dt> <dd>
 
-Pointer to the [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps) structure to contain the hardware capabilities.
+Pointer to the [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) structure to contain the hardware capabilities.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ Returns **TRUE** if successful or **FALSE** if the capture window is not connect
 
 ## Remarks
 
-The capabilities returned in [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps) are constant for a given capture driver. Applications need to retrieve this information once when the capture driver is first connected to a capture window.
+The capabilities returned in [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) are constant for a given capture driver. Applications need to retrieve this information once when the capture driver is first connected to a capture window.
 
 ## Requirements
 

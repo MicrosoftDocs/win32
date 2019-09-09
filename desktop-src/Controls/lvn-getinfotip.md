@@ -38,7 +38,7 @@ LVN_GETINFOTIP
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVGETINFOTIP**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvgetinfotipa) structure that contains information about this notification code.
+Pointer to an [**NMLVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmlvgetinfotipa) structure that contains information about this notification code.
 
 </dd> </dl>
 

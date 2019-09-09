@@ -37,14 +37,14 @@ SCESTATUS WINAPI SceSvcAttachmentUpdate(
 *pSceCbInfo* \[in\]
 </dt> <dd>
 
-Pointer to a [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure which contains the callback handle and function pointers to SCE.
+Pointer to a [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure which contains the callback handle and function pointers to SCE.
 
 </dd> <dt>
 
 *ServiceInfo* \[in\]
 </dt> <dd>
 
-Updated configuration information. The data structure used for this information is [**SCESVC\_CONFIGURATION\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_info_).
+Updated configuration information. The data structure used for this information is [**SCESVC\_CONFIGURATION\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info).
 
 </dd> </dl>
 
@@ -56,12 +56,12 @@ If this function succeeds, it returns SCESTATUS\_SUCCESS. Otherwise it returns a
 
 The **SceSvcAttachmentUpdate** function must do the following:
 
--   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo) to retrieve the current base configuration information from the security database.
--   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo) to retrieve the last set of differences (analysis information) from the security database.
+-   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfQueryInfo) to retrieve the current base configuration information from the security database.
+-   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfQueryInfo) to retrieve the last set of differences (analysis information) from the security database.
 -   Use the supplied service information (see *ServiceInfo*) to compute the new base configuration.
 -   Use the supplied service information (see *ServiceInfo*) and the analysis to compute the new difference information.
--   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfSetInfo)to set the new base configuration in the security database.
--   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfSetInfo) to set the new analysis information in the security database.
+-   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfSetInfo)to set the new base configuration in the security database.
+-   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfSetInfo) to set the new analysis information in the security database.
 
 For more information, see [Implementing SceSvcAttachmentUpdate](implementing-scesvcattachmentupdate.md)
 
@@ -80,10 +80,10 @@ For more information, see [Implementing SceSvcAttachmentUpdate](implementing-sce
 
 <dl> <dt>
 
-[**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_)
+[**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info)
 </dt> <dt>
 
-[**SCESVC\_CONFIGURATION\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_info_)
+[**SCESVC\_CONFIGURATION\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info)
 </dt> </dl>
 
  

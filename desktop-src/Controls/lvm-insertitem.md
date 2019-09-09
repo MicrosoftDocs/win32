@@ -32,7 +32,7 @@ Inserts a new item in a list-view control. You can send this message explicitly 
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure that specifies the attributes of the list-view item. Use the **iItem** member to specify the zero-based index at which the new item should be inserted. If this value is greater than the number of items currently contained by the listview, the new item will be appended to the end of the list and assigned the correct index. Examine the message's return value to determine the actual index assigned to the item.
+Pointer to an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure that specifies the attributes of the list-view item. Use the **iItem** member to specify the zero-based index at which the new item should be inserted. If this value is greater than the number of items currently contained by the listview, the new item will be appended to the end of the list and assigned the correct index. Examine the message's return value to determine the actual index assigned to the item.
 
 </dd> </dl>
 
@@ -42,9 +42,9 @@ Returns the index of the new item if successful, or -1 otherwise.
 
 ## Remarks
 
-You cannot use [**ListView\_InsertItem**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertitem) or **LVM\_INSERTITEM** to insert subitems. The **iSubItem** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure must be zero. See [**LVM\_SETITEM**](lvm-setitem.md) for information on setting subitems.
+You cannot use [**ListView\_InsertItem**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertitem) or **LVM\_INSERTITEM** to insert subitems. The **iSubItem** member of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure must be zero. See [**LVM\_SETITEM**](lvm-setitem.md) for information on setting subitems.
 
-If a list-view control has the [**LVS\_EX\_CHECKBOXES**](extended-list-view-styles.md) style set, any value placed in bits 12 through 15 of the **state** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
+If a list-view control has the [**LVS\_EX\_CHECKBOXES**](extended-list-view-styles.md) style set, any value placed in bits 12 through 15 of the **state** member of the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
 
 If a list-view control has either the [**LVS\_SORTASCENDING**](list-view-window-styles.md) or [**LVS\_SORTDESCENDING**](list-view-window-styles.md) window style, an **LVM\_INSERTITEM** message will fail if you try to insert an item that has LPSTR\_TEXTCALLBACK as the value for its **pszText** member.
 
@@ -54,7 +54,7 @@ The **LVM\_INSERTITEM** message will insert the new item in the proper position 
 -   You are not using the [**LVS\_OWNERDRAW**](list-view-window-styles.md) style.
 -   The **pszText** member of the structure pointed to by **pitem** is not set to LPSTR\_TEXTCALLBACK.
 
-If the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure does not contain LVIF\_GROUPID in the **mask** member, the value of the **iGroupId** member is I\_GROUPIDCALLBACK by default.
+If the [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure does not contain LVIF\_GROUPID in the **mask** member, the value of the **iGroupId** member is I\_GROUPIDCALLBACK by default.
 
 ## Requirements
 

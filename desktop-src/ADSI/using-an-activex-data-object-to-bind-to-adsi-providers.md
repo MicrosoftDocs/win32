@@ -57,7 +57,7 @@ ADSI OLE DB defines the following connection properties.
 
 Using OLE DB ADO, you cannot bind to a specific object. You can, however, query a specific object and get a result set back. Only ADSI providers that support [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) benefit from having ADO as a programming model.
 
-The ADSI Flag property is used to specify the binding authentication option. This property can be a combination of flags from the [**ADS\_AUTHENTICATION\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018) enumeration.
+The ADSI Flag property is used to specify the binding authentication option. This property can be a combination of flags from the [**ADS\_AUTHENTICATION\_ENUM**](/windows/win32/api/iads/ne-iads-ads_authentication_enum) enumeration.
 
  
 

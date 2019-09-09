@@ -50,17 +50,17 @@ When the ProviderID of a blocking filter matches that of a registered helper cla
 
 ## FPHC Event Attributes
 
-The following table lists the event attributes associated with each matching event. Each event attribute is stored in a [**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute) structure. These attributes are passed by NDF to FPHC when a matching event is found. These can in turn be passed to FPHC extensions.
+The following table lists the event attributes associated with each matching event. Each event attribute is stored in a [**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute) structure. These attributes are passed by NDF to FPHC when a matching event is found. These can in turn be passed to FPHC extensions.
 
 
 
-| Attribute     | [**ATTRIBUTE\_TYPE**](/windows/desktop/api/ndattrib/ne-ndattrib-tagattribute_type) value | Description                                                                                                                               |
+| Attribute     | [**ATTRIBUTE\_TYPE**](/windows/win32/api/ndattrib/ne-ndattrib-attribute_type) value | Description                                                                                                                               |
 |---------------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Provider GUID | AT\_GUID                                        | The GUID of the provider associated with the filter.                                                                                      |
 | Timestamp     | AT\_OCTET\_STRING                               | A buffer of type FILETIME that specifies the time at which the event occurred. This time stamp can be used to uniquely identify an event. |
 | ipProtocol    | AT\_UINT32                                      | The transport layer protocol, in UINT8 format.                                                                                            |
-| LocalAddr     | AT\_SOCKADDR                                    | The local IP address and port, stored in a [**DIAG\_SOCKADDR**](/windows/desktop/api/ndattrib/ns-ndattrib-tagsock_addr) structure.                                             |
-| RemoteAddr    | AT\_SOCKADDR                                    | The remote IP address and port, stored in a [**DIAG\_SOCKADDR**](/windows/desktop/api/ndattrib/ns-ndattrib-tagsock_addr) structure.                                            |
+| LocalAddr     | AT\_SOCKADDR                                    | The local IP address and port, stored in a [**DIAG\_SOCKADDR**](/windows/win32/api/ndattrib/ns-ndattrib-diag_sockaddr) structure.                                             |
+| RemoteAddr    | AT\_SOCKADDR                                    | The remote IP address and port, stored in a [**DIAG\_SOCKADDR**](/windows/win32/api/ndattrib/ns-ndattrib-diag_sockaddr) structure.                                            |
 | userId        | AT\_OCTET\_STRING                               | A buffer of type SID that represents the userid. If userId is of length 0, the SID is unavailable.                                        |
 | appId         | AT\_STRING                                      | A buffer that stores the retrieved application identifier. If appId has a value of L"", the application identifier is unavailable.        |
 

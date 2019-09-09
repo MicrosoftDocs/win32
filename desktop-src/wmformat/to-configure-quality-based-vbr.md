@@ -23,7 +23,7 @@ For quality-based VBR video streams, you must specify a quality level from 1 to 
 
 For audio streams, you can enumerate the available modes and retrieve a stream configuration object. For more information, see [To Enumerate Codec Formats](to-enumerate-codec-formats.md).
 
-When using quality-based VBR video, you must set the **dwBitrate** member of the [**WMVIDEOINFOHEADER**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader) structure to a positive value. This value is not used by the writer, but passing zero or a negative number can cause errors when writing.
+When using quality-based VBR video, you must set the **dwBitrate** member of the [**WMVIDEOINFOHEADER**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader) structure to a positive value. This value is not used by the writer, but passing zero or a negative number can cause errors when writing.
 
 To configure a stream in a profile to be encoded with quality-based VBR, perform the following steps.
 

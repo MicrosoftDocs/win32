@@ -27,7 +27,7 @@ Specifies characteristics that a client can assign to an audio stream during the
 
 ## Remarks
 
-The [**IAudioClient::Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) method and the [**DIRECTX\_AUDIO\_ACTIVATION\_PARAMS**](/windows/desktop/api/Mmdeviceapi/ns-mmdeviceapi-tagdirectx_audio_activation_params) structure use the AUDCLNT\_STREAMFLAGS\_XXX constants.
+The [**IAudioClient::Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) method and the [**DIRECTX\_AUDIO\_ACTIVATION\_PARAMS**](/windows/win32/api/mmdeviceapi/ns-mmdeviceapi-directx_audio_activation_params) structure use the AUDCLNT\_STREAMFLAGS\_XXX constants.
 
 The AUDCLNT\_STREAMFLAGS\_CROSSPROCESS flag indicates that the audio session for the stream is a cross-process session. A cross-process session can accept streams from more than one process. If two applications in two separate processes call **IAudioClient::Initialize** with identical session GUIDs, and both applications set the AUDCLNT\_SHAREMODE\_CROSSPROCESS flag, then the audio engine assigns their streams to the same cross-process session. This flag overrides the default behavior, which is to assign the stream to a process-specific session rather than a cross-process session. The AUDCLNT\_STREAMFLAGS\_CROSSPROCESS flag bit is incompatible with exclusive mode. For more information about cross-process sessions, see [Audio Sessions](audio-sessions.md).
 

@@ -75,9 +75,9 @@ The method reference pages give more information.
 
 **Using the VMR9VideoDesc Structure**
 
-In the procedure given previously, the first step is to fill in a **VMR9VideoDesc** structure with a description of the video stream. Start by getting the media type of the video stream. You can do this by calling [**IPin::ConnectionMediaType**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectionmediatype) on the VMR filter's input pin. Then confirm whether the video stream is interlaced. Only [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) formats can be interlaced. If the format type is FORMAT\_VideoInfo, it must be a progressive frame. If the format type is FORMAT\_VideoInfo2, check the **dwInterlaceFlags** field for the AMINTERLACE\_IsInterlaced flag. The presence of this flag indicates the video is interlaced.
+In the procedure given previously, the first step is to fill in a **VMR9VideoDesc** structure with a description of the video stream. Start by getting the media type of the video stream. You can do this by calling [**IPin::ConnectionMediaType**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectionmediatype) on the VMR filter's input pin. Then confirm whether the video stream is interlaced. Only [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) formats can be interlaced. If the format type is FORMAT\_VideoInfo, it must be a progressive frame. If the format type is FORMAT\_VideoInfo2, check the **dwInterlaceFlags** field for the AMINTERLACE\_IsInterlaced flag. The presence of this flag indicates the video is interlaced.
 
-Assume that the variable **pBMI** is a pointer to the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure in the format block. Set the following values in the **VMR9VideoDesc** structure:
+Assume that the variable **pBMI** is a pointer to the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure in the format block. Set the following values in the **VMR9VideoDesc** structure:
 
 -   **dwSize**: Set this field to `sizeof(VMR9VideoDesc)`.
 -   **dwSampleWidth**: Set this field to `pBMI->biWidth`.

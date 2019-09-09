@@ -51,7 +51,7 @@ The following NAP error constants are defined in WinError.h.
 
 
 
-The NAP [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet is invalid.
+The NAP [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet is invalid.
 
 
 </dt> </dl> </dd> <dt>
@@ -64,7 +64,7 @@ The NAP [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet is in
 
 
 
-An [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) was missing from the NAP packet.
+An [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) was missing from the NAP packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -90,7 +90,7 @@ The entity ID conflicts with an already-registered entity ID.
 
 
 
-No cached [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) is present.
+No cached [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) is present.
 
 
 </dt> </dl> </dd> <dt>
@@ -142,7 +142,7 @@ The entity is not initialized with the NAP system.
 
 
 
-The correlation IDs in the [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) request and **SoH** response do not match up.
+The correlation IDs in the [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) request and **SoH** response do not match up.
 
 
 </dt> </dl> </dd> <dt>

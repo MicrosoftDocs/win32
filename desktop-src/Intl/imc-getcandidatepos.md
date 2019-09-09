@@ -31,7 +31,7 @@ Set to IMC\_GETCANDIDATEPOS.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform) structure that contains the position of the candidate window.
+Pointer to a [**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform) structure that contains the position of the candidate window.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Because the IME might adjust the position of a candidate window, an application 
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**CANDIDATEFORM**](/windows/desktop/api/Imm/ns-imm-tagcandidateform)
+[**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform)
 </dt> </dl>
 
  

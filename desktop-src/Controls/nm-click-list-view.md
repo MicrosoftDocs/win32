@@ -36,7 +36,7 @@ NM_CLICK
 *lParam* 
 </dt> <dd>
 
-[Version 4.71](common-control-versions.md). Pointer to an [**NMITEMACTIVATE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmitemactivate) structure that contains additional information about this notification. The **iItem**, **iSubItem**, and **ptAction** members of this structure contain information about the item.
+[Version 4.71](common-control-versions.md). Pointer to an [**NMITEMACTIVATE**](/windows/win32/api/commctrl/ns-commctrl-nmitemactivate) structure that contains additional information about this notification. The **iItem**, **iSubItem**, and **ptAction** members of this structure contain information about the item.
 
 </dd> </dl>
 

@@ -48,7 +48,7 @@ Pointer to a null-terminated string that specifies the default data type for a p
 **pDevMode**
 </dt> <dd>
 
-Pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that identifies the default environment and initialization data for a printer.
+Pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that identifies the default environment and initialization data for a printer.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ Specifies desired access rights for a printer. The [**OpenPrinter**](openprinter
 [**DeletePrinter**](deleteprinter.md)
 </dt> <dt>
 
-[**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea)
+[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)
 </dt> <dt>
 
 [**OpenPrinter**](openprinter.md)

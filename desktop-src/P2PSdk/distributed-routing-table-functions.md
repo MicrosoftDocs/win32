@@ -16,10 +16,10 @@ The Distributed Routing Table (DRT) API utilizes the following functions.
 
 | Function                                           | Description                                                                                                    |
 |----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**DrtOpen**](/windows/desktop/api/drt/nf-drt-drtopen)                         | Creates a local DRT instance using criteria specified by the [**DRT\_SETTINGS**](/windows/desktop/api/drt/ns-drt-drt_settings_tag) structure.  |
+| [**DrtOpen**](/windows/desktop/api/drt/nf-drt-drtopen)                         | Creates a local DRT instance using criteria specified by the [**DRT\_SETTINGS**](/windows/desktop/api/drt/ns-drt-drt_settings) structure.  |
 | [**DrtClose**](/windows/desktop/api/drt/nf-drt-drtclose)                       | Closes and removes the local instance of the DRT.                                                              |
 | [**DrtGetEventData**](/windows/desktop/api/drt/nf-drt-drtgeteventdata)         | Retrieves event data associated with a signaled event.                                                         |
-| [**DrtGetEventDataSize**](/windows/desktop/api/drt/nf-drt-drtgeteventdatasize) | Returns the size of the [**DRT\_EVENT\_DATA**](/windows/desktop/api/drt/ns-drt-drt_event_data_tag) structure associated with a signaled event. |
+| [**DrtGetEventDataSize**](/windows/desktop/api/drt/nf-drt-drtgeteventdatasize) | Returns the size of the [**DRT\_EVENT\_DATA**](/windows/desktop/api/drt/ns-drt-drt_event_data) structure associated with a signaled event. |
 
 
 
@@ -67,13 +67,13 @@ The Distributed Routing Table (DRT) API utilizes the following functions.
 
 | Function                                                 | Description                                                                                                                                                                                                             |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrtStartSearch**](/windows/desktop/api/drt/nf-drt-drtstartsearch)                 | Searches the DRT for a key using criteria specified in the [**DRT\_SEARCH\_INFO**](/windows/desktop/api/drt/ns-drt-drt_search_info_tag) structure.                                                                                                      |
-| [**DrtContinueSearch**](/windows/desktop/api/drt/nf-drt-drtcontinuesearch)           | Continues a DRT\_SEARCH\_RETURN\_PATH search for a key in the DRT. This function is used only when the **fIterative** flag is set to **TRUE** in the associated [**DRT\_SEARCH\_INFO**](/windows/desktop/api/drt/ns-drt-drt_search_info_tag) structure. |
+| [**DrtStartSearch**](/windows/desktop/api/drt/nf-drt-drtstartsearch)                 | Searches the DRT for a key using criteria specified in the [**DRT\_SEARCH\_INFO**](/windows/desktop/api/drt/ns-drt-drt_search_info) structure.                                                                                                      |
+| [**DrtContinueSearch**](/windows/desktop/api/drt/nf-drt-drtcontinuesearch)           | Continues a DRT\_SEARCH\_RETURN\_PATH search for a key in the DRT. This function is used only when the **fIterative** flag is set to **TRUE** in the associated [**DRT\_SEARCH\_INFO**](/windows/desktop/api/drt/ns-drt-drt_search_info) structure. |
 | [**DrtGetSearchResult**](/windows/desktop/api/drt/nf-drt-drtgetsearchresult)         | Retrieves the search result(s).                                                                                                                                                                                         |
 | [**DrtGetSearchResultSize**](/windows/desktop/api/drt/nf-drt-drtgetsearchresultsize) | Returns the size of the next available search result.                                                                                                                                                                   |
 | [**DrtGetSearchPath**](/windows/desktop/api/drt/nf-drt-drtgetsearchpath)             | Returns a list of nodes contacted during the search operation.                                                                                                                                                          |
 | [**DrtGetSearchPathSize**](/windows/desktop/api/drt/nf-drt-drtgetsearchpathsize)     | Returns the size of the search path, which represents the number of nodes utilized in the search operation.                                                                                                             |
-| [**DrtEndSearch**](/windows/desktop/api/drt/nf-drt-drtendsearch)                     | Cancels a search for a key in a DRT, and as a result, the return of results via [**DRT\_SEARCH\_RESULT**](/windows/desktop/api/drt/ns-drt-drt_search_result_tag) is stopped. This API can be called at any point after a search is issued.              |
+| [**DrtEndSearch**](/windows/desktop/api/drt/nf-drt-drtendsearch)                     | Cancels a search for a key in a DRT, and as a result, the return of results via [**DRT\_SEARCH\_RESULT**](/windows/desktop/api/drt/ns-drt-drt_search_result) is stopped. This API can be called at any point after a search is issued.              |
 
 
 

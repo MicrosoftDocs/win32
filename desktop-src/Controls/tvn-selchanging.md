@@ -38,7 +38,7 @@ TVN_SELCHANGING
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa) structure. The **itemOld** and **itemNew** members contain valid information about the currently selected item and the newly selected item. The **action** member indicates whether a mouse or keyboard action is causing the selection to change. For a list of possible values, see the description of the [TVN\_SELCHANGED](tvn-selchanged.md) notification code.
+Pointer to an [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreeviewa) structure. The **itemOld** and **itemNew** members contain valid information about the currently selected item and the newly selected item. The **action** member indicates whether a mouse or keyboard action is causing the selection to change. For a list of possible values, see the description of the [TVN\_SELCHANGED](tvn-selchanged.md) notification code.
 
 </dd> </dl>
 

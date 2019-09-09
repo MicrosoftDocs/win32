@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # OAFilterState
 
-The `OAFilterState` data type defines the state of the filter graph. The value is a member of the [**FILTER\_STATE**](/windows/desktop/api/strmif/ne-strmif-_filterstate) enumeration. This data type is defined for OLE Automation clients, such as Microsoft Visual Basic 6.0.
+The `OAFilterState` data type defines the state of the filter graph. The value is a member of the [**FILTER\_STATE**](/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state) enumeration. This data type is defined for OLE Automation clients, such as Microsoft Visual Basic 6.0.
 
 
 ```C++

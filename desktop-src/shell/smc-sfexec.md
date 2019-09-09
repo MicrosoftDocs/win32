@@ -18,7 +18,7 @@ topic_type:
 
 # SMC\_SFEXEC message
 
-Execute the Shell folder item specified in the accompanying [**SMDATA**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata) structure.
+Execute the Shell folder item specified in the accompanying [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) structure.
 
 
 ```C++

@@ -20,7 +20,7 @@ api_location:
 
 # ConvertVideoInfoToVideoInfo2 function
 
-The `ConvertVideoInfoToVideoInfo2` function converts a media type that uses [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) to one that uses [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2).
+The `ConvertVideoInfoToVideoInfo2` function converts a media type that uses [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) to one that uses [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2).
 
 ## Syntax
 
@@ -40,7 +40,7 @@ HRESULT STDAPI ConvertVideoInfoToVideoInfo2(
 *pmt* 
 </dt> <dd>
 
-Pointer to the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure to convert. The structure must have format type FORMAT\_VideoInfo.
+Pointer to the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure to convert. The structure must have format type FORMAT\_VideoInfo.
 
 </dd> </dl>
 

@@ -18,7 +18,7 @@ Contains a pointer to the media source associated with a topology node.
 
 This attribute applies to source nodes (**MF\_TOPOLOGY\_SOURCESTREAM\_NODE**).
 
-The value of the atttribute is a pointer to the media source's [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) interface. This attribute is required.
+The value of the attribute is a pointer to the media source's [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) interface. This attribute is required.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

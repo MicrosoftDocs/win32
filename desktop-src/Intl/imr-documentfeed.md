@@ -31,7 +31,7 @@ Set to IMR\_DOCUMENTFEED.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer to contain the [**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring) structure.
+Pointer to a buffer to contain the [**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring) structure.
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ With the **IMR\_DOCUMENTFEED** command, the IME can refresh its cached strings a
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring)
+[**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

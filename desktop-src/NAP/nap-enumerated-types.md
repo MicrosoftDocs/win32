@@ -15,13 +15,13 @@ ms.date: 05/31/2018
 
 The following enumerated types support the NAP API:
 
--   [**FailureCategory**](/windows/desktop/api/NapTypes/ne-naptypes-tagfailurecategory)
--   [**FixupState**](/windows/desktop/api/NapTypes/ne-naptypes-tagfixupstate)
+-   [**FailureCategory**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
+-   [**FixupState**](/windows/win32/api/naptypes/ne-naptypes-fixupstate)
 -   [**HealthClassValue**](healthclassvalue-enum.md)
--   [**IsolationState**](/windows/desktop/api/NapTypes/ne-naptypes-tagisolationstate)
--   [**ExtendedIsolationState**](/windows/desktop/api/NapTypes/ne-naptypes-tagextendedisolationstate)
--   [**NapNotifyType**](/windows/desktop/api/NapTypes/ne-naptypes-tagnapnotifytype)
--   [**RemoteConfigurationType**](/windows/desktop/api/NapTypes/ne-naptypes-tagremoteconfigurationtype)
+-   [**IsolationState**](/windows/win32/api/naptypes/ne-naptypes-isolationstate)
+-   [**ExtendedIsolationState**](/windows/win32/api/naptypes/ne-naptypes-extendedisolationstate)
+-   [**NapNotifyType**](/windows/win32/api/naptypes/ne-naptypes-napnotifytype)
+-   [**RemoteConfigurationType**](/windows/win32/api/naptypes/ne-naptypes-remoteconfigurationtype)
 -   [**SoHAttributeType**](sohattributetype-enum.md)
 
  

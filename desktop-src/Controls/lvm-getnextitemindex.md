@@ -27,7 +27,7 @@ Retrieves the index of an item in a specified list-view control that matches the
 *wParam* \[in, out\]
 </dt> <dd>
 
-A pointer to the [**LVITEMINDEX**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitemindex) structure for the item to begin the search with, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
+A pointer to the [**LVITEMINDEX**](/windows/win32/api/commctrl/ns-commctrl-lvitemindex) structure for the item to begin the search with, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
 
 </dd> <dt>
 

@@ -38,7 +38,7 @@ TVN_SELCHANGED
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa) structure. The **itemOld** and **itemNew** members of the **NMTREEVIEW** structure are [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structures that contain information about the previously selected item and the newly selected item. Only the **mask**, **hItem**, **state**, and **lParam** members of these structures are valid. The **stateMask** members of the **TVITEM** structures specified by **itemOld** and **itemNew** are undefined on input. The **action** member of the **NMTREEVIEW** structure indicates the type of action that caused the selection to change. It can be one of the following values:
+Pointer to an [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreeviewa) structure. The **itemOld** and **itemNew** members of the **NMTREEVIEW** structure are [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structures that contain information about the previously selected item and the newly selected item. Only the **mask**, **hItem**, **state**, and **lParam** members of these structures are valid. The **stateMask** members of the **TVITEM** structures specified by **itemOld** and **itemNew** are undefined on input. The **action** member of the **NMTREEVIEW** structure indicates the type of action that caused the selection to change. It can be one of the following values:
 
 
 

@@ -25,7 +25,7 @@ The following classes and interfaces are used for inertia and manipulations.
 
 | Class/Interface                                          | Description                                                                  |
 |----------------------------------------------------------|------------------------------------------------------------------------------|
-| [**\_IManipulationEvents**](/windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents)    | Handles manipulation events.                                                 |
+| [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)    | Handles manipulation events.                                                 |
 | [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor)           | Handles calculations regarding object motion for Windows Touch.              |
 | [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) | Provides functionality for monitoring and responding to Windows Touch input. |
 

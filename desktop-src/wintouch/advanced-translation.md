@@ -25,7 +25,7 @@ In example A, the simple translation example, the object is moved without rotati
 
 As the object is moved, the radius is recalculated and the pivot point is moved.
 
-The following code shows one way that you can do this in an implementation of [**ManipulationDelta**](/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta) that enables complex translation.
+The following code shows one way that you can do this in an implementation of [**ManipulationDelta**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta) that enables complex translation.
 
 
 ```C++

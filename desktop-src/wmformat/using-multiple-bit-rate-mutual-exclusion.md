@@ -156,7 +156,7 @@ pProfileMgr = NULL;
 [**Using Mutual Exclusion**](using-mutual-exclusion.md)
 </dt> <dt>
 
-[**WM\_MEDIA\_TYPE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype)
+[**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type)
 </dt> </dl>
 
  

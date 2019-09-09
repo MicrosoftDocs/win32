@@ -12,23 +12,23 @@ The following section describes structures for typography and complex script pro
 
 <dl>
 
-[**GOFFSET**](/windows/desktop/api/Usp10/ns-usp10-taggoffset)  
+[**GOFFSET**](/windows/win32/api/usp10/ns-usp10-goffset)  
 [**OPENTYPE\_FEATURE\_RECORD**](/windows/desktop/api/Usp10/ns-usp10-opentype_feature_record)  
 [**OPENTYPE\_TAG**](opentype-tag.md)  
-[**SCRIPT\_ANALYSIS**](/windows/desktop/api/Usp10/ns-usp10-tag_script_analysis)  
+[**SCRIPT\_ANALYSIS**](/windows/win32/api/usp10/ns-usp10-script_analysis)  
 [**SCRIPT\_CACHE**](script-cache.md)  
 [**SCRIPT\_CHARPROP**](/windows/desktop/api/Usp10/ns-usp10-script_charprop)  
-[**SCRIPT\_CONTROL**](/windows/desktop/api/Usp10/ns-usp10-tag_script_control)  
-[**SCRIPT\_DIGITSUBSTITUTE**](/windows/desktop/api/Usp10/ns-usp10-tag_script_digitsubstitute)  
+[**SCRIPT\_CONTROL**](/windows/win32/api/usp10/ns-usp10-script_control)  
+[**SCRIPT\_DIGITSUBSTITUTE**](/windows/win32/api/usp10/ns-usp10-script_digitsubstitute)  
 [**SCRIPT\_FONTPROPERTIES**](/windows/desktop/api/Usp10/ns-usp10-script_fontproperties)  
 [**SCRIPT\_GLYPHPROP**](/windows/desktop/api/Usp10/ns-usp10-script_glyphprop)  
-[**SCRIPT\_ITEM**](/windows/desktop/api/Usp10/ns-usp10-tag_script_item)  
-[**SCRIPT\_LOGATTR**](/windows/desktop/api/Usp10/ns-usp10-tag_script_logattr)  
+[**SCRIPT\_ITEM**](/windows/win32/api/usp10/ns-usp10-script_item)  
+[**SCRIPT\_LOGATTR**](/windows/win32/api/usp10/ns-usp10-script_logattr)  
 [**SCRIPT\_PROPERTIES**](/windows/desktop/api/Usp10/ns-usp10-script_properties)  
-[**SCRIPT\_STATE**](/windows/desktop/api/Usp10/ns-usp10-tag_script_state)  
+[**SCRIPT\_STATE**](/windows/win32/api/usp10/ns-usp10-script_state)  
 [**SCRIPT\_STRING\_ANALYSIS**](script-string-analysis.md)  
-[**SCRIPT\_TABDEF**](/windows/desktop/api/Usp10/ns-usp10-tag_script_tabdef)  
-[**SCRIPT\_VISATTR**](/windows/desktop/api/Usp10/ns-usp10-tag_script_visattr)  
+[**SCRIPT\_TABDEF**](/windows/win32/api/usp10/ns-usp10-script_tabdef)  
+[**SCRIPT\_VISATTR**](/windows/win32/api/usp10/ns-usp10-script_visattr)  
 [**TEXTRANGE\_PROPERTIES**](/windows/desktop/api/Usp10/ns-usp10-textrange_properties)  
 </dl>
 

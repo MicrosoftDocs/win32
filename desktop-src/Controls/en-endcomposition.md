@@ -36,7 +36,7 @@ EN_ENDCOMPOSITION
 *lParam* 
 </dt> <dd>
 
-A [**ENDCOMPOSITIONNOTIFY**](/windows/desktop/api/Richedit/ns-richedit-_endcomposition) structure that receives information about the end composition condition.
+A [**ENDCOMPOSITIONNOTIFY**](/windows/win32/api/richedit/ns-richedit-endcompositionnotify) structure that receives information about the end composition condition.
 
 </dd> </dl>
 

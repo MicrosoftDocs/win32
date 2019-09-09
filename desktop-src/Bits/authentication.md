@@ -16,13 +16,13 @@ It's possible to embed the user name and password in the URL. This is not consid
 
 For [Passport](https://docs.microsoft.com/windows/desktop/WinHttp/passport-authentication-in-winhttp) authentication, BITS supports explicit credentials only, not implicit credentials tied to the account.
 
-For challenge/response authentication, BITS impersonates the user and uses [Snego](https://msdn.microsoft.com/library/ms679759(v=VS.85).aspx) to determine which challenge/response authentication to use, such as NTLM or the Kerberos protocol. For a list of challenge/response schemes that BITS supports, see [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002).
+For challenge/response authentication, BITS impersonates the user and uses [Snego](https://msdn.microsoft.com/library/ms679759(v=VS.85).aspx) to determine which challenge/response authentication to use, such as NTLM or the Kerberos protocol. For a list of challenge/response schemes that BITS supports, see [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-bg_auth_scheme).
 
 BITS jobs can fail if the virtual directory on the server has anonymous authentication and another authentication scheme enabled and if ACLs protect the virtual directory or download files. For example, a job fails with "access denied" if the virtual directory has anonymous and integrated authentication enabled and the file contains an ACL that allows only Ben to read the file. This occurs because the virtual directory allows anonymous access, so IIS does not explicitly authenticate Ben (Ben's credentials are not used to access the file and access is denied).
 
 ## Using implicit credentials
 
-To use the user's implicit (logon) credentials for NTLM or Kerberos authentication, call the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method and set the **UserName** and **Password** members of the [**BG\_BASIC\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0003) structure to **NULL**. If you specify implicit credentials for a proxy, BITS will also use the implicit credentials for server authentication unless you specify explicit server credentials.
+To use the user's implicit (logon) credentials for NTLM or Kerberos authentication, call the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method and set the **UserName** and **Password** members of the [**BG\_BASIC\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_basic_credentials) structure to **NULL**. If you specify implicit credentials for a proxy, BITS will also use the implicit credentials for server authentication unless you specify explicit server credentials.
 
 For additional information for services, see [Service Accounts and BITS](service-accounts-and-bits.md).
 

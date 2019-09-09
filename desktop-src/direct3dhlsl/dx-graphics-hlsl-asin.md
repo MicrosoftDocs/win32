@@ -46,7 +46,7 @@ The arcsine of the *x* parameter.
 
 ## Remarks
 
-Each component of the *x* parameter should be within the range of -?/2 to ?/2.
+Each component of the *x* parameter should be within the range of -π/2 to π/2.
 
 ## Type Description
 

@@ -80,7 +80,7 @@ Wide-character string containing the name of the pin. For more information, see 
 *dir* 
 </dt> <dd>
 
-Member of the [**PIN\_DIRECTION**](/windows/desktop/api/strmif/ne-strmif-_pindirection) enumeration specifying the direction of the pin.
+Member of the [**PIN\_DIRECTION**](/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction) enumeration specifying the direction of the pin.
 
 </dd> </dl>
 

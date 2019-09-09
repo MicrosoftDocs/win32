@@ -49,7 +49,7 @@ Zero-based index of the graph point whose value you want to retrieve. Valid valu
 *which* \[in\]
 </dt> <dd>
 
-Type of counter value to retrieve, for example, the average value of the counter as displayed in the graph window. For possible values, see [**SysmonDataType**](/windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0002).
+Type of counter value to retrieve, for example, the average value of the counter as displayed in the graph window. For possible values, see [**SysmonDataType**](/windows/win32/api/isysmon/ne-isysmon-sysmondatatype).
 
 </dd> <dt>
 

@@ -24,7 +24,7 @@ g\_wszWMText
 
 ## Data Type
 
-[**WM\_USER\_TEXT**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmusertext) (**WMT\_TYPE\_BINARY**)
+[**WM\_USER\_TEXT**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_user_text) (**WMT\_TYPE\_BINARY**)
 
 ## See also
 

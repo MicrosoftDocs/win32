@@ -14,9 +14,7 @@ ms.date: 05/31/2018
 
 The following is a list of the Remote Desktop Services shortcut keys.
 
-**Missing keys:  **
-
-Many compact keyboards do not contain some of these keys. For example, many laptops do not have a dedicated BREAK key. However, they usually have keyboard shortcuts that replace dedicated keys. These key replacements are specified by the manufacturer of the keyboard, so you may need to look up key replacements in the documentation provided by your keyboard or laptop manufacturer.
+A note regarding missing keys: Many compact keyboards do not contain some keys. For example, many laptops do not have a dedicated BREAK key. However, they usually have keyboard shortcuts that replace dedicated keys. These key replacements are specified by the manufacturer of the keyboard, so you may need to look up key replacements in the documentation provided by your keyboard or laptop manufacturer.
 
 There are two possible shortcut key combinations you can use on a remote desktop connection: the default Windows shortcut keys, or the shortcut keys originally designed for the remote desktop. You can set which shortcut keys you use on the local and remote machine through the Remote Desktop Connection client (ie, the dialog that appears when you click on the **Remote Desktop Connection** icon). From there, click **Show Options** (if you cannot see the options), and then click the **Local Resources** tab. In the **Apply Windows key combinations** drop-down, you have three options:
 

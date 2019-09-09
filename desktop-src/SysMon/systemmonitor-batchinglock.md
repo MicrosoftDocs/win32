@@ -48,7 +48,7 @@ Set to True to lock the System Monitor to prevent it from sampling counter data 
 *batchReason* \[in\]
 </dt> <dd>
 
-Identifies the source of the data that you are locking. Use the same reason value when locking and unlocking the resource. For possible values, see the [**SysmonBatchReason**](/windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0003) enumeration.
+Identifies the source of the data that you are locking. Use the same reason value when locking and unlocking the resource. For possible values, see the [**SysmonBatchReason**](/windows/win32/api/isysmon/ne-isysmon-sysmonbatchreason) enumeration.
 
 </dd> </dl>
 

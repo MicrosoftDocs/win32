@@ -94,7 +94,7 @@ There are also [miscellaneous](#miscellaneous) supplementary line service functi
 | Function                                           | Description                                                                                                          |
 |----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [**lineSetMediaControl**](/windows/desktop/api/Tapi/nf-tapi-linesetmediacontrol) | Sets up a call's media stream for media control. Synchronous.                                                        |
-| [**lineSetMediaMode**](/windows/desktop/api/Tapi/nf-tapi-linesetmediamode)       | Sets the media mode(s) of the specified call in its [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) structure. Synchronous. |
+| [**lineSetMediaMode**](/windows/desktop/api/Tapi/nf-tapi-linesetmediamode)       | Sets the media mode(s) of the specified call in its [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) structure. Synchronous. |
 
 
 
@@ -346,7 +346,7 @@ There are also [miscellaneous](#miscellaneous) supplementary line service functi
 
 | Function                                             | Description                                                                                           |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**lineSetCallData**](/windows/desktop/api/Tapi/nf-tapi-linesetcalldata)           | Sets the **CallData** member of the [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) structure. Asynchronous. |
+| [**lineSetCallData**](/windows/desktop/api/Tapi/nf-tapi-linesetcalldata)           | Sets the **CallData** member of the [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) structure. Asynchronous. |
 | [**lineSetCallTreatment**](/windows/desktop/api/Tapi/nf-tapi-linesetcalltreatment) | Sets the sounds that the user hears when a call is unanswered or on hold. Asynchronous.               |
 | [**lineSetLineDevStatus**](/windows/desktop/api/Tapi/nf-tapi-linesetlinedevstatus) | Sets the line device status. Asynchronous.                                                            |
 

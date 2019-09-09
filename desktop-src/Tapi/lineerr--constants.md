@@ -57,7 +57,7 @@ The specified device identifier or line device identifier, such as in a *dwDevic
 
 
 
-The bearer mode member in [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams_tag) is invalid, the bearer mode specified in **LINECALLPARAMS** is not available, or the call bearer mode cannot be changed to the specified bearer mode.
+The bearer mode member in [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams) is invalid, the bearer mode specified in **LINECALLPARAMS** is not available, or the call bearer mode cannot be changed to the specified bearer mode.
 
 
 </dt> </dl> </dd> <dt>
@@ -607,7 +607,7 @@ The specified call, device, line device, or line handle is invalid.
 
 
 
-The device configuration may not be changed in the current line state. The line may be in use by another application or a *dwLineStates* parameter contains one or more bits that are not [LINEDEVSTATE\_ constants](linedevstate--constants.md). The **LINEERR\_INVALLINESTATE** value can also indicate that the device is disconnected or out of service. These states are indicated by setting the bits corresponding to the *LINEDEVSTATUSFLAGS\_CONNECTED* and *LINEDEVSTATUSFLAGS\_INSERVICE* values to 0 in the **dwDevStatusFlags** member of the [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag) structure returned by the [**lineGetLineDevStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetlinedevstatus) function.
+The device configuration may not be changed in the current line state. The line may be in use by another application or a *dwLineStates* parameter contains one or more bits that are not [LINEDEVSTATE\_ constants](linedevstate--constants.md). The **LINEERR\_INVALLINESTATE** value can also indicate that the device is disconnected or out of service. These states are indicated by setting the bits corresponding to the *LINEDEVSTATUSFLAGS\_CONNECTED* and *LINEDEVSTATUSFLAGS\_INSERVICE* values to 0 in the **dwDevStatusFlags** member of the [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) structure returned by the [**lineGetLineDevStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetlinedevstatus) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -637,7 +637,7 @@ The specified media list is invalid.
 
 
 
-The list of media types (modes) to be monitored contains invalid information, the specified media type parameter is invalid, or the service provider does not support the specified media type. The media types supported on the line are listed in the **dwMediaModes** member in the [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps_tag) structure.
+The list of media types (modes) to be monitored contains invalid information, the specified media type parameter is invalid, or the service provider does not support the specified media type. The media types supported on the line are listed in the **dwMediaModes** member in the [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -647,7 +647,7 @@ The list of media types (modes) to be monitored contains invalid information, th
 
 
 
-The number given in *dwMessageID* is outside the range specified by the **dwNumCompletionMessages** member in the [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag) structure.
+The number given in *dwMessageID* is outside the range specified by the **dwNumCompletionMessages** member in the [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -767,7 +767,7 @@ The specified terminal modes parameter is invalid.
 
 
 
-Timeouts are not supported or a value falls outside the valid range specified in [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps_tag).
+Timeouts are not supported or a value falls outside the valid range specified in [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps).
 
 
 </dt> </dl> </dd> <dt>
@@ -1037,7 +1037,7 @@ The user cancelled the call. This value is exposed only to applications that neg
 
 
 
-The string containing user-user information exceeds the maximum number of bytes specified in the **dwUUIAcceptSize**, **dwUUIAnswerSize**, **dwUUIDropSize**, **dwUUIMakeCallSize**, or **dwUUISendUserUserInfoSize** member of [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps_tag), or the string containing user-user information is too long.
+The string containing user-user information exceeds the maximum number of bytes specified in the **dwUUIAcceptSize**, **dwUUIAnswerSize**, **dwUUIDropSize**, **dwUUIMakeCallSize**, or **dwUUISendUserUserInfoSize** member of [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps), or the string containing user-user information is too long.
 
 
 </dt> </dl> </dd> </dl>
@@ -1065,13 +1065,13 @@ When invoking the LINEERR\_constants which are new with TAPI 3.0, the Tapierr.mc
 
 <dl> <dt>
 
-[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag)
+[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps)
 </dt> <dt>
 
-[**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps_tag)
+[**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps)
 </dt> <dt>
 
-[**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus_tag)
+[**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus)
 </dt> <dt>
 
 [**lineGetLineDevStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetlinedevstatus)

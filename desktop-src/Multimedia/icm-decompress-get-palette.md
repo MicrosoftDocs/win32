@@ -53,7 +53,7 @@ Returns ICERR\_OK if successful or an error otherwise.
 
 ## Remarks
 
-If *lpbiOutput* is nonzero, the driver sets the **biClrUsed** member of [**BITMAPINFOHEADER**](https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)) to the number of colors in the color table. The driver fills the **bmiColors** member of [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) with the actual colors.
+If *lpbiOutput* is nonzero, the driver sets the **biClrUsed** member of [**BITMAPINFOHEADER**](https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)) to the number of colors in the color table. The driver fills the **bmiColors** member of [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) with the actual colors.
 
 The driver should support this message only if it uses a palette other than the one specified in the input format.
 

@@ -86,7 +86,7 @@ This function is deprecated for any use other than <em>nIndex</em> set to GCW_AT
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga"><strong>SetClassLong</strong></a></td>
-<td>Replaces the specified 32-bit (<strong>long</strong>) value at the specified offset into the extra class memory or the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa"><strong>WNDCLASSEX</strong></a> structure for the class to which the specified window belongs.
+<td>Replaces the specified 32-bit (<strong>long</strong>) value at the specified offset into the extra class memory or the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>WNDCLASSEX</strong></a> structure for the class to which the specified window belongs.
 <blockquote>
 [!Note]<br />
 This function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <strong>SetClassLongPtr</strong>.

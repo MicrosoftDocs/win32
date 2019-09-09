@@ -20,7 +20,7 @@ api_location:
 
 # CImageDisplay.CheckHeaderValidity method
 
-The `CheckHeaderValidity` method validates a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.
+The `CheckHeaderValidity` method validates a [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ BOOL CheckHeaderValidity(
 *pInput* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure containing the **BITMAPINFOHEADER** structure.
+Pointer to a [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure containing the **BITMAPINFOHEADER** structure.
 
 </dd> </dl>
 

@@ -46,7 +46,7 @@ Call hubs are tracked at the service provider level. Call by call changes are no
 
 No extensibility. All 32 bits are reserved.
 
-When changes occur in this data structure, a [**LINE\_CALLINFO**](line-callinfo.md) message is sent to the application. The parameters to this message are a handle to the call and an indication of the information item that has changed. The [**LINECALLHUBTRACKINGINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallhubtrackinginfo_tag) data structure indicates which tracking type is provided.
+When changes occur in this data structure, a [**LINE\_CALLINFO**](line-callinfo.md) message is sent to the application. The parameters to this message are a handle to the call and an indication of the information item that has changed. The [**LINECALLHUBTRACKINGINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallhubtrackinginfo) data structure indicates which tracking type is provided.
 
 ## Requirements
 
@@ -66,10 +66,10 @@ When changes occur in this data structure, a [**LINE\_CALLINFO**](line-callinfo.
 [**LINE\_CALLINFO**](line-callinfo.md)
 </dt> <dt>
 
-[**LINECALLHUBTRACKINGINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallhubtrackinginfo_tag)
+[**LINECALLHUBTRACKINGINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallhubtrackinginfo)
 </dt> <dt>
 
-[**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag)
+[**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo)
 </dt> </dl>
 
  

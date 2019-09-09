@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Character clusters are glyph sequences that cannot be split between lines. Some languages, for example Thai and Indic, restrict caret placement to points between clusters. This restriction applies to caret movement initiated with keyboard or mouse actions (hit testing).
 
-Uniscribe provides cluster information in both the visual attributes contained in a [**SCRIPT\_VISATTR**](/windows/desktop/api/Usp10/ns-usp10-tag_script_visattr) structure, and the logical attributes contained in a [**SCRIPT\_LOGATTR**](/windows/desktop/api/Usp10/ns-usp10-tag_script_logattr) structure. After the application calls [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape), the cluster information is represented both by sequences of the same value in the **SCRIPT\_LOGATTR** array, and by the **fClusterStart** member in the **SCRIPT\_VISATTR** array.
+Uniscribe provides cluster information in both the visual attributes contained in a [**SCRIPT\_VISATTR**](/windows/win32/api/usp10/ns-usp10-script_visattr) structure, and the logical attributes contained in a [**SCRIPT\_LOGATTR**](/windows/win32/api/usp10/ns-usp10-script_logattr) structure. After the application calls [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape), the cluster information is represented both by sequences of the same value in the **SCRIPT\_LOGATTR** array, and by the **fClusterStart** member in the **SCRIPT\_VISATTR** array.
 
-[**ScriptBreak**](/windows/desktop/api/Usp10/nf-usp10-scriptbreak) also retrieves the **fCharStop** member of the [**SCRIPT\_LOGATTR**](/windows/desktop/api/Usp10/ns-usp10-tag_script_logattr) structure to identify cluster positions.
+[**ScriptBreak**](/windows/desktop/api/Usp10/nf-usp10-scriptbreak) also retrieves the **fCharStop** member of the [**SCRIPT\_LOGATTR**](/windows/win32/api/usp10/ns-usp10-script_logattr) structure to identify cluster positions.
 
 ## Related topics
 

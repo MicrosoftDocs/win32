@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**MCGRIDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagmcgridinfo)
+-   [**MCGRIDINFO**](/windows/win32/api/commctrl/ns-commctrl-mcgridinfo)
 -   [**MCHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-mchittestinfo)
--   [**NMDAYSTATE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdaystate)
--   [**NMTRBTHUMBPOSCHANGING**](/windows/desktop/api/Commctrl/ns-commctrl-tagtrbthumbposchanging)
--   [**NMSELCHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmselchange)
--   [**NMVIEWCHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmviewchange)
+-   [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate)
+-   [**NMTRBTHUMBPOSCHANGING**](/windows/win32/api/commctrl/ns-commctrl-nmtrbthumbposchanging)
+-   [**NMSELCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmselchange)
+-   [**NMVIEWCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmviewchange)
 
  
 

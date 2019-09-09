@@ -16,7 +16,7 @@ Reference documentation for data types defined by the Windows Animation Manager.
 
 | Topic                                                               | Description                                                                        |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [**UI\_ANIMATION\_KEYFRAME**](/windows/desktop/api/UIAnimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003)<br/> | Defines a keyframe, which represents a time offset within a storyboard.<br/> |
+| [**UI\_ANIMATION\_KEYFRAME**](/windows/win32/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003)<br/> | Defines a keyframe, which represents a time offset within a storyboard.<br/> |
 | [**UI\_ANIMATION\_SECONDS**](ui-animation-seconds.md)<br/>   | The unit of time used for all animations.<br/>                               |
 
 

@@ -168,7 +168,7 @@ If the **Type** member specifies PRINTER\_NOTIFY\_TYPE, the **Field** member can
 </tr>
 <tr class="even">
 <td>PRINTER_NOTIFY_FIELD_DEVMODE</td>
-<td><strong>pBuf</strong> is a pointer to a <a href="/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea"><strong>DEVMODE</strong></a> structure that defines default printer data such as the paper orientation and the resolution.</td>
+<td><strong>pBuf</strong> is a pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea"><strong>DEVMODE</strong></a> structure that defines default printer data such as the paper orientation and the resolution.</td>
 <td>0x07</td>
 </tr>
 <tr class="odd">
@@ -297,7 +297,7 @@ If the **Type** member specifies JOB\_NOTIFY\_TYPE, the **Field** member can be 
 | JOB\_NOTIFY\_FIELD\_PRINT\_PROCESSOR     | **pBuf** is a pointer to a null-terminated string that specifies the name of the print processor to be used to print the job.                                                                                                                           | 0x06  |
 | JOB\_NOTIFY\_FIELD\_PARAMETERS           | **pBuf** is a pointer to a null-terminated string that specifies print-processor parameters.                                                                                                                                                            | 0x07  |
 | JOB\_NOTIFY\_FIELD\_DRIVER\_NAME         | **pBuf** is a pointer to a null-terminated string that specifies the name of the printer driver that should be used to process the print job.                                                                                                           | 0x08  |
-| JOB\_NOTIFY\_FIELD\_DEVMODE              | **pBuf** is a pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that contains device-initialization and environment data for the printer driver.                                                                                                        | 0x09  |
+| JOB\_NOTIFY\_FIELD\_DEVMODE              | **pBuf** is a pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that contains device-initialization and environment data for the printer driver.                                                                                                        | 0x09  |
 | JOB\_NOTIFY\_FIELD\_STATUS               | **adwData** \[0\] specifies the job status. For a list of possible values, see the [**JOB\_INFO\_2**](job-info-2.md) structure.                                                                                                                        | 0x0A  |
 | JOB\_NOTIFY\_FIELD\_STATUS\_STRING       | **pBuf** is a pointer to a null-terminated string that specifies the status of the print job.                                                                                                                                                           | 0x0B  |
 | JOB\_NOTIFY\_FIELD\_SECURITY\_DESCRIPTOR | Not supported.                                                                                                                                                                                                                                          | 0x0C  |
@@ -339,7 +339,7 @@ If the **Type** member specifies JOB\_NOTIFY\_TYPE, the **Field** member can be 
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea)
+[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)
 </dt> <dt>
 
 [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md)

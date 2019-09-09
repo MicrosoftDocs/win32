@@ -38,7 +38,7 @@ LVN_ODFINDITEM
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVFINDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema) structure that includes information to be used for the search.
+Pointer to an [**NMLVFINDITEM**](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema) structure that includes information to be used for the search.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ Return the index of the item found, or -1 if no item is found.
 
 ## Remarks
 
-Search information is sent in the form of an [**LVFINDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfindinfoa) structure, which is a member of the [**NMLVFINDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema) structure.
+Search information is sent in the form of an [**LVFINDINFO**](/windows/win32/api/commctrl/ns-commctrl-lvfindinfoa) structure, which is a member of the [**NMLVFINDITEM**](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema) structure.
 
 ## Requirements
 

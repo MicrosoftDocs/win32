@@ -30,7 +30,7 @@ Determines the location of the specified point relative to the client area of a 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TVHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvhittestinfo) structure. When the message is sent, the **pt** member specifies the coordinates of the point to test. When the message returns, the **hItem** member is the handle to the item at the specified point or **NULL** if no item occupies the point. Also, when the message returns, the **flags** member is a hit test value that indicates the location of the specified point. For a list of hit test values, see the description of the **TVHITTESTINFO** structure.
+Pointer to a [**TVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-tvhittestinfo) structure. When the message is sent, the **pt** member specifies the coordinates of the point to test. When the message returns, the **hItem** member is the handle to the item at the specified point or **NULL** if no item occupies the point. Also, when the message returns, the **flags** member is a hit test value that indicates the location of the specified point. For a list of hit test values, see the description of the **TVHITTESTINFO** structure.
 
 </dd> </dl>
 

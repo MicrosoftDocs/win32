@@ -41,7 +41,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**MENUGETOBJECTINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenugetobjectinfo) structure.
+A pointer to a [**MENUGETOBJECTINFO**](/windows/win32/api/winuser/ns-winuser-menugetobjectinfo) structure.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ The application should return one of the following values.
 
 | Return code/value                                                                                                                                                | Description                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**MNGO\_NOERROR**</dt> <dt>0x00000001</dt> </dl>     | An interface pointer was returned in the **pvObj** member of [**MENUGETOBJECTINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenugetobjectinfo)<br/> |
+| <dl> <dt>**MNGO\_NOERROR**</dt> <dt>0x00000001</dt> </dl>     | An interface pointer was returned in the **pvObj** member of [**MENUGETOBJECTINFO**](/windows/win32/api/winuser/ns-winuser-menugetobjectinfo)<br/> |
 | <dl> <dt>**MNGO\_NOINTERFACE**</dt> <dt>0x00000000</dt> </dl> | The interface is not supported.<br/>                                                                             |
 
 

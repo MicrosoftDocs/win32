@@ -20,7 +20,7 @@ api_location:
 
 # CImageDisplay.CheckBitFields method
 
-The `CheckBitFields` method validates the color masks in a [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure.
+The `CheckBitFields` method validates the color masks in a [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure.
 
 ## Syntax
 

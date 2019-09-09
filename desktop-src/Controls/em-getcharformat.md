@@ -45,15 +45,15 @@ Specifies the range of text from which to retrieve formatting. It can be one of 
 *lParam* 
 </dt> <dd>
 
-A [**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat) structure that receives the attributes of the first character. The **dwMask** member specifies which attributes are consistent throughout the entire selection. For example, if the entire selection is either in italics or not in italics, CFM\_ITALIC is set; if the selection is partly in italics and partly not, CFM\_ITALIC is not set.
+A [**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata) structure that receives the attributes of the first character. The **dwMask** member specifies which attributes are consistent throughout the entire selection. For example, if the entire selection is either in italics or not in italics, CFM\_ITALIC is set; if the selection is partly in italics and partly not, CFM\_ITALIC is not set.
 
-Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a) structure, which is an extension of the [**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat) structure. Before sending the **EM\_GETCHARFORMAT** message, set the structure's **cbSize** member to indicate the version of the structure.
+Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a) structure, which is an extension of the [**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata) structure. Before sending the **EM\_GETCHARFORMAT** message, set the structure's **cbSize** member to indicate the version of the structure.
 
 </dd> </dl>
 
 ## Return value
 
-This message returns the value of the **dwMask** member of the [**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat) structure.
+This message returns the value of the **dwMask** member of the [**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata) structure.
 
 ## Requirements
 
@@ -74,7 +74,7 @@ This message returns the value of the **dwMask** member of the [**CHARFORMAT**](
 **Reference**
 </dt> <dt>
 
-[**CHARFORMAT**](/windows/desktop/api/Richedit/ns-richedit-_charformat)
+[**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata)
 </dt> <dt>
 
 [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a)

@@ -14,7 +14,7 @@ The Peer Identity Manager API uses the following structure:
 
 | Structure                                  | Description                                                                   |
 |--------------------------------------------|-------------------------------------------------------------------------------|
-| [**PEER\_NAME\_PAIR**](/windows/desktop/api/P2P/ns-p2p-peer_name_pair_tag) | Contains the results of a call to [**PeerGetNextItem**](/windows/desktop/api/P2P/nf-p2p-peergetnextitem). |
+| [**PEER\_NAME\_PAIR**](/windows/desktop/api/P2P/ns-p2p-peer_name_pair) | Contains the results of a call to [**PeerGetNextItem**](/windows/desktop/api/P2P/nf-p2p-peergetnextitem). |
 
 
 

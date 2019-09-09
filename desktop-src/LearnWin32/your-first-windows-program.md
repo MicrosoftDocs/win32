@@ -8,7 +8,9 @@ ms.date: 05/31/2018
 
 # Module 1. Your First Windows Program
 
-In this module, we will write a minimal Windows program. All it does is create and show a blank window. This first program contains about 50 lines of code, not counting blank lines and comments. It will be our starting point; later we'll add graphics, text, user input, and other features.
+In this module, we will write a minimal Windows desktop program. All it does is create and show a blank window. This first program contains about 50 lines of code, not counting blank lines and comments. It will be our starting point; later we'll add graphics, text, user input, and other features.
+
+If you are looking for more details on how to create a traditional Windows desktop application in Visual Studio, check out  [Walkthrough: Create a traditional Windows Desktop application (C++)](https://docs.microsoft.com/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=vs-2019).
 
 ![screen shot of the example program](images/window01.png)
 

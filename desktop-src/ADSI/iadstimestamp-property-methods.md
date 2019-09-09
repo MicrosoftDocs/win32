@@ -110,7 +110,7 @@ HRESULT put_WholeSeconds(
 [**IADsTimestamp**](/windows/desktop/api/Iads/nn-iads-iadstimestamp)
 </dt> <dt>
 
-[**ADS\_TIMESTAMP**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0007)
+[**ADS\_TIMESTAMP**](/windows/win32/api/iads/ns-iads-ads_timestamp)
 </dt> </dl>
 
  

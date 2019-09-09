@@ -49,7 +49,7 @@ Pointer to the supplied [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/libr
 *pmt* 
 </dt> <dd>
 
-Pointer to the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure to initialize.
+Pointer to the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure to initialize.
 
 </dd> <dt>
 

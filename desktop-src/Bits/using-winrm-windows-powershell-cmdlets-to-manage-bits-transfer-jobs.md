@@ -44,7 +44,7 @@ The following examples require the [BITS provider](https://go.microsoft.com/fwli
 
     
 
-    The [Set-WsmanInstance](https://go.microsoft.com/fwlink/p/?linkid=155390) cmdlet changes the new BITS transfer job priority to 0 (**BG\_JOB\_PRIORITY\_FOREGROUND**). For more information about the priority levels, see the [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001) enumeration.
+    The [Set-WsmanInstance](https://go.microsoft.com/fwlink/p/?linkid=155390) cmdlet changes the new BITS transfer job priority to 0 (**BG\_JOB\_PRIORITY\_FOREGROUND**). For more information about the priority levels, see the [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-bg_job_priority) enumeration.
 
 3.  Resume the BITS transfer job.
 
@@ -102,7 +102,7 @@ The following examples require the [BITS provider](https://go.microsoft.com/fwli
     -   If $result.State is 5 (**BG\_JOB\_STATE\_TRANSIENT\_ERROR**), the [Invoke-WsmanAction](https://go.microsoft.com/fwlink/p/?linkid=155388) cmdlet calls the [SetJobState](https://go.microsoft.com/fwlink/p/?linkid=162153) method and cancels the job.
     -   If $result.State is 6 (**BG\_JOB\_STATE\_TRANSFERRED**), the [Invoke-WsmanAction](https://go.microsoft.com/fwlink/p/?linkid=155388) cmdlet calls the [SetJobState](https://go.microsoft.com/fwlink/p/?linkid=162153) method and sets the state to complete.
 
-    For more information about job states, see the [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002) enumeration.
+    For more information about job states, see the [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-bg_job_state) enumeration.
 
 ## Related topics
 

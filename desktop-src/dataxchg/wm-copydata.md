@@ -41,7 +41,7 @@ A handle to the window passing the data.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**COPYDATASTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcopydatastruct) structure that contains the data to be passed.
+A pointer to a [**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-winuser-copydatastruct) structure that contains the data to be passed.
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ For an example, see [Using Data Copy](using-data-copy.md).
 [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
-[**COPYDATASTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcopydatastruct)
+[**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-winuser-copydatastruct)
 </dt> </dl>
 
  

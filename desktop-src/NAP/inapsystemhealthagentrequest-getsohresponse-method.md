@@ -46,7 +46,7 @@ HRESULT GetSoHResponse(
 *sohResponse* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet.
+A pointer to a pointer to a [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) packet.
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ A pointer to a flag that enables fix-up by the SHA if the [**shaFixup**](nap-typ
 
 | Possible Values                                                                                                                                                          | Meaning                                                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="shaFixup"></span><span id="shafixup"></span><span id="SHAFIXUP"></span><dl> <dt>**shaFixup**</dt> </dl> | The SHA is expected to perform the fixup based on the response. If this flag is not set, the SHA should not perform a fix-up even though the [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) indicates that it is unhealthy.<br/> |
+| <span id="shaFixup"></span><span id="shafixup"></span><span id="SHAFIXUP"></span><dl> <dt>**shaFixup**</dt> </dl> | The SHA is expected to perform the fixup based on the response. If this flag is not set, the SHA should not perform a fix-up even though the [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) indicates that it is unhealthy.<br/> |
 
 
 

@@ -84,7 +84,7 @@ A *keyboard accelerator* (or, simply, accelerator) is a keystroke or combination
 
 | Name                   | Description                                                          |
 |------------------------|----------------------------------------------------------------------|
-| [**ACCEL**](/windows/desktop/api/Winuser/ns-winuser-tagaccel) | Defines an accelerator key used in an accelerator table. <br/> |
+| [**ACCEL**](/windows/win32/api/winuser/ns-winuser-accel) | Defines an accelerator key used in an accelerator table. <br/> |
 
 
 

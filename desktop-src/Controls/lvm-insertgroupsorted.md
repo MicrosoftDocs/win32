@@ -25,7 +25,7 @@ Inserts a group into an ordered list of groups.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvinsertgroupsorted">LVINSERTGROUPSORTED</a> structure that contains the group to insert.</dd> <dt>
+</dt> <dd>Pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED</a> structure that contains the group to insert.</dd> <dt>
 
 *lParam* 
 </dt> <dd>Must be **NULL**.</dd> </dl>
@@ -36,7 +36,7 @@ The return value is not used.
 
 ## Remarks
 
-The ordering of the list is based on the ID of the group. The order is defined by the application-defined ordering function, [**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx), that is passed in the [**LVINSERTGROUPSORTED**](/windows/desktop/api/Commctrl/ns-commctrl-taglvinsertgroupsorted) structure by the *wParam* parameter.
+The ordering of the list is based on the ID of the group. The order is defined by the application-defined ordering function, [**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx), that is passed in the [**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted) structure by the *wParam* parameter.
 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
@@ -65,7 +65,7 @@ The ordering of the list is based on the ID of the group. The order is defined b
 [**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx)
 </dt> <dt>
 
-[**LVINSERTGROUPSORTED**](/windows/desktop/api/Commctrl/ns-commctrl-taglvinsertgroupsorted)
+[**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted)
 </dt> </dl>
 
  

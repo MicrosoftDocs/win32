@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A media type describes the format associated with a stream of media data. This article describes how DMOs handle media types. It is primarily intended for developers who are writing their own custom DMOs.
 
-Media types are defined using the [**DMO\_MEDIA\_TYPE**](/windows/desktop/api/Mediaobj/ns-mediaobj-_dmomediatype) structure. This structure includes the following information:
+Media types are defined using the [**DMO\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) structure. This structure includes the following information:
 
 -   The *major type* is a globally unique identifier (GUID) that defines a broad category, such as audio or video.
 -   The *subtype* is a GUID that defines more specific aspects of the type. For example, within video, the subtypes include 16-bit RGB, 24-bit RGB, UYVY, DV-encoded video, and so forth.

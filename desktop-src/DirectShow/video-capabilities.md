@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Video Capabilities
 
-The [**IAMStreamConfig::GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method presents video capabilities in an array of pairs of [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) and [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structures. You can use this to expose all the formats and resolutions supported on a pin as discussed below.
+The [**IAMStreamConfig::GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method presents video capabilities in an array of pairs of [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) and [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structures. You can use this to expose all the formats and resolutions supported on a pin as discussed below.
 
 For audio-related examples of **GetStreamCaps**, see [Audio Capabilities](audio-capabilities.md).
 
@@ -35,7 +35,7 @@ To put it another way, and listing more resolutions, the following are all among
 
 Use **GetStreamCaps** to expose these color format and dimension capabilities by offering a media type of 320 x 240 JPEG (if that is your default or preferred size) coupled with minimum capabilities of 160 x 120, maximum capabilities of 320 x 240, and a granularity of 1. The next pair you expose by using **GetStreamCaps** is a media type of 640 x 480 JPEG coupled with a minimum of 640 x 480 and a maximum of 640 x 480 and a granularity of 0. The third pair includes a media type of 320 x 240, 24-bit RGB with minimum capabilities of 160 x 120, maximum capabilities of 320 x 240, and a granularity of 8. In this way you can publish almost every format and capability your card might support. An application that must know what compression formats you provide can get all the pairs and make a list of all the unique subtypes of the media types.
 
-A filter obtains its media type source and target rectangles from the [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure's **rcSource** and **rcTarget** members, respectively. Filters do not have to support source and target rectangles.
+A filter obtains its media type source and target rectangles from the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure's **rcSource** and **rcTarget** members, respectively. Filters do not have to support source and target rectangles.
 
 The cropping rectangle described throughout the [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) documentation is the same as the **VIDEOINFOHEADER** structure's **rcSource** rectangle for the output pin.
 

@@ -28,7 +28,7 @@ This section contains information about the programming elements used for perfor
 
 | Topic                                | Contents                                                                                              |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw.md) notification code.<br/> |
+| [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw.md) notification code.<br/> |
 
 
 

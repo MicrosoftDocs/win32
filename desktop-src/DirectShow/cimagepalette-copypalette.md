@@ -20,7 +20,7 @@ api_location:
 
 # CImagePalette.CopyPalette method
 
-The `CopyPalette` method copies the palette from any [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) structure to any palettized **VIDEOINFO** structure.
+The `CopyPalette` method copies the palette from any [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) structure to any palettized **VIDEOINFO** structure.
 
 ## Syntax
 
@@ -58,7 +58,7 @@ Returns S\_OK if the palette was copied. Returns S\_FALSE if either the source o
 
 ## Remarks
 
-The *pDest* media type must be a palettized format with a color depth of 8 bits or less. The *pSrc* media type can be any [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) type with a palette, including YUV and true-color formats with palette entries. The method copies the palette entries from *pSrc* into a new palette, and attaches the new palette to *pDest*.
+The *pDest* media type must be a palettized format with a color depth of 8 bits or less. The *pSrc* media type can be any [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) type with a palette, including YUV and true-color formats with palette entries. The method copies the palette entries from *pSrc* into a new palette, and attaches the new palette to *pDest*.
 
 ## Requirements
 

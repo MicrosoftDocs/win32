@@ -19,7 +19,7 @@ api_location:
 
 \[This function is not supported and might be disabled or deleted in future versions of Windows. [**PTConvertDevModeToPrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertdevmodetoprintticket) provides equivalent functionality and should be used instead.\]
 
-Converts a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure to a print ticket.
+Converts a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure to a print ticket.
 
 ## Syntax
 
@@ -51,14 +51,14 @@ A handle to an open print ticket provider. This handle is returned by the [**Bin
 *pDevmode* \[in\]
 </dt> <dd>
 
-A pointer to the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) to convert.
+A pointer to the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) to convert.
 
 </dd> <dt>
 
 *cbSize* \[in\]
 </dt> <dd>
 
-The size, in bytes, of the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) passed in *pDevmode*.
+The size, in bytes, of the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) passed in *pDevmode*.
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ A value that specifies the scope of *ppPrintTicket*. This value can specify a si
 *ppPrintTicket* \[out\]
 </dt> <dd>
 
-The address of the buffer that contains a print ticket that represents the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) passed in *pDevmode*. This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+The address of the buffer that contains a print ticket that represents the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) passed in *pDevmode*. This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 

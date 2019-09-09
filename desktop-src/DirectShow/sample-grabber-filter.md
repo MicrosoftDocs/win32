@@ -54,7 +54,7 @@ If you call [**ISampleGrabber::SetBufferSamples**](isamplegrabber-setbuffersampl
 The filter has the following limitations for video formats:
 
 -   It does not support video types with top-down orientation (negative **biHeight**).
--   It does not support the [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) format structure (format type equal to **FORMAT\_VideoInfo2**).
+-   It does not support the [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) format structure (format type equal to **FORMAT\_VideoInfo2**).
 -   It rejects any video type where the surface stride does not match the video width.
 
 As a result, the Sample Grabber will not connect to the Video Mixing Renderer (VMR) for some video types.

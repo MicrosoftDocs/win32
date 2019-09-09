@@ -18,8 +18,8 @@ The EAPHost Peer Method API enumerations are as follows.
 | Enumeration                                                        | Description                                                                                                                |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**EapCredentialType**](/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential)                         | Defines the EAP credential types and the appropriate credentials.                                                          |
-| [**EapPeerMethodResponseAction**](/previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction) | Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.     |
-| [**EapPeerMethodResultReason**](/previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresultreason)     | Defines the set of results of an EAP authentication session returned by an EAP authenticator method to an EAP peer method. |
+| [**EapPeerMethodResponseAction**](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) | Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.     |
+| [**EapPeerMethodResultReason**](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresultreason)     | Defines the set of results of an EAP authentication session returned by an EAP authenticator method to an EAP peer method. |
 
 
 

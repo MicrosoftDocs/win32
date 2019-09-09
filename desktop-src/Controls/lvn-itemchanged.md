@@ -36,7 +36,7 @@ LVN_ITEMCHANGED
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure that identifies the item and specifies which of its attributes have changed. If the **iItem** member of the structure pointed to by *lParam* is -1, the change has been applied to all items in the list view.
+Pointer to an [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure that identifies the item and specifies which of its attributes have changed. If the **iItem** member of the structure pointed to by *lParam* is -1, the change has been applied to all items in the list view.
 
 </dd> </dl>
 

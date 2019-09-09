@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Browsing Counters
 
-To display a dialog box that lists the performance objects and counters defined on the computer, call the [**PdhBrowseCounters**](/windows/desktop/api/Pdh/nf-pdh-pdhbrowsecountersa) function. The dialog box lets the user browse and select performance counters. You use the [**PDH\_BROWSE\_DLG\_CONFIG**](/windows/desktop/api/Pdh/ns-pdh-_browsedlgconfig_a) structure to specify the configuration of the dialog box. For example, you can configure the dialog to return one selection or multiple selections.
+To display a dialog box that lists the performance objects and counters defined on the computer, call the [**PdhBrowseCounters**](/windows/desktop/api/Pdh/nf-pdh-pdhbrowsecountersa) function. The dialog box lets the user browse and select performance counters. You use the [**PDH\_BROWSE\_DLG\_CONFIG**](/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a) structure to specify the configuration of the dialog box. For example, you can configure the dialog to return one selection or multiple selections.
 
 On input, the **szReturnPathBuffer** member contains the default performance object and counter that is selected in the dialog box. On output, the buffer contains the performance object and counter that the user selected. You can also use the **pCallBack** member to specify a callback function to process the counter names returned by the dialog box.
 

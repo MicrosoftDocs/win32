@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 -   [*CCHookProc*](https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx)
 -   [*CFHookProc*](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
 -   [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx)
--   [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
+-   [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 -   [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror)
 -   [**FindText**](/windows/desktop/api/Commdlg/nf-commdlg-findtexta)
 -   [*FRHookProc*](https://msdn.microsoft.com/en-us/library/ms646922(v=VS.85).aspx)

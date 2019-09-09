@@ -32,7 +32,7 @@ Tests a point to determine whether it is within the bounding rectangle of the sp
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TTHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_tt_hittestinfoa) structure. When sending the message, the **hwnd** member must specify the handle to a tool and the **pt** member must specify the coordinates of a point. If the return value is **TRUE**, the **ti** member (a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure) receives information about the tool that occupies the point. The **cbSize** member of the **ti** structure must be filled in before sending this message.
+Pointer to a [**TTHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-tthittestinfoa) structure. When sending the message, the **hwnd** member must specify the handle to a tool and the **pt** member must specify the coordinates of a point. If the return value is **TRUE**, the **ti** member (a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure) receives information about the tool that occupies the point. The **cbSize** member of the **ti** structure must be filled in before sending this message.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns **TRUE** if the tool occupies the specified point, or **FALSE** otherwis
 
 ## Remarks
 
-This message must be sent when the tool has the TTF\_TRACK flag set. For more information on this flag, see [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa). TTM\_HITTEST will fail if TTF\_TRACK is not set, regardless if the hit point is in the tools rectangle or not.
+This message must be sent when the tool has the TTF\_TRACK flag set. For more information on this flag, see [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa). TTM\_HITTEST will fail if TTF\_TRACK is not set, regardless if the hit point is in the tools rectangle or not.
 
 ## Requirements
 

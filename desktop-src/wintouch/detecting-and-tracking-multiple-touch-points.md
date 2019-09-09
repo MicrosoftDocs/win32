@@ -180,9 +180,9 @@ case WM_TOUCH:
 
  
 
-Now when a user touches the screen, the positions that he or she is touching will be stored in the points array. The **dwID** member of the [**TOUCHINPUT**](/windows/desktop/api/winuser/ns-winuser-tagtouchinput) structure stores an identifier that will be hardware dependent.
+Now when a user touches the screen, the positions that he or she is touching will be stored in the points array. The **dwID** member of the [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput) structure stores an identifier that will be hardware dependent.
 
-To address the issue of the dwID member being dependent on hardware, the [**WM\_TOUCH**](wm-touchdown.md) case handler uses a function, **GetContactIndex**, that maps the **dwID** member of the [**TOUCHINPUT**](/windows/desktop/api/winuser/ns-winuser-tagtouchinput) structure to a point that is drawn on the screen. The following code shows an implementation of this function.
+To address the issue of the dwID member being dependent on hardware, the [**WM\_TOUCH**](wm-touchdown.md) case handler uses a function, **GetContactIndex**, that maps the **dwID** member of the [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput) structure to a point that is drawn on the screen. The following code shows an implementation of this function.
 
 
 ```C++

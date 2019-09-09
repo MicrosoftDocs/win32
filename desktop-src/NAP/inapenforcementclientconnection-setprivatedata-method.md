@@ -45,7 +45,7 @@ HRESULT SetPrivateData(
 *privateData* \[in\]
 </dt> <dd>
 
-A pointer to a [**PrivateData**](/windows/desktop/api/NapTypes/ns-naptypes-tagprivatedata) data blob that only the NapAgent can interpret.
+A pointer to a [**PrivateData**](/windows/win32/api/naptypes/ns-naptypes-privatedata) data blob that only the NapAgent can interpret.
 
 </dd> </dl>
 

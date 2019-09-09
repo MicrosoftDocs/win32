@@ -18,7 +18,7 @@ topic_type:
 
 # SMC\_NEWITEM message
 
-Notifies you of a new item, as specified by the accompanying [**SMDATA**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata) structure.
+Notifies you of a new item, as specified by the accompanying [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) structure.
 
 
 ```C++

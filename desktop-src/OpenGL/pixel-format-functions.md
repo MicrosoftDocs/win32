@@ -19,7 +19,7 @@ The following Windows functions manage pixel formats.
 | [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)                 | Obtains the device context's pixel format that is the closest match to a specified pixel format.                                                                      |
 | [**SetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-setpixelformat)                       | Sets a device context's current pixel format to the pixel format specified by a pixel format index.                                                                   |
 | [**GetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-getpixelformat)                       | Obtains the pixel format index of a device context's current pixel format.                                                                                            |
-| [**DescribePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-describepixelformat)             | Given a device context and a pixel format index, fills in a [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) data structure with the pixel format's properties. |
+| [**DescribePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-describepixelformat)             | Given a device context and a pixel format index, fills in a [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) data structure with the pixel format's properties. |
 | [**GetEnhMetaFilePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilepixelformat) | Retrieves pixel format information for an enhanced metafile.                                                                                                          |
 
 
@@ -38,7 +38,7 @@ The [**DescribePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-describepixe
 
 -   A handle to a device context
 -   A pixel format index
--   A pointer to a [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) data structure
+-   A pointer to a [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) data structure
 
 The [**DescribePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-describepixelformat) function returns with the members of **PIXELFORMATDESCRIPTOR** appropriately set.
 

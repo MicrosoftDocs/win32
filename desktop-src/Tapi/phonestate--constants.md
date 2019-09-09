@@ -17,7 +17,7 @@ The **PHONESTATE\_** bit-flag constants describe various status items for a phon
 
 
 
-Indicates that, due to configuration changes made by the user or other circumstances, one or more of the members in the [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps_tag) structure have changed. The application should use [**phoneGetDevCaps**](/windows/desktop/api/Tapi/nf-tapi-phonegetdevcaps) to read the updated structure. If a service provider sends a [**PHONE\_STATE**](phone-state.md) message containing this value to TAPI, TAPI will pass it along to applications that have negotiated TAPI version 1.4 or later; applications negotiating a previous API version will receive PHONE\_STATE messages specifying PHONESTATE\_REINIT, requiring them to shut down and reinitialize their connection to TAPI to obtain the updated information.
+Indicates that, due to configuration changes made by the user or other circumstances, one or more of the members in the [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps) structure have changed. The application should use [**phoneGetDevCaps**](/windows/desktop/api/Tapi/nf-tapi-phonegetdevcaps) to read the updated structure. If a service provider sends a [**PHONE\_STATE**](phone-state.md) message containing this value to TAPI, TAPI will pass it along to applications that have negotiated TAPI version 1.4 or later; applications negotiating a previous API version will receive PHONE\_STATE messages specifying PHONESTATE\_REINIT, requiring them to shut down and reinitialize their connection to TAPI to obtain the updated information.
 
 
 </dt> </dl> </dd> <dt>
@@ -277,7 +277,7 @@ No extensibility. All 32 bits are reserved.
 [**PHONE\_STATE**](phone-state.md)
 </dt> <dt>
 
-[**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps_tag)
+[**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps)
 </dt> <dt>
 
 [**phoneGetDevCaps**](/windows/desktop/api/Tapi/nf-tapi-phonegetdevcaps)

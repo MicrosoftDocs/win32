@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
  
 
-The **INapSystemHealthValidationRequest::GetSoHResponse** method retrieves the [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh).
+The **INapSystemHealthValidationRequest::GetSoHResponse** method retrieves the [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh).
 
 ## Syntax
 
@@ -45,7 +45,7 @@ HRESULT GetSoHResponse(
 *sohResponse* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to the received [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh).
+A pointer to a pointer to the received [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh).
 
 </dd> </dl>
 

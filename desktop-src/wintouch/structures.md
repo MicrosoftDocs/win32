@@ -18,7 +18,7 @@ The following structures are used for Windows Touch input.
 
 | Structure                        | Description                        |
 |----------------------------------|------------------------------------|
-| [**TOUCHINPUT**](/windows/desktop/api/winuser/ns-winuser-tagtouchinput) | Encapsulates data for touch input. |
+| [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput) | Encapsulates data for touch input. |
 
 
 

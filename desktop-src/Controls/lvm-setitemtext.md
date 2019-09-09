@@ -36,7 +36,7 @@ Zero-based index of the list-view item.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure. The **iSubItem** member is the index of the subitem, or it can be zero to set the item label. The **pszText** member is the address of a null-terminated string containing the new text; it can also be **NULL**. The **pszText** member can also be LPSTR\_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an [**LVN\_GETDISPINFO**](lvn-getdispinfo.md) notification code when it needs the text.
+Pointer to an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure. The **iSubItem** member is the index of the subitem, or it can be zero to set the item label. The **pszText** member is the address of a null-terminated string containing the new text; it can also be **NULL**. The **pszText** member can also be LPSTR\_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an [**LVN\_GETDISPINFO**](lvn-getdispinfo.md) notification code when it needs the text.
 
 </dd> </dl>
 

@@ -32,7 +32,7 @@ Inserts a new item in a ComboBoxEx control.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure that contains information about the item to be inserted. When the message is sent, the **iItem** member must be set to indicate the zero-based index at which to insert the item. To insert an item at the end of the list, set the **iItem** member to -1.
+A pointer to a [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure that contains information about the item to be inserted. When the message is sent, the **iItem** member must be set to indicate the zero-based index at which to insert the item. To insert an item at the end of the list, set the **iItem** member to -1.
 
 </dd> </dl>
 

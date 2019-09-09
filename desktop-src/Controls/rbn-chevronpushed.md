@@ -36,7 +36,7 @@ RBN_CHEVRONPUSHED
 *lParam* 
 </dt> <dd>
 
-Pointer to the band's [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron) structure.
+Pointer to the band's [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) structure.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ The return value for this notification is not used.
 
 ## Remarks
 
-When an application receives this notification code, it is responsible for displaying a popup menu with items for each hidden tool. Use the **rc** member of the [**NMREBARCHEVRON**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron) structure to find the correct position for the popup menu.
+When an application receives this notification code, it is responsible for displaying a popup menu with items for each hidden tool. Use the **rc** member of the [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) structure to find the correct position for the popup menu.
 
 ## Requirements
 

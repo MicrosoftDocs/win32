@@ -17,7 +17,7 @@ The color-index mode specifies colors in a logical palette with an index to a sp
 
 ## Color-Index Mode Palette Sample
 
-The following code sets up a [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) structure that sets the flag of the **iPixelType** member to PFD\_TYPE\_COLORINDEX. This specifies that the application use a color-index palette.
+The following code sets up a [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) structure that sets the flag of the **iPixelType** member to PFD\_TYPE\_COLORINDEX. This specifies that the application use a color-index palette.
 
 
 ```C++

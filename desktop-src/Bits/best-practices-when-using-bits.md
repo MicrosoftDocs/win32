@@ -28,7 +28,7 @@ Unless the job is time critical or the user is actively waiting, you should alwa
 
 Starting with Windows 8, you should configure download jobs with **BITS\_JOB\_PROPERTY\_DYNAMIC\_CONTENT** and **BG\_JOB\_PRIORITY\_FOREGROUND** when targeting servers that do not meet the [HTTP Requirements for BITS Downloads](http-requirements-for-bits-downloads.md). Bear in mind that this will result in BITS having to restart the download from the beginning if it ever gets interrupted (for example, due to connectivity issues or system reboot).
 
-For information on the available priorities and how BITS uses the priority level to schedule jobs, see [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001).
+For information on the available priorities and how BITS uses the priority level to schedule jobs, see [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-bg_job_priority).
 
 ## Transient and fatal errors
 
@@ -36,7 +36,7 @@ Some errors are recoverable and some are not. For example, the error "Server is 
 
 For foreground jobs, you should limit the amount of time you let a job stay in the transient error state and try to recover. Use the [**SetNoProgressTimeout**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout) method to limit the amount of time a job stays in the transient error state or to force the job into the fatal error state. If you let the job try to recover, you should use the [**SetMinimumRetryDelay**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay) method to set the minimum retry delay to 60 seconds or call the [**IBackgroundCopyJob::Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) method to activate the job again.
 
-For more information, see [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002), [Life Cycle of a BITS Job](life-cycle-of-a-bits-job.md), and [Handling Errors](handling-errors.md).
+For more information, see [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-bg_job_state), [Life Cycle of a BITS Job](life-cycle-of-a-bits-job.md), and [Handling Errors](handling-errors.md).
 
 ## Measuring network bandwidth usage
 

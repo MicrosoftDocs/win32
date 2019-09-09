@@ -46,7 +46,7 @@ This is a built-in loudspeaker and microphone. This could also be an externally 
 
 No extensibility. All 32 bits are reserved.
 
-These constants are used in the [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps_tag) data structure to indicate the hookswitch device capabilities of a phone device. The [**PHONESTATUS**](/windows/desktop/api/Tapi/ns-tapi-phonestatus_tag) structure reports the state of the phone's hookswitch devices. The function [**phoneSetHookSwitch**](/windows/desktop/api/Tapi/nf-tapi-phonesethookswitch) and [**phoneGetHookSwitch**](/windows/desktop/api/Tapi/nf-tapi-phonegethookswitch) use it as a parameter to select the phone's I/O device.
+These constants are used in the [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps) data structure to indicate the hookswitch device capabilities of a phone device. The [**PHONESTATUS**](/windows/desktop/api/Tapi/ns-tapi-phonestatus) structure reports the state of the phone's hookswitch devices. The function [**phoneSetHookSwitch**](/windows/desktop/api/Tapi/nf-tapi-phonesethookswitch) and [**phoneGetHookSwitch**](/windows/desktop/api/Tapi/nf-tapi-phonegethookswitch) use it as a parameter to select the phone's I/O device.
 
 ## Requirements
 

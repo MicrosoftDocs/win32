@@ -331,7 +331,7 @@ The following screen shot illustrates another implementation of a cascading menu
 
 ### Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax
 
-Advanced Query Syntax (AQS) can express a condition that will be evaluated using properties from the item that the verb is being instantiated for. This system works only with fast properties. These are properties that the Shell data source reports as fast by not returning [****SHCOLSTATE\_SLOW****](/windows/desktop/api/Shtypes/ne-shtypes-tagshcolstate) from [**IShellFolder2::GetDefaultColumnState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultcolumnstate).
+Advanced Query Syntax (AQS) can express a condition that will be evaluated using properties from the item that the verb is being instantiated for. This system works only with fast properties. These are properties that the Shell data source reports as fast by not returning [****SHCOLSTATE\_SLOW****](/windows/win32/api/shtypes/ne-shtypes-shcolstate) from [**IShellFolder2::GetDefaultColumnState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultcolumnstate).
 
 Windows 7 and later support canonical values that avoid problems on localized builds. The following canonical syntax is required on localized builds to take advantage of this Windows 7 enhancement.
 

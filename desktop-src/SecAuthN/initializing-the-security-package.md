@@ -12,7 +12,7 @@ These steps are necessary before using SSPI:
 
 1.  The initialization function must be called to obtain the address of the security function table.
 
-    The client and server call [**InitSecurityInterface**](/windows/desktop/api/Sspi/nf-sspi-initsecurityinterfacea) for a pointer to a [**SecurityFunctionTable**](/windows/desktop/api/Sspi/ns-sspi-_security_function_table_a) dispatch table. This table contains pointers to callback functions declared in Sspi.h. These pointers provide access to the DLL's implementations of the various SSPI functions.
+    The client and server call [**InitSecurityInterface**](/windows/desktop/api/Sspi/nf-sspi-initsecurityinterfacea) for a pointer to a [**SecurityFunctionTable**](/windows/win32/api/sspi/ns-sspi-securityfunctiontablea) dispatch table. This table contains pointers to callback functions declared in Sspi.h. These pointers provide access to the DLL's implementations of the various SSPI functions.
 
 2.  Information must be obtained about the supported security packages.
 

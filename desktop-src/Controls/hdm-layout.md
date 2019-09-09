@@ -30,7 +30,7 @@ Retrieves information used to set the size and position of the header control wi
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDLAYOUT**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_layout) structure. The **prc** member specifies the coordinates of a rectangle, and the **pwpos** member receives the size and position for the header control within the rectangle.
+A pointer to an [**HDLAYOUT**](/windows/win32/api/commctrl/ns-commctrl-hdlayout) structure. The **prc** member specifies the coordinates of a rectangle, and the **pwpos** member receives the size and position for the header control within the rectangle.
 
 </dd> </dl>
 

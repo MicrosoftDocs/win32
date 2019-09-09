@@ -78,7 +78,7 @@ CredSSP uses the following enumerations.
 
 | Enumeration                                          | Description                                                                                                  |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**CREDSPP\_SUBMIT\_TYPE**](/windows/desktop/api/Credssp/ne-credssp-_credssp_submit_type) | Specifies the type of credentials specified by a [**CREDSSP\_CRED**](/windows/desktop/api/Credssp/ns-credssp-credssp_cred) structure.<br/> |
+| [**CREDSPP\_SUBMIT\_TYPE**](/windows/win32/api/credssp/ne-credssp-credspp_submit_type) | Specifies the type of credentials specified by a [**CREDSSP\_CRED**](/windows/desktop/api/Credssp/ns-credssp-credssp_cred) structure.<br/> |
 
 
 
@@ -92,7 +92,7 @@ Here are the other enumerations used by Authentication.
 
 | Enumeration                                                   | Description                                                                                                                                                                                                                |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDENTITY\_TYPE**](/windows/desktop/api/Identitycommon/ne-identitycommon-_identitytype)                       | Specifies the type of identities to enumerate.<br/>                                                                                                                                                                  |
+| [**IDENTITY\_TYPE**](/windows/win32/api/identitycommon/ne-identitycommon-identity_type)                       | Specifies the type of identities to enumerate.<br/>                                                                                                                                                                  |
 | [**PKU2U\_LOGON\_SUBMIT\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-pku2u_logon_submit_type) | Indicates the type of logon message passed in a [**PKU2U\_CERTIFICATE\_S4U\_LOGON**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-pku2u_certificate_s4u_logon) structure.<br/>                                                                                |
 | [**SECPKG\_ATTR\_LCT\_STATUS**](/windows/desktop/api/Sspi/ne-sspi-secpkg_attr_lct_status)   | Indicates whether the token from the most recent call to the [**InitializeSecurityContext**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) function is the last token from the client.<br/>                               |
 | [**SECPKG\_CRED\_CLASS**](/windows/desktop/api/Sspi/ne-sspi-secpkg_cred_class)              | Indicates the type of credential used in a client context. The [**SECPKG\_CRED\_CLASS**](/windows/desktop/api/Sspi/ne-sspi-secpkg_cred_class) enumeration is used in the [**SecPkgContext\_CredInfo**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_credinfo) structure.<br/> |

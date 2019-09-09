@@ -36,7 +36,7 @@ TBN_BEGINDRAG
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtoolbara) structure. The **iItem** member contains the command identifier of the button being dragged.
+Pointer to an [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commctrl-nmtoolbara) structure. The **iItem** member contains the command identifier of the button being dragged.
 
 </dd> </dl>
 

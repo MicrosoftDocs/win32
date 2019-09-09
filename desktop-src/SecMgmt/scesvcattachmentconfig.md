@@ -36,7 +36,7 @@ SCESTATUS WINAPI SceSvcAttachmentConfig(
 *pSceCbInfo* \[in\]
 </dt> <dd>
 
-Pointer to a [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure that contains the database handle and the callback functions to query, set, and free information.
+Pointer to a [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure that contains the database handle and the callback functions to query, set, and free information.
 
 </dd> </dl>
 
@@ -46,11 +46,11 @@ If this function succeeds, it returns SCESTATUS\_SUCCESS. Otherwise it returns a
 
 ## Remarks
 
-When implementing this function, use the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo) to retrieve configuration information. Then configure the service using the returned information.
+When implementing this function, use the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfQueryInfo) to retrieve configuration information. Then configure the service using the returned information.
 
 This function must do the following:
 
--   Query configuration information from the Security Configuration tool set using the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo).
+-   Query configuration information from the Security Configuration tool set using the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfQueryInfo).
 -   Configure the service using the configuration information.
 
 For more information, see [Implementing SceSvcAttachmentConfig](implementing-scesvcattachmentconfig.md)
@@ -70,7 +70,7 @@ For more information, see [Implementing SceSvcAttachmentConfig](implementing-sce
 
 <dl> <dt>
 
-[**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_)
+[**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info)
 </dt> <dt>
 
 [**SceSvcAttachmentAnalyze**](scesvcattachmentanalyze.md)

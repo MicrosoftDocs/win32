@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CopyHelperAttribute function
 
-The **CopyHelperAttribute** function creates a copy of a [**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute) structure.
+The **CopyHelperAttribute** function creates a copy of a [**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute) structure.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT CopyHelperAttribute(
 *Dest* \[out\]
 </dt> <dd>
 
-Type: **[**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)\***
+Type: **[**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)\***
 
 The structure to be updated.
 
@@ -48,7 +48,7 @@ The structure to be updated.
 *Source* \[in\]
 </dt> <dd>
 
-Type: **const [**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)\***
+Type: **const [**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)\***
 
 The existing structure to be copied.
 
@@ -88,7 +88,7 @@ Possible return values include, but are not limited to, the following.
 
 <dl> <dt>
 
-[**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)
+[**HELPER\_ATTRIBUTE**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)
 </dt> </dl>
 
  

@@ -20,7 +20,7 @@ api_location:
 
 # CImageDisplay.CheckVideoType method
 
-The `CheckVideoType` method checks whether a specified [**VIDEOINFO**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo) format is compatible with the display format.
+The `CheckVideoType` method checks whether a specified [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) format is compatible with the display format.
 
 ## Syntax
 

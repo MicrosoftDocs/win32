@@ -115,7 +115,7 @@ private void Form1_Closed(object sender, System.EventArgs e)
 [Microsoft.Ink.RecognizerContext Class](https://msdn.microsoft.com/library/ms552546(v=VS.100).aspx)
 </dt> <dt>
 
-[Mirosoft.Ink.Wordlist Class](https://msdn.microsoft.com/library/ms827589(v=MSDN.10).aspx)
+[Microsoft.Ink.Wordlist Class](https://msdn.microsoft.com/library/ms827589(v=MSDN.10).aspx)
 </dt> </dl>
 
  

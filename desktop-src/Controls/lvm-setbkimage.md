@@ -36,13 +36,13 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**LVBKIMAGE**](/windows/desktop/api/Commctrl/ns-commctrl-taglvbkimagea) structure that contains the new background image information.
+Pointer to a [**LVBKIMAGE**](/windows/win32/api/commctrl/ns-commctrl-lvbkimagea) structure that contains the new background image information.
 
 </dd> </dl>
 
 ## Return value
 
-Returns nonzero if successful, or zero otherwise. Returns zero if the **ulFlags** member of the [**LVBKIMAGE**](/windows/desktop/api/Commctrl/ns-commctrl-taglvbkimagea) structure is **LVBKIF\_SOURCE\_NONE**.
+Returns nonzero if successful, or zero otherwise. Returns zero if the **ulFlags** member of the [**LVBKIMAGE**](/windows/win32/api/commctrl/ns-commctrl-lvbkimagea) structure is **LVBKIF\_SOURCE\_NONE**.
 
 ## Remarks
 

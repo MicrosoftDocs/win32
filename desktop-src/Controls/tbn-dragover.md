@@ -36,7 +36,7 @@ TBN_DRAGOVER
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMTBHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem) structure that specifies which item is being dragged over.
+A pointer to an [**NMTBHOTITEM**](/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem) structure that specifies which item is being dragged over.
 
 </dd> </dl>
 

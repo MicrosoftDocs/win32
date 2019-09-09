@@ -355,7 +355,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSA_QOS_EFLOWSPEC"></span><span id="wsa_qos_eflowspec"></span><dl> <dt><strong>WSA_QOS_EFLOWSPEC</strong></dt> <dt>11017</dt> </dl></td>
-<td><dl> <dt><span id="QoS_flowspec_error."></span><span id="qos_flowspec_error."></span><span id="QOS_FLOWSPEC_ERROR."></span>QoS flowspec error.</dt> <dd> An invalid or inconsistent flowspec was found in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice"><strong>QOS</strong></a> structure.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="QoS_flowspec_error."></span><span id="qos_flowspec_error."></span><span id="QOS_FLOWSPEC_ERROR."></span>QoS flowspec error.</dt> <dd> An invalid or inconsistent flowspec was found in the <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos"><strong>QOS</strong></a> structure.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_QOS_EPROVSPECBUF"></span><span id="wsa_qos_eprovspecbuf"></span><dl> <dt><strong>WSA_QOS_EPROVSPECBUF</strong></dt> <dt>11018</dt> </dl></td>

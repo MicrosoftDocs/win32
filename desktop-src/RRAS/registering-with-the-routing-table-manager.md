@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Before a client can access the routing table, it first must register with the routing table manager using the [**RtmRegisterEntity**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmregisterentity) function.
 
-When a client registers, it passes to the routing table manager an [**RTM\_ENTITY\_INFO**](/windows/desktop/api/Rtmv2/ns-rtmv2-rtm_entity_info) structure. This structure contains the information that uniquely identifies a client, the address family, and the instance of the routing table manager with which the client is registering. A client can also establish the [**RTM\_EVENT\_CALLBACK**](/windows/desktop/api/Rtmv2/nc-rtmv2-_event_callback) callback. The routing table manager will use this callback to notify the client of events such as change notifications and client registrations.
+When a client registers, it passes to the routing table manager an [**RTM\_ENTITY\_INFO**](/windows/desktop/api/Rtmv2/ns-rtmv2-rtm_entity_info) structure. This structure contains the information that uniquely identifies a client, the address family, and the instance of the routing table manager with which the client is registering. A client can also establish the [**RTM\_EVENT\_CALLBACK**](/windows/win32/api/rtmv2/nc-rtmv2-_event_callback) callback. The routing table manager will use this callback to notify the client of events such as change notifications and client registrations.
 
 The routing table manager completes its registration processing and returns a handle to the client. The client must use this handle for all subsequent calls to RTMv2 functions.
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # FOURCC Codes
 
-Many digital media formats have FOURCC codes assigned to them. A FOURCC code is a 32-bit unsigned integer that is created by concatenating four ASCII characters. For example, the FOURCC code for YUY2 video is 'YUY2'. For compressed video formats and non-RGB video formats (such as YUV), the **biCompression** member of the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure should be set to the FOURCC code.
+Many digital media formats have FOURCC codes assigned to them. A FOURCC code is a 32-bit unsigned integer that is created by concatenating four ASCII characters. For example, the FOURCC code for YUY2 video is 'YUY2'. For compressed video formats and non-RGB video formats (such as YUV), the **biCompression** member of the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure should be set to the FOURCC code.
 
 There are various C/C++ macros that make it easier to declare FOURCC values in source code. For example, the **MAKEFOURCC** macro is declared in Mmsystem.h, and the **FCC** macro is declared in Aviriff.h. Use them as follows:
 

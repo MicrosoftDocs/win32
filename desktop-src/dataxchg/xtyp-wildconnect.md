@@ -78,7 +78,7 @@ Not used.
 *dwData1* 
 </dt> <dd>
 
-A pointer to a [**CONVCONTEXT**](/windows/desktop/api/Ddeml/ns-ddeml-tagconvcontext) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is set to 0.
+A pointer to a [**CONVCONTEXT**](/windows/win32/api/ddeml/ns-ddeml-convcontext) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is set to 0.
 
 </dd> <dt>
 
@@ -91,7 +91,7 @@ Specifies whether the client is the same application instance as the server. If 
 
 ## Return value
 
-The server should return a data handle that identifies an array of [**HSZPAIR**](/windows/desktop/api/Ddeml/ns-ddeml-taghszpair) structures. The array should contain one structure for each service-name and topic-name pair that matches the service-name and topic-name pair requested by the client. The array must be terminated by a **NULL** string handle. The system sends the [**XTYP\_CONNECT\_CONFIRM**](xtyp-connect-confirm.md) transaction to the server to confirm each conversation and to pass the conversation handles to the server. The server will not receive these confirmations if it specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) function.
+The server should return a data handle that identifies an array of [**HSZPAIR**](/windows/win32/api/ddeml/ns-ddeml-hszpair) structures. The array should contain one structure for each service-name and topic-name pair that matches the service-name and topic-name pair requested by the client. The array must be terminated by a **NULL** string handle. The system sends the [**XTYP\_CONNECT\_CONFIRM**](xtyp-connect-confirm.md) transaction to the server to confirm each conversation and to pass the conversation handles to the server. The server will not receive these confirmations if it specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) function.
 
 The server should return **NULL** to refuse the **XTYP\_WILDCONNECT** transaction.
 
@@ -120,7 +120,7 @@ A server cannot block this transaction type; the CBR\_BLOCK return code is ignor
 **Reference**
 </dt> <dt>
 
-[**CONVCONTEXT**](/windows/desktop/api/Ddeml/ns-ddeml-tagconvcontext)
+[**CONVCONTEXT**](/windows/win32/api/ddeml/ns-ddeml-convcontext)
 </dt> <dt>
 
 [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)
@@ -129,7 +129,7 @@ A server cannot block this transaction type; the CBR\_BLOCK return code is ignor
 [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea)
 </dt> <dt>
 
-[**HSZPAIR**](/windows/desktop/api/Ddeml/ns-ddeml-taghszpair)
+[**HSZPAIR**](/windows/win32/api/ddeml/ns-ddeml-hszpair)
 </dt> <dt>
 
 **Conceptual**

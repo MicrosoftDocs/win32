@@ -1,15 +1,15 @@
 ---
-title: Resource Binding in HLSL
-description: This section describes some specific features of using High Level Shading Language (HLSL) Shader Model 5.1 with Direct3D 12.
+title: Resource binding in HLSL
+description: This topic describes some specific features of using High Level Shader Language (HLSL) Shader Model 5.1 with Direct3D 12.
 ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
 ms.localizationpriority: high
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/27/2019
 ---
 
-# Resource Binding in HLSL
+# Resource binding in HLSL
 
-This section describes some specific features of using High Level Shading Language (HLSL) [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is.
+This topic describes some specific features of using High Level Shader Language (HLSL) [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is.
 
 -   [Resource types and arrays](#resource-types-and-arrays)
 -   [Descriptor arrays and texture arrays](#descriptor-arrays-and-texture-arrays)
@@ -23,13 +23,13 @@ This section describes some specific features of using High Level Shading Langua
 
 ## Resource types and arrays
 
-Shader Model 5 (SM5.0) resource syntax uses the "register" keyword to relay important information about the resource to the HLSL compiler. For example, the following statement declares an array of four textures bound at slots t3, t4, t5, and t6. t3 is the only register slot appearing in the statement, simply being the first in the array of four.
+Shader Model 5 (SM5.0) resource syntax uses the `register` keyword to relay important information about the resource to the HLSL compiler. For example, the following statement declares an array of four textures bound at slots t3, t4, t5, and t6. t3 is the only register slot appearing in the statement, simply being the first in the array of four.
 
 ``` syntax
 Texture2D<float4> tex1[4] : register(t3)
 ```
 
-Shader Model 5.1 (SM5.1) resource syntax in HLSL is based on existing register resource syntax, to allow easier porting. D3D12 resources in HLSL are bound to virtual registers within logical register spaces:
+Shader Model 5.1 (SM5.1) resource syntax in HLSL is based on existing register resource syntax, to allow easier porting. Direct3D 12 resources in HLSL are bound to virtual registers within logical register spaces:
 
 -   t – for shader resource views (SRV)
 -   s – for samplers
@@ -45,17 +45,17 @@ DescriptorTable( CBV(b1), SRV(t0,numDescriptors=99), CBV(b2) )
 A resource declaration may be a scalar, a 1D array, or a multidimensional array:
 
 ``` syntax
-Texture2D<float4> tex1     : register(t3,  space0)
-Texture2D<float4> tex2[4]     : register(t10)
-Texture2D<float4> tex3[7][5][3]   : register(t20, space1)
+Texture2D<float4> tex1 : register(t3,  space0)
+Texture2D<float4> tex2[4] : register(t10)
+Texture2D<float4> tex3[7][5][3] : register(t20, space1)
 ```
 
-SM5.1 uses the same resource types and element types as SM5.0. Declaration limits are more flexible now and constrained only by the runtime/hardware limits. The "space" keyword specifies to which logical register space the declared variable is bound to. If the "space" keyword is omitted, the default space index of 0 is implicitly assigned to the range (so the `tex2` range above resides in `space0`). `register(t3,  space0)` will never conflict with `register(t3,  space1)` or any array in another space that might include t3.
+SM5.1 uses the same resource types and element types as SM5.0 does. SM5.1 declaration limits are more flexible, and constrained only by the runtime/hardware limits. The `space` keyword specifies to which logical register space the declared variable is bound. If the `space` keyword is omitted, then the default space index of 0 is implicitly assigned to the range (so the `tex2` range above resides in `space0`). `register(t3,  space0)` will never conflict with `register(t3,  space1)`, nor with any array in another space that might include t3.
 
-An array resource may have an unbounded size, which is declared by specifying the very first dimension to be empty or 0:
+An array resource may have an unbounded size, which is declared by specifying the very first dimension to be empty, or 0:
 
 ``` syntax
-Texture2D<float4> tex1[]       : register(t0)
+Texture2D<float4> tex1[] : register(t0)
 ```
 
 The matching descriptor table could be:
@@ -69,13 +69,13 @@ An unbounded array in HLSL does match a fixed number set with `numDescriptors` i
 Multi-dimensional arrays are allowed, including of an unbounded size. These multidimensional arrays are flattened out in register space.
 
 ``` syntax
-Texture2D<float4> tex3[3000][10] : register(t0,space1); // t0-t29999 in space1
-Texture2D<float4> tex3[0][5][3]   : register(t5, space1)
+Texture2D<float4> tex2[3000][10] : register(t0, space0); // t0-t29999 in space0
+Texture2D<float4> tex3[0][5][3] : register(t5, space1)
 ```
 
-Aliasing of resource ranges is not allowed. In other words, for each resource type (t, s, u, b), declared register ranges must not overlap. This includes unbounded ranges too. Ranges declared in different register spaces never overlap. Note that unbounded tex2 resides in space0, while unbounded tex3 resides in space1, such that they do not overlap.
+Aliasing of resource ranges is not allowed. In other words, for each resource type (t, s, u, b), declared register ranges mustn't overlap. That includes unbounded ranges, too. Ranges declared in different register spaces never overlap. Note that unbounded `tex2` (above) resides in `space0`, while unbounded `tex3` resides in `space1`, such that they don't overlap.
 
-Accessing resources that have been declared as arrays is as simple as indexing them, for example:
+Accessing resources that have been declared as arrays is as simple as indexing them.
 
 ``` syntax
 Texture2D<float4> tex1[400] : register(t3);
@@ -135,7 +135,7 @@ This would have allowed the memory layout **abcabcabc....**, but is a language l
 
 ``` syntax
 Texture2D                     a[10000] : register(t0);
-Texture2D                        b[10000] : register(t10000);
+Texture2D                     b[10000] : register(t10000);
 ConstantBuffer<myConstants>   c[10000] : register(b0);
 ```
 

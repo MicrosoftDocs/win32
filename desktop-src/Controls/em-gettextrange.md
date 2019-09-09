@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TEXTRANGE**](/windows/desktop/api/Richedit/ns-richedit-_textrange) structure that specifies the range of characters to retrieve and a buffer to copy the characters to.
+Pointer to a [**TEXTRANGE**](/windows/win32/api/richedit/ns-richedit-textrangea) structure that specifies the range of characters to retrieve and a buffer to copy the characters to.
 
 </dd> </dl>
 
@@ -58,7 +58,7 @@ The message returns the number of characters copied, not including the terminati
 
 <dl> <dt>
 
-[**TEXTRANGE**](/windows/desktop/api/Richedit/ns-richedit-_textrange)
+[**TEXTRANGE**](/windows/win32/api/richedit/ns-richedit-textrangea)
 </dt> </dl>
 
  

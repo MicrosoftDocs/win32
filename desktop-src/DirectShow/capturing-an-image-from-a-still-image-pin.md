@@ -169,7 +169,7 @@ pSG->Release();
 
 
 
-This media type will contain the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure that defines the format of the still image. Free the media type before the application exits:
+This media type will contain the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure that defines the format of the still image. Free the media type before the application exits:
 
 
 ```C++

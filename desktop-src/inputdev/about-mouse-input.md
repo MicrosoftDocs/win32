@@ -98,13 +98,13 @@ The following support XBUTTON1 and XBUTTON2:
 -   [**WM\_XBUTTONDBLCLK**](wm-xbuttondblclk.md)
 -   [**WM\_XBUTTONDOWN**](wm-xbuttondown.md)
 -   [**WM\_XBUTTONUP**](wm-xbuttonup.md)
--   [**MOUSEHOOKSTRUCTEX**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstructex)
+-   [**MOUSEHOOKSTRUCTEX**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-mousehookstructex)
 
 The following APIs were modified to support these buttons:
 
 -   [**mouse\_event**](https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx)
 -   [**ShellProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85))
--   [**MSLLHOOKSTRUCT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsllhookstruct)
+-   [**MSLLHOOKSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msllhookstruct)
 -   [**MOUSEINPUT**](https://msdn.microsoft.com/en-us/library/ms646273(v=VS.85).aspx)
 -   [**WM\_PARENTNOTIFY**](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-parentnotify)
 

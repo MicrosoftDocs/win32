@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 | Enumeration                                                   | Description                                                |
 |---------------------------------------------------------------|------------------------------------------------------------|
-| [**XPS\_JOB\_COMPLETION**](/windows/desktop/api/XpsPrint/ne-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0001)<br/> | Indicates the completion status of a print job.<br/> |
+| [**XPS\_JOB\_COMPLETION**](/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion)<br/> | Indicates the completion status of a print job.<br/> |
 
 
 

@@ -38,7 +38,7 @@ The callback instance supplied when opening the call's line.
 *dwParam1* 
 </dt> <dd>
 
-Pointer to a [**LINEPROXYREQUEST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequest_tag) structure containing the request to be processed by the proxy handler application.
+Pointer to a [**LINEPROXYREQUEST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequest) structure containing the request to be processed by the proxy handler application.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ If the application receives a [**LINE\_CLOSE**](line-close.md) message while it 
 [**LINE\_REPLY**](line-reply.md)
 </dt> <dt>
 
-[**LINEPROXYREQUEST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequest_tag)
+[**LINEPROXYREQUEST**](/windows/desktop/api/Tapi/ns-tapi-lineproxyrequest)
 </dt> <dt>
 
 [**lineProxyResponse**](/windows/desktop/api/Tapi/nf-tapi-lineproxyresponse)

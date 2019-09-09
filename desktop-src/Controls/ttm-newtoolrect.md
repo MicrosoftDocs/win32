@@ -32,7 +32,7 @@ Sets a new bounding rectangle for a tool.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure. The **hwnd** and **uId** members identify a tool, and the **rect** member specifies the new bounding rectangle. The **cbSize** member of this structure must be filled in before sending this message.
+Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure. The **hwnd** and **uId** members identify a tool, and the **rect** member specifies the new bounding rectangle. The **cbSize** member of this structure must be filled in before sending this message.
 
 </dd> </dl>
 

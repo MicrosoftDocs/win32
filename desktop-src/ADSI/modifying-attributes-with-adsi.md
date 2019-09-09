@@ -23,7 +23,7 @@ The [**IADs.Put**](/windows/desktop/api/Iads/nf-iads-iads-put) method takes an a
 
 The [**IADs.PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) method provides control over operations on multi-valued attributes. You can append, delete, update, and clear existing values. The **IADs.PutEx** method always expects a variant array of attribute values. However, you can use this method to set an attribute with a single value as well.
 
-The [**IADs.PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) method uses the operations specified by the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027) enumeration.
+The [**IADs.PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) method uses the operations specified by the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum) enumeration.
 
  
 

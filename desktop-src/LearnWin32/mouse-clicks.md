@@ -97,7 +97,7 @@ else if (button == XBUTTON2)
 
 ## Double Clicks
 
-A window does not receive double-click notifications by default. To receive double clicks, set the **CS\_DBLCLKS** flag in the [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) structure when you register the window class.
+A window does not receive double-click notifications by default. To receive double clicks, set the **CS\_DBLCLKS** flag in the [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa) structure when you register the window class.
 
 
 ```C++

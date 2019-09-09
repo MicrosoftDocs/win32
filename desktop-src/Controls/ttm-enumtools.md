@@ -36,7 +36,7 @@ Zero-based index of the tool for which to retrieve information.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure that receives information about the tool. Set the **cbSize** member of this structure to sizeof(TOOLINFO) before sending this message. Allocate a buffer. Set the **lpszText** member to point to the buffer to receive the tool text. There is no way to determine the required buffer size. However, tool text, as returned at the **lpszText** member of the **TOOLINFO** structure, has a maximum length of 80 **TCHARs**, including the terminating **NULL**. If the text exceeds this length, it is truncated.
+Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure that receives information about the tool. Set the **cbSize** member of this structure to sizeof(TOOLINFO) before sending this message. Allocate a buffer. Set the **lpszText** member to point to the buffer to receive the tool text. There is no way to determine the required buffer size. However, tool text, as returned at the **lpszText** member of the **TOOLINFO** structure, has a maximum length of 80 **TCHARs**, including the terminating **NULL**. If the text exceeds this length, it is truncated.
 
 </dd> </dl>
 

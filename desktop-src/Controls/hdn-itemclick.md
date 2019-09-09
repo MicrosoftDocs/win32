@@ -38,7 +38,7 @@ HDN_ITEMCLICK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that identifies the header control and specifies the index of the header item that was clicked and the mouse button used to click the item. The **pItem** member is set to **NULL**.
+A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that identifies the header control and specifies the index of the header item that was clicked and the mouse button used to click the item. The **pItem** member is set to **NULL**.
 
 </dd> </dl>
 

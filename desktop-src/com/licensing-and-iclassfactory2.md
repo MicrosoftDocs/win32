@@ -18,7 +18,7 @@ The [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2) int
 
 To incorporate a licensed component into your client application, use the following methods in [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2):
 
--   The [**GetLicInfo**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-getlicinfo) method fills a [**LICINFO**](/windows/desktop/api/OCIdl/ns-ocidl-taglicinfo) structure with information describing the licensing behavior of the class factory. For example, the class factory can provide license keys for run-time licensing if the **fRunTimeKeyAvail** member is **TRUE**.
+-   The [**GetLicInfo**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-getlicinfo) method fills a [**LICINFO**](/windows/win32/api/ocidl/ns-ocidl-licinfo) structure with information describing the licensing behavior of the class factory. For example, the class factory can provide license keys for run-time licensing if the **fRunTimeKeyAvail** member is **TRUE**.
 -   The [**RequestLicKey**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-requestlickey) method provides a license key for the component. A machine license must be available when the client calls this method.
 -   The [**CreateInstanceLic**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-createinstancelic) method creates an instance of the licensed component if the license key parameter (BSTRÂ bstrKey) is valid.
 

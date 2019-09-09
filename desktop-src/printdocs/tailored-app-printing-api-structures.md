@@ -11,7 +11,7 @@ This section contains information about structures that define specific features
 
 <dl>
 
-[**PRINTDOCUMENTPACKAGESTATUS**](/windows/desktop/api/Documenttarget/ns-documenttarget-__midl___midl_itf_documenttarget_0000_0001_0001)  
+[**PRINTDOCUMENTPACKAGESTATUS**](/windows/win32/api/documenttarget/ns-documenttarget-printdocumentpackagestatus)  
 </dl>
 
  

@@ -68,9 +68,9 @@ The number of color table entries to set.
 *prgb* \[in\]
 </dt> <dd>
 
-Type: **[**RGBQUAD**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad)\***
+Type: **[**RGBQUAD**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-rgbquad)\***
 
-A pointer to an array of *len* [**RGBQUAD**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad) structures containing new color information for the color table of the DIB.
+A pointer to an array of *len* [**RGBQUAD**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-rgbquad) structures containing new color information for the color table of the DIB.
 
 </dd> </dl>
 

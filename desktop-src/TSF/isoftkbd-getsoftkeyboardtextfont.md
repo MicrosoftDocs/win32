@@ -40,7 +40,7 @@ HRESULT GetSoftKeyboardTextFont(
 *pLogFont* \[out\]
 </dt> <dd>
 
-Pointer to a buffer in which this method retrieves a [**LOGFONTW**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure defining the text font for the soft keyboard.
+Pointer to a buffer in which this method retrieves a [**LOGFONTW**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure defining the text font for the soft keyboard.
 
 </dd> </dl>
 

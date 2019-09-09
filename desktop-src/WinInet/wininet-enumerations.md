@@ -17,7 +17,7 @@ The following are the WinINet enumeration types.
 <dl>
 
 [**INTERNET\_SCHEME**](/windows/desktop/api/Wininet/ne-wininet-internet_scheme)  
-[**InternetCookieState**](/windows/desktop/api/Wininet/ne-wininet-__unnamed_enum_0)  
+[**InternetCookieState**](/windows/win32/api/wininet/ne-wininet-internet_scheme)  
 </dl>
 
  

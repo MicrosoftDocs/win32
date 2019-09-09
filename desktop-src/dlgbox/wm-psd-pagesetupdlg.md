@@ -59,7 +59,7 @@ The low-order word specifies a value that indicates the paper size. This value c
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**PAGESETUPDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpsda) structure that contains information used to initialize the **Page Setup** dialog box.
+A pointer to a [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure that contains information used to initialize the **Page Setup** dialog box.
 
 </dd> </dl>
 
@@ -100,7 +100,7 @@ The first three messages of a drawing sequence (**WM\_PSD\_PAGESETUPDLG**, [**WM
 [**PageSetupDlg**](https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx)
 </dt> <dt>
 
-[**PAGESETUPDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpsda)
+[**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga)
 </dt> <dt>
 
 [**WM\_PSD\_ENVSTAMPRECT**](wm-psd-envstamprect.md)

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**NMTRBTHUMBPOSCHANGING**](/windows/desktop/api/Commctrl/ns-commctrl-tagtrbthumbposchanging)
+-   [**NMTRBTHUMBPOSCHANGING**](/windows/win32/api/commctrl/ns-commctrl-nmtrbthumbposchanging)
 
  
 

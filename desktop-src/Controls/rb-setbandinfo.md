@@ -36,7 +36,7 @@ Zero-based index of the band to receive the new settings.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REBARBANDINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa) structure that defines the band to be modified and the new settings. Before sending this message, you must set the **cbSize** member of this structure to the **sizeof**(REBARBANDINFO) structure. Additionally, you must set the **cch** member of the **REBARBANDINFO** structure to the size of the **lpText** buffer when RBBIM\_TEXT is specified.
+Pointer to a [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure that defines the band to be modified and the new settings. Before sending this message, you must set the **cbSize** member of this structure to the **sizeof**(REBARBANDINFO) structure. Additionally, you must set the **cch** member of the **REBARBANDINFO** structure to the size of the **lpText** buffer when RBBIM\_TEXT is specified.
 
 </dd> </dl>
 

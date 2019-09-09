@@ -733,15 +733,15 @@ While there are no strict rules for phrasing, try using the following main instr
 
 -   <optional subject name> can't <perform action>
 -   <optional subject name> can't <perform action> because <reason>
--   <optional subject name> can't <perform action> to "<object name>"
--   <optional subject name> can't <perform action> to "<object name>" because <reason>
+-   <optional subject name> can't <perform action> to "&lt;object name&gt;"
+-   <optional subject name> can't <perform action> to "&lt;object name&gt;" because <reason>
 -   There is not enough <resource> to <perform action>
 -   <Subject name> doesn't have a <object name> required for <purpose>
 -   <Device or setting> is turned off so that <undesired results>
 -   <Device or setting> isn't <available \| found \| turned on \| enabled>
--   "<object name>" is currently unavailable
+-   "&lt;object name&gt;" is currently unavailable
 -   The user name or password is incorrect
--   You don't have permission to access "<object name>"
+-   You don't have permission to access "&lt;object name&gt;"
 -   You don't have privilege to <perform action>
 -   <program name> has experienced a serious problem and must close immediately
 

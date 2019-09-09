@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 -   [**ACCELTABLEENTRY**](acceltableentry.md)
 -   [**CURSORDIR**](cursordir.md)
--   [**CURSORSHAPE**](/windows/desktop/api/Winuser/ns-winuser-tagcursorshape)
+-   [**CURSORSHAPE**](/windows/win32/api/winuser/ns-winuser-cursorshape)
 -   [**DIRENTRY**](direntry.md)
 -   [**FONTDIRENTRY**](fontdirentry.md)
 -   [**FONTGROUPHDR**](fontgrouphdr.md)

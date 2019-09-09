@@ -28,7 +28,7 @@ Unlike common controls, predefined controls such as buttons or edit boxes do not
 
 To use the native font control, follow this procedure.
 
-1.  Initialize the native font control by calling [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex). Set the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure pointed to by *lpInitCtrls* to ICC\_NATIVEFNTCTL\_CLASS.
+1.  Initialize the native font control by calling [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex). Set the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure pointed to by *lpInitCtrls* to ICC\_NATIVEFNTCTL\_CLASS.
 2.  Add the control to the resource script for the dialog box. Set one or more of the following style flags to specify which controls will be affected. 
 
     | Flag              | Applies to                                                                                                                                                                                                                                                       |

@@ -34,7 +34,7 @@ The index of the item.
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**LVFOOTERITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvfooteritem) structure to receive a value for the **state** and/or **pszText** members according to the value of the **mask** member. The calling process is responsible for allocating this structure and setting its members to indicate to the receiver what information to return. For more information, see **LVFOOTERITEM**.
+A pointer to a [**LVFOOTERITEM**](/windows/win32/api/commctrl/ns-commctrl-lvfooteritem) structure to receive a value for the **state** and/or **pszText** members according to the value of the **mask** member. The calling process is responsible for allocating this structure and setting its members to indicate to the receiver what information to return. For more information, see **LVFOOTERITEM**.
 
 </dd> </dl>
 

@@ -47,7 +47,7 @@ Points to a **STATSTRUCT** structure where this method places information about 
 *grfStatFlag* \[in\]
 </dt> <dd>
 
-Specifies that this method does not return some of the fields in the **STATSTRUCT** structure, thus saving a memory allocation operation. Values are taken from the [**STATFLAG**](https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag) enumeration
+Specifies that this method does not return some of the fields in the **STATSTRUCT** structure, thus saving a memory allocation operation. Values are taken from the [**STATFLAG**](https://docs.microsoft.com/windows/win32/api/wtypes/ne-wtypes-statflag) enumeration
 
 </dd> </dl>
 

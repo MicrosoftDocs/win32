@@ -39,7 +39,7 @@ typedef struct _PRINTER_INFO_9 {
 **pDevMode**
 </dt> <dd>
 
-A pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that defines the per-user default printer data such as the paper orientation and the resolution. The **DEVMODE** is stored in the user's registry.
+A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that defines the per-user default printer data such as the paper orientation and the resolution. The **DEVMODE** is stored in the user's registry.
 
 </dd> </dl>
 

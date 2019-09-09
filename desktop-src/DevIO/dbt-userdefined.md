@@ -50,7 +50,7 @@ Set to DBT\_USERDEFINED.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**\_DEV\_BROADCAST\_USERDEFINED**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_userdefined) structure which describes the user-defined broadcast in progress. The **dbud\_szName** member contains the name of the user-defined message, followed by any user-defined data.
+A pointer to a [**\_DEV\_BROADCAST\_USERDEFINED**](/windows/win32/api/dbt/ns-dbt-_dev_broadcast_userdefined) structure which describes the user-defined broadcast in progress. The **dbud\_szName** member contains the name of the user-defined message, followed by any user-defined data.
 
 </dd> </dl>
 
@@ -80,7 +80,7 @@ Return **TRUE**.
 [Device Management Events](device-management-events.md)
 </dt> <dt>
 
-[**\_DEV\_BROADCAST\_USERDEFINED**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_userdefined)
+[**\_DEV\_BROADCAST\_USERDEFINED**](/windows/win32/api/dbt/ns-dbt-_dev_broadcast_userdefined)
 </dt> <dt>
 
 [**WM\_DEVICECHANGE**](wm-devicechange.md)

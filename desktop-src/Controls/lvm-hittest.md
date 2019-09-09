@@ -30,7 +30,7 @@ Determines which list-view item, if any, is at a specified position. You can sen
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvhittestinfo) structure that contains the position to hit test and receives information about the results of the hit test.
+Pointer to an [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo) structure that contains the position to hit test and receives information about the results of the hit test.
 
 </dd> </dl>
 

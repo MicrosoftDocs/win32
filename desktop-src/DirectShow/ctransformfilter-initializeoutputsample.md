@@ -60,7 +60,7 @@ Returns S\_OK or another **HRESULT** value.
 
 This method is called by the [**CTransformFilter::Receive**](ctransformfilter-receive.md) method to prepare the output sample. Generally you do not have to call this method in your derived class, unless you override the **Receive** method.
 
-This method retrieves a new sample from the output pin's allocator. Then it copies the sample properties from the input sample to the output sample. The sample properties are defined in the [**AM\_SAMPLE2\_PROPERTIES**](/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties) structure.
+This method retrieves a new sample from the output pin's allocator. Then it copies the sample properties from the input sample to the output sample. The sample properties are defined in the [**AM\_SAMPLE2\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
 
 ## Requirements
 

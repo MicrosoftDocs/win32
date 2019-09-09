@@ -30,7 +30,7 @@ Tests a point to determine which header item, if any, is at the specified point.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_hittestinfo) structure that contains the position to test and receives information about the results of the test.
+A pointer to an [**HDHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-hdhittestinfo) structure that contains the position to test and receives information about the results of the test.
 
 </dd> </dl>
 

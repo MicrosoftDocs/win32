@@ -36,7 +36,7 @@ LVN_ODCACHEHINT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVCACHEHINT**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcachehint) structure containing information about the range of items to be cached.
+Pointer to an [**NMLVCACHEHINT**](/windows/win32/api/commctrl/ns-commctrl-nmlvcachehint) structure containing information about the range of items to be cached.
 
 </dd> </dl>
 

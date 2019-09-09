@@ -32,26 +32,26 @@ To create the GMC for a peer identity, you must first obtain its public key. Thi
 
 This string can be passed to [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation), which returns an invitation that contains the GMC for that peer identity. The invitation must be passed to the invitee using a different process such as e-mail, FTP, or a secure file share.
 
-Alternatively, the IDC itself can be placed in a new [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info_tag) structure and passed to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials), which likewise generates an invitation.
+Alternatively, the IDC itself can be placed in a new [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) structure and passed to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials), which likewise generates an invitation.
 
 Note that applications are not allowed to add tags within the **PEERIDENTITYINFO** tag or modify this XML fragment in any way. Applications are allowed to incorporate this XML fragment into other XML documents, but must strip out all application-specific XML before passing this fragment to the [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation) or [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials) functions.
 
 Member GMCs are issued by administrators and the peer group creator. Members must obtain new GMCs with extended lifetimes their GMCs before the expiration time has passed. The peer group administrator issues updated credentials by calling [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials) with the existing credentials for that peer.
 
-The [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info_tag) structure contains the basic data on a peer's membership status, including the public key for their GMC. Newly-issued credentials can be published to the peer group by setting the PEER\_GROUP\_STORE\_CREDENTIALS flag in the call to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials). When the recipient of the new credentials joins the peer group, it's existing credentials will be updated by the Peer Grouping Infrastructure.
+The [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) structure contains the basic data on a peer's membership status, including the public key for their GMC. Newly-issued credentials can be published to the peer group by setting the PEER\_GROUP\_STORE\_CREDENTIALS flag in the call to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials). When the recipient of the new credentials joins the peer group, it's existing credentials will be updated by the Peer Grouping Infrastructure.
 
 ## Issuing an Invitation
 
 A member is invited to join the peer group in one of the following two ways:
 
 -   A peer group administrator calls [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation), passing in the identity information XML string obtained from the potential invitee via a common out-of-band mechanism, such as email or an IM session. The invitation is also passed through some external process or mechanism to the peer, who will ultimately receive it as an XML string or text file.
--   A peer group administrator calls [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials). To use this function, the peer must have already published membership information to the peer group ([**PEER\_MEMBER**](/windows/desktop/api/P2P/ns-p2p-peer_member_tag)), or have an available public key (of the RSA key pair used to create the subject identity). In the former case, the [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info_tag) structure required for **PeerGroupIssueCredentials** can be obtained from the **PEER\_MEMBER** structure; in the latter case, a new **PEER\_CREDENTIAL\_INFO** structure can be populated with the public key.
+-   A peer group administrator calls [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials). To use this function, the peer must have already published membership information to the peer group ([**PEER\_MEMBER**](/windows/desktop/api/P2P/ns-p2p-peer_member)), or have an available public key (of the RSA key pair used to create the subject identity). In the former case, the [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) structure required for **PeerGroupIssueCredentials** can be obtained from the **PEER\_MEMBER** structure; in the latter case, a new **PEER\_CREDENTIAL\_INFO** structure can be populated with the public key.
 
 After receiving the invitation string, the peer passes it to [**PeerGroupJoin**](/windows/desktop/api/P2P/nf-p2p-peergroupjoin) to join the peer group. If the call to **PeerGroupJoin** is successful, the peer can later open the peer group by calling [**PeerGroupOpen**](/windows/desktop/api/P2P/nf-p2p-peergroupopen).
 
 ## Parsing an Invitation
 
-Optionally, an invitation can be parsed by calling [**PeerGroupParseInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupparseinvitation), which returns a [**PEER\_INVITATION\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_invitation_info_tag) structure. The fields in the structure can be easily obtained for display purposes.
+Optionally, an invitation can be parsed by calling [**PeerGroupParseInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupparseinvitation), which returns a [**PEER\_INVITATION\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_invitation_info) structure. The fields in the structure can be easily obtained for display purposes.
 
  
 

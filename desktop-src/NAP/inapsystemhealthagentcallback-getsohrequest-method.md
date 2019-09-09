@@ -62,10 +62,10 @@ A COM pointer to an [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequ
 
  
 
-When any return value (except **HRESULT\_FROM\_WIN32(RPC\_S\_SERVER\_UNAVAILABLE)**) is returned by your implementation, the NAP system constructs and returns a [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) to the corresponding SHV with the following attribute types and values:
+When any return value (except **HRESULT\_FROM\_WIN32(RPC\_S\_SERVER\_UNAVAILABLE)**) is returned by your implementation, the NAP system constructs and returns a [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) to the corresponding SHV with the following attribute types and values:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/desktop/api/NapTypes/ne-naptypes-tagfailurecategory)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = <error-code>
 
 ## Remarks
@@ -79,7 +79,7 @@ Health state monitoring should not be done as part of this call, especially if i
 If it will take a long time for the SHA to generate a SoH, then the cached SoH should be returned to the NapAgent. If there is no cached SoH to return, then the SHA should immediately return a SoH with the following attribute types and values:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientCommunication**](/windows/desktop/api/NapTypes/ne-naptypes-tagfailurecategory)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientCommunication**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**NAP\_E\_NO\_CACHED\_SOH**](nap-error-constants.md)
 
 When the SoH has been generated, the SHA must call [**INapSystemHealthAgentBinding::NotifySoHChange**](inapsystemhealthagentbinding-notifysohchange-method.md) to notify the NapAgent of the system health change.
@@ -91,7 +91,7 @@ When this method is called, if there is a SoH in the NapAgent's cache, then it i
 For unbound SHAs which are registered with the system, the NAP system constructs and sends a SoHRequest to the corresponding SHV with the following attribute types and values:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/desktop/api/NapTypes/ne-naptypes-tagfailurecategory)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**NAP\_E\_NOT\_INITIALIZED**](nap-error-constants.md)
 
 ## Requirements

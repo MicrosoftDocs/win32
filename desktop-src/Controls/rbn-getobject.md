@@ -36,7 +36,7 @@ RBN_GETOBJECT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMOBJECTNOTIFY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmobjectnotify) structure that contains information about the band that the object is dragged over and also receives the data provided by the receiving application in response to this notification code.
+Pointer to an [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-commctrl-nmobjectnotify) structure that contains information about the band that the object is dragged over and also receives the data provided by the receiving application in response to this notification code.
 
 </dd> </dl>
 

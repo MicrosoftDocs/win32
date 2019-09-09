@@ -47,8 +47,9 @@ Commonly available verbs include:
 | open       | Launches an application. If this file is not an executable file, its associated application is launched. |
 | print      | Prints the document file.                                                                                |
 | properties | Displays the object's properties.                                                                        |
-
-
+| runas      | Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to |
+|            | run the application elevated or enter the credentials of an administrator account used to run the        |
+|            | application.                                                                                             |
 
  
 

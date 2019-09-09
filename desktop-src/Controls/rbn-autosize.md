@@ -36,7 +36,7 @@ RBN_AUTOSIZE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMRBAUTOSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrbautosize) structure that contains information about the resize operation.
+Pointer to an [**NMRBAUTOSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrbautosize) structure that contains information about the resize operation.
 
 </dd> </dl>
 

@@ -40,7 +40,7 @@ HRESULT CheckSizes(
 *pRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/desktop/api/strmif/ns-strmif-_allocatorproperties) structure that describes the requested allocator properties.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that describes the requested allocator properties.
 
 </dd> </dl>
 

@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **FreePrivateData** function frees a [**PrivateData**](/windows/desktop/api/NapTypes/ns-naptypes-tagprivatedata) data structure.
+The **FreePrivateData** function frees a [**PrivateData**](/windows/win32/api/naptypes/ns-naptypes-privatedata) data structure.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ NAPAPI VOID WINAPI FreePrivateData(
 *privateData* \[in\]
 </dt> <dd>
 
-A pointer to the [**PrivateData**](/windows/desktop/api/NapTypes/ns-naptypes-tagprivatedata) data structure to free.
+A pointer to the [**PrivateData**](/windows/win32/api/naptypes/ns-naptypes-privatedata) data structure to free.
 
 </dd> </dl>
 

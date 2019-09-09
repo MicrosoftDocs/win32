@@ -32,7 +32,7 @@ Sets the attributes for an item in a ComboBoxEx control.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure that contains the item information to be set. When the message is sent, the **mask** member of the structure must be set to indicate which attributes are valid and the **iItem** member must specify the zero-based index of the item to be modified. Setting the **iItem** member to -1 will modify the item displayed in the edit control.
+A pointer to a [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure that contains the item information to be set. When the message is sent, the **mask** member of the structure must be set to indicate which attributes are valid and the **iItem** member must specify the zero-based index of the item to be modified. Setting the **iItem** member to -1 will modify the item displayed in the edit control.
 
 </dd> </dl>
 

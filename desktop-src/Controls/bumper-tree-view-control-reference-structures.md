@@ -10,22 +10,22 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**NMTREEVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa)
--   [**NMTVASYNCDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvasyncdraw)
--   [**NMTVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvcustomdraw)
--   [**NMTVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoa)
--   [**NMTVDISPINFOEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoexa)
--   [**NMTVGETINFOTIP**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvgetinfotipa)
--   [**NMTVITEMCHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemchange)
+-   [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreeviewa)
+-   [**NMTVASYNCDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmtvasyncdraw)
+-   [**NMTVCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmtvcustomdraw)
+-   [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoa)
+-   [**NMTVDISPINFOEX**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoexa)
+-   [**NMTVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtvgetinfotipa)
+-   [**NMTVITEMCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmtvitemchange)
 -   [**NMTVITEMRECT**](https://msdn.microsoft.com/en-us/library/Bb773428(v=VS.85).aspx)
--   [**NMTVKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvkeydown)
--   [**NMTVSTATEIMAGECHANGING**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvstateimagechanging)
--   [**TVGETITEMPARTRECTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvgetitempartrectinfo)
--   [**TVHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvhittestinfo)
--   [**TVINSERTSTRUCT**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvinsertstructa)
--   [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema)
--   [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa)
--   [**TVSORTCB**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvsortcb)
+-   [**NMTVKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmtvkeydown)
+-   [**NMTVSTATEIMAGECHANGING**](/windows/win32/api/commctrl/ns-commctrl-nmtvstateimagechanging)
+-   [**TVGETITEMPARTRECTINFO**](/windows/win32/api/commctrl/ns-commctrl-tvgetitempartrectinfo)
+-   [**TVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-tvhittestinfo)
+-   [**TVINSERTSTRUCT**](/windows/win32/api/commctrl/ns-commctrl-tvinsertstructa)
+-   [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema)
+-   [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa)
+-   [**TVSORTCB**](/windows/win32/api/commctrl/ns-commctrl-tvsortcb)
 
  
 

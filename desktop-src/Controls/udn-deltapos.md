@@ -36,7 +36,7 @@ UDN_DELTAPOS
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMUPDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-_nm_updown) structure that contains information about the position change. The **iPos** member of this structure contains the current position of the control. The **iDelta** member of the structure is a signed integer that contains the proposed change in position. If the user has clicked the up button, this is a positive value. If the user has clicked the down button, this is a negative value.
+Pointer to an [**NMUPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmupdown) structure that contains information about the position change. The **iPos** member of this structure contains the current position of the control. The **iDelta** member of the structure is a signed integer that contains the proposed change in position. If the user has clicked the up button, this is a positive value. If the user has clicked the down button, this is a negative value.
 
 </dd> </dl>
 

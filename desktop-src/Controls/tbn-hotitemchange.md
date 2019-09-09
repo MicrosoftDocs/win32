@@ -36,7 +36,7 @@ TBN_HOTITEMCHANGE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem) structure that contains information about this notification code.
+Pointer to an [**NMTBHOTITEM**](/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem) structure that contains information about this notification code.
 
 </dd> </dl>
 

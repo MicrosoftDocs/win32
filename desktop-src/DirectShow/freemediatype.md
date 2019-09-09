@@ -20,7 +20,7 @@ api_location:
 
 # FreeMediaType function
 
-The **FreeMediaType** function deletes the format block in an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure.
+The **FreeMediaType** function deletes the format block in an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ void FreeMediaType(
 *mt* \[ref\]
 </dt> <dd>
 
-A reference to an [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure.
+A reference to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure.
 
 </dd> </dl>
 
@@ -50,7 +50,7 @@ This function does not return a value.
 
 ## Remarks
 
-The format block is allocated on the heap. The **pbFormat** member of the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) points to the format block. Use this function to free just the format block. To delete an allocated **AM\_MEDIA\_TYPE** structure, call [**DeleteMediaType**](deletemediatype.md).
+The format block is allocated on the heap. The **pbFormat** member of the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) points to the format block. Use this function to free just the format block. To delete an allocated **AM\_MEDIA\_TYPE** structure, call [**DeleteMediaType**](deletemediatype.md).
 
 This function is defined in the [DirectShow Base Classes](directshow-base-classes.md) library. If you prefer not to link to the base class library, you can use the following code:
 

@@ -48,7 +48,7 @@ The following fundamental rules enable applications to create and process valid 
     -   The following reserved characters:
 
         -   < (less than)
-        -   > (greater than)
+        -   \> (greater than)
         -   : (colon)
         -   " (double quote)
         -   / (forward slash)
@@ -123,7 +123,7 @@ Relative paths can combine both example types, for example "C:..\\tmp.txt". This
 
 ### Maximum Path Length Limitation
 
-In the Windows API (with some exceptions discussed in the following paragraphs), the maximum length for a path is **MAX\_PATH**, which is defined as 260 characters. A local path is structured in the following order: drive letter, colon, backslash, name components separated by backslashes, and a terminating null character. For example, the maximum path on drive D is "D:\\*some 256-character path string*<NUL>" where "<NUL>" represents the invisible terminating null character for the current system codepage. (The characters < > are used here for visual clarity and cannot be part of a valid path string.)
+In the Windows API (with some exceptions discussed in the following paragraphs), the maximum length for a path is **MAX\_PATH**, which is defined as 260 characters. A local path is structured in the following order: drive letter, colon, backslash, name components separated by backslashes, and a terminating null character. For example, the maximum path on drive D is "D:\\*some 256-character path string*&lt;NUL&gt;" where "&lt;NUL&gt;" represents the invisible terminating null character for the current system codepage. (The characters < > are used here for visual clarity and cannot be part of a valid path string.)
 
 > [!Note]  
 > File I/O functions in the Windows API convert "/" to "\\" as part of converting the name to an NT-style name, except when using the "\\\\?\\" prefix as detailed in the following sections.

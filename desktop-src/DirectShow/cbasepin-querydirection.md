@@ -40,7 +40,7 @@ HRESULT QueryDirection(
 *pPinDir* 
 </dt> <dd>
 
-Pointer to a variable that receives a member of the [**PIN\_DIRECTION**](/windows/desktop/api/strmif/ne-strmif-_pindirection) enumerated type.
+Pointer to a variable that receives a member of the [**PIN\_DIRECTION**](/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction) enumerated type.
 
 </dd> </dl>
 

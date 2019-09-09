@@ -41,7 +41,7 @@ virtual HRESULT SetMediaType(
 *direction* 
 </dt> <dd>
 
-Member of the [**PIN\_DIRECTION**](/windows/desktop/api/strmif/ne-strmif-_pindirection) enumerated type, specifying a pin on the filter (input or output).
+Member of the [**PIN\_DIRECTION**](/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction) enumerated type, specifying a pin on the filter (input or output).
 
 </dd> <dt>
 

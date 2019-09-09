@@ -36,7 +36,7 @@ TCN_GETOBJECT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMOBJECTNOTIFY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmobjectnotify) structure that contains information about the tab item the object is dragged over and receives data the application returns in response to this message.
+Pointer to an [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-commctrl-nmobjectnotify) structure that contains information about the tab item the object is dragged over and receives data the application returns in response to this message.
 
 </dd> </dl>
 

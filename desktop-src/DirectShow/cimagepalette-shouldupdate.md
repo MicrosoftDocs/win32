@@ -41,7 +41,7 @@ BOOL ShouldUpdate(
 *pNewInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure containing the new color table.
+Pointer to a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure containing the new color table.
 
 </dd> <dt>
 

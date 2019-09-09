@@ -57,7 +57,7 @@ This callback method must return one the following error codes.
 
 ## Remarks
 
-The completion of system fix-up is a system health change event. That means you must call **NotifySoHChange** when a [**INapSystemHealthAgentCallback::GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) notification indicates that the client is fixed. When a client is fixed, the **state** member of the [**FixupInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagfixupinfo) structure returned by **GetFixupInfo** has a value of **fixupStateSuccess**.
+The completion of system fix-up is a system health change event. That means you must call **NotifySoHChange** when a [**INapSystemHealthAgentCallback::GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) notification indicates that the client is fixed. When a client is fixed, the **state** member of the [**FixupInfo**](/windows/win32/api/naptypes/ns-naptypes-fixupinfo) structure returned by **GetFixupInfo** has a value of **fixupStateSuccess**.
 
 After being called by the NapAgent via this callback, the enforcement agent must then call [**INapEnforcementClientBinding::GetSoHRequest**](inapenforcementclientbinding-getsohrequest-method.md) to retrieve the new request. This call can be made on the same thread as **INapEnforcementClientCallback::NotifySoHChange**.
 

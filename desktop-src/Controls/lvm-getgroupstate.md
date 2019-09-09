@@ -27,14 +27,14 @@ Gets the state for a specified group. Send this message explicitly or by using t
 *wParam* \[in\]
 </dt> <dd>
 
-Specifies the group by **iGroupId** (see [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure).
+Specifies the group by **iGroupId** (see [**LVGROUP**](/windows/win32/api/commctrl/ns-commctrl-lvgroup) structure).
 
 </dd> <dt>
 
 *lParam* \[in\]
 </dt> <dd>
 
-Specifies the state values to retrieve. This is a combination of the flags listed for the **state** member of [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup).
+Specifies the state values to retrieve. This is a combination of the flags listed for the **state** member of [**LVGROUP**](/windows/win32/api/commctrl/ns-commctrl-lvgroup).
 
 </dd> </dl>
 

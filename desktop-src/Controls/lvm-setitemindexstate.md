@@ -27,14 +27,14 @@ Sets the state of a list-view item. Send this message explicitly or by using the
 *wParam* \[in\]
 </dt> <dd>
 
-A pointer to an [**LVITEMINDEX**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitemindex) structure for the item. The calling process is responsible for allocating this structure and setting the members.
+A pointer to an [**LVITEMINDEX**](/windows/win32/api/commctrl/ns-commctrl-lvitemindex) structure for the item. The calling process is responsible for allocating this structure and setting the members.
 
 </dd> <dt>
 
 *lParam* \[in\]
 </dt> <dd>
 
-A pointer to an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure. The calling process is responsible for allocating memory for the structure. Set the **state** member to one or more (as a bitwise combination) of the [List-View Item States](list-view-item-states.md) flags. Set the **stateMask** member of the structure to indicate the valid bits of the **state** member. For more information, see the **stateMask** member of the **LVITEM** structure.
+A pointer to an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure. The calling process is responsible for allocating memory for the structure. Set the **state** member to one or more (as a bitwise combination) of the [List-View Item States](list-view-item-states.md) flags. Set the **stateMask** member of the structure to indicate the valid bits of the **state** member. For more information, see the **stateMask** member of the **LVITEM** structure.
 
 </dd> </dl>
 

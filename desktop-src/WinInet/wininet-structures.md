@@ -19,7 +19,7 @@ The following are the WinINet structures.
 [**GOPHER\_FIND\_DATA**](/windows/desktop/api/Wininet/ns-wininet-gopher_find_dataa)  
 [**HTTP\_VERSION\_INFO**](/windows/desktop/api/Wininet/ns-wininet-http_version_info)  
 [**INTERNET\_ASYNC\_RESULT**](/windows/desktop/api/Wininet/ns-wininet-internet_async_result)  
-[**INTERNET\_AUTH\_NOTIFY\_DATA**](/windows/desktop/api/Wininet/ns-wininet-__unnamed_struct_4)  
+[**INTERNET\_AUTH\_NOTIFY\_DATA**](/windows/win32/api/wininet/ns-wininet-internet_per_conn_optionw)  
 [**INTERNET\_BUFFERS**](/windows/desktop/api/Wininet/ns-wininet-internet_buffersa)  
 [**INTERNET\_CACHE\_ENTRY\_INFO**](/windows/desktop/api/Wininet/ns-wininet-internet_cache_entry_infoa)  
 [**INTERNET\_CACHE\_GROUP\_INFO**](/windows/desktop/api/Wininet/ns-wininet-internet_cache_group_infoa)  
@@ -30,7 +30,7 @@ The following are the WinINet structures.
 [**INTERNET\_PER\_CONN\_OPTION\_LIST**](/windows/desktop/api/Wininet/ns-wininet-internet_per_conn_option_lista)  
 [**INTERNET\_PROXY\_INFO**](/windows/desktop/api/Wininet/ns-wininet-internet_proxy_info)  
 [**INTERNET\_VERSION\_INFO**](/windows/desktop/api/Wininet/ns-wininet-internet_version_info)  
-[**InternetCookieHistory**](/windows/desktop/api/Wininet/ns-wininet-__unnamed_struct_2)  
+[**InternetCookieHistory**](/windows/win32/api/wininet/ns-wininet-internet_proxy_info)  
 [**URL\_COMPONENTS**](/windows/desktop/api/Wininet/ns-wininet-url_componentsa)  
 </dl>
 

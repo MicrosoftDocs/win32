@@ -50,7 +50,7 @@ The comparison function has the following form:
 int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
 ```
 
-The *lParam1* parameter is the value associated with the first item being compared, and the *lParam2* parameter is the value associated with the second item. These are the values that were specified in the **lParam** member of the items' [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure when they were inserted into the list. The [**ListView\_SortItems**](/windows/desktop/api/Commctrl/nf-commctrl-listview_sortitems)'s *wParam* parameter is passed to the callback function as its third parameter.
+The *lParam1* parameter is the value associated with the first item being compared, and the *lParam2* parameter is the value associated with the second item. These are the values that were specified in the **lParam** member of the items' [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure when they were inserted into the list. The [**ListView\_SortItems**](/windows/desktop/api/Commctrl/nf-commctrl-listview_sortitems)'s *wParam* parameter is passed to the callback function as its third parameter.
 
 The comparison function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent.
 

@@ -35,9 +35,9 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 ## Remarks
 
-After this message returns, applications might need to update the [**CAPSTATUS**](/windows/desktop/api/Vfw/ns-vfw-tagcapstatus) structure because the user might have changed the image dimensions.
+After this message returns, applications might need to update the [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure because the user might have changed the image dimensions.
 
-The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the **fHasDlgVideoFormat** member of [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps).
+The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the **fHasDlgVideoFormat** member of [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps).
 
 ## Requirements
 

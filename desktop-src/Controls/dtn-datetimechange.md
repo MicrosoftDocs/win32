@@ -36,7 +36,7 @@ DTN_DATETIMECHANGE
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMECHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimechange) structure containing information about the change that took place in the control.
+A pointer to an [**NMDATETIMECHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimechange) structure containing information about the change that took place in the control.
 
 </dd> </dl>
 

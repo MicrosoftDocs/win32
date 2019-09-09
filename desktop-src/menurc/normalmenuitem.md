@@ -95,7 +95,7 @@ A menu separator is a special type of menu item that is inactive but appears as 
 [**MENUHEADER**](menuheader.md)
 </dt> <dt>
 
-[**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa)
+[**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa)
 </dt> <dt>
 
 [**POPUPMENUITEM**](popupmenuitem.md)

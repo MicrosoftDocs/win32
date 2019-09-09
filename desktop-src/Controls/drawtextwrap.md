@@ -94,7 +94,7 @@ The formatting options. See the documentation for [**DrawText**](https://docs.mi
 
 Type: **LPDRAWTEXTPARAMS**
 
-A pointer to a [**DRAWTEXTPARAMS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdrawtextparams) structure that specifies additional formatting options. This parameter can be **NULL**.
+A pointer to a [**DRAWTEXTPARAMS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-drawtextparams) structure that specifies additional formatting options. This parameter can be **NULL**.
 
 </dd> </dl>
 

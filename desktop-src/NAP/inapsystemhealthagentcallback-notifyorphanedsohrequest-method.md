@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
  
 
-The **INapSystemHealthAgentCallback::NotifyOrphanedSoHRequest** method is called if an [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) was queried from the SHA, but the response never came back.
+The **INapSystemHealthAgentCallback::NotifyOrphanedSoHRequest** method is called if an [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) was queried from the SHA, but the response never came back.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ HRESULT NotifyOrphanedSoHRequest(
 *correlationId* \[in\]
 </dt> <dd>
 
-A pointer to the unique [**CorrelationId**](/windows/desktop/api/NapTypes/ns-naptypes-tagcorrelationid) structure that identifies the orphaned [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh).
+A pointer to the unique [**CorrelationId**](/windows/win32/api/naptypes/ns-naptypes-correlationid) structure that identifies the orphaned [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh).
 
 </dd> </dl>
 
@@ -69,8 +69,8 @@ This callback method is declared by the NAP system and is to be implemented by t
 
 This method can be called by the system in the following cases:
 
--   A [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) could not be sent on the wire.
--   A [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) was sent on the wire, but no **SoHResponse** came back, i.e. the enforcer timed out or there was no corresponding SHV on the server-side.
+-   A [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) could not be sent on the wire.
+-   A [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) was sent on the wire, but no **SoHResponse** came back, i.e. the enforcer timed out or there was no corresponding SHV on the server-side.
 -   The connection went down or an enforcer went offline.
 
 This is only a best effort notification, so SHAs must not rely on this information to clean up state. There are several situations in which an SHA will not be notified:

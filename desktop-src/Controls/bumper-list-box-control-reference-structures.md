@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**DELETEITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdeleteitemstruct)
--   [**DRAGLISTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagdraglistinfo)
+-   [**DELETEITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-deleteitemstruct)
+-   [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-commctrl-draglistinfo)
 
  
 

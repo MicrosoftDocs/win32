@@ -36,7 +36,7 @@ Specifies whether the scroll bar is redrawn to reflect the new scroll box positi
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo) structure. Before calling [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo), set the **cbSize** member of the structure to **sizeof**(**SCROLLINFO**), set the **fMask** member to indicate the parameters to set, and specify the new parameter values in the appropriate members.
+Pointer to a [**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo) structure. Before calling [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo), set the **cbSize** member of the structure to **sizeof**(**SCROLLINFO**), set the **fMask** member to indicate the parameters to set, and specify the new parameter values in the appropriate members.
 
 The **fMask** member can be one or more of the following values.
 
@@ -61,7 +61,7 @@ The return value is the current position of the scroll box.
 
 ## Remarks
 
-The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md), provide only 16 bits of position data. However, the [**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo) structure used by [**SBM\_GETSCROLLINFO**](sbm-getscrollinfo.md), **SBM\_SETSCROLLINFO**, [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo), and [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) provides 32 bits of scroll bar position data. You can use these messages and functions while processing either the **WM\_HSCROLL** or **WM\_VSCROLL** messages to obtain 32-bit scroll bar position data.
+The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md), provide only 16 bits of position data. However, the [**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo) structure used by [**SBM\_GETSCROLLINFO**](sbm-getscrollinfo.md), **SBM\_SETSCROLLINFO**, [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo), and [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) provides 32 bits of scroll bar position data. You can use these messages and functions while processing either the **WM\_HSCROLL** or **WM\_VSCROLL** messages to obtain 32-bit scroll bar position data.
 
 ## Requirements
 
@@ -88,7 +88,7 @@ The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md)
 [**SBM\_GETSCROLLINFO**](sbm-getscrollinfo.md)
 </dt> <dt>
 
-[**SCROLLINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscrollinfo)
+[**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo)
 </dt> <dt>
 
 [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo)

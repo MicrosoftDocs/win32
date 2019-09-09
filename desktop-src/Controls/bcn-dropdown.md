@@ -36,7 +36,7 @@ BCN_DROPDOWN
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMBCDROPDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmbcdropdown) structure. The **rcButton** member is set to describe the drop-down area.
+A pointer to a [**NMBCDROPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmbcdropdown) structure. The **rcButton** member is set to describe the drop-down area.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts **LPARAM** to retrieve the [**NMBCDROPDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmbcdropdown) structure. **WPARAM** contains the ID of the control that sends this message. The button control must have a drop-down button style.
+The notification receiver casts **LPARAM** to retrieve the [**NMBCDROPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmbcdropdown) structure. **WPARAM** contains the ID of the control that sends this message. The button control must have a drop-down button style.
 
 ## Requirements
 

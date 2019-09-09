@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**NMTTCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttcustomdraw)
--   [**NMTTDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttdispinfoa)
--   [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa)
+-   [**NMTTCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmttcustomdraw)
+-   [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa)
+-   [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa)
 -   [**TTGETTITLE**](/windows/desktop/api/Commctrl/ns-commctrl-ttgettitle)
--   [**TTHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-_tt_hittestinfoa)
+-   [**TTHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-tthittestinfoa)
 
  
 

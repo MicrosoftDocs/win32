@@ -32,7 +32,7 @@ Retrieves the information for the current tool in a tooltip control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure that receives information about the current tool. If this value is **NULL**, the return value indicates the existence of the current tool without actually retrieving the tool information. If this value is not **NULL**, the **cbSize** member of the **TOOLINFO** structure must be filled in before sending this message.
+Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure that receives information about the current tool. If this value is **NULL**, the return value indicates the existence of the current tool without actually retrieving the tool information. If this value is not **NULL**, the **cbSize** member of the **TOOLINFO** structure must be filled in before sending this message.
 
 </dd> </dl>
 

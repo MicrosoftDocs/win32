@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The Windows Installer uses the following structures.
 
 -   [**MSIFILEHASHINFO**](/windows/desktop/api/Msi/ns-msi-msifilehashinfo)
--   [**MSIPATCHSEQUENCEINFO**](/windows/desktop/api/Msi/ns-msi-tagmsipatchsequenceinfoa)
+-   [**MSIPATCHSEQUENCEINFO**](/windows/win32/api/msi/ns-msi-msipatchsequenceinfoa)
 
  
 

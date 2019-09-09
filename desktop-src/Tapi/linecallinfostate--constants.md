@@ -37,7 +37,7 @@ The bearer mode field of the call-information record.
 
 
 
-The **CallData** member in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) has been updated.
+The **CallData** member in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) has been updated.
 
 
 </dt> </dl> </dd> <dt>
@@ -227,7 +227,7 @@ Call information items other than those listed below have changed. The applicati
 
 
 
-One or more of the **QOS** members in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) has been updated.
+One or more of the **QOS** members in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) has been updated.
 
 
 </dt> </dl> </dd> <dt>
@@ -297,7 +297,7 @@ The terminal mode information of the call-information record.
 
 
 
-The **CallTreatment** member in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) has been updated. This can occur in response to a [**lineSetCallTreatment**](/windows/desktop/api/Tapi/nf-tapi-linesetcalltreatment) function, a call state change, a call "vector" or other script controlling the call, or upon completion of playback of a recorded message (ordinarily, indicating a change to "silence" or "music").
+The **CallTreatment** member in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) has been updated. This can occur in response to a [**lineSetCallTreatment**](/windows/desktop/api/Tapi/nf-tapi-linesetcalltreatment) function, a call state change, a call "vector" or other script controlling the call, or upon completion of playback of a recorded message (ordinarily, indicating a change to "silence" or "music").
 
 
 </dt> </dl> </dd> <dt>
@@ -326,7 +326,7 @@ The user-user information of the call-information record.
 
 No extensibility. All 32 bits are reserved.
 
-When changes occur in this data structure, a [**LINE\_CALLINFO**](line-callinfo.md) message is sent to the application. The parameters to this message are a handle to the call and an indication of the information item that has changed. The [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag) data structure also indicates which of these call information elements are valid for every call on the address.
+When changes occur in this data structure, a [**LINE\_CALLINFO**](line-callinfo.md) message is sent to the application. The parameters to this message are a handle to the call and an indication of the information item that has changed. The [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps) data structure also indicates which of these call information elements are valid for every call on the address.
 
 ## Requirements
 
@@ -346,10 +346,10 @@ When changes occur in this data structure, a [**LINE\_CALLINFO**](line-callinfo.
 [**LINE\_CALLINFO**](line-callinfo.md)
 </dt> <dt>
 
-[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag)
+[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps)
 </dt> <dt>
 
-[**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag)
+[**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo)
 </dt> <dt>
 
 [**lineSetCallTreatment**](/windows/desktop/api/Tapi/nf-tapi-linesetcalltreatment)

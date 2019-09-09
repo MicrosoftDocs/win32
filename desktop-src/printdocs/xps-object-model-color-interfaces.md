@@ -22,7 +22,7 @@ When using an [**XPS\_COLOR**](xps-color.md) structure, a color profile resource
 [**XPS\_COLOR**](xps-color.md)
 </dt> <dt>
 
-[**XPS\_COLOR\_TYPE**](/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009)
+[**XPS\_COLOR\_TYPE**](/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type)
 </dt> <dt>
 
 [**IXpsOMColorProfileResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource)

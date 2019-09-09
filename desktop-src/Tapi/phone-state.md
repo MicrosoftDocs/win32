@@ -94,7 +94,7 @@ A **PHONE\_STATE** message with an Owners and/or Monitors indication is sent to 
 [**PHONE\_CLOSE**](phone-close.md)
 </dt> <dt>
 
-[**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps_tag)
+[**PHONECAPS**](/windows/desktop/api/Tapi/ns-tapi-phonecaps)
 </dt> <dt>
 
 [**phoneClose**](/windows/desktop/api/Tapi/nf-tapi-phoneclose)

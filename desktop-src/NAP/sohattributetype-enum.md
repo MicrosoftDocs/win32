@@ -193,10 +193,10 @@ The rest of the types are only intended to guide the usage by SHAs and SHVs.
 [**SoHAttributeValue**](sohattributevalue-union.md)
 </dt> <dt>
 
-[**SoHAttribute**](/windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute)
+[**SoHAttribute**](/windows/win32/api/naptypes/ns-naptypes-sohattribute)
 </dt> <dt>
 
-[**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh)
+[**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh)
 </dt> <dt>
 
 [**INapSoHConstructor**](inapsohconstructor.md)

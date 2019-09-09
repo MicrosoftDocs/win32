@@ -39,7 +39,7 @@ typedef struct _PRINTER_INFO_8 {
 **pDevMode**
 </dt> <dd>
 
-A pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that defines the global default printer data such as the paper orientation and the resolution.
+A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that defines the global default printer data such as the paper orientation and the resolution.
 
 </dd> </dl>
 

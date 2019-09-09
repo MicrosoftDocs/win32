@@ -122,11 +122,11 @@ HRESULT CoCreateInstanceAsAdmin(HWND hwnd, REFCLSID rclsid, REFIID riid, __out v
 
 
 
-[**BIND\_OPTS3**](/windows/desktop/api/Objidl/ns-objidl-tagbind_opts3) is new in Windows Vista. It is derived from [**BIND\_OPTS2**](/windows/desktop/api/Objidl/ns-objidl-tagbind_opts2).
+[**BIND\_OPTS3**](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) is new in Windows Vista. It is derived from [**BIND\_OPTS2**](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1).
 
 The only addition is an **HWND** field, **hwnd**. This handle represents a window that becomes the owner of the Elevation UI, if applicable.
 
-If **hwnd** is **NULL**, COM will call [GetActiveWindow](https://go.microsoft.com/fwlink/p/?linkid=103701) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](/windows/desktop/api/Objidl/ns-objidl-tagbind_opts3) structure. In this case, COM will try to use the window associated with the script thread.
+If **hwnd** is **NULL**, COM will call [GetActiveWindow](https://go.microsoft.com/fwlink/p/?linkid=103701) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure. In this case, COM will try to use the window associated with the script thread.
 
 ## Over-The-Shoulder (OTS) Elevation
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Add Tree-View Items
 
-You add an item to a tree-view control by sending the [**TVM\_INSERTITEM**](tvm-insertitem.md) message to the control. The message includes the address of a [**TVINSERTSTRUCT**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvinsertstructa) structure, specifying the parent item, the item after which the new item is inserted, and a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure that defines the attributes of the item. The attributes include the item's label, its selected and nonselected images, and a 32-bit application-defined value.
+You add an item to a tree-view control by sending the [**TVM\_INSERTITEM**](tvm-insertitem.md) message to the control. The message includes the address of a [**TVINSERTSTRUCT**](/windows/win32/api/commctrl/ns-commctrl-tvinsertstructa) structure, specifying the parent item, the item after which the new item is inserted, and a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure that defines the attributes of the item. The attributes include the item's label, its selected and nonselected images, and a 32-bit application-defined value.
 
 ## What you need to know
 

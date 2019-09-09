@@ -106,7 +106,7 @@ To configure the AAC decoder, set the following attributes on the input media ty
 <td>Additional format information.</td>
 <td>The value of this attribute depends on the subtype.<br/>
 <ul>
-<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag"><strong>HEAACWAVEINFO</strong></a> structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
+<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a> structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
 <li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: Contains the AudioSpecificConfig() data. This data must appear; otherwise, the decoder will reject the media type.</li>
 </ul>
 The length of the AudioSpecificConfig() data is 2 bytes for AAC-LC or HE-AAC with implicit signaling of SBR/PS. It is more than 2 bytes for HE-AAC with explicit signaling of SBR/PS.<br/> The value of <strong>audioObjectType</strong> as defined in AudioSpecificConfig() must be 2, indicating AAC-LC. The value of <strong>extensionAudioObjectType</strong> must be 5 for SBR or 29 for PS. <br/></td>
@@ -282,7 +282,7 @@ Here is an example of the input media type needed for a 6-channel, 48-kHz AAC-LC
 
  
 
-The first 12 bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag) structure members:
+The first 12 bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo) structure members:
 
 -   **wPayloadType** = 0 (raw AAC)
 -   **wAudioProfileLevelIndication** = 0x2a (AAC Profile, Level 4)

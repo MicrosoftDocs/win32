@@ -53,7 +53,7 @@ A pointer to a [**SystemHealthEntityCount**](nap-datatypes.md) that describes th
 *agents* \[out\]
 </dt> <dd>
 
-A pointer to an array of [**NapComponentRegistrationInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo) structures that describe the registered SHAs.
+A pointer to an array of [**NapComponentRegistrationInfo**](/windows/win32/api/naptypes/ns-naptypes-napcomponentregistrationinfo) structures that describe the registered SHAs.
 
 </dd> </dl>
 

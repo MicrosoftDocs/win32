@@ -36,7 +36,7 @@ Use the following structures to implement RAS functionality.
 
 [**RASDEVINFO**](https://msdn.microsoft.com/en-us/library/Aa377001(v=VS.85).aspx)
 
-[**RASDEVSPECIFICINFO**](/windows/desktop/api/Ras/ns-ras-tagrasdevspecificinfo)
+[**RASDEVSPECIFICINFO**](/windows/win32/api/ras/ns-ras-rasdevspecificinfo)
 
 [**RASDIALDLG**](https://msdn.microsoft.com/en-us/library/Aa377023(v=VS.85).aspx)
 

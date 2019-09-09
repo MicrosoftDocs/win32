@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-_trackmouseevent"><strong>_TrackMouseEvent</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/commctrl/nf-commctrl-_trackmouseevent"><strong>_TrackMouseEvent</strong></a><br/></td>
 <td>Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent"><strong>TrackMouseEvent</strong></a> if it exists, otherwise it emulates it.<br/></td>
 </tr>
 <tr class="even">
@@ -76,7 +76,7 @@ This function has been superseded. Use <a href="https://docs.microsoft.com/windo
 <td>Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time.<br/>
 <blockquote>
 [!Note]<br />
-The <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-_trackmouseevent"><strong>_TrackMouseEvent</strong></a> function calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent"><strong>TrackMouseEvent</strong></a> if it exists, otherwise <strong>_TrackMouseEvent</strong> emulates <strong>TrackMouseEvent</strong>.
+The <a href="https://docs.microsoft.com/windows/win32/api/commctrl/nf-commctrl-_trackmouseevent"><strong>_TrackMouseEvent</strong></a> function calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent"><strong>TrackMouseEvent</strong></a> if it exists, otherwise <strong>_TrackMouseEvent</strong> emulates <strong>TrackMouseEvent</strong>.
 </blockquote>
 <br/></td>
 </tr>

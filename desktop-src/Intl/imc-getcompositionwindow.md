@@ -31,7 +31,7 @@ Set to IMC\_GETCOMPOSITIONWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform) structure that contains the position of the composition window.
+Pointer to a [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform) structure that contains the position of the composition window.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Because the IME might adjust the position of a composition window, an applicatio
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**COMPOSITIONFORM**](/windows/desktop/api/Imm/ns-imm-tagcompositionform)
+[**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform)
 </dt> </dl>
 
  

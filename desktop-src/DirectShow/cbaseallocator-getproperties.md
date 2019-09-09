@@ -40,7 +40,7 @@ HRESULT GetProperties(
 *pProps* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/desktop/api/strmif/ns-strmif-_allocatorproperties) structure that receives the allocator properties.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that receives the allocator properties.
 
 </dd> </dl>
 

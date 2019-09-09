@@ -41,13 +41,13 @@ The virtual-key code of the key. See [**Virtual-Key Codes**](https://docs.micros
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**MDINEXTMENU**](/windows/desktop/api/Winuser/ns-winuser-tagmdinextmenu) structure that contains information about the menu to be activated.
+A pointer to a [**MDINEXTMENU**](/windows/win32/api/winuser/ns-winuser-mdinextmenu) structure that contains information about the menu to be activated.
 
 </dd> </dl>
 
 ## Remarks
 
-In responding to this message, the application can specify the menu to switch to in the **hmenuNext** member of [**MDINEXTMENU**](/windows/desktop/api/Winuser/ns-winuser-tagmdinextmenu) and the window to receive the menu notification messages in the **hwndNext** member of the **MDINEXTMENU** structure. You must set both members for the changes to take effect (they are initially **NULL**).
+In responding to this message, the application can specify the menu to switch to in the **hmenuNext** member of [**MDINEXTMENU**](/windows/win32/api/winuser/ns-winuser-mdinextmenu) and the window to receive the menu notification messages in the **hwndNext** member of the **MDINEXTMENU** structure. You must set both members for the changes to take effect (they are initially **NULL**).
 
 ## Requirements
 
@@ -68,7 +68,7 @@ In responding to this message, the application can specify the menu to switch to
 **Reference**
 </dt> <dt>
 
-[**MDINEXTMENU**](/windows/desktop/api/Winuser/ns-winuser-tagmdinextmenu)
+[**MDINEXTMENU**](/windows/win32/api/winuser/ns-winuser-mdinextmenu)
 </dt> <dt>
 
 **Conceptual**

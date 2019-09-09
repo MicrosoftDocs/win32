@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/23/2019
 ---
 
 # WM\_XBUTTONUP message
@@ -54,14 +54,14 @@ The low-order word indicates whether various virtual keys are down. It can be on
 
  
 
-The high-order word indicates which button was double-clicked. It can be one of the following values.
+The high-order word indicates which button was released. It can be one of the following values:
 
 
 
 | Value                                                                                                                                                                                                     | Meaning                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The first X button was double-clicked.<br/>  |
-| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The second X button was double-clicked.<br/> |
+| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The first X button was released.<br/>  |
+| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The second X button was released.<br/> |
 
 
 

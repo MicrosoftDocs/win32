@@ -38,7 +38,7 @@ TVN_ITEMEXPANDING
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa) structure. The **itemNew** member is a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure that contains valid information about the parent item in the **hItem**, **state**, and **lParam** members. The **action** member indicates whether the list is to expand or collapse. For a list of possible values, see the description of the [**TVM\_EXPAND**](tvm-expand.md) message.
+Pointer to an [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreeviewa) structure. The **itemNew** member is a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure that contains valid information about the parent item in the **hItem**, **state**, and **lParam** members. The **action** member indicates whether the list is to expand or collapse. For a list of possible values, see the description of the [**TVM\_EXPAND**](tvm-expand.md) message.
 
 </dd> </dl>
 

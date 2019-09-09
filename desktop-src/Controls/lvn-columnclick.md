@@ -36,7 +36,7 @@ LVN_COLUMNCLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure. The **iItem** member is -1, and the **iSubItem** member identifies the column. All other members are zero.
+Pointer to an [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure. The **iItem** member is -1, and the **iSubItem** member identifies the column. All other members are zero.
 
 </dd> </dl>
 

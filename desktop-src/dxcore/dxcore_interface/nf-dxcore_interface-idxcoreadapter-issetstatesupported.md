@@ -14,9 +14,14 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Determines whether this DXCore adapter object and the current operating system (OS) support setting the value of the specified adapter state.
+
+## Syntax
+
+```cpp
+virtual bool STDMETHODCALLTYPE IsSetStateSupported( 
+  DXCoreAdapterState property) = 0;
+```
 
 ## Parameters
 

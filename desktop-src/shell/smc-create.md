@@ -36,7 +36,7 @@ SMC_CREATE
 *psmd* 
 </dt> <dd>
 
-A pointer to the **pvUserData** member of an [**SMDATA**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata) structure.
+A pointer to the **pvUserData** member of an [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) structure.
 
 </dd> </dl>
 

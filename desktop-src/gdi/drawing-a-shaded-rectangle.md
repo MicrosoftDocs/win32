@@ -59,7 +59,7 @@ The following image shows the drawing output of the preceding code example.
 [Drawing a Shaded Triangle](drawing-a-shaded-triangle.md)
 </dt> <dt>
 
-[**EMRGRADIENTFILL**](/windows/desktop/api/Wingdi/ns-wingdi-tagemrgradientfill)
+[**EMRGRADIENTFILL**](/windows/win32/api/wingdi/ns-wingdi-emrgradientfill)
 </dt> <dt>
 
 [**GRADIENT\_RECT**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_rect)

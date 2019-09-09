@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="s"></span><span id="S"></span>*s*
 </dt> <dd>
 
-Pointer to a [**CAPSTATUS**](/windows/desktop/api/Vfw/ns-vfw-tagcapstatus) structure.
+Pointer to a [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ Returns **TRUE** if successful or **FALSE** if the capture window is not connect
 
 ## Remarks
 
-The [**CAPSTATUS**](/windows/desktop/api/Vfw/ns-vfw-tagcapstatus) structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the [**WM\_CAP\_DLG\_VIDEOFORMAT**](wm-cap-dlg-videoformat.md) message (or using the [**capDlgVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capdlgvideoformat) macro) and whenever it needs to enable menu items or determine the actual state of the window.
+The [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the [**WM\_CAP\_DLG\_VIDEOFORMAT**](wm-cap-dlg-videoformat.md) message (or using the [**capDlgVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capdlgvideoformat) macro) and whenever it needs to enable menu items or determine the actual state of the window.
 
 ## Requirements
 

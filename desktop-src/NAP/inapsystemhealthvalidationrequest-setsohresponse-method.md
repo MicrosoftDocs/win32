@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
  
 
-The **INapSystemHealthValidationRequest::SetSoHResponse** method allows System Health Validators (SHVs) to set the [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) to be sent to its System Health Agent (SHA) counterpart on the client-side.
+The **INapSystemHealthValidationRequest::SetSoHResponse** method allows System Health Validators (SHVs) to set the [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) to be sent to its System Health Agent (SHA) counterpart on the client-side.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ HRESULT SetSoHResponse(
 *sohResponse* \[in\]
 </dt> <dd>
 
-A pointer to a [**SoHResponse**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) structure.
+A pointer to a [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) structure.
 
 </dd> </dl>
 

@@ -49,7 +49,7 @@ Number of media types to retrieve.
 *ppMediaTypes* 
 </dt> <dd>
 
-Array of pointers to [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structures, of size *cPins*.
+Array of pointers to [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structures, of size *cPins*.
 
 </dd> <dt>
 

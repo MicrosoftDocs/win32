@@ -42,7 +42,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The menu item type. This member can be a combination of the type (beginning with MFT) values listed with the [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa) structure.
+The menu item type. This member can be a combination of the type (beginning with MFT) values listed with the [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The menu item state. This member can be a combination of the state (beginning with MFS) values listed with the [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa) structure.
+The menu item state. This member can be a combination of the state (beginning with MFS) values listed with the [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure.
 
 </dd> <dt>
 
@@ -132,7 +132,7 @@ An extended menu template consists of a [**MENUEX\_TEMPLATE\_HEADER**](menuex-te
 [**MENUEX\_TEMPLATE\_HEADER**](menuex-template-header.md)
 </dt> <dt>
 
-[**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa)
+[**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa)
 </dt> <dt>
 
 **Conceptual**

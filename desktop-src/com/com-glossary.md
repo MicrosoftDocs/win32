@@ -767,7 +767,7 @@ The state of a COM object when it is stored (on disk or in a database). The obje
 
 Information that can be stored persistently as part of a storage object such as a file or directory. Persistent properties are grouped into property sets, which can be displayed and edited.
 
-A persistent property is different from the run-time properties of objects created with OLE Controls and Automation technologies, which can be used to affect system behavior. The [**PROPVARIANT**](https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant) structure defines all valid types of persistent properties, whereas the **VARIANT** structure defines all valid types of run-time properties.
+A persistent property is different from the run-time properties of objects created with OLE Controls and Automation technologies, which can be used to affect system behavior. The [**PROPVARIANT**](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant) structure defines all valid types of persistent properties, whereas the **VARIANT** structure defines all valid types of run-time properties.
 
 </dd> <dt>
 

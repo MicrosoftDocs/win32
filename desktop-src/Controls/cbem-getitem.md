@@ -32,7 +32,7 @@ Gets item information for a given ComboBoxEx item.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure that receives the item information.
+A pointer to a [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure that receives the item information.
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ Returns nonzero if successful, or zero otherwise.
 
 When the message is sent, the **iItem** and **mask** members of the structure must be set to indicate the index of the target item and the type of information to be retrieved. Other members are set as needed. For example, to retrieve text, you must set the CBEIF\_TEXT flag in **mask**, and assign a value to **cchTextMax**. Setting the **iItem** member to -1 will retrieve the item displayed in the edit control.
 
-If the CBEIF\_TEXT flag is set in the **mask** member of the [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
+If the CBEIF\_TEXT flag is set in the **mask** member of the [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
 
 ## Requirements
 

@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**NMTCKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagtckeydown)
--   [**TCHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtchittestinfo)
--   [**TCITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitema)
--   [**TCITEMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitemheadera)
+-   [**NMTCKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmtckeydown)
+-   [**TCHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-tchittestinfo)
+-   [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl-tcitema)
+-   [**TCITEMHEADER**](/windows/win32/api/commctrl/ns-commctrl-tcitemheadera)
 
  
 

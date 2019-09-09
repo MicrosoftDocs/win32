@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic demonstrates how to add items to a ComboBoxEx control.
 
-To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure. Then, set the **mask** member of the structure to indicate which members you want the control to use. Finally, set the specified members of the structure to the desired values and send the [**CBEM\_INSERTITEM**](cbem-insertitem.md) message to add the item to the control.
+To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure. Then, set the **mask** member of the structure to indicate which members you want the control to use. Finally, set the specified members of the structure to the desired values and send the [**CBEM\_INSERTITEM**](cbem-insertitem.md) message to add the item to the control.
 
 The following application-defined function adds 15 items to an existing ComboBoxEx control.
 
@@ -29,7 +29,7 @@ The following application-defined function adds 15 items to an existing ComboBox
 
 ### Step 1:
 
-To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure.
+To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure.
 
 
 ```C++
@@ -67,7 +67,7 @@ ITEMINFO IInf[ ] = {
 
 ### Step 2:
 
-Set the **mask** member of the structure to indicate which members you want the control to use. Note that the **mask** member of the [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure includes flag values that tell the control to display images for each item.
+Set the **mask** member of the structure to indicate which members you want the control to use. Note that the **mask** member of the [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure includes flag values that tell the control to display images for each item.
 
 
 ```C++

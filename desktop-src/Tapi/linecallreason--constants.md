@@ -127,7 +127,7 @@ The call is a reminder (or "recall") that the user has a call parked or on hold 
 
 
 
-The call appears on the address because the switch needs routing instructions from the application. The application should examine the **CalledID** member in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag), and use the [**lineRedirect**](/windows/desktop/api/Tapi/nf-tapi-lineredirect) function to provide a new dialable address for the call. If the call is to be blocked instead, the application may call [**lineDrop**](/windows/desktop/api/Tapi/nf-tapi-linedrop). If the application fails to take action within a switch-defined timeout period, a default action will be taken. A service provider can use this constant only if the negotiated version on the line is 2.0 or higher. Otherwise the service provider should substitute LINECALLREASON\_UNAVAIL.
+The call appears on the address because the switch needs routing instructions from the application. The application should examine the **CalledID** member in [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo), and use the [**lineRedirect**](/windows/desktop/api/Tapi/nf-tapi-lineredirect) function to provide a new dialable address for the call. If the call is to be blocked instead, the application may call [**lineDrop**](/windows/desktop/api/Tapi/nf-tapi-linedrop). If the application fails to take action within a switch-defined timeout period, a default action will be taken. A service provider can use this constant only if the negotiated version on the line is 2.0 or higher. Otherwise the service provider should substitute LINECALLREASON\_UNAVAIL.
 
 
 </dt> </dl> </dd> <dt>
@@ -176,7 +176,7 @@ The call was retrieved as a parked call.
 
 No extensibility. All 32 bits are reserved.
 
-The LINECALLREASON\_ constants are used in the **dwReason** member of the [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) data structure.
+The LINECALLREASON\_ constants are used in the **dwReason** member of the [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) data structure.
 
 ## Requirements
 
@@ -193,7 +193,7 @@ The LINECALLREASON\_ constants are used in the **dwReason** member of the [**LIN
 
 <dl> <dt>
 
-[**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag)
+[**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo)
 </dt> <dt>
 
 [**lineDrop**](/windows/desktop/api/Tapi/nf-tapi-linedrop)

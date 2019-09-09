@@ -6301,7 +6301,7 @@ This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneC
 
 | API                                                                                                            | Requirements                               |
 |----------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [**\_\_WSAFDIsSet**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-__wsafdisset)                   | Introduced into ws2\_32.dll in 10.0.10240. |
+| [**\_\_WSAFDIsSet**](https://docs.microsoft.com/windows/win32/api/winsock/nf-winsock-__wsafdisset)                   | Introduced into ws2\_32.dll in 10.0.10240. |
 | [**accept**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept)                           | Introduced into ws2\_32.dll in 10.0.10240. |
 | [**bind**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind)                             | Introduced into ws2\_32.dll in 10.0.10240. |
 | [**closesocket**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket)                      | Introduced into ws2\_32.dll in 10.0.10240. |

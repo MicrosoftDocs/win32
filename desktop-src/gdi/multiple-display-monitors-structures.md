@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The following structures are used with the monitor functions:
 
--   [**MONITORINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmonitorinfo)
--   [**MONITORINFOEX**](/windows/desktop/api/Winuser/ns-winuser-tagmonitorinfoexa)
+-   [**MONITORINFO**](/windows/win32/api/winuser/ns-winuser-monitorinfo)
+-   [**MONITORINFOEX**](/windows/win32/api/winuser/ns-winuser-monitorinfoexa)
 
  
 

@@ -27,7 +27,7 @@ The application is willing to handle requests from other applications that have 
 
 
 
-The application should be informed of new calls created on the line device only if those calls appear on the address specified in the **dwAddressID** member in the [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams_tag) structure pointed to by the *lpCallParams* parameter.
+The application should be informed of new calls created on the line device only if those calls appear on the address specified in the **dwAddressID** member in the [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams) structure pointed to by the *lpCallParams* parameter.
 
 
 </dt> </dl> </dd> </dl>

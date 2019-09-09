@@ -12,7 +12,7 @@ Specifies the output format of a device.
 
 ## Data type
 
-**[**MFT\_REGISTER\_TYPE\_INFO**](/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003)** stored as **BYTE\[\]**
+**[**MFT\_REGISTER\_TYPE\_INFO**](/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info)** stored as **BYTE\[\]**
 
 ## Get/set
 

@@ -38,7 +38,7 @@ struct
 };
 ```
 
-Where *wReserved* must equal zero, and *bucket* is an array of [**WM\_LEAKY\_BUCKET\_PAIR**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmleakybucketpair) structures. The array must contain at least two entries, but can be larger. The reader object uses this attribute to determine the amount of content to buffer before playback.
+Where *wReserved* must equal zero, and *bucket* is an array of [**WM\_LEAKY\_BUCKET\_PAIR**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_leaky_bucket_pair) structures. The array must contain at least two entries, but can be larger. The reader object uses this attribute to determine the amount of content to buffer before playback.
 
 ## See also
 

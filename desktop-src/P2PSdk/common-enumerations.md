@@ -14,10 +14,10 @@ The Peer Infrastructure uses the following common constants.
 
 | Constant                                                      | Description                                                   |
 |---------------------------------------------------------------|---------------------------------------------------------------|
-| [**PEER\_CONNECTION\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_connection_flags_tag)      | Specifies the types of connections that a peer can have.      |
-| [**PEER\_CONNECTION\_STATUS**](/windows/desktop/api/P2P/ne-p2p-peer_connection_status_tag)    | Specifies the status of a peer direct or neighbor connection. |
-| [**PEER\_RECORD\_CHANGE\_TYPE**](/windows/desktop/api/P2P/ne-p2p-peer_record_change_type_tag) | Specifies the changes that can occur to a record.             |
-| [**PEER\_RECORD\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_record_flags_tag)              | Specifies a set of flags for peer record behaviors.           |
+| [**PEER\_CONNECTION\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_connection_flags)      | Specifies the types of connections that a peer can have.      |
+| [**PEER\_CONNECTION\_STATUS**](/windows/desktop/api/P2P/ne-p2p-peer_connection_status)    | Specifies the status of a peer direct or neighbor connection. |
+| [**PEER\_RECORD\_CHANGE\_TYPE**](/windows/desktop/api/P2P/ne-p2p-peer_record_change_type) | Specifies the changes that can occur to a record.             |
+| [**PEER\_RECORD\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_record_flags)              | Specifies a set of flags for peer record behaviors.           |
 
 
 

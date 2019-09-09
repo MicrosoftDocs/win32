@@ -45,7 +45,7 @@ HRESULT GetEnforcerPrivateData(
 *privateData* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**PrivateData**](/windows/desktop/api/NapTypes/ns-naptypes-tagprivatedata) opaque data blob that only the enforcer can interpret.
+A pointer to a pointer to a [**PrivateData**](/windows/win32/api/naptypes/ns-naptypes-privatedata) opaque data blob that only the enforcer can interpret.
 
 </dd> </dl>
 

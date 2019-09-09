@@ -36,7 +36,7 @@ The index of the item for which information is to be retrieved.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema) structure. When the message is sent, the **mask** member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the **mask** member specifies zero, the message returns **TRUE** but copies no information to the structure.
+A pointer to an [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) structure. When the message is sent, the **mask** member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the **mask** member specifies zero, the message returns **TRUE** but copies no information to the structure.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-If the HDI\_TEXT flag is set in the **mask** member of the [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
+If the HDI\_TEXT flag is set in the **mask** member of the [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
 
 ## Requirements
 

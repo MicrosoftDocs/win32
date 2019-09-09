@@ -132,7 +132,7 @@ A pointer to a null-terminated string that specifies the name of the printer dri
 **pDevMode**
 </dt> <dd>
 
-A pointer to a [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that contains device-initialization and environment data for the printer driver.
+A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that contains device-initialization and environment data for the printer driver.
 
 </dd> <dt>
 
@@ -298,7 +298,7 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea)
+[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)
 </dt> <dt>
 
 [**EnumJobs**](enumjobs.md)

@@ -59,11 +59,11 @@ This sample is available in the following location.
 
 [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization)
 
-[**PRIORITY\_LEVEL**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001)
+[**PRIORITY\_LEVEL**](/windows/win32/api/searchapi/ne-searchapi-priority_level)
 
-[**ROWSETEVENT\_ITEMSTATE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001)
+[**ROWSETEVENT\_ITEMSTATE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate)
 
-[**ROWSETEVENT\_TYPE**](/windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002)
+[**ROWSETEVENT\_TYPE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type)
 
 ### Other Samples
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Interface Pointers and Interfaces
 
-An instance of an interface implementation is actually a pointer to an array of pointers to methodsâ€”that is, a function table that refers to an implementation of all of the methods specified in the interface. Objects with multiple interfaces can provide pointers to more than one function table. Any code that has a pointer through which it can access the array can call the methods in that interface.
+An instance of an interface implementation is actually a pointer to an array of pointers to methods - that is, a function table that refers to an implementation of all of the methods specified in the interface. Objects with multiple interfaces can provide pointers to more than one function table. Any code that has a pointer through which it can access the array can call the methods in that interface.
 
 Speaking precisely about this multiple indirection is inconvenient, so instead, the pointer to the interface function table that another object must have to call its methods is called simply an *interface pointer*. You can manually create function tables in a C application or almost automatically by using Visual C++ (or other object-oriented languages that support COM).
 

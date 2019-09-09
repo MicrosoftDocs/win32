@@ -42,7 +42,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure that receives information about the user's current font selections.
+A pointer to a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that receives information about the user's current font selections.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ This message does not return a value.
 
 ## Remarks
 
-The [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure.
+The [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 Use the **WM\_CHOOSEFONT\_GETLOGFONT** message to get information about the user's current font selections while the **Font** dialog box is open. For example, if you enable the **Apply** button in the **Font** dialog box, send the message to get the font information to apply to the current text selection.
 
@@ -80,10 +80,10 @@ Typically, you enable a [*CFHookProc*](https://msdn.microsoft.com/en-us/library/
 [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
 </dt> <dt>
 
-[**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
+[**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
+[**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
 [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
@@ -98,7 +98,7 @@ Typically, you enable a [*CFHookProc*](https://msdn.microsoft.com/en-us/library/
 **Other Resources**
 </dt> <dt>
 
-[**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta)
+[**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta)
 </dt> </dl>
 
  

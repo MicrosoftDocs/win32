@@ -36,8 +36,8 @@ The following are the functions:
 The following are the structures:
 
 -   [**GLYPHMETRICSFLOAT**](/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat)
--   [**LAYERPLANEDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-taglayerplanedescriptor)
--   [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor)
+-   [**LAYERPLANEDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-layerplanedescriptor)
+-   [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor)
 -   [**POINTFLOAT**](/windows/desktop/api/wingdi/ns-wingdi-pointfloat)
 
  

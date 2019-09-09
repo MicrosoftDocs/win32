@@ -45,7 +45,7 @@ HRESULT GetCacheSoHFlag(
 *cacheSohForLaterUse* 
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the NapAgent should cache the [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and **FALSE** otherwise.
+A **BOOL** that is **TRUE** if the NapAgent should cache the [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) and **FALSE** otherwise.
 
 </dd> </dl>
 

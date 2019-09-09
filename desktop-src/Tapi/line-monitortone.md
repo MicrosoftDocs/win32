@@ -38,7 +38,7 @@ The callback instance supplied when opening the call's line.
 *dwParam1* 
 </dt> <dd>
 
-The application-specific **dwAppSpecific** member of the [**LINEMONITORTONE**](/windows/desktop/api/Tapi/ns-tapi-linemonitortone_tag) structure for the tone that was detected.
+The application-specific **dwAppSpecific** member of the [**LINEMONITORTONE**](/windows/desktop/api/Tapi/ns-tapi-linemonitortone) structure for the tone that was detected.
 
 </dd> <dt>
 
@@ -92,7 +92,7 @@ If the service provider does not generate the timestamp (for example, if it was 
 [**LINE\_MONITORDIGITS**](line-monitordigits.md)
 </dt> <dt>
 
-[**LINEMONITORTONE**](/windows/desktop/api/Tapi/ns-tapi-linemonitortone_tag)
+[**LINEMONITORTONE**](/windows/desktop/api/Tapi/ns-tapi-linemonitortone)
 </dt> <dt>
 
 [**lineMonitorTones**](/windows/desktop/api/Tapi/nf-tapi-linemonitortones)

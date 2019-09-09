@@ -36,7 +36,7 @@ TBN_GETOBJECT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMOBJECTNOTIFY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmobjectnotify) structure that contains information about the button that the pointer passed over and receives data the application provides in response to this notification code.
+Pointer to an [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-commctrl-nmobjectnotify) structure that contains information about the button that the pointer passed over and receives data the application provides in response to this notification code.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ The application processing this notification code must return zero.
 
 ## Remarks
 
-To provide an object, an application must set values in some members of the [**NMOBJECTNOTIFY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmobjectnotify) structure at *lParam*. The **pObject** member must be set to a valid object pointer, and the **hResult** member must be set to a success flag. To comply with Component Object Model (COM) standards, always increment the object's reference count when providing an object pointer.
+To provide an object, an application must set values in some members of the [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-commctrl-nmobjectnotify) structure at *lParam*. The **pObject** member must be set to a valid object pointer, and the **hResult** member must be set to a success flag. To comply with Component Object Model (COM) standards, always increment the object's reference count when providing an object pointer.
 
 If an application does not provide an object, it must set **pObject** to **NULL** and **hResult** to a failure flag.
 

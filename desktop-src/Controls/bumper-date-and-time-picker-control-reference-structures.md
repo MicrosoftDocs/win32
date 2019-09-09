@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**DATETIMEPICKERINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagdatetimepickerinfo)
--   [**NMDATETIMECHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimechange)
--   [**NMDATETIMEFORMAT**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimeformata)
--   [**NMDATETIMEFORMATQUERY**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimeformatquerya)
--   [**NMDATETIMESTRING**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimestringa)
--   [**NMDATETIMEWMKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimewmkeydowna)
+-   [**DATETIMEPICKERINFO**](/windows/win32/api/commctrl/ns-commctrl-datetimepickerinfo)
+-   [**NMDATETIMECHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimechange)
+-   [**NMDATETIMEFORMAT**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimeformata)
+-   [**NMDATETIMEFORMATQUERY**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimeformatquerya)
+-   [**NMDATETIMESTRING**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimestringa)
+-   [**NMDATETIMEWMKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimewmkeydowna)
 
  
 

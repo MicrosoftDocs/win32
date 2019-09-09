@@ -110,7 +110,7 @@ HRESULT put_AddressType(
 [**IADsNetAddress**](/windows/desktop/api/Iads/nn-iads-iadsnetaddress)
 </dt> <dt>
 
-[**ADS\_NETADDRESS**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0011)
+[**ADS\_NETADDRESS**](/windows/win32/api/iads/ns-iads-ads_netaddress)
 </dt> </dl>
 
  

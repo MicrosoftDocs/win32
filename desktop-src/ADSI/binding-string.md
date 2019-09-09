@@ -75,7 +75,7 @@ The following table lists ADsPath special characters.
 
  
 
-To delimit an ADsPath in a search specification or as part of a URL, use the left and right angle bracket (< >). For example, "<WinNT://MyDomain/UserAccount>".
+To delimit an ADsPath in a search specification or as part of a URL, use the left and right angle bracket (< >). For example, "&lt;WinNT://MyDomain/UserAccount&gt;".
 
 Some ADSI providers may have added syntax restrictions due to namespace requirements.
 

@@ -34,7 +34,7 @@ The dialog box number. This number must be in the range zero through one less th
 *lData* 
 </dt> <dd>
 
-The value that the Control Panel application loaded into the **lpData** member of the [**CPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagcplinfo) or [**NEWCPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagnewcplinfoa) structure for the dialog box. The application loads the **lpData** member in response to the [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md) message.
+The value that the Control Panel application loaded into the **lpData** member of the [**CPLINFO**](/windows/win32/api/cpl/ns-cpl-cplinfo) or [**NEWCPLINFO**](/windows/win32/api/cpl/ns-cpl-newcplinfoa) structure for the dialog box. The application loads the **lpData** member in response to the [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md) message.
 
 </dd> </dl>
 

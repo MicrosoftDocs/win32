@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Use the following enumerated types for authentication protocols and authentication providers.
 
 -   [**PPP\_EAP\_ACTION**](/windows/desktop/api/Raseapif/ne-raseapif-ppp_eap_action)
--   [**RAS\_AUTH\_ATTRIBUTE\_TYPE**](/previous-versions/windows/desktop/api/Raseapif/ne-raseapif-_ras_auth_attribute_type_)
+-   [**RAS\_AUTH\_ATTRIBUTE\_TYPE**](/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type)
 
  
 

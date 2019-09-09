@@ -65,7 +65,7 @@ The **cpMin** member of **FINDTEXTEX.chrg** always specifies the starting-point 
 
 If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure returns the range of character positions that contains the matching text.
 
-**EM\_FINDTEXTEXW** uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure, while [**EM\_FINDTEXTW**](em-findtextw.md) uses the [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure. The difference is that **EM\_FINDTEXTEXW** reports the range of text that was found.
+**EM\_FINDTEXTEXW** uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure, while [**EM\_FINDTEXTW**](em-findtextw.md) uses the [**FINDTEXTW**](/windows/win32/api/richedit/ns-richedit-findtexta) structure. The difference is that **EM\_FINDTEXTEXW** reports the range of text that was found.
 
 ## Requirements
 

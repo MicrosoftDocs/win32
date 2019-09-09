@@ -16,9 +16,9 @@ ms.date: 05/31/2018
 
 | Enumeration                                                       | Description                                                                                                 |
 |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [**XPS\_SIGN\_FLAGS**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003)<br/>             | Specifies whether markup compatibility detection must be run before signing.<br/>                     |
-| [**XPS\_SIGN\_POLICY**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002)<br/>           | A bitwise enumerator that indicates which, if any, optional parts of an XPS document are signed.<br/> |
-| [**XPS\_SIGNATURE\_STATUS**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0001)<br/> | Describes the status of a document's digital signature.<br/>                                          |
+| [**XPS\_SIGN\_FLAGS**](/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags)<br/>             | Specifies whether markup compatibility detection must be run before signing.<br/>                     |
+| [**XPS\_SIGN\_POLICY**](/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy)<br/>           | A bitwise enumerator that indicates which, if any, optional parts of an XPS document are signed.<br/> |
+| [**XPS\_SIGNATURE\_STATUS**](/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_signature_status)<br/> | Describes the status of a document's digital signature.<br/>                                          |
 
 
 

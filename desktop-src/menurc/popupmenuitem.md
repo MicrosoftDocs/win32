@@ -47,7 +47,7 @@ Type: **DWORD**
 
 Describes the menu item. Some of the values this member can have include those shown in the list below.
 
-In addition to the values shown, this member can also be a combination of the type values listed with the **fType** member of the [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa) structure. The type values are those that begin with MFT\_. To use these predefined MFT\_\* type values, include the following statement in your .rc file:
+In addition to the values shown, this member can also be a combination of the type values listed with the **fType** member of the [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure. The type values are those that begin with MFT\_. To use these predefined MFT\_\* type values, include the following statement in your .rc file:
 
 `#include "winuser.h"`
 
@@ -71,7 +71,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-Describes the menu item. This member can be a combination of the state values listed with the **dwState** member of the [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa) structure. The state values are those that begin with MFS\_. To use these predefined MFS\_\* state values, include the following statement in your .rc file:
+Describes the menu item. This member can be a combination of the state values listed with the **dwState** member of the [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure. The state values are those that begin with MFS\_. To use these predefined MFS\_\* state values, include the following statement in your .rc file:
 
 `#include "winuser.h"`
 
@@ -153,7 +153,7 @@ Indicate the last menu item by setting the **type** member to **MF\_END**. Becau
 [**MENUHELPID**](menuhelpid.md)
 </dt> <dt>
 
-[**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa)
+[**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa)
 </dt> <dt>
 
 [**NORMALMENUITEM**](normalmenuitem.md)

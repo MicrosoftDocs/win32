@@ -38,7 +38,7 @@ TVN_ITEMCHANGING
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVITEMCHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemchange) structure describing the item that is changing. The **uChanged** member is set to TVIF\_STATE.
+Pointer to an [**NMTVITEMCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmtvitemchange) structure describing the item that is changing. The **uChanged** member is set to TVIF\_STATE.
 
 </dd> </dl>
 

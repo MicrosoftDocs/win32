@@ -31,7 +31,7 @@ The property methods of the [**IADsPathname**](/windows/desktop/api/Iads/nn-iads
 **EscapedMode**
 </dt> <dd> <dl>
 
-Examine or specify how escaped characters are handled in a pathname. For more information and defined options, see [**ADS\_ESCAPE\_MODE\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0078_0004).
+Examine or specify how escaped characters are handled in a pathname. For more information and defined options, see [**ADS\_ESCAPE\_MODE\_ENUM**](/windows/win32/api/iads/ne-iads-ads_escape_mode_enum).
 
 <dt>
 
@@ -62,7 +62,7 @@ HRESULT get_EscapedMode(
 
 **EscapedMode** represents a state. You can turn it on or off, by setting it to ADS\_ESCAPEDMODE\_ON or ADS\_ESCAPEDMODE\_OFF/ADS\_ESCAPEDMODE\_OFF\_EX. When it is turned on, or off, all subsequent retrievals produce escaped or unescaped path strings.
 
-In ADSI only the [**IADsPathname**](/windows/desktop/api/Iads/nn-iads-iadspathname) is capable of unescaping paths. All other ADSI interfaces always return escaped paths. The default state of **EscapedMode** is ADS\_ESCAPEDMODE\_DEFAULT as defined in [**ADS\_ESCAPE\_MODE\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0078_0004).
+In ADSI only the [**IADsPathname**](/windows/desktop/api/Iads/nn-iads-iadspathname) is capable of unescaping paths. All other ADSI interfaces always return escaped paths. The default state of **EscapedMode** is ADS\_ESCAPEDMODE\_DEFAULT as defined in [**ADS\_ESCAPE\_MODE\_ENUM**](/windows/win32/api/iads/ne-iads-ads_escape_mode_enum).
 
 ## Examples
 
@@ -235,7 +235,7 @@ hr = pPathname->Release();
 [**IADsPathname**](/windows/desktop/api/Iads/nn-iads-iadspathname)
 </dt> <dt>
 
-[**ADS\_ESCAPE\_MODE\_ENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0001_0078_0004)
+[**ADS\_ESCAPE\_MODE\_ENUM**](/windows/win32/api/iads/ne-iads-ads_escape_mode_enum)
 </dt> </dl>
 
  

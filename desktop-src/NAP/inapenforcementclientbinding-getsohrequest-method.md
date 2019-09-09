@@ -53,7 +53,7 @@ A COM pointer to an [**INapEnforcementClientConnection**](inapenforcementclientc
 *retriggerHint* \[out\]
 </dt> <dd>
 
-A pointer to a **BOOL** that indicates if the connection should be re-triggered. It is **TRUE** if the [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) has changed since this function was last called or if [**ProbationTime**](nap-datatypes.md) has expired. Otherwise, **FALSE** is returned.
+A pointer to a **BOOL** that indicates if the connection should be re-triggered. It is **TRUE** if the [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) has changed since this function was last called or if [**ProbationTime**](nap-datatypes.md) has expired. Otherwise, **FALSE** is returned.
 
 </dd> </dl>
 
@@ -76,9 +76,9 @@ Other COM-specific error codes also may be returned.
 
 ## Remarks
 
-The NapAgent sets the [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) on the connection object.
+The NapAgent sets the [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) on the connection object.
 
-If an [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) was outstanding on this connection, then it is discarded, and the SHAs are notified of orphaned **SoHRequests**.
+If an [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) was outstanding on this connection, then it is discarded, and the SHAs are notified of orphaned **SoHRequests**.
 
 The enforcement client must call the [**INapEnforcementClientBinding::Initialize**](inapenforcementclientbinding-initialize-method.md) method before calling this or any other method of the [**INapEnforcementClientBinding**](inapenforcementclientbinding.md) interface.
 

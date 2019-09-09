@@ -24,7 +24,7 @@ This topic contains the following sections.
 
 Effectively, a ComboBoxEx control creates a child combo box and performs owner draw tasks for you based on an assigned image list. Therefore, the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md) style is implied and it's not necessary to use it when creating the control. Because image lists are used to provide item graphics, the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md) style cannot be used.
 
-A ComboBoxEx control must be initialized by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, specifying ICC\_USEREX\_CLASSES in the accompanying [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure.
+A ComboBoxEx control must be initialized by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, specifying ICC\_USEREX\_CLASSES in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure.
 
 You can create a ComboBoxEx control by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying [**WC\_COMBOBOXEX**](common-control-window-classes.md) as the window class. The class is registered when the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function is called as explained above.
 
@@ -50,13 +50,13 @@ Because the ComboBoxEx control performs owner draw tasks for you based on an ass
 
 ## ComboBoxEx Control Items
 
-ComboBoxEx controls maintain item information using a [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure. This structure includes members for item indexes, image indexes (normal, selection state, and overlay), indentation values, text strings, and item-specific values.
+ComboBoxEx controls maintain item information using a [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure. This structure includes members for item indexes, image indexes (normal, selection state, and overlay), indentation values, text strings, and item-specific values.
 
 The ComboBoxEx control provides easy access to and manipulation of items through messaging. To add or delete an item, send the [**CBEM\_INSERTITEM**](cbem-insertitem.md) or [**CBEM\_DELETEITEM**](cbem-deleteitem.md) message. You can modify items currently in the control using the [**CBEM\_SETITEM**](cbem-setitem.md) message.
 
 ## Callback Items
 
-ComboBoxEx controls support callback item attributes. You can specify an item as a callback item when you add it to the control using [**CBEM\_INSERTITEM**](cbem-insertitem.md). When you assign values to an item's [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure, you must specify the appropriate callback flag values. The following are **COMBOBOXEXITEM** structure members and their corresponding callback flag values.
+ComboBoxEx controls support callback item attributes. You can specify an item as a callback item when you add it to the control using [**CBEM\_INSERTITEM**](cbem-insertitem.md). When you assign values to an item's [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure, you must specify the appropriate callback flag values. The following are **COMBOBOXEXITEM** structure members and their corresponding callback flag values.
 
 
 
@@ -72,13 +72,13 @@ ComboBoxEx controls support callback item attributes. You can specify an item as
 
  
 
-The control will request information about callback items by sending [CBEN\_GETDISPINFO](cben-getdispinfo.md) notification codes. This notification is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. When your application processes this message, it must provide the requested information for the control. If you set the **mask** member of the accompanying [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure to CBEIF\_DI\_SETITEM, the control will store the item data and will not request it again.
+The control will request information about callback items by sending [CBEN\_GETDISPINFO](cben-getdispinfo.md) notification codes. This notification is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. When your application processes this message, it must provide the requested information for the control. If you set the **mask** member of the accompanying [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure to CBEIF\_DI\_SETITEM, the control will store the item data and will not request it again.
 
 ## ComboBoxEx Control Image Lists
 
 If you want a ComboBoxEx control to display icons with items, you must provide an image list. ComboBoxEx controls support up to three images for an item—one for its selected state, one for its nonselected state, and one for an overlay image. Assign an existing image list to a ComboBoxEx control using the [**CBEM\_SETIMAGELIST**](cbem-setimagelist.md) message.
 
-The [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure contains members that represent the image indexes for each image list (selected, unselected, and overlay). For each item, set these members to display the desired images. It is not necessary to specify image indexes for each type of image. You can mix and match image types as you like, but always set the **mask** member of the **COMBOBOXEXITEM** structure to indicate which members are being used. The control ignores members that have not been flagged as valid.
+The [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure contains members that represent the image indexes for each image list (selected, unselected, and overlay). For each item, set these members to display the desired images. It is not necessary to specify image indexes for each type of image. You can mix and match image types as you like, but always set the **mask** member of the **COMBOBOXEXITEM** structure to indicate which members are being used. The control ignores members that have not been flagged as valid.
 
 > [!Note]  
 > If you use the [**CBS\_SIMPLE**](combo-box-styles.md) style, icons are not displayed.

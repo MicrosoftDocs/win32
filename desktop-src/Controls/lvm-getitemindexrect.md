@@ -27,7 +27,7 @@ Retrieves the bounding rectangle for all or part of a subitem in the current vie
 *wParam* \[in\]
 </dt> <dd>
 
-A pointer to a [**LVITEMINDEX**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitemindex) structure for the parent item of the subitem. The calling process is responsible for allocating this structure and setting its members. *wParam* must not be **NULL**.
+A pointer to a [**LVITEMINDEX**](/windows/win32/api/commctrl/ns-commctrl-lvitemindex) structure for the parent item of the subitem. The calling process is responsible for allocating this structure and setting its members. *wParam* must not be **NULL**.
 
 </dd> <dt>
 

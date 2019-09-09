@@ -38,7 +38,7 @@ TVN_SETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoa) structure that describes the item being updated. The **hItem** member of the [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure specifies the item being updated, and the **mask** member specifies which attributes of the item are being updated.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoa) structure that describes the item being updated. The **hItem** member of the [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure specifies the item being updated, and the **mask** member specifies which attributes of the item are being updated.
 
 </dd> </dl>
 
@@ -48,9 +48,9 @@ The return value is ignored.
 
 ## Remarks
 
-If the **pszText** member of the item's [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification to set the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
+If the **pszText** member of the item's [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification to set the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
 
-If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure is the I\_IMAGECALLBACK value, the control sends this notification to retrieve the index of the icon image to display. In this case, the **mask** member of *lParam* will have the TVIF\_IMAGE or TVIF\_SELECTEDIMAGE flag set.
+If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure is the I\_IMAGECALLBACK value, the control sends this notification to retrieve the index of the icon image to display. In this case, the **mask** member of *lParam* will have the TVIF\_IMAGE or TVIF\_SELECTEDIMAGE flag set.
 
 ## Requirements
 
@@ -69,10 +69,10 @@ If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](/windo
 
 <dl> <dt>
 
-[**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema)
+[**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema)
 </dt> <dt>
 
-[**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa)
+[**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa)
 </dt> <dt>
 
 [TVN\_GETDISPINFO](tvn-getdispinfo.md)

@@ -141,7 +141,7 @@ HRESULT put_ObjectName(
 [**IADsTypedName**](/windows/desktop/api/Iads/nn-iads-iadstypedname)
 </dt> <dt>
 
-[**ADS\_TYPEDNAME**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0009)
+[**ADS\_TYPEDNAME**](/windows/win32/api/iads/ns-iads-ads_typedname)
 </dt> </dl>
 
  

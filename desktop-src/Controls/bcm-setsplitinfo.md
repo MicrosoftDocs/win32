@@ -34,7 +34,7 @@ Must be zero.
 *lParam* \[in\]
 </dt> <dd>
 
-A pointer to a [**BUTTON\_SPLITINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagbutton_splitinfo) structure containing information about the split button.
+A pointer to a [**BUTTON\_SPLITINFO**](/windows/win32/api/commctrl/ns-commctrl-button_splitinfo) structure containing information about the split button.
 
 </dd> </dl>
 

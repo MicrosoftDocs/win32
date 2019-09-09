@@ -86,7 +86,7 @@ The call origin is currently unknown but may become known later.
 
 No extensibility. All 32 bits are reserved.
 
-The origin of a call is stored in the **dwOrigin** member of the call's [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo_tag) structure.
+The origin of a call is stored in the **dwOrigin** member of the call's [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) structure.
 
 ## Requirements
 

@@ -17,7 +17,7 @@ The **LINETRANSLATEOPTION\_** bit-flag constant describes an option used by addr
 
 
 
-If a Cancel Call Waiting string is defined for the location, setting this bit will cause that string to be inserted at the beginning of the dialable string. This is commonly used by data modem and fax applications to prevent interruption of calls by call waiting beeps. If no Cancel Call Waiting string is defined for the location, this bit has no affect. Note that applications using this bit are advised to also set the LINECALLPARAMFLAGS\_SECURE bit in the **dwCallParamFlags** member of the [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams_tag) structure passed in to [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall) through the *lpCallParams* parameter, so that if the line device uses a mechanism other than dialable digits to suppress call interrupts then that mechanism will be invoked.
+If a Cancel Call Waiting string is defined for the location, setting this bit will cause that string to be inserted at the beginning of the dialable string. This is commonly used by data modem and fax applications to prevent interruption of calls by call waiting beeps. If no Cancel Call Waiting string is defined for the location, this bit has no affect. Note that applications using this bit are advised to also set the LINECALLPARAMFLAGS\_SECURE bit in the **dwCallParamFlags** member of the [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams) structure passed in to [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall) through the *lpCallParams* parameter, so that if the line device uses a mechanism other than dialable digits to suppress call interrupts then that mechanism will be invoked.
 
 
 </dt> </dl> </dd> <dt>
@@ -71,13 +71,13 @@ No extensibility. All 32 bits are reserved.
 
 <dl> <dt>
 
-[**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams_tag)
+[**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams)
 </dt> <dt>
 
 [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall)
 </dt> <dt>
 
-[**LINETRANSLATEOUTPUT**](/windows/desktop/api/Tapi/ns-tapi-linetranslateoutput_tag)
+[**LINETRANSLATEOUTPUT**](/windows/desktop/api/Tapi/ns-tapi-linetranslateoutput)
 </dt> </dl>
 
  

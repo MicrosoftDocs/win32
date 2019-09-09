@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-The **AllocFixupInfo** function allocates memory for a [**FixupInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagfixupinfo) structure of the specified size.
+The **AllocFixupInfo** function allocates memory for a [**FixupInfo**](/windows/win32/api/naptypes/ns-naptypes-fixupinfo) structure of the specified size.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ NAPAPI HRESULT WINAPI AllocFixupInfo(
 *fixupInfo* \[in, out\]
 </dt> <dd>
 
-A pointer to the address of a newly allocated [**FixupInfo**](/windows/desktop/api/NapTypes/ns-naptypes-tagfixupinfo) structure.
+A pointer to the address of a newly allocated [**FixupInfo**](/windows/win32/api/naptypes/ns-naptypes-fixupinfo) structure.
 
 </dd> <dt>
 

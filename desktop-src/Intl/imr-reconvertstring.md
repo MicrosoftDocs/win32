@@ -31,7 +31,7 @@ Set to IMR\_RECONVERTSTRING.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing the [**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring) structure and strings.
+Pointer to a buffer containing the [**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring) structure and strings.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ Returns the current reconversion string structure. If *lParam* is set to **NULL*
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**RECONVERTSTRING**](/windows/desktop/api/Imm/ns-imm-tagreconvertstring)
+[**RECONVERTSTRING**](/windows/win32/api/imm/ns-imm-reconvertstring)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

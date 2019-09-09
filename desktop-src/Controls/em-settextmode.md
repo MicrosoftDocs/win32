@@ -27,14 +27,14 @@ Sets the text mode or undo level of a rich edit control. The message fails if th
 *wParam* 
 </dt> <dd>
 
-One or more values from the [**TEXTMODE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode) enumeration type. The values specify the new settings for the control's text mode and undo level parameters.
+One or more values from the [**TEXTMODE**](/windows/win32/api/richedit/ne-richedit-textmode) enumeration type. The values specify the new settings for the control's text mode and undo level parameters.
 
 Specify one of the following values to set the text mode parameter. If you do not specify a text mode value, the text mode remains at its current setting. 
 
 | Value                                          | Meaning                                                                                                                                                               |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TM\_PLAINTEXT**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode) | Indicates plain text mode, in which the control is similar to a standard edit control. For more information about plain text mode, see the following Remarks section. |
-| [**TM\_RICHTEXT**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode)   | Indicates rich text mode, in which the control has standard rich edit functionality. Rich text mode is the default setting.                                           |
+| [**TM\_PLAINTEXT**](/windows/win32/api/richedit/ne-richedit-textmode) | Indicates plain text mode, in which the control is similar to a standard edit control. For more information about plain text mode, see the following Remarks section. |
+| [**TM\_RICHTEXT**](/windows/win32/api/richedit/ne-richedit-textmode)   | Indicates rich text mode, in which the control has standard rich edit functionality. Rich text mode is the default setting.                                           |
 
 
 
@@ -44,8 +44,8 @@ Specify one of the following values to set the undo level parameter. If you do n
 
 | Value                                                      | Meaning                                                                                                                                                                            |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TM\_SINGLELEVELUNDO**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode) | The control allows the user to undo only the last action that can be undone.                                                                                                       |
-| [**TM\_MULTILEVELUNDO**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode)   | The control supports multiple undo operations. This is the default setting. Use the [**EM\_SETUNDOLIMIT**](em-setundolimit.md) message to set the maximum number of undo actions. |
+| [**TM\_SINGLELEVELUNDO**](/windows/win32/api/richedit/ne-richedit-textmode) | The control allows the user to undo only the last action that can be undone.                                                                                                       |
+| [**TM\_MULTILEVELUNDO**](/windows/win32/api/richedit/ne-richedit-textmode)   | The control supports multiple undo operations. This is the default setting. Use the [**EM\_SETUNDOLIMIT**](em-setundolimit.md) message to set the maximum number of undo actions. |
 
 
 
@@ -55,8 +55,8 @@ Specify one of the following values to set the code page parameter. If you do no
 
 | Value                                                    | Meaning                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TM\_SINGLECODEPAGE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode) | The control only allows the English keyboard and a keyboard corresponding to the default character set. For example, you could have Greek and English. Note that this prevents Unicode text from entering the control. For example, use this value if a Rich Edit control must be restricted to ANSI text. |
-| [**TM\_MULTICODEPAGE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode)   | The control allows multiple code pages and Unicode text into the control. This is the default setting.                                                                                                                                                                                                     |
+| [**TM\_SINGLECODEPAGE**](/windows/win32/api/richedit/ne-richedit-textmode) | The control only allows the English keyboard and a keyboard corresponding to the default character set. For example, you could have Greek and English. Note that this prevents Unicode text from entering the control. For example, use this value if a Rich Edit control must be restricted to ANSI text. |
+| [**TM\_MULTICODEPAGE**](/windows/win32/api/richedit/ne-richedit-textmode)   | The control allows multiple code pages and Unicode text into the control. This is the default setting.                                                                                                                                                                                                     |
 
 
 
@@ -109,7 +109,7 @@ The control must contain no text when it receives the **EM\_SETTEXTMODE** messag
 [**EM\_SETUNDOLIMIT**](em-setundolimit.md)
 </dt> <dt>
 
-[**TEXTMODE**](/windows/desktop/api/Richedit/ne-richedit-tagtextmode)
+[**TEXTMODE**](/windows/win32/api/richedit/ne-richedit-textmode)
 </dt> <dt>
 
 [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext)

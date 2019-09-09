@@ -12,11 +12,11 @@ The following structures are used with tool help library:
 
 <dl>
 
-[**HEAPENTRY32**](/windows/desktop/api/TlHelp32/ns-tlhelp32-tagheapentry32)  
-[**HEAPLIST32**](/windows/desktop/api/TlHelp32/ns-tlhelp32-tagheaplist32)  
-[**MODULEENTRY32**](/windows/desktop/api/TlHelp32/ns-tlhelp32-tagmoduleentry32)  
-[**PROCESSENTRY32**](/windows/desktop/api/TlHelp32/ns-tlhelp32-tagprocessentry32)  
-[**THREADENTRY32**](/windows/desktop/api/TlHelp32/ns-tlhelp32-tagthreadentry32)  
+[**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32)  
+[**HEAPLIST32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heaplist32)  
+[**MODULEENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-moduleentry32)  
+[**PROCESSENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-processentry32)  
+[**THREADENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-threadentry32)  
 </dl>
 
  

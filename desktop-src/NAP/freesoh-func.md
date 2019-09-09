@@ -43,7 +43,7 @@ NAPAPI VOID WINAPI FreeSoH(
 *soh* \[in\]
 </dt> <dd>
 
-A pointer to the [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) data structure to free.
+A pointer to the [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) data structure to free.
 
 </dd> </dl>
 

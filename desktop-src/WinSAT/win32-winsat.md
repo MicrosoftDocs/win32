@@ -151,7 +151,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-State of the assessment. For a description of the possible values, see the [**WINSAT\_ASSESSMENT\_STATE**](/windows/desktop/api/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0002) enumeration.
+State of the assessment. For a description of the possible values, see the [**WINSAT\_ASSESSMENT\_STATE**](/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_state) enumeration.
 
 <dl> <dt>
 

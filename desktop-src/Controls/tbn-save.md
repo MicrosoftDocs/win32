@@ -36,7 +36,7 @@ TBN_SAVE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBSAVE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave) structure.
+Pointer to an [**NMTBSAVE**](/windows/win32/api/commctrl/ns-commctrl-nmtbsave) structure.
 
 </dd> </dl>
 

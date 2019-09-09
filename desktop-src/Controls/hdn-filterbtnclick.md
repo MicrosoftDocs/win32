@@ -36,7 +36,7 @@ HDN_FILTERBTNCLICK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDFILTERBTNCLICK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhdfilterbtnclick) structure that contains information about the header control and the header filter button.
+A pointer to an [**NMHDFILTERBTNCLICK**](/windows/win32/api/commctrl/ns-commctrl-nmhdfilterbtnclick) structure that contains information about the header control and the header filter button.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ If you return **TRUE**, an [HDN\_FILTERCHANGE](hdn-filterchange.md) notification
 
 <dl> <dt>
 
-[**NMHDFILTERBTNCLICK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmhdfilterbtnclick)
+[**NMHDFILTERBTNCLICK**](/windows/win32/api/commctrl/ns-commctrl-nmhdfilterbtnclick)
 </dt> </dl>
 
  

@@ -28,7 +28,7 @@ A DRM-enabled reader application, in its [**IWMStatusCallback::OnStatus**](/wind
 
 **WMT\_LICENSEURL\_SIGNATURE\_STATE**
 
-When the DRM component detects content protected by DRM version 7, it first looks for a valid license on the local system. If none exists, it then evaluates the license acquisition URL in the file's DRM header and sends a **WMT\_LICENSEURL\_SIGNATURE\_STATE** event with *pValue* set to one of the [**WMT\_DRMLA\_TRUST**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_drmla_trust) values, indicating whether the URL is trusted, untrusted, or has been tampered with. If the URL is not trusted, then the application should warn the user. If the URL has been tampered with, then the file should be considered corrupted, and the application should not navigate to the URL without issuing a strong warning the user.
+When the DRM component detects content protected by DRM version 7, it first looks for a valid license on the local system. If none exists, it then evaluates the license acquisition URL in the file's DRM header and sends a **WMT\_LICENSEURL\_SIGNATURE\_STATE** event with *pValue* set to one of the [**WMT\_DRMLA\_TRUST**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_drmla_trust) values, indicating whether the URL is trusted, untrusted, or has been tampered with. If the URL is not trusted, then the application should warn the user. If the URL has been tampered with, then the file should be considered corrupted, and the application should not navigate to the URL without issuing a strong warning the user.
 
 **WMT\_NO\_RIGHTS**
 

@@ -36,13 +36,13 @@ NM_GETCUSTOMSPLITRECT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCUSTOMSPLITRECTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo) to receive bounding rectangles information. The **NMCUSTOMSPLITRECTINFO** structure is sent with the notification code as a request for the parent to provide measurements for the rectangles of the split button.
+A pointer to an [**NMCUSTOMSPLITRECTINFO**](/windows/win32/api/commctrl/ns-commctrl-nmcustomsplitrectinfo) to receive bounding rectangles information. The **NMCUSTOMSPLITRECTINFO** structure is sent with the notification code as a request for the parent to provide measurements for the rectangles of the split button.
 
 </dd> </dl>
 
 ## Return value
 
-Return [**CDRF\_SKIPDEFAULT**](cdrf-constants.md) to tell the button control to use the values returned in the [**NMCUSTOMSPLITRECTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo) structure; otherwise, return [**CDRF\_DODEFAULT**](cdrf-constants.md).
+Return [**CDRF\_SKIPDEFAULT**](cdrf-constants.md) to tell the button control to use the values returned in the [**NMCUSTOMSPLITRECTINFO**](/windows/win32/api/commctrl/ns-commctrl-nmcustomsplitrectinfo) structure; otherwise, return [**CDRF\_DODEFAULT**](cdrf-constants.md).
 
 ## Remarks
 

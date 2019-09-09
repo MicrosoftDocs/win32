@@ -14,8 +14,6 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 The **IDXCoreAdapterList** interface implements methods for retrieving adapter items from a generated list, as well as details about the list. **IDXCoreAdapterList** inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
 
 ## See also

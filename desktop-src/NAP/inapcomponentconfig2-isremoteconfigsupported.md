@@ -53,7 +53,7 @@ A pointer to a BOOL that is set to **TRUE** if the component supports remote con
 *remoteConfigType* \[out\]
 </dt> <dd>
 
-Indicates the type of remote configuration supported using value from the [**RemoteConfigurationType**](/windows/desktop/api/NapTypes/ne-naptypes-tagremoteconfigurationtype) enumeration:
+Indicates the type of remote configuration supported using value from the [**RemoteConfigurationType**](/windows/win32/api/naptypes/ne-naptypes-remoteconfigurationtype) enumeration:
 
 
 

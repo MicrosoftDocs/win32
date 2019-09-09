@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Configuring File Transfer Streams
 
-File transfer streams do not require any special settings in the [**WM\_MEDIA\_TYPE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype) structure. They do require a data unit extension to associate a file name with each sample. To send a name with file transfer samples, you must implement a data unit extension system for the stream.
+File transfer streams do not require any special settings in the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure. They do require a data unit extension to associate a file name with each sample. To send a name with file transfer samples, you must implement a data unit extension system for the stream.
 
 To set a data unit extension for the stream, perform the following steps:
 

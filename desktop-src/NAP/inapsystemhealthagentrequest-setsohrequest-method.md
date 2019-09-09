@@ -46,14 +46,14 @@ HRESULT SetSoHRequest(
 *sohRequest* \[in\]
 </dt> <dd>
 
-A pointer to a [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet.
+A pointer to a [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) packet.
 
 </dd> <dt>
 
 *cacheSohForLaterUse* \[in\]
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the NapAgent should cache the [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and **FALSE** otherwise.
+A **BOOL** that is **TRUE** if the NapAgent should cache the [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) and **FALSE** otherwise.
 
 </dd> </dl>
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Analog Video Subtypes
 
-The following analog video subtypes are now obsolete. Use the [**AnalogVideoStandard**](/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard) enumeration instead.
+The following analog video subtypes are now obsolete. Use the [**AnalogVideoStandard**](/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration instead.
 
 
 

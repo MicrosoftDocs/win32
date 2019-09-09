@@ -27,7 +27,7 @@ This topic describes how to create an instance of a group and add it to a list-v
 
 To use groups in a list-view control, ensure that the control includes the [**LVS\_ALIGNTOP**](list-view-window-styles.md) window style.
 
-When you add an item to the list, you assign it to a group by setting the **iGroupId** member of the item's [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure to the value of the **iGroupId** member of the groups's [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure. An item that is not assigned to a group does not appear in the list when group view is enabled. To enable or disable group view, use the [**ListView\_EnableGroupView**](/windows/desktop/api/Commctrl/nf-commctrl-listview_enablegroupview) macro.
+When you add an item to the list, you assign it to a group by setting the **iGroupId** member of the item's [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure to the value of the **iGroupId** member of the groups's [**LVGROUP**](/windows/win32/api/commctrl/ns-commctrl-lvgroup) structure. An item that is not assigned to a group does not appear in the list when group view is enabled. To enable or disable group view, use the [**ListView\_EnableGroupView**](/windows/desktop/api/Commctrl/nf-commctrl-listview_enablegroupview) macro.
 
 The following example shows how to create a group with a header and add it to a list-view control.
 

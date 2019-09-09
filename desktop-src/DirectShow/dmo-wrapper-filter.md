@@ -94,11 +94,11 @@ if (SUCCEEDED(hr))
 
 
 
-For more information about per-sample interlace flags, see [**AM\_SAMPLE2\_PROPERTIES Structure**](/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties).
+For more information about per-sample interlace flags, see [**AM\_SAMPLE2\_PROPERTIES Structure**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties).
 
 ### Quality Control
 
-If the DMO exposes the [**IDMOQualityControl**](/windows/desktop/api/Mediaobj/nn-mediaobj-idmoqualitycontrol) interface, the filter translates [**IQualityControl::Notify**](/windows/desktop/api/Strmif/nf-strmif-iqualitycontrol-notify) calls on its output pin into [**IDMOQualityControl::SetNow**](/windows/desktop/api/Mediaobj/nf-mediaobj-idmoqualitycontrol-setnow) calls on the DMO. The *rtNow* parameter of **SetNow** is calculated as the sum of the **TimeStamp** and **Late** members of the [**Quality**](/windows/desktop/api/strmif/ns-strmif-tagquality) structure.
+If the DMO exposes the [**IDMOQualityControl**](/windows/desktop/api/Mediaobj/nn-mediaobj-idmoqualitycontrol) interface, the filter translates [**IQualityControl::Notify**](/windows/desktop/api/Strmif/nf-strmif-iqualitycontrol-notify) calls on its output pin into [**IDMOQualityControl::SetNow**](/windows/desktop/api/Mediaobj/nf-mediaobj-idmoqualitycontrol-setnow) calls on the DMO. The *rtNow* parameter of **SetNow** is calculated as the sum of the **TimeStamp** and **Late** members of the [**Quality**](/previous-versions/windows/desktop/api/strmif/ns-strmif-quality) structure.
 
 ### Using the Fiter in GraphEdit
 

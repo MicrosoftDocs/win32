@@ -41,7 +41,7 @@ The virtual key, pressed by the user, that prompted Windows to issue this notifi
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure (or **NULL** if the system is performing a query).
+A pointer to an [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure (or **NULL** if the system is performing a query).
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ The return value is one or more of the following values, indicating which type o
 | <dl> <dt>**DLGC\_WANTALLKEYS**</dt> <dt>0x0004</dt> </dl>     | All keyboard input.<br/>                                                                                             |
 | <dl> <dt>**DLGC\_WANTARROWS**</dt> <dt>0x0001</dt> </dl>      | Direction keys.<br/>                                                                                                 |
 | <dl> <dt>**DLGC\_WANTCHARS**</dt> <dt>0x0080</dt> </dl>       | [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) messages.<br/>                                                                      |
-| <dl> <dt>**DLGC\_WANTMESSAGE**</dt> <dt>0x0004</dt> </dl>     | All keyboard input (the application passes this message in the [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure to the control).<br/> |
+| <dl> <dt>**DLGC\_WANTMESSAGE**</dt> <dt>0x0004</dt> </dl>     | All keyboard input (the application passes this message in the [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure to the control).<br/> |
 | <dl> <dt>**DLGC\_WANTTAB**</dt> <dt>0x0002</dt> </dl>         | TAB key.<br/>                                                                                                        |
 
 
@@ -100,7 +100,7 @@ The **WM\_GETDLGCODE** message and the returned values are useful only with user
 [**EM\_SETSEL**](https://docs.microsoft.com/windows/desktop/Controls/em-setsel)
 </dt> <dt>
 
-[**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg)
+[**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg)
 </dt> <dt>
 
 [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char)

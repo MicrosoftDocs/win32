@@ -34,7 +34,7 @@ Index of the new column.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVCOLUMN**](/windows/desktop/api/Commctrl/ns-commctrl-taglvcolumna) structure that contains the attributes of the new column.
+Pointer to an [**LVCOLUMN**](/windows/win32/api/commctrl/ns-commctrl-lvcolumna) structure that contains the attributes of the new column.
 
 </dd> </dl>
 

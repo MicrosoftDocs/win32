@@ -36,7 +36,7 @@ NM_TOOLTIPSCREATED
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMTOOLTIPSCREATED**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtooltipscreated) structure that contains additional information about this notification.
+A pointer to an [**NMTOOLTIPSCREATED**](/windows/win32/api/commctrl/ns-commctrl-nmtooltipscreated) structure that contains additional information about this notification.
 
 </dd> </dl>
 

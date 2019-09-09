@@ -49,7 +49,7 @@ Specifies the parameters of the search operation. This parameter can be one or m
 *lParam* 
 </dt> <dd>
 
-A [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure containing information about the find operation.
+A [**FINDTEXTW**](/windows/win32/api/richedit/ns-richedit-findtexta) structure containing information about the find operation.
 
 </dd> </dl>
 
@@ -59,7 +59,7 @@ If the target string is found, the return value is the zero-based position of th
 
 ## Remarks
 
-**EM\_FINDTEXTW** uses the [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure, while [**EM\_FINDTEXTEXW**](em-findtextexw.md) uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure. The difference is that **FINDTEXTEXW** reports back the range of text that was found.
+**EM\_FINDTEXTW** uses the [**FINDTEXTW**](/windows/win32/api/richedit/ns-richedit-findtexta) structure, while [**EM\_FINDTEXTEXW**](em-findtextexw.md) uses the [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) structure. The difference is that **FINDTEXTEXW** reports back the range of text that was found.
 
 ## Requirements
 

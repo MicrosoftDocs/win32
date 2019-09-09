@@ -14,11 +14,11 @@ The Graphing API uses the following constants:
 
 | Constant                                                          | Description                                                       |
 |-------------------------------------------------------------------|-------------------------------------------------------------------|
-| [**PEER\_GRAPH\_EVENT\_TYPE**](/windows/desktop/api/P2P/ne-p2p-peer_graph_event_type_tag)         | Specifies peer event types the application is to be notified for. |
-| [**PEER\_GRAPH\_PROPERTY\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_graph_property_flags_tag) | Specifies properties of a peer graph.                             |
-| [**PEER\_GRAPH\_SCOPE**](/windows/desktop/api/P2P/ne-p2p-peer_graph_scope_tag)                    | Specifies the network scope of a peer graph.                      |
-| [**PEER\_GRAPH\_STATUS\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_graph_status_flags_tag)     | Specifies the current status of a node within the peer graph.     |
-| [**PEER\_NODE\_CHANGE\_TYPE**](/windows/desktop/api/P2P/ne-p2p-peer_node_change_type_tag)         | Specifies the types of peer node graph status changes.            |
+| [**PEER\_GRAPH\_EVENT\_TYPE**](/windows/desktop/api/P2P/ne-p2p-peer_graph_event_type)         | Specifies peer event types the application is to be notified for. |
+| [**PEER\_GRAPH\_PROPERTY\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_graph_property_flags) | Specifies properties of a peer graph.                             |
+| [**PEER\_GRAPH\_SCOPE**](/windows/desktop/api/P2P/ne-p2p-peer_graph_scope)                    | Specifies the network scope of a peer graph.                      |
+| [**PEER\_GRAPH\_STATUS\_FLAGS**](/windows/desktop/api/P2P/ne-p2p-peer_graph_status_flags)     | Specifies the current status of a node within the peer graph.     |
+| [**PEER\_NODE\_CHANGE\_TYPE**](/windows/desktop/api/P2P/ne-p2p-peer_node_change_type)         | Specifies the types of peer node graph status changes.            |
 
 
 

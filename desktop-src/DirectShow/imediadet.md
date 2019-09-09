@@ -44,7 +44,7 @@ To retrieve a video frame, call [**IMediaDet::GetBitmapBits**](imediadet-getbitm
 
  
 
-The **IMediaDet** interface does not support [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) formats, so you cannot use this interface to get interlaced fields or information about interlacing. Also, if the upstream decoder supports only **VIDEOINFOHEADER2**, you cannot use `IMediaDet`. This might be the case with an MPEG-2 decoder, for example. Also, the `IMediaDet` interface ignores any streams in the file that are not video or audio. For example, if the file contains an audio stream, a data stream, and a video stream, the **get\_OutputStreams** method will report only two streams (the audio and video).
+The **IMediaDet** interface does not support [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) formats, so you cannot use this interface to get interlaced fields or information about interlacing. Also, if the upstream decoder supports only **VIDEOINFOHEADER2**, you cannot use `IMediaDet`. This might be the case with an MPEG-2 decoder, for example. Also, the `IMediaDet` interface ignores any streams in the file that are not video or audio. For example, if the file contains an audio stream, a data stream, and a video stream, the **get\_OutputStreams** method will report only two streams (the audio and video).
 
 ## Members
 

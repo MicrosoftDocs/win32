@@ -495,6 +495,8 @@
       items: 
       - name: "File System Functionality Comparison"
         href: filesystem-functionality-comparison.md
+      - name: "exFat File System Specification"
+        href: "exfat-specification.md"
       - name: "Files and Clusters"
         href: files-and-clusters.md
         items: 

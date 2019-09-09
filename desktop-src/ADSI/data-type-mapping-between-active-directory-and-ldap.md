@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Data Type Mapping between Active Directory and LDAP
 
-The following table maps the friendly syntax name to the corresponding LDAP syntax OID and [**ADSTYPEENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001) value.
+The following table maps the friendly syntax name to the corresponding LDAP syntax OID and [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) value.
 
 
 

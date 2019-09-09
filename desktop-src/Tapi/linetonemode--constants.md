@@ -47,7 +47,7 @@ The tone is a busy tone. Exact definition is service-provider defined.
 
 
 
-The tone is a custom tone defined by its component frequencies, of type [**LINEGENERATETONE**](/windows/desktop/api/Tapi/ns-tapi-linegeneratetone_tag).
+The tone is a custom tone defined by its component frequencies, of type [**LINEGENERATETONE**](/windows/desktop/api/Tapi/ns-tapi-linegeneratetone).
 
 
 </dt> </dl> </dd> <dt>

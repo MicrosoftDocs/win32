@@ -40,7 +40,7 @@ virtual HRESULT BreakConnect(
 *dir* 
 </dt> <dd>
 
-Member of the [**PIN\_DIRECTION**](/windows/desktop/api/strmif/ne-strmif-_pindirection) enumerated type, specifying which pin connection was broken (input or output).
+Member of the [**PIN\_DIRECTION**](/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction) enumerated type, specifying which pin connection was broken (input or output).
 
 </dd> </dl>
 

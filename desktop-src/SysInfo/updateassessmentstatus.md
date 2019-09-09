@@ -17,7 +17,7 @@ api_location:
 
 # UpdateAssessmentStatus enumeration
 
-Describes how up-to-date the OS on a device is.**UpdateAssessmentStatus** is used by the [**UpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment) and [**OSUpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment) structures, in the **assessmentForCurrent**, **assessmentForUpToDate**, and **securityStatus** members. Exactly one constant is returned.
+Describes how up-to-date the OS on a device is.**UpdateAssessmentStatus** is used by the [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) and [**OSUpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) structures, in the **assessmentForCurrent**, **assessmentForUpToDate**, and **securityStatus** members. Exactly one constant is returned.
 
 ## Syntax
 
@@ -128,7 +128,7 @@ The device is not on the latest update due to a reason that cannot be determined
 
 ## Remarks
 
-This enumeration is used most often with the [**UpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment) and [**OSUpdateAssessment**](/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment) structures, which are in turn used with the [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment) method for [**IWaaSAssessor**](/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor).
+This enumeration is used most often with the [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) and [**OSUpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) structures, which are in turn used with the [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment) method for [**IWaaSAssessor**](/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor).
 
 ## Requirements
 

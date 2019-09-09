@@ -24,7 +24,7 @@ g\_wszWMStreamTypeInfo
 
 ## Data Type
 
-[**WM\_STREAM\_TYPE\_INFO**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmstreamtypeinfo) (**WMT\_TYPE\_BINARY**)
+[**WM\_STREAM\_TYPE\_INFO**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_type_info) (**WMT\_TYPE\_BINARY**)
 
 ## Remarks
 

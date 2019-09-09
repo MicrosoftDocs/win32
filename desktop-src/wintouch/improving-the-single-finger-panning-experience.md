@@ -84,7 +84,7 @@ GESTUREINFO gi;
 
 Next, add the handler for the [**WM\_GESTURE**](wm-gesture.md) message so that the scroll bars are updated with deltas based on panning gestures. This gives you a much finer-grained control of panning.
 
-The following code gets the [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo) structure from the *lParam*, saves the last y-coordinate from the structure, and determines the change in position to update the scroll bar object. The following code should be placed in your **WndProc** switch statement.
+The following code gets the [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) structure from the *lParam*, saves the last y-coordinate from the structure, and determines the change in position to update the scroll bar object. The following code should be placed in your **WndProc** switch statement.
 
 
 ```C++

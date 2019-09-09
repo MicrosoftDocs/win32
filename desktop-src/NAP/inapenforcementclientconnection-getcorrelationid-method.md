@@ -45,7 +45,7 @@ HRESULT GetCorrelationId(
 *correlationId* \[out\]
 </dt> <dd>
 
-A unique [**CorrelationId**](/windows/desktop/api/NapTypes/ns-naptypes-tagcorrelationid) structure that identifies this SoH exchange.
+A unique [**CorrelationId**](/windows/win32/api/naptypes/ns-naptypes-correlationid) structure that identifies this SoH exchange.
 
 </dd> </dl>
 

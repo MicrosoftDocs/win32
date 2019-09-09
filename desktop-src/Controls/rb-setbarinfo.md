@@ -30,7 +30,7 @@ Sets the characteristics of a rebar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REBARINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagrebarinfo) structure that contains the information to be set. You must set the **cbSize** member of this structure to **sizeof**(REBARINFO) before sending this message.
+Pointer to a [**REBARINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarinfo) structure that contains the information to be set. You must set the **cbSize** member of this structure to **sizeof**(REBARINFO) before sending this message.
 
 </dd> </dl>
 

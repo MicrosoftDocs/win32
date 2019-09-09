@@ -36,7 +36,7 @@ Index of the tab.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TCITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitema) structure that specifies the information to retrieve and receives information about the tab. When the message is sent, the **mask** member specifies which attributes to return. If the **mask** member specifies the TCIF\_TEXT value, the **pszText** member must contain the address of the buffer that receives the item text, and the **cchTextMax** member must specify the size of the buffer.
+Pointer to a [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl-tcitema) structure that specifies the information to retrieve and receives information about the tab. When the message is sent, the **mask** member specifies which attributes to return. If the **mask** member specifies the TCIF\_TEXT value, the **pszText** member must contain the address of the buffer that receives the item text, and the **cchTextMax** member must specify the size of the buffer.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-If the TCIF\_TEXT flag is set in the **mask** member of the [**TCITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitema) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. The control may set the **pszText** member to **NULL** to indicate that no text is associated with the item.
+If the TCIF\_TEXT flag is set in the **mask** member of the [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl-tcitema) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. The control may set the **pszText** member to **NULL** to indicate that no text is associated with the item.
 
 ## Requirements
 

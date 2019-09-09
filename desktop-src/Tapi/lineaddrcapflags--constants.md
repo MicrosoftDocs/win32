@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LINEADDRCAPFLAGS\_ Constants
 
-The **LINEADDRCAPFLAGS**\_ bit-flag constants are used in the **dwAddrCapFlags** member of the [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag) data structure to describe various Boolean address capabilities.
+The **LINEADDRCAPFLAGS**\_ bit-flag constants are used in the **dwAddrCapFlags** member of the [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps) data structure to describe various Boolean address capabilities.
 
 <dl> <dt>
 
@@ -157,7 +157,7 @@ Specifies whether internal and external calls can be forwarded to different forw
 
 
 
-Specifies whether the number of rings for a no-answer can be specified when forwarding calls on no answer. If **TRUE**, the valid range is provided in the **dwMinFwdNumRings** and **dwMaxFwdNumRings** members of the [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag) structure.
+Specifies whether the number of rings for a no-answer can be specified when forwarding calls on no answer. If **TRUE**, the valid range is provided in the **dwMinFwdNumRings** and **dwMaxFwdNumRings** members of the [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -167,7 +167,7 @@ Specifies whether the number of rings for a no-answer can be specified when forw
 
 
 
-Specifies whether the forwarding status in the [**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus_tag) structure for this address is valid or is at most a "best estimate," given absence of accurate confirmation by the switch or network.
+Specifies whether the forwarding status in the [**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus) structure for this address is valid or is at most a "best estimate," given absence of accurate confirmation by the switch or network.
 
 
 </dt> </dl> </dd> <dt>
@@ -297,7 +297,7 @@ Specifies whether calls on this address can be made secure at call-setup time.
 
 
 
-The application can choose to set the **CallingPartyID** member in [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams_tag) when calling [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall) and other functions that accept a **LINECALLPARAMS** structure. The service provider will, if the content of the identifier is acceptable and a path is available, pass the identifier along to the called party to indicate the identity of the calling party.
+The application can choose to set the **CallingPartyID** member in [**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams) when calling [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall) and other functions that accept a **LINECALLPARAMS** structure. The service provider will, if the content of the identifier is acceptable and a path is available, pass the identifier along to the called party to indicate the identity of the calling party.
 
 
 </dt> </dl> </dd> <dt>
@@ -354,13 +354,13 @@ No extensibility. All 32 bits are reserved.
 [**lineAccept**](/windows/desktop/api/Tapi/nf-tapi-lineaccept)
 </dt> <dt>
 
-[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps_tag)
+[**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps)
 </dt> <dt>
 
-[**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus_tag)
+[**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus)
 </dt> <dt>
 
-[**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams_tag)
+[**LINECALLPARAMS**](/windows/desktop/api/Tapi/ns-tapi-linecallparams)
 </dt> <dt>
 
 [**lineCompleteCall**](/windows/desktop/api/Tapi/nf-tapi-linecompletecall)

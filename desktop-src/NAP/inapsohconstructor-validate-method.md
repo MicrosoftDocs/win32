@@ -46,14 +46,14 @@ HRESULT Validate(
 *soh* \[in\]
 </dt> <dd>
 
-A pointer to the constructed [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) packet.
+A pointer to the constructed [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) packet.
 
 </dd> <dt>
 
 *isRequest* \[in\]
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the packet is an [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and **FALSE** if it is an **SoHResponse**.
+A **BOOL** that is **TRUE** if the packet is an [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) and **FALSE** if it is an **SoHResponse**.
 
 </dd> </dl>
 

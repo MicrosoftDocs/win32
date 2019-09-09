@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Configuring Arbitrary Stream Types
 
-Most arbitrary stream types just need a bit rate, a buffer window, and a proper major media type in the [**WM\_MEDIA\_TYPE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype) structure. However, some arbitrary types require additional configuration.
+Most arbitrary stream types just need a bit rate, a buffer window, and a proper major media type in the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure. However, some arbitrary types require additional configuration.
 
 If you have trouble configuring a stream, refer to the sample application called GenProfile, which is included with this SDK. The library defined in GenProfile contains code for including all types of streams. For more information about GenProfile and the other samples, see [Sample Applications](sample-applications.md).
 

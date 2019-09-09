@@ -34,7 +34,7 @@ Must be zero. **Windows 7 and later:** If the position of the tooltip is offset 
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure that contains the message to relay.
+Pointer to an [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure that contains the message to relay.
 
 </dd> </dl>
 

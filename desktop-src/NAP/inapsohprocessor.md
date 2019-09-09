@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
  
 
-The **INapSoHProcessor** provides methods that are used by SHAs to process the contents of [**SoHResponses**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) and by SHVs to process the contents of **SoHRequests**.
+The **INapSoHProcessor** provides methods that are used by SHAs to process the contents of [**SoHResponses**](/windows/win32/api/naptypes/ns-naptypes-soh) and by SHVs to process the contents of **SoHRequests**.
 
 ## Members
 

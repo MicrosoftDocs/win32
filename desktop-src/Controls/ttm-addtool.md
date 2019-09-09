@@ -32,7 +32,7 @@ Registers a tool with a tooltip control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure containing information that the tooltip control needs to display text for the tool. The **cbSize** member of this structure must be filled in before sending this message.
+Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure containing information that the tooltip control needs to display text for the tool. The **cbSize** member of this structure must be filled in before sending this message.
 
 </dd> </dl>
 

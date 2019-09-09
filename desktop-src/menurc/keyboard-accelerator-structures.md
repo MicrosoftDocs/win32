@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**ACCEL**](/windows/desktop/api/Winuser/ns-winuser-tagaccel)
+-   [**ACCEL**](/windows/win32/api/winuser/ns-winuser-accel)
 
  
 

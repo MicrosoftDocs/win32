@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 # Configuring Script Streams
 
-Like all arbitrary stream types, script streams need to have a bit rate and buffer window defined for them. The major media type in the [**WM\_MEDIA\_TYPE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype) structure must be set to WMMEDIATYPE\_Script.
+Like all arbitrary stream types, script streams need to have a bit rate and buffer window defined for them. The major media type in the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure must be set to WMMEDIATYPE\_Script.
 
-Script streams need to have the **formattype** member of **WM\_MEDIA\_TYPE** set to WMFORMAT\_Script, which indicates that the **pbFormat** member points to a [**WMSCRIPTFORMAT**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmscriptformat) structure.
+Script streams need to have the **formattype** member of **WM\_MEDIA\_TYPE** set to WMFORMAT\_Script, which indicates that the **pbFormat** member points to a [**WMSCRIPTFORMAT**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmscriptformat) structure.
 
 There is only one supported script type, WMSCRIPTTYPE\_TwoStrings.
 

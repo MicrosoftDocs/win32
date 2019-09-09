@@ -36,7 +36,7 @@ PGN_HOTITEMCHANGE
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMPGHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmpghotitem) structure that contains information about this notification code.
+Pointer to a [**NMPGHOTITEM**](/windows/win32/api/commctrl/ns-commctrl-nmpghotitem) structure that contains information about this notification code.
 
 </dd> </dl>
 

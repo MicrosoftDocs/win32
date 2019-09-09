@@ -102,7 +102,7 @@ The following image shows the drawing output of the preceding code example.
 [Drawing a Shaded Rectangle](drawing-a-shaded-rectangle.md)
 </dt> <dt>
 
-[**EMRGRADIENTFILL**](/windows/desktop/api/Wingdi/ns-wingdi-tagemrgradientfill)
+[**EMRGRADIENTFILL**](/windows/win32/api/wingdi/ns-wingdi-emrgradientfill)
 </dt> <dt>
 
 [**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_triangle)

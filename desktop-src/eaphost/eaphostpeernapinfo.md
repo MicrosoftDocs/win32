@@ -88,7 +88,7 @@ The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](http
 [**EapHostPeerGetAuthStatus**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus)
 </dt> <dt>
 
-[**EapHostPeerMethodAuthParams**](/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams)
+[**EapHostPeerMethodAuthParams**](/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams)
 </dt> </dl>
 
  

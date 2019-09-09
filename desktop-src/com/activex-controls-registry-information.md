@@ -40,7 +40,7 @@ Both the **Insertable** and the **Control** sub-keys are optional. A control can
 
 Controls should have a Properties verb, OLEIVERB\_PROPERTIES, along with any other verbs they support. The Properties verb, as well as the standard verb OLEIVERB\_PRIMARY, instructs the control to display its property sheet. The Properties verb is displayed as the Properties item on the container's menu when the control is active. This way, the control can display its own property page allowing some useful functionality to the end user, even if the container does not handle controls.
 
-A control defines the **MiscStatus** key to describe itself to potential containers. The bits take on the values from [**OLEMISC**](/windows/desktop/api/OleIdl/ne-oleidl-tagolemisc), and controls add several values to this enumeration. See the **OLEMISC** enumeration values for more information. The client can obtain this information by calling [**IOleObject::GetMiscStatus**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus) without having to instantiate the control first.
+A control defines the **MiscStatus** key to describe itself to potential containers. The bits take on the values from [**OLEMISC**](/windows/win32/api/oleidl/ne-oleidl-olemisc), and controls add several values to this enumeration. See the **OLEMISC** enumeration values for more information. The client can obtain this information by calling [**IOleObject::GetMiscStatus**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus) without having to instantiate the control first.
 
 Finally, **Version** describes the version of the control which should match the version of the type library associated with this control.
 

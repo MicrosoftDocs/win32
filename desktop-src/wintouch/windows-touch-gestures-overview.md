@@ -44,9 +44,9 @@ For legacy support, the default gesture handler maps some gestures to Windows me
 
 ## Interpreting Windows Touch Gestures
 
-Windows Touch gestures can be interpreted by application developers by handling the [**WM\_GESTURE**](wm-gesture.md) message from the WndProc function of an application. After handling this message, you can retrieve a [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo) structure which describes the gesture. The **GESTUREINFO** structure will have assorted information that depends on the type of gesture.
+Windows Touch gestures can be interpreted by application developers by handling the [**WM\_GESTURE**](wm-gesture.md) message from the WndProc function of an application. After handling this message, you can retrieve a [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) structure which describes the gesture. The **GESTUREINFO** structure will have assorted information that depends on the type of gesture.
 
-The [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo) structure is retrieved by passing the handle to the gesture information structure to the [**GetGestureInfo**](/windows/desktop/api/winuser/nf-winuser-getgestureinfo) function.
+The [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) structure is retrieved by passing the handle to the gesture information structure to the [**GetGestureInfo**](/windows/desktop/api/winuser/nf-winuser-getgestureinfo) function.
 
 The following flags indicate the various states of the gestures and are stored in *dwFlags*. 
 
@@ -86,7 +86,7 @@ The following table indicates the various identifiers for gestures.
 
  
 
-The [**GESTUREINFO**](/windows/desktop/api/winuser/ns-winuser-taggestureinfo) structure members **ptsLocation** and **ullArguments** specify a point (using the **POINTS** structure) and additional information about gestures depending on the gesture. The following table lists the values associated with each type of gesture.
+The [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) structure members **ptsLocation** and **ullArguments** specify a point (using the **POINTS** structure) and additional information about gestures depending on the gesture. The following table lists the values associated with each type of gesture.
 
 
 

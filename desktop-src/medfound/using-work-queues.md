@@ -104,7 +104,7 @@ Periodic callbacks use the MFASYNC\_CALLBACK\_QUEUE\_TIMER platform work queue.
 [Work Queues](work-queues.md)
 </dt> <dt>
 
-[**MFASYNCRESULT**](/windows/desktop/api/mfapi/ns-mfapi-tagmfasyncresult)
+[**MFASYNCRESULT**](/windows/win32/api/mfapi/ns-mfapi-mfasyncresult)
 </dt> <dt>
 
 [Work Queue and Threading Improvements](media-foundation-work-queue-and-threading-improvements.md)

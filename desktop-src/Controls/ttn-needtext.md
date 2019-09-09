@@ -38,7 +38,7 @@ TTN_NEEDTEXT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTTDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttdispinfoa) structure that identifies the tool that needs text and receives the requested information.
+Pointer to an [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure that identifies the tool that needs text and receives the requested information.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ The return value for this notification is not used.
 
 ## Remarks
 
-Fill the structure's appropriate members to return the requested information to the tooltip control. If your message handler sets the **uFlags** member of the [**NMTTDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttdispinfoa) structure to TTF\_DI\_SETITEM, the tooltip control stores the information and will not request it again.
+Fill the structure's appropriate members to return the requested information to the tooltip control. If your message handler sets the **uFlags** member of the [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure to TTF\_DI\_SETITEM, the tooltip control stores the information and will not request it again.
 
 ## Requirements
 

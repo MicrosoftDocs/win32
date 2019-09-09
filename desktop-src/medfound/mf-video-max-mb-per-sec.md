@@ -26,7 +26,7 @@ This attribute is affected by the following properties:
 -   [CODECAPI\_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx)
 -   [CODECAPI\_AVEncMPVDefaultBPictureCount](https://msdn.microsoft.com/en-us/library/Dd317879(v=VS.85).aspx)
 
-If the [MF\_MT\_VIDEO\_LEVEL](mf-mt-video-level.md) attribute is present, the encoder should return the processing rate for the highest bitrate and resolution supported at the specified level. If the MF\_MT\_VIDEO\_LEVEL atribute is not present then it should use a default level of 4.
+If the [MF\_MT\_VIDEO\_LEVEL](mf-mt-video-level.md) attribute is present, the encoder should return the processing rate for the highest bitrate and resolution supported at the specified level. If the MF\_MT\_VIDEO\_LEVEL attribute is not present then it should use a default level of 4.
 
 If the [CODECAPI\_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx) ICodecAPI property has been set, the encoder should return the processing rate corresponding to the value set for this property. If the CODECAPI\_AVEncCommonQualityVsSpeed attribute is not present, then it should use a default value of 0 which should be the fastest processing mode.
 

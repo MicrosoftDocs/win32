@@ -40,7 +40,7 @@ The **INapSystemHealthValidator** interface has these methods.
 
 | Method                                                                                   | Description                                                                                                                               |
 |:-----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
-| [**INapSystemHealthValidator::Validate**](inapsystemhealthvalidator-validate-method.md) | The NAP system calls this application defined method to validate the [**SoHRequest**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) received from a client. <br/> |
+| [**INapSystemHealthValidator::Validate**](inapsystemhealthvalidator-validate-method.md) | The NAP system calls this application defined method to validate the [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) received from a client. <br/> |
 
 
 

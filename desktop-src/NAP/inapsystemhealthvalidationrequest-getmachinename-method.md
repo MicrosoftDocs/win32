@@ -45,7 +45,7 @@ HRESULT GetMachineName(
 *machineName* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](/windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring) structure that contains the machine name of the NAP client.
+A pointer to a pointer to a [**CountedString**](/windows/win32/api/naptypes/ns-naptypes-countedstring) structure that contains the machine name of the NAP client.
 
 </dd> </dl>
 

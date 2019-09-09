@@ -34,7 +34,7 @@ The dialog box number. This number must be in the range zero through one less th
 *lpcpli* 
 </dt> <dd>
 
-The address of a [**CPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagcplinfo) structure. The application must fill this structure with resource identifiers for the icon, short name, description, and any user-defined value associated with the dialog box.
+The address of a [**CPLINFO**](/windows/win32/api/cpl/ns-cpl-cplinfo) structure. The application must fill this structure with resource identifiers for the icon, short name, description, and any user-defined value associated with the dialog box.
 
 </dd> </dl>
 
@@ -50,7 +50,7 @@ You can perform initialization for the dialog box when you receive **CPL\_INQUIR
 
 The [**CPL\_NEWINQUIRE**](cpl-newinquire.md) message returns information in a form that the system cannot cache. For this reason, most [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) functions should process **CPL\_INQUIRE** and ignore **CPL\_NEWINQUIRE**.
 
-The only applications that should use [**CPL\_NEWINQUIRE**](cpl-newinquire.md) are those that need to change their icon or display strings based on the state of the computer. In this case, your **CPL\_INQUIRE** handler should specify the CPL\_DYNAMIC\_RES value for the **idIcon**, **idName**, or **idInfo** members of the [**CPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagcplinfo) structure, rather than specifying a valid resource identifier. This causes the Control Panel to send the **CPL\_NEWINQUIRE** message each time it needs the icon and display strings, allowing you to specify information based on the current state of the computer. This is significantly slower than using cached information.
+The only applications that should use [**CPL\_NEWINQUIRE**](cpl-newinquire.md) are those that need to change their icon or display strings based on the state of the computer. In this case, your **CPL\_INQUIRE** handler should specify the CPL\_DYNAMIC\_RES value for the **idIcon**, **idName**, or **idInfo** members of the [**CPLINFO**](/windows/win32/api/cpl/ns-cpl-cplinfo) structure, rather than specifying a valid resource identifier. This causes the Control Panel to send the **CPL\_NEWINQUIRE** message each time it needs the icon and display strings, allowing you to specify information based on the current state of the computer. This is significantly slower than using cached information.
 
 ## Requirements
 

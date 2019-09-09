@@ -34,7 +34,7 @@ Index of the list-view item. If this parameter is -1, then the state change is a
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure. The **stateMask** member specifies which state bits to change, and the **state** member contains the new values for those bits. The other members are ignored.
+Pointer to an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure. The **stateMask** member specifies which state bits to change, and the **state** member contains the new values for those bits. The other members are ignored.
 
 </dd> </dl>
 

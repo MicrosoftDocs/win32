@@ -176,7 +176,7 @@ The call exists, but its state is currently unknown. This may be the result of p
 
 The high-order 8 bits can define a device-specific substate of any of the predefined states, provided that one of the LINECALLSTATE\_ bits defined above is also set. The low-order 24 bits are reserved for predefined states.
 
-The **LINECALLSTATE\_constants** are used as parameters by the [**LINE\_CALLSTATE**](line-callstate.md) message sent to the application. The message carries the new call state that the call transitioned to. These constants are also used as members in the [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag) structure returned by the [**lineGetCallStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetcallstatus) function.
+The **LINECALLSTATE\_constants** are used as parameters by the [**LINE\_CALLSTATE**](line-callstate.md) message sent to the application. The message carries the new call state that the call transitioned to. These constants are also used as members in the [**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) structure returned by the [**lineGetCallStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetcallstatus) function.
 
 ## Requirements
 
@@ -196,7 +196,7 @@ The **LINECALLSTATE\_constants** are used as parameters by the [**LINE\_CALLSTAT
 [**LINE\_CALLSTATE**](line-callstate.md)
 </dt> <dt>
 
-[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus_tag)
+[**LINECALLSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus)
 </dt> <dt>
 
 [**lineGenerateDigits**](/windows/desktop/api/Tapi/nf-tapi-linegeneratedigits)

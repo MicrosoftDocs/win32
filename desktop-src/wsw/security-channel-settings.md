@@ -23,7 +23,7 @@ The following enumerations are used with security channel settings:
 -   [**WS\_PROTECTION\_LEVEL**](/windows/desktop/api/WebServices/ne-webservices-ws_protection_level)
 -   [**WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_request_security_token_property_id)
 -   [**WS\_SECURITY\_ALGORITHM\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_security_algorithm_id)
--   [**WS\_SECURITY\_ALGORITHM\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-__unnamed_enum_7)
+-   [**WS\_SECURITY\_ALGORITHM\_PROPERTY\_ID**](/windows/win32/api/webservices/ne-webservices-ws_move_to)
 -   [**WS\_SECURITY\_HEADER\_LAYOUT**](/windows/desktop/api/WebServices/ne-webservices-ws_security_header_layout)
 -   [**WS\_SECURITY\_HEADER\_VERSION**](/windows/desktop/api/WebServices/ne-webservices-ws_security_header_version)
 -   [**WS\_SECURITY\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_security_property_id)

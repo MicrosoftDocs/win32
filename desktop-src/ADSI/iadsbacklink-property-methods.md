@@ -110,7 +110,7 @@ HRESULT put_RemoteID(
 [**IADsBackLink**](/windows/desktop/api/Iads/nn-iads-iadsbacklink)
 </dt> <dt>
 
-[**ADS\_BACKLINK**](/windows/desktop/api/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0008)
+[**ADS\_BACKLINK**](/windows/win32/api/iads/ns-iads-ads_backlink)
 </dt> </dl>
 
  

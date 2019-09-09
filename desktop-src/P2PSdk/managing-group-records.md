@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Managing Group Records
 
-A group record is specific data published to all active members of a peer group, for example, a chat message or an application-specific status update. A record is represented by the [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record_tag) structure, and contains the following information about a peer:
+A group record is specific data published to all active members of a peer group, for example, a chat message or an application-specific status update. A record is represented by the [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record) structure, and contains the following information about a peer:
 
 -   The record ID is a value that uniquely identifies a record in the peer group.
 -   A GUID that specifies the record type. Applications can support different record types. An application interprets the **data** field of a record based on the record type. Some GUIDs are reserved, and the API call returns **PEER\_E\_NOT\_AUTHORIZED** when the application attempts to use them.
@@ -18,8 +18,8 @@ A group record is specific data published to all active members of a peer group,
 -   The peer time that a record is modified.
 -   The creator of a record.
 -   The member who modifies a record.
--   A [**PEER\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_data_tag) structure that contains the cryptographic signature for all of the fields in this [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record_tag) structure. This field cannot be directly updated or altered by a peer.
--   A [**PEER\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_data_tag) structure that contains the application-specific data associated with this record as an array of bytes. The type of data present in this field is determined by application-defined record type.
+-   A [**PEER\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_data) structure that contains the cryptographic signature for all of the fields in this [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record) structure. This field cannot be directly updated or altered by a peer.
+-   A [**PEER\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_data) structure that contains the application-specific data associated with this record as an array of bytes. The type of data present in this field is determined by application-defined record type.
 
 ## Obtaining Peer Group Records
 
@@ -27,9 +27,9 @@ Individual records are obtained by calling [**PeerGroupGetRecord**](/windows/des
 
 When a record is created, deleted, or updated by a peer, the affected record is published to all members of the peer group by way of the **PEER\_GROUP\_EVENT\_RECORD\_CHANGE** event. Note that if a peer is not connected to the group, it will receive the updated record then next time it connects. It is important to register for this event with [**PeerGroupRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergroupregisterevent) if your application maintains or manages records in any meaningful way. Alternatively, the application can query the record database on demand using [**PeerGroupSearchRecords**](/windows/desktop/api/P2P/nf-p2p-peergroupsearchrecords).
 
-When the **PEER\_GROUP\_EVENT\_RECORD\_CHANGE** event is raised, the specific record ID and type as well as the type of change (add, update, delete) is received as a [**PEER\_EVENT\_RECORD\_CHANGE\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_event_record_change_data_tag) structure. This structure is obtained with a call to [**PeerGroupGetEventData**](/windows/desktop/api/P2P/nf-p2p-peergroupgeteventdata). If the change is an add or an update, you should use [**PeerGroupGetRecord**](/windows/desktop/api/P2P/nf-p2p-peergroupgetrecord) to obtain the record with the supplied ID. The local record database for the infrastructure is updated automatically.
+When the **PEER\_GROUP\_EVENT\_RECORD\_CHANGE** event is raised, the specific record ID and type as well as the type of change (add, update, delete) is received as a [**PEER\_EVENT\_RECORD\_CHANGE\_DATA**](/windows/desktop/api/P2P/ns-p2p-peer_event_record_change_data) structure. This structure is obtained with a call to [**PeerGroupGetEventData**](/windows/desktop/api/P2P/nf-p2p-peergroupgeteventdata). If the change is an add or an update, you should use [**PeerGroupGetRecord**](/windows/desktop/api/P2P/nf-p2p-peergroupgetrecord) to obtain the record with the supplied ID. The local record database for the infrastructure is updated automatically.
 
-You can also search for specific records based on specific custom attributes supplied in the **pwzAttributes** field of [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record_tag), as well as any predefined attributes. To accomplish this, use the [**PeerGroupSearchRecords**](/windows/desktop/api/P2P/nf-p2p-peergroupsearchrecords) function with an XML search query formatted as specified in the [Record Search Query Format](record-search-query-format.md) topic.
+You can also search for specific records based on specific custom attributes supplied in the **pwzAttributes** field of [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record), as well as any predefined attributes. To accomplish this, use the [**PeerGroupSearchRecords**](/windows/desktop/api/P2P/nf-p2p-peergroupsearchrecords) function with an XML search query formatted as specified in the [Record Search Query Format](record-search-query-format.md) topic.
 
 For more details on working with records in the Peer Infrastructure, please refer to the [Records](records.md) topic in [Using the Peer Infrastructure](using-the-peer-infrastructure.md).
 
@@ -43,9 +43,9 @@ To update a record, obtain the record with [**PeerGroupGetRecord**](/windows/des
 
 To delete a record, pass the record ID to delete to [**PeerGroupDeleteRecord**](/windows/desktop/api/P2P/nf-p2p-peergroupdeleterecord).
 
-To add a record, create a new [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record_tag) structure and populate the following fields:
+To add a record, create a new [**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record) structure and populate the following fields:
 
--   **dwSize**. This field contains the value of **sizeof**([**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record_tag)).
+-   **dwSize**. This field contains the value of **sizeof**([**PEER\_RECORD**](/windows/desktop/api/P2P/ns-p2p-peer_record)).
 -   **ftExpiration**. This field contains the expiration date and time of this record, expressed in peer time as a **FILETIME** structure.
 -   **type**. This field contains a **GUID** value that identifies the record type to the application. If this type is custom to your application infrastructure, you should also populate the **data** field.
 

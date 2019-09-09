@@ -36,7 +36,7 @@ HDN_FILTERCHANGE
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure that contains information about the header control and the header item, including the attributes that are about to change.
+A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains information about the header control and the header item, including the attributes that are about to change.
 
 </dd> </dl>
 

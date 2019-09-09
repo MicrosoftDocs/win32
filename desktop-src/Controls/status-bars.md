@@ -67,7 +67,7 @@ You can define individual parts of a status bar to be owner-drawn parts. Using t
 
 To define a window part as owner-drawn, send the [**SB\_SETTEXT**](sb-settext.md) message to the status bar, specifying the part and the SBT\_OWNERDRAW drawing technique. When SBT\_OWNERDRAW is specified, the *lParam* parameter is a 32-bit application-defined value that the application can use when drawing the part. For example, you can specify a font handle, a bitmap handle, an address of a string, and so on.
 
-When a status bar needs to draw an owner-drawn part, it sends the [**WM\_DRAWITEM**](wm-drawitem.md) message to the parent window. The *wParam* parameter of the message is the child window identifier of the status bar, and the *lParam* parameter is the address of a [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure. The parent window uses the information in the structure to draw the part. For an owner-drawn part of a status bar, **DRAWITEMSTRUCT** contains the following information.
+When a status bar needs to draw an owner-drawn part, it sends the [**WM\_DRAWITEM**](wm-drawitem.md) message to the parent window. The *wParam* parameter of the message is the child window identifier of the status bar, and the *lParam* parameter is the address of a [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure. The parent window uses the information in the structure to draw the part. For an owner-drawn part of a status bar, **DRAWITEMSTRUCT** contains the following information.
 
 
 

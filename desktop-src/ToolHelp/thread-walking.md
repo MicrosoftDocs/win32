@@ -13,14 +13,14 @@ ms.date: 05/31/2018
 
 # Thread Walking
 
-A snapshot that includes the thread list contains information about each thread of each currently executing process. You can retrieve information for the first thread in the list by using the [**Thread32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32first) function. After retrieving the first thread in the list, you can retrieve information for subsequent threads by using the [**Thread32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32next) function. **Thread32First** and **Thread32Next** fill a [**THREADENTRY32**](/windows/desktop/api/TlHelp32/ns-tlhelp32-tagthreadentry32) structure with information about individual threads in the snapshot.
+A snapshot that includes the thread list contains information about each thread of each currently executing process. You can retrieve information for the first thread in the list by using the [**Thread32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32first) function. After retrieving the first thread in the list, you can retrieve information for subsequent threads by using the [**Thread32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32next) function. **Thread32First** and **Thread32Next** fill a [**THREADENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-threadentry32) structure with information about individual threads in the snapshot.
 
 You can enumerate the threads of a specific process by taking a snapshot that includes the threads and then by traversing the thread list, keeping information about the threads that have the same process identifier as the specified process.
 
 You can retrieve an extended error status code for [**Thread32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32first) and [**Thread32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32next) by using the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
 > [!Note]  
-> The contents of the **th32ThreadID** member of [**THREADENTRY32**](/windows/desktop/api/TlHelp32/ns-tlhelp32-tagthreadentry32) is a thread identifier and can be used by any functions that require a thread identifier.
+> The contents of the **th32ThreadID** member of [**THREADENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-threadentry32) is a thread identifier and can be used by any functions that require a thread identifier.
 
  
 

@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 The following enumerations are defined for DNS:
 
 -   [**DNS\_CHARSET**](/windows/desktop/api/Windns/ne-windns-dns_charset)
--   [**DNS\_CONFIG\_TYPE**](/windows/desktop/api/Windns/ne-windns-__unnamed_enum_0)
--   [**DNS\_FREE\_TYPE**](/windows/desktop/api/Windns/ne-windns-__unnamed_enum_1)
+-   [**DNS\_CONFIG\_TYPE**](/windows/win32/api/windns/ne-windns-dns_config_type)
+-   [**DNS\_FREE\_TYPE**](/windows/win32/api/windns/ne-windns-dns_free_type)
 -   [**DNS\_NAME\_FORMAT**](/windows/desktop/api/Windns/ne-windns-dns_name_format)
 -   [**DNS\_PROXY\_INFORMATION\_TYPE**](/windows/desktop/api/Windns/ne-windns-dns_proxy_information_type)
--   [**DNS\_SECTION**](/windows/desktop/api/Windns/ne-windns-_dnssection)
+-   [**DNS\_SECTION**](/windows/win32/api/windns/ne-windns-dns_section)
 
  
 

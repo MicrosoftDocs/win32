@@ -26,7 +26,7 @@ This section describes the functions and structures associated with multimedia t
 
 ## Retrieving Timer Information
 
--   [**TIMECAPS**](/windows/desktop/api/TimeAPI/ns-timeapi-timecaps_tag)
+-   [**TIMECAPS**](/windows/desktop/api/TimeAPI/ns-timeapi-timecaps)
 -   [**timeGetDevCaps**](/windows/desktop/api/TimeAPI/nf-timeapi-timegetdevcaps)
 
 ## Time Events

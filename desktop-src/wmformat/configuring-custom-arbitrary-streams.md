@@ -15,7 +15,7 @@ When using your own arbitrary data type, you must create a GUID value to serve a
 
 You can also create your own subtype GUID identifiers to define subcategories of your custom data. The writer will ignore these subtypes completely, but they will be preserved in the header section of the ASF file, so your reading application can retrieve them and make decisions based on them.
 
-An arbitrary stream requires a bit rate and buffer window, and must have a [**WM\_MEDIA\_TYPE**](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype) structure with the values cleared except for the major media type and subtype(if using one).
+An arbitrary stream requires a bit rate and buffer window, and must have a [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure with the values cleared except for the major media type and subtype(if using one).
 
 ## Related topics
 

@@ -40,7 +40,7 @@ HRESULT QueryPinInfo(
 *pInfo* 
 </dt> <dd>
 
-Pointer to a [**PIN\_INFO**](/windows/desktop/api/strmif/ns-strmif-_pininfo) structure that receives the pin information.
+Pointer to a [**PIN\_INFO**](/previous-versions/windows/desktop/api/strmif/ns-strmif-pin_info) structure that receives the pin information.
 
 </dd> </dl>
 

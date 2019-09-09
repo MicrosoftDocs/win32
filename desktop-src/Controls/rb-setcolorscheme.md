@@ -30,7 +30,7 @@ Sets the color scheme information for the rebar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COLORSCHEME**](/windows/desktop/api/Commctrl/ns-commctrl-tagcolorscheme) structure that contains the color scheme information.
+Pointer to a [**COLORSCHEME**](/windows/win32/api/commctrl/ns-commctrl-colorscheme) structure that contains the color scheme information.
 
 </dd> </dl>
 

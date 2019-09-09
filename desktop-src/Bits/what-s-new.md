@@ -199,7 +199,7 @@ The following constants were added to use with the [**IBackgroundCopyJobHttpOpti
 The following interface and enumeration were added for version 2.5:
 
 -   [**IBackgroundCopyJobHttpOptions**](/windows/desktop/api/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions)
--   [**BG\_CERT\_STORE\_LOCATION**](/windows/desktop/api/Bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001)
+-   [**BG\_CERT\_STORE\_LOCATION**](/windows/desktop/api/Bits2_5/ne-bits2_5-bg_cert_store_location)
 
 ## Version 2.0
 
@@ -210,7 +210,7 @@ The following interfaces, structure, and topics were added for version 2.0:
 -   [**BG\_FILE\_RANGE**](/windows/desktop/api/Bits2_0/ns-bits2_0-bg_file_range)
 -   [Group Policies](group-policies.md)
 
-For information about concurrent foreground downloads, see the Remarks section for [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001).
+For information about concurrent foreground downloads, see the Remarks section for [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-bg_job_priority).
 
 For information about using the SMB protocol, see [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-bg_file_info).
 

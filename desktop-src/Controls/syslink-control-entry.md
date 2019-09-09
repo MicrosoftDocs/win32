@@ -44,9 +44,9 @@ This section contains information about the programming elements used with SysLi
 
 | Topic                                | Contents                                                                                                                                                                           |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**LHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglhittestinfo) | Used to get information about the link corresponding to a given location. <br/>                                                                                              |
-| [**LITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglitem)               | Used to set and retrieve information about a link item.<br/>                                                                                                                 |
-| [**NMLINK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlink)             | The [**NMLINK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlink) Contains notification information. Send this structure with the [NM\_CLICK](nm-click-syslink.md) or [NM\_RETURN](nm-return.md) messages.<br/> |
+| [**LHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lhittestinfo) | Used to get information about the link corresponding to a given location. <br/>                                                                                              |
+| [**LITEM**](/windows/win32/api/commctrl/ns-commctrl-litem)               | Used to set and retrieve information about a link item.<br/>                                                                                                                 |
+| [**NMLINK**](/windows/win32/api/commctrl/ns-commctrl-nmlink)             | The [**NMLINK**](/windows/win32/api/commctrl/ns-commctrl-nmlink) Contains notification information. Send this structure with the [NM\_CLICK](nm-click-syslink.md) or [NM\_RETURN](nm-return.md) messages.<br/> |
 
 
 

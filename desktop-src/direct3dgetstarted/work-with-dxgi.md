@@ -24,7 +24,7 @@ The overall process for drawing to the screen is as follows:
 
 ## Create a window for your app
 
-The first thing we need to do is create a window. First, create a window class by populating an instance of [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa), then register it using [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa). The window class contains essential properties of the window, including the icon it uses, the static message processing function (more on this later), and a unique name for the window class.
+The first thing we need to do is create a window. First, create a window class by populating an instance of [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa), then register it using [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa). The window class contains essential properties of the window, including the icon it uses, the static message processing function (more on this later), and a unique name for the window class.
 
 
 ```C++

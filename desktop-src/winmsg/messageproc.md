@@ -84,7 +84,7 @@ This parameter is not used.
 
 Type: **LPARAM**
 
-A pointer to an [MSG](/windows/desktop/api/winuser/ns-winuser-tagmsg) structure.
+A pointer to an [MSG](/windows/win32/api/winuser/ns-winuser-msg) structure.
 
 ## -returns
 
@@ -107,6 +107,6 @@ If an application that uses the DDEML and performs synchronous transactions must
 
 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
 
-[MSG](/windows/desktop/api/winuser/ns-winuser-tagmsg)
+[MSG](/windows/win32/api/winuser/ns-winuser-msg)
 
 [Hooks](hooks.md)

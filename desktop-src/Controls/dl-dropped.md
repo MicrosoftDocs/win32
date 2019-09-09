@@ -36,7 +36,7 @@ DL_DROPPED
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**DRAGLISTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagdraglistinfo) structure that contains the DL\_DROPPED notification code, the handle to the drag list box, and the cursor position.
+A pointer to a [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-commctrl-draglistinfo) structure that contains the DL\_DROPPED notification code, the handle to the drag list box, and the cursor position.
 
 </dd> </dl>
 

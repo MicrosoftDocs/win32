@@ -38,7 +38,7 @@ TVN_BEGINLABELEDIT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoa) structure. The **item** member is a [**TVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitema) structure that contains valid information about the item being edited in the **hItem**, **state**, **lParam**, and **pszText** members.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoa) structure. The **item** member is a [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) structure that contains valid information about the item being edited in the **hItem**, **state**, **lParam**, and **pszText** members.
 
 </dd> </dl>
 

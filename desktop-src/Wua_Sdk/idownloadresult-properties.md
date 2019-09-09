@@ -15,7 +15,7 @@ The [**IDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadresult) i
 | Property                                         | Description                                                                                                     |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [**HResult**](/windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-get_hresult)       | Gets the exception code number if an exception code number is raised during a download.                         |
-| [**ResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-get_resultcode) | Gets an [**OperationResultCode**](/windows/desktop/api/Wuapi/ne-wuapi-tagoperationresultcode) enumeration that specifies the result of a download. |
+| [**ResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-get_resultcode) | Gets an [**OperationResultCode**](/windows/win32/api/wuapi/ne-wuapi-operationresultcode) enumeration that specifies the result of a download. |
 
 
 

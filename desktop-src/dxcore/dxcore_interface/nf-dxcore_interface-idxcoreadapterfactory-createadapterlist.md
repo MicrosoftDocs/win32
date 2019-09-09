@@ -14,9 +14,23 @@ ms.date: 06/20/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-## Description
-
 Generates a list of adapter objects representing the current adapter state of the system, and meeting the criteria specified. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
+
+## Syntax
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE CreateAdapterList(
+  uint32_t numAttributes,
+  _In_reads_(numAttributes) const GUID *filterAttributes,
+  REFIID riid,
+  _COM_Outptr_ void **ppvAdapterList) = 0;
+
+template<class T>
+HRESULT STDMETHODCALLTYPE CreateAdapterList(
+  uint32_t numAttributes,
+  _In_reads_(numAttributes) const GUID *filterAttributes,
+  _COM_Outptr_ T **ppvAdapterList);
+```
 
 ## Parameters
 

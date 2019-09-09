@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**MANCODE**](/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0003)
--   [**OBJECTTYPE**](/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002)
--   [**tomConstants**](/windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001)
+-   [**MANCODE**](/windows/win32/api/tom/ne-tom-mancode)
+-   [**OBJECTTYPE**](/windows/win32/api/tom/ne-tom-objecttype)
+-   [**tomConstants**](/windows/win32/api/tom/ne-tom-tomconstants)
 
  
 

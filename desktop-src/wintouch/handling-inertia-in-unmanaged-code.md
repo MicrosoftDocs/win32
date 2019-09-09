@@ -149,7 +149,7 @@ CManipulationEventSink::CManipulationEventSink(IInertiaProcessor *pInert, HWND h
 Now when you construct this class, **CManipulationEventSink**, it can either be constructed as an event sink for a manipulation processor or as an event sink for an inertia processor. When it's constructed as an inertia processor event sink, it will have the **fExtrapolating** flag set to true, indicating that manipulation events should be extrapolated.
 
 > [!Note]  
-> [**ManipulationStarted**](/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted) will be raised by both the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) and [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) interfaces.
+> [**ManipulationStarted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted) will be raised by both the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) and [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) interfaces.
 
  
 

@@ -27,7 +27,7 @@ Sets the way a rich edit control does hyphenation.
 *wParam* 
 </dt> <dd>
 
-Pointer to a [**HYPHENATEINFO**](/windows/desktop/api/Richedit/ns-richedit-taghyphenateinfo) structure.
+Pointer to a [**HYPHENATEINFO**](/windows/win32/api/richedit/ns-richedit-hyphenateinfo) structure.
 
 </dd> <dt>
 

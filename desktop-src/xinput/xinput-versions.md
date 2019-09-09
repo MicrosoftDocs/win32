@@ -1,6 +1,6 @@
 ---
 title: XInput Versions
-description: XInput is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.
+description: XInput is a cross-platform API that has shipped for use on Xbox and Windows.
 ms.assetid: e89a6c81-f170-4385-f942-3606f9747244
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # XInput Versions
 
-XInput is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8. On Xbox 360, XInput ships as a static library that is compiled into the main game executable. On Windows, XInput is provided as a DLL that is installed into the system folders of the operating system.
+XInput is a cross-platform API that has shipped for use on Xbox and Windows. On Xbox, XInput ships as a static library that is compiled into the main game executable. On Windows, XInput is provided as a DLL that is installed into the system folders of the operating system.
 
 There are three current versions of the XInput DLL today. Choose the appropriate version of XInput based on the functionality of XInput you use and the versions of Windows you intend to support.
 
--   XInput 1.4: XInput 1.4 ships as part of Windows 8. Use this version for building Windows Store apps or if your desktop app requires Windows 8.
--   XInput 9.1.0: XInput 9.1.0 ships as part of Windows Vista, Windows 7, and Windows 8. Use this version if your desktop app is intended to run on these versions of Windows and you are using basic XInput functionality.
--   XInput 1.3: XInput 1.3 ships as a redistributable component in the DirectX SDK with support for Windows Vista, Windows 7, and Windows 8. Use this version if your desktop app is intended to run on these versions of Windows and you need functionality that is not supported by XInput 9.1.0.
+- XInput 1.4: XInput 1.4 ships as part of Windows 10. Use this version for building UWP apps.
+- XInput 9.1.0: XInput 9.1.0 ships as part of Windows Vista, Windows 7, and Windows 8. Use this version if your desktop app is intended to run on these versions of Windows and you are using basic XInput functionality.
+- XInput 1.3: XInput 1.3 ships as a redistributable component in the DirectX SDK with support for Windows Vista, Windows 7, and Windows 8. Use this version if your desktop app is intended to run on these versions of Windows and you need functionality that is not supported by XInput 9.1.0.
 
 ## XInput 1.4
 
@@ -23,18 +23,18 @@ XInput 1.4 ships today as a system component in Windows 8 as XINPUT1\_4.DLL. It
 XInput 1.4 has these primary advantages over other versions of XInput:
 
 -   This is the only version that can be used in C++/DirectX Windows Store apps.
--   The new [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function provides an audio device ID string that you can use to open an XAudio2 mastering voice or audio device for a headset attached to an Xbox 360 common controller. The [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function is not available in this version.
+-   The new [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function provides an audio device ID string that you can use to open an XAudio2 mastering voice or audio device for a headset attached to an Xbox common controller. The [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function is not available in this version.
 -   Provides improved device capabilities reporting including XINPUT\_CAPS\_WIRELESS, XINPUT\_CAPS\_FFB\_SUPPORTED, XINPUT\_CAPS\_PMD\_SUPPORTED, and XINPUT\_CAPS\_NO\_NAVIGATION flags and more accurate reporting of XINPUT\_CAPS\_VOICE\_SUPPORTED. These flags are combined in the **Flags** member of the [**XINPUT\_CAPABILITIES**](/windows/desktop/api/XInput/ns-xinput-xinput_capabilities) structure. The [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) function returns **XINPUT\_CAPABILITIES**.
 
 ### XInput 9.1.0
 
-Like XInput 1.4, XInput 9.1.0 ships today as a system component in Windows 8, Windows 7, and Windows Vista as XINPUT9\_1\_0.DLL. It is maintained primarily for backward compatibility with existing applications. It has a reduced function set so we recommend that you use XInput 1.4 on Windows 8. But it is convenient to use for applications that must run on down-level versions of Windows but don't need the additional functionality provided by XInput 1.4 or XInput 1.3.
+Like XInput 1.4, XInput 9.1.0 ships today as a system component in Windows 8, Windows 7, and Windows Vista as XINPUT9\_1\_0.DLL. It is maintained primarily for backward compatibility with existing applications. It has a reduced function set so we recommend that you use XInput 1.4, if possible. But it is convenient to use for applications that must run on down-level versions of Windows but don't need the additional functionality provided by XInput 1.4 or XInput 1.3.
 
 The Windows SDK contains the header and import library for statically linking against XINPUT9\_1\_0.DLL.
 
 XInput 1.4 has these disadvantages over other versions of XInput:
 
--   For backward compatibility reasons, [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) in this version of XInput returns fixed capability information. Regardless of Xbox 360 common controller device attached, **XInputGetCapabilities** in XInput 1.4 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
+-   For backward compatibility reasons, [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) in this version of XInput returns fixed capability information. Regardless of Xbox common controller device attached, **XInputGetCapabilities** in XInput 1.4 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
 -   You can't determine the headset for a given user ID. The [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function is not available and [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function will return no results on Windows 8.
 -   The [**XInputEnable**](/windows/desktop/api/XInput/nf-xinput-xinputenable), [**XInputGetBatteryInformation**](/windows/desktop/api/XInput/nf-xinput-xinputgetbatteryinformation), and [**XInputGetKeystroke**](/windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke) functions are not available.
 

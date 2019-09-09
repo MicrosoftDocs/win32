@@ -35,7 +35,7 @@ The documentation set for OpenGL in Windows includes five elements.
 
 -   The third documentation element is this overview. It describes the Windows implementation of OpenGL and provides an overview of its components. It discusses the concepts of rendering contexts, pixel formats, and buffers; the WGL functions that connect OpenGL to the Windows windowing systems; and the Windows functions that support per-window pixel formats and double buffering of windows for OpenGL graphics windows. The WGL functions and the functions are specific to the Windows implementation of OpenGL.
 
--   The fourth documentation element is the set of reference pages for the WGL functions, the Windows functions just mentioned, and the [**PIXELFORMATDESCRIPTOR**](/windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor) data structure.
+-   The fourth documentation element is the set of reference pages for the WGL functions, the Windows functions just mentioned, and the [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) data structure.
 
 -   The fifth documentation element is the porting guide. It discusses moving existing OpenGL code from other environments to Windows.
 

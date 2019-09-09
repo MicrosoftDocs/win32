@@ -15,7 +15,7 @@ The selection of a Bluetooth device or service is implemented through the follow
 -   [**BluetoothSelectDevices**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevices)
 -   [**BluetoothSelectDevicesFree**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevicesfree)
 -   [**BLUETOOTH\_COD\_PAIRS**](/windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_cod_pairs)
--   [**BLUETOOTH\_DEVICE\_INFO**](/windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_device_info)
+-   [**BLUETOOTH\_DEVICE\_INFO**](/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct)
 -   [**BLUETOOTH\_SELECT\_DEVICE\_PARAMS**](/windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_select_device_params)
 
  

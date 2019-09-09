@@ -16,7 +16,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 
 **To specify server authentication credentials for a BITS transfer job**
 
-1.  Create a container structure that maps [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002) values to scheme names.
+1.  Create a container structure that maps [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-bg_auth_scheme) values to scheme names.
 
     ```C++
     struct
@@ -39,7 +39,7 @@ This example uses the header and implementation defined in [Example: Common Clas
     
 
 2.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005) structure. The example uses the [SecureZeroMemory]( https://go.microsoft.com/fwlink/p/?linkid=162389) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( https://go.microsoft.com/fwlink/p/?linkid=162389) function is defined in WinBase.h.
+3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure. The example uses the [SecureZeroMemory]( https://go.microsoft.com/fwlink/p/?linkid=162389) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( https://go.microsoft.com/fwlink/p/?linkid=162389) function is defined in WinBase.h.
 4.  Use the GetScheme function to get the authentication scheme to use to connect to the server.
 
     ```C++
@@ -66,7 +66,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 
     
 
-5.  Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005) structure with the authentication scheme returned by the GetScheme function and the user name and password that were passed into the ServerAuthentication function.
+5.  Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure with the authentication scheme returned by the GetScheme function and the user name and password that were passed into the ServerAuthentication function.
 6.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface (pJob).
 7.  Initialize COM process security by calling [CoInitializeSecurity](https://go.microsoft.com/fwlink/p/?linkid=162390). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
 8.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( https://go.microsoft.com/fwlink/p/?linkid=162386) function.

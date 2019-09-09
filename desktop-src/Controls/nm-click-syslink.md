@@ -36,7 +36,7 @@ NM_CLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLINK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlink) structure that contains additional information about this notification.
+Pointer to an [**NMLINK**](/windows/win32/api/commctrl/ns-commctrl-nmlink) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -70,7 +70,7 @@ The return value is ignored by the control.
 **Reference**
 </dt> <dt>
 
-[**NMLINK**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlink)
+[**NMLINK**](/windows/win32/api/commctrl/ns-commctrl-nmlink)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)

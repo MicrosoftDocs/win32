@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This is step 3A of the tutorial [Writing Transform Filters](writing-transform-filters.md).
 
-The [**CTransformFilter::CheckInputType**](ctransformfilter-checkinputtype.md) method is called when the upstream filter proposes a media type to the transform filter. This method takes a pointer to a [**CMediaType**](cmediatype.md) object, which is a thin wrapper for the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure. In this method, you should examine every relevant field of the **AM\_MEDIA\_TYPE** structure, including the fields in the format block. You can use the accessor methods defined in **CMediaType**, or reference the structure members directly. If any field is not valid, return VFW\_E\_TYPE\_NOT\_ACCEPTED. If the entire media type is valid, return S\_OK.
+The [**CTransformFilter::CheckInputType**](ctransformfilter-checkinputtype.md) method is called when the upstream filter proposes a media type to the transform filter. This method takes a pointer to a [**CMediaType**](cmediatype.md) object, which is a thin wrapper for the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure. In this method, you should examine every relevant field of the **AM\_MEDIA\_TYPE** structure, including the fields in the format block. You can use the accessor methods defined in **CMediaType**, or reference the structure members directly. If any field is not valid, return VFW\_E\_TYPE\_NOT\_ACCEPTED. If the entire media type is valid, return S\_OK.
 
 For example, in the RLE encoder filter, the input type must be 8-bit or 4-bit uncompressed RGB video. There is no reason to support other input formats, such as 16- or 24-bit RGB, because the filter would have to convert them to a lower bit depth, and DirectShow already provides a [Color Space Converter](color-space-converter-filter.md) filter for that purpose. The following example assumes that the encoder supports 8-bit video but not 4-bit video:
 
@@ -52,7 +52,7 @@ HRESULT CRleFilter::CheckInputType(const CMediaType *mtIn)
 
 
 
-In this example, the method first checks the major type and subtype. Then it checks the format type, to make sure the format block is a [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) structure. The filter could also support [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2), but in this case there would be no real benefit. The **VIDEOINFOHEADER2** structure adds support for interlacing and non-square pixels, which are not likely to be relevant in 8-bit video.
+In this example, the method first checks the major type and subtype. Then it checks the format type, to make sure the format block is a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure. The filter could also support [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2), but in this case there would be no real benefit. The **VIDEOINFOHEADER2** structure adds support for interlacing and non-square pixels, which are not likely to be relevant in 8-bit video.
 
 If the format type is correct, the example checks the **biBitCount** and **biCompression** members of the **VIDEOINFOHEADER** structure, to verify that the format is 8-bit uncompressed RGB. As this example shows, you must coerce the
 

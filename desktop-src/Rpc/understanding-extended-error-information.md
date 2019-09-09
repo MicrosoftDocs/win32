@@ -12,7 +12,7 @@ Extended error information is an array of records, each indicating the passing o
 
 Extended error information does not replace the error code (the RPC\_S\_\* status code). Regardless of how much or whether extended error information is generated, the error code remains unchanged.
 
-Each extended error information record contains the following. Please see [**RPC\_EXTENDED\_ERROR\_INFO**](/windows/desktop/api/Rpcasync/ns-rpcasync-tagrpc_extended_error_info) for more information:
+Each extended error information record contains the following. Please see [**RPC\_EXTENDED\_ERROR\_INFO**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_extended_error_info) for more information:
 
 -   ComputerName—this is the non-qualified DNS name of the computer on which the error originated. Only records on machine boundaries have this information. For example, in the scenario described earlier with machines A, B, and C, the ComputerName is defined for the following fields:
 

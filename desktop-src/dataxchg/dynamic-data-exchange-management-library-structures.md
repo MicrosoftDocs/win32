@@ -10,15 +10,15 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**CONVCONTEXT**](/windows/desktop/api/Ddeml/ns-ddeml-tagconvcontext)
--   [**CONVINFO**](/windows/desktop/api/Ddeml/ns-ddeml-tagconvinfo)
--   [**DDEML\_MSG\_HOOK\_DATA**](/windows/desktop/api/Ddeml/ns-ddeml-tagddeml_msg_hook_data)
--   [**MONCBSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmoncbstruct)
--   [**MONCONVSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonconvstruct)
--   [**MONERRSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonerrstruct)
--   [**MONHSZSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonhszstructa)
--   [**MONLINKSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonlinkstruct)
--   [**MONMSGSTRUCT**](/windows/desktop/api/Ddeml/ns-ddeml-tagmonmsgstruct)
+-   [**CONVCONTEXT**](/windows/win32/api/ddeml/ns-ddeml-convcontext)
+-   [**CONVINFO**](/windows/win32/api/ddeml/ns-ddeml-convinfo)
+-   [**DDEML\_MSG\_HOOK\_DATA**](/windows/win32/api/ddeml/ns-ddeml-ddeml_msg_hook_data)
+-   [**MONCBSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-moncbstruct)
+-   [**MONCONVSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monconvstruct)
+-   [**MONERRSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monerrstruct)
+-   [**MONHSZSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monhszstructa)
+-   [**MONLINKSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monlinkstruct)
+-   [**MONMSGSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monmsgstruct)
 
  
 

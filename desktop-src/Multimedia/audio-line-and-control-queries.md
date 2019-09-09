@@ -26,7 +26,7 @@ The [**mixerGetLineControls**](https://msdn.microsoft.com/en-us/library/Dd757302
 -   A specified control for a specified source line
 -   The first control of a specific class for a specified source line
 
-The [**mixerGetControlDetails**](https://msdn.microsoft.com/en-us/library/Dd757299(v=VS.85).aspx) function retrieves properties of a single control associated with an audio line. This function fills the [**MIXERCONTROLDETAILS**](/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta) structure with the current values for a control.
+The [**mixerGetControlDetails**](https://msdn.microsoft.com/en-us/library/Dd757299(v=VS.85).aspx) function retrieves properties of a single control associated with an audio line. This function fills the [**MIXERCONTROLDETAILS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta) structure with the current values for a control.
 
 The [**mixerSetControlDetails**](https://msdn.microsoft.com/en-us/library/Dd757309(v=VS.85).aspx) function uses the contents of the **MIXERCONTROLDETAILS** structure to set the properties of the specified control. You must ensure that all members of this structure are filled before you call **mixerSetControlDetails**.
 

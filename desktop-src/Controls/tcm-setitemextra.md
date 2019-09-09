@@ -40,7 +40,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the [**TCITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitema) structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the [**TCITEMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagtcitemheadera) structure followed by application-defined members.
+By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl-tcitema) structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the [**TCITEMHEADER**](/windows/win32/api/commctrl/ns-commctrl-tcitemheadera) structure followed by application-defined members.
 
 An application should only change the number of extra bytes when a tab control does not contain any tabs.
 

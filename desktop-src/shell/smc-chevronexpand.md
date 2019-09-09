@@ -18,7 +18,7 @@ topic_type:
 
 # SMC\_CHEVRONEXPAND message
 
-The user has clicked a chevron to expand the item specified by the accompanying [**SMDATA**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata) structure.
+The user has clicked a chevron to expand the item specified by the accompanying [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) structure.
 
 
 ```C++

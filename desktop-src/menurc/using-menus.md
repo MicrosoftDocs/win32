@@ -90,7 +90,7 @@ To have the system automatically assign a specific menu to a window, specify the
 
 You cannot assign a menu to a window that is a child window.
 
-To create a class menu, include the identifier of the menu-template resource as the **lpszMenuName** member of a [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) structure and then pass a pointer to the structure to the [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa) function.
+To create a class menu, include the identifier of the menu-template resource as the **lpszMenuName** member of a [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa) structure and then pass a pointer to the structure to the [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa) function.
 
 ### Creating a Class Menu
 
@@ -434,7 +434,7 @@ VOID APIENTRY DisplayContextMenu(HWND hwnd, POINT pt)
 
 ## Using Menu-Item Bitmaps
 
-The system can use a bitmap instead of a text string to display a menu item. To use a bitmap, you must set the **MIIM\_BITMAP** flag for the menu item and specify a handle to the bitmap that the system should display for the menu item in the **hbmpItem** member of the [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa) structure. This section describes how to use bitmaps for menu items.
+The system can use a bitmap instead of a text string to display a menu item. To use a bitmap, you must set the **MIIM\_BITMAP** flag for the menu item and specify a handle to the bitmap that the system should display for the menu item in the **hbmpItem** member of the [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure. This section describes how to use bitmaps for menu items.
 
 -   [Setting the Bitmap Type Flag](#setting-the-bitmap-type-flag)
 -   [Creating the Bitmap](#creating-the-bitmap)
@@ -927,9 +927,9 @@ You cannot define an owner-drawn menu item in your application's resource-defini
 
 You can use the [**InsertMenuItem**](/windows/desktop/api/Winuser/nf-winuser-insertmenuitema) or [**SetMenuItemInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuiteminfoa) function to specify an owner-drawn menu item. Use **InsertMenuItem** to insert a new menu item at the specified position in a menu bar or menu. Use **SetMenuItemInfo** to change the contents of a menu.
 
-When calling these two functions, you must specify a pointer to a [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa) structure, which specifies the properties of the new menu item or the properties you want to change for an existing menu item. To make an item an owner-drawn item, specify the **MIIM\_FTYPE** value for the **fMask** member and the **MFT\_OWNERDRAW** value for the **fType** member.
+When calling these two functions, you must specify a pointer to a [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure, which specifies the properties of the new menu item or the properties you want to change for an existing menu item. To make an item an owner-drawn item, specify the **MIIM\_FTYPE** value for the **fMask** member and the **MFT\_OWNERDRAW** value for the **fType** member.
 
-By setting the appropriate members of the [**MENUITEMINFO**](/windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa) structure, you can associate an application-defined value, which is called **item data**, with each menu item. To do so, specify the **MIIM\_DATA** value for the **fMask** member and the application-defined value for the **dwItemData** member.
+By setting the appropriate members of the [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure, you can associate an application-defined value, which is called **item data**, with each menu item. To do so, specify the **MIIM\_DATA** value for the **fMask** member and the application-defined value for the **dwItemData** member.
 
 You can use item data with any type of menu item, but it is particularly useful for owner-drawn items. For example, suppose a structure contains information used to draw a menu item. An application might use the item data for a menu item to store a pointer to the structure. The item data is sent to the menu's owner window with the [**WM\_MEASUREITEM**](https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx) and [**WM\_DRAWITEM**](https://msdn.microsoft.com/library/Bb775923(v=VS.85).aspx) messages. To retrieve the item data for a menu at any time, use the [**GetMenuItemInfo**](/windows/desktop/api/Winuser/nf-winuser-getmenuiteminfoa) function.
 

@@ -77,7 +77,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 | Major type       | **MEDIATYPE\_Video**                     |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           |
 | Format Type      | **FORMAT\_MPEG2Video**                   |
-| Format Structure | [**MPEG2VIDEOINFO**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo) |
+| Format Structure | [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) |
 
 
 

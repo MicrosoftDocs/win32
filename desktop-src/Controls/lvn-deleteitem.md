@@ -36,7 +36,7 @@ LVN_DELETEITEM
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLISTVIEW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview) structure. The **iItem** member identifies the item being deleted. If the control does not have the **LVS\_OWNERDATA** style, then the *lParam* is the application-defined data associated with the item. All other members of this structure are zero.
+Pointer to an [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure. The **iItem** member identifies the item being deleted. If the control does not have the **LVS\_OWNERDATA** style, then the *lParam* is the application-defined data associated with the item. All other members of this structure are zero.
 
 </dd> </dl>
 

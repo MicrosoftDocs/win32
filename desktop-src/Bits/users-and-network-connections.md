@@ -16,7 +16,7 @@ BITS transfers files only when the job owner is logged on and a network connecti
 
 BITS suspends a job when the owner logs off or if the network connection is lost (BITS will not force a network connection). BITS resumes the job when the owner logs back on and a network connection is established. After the network connection is established, a short delay may occur before BITS begins transferring data.
 
-If the network connection is lost, all jobs whose state is [**BG\_JOB\_STATE\_QUEUED**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002) or **BG\_JOB\_STATE\_TRANSFERRING** are moved to the **BG\_JOB\_STATE\_TRANSIENT\_ERROR** state with a [BG\_E\_NETWORK\_DISCONNECTED](bits-return-values.md) error code. When a network connection is established, all jobs in a **BG\_JOB\_STATE\_TRANSIENT\_ERROR** state, which may include any error code, are moved to the **BG\_JOB\_STATE\_QUEUED** state.
+If the network connection is lost, all jobs whose state is [**BG\_JOB\_STATE\_QUEUED**](/windows/desktop/api/Bits/ne-bits-bg_job_state) or **BG\_JOB\_STATE\_TRANSFERRING** are moved to the **BG\_JOB\_STATE\_TRANSIENT\_ERROR** state with a [BG\_E\_NETWORK\_DISCONNECTED](bits-return-values.md) error code. When a network connection is established, all jobs in a **BG\_JOB\_STATE\_TRANSIENT\_ERROR** state, which may include any error code, are moved to the **BG\_JOB\_STATE\_QUEUED** state.
 
 For BITS to detect that a user is logged on, the user must use one of the following interactive logon options:
 

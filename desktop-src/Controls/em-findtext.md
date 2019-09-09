@@ -49,7 +49,7 @@ Specify the parameters of the search operation. This parameter can be one or mor
 *lParam* 
 </dt> <dd>
 
-A [**FINDTEXT**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure containing information about the find operation.
+A [**FINDTEXT**](/windows/win32/api/richedit/ns-richedit-findtexta) structure containing information about the find operation.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ The **cpMin** member of **FINDTEXT.chrg** always specifies the starting-point of
 
 <dl> <dt>
 
-[**FINDTEXT**](/windows/desktop/api/Richedit/ns-richedit-_findtext)
+[**FINDTEXT**](/windows/win32/api/richedit/ns-richedit-findtexta)
 </dt> </dl>
 
  

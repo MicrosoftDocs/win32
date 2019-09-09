@@ -60,14 +60,14 @@ New enumeration:
 
 <dl>
 
-[**XPS\_DOCUMENT\_TYPE**](/windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001)  
+[**XPS\_DOCUMENT\_TYPE**](/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type)  
 </dl>
 
 Updated enumeration
 
 <dl>
 
-[**XPS\_IMAGE\_TYPE**](/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0008)  
+[**XPS\_IMAGE\_TYPE**](/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type)  
 </dl>
 
 The new GetDocumentType methods allow an application to determine the XPS format of documents. These are available in [**IXpsOMObjectFactory1**](/windows/desktop/api/XpsObjectModel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1), [**IXpsOMPackage1**](/windows/desktop/api/XpsObjectModel_1/nn-xpsobjectmodel_1-ixpsompackage1), and [**IXpsOMPage1**](/windows/desktop/api/XpsObjectModel_1/nn-xpsobjectmodel_1-ixpsompage1). Here's a list of the methods.
@@ -108,10 +108,10 @@ Windows 8 provides the following new error codes in support of OpenXPS:
 [**IXpsOMPage1::GetDocumentType**](/windows/desktop/api/XpsObjectModel_1/nf-xpsobjectmodel_1-ixpsompage1-getdocumenttype)
 </dt> <dt>
 
-[**XPS\_DOCUMENT\_TYPE**](/windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001)
+[**XPS\_DOCUMENT\_TYPE**](/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type)
 </dt> <dt>
 
-[**XPS\_IMAGE\_TYPE**](/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0008)
+[**XPS\_IMAGE\_TYPE**](/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type)
 </dt> </dl>
 
  

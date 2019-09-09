@@ -36,7 +36,7 @@ SCESTATUS WINAPI SceSvcAttachmentAnalyze(
 *pSceCbInfo* \[in\]
 </dt> <dd>
 
-Pointer to a [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure which contains an opaque database handle and callback function pointers to query, set, and free information.
+Pointer to a [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure which contains an opaque database handle and callback function pointers to query, set, and free information.
 
 </dd> </dl>
 
@@ -49,9 +49,9 @@ If this function succeeds, it returns SCESTATUS\_SUCCESS. Otherwise it returns a
 The **SceSvcAttachmentAnalyze** function must do the following:
 
 -   Directly query configuration information from the service.
--   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo) to retrieve information from the security database.
+-   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfQueryInfo) to retrieve information from the security database.
 -   Compute the differences between the information based on type and syntax.
--   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfSetInfo) to update the security database with the retrieved service information that is different.
+-   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info) structure (pSceCbInfo->pfSetInfo) to update the security database with the retrieved service information that is different.
 
 For more information, see [Implementing SceSvcAttachmentAnalyze](implementing-scesvcattachmentanalyze.md).
 
@@ -73,7 +73,7 @@ For more information, see [Implementing SceSvcAttachmentAnalyze](implementing-sc
 [Implementing SceSvcAttachmentAnalyze](implementing-scesvcattachmentanalyze.md)
 </dt> <dt>
 
-[**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_)
+[**SCESVC\_CALLBACK\_INFO**](/windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info)
 </dt> <dt>
 
 [**SceSvcAttachmentConfig**](scesvcattachmentconfig.md)

@@ -38,7 +38,7 @@ DTN_USERSTRING
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMESTRING**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimestringa) structure that contains information about the instance of the notification code.
+A pointer to an [**NMDATETIMESTRING**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimestringa) structure that contains information about the instance of the notification code.
 
 </dd> </dl>
 

@@ -83,7 +83,7 @@ The following classes implement helper objects that are used by filters and pins
 | [**CMemAllocator**](cmemallocator.md)             | Memory allocator object. Implements the [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) interface.                                                                          |
 | [**CMediaSample**](cmediasample.md)               | Media sample object. Implements the [**IMediaSample2**](/windows/desktop/api/Strmif/nn-strmif-imediasample2) interface.                                                                              |
 | [**CBaseReferenceClock**](cbasereferenceclock.md) | Base class for reference clocks. Implements the [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock) interface.                                                              |
-| [**CMediaType**](cmediatype.md)                   | Helper object for manipulating [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structures.                                                                                |
+| [**CMediaType**](cmediatype.md)                   | Helper object for manipulating [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structures.                                                                                |
 
 
 

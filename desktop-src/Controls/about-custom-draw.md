@@ -35,17 +35,17 @@ This section contains general information about custom draw functionality and pr
 
 All common controls that support custom draw send [NM\_CUSTOMDRAW](nm-customdraw.md) notification codes at specific points during drawing operations. These notification codes describe drawing operations that apply to the entire control as well as drawing operations specific to items within the control. Like many notification codes, NM\_CUSTOMDRAW notifications are sent as [**WM\_NOTIFY**](wm-notify.md) messages.
 
-The *lParam* parameter of a custom draw notification will be the address of an [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure or a control-specific structure that contains an **NMCUSTOMDRAW** structure as its first member. The following table illustrates the relationship between the controls and the structures they use.
+The *lParam* parameter of a custom draw notification will be the address of an [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure or a control-specific structure that contains an **NMCUSTOMDRAW** structure as its first member. The following table illustrates the relationship between the controls and the structures they use.
 
 
 
 | Structure                                | Used by                              |
 |------------------------------------------|--------------------------------------|
-| [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo)     | Rebar, trackbar, and header controls |
-| [**NMLVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcustomdraw) | List-view controls                   |
+| [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw)     | Rebar, trackbar, and header controls |
+| [**NMLVCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmlvcustomdraw) | List-view controls                   |
 | [**NMTBCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-nmtbcustomdraw) | Toolbar controls                     |
-| [**NMTTCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmttcustomdraw) | Tooltip controls                     |
-| [**NMTVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvcustomdraw) | Tree-view controls                   |
+| [**NMTTCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmttcustomdraw) | Tooltip controls                     |
+| [**NMTVCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmtvcustomdraw) | Tree-view controls                   |
 
 
 
@@ -53,9 +53,9 @@ The *lParam* parameter of a custom draw notification will be the address of an [
 
 ## Paint Cycles, Drawing Stages, and Notification Messages
 
-Like all Windows applications, common controls periodically paint and erase themselves based on messages received from the system or other applications. The process of a control painting or erasing itself is called a *paint cycle*. Controls that support custom draw send [NM\_CUSTOMDRAW](nm-customdraw.md) notification codes periodically through each paint cycle. This notification code is accompanied by an [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure or another structure that contains an **NMCUSTOMDRAW** structure as its first member.
+Like all Windows applications, common controls periodically paint and erase themselves based on messages received from the system or other applications. The process of a control painting or erasing itself is called a *paint cycle*. Controls that support custom draw send [NM\_CUSTOMDRAW](nm-customdraw.md) notification codes periodically through each paint cycle. This notification code is accompanied by an [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure or another structure that contains an **NMCUSTOMDRAW** structure as its first member.
 
-One piece of information that the [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure contains is the current stage of the paint cycle. This is referred to as the *draw stage* and is represented by the value in the structure's **dwDrawStage** member. A control informs its parent about four basic draw stages. These basic, or global, draw stages are represented in the structure by the following flag values (defined in Commctrl.h).
+One piece of information that the [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure contains is the current stage of the paint cycle. This is referred to as the *draw stage* and is represented by the value in the structure's **dwDrawStage** member. A control informs its parent about four basic draw stages. These basic, or global, draw stages are represented in the structure by the following flag values (defined in Commctrl.h).
 
 
 
@@ -125,7 +125,7 @@ At the beginning of each paint cycle, the control sends the [NM\_CUSTOMDRAW](nm-
 
 ### Requesting item-specific notifications
 
-If your application returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md) to the initial prepaint custom draw notification, the control will send notifications for each item it draws during that paint cycle. These item-specific notifications will have the CDDS\_ITEMPREPAINT value in the **dwDrawStage** member of the accompanying [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure. You can request that the control send another notification when it is finished drawing the item by returning [**CDRF\_NOTIFYPOSTPAINT**](cdrf-constants.md) to these item-specific notifications. Otherwise, return [**CDRF\_DODEFAULT**](cdrf-constants.md) and the control will not notify the parent window until it starts to draw the next item.
+If your application returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md) to the initial prepaint custom draw notification, the control will send notifications for each item it draws during that paint cycle. These item-specific notifications will have the CDDS\_ITEMPREPAINT value in the **dwDrawStage** member of the accompanying [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure. You can request that the control send another notification when it is finished drawing the item by returning [**CDRF\_NOTIFYPOSTPAINT**](cdrf-constants.md) to these item-specific notifications. Otherwise, return [**CDRF\_DODEFAULT**](cdrf-constants.md) and the control will not notify the parent window until it starts to draw the next item.
 
 ### Drawing the item yourself
 
@@ -133,9 +133,9 @@ If your application draws the entire item, return [**CDRF\_SKIPDEFAULT**](cdrf-c
 
 ### Changing fonts and colors
 
-Your application can use custom draw to change an item's font. Simply select the HFONT you want into the device context specified by the **hdc** member of the [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure associated with the custom draw notification. Since the font you select might have different metrics than the default font, make sure you include the [**CDRF\_NEWFONT**](cdrf-constants.md) bit in the return value for the notification message. For more information on using this functionality, see the sample code in [Using Custom Draw](using-custom-draw.md). The font that your application specifies is used to display that item when it is not selected. Custom draw does not allow you to change the font attributes for selected items.
+Your application can use custom draw to change an item's font. Simply select the HFONT you want into the device context specified by the **hdc** member of the [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure associated with the custom draw notification. Since the font you select might have different metrics than the default font, make sure you include the [**CDRF\_NEWFONT**](cdrf-constants.md) bit in the return value for the notification message. For more information on using this functionality, see the sample code in [Using Custom Draw](using-custom-draw.md). The font that your application specifies is used to display that item when it is not selected. Custom draw does not allow you to change the font attributes for selected items.
 
-To change text colors for all controls that support custom draw except for the list view and tree view, simply set the desired text and background colors in the device context supplied in the custom draw notification structure with the [**SetTextColor**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor) and [**SetBkColor**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor) functions. To modify the text colors in the list view or tree view, you need to place the desired color values in the **clrText** and **clrTextBk** members of the [**NMLVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcustomdraw) or [**NMTVCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvcustomdraw) structure.
+To change text colors for all controls that support custom draw except for the list view and tree view, simply set the desired text and background colors in the device context supplied in the custom draw notification structure with the [**SetTextColor**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor) and [**SetBkColor**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor) functions. To modify the text colors in the list view or tree view, you need to place the desired color values in the **clrText** and **clrTextBk** members of the [**NMLVCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmlvcustomdraw) or [**NMTVCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmtvcustomdraw) structure.
 
 > [!Note]  
 > Prior to [Version 6.0](common-control-versions.md) of the common controls, toolbars ignore the [**CDRF\_NEWFONT**](cdrf-constants.md) flag. Version 6.0 supports the **CDRF\_NEWFONT** flag, and you can use it to select a different font for the toolbar. However, you cannot change a toolbar's color when a visual style is active. To change a toolbar's color in Version 6.0, you must first disable visual styles by calling [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme) and specifying no visual style:
@@ -161,13 +161,13 @@ Because list-view controls have subitems and multiple display modes, you will ne
 
 For report mode, use the following procedure.
 
-1.  The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification will have the **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure set to CDDS\_PREPAINT. Return [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md).
+1.  The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification will have the **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure set to CDDS\_PREPAINT. Return [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md).
 2.  You will then receive an [NM\_CUSTOMDRAW](nm-customdraw.md) notification with **dwDrawStage** set to CDDS\_ITEMPREPAINT. If you specify new fonts or colors and return [**CDRF\_NEWFONT**](cdrf-constants.md), all subitems of the item will be changed. If you want instead to handle each subitem separately, return [**CDRF\_NOTIFYSUBITEMDRAW**](cdrf-constants.md).
 3.  If you returned [**CDRF\_NOTIFYSUBITEMDRAW**](cdrf-constants.md) in the previous step, you will then receive an [NM\_CUSTOMDRAW](nm-customdraw.md) notification for each subitem with **dwDrawStage** set to CDDS\_SUBITEM \| CDDS\_ITEMPREPAINT. To change the font or color for that subitem, specify a new font or color and return [**CDRF\_NEWFONT**](cdrf-constants.md).
 
 For the large icon, small icon, and list modes, use the following procedure.
 
-1.  The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification will have the **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure set to CDDS\_PREPAINT. Return [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md).
+1.  The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification will have the **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure set to CDDS\_PREPAINT. Return [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md).
 2.  You will then receive an [NM\_CUSTOMDRAW](nm-customdraw.md) notification with **dwDrawStage** set to CDDS\_ITEMPREPAINT. You can change the fonts or colors of an item by specifying new fonts and colors and returning [**CDRF\_NEWFONT**](cdrf-constants.md). Because these modes do not have subitems, you will not receive any additional NM\_CUSTOMDRAW notifications.
 
 For an example of a list-view [NM\_CUSTOMDRAW](nm-customdraw.md) notification handler, see [Using Custom Draw](using-custom-draw.md).

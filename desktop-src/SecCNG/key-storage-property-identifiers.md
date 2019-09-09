@@ -491,7 +491,7 @@ L"Use Count"
 
 
 
-A [**ULARGE\_INTEGER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer) variable that contains the number of operations that the specified [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) has performed. This property is optional and may not be supported by all providers. Providers that support this property on keys should also support the **NCRYPT\_USE\_COUNT\_ENABLED\_PROPERTY** property on the provider handle. The Microsoft key storage provider does not support this property. This property only applies to persistent keys.
+A [**ULARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1) variable that contains the number of operations that the specified [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) has performed. This property is optional and may not be supported by all providers. Providers that support this property on keys should also support the **NCRYPT\_USE\_COUNT\_ENABLED\_PROPERTY** property on the provider handle. The Microsoft key storage provider does not support this property. This property only applies to persistent keys.
 
 
 </dt> </dl> </dd> <dt>

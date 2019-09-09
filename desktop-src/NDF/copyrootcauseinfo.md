@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CopyRootCauseInfo function
 
-The **CopyRootCauseInfo** function creates a copy of a [**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo) structure.
+The **CopyRootCauseInfo** function creates a copy of a [**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo) structure.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT CopyRootCauseInfo(
 *Dest* \[out\]
 </dt> <dd>
 
-Type: **[**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo)\***
+Type: **[**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo)\***
 
 The structure to be updated.
 
@@ -48,7 +48,7 @@ The structure to be updated.
 *Source* \[in\]
 </dt> <dd>
 
-Type: **const [**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo)\***
+Type: **const [**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo)\***
 
 The existing structure to be copied.
 
@@ -88,7 +88,7 @@ Possible return values include, but are not limited to, the following.
 
 <dl> <dt>
 
-[**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo)
+[**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo)
 </dt> </dl>
 
  

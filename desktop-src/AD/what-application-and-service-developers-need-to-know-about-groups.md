@@ -24,7 +24,7 @@ It is recommended that applications use the following guidelines when using grou
     -   Use universal groups only if necessary (member data is required globally using global catalog; group can contain any user/group). If you do use universal groups, place global groups in the universal group and add/remove users from the global group. Avoid excess change to universal groups for replication efficiency.
 -   Do not use group membership for access control. Instead, use an ACE and control access by having the system perform an access check.
 
-To control access to operations that do not fit within the predefined access rights for objects in Active Directory Domain services, use the control access rights feature of access control in Windows 2000. For more information, see [**ADS\_RIGHTS\_ENUM**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0048_0001).
+To control access to operations that do not fit within the predefined access rights for objects in Active Directory Domain services, use the control access rights feature of access control in Windows 2000. For more information, see [**ADS\_RIGHTS\_ENUM**](https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_rights_enum).
 
 **To use a control access right to control the right to perform an operation**
 

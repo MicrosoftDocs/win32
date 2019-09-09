@@ -36,7 +36,7 @@ RBN_CHILDSIZE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMREBARCHILDSIZE**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchildsize) structure that contains information about the notification code.
+Pointer to an [**NMREBARCHILDSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchildsize) structure that contains information about the notification code.
 
 </dd> </dl>
 

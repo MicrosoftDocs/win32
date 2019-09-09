@@ -48,7 +48,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 Using an overlay does not require CPU resources.
 
-The **fHasOverlay** member of the [**CAPDRIVERCAPS**](/windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps) structure indicates whether the device is capable of overlay. The **fOverlayWindow** member of the [**CAPSTATUS**](/windows/desktop/api/Vfw/ns-vfw-tagcapstatus) structure indicates whether overlay mode is currently enabled.
+The **fHasOverlay** member of the [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) structure indicates whether the device is capable of overlay. The **fOverlayWindow** member of the [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure indicates whether overlay mode is currently enabled.
 
 Enabling overlay mode automatically disables preview mode.
 

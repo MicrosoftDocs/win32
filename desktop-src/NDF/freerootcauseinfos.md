@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # FreeRootCauseInfos function
 
-The **FreeRootCauseInfos** function deallocates the memory allocated internally to an array of [**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo) structures. This function calls [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to deallocate memory.
+The **FreeRootCauseInfos** function deallocates the memory allocated internally to an array of [**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo) structures. This function calls [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to deallocate memory.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ VOID FreeRootCauseInfos(
 *pInfo* \[in\]
 </dt> <dd>
 
-Type: **[**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo)\***
+Type: **[**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo)\***
 
 The array of structures. The allocated memory pointed to by these structures will be freed.
 
@@ -84,7 +84,7 @@ This function does not return a value.
 
 <dl> <dt>
 
-[**RootCauseInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo)
+[**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo)
 </dt> <dt>
 
 [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)

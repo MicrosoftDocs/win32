@@ -24,7 +24,7 @@ g\_wszWMContainerFormat
 
 ## Data Type
 
-[**WMT\_STORAGE\_FORMAT**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_storage_format) (**WMT\_TYPE\_BINARY**)
+[**WMT\_STORAGE\_FORMAT**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_storage_format) (**WMT\_TYPE\_BINARY**)
 
 ## Remarks
 

@@ -64,7 +64,7 @@ The property methods of the [**IADsPropertyValue**](/windows/desktop/api/Iads/nn
 **ADsType**
 </dt> <dd> <dl>
 
-The data type of the value of the property, taken from the [**ADSTYPEENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001) enumeration, of the value property.
+The data type of the value of the property, taken from the [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) enumeration, of the value property.
 
 <dt>
 
@@ -401,11 +401,11 @@ HRESULT put_UTCTime(
 
 ## Remarks
 
-The [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) properties will only set or retrieve a property value of the specified type. For example, the **CaseIgnoreString** property on an attribute of type **ADSTYPE\_DN\_STRING**, like the **distinguishedName** attribute, will result in an error. The **CaseIgnoreString** property will only work on attributes of type **ADS\_CASE\_IGNORE\_STRING**. The following table maps the [**ADSTYPEENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001) value to the corresponding **IADsPropertyValue** property that can be used to access that attribute type. If an **ADSTYPEENUM** value is not listed in this table, it is not available from the **IADsPropertyValue** interface. The [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interface should be used to obtain data in the other formats.
+The [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) properties will only set or retrieve a property value of the specified type. For example, the **CaseIgnoreString** property on an attribute of type **ADSTYPE\_DN\_STRING**, like the **distinguishedName** attribute, will result in an error. The **CaseIgnoreString** property will only work on attributes of type **ADS\_CASE\_IGNORE\_STRING**. The following table maps the [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) value to the corresponding **IADsPropertyValue** property that can be used to access that attribute type. If an **ADSTYPEENUM** value is not listed in this table, it is not available from the **IADsPropertyValue** interface. The [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interface should be used to obtain data in the other formats.
 
 
 
-| [**ADSTYPEENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001) value | [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) property |
+| [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) value | [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) property |
 |------------------------------------------|---------------------------------------------------------|
 | **ADSTYPE\_DN\_STRING**                  | **DNString**                                            |
 | **ADSTYPE\_CASE\_EXACT\_STRING**         | **CaseExactString**                                     |
@@ -601,7 +601,7 @@ Cleanup:
 [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue)
 </dt> <dt>
 
-[**ADSTYPEENUM**](/windows/desktop/api/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001)
+[**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum)
 </dt> <dt>
 
 [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)

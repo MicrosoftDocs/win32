@@ -36,7 +36,7 @@ IPN_FIELDCHANGED
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMIPADDRESS**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmipaddress) structure that contains information about the changed address. The **iValue** member of this structure will contain the entered value, even if it is out of the range of the field. You can modify this member to any value that is within the range for the field in response to this notification code.
+A pointer to an [**NMIPADDRESS**](/windows/win32/api/commctrl/ns-commctrl-nmipaddress) structure that contains information about the changed address. The **iValue** member of this structure will contain the entered value, even if it is out of the range of the field. You can modify this member to any value that is within the range for the field in response to this notification code.
 
 </dd> </dl>
 

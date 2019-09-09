@@ -31,17 +31,17 @@ Set to IMR\_QUERYCHARPOSITION.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to an [**IMECHARPOSITION**](/windows/desktop/api/Imm/ns-imm-tagimecharposition) structure that contains the position of the character in the composition window.
+Pointer to an [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition) structure that contains the position of the character in the composition window.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills the [**IMECHARPOSITION**](/windows/desktop/api/Imm/ns-imm-tagimecharposition) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills the [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition) structure. Otherwise, the command returns 0.
 
 ## Remarks
 
-An application that draws the composition string itself, instead of relying on the IME, is responsible for filling in all the members of the [**IMECHARPOSITION**](/windows/desktop/api/Imm/ns-imm-tagimecharposition) structure. Otherwise, the application should pass the command to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea) if it has its own IME user interface window.
+An application that draws the composition string itself, instead of relying on the IME, is responsible for filling in all the members of the [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition) structure. Otherwise, the application should pass the command to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea) if it has its own IME user interface window.
 
 ## Requirements
 
@@ -65,7 +65,7 @@ An application that draws the composition string itself, instead of relying on t
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**IMECHARPOSITION**](/windows/desktop/api/Imm/ns-imm-tagimecharposition)
+[**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition)
 </dt> <dt>
 
 [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea)

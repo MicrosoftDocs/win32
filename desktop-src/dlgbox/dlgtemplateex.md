@@ -220,7 +220,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The weight of the font. Note that, although this can be any of the values listed for the **lfWeight** member of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure, any value that is used will be automatically changed to **FW\_NORMAL**.
+The weight of the font. Note that, although this can be any of the values listed for the **lfWeight** member of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure, any value that is used will be automatically changed to **FW\_NORMAL**.
 
 This member is present only if the **style** member specifies **DS\_SETFONT** or **DS\_SHELLFONT**.
 
@@ -246,7 +246,7 @@ Type: **BYTE**
 
 </dd> <dd>
 
-The character set to be used. For more information, see the **lfcharset** member of [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta).
+The character set to be used. For more information, see the **lfcharset** member of [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta).
 
 This member is present only if the **style** member specifies **DS\_SETFONT** or **DS\_SHELLFONT**.
 
@@ -327,7 +327,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 **Other Resources**
 </dt> <dt>
 
-[**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta)
+[**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta)
 </dt> <dt>
 
 [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar)

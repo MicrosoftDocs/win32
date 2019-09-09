@@ -43,7 +43,7 @@ A handle to the common dialog box.
 *lParam* 
 </dt> <dd>
 
-A pointer to the initialization structure for the common dialog box. This structure can be a [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora), [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta), [**FINDREPLACE**](/windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea), [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna), [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda) or [**PAGESETUPDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpsda) structure.
+A pointer to the initialization structure for the common dialog box. This structure can be a [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1), [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta), [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea), [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea), [**PRINTDLG**](/windows/win32/api/commdlg/ns-commdlg-printdlga) or [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure.
 
 </dd> </dl>
 
@@ -80,22 +80,22 @@ When you create the dialog box, use the **hwndOwner** member of the initializati
 [**CDN\_HELP**](cdn-help.md)
 </dt> <dt>
 
-[**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora)
+[**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1)
 </dt> <dt>
 
-[**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
+[**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[**FINDREPLACE**](/windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea)
+[**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea)
 </dt> <dt>
 
-[**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
+[**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
-[**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda)
+[**PRINTDLG**](/windows/win32/api/commdlg/ns-commdlg-printdlga)
 </dt> <dt>
 
-[**PAGESETUPDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpsda)
+[**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga)
 </dt> <dt>
 
 [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)

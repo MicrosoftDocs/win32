@@ -14,7 +14,7 @@ The [**ISearchResult**](/windows/desktop/api/Wuapi/nn-wuapi-isearchresult) inter
 
 | Property                                               | Description                                                                                                   |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [**ResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_resultcode)         | Gets an [**OperationResultCode**](/windows/desktop/api/Wuapi/ne-wuapi-tagoperationresultcode) enumeration that specifies the result of a search. |
+| [**ResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_resultcode)         | Gets an [**OperationResultCode**](/windows/win32/api/wuapi/ne-wuapi-operationresultcode) enumeration that specifies the result of a search. |
 | [**RootCategories**](/windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_rootcategories) | Gets an interface collection of the root categories that are currently available on the computer.             |
 | [**Updates**](/windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_updates)               | Gets an interface collection of the updates that result from a search.                                        |
 | [**Warnings**](/windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_warnings)             | Gets a collection of the warnings that result from a search.                                                  |

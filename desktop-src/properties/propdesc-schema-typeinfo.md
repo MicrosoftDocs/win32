@@ -403,7 +403,7 @@ A property whose <em>isInnate</em> value is &quot;false&quot; (meaning that the 
 <tbody>
 <tr class="odd">
 <td>String</td>
-<td>Default. The following operators will be used: &quot;is&quot;, &quot;is not&quot;, &quot;<&quot;, &quot;>&quot;, &quot;<=&quot;, &quot;>=&quot;, &quot;starts with&quot;, &quot;ends with&quot;, &quot;contains&quot;, &quot;doesn't contain&quot;, &quot;is like&quot;.</td>
+<td>Default. The following operators will be used: &quot;is&quot;, &quot;is not&quot;, &quot;&lt;&quot;, &quot;&gt;&quot;, &quot;<=&quot;, &quot;>=&quot;, &quot;starts with&quot;, &quot;ends with&quot;, &quot;contains&quot;, &quot;doesn't contain&quot;, &quot;is like&quot;.</td>
 </tr>
 <tr class="even">
 <td>Number</td>

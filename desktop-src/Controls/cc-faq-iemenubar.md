@@ -119,7 +119,7 @@ hhookMsg = SetWindowsHookEx(WH_MSGFILTER, MsgHook, HINST_THISDLL, 0);
 
 
 
-Menu messages are identified by setting the hook procedure's *nCode* parameter to MSGF\_MENU. The *lParam* parameter will point to a [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure with the message. The details of which messages need to be handled, and how, are discussed in the remainder of this topic.
+Menu messages are identified by setting the hook procedure's *nCode* parameter to MSGF\_MENU. The *lParam* parameter will point to a [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure with the message. The details of which messages need to be handled, and how, are discussed in the remainder of this topic.
 
 Your application must pass all messages on to the next message hook by calling the [**CallNextHookEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex) function. You must also send mouse messages directly to the toolbar control, making sure to convert any point coordinates to the toolbar client coordinate space. Sending the messages directly ensures that the toolbar control receives the appropriate mouse messages. For instance, the toolbar needs to receive [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) messages in order to hot-track its buttons.
 

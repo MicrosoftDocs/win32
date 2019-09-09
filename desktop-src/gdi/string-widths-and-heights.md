@@ -14,11 +14,11 @@ Applications can use the [**GetTextExtentExPoint**](/windows/desktop/api/Wingdi/
 
 ## Font Ascenders and Descenders
 
-Some applications determine the line spacing between text lines of different sizes by using a font's maximum ascender and descender. An application can retrieve these values by calling the [**GetTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-gettextmetrics) function and then checking the **tmAscent** and **tmDescent** members of the [**TEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-tagtextmetrica).
+Some applications determine the line spacing between text lines of different sizes by using a font's maximum ascender and descender. An application can retrieve these values by calling the [**GetTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-gettextmetrics) function and then checking the **tmAscent** and **tmDescent** members of the [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica).
 
 The maximum ascent and descent are different from the typographic ascent and descent. In TrueType and OpenType fonts, the typographic ascent and descent are typically the top of the f glyph and bottom of the g glyph. An application can retrieve the typographic ascender and descender for a TrueType or OpenType font by calling the [**GetOutlineTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-getoutlinetextmetricsa) function and checking the values in the **otmMacAscent** and **otmMacDescent** members of the [**OUTLINETEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-outlinetextmetrica) structure.
 
-The following figure shows the difference between the vertical text metric values returned in the [**NEWTEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-tagnewtextmetrica) and [**OUTLINETEXTMETRIC**](https://msdn.microsoft.com/en-us/library/Dd162755(v=VS.85).aspx) structures. (The names beginning with otm are members of the **OUTLINETEXTMETRIC** structure.)
+The following figure shows the difference between the vertical text metric values returned in the [**NEWTEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-newtextmetrica) and [**OUTLINETEXTMETRIC**](https://msdn.microsoft.com/en-us/library/Dd162755(v=VS.85).aspx) structures. (The names beginning with otm are members of the **OUTLINETEXTMETRIC** structure.)
 
 ![illustration that shows how text metric values contrast with outline text metrics values](images/csftx-03.png)
 

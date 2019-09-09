@@ -40,7 +40,7 @@ HRESULT GetAllocatorRequirements(
 *pProps* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/desktop/api/strmif/ns-strmif-_allocatorproperties) structure, which is filled in with the requirements.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure, which is filled in with the requirements.
 
 </dd> </dl>
 

@@ -87,7 +87,7 @@ The agent is ready to accept calls.
 
 
 
-The agent state is unknown and will never become known. In [**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus_tag), this condition can also be represented by the **dwAgentState** member being set to 0.
+The agent state is unknown and will never become known. In [**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus), this condition can also be represented by the **dwAgentState** member being set to 0.
 
 
 </dt> </dl> </dd> <dt>

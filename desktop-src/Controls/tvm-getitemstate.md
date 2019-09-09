@@ -34,13 +34,13 @@ Handle to the item.
 *lParam* 
 </dt> <dd>
 
-Mask used to specify the states to query for. It is equivalent to the **stateMask** member of [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa).
+Mask used to specify the states to query for. It is equivalent to the **stateMask** member of [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa).
 
 </dd> </dl>
 
 ## Return value
 
-Returns a **UINT** value with the appropriate state bits set to **TRUE**. Only those bits that are specified by *lParam* and that are **TRUE** will be set. This value is equivalent to the **state** member of [**TVITEMEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa).
+Returns a **UINT** value with the appropriate state bits set to **TRUE**. Only those bits that are specified by *lParam* and that are **TRUE** will be set. This value is equivalent to the **state** member of [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa).
 
 ## Requirements
 

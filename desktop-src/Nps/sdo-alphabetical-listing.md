@@ -26,7 +26,7 @@ This topic lists the SDO enumeration types in alphabetical order.
 -   [**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
 -   [**IASCOMPONENTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascomponentproperties)
 -   [**IASDATASTORE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasdatastore)
--   [**IASDOMAINTYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_domaintype)
+-   [**IASDOMAINTYPE**](https://docs.microsoft.com/windows/win32/api/sdoias/ne-sdoias-iasdomaintype)
 -   [**IASOSTYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasostype)
 -   [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 -   [**IDENTITY\_TYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-identity_type)

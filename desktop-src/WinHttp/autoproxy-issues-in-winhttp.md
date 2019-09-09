@@ -12,7 +12,7 @@ Consider the following important issues when using the WinHTTP autoproxy feature
 
 ## Only One Proxy Server is Currently Supported
 
-WinHTTP does not currently support proxy configurations that specify more than one proxy server. If [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) returns a [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure that contains a list of proxy servers, which the application then sets on the request handle using the **WINHTTP\_OPTION\_PROXY** option, WinHTTP uses only the first proxy server in the list. If that proxy server is not accessible, WinHTTP does not failover to any of the other proxy servers in the list. It is up to the application to handle this case by setting the **WINHTTP\_OPTION\_PROXY** option again with the next proxy server in the list, and resending the request.
+WinHTTP does not currently support proxy configurations that specify more than one proxy server. If [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) returns a [**WINHTTP\_PROXY\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info) structure that contains a list of proxy servers, which the application then sets on the request handle using the **WINHTTP\_OPTION\_PROXY** option, WinHTTP uses only the first proxy server in the list. If that proxy server is not accessible, WinHTTP does not failover to any of the other proxy servers in the list. It is up to the application to handle this case by setting the **WINHTTP\_OPTION\_PROXY** option again with the next proxy server in the list, and resending the request.
 
 ## Security Risk Mitigation
 

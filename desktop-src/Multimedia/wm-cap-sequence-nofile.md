@@ -39,7 +39,7 @@ This message is useful in conjunction with video stream or waveform-audio stream
 
 If you want to alter the parameters controlling streaming capture, use the [**WM\_CAP\_SET\_SEQUENCE\_SETUP**](wm-cap-set-sequence-setup.md) message prior to starting the capture.
 
-By default, the capture window does not allow other applications to continue running during capture. To override this, either set the **fYield** member of the [**CAPTUREPARMS**](/windows/desktop/api/Vfw/ns-vfw-tagcaptureparms) structure to **TRUE**, or install a yield callback function.
+By default, the capture window does not allow other applications to continue running during capture. To override this, either set the **fYield** member of the [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) structure to **TRUE**, or install a yield callback function.
 
 During streaming capture, the capture window can optionally issue notifications to your application of specific types of conditions. To install callback procedures for these notifications, use the following messages:
 
