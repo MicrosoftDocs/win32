@@ -3,12 +3,77 @@ Description: The system-provided file system size of the item, in bytes.
 ms.assetid: 471c38fc-2382-4df8-8f70-e1af0dd6c746
 title: System.Size
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2019
 ---
 
 # System.Size
 
 The system-provided file system size of the item, in bytes.
+## Windows 10, version 1809
+```
+propertyDescription
+   name = System.Size
+   shellPKey = PKEY_Size
+   formatID = B725F130-47EF-101A-A5F1-02608C9EEBAC
+   propID = 12
+   SearchInfo
+      InInvertedIndex = false
+      IsColumn = true
+   typeInfo
+      type = UInt64
+      IsInnate = true
+      EnumeratedList
+         UseValueForDefault = True
+         enumRange
+            name = Empty
+            minValue = 0
+            setValue = 0
+            text = Empty (0 KB)
+            defineToken = SIZE_EMPTY
+            mnemonics = empty
+         enumRange
+            name = Tiny
+            minValue = 1
+            setValue = 1
+            text = Tiny (0 - 16 KB)
+            defineToken = SIZE_TINY
+            mnemonics = tiny
+         enumRange
+            name = Small
+            minValue = 16383
+            setValue = 16383
+            text = Small (16 - 1 MB)
+            defineToken = SIZE_SMALL
+            mnemonics = small
+         enumRange
+            name = Medium
+            minValue = 1048577
+            setValue = 1048577
+            text = Medium (1 - 128 MB)
+            defineToken = SIZE_MEDIUM
+            mnemonics = medium
+         enumRange
+            name = Large
+            minValue = 134217729
+            setValue = 134217729
+            text = Large (128 MB - 1 GB)
+            defineToken = SIZE_LARGE
+            mnemonics = large
+         enumRange
+            name = Huge
+            minValue = 1073741825
+            setValue = 1073741825
+            text = Huge (1 - 4 GB)
+            defineToken = SIZE_HUGE
+            mnemonics = huge
+         enumRange
+            name = Gigantic
+            minValue = 4294967297
+            setValue = 4294967297
+            text = Gigantic (>4 GB)
+            defineToken = SIZE_GIGANTIC
+            mnemonics = gigantic
+```
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
