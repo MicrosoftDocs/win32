@@ -9,7 +9,9 @@ ms.date: 09/10/2019
 # System.Size
 
 The system-provided file system size of the item, in bytes.
-## Windows 10, version 1809
+
+## Windows 10, version 1809 and later
+
 ```
 propertyDescription
    name = System.Size
@@ -75,7 +77,7 @@ propertyDescription
             mnemonics = gigantic
 ```
 
-## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
+## Windows 7 through Windows 10, version 1803
 
 ```
 propertyDescription
