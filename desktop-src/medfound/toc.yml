@@ -1488,16 +1488,35 @@
             items:
               - name: "ID3D12VideoDecodeCommandList1::DecodeFrame1"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1
+          - name: "ID3D12VideoDecodeCommandList2"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecodecommandlist2
+            items:
+              - name: "ID3D12VideoDecodeCommandList2::ExecuteExtensionCommand"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1
+              - name: "ID3D12VideoDecodeCommandList2::InitializeExtensionCommand"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-initializeextensioncommand
+              - name: "ID3D12VideoDecodeCommandList2::SetProtectedResourceSession"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-setprotectedresourcesession
           - name: "ID3D12VideoDecoder"
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoder
             items:
               - name: "ID3D12VideoDecoder::GetDesc"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoder-getdesc
+          - name: "ID3D12VideoDecoder1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoder1
+            items:
+              - name: "ID3D12VideoDecoder1::GetProtectedResourceSession"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoder1-getprotectedresourcesession
           - name: "ID3D12VideoDecoderHeap"
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoderheap
             items:
               - name: "ID3D12VideoDecoderHeap::GetDesc"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoderheap-getdesc
+          - name: "ID3D12VideoDecoderHeap1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoderheap1
+            items:
+              - name: "ID3D12VideoDecoderHeap1::GetProtectedResourceSession"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoderheap1-getprotectedresourcesession
           - name: "ID3D12VideoDevice"
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodevice
             items:
@@ -1509,6 +1528,24 @@
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideodecoderheap
               - name: "ID3D12VideoDevice::CreateVideoProcessor"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor
+          - name: "ID3D12VideoDevice1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodevice1
+              - name: ID3D12VideoDevice1::CreateVideoMotionEstimator
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice1-createvideomotionestimator
+              - name: ID3D12VideoDevice1::CreateVideoMotionVectorHeap
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice1-createvideomotionvectorheap
+          - name: "ID3D12VideoDevice2"
+              - name: ID3D12VideoDevice2::CreateVideoDecoder1
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideodecoder1
+              - name: ID3D12VideoDevice2::CreateVideoDecoderHeap1
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideodecoderheap1
+              - name: ID3D12VideoDevice2::CreateVideoExtensionCommand
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideoextensioncommand
+              - name: ID3D12VideoDevice2::CreateVideoProcessor1
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideoprocessor1
+              - name: ID3D12VideoDevice2::ExecuteExtensionCommand
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-executeextensioncommand
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodevice2
           - name: "ID3D12VideoProcessCommandList"
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist
             items:
@@ -1556,6 +1593,10 @@
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getnuminputstreamdescs
               - name: "ID3D12VideoProcessor::GetOutputStreamDesc"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdesc
+          - name: "ID3D12VideoProcessor1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor1
+              - name: "ID3D12VideoProcessor1::GetProtectedResourceSession"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdes/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
       - name: "Direct3D 12 Video Structures"
         href: direct3d-12-video-structures.md
         items:
@@ -1613,6 +1654,8 @@
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream
           - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments
+          - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments1
           - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc
           - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE"
