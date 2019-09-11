@@ -20,7 +20,7 @@ The Direct3D 12 video interface provides a new way for apps to implement video d
    - Independent generation and submission
    - Non-blocking
  - Scheduling of hardware work
-- Covers existing functionality, but at the same time, keeps simplicity and ease of use in mind
+- Covers existing functionality, including most Direct3D 11 video functionality, but at the same time, keeps simplicity and ease of use in mind
 - Power and performance of main Direct3D 12 applications equal to or better than Direct3D 11
 - Consistency with other Direct3D 12 APIs
 - Interoperability with existing graphics APIs
@@ -40,6 +40,10 @@ Call [ID3D12VideoDevice::CreateVideoDecoder](/windows/desktop/api/d3d12video/nf-
 
 The decoder may be used to record commands from multiple command lists, but may only be associated with one command list at a time.  The application is responsible for synchronizing access to the decoder.
 
+### Create the video decoder heap 
+
+Call [ID3D12VideoDevice::CreateVideoDecoderHeap](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideodecoderheap) to create an instance of the [ID3D12VideoDecoderHeap](/windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoderheap) interface. This object contains the resolution-dependent driver resources and state.
+
 ### Decoding a frame
 
 All input and output parameters for the video processing operations are organized into an input parameter structure, [D3D12_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_input_stream_arguments), and an output parameter structure, [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments).
@@ -53,7 +57,7 @@ If the decoder supports conversion, then enable the desired conversions by prope
 ##	Querying decoding status 
 Use the methods [ID3D12VideoDecodeCommandList::BeginQuery](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-beginquery) and [ID3D12VideoDecodeCommandList::EndQuery](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-endquery) to query the status of the decoding operation.
 
-
+The [D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_query_data_video_decode_statistics) structure represents video decode statistics. To get an instance of this structure call [ID3D12VideoDecodeCommandList::EndQuery](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-endquery), passing in the heap query type value of [D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTIC](/windows/win32/api/d3d12/ne-d3d12-d3d12_query_type). Note that this query does not use [ID3D12VideoDecodeCommandList::BeginQuery](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-beginquery).
 
 ## Video processing
 
@@ -65,18 +69,16 @@ The following capabilities from Direct3D 11 are not supported in Direct3D 12 vid
 - Custom rates.  Instead, there is an input and output rate given during the [ID3D12VideoProcessCommandList::ProcessFrames](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-processframes) command recording.
 - There are just two deinterlacing modes available now: [BOB](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_deinterlace_flags) and [CUSTOM](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_deinterlace_flags). Other modes have been eliminated. CUSTOM is a high-quality deinterlacing mode provided by the hardware vendor.
 - All of the optional stereo formats in [D3D11_VIDEO_PROCESSOR_STEREO_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_caps) are no longer supported. Instead, [nono](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), [horizontal](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), [vertical](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), and [separate](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format) are mandatory for all hardware devices if stereo is supported.
-- There is no equivalent for [D3D11_VIDEO_PROCESSOR_FORMAT_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_caps). Instead, input and output formats are arguments to the creation of the video processor, and at that time, it should be known if the video processor can or cannot perform the operation with the given format.
-- There is no equivalent for [D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps). Instead, the [D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_auto_processing_flags) is used to indicate if auto processing features are available.
+- There is no equivalent for [D3D11_VIDEO_PROCESSOR_FORMAT_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_caps) or [D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps). Instead, input and output formats are arguments to the creation of the video processor, and at that time, it should be known if the video processor can or cannot perform the operation with the given format. The [D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_auto_processing_flags) is used to indicate if auto processing features are available.
 - There is no equivalent for [D3D11_VIDEO_PROCESSOR_CAPS_LEGACY](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_feature_caps).
 - There is no equivalent for [D3D11_VIDEO_PROCESSOR_CAPS_CONSTRICTION](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_feature_caps).
-- Filter ranges have been normalized to -1.0 to 1.0 with a default value and a floating point step.
 - When converting from stereo to mono, we assume the baseline view is 0.
 - Direct3D 12 video processing does not support converting mono to stereo and there is no support for mono offset. 
 
 
 ### Creating a video processor
 
-Call [ID3D12VideoDevice::CreateVideoProcessor](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor) to create an instance of the [ID3D12VideoProcessor](/windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor). The video processor holds state for a video processing session, including required intermediate memory, cached processing data, or other temporary working space. The video processor creation arguments specify which operations are performed or are available at [ID3D12VideoProcessCommandList::ProcessFrames](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-processframes) time.  Driver allocations to perform the video process operation (e.g. intermediates) are allocated at video processor creation time.  Use [D3D12_FEATURE_VIDEO_PROCESSOR_SIZE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_feature_video) to determine the allocation size of the video processor in advance.
+Call [ID3D12VideoDevice::CreateVideoProcessor](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor) to create an instance of the [ID3D12VideoProcessor](/windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor). The video processor holds state for a video processing session, including required intermediate memory, cached processing data, or other temporary working space. The video processor creation arguments specify which operations are performed or are available at [ID3D12VideoProcessCommandList1::ProcessFrames1](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist1-processframes1) time.  Driver allocations to perform the video process operation (e.g. intermediates) are allocated at video processor creation time.  Use [D3D12_FEATURE_VIDEO_PROCESSOR_SIZE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_feature_video) to determine the allocation size of the video processor in advance.
 
 The video processor may only be used to record commands from multiple command lists, but may only be associated with one command list at a time.  The application is responsible for synchronizing access to the video processor.  The application must also record video processing commands against the video procoessor in the order that they are executed on the GPU.
 
@@ -91,7 +93,7 @@ Direct3D 12 video defines tiers that group the capabilities of hardware devices,
 
 In all the tiers, the following will be available:
 
-- No need for decoder recreation on resolution changes.
+- No need for decoder recreation on resolution changes. Only the decoder heap needs to be recreated on resolution change.
 - All reference frames will be managed by the app. This allows the system to save memory since we do not need to allocate the maximum number of DPBs at decoder creation time in some tiers, and gives apps flexibility in resolution changing scenarios.
 
 Note that the tiers are supersets. An app may decide to do tier 1, and not use the higher level features, which is allowed but may not provide optimal performace. For more information on the capabilities associated with different tier levels, see [D3D12_VIDEO_DECODE_TIER](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_tier).
