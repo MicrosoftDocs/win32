@@ -27,9 +27,9 @@ api_location:
 
 # Win32\_LogonSession class
 
-The **Win32\_LogonSession** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) describes the logon session or sessions associated with a user logged on to a computer system running Windows.
+The **Win32\_LogonSession** WMI class (see [Retrieving a WMI class](/windows/desktop/wmisdk/retrieving-a-class)) describes the logon session or sessions associated with a user logged on to a computer system running Windows.
 
-The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
+The following syntax is simplified from Managed Object Format (MOF) code, and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
 ## Syntax
 
