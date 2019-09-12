@@ -16,7 +16,7 @@ The string described by an [**IDWriteTextLayout**](https://msdn.microsoft.com/en
 
 ## 1. Render using Direct2D
 
-To render an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object using Direct2D, use the [**ID2D1RenderTarget::DrawTextLayout**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) method, as shown in the following code.
+To render an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object using Direct2D, use the [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) method, as shown in the following code.
 
 
 ```C++
@@ -106,8 +106,8 @@ Starting in Windows 8, you can render grayscale text transparently to a GDI sur
 
 1.  Clear the memory DC to transparent.
 2.  Render text to the memory HDC using grayscale antialiasing (DWRITE\_TEXT\_ANTIALIAS\_MODE\_GRAYSCALE).
-3.  Use the [**AlphaBlend**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend) function to render the memory HDC transparently on top of the final target HDC.
-4.  Repeat as many times as necessary (say, once per glyph run) and in between other graphics may be rendered directly to the final target HDC without being overwritten by the [**AlphaBlend**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend) function.
+3.  Use the [**AlphaBlend**](/windows/win32/api/wingdi/nf-wingdi-alphablend) function to render the memory HDC transparently on top of the final target HDC.
+4.  Repeat as many times as necessary (say, once per glyph run) and in between other graphics may be rendered directly to the final target HDC without being overwritten by the [**AlphaBlend**](/windows/win32/api/wingdi/nf-wingdi-alphablend) function.
 
 
 ```C++

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements method
 
-Place glyphs output from the [**GetGlyphs**](https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs) method according to the font and the writing system's rendering rules.
+Place glyphs output from the [**GetGlyphs**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs) method according to the font and the writing system's rendering rules.
 
 ## Syntax
 
@@ -78,7 +78,7 @@ A pointer to the mapping from character ranges to glyph ranges. This is returned
 *textProps* \[in\]
 </dt> <dd>
 
-Type: **[**DWRITE\_SHAPING\_TEXT\_PROPERTIES**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_text_properties)\***
+Type: **[**DWRITE\_SHAPING\_TEXT\_PROPERTIES**](/windows/win32/api/dwrite/ns-dwrite-dwrite_shaping_text_properties)\***
 
 A pointer to an array of structures that contains shaping properties for each character. This structure is returned by [**GetGlyphs**](https://msdn.microsoft.com/en-us/library/Dd316625(v=VS.85).aspx).
 
@@ -105,7 +105,7 @@ An array of glyph indices returned by [**GetGlyphs**](https://msdn.microsoft.com
 *glyphProps* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_SHAPING\_GLYPH\_PROPERTIES**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties)\***
+Type: **const [**DWRITE\_SHAPING\_GLYPH\_PROPERTIES**](/windows/win32/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties)\***
 
 A pointer to an array of structures that contain shaping properties for each glyph returned by [**GetGlyphs**](https://msdn.microsoft.com/en-us/library/Dd316625(v=VS.85).aspx).
 
@@ -123,7 +123,7 @@ The number of glyphs returned from [**GetGlyphs**](https://msdn.microsoft.com/en
 *fontFace* \[in\]
 </dt> <dd>
 
-Type: **[**IDWriteFontFace**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface)\***
+Type: **[**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)\***
 
 A pointer to the font face that is the source for the output glyphs.
 
@@ -150,7 +150,7 @@ The number of physical pixels per DIP.
 *transform* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_MATRIX**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix)\***
+Type: **const [**DWRITE\_MATRIX**](/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix)\***
 
 An optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified by the font size and *pixelsPerDip*.
 
@@ -186,7 +186,7 @@ A Boolean flag set to **TRUE** for right-to-left text.
  *scriptAnalysis* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_SCRIPT\_ANALYSIS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis)\***
+Type: **const [**DWRITE\_SCRIPT\_ANALYSIS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_script_analysis)\***
 
 A pointer to a Script analysis result from an[**AnalyzeScript**](https://msdn.microsoft.com/en-us/library/Dd316620(v=VS.85).aspx) call.
 
@@ -204,7 +204,7 @@ An array of characters containing the locale to use when selecting glyphs. For e
  *features* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_TYPOGRAPHIC\_FEATURES**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_typographic_features)\*\***
+Type: **const [**DWRITE\_TYPOGRAPHIC\_FEATURES**](/windows/win32/api/dwrite/ns-dwrite-dwrite_typographic_features)\*\***
 
 An array of pointers to the sets of typographic features to use in each feature range.
 
@@ -240,7 +240,7 @@ When this method returns, contains the advance width of each glyph.
  *glyphOffsets* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_GLYPH\_OFFSET**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset)\***
+Type: **[**DWRITE\_GLYPH\_OFFSET**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_offset)\***
 
 When this method returns, contains the offset of the origin of each glyph.
 

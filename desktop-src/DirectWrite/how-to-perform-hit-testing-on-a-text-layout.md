@@ -60,7 +60,7 @@ To add a text layout you must do the following:
 
     
 
-3.  Then, you must change the call to the [**ID2D1RenderTarget::DrawText**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) method to [**ID2D1RenderTarget::DrawTextLayout**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) as shown in the following code.
+3.  Then, you must change the call to the [**ID2D1RenderTarget::DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) method to [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) as shown in the following code.
 ```C++
     pRT_->DrawTextLayout(
         origin,
@@ -172,7 +172,7 @@ This code does the following.
 
     Gets the underline for this character by passing this value to the [**IDWriteTextLayout::GetUnderline**](https://msdn.microsoft.com/en-us/library/Dd371463(v=VS.85).aspx) method.
 
-3.  Declares a [**DWRITE\_TEXT\_RANGE**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range) variable with the start position set to **hitTestMetrics.textPosition** and a length of 1.
+3.  Declares a [**DWRITE\_TEXT\_RANGE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) variable with the start position set to **hitTestMetrics.textPosition** and a length of 1.
 4.  Toggles the underline by using the [**IDWriteTextLayout::SetUnderline**](https://msdn.microsoft.com/en-us/library/Dd371518(v=VS.85).aspx) method.
 
 After setting the underline, redraw the text by calling the **DrawD2DContent** method of the class.

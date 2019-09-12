@@ -83,7 +83,7 @@ The degree of ClearType level, from 0.0f (no ClearType) to 1.0f (full ClearType)
 *pixelGeometry* 
 </dt> <dd>
 
-Type: **[**DWRITE\_PIXEL\_GEOMETRY**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_pixel_geometry)**
+Type: **[**DWRITE\_PIXEL\_GEOMETRY**](/windows/win32/api/dwrite/ne-dwrite-dwrite_pixel_geometry)**
 
 The geometry of a device pixel.
 
@@ -92,7 +92,7 @@ The geometry of a device pixel.
 *renderingMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_RENDERING\_MODE**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode)**
+Type: **[**DWRITE\_RENDERING\_MODE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode)**
 
 Method of rendering glyphs. In most cases, this should be DWRITE\_RENDERING\_MODE\_DEFAULT to automatically use an appropriate mode.
 
@@ -101,7 +101,7 @@ Method of rendering glyphs. In most cases, this should be DWRITE\_RENDERING\_MOD
 *gridFitMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_GRID\_FIT\_MODE**](/windows/desktop/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode)**
+Type: **[**DWRITE\_GRID\_FIT\_MODE**](/windows/win32/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode)**
 
 How to grid fit glyph outlines. In most cases, this should be DWRITE\_GRID\_FIT\_DEFAULT to automatically choose an appropriate mode.
 

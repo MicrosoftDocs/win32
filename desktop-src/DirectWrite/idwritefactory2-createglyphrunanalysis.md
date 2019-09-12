@@ -48,7 +48,7 @@ virtual HRESULT CreateGlyphRunAnalysis(
 *glyphRun* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_GLYPH\_RUN**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run)\***
+Type: **const [**DWRITE\_GLYPH\_RUN**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run)\***
 
 Structure specifying the properties of the glyph run.
 
@@ -57,7 +57,7 @@ Structure specifying the properties of the glyph run.
 *transform* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_MATRIX**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix)\***
+Type: **const [**DWRITE\_MATRIX**](/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix)\***
 
 Optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified by the emSize and pixelsPerDip.
 
@@ -75,7 +75,7 @@ Specifies the rendering mode, which must be one of the raster rendering modes (i
 *measuringMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_MEASURING\_MODE**](/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode)**
+Type: **[**DWRITE\_MEASURING\_MODE**](/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode)**
 
 Specifies the method to measure glyphs.
 
@@ -84,7 +84,7 @@ Specifies the method to measure glyphs.
 *gridFitMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_GRID\_FIT\_MODE**](/windows/desktop/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode)**
+Type: **[**DWRITE\_GRID\_FIT\_MODE**](/windows/win32/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode)**
 
 How to grid-fit glyph outlines. This must be non-default.
 
@@ -93,7 +93,7 @@ How to grid-fit glyph outlines. This must be non-default.
 *antialiasMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_TEXT\_ANTIALIAS\_MODE**](/windows/desktop/api/Dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode)**
+Type: **[**DWRITE\_TEXT\_ANTIALIAS\_MODE**](/windows/win32/api/Dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode)**
 
 Specifies the antialias mode.
 

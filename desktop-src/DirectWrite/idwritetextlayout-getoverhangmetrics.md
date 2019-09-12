@@ -40,7 +40,7 @@ virtual HRESULT GetOverhangMetrics(
 *overhangs* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_OVERHANG\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_overhang_metrics)\***
+Type: **[**DWRITE\_OVERHANG\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_overhang_metrics)\***
 
 Overshoots of visible extents (in DIPs) outside the layout.
 
@@ -74,7 +74,7 @@ Underlines and strikethroughs do not contribute to the black box determination, 
 [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout)
+[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)
 </dt> </dl>
 
  

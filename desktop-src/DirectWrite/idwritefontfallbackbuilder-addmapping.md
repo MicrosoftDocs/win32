@@ -47,7 +47,7 @@ HRESULT AddMapping(
 *ranges* 
 </dt> <dd>
 
-Type: **[**DWRITE\_UNICODE\_RANGE**](/windows/desktop/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range)\***
+Type: **[**DWRITE\_UNICODE\_RANGE**](/windows/win32/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range)\***
 
 Unicode ranges that apply to this mapping.
 

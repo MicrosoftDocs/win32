@@ -40,7 +40,7 @@ HRESULT SetLineSpacing(
 *lineSpacingOptions* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_LINE\_SPACING**](/windows/desktop/api/Dwrite_3/ns-dwrite_3-dwrite_line_spacing)\***
+Type: **const [**DWRITE\_LINE\_SPACING**](/windows/win32/api/Dwrite_3/ns-dwrite_3-dwrite_line_spacing)\***
 
 How to manage space between lines.
 

@@ -19,11 +19,11 @@ ms.date: 05/31/2018
 
 # IDWriteGeometrySink interface
 
-**IDWriteGeometrySink** is a **typedef** of the [**ID2D1SimplifiedGeometrySink**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) interface. Please see the [**ID2D1SimplifiedGeometrySink**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) reference page for more information.
+**IDWriteGeometrySink** is a **typedef** of the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) interface. Please see the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) reference page for more information.
 
 ## Members
 
-The **IDWriteGeometrySink** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **IDWriteGeometrySink** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Requirements
 

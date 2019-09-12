@@ -37,10 +37,10 @@ Because of this, the constructor takes the parameters found in the table below w
 
 | Parameter       | Description                                                                                                                                                                                                                                 |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *pD2DFactory*   | A pointer to an [**ID2D1Factory**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory) object that will be used to create any Direct2D resources that are needed.                                                                                                        |
-| *pRT*           | A pointer to the [**ID2D1HwndRenderTarget**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)) object that the text will be rendered to. |
-| *pOutlineBrush* | A pointer to the [**ID2D1SolidColorBrush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush) that will be use to draw outline of the text                                                                                                                     |
-| *pFillBrush*    | A pointer to the [**ID2D1BitmapBrush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush) that will be used to fill the text.                                                                                                                                      |
+| *pD2DFactory*   | A pointer to an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) object that will be used to create any Direct2D resources that are needed.                                                                                                        |
+| *pRT*           | A pointer to the [**ID2D1HwndRenderTarget**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371275(v=vs.85)) object that the text will be rendered to. |
+| *pOutlineBrush* | A pointer to the [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) that will be use to draw outline of the text                                                                                                                     |
+| *pFillBrush*    | A pointer to the [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) that will be used to fill the text.                                                                                                                                      |
 
 
 
@@ -78,7 +78,7 @@ The [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85
 
 This text renderer implementation renders glyph runs by converting them to [Direct2D](rendering-by-using-direct2d.md) geometries and then drawing and filling the geometries. This consists of the following steps.
 
-1.  Create an [**ID2D1PathGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry) object, and then retrieve the [**ID2D1GeometrySink**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink) object by using the [**ID2D1PathGeometry::Open**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1pathgeometry-open) method.
+1.  Create an [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) object, and then retrieve the [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) object by using the [**ID2D1PathGeometry::Open**](/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open) method.
 
     ```C++
     // Create the path geometry.
@@ -99,7 +99,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     
 
-2.  The [**DWRITE\_GLYPH\_RUN**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run) that is passed to [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) contains a [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object, named *fontFace*, that represents the font face for the whole glyph run. Put the outline of the the glyph run into the geometry sink by using the [**IDWriteFontFace:: GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx) method, as shown in the following code.
+2.  The [**DWRITE\_GLYPH\_RUN**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) that is passed to [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) contains a [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object, named *fontFace*, that represents the font face for the whole glyph run. Put the outline of the the glyph run into the geometry sink by using the [**IDWriteFontFace:: GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx) method, as shown in the following code.
 
     ```C++
     // Get the glyph run outline geometries back from DirectWrite and place them within the
@@ -148,7 +148,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     The *baselineOriginX* and *baselineOriginY* are passed as parameters to the [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) callback method.
 
-5.  Create the transformed geometry by using the [**ID2D1Factory::CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) method and passing the path geometry and the translation matrix.
+5.  Create the transformed geometry by using the [**ID2D1Factory::CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371304(v=vs.85)) method and passing the path geometry and the translation matrix.
 
     ```C++
     // Create the transformed geometry
@@ -165,7 +165,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     
 
-6.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) and [**ID2D1RenderTarget::FillGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) methods and the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) brushes stored as member variables.
+6.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) and [**ID2D1RenderTarget::FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) methods and the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) brushes stored as member variables.
 
     ```C++
         // Draw the outline of the glyph run
@@ -199,7 +199,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
 Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) consists of the following steps.
 
-1.  First, create a [**D2D1\_RECT\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f) structure of the size and shape of the underline. The [**DWRITE\_UNDERLINE**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_underline) structure that is passed to the [**DrawUnderline**](https://msdn.microsoft.com/en-us/library/Dd371533(v=VS.85).aspx) callback method provides the offset, width, and thickness of the underline.
+1.  First, create a [**D2D1\_RECT\_F**](/windows/win32/Direct2D/d2d1-rect-f) structure of the size and shape of the underline. The [**DWRITE\_UNDERLINE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_underline) structure that is passed to the [**DrawUnderline**](https://msdn.microsoft.com/en-us/library/Dd371533(v=VS.85).aspx) callback method provides the offset, width, and thickness of the underline.
 
     ```C++
     D2D1_RECT_F rect = D2D1::RectF(
@@ -212,7 +212,7 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/librar
 
     
 
-2.  Next, create an [**ID2D1RectangleGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry) object by using the [**ID2D1Factory::CreateRectangleGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)) method and the initialized [**D2D1\_RECT\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f) structure.
+2.  Next, create an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry) object by using the [**ID2D1Factory::CreateRectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)) method and the initialized [**D2D1\_RECT\_F**](/windows/win32/Direct2D/d2d1-rect-f) structure.
 
     ```C++
     ID2D1RectangleGeometry* pRectangleGeometry = NULL;
@@ -224,7 +224,7 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/librar
 
     
 
-3.  As with the glyph run, the origin of the underline geometry must be translated, based on the baseline origin values, by using the [**CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) method.
+3.  As with the glyph run, the origin of the underline geometry must be translated, based on the baseline origin values, by using the [**CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371304(v=vs.85)) method.
 
     ```C++
     // Initialize a matrix to translate the origin of the underline
@@ -247,7 +247,7 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/librar
 
     
 
-4.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) and [**ID2D1RenderTarget::FillGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) methods and the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) brushes stored as member variables.
+4.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) and [**ID2D1RenderTarget::FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) methods and the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) brushes stored as member variables.
 
     ```C++
         // Draw the outline of the glyph run
@@ -291,7 +291,7 @@ This method is called to determine whether pixel snapping is disabled. The recom
 
 ### GetCurrentTransform()
 
-This example renders to a Direct2D render target, so forward the transform from the render target using [**ID2D1RenderTarget::GetTransform**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-gettransform).
+This example renders to a Direct2D render target, so forward the transform from the render target using [**ID2D1RenderTarget::GetTransform**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettransform).
 
 
 ```C++
