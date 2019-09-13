@@ -232,9 +232,9 @@ void PipelinedComputeGraphics()
 }
 ```
 
-To support this pipelining there must be a buffer of `ComputeGraphicsLatency+1` different copies of the data passing form the compute queue to the graphics queue. The command lists must use UAVs and indirection to read and write from the appropriate “version” of the data in the buffer. The compute queue must wait until the graphics queue has finished reading from the data for frame N before it can write frame `N+ComputeGraphicsLatency`.
+To support this pipelining there must be a buffer of `ComputeGraphicsLatency+1` different copies of the data passing from the compute queue to the graphics queue. The command lists must use UAVs and indirection to read and write from the appropriate “version” of the data in the buffer. The compute queue must wait until the graphics queue has finished reading from the data for frame N before it can write frame `N+ComputeGraphicsLatency`.
 
-Note that the amount of compute queued worked relative to the CPU does not depend directly on the amount of buffering required, however queuing GPU work beyond the amount of buffer space available is less valuable.
+Note that the amount of compute queue worked relative to the CPU does not depend directly on the amount of buffering required, however, queuing GPU work beyond the amount of buffer space available is less valuable.
 
 An alternative mechanism to avoid indirection would be to create multiple command lists corresponding to each of the “renamed” versions of the data. The next example uses this technique while extending the previous example to allow the compute and graphics queues to run more asynchronously.
 
