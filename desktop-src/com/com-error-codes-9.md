@@ -1190,7 +1190,7 @@ The connection was refused.
 
 
 
-The peer name classifer is too long.
+The peer name classifier is too long.
 
 
 </dt> </dl> </dd> <dt>
@@ -1580,7 +1580,7 @@ Invalid role property.
 
 
 
-Invalid classifer protopery.
+Invalid classifier protopery.
 
 
 </dt> </dl> </dd> <dt>
