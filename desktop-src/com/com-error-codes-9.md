@@ -956,7 +956,7 @@ The IPv6 protocol is not installed.
 
 
 
-The compoment has not been initialized.
+The component has not been initialized.
 
 
 </dt> </dl> </dd> <dt>
