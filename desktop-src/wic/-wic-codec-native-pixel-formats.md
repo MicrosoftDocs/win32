@@ -170,7 +170,7 @@ The following table lists the packed bit formats provided by WIC. In these forma
 | Friendly Name                          | Channel Count | Bits Per Channel       | Bits Per Pixel | Storage Type |
 |-------------------------------------------|---------------|------------------------|----------------|--------------|
 | GUID\_WICPixelFormat16bppBGR555           | 3             | 5                      | 16             | UINT         |
-| GUID\_WICPixelFormat16bppBGR565           | 3             | 5(B)/6(G)/5Ã?Â®)       | 16             | UINT         |
+| GUID\_WICPixelFormat16bppBGR565           | 3             | 5(B)/6(G)/5(R)         | 16             | UINT         |
 | GUID\_WICPixelFormat16bppBGRA555          | 4             | 5(B)/5(G)/5(R)/1(A)    | 16             | UINT         |
 | GUID\_WICPixelFormat32bppBGR101010        | 3             | 10                     | 32             | UINT         |
 | GUID\_WICPixelFormat32bppRGBA1010102      | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
