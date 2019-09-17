@@ -1501,12 +1501,7 @@
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoder
             items:
               - name: "ID3D12VideoDecoder::GetDesc"
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoder-getdesc
-          - name: "ID3D12VideoDecoder1"
-            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoder1
-            items:
-              - name: "ID3D12VideoDecoder1::GetProtectedResourceSession"
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoder1-getprotectedresourcesession
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoder-getdesc  
           - name: "ID3D12VideoDecoderHeap"
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoderheap
             items:
@@ -1610,12 +1605,16 @@
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_profiles
           - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_support
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decoder_heap_size
           - name: "D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_max_input_streams
           - name: "D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_reference_info
           - name: "D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_support
+          - name: "D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_processor_size
           - name: "D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_query_data_video_decode_statistics
           - name: "D3D12_VIDEO_DECODER_DESC"

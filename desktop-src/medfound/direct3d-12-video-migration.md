@@ -10,77 +10,51 @@ ms.date: 06/03/2019
 
 This article describes equivalent Direct3D 12 video APIs to previous versions. In the interest of improving the performance and usability of the highest priority video features, some features from Direct3D 11 are fully or partially unsupported in Direct3D 12. Feature support is organized by interface identifies cases where there is a one to one mapping of APIs between the two API sets.
 
-## ID3D11AuthenticatedChannel
 
-Provides a secure communication channel with the graphics driver or the Microsoft Direct3D runtime. This functionality is not implemented for Direct3D 12 video.
-
-##	ID3D11CryptoSession
-
-Represents a cryptographic session. Used for software and hardware DRM scenarios. There is no equivalent public API for Direct3D 12 video.
 
 ## ID3D11VideoContext
 Provides the video functionality of a Direct3D 11 device, including video decoding, video processing, GPU-based content protection and video encryption/decryption. This functionality is partially implemented for Direct3D 12.
 
+
 | Direct3D 11 |	Direct3D 12 |
 |-------------|----------------|
-| ConfigureAuthenticatedChannel | Not implemented |
-| DecoderBeginFrame | See Interface: ID3D12VideoCommandList, DecodeFrame,  Struct: D3D12_VIDEO_DECODE_FRAME_ARGUMENT, Struct: D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM and Struct: D3D12_VIDEO_DECODE_REFERENCE_FRAMES. |
-| DecoderEndFrame | See Interface: ID3D12VideoCommandList EndFrame is not applicable. |
-| DecoderExtension | Not implemented |
-| DecryptionBlt  | Not implemented |
-| EncryptionBlt | Not implemented |
-| FinishSessionKeyRefresh | Not implemented |
-| GetDecoderBuffer | Not implemented. Compressed buffers are app managed instead. |
-| GetEncryptionBltKey | Not implemented | 
-| NegotiateAuthenticatedChannelKeyExchange | Not implemented |
-| NegotiateCryptoSessionKeyExchange | See ID3D12CryptoSession for HW DRM. Other Key exchange functionality not implemented. |
-| QueryAuthenticatedChannel | Not implemented |
-| ReleaseDecoderBuffer | Not implemented. Compressed buffers are app managed instead. |
-| StartSessionKeyRefresh | Not implemented |
-| SubmitDecoderBuffers | See Method: DecodeFrame |
-| VideoProcessorBlt | See Method: ProcessFrames |
-| VideoProcessorGetOutputAlphaFillMode | N/A |
-| VideoProcessorGetOutputBackgroundColor | N/A |
-| VideoProcessorGetOutputColorSpace | N/A |
-| VideoProcessorGetOutputConstriction | N/A |
-| VideoProcessorGetOutputExtension | N/A |
-| VideoProcessorGetOutputStereoMode | N/A |
-| VideoProcessorGetOutputTargetRect  | N/A |
-| VideoProcessorGetStreamAlpha | N/A |
-| VideoProcessorGetStreamAutoProcessingMode | N/A |
-| VideoProcessorGetStreamColorSpace | N/A |
-| VideoProcessorGetStreamDestRect | N/A |
-| VideoProcessorGetStreamExtension | N/A |
-| VideoProcessorGetStreamFilter | N/A |
-| VideoProcessorGetStreamFrameFormat | N/A |
-| VideoProcessorGetStreamLumaKey | N/A |
-| VideoProcessorGetStreamOutputRate | N/A |
-| VideoProcessorGetStreamPalette | N/A |
-| VideoProcessorGetStreamPixelAspectRatio | N/A |
-| VideoProcessorGetStreamRotation | N/A |
-| VideoProcessorGetStreamSourceRect | N/A |
-| VideoProcessorGetStreamStereoFormat | N/A |
-| VideoProcessorSetOutputAlphaFillMode | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS AlphaFillMode |
-| VideoProcessorSetOutputBackgroundColor | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS BackgroundColor |
-| VideoProcessorSetOutputColorSpace | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS ColorSpace |
-| VideoProcessorSetOutputConstriction | Not implemented. Software DRM is not supported. |
-| VideoProcessorSetOutputExtension | Not implemented. |
-| VideoProcessorSetOutputStereoMode | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS StereoEnable |
-| VideoProcessorSetOutputTargetRect | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS TargetRectangle |
-| VideoProcessorSetStreamAlpha | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS Alpha |
-| VideoProcessorSetStreamAutoProcessingMode | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS EnableAutoProcessing |
-| VideoProcessorSetStreamColorSpace | SeeStruct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS ColorSpace |
-| VideoProcessorSetStreamDestRect | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS DestinationRectangle |
-| VideoProcessorSetStreamExtension | Not implemented. |
-| VideoProcessorSetStreamFilter | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS FilterFlags/FilterLevels |
-| VideoProcessorSetStreamFrameFormat | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS FrameFormat |
-| VideoProcessorSetStreamLumaKey | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS LumaKey |
-| VideoProcessorSetStreamOutputRate | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS FrameRate |
-| VideoProcessorSetStreamPalette | Cut: No use. |
-| VideoProcessorSetStreamPixelAspectRatio | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS SourceAspectRatio/DestinationAspectRatio |
-| VideoProcessorSetStreamRotation | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS Orientation |
-| VideoProcessorSetStreamSourceRect | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS SourceRectangle |
-| VideoProcessorSetStreamStereoFormat | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS SourceAspectRatio/DestinationAspectRatio |
+| [ConfigureAuthenticatedChannel](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel) | Not implemented |
+| [DecoderBeginFrame](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe)| [ID3D12VideoDecodeCommandList::DecodeFrame](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-decodeframe),  [D3D12_VIDEO_DECODE_FRAME_ARGUMENT](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_frame_argument), [D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_compressed_bitstream), [D3D12_VIDEO_DECODE_REFERENCE_FRAMES](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_reference_frames) |
+| [DecoderEndFrame](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-decoderendframe) | [ID3D12VideoDecodeCommandList](/windows/win32/api/d3d12video/nn-d3d12video-id3d12videodecodecommandlist) |
+| [DecoderExtension](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-decoderextension) | Not implemented. |
+| [DecryptionBlt](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-decryptionblt)  | Not implemented. |
+| [EncryptionBlt](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-encryptionblt) | Not implemented. |
+| [FinishSessionKeyRefresh](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-finishsessionkeyrefresh) | Not implemented. |
+| [GetDecoderBuffer](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer) | Not implemented. Compressed buffers are app-managed in Direct3D 12. |
+| [GetEncryptionBltKey](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-getencryptionbltkey) | Not implemented. | 
+| [NegotiateAuthenticatedChannelKeyExchange](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-negotiateauthenticatedchannelkeyexchange) | Not implemented. |
+| [NegotiateCryptoSessionKeyExchange](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-negotiatecryptosessionkeyexchange) | Not implemented. |
+| [QueryAuthenticatedChannel](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-queryauthenticatedchannel) | Not implemented. |
+| [ReleaseDecoderBuffer](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-releasedecoderbuffer) | Not implemented. Compressed buffers are app-managed in Direct3D 12. |
+| [StartSessionKeyRefresh](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-startsessionkeyrefresh) | Not implemented |
+| [SubmitDecoderBuffers](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-submitdecoderbuffer) | [ID3D12VideoDecodeCommandList::DecodeFrame](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-decodeframe) |
+| [VideoProcessorBlt](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt) | [ID3D12VideoProcessCommandList1::ProcessFrames1](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist1-processframes1) |
+| [VideoProcessorGetOutputAlphaFillMode](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetoutputalphafillmode) [VideoProcessorSetOutputAlphaFillMode](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputalphafillmode) | [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC.AlphaFillMode](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc) |
+| [VideoProcessorGetOutputBackgroundColor](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetoutputbackgroundcolor) [VideoProcessorSetOutputBackgroundColor](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputbackgroundcolor) | [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC.BackgroundColor](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc)  |
+| [VideoProcessorGetOutputColorSpace](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetoutputcolorspace) [VideoProcessorSetOutputColorSpace](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputcolorspace) | [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC.ColorSpace](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc)  |
+| [VideoProcessorGetOutputConstriction](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetoutputconstriction) [VideoProcessorSetOutputConstriction](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputconstriction) | Not implemented. Software DRM is not supported. |
+| [VideoProcessorGetOutputExtension](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetoutputextension) [VideoProcessorSetOutputExtension](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputextension) | Not implemented. |
+| [VideoProcessorGetOutputStereoMode](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetoutputstereomode) [VideoProcessorSetOutputStereoMode](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputstereomode) | [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC.EnableStereo](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc) |
+| [VideoProcessorGetOutputTargetRect](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetoutputtargetrect) [VideoProcessorSetOutputTargetRect](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputtargetrect) | [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS.TargetRectangle](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_arguments) |
+| [VideoProcessorGetStreamAlpha](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamalpha) [VideoProcessorSetStreamAlpha](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamalpha)  | [D3D12_VIDEO_PROCESS_ALPHA_BLENDING.Alpha](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_alpha_blending) |
+| [VideoProcessorGetStreamAutoProcessingMode](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamautoprocessingmode) [VideoProcessorSetStreamAutoProcessingMode](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamautoprocessingmode) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC.EnableAutoProcessing](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc) |
+| [VideoProcessorGetStreamColorSpace](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamcolorspace) [VideoProcessorSetStreamColorSpace](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamcolorspace) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.ColorSpace](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc) |
+| [VideoProcessorGetStreamDestRect](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamdestrect) [VideoProcessorSetStreamDestRect](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamdestrect) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.DestinationRectangle](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc) |
+| [VideoProcessorGetStreamExtension](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamextension) [VideoProcessorSetStreamExtension](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamextension) | Not implemented. |
+| [VideoProcessorGetStreamFilter](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamfilter) [VideoProcessorSetStreamFilter](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamfilter) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.FilterFlags](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc) |
+| [VideoProcessorGetStreamFrameFormat](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamframeformat) [VideoProcessorSetStreamFrameFormat](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamframeformat) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.Format](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc) |
+| [VideoProcessorGetStreamLumaKey](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamlumakey) [VideoProcessorSetStreamLumaKey](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamlumakey) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.LumaKey](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc) |
+| [VideoProcessorGetStreamOutputRate](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamoutputrate) [VideoProcessorSetStreamOutputRate](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamoutputrate) | [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC.FrameRate](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc) |
+| [VideoProcessorGetStreamPalette](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreampalette) [VideoProcessorSetStreamPalette](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreampalette) | Not implemented |
+| [VideoProcessorGetStreamPixelAspectRatio](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreampixelaspectratio) [VideoProcessorSetStreamPixelAspectRatio](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreampixelaspectratio) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.Transform](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments) |
+| [VideoProcessorGetStreamRotation](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamrotation) [VideoProcessorSetStreamRotation](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamrotation) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.Transform](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments) |
+| [VideoProcessorGetStreamSourceRect](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamsourcerect) [VideoProcessorSetStreamSourceRect](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamsourcerect) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.Transform](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments) |
+| [VideoProcessorGetStreamStereoFormat](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorgetstreamstereoformat) [VideoProcessorSetStreamStereoFormat](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamstereoformat) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.Transform](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments) |
 
 ## ID3D11VideoContext1
 
@@ -89,20 +63,16 @@ Provides extended video functionality of a Direct3D 11 device, including hardwar
 
 | Direct3D 11 |	Direct3D 12 |
 |-------------|----------------|
-| CheckCryptoSessionStatus | GetStatus | 
-| DecoderEnableDownsampling | D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS |
-| DecoderUpdateDownsampling | D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS |
-| GetDataForNewHardwareKey | SetupHardwareKey |
-| SubmitDecoderBuffers1 | See Method: DecodeFrame and Struct: D3D12_VIDEO_DECODE_DECRYPTION_ARGUMENTS. |
-| VideoProcessorGetBehaviorHints | TODO |
-| VideoProcessorGetOutputColorSpace1 | N/A |
-| VideoProcessorGetOutputShaderUsage | N/A |
-| VideoProcessorGetStreamColorSpace1 | N/A |
-| VideoProcessorGetStreamMirror | N/A |
-| VideoProcessorSetOutputColorSpace1 | See Struct: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS ColorSpace |
-| VideoProcessorSetOutputShaderUsage | TODO |
-| VideoProcessorSetStreamColorSpace1 | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS ColorSpace |
-| VideoProcessorSetStreamMirror | See Struct: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS Orientation |
+| CheckCryptoSessionStatus | TBD | 
+| [DecoderEnableDownsampling](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-checkcryptosessionstatu) | [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_conversion_arguments) |
+| [DecoderUpdateDownsampling](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderenabledownsampling) | [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_conversion_arguments) |
+| [GetDataForNewHardwareKey](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-getdatafornewhardwarekey) | TBD |
+| [SubmitDecoderBuffers1](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-submitdecoderbuffers1) | [ID3D12VideoDecodeCommandList::DecodeFrame](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-decodeframe) |
+| [VideoProcessorGetBehaviorHints](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetbehaviorhints) | TBD |
+| [VideoProcessorGetOutputColorSpace1](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetoutputcolorspace1) [VideoProcessorSetOutputColorSpace1](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputcolorspace1) | [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC.ColorSpace](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc) |
+| [VideoProcessorGetOutputShaderUsage](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetoutputshaderusage) [VideoProcessorSetOutputShaderUsage](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputshaderusage) | TBD |
+| [VideoProcessorGetStreamColorSpace1](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetstreamcolorspace1) [VideoProcessorSetStreamColorSpace1](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetstreamcolorspace1) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC.ColorSpace](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc) |
+| [VideoProcessorGetStreamMirror](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetstreammirror) [VideoProcessorSetStreamMirror](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetstreammirror) | [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS.Transform](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments) |
 
 ## ID3D11VideoDecoder
 
@@ -120,23 +90,23 @@ Provides the video decoding and video processing capabilities of a Direct3D 11 d
 
 | Direct3D 11 |	Direct3D 12 |
 |-------------|----------------|
-| CheckCryptoKeyExchange | Not implemented |
-| CheckVideoDecoderFormat | See Struct: D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS |
-| CreateAuthenticatedChannel | Not implemented |
-| CreateCryptoSession | Not implemented. HW DRM functionality provided via CreateCryptoSession |
-| CreateVideoDecoder | See Method: CreateVideoDecoder and Method: CreateVideoDecodeStream. |
-| CreateVideoDecoderOutputView | Replaced by ID3D12Texture2D |
-| CreateVideoProcessor | See Method: CreateVideoProcessor and Method: CreateVideoProcessStream |
-| CreateVideoProcessorEnumerator | Enumeration doesn’t exist any longer. See Video Processing Support. |
-| CreateVideoProcessorInputView | Replaced by ID3D12Texture2D |
-| CreateVideoProcessorOutputView | Replaced by ID3D12Texture2D |
-| GetContentProtectionCaps | See Content Protection Support.
-| GetVideoDecoderConfig | Only VLD mode supported in DX12. Other functionality via Struct: D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES and Struct: D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS. |
-| GetVideoDecoderConfigCount | N/A |
-| GetVideoDecoderProfile | See Struct: D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES |
-| GetVideoDecoderProfileCount | See Method: GetVideoDecodeProfileCount |
-| SetPrivateData | See ID3D12Object’s SetPrivateData |
-| SetPrivateDataInterface | See ID3D12Object’s SetPrivateDataInterface |
+| [CheckCryptoKeyExchange](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-checkcryptokeyexchange) | Not implemented. |
+| [CheckVideoDecoderFormat](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-checkvideodecoderformat) | [D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_formats) |
+| [CreateAuthenticatedChannel](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createauthenticatedchannel) | Not implemented. |
+| [CreateCryptoSession](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createcryptosession) | Not implemented. |
+| [CreateVideoDecoder](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder) | [ID3D12VideoDevice::CreateVideoDecoder](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideodecoder)  [ID3D12VideoDevice::CreateVideoDecoderHeap](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideodecoderheap) |
+| [CreateVideoDecoderOutputView](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoderoutputview) | [ID3D12Texture2D](/windows/win32/api/d3d11/nn-d3d11-id3d11texture2d) |
+| [CreateVideoProcessor](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor) | [ID3D12VideoDevice::CreateVideoProcessor](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor)  |
+| [CreateVideoProcessorEnumerator](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessorenumerator) | N/A |
+| [CreateVideoProcessorInputView](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessorinputview) | [ID3D12Texture2D](/windows/win32/api/d3d11/nn-d3d11-id3d11texture2d) |
+| [CreateVideoProcessorOutputView](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessoroutputview) | [ID3D12Texture2D](/windows/win32/api/d3d11/nn-d3d11-id3d11texture2d) |
+| [GetContentProtectionCaps](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps) | TBD
+| [GetVideoDecoderConfig](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderconfig) | Only VLD mode is supported in Direct3D 12. [D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_profiles) [D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_formats) |
+| [GetVideoDecoderConfigCount](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderconfigcount) | N/A |
+| [GetVideoDecoderProfile](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile) | [D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_profiles) |
+| [GetVideoDecoderProfileCount](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofilecount) | [D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES.ProfileCount](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_profiles) |
+| [SetPrivateData](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-setprivatedata) | [ID3D12Object::SetPrivateData](/windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedata) |
+| [SetPrivateDataInterface](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-setprivatedatainterface) | [ID3D12Object::SetPrivateDataInterface](/windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface) |
 
 ## ID3D11VideoDevice1
 
@@ -181,7 +151,13 @@ In Direct3D 12, this is replaced by ID3D12Texture2D.
 Identifies the output surfaces that can be accessed during video processing.
 In Direct3D 12, this is replaced by ID3D12Texture2D.
 
+## ID3D11AuthenticatedChannel
 
+Provides a secure communication channel with the graphics driver or the Microsoft Direct3D runtime. This functionality is not implemented for Direct3D 12 video.
+
+##	ID3D11CryptoSession
+
+Represents a cryptographic session. Used for software and hardware DRM scenarios. There is no equivalent public API for Direct3D 12 video.
 
 ## Related topics
 
