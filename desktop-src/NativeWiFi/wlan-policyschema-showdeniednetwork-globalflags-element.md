@@ -16,7 +16,7 @@ api_location:
 
 # showDeniedNetwork (globalFlags) Element
 
-The **showDeniedNetwork** (globalFlags) element specifies whether denied networks appear in the **Connect to a Network** wizard. Networks may be denied by group policy or by user settings. When **showDeniedNetwork** has a value of TRUE, denied networks appear in the the **Connect to a Network** wizard; otherwise, denied networks do not appear in the wizard.
+The **showDeniedNetwork** (globalFlags) element specifies whether denied networks appear in the **Connect to a Network** wizard. Networks may be denied by group policy or by user settings. When **showDeniedNetwork** has a value of TRUE, denied networks appear in the **Connect to a Network** wizard; otherwise, denied networks do not appear in the wizard.
 
 This element is mandatory. When a profile is created by the AutoConfig service, this element will take the default value of FALSE.
 

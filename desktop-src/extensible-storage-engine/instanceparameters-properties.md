@@ -204,7 +204,7 @@ The [InstanceParameters](dn350942\(v=exchg.10\).md) type exposes the following m
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn351008(v=exchg.10).md">VersionStoreTaskQueueMax</a></td>
-<td>Gets or sets the the number of background cleanup work items that can be queued to the database engine thread pool at any one time.</td>
+<td>Gets or sets the number of background cleanup work items that can be queued to the database engine thread pool at any one time.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>

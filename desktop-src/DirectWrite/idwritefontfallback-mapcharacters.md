@@ -95,7 +95,7 @@ Family name of the base font. If you pass null, no matching will be done against
 *baseWeight* 
 </dt> <dd>
 
-Type: **[**DWRITE\_FONT\_WEIGHT**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_weight)**
+Type: **[**DWRITE\_FONT\_WEIGHT**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)**
 
 The desired weight.
 
@@ -104,7 +104,7 @@ The desired weight.
 *baseStyle* 
 </dt> <dd>
 
-Type: **[**DWRITE\_FONT\_STYLE**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_style)**
+Type: **[**DWRITE\_FONT\_STYLE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style)**
 
 The desired style.
 
@@ -113,7 +113,7 @@ The desired style.
 *baseStretch* 
 </dt> <dd>
 
-Type: **[**DWRITE\_FONT\_STRETCH**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_stretch)**
+Type: **[**DWRITE\_FONT\_STRETCH**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch)**
 
 The desired stretch.
 

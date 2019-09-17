@@ -57,9 +57,9 @@ This topic focuses on functionality provided by the following APIs: 
 -   [**IDWriteFontFile**](https://msdn.microsoft.com/en-us/library/Dd371060(v=VS.85).aspx) interface
 -   [**IDWriteFactory::CreateFontFileReference**](https://msdn.microsoft.com/en-us/library/Dd368197(v=VS.85).aspx) method 
 -   [**IDWriteFactory::CreateCustomFontFileReference**](https://msdn.microsoft.com/en-us/library/Dd368188(v=VS.85).aspx) method 
--   [**IDWriteFactory3::CreateFontFaceReference**](/windows/desktop/api/dwrite_3/nf-dwrite_3-createfontfacereference) methods 
--   [**DWRITE\_FONT\_PROPERTY**](/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_font_property) structure 
--   [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id) enumeration 
+-   [**IDWriteFactory3::CreateFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-createfontfacereference) methods 
+-   [**DWRITE\_FONT\_PROPERTY**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property) structure 
+-   [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id) enumeration 
 -   [**IDWriteFontFileLoader**](https://msdn.microsoft.com/en-us/library/Dd371075(v=VS.85).aspx) interface 
 -   [**IDWriteFactory::RegisterFontFileLoader**](https://msdn.microsoft.com/en-us/library/Dd368210(v=VS.85).aspx) method 
 -   [**IDWriteFactory::UnregisterFontFileLoader**](https://msdn.microsoft.com/en-us/library/Dd368212(v=VS.85).aspx) method 
@@ -130,7 +130,7 @@ When dealing with an arbitrary set of font files in local storage, the [**IDWrit
 
 To use this method, use the following process.
 
-<dl> 1. Start by creating the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory5">IDWriteFactory5</a> interface: 
+<dl> 1. Start by creating the <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5">IDWriteFactory5</a> interface: 
 
 
 ```C++
@@ -198,9 +198,9 @@ hr = pFontSetBuilder->CreateFontSet(&pFontSet); 
 
 If the app needs to run on Windows 10 versions earlier than the Windows 10 Creators Update, then the AddFontFile method will not be available. Availability can be detected by creating an [**IDWriteFactory3**](https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx) interface and then using QueryInterface to try to obtain an [**IDWriteFactory5**](https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx) interface: if this succeeds, then the [**IDWriteFontSetBuilder1**](https://msdn.microsoft.com/en-us/library/Mt807690(v=VS.85).aspx) interface and [**AddFontFile**](https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx) method will also be available.
 
-If the AddFontFile method is not available, then the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference) method must be used to add individual font faces. To allow for OpenType Font Collection files that contain multiple faces, the [**IDWriteFontFile::Analyze**](https://msdn.microsoft.com/en-us/library/Dd371099(v=VS.85).aspx) method can be used to determine the number of faces contained within the file. The process is as follows.
+If the AddFontFile method is not available, then the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-addfontfacereference) method must be used to add individual font faces. To allow for OpenType Font Collection files that contain multiple faces, the [**IDWriteFontFile::Analyze**](https://msdn.microsoft.com/en-us/library/Dd371099(v=VS.85).aspx) method can be used to determine the number of faces contained within the file. The process is as follows.
 
-<dl> 1. Start by creating the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a> interface: 
+<dl> 1. Start by creating the <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a> interface: 
 
 
 ```C++
@@ -278,7 +278,7 @@ for (uint32_t fontIndex = 0; fontIndex < numberOfFonts; fontIndex++) 
 6. After all the faces have been added to the font set builder, create the custom font set, as shown above.  
 </dl>
 
-An app can be designed so that it will use the preferred [**AddFontFile**](https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx) method when running on the Windows 10 Creators Update, but fall back to use the [**AddFontFaceReference**](/windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference) method when running on earlier Windows 10 versions. Test for availability of the [**IDWriteFactory5**](https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx) interface, as described above, and then branch accordingly. This approach is illustrated in the [DirectWrite Custom Font Sets sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/). 
+An app can be designed so that it will use the preferred [**AddFontFile**](https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx) method when running on the Windows 10 Creators Update, but fall back to use the [**AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-addfontfacereference) method when running on earlier Windows 10 versions. Test for availability of the [**IDWriteFactory5**](https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx) interface, as described above, and then branch accordingly. This approach is illustrated in the [DirectWrite Custom Font Sets sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/). 
 
 ### Creating a font set using known fonts in the local file system
 
@@ -286,11 +286,11 @@ As mentioned above, each font face reference in a font set is associated with ce
 
 As an example of how this might be useful, suppose an app bundles some fonts that are used for presenting particular user-interface elements within the app. At times, such as with a new app version, the specific fonts that the app uses for these elements may need to change. If the app has encoded references to the specific fonts, then replacement of one font with another will require changing every one of those references. Instead, if the app uses custom properties to assign functional aliases based on the type of element or text being rendered, maps each alias to a specific font in one place and then uses the aliases in all the contexts where fonts are created and manipulated, then replacing one font with another requires only changing the one place where the alias is mapped to a specific font. 
 
-Custom values for informational properties can be assigned when the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference) method is called. The method for doing this is as follows; this can be used on any Windows 10 version. 
+Custom values for informational properties can be assigned when the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-addfontfacereference) method is called. The method for doing this is as follows; this can be used on any Windows 10 version. 
 
 As shown above, start by obtaining the [**IDWriteFactory3**](https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx) and [**IDWriteFontSet**](https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx) interfaces. For each custom font face to be added, create an [**IDWriteFontFaceReference**](https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx), as shown above. Before this is added to the font set builder (within the loop in step 5, shown above), however, the app defines the custom property values to be used. 
 
-A set of custom property values is defined using an array of [**DWRITE\_FONT\_PROPERTY**](/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_font_property) structures. Each of these identifies a particular property from the [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id) enum, and the corresponding property value that is to be used.  
+A set of custom property values is defined using an array of [**DWRITE\_FONT\_PROPERTY**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property) structures. Each of these identifies a particular property from the [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id) enum, and the corresponding property value that is to be used.  
 
 Note that all property values are assigned as strings. If these may later be displayed to users, then alternate values for a given property for different languages may be set, but this is not required. Also note that if any custom property values are set by the app, then only those values that are specified will be used within the Font set; DirectWrite will not derive any values directly from the font for informational properties used in a font set. 
 
@@ -334,8 +334,8 @@ To use the remote font file loader, it must first be registered with a DirectWri
 The method for creating a custom font set using remote fonts is as follows; this requires the Windows 10 Creators Update.  
 
 <dl> 1. Create an IDWriteFactory5 interface, as shown above.   
-2. Create an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder">IDWriteFontSetBuilder</a> interface, as shown above.   
-3. Use the factory to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader">IDWriteRemoteFontFileLoader</a>. 
+2. Create an <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder">IDWriteFontSetBuilder</a> interface, as shown above.   
+3. Use the factory to obtain an <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader">IDWriteRemoteFontFileLoader</a>. 
 
 
 ```C++
@@ -505,7 +505,7 @@ hr = pInMemoryFontFileLoader->CreateInMemoryFontFileReference( 
 
 
    
-6. Add the [**IDWriteFontFile**](https://msdn.microsoft.com/en-us/library/Dd371060(v=VS.85).aspx) object to the font set builder using the [**AddFontFile**](https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx) method, as shown above.  If there is a need, the app can instead create individual [**IDWriteFontFaceReference**](https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx) objects based on the **IDWriteFontFile**, optionally define custom properties for each font face reference, and then add the font face reference with custom properties to the font set using the [**AddFontFaceReference**](/windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference) method, as shown above.   
+6. Add the [**IDWriteFontFile**](https://msdn.microsoft.com/en-us/library/Dd371060(v=VS.85).aspx) object to the font set builder using the [**AddFontFile**](https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx) method, as shown above.  If there is a need, the app can instead create individual [**IDWriteFontFaceReference**](https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx) objects based on the **IDWriteFontFile**, optionally define custom properties for each font face reference, and then add the font face reference with custom properties to the font set using the [**AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-addfontfacereference) method, as shown above.   
 7. After all fonts have been added to the font set builder, create the custom font set, as shown above.   
 8. At some point when the in-memory fonts will no longer be used, unregister the in-memory font file loader. 
 

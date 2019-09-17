@@ -37,7 +37,7 @@ Pointer that can be null or point to existing data, whose value can change durin
 <span id="_rpc_uuid_glos"></span><span id="_RPC_UUID_GLOS"></span>**Universal Unique Identifier (UUID)**
 </dt> <dd>
 
-(or [**GUID**](https://msdn.microsoft.com/en-US/library/Aa373931(v=VS.80).aspx)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](https://docs.microsoft.com/windows).
+(or [**GUID**](/windows/win32/api/guiddef/ns-guiddef-guid)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 

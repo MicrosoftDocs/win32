@@ -98,7 +98,7 @@ Top
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335134(v=exchg.10).md">columnidgrbitIndex</a></td>
-<td>Gets the columnid of the column in the temporary table which stores the the grbits used on the index. See <a href="hh578433(v=exchg.10).md">CreateIndexGrbit</a>. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
+<td>Gets the columnid of the column in the temporary table which stores the grbits used on the index. See <a href="hh578433(v=exchg.10).md">CreateIndexGrbit</a>. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>

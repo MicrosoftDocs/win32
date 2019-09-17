@@ -47,7 +47,7 @@ Starting in Windows 10 Anniversary Update, DirectWrite provides built-in support
 -   The ‘CBDT’ OpenType table, which enables color bitmap content in fonts.
 -   The ‘sbix’ OpenType table, which enables color bitmap content in fonts.
 
-[Direct2D](https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal), which uses DirectWrite for text rendering, supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options) flag is enabled. For more information, see the following topics:
+[Direct2D](/windows/win32/Direct2D/direct2d-portal), which uses DirectWrite for text rendering, supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](/windows/win32/api/d2d1/ne-d2d1-d2d1_draw_text_options) flag is enabled. For more information, see the following topics:
 
 -   [Color Fonts](color-fonts.md)
 -   [DirectWrite color glyph sample](https://go.microsoft.com/fwlink/p/?LinkId=832476)
@@ -87,7 +87,7 @@ For more information, see the following topics:
 
 -   [**IDWriteFontSet**](https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx) interface
 -   [**IDWriteFontSetBuilder**](https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx) interface
--   [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id) enumeration
+-   [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id) enumeration
 -   [**IDWriteFontFactory3::GetSystemFontSet**](https://msdn.microsoft.com/en-us/library/Dn890764(v=VS.85).aspx) method
 
 ### New text-layout line-spacing modes
@@ -96,11 +96,11 @@ DirectWrite’s text format and text layout interfaces support new line-spacing 
 
 -   [**IDWriteTextLayout3**](idwritetextlayout3.md) interface
 -   [**IDWriteTextLayout3::SetLineSpacing**](idwritetextlayout3-setlinespacing.md) method
--   [**DWRITE\_LINE\_SPACING**](/windows/desktop/api/Dwrite_3/ns-dwrite_3-dwrite_line_spacing) structure
--   [**DWRITE\_LINE\_SPACING\_METHOD**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_line_spacing_method) enumeration
--   [**DWRITE\_FONT\_LINE\_GAP\_USAGE**](/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_line_gap_usage) enumeration
+-   [**DWRITE\_LINE\_SPACING**](/windows/win32/api/Dwrite_3/ns-dwrite_3-dwrite_line_spacing) structure
+-   [**DWRITE\_LINE\_SPACING\_METHOD**](/windows/win32/api/dwrite/ne-dwrite-dwrite_line_spacing_method) enumeration
+-   [**DWRITE\_FONT\_LINE\_GAP\_USAGE**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_line_gap_usage) enumeration
 -   [**IDWriteTextLayout3::GetLineMetrics**](idwritetextlayout3-getlinemetrics.md) method
--   [**DWRITE\_LINE\_METRICS1**](/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_line_metrics1) structure
+-   [**DWRITE\_LINE\_METRICS1**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_line_metrics1) structure
 
 The [Line spacing (DirectWrite) code sample](https://go.microsoft.com/fwlink/p/?LinkId=620538) illustrates use of several of the new APIs, and also provides a visualization of all of the different line-spacing modes that makes it much easier to understand the various line-spacing options that are available.
 
@@ -114,9 +114,9 @@ Since its introduction in Windows 7, DirectWrite has provided a migration path f
 
 ### Rendering color fonts
 
-Starting in Windows Windows 8.1, DirectWrite provides support for color fonts. [Direct2D](https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal), which uses DirectWrite for text rendering, has added the enum value D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT to enable this feature when drawing text. For more information, see the following topics:
+Starting in Windows Windows 8.1, DirectWrite provides support for color fonts. [Direct2D](/windows/win32/Direct2D/direct2d-portal), which uses DirectWrite for text rendering, has added the enum value D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT to enable this feature when drawing text. For more information, see the following topics:
 
--   [**D2D1\_DRAW\_TEXT\_OPTIONS**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options) enumeration
+-   [**D2D1\_DRAW\_TEXT\_OPTIONS**](/windows/win32/api/d2d1/ne-d2d1-d2d1_draw_text_options) enumeration
 -   [**IDWriteFactory2::TranslateColorGlyphRun**](https://msdn.microsoft.com/en-us/library/Dn280451(v=VS.85).aspx) method
 
 ## What's new in Windows 8

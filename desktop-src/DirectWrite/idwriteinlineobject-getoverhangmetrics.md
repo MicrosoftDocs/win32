@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) calls this callback function to get the visible extents (in DIPs) of the inline object. In the case of a simple bitmap, with no padding and no overhang, all the overhangs will simply be zeroes.
 
-The overhangs should be returned relative to the reported size of the object (see [**DWRITE\_INLINE\_OBJECT\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_inline_object_metrics)), and should not be baseline adjusted.
+The overhangs should be returned relative to the reported size of the object (see [**DWRITE\_INLINE\_OBJECT\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_inline_object_metrics)), and should not be baseline adjusted.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ virtual HRESULT GetOverhangMetrics(
 *overhangs* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_OVERHANG\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_overhang_metrics)\***
+Type: **[**DWRITE\_OVERHANG\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_overhang_metrics)\***
 
 Overshoot of visible extents (in DIPs) outside the object.
 
@@ -72,7 +72,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteInlineObject**](https://msdn.microsoft.com/en-us/library/Dd371221(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDWriteInlineObject**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject)
+[**IDWriteInlineObject**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject)
 </dt> </dl>
 
  

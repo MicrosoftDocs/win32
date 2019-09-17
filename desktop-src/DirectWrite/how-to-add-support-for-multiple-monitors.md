@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Add Support for Multiple Monitors
 
-[DirectWrite](direct-write-portal.md) includes support for systems with multiple monitors. Different monitors may have different pixel geometry (RGB, BGR, or FLAT) or other attributes. For more information about pixel geometry, see the [**DWRITE\_PIXEL\_GEOMETRY**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_pixel_geometry) reference topic. This topic will show you how to add support for multiple monitors to your DirectWrite application.
+[DirectWrite](direct-write-portal.md) includes support for systems with multiple monitors. Different monitors may have different pixel geometry (RGB, BGR, or FLAT) or other attributes. For more information about pixel geometry, see the [**DWRITE\_PIXEL\_GEOMETRY**](/windows/win32/api/dwrite/ne-dwrite-dwrite_pixel_geometry) reference topic. This topic will show you how to add support for multiple monitors to your DirectWrite application.
 
 In order to support multiple monitors, you must handle the **WM\_WINDOWPOSCHANGED** window message. This message is sent when the window is moved, so you must check if the window has moved to a different monitor as shown in the following code.
 
@@ -45,9 +45,9 @@ If the window is located on a new monitor, then you must create rendering parame
 
  
 
-When you have an [**IDWriteRenderingParams**](https://msdn.microsoft.com/en-us/library/Dd371285(v=VS.85).aspx) object, set the rendering parameters for the render target by using the [**ID2DRenderTarget::SetTextRenderingParams**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams) method.
+When you have an [**IDWriteRenderingParams**](https://msdn.microsoft.com/en-us/library/Dd371285(v=VS.85).aspx) object, set the rendering parameters for the render target by using the [**ID2DRenderTarget::SetTextRenderingParams**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams) method.
 
-Finally, use the [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) function to cause the window to redraw with the new rendering parameters.
+Finally, use the [**InvalidateRect**](/windows/win32/api/winuser/nf-winuser-invalidaterect) function to cause the window to redraw with the new rendering parameters.
 
  
 

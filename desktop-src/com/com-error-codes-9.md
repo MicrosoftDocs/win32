@@ -956,7 +956,7 @@ The IPv6 protocol is not installed.
 
 
 
-The compoment has not been initialized.
+The component has not been initialized.
 
 
 </dt> </dl> </dd> <dt>
@@ -1190,7 +1190,7 @@ The connection was refused.
 
 
 
-The peer name classifer is too long.
+The peer name classifier is too long.
 
 
 </dt> </dl> </dd> <dt>
@@ -1580,7 +1580,7 @@ Invalid role property.
 
 
 
-Invalid classifer protopery.
+Invalid classifier protopery.
 
 
 </dt> </dl> </dd> <dt>

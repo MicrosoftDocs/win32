@@ -40,7 +40,7 @@ virtual HRESULT GetMetrics(
  *textMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_TEXT\_METRICS1**](/windows/desktop/api/dwrite_2/ns-dwrite_2-dwrite_text_metrics1)\***
+Type: **[**DWRITE\_TEXT\_METRICS1**](/windows/win32/api/dwrite_2/ns-dwrite_2-dwrite_text_metrics1)\***
 
 When this method returns, contains the measured distances of text and associated content after being formatted.
 

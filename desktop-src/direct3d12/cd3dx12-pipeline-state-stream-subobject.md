@@ -90,7 +90,7 @@ public:
 
 
 
-The template parameter **InnerStructType** specifies the subobject data type; that is, the subobject details to be encoded into a stream. The template parameter **Type** specifies the subobject type; that is, the type of the structure specified by the template parameter **InnerStructType**. The template parameter **DefaultArg** specifies an optional value that the subobject data will be initialized to when an instance of the the corresponding template instantiation is default-constructed; for example, to default-construct a [**CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC**](cd3dx12-pipeline-state-stream-blend-desc.md) initialized with common blend-state defaults using [**CD3DX12\_DEFAULT**](cd3dx12-default.md).
+The template parameter **InnerStructType** specifies the subobject data type; that is, the subobject details to be encoded into a stream. The template parameter **Type** specifies the subobject type; that is, the type of the structure specified by the template parameter **InnerStructType**. The template parameter **DefaultArg** specifies an optional value that the subobject data will be initialized to when an instance of the corresponding template instantiation is default-constructed; for example, to default-construct a [**CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC**](cd3dx12-pipeline-state-stream-blend-desc.md) initialized with common blend-state defaults using [**CD3DX12\_DEFAULT**](cd3dx12-default.md).
 
 Here are the template instantiations that are defined:
 

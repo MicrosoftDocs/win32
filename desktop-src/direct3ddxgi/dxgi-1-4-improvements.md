@@ -37,7 +37,7 @@ In Direct3D 11, applications could call [**GetBuffer**](/windows/desktop/api/DXG
 
 **Multi-Adapter Support**
 
-When a swapchain is created on a multi-GPU adapter, the backbuffers are all created on node 1 and only a single command queue is supported. [**ResizeBuffers1**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1) enables applications to create backbuffers on different nodes, allowing a different command queue to be used with each. These capabilities enable Alternate Frame Rendering (AFR) techniques to be used with the swapchain. Refer to [Multi-adapter](/windows/desktop/direct3d12/mulit-engine).
+When a swapchain is created on a multi-GPU adapter, the backbuffers are all created on node 1 and only a single command queue is supported. [**ResizeBuffers1**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1) enables applications to create backbuffers on different nodes, allowing a different command queue to be used with each. These capabilities enable Alternate Frame Rendering (AFR) techniques to be used with the swapchain. Refer to [Multi-adapter](/windows/desktop/direct3d12/multi-engine).
 
 **Miscellaneous**
 

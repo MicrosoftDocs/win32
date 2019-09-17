@@ -121,7 +121,7 @@ void WriteContentProperties(
    printf("An invalid PKEY_GenericObj_Name was specified, aborting property writing\n");
   }
 
-  // 5) CoCreate an IPortableDeviceValues interface to hold the the property values
+  // 5) CoCreate an IPortableDeviceValues interface to hold the property values
   // we wish to write.
   if (SUCCEEDED(hr))
   {

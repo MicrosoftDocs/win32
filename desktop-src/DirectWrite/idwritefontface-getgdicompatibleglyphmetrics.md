@@ -65,7 +65,7 @@ The number of physical pixels per DIP.
 *transform* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_MATRIX**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix)\***
+Type: **const [**DWRITE\_MATRIX**](/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix)\***
 
 An optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified by the font size and *pixelsPerDip*.
 
@@ -101,9 +101,9 @@ The number of elements in the *glyphIndices* array.
 *glyphMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_GLYPH\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_metrics)\***
+Type: **[**DWRITE\_GLYPH\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_metrics)\***
 
-An array of [**DWRITE\_GLYPH\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_metrics) structures filled by this function. The metrics are in font design units.
+An array of [**DWRITE\_GLYPH\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_metrics) structures filled by this function. The metrics are in font design units.
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ Standard **HRESULT** error code. If any of the input glyph indices are outside o
 [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDWriteFontFace**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface)
+[**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)
 </dt> </dl>
 
  

@@ -45,7 +45,7 @@ LoadDLL(
     
     _wsplitpath_s(filename, drive, cch(drive), dir, cch(dir), file, cch(file), ext, cch(ext));
 
-    // If 'filename' contains no path information, then get the the path to our module and 
+    // If 'filename' contains no path information, then get the path to our module and 
     // use it to create a fully qualified path to the module we are loading.  Then load it.
     
     if (!*drive && !*dir) 

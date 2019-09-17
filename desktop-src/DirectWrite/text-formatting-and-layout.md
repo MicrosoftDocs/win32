@@ -76,7 +76,7 @@ You can use an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/
 
 ### Formatting a range of text
 
-[**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) provides several methods to format ranges of text. Each of these methods takes a [**DWRITE\_TEXT\_RANGE**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range) structure as a parameter to specify the starting text position within the string and the length of the range to format. The following example shows how to set the font weight of a range of text to bold.
+[**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) provides several methods to format ranges of text. Each of these methods takes a [**DWRITE\_TEXT\_RANGE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) structure as a parameter to specify the starting text position within the string and the length of the range to format. The following example shows how to set the font weight of a range of text to bold.
 
 
 ```C++

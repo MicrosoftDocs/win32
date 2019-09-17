@@ -71,7 +71,7 @@ If you have an existing WPF application and wish to leverage the DPI helper proj
 1.  Download and unzip the Per Monitor Aware WPF sample
 2.  Start Visual Studio and select **File > Open > Project/Solution**
 3.  Browse to the directory which contains an existing WPF application and double-click the Visual Studio Solution (.sln) file
-4.  Right click on **Solution > Add > Existing Project**![a screenshot that illustrates the the add: existing project menu selection](images/scrvs-image1.png)
+4.  Right click on **Solution > Add > Existing Project**![a screenshot that illustrates the add: existing project menu selection](images/scrvs-image1.png)
 5.  In the file selection dialogue browse to the directory that contains the unzipped sample. Open to the directory named for the sample, browse to the folder "NativeHelpers", select the Visual C++ project file "NativeHelpers.vcxproj” and click **OK**
 6.  Right click on the project NativeHelpers and select **Build**. This will generate NativeHelpers.dll that will be added as a reference to the WPF Application in the next step![a screen shot illustrating the build menu selection](images/scrvs-image2.png)
 7.  Add a reference to NativeHelpers.dll from your WPF Application. Expand your WPF application project, right click on **References** and click on **Add Reference...**

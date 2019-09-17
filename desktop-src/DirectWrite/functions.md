@@ -18,7 +18,7 @@ DirectWrite provides the following function. All other operations are performed 
 
 | Topic                                                         | Description                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**DWriteCreateFactory**](/windows/desktop/api/dwrite/nf-dwrite-dwritecreatefactory)<br/> | Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.<br/> |
+| [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory)<br/> | Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.<br/> |
 
 
 

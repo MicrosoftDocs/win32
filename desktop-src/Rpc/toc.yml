@@ -751,7 +751,7 @@
         - name: "NDR_SCONTEXT"
           href: https://docs.microsoft.com/previous-versions/aa374336(v=vs.80)
         - name: "GUID"
-          href: https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)
+          href: /windows/win32/api/guiddef/ns-guiddef-guid
         - name: "NDR_USER_MARSHAL_INFO"
           href: /windows/desktop/api/Rpcndr/ns-rpcndr-_ndr_user_marshal_info
         - name: "NDR_USER_MARSHAL_INFO_LEVEL1"
@@ -819,9 +819,9 @@
         - name: "SEC_WINNT_AUTH_IDENTITY"
           href: /windows/desktop/api/Rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a
         - name: "UUID"
-          href: https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)
+          href: /windows/desktop/rpc/rpcdce/ns-rpcdce-_uuid
         - name: "UUID_VECTOR"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_uuid_vector
+          href: /windows/desktop/api/rpcdce/ns-rpcdce-_uuid_vector
       - name: "RPC Enumerated Types"
         href: rpc-enumerated-types.md
         items: 

@@ -17,8 +17,7 @@ When providing a string UUID as an input parameter to an RPC run-time function, 
 ## Related topics
 
 <dl> <dt>
-
-[**UUID**](https://msdn.microsoft.com/en-US/library/Aa379358(v=VS.80).aspx)
+[**UUID**](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid)
 </dt> </dl>
 
  

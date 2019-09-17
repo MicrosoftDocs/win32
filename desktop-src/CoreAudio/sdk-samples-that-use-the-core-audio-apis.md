@@ -26,7 +26,7 @@ The Windows SDK includes the following code samples that demonstrate the use of 
 <tbody>
 <tr class="odd">
 <td><a href="aecmicarray">AECMicArray</a></td>
-<td>This sample uses the MMDevice, WASAPI, DeviceTopology, and EndpointVolume APIs to capture a high-quality voice stream. TThe sample supports acoustic echo cancellation (AEC) and microphone array processing by using the the AEC DMO also called the Voice capture DSP provided by Microsoft .</td>
+<td>This sample uses the MMDevice, WASAPI, DeviceTopology, and EndpointVolume APIs to capture a high-quality voice stream. TThe sample supports acoustic echo cancellation (AEC) and microphone array processing by using the AEC DMO also called the Voice capture DSP provided by Microsoft .</td>
 </tr>
 <tr class="even">
 <td><a href="capturesharedeventdriven">CaptureSharedEventDriven</a></td>

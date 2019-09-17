@@ -168,6 +168,7 @@ The following is the complete listing of the manifest file schema.
   <!-- WindowsSettings elements from XML namespace https://schemas.microsoft.com/SMI/2016/WindowsSettings
   -->
   <ElementType name="dpiAwareness" />
+  <ElementType name="longPathAware" />
 
   </Schema>
 ```

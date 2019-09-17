@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEXLIST.columnidgrbitIndex property
 
-Gets the columnid of the column in the temporary table which stores the the grbits used on the index. See [CreateIndexGrbit](hh578433\(v=exchg.10\).md). The column is of type [Long](hh577895\(v=exchg.10\).md).
+Gets the columnid of the column in the temporary table which stores the grbits used on the index. See [CreateIndexGrbit](hh578433\(v=exchg.10\).md). The column is of type [Long](hh577895\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

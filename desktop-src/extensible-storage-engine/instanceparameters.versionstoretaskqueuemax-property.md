@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.VersionStoreTaskQueueMax property
 
-Gets or sets the the number of background cleanup work items that can be queued to the database engine thread pool at any one time.
+Gets or sets the number of background cleanup work items that can be queued to the database engine thread pool at any one time.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-Today's applications must support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. DirectWrite, a [DirectX](https://docs.microsoft.com/windows/desktop/directx) API, provides these features and more:
+Today's applications must support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. DirectWrite, a [DirectX](/windows/win32/directx) API, provides these features and more:
 
 -   A device-independent text layout system that improves text readability in documents and in UI.
 -   High-quality, sub-pixel, [**ClearType**](https://msdn.microsoft.com/en-us/library/Dd371288(v=VS.85).aspx) text rendering that can use [GDI](interoperating-with-gdi.md), [Direct2D](rendering-by-using-direct2d.md), or application-specific rendering technology.

@@ -64,7 +64,7 @@ To add a text layout you must do the following:
 
     
 
-3.  Then, you must change the call to the [**ID2D1RenderTarget::DrawText**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) method to [**ID2D1RenderTarget::DrawTextLayout**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout), as shown in the following code.
+3.  Then, you must change the call to the [**ID2D1RenderTarget::DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) method to [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout), as shown in the following code.
     ```C++
     pRT_->DrawTextLayout(
         origin,
@@ -152,7 +152,7 @@ HRESULT STDMETHODCALLTYPE InlineImage::Draw(
 
 
 
-In this case, drawing the bitmap is done by using the [**ID2D1RenderTarget::DrawBitmap**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f_)) method; however, any method for drawing can be used.
+In this case, drawing the bitmap is done by using the [**ID2D1RenderTarget::DrawBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f_)) method; however, any method for drawing can be used.
 
 ### The GetMetrics Method.
 
@@ -173,7 +173,7 @@ HRESULT STDMETHODCALLTYPE InlineImage::GetMetrics(
 
 
 
-For the [**GetMetrics**](https://msdn.microsoft.com/en-us/library/Dd371232(v=VS.85).aspx) method, store the width, height and baseline in an [**DWRITE\_INLINE\_OBJECT\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_inline_object_metrics) structure. [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) calls this callback function to get the measurement of the inline object.
+For the [**GetMetrics**](https://msdn.microsoft.com/en-us/library/Dd371232(v=VS.85).aspx) method, store the width, height and baseline in an [**DWRITE\_INLINE\_OBJECT\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_inline_object_metrics) structure. [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) calls this callback function to get the measurement of the inline object.
 
 ### The GetOverhangMetrics Method.
 
@@ -214,7 +214,7 @@ HRESULT STDMETHODCALLTYPE InlineImage::GetBreakConditions(
 
 ## Step 4: Create an Instance of the InlineImage Class and Add it to the Text Layout.
 
-Finally, in the CreateDeviceDependentResources method, create an instance of the InlineImage class and add it to the text layout. Because it holds a reference to the [**ID2D1RenderTarget**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget), which is a device dependent resource, and the [**ID2D1Bitmap**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap) is created by using the render target, the InlineImage is also device dependent and must be recreated if the render target is recreated.
+Finally, in the CreateDeviceDependentResources method, create an instance of the InlineImage class and add it to the text layout. Because it holds a reference to the [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget), which is a device dependent resource, and the [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) is created by using the render target, the InlineImage is also device dependent and must be recreated if the render target is recreated.
 
 
 ```C++
@@ -241,7 +241,7 @@ cTextLength_ = wcslen(wszText_);
 
 
 
-Since the InlineImage class is dependent on the [**ID2D1RenderTarget**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget), you must release it when you release the render target.
+Since the InlineImage class is dependent on the [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget), you must release it when you release the render target.
 
 
 ```C++

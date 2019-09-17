@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # <span id="WWAN_profile_v4.element_ProfileCreationType"></span>ProfileCreationType (in MBNProfileExt)
 
-Specifies the the creator of the profile.
+Specifies the creator of the profile.
 
 For more information about this element, see the documentation for the v1 [**ProfileCreationType**](https://msdn.microsoft.com/library/Dd323293(v=VS.85).aspx) element.
 
