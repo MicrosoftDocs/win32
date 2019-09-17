@@ -51,7 +51,7 @@ The **GetGlyphAdvances** method on the [**IDWriteFontFace1**](https://msdn.micro
 
 Apps that want to handle their own font selection need access to the Unicode ranges that are supported by the font. This way, if a Unicode codepoint isn’t supported by the font, the app can choose an appropriate font that contains that glyph. Without this info, the app may use a font that doesn’t contain all the glyphs that are necessary to display the info present.
 
-The [**GetUnicodeRanges**](https://msdn.microsoft.com/en-us/library/Hh780407(v=VS.85).aspx) method on the the [**IDWriteFontFace1**](https://msdn.microsoft.com/en-us/library/Hh780409(v=VS.85).aspx) and [**IDWriteFont1**](https://msdn.microsoft.com/en-us/library/Hh780404(v=VS.85).aspx) interfaces takes in the maximum number of ranges passed in from the client, and returns the actual ranges supported by the font.
+The [**GetUnicodeRanges**](https://msdn.microsoft.com/en-us/library/Hh780407(v=VS.85).aspx) method on the [**IDWriteFontFace1**](https://msdn.microsoft.com/en-us/library/Hh780409(v=VS.85).aspx) and [**IDWriteFont1**](https://msdn.microsoft.com/en-us/library/Hh780404(v=VS.85).aspx) interfaces takes in the maximum number of ranges passed in from the client, and returns the actual ranges supported by the font.
 
 ## EUDC Font Collection
 

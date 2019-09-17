@@ -68,7 +68,7 @@ Address wrapping modes (wrap/mirror/clamp/border etc.) from the sampler state (s
 
 ### Return Type Control
 
-The data format returned by the sample to the destination register is determined by the the resource format (DXGI\_FORMAT\*) bound to the *srcResource* parameter (t\#). For example, if the specified t\# was bound with a resource with format DXGI\_FORMAT\_A8B8G8R8\_UNORM\_SRGB, then the sampling operation will convert sampled texels from gamma 2.0 to 1.0, apply filtering, and the result will written to the destination register as floating point values in the range \[0..1\].
+The data format returned by the sample to the destination register is determined by the resource format (DXGI\_FORMAT\*) bound to the *srcResource* parameter (t\#). For example, if the specified t\# was bound with a resource with format DXGI\_FORMAT\_A8B8G8R8\_UNORM\_SRGB, then the sampling operation will convert sampled texels from gamma 2.0 to 1.0, apply filtering, and the result will written to the destination register as floating point values in the range \[0..1\].
 
 Returned values are 4-vectors (with format-specific defaults for components not present in the format). The swizzle on *srcResource* determines how to swizzle the 4-component result coming back from the texture sample/filter, after which .mask on *dest* determines which components in *dest* get updated.
 

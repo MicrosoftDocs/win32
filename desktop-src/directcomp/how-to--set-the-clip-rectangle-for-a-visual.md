@@ -99,7 +99,7 @@ Use the [**IDCompositionVisual::SetClip**](https://msdn.microsoft.com/en-us/libr
 ```C++
     if (SUCCEEDED(hr))
     {
-        // Set the the rectangle clip object as the Clip property 
+        // Set the rectangle clip object as the Clip property 
         // of the visual.
         hr = m_pVisual->SetClip(m_pClip);
     }

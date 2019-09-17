@@ -44,7 +44,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 ## Remarks
 
-The **BCM\_GETNOTE** message works only with buttons that have the the [**BS\_COMMANDLINK**](button-styles.md) or [**BS\_DEFCOMMANDLINK**](button-styles.md) button style.
+The **BCM\_GETNOTE** message works only with buttons that have the [**BS\_COMMANDLINK**](button-styles.md) or [**BS\_DEFCOMMANDLINK**](button-styles.md) button style.
 
 [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will contain:
 

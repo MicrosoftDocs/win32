@@ -99,7 +99,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     
 
-2.  The [**DWRITE\_GLYPH\_RUN**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) that is passed to [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) contains a [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object, named *fontFace*, that represents the font face for the whole glyph run. Put the outline of the the glyph run into the geometry sink by using the [**IDWriteFontFace:: GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx) method, as shown in the following code.
+2.  The [**DWRITE\_GLYPH\_RUN**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) that is passed to [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) contains a [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object, named *fontFace*, that represents the font face for the whole glyph run. Put the outline of the glyph run into the geometry sink by using the [**IDWriteFontFace:: GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx) method, as shown in the following code.
 
     ```C++
     // Get the glyph run outline geometries back from DirectWrite and place them within the

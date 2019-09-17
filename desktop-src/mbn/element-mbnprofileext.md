@@ -163,7 +163,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-profilecreationtype">ProfileCreationType (in MBNProfileExt)</a></td>
-<td><p>Specifies the the creator of the profile.</p>
+<td><p>Specifies the creator of the profile.</p>
 <p>For more information about this element, see the documentation for the v1 <a href="../mbn/schema_profilecreationtype_mbnprofile_element"><strong>ProfileCreationType</strong></a> element.</p></td>
 </tr>
 <tr class="odd">

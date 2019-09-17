@@ -60,7 +60,7 @@ The location of the data written is equivalent to the following pseudocode which
                         default:  // only these masks are valid                              
                     }
 
-                    // copy the data from the the source register with
+                    // copy the data from the source register with
                     //    the swizzle applied
                     memcpy(WriteLocation, swizzle(src0, src0.swizzle), 
                              WriteComponents * sizeof(UINT32));

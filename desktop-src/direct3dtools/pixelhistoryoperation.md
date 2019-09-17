@@ -109,16 +109,16 @@ Pixel shader output: value of blue color component
 Pixel shader output: value of alpha color component
 
 **LabelPSRed**  
-A COM string containing the name of the label associated with the the red color component of the pixel shader output.
+A COM string containing the name of the label associated with the red color component of the pixel shader output.
 
 **LabelPSGreen**  
-A COM string containing the name of the label associated with the the green color component of the pixel shader output.
+A COM string containing the name of the label associated with the green color component of the pixel shader output.
 
 **LabelPSBlue**  
-A COM string containing the name of the label associated with the the blue color component of the pixel shader output.
+A COM string containing the name of the label associated with the blue color component of the pixel shader output.
 
 **LabelPSAlpha**  
-A COM string containing the name of the label associated with the the alpha color component of the pixel shader output.
+A COM string containing the name of the label associated with the alpha color component of the pixel shader output.
 
 **pixelKillReason**  
 Pixel shader output: reason the pixel output was killed.
