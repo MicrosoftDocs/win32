@@ -27,6 +27,10 @@ DirectWrite defines the following enumerations.
 </thead>
 <tbody>
 <tr>
+<td><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes"><strong>DWRITE_AUTOMATIC_FONT_AXES</strong></a></td>
+<td>Defines constants that specify certain axes that can be applied automatically in layout during font selection.</td>
+</tr>
+<tr>
 <td><a href="/windows/win32/api/Dwrite_1/ne-dwrite_1-dwrite_baseline"><strong>DWRITE_BASELINE</strong></a></td>
 <td>The <a href="/windows/win32/api/Dwrite_1/ne-dwrite_1-dwrite_baseline"><strong>DWRITE_BASELINE</strong></a> enumeration contains values that specify the baseline for text alignment.</td>
 </tr>
@@ -47,12 +51,20 @@ DirectWrite defines the following enumerations.
 <td>Indicates the direction of how lines of text are placed relative to one another. </td>
 </tr>
 <tr>
+<td><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes"><strong>DWRITE_FONT_AXIS_ATTRIBUTES</strong></a></td>
+<td>Defines constants that specify attributes for a font axis.</td>
+</tr>
+<tr>
 <td><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag"><strong>DWRITE_FONT_AXIS_TAG</strong></a></td>
 <td>Defines constants that specify a four-character identifier for a font axis.</td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_face_type"><strong>DWRITE_FONT_FACE_TYPE</strong></a></td>
 <td>Indicates the file format of a complete font face.</td>
+</tr>
+<tr>
+<td><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model"><strong>DWRITE_FONT_FAMILY_MODEL</strong></a></td>
+<td>Defines constants that specify how font families are grouped together.</td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag"><strong>DWRITE_FONT_FEATURE_TAG</strong></a></td>
@@ -73,6 +85,10 @@ DirectWrite defines the following enumerations.
 <tr>
 <td><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations"><strong>DWRITE_FONT_SIMULATIONS</strong></a></td>
 <td>Specifies algorithmic style simulations to be applied to the font face. Bold and oblique simulations can be combined via bitwise OR operation.</td>
+</tr>
+<tr>
+<td><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type"><strong>DWRITE_FONT_SOURCE_TYPE</strong></a></td>
+<td>Defines constants that specify the mechanism by which a font came to be included in a font set.</td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch"><strong>DWRITE_FONT_STRETCH</strong></a></td>

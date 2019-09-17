@@ -75,6 +75,8 @@
     - name: "DirectWrite enumerations"
       href: enumerations.md
       items: 
+      - name: "DWRITE_AUTOMATIC_FONT_AXES"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes
       - name: "DWRITE_BASELINE"
         href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_baseline
       - name: "DWRITE_BREAK_CONDITION"
@@ -85,10 +87,14 @@
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_factory_type
       - name: "DWRITE_FLOW_DIRECTION"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_flow_direction
+      - name: "DWRITE_FONT_AXIS_ATTRIBUTES"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes
       - name: "DWRITE_FONT_AXIS_TAG"
         href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag
       - name: "DWRITE_FONT_FACE_TYPE"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_face_type
+      - name: "DWRITE_FONT_FAMILY_MODEL"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model
       - name: "DWRITE_FONT_FEATURE_TAG"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag
       - name: "DWRITE_FONT_FILE_TYPE"
@@ -99,6 +105,8 @@
         href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id
       - name: "DWRITE_FONT_SIMULATIONS"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations
+      - name: "DWRITE_FONT_SOURCE_TYPE"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type
       - name: "DWRITE_FONT_STRETCH"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch
       - name: "DWRITE_FONT_STYLE"
@@ -364,6 +372,30 @@
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-createinmemoryfontfileloader
         - name: "UnpackFontFile method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-unpackfontfile
+      - name: "IDWriteFactory6"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6
+        items: 
+        - name: "CreateFontCollectionFromFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontcollectionfromfontset
+        - name: "CreateFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontfacereference
+        - name: "CreateFontResource method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontresource
+        - name: "CreateFontSetBuilder method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontsetbuilder
+        - name: "CreateTextFormat method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createtextformat
+        - name: "GetSystemFontCollection method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-getsystemfontcollection
+        - name: "GetSystemFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-getsystemfontset
+      - name: "IDWriteFactory7"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7
+        items: 
+        - name: "GetSystemFontCollection method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory7-getsystemfontcollection
+        - name: "GetSystemFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory7-getsystemfontset
       - name: "IDWriteFont"
         href: /windows/win32/api/dwrite/nn-dwrite-idwritefont
         items: 
@@ -432,6 +464,22 @@
         items: 
         - name: "GetFontSet"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection1-getfontset
+      - name: "IDWriteFontCollection2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2
+        items: 
+        - name: "GetFontFamily method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getfontfamily
+        - name: "GetFontFamilyModel method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getfontfamilymodel
+        - name: "GetFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getfontset
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getmatchingfonts
+      - name: "IDWriteFontCollection3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection3
+        items: 
+        - name: "GetExpirationEvent method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection3-getexpirationevent
       - name: "IDWriteFontCollectionLoader"
         href: /windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader
         items: 
@@ -617,6 +665,15 @@
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocality
         - name: "GetSimulations method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getsimulations
+      - name: "IDWriteFontFaceReference1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference1-createfontface
+        - name: "GetFontAxisValueCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference1-getfontaxisvaluecount
+        - name: "GetFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference1-getfontaxisvalues
       - name: "IDWriteFontFallback"
         href: /windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback
         items: 
@@ -649,6 +706,13 @@
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfont
         - name: "GetFontFaceReference method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfontfacereference
+      - name: "IDWriteFontFamily2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2
+        items: 
+        - name: "GetFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily2-getfontset
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily2-getmatchingfonts
       - name: "IDWriteFontFile"
         href: /windows/win32/api/dwrite/nn-dwrite-idwritefontfile
         items: 
@@ -699,6 +763,38 @@
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfont
         - name: "GetFontFaceReference method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfontfacereference
+      - name: "IDWriteFontList2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2
+        items: 
+        - name: "GetFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontlist2-getfontset
+      - name: "IDWriteFontResource"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-createfontface
+        - name: "CreateFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-createfontfacereference
+        - name: "GetAxisNames method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getaxisnames
+        - name: "GetAxisValueNameCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getaxisvaluenamecount
+        - name: "GetAxisValueNames method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getaxisvaluenames
+        - name: "GetDefaultFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getdefaultfontaxisvalues
+        - name: "GetFontAxisAttributes method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxisattributes
+        - name: "GetFontAxisCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxiscount
+        - name: "GetFontAxisRanges method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxisranges
+        - name: "GetFontFaceIndex method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontfaceindex
+        - name: "GetFontFile method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontfile
+        - name: "HasVariations method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-hasvariations
       - name: "IDWriteFontSet"
         href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset
         items: 
@@ -728,6 +824,49 @@
             href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getmatchingfonts(wcharconst_dwrite_font_weight_dwrite_font_stretch_dwrite_font_style_idwritefontset)
           - name: "GetMatchingFonts(const WCHAR*, DWRITE_FONT_WEIGHT, DWRITE_FONT_STRETCH, DWRITE_FONT_STYLE, IDWriteFontSet**) method"
             href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getmatchingfonts(wcharconst_dwrite_font_weight_dwrite_font_stretch_dwrite_font_style_idwritefontset)
+      - name: "IDWriteFontSet1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-createfontface
+        - name: "CreateFontResource method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-createfontresource
+        - name: "GetFilteredFontIndices(DWRITE_FONT_PROPERTY const,UINT32,BOOL,UINT32,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfontindices
+        - name: "GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,UINT32,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfontindices(dwrite_font_axis_rangeconst_uint32_bool_uint32_uint32_uint32)
+        - name: "GetFilteredFonts(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,IDWriteFontSet1) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfonts(dwrite_font_axis_rangeconst_uint32_bool_idwritefontset1)
+        - name: "GetFilteredFonts(DWRITE_FONT_PROPERTY const,UINT32,BOOL,IDWriteFontSet1) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfonts(dwrite_font_propertyconst_uint32_bool_idwritefontset1)
+        - name: "GetFilteredFonts(UINT32 const,UINT32,IDWriteFontSet1) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfonts(uint32const_uint32_idwritefontset1)
+        - name: "GetFirstFontResources method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfirstfontresources
+        - name: "GetFontAxisRanges(DWRITE_FONT_AXIS_RANGE,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontaxisranges
+        - name: "GetFontAxisRanges(UINT32,DWRITE_FONT_AXIS_RANGE,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontaxisranges(uint32_dwrite_font_axis_range_uint32_uint32)
+        - name: "GetFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontfacereference
+        - name: "GetFontLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontlocality
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getmatchingfonts
+      - name: "IDWriteFontSet2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2
+        items: 
+        - name: "GetExpirationEvent method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset2-getexpirationevent
+      - name: "IDWriteFontSet3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset3
+        items: 
+        - name: "GetFontSourceName method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcename
+        - name: "GetFontSourceNameLength method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcenamelength
+        - name: "GetFontSourceType method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcetype
       - name: "IDWriteFontSetBuilder"
         href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder
         items: 
@@ -749,6 +888,13 @@
         items: 
         - name: "AddFontFile method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile
+      - name: "IDWriteFontSetBuilder2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2
+        items: 
+        - name: "AddFont method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder2-addfont
+        - name: "AddFontFile method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder2-addfontfile
       - name: "IDWriteGdiInterop"
         href: /windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop
         items: 
@@ -1061,6 +1207,19 @@
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat2-getlinespacing
         - name: "SetLineSpacing"
           href: idwritetextformat2-setlinespacing.md
+      - name: "IDWriteTextFormat3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3
+        items: 
+        - name: "GetAutomaticFontAxes method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-getautomaticfontaxes
+        - name: "GetFontAxisValueCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-getfontaxisvaluecount
+        - name: "GetFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-getfontaxisvalues
+        - name: "SetAutomaticFontAxes method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setautomaticfontaxes
+        - name: "SetFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues
       - name: "IDWriteTextLayout"
         href: /windows/win32/api/dwrite/nn-dwrite-idwritetextlayout
         items: 
@@ -1219,6 +1378,8 @@
     - name: "DirectWrite macros"
       href: macros.md
       items: 
+      - name: "DWRITE_MAKE_FONT_AXIS_TAG"
+        href: /windows/win32/api/dwrite_3/nf-dwrite_3-dwrite_make_font_axis_tag
       - name: "DWRITE_MAKE_OPENTYPE_TAG"
         href: /windows/win32/api/dwrite/nf-dwrite-dwrite_make_opentype_tag
     - name: "DirectWrite structures"

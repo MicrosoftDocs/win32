@@ -27,12 +27,16 @@ DirectWrite defines the following interfaces.
 | [**IDWriteFactory3**](https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx) | The root factory interface for all [DirectWrite](direct-write-portal.md) objects. |
 | [**IDWriteFactory4**](https://msdn.microsoft.com/en-us/library/Mt725315(v=VS.85).aspx) | The root factory interface for all DirectWrite objects. |
 | [**IDWriteFactory5**](https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx) | The root factory interface for all DirectWrite objects. |
+| [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) | This represents a factory object from which all DirectWrite objects are created. **IDWriteFactory6** adds new facilities for working with fonts and font resources. |
+| [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) | This interface represents a factory object from which all DirectWrite objects are created. **IDWriteFactory7** adds new facilities for working with system fonts. |
 | [**IDWriteFont**](https://msdn.microsoft.com/en-us/library/Dd368213(v=VS.85).aspx) | Represents a physical font in a font collection. This interface is used to create font faces from physical fonts, or to retrieve information such as font face metrics or face names from existing font faces. |
 | [**IDWriteFont1**](https://msdn.microsoft.com/en-us/library/Hh780404(v=VS.85).aspx) | Represents a physical font in a font collection. |
 | [**IDWriteFont2**](idwritefont2.md) | Represents a physical font in a font collection. |
 | [**IDWriteFont3**](https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx) | Represents a font in a font collection. |
 | [**IDWriteFontCollection**](https://msdn.microsoft.com/en-us/library/Dd368214(v=VS.85).aspx) | An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts. |
 | [**IDWriteFontCollection1**](https://msdn.microsoft.com/en-us/library/Dn933224(v=VS.85).aspx) | An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts. |
+| [**IDWriteFontCollection2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2) | This interface encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. |
+| [**IDWriteFontCollection3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection3) | This interface encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. |
 | [**IDWriteFontCollectionLoader**](https://msdn.microsoft.com/en-us/library/Dd368215(v=VS.85).aspx) | Used to construct a collection of fonts given a particular type of key.  |
 | [**IDWriteFontDownloadListener**](https://msdn.microsoft.com/en-us/library/Dn890775(v=VS.85).aspx) | Application-defined callback interface that receives notifications from the font download queue ([**IDWriteFontDownloadQueue**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue) interface). Callbacks will occur on the downloading thread, and objects must be prepared to handle calls on their methods from other threads at any time. |
 | [**IDWriteFontDownloadQueue**](https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx) | Interface that enqueues download requests for remote fonts, characters, glyphs, and font fragments.  |
@@ -43,19 +47,27 @@ DirectWrite defines the following interfaces.
 | [**IDWriteFontFace4**](https://msdn.microsoft.com/en-us/library/Mt725320(v=VS.85).aspx) | Contains font face type, appropriate file references, and face identification data. |
 | [**IDWriteFontFace5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5) | This interface contains font face type, appropriate file references, and face identification data. It adds new facilities such as comparing two font faces, retrieving font axis values, and retrieving the underlying font resource. |
 | [**IDWriteFontFaceReference**](https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx) | Represents a reference to a font face. A uniquely identifying reference to a font, from which you can create a font face to query font metrics and use for rendering. A font face reference consists of a font file, font face index, and font face simulation. The file data may or may not be physically present on the local machine yet.  |
+| [**IDWriteFontFaceReference1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1) | Represents a reference to a font face. A uniquely identifying reference to a font, from which you can create a font face to query font metrics and use for rendering. |
 | [**IDWriteFontFallback**](https://msdn.microsoft.com/en-us/library/Dn280474(v=VS.85).aspx) | Allows you to access fallback fonts from the font list. |
 | [**IDWriteFontFallbackBuilder**](idwritefontfallbackbuilder.md) | Allows you to create Unicode font fallback mappings and create a font fall back object from those mappings. |
 | [**IDWriteFontFamily**](https://msdn.microsoft.com/en-us/library/Dd371042(v=VS.85).aspx) | Represents a family of related fonts. |
 | [**IDWriteFontFamily1**](https://msdn.microsoft.com/en-us/library/Dn894590(v=VS.85).aspx) | Represents a family of related fonts. |
+| [**IDWriteFontFamily2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2) | Represents a family of related fonts. **IDWriteFontFamily2** adds new facilities, including retrieving fonts by font axis values. |
 | [**IDWriteFontFile**](https://msdn.microsoft.com/en-us/library/Dd371060(v=VS.85).aspx) | Represents a font file. Applications such as font managers or font viewers can call [**IDWriteFontFile::Analyze**](https://msdn.microsoft.com/en-us/library/Dd371099(v=VS.85).aspx) to find out if a particular file is a font file, and whether it is a font type that is supported by the font system. |
 | [**IDWriteFontFileEnumerator**](https://msdn.microsoft.com/en-us/library/Dd371063(v=VS.85).aspx) | Encapsulates a collection of font files. The font system uses this interface to enumerate font files when building a font collection. |
 | [**IDWriteFontFileLoader**](https://msdn.microsoft.com/en-us/library/Dd371075(v=VS.85).aspx) | Handles loading font file resources of a particular type from a font file reference key into a font file stream object.  |
 | [**IDWriteFontFileStream**](https://msdn.microsoft.com/en-us/library/Dd371081(v=VS.85).aspx) | Loads font file data from a custom font file loader.  |
 | [**IDWriteFontList**](https://msdn.microsoft.com/en-us/library/Dd371120(v=VS.85).aspx) | Represents a list of fonts. |
 | [**IDWriteFontList1**](https://msdn.microsoft.com/en-us/library/Dn894594(v=VS.85).aspx) | Represents a list of fonts. |
+| [**IDWriteFontList2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2) | Represents a list of fonts. **IDWriteFontList2** adds new facilities, including retrieving the underlying font set used by the list. |
+| [**IDWriteFontResource**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) | nn-dwrite_3-idwritefontresource |
 | [**IDWriteFontSet**](https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx) | Represents a font set. |
+| [**IDWriteFontSet1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1) | Represents a font set. |
+| [**IDWriteFontSet2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2) | Represents a font set. |
+| [**IDWriteFontSet3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset3) | Represents a font set. |
 | [**IDWriteFontSetBuilder**](https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx) | Contains methods for building a font set. |
 | [**IDWriteFontSetBuilder1**](https://msdn.microsoft.com/en-us/library/Mt807690(v=VS.85).aspx) | Contains methods for building a font set. |
+| [**IDWriteFontSetBuilder2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2) | Contains methods for building a font set. |
 | [**IDWriteGdiInterop**](https://msdn.microsoft.com/en-us/library/Dd371172(v=VS.85).aspx) | Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects. |
 | [**IDWriteGdiInterop1**](https://msdn.microsoft.com/en-us/library/Dn958415(v=VS.85).aspx) | Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects. |
 | [**IDWriteGeometrySink**](idwritegeometrysink.md) | [**IDWriteGeometrySink**](idwritegeometrysink.md) is a **typedef** of the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) interface. Please see the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) reference page for more information. |
@@ -83,6 +95,7 @@ DirectWrite defines the following interfaces.
 | [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd316628(v=VS.85).aspx) | The [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd316628(v=VS.85).aspx) interface describes the font and paragraph properties used to format text, and it describes locale information.  |
 | [**IDWriteTextFormat1**](idwritetextformat1.md) | Describes the font and paragraph properties used to format text, and it describes locale information.  |
 | [**IDWriteTextFormat2**](idwritetextformat2.md) | Describes the font and paragraph properties used to format text, and it describes locale information.  |
+| [**IDWriteTextFormat3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3) | Describes the font and paragraph properties used to format text, and it describes locale information. |
 | [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) | The [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) interface represents a block of text after it has been fully analyzed and formatted. |
 | [**IDWriteTextLayout1**](https://msdn.microsoft.com/en-us/library/Hh780438(v=VS.85).aspx) | Represents a block of text after it has been fully analyzed and formatted. |
 | [**IDWriteTextLayout2**](idwritetextlayout2.md) | Represents a block of text after it has been fully analyzed and formatted. |
@@ -90,16 +103,3 @@ DirectWrite defines the following interfaces.
 | [**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx) | Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines. |
 | [**IDWriteTextRenderer1**](https://msdn.microsoft.com/en-us/library/Dn280513(v=VS.85).aspx) | Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.  |
 | [**IDWriteTypography**](https://msdn.microsoft.com/en-us/library/Dd371541(v=VS.85).aspx) | Represents a font typography setting. |
-
-
-
- 
-
- 
-
- 
-
-
-
-
-
