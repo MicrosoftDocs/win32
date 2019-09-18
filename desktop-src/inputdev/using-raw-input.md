@@ -118,7 +118,7 @@ case WM_INPUT:
             raw->data.keyboard.MakeCode, 
             raw->data.keyboard.Flags, 
             raw->data.keyboard.Reserved, 
-            raw->Data.keyboard.ExtraInformation, 
+            raw->data.keyboard.ExtraInformation, 
             raw->data.keyboard.Message, 
             raw->data.keyboard.VKey);
         if (FAILED(hResult))
