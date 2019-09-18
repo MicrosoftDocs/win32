@@ -8,7 +8,14 @@ ms.date: 06/03/2019
 
 # Migrating to Direct3D 12 video
 
-This article describes equivalent Direct3D 12 video APIs to previous versions. In the interest of improving the performance and usability of the highest priority video features, some features from Direct3D 11 are fully or partially unsupported in Direct3D 12. Feature support is organized by interface identifies cases where there is a one to one mapping of APIs between the two API sets.
+This article describes the Direct3D 12 video APIs that are used to implement features available in previous versions. In the interest of improving the performance and usability of the highest priority video features, some features from Direct3D 11 are fully or partially unsupported in Direct3D 12. 
+
+Note that, while most features from Direct3D 11 are available in Direct3D 12, the API design has changed, so in many cases there is not a one to one mapping of APIs between the two API sets. The tables below are intended to point you toward the most relevant APIs in Direct3D 12 for each Direct3D 11 API, but the way that you use the new APIs may be significantly different. For example:
+
+- To decode a frame of video, the Direct3D 11 video APIs uses calls to [DecoderBeginFrame](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe), [GetDecoderBuffer](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer), [SubmitDecoderBuffers](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-submitdecoderbuffer), and [DecoderEndFrame](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-decoderendframe). With Direct3D 12, a single method is used,  [ID3D12VideoDecodeCommandList::DecodeFrame](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-decodeframe).
+- For video processing, Direct3D 11 provided individual methods for setting the various configuration values, such as [VideoProcessorSetOutputColorSpace](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputcolorspace) and [VideoProcessorSetOutputAlphaFillMode](/windows/win32/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputalphafillmode). In Direct3D 12, these values are set when the video processor is created, in the call to [ID3D12VideoDevice::CreateVideoProcessor](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor), or when the frame is processed with a call to [ID3D12VideoProcessCommandList1::ProcessFrames1](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist1-processframes1).
+
+
 
 
 
@@ -58,7 +65,7 @@ Provides the video functionality of a Direct3D 11 device, including video decodi
 
 ## ID3D11VideoContext1
 
-Provides extended video functionality of a Direct3D 11 device, including hardware DRM,  surface usage improvements, more VP functionality. This functionality is implemented for Direct3D 12 via new interfaces.
+Provides extended video functionality of a Direct3D 11 device, including hardware DRM,  surface usage improvements, more video processing functionality. This functionality is implemented for Direct3D 12 via new interfaces.
 
 
 | Direct3D 11 |	Direct3D 12 |
@@ -76,12 +83,12 @@ Provides extended video functionality of a Direct3D 11 device, including hardwar
 
 ## ID3D11VideoDecoder
 
-Represents a hardware-accelerated video decoder for Direct3D 11. This is a wrapper interface. All video decoder functionality is in ID3D11VideoContext instead. There is no equivalent API for Direct3D 12 video.
+Represents a hardware-accelerated video decoder for Direct3D 11. This is a wrapper interface around [ID3D11VideoContext](/windows/win32/api/d3d11/nn-d3d11-id3d11videocontext) which exposes the actual decoding functionality. There is no equivalent API for Direct3D 12 video.
 
 
 ## ID3D11VideoDecoderOutputView
 
-Identifies the output surfaces that can be accessed during video decoding. In Direct3D 12, the ID3D12VideoProcessor interface uses ID3D12Resources directly.
+Identifies the output surfaces that can be accessed during video decoding. In Direct3D 12, the [ID3D12VideoProcessor](/windows/win32/api/d3d12video/nn-d3d12video-id3d12videoprocessor) interface uses [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) objects directly.
 
 ## ID3D11VideoDevice
 
@@ -110,36 +117,30 @@ Provides the video decoding and video processing capabilities of a Direct3D 11 d
 
 ## ID3D11VideoDevice1
 
-Provides extended video decoding and video processing capabilities of a Direct3D 11 device, including more extensions, HWDRM, decode downsampling, video decoder caps, etc. This functionality is implemented for Direct3D 12
+Provides extended video decoding and video processing capabilities of a Direct3D 11 device, including more extensions, hardware DRM, decode downsampling, video decoder capabilities, etc. This functionality is implemented for Direct3D 12.
 
 | Direct3D 11 |	Direct3D 12 |
 |-------------|----------------|
-| CheckVideoDecoderDownsampling | See Struct: D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT. |
-| GetCryptoSessionPrivateDataSize | See Struct: D3D12_FEATURE_DATA_CRYPTO_SESSION_SUPPORT |
-| GetVideoDecoderCaps | See Struct: D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT |
-| RecommendVideoDecoderDownsampleParameters | See Struct: D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT |
+| [CheckVideoDecoderDownsampling](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-checkvideodecoderdownsampling) | [D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_conversion_support) |
+| [GetCryptoSessionPrivateDataSize](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-getcryptosessionprivatedatasize) | TBD |
+| [GetVideoDecoderCaps](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-getvideodecodercaps) | [D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_conversion_support) |
+| [RecommendVideoDecoderDownsampleParameters](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-recommendvideodecoderdownsampleparameters) | [D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_conversion_support) |
 
 
 ## ID3D11VideoProcessor
-Represents a video processor for Direct3D 11
-•	Main functionality: vpblit
-•	A video driver can implement more than one video proc device. If it does, it implements at least:
-o	DXVA2_VideoProcBobDevice.  
-o	DXVA2_VideoProcProgressiveDevice.
 
-DX12: Functionality implemented.
+Represents a video processor for Direct3D 11. This functionality is implemented for Direct3D 12 in the [ID3D12VideoProcessor](/windows/win32/api/d3d12video/nn-d3d12video-id3d12videoprocessor)
 
 | Direct3D 11 |	Direct3D 12 |
 |-------------|----------------|
-| GetContentDesc | Not implemented |
-| GetRateConversionCaps | Not implemented |
+| [GetContentDesc](/windows/win32/api/d3d11/nf-d3d11-id3d11videoprocessor-getcontentdesc)| Not implemented |
+| [GetRateConversionCaps](/windows/win32/api/d3d11/nf-d3d11-id3d11videoprocessor-getrateconversioncaps) | Not implemented |
 
-See Interface: ID3D12VideoProcessor.
 
 ## ID3D11VideoProcessorEnumerator and ID3D11VideoProcessorEnumerator1
 
 Enumerates the video processor capabilities of a Direct3D 11 device.
-In Direct3D 12, enumeration functionality is replaced by CheckFeatureSupport. See Video Processing Support.
+In Direct3D 12, enumeration functionality is replaced by [ID3D12VideoDevice::CheckFeatureSupport](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport). 
 
 ##	ID3D11VideoProcessorInputView
 
@@ -161,10 +162,8 @@ Represents a cryptographic session. Used for software and hardware DRM scenarios
 
 ## Related topics
 
-<dl> <dt>
-
 [Direct3D 12 Video APIs](direct3d-12-video-apis.md)
-</dt> </dl>
+
 
  
 
