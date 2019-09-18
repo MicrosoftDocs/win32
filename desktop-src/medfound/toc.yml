@@ -1572,7 +1572,7 @@
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdesc
           - name: "ID3D12VideoProcessor1"
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor1
-              items:
+            items:
               - name: "ID3D12VideoProcessor1::GetProtectedResourceSession"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdes/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
       - name: "Direct3D 12 Video Structures"
