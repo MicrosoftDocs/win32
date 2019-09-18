@@ -1524,7 +1524,7 @@
               - name: "ID3D12VideoDevice::CreateVideoProcessor"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor
           - name: "ID3D12VideoProcessCommandList"
-          href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist
             items:
               - name: "ID3D12VideoProcessCommandList::BeginEvent"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-beginevent
