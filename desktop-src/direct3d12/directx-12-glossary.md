@@ -148,7 +148,7 @@ The different instances and types of engines in a single GPU. The types of engin
 <span id="direct3d12.directx_12_glossary_multigpu"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_MULTIGPU"></span>**MultiGPU**
 </dt> <dd>
 
-A hardware configuration where there is more than on graphics adapter. The separate adapters are sometimes referred to as nodes. Having multiple GPUs can make the task of synchronizing them with the CPU, and each other, considerably more complex than with a single GPU.
+A hardware configuration where there is more than one graphics adapter. The separate adapters are sometimes referred to as nodes. Having multiple GPUs can make the task of synchronizing them with the CPU, and each other, considerably more complex than with a single GPU.
 
 </dd> <dt>
 
