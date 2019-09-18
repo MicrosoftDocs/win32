@@ -1523,26 +1523,8 @@
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideodecoderheap
               - name: "ID3D12VideoDevice::CreateVideoProcessor"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor
-          - name: "ID3D12VideoDevice1"
-            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodevice1
-              - name: ID3D12VideoDevice1::CreateVideoMotionEstimator
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice1-createvideomotionestimator
-              - name: ID3D12VideoDevice1::CreateVideoMotionVectorHeap
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice1-createvideomotionvectorheap
-          - name: "ID3D12VideoDevice2"
-              - name: ID3D12VideoDevice2::CreateVideoDecoder1
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideodecoder1
-              - name: ID3D12VideoDevice2::CreateVideoDecoderHeap1
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideodecoderheap1
-              - name: ID3D12VideoDevice2::CreateVideoExtensionCommand
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideoextensioncommand
-              - name: ID3D12VideoDevice2::CreateVideoProcessor1
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideoprocessor1
-              - name: ID3D12VideoDevice2::ExecuteExtensionCommand
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice2-executeextensioncommand
-            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodevice2
           - name: "ID3D12VideoProcessCommandList"
-            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist
+          href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist
             items:
               - name: "ID3D12VideoProcessCommandList::BeginEvent"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-beginevent
