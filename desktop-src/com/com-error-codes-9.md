@@ -1762,7 +1762,7 @@ The service is not availible.
 
 
 
-THe contact could not be found.
+The contact could not be found.
 
 
 </dt> </dl> </dd> <dt>
@@ -2022,7 +2022,7 @@ Firewall exceptions are disabled.
 
 
 
-THe user declinded to enable the firewall exceptions.
+The user declinded to enable the firewall exceptions.
 
 
 </dt> </dl> </dd> <dt>
