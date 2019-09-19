@@ -40,7 +40,7 @@ HRESULT Show(
 *nCmdShow* 
 </dt> <dd>
 
-Value that specifies whether to show or hide the window. For more information, see the Platform SDK documentaton.
+Value that specifies whether to show or hide the window. For more information, see the Platform SDK documentation.
 
 </dd> </dl>
 
