@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This sample demonstrates windowless mode in the Video Mixing Renderer 9 (VMR-9) filter.
 
-You can capture the image from the video widow by right-clicking on the image, or by selecting **Capture Current Frame** from the **Image** menu.
+You can capture the image from the video window by right-clicking on the image, or by selecting **Capture Current Frame** from the **Image** menu.
 
 ## Downloading the Sample
 
