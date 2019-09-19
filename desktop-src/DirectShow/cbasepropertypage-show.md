@@ -20,35 +20,26 @@ api_location:
 
 # CBasePropertyPage.Show method
 
-The `Show` method shows or hides the dialog box. This method implements the **IPropertyPage::Show** method.
+The `Show` method shows or hides the dialog box. This method implements the [IPropertyPage::Show](/windows/win32/api/ocidl/nf-ocidl-ipropertypage-show) method.
 
 ## Syntax
-
 
 ```C++
 HRESULT Show(
    UINT nCmdShow
 );
 ```
-
-
-
 ## Parameters
 
-<dl> <dt>
+*nCmdShow*
 
-*nCmdShow* 
-</dt> <dd>
+Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
-Value that specifies whether to show or hide the window. For more information, see the Platform SDK documentation.
-
-</dd> </dl>
+Value that specifies whether to show or hide the window. For more information, see the [IPropertyPage::Show](/windows/win32/api/ocidl/nf-ocidl-ipropertypage-show) method.
 
 ## Return value
 
 Returns an **HRESULT** value. Possible values include the following.
-
-
 
 | Return code                                                                                  | Description                    |
 |----------------------------------------------------------------------------------------------|--------------------------------|
@@ -56,32 +47,13 @@ Returns an **HRESULT** value. Possible values include the following.
 | <dl> <dt>**E\_INVALIDARG**</dt> </dl> | Invalid argument.<br/>   |
 | <dl> <dt>**E\_UNEXPECTED**</dt> </dl> | Unexpected failure.<br/> |
 
-
-
- 
-
 ## Requirements
-
-
 
 |                    |                                                                                                                                                                                            |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Header  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
+| Library | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
 
 ## See also
 
-<dl> <dt>
-
-[**CBasePropertyPage Class**](cbasepropertypage.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[CBasePropertyPage Class](cbasepropertypage.md)
