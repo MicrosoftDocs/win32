@@ -1495,13 +1495,10 @@
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdrawingstateblock(constd2d1_drawing_state_description__id2d1drawingstateblock)
           - name: "CreateDrawingStateBlock Method (ID2D1DrawingStateBlock**)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdrawingstateblock(id2d1drawingstateblock)
-        - name: "CreateDxgiSurfaceRenderTarget Overloaded method"
-          href: id2d1factory-createdxgisurfacerendertarget.md
-          items: 
-          - name: "CreateDxgiSurfaceRenderTarget Method (IDXGISurface*,D2D1_RENDER_TARGET_PROPERTIES&,ID2D1RenderTarget**)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)
-          - name: "CreateDxgiSurfaceRenderTarget Method (IDXGISurface*,D2D1_RENDER_TARGET_PROPERTIES*,ID2D1RenderTarget**)"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371260(v=vs.85)
+        - name: "CreateDxgiSurfaceRenderTarget(IDXGISurface*,D2D1_RENDER_TARGET_PROPERTIES const&,ID2D1RenderTarget**)"
+          href: /windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)
+        - name: "CreateDxgiSurfaceRenderTarget(IDXGISurface*,D2D1_RENDER_TARGET_PROPERTIES const*,ID2D1RenderTarget**)"
+          href: /windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties_id2d1rendertarget)
         - name: "CreateEllipseGeometry Overloaded method"
           href: id2d1factory-createellipsegeometry.md
           items: 
