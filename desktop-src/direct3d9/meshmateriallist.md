@@ -25,7 +25,7 @@ Where:
 
 -   nMaterials - A DWORD. The number of materials.
 -   nFaceIndexes - A DWORD. The number of indices.
--   faceIndexes\[nFaceIndexes\] - An arrray of DWORDs containing the face indices.
+-   faceIndexes\[nFaceIndexes\] - An array of DWORDs containing the face indices.
 
 ## See also
 
