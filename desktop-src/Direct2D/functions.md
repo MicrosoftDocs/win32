@@ -21,8 +21,6 @@ Direct2D provides the following functions. Additional functions are defined in t
 | [**D2D1CreateDeviceContext**](/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevicecontext) | Creates a new Direct2D device context associated with a DXGI surface.  |
 | [**D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void\*\*)**](/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory~r1) | Creates a factory object that can be used to create Direct2D resources. |
 | [**D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS\*,void\*\*)**](/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory) | Creates a factory object that can be used to create Direct2D resources. |
-| [**D2D1CreateFactory(D2D1_FACTORY_TYPE,void\*\*)**](/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory_r2) | Creates a factory object that can be used to create Direct2D resources. |
-| [**D2D1CreateFactory(D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS&,void\*\*)**](/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory_r3) | Creates a factory object that can be used to create Direct2D resources. |
 | [**D2D1GetGradientMeshInteriorPointsFromCoonsPatch**](/windows/desktop/api/d2d1_3/nf-d2d1_3-d2d1getgradientmeshinteriorpointsfromcoonspatch) | Returns the interior points for a gradient mesh patch based on the points defining a Coons patch. |
 | [**D2D1InvertMatrix**](/windows/desktop/api/d2d1/nf-d2d1-d2d1invertmatrix) | Tries to invert the specified matrix. |
 | [**D2D1IsMatrixInvertible**](/windows/desktop/api/d2d1/nf-d2d1-d2d1ismatrixinvertible) | Indicates whether the specified matrix is invertible. |
