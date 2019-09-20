@@ -83,16 +83,16 @@ In each case below, the requested precision is actually the minimum precision Di
 The simplest way to control the precision of Direct2D’s intermediate textures is to use [**ID2D1DeviceContext::SetRenderingControls**](https://msdn.microsoft.com/en-us/library/Hh404530(v=VS.85).aspx). This controls the precision of all intermediate textures, as long as a precision is not also set manually on effects or transforms directly.
 
 
-```
+```cpp
 if (Device->IsBufferPrecisionSupported(D2D1_BUFFER_PRECISION_32BPC_FLOAT))
 {
   // Get the current rendering controls
   D2D1_RENDERING_CONTROLS renderingControls = {};
-  Context->GetRenderingControls(&amp;renderingControls);
+  Context->GetRenderingControls(&renderingControls);
 
   // Switch the precision within the rendering controls and set it
   renderingControls.bufferPrecision = D2D1_BUFFER_PRECISION_32BPC_FLOAT;
-  Context->SetRenderingControls(&amp;renderingControls);
+  Context->SetRenderingControls(&renderingControls);
 }
               
 ```
@@ -116,7 +116,7 @@ The minimum precision for intermediate textures may also be set at explicit loca
 The minimum precision may be set using a property on an effect as follows:
 
 
-```
+```cpp
 if (Device->IsBufferPrecisionSupported(D2D1_BUFFER_PRECISION_32BPC_FLOAT))
 {
   hr = Effect->SetValue(D2D1_PROPERTY_PRECISION, D2D1_BUFFER_PRECISION_32BPC_FLOAT);
@@ -129,7 +129,7 @@ if (Device->IsBufferPrecisionSupported(D2D1_BUFFER_PRECISION_32BPC_FLOAT))
 Within an effect implementation, the minimum precision may be set using ID2D1RenderInfo::SetOutputPrecision as follows:
 
 
-```
+```cpp
 if (EffectContext->IsBufferPrecisionSupported(D2D1_BUFFER_PRECISION_32BPC_FLOAT))
 {
   hr = RenderInfo->SetOutputBuffer(

@@ -24,8 +24,8 @@ Transforms the specified geometry and stores the result as an [**ID2D1Transforme
 
 | Method                                                                                                                                                                                                                  | Description                                                                                                                                    |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F\*,ID2D1TransformedGeometry\*\*)**](id2d1factory-createtransformedgeometry-ptr-id2d1geometry-ptr-d2d-matrix-3x2-f-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx) | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx) object. <br/> |
-| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F&,ID2D1TransformedGeometry\*\*)**](id2d1factory-createtransformedgeometry-ptr-id2d1geometry-ref-d2d-matrix-3x2-f-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx)  | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx) object. <br/> |
+| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F\*,ID2D1TransformedGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx) object. <br/> |
+| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F&,ID2D1TransformedGeometry\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f__id2d1transformedgeometry))  | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx) object. <br/> |
 
 
 
@@ -45,7 +45,7 @@ The following example creates an [**ID2D1RectangleGeometry**](https://msdn.micro
 ```C++
 hr = m_pD2DFactory->CreateRectangleGeometry(
     D2D1::RectF(150.f, 150.f, 200.f, 200.f),
-    &amp;m_pRectangleGeometry
+    &m_pRectangleGeometry
     );
 ```
 
@@ -85,7 +85,7 @@ The next example uses the **CreateTransformedGeometry** method to scale the geom
      D2D1::Matrix3x2F::Scale(
          D2D1::SizeF(3.f, 3.f),
          D2D1::Point2F(175.f, 175.f)),
-     &amp;m_pTransformedGeometry
+     &m_pTransformedGeometry
      );
 
 
@@ -93,7 +93,7 @@ The next example uses the **CreateTransformedGeometry** method to scale the geom
 m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
 
 // Draw the transformed geometry.
-m_pRenderTarget-&gt;DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
+m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 ```
 
 
@@ -118,12 +118,3 @@ m_pRenderTarget-&gt;DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
 </dt> </dl>
-
-�
-
-�
-
-
-
-
-
