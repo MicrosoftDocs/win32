@@ -1,5 +1,5 @@
 ---
-title: Datatypes and Constants
+title: Direct2D datatypes and constants
 description: Direct2D provides the following data types and constants.
 ms.assetid: e5ff04d9-6194-4bdf-9db3-213d79199e4b
 keywords:
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Datatypes and Constants
+# Direct2D datatypes and constants
 
 Direct2D provides the following data types and constants.
 

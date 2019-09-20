@@ -154,7 +154,7 @@
       href: render-targets-overview.md
     - name: "Compatible A8 Render Targets Overview"
       href: compatible-a8-rendertargets.md
-  - name: "API Reference"
+  - name: "Direct2D reference"
     href: reference.md
     items: 
     - name: "D2D1 Namespace"
@@ -376,7 +376,7 @@
         items: 
         - name: "TypeTraits(Type)"
           href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/ns-d2d1helper-typetraits
-    - name: "Datatypes and Constants"
+    - name: "Direct2D datatypes and constants"
       href: datatypes-and-constants.md
       items: 
       - name: "D2D1_TAG Datatype"
@@ -385,7 +385,7 @@
         href: direct2d-constants.md
       - name: "Direct2D Error Codes"
         href: direct2d-error-codes.md
-    - name: "Enumerations"
+    - name: "Direct2D enumerations"
       href: enumerations.md
       items: 
       - name: "D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE"
@@ -736,7 +736,7 @@
         href: /windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_interpolation_mode
       - name: "D2D1_YCBCR_PROP"
         href: /windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_prop
-    - name: "Functions"
+    - name: "Direct2D functions"
       href: functions.md
       items: 
       - name: "D2D1ComputeMaximumScaleFactor"
@@ -749,10 +749,10 @@
         href: /windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory~r1
       - name: "D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**)"
         href: /windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory
-      - name: "D2D1CreateFactory(Factory)(D2D1_FACTORY_TYPE,Factory**)"
-        href: createfactory-lt-factory-gt--d2d1-factory-type---factory-.md
-      - name: "D2D1CreateFactory(Factory)(D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS&,Factory**)"
-        href: createfactory-lt-factory-gt--d2d1-factory-type--amp-d2d1-factory-options---factory-.md
+      - name: "D2D1CreateFactory(D2D1_FACTORY_TYPE,void**)"
+        href: /windows/win32/api/d2d1/nf-d2d1-d2d1createfactory_r2
+      - name: "D2D1CreateFactory(D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS&,void**)"
+        href: /windows/win32/api/d2d1/nf-d2d1-d2d1createfactory_r3
       - name: "D2D1GetGradientMeshInteriorPointsFromCoonsPatch"
         href: /windows/desktop/api/d2d1_3/nf-d2d1_3-d2d1getgradientmeshinteriorpointsfromcoonspatch
       - name: "D2D1InvertMatrix"
@@ -803,7 +803,7 @@
         href: /windows/desktop/api/D2d1effectauthor/nc-d2d1effectauthor-pd2d1_property_get_function
       - name: "PD2D1_PROPERTY_SET_FUNCTION"
         href: /windows/desktop/api/D2d1effectauthor/nc-d2d1effectauthor-pd2d1_property_set_function
-    - name: "Interfaces"
+    - name: "Direct2D interfaces"
       href: interfaces.md
       items: 
       - name: "ID2D1AnalysisTransform"
@@ -2844,7 +2844,7 @@
           href: https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1vertexbuffer-map
         - name: "Unmap method"
           href: https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1vertexbuffer-unmap
-    - name: "Structures"
+    - name: "Direct2D structures"
       href: structures.md
       items: 
       - name: "D2D_COLOR_F"
@@ -2933,8 +2933,6 @@
         href: /windows/desktop/api/D2d1effectauthor/ns-d2d1effectauthor-d2d1_input_description
       - name: "D2D1_INPUT_ELEMENT_DESC"
         href: /windows/desktop/api/D2d1effectauthor/ns-d2d1effectauthor-d2d1_input_element_desc
-      - name: "D2D1_INVALID_PROPERTY_INDEX"
-        href: --d2d1-invalid-property-index.md
       - name: "D2D1_LAYER_PARAMETERS"
         href: /windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters
       - name: "D2D1_LAYER_PARAMETERS1"
