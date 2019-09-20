@@ -24,8 +24,8 @@ Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/
 
 | Method                                                                                                                                                                                                                                                                              | Description                                                                                                             |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
-| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES\*,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES\*,ID2D1HwndRenderTarget\*\*)**](id2d1factory-createhwndrendertarget-ptr-d2d1-render-target-properties-ptr-d2d1-hwnd-render-target-properties-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx) | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
-| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES&,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES&,ID2D1HwndRenderTarget\*\*)**](id2d1factory-createhwndrendertarget-ref-d2d1-render-target-properties-ref-d2d1-hwnd-render-target-properties-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx)   | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
+| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES\*,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES\*,ID2D1HwndRenderTarget\*\*)**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)) | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
+| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES&,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES&,ID2D1HwndRenderTarget\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties__constd2d1_hwnd_render_target_properties__id2d1hwndrendertarget))   | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
 
 
 
@@ -40,7 +40,7 @@ The following example creates an [**ID2D1HwndRenderTarget**](https://msdn.micros
 
 ```C++
 RECT rc;
-GetClientRect(m_hwnd, &amp;rc);
+GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -51,7 +51,7 @@ D2D1_SIZE_U size = D2D1::SizeU(
 hr = m_pD2DFactory->CreateHwndRenderTarget(
     D2D1::RenderTargetProperties(),
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &amp;m_pRenderTarget
+    &m_pRenderTarget
     );
 ```
 
@@ -75,12 +75,3 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
 </dt> </dl>
-
-�
-
-�
-
-
-
-
-
