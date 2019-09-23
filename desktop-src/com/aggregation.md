@@ -132,7 +132,7 @@ When developing an aggregable object, the following rules apply:
 
 -   When creating the inner object, the outer object must explicitly ask for its [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown).
 -   The outer object must protect its implementation of [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) from reentrancy with an artificial reference count around its destruction code.
--   The outer object must call its controlling [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)Â [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method if it queries for a pointer to any of the inner object's interfaces. To free this pointer, the outer object calls its controlling **IUnknown**Â [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) method, followed by **Release** on the inner object's pointer.
+-   The outer object must call its controlling [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method if it queries for a pointer to any of the inner object's interfaces. To free this pointer, the outer object calls its controlling **IUnknown** [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) method, followed by **Release** on the inner object's pointer.
     ```C++
     // Obtaining inner object interface pointer 
     pUnkInner->QueryInterface(IID_ISomeInterface, &pISomeInterface); 
