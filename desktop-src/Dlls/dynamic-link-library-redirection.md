@@ -22,8 +22,6 @@ And, if both c:\\myapp\\myapp.exe.local and c:\\myapp\\mydll.dll exist, [**LoadL
 
 Alternatively, if a directory named c:\\myapp\\myapp.exe.local exists and contains mydll.dll, [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) loads c:\\myapp\\myapp.exe.local\\mydll.dll.
 
-Known DLLs cannot be redirected. For a list of known DLLs, see the following registry key: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\KnownDLLs**. The system uses Windows File Protection to ensure that system DLLs such as these are not updated or deleted except by operating system updates such as service packs.
-
 If the application has a manifest, then any .local files are ignored.
 
 If you are using DLL redirection and the application does not have access to all drives and directories in the search order, [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) stops searching as soon as access is denied. (If you are not using DLL redirection, **LoadLibrary** skips directories that it cannot access and then continues searching.)
