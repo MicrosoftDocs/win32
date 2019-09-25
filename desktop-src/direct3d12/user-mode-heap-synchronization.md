@@ -189,7 +189,7 @@ Bundles cannot be used with compute or copy command lists or queues.
 
 ## Pipelined compute and graphics example
 
-This example shows how fence synchronization can be used to create a pipeline of compute work on a queue (referenced by `pComputeQueue`) that is consumed by graphics work on queue `pGraphicsQueue`. The compute and graphics work is pipelined with the graphics queue consuming the result of compute work from several frames back, and a CPU event is used to throttle the total work queued over all.
+This example shows how fence synchronization can be used to create a pipeline of compute work on a queue (referenced by `pComputeQueue`) that's consumed by graphics work on queue `pGraphicsQueue`. The compute and graphics work is pipelined with the graphics queue consuming the result of compute work from several frames back, and a CPU event is used to throttle the total work queued overall.
 
 ``` syntax
 void PipelinedComputeGraphics()
@@ -232,7 +232,7 @@ void PipelinedComputeGraphics()
 }
 ```
 
-To support this pipelining there must be a buffer of `ComputeGraphicsLatency+1` different copies of the data passing from the compute queue to the graphics queue. The command lists must use UAVs and indirection to read and write from the appropriate “version” of the data in the buffer. The compute queue must wait until the graphics queue has finished reading from the data for frame N before it can write frame `N+ComputeGraphicsLatency`.
+To support this pipelining, there must be a buffer of `ComputeGraphicsLatency+1` different copies of the data passing from the compute queue to the graphics queue. The command lists must use UAVs and indirection to read and write from the appropriate “version” of the data in the buffer. The compute queue must wait until the graphics queue has finished reading from the data for frame N before it can write frame `N+ComputeGraphicsLatency`.
 
 Note that the amount of compute queue worked relative to the CPU does not depend directly on the amount of buffering required, however, queuing GPU work beyond the amount of buffer space available is less valuable.
 
@@ -244,45 +244,47 @@ This next example allows graphics to render asynchronously from the compute queu
 
 The compute queue must still wait for the graphics queue to finish with the pipe buffers, but a third fence (`pGraphicsComputeFence`) is introduced so that the progress of graphics reading compute work versus graphics progress in general can be tracked. This reflects the fact that now consecutive graphics frames could read from the same compute result or could skip a compute result. A more efficient but slightly more complicated design would use just the single graphics fence and store a mapping to the compute frames used by each graphics frame.
 
-``` syntax
+```cpp
 void AsyncPipelinedComputeGraphics()
 {
-    const UINT CpuLatency = 3;
-    const UINT ComputeGraphicsLatency = 2;
+    const UINT CpuLatency{ 3 };
+    const UINT ComputeGraphicsLatency{ 2 };
 
-    // Compute is 0, graphics is 1
-    ID3D12Fence *rgpFences[] = { pComputeFence, pGraphicsFence };
+    // The compute fence is at index 0; the graphics fence is at index 1.
+    ID3D12Fence* rgpFences[]{ pComputeFence, pGraphicsFence };
     HANDLE handles[2];
     handles[0] = CreateEvent(nullptr, FALSE, TRUE, nullptr);
     handles[1] = CreateEvent(nullptr, FALSE, TRUE, nullptr);
-    UINT FrameNumbers[] = { 0, 0 };
+    UINT FrameNumbers[]{ 0, 0 };
 
-    ID3D12GraphicsCommandList *rgpGraphicsCommandLists[CpuLatency];
+    ID3D12GraphicsCommandList* rgpGraphicsCommandLists[CpuLatency];
     CreateGraphicsCommandLists(ARRAYSIZE(rgpGraphicsCommandLists),
         rgpGraphicsCommandLists);
 
-    // Graphics needs to wait for the first compute frame to complete, this is the
+    // Graphics needs to wait for the first compute frame to complete; this is the
     // only wait that the graphics queue will perform.
     pGraphicsQueue->Wait(pComputeFence, 1);
 
-    while (1)
+    while (true)
     {
         for (auto i = 0; i < 2; ++i)
         {
             if (FrameNumbers[i] > CpuLatency)
             {
-                rgpFences[i]->SetEventOnFenceCompletion(
+                rgpFences[i]->SetEventOnCompletion(
                     FrameNumbers[i] - CpuLatency,
                     handles[i]);
             }
             else
             {
-                SetEvent(handles[i]);
+                ::SetEvent(handles[i]);
             }
         }
 
-        auto WaitResult = WaitForMultipleObjects(2, handles, FALSE, INFINITE);
-        auto Stage = WaitResult = WAIT_OBJECT_0;
+
+        auto WaitResult = ::WaitForMultipleObjects(2, handles, FALSE, INFINITE);
+        if (WaitResult > WAIT_OBJECT_0 + 1) continue;
+        auto Stage = WaitResult - WAIT_OBJECT_0;
         ++FrameNumbers[Stage];
 
         switch (Stage)
@@ -301,20 +303,20 @@ void AsyncPipelinedComputeGraphics()
         case 1:
         {
             // Recall that the GPU queue started with a wait for pComputeFence, 1
-            UINT64 CompletedComputeFrames = min(1, 
-                pComputeFence->GetCurrentFenceValue());
-            UINT64 PipeBufferIndex = 
+            UINT64 CompletedComputeFrames = min(1,
+                pComputeFence->GetCompletedValue());
+            UINT64 PipeBufferIndex =
                 (CompletedComputeFrames - 1) % ComputeGraphicsLatency;
             UINT64 CommandListIndex = (FrameNumbers[Stage] - 1) % CpuLatency;
             // Update graphics command list based on CPU input and using the appropriate
             // buffer index for data produced by compute.
-            UpdateGraphicsCommandList(PipeBufferIndex, 
+            UpdateGraphicsCommandList(PipeBufferIndex,
                 rgpGraphicsCommandLists[CommandListIndex]);
 
             // Signal *before* new rendering to indicate what compute work
             // the graphics queue is DONE with
             pGraphicsQueue->Signal(pGraphicsComputeFence, CompletedComputeFrames - 1);
-            pGraphicsQueue->ExecuteCommandLists(1, 
+            pGraphicsQueue->ExecuteCommandLists(1,
                 rgpGraphicsCommandLists + PipeBufferIndex);
             pGraphicsQueue->Signal(pGraphicsFence, FrameNumbers[Stage]);
             break;

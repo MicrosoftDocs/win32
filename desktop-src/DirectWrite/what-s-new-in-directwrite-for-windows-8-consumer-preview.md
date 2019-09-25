@@ -20,9 +20,9 @@ The following features and APIs were added or updated for Windows 10, version 18
 
 ### New
 
-- [DWRITE_FONT_SOURCE_TYPE](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type) enumeration
+- [**DWRITE_FONT_SOURCE_TYPE**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type) enumeration
 
-- [IDWriteFontSet3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset3) interface, and its methods
+- [**IDWriteFontSet3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset3) interface, and its methods
 
 ## What's new for Windows 10 April 2018 Update
 
@@ -30,9 +30,9 @@ The following features and APIs were added or updated for Windows 10, version 18
 
 ### New
 
-- [IDWriteFactory7](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) interface, and its methods
-- [IDWriteFontCollection3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection3) interface, and its methods
-- [IDWriteFontSet2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2) interface, and its methods
+- [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) interface, and its methods
+- [**IDWriteFontCollection3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection3) interface, and its methods
+- [**IDWriteFontSet2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2) interface, and its methods
 
 ## What's new for Windows 10 Fall Creators Update
 
@@ -40,32 +40,32 @@ The following features and APIs were added or updated for Windows 10, version 17
 
 ### New
 
-- [DWRITE_AUTOMATIC_FONT_AXES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes) enumeration
-- [DWRITE_FONT_AXIS_ATTRIBUTES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes) enumeration
-- [DWRITE_FONT_AXIS_TAG](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag) enumeration
-- [DWRITE_FONT_FAMILY_MODEL](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model) enumeration
+- [**DWRITE_AUTOMATIC_FONT_AXES**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes) enumeration
+- [**DWRITE_FONT_AXIS_ATTRIBUTES**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes) enumeration
+- [**DWRITE_FONT_AXIS_TAG**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag) enumeration
+- [**DWRITE_FONT_FAMILY_MODEL**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model) enumeration
 
-- [IDWriteFactory6](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) interface, and its methods
-- [IDWriteFontCollection2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2) interface, and its methods
-- [IDWriteFontFace5](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5) interface, and its methods
-- [IDWriteFontFaceReference1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1) interface, and its methods
-- [IDWriteFontFallback1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfallback1) interface, and its methods
-- [IDWriteFontFamily2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2) interface, and its methods
-- [IDWriteFontList2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2) interface, and its methods
-- [IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface, and its methods
-- [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1) interface, and its methods
-- [IDWriteFontSetBuilder2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2) interface, and its methods
-- [IDWriteTextFormat3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3) interface, and its methods
-- [IDWriteTextLayout4](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat4) interface, and its methods
+- [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) interface, and its methods
+- [**IDWriteFontCollection2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2) interface, and its methods
+- [**IDWriteFontFace5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5) interface, and its methods
+- [**IDWriteFontFaceReference1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1) interface, and its methods
+- [**IDWriteFontFallback1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfallback1) interface, and its methods
+- [**IDWriteFontFamily2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2) interface, and its methods
+- [**IDWriteFontList2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2) interface, and its methods
+- [**IDWriteFontResource**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface, and its methods
+- [**IDWriteFontSet1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1) interface, and its methods
+- [**IDWriteFontSetBuilder2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2) interface, and its methods
+- [**IDWriteTextFormat3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3) interface, and its methods
+- [**IDWriteTextLayout4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat4) interface, and its methods
 
-- [DWRITE_MAKE_FONT_AXIS_TAG](/windows/win32/api/dwrite_3/nf-dwrite_3-dwrite_make_font_axis_tag) macro
+- [**DWRITE_MAKE_FONT_AXIS_TAG**](/windows/win32/api/dwrite_3/nf-dwrite_3-dwrite_make_font_axis_tag) macro
 
-- [DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range) structure
-- [DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) structure
+- [**DWRITE_FONT_AXIS_RANGE**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range) structure
+- [**DWRITE_FONT_AXIS_VALUE**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) structure
 
 ### Moved
 
-The [DWRITE_GLYPH_IMAGE_FORMATS](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) enumeration moved from `dwrite_3.h` to `dcommon.h`.
+The [**DWRITE_GLYPH_IMAGE_FORMATS**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) enumeration moved from `dwrite_3.h` to `dcommon.h`.
 
 ## What's new for Windows 10 Creators Update
 
