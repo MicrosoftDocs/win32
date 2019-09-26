@@ -1,6 +1,6 @@
 ---
 title: ChangeProductKeyMethod method of the MDM_WindowsLicensing class
-description: This method installs a product key for Widows 10 desktop devices. Dot not reboot. See also ChangeProductKey.
+description: This method installs a product key for Windows 10 desktop devices. Dot not reboot. See also ChangeProductKey.
 ms.assetid: 1d9e3243-2ca4-427b-bda2-d33e1e70c80d
 keywords:
 - ChangeProductKeyMethod method
@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-This method installs a product key for Widows 10 desktop devices. Dot not reboot. See also [ChangeProductKey](https://docs.microsoft.com/windows/client-management/mdm/windowslicensing-csp)
+This method installs a product key for Windows 10 desktop devices. Dot not reboot. See also [ChangeProductKey](https://docs.microsoft.com/windows/client-management/mdm/windowslicensing-csp)
 
 ## Syntax
 

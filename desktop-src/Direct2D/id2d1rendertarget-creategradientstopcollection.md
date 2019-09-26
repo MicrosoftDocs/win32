@@ -51,7 +51,7 @@ hr = m_pRenderTarget->CreateGradientStopCollection(
     2,
     D2D1_GAMMA_2_2,
     D2D1_EXTEND_MODE_CLAMP,
-    &amp;pGradientStops
+    &pGradientStops
     );
 ```
 
@@ -71,7 +71,7 @@ if (SUCCEEDED(hr))
             D2D1::Point2F(0, 0),
             D2D1::Point2F(150, 150)),
         pGradientStops,
-        &amp;m_pLinearGradientBrush
+        &m_pLinearGradientBrush
         );
 }
 ```
@@ -108,12 +108,3 @@ if (SUCCEEDED(hr))
 
 [Brushes Overview](direct2d-brushes-overview.md)
 </dt> </dl>
-
-�
-
-�
-
-
-
-
-

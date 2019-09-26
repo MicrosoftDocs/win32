@@ -1,6 +1,5 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
 ms.assetid: 541fd08c-c21a-4a51-aa1c-d65cc0f5da75
 title: A
 ms.topic: article

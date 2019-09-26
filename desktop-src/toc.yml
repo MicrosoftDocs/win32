@@ -1,5 +1,5 @@
 - name: "Desktop Win32 Apps"
-  href: index.md
+  href: index.yml
   items: 
   - name: "Get Started"
     items: 

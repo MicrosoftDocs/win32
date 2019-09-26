@@ -88,7 +88,7 @@ Output Coverage (`oMask`) behaves for a conservatively rasterized pixel as it do
 
 ### InputCoverage interaction
 
-In Conservative Rasterization mode, this input register is populated as if all samples are covered when Conservative Rasterization is not enabled for a given conservatively rasterized pixel. That is to say, all existing interactions apply (e.g. *SampleMask* is applied), and the first n bits in `InputCoverage` from the LSB are set to 1 for a conservatively rasterized pixel, given an n sample per pixel **RenderTarget** and/or **DepthStencil** buffer is bound at the **Output Merger**, or an n sample *ForcedSampleCount*. The rest of the bits are 0.
+In Conservative Rasterization mode, this input register is populated as if all samples are covered when Conservative Rasterization is not enabled for a given conservatively rasterized pixel. That is to say, all existing interactions apply (e.g. *SampleMask* is applied), and the first n bits in `InputCoverage` from the LSB are set to 1 for a conservatively rasterized pixel, given an n sample per pixel **RenderTarget** and/or **DepthStencil** buffer bound at the **Output Merger**, or an n sample *ForcedSampleCount*. The rest of the bits are 0.
 
 This input is available in a shader regardless of the use of Conservative Rasterization, though Conservative Rasterization changes its behavior to only show all samples covered (or none for Helper Pixels).
 

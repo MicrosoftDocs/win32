@@ -10,6 +10,8 @@ ms.date: 05/31/2018
 
 Applications can depend on a specific version of a shared DLL and start to fail if another application is installed with a newer or older version of the same DLL. There are two ways to ensure that your application uses the correct DLL: DLL redirection and side-by-side components. Developers and administrators should use DLL redirection for existing applications, because it does not require any changes to the application. If you are creating a new application or updating an application and want to isolate your application from potential problems, create a [side-by-side component](https://docs.microsoft.com/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
 
+To enable DLL redirection machine-wide, you must create a new registry key. Create a new DWORD key called **DevOverrideEnable** at **HKLM\Software\Microsoft\WindowsNT\CurrentVersion\Image File Execution Options** and set it to 1. After this, you must restart your computer to see the effects.
+
 To use DLL redirection, create a *redirection file* for your application. The redirection file must be named as follows: *App\_name*.local. For example, if the application name is Editor.exe, the redirection file should be named Editor.exe.local. You must install the .local file in the application directory. You must also install the DLLs in the application directory.
 
 The contents of a redirection file are ignored, but its presence causes Windows to check the application directory first whenever it loads a DLL, regardless of the path specified to [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa). If the DLL is not found in the application directory, then these functions use their usual search order. For example, if the application c:\\myapp\\myapp.exe calls **LoadLibrary** using the following path:
@@ -19,8 +21,6 @@ c:\\program files\\common files\\system\\mydll.dll
 And, if both c:\\myapp\\myapp.exe.local and c:\\myapp\\mydll.dll exist, [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) loads c:\\myapp\\mydll.dll. Otherwise, **LoadLibrary** loads c:\\program files\\common files\\system\\mydll.dll.
 
 Alternatively, if a directory named c:\\myapp\\myapp.exe.local exists and contains mydll.dll, [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) loads c:\\myapp\\myapp.exe.local\\mydll.dll.
-
-Known DLLs cannot be redirected. For a list of known DLLs, see the following registry key: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\KnownDLLs**. The system uses Windows File Protection to ensure that system DLLs such as these are not updated or deleted except by operating system updates such as service packs.
 
 If the application has a manifest, then any .local files are ignored.
 

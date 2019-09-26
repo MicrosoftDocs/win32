@@ -118,7 +118,7 @@ A command buffer that the GPU can execute. A direct command list doesn't inherit
 <span id="direct3d12.directx_12_glossary_fence"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_FENCE"></span>**fence**
 </dt> <dd>
 
-A mechanism to synchronize the GPU and CPU. Both the GPU and CPU can be instructed to wait at a fence, waiting in effect for the other processor to catch up. See [Synchronization and Multi-Engine](user-mode-heap-synchronization.md).
+A mechanism to synchronize the GPU and CPU. Both the GPU and CPU can be instructed to wait at a fence, waiting in effect for the other processor to catch up. See [Multi-engine synchronization](/windows/win32/direct3d12/user-mode-heap-synchronization).
 
 </dd> <dt>
 
@@ -148,7 +148,7 @@ The different instances and types of engines in a single GPU. The types of engin
 <span id="direct3d12.directx_12_glossary_multigpu"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_MULTIGPU"></span>**MultiGPU**
 </dt> <dd>
 
-A hardware configuration where there is more than on graphics adapter. The separate adapters are sometimes referred to as nodes. Having multiple GPUs can make the task of synchronizing them with the CPU, and each other, considerably more complex than with a single GPU.
+A hardware configuration where there is more than one graphics adapter. The separate adapters are sometimes referred to as nodes. Having multiple GPUs can make the task of synchronizing them with the CPU, and each other, considerably more complex than with a single GPU.
 
 </dd> <dt>
 
@@ -241,7 +241,7 @@ A user-mode heap that is focused on multiple GPU-read-only resources that are ty
 <span id="direct3d12.directx_12_glossary_swap_chain"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_SWAP_CHAIN"></span>**swap chain**
 </dt> <dd>
 
-Swap chains control the back buffer rotation, forming the basis of graphics animation. Swap chains are handled by the low level API set DXGI (see [DXGI Overview](https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)).
+Swap chains control the back buffer rotation, forming the basis of graphics animation. Swap chains are handled by the low level API set DXGI (see [DXGI Overview](/windows/win32/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)).
 
 </dd> <dt>
 

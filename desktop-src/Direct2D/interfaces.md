@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Direct2D interfaces
 description: Direct2D provides the following interfaces.
 ms.assetid: 82e91a22-1af8-457a-9aac-e583d5e12270
 keywords:
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---
 
-# Interfaces
+# Direct2D interfaces
 
 Direct2D provides the following interfaces.
 

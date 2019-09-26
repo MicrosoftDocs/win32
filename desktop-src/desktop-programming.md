@@ -48,6 +48,17 @@ Most of these UWP features are available as modular components that you can adop
 
 For more information, see [Modernize your desktop apps](/windows/apps/desktop/modernize).
 
+## C++/WinRT
+
+Optionally, you can configure your development computer to use [C++/WinRT](https://docs.microsoft.com/windows/uwp/cpp-and-winrt-apis/). C++/WinRT is an entirely standard modern C++17 language projection enables you to easily consume Windows Runtime APIs Windows Runtime (WinRT) APIs from your C++ Win32 desktop application. C++/WinRT is implemented as a header-file-based library.
+
+To configure your project for C++/WinRT:
+
+* For new projects, you can install the [C++/WinRT Visual Studio Extension (VSIX)](https://marketplace.visualstudio.com/items?itemName=CppWinRTTeam.cppwinrt101804264) and use one of the C++/WinRT project templates included in that extension.
+* For existing Windows desktop application projects, you can install the [Microsoft.Windows.CppWinRT](https://www.nuget.org/packages/Microsoft.Windows.CppWinRT/) NuGet package in the project.
+
+For more details about these options, see [this article](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-xaml-the-vsix-extension-and-the-nuget-package).
+
 ## What's new for Win32 APIs in Windows 10
 
 To learn about new Win32 APIs that have been introduced in Windows 10, see [what's new](whats-new.md).

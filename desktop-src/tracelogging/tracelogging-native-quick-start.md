@@ -123,7 +123,7 @@ After the provider is registered, the following code logs a simple event.
 
 
 
-The [**TraceLoggingWrite**](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) macro takes up to ninety-nine arguments and executes as several statements. This means that the values being logged should not be C++ temporary objects. The event name is stored in UTF-8 format. You must not use embedded `nul` characters in the event or other field names. There are no other limits on permitted characters.
+The [**TraceLoggingWrite**](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) macro takes up to ninety-nine arguments and executes as several statements. This means that the values being logged should not be C++ temporary objects. The event name is stored in UTF-8 format. You must not use embedded `null` characters in the event or other field names. There are no other limits on permitted characters.
 
 Each argument following the event name must be wrapped inside of a [TraceLogging Wrapper Macro](tracelogging-wrapper-macros.md). If you are using C++, you can use the `TraceLoggingValue` wrapper macro to automatically infer the type of the argument. If you are writing your driver in C, you must use type-specific field macros such as `TraceLoggingInt32`, `TraceLoggingUnicodeString`, `TraceLoggingString`, etc. The TraceLogging wrapper macros are defined in TraceLoggingProvider.h
 
