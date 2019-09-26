@@ -24,14 +24,14 @@ Well-written, helpful error messages are crucial to a quality user experience. P
 
 To decide, consider these questions:
 
--   **Is the user interface (UI) presenting a problem that has already occurred?** If not, the message isn't an error. If the user being alerted of a condition that might cause a problem in the future, use a warning message.
--   **Can the problem be prevented without causing confusion?** If so, prevent the problem instead. For example, use controls that are constrained to valid values instead of using unconstrained controls that may require error messages. Also, disable controls when clicking would result in error, as long as it's obvious why the control is disabled.
--   **Can the problem be corrected automatically?** If so, handle the problem and suppress the error message.
--   **Are users likely to perform an action or change their behavior as the result of the message?** If not, the condition doesn't justify interrupting the user so it's better to suppress the error.
--   **Is the problem relevant when users are actively using other programs?** If so, consider showing the problem using a [notification area icon](winenv-notification.md).
--   **Is the problem not related to the current user activity, does it not require immediate user action, and can users freely ignore it?** If so, use an [action failure notification](mess-notif.md) instead.
--   **Does the problem relate to the status of a background task within a primary window?** If so, consider showing the problem using a [status bars](ctrl-status-bars.md).
--   **Are the primary target users IT professionals?** If so, consider using an alternative feedback mechanism, such as [log file](glossary.md) entries or e-mail alerts. IT professionals strongly prefer log files for non-critical information.
+- **Is the user interface (UI) presenting a problem that has already occurred?** If not, the message isn't an error. If the user being alerted of a condition that might cause a problem in the future, use a warning message.
+- **Can the problem be prevented without causing confusion?** If so, prevent the problem instead. For example, use controls that are constrained to valid values instead of using unconstrained controls that may require error messages. Also, disable controls when clicking would result in error, as long as it's obvious why the control is disabled.
+- **Can the problem be corrected automatically?** If so, handle the problem and suppress the error message.
+- **Are users likely to perform an action or change their behavior as the result of the message?** If not, the condition doesn't justify interrupting the user so it's better to suppress the error.
+- **Is the problem relevant when users are actively using other programs?** If so, consider showing the problem using a [notification area icon](winenv-notification.md).
+- **Is the problem not related to the current user activity, does it not require immediate user action, and can users freely ignore it?** If so, use an [action failure notification](mess-notif.md) instead.
+- **Does the problem relate to the status of a background task within a primary window?** If so, consider showing the problem using a [status bars](ctrl-status-bars.md).
+- **Are the primary target users IT professionals?** If so, consider using an alternative feedback mechanism, such as [log file](glossary.md) entries or e-mail alerts. IT professionals strongly prefer log files for non-critical information.
 
 ## Design concepts
 
@@ -185,20 +185,20 @@ The nature of error handling is such that many of these mistakes are very easy t
 
 In contrast to the previous bad examples, good error messages have:
 
--   **A problem.** States that a problem occurred.
--   **A cause.** Explains why the problem occurred.
--   **A solution.** Provides a solution so that users can fix the problem.
+- **A problem.** States that a problem occurred.
+- **A cause.** Explains why the problem occurred.
+- **A solution.** Provides a solution so that users can fix the problem.
 
 Additionally, good error messages are presented in a way that is:
 
--   **Relevant.** The message presents a problem that users care about.
--   **Actionable.** Users should either perform an action or change their behavior as the result of the message.
--   **User-centered.** The message describes the problem in terms of target user actions or goals, not in terms of what the code is unhappy with.
--   **Brief.** The message is as short as possible, but no shorter.
--   **Clear.** The message uses plain language so that the target users can easily understand problem and solution.
--   **Specific.** The message describes the problem using specific language, giving specific names, locations, and values of the objects involved.
--   **Courteous.** Users shouldn't be blamed or made to feel stupid.
--   **Rare.** Displayed infrequently. Frequently displayed error messages are a sign of bad design.
+- **Relevant.** The message presents a problem that users care about.
+- **Actionable.** Users should either perform an action or change their behavior as the result of the message.
+- **User-centered.** The message describes the problem in terms of target user actions or goals, not in terms of what the code is unhappy with.
+- **Brief.** The message is as short as possible, but no shorter.
+- **Clear.** The message uses plain language so that the target users can easily understand problem and solution.
+- **Specific.** The message describes the problem using specific language, giving specific names, locations, and values of the objects involved.
+- **Courteous.** Users shouldn't be blamed or made to feel stupid.
+- **Rare.** Displayed infrequently. Frequently displayed error messages are a sign of bad design.
 
 By designing your error handling experience to have these characteristics, you can keep your program's error messages out of the Error Message Hall of Shame.
 
@@ -228,20 +228,20 @@ Sometimes error messages can be eliminated by focusing on users' goals instead o
 
 For example, suppose within an e-commerce program a user tries to find a product using search, but the literal search query has no matches and the desired product is out of stock. Technically, this is an error, but instead of giving an error message, the program could:
 
--   Continue to search for products that most closely match the query.
--   If the search has obvious mistakes, automatically recommend a corrected query.
--   Automatically handle common problems such as misspellings, alternative spellings, and mismatching pluralization and verb cases.
--   Indicate when the product will be in stock.
+- Continue to search for products that most closely match the query.
+- If the search has obvious mistakes, automatically recommend a corrected query.
+- Automatically handle common problems such as misspellings, alternative spellings, and mismatching pluralization and verb cases.
+- Indicate when the product will be in stock.
 
 As long as the user's request is reasonable, a well designed e-commerce program should return reasonable results not errors.
 
 Another great way to avoid error messages is by preventing problems in the first place. You can prevent errors by:
 
--   **Using constrained controls.** Use controls that are constrained to valid values. Controls like lists, sliders, check boxes, radio buttons, and date and time pickers are constrained to valid values, whereas text boxes are often not and may require error messages. However, you can constrain text boxes to accept only certain characters and accept a maximum number of characters.
--   **Using constrained interactions.** For drag operations, allow users to drop only on valid targets.
--   **Using disabled controls and menu items.** Disable controls and menu items when users can easily deduce why the control or menu item is disabled.
--   **Providing good default values.** Users are less likely to make input errors if they can accept the default values. Even if users decide to change the value, the default value lets users know the expected input format.
--   **Making things just work.** Users are less likely to make mistakes if the tasks are unnecessary or performed automatically for them. Or if users make small mistakes but their intention is clear, the problem is fixed automatically. For example, you can automatically correct minor formatting problems.
+- **Using constrained controls.** Use controls that are constrained to valid values. Controls like lists, sliders, check boxes, radio buttons, and date and time pickers are constrained to valid values, whereas text boxes are often not and may require error messages. However, you can constrain text boxes to accept only certain characters and accept a maximum number of characters.
+- **Using constrained interactions.** For drag operations, allow users to drop only on valid targets.
+- **Using disabled controls and menu items.** Disable controls and menu items when users can easily deduce why the control or menu item is disabled.
+- **Providing good default values.** Users are less likely to make input errors if they can accept the default values. Even if users decide to change the value, the default value lets users know the expected input format.
+- **Making things just work.** Users are less likely to make mistakes if the tasks are unnecessary or performed automatically for them. Or if users make small mistakes but their intention is clear, the problem is fixed automatically. For example, you can automatically correct minor formatting problems.
 
 **Providing necessary error messages**
 
@@ -273,10 +273,10 @@ While it's possible that this is a very poorly written error message, it more li
 
 In order to create specific, actionable, user-centered error messages, your program's error handling code must provide specific, high-level error information:
 
--   Each problem should have a unique error code assigned.
--   If a problem has several causes, the program should determine the specific cause whenever possible.
--   If the problem has parameters, the parameters must be maintained.
--   Low-level problems must be handled at a sufficiently high level so that the error message can be presented from the user's point of view.
+- Each problem should have a unique error code assigned.
+- If a problem has several causes, the program should determine the specific cause whenever possible.
+- If the problem has parameters, the parameters must be maintained.
+- Low-level problems must be handled at a sufficiently high level so that the error message can be presented from the user's point of view.
 
 Good error messages aren't just a UI problem, they are a software design problem. A good error message experience isn't something that can be tacked on later.
 
@@ -332,9 +332,9 @@ This error message is suitable for an unknown error if network connectivity is u
 
 Some issues can be presented as an error, warning, or information, depending on the emphasis and phrasing. For example, suppose a Web page cannot load an unsigned ActiveX control based on the current Windows Internet Explorer configuration:
 
--   **Error.** "This page cannot load an unsigned ActiveX control." (Phrased as an existing problem.)
--   **Warning.** "This page might not behave as expected because Windows Internet Explorer isn't configured to load unsigned ActiveX controls." or "Allow this page to install an unsigned ActiveX Control? Doing so from untrusted sources may harm your computer." (Both phrased as conditions that may cause future problems.)
--   **Information.** "You have configured Windows Internet Explorer to block unsigned ActiveX controls." (Phrased as a statement of fact.)
+- **Error.** "This page cannot load an unsigned ActiveX control." (Phrased as an existing problem.)
+- **Warning.** "This page might not behave as expected because Windows Internet Explorer isn't configured to load unsigned ActiveX controls." or "Allow this page to install an unsigned ActiveX Control? Doing so from untrusted sources may harm your computer." (Both phrased as conditions that may cause future problems.)
+- **Information.** "You have configured Windows Internet Explorer to block unsigned ActiveX controls." (Phrased as a statement of fact.)
 
 **To determine the appropriate message type, focus on the most important aspect of the issue that users need to know or act upon.** Typically, if an issue blocks the user from proceeding, you should present it as an error; if the user can proceed, present it as a warning. Craft the [main instruction](text-ui.md) or other corresponding text based on that focus, then choose an icon ([standard](vis-std-icons.md) or otherwise) that matches the text. The main instruction text and icons should always match.
 
@@ -342,12 +342,12 @@ Some issues can be presented as an error, warning, or information, depending on 
 
 Most error messages in Windows programs are presented using modal dialog boxes (as are most examples in this article), but there are other options:
 
--   In-place
--   Balloons
--   Notifications
--   Notification area icons
--   Status bars
--   Log files (for errors targeted at IT professionals)
+- In-place
+- Balloons
+- Notifications
+- Notification area icons
+- Status bars
+- Log files (for errors targeted at IT professionals)
 
 Putting error messages in modal dialog boxes has the benefit of demanding the user's immediate attention and acknowledgement. However, this is also their primary drawback if that attention isn't necessary.
 
@@ -383,20 +383,18 @@ For more guidelines and examples on overcommunicating, see [User Interface Text]
 
 **If you do only eight things**
 
-1.  Design your program for error handling.
-2.  Don't give unnecessary error messages.
-3.  Avoid user confusion by giving necessary error messages.
-4.  Make sure the error message gives a problem, cause, and solution.
-5.  Make sure the error message is relevant, actionable, brief, clear, specific, courteous, and rare.
-6.  Design error messages from the user's point of view, not the program's point of view.
-7.  Avoid involving the user in troubleshooting use a different error message for each detectable cause.
-8.  Use the lightest weight presentation method that does the job well.
+1. Design your program for error handling.
+2. Don't give unnecessary error messages.
+3. Avoid user confusion by giving necessary error messages.
+4. Make sure the error message gives a problem, cause, and solution.
+5. Make sure the error message is relevant, actionable, brief, clear, specific, courteous, and rare.
+6. Design error messages from the user's point of view, not the program's point of view.
+7. Avoid involving the user in troubleshooting use a different error message for each detectable cause.
+8. Use the lightest weight presentation method that does the job well.
 
 **Usage patterns**
 
 Error messages have several usage patterns:
-
-
 
 <table>
 <colgroup>
@@ -433,22 +431,18 @@ Error messages have several usage patterns:
 </tbody>
 </table>
 
-
-
- 
-
 ## Guidelines
 
 ### Presentation
 
--   **Use task dialogs whenever appropriate** to achieve a consistent look and layout. Task dialogs require Windows Vista or later, so they aren't suitable for earlier versions of Windows. If you must use a message box, separate the main instruction from the supplemental instruction with two line breaks.
+- **Use task dialogs whenever appropriate** to achieve a consistent look and layout. Task dialogs require Windows Vista or later, so they aren't suitable for earlier versions of Windows. If you must use a message box, separate the main instruction from the supplemental instruction with two line breaks.
 
 ### User input errors
 
--   **Whenever possible, prevent or reduce user input errors by:**
-    -   Using controls that are constrained to valid values.
-    -   Disabling controls and menu items when clicking would result in error, as long as it's obvious why the control or menu item is disabled.
-    -   Providing good default values.
+- **Whenever possible, prevent or reduce user input errors by:**
+  - Using controls that are constrained to valid values.
+  - Disabling controls and menu items when clicking would result in error, as long as it's obvious why the control or menu item is disabled.
+  - Providing good default values.
 
 **Incorrect:**
 
@@ -456,35 +450,35 @@ Error messages have several usage patterns:
 
 In this example, an unconstrained text box is used for constrained input. Use a slider instead.
 
--   **Use modeless error handling (in-place errors or balloons) for contextual user input problems.**
--   **Use balloons for non-critical, single-point user input problems detected while in a text box or immediately after a text box loses focus.**[Balloons](https://msdn.microsoft.com/library/windows/desktop/aa511451.aspx) don't require available screen space or the dynamic layout that is required to display in-place messages. Display only a single balloon at a time. Because the problem isn't critical, no error icon is necessary. Balloons go away when clicked, when the problem is resolved, or after a timeout.
+- **Use modeless error handling (in-place errors or balloons) for contextual user input problems.**
+- **Use balloons for non-critical, single-point user input problems detected while in a text box or immediately after a text box loses focus.**[Balloons](https://msdn.microsoft.com/library/windows/desktop/aa511451.aspx) don't require available screen space or the dynamic layout that is required to display in-place messages. Display only a single balloon at a time. Because the problem isn't critical, no error icon is necessary. Balloons go away when clicked, when the problem is resolved, or after a timeout.
 
 ![screen shot of message: incorrect character ](images/mess-error-image36.png)
 
 In this example, a balloon indicates an input problem while still in the control.
 
--   **Use in-place errors for delayed error detection,** usually errors found by clicking a commit button. (Don't use [in-place errors](glossary.md) for settings that are immediately committed.) There can be multiple in-place errors at a time. Use normal text and a 16x16 pixel error icon, placing them directly next to the problem whenever possible. In-place errors don't go away unless the user commits and no other errors are found.
+- **Use in-place errors for delayed error detection,** usually errors found by clicking a commit button. (Don't use [in-place errors](glossary.md) for settings that are immediately committed.) There can be multiple in-place errors at a time. Use normal text and a 16x16 pixel error icon, placing them directly next to the problem whenever possible. In-place errors don't go away unless the user commits and no other errors are found.
 
 ![screen shot of message: incorrect e-mail address ](images/mess-error-image37.png)
 
 In this example, an in-place error is used for an error found by clicking the commit button.
 
--   **Use modal error handling (task dialogs or message boxes) for all other problems,** including errors that involve multiple controls or are non-contextual or non-input errors found by clicking a commit button.
--   **When a user input problem is reported, set input focus to the first control with the incorrect data.** Scroll the control into view if necessary. If the control is a text box, select the entire contents. It should always be obvious what the error message is referring to.
--   **Don't clear incorrect input.** Instead, leave it so that the user can see and correct the problem without starting over.
-    -   **Exception:** Clear incorrect password and PIN text boxes because users can't correct masked input effectively.
+- **Use modal error handling (task dialogs or message boxes) for all other problems,** including errors that involve multiple controls or are non-contextual or non-input errors found by clicking a commit button.
+- **When a user input problem is reported, set input focus to the first control with the incorrect data.** Scroll the control into view if necessary. If the control is a text box, select the entire contents. It should always be obvious what the error message is referring to.
+- **Don't clear incorrect input.** Instead, leave it so that the user can see and correct the problem without starting over.
+  - **Exception:** Clear incorrect password and PIN text boxes because users can't correct masked input effectively.
 
 ### Troubleshooting
 
--   **Avoid creating troubleshooting problems.** Don't rely on a single error message to report a problem with several different detectable causes.
--   **Use a different error message (typically a different supplemental instruction) for each detectable cause.** For example, if a file cannot be opened for several reasons, provide a separate supplemental instruction for each reason.
--   **Use a message with multiple causes only when the specific cause can't be determined.** In this case, present the solutions in order of likelihood of fixing the problem. Doing so helps users solve the problem more efficiently.
+- **Avoid creating troubleshooting problems.** Don't rely on a single error message to report a problem with several different detectable causes.
+- **Use a different error message (typically a different supplemental instruction) for each detectable cause.** For example, if a file cannot be opened for several reasons, provide a separate supplemental instruction for each reason.
+- **Use a message with multiple causes only when the specific cause can't be determined.** In this case, present the solutions in order of likelihood of fixing the problem. Doing so helps users solve the problem more efficiently.
 
 ### Icons
 
--   **Modal error message dialogs don't have title bar icons.** Title bar icons are used as a visual distinction between primary windows and secondary windows.
--   **Use an error icon.** Exceptions:
-    -   If the error is a user input problem displayed using a modal dialog box or balloon, don't use an icon. Doing so is counter to the encouraging tone of Windows. However, in-place error messages should use a small error icon (16x16 pixel) to clearly identify them as error messages.
+- **Modal error message dialogs don't have title bar icons.** Title bar icons are used as a visual distinction between primary windows and secondary windows.
+- **Use an error icon.** Exceptions:
+  - If the error is a user input problem displayed using a modal dialog box or balloon, don't use an icon. Doing so is counter to the encouraging tone of Windows. However, in-place error messages should use a small error icon (16x16 pixel) to clearly identify them as error messages.
 
         ![screen shot of message incorrect postal format ](images/mess-error-image38.png)
 
@@ -496,13 +490,13 @@ In this example, an in-place error is used for an error found by clicking the co
 
         In this example, an in-place error message needs a small error icon to clearly identify it as an error message.
 
--   If the problem is for a feature that has an icon (and not a user input problem), you can use the feature icon with an error overlay. If you do this, also use the feature name as the error's subject.
+- If the problem is for a feature that has an icon (and not a user input problem), you can use the feature icon with an error overlay. If you do this, also use the feature name as the error's subject.
 
     ![screen shot message media player can't play file ](images/mess-error-image41.png)
 
     In this example, the feature icon has an error overlay, and the feature is the subject of the error.
 
--   **Don't use warning icons for errors.** This is often done to make the presentation feel less severe. Errors aren't warnings.
+- **Don't use warning icons for errors.** This is often done to make the presentation feel less severe. Errors aren't warnings.
 
     **Incorrect:**
 
@@ -514,40 +508,40 @@ For more guidelines and examples, see [Standard Icons](vis-std-icons.md).
 
 ### Progressive disclosure
 
--   **Use a Show/Hide details progressive disclosure button to hide advanced or detailed information in an error message.** Doing so simplifies the error message for typical usage. Don't hide needed information, because users might not find it.
+- **Use a Show/Hide details progressive disclosure button to hide advanced or detailed information in an error message.** Doing so simplifies the error message for typical usage. Don't hide needed information, because users might not find it.
 
 ![screen shot of message: activesync can't log on ](images/mess-error-image43.png)
 
 In this example, the progressive disclosure button helps users drill down to more detail if they want it, or simplify the UI if they don't.
 
--   **Don't use Show/Hide details unless there really is more detail.** Don't just restate the existing information in a more verbose format.
--   **Don't use Show/Hide details to show Help information.** Use Help links instead.
+- **Don't use Show/Hide details unless there really is more detail.** Don't just restate the existing information in a more verbose format.
+- **Don't use Show/Hide details to show Help information.** Use Help links instead.
 
 For labeling guidelines, see [Progressive Disclosure Controls](ctrl-progressive-disclosure-controls.md).
 
 **Don't show this message again**
 
--   **If an error message needs this option, reconsider the error and its frequency.** If it has all the characteristics of a good error (relevant, actionable, and infrequent), it shouldn't make sense for users to suppress it.
+- **If an error message needs this option, reconsider the error and its frequency.** If it has all the characteristics of a good error (relevant, actionable, and infrequent), it shouldn't make sense for users to suppress it.
 
 For more guidelines, see [Dialog Boxes](win-dialog-box.md).
 
 ### Default values
 
--   **Select the safest, least destructive, or most secure response to be the default.** If safety isn't a factor, select the most likely or convenient command.
+- **Select the safest, least destructive, or most secure response to be the default.** If safety isn't a factor, select the most likely or convenient command.
 
 ### Help
 
--   **Design error messages to avoid the need for Help.** Ordinarily users shouldn't have to read external text to understand and solve the problem, unless the solution requires several steps.
--   **Make sure the Help content is relevant and helpful.** It shouldn't be a verbose restatement of the error message rather, it should contain useful information that is beyond the scope of the error message, such as ways to avoid the problem in the future. Don't provide a Help link just because you can.
--   **Use specific, concise, relevant Help links to access Help content.** Don't use command buttons or progressive disclosure for this purpose.
--   **For error messages that you can't make specific and actionable, consider providing links to online Help content.** By doing so, you can provide users with additional information that you can update after the program is released.
+- **Design error messages to avoid the need for Help.** Ordinarily users shouldn't have to read external text to understand and solve the problem, unless the solution requires several steps.
+- **Make sure the Help content is relevant and helpful.** It shouldn't be a verbose restatement of the error message rather, it should contain useful information that is beyond the scope of the error message, such as ways to avoid the problem in the future. Don't provide a Help link just because you can.
+- **Use specific, concise, relevant Help links to access Help content.** Don't use command buttons or progressive disclosure for this purpose.
+- **For error messages that you can't make specific and actionable, consider providing links to online Help content.** By doing so, you can provide users with additional information that you can update after the program is released.
 
 For more guidelines, see [Help](winenv-help.md).
 
 ### Error codes
 
--   **For error messages that you can't make specific and actionable or they benefit from Help, consider also providing error codes.** Users often use these error codes to search the Internet for additional information.
--   **Always provide a text description of the problem and solution.** Don't depend just on the error code for this purpose.
+- **For error messages that you can't make specific and actionable or they benefit from Help, consider also providing error codes.** Users often use these error codes to search the Internet for additional information.
+- **Always provide a text description of the problem and solution.** Don't depend just on the error code for this purpose.
 
 **Incorrect:**
 
@@ -555,8 +549,8 @@ For more guidelines, see [Help](winenv-help.md).
 
 In this example, an error code is used as a substitute for a solution text.
 
--   **Assign a unique error code for each different cause.** Doing so avoids troubleshooting.
--   **Choose error codes that are easily searchable on the Internet.** If you use 32-bit codes, use a hexadecimal representation with a leading "0x" and uppercase characters.
+- **Assign a unique error code for each different cause.** Doing so avoids troubleshooting.
+- **Choose error codes that are easily searchable on the Internet.** If you use 32-bit codes, use a hexadecimal representation with a leading "0x" and uppercase characters.
 
 **Correct:**
 
@@ -570,7 +564,7 @@ In this example, an error code is used as a substitute for a solution text.
 
 -67113524
 
--   **Use Show/Hide details to display error codes.** Phrase as Error code: <error code>.
+- **Use Show/Hide details to display error codes.** Phrase as Error code: <error code>.
 
 ![screen shot of message: program didn't initialize ](images/mess-error-image45.png)
 
@@ -578,15 +572,15 @@ In this example, an error code is used to supplement an error message that can b
 
 ### Sound
 
--   **Don't accompany error messages with a sound effect or beep.** Doing so is jarring and unnecessary.
-    -   **Exception:** Play the Critical Stop sound effect if the problem is critical to the operation of the computer, and the user must take immediate action to prevent serious consequences.
+- **Don't accompany error messages with a sound effect or beep.** Doing so is jarring and unnecessary.
+  - **Exception:** Play the Critical Stop sound effect if the problem is critical to the operation of the computer, and the user must take immediate action to prevent serious consequences.
 
 ## Text
 
 **General**
 
--   **Remove redundant text.** Look for it in titles, main instructions, supplemental instructions, command links, and commit buttons. Generally, leave full text in instructions and interactive controls, and remove any redundancy from the other places.
--   **Use user-centered explanations.** Describe the problem in terms of user actions or goals, not in terms of what the software is unhappy with. Use language that the target users understand and use. Avoid technical jargon.
+- **Remove redundant text.** Look for it in titles, main instructions, supplemental instructions, command links, and commit buttons. Generally, leave full text in instructions and interactive controls, and remove any redundancy from the other places.
+- **Use user-centered explanations.** Describe the problem in terms of user actions or goals, not in terms of what the software is unhappy with. Use language that the target users understand and use. Avoid technical jargon.
 
 **Incorrect:**
 
@@ -598,12 +592,12 @@ In this example, an error code is used to supplement an error message that can b
 
 In these examples, the correct version speaks the user's language whereas the incorrect version is overly technical.
 
--   **Don't use the following words:**
-    -   Error, failure (use problem instead)
-    -   Failed to (use unable to instead)
-    -   Illegal, invalid, bad (use incorrect instead)
-    -   Abort, kill, terminate (use stop instead)
-    -   Catastrophic, fatal (use serious instead)
+- **Don't use the following words:**
+  - Error, failure (use problem instead)
+  - Failed to (use unable to instead)
+  - Illegal, invalid, bad (use incorrect instead)
+  - Abort, kill, terminate (use stop instead)
+  - Catastrophic, fatal (use serious instead)
 
 These terms are unnecessary and contrary to the encouraging tone of Windows. When [used correctly](vis-std-icons.md), the error icon sufficiently communicates that there is a problem.
 
@@ -617,7 +611,7 @@ These terms are unnecessary and contrary to the encouraging tone of Windows. Whe
 
 In the incorrect example, the terms "catastrophic" and "failure" are unnecessary.
 
--   Don't use phrasing that blames the user or implies user error. Avoid using you and your in the phrasing. While the active voice is generally preferred, use the passive voice when the user is the subject and might feel blamed for the error if the active voice were used.
+- Don't use phrasing that blames the user or implies user error. Avoid using you and your in the phrasing. While the active voice is generally preferred, use the passive voice when the user is the subject and might feel blamed for the error if the active voice were used.
 
 **Incorrect:**
 
@@ -629,7 +623,7 @@ In the incorrect example, the terms "catastrophic" and "failure" are unnecessary
 
 The incorrect example blames the user by using the active voice.
 
--   **Be specific.** Avoid vague wording, such as syntax error and illegal operation. Provide specific names, locations, and values of the objects involved.
+- **Be specific.** Avoid vague wording, such as syntax error and illegal operation. Provide specific names, locations, and values of the objects involved.
 
 **Incorrect:**
 
@@ -645,20 +639,20 @@ Device not available.
 
 These problems would be much easier to solve with specific names, locations, and values.
 
--   **Don't give possibly unlikely problems, causes, or solutions in an attempt to be specific.** Don't provide a problem, cause, or solution unless it is likely to be right. For example, it is better to say An unknown error occurred than something that is likely to be inaccurate.
--   **Avoid the word "please,"** except in situations in which the user is asked to do something inconvenient (such as waiting) or the software is to blame for the situation.
+- **Don't give possibly unlikely problems, causes, or solutions in an attempt to be specific.** Don't provide a problem, cause, or solution unless it is likely to be right. For example, it is better to say An unknown error occurred than something that is likely to be inaccurate.
+- **Avoid the word "please,"** except in situations in which the user is asked to do something inconvenient (such as waiting) or the software is to blame for the situation.
 
 **Correct:**
 
 Please wait while Windows copies the files to your computer.
 
--   **Use the word "sorry" only in error messages that result in serious problems for the user** (for example, data loss or inability to use the computer). Don't apologize if the issue occurred during the normal functioning of the program (for example, if the user needs to wait for a network connection to be found).
+- **Use the word "sorry" only in error messages that result in serious problems for the user** (for example, data loss or inability to use the computer). Don't apologize if the issue occurred during the normal functioning of the program (for example, if the user needs to wait for a network connection to be found).
 
 **Correct:**
 
 We're sorry, but Fabrikam Backup detected an unrecoverable problem and was shut down to protect files on your computer.
 
--   **Refer to products using their short names.** Don't use full product names or trademark symbols. Don't include the company name unless users associate the company name with the product. Don't include program version numbers.
+- **Refer to products using their short names.** Don't use full product names or trademark symbols. Don't include the company name unless users associate the company name with the product. Don't include program version numbers.
 
 **Incorrect:**
 
@@ -670,8 +664,8 @@ We're sorry, but Fabrikam Backup detected an unrecoverable problem and was shut 
 
 In the incorrect example, full product names and trademark symbols are used.
 
--   **Use double quotation marks around object names.** Doing so makes the text easier to parse and avoids potentially embarrassing statements.
-    -   **Exception:** Fully qualified file paths, URLs, and domain names don't need to be in double quotation marks.
+- **Use double quotation marks around object names.** Doing so makes the text easier to parse and avoids potentially embarrassing statements.
+  - **Exception:** Fully qualified file paths, URLs, and domain names don't need to be in double quotation marks.
 
 **Correct:**
 
@@ -679,17 +673,17 @@ In the incorrect example, full product names and trademark symbols are used.
 
 In this example, the error message would be confusing if the object name weren't in quotation marks.
 
--   **Avoid starting sentences with object names.** Doing so is often difficult to parse.
--   **Don't use exclamation marks or words with all capital letters.** Exclamation marks and capital letters make it feel like you are shouting at the user.
+- **Avoid starting sentences with object names.** Doing so is often difficult to parse.
+- **Don't use exclamation marks or words with all capital letters.** Exclamation marks and capital letters make it feel like you are shouting at the user.
 
 For more guidelines and examples, see [Style and Tone](text-style-tone.md).
 
 **Titles**
 
--   **Use the title to identify the command or feature from which the error originated.** Exceptions:
-    -   If an error is displayed by many different commands, consider using the program name instead.
-    -   If that title would be redundant or confusing with the main instruction, use the program name instead.
--   **Don't use the title to explain or summarize the problem** that's the purpose of the main instruction.
+- **Use the title to identify the command or feature from which the error originated.** Exceptions:
+  - If an error is displayed by many different commands, consider using the program name instead.
+  - If that title would be redundant or confusing with the main instruction, use the program name instead.
+- **Don't use the title to explain or summarize the problem** that's the purpose of the main instruction.
 
 **Incorrect:**
 
@@ -697,12 +691,12 @@ For more guidelines and examples, see [Style and Tone](text-style-tone.md).
 
 In this example, the title is being incorrectly used to explain the problem.
 
--   Use title-style capitalization, without ending punctuation.
+- Use title-style capitalization, without ending punctuation.
 
 **Main instructions**
 
--   **Use the main instruction to describe the problem in clear, plain, specific language.**
--   **Be concise use only a single, complete sentence.** Pare the main instruction down to the essential information. You can leave the subject implicit if it is your program or the user. Include the reason for the problem if you can do so concisely. If you must explain anything more, use a supplemental instruction.
+- **Use the main instruction to describe the problem in clear, plain, specific language.**
+- **Be concise use only a single, complete sentence.** Pare the main instruction down to the essential information. You can leave the subject implicit if it is your program or the user. Include the reason for the problem if you can do so concisely. If you must explain anything more, use a supplemental instruction.
 
 **Incorrect:**
 
@@ -710,51 +704,51 @@ In this example, the title is being incorrectly used to explain the problem.
 
 In this example, the entire error message is put in the main instruction, making it hard to read.
 
--   **Be specific if there are objects involved, give their names.**
--   **Avoid putting full file paths and URLs in the main instruction.** Rather, use a short name (such as the file name) and put the full name (such as the file path) in the supplemental instruction. However, you can put a single full file path or URL in the main instruction if the error message doesn't otherwise need a supplemental instruction.
+- **Be specific if there are objects involved, give their names.**
+- **Avoid putting full file paths and URLs in the main instruction.** Rather, use a short name (such as the file name) and put the full name (such as the file path) in the supplemental instruction. However, you can put a single full file path or URL in the main instruction if the error message doesn't otherwise need a supplemental instruction.
 
 ![screen shot of message: can't delete fabrikam file ](images/mess-error-image57.png)
 
 In this example, only the file name is in the main instruction. The full path is in the supplemental instruction.
 
--   **Don't give the full file path and URL at all if it's obvious from the context.**
+- **Don't give the full file path and URL at all if it's obvious from the context.**
 
 ![screen shot of message: can't rename new folder ](images/mess-error-image58.png)
 
 In this example, the user is renaming a file from Windows Explorer. In this case, the full file path isn't needed because it's obvious from the context.
 
--   Use present tense whenever possible.
--   Use sentence-style capitalization.
--   Don't include final periods if the instruction is a statement. If the instruction is a question, include a final question mark.
+- Use present tense whenever possible.
+- Use sentence-style capitalization.
+- Don't include final periods if the instruction is a statement. If the instruction is a question, include a final question mark.
 
 **Main instruction templates**
 
 While there are no strict rules for phrasing, try using the following main instruction templates whenever possible:
 
--   <optional subject name> can't <perform action>
--   <optional subject name> can't <perform action> because <reason>
--   <optional subject name> can't <perform action> to "&lt;object name&gt;"
--   <optional subject name> can't <perform action> to "&lt;object name&gt;" because <reason>
--   There is not enough <resource> to <perform action>
--   <Subject name> doesn't have a <object name> required for <purpose>
--   <Device or setting> is turned off so that <undesired results>
--   <Device or setting> isn't <available \| found \| turned on \| enabled>
--   "&lt;object name&gt;" is currently unavailable
--   The user name or password is incorrect
--   You don't have permission to access "&lt;object name&gt;"
--   You don't have privilege to <perform action>
--   <program name> has experienced a serious problem and must close immediately
+- [optional subject name] can't [perform action]
+- [optional subject name] can't [perform action] because [reason]
+- [optional subject name] can't [perform action] to "[object name]"
+- [optional subject name] can't [perform action] to "[object name]" because [reason]
+- There is not enough [resource] to [perform action]
+- [Subject name] doesn't have a [object name] required for [purpose]
+- [Device or setting] is turned off so that [undesired results]
+- [Device or setting] isn't [available \| found \| turned on \| enabled]
+- "[object name]" is currently unavailable
+- The user name or password is incorrect
+- You don't have permission to access "[object name]"
+- You don't have privilege to [perform action]
+- [program name] has experienced a serious problem and must close immediately
 
 Of course, make changes as needed for the main instruction to be grammatically correct and comply with the main instruction guidelines.
 
 **Supplemental instructions**
 
--   Use the supplemental instruction to:
-    -   Give additional details about the problem.
-    -   Explain the cause of the problem.
-    -   List steps the user can take to fix the problem.
-    -   Provide measures to prevent the problem from reoccurring.
--   **Whenever possible, propose a practical, helpful solution so users can fix the problem.** However, make sure the proposed solution is likely to solve the problem. Don't waste users' time by suggesting possible, but improbable, solutions.
+- Use the supplemental instruction to:
+  - Give additional details about the problem.
+  - Explain the cause of the problem.
+  - List steps the user can take to fix the problem.
+  - Provide measures to prevent the problem from reoccurring.
+- **Whenever possible, propose a practical, helpful solution so users can fix the problem.** However, make sure the proposed solution is likely to solve the problem. Don't waste users' time by suggesting possible, but improbable, solutions.
 
 **Incorrect:**
 
@@ -762,16 +756,16 @@ Of course, make changes as needed for the main instruction to be grammatically c
 
 In this example, while the problem and its recommended solution are possible, they are very unlikely.
 
--   **If the problem is an incorrect value that the user entered, use the supplemental instruction to explain the correct values.** Users shouldn't have to determine this information from another source.
--   **Don't provide a solution if it can be trivially deduced from the problem statement.**
+- **If the problem is an incorrect value that the user entered, use the supplemental instruction to explain the correct values.** Users shouldn't have to determine this information from another source.
+- **Don't provide a solution if it can be trivially deduced from the problem statement.**
 
 ![screen shot of message: incorrect time value ](images/mess-error-image33.png)
 
 In this example, no supplemental instruction is necessary; the solution can be trivially deduced from the problem statement.
 
--   **If the solution has multiple steps, present the steps in the order in which they should be completed.** However, avoid multi-step solutions because users have difficulty remembering more than two or three simple steps. If more steps are required, refer to the appropriate Help topic.
--   **Keep supplemental instructions concise.** Provide only what users need to know. Omit unnecessary details. Aim for a maximum of three sentences of moderate length.
--   **To avoid mistakes while users perform instructions, put the results before the action.**
+- **If the solution has multiple steps, present the steps in the order in which they should be completed.** However, avoid multi-step solutions because users have difficulty remembering more than two or three simple steps. If more steps are required, refer to the appropriate Help topic.
+- **Keep supplemental instructions concise.** Provide only what users need to know. Omit unnecessary details. Aim for a maximum of three sentences of moderate length.
+- **To avoid mistakes while users perform instructions, put the results before the action.**
 
 **Correct:**
 
@@ -783,7 +777,7 @@ Click OK to restart Windows.
 
 In the incorrect example, users are more likely to click OK by accident.
 
--   **Don't recommend contacting an administrator unless doing so is among the most likely solutions to the problem.** Reserve such solutions for problems that really can only be solved by an administrator.
+- **Don't recommend contacting an administrator unless doing so is among the most likely solutions to the problem.** Reserve such solutions for problems that really can only be solved by an administrator.
 
 **Incorrect:**
 
@@ -791,7 +785,7 @@ In the incorrect example, users are more likely to click OK by accident.
 
 In this example, most likely the problem is with the user's network connection, so it's not worth contacting an administrator.
 
--   **Don't recommend contacting technical support.** The option to contact technical support to solve a problem is always available, and doesn't need to be promoted through error messages. Instead, focus on writing helpful error messages so that users can solve problems without contacting technical support.
+- **Don't recommend contacting technical support.** The option to contact technical support to solve a problem is always available, and doesn't need to be promoted through error messages. Instead, focus on writing helpful error messages so that users can solve problems without contacting technical support.
 
 **Incorrect:**
 
@@ -799,30 +793,21 @@ In this example, most likely the problem is with the user's network connection, 
 
 In this example, the error message incorrectly recommends contacting technical support.
 
--   Use complete sentences, sentence-style capitalization, and ending punctuation.
+- Use complete sentences, sentence-style capitalization, and ending punctuation.
 
 **Commit buttons**
 
--   If the error message provides command buttons or command links that solve the problem, follow their respective guidelines in [Dialog Boxes](win-dialog-box.md).
--   If the program must terminate as a result of the error, provide an Exit program button. To avoid confusion, don't use Close for this purpose.
--   Otherwise, provide a Close button. Don't use OK for error messages, because this wording implies that problems are OK.
-    -   **Exception:** Use OK if your error reporting mechanism has fixed labels (as with the MessageBox API.)
+- If the error message provides command buttons or command links that solve the problem, follow their respective guidelines in [Dialog Boxes](win-dialog-box.md).
+- If the program must terminate as a result of the error, provide an Exit program button. To avoid confusion, don't use Close for this purpose.
+- Otherwise, provide a Close button. Don't use OK for error messages, because this wording implies that problems are OK.
+  - **Exception:** Use OK if your error reporting mechanism has fixed labels (as with the MessageBox API.)
 
 ## Documentation
 
 When referring to errors:
 
--   Refer to errors by their main instruction. If the main instruction is long or detailed, summarize it.
--   If necessary, you may refer to an error message dialog box as a message. Refer to as an error message only in programming and other technical documentation.
--   When possible, format the text using bold. Otherwise, put the text in quotation marks only if required to prevent confusion.
+- Refer to errors by their main instruction. If the main instruction is long or detailed, summarize it.
+- If necessary, you may refer to an error message dialog box as a message. Refer to as an error message only in programming and other technical documentation.
+- When possible, format the text using bold. Otherwise, put the text in quotation marks only if required to prevent confusion.
 
 **Example:** If you receive a **There is no CD disc in the drive** message, insert a new CD disc in the drive and try again.
-
- 
-
- 
-
-
-
-
-
