@@ -346,6 +346,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/direct3d12/multi-engine-and-multi-gpu-synchronization.md",
+      "redirect_url": "/windows/win32/direct3d12/multi-engine",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/tapi/index.md",
       "redirect_url": "/windows/win32/tapi/telephony-application-programming-interfaces",
       "redirect_document_id": false
