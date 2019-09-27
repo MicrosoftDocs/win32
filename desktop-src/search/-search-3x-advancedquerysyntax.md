@@ -234,32 +234,32 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="even">
 <td>COP_NOTEQUAL</td>
-<td>≠<br/> -<br/> <><br/> NOT<br/> - -<br/></td>
-<td>System.Kind:≠picture<br/> System.Photo.DateTaken:-[]¹<br/> System.Kind:<>picture<br/> System.Kind:NOT picture<br/> System.Kind:- -picture<br/></td>
+<td>≠<br/> -<br/> &lt;&gt;<br/> NOT<br/> - -<br/></td>
+<td>System.Kind:≠picture<br/> System.Photo.DateTaken:-[]¹<br/> System.Kind:&lt;&gt;picture<br/> System.Kind:NOT picture<br/> System.Kind:- -picture<br/></td>
 <td>The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture.<br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-photo-datetaken">System.Photo.DateTaken</a> property has a value.<br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture. <br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture. <br/> Double NOT operators applied to the same property do not cancel out. Hence, System.Kind:- -picture is equivalent to System.Kind:-picture and System.Kind:NOT picture.<br/></td>
 </tr>
 <tr class="odd">
 <td>COP_LESSTHAN</td>
-<td><<br/></td>
-<td>System.Size:<1kb<br/></td>
+<td>&lt;<br/></td>
+<td>System.Size:&lt;1kb<br/></td>
 <td>This value is less than <em>1kb</em>.<br/></td>
 </tr>
 <tr class="even">
 <td>COP_GREATERTHAN</td>
-<td>><br/></td>
-<td>System.ItemDate:>System.StructuredQueryType.DateTime#Today<br/></td>
+<td>&gt;<br/></td>
+<td>System.ItemDate:&gt;System.StructuredQueryType.DateTime#Today<br/></td>
 <td>This value is greater than <em>today</em>.<br/></td>
 </tr>
 <tr class="odd">
 <td>COP_LESSTHANOREQUAL</td>
-<td><=<br/> ≤<br/></td>
-<td>System.Size:<=1kb<br/></td>
+<td>&lt;=<br/> ≤<br/></td>
+<td>System.Size:&lt;=1kb<br/></td>
 <td>This value is less than or equal to <em>1kb</em>.<br/></td>
 </tr>
 <tr class="even">
 <td>COP_GREATERTHANOREQUAL</td>
-<td>>=<br/> ≥<br/></td>
-<td>System.Size:>=1kb<br/></td>
+<td>&gt;=<br/> ≥<br/></td>
+<td>System.Size:&gt;=1kb<br/></td>
 <td>This value is equal to or greater than <em>1kb</em>.<br/></td>
 </tr>
 <tr class="odd">
@@ -270,8 +270,8 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="even">
 <td>COP_VALUE_ENDSWITH</td>
-<td>~><br/></td>
-<td>System.Photo.CameraModel:~>non<br/></td>
+<td>~&gt;<br/></td>
+<td>System.Photo.CameraModel:~&gt;non<br/></td>
 <td>Finds items where the property value ends with the characters <em>non</em>.<br/></td>
 </tr>
 <tr class="odd">
