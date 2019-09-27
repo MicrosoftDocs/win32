@@ -31,8 +31,7 @@ To create the Windows Media Player control programmatically, you must first add 
 The following example code, part of a Form1 class, shows how to create a **Player** object and play a file. When playback ends, or if the file cannot be played, the form is closed.
 
 
-```C++
-' [ Visual Basic ]
+```VB
 Dim WithEvents Player As WMPLib.WindowsMediaPlayer
 
 Private Sub PlayFile(ByVal url As String)
@@ -65,8 +64,7 @@ End Sub
 
 
 
-```C++
-// [ C# ]
+```CSharp
 WMPLib.WindowsMediaPlayer Player;
 
 private void PlayFile(String url)
