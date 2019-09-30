@@ -22,6 +22,7 @@ For additional information, see the following subsections:
 -   [Paths](#fully-qualified-vs-relative-paths)
     -   [Fully Qualified vs. Relative Paths](#fully-qualified-vs-relative-paths)
     -   [Maximum Path Length Limitation](#maximum-path-length-limitation)
+    -   [Enable Long Paths in Windows 10, Version 1607, and Later](#enable-long-paths-in-windows-10-version-1607-and-later)
 -   [Namespaces](#win32-file-namespaces)
     -   [Win32 File Namespaces](#win32-file-namespaces)
     -   [Win32 Device Namespaces](#win32-device-namespaces)
