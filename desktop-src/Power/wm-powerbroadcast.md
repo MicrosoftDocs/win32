@@ -89,11 +89,10 @@ To prevent the system from transitioning to a low-power state in Windows Vista, 
 
 The following messages are not supported on any of the operating systems specified in the Requirements section:
 
-<dl> PBT_APMQUERYSTANDBY  
-PBT_APMQUERYSTANDBYFAILED  
-PBT_APMSTANDBY  
-PBT_APMRESUMESTANDBY  
-</dl>
+- PBT_APMQUERYSTANDBY  
+- PBT_APMQUERYSTANDBYFAILED  
+- PBT_APMSTANDBY  
+- PBT_APMRESUMESTANDBY  
 
 ## Requirements
 
