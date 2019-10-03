@@ -1,18 +1,18 @@
 ---
 Description: The following table describes IPPROTO\_UDP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as UDP (IPPROTO\_UDP).
 ms.assetid: 579448a1-22af-488f-a1f5-97ba69a15524
-title: IPPROTO_UDP Socket Options
+title: IPPROTO_UDP socket options
 ms.topic: article
-ms.date: 10/01/2019
+ms.date: 10/02/2019
 ---
 
-# IPPROTO\_UDP Socket Options
+# IPPROTO\_UDP socket options
 
 The following table describes **IPPROTO\_UDP** socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the *protocol* parameter to the [**socket**](/windows/win32/api/Winsock2/nf-winsock2-socket) function specified as UDP (IPPROTO\_UDP). See the [**getsockopt**](/windows/win32/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/win32/api/winsock/nf-winsock-setsockopt) function reference pages for more information on getting and setting socket options.
 
 To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/win32/api/Winsock2/nf-winsock2-wsaenumprotocolsa), [**WSCEnumProtocols**](/windows/win32/api/Ws2spi/nf-ws2spi-wscenumprotocols), or [**WSCEnumProtocols32**](/windows/win32/api/Ws2spi/nf-ws2spi-wscenumprotocols32) function.
 
-<dl> <dt><span id="IPPROTO_UDP_Socket_Options"></span><span id="ipproto_udp_socket_options"></span><span id="IPPROTO_UDP_SOCKET_OPTIONS"></span>**IPPROTO\_UDP Socket Options**</dt> <dd> <dl> <dt> 
+## Options
 
 | Option | Get | Set | Optval type | Description |
 |-|-|-|-|-|
@@ -21,15 +21,9 @@ To enumerate protocols and discover supported properties for each installed prot
 | UDP_RECV_MAX_COALESCED_SIZE (ws2ipdef.h; include ws2tcpip.h) | yes | yes | DWORD (boolean) | When set to a non-zero value, multiple received datagrams may be coalesced into a single message buffer before being indicated to your application. The option value represents the maximum message size in bytes for coalesced messages that can be indicated to your application. Un-coalesced messages larger than the option value may still be indicated. The default value is 0 (no coalescing). Datagrams will only be coalesced if they originated from the same source address and port. All datagrams coalesced will be of the same size&mdash;except the last datagram, which may be smaller. If your application wants to retrieve the datagram sizes (except the last datagram, which may differ) that were coalesced, you must use a receive API that supports control information (such as [WSARecvMsg](/previous-versions/windows/desktop/legacy/ms741687(v%3Dvs.85))). For type safety, your application should use the [WSAGetUdpRecvMaxCoalescedSize](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetudprecvmaxcoalescedsize) and [WSASetUdpRecvMaxCoalescedSize](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetudprecvmaxcoalescedsize) functions instead of the socket option directly. |
 | UDP_SEND_MSG_SIZE (ws2ipdef.h; include ws2tcpip.h) | yes | yes | DWORD (boolean) | When set to a non-zero value, buffers sent by your application are broken down into multiple messages by the networking stack. The size of each broken-down message is equal to the option value. The option value is represented in bytes. The last segment's size may be less than the value of the option. The default value is 0 (no segmentation). Your application should set a value that is lower than the MTU of the path to the destination(s) to which it will be sent; otherwise the send will fail (but the socket option set will still succeed). For type safety, your application should use the [WSAGetUdpSendMessageSize](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetudpsendmessagesize) and [WSASetUdpSendMessageSize](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetudpsendmessagesize) functions instead of the socket option directly. |
 
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_IPPROTO_UDP_options"></span><span id="windows_support_for_ipproto_udp_options"></span><span id="WINDOWS_SUPPORT_FOR_IPPROTO_UDP_OPTIONS"></span>**Windows Support for IPPROTO\_UDP options**</dt> <dd> <dl> <dt> 
+## Legacy Windows support for IPPROTO\_UDP options
 
-| Option | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/Me |
-|-|-|-|-|-|-|-|-|-|
-| UDP\_CHECKSUM\_COVERAGE | x | x | x | x | x | | | |
-| UDP\_NOCHECKSUM | x | x | x | x | x | x | x | |
-
-
-</dt> </dl> </dd> </dl>
+**UDP\_CHECKSUM\_COVERAGE** is unavailable on Windows 2000 and on Windows NT4. **UDP\_CHECKSUM\_COVERAGE** and **UDP\_NOCHECKSUM** are unavailable on Windows 9x/Me. 
 
 ## Remarks
 

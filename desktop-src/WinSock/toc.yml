@@ -1019,6 +1019,12 @@
         href: /windows/win32/api/Winsock2/nf-winsock2-wsaeventselect
       - name: "__WSAFDIsSet"
         href: /windows/win32/api/winsock/nf-winsock-__wsafdisset
+      - name: "WSAGetFailConnectOnIcmpError"
+        href: /windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetfailconnectonicmperror
+      - name: "WSAGetIcmpErrorInfo"
+        href: /windows/win32/api/ws2tcpip/nf-ws2tcpip-wsageticmperrorinfo
+      - name: "WSAGetIPUserMtu"
+        href: /windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu
       - name: "WSAGetLastError"
         href: /windows/win32/api/winsock/nf-winsock-wsagetlasterror
       - name: "WSAGetOverlappedResult"
@@ -1093,6 +1099,10 @@
         href: /windows/win32/api/winsock2/nf-winsock2-wsasetblockinghook
       - name: "WSASetEvent"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsasetevent
+      - name: "WSASetFailConnectOnIcmpError"
+        href: /windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetfailconnectonicmperror
+      - name: "WSASetIPUserMtu"
+        href: /windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetipusermtu
       - name: "WSASetLastError"
         href: /windows/win32/api/winsock/nf-winsock-wsasetlasterror
       - name: "WSASetService"

@@ -117,6 +117,9 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**WSAEnumProtocols**](/windows/win32/api/Winsock2/nf-winsock2-wsaenumprotocolsa) | Retrieves information about available transport protocols. |
 | [**WSAEventSelect**](/windows/win32/api/Winsock2/nf-winsock2-wsaeventselect) | Specifies an event object to be associated with the specified set of FD\_XXX network events. |
 | [**\_\_WSAFDIsSet**](/windows/win32/api/winsock/nf-winsock-__wsafdisset) | Specifies whether a socket is included in a set of socket descriptors. |
+| [**WSAGetFailConnectOnIcmpError**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetfailconnectonicmperror) | Queries the state of the [**TCP_FAIL_CONNECT_ON_ICMP_ERROR**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. |
+| [**WSAGetIcmpErrorInfo**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsageticmperrorinfo) | Queries the source address of an ICMP error received on a TCP socket during connection setup. |
+| [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) | Retrieves the user-defined IP layer MTU for a socket. |
 | [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) | Returns the error status for the last operation that failed. |
 | [**WSAGetOverlappedResult**](/windows/win32/api/Winsock2/nf-winsock2-wsagetoverlappedresult) | Retrieves the results of an overlapped operation on the specified socket. |
 | [**WSAGetQOSByName**](/windows/win32/api/Winsock2/nf-winsock2-wsagetqosbyname) | Initializes a [**QOS**](https://msdn.microsoft.com/en-US/library/Aa374024(v=VS.80).aspx) structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names. |
@@ -152,6 +155,8 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**WSASendMsg**](/windows/win32/api/winsock2/nf-winsock2-wsasendmsg) | Sends data and optional control information from connected and unconnected sockets. |
 | [**WSASendTo**](/windows/win32/api/Winsock2/nf-winsock2-wsasendto) | Sends data to a specific destination, using overlapped I/O where applicable. |
 | [**WSASetEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsasetevent) | Sets the state of the specified event object to signaled. |
+| [**WSASetFailConnectOnIcmpError**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetfailconnectonicmperror) | Sets the state of the [**TCP_FAIL_CONNECT_ON_ICMP_ERROR**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. |
+| [**WSASetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetipusermtu) | Sets the user-defined IP layer MTU on a socket. |
 | [**WSASetLastError**](/windows/win32/api/winsock/nf-winsock-wsasetlasterror) | Sets the error code. |
 | [**WSASetService**](/windows/win32/api/Winsock2/nf-winsock2-wsasetservicea) | Registers or removes from the registry a service instance within one or more namespaces. |
 | [**WSASetSocketPeerTargetName**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) | Used to specify the peer target name (SPN) that corresponds to a peer IP address. This target name is meant to be specified by client applications to securely identify the peer that should be authenticated. |
