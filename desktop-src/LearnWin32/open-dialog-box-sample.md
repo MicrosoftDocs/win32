@@ -18,25 +18,10 @@ The Open Dialog Box sample application displays the **Open** dialog box, as show
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at <https://go.microsoft.com/fwlink/p/?linkid=184840>.
+This sample is available [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/OpenDialogBox).
 
 ## Related topics
 
-<dl> <dt>
-
-[Example: The Open Dialog Box](example--the-open-dialog-box.md)
-</dt> <dt>
-
-[Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
-</dt> <dt>
-
-[Module 2: Using COM in Your Windows Program](module-2--using-com-in-your-windows-program.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Example: The Open Dialog Box](example--the-open-dialog-box.md)
+* [Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
+* [Module 2: Using COM in Your Windows Program](module-2--using-com-in-your-windows-program.md)

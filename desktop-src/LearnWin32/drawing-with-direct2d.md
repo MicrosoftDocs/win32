@@ -27,41 +27,17 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
     switch (uMsg)
     {
+        case WM_PAINT:
+            OnPaint();
+            return 0;
 
-
-    case WM_PAINT:
-        OnPaint();
-        return 0;
-
-     // Other messages not shown...
-
+         // Other messages not shown...
+    }
+    return DefWindowProc(m_hwnd, uMsg, wParam, lParam);
+}
 ```
 
-
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    return DefWindowProc(m_hwnd, uMsg, wParam, lParam);
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-
-
 Here is the code that draws the circle.
-
 
 ```C++
 void MainWindow::OnPaint()
