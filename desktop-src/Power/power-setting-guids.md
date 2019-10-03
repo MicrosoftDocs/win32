@@ -106,7 +106,7 @@ The **Data** member is a **DWORD** with one of the following values.
 <span id="GUID_IDLE_BACKGROUND_TASK"></span><span id="guid_idle_background_task"></span>**GUID\_IDLE\_BACKGROUND\_TASK**
 </dt> <dd> <dl> <dt>
 
-515c31d8-f734-163d-a0fd-11a0-8c91e8f1
+515c31d8-f734-163d-a0fd-11a08c91e8f1
 </dt> <dt>
 
 
@@ -167,7 +167,7 @@ For general information about battery saver, see [battery saver (in the hardware
 <span id="GUID_POWERSCHEME_PERSONALITY"></span><span id="guid_powerscheme_personality"></span>**GUID\_POWERSCHEME\_PERSONALITY**
 </dt> <dd> <dl> <dt>
 
-245d8541-3943-4422-b025-13A7-84F679B7
+245d8541-3943-4422-b025-13A784F679B7
 </dt> <dt>
 
 
