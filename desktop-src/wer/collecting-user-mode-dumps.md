@@ -63,7 +63,8 @@ This feature is not enabled by default. Enabling the feature requires administra
 </table>
 
 
-
+>[!NOTE]
+> If [Automatic Debugging](https://docs.microsoft.com/windows/win32/debug/configuring-automatic-debugging#configuring-automatic-debugging-for-application-crashes) is configured, then the debugger will handle the crash and no dump will be collected.
  
 
 These registry values represent the global settings. You can also provide per-application settings that override the global settings. To create a per-application setting, create a new key for your application under **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps** (for example, **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps\\MyApplication.exe**). Add your dump settings under the **MyApplication.exe** key. If your application crashes, WER will first read the global settings, and then will override any of the settings with your application-specific settings.
