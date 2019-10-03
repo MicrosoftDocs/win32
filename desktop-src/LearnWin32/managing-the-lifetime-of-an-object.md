@@ -51,103 +51,43 @@ One advantage of reference counting is that you can share pointers across differ
 
 Here is the code from the [Open dialog box example](example--the-open-dialog-box.md) again.
 
-
 ```C++
-    HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | 
-        COINIT_DISABLE_OLE1DDE);
+HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED |
+    COINIT_DISABLE_OLE1DDE);
+
+if (SUCCEEDED(hr))
+{
+    IFileOpenDialog *pFileOpen;
+
+    hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL,
+            IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
+
     if (SUCCEEDED(hr))
     {
-        IFileOpenDialog *pFileOpen;
-
-
-
-        hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
-                IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
-
+        hr = pFileOpen->Show(NULL);
         if (SUCCEEDED(hr))
         {
-```
-
-
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            hr = pFileOpen->Show(NULL);
-</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            if (SUCCEEDED(hr))
+            IShellItem *pItem;
+            hr = pFileOpen->GetResult(&pItem);
+            if (SUCCEEDED(hr))
             {
-                IShellItem *pItem;
-                hr = pFileOpen->GetResult(&pItem);
+                PWSTR pszFilePath;
+                hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
                 if (SUCCEEDED(hr))
                 {
-                    PWSTR pszFilePath;
-                    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
-</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>                    if (SUCCEEDED(hr))
-                    {
-                        MessageBox(NULL, pszFilePath, L&quot;File Path&quot;, MB_OK);
-                        CoTaskMemFree(pszFilePath);
-                    }
-                    pItem->Release();
+                    MessageBox(NULL, pszFilePath, L&quot;File Path&quot;, MB_OK);
+                    CoTaskMemFree(pszFilePath);
                 }
+                pItem->Release();
             }
-            pFileOpen->Release();
         }
-        CoUninitialize();
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-
+        pFileOpen->Release();
+    }
+    CoUninitialize();
+}
+````
 
 Reference counting occurs in two places in this code. First, if program successfully creates the Common Item Dialog object, it must call [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on the *pFileOpen* pointer.
-
 
 ```C++
 hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
@@ -160,10 +100,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
 Second, when the [**GetResult**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult) method returns a pointer to the [**IShellItem**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) interface, the program must call [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on the *pItem* pointer.
-
 
 ```C++
 hr = pFileOpen->GetResult(&pItem);
@@ -175,18 +112,8 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
 Notice that in both cases, the [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) call is the last thing that happens before the pointer goes out of scope. Also notice that **Release** is called only after you test the **HRESULT** for success. For example, if the call to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) fails, the *pFileOpen* pointer is not valid. Therefore, it would be an error to call **Release** on the pointer.
 
 ## Next
 
 [Asking an Object for an Interface](asking-an-object-for-an-interface.md)
-
- 
-
- 
-
-
-
-

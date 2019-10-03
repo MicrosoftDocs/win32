@@ -18,22 +18,9 @@ The Windows Hello World sample application creates and shows an empty window, as
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=184824]( https://go.microsoft.com/fwlink/p/?linkid=184824).
+This sample is available [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/HelloWorld).
 
 ## Related topics
 
-<dl> <dt>
-
-[Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
-</dt> <dt>
-
-[Module 1. Your First Windows Program](your-first-windows-program.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
+* [Module 1. Your First Windows Program](your-first-windows-program.md)
