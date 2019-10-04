@@ -141,7 +141,7 @@ VOID WINAPI ProcessEvent(PEVENT_TRACE pEvent)
                     wprintf(L"CPU time units used, %Lu.\n", CPUProcessUnits);
 
                     // Processor time is in CPU ticks. Convert ticks to seconds.
-                    // 1000000000 = nanoseconds in one minute.
+                    // 1000000000 = nanoseconds in one second.
 
                     CPUTime = (double)(CPUProcessUnits) / 1000000000;
                     wprintf(L"Process CPU usage in seconds, %Lf.\n", CPUTime);
