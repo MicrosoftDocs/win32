@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To the user, the system appears to be either on or off. There are no other detectable states. However, the system supports multiple power states that correspond to the power states defined in the Advanced Configuration and Power Interface (ACPI) specification. There are also variations of these states, such as hybrid sleep and fast startup. This topic introduces these states and describes how they relate to each other.
 
-> [!Note]  
+> [!NOTE]
 > System integrators and developers creating drivers or applications with a system service should be particularly careful of driver quality issues, such as memory leaks. While driver quality has always been important, the up time between kernel reboots may be significantly longer than on previous versions of the OS because on user initiated sleeps and shutdowns, the kernel, drivers, and services will be preserved and restored, not re-started.
 
  
