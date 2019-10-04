@@ -17,7 +17,7 @@ Power setting **GUID**s are defined in WinNT.h.
 <span id="GUID_ACDC_POWER_SOURCE"></span><span id="guid_acdc_power_source"></span>**GUID\_ACDC\_POWER\_SOURCE**
 </dt> <dd> <dl> <dt>
 
-5d3e9a59-e9D5-4b00-a6bd-ff34ff516548
+5D3E9A59-E9D5-4B00-A6BD-FF34FF516548
 </dt> <dt>
 
 
@@ -40,7 +40,7 @@ The system power source has changed. The **Data** member is a **DWORD** with val
 <span id="GUID_BATTERY_PERCENTAGE_REMAINING"></span><span id="guid_battery_percentage_remaining"></span>**GUID\_BATTERY\_PERCENTAGE\_REMAINING**
 </dt> <dd> <dl> <dt>
 
-a7ad8041-b45a-4cae-87a3-eecbb468a9e1
+A7AD8041-B45A-4CAE-87A3-EECBB468A9E1
 </dt> <dt>
 
 
@@ -53,7 +53,7 @@ The remaining battery capacity has changed. The granularity varies from system t
 <span id="GUID_CONSOLE_DISPLAY_STATE"></span><span id="guid_console_display_state"></span>**GUID\_CONSOLE\_DISPLAY\_STATE**
 </dt> <dd> <dl> <dt>
 
-6fe69556-704a-47a0-8f24-c28d936fda47
+6FE69556-704A-47A0-8F24-C28D936FDA47
 </dt> <dt>
 
 
@@ -106,7 +106,7 @@ The **Data** member is a **DWORD** with one of the following values.
 <span id="GUID_IDLE_BACKGROUND_TASK"></span><span id="guid_idle_background_task"></span>**GUID\_IDLE\_BACKGROUND\_TASK**
 </dt> <dd> <dl> <dt>
 
-515c31d8-f734-163d-a0fd-11a0-8c91e8f1
+515C31D8-F734-163D-A0FD-11A08C91E8F1
 </dt> <dt>
 
 
@@ -121,7 +121,7 @@ There is no notification when the system is able to move into an idle state. The
 <span id="GUID_MONITOR_POWER_ON"></span><span id="guid_monitor_power_on"></span>**GUID\_MONITOR\_POWER\_ON**
 </dt> <dd> <dl> <dt>
 
-02731015-4510-4526-99e6-e5a17ebd1aea
+02731015-4510-4526-99E6-E5A17EBD1AEA
 </dt> <dt>
 
 
@@ -167,7 +167,7 @@ For general information about battery saver, see [battery saver (in the hardware
 <span id="GUID_POWERSCHEME_PERSONALITY"></span><span id="guid_powerscheme_personality"></span>**GUID\_POWERSCHEME\_PERSONALITY**
 </dt> <dd> <dl> <dt>
 
-245d8541-3943-4422-b025-13A7-84F679B7
+245d8541-3943-4422-b025-13A784F679B7
 </dt> <dt>
 
 
@@ -178,7 +178,7 @@ The active power scheme personality has changed. All power schemes map to one of
 
 
 
-**GUID\_MIN\_POWER\_SAVINGS** (8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c)
+**GUID\_MIN\_POWER\_SAVINGS** (8C5E7FDA-E8BF-4A96-9A85-A6E23A8C635C)
 
 High Performance - The scheme is designed to deliver maximum performance at the expense of power consumption savings.
 
@@ -187,7 +187,7 @@ High Performance - The scheme is designed to deliver maximum performance at the 
 
 
 
-**GUID\_MAX\_POWER\_SAVINGS** (a1841308-3541-4fab-bc81-f71556f20b4a)
+**GUID\_MAX\_POWER\_SAVINGS** (A1841308-3541-4FAB-BC81-F71556F20B4A)
 
 Power Saver - The scheme is designed to deliver maximum power consumption savings at the expense of system performance and responsiveness.
 
@@ -196,7 +196,7 @@ Power Saver - The scheme is designed to deliver maximum power consumption saving
 
 
 
-**GUID\_TYPICAL\_POWER\_SAVINGS** (381b4222-f694-41f0-9685-ff5bb260df2e)
+**GUID\_TYPICAL\_POWER\_SAVINGS** (381B4222-F694-41F0-9685-FF5BB260DF2E)
 
 Automatic - The scheme is designed to automatically balance performance and power consumption savings.
 
@@ -264,7 +264,7 @@ This notification is sent only to user-mode applications running in an interacti
 <span id="GUID_SYSTEM_AWAYMODE"></span><span id="guid_system_awaymode"></span>**GUID\_SYSTEM\_AWAYMODE**
 </dt> <dd> <dl> <dt>
 
-98a7f580-01f7-48aa-9c0f-44352c29e5C0
+98A7F580-01F7-48AA-9C0F-44352C29E5C0
 </dt> <dt>
 
 
