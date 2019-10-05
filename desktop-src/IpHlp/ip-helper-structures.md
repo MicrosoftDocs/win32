@@ -1,12 +1,12 @@
 ---
 Description: IP Helper Structures navigation page.
 ms.assetid: d53c3821-00a0-4eaa-9a06-69ec7aa98d84
-title: IP Helper Structures
+title: IP Helper structures
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# IP Helper Structures
+# IP Helper structures
 
 The following structures and unions are used with IP Helper:
 

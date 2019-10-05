@@ -33,7 +33,7 @@ The IP Helper API can be used on all Windows platforms. Not all operating system
 | [What's New in IP Helper](what-s-new-in-ip-helper.md)<br/>  | Information on new features for IP Helper.<br/>                                                                                                                                                             |
 | [About IP Helper](about-ip-helper.md)<br/>                  | General information about IP Helper programming considerations and capabilities available to developers.<br/>                                                                                               |
 | [Using IP Helper](using-ip-helper.md)<br/>                  | Procedures and programming techniques used with IP Helper. This section includes basic IP Helper programming techniques, such as [Getting Started With IP Helper](getting-started-with-ip-helper.md).<br/> |
-| [IP Helper Reference](ip-helper-function-reference.md)<br/> | Reference documentation for the IP Helper functions, structures, and enumerations.<br/>                                                                                                                     |
+| [IP Helper reference](ip-helper-function-reference.md)<br/> | Reference documentation for the IP Helper functions, structures, and enumerations.<br/>                                                                                                                     |
 
 
 
