@@ -14,6 +14,7 @@ The following structures and unions are used with IP Helper:
 -   [**FIXED\_INFO**](/windows/desktop/api/Iptypes/ns-iptypes-fixed_info_w2ksp1)
 -   [**ICMP\_ECHO\_REPLY**](/windows/desktop/api/Ipexport/ns-ipexport-icmp_echo_reply)
 -   [**ICMP\_ECHO\_REPLY32**](/windows/desktop/api/Ipexport/ns-ipexport-icmp_echo_reply32)
+-   [**ICMP_ERROR_INFO**](/windows/win32/api/ws2ipdef/ns-ws2ipdef-icmp_error_info)
 -   [**ICMPV6\_ECHO\_REPLY**](/windows/desktop/api/Ipexport/ns-ipexport-icmpv6_echo_reply_lh)
 -   [**in\_addr**](/windows/desktop/api/Inaddr/ns-inaddr-in_addr)
 -   [**IP\_ADAPTER\_ADDRESSES**](/windows/desktop/api/Iptypes/ns-iptypes-ip_adapter_addresses_lh)

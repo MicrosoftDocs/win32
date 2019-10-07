@@ -439,6 +439,8 @@
         href: /windows/win32/api/Iptypes/ns-iptypes-fixed_info_w2ksp1
       - name: "ICMP_ECHO_REPLY"
         href: /windows/win32/api/Ipexport/ns-ipexport-icmp_echo_reply
+      - name: "ICMP_ERROR_INFO"
+        href: /windows/win32/api/ws2ipdef/ns-ws2ipdef-icmp_error_info
       - name: "ICMP_ECHO_REPLY32"
         href: /windows/win32/api/Ipexport/ns-ipexport-icmp_echo_reply32
       - name: "ICMPV6_ECHO_REPLY"

@@ -51,14 +51,14 @@ To enumerate protocols and discover supported properties for each installed prot
 <td>yes</td>
 <td>yes</td>
 <td>DWORD (Boolean)</td>
-<td>If <strong>TRUE</strong>, a connect API call will return upon reception of an ICMP error with value WSAEHOSTUNREACH. The source address of the error will then be available via the TCP_ICMP_ERROR_INFO socket option. When disabled, the socket behaves normally. The default is disabled. For type-safety, you should use the [**WSAGetFailConnectOnIcmpError**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetfailconnectonicmperror) and [**WSASetFailConnectOnIcmpError**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetfailconnectonicmperror) functions instead of using the socket option directly.</td>
+<td>If <strong>TRUE</strong>, a connect API call will return upon reception of an ICMP error with value WSAEHOSTUNREACH. The source address of the error will then be available via the TCP_ICMP_ERROR_INFO socket option. If <strong>FALSE</strong>, the socket behaves normally. The default is disabled (set to <strong>FALSE</strong>). For type-safety, you should use the <a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetfailconnectonicmperror">WSAGetFailConnectOnIcmpError</a> and <a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetfailconnectonicmperror">WSASetFailConnectOnIcmpError</a> functions instead of using the socket option directly.</td>
 </tr>
 <tr>
 <td>TCP_ICMP_ERROR_INFO</td>
 <td>yes</td>
 <td>no</td>
-<td>ICMP_ERROR_INFO</td>
-<td>Retrieves the info of an ICMP error received by the TCP socket during a failed connect call. Only valid on a TCP socket where TCP_FAIL_CONNECT_ON_ICMP_ERROR has previously been enabled, and **connect** has returned WSAEHOSTUNREACH. The query is non-blocking. If queried successfully and the returned optlen value is 0, then no ICMP error has been received since the last connect call. If an ICMP error was received, its info will be available until **connect** is called again. The info is returned as a ICMP_ERROR_INFO structure. For type-safety, applications should use the [**WSAGetIcmpErrorInfo**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsageticmperrorinfo) function instead of using the socket option directly.</td>
+<td><a href="/windows/win32/api/ws2ipdef/ns-ws2ipdef-icmp_error_info">ICMP_ERROR_INFO</a></td>
+<td>Retrieves the info of an ICMP error received by the TCP socket during a failed connect call. Only valid on a TCP socket where TCP_FAIL_CONNECT_ON_ICMP_ERROR has previously been enabled, and <strong>connect</strong> has returned WSAEHOSTUNREACH. The query is non-blocking. If queried successfully and the returned optlen value is 0, then no ICMP error has been received since the last connect call. If an ICMP error was received, its info will be available until <strong>connect</strong> is called again. The info is returned as an <a href="/windows/win32/api/ws2ipdef/ns-ws2ipdef-icmp_error_info">ICMP_ERROR_INFO</a> structure. For type-safety, you should use the <a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsageticmperrorinfo">WSAGetIcmpErrorInfo</a> function instead of using the socket option directly.</td>
 </tr>
 <tr>
 <td>TCP_KEEPCNT</td>
