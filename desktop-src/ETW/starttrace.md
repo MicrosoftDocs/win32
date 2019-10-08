@@ -188,9 +188,9 @@ Because system loggers receive special kernel events, they are subject to additi
 -   Prior to Windows 10, version 1703, no more than 2 distinct clock types can be used simultaneously by any system loggers. For example, if one active system logger is using the "CPU cycle counter" clock type, and another active system logger is using the "Query performance counter" clock type, then any attempt to start a system logger using the "System time" clock type will fail because it would require the activation of a third clock type. Because of this limitation, Microsoft strongly recommends that system loggers do not use the "System time" clock type.
 -   Starting with Windows 10, version 1703, the clock type restriction has been removed. All three clock types can now be used simultaneously by system loggers.
 
-To specify the NT Kernel Logger session, set *SessionName* to **KERNEL\_LOGGER\_NAME** and the **Wnode.Guid** member of *Properties* to **SystemTraceControlGuid**. If you do not specify the GUID as **SystemTraceControlGuid**, ETW will override the GUID value and set it to **SystemTraceControlGuid**.  
-> [!Note]
-> The NT Kernel Logger session is a singleton session so using it risks collisions with other applications or users.  For this reason, on Windows 8, Windows Server 2012, and later, it is recommended to use sessions marked with **EVENT\_TRACE\_SYSTEM\_LOGGER\_MODE** to enable the [SystemTraceProvider](configuring-and-starting-a-systemtraceprovider-session.md) instead.  
+To specify the NT Kernel Logger session, set *SessionName* to **KERNEL\_LOGGER\_NAME** and the **Wnode.Guid** member of *Properties* to **SystemTraceControlGuid**. If you do not, ETW overrides the GUID value and sets it to **SystemTraceControlGuid**.  
+> [!NOTE]
+> The NT Kernel Logger session is a singleton session, so collisions with other applications or users are possible. On Windows 8 and later, and Windows Server 2012 and later, we recommended using sessions marked with **EVENT\_TRACE\_SYSTEM\_LOGGER\_MODE** to enable the [SystemTraceProvider](configuring-and-starting-a-systemtraceprovider-session.md).  
 
 **Windows 2000:** To start the kernel session, the session name must be **KERNEL\_LOGGER\_NAME** and the GUID must be **SystemTraceControlGuid**.
 
