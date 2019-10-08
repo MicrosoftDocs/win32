@@ -257,7 +257,7 @@
           "WsdApi/**.md": "stwhi",
           "wsw/**.md": "stwhi",
           "Wua_Sdk/**.md": "mcleans",
-          "xaudio2/**.md": "stwhi",
+          "xaudio2/**.md": "drewbat",
           "xinput/**.md": "kbridge"
         },
         "author":
