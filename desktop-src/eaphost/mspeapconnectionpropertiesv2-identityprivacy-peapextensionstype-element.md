@@ -1,5 +1,5 @@
 ---
-title: 
+title: IdentityPrivacy (PeapExtensionsType) Element
 description: Indicates whether a user's true identity or an anonymous identity is sent.
 ms.assetid: 57b8747e-6919-4243-a379-3a85c4a2023a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: 
+title: PeapExtensionsV2 (PeapExtensionsType) Element
 description: Enables future enhancements to the schema.
 ms.assetid: afac3a39-9cdc-42de-8f9e-c37405ec662a
 keywords:
