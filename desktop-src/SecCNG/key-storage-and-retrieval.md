@@ -70,11 +70,11 @@ The Microsoft legacy CryptoAPI CSPs store private keys in the following director
 
 | Key type                | Directories                                                                                                                                                 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| User private            | %APPDATA%\\Microsoft\\Crypto\\RSA\\*User SID*\\%APPDATA%\\Microsoft\\Crypto\\DSS\\*User SID*\\<br/>                                                   |
-| Local system private    | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-18\\%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\S-1-5-18\\<br/>   |
-| Local service private   | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-19\\%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\S-1-5-19\\<br/>   |
-| Network service private | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-20\\%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\S-1-5-20\\<br/>   |
-| Shared private          | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\MachineKeys%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\MachineKeys<br/> |
+| User private            | %APPDATA%\\Microsoft\\Crypto\\RSA\\*User SID*\\<br/>%APPDATA%\\Microsoft\\Crypto\\DSS\\*User SID*\\<br/>                                                   |
+| Local system private    | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-18\\<br/>%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\S-1-5-18\\<br/>   |
+| Local service private   | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-19\\<br/>%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\S-1-5-19\\<br/>   |
+| Network service private | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-20\\<br/>%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\S-1-5-20\\<br/>   |
+| Shared private          | %ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\RSA\\MachineKeys<br/>%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Crypto\\DSS\\MachineKeys<br/> |
 
 
 
