@@ -97,19 +97,19 @@ The World Wide Web Consortium (W3C) defines a decorative image as one that doesn
 
 With respect to UI Automation:
 
-- A purely decorative image conveys no information and exists for aesthetic purposes only. In this case, an image:
+- If an image is purely decorative, is not interactive, and conveys no information, the image:
   - Might or might not be in the UIA tree
   - Might or might not be in the UIA raw view
   - Might or might not be in the UIA control view
   - Might not be in the content view
   - Might or might not have a name
-- An image can be considered decorative, even when it conveys information, if there is associated text content that provides the same information. For example, a play button that contains a left-pointing triangle graphic along with the text "play". In this case, an image:
+- If an image conveys information, but there is clearly associated text that provides the same information (such as a play button that contains a left-pointing triangle graphic along with the text "play"), the image is considered decorative and the image:
   - Must be in the raw view
   - Must be in the control view
   - Must not be in the content view
   - Might or might not have a value in the Name property
   - The text that also conveys the meaning of the image must be in the content view
-- Informative images convey information that is not otherwise conveyed to the user as text. In this case, an image:
+- If an image is informative and conveys detail that is not provided by any associated text, the image:
   - Must be in the raw view
   - Must be in the control view
   - Must be in the content view
