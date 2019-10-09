@@ -100,8 +100,8 @@ With respect to UI Automation:
 - If an image is purely decorative, is not interactive, and conveys no information, the image:
   - Might or might not be in the UIA tree
   - Might or might not be in the UIA raw view
-  - Might or might not be in the UIA control view
-  - Might not be in the content view
+  - Must not be in the UIA control view
+  - Must not be in the content view
   - Might or might not have a name
 - If an image conveys information, but there is clearly associated text that provides the same information (such as a play button that contains a left-pointing triangle graphic along with the text "play"), the image is considered decorative and the image:
   - Must be in the raw view
@@ -113,7 +113,7 @@ With respect to UI Automation:
   - Must be in the raw view
   - Must be in the control view
   - Must be in the content view
-  - Must have text describing the image and its meaning
+  - Must have a name value that describes the image and its meaning
 
 ## Related topics
 
