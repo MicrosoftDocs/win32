@@ -284,7 +284,7 @@ The rdtsc instruction is one way to get accurate timing information on Windows. 
 
 Visual Studio fully supports multithreaded debugging for Windows and Xbox 360. The Visual Studio threads window lets you switch between threads in order to see the different call stacks and local variables. The threads window also lets you freeze and thaw particular threads.
 
-On Xbox 360, you can use the **@hwthread** meta-variable in the watch window to show the hardware thread on which the currently selected software thread is running.
+On Xbox 360, you can use the **\@hwthread** meta-variable in the watch window to show the hardware thread on which the currently selected software thread is running.
 
 The threads window is easier to use if you name your threads meaningfully. Visual Studio and other Microsoft debuggers allow you to name your threads. Implement the following **SetThreadName** function and call it from each thread as it starts up.
 
