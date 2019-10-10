@@ -75,6 +75,12 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Matr
 | `float4x4 transpose(float4x4 const& matrix)` | Transposes the components of a matrix along its diagonal. |
 | `float4x4 lerp(float4x4 const& matrix1, float4x4 const& matrix2, float amount)` | Linearly interpolates between the corresponding values of two matrices. |
 
+## Methods
+
+| Name | Description |
+|-|-|
+| `static float4x4 identity()` | Returns an instance of the identity matrix. |
+
 ## Operators
 
 | Name | Description |

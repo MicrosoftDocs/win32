@@ -52,6 +52,12 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Quat
 | `quaternion lerp(quaternion const& quaternion1, quaternion const& quaternion2, float amount)` | Linearly interpolates between two quaternions. |
 | `quaternion concatenate(quaternion const& value1, quaternion const& value2)` | Concatenates two quaternions; the result represents the first rotation followed by the second rotation. |
 
+## Methods
+
+| Name | Description |
+|-|-|
+| `static quaternion identity()` | Returns an instance of the identity matrix. |
+
 ## Operators
 
 | Name | Description |
