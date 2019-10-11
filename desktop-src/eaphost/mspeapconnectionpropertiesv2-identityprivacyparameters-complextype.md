@@ -2,8 +2,6 @@
 title: IdentityPrivacyParameters Complex Type
 description: Contains information about anonymous identity usage during PEAP authentication.
 ms.assetid: 81cf2403-ef25-4256-8d18-9d7b71792e6c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

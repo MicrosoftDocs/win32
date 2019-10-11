@@ -2,8 +2,6 @@
 title: EAP Frequently Asked Questions
 description: Provides answers to commonly-asked questions about the EAP APIs.
 ms.assetid: 4e26df7b-3cce-4522-ab39-e24f06b4c4b4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

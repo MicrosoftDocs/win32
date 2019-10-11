@@ -2,8 +2,6 @@
 title: Components of EAPHost
 description: Describes the three components of EAPHost authentication.
 ms.assetid: f875c3f8-d2fb-461e-b356-e1b2ccaf9981
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

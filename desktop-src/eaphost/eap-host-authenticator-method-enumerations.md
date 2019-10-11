@@ -2,8 +2,6 @@
 title: EAPHost Authenticator Method Enumerations
 description: EAPHost Authenticator Method Enumerations
 ms.assetid: 8c21625f-a9b7-4ea5-98ff-cdcce637dad8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

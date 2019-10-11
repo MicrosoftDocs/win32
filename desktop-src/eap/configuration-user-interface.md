@@ -2,8 +2,6 @@
 title: Configuration User Interface
 description: Configuration user interfaces (UI) for authentication protocols are implemented differently depending on whether the UI is for configuring the authentication protocol on the client, or on the server.
 ms.assetid: 956a7ad6-1fd5-4938-aa2f-4de646dfd6c2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

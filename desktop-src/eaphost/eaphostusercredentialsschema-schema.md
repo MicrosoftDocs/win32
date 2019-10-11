@@ -2,8 +2,6 @@
 title: eaphostusercredentials Schema
 description: Defines EAPHost credential schema.
 ms.assetid: a2aff175-06c8-4352-9f37-edcd44229ea8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: eapconnectionpropertiesv1 Schema Elements
 description: Is made up of the following schema elements.
 ms.assetid: d9f4a20c-2120-47ee-a1f7-28961d5cf677
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

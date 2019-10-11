@@ -2,8 +2,6 @@
 title: eaptlsconnectionpropertiesv2 Schema
 description: Defines authentication configuration data using EAP-Transport Layer Security (EAP-TLS) in Windows 7 and later versions of Windows.
 ms.assetid: 236df020-9a68-4b2b-a2b3-c71c59a2433e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

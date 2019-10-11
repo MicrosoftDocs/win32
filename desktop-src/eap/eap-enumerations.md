@@ -2,8 +2,6 @@
 title: EAP Enumerations
 description: Use the following enumerated types for authentication protocols and authentication providers.
 ms.assetid: 727398b3-7951-4393-b615-40ad90137fdc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
