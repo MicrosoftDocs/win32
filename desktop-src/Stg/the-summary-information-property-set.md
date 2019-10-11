@@ -20,149 +20,29 @@ The declaration for this value is available in the header file as **FMTID\_Summa
 
 The following table lists the string property names for the Summary Information property set, along with the respective property identifiers and variable type (VT) indicators. The names are not typically stored in the property set, but are inferred from the Property ID value. The Property ID String entries shown here correspond to definitions found in the header files.
 
-
-
-Name
-
-Property ID string
-
-Property ID
-
-VT type
-
-Title
-
-PIDSI\_TITLE
-
-0x00000002
-
-VT\_LPSTR
-
-Subject
-
-PIDSI\_SUBJECT
-
-0x00000003
-
-VT\_LPSTR
-
-Author
-
-PIDSI\_AUTHOR
-
-0x00000004
-
-VT\_LPSTR
-
-Keywords
-
-PIDSI\_KEYWORDS
-
-0x00000005
-
-VT\_LPSTR
-
-Comments
-
-PIDSI\_COMMENTS
-
-0x00000006
-
-VT\_LPSTR
-
-Template
-
-PIDSI\_TEMPLATE
-
-0x00000007
-
-VT\_LPSTR
-
-Last Saved By
-
-PIDSI\_LASTAUTHOR
-
-0x00000008
-
-VT\_LPSTR
-
-Revision Number
-
-PIDSI\_REVNUMBER
-
-0x00000009
-
-VT\_LPSTR
-
-Total Editing Time
-
-PIDSI\_EDITTIME
-
-0x0000000A
-
-VT\_FILETIME (UTC)
-
-Last Printed
-
-PIDSI\_LASTPRINTED
-
-0x0000000B
-
-VT\_FILETIME (UTC)
-
-Create Time/Date( (\*))
-
-PIDSI\_CREATE\_DTM
-
-0x0000000C
-
-VT\_FILETIME (UTC)
-
-Last saved Time/Date( (\*))
-
-PIDSI\_LASTSAVE\_DTM
-
-0x0000000D
-
-VT\_FILETIME (UTC)
-
-Number of Pages Number of Words Number of Characters
-
-PIDSI\_PAGECOUNT PIDSI\_WORDCOUNT PIDSI\_CHARCOUNT
-
-0x0000000E 0x0000000F 0x00000010
-
-VT\_I4 VT\_I4 VT\_I4
-
-Thumbnail
-
-PIDSI\_THUMBNAIL
-
-0x00000011
-
-VT\_CF
-
-Name of Creating Application
-
-PIDSI\_APPNAME
-
-0x00000012
-
-VT\_LPSTR
-
-Security
-
-PIDSI\_SECURITY
-
-0x00000013
-
-VT\_I4
-
-\* Some methods of file transfer, such as a download from a BBS, do not maintain the file system version of this information correctly.
-
-
-
- 
+| Name | Property ID string | Property ID | VT type |
+|------|--------------------|-------------|---------|
+| Title | PIDSI\_TITLE | 0x00000002 | VT\_LPSTR  |
+| Subject | PIDSI\_SUBJECT | 0x00000003 | VT\_LPSTR |
+| Author | PIDSI\_AUTHOR | 0x00000004 | VT\_LPSTR |
+| Keywords | PIDSI\_KEYWORDS | 0x00000005 | VT\_LPSTR |
+| Comments | PIDSI\_COMMENTS | 0x00000006 | VT\_LPSTR |
+| Template | PIDSI\_TEMPLATE | 0x00000007 | VT\_LPSTR |
+| Last Saved By | PIDSI\_LASTAUTHOR | 0x00000008 | VT\_LPSTR |
+| Revision Number | PIDSI\_REVNUMBER | 0x00000009 | VT\_LPSTR |
+| Total Editing Time | PIDSI\_EDITTIME | 0x0000000A | VT\_FILETIME (UTC) |
+| Last Printed | PIDSI\_LASTPRINTED | 0x0000000B | VT\_FILETIME (UTC) |
+| Create Time/Date (see note below) | PIDSI\_CREATE\_DTM | 0x0000000C | VT\_FILETIME (UTC) |
+| Last saved Time/Date (see note below) | PIDSI\_LASTSAVE\_DTM | 0x0000000D | VT\_FILETIME (UTC) |
+| Number of Pages | PIDSI\_PAGECOUNT | 0x0000000E | VT\_I4 |
+| Number of Words | PIDSI\_WORDCOUNT | 0x0000000F | VT\_I4 |
+| Number of Characters | PIDSI\_CHARCOUNT | 0x00000010 | VT\_I4 |
+| Thumbnail | PIDSI\_THUMBNAIL | 0x00000011 | VT\_CF |
+| Name of Creating Application | PIDSI\_APPNAME | 0x00000012 | VT\_LPSTR |
+| Security | PIDSI\_SECURITY | 0x00000013 | VT\_I4 |
+
+> [!NOTE]
+> For **Create Time/Date** and **Last saved Time/Date**, some methods of file transfer, such as a download from a BBS, do not maintain the file system version of this information correctly.
 
 ## Related topics
 
