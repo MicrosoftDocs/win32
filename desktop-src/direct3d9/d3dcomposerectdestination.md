@@ -83,7 +83,7 @@ Top coordinate to begin copy at.
 
 ## Remarks
 
-This structure is used in calls to [**ComposeRects**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects) to indicate the locaiton glyphs should be copied to and which particular glyph should be copied. A vertex buffer (see [**IDirect3DVertexBuffer9**](https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx)) filled with these structures are created to contain the glyph locations. USHORT members are used to reduce the memory footprint as much as possible.
+This structure is used in calls to [**ComposeRects**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects) to indicate the location glyphs should be copied to and which particular glyph should be copied. A vertex buffer (see [**IDirect3DVertexBuffer9**](https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx)) filled with these structures are created to contain the glyph locations. USHORT members are used to reduce the memory footprint as much as possible.
 
 ## Requirements
 
