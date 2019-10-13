@@ -15,7 +15,7 @@ When an application uses the Credentials Management API to prompt for credential
 
 ## User Principal Name
 
-[*User principal name*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) (UPN) format is used to specify an Internet-style name, such as *UserName***@***Example.Microsoft***.com**. The following table summarizes the parts of a UPN.
+[*User principal name*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) (UPN) format is used to specify an Internet-style name, such as *UserName***\@***Example.Microsoft***.com**. The following table summarizes the parts of a UPN.
 
 
 
@@ -29,7 +29,7 @@ When an application uses the Credentials Management API to prompt for credential
 
  
 
-A UPN can be implicitly or explicitly defined. An implicit UPN is of the form *UserName***@***DNSDomainName***.com**. An implicit UPN is always associated with the user's account, even if an explicit UPN is not defined. An explicit UPN is of the form *Name***@***Suffix*, where both the name and suffix strings are explicitly defined by the administrator.
+A UPN can be implicitly or explicitly defined. An implicit UPN is of the form *UserName***\@***DNSDomainName***.com**. An implicit UPN is always associated with the user's account, even if an explicit UPN is not defined. An explicit UPN is of the form *Name***\@***Suffix*, where both the name and suffix strings are explicitly defined by the administrator.
 
 ## Down-Level Logon Name
 
