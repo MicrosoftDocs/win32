@@ -2,8 +2,6 @@
 title: Implementing In-Band NAP Support for EAP Methods
 description: Can be enabled for EAPHost EAP methods that support the transmission of type-length-value objects (TLVs).
 ms.assetid: 298c89d9-7a6a-4280-9af9-77c7c00cab92
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: 
+title: PerformServerValidation (PeapExtensionsType) Element
 description: Indicates whether server validation is performed.
 ms.assetid: b0483ed0-a02f-4f60-b1ae-7c5e6be8e196
 keywords:
@@ -10,8 +10,6 @@ api_name:
 - PerformServerValidation
 api_type:
 - Schema
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

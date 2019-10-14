@@ -2,8 +2,6 @@
 title: Tunnel Method API Call Sequence
 description: This topic covers the API call sequence for Tunnel Methods.
 ms.assetid: 48aad213-1d29-4809-9599-b56325b2b8e8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

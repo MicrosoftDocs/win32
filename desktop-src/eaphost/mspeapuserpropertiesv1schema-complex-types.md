@@ -2,8 +2,6 @@
 title: mspeapuserpropertiesv1 Schema Complex Types
 description: Defines the following complex type.
 ms.assetid: c516da4c-2730-4bce-bea3-d9b624196edc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

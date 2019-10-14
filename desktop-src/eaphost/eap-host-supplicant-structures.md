@@ -2,8 +2,6 @@
 title: EAPHost Supplicant Structures
 description: EAPHost Supplicant Structures
 ms.assetid: 77595f36-140d-4d8e-af8e-63e9de0031c4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

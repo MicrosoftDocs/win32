@@ -2,8 +2,6 @@
 title: mspeapconnectionpropertiesv1 Schema Elements
 description: Consists of the following schema elements.
 ms.assetid: 33459529-1267-47dd-8970-1ddde6dccfa4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

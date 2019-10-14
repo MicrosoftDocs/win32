@@ -2,8 +2,6 @@
 title: EAPHost Peer Method Configuration Functions
 description: EAPHost Peer Method Configuration Functions
 ms.assetid: ba5c90b2-5185-4810-84a2-d08e62e8105c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

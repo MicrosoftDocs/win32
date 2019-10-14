@@ -2,8 +2,6 @@
 title: EAPHost Peer Method Enumerations
 description: EAPHost Peer Method Enumerations
 ms.assetid: e57e8c74-b224-4c01-913b-e41af651acc3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
