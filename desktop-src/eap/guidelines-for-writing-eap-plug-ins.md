@@ -2,8 +2,6 @@
 title: Guidelines for Writing EAP DLLs
 description: EAP DLLs or Plug-ins can be written to optimize their performance in different scenarios.
 ms.assetid: 79b9bc54-6eb0-4e01-822e-af83fc475ec5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

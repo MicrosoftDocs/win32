@@ -2,8 +2,6 @@
 title: Common EAPHost Constants
 description: Common EAPHost Constants
 ms.assetid: 35ea5b31-0a83-47e0-acb4-e90d93c2b490
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

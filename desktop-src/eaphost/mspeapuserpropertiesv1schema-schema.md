@@ -2,8 +2,6 @@
 title: mspeapuserpropertiesv1 Schema
 description: Defines authentication credentials and credential options using Protected Extensible Authentication Protocol (PEAP).
 ms.assetid: b7cc9ac0-b4b2-4b32-8b9a-981574721a9b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

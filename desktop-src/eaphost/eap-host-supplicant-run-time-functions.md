@@ -2,8 +2,6 @@
 title: EAPHost Supplicant Run-Time Functions
 description: EAPHost Supplicant Run-Time Functions
 ms.assetid: b1c473ba-9a12-4929-b4d0-27262117e9c0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

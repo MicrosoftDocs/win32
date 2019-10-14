@@ -2,8 +2,6 @@
 title: Server-Side Configuration User Interface
 description: Implement a configuration UI for the server by implementing the COM interface, IEAPProviderConfig.
 ms.assetid: b205c573-6694-42c0-b4f1-1480932dd644
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

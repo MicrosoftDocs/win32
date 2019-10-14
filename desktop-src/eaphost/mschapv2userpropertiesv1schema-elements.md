@@ -2,8 +2,6 @@
 title: mschapv2userpropertiesv1 Schema Elements
 description: Consists of the following schema elements.
 ms.assetid: 758b3e0c-817b-49ce-bd14-4d412cdc4f1f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

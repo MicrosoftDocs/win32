@@ -2,8 +2,6 @@
 title: EAP Structures
 description: Vendors should use the following structure types for authentication protocols and authentication providers.
 ms.assetid: f2f1cf75-18d4-4764-a747-24662f166eb7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

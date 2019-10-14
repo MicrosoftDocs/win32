@@ -2,8 +2,6 @@
 title: SSO EAP-TLS PIN Caching Behavior
 description: Provides a step-by-step approach for resolving matters of session resumption and re-authentication of a roaming user in an SSO EAP-TLS environment.
 ms.assetid: aeded6c9-315d-4115-9750-485f017dd8dd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
