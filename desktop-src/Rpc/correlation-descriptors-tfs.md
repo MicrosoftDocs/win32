@@ -86,7 +86,8 @@ FC_SMALL | FC_USMALL |
 FC_HYPER
 ```
 
-> [!Note]64-bit expressions are not supported. FC\_HYPER is used only for **iid\_is()** on 64-bit platforms to extract the pointer value for IID\*.
+> [!Note]
+> 64-bit expressions are not supported. FC\_HYPER is used only for **iid\_is()** on 64-bit platforms to extract the pointer value for IID\*.
 >
 > The compiler sets the type nibble to zero for the following cases: constant expression mentioned above and when evaluation expression routine needs to be called, for example, when FC\_CONSTANT\_CONFORMANCE and FC\_CALLBACK are used.
 

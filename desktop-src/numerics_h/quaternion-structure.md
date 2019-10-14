@@ -56,7 +56,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Quat
 
 | Name | Description |
 |-|-|
-| `static quaternion identity()` | Returns an instance of the identity matrix. |
+| `static quaternion identity()` | Returns an instance of the identity quaternion. |
 
 ## Operators
 
