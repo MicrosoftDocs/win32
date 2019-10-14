@@ -377,10 +377,7 @@ Refer to the following enums and structures:
 
 Finally, call [**ID3D12Device::CreateRenderTargetView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrendertargetview).
 
-Note that an alternative way to create a render target view is to create a render target descriptor heap.
-
 For example,
-
 
 ```C++
 // Create descriptor heaps.
