@@ -72,7 +72,7 @@ Here are two of the most common ways to use this tool to sign the signable file.
 
     ![command prompt window showing this command](images/signtool.png)
 
-After you sign the file, you can verify that it's been successfully signed with a valid certificate with the folllowing:
+After you sign the file, you can verify that it's been successfully signed with a valid certificate with the following:
 
 ``` syntax
 signtool verify /a SignableFile.bin
