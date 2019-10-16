@@ -205,14 +205,14 @@ BOOL IsMouseWheelPresent()
 
 
 
-If the user rotates the mouse wheel, the window with focus receives a [**WM\_MOUSEWHEEL**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousewheel) message. The *lParam* parameter of this message contains an integer value called the *delta* that measures how far the wheel was rotated. The delta uses arbitrary units, where 120 units is defined as the rotation needed to perform one "action." Of course, the definition of an action depends on your program. For example, if the mouse wheel is used to scroll text, each 120 units of rotation would scroll one line of text.
+If the user rotates the mouse wheel, the window with focus receives a [**WM\_MOUSEWHEEL**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousewheel) message. The *wParam* parameter of this message contains an integer value called the *delta* that measures how far the wheel was rotated. The delta uses arbitrary units, where 120 units is defined as the rotation needed to perform one "action." Of course, the definition of an action depends on your program. For example, if the mouse wheel is used to scroll text, each 120 units of rotation would scroll one line of text.
 
 The sign of the delta indicates the direction of rotation:
 
 -   Positive: Rotate forward, away from the user.
 -   Negative: Rotate backward, toward the user.
 
-The value of the delta is placed in *lParam* along with some additional flags. Use the [**GET\_WHEEL\_DELTA\_WPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_wheel_delta_wparam) macro to get the value of the delta.
+The value of the delta is placed in *wParam* along with some additional flags. Use the [**GET\_WHEEL\_DELTA\_WPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_wheel_delta_wparam) macro to get the value of the delta.
 
 
 ```C++
