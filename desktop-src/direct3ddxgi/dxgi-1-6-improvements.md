@@ -10,9 +10,6 @@ ms.date: 09/24/2019
 
 The following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 in order to detect HDR displays.
 
-- [High Dynamic Range (HDR) Detection](#high-dynamic-range-hdr-detection)
-- [Related topics](#related-topics)
-
 ## High dynamic range (HDR) detection
 
 The following APIs have been added in order to detect HDR displays.

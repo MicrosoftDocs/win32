@@ -10,14 +10,6 @@ ms.date: 05/31/2018
 
 The following functionality has been added in Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.
 
--   [Presentation enhancements and optimizations](#presentation-enhancements-and-optimizations)
--   [Desktop duplication](#desktop-duplication)
--   [Improved usage of shared resources and synchronized events](#improved-usage-of-shared-resources-and-synchronized-events)
--   [Offer the video memory of resources](#offer-the-video-memory-of-resources)
--   [GPU preemption at finer granularity levels for WDDM 1.2 driver model](#gpu-preemption-at-finer-granularity-levels-for-wddm-12-driver-model)
--   [Debugging APIs](#debugging-apis)
--   [Related topics](#related-topics)
-
 ## Presentation enhancements and optimizations
 
 DXGI 1.2 enhances presentation with a new flip-model swap chain, content protection, windowless presentation, and optimized presentation wherein you specify dirty rectangles and scrolled areas. Presentation is also enhanced with stereoscopic 3D display behavior.
@@ -127,14 +119,4 @@ For info about how to debug DirectX apps remotely, see [Debugging DirectX apps r
 
 ## Related topics
 
-<dl> <dt>
-
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
