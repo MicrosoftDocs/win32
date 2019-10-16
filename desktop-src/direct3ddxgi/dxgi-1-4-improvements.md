@@ -10,11 +10,6 @@ ms.date: 05/31/2018
 
 The following functionality has been added or changed in Microsoft DirectX Graphics Infrastructure (DXGI) 1.4, largely to support Direct3D 12.
 
--   [Cheaper adapter enumeration](#cheaper-adapter-enumeration)
--   [Video memory budget tracking](#video-memory-budget-tracking)
--   [Direct3D 12 Swapchain Changes](#direct3d-12-swapchain-changes)
--   [Related topics](#related-topics)
-
 ## Cheaper adapter enumeration
 
 For Direct3D 12, it’s no longer possible to backtrack from a device to the [**IDXGIAdapter**](/windows/win32/api/DXGI/nn-dxgi-idxgiadapter) that was used to create it. It’s also no longer possible to provide D3D\_DRIVER\_TYPE\_WARP into [**D3D12CreateDevice**](https://msdn.microsoft.com/en-us/library/Dn770336(v=VS.85).aspx). To make development easier, you can use [**IDXGIFactory4**](/windows/win32/api/DXGI1_4/nn-dxgi1_4-idxgifactory4) to deal with both of these. [**IDXGIFactory4::EnumAdapterByLuid**](/windows/win32/api/DXGI1_4/nf-dxgi1_4-idxgifactory4-enumadapterbyluid) (designed to be paired with [**ID3D12Device::GetAdapterLuid**](https://msdn.microsoft.com/en-us/library/Dn914411(v=VS.85).aspx)) enables an app to retrieve information about the adapter where a Direct3D 12 device was created. [**IDXGIFactory4::EnumWarpAdapter**](/windows/win32/api/DXGI1_4/nf-dxgi1_4-idxgifactory4-enumwarpadapter) provides an adapter which can be provided to **D3D12CreateDevice** to use the WARP renderer.
@@ -49,17 +44,6 @@ When a swapchain is created on a multi-GPU adapter, the backbuffers are all crea
 
 ## Related topics
 
-<dl> <dt>
-
 [Direct3D 12 Hardware Feature Levels](https://msdn.microsoft.com/en-us/library/Mt186615(v=VS.85).aspx)
-</dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

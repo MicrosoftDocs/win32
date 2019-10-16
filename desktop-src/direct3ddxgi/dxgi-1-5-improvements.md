@@ -10,12 +10,6 @@ ms.date: 05/31/2018
 
 The following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.5, to support more flexible specifying and duplication of output formats.
 
--   [High Dynamic Range and Wide Color Gamut](#high-dynamic-range-and-wide-color-gamut)
--   [Variable refresh rate displays](#variable-refresh-rate-displays)
--   [Duplicating output](#duplicating-output)
--   [Offering and Reclaiming Resources](#offering-and-reclaiming-resources)
--   [Related topics](#related-topics)
-
 ## High Dynamic Range and Wide Color Gamut
 
 Refer to [High Dynamic Range and Wide Color Gamut](high-dynamic-range-and-wide-color-gamut.md).
@@ -34,14 +28,4 @@ Updated methods, [**OfferResources1**](/windows/desktop/api/dxgi1_5/nf-dxgi1_5-i
 
 ## Related topics
 
-<dl> <dt>
-
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
