@@ -18,6 +18,8 @@ Byte array
 
 This attribute corresponds to the **dwSequenceHeader** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx) structure, or the **bSequenceHeader** member of the [**MPEG1VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx) structure.
 
+For h264 and h265 video, the blob contains concatenated [NAL units](https://en.wikipedia.org/wiki/Network_Abstraction_Layer) in Annex B format, along with their start codes. Specifically, for h264 video they are SPS & PPS NAL units. For h265 they are VPS, SPS & PPS.
+
 The GUID constant for this attribute is exported from mfuuid.lib.
 
 ## Requirements
