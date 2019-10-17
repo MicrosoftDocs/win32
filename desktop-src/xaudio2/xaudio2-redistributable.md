@@ -1,3 +1,11 @@
+---
+Description: Developer guide for redistributable version of XAudio 2.9
+ms.assetid: 
+title: Developer guide for redistributable version of XAudio 2.9
+ms.topic: article
+ms.date: 10/17/2019
+---
+
 # Developer guide for redistributable version of XAudio 2.9
 
 A version of XAudio 2.9 is available as a [NuGet package](https://www.nuget.org/). Developers can redistribute this version of XAudio 2.9 with their apps. This allows an app to use XAudio 2.9 on older versions of Windows that do no not include XAudio 2.9 as part of the operating system image. Use of this redistributable is preferred over redistributing XAudio 2.7 from the DirectX SDK, as XAudio 2.7 has not been updated since 2010.
@@ -28,7 +36,7 @@ The XAudio 2.9 NuGet package includes the same XAudio2 header files that are inc
 
 If you [install the NuGet package](#installing-the-nuget-package) using the NuGet Package Manager in Microsoft Visual Studio then the path to the header files is placed in front of the path to the Windows SDK header files. That means that if code in your project includes the XAUDIO2.H header, it will pick up the cross-platform header from the NuGet package. This is normally the desired behavior.
 
-You should be careful if adding the path to the include headers manually to the project, as specifying them in the wrong order can cause the OS-version specific [XAUDIO2.H](https://docs.microsoft.com/en-us/windows/win32/api/xaudio2/) to be included from the Windows SDK, rather than the cross-platform version of XAUDIO2.H.
+You should be careful if adding the path to the include headers manually to the project, as specifying them in the wrong order can cause the OS-version specific [XAUDIO2.H](/windows/win32/api/xaudio2/) to be included from the Windows SDK, rather than the cross-platform version of XAUDIO2.H.
 
 To make the inclusion of headers less error-prone, the NuGet package contains a version of each header with "WIN7" appended to it. For example, in addition to XAUDIO2.H, the NuGet package also includes XAUDIO2WIN7.H. If you prefer, your code can directly include XAUDIO2WIN7.H to eliminate any ambiguity about which header file is being used. When including the -WIN7.H version of a header file, the order in which the include file directories are listed in the project file do not matter.
 
@@ -36,7 +44,7 @@ Note that if your app is also being compiled for Xbox One, you should continue t
 
 ## Loading the DLL
 
-We recommend that you link your app with XAUDIO2WIN7.LIB and install XAUDIO2WIN7.DLL in the same folder as your app's executable. This will cause XAUDIO2WIN7.DLL to be loaded as soon as your executable is launched. However, if you prefer, you may use [**LoadLibraryEx**](https://docs.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw) and [**GetProcAddress**](https://docs.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to load XAUDIO2WIN7.DLL on demand. This is a good solution if your app does not always need to use the XAudio2 APIs. But if you do this, you should keep the XAUDIO2WIN7.DLL loaded until the app exits, as attempting to unload the DLL can cause a crash if a background thread is still executing code in the DLL.
+We recommend that you link your app with XAUDIO2WIN7.LIB and install XAUDIO2WIN7.DLL in the same folder as your app's executable. This will cause XAUDIO2WIN7.DLL to be loaded as soon as your executable is launched. However, if you prefer, you may use [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to load XAUDIO2WIN7.DLL on demand. This is a good solution if your app does not always need to use the XAudio2 APIs. But if you do this, you should keep the XAUDIO2WIN7.DLL loaded until the app exits, as attempting to unload the DLL can cause a crash if a background thread is still executing code in the DLL.
 
 Unlike the older XAudio 2.7, it is not possible to use CoCreateInstance to load the DLL.
 
@@ -58,7 +66,7 @@ XAudio 2.9 will only use the user's selected spatial sound format if the process
 
 ### Opting out from spatial sound
 
-There is a way to opt out from having XAudio2 use the spatial sound encoder by specifying certain values for the [**AUDIO_STREAM_CATEGORY**](https://docs.microsoft.com/en-us/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) parameter in [**IXAudio2::CreateMasteringVoice**](https://msdn.microsoft.com/en-us/library/Hh405048(v=VS.85).aspx). 
+There is a way to opt out from having XAudio2 use the spatial sound encoder by specifying certain values for the [**AUDIO_STREAM_CATEGORY**](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) parameter in [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice). 
 
 Spatial sound is enabled for these categories:
 
@@ -83,9 +91,9 @@ It is important to test that you game can handle a change in audio device, for e
 
 The error code returned by XAudio 2.9 when it cannot automatically recover from a change in audio endpoint is [XAUDIO2\_E\_DEVICE\_INVALIDATED](xaudio2-error-codes.md). However, we recommend that apps do not hard-code a dependency on the error code having a specific value.
 
-To be notified of the error, the app should implement the [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) interface and provide a pointer to that interface by invoking the [**IXAudio2::RegisterForCallbacks**](xaudio2-callbacks.md) method. The app's implementation of the [**IXAudio2EngineCallback::OnCriticalError**](https://msdn.microsoft.com/en-us/library/Ee418461(v=VS.85).aspx) will be invoked by the XAudio2 API if an error occurs during playback.
+To be notified of the error, the app should implement the [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) interface and provide a pointer to that interface by invoking the [**IXAudio2::RegisterForCallbacks**](xaudio2-callbacks.md) method. The app's implementation of the [**IXAudio2EngineCallback::OnCriticalError**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror) will be invoked by the XAudio2 API if an error occurs during playback.
 
-Note that [**IXAudio2EngineCallback::OnCriticalError**](https://msdn.microsoft.com/en-us/library/Ee418461(v=VS.85).aspx) is not necessarily invoked if the audio pipeline is paused. For example, if the user minimizes the app, or the app gets suspended for any reason, audio playback might be paused. If the change in audio device happens during this time, the error is only returned when the app invokes [**IXAudio2::StartEngine**](https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine) and/or invokes [**IXAudio2SourceVoice::Start**](https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start). If playback can be paused with your app, you should test changing the audio device while the playback is paused, to verify that the app still can recover from this situation.
+Note that [**IXAudio2EngineCallback::OnCriticalError**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror) is not necessarily invoked if the audio pipeline is paused. For example, if the user minimizes the app, or the app gets suspended for any reason, audio playback might be paused. If the change in audio device happens during this time, the error is only returned when the app invokes [**IXAudio2::StartEngine**](/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine) and/or invokes [**IXAudio2SourceVoice::Start**](/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start). If playback can be paused with your app, you should test changing the audio device while the playback is paused, to verify that the app still can recover from this situation.
 
 # XAudio 2.9 API differences compared to XAudio 2.7
 
@@ -112,13 +120,13 @@ XAudio 2.9 will choose a different CPU core on Xbox One than on PC. The IXAudio2
 
 XAudio 2.9 will use a virtual audio endpoint by default. This means that if the default audio endpoint changes while XAudio 2.9 is used, it will attempt to automatically switch to the new audio endpoint. An example of when this can happen when the default audio endpoint is a pair of headphones that are connected over USB, and then the user unplugs the headphones. This will cause the speakers to be the new default audio endpoint.
 
-If the app specifies a specific audio format when invoking [**IXAudio2::CreateMasteringVoice**](https://msdn.microsoft.com/en-us/library/Hh405048(v=VS.85).aspx), it may not be possible for XAudio 2.9 to perform this switch. For example, if the app specified that the Mastering Voice shall use a 48 kHz sampling rate and the new audio device only supports 44.1 kHz, then the automatic switch will fail, and XAudio 2.9 will report the [XAUDIO2\_E\_DEVICE\_INVALIDATED](xaudio2-error-codes.md) error.
+If the app specifies a specific audio format when invoking [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice), it may not be possible for XAudio 2.9 to perform this switch. For example, if the app specified that the Mastering Voice shall use a 48 kHz sampling rate and the new audio device only supports 44.1 kHz, then the automatic switch will fail, and XAudio 2.9 will report the [XAUDIO2\_E\_DEVICE\_INVALIDATED](xaudio2-error-codes.md) error.
 
-It is possible for the app to opt out of using the virtual audio endpoint by passing in the [**XAUDIO2\_NO\_VIRTUAL\_AUDIO\_CLIENT**](xaudio2-boundary-values-and-flags.md) flag to [**IXAudio2::CreateMasteringVoice**](https://msdn.microsoft.com/en-us/library/Hh405048(v=VS.85).aspx).
+It is possible for the app to opt out of using the virtual audio endpoint by passing in the [**XAUDIO2\_NO\_VIRTUAL\_AUDIO\_CLIENT**](xaudio2-boundary-values-and-flags.md) flag to [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice).
 
 ## Audio categories
 
-The app should specify a category for its audio stream. This is done by providing a value from the AudioCategory enumeration when invoking the [**IXAudio2::CreateMasteringVoice**](https://msdn.microsoft.com/en-us/library/Hh405048(v=VS.85).aspx) method. For example, AudioCategory_GameEffects. The audio category can affect how Windows processes the sound or how it represents the audio stream in the volume control panel. The audio category also affects if [spatial sound](#spatial-sound) is automatically enabled.
+The app should specify a category for its audio stream. This is done by providing a value from the AudioCategory enumeration when invoking the [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) method. For example, AudioCategory_GameEffects. The audio category can affect how Windows processes the sound or how it represents the audio stream in the volume control panel. The audio category also affects if [spatial sound](#spatial-sound) is automatically enabled.
 
 ## Duration of audio processing quantum
 
