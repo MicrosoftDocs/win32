@@ -63,7 +63,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_INDIRECT_ARGUMENT_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_indirect_argument_type). Specifies the type of the indirect parameter.  |
 | [**D3D12_INPUT_CLASSIFICATION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_input_classification). Identifies the type of data contained in an input slot. |
 | [**D3D12_LOGIC_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op). Specifies logical operations to configure for a render target. |
-| [**D3D12_MEASUREMENTS_ACTION**](/windows/win32/api/d3d12//windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action). Defines constants that specify what should be done with the results of earlier workload instrumentation. |
+| [**D3D12_MEASUREMENTS_ACTION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action). Defines constants that specify what should be done with the results of earlier workload instrumentation. |
 | [**D3D12_MEMORY_POOL**](/windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool). Specifies the memory pool for the heap. |
 | [**D3D12_META_COMMAND_PARAMETER_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags). Defines constants that specify the flags for a parameter to a meta command. Values can be bitwise OR'd together. |
 | [**D3D12_META_COMMAND_PARAMETER_STAGE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_stage). Defines constants that specify the stage of a parameter to a meta command. |
@@ -122,7 +122,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_TILE_RANGE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tile_range_flags). Specifies a range of tile mappings.  |
 | [**D3D12_TILED_RESOURCES_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier). Identifies the tier level at which tiled resources are supported.  |
 | [**D3D12_UAV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_uav_dimension). Identifies unordered access view options. |
-| [**D3D12_VIEW_INSTANCE_FLAGS**](https://msdn.microsoft.com/en_us/library/Mt844810(v=VS.85).aspx). Specifies options for view instancing. |
+| [**D3D12_VIEW_INSTANCING_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_flags). Specifies options for view instancing. |
 | [**D3D12_VIEW_INSTANCING_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_tier). Indicates the tier level at which view instancing is supported. |
 | [**D3D12_WRITEBUFFERIMMEDIATE_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode). Specifies the mode used by a **WriteBufferImmediate** operation. |
 
