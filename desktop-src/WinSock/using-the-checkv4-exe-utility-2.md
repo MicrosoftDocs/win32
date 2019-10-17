@@ -8,9 +8,13 @@ ms.date: 05/31/2018
 
 # Using the Checkv4.exe Utility
 
+> [!IMPORTANT]
+> 
+> The Windows Software Development Kit (SDK) for Windows 8 is the latest version of the Windows SDK in which The *Checkv4.exe* utility shipped.
+
 The *Checkv4.exe* utility is designed to provide you with a code porting partner; a utility that steps through your code base with you, identifies potential problems or highlights code that could benefit from IPv6-capable functions or structures, and makes recommendations. With the Checkv4.exe utility, the task of modifying an existing IPv4 application to support IPv6 becomes much easier.
 
-The *Checkv4.exe* utility is installed as part of the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later. The Windows SDK is available through an MSDN subscription and can also be downloaded from the Microsoft website (https://msdn.microsoft.com).
+The *Checkv4.exe* utility is installed as part of the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later.
 
 An earlier version of the *Checkv4.exe* tool with more limited features was also made available as part of the earlier Microsoft IPv6 Technology Preview for Windows 2000 .
 
