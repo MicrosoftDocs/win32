@@ -10,6 +10,8 @@ When the DLL is used on a Windows 10 system, it checks the version number of the
 
 The DLL is not intended for Xbox One. If used on Xbox One, the DLL will always delegate all API calls to XAUDIO2\_9.DLL in the Xbox One operating system.
 
+The DLL is not intended for UWP apps. UWP apps should use the XAUDIO2\_9.DLL that is part of the operating system.
+
 # Installing the NuGet package
 
 The easiest way to install the NuGet package is to use the NuGet Package Manager in Microsoft Visual Studio. If you do this, your Visual Studio project file will be automatically updated to include *Microsoft.Direct3D.XAudio2Win7.targets*. The *.targets* file adds the Include folder with the header files for the XAudio2 to your collection of project include paths. The *.targets* file will also make your .DLL or .EXE link with XAUDIO2WIN7.LIB and XAPOBASEWIN7.LIB.
