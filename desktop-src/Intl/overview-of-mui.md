@@ -28,7 +28,7 @@ Language, culture, and market specifics are still extremely relevant to internat
 
 Worldwide, there are 193 countries and over 6,900 known living languages in use today. English, despite its role as the world's business language, is only spoken by 8.5% of the world's population as a first or second language. To provide native information to 94% of the world's population, this information would need to be available in the 347 (about 5%) of the world's languages that have at least a million speakers. This is especially true as globalization trends have increased the expectations of these users regarding technology and its availability in their markets.
 
-The need to localize software in more languages has increased over the years and Microsoft is now providing Windows Vista and other products in more languages than ever. This evolution is especially clear with Microsoft Windows, as it has gone from supporting 30 languages with Windows 98 to almost 100 with Windows Vista, as illlustrated in the following bar chart.
+The need to localize software in more languages has increased over the years and Microsoft is now providing Windows Vista and other products in more languages than ever. This evolution is especially clear with Microsoft Windows, as it has gone from supporting 30 languages with Windows 98 to almost 100 with Windows Vista, as illustrated in the following bar chart.
 
 ![bar chart showing that the number of languages is much larger in windows vista than in windows 98 or windows xp](images/overview-of-mui-fig2.gif)
 
