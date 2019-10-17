@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Structure of COM Error Codes
 
-The following illustration shows the format of an **HRESULT** or SCODE; the numbers indicate bit positions:
+The following illustration shows the format of an [**HRESULT**](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a) (or SCODE); the numbers indicate bit positions:
 
 ![](images/a5a947d1-7b5a-4474-afed-2a1c58fe2421.png)
 
