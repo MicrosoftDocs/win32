@@ -1,26 +1,25 @@
 ---
 Description: Using the Checkv4.exe utility to modify your IPv4 application to support IPv6.
 ms.assetid: 36b72e4f-133d-4d96-a3c9-86a852d3a479
-title: Using the Checkv4.exe Utility
+title: Using the Checkv4.exe utility
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using the Checkv4.exe Utility
+# Using the Checkv4.exe utility
 
 > [!IMPORTANT]
-> 
-> The Windows Software Development Kit (SDK) for Windows 8 is the latest version of the Windows SDK in which The *Checkv4.exe* utility shipped.
+> The *Checkv4.exe* utility doesn't ship in the Windows Software Development Kit (SDK) for Windows 8, nor in later versions of the Windows SDK.
 
 The *Checkv4.exe* utility is designed to provide you with a code porting partner; a utility that steps through your code base with you, identifies potential problems or highlights code that could benefit from IPv6-capable functions or structures, and makes recommendations. With the Checkv4.exe utility, the task of modifying an existing IPv4 application to support IPv6 becomes much easier.
 
-The *Checkv4.exe* utility is installed as part of the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later.
+The *Checkv4.exe* utility is installed as part of the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later SDKs (up to, but not including, the Windows Software Development Kit (SDK) for Windows 8).
 
-An earlier version of the *Checkv4.exe* tool with more limited features was also made available as part of the earlier Microsoft IPv6 Technology Preview for Windows 2000 .
+An earlier version of the *Checkv4.exe* utility with more limited features was also made available as part of the earlier Microsoft IPv6 Technology Preview for Windows 2000.
 
-The following sections describe how to use the Checkv4.exe utility, then explain the recommended approach for modifying an existing IPv4 application to support IPv6.
+The following sections describe how to use the *Checkv4.exe* utility, then explain the recommended approach for modifying an existing IPv4 application to support IPv6.
 
-Recommendations for Running Checkv4.exe
+## Recommendations for Running Checkv4.exe
 
 -   The *Checkv4.exe* utility is straightforward. Simply execute *Checkv4.exe* at the command line with the name of the file you want to check as the parameter. *Checkv4.exe* parses the file and provides feedback as to where IPv6 porting issues exist in that file. Placing the *Checkv4.exe* into your computer's path makes running the *Checkv4.exe* utility from anywhere in your source code directory structure much easier. For example, placing *Checkv4.exe* into %windir% enables you to launch *Checkv4.exe* from any directory on your computer without including its path.
 
