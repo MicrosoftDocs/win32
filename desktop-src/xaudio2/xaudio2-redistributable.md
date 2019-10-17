@@ -56,7 +56,7 @@ The XAUDIO2WIN7.DLL binary is signed by Microsoft using a SHA-2 signature. Any c
 
 ## Spatial sound in newer versions of Windows 10
 
-Starting with the Windows 10 1903 update, XAudio 2.9 automatically uses [virtual surround sound](#spatial-sound), if certain conditions are satisfied. We recommend testing game that generate multi-channel sound on Windows 10 1903 (or newer) to verify that the game sounds as expected.
+Starting with the Windows 10 1903 update, XAudio 2.9 automatically uses [virtual surround sound](#spatial-sound-and-virtual-surround), if certain conditions are satisfied. We recommend testing game that generate multi-channel sound on Windows 10 1903 (or newer) to verify that the game sounds as expected.
 
 ### Enabling spatial sound
 
@@ -126,19 +126,19 @@ It is possible for the app to opt out of using the virtual audio endpoint by pas
 
 ## Audio categories
 
-The app should specify a category for its audio stream. This is done by providing a value from the AudioCategory enumeration when invoking the [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) method. For example, AudioCategory_GameEffects. The audio category can affect how Windows processes the sound or how it represents the audio stream in the volume control panel. The audio category also affects if [spatial sound](#spatial-sound) is automatically enabled.
+The app should specify a category for its audio stream. This is done by providing a value from the AudioCategory enumeration when invoking the [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) method. For example, AudioCategory_GameEffects. The audio category can affect how Windows processes the sound or how it represents the audio stream in the volume control panel. The audio category also affects if [virtual surround sound](#spatial-sound-and-virtual-surround) is automatically enabled.
 
 ## Duration of audio processing quantum
 
 On most PCs, XAudio 2.9 processes audio in 10 millisecond chunks. This is called the processing quantum. However, the duration of this quantum may be different than 10 milliseconds on some hardware. Apps that need to know the exact quantum can invoke the IXAudio2Extension::GetProcessingQuantum method to retrieve the value.
 
-## Spatial sound
+## Spatial sound and virtual surround
 
 Starting with the Windows 10 1903 update, XAudio 2.9 automatically uses virtual surround sound, if certain conditions are satisfied. We recommend testing game that generate multi-channel sound on Windows 10 1903 (or newer) to verify that the game sounds as expected. See the [testing spatial sound](#spatial-sound-in-newer-versions-of-windows-10) section for a discussion about how to test this feature.
 
 Normally, XAudio 2.9 performs a folds down any multi-channel audio to match the "physical" number of audio channels that are supported by the audio endpoint. For example, if the game provides a 7.1 channel audio source, but the sound is played on headphones, XAudio 2.9 will fold down the 7.1 channel audio into stereo, using an industry standard fold-down matrix. If the PC is connected to a HDMI audio endpoint, then the 7.1 channel audio will be transmitted as-is over the HDMI connection.
 
-Windows 10 adds support for spatial audio, using a centralized encoder that encodes audio into a user-selected spatial sound format. Windows 10 comes included with a spatial sound format called Windows Sonic. Other formats, such as Dolby Atmos for Headphones, can be downloaded from the Microsoft Store. Some of the spatial sound formats, such as Windows Sonic and Dolby Atmos for Headphones, are designed to be used on stereo audio endpoints. These formats fold down surround sound to stereo using proprietary algorithms that achieve a "virtual" surround sound effect. In other words, the listener can perceive sound appearing from different positions in 3D space even while only wearing headphones, or while listening on a single pair of stereo speakers.
+Windows 10 adds support for spatial audio, using a centralized encoder that encodes audio into a user-selected [spatial sound](/windows/win32/coreaudio/spatial-sound) format. Windows 10 comes included with a spatial sound format called Windows Sonic. Other formats, such as Dolby Atmos for Headphones, can be downloaded from the Microsoft Store. Some of the spatial sound formats, such as Windows Sonic and Dolby Atmos for Headphones, are designed to be used on stereo audio endpoints. These formats fold down surround sound to stereo using proprietary algorithms that achieve a "virtual" surround sound effect. In other words, the listener can perceive sound appearing from different positions in 3D space even while only wearing headphones, or while listening on a single pair of stereo speakers.
 
 Similar effects can be achieved using the [X3DAudio](x3daudio.md) APIs that are included with XAudio 2.9. The main difference is that X3DAudio requires the app developer to explicitly program for 3D audio, whereas virtual surround sound is applied automatically to any tradional channel-based sound source.
 
