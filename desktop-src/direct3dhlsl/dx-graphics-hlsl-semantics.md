@@ -324,26 +324,6 @@ When migrating from Direct3D 9 to Direct3D 10 and later, you will need to be awa
 
 Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](dx-graphics-hlsl-function-syntax.md) rather than SV\_ClipDistance to make your shader work on [feature level](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://docs.microsoft.com/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9).
 
-## Double Binding Semantics
-
-You can apply the same semantic to more than one parameter. For instance:
-
-
-```
-float4x4 WorldView[60] : WORLDVIEW : register(c16);
- 
-float4 main( float3 Pos : SV_POSITION, int4 IPos : SV_POSITION ) : SV_POSITION
-{
-    float3 P = mul(float4(Pos, 1), (float4x3)WorldView[IPos.w]);
-    return float4(P,1);        
-}
-      
-```
-
-
-
-This function takes two arguments: a three-component, floating-point position and a four-component, integer position. The integer position is used as an index into the array of world-view matrices.
-
 ## Related topics
 
 <dl> <dt>
