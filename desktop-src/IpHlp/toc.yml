@@ -62,15 +62,19 @@
       href: ip-helper-enumerations.md
       items: 
       - name: "IF_OPER_STATUS"
-        href: /windows/win32/api/Ifdef/ne-ifdef-if_oper_status
+        href: /windows/win32/api/ifdef/ne-ifdef-if_oper_status
       - name: "IP_DAD_STATE"
-        href: /windows/win32/api/Nldef/ne-nldef-nl_dad_state
+        href: /windows/win32/api/nldef/ne-nldef-nl_dad_state
       - name: "IP_PREFIX_ORIGIN"
-        href: /windows/win32/api/Nldef/ne-nldef-nl_prefix_origin
+        href: /windows/win32/api/nldef/ne-nldef-nl_prefix_origin
       - name: "IP_SUFFIX_ORIGIN"
-        href: /windows/win32/api/Nldef/ne-nldef-nl_suffix_origin
+        href: /windows/win32/api/nldef/ne-nldef-nl_suffix_origin
       - name: "NET_ADDRESS_FORMAT"
         href: /windows/win32/api/Iphlpapi/ne-iphlpapi-net_address_format_
+      - name: "NL_NETWORK_CONNECTIVITY_LEVEL_HINT"
+        href: /windows/win32/api/nldef/ne-nldef-nl_network_connectivity_level_hint
+      - name: "NL_NETWORK_CONNECTIVITY_COST_HINT"
+        href: /windows/win32/api/nldef/ne-nldef-nl_network_connectivity_cost_hint
       - name: "SCOPE_LEVEL"
         href: /windows/win32/api/Ws2def/ne-ws2def-scope_level
       - name: "TCP_BOOLEAN_OPTIONAL"
@@ -496,11 +500,13 @@
       - name: "NET_ADDRESS_INFO"
         href: /windows/win32/api/Iphlpapi/ns-iphlpapi-net_address_info_
       - name: "NET_LUID"
-        href: /windows/win32/api/Ifdef/ns-ifdef-_net_luid_lh
+        href: /windows/win32/api/ifdef/ns-ifdef-_net_luid_lh
       - name: "SOCKADDR_IN6_PAIR"
         href: /windows/win32/api/Ws2ipdef/ns-ws2ipdef-_sockaddr_in6_pair
       - name: "NL_BANDWIDTH_INFORMATION"
-        href: /windows/win32/api/Nldef/ns-nldef-_nl_bandwidth_information
+        href: /windows/win32/api/nldef/ns-nldef-_nl_bandwidth_information
+      - name: "NL_NETWORK_CONNECTIVITY_HINT"
+        href: /windows/win32/api/nldef/ns-nldef-nl_network_connectivity_hint
       - name: "SOCKADDR_INET"
         href: /windows/win32/api/Ws2ipdef/ns-ws2ipdef-_sockaddr_inet
       - name: "TCP_ESTATS_BANDWIDTH_ROD_v0"
