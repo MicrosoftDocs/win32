@@ -85,8 +85,8 @@ The flag that determines the category of printers for which notifications will w
 
 | Value                                                                                                                                                                                                                                                               | Meaning                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="PRINTER_NOTIFY_CATEGORY_ALL"></span><span id="printer_notify_category_all"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_ALL**</dt> <dt>0x00</dt> </dl> | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications for both 2D and 3D printers.<br/> |
-| <span id="PRINTER_NOTIFY_CATEGORY_3D"></span><span id="printer_notify_category_3d"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_3D**</dt> <dt>0x01</dt> </dl>    | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications only for 3D printers.<br/>        |
+| <span id="PRINTER_NOTIFY_CATEGORY_ALL"></span><span id="printer_notify_category_all"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_ALL**</dt> <dt>0x001000</dt> </dl> | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications for both 2D and 3D printers.<br/> |
+| <span id="PRINTER_NOTIFY_CATEGORY_3D"></span><span id="printer_notify_category_3d"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_3D**</dt> <dt>0x002000</dt> </dl>    | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications only for 3D printers.<br/>        |
 
 
 
