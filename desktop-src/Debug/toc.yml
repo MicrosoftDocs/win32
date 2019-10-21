@@ -901,9 +901,9 @@
       href: structured-exception-handling-structures.md
       items: 
       - name: "EXCEPTION_POINTERS"
-        href: /windows/desktop/api/WinNT/ns-winnt-_exception_pointers
+        href: /windows/desktop/api/WinNT/ns-winnt-exception_pointers
       - name: "EXCEPTION_RECORD"
-        href: /windows/desktop/api/WinNT/ns-winnt-_exception_record
+        href: /windows/desktop/api/WinNT/ns-winnt-exception_record
 - name: "Wait Chain Traversal"
   href: wait-chain-traversal.md
   items: 
