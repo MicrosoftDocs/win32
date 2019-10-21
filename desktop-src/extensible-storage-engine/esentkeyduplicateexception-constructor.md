@@ -1,5 +1,5 @@
 ---
-title: EsentKeyDuplicateException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentKeyDuplicateException constructor 
 TOCTitle: 'EsentKeyDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyDuplicateException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeyduplicateexception.esentkeyduplicateexception(v=EXCHG.10)

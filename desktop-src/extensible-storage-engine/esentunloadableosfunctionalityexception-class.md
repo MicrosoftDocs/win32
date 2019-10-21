@@ -1,5 +1,5 @@
 ---
-title: EsentUnloadableOSFunctionalityException class (Microsoft.Isam.Esent.Interop)
+title: EsentUnloadableOSFunctionalityException class
 TOCTitle: EsentUnloadableOSFunctionalityException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunloadableosfunctionalityexception(v=EXCHG.10)

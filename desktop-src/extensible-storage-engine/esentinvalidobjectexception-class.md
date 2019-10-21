@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidObjectException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidObjectException class
 TOCTitle: EsentInvalidObjectException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidObjectException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidobjectexception(v=EXCHG.10)

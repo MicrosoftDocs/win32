@@ -1,5 +1,5 @@
 ---
-title: EsentRecordPrimaryChangedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRecordPrimaryChangedException properties
 TOCTitle: EsentRecordPrimaryChangedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordprimarychangedexception_properties(v=EXCHG.10)

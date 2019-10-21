@@ -1,5 +1,5 @@
 ---
-title: EsentLogSequenceEndException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndException members
 TOCTitle: EsentLogSequenceEndException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceendexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_SNP enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_SNP enumeration
 TOCTitle: JET_SNP enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SNP
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_snp(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileMissingException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileMissingException properties
 TOCTitle: EsentSLVStreamingFileMissingException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilemissingexception_properties(v=EXCHG.10)

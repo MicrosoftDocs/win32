@@ -1,5 +1,5 @@
 ---
-title: EsentBadRestoreTargetInstanceException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadRestoreTargetInstanceException class
 TOCTitle: EsentBadRestoreTargetInstanceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadRestoreTargetInstanceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadrestoretargetinstanceexception(v=EXCHG.10)

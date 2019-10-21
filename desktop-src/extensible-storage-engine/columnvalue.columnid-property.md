@@ -1,5 +1,5 @@
 ---
-title: ColumnValue.Columnid property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.Columnid property 
 TOCTitle: 'Columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.Columnid
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.columnid(v=EXCHG.10)

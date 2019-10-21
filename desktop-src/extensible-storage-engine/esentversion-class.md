@@ -1,5 +1,5 @@
 ---
-title: EsentVersion class (Microsoft.Isam.Esent.Interop)
+title: EsentVersion class
 TOCTitle: EsentVersion class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentVersion
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion(v=EXCHG.10)

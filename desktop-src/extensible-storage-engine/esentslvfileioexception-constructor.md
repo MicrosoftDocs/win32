@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileIOException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileIOException constructor 
 TOCTitle: 'EsentSLVFileIOException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileIOException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileioexception.esentslvfileioexception(v=EXCHG.10)

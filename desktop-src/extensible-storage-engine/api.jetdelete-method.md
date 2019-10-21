@@ -1,5 +1,5 @@
 ---
-title: Api.JetDelete method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetDelete method 
 TOCTitle: 'JetDelete method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDelete(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetdelete(v=EXCHG.10)

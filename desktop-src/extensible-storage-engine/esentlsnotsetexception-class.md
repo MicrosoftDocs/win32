@@ -1,5 +1,5 @@
 ---
-title: EsentLSNotSetException class (Microsoft.Isam.Esent.Interop)
+title: EsentLSNotSetException class
 TOCTitle: EsentLSNotSetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlsnotsetexception(v=EXCHG.10)

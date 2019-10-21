@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileInUseException constructor 
 TOCTitle: 'EsentSLVFileInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileinuseexception.esentslvfileinuseexception(v=EXCHG.10)

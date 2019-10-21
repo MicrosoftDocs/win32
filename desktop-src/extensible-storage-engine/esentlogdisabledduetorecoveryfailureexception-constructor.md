@@ -1,5 +1,5 @@
 ---
-title: EsentLogDisabledDueToRecoveryFailureException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogDisabledDueToRecoveryFailureException constructor 
 TOCTitle: 'EsentLogDisabledDueToRecoveryFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogdisabledduetorecoveryfailureexception.esentlogdisabledduetorecoveryfailureexception(v=EXCHG.10)

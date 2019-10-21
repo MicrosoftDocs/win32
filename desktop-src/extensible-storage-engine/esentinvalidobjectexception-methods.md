@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidObjectException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidObjectException methods
 TOCTitle: EsentInvalidObjectException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidObjectException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidobjectexception_methods(v=EXCHG.10)

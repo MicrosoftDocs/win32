@@ -1,5 +1,5 @@
 ---
-title: EsentRecoveredWithoutUndoDatabasesConsistentException class (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithoutUndoDatabasesConsistentException class
 TOCTitle: EsentRecoveredWithoutUndoDatabasesConsistentException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwithoutundodatabasesconsistentexception(v=EXCHG.10)

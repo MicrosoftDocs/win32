@@ -1,5 +1,5 @@
 ---
-title: EsentLogSequenceEndDatabasesConsistentException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndDatabasesConsistentException constructor 
 TOCTitle: 'EsentLogSequenceEndDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceenddatabasesconsistentexception.esentlogsequenceenddatabasesconsistentexception(v=EXCHG.10)

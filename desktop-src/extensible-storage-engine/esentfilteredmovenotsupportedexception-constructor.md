@@ -1,5 +1,5 @@
 ---
-title: EsentFilteredMoveNotSupportedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFilteredMoveNotSupportedException constructor 
 TOCTitle: 'EsentFilteredMoveNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilteredmovenotsupportedexception.esentfilteredmovenotsupportedexception(v=EXCHG.10)

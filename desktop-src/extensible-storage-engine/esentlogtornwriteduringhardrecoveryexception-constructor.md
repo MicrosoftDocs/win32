@@ -1,5 +1,5 @@
 ---
-title: EsentLogTornWriteDuringHardRecoveryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogTornWriteDuringHardRecoveryException constructor 
 TOCTitle: 'EsentLogTornWriteDuringHardRecoveryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRecoveryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogtornwriteduringhardrecoveryexception.esentlogtornwriteduringhardrecoveryexception(v=EXCHG.10)

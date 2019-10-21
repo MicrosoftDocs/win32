@@ -1,5 +1,5 @@
 ---
-title: JET_SIGNATURE methods (Microsoft.Isam.Esent.Interop)
+title: JET_SIGNATURE methods
 TOCTitle: JET_SIGNATURE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SIGNATURE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_signature_methods(v=EXCHG.10)

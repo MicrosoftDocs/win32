@@ -1,5 +1,5 @@
 ---
-title: JET_RETRIEVECOLUMN.err property  (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN.err property 
 TOCTitle: 'err property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.err
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn.err(v=EXCHG.10)

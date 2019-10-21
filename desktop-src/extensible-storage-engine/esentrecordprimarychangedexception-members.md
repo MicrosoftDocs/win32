@@ -1,5 +1,5 @@
 ---
-title: EsentRecordPrimaryChangedException members (Microsoft.Isam.Esent.Interop)
+title: EsentRecordPrimaryChangedException members
 TOCTitle: EsentRecordPrimaryChangedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordprimarychangedexception_members(v=EXCHG.10)

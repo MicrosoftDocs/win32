@@ -1,5 +1,5 @@
 ---
-title: EsentMakeBackupDirectoryFailException class (Microsoft.Isam.Esent.Interop)
+title: EsentMakeBackupDirectoryFailException class
 TOCTitle: EsentMakeBackupDirectoryFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmakebackupdirectoryfailexception(v=EXCHG.10)

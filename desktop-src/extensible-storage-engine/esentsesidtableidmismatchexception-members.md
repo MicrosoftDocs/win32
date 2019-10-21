@@ -1,5 +1,5 @@
 ---
-title: EsentSesidTableIdMismatchException members (Microsoft.Isam.Esent.Interop)
+title: EsentSesidTableIdMismatchException members
 TOCTitle: EsentSesidTableIdMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsesidtableidmismatchexception_members(v=EXCHG.10)

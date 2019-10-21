@@ -1,5 +1,5 @@
 ---
-title: EsentObsoleteException class (Microsoft.Isam.Esent.Interop)
+title: EsentObsoleteException class
 TOCTitle: EsentObsoleteException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentObsoleteException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentobsoleteexception(v=EXCHG.10)

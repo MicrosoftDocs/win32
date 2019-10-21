@@ -1,5 +1,5 @@
 ---
-title: EsentQuotaException constructor (SerializationInfo, StreamingContext) (Microsoft.Isam.Esent.Interop)
+title: EsentQuotaException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentQuotaException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentQuotaException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentquotaexception.esentquotaexception(v=EXCHG.10)

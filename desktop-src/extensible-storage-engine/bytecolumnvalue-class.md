@@ -1,5 +1,5 @@
 ---
-title: ByteColumnValue class (Microsoft.Isam.Esent.Interop)
+title: ByteColumnValue class
 TOCTitle: ByteColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ByteColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.bytecolumnvalue(v=EXCHG.10)

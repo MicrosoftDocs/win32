@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidOnSortException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidOnSortException properties
 TOCTitle: EsentInvalidOnSortException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidonsortexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentLogBufferTooSmallException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogBufferTooSmallException members
 TOCTitle: EsentLogBufferTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogbuffertoosmallexception_members(v=EXCHG.10)

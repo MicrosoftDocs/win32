@@ -1,5 +1,5 @@
 ---
-title: EsentKeyDuplicateException members (Microsoft.Isam.Esent.Interop)
+title: EsentKeyDuplicateException members
 TOCTitle: EsentKeyDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeyduplicateexception_members(v=EXCHG.10)

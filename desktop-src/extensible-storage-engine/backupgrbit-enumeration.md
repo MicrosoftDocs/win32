@@ -1,5 +1,5 @@
 ---
-title: BackupGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: BackupGrbit enumeration
 TOCTitle: BackupGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.BackupGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.backupgrbit(v=EXCHG.10)

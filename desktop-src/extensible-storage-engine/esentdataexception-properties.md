@@ -1,5 +1,5 @@
 ---
-title: EsentDataException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDataException properties
 TOCTitle: EsentDataException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDataException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdataexception_properties(v=EXCHG.10)

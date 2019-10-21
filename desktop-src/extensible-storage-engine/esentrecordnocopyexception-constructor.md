@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNoCopyException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNoCopyException constructor 
 TOCTitle: 'EsentRecordNoCopyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnocopyexception.esentrecordnocopyexception(v=EXCHG.10)

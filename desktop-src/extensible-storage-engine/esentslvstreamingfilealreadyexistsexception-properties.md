@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileAlreadyExistsException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileAlreadyExistsException properties
 TOCTitle: EsentSLVStreamingFileAlreadyExistsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileAlreadyExistsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilealreadyexistsexception_properties(v=EXCHG.10)

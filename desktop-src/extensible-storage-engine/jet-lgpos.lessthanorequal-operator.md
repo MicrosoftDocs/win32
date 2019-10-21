@@ -1,5 +1,5 @@
 ---
-title: JET_LGPOS.LessThanOrEqual operator  (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS.LessThanOrEqual operator 
 TOCTitle: 'LessThanOrEqual operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.op_LessThanOrEqual(Microsoft.Isam.Esent.Interop.JET_LGPOS,Microsoft.Isam.Esent.Interop.JET_LGPOS)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.op_lessthanorequal(v=EXCHG.10)

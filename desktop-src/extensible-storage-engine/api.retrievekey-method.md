@@ -1,5 +1,5 @@
 ---
-title: Api.RetrieveKey method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveKey method 
 TOCTitle: 'RetrieveKey method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.RetrieveKey(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.RetrieveKeyGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievekey(v=EXCHG.10)

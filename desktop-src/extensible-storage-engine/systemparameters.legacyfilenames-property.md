@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.LegacyFileNames property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.LegacyFileNames property 
 TOCTitle: 'LegacyFileNames property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.LegacyFileNames
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.legacyfilenames(v=EXCHG.10)

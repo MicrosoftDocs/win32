@@ -1,5 +1,5 @@
 ---
-title: EsentTableDuplicateException class (Microsoft.Isam.Esent.Interop)
+title: EsentTableDuplicateException class
 TOCTitle: EsentTableDuplicateException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTableDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttableduplicateexception(v=EXCHG.10)

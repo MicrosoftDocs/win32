@@ -1,5 +1,5 @@
 ---
-title: EsentBadBackupDatabaseSizeException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBadBackupDatabaseSizeException constructor 
 TOCTitle: 'EsentBadBackupDatabaseSizeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadbackupdatabasesizeexception.esentbadbackupdatabasesizeexception(v=EXCHG.10)

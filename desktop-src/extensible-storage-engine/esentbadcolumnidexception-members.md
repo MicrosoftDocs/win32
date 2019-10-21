@@ -1,5 +1,5 @@
 ---
-title: EsentBadColumnIdException members (Microsoft.Isam.Esent.Interop)
+title: EsentBadColumnIdException members
 TOCTitle: EsentBadColumnIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadcolumnidexception_members(v=EXCHG.10)

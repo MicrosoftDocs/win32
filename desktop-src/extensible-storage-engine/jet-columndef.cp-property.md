@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNDEF.cp property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNDEF.cp property 
 TOCTitle: 'cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.cp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columndef.cp(v=EXCHG.10)

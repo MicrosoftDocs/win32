@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseUnavailableException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseUnavailableException properties
 TOCTitle: EsentDatabaseUnavailableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseunavailableexception_properties(v=EXCHG.10)

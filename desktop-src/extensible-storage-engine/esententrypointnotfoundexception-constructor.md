@@ -1,5 +1,5 @@
 ---
-title: EsentEntryPointNotFoundException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentEntryPointNotFoundException constructor 
 TOCTitle: 'EsentEntryPointNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esententrypointnotfoundexception.esententrypointnotfoundexception(v=EXCHG.10)

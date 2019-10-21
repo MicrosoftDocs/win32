@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.PageTempDBSmallest field (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.PageTempDBSmallest field
 TOCTitle: PageTempDBSmallest field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.PageTempDBSmallest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.pagetempdbsmallest(v=EXCHG.10)

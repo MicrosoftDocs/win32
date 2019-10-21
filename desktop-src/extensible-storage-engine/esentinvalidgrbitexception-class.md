@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidGrbitException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidGrbitException class
 TOCTitle: EsentInvalidGrbitException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidGrbitException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidgrbitexception(v=EXCHG.10)

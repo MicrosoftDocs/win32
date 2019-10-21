@@ -1,5 +1,5 @@
 ---
-title: JET_TABLEID methods (Microsoft.Isam.Esent.Interop)
+title: JET_TABLEID methods
 TOCTitle: JET_TABLEID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_TABLEID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tableid_methods(v=EXCHG.10)

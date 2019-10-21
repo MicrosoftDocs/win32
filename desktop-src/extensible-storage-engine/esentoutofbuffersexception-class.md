@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfBuffersException class (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfBuffersException class
 TOCTitle: EsentOutOfBuffersException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofbuffersexception(v=EXCHG.10)

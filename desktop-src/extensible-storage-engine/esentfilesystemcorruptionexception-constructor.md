@@ -1,5 +1,5 @@
 ---
-title: EsentFileSystemCorruptionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFileSystemCorruptionException constructor 
 TOCTitle: 'EsentFileSystemCorruptionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilesystemcorruptionexception.esentfilesystemcorruptionexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNoChunkException properties (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNoChunkException properties
 TOCTitle: EsentColumnNoChunkException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnNoChunkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnochunkexception_properties(v=EXCHG.10)

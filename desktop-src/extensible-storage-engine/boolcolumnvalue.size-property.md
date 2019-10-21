@@ -1,5 +1,5 @@
 ---
-title: BoolColumnValue.Size property  (Microsoft.Isam.Esent.Interop)
+title: BoolColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BoolColumnValue.Size
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.boolcolumnvalue.size(v=EXCHG.10)

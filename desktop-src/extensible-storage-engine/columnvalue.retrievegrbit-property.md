@@ -1,5 +1,5 @@
 ---
-title: ColumnValue.RetrieveGrbit property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.RetrieveGrbit property 
 TOCTitle: 'RetrieveGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.RetrieveGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.retrievegrbit(v=EXCHG.10)

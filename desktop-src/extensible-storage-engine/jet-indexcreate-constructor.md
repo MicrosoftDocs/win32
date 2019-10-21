@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE constructor 
 TOCTitle: 'JET_INDEXCREATE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.jet_indexcreate(v=EXCHG.10)

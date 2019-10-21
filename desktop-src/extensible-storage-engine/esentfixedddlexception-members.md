@@ -1,5 +1,5 @@
 ---
-title: EsentFixedDDLException members (Microsoft.Isam.Esent.Interop)
+title: EsentFixedDDLException members
 TOCTitle: EsentFixedDDLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFixedDDLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfixedddlexception_members(v=EXCHG.10)

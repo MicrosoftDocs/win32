@@ -1,5 +1,5 @@
 ---
-title: EsentCannotDisableVersioningException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDisableVersioningException properties
 TOCTitle: EsentCannotDisableVersioningException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdisableversioningexception_properties(v=EXCHG.10)

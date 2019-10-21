@@ -1,5 +1,5 @@
 ---
-title: IndexInfo.Name property  (Microsoft.Isam.Esent.Interop)
+title: IndexInfo.Name property 
 TOCTitle: 'Name property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo.name(v=EXCHG.10)

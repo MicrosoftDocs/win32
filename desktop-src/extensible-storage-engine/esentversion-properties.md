@@ -1,5 +1,5 @@
 ﻿---
-title: EsentVersion properties (Microsoft.Isam.Esent.Interop)
+title: EsentVersion properties
 TOCTitle: EsentVersion properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersion
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion_properties(v=EXCHG.10)

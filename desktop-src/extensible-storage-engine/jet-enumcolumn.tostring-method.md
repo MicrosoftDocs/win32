@@ -1,5 +1,5 @@
 ---
-title: JET_ENUMCOLUMN.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_ENUMCOLUMN.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumn.tostring(v=EXCHG.10)

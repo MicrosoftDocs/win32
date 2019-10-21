@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOBeyondEOFException class (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOBeyondEOFException class
 TOCTitle: EsentFileIOBeyondEOFException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiobeyondeofexception(v=EXCHG.10)

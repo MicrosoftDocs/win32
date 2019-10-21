@@ -1,5 +1,5 @@
 ---
-title: IndexKeyGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: IndexKeyGrbit enumeration
 TOCTitle: IndexKeyGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IndexKeyGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexkeygrbit(v=EXCHG.10)

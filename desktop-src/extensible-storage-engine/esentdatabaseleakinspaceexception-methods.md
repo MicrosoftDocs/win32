@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseLeakInSpaceException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseLeakInSpaceException methods
 TOCTitle: EsentDatabaseLeakInSpaceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseleakinspaceexception_methods(v=EXCHG.10)

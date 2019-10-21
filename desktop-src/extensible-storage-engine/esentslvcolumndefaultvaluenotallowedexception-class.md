@@ -1,5 +1,5 @@
 ---
-title: EsentSLVColumnDefaultValueNotAllowedException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVColumnDefaultValueNotAllowedException class
 TOCTitle: EsentSLVColumnDefaultValueNotAllowedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVColumnDefaultValueNotAllowedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvcolumndefaultvaluenotallowedexception(v=EXCHG.10)

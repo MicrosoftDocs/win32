@@ -1,5 +1,5 @@
 ---
-title: EsentSLVRootPathInvalidException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootPathInvalidException class
 TOCTitle: EsentSLVRootPathInvalidException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVRootPathInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootpathinvalidexception(v=EXCHG.10)

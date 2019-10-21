@@ -1,5 +1,5 @@
 ---
-title: Transaction.Commit method (CommitTransactionGrbit) (Microsoft.Isam.Esent.Interop)
+title: Transaction.Commit method (CommitTransactionGrbit)
 TOCTitle: Commit method (CommitTransactionGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Commit(Microsoft.Isam.Esent.Interop.CommitTransactionGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction.commit(v=EXCHG.10)

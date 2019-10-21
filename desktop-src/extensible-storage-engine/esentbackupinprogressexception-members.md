@@ -1,5 +1,5 @@
 ---
-title: EsentBackupInProgressException members (Microsoft.Isam.Esent.Interop)
+title: EsentBackupInProgressException members
 TOCTitle: EsentBackupInProgressException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupInProgressException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupinprogressexception_members(v=EXCHG.10)

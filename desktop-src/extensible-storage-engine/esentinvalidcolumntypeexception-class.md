@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidColumnTypeException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidColumnTypeException class
 TOCTitle: EsentInvalidColumnTypeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnTypeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcolumntypeexception(v=EXCHG.10)

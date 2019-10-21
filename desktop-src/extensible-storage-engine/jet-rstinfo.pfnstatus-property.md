@@ -1,5 +1,5 @@
 ---
-title: JET_RSTINFO.pfnStatus property  (Microsoft.Isam.Esent.Interop)
+title: JET_RSTINFO.pfnStatus property 
 TOCTitle: 'pfnStatus property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTINFO.pfnStatus
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstinfo.pfnstatus(v=EXCHG.10)

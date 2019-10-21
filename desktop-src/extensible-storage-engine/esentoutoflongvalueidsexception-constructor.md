@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfLongValueIDsException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfLongValueIDsException constructor 
 TOCTitle: 'EsentOutOfLongValueIDsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutoflongvalueidsexception.esentoutoflongvalueidsexception(v=EXCHG.10)

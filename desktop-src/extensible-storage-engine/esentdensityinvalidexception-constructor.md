@@ -1,5 +1,5 @@
 ---
-title: EsentDensityInvalidException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDensityInvalidException constructor 
 TOCTitle: 'EsentDensityInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdensityinvalidexception.esentdensityinvalidexception(v=EXCHG.10)

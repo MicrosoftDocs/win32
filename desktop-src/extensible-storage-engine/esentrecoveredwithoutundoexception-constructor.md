@@ -1,5 +1,5 @@
 ---
-title: EsentRecoveredWithoutUndoException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithoutUndoException constructor 
 TOCTitle: 'EsentRecoveredWithoutUndoException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwithoutundoexception.esentrecoveredwithoutundoexception(v=EXCHG.10)

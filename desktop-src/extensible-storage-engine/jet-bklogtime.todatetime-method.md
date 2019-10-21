@@ -1,5 +1,5 @@
 ---
-title: JET_BKLOGTIME.ToDateTime method  (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME.ToDateTime method 
 TOCTitle: 'ToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.ToDateTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime.todatetime(v=EXCHG.10)

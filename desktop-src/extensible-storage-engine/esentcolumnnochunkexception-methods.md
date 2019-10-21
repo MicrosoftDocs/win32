@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNoChunkException methods (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNoChunkException methods
 TOCTitle: EsentColumnNoChunkException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnNoChunkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnochunkexception_methods(v=EXCHG.10)

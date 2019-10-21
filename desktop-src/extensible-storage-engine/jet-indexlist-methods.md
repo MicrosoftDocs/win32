@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXLIST methods (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXLIST methods
 TOCTitle: JET_INDEXLIST methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_INDEXLIST
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexlist_methods(v=EXCHG.10)

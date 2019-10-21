@@ -1,5 +1,5 @@
 ---
-title: EsentMustDisableLoggingForDbUpgradeException class (Microsoft.Isam.Esent.Interop)
+title: EsentMustDisableLoggingForDbUpgradeException class
 TOCTitle: EsentMustDisableLoggingForDbUpgradeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMustDisableLoggingForDbUpgradeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustdisableloggingfordbupgradeexception(v=EXCHG.10)

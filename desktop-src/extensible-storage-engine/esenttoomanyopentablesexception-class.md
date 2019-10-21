@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenTablesException class (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenTablesException class
 TOCTitle: EsentTooManyOpenTablesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopentablesexception(v=EXCHG.10)

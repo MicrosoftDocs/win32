@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotDeletedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotDeletedException methods
 TOCTitle: EsentRecordNotDeletedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordNotDeletedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotdeletedexception_methods(v=EXCHG.10)

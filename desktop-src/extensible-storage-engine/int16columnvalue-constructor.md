@@ -1,5 +1,5 @@
 ---
-title: Int16ColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: Int16ColumnValue constructor 
 TOCTitle: 'Int16ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Int16ColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int16columnvalue.int16columnvalue(v=EXCHG.10)

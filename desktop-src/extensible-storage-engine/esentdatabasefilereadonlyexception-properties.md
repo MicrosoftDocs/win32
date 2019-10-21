@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseFileReadOnlyException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseFileReadOnlyException properties
 TOCTitle: EsentDatabaseFileReadOnlyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseFileReadOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasefilereadonlyexception_properties(v=EXCHG.10)

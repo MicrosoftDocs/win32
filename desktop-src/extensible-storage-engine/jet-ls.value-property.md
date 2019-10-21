@@ -1,5 +1,5 @@
 ---
-title: JET_LS.Value property  (Microsoft.Isam.Esent.Interop)
+title: JET_LS.Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LS.Value
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls.value(v=EXCHG.10)

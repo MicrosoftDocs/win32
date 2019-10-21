@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseAlreadyUpgradedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseAlreadyUpgradedException constructor 
 TOCTitle: 'EsentDatabaseAlreadyUpgradedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyUpgradedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasealreadyupgradedexception.esentdatabasealreadyupgradedexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNCREATE methods (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE methods
 TOCTitle: JET_COLUMNCREATE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate_methods(v=EXCHG.10)

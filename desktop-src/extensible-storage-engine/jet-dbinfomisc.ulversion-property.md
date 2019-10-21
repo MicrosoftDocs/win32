@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.ulVersion property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.ulVersion property 
 TOCTitle: 'ulVersion property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulVersion
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.ulversion(v=EXCHG.10)

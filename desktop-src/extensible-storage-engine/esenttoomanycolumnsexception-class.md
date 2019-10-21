@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyColumnsException class (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyColumnsException class
 TOCTitle: EsentTooManyColumnsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyColumnsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanycolumnsexception(v=EXCHG.10)

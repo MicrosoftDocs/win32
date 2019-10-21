@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSnapIdException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSnapIdException methods
 TOCTitle: EsentOSSnapshotInvalidSnapIdException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsnapidexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInvalidDefException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInvalidDefException constructor 
 TOCTitle: 'EsentIndexInvalidDefException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexInvalidDefException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinvaliddefexception.esentindexinvaliddefexception(v=EXCHG.10)

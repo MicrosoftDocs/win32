@@ -1,5 +1,5 @@
 ---
-title: EsentRecordTooBigForBackwardCompatibilityException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigForBackwardCompatibilityException methods
 TOCTitle: EsentRecordTooBigForBackwardCompatibilityException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigforbackwardcompatibilityexception_methods(v=EXCHG.10)

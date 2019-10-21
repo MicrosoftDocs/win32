@@ -1,5 +1,5 @@
 ---
-title: EsentUnicodeTranslationBufferTooSmallException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeTranslationBufferTooSmallException constructor 
 TOCTitle: 'EsentUnicodeTranslationBufferTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodetranslationbuffertoosmallexception.esentunicodetranslationbuffertoosmallexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.SetLength method  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.SetLength method 
 TOCTitle: 'SetLength method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.SetLength(System.Int64)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.setlength(v=EXCHG.10)

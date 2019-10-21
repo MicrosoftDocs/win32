@@ -1,5 +1,5 @@
 ---
-title: EsentCannotMaterializeForwardOnlySortException class (Microsoft.Isam.Esent.Interop)
+title: EsentCannotMaterializeForwardOnlySortException class
 TOCTitle: EsentCannotMaterializeForwardOnlySortException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotMaterializeForwardOnlySortException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotmaterializeforwardonlysortexception(v=EXCHG.10)

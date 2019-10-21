@@ -1,5 +1,5 @@
 ---
-title: EsentSeparatedLongValueException class (Microsoft.Isam.Esent.Interop)
+title: EsentSeparatedLongValueException class
 TOCTitle: EsentSeparatedLongValueException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSeparatedLongValueException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentseparatedlongvalueexception(v=EXCHG.10)

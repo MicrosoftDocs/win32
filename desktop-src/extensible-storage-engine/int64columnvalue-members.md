@@ -1,5 +1,5 @@
 ---
-title: Int64ColumnValue members (Microsoft.Isam.Esent.Interop)
+title: Int64ColumnValue members
 TOCTitle: Int64ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Int64ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int64columnvalue_members(v=EXCHG.10)

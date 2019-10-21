@@ -1,5 +1,5 @@
 ---
-title: Api.JetGotoPosition method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGotoPosition method 
 TOCTitle: 'JetGotoPosition method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGotoPosition(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_RECPOS)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgotoposition(v=EXCHG.10)

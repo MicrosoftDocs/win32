@@ -1,5 +1,5 @@
 ---
-title: EsentCannotBeTaggedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCannotBeTaggedException properties
 TOCTitle: EsentCannotBeTaggedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotbetaggedexception_properties(v=EXCHG.10)

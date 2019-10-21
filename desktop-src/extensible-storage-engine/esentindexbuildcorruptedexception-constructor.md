@@ -1,5 +1,5 @@
 ---
-title: EsentIndexBuildCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIndexBuildCorruptedException constructor 
 TOCTitle: 'EsentIndexBuildCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexBuildCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexbuildcorruptedexception.esentindexbuildcorruptedexception(v=EXCHG.10)

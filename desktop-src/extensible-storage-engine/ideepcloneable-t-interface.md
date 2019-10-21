@@ -1,5 +1,5 @@
 ---
-title: IDeepCloneable(T) interface (Microsoft.Isam.Esent.Interop)
+title: IDeepCloneable(T) interface
 TOCTitle: IDeepCloneable(T) interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh565368(v=EXCHG.10)

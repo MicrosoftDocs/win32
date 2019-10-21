@@ -1,5 +1,5 @@
 ---
-title: EscrowUpdateGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: EscrowUpdateGrbit enumeration
 TOCTitle: EscrowUpdateGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EscrowUpdateGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.escrowupdategrbit(v=EXCHG.10)

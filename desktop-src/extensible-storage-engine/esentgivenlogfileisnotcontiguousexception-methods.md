@@ -1,5 +1,5 @@
 ---
-title: EsentGivenLogFileIsNotContiguousException methods (Microsoft.Isam.Esent.Interop)
+title: EsentGivenLogFileIsNotContiguousException methods
 TOCTitle: EsentGivenLogFileIsNotContiguousException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentgivenlogfileisnotcontiguousexception_methods(v=EXCHG.10)

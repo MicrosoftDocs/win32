@@ -1,5 +1,5 @@
 ---
-title: JET_CONDITIONALCOLUMN.DeepClone method  (Microsoft.Isam.Esent.Interop)
+title: JET_CONDITIONALCOLUMN.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN.DeepClone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_conditionalcolumn.deepclone(v=EXCHG.10)

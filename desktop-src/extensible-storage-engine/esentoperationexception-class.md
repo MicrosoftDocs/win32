@@ -1,5 +1,5 @@
 ---
-title: EsentOperationException class (Microsoft.Isam.Esent.Interop)
+title: EsentOperationException class
 TOCTitle: EsentOperationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOperationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoperationexception(v=EXCHG.10)

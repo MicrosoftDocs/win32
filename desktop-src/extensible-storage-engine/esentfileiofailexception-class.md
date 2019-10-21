@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOFailException class (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOFailException class
 TOCTitle: EsentFileIOFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiofailexception(v=EXCHG.10)

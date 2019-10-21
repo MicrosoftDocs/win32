@@ -1,5 +1,5 @@
 ---
-title: Api.JetCommitTransaction method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetCommitTransaction method 
 TOCTitle: 'JetCommitTransaction method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCommitTransaction(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.CommitTransactionGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetcommittransaction(v=EXCHG.10)

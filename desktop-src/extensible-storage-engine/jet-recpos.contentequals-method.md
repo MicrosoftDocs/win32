@@ -1,5 +1,5 @@
 ---
-title: JET_RECPOS.ContentEquals method  (Microsoft.Isam.Esent.Interop)
+title: JET_RECPOS.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECPOS.ContentEquals(Microsoft.Isam.Esent.Interop.JET_RECPOS)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos.contentequals(v=EXCHG.10)

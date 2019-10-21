@@ -1,5 +1,5 @@
 ---
-title: EsentLSAlreadySetException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLSAlreadySetException constructor 
 TOCTitle: 'EsentLSAlreadySetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLSAlreadySetException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlsalreadysetexception.esentlsalreadysetexception(v=EXCHG.10)

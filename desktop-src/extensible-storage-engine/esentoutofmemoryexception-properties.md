@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfMemoryException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfMemoryException properties
 TOCTitle: EsentOutOfMemoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofmemoryexception_properties(v=EXCHG.10)

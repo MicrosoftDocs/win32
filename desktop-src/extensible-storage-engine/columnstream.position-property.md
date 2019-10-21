@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.Position property  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.Position property 
 TOCTitle: 'Position property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.Position
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.position(v=EXCHG.10)

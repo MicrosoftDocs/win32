@@ -1,5 +1,5 @@
 ---
-title: EsentSLVOwnerMapAlreadyExistsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVOwnerMapAlreadyExistsException methods
 TOCTitle: EsentSLVOwnerMapAlreadyExistsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapAlreadyExistsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvownermapalreadyexistsexception_methods(v=EXCHG.10)

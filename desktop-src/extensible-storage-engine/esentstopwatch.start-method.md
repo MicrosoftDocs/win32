@@ -1,5 +1,5 @@
 ---
-title: EsentStopwatch.Start method  (Microsoft.Isam.Esent.Interop)
+title: EsentStopwatch.Start method 
 TOCTitle: 'Start method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.Start
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstopwatch.start(v=EXCHG.10)

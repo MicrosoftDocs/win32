@@ -1,5 +1,5 @@
 ---
-title: EsentMakeBackupDirectoryFailException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentMakeBackupDirectoryFailException constructor 
 TOCTitle: 'EsentMakeBackupDirectoryFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmakebackupdirectoryfailexception.esentmakebackupdirectoryfailexception(v=EXCHG.10)

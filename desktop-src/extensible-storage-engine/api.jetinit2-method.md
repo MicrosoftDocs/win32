@@ -1,5 +1,5 @@
 ---
-title: Api.JetInit2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetInit2 method 
 TOCTitle: 'JetInit2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetInit2(Microsoft.Isam.Esent.Interop.JET_INSTANCE@,Microsoft.Isam.Esent.Interop.InitGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetinit2(v=EXCHG.10)

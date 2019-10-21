@@ -1,5 +1,5 @@
 ---
-title: Instance.Init method  (Microsoft.Isam.Esent.Interop)
+title: Instance.Init method 
 TOCTitle: 'Init method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.init(v=EXCHG.10)

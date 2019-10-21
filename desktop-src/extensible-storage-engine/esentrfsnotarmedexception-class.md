@@ -1,5 +1,5 @@
 ---
-title: EsentRfsNotArmedException class (Microsoft.Isam.Esent.Interop)
+title: EsentRfsNotArmedException class
 TOCTitle: EsentRfsNotArmedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRfsNotArmedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrfsnotarmedexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_RETRIEVECOLUMN members (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN members
 TOCTitle: JET_RETRIEVECOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn_members(v=EXCHG.10)

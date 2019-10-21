@@ -1,5 +1,5 @@
 ---
-title: IndexSegment class (Microsoft.Isam.Esent.Interop)
+title: IndexSegment class
 TOCTitle: IndexSegment class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IndexSegment
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment(v=EXCHG.10)

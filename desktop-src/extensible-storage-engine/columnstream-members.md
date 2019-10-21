@@ -1,5 +1,5 @@
 ---
-title: ColumnStream members (Microsoft.Isam.Esent.Interop)
+title: ColumnStream members
 TOCTitle: ColumnStream members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnStream
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBufferSizeException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBufferSizeException properties
 TOCTitle: EsentInvalidBufferSizeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbuffersizeexception_properties(v=EXCHG.10)

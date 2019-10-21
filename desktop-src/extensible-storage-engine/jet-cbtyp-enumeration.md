@@ -1,5 +1,5 @@
 ---
-title: JET_cbtyp enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_cbtyp enumeration
 TOCTitle: JET_cbtyp enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_cbtyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_cbtyp(v=EXCHG.10)

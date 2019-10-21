@@ -1,5 +1,5 @@
 ---
-title: EsentMissingFullBackupException class (Microsoft.Isam.Esent.Interop)
+title: EsentMissingFullBackupException class
 TOCTitle: EsentMissingFullBackupException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingfullbackupexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLogDataSequenceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLogDataSequenceException constructor 
 TOCTitle: 'EsentInvalidLogDataSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlogdatasequenceexception.esentinvalidlogdatasequenceexception(v=EXCHG.10)

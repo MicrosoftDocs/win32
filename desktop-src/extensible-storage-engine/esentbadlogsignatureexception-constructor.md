@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogSignatureException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogSignatureException constructor 
 TOCTitle: 'EsentBadLogSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogsignatureexception.esentbadlogsignatureexception(v=EXCHG.10)

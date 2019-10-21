@@ -1,5 +1,5 @@
 ---
-title: EsentSLVSpaceWriteConflictException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVSpaceWriteConflictException constructor 
 TOCTitle: 'EsentSLVSpaceWriteConflictException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVSpaceWriteConflictException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvspacewriteconflictexception.esentslvspacewriteconflictexception(v=EXCHG.10)

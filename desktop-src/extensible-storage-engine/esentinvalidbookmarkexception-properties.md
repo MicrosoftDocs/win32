@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBookmarkException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBookmarkException properties
 TOCTitle: EsentInvalidBookmarkException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbookmarkexception_properties(v=EXCHG.10)

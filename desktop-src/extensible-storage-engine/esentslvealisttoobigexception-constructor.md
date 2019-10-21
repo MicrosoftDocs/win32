@@ -1,5 +1,5 @@
 ---
-title: EsentSLVEAListTooBigException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVEAListTooBigException constructor 
 TOCTitle: 'EsentSLVEAListTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvealisttoobigexception.esentslvealisttoobigexception(v=EXCHG.10)

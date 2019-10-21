@@ -1,5 +1,5 @@
 ---
-title: EsentLSCallbackNotSpecifiedException members (Microsoft.Isam.Esent.Interop)
+title: EsentLSCallbackNotSpecifiedException members
 TOCTitle: EsentLSCallbackNotSpecifiedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlscallbacknotspecifiedexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentCatalogCorruptedException members (Microsoft.Isam.Esent.Interop)
+title: EsentCatalogCorruptedException members
 TOCTitle: EsentCatalogCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCatalogCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcatalogcorruptedexception_members(v=EXCHG.10)

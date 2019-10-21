@@ -1,5 +1,5 @@
 ---
-title: EsentLogCorruptDuringHardRestoreException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogCorruptDuringHardRestoreException methods
 TOCTitle: EsentLogCorruptDuringHardRestoreException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogcorruptduringhardrestoreexception_methods(v=EXCHG.10)

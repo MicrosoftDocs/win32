@@ -1,5 +1,5 @@
 ---
-title: EsentPageSizeMismatchException methods (Microsoft.Isam.Esent.Interop)
+title: EsentPageSizeMismatchException methods
 TOCTitle: EsentPageSizeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagesizemismatchexception_methods(v=EXCHG.10)

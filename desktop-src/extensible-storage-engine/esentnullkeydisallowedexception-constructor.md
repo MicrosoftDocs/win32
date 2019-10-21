@@ -1,5 +1,5 @@
 ---
-title: EsentNullKeyDisallowedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNullKeyDisallowedException constructor 
 TOCTitle: 'EsentNullKeyDisallowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnullkeydisallowedexception.esentnullkeydisallowedexception(v=EXCHG.10)

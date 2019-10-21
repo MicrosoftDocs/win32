@@ -1,5 +1,5 @@
 ---
-title: EsentLVCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLVCorruptedException constructor 
 TOCTitle: 'EsentLVCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLVCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlvcorruptedexception.esentlvcorruptedexception(v=EXCHG.10)

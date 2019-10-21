@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyKeysException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyKeysException methods
 TOCTitle: EsentTooManyKeysException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanykeysexception_methods(v=EXCHG.10)

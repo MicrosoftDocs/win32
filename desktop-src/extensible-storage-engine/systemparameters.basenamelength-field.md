@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.BaseNameLength field (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.BaseNameLength field
 TOCTitle: BaseNameLength field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.BaseNameLength
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.basenamelength(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentCannotSeparateIntrinsicLVException class (Microsoft.Isam.Esent.Interop)
+title: EsentCannotSeparateIntrinsicLVException class
 TOCTitle: EsentCannotSeparateIntrinsicLVException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotseparateintrinsiclvexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentResource members (Microsoft.Isam.Esent.Interop)
+title: EsentResource members
 TOCTitle: EsentResource members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource_members(v=EXCHG.10)

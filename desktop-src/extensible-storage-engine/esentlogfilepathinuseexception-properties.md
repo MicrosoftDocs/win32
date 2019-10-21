@@ -1,5 +1,5 @@
 ---
-title: EsentLogFilePathInUseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogFilePathInUseException properties
 TOCTitle: EsentLogFilePathInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogFilePathInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilepathinuseexception_properties(v=EXCHG.10)

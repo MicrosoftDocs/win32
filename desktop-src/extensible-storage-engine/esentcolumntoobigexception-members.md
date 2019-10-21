@@ -1,5 +1,5 @@
 ---
-title: EsentColumnTooBigException members (Microsoft.Isam.Esent.Interop)
+title: EsentColumnTooBigException members
 TOCTitle: EsentColumnTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumntoobigexception_members(v=EXCHG.10)

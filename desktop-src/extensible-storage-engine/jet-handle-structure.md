@@ -1,5 +1,5 @@
 ---
-title: JET_HANDLE structure (Microsoft.Isam.Esent.Interop)
+title: JET_HANDLE structure
 TOCTitle: JET_HANDLE structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_HANDLE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle(v=EXCHG.10)

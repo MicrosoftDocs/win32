@@ -1,5 +1,5 @@
 ---
-title: Api.JetSetColumns method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetSetColumns method 
 TOCTitle: 'JetSetColumns method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetColumns(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_SETCOLUMN[],System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetsetcolumns(v=EXCHG.10)

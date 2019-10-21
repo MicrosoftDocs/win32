@@ -1,5 +1,5 @@
 ---
-title: IJET_LOGTIME.ToDateTime method  (Microsoft.Isam.Esent.Interop)
+title: IJET_LOGTIME.ToDateTime method 
 TOCTitle: 'ToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IJET_LOGTIME.ToDateTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.ijet_logtime.todatetime(v=EXCHG.10)

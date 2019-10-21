@@ -1,5 +1,5 @@
 ---
-title: EsentNoCurrentRecordException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNoCurrentRecordException methods
 TOCTitle: EsentNoCurrentRecordException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnocurrentrecordexception_methods(v=EXCHG.10)

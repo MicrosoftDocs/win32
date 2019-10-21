@@ -1,5 +1,5 @@
 ﻿---
-title: EsentIOException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIOException constructor 
 TOCTitle: 'EsentIOException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentIOException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentioexception.esentioexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_BKLOGTIME members (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME members
 TOCTitle: JET_BKLOGTIME members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ﻿---
-title: IDeepCloneable(T) methods (Microsoft.Isam.Esent.Interop)
+title: IDeepCloneable(T) methods
 TOCTitle: IDeepCloneable(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh579566(v=EXCHG.10)

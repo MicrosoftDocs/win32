@@ -1,5 +1,5 @@
 ---
-title: EsentLogWriteFailException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogWriteFailException properties
 TOCTitle: EsentLogWriteFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogwritefailexception_properties(v=EXCHG.10)

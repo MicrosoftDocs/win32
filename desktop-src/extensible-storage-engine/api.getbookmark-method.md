@@ -1,5 +1,5 @@
 ---
-title: Api.GetBookmark method  (Microsoft.Isam.Esent.Interop)
+title: Api.GetBookmark method 
 TOCTitle: 'GetBookmark method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetBookmark(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.getbookmark(v=EXCHG.10)

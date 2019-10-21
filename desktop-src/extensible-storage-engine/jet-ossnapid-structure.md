@@ -1,5 +1,5 @@
 ---
-title: JET_OSSNAPID structure (Microsoft.Isam.Esent.Interop)
+title: JET_OSSNAPID structure
 TOCTitle: JET_OSSNAPID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ossnapid(v=EXCHG.10)

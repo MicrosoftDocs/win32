@@ -1,5 +1,5 @@
 ---
-title: IndexInfo.Grbit property  (Microsoft.Isam.Esent.Interop)
+title: IndexInfo.Grbit property 
 TOCTitle: 'Grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Grbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo.grbit(v=EXCHG.10)

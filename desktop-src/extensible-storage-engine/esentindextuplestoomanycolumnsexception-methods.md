@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesTooManyColumnsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesTooManyColumnsException methods
 TOCTitle: EsentIndexTuplesTooManyColumnsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTooManyColumnsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplestoomanycolumnsexception_methods(v=EXCHG.10)

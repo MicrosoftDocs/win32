@@ -1,5 +1,5 @@
 ---
-title: EsentSLVBufferTooSmallException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVBufferTooSmallException constructor 
 TOCTitle: 'EsentSLVBufferTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvbuffertoosmallexception.esentslvbuffertoosmallexception(v=EXCHG.10)

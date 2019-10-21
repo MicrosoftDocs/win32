@@ -1,5 +1,5 @@
 ---
-title: JET_RSTINFO constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_RSTINFO constructor 
 TOCTitle: 'JET_RSTINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RSTINFO.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstinfo.jet_rstinfo(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInvalidPagesException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidPagesException members
 TOCTitle: EsentDatabaseInvalidPagesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidpagesexception_members(v=EXCHG.10)

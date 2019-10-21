@@ -1,5 +1,5 @@
 ---
-title: EsentKeyDuplicateException properties (Microsoft.Isam.Esent.Interop)
+title: EsentKeyDuplicateException properties
 TOCTitle: EsentKeyDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeyduplicateexception_properties(v=EXCHG.10)

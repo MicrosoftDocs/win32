@@ -1,5 +1,5 @@
 ---
-title: EsentClientRequestToStopJetServiceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentClientRequestToStopJetServiceException constructor 
 TOCTitle: 'EsentClientRequestToStopJetServiceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentclientrequesttostopjetserviceexception.esentclientrequesttostopjetserviceexception(v=EXCHG.10)

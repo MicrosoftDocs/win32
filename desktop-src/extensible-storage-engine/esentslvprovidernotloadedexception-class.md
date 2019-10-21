@@ -1,5 +1,5 @@
 ---
-title: EsentSLVProviderNotLoadedException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVProviderNotLoadedException class
 TOCTitle: EsentSLVProviderNotLoadedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvprovidernotloadedexception(v=EXCHG.10)

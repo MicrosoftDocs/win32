@@ -1,5 +1,5 @@
 ﻿---
-title: Int16ColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: Int16ColumnValue properties
 TOCTitle: Int16ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Int16ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int16columnvalue_properties(v=EXCHG.10)

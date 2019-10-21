@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNotUpdatableException members (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNotUpdatableException members
 TOCTitle: EsentColumnNotUpdatableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnotupdatableexception_members(v=EXCHG.10)

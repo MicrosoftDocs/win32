@@ -1,5 +1,5 @@
 ---
-title: ColumnInfo class (Microsoft.Isam.Esent.Interop)
+title: ColumnInfo class
 TOCTitle: ColumnInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo(v=EXCHG.10)

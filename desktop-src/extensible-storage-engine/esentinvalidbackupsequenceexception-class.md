@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBackupSequenceException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBackupSequenceException class
 TOCTitle: EsentInvalidBackupSequenceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbackupsequenceexception(v=EXCHG.10)

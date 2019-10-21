@@ -1,5 +1,5 @@
 ---
-title: EsentEndingRestoreLogTooLowException class (Microsoft.Isam.Esent.Interop)
+title: EsentEndingRestoreLogTooLowException class
 TOCTitle: EsentEndingRestoreLogTooLowException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentendingrestorelogtoolowexception(v=EXCHG.10)

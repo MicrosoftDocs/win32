@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseSharingViolationException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseSharingViolationException members
 TOCTitle: EsentDatabaseSharingViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesharingviolationexception_members(v=EXCHG.10)

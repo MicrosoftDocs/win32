@@ -1,5 +1,5 @@
 ---
-title: EsentTaggedNotNULLException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTaggedNotNULLException methods
 TOCTitle: EsentTaggedNotNULLException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTaggedNotNULLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttaggednotnullexception_methods(v=EXCHG.10)

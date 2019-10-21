@@ -1,5 +1,5 @@
 ---
-title: EsentFileIORetryException properties (Microsoft.Isam.Esent.Interop)
+title: EsentFileIORetryException properties
 TOCTitle: EsentFileIORetryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIORetryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileioretryexception_properties(v=EXCHG.10)

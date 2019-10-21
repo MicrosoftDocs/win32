@@ -1,5 +1,5 @@
 ---
-title: EsentNoAttachmentsFailedIncrementalReseedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNoAttachmentsFailedIncrementalReseedException constructor 
 TOCTitle: 'EsentNoAttachmentsFailedIncrementalReseedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnoattachmentsfailedincrementalreseedexception.esentnoattachmentsfailedincrementalreseedexception(v=EXCHG.10)

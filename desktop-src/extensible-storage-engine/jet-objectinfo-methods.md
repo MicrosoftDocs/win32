@@ -1,5 +1,5 @@
 ---
-title: JET_OBJECTINFO methods (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTINFO methods
 TOCTitle: JET_OBJECTINFO methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectinfo_methods(v=EXCHG.10)

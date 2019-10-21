@@ -1,5 +1,5 @@
 ---
-title: Api.MakeKey method (JET_SESID, JET_TABLEID, DateTime, MakeKeyGrbit) (Microsoft.Isam.Esent.Interop)
+title: Api.MakeKey method (JET_SESID, JET_TABLEID, DateTime, MakeKeyGrbit)
 TOCTitle: MakeKey method (JET_SESID, JET_TABLEID, DateTime, MakeKeyGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MakeKey(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.DateTime,Microsoft.Isam.Esent.Interop.MakeKeyGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.makekey(v=EXCHG.10)

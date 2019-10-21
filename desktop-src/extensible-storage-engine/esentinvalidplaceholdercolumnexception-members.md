@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidPlaceholderColumnException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidPlaceholderColumnException members
 TOCTitle: EsentInvalidPlaceholderColumnException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidPlaceholderColumnException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidplaceholdercolumnexception_members(v=EXCHG.10)

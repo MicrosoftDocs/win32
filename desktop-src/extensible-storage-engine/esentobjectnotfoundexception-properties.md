@@ -1,5 +1,5 @@
 ---
-title: EsentObjectNotFoundException properties (Microsoft.Isam.Esent.Interop)
+title: EsentObjectNotFoundException properties
 TOCTitle: EsentObjectNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentobjectnotfoundexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentColumnDoesNotFitException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentColumnDoesNotFitException constructor 
 TOCTitle: 'EsentColumnDoesNotFitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumndoesnotfitexception.esentcolumndoesnotfitexception(v=EXCHG.10)

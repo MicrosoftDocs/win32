@@ -1,5 +1,5 @@
 ---
-title: IndexInfo class (Microsoft.Isam.Esent.Interop)
+title: IndexInfo class
 TOCTitle: IndexInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IndexInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo(v=EXCHG.10)

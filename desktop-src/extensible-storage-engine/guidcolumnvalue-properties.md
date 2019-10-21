@@ -1,5 +1,5 @@
 ﻿---
-title: GuidColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: GuidColumnValue properties
 TOCTitle: GuidColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.GuidColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.guidcolumnvalue_properties(v=EXCHG.10)

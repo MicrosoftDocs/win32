@@ -1,5 +1,5 @@
 ---
-title: TermGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: TermGrbit enumeration
 TOCTitle: TermGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.TermGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.termgrbit(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentIOException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIOException properties
 TOCTitle: EsentIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentioexception_properties(v=EXCHG.10)

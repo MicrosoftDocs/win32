@@ -1,5 +1,5 @@
 ---
-title: ConditionalColumnGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: ConditionalColumnGrbit enumeration
 TOCTitle: ConditionalColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ConditionalColumnGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.conditionalcolumngrbit(v=EXCHG.10)

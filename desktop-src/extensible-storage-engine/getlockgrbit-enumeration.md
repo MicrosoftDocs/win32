@@ -1,5 +1,5 @@
 ---
-title: GetLockGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: GetLockGrbit enumeration
 TOCTitle: GetLockGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.GetLockGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.getlockgrbit(v=EXCHG.10)

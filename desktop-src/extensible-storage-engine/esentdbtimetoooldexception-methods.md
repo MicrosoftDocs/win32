@@ -1,5 +1,5 @@
 ---
-title: EsentDbTimeTooOldException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDbTimeTooOldException methods
 TOCTitle: EsentDbTimeTooOldException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdbtimetoooldexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Api.GetTableIndexes method (JET_SESID, JET_TABLEID) (Microsoft.Isam.Esent.Interop)
+title: Api.GetTableIndexes method (JET_SESID, JET_TABLEID)
 TOCTitle: GetTableIndexes method (JET_SESID, JET_TABLEID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.gettableindexes(v=EXCHG.10)

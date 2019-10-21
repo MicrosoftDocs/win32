@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseDuplicateException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseDuplicateException members
 TOCTitle: EsentDatabaseDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseduplicateexception_members(v=EXCHG.10)

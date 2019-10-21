@@ -1,5 +1,5 @@
 ---
-title: EsentErrorException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentErrorException constructor 
 TOCTitle: 'EsentErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenterrorexception.esenterrorexception(v=EXCHG.10)

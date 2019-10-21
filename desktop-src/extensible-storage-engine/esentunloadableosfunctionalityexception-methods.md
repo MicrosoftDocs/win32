@@ -1,5 +1,5 @@
 ---
-title: EsentUnloadableOSFunctionalityException methods (Microsoft.Isam.Esent.Interop)
+title: EsentUnloadableOSFunctionalityException methods
 TOCTitle: EsentUnloadableOSFunctionalityException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunloadableosfunctionalityexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE.cbKeyMost property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.cbKeyMost property 
 TOCTitle: 'cbKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.cbKeyMost
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.cbkeymost(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileFullException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileFullException class
 TOCTitle: EsentSLVStreamingFileFullException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilefullexception(v=EXCHG.10)

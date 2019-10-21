@@ -1,5 +1,5 @@
 ---
-title: EsentReadPgnoVerifyFailureException methods (Microsoft.Isam.Esent.Interop)
+title: EsentReadPgnoVerifyFailureException methods
 TOCTitle: EsentReadPgnoVerifyFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentreadpgnoverifyfailureexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_CONDITIONALCOLUMN.szColumnName property  (Microsoft.Isam.Esent.Interop)
+title: JET_CONDITIONALCOLUMN.szColumnName property 
 TOCTitle: 'szColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN.szColumnName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_conditionalcolumn.szcolumnname(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_OBJECTLIST.columnidcRecord property  (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTLIST.columnidcRecord property 
 TOCTitle: 'columnidcRecord property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidcRecord
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectlist.columnidcrecord(v=EXCHG.10)

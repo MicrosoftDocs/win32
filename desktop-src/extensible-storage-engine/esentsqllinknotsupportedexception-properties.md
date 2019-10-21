@@ -1,5 +1,5 @@
 ---
-title: EsentSQLLinkNotSupportedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSQLLinkNotSupportedException properties
 TOCTitle: EsentSQLLinkNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsqllinknotsupportedexception_properties(v=EXCHG.10)

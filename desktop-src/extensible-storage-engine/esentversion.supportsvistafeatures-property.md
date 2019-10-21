@@ -1,5 +1,5 @@
 ---
-title: EsentVersion.SupportsVistaFeatures property  (Microsoft.Isam.Esent.Interop)
+title: EsentVersion.SupportsVistaFeatures property 
 TOCTitle: 'SupportsVistaFeatures property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsVistaFeatures
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion.supportsvistafeatures(v=EXCHG.10)

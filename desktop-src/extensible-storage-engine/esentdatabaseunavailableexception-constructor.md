@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseUnavailableException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseUnavailableException constructor 
 TOCTitle: 'EsentDatabaseUnavailableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseunavailableexception.esentdatabaseunavailableexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: DateTimeColumnValue class (Microsoft.Isam.Esent.Interop)
+title: DateTimeColumnValue class
 TOCTitle: DateTimeColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DateTimeColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.datetimecolumnvalue(v=EXCHG.10)

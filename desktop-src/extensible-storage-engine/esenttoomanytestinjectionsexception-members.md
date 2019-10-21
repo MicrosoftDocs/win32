@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyTestInjectionsException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyTestInjectionsException members
 TOCTitle: EsentTooManyTestInjectionsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyTestInjectionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanytestinjectionsexception_members(v=EXCHG.10)

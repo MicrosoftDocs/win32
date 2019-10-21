@@ -1,5 +1,5 @@
 ---
-title: EsentFileInvalidTypeException methods (Microsoft.Isam.Esent.Interop)
+title: EsentFileInvalidTypeException methods
 TOCTitle: EsentFileInvalidTypeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileinvalidtypeexception_methods(v=EXCHG.10)

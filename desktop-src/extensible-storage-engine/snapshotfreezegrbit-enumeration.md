@@ -1,5 +1,5 @@
 ---
-title: SnapshotFreezeGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: SnapshotFreezeGrbit enumeration
 TOCTitle: SnapshotFreezeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SnapshotFreezeGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.snapshotfreezegrbit(v=EXCHG.10)

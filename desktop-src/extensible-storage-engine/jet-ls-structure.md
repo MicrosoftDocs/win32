@@ -1,5 +1,5 @@
 ---
-title: JET_LS structure (Microsoft.Isam.Esent.Interop)
+title: JET_LS structure
 TOCTitle: JET_LS structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_LS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls(v=EXCHG.10)

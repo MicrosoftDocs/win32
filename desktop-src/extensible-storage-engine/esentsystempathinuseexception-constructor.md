@@ -1,5 +1,5 @@
 ---
-title: EsentSystemPathInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSystemPathInUseException constructor 
 TOCTitle: 'EsentSystemPathInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSystemPathInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsystempathinuseexception.esentsystempathinuseexception(v=EXCHG.10)

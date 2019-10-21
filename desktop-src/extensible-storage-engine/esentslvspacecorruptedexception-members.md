@@ -1,5 +1,5 @@
 ---
-title: EsentSLVSpaceCorruptedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVSpaceCorruptedException members
 TOCTitle: EsentSLVSpaceCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvspacecorruptedexception_members(v=EXCHG.10)

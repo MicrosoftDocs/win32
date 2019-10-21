@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfSequentialIndexValuesException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSequentialIndexValuesException properties
 TOCTitle: EsentOutOfSequentialIndexValuesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsequentialindexvaluesexception_properties(v=EXCHG.10)

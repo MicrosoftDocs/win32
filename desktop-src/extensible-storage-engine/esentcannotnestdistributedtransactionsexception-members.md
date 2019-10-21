@@ -1,5 +1,5 @@
 ---
-title: EsentCannotNestDistributedTransactionsException members (Microsoft.Isam.Esent.Interop)
+title: EsentCannotNestDistributedTransactionsException members
 TOCTitle: EsentCannotNestDistributedTransactionsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotnestdistributedtransactionsexception_members(v=EXCHG.10)

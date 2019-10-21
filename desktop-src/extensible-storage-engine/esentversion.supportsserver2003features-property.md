@@ -1,5 +1,5 @@
 ---
-title: EsentVersion.SupportsServer2003Features property  (Microsoft.Isam.Esent.Interop)
+title: EsentVersion.SupportsServer2003Features property 
 TOCTitle: 'SupportsServer2003Features property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsServer2003Features
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion.supportsserver2003features(v=EXCHG.10)

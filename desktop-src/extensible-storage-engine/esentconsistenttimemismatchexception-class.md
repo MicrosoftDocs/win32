@@ -1,5 +1,5 @@
 ---
-title: EsentConsistentTimeMismatchException class (Microsoft.Isam.Esent.Interop)
+title: EsentConsistentTimeMismatchException class
 TOCTitle: EsentConsistentTimeMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentconsistenttimemismatchexception(v=EXCHG.10)

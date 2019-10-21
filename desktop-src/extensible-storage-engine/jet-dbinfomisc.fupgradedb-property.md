@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.fUpgradeDb property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.fUpgradeDb property 
 TOCTitle: 'fUpgradeDb property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.fUpgradeDb
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.fupgradedb(v=EXCHG.10)

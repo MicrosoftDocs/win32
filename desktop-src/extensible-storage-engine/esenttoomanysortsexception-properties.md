@@ -1,5 +1,5 @@
 ---
-title: EsentTooManySortsException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTooManySortsException properties
 TOCTitle: EsentTooManySortsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanysortsexception_properties(v=EXCHG.10)

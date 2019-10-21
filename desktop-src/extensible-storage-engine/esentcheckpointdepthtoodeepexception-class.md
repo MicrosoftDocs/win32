@@ -1,5 +1,5 @@
 ---
-title: EsentCheckpointDepthTooDeepException class (Microsoft.Isam.Esent.Interop)
+title: EsentCheckpointDepthTooDeepException class
 TOCTitle: EsentCheckpointDepthTooDeepException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCheckpointDepthTooDeepException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointdepthtoodeepexception(v=EXCHG.10)

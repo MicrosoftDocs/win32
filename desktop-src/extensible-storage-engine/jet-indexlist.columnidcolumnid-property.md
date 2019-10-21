@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXLIST.columnidcolumnid property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXLIST.columnidcolumnid property 
 TOCTitle: 'columnidcolumnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidcolumnid
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexlist.columnidcolumnid(v=EXCHG.10)

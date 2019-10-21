@@ -1,5 +1,5 @@
 ---
-title: EsentBadBackupDatabaseSizeException properties (Microsoft.Isam.Esent.Interop)
+title: EsentBadBackupDatabaseSizeException properties
 TOCTitle: EsentBadBackupDatabaseSizeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadbackupdatabasesizeexception_properties(v=EXCHG.10)

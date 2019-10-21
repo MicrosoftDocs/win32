@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNCREATE.pvDefault property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE.pvDefault property 
 TOCTitle: 'pvDefault property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.pvDefault
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate.pvdefault(v=EXCHG.10)

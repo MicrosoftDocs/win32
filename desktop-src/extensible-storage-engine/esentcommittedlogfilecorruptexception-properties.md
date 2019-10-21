@@ -1,5 +1,5 @@
 ---
-title: EsentCommittedLogFileCorruptException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCommittedLogFileCorruptException properties
 TOCTitle: EsentCommittedLogFileCorruptException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFileCorruptException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcommittedlogfilecorruptexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInvalidNameException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidNameException members
 TOCTitle: EsentDatabaseInvalidNameException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidnameexception_members(v=EXCHG.10)

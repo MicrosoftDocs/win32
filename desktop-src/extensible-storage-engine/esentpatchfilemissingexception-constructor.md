@@ -1,5 +1,5 @@
 ---
-title: EsentPatchFileMissingException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentPatchFileMissingException constructor 
 TOCTitle: 'EsentPatchFileMissingException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpatchfilemissingexception.esentpatchfilemissingexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidColumnTypeException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidColumnTypeException properties
 TOCTitle: EsentInvalidColumnTypeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnTypeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcolumntypeexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVSpaceCorruptedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVSpaceCorruptedException properties
 TOCTitle: EsentSLVSpaceCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvspacecorruptedexception_properties(v=EXCHG.10)

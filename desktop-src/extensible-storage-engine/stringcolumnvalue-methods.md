@@ -1,5 +1,5 @@
 ---
-title: StringColumnValue methods (Microsoft.Isam.Esent.Interop)
+title: StringColumnValue methods
 TOCTitle: StringColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.StringColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.stringcolumnvalue_methods(v=EXCHG.10)

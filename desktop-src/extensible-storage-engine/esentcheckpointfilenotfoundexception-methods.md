@@ -1,5 +1,5 @@
 ---
-title: EsentCheckpointFileNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentCheckpointFileNotFoundException methods
 TOCTitle: EsentCheckpointFileNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointfilenotfoundexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesInvalidLimitsException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesInvalidLimitsException properties
 TOCTitle: EsentIndexTuplesInvalidLimitsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplesinvalidlimitsexception_properties(v=EXCHG.10)

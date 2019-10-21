@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSequenceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSequenceException constructor 
 TOCTitle: 'EsentOSSnapshotInvalidSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsequenceexception.esentossnapshotinvalidsequenceexception(v=EXCHG.10)

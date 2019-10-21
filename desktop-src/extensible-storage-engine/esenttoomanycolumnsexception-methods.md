@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyColumnsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyColumnsException methods
 TOCTitle: EsentTooManyColumnsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyColumnsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanycolumnsexception_methods(v=EXCHG.10)

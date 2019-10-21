@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesVarSegMacNotAllowedException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesVarSegMacNotAllowedException class
 TOCTitle: EsentIndexTuplesVarSegMacNotAllowedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesVarSegMacNotAllowedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplesvarsegmacnotallowedexception(v=EXCHG.10)

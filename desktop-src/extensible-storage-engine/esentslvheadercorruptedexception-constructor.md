@@ -1,5 +1,5 @@
 ---
-title: EsentSLVHeaderCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVHeaderCorruptedException constructor 
 TOCTitle: 'EsentSLVHeaderCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVHeaderCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvheadercorruptedexception.esentslvheadercorruptedexception(v=EXCHG.10)

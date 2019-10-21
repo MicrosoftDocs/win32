@@ -1,5 +1,5 @@
 ---
-title: Api.JetCreateInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetCreateInstance method 
 TOCTitle: 'JetCreateInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE@,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetcreateinstance(v=EXCHG.10)

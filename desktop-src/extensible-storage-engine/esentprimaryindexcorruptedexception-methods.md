@@ -1,5 +1,5 @@
 ---
-title: EsentPrimaryIndexCorruptedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentPrimaryIndexCorruptedException methods
 TOCTitle: EsentPrimaryIndexCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPrimaryIndexCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentprimaryindexcorruptedexception_methods(v=EXCHG.10)

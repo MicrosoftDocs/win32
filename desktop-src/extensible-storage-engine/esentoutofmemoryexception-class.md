@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfMemoryException class (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfMemoryException class
 TOCTitle: EsentOutOfMemoryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofmemoryexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileNotCopiedException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileNotCopiedException class
 TOCTitle: EsentLogFileNotCopiedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilenotcopiedexception(v=EXCHG.10)

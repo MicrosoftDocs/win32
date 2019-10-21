@@ -1,5 +1,5 @@
 ---
-title: IDeepCloneable(T).DeepClone method  (Microsoft.Isam.Esent.Interop)
+title: IDeepCloneable(T).DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IDeepCloneable`1.DeepClone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578936(v=EXCHG.10)

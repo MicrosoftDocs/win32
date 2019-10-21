@@ -1,5 +1,5 @@
 ---
-title: Transaction.IsInTransaction property  (Microsoft.Isam.Esent.Interop)
+title: Transaction.IsInTransaction property 
 TOCTitle: 'IsInTransaction property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Transaction.IsInTransaction
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction.isintransaction(v=EXCHG.10)

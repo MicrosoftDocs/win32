@@ -1,5 +1,5 @@
 ---
-title: EsentPrimaryIndexCorruptedException members (Microsoft.Isam.Esent.Interop)
+title: EsentPrimaryIndexCorruptedException members
 TOCTitle: EsentPrimaryIndexCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPrimaryIndexCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentprimaryindexcorruptedexception_members(v=EXCHG.10)

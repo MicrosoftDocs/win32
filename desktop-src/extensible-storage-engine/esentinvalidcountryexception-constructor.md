@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCountryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCountryException constructor 
 TOCTitle: 'EsentInvalidCountryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCountryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcountryexception.esentinvalidcountryexception(v=EXCHG.10)

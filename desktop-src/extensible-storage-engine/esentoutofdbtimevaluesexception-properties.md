@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfDbtimeValuesException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfDbtimeValuesException properties
 TOCTitle: EsentOutOfDbtimeValuesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofdbtimevaluesexception_properties(v=EXCHG.10)

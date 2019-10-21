@@ -1,5 +1,5 @@
 ---
-title: EsentTestInjectionNotSupportedException members (Microsoft.Isam.Esent.Interop)
+title: EsentTestInjectionNotSupportedException members
 TOCTitle: EsentTestInjectionNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttestinjectionnotsupportedexception_members(v=EXCHG.10)

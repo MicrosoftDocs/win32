@@ -1,5 +1,5 @@
 ---
-title: EsentRequiredLogFilesMissingException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRequiredLogFilesMissingException methods
 TOCTitle: EsentRequiredLogFilesMissingException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrequiredlogfilesmissingexception_methods(v=EXCHG.10)

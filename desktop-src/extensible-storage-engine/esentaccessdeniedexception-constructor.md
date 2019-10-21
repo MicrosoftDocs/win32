@@ -1,5 +1,5 @@
 ---
-title: EsentAccessDeniedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentAccessDeniedException constructor 
 TOCTitle: 'EsentAccessDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAccessDeniedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentaccessdeniedexception.esentaccessdeniedexception(v=EXCHG.10)

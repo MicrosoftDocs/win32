@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidDatabaseException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidDatabaseException class
 TOCTitle: EsentInvalidDatabaseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvaliddatabaseexception(v=EXCHG.10)

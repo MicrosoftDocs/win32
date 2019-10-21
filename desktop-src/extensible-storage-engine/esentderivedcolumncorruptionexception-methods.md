@@ -1,5 +1,5 @@
 ---
-title: EsentDerivedColumnCorruptionException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDerivedColumnCorruptionException methods
 TOCTitle: EsentDerivedColumnCorruptionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentderivedcolumncorruptionexception_methods(v=EXCHG.10)

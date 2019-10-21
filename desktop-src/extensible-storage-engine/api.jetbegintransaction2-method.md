@@ -1,5 +1,5 @@
 ---
-title: Api.JetBeginTransaction2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetBeginTransaction2 method 
 TOCTitle: 'JetBeginTransaction2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginTransaction2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.BeginTransactionGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetbegintransaction2(v=EXCHG.10)

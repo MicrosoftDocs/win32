@@ -1,5 +1,5 @@
 ---
-title: EsentDatabase500FormatException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabase500FormatException properties
 TOCTitle: EsentDatabase500FormatException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase500formatexception_properties(v=EXCHG.10)

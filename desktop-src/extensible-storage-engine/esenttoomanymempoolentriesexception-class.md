@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyMempoolEntriesException class (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyMempoolEntriesException class
 TOCTitle: EsentTooManyMempoolEntriesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanymempoolentriesexception(v=EXCHG.10)

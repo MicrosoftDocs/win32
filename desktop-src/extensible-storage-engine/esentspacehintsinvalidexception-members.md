@@ -1,5 +1,5 @@
 ---
-title: EsentSpaceHintsInvalidException members (Microsoft.Isam.Esent.Interop)
+title: EsentSpaceHintsInvalidException members
 TOCTitle: EsentSpaceHintsInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspacehintsinvalidexception_members(v=EXCHG.10)

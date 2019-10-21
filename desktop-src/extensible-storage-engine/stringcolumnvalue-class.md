@@ -1,5 +1,5 @@
 ---
-title: StringColumnValue class (Microsoft.Isam.Esent.Interop)
+title: StringColumnValue class
 TOCTitle: StringColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.StringColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.stringcolumnvalue(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidInstanceException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidInstanceException methods
 TOCTitle: EsentInvalidInstanceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidInstanceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidinstanceexception_methods(v=EXCHG.10)

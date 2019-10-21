@@ -1,5 +1,5 @@
 ---
-title: EsentBackupAbortByServerException members (Microsoft.Isam.Esent.Interop)
+title: EsentBackupAbortByServerException members
 TOCTitle: EsentBackupAbortByServerException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupabortbyserverexception_members(v=EXCHG.10)

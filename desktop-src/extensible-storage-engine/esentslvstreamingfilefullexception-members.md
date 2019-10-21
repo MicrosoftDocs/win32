@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileFullException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileFullException members
 TOCTitle: EsentSLVStreamingFileFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilefullexception_members(v=EXCHG.10)

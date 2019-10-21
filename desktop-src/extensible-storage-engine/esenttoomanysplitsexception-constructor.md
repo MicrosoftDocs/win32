@@ -1,5 +1,5 @@
 ---
-title: EsentTooManySplitsException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManySplitsException constructor 
 TOCTitle: 'EsentTooManySplitsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanysplitsexception.esenttoomanysplitsexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Api.JetOpenTempTable2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetOpenTempTable2 method 
 TOCTitle: 'JetOpenTempTable2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOpenTempTable2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_COLUMNDEF[],System.Int32,System.Int32,Microsoft.Isam.Esent.Interop.TempTableGrbit,Microsoft.Isam.Esent.Interop.JET_TABLEID@,Microsoft.Isam.Esent.Interop.JET_COLUMNID[])
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetopentemptable2(v=EXCHG.10)

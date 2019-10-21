@@ -1,5 +1,5 @@
 ---
-title: EsentLogCorruptDuringHardRecoveryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogCorruptDuringHardRecoveryException constructor 
 TOCTitle: 'EsentLogCorruptDuringHardRecoveryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRecoveryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogcorruptduringhardrecoveryexception.esentlogcorruptduringhardrecoveryexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseCorruptedException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseCorruptedException class
 TOCTitle: EsentDatabaseCorruptedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptedexception(v=EXCHG.10)

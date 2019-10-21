@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotDeletedException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotDeletedException class
 TOCTitle: EsentSLVPagesNotDeletedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotdeletedexception(v=EXCHG.10)

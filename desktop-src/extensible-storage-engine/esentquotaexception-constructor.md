@@ -1,5 +1,5 @@
 ﻿---
-title: EsentQuotaException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentQuotaException constructor 
 TOCTitle: 'EsentQuotaException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentQuotaException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentquotaexception.esentquotaexception(v=EXCHG.10)

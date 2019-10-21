@@ -1,5 +1,5 @@
 ---
-title: EsentCallbackNotResolvedException class (Microsoft.Isam.Esent.Interop)
+title: EsentCallbackNotResolvedException class
 TOCTitle: EsentCallbackNotResolvedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCallbackNotResolvedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcallbacknotresolvedexception(v=EXCHG.10)

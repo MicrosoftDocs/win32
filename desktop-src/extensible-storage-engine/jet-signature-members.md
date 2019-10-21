@@ -1,5 +1,5 @@
 ---
-title: JET_SIGNATURE members (Microsoft.Isam.Esent.Interop)
+title: JET_SIGNATURE members
 TOCTitle: JET_SIGNATURE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SIGNATURE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_signature_members(v=EXCHG.10)

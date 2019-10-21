@@ -1,5 +1,5 @@
 ---
-title: EsentWriteConflictException class (Microsoft.Isam.Esent.Interop)
+title: EsentWriteConflictException class
 TOCTitle: EsentWriteConflictException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentWriteConflictException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictexception(v=EXCHG.10)

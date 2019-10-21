@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.genMaxRequired property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.genMaxRequired property 
 TOCTitle: 'genMaxRequired property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.genMaxRequired
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.genmaxrequired(v=EXCHG.10)

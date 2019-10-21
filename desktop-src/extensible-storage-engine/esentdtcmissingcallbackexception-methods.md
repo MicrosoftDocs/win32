@@ -1,5 +1,5 @@
 ---
-title: EsentDTCMissingCallbackException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDTCMissingCallbackException methods
 TOCTitle: EsentDTCMissingCallbackException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtcmissingcallbackexception_methods(v=EXCHG.10)

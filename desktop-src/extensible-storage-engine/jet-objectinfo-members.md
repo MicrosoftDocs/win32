@@ -1,5 +1,5 @@
 ---
-title: JET_OBJECTINFO members (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTINFO members
 TOCTitle: JET_OBJECTINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectinfo_members(v=EXCHG.10)

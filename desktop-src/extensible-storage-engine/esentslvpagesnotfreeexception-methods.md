@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotFreeException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotFreeException methods
 TOCTitle: EsentSLVPagesNotFreeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotFreeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotfreeexception_methods(v=EXCHG.10)

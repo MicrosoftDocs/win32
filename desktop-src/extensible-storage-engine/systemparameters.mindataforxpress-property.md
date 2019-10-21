@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.MinDataForXpress property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.MinDataForXpress property 
 TOCTitle: 'MinDataForXpress property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.MinDataForXpress
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.mindataforxpress(v=EXCHG.10)

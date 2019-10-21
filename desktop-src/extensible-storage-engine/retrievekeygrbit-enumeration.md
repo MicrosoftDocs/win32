@@ -1,5 +1,5 @@
 ---
-title: RetrieveKeyGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: RetrieveKeyGrbit enumeration
 TOCTitle: RetrieveKeyGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.RetrieveKeyGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.retrievekeygrbit(v=EXCHG.10)

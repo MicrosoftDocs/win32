@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNLIST.tableid property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNLIST.tableid property 
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.tableid
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnlist.tableid(v=EXCHG.10)

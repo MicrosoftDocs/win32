@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.Seek method  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.Seek method 
 TOCTitle: 'Seek method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.Seek(System.Int64,System.IO.SeekOrigin)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.seek(v=EXCHG.10)

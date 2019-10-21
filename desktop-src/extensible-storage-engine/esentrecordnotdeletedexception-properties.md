@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotDeletedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotDeletedException properties
 TOCTitle: EsentRecordNotDeletedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordNotDeletedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotdeletedexception_properties(v=EXCHG.10)

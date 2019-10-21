@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfObjectIDsException class (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfObjectIDsException class
 TOCTitle: EsentOutOfObjectIDsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfObjectIDsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofobjectidsexception(v=EXCHG.10)

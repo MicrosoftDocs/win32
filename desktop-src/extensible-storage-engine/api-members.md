@@ -1,5 +1,5 @@
 ﻿---
-title: Api members (Microsoft.Isam.Esent.Interop)
+title: Api members
 TOCTitle: Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Api
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api_members(v=EXCHG.10)

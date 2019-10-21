@@ -1,5 +1,5 @@
 ---
-title: EsentDTCCallbackUnexpectedErrorException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDTCCallbackUnexpectedErrorException constructor 
 TOCTitle: 'EsentDTCCallbackUnexpectedErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtccallbackunexpectederrorexception.esentdtccallbackunexpectederrorexception(v=EXCHG.10)

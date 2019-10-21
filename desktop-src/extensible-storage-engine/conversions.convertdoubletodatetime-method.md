@@ -1,5 +1,5 @@
 ---
-title: Conversions.ConvertDoubleToDateTime method  (Microsoft.Isam.Esent.Interop)
+title: Conversions.ConvertDoubleToDateTime method 
 TOCTitle: 'ConvertDoubleToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Conversions.ConvertDoubleToDateTime(System.Double)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.conversions.convertdoubletodatetime(v=EXCHG.10)

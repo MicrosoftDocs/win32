@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.OutstandingIOMax property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.OutstandingIOMax property 
 TOCTitle: 'OutstandingIOMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.OutstandingIOMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.outstandingiomax(v=EXCHG.10)

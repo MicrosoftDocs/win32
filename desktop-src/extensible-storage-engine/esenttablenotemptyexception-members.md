@@ -1,5 +1,5 @@
 ---
-title: EsentTableNotEmptyException members (Microsoft.Isam.Esent.Interop)
+title: EsentTableNotEmptyException members
 TOCTitle: EsentTableNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttablenotemptyexception_members(v=EXCHG.10)

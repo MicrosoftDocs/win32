@@ -1,5 +1,5 @@
 ---
-title: EsentTooManySortsException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManySortsException constructor 
 TOCTitle: 'EsentTooManySortsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManySortsException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanysortsexception.esenttoomanysortsexception(v=EXCHG.10)

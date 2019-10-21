@@ -1,5 +1,5 @@
 ---
-title: EsentSpaceHintsInvalidException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSpaceHintsInvalidException methods
 TOCTitle: EsentSpaceHintsInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspacehintsinvalidexception_methods(v=EXCHG.10)

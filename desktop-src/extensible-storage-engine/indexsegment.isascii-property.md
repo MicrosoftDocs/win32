@@ -1,5 +1,5 @@
 ---
-title: IndexSegment.IsASCII property  (Microsoft.Isam.Esent.Interop)
+title: IndexSegment.IsASCII property 
 TOCTitle: 'IsASCII property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.IsASCII
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment.isascii(v=EXCHG.10)

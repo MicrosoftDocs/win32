@@ -1,5 +1,5 @@
 ---
-title: EsentMissingRestoreLogFilesException members (Microsoft.Isam.Esent.Interop)
+title: EsentMissingRestoreLogFilesException members
 TOCTitle: EsentMissingRestoreLogFilesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingrestorelogfilesexception_members(v=EXCHG.10)

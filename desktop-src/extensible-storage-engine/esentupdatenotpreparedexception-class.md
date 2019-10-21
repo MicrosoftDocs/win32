@@ -1,5 +1,5 @@
 ---
-title: EsentUpdateNotPreparedException class (Microsoft.Isam.Esent.Interop)
+title: EsentUpdateNotPreparedException class
 TOCTitle: EsentUpdateNotPreparedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentupdatenotpreparedexception(v=EXCHG.10)

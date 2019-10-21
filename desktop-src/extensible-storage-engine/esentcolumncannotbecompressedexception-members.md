@@ -1,5 +1,5 @@
 ---
-title: EsentColumnCannotBeCompressedException members (Microsoft.Isam.Esent.Interop)
+title: EsentColumnCannotBeCompressedException members
 TOCTitle: EsentColumnCannotBeCompressedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnCannotBeCompressedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumncannotbecompressedexception_members(v=EXCHG.10)

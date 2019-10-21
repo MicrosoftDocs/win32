@@ -1,5 +1,5 @@
 ---
-title: EsentLogGenerationMismatchException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogGenerationMismatchException class
 TOCTitle: EsentLogGenerationMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentloggenerationmismatchexception(v=EXCHG.10)

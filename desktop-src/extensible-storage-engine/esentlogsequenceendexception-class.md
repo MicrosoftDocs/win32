@@ -1,5 +1,5 @@
 ---
-title: EsentLogSequenceEndException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndException class
 TOCTitle: EsentLogSequenceEndException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceendexception(v=EXCHG.10)

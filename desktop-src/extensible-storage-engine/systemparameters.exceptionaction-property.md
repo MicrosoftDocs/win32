@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.ExceptionAction property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.ExceptionAction property 
 TOCTitle: 'ExceptionAction property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ExceptionAction
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.exceptionaction(v=EXCHG.10)

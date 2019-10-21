@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSequenceException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSequenceException properties
 TOCTitle: EsentOSSnapshotInvalidSequenceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsequenceexception_properties(v=EXCHG.10)

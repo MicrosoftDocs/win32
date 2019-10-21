@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileSizeMismatchDatabasesConsistentException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileSizeMismatchDatabasesConsistentException constructor 
 TOCTitle: 'EsentLogFileSizeMismatchDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchDatabasesConsistentException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilesizemismatchdatabasesconsistentexception.esentlogfilesizemismatchdatabasesconsistentexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSurrogateBackupInProgressException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSurrogateBackupInProgressException methods
 TOCTitle: EsentSurrogateBackupInProgressException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSurrogateBackupInProgressException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsurrogatebackupinprogressexception_methods(v=EXCHG.10)

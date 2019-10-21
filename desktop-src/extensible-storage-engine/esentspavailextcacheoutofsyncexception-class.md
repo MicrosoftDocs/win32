@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCacheOutOfSyncException class (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCacheOutOfSyncException class
 TOCTitle: EsentSPAvailExtCacheOutOfSyncException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcacheoutofsyncexception(v=EXCHG.10)

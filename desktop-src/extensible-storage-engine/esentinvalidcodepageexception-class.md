@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCodePageException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCodePageException class
 TOCTitle: EsentInvalidCodePageException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcodepageexception(v=EXCHG.10)

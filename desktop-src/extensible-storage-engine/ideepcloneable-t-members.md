@@ -1,5 +1,5 @@
 ﻿---
-title: IDeepCloneable(T) members (Microsoft.Isam.Esent.Interop)
+title: IDeepCloneable(T) members
 TOCTitle: IDeepCloneable(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh596443(v=EXCHG.10)

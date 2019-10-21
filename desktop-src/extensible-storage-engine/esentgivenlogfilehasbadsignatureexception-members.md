@@ -1,5 +1,5 @@
 ---
-title: EsentGivenLogFileHasBadSignatureException members (Microsoft.Isam.Esent.Interop)
+title: EsentGivenLogFileHasBadSignatureException members
 TOCTitle: EsentGivenLogFileHasBadSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileHasBadSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentgivenlogfilehasbadsignatureexception_members(v=EXCHG.10)

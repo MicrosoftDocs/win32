@@ -1,5 +1,5 @@
 ---
-title: JET_SIGNATURE.Equality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_SIGNATURE.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.op_Equality(Microsoft.Isam.Esent.Interop.JET_SIGNATURE,Microsoft.Isam.Esent.Interop.JET_SIGNATURE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_signature.op_equality(v=EXCHG.10)

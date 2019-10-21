@@ -1,5 +1,5 @@
 ---
-title: JET_CP enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_CP enumeration
 TOCTitle: JET_CP enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CP
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_cp(v=EXCHG.10)

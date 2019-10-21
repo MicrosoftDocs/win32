@@ -1,5 +1,5 @@
 ---
-title: EsentIOException methods (Microsoft.Isam.Esent.Interop)
+title: EsentIOException methods
 TOCTitle: EsentIOException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentioexception_methods(v=EXCHG.10)

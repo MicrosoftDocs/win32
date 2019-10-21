@@ -1,5 +1,5 @@
 ---
-title: ColumnStream class (Microsoft.Isam.Esent.Interop)
+title: ColumnStream class
 TOCTitle: ColumnStream class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnStream
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream(v=EXCHG.10)

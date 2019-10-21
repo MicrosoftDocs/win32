@@ -1,5 +1,5 @@
 ---
-title: EsentPartiallyAttachedDBException class (Microsoft.Isam.Esent.Interop)
+title: EsentPartiallyAttachedDBException class
 TOCTitle: EsentPartiallyAttachedDBException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpartiallyattacheddbexception(v=EXCHG.10)

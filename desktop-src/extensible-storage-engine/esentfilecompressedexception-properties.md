@@ -1,5 +1,5 @@
 ---
-title: EsentFileCompressedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentFileCompressedException properties
 TOCTitle: EsentFileCompressedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileCompressedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilecompressedexception_properties(v=EXCHG.10)

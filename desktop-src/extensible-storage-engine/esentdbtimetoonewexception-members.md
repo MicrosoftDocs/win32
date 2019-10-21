@@ -1,5 +1,5 @@
 ---
-title: EsentDbTimeTooNewException members (Microsoft.Isam.Esent.Interop)
+title: EsentDbTimeTooNewException members
 TOCTitle: EsentDbTimeTooNewException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdbtimetoonewexception_members(v=EXCHG.10)

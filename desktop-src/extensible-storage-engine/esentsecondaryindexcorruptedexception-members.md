@@ -1,5 +1,5 @@
 ---
-title: EsentSecondaryIndexCorruptedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSecondaryIndexCorruptedException members
 TOCTitle: EsentSecondaryIndexCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSecondaryIndexCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsecondaryindexcorruptedexception_members(v=EXCHG.10)

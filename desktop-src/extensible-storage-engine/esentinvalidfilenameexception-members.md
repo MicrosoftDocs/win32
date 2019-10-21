@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidFilenameException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidFilenameException members
 TOCTitle: EsentInvalidFilenameException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidfilenameexception_members(v=EXCHG.10)

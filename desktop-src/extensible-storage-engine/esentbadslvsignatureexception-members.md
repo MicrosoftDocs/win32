@@ -1,5 +1,5 @@
 ---
-title: EsentBadSLVSignatureException members (Microsoft.Isam.Esent.Interop)
+title: EsentBadSLVSignatureException members
 TOCTitle: EsentBadSLVSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadslvsignatureexception_members(v=EXCHG.10)

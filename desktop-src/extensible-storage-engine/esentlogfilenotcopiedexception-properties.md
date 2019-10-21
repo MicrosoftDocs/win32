@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileNotCopiedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileNotCopiedException properties
 TOCTitle: EsentLogFileNotCopiedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilenotcopiedexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentStreamingDataNotLoggedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentStreamingDataNotLoggedException constructor 
 TOCTitle: 'EsentStreamingDataNotLoggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstreamingdatanotloggedexception.esentstreamingdatanotloggedexception(v=EXCHG.10)

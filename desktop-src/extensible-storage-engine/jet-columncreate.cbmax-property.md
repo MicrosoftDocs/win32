@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNCREATE.cbMax property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE.cbMax property 
 TOCTitle: 'cbMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.cbMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate.cbmax(v=EXCHG.10)

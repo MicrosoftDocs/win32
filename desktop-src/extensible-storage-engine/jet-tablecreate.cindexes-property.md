@@ -1,5 +1,5 @@
 ---
-title: JET_TABLECREATE.cIndexes property  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE.cIndexes property 
 TOCTitle: 'cIndexes property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cIndexes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.cindexes(v=EXCHG.10)

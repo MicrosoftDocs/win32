@@ -1,5 +1,5 @@
 ---
-title: DoubleColumnValue members (Microsoft.Isam.Esent.Interop)
+title: DoubleColumnValue members
 TOCTitle: DoubleColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.DoubleColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.doublecolumnvalue_members(v=EXCHG.10)

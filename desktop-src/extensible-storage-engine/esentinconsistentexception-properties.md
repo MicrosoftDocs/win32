@@ -1,5 +1,5 @@
 ---
-title: EsentInconsistentException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInconsistentException properties
 TOCTitle: EsentInconsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInconsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinconsistentexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentResource constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentResource constructor 
 TOCTitle: 'EsentResource constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.esentresource(v=EXCHG.10)

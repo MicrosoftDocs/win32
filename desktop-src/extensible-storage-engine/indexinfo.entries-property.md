@@ -1,5 +1,5 @@
 ---
-title: IndexInfo.Entries property  (Microsoft.Isam.Esent.Interop)
+title: IndexInfo.Entries property 
 TOCTitle: 'Entries property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Entries
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo.entries(v=EXCHG.10)

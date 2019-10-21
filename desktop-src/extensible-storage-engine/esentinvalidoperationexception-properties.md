@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidOperationException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidOperationException properties
 TOCTitle: EsentInvalidOperationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidOperationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidoperationexception_properties(v=EXCHG.10)

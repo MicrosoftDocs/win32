@@ -1,5 +1,5 @@
 ---
-title: JET_RECPOS members (Microsoft.Isam.Esent.Interop)
+title: JET_RECPOS members
 TOCTitle: JET_RECPOS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RECPOS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos_members(v=EXCHG.10)

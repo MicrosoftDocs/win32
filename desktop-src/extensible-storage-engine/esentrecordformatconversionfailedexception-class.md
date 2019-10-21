@@ -1,5 +1,5 @@
 ---
-title: EsentRecordFormatConversionFailedException class (Microsoft.Isam.Esent.Interop)
+title: EsentRecordFormatConversionFailedException class
 TOCTitle: EsentRecordFormatConversionFailedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordformatconversionfailedexception(v=EXCHG.10)

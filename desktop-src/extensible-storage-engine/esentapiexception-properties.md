@@ -1,5 +1,5 @@
 ---
-title: EsentApiException properties (Microsoft.Isam.Esent.Interop)
+title: EsentApiException properties
 TOCTitle: EsentApiException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentApiException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentapiexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentLogCorruptDuringHardRestoreException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogCorruptDuringHardRestoreException properties
 TOCTitle: EsentLogCorruptDuringHardRestoreException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogcorruptduringhardrestoreexception_properties(v=EXCHG.10)

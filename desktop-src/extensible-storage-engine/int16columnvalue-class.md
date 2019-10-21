@@ -1,5 +1,5 @@
 ---
-title: Int16ColumnValue class (Microsoft.Isam.Esent.Interop)
+title: Int16ColumnValue class
 TOCTitle: Int16ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Int16ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int16columnvalue(v=EXCHG.10)

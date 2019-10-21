@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyKeysException class (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyKeysException class
 TOCTitle: EsentTooManyKeysException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanykeysexception(v=EXCHG.10)

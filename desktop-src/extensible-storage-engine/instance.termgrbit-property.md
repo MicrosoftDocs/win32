@@ -1,5 +1,5 @@
 ---
-title: Instance.TermGrbit property  (Microsoft.Isam.Esent.Interop)
+title: Instance.TermGrbit property 
 TOCTitle: 'TermGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Instance.TermGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.termgrbit(v=EXCHG.10)

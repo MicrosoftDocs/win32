@@ -1,5 +1,5 @@
 ---
-title: EsentFileSystemCorruptionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentFileSystemCorruptionException properties
 TOCTitle: EsentFileSystemCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilesystemcorruptionexception_properties(v=EXCHG.10)

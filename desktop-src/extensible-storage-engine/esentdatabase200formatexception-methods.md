@@ -1,5 +1,5 @@
 ---
-title: EsentDatabase200FormatException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabase200FormatException methods
 TOCTitle: EsentDatabase200FormatException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase200formatexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyInstancesException class (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyInstancesException class
 TOCTitle: EsentTooManyInstancesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyInstancesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyinstancesexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.lgposAttach property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.lgposAttach property 
 TOCTitle: 'lgposAttach property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.lgposAttach
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.lgposattach(v=EXCHG.10)

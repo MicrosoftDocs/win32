@@ -1,5 +1,5 @@
 ---
-title: JET_SPACEHINTS methods (Microsoft.Isam.Esent.Interop)
+title: JET_SPACEHINTS methods
 TOCTitle: JET_SPACEHINTS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_spacehints_methods(v=EXCHG.10)

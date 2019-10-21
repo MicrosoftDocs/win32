@@ -1,5 +1,5 @@
 ---
-title: EsentAttachedDatabaseMismatchException properties (Microsoft.Isam.Esent.Interop)
+title: EsentAttachedDatabaseMismatchException properties
 TOCTitle: EsentAttachedDatabaseMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentattacheddatabasemismatchexception_properties(v=EXCHG.10)

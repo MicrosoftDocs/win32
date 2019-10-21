@@ -1,5 +1,5 @@
 ---
-title: EsentSoftRecoveryOnSnapshotException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSoftRecoveryOnSnapshotException constructor 
 TOCTitle: 'EsentSoftRecoveryOnSnapshotException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsoftrecoveryonsnapshotexception.esentsoftrecoveryonsnapshotexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Table methods (Microsoft.Isam.Esent.Interop)
+title: Table methods
 TOCTitle: Table methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Table
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.table_methods(v=EXCHG.10)

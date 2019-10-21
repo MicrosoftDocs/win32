@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesCannotRetrieveFromIndexException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesCannotRetrieveFromIndexException constructor 
 TOCTitle: 'EsentIndexTuplesCannotRetrieveFromIndexException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesCannotRetrieveFromIndexException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplescannotretrievefromindexexception.esentindextuplescannotretrievefromindexexception(v=EXCHG.10)

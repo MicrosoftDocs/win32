@@ -1,5 +1,5 @@
 ---
-title: ByteColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: ByteColumnValue constructor 
 TOCTitle: 'ByteColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ByteColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.bytecolumnvalue.bytecolumnvalue(v=EXCHG.10)

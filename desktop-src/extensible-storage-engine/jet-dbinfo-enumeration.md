@@ -1,5 +1,5 @@
 ---
-title: JET_DbInfo enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_DbInfo enumeration
 TOCTitle: JET_DbInfo enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_DbInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfo(v=EXCHG.10)

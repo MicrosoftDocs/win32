@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileUnknownException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileUnknownException class
 TOCTitle: EsentSLVFileUnknownException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileunknownexception(v=EXCHG.10)

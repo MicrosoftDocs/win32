@@ -1,5 +1,5 @@
 ---
-title: EsentCannotDisableVersioningException members (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDisableVersioningException members
 TOCTitle: EsentCannotDisableVersioningException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdisableversioningexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSQLLinkNotSupportedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSQLLinkNotSupportedException members
 TOCTitle: EsentSQLLinkNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsqllinknotsupportedexception_members(v=EXCHG.10)

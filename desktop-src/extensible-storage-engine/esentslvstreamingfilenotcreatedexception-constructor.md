@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileNotCreatedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileNotCreatedException constructor 
 TOCTitle: 'EsentSLVStreamingFileNotCreatedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileNotCreatedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilenotcreatedexception.esentslvstreamingfilenotcreatedexception(v=EXCHG.10)

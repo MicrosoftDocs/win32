@@ -1,5 +1,5 @@
 ---
-title: EsentUnicodeTranslationBufferTooSmallException members (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeTranslationBufferTooSmallException members
 TOCTitle: EsentUnicodeTranslationBufferTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodetranslationbuffertoosmallexception_members(v=EXCHG.10)

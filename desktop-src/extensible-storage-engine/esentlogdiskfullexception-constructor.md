@@ -1,5 +1,5 @@
 ---
-title: EsentLogDiskFullException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogDiskFullException constructor 
 TOCTitle: 'EsentLogDiskFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogdiskfullexception.esentlogdiskfullexception(v=EXCHG.10)

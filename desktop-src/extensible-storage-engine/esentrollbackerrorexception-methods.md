@@ -1,5 +1,5 @@
 ---
-title: EsentRollbackErrorException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRollbackErrorException methods
 TOCTitle: EsentRollbackErrorException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRollbackErrorException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrollbackerrorexception_methods(v=EXCHG.10)

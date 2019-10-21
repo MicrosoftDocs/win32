@@ -1,5 +1,5 @@
 ---
-title: JET_LGPOS.Inequality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.op_Inequality(Microsoft.Isam.Esent.Interop.JET_LGPOS,Microsoft.Isam.Esent.Interop.JET_LGPOS)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.op_inequality(v=EXCHG.10)

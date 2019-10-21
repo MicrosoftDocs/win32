@@ -1,5 +1,5 @@
 ---
-title: JET_UNICODEINDEX members (Microsoft.Isam.Esent.Interop)
+title: JET_UNICODEINDEX members
 TOCTitle: JET_UNICODEINDEX members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_unicodeindex_members(v=EXCHG.10)

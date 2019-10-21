@@ -1,5 +1,5 @@
 ---
-title: JET_HANDLE.Inequality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_HANDLE.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.op_Inequality(Microsoft.Isam.Esent.Interop.JET_HANDLE,Microsoft.Isam.Esent.Interop.JET_HANDLE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle.op_inequality(v=EXCHG.10)

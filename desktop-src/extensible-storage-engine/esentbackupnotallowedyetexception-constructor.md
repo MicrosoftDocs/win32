@@ -1,5 +1,5 @@
 ---
-title: EsentBackupNotAllowedYetException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBackupNotAllowedYetException constructor 
 TOCTitle: 'EsentBackupNotAllowedYetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupNotAllowedYetException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupnotallowedyetexception.esentbackupnotallowedyetexception(v=EXCHG.10)

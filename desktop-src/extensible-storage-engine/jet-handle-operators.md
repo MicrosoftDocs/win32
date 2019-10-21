@@ -1,5 +1,5 @@
 ﻿---
-title: JET_HANDLE operators (Microsoft.Isam.Esent.Interop)
+title: JET_HANDLE operators
 TOCTitle: JET_HANDLE operators
 ms:assetid: 5d3fcd9b-50a0-dfff-a38e-a6bfe82cf496
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh557794(v=EXCHG.10)

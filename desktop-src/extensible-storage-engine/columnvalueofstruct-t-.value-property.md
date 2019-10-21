@@ -1,5 +1,5 @@
 ---
-title: ColumnValueOfStruct(T).Value property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValueOfStruct(T).Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.Value
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334180(v=EXCHG.10)

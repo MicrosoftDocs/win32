@@ -1,5 +1,5 @@
 ﻿---
-title: JET_SETCOLUMN properties (Microsoft.Isam.Esent.Interop)
+title: JET_SETCOLUMN properties
 TOCTitle: JET_SETCOLUMN properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setcolumn_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: IndexSegment.IsAscending property  (Microsoft.Isam.Esent.Interop)
+title: IndexSegment.IsAscending property 
 TOCTitle: 'IsAscending property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.IsAscending
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment.isascending(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentCannotDeleteTemplateTableException members (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDeleteTemplateTableException members
 TOCTitle: EsentCannotDeleteTemplateTableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdeletetemplatetableexception_members(v=EXCHG.10)

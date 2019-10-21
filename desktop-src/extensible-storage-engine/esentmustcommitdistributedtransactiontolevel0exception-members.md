@@ -1,5 +1,5 @@
 ---
-title: EsentMustCommitDistributedTransactionToLevel0Exception members (Microsoft.Isam.Esent.Interop)
+title: EsentMustCommitDistributedTransactionToLevel0Exception members
 TOCTitle: EsentMustCommitDistributedTransactionToLevel0Exception members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustcommitdistributedtransactiontolevel0exception_members(v=EXCHG.10)

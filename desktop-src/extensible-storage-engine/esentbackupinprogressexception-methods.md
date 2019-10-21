@@ -1,5 +1,5 @@
 ---
-title: EsentBackupInProgressException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBackupInProgressException methods
 TOCTitle: EsentBackupInProgressException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBackupInProgressException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupinprogressexception_methods(v=EXCHG.10)

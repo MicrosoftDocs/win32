@@ -1,5 +1,5 @@
 ---
-title: Session Implicit conversion (Session to JET_SESID) (Microsoft.Isam.Esent.Interop)
+title: Session Implicit conversion (Session to JET_SESID)
 TOCTitle: Implicit conversion (Session to JET_SESID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.op_Implicit(Microsoft.Isam.Esent.Interop.Session)~Microsoft.Isam.Esent.Interop.JET_SESID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session.op_implicit(v=EXCHG.10)

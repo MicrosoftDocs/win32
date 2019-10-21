@@ -1,5 +1,5 @@
 ---
-title: EsentNoCurrentIndexException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNoCurrentIndexException constructor 
 TOCTitle: 'EsentNoCurrentIndexException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnocurrentindexexception.esentnocurrentindexexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotDeletedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotDeletedException constructor 
 TOCTitle: 'EsentRecordNotDeletedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordNotDeletedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotdeletedexception.esentrecordnotdeletedexception(v=EXCHG.10)

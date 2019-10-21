@@ -1,5 +1,5 @@
 ---
-title: Api.JetComputeStats method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetComputeStats method 
 TOCTitle: 'JetComputeStats method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetComputeStats(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetcomputestats(v=EXCHG.10)

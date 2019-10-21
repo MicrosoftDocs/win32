@@ -1,5 +1,5 @@
 ---
-title: EsentContainerNotEmptyException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentContainerNotEmptyException constructor 
 TOCTitle: 'EsentContainerNotEmptyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcontainernotemptyexception.esentcontainernotemptyexception(v=EXCHG.10)

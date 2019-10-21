@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileCorruptException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileCorruptException class
 TOCTitle: EsentLogFileCorruptException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogFileCorruptException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilecorruptexception(v=EXCHG.10)

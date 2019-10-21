@@ -1,5 +1,5 @@
 ---
-title: Int32ColumnValue class (Microsoft.Isam.Esent.Interop)
+title: Int32ColumnValue class
 TOCTitle: Int32ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Int32ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int32columnvalue(v=EXCHG.10)

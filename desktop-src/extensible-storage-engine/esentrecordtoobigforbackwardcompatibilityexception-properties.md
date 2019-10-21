@@ -1,5 +1,5 @@
 ---
-title: EsentRecordTooBigForBackwardCompatibilityException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigForBackwardCompatibilityException properties
 TOCTitle: EsentRecordTooBigForBackwardCompatibilityException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigforbackwardcompatibilityexception_properties(v=EXCHG.10)

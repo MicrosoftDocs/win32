@@ -1,5 +1,5 @@
 ---
-title: EsentNoAttachmentsFailedIncrementalReseedException members (Microsoft.Isam.Esent.Interop)
+title: EsentNoAttachmentsFailedIncrementalReseedException members
 TOCTitle: EsentNoAttachmentsFailedIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnoattachmentsfailedincrementalreseedexception_members(v=EXCHG.10)

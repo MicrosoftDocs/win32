@@ -1,5 +1,5 @@
 ---
-title: EsentCannotIndexException members (Microsoft.Isam.Esent.Interop)
+title: EsentCannotIndexException members
 TOCTitle: EsentCannotIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotindexexception_members(v=EXCHG.10)

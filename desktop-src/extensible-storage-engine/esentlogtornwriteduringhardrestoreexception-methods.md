@@ -1,5 +1,5 @@
 ---
-title: EsentLogTornWriteDuringHardRestoreException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogTornWriteDuringHardRestoreException methods
 TOCTitle: EsentLogTornWriteDuringHardRestoreException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRestoreException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogtornwriteduringhardrestoreexception_methods(v=EXCHG.10)

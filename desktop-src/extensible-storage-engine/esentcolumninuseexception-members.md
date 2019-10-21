@@ -1,5 +1,5 @@
 ---
-title: EsentColumnInUseException members (Microsoft.Isam.Esent.Interop)
+title: EsentColumnInUseException members
 TOCTitle: EsentColumnInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumninuseexception_members(v=EXCHG.10)

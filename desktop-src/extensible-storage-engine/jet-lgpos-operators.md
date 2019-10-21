@@ -1,5 +1,5 @@
 ﻿---
-title: JET_LGPOS operators (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS operators
 TOCTitle: JET_LGPOS operators
 ms:assetid: 78bf06f8-31d9-ea15-d979-02535d91ebda
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh579075(v=EXCHG.10)

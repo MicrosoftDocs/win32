@@ -1,5 +1,5 @@
 ---
-title: EsentDeleteBackupFileFailException class (Microsoft.Isam.Esent.Interop)
+title: EsentDeleteBackupFileFailException class
 TOCTitle: EsentDeleteBackupFileFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdeletebackupfilefailexception(v=EXCHG.10)

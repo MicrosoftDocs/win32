@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogVersionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogVersionException properties
 TOCTitle: EsentBadLogVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogversionexception_properties(v=EXCHG.10)

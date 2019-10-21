@@ -1,5 +1,5 @@
 ---
-title: EsentIndexHasPrimaryException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexHasPrimaryException class
 TOCTitle: EsentIndexHasPrimaryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexHasPrimaryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexhasprimaryexception(v=EXCHG.10)

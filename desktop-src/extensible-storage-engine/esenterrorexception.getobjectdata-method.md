@@ -1,5 +1,5 @@
 ---
-title: EsentErrorException.GetObjectData method  (Microsoft.Isam.Esent.Interop)
+title: EsentErrorException.GetObjectData method 
 TOCTitle: 'GetObjectData method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenterrorexception.getobjectdata(v=EXCHG.10)

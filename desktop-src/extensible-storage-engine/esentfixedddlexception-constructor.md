@@ -1,5 +1,5 @@
 ---
-title: EsentFixedDDLException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFixedDDLException constructor 
 TOCTitle: 'EsentFixedDDLException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFixedDDLException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfixedddlexception.esentfixedddlexception(v=EXCHG.10)

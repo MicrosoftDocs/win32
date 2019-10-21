@@ -1,5 +1,5 @@
 ---
-title: JET_CONVERT constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_CONVERT constructor 
 TOCTitle: 'JET_CONVERT constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_CONVERT.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_convert.jet_convert(v=EXCHG.10)

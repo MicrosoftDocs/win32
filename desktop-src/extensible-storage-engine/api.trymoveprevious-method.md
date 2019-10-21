@@ -1,5 +1,5 @@
 ---
-title: Api.TryMovePrevious method  (Microsoft.Isam.Esent.Interop)
+title: Api.TryMovePrevious method 
 TOCTitle: 'TryMovePrevious method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TryMovePrevious(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.trymoveprevious(v=EXCHG.10)
