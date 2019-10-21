@@ -48,7 +48,7 @@ You can avoid displaying a blank or incomplete webpage by invoking the URL using
 First, you must create a frameset webpage to contain the frame with the embedded Player and the frame that displays the streaming HTML. Each of these two frames will display a separate webpage initially, so you will create a total of three webpages. The following example code demonstrates the frameset webpage:
 
 
-```C++
+```HTML
 <HTML>
 <HEAD>
 </HEAD>
@@ -75,7 +75,7 @@ First, you must create a frameset webpage to contain the frame with the embedded
 The preceding webpage example incorporates two frames. The first frame displays in the left half of the browser window and displays the webpage named embed\_player.htm. The following example code creates this webpage:
 
 
-```C++
+```HTML
 <HTML>
 <HEAD>
 </HEAD>
@@ -119,7 +119,7 @@ The preceding webpage example incorporates two frames. The first frame displays 
 The second frame in the frameset displays in the right half of the browser window and displays a webpage named "blank.htm". The following example code creates this webpage:
 
 
-```C++
+```HTML
 <HTML>
 <HEAD>
 </HEAD>

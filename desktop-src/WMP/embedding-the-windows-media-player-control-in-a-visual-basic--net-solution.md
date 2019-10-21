@@ -44,7 +44,7 @@ Now add two buttons to the form. Select the first button and change the **Text**
 Double-click the **Play** button to reveal the Code window. The following code is displayed:
 
 
-```C++
+```VB
 Private Sub Button1_Click(ByVal sender As System.Object, _
         ByVal e As System.EventArgs) Handles Button1.Click
 
@@ -56,7 +56,7 @@ End Sub
 Add this line to the subroutine:
 
 
-```C++
+```VB
 AxWindowsMediaPlayer1.URL = "c:\mediafile.wmv"
 ```
 
@@ -67,7 +67,7 @@ In the preceding code example, "axWindowsMediaPlayer1" is the default name of th
 If you have added the digital media content from the Windows Media Player SDK to the library in Windows Media Player, you can use this code instead:
 
 
-```C++
+```VB
 axWindowsMediaPlayer1.currentPlaylist = _
     axWindowsMediaPlayer1.mediaCollection.getByName("mediafile")
 
@@ -82,7 +82,7 @@ Because the **autoStart** property is true by default, Windows Media Player will
 Double-click the **Stop** button to reveal the Code window. The following code is displayed:
 
 
-```C++
+```VB
 Private Sub Button2_Click(ByVal sender As System.Object, _
         ByVal e As System.EventArgs) Handles Button1.Click
 
@@ -95,7 +95,7 @@ End Sub
 Add this line to the subroutine:
 
 
-```C++
+```VB
 AxWindowsMediaPlayer1.Ctlcontrols.stop()
 
 ```
@@ -114,7 +114,7 @@ The Windows Media Player control does not raise an exception when it encounters 
 To create an event handler, open the code window for your form class. From the drop-down list at the top of the window, select the Windows Media Player control. A list of events appears in the drop-down list to the right. From that list, select [**MediaError**](axwmplib-axwindowsmediaplayer-mediaerror.md). The following code is displayed:
 
 
-```C++
+```VB
 Private Sub AxWindowsMediaPlayer1_MediaError(ByVal sender As Object, _
     ByVal e As _WMPOCXEvents_MediaErrorEvent) Handles AxWindowsMediaPlayer1.MediaError
 
@@ -127,7 +127,7 @@ End Sub
 The following code could be inserted in the subroutine to provide minimal error-handling capability. Note that information about the error can be retrieved from the **\_WMPOCXEvents\_MediaErrorEvent** argument.
 
 
-```C++
+```VB
 Try
     ' If the file is corrupt or missing, show the 
     ' hexadecimal error code and URL.

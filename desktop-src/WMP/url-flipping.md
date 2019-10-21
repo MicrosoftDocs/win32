@@ -33,7 +33,7 @@ You are free to handle the URL script commands in your JScript code just as you 
 The following example illustrates a typical frameset for URL flipping. First, create a page that describes the frameset:
 
 
-```C++
+```HTML
 <HTML>
 <FRAMESET cols="300,*">
   <FRAME name="player" src="player.html">
@@ -48,7 +48,7 @@ The following example illustrates a typical frameset for URL flipping. First, cr
 Next, create the player.html file referenced in the frameset by using the following code (the video.wmv file is assumed to exist in the same directory as the HTML files):
 
 
-```C++
+```HTML
 <HTML>
 <BODY>
 <OBJECT ID="Player" CLASSID="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">

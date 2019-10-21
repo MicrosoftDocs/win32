@@ -41,7 +41,7 @@ The Firefox plug-in does not support setting the **invokeURLs** property in a PA
 You can work around this limitation by setting the **invokeURLs** property in script. The following code shows how to set the **invokeURLs** property to false in a webpage that can be displayed by both Internet Explorer and Firefox.
 
 
-```C++
+```HTML
 <HTML>
   <BODY OnLoad="Initialize()">
 
@@ -85,7 +85,7 @@ You can work around this limitation by setting the **invokeURLs** property in sc
 A media file can contain URLs that display webpages in a browser window or frame as the media file is played. In Internet Explorer, you can use the [Settings.defaultFrame](settings-defaultframe.md) property to specify the frame in which those pages are displayed. If you do not set the **defaultFrame** property, URLs are displayed in a separate window of the default browser. However, the Firefox plug-in does not support the **Settings.defaultFrame** property. To work around this limitation, set the **Settings.invokeURLs** property to false and write a [ScriptCommand](player-player-scriptcommand.md) event handler that sets the location of the target frame. The following example, which works in Internet Explorer and Firefox, illustrates this technique. Assume that the webpage shown in the example is in frames\[0\] and you want the URL's page to be displayed in frames\[1\].
 
 
-```C++
+```HTML
 <HTML>
   <BODY OnLoad="Initialize()">
 

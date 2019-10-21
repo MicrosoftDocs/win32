@@ -44,7 +44,7 @@ Now, add two buttons to the form. Select the first button and change the **Text*
 Double-click the **Play** button to reveal the Code window. In C#, the following code will be displayed:
 
 
-```C++
+```CSharp
 private void button1_Click(object sender, System.EventArgs e)
 {
 
@@ -57,7 +57,7 @@ private void button1_Click(object sender, System.EventArgs e)
 Add this line between the two curly braces:
 
 
-```C++
+```CSharp
 axWindowsMediaPlayer1.URL = @"c:\mediafile.wmv";
 
 ```
@@ -69,7 +69,7 @@ In the preceding code example, "axWindowsMediaPlayer1" is the default name of th
 If you have added the digital media content from the Windows Media Player SDK to the library in Windows Media Player, you can use this code instead:
 
 
-```C++
+```CSharp
 axWindowsMediaPlayer1.currentPlaylist = axWindowsMediaPlayer1.mediaCollection.getByName("mediafile");
 
 ```
@@ -83,7 +83,7 @@ Because the **autoStart** property is true by default, Windows Media Player will
 Double-click the **Stop** button to reveal the Code window. In C#, the following code will be displayed:
 
 
-```C++
+```CSharp
 private void button2_Click(object sender, System.EventArgs e)
 {
 
@@ -96,7 +96,7 @@ private void button2_Click(object sender, System.EventArgs e)
 Add this line between the two curly braces:
 
 
-```C++
+```CSharp
 axWindowsMediaPlayer1.Ctlcontrols.stop();
 
 ```
@@ -115,7 +115,7 @@ The Windows Media Player control does not raise an exception when it encounters 
 To create an event handler, first open the Properties window for the Windows Media Player control. In the list of events, double-click **MediaError**. The following code is displayed:
 
 
-```C++
+```CSharp
 private void Player_MediaError(object sender, _WMPOCXEvents_MediaErrorEvent e)
 {
 }
@@ -127,7 +127,7 @@ private void Player_MediaError(object sender, _WMPOCXEvents_MediaErrorEvent e)
 The following code could be inserted in the method to provide minimal error-handling capability. Note that information about the error can be retrieved from the **\_WMPOCXEvents\_MediaErrorEvent** argument.
 
 
-```C++
+```CSharp
 try
 // If the Player encounters a corrupt or missing file, 
 // show the hexadecimal error code and URL.

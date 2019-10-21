@@ -57,16 +57,14 @@ Adding the Windows Media Player control from the Toolbox also adds references to
 To make using the objects in the Player namespace easier, you should include the namespace in the using or imports directives of your files, as follows:
 
 
-```C++
-// [C#]
+```Csharp
 using WMPLib;
 ```
 
 
 
 
-```C++
-' [Visual Basic]
+```VB
 imports WMPLib
 
 ```
