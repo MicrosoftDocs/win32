@@ -39,7 +39,7 @@ When you embed the Windows Media Player control in a webpage, you can write scri
 If the mime type associated with an embedded Player control is application/x-ms-wmp, you can write event handlers that have the following format:
 
 
-```C++
+```HTML
 <SCRIPT for="Player" language="jscript" event="EventName(Params)">
   ...
 </SCRIPT>
@@ -50,7 +50,7 @@ If the mime type associated with an embedded Player control is application/x-ms-
 where *EventName* is the name of a Windows Media Player event, and *Params* is a list of the event's parameters. For example, the following code has a handler for the [PlayStateChange](player-player-playstatechange.md) event.
 
 
-```C++
+```HTML
 <OBJECT id="Player" type="application/x-ms-wmp" width="300" height="200">
   <PARAM name="URL" value="c:\MediaFiles\Seattle.wmv"/>
 </OBJECT>
@@ -69,7 +69,7 @@ If you have several instances of the Player control on a webpage and if you use 
 If the mime type associated with an embedded Player control is not application/x-ms-wmp, you can write event handlers that have the following format:
 
 
-```C++
+```HTML
 <SCRIPT language="jscript">
   function OnDSEventNameEvt(Params)
   {...}
@@ -81,7 +81,7 @@ If the mime type associated with an embedded Player control is not application/x
 where *EventName* is the name of a Windows Media Player event, and *Params* is a list of the event's parameters. For example, the following code has a handler for the **PlayStateChange** event.
 
 
-```C++
+```HTML
 <OBJECT id="Player" type="application/asx" width="300" height="200">
   <PARAM name="URL" value="c:\MediaFiles\Test.asx"/>
 </OBJECT>

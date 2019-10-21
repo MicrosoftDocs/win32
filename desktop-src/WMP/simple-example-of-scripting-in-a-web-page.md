@@ -39,7 +39,7 @@ You can embed the Windows Media Player ActiveX control in a webpage using the fo
 The first step is to create a valid HTML webpage. The following code is the minimum needed to create a blank but valid HTML page:
 
 
-```C++
+```HTML
 <HTML>
     <HEAD>
     </HEAD>
@@ -56,7 +56,7 @@ The first step is to create a valid HTML webpage. The following code is the mini
 Once you have created a webpage, you need to add an OBJECT tag. This identifies the ActiveX control to the browser and sets up any initial definitions. You must place the OBJECT tag in the BODY of the code. If you place it in the BODY, the default user interface of Windows Media Player will be visible. If you want to create your own user interface, set the height and width attributes to 0 (zero). You can also set the *Player*.**uiMode** property to "invisible" when you want to hide the control, but still reserve space for it on the page. The following code is recommended when you provide a custom user interface:
 
 
-```C++
+```HTML
 <OBJECT ID="Player" height="0" width="0"
   CLASSID="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">
 </OBJECT>
@@ -80,7 +80,7 @@ A very large hexadecimal number that is unique to the control. Only one control 
 HTML allows a vast wealth of user interface elements, allowing the user to interact with your webpage by clicking, pressing keys, and other user actions. Adding a few INPUT buttons is the easiest way to provide a quick user interface. The following code creates two buttons that can respond to the user. Clicking one button starts the media stream playing and the other button stops it:
 
 
-```C++
+```HTML
 <INPUT TYPE="BUTTON" NAME="BtnPlay" VALUE="Play" OnClick="StartMeUp()">
 <INPUT TYPE="BUTTON" NAME="BtnStop" VALUE="Stop" OnClick="ShutMeDown()">
 
@@ -99,7 +99,7 @@ It is good authoring practice to enclose your script in HTML comment tags so bro
 The following Microsoft JScript code example calls the Windows Media Player control and performs an appropriate action in response to the corresponding button click.
 
 
-```C++
+```HTML
 <SCRIPT>
 <!--
 
@@ -129,7 +129,7 @@ The ShutMeDown code calls the **stop** method of the **Controls** object. Note t
 The following code shows a complete example.
 
 
-```C++
+```HTML
 <HTML>
 <HEAD>
 </HEAD>
