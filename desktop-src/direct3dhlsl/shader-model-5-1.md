@@ -1,6 +1,6 @@
 ---
 title: Shader Model 5.1
-description: This section contains the reference pages for HLSL Shader Model 5.1, introduced with D3D12 and D3D11.3.
+description: This section contains the reference pages for HLSL Shader Model 5.1, introduced with D3D12.
 ms.assetid: 814FAC95-7FD5-450F-964B-18E687DBCC56
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Shader Model 5.1
 
-This section contains the reference pages for HLSL Shader Model 5.1, introduced with D3D12 and D3D11.3.
+This section contains the reference pages for HLSL Shader Model 5.1, introduced with D3D12.
 
 Shader Model 5.1 is functionally very similar to [Shader Model 5](d3d11-graphics-reference-sm5.md), the main change is more flexibility in resource selection by allowing indexing of arrays of descriptors from within a shader.
 
