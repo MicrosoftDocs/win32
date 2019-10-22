@@ -19,9 +19,9 @@ This feature is optional in D3D11.3. To test for its support, check the `PSSpeci
 Here is an example of the use of `SV_StencilRef` in a pixel shader:
 
 ``` syntax
-float main2(float4 c : COORD) : SV_StencilRef
+uint main2(float4 c : COORD) : SV_StencilRef
 {
-    return c;
+    return uint(c.x);
 }
 ```
 
