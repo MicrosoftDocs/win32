@@ -68,7 +68,7 @@ Renderers can also mix and match between these approaches.
 
 ## Windows Sonic Runtime Resource Implications
 
-##### Windows (Software) and Xbox One (Hardware)
+#### Windows (Software) and Xbox One (Hardware)
 
 On Windows and Xbox, the number of available voices varies based on the format in use. Dolby Atmos formats support 32 total active objects (so if a 7.1.4 channel bed is in use, 20 additional dynamic sound objects can be active). Windows Sonic for Headphones supports 128 total active objects, with the Low Frequency Effects (LFE) channel not actually being counted as an object -- so when an 8.1.4.4 channel bed is in use, 112 dynamic sound objects can be active.
 
@@ -80,7 +80,7 @@ For Universal Windows Platform apps running on Xbox One game consoles, realtime 
 | Dolby Atmos for Headphones | 16 (7.1.4.4) | 16 |
 | Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 112 |
 
-##### HoloLens 2 (Hardware)
+#### HoloLens 2 (Hardware)
 
 HoloLens 2 only supports Windows Sonic for Headphones.
 
