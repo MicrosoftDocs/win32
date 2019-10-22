@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.Equals method (Object) (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.Equals(System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.equals(v=EXCHG.10)

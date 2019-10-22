@@ -1,5 +1,5 @@
 ---
-title: DoubleColumnValue class (Microsoft.Isam.Esent.Interop)
+title: DoubleColumnValue class
 TOCTitle: DoubleColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DoubleColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.doublecolumnvalue(v=EXCHG.10)

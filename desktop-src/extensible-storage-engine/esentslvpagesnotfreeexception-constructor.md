@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotFreeException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotFreeException constructor 
 TOCTitle: 'EsentSLVPagesNotFreeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotFreeException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotfreeexception.esentslvpagesnotfreeexception(v=EXCHG.10)

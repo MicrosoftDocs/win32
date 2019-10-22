@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileSizeMismatchException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileSizeMismatchException members
 TOCTitle: EsentLogFileSizeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilesizemismatchexception_members(v=EXCHG.10)

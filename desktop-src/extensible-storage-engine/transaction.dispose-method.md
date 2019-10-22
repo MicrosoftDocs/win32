@@ -1,5 +1,5 @@
 ﻿---
-title: Transaction.Dispose method  (Microsoft.Isam.Esent.Interop)
+title: Transaction.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Transaction.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction.dispose(v=EXCHG.10)

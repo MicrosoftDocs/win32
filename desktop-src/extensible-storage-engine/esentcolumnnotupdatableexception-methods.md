@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNotUpdatableException methods (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNotUpdatableException methods
 TOCTitle: EsentColumnNotUpdatableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnotupdatableexception_methods(v=EXCHG.10)

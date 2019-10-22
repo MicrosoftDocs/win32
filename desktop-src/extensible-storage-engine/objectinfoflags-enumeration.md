@@ -1,5 +1,5 @@
 ---
-title: ObjectInfoFlags enumeration (Microsoft.Isam.Esent.Interop)
+title: ObjectInfoFlags enumeration
 TOCTitle: ObjectInfoFlags enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ObjectInfoFlags
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.objectinfoflags(v=EXCHG.10)

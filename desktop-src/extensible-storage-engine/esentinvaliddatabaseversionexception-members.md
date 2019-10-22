@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidDatabaseVersionException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidDatabaseVersionException members
 TOCTitle: EsentInvalidDatabaseVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvaliddatabaseversionexception_members(v=EXCHG.10)

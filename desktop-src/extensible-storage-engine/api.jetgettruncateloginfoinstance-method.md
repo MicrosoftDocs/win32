@@ -1,5 +1,5 @@
 ---
-title: Api.JetGetTruncateLogInfoInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetTruncateLogInfoInstance method 
 TOCTitle: 'JetGetTruncateLogInfoInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetTruncateLogInfoInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String@,System.Int32,System.Int32@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgettruncateloginfoinstance(v=EXCHG.10)

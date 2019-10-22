@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesKeyTooSmallException members (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesKeyTooSmallException members
 TOCTitle: EsentIndexTuplesKeyTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextupleskeytoosmallexception_members(v=EXCHG.10)

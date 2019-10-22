@@ -1,5 +1,5 @@
 ---
-title: EsentTransReadOnlyException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTransReadOnlyException methods
 TOCTitle: EsentTransReadOnlyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttransreadonlyexception_methods(v=EXCHG.10)

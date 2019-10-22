@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.BookmarkMost property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.BookmarkMost property 
 TOCTitle: 'BookmarkMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.BookmarkMost
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.bookmarkmost(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileInUseException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileInUseException class
 TOCTitle: EsentSLVStreamingFileInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfileinuseexception(v=EXCHG.10)

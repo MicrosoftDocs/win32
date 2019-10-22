@@ -1,5 +1,5 @@
 ---
-title: EsentConsistentTimeMismatchException methods (Microsoft.Isam.Esent.Interop)
+title: EsentConsistentTimeMismatchException methods
 TOCTitle: EsentConsistentTimeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentconsistenttimemismatchexception_methods(v=EXCHG.10)

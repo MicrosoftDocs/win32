@@ -1,5 +1,5 @@
 ---
-title: EsentLogWriteFailException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogWriteFailException constructor 
 TOCTitle: 'EsentLogWriteFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogwritefailexception.esentlogwritefailexception(v=EXCHG.10)

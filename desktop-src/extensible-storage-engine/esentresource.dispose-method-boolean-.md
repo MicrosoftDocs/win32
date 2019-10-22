@@ -1,5 +1,5 @@
 ---
-title: EsentResource.Dispose method (Boolean) (Microsoft.Isam.Esent.Interop)
+title: EsentResource.Dispose method (Boolean)
 TOCTitle: Dispose method (Boolean)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.Dispose(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.dispose(v=EXCHG.10)

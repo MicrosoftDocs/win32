@@ -1,5 +1,5 @@
 ---
-title: Api.TryMoveFirst method  (Microsoft.Isam.Esent.Interop)
+title: Api.TryMoveFirst method 
 TOCTitle: 'TryMoveFirst method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TryMoveFirst(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.trymovefirst(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentEndingRestoreLogTooLowException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentEndingRestoreLogTooLowException constructor 
 TOCTitle: 'EsentEndingRestoreLogTooLowException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentendingrestorelogtoolowexception.esentendingrestorelogtoolowexception(v=EXCHG.10)

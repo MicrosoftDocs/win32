@@ -1,5 +1,5 @@
 ---
-title: EsentDiskReadVerificationFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentDiskReadVerificationFailureException class
 TOCTitle: EsentDiskReadVerificationFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDiskReadVerificationFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskreadverificationfailureexception(v=EXCHG.10)

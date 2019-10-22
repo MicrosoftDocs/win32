@@ -1,5 +1,5 @@
 ---
-title: EsentLogSectorSizeMismatchException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogSectorSizeMismatchException class
 TOCTitle: EsentLogSectorSizeMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsectorsizemismatchexception(v=EXCHG.10)

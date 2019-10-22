@@ -1,5 +1,5 @@
 ---
-title: JET_BKINFO.genLow property  (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO.genLow property 
 TOCTitle: 'genLow property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.genLow
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo.genlow(v=EXCHG.10)

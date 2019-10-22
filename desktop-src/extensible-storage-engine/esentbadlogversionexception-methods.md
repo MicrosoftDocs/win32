@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogVersionException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogVersionException methods
 TOCTitle: EsentBadLogVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogversionexception_methods(v=EXCHG.10)

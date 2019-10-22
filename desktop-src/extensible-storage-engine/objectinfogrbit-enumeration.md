@@ -1,5 +1,5 @@
 ---
-title: ObjectInfoGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: ObjectInfoGrbit enumeration
 TOCTitle: ObjectInfoGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ObjectInfoGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.objectinfogrbit(v=EXCHG.10)

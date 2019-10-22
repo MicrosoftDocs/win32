@@ -1,5 +1,5 @@
 ---
-title: EsentColumnTooBigException properties (Microsoft.Isam.Esent.Interop)
+title: EsentColumnTooBigException properties
 TOCTitle: EsentColumnTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumntoobigexception_properties(v=EXCHG.10)

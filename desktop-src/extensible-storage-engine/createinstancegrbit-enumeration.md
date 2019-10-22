@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: CreateInstanceGrbit enumeration
 TOCTitle: CreateInstanceGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CreateInstanceGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.createinstancegrbit(v=EXCHG.10)

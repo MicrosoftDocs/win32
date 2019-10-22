@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.ProcessFriendlyName property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.ProcessFriendlyName property 
 TOCTitle: 'ProcessFriendlyName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ProcessFriendlyName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.processfriendlyname(v=EXCHG.10)

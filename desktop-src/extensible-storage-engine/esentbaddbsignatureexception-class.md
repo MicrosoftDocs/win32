@@ -1,5 +1,5 @@
 ---
-title: EsentBadDbSignatureException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadDbSignatureException class
 TOCTitle: EsentBadDbSignatureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadDbSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbaddbsignatureexception(v=EXCHG.10)

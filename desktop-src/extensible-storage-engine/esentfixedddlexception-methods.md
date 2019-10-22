@@ -1,5 +1,5 @@
 ---
-title: EsentFixedDDLException methods (Microsoft.Isam.Esent.Interop)
+title: EsentFixedDDLException methods
 TOCTitle: EsentFixedDDLException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFixedDDLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfixedddlexception_methods(v=EXCHG.10)

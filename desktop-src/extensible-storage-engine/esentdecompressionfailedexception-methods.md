@@ -1,5 +1,5 @@
 ---
-title: EsentDecompressionFailedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDecompressionFailedException methods
 TOCTitle: EsentDecompressionFailedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdecompressionfailedexception_methods(v=EXCHG.10)

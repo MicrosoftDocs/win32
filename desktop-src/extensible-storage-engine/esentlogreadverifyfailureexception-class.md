@@ -1,5 +1,5 @@
 ---
-title: EsentLogReadVerifyFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogReadVerifyFailureException class
 TOCTitle: EsentLogReadVerifyFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogreadverifyfailureexception(v=EXCHG.10)

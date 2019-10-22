@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotReservedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotReservedException methods
 TOCTitle: EsentSLVPagesNotReservedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotReservedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotreservedexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentTableInUseException class (Microsoft.Isam.Esent.Interop)
+title: EsentTableInUseException class
 TOCTitle: EsentTableInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTableInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttableinuseexception(v=EXCHG.10)

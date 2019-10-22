@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.LogFileDirectory property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.LogFileDirectory property 
 TOCTitle: 'LogFileDirectory property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.LogFileDirectory
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.logfiledirectory(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.CanRead property  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.CanRead property 
 TOCTitle: 'CanRead property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.CanRead
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.canread(v=EXCHG.10)

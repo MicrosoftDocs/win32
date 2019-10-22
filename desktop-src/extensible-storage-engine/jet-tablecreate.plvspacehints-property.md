@@ -1,5 +1,5 @@
 ---
-title: JET_TABLECREATE.pLVSpacehints property  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE.pLVSpacehints property 
 TOCTitle: 'pLVSpacehints property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.pLVSpacehints
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.plvspacehints(v=EXCHG.10)

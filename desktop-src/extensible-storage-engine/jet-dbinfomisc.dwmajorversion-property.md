@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.dwMajorVersion property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.dwMajorVersion property 
 TOCTitle: 'dwMajorVersion property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.dwMajorVersion
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.dwmajorversion(v=EXCHG.10)

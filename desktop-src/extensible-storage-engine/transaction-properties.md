@@ -1,5 +1,5 @@
 ﻿---
-title: Transaction properties (Microsoft.Isam.Esent.Interop)
+title: Transaction properties
 TOCTitle: Transaction properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Transaction
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction_properties(v=EXCHG.10)

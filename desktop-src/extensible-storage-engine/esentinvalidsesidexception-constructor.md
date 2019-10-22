@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidSesidException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSesidException constructor 
 TOCTitle: 'EsentInvalidSesidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsesidexception.esentinvalidsesidexception(v=EXCHG.10)

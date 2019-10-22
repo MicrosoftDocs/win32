@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBackupException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBackupException constructor 
 TOCTitle: 'EsentInvalidBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbackupexception.esentinvalidbackupexception(v=EXCHG.10)

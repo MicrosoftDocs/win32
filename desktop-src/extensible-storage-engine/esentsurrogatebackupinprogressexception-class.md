@@ -1,5 +1,5 @@
 ---
-title: EsentSurrogateBackupInProgressException class (Microsoft.Isam.Esent.Interop)
+title: EsentSurrogateBackupInProgressException class
 TOCTitle: EsentSurrogateBackupInProgressException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSurrogateBackupInProgressException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsurrogatebackupinprogressexception(v=EXCHG.10)

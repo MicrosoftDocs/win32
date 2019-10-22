@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCountryException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCountryException methods
 TOCTitle: EsentInvalidCountryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidCountryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcountryexception_methods(v=EXCHG.10)

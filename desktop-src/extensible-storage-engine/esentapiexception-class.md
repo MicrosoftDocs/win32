@@ -1,5 +1,5 @@
 ---
-title: EsentApiException class (Microsoft.Isam.Esent.Interop)
+title: EsentApiException class
 TOCTitle: EsentApiException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentApiException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentapiexception(v=EXCHG.10)

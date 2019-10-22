@@ -1,5 +1,5 @@
 ---
-title: JET_RETRIEVECOLUMN.columnidNextTagged property  (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN.columnidNextTagged property 
 TOCTitle: 'columnidNextTagged property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.columnidNextTagged
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn.columnidnexttagged(v=EXCHG.10)

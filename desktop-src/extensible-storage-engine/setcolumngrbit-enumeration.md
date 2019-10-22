@@ -1,5 +1,5 @@
 ---
-title: SetColumnGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: SetColumnGrbit enumeration
 TOCTitle: SetColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetColumnGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.setcolumngrbit(v=EXCHG.10)

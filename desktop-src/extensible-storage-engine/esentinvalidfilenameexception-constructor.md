@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidFilenameException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidFilenameException constructor 
 TOCTitle: 'EsentInvalidFilenameException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidfilenameexception.esentinvalidfilenameexception(v=EXCHG.10)

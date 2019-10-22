@@ -1,5 +1,5 @@
 ---
-title: JET_RETRIEVECOLUMN.ibLongValue property  (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN.ibLongValue property 
 TOCTitle: 'ibLongValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.ibLongValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn.iblongvalue(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotNotAllowedException class (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotNotAllowedException class
 TOCTitle: EsentOSSnapshotNotAllowedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotnotallowedexception(v=EXCHG.10)

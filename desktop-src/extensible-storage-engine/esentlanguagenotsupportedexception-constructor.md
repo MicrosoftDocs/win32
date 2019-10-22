@@ -1,5 +1,5 @@
 ---
-title: EsentLanguageNotSupportedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLanguageNotSupportedException constructor 
 TOCTitle: 'EsentLanguageNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLanguageNotSupportedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlanguagenotsupportedexception.esentlanguagenotsupportedexception(v=EXCHG.10)

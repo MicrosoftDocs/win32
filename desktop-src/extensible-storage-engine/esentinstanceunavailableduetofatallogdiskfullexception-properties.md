@@ -1,5 +1,5 @@
 ---
-title: EsentInstanceUnavailableDueToFatalLogDiskFullException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInstanceUnavailableDueToFatalLogDiskFullException properties
 TOCTitle: EsentInstanceUnavailableDueToFatalLogDiskFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstanceunavailableduetofatallogdiskfullexception_properties(v=EXCHG.10)

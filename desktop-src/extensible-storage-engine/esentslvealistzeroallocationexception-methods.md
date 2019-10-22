@@ -1,5 +1,5 @@
 ---
-title: EsentSLVEAListZeroAllocationException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVEAListZeroAllocationException methods
 TOCTitle: EsentSLVEAListZeroAllocationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListZeroAllocationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvealistzeroallocationexception_methods(v=EXCHG.10)

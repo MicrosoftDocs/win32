@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.CacheSize property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.CacheSize property 
 TOCTitle: 'CacheSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.CacheSize
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.cachesize(v=EXCHG.10)

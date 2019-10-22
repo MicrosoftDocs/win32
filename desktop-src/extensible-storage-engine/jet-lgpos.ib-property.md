@@ -1,5 +1,5 @@
 ---
-title: JET_LGPOS.ib property  (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS.ib property 
 TOCTitle: 'ib property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.ib
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.ib(v=EXCHG.10)

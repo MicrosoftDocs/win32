@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesTextBinaryColumnsOnlyException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesTextBinaryColumnsOnlyException class
 TOCTitle: EsentIndexTuplesTextBinaryColumnsOnlyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTextBinaryColumnsOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplestextbinarycolumnsonlyexception(v=EXCHG.10)

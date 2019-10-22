@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateAfterTruncationException properties (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateAfterTruncationException properties
 TOCTitle: EsentMultiValuedDuplicateAfterTruncationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateaftertruncationexception_properties(v=EXCHG.10)

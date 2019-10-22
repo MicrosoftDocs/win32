@@ -1,5 +1,5 @@
 ---
-title: EsentIllegalOperationException class (Microsoft.Isam.Esent.Interop)
+title: EsentIllegalOperationException class
 TOCTitle: EsentIllegalOperationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIllegalOperationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentillegaloperationexception(v=EXCHG.10)

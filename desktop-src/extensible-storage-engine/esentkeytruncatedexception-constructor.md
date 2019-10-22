@@ -1,5 +1,5 @@
 ---
-title: EsentKeyTruncatedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentKeyTruncatedException constructor 
 TOCTitle: 'EsentKeyTruncatedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeytruncatedexception.esentkeytruncatedexception(v=EXCHG.10)

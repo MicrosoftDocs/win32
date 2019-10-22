@@ -1,5 +1,5 @@
 ---
-title: EsentTableLockedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTableLockedException constructor 
 TOCTitle: 'EsentTableLockedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableLockedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttablelockedexception.esenttablelockedexception(v=EXCHG.10)

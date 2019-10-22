@@ -1,5 +1,5 @@
 ---
-title: EsentTableDuplicateException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTableDuplicateException constructor 
 TOCTitle: 'EsentTableDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableDuplicateException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttableduplicateexception.esenttableduplicateexception(v=EXCHG.10)

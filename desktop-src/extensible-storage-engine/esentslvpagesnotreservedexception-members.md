@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotReservedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotReservedException members
 TOCTitle: EsentSLVPagesNotReservedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotReservedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotreservedexception_members(v=EXCHG.10)

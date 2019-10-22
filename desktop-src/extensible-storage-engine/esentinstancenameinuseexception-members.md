@@ -1,5 +1,5 @@
 ---
-title: EsentInstanceNameInUseException members (Microsoft.Isam.Esent.Interop)
+title: EsentInstanceNameInUseException members
 TOCTitle: EsentInstanceNameInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstancenameinuseexception_members(v=EXCHG.10)

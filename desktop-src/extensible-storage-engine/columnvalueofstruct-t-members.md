@@ -1,5 +1,5 @@
 ---
-title: ColumnValueOfStruct(T) members (Microsoft.Isam.Esent.Interop)
+title: ColumnValueOfStruct(T) members
 TOCTitle: ColumnValueOfStruct(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334217(v=EXCHG.10)

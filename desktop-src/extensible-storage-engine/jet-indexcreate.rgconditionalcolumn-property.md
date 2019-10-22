@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE.rgconditionalcolumn property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.rgconditionalcolumn property 
 TOCTitle: 'rgconditionalcolumn property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.rgconditionalcolumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.rgconditionalcolumn(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSoftRecoveryOnBackupDatabaseException class (Microsoft.Isam.Esent.Interop)
+title: EsentSoftRecoveryOnBackupDatabaseException class
 TOCTitle: EsentSoftRecoveryOnBackupDatabaseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnBackupDatabaseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsoftrecoveryonbackupdatabaseexception(v=EXCHG.10)

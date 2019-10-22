@@ -1,5 +1,5 @@
 ---
-title: EsentSLVEAListCorruptException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVEAListCorruptException constructor 
 TOCTitle: 'EsentSLVEAListCorruptException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVEAListCorruptException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvealistcorruptexception.esentslvealistcorruptexception(v=EXCHG.10)

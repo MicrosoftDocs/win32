@@ -1,5 +1,5 @@
 ---
-title: EsentDecompressionFailedException members (Microsoft.Isam.Esent.Interop)
+title: EsentDecompressionFailedException members
 TOCTitle: EsentDecompressionFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdecompressionfailedexception_members(v=EXCHG.10)

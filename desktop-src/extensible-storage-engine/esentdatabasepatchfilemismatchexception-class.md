@@ -1,5 +1,5 @@
 ---
-title: EsentDatabasePatchFileMismatchException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabasePatchFileMismatchException class
 TOCTitle: EsentDatabasePatchFileMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasepatchfilemismatchexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Instance.ReleaseHandle method  (Microsoft.Isam.Esent.Interop)
+title: Instance.ReleaseHandle method 
 TOCTitle: 'ReleaseHandle method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.ReleaseHandle
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.releasehandle(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidPrereadException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidPrereadException class
 TOCTitle: EsentInvalidPrereadException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidPrereadException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidprereadexception(v=EXCHG.10)

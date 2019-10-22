@@ -1,5 +1,5 @@
 ---
-title: Transaction.Rollback method  (Microsoft.Isam.Esent.Interop)
+title: Transaction.Rollback method 
 TOCTitle: 'Rollback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Rollback
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction.rollback(v=EXCHG.10)

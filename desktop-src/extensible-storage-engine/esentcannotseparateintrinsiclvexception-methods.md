@@ -1,5 +1,5 @@
 ---
-title: EsentCannotSeparateIntrinsicLVException methods (Microsoft.Isam.Esent.Interop)
+title: EsentCannotSeparateIntrinsicLVException methods
 TOCTitle: EsentCannotSeparateIntrinsicLVException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotseparateintrinsiclvexception_methods(v=EXCHG.10)

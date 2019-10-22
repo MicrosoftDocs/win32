@@ -1,5 +1,5 @@
 ---
-title: EsentPageNotInitializedException members (Microsoft.Isam.Esent.Interop)
+title: EsentPageNotInitializedException members
 TOCTitle: EsentPageNotInitializedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagenotinitializedexception_members(v=EXCHG.10)

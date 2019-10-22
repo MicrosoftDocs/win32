@@ -1,5 +1,5 @@
 ---
-title: EsentCallbackFailedException class (Microsoft.Isam.Esent.Interop)
+title: EsentCallbackFailedException class
 TOCTitle: EsentCallbackFailedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcallbackfailedexception(v=EXCHG.10)

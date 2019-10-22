@@ -1,5 +1,5 @@
 ---
-title: JET_SIGNATURE.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_SIGNATURE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_signature.tostring(v=EXCHG.10)

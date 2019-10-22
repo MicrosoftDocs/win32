@@ -1,5 +1,5 @@
 ---
-title: IContentEquatable(T) interface (Microsoft.Isam.Esent.Interop)
+title: IContentEquatable(T) interface
 TOCTitle: IContentEquatable(T) interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578046(v=EXCHG.10)

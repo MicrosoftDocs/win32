@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfSequentialIndexValuesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSequentialIndexValuesException constructor 
 TOCTitle: 'EsentOutOfSequentialIndexValuesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsequentialindexvaluesexception.esentoutofsequentialindexvaluesexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSPOwnExtCorruptedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSPOwnExtCorruptedException methods
 TOCTitle: EsentSPOwnExtCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspownextcorruptedexception_methods(v=EXCHG.10)

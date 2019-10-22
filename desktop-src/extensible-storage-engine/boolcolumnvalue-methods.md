@@ -1,5 +1,5 @@
 ---
-title: BoolColumnValue methods (Microsoft.Isam.Esent.Interop)
+title: BoolColumnValue methods
 TOCTitle: BoolColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.BoolColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.boolcolumnvalue_methods(v=EXCHG.10)

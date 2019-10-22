@@ -1,5 +1,5 @@
 ---
-title: EsentNoBackupDirectoryException properties (Microsoft.Isam.Esent.Interop)
+title: EsentNoBackupDirectoryException properties
 TOCTitle: EsentNoBackupDirectoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnobackupdirectoryexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_HANDLE.Equals method (JET_HANDLE) (Microsoft.Isam.Esent.Interop)
+title: JET_HANDLE.Equals method (JET_HANDLE)
 TOCTitle: Equals method (JET_HANDLE)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.Equals(Microsoft.Isam.Esent.Interop.JET_HANDLE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle.equals(v=EXCHG.10)

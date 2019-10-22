@@ -1,5 +1,5 @@
 ---
-title: EsentNoCurrentIndexException class (Microsoft.Isam.Esent.Interop)
+title: EsentNoCurrentIndexException class
 TOCTitle: EsentNoCurrentIndexException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnocurrentindexexception(v=EXCHG.10)

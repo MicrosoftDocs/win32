@@ -1,5 +1,5 @@
 ---
-title: EsentNotInDistributedTransactionException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNotInDistributedTransactionException methods
 TOCTitle: EsentNotInDistributedTransactionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnotindistributedtransactionexception_methods(v=EXCHG.10)

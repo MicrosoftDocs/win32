@@ -1,5 +1,5 @@
 ---
-title: EsentColumnInRelationshipException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentColumnInRelationshipException constructor 
 TOCTitle: 'EsentColumnInRelationshipException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnInRelationshipException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumninrelationshipexception.esentcolumninrelationshipexception(v=EXCHG.10)

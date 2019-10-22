@@ -1,5 +1,5 @@
 ---
-title: EsentSLVProviderNotLoadedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVProviderNotLoadedException methods
 TOCTitle: EsentSLVProviderNotLoadedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvprovidernotloadedexception_methods(v=EXCHG.10)

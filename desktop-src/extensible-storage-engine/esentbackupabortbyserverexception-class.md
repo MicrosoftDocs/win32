@@ -1,5 +1,5 @@
 ---
-title: EsentBackupAbortByServerException class (Microsoft.Isam.Esent.Interop)
+title: EsentBackupAbortByServerException class
 TOCTitle: EsentBackupAbortByServerException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupabortbyserverexception(v=EXCHG.10)

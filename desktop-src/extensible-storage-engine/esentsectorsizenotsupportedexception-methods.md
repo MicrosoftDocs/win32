@@ -1,5 +1,5 @@
 ---
-title: EsentSectorSizeNotSupportedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSectorSizeNotSupportedException methods
 TOCTitle: EsentSectorSizeNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsectorsizenotsupportedexception_methods(v=EXCHG.10)

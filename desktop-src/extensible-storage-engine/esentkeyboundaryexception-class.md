@@ -1,5 +1,5 @@
 ---
-title: EsentKeyBoundaryException class (Microsoft.Isam.Esent.Interop)
+title: EsentKeyBoundaryException class
 TOCTitle: EsentKeyBoundaryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentKeyBoundaryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeyboundaryexception(v=EXCHG.10)

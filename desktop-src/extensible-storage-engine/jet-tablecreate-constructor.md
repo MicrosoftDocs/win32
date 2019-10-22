@@ -1,5 +1,5 @@
 ---
-title: JET_TABLECREATE constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE constructor 
 TOCTitle: 'JET_TABLECREATE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.jet_tablecreate(v=EXCHG.10)

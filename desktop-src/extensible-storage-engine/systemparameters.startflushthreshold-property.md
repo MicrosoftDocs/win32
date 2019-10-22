@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.StartFlushThreshold property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.StartFlushThreshold property 
 TOCTitle: 'StartFlushThreshold property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.StartFlushThreshold
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.startflushthreshold(v=EXCHG.10)

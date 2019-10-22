@@ -1,5 +1,5 @@
 ---
-title: INullableJetStruct interface (Microsoft.Isam.Esent.Interop)
+title: INullableJetStruct interface
 TOCTitle: INullableJetStruct interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.INullableJetStruct
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.inullablejetstruct(v=EXCHG.10)

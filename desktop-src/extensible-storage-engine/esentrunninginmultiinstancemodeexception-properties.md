@@ -1,5 +1,5 @@
 ---
-title: EsentRunningInMultiInstanceModeException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRunningInMultiInstanceModeException properties
 TOCTitle: EsentRunningInMultiInstanceModeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrunninginmultiinstancemodeexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentLogBufferTooSmallException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogBufferTooSmallException class
 TOCTitle: EsentLogBufferTooSmallException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogbuffertoosmallexception(v=EXCHG.10)

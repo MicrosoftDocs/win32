@@ -1,5 +1,5 @@
 ---
-title: EsentNoBackupException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNoBackupException methods
 TOCTitle: EsentNoBackupException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoBackupException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnobackupexception_methods(v=EXCHG.10)

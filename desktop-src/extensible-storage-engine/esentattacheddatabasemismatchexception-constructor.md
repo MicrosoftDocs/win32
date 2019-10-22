@@ -1,5 +1,5 @@
 ---
-title: EsentAttachedDatabaseMismatchException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentAttachedDatabaseMismatchException constructor 
 TOCTitle: 'EsentAttachedDatabaseMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentattacheddatabasemismatchexception.esentattacheddatabasemismatchexception(v=EXCHG.10)

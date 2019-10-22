@@ -1,5 +1,5 @@
 ---
-title: EsentRecordTooBigException members (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigException members
 TOCTitle: EsentRecordTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentCannotLogDuringRecoveryRedoException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCannotLogDuringRecoveryRedoException constructor 
 TOCTitle: 'EsentCannotLogDuringRecoveryRedoException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotLogDuringRecoveryRedoException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotlogduringrecoveryredoexception.esentcannotlogduringrecoveryredoexception(v=EXCHG.10)

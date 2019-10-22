@@ -1,5 +1,5 @@
 ---
-title: EsentFixedInheritedDDLException members (Microsoft.Isam.Esent.Interop)
+title: EsentFixedInheritedDDLException members
 TOCTitle: EsentFixedInheritedDDLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfixedinheritedddlexception_members(v=EXCHG.10)

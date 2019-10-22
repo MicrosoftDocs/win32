@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidParameterException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidParameterException properties
 TOCTitle: EsentInvalidParameterException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidparameterexception_properties(v=EXCHG.10)

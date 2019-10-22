@@ -1,5 +1,5 @@
 ---
-title: EsentBadColumnIdException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBadColumnIdException constructor 
 TOCTitle: 'EsentBadColumnIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadcolumnidexception.esentbadcolumnidexception(v=EXCHG.10)

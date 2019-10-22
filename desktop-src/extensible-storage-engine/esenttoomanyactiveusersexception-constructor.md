@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyActiveUsersException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyActiveUsersException constructor 
 TOCTitle: 'EsentTooManyActiveUsersException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyActiveUsersException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyactiveusersexception.esenttoomanyactiveusersexception(v=EXCHG.10)

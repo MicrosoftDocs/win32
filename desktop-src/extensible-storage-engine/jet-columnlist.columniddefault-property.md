@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNLIST.columnidDefault property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNLIST.columnidDefault property 
 TOCTitle: 'columnidDefault property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidDefault
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnlist.columniddefault(v=EXCHG.10)

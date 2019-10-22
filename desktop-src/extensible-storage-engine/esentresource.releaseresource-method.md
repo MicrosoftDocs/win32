@@ -1,5 +1,5 @@
 ---
-title: EsentResource.ReleaseResource method  (Microsoft.Isam.Esent.Interop)
+title: EsentResource.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.ReleaseResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.releaseresource(v=EXCHG.10)

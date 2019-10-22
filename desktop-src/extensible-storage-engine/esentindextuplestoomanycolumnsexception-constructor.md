@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesTooManyColumnsException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesTooManyColumnsException constructor 
 TOCTitle: 'EsentIndexTuplesTooManyColumnsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTooManyColumnsException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplestoomanycolumnsexception.esentindextuplestoomanycolumnsexception(v=EXCHG.10)

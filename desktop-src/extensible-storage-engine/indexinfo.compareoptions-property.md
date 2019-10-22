@@ -1,5 +1,5 @@
 ---
-title: IndexInfo.CompareOptions property  (Microsoft.Isam.Esent.Interop)
+title: IndexInfo.CompareOptions property 
 TOCTitle: 'CompareOptions property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.CompareOptions
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo.compareoptions(v=EXCHG.10)

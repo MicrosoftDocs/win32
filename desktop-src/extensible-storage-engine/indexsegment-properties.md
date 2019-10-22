@@ -1,5 +1,5 @@
 ﻿---
-title: IndexSegment properties (Microsoft.Isam.Esent.Interop)
+title: IndexSegment properties
 TOCTitle: IndexSegment properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.IndexSegment
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment_properties(v=EXCHG.10)

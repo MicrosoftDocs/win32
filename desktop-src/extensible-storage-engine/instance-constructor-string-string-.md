@@ -1,5 +1,5 @@
 ---
-title: Instance constructor (String, String) (Microsoft.Isam.Esent.Interop)
+title: Instance constructor (String, String)
 TOCTitle: Instance constructor (String, String)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.#ctor(System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.instance(v=EXCHG.10)

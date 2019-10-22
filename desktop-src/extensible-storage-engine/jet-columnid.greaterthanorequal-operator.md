@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNID.GreaterThanOrEqual operator  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNID.GreaterThanOrEqual operator 
 TOCTitle: 'GreaterThanOrEqual operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.op_GreaterThanOrEqual(Microsoft.Isam.Esent.Interop.JET_COLUMNID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid.op_greaterthanorequal(v=EXCHG.10)

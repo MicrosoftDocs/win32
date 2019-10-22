@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInUseException constructor 
 TOCTitle: 'EsentIndexInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinuseexception.esentindexinuseexception(v=EXCHG.10)

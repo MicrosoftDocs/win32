@@ -1,5 +1,5 @@
 ---
-title: EsentNotInDistributedTransactionException members (Microsoft.Isam.Esent.Interop)
+title: EsentNotInDistributedTransactionException members
 TOCTitle: EsentNotInDistributedTransactionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnotindistributedtransactionexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInUseException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInUseException class
 TOCTitle: EsentDatabaseInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinuseexception(v=EXCHG.10)

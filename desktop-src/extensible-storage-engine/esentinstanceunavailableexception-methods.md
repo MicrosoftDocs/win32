@@ -1,5 +1,5 @@
 ---
-title: EsentInstanceUnavailableException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInstanceUnavailableException methods
 TOCTitle: EsentInstanceUnavailableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstanceunavailableexception_methods(v=EXCHG.10)

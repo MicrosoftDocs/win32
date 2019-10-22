@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseIncompleteIncrementalReseedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseIncompleteIncrementalReseedException constructor 
 TOCTitle: 'EsentDatabaseIncompleteIncrementalReseedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteIncrementalReseedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseincompleteincrementalreseedexception.esentdatabaseincompleteincrementalreseedexception(v=EXCHG.10)

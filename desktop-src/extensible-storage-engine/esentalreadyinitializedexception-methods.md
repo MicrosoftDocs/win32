@@ -1,5 +1,5 @@
 ---
-title: EsentAlreadyInitializedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentAlreadyInitializedException methods
 TOCTitle: EsentAlreadyInitializedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentAlreadyInitializedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentalreadyinitializedexception_methods(v=EXCHG.10)

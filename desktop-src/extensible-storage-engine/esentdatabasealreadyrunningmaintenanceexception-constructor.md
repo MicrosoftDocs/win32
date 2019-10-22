@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseAlreadyRunningMaintenanceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseAlreadyRunningMaintenanceException constructor 
 TOCTitle: 'EsentDatabaseAlreadyRunningMaintenanceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyRunningMaintenanceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasealreadyrunningmaintenanceexception.esentdatabasealreadyrunningmaintenanceexception(v=EXCHG.10)

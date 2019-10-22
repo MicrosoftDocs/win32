@@ -1,5 +1,5 @@
 ---
-title: ColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue constructor 
 TOCTitle: 'ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.columnvalue(v=EXCHG.10)

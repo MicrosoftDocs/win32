@@ -1,5 +1,5 @@
 ---
-title: Conversions.LCMapFlagsFromCompareOptions method  (Microsoft.Isam.Esent.Interop)
+title: Conversions.LCMapFlagsFromCompareOptions method 
 TOCTitle: 'LCMapFlagsFromCompareOptions method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Conversions.LCMapFlagsFromCompareOptions(System.Globalization.CompareOptions)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.conversions.lcmapflagsfromcompareoptions(v=EXCHG.10)

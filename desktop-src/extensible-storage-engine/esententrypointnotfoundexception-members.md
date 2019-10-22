@@ -1,5 +1,5 @@
 ---
-title: EsentEntryPointNotFoundException members (Microsoft.Isam.Esent.Interop)
+title: EsentEntryPointNotFoundException members
 TOCTitle: EsentEntryPointNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esententrypointnotfoundexception_members(v=EXCHG.10)

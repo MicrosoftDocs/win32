@@ -1,5 +1,5 @@
 ---
-title: JET_RETINFO class (Microsoft.Isam.Esent.Interop)
+title: JET_RETINFO class
 TOCTitle: JET_RETINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RETINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retinfo(v=EXCHG.10)

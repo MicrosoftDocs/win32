@@ -1,5 +1,5 @@
 ---
-title: EsentUnloadableOSFunctionalityException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentUnloadableOSFunctionalityException constructor 
 TOCTitle: 'EsentUnloadableOSFunctionalityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunloadableosfunctionalityexception.esentunloadableosfunctionalityexception(v=EXCHG.10)

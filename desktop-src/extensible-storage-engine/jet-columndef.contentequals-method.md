@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNDEF.ContentEquals method  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNDEF.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.ContentEquals(Microsoft.Isam.Esent.Interop.JET_COLUMNDEF)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columndef.contentequals(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException properties (Microsoft.Isam.Esent.Interop)
+title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException properties
 TOCTitle: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryAndCleanupTimedOutException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreoutofmemoryandcleanuptimedoutexception_properties(v=EXCHG.10)

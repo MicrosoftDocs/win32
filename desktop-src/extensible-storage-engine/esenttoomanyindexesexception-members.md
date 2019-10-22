@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyIndexesException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyIndexesException members
 TOCTitle: EsentTooManyIndexesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyIndexesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyindexesexception_members(v=EXCHG.10)

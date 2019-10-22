@@ -1,5 +1,5 @@
 ---
-title: EsentPageNotInitializedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentPageNotInitializedException constructor 
 TOCTitle: 'EsentPageNotInitializedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagenotinitializedexception.esentpagenotinitializedexception(v=EXCHG.10)

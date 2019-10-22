@@ -1,5 +1,5 @@
 ---
-title: EsentResource.ResourceWasReleased method  (Microsoft.Isam.Esent.Interop)
+title: EsentResource.ResourceWasReleased method 
 TOCTitle: 'ResourceWasReleased method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.ResourceWasReleased
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.resourcewasreleased(v=EXCHG.10)

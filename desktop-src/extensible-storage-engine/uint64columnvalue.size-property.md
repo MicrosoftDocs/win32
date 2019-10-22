@@ -1,5 +1,5 @@
 ---
-title: UInt64ColumnValue.Size property  (Microsoft.Isam.Esent.Interop)
+title: UInt64ColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.UInt64ColumnValue.Size
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint64columnvalue.size(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNotFoundException methods
 TOCTitle: EsentColumnNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnotfoundexception_methods(v=EXCHG.10)

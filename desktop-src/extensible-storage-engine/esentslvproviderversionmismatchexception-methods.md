@@ -1,5 +1,5 @@
 ---
-title: EsentSLVProviderVersionMismatchException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVProviderVersionMismatchException methods
 TOCTitle: EsentSLVProviderVersionMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderVersionMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvproviderversionmismatchexception_methods(v=EXCHG.10)

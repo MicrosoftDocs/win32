@@ -1,5 +1,5 @@
 ---
-title: IndexSegment.ColumnName property  (Microsoft.Isam.Esent.Interop)
+title: IndexSegment.ColumnName property 
 TOCTitle: 'ColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.ColumnName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment.columnname(v=EXCHG.10)

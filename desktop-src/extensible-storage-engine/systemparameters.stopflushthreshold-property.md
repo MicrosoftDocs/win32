@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.StopFlushThreshold property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.StopFlushThreshold property 
 TOCTitle: 'StopFlushThreshold property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.StopFlushThreshold
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.stopflushthreshold(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.PreferredVerPages property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.PreferredVerPages property 
 TOCTitle: 'PreferredVerPages property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.PreferredVerPages
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.preferredverpages(v=EXCHG.10)

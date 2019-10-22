@@ -1,5 +1,5 @@
 ---
-title: FloatColumnValue class (Microsoft.Isam.Esent.Interop)
+title: FloatColumnValue class
 TOCTitle: FloatColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.FloatColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.floatcolumnvalue(v=EXCHG.10)

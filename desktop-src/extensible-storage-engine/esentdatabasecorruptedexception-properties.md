@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseCorruptedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseCorruptedException properties
 TOCTitle: EsentDatabaseCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptedexception_properties(v=EXCHG.10)

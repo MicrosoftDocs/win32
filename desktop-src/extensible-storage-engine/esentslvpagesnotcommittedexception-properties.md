@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotCommittedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotCommittedException properties
 TOCTitle: EsentSLVPagesNotCommittedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotcommittedexception_properties(v=EXCHG.10)

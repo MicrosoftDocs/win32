@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotReservedException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotReservedException class
 TOCTitle: EsentSLVPagesNotReservedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotReservedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotreservedexception(v=EXCHG.10)

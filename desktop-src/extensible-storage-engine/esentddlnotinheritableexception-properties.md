@@ -1,5 +1,5 @@
 ---
-title: EsentDDLNotInheritableException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDDLNotInheritableException properties
 TOCTitle: EsentDDLNotInheritableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDDLNotInheritableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentddlnotinheritableexception_properties(v=EXCHG.10)

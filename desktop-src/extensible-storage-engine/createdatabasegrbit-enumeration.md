@@ -1,5 +1,5 @@
 ---
-title: CreateDatabaseGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: CreateDatabaseGrbit enumeration
 TOCTitle: CreateDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CreateDatabaseGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.createdatabasegrbit(v=EXCHG.10)

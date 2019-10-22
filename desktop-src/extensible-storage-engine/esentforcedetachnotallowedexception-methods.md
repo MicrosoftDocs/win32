@@ -1,5 +1,5 @@
 ---
-title: EsentForceDetachNotAllowedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentForceDetachNotAllowedException methods
 TOCTitle: EsentForceDetachNotAllowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentForceDetachNotAllowedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentforcedetachnotallowedexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_CONVERT members (Microsoft.Isam.Esent.Interop)
+title: JET_CONVERT members
 TOCTitle: JET_CONVERT members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_CONVERT
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_convert_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVEAListTooBigException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVEAListTooBigException properties
 TOCTitle: EsentSLVEAListTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvealisttoobigexception_properties(v=EXCHG.10)

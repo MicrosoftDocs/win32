@@ -1,5 +1,5 @@
 ---
-title: JET_SETINFO.ibLongValue property  (Microsoft.Isam.Esent.Interop)
+title: JET_SETINFO.ibLongValue property 
 TOCTitle: 'ibLongValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETINFO.ibLongValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setinfo.iblongvalue(v=EXCHG.10)

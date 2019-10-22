@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseAlreadyUpgradedException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseAlreadyUpgradedException members
 TOCTitle: EsentDatabaseAlreadyUpgradedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyUpgradedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasealreadyupgradedexception_members(v=EXCHG.10)

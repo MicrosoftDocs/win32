@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidNameException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidNameException class
 TOCTitle: EsentInvalidNameException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidNameException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidnameexception(v=EXCHG.10)

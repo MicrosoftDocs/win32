@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenDatabasesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenDatabasesException constructor 
 TOCTitle: 'EsentTooManyOpenDatabasesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopendatabasesexception.esenttoomanyopendatabasesexception(v=EXCHG.10)

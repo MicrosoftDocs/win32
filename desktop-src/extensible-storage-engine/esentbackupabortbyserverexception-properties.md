@@ -1,5 +1,5 @@
 ---
-title: EsentBackupAbortByServerException properties (Microsoft.Isam.Esent.Interop)
+title: EsentBackupAbortByServerException properties
 TOCTitle: EsentBackupAbortByServerException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupabortbyserverexception_properties(v=EXCHG.10)

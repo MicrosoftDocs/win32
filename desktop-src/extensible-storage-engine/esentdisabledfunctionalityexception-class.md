@@ -1,5 +1,5 @@
 ---
-title: EsentDisabledFunctionalityException class (Microsoft.Isam.Esent.Interop)
+title: EsentDisabledFunctionalityException class
 TOCTitle: EsentDisabledFunctionalityException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdisabledfunctionalityexception(v=EXCHG.10)

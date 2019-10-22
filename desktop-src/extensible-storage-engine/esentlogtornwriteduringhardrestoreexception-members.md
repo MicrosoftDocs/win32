@@ -1,5 +1,5 @@
 ---
-title: EsentLogTornWriteDuringHardRestoreException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogTornWriteDuringHardRestoreException members
 TOCTitle: EsentLogTornWriteDuringHardRestoreException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRestoreException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogtornwriteduringhardrestoreexception_members(v=EXCHG.10)

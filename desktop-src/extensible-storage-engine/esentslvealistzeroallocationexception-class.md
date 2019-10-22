@@ -1,5 +1,5 @@
 ---
-title: EsentSLVEAListZeroAllocationException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVEAListZeroAllocationException class
 TOCTitle: EsentSLVEAListZeroAllocationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVEAListZeroAllocationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvealistzeroallocationexception(v=EXCHG.10)

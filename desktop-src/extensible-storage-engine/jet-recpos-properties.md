@@ -1,5 +1,5 @@
 ﻿---
-title: JET_RECPOS properties (Microsoft.Isam.Esent.Interop)
+title: JET_RECPOS properties
 TOCTitle: JET_RECPOS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RECPOS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos_properties(v=EXCHG.10)

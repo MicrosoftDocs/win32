@@ -1,5 +1,5 @@
 ﻿---
-title: JET_SIGNATURE operators (Microsoft.Isam.Esent.Interop)
+title: JET_SIGNATURE operators
 TOCTitle: JET_SIGNATURE operators
 ms:assetid: 8d99c598-1c79-00ba-5a3e-d18a90d0ba5c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh558131(v=EXCHG.10)

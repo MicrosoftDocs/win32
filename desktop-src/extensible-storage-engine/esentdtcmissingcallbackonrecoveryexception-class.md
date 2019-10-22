@@ -1,5 +1,5 @@
 ---
-title: EsentDTCMissingCallbackOnRecoveryException class (Microsoft.Isam.Esent.Interop)
+title: EsentDTCMissingCallbackOnRecoveryException class
 TOCTitle: EsentDTCMissingCallbackOnRecoveryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackOnRecoveryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtcmissingcallbackonrecoveryexception(v=EXCHG.10)

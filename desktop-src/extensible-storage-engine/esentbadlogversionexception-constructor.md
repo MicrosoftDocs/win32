@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogVersionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogVersionException constructor 
 TOCTitle: 'EsentBadLogVersionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogversionexception.esentbadlogversionexception(v=EXCHG.10)

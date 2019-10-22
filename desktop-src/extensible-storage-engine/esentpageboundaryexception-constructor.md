@@ -1,5 +1,5 @@
 ---
-title: EsentPageBoundaryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentPageBoundaryException constructor 
 TOCTitle: 'EsentPageBoundaryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpageboundaryexception.esentpageboundaryexception(v=EXCHG.10)

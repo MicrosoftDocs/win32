@@ -1,5 +1,5 @@
 ---
-title: EsentRunningInOneInstanceModeException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRunningInOneInstanceModeException methods
 TOCTitle: EsentRunningInOneInstanceModeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRunningInOneInstanceModeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrunninginoneinstancemodeexception_methods(v=EXCHG.10)

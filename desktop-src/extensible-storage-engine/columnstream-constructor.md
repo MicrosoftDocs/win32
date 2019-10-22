@@ -1,5 +1,5 @@
 ---
-title: ColumnStream constructor  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream constructor 
 TOCTitle: 'ColumnStream constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.columnstream(v=EXCHG.10)

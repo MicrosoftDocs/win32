@@ -1,5 +1,5 @@
 ---
-title: EsentRedoAbruptEndedException class (Microsoft.Isam.Esent.Interop)
+title: EsentRedoAbruptEndedException class
 TOCTitle: EsentRedoAbruptEndedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentredoabruptendedexception(v=EXCHG.10)

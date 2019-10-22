@@ -1,5 +1,5 @@
 ---
-title: EsentDbTimeTooOldException class (Microsoft.Isam.Esent.Interop)
+title: EsentDbTimeTooOldException class
 TOCTitle: EsentDbTimeTooOldException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdbtimetoooldexception(v=EXCHG.10)

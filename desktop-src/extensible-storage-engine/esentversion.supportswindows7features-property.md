@@ -1,5 +1,5 @@
 ---
-title: EsentVersion.SupportsWindows7Features property  (Microsoft.Isam.Esent.Interop)
+title: EsentVersion.SupportsWindows7Features property 
 TOCTitle: 'SupportsWindows7Features property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsWindows7Features
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion.supportswindows7features(v=EXCHG.10)

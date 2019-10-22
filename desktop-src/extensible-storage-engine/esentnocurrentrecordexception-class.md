@@ -1,5 +1,5 @@
 ---
-title: EsentNoCurrentRecordException class (Microsoft.Isam.Esent.Interop)
+title: EsentNoCurrentRecordException class
 TOCTitle: EsentNoCurrentRecordException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnocurrentrecordexception(v=EXCHG.10)

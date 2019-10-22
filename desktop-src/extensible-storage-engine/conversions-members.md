@@ -1,5 +1,5 @@
 ﻿---
-title: Conversions members (Microsoft.Isam.Esent.Interop)
+title: Conversions members
 TOCTitle: Conversions members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Conversions
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.conversions_members(v=EXCHG.10)

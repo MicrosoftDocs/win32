@@ -1,5 +1,5 @@
 ---
-title: EsentPageNotInitializedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentPageNotInitializedException properties
 TOCTitle: EsentPageNotInitializedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagenotinitializedexception_properties(v=EXCHG.10)

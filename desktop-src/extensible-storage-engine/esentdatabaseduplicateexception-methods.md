@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseDuplicateException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseDuplicateException methods
 TOCTitle: EsentDatabaseDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseduplicateexception_methods(v=EXCHG.10)

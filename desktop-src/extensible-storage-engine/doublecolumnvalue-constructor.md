@@ -1,5 +1,5 @@
 ---
-title: DoubleColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: DoubleColumnValue constructor 
 TOCTitle: 'DoubleColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.DoubleColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.doublecolumnvalue.doublecolumnvalue(v=EXCHG.10)

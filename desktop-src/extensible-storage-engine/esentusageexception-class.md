@@ -1,5 +1,5 @@
 ---
-title: EsentUsageException class (Microsoft.Isam.Esent.Interop)
+title: EsentUsageException class
 TOCTitle: EsentUsageException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUsageException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentusageexception(v=EXCHG.10)

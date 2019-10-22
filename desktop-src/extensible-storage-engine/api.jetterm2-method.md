@@ -1,5 +1,5 @@
 ---
-title: Api.JetTerm2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetTerm2 method 
 TOCTitle: 'JetTerm2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetTerm2(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.TermGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetterm2(v=EXCHG.10)

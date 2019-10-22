@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.EnableViewCache property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.EnableViewCache property 
 TOCTitle: 'EnableViewCache property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.EnableViewCache
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.enableviewcache(v=EXCHG.10)

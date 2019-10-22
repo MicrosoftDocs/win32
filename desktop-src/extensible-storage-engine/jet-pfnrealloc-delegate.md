@@ -1,5 +1,5 @@
 ---
-title: JET_PFNREALLOC delegate (Microsoft.Isam.Esent.Interop)
+title: JET_PFNREALLOC delegate
 TOCTitle: JET_PFNREALLOC delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_PFNREALLOC
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_pfnrealloc(v=EXCHG.10)

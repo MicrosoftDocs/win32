@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNLIST.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNLIST.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnlist.tostring(v=EXCHG.10)

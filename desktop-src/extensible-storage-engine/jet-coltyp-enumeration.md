@@ -1,5 +1,5 @@
 ---
-title: JET_coltyp enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_coltyp enumeration
 TOCTitle: JET_coltyp enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_coltyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_coltyp(v=EXCHG.10)

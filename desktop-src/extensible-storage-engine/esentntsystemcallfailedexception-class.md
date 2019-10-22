@@ -1,5 +1,5 @@
 ---
-title: EsentNTSystemCallFailedException class (Microsoft.Isam.Esent.Interop)
+title: EsentNTSystemCallFailedException class
 TOCTitle: EsentNTSystemCallFailedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentntsystemcallfailedexception(v=EXCHG.10)

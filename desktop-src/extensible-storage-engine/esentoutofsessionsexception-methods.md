@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfSessionsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSessionsException methods
 TOCTitle: EsentOutOfSessionsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsessionsexception_methods(v=EXCHG.10)

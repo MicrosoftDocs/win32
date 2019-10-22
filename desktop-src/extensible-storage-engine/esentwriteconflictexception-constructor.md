@@ -1,5 +1,5 @@
 ---
-title: EsentWriteConflictException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentWriteConflictException constructor 
 TOCTitle: 'EsentWriteConflictException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentWriteConflictException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictexception.esentwriteconflictexception(v=EXCHG.10)

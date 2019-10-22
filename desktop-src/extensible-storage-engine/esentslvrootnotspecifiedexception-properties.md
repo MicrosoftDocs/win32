@@ -1,5 +1,5 @@
 ---
-title: EsentSLVRootNotSpecifiedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootNotSpecifiedException properties
 TOCTitle: EsentSLVRootNotSpecifiedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootnotspecifiedexception_properties(v=EXCHG.10)

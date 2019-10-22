@@ -1,5 +1,5 @@
 ﻿---
-title: Table properties (Microsoft.Isam.Esent.Interop)
+title: Table properties
 TOCTitle: Table properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Table
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.table_properties(v=EXCHG.10)

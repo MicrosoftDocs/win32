@@ -1,5 +1,5 @@
 ---
-title: EsentResource class (Microsoft.Isam.Esent.Interop)
+title: EsentResource class
 TOCTitle: EsentResource class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource(v=EXCHG.10)

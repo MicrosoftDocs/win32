@@ -1,5 +1,5 @@
 ---
-title: EsentBadItagSequenceException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadItagSequenceException class
 TOCTitle: EsentBadItagSequenceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbaditagsequenceexception(v=EXCHG.10)

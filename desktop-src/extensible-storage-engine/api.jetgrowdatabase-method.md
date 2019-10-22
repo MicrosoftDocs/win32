@@ -1,5 +1,5 @@
 ---
-title: Api.JetGrowDatabase method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGrowDatabase method 
 TOCTitle: 'JetGrowDatabase method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGrowDatabase(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.Int32,System.Int32@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgrowdatabase(v=EXCHG.10)

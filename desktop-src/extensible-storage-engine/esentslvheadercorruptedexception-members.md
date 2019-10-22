@@ -1,5 +1,5 @@
 ---
-title: EsentSLVHeaderCorruptedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVHeaderCorruptedException members
 TOCTitle: EsentSLVHeaderCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvheadercorruptedexception_members(v=EXCHG.10)

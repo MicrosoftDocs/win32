@@ -1,5 +1,5 @@
 ---
-title: JET_SETCOLUMN.DeepClone method  (Microsoft.Isam.Esent.Interop)
+title: JET_SETCOLUMN.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.DeepClone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setcolumn.deepclone(v=EXCHG.10)

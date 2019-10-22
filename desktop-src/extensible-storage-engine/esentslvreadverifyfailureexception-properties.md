@@ -1,5 +1,5 @@
 ---
-title: EsentSLVReadVerifyFailureException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVReadVerifyFailureException properties
 TOCTitle: EsentSLVReadVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVReadVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvreadverifyfailureexception_properties(v=EXCHG.10)

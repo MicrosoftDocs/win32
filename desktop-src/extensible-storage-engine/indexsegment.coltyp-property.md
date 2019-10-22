@@ -1,5 +1,5 @@
 ---
-title: IndexSegment.Coltyp property  (Microsoft.Isam.Esent.Interop)
+title: IndexSegment.Coltyp property 
 TOCTitle: 'Coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.Coltyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment.coltyp(v=EXCHG.10)

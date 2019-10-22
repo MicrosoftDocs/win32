@@ -1,5 +1,5 @@
 ---
-title: FloatColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: FloatColumnValue constructor 
 TOCTitle: 'FloatColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.FloatColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.floatcolumnvalue.floatcolumnvalue(v=EXCHG.10)

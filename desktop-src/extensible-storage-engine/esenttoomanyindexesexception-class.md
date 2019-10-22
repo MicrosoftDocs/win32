@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyIndexesException class (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyIndexesException class
 TOCTitle: EsentTooManyIndexesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyIndexesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyindexesexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.bkinfoDiffPrev property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.bkinfoDiffPrev property 
 TOCTitle: 'bkinfoDiffPrev property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoDiffPrev
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.bkinfodiffprev(v=EXCHG.10)

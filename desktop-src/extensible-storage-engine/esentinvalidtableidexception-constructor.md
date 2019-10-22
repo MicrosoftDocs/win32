@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidTableIdException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidTableIdException constructor 
 TOCTitle: 'EsentInvalidTableIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidtableidexception.esentinvalidtableidexception(v=EXCHG.10)

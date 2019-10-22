@@ -1,5 +1,5 @@
 ---
-title: EsentUpdateNotPreparedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentUpdateNotPreparedException properties
 TOCTitle: EsentUpdateNotPreparedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentupdatenotpreparedexception_properties(v=EXCHG.10)

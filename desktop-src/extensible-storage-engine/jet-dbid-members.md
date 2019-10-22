@@ -1,5 +1,5 @@
 ---
-title: JET_DBID members (Microsoft.Isam.Esent.Interop)
+title: JET_DBID members
 TOCTitle: JET_DBID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_DBID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbid_members(v=EXCHG.10)

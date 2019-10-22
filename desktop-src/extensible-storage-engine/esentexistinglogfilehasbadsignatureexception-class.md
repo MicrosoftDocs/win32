@@ -1,5 +1,5 @@
 ---
-title: EsentExistingLogFileHasBadSignatureException class (Microsoft.Isam.Esent.Interop)
+title: EsentExistingLogFileHasBadSignatureException class
 TOCTitle: EsentExistingLogFileHasBadSignatureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentexistinglogfilehasbadsignatureexception(v=EXCHG.10)

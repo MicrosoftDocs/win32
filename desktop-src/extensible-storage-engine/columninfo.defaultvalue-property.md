@@ -1,5 +1,5 @@
 ---
-title: ColumnInfo.DefaultValue property  (Microsoft.Isam.Esent.Interop)
+title: ColumnInfo.DefaultValue property 
 TOCTitle: 'DefaultValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.DefaultValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo.defaultvalue(v=EXCHG.10)

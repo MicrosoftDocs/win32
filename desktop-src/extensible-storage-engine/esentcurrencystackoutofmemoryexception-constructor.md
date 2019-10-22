@@ -1,5 +1,5 @@
 ---
-title: EsentCurrencyStackOutOfMemoryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCurrencyStackOutOfMemoryException constructor 
 TOCTitle: 'EsentCurrencyStackOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcurrencystackoutofmemoryexception.esentcurrencystackoutofmemoryexception(v=EXCHG.10)

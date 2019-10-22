@@ -1,5 +1,5 @@
 ---
-title: EsentLogFilePathInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogFilePathInUseException constructor 
 TOCTitle: 'EsentLogFilePathInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFilePathInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilepathinuseexception.esentlogfilepathinuseexception(v=EXCHG.10)

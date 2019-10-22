@@ -1,5 +1,5 @@
 ---
-title: Update constructor  (Microsoft.Isam.Esent.Interop)
+title: Update constructor 
 TOCTitle: 'Update constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_prep)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update.update(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Session class (Microsoft.Isam.Esent.Interop)
+title: Session class
 TOCTitle: Session class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Session
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session(v=EXCHG.10)

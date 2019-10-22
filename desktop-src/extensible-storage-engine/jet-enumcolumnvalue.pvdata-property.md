@@ -1,5 +1,5 @@
 ---
-title: JET_ENUMCOLUMNVALUE.pvData property  (Microsoft.Isam.Esent.Interop)
+title: JET_ENUMCOLUMNVALUE.pvData property 
 TOCTitle: 'pvData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE.pvData
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnvalue.pvdata(v=EXCHG.10)

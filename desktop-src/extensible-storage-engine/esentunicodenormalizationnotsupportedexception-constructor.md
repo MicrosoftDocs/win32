@@ -1,5 +1,5 @@
 ---
-title: EsentUnicodeNormalizationNotSupportedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeNormalizationNotSupportedException constructor 
 TOCTitle: 'EsentUnicodeNormalizationNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodenormalizationnotsupportedexception.esentunicodenormalizationnotsupportedexception(v=EXCHG.10)

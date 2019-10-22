@@ -1,5 +1,5 @@
 ---
-title: EsentIOException class (Microsoft.Isam.Esent.Interop)
+title: EsentIOException class
 TOCTitle: EsentIOException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentioexception(v=EXCHG.10)

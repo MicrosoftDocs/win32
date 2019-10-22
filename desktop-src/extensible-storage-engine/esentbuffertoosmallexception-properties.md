@@ -1,5 +1,5 @@
 ---
-title: EsentBufferTooSmallException properties (Microsoft.Isam.Esent.Interop)
+title: EsentBufferTooSmallException properties
 TOCTitle: EsentBufferTooSmallException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbuffertoosmallexception_properties(v=EXCHG.10)

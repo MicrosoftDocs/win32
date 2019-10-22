@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileStaleException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileStaleException class
 TOCTitle: EsentSLVFileStaleException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfilestaleexception(v=EXCHG.10)

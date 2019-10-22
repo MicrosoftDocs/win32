@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC constructor 
 TOCTitle: 'JET_DBINFOMISC constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.jet_dbinfomisc(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.Configuration property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.Configuration property 
 TOCTitle: 'Configuration property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.Configuration
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.configuration(v=EXCHG.10)

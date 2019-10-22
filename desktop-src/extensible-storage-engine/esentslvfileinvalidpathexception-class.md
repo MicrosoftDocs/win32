@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileInvalidPathException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileInvalidPathException class
 TOCTitle: EsentSLVFileInvalidPathException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVFileInvalidPathException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileinvalidpathexception(v=EXCHG.10)

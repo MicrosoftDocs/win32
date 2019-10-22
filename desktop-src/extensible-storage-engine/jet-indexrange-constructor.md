@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXRANGE constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXRANGE constructor 
 TOCTitle: 'JET_INDEXRANGE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexrange.jet_indexrange(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseFailedIncrementalReseedException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseFailedIncrementalReseedException class
 TOCTitle: EsentDatabaseFailedIncrementalReseedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseFailedIncrementalReseedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasefailedincrementalreseedexception(v=EXCHG.10)

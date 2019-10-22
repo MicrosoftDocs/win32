@@ -1,5 +1,5 @@
 ---
-title: Update.Save method (Byte , Int32, Int32) (Microsoft.Isam.Esent.Interop)
+title: Update.Save method (Byte , Int32, Int32)
 TOCTitle: Save method (Byte , Int32, Int32)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.Save(System.Byte[],System.Int32,System.Int32@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update.save(v=EXCHG.10)

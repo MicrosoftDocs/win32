@@ -1,5 +1,5 @@
 ---
-title: EsentDTCCallbackUnexpectedErrorException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDTCCallbackUnexpectedErrorException properties
 TOCTitle: EsentDTCCallbackUnexpectedErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtccallbackunexpectederrorexception_properties(v=EXCHG.10)

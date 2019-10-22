@@ -1,5 +1,5 @@
 ---
-title: SnapshotThawGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: SnapshotThawGrbit enumeration
 TOCTitle: SnapshotThawGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SnapshotThawGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.snapshotthawgrbit(v=EXCHG.10)

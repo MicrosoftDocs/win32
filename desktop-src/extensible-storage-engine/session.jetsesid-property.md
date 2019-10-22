@@ -1,5 +1,5 @@
 ---
-title: Session.JetSesid property  (Microsoft.Isam.Esent.Interop)
+title: Session.JetSesid property 
 TOCTitle: 'JetSesid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Session.JetSesid
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session.jetsesid(v=EXCHG.10)

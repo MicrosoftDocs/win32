@@ -1,5 +1,5 @@
 ---
-title: EsentResourceException class (Microsoft.Isam.Esent.Interop)
+title: EsentResourceException class
 TOCTitle: EsentResourceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentResourceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresourceexception(v=EXCHG.10)

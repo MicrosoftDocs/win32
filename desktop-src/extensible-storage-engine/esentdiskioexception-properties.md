@@ -1,5 +1,5 @@
 ---
-title: EsentDiskIOException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDiskIOException properties
 TOCTitle: EsentDiskIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDiskIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskioexception_properties(v=EXCHG.10)

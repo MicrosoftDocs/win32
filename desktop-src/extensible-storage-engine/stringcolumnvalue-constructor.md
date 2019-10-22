@@ -1,5 +1,5 @@
 ---
-title: StringColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: StringColumnValue constructor 
 TOCTitle: 'StringColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.StringColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.stringcolumnvalue.stringcolumnvalue(v=EXCHG.10)

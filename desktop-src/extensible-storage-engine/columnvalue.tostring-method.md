@@ -1,5 +1,5 @@
 ---
-title: ColumnValue.ToString method  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValue.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.tostring(v=EXCHG.10)

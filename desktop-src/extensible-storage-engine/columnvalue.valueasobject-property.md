@@ -1,5 +1,5 @@
 ---
-title: ColumnValue.ValueAsObject property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.ValueAsObject
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.valueasobject(v=EXCHG.10)

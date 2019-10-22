@@ -1,5 +1,5 @@
 ---
-title: JET_BKLOGTIME.Equals method (JET_BKLOGTIME) (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME.Equals method (JET_BKLOGTIME)
 TOCTitle: Equals method (JET_BKLOGTIME)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.Equals(Microsoft.Isam.Esent.Interop.JET_BKLOGTIME)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime.equals(v=EXCHG.10)

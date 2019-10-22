@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidOnSortException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidOnSortException members
 TOCTitle: EsentInvalidOnSortException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidonsortexception_members(v=EXCHG.10)

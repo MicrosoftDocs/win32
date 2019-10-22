@@ -1,5 +1,5 @@
 ---
-title: EsentCatalogCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCatalogCorruptedException constructor 
 TOCTitle: 'EsentCatalogCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCatalogCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcatalogcorruptedexception.esentcatalogcorruptedexception(v=EXCHG.10)

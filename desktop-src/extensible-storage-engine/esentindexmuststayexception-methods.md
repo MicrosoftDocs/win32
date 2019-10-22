@@ -1,5 +1,5 @@
 ---
-title: EsentIndexMustStayException methods (Microsoft.Isam.Esent.Interop)
+title: EsentIndexMustStayException methods
 TOCTitle: EsentIndexMustStayException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexMustStayException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexmuststayexception_methods(v=EXCHG.10)

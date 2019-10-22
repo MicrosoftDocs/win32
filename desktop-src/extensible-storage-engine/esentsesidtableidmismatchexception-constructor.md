@@ -1,5 +1,5 @@
 ---
-title: EsentSesidTableIdMismatchException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSesidTableIdMismatchException constructor 
 TOCTitle: 'EsentSesidTableIdMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsesidtableidmismatchexception.esentsesidtableidmismatchexception(v=EXCHG.10)

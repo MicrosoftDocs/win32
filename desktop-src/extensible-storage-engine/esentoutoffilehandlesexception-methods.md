@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfFileHandlesException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfFileHandlesException methods
 TOCTitle: EsentOutOfFileHandlesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutoffilehandlesexception_methods(v=EXCHG.10)

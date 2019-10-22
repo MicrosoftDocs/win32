@@ -1,5 +1,5 @@
 ---
-title: EsentLSCallbackNotSpecifiedException class (Microsoft.Isam.Esent.Interop)
+title: EsentLSCallbackNotSpecifiedException class
 TOCTitle: EsentLSCallbackNotSpecifiedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlscallbacknotspecifiedexception(v=EXCHG.10)

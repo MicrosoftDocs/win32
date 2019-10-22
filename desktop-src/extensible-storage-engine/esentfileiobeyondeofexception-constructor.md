@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOBeyondEOFException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOBeyondEOFException constructor 
 TOCTitle: 'EsentFileIOBeyondEOFException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiobeyondeofexception.esentfileiobeyondeofexception(v=EXCHG.10)

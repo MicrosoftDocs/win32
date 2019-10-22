@@ -1,5 +1,5 @@
 ---
-title: EsentSLVOwnerMapCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVOwnerMapCorruptedException constructor 
 TOCTitle: 'EsentSLVOwnerMapCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvownermapcorruptedexception.esentslvownermapcorruptedexception(v=EXCHG.10)

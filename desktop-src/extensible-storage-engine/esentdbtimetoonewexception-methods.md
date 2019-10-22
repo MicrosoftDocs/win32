@@ -1,5 +1,5 @@
 ---
-title: EsentDbTimeTooNewException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDbTimeTooNewException methods
 TOCTitle: EsentDbTimeTooNewException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdbtimetoonewexception_methods(v=EXCHG.10)

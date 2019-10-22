@@ -1,5 +1,5 @@
 ---
-title: EsentRedoAbruptEndedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRedoAbruptEndedException methods
 TOCTitle: EsentRedoAbruptEndedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentredoabruptendedexception_methods(v=EXCHG.10)

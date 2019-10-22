@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE class (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE class
 TOCTitle: JET_INDEXCREATE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate(v=EXCHG.10)

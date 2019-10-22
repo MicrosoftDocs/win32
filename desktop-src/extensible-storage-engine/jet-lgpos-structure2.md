@@ -1,5 +1,5 @@
 ---
-title: JET_LGPOS structure (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS structure
 TOCTitle: JET_LGPOS structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_LGPOS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos(v=EXCHG.10)

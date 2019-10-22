@@ -1,5 +1,5 @@
 ﻿---
-title: FloatColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: FloatColumnValue properties
 TOCTitle: FloatColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.FloatColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.floatcolumnvalue_properties(v=EXCHG.10)

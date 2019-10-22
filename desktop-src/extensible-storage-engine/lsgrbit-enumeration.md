@@ -1,5 +1,5 @@
 ---
-title: LsGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: LsGrbit enumeration
 TOCTitle: LsGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.LsGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.lsgrbit(v=EXCHG.10)

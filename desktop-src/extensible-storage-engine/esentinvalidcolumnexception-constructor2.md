@@ -1,5 +1,5 @@
 ﻿---
-title: EsentInvalidColumnException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidColumnException constructor 
 TOCTitle: 'EsentInvalidColumnException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcolumnexception.esentinvalidcolumnexception(v=EXCHG.10)

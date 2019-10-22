@@ -1,5 +1,5 @@
 ---
-title: EsentBufferTooSmallException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBufferTooSmallException methods
 TOCTitle: EsentBufferTooSmallException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbuffertoosmallexception_methods(v=EXCHG.10)

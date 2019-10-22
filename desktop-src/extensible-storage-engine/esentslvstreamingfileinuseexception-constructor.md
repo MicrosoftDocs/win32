@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileInUseException constructor 
 TOCTitle: 'EsentSLVStreamingFileInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfileinuseexception.esentslvstreamingfileinuseexception(v=EXCHG.10)

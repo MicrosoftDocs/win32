@@ -1,5 +1,5 @@
 ---
-title: EsentDisabledFunctionalityException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDisabledFunctionalityException methods
 TOCTitle: EsentDisabledFunctionalityException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdisabledfunctionalityexception_methods(v=EXCHG.10)

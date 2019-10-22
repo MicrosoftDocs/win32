@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE.szKey property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.szKey property 
 TOCTitle: 'szKey property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.szKey
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.szkey(v=EXCHG.10)

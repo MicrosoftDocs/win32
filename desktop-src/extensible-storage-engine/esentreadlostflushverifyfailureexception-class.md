@@ -1,5 +1,5 @@
 ---
-title: EsentReadLostFlushVerifyFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentReadLostFlushVerifyFailureException class
 TOCTitle: EsentReadLostFlushVerifyFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentReadLostFlushVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentreadlostflushverifyfailureexception(v=EXCHG.10)

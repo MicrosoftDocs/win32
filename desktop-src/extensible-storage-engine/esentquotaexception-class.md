@@ -1,5 +1,5 @@
 ---
-title: EsentQuotaException class (Microsoft.Isam.Esent.Interop)
+title: EsentQuotaException class
 TOCTitle: EsentQuotaException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentQuotaException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentquotaexception(v=EXCHG.10)

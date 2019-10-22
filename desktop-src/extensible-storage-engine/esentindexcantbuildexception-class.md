@@ -1,5 +1,5 @@
 ---
-title: EsentIndexCantBuildException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexCantBuildException class
 TOCTitle: EsentIndexCantBuildException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexcantbuildexception(v=EXCHG.10)

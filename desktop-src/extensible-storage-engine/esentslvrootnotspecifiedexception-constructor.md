@@ -1,5 +1,5 @@
 ---
-title: EsentSLVRootNotSpecifiedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootNotSpecifiedException constructor 
 TOCTitle: 'EsentSLVRootNotSpecifiedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootnotspecifiedexception.esentslvrootnotspecifiedexception(v=EXCHG.10)

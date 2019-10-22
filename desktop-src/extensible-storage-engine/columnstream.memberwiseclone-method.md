@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.MemberwiseClone method  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.MemberwiseClone method 
 TOCTitle: 'MemberwiseClone method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.ColumnStream.MemberwiseClone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.memberwiseclone(v=EXCHG.10)

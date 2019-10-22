@@ -1,5 +1,5 @@
 ---
-title: EsentSLVDatabaseMissingException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVDatabaseMissingException class
 TOCTitle: EsentSLVDatabaseMissingException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVDatabaseMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvdatabasemissingexception(v=EXCHG.10)

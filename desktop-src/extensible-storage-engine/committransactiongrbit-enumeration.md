@@ -1,5 +1,5 @@
 ---
-title: CommitTransactionGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: CommitTransactionGrbit enumeration
 TOCTitle: CommitTransactionGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CommitTransactionGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.committransactiongrbit(v=EXCHG.10)

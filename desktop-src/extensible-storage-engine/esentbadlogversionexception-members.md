@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogVersionException members (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogVersionException members
 TOCTitle: EsentBadLogVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogversionexception_members(v=EXCHG.10)

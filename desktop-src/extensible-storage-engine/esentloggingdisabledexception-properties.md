@@ -1,5 +1,5 @@
 ---
-title: EsentLoggingDisabledException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLoggingDisabledException properties
 TOCTitle: EsentLoggingDisabledException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentloggingdisabledexception_properties(v=EXCHG.10)

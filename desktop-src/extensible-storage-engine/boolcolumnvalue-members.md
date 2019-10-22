@@ -1,5 +1,5 @@
 ---
-title: BoolColumnValue members (Microsoft.Isam.Esent.Interop)
+title: BoolColumnValue members
 TOCTitle: BoolColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.BoolColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.boolcolumnvalue_members(v=EXCHG.10)

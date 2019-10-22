@@ -1,5 +1,5 @@
 ---
-title: EsentKeyIsMadeException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentKeyIsMadeException constructor 
 TOCTitle: 'EsentKeyIsMadeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyIsMadeException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeyismadeexception.esentkeyismadeexception(v=EXCHG.10)

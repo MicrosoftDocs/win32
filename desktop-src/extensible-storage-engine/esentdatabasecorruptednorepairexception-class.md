@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseCorruptedNoRepairException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseCorruptedNoRepairException class
 TOCTitle: EsentDatabaseCorruptedNoRepairException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptednorepairexception(v=EXCHG.10)

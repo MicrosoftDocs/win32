@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNBASE.szBaseTableName property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNBASE.szBaseTableName property 
 TOCTitle: 'szBaseTableName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseTableName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase.szbasetablename(v=EXCHG.10)

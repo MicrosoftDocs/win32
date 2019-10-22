@@ -1,5 +1,5 @@
 ---
-title: ColumnInfo.Cp property  (Microsoft.Isam.Esent.Interop)
+title: ColumnInfo.Cp property 
 TOCTitle: 'Cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Cp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo.cp(v=EXCHG.10)

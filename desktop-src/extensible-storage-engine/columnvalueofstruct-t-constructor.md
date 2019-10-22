@@ -1,5 +1,5 @@
 ---
-title: ColumnValueOfStruct(T) constructor  (Microsoft.Isam.Esent.Interop)
+title: ColumnValueOfStruct(T) constructor 
 TOCTitle: 'ColumnValueOfStruct(T) constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334175(v=EXCHG.10)

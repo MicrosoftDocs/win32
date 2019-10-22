@@ -1,5 +1,5 @@
 ---
-title: Int64ColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: Int64ColumnValue constructor 
 TOCTitle: 'Int64ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Int64ColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int64columnvalue.int64columnvalue(v=EXCHG.10)

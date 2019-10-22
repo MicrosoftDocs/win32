@@ -1,5 +1,5 @@
 ---
-title: EsentReadVerifyFailureException properties (Microsoft.Isam.Esent.Interop)
+title: EsentReadVerifyFailureException properties
 TOCTitle: EsentReadVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentreadverifyfailureexception_properties(v=EXCHG.10)

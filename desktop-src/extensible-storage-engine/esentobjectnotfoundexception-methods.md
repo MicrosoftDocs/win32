@@ -1,5 +1,5 @@
 ---
-title: EsentObjectNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentObjectNotFoundException methods
 TOCTitle: EsentObjectNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentobjectnotfoundexception_methods(v=EXCHG.10)

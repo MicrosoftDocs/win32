@@ -1,5 +1,5 @@
 ﻿---
-title: EsentDataException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDataException constructor 
 TOCTitle: 'EsentDataException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentDataException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdataexception.esentdataexception(v=EXCHG.10)

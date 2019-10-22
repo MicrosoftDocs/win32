@@ -1,5 +1,5 @@
 ---
-title: Table.ReleaseResource method  (Microsoft.Isam.Esent.Interop)
+title: Table.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.ReleaseResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.table.releaseresource(v=EXCHG.10)

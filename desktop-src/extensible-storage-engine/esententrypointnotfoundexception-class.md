@@ -1,5 +1,5 @@
 ---
-title: EsentEntryPointNotFoundException class (Microsoft.Isam.Esent.Interop)
+title: EsentEntryPointNotFoundException class
 TOCTitle: EsentEntryPointNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esententrypointnotfoundexception(v=EXCHG.10)

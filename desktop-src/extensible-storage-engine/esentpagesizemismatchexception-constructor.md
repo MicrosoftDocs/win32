@@ -1,5 +1,5 @@
 ---
-title: EsentPageSizeMismatchException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentPageSizeMismatchException constructor 
 TOCTitle: 'EsentPageSizeMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagesizemismatchexception.esentpagesizemismatchexception(v=EXCHG.10)

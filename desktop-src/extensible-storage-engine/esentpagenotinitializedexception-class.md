@@ -1,5 +1,5 @@
 ---
-title: EsentPageNotInitializedException class (Microsoft.Isam.Esent.Interop)
+title: EsentPageNotInitializedException class
 TOCTitle: EsentPageNotInitializedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagenotinitializedexception(v=EXCHG.10)

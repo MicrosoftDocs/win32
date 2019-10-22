@@ -1,5 +1,5 @@
 ---
-title: EsentAccessDeniedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentAccessDeniedException properties
 TOCTitle: EsentAccessDeniedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentAccessDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentaccessdeniedexception_properties(v=EXCHG.10)

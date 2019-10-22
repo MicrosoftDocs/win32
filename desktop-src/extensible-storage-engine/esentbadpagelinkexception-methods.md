@@ -1,5 +1,5 @@
 ---
-title: EsentBadPageLinkException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBadPageLinkException methods
 TOCTitle: EsentBadPageLinkException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadPageLinkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadpagelinkexception_methods(v=EXCHG.10)

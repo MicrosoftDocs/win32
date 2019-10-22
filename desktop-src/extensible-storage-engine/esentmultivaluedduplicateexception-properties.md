@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateException properties (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateException properties
 TOCTitle: EsentMultiValuedDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateexception_properties(v=EXCHG.10)

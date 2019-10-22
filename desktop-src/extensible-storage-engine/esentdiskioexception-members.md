@@ -1,5 +1,5 @@
 ---
-title: EsentDiskIOException members (Microsoft.Isam.Esent.Interop)
+title: EsentDiskIOException members
 TOCTitle: EsentDiskIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDiskIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskioexception_members(v=EXCHG.10)

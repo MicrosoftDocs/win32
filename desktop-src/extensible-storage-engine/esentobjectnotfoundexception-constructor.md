@@ -1,5 +1,5 @@
 ---
-title: EsentObjectNotFoundException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentObjectNotFoundException constructor 
 TOCTitle: 'EsentObjectNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentobjectnotfoundexception.esentobjectnotfoundexception(v=EXCHG.10)

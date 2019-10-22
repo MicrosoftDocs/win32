@@ -1,5 +1,5 @@
 ﻿---
-title: JET_DBINFOMISC properties (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC properties
 TOCTitle: JET_DBINFOMISC properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc_properties(v=EXCHG.10)

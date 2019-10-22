@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBookmarkException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBookmarkException class
 TOCTitle: EsentInvalidBookmarkException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbookmarkexception(v=EXCHG.10)

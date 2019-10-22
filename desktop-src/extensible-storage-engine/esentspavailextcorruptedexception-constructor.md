@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCorruptedException constructor 
 TOCTitle: 'EsentSPAvailExtCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcorruptedexception.esentspavailextcorruptedexception(v=EXCHG.10)

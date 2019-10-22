@@ -1,5 +1,5 @@
 ---
-title: EsentSessionSharingViolationException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSessionSharingViolationException constructor 
 TOCTitle: 'EsentSessionSharingViolationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessionsharingviolationexception.esentsessionsharingviolationexception(v=EXCHG.10)

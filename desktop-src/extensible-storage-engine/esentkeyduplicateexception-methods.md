@@ -1,5 +1,5 @@
 ---
-title: EsentKeyDuplicateException methods (Microsoft.Isam.Esent.Interop)
+title: EsentKeyDuplicateException methods
 TOCTitle: EsentKeyDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeyduplicateexception_methods(v=EXCHG.10)

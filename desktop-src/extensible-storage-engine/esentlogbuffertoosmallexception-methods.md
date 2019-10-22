@@ -1,5 +1,5 @@
 ---
-title: EsentLogBufferTooSmallException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogBufferTooSmallException methods
 TOCTitle: EsentLogBufferTooSmallException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogbuffertoosmallexception_methods(v=EXCHG.10)

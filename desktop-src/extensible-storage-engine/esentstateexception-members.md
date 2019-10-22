@@ -1,5 +1,5 @@
 ---
-title: EsentStateException members (Microsoft.Isam.Esent.Interop)
+title: EsentStateException members
 TOCTitle: EsentStateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstateexception_members(v=EXCHG.10)

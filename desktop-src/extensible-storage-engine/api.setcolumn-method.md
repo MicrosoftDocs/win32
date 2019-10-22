@@ -1,5 +1,5 @@
 ﻿---
-title: Api.SetColumn method  (Microsoft.Isam.Esent.Interop)
+title: Api.SetColumn method 
 TOCTitle: 'SetColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.SetColumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.setcolumn(v=EXCHG.10)

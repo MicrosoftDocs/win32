@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCacheOutOfMemoryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCacheOutOfMemoryException constructor 
 TOCTitle: 'EsentSPAvailExtCacheOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfMemoryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcacheoutofmemoryexception.esentspavailextcacheoutofmemoryexception(v=EXCHG.10)

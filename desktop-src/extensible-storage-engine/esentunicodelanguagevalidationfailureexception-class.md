@@ -1,5 +1,5 @@
 ---
-title: EsentUnicodeLanguageValidationFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeLanguageValidationFailureException class
 TOCTitle: EsentUnicodeLanguageValidationFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodelanguagevalidationfailureexception(v=EXCHG.10)

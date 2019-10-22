@@ -1,5 +1,5 @@
 ---
-title: InitGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: InitGrbit enumeration
 TOCTitle: InitGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.InitGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.initgrbit(v=EXCHG.10)

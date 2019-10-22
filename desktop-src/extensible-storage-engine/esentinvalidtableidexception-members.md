@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidTableIdException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidTableIdException members
 TOCTitle: EsentInvalidTableIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidtableidexception_members(v=EXCHG.10)

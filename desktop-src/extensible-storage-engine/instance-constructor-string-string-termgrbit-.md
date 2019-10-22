@@ -1,5 +1,5 @@
 ---
-title: Instance constructor (String, String, TermGrbit) (Microsoft.Isam.Esent.Interop)
+title: Instance constructor (String, String, TermGrbit)
 TOCTitle: Instance constructor (String, String, TermGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.#ctor(System.String,System.String,Microsoft.Isam.Esent.Interop.TermGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.instance(v=EXCHG.10)

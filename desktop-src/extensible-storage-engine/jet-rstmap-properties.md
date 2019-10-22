@@ -1,5 +1,5 @@
 ﻿---
-title: JET_RSTMAP properties (Microsoft.Isam.Esent.Interop)
+title: JET_RSTMAP properties
 TOCTitle: JET_RSTMAP properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RSTMAP
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstmap_properties(v=EXCHG.10)

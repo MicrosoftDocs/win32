@@ -1,5 +1,5 @@
 ---
-title: EsentStreamingDataNotLoggedException class (Microsoft.Isam.Esent.Interop)
+title: EsentStreamingDataNotLoggedException class
 TOCTitle: EsentStreamingDataNotLoggedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstreamingdatanotloggedexception(v=EXCHG.10)

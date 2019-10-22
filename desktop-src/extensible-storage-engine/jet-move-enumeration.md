@@ -1,5 +1,5 @@
 ---
-title: JET_Move enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_Move enumeration
 TOCTitle: JET_Move enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_Move
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_move(v=EXCHG.10)

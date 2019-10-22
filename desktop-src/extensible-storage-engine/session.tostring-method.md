@@ -1,5 +1,5 @@
 ---
-title: Session.ToString method  (Microsoft.Isam.Esent.Interop)
+title: Session.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session.tostring(v=EXCHG.10)

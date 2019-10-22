@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCountryException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCountryException class
 TOCTitle: EsentInvalidCountryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidCountryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcountryexception(v=EXCHG.10)

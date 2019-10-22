@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE.ulDensity property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.ulDensity property 
 TOCTitle: 'ulDensity property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.ulDensity
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.uldensity(v=EXCHG.10)

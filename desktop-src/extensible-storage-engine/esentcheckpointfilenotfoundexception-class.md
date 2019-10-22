@@ -1,5 +1,5 @@
 ---
-title: EsentCheckpointFileNotFoundException class (Microsoft.Isam.Esent.Interop)
+title: EsentCheckpointFileNotFoundException class
 TOCTitle: EsentCheckpointFileNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointfilenotfoundexception(v=EXCHG.10)

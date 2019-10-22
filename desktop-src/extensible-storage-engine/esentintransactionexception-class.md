@@ -1,5 +1,5 @@
 ---
-title: EsentInTransactionException class (Microsoft.Isam.Esent.Interop)
+title: EsentInTransactionException class
 TOCTitle: EsentInTransactionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInTransactionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentintransactionexception(v=EXCHG.10)

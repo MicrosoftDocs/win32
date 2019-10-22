@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.bkinfoFullCur property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.bkinfoFullCur property 
 TOCTitle: 'bkinfoFullCur property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoFullCur
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.bkinfofullcur(v=EXCHG.10)

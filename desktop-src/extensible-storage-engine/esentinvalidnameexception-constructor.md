@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidNameException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidNameException constructor 
 TOCTitle: 'EsentInvalidNameException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidNameException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidnameexception.esentinvalidnameexception(v=EXCHG.10)

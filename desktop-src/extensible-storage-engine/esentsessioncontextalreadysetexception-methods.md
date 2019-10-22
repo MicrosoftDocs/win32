@@ -1,5 +1,5 @@
 ---
-title: EsentSessionContextAlreadySetException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSessionContextAlreadySetException methods
 TOCTitle: EsentSessionContextAlreadySetException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioncontextalreadysetexception_methods(v=EXCHG.10)

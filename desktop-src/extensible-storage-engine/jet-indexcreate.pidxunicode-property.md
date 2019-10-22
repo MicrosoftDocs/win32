@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE.pidxUnicode property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.pidxUnicode property 
 TOCTitle: 'pidxUnicode property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.pidxUnicode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.pidxunicode(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSequenceException class (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSequenceException class
 TOCTitle: EsentOSSnapshotInvalidSequenceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsequenceexception(v=EXCHG.10)

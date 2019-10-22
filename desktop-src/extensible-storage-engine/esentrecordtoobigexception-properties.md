@@ -1,5 +1,5 @@
 ---
-title: EsentRecordTooBigException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigException properties
 TOCTitle: EsentRecordTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigexception_properties(v=EXCHG.10)

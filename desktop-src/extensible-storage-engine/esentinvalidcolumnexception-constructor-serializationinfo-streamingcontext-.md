@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext) (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcolumnexception.esentinvalidcolumnexception(v=EXCHG.10)

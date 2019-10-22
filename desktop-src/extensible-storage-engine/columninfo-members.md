@@ -1,5 +1,5 @@
 ---
-title: ColumnInfo members (Microsoft.Isam.Esent.Interop)
+title: ColumnInfo members
 TOCTitle: ColumnInfo members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo_members(v=EXCHG.10)

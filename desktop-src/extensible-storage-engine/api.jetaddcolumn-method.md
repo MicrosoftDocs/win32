@@ -1,5 +1,5 @@
 ---
-title: Api.JetAddColumn method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetAddColumn method 
 TOCTitle: 'JetAddColumn method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetAddColumn(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,Microsoft.Isam.Esent.Interop.JET_COLUMNDEF,System.Byte[],System.Int32,Microsoft.Isam.Esent.Interop.JET_COLUMNID@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetaddcolumn(v=EXCHG.10)

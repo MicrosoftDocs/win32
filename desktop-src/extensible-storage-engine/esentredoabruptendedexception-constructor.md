@@ -1,5 +1,5 @@
 ---
-title: EsentRedoAbruptEndedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRedoAbruptEndedException constructor 
 TOCTitle: 'EsentRedoAbruptEndedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentredoabruptendedexception.esentredoabruptendedexception(v=EXCHG.10)

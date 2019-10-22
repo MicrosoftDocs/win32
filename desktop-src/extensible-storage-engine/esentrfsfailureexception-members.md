@@ -1,5 +1,5 @@
 ---
-title: EsentRfsFailureException members (Microsoft.Isam.Esent.Interop)
+title: EsentRfsFailureException members
 TOCTitle: EsentRfsFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRfsFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrfsfailureexception_members(v=EXCHG.10)

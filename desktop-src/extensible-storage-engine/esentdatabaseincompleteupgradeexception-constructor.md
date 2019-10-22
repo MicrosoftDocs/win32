@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseIncompleteUpgradeException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseIncompleteUpgradeException constructor 
 TOCTitle: 'EsentDatabaseIncompleteUpgradeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteUpgradeException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseincompleteupgradeexception.esentdatabaseincompleteupgradeexception(v=EXCHG.10)

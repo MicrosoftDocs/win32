@@ -1,5 +1,5 @@
 ---
-title: EsentRecoveredWithoutUndoDatabasesConsistentException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithoutUndoDatabasesConsistentException methods
 TOCTitle: EsentRecoveredWithoutUndoDatabasesConsistentException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwithoutundodatabasesconsistentexception_methods(v=EXCHG.10)

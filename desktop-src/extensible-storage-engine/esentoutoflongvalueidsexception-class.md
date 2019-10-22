@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfLongValueIDsException class (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfLongValueIDsException class
 TOCTitle: EsentOutOfLongValueIDsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutoflongvalueidsexception(v=EXCHG.10)

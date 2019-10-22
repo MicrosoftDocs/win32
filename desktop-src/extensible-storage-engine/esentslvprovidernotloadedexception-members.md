@@ -1,5 +1,5 @@
 ---
-title: EsentSLVProviderNotLoadedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVProviderNotLoadedException members
 TOCTitle: EsentSLVProviderNotLoadedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvprovidernotloadedexception_members(v=EXCHG.10)

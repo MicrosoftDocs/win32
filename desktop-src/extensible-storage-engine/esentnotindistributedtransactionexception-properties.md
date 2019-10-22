@@ -1,5 +1,5 @@
 ---
-title: EsentNotInDistributedTransactionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentNotInDistributedTransactionException properties
 TOCTitle: EsentNotInDistributedTransactionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnotindistributedtransactionexception_properties(v=EXCHG.10)

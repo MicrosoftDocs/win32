@@ -1,5 +1,5 @@
 ---
-title: EsentStopwatch.Stop method  (Microsoft.Isam.Esent.Interop)
+title: EsentStopwatch.Stop method 
 TOCTitle: 'Stop method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.Stop
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstopwatch.stop(v=EXCHG.10)

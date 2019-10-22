@@ -1,5 +1,5 @@
 ---
-title: EsentStopwatch members (Microsoft.Isam.Esent.Interop)
+title: EsentStopwatch members
 TOCTitle: EsentStopwatch members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStopwatch
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstopwatch_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentRecoveredWithErrorsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithErrorsException methods
 TOCTitle: EsentRecoveredWithErrorsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwitherrorsexception_methods(v=EXCHG.10)

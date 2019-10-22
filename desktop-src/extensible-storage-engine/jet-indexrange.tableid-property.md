@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXRANGE.tableid property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXRANGE.tableid property 
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.tableid
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexrange.tableid(v=EXCHG.10)

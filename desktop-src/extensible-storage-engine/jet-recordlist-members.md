@@ -1,5 +1,5 @@
 ---
-title: JET_RECORDLIST members (Microsoft.Isam.Esent.Interop)
+title: JET_RECORDLIST members
 TOCTitle: JET_RECORDLIST members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recordlist_members(v=EXCHG.10)

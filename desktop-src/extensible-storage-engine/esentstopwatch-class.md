@@ -1,5 +1,5 @@
 ---
-title: EsentStopwatch class (Microsoft.Isam.Esent.Interop)
+title: EsentStopwatch class
 TOCTitle: EsentStopwatch class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentStopwatch
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstopwatch(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfSessionsException class (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSessionsException class
 TOCTitle: EsentOutOfSessionsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsessionsexception(v=EXCHG.10)

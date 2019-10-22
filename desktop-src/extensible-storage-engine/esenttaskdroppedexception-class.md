@@ -1,5 +1,5 @@
 ---
-title: EsentTaskDroppedException class (Microsoft.Isam.Esent.Interop)
+title: EsentTaskDroppedException class
 TOCTitle: EsentTaskDroppedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTaskDroppedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttaskdroppedexception(v=EXCHG.10)

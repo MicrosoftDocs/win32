@@ -1,5 +1,5 @@
 ---
-title: JET_UNICODEINDEX.ContentEquals method  (Microsoft.Isam.Esent.Interop)
+title: JET_UNICODEINDEX.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.ContentEquals(Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_unicodeindex.contentequals(v=EXCHG.10)

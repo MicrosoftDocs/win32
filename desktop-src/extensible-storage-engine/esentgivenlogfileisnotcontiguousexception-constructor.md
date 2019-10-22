@@ -1,5 +1,5 @@
 ---
-title: EsentGivenLogFileIsNotContiguousException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentGivenLogFileIsNotContiguousException constructor 
 TOCTitle: 'EsentGivenLogFileIsNotContiguousException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentgivenlogfileisnotcontiguousexception.esentgivenlogfileisnotcontiguousexception(v=EXCHG.10)

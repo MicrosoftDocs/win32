@@ -1,5 +1,5 @@
 ---
-title: EsentRecordFormatConversionFailedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecordFormatConversionFailedException constructor 
 TOCTitle: 'EsentRecordFormatConversionFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordformatconversionfailedexception.esentrecordformatconversionfailedexception(v=EXCHG.10)

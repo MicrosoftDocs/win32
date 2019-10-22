@@ -1,5 +1,5 @@
 ---
-title: OpenDatabaseGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: OpenDatabaseGrbit enumeration
 TOCTitle: OpenDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.OpenDatabaseGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.opendatabasegrbit(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentPageNotInitializedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentPageNotInitializedException methods
 TOCTitle: EsentPageNotInitializedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagenotinitializedexception_methods(v=EXCHG.10)

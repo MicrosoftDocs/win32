@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.logtimeConsistent property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.logtimeConsistent property 
 TOCTitle: 'logtimeConsistent property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeConsistent
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.logtimeconsistent(v=EXCHG.10)

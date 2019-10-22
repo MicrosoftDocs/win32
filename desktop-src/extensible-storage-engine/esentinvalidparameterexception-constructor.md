@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidParameterException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidParameterException constructor 
 TOCTitle: 'EsentInvalidParameterException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidparameterexception.esentinvalidparameterexception(v=EXCHG.10)

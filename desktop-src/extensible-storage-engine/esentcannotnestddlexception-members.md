@@ -1,5 +1,5 @@
 ---
-title: EsentCannotNestDDLException members (Microsoft.Isam.Esent.Interop)
+title: EsentCannotNestDDLException members
 TOCTitle: EsentCannotNestDDLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotnestddlexception_members(v=EXCHG.10)

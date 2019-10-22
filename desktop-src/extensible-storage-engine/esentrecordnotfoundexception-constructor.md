@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotFoundException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotFoundException constructor 
 TOCTitle: 'EsentRecordNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotfoundexception.esentrecordnotfoundexception(v=EXCHG.10)

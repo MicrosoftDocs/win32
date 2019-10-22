@@ -1,5 +1,5 @@
 ---
-title: EsentAccessDeniedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentAccessDeniedException methods
 TOCTitle: EsentAccessDeniedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentAccessDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentaccessdeniedexception_methods(v=EXCHG.10)

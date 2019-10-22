@@ -1,5 +1,5 @@
 ---
-title: JET_TABLECREATE.cbSeparateLV property  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE.cbSeparateLV property 
 TOCTitle: 'cbSeparateLV property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cbSeparateLV
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.cbseparatelv(v=EXCHG.10)

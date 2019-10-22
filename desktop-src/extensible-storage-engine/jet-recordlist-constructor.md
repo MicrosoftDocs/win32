@@ -1,5 +1,5 @@
 ---
-title: JET_RECORDLIST constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_RECORDLIST constructor 
 TOCTitle: 'JET_RECORDLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECORDLIST.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recordlist.jet_recordlist(v=EXCHG.10)

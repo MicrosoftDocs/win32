@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidSystemPathException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSystemPathException members
 TOCTitle: EsentInvalidSystemPathException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsystempathexception_members(v=EXCHG.10)

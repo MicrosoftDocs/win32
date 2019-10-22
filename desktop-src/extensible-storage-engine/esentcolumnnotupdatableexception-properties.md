@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNotUpdatableException properties (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNotUpdatableException properties
 TOCTitle: EsentColumnNotUpdatableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnotupdatableexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSpaceHintsInvalidException class (Microsoft.Isam.Esent.Interop)
+title: EsentSpaceHintsInvalidException class
 TOCTitle: EsentSpaceHintsInvalidException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspacehintsinvalidexception(v=EXCHG.10)

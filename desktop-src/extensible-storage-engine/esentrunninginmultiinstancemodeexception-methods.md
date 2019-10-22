@@ -1,5 +1,5 @@
 ---
-title: EsentRunningInMultiInstanceModeException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRunningInMultiInstanceModeException methods
 TOCTitle: EsentRunningInMultiInstanceModeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrunninginmultiinstancemodeexception_methods(v=EXCHG.10)

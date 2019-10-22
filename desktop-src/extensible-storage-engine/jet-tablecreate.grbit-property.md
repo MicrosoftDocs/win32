@@ -1,5 +1,5 @@
 ---
-title: JET_TABLECREATE.grbit property  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.grbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.grbit(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidColumnException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidColumnException members
 TOCTitle: EsentInvalidColumnException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcolumnexception_members(v=EXCHG.10)

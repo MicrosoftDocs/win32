@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLCMapStringFlagsException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLCMapStringFlagsException members
 TOCTitle: EsentInvalidLCMapStringFlagsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlcmapstringflagsexception_members(v=EXCHG.10)

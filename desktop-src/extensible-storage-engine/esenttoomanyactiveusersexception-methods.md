@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyActiveUsersException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyActiveUsersException methods
 TOCTitle: EsentTooManyActiveUsersException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyActiveUsersException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyactiveusersexception_methods(v=EXCHG.10)

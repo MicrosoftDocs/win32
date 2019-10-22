@@ -1,5 +1,5 @@
 ---
-title: EsentNullInvalidException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNullInvalidException constructor 
 TOCTitle: 'EsentNullInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNullInvalidException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnullinvalidexception.esentnullinvalidexception(v=EXCHG.10)

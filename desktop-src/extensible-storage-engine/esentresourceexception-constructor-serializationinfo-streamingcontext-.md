@@ -1,5 +1,5 @@
 ---
-title: EsentResourceException constructor (SerializationInfo, StreamingContext) (Microsoft.Isam.Esent.Interop)
+title: EsentResourceException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentResourceException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResourceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresourceexception.esentresourceexception(v=EXCHG.10)

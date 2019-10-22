@@ -1,5 +1,5 @@
 ---
-title: JET_OBJECTLIST.columnidobjtyp property  (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTLIST.columnidobjtyp property 
 TOCTitle: 'columnidobjtyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidobjtyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectlist.columnidobjtyp(v=EXCHG.10)

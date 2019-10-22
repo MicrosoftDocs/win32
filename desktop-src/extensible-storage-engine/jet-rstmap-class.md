@@ -1,5 +1,5 @@
 ---
-title: JET_RSTMAP class (Microsoft.Isam.Esent.Interop)
+title: JET_RSTMAP class
 TOCTitle: JET_RSTMAP class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RSTMAP
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstmap(v=EXCHG.10)

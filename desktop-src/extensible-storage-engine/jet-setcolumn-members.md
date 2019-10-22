@@ -1,5 +1,5 @@
 ---
-title: JET_SETCOLUMN members (Microsoft.Isam.Esent.Interop)
+title: JET_SETCOLUMN members
 TOCTitle: JET_SETCOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setcolumn_members(v=EXCHG.10)

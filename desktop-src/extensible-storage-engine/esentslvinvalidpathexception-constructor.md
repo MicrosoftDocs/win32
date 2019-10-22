@@ -1,5 +1,5 @@
 ---
-title: EsentSLVInvalidPathException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVInvalidPathException constructor 
 TOCTitle: 'EsentSLVInvalidPathException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVInvalidPathException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvinvalidpathexception.esentslvinvalidpathexception(v=EXCHG.10)

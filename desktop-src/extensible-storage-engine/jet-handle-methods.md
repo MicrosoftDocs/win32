@@ -1,5 +1,5 @@
 ---
-title: JET_HANDLE methods (Microsoft.Isam.Esent.Interop)
+title: JET_HANDLE methods
 TOCTitle: JET_HANDLE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_HANDLE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidPrereadException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidPrereadException constructor 
 TOCTitle: 'EsentInvalidPrereadException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidPrereadException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidprereadexception.esentinvalidprereadexception(v=EXCHG.10)

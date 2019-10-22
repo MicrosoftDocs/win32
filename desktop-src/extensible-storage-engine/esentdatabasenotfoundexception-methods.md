@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseNotFoundException methods
 TOCTitle: EsentDatabaseNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasenotfoundexception_methods(v=EXCHG.10)

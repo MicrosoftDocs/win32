@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileAccessDeniedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileAccessDeniedException members
 TOCTitle: EsentSLVFileAccessDeniedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileaccessdeniedexception_members(v=EXCHG.10)

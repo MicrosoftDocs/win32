@@ -1,5 +1,5 @@
 ---
-title: EsentDefaultValueTooBigException members (Microsoft.Isam.Esent.Interop)
+title: EsentDefaultValueTooBigException members
 TOCTitle: EsentDefaultValueTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdefaultvaluetoobigexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInvalidPathException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidPathException constructor 
 TOCTitle: 'EsentDatabaseInvalidPathException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPathException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidpathexception.esentdatabaseinvalidpathexception(v=EXCHG.10)

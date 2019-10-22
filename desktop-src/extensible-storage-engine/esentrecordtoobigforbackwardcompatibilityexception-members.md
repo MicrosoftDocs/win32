@@ -1,5 +1,5 @@
 ---
-title: EsentRecordTooBigForBackwardCompatibilityException members (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigForBackwardCompatibilityException members
 TOCTitle: EsentRecordTooBigForBackwardCompatibilityException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigforbackwardcompatibilityexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVRootNotSpecifiedException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootNotSpecifiedException class
 TOCTitle: EsentSLVRootNotSpecifiedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootnotspecifiedexception(v=EXCHG.10)

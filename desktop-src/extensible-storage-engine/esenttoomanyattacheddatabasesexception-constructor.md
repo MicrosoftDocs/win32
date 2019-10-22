@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyAttachedDatabasesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyAttachedDatabasesException constructor 
 TOCTitle: 'EsentTooManyAttachedDatabasesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyAttachedDatabasesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyattacheddatabasesexception.esenttoomanyattacheddatabasesexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ﻿---
-title: Api.GetTableIndexes method  (Microsoft.Isam.Esent.Interop)
+title: Api.GetTableIndexes method 
 TOCTitle: 'GetTableIndexes method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.GetTableIndexes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.gettableindexes(v=EXCHG.10)

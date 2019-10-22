@@ -1,5 +1,5 @@
 ---
-title: EsentDensityInvalidException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDensityInvalidException methods
 TOCTitle: EsentDensityInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdensityinvalidexception_methods(v=EXCHG.10)

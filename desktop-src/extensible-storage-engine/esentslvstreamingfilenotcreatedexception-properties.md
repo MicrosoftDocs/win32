@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileNotCreatedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileNotCreatedException properties
 TOCTitle: EsentSLVStreamingFileNotCreatedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileNotCreatedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilenotcreatedexception_properties(v=EXCHG.10)

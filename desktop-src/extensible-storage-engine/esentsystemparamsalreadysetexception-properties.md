@@ -1,5 +1,5 @@
 ---
-title: EsentSystemParamsAlreadySetException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSystemParamsAlreadySetException properties
 TOCTitle: EsentSystemParamsAlreadySetException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSystemParamsAlreadySetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsystemparamsalreadysetexception_properties(v=EXCHG.10)

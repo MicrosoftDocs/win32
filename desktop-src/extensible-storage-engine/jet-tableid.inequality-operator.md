@@ -1,5 +1,5 @@
 ---
-title: JET_TABLEID.Inequality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLEID.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.op_Inequality(Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tableid.op_inequality(v=EXCHG.10)

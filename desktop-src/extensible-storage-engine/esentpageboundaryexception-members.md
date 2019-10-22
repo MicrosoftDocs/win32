@@ -1,5 +1,5 @@
 ---
-title: EsentPageBoundaryException members (Microsoft.Isam.Esent.Interop)
+title: EsentPageBoundaryException members
 TOCTitle: EsentPageBoundaryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpageboundaryexception_members(v=EXCHG.10)

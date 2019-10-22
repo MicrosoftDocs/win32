@@ -1,5 +1,5 @@
 ---
-title: EsentBadParentPageLinkException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadParentPageLinkException class
 TOCTitle: EsentBadParentPageLinkException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadParentPageLinkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadparentpagelinkexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfDatabaseSpaceException members (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfDatabaseSpaceException members
 TOCTitle: EsentOutOfDatabaseSpaceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofdatabasespaceexception_members(v=EXCHG.10)

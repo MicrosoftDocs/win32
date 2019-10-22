@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.EventLoggingLevel property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.EventLoggingLevel property 
 TOCTitle: 'EventLoggingLevel property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.EventLoggingLevel
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.eventlogginglevel(v=EXCHG.10)

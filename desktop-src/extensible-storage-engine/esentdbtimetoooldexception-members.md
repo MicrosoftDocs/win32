@@ -1,5 +1,5 @@
 ---
-title: EsentDbTimeTooOldException members (Microsoft.Isam.Esent.Interop)
+title: EsentDbTimeTooOldException members
 TOCTitle: EsentDbTimeTooOldException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdbtimetoooldexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Api.JetOSSnapshotPrepare method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetOSSnapshotPrepare method 
 TOCTitle: 'JetOSSnapshotPrepare method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOSSnapshotPrepare(Microsoft.Isam.Esent.Interop.JET_OSSNAPID@,Microsoft.Isam.Esent.Interop.SnapshotPrepareGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetossnapshotprepare(v=EXCHG.10)

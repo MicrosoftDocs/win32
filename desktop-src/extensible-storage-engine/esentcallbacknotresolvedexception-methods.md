@@ -1,5 +1,5 @@
 ---
-title: EsentCallbackNotResolvedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentCallbackNotResolvedException methods
 TOCTitle: EsentCallbackNotResolvedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCallbackNotResolvedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcallbacknotresolvedexception_methods(v=EXCHG.10)

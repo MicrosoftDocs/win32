@@ -1,5 +1,5 @@
 ---
-title: EsentDatabase200FormatException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabase200FormatException members
 TOCTitle: EsentDatabase200FormatException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase200formatexception_members(v=EXCHG.10)

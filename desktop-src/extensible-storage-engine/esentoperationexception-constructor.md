@@ -1,5 +1,5 @@
 ﻿---
-title: EsentOperationException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOperationException constructor 
 TOCTitle: 'EsentOperationException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentOperationException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoperationexception.esentoperationexception(v=EXCHG.10)

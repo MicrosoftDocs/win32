@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE.pSpaceHints property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.pSpaceHints property 
 TOCTitle: 'pSpaceHints property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.pSpaceHints
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.pspacehints(v=EXCHG.10)

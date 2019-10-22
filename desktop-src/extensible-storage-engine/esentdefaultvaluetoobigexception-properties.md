@@ -1,5 +1,5 @@
 ---
-title: EsentDefaultValueTooBigException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDefaultValueTooBigException properties
 TOCTitle: EsentDefaultValueTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdefaultvaluetoobigexception_properties(v=EXCHG.10)

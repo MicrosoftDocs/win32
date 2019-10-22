@@ -1,5 +1,5 @@
 ---
-title: EsentMustBeSeparateLongValueException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentMustBeSeparateLongValueException constructor 
 TOCTitle: 'EsentMustBeSeparateLongValueException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustbeseparatelongvalueexception.esentmustbeseparatelongvalueexception(v=EXCHG.10)

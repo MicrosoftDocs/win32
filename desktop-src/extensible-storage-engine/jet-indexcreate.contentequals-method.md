@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXCREATE.ContentEquals method  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.ContentEquals(Microsoft.Isam.Esent.Interop.JET_INDEXCREATE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.contentequals(v=EXCHG.10)

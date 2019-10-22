@@ -1,5 +1,5 @@
 ---
-title: EsentFileAccessDeniedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFileAccessDeniedException constructor 
 TOCTitle: 'EsentFileAccessDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileaccessdeniedexception.esentfileaccessdeniedexception(v=EXCHG.10)

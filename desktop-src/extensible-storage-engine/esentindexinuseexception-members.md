@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInUseException members (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInUseException members
 TOCTitle: EsentIndexInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinuseexception_members(v=EXCHG.10)

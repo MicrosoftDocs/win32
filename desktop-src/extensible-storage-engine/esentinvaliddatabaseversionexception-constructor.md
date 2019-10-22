@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidDatabaseVersionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidDatabaseVersionException constructor 
 TOCTitle: 'EsentInvalidDatabaseVersionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvaliddatabaseversionexception.esentinvaliddatabaseversionexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_BKLOGTIME structure (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME structure
 TOCTitle: JET_BKLOGTIME structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentCommittedLogFileCorruptException members (Microsoft.Isam.Esent.Interop)
+title: EsentCommittedLogFileCorruptException members
 TOCTitle: EsentCommittedLogFileCorruptException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFileCorruptException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcommittedlogfilecorruptexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: DateTimeColumnValue members (Microsoft.Isam.Esent.Interop)
+title: DateTimeColumnValue members
 TOCTitle: DateTimeColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.DateTimeColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.datetimecolumnvalue_members(v=EXCHG.10)

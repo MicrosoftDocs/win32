@@ -1,5 +1,5 @@
 ---
-title: EsentPermissionDeniedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentPermissionDeniedException constructor 
 TOCTitle: 'EsentPermissionDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpermissiondeniedexception.esentpermissiondeniedexception(v=EXCHG.10)

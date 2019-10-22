@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.ulECCFixFailOld property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.ulECCFixFailOld property 
 TOCTitle: 'ulECCFixFailOld property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulECCFixFailOld
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.uleccfixfailold(v=EXCHG.10)

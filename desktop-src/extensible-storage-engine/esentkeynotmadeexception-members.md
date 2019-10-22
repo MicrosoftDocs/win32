@@ -1,5 +1,5 @@
 ---
-title: EsentKeyNotMadeException members (Microsoft.Isam.Esent.Interop)
+title: EsentKeyNotMadeException members
 TOCTitle: EsentKeyNotMadeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyNotMadeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeynotmadeexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentResource.ResourceWasAllocated method  (Microsoft.Isam.Esent.Interop)
+title: EsentResource.ResourceWasAllocated method 
 TOCTitle: 'ResourceWasAllocated method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.ResourceWasAllocated
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.resourcewasallocated(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseLeakInSpaceException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseLeakInSpaceException class
 TOCTitle: EsentDatabaseLeakInSpaceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseleakinspaceexception(v=EXCHG.10)
