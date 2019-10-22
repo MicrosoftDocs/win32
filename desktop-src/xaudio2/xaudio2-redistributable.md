@@ -8,7 +8,7 @@ ms.date: 10/17/2019
 
 # Developer guide for redistributable version of XAudio 2.9
 
-A version of XAudio 2.9 is available as a [NuGet package](https://www.nuget.org/). Developers can redistribute this version of XAudio 2.9 with their apps. This allows an app to use XAudio 2.9 on older versions of Windows that do no not include XAudio 2.9 as part of the operating system image. Use of this redistributable is preferred over redistributing XAudio 2.7 from the DirectX SDK, as XAudio 2.7 has not been updated since 2010.
+A version of XAudio 2.9 is available as a [NuGet package](/nuget/what-is-nuget). Developers can redistribute this version of XAudio 2.9 with their apps. This allows an app to use XAudio 2.9 on older versions of Windows that do no not include XAudio 2.9 as part of the operating system image. Use of this redistributable is preferred over redistributing XAudio 2.7 from the DirectX SDK, as XAudio 2.7 has not been updated since 2010.
 
 # Supported platforms
 
@@ -22,7 +22,7 @@ The DLL is not intended for UWP apps. UWP apps should use the XAUDIO2\_9.DLL tha
 
 # Installing the NuGet package
 
-The easiest way to install the NuGet package is to use the NuGet Package Manager in Microsoft Visual Studio. If you do this, your Visual Studio project file will be automatically updated to include *Microsoft.Direct3D.XAudio2Win7.targets*. The *.targets* file adds the Include folder with the header files for the XAudio2 to your collection of project include paths. The *.targets* file will also make your .DLL or .EXE link with XAUDIO2WIN7.LIB and XAPOBASEWIN7.LIB.
+The easiest way to install the NuGet package is to use the [NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in Microsoft Visual Studio. If you do this, your Visual Studio project file will be automatically updated to include *Microsoft.Direct3D.XAudio2Win7.targets*. The *.targets* file adds the Include folder with the header files for the XAudio2 to your collection of project include paths. The *.targets* file will also make your .DLL or .EXE link with XAUDIO2WIN7.LIB and XAPOBASEWIN7.LIB.
 
 The library XAPOBASEWIN7.LIB is only needed if you intend to impement a custom XAudio Processing Object (XAPO) and you can remove it from the *Microsoft.Direct3D.XAudio2Win7.targets* if it is unused.
 
