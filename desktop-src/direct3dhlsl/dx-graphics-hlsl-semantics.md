@@ -70,18 +70,6 @@ A semantic is a string attached to a shader input or output that conveys informa
 
 In general, data passed between pipeline stages is completely generic and is not uniquely interpreted by the system; arbitrary semantics are allowed which have no special meaning. Parameters (in Direct3D 10 and later) which contain these special semantics are referred to as [System-Value Semantics](#system-value-semantics).
 
--   [Semantics Supported in Direct3D 9 and Direct3D 10 and later](#semantics-supported-in-direct3d-9-and-direct3d-10-and-later)
-    -   [Vertex Shader Semantics](#vertex-shader-semantics)
-    -   [Pixel Shader Semantics](#pixel-shader-semantics)
--   [Semantics Supported Only for Direct3D 10 and Newer.](#semantics-supported-only-for-direct3d-10-and-newer)
-    -   [System-Value Semantics](#system-value-semantics)
--   [Migration from Direct3D 9 to Direct3D 10 and later](#migration-from-direct3d-9-to-direct3d-10-and-later)
-    -   [Mapping to Direct3D 9 Semantics](#mapping-to-direct3d-9-semantics)
-    -   [Direct3D 9 VPOS and Direct3D 10 SV\_Position](#direct3d-9-vpos-and-direct3d-10-sv_position)
-    -   [User clip planes in HLSL](#user-clip-planes-in-hlsl)
--   [Double Binding Semantics](#double-binding-semantics)
--   [Related topics](#related-topics)
-
 ## Semantics Supported in Direct3D 9 and Direct3D 10 and later
 
 The following types of semantics are supported in both Direct3D 9 and Direct3D 10 and later.
@@ -115,17 +103,11 @@ These semantics have meaning when attached to a vertex-shader parameter. These s
 | TESSFACTOR\[n\]   | Tessellation factor                                                                                                                                                     | float  |
 | TEXCOORD\[n\]     | Texture coordinates                                                                                                                                                     | float4 |
 
-
-
- 
-
-n is an optional integer between 0 and the number of resources supported. For example, POSITION0, TEXCOOR1, etc.
+`n` is an optional integer between 0 and the number of resources supported. For example, POSITION0, TEXCOOR1, etc.
 
 ### Pixel Shader Semantics
 
 These semantics have meaning when attached to a pixel-shader input parameter. These semantics are supported in both Direct3D 9 and Direct3D 10 and later.
-
-
 
 <table>
 <colgroup>
@@ -184,11 +166,7 @@ This semantic is available in <a href="dx-graphics-hlsl-sm3.md">Direct3D 9 Shade
 </tbody>
 </table>
 
-
-
- 
-
-n is an optional integer between 0 and the number of resources supported. For example, PSIZE0, COLOR1, etc.
+`n` is an optional integer between 0 and the number of resources supported. For example, PSIZE0, COLOR1, etc.
 
 The COLOR semantic is only valid in shader compatibility mode (that is, when the shader is created using D3D10\_SHADER\_ENABLE\_BACKWARDS\_COMPATIBILITY).
 
@@ -266,8 +244,6 @@ The following issues should be considered when migrating code from Direct3D 9 to
 
 A few of the Direct3D 10 and later semantics map directly to Direct3D 9 semantics.
 
-
-
 | Direct3D 10 Semantic | Direct3D 9 Equivalent Semantic |
 |----------------------|--------------------------------|
 | SV\_Depth            | DEPTH                          |
@@ -284,9 +260,9 @@ A few of the Direct3D 10 and later semantics map directly to Direct3D 9 semantic
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Note to Direct3D 9 developers: For Direct3D 9 targets, shader semantics must map to valid Direct3D 9 semantics. For backwards compatibility POSITION0 (and its variant names) is treated as SV\_Position, COLOR is treated as SV\_TARGET.<br/> |
 
-
-
- 
+    -   [Mapping to Direct3D 9 Semantics](#mapping-to-direct3d-9-semantics)
+    -   [Direct3D 9 VPOS and Direct3D 10 SV\_Position](#direct3d-9-vpos-and-direct3d-10-sv_position)
+    -   [User clip planes in HLSL](#user-clip-planes-in-hlsl)
 
 ### Direct3D 9 VPOS and Direct3D 10 SV\_Position
 
