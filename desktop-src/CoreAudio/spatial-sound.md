@@ -77,7 +77,7 @@ For Universal Windows Platform apps running on Xbox One game consoles, realtime 
 | Format | Max Static Objects (Channel Bed) | Max Dynamic Objects |
 |:------:|:------:|:------:|
 | Dolby Atmos (HDMI) | 12 (7.1.4) | 20 |
-| Dolby Atmos for Headphones | 16 (7.1.4.4) | 16 |
+| Dolby Atmos (Headphones) | 16 (7.1.4.4) | 16 |
 | Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 112 |
 
 #### HoloLens 2 (Hardware)
