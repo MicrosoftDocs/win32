@@ -1,5 +1,5 @@
 ---
-Description: Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox and Windows, enabling both surround and elevation (above or below the listener) audio cues.
+Description: Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox, Windows and HoloLens 2, enabling both surround and elevation (above or below the listener) audio cues.
 ms.assetid: 4F962F1A-CA4A-4018-BA97-516EA3519650
 title: Spatial Sound
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Spatial Sound
 
-Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox and Windows, enabling both surround and elevation (above or below the listener) audio cues. Spatial sound can be leveraged by Windows desktop (Win32) apps as well as Universal Windows Platform (UWP) apps on both Windows and Xbox One. The spatial sound APIs allow developers to create audio objects that emit audio from positions in 3D space. Dynamic audio objects allow you to emit audio from an arbitrary position in space, which can change over time. You can also specify that audio objects emit sound from one of 17 pre-defined static channels (8.1.4.4) that can represent real or virtualized speakers. The actual output format is selected by the user, and can be abstracted from Windows Sonic implementations; audio will be presented to existing speakers, headphones, and home theater receivers without needing any code or content changes. The platform fully supports real-time Dolby Atmos encoding for both HDMI and stereo headphone output, as well as Windows Sonic for Headphones encoding for stereo headphones. Finally, Windows Sonic apps abide by the system mixing policy, and their audio will also be mixed with non-spatially aware apps. Windows Sonic support is also integrated into Media Foundation; apps that use media foundation can successfully play Dolby Atmos content with no additional implementation.
+Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox, Windows and HoloLens 2, enabling both surround and elevation (above or below the listener) audio cues. Spatial sound can be leveraged by Windows desktop (Win32) apps as well as Universal Windows Platform (UWP) apps on the supported platforms. The spatial sound APIs allow developers to create audio objects that emit audio from positions in 3D space. Dynamic audio objects allow you to emit audio from an arbitrary position in space, which can change over time. You can also specify that audio objects emit sound from one of 17 pre-defined static channels (8.1.4.4) that can represent real or virtualized speakers. The actual output format is selected by the user, and can be abstracted from Windows Sonic implementations; audio will be presented to existing speakers, headphones, and home theater receivers without needing any code or content changes. The platform fully supports real-time Dolby Atmos encoding for both HDMI and stereo headphone output, as well as Windows Sonic for Headphones encoding for stereo headphones. Finally, Windows Sonic apps abide by the system mixing policy, and their audio will also be mixed with non-spatially aware apps. Windows Sonic support is also integrated into Media Foundation; apps that use media foundation can successfully play Dolby Atmos content with no additional implementation.
 
 Spatial sound with Windows Sonic supports TVs, home theaters, and sound bars that support Dolby Atmos. Spatial sound can also be used with any pair of headphones the consumer may own, with audio rendered by the platform using Windows Sonic for Headphones or Dolby Atmos for Headphones.
 
@@ -33,6 +33,10 @@ Dolby Atmos for home theater is listed as a “Bitstream format” option only w
 The “Turn on 7.1 virtual surround sound” (Windows) or “Use virtual surround in apps” (Xbox) checkbox allows all existing applications that were capable of rendering to 5.1 or 7.1 channel formats to now treat headphones as a virtual 7.1 device. Content that previously would have only been heard in multichannel via a multichannel home theater, and which would have utilized a linear downmix over headphones, can now be virtualized (using the format specified in the dropdown) and heard over any pair of stereo headphones.
 
 When Windows Sonic is not available (for instance, when playing to embedded laptop stereo speakers, or if the user has not explicitly enabled Windows Sonic per above), the number of available dynamic objects returned by [**ISpatialAudioClient::GetMaxDynamicObjectCount**](/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount) to an application will be 0.
+
+## Windows Sonic on HoloLens 2
+
+On HoloLens 2 Windows Sonic is enabled by default and uses hardware DSP offload designed specifically for Windows Sonic for Headphones.
 
 ## Windows Sonic and Audio Middleware
 
@@ -64,21 +68,24 @@ Renderers can also mix and match between these approaches.
 
 ## Windows Sonic Runtime Resource Implications
 
-On both Windows and Xbox, the number of available voices varies based on the format in use. Dolby Atmos formats support 32 total active objects (so if a 7.1.4 channel bed is in use, 20 additional dynamic sound objects can be active). Windows Sonic for Headphones supports 128 total active objects, with the Low Frequency Effects (LFE) channel not actually being counted as an object -- so when an 8.1.4.4 channel bed is in use, 112 dynamic sound objects can be active.
+##### Windows (Software) and Xbox One (Hardware)
+
+On Windows and Xbox, the number of available voices varies based on the format in use. Dolby Atmos formats support 32 total active objects (so if a 7.1.4 channel bed is in use, 20 additional dynamic sound objects can be active). Windows Sonic for Headphones supports 128 total active objects, with the Low Frequency Effects (LFE) channel not actually being counted as an object -- so when an 8.1.4.4 channel bed is in use, 112 dynamic sound objects can be active.
 
 For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
+| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects |
+|:------:|:------:|:------:|:------:|
+| Dolby Atmos (HDMI) | 12 (7.1.4) | 20 |
+| Dolby Atmos for Headphones | 16 (7.1.4.4) | 16 |
+| Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 112 |
 
+##### HoloLens 2 (Hardware)
 
+HoloLens 2 only supports Windows Sonic for Headphones.
 
-| Format                       | Max Static Objects (Channel Bed) | Max Dynamic Objects (Xbox One - hardware) | Max Dynamic Objects (Windows - software) |
-|------------------------------|----------------------------------|-------------------------------------------|------------------------------------------|
-| Dolby Atmos (HDMI)           | 12 (7.1.4)                       | 20                                        | 20                                       |
-| Dolby Atmos (headphones)     | 16 (7.1.4.4)                     | 16                                        | 16                                       |
-| Windows Sonic for Headphones | 16<sup>\*</sup> (8.1.4.4)        | 16                                        | 112                                      |
-
-
-
- 
+| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects |
+|:------:|:------:|:------:|:------:|
+| Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 31 |
 
 <sup>\*</sup> The LFE channel is not counted as a dynamic object for processing purposes.
 
