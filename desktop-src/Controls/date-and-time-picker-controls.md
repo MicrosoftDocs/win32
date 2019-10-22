@@ -21,11 +21,10 @@ The following topics are discussed:
 -   [Date and Time Picker Control Notification Messages](#date-and-time-picker-control-notification-messages)
 -   [Related topics](#related-topics)
 
-> [!Note] Windows does not support dates prior to 1601. See the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure for details.
+> [!Note]
+> Windows does not support dates prior to 1601. See the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure for details.
 >
 > The control is based on the Gregorian calendar, which was introduced in 1753. It will not calculate dates that are consistent with the Julian calendar.
-
- 
 
 ## Date and Time Picker User Interface
 
@@ -125,8 +124,6 @@ To make the information more readable, you can add body text to the format strin
 
 > [!Note]  
 > Nonformat characters that are not delimited by single quotes will result in unpredictable display by the DTP control.
-
- 
 
 For example, to display the current date with the format "'Today is: 04:22:31 Tuesday Mar 23, 1996", the format string is "'Today is: 'hh':'m':'s dddd MMM dd', 'yyyy". To include a single quote in your body text, use two consecutive single quotes. For example, "'Don't forget' MMM dd',' yyyy" produces output that looks like: Do not forget Mar 23, 1996. It is not necessary to use quotes with the comma, so "'Don't forget' MMM dd, yyyy" is also valid, and produces the same output.
 

@@ -34,7 +34,8 @@ It is recommended that you find the schema master and bind to it to make schema 
 To make another server the schema master, a suitably privileged user can:
 
 -   Use the Schema Manager MMC snap-in.
-    > [!Note]The Active Directory Schema MMC snap-in must be registered manually. To register the Schema snap-in, you must run the following command from the command prompt in the Windows System32 directory.
+    > [!Note]
+    > The Active Directory Schema MMC snap-in must be registered manually. To register the Schema snap-in, you must run the following command from the command prompt in the Windows System32 directory.
     >
     > **regsvr32.exe schmmgmt.dll**
 

@@ -64,7 +64,7 @@ The media application must perform the following tasks.
 
 1.  Set up the development environment.
     -   Reference the required interfaces, include the headers shown in the following code.
-        ```
+        ```cpp
         #include <MMdeviceapi.h>        // Device endpoint definitions
         #include <Mfidl.h>              // OTA interface definitions
         ```
@@ -74,7 +74,7 @@ The media application must perform the following tasks.
     -   Link to the Mfuuid.lib to use the OTA interfaces.
     -   Disable the kernel debugger and driver verifier to avoid any authentication checking errors.
 2.  Enumerate all endpoints in the system and select the target endpoint from the endpoint collection, as shown in the following code. For more information about enumerating devices, see [Enumerating Audio Devices](https://msdn.microsoft.com/en-us/library/ms678716(VS.85).aspx).
-    ```
+    ```cpp
     BOOL IsDigitalEndpoint(IMMDevice *pDevice)
     {
        PROPVARIANT         var;
@@ -106,7 +106,7 @@ The media application must perform the following tasks.
 
     
 
-    ```
+    ```cpp
     /******************************************************************
     *                                                                 *
     *  GetDevice:  Selects an endpoint that meets the requirements.   *
@@ -171,7 +171,6 @@ The media application must perform the following tasks.
        SAFE_RELEASE(pEndpoints);
        SAFE_RELEASE(pEnumerator);
     }
-                  
     ```
 
     
@@ -179,7 +178,7 @@ The media application must perform the following tasks.
 3.  Use the [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) pointer to the endpoint returned by the enumeration process to activate the desired audio streaming API and prepare for streaming. Different audio APIs require slightly different preparation.
     -   For DShow audio applications:
         1.  Create a DirectShow COM object by calling [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) and specifying IID\_IBaseFilter as the interface identifier.
-            ```
+            ```cpp
             IUnknown *pDShowFilter = NULL;
             ...
             hr = pDevice->Activate (
@@ -193,7 +192,7 @@ The media application must perform the following tasks.
         2.  Build a DirectShow filter graph with this COM object activated by the device. For more information about this process, see "Building the Filter Graph" in DirectShow SDK documentation.
     -   For DSound audio applications:
         1.  Create a DSound COM object by calling [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) and specifying IID\_IDirectSound8 as the interface identifier.
-            ```
+            ```cpp
             IDirectSound8  *pDSSound8;
             ...
             hr = pDevice->Activate (
@@ -207,7 +206,7 @@ The media application must perform the following tasks.
         2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](https://msdn.microsoft.com/en-us/library/bb219818(VS.85).aspx) on MSDN.
     -   For WASAPI:
         1.  Create an [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) COM object by calling [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) and specifying IID\_IAudioClient as the interface identifier.
-            ```
+            ```cpp
             IAudioClient *pIAudioClient = NULL;
             ...
             hr = pDevice->Activate (
@@ -219,7 +218,7 @@ The media application must perform the following tasks.
             
 
         2.  Open the audio stream.
-            ```
+            ```cpp
             hr = pIAudioClient->Initialize(...);
             ```
 
@@ -227,7 +226,7 @@ The media application must perform the following tasks.
 4.  Start audio streaming.
 5.  Set the protection policy on the stream.
     1.  For WASAPI clients, get a reference to the [**IMFTrustedOutput**](https://msdn.microsoft.com/en-us/library/ms694305(v=VS.85).aspx) interface of the output trust authority (OTA) object for the stream by calling [**IAudioClient::GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) and specifying IID\_IMFTrustedOutput as the interface identifier.
-        ```
+        ```cpp
         IMFTrustedOutput*       pTrustedOutput = NULL;
         hr = pIAudioClient>GetService(
                        __uuidof(IMFTrustedOutput),
@@ -237,14 +236,14 @@ The media application must perform the following tasks.
         
 
     2.  Get a count of the available OTA objects by calling [**IMFTrustedOutput::GetOutputTrustAuthorityCount**](https://msdn.microsoft.com/en-us/library/Bb970384(v=VS.85).aspx).
-        ```
+        ```cpp
         hr = pTrustedOutput->GetOutputTrustAuthorityCount(&m_dwCountOTA);
         ```
 
         
 
     3.  Enumerate the OTA collection and get a reference to the OTA object that supports the action PEACTION\_PLAY. All OTAs expose the [**IMFOutputTrustAuthority**](https://msdn.microsoft.com/en-us/library/ms695254(v=VS.85).aspx) interface.
-        ```
+        ```cpp
         hr = pMFTrustedOutput->GetOutputTrustAuthorityByIndex(I, &pMFOutputTrustAuthority);
         hr = pMFOutputTrustAuthority->GetAction(&action) 
         ```
@@ -253,13 +252,14 @@ The media application must perform the following tasks.
 
     4.  Use the [**IMFTrustedOutput**](https://msdn.microsoft.com/en-us/library/ms694305(v=VS.85).aspx) interface to set the protection policy on the stream.
 
-        ```
+        ```cpp
         hr = pTrustedOutput ->SetPolicy(&pPolicy, nPolicy, &pbTicket, &cbTicket);
         ```
 
         
 
-        > [!Note]If you are using the EVR, [**SetPolicy**](https://msdn.microsoft.com/en-us/library/Bb970572(v=VS.85).aspx) raises the [MEPolicySet](https://msdn.microsoft.com/en-us/library/ms703081(v=VS.85).aspx) event and returns MF\_S\_WAIT\_FOR\_POLICY\_SET to indicate that the OTA will enforce the policy asynchronously. However, in this example code, the application is a direct WASAPI client that retrieved the OTA object from the audio client (Step 5 a). Unlike the EVR, an audio client and other WASAPI objects do not implement media event generators. Without media event generators, **IMFTrustedOutput::SetPolicy** does not return MF\_S\_WAIT\_FOR\_POLICY\_SET.
+        > [!Note]
+        > If you are using the EVR, [**SetPolicy**](https://msdn.microsoft.com/en-us/library/Bb970572(v=VS.85).aspx) raises the [MEPolicySet](https://msdn.microsoft.com/en-us/library/ms703081(v=VS.85).aspx) event and returns MF\_S\_WAIT\_FOR\_POLICY\_SET to indicate that the OTA will enforce the policy asynchronously. However, in this example code, the application is a direct WASAPI client that retrieved the OTA object from the audio client (Step 5 a). Unlike the EVR, an audio client and other WASAPI objects do not implement media event generators. Without media event generators, **IMFTrustedOutput::SetPolicy** does not return MF\_S\_WAIT\_FOR\_POLICY\_SET.
         >
         > The audio policy settings must be set after audio streaming starts, otherwise [**IMFTrustedOutput::GetOutputTrustAuthorityByIndex**](https://msdn.microsoft.com/en-us/library/Bb970401(v=VS.85).aspx) fails. Also, to support this feature, the underlying audio driver must be a *trusted driver*.
 
@@ -281,19 +281,16 @@ The media application must perform the following tasks.
     > [!Note]  
     > Every time a stream is restarted, the protection policy must be set again on the stream. The procedure is described in step 5-d.
 
-     
-
-    ```
+    ```cpp
     pMFOutputTrustAuthority->Release()
     pMFTrustedOutput->Release()
     ```
-
-    
+  
 
 The following code examples show a sample implementation of the policy and schema objects.
 
 
-```
+```cpp
 //OTADsoundSample.cpp
 #include <stdio.h>
 #include <tchar.h>
@@ -543,7 +540,7 @@ Exit:
 
 
 
-```
+```cpp
 //OTADSoundSample.h
 // Macro defines
 #define IF_FAILED_JUMP(_hresult, label)                         \
@@ -569,7 +566,7 @@ Exit:
 
 
 
-```
+```cpp
 // outputpolicy.h
 
 class CTrustedAudioDriversOutputPolicy : public CMFAttributesImpl<IMFOutputPolicy> 
@@ -644,7 +641,7 @@ public:
 
 
 
-```
+```cpp
 // outputpolicy.cpp
 
 #include <windows.h>
@@ -1051,7 +1048,7 @@ HRESULT ClearOTAPolicy(IMFTrustedOutput *_pMFTrustedOutput,
 
 
 
-```
+```cpp
 //OTADSoundSample.rc
 #include "windows.h"
 
@@ -1071,7 +1068,7 @@ HRESULT ClearOTAPolicy(IMFTrustedOutput *_pMFTrustedOutput,
 
 
 
-```
+```cpp
 Sources file:
 
 TARGETNAME=OTADSoundSample
@@ -1111,17 +1108,6 @@ TARGETLIBS=\
 
 ## Related topics
 
-<dl> <dt>
-
 [Programming Guide](programming-guide.md)
-</dt> <dt>
 
 [User-Mode Audio Components](user-mode-audio-components.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
