@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.signLog property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.signLog property 
 TOCTitle: 'signLog property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.signLog
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.signlog(v=EXCHG.10)

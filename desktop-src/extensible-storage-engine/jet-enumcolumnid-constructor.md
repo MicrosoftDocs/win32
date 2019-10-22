@@ -1,5 +1,5 @@
 ---
-title: JET_ENUMCOLUMNID constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_ENUMCOLUMNID constructor 
 TOCTitle: 'JET_ENUMCOLUMNID constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnid.jet_enumcolumnid(v=EXCHG.10)

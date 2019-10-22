@@ -1,5 +1,5 @@
 ---
-title: Api.JetCreateIndex2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetCreateIndex2 method 
 TOCTitle: 'JetCreateIndex2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateIndex2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_INDEXCREATE[],System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetcreateindex2(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesNonUniqueOnlyException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesNonUniqueOnlyException class
 TOCTitle: EsentIndexTuplesNonUniqueOnlyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesNonUniqueOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplesnonuniqueonlyexception(v=EXCHG.10)

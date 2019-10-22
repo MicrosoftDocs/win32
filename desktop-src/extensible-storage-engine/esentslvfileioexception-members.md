@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileIOException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileIOException members
 TOCTitle: EsentSLVFileIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileioexception_members(v=EXCHG.10)

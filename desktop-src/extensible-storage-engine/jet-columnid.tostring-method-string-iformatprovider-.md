@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNID.ToString method (String, IFormatProvider) (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNID.ToString method (String, IFormatProvider)
 TOCTitle: ToString method (String, IFormatProvider)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.ToString(System.String,System.IFormatProvider)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid.tostring(v=EXCHG.10)

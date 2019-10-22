@@ -1,5 +1,5 @@
 ---
-title: EsentColumnIndexedException class (Microsoft.Isam.Esent.Interop)
+title: EsentColumnIndexedException class
 TOCTitle: EsentColumnIndexedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnIndexedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnindexedexception(v=EXCHG.10)

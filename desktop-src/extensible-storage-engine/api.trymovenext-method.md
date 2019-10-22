@@ -1,5 +1,5 @@
 ---
-title: Api.TryMoveNext method  (Microsoft.Isam.Esent.Interop)
+title: Api.TryMoveNext method 
 TOCTitle: 'TryMoveNext method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TryMoveNext(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.trymovenext(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCreateDbVersionException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCreateDbVersionException members
 TOCTitle: EsentInvalidCreateDbVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcreatedbversionexception_members(v=EXCHG.10)

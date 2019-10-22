@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCreateIndexException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCreateIndexException class
 TOCTitle: EsentInvalidCreateIndexException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcreateindexexception(v=EXCHG.10)

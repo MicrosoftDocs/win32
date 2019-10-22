@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotFoundException class (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotFoundException class
 TOCTitle: EsentRecordNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotfoundexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.NameMost field (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.NameMost field
 TOCTitle: NameMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.NameMost
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.namemost(v=EXCHG.10)

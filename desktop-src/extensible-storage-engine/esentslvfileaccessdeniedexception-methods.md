@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileAccessDeniedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileAccessDeniedException methods
 TOCTitle: EsentSLVFileAccessDeniedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileaccessdeniedexception_methods(v=EXCHG.10)

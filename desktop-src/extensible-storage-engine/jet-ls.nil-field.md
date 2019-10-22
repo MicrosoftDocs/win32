@@ -1,5 +1,5 @@
 ---
-title: JET_LS.Nil field (Microsoft.Isam.Esent.Interop)
+title: JET_LS.Nil field
 TOCTitle: Nil field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.JET_LS.Nil
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls.nil(v=EXCHG.10)

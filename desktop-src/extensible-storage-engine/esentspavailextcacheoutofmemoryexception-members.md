@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCacheOutOfMemoryException members (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCacheOutOfMemoryException members
 TOCTitle: EsentSPAvailExtCacheOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcacheoutofmemoryexception_members(v=EXCHG.10)

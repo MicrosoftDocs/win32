@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNBASE members (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNBASE members
 TOCTitle: JET_COLUMNBASE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase_members(v=EXCHG.10)

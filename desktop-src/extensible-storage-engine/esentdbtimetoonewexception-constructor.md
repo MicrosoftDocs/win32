@@ -1,5 +1,5 @@
 ---
-title: EsentDbTimeTooNewException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDbTimeTooNewException constructor 
 TOCTitle: 'EsentDbTimeTooNewException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdbtimetoonewexception.esentdbtimetoonewexception(v=EXCHG.10)

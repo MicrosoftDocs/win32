@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidInstanceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidInstanceException constructor 
 TOCTitle: 'EsentInvalidInstanceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidInstanceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidinstanceexception.esentinvalidinstanceexception(v=EXCHG.10)

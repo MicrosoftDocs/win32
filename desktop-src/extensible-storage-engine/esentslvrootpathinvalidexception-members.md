@@ -1,5 +1,5 @@
 ---
-title: EsentSLVRootPathInvalidException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootPathInvalidException members
 TOCTitle: EsentSLVRootPathInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVRootPathInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootpathinvalidexception_members(v=EXCHG.10)

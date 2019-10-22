@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.lSPNumber property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.lSPNumber property 
 TOCTitle: 'lSPNumber property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.lSPNumber
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.lspnumber(v=EXCHG.10)

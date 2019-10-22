@@ -1,5 +1,5 @@
 ---
-title: Session.End method  (Microsoft.Isam.Esent.Interop)
+title: Session.End method 
 TOCTitle: 'End method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.End
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session.end(v=EXCHG.10)

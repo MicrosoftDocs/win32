@@ -1,5 +1,5 @@
 ---
-title: IndexInfo.ToString method  (Microsoft.Isam.Esent.Interop)
+title: IndexInfo.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IndexInfo.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo.tostring(v=EXCHG.10)

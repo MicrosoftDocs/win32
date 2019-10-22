@@ -1,5 +1,5 @@
 ﻿---
-title: UInt64ColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: UInt64ColumnValue properties
 TOCTitle: UInt64ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.UInt64ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint64columnvalue_properties(v=EXCHG.10)

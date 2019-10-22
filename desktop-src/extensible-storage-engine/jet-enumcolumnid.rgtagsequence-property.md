@@ -1,5 +1,5 @@
 ---
-title: JET_ENUMCOLUMNID.rgtagSequence property  (Microsoft.Isam.Esent.Interop)
+title: JET_ENUMCOLUMNID.rgtagSequence property 
 TOCTitle: 'rgtagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.rgtagSequence
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnid.rgtagsequence(v=EXCHG.10)

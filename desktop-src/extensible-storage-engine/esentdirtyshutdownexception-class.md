@@ -1,5 +1,5 @@
 ---
-title: EsentDirtyShutdownException class (Microsoft.Isam.Esent.Interop)
+title: EsentDirtyShutdownException class
 TOCTitle: EsentDirtyShutdownException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDirtyShutdownException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdirtyshutdownexception(v=EXCHG.10)

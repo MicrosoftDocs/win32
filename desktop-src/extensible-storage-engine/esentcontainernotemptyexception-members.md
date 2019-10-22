@@ -1,5 +1,5 @@
 ---
-title: EsentContainerNotEmptyException members (Microsoft.Isam.Esent.Interop)
+title: EsentContainerNotEmptyException members
 TOCTitle: EsentContainerNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcontainernotemptyexception_members(v=EXCHG.10)

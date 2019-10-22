@@ -1,5 +1,5 @@
 ---
-title: EsentSPOwnExtCorruptedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSPOwnExtCorruptedException properties
 TOCTitle: EsentSPOwnExtCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspownextcorruptedexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSectorSizeNotSupportedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSectorSizeNotSupportedException constructor 
 TOCTitle: 'EsentSectorSizeNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsectorsizenotsupportedexception.esentsectorsizenotsupportedexception(v=EXCHG.10)

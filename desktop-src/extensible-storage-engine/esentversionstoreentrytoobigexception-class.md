@@ -1,5 +1,5 @@
 ---
-title: EsentVersionStoreEntryTooBigException class (Microsoft.Isam.Esent.Interop)
+title: EsentVersionStoreEntryTooBigException class
 TOCTitle: EsentVersionStoreEntryTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreentrytoobigexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ﻿---
-title: JET_TABLEID properties (Microsoft.Isam.Esent.Interop)
+title: JET_TABLEID properties
 TOCTitle: JET_TABLEID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_TABLEID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tableid_properties(v=EXCHG.10)

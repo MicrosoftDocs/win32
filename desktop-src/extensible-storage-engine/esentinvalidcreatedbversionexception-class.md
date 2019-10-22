@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCreateDbVersionException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCreateDbVersionException class
 TOCTitle: EsentInvalidCreateDbVersionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcreatedbversionexception(v=EXCHG.10)

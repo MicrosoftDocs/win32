@@ -1,5 +1,5 @@
 ---
-title: JET_RECORDLIST.cRecords property  (Microsoft.Isam.Esent.Interop)
+title: JET_RECORDLIST.cRecords property 
 TOCTitle: 'cRecords property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RECORDLIST.cRecords
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recordlist.crecords(v=EXCHG.10)

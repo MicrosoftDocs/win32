@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXID structure (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXID structure
 TOCTitle: JET_INDEXID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexid(v=EXCHG.10)

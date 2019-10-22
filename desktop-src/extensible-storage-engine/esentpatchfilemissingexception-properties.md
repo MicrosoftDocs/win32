@@ -1,5 +1,5 @@
 ---
-title: EsentPatchFileMissingException properties (Microsoft.Isam.Esent.Interop)
+title: EsentPatchFileMissingException properties
 TOCTitle: EsentPatchFileMissingException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpatchfilemissingexception_properties(v=EXCHG.10)

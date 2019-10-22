@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenIndexesException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenIndexesException properties
 TOCTitle: EsentTooManyOpenIndexesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenIndexesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopenindexesexception_properties(v=EXCHG.10)

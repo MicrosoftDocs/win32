@@ -1,5 +1,5 @@
 ---
-title: EsentSectorSizeNotSupportedException class (Microsoft.Isam.Esent.Interop)
+title: EsentSectorSizeNotSupportedException class
 TOCTitle: EsentSectorSizeNotSupportedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsectorsizenotsupportedexception(v=EXCHG.10)

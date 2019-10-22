@@ -1,5 +1,5 @@
 ---
-title: JET_BKINFO members (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO members
 TOCTitle: JET_BKINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_BKINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo_members(v=EXCHG.10)

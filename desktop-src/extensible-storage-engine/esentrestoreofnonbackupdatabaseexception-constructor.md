@@ -1,5 +1,5 @@
 ---
-title: EsentRestoreOfNonBackupDatabaseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRestoreOfNonBackupDatabaseException constructor 
 TOCTitle: 'EsentRestoreOfNonBackupDatabaseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrestoreofnonbackupdatabaseexception.esentrestoreofnonbackupdatabaseexception(v=EXCHG.10)

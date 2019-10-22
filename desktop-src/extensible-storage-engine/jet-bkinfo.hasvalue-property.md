@@ -1,5 +1,5 @@
 ---
-title: JET_BKINFO.HasValue property  (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.HasValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo.hasvalue(v=EXCHG.10)

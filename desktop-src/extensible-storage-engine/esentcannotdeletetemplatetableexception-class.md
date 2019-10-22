@@ -1,5 +1,5 @@
 ---
-title: EsentCannotDeleteTemplateTableException class (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDeleteTemplateTableException class
 TOCTitle: EsentCannotDeleteTemplateTableException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdeletetemplatetableexception(v=EXCHG.10)

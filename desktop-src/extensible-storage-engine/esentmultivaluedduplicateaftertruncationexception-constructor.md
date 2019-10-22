@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateAfterTruncationException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateAfterTruncationException constructor 
 TOCTitle: 'EsentMultiValuedDuplicateAfterTruncationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateaftertruncationexception.esentmultivaluedduplicateaftertruncationexception(v=EXCHG.10)

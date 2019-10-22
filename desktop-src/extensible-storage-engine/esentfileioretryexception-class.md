@@ -1,5 +1,5 @@
 ---
-title: EsentFileIORetryException class (Microsoft.Isam.Esent.Interop)
+title: EsentFileIORetryException class
 TOCTitle: EsentFileIORetryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIORetryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileioretryexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogSignatureException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogSignatureException class
 TOCTitle: EsentBadLogSignatureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogsignatureexception(v=EXCHG.10)

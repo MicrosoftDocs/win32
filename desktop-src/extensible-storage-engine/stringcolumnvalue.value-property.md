@@ -1,5 +1,5 @@
 ---
-title: StringColumnValue.Value property  (Microsoft.Isam.Esent.Interop)
+title: StringColumnValue.Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.Value
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.stringcolumnvalue.value(v=EXCHG.10)

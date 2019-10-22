@@ -1,5 +1,5 @@
 ---
-title: EsentLogSequenceEndDatabasesConsistentException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndDatabasesConsistentException methods
 TOCTitle: EsentLogSequenceEndDatabasesConsistentException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceenddatabasesconsistentexception_methods(v=EXCHG.10)

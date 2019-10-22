@@ -1,5 +1,5 @@
 ﻿---
-title: JET_ENUMCOLUMNVALUE properties (Microsoft.Isam.Esent.Interop)
+title: JET_ENUMCOLUMNVALUE properties
 TOCTitle: JET_ENUMCOLUMNVALUE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnvalue_properties(v=EXCHG.10)

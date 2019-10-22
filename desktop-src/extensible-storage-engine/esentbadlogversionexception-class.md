@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogVersionException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogVersionException class
 TOCTitle: EsentBadLogVersionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogversionexception(v=EXCHG.10)

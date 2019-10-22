@@ -1,5 +1,5 @@
 ---
-title: EsentCannotDeleteTempTableException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDeleteTempTableException properties
 TOCTitle: EsentCannotDeleteTempTableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTempTableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdeletetemptableexception_properties(v=EXCHG.10)

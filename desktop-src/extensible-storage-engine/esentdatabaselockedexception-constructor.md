@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseLockedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseLockedException constructor 
 TOCTitle: 'EsentDatabaseLockedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaselockedexception.esentdatabaselockedexception(v=EXCHG.10)

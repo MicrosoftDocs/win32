@@ -1,5 +1,5 @@
 ---
-title: EndExternalBackupGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: EndExternalBackupGrbit enumeration
 TOCTitle: EndExternalBackupGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EndExternalBackupGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.endexternalbackupgrbit(v=EXCHG.10)

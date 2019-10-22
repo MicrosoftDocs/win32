@@ -1,5 +1,5 @@
 ---
-title: EsentLogWriteFailException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogWriteFailException class
 TOCTitle: EsentLogWriteFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogwritefailexception(v=EXCHG.10)

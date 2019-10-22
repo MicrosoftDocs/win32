@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseFileReadOnlyException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseFileReadOnlyException members
 TOCTitle: EsentDatabaseFileReadOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseFileReadOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasefilereadonlyexception_members(v=EXCHG.10)

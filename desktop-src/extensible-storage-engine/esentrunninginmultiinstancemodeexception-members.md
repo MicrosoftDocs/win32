@@ -1,5 +1,5 @@
 ---
-title: EsentRunningInMultiInstanceModeException members (Microsoft.Isam.Esent.Interop)
+title: EsentRunningInMultiInstanceModeException members
 TOCTitle: EsentRunningInMultiInstanceModeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrunninginmultiinstancemodeexception_members(v=EXCHG.10)

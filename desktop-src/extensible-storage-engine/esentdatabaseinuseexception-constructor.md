@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInUseException constructor 
 TOCTitle: 'EsentDatabaseInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinuseexception.esentdatabaseinuseexception(v=EXCHG.10)

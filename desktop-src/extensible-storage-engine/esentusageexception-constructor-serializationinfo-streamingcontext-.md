@@ -1,5 +1,5 @@
 ---
-title: EsentUsageException constructor (SerializationInfo, StreamingContext) (Microsoft.Isam.Esent.Interop)
+title: EsentUsageException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentUsageException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUsageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentusageexception.esentusageexception(v=EXCHG.10)

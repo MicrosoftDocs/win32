@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLCMapStringFlagsException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLCMapStringFlagsException constructor 
 TOCTitle: 'EsentInvalidLCMapStringFlagsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlcmapstringflagsexception.esentinvalidlcmapstringflagsexception(v=EXCHG.10)

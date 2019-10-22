@@ -1,5 +1,5 @@
 ---
-title: ColumnValue.ItagSequence property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.ItagSequence property 
 TOCTitle: 'ItagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.ItagSequence
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.itagsequence(v=EXCHG.10)

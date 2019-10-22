@@ -1,5 +1,5 @@
 ---
-title: EsentFixedDDLException class (Microsoft.Isam.Esent.Interop)
+title: EsentFixedDDLException class
 TOCTitle: EsentFixedDDLException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFixedDDLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfixedddlexception(v=EXCHG.10)

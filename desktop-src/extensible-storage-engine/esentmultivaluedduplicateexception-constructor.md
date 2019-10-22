@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateException constructor 
 TOCTitle: 'EsentMultiValuedDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateexception.esentmultivaluedduplicateexception(v=EXCHG.10)

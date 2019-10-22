@@ -1,5 +1,5 @@
 ---
-title: UInt32ColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: UInt32ColumnValue constructor 
 TOCTitle: 'UInt32ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt32ColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint32columnvalue.uint32columnvalue(v=EXCHG.10)

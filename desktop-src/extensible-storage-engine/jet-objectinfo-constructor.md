@@ -1,5 +1,5 @@
 ---
-title: JET_OBJECTINFO constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTINFO constructor 
 TOCTitle: 'JET_OBJECTINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectinfo.jet_objectinfo(v=EXCHG.10)

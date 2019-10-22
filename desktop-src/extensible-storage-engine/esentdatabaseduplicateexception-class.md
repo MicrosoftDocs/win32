@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseDuplicateException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseDuplicateException class
 TOCTitle: EsentDatabaseDuplicateException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseduplicateexception(v=EXCHG.10)

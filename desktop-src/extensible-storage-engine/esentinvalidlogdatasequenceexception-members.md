@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLogDataSequenceException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLogDataSequenceException members
 TOCTitle: EsentInvalidLogDataSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlogdatasequenceexception_members(v=EXCHG.10)

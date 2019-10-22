@@ -1,5 +1,5 @@
 ---
-title: EsentSLVCorruptedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVCorruptedException properties
 TOCTitle: EsentSLVCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvcorruptedexception_properties(v=EXCHG.10)

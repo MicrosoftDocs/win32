@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSnapIdException class (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSnapIdException class
 TOCTitle: EsentOSSnapshotInvalidSnapIdException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsnapidexception(v=EXCHG.10)

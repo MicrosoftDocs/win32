@@ -1,5 +1,5 @@
 ---
-title: EsentExistingLogFileIsNotContiguousException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentExistingLogFileIsNotContiguousException constructor 
 TOCTitle: 'EsentExistingLogFileIsNotContiguousException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentExistingLogFileIsNotContiguousException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentexistinglogfileisnotcontiguousexception.esentexistinglogfileisnotcontiguousexception(v=EXCHG.10)

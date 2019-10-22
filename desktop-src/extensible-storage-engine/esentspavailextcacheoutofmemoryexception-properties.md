@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCacheOutOfMemoryException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCacheOutOfMemoryException properties
 TOCTitle: EsentSPAvailExtCacheOutOfMemoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcacheoutofmemoryexception_properties(v=EXCHG.10)

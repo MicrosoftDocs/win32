@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfDbtimeValuesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfDbtimeValuesException constructor 
 TOCTitle: 'EsentOutOfDbtimeValuesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofdbtimevaluesexception.esentoutofdbtimevaluesexception(v=EXCHG.10)

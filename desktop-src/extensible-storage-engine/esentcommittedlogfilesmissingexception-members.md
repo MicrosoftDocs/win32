@@ -1,5 +1,5 @@
 ---
-title: EsentCommittedLogFilesMissingException members (Microsoft.Isam.Esent.Interop)
+title: EsentCommittedLogFilesMissingException members
 TOCTitle: EsentCommittedLogFilesMissingException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFilesMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcommittedlogfilesmissingexception_members(v=EXCHG.10)

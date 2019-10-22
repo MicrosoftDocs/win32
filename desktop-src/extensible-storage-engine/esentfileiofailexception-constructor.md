@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOFailException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOFailException constructor 
 TOCTitle: 'EsentFileIOFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOFailException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiofailexception.esentfileiofailexception(v=EXCHG.10)

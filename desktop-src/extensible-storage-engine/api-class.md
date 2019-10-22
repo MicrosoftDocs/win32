@@ -1,5 +1,5 @@
 ---
-title: Api class (Microsoft.Isam.Esent.Interop)
+title: Api class
 TOCTitle: Api class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Api
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api(v=EXCHG.10)

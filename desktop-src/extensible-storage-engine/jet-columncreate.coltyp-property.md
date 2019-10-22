@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNCREATE.coltyp property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE.coltyp property 
 TOCTitle: 'coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.coltyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate.coltyp(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentColumnDuplicateException members (Microsoft.Isam.Esent.Interop)
+title: EsentColumnDuplicateException members
 TOCTitle: EsentColumnDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnduplicateexception_members(v=EXCHG.10)

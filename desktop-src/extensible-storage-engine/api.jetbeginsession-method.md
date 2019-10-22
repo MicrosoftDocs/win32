@@ -1,5 +1,5 @@
 ---
-title: Api.JetBeginSession method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetBeginSession method 
 TOCTitle: 'JetBeginSession method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginSession(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_SESID@,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetbeginsession(v=EXCHG.10)

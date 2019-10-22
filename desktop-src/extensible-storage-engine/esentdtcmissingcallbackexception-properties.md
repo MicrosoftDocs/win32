@@ -1,5 +1,5 @@
 ---
-title: EsentDTCMissingCallbackException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDTCMissingCallbackException properties
 TOCTitle: EsentDTCMissingCallbackException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtcmissingcallbackexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.dbstate property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.dbstate property 
 TOCTitle: 'dbstate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.dbstate
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.dbstate(v=EXCHG.10)

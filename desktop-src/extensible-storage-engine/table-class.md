@@ -1,5 +1,5 @@
 ---
-title: Table class (Microsoft.Isam.Esent.Interop)
+title: Table class
 TOCTitle: Table class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Table
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.table(v=EXCHG.10)

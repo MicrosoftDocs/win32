@@ -1,5 +1,5 @@
 ---
-title: EsentLogReadVerifyFailureException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogReadVerifyFailureException constructor 
 TOCTitle: 'EsentLogReadVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogreadverifyfailureexception.esentlogreadverifyfailureexception(v=EXCHG.10)

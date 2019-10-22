@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidDatabaseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidDatabaseException constructor 
 TOCTitle: 'EsentInvalidDatabaseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvaliddatabaseexception.esentinvaliddatabaseexception(v=EXCHG.10)

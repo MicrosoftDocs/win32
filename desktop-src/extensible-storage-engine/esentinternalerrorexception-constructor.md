@@ -1,5 +1,5 @@
 ---
-title: EsentInternalErrorException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInternalErrorException constructor 
 TOCTitle: 'EsentInternalErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInternalErrorException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinternalerrorexception.esentinternalerrorexception(v=EXCHG.10)

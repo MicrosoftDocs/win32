@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetSetSystemParameter method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetSetSystemParameter method 
 TOCTitle: 'JetSetSystemParameter method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetSetSystemParameter
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetsetsystemparameter(v=EXCHG.10)

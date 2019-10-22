@@ -1,5 +1,5 @@
 ---
-title: Api.IntersectIndexes method  (Microsoft.Isam.Esent.Interop)
+title: Api.IntersectIndexes method 
 TOCTitle: 'IntersectIndexes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.IntersectIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID[])
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.intersectindexes(v=EXCHG.10)

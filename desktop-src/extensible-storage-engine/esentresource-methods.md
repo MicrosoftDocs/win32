@@ -1,5 +1,5 @@
 ---
-title: EsentResource methods (Microsoft.Isam.Esent.Interop)
+title: EsentResource methods
 TOCTitle: EsentResource methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource_methods(v=EXCHG.10)

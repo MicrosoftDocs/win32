@@ -1,5 +1,5 @@
 ---
-title: EsentTempFileOpenErrorException class (Microsoft.Isam.Esent.Interop)
+title: EsentTempFileOpenErrorException class
 TOCTitle: EsentTempFileOpenErrorException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttempfileopenerrorexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVOwnerMapPageNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVOwnerMapPageNotFoundException methods
 TOCTitle: EsentSLVOwnerMapPageNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvownermappagenotfoundexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidOnSortException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidOnSortException constructor 
 TOCTitle: 'EsentInvalidOnSortException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidonsortexception.esentinvalidonsortexception(v=EXCHG.10)

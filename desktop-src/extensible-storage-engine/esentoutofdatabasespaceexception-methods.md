@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfDatabaseSpaceException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfDatabaseSpaceException methods
 TOCTitle: EsentOutOfDatabaseSpaceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofdatabasespaceexception_methods(v=EXCHG.10)

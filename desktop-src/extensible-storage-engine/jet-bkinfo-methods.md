@@ -1,5 +1,5 @@
 ---
-title: JET_BKINFO methods (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO methods
 TOCTitle: JET_BKINFO methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_BKINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo_methods(v=EXCHG.10)

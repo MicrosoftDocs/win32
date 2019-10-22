@@ -1,5 +1,5 @@
 ---
-title: EsentRecoveryVerifyFailureException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveryVerifyFailureException methods
 TOCTitle: EsentRecoveryVerifyFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveryverifyfailureexception_methods(v=EXCHG.10)

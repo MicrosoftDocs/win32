@@ -1,5 +1,5 @@
 ---
-title: EsentKeyTruncatedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentKeyTruncatedException properties
 TOCTitle: EsentKeyTruncatedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeytruncatedexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Api.JetGetInstanceInfo method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetInstanceInfo method 
 TOCTitle: 'JetGetInstanceInfo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetInstanceInfo(System.Int32@,Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO[]@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetinstanceinfo(v=EXCHG.10)

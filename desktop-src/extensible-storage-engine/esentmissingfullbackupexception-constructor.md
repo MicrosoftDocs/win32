@@ -1,5 +1,5 @@
 ---
-title: EsentMissingFullBackupException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentMissingFullBackupException constructor 
 TOCTitle: 'EsentMissingFullBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingfullbackupexception.esentmissingfullbackupexception(v=EXCHG.10)

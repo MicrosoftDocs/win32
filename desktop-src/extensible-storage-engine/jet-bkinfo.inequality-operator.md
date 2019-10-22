@@ -1,5 +1,5 @@
 ---
-title: JET_BKINFO.Inequality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKINFO.op_Inequality(Microsoft.Isam.Esent.Interop.JET_BKINFO,Microsoft.Isam.Esent.Interop.JET_BKINFO)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo.op_inequality(v=EXCHG.10)

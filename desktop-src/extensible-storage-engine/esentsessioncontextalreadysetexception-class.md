@@ -1,5 +1,5 @@
 ---
-title: EsentSessionContextAlreadySetException class (Microsoft.Isam.Esent.Interop)
+title: EsentSessionContextAlreadySetException class
 TOCTitle: EsentSessionContextAlreadySetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioncontextalreadysetexception(v=EXCHG.10)

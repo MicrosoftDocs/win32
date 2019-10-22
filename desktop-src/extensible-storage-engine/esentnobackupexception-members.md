@@ -1,5 +1,5 @@
 ---
-title: EsentNoBackupException members (Microsoft.Isam.Esent.Interop)
+title: EsentNoBackupException members
 TOCTitle: EsentNoBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoBackupException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnobackupexception_members(v=EXCHG.10)

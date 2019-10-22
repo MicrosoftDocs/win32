@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.CanWrite property  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.CanWrite property 
 TOCTitle: 'CanWrite property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.CanWrite
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.canwrite(v=EXCHG.10)

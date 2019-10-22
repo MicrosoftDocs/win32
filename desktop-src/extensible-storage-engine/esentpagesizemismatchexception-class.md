@@ -1,5 +1,5 @@
 ---
-title: EsentPageSizeMismatchException class (Microsoft.Isam.Esent.Interop)
+title: EsentPageSizeMismatchException class
 TOCTitle: EsentPageSizeMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpagesizemismatchexception(v=EXCHG.10)

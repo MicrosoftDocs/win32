@@ -1,5 +1,5 @@
 ---
-title: EsentTempPathInUseException class (Microsoft.Isam.Esent.Interop)
+title: EsentTempPathInUseException class
 TOCTitle: EsentTempPathInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttemppathinuseexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_LGPOS members (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS members
 TOCTitle: JET_LGPOS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_LGPOS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos_members(v=EXCHG.10)

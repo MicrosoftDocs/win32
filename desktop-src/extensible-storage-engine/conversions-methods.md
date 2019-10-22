@@ -1,5 +1,5 @@
 ﻿---
-title: Conversions methods (Microsoft.Isam.Esent.Interop)
+title: Conversions methods
 TOCTitle: Conversions methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Conversions
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.conversions_methods(v=EXCHG.10)

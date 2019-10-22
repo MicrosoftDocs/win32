@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLoggedOperationException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLoggedOperationException class
 TOCTitle: EsentInvalidLoggedOperationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidLoggedOperationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidloggedoperationexception(v=EXCHG.10)

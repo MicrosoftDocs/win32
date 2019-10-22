@@ -1,5 +1,5 @@
 ---
-title: EnumerateColumnsGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: EnumerateColumnsGrbit enumeration
 TOCTitle: EnumerateColumnsGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EnumerateColumnsGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.enumeratecolumnsgrbit(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EventLoggingLevels enumeration (Microsoft.Isam.Esent.Interop)
+title: EventLoggingLevels enumeration
 TOCTitle: EventLoggingLevels enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EventLoggingLevels
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.eventlogginglevels(v=EXCHG.10)

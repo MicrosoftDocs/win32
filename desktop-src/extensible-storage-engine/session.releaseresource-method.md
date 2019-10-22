@@ -1,5 +1,5 @@
 ---
-title: Session.ReleaseResource method  (Microsoft.Isam.Esent.Interop)
+title: Session.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.ReleaseResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session.releaseresource(v=EXCHG.10)

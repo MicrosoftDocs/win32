@@ -1,5 +1,5 @@
 ---
-title: Instance.ToString method  (Microsoft.Isam.Esent.Interop)
+title: Instance.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.tostring(v=EXCHG.10)

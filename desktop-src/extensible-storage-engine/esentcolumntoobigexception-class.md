@@ -1,5 +1,5 @@
 ---
-title: EsentColumnTooBigException class (Microsoft.Isam.Esent.Interop)
+title: EsentColumnTooBigException class
 TOCTitle: EsentColumnTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumntoobigexception(v=EXCHG.10)

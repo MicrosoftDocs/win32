@@ -1,5 +1,5 @@
 ---
-title: JET_SNPROG class (Microsoft.Isam.Esent.Interop)
+title: JET_SNPROG class
 TOCTitle: JET_SNPROG class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SNPROG
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_snprog(v=EXCHG.10)

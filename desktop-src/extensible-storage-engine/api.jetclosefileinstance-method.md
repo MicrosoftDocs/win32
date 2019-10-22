@@ -1,5 +1,5 @@
 ---
-title: Api.JetCloseFileInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetCloseFileInstance method 
 TOCTitle: 'JetCloseFileInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCloseFileInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_HANDLE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetclosefileinstance(v=EXCHG.10)

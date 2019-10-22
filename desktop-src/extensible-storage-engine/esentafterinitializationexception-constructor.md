@@ -1,5 +1,5 @@
 ---
-title: EsentAfterInitializationException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentAfterInitializationException constructor 
 TOCTitle: 'EsentAfterInitializationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentafterinitializationexception.esentafterinitializationexception(v=EXCHG.10)

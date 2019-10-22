@@ -1,5 +1,5 @@
 ﻿---
-title: EsentFatalException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFatalException constructor 
 TOCTitle: 'EsentFatalException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentFatalException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfatalexception.esentfatalexception(v=EXCHG.10)

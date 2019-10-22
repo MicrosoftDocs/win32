@@ -1,5 +1,5 @@
 ---
-title: EsentRfsFailureException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRfsFailureException constructor 
 TOCTitle: 'EsentRfsFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRfsFailureException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrfsfailureexception.esentrfsfailureexception(v=EXCHG.10)

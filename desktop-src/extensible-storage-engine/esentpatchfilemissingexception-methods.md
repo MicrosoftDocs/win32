@@ -1,5 +1,5 @@
 ---
-title: EsentPatchFileMissingException methods (Microsoft.Isam.Esent.Interop)
+title: EsentPatchFileMissingException methods
 TOCTitle: EsentPatchFileMissingException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpatchfilemissingexception_methods(v=EXCHG.10)

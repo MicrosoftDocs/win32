@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfFileHandlesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfFileHandlesException constructor 
 TOCTitle: 'EsentOutOfFileHandlesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutoffilehandlesexception.esentoutoffilehandlesexception(v=EXCHG.10)

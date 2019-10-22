@@ -1,5 +1,5 @@
 ---
-title: EsentTableNotEmptyException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTableNotEmptyException constructor 
 TOCTitle: 'EsentTableNotEmptyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttablenotemptyexception.esenttablenotemptyexception(v=EXCHG.10)

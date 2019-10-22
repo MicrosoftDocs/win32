@@ -1,5 +1,5 @@
 ---
-title: EsentTableInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTableInUseException constructor 
 TOCTitle: 'EsentTableInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttableinuseexception.esenttableinuseexception(v=EXCHG.10)

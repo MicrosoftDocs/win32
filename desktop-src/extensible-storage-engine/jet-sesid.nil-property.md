@@ -1,5 +1,5 @@
 ---
-title: JET_SESID.Nil property  (Microsoft.Isam.Esent.Interop)
+title: JET_SESID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SESID.Nil
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_sesid.nil(v=EXCHG.10)

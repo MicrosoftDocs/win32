@@ -1,5 +1,5 @@
 ---
-title: EsentCannotBeTaggedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCannotBeTaggedException constructor 
 TOCTitle: 'EsentCannotBeTaggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotbetaggedexception.esentcannotbetaggedexception(v=EXCHG.10)

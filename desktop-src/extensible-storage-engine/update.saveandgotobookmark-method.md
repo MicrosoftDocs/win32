@@ -1,5 +1,5 @@
 ---
-title: Update.SaveAndGotoBookmark method  (Microsoft.Isam.Esent.Interop)
+title: Update.SaveAndGotoBookmark method 
 TOCTitle: 'SaveAndGotoBookmark method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.SaveAndGotoBookmark
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update.saveandgotobookmark(v=EXCHG.10)

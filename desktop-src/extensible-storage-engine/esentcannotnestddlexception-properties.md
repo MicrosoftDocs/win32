@@ -1,5 +1,5 @@
 ---
-title: EsentCannotNestDDLException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCannotNestDDLException properties
 TOCTitle: EsentCannotNestDDLException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotnestddlexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentExistingLogFileHasBadSignatureException members (Microsoft.Isam.Esent.Interop)
+title: EsentExistingLogFileHasBadSignatureException members
 TOCTitle: EsentExistingLogFileHasBadSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentexistinglogfilehasbadsignatureexception_members(v=EXCHG.10)

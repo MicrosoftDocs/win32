@@ -1,5 +1,5 @@
 ---
-title: Api.MoveBeforeFirst method  (Microsoft.Isam.Esent.Interop)
+title: Api.MoveBeforeFirst method 
 TOCTitle: 'MoveBeforeFirst method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MoveBeforeFirst(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.movebeforefirst(v=EXCHG.10)

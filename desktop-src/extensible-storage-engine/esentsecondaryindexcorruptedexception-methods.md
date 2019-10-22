@@ -1,5 +1,5 @@
 ---
-title: EsentSecondaryIndexCorruptedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSecondaryIndexCorruptedException methods
 TOCTitle: EsentSecondaryIndexCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSecondaryIndexCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsecondaryindexcorruptedexception_methods(v=EXCHG.10)

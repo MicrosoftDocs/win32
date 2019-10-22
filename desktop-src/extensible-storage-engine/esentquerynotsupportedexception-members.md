@@ -1,5 +1,5 @@
 ---
-title: EsentQueryNotSupportedException members (Microsoft.Isam.Esent.Interop)
+title: EsentQueryNotSupportedException members
 TOCTitle: EsentQueryNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentQueryNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentquerynotsupportedexception_members(v=EXCHG.10)

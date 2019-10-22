@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOSparseException class (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOSparseException class
 TOCTitle: EsentFileIOSparseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiosparseexception(v=EXCHG.10)

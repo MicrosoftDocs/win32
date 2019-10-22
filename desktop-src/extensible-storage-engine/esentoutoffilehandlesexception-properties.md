@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfFileHandlesException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfFileHandlesException properties
 TOCTitle: EsentOutOfFileHandlesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutoffilehandlesexception_properties(v=EXCHG.10)

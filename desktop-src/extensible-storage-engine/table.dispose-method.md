@@ -1,5 +1,5 @@
 ﻿---
-title: Table.Dispose method  (Microsoft.Isam.Esent.Interop)
+title: Table.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Table.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.table.dispose(v=EXCHG.10)

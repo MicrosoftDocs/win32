@@ -1,5 +1,5 @@
 ---
-title: EsentSLVHeaderBadChecksumException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVHeaderBadChecksumException constructor 
 TOCTitle: 'EsentSLVHeaderBadChecksumException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVHeaderBadChecksumException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvheaderbadchecksumexception.esentslvheaderbadchecksumexception(v=EXCHG.10)

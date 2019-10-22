@@ -1,5 +1,5 @@
 ---
-title: EsentFilteredMoveNotSupportedException class (Microsoft.Isam.Esent.Interop)
+title: EsentFilteredMoveNotSupportedException class
 TOCTitle: EsentFilteredMoveNotSupportedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilteredmovenotsupportedexception(v=EXCHG.10)

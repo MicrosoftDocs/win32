@@ -1,5 +1,5 @@
 ---
-title: EsentNullInvalidException class (Microsoft.Isam.Esent.Interop)
+title: EsentNullInvalidException class
 TOCTitle: EsentNullInvalidException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNullInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnullinvalidexception(v=EXCHG.10)

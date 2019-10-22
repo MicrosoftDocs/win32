@@ -1,5 +1,5 @@
 ---
-title: EsentPreviousVersionException members (Microsoft.Isam.Esent.Interop)
+title: EsentPreviousVersionException members
 TOCTitle: EsentPreviousVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpreviousversionexception_members(v=EXCHG.10)

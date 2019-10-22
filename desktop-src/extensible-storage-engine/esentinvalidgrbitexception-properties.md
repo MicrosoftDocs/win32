@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidGrbitException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidGrbitException properties
 TOCTitle: EsentInvalidGrbitException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidGrbitException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidgrbitexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.CleanupMismatchedLogFiles property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.CleanupMismatchedLogFiles property 
 TOCTitle: 'CleanupMismatchedLogFiles property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CleanupMismatchedLogFiles
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.cleanupmismatchedlogfiles(v=EXCHG.10)

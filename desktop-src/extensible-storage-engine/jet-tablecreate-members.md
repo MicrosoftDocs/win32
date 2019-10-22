@@ -1,5 +1,5 @@
 ---
-title: JET_TABLECREATE members (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE members
 TOCTitle: JET_TABLECREATE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate_members(v=EXCHG.10)

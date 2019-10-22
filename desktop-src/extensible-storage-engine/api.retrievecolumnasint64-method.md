@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsInt64 method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsInt64 method 
 TOCTitle: 'RetrieveColumnAsInt64 method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsInt64
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasint64(v=EXCHG.10)

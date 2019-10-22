@@ -1,5 +1,5 @@
 ---
-title: EsentColumnRedundantException class (Microsoft.Isam.Esent.Interop)
+title: EsentColumnRedundantException class
 TOCTitle: EsentColumnRedundantException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnRedundantException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnredundantexception(v=EXCHG.10)

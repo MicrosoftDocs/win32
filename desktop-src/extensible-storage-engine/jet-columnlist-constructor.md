@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNLIST constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNLIST constructor 
 TOCTitle: 'JET_COLUMNLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnlist.jet_columnlist(v=EXCHG.10)

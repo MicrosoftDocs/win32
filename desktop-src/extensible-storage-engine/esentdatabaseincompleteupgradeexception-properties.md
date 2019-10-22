@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseIncompleteUpgradeException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseIncompleteUpgradeException properties
 TOCTitle: EsentDatabaseIncompleteUpgradeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteUpgradeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseincompleteupgradeexception_properties(v=EXCHG.10)

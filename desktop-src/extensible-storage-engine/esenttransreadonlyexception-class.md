@@ -1,5 +1,5 @@
 ---
-title: EsentTransReadOnlyException class (Microsoft.Isam.Esent.Interop)
+title: EsentTransReadOnlyException class
 TOCTitle: EsentTransReadOnlyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttransreadonlyexception(v=EXCHG.10)

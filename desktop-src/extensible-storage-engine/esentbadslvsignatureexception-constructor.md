@@ -1,5 +1,5 @@
 ---
-title: EsentBadSLVSignatureException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBadSLVSignatureException constructor 
 TOCTitle: 'EsentBadSLVSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadslvsignatureexception.esentbadslvsignatureexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenTablesAndCleanupTimedOutException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenTablesAndCleanupTimedOutException constructor 
 TOCTitle: 'EsentTooManyOpenTablesAndCleanupTimedOutException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopentablesandcleanuptimedoutexception.esenttoomanyopentablesandcleanuptimedoutexception(v=EXCHG.10)

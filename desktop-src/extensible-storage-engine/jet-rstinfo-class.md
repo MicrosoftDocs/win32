@@ -1,5 +1,5 @@
 ---
-title: JET_RSTINFO class (Microsoft.Isam.Esent.Interop)
+title: JET_RSTINFO class
 TOCTitle: JET_RSTINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RSTINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstinfo(v=EXCHG.10)

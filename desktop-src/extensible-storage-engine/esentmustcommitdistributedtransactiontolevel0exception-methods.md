@@ -1,5 +1,5 @@
 ---
-title: EsentMustCommitDistributedTransactionToLevel0Exception methods (Microsoft.Isam.Esent.Interop)
+title: EsentMustCommitDistributedTransactionToLevel0Exception methods
 TOCTitle: EsentMustCommitDistributedTransactionToLevel0Exception methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustcommitdistributedtransactiontolevel0exception_methods(v=EXCHG.10)

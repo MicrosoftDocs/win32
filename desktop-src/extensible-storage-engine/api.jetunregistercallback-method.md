@@ -1,5 +1,5 @@
 ---
-title: Api.JetUnregisterCallback method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetUnregisterCallback method 
 TOCTitle: 'JetUnregisterCallback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetUnregisterCallback(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_cbtyp,Microsoft.Isam.Esent.Interop.JET_HANDLE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetunregistercallback(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_INSTANCE_INFO.cDatabases property  (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE_INFO.cDatabases property 
 TOCTitle: 'cDatabases property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.cDatabases
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance_info.cdatabases(v=EXCHG.10)

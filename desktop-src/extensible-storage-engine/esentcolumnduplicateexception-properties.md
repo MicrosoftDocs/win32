@@ -1,5 +1,5 @@
 ---
-title: EsentColumnDuplicateException properties (Microsoft.Isam.Esent.Interop)
+title: EsentColumnDuplicateException properties
 TOCTitle: EsentColumnDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnduplicateexception_properties(v=EXCHG.10)

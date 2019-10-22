@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidParameterException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidParameterException class
 TOCTitle: EsentInvalidParameterException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidparameterexception(v=EXCHG.10)

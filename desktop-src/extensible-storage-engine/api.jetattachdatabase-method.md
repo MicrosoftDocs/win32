@@ -1,5 +1,5 @@
 ---
-title: Api.JetAttachDatabase method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetAttachDatabase method 
 TOCTitle: 'JetAttachDatabase method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetAttachDatabase(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,Microsoft.Isam.Esent.Interop.AttachDatabaseGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetattachdatabase(v=EXCHG.10)

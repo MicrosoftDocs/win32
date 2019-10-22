@@ -1,5 +1,5 @@
 ---
-title: EsentColumnDuplicateException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentColumnDuplicateException constructor 
 TOCTitle: 'EsentColumnDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnDuplicateException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnduplicateexception.esentcolumnduplicateexception(v=EXCHG.10)

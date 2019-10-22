@@ -1,5 +1,5 @@
 ---
-title: JET_RETINFO.DeepClone method  (Microsoft.Isam.Esent.Interop)
+title: JET_RETINFO.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETINFO.DeepClone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retinfo.deepclone(v=EXCHG.10)

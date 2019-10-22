@@ -1,5 +1,5 @@
 ---
-title: EsentVersionStoreOutOfMemoryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentVersionStoreOutOfMemoryException constructor 
 TOCTitle: 'EsentVersionStoreOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreoutofmemoryexception.esentversionstoreoutofmemoryexception(v=EXCHG.10)

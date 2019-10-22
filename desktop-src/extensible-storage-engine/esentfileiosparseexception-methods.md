@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOSparseException methods (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOSparseException methods
 TOCTitle: EsentFileIOSparseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiosparseexception_methods(v=EXCHG.10)

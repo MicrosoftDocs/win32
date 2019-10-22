@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileReadOnlyException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileReadOnlyException constructor 
 TOCTitle: 'EsentSLVStreamingFileReadOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilereadonlyexception.esentslvstreamingfilereadonlyexception(v=EXCHG.10)

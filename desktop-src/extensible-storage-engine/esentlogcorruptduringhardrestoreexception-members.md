@@ -1,5 +1,5 @@
 ---
-title: EsentLogCorruptDuringHardRestoreException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogCorruptDuringHardRestoreException members
 TOCTitle: EsentLogCorruptDuringHardRestoreException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogcorruptduringhardrestoreexception_members(v=EXCHG.10)

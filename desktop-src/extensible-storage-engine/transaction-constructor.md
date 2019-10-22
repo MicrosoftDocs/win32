@@ -1,5 +1,5 @@
 ---
-title: Transaction constructor  (Microsoft.Isam.Esent.Interop)
+title: Transaction constructor 
 TOCTitle: 'Transaction constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction.transaction(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidSesidException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSesidException members
 TOCTitle: EsentInvalidSesidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsesidexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: ColumnStream methods (Microsoft.Isam.Esent.Interop)
+title: ColumnStream methods
 TOCTitle: ColumnStream methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnStream
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream_methods(v=EXCHG.10)

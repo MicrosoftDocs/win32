@@ -1,5 +1,5 @@
 ---
-title: EsentRfsNotArmedException members (Microsoft.Isam.Esent.Interop)
+title: EsentRfsNotArmedException members
 TOCTitle: EsentRfsNotArmedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRfsNotArmedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrfsnotarmedexception_members(v=EXCHG.10)

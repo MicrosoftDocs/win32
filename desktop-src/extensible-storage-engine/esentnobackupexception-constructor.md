@@ -1,5 +1,5 @@
 ---
-title: EsentNoBackupException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNoBackupException constructor 
 TOCTitle: 'EsentNoBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoBackupException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnobackupexception.esentnobackupexception(v=EXCHG.10)

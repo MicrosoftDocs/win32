@@ -1,5 +1,5 @@
 ---
-title: EsentIndexMustStayException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexMustStayException class
 TOCTitle: EsentIndexMustStayException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexMustStayException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexmuststayexception(v=EXCHG.10)

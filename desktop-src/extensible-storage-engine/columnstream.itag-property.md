@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.Itag property  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.Itag property 
 TOCTitle: 'Itag property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.Itag
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.itag(v=EXCHG.10)

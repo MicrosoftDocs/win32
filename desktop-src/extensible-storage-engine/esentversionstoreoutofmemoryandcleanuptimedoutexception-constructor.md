@@ -1,5 +1,5 @@
 ---
-title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException constructor 
 TOCTitle: 'EsentVersionStoreOutOfMemoryAndCleanupTimedOutException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryAndCleanupTimedOutException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreoutofmemoryandcleanuptimedoutexception.esentversionstoreoutofmemoryandcleanuptimedoutexception(v=EXCHG.10)

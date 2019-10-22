@@ -1,5 +1,5 @@
 ---
-title: EsentStartingRestoreLogTooHighException methods (Microsoft.Isam.Esent.Interop)
+title: EsentStartingRestoreLogTooHighException methods
 TOCTitle: EsentStartingRestoreLogTooHighException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstartingrestorelogtoohighexception_methods(v=EXCHG.10)

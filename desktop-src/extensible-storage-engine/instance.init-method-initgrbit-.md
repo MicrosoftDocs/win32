@@ -1,5 +1,5 @@
 ---
-title: Instance.Init method (InitGrbit) (Microsoft.Isam.Esent.Interop)
+title: Instance.Init method (InitGrbit)
 TOCTitle: Init method (InitGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init(Microsoft.Isam.Esent.Interop.InitGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.init(v=EXCHG.10)

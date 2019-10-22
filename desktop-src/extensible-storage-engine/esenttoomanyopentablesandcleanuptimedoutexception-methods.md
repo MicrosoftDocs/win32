@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenTablesAndCleanupTimedOutException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenTablesAndCleanupTimedOutException methods
 TOCTitle: EsentTooManyOpenTablesAndCleanupTimedOutException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopentablesandcleanuptimedoutexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Api.GetTableColumns method (JET_SESID, JET_TABLEID) (Microsoft.Isam.Esent.Interop)
+title: Api.GetTableColumns method (JET_SESID, JET_TABLEID)
 TOCTitle: GetTableColumns method (JET_SESID, JET_TABLEID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableColumns(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.gettablecolumns(v=EXCHG.10)

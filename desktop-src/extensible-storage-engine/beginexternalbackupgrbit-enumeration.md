@@ -1,5 +1,5 @@
 ---
-title: BeginExternalBackupGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: BeginExternalBackupGrbit enumeration
 TOCTitle: BeginExternalBackupGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.BeginExternalBackupGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.beginexternalbackupgrbit(v=EXCHG.10)

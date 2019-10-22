@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenDatabasesException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenDatabasesException properties
 TOCTitle: EsentTooManyOpenDatabasesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopendatabasesexception_properties(v=EXCHG.10)

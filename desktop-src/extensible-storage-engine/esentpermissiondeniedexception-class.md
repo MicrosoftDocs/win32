@@ -1,5 +1,5 @@
 ---
-title: EsentPermissionDeniedException class (Microsoft.Isam.Esent.Interop)
+title: EsentPermissionDeniedException class
 TOCTitle: EsentPermissionDeniedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpermissiondeniedexception(v=EXCHG.10)

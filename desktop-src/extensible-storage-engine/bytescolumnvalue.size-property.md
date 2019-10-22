@@ -1,5 +1,5 @@
 ---
-title: BytesColumnValue.Size property  (Microsoft.Isam.Esent.Interop)
+title: BytesColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BytesColumnValue.Size
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.bytescolumnvalue.size(v=EXCHG.10)

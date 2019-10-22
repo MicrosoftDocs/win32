@@ -1,5 +1,5 @@
 ---
-title: EsentSLVReadVerifyFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVReadVerifyFailureException class
 TOCTitle: EsentSLVReadVerifyFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVReadVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvreadverifyfailureexception(v=EXCHG.10)

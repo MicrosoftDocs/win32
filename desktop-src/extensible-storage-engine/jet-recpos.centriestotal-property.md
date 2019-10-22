@@ -1,5 +1,5 @@
 ---
-title: JET_RECPOS.centriesTotal property  (Microsoft.Isam.Esent.Interop)
+title: JET_RECPOS.centriesTotal property 
 TOCTitle: 'centriesTotal property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RECPOS.centriesTotal
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos.centriestotal(v=EXCHG.10)

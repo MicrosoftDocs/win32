@@ -1,5 +1,5 @@
 ﻿---
-title: Api.MakeKey method  (Microsoft.Isam.Esent.Interop)
+title: Api.MakeKey method 
 TOCTitle: 'MakeKey method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.MakeKey
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.makekey(v=EXCHG.10)

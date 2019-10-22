@@ -1,5 +1,5 @@
 ---
-title: JET_OBJECTINFO class (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTINFO class
 TOCTitle: JET_OBJECTINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectinfo(v=EXCHG.10)

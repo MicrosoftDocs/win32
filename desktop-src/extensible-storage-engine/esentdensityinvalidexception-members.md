@@ -1,5 +1,5 @@
 ---
-title: EsentDensityInvalidException members (Microsoft.Isam.Esent.Interop)
+title: EsentDensityInvalidException members
 TOCTitle: EsentDensityInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdensityinvalidexception_members(v=EXCHG.10)

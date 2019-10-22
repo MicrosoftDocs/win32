@@ -1,5 +1,5 @@
 ---
-title: JET_DBID.Equals method (Object) (Microsoft.Isam.Esent.Interop)
+title: JET_DBID.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBID.Equals(System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbid.equals(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseSharingViolationException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseSharingViolationException methods
 TOCTitle: EsentDatabaseSharingViolationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesharingviolationexception_methods(v=EXCHG.10)

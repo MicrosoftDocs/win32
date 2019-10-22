@@ -1,5 +1,5 @@
 ﻿---
-title: JET_SPACEHINTS properties (Microsoft.Isam.Esent.Interop)
+title: JET_SPACEHINTS properties
 TOCTitle: JET_SPACEHINTS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_spacehints_properties(v=EXCHG.10)

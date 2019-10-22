@@ -1,5 +1,5 @@
 ---
-title: EsentCheckpointCorruptException class (Microsoft.Isam.Esent.Interop)
+title: EsentCheckpointCorruptException class
 TOCTitle: EsentCheckpointCorruptException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointcorruptexception(v=EXCHG.10)

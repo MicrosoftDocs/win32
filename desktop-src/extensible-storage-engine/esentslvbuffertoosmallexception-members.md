@@ -1,5 +1,5 @@
 ---
-title: EsentSLVBufferTooSmallException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVBufferTooSmallException members
 TOCTitle: EsentSLVBufferTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvbuffertoosmallexception_members(v=EXCHG.10)

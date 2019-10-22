@@ -1,5 +1,5 @@
 ---
-title: EsentKeyTruncatedException class (Microsoft.Isam.Esent.Interop)
+title: EsentKeyTruncatedException class
 TOCTitle: EsentKeyTruncatedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeytruncatedexception(v=EXCHG.10)

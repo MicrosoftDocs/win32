@@ -1,5 +1,5 @@
 ---
-title: JET_SETCOLUMN.grbit property  (Microsoft.Isam.Esent.Interop)
+title: JET_SETCOLUMN.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.grbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setcolumn.grbit(v=EXCHG.10)

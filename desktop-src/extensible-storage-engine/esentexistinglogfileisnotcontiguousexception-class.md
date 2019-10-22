@@ -1,5 +1,5 @@
 ---
-title: EsentExistingLogFileIsNotContiguousException class (Microsoft.Isam.Esent.Interop)
+title: EsentExistingLogFileIsNotContiguousException class
 TOCTitle: EsentExistingLogFileIsNotContiguousException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileIsNotContiguousException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentexistinglogfileisnotcontiguousexception(v=EXCHG.10)

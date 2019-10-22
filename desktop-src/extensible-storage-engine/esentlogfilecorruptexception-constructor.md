@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileCorruptException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileCorruptException constructor 
 TOCTitle: 'EsentLogFileCorruptException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFileCorruptException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilecorruptexception.esentlogfilecorruptexception(v=EXCHG.10)

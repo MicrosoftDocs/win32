@@ -1,5 +1,5 @@
 ---
-title: EsentVersionStoreEntryTooBigException properties (Microsoft.Isam.Esent.Interop)
+title: EsentVersionStoreEntryTooBigException properties
 TOCTitle: EsentVersionStoreEntryTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreentrytoobigexception_properties(v=EXCHG.10)

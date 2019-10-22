@@ -1,5 +1,5 @@
 ---
-title: BoolColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: BoolColumnValue constructor 
 TOCTitle: 'BoolColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.BoolColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.boolcolumnvalue.boolcolumnvalue(v=EXCHG.10)

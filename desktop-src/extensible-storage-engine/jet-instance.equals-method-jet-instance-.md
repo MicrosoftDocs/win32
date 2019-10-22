@@ -1,5 +1,5 @@
 ---
-title: JET_INSTANCE.Equals method (JET_INSTANCE) (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE.Equals method (JET_INSTANCE)
 TOCTitle: Equals method (JET_INSTANCE)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE.Equals(Microsoft.Isam.Esent.Interop.JET_INSTANCE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance.equals(v=EXCHG.10)

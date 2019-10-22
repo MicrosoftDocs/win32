@@ -1,5 +1,5 @@
 ---
-title: EsentInTransactionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInTransactionException constructor 
 TOCTitle: 'EsentInTransactionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInTransactionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentintransactionexception.esentintransactionexception(v=EXCHG.10)

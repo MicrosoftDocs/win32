@@ -1,5 +1,5 @@
 ---
-title: EsentNoAttachmentsFailedIncrementalReseedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentNoAttachmentsFailedIncrementalReseedException properties
 TOCTitle: EsentNoAttachmentsFailedIncrementalReseedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnoattachmentsfailedincrementalreseedexception_properties(v=EXCHG.10)

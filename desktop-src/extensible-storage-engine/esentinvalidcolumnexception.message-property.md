@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidColumnException.Message property  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidColumnException.Message property 
 TOCTitle: 'Message property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.Message
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcolumnexception.message(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBufferSizeException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBufferSizeException class
 TOCTitle: EsentInvalidBufferSizeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbuffersizeexception(v=EXCHG.10)

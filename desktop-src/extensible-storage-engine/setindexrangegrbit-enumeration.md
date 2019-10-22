@@ -1,5 +1,5 @@
 ---
-title: SetIndexRangeGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: SetIndexRangeGrbit enumeration
 TOCTitle: SetIndexRangeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetIndexRangeGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.setindexrangegrbit(v=EXCHG.10)

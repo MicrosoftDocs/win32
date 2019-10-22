@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyActiveUsersException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyActiveUsersException members
 TOCTitle: EsentTooManyActiveUsersException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyActiveUsersException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyactiveusersexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInvalidPagesException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidPagesException methods
 TOCTitle: EsentDatabaseInvalidPagesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidpagesexception_methods(v=EXCHG.10)

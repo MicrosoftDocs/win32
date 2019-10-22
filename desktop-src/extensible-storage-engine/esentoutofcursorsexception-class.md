@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfCursorsException class (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfCursorsException class
 TOCTitle: EsentOutOfCursorsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfCursorsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofcursorsexception(v=EXCHG.10)

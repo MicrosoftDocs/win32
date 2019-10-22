@@ -1,5 +1,5 @@
 ﻿---
-title: JET_HANDLE properties (Microsoft.Isam.Esent.Interop)
+title: JET_HANDLE properties
 TOCTitle: JET_HANDLE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_HANDLE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle_properties(v=EXCHG.10)

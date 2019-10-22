@@ -1,5 +1,5 @@
 ---
-title: EsentRecordTooBigException class (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigException class
 TOCTitle: EsentRecordTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigexception(v=EXCHG.10)

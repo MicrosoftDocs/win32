@@ -1,5 +1,5 @@
 ﻿---
-title: ByteColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: ByteColumnValue properties
 TOCTitle: ByteColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ByteColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.bytecolumnvalue_properties(v=EXCHG.10)

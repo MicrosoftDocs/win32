@@ -1,5 +1,5 @@
 ---
-title: JET_SETCOLUMN constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_SETCOLUMN constructor 
 TOCTitle: 'JET_SETCOLUMN constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setcolumn.jet_setcolumn(v=EXCHG.10)

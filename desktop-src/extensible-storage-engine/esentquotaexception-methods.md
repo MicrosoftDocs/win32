@@ -1,5 +1,5 @@
 ---
-title: EsentQuotaException methods (Microsoft.Isam.Esent.Interop)
+title: EsentQuotaException methods
 TOCTitle: EsentQuotaException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentQuotaException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentquotaexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_objtyp enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_objtyp enumeration
 TOCTitle: JET_objtyp enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_objtyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objtyp(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentContainerNotEmptyException class (Microsoft.Isam.Esent.Interop)
+title: EsentContainerNotEmptyException class
 TOCTitle: EsentContainerNotEmptyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcontainernotemptyexception(v=EXCHG.10)

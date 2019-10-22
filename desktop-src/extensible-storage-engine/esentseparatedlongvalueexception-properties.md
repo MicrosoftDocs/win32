@@ -1,5 +1,5 @@
 ---
-title: EsentSeparatedLongValueException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSeparatedLongValueException properties
 TOCTitle: EsentSeparatedLongValueException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSeparatedLongValueException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentseparatedlongvalueexception_properties(v=EXCHG.10)

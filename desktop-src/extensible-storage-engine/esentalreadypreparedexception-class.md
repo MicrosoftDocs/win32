@@ -1,5 +1,5 @@
 ---
-title: EsentAlreadyPreparedException class (Microsoft.Isam.Esent.Interop)
+title: EsentAlreadyPreparedException class
 TOCTitle: EsentAlreadyPreparedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentAlreadyPreparedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentalreadypreparedexception(v=EXCHG.10)

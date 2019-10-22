@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLoggedOperationException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLoggedOperationException constructor 
 TOCTitle: 'EsentInvalidLoggedOperationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLoggedOperationException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidloggedoperationexception.esentinvalidloggedoperationexception(v=EXCHG.10)

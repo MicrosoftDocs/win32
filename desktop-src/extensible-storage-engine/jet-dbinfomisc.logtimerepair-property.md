@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.logtimeRepair property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.logtimeRepair property 
 TOCTitle: 'logtimeRepair property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeRepair
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.logtimerepair(v=EXCHG.10)

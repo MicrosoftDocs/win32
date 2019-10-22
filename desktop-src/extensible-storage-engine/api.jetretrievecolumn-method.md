@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetRetrieveColumn method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetRetrieveColumn method 
 TOCTitle: 'JetRetrieveColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetRetrieveColumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetretrievecolumn(v=EXCHG.10)

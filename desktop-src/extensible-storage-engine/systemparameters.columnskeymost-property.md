@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.ColumnsKeyMost property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.ColumnsKeyMost property 
 TOCTitle: 'ColumnsKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnsKeyMost
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.columnskeymost(v=EXCHG.10)

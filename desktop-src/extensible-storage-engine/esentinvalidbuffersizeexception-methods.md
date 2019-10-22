@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBufferSizeException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBufferSizeException methods
 TOCTitle: EsentInvalidBufferSizeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbuffersizeexception_methods(v=EXCHG.10)

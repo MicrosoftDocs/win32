@@ -1,5 +1,5 @@
 ﻿---
-title: IContentEquatable(T) members (Microsoft.Isam.Esent.Interop)
+title: IContentEquatable(T) members
 TOCTitle: IContentEquatable(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578119(v=EXCHG.10)

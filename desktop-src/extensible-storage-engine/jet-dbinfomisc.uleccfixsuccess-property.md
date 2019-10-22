@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC.ulECCFixSuccess property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.ulECCFixSuccess property 
 TOCTitle: 'ulECCFixSuccess property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulECCFixSuccess
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.uleccfixsuccess(v=EXCHG.10)

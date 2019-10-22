@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBackupSequenceException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBackupSequenceException methods
 TOCTitle: EsentInvalidBackupSequenceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbackupsequenceexception_methods(v=EXCHG.10)

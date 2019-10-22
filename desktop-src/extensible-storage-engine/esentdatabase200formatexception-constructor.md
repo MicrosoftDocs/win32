@@ -1,5 +1,5 @@
 ---
-title: EsentDatabase200FormatException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabase200FormatException constructor 
 TOCTitle: 'EsentDatabase200FormatException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase200formatexception.esentdatabase200formatexception(v=EXCHG.10)

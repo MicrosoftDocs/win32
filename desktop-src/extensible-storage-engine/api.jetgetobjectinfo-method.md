@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetGetObjectInfo method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetObjectInfo method 
 TOCTitle: 'JetGetObjectInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetObjectInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetobjectinfo(v=EXCHG.10)

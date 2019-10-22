@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileNotCopiedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileNotCopiedException methods
 TOCTitle: EsentLogFileNotCopiedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilenotcopiedexception_methods(v=EXCHG.10)

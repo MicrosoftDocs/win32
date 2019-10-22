@@ -1,5 +1,5 @@
 ---
-title: JET_INSTANCE_INFO.GetHashCode method  (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE_INFO.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.GetHashCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance_info.gethashcode(v=EXCHG.10)

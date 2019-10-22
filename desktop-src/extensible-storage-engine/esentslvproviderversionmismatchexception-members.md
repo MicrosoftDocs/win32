@@ -1,5 +1,5 @@
 ---
-title: EsentSLVProviderVersionMismatchException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVProviderVersionMismatchException members
 TOCTitle: EsentSLVProviderVersionMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderVersionMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvproviderversionmismatchexception_members(v=EXCHG.10)

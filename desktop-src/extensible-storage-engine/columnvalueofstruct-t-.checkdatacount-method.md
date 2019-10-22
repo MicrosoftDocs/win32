@@ -1,5 +1,5 @@
 ---
-title: ColumnValueOfStruct(T).CheckDataCount method  (Microsoft.Isam.Esent.Interop)
+title: ColumnValueOfStruct(T).CheckDataCount method 
 TOCTitle: 'CheckDataCount method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.CheckDataCount(System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334178(v=EXCHG.10)

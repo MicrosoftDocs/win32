@@ -1,5 +1,5 @@
 ---
-title: EsentSoftRecoveryOnSnapshotException class (Microsoft.Isam.Esent.Interop)
+title: EsentSoftRecoveryOnSnapshotException class
 TOCTitle: EsentSoftRecoveryOnSnapshotException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsoftrecoveryonsnapshotexception(v=EXCHG.10)

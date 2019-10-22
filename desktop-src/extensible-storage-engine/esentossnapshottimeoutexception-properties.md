@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotTimeOutException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotTimeOutException properties
 TOCTitle: EsentOSSnapshotTimeOutException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshottimeoutexception_properties(v=EXCHG.10)

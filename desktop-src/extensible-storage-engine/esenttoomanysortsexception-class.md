@@ -1,5 +1,5 @@
 ---
-title: EsentTooManySortsException class (Microsoft.Isam.Esent.Interop)
+title: EsentTooManySortsException class
 TOCTitle: EsentTooManySortsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanysortsexception(v=EXCHG.10)

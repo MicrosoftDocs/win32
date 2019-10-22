@@ -1,5 +1,5 @@
 ---
-title: RetrieveColumnGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: RetrieveColumnGrbit enumeration
 TOCTitle: RetrieveColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.RetrieveColumnGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.retrievecolumngrbit(v=EXCHG.10)

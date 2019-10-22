@@ -1,5 +1,5 @@
 ---
-title: EsentStateException constructor (String, JET_err) (Microsoft.Isam.Esent.Interop)
+title: EsentStateException constructor (String, JET_err)
 TOCTitle: EsentStateException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStateException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstateexception.esentstateexception(v=EXCHG.10)

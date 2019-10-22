@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenIndexesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenIndexesException constructor 
 TOCTitle: 'EsentTooManyOpenIndexesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenIndexesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopenindexesexception.esenttoomanyopenindexesexception(v=EXCHG.10)

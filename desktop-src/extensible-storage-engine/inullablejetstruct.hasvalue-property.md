@@ -1,5 +1,5 @@
 ---
-title: INullableJetStruct.HasValue property  (Microsoft.Isam.Esent.Interop)
+title: INullableJetStruct.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.INullableJetStruct.HasValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.inullablejetstruct.hasvalue(v=EXCHG.10)

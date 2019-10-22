@@ -1,5 +1,5 @@
 ---
-title: EsentDiskFullException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDiskFullException methods
 TOCTitle: EsentDiskFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDiskFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskfullexception_methods(v=EXCHG.10)

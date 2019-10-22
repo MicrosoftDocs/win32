@@ -1,5 +1,5 @@
 ---
-title: JET_RETRIEVECOLUMN.pvData property  (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN.pvData property 
 TOCTitle: 'pvData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.pvData
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn.pvdata(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInvalidDefException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInvalidDefException properties
 TOCTitle: EsentIndexInvalidDefException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexInvalidDefException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinvaliddefexception_properties(v=EXCHG.10)

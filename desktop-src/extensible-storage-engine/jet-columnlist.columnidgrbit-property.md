@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNLIST.columnidgrbit property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNLIST.columnidgrbit property 
 TOCTitle: 'columnidgrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidgrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnlist.columnidgrbit(v=EXCHG.10)

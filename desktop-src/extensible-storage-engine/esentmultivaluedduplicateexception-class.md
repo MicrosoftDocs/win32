@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateException class (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateException class
 TOCTitle: EsentMultiValuedDuplicateException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateexception(v=EXCHG.10)

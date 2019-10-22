@@ -1,5 +1,5 @@
 ---
-title: EsentIndexCantBuildException methods (Microsoft.Isam.Esent.Interop)
+title: EsentIndexCantBuildException methods
 TOCTitle: EsentIndexCantBuildException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexcantbuildexception_methods(v=EXCHG.10)

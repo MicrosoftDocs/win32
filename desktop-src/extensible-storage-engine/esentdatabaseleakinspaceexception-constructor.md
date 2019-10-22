@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseLeakInSpaceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseLeakInSpaceException constructor 
 TOCTitle: 'EsentDatabaseLeakInSpaceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseleakinspaceexception.esentdatabaseleakinspaceexception(v=EXCHG.10)

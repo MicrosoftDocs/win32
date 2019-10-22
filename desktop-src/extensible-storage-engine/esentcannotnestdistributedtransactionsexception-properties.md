@@ -1,5 +1,5 @@
 ---
-title: EsentCannotNestDistributedTransactionsException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCannotNestDistributedTransactionsException properties
 TOCTitle: EsentCannotNestDistributedTransactionsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotnestdistributedtransactionsexception_properties(v=EXCHG.10)

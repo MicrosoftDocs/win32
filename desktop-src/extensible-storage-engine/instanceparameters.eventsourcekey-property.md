@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.EventSourceKey property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.EventSourceKey property 
 TOCTitle: 'EventSourceKey property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EventSourceKey
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.eventsourcekey(v=EXCHG.10)

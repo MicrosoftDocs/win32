@@ -1,5 +1,5 @@
 ---
-title: ColumnInfo.Grbit property  (Microsoft.Isam.Esent.Interop)
+title: ColumnInfo.Grbit property 
 TOCTitle: 'Grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Grbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo.grbit(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentTooManySortsException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManySortsException members
 TOCTitle: EsentTooManySortsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanysortsexception_members(v=EXCHG.10)

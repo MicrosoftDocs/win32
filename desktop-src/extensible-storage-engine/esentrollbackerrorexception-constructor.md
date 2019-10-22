@@ -1,5 +1,5 @@
 ---
-title: EsentRollbackErrorException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRollbackErrorException constructor 
 TOCTitle: 'EsentRollbackErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRollbackErrorException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrollbackerrorexception.esentrollbackerrorexception(v=EXCHG.10)

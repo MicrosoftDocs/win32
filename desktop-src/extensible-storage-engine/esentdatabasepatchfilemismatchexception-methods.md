@@ -1,5 +1,5 @@
 ---
-title: EsentDatabasePatchFileMismatchException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabasePatchFileMismatchException methods
 TOCTitle: EsentDatabasePatchFileMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasepatchfilemismatchexception_methods(v=EXCHG.10)

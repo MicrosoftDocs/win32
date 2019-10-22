@@ -1,5 +1,5 @@
 ---
-title: EsentPageBoundaryException class (Microsoft.Isam.Esent.Interop)
+title: EsentPageBoundaryException class
 TOCTitle: EsentPageBoundaryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpageboundaryexception(v=EXCHG.10)

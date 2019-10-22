@@ -1,5 +1,5 @@
 ---
-title: EsentDefaultValueTooBigException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDefaultValueTooBigException constructor 
 TOCTitle: 'EsentDefaultValueTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdefaultvaluetoobigexception.esentdefaultvaluetoobigexception(v=EXCHG.10)

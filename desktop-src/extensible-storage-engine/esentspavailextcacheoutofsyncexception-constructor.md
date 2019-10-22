@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCacheOutOfSyncException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCacheOutOfSyncException constructor 
 TOCTitle: 'EsentSPAvailExtCacheOutOfSyncException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcacheoutofsyncexception.esentspavailextcacheoutofsyncexception(v=EXCHG.10)

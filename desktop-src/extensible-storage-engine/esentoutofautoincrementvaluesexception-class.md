@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfAutoincrementValuesException class (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfAutoincrementValuesException class
 TOCTitle: EsentOutOfAutoincrementValuesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfAutoincrementValuesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofautoincrementvaluesexception(v=EXCHG.10)

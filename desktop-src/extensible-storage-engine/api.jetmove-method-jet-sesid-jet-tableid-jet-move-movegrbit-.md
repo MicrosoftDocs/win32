@@ -1,5 +1,5 @@
 ---
-title: Api.JetMove method (JET_SESID, JET_TABLEID, JET_Move, MoveGrbit) (Microsoft.Isam.Esent.Interop)
+title: Api.JetMove method (JET_SESID, JET_TABLEID, JET_Move, MoveGrbit)
 TOCTitle: JetMove method (JET_SESID, JET_TABLEID, JET_Move, MoveGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetMove(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_Move,Microsoft.Isam.Esent.Interop.MoveGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetmove(v=EXCHG.10)

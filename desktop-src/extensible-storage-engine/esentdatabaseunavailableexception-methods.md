@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseUnavailableException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseUnavailableException methods
 TOCTitle: EsentDatabaseUnavailableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseunavailableexception_methods(v=EXCHG.10)

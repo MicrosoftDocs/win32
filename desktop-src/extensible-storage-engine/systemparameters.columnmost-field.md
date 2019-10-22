@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.ColumnMost field (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.ColumnMost field
 TOCTitle: ColumnMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnMost
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.columnmost(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Api.JetOSSnapshotThaw method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetOSSnapshotThaw method 
 TOCTitle: 'JetOSSnapshotThaw method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOSSnapshotThaw(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.SnapshotThawGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetossnapshotthaw(v=EXCHG.10)

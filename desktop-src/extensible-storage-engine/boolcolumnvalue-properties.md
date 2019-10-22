@@ -1,5 +1,5 @@
 ﻿---
-title: BoolColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: BoolColumnValue properties
 TOCTitle: BoolColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.BoolColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.boolcolumnvalue_properties(v=EXCHG.10)

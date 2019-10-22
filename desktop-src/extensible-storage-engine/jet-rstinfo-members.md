@@ -1,5 +1,5 @@
 ---
-title: JET_RSTINFO members (Microsoft.Isam.Esent.Interop)
+title: JET_RSTINFO members
 TOCTitle: JET_RSTINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RSTINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstinfo_members(v=EXCHG.10)

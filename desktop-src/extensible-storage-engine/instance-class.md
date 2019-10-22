@@ -1,5 +1,5 @@
 ---
-title: Instance class (Microsoft.Isam.Esent.Interop)
+title: Instance class
 TOCTitle: Instance class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Instance
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance(v=EXCHG.10)

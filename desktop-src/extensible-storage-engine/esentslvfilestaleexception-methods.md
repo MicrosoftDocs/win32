@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileStaleException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileStaleException methods
 TOCTitle: EsentSLVFileStaleException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfilestaleexception_methods(v=EXCHG.10)

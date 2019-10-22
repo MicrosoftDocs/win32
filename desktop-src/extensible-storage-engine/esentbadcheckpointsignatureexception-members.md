@@ -1,5 +1,5 @@
 ---
-title: EsentBadCheckpointSignatureException members (Microsoft.Isam.Esent.Interop)
+title: EsentBadCheckpointSignatureException members
 TOCTitle: EsentBadCheckpointSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadcheckpointsignatureexception_members(v=EXCHG.10)

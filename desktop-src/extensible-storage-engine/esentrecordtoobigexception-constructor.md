@@ -1,5 +1,5 @@
 ---
-title: EsentRecordTooBigException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigException constructor 
 TOCTitle: 'EsentRecordTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigexception.esentrecordtoobigexception(v=EXCHG.10)

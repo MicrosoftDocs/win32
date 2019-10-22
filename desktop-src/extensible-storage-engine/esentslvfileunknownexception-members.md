@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileUnknownException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileUnknownException members
 TOCTitle: EsentSLVFileUnknownException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileunknownexception_members(v=EXCHG.10)

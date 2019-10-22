@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOBeyondEOFException methods (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOBeyondEOFException methods
 TOCTitle: EsentFileIOBeyondEOFException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiobeyondeofexception_methods(v=EXCHG.10)

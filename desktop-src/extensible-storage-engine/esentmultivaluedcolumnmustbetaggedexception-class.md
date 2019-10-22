@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedColumnMustBeTaggedException class (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedColumnMustBeTaggedException class
 TOCTitle: EsentMultiValuedColumnMustBeTaggedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMultiValuedColumnMustBeTaggedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedcolumnmustbetaggedexception(v=EXCHG.10)

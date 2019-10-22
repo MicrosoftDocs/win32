@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.EnableDbScanInRecovery property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.EnableDbScanInRecovery property 
 TOCTitle: 'EnableDbScanInRecovery property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EnableDbScanInRecovery
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.enabledbscaninrecovery(v=EXCHG.10)

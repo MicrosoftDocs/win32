@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNBASE class (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNBASE class
 TOCTitle: JET_COLUMNBASE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase(v=EXCHG.10)

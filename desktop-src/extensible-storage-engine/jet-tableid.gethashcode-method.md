@@ -1,5 +1,5 @@
 ---
-title: JET_TABLEID.GetHashCode method  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLEID.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.GetHashCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tableid.gethashcode(v=EXCHG.10)

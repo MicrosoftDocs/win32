@@ -1,5 +1,5 @@
 ---
-title: EsentLogReadVerifyFailureException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogReadVerifyFailureException members
 TOCTitle: EsentLogReadVerifyFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogreadverifyfailureexception_members(v=EXCHG.10)

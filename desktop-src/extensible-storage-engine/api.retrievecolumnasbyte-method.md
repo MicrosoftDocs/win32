@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsByte method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsByte method 
 TOCTitle: 'RetrieveColumnAsByte method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsByte
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasbyte(v=EXCHG.10)

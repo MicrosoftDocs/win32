@@ -1,5 +1,5 @@
 ---
-title: GetRecordSizeGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: GetRecordSizeGrbit enumeration
 TOCTitle: GetRecordSizeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.GetRecordSizeGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.getrecordsizegrbit(v=EXCHG.10)

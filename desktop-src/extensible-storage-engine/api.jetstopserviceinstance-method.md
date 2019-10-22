@@ -1,5 +1,5 @@
 ---
-title: Api.JetStopServiceInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetStopServiceInstance method 
 TOCTitle: 'JetStopServiceInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetStopServiceInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetstopserviceinstance(v=EXCHG.10)

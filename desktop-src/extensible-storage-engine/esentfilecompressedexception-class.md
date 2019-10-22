@@ -1,5 +1,5 @@
 ---
-title: EsentFileCompressedException class (Microsoft.Isam.Esent.Interop)
+title: EsentFileCompressedException class
 TOCTitle: EsentFileCompressedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileCompressedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilecompressedexception(v=EXCHG.10)

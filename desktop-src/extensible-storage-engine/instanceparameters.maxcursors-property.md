@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.MaxCursors property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.MaxCursors property 
 TOCTitle: 'MaxCursors property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxCursors
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.maxcursors(v=EXCHG.10)

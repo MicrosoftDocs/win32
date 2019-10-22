@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseUnavailableException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseUnavailableException class
 TOCTitle: EsentDatabaseUnavailableException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseunavailableexception(v=EXCHG.10)

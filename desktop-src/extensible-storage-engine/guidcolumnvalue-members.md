@@ -1,5 +1,5 @@
 ---
-title: GuidColumnValue members (Microsoft.Isam.Esent.Interop)
+title: GuidColumnValue members
 TOCTitle: GuidColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.GuidColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.guidcolumnvalue_members(v=EXCHG.10)

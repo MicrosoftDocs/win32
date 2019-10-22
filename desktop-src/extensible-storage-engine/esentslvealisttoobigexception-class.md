@@ -1,5 +1,5 @@
 ---
-title: EsentSLVEAListTooBigException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVEAListTooBigException class
 TOCTitle: EsentSLVEAListTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvealisttoobigexception(v=EXCHG.10)

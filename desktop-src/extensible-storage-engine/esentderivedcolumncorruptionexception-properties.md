@@ -1,5 +1,5 @@
 ---
-title: EsentDerivedColumnCorruptionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDerivedColumnCorruptionException properties
 TOCTitle: EsentDerivedColumnCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentderivedcolumncorruptionexception_properties(v=EXCHG.10)

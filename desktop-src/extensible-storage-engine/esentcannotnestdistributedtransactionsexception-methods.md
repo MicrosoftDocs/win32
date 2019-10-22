@@ -1,5 +1,5 @@
 ---
-title: EsentCannotNestDistributedTransactionsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentCannotNestDistributedTransactionsException methods
 TOCTitle: EsentCannotNestDistributedTransactionsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotnestdistributedtransactionsexception_methods(v=EXCHG.10)

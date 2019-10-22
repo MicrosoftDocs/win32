@@ -1,5 +1,5 @@
 ---
-title: EsentSeparatedLongValueException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSeparatedLongValueException methods
 TOCTitle: EsentSeparatedLongValueException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSeparatedLongValueException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentseparatedlongvalueexception_methods(v=EXCHG.10)

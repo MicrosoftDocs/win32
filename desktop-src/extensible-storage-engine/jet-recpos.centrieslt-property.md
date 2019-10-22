@@ -1,5 +1,5 @@
 ---
-title: JET_RECPOS.centriesLT property  (Microsoft.Isam.Esent.Interop)
+title: JET_RECPOS.centriesLT property 
 TOCTitle: 'centriesLT property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RECPOS.centriesLT
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos.centrieslt(v=EXCHG.10)

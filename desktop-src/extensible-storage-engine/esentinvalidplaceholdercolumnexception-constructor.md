@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidPlaceholderColumnException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidPlaceholderColumnException constructor 
 TOCTitle: 'EsentInvalidPlaceholderColumnException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidPlaceholderColumnException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidplaceholdercolumnexception.esentinvalidplaceholdercolumnexception(v=EXCHG.10)

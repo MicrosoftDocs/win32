@@ -1,5 +1,5 @@
 ---
-title: JET_UNICODEINDEX constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_UNICODEINDEX constructor 
 TOCTitle: 'JET_UNICODEINDEX constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_unicodeindex.jet_unicodeindex(v=EXCHG.10)

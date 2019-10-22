@@ -1,5 +1,5 @@
 ---
-title: EsentCannotIndexException class (Microsoft.Isam.Esent.Interop)
+title: EsentCannotIndexException class
 TOCTitle: EsentCannotIndexException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotindexexception(v=EXCHG.10)

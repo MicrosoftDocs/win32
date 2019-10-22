@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseStreamingFileMismatchException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseStreamingFileMismatchException constructor 
 TOCTitle: 'EsentDatabaseStreamingFileMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFileMismatchException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasestreamingfilemismatchexception.esentdatabasestreamingfilemismatchexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDecompressionFailedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDecompressionFailedException properties
 TOCTitle: EsentDecompressionFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdecompressionfailedexception_properties(v=EXCHG.10)

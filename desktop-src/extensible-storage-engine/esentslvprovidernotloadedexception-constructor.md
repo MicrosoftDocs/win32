@@ -1,5 +1,5 @@
 ---
-title: EsentSLVProviderNotLoadedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVProviderNotLoadedException constructor 
 TOCTitle: 'EsentSLVProviderNotLoadedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvprovidernotloadedexception.esentslvprovidernotloadedexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.VersionStoreTaskQueueMax property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.VersionStoreTaskQueueMax property 
 TOCTitle: 'VersionStoreTaskQueueMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.VersionStoreTaskQueueMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.versionstoretaskqueuemax(v=EXCHG.10)

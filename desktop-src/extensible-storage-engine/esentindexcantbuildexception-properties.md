@@ -1,5 +1,5 @@
 ---
-title: EsentIndexCantBuildException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIndexCantBuildException properties
 TOCTitle: EsentIndexCantBuildException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexcantbuildexception_properties(v=EXCHG.10)

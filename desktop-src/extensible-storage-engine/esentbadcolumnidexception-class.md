@@ -1,5 +1,5 @@
 ---
-title: EsentBadColumnIdException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadColumnIdException class
 TOCTitle: EsentBadColumnIdException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadcolumnidexception(v=EXCHG.10)

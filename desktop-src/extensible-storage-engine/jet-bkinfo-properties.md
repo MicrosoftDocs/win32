@@ -1,5 +1,5 @@
 ﻿---
-title: JET_BKINFO properties (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO properties
 TOCTitle: JET_BKINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_BKINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo_properties(v=EXCHG.10)

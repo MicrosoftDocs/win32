@@ -1,5 +1,5 @@
 ---
-title: IndexSegment.Equals method (IndexSegment) (Microsoft.Isam.Esent.Interop)
+title: IndexSegment.Equals method (IndexSegment)
 TOCTitle: Equals method (IndexSegment)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IndexSegment.Equals(Microsoft.Isam.Esent.Interop.IndexSegment)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment.equals(v=EXCHG.10)

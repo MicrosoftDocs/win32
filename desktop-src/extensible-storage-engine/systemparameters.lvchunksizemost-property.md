@@ -1,5 +1,5 @@
 ---
-title: SystemParameters.LVChunkSizeMost property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.LVChunkSizeMost property 
 TOCTitle: 'LVChunkSizeMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.LVChunkSizeMost
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.lvchunksizemost(v=EXCHG.10)

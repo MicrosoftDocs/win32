@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInvalidDefException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInvalidDefException class
 TOCTitle: EsentIndexInvalidDefException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexInvalidDefException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinvaliddefexception(v=EXCHG.10)

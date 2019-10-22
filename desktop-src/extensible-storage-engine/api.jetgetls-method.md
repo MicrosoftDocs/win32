@@ -1,5 +1,5 @@
 ---
-title: Api.JetGetLS method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetLS method 
 TOCTitle: 'JetGetLS method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetLS(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_LS@,Microsoft.Isam.Esent.Interop.LsGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetls(v=EXCHG.10)

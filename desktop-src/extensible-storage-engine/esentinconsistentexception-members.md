@@ -1,5 +1,5 @@
 ---
-title: EsentInconsistentException members (Microsoft.Isam.Esent.Interop)
+title: EsentInconsistentException members
 TOCTitle: EsentInconsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInconsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinconsistentexception_members(v=EXCHG.10)

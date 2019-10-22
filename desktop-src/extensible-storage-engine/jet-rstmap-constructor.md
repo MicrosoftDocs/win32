@@ -1,5 +1,5 @@
 ---
-title: JET_RSTMAP constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_RSTMAP constructor 
 TOCTitle: 'JET_RSTMAP constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RSTMAP.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstmap.jet_rstmap(v=EXCHG.10)

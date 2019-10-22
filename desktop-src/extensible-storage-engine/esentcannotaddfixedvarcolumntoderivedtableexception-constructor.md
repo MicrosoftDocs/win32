@@ -1,5 +1,5 @@
 ---
-title: EsentCannotAddFixedVarColumnToDerivedTableException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCannotAddFixedVarColumnToDerivedTableException constructor 
 TOCTitle: 'EsentCannotAddFixedVarColumnToDerivedTableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotAddFixedVarColumnToDerivedTableException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotaddfixedvarcolumntoderivedtableexception.esentcannotaddfixedvarcolumntoderivedtableexception(v=EXCHG.10)

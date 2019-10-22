@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidSystemPathException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSystemPathException class
 TOCTitle: EsentInvalidSystemPathException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsystempathexception(v=EXCHG.10)

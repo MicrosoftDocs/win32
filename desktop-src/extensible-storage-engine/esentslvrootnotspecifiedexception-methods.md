@@ -1,5 +1,5 @@
 ---
-title: EsentSLVRootNotSpecifiedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootNotSpecifiedException methods
 TOCTitle: EsentSLVRootNotSpecifiedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootnotspecifiedexception_methods(v=EXCHG.10)

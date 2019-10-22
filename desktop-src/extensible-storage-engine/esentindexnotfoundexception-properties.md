@@ -1,5 +1,5 @@
 ---
-title: EsentIndexNotFoundException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIndexNotFoundException properties
 TOCTitle: EsentIndexNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexnotfoundexception_properties(v=EXCHG.10)

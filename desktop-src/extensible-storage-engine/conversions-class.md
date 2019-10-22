@@ -1,5 +1,5 @@
 ---
-title: Conversions class (Microsoft.Isam.Esent.Interop)
+title: Conversions class
 TOCTitle: Conversions class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Conversions
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.conversions(v=EXCHG.10)

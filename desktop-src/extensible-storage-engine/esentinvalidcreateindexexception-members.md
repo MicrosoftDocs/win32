@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCreateIndexException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCreateIndexException members
 TOCTitle: EsentInvalidCreateIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcreateindexexception_members(v=EXCHG.10)

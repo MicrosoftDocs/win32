@@ -1,5 +1,5 @@
 ---
-title: EsentPageBoundaryException methods (Microsoft.Isam.Esent.Interop)
+title: EsentPageBoundaryException methods
 TOCTitle: EsentPageBoundaryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpageboundaryexception_methods(v=EXCHG.10)

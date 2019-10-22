@@ -1,5 +1,5 @@
 ---
-title: EsentColumnLongException class (Microsoft.Isam.Esent.Interop)
+title: EsentColumnLongException class
 TOCTitle: EsentColumnLongException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnLongException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnlongexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentFeatureNotAvailableException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFeatureNotAvailableException constructor 
 TOCTitle: 'EsentFeatureNotAvailableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfeaturenotavailableexception.esentfeaturenotavailableexception(v=EXCHG.10)

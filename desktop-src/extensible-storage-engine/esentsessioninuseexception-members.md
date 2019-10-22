@@ -1,5 +1,5 @@
 ---
-title: EsentSessionInUseException members (Microsoft.Isam.Esent.Interop)
+title: EsentSessionInUseException members
 TOCTitle: EsentSessionInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioninuseexception_members(v=EXCHG.10)

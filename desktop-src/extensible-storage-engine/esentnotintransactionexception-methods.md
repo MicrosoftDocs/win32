@@ -1,5 +1,5 @@
 ---
-title: EsentNotInTransactionException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNotInTransactionException methods
 TOCTitle: EsentNotInTransactionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNotInTransactionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnotintransactionexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDataHasChangedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDataHasChangedException constructor 
 TOCTitle: 'EsentDataHasChangedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatahaschangedexception.esentdatahaschangedexception(v=EXCHG.10)

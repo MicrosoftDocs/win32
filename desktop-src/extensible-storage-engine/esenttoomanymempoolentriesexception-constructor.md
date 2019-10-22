@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyMempoolEntriesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyMempoolEntriesException constructor 
 TOCTitle: 'EsentTooManyMempoolEntriesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanymempoolentriesexception.esenttoomanymempoolentriesexception(v=EXCHG.10)

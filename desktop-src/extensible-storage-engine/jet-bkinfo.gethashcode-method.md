@@ -1,5 +1,5 @@
 ---
-title: JET_BKINFO.GetHashCode method  (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKINFO.GetHashCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo.gethashcode(v=EXCHG.10)

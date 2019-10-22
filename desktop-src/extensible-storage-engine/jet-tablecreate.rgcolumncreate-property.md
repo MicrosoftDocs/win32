@@ -1,5 +1,5 @@
 ---
-title: JET_TABLECREATE.rgcolumncreate property  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE.rgcolumncreate property 
 TOCTitle: 'rgcolumncreate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.rgcolumncreate
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.rgcolumncreate(v=EXCHG.10)

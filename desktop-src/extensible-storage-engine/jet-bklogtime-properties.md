@@ -1,5 +1,5 @@
 ﻿---
-title: JET_BKLOGTIME properties (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME properties
 TOCTitle: JET_BKLOGTIME properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime_properties(v=EXCHG.10)

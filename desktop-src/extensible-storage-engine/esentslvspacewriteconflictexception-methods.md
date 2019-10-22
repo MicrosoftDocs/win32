@@ -1,5 +1,5 @@
 ---
-title: EsentSLVSpaceWriteConflictException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVSpaceWriteConflictException methods
 TOCTitle: EsentSLVSpaceWriteConflictException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceWriteConflictException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvspacewriteconflictexception_methods(v=EXCHG.10)

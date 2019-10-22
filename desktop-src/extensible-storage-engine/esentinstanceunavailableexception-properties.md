@@ -1,5 +1,5 @@
 ---
-title: EsentInstanceUnavailableException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInstanceUnavailableException properties
 TOCTitle: EsentInstanceUnavailableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstanceunavailableexception_properties(v=EXCHG.10)

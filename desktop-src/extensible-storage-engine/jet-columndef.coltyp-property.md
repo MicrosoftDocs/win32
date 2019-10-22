@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNDEF.coltyp property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNDEF.coltyp property 
 TOCTitle: 'coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.coltyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columndef.coltyp(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentBadEmptyPageException members (Microsoft.Isam.Esent.Interop)
+title: EsentBadEmptyPageException members
 TOCTitle: EsentBadEmptyPageException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbademptypageexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfSequentialIndexValuesException members (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSequentialIndexValuesException members
 TOCTitle: EsentOutOfSequentialIndexValuesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsequentialindexvaluesexception_members(v=EXCHG.10)

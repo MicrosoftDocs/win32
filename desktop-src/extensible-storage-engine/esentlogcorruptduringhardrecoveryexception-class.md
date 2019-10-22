@@ -1,5 +1,5 @@
 ---
-title: EsentLogCorruptDuringHardRecoveryException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogCorruptDuringHardRecoveryException class
 TOCTitle: EsentLogCorruptDuringHardRecoveryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRecoveryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogcorruptduringhardrecoveryexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_OBJECTLIST methods (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTLIST methods
 TOCTitle: JET_OBJECTLIST methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectlist_methods(v=EXCHG.10)

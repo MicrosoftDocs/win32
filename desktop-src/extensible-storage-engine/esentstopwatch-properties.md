@@ -1,5 +1,5 @@
 ﻿---
-title: EsentStopwatch properties (Microsoft.Isam.Esent.Interop)
+title: EsentStopwatch properties
 TOCTitle: EsentStopwatch properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStopwatch
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstopwatch_properties(v=EXCHG.10)

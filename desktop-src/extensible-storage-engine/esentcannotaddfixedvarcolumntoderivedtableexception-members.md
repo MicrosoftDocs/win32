@@ -1,5 +1,5 @@
 ---
-title: EsentCannotAddFixedVarColumnToDerivedTableException members (Microsoft.Isam.Esent.Interop)
+title: EsentCannotAddFixedVarColumnToDerivedTableException members
 TOCTitle: EsentCannotAddFixedVarColumnToDerivedTableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotAddFixedVarColumnToDerivedTableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotaddfixedvarcolumntoderivedtableexception_members(v=EXCHG.10)

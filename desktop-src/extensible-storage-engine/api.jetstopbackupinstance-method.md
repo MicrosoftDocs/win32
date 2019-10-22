@@ -1,5 +1,5 @@
 ---
-title: Api.JetStopBackupInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetStopBackupInstance method 
 TOCTitle: 'JetStopBackupInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetStopBackupInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetstopbackupinstance(v=EXCHG.10)

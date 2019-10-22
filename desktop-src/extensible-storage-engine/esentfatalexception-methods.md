@@ -1,5 +1,5 @@
 ---
-title: EsentFatalException methods (Microsoft.Isam.Esent.Interop)
+title: EsentFatalException methods
 TOCTitle: EsentFatalException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFatalException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfatalexception_methods(v=EXCHG.10)

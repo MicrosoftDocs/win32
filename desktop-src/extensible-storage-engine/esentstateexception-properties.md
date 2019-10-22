@@ -1,5 +1,5 @@
 ---
-title: EsentStateException properties (Microsoft.Isam.Esent.Interop)
+title: EsentStateException properties
 TOCTitle: EsentStateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstateexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseLockedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseLockedException properties
 TOCTitle: EsentDatabaseLockedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaselockedexception_properties(v=EXCHG.10)

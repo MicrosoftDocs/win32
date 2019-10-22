@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLanguageIdException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLanguageIdException members
 TOCTitle: EsentInvalidLanguageIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlanguageidexception_members(v=EXCHG.10)

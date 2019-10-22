@@ -1,5 +1,5 @@
 ---
-title: EsentUnicodeTranslationBufferTooSmallException class (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeTranslationBufferTooSmallException class
 TOCTitle: EsentUnicodeTranslationBufferTooSmallException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodetranslationbuffertoosmallexception(v=EXCHG.10)

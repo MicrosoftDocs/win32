@@ -1,5 +1,5 @@
 ﻿---
-title: EsentInconsistentException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInconsistentException constructor 
 TOCTitle: 'EsentInconsistentException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentInconsistentException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinconsistentexception.esentinconsistentexception(v=EXCHG.10)

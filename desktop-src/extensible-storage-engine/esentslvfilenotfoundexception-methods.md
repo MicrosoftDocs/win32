@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileNotFoundException methods
 TOCTitle: EsentSLVFileNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfilenotfoundexception_methods(v=EXCHG.10)

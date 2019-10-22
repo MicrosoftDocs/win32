@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXLIST constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXLIST constructor 
 TOCTitle: 'JET_INDEXLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexlist.jet_indexlist(v=EXCHG.10)

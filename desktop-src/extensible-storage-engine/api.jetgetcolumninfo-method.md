@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetGetColumnInfo method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetColumnInfo method 
 TOCTitle: 'JetGetColumnInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetColumnInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetcolumninfo(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentFixedInheritedDDLException methods (Microsoft.Isam.Esent.Interop)
+title: EsentFixedInheritedDDLException methods
 TOCTitle: EsentFixedInheritedDDLException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfixedinheritedddlexception_methods(v=EXCHG.10)

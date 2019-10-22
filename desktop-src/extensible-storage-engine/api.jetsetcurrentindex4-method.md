@@ -1,5 +1,5 @@
 ---
-title: Api.JetSetCurrentIndex4 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetSetCurrentIndex4 method 
 TOCTitle: 'JetSetCurrentIndex4 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetCurrentIndex4(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,Microsoft.Isam.Esent.Interop.JET_INDEXID,Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetsetcurrentindex4(v=EXCHG.10)

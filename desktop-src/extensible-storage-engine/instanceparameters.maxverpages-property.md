@@ -1,5 +1,5 @@
 ---
-title: InstanceParameters.MaxVerPages property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.MaxVerPages property 
 TOCTitle: 'MaxVerPages property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxVerPages
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.maxverpages(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBookmarkException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBookmarkException members
 TOCTitle: EsentInvalidBookmarkException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbookmarkexception_members(v=EXCHG.10)

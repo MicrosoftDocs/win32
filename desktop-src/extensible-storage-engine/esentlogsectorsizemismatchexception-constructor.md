@@ -1,5 +1,5 @@
 ---
-title: EsentLogSectorSizeMismatchException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogSectorSizeMismatchException constructor 
 TOCTitle: 'EsentLogSectorSizeMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsectorsizemismatchexception.esentlogsectorsizemismatchexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentMemoryException members (Microsoft.Isam.Esent.Interop)
+title: EsentMemoryException members
 TOCTitle: EsentMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmemoryexception_members(v=EXCHG.10)

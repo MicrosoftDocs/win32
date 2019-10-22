@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyTestInjectionsException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyTestInjectionsException properties
 TOCTitle: EsentTooManyTestInjectionsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyTestInjectionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanytestinjectionsexception_properties(v=EXCHG.10)

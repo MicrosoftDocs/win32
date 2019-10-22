@@ -1,5 +1,5 @@
 ---
-title: EsentStopwatch.Reset method  (Microsoft.Isam.Esent.Interop)
+title: EsentStopwatch.Reset method 
 TOCTitle: 'Reset method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.Reset
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstopwatch.reset(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: EsentAlreadyInitializedException members (Microsoft.Isam.Esent.Interop)
+title: EsentAlreadyInitializedException members
 TOCTitle: EsentAlreadyInitializedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentAlreadyInitializedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentalreadyinitializedexception_members(v=EXCHG.10)

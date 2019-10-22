@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNLIST.columnidcbMax property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNLIST.columnidcbMax property 
 TOCTitle: 'columnidcbMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidcbMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnlist.columnidcbmax(v=EXCHG.10)

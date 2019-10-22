@@ -1,5 +1,5 @@
 ---
-title: EsentTooManySortsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTooManySortsException methods
 TOCTitle: EsentTooManySortsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanysortsexception_methods(v=EXCHG.10)

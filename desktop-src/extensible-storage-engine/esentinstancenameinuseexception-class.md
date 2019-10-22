@@ -1,5 +1,5 @@
 ---
-title: EsentInstanceNameInUseException class (Microsoft.Isam.Esent.Interop)
+title: EsentInstanceNameInUseException class
 TOCTitle: EsentInstanceNameInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstancenameinuseexception(v=EXCHG.10)

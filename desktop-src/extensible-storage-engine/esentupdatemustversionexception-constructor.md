@@ -1,5 +1,5 @@
 ---
-title: EsentUpdateMustVersionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentUpdateMustVersionException constructor 
 TOCTitle: 'EsentUpdateMustVersionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentupdatemustversionexception.esentupdatemustversionexception(v=EXCHG.10)

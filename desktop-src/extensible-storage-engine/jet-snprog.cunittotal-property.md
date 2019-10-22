@@ -1,5 +1,5 @@
 ---
-title: JET_SNPROG.cunitTotal property  (Microsoft.Isam.Esent.Interop)
+title: JET_SNPROG.cunitTotal property 
 TOCTitle: 'cunitTotal property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SNPROG.cunitTotal
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_snprog.cunittotal(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_RECPOS constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_RECPOS constructor 
 TOCTitle: 'JET_RECPOS constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECPOS.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos.jet_recpos(v=EXCHG.10)

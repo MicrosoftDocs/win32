@@ -1,5 +1,5 @@
 ---
-title: EsentFileInvalidTypeException properties (Microsoft.Isam.Esent.Interop)
+title: EsentFileInvalidTypeException properties
 TOCTitle: EsentFileInvalidTypeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileinvalidtypeexception_properties(v=EXCHG.10)

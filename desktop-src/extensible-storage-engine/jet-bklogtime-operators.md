@@ -1,5 +1,5 @@
 ﻿---
-title: JET_BKLOGTIME operators (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME operators
 TOCTitle: JET_BKLOGTIME operators
 ms:assetid: 633be928-2fde-b1cf-2761-b64764fd01b4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578711(v=EXCHG.10)

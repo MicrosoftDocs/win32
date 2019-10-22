@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfThreadsException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfThreadsException constructor 
 TOCTitle: 'EsentOutOfThreadsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfThreadsException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofthreadsexception.esentoutofthreadsexception(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: JET_RECORDLIST methods (Microsoft.Isam.Esent.Interop)
+title: JET_RECORDLIST methods
 TOCTitle: JET_RECORDLIST methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recordlist_methods(v=EXCHG.10)

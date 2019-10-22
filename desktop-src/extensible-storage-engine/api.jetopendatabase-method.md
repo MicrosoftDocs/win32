@@ -1,5 +1,5 @@
 ---
-title: Api.JetOpenDatabase method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetOpenDatabase method 
 TOCTitle: 'JetOpenDatabase method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOpenDatabase(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,System.String,Microsoft.Isam.Esent.Interop.JET_DBID@,Microsoft.Isam.Esent.Interop.OpenDatabaseGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetopendatabase(v=EXCHG.10)

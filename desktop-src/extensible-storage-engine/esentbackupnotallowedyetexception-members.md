@@ -1,5 +1,5 @@
 ---
-title: EsentBackupNotAllowedYetException members (Microsoft.Isam.Esent.Interop)
+title: EsentBackupNotAllowedYetException members
 TOCTitle: EsentBackupNotAllowedYetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupNotAllowedYetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupnotallowedyetexception_members(v=EXCHG.10)

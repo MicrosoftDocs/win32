@@ -1,5 +1,5 @@
 ---
-title: EsentKeyTooBigException properties (Microsoft.Isam.Esent.Interop)
+title: EsentKeyTooBigException properties
 TOCTitle: EsentKeyTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeytoobigexception_properties(v=EXCHG.10)

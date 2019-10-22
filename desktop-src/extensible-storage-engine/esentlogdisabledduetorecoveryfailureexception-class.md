@@ -1,5 +1,5 @@
 ---
-title: EsentLogDisabledDueToRecoveryFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentLogDisabledDueToRecoveryFailureException class
 TOCTitle: EsentLogDisabledDueToRecoveryFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogdisabledduetorecoveryfailureexception(v=EXCHG.10)

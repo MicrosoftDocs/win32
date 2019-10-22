@@ -1,5 +1,5 @@
 ---
-title: EsentStartingRestoreLogTooHighException class (Microsoft.Isam.Esent.Interop)
+title: EsentStartingRestoreLogTooHighException class
 TOCTitle: EsentStartingRestoreLogTooHighException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstartingrestorelogtoohighexception(v=EXCHG.10)

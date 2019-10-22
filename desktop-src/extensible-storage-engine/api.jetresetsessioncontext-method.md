@@ -1,5 +1,5 @@
 ---
-title: Api.JetResetSessionContext method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetResetSessionContext method 
 TOCTitle: 'JetResetSessionContext method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetResetSessionContext(Microsoft.Isam.Esent.Interop.JET_SESID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetresetsessioncontext(v=EXCHG.10)

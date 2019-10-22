@@ -1,5 +1,5 @@
 ---
-title: IndexSegment.ToString method  (Microsoft.Isam.Esent.Interop)
+title: IndexSegment.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IndexSegment.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment.tostring(v=EXCHG.10)

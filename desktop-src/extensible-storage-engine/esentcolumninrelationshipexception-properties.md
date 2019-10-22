@@ -1,5 +1,5 @@
 ---
-title: EsentColumnInRelationshipException properties (Microsoft.Isam.Esent.Interop)
+title: EsentColumnInRelationshipException properties
 TOCTitle: EsentColumnInRelationshipException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnInRelationshipException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumninrelationshipexception_properties(v=EXCHG.10)

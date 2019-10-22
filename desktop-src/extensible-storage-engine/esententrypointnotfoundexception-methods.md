@@ -1,5 +1,5 @@
 ---
-title: EsentEntryPointNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentEntryPointNotFoundException methods
 TOCTitle: EsentEntryPointNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esententrypointnotfoundexception_methods(v=EXCHG.10)

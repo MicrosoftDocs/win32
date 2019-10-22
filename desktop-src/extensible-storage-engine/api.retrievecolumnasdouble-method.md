@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsDouble method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsDouble method 
 TOCTitle: 'RetrieveColumnAsDouble method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsDouble
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasdouble(v=EXCHG.10)

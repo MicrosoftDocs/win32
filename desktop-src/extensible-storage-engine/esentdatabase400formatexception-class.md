@@ -1,5 +1,5 @@
 ---
-title: EsentDatabase400FormatException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabase400FormatException class
 TOCTitle: EsentDatabase400FormatException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabase400FormatException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase400formatexception(v=EXCHG.10)

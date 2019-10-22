@@ -1,5 +1,5 @@
 ---
-title: EsentSessionSharingViolationException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSessionSharingViolationException methods
 TOCTitle: EsentSessionSharingViolationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessionsharingviolationexception_methods(v=EXCHG.10)

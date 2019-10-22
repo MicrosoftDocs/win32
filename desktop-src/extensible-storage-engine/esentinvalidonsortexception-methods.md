@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidOnSortException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidOnSortException methods
 TOCTitle: EsentInvalidOnSortException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidonsortexception_methods(v=EXCHG.10)
