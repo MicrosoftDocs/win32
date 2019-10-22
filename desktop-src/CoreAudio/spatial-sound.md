@@ -12,10 +12,11 @@ Windows Sonic is Microsoft’s platform-level solution for spatial sound support
 
 Spatial sound with Windows Sonic supports TVs, home theaters, and sound bars that support Dolby Atmos. Spatial sound can also be used with any pair of headphones the consumer may own, with audio rendered by the platform using Windows Sonic for Headphones or Dolby Atmos for Headphones.
 
-## Enabling Windows Sonic on Windows and Xbox One
+## Enabling Windows Sonic
 
 Whether as a developer or a consumer, a user must enable Windows Sonic on their device in order to hear spatialized sound.
 
+### Windows
 On Windows PCs, this is done via the properties page for a given sound output device. From the **Sound** control panel, select a playback device and click **Properties**. In the page that opens, starting with Windows 10, version 1703, there is a **Spatial sound** tab. If the device supports spatial sound, you can select one of the available formats from the dropdown.
 
 ![enable spatial sound in the sound control panel](images/spatialsoundsettings2.png)
@@ -24,6 +25,7 @@ You can also enable Windows Sonic by right-clicking the **Volume** icon in the t
 
 ![enable spatial sound from the taskbar](images/spatialsoundsettings1.png)
 
+### Xbox One
 On Xbox One, Windows Sonic capabilities are always available for the consumer, and are enabled via the Settings App -> Audio.
 
 ![enable spatial sound on xbox one in the settings app ](images/spatialsoundsettings3.png)
@@ -34,7 +36,7 @@ The “Turn on 7.1 virtual surround sound” (Windows) or “Use virtual surroun
 
 When Windows Sonic is not available (for instance, when playing to embedded laptop stereo speakers, or if the user has not explicitly enabled Windows Sonic per above), the number of available dynamic objects returned by [**ISpatialAudioClient::GetMaxDynamicObjectCount**](/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount) to an application will be 0.
 
-## Windows Sonic on HoloLens 2
+### HoloLens 2
 
 On HoloLens 2 Windows Sonic is enabled by default and uses hardware DSP offload designed specifically for Windows Sonic for Headphones.
 
@@ -68,25 +70,15 @@ Renderers can also mix and match between these approaches.
 
 ## Windows Sonic Runtime Resource Implications
 
-#### Windows (Software) and Xbox One (Hardware)
-
 On Windows and Xbox, the number of available voices varies based on the format in use. Dolby Atmos formats support 32 total active objects (so if a 7.1.4 channel bed is in use, 20 additional dynamic sound objects can be active). Windows Sonic for Headphones supports 128 total active objects, with the Low Frequency Effects (LFE) channel not actually being counted as an object -- so when an 8.1.4.4 channel bed is in use, 112 dynamic sound objects can be active.
 
 For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
 
-| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects |
-|:------:|:------:|:------:|
-| Dolby Atmos (HDMI) | 12 (7.1.4) | 20 |
-| Dolby Atmos (Headphones) | 16 (7.1.4.4) | 16 |
-| Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 112 |
-
-#### HoloLens 2 (Hardware)
-
-HoloLens 2 only supports Windows Sonic for Headphones.
-
-| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects |
-|:------:|:------:|:------:|
-| Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 31 |
+| Format                       | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2
+|------------------------------|----------------------------------|-------------------------------------------|------------------------------------------|------------------------------------------|
+| Dolby Atmos (HDMI)           | 12 (7.1.4)                       | 20                                        | 20                                       | NA |
+| Dolby Atmos (headphones)     | 16 (7.1.4.4)                     | 16                                        | 16                                       | NA |
+| Windows Sonic for Headphones | 16<sup>\*</sup> (8.1.4.4)        | 16                                        | 112                                      | 31 |
 
 <sup>\*</sup> The LFE channel is not counted as a dynamic object for processing purposes.
 
