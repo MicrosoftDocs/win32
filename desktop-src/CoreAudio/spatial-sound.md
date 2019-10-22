@@ -74,7 +74,7 @@ On Windows and Xbox, the number of available voices varies based on the format i
 
 For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
 | Format | Max Static Objects (Channel Bed) | Max Dynamic Objects |
-|:------:|:------:|:------:|:------:|
+|:------:|:------:|:------:|
 | Dolby Atmos (HDMI) | 12 (7.1.4) | 20 |
 | Dolby Atmos for Headphones | 16 (7.1.4.4) | 16 |
 | Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 112 |
@@ -84,7 +84,7 @@ For Universal Windows Platform apps running on Xbox One game consoles, realtime 
 HoloLens 2 only supports Windows Sonic for Headphones.
 
 | Format | Max Static Objects (Channel Bed) | Max Dynamic Objects |
-|:------:|:------:|:------:|:------:|
+|:------:|:------:|:------:|
 | Windows Sonic for Headphones | 16<sup>\*</sup>(8.1.4.4) | 31 |
 
 <sup>\*</sup> The LFE channel is not counted as a dynamic object for processing purposes.
