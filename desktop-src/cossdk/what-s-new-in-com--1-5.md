@@ -82,9 +82,8 @@ COM+ network access is disabled by default on Windows Server 2003, meaning that
 
 DTC network transactions access is disabled by default on Windows Server 2003. On these platforms, the DTC can perform only local transactions by default. Use the following procedure to enable network DTC access.
 
-> [!Note] You can also enable network DTC access by using the Component Services administrative tool or programmatically through the COM+ Administration Library. For procedural information, see "Configuring DTC Security" in the Component Services Administration Help.
-
- 
+> [!NOTE]
+> You can also enable network DTC access by using the Component Services administrative tool or programmatically through the COM+ Administration Library. For procedural information, see "Configuring DTC Security" in the Component Services Administration Help.
 
 **To enable network DTC access**
 
