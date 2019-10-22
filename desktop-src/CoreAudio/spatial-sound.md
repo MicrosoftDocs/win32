@@ -77,7 +77,7 @@ For Universal Windows Platform apps running on Xbox One game consoles, realtime 
 | Format                       | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2
 |------------------------------|----------------------------------|-------------------------------------------|------------------------------------------|------------------------------------------|
 | Dolby Atmos (HDMI)           | 12 (7.1.4)                       | 20                                        | 20                                       | NA |
-| Dolby Atmos (headphones)     | 16 (7.1.4.4)                     | 16                                        | 16                                       | NA |
+| Dolby Atmos (Headphones)     | 16 (7.1.4.4)                     | 16                                        | 16                                       | NA |
 | Windows Sonic for Headphones | 16<sup>\*</sup> (8.1.4.4)        | 16                                        | 112                                      | 31 |
 
 <sup>\*</sup> The LFE channel is not counted as a dynamic object for processing purposes.
