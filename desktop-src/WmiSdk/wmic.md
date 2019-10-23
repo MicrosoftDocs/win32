@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # wmic
 
-The WMI command-line (WMIC) utility provides a command-line interface for WMI (Windows Management Instrumentation). WMIC is compatible with existing shells and utility commands. The following is a general reference topic for wmic. For more information and guidelines on how to use mic, including additional information on aliases, verbs, switches, and commands, see [Using Windows Management Instrumentation Command-line](https://TechNet.Microsoft.Com/library/cc779482.aspx) and [WMIC - Take Command-line Control over WMI](https://TechNet.Microsoft.Com/library/bb742610.aspx).
+The WMI command-line (WMIC) utility provides a command-line interface for Windows Management Instrumentation (WMI). WMIC is compatible with existing shells and utility commands. The following is a general reference topic for WMIC. For more information and guidelines on how to use WMIC, including additional information on aliases, verbs, switches, and commands, see [Using Windows Management Instrumentation Command-line](https://TechNet.Microsoft.Com/library/cc779482.aspx) and [WMIC - Take Command-line Control over WMI](https://TechNet.Microsoft.Com/library/bb742610.aspx).
 
 ## Alias
 
