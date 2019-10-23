@@ -62,7 +62,7 @@ The **ServerValidationParameters** complex type contains information about how t
 
 | Name                    | Type    | Description                                                                                                                                                                                                                  |
 |-------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PerformServerValidation | boolean | Windows 7 or leter: Indicates whether server validation is performed. The [**PerformServerValidation**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md) element is optional.<br/> |
+| PerformServerValidation | boolean | Windows 7 or later: Indicates whether server validation is performed. The [**PerformServerValidation**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md) element is optional.<br/> |
 
 
 
