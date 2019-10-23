@@ -3,7 +3,7 @@ Description: Removes a computer system from a domain or workgroup.
 ms.assetid: 79ee177e-81e2-441b-b39a-2fb53a0145bf
 ms.tgt_platform: multiple
 title: UnjoinDomainOrWorkgroup method of the Win32_ComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

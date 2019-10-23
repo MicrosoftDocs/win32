@@ -2,7 +2,7 @@
 Description: The ReadyState property retrieves the ReadyState of the MSWebDVD object.
 ms.assetid: e43b0fa4-4a5a-4492-a6a9-bf271f58e11b
 title: ReadyState Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

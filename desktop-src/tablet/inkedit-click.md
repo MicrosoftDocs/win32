@@ -2,7 +2,7 @@
 Description: Occurs when a user clicks the InkEdit control.
 ms.assetid: 99fd7ef0-02cf-4390-9026-00ef2bbc1e37
 title: InkEdit.Click event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

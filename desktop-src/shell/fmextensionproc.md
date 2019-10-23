@@ -1,7 +1,7 @@
 ---
 Description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
 title: FMExtensionProc callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

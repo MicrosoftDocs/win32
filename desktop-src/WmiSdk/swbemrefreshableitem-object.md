@@ -3,7 +3,7 @@ Description: The SWbemRefreshableItem.Object property represents a single SWbemO
 ms.assetid: 91a693c0-cde4-4cf6-b85a-662cfd0333e9
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Object property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

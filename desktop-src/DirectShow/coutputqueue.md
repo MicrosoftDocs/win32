@@ -2,7 +2,7 @@
 Description: The COutputQueue class implements a queue to deliver media samples.
 ms.assetid: da35bdac-fdc2-4b38-8253-547a19213cce
 title: COutputQueue class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

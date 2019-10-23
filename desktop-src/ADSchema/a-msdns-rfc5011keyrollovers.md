@@ -12,7 +12,7 @@ api_name:
 - ms-DNS-RFC5011-Key-Rollovers
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

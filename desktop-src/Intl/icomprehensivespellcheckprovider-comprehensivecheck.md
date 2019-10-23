@@ -2,7 +2,7 @@
 Description: Spell-check the provider text in a more thorough manner than ISpellCheckProvider::Check.
 ms.assetid: BD334EB8-4E14-478D-AB2A-E7F863C4BE0F
 title: IComprehensiveSpellCheckProvider::ComprehensiveCheck method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

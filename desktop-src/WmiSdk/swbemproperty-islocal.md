@@ -3,7 +3,7 @@ Description: The IsLocal property of the SWbemProperty object is a Boolean value
 ms.assetid: eda1f962-03b5-4322-bb06-c27aedf94be1
 ms.tgt_platform: multiple
 title: SWbemProperty.IsLocal property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

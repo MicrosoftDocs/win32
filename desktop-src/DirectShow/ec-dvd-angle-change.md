@@ -2,7 +2,7 @@
 Description: Signals that either the number of available angles changed or that the current angle number changed.
 ms.assetid: 0564b0e3-6434-448b-80fb-5362ab67fef7
 title: EC_DVD_ANGLE_CHANGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

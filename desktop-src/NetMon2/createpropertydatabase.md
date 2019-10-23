@@ -2,7 +2,7 @@
 Description: The CreatePropertyDatabase function creates a property database that stores the properties of a protocol.
 ms.assetid: 0a3be6ae-d7ce-4315-b4f2-b46bcfa25b69
 title: CreatePropertyDatabase function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

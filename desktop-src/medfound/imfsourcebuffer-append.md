@@ -2,7 +2,7 @@
 Description: Appends the specified media segment to the IMFSourceBuffer.
 ms.assetid: 824fa23d-57d9-411a-af8a-fb65dca124b2
 title: IMFSourceBuffer::Append method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

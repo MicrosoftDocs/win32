@@ -2,7 +2,7 @@
 Description: The CheckPaletteHeader method validates the palette entries in a VIDEOINFO structure.
 ms.assetid: bc18cbe6-0446-43a6-a50c-e587815b789d
 title: CImageDisplay.CheckPaletteHeader method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

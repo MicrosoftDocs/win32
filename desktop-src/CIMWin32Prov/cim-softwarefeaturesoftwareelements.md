@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareFeatureSoftwareElements association identifies the
 ms.assetid: 933586c5-b85e-4136-b557-5151a48abc32
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureSoftwareElements class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

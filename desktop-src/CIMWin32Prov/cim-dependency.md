@@ -3,7 +3,7 @@ Description: The CIM\_Dependency class represents an association that establishe
 ms.assetid: ff0d6b50-0920-443e-a984-e6a9ab4402b1
 ms.tgt_platform: multiple
 title: CIM_Dependency class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

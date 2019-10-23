@@ -2,7 +2,7 @@
 Description: The Deliver method delivers a media sample to the connected input pin.
 ms.assetid: b871df84-c69e-42eb-9da9-c25996bf08c3
 title: CBaseOutputPin.Deliver method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

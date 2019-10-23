@@ -2,7 +2,7 @@
 Description: Retrieves a value indicating whether the IInkAnalyzer is performing ink analysis.
 ms.assetid: 3f3f6f29-0c90-47e1-938c-f1ce6ed8df47
 title: IInkAnalyzer::IsAnalyzing method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

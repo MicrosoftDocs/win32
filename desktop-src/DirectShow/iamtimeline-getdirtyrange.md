@@ -2,7 +2,7 @@
 Description: Not supported.
 ms.assetid: 6e45b542-be3f-4da8-808a-6aa8b4299519
 title: IAMTimeline::GetDirtyRange method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

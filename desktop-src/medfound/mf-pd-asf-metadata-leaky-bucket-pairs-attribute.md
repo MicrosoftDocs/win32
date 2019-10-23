@@ -2,7 +2,7 @@
 Description: Specifies a list of bit rates and corresponding buffer windows for a variable bit rate (VBR) Advanced Systems Format (ASF) file.
 ms.assetid: e45d055f-d404-47e9-b3c8-ac743b290138
 title: MF_PD_ASF_METADATA_LEAKY_BUCKET_PAIRS attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

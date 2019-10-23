@@ -2,7 +2,7 @@
 Description: Opens an existing symbolic link.
 ms.assetid: 37684707-4f65-4904-8bfc-d0679ebbd924
 title: NtOpenSymbolicLinkObject function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

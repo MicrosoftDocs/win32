@@ -2,7 +2,7 @@
 Description: Changes the frame rate of a video stream.
 ms.assetid: a66b9c52-a015-41d2-b27a-3ce6a4d95be9
 title: Frame Rate Converter DSP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The GetUnsignedLargeIntegerValue method retrieves a ULONGLONG value (type VT\_UI8) specified by a key.
 ms.assetid: de37c49b-a5f4-424d-8320-1de2d5a624aa
 title: IPortableDeviceValues::GetUnsignedLargeIntegerValue method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

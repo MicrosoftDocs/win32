@@ -2,7 +2,7 @@
 Description: Gets a Folder object that represents the view.
 ms.assetid: 8f3e7827-f2a0-4ce9-b3e9-e6316ec58863
 title: ShellFolderView.Folder property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

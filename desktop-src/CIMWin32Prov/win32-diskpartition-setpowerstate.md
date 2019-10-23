@@ -3,7 +3,7 @@ Description: Sets the desired power state for a logical device and when a device
 ms.assetid: 7b36a987-d4c9-4cdc-8703-cf3f713e0c4a
 ms.tgt_platform: multiple
 title: SetPowerState method of the Win32_DiskPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

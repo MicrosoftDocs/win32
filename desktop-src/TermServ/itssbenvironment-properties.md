@@ -3,7 +3,7 @@ title: ITsSbEnvironment Properties
 description: The ITsSbEnvironment interface exposes the following properties.
 ms.assetid: A46A5395-3666-4ED5-A0F2-6C967ED07321
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_CardInSlot class associates an adapter card with the conta
 ms.assetid: 253fb444-2a9e-4099-a4d5-352b643d8e32
 ms.tgt_platform: multiple
 title: CIM_CardInSlot class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

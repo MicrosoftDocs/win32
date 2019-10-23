@@ -2,7 +2,7 @@
 Description: The PARTICIPANT\_EVENT enum describes participant events.
 ms.assetid: 678165f2-ad0b-415f-86bf-8c4e3bd8d793
 title: PARTICIPANT_EVENT enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

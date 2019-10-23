@@ -2,7 +2,7 @@
 Description: Note  This interface has been deprecated.
 ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
 title: IAMFilterData::CreateFilterData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

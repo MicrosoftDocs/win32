@@ -2,7 +2,7 @@
 Description: Critical section that locks the thread from being accessed by other threads.
 ms.assetid: 9bc360be-52d6-4db1-b384-8bc9e25c0914
 title: CAMThread::m_AccessLock member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

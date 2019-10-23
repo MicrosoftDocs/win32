@@ -2,7 +2,7 @@
 Description: Creates a new child IContextNode object.
 ms.assetid: 35d2b641-fada-418b-9374-0303c7d318e5
 title: IContextNode::CreateSubNode method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

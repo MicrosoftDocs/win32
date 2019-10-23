@@ -2,7 +2,7 @@
 Description: Determines whether a virtual hard disk file is valid.
 ms.assetid: 5F7C99DB-0C81-46D5-A965-B6D87647ABF6
 title: ValidateVirtualHardDisk method of the Msvm_ImageManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

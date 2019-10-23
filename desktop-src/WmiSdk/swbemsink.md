@@ -3,7 +3,7 @@ Description: The SWbemSink object is implemented by client applications to recei
 ms.assetid: a90777ef-fa26-4bfb-b196-c083a0c92a29
 ms.tgt_platform: multiple
 title: SWbemSink object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

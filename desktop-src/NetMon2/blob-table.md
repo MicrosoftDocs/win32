@@ -2,7 +2,7 @@
 Description: Contains an array of BLOBs.
 ms.assetid: e87f493b-f160-4316-b369-75d20c735213
 title: BLOB_TABLE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 7cd7a5b1-4ae6-4038-afd0-6ef9d0700938
 title: InkOverlay.SelectionMoving event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

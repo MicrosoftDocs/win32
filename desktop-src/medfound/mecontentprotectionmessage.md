@@ -2,7 +2,7 @@
 Description: Raised by a pipeline component when the configuration changes for one of the output protection schemes. This event applies only to protected content.
 ms.assetid: 0a13fc08-2bbe-46d8-a076-6165cca6ea36
 title: MEContentProtectionMessage event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

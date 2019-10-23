@@ -3,7 +3,7 @@ Description: The Win32\_SystemSetting abstract association WMI class relates a c
 ms.assetid: 796ee263-2526-43f8-bd3d-23442b6bd4ca
 ms.tgt_platform: multiple
 title: Win32_SystemSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

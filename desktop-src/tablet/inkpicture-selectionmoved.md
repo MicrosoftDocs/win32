@@ -2,7 +2,7 @@
 Description: Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 669dc6c2-1620-40f3-b4b5-7ab8967e739a
 title: InkPicture.SelectionMoved event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Win32\_SubSession association defines relationships between ses
 ms.assetid: 2269de22-b086-4f71-8b19-bc53e1c88dc7
 ms.tgt_platform: multiple
 title: Win32_SubSession class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Creates and adds a data reference object as a child object. Deprecated.
 ms.assetid: 71a770a2-1502-4b93-b368-990c3318bd33
 title: IDirectXFileData::AddDataReference method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

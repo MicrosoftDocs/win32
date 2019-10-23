@@ -2,7 +2,7 @@
 Description: The GetValue method retrieves a PROPVARIANT value specified by a key.
 ms.assetid: 927844f5-8f57-4596-ae0d-c67b8011ca87
 title: IPortableDeviceValues::GetValue method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

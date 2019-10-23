@@ -2,7 +2,7 @@
 Description: The ISCardISO7816 interface provides methods for implementing ISO 7816-4 functionality.
 ms.assetid: c940c44f-0556-48ef-91f4-502f4c0dfc02
 title: ISCardISO7816 interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_SystemUsers association WMI class relates a computer sys
 ms.assetid: 0f6cba69-86f7-4795-a47d-6fb8ed0a00b8
 ms.tgt_platform: multiple
 title: Win32_SystemUsers class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

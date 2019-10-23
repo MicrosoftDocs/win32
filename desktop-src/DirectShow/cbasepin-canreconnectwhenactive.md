@@ -2,7 +2,7 @@
 Description: The CanReconnectWhenActive method queries whether the pin supports dynamic reconnections.
 ms.assetid: a2679987-7897-4b18-b06b-9ab8f2f3b9f5
 title: CBasePin.CanReconnectWhenActive method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

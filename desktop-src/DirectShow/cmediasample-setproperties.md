@@ -2,7 +2,7 @@
 Description: The SetProperties method sets the properties of the sample. This method implements the IMediaSample2::SetProperties method.
 ms.assetid: 639aedf5-0c21-4578-b336-91859e40f3be
 title: CMediaSample.SetProperties method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

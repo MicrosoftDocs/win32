@@ -2,7 +2,7 @@
 Description: The number of times the network source tries to reconnect to the server and resume streaming if the connection is lost.
 ms.assetid: 185e15c6-910b-4e27-9087-cfe30a174194
 title: MFNETSOURCE_AUTORECONNECTLIMIT property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

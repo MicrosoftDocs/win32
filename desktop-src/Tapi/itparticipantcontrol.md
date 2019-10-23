@@ -2,7 +2,7 @@
 Description: The ITParticipantControl interface is implemented by the IPConf MSP.
 ms.assetid: e617f2a4-6be8-4cb1-9f03-470c5100b834
 title: ITParticipantControl interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Sets the BLOB trigger.
 ms.assetid: 88bfd5cd-f563-4d0c-81a3-54a846805b87
 title: SetNPPTriggerInBlob function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

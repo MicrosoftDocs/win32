@@ -2,7 +2,7 @@
 Description: The CheckConnect method determines whether a pin connection is suitable.
 ms.assetid: b8ace40d-31f5-49b0-a4cd-6ece0f883d96
 title: CTransformInputPin.CheckConnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

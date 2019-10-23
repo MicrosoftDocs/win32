@@ -2,7 +2,7 @@
 Description: Create a data processor for a shader asynchronously.
 ms.assetid: f5521e55-5f20-422d-979e-98b70efd3b13
 title: D3DX10CreateAsyncShaderPreprocessProcessor function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

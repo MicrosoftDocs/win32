@@ -3,7 +3,7 @@ Description: The CIM\_RemoveDirectoryAction class removes directories for softwa
 ms.assetid: e403baa8-3704-42a6-970a-8159e7cd72a7
 ms.tgt_platform: multiple
 title: CIM_RemoveDirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

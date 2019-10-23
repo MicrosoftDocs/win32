@@ -2,7 +2,7 @@
 Description: The GetBufferFromIPortableDeviceValues method serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
 ms.assetid: fd856394-9cb3-41cb-875b-1d490ca859df
 title: IWpdSerializer::GetBufferFromIPortableDeviceValues method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

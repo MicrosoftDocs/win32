@@ -2,7 +2,7 @@
 Description: Flag that enables or disables repaint events.
 ms.assetid: ea5e5472-047f-4196-8637-e5e04b563d50
 title: CBaseRenderer::m_bRepaintStatus member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

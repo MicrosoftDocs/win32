@@ -3,7 +3,7 @@ Description: The Win32\_WMISetting singleton WMI class contains the operational 
 ms.assetid: d33cd4f3-969b-46ce-baff-466f1a464906
 ms.tgt_platform: multiple
 title: Win32_WMISetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

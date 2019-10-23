@@ -3,7 +3,7 @@ Description: Compare the argument with the active configuration of the collector
 ms.assetid: 8decb674-c905-4eb6-9f78-7bc7b99db908
 ms.tgt_platform: multiple
 title: IsConfigurationEqual method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

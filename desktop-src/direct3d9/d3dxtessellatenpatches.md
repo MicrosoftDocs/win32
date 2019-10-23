@@ -2,7 +2,7 @@
 Description: Tessellates the given mesh using the N-patch tessellation scheme.
 ms.assetid: e804905d-ee0b-484f-a621-58b197bd370b
 title: D3DXTessellateNPatches function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

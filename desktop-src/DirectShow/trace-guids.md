@@ -2,7 +2,7 @@
 Description: The following GUIDs are used for event tracing in DirectShow.
 ms.assetid: 438938fe-37e7-45d6-b49a-d96698307f25
 title: Trace GUIDs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

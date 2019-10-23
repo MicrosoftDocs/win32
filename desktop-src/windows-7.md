@@ -2,7 +2,7 @@
 Description: Windows 7
 ms.assetid: e9392fa6-7a73-43d2-b9be-b45bb2422e91
 title: Windows 7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.technology: get-started
 ---

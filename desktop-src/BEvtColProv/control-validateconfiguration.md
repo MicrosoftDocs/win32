@@ -3,7 +3,7 @@ Description: Validate a configuration text for correctness without setting it ac
 ms.assetid: baeabed0-7717-498a-9886-e49e4a101711
 ms.tgt_platform: multiple
 title: ValidateConfiguration method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

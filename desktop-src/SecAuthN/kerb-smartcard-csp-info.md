@@ -2,7 +2,7 @@
 Description: Contains information about a smart card cryptographic service provider (CSP).
 ms.assetid: b3e6722a-25dd-4137-b224-4082e846ddec
 title: KERB_SMARTCARD_CSP_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

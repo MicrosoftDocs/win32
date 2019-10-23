@@ -3,7 +3,7 @@ Description: Reset the active configuration of the collector from the later back
 ms.assetid: bd153ea3-9148-4e65-a44e-3f9fa1855f2f
 ms.tgt_platform: multiple
 title: Redo method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

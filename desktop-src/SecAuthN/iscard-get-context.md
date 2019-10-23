@@ -2,7 +2,7 @@
 Description: Retrieves the current resource manager context handle. This method returns (\*pContext) == NULL if no context has been established.
 ms.assetid: c031f53d-4670-4d48-934c-a1550f21c23a
 title: ISCard::get_Context method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

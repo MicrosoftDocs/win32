@@ -3,7 +3,7 @@ Description: The CIM\_UserDevice class is a parent class from which other classe
 ms.assetid: 311a065a-df9b-4c4b-bdc4-d3de89ce2f3d
 ms.tgt_platform: multiple
 title: CIM_UserDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

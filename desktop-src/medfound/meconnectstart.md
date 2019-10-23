@@ -2,7 +2,7 @@
 Description: Raised by the network source when it starts opening a URL.
 ms.assetid: 0844ac10-cc5b-4e7f-92df-3a5901c72148
 title: MEConnectStart event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

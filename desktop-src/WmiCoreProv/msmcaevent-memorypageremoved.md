@@ -2,7 +2,7 @@
 Description: Indicates that a memory page has been removed from system use due to excessive hardware Error Checking and Correcting (ECC) errors. This class is available only in 64-bit Windows systems.
 ms.assetid: 364a2520-8d7c-44f2-95f6-eea9a5531975
 title: MSMCAEvent_MemoryPageRemoved class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

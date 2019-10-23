@@ -3,7 +3,7 @@ Description: The Copy method copies the logical file (or directory) specified in
 ms.assetid: 6c1c6172-80a2-4779-903a-935f8c7091a5
 ms.tgt_platform: multiple
 title: Copy method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

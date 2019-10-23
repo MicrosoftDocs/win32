@@ -2,7 +2,7 @@
 Description: Allows the Enhanced Video Renderer (EVR) to improve performance by using bob deinterlacing.
 ms.assetid: e145e862-b987-4962-a94b-f8370bbcd5ac
 title: EVRConfig_AllowDropToBob attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

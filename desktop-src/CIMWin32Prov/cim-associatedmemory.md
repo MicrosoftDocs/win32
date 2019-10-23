@@ -3,7 +3,7 @@ Description: The CIM\_AssociateMemory class associates installed or associated m
 ms.assetid: b108d0cc-9353-4940-a5f6-34bb93330a62
 ms.tgt_platform: multiple
 title: CIM_AssociatedMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

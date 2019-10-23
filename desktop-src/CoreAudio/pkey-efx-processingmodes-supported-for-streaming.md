@@ -2,7 +2,7 @@
 Description: Lists the signal processing modes supported by the endpoint effect APO.
 ms.assetid: BB54E7D8-5486-44F6-A204-002027255CD8
 title: PKEY_EFX_ProcessingModes_Supported_For_Streaming property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

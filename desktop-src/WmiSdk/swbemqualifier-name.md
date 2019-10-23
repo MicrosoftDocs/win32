@@ -3,7 +3,7 @@ Description: The Name property of the SWbemQualifier object defines the name of 
 ms.assetid: c0e0b0fb-8c79-4da1-8706-a9b785431e49
 ms.tgt_platform: multiple
 title: SWbemQualifier.Name property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

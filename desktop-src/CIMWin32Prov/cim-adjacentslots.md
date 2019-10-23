@@ -3,7 +3,7 @@ Description: The CIM\_AdjacentSlots association describes the layout of slots on
 ms.assetid: d604647f-7b2f-4f99-8d98-adf115ae9dfb
 ms.tgt_platform: multiple
 title: CIM_AdjacentSlots class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

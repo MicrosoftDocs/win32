@@ -2,7 +2,7 @@
 Description: The get\_WindowStyleEx method retrieves the extended window styles.
 ms.assetid: 72955958-bbda-4b8f-9c28-6d3f5eb56a82
 title: CBaseControlWindow.get_WindowStyleEx method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

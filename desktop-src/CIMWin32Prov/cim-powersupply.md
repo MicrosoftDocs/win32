@@ -3,7 +3,7 @@ Description: The CIM\_PowerSupply class represents the capabilities and manageme
 ms.assetid: a9b79564-01d9-42a4-8586-782f179c179f
 ms.tgt_platform: multiple
 title: CIM_PowerSupply class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

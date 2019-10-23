@@ -2,7 +2,7 @@
 Description: The subscribers moniker.
 ms.assetid: d33d8c80-3251-4ec7-9cf3-d0b60d91ed5a
 title: IEventSubscription2SubscriberMoniker property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

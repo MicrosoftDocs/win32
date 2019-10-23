@@ -2,7 +2,7 @@
 Description: Constructs a valid command application protocol data unit (APDU) for transmission to a smart card.
 ms.assetid: d1003cc3-c235-4635-ad5a-8cea7363bf30
 title: ISCardCmd::BuildCmd method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

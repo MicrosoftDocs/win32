@@ -3,7 +3,7 @@ Description: The CIM\_CoolingDevice class represents the capabilities and manage
 ms.assetid: ac0f0df4-c174-4306-9325-eaa316ee820a
 ms.tgt_platform: multiple
 title: CIM_CoolingDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

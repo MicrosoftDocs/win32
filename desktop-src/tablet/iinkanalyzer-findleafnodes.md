@@ -2,7 +2,7 @@
 Description: Retrieves all of the leaf nodes.
 ms.assetid: 5534053c-c5b9-4576-857f-c8af39e821a7
 title: IInkAnalyzer::FindLeafNodes method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

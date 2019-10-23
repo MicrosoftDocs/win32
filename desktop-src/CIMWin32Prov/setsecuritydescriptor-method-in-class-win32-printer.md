@@ -3,7 +3,7 @@ Description: Writes an updated version of the security descriptor that controls 
 ms.assetid: 6a709043-473e-4b24-8b52-6c68b670ebcf
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

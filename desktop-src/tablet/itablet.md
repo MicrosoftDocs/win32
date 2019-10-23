@@ -2,7 +2,7 @@
 Description: Represents a tablet attached to the computer.
 ms.assetid: 31e11f7d-5610-4c49-9203-2dc322fbef95
 title: ITablet interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

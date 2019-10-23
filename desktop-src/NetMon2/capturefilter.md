@@ -2,7 +2,7 @@
 Description: The CAPTUREFILTER structure contains capture filter data.
 ms.assetid: 773187c6-31c7-4439-850d-1dd43d42f701
 title: CAPTUREFILTER structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The GetRequestId method returns a Globally Unique Identifier (GUID)
 ms.assetid: c8df15cf-ab48-491f-ac18-1dad567bbc0b
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess::GetRequestId method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

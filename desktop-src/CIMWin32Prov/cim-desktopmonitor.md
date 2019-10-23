@@ -3,7 +3,7 @@ Description: The CIM\_DesktopMonitor class represents the capabilities and manag
 ms.assetid: dc65aa38-5255-4a40-8ffc-f05f9af71dc6
 ms.tgt_platform: multiple
 title: CIM_DesktopMonitor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

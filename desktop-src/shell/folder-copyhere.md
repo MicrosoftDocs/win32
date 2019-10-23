@@ -1,7 +1,7 @@
 ---
 Description: Copies an item or items to a folder.
 title: Folder.CopyHere method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

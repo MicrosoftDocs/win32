@@ -2,7 +2,7 @@
 Description: The DRIVER\_INFO\_1 structure identifies a printer driver.
 ms.assetid: 9435192b-3eba-4937-8cd3-bff4e9eb84d3
 title: DRIVER_INFO_1 structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

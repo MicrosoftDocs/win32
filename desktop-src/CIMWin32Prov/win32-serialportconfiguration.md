@@ -3,7 +3,7 @@ Description: The Win32\_SerialPortConfiguration WMI class represents the setting
 ms.assetid: 688cdcce-8325-4b4d-93ab-5a602e9e3f8e
 ms.tgt_platform: multiple
 title: Win32_SerialPortConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

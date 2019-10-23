@@ -3,7 +3,7 @@ Description: The CIM\_VersionCompatibilityCheck class specifies whether it is pe
 ms.assetid: 3a04c489-e44e-44c7-8945-d6047ba0d6df
 ms.tgt_platform: multiple
 title: CIM_VersionCompatibilityCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

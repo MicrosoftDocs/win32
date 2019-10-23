@@ -1,7 +1,7 @@
 ---
 Description: Creates an array of handles to icons extracted from a specified file.
 title: SHExtractIconsW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

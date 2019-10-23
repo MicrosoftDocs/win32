@@ -3,7 +3,7 @@ Description: The ReleaseDHCPLeaseAll WMI class static method releases the IP add
 ms.assetid: d9f83953-f3da-419d-8c84-649c39b4945e
 ms.tgt_platform: multiple
 title: ReleaseDHCPLeaseAll method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

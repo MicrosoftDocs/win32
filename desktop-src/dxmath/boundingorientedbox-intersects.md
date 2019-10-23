@@ -2,7 +2,7 @@
 Description: Tests the BoundingOrientedBox for intersection with another object.
 ms.assetid: a79b9c1c-58fe-4c7d-b11e-7d2c22534bf6
 title: BoundingOrientedBox.Intersects methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

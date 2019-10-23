@@ -2,7 +2,7 @@
 Description: Specifies whether the encoder generates sequence display extension headers. This property applies to MPEG video encoders.
 ms.assetid: 61470caa-cca6-4e7e-91a0-758ec5a9bdb5
 title: AVEncMPVGenerateHeaderSeqDispExt property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

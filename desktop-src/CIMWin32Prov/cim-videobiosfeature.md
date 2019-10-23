@@ -3,7 +3,7 @@ Description: The CIM\_VideoBIOSFeature class represents the capabilities of the 
 ms.assetid: a12ca387-5b12-487f-84fd-381afe266338
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSFeature class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

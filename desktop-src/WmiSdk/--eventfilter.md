@@ -3,7 +3,7 @@ Description: The registration of a permanent event consumer requires an instance
 ms.assetid: 369d3c28-2b69-456f-9144-d7c73e3123bc
 ms.tgt_platform: multiple
 title: '__EventFilter class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

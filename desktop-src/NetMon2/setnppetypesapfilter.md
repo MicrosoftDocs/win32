@@ -2,7 +2,7 @@
 Description: Sets the BLOB Etype/Sap filter.
 ms.assetid: cd659c93-3415-4737-b848-936e80318544
 title: SetNPPEtypeSapFilter function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

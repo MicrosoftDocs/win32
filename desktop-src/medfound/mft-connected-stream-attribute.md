@@ -2,7 +2,7 @@
 Description: Contains a pointer to the stream attributes of the connected stream on a hardware-based Media Foundation transform (MFT).
 ms.assetid: 7e14a02e-4cbf-45aa-a6f5-2c53b2437127
 title: MFT_CONNECTED_STREAM_ATTRIBUTE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

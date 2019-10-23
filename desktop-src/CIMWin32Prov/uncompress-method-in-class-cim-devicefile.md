@@ -3,7 +3,7 @@ Description: Uncompressed the logical device file (or directory) specified in th
 ms.assetid: a9b5e9bc-1c31-4518-ade4-8e9a0106608e
 ms.tgt_platform: multiple
 title: Uncompress method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Occurs when the response data is complete.
 ms.assetid: 0df2031e-826f-436e-a689-201fa8b5c38f
 title: IWinHttpRequestEvents::OnResponseFinished event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

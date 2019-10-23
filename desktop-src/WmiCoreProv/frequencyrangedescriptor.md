@@ -2,7 +2,7 @@
 Description: Represents a container for characteristics of a supported frequency range.
 ms.assetid: eb07c10b-8d92-40bb-8a93-ebc5db46cfd3
 title: FrequencyRangeDescriptor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

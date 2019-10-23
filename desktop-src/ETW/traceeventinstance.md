@@ -2,7 +2,7 @@
 Description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
 title: TraceEventInstance function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

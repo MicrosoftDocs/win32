@@ -2,7 +2,7 @@
 Description: Contains the item's ShellLinkObject object, if the item is a shortcut.
 ms.assetid: 6444476a-a065-4f69-9330-584e30dbe30d
 title: FolderItem.GetLink property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

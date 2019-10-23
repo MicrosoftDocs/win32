@@ -2,7 +2,7 @@
 Description: Not supported.
 ms.assetid: 7da88bab-abba-417c-9e33-c4fc4950536f
 title: IRenderEngine::SetSourceConnectCallback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

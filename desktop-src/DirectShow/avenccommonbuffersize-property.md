@@ -2,7 +2,7 @@
 Description: Specifies the size of the buffer used during encoding. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 3315785e-306f-44d6-ac39-796025a2da3a
 title: AVEncCommonBufferSize property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

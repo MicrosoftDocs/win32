@@ -2,7 +2,7 @@
 Description: Tests the BoundingBox for intersection with another object.
 ms.assetid: df3d3df9-aa74-413d-808c-f7b276d11279
 title: BoundingBox.Intersects methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The ReferencesAsync\_ method of SWbemObject supplies a collection o
 ms.assetid: 44989726-3f68-453b-b9f5-e76fb0fbb152
 ms.tgt_platform: multiple
 title: SWbemObject.ReferencesAsync_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Occurs when the IInkAnalyzer moves a stroke from one IContextNode object to another.
 ms.assetid: a90214af-c3ea-4e2a-94b4-bb5746a2b476
 title: '_IAnalysisProxyEvents::StrokeReparented event'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

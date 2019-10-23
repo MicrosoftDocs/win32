@@ -2,7 +2,7 @@
 Description: The SplitAt method splits the object at the specified time.
 ms.assetid: 37870c6f-a35e-4c08-8188-1c4c7b25ff88
 title: IAMTimelineSplittable::SplitAt method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

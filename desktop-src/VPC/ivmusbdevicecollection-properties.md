@@ -2,7 +2,7 @@
 title: IVMUSBDeviceCollection Properties
 description: The IVMUSBDeviceCollection interface exposes the following properties.
 ms.assetid: 9A840F9C-D056-4FA8-BE10-0F19CA4D7D4F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

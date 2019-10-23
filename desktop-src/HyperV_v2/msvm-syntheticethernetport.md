@@ -2,7 +2,7 @@
 Description: Represents a synthetic Ethernet adapter.
 ms.assetid: B5CB86A9-015B-42E8-ADF4-2F61970D8437
 title: Msvm_SyntheticEthernetPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Raised when license acquisition is complete. For more information, see MELicenseAcquisitionStart.
 ms.assetid: f577131b-887a-4912-8278-1165a801c2b3
 title: MELicenseAcquisitionCompleted event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

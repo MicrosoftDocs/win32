@@ -2,7 +2,7 @@
 Description: The Disconnect method breaks the connection with the output pin.
 ms.assetid: 6e362e32-7b74-4392-b46f-1ab47a30a07b
 title: CPullPin.Disconnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

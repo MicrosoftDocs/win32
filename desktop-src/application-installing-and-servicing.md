@@ -2,7 +2,7 @@
 Description: Make use of available APIs and services provided by Windows to install, manage, and service your desktop apps.
 ms.assetid: 537ff8c3-8feb-4dd6-9af5-f476803a3cdb
 title: Application Installation and Servicing
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.technology: installation-servicing
 ---

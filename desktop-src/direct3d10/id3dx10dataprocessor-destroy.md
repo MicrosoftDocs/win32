@@ -2,7 +2,7 @@
 Description: Used by a ID3DX10ThreadPump Interface to destroy the processor after a work item completes.
 ms.assetid: 0d688d7e-c8f5-4e9c-8878-09256ace20d8
 title: ID3DX10DataProcessor::Destroy method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

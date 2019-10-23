@@ -2,7 +2,7 @@
 Description: List of URLs to which the network source will send logging information.
 ms.assetid: 772c5b57-273d-4289-9229-ef7a199c6473
 title: MFNETSOURCE_LOGURL property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Creates and adds a new DDE share to the DDE share database manager (DSDM).
 ms.assetid: c9814919-412e-4f13-98cc-373b69545734
 title: NDdeShareAdd function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

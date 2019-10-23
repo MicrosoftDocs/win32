@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: ba129ef5-4ebf-45b7-829c-830d06ff0618
 title: RequestStateChange method of the Msvm_HeartbeatComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

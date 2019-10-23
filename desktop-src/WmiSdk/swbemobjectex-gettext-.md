@@ -3,7 +3,7 @@ Description: Returns an XML representation of an object or instance. The text fi
 ms.assetid: 98961d94-8360-4ed7-b1b1-20b4fca45d45
 ms.tgt_platform: multiple
 title: SWbemObjectEx.GetText_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

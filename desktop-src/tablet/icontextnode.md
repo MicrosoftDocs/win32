@@ -2,7 +2,7 @@
 Description: Represents a node in a tree of objects that are created as part of ink analysis.
 ms.assetid: 44ef4401-cb14-4348-9ed8-b11a40d04940
 title: IContextNode interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

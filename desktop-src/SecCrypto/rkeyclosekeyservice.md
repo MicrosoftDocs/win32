@@ -2,7 +2,7 @@
 Description: The RKeyCloseKeyService function is not supported.
 ms.assetid: 3a3d41d4-d8ce-4ed8-a70b-dd3629ab7b44
 title: RKeyCloseKeyService function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

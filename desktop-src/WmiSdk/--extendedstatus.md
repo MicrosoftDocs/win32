@@ -3,7 +3,7 @@ Description: Used to report detailed status and error information.
 ms.assetid: 6bdff9a8-1a7c-4860-a12e-4d3162964ee4
 ms.tgt_platform: multiple
 title: '__ExtendedStatus class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

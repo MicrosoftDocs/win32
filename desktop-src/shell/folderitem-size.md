@@ -2,7 +2,7 @@
 Description: Contains the item's size.
 ms.assetid: 0eda405e-d54f-48d2-a060-a1fdcdb23785
 title: FolderItem.Size property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

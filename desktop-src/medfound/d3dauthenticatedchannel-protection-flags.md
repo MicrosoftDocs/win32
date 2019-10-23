@@ -2,7 +2,7 @@
 Description: Specifies the protection level for video content.
 ms.assetid: 681c6ad9-cf55-47e4-bbb9-e7fdc499a709
 title: D3DAUTHENTICATEDCHANNEL_PROTECTION_FLAGS structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

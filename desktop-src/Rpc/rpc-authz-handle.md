@@ -4,7 +4,7 @@ description: The RPC\_AUTHZ\_HANDLE data type declares an authorization handle. 
 ms.assetid: 35b6a3f4-1703-4244-98fd-fad7de48b262
 keywords:
 - RPC_AUTHZ_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

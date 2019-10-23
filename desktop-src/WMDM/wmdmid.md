@@ -13,7 +13,7 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

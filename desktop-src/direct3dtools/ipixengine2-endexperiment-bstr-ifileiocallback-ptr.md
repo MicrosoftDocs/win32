@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine2::EndExperiment method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 0260F337-B279-4FE6-92F3-FCF70C2B8980
 api_name: 

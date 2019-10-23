@@ -2,7 +2,7 @@
 Description: Displays a dialog box that enables the user to select a hardware device for image acquisition.
 ms.assetid: cd020dc6-fddf-4d7f-aa57-eae94953ef4e
 title: IWiaDevMgr2::SelectDeviceDlg method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

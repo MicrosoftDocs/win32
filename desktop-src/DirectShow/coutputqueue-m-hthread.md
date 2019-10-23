@@ -2,7 +2,7 @@
 Description: Handle to the worker thread.
 ms.assetid: 29eeb9b0-2fbc-4f31-a4ef-97b13f374f4f
 title: COutputQueue::m_hThread member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

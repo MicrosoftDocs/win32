@@ -3,7 +3,7 @@ Description: The Win32\_SystemSystemDriver association WMI class relates a compu
 ms.assetid: 82638c29-6769-4410-90bc-b408b27adad4
 ms.tgt_platform: multiple
 title: Win32_SystemSystemDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

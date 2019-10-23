@@ -2,7 +2,7 @@
 Description: The Windows Media Video 7/8 encoder implements previous versions of the Windows Media Video encoder.
 ms.assetid: c4165614-b9ec-4216-b36c-f57bc05e3a8e
 title: Windows Media Video 7/8 Encoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

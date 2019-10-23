@@ -1,7 +1,7 @@
 ---
 Description: This message is not supported.
 title: WM_CPL_LAUNCH message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: b4a09672-888a-4f77-972d-fad0c375104a
 api_name: 

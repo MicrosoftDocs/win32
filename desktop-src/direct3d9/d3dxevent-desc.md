@@ -2,7 +2,7 @@
 Description: Describes an animation event.
 ms.assetid: ddcdd143-bcbd-450c-a4df-914797a562e6
 title: D3DXEVENT_DESC structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

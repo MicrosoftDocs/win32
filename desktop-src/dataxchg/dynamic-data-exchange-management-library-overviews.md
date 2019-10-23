@@ -2,7 +2,7 @@
 title: Dynamic Data Exchange Management Library Overviews
 description: .
 ms.assetid: d40f3a24-a6eb-4cbf-9552-16703829f347
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

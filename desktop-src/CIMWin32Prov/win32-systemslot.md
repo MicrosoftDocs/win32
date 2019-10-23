@@ -3,7 +3,7 @@ Description: The Win32\_SystemSlot &\#32; WMI class represents physical connecti
 ms.assetid: 0bdce597-dcbe-4593-b0d6-68c3bfecd0ee
 ms.tgt_platform: multiple
 title: Win32_SystemSlot class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

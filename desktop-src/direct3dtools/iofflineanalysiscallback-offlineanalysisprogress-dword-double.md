@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IOfflineAnalysisCallback::OfflineAnalysisProgress method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 17847FD7-A10A-4E52-90AD-ADE446D87E73
 api_name: 

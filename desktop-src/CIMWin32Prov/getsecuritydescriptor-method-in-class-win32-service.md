@@ -3,7 +3,7 @@ Description: Returns the security descriptor that controls access to the service
 ms.assetid: 99c8346e-e8d6-4f3c-bbdc-437dcf852b2a
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the Win32_Service class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

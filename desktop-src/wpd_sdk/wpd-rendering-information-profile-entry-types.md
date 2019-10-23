@@ -2,7 +2,7 @@
 Description: The WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration type indicates whether the rendering information profile entry corresponds to an Object or a Resource.
 ms.assetid: d019eef6-eed8-416c-bede-5b4eb00ed013
 title: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

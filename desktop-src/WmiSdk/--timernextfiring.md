@@ -3,7 +3,7 @@ Description: Reserved for operating system use.
 ms.assetid: 0ee10b13-4d12-4874-87bc-9ed104d74068
 ms.tgt_platform: multiple
 title: '__TimerNextFiring class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

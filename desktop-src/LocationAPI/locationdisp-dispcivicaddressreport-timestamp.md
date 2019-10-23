@@ -2,7 +2,7 @@
 Description: The date and time when the report was generated.
 ms.assetid: b9435384-72e0-42c4-a948-df52621a5ec2
 title: LocationDisp.DispCivicAddressReport.Timestamp property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

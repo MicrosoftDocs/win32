@@ -2,7 +2,7 @@
 Description: Contains information on the 802.1X connection profile currently used for 802.1X authentication.
 ms.assetid: ec494c74-bc79-445a-8889-a6f441e95ac5
 title: ONEX_CONNECTION_PROFILE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

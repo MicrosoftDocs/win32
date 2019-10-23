@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IBufferObjectDataRequest interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: DF62289A-5FD4-4B4C-A0F7-683E29FE141F
 api_name: 

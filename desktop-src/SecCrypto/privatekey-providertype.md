@@ -2,7 +2,7 @@
 Description: Retrieves a value of the CAPICOM\_PROV\_TYPE enumeration that specifies the type of provider.
 ms.assetid: bc6a579f-5532-45e3-97f4-adcde2cd29e5
 title: PrivateKey.ProviderType property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

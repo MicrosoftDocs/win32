@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: be412d17-6210-4b50-a2b9-9b51c722cb7c
 title: IXml2Dex::CopyXML method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

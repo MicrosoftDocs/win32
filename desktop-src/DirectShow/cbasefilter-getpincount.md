@@ -2,7 +2,7 @@
 Description: The GetPinCount method retrieves the number of pins.
 ms.assetid: 6cbeb123-d899-4f13-8b40-5666adec610f
 title: CBaseFilter.GetPinCount method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

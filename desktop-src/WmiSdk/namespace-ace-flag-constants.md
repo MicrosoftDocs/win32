@@ -3,7 +3,7 @@ Description: The following list lists the possible values of the Flags field in 
 ms.assetid: bd09691d-e285-40e0-8686-edd5a132a06e
 ms.tgt_platform: multiple
 title: Namespace ACE Flag Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

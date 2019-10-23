@@ -2,7 +2,7 @@
 Description: Retrieves the enumeration object in this file data object.
 ms.assetid: 383560e2-1888-4e37-9883-2ddbcb101cf6
 title: ID3DXFileData::GetEnum method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

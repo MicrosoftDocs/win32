@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine::SetParentProcess method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: F81AAE21-C583-438C-B517-75D8CC31DF2B
 api_name: 

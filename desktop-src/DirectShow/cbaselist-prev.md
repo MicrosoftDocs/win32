@@ -2,7 +2,7 @@
 Description: The Prev method retrieves the previous position in the list.
 ms.assetid: 537c3019-373a-4974-a42e-72150da72767
 title: CBaseList.Prev method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

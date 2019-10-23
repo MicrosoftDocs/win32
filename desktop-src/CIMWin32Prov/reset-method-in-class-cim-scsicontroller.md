@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_SCSIController class requests a reset 
 ms.assetid: 44084b46-7ada-47f0-acf4-67a824359da6
 ms.tgt_platform: multiple
 title: Reset method of the CIM_SCSIController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

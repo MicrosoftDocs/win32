@@ -2,7 +2,7 @@
 Description: The ProvideComponent method of the Installer object returns the full component path and performs any necessary installation.
 ms.assetid: 2bf09515-6f65-4712-89c1-01c43c1ce27c
 title: Installer.ProvideComponent method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

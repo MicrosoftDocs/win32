@@ -2,7 +2,7 @@
 title: IVMDVDDriveCollection Properties
 description: The IVMDVDDriveCollection interface exposes the following properties.
 ms.assetid: C6D5CC45-B65C-4EF8-B19E-5FC9E032369A
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

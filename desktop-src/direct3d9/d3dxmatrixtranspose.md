@@ -2,7 +2,7 @@
 Description: Returns the matrix transpose of a matrix.
 ms.assetid: 0ba9682f-3dd6-48b2-82b1-6e34e8ce5452
 title: D3DXMatrixTranspose function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

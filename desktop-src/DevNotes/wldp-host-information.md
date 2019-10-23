@@ -2,7 +2,7 @@
 Description: A structure identifying the host and source file to be evaluated.
 ms.assetid: 547EF59E-7DE5-45E4-948F-109547FAAEE7
 title: WLDP_HOST_INFORMATION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

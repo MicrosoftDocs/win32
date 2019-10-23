@@ -3,7 +3,7 @@ Description: The SetKeepAliveInterval WMI class static method is used to set the
 ms.assetid: 83415000-124a-44a7-93cc-92ce9df143aa
 ms.tgt_platform: multiple
 title: SetKeepAliveInterval method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

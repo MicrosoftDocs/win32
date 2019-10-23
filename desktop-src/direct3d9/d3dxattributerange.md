@@ -2,7 +2,7 @@
 Description: Stores an attribute table entry.
 ms.assetid: b9f13b12-35ba-4e4c-93ac-3dd44d611b47
 title: D3DXATTRIBUTERANGE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

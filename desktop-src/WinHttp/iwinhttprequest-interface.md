@@ -2,7 +2,7 @@
 Description: The IWinHttpRequest interface provides all of the nonevent methods for Microsoft Windows HTTP Services (WinHTTP).
 ms.assetid: 6417b3b5-b74a-4c7b-acf9-87e2e814a4df
 title: IWinHttpRequest interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

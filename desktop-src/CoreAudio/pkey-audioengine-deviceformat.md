@@ -2,7 +2,7 @@
 Description: The PKEY\_AudioEngine\_DeviceFormat property specifies the device format, which is the format that the user has selected for the stream that flows between the audio engine and the audio endpoint device when the device operates in shared mode.
 ms.assetid: eb3c734f-0bb8-47cc-a01f-99569f472cde
 title: PKEY_AudioEngine_DeviceFormat
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

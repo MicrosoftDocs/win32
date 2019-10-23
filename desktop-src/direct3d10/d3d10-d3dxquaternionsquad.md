@@ -2,7 +2,7 @@
 Description: Interpolates between quaternions, using spherical quadrangle interpolation.
 ms.assetid: ba953731-4372-4b32-942b-23abfe479704
 title: D3DXQuaternionSquad function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

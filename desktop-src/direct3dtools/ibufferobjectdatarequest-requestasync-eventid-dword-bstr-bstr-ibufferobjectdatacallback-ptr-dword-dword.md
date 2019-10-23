@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IBufferObjectDataRequest::RequestAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 899954DC-6196-4F79-AFB4-5E692DAA03EC
 api_name: 

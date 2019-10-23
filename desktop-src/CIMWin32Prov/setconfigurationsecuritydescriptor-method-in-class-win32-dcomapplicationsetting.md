@@ -3,7 +3,7 @@ Description: Updates the configuration security descriptor of the DCOM applicati
 ms.assetid: e0fe3d2f-7641-4cae-972d-888e800548de
 ms.tgt_platform: multiple
 title: SetConfigurationSecurityDescriptor method of the Win32_DCOMApplicationSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

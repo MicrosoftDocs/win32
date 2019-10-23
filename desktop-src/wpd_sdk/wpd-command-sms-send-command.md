@@ -2,7 +2,7 @@
 Description: The WPD\_COMMAND\_SMS\_SEND command initiates the sending of a short message service (SMS) message by an SMS functional object.
 ms.assetid: 507d3237-f2dd-499c-85e4-3c6857a15f6f
 title: WPD_COMMAND_SMS_SEND Command
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

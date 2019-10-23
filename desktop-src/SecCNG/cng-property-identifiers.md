@@ -2,7 +2,7 @@
 Description: Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.
 ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: Cryptography Primitive Property Identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

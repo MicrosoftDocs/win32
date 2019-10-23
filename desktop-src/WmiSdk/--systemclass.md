@@ -3,7 +3,7 @@ Description: Is the base class from which most system classes derive.
 ms.assetid: a9d023ba-d401-4dde-88e6-cbd0e20d4549
 ms.tgt_platform: multiple
 title: '__SystemClass class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

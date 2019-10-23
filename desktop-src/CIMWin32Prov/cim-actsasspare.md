@@ -3,7 +3,7 @@ Description: The CIM\_ActsAsSpare association indicates which elements can be sp
 ms.assetid: bed8c552-f782-4af9-9441-ff3268182c3b
 ms.tgt_platform: multiple
 title: CIM_ActsAsSpare class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

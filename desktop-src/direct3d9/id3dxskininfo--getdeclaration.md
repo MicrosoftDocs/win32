@@ -2,7 +2,7 @@
 Description: Gets the vertex declaration.
 ms.assetid: 49738e9b-09cb-489f-b9af-32d220fbede8
 title: ID3DXSkinInfo::GetDeclaration method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

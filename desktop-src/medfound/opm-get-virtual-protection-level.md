@@ -2,7 +2,7 @@
 Description: Returns the virtual protection level for a specified protection mechanism.
 ms.assetid: 635d54de-2735-4390-8bac-ba63b9503909
 title: OPM_GET_VIRTUAL_PROTECTION_LEVEL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Clones, or copies, an animation controller.
 ms.assetid: 9836653c-9ea5-4fbc-89ac-0b46054a12d7
 title: ID3DXAnimationController::CloneAnimationController method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

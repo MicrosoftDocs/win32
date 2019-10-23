@@ -3,7 +3,7 @@ Description: The Win32\_PrinterShare association WMI class relates a local print
 ms.assetid: 9ac99e52-5e8f-4329-960f-7bd1fd229e37
 ms.tgt_platform: multiple
 title: Win32_PrinterShare class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

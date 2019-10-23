@@ -2,7 +2,7 @@
 Description: Sets the base thread priority for the Source Reader or Sink Writer.
 ms.assetid: 9513AE28-2AF4-45EC-AC19-C0718540E26F
 title: MF_READWRITE_MMCSS_PRIORITY attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

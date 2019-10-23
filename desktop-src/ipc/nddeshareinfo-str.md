@@ -2,7 +2,7 @@
 Description: Contains DDE share attributes maintained by the NetDDE Share Database Manager (DSDM).
 ms.assetid: f4101553-06ef-4f83-87c7-5b6fdf0467e5
 title: NDDESHAREINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

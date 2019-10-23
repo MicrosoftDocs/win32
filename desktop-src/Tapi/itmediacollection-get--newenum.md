@@ -2,7 +2,7 @@
 Description: The get\_\_NewEnum method returns an enumerator for the collection.
 ms.assetid: 22b1eb48-e1ef-4694-a1dc-b2de326989c8
 title: ITMediaCollection::get__NewEnum method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The Start method starts a capture.
 ms.assetid: d4086e30-e5ed-4f29-90f0-d65125d9af6d
 title: IStats::Start method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

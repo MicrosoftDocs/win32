@@ -2,7 +2,7 @@
 Description: The TRACE\_GUID\_REGISTRATION structure is used to register event trace classes.
 ms.assetid: fc7b61fb-ef1c-48ec-8523-5f3114b5407a
 title: TRACE_GUID_REGISTRATION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

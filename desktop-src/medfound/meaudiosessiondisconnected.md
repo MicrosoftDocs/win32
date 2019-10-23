@@ -2,7 +2,7 @@
 Description: Raised by the audio renderer when the audio session is disconnected from a Windows Terminal Services (WTS) session. The audio renderer is now invalid.
 ms.assetid: 08f9844c-f3b1-4d60-990e-9131f3312f6b
 title: MEAudioSessionDisconnected event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The FileHash method of the Installer Object takes the path to a file and returns a 128-bit hash of that file. The file hash information is returned as a Record Object. The entire 128-bit file hash is returned as four 32-bit IntegerData property fields.
 ms.assetid: 065ffde1-4d7c-4e71-9315-7926d4cd38ed
 title: Installer.FileHash method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

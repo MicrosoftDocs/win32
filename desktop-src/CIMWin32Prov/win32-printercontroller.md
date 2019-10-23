@@ -3,7 +3,7 @@ Description: The Win32\_PrinterController association WMI class relates a printe
 ms.assetid: fb483b28-11f1-4153-893e-492f71763712
 ms.tgt_platform: multiple
 title: Win32_PrinterController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

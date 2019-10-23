@@ -2,7 +2,7 @@
 Description: The LINEAGENTFEATURE\_ constants list features that are available for an agent on an address.
 ms.assetid: 5953eb49-08ac-4c13-9fd3-df5473f96af8
 title: LINEAGENTFEATURE_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

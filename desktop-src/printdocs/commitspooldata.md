@@ -2,7 +2,7 @@
 Description: The CommitSpoolData function notifies the print spooler that a specified amount of data has been written to a specified spool file and is ready to be rendered.
 ms.assetid: cb8899e0-2fdf-4928-adff-17ef5af39f63
 title: CommitSpoolData function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_SystemResources association WMI class relates a system r
 ms.assetid: 90bff0b0-7c1d-44bf-b67e-aefeaa4b4a83
 ms.tgt_platform: multiple
 title: Win32_SystemResources class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

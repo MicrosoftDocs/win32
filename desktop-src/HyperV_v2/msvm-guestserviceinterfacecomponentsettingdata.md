@@ -2,7 +2,7 @@
 Description: Represents the configured state of the guest service interface component.
 ms.assetid: 82B58459-9819-4F51-BEE5-AB57E444CF55
 title: Msvm_GuestServiceInterfaceComponentSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

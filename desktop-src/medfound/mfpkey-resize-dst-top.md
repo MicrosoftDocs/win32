@@ -2,7 +2,7 @@
 Description: Specifies the top edge of the destination rectangle, in pixels.
 ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
 title: MFPKEY_RESIZE_DST_TOP Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

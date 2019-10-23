@@ -2,7 +2,7 @@
 Description: The SENSOR\_CATEGORY\_MOTION category contains sensors that provide information that is related to physical movement.
 ms.assetid: be025c86-46b5-4f50-a3af-0408bb3c9b5b
 title: SENSOR_CATEGORY_MOTION
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

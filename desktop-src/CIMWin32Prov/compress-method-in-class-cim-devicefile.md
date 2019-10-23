@@ -3,7 +3,7 @@ Description: The Compress method compresses the logical file (or directory) spec
 ms.assetid: baafe82c-fe4d-49b2-8868-4495f573895a
 ms.tgt_platform: multiple
 title: Compress method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

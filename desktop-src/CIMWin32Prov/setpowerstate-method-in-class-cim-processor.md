@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Processor class sets the desir
 ms.assetid: 562c49c5-b349-402a-a3f0-2d7785a2c1ae
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Processor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

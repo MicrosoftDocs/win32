@@ -2,7 +2,7 @@
 Description: The GetVTrack method retrieves the virtual track at the specified priority.
 ms.assetid: e866064b-a511-4f0c-8cb1-62e4f1c42347
 title: IAMTimelineComp::GetVTrack method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

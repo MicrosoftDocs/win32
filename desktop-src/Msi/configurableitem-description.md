@@ -2,7 +2,7 @@
 Description: The Description property returns the value from the Description column of the ModuleConfiguration table.
 ms.assetid: a43e3392-0539-4904-a0d9-827b69e1ce07
 title: ConfigurableItem.Description property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

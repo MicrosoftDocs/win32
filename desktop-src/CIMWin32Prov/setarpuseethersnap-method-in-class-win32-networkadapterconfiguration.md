@@ -3,7 +3,7 @@ Description: The SetArpUseEtherSNAP WMI class static method is used to enable et
 ms.assetid: 437954c0-ea6b-4559-a4cb-1f66630e70fe
 ms.tgt_platform: multiple
 title: SetArpUseEtherSNAP method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

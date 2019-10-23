@@ -2,7 +2,7 @@
 Description: The MSIDISABLERMRESTART property determines how applications or services that are currently using files affected by an update should be shut down and restarted to enable the installation of the update.
 ms.assetid: 45c804bf-6d15-416a-b106-d8bb3f4c547d
 title: MSIDISABLERMRESTART property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

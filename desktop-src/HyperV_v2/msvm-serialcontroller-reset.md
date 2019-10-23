@@ -2,7 +2,7 @@
 Description: Resets the device.
 ms.assetid: 4ac8ee27-0629-45aa-80ee-f308c044d7fc
 title: Reset method of the Msvm_SerialController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

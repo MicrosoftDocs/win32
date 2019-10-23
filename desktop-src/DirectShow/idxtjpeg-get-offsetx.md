@@ -2,7 +2,7 @@
 Description: The get\_OffsetX method retrieves the horizontal offset of the wipe origin.
 ms.assetid: 0ca97bb9-9359-4098-9e80-1847da4154ec
 title: IDxtJpeg::get_OffsetX method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

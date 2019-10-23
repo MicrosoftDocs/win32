@@ -2,7 +2,7 @@
 Description: CLSID of a custom video mixer for the enhanced video renderer (EVR) media sink.
 ms.assetid: a3586e6f-a2a2-4932-8b43-a076f64c5958
 title: MF_ACTIVATE_CUSTOM_VIDEO_MIXER_CLSID attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

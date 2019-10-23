@@ -2,7 +2,7 @@
 Description: Windows Portable Devices supports the following device properties.
 ms.assetid: 1caf4c1a-ceb6-4aa5-b430-df01c9fb22ce
 title: Device Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

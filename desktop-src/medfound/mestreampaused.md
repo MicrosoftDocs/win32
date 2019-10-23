@@ -2,7 +2,7 @@
 Description: Raised by a media stream when the IMFMediaSource::Pause method completes asynchronously.
 ms.assetid: 8fafb9a1-95a4-44b6-acd6-fb007d515915
 title: MEStreamPaused event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

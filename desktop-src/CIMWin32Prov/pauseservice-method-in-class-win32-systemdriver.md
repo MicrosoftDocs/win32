@@ -3,7 +3,7 @@ Description: Attempts to place the service managed by the logical system driver 
 ms.assetid: f5e960c1-868b-4b7b-9ea5-0fb8a9cfbafa
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_SystemDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

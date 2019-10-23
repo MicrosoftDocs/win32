@@ -3,7 +3,7 @@ Description: The AuthenticationLevel property is an integer that defines the COM
 ms.assetid: 96c2e6a5-a91f-469d-bdd1-eaa20b176158
 ms.tgt_platform: multiple
 title: SWbemSecurity.AuthenticationLevel property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

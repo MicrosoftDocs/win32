@@ -2,7 +2,7 @@
 Description: Is obsolete and should not be used.
 ms.assetid: cbe89779-403d-406e-af3c-d6530bf3008e
 title: ADDRESS structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

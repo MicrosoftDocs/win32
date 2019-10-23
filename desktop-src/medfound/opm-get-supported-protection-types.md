@@ -2,7 +2,7 @@
 Description: Returns the list of protection mechanisms that are supported by the connector.
 ms.assetid: dd4cdd3c-6bb5-4427-827d-f3e909e752e5
 title: OPM_GET_SUPPORTED_PROTECTION_TYPES
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

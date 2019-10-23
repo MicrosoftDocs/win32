@@ -2,7 +2,7 @@
 Description: The implementation of this interface is provided as sample code with the DirectShow SDK.
 ms.assetid: a18fc6b6-f37e-4c87-9150-0504333d33c2
 title: IMpeg2PsiParser interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

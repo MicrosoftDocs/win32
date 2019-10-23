@@ -2,7 +2,7 @@
 Description: Describes the current clip status.
 ms.assetid: 3ea8631c-a967-4d24-a49a-1751b3ee6077
 title: D3DCLIPSTATUS9 structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

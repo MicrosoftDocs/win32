@@ -3,7 +3,7 @@ Description: The InParameters property of the SWbemMethod object is an SWbemObje
 ms.assetid: fba1bb97-29f9-41d3-8ecc-f283989118c1
 ms.tgt_platform: multiple
 title: SWbemMethod.InParameters property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

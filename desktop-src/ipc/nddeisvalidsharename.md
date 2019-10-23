@@ -2,7 +2,7 @@
 Description: Determines whether a share name uses the proper syntax.
 ms.assetid: 4ffcff5d-0db5-4761-a31a-acefd2b8d9e2
 title: NDdeIsValidShareName function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

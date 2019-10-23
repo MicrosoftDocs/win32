@@ -2,7 +2,7 @@
 Description: The get\_Owner method retrieves the current window owner.
 ms.assetid: f0eea5e7-4dfa-4973-ae12-487657e6be80
 title: CBaseControlWindow.get_Owner method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

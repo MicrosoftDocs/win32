@@ -2,7 +2,7 @@
 Description: Saves a surface to an image file.
 ms.assetid: 6320e5ed-e43d-43bf-a746-5478df42941d
 title: D3DXSaveSurfaceToFileInMemory function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

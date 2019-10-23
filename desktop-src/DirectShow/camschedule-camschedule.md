@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: ff210374-f394-4267-a67a-1a60a2f9538d
 title: CAMSchedule.CAMSchedule constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

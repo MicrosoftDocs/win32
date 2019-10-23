@@ -2,7 +2,7 @@
 title: Delegates
 description: The Media Streaming API provides the following event handler functions.
 ms.assetid: CDE7B829-D0D1-479D-9B35-4445E711AF58
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

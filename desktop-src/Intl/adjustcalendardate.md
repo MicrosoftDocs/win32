@@ -2,7 +2,7 @@
 Description: Deprecated. Adjusts a date by a specified number of years, months, weeks, or days.
 ms.assetid: be8d61fd-efa3-4386-969f-30216c282ebc
 title: AdjustCalendarDate function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

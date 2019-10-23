@@ -2,7 +2,7 @@
 Description: Contains the date the Journal note was created.
 ms.assetid: dd9fab39-b346-43bf-8141-8a1874940d88
 title: Date Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

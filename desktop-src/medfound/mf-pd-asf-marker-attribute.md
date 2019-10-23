@@ -2,7 +2,7 @@
 Description: Specifies the markers in an Advanced Systems Format (ASF) file. This attribute corresponds to the Marker Object in the ASF header, defined in the ASF specification.
 ms.assetid: 6458eb5f-72a2-4723-b26b-b63516aa2df3
 title: MF_PD_ASF_MARKER attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

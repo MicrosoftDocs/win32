@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_DesktopMonitor class requests a reset 
 ms.assetid: 75fb6290-13b4-4831-9c61-81e950d53472
 ms.tgt_platform: multiple
 title: Reset method of the CIM_DesktopMonitor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

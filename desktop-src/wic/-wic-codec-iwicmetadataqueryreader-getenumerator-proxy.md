@@ -2,7 +2,7 @@
 Description: Proxy function for the GetEnumerator method.
 ms.assetid: b45b240d-7540-4115-ac8b-401aaf400a9d
 title: IWICMetadataQueryReader_GetEnumerator_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

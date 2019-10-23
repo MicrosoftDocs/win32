@@ -3,7 +3,7 @@ Description: The Win32\_TimeZone&\#8194;WMI class represents the time zone infor
 ms.assetid: c1c7731e-768f-42ea-a36c-57b00df6848e
 ms.tgt_platform: multiple
 title: Win32_TimeZone class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

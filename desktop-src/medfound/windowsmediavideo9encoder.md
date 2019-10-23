@@ -2,7 +2,7 @@
 Description: The Windows Media Video 9 encoder encodes video streams.
 ms.assetid: 1d0a41bc-7f7c-4e25-860c-1108ab292951
 title: Windows Media Video 9 Encoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

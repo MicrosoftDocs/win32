@@ -2,7 +2,7 @@
 Description: The VolumesAvailable property retrieves the number of volumes in a multivolume set.
 ms.assetid: d056b6d5-f4a4-480b-96a5-8e95dce23dfb
 title: VolumesAvailable Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

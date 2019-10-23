@@ -4,7 +4,7 @@ description: The TfEditCookie data type identifies an edit session that has a lo
 ms.assetid: 1de17286-5d56-4302-a144-5fe6ca7d5557
 keywords:
 - TfEditCookie
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

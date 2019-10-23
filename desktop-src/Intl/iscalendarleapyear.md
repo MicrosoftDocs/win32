@@ -2,7 +2,7 @@
 Description: Deprecated. Identifies whether the specified year is a leap year within the given era for the specific calendar.
 ms.assetid: 91f58915-f0c6-4c7a-9d9a-96e255d799fd
 title: IsCalendarLeapYear function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

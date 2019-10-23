@@ -2,7 +2,7 @@
 Description: The GetWindowPosition method retrieves the current coordinates for the window.
 ms.assetid: a2f46a87-b2cd-450f-8d2b-0f8695432fda
 title: CBaseControlWindow.GetWindowPosition method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_CurrentSensor class exists for backward compatibility to e
 ms.assetid: d1835b09-4286-4586-92ec-f5f77791aea6
 ms.tgt_platform: multiple
 title: CIM_CurrentSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

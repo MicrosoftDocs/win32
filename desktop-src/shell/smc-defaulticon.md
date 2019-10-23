@@ -1,7 +1,7 @@
 ---
 Description: Return the default icon for the item specified by the accompanying SMDATA structure.
 title: SMC_DEFAULTICON message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: d5f6789a-f160-4fba-ba64-b1a0c491fdaa
 api_name: 

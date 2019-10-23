@@ -2,7 +2,7 @@
 Description: The CopyValuesFromPropertyStore method copies the contents of an IPropertyStore into the collection.
 ms.assetid: 887c9569-ff76-41cf-8782-62c59c04e831
 title: IPortableDeviceValues::CopyValuesFromPropertyStore method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

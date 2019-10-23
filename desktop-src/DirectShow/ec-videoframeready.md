@@ -2,7 +2,7 @@
 Description: A video frame is ready for display.
 ms.assetid: af6198be-9656-49a6-9598-b1c040be5a1a
 title: EC_VIDEOFRAMEREADY
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

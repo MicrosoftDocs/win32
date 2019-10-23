@@ -2,7 +2,7 @@
 Description: Raised by an output trust authority (OTA) when the IMFOutputTrustAuthority::SetPolicy method completes asynchronously.
 ms.assetid: c5d8a88e-2864-45a0-97b7-051341116a4c
 title: MEPolicySet event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Sets the gamma ramp for the device.
 ms.assetid: 92ea0247-6eec-4c5f-9ea7-65f6b97dde1e
 title: NtGdiDdSetGammaRamp function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

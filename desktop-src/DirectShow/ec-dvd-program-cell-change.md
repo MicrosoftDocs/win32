@@ -2,7 +2,7 @@
 Description: Sent when the DVD program number or cell number changes.
 ms.assetid: a500e86d-cd42-4716-9c57-828a72c4e1df
 title: EC_DVD_PROGRAM_CELL_CHANGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

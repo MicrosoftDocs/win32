@@ -2,7 +2,7 @@
 Description: Notifies applications that the system is resuming from sleep or hibernation. This event is delivered every time the system resumes and does not indicate whether a user is present.
 ms.assetid: cd331f79-b64d-479e-aea8-5118ccc87224
 title: PBT_APMRESUMEAUTOMATIC event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

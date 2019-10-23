@@ -2,7 +2,7 @@
 Description: Sets or retrieves the type of hashing algorithm used.
 ms.assetid: 3f8e83f2-0e46-494b-ac63-658e663680ea
 title: HashedData.Algorithm property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

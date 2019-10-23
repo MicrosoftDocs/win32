@@ -2,7 +2,7 @@
 Description: Performs a linear interpolation between two 2D vectors.
 ms.assetid: f8e9e6be-9696-4a4a-a6c8-c021985decaa
 title: D3DXVec2Lerp function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

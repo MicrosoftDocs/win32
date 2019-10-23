@@ -2,7 +2,7 @@
 Description: ChangePassword is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: bc8813a0-9b40-481f-9ab3-cf6a9a0796d2
 title: IUserIdentity2::ChangePassword method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

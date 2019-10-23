@@ -3,7 +3,7 @@ Description: The following table lists the CHString methods.
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.tgt_platform: multiple
 title: CHString class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

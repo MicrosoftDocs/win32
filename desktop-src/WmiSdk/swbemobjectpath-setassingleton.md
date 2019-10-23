@@ -3,7 +3,7 @@ Description: The SetAsSingleton method of the SWbemObjectPath object forces the 
 ms.assetid: 7ec53954-2aac-494c-87c7-6a14592d8bd5
 ms.tgt_platform: multiple
 title: SWbemObjectPath.SetAsSingleton method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

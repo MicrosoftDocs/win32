@@ -2,7 +2,7 @@
 Description: Gets the vertices and weights that a bone influences.
 ms.assetid: 84cb064b-b6b2-402d-81cc-8c02de6f8b52
 title: ID3DXSkinInfo::GetBoneInfluence method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

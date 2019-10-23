@@ -2,7 +2,7 @@
 Description: Returns a 2D vector that is made up of the smallest components of two 2D vectors.
 ms.assetid: 6944523e-33dd-456e-9cc2-17760d76c548
 title: D3DXVec2Minimize function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

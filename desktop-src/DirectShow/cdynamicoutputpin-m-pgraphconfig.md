@@ -2,7 +2,7 @@
 Description: Pointer to the IGraphConfig interface for performing dynamic reconnections.
 ms.assetid: 44098541-e58e-4a42-974e-592e9a41814f
 title: CDynamicOutputPin::m_pGraphConfig member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

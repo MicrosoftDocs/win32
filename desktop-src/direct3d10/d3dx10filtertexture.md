@@ -2,7 +2,7 @@
 Description: Generates mipmap chain using a particular texture filter.
 ms.assetid: 19e651dd-dc34-405b-8769-00d91c097a1f
 title: D3DX10FilterTexture function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

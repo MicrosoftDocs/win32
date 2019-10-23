@@ -1,7 +1,7 @@
 ---
 Description: Extends the IShellDispatch5 object.
 title: IShellDispatch6 object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

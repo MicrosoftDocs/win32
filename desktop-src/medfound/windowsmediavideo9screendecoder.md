@@ -2,7 +2,7 @@
 Description: The Windows Media Video 9 Screen decoder decodes streams that were encoded by the Windows Media Video 9 Screen Encoder.
 ms.assetid: 6688a830-7a54-4f58-947e-26013e191b5f
 title: Windows Media Video 9 Screen Decoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

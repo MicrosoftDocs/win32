@@ -2,7 +2,7 @@
 Description: Defines the type that is used to specify valid values for the color of certain elements in a Journal XML file.
 ms.assetid: 10a19f28-d0aa-4126-b3f5-fde35fc5fdb0
 title: ColorType Simple Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

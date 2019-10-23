@@ -2,7 +2,7 @@
 Description: Removes an animation set from the animation controller.
 ms.assetid: 2ca99651-8249-44c2-9560-b3cfaa930862
 title: ID3DXAnimationController::UnregisterAnimationSet method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

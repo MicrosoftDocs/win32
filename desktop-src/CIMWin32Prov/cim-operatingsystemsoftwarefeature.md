@@ -3,7 +3,7 @@ Description: The CIM\_OperatingSystemSoftwareFeature class represents the softwa
 ms.assetid: 9ffc709c-213e-4252-9662-76f01e1685e5
 ms.tgt_platform: multiple
 title: CIM_OperatingSystemSoftwareFeature class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

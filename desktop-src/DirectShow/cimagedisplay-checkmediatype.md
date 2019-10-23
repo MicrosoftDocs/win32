@@ -2,7 +2,7 @@
 Description: The CheckMediaType method determines whether a proposed media type is compatible with the display format.
 ms.assetid: 567663cf-c79f-4549-9fa9-b16da957d2b1
 title: CImageDisplay.CheckMediaType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

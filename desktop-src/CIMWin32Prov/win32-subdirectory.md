@@ -3,7 +3,7 @@ Description: The Win32\_SubDirectory association WMI class relates a directory (
 ms.assetid: f0565b7b-d593-468b-96b1-3922428c61e1
 ms.tgt_platform: multiple
 title: Win32_SubDirectory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

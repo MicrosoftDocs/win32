@@ -2,7 +2,7 @@
 Description: This template is instantiated on a per-mesh basis only in meshes that contain exported skinning information. The purpose of this template is to provide information about the nature of the skinning information that was exported.
 ms.assetid: 95a4fa45-63d1-4931-9c91-b26807d2b043
 title: XSkinMeshHeader
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The SetTcpipNetbios method is used to set the default operation of 
 ms.assetid: 2c639595-da13-400d-b4d0-432b39460554
 ms.tgt_platform: multiple
 title: SetTcpipNetbios method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

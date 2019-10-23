@@ -3,7 +3,7 @@ Description: The SWbemEventSource object retrieves events from an event query in
 ms.assetid: 7efd5e6a-4311-4d20-8b05-e9208eec098a
 ms.tgt_platform: multiple
 title: SWbemEventSource object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

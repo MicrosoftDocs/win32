@@ -2,7 +2,7 @@
 Description: Sent by the streaming audio renderer (SAR) when the volume or mute state of the audio session changes.
 ms.assetid: 63c37bd2-0289-407a-92f1-169eb5d2e02e
 title: MEAudioSessionVolumeChanged event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

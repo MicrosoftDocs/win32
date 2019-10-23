@@ -2,7 +2,7 @@
 Description: The GetProperties method retrieves the properties of the sample. This method implements the IMediaSample2::GetProperties method.
 ms.assetid: c2a6d611-9c17-41fb-bb6d-f5b17f1c9966
 title: CMediaSample.GetProperties method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Describes a type of virtual resource available for use in virtual machines.
 ms.assetid: A93D990E-D921-4113-8D88-218D0F84EFA0
 title: Msvm_ResourcePool class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

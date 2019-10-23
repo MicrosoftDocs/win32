@@ -3,7 +3,7 @@ Description: The Win32\_PageFile&\#32;WMI class represents the file used for han
 ms.assetid: 5599d09d-a2fd-4217-8560-5fd56f09d47b
 ms.tgt_platform: multiple
 title: Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

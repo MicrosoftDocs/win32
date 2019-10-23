@@ -3,7 +3,7 @@ Description: The CIM\_DirectoryAction abstract class manages directories. Direct
 ms.assetid: 3c1e7023-cf54-4321-a340-b8616300c4c0
 ms.tgt_platform: multiple
 title: CIM_DirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

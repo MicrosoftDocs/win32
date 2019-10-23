@@ -2,7 +2,7 @@
 Description: Deletes the specified scan profile.
 ms.assetid: 31020528-3a96-492f-a3a1-e9075d4ffd14
 title: IScanProfileMgr::DeleteProfile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

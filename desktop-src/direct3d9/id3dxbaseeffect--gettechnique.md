@@ -2,7 +2,7 @@
 Description: Gets the handle of a technique.
 ms.assetid: da139706-734b-4d5e-896d-52f045942218
 title: ID3DXBaseEffect::GetTechnique method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

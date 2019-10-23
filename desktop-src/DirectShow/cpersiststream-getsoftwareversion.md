@@ -2,7 +2,7 @@
 Description: Retrieves the software version for this stream.
 ms.assetid: f54153df-5593-4784-acc5-3e0dcef424b5
 title: CPersistStream.GetSoftwareVersion method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

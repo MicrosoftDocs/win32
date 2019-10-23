@@ -2,7 +2,7 @@
 Description: D3DXSHADER\_CONSTANTINFO structure
 ms.assetid: 0c42cea7-559e-4475-b66a-e932a9cb42de
 title: D3DXSHADER_CONSTANTINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

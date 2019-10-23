@@ -2,7 +2,7 @@
 Description: The WpdAttributeForm enumeration type describes how a property stores its values.
 ms.assetid: 3ad8d1f9-1b74-4f34-9af5-1acdd588b650
 title: WpdAttributeForm enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Flags used to by IWICDevelopRawNotificationCallback to indicate which members have changed.
 ms.assetid: 4e94b4f4-abd9-4395-87ec-a08e49a2cf88
 title: IWICDevelopRawNotificationCallback Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

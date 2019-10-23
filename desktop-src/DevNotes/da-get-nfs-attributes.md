@@ -2,7 +2,7 @@
 Description: The DA\_GET\_NFS\_ATTRIBUTES control code queries additional information about an NFS share.
 ms.assetid: BC9E0E19-7D78-4AE7-A3E6-9FD9212B2B83
 title: DA_GET_NFS_ATTRIBUTES control code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

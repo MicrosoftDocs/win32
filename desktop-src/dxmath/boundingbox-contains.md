@@ -2,7 +2,7 @@
 Description: Tests whether the BoundingBox contains a specified object.
 ms.assetid: 876c7764-9378-48e5-812c-3646930900c5
 title: BoundingBox.Contains methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

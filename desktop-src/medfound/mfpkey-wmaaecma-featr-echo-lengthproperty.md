@@ -2,7 +2,7 @@
 Description: Specifies the duration of echo that the acoustic echo cancellation (AEC) algorithm can handle, in milliseconds.
 ms.assetid: d451b90f-7ef7-4f66-be83-aca93e3ad894
 title: MFPKEY_WMAAECMA_FEATR_ECHO_LENGTH Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

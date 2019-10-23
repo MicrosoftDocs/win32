@@ -2,7 +2,7 @@
 Description: The DllGetMonitorObject function must be implemented by the monitor. The MCSVC calls this function to create an instance of the monitor.
 ms.assetid: 2c39f752-264c-4ab9-8710-a0d660c4772f
 title: DllGetMonitorObject callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Retrieves session and station information about the current capture.
 ms.assetid: 7fc436fc-b569-402d-a1ea-c1bb65de8a9e
 title: IStats::GetConversationStatistics method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

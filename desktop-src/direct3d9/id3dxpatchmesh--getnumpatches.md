@@ -2,7 +2,7 @@
 Description: Gets the number of patches in the mesh.
 ms.assetid: c081711a-9fbb-4993-b073-fbce53105165
 title: ID3DXPatchMesh::GetNumPatches method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

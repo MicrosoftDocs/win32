@@ -2,7 +2,7 @@
 Description: The LINETONEMODE\_ constants describe different selections that are used when generating line tones.
 ms.assetid: 7bfc7d4e-2ab3-44ec-a936-f2d7dcfce263
 title: LINETONEMODE_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

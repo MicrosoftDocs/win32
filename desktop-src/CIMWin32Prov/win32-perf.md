@@ -3,7 +3,7 @@ Description: The base class for the performance counter classes Win32\_PerfRawDa
 ms.assetid: c754b619-a70f-4a56-8a43-2b36c8f8370b
 ms.tgt_platform: multiple
 title: Win32_Perf class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

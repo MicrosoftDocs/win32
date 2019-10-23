@@ -2,7 +2,7 @@
 Description: The ICspAlgorithms interface exposes the following properties.
 ms.assetid: B1BD8E9D-0847-4ACE-99D7-06A16521D62D
 title: ICspAlgorithms Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

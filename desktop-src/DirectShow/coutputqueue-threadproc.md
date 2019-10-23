@@ -2,7 +2,7 @@
 Description: The ThreadProc method retrieves samples from the queue and delivers them to the input pin.
 ms.assetid: e5da0a12-c722-4d08-bf84-5e3aa60b64a9
 title: COutputQueue.ThreadProc method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

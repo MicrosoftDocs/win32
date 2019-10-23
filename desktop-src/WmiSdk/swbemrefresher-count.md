@@ -3,7 +3,7 @@ Description: The Count property of the SWbemRefresher object contains the number
 ms.assetid: 189c853b-dcf0-4bf7-821e-e12f94fcd1f3
 ms.tgt_platform: multiple
 title: SWbemRefresher.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

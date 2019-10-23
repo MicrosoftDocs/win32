@@ -3,7 +3,7 @@ Description: The CIM\_LogicalElement class is the base class for all system comp
 ms.assetid: 81b2788a-96e8-4570-9a13-d11d229ad789
 ms.tgt_platform: multiple
 title: CIM_LogicalElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

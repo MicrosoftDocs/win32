@@ -2,7 +2,7 @@
 Description: Contains a collection of objects that implement the IContextLink interface.
 ms.assetid: 34d1bbbb-85c0-4209-97ca-c22f22a1b625
 title: IContextLinks interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

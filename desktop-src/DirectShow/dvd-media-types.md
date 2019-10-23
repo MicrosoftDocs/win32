@@ -2,7 +2,7 @@
 Description: The following tables describe the media types used for DVD.
 ms.assetid: 83bcce3e-4d54-463d-863e-88e8dfd0c8da
 title: DVD Media Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

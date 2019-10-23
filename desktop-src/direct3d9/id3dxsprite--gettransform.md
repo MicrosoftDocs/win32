@@ -2,7 +2,7 @@
 Description: Gets the sprite transform.
 ms.assetid: d91f2776-ee87-42b3-998b-fccea178cee2
 title: ID3DXSprite::GetTransform method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

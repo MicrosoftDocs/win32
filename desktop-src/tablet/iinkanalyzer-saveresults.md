@@ -2,7 +2,7 @@
 Description: Saves all analysis results for an IInkAnalyzer.
 ms.assetid: 538eb781-d831-475b-ba09-271d71f6a6bf
 title: IInkAnalyzer::SaveResults method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Determines whether the user has all of the required permissions spe
 ms.assetid: ece22cb0-a4ca-4ad7-b6d3-213dda4ce5b1
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

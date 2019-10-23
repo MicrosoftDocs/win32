@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 575f7f94-5f55-4834-bdb6-0db877187388
 title: CBaseControlWindow.CBaseControlWindow constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

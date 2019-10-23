@@ -3,7 +3,7 @@ Description: The Win32\_OSRecoveryConfiguration&\#8194;WMI class represents the 
 ms.assetid: 0c8a2aeb-2fd9-44b7-8f91-d19afb8d2de6
 ms.tgt_platform: multiple
 title: Win32_OSRecoveryConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

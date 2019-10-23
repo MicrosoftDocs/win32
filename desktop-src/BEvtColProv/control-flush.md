@@ -3,7 +3,7 @@ Description: Clears the forward buffers for the stream and writes any buffered d
 ms.assetid: 7f179237-95e5-470d-b613-c1deaa09c05f
 ms.tgt_platform: multiple
 title: Flush method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Moves an item or items to this folder.
 ms.assetid: 07723dc1-5d9d-4f32-ab18-52617b0988c4
 title: Folder.MoveHere method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

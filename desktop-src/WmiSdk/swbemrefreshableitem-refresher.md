@@ -3,7 +3,7 @@ Description: The SWbemRefreshableItem.Refresher property represents the parent S
 ms.assetid: 238722e0-63e6-4907-993e-67693746d487
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Refresher property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

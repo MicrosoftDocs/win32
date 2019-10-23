@@ -3,7 +3,7 @@ Description: The SWbemDateTime object is a helper object to parse and set Common
 ms.assetid: 3dd34c73-3c2b-4d59-827b-169cf8020213
 ms.tgt_platform: multiple
 title: SWbemDateTime object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

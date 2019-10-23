@@ -2,7 +2,7 @@
 Description: The SPFILENOTIFY\_STARTCOPY notification is sent to the callback function when the queue starts a file copy operation.
 ms.assetid: 01a7d9d4-b548-4e72-b1c9-7116e67c023b
 title: SPFILENOTIFY_STARTCOPY message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

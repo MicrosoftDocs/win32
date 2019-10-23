@@ -2,7 +2,7 @@
 Description: Contains the results from querying the shim database for a matching executable.
 ms.assetid: 6e6df118-fb64-4a97-9280-050e3b4e3a4b
 title: SDBQUERYRESULT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

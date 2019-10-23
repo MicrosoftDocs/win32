@@ -2,7 +2,7 @@
 Description: The type attribute specifies the media type of a group.
 ms.assetid: 72b1309d-a7a1-47dc-89c8-dbb83647cb74
 title: type Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Structures
 description: This section describes the structures provided by the Microsoft DirectComposition \ 32;API.
 ms.assetid: 5BFF3D10-6241-4A68-92BD-FE736D9F6670
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

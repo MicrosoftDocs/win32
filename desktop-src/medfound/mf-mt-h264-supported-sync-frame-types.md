@@ -2,7 +2,7 @@
 Description: Specifies the types of synchronization frame that are supported for an H.264 video stream.
 ms.assetid: A2E548F1-A5FA-4110-AD07-46BE9D7DC4A5
 title: MF_MT_H264_SUPPORTED_SYNC_FRAME_TYPES attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

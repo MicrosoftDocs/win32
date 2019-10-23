@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine2::GetPlaybackMachine method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: D6C3C391-F039-4A5A-AA88-87A3624ECAD2
 api_name: 

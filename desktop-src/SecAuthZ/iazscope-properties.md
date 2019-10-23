@@ -2,7 +2,7 @@
 Description: The IAzScope interface exposes the following properties.
 ms.assetid: 90C4B9DA-7AB9-4C82-BC8E-A723B31F0DA8
 title: IAzScope Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

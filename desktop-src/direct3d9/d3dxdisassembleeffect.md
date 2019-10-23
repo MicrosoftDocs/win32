@@ -2,7 +2,7 @@
 Description: Disassemble an effect.
 ms.assetid: d95d6e97-2e79-4cd2-965e-483aa1a1ddbc
 title: D3DXDisassembleEffect function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

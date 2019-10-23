@@ -2,7 +2,7 @@
 Description: Modifies virtual machine settings.
 ms.assetid: 3266bd0d-398b-4d3b-9248-e29c069aab11
 title: ModifySystemSettings method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

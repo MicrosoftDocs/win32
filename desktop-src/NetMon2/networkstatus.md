@@ -2,7 +2,7 @@
 Description: The NETWORKSTATUS structure describes the current status of the NPP.
 ms.assetid: e5e07480-cfc3-408f-9ca2-48a697e4b875
 title: NETWORKSTATUS structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

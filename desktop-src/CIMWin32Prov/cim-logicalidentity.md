@@ -3,7 +3,7 @@ Description: The CIM\_LogicalIdentity class is an abstract and generic associati
 ms.assetid: 624a52bf-001d-4f18-af77-87a5d1cfa1ff
 ms.tgt_platform: multiple
 title: CIM_LogicalIdentity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

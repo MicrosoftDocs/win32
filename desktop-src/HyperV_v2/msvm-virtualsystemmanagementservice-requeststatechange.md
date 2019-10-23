@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: 3dafc143-4033-4137-9e90-2965c59d9a79
 title: RequestStateChange method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

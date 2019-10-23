@@ -2,7 +2,7 @@
 Description: Initializes a color with the supplied red, green, blue, and alpha floating-point values.
 ms.assetid: 61825e33-4150-47cd-97f2-2144434a45e2
 title: D3DCOLOR_COLORVALUE macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

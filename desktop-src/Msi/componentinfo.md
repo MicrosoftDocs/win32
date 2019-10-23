@@ -2,7 +2,7 @@
 Description: The ComponentInfo object represents additional details about a component that may be obtained via a call from MsiGetComponentPathEx.
 ms.assetid: 9b0ad0a1-c49f-4b14-817b-0cfc9b228d77
 title: ComponentInfo object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

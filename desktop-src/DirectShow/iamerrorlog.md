@@ -2,7 +2,7 @@
 Description: The IAMErrorLog interface provides a callback method for error logging in DirectShow Editing Services (DES).DES does not implement this interface.
 ms.assetid: d5366072-2de7-437c-b198-cbc4d8623c45
 title: IAMErrorLog interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

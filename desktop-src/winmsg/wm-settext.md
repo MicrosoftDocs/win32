@@ -2,7 +2,7 @@
 Description: Sets the text of a window.
 ms.assetid: 1b48c309-6903-4139-bf42-e8526963e681
 title: WM_SETTEXT message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

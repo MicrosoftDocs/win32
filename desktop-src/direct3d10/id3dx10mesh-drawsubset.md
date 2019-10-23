@@ -2,7 +2,7 @@
 Description: Draws a subset of a mesh.
 ms.assetid: e785949e-fcda-4ef9-b50a-193cd954e97d
 title: ID3DX10Mesh::DrawSubset method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

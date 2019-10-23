@@ -1,7 +1,7 @@
 ---
 Description: Extends the FolderItems object. It supports one additional method.
 title: FolderItems2 object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

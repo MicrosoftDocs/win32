@@ -2,7 +2,7 @@
 Description: This class is the event type class for TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: 1cde7e37-52da-4108-90ce-7647a5653f65
 title: TcpIp_V1_TypeGroup1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IOfflineAnalysisCacheCallback interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: E226B1A6-D028-4562-9C8C-D25EC91A2DB2
 api_name: 

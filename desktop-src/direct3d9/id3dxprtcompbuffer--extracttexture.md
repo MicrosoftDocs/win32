@@ -2,7 +2,7 @@
 Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer and adds the data to an IDirect3DTexture9 object.
 ms.assetid: 2159e57d-b8e5-421f-b20a-ac58b29e3c45
 title: ID3DXPRTCompBuffer::ExtractTexture method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

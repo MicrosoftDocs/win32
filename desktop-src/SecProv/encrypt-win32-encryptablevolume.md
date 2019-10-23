@@ -2,7 +2,7 @@
 Description: Begins encryption of a fully decrypted volume, or resumes encryption of a partially encrypted volume.
 ms.assetid: bba8b800-309b-4268-8278-db69827bbdf6
 title: Encrypt method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

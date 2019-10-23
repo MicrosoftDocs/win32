@@ -3,7 +3,7 @@ Description: The Win32\_PrivilegesStatus&\#8194;WMI class reports information ab
 ms.assetid: 295ec2bd-7996-4031-8503-d4e869d8368d
 ms.tgt_platform: multiple
 title: Win32_PrivilegesStatus class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

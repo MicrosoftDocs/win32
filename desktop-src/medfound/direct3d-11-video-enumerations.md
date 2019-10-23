@@ -2,7 +2,7 @@
 Description: This section contains reference information for the Microsoft Direct3D 11 video API enumerations.
 ms.assetid: 40061AD1-BCD9-4170-A442-34B4C792BB55
 title: Direct3D 11 Video Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

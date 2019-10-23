@@ -2,7 +2,7 @@
 Description: For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetMethodAttributes method.
 ms.assetid: b920e037-7737-4a18-b4f1-5c59e0a857dd
 title: Method Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

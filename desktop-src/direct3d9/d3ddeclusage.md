@@ -2,7 +2,7 @@
 Description: Identifies the intended use of vertex data.
 ms.assetid: ee9b46c2-b779-480c-9b5c-6d189d2af014
 title: D3DDECLUSAGE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

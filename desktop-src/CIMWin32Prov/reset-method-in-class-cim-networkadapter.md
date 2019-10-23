@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_NetworkAdapter class requests a reset 
 ms.assetid: ff4493b7-a9e1-4a39-a14a-05da75659d4e
 ms.tgt_platform: multiple
 title: Reset method of the CIM_NetworkAdapter class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

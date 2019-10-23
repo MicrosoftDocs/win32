@@ -2,7 +2,7 @@
 Description: An association used to represent virtual system migration network settings of the virtual system migration service.
 ms.assetid: 5704dce7-1db3-4049-8c61-58bfa9596766
 title: Msvm_VirtualSystemMigrationServiceSettingDataComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

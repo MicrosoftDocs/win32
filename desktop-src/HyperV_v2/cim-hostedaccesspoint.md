@@ -2,7 +2,7 @@
 Description: Represents an association between a service access point (SAP) and the system that hosts it.
 ms.assetid: 82db71d6-6d14-408e-87e0-fe869e454d4d
 title: CIM_HostedAccessPoint class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

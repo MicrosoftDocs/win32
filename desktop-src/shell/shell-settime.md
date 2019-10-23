@@ -2,7 +2,7 @@
 Description: Displays the Date and Time Properties dialog box. This method has the same effect as right-clicking the clock in the taskbar status area and selecting Adjust Date/Time.
 ms.assetid: 01694607-3fc2-4d0d-ba48-5bdbb40da000
 title: Shell.SetTime method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

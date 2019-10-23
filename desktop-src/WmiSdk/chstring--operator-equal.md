@@ -3,7 +3,7 @@ Description: The CHString assignment (=) operator reinitializes an existing CHSt
 ms.assetid: 6864aacf-ac18-4b5a-be3e-3a0d8bb31e74
 ms.tgt_platform: multiple
 title: CHString::operator=
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

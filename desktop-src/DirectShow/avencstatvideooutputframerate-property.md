@@ -2,7 +2,7 @@
 Description: Returns the average frame rate of the video content, in frames per second.
 ms.assetid: 3148562c-0ddb-4679-92ab-769d7b96bdb4
 title: AVEncStatVideoOutputFrameRate property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

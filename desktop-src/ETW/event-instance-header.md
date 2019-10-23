@@ -2,7 +2,7 @@
 Description: The EVENT\_INSTANCE\_HEADER structure contains standard event tracing information common to all events.
 ms.assetid: 2a79d937-2a3b-4426-b31f-a1a3ce86a334
 title: EVENT_INSTANCE_HEADER structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

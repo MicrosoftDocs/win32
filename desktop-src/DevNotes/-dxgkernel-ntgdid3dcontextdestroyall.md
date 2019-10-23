@@ -2,7 +2,7 @@
 Description: Queries the amount of free memory in the driver-managed memory heap.
 ms.assetid: d7f8792b-a515-4e70-9474-6a3474b6612b
 title: NtGdiD3DContextDestroyAll function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

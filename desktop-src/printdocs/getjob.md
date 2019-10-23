@@ -2,7 +2,7 @@
 Description: The GetJob function retrieves information about a specified print job.
 ms.assetid: 57e59f84-d2a0-4722-b0fc-6673f7bb5c57
 title: GetJob function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

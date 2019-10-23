@@ -3,7 +3,7 @@ Description: Gets or sets a value that represents the month component of the dat
 ms.assetid: 05818f0a-7e15-4ddd-a6a7-9d16ae82cd3c
 ms.tgt_platform: multiple
 title: SWbemDateTime.Month property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

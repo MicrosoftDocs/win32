@@ -2,7 +2,7 @@
 Description: Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.
 ms.assetid: f1595861-d8cb-4787-8078-b9ba6f76507e
 title: D3DXVec3TransformCoordArray function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

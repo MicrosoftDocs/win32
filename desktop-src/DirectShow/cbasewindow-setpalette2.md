@@ -2,7 +2,7 @@
 Description: The SetPalette method installs a palette for the window.
 ms.assetid: 86eb34c6-85ff-4a40-8085-ea55dbc2727e
 title: CBaseWindow.SetPalette method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

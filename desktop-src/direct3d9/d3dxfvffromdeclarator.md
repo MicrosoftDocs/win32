@@ -2,7 +2,7 @@
 Description: Returns a flexible vertex format (FVF) code from a declarator.
 ms.assetid: 4f30087e-0042-44bc-a7a5-5386b18fcad7
 title: D3DXFVFFromDeclarator function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

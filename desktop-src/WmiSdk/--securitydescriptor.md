@@ -3,7 +3,7 @@ Description: Represents a security descriptor.
 ms.assetid: 1ade1751-52a2-4ada-8255-323321111663
 ms.tgt_platform: multiple
 title: '__SecurityDescriptor class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

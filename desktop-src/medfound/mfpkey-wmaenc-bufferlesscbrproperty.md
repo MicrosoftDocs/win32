@@ -2,7 +2,7 @@
 Description: Specifies whether the encoder should produce 1 WMA packet per frame.
 ms.assetid: 5c8a67c0-8c2e-41bc-a9a6-600453d2a100
 title: MFPKEY_WMAENC_BUFFERLESSCBR Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

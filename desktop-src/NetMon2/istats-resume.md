@@ -2,7 +2,7 @@
 Description: The Resume method restarts a paused capture.
 ms.assetid: 128e38c4-7459-4376-a3d7-2c6944fcf535
 title: IStats::Resume method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

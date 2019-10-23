@@ -2,7 +2,7 @@
 Description: Specifies the instruction set D3DX is currently optimized for.
 ms.assetid: 5fc97028-4a9d-4bc7-9c90-236a70e570e1
 title: D3DX_CPU_OPTIMIZATION enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_DeviceAccessedByFile association class specifies the logic
 ms.assetid: 8ba44f40-8b84-4f5c-b719-aded10877654
 ms.tgt_platform: multiple
 title: CIM_DeviceAccessedByFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

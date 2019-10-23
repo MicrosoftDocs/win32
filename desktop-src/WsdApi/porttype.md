@@ -2,7 +2,7 @@
 Description: Specifies the port type for which code is to be generated.
 ms.assetid: 8a7762ae-2e39-46e1-b49f-09cae1af9b0d
 title: portType element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

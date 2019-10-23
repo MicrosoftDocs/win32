@@ -4,7 +4,7 @@ description: The RPC\_AUTH\_IDENTITY\_HANDLE data type declares a handle that po
 ms.assetid: 06e45348-a392-45be-9f8a-e77ef887f26c
 keywords:
 - RPC_AUTH_IDENTITY_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

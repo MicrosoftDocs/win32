@@ -2,7 +2,7 @@
 Description: Specifies the quality of the output.
 ms.assetid: 7b45633b-7f1c-4951-a462-ad6240b9ca31
 title: MFPKEY_WMRESAMP_FILTERQUALITY Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

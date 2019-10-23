@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: 836ee3a1-e28e-4f84-8e1c-09f4a2ff0a25
 title: RequestStateChange method of the Msvm_Memory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

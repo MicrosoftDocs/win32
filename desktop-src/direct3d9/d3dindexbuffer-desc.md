@@ -2,7 +2,7 @@
 Description: Describes an index buffer.
 ms.assetid: 5d45213e-b3c0-4eb7-a4f9-8d8730eb3899
 title: D3DINDEXBUFFER_DESC structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

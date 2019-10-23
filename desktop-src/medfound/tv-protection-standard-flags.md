@@ -2,7 +2,7 @@
 Description: The constants in the following table specify television standards and formats for Output Protection Manager (OPM).
 ms.assetid: 8f26aa92-ed40-483e-ac78-c071619f0e12
 title: TV Protection Standard Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Win32\_ProgramGroupContents association WMI class relates a pro
 ms.assetid: 687794d1-acc1-498a-9886-0c9ac762ebf4
 ms.tgt_platform: multiple
 title: Win32_ProgramGroupContents class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Occurs when the selection of ink within the control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 6b4cd9fe-b09f-4a70-9aa5-92ef9409ff1b
 title: InkOverlay.SelectionChanged event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

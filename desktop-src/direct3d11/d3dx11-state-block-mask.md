@@ -12,7 +12,7 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

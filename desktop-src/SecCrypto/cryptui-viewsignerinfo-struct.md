@@ -2,7 +2,7 @@
 Description: Contains information for the CryptUIDlgViewSignerInfo function.
 ms.assetid: 2b76de4f-4b35-477e-a67e-435434e066c6
 title: CRYPTUI_VIEWSIGNERINFO_STRUCT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The InitialiseWindow method initializes the window.
 ms.assetid: 0cf07714-6846-4271-8095-bc4ab865171f
 title: CBaseWindow.InitialiseWindow method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

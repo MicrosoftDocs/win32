@@ -2,7 +2,7 @@
 Description: Contains an object for each unconfigured component in the Applications collection. Unconfigured components cannot make use of COM+ services. The properties exposed by these objects hold settings made at the component level.
 ms.assetid: 87f3b93f-71aa-4187-88d2-889c13d8bd06
 title: LegacyComponents collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

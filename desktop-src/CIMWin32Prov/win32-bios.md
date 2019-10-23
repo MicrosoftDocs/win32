@@ -3,7 +3,7 @@ Description: Represents the attributes of the computer system's basic input/outp
 ms.assetid: e4a5aaf0-0432-4517-97b7-ac05ffd10b5b
 ms.tgt_platform: multiple
 title: Win32_BIOS class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

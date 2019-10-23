@@ -10,7 +10,7 @@ api_name:
 - Finding Audio Encoder Output Types
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

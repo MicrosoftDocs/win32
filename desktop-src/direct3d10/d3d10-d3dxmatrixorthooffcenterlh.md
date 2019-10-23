@@ -2,7 +2,7 @@
 Description: Builds a customized, left-handed orthographic projection matrix.
 ms.assetid: 84175c08-5a0b-4183-afe2-8aecafd73897
 title: D3DXMatrixOrthoOffCenterLH function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

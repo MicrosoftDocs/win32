@@ -2,7 +2,7 @@
 Description: The GetFileCapabilities method retrieves a list of file capabilities from the current file.
 ms.assetid: 0d24efd2-d411-4fb3-95c2-4742a58aeb5e
 title: ISCardFileAccess::GetFileCapabilities method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

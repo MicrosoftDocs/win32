@@ -3,7 +3,7 @@ Description: The CIM\_LogicalDiskBasedOnVolumeSet association relates logical di
 ms.assetid: 15a588c9-a6b0-4393-927f-8e8818315542
 ms.tgt_platform: multiple
 title: CIM_LogicalDiskBasedOnVolumeSet class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

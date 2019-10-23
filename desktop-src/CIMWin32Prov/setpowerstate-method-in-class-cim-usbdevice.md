@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_USBDevice class sets the desir
 ms.assetid: c0cffb7c-100c-4fcc-b38f-a6bfd8eb28ff
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_USBDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

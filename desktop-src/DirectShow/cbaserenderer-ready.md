@@ -2,7 +2,7 @@
 Description: The Ready method signals that a state transition is complete.
 ms.assetid: 01328281-cf25-43fd-9f9c-e55fccbac217
 title: CBaseRenderer.Ready method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

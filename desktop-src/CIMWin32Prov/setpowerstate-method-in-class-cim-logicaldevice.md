@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_LogicalDevice class sets the d
 ms.assetid: 0d9678e0-a956-45d3-ac41-5c1604478fd7
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_LogicalDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The TablePersistent property of the Database object returns the persistence state of the table as one of the following parameters.
 ms.assetid: c395e99c-5cdc-4d7b-ac55-a79d4e1477dc
 title: Database.TablePersistent property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

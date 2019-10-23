@@ -2,7 +2,7 @@
 Description: The GetUserID method retrieves the object's application-defined identifier.
 ms.assetid: 68a20dfa-990e-47de-ae02-1d3182b7f13f
 title: IAMTimelineObj::GetUserID method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

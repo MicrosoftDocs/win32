@@ -3,7 +3,7 @@ Description: The Add method of the SWbemNamedValueSet object adds an SWbemNamedV
 ms.assetid: 471b23f5-6c53-40e2-a2a9-0798044c9dfb
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Add method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

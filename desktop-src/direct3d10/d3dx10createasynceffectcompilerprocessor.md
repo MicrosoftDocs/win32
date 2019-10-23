@@ -2,7 +2,7 @@
 Description: Create an asynchronous-data processor for an effect.
 ms.assetid: 90a0dcd1-e495-4068-9f28-e2645370b984
 title: D3DX10CreateAsyncEffectCompilerProcessor function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

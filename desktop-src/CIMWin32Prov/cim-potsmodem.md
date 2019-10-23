@@ -3,7 +3,7 @@ Description: The CIM\_POTSModem class represents a device that translates binary
 ms.assetid: 2740f305-769d-464c-910a-998522f5121b
 ms.tgt_platform: multiple
 title: CIM_POTSModem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

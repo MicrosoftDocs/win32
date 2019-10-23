@@ -2,7 +2,7 @@
 Description: Used to free memory that was allocated by one of the Secure Sockets Layer protocol (SSL) provider functions.
 ms.assetid: 75a85013-c745-43cb-85b5-e13a2778ec1d
 title: SslFreeBuffer function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

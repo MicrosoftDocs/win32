@@ -2,7 +2,7 @@
 Description: Occurs when the InkEdit control gets results manually from a call to the InkEdit::Recognize method or automatically after the recognition timeout fires.
 ms.assetid: 09618be0-fe49-494f-940f-79ff8352097e
 title: InkEdit.RecognitionResult event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

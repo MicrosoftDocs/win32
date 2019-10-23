@@ -2,7 +2,7 @@
 title: IVMTaskCollection Properties
 description: The IVMTaskCollection interface exposes the following properties.
 ms.assetid: 4A97D84D-0905-4F1D-B1FD-80D2B7B0B42B
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

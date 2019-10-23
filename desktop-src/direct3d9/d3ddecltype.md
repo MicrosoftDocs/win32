@@ -2,7 +2,7 @@
 Description: Defines a vertex declaration data type.
 ms.assetid: 993fc7e4-4752-4bce-82d0-0a034fdc69c0
 title: D3DDECLTYPE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

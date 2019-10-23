@@ -5,7 +5,7 @@ ms.assetid: 0f929916-f3aa-477f-9c61-742f3fbbab29
 keywords:
 - RPC_STATUS
 - RPC_STATUS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

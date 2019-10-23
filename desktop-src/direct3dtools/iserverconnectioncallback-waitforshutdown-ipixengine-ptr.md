@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IServerConnectionCallback::WaitForShutdown method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: B70229D5-3C41-4B50-8336-A1271A9EBE81
 api_name: 

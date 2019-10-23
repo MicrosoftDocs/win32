@@ -3,7 +3,7 @@ Description: The CIM\_DeviceSAPImplementation class represents an association be
 ms.assetid: 6c059507-bfc0-4630-9b39-9c4bae2bf138
 ms.tgt_platform: multiple
 title: CIM_DeviceSAPImplementation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

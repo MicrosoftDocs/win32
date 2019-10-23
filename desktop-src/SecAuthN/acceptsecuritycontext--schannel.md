@@ -2,7 +2,7 @@
 Description: Enables the server component of a transport application to establish a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) between the server and a remote client that is using Schannel.
 ms.assetid: 03fd5272-8476-4c93-8590-0d00acf6a130
 title: AcceptSecurityContext (Schannel) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

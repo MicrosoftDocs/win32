@@ -2,7 +2,7 @@
 Description: Specifies whether a stream is mutually exclusive with other streams of the same type.
 ms.assetid: 00a426ae-297c-4fcb-8132-d9c538bc9f1a
 title: MF_SD_MUTUALLY_EXCLUSIVE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

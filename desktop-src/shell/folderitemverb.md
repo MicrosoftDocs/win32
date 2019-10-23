@@ -1,7 +1,7 @@
 ---
 Description: Represents a single verb available to an item. This object contains properties and methods that allow you to retrieve information about the verb.
 title: FolderItemVerb object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

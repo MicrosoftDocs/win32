@@ -2,7 +2,7 @@
 Description: Specifies the element that contains this source node.
 ms.assetid: f5fa5c10-8f30-43bd-8054-a39996f807a3
 title: MF_TOPONODE_SEQUENCE_ELEMENTID attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Returns all association classes or instances that refer to a specif
 ms.assetid: 2ad66ea1-b8f0-4b6b-b68f-29496afbe4bf
 ms.tgt_platform: multiple
 title: SWbemServices.ReferencesToAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

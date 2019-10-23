@@ -2,7 +2,7 @@
 Description: Specifies whether Real-Time Streaming Protocol (RTSP) transport is enabled in the network source.
 ms.assetid: 299393d2-7949-48ef-a36d-19bb8760fc4e
 title: MFNETSOURCE_ENABLE_RTSP property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

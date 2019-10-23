@@ -2,7 +2,7 @@
 Description: Transforms vector (x, y, z, 1) by a given matrix.
 ms.assetid: 5b290c4c-22f1-4086-8e5e-f995757ef193
 title: D3DXVec3Transform function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

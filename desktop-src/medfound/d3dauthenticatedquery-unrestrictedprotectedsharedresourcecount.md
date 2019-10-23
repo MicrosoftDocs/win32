@@ -2,7 +2,7 @@
 Description: Returns the number of protected shared resources that can be opened by any process without restrictions.
 ms.assetid: afbd7bb9-de71-4992-919e-e1517228dc69
 title: D3DAUTHENTICATEDQUERY_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Assemble a shader.
 ms.assetid: 24c3dcae-9397-4856-b072-0ae340157bf9
 title: D3DXAssembleShader function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Changes the settings of a child pool that are not allocation related.
 ms.assetid: f60068e0-f333-41e2-8f11-78aa48dfa260
 title: ModifyPoolSettings method of the Msvm_ResourcePoolConfigurationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The LINEQUEUESTATUS\_ constants indicate the change in status of an ACD queue on an agent handler.
 ms.assetid: 97f70742-8f5a-43bd-aef4-a28f1cc94bb2
 title: LINEQUEUESTATUS_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

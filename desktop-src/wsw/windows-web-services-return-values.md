@@ -8,7 +8,7 @@ api_name:
 - Windows Web Services Return Values
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

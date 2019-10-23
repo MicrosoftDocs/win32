@@ -2,7 +2,7 @@
 Description: The IsFixedSize method determines if the samples have a fixed size or a variable size.
 ms.assetid: bd49f01a-21bb-48a2-aa9e-94ea0d2dbab3
 title: CMediaType.IsFixedSize method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Removes virtual resource settings from a virtual switch configuration.
 ms.assetid: 9992ebcd-8891-42ef-be7e-154f336e37f8
 title: RemoveResourceSettings method of the Msvm_VirtualEthernetSwitchManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

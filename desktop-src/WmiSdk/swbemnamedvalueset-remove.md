@@ -3,7 +3,7 @@ Description: The Remove method of the SWbemNamedValueSet object deletes a named 
 ms.assetid: 8cb353fb-c6d7-41d9-a2d0-ff1ad37264e4
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Remove method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

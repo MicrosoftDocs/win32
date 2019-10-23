@@ -2,7 +2,7 @@
 Description: Queries whether the allocator uses read-only media samples.
 ms.assetid: 2cb692da-f030-4265-afe4-b1608b51fd47
 title: CBaseInputPin.IsReadOnly method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

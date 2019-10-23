@@ -2,7 +2,7 @@
 Description: The FixTimes method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group's frame rate setting.
 ms.assetid: 033ac221-7616-4c62-937e-c5585bc73a16
 title: IAMTimelineObj::FixTimes method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

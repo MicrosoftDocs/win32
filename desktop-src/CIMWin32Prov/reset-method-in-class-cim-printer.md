@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Printer class requests a reset of the 
 ms.assetid: 7d5c9e57-0f48-4a31-855d-d06197a9b5df
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

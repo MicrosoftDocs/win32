@@ -2,7 +2,7 @@
 Description: The SetTimeouts method specifies the individual time-out components of a send/receive operation, in milliseconds.
 ms.assetid: c2b6c432-5f3b-4361-8026-1b843c6697ae
 title: IWinHttpRequest::SetTimeouts method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

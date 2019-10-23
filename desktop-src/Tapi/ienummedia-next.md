@@ -2,7 +2,7 @@
 Description: The Next method gets the next specified number of elements in the enumeration sequence.
 ms.assetid: 39c6d082-415f-4375-8cad-6d4c734d277f
 title: IEnumMedia::Next method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

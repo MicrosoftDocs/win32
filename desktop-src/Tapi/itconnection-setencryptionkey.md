@@ -2,7 +2,7 @@
 Description: The SetEncryptionKey method sets the encryption key needed to decrypt the session or an indication to a mechanism to obtain a usable key by external means.
 ms.assetid: 9efcf90e-3645-49f4-b27d-9a8246637310
 title: ITConnection::SetEncryptionKey method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Contains information about the layout of lines used in the stationery for the Journal note.
 ms.assetid: b78ed5a3-ce7a-44fc-bc46-ad0332f9767c
 title: LineLayout Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

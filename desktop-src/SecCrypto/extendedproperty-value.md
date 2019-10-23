@@ -2,7 +2,7 @@
 Description: Sets or retrieves the extended property data.
 ms.assetid: 115bb52a-e64d-4d84-a491-35f6dba25a58
 title: ExtendedProperty.Value property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Determines the cross-product in four dimensions.
 ms.assetid: 4f728fbd-cf5a-4d2e-ba4f-487616d83f6d
 title: D3DXVec4Cross function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

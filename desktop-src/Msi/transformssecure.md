@@ -2,7 +2,7 @@
 Description: Setting the TRANSFORMSSECURE property to 1 informs the installer that transforms are to be cached locally on the user's computer in a location where the user does not have write access.
 ms.assetid: 414025c3-7b83-42c7-9954-7393fba06061
 title: TRANSFORMSSECURE property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

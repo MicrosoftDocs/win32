@@ -3,7 +3,7 @@ Description: The CIM\_Docked association represents the relationship between two
 ms.assetid: 72cb36bb-f79e-4d1a-a859-4024031e4ebc
 ms.tgt_platform: multiple
 title: CIM_Docked class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

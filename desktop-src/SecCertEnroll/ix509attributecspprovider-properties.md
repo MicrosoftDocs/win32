@@ -2,7 +2,7 @@
 Description: The IX509AttributeCspProvider interface exposes the following properties.
 ms.assetid: B0E8CBE2-35C1-431B-A64A-1933E5762F4A
 title: IX509AttributeCspProvider Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

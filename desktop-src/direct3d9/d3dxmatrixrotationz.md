@@ -2,7 +2,7 @@
 Description: Builds a matrix that rotates around the z-axis.
 ms.assetid: 73db43e6-3831-4867-8eda-80127b61e169
 title: D3DXMatrixRotationZ function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

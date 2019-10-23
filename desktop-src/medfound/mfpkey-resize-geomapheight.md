@@ -2,7 +2,7 @@
 Description: Specifies the height of the geometric aperture, in pixels.
 ms.assetid: f5e73e9b-14ff-4185-a33a-4fee5c5b4ef9
 title: MFPKEY_RESIZE_GEOMAPHEIGHT Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

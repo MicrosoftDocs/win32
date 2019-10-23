@@ -2,7 +2,7 @@
 Description: Destructor method.
 ms.assetid: 6c3f21cf-5353-4ccb-a6f6-f3e182dec874
 title: CQueue.~CQueue destructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

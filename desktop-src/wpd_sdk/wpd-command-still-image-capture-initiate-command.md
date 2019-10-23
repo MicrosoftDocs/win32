@@ -2,7 +2,7 @@
 Description: The WPD\_COMMAND\_STILL\_IMAGE\_CAPTURE\_INITIATE command initiates a still image capture by a still image functional object. If a new object is created as a result of taking a picture, the driver should send the WPD\_EVENT\_OBJECT\_ADDED event.
 ms.assetid: 2968b96e-c9d8-42a7-a32a-dea5fdf064b5
 title: WPD_COMMAND_STILL_IMAGE_CAPTURE_INITIATE Command
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

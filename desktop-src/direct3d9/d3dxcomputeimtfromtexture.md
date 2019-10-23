@@ -2,7 +2,7 @@
 Description: Calculates per-triangle IMT's from a texture mapped onto a mesh, to be used optionally as input to the D3DX UVAtlas Functions.
 ms.assetid: 6671edc4-e494-4847-ae99-b9e56651a875
 title: D3DXComputeIMTFromTexture function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -2,7 +2,7 @@
 Description: The get\_Width method retrieves the width of the target rectangle.
 ms.assetid: 023c976e-279e-489c-ada5-ae33144c6358
 title: IDxtCompositor::get_Width method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

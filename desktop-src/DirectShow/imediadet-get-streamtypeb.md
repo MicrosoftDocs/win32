@@ -2,7 +2,7 @@
 Description: The get\_StreamTypeB method retrieves a string representing the GUID of the media type for the current stream.
 ms.assetid: 99ae4b52-4449-4b7c-babf-1a6cba479499
 title: IMediaDet::get_StreamTypeB method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

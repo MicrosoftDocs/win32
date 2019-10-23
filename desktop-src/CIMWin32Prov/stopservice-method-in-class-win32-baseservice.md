@@ -3,7 +3,7 @@ Description: Stops the service represented by the object derived from Win32\_Bas
 ms.assetid: 5d6427a6-d233-4db4-9235-c6187b36da5f
 ms.tgt_platform: multiple
 title: StopService method of the Win32_BaseService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

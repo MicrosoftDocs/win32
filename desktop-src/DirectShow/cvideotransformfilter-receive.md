@@ -2,7 +2,7 @@
 Description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter. This method overrides the CTransformFilter::Receive method.
 ms.assetid: 35e22a63-471e-4ca8-be3b-d84920cec7cb
 title: CVideoTransformFilter.Receive method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

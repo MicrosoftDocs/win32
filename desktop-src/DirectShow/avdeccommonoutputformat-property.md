@@ -2,7 +2,7 @@
 Description: Specifies the output format for the decoder.
 ms.assetid: fdccdbfa-2814-4d21-9a7f-4121b79718e6
 title: AVDecCommonOutputFormat property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Win32\_DesktopWMI class represents the common characteristics o
 ms.assetid: 9615a443-7611-4c30-9693-ea71b09b013b
 ms.tgt_platform: multiple
 title: Win32_Desktop class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

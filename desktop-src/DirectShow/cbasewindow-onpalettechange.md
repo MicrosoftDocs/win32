@@ -2,7 +2,7 @@
 Description: The OnPaletteChange method handles palette-change messages.
 ms.assetid: 2abae4f1-fbd0-4a32-8772-012fa96b6d6c
 title: CBaseWindow.OnPaletteChange method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Defines which certificates in a chain are saved.
 ms.assetid: 6f9e28e6-b01f-4803-8259-8ab73abeecf8
 title: CAPICOM_CERTIFICATE_INCLUDE_OPTION enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

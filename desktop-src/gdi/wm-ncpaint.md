@@ -2,7 +2,7 @@
 Description: The WM\_NCPAINT message is sent to a window when its frame must be painted.
 ms.assetid: d8a2a8b9-2c5d-484c-be09-67eb33de67c0
 title: WM_NCPAINT message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

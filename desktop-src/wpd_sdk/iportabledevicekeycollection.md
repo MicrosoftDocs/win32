@@ -2,7 +2,7 @@
 Description: The IPortableDeviceKeyCollection interface holds a collection of PROPERTYKEY values. This interface can be retrieved from a method or, if a new object is required, call CoCreate with CLSID\_PortableDeviceKeyCollection.
 ms.assetid: 2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd
 title: IPortableDeviceKeyCollection interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

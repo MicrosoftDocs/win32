@@ -1,7 +1,7 @@
 ---
 Description: Creates a new most recently used (MRU) list.
 title: CreateMRUListW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

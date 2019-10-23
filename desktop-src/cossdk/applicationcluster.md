@@ -2,7 +2,7 @@
 Description: Contains a list of the server computers in the application cluster. It contains an object for each server.
 ms.assetid: 8722080a-cf95-4c29-9eb7-99c6df93611f
 title: ApplicationCluster collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

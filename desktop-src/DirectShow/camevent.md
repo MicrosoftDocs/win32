@@ -2,7 +2,7 @@
 Description: The CAMEvent class is a wrapper for manual-reset and auto-reset events.
 ms.assetid: 228b4e51-afc5-4cb6-b225-309013713983
 title: CAMEvent class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_HostedAccessPoint class represents an association between 
 ms.assetid: 7da9b781-a5cb-42f5-b03c-4fc818c94e88
 ms.tgt_platform: multiple
 title: CIM_HostedAccessPoint class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

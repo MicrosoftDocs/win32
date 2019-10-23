@@ -3,7 +3,7 @@ Description: The CIM\_AssociatedCooling association indicates when fans or other
 ms.assetid: 7b20e429-593c-4365-a340-1aef9b0fadf5
 ms.tgt_platform: multiple
 title: CIM_AssociatedCooling class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Contains the method used to get an endpoint that is used to connect to a service.
 ms.assetid: 4380776A-3B89-444B-B1E9-DCF640D0AEB4
 title: IUpdateEndpointProvider interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

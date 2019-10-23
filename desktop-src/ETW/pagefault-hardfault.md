@@ -2,7 +2,7 @@
 Description: This class is the event type class for hard page fault events. The following syntax is simplified from MOF code.
 ms.assetid: 9837cc45-6485-46c3-a5d9-0d33e443cd32
 title: PageFault_HardFault class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

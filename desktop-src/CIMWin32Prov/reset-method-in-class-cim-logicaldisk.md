@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_LogicalDisk class requests a reset of 
 ms.assetid: 52c56fbd-c0b5-4621-a08e-58c80481639e
 ms.tgt_platform: multiple
 title: Reset method of the CIM_LogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Proxy function for the DoesSupportLossless method.
 ms.assetid: c88d7971-cc93-458c-a31e-19a8b8350d09
 title: IWICBitmapCodecInfo_DoesSupportLossless_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Describes parameters used to load a texture from another texture.
 ms.assetid: dee693ce-afa7-479b-a76a-00816e30d5cf
 title: D3DX10_TEXTURE_LOAD_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

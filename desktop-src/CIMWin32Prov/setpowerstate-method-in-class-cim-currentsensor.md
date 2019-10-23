@@ -3,7 +3,7 @@ Description: The SetPowerState method sets the desired power state for a logical
 ms.assetid: 8dd54a71-152a-4668-bdb6-c0968d8ff094
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_CurrentSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

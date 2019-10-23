@@ -2,7 +2,7 @@
 Description: The DoneWithWindow method destroys the window.
 ms.assetid: 03c97884-7d91-4b59-b867-dda231d2a184
 title: CBaseWindow.DoneWithWindow method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

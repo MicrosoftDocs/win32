@@ -2,7 +2,7 @@
 Description: The CanSeekBackward method determines whether the stream can be seeked backward. This method implements the IMediaPosition::CanSeekBackward method.
 ms.assetid: 6443980f-6863-4941-b2dd-4a31257b5810
 title: CPosPassThru.CanSeekBackward method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

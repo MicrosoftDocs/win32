@@ -2,7 +2,7 @@
 Description: The ID3DXTextureShader interface.
 ms.assetid: 48ea307d-857f-4b73-9e13-de391fbce07b
 title: ID3DXTextureShader interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The GetSetupData method retrieves the registration data for the filter.
 ms.assetid: 93582c75-4f40-492c-919c-c8a06dce7715
 title: CBaseFilter.GetSetupData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

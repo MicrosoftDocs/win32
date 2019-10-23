@@ -2,7 +2,7 @@
 Description: The EndPagePrinter function notifies the print spooler that the application is at the end of a page in a print job.
 ms.assetid: aceb88b9-375b-4cd2-996a-c369f590154e
 title: EndPagePrinter function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

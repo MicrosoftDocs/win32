@@ -2,7 +2,7 @@
 Description: Calculates the natural logarithm.
 ms.assetid: 73ca7d13-1e20-48fc-b0ed-0d3127d094a7
 title: D3DXQuaternionLn function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Raised by a media source that provides topologies through the IMFMediaSourceTopologyProvider interface, such as the sequencer source. The source raises the event when it has a new presentation. The Media Session forwards this event to the application.
 ms.assetid: c669b2c9-5ece-4045-b691-8a71bbf491e1
 title: MENewPresentation event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

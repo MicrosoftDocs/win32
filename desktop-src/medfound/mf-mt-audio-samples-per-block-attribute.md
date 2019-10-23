@@ -2,7 +2,7 @@
 Description: Number of audio samples contained in one compressed block of audio data. This attribute can be used in compressed audio formats that have a fixed number of samples within each block.
 ms.assetid: 6ae31548-4d78-4e38-9cfc-01b611a6022d
 title: MF_MT_AUDIO_SAMPLES_PER_BLOCK attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

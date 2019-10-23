@@ -2,7 +2,7 @@
 Description: The GetPreroll method retrieves the amount of data that will be queued before the start position. This method implements the IMediaSeeking::GetPreroll method.
 ms.assetid: b00de2fa-ba3c-4a16-ad67-adf3df52ef9a
 title: CPosPassThru.GetPreroll method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

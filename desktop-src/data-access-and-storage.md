@@ -2,7 +2,7 @@
 Description: Windows has APIs, components, and services that support your desktop apps in data access and storage.
 ms.assetid: 8097ee91-f9f9-4e49-a501-5c54153eced8
 title: Data Access and Storage
-ms.topic: article
+ms.topic: reference
 ms.date: 02/06/2019
 ms.technology: data-access-storage
 ---

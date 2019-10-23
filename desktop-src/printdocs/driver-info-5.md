@@ -2,7 +2,7 @@
 Description: The DRIVER\_INFO\_5 structure contains printer driver information.
 ms.assetid: 6fb63a9f-5227-46a3-97dc-8de1968e9d63
 title: DRIVER_INFO_5 structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

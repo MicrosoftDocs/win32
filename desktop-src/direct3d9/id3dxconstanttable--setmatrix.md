@@ -2,7 +2,7 @@
 Description: Sets a nontransposed matrix.
 ms.assetid: 30369e34-6e9d-4480-a142-e38f46fd38b0
 title: ID3DXConstantTable::SetMatrix method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

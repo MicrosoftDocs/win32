@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_FileSpecification class evaluates a p
 ms.assetid: cefb64b5-c06f-4775-a903-4e8a8b99a6ae
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_FileSpecification class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

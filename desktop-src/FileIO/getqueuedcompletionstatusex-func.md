@@ -2,7 +2,7 @@
 Description: Retrieves multiple completion port entries simultaneously.
 ms.assetid: 3996c02c-562c-4697-a091-e241ad54b239
 title: GetQueuedCompletionStatusEx function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

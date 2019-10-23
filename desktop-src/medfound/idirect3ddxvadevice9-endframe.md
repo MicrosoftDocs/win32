@@ -2,7 +2,7 @@
 Description: Ends the processing to create a decoded picture.
 ms.assetid: 4b47cd53-6ce0-47b0-83ed-84926e92430f
 title: IDirect3DDXVADevice9::EndFrame method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

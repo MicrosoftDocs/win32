@@ -3,7 +3,7 @@ title: Session Properties
 description: The Session object exposes the following properties.
 ms.assetid: 3F490246-AF1F-40DC-A83C-C19BE73B3BB1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

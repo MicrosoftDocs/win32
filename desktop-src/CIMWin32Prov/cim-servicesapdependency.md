@@ -3,7 +3,7 @@ Description: The CIM\_ServiceSAPDependency class represents an association betwe
 ms.assetid: cf5a8b9b-a38e-4173-861c-e417fbea6016
 ms.tgt_platform: multiple
 title: CIM_ServiceSAPDependency class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

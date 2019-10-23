@@ -2,7 +2,7 @@
 Description: Gets the OpenGL-style line-drawing mode.
 ms.assetid: 80b33c05-d081-45f3-83d8-71a3555cc8ef
 title: ID3DXLine::GetGLLines method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

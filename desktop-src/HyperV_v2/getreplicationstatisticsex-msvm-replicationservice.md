@@ -2,7 +2,7 @@
 Description: Retrieves the replication statistics that are associated with the specified replication relationship of the virtual machine.
 ms.assetid: AB46894A-CBED-40DF-86B9-B578603B0341
 title: Msvm_ReplicationService::GetReplicationStatisticsEx method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The IsEnabled property of an SWbemPrivilege object is a Boolean val
 ms.assetid: 282c8865-ba0d-4e82-be05-96a940036590
 ms.tgt_platform: multiple
 title: SWbemPrivilege.IsEnabled property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

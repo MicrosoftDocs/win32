@@ -3,7 +3,7 @@ Description: The TakeOwnerShip WMI class method obtains ownership of the logical
 ms.assetid: 1112823b-0bb6-4dc0-a5c4-8d3839a47a3a
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

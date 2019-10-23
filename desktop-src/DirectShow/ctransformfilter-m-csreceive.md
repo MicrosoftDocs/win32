@@ -2,7 +2,7 @@
 Description: Critical section that protects the streaming state. For more information, see Data Flow for Filter Developers.
 ms.assetid: f77c3129-ca25-47b8-8a6e-3a07169701af
 title: CTransformFilter::m_csReceive member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

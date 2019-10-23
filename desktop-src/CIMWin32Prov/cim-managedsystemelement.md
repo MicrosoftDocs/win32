@@ -3,7 +3,7 @@ Description: The CIM\_ManagedSystemElement class is the base class for the syste
 ms.assetid: f1b952f4-4bed-4420-ad5d-62478846be8e
 ms.tgt_platform: multiple
 title: CIM_ManagedSystemElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

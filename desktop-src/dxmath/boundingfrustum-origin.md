@@ -2,7 +2,7 @@
 Description: The origin of the BoundingFrustum.
 ms.assetid: 9cfe75ae-cd9c-41c6-ae05-990d6b27fb04
 title: BoundingFrustum.Origin
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Gets the minimum bone influence. Influence values smaller than this are ignored.
 ms.assetid: fd546583-62c8-448c-b4e6-2f70f2ab38e6
 title: ID3DXSkinInfo::GetMinBoneInfluence method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The put\_BorderColor method specifies the color of the border around the edges of the wipe pattern.
 ms.assetid: d6a49956-8fc9-4ba2-8485-a49175da3cf7
 title: IDxtJpeg::put_BorderColor method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

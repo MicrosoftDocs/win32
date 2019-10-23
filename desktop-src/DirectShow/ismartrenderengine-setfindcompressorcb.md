@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: ed0aecfa-348c-4cf9-87c2-b701a552eec8
 title: ISmartRenderEngine::SetFindCompressorCB method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

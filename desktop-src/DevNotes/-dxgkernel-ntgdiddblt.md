@@ -2,7 +2,7 @@
 Description: Performs a bit-block transfer.
 ms.assetid: 90cc02af-96af-4913-ae7d-62f39cd6ddd7
 title: NtGdiDdBlt function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

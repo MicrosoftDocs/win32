@@ -2,7 +2,7 @@
 Description: The PdhVbCreateCounterPathList function displays the performance counter browsing dialog box, which lets the user select several performance counters. Each selected counter path must then be read using the PdhVbGetCounterPathFromList function.
 ms.assetid: 8dda528f-2e06-4726-89a0-095781a2f80d
 title: PdhVbCreateCounterPathList function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

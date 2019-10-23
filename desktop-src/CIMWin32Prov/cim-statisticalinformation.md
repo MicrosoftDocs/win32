@@ -3,7 +3,7 @@ Description: The CIM\_StatisticalInformation class is a root class for the arbit
 ms.assetid: ecc3b310-c553-416b-b4e3-705965557945
 ms.tgt_platform: multiple
 title: CIM_StatisticalInformation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

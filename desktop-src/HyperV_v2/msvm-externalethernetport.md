@@ -2,7 +2,7 @@
 Description: Represents an external Ethernet port (network adapter).
 ms.assetid: 70901587-641D-46F5-8A35-FEA483D336DE
 title: Msvm_ExternalEthernetPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: This section contains information on audio and video APIs.
 ms.assetid: F6C650BA-7ED9-4C90-987C-4B5F14F6C6B5
 title: Audio and Video
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

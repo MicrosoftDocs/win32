@@ -2,7 +2,7 @@
 Description: Contains input data for the IDirect3DAuthenticatedChannel9::Query method.
 ms.assetid: 6a484652-8da2-4074-96b2-6fe49f4d4200
 title: D3DAUTHENTICATEDCHANNEL_QUERY_INPUT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

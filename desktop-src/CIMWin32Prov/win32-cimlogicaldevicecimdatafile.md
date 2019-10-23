@@ -3,7 +3,7 @@ Description: The Win32\_CIMLogicalDeviceCIMDataFile association WMI class relate
 ms.assetid: 892272de-920d-4fa0-adbc-f584ed6e8748
 ms.tgt_platform: multiple
 title: Win32_CIMLogicalDeviceCIMDataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

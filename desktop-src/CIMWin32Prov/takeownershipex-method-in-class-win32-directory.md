@@ -3,7 +3,7 @@ Description: Obtains ownership of the logical directory entry file specified in 
 ms.assetid: 73726207-e885-4957-bff8-6903c4b99278
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

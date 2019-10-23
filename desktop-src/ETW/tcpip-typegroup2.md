@@ -2,7 +2,7 @@
 Description: This class is the event type class for IPv4 TCP/IP connect and accept events. The following syntax is simplified from MOF code.
 ms.assetid: a9b33ceb-7d50-4cd7-8224-0b2cf895b3b4
 title: TcpIp_TypeGroup2 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 title: Common Dialog Box Messages
 description: .
 ms.assetid: f08c19f8-c18d-4094-b8b6-161b0ceea239
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

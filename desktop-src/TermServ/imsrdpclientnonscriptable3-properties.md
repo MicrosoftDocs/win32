@@ -3,7 +3,7 @@ title: IMsRdpClientNonScriptable3 Properties
 description: The IMsRdpClientNonScriptable3 interface exposes the following properties.
 ms.assetid: 4E35825D-B247-41C0-917C-D7FCA4A8ABFA
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

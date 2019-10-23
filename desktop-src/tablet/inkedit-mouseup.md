@@ -2,7 +2,7 @@
 Description: Occurs when the user releases a mouse button while the mouse is over the InkEdit control.
 ms.assetid: 3c9e0229-c7e2-4b5c-9532-18fbf8a3667d
 title: InkEdit.MouseUp event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

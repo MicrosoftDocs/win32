@@ -2,7 +2,7 @@
 Description: Number of seconds of data that the network source buffers at startup.
 ms.assetid: 186b55fc-d1b1-4187-a748-efaee114eca9
 title: MFNETSOURCE_BUFFERINGTIME property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

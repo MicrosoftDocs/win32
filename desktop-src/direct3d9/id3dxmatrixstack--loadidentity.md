@@ -2,7 +2,7 @@
 Description: Loads identity in the current matrix.
 ms.assetid: e314a51f-4016-4819-a95d-d91864a54b2e
 title: ID3DXMATRIXStack::LoadIdentity method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

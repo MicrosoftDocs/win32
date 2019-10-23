@@ -2,7 +2,7 @@
 Description: The clsid attribute specifies a class identifier (CLSID) for an object.
 ms.assetid: 046ebe03-34ec-46b1-a2f3-36a4d16ac512
 title: clsid Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

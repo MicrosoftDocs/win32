@@ -2,7 +2,7 @@
 Description: The Stop method stops the current capture.
 ms.assetid: d2d4e51a-c6a4-4aec-a805-929af621ffb3
 title: IESP::Stop method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

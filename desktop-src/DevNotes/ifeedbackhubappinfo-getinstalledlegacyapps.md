@@ -2,7 +2,7 @@
 Description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 ms.assetid: 84135D6F-8232-4CE5-AD38-D18823F0E174
 title: IFeedbackHubAppInfo::GetInstalledLegacyApps method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

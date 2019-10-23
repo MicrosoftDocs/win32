@@ -3,7 +3,7 @@ Description: The Authority property of the SWbemObjectPath object contains a str
 ms.assetid: f00e5759-03b4-4333-b89e-5f54db73c3b7
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Authority property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Occurs after strokes have been deleted from the Ink property.
 ms.assetid: 60ee8bbd-9230-4b6a-a4b0-4783195e3173
 title: InkOverlay.StrokesDeleted event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: This interface is implemented by the application to save any additional user data embedded in .x files.
 ms.assetid: 0d656f99-c24c-4326-bc6f-c0e7874c0fb2
 title: ID3DXLoadUserData interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

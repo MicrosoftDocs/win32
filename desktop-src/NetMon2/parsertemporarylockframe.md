@@ -2,7 +2,7 @@
 Description: The ParserTemporaryLockFrame function locks a frame when it enters a parser and unlocks the frame when the function exits the parser.
 ms.assetid: c1c52f62-1974-47cc-8c37-61918fbce54a
 title: ParserTemporaryLockFrame function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

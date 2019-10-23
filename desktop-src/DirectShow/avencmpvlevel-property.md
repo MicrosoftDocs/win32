@@ -2,7 +2,7 @@
 Description: Specifies the MPEG-2 level. This property applies to MPEG video encoders.
 ms.assetid: dae29a60-b9f0-47d3-af4c-e08138df3382
 title: AVEncMPVLevel property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

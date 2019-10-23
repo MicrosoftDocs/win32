@@ -2,7 +2,7 @@
 Description: Retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).
 ms.assetid: fd030c1c-137c-4036-bf13-ae989a9703cc
 title: Qualifier.CPSPointer property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

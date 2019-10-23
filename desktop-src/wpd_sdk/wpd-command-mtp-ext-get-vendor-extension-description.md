@@ -2,7 +2,7 @@
 Description: The WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION command retrieves the vendor-extension description string. This string is defined by a DeviceInfo dataset.
 ms.assetid: 3741fc97-bbe6-41f0-9c0f-fb2f22225fa3
 title: WPD_COMMAND_MTP_EXT_GET_VENDOR_EXTENSION_DESCRIPTION Command
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

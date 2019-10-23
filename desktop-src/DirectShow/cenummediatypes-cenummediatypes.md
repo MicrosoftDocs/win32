@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: fae2e05c-3f7b-4511-9b9d-5a37ea03f851
 title: CEnumMediaTypes.CEnumMediaTypes constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

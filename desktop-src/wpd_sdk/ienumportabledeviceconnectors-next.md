@@ -2,7 +2,7 @@
 Description: Retrieves the next one or more IPortableDeviceConnector objects in the enumeration sequence.
 ms.assetid: 5aed563a-5ecc-49c0-8a0c-622405453896
 title: IEnumPortableDeviceConnectors::Next method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The IsStreamTime method specifies whether the command is to be run at stream time or presentation time.
 ms.assetid: 4fb315a4-1bc6-49c8-a47f-0a8a46f3f790
 title: CDeferredCommand.IsStreamTime method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

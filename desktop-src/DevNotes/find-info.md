@@ -2,7 +2,7 @@
 Description: Contains search context information.
 ms.assetid: 4b865563-98c2-459b-bb2b-75420d51d6a7
 title: FIND_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

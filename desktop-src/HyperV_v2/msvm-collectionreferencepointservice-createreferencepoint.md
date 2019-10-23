@@ -2,7 +2,7 @@
 Description: Creates a reference point of a virtual system collection.
 ms.assetid: 40ec5715-0dbc-43e3-a305-c8c31de60977
 title: CreateReferencePoint method of the Msvm_CollectionReferencePointService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

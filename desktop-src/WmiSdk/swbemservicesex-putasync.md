@@ -3,7 +3,7 @@ Description: Saves an object asynchronously to a namespace. When successful, thi
 ms.assetid: 27da0c60-6dae-482d-a9bf-1aab016d3ae8
 ms.tgt_platform: multiple
 title: SWbemServicesEx.PutAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

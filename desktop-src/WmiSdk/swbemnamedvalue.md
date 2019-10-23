@@ -3,7 +3,7 @@ Description: The SWbemNamedValue object represents a single named value that bel
 ms.assetid: 3f72afcd-6e10-4200-804d-918e3eb2862f
 ms.tgt_platform: multiple
 title: SWbemNamedValue object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

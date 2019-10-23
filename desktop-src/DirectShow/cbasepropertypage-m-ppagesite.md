@@ -2,7 +2,7 @@
 Description: The m\_pPageSite member variable contains a pointer to the IPropertyPageSite interface of the property page site.
 ms.assetid: 678db5d0-0c07-4846-ada1-99aa6749f301
 title: CBasePropertyPage::m_pPageSite member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

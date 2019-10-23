@@ -2,7 +2,7 @@
 Description: The UPGRADINGPRODUCTCODE property is set by Windows Installer when an upgrade removes an application.
 ms.assetid: 903e4c22-e7ae-47bd-989b-d8c922de8d1a
 title: UPGRADINGPRODUCTCODE property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

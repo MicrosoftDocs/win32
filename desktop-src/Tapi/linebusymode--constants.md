@@ -2,7 +2,7 @@
 Description: The LINEBUSYMODE\_ bit-flag constants describe different busy signals that the switch or network can generate. These busy signals typically indicate that a different resource that is required to make a call is currently in use.
 ms.assetid: 4a3fa79f-7a7a-4f9b-9353-e6c5ca4fcb4e
 title: LINEBUSYMODE_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

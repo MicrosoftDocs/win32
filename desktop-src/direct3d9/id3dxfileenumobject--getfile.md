@@ -2,7 +2,7 @@
 Description: Retrieves the ID3DXFile object.
 ms.assetid: 832878c6-73a4-400a-af30-57112b172977
 title: ID3DXFileEnumObject::GetFile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

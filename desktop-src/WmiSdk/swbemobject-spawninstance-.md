@@ -3,7 +3,7 @@ Description: Use the SpawnInstance\_ method of the SWbemObject object to create 
 ms.assetid: 4761bdb2-455a-48c4-9e22-bfba6a1036ec
 ms.tgt_platform: multiple
 title: SWbemObject.SpawnInstance_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

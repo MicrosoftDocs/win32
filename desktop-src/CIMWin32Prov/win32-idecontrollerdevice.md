@@ -3,7 +3,7 @@ Description: The Win32\_IDEControllerDevice association WMI class relates an Int
 ms.assetid: 1b0a551c-d836-4147-91ed-a0a7d97f4a5b
 ms.tgt_platform: multiple
 title: Win32_IDEControllerDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

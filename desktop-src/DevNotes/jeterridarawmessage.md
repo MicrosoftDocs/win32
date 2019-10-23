@@ -2,7 +2,7 @@
 Description: Retrieves an unformatted message string when an error code identifier (IDA) is provided.
 ms.assetid: 3869e0c0-b3ec-4409-b071-04fd793ebf93
 title: JetErrIDARawMessage function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

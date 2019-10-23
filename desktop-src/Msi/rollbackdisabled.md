@@ -2,7 +2,7 @@
 Description: The installer sets the RollbackDisabled property when rollback has been disabled.
 ms.assetid: 72215b0f-2fc4-49aa-abf8-3206bdfc765f
 title: RollbackDisabled property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

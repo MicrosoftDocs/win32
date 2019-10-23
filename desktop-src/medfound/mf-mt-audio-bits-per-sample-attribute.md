@@ -2,7 +2,7 @@
 Description: Number of bits per audio sample in an audio media type.
 ms.assetid: d78a8c4d-377e-45eb-9cf6-2d61b34e82d6
 title: MF_MT_AUDIO_BITS_PER_SAMPLE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Win32ShutdownTracker method provides the same set of shutdown o
 ms.assetid: 2c5502c9-9ec0-4f9e-b661-1f8015556008
 ms.tgt_platform: multiple
 title: Win32ShutdownTracker method of the Win32_OperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

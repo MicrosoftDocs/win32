@@ -2,7 +2,7 @@
 Description: The m\_MemoryDC member variable is a handle to the memory device context of the owning window.
 ms.assetid: b8fda761-3d06-478e-8c43-90f66b983bd7
 title: CDrawImage::m_MemoryDC member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

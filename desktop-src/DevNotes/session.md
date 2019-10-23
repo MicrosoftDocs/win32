@@ -2,7 +2,7 @@
 Description: The SESSION structure contains information about the current session.
 ms.assetid: e04571f9-eeb7-4612-8cb2-05aca7b5df06
 title: SESSION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

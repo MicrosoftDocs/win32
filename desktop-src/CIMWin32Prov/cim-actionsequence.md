@@ -3,7 +3,7 @@ Description: The CIM\_ActionSequence association defines a series of operations 
 ms.assetid: b539c424-bc2a-414b-b56c-72550004720f
 ms.tgt_platform: multiple
 title: CIM_ActionSequence class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

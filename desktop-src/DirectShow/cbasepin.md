@@ -2,7 +2,7 @@
 Description: The CBasePin class is an abstract class that implements a generic pin.
 ms.assetid: 23b9a0e2-24fe-4ff9-b2bb-97630c237de9
 title: CBasePin class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

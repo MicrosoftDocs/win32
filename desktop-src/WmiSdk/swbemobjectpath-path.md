@@ -3,7 +3,7 @@ Description: The Path property of the SWbemObjectPath object contains the absolu
 ms.assetid: cc0d2c56-bb69-4008-8688-0166714ea5fd
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Path property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

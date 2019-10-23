@@ -3,7 +3,7 @@ Description: The Win32\_SerialPortSetting association WMI class relates a serial
 ms.assetid: 57856207-abe5-4d93-9a34-acfe30ccd80c
 ms.tgt_platform: multiple
 title: Win32_SerialPortSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

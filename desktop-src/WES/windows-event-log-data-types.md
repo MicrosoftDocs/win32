@@ -6,7 +6,7 @@ keywords:
 - EVT_HANDLE
 - PEVT_HANDLE
 - EVT_OBJECT_ARRAY_PROPERTY_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

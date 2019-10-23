@@ -2,7 +2,7 @@
 Description: Defines a simple Boolean type.
 ms.assetid: aa6eb842-193c-4cde-bfb2-4d428ffa7267
 title: Boolean
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

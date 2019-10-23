@@ -3,7 +3,7 @@ Description: An SWbemPrivilegeSet object is a collection of SWbemPrivilege objec
 ms.assetid: 073cf2d4-f7ee-45a6-8fa6-ca77a4870346
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

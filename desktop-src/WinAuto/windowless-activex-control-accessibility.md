@@ -2,7 +2,7 @@
 title: Windowless ActiveX Control Accessibility
 description: This section describes how to use the Windows Accessibility API to ensure that windowless Microsoft ActiveX controls are accessible.
 ms.assetid: 93CBCF20-DADF-4A63-BE60-F2A0D8810C62
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Retrieves a type-information object, which can retrieve the type information for an interface.
 ms.assetid: 2014485f-d937-415d-a2fc-0c69269b5237
 title: CMediaControl.GetTypeInfo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

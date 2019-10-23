@@ -2,7 +2,7 @@
 Description: Rotates a quaternion about an arbitrary axis.
 ms.assetid: 9ff0fe2c-54d6-482c-84e1-f38e3c57d8dd
 title: D3DXQuaternionRotationAxis function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

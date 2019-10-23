@@ -2,7 +2,7 @@
 Description: Deletes the certificate store that is represented by the current Store object.
 ms.assetid: 274914ee-27a0-4bd6-8510-af897aab3a2d
 title: Store.Delete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

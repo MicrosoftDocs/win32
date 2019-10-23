@@ -2,7 +2,7 @@
 Description: The NotifyEndOfStream method posts an EC\_COMPLETE event to the filter graph manager.
 ms.assetid: 9eec5b65-654d-4b2e-be39-93225a7674a5
 title: CBaseRenderer.NotifyEndOfStream method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

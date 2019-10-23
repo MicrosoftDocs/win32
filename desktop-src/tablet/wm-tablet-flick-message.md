@@ -2,7 +2,7 @@
 Description: Sent when a user performs a pen flick. A window receives this message through its WindowProc function.
 ms.assetid: 9433aadf-3440-4249-8f2c-3e22ebc949fb
 title: WM_TABLET_FLICK message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

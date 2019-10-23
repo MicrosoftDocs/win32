@@ -12,7 +12,7 @@ api_name:
 - MSMQ-Nt4-Stub
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

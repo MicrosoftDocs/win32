@@ -2,7 +2,7 @@
 Description: The IAzAuthorizationStore interface exposes the following properties.
 ms.assetid: FAA581E5-98F4-48DD-9B21-911896AE5A31
 title: IAzAuthorizationStore Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

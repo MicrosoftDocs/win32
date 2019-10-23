@@ -2,7 +2,7 @@
 Description: Defines the format of a file containing certificate information.
 ms.assetid: 417a6d1b-6329-418c-823c-d82b94207fd6
 title: CAPICOM_CERTIFICATE_SAVE_AS_TYPE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

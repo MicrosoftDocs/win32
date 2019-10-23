@@ -2,7 +2,7 @@
 Description: Contains media-specific module (MSM) settings.
 ms.assetid: fe858701-e0eb-4817-b3c2-ae61e96a4cbe
 title: MSM (LANProfile) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

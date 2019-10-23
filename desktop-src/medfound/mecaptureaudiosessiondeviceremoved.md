@@ -2,7 +2,7 @@
 Description: Sent by an audio capture source when the device is removed.
 ms.assetid: A249D8B4-15A8-4AD3-8316-2886E5C37825
 title: MECaptureAudioSessionDeviceRemoved event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

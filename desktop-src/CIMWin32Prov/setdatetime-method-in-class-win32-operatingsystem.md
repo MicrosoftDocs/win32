@@ -3,7 +3,7 @@ Description: The SetDateTime&\#8194;WMI class method sets the current system tim
 ms.assetid: b9b86a52-c3d7-489d-8632-b297970dbeac
 ms.tgt_platform: multiple
 title: SetDateTime method of the Win32_OperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

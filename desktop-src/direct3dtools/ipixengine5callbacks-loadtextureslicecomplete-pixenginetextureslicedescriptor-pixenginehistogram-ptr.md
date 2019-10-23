@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine5Callbacks::LoadTextureSliceComplete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: CEEAB77F-0856-4DEC-991A-7CEB921C84BB
 api_name: 

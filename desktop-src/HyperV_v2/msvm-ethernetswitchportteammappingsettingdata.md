@@ -2,7 +2,7 @@
 Description: Represents the port team mapping feature setting data.
 ms.assetid: 7c9a392d-c95e-4b0d-8201-e50adabd21b2
 title: Msvm_EthernetSwitchPortTeamMappingSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Describes how up-to-date the OS on a device is.
 ms.assetid: 157E241E-E8D8-41F8-9565-5C9298DCD1BE
 title: UpdateAssessmentStatus enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

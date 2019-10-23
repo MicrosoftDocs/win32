@@ -2,7 +2,7 @@
 Description: Specifies a protected surface.
 ms.assetid: 9838AF18-A468-4B04-80A3-4863DE7572CF
 title: MFPROTECTION_PROTECTED_SURFACE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

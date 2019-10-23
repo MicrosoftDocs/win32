@@ -2,7 +2,7 @@
 Description: Retrieves the unique identifier of the stylus button.
 ms.assetid: 06bd6a84-46cd-4c62-92d6-50caae359e43
 title: ITabletCursorButton::GetGuid method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

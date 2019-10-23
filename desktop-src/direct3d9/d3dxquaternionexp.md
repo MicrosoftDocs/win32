@@ -2,7 +2,7 @@
 Description: Calculates the exponential.
 ms.assetid: 648aeaf1-ead3-4b21-819f-cd2a70881a13
 title: D3DXQuaternionExp function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The CDrawImage method is a constructor method.
 ms.assetid: 654e0b82-2e4f-42e9-8ab5-dcb438e67332
 title: CDrawImage.CDrawImage constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

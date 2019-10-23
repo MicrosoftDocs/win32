@@ -2,7 +2,7 @@
 Description: The SetJob function pauses, resumes, cancels, or restarts a print job on a specified printer. You can also use the SetJob function to set print job parameters, such as the print job priority and the document name.
 ms.assetid: 21947c69-c517-4962-8eb7-b45ed4211d9a
 title: SetJob function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

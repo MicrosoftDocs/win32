@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 2982f53a-c222-4a9d-812a-42897ca4cb5c
 title: CBaseList.CBaseList constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Reserved.
 ms.assetid: 3f206db7-fccf-4b95-bff7-856dc53caf5a
 title: LocationDisp.DispCivicAddressReport.DetailLevel property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

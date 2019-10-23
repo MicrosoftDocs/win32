@@ -2,7 +2,7 @@
 Description: Gets the app suspending operation.
 ms.assetid: 33FCAED5-7568-4483-A643-A536B53F7003
 title: ISuspendingEventArgs::SuspendingOperation property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

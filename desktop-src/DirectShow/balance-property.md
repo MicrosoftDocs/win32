@@ -2,7 +2,7 @@
 Description: The Balance property sets or retrieves the speaker balance for the audio stream output.
 ms.assetid: b0e6bf16-b1d1-453d-8b58-272565c3d6e6
 title: Balance Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

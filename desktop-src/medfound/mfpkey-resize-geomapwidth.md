@@ -2,7 +2,7 @@
 Description: Specifies the width of the geometric aperture, in pixels.
 ms.assetid: 90b37ccf-7530-47bd-9b8e-721022616e45
 title: MFPKEY_RESIZE_GEOMAPWIDTH Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

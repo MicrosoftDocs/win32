@@ -2,7 +2,7 @@
 Description: Retrieves the data object that has the specified GUID. Deprecated.
 ms.assetid: dd079b5c-18e1-4252-aabd-498c24910a08
 title: IDirectXFileEnumObject::GetDataObjectById method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

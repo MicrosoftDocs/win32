@@ -2,7 +2,7 @@
 Description: Proxy function for the InitializeFromMemory method.
 ms.assetid: 737526ac-fe79-4d53-83c5-33102f5ac67b
 title: IWICStream_InitializeFromMemory_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

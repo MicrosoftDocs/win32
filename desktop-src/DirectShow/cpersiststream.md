@@ -2,7 +2,7 @@
 Description: CPersistStream is the base class for persistent properties of filters (that is, filter properties in saved graphs).
 ms.assetid: 8073e2be-aaf9-4b01-a7d5-bab5c1dcc19b
 title: CPersistStream class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Compile a shader and create a data processor asynchronously.
 ms.assetid: 842db48b-51a7-4f32-8ea6-44247f2619b0
 title: D3DX10CreateAsyncShaderCompilerProcessor function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

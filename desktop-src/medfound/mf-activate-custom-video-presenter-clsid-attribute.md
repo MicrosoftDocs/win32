@@ -2,7 +2,7 @@
 Description: CLSID of a custom video presenter for the enhanced video renderer (EVR) media sink.
 ms.assetid: f035ee56-7582-45d3-bafe-dd9c821b6326
 title: MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_CLSID attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

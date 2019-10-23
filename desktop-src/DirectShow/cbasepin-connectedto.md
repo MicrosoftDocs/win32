@@ -2,7 +2,7 @@
 Description: The ConnectedTo method retrieves a pointer to the connected pin, if any. This method implements the IPin::ConnectedTo method.
 ms.assetid: d8978c9a-e498-4411-a052-f3c2fca570ef
 title: CBasePin.ConnectedTo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

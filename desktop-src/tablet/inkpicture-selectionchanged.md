@@ -2,7 +2,7 @@
 Description: Occurs when the selection of ink within the InkPicture control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: e300ec91-e8f3-473f-b526-efeafafaa32a
 title: InkPicture.SelectionChanged event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

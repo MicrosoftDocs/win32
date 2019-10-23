@@ -2,7 +2,7 @@
 Description: Deletes all key protectors for the volume.
 ms.assetid: 46f61899-87ff-4e86-8409-635117cff4de
 title: DeleteKeyProtectors method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

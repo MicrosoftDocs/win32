@@ -2,7 +2,7 @@
 Description: The MSIFASTINSTALL property can be used to reduce the time required to install a large Windows Installer package.
 ms.assetid: 011668da-da04-4b80-989e-192b0daa3060
 title: MSIFASTINSTALL property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

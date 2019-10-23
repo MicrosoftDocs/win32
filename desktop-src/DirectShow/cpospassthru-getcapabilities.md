@@ -2,7 +2,7 @@
 Description: The GetCapabilities method retrieves all the seeking capabilities of the stream. This method implements the IMediaSeeking::GetCapabilities method.
 ms.assetid: c60c4f47-48de-47d0-9b87-589b84df842c
 title: CPosPassThru.GetCapabilities method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

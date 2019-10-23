@@ -2,7 +2,7 @@
 Description: Compile a shader file.
 ms.assetid: 9b19ab67-d5d5-482d-b3fe-ce20b64d7ad8
 title: D3DXCompileShader function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

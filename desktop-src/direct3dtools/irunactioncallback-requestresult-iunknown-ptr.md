@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IRunActionCallback::RequestResult method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5D6B1599-2CF4-46E7-92DB-5D93DD5AD0EE
 api_name: 

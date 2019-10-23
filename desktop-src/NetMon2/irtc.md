@@ -2,7 +2,7 @@
 Description: The IRTC interface provides the methods used to connect the NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network.
 ms.assetid: 9252a9ba-2c3e-40b9-b8de-84ef5d4831a7
 title: IRTC interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

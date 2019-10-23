@@ -3,7 +3,7 @@ Description: The CIM\_FRUPhysicalElements class represents the physical elements
 ms.assetid: ecdb19a8-5169-4370-8d2d-a21a0021ea5b
 ms.tgt_platform: multiple
 title: CIM_FRUPhysicalElements class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

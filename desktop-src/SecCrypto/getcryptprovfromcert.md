@@ -2,7 +2,7 @@
 Description: Gets a handle to a cryptographic service provider (CSP) and a key specification for a certificate context.
 ms.assetid: ff72231f-e10f-49d2-b0e0-0008923803cc
 title: GetCryptProvFromCert function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

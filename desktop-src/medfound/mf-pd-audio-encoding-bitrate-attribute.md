@@ -2,7 +2,7 @@
 Description: Specifies the audio encoding bit rate for the presentation, in bits per second. This attribute applies to presentation descriptors.
 ms.assetid: 700f61f4-a0d7-4b69-ace5-356e4e29b93d
 title: MF_PD_AUDIO_ENCODING_BITRATE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

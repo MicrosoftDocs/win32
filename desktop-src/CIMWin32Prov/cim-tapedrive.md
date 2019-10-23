@@ -3,7 +3,7 @@ Description: The CIM\_TapeDrive class represents a tape drive on the system. Tap
 ms.assetid: 8b7f2277-e37d-4597-81bb-d3c8d4966a81
 ms.tgt_platform: multiple
 title: CIM_TapeDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

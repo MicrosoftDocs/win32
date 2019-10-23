@@ -2,7 +2,7 @@
 Description: Defines a string type for the Mobile Broadband profile.
 ms.assetid: a5c14c39-2731-44f0-9fd2-e78d900b66f0
 title: nameType Simple Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

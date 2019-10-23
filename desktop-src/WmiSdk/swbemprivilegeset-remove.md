@@ -3,7 +3,7 @@ Description: The Remove method of the SWbemPrivilegeSet object deletes a privile
 ms.assetid: 4c0b6d49-262c-4840-955b-35b16b68f29f
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.Remove method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

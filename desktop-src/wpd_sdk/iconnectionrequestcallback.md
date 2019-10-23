@@ -2,7 +2,7 @@
 Description: Defines a single callback method.
 ms.assetid: 579f7a29-cd98-4d97-9f8e-9b786897df1c
 title: IConnectionRequestCallback interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_BootOSFromFS class associates the operating system and the
 ms.assetid: c5697e9c-9031-4787-a03d-cf713c961cdf
 ms.tgt_platform: multiple
 title: CIM_BootOSFromFS class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

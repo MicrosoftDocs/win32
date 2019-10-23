@@ -2,7 +2,7 @@
 Description: If the EnableUserControl property is set to 1, then the installer can pass all public properties to the server side during a managed installation using elevated privileges.
 ms.assetid: 29f76c2e-1556-4d0d-a83c-24a33528156f
 title: EnableUserControl property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

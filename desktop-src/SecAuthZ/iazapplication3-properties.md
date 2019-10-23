@@ -2,7 +2,7 @@
 Description: The IAzApplication3 interface exposes the following properties.
 ms.assetid: 7D14F8F4-5EE0-4522-AD48-1F5F7F88D193
 title: IAzApplication3 Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

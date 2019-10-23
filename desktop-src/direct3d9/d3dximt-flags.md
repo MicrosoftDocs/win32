@@ -2,7 +2,7 @@
 Description: Texture wrapping options for IMT computation APIs.
 ms.assetid: ec364418-67c6-42c7-9c5d-b97aa7e17c24
 title: D3DXIMT FLAGS enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

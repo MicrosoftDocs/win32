@@ -2,7 +2,7 @@
 Description: Gets the search item for the data specified. This method is called once for every URL processed by the gatherer, and retrieves a pointer to the ISearchItem object.
 ms.assetid: 35893bc9-8327-44f9-a9fc-7855c5c063e3
 title: ISearchProtocolUI::GetSearchItemForUrl method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

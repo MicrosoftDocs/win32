@@ -2,7 +2,7 @@
 Description: Binds a managed object to an application domain, which is an isolated environment where applications execute.
 ms.assetid: 9357ea5d-6f86-4747-a923-16575ff13122
 title: AppDomainHelper class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

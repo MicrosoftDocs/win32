@@ -3,7 +3,7 @@ Description: The Win32\_Fan WMI class represents the properties of a fan device 
 ms.assetid: ff48b788-d759-45cf-812f-a80dba0c9192
 ms.tgt_platform: multiple
 title: Win32_Fan class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

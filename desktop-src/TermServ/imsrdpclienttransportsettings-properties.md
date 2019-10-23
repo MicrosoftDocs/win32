@@ -3,7 +3,7 @@ title: IMsRdpClientTransportSettings Properties
 description: The IMsRdpClientTransportSettings interface exposes the following properties.
 ms.assetid: 3D70D211-3525-471B-BB41-F0D8CC4DEBEF
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

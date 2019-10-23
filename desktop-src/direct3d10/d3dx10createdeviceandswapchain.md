@@ -2,7 +2,7 @@
 Description: Create the best Direct3D device and a swap chain.
 ms.assetid: c320a6c4-fa68-47fc-b2cb-0dc53c2767e7
 title: D3DX10CreateDeviceAndSwapChain function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

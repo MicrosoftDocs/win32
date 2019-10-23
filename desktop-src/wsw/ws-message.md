@@ -4,7 +4,7 @@ description: The opaque type used to reference a message object.
 ms.assetid: 22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee
 keywords:
 - WS_MESSAGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

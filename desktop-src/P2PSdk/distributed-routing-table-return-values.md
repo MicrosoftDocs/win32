@@ -1,7 +1,7 @@
 ---
 ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Distributed Routing Table Return Values
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

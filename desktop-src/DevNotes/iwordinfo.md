@@ -2,7 +2,7 @@
 Description: The IWordInfo interface is a Japanese-specific language resource component. The object parses text and identifies individual words, returning either the words in the string or returns the dictionary (root) forms of the words in the text of the string.
 ms.assetid: 760d9c78-d564-40a2-b2e4-d538c32361ed
 title: IWordInfo interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

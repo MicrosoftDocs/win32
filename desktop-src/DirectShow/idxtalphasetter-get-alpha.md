@@ -2,7 +2,7 @@
 Description: The get\_Alpha method retrieves the alpha value for the entire image.
 ms.assetid: ce891149-e964-4239-aeef-c9f4a8354563
 title: IDxtAlphaSetter::get_Alpha method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

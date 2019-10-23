@@ -2,7 +2,7 @@
 Description: Removes guest service settings from a virtual system configuration.
 ms.assetid: 33e55d74-adfd-4174-8f05-14e797a33806
 title: RemoveGuestServiceSettings method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

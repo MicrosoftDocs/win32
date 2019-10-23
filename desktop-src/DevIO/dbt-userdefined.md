@@ -2,7 +2,7 @@
 Description: The DBT\_USERDEFINED device event identifies a user-defined event.
 ms.assetid: b42feda9-5fe7-4e54-aad9-28c61d2f29b6
 title: DBT_USERDEFINED event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

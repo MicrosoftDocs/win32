@@ -2,7 +2,7 @@
 Description: Retrieves the Direct3D device associated with the render surface.
 ms.assetid: 579cf7da-b8e0-4d9f-93b8-b1f47c3d5654
 title: ID3DXRenderToSurface::GetDevice method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

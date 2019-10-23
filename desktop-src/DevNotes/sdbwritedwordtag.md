@@ -2,7 +2,7 @@
 Description: Writes a DWORD value to the specified database.
 ms.assetid: 2ecbfcac-5bb1-4129-9501-79210672aa1b
 title: SdbWriteDWORDTag function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

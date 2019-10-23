@@ -2,7 +2,7 @@
 Description: This class is the event type class for registry events. The following syntax is simplified from MOF code.
 ms.assetid: 59c455a0-af7e-4fd5-9af4-07ff72ee0545
 title: Registry_V1_TypeGroup1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

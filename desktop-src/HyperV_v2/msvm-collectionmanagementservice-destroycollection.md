@@ -2,7 +2,7 @@
 Description: Deletes the given CIM\_CollectionOfMSEs object.
 ms.assetid: 2c79e281-44c3-4a91-98d5-fdf973d149c3
 title: DestroyCollection method of the Msvm_CollectionManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

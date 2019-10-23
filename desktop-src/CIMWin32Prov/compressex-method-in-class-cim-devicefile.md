@@ -3,7 +3,7 @@ Description: The CompressEx method compresses the logical file (or directory) sp
 ms.assetid: a5f7b35b-5d52-4129-bf7e-6db5e0ff6852
 ms.tgt_platform: multiple
 title: CompressEx method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

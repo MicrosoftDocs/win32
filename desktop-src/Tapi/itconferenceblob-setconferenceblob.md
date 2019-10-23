@@ -2,7 +2,7 @@
 Description: The SetConferenceBlob method commits changes to the conference blob. To initialize the conference blob for the first time, use the Init method instead.
 ms.assetid: 4a65edb9-77de-42d9-85a1-1e3c41706417
 title: ITConferenceBlob::SetConferenceBlob method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

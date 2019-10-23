@@ -3,7 +3,7 @@ Description: The SetIPUseZeroBroadcast WMI class static method is used to set IP
 ms.assetid: d20ac6fc-a5d5-4ad9-a2a5-65142b4c7d02
 ms.tgt_platform: multiple
 title: SetIPUseZeroBroadcast method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

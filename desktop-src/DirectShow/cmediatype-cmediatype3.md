@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: b7d5264a-2a5f-4111-96bb-1ea2b13405be
 title: CMediaType.CMediaType constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

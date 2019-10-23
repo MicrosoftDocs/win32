@@ -2,7 +2,7 @@
 Description: Returns the size of a vertex for a flexible vertex format (FVF).
 ms.assetid: 9d8e2b1f-0ec8-46ab-8492-2cadd700225e
 title: D3DXGetFVFVertexSize function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

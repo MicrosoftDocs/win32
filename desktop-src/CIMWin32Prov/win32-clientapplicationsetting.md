@@ -3,7 +3,7 @@ Description: The Win32\_ClientApplicationSetting association WMI class relates a
 ms.assetid: c43d80ee-0f29-4452-b51f-f18543bc1d35
 ms.tgt_platform: multiple
 title: Win32_ClientApplicationSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_SystemLoadOrderGroups association WMI class relates a co
 ms.assetid: fb637300-0f70-465a-a72b-f0ab3f246790
 ms.tgt_platform: multiple
 title: Win32_SystemLoadOrderGroups class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

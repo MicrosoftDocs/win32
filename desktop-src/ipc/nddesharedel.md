@@ -2,7 +2,7 @@
 Description: Deletes a DDE share from the DDE share database manager (DSDM).
 ms.assetid: 3240f4b1-2625-46bc-9bbe-27737c59df81
 title: NDdeShareDel function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

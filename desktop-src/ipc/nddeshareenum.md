@@ -2,7 +2,7 @@
 Description: Retrieves the list of available DDE shares.
 ms.assetid: ce5aeddd-d9d1-40a2-a807-1a9c9f98f171
 title: NDdeShareEnum function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

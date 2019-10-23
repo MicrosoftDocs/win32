@@ -2,7 +2,7 @@
 Description: Specifies the maximum luminance level of the content in Nits. This attribute has the same semantics as MaxCLL as defined in the CEA-861.3 standard.
 ms.assetid: 873737AB-C508-44D4-B3EF-7A69F2A8254C
 title: MF_MT_MAX_LUMINANCE_LEVEL attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

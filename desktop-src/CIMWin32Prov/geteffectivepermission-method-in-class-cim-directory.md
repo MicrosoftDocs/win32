@@ -3,7 +3,7 @@ Description: Determines whether the caller has the aggregated permissions on the
 ms.assetid: b3dc1e3c-5c99-46ba-93c4-15fbf18e98e8
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the CIM_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The IsRemoteNPP function indicates whether the given BLOB specifies a remote NPP.
 ms.assetid: 66ee0a9a-3199-479f-baec-da6ae6b46c65
 title: IsRemoteNPP function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

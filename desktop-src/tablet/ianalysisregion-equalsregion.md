@@ -2,7 +2,7 @@
 Description: Determines whether the specified IAnalysisRegion contains the same value as the current IAnalysisRegion object.
 ms.assetid: 44c09cfe-65fc-4175-ad05-01c605218c58
 title: IAnalysisRegion::EqualsRegion method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

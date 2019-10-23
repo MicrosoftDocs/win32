@@ -2,7 +2,7 @@
 Description: Sets a specific Microsoft .NET Passport sign-in option.
 ms.assetid: 5ec79faa-1c74-42a4-b964-ea15edacda79
 title: IPassportManager3::put_Option method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Gets a constant by looking up its index.
 ms.assetid: 7d3ab655-b50d-41ab-a4ca-c7b534e00e3f
 title: ID3DXTextureShader::GetConstant method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

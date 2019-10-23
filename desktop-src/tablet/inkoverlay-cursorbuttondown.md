@@ -2,7 +2,7 @@
 Description: Occurs when the InkCollector Class detects a cursor button that is down.
 ms.assetid: 993b84a3-a5ac-4b00-bfb4-26ca1c9727c6
 title: InkOverlay.CursorButtonDown event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

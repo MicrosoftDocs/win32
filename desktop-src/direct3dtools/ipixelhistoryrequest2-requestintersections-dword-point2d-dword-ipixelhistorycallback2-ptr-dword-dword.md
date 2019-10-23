@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixelHistoryRequest2::RequestIntersections method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: C8E47935-DFA1-4A76-9D0A-3DF5833A1249
 api_name: 

@@ -3,7 +3,7 @@ Description: Deletes the logical paging file (or directory) specified in the obj
 ms.assetid: cc36d621-597e-4343-8bf6-bfca7fa29276
 ms.tgt_platform: multiple
 title: Delete method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

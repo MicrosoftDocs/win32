@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine::SaveFile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: A80498F4-C8F5-4AC0-92C5-A90EB2A090B7
 api_name: 

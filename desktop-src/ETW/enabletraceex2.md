@@ -2,7 +2,7 @@
 Description: Enables or disables the specified event trace provider.
 ms.assetid: 3aceffb6-614f-4cad-bbec-f181f0cbdbff
 title: EnableTraceEx2 function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

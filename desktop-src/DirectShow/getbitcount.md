@@ -2,7 +2,7 @@
 Description: The GetBitCount function returns the number of bits per pixel used by a specified video subtype. This function is valid for uncompressed RGB subtypes only.
 ms.assetid: 876b91c8-50ba-4217-b79c-7f7ec1c22b83
 title: GetBitCount function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

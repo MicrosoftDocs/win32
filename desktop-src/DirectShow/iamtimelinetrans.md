@@ -2,7 +2,7 @@
 Description: The IAMTimelineTrans interface provides methods for manipulating transitions in DirectShow Editing Services (DES).
 ms.assetid: e29ff0cc-0e48-4a72-8a1b-051ed62c8130
 title: IAMTimelineTrans interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

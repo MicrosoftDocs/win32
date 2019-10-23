@@ -2,7 +2,7 @@
 Description: Sets whether to use software dynamic format change for internal resizing.
 ms.assetid: 09C8FB13-D08E-480A-AD77-B281553E3CAF
 title: CODECAPI_AVDecSoftwareDynamicFormatChange property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: WMI classes that represent files or directories, such as Win32\_Cod
 ms.assetid: 9020b337-d44f-4247-b623-68a1bcf35abb
 ms.tgt_platform: multiple
 title: File and Directory Access Rights Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

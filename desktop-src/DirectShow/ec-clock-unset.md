@@ -2,7 +2,7 @@
 Description: The clock provider was disconnected.
 ms.assetid: 0a885b7a-840d-4112-85f7-ff6f2d87bb75
 title: EC_CLOCK_UNSET
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The ResetMediaTime method resets the cached time stamps to zero.
 ms.assetid: 80dd2ae3-0a83-4017-8860-a089bef9a919
 title: CRendererPosPassThru.ResetMediaTime method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

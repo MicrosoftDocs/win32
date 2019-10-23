@@ -2,7 +2,7 @@
 Description: Pointer to the filter that created this pin.
 ms.assetid: a0be08c5-d120-4495-b80a-0fb90fad9238
 title: CTransInPlaceInputPin::m_pTIPFilter member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The TAPI\_VIDEO\_STREAM\_CONFIG\_CAPS structure is contained by the TAPI\_STREAM\_CONFIG\_CAPS structure when the CapsType member is set to the VideoCap member of the StreamConfigCapsType union.
 ms.assetid: 8812755a-50e8-4d8e-ab67-7a3a4b2a4a67
 title: TAPI_VIDEO_STREAM_CONFIG_CAPS structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

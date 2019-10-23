@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_CDROMDrive class requests a reset of t
 ms.assetid: 9d422fb3-8332-4be5-8e90-0e782640748a
 ms.tgt_platform: multiple
 title: Reset method of the CIM_CDROMDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

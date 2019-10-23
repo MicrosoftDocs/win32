@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: bb1dea51-f9d6-4edc-8044-53380cc4d32e
 title: RequestStateChange method of the Msvm_ShutdownComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

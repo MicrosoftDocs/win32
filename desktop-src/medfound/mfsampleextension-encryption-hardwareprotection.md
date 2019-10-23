@@ -2,7 +2,7 @@
 Description: Specifies whether a media sample is hardware protected.
 ms.assetid: 01241090-E596-4D4C-92BE-E8D38394B8EE
 title: MFSampleExtension_Encryption_HardwareProtection attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

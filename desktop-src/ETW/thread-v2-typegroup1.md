@@ -2,7 +2,7 @@
 Description: This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
 ms.assetid: c24b4bc9-2a05-444c-be41-b4dfd0511b93
 title: Thread_V2_TypeGroup1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

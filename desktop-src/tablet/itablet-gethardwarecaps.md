@@ -2,7 +2,7 @@
 Description: Returns a value that represents the capabilities of the tablet hardware.
 ms.assetid: 68936dab-3df4-42c4-9945-bcd525c996f3
 title: ITablet::GetHardwareCaps method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

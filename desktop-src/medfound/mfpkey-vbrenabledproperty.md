@@ -2,7 +2,7 @@
 Description: Specifies whether the encoder uses variable-bit-rate (VBR) encoding.
 ms.assetid: e6826802-99b7-4a38-9b58-8a9cb8b753fb
 title: MFPKEY_VBRENABLED Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

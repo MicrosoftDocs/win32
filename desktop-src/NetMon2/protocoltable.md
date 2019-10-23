@@ -2,7 +2,7 @@
 Description: The PROTOCOLTABLE structure contains a list of protocols.
 ms.assetid: dad2b228-5916-44fe-b78e-ebc6507dc555
 title: PROTOCOLTABLE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

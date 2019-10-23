@@ -2,7 +2,7 @@
 Description: Adds a IMFSourceBuffer to the collection of buffers associated with the IMFMediaSourceExtension.
 ms.assetid: 1ecb7047-4dc9-4657-8a19-12108de299c0
 title: IMFMediaSourceExtension::AddSourceBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Gets an array of BOOL values.
 ms.assetid: 4a5e2f48-fa82-47dc-a388-02a8679585d2
 title: ID3DXBaseEffect::GetBoolArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

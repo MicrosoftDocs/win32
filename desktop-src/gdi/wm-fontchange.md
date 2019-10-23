@@ -2,7 +2,7 @@
 Description: An application sends the WM\_FONTCHANGE message to all top-level windows in the system after changing the pool of font resources.
 ms.assetid: 4774308e-2f18-4a35-a769-56871f3c29a2
 title: WM_FONTCHANGE message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Represents settings specifically related to the allocation of virtual storage.
 ms.assetid: de6787c0-9998-4f1d-9715-f0dfa0ff70c6
 title: Msvm_StorageAllocationSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

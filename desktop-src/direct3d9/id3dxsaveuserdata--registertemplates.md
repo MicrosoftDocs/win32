@@ -2,7 +2,7 @@
 Description: A callback for the user to register a .x file template.
 ms.assetid: 60568556-704c-4be3-bbde-04887583cf70
 title: ID3DXSaveUserData::RegisterTemplates method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Note  This interface has been deprecated.
 ms.assetid: d9800850-b0ee-44f7-bcb4-f2bac8d17693
 title: IAMFilterData interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

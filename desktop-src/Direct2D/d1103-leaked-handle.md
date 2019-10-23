@@ -10,7 +10,7 @@ api_name:
 - D1103 Leaked Handle
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---

@@ -2,7 +2,7 @@
 Description: Specifies a list of unicode strings representing the device capabilities required by the sensor transform.
 ms.assetid: 4A129FEB-E650-47C9-ABC0-9A512EE4121D
 title: MF_DEVICESTREAM_REQUIRED_CAPABILITIES attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

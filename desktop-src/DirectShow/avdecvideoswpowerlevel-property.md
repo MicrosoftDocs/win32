@@ -2,7 +2,7 @@
 Description: Specifies the power-saving level of a video decoder.
 ms.assetid: 7e2ff8be-b21f-4833-a165-0112d4220677
 title: AVDecVideoSWPowerLevel property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

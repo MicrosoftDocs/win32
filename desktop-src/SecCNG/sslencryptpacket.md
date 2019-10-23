@@ -2,7 +2,7 @@
 Description: Encrypts a single Secure Sockets Layer protocol (SSL) packet.
 ms.assetid: 1002158b-1a4f-4461-978f-b221ef6332e0
 title: SslEncryptPacket function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

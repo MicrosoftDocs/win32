@@ -3,7 +3,7 @@ Description: The Class property of the SWbemObjectPath object is the name of the
 ms.assetid: 60123963-31be-4112-9d06-611b4c599fd4
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Class property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The largest observed interval between key frames.
 ms.assetid: 66a39b4f-9eed-4fc3-aa31-f832c951c8a1
 title: CVideoTransformFilter::m_nKeyFramePeriod member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

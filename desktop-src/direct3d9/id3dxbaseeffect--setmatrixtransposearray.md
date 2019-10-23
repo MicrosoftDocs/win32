@@ -2,7 +2,7 @@
 Description: Sets an array of transposed matrices.
 ms.assetid: 5dc65424-b0cd-490d-900e-60b9f7536ace
 title: ID3DXBaseEffect::SetMatrixTransposeArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

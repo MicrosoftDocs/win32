@@ -2,7 +2,7 @@
 Description: Returns the current value of a performance counter and, optionally, the frequency of the performance counter.
 ms.assetid: ab8973b7-a358-4e50-85e8-9dbff4e67010
 title: NtQueryPerformanceCounter function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

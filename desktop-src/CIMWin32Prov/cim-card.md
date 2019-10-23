@@ -3,7 +3,7 @@ Description: The CIM\_Card class represents a type of physical container that ca
 ms.assetid: edbbfe43-c8e8-4cde-9507-e0a248c15ca7
 ms.tgt_platform: multiple
 title: CIM_Card class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

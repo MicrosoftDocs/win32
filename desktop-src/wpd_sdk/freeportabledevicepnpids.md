@@ -2,7 +2,7 @@
 Description: Frees the Plug and Play (PnP) identifiers that are retrieved by the IPortableDeviceManager::GetDevices or IPortableDeviceServiceManager::GetDeviceServices methods.
 ms.assetid: b86f7733-81a3-4b60-bb7c-840c75f8d03f
 title: FreePortableDevicePnPIDs function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

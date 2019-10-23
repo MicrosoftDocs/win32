@@ -1,7 +1,7 @@
 ---
 Description: Verifies that the monitor is active and available.
 title: IMultiMonitorDockingSite::RequestMonitor method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

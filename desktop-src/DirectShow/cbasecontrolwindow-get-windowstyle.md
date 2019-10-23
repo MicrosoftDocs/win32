@@ -2,7 +2,7 @@
 Description: The get\_WindowStyle method retrieves the standard window styles.
 ms.assetid: 5c204814-5c7c-47e2-95dd-86455ed77cc7
 title: CBaseControlWindow.get_WindowStyle method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

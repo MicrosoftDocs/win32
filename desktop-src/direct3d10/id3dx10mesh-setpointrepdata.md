@@ -2,7 +2,7 @@
 Description: Set the point rep data for the mesh.
 ms.assetid: 451a1ff0-68fa-48c4-b3f1-d41d7583cb3f
 title: ID3DX10Mesh::SetPointRepData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

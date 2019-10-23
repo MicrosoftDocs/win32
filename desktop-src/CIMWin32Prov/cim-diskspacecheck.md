@@ -3,7 +3,7 @@ Description: The CIM\_DiskSpaceCheck class checks the system's amount of availab
 ms.assetid: 51440084-7713-4106-b05b-cd2827f4cb05
 ms.tgt_platform: multiple
 title: CIM_DiskSpaceCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

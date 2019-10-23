@@ -2,7 +2,7 @@
 Description: Forces the Enhanced Video Renderer (EVR) to mix the video within a rectangle that is smaller than the output rectangle, and then scale the result.
 ms.assetid: f85c4114-ac94-4deb-a1cf-896209079f8b
 title: EVRConfig_ForceScaling attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

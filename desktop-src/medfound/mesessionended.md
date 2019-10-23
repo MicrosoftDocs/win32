@@ -2,7 +2,7 @@
 Description: Raised by the Media Session when it has finished playing the last presentation in the playback queue.
 ms.assetid: e593e51f-c239-49e9-bba8-c6d8238eff24
 title: MESessionEnded event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

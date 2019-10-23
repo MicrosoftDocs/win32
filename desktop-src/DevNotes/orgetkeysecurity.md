@@ -2,7 +2,7 @@
 Description: Retrieves a copy of the security descriptor protecting the specified open registry key in an offline registry hive.
 ms.assetid: 676d5be5-d9d8-48c6-848a-917d1a0474c6
 title: ORGetKeySecurity function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The DeleteAll method of the SWbemNamedValueSet object removes all n
 ms.assetid: db5d2e68-028e-4902-ad42-0b46e1a96bcb
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.DeleteAll method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_Mount class represents an association between a file syste
 ms.assetid: abf1833b-9b39-45c0-8400-2be2bf3a1c3c
 ms.tgt_platform: multiple
 title: CIM_Mount class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

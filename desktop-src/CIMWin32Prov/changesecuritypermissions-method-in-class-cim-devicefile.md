@@ -3,7 +3,7 @@ Description: Changes the security permissions for the logical device file specif
 ms.assetid: 4b3e1a0e-3c9e-45bb-8c7b-cbbc8f9d1265
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

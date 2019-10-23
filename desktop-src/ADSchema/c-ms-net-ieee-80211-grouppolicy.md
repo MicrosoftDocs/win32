@@ -11,7 +11,7 @@ api_name:
 - ms-net-ieee-80211-GroupPolicy
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

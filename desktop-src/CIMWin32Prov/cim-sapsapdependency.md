@@ -3,7 +3,7 @@ Description: The CIM\_SAPSAPDependency class is an association between two servi
 ms.assetid: ba5f47d9-ebe5-4dcb-8a6d-0974acf67385
 ms.tgt_platform: multiple
 title: CIM_SAPSAPDependency class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

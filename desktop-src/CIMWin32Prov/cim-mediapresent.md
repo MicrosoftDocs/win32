@@ -3,7 +3,7 @@ Description: The CIM\_MediaPresent association describes a relationship where a 
 ms.assetid: 84c4931c-1dc6-4fc1-b3b9-8252ecb627f5
 ms.tgt_platform: multiple
 title: CIM_MediaPresent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

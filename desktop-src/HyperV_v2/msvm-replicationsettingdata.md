@@ -2,7 +2,7 @@
 Description: Represents the replication-specific settings for a virtual machine.
 ms.assetid: f6f6a413-a949-4aca-930b-37e39bdc1fdb
 title: Msvm_ReplicationSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

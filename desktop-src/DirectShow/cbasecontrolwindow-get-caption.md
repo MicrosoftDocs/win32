@@ -2,7 +2,7 @@
 Description: The get\_Caption method retrieves the current window caption.
 ms.assetid: 51ce9cf8-0b2a-4459-b005-02dc45444fd8
 title: CBaseControlWindow.get_Caption method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

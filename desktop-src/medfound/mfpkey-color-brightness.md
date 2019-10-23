@@ -2,7 +2,7 @@
 Description: Adjusts the brightness.
 ms.assetid: 1b3f56eb-3f22-4120-ba6c-331eccd5d303
 title: MFPKEY_COLOR_BRIGHTNESS Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

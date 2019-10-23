@@ -2,7 +2,7 @@
 Description: The m\_pAlloc member variable is a pointer to the IMemAllocator interface of the memory allocator.
 ms.assetid: a3be5982-83f0-4552-9bcd-85da4a4918ff
 title: CPullPin::m_pAlloc member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

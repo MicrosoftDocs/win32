@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_VolumeSet class sets the desir
 ms.assetid: 05923d74-7939-484e-82fe-9f26e4269418
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_VolumeSet class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

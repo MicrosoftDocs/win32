@@ -1,7 +1,7 @@
 ---
 Description: Sent by a File Manager extension to retrieve drive information from the active File Manager window.
 title: FM_GETDRIVEINFO message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

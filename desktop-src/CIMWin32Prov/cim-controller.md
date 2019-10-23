@@ -3,7 +3,7 @@ Description: The CIM\_Controller class is a parent class for grouping miscellane
 ms.assetid: 526d58bb-cdf4-42c2-ae89-7b86d99e2017
 ms.tgt_platform: multiple
 title: CIM_Controller class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_DeviceConnection association class represents two or more 
 ms.assetid: 82095cd6-1843-4db2-9fe8-3e225611bd3b
 ms.tgt_platform: multiple
 title: CIM_DeviceConnection class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

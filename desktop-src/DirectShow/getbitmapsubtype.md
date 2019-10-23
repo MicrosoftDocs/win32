@@ -2,7 +2,7 @@
 Description: The GetBitmapSubtype function returns the media subtype GUID for the specified bitmap.
 ms.assetid: 0af8a64b-8d3c-4308-9fd6-174864a1ca26
 title: GetBitmapSubtype function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Retrieves a string that contains the certificate serial number.
 ms.assetid: d08be744-4ae8-49f9-8b00-48e76c296f2b
 title: Certificate.SerialNumber property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

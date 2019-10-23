@@ -2,7 +2,7 @@
 Description: Contains the friendly names of the Synchronized Accessible Media Interchange (SAMI) styles defined in the SAMI file.
 ms.assetid: bc679f0e-17f6-455c-8a00-1d435538ef86
 title: MF_PD_SAMI_STYLELIST attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Brings up the key manager dialog into the user interface.
 ms.assetid: 65c2763f-42d5-4534-94f7-e753f6486014
 title: KRShowKeyMgr function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

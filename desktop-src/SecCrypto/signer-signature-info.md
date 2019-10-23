@@ -2,7 +2,7 @@
 Description: Contains information about a digital signature.
 ms.assetid: 0b86fdf9-533f-4640-8c70-c3c8f4ef2c68
 title: SIGNER_SIGNATURE_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

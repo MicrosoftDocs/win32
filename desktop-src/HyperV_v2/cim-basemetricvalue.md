@@ -2,7 +2,7 @@
 Description: Represents the instance value of a metric.
 ms.assetid: 6b272ae8-7684-45bb-bff8-6559680cc8b6
 title: CIM_BaseMetricValue class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

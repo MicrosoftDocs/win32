@@ -2,7 +2,7 @@
 Description: The installer sets the PersonalFolder property to the full path of the Personal folder for the current user.
 ms.assetid: 89388341-6417-4b28-9608-3be30e816780
 title: PersonalFolder property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_DiskDrive class represents a physical disk drive as seen b
 ms.assetid: 3a63506e-455e-4108-b0c7-03b2af249d61
 ms.tgt_platform: multiple
 title: CIM_DiskDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

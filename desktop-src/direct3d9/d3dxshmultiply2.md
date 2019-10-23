@@ -2,7 +2,7 @@
 Description: Computes the product of two functions represented using SH (f and g).
 ms.assetid: 632400a4-2ac9-438d-85f7-869101f350c8
 title: D3DXSHMultiply2 function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

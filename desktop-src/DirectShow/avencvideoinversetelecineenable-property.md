@@ -2,7 +2,7 @@
 Description: Specifies whether the encoder performs inverse telecine.
 ms.assetid: 3467b0c8-c27d-448a-8cbf-971307e4c408
 title: AVEncVideoInverseTelecineEnable property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

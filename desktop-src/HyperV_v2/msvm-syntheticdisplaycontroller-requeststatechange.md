@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: eb7f8acb-1e2d-472c-b50d-92f533c460d0
 title: RequestStateChange method of the Msvm_SyntheticDisplayController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

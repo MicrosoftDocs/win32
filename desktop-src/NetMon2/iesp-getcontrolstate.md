@@ -2,7 +2,7 @@
 Description: The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
 ms.assetid: 19cc3095-3aa3-4482-95f5-959b19f76cea
 title: IESP::GetControlState method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

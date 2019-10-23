@@ -3,7 +3,7 @@ Description: The CIM\_PCMCIAController class represents the capabilities and man
 ms.assetid: 341cbc6c-dd25-4dea-bcce-cd4e3f4d5324
 ms.tgt_platform: multiple
 title: CIM_PCMCIAController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

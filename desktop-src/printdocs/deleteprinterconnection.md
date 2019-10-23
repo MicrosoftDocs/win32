@@ -2,7 +2,7 @@
 Description: The DeletePrinterConnection function deletes a connection to a printer that was established by a call to AddPrinterConnection or ConnectToPrinterDlg.
 ms.assetid: 7b056eea-fbd9-4a08-a2dc-7326caeec387
 title: DeletePrinterConnection function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The SendNMEvent method submits events to Windows Management Instrumentation (WMI).
 ms.assetid: 85c33a71-72aa-4b0a-8e8b-3a220a080bb2
 title: IMonitorEventer::SendNMEvent method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

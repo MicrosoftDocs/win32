@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PixEngineTextureFormatDesc structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 685DC746-544D-4ACB-AB1F-9FA62C5CF416
 api_name: 

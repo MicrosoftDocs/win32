@@ -3,7 +3,7 @@ Description: The Qualifiers\_ property of the SWbemProperty object returns an SW
 ms.assetid: 4954872a-1f62-4065-99cc-2fdf989adbe4
 ms.tgt_platform: multiple
 title: SWbemProperty.Qualifiers_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Proxy function for the GetStride method.
 ms.assetid: 243439f3-2267-4632-b312-75c5ae5eddaa
 title: IWICBitmapLock_GetStride_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

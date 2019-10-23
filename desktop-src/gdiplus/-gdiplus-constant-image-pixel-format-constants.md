@@ -2,7 +2,7 @@
 Description: The following constants, defined in Gdipluspixelformats.h, specify various pixel formats used in bitmaps.
 ms.assetid: 362204c5-5dd7-461a-b90b-15826c025689
 title: Image Pixel Format Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

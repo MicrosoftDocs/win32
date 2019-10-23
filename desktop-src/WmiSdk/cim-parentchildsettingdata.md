@@ -3,7 +3,7 @@ Description: An association between an instance of CIM\_VirtualSystemSettingData
 ms.assetid: f6e93c22-077b-4604-8d0d-9584b1f4dce1
 ms.tgt_platform: multiple
 title: CIM_ParentChildSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

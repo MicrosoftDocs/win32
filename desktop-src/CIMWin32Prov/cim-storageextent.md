@@ -3,7 +3,7 @@ Description: The CIM\_StorageExtent class represents the capabilities and manage
 ms.assetid: 3895e00e-1a80-4d45-be0a-b159f8f335e8
 ms.tgt_platform: multiple
 title: CIM_StorageExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

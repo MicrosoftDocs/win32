@@ -2,7 +2,7 @@
 Description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
 ms.assetid: 663ef18a-0238-416f-9682-8809b271b4fc
 title: CIM_AggregationMetricValue class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Contains the media subtype for a topology node. This attribute is set when the topology fails to load because the correct decoder could not be found.
 ms.assetid: 89da33c8-97af-4c56-8bdb-2ac588810d77
 title: MF_TOPONODE_ERROR_SUBTYPE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

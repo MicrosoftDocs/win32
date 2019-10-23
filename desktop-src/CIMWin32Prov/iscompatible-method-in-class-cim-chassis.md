@@ -3,7 +3,7 @@ Description: Verifies whether the referenced physical chassis can be contained b
 ms.assetid: 9a1aa1b7-2b95-4887-9d14-e416ff69f9df
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Chassis class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

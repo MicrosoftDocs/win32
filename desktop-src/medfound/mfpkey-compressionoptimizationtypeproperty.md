@@ -2,7 +2,7 @@
 Description: Specifies the optimal visual quality settings to use for the Windows Media Video 9 Advanced Profile encoder.
 ms.assetid: 9449b5fa-4f13-4c33-bfdf-611720e8dd77
 title: MFPKEY_COMPRESSIONOPTIMIZATIONTYPE Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

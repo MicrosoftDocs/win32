@@ -3,7 +3,7 @@ Description: The Win32\_Registry&\#8194;WMI class represents the system registry
 ms.assetid: 4a6cd7d7-2845-434d-b024-d6dbb77371ea
 ms.tgt_platform: multiple
 title: Win32_Registry class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

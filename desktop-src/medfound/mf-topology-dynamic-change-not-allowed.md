@@ -2,7 +2,7 @@
 Description: Specifies whether the Media Session attempts to modify the topology when the format of a stream changes.
 ms.assetid: 8272ded7-9d27-4652-877b-40fc76426ffc
 title: MF_TOPOLOGY_DYNAMIC_CHANGE_NOT_ALLOWED attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

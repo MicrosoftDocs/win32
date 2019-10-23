@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_USBController class requests a reset o
 ms.assetid: ff287548-c1d5-44bd-8126-28a6af3e06fc
 ms.tgt_platform: multiple
 title: Reset method of the CIM_USBController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

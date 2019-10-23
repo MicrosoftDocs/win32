@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_SCSIController class sets the 
 ms.assetid: 7e484ec8-85b9-4c9e-b91f-04945592ec1c
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_SCSIController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

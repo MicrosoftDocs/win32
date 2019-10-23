@@ -2,7 +2,7 @@
 Description: The RemoveAll method permanently removes this object from the timeline, including subobjects and children.
 ms.assetid: 9596cf47-63fe-4839-a6d5-3685fc91a935
 title: IAMTimelineObj::RemoveAll method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The put\_BackgroundPalette method sets a flag to realize the palette in the background.
 ms.assetid: db420e75-e300-41fa-bae4-fb267cc99c7c
 title: CBaseControlWindow.put_BackgroundPalette method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

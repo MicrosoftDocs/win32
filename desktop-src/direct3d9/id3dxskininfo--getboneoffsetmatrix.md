@@ -2,7 +2,7 @@
 Description: Gets the bone offset matrix.
 ms.assetid: 99d47635-ffae-4668-a37c-b15442148fa1
 title: ID3DXSkinInfo::GetBoneOffsetMatrix method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

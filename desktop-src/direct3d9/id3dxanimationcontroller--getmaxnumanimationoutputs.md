@@ -2,7 +2,7 @@
 Description: Get the maximum number of animation outputs the animation controller can support.
 ms.assetid: 32534c92-9f8d-4fab-9f56-fe83368c476a
 title: ID3DXAnimationController::GetMaxNumAnimationOutputs method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

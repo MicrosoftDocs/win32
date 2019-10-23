@@ -2,7 +2,7 @@
 Description: The put\_FullScreenMode method sets the full-screen mode of the renderer.
 ms.assetid: 25e2a12e-a327-4aab-b4ab-54db0dfc950a
 title: CBaseControlWindow.put_FullScreenMode method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

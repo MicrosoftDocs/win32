@@ -2,7 +2,7 @@
 Description: The SpliceWithNext method joins the source object to another source object.
 ms.assetid: 65b23466-404c-4eef-943e-8b40186f2b96
 title: IAMTimelineSrc::SpliceWithNext method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Contains the original codec FOURCC for a video stream.
 ms.assetid: 2e6ef198-5754-4ded-9fe3-61edd0742a17
 title: MF_MT_ORIGINAL_4CC attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Pointer to a CAMSchedule object that handles scheduling tasks for the clock.
 ms.assetid: 6af7437f-313c-4a1e-a412-f82d3486264f
 title: CBaseReferenceClock::m_pSchedule member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

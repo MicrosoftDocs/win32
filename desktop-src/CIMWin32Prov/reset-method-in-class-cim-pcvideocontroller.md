@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_PCVideoController class requests a res
 ms.assetid: 0dbed7af-6c7a-4bbb-b1ae-d768d2f88697
 ms.tgt_platform: multiple
 title: Reset method of the CIM_PCVideoController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

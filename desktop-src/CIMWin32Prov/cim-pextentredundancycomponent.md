@@ -3,7 +3,7 @@ Description: The CIM\_PExtentRedundancyComponent class represents the physical e
 ms.assetid: 5a4bb1e8-7b99-410a-bba5-2c63beabd00e
 ms.tgt_platform: multiple
 title: CIM_PExtentRedundancyComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

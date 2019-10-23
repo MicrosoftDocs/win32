@@ -3,7 +3,7 @@ Description: The CIM\_ProductSupport class represents an association between pro
 ms.assetid: 61c62556-0cf3-438c-b9c7-152505bf7ed6
 ms.tgt_platform: multiple
 title: CIM_ProductSupport class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

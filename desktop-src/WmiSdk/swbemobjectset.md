@@ -3,7 +3,7 @@ Description: An SWbemObjectSet object is a collection of SWbemObject objects. Fo
 ms.assetid: 00f5317e-eb8e-42f9-bada-963e11aadda4
 ms.tgt_platform: multiple
 title: SWbemObjectSet object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

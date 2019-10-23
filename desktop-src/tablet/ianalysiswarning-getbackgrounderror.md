@@ -2,7 +2,7 @@
 Description: Retrieves the error code for the background ink analysis operation if an error occurred.
 ms.assetid: 0255751e-9b2a-46f1-aa45-6509f9d1c658
 title: IAnalysisWarning::GetBackgroundError method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

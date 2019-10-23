@@ -2,7 +2,7 @@
 Description: The CompareFrameSourceAddress function compares an address to the source address of a frame.
 ms.assetid: 7221c0cc-d6c1-4ec9-bf11-3ba1fefb35da
 title: CompareFrameSourceAddress function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

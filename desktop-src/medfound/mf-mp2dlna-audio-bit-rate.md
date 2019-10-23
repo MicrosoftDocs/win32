@@ -2,7 +2,7 @@
 Description: Specifies the maximum audio bit rate for the Digital Living Network Alliance (DLNA) media sink.
 ms.assetid: d0ae573a-7ce3-49e8-9609-f72d067f1ce1
 title: MF_MP2DLNA_AUDIO_BIT_RATE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

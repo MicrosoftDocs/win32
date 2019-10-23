@@ -2,7 +2,7 @@
 Description: Flag that specifies whether the object is performing a flush operation. If TRUE, the object has started flushing.
 ms.assetid: d7a066bd-962a-463f-a6f6-13b7cd58725c
 title: COutputQueue::m_bFlushing member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

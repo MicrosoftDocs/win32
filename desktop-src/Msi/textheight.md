@@ -2,7 +2,7 @@
 Description: The installer sets the TextHeight property to the height (ascent + descent) of characters in logical units.
 ms.assetid: 7714bf09-5f89-4e13-9eda-4cae9f6c2e44
 title: TextHeight property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

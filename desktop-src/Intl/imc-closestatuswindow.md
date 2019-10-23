@@ -2,7 +2,7 @@
 Description: Instructs the IME window to hide the status window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: e3da5962-a652-409e-b0ec-eb93671049b4
 title: IMC_CLOSESTATUSWINDOW command
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

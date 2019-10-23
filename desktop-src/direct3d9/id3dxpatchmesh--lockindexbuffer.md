@@ -2,7 +2,7 @@
 Description: Lock the index buffer.
 ms.assetid: b68aff75-9ba6-4088-b35f-f56d700d1aff
 title: ID3DXPatchMesh::LockIndexBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

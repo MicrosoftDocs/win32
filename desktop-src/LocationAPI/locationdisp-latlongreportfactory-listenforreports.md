@@ -2,7 +2,7 @@
 Description: Requests latitude/longitude report events.
 ms.assetid: c26a388b-e042-43da-a220-e3ecfcbd03a8
 title: LocationDisp.LatLongReportFactory.ListenForReports method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

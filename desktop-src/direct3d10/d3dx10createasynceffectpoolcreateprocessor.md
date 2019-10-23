@@ -2,7 +2,7 @@
 Description: Create an asynchronous-data processor for a memory pool.
 ms.assetid: 3985a5e5-492e-4003-9d10-6e34620de69f
 title: D3DX10CreateAsyncEffectPoolCreateProcessor function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

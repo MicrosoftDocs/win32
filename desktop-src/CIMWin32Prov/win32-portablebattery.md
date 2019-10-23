@@ -3,7 +3,7 @@ Description: The Win32\_PortableBattery WMI class contains the properties relate
 ms.assetid: ca7d061f-8fc6-4a1e-aa75-2465ce5e2735
 ms.tgt_platform: multiple
 title: Win32_PortableBattery class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

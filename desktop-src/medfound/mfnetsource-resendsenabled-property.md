@@ -2,7 +2,7 @@
 Description: Specifies whether the network source sends UDP resend requests in response to lost packets.
 ms.assetid: 7956536d-9f3d-4875-8006-17e2cd577b61
 title: MFNETSOURCE_RESENDSENABLED property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

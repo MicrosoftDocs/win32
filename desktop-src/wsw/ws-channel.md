@@ -4,7 +4,7 @@ description: An opaque type used to reference a channel.
 ms.assetid: 741636a4-5e0f-495a-bb1d-1a00cfd6f65a
 keywords:
 - WS_CHANNEL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

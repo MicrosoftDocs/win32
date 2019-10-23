@@ -3,7 +3,7 @@ Description: The Win32\_WMIElementSetting association WMI class relates a servic
 ms.assetid: 00e9f882-5f54-4042-a916-2f90ed9a37c0
 ms.tgt_platform: multiple
 title: Win32_WMIElementSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

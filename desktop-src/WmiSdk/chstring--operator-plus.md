@@ -3,7 +3,7 @@ Description: The + concatenation operator joins two strings and returns a CHStri
 ms.assetid: b7ed6379-ccfa-40f9-9607-d9033179b674
 ms.tgt_platform: multiple
 title: CHString::operator+
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

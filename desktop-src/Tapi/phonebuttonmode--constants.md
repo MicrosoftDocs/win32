@@ -2,7 +2,7 @@
 Description: The PHONEBUTTONMODE\_ bit-flag constants describe the button classes.
 ms.assetid: 7bf337ee-acda-42fe-b50b-370aad50dc03
 title: PHONEBUTTONMODE_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Get a pointer to the constant table.
 ms.assetid: 5d836d99-783f-41e1-b7bf-d874d09a4892
 title: ID3DXTextureShader::GetConstantBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

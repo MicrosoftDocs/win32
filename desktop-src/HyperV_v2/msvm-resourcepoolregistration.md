@@ -2,7 +2,7 @@
 Description: Registers a service that provides global resource pool-related objects.
 ms.assetid: B602F6E1-2889-43CF-AAF1-40F339231DB4
 title: Msvm_ResourcePoolRegistration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

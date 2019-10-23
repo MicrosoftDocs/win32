@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_PowerSupply class sets the des
 ms.assetid: 2f783410-1e71-4be2-9495-b2256b49d1a7
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PowerSupply class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

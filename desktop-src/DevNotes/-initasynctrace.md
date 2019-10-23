@@ -2,7 +2,7 @@
 Description: Initializes the trace.
 ms.assetid: d2708e29-920d-4b13-8917-a6f2065ba58c
 title: InitAsyncTrace function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies the number of audio samples to encode.
 ms.assetid: 2ef2241b-5ec4-4694-a0c9-7db395321471
 title: AVEncAudioIntervalToEncode property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

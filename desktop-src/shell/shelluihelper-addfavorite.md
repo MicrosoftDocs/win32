@@ -1,7 +1,7 @@
 ---
 Description: Displays the default user interface for creating a favorite item. The user interface is initialized to the specified parameters.
 title: ShellUIHelper.AddFavorite method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

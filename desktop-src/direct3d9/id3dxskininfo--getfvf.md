@@ -2,7 +2,7 @@
 Description: Gets the fixed function vertex value.
 ms.assetid: 9b80c4b9-2e5b-4965-99b9-ad6c459ef413
 title: ID3DXSkinInfo::GetFVF method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

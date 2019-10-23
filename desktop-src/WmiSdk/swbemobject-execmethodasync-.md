@@ -3,7 +3,7 @@ Description: The ExecMethodAsync\_ method of SWbemObject asynchronously executes
 ms.assetid: b848b38b-c0c3-49cd-b1e2-b0a440b82d61
 ms.tgt_platform: multiple
 title: SWbemObject.ExecMethodAsync_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

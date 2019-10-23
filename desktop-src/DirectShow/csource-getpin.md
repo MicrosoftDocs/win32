@@ -2,7 +2,7 @@
 Description: The GetPin method retrieves a pin. This method implements the pure virtual CBaseFilter::GetPin method.
 ms.assetid: 7f30a1ba-8e7b-4bde-9f4d-a85b3a2122e9
 title: CSource.GetPin method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

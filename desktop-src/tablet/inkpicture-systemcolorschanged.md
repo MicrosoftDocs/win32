@@ -2,7 +2,7 @@
 Description: Occurs after the system colors change.
 ms.assetid: 5d77c24a-dc01-4ea0-b142-e83b1023acc1
 title: InkPicture.SystemColorsChanged event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

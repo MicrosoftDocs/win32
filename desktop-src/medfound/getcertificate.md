@@ -2,7 +2,7 @@
 Description: Gets a certificate for a display driver.
 ms.assetid: eceaf151-1dae-4ff0-9139-7f1789f6c682
 title: GetCertificate function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

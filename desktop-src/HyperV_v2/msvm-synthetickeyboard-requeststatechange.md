@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: 984e8a68-bc95-4a8b-99d6-ac248e96c45e
 title: RequestStateChange method of the Msvm_SyntheticKeyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

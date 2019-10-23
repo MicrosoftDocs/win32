@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 3ee67cfd-a968-4b7c-9c7b-1c28ddb9c343
 title: CMediaSample.CMediaSample constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

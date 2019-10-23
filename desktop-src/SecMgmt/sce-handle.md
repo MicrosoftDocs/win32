@@ -2,7 +2,7 @@
 Description: The SCE\_HANDLE data type is an opaque handle provided by the Security Configuration tool set. It is used by PFSCE\_QUERY\_INFO and PFSCE\_SET\_INFO support functions to pass information between the attachment and the security database.
 ms.assetid: 8db91e6f-b31e-40c6-a158-b4b3b00ba0c0
 title: SCE_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

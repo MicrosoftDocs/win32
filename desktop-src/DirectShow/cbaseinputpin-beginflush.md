@@ -2,7 +2,7 @@
 Description: The CBaseInputPin method begins a flush operation. This method implements the IPin::BeginFlush method.
 ms.assetid: 3f149d4f-765b-44c1-87e5-6313f6a4d50d
 title: CBaseInputPin.BeginFlush method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

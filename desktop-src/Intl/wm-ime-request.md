@@ -2,7 +2,7 @@
 Description: Sent to an application to provide commands and request information. A window receives this message through its WindowProc function.
 ms.assetid: c5e9f256-eed2-46cb-bb33-0e640a975f1f
 title: WM_IME_REQUEST message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

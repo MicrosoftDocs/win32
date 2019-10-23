@@ -1,7 +1,7 @@
 ---
 Description: Adds an object to the Shell view. Used by SHShellFolderView\_Message.
 title: SFVM_ADDOBJECT message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 90394af6-3809-457c-b2f2-5f35187ed45b
 api_name: 

@@ -2,7 +2,7 @@
 Description: Raised by a content enabler object when the objects enabling action is completed.
 ms.assetid: 5162800c-9c55-40de-be66-a98765324f76
 title: MEEnablerCompleted event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The DisableIPSec WMI class method is used to disable Internet Proto
 ms.assetid: 6fff2721-1ee2-42b4-bbf9-fd36b97318e3
 ms.tgt_platform: multiple
 title: DisableIPSec method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Gets a nontransposed matrix.
 ms.assetid: d507c82c-b1a5-4e83-8921-5d45f52faba0
 title: ID3DXBaseEffect::GetMatrix method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

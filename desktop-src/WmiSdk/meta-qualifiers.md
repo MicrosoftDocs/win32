@@ -3,7 +3,7 @@ Description: Meta qualifiers refine the definition of meta-constructs in the CIM
 ms.assetid: 3674a051-3756-4d09-a70e-46a57b442104
 ms.tgt_platform: multiple
 title: Meta Qualifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

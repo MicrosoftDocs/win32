@@ -3,7 +3,7 @@ Description: Represents a physical memory device located on a computer system an
 ms.assetid: 34baca53-ab85-4e06-9853-71b904ede4ab
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

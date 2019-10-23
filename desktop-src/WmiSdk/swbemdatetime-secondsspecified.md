@@ -3,7 +3,7 @@ Description: Boolean value that indicates whether the seconds component in the C
 ms.assetid: 9f9b75c3-ae08-49a6-b747-294831601a62
 ms.tgt_platform: multiple
 title: SWbemDateTime.SecondsSpecified property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

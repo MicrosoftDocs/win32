@@ -2,7 +2,7 @@
 Description: Creates an empty volume texture, adjusting the calling parameters as needed.
 ms.assetid: 8fc515cd-2fb3-40c7-8192-a41d93ac1e99
 title: D3DXCreateVolumeTexture function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

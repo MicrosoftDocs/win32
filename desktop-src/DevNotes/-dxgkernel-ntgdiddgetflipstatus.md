@@ -2,7 +2,7 @@
 Description: Determines whether the most recently requested flip on a surface has occurred.
 ms.assetid: 4489e259-b22d-4e72-807a-5290401f0331
 title: NtGdiDdGetFlipStatus function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

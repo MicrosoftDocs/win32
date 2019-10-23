@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_HeatPipe class sets the desire
 ms.assetid: 10932c75-1fbe-422e-9333-d805ad695147
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_HeatPipe class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

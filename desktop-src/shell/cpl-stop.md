@@ -1,7 +1,7 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
 title: CPL_STOP message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 4f632b91-8200-42a3-90cc-a98889704ca4
 api_name: 

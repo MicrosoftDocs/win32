@@ -3,7 +3,7 @@ Description: The CIM\_ClusteringService class represents the functionality provi
 ms.assetid: 550e3be3-c1e2-4714-b702-49cb1213c65b
 ms.tgt_platform: multiple
 title: CIM_ClusteringService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

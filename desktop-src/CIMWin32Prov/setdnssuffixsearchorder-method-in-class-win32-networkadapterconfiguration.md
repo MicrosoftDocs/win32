@@ -3,7 +3,7 @@ Description: The SetDNSSuffixSearchOrder WMI class static method uses an array o
 ms.assetid: 1ad9fc99-8c57-43d4-92d2-b12f2c1451cb
 ms.tgt_platform: multiple
 title: SetDNSSuffixSearchOrder method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies the average buffer size needed for a variable bit rate (VBR) Advanced Systems Format (ASF) file.
 ms.assetid: 508d8670-5f5f-422b-9fa1-150115e2dbb8
 title: MF_PD_ASF_METADATA_V8_BUFFERAVERAGE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Every property in a view class must have a string array qualifier c
 ms.assetid: df89680b-8ea7-4f38-81ba-c4132b944f37
 ms.tgt_platform: multiple
 title: PropertySources Qualifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

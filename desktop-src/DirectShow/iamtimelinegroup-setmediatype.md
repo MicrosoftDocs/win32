@@ -2,7 +2,7 @@
 Description: The SetMediaType method sets the uncompressed media type for the group.
 ms.assetid: 51778563-f119-42e0-826b-966324a85024
 title: IAMTimelineGroup::SetMediaType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

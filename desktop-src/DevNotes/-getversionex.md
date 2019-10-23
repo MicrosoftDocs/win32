@@ -2,7 +2,7 @@
 Description: Gets information about the operating system version.
 ms.assetid: 1af2c320-6e0b-4692-858b-a2c921ed7ce7
 title: '_GetVersionEx function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

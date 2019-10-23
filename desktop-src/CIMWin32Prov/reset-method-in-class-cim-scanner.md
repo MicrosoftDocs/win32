@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Scanner class requests a reset of the 
 ms.assetid: 442e5095-33bb-4ce6-81a0-f6306b584018
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Scanner class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine3::SetupResources method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 1BB4BE17-51A2-4BA4-81F5-3678B7D5802B
 api_name: 

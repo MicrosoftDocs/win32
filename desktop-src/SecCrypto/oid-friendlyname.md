@@ -2,7 +2,7 @@
 Description: Sets or retrieves the display name for the identifier.
 ms.assetid: 53f84d0d-c189-4fd2-a383-29fd0d22de08
 title: OID.FriendlyName property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

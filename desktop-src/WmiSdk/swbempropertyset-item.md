@@ -3,7 +3,7 @@ Description: The Item method of the SWbemPropertySet object gets a named SWbemPr
 ms.assetid: 72025676-01dd-4fd7-b000-de6b09ecc6dc
 ms.tgt_platform: multiple
 title: SWbemPropertySet.Item method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

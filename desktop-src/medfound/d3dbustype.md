@@ -2,7 +2,7 @@
 Description: Specifies the type of I/O bus used by the graphics adapter.
 ms.assetid: 11bb7e0e-8d49-45f2-89aa-7583dd925edf
 title: D3DBUSTYPE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The stream identifier of the stream sink associated with this topology node.
 ms.assetid: 0b8060ab-1463-45c2-8277-d15122561248
 title: MF_TOPONODE_STREAMID attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

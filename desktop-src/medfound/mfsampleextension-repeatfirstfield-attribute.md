@@ -2,7 +2,7 @@
 Description: Specifies whether to repeat the first field in an interlaced frame. This attribute applies to media samples.
 ms.assetid: c469f418-fa23-443f-8012-0d548ee98c17
 title: MFSampleExtension_RepeatFirstField attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

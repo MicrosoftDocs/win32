@@ -2,7 +2,7 @@
 Description: The Free method releases all of the buffer memory. This method implements the pure virtual CBaseAllocator::Free method.
 ms.assetid: fbfaa75b-00d7-4f81-a013-5b15bba96834
 title: CImageAllocator.Free method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

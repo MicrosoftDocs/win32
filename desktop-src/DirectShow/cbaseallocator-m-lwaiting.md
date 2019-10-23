@@ -2,7 +2,7 @@
 Description: Count of threads waiting for samples.
 ms.assetid: 0b383fbf-f3d4-4dcf-b33c-74b9595a3e11
 title: CBaseAllocator::m_lWaiting member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

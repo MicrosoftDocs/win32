@@ -3,7 +3,7 @@ Description: The Security property of the SWbemObjectPath object is used to get 
 ms.assetid: 26e5e990-3b78-41b6-83c4-ba0d8b0d2f00
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Security_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

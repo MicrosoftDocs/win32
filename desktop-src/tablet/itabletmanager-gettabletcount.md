@@ -2,7 +2,7 @@
 Description: Retrieves the number of tablets attached to the system.
 ms.assetid: b2027336-611b-4d17-8943-f16770effaf8
 title: ITabletManager::GetTabletCount method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

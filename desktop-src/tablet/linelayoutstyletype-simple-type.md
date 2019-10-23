@@ -2,7 +2,7 @@
 Description: Defines the valid values for the Style attribute of the LineLayout element.
 ms.assetid: b257f0da-1bee-4d1b-9829-70f91cdcabe0
 title: LineLayoutStyleType Simple Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

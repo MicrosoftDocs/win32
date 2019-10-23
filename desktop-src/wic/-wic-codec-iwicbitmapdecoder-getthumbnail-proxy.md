@@ -2,7 +2,7 @@
 Description: Proxy function for the GetThumbnail method.
 ms.assetid: 37a6ba78-0d1b-47f6-9b12-8ad123c8ee86
 title: IWICBitmapDecoder_GetThumbnail_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

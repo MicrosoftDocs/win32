@@ -2,7 +2,7 @@
 Description: Locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
 ms.assetid: 02810576-73d8-431d-ab41-3244dcff311f
 title: NtGdiDdLock function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

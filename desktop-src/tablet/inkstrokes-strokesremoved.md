@@ -2,7 +2,7 @@
 Description: Occurs when one or more strokes are deleted from the InkStrokes collection.
 ms.assetid: 58d78143-c733-45dc-ae5f-fe13136010db
 title: InkStrokes.StrokesRemoved event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

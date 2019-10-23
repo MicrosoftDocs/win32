@@ -2,7 +2,7 @@
 Description: Retrieves the file title for the specified file path.
 ms.assetid: 9a559d71-4883-4905-b3ad-64b256a2f51e
 title: pSetupGetFileTitle function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

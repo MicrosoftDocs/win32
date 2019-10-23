@@ -2,7 +2,7 @@
 Description: Retrieves an object that represents the parent of the current object.
 ms.assetid: 2FDEF8D3-3F5B-43ae-9812-83B4249D9CBB
 title: IShellDispatch.Parent property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixProgressCallback::Progress method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: BE74599B-C98F-4BDB-ACDF-641F77A35EEB
 api_name: 

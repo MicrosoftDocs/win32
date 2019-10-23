@@ -2,7 +2,7 @@
 Description: Allows an application to reconnect to a smart card or reader without having to issue a Detach call followed by an AttachByHandle or AttachByIFD call respectively.
 ms.assetid: 450e817d-2cb2-4752-a86e-50cc8e434723
 title: ISCardManage::Reconnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

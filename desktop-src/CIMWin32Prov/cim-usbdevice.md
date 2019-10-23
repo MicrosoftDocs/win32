@@ -3,7 +3,7 @@ Description: The CIM\_USBDevice class represents the management characteristics 
 ms.assetid: 0ff39701-826a-434b-a628-0af586600a80
 ms.tgt_platform: multiple
 title: CIM_USBDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The SendQuality method sends a quality message to indicate what the supplier should do about quality.
 ms.assetid: 9ce11c35-958c-4eda-9130-1139c4074bf7
 title: CBaseVideoRenderer.SendQuality method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

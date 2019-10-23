@@ -2,7 +2,7 @@
 Description: Divides extended integers.
 ms.assetid: d46f65f0-6c41-4cb2-9882-5b11f7aae3ca
 title: RtlExtendedLargeIntegerDivide function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

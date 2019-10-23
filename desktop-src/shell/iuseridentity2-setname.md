@@ -2,7 +2,7 @@
 Description: IUserIdentity2::SetName is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 1c9c3beb-fa1c-4b4d-9cfd-656b97949036
 title: IUserIdentity2::SetName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

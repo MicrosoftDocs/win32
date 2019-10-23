@@ -2,7 +2,7 @@
 Description: Decrypts enveloped content.
 ms.assetid: 717d0595-e8bb-4725-bd53-fc1281cbc8ee
 title: EnvelopedData.Decrypt method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

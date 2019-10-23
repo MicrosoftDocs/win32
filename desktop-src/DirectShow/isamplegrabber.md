@@ -2,7 +2,7 @@
 Description: The ISampleGrabber interface is exposed by the Sample Grabber filter. It enables an application to retrieve individual media samples as they move through the filter graph.
 ms.assetid: 97cf1127-d5d7-4e6a-a371-19f24e497a7f
 title: ISampleGrabber interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies the type of voice activity detection that the Voice Capture DSP performs.
 ms.assetid: 59c8e348-8c08-4cf8-9c72-8d0f4fabc473
 title: MFPKEY_WMAAECMA_FEATR_VAD Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

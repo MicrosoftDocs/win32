@@ -2,7 +2,7 @@
 Description: Computes the dot product of two spherical harmonic (SH) vectors.
 ms.assetid: 71b7480d-ddac-4b02-bca7-d9318823d03e
 title: D3DXSHDot function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

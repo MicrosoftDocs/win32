@@ -2,7 +2,7 @@
 Description: Describes error codes 12000-1599 defined in the WinError.h header file and is intended for developers.
 ms.assetid: bb3c658d-96db-495a-a0dc-e93949c3835d
 title: System Error Codes (12000-15999)
-ms.topic: article
+ms.topic: reference
 ms.date: 07/18/2019
 ---
 

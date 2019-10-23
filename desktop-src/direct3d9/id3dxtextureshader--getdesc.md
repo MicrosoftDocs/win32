@@ -2,7 +2,7 @@
 Description: Gets a description of the constant table.
 ms.assetid: 91b537bb-5f7a-448b-a21f-c0ddf66d7238
 title: ID3DXTextureShader::GetDesc method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

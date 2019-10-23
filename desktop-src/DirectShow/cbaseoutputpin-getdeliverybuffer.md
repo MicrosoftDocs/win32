@@ -2,7 +2,7 @@
 Description: The GetDeliveryBuffer method retrieves a media sample that contains an empty buffer.
 ms.assetid: 5a20c11b-50f8-443e-a4d5-6bcffde741d5
 title: CBaseOutputPin.GetDeliveryBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

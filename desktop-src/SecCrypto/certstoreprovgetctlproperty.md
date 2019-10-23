@@ -2,7 +2,7 @@
 Description: Retrieves a specified property of a certificate trust list (CTL).
 ms.assetid: 65309715-65b4-4608-960d-3404e68800a2
 title: CertStoreProvGetCTLProperty callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

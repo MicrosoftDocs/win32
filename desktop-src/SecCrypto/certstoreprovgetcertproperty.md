@@ -2,7 +2,7 @@
 Description: Retrieves a specified property of a certificate.
 ms.assetid: 827e0331-1f87-4891-8cc1-de1bcbad2963
 title: CertStoreProvGetCertProperty callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

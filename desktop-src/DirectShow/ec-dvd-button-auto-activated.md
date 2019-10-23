@@ -2,7 +2,7 @@
 Description: Signals that a DVD menu button has been automatically activated per instructions on the disc. This occurs when a menu times out and the disc has specified a button to be automatically activated.
 ms.assetid: ecd79c2a-1717-473d-b111-2b1db2ca4cc1
 title: EC_DVD_BUTTON_AUTO_ACTIVATED
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

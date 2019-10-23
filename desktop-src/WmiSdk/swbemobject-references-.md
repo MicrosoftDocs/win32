@@ -3,7 +3,7 @@ Description: The References\_ method of the SWbemObject object returns a collect
 ms.assetid: ba02da47-0bb2-40e1-af50-1c42b4be2abd
 ms.tgt_platform: multiple
 title: SWbemObject.References_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

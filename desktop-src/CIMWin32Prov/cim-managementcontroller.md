@@ -3,7 +3,7 @@ Description: The CIM\_ManagementController class relates to the capabilities and
 ms.assetid: 47ad29d1-5021-4469-87c0-bd9403faa70c
 ms.tgt_platform: multiple
 title: CIM_ManagementController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

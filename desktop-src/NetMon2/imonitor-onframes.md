@@ -2,7 +2,7 @@
 Description: The OnFrames method must be implemented by the monitor. The MCSVC calls this method when either the capture buffer is full or the update time has passed.
 ms.assetid: 243bd35b-2527-463e-b3d2-4bd840fe9c3f
 title: IMonitor::OnFrames method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

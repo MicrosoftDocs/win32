@@ -3,7 +3,7 @@ Description: If the current configuration is a result of the Undo/Redo/Restore, 
 ms.assetid: 1b3d398a-c7f9-4e21-9e43-1245a13fe564
 ms.tgt_platform: multiple
 title: Checkpoint method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

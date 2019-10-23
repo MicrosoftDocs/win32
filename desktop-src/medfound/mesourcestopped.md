@@ -2,7 +2,7 @@
 Description: Raised by a media source when the IMFMediaSource::Stop method completes asynchronously.
 ms.assetid: 0eda9aa1-3aad-43ac-9d87-ab96e4ac319d
 title: MESourceStopped event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

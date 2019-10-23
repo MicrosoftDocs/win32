@@ -2,7 +2,7 @@
 Description: The system broadcasts the DBT\_DEVICEREMOVEPENDING device event when a device or piece of media is being removed and is no longer available for use.
 ms.assetid: 28cb4481-8961-4896-9608-afccba9a2bfe
 title: DBT_DEVICEREMOVEPENDING event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

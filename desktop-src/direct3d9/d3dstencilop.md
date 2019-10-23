@@ -2,7 +2,7 @@
 Description: Defines stencil-buffer operations.
 ms.assetid: 338a3b7f-236a-484f-96b8-1e6bfb014484
 title: D3DSTENCILOP enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

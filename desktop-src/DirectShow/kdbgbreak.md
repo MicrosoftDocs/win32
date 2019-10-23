@@ -2,7 +2,7 @@
 Description: Causes a breakpoint exception, and logs the specified string using the DbgLog macro. Ignored in retail builds.
 ms.assetid: 475810db-692b-4727-9ef1-ece74e9618d0
 title: KDbgBreak macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

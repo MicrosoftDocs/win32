@@ -3,7 +3,7 @@ Description: The Win32\_TapeDrive WMI class represents a tape drive on a compute
 ms.assetid: ceefec7b-a904-4b2f-a6b6-b84917a33023
 ms.tgt_platform: multiple
 title: Win32_TapeDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

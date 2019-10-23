@@ -2,7 +2,7 @@
 Description: The WM\_QUERYNEWPALETTE message informs a window that it is about to receive the keyboard focus, giving the window the opportunity to realize its logical palette when it receives the focus.
 ms.assetid: bc9f76ca-62af-4f0b-8791-49269a1b23d1
 title: WM_QUERYNEWPALETTE message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Specifies the category for a Media Foundation transform (MFT).
 ms.assetid: cebd64ea-b20f-4ccc-805f-0deab3096bc3
 title: MF_TRANSFORM_CATEGORY_Attribute attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

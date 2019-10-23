@@ -2,7 +2,7 @@
 Description: Acquires a handle to preexisting credentials of a security principal that is using NTLM.
 ms.assetid: 8a51ca50-0e05-4f1e-9dfc-c5d0118f65ed
 title: AcquireCredentialsHandle (NTLM) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

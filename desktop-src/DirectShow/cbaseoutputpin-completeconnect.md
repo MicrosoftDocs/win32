@@ -2,7 +2,7 @@
 Description: The CompleteConnect method completes a connection to an input pin.
 ms.assetid: 44c28c71-2c69-40ca-9bc4-c10394475a0f
 title: CBaseOutputPin.CompleteConnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

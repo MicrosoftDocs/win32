@@ -1,7 +1,7 @@
 ---
 Description: A set of string keys that are used with the IBindCtx::RegisterObjectParam method to specify a bind context.
 title: Bind Context String Keys
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: d89a0ee1-9a4b-48a4-8965-0d92f09743a6
 api_name: 

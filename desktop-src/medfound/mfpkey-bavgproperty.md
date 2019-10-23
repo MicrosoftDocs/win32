@@ -2,7 +2,7 @@
 Description: Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its average bit rate (specified by MFPKEY\_RAVG).
 ms.assetid: 7eabceb5-976e-4ebc-9042-9c203044634c
 title: MFPKEY_BAVG Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

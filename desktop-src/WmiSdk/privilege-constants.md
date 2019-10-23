@@ -3,7 +3,7 @@ Description: The strPrivilege parameter of the SWbemPrivilegeSet.AddAsString met
 ms.assetid: f9400597-81bb-44a8-80dc-aba0160aea26
 ms.tgt_platform: multiple
 title: Privilege Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

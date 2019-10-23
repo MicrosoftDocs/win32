@@ -2,7 +2,7 @@
 Description: Returns the number of members in the collection
 ms.assetid: d763d20b-d681-4c05-b497-c52dd23f0147
 title: Collection.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Copies the logical codec file or directory specified in the object 
 ms.assetid: 0e9097ed-a599-44f7-a654-8622c0618c27
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

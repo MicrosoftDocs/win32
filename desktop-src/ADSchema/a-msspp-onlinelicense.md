@@ -12,7 +12,7 @@ api_name:
 - ms-SPP-Online-License
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The SetVariableSize method specifies that samples do not have a fixed size.
 ms.assetid: 2a207cdb-f8e6-44aa-8bf6-868267aeb42d
 title: CMediaType.SetVariableSize method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

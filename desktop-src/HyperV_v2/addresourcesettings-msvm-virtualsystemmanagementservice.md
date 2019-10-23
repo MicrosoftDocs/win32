@@ -2,7 +2,7 @@
 Description: Adds resources to a virtual machine configuration.
 ms.assetid: e2878b60-dc8c-48fb-b163-29457a96d130
 title: AddResourceSettings method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

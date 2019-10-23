@@ -2,7 +2,7 @@
 Description: Contains a pointer to the stream descriptor for the media source.
 ms.assetid: 5acafbc1-823f-4b6d-8737-04b3a6a0cf87
 title: MF_TOPONODE_STREAM_DESCRIPTOR attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

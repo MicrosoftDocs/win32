@@ -3,7 +3,7 @@ Description: Represents a class modification event, which is a type of intrinsic
 ms.assetid: 77e8e025-d584-495d-98f8-71e7fb2c9698
 ms.tgt_platform: multiple
 title: '__ClassModificationEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

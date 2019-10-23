@@ -2,7 +2,7 @@
 Description: Occurs when the InkRecognizerContext Class has generated results after calling the BackgroundRecognizeWithAlternates Method method.
 ms.assetid: 5e86a4d5-c0a7-4283-81cc-ec3a26f74880
 title: InkRecognizerContext.RecognitionWithAlternates event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

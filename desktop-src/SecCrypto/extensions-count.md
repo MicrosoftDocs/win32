@@ -2,7 +2,7 @@
 Description: Retrieves the number of extensions in the collection.
 ms.assetid: 3922ff63-bd03-4d40-9146-33792ca42cfc
 title: Extensions.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

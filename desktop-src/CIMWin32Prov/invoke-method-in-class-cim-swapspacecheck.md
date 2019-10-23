@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_SwapSpaceCheck class evaluates a part
 ms.assetid: eee84cf1-dbd6-4557-b9ff-eb19c8042db8
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_SwapSpaceCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Windows Portable Devices supports the following image properties.
 ms.assetid: fb1707a7-16b0-4073-b21d-2ba2f4fd76f7
 title: Image Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Verifies whether the referenced rack can be contained by, or insert
 ms.assetid: 03276c6a-ca48-48bc-adbe-e53e02107abb
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Rack class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

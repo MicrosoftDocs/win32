@@ -12,7 +12,7 @@ api_name:
 - TSMF_SUPPORT_DATA_IN
 api_type:
 - NA
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

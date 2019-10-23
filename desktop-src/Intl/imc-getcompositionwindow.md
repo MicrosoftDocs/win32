@@ -2,7 +2,7 @@
 Description: Instructs an IME window to get the position of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: d2c60974-a602-4a42-8a45-870ee39df001
 title: IMC_GETCOMPOSITIONWINDOW command
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

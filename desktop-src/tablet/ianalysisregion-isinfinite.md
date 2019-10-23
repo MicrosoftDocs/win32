@@ -2,7 +2,7 @@
 Description: Retrieves a value indicating whether the IAnalysisRegion represents an infinite region.
 ms.assetid: b84ec9ec-42d0-4d03-b78b-433e55d04897
 title: IAnalysisRegion::IsInfinite method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

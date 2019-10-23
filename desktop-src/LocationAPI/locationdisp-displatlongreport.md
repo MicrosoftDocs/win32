@@ -2,7 +2,7 @@
 Description: Represents a latitude/longitude report.
 ms.assetid: efa8d805-8546-4bab-95a0-69e1edc28753
 title: LocationDisp.DispLatLongReport object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

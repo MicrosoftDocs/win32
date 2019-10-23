@@ -2,7 +2,7 @@
 Description: Represents the basic display features of a computer monitor.
 ms.assetid: 08405e7f-7824-4e44-9f37-da9bb5619cd6
 title: WmiMonitorBasicDisplayParams class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

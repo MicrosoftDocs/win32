@@ -3,7 +3,7 @@ Description: The CIM\_VideoSetting class associates the CIM\_VideoControllerReso
 ms.assetid: 1f6742ad-ab92-4723-b691-0c3e6c0d82fa
 ms.tgt_platform: multiple
 title: CIM_VideoSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Generates functions that create event source classes.
 ms.assetid: 002e5b2c-8853-4500-bf53-71f839da97f3
 title: eventSourceBuilderImplementations element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

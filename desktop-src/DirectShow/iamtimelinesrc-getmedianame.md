@@ -2,7 +2,7 @@
 Description: The GetMediaName method retrieves the name of the source file represented by this source object.
 ms.assetid: 6f468628-10e1-4746-9c3a-6dae9aa3f6ad
 title: IAMTimelineSrc::GetMediaName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

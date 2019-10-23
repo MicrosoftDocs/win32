@@ -2,7 +2,7 @@
 Description: A helper structure containing member type information.
 ms.assetid: 5580122d-c700-4632-8fcf-903519f2429e
 title: D3DXSHADER_TYPEINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

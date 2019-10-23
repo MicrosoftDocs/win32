@@ -2,7 +2,7 @@
 Description: Creates a font object indirectly for both a device and a font.
 ms.assetid: 480f3012-8495-47ca-a649-11ce53cee06c
 title: D3DXCreateFontIndirect function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

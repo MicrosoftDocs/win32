@@ -2,7 +2,7 @@
 Description: The SPFILENOTIFY\_STARTQUEUE notification is sent to the callback routine when the queue commitment process starts.
 ms.assetid: 682c2ce0-0c82-402c-a487-db5f2c377f3f
 title: SPFILENOTIFY_STARTQUEUE message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

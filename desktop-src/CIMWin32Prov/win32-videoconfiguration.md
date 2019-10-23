@@ -3,7 +3,7 @@ Description: The Win32\_VideoConfiguration class is not active. It will not retu
 ms.assetid: 8dd15e8a-ff9b-4e75-bae9-8c80548301ab
 ms.tgt_platform: multiple
 title: Win32_VideoConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

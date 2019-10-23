@@ -3,7 +3,7 @@ Description: Represents a device connected to a computer running on a Microsoft 
 ms.assetid: 58090e6a-8f13-4859-adb8-a7c6299d3efd
 ms.tgt_platform: multiple
 title: Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The EnableWINS &\#32; WMI class static method enables Windows Inter
 ms.assetid: ce0fb170-978f-4d70-bced-e530e43da719
 ms.tgt_platform: multiple
 title: EnableWINS method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

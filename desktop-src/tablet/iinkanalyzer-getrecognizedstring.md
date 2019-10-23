@@ -2,7 +2,7 @@
 Description: Retrieves the best-result string of the recognition operation for the entire context node tree in the IInkAnalyzer.
 ms.assetid: 4aa57f41-3122-47a9-a60d-4a229e23f63c
 title: IInkAnalyzer::GetRecognizedString method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

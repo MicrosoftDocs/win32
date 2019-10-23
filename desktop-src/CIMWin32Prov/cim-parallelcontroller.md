@@ -3,7 +3,7 @@ Description: The CIM\_ParallelController association relates to the capabilities
 ms.assetid: c05e79b6-f3a6-48cc-a831-b67e216f43eb
 ms.tgt_platform: multiple
 title: CIM_ParallelController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The IsArray property of the SWbemProperty object is a Boolean value
 ms.assetid: 24018444-d21c-49d6-8394-57304b439050
 ms.tgt_platform: multiple
 title: SWbemProperty.IsArray property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

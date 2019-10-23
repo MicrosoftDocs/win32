@@ -2,7 +2,7 @@
 Description: Installs the specified ActiveX object.
 ms.assetid: c5d460d8-0df4-437a-a59e-707bf868a339
 title: IeAxiSystemInstaller::InitializeSystemInstaller method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

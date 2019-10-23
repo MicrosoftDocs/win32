@@ -2,7 +2,7 @@
 Description: Defines values for use with the FXREVERB\_PARAMETERS structure.
 ms.assetid: 668f0f24-2f77-6d0d-33ac-93f269bb50f0
 title: FXREVERB Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

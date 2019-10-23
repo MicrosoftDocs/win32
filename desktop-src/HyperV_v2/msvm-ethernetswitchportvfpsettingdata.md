@@ -2,7 +2,7 @@
 Description: Use to set VFP as mandatory on a port.
 ms.assetid: efc54e06-26ff-4773-b4b4-a1c5e03d06cc
 title: Msvm_EthernetSwitchPortVfpSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

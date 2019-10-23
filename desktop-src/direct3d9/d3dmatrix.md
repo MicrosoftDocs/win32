@@ -2,7 +2,7 @@
 Description: Describes a matrix.
 ms.assetid: d6b98a32-e745-4724-b8ce-a81a3f5416f3
 title: D3DMATRIX
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

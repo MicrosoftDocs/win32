@@ -2,7 +2,7 @@
 Description: Transforms an array (x, y, 0, 0) by a given matrix.
 ms.assetid: a53f998a-f2a5-4e4b-bc1c-c1f46284d78b
 title: D3DXVec2TransformNormalArray function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

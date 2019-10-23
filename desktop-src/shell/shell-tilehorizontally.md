@@ -2,7 +2,7 @@
 Description: Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Tile Windows Horizontally.
 ms.assetid: b0e06766-1bd4-4744-81f3-139b018aa72c
 title: Shell.TileHorizontally method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

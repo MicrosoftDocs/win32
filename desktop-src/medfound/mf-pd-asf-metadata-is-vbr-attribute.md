@@ -2,7 +2,7 @@
 Description: Specifies whether an Advanced Systems Format (ASF) file uses variable bit rate (VBR) encoding.
 ms.assetid: 69888d66-8e96-4a20-b8c5-a01267ff3c05
 title: MF_PD_ASF_METADATA_IS_VBR attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

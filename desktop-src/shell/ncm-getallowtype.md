@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the network address types that a specified network address control accepts.
 title: NCM_GETALLOWTYPE message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 1B06463F-0CA6-4e8e-BD3B-917562A6A244
 api_name: 

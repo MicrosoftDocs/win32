@@ -2,7 +2,7 @@
 Description: Virtualization WMI classes related to virtual machine management.
 ms.assetid: CE1BC344-CA27-4744-ACD7-0623CC54E532
 title: Virtual system management classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

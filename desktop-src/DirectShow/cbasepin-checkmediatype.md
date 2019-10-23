@@ -2,7 +2,7 @@
 Description: The CheckMediaType method determines if the pin accepts a specific media type.
 ms.assetid: 6a138679-02b7-4ccc-8881-a0d496f84f93
 title: CBasePin.CheckMediaType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

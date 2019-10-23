@@ -2,7 +2,7 @@
 Description: Retrieves the response entity body as an IStream.
 ms.assetid: e12a9338-5e0c-4672-bbc6-31375b872e94
 title: IWinHttpRequest::ResponseStream property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

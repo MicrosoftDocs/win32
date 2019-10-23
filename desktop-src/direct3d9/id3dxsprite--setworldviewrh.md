@@ -2,7 +2,7 @@
 Description: Sets the right-handed world-view transform for a sprite. A call to this method is required before billboarding or sorting sprites.
 ms.assetid: 83654e9a-8991-49ec-ab28-cf9063126dbe
 title: ID3DXSprite::SetWorldViewRH method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

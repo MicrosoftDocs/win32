@@ -3,7 +3,7 @@ Description: The CIM\_Product class is a concrete class that represents a collec
 ms.assetid: beb20f61-de39-4221-8d29-4727104518d5
 ms.tgt_platform: multiple
 title: CIM_Product class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

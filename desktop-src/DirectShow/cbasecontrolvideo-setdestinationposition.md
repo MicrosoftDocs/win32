@@ -2,7 +2,7 @@
 Description: The SetDestinationPosition method sets the destination rectangle for the video.
 ms.assetid: 397e90ea-7535-4cac-9f47-7a93737b1e3a
 title: CBaseControlVideo.SetDestinationPosition method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

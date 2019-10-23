@@ -2,7 +2,7 @@
 Description: The ValidateSourceNames method validates source names in the timeline, using the media locator. Optionally, this method also updates any source object for which it locates a file.
 ms.assetid: 8f4b9ff0-f283-4bcb-83f4-92410cead7db
 title: IAMTimeline::ValidateSourceNames method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The AddPrinterDriver function installs a local or remote printer driver and associates the configuration, data, and driver files.
 ms.assetid: 0f762800-f5a5-40ea-8be1-7fd8bda23788
 title: AddPrinterDriver function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

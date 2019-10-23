@@ -2,7 +2,7 @@
 Description: The QueryStatus method retrieves the status of the NPP.
 ms.assetid: b035d495-a078-4436-9501-0a30fbfa7268
 title: IDelaydC::QueryStatus method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

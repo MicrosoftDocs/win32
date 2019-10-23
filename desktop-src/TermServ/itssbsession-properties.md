@@ -3,7 +3,7 @@ title: ITsSbSession Properties
 description: The ITsSbSession interface exposes the following properties.
 ms.assetid: 5C39E1E3-C0AD-4A55-A064-10E432557116
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

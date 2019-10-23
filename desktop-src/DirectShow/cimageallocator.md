@@ -2,7 +2,7 @@
 Description: The CImageAllocator class implements an allocator that manages GDI device-independent bitmaps (DIBs). This class derives from the CBaseAllocator class. It creates media samples that are implemented using the CImageSample class.
 ms.assetid: edda34a5-3916-4a41-9e2f-a19f12df0947
 title: CImageAllocator class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

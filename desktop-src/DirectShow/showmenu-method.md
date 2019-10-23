@@ -2,7 +2,7 @@
 Description: The ShowMenu method displays the specified menu on the screen.
 ms.assetid: 971c5bc3-a327-4840-8f3c-9a6573204ffb
 title: ShowMenu Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

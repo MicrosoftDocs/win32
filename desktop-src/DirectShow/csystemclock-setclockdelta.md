@@ -2,7 +2,7 @@
 Description: The SetClockDelta method adjusts the clock time. This method implements the IAMClockAdjust::SetClockDelta method.
 ms.assetid: 2bb9266f-3866-4b2e-92a8-cde31a501047
 title: CSystemClock.SetClockDelta method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

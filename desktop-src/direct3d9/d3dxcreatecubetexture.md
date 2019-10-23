@@ -2,7 +2,7 @@
 Description: Creates an empty cube texture, adjusting the calling parameters as needed.
 ms.assetid: 96cf3fc1-9efc-4b97-a082-2956386145c7
 title: D3DXCreateCubeTexture function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

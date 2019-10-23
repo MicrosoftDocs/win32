@@ -2,7 +2,7 @@
 Description: Locks the mesh buffer that contains the mesh attribute data, and returns a pointer to it.
 ms.assetid: 17a321b8-bfb4-4018-869f-6b09e0a811eb
 title: ID3DXMesh::LockAttributeBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

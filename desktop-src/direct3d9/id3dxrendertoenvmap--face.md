@@ -2,7 +2,7 @@
 Description: Initiate the drawing of each face of an environment map.
 ms.assetid: c100e138-c5a8-49bb-9a91-e7f70410470f
 title: ID3DXRenderToEnvMap::Face method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

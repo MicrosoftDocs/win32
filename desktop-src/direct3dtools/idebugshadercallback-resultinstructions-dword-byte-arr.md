@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IDebugShaderCallback::ResultInstructions method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 52440CE4-561C-4808-BE6A-B25A84BA5729
 api_name: 

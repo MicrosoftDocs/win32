@@ -2,7 +2,7 @@
 Description: Subscribes for service status change notifications using a callback function.
 ms.assetid: d67113eb-2141-444c-9f09-eaa772bcad8a
 title: SubscribeServiceChangeNotifications function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

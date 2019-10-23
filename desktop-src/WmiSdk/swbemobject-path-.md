@@ -3,7 +3,7 @@ Description: The Path\_ property of the SWbemObject object returns an SWbemObjec
 ms.assetid: 85a55159-5f10-49b5-bc37-39d7b4dfccd7
 ms.tgt_platform: multiple
 title: SWbemObject.Path_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

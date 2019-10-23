@@ -2,7 +2,7 @@
 Description: Subtype GUID for a media type.
 ms.assetid: 8e600943-92f1-4936-8c00-842fc7f4cb57
 title: MF_MT_SUBTYPE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

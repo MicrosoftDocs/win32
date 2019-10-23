@@ -2,7 +2,7 @@
 Description: The ReallyFree method releases the memory for the buffers.
 ms.assetid: c5c5d09f-b4f2-4a06-9309-3b2a8b8f8f1f
 title: CMemAllocator.ReallyFree method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_CacheMemory class defines the capabilities and management 
 ms.assetid: cdf35122-2057-45fa-818b-ce542d8e82b0
 ms.tgt_platform: multiple
 title: CIM_CacheMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

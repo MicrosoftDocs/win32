@@ -3,7 +3,7 @@ Description: The Win32\_DeviceChangeEvent abstract WMI class represents device c
 ms.assetid: 78155357-4231-4ded-980e-89feeb864ef2
 ms.tgt_platform: multiple
 title: Win32_DeviceChangeEvent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

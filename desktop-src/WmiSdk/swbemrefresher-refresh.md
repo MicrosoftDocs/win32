@@ -3,7 +3,7 @@ Description: The SWbemRefresher.Refresh method updates all the items that are co
 ms.assetid: 85a4777a-4be7-44f2-b7a6-e18b5e57f7af
 ms.tgt_platform: multiple
 title: SWbemRefresher.Refresh method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

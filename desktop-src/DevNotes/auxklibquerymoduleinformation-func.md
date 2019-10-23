@@ -2,7 +2,7 @@
 Description: Retrieves information about the currently loaded set of modules for the system.
 ms.assetid: d3dc57e3-2c42-46cb-9af0-5f06bff60ad9
 title: AuxKlibQueryModuleInformation function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

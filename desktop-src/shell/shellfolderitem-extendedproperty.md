@@ -2,7 +2,7 @@
 Description: Gets the value of a property from an item's property set. The property can be specified either by name or by the property set's format identifier (FMTID) and property identifier (PID).
 ms.assetid: ca787d7b-d95a-45b9-9627-fd505f99f868
 title: ShellFolderItem.ExtendedProperty method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

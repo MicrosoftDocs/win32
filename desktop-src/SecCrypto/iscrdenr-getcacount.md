@@ -2,7 +2,7 @@
 Description: Returns the number of certification authorities (CAs) willing to issue a certificate based on the specified certificate template.
 ms.assetid: 377121a8-3895-4308-a803-4a62580c6de0
 title: ISCrdEnr::getCACount method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

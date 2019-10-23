@@ -2,7 +2,7 @@
 Description: The GetTitleParentalLevels method retrieves the parental management levels for the specified title.
 ms.assetid: 076808d7-6cb6-4d81-b26d-c7945db298f2
 title: GetTitleParentalLevels Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

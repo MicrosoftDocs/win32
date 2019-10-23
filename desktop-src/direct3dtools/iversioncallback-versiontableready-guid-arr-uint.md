@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IVersionCallback::VersionTableReady method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 58D5E6B4-2CF8-4C13-9A62-93418D46CBCF
 api_name: 

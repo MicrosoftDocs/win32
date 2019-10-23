@@ -3,7 +3,7 @@ Description: The CIM\_NumericSensor class represents a numeric sensor that retur
 ms.assetid: 9be9ee28-24ee-49d1-871f-73b504c77518
 ms.tgt_platform: multiple
 title: CIM_NumericSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
 ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 title: QueryContextAttributes (CredSSP) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

@@ -2,7 +2,7 @@
 Description: Specifies whether the pipeline applies mark-in at this node.
 ms.assetid: 406145e8-e00e-460d-b282-85face457605
 title: MF_TOPONODE_MARKIN_HERE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

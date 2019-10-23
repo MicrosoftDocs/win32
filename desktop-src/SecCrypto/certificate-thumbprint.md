@@ -2,7 +2,7 @@
 Description: Retrieves a hexadecimal string that contains the SHA-1 hash of the certificate.
 ms.assetid: 6fd6f3ba-f7a9-43a3-a8da-8fd826649a92
 title: Certificate.Thumbprint property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

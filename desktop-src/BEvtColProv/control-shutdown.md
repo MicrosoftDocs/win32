@@ -3,7 +3,7 @@ Description: Stops the collector. If the collector is running as a service, stop
 ms.assetid: fab3e060-156f-46f5-98a2-d47a23d64552
 ms.tgt_platform: multiple
 title: Shutdown method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

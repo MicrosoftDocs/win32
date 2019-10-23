@@ -2,7 +2,7 @@
 Description: Retrieves the binary data for the specified TAGID.
 ms.assetid: b349f2af-2505-4efc-bd59-203f7666ce61
 title: SdbReadBinaryTag function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

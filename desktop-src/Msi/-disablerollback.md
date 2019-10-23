@@ -2,7 +2,7 @@
 Description: Setting the DISABLEROLLBACK property disables the rollback option for the current configuration. Set this property to 1 to prevent the installer from generating a rollback script and saving copies of deleted files during the installation.
 ms.assetid: c17d9663-af13-4e12-b496-64942f4379f5
 title: DISABLEROLLBACK property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Returns the shader version of the compiled shader.
 ms.assetid: 6cc6c654-e8d1-4225-b5d0-6bc2434a16bd
 title: D3DXGetShaderVersion function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

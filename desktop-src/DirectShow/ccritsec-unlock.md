@@ -2,7 +2,7 @@
 Description: The Unlock method unlocks the critical section object.
 ms.assetid: 61811e0e-df77-48e9-96d5-b7dff8c8db9b
 title: CCritSec.Unlock method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

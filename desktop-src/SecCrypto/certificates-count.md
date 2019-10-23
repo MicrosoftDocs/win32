@@ -2,7 +2,7 @@
 Description: Retrieves the number of Certificate objects in the collection.
 ms.assetid: 95931721-3b0c-4915-805f-039d1d5510fa
 title: Certificates.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

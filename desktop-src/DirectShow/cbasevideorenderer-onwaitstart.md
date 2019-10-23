@@ -2,7 +2,7 @@
 Description: The OnWaitStart method updates times spent waiting and not waiting.
 ms.assetid: 3f2e2bf2-f205-4b59-b969-cf8c2136437d
 title: CBaseVideoRenderer.OnWaitStart method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The Stop method stops the filter. This method implements the IMediaFilter::Stop method.
 ms.assetid: 68d77f9a-95a2-4a71-bbe1-28be76fbc538
 title: CBaseFilter.Stop method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

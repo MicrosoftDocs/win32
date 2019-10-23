@@ -2,7 +2,7 @@
 Description: Contains the MPEG-1 or MPEG-2 sequence header for a video media type.
 ms.assetid: 17b7f76c-404c-4aa9-9746-1488fee027f2
 title: MF_MT_MPEG_SEQUENCE_HEADER attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

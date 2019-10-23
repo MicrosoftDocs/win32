@@ -3,7 +3,7 @@ Description: Boolean value that indicates whether the day component in the CIM D
 ms.assetid: a713378b-3953-49d8-9c6a-44aa9337eae2
 ms.tgt_platform: multiple
 title: SWbemDateTime.DaySpecified property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

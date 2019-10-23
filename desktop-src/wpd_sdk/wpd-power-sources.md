@@ -2,7 +2,7 @@
 Description: The WPD\_POWER\_SOURCES enumeration type describes the power source that a device is using.
 ms.assetid: feebf213-052d-4315-84db-2109cab5f179
 title: WPD_POWER_SOURCES enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

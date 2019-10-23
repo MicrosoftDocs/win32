@@ -2,7 +2,7 @@
 Description: The Stop method stops the current capture.
 ms.assetid: 3aeeb29e-e174-46a2-82bb-44c466b8db98
 title: IStats::Stop method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

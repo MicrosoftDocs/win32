@@ -2,7 +2,7 @@
 Description: Retrieves the IAnalysisAlternate object at the specified index within the collection.
 ms.assetid: d927e2f1-ca21-415d-90ad-d1ded575fcb7
 title: IAnalysisAlternates::GetAnalysisAlternate method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

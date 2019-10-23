@@ -2,7 +2,7 @@
 Description: Retrieves the public key and certificate thumbprint for a public key protector.
 ms.assetid: 86fd0562-feb9-4b85-b27b-30270f864d8e
 title: GetKeyProtectorCertificate method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

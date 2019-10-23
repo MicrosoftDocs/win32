@@ -2,7 +2,7 @@
 Description: Sets an array of BOOL values.
 ms.assetid: d168d362-86b3-4db4-bc52-748a640ebc18
 title: ID3DXTextureShader::SetBoolArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

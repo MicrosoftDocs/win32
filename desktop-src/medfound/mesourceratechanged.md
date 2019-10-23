@@ -2,7 +2,7 @@
 Description: Raised by a media source when the playback rate changes. This event is sent after the IMFRateControl::SetRate method completes asynchronously.
 ms.assetid: 68a7fe64-e28a-4c20-830c-9402e1fb57f8
 title: MESourceRateChanged event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

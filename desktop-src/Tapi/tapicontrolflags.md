@@ -2,7 +2,7 @@
 Description: The TAPIControlFlags enum is used by a number of methods to indicate whether a given property is controlled automatically or manually.
 ms.assetid: 48259444-bf7b-4f0e-9068-2bdf89dde694
 title: TAPIControlFlags enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

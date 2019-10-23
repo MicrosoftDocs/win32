@@ -2,7 +2,7 @@
 Description: Sends a Unicode string to the debugger for display.
 ms.assetid: 26cf4750-8ca1-4a9a-8378-d65ed288b358
 title: OutputDebugStringWrapW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

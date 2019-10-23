@@ -3,7 +3,7 @@ title: IMsRdpClientShell Properties
 description: The IMsRdpClientShell interface exposes the following properties.
 ms.assetid: 4DB41746-93BF-44B3-B3C1-0CC543754DBF
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

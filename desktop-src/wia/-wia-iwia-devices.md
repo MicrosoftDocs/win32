@@ -2,7 +2,7 @@
 Description: Collection of DeviceInfo objects that represents all of the devices installed on the computer.
 ms.assetid: 2f124188-2b66-46cc-9b26-bfef3709a1af
 title: Wia.Devices property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

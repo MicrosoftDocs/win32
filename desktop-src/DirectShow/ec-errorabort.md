@@ -2,7 +2,7 @@
 Description: An operation was aborted because of an error.
 ms.assetid: b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5
 title: EC_ERRORABORT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Acquires a handle to preexisting credentials of a security principal that is using Digest.
 ms.assetid: 79f49240-e394-4584-8db7-ef721672ba6b
 title: AcquireCredentialsHandle (Digest) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

@@ -3,7 +3,7 @@ Description: The Win32\_PhysicalMemoryLocation association WMI class relates an 
 ms.assetid: 40252428-77ca-4dfb-8048-c05096a114d8
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemoryLocation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

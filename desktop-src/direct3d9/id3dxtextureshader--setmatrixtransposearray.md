@@ -2,7 +2,7 @@
 Description: Sets an array of transposed matrices.
 ms.assetid: 100288f2-44f0-4e75-bffb-78732c50a55c
 title: ID3DXTextureShader::SetMatrixTransposeArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

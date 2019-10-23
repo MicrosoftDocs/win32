@@ -2,7 +2,7 @@
 Description: Computes a hash to use during certificate authentication.
 ms.assetid: f4a12464-8ad6-4bf9-8b6e-49bdf5332b66
 title: SslComputeClientAuthHash function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Scale the current matrix about the world coordinate origin.
 ms.assetid: 6c4ef625-736e-41a0-8a79-4d71e8685754
 title: ID3DXMATRIXStack::Scale method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

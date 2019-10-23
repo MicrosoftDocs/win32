@@ -3,7 +3,7 @@ Description: The Win32\_PointingDevice WMI class represents an input device used
 ms.assetid: ed81abe3-3d8f-48aa-ab64-9e6c87e44f64
 ms.tgt_platform: multiple
 title: Win32_PointingDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

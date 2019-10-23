@@ -2,7 +2,7 @@
 Description: Indicates whether the buffer contains a texture.
 ms.assetid: 2c64a155-4b38-45fa-a62e-02e0da2fbeef
 title: ID3DXPRTBuffer::IsTexture method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

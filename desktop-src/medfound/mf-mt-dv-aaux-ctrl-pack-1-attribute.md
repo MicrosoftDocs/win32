@@ -2,7 +2,7 @@
 Description: Audio auxiliary (AAUX) source control pack for the second audio block in a digital video (DV) media type.
 ms.assetid: e9c17940-beb7-4034-95a3-983aaca0c905
 title: MF_MT_DV_AAUX_CTRL_PACK_1 attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

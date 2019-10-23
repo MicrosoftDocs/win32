@@ -2,7 +2,7 @@
 Description: Assigns a value to a parameter in an effect file.
 ms.assetid: b2081357-ee9c-4cb9-97ae-fd09206f0d74
 title: EffectParamString
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

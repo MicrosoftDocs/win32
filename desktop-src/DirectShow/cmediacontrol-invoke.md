@@ -2,7 +2,7 @@
 Description: Provides access to properties and methods exposed by an object.
 ms.assetid: 05006f1e-24ff-4ed2-8291-2ba48495fec0
 title: CMediaControl.Invoke method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

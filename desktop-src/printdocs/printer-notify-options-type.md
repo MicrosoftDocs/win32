@@ -2,7 +2,7 @@
 Description: The PRINTER\_NOTIFY\_OPTIONS\_TYPE structure specifies the set of printer or job information fields to be monitored by a printer change notification object.A call to the FindFirstPrinterChangeNotification function specifies a PRINTER\_NOTIFY\_OPTIONS structure, which contains an array of PRINTER\_NOTIFY\_OPTIONS\_TYPE structures.
 ms.assetid: 1009f892-d3a8-4887-99b4-a35d1268eeb4
 title: PRINTER_NOTIFY_OPTIONS_TYPE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

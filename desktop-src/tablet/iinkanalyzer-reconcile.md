@@ -2,7 +2,7 @@
 Description: Applies the results of a background ink analysis operation to the context node tree for the portions of the tree that have not been modified by the application since the call to IInkAnalyzer::BackgroundAnalyze Method.
 ms.assetid: 60e15d4f-6e81-48b9-b7f3-97d2de5c0c1c
 title: IInkAnalyzer::Reconcile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

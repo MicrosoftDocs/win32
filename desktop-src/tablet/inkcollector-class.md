@@ -2,7 +2,7 @@
 Description: Represents the object that is used to capture ink from available tablet devices.
 ms.assetid: 189f430e-9d00-4e29-bb8c-8ac195896793
 title: InkCollector class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

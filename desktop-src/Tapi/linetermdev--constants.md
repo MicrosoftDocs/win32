@@ -2,7 +2,7 @@
 Description: The LINETERMDEV\_ bit-flag constants describe different types of terminal devices.
 ms.assetid: 3444d022-8225-4956-89a1-721b4662d557
 title: LINETERMDEV_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

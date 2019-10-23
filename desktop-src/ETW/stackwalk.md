@@ -2,7 +2,7 @@
 Description: This class is the parent class for stack tracing events.
 ms.assetid: 3c0ff01b-fb37-4931-9484-ff8048abca66
 title: StackWalk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

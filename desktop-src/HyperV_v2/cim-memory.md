@@ -2,7 +2,7 @@
 Description: Represents the capabilities and management of memory-related logical devices.
 ms.assetid: 802c1c0e-7eab-4a17-9a29-6502ece6cb24
 title: CIM_Memory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

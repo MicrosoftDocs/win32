@@ -2,7 +2,7 @@
 Description: The component code of the component in question.
 ms.assetid: 0370660f-b809-4b18-b52d-857605e59e12
 title: Component.ComponentCode property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

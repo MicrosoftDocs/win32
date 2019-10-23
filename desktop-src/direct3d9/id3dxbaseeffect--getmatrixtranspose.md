@@ -2,7 +2,7 @@
 Description: Gets a transposed matrix.
 ms.assetid: 255c1e20-0a60-49eb-abaa-66a67322ce73
 title: ID3DXBaseEffect::GetMatrixTranspose method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

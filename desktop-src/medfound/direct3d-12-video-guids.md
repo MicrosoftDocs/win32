@@ -2,7 +2,7 @@
 Description: The following GUIDs support Direct3D 12 Video APIs.
 ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: Direct3D 12 Video GUIDs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

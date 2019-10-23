@@ -3,7 +3,7 @@ Description: The CIM\_DirectoryContainsFile class represents an association betw
 ms.assetid: e05ec86e-c3cf-4589-9815-83850e0c84ed
 ms.tgt_platform: multiple
 title: CIM_DirectoryContainsFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

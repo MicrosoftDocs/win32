@@ -2,7 +2,7 @@
 Description: These flags specify the behavior of the media locator.
 ms.assetid: 60afb2e8-cdd1-493e-8fc8-6fa581720b8d
 title: File Name Validation Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

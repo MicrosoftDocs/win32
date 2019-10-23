@@ -2,7 +2,7 @@
 Description: Reloads color settings from registry.
 ms.assetid: 1F2EE08A-4193-4F0C-BE4F-0551FA71CFA8
 title: FRefreshStyle function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

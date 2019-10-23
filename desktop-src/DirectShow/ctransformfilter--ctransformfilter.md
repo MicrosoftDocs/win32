@@ -2,7 +2,7 @@
 Description: Destructor method.
 ms.assetid: 17f4dacb-a262-44de-9bef-55da87e07a63
 title: CTransformFilter.~CTransformFilter destructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

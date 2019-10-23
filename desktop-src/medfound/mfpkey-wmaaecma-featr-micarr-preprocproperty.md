@@ -2,7 +2,7 @@
 Description: Specifies whether the Voice Capture DSP performs microphone array preprocessing.
 ms.assetid: 0f197165-e6e5-456b-9615-1edc8ada7bb5
 title: MFPKEY_WMAAECMA_FEATR_MICARR_PREPROC Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

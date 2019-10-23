@@ -2,7 +2,7 @@
 Description: Boolean value that specifies whether to trace this lock.
 ms.assetid: 23417410-cfdc-426e-a662-7d6580b43a28
 title: CCritSec::m_fTrace member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

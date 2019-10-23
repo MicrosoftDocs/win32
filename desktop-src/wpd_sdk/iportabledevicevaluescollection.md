@@ -2,7 +2,7 @@
 Description: The IPortableDeviceValuesCollection interface holds a collection of zero-based indexed IPortableDeviceValues interfaces.
 ms.assetid: 8bce9d27-f240-41ec-acf4-fefccdd95e9f
 title: IPortableDeviceValuesCollection interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

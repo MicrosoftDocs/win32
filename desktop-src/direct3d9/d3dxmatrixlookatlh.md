@@ -2,7 +2,7 @@
 Description: Builds a left-handed, look-at matrix.
 ms.assetid: bf34d3d8-725d-4fc1-b4c8-6c98f9dac329
 title: D3DXMatrixLookAtLH function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

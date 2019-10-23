@@ -2,7 +2,7 @@
 Description: The GetMaxIdealImageSize method retrieves the maximum ideal image size.
 ms.assetid: 881c1c3d-7505-44a2-964d-3255e2072f6b
 title: CBaseControlWindow.GetMaxIdealImageSize method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

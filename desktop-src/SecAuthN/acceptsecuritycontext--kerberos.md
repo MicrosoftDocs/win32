@@ -2,7 +2,7 @@
 Description: Enables the server component of a transport application to establish a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) between the server and a remote client that is using Kerberos.
 ms.assetid: 838eaaa7-6fce-4ed1-bd69-6e76a804c67b
 title: AcceptSecurityContext (Kerberos) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

@@ -2,7 +2,7 @@
 Description: Destructor method.
 ms.assetid: b3256b3f-20c5-4611-abbe-d0c5ee470922
 title: CBaseDispatch.~CBaseDispatch destructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

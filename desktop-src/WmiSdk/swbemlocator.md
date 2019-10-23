@@ -3,7 +3,7 @@ Description: You can use the methods of the SWbemLocator object to obtain an SWb
 ms.assetid: 51ea2c01-04e8-4b1c-bc82-ac96ba8b6eee
 ms.tgt_platform: multiple
 title: SWbemLocator object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

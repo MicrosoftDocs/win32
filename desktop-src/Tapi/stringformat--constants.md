@@ -2,7 +2,7 @@
 Description: The STRINGFORMAT\_ constants describe different string formats.
 ms.assetid: ca67c9d1-d3e0-4a55-9be7-6760edea96ee
 title: STRINGFORMAT_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

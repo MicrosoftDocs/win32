@@ -2,7 +2,7 @@
 Description: The LINEAGENTSTATUS\_ constants list the update status of the members of the LINEAGENTSTATUS structure for an agent.
 ms.assetid: 068a2b24-a430-4cf5-b70d-5574e981a899
 title: LINEAGENTSTATUS_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

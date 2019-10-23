@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalComponent class represents a low-level or basic co
 ms.assetid: 079874cd-5717-4662-a192-0ced16270bbd
 ms.tgt_platform: multiple
 title: CIM_PhysicalComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

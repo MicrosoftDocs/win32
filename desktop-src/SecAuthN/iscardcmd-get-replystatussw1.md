@@ -2,7 +2,7 @@
 Description: Retrieves the reply APDUs SW1 status byte.
 ms.assetid: 5f74d0c9-cf82-4694-bca6-a2655e717a1f
 title: ISCardCmd::get_ReplyStatusSW1 method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

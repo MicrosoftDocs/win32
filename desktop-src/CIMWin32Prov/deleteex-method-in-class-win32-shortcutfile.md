@@ -3,7 +3,7 @@ Description: Deletes the logical shortcut file (or directory) specified in the o
 ms.assetid: 278cd856-bb8d-4494-b43c-f0858366e136
 ms.tgt_platform: multiple
 title: DeleteEx method of the Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

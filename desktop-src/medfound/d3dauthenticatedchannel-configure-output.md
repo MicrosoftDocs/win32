@@ -2,7 +2,7 @@
 Description: Contains the response to a call to the IDirect3DAuthenticatedChannel9::Configure method.
 ms.assetid: 6f33d3f7-a883-4aca-a058-b656d745f2b1
 title: D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

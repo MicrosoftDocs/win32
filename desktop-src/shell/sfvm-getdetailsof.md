@@ -2,7 +2,7 @@
 Description: SFVM\_GETDETAILSOF may be altered or unavailable.
 ms.assetid: 46a81a7b-527c-4d41-8d25-ce65fd87416e
 title: SFVM_GETDETAILSOF message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

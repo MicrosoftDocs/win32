@@ -2,7 +2,7 @@
 Description: The Manufacturer property is the name of the manufacturer for the product. It is advertised as a product property.
 ms.assetid: 99143330-0556-40a9-811e-5790f7a34a96
 title: Manufacturer property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Retrieves the minor version number of the template.
 ms.assetid: 3fc51d43-9113-4b4b-88ab-27cf6e5c4fa0
 title: Template.MinorVersion property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -2,7 +2,7 @@
 Description: Links to documentation for the IAzTask interoperability wrapper methods and properties.
 ms.assetid: 15691d42-f1bd-4bd1-9a01-e482a2c74e20
 title: Microsoft.Interop.Security.AzRoles.IAzTask interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

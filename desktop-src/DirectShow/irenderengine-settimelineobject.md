@@ -2,7 +2,7 @@
 Description: The SetTimelineObject method sets the timeline for the render engine to use.
 ms.assetid: 9b60b148-9768-43ba-a986-a96838c4d2bb
 title: IRenderEngine::SetTimelineObject method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

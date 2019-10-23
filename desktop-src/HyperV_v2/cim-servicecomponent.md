@@ -2,7 +2,7 @@
 Description: Represents an association in which a service is a component of a parent service, which together, form a higher-level service.
 ms.assetid: c629d59d-d9d3-4019-a378-cd1d4d31a5d9
 title: CIM_ServiceComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

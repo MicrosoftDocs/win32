@@ -2,7 +2,7 @@
 Description: Sets DDE share information. This is usually done after editing.
 ms.assetid: 002c73ce-7b35-4e8e-bb7e-0e1393b97ccc
 title: NDdeShareSetInfo function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

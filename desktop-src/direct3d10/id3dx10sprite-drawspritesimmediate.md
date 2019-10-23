@@ -2,7 +2,7 @@
 Description: Draw an array of sprites.
 ms.assetid: 3fcc7705-0d59-450e-b137-c9cb7ec6b1ea
 title: ID3DX10Sprite::DrawSpritesImmediate method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

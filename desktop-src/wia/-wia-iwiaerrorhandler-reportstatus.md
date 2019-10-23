@@ -2,7 +2,7 @@
 Description: Handles status and error messages during image data transfers and displays them to the user.
 ms.assetid: 23e85c63-80b9-4510-854d-289c8d23be2d
 title: IWiaErrorHandler::ReportStatus method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

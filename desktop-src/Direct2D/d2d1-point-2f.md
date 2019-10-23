@@ -4,7 +4,7 @@ description: Represents an x-coordinate and y-coordinate pair in two-dimensional
 ms.assetid: b317ae75-d738-4e1a-bcd1-adf3e95b197e
 keywords:
 - D2D1_POINT_2F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

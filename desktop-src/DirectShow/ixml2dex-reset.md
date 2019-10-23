@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: f51972fe-e095-4ce2-93b6-841ed24c6ce7
 title: IXml2Dex::Reset method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

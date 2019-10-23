@@ -2,7 +2,7 @@
 Description: Specifies the quality level for encoding.
 ms.assetid: 2c7f3836-2392-47c6-9a56-d5a9b52560ff
 title: AVEncCommonQuality property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

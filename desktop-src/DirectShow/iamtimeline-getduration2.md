@@ -2,7 +2,7 @@
 Description: The GetDuration2 method retrieves the duration of the timeline. This method is equivalent to IAMTimeline::GetDuration, but takes a parameter of type double.
 ms.assetid: 49f5eed3-7fab-4f08-b65c-300349b197cb
 title: IAMTimeline::GetDuration2 method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

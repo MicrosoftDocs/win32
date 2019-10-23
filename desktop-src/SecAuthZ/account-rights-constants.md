@@ -2,7 +2,7 @@
 Description: Account rights determine the type of logon that a user account can perform. An administrator assigns account rights to user and group accounts. Each users account rights include those granted to the user and to the groups to which the user belongs.
 ms.assetid: 42139d33-2d56-4d29-998f-5512bb795d44
 title: Account Rights Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

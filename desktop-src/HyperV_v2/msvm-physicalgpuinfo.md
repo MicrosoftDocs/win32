@@ -2,7 +2,7 @@
 Description: Contains information about a RemoteFX physical graphics processing unit (GPU).
 ms.assetid: 86B47AAE-DBFF-43EF-88C6-44836D6C3AFA
 title: Msvm_PhysicalGPUInfo class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

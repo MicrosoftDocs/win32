@@ -3,7 +3,7 @@ Description: The Win32\_ServerFeature class represents the features installed on
 ms.assetid: fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca
 ms.tgt_platform: multiple
 title: Win32_ServerFeature class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

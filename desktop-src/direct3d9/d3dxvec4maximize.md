@@ -2,7 +2,7 @@
 Description: Returns a 4D vector that is made up of the largest components of two 4D vectors.
 ms.assetid: a08ceba0-938c-42af-8f32-b1fd8c12d926
 title: D3DXVec4Maximize function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

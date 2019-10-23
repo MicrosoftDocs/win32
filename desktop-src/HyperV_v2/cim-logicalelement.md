@@ -2,7 +2,7 @@
 Description: CIM\_LogicalElement is a base class for all components of a System that represent abstract system components, such as files, processes, and logical devices.
 ms.assetid: d08a9552-7b89-4fab-870f-be770f0381a5
 title: CIM_LogicalElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

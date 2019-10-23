@@ -2,7 +2,7 @@
 Description: Creates a kernel-side representation of the Microsoft DirectDraw object.
 ms.assetid: e380f948-35a0-4cf0-9b69-ab2bd4f9a161
 title: NtGdiDdCreateDirectDrawObject function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies the PnP-X Compatible Identifier of the service. Devices may have more than one compatible ID.
 ms.assetid: 25f3d06e-460c-4338-b05d-a6d2c10c2a12
 title: PnPXCompatibleId element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

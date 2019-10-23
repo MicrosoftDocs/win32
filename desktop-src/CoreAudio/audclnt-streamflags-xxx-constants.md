@@ -2,7 +2,7 @@
 Description: Specifies characteristics that a client can assign to an audio stream during the initialization of the stream.
 ms.assetid: 7b2267c3-79f5-4ada-a7ce-78dd514f8487
 title: AUDCLNT_STREAMFLAGS_XXX Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Signals the beginning of any still (PGC, Cell, or VOBU).
 ms.assetid: cf2b08c9-22fa-4559-9289-787eaec46c6c
 title: EC_DVD_STILL_ON
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

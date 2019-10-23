@@ -2,7 +2,7 @@
 Description: The SMS\_MESSAGE\_TYPES enumeration type describes the content type of a short message service (SMS) message.
 ms.assetid: 882886a6-ecce-443f-a7e9-2e4e367ad804
 title: SMS_MESSAGE_TYPES enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

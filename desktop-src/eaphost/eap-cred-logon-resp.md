@@ -5,7 +5,7 @@ ms.assetid: 1244A40F-6999-4053-97C4-1C4FB107B2F5
 keywords:
 - EAP_CRED_LOGON_RESP
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ keywords:
 - Stop method Legacy Windows Environment Features
 - Stop method Legacy Windows Environment Features , IResultsViewer interface
 - IResultsViewer interface Legacy Windows Environment Features , Stop method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

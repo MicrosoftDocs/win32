@@ -2,7 +2,7 @@
 Description: Get translation information for a specific key frame in the animation set.
 ms.assetid: 757af408-8a9c-4294-9343-91f52d4cc1ab
 title: ID3DXKeyframedAnimationSet::GetTranslationKey method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

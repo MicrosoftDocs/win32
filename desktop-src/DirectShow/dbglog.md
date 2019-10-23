@@ -2,7 +2,7 @@
 Description: The DbgLog macro sends a string to the debug output location, if logging is enabled for the specified type and level. This macro is ignored in retail builds.
 ms.assetid: 10e95d63-14f2-4fdb-a1b8-c5bf654f9819
 title: DbgLog macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

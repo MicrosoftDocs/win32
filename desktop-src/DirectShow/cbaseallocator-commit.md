@@ -2,7 +2,7 @@
 Description: The Commit method allocates the memory for the buffers. This method implements the IMemAllocator::Commit method.
 ms.assetid: e8c36276-0229-428f-b030-978651ab7534
 title: CBaseAllocator.Commit method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

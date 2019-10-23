@@ -2,7 +2,7 @@
 Description: Retrieves an OID object from the collection. This is the default property.
 ms.assetid: af0de567-e520-411d-850d-fbdbcb2ace69
 title: OIDs.Item property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

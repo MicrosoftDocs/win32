@@ -2,7 +2,7 @@
 Description: Access Management Services
 ms.assetid: 1d43b789-64bd-4420-adb6-ffe798d0f5b9
 title: Access Management Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

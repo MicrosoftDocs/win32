@@ -2,7 +2,7 @@
 Description: The CountPrefixBits method calculates the number of zero bits at the start of a specified bit field.
 ms.assetid: 36fc5c5f-dc64-4588-9130-1b0740d03be1
 title: CImageDisplay.CountPrefixBits method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

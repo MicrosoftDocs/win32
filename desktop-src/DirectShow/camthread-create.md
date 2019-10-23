@@ -2,7 +2,7 @@
 Description: The Create method creates the thread.
 ms.assetid: 453972eb-7cf6-43c6-820e-c1992675260e
 title: CAMThread.Create method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

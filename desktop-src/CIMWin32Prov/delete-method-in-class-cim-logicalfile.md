@@ -3,7 +3,7 @@ Description: The Delete method deletes the logical file (or directory) specified
 ms.assetid: 04d43ac5-b7e6-409f-999a-577232539c15
 ms.tgt_platform: multiple
 title: Delete method of the CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

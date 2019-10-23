@@ -2,7 +2,7 @@
 Description: The SetDefaultTransitionB method sets the default transition. This method is equivalent to IAMTimeline::SetDefaultTransition, but takes a BSTR value, rather than a pointer to a GUID.
 ms.assetid: 1998fd31-2ab8-477e-89ee-93ca92dc10ec
 title: IAMTimeline::SetDefaultTransitionB method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

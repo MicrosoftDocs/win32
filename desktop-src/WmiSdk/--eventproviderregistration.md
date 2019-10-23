@@ -3,7 +3,7 @@ Description: Used to register event providers with Windows Management Instrument
 ms.assetid: d87f61a8-5549-4f33-ba67-31b5d72b5282
 ms.tgt_platform: multiple
 title: '__EventProviderRegistration class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The CRenderedInputPin class is a base class for implementing an input pin on a renderer.
 ms.assetid: 644dc6ef-eefa-4dfa-a27e-cab690b6e1db
 title: CRenderedInputPin class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: e8e9138a-6c39-41de-a7f8-d9e9c4fe5ab6
 title: CCritSec.CCritSec constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

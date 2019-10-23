@@ -2,7 +2,7 @@
 Description: Windows Sockets (Winsock) error codes returned by the WSAGetLastError function.
 ms.assetid: 50b924f3-2c88-443b-8a90-4293fe5c3048
 title: Windows Sockets Error Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

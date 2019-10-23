@@ -2,7 +2,7 @@
 Description: The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControl::Notify method.
 ms.assetid: 76124321-0d2d-4fee-a08a-4db23078e8df
 title: CBaseInputPin.Notify method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

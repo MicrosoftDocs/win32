@@ -2,7 +2,7 @@
 Description: Returns a string that describes the status code.
 ms.assetid: d3007f3e-46e1-4ab6-8ce3-c4e38f87ce61
 title: IWiaErrorHandler::GetStatusDescription method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

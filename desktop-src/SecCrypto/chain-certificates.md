@@ -2,7 +2,7 @@
 Description: The Certificates property retrieves a Certificates collection that represents the certificates in the chain. This is the default property.
 ms.assetid: c3e6953f-35e5-469a-a1aa-e3a4ebe21ac3
 title: IChain2::Certificates property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

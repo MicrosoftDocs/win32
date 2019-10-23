@@ -2,7 +2,7 @@
 Description: The get\_FullScreenMode method retrieves the current full-screen mode.
 ms.assetid: 351af361-5cfd-4e82-bd8a-92f629bd270d
 title: CBaseControlWindow.get_FullScreenMode method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

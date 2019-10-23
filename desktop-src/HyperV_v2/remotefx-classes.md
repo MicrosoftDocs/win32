@@ -2,7 +2,7 @@
 Description: The Remote Desktop virtualization WMI classes are used to manage Remote Desktop and RemoteFX resources and virtual machines.
 ms.assetid: 933C8DCF-061D-41CB-9A21-CDDCDFE64307
 title: Remote Desktop classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

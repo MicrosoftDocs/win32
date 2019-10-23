@@ -2,7 +2,7 @@
 Description: Windows Portable Devices supports the following network association properties.
 ms.assetid: 5e1b3e8d-9620-4b68-b7ef-1642404ed6ed
 title: Network Association Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

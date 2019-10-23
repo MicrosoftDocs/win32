@@ -2,7 +2,7 @@
 Description: Used by the Mesh template to define a mesh's faces. Each element of the nFaceVertexIndices array references a mesh vertex used to build the face.
 ms.assetid: 38c40ebe-eca2-4dd9-95b8-b396225e3050
 title: MeshFace
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

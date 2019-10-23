@@ -2,7 +2,7 @@
 Description: This property sends a command to the device to search for an absolute track number (ATN). The UVC device driver supports this property.
 ms.assetid: 209e0aa3-d7a3-4b5c-ae5a-5063a3804a9d
 title: KSPROPERTY_EXTXPORT_ATN_SEARCH
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

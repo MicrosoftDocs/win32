@@ -3,7 +3,7 @@ Description: Attempts to place the service in the resumed state.
 ms.assetid: df582402-d932-4132-a1ad-257b2993bbf6
 ms.tgt_platform: multiple
 title: ResumeService method of the Win32_BaseService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

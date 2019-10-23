@@ -2,7 +2,7 @@
 Description: The m\_pMediaType member variable is a pointer to the current media type.
 ms.assetid: 51a33fc4-1496-43ed-9b68-842f4c2cf0a1
 title: CDrawImage::m_pMediaType member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

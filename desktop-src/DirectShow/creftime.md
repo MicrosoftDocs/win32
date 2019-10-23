@@ -2,7 +2,7 @@
 Description: The CRefTime class is a helper class for managing reference times.
 ms.assetid: 4be0fc23-77fb-4c45-a899-c1dfc6ee89b9
 title: CRefTime class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

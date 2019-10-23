@@ -2,7 +2,7 @@
 Description: A value specifying the size, in bytes, of the spatial audio metadata object type that the decoder will output.
 ms.assetid: C133693D-A8D5-4520-B561-57BF11074257
 title: MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_LENGTH attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

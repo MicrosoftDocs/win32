@@ -2,7 +2,7 @@
 Description: The GetWindowHeight method retrieves the current height of the window.
 ms.assetid: f569ad8e-7773-4efb-897b-1c21aa851124
 title: CBaseWindow.GetWindowHeight method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

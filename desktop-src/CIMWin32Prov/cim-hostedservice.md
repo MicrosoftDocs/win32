@@ -3,7 +3,7 @@ Description: The CIM\_HostedService class represents an association between a se
 ms.assetid: 23bb385d-dd22-4126-aea9-d2f22527223e
 ms.tgt_platform: multiple
 title: CIM_HostedService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

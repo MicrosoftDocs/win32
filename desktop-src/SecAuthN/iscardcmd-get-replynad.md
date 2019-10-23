@@ -2,7 +2,7 @@
 Description: Retrieves the node address (Nad) used by the smart card in the reply message.
 ms.assetid: bf4f281c-d378-4abd-8f2e-e23c2f4e87a4
 title: ISCardCmd::get_ReplyNad method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

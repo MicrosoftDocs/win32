@@ -2,7 +2,7 @@
 Description: System Administration
 ms.assetid: 51a48716-53ef-493e-8974-c429bde9b6ff
 title: System Administration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

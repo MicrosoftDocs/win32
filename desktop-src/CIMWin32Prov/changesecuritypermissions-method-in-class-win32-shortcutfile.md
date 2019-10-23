@@ -3,7 +3,7 @@ Description: Changes the security permissions for the logical shortcut file spec
 ms.assetid: abd5aec8-4684-4b8d-8fdf-d3a7a5eec103
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

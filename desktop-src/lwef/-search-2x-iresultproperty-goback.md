@@ -6,7 +6,7 @@ keywords:
 - GoBack method Legacy Windows Environment Features
 - GoBack method Legacy Windows Environment Features , IResultProperty interface
 - IResultProperty interface Legacy Windows Environment Features , GoBack method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

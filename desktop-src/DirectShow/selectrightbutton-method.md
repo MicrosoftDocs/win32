@@ -2,7 +2,7 @@
 Description: The SelectRightButton method selects the right directional button from the displayed menu.
 ms.assetid: 03e6034a-8db1-4724-9923-f19c4e835db7
 title: SelectRightButton Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

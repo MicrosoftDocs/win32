@@ -3,7 +3,7 @@ Description: Boolean value that indicates whether the Universal Coordinated Time
 ms.assetid: 9cb04351-294b-48ba-8d1c-2f28cb9ce463
 ms.tgt_platform: multiple
 title: SWbemDateTime.UTCSpecified property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

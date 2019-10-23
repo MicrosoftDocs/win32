@@ -3,7 +3,7 @@ Description: The Associators\_ method of the SWbemObject object returns a collec
 ms.assetid: 79f01853-c649-4cbe-b2fa-cff38fb4b733
 ms.tgt_platform: multiple
 title: SWbemObject.Associators_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

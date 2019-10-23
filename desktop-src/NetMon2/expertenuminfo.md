@@ -2,7 +2,7 @@
 Description: The EXPERTENUMINFO structure provides information about the expert.
 ms.assetid: f745997b-d753-4c4d-88b6-6978f5eaa91c
 title: EXPERTENUMINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

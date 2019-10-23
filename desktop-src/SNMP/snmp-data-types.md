@@ -2,7 +2,7 @@
 title: SNMP Data Types
 description: The SNMP API defines the following data types.
 ms.assetid: 147c24e2-cc7b-422c-822b-a2892d1ab044
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

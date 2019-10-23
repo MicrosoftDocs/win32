@@ -2,7 +2,7 @@
 Description: Specifies the previous characteristics of the media source.
 ms.assetid: 9779f350-60d5-4129-bada-0c4a58f93e6a
 title: MF_EVENT_SOURCE_CHARACTERISTICS_OLD attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

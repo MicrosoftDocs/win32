@@ -2,7 +2,7 @@
 Description: Sets the (u, v) texture coordinates of each texel.
 ms.assetid: b1f8f5d6-568f-4868-87c9-9d6b1034d898
 title: ID3DXTextureGutterHelper::SetTexelMap method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

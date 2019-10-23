@@ -2,7 +2,7 @@
 Description: The ANDEXP structure contains an array of pattern matches used to evaluate frame data.
 ms.assetid: e5f4c030-eb2b-4cc9-9032-9ad4701b6503
 title: ANDEXP structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

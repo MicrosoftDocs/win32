@@ -2,7 +2,7 @@
 Description: The LINEOPENOPTION\_ constants list the available options for opening a line.
 ms.assetid: 361ae90c-a2cf-4107-a2da-80f561a82c56
 title: LINEOPENOPTION_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

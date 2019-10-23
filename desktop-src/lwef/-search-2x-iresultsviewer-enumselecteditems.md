@@ -6,7 +6,7 @@ keywords:
 - EnumSelectedItems property Legacy Windows Environment Features
 - EnumSelectedItems property Legacy Windows Environment Features , IResultsViewer interface
 - IResultsViewer interface Legacy Windows Environment Features , EnumSelectedItems property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

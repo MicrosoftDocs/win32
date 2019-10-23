@@ -2,7 +2,7 @@
 Description: Checks whether a builder should be associated with a particular property.
 ms.assetid: 8fab2dc2-3549-4559-b704-6783d929274e
 title: IProvidePropertyBuilder::MapPropertyToBuilder method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

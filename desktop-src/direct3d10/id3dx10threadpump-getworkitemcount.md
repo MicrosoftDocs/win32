@@ -2,7 +2,7 @@
 Description: Get the number of work items currently in the thread pump.
 ms.assetid: 0a3d5a7e-6fa5-4580-8912-c142eb99cef5
 title: ID3DX10ThreadPump::GetWorkItemCount method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

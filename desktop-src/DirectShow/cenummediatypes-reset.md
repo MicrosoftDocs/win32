@@ -2,7 +2,7 @@
 Description: The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumMediaTypes::Reset method.
 ms.assetid: 3a5388d5-eaab-47af-b45e-c75199a22f02
 title: CEnumMediaTypes.Reset method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

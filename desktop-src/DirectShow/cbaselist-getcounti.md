@@ -2,7 +2,7 @@
 Description: The GetCountI method retrieves the number of items in the list.
 ms.assetid: 1c6f6a3b-8604-44e4-a5fc-b29fa6869173
 title: CBaseList.GetCountI method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

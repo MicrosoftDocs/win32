@@ -2,7 +2,7 @@
 Description: Identifies the set of access rules for the protected storage data.
 ms.assetid: 0eee34c2-b832-41b3-80f5-b03fdddf75cc
 title: PST_ACCESSRULESET structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

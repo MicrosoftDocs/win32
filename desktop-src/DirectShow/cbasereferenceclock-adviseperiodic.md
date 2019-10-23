@@ -2,7 +2,7 @@
 Description: The AdvisePeriodic method creates a periodic advise request. This method implements the IReferenceClock::AdvisePeriodic method.
 ms.assetid: ddaf0861-df11-4008-8e9c-a0c53929cd3f
 title: CBaseReferenceClock.AdvisePeriodic method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

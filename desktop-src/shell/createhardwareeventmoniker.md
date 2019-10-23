@@ -1,7 +1,7 @@
 ---
 Description: Creates a moniker representing a hardware component and its associated event handler. AutoPlay uses this function to allow applications to use AutoPlay events.
 title: CreateHardwareEventMoniker function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
