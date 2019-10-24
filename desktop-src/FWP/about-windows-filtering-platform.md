@@ -12,11 +12,7 @@ Windows Filtering Platform (WFP) is a network traffic processing platform design
 
 The WFP components are as follows.
 
-WFP Component
-
-Description
-
-Filter Engine
+**Filter Engine**
 
 The core multi-layer filtering infrastructure, hosted in both kernel-mode and user-mode, that replaces the multiple filtering modules in the Windows XP and Windows Server 2003 networking subsystem.
 
@@ -25,7 +21,7 @@ The core multi-layer filtering infrastructure, hosted in both kernel-mode and us
 -   Returns "Permit" or "Block" actions to the shim that invoked it for enforcement.
 -   Provides arbitration between different policy sources. For example, determines priority when an application is configured to secure any network traffic related to it, but the local firewall is configured to prevent application secured traffic.<br/>
 
-Base Filtering Engine (BFE)
+**Base Filtering Engine (BFE)**
 
 A service that controls the operation of the Windows Filtering Platform. It performs the following tasks.
 
@@ -34,7 +30,7 @@ A service that controls the operation of the Windows Filtering Platform. It perf
 -   Enforces the security model for accepting configuration in the platform. For example, a local administrator can add filters but other users can only view them.<br/>
 -   Plumbs configuration settings to other modules in the system. For example, IPsec negotiation polices go to IKE/AuthIP keying modules, filters go to the filter engine.<br/>
 
-Shims
+**Shims**
 
 Kernel-mode components that reside between the Network Stack and the filter engine. Shims make the filtering decision by classifying against the filter engine. Following is a list of available shims.
 
@@ -45,7 +41,7 @@ Kernel-mode components that reside between the Network Stack and the filter engi
 -   Discard shim.
 -   Stream shim.
 
-Callouts
+**Callouts**
 
 Set of functions exposed by a driver and used for specialized filtering. Besides the basic actions of "Permit" and "Block", callouts can modify and secure inbound and outbound network traffic. See the [Windows Filtering Platform Callout Drivers](https://go.microsoft.com/fwlink/p/?linkid=95958) topic in the Windows Driver Kit (WDK) documentation for more information on callouts. WFP provides built-in callouts that accomplish the following tasks.<br/>
 
@@ -57,7 +53,7 @@ Set of functions exposed by a driver and used for specialized filtering. Besides
 
 <br/> The filter engine allows third-party callouts to register at each of its kernel-mode layers.<br/>
 
-Application Programming Interface
+**Application Programming Interface**
 
 A set of data types and functions available to the developers to build and manage network filtering applications. These data types and functions are grouped into multiple [API sets](api-sets.md).
 
