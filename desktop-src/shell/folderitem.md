@@ -1,7 +1,7 @@
 ---
 Description: Represents an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the item.
 title: FolderItem object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

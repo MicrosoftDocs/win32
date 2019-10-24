@@ -2,7 +2,7 @@
 Description: Starts the first encoding pass.
 ms.assetid: a062be3f-7806-4f1c-b98e-2c9ed31f010c
 title: AVEncCommonPassStart property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

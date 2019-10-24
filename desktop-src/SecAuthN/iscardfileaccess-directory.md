@@ -2,7 +2,7 @@
 Description: The Directory method retrieves a list of files of the specified type from the current directory.
 ms.assetid: 0ae89811-7534-497b-af9f-ae37a48bc3e5
 title: ISCardFileAccess::Directory method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

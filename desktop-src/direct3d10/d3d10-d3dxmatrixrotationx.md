@@ -2,7 +2,7 @@
 Description: Builds a matrix that rotates around the x-axis.
 ms.assetid: 895079bf-b807-4bfd-9222-a7c1251d7d1e
 title: D3DXMatrixRotationX function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

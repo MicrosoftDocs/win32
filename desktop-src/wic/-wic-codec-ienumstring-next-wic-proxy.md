@@ -2,7 +2,7 @@
 Description: Windows Imaging Component (WIC) proxy function for IEnumString::Next.
 ms.assetid: a3f6a32b-3043-4bea-a70b-0b4507b4e3a1
 title: IEnumString_Next_WIC_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

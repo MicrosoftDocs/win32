@@ -2,7 +2,7 @@
 Description: The TAPI LINE\_GENERATE message is sent to notify the application that the current digit or tone generation has terminated.
 ms.assetid: 375823c5-22c2-4010-bfb4-5b8b46141c72
 title: LINE_GENERATE message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

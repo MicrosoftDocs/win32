@@ -2,7 +2,7 @@
 Description: The CBaseList method implements an abtract list. The CGenericList class template, which derives from CBaseList, provides type checking and a simpler interface than the CBaseList class.
 ms.assetid: 372ee6f7-be0c-469f-92b3-673970ebd6da
 title: CBaseList class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

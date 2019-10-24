@@ -2,7 +2,7 @@
 Description: The FileSize method of the Installer object uses Win32 API calls to return the size of the file specified in Path.
 ms.assetid: d7119e5e-9315-4b20-a904-bc1104f3a4e4
 title: Installer.FileSize method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

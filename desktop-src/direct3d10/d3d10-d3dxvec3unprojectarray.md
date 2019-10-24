@@ -2,7 +2,7 @@
 Description: Projects an array (x, y, z, 0) from screen space into object space.
 ms.assetid: 02db5b32-7fa3-4cde-bd63-0d8b3dfc31e7
 title: D3DXVec3UnprojectArray function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

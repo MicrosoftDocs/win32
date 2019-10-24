@@ -2,7 +2,7 @@
 Description: The CreateAudioMediaType function initializes a media type from a WAVEFORMATEX structure.
 ms.assetid: 2571b7b4-86e9-443f-a99d-9ba48f469522
 title: CreateAudioMediaType function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

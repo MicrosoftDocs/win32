@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_MagnetoOpticalDrive class sets
 ms.assetid: 78f89dd5-79ce-43cc-b878-9d943386eb74
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_MagnetoOpticalDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

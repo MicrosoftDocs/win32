@@ -2,7 +2,7 @@
 Description: Occurs when the mouse pointer hovers over the InkPicture control.
 ms.assetid: 95a03833-529e-4fca-b8df-ae7edefc8e5e
 title: InkPicture.MouseHover event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Describes an individual vertex element in a vertex declaration.
 ms.assetid: efe3e98b-938d-4d4c-b790-2b8c8aab0ded
 title: VertexElement
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

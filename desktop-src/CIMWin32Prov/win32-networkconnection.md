@@ -3,7 +3,7 @@ Description: Represents an active network connection in a Windows-based environm
 ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
 ms.tgt_platform: multiple
 title: Win32_NetworkConnection class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

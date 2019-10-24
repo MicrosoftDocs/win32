@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IObjectTableCallback::GetSupportedColumns method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 148AB80D-9833-4B57-9F34-CEDFFF8E905A
 api_name: 

@@ -2,7 +2,7 @@
 Description: The Write method writes a specified number from bytes into the stream object starting at the current seek pointer.
 ms.assetid: 0019cd10-8f8a-4190-bae4-e134e7b76882
 title: IByteBuffer::Write method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

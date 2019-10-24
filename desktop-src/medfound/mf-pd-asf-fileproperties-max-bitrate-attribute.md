@@ -2,7 +2,7 @@
 Description: Specifies the maximum instantaneous bit rate, in bits per second, for an Advanced Systems Format (ASF) file.
 ms.assetid: 07e94448-13a9-4ea5-9ac7-a1e35668e0a0
 title: MF_PD_ASF_FILEPROPERTIES_MAX_BITRATE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

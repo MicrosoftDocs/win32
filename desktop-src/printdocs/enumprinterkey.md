@@ -2,7 +2,7 @@
 Description: The EnumPrinterKey function enumerates the subkeys of a specified key for a specified printer.
 ms.assetid: 721b1d23-a594-4439-b8f9-9b11be5fe874
 title: EnumPrinterKey function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

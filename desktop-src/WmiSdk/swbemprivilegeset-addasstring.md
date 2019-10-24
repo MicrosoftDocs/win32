@@ -3,7 +3,7 @@ Description: You can use the AddAsString method of the SWbemPrivilegeSet object 
 ms.assetid: 729ed4e3-2c5c-4bb4-acc6-cf9ad0d5eaf1
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.AddAsString method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

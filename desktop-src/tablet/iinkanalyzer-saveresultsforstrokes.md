@@ -2,7 +2,7 @@
 Description: Saves analysis results for the specified strokes associated with an IInkAnalyzer.
 ms.assetid: 6ff29b95-6c76-4e3d-b4c0-5e7cb6a9ddf9
 title: IInkAnalyzer::SaveResultsForStrokes method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

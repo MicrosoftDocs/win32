@@ -2,7 +2,7 @@
 Description: The TAPI LINE\_CALLHUBCLOSE message is sent when a call hub has been closed.
 ms.assetid: 738dcb20-99b5-44fe-8ad9-b14b8d977f53
 title: LINE_CALLHUBCLOSE message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

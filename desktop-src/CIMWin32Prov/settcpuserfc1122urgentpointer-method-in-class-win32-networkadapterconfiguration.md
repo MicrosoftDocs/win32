@@ -3,7 +3,7 @@ Description: The SetTcpUseRFC1122UrgentPointer WMI class static method is used t
 ms.assetid: f8d07690-2723-4bc3-b15f-a24d575456a7
 ms.tgt_platform: multiple
 title: SetTcpUseRFC1122UrgentPointer method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

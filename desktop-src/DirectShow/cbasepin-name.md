@@ -2,7 +2,7 @@
 Description: The Name method retrieves the pin identifier.
 ms.assetid: 1bc2498f-3f2d-42c7-96cb-9b91bbfb08f5
 title: CBasePin.Name method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

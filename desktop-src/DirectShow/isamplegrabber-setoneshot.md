@@ -2,7 +2,7 @@
 Description: The SetOneShot method specifies whether the Sample Grabber filter halts after the filter receives a sample.
 ms.assetid: 7e3a3e8c-1834-425b-9657-279ab4451a2b
 title: ISampleGrabber::SetOneShot method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

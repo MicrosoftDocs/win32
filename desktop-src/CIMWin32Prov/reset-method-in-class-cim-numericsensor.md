@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_NumericSensor class requests a reset o
 ms.assetid: 58cd847f-6954-449b-8457-13870195be28
 ms.tgt_platform: multiple
 title: Reset method of the CIM_NumericSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

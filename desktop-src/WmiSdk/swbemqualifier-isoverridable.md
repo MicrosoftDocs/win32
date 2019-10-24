@@ -3,7 +3,7 @@ Description: The IsOverridable property of the SWbemQualifier object is a Boolea
 ms.assetid: 3cd82407-6664-446e-bc84-68cc9a69fd6b
 ms.tgt_platform: multiple
 title: SWbemQualifier.IsOverridable property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

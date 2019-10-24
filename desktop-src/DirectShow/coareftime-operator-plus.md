@@ -2,7 +2,7 @@
 Description: This operator adds two reference times.
 ms.assetid: 4dfc087a-ec4f-4a8a-8bd4-4da9e1699bcd
 title: COARefTime.operator+ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

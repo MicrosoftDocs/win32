@@ -3,7 +3,7 @@ title: Remote Desktop ActiveX control enumerations
 description: The following enumerations are used with the Remote Desktop ActiveX control.
 ms.assetid: C4EBA996-B3C7-492B-A6B7-96A3EC1847B2
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

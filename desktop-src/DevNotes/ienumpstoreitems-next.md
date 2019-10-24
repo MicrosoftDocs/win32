@@ -2,7 +2,7 @@
 Description: Gets the next specified number of data item names in the enumeration sequence.
 ms.assetid: 6f30bf64-bd63-43d7-ab7e-f64e372c723b
 title: IEnumPStoreItems::Next method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

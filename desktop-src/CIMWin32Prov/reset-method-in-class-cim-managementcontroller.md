@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_ManagementController class requests a 
 ms.assetid: 45f36ce0-6b36-4660-b841-d359e9a56ad0
 ms.tgt_platform: multiple
 title: Reset method of the CIM_ManagementController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

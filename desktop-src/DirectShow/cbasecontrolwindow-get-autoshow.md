@@ -2,7 +2,7 @@
 Description: The get\_AutoShow method retrieves the current AutoShow state flag.
 ms.assetid: b27651d1-3ac5-4a52-9549-b63bacda5dc8
 title: CBaseControlWindow.get_AutoShow method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

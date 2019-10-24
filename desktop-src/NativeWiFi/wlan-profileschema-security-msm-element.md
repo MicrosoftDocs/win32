@@ -2,7 +2,7 @@
 Description: Contains various security settings.
 ms.assetid: 1d912fb1-8fb4-4761-8991-5a50ffb0399e
 title: security (MSM) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

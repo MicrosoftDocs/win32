@@ -2,7 +2,7 @@
 Description: Specifies an XSD file to process for contract information.
 ms.assetid: 6fe40e77-d23f-4ae9-a4d6-1f567a0fffe7
 title: xsd element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

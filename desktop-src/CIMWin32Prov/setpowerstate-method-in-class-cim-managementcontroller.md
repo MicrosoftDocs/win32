@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_ManagementController class set
 ms.assetid: 64e4a5c3-346d-411e-8ecc-966903f9307b
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_ManagementController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

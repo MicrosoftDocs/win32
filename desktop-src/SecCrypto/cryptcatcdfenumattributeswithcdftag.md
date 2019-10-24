@@ -2,7 +2,7 @@
 Description: Enumerates the attributes of member files in the CatalogFiles section of a catalog definition file (CDF).
 ms.assetid: 056a5186-a37c-4255-aaa5-4c6e60f5392e
 title: CryptCATCDFEnumAttributesWithCDFTag function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

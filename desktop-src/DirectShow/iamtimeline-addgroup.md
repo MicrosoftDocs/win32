@@ -2,7 +2,7 @@
 Description: The AddGroup method adds a group to the timeline.
 ms.assetid: c7fc3b59-5852-4a3c-b9bf-f87e659819b5
 title: IAMTimeline::AddGroup method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

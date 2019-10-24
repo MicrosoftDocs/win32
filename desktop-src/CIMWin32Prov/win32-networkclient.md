@@ -3,7 +3,7 @@ Description: The Win32\_NetworkClient WMI class represents a network client on a
 ms.assetid: f0cc2cef-be23-42f4-a592-2c292aa5085f
 ms.tgt_platform: multiple
 title: Win32_NetworkClient class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_SessionProcess association WMI class represents an assoc
 ms.assetid: 19d4ecf9-27b5-4a0b-9c76-7d10679aaf5e
 ms.tgt_platform: multiple
 title: Win32_SessionProcess class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

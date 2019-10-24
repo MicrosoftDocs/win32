@@ -2,7 +2,7 @@
 Description: Destroy an existing virtual system snapshot. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.
 ms.assetid: 69f60d0e-50ef-4a38-ad4b-88534b7fb3f8
 title: DestroySnapshot method of the CIM_VirtualSystemSnapshotService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

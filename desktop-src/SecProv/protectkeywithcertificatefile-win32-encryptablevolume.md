@@ -2,7 +2,7 @@
 Description: Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.
 ms.assetid: cc716524-f976-4d75-84f3-693e277030e6
 title: ProtectKeyWithCertificateFile method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

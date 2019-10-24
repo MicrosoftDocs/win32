@@ -3,7 +3,7 @@ Description: The CIM\_CollectionOfMSEs object allows the grouping of CIM\_Manage
 ms.assetid: 9448a7a1-defc-4bac-9ce6-29ec2406d573
 ms.tgt_platform: multiple
 title: CIM_CollectionOfMSEs class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

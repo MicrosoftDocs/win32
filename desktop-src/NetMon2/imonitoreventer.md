@@ -2,7 +2,7 @@
 Description: The IMonitorEventer interface provides methods for submitting events and allocating and freeing monitor resources.
 ms.assetid: d59a8b42-cce3-410b-a62e-97d66d058d90
 title: IMonitorEventer interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

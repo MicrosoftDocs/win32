@@ -2,7 +2,7 @@
 Description: A callback function that must be implemented by a user to set a FVF code.
 ms.assetid: 701a4333-a71e-4d84-a06c-1c86312ee4ff
 title: ID3DXEffectStateManager::SetFVF method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

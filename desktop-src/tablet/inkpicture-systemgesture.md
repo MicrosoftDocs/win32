@@ -2,7 +2,7 @@
 Description: Occurs when a system gesture is recognized.
 ms.assetid: 36e2ac5a-dc91-47c2-a8e5-e555437c0a5d
 title: InkPicture.SystemGesture event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

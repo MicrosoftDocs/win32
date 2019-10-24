@@ -3,7 +3,7 @@ Description: The CIM\_PointingDevice class represents a device that points to re
 ms.assetid: b093134a-534a-4680-8fce-d96baff26139
 ms.tgt_platform: multiple
 title: CIM_PointingDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

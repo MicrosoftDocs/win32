@@ -2,7 +2,7 @@
 Description: Raised by the Media Session when the IMFMediaSession::ClearTopologies method completes asynchronously.
 ms.assetid: 2017d13b-8dc2-48f9-a21e-7b826e174edf
 title: MESessionTopologiesCleared event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

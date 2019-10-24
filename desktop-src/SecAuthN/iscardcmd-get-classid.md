@@ -2,7 +2,7 @@
 Description: Retrieves the class identifier from the application protocol data unit (APDU).
 ms.assetid: 03ea997d-7698-43c7-aa9a-dfc1bac6fcdd
 title: ISCardCmd::get_ClassId method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

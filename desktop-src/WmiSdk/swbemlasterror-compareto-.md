@@ -3,7 +3,7 @@ Description: The CompareTo\_ method of the SWbemLastError object compares two SW
 ms.assetid: 541510e4-ef8d-4436-966f-19c5df422281
 ms.tgt_platform: multiple
 title: SWbemLastError.CompareTo_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

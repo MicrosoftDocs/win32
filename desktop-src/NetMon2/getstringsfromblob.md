@@ -2,7 +2,7 @@
 Description: Uses sequential calls to retrieve all of the strings within specified ranges.
 ms.assetid: 4e819975-84a5-4b73-9a19-792d3607da9c
 title: GetStringsFromBlob function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

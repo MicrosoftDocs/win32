@@ -2,7 +2,7 @@
 Description: Represents a relationship between a controller and a logical device that is managed by the controller.
 ms.assetid: 5a938fa4-3b91-42ad-beee-12ed0ce6df9a
 title: CIM_ControlledBy class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

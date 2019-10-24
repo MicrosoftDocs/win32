@@ -2,7 +2,7 @@
 Description: Releases a partial lock so that other exclusive or partial lock acquirers can now enter.
 ms.assetid: 95a3e0d1-4e8b-4e30-b4fd-709b9db465de
 title: CShareLockNH::PartialUnlock method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

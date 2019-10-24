@@ -11,7 +11,7 @@ api_name:
 api_type:
 - Schema
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ROBOTS: INDEX,FOLLOW

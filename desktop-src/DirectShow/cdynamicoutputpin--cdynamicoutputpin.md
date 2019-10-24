@@ -2,7 +2,7 @@
 Description: Destructor method.
 ms.assetid: 122c2506-a38a-4d24-a372-da210801df88
 title: CDynamicOutputPin.~CDynamicOutputPin destructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

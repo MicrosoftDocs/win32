@@ -2,7 +2,7 @@
 Description: Event Handler Prototype functions are used for all functions that handle Winlogon notification events.
 ms.assetid: 99b91e80-5e4e-4119-89aa-c0a80fce69e3
 title: Event Handler Function Prototype callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

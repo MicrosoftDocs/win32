@@ -2,7 +2,7 @@
 Description: The BasicConstraints object exposes the following properties.
 ms.assetid: FDEDBDA7-2668-4F18-97E4-226931433B12
 title: BasicConstraints Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

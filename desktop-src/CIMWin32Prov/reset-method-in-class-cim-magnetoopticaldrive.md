@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_MagnetoOpticalDrive class requests a r
 ms.assetid: a2a9d58a-2c20-4edc-8700-eebc7e5826f9
 ms.tgt_platform: multiple
 title: Reset method of the CIM_MagnetoOpticalDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

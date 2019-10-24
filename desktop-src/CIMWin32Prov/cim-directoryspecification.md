@@ -3,7 +3,7 @@ Description: The CIM\_DirectorySpecification class captures the major directory 
 ms.assetid: faeab356-e470-477b-97d2-1a19ce1d8d21
 ms.tgt_platform: multiple
 title: CIM_DirectorySpecification class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: This class is the parent class for advanced local procedure call events. The following syntax is simplified from MOF code.
 ms.assetid: 5380fada-50e7-4eb2-8549-6d738a56d2cd
 title: ALPC class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

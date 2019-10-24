@@ -2,7 +2,7 @@
 Description: Specifies whether that the caller will allocate the textures used for output.
 ms.assetid: CAB41B22-AD96-4932-9686-66474CB26C38
 title: MF_XVP_CALLER_ALLOCATES_OUTPUT attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_RemoveFileAction class takes a partic
 ms.assetid: 7fc33654-a51b-41cf-a5b4-ef08fd6e40ac
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_RemoveFileAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

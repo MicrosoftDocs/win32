@@ -2,7 +2,7 @@
 Description: Destructor method.
 ms.assetid: a5594dd2-b29b-49d6-b4de-5074ba3d0ce3
 title: CGenericList.~CGenericList destructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

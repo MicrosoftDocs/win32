@@ -2,7 +2,7 @@
 Description: Represents the File History configuration of the user under which the FhConfigMgr object is created. All configuration operations are performed by calling the methods of the IFhConfigMgr interface.
 ms.assetid: CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788
 title: FhConfigMgr class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

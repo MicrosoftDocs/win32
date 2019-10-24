@@ -2,7 +2,7 @@
 Description: The OnRenderEnd method performs smoothing for cases where the rendering time varies due to interruptions.
 ms.assetid: 561b3306-0c41-4f04-b73a-78e7b4038e86
 title: CBaseVideoRenderer.OnRenderEnd method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

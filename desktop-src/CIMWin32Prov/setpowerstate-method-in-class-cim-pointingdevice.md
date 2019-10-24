@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_PointingDevice class sets the 
 ms.assetid: 5ecb3f3a-76b2-4170-8583-b9a53ee23cdf
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PointingDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

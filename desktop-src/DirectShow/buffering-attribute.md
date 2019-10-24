@@ -2,7 +2,7 @@
 Description: The buffering attribute specifies the number of frames to render in advance during preview.
 ms.assetid: c00fd24d-5c3c-44cf-93dd-9750f614d2af
 title: buffering Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

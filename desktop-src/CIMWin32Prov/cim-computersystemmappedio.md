@@ -3,7 +3,7 @@ Description: The CIM\_ComputerSystemMappedIO class represents an association bet
 ms.assetid: 5df9db36-67ad-4a94-a7db-150b58977af1
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemMappedIO class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

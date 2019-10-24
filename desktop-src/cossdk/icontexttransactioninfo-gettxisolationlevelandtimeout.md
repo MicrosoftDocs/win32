@@ -2,7 +2,7 @@
 Description: Retrieves the isolation level and timeout value of a transaction that is hosted in the root transaction context.
 ms.assetid: bb3ff03e-e69e-4a50-af36-4938eb4323df
 title: IContextTransactionInfo::GetTxIsolationLevelAndTimeout method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

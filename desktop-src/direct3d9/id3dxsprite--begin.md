@@ -2,7 +2,7 @@
 Description: Prepares a device for drawing sprites.
 ms.assetid: ec9eb069-0a41-4dd5-bbd5-5a31133550b6
 title: ID3DXSprite::Begin method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

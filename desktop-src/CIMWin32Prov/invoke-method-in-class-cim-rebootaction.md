@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_RebootAction class takes a particular
 ms.assetid: 27b6571e-94fe-423e-89ab-5ba2bc632882
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_RebootAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

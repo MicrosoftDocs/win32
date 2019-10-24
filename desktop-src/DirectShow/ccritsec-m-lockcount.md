@@ -2,7 +2,7 @@
 Description: Number of outstanding locks on this object.
 ms.assetid: 27506c1d-6a9a-4410-80fb-6d4f2fd2f824
 title: CCritSec::m_lockCount member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

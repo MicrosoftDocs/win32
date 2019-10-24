@@ -2,7 +2,7 @@
 Description: Puts a break after the preceding word.
 ms.assetid: C8622067-D8CE-4099-8B9F-941720F4706B
 title: IWordSink::PutBreak method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

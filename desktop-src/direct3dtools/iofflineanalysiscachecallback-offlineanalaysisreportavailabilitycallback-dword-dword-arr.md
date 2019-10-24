@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IOfflineAnalysisCacheCallback::OfflineAnalaysisReportAvailabilityCallback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 2061EB62-4CBD-4668-BFCD-6E43014BB406
 api_name: 

@@ -3,7 +3,7 @@ Description: The Win32\_QuickFixEngineering&\#8194;WMI class represents a small 
 ms.assetid: 84aed428-7620-4f7a-941f-f9d683020d8a
 ms.tgt_platform: multiple
 title: Win32_QuickFixEngineering class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

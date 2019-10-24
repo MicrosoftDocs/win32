@@ -1,7 +1,7 @@
 ---
 ms.assetid: d477fe3e-4498-450b-93b7-ce74ae9ed005
 title: OPM_GET_ACP_AND_CGMSA_SIGNALING
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

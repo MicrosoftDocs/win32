@@ -3,7 +3,7 @@ Description: The CIM\_ComputerSystemDMA class represents an association between 
 ms.assetid: 7d5bce4b-973f-4452-b403-a2196bd4017a
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemDMA class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

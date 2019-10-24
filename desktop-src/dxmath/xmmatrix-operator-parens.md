@@ -2,7 +2,7 @@
 Description: Accesses specific matrix elements referenced by row and column from the current instance of XMMATRIX.
 ms.assetid: 917d44b0-4625-412f-b3ad-5955856689d5
 title: XMMATRIX operator () operators
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2018
 topic_type:
 - APIRef

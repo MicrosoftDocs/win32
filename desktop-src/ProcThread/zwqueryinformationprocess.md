@@ -2,7 +2,7 @@
 Description: Retrieves information about the specified process.
 ms.assetid: c36c023f-7f9a-4ba5-a41f-f2f755a24eb6
 title: ZwQueryInformationProcess function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

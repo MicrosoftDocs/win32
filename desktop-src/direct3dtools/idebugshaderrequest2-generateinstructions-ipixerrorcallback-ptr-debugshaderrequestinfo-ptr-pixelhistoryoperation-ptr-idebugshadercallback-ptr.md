@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IDebugShaderRequest2::GenerateInstructions method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 50685D38-AA85-43D7-9199-12B3776708C2
 api_name: 

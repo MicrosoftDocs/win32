@@ -2,7 +2,7 @@
 Description: Retrieves the current matrix at the top of the stack.
 ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
 title: ID3DXMATRIXStack::GetTop method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

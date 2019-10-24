@@ -2,7 +2,7 @@
 Description: Pauses the object. Implements the IMediaFilter::Pause method.
 ms.assetid: 4f4cbe7e-3004-4731-864f-737c2f51afff
 title: CBaseMediaFilter.Pause method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

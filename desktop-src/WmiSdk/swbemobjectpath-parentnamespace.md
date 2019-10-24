@@ -3,7 +3,7 @@ Description: The ParentNamespace property of the SWbemObjectPath object contains
 ms.assetid: 506cf172-2c8b-48fe-bcdd-572bdca754a8
 ms.tgt_platform: multiple
 title: SWbemObjectPath.ParentNamespace property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

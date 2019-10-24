@@ -2,7 +2,7 @@
 Description: The AdminProperties should be authored into the Property Table.
 ms.assetid: 91dd58cf-6c8c-4d20-a829-c43301a30d7f
 title: AdminProperties property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Contains the name of a wireless LAN profile.
 ms.assetid: b8977183-7b5d-4c79-9065-ade85ed45716
 title: name (WLANProfile) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

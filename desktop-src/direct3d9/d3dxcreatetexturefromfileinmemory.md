@@ -2,7 +2,7 @@
 Description: Creates a texture from a file in memory.
 ms.assetid: 3ea811be-7db8-4436-b138-f0102389bb4d
 title: D3DXCreateTextureFromFileInMemory function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

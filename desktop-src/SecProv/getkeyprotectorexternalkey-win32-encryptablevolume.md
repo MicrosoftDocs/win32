@@ -2,7 +2,7 @@
 Description: Retrieves the external key for a given key protector.
 ms.assetid: d2b5e7d4-97c1-4d7f-a155-b5cdca2b552e
 title: GetKeyProtectorExternalKey method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

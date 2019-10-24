@@ -2,7 +2,7 @@
 Description: Contains a wireless LAN policy.
 ms.assetid: 16ffb682-f88b-4ca1-a902-d2db5e347975
 title: WLANPolicy Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

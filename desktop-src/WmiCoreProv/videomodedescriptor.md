@@ -2,7 +2,7 @@
 Description: Contains mode descriptor elements for the MonitorSourceModes array in the WmiMonitorListedSupportedSourceModes class.
 ms.assetid: 6d6c846d-caec-41a8-8a88-1c1e14bc0473
 title: VideoModeDescriptor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

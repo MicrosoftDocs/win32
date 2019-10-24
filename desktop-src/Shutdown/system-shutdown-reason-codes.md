@@ -2,7 +2,7 @@
 Description: The shutdown reason codes are used by the ExitWindowsEx and InitiateSystemShutdownEx functions in the dwReason parameter. A maximum of MAX\_NUM\_REASONS reason codes will be processed by the system. MAX\_NUM\_REASONS is defined in reason.h.
 ms.assetid: db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf
 title: System Shutdown Reason Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

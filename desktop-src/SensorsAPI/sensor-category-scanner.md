@@ -2,7 +2,7 @@
 Description: The SENSOR\_CATEGORY\_SCANNER category contains sensors that provide information that is obtained by scanning.
 ms.assetid: 98a772c9-2a21-489f-ad8d-3b772b7ff892
 title: SENSOR_CATEGORY_SCANNER
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

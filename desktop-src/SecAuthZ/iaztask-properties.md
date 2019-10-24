@@ -2,7 +2,7 @@
 Description: The IAzTask interface exposes the following properties.
 ms.assetid: D2B9DF3E-D04B-4217-96E4-78CB06C3B43E
 title: IAzTask Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Create an effect from memory.
 ms.assetid: 6903a695-bb87-45fe-9913-25beeaf17233
 title: D3DX10CreateEffectFromMemory function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

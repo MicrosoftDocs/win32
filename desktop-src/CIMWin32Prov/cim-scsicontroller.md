@@ -3,7 +3,7 @@ Description: The CIM\_SCSIController class represents the capabilities and manag
 ms.assetid: a9b3dee4-1e42-4ac3-8c67-1da46f8acb43
 ms.tgt_platform: multiple
 title: CIM_SCSIController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

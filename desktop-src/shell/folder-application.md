@@ -2,7 +2,7 @@
 Description: Contains the folder's Application object.
 ms.assetid: 1dba83eb-1af6-42d9-b2c9-ab7767888efe
 title: Folder.Application property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

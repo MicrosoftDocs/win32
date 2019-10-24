@@ -2,7 +2,7 @@
 Description: Occurs when the size of the current selection has changed, for example through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 4e7f461f-2909-40ab-98d8-b763d489eb62
 title: InkPicture.SelectionResized event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

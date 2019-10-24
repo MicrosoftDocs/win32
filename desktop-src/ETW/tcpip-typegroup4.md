@@ -2,7 +2,7 @@
 Description: This class is the event type class for IPv6 TCP/IP connect and accept events. The following syntax is simplified from MOF code.
 ms.assetid: c6c0463a-0058-47cf-9235-d2b621f30fb4
 title: TcpIp_TypeGroup4 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

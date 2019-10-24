@@ -2,7 +2,7 @@
 Description: Specifies the audio policy class for the audio renderer.
 ms.assetid: 80b028f5-7756-4bb8-b5e3-ebc8343e168c
 title: MF_AUDIO_RENDERER_ATTRIBUTE_SESSION_ID attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

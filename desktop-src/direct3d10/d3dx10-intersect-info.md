@@ -2,7 +2,7 @@
 Description: Describes a ray-triangle intersection.
 ms.assetid: 21658b74-6f1d-4a16-a8b3-0c7bb6edf899
 title: D3DX10_INTERSECT_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

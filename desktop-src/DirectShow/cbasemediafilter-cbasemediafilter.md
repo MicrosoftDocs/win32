@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 91290f58-a77b-447f-aa2a-bbee067f5a98
 title: CBaseMediaFilter.CBaseMediaFilter constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

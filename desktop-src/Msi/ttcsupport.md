@@ -2,7 +2,7 @@
 Description: The installer sets the TTCSupport property to indicate whether the operating system supports .ttc (true type font collections) files.
 ms.assetid: 016a6d5a-84b7-415e-88ee-7a533bfeaad2
 title: TTCSupport property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

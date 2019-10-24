@@ -2,7 +2,7 @@
 Description: The UsingImageAllocator method indicates whether the current allocator is a CImageAllocator object.
 ms.assetid: 842bbcbc-2cc8-4e9d-b6c0-e07f7e472ca1
 title: CDrawImage.UsingImageAllocator method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ title: IMsTscSecuredSettings Properties
 description: The IMsTscSecuredSettings interface exposes the following properties.
 ms.assetid: 277055E8-6511-47F4-AE03-8AB61EA32D84
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

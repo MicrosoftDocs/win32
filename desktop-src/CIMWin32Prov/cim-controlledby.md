@@ -3,7 +3,7 @@ Description: The CIM\_ControlledBy relationship indicates which devices are comm
 ms.assetid: 6aa4e088-32a0-4c88-bb82-341b6ab53b4c
 ms.tgt_platform: multiple
 title: CIM_ControlledBy class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

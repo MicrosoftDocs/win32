@@ -2,7 +2,7 @@
 Description: Retrieves the version number of the event system.
 ms.assetid: 6355f1b3-e1e7-435f-9795-d92464e004ae
 title: IEventSystem2::GetVersion method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

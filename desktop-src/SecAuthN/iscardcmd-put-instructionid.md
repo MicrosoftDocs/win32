@@ -2,7 +2,7 @@
 Description: Sets the given instruction identifier in the application protocol data unit (APDU).
 ms.assetid: ea527ffd-b053-467d-883d-b93d5bbfb071
 title: ISCardCmd::put_InstructionId method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

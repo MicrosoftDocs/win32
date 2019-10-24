@@ -2,7 +2,7 @@
 Description: The m\_pFilter member variable is a pointer to the owning filter.
 ms.assetid: 57ba31bb-e047-4046-a58d-6ca39d6093f8
 title: CImageAllocator::m_pFilter member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

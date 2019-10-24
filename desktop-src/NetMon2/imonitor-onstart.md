@@ -2,7 +2,7 @@
 Description: The OnStart method is an optional method that can be implemented by the monitor. The MCSVC calls this method to request that the monitor start the capture.
 ms.assetid: 992ee27e-aaba-4e65-989b-e3f0fbd542ea
 title: IMonitor::OnStart method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

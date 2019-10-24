@@ -3,7 +3,7 @@ Description: The Properties\_ property of the SWbemObject object returns an SWbe
 ms.assetid: 8dd49678-47e7-4c6b-ab12-42532065eaf2
 ms.tgt_platform: multiple
 title: SWbemObject.Properties_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Set the value of an arbitrary parameter or annotation, including simple types, structs, arrays, strings, shaders and textures.
 ms.assetid: ab71f1a1-3e10-4883-99b4-607e0b5751c2
 title: ID3DXBaseEffect::SetValue method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

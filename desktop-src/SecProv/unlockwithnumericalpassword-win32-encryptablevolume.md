@@ -2,7 +2,7 @@
 Description: Uses a provided numerical password to access the contents of a data volume.
 ms.assetid: ee968372-18a4-4748-ab18-2f1b8d297f0e
 title: UnlockWithNumericalPassword method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

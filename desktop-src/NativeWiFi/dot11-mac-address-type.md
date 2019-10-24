@@ -2,7 +2,7 @@
 Description: Are used to define an IEEE media access control (MAC) address.
 ms.assetid: c1335127-a2d2-4f44-a895-1abbc5eaf98d
 title: DOT11_MAC_ADDRESS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

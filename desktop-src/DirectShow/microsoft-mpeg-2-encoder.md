@@ -2,7 +2,7 @@
 Description: The Microsoft MPEG-2 Encoder filter encodes MPEG-2 audio and video and multiplexes the streams to generate an MPEG-2 program stream or transport stream.
 ms.assetid: 61e8918b-7f5a-4720-bb3b-df9ac7614894
 title: Microsoft MPEG-2 Encoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

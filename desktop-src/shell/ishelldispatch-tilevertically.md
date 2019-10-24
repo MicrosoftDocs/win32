@@ -2,7 +2,7 @@
 Description: Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Show windows side by side.
 ms.assetid: 63CB7E20-48E6-4cfe-B0BA-0D28A7B151BD
 title: IShellDispatch.TileVertically method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

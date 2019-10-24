@@ -2,7 +2,7 @@
 Description: Defines the light type.
 ms.assetid: 90ad82d3-ffa8-42bb-9d9c-cf28a416c32d
 title: D3DLIGHTTYPE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: An SWbemQualifierSet object is a collection of SWbemQualifier objec
 ms.assetid: 7ac5469c-357b-499d-a558-30bf760c5311
 ms.tgt_platform: multiple
 title: SWbemQualifierSet object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

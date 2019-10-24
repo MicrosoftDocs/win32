@@ -3,7 +3,7 @@ Description: Obtains ownership of the logical paging file specified in the objec
 ms.assetid: 6c359910-713a-441e-b2e1-949929c07e93
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

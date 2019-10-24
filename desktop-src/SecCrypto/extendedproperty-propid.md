@@ -2,7 +2,7 @@
 Description: Sets or retrieves the type of extended property. This is the default property.
 ms.assetid: c2917126-929b-4b60-bcde-0ad919cb03d4
 title: ExtendedProperty.PropID property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

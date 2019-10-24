@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: OFFLINEANALYSISSOURCE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 80B7DA24-6F52-4360-9289-EC3445590A8A
 api_name: 

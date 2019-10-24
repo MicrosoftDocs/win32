@@ -2,7 +2,7 @@
 Description: The GetMemoryHDC method retrieves a handle to the memory device context (DC).
 ms.assetid: 2c22015f-5948-4e1a-92c7-36f232816175
 title: CBaseWindow.GetMemoryHDC method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

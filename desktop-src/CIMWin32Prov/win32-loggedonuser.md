@@ -3,7 +3,7 @@ Description: The Win32\_LoggedOnUser association WMI class relates a session and
 ms.assetid: b1233f90-4898-4ced-84d2-0858027e935a
 ms.tgt_platform: multiple
 title: Win32_LoggedOnUser class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Properties\_ property of the SWbemLastError object returns an S
 ms.assetid: 46ffadd0-82e3-4ace-85a6-a7cb4bc2f982
 ms.tgt_platform: multiple
 title: SWbemLastError.Properties_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

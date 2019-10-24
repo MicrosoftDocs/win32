@@ -3,7 +3,7 @@ Description: Provides a connection to an existing printer on the network, and ad
 ms.assetid: 44149051-4abf-4428-8999-355dd0b0ce69
 ms.tgt_platform: multiple
 title: AddPrinterConnection method of the Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

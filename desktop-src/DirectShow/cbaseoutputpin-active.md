@@ -2,7 +2,7 @@
 Description: The Active method notifies the pin that the filter is now active.
 ms.assetid: 35df4305-0e2c-4ee1-bc63-db5aec864c46
 title: CBaseOutputPin.Active method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

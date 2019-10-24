@@ -2,7 +2,7 @@
 Description: The LookupByteSetString function returns the string corresponding to the specified value of a labeled set.
 ms.assetid: 295891f9-dc8d-4dbe-aac9-7d0a96993cfa
 title: LookupByteSetString function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

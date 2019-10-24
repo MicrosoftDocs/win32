@@ -2,7 +2,7 @@
 Description: The ThrottleWait method inserts a wait period after each frame.
 ms.assetid: 69306093-f5db-4170-b30f-e33cfa448e9f
 title: CBaseVideoRenderer.ThrottleWait method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

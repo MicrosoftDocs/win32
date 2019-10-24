@@ -3,7 +3,7 @@ Description: The SMTPEventConsumer class sends an email message by using Simple 
 ms.assetid: 42178360-9e22-4cd1-9b72-5f6b0d7e6c9c
 ms.tgt_platform: multiple
 title: SMTPEventConsumer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

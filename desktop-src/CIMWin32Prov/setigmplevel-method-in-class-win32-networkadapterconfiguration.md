@@ -3,7 +3,7 @@ Description: The SetIGMPLevel WMI class static method is used to set the extent 
 ms.assetid: 38877576-aa23-4841-b3ae-1a02bfdd70d8
 ms.tgt_platform: multiple
 title: SetIGMPLevel method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

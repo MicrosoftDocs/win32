@@ -3,7 +3,7 @@ Description: Represents a PnP device property consisting of an array of string e
 ms.assetid: B0ED67F2-1534-45BA-ACBD-0914EC3AC7D8
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyStringArray class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

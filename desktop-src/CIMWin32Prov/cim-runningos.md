@@ -3,7 +3,7 @@ Description: The CIM\_RunningOS class represents the currently executing operati
 ms.assetid: 93e3d425-d751-4252-aa81-7d6774c8f8c5
 ms.tgt_platform: multiple
 title: CIM_RunningOS class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Get the number of vertices a bone can maximally influence.
 ms.assetid: 8da72346-348b-46e0-8244-abfb1dbe684f
 title: ID3DX10SkinInfo::GetMaxBoneInfluences method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

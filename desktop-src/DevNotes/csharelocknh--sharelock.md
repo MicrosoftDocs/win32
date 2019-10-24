@@ -2,7 +2,7 @@
 Description: Obtains a shared lock.
 ms.assetid: dff9a842-573a-4530-820d-6fd9001e502a
 title: CShareLockNH::ShareLock method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Sets an array of integers.
 ms.assetid: 15add9df-966d-45aa-b29c-d4bed2a125f4
 title: ID3DXConstantTable::SetIntArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

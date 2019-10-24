@@ -3,7 +3,7 @@ Description: The CIM\_Processor class represents the capabilities and management
 ms.assetid: 7af3208f-f1d5-4911-b6ab-46b54eec0b69
 ms.tgt_platform: multiple
 title: CIM_Processor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

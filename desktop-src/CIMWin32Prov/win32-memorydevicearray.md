@@ -3,7 +3,7 @@ Description: The Win32\_MemoryDeviceArray association WMI class relates a memory
 ms.assetid: 39ea6333-2352-488b-99e4-97594bea7dcd
 ms.tgt_platform: multiple
 title: Win32_MemoryDeviceArray class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies the height of the source rectangle, in pixels.
 ms.assetid: 418bcd69-9dde-4bc3-9897-f465d12536a1
 title: MFPKEY_RESIZE_SRC_HEIGHT Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

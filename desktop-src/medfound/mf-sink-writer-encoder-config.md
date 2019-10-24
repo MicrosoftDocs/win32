@@ -2,7 +2,7 @@
 Description: Contains a pointer to a property store with encoding properties.
 ms.assetid: 28AC864C-C63C-4BD4-9770-B7B48A2815C6
 title: MF_SINK_WRITER_ENCODER_CONFIG attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Specifies the number of fields to encode.
 ms.assetid: 5848493c-1f8e-4fe2-8261-dfdc8f61b265
 title: AVEncVideoNoOfFieldsToEncode property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

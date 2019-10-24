@@ -4,7 +4,7 @@ ms.assetid: 652012a5-e45d-4ea6-896a-17e8b1ed4a05
 description: 
 keywords:
 - IP4_ADDRESS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

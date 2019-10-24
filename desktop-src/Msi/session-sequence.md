@@ -2,7 +2,7 @@
 Description: The Sequence method of the Session object opens a query on the specified table, ordering the actions by the numbers in the Sequence column.
 ms.assetid: cde735b0-0b97-4c4f-adfc-f0321aafb012
 title: Session.Sequence method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

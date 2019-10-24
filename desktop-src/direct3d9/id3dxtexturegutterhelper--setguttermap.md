@@ -2,7 +2,7 @@
 Description: Sets a texel class value that indicates texel class according to each texel's location.
 ms.assetid: cb2e6afb-4b6a-4b01-aaa8-1fd2d1f2bfa1
 title: ID3DXTextureGutterHelper::SetGutterMap method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

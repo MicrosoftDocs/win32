@@ -2,7 +2,7 @@
 Description: Sets or retrieves the URL of a description of the signed executable file.
 ms.assetid: 854c76fb-5cb3-4200-bab0-fa3fa5bd3abe
 title: SignedCode.DescriptionURL property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Retrieves information regarding running applications.
 ms.assetid: 148e42aa-e99e-4fa2-8b74-a7ebf82b99d0
 title: ApplicationInstances collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

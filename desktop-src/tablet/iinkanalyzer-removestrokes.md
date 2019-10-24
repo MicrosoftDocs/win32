@@ -2,7 +2,7 @@
 Description: Removes the specified strokes from the IInkAnalyzer.
 ms.assetid: ea7c8a9f-a427-4781-b5ba-97ffd983dbe5
 title: IInkAnalyzer::RemoveStrokes method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

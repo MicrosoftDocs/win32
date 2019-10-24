@@ -2,7 +2,7 @@
 Description: The get\_Luminance method retrieves the luminance value on which to key. This property applies only when the key type is DXTKEY\_LUMINANCE.
 ms.assetid: 92113331-a7b7-4618-81b2-ea02e7bcc923
 title: IDxtKey::get_Luminance method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

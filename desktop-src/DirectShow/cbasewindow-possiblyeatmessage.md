@@ -2,7 +2,7 @@
 Description: The PossiblyEatMessage method enables a derived class to forward messages to another window.
 ms.assetid: d8775182-44ed-4df2-b4b8-1fdf289e2c1a
 title: CBaseWindow.PossiblyEatMessage method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

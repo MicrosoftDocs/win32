@@ -2,7 +2,7 @@
 Description: Specifies the Surround downmix level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 4633f91b-2023-4d35-ba10-34818f0f632a
 title: AVEncDDSurroundDownMixLevel property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

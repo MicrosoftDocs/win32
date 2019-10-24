@@ -2,7 +2,7 @@
 Description: The AlignUp method rounds a value up to a specified alignment boundary.Note  Removed in Windows 7. .
 ms.assetid: fa2a6567-3eb1-4aa9-b966-2e88b15c67b1
 title: CPullPin.AlignUp method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The LINE\_AGENTSESSIONSTATUS message is sent when the status of an ACD agent session changes on an agent handler for which the application currently has an open line. This message is generated using the lineProxyMessage function.
 ms.assetid: bb9d2292-8c41-4557-989e-6c5eb785313f
 title: LINE_AGENTSESSIONSTATUS message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

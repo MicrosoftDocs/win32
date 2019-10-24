@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 2340b39a-cab6-4524-b8cd-b22d4bdd24d0
 title: CMemAllocator.CMemAllocator constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

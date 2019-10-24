@@ -2,7 +2,7 @@
 Description: Uses the Microsoft Win32 ResumeThread function to continue the operation of the worker thread after a previous call to the CMsgThread::SuspendThread member function.
 ms.assetid: 5c94a079-5c74-4024-8fb0-71c7ef9c7e73
 title: CMsgThread.ResumeThread method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

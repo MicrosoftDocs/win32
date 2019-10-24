@@ -2,7 +2,7 @@
 Description: Flag indicating whether the allocator has been committed.
 ms.assetid: 56cef548-c659-4faa-b45c-de2f8dc2b3ca
 title: CBaseAllocator::m_bCommitted member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_Job class represents a unit of work for a system, such as 
 ms.assetid: a689230e-2a62-4f0d-9961-9bbc055d3c6e
 ms.tgt_platform: multiple
 title: CIM_Job class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

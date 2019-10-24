@@ -7,7 +7,7 @@ keywords:
 - BandwidthDetection property Remote Desktop Services
 - BandwidthDetection property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
 - IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , BandwidthDetection property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

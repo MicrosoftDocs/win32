@@ -3,7 +3,7 @@ Description: The CIM\_JobDestination class represents where a job is submitted f
 ms.assetid: ad2a037d-a5d3-4422-972d-8ef10699bb60
 ms.tgt_platform: multiple
 title: CIM_JobDestination class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

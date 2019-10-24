@@ -2,7 +2,7 @@
 Description: The ReleaseFormat method releases the structure associated with the format.
 ms.assetid: 67181773-5a04-4e20-9814-b004d3b549f5
 title: ITFormatControl::ReleaseFormat method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

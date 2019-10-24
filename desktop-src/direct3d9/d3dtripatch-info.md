@@ -2,7 +2,7 @@
 Description: Describes a triangular high-order patch.
 ms.assetid: 3f97120b-3b32-4f95-8614-7b263ff330db
 title: D3DTRIPATCH_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -2,7 +2,7 @@
 Description: Create a shader-resource view from a resource.
 ms.assetid: 207cda5f-5b7e-420a-988f-135cd2a04eb0
 title: D3DX10CreateShaderResourceViewFromResource function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

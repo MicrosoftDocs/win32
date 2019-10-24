@@ -2,7 +2,7 @@
 Description: Adds a Certificate object to a Recipients collection.
 ms.assetid: 2a1b9e0f-ccbf-4042-871b-397de6b6fc35
 title: Recipients.Add method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

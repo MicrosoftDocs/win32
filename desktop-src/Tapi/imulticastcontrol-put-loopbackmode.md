@@ -2,7 +2,7 @@
 Description: The put\_LoopbackMode sets the multicast loopback mode.
 ms.assetid: 38b28529-224f-4624-bb5e-22fee500e8e6
 title: IMulticastControl::put_LoopbackMode method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

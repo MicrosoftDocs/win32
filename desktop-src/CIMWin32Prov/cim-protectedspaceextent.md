@@ -3,7 +3,7 @@ Description: The CIM\_ProtectedSpaceExtent class represents addressable logical-
 ms.assetid: c6fac984-3b04-4fdb-916a-f83a9d35c67b
 ms.tgt_platform: multiple
 title: CIM_ProtectedSpaceExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

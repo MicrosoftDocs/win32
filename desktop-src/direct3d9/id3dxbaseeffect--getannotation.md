@@ -2,7 +2,7 @@
 Description: Gets the handle of an annotation.
 ms.assetid: 433d73b7-9371-4d76-8b34-a64c608eb1a3
 title: ID3DXBaseEffect::GetAnnotation method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

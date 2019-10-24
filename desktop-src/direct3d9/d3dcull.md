@@ -2,7 +2,7 @@
 Description: Defines the supported culling modes.
 ms.assetid: b669307c-0d40-4ecb-8a2e-8bd1d9c65647
 title: D3DCULL enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

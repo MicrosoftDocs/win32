@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_SerialController class sets th
 ms.assetid: dc4b8862-1d92-4732-9ba0-ca76b3f0fccf
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_SerialController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

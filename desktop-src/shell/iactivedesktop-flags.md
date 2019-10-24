@@ -1,7 +1,7 @@
 ---
 Description: This section describes the flags used by IActiveDesktop interface methods.
 title: IActiveDesktop Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 6d1a2f69-0730-4805-8b50-071332ff7070
 api_name: 

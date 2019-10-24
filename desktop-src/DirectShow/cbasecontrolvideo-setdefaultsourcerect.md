@@ -2,7 +2,7 @@
 Description: The SetDefaultSourceRect method sets the default source video rectangle (pure virtual). This in an internal member function that gets called when the source rectangle is reset.
 ms.assetid: d0dae0a9-8763-485e-b9d3-80076a3f2f35
 title: CBaseControlVideo.SetDefaultSourceRect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

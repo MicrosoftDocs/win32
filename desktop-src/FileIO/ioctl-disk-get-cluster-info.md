@@ -2,7 +2,7 @@
 Description: Retrieves the attributes of the specified disk device.
 ms.assetid: 2FF81F67-9E70-43C6-A504-0D60382E0945
 title: IOCTL_DISK_GET_CLUSTER_INFO control code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

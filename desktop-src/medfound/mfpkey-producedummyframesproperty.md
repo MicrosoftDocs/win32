@@ -2,7 +2,7 @@
 Description: Specifies whether the encoder produces dummy frame entries in the bit stream for duplicate frames.
 ms.assetid: dc09cecb-98c0-40bb-9e5d-f4661bf98522
 title: MFPKEY_PRODUCEDUMMYFRAMES Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

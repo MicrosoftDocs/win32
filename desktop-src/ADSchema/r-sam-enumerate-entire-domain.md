@@ -11,7 +11,7 @@ api_name:
 - SAM-Enumerate-Entire-Domain
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

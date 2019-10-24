@@ -3,7 +3,7 @@ Description: Boolean value that indicates whether the year component in the CIM 
 ms.assetid: afac0a08-7bd0-42f1-b5a7-8664f9db8615
 ms.tgt_platform: multiple
 title: SWbemDateTime.YearSpecified property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

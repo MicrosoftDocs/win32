@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine::RunExperiment method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: A2EEC278-C074-44B3-94DC-E2D9DC770576
 api_name: 

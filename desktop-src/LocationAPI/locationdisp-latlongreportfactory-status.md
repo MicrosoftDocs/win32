@@ -2,7 +2,7 @@
 Description: The current report status.
 ms.assetid: bcdf76b5-88c4-481a-89ac-2b9558cecfc0
 title: LocationDisp.LatLongReportFactory.Status property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

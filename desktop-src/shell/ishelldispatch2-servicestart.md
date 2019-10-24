@@ -2,7 +2,7 @@
 Description: Starts a named service.
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
 title: IShellDispatch2.ServiceStart method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

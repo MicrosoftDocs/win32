@@ -2,7 +2,7 @@
 title: Functions
 description: This section describes the functions provided by the Microsoft DirectComposition \ 32;API.
 ms.assetid: 750FDFD5-ADD5-43B3-A596-ECDB82C2EF73
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

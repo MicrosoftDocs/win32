@@ -3,7 +3,7 @@ Description: The IWbemObjectSink interface creates a sink interface that can rec
 ms.assetid: 987aea1d-912a-4691-987f-181c1ef1a8a9
 ms.tgt_platform: multiple
 title: IWbemObjectSink interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

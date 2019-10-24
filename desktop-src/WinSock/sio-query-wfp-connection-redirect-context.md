@@ -4,7 +4,7 @@ ms.assetid: 87DB11BB-E08D-49DF-A211-133D813373E0
 title: SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT Control Code
 author: TimShererWithAquent
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

@@ -3,7 +3,7 @@ Description: The CIM\_Location class represents the position and address of a ph
 ms.assetid: c1ec467c-a338-4beb-a8fe-1ebc5b05c754
 ms.tgt_platform: multiple
 title: CIM_Location class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

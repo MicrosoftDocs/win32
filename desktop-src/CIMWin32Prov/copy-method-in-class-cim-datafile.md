@@ -3,7 +3,7 @@ Description: The Copy method copies the logical file (or directory) that is spec
 ms.assetid: 13bd7da8-a562-414b-8d23-6f58e1c55878
 ms.tgt_platform: multiple
 title: Copy method of the CIM_DataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

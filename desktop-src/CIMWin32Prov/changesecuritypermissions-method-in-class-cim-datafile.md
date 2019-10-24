@@ -3,7 +3,7 @@ Description: Changes the security permissions for the logical data file specifie
 ms.assetid: b0a66411-f973-42ce-a3fe-25c31234a964
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the CIM_DataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

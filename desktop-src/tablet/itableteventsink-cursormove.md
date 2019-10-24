@@ -2,7 +2,7 @@
 Description: Occurs when the cursor moves over the tablet digitizer.
 ms.assetid: cd2863af-59a9-4dd0-a679-84861a70ef53
 title: ITabletEventSink::CursorMove method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

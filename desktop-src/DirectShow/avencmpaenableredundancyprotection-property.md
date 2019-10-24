@@ -2,7 +2,7 @@
 Description: Specifies whether to add a cyclic redundancy check (CRC) to the frame header. This property applies to MPEG audio encoders.
 ms.assetid: 55f0de8b-26dd-4d48-b7ed-2ddcef630227
 title: AVEncMPAEnableRedundancyProtection property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Loads the filter's data from a given stream.
 ms.assetid: c2bfd379-2916-4698-bc41-653161723706
 title: CPersistStream.Load method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

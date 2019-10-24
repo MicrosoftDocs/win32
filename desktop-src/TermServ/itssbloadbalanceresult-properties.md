@@ -3,7 +3,7 @@ title: ITsSbLoadBalanceResult Properties
 description: The ITsSbLoadBalanceResult interface exposes the following properties.
 ms.assetid: A30ACE43-CD59-4D67-A1DC-682D70055F93
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The ITParticipant interface is implemented by the IPConf MSP. It allows an application to retrieve information on conference participants, and get pointers to the streams associated with those participants.
 ms.assetid: 8c3edfc1-3165-48b7-9d83-8892c192498b
 title: ITParticipant interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

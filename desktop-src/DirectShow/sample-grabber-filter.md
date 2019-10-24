@@ -2,7 +2,7 @@
 Description: The Sample Grabber filter provides a way to retrieve samples as they pass through the filter graph.
 ms.assetid: 3c2fb52f-2b44-449a-ae96-3cf35a0a401d
 title: Sample Grabber Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

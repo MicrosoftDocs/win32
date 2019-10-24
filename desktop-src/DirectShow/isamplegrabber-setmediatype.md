@@ -2,7 +2,7 @@
 Description: The SetMediaType method specifies the media type for the connection on the input pin of the Sample Grabber.
 ms.assetid: 9568832f-6666-45c9-9421-485c877affb3
 title: ISampleGrabber::SetMediaType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

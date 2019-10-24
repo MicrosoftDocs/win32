@@ -2,7 +2,7 @@
 Description: Proxy function for the CreateBitmapFlipRotator method.
 ms.assetid: 1dc55744-8ae1-4d8b-9ffd-735ee45ceb47
 title: IWICImagingFactory_CreateBitmapFlipRotator_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

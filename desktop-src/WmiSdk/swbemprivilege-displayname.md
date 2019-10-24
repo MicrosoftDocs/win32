@@ -3,7 +3,7 @@ Description: The DisplayName property of an SWbemPrivilege object is a string th
 ms.assetid: 9ed91a6a-e513-4a72-b8a9-3180e42b811f
 ms.tgt_platform: multiple
 title: SWbemPrivilege.DisplayName property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

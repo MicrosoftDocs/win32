@@ -2,7 +2,7 @@
 Description: The WM\_CTLCOLOR message is used in 16-bit versions of Windows to change the color scheme of list boxes, the list boxes of combo boxes, message boxes, button controls, edit controls, static controls, and dialog boxes.Note  For information related to this message and 32-bit versions of Windows, see Remarks. 
 ms.assetid: e654cf48-550f-4210-9952-20470b9a397a
 title: WM_CTLCOLOR message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

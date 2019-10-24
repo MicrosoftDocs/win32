@@ -2,7 +2,7 @@
 Description: Evaluates a directional light and returns spectral spherical harmonic (SH) data.
 ms.assetid: 6e2e9b02-13bb-4cef-ae9d-343fbf64e5d7
 title: D3DXSHEvalDirectionalLight function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

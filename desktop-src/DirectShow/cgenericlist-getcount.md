@@ -2,7 +2,7 @@
 Description: The GetCount method retrieves the number of items in the list.
 ms.assetid: a74fcddd-109f-4abf-abe0-e00f6e56ea0f
 title: CGenericList.GetCount method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

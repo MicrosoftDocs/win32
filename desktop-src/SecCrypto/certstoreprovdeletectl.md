@@ -2,7 +2,7 @@
 Description: Called by CertDeleteCTLFromStore before deleting a CTL from the store.
 ms.assetid: 6cda772f-7e94-414d-99fc-a90451ac0ccf
 title: CertStoreProvDeleteCTL callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

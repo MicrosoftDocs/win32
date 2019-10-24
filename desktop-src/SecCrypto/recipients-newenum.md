@@ -2,7 +2,7 @@
 Description: The \_NewEnum property of Recipients retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: affdc695-b78c-48b5-b66d-5f94e1a86ff2
 title: Recipients._NewEnum property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

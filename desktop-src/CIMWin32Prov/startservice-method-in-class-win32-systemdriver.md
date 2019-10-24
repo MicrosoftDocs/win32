@@ -3,7 +3,7 @@ Description: Attempts to place the service managed by the system driver into its
 ms.assetid: 3f9d29aa-b549-4a55-be9c-01fad4932fe6
 ms.tgt_platform: multiple
 title: StartService method of the Win32_SystemDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Applies to Windows Vista and later.
 ms.assetid: 3e342219-341e-49a2-9f8f-4188dd7bf719
 title: AM_RATE_ResetOnTimeDisc Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

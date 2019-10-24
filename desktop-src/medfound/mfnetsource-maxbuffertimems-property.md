@@ -2,7 +2,7 @@
 Description: Maximum amount of data the network source buffers, in milliseconds.
 ms.assetid: bd776dc2-341a-4d87-8a06-8063daf53ede
 title: MFNETSOURCE_MAXBUFFERTIMEMS property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

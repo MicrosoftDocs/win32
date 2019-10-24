@@ -2,7 +2,7 @@
 Description: Sets or retrieves the name of the cryptographic service provider (CSP).
 ms.assetid: 34fde7b0-747d-4592-a89a-207f82369f52
 title: ISCrdEnr::CSPName property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

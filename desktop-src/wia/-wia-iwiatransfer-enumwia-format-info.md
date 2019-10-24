@@ -2,7 +2,7 @@
 Description: Creates an enumerator for the transfer formats that the Windows Image Acquisition (WIA) 2.0 device supports.
 ms.assetid: 70fffc7b-b500-4404-9d94-76d1828ddc8c
 title: IWiaTransfer::EnumWIA_FORMAT_INFO method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies whether the Voice Capture DSP performs automatic gain control.
 ms.assetid: 85ac8de0-ac36-4b34-a93d-0ac792a677b2
 title: MFPKEY_WMAAECMA_FEATR_AGC Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

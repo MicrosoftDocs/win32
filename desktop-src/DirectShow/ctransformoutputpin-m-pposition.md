@@ -2,7 +2,7 @@
 Description: Helper object to pass seek commands upstream.
 ms.assetid: 2ca9bae7-a133-4e09-8aa7-1c4601ec5db0
 title: CTransformOutputPin::m_pPosition member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

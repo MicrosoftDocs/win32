@@ -1,7 +1,7 @@
 ---
 Description: These data types can be used to specify the type of a registry value.
 title: Registry Data Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 4185e7af-e1f0-40af-91c7-0ff7e27896ae
 api_name: 

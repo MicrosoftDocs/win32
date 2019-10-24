@@ -2,7 +2,7 @@
 Description: Defines the supported blend operations. See Remarks for definitions of terms.
 ms.assetid: ae750d84-ed7d-4a76-bf64-eae8828c66c7
 title: D3DBLENDOP enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

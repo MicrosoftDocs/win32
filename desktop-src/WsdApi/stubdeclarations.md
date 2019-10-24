@@ -2,7 +2,7 @@
 Description: Generates declarations for stub functions for port type operations.
 ms.assetid: d43baeff-c941-4ce9-a6ae-8aa61ef44048
 title: stubDeclarations element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

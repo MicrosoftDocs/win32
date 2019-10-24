@@ -2,7 +2,7 @@
 Description: This operator tests if one reference time is greater than another.
 ms.assetid: db281040-9bcf-41fc-95b4-5481ffc5061f
 title: COARefTime.operator> method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

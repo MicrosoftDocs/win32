@@ -2,7 +2,7 @@
 Description: Represents a wireless local area network communications device that conforms to the IEEE 802.11 series of specifications.
 ms.assetid: c4e3345f-5c7d-4d1d-9a94-64112d7334ff
 title: CIM_WiFiPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

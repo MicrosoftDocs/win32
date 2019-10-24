@@ -2,7 +2,7 @@
 Description: Encrypts a message to provide privacy by using Schannel.
 ms.assetid: b02b38bd-f3dd-4bf8-a36e-44ff9fbbe550
 title: EncryptMessage (Schannel) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

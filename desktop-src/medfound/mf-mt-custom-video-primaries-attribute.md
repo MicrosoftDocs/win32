@@ -2,7 +2,7 @@
 Description: Specifies custom color primaries for a video media type.
 ms.assetid: dc5df755-53cf-4910-af42-309f1f46b1ed
 title: MF_MT_CUSTOM_VIDEO_PRIMARIES attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

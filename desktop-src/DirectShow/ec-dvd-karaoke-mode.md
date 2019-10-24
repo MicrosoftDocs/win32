@@ -2,7 +2,7 @@
 Description: Indicates that the DVD Navigator has either begun playing or finished playing karaoke data.
 ms.assetid: 910bf809-a56a-4d02-9c7e-429769a4ec2b
 title: EC_DVD_KARAOKE_MODE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

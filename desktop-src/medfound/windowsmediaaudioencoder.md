@@ -2,7 +2,7 @@
 Description: 'The Windows Media Audio encoder encodes audio streams. The encoder supports three categories of encoded output: Windows Media Audio Standard, Windows Media Audio Professional, and Windows Media Audio Lossless.'
 ms.assetid: 1f6a3a9f-b534-4a6b-b773-0315c759624e
 title: Windows Media Audio Encoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object has shown or hidden itself.
 ms.assetid: bf4651f4-2cf4-4952-a93e-3c6ba4846722
 title: PenInputPanel.VisibleChanged event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

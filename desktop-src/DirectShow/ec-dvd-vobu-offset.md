@@ -2,7 +2,7 @@
 Description: Sent when the DVD Navigator parses a PCI packet.
 ms.assetid: e2e65007-7c34-4be4-86b9-9491061891e5
 title: EC_DVD_VOBU_Offset
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

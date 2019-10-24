@@ -2,7 +2,7 @@
 Description: The CBaseRendererInputPin class implements an input pin for the CBaseRenderer class. Except where noted, the methods in this class delegate to corresponding methods on the CBaseRenderer class.
 ms.assetid: da3e6aba-c2cc-4fd4-b382-fc4bc7fef774
 title: CRendererInputPin class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

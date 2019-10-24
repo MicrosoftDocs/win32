@@ -2,7 +2,7 @@
 Description: The SetStreamNumber method specifies which stream to read from the source file associated with this source object.
 ms.assetid: d40d0889-3b28-4114-9dd2-529e380eaeb8
 title: IAMTimelineSrc::SetStreamNumber method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

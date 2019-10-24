@@ -2,7 +2,7 @@
 Description: Adds the specified OID object to the collection.
 ms.assetid: 0ae087d6-768a-4538-b834-0f936680de05
 title: OIDs.Add method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

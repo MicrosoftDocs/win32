@@ -3,7 +3,7 @@ Description: The Win32\_ComponentCategory WMI class represents a component categ
 ms.assetid: 9c6fc856-8300-4fa5-ae1c-a7d6476f5c51
 ms.tgt_platform: multiple
 title: Win32_ComponentCategory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

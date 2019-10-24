@@ -2,7 +2,7 @@
 Description: The LINEDIALTONEMODE\_ bit-flag constants describe different types of dial tones. A special dial tone typically carries a special meaning (as with message waiting).
 ms.assetid: 0b040482-35cf-42e8-84bc-33002635b591
 title: LINEDIALTONEMODE_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

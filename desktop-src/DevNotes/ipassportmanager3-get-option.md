@@ -2,7 +2,7 @@
 Description: Retrieves the value of a specific Microsoft .NET Passport sign-in option.
 ms.assetid: a38ffed3-a45b-4bac-8101-3e09f34f3891
 title: IPassportManager3::get_Option method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

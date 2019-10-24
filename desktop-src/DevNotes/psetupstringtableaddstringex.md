@@ -2,7 +2,7 @@
 Description: Adds a string and extra data to a table.
 ms.assetid: e6f29cb0-4468-435d-9ae3-217d4f69e87e
 title: pSetupStringTableAddStringEx function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

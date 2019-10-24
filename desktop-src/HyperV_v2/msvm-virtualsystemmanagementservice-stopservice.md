@@ -2,7 +2,7 @@
 Description: Stops the service.
 ms.assetid: 215a9e6d-8f31-43a6-abf5-4eb72432e09f
 title: StopService method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

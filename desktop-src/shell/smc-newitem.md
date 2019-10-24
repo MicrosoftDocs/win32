@@ -1,7 +1,7 @@
 ---
 Description: Notifies you of a new item, as specified by the accompanying SMDATA structure.
 title: SMC_NEWITEM message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: e0ccf2db-cb46-469f-bc08-4b5100a410ba
 api_name: 

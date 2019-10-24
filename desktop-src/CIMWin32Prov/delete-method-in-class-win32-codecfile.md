@@ -3,7 +3,7 @@ Description: Deletes the logical audio or video codec file (or directory) specif
 ms.assetid: 70233615-8924-4bd4-8a20-279a18b5c807
 ms.tgt_platform: multiple
 title: Delete method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: A description of a constant in a constant table.
 ms.assetid: d1970536-7195-4270-a1b9-b082ebe4f17f
 title: D3DXCONSTANT_DESC structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

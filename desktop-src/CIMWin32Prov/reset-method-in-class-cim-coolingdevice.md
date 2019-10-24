@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_CoolingDevice class requests a reset o
 ms.assetid: eaf113ac-ccaf-428e-b01f-58950967d779
 ms.tgt_platform: multiple
 title: Reset method of the CIM_CoolingDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

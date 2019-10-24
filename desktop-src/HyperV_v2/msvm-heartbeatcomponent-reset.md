@@ -2,7 +2,7 @@
 Description: Requests a reset.
 ms.assetid: 60dacd80-72f9-456f-9378-6cdc7b5cc964
 title: Reset method of the Msvm_HeartbeatComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

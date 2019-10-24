@@ -3,7 +3,7 @@ Description: The SWbemRefresher.Item method returns the specified SWbemRefreshab
 ms.assetid: 8ae3dea5-0582-422e-9cd8-b6d91b41588a
 ms.tgt_platform: multiple
 title: SWbemRefresher.Item method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

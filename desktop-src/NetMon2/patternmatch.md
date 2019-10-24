@@ -2,7 +2,7 @@
 Description: The PATTERNMATCH structure defines pattern elements used to evaluate a frame.
 ms.assetid: 3ad27197-92da-49e5-bb0e-daf54de6c54c
 title: PATTERNMATCH structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

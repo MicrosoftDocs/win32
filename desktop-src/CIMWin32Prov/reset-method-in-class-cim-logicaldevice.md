@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_LogicalDevice class requests a reset o
 ms.assetid: 85691b10-5d72-478b-acdc-cf1f4e01bec0
 ms.tgt_platform: multiple
 title: Reset method of the CIM_LogicalDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

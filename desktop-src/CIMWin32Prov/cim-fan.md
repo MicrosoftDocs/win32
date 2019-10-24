@@ -3,7 +3,7 @@ Description: The CIM\_Fan class represents the capabilities and management of a 
 ms.assetid: eddfb694-cba1-45e2-998f-f93355520c80
 ms.tgt_platform: multiple
 title: CIM_Fan class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -4,7 +4,7 @@ description: Not implemented.
 ms.assetid: 1e38a202-885c-4539-98d6-bc0e650198dc
 keywords:
 - HDM_TRANSLATEACCELERATOR message Windows Controls
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

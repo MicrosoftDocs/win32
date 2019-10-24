@@ -2,7 +2,7 @@
 Description: Specifies the final output resolution of the decoded image, after video processing.
 ms.assetid: 067867D8-155C-4406-BE07-720016B2AEBC
 title: MFT_DECODER_FINAL_VIDEO_RESOLUTION_HINT attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

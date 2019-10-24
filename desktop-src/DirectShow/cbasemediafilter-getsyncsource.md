@@ -2,7 +2,7 @@
 Description: The GetSyncSource method retrieves the reference clock that the object is using. This method implements the IMediaFilter::GetSyncSource method.
 ms.assetid: 7e74d6ce-cd34-4345-8ff9-174e0acb243a
 title: CBaseMediaFilter.GetSyncSource method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

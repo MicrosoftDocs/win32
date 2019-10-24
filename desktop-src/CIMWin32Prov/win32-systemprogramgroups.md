@@ -3,7 +3,7 @@ Description: The Win32\_SystemProgramGroups association WMI class relates a comp
 ms.assetid: cbf810c8-a967-4d60-889c-e47c43b039ea
 ms.tgt_platform: multiple
 title: Win32_SystemProgramGroups class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

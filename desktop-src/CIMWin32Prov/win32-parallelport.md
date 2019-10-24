@@ -3,7 +3,7 @@ Description: The Win32\_ParallelPort &\#32; WMI class represents the properties 
 ms.assetid: 986bd27f-71b0-4a40-a421-a8bfc0f081be
 ms.tgt_platform: multiple
 title: Win32_ParallelPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

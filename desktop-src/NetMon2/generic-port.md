@@ -2,7 +2,7 @@
 Description: Contains a port number used for IP or IPX protocols.
 ms.assetid: 730f6ee6-7b7d-4e10-91ee-a4ba87aae5aa
 title: GENERIC_PORT union
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

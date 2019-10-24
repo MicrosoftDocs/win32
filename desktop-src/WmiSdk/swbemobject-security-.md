@@ -3,7 +3,7 @@ Description: The Security\_ property of the SWbemObject object is used to read, 
 ms.assetid: add77267-d62f-4ee4-a0ff-8ca06a6bf7cd
 ms.tgt_platform: multiple
 title: SWbemObject.Security_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

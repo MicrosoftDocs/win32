@@ -3,7 +3,7 @@ Description: The SubclassesAsync\_ method of SWbemObject asynchronously supplies
 ms.assetid: 14d4a609-3aa4-49bd-bea4-6a71bc24d9dd
 ms.tgt_platform: multiple
 title: SWbemObject.SubclassesAsync_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

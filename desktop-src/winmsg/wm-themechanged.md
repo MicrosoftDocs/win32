@@ -2,7 +2,7 @@
 Description: Broadcast to every window following a theme change event. Examples of theme change events are the activation of a theme, the deactivation of a theme, or a transition from one theme to another.
 ms.assetid: 1a4051ac-cc6e-4520-ab66-d0a41a8a4c73
 title: WM_THEMECHANGED message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

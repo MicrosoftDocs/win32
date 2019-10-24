@@ -2,7 +2,7 @@
 Description: The GetHeadPositionI method retrieves the position of the first item in the list.
 ms.assetid: a18c01dc-6bff-4250-9970-fe378decadf7
 title: CBaseList.GetHeadPositionI method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Retrieves the second parameter (P2) byte from the application protocol data unit (APDU).
 ms.assetid: c719786f-0f50-472e-a92e-a64c333fc255
 title: ISCardCmd::get_P2 method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

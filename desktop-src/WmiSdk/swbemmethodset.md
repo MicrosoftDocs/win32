@@ -3,7 +3,7 @@ Description: An SWbemMethodSet object is a collection of SWbemMethod objects. It
 ms.assetid: 0ca2601f-ed40-472e-b4f2-eee750c8c8d1
 ms.tgt_platform: multiple
 title: SWbemMethodSet object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

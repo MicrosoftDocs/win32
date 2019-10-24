@@ -2,7 +2,7 @@
 Description: Power setting GUIDs identify power change events.
 ms.assetid: 39D432A7-54F8-4135-B98C-7290F95B054A
 title: Power Setting GUIDs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Determines if a quaternion is an identity quaternion.
 ms.assetid: 1cd39e1b-9b68-434d-b7b0-3ec6cddb8757
 title: D3DXQuaternionIsIdentity function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

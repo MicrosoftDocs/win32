@@ -3,7 +3,7 @@ Description: Changes the security permissions for the codec file specified in th
 ms.assetid: 3eac4ae1-3c0e-4e81-8b23-9ad8698f723c
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

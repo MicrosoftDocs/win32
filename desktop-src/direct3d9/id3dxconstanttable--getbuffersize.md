@@ -2,7 +2,7 @@
 Description: Gets the buffer size of the constant table.
 ms.assetid: 77dbff34-a6b4-43d8-a790-d9e69ff09cfb
 title: ID3DXConstantTable::GetBufferSize method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

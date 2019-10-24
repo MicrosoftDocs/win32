@@ -3,7 +3,7 @@ title: IMsTscAdvancedSettings Properties
 description: The IMsTscAdvancedSettings interface exposes the following properties.
 ms.assetid: D0BAD14F-91E2-4314-92E6-E4E9EE53F35C
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

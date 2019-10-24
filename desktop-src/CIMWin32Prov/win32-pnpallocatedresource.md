@@ -3,7 +3,7 @@ Description: The Win32\_PnPAllocatedResource association WMI class represents an
 ms.assetid: e3cef457-cf88-4df5-8db8-b0495f636904
 ms.tgt_platform: multiple
 title: Win32_PnPAllocatedResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

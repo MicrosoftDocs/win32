@@ -2,7 +2,7 @@
 Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_INITIALIZE command.
 ms.assetid: 08677cb3-6f08-49d5-a3b6-c48c88516273
 title: D3DAUTHENTICATEDCHANNEL_CONFIGUREINITIALIZE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Retrieves the numerical password for a given key protector.
 ms.assetid: 5c4663fb-285d-471c-b355-82d553a7e686
 title: GetKeyProtectorNumericalPassword method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

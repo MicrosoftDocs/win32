@@ -2,7 +2,7 @@
 Description: Provides information about a VHD Set file.
 ms.assetid: a975c131-d3f3-4be3-bc69-e277e3ce4d28
 title: Msvm_VHDSetInformation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

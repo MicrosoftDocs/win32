@@ -2,7 +2,7 @@
 Description: Associates a virtual machine and its devices with instances of CIM\_SettingData that represent the current settings that apply to these objects.
 ms.assetid: 991FE773-1F87-4D5E-89E6-CB1A33989B1A
 title: Msvm_SettingsDefineState class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

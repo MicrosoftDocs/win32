@@ -2,7 +2,7 @@
 Description: Returns FALSE if the current thread is the owner of the specified critical section.
 ms.assetid: 1a2cb56c-2806-4bb2-b904-985af332b290
 title: CritCheckOut function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

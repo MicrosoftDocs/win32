@@ -2,7 +2,7 @@
 Description: Adds a data reference as a child of this ID3DXFileSaveData file data node. The data reference points to a file data object.
 ms.assetid: 75bfe91e-15ea-41f3-b1f7-071fb7f0093f
 title: ID3DXFileSaveData::AddDataReference method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

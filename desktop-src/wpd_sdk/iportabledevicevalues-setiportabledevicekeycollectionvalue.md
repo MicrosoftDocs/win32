@@ -2,7 +2,7 @@
 Description: The SetIPortableDeviceKeyCollectionValue method adds a new SetIPortableDeviceKeyCollectionValue value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: f470cb89-e7a0-470d-83d1-eb643b062e45
 title: IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

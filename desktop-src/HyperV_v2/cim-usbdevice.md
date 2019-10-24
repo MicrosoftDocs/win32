@@ -2,7 +2,7 @@
 Description: The management characteristics of a USB device.
 ms.assetid: c0589346-7683-49c6-bd34-5ee38d71d00e
 title: CIM_USBDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_PackagedComponent association represents an explicit relat
 ms.assetid: ef0cdbc4-41ee-4517-92ca-61cfcbe64c36
 ms.tgt_platform: multiple
 title: CIM_PackagedComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Uncompresses the logical directory entry file (or directory) specif
 ms.assetid: cd18d8b7-ab63-475c-a3a6-79611c9e032d
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

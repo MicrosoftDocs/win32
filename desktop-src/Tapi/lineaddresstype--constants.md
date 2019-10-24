@@ -2,7 +2,7 @@
 Description: The address type identifies address format, such as standard phone number or e-mail address. Only applications that negotiate TAPI version 3.0 or higher can use address types.
 ms.assetid: 2c32eda1-e510-40eb-ae75-fc7b9e9953cd
 title: LINEADDRESSTYPE_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

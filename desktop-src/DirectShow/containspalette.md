@@ -2,7 +2,7 @@
 Description: The ContainsPalette function determines whether a specified VIDEOINFOHEADER structure contains a palette.
 ms.assetid: e87ab1af-a822-45d8-9326-08b450e11279
 title: ContainsPalette function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

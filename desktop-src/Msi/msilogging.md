@@ -2,7 +2,7 @@
 Description: The MsiLogging property sets the default logging mode for the Windows Installer package.
 ms.assetid: f5ae389e-bc27-465d-886b-4f4f41d49118
 title: MsiLogging property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The ITAudioSettings interface exposes methods that allow an application to get and set parameters for control of an audio device.
 ms.assetid: 56607024-255d-4d1b-9ca0-6086eff7b7b2
 title: ITAudioSettings interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

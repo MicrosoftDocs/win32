@@ -2,7 +2,7 @@
 Description: Enables a transport application to query the Negotiate [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain attributes of a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: 9e499161-d5fb-4a64-ac36-f82031a3a7c9
 title: QueryContextAttributes (Negotiate) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

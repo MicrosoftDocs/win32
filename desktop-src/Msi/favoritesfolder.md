@@ -2,7 +2,7 @@
 Description: The installer sets the FavoritesFolder property to the full path of the Favorites folder for the current user.
 ms.assetid: 9f3d967b-2dd9-4cdc-917a-20dc5ebd0cf3
 title: FavoritesFolder property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

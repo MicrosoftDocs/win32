@@ -2,7 +2,7 @@
 Description: Specifies the number pre-authentication attempts to try on neighboring APs.
 ms.assetid: 7e89e962-7544-4efb-9e3c-c108bee22aea
 title: preAuthThrottle (security) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

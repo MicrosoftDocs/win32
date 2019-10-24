@@ -2,7 +2,7 @@
 Description: Enables the client to call the application's Text Input Panel auto complete provider object.
 ms.assetid: 448b8136-ebcb-4116-9a81-a77a37d69e24
 title: ITipAutocompleteClient interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

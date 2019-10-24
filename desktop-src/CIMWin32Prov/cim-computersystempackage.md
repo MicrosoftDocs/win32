@@ -3,7 +3,7 @@ Description: The CIM\_ComputerSystemPackage class represents an association that
 ms.assetid: a91bf09d-0768-4d2a-a0e5-16237b2e6ddc
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemPackage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies whether an Advanced Systems Format (ASF) file contains any audio streams.
 ms.assetid: b7c5cd67-fd2a-49d8-8de5-61783a3b4577
 title: MF_PD_ASF_INFO_HAS_AUDIO attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_VersionCompatibilityCheck class evalu
 ms.assetid: d1ccc248-340e-4277-9696-063e1e2bf915
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_VersionCompatibilityCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

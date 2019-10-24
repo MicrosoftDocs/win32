@@ -2,7 +2,7 @@
 Description: Represents a logical element that can be enabled and disabled.
 ms.assetid: 52eed77e-f3f1-4489-8eff-a8ebebd5e1a8
 title: CIM_EnabledLogicalElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

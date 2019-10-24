@@ -2,7 +2,7 @@
 Description: Builds a rotation matrix from a quaternion.
 ms.assetid: dcbf8696-b959-4475-a250-6094dd5fe358
 title: D3DXMatrixRotationQuaternion function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

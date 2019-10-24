@@ -2,7 +2,7 @@
 Description: Sets the bone name.
 ms.assetid: 2eecddb8-4efa-41a3-be83-7404047a9857
 title: ID3DXSkinInfo::SetBoneName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

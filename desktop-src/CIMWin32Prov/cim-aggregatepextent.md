@@ -3,7 +3,7 @@ Description: The CIM\_AggregatePExtent class provides summary information about 
 ms.assetid: c8def347-e8d7-48d5-94d0-f6e704e7b40e
 ms.tgt_platform: multiple
 title: CIM_AggregatePExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

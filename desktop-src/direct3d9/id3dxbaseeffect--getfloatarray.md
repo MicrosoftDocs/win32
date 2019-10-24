@@ -2,7 +2,7 @@
 Description: Gets an array of floating point values.
 ms.assetid: ba839129-c332-4ce8-b7c1-ea0ef4697ade
 title: ID3DXBaseEffect::GetFloatArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

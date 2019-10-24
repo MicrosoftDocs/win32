@@ -3,7 +3,7 @@ Description: The CIM\_UninterruptiblePowerSupply class represents the capabiliti
 ms.assetid: 27ddc955-906b-40b9-981b-96872356477c
 ms.tgt_platform: multiple
 title: CIM_UninterruptiblePowerSupply class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

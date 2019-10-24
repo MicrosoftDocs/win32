@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_Action class takes a particular actio
 ms.assetid: 4f0be560-bd78-4c7f-b6e3-ca86837a84f9
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_Action class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

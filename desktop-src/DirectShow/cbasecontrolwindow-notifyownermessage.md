@@ -2,7 +2,7 @@
 Description: The NotifyOwnerMessage method passes along specific messages to the video window.
 ms.assetid: 8b27281a-5b8a-46c3-aa66-390d4496f30e
 title: CBaseControlWindow.NotifyOwnerMessage method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

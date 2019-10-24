@@ -2,7 +2,7 @@
 Description: The QueryPinInfo method retrieves information about the pin. This method implements the IPin::QueryPinInfo method.
 ms.assetid: 9de41f61-9f03-4594-a320-2f7f0ed734fd
 title: CBasePin.QueryPinInfo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

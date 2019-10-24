@@ -3,7 +3,7 @@ Description: Executes a query to receive events.
 ms.assetid: 0b0e8313-4ffd-4d4a-8965-d2c6743e7573
 ms.tgt_platform: multiple
 title: SWbemServices.ExecNotificationQueryAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

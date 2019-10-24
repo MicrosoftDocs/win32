@@ -2,7 +2,7 @@
 Description: Used by the auto complete client to notify the application of the text a user has inked into Input Panel.
 ms.assetid: 68413836-321a-4e75-8538-c5a8fc577c0f
 title: ITipAutocompleteProvider::UpdatePendingText method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

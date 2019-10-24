@@ -2,7 +2,7 @@
 Description: Installs an exception package.
 ms.assetid: c4c3c01c-9aaf-42cd-a690-13e2113b15b3
 title: InstallComponentW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

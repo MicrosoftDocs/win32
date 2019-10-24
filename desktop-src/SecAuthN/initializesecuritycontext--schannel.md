@@ -2,7 +2,7 @@
 Description: Initiates the client side, outbound [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a credential handle by using the Schannel [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: c451089a-d10d-469c-99dd-43d75a6b0b2a
 title: InitializeSecurityContext (Schannel) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

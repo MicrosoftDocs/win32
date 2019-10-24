@@ -2,7 +2,7 @@
 Description: Calls the library to get the security state relative to the host, and script or msi to be used.
 ms.assetid: 4CCDA3B7-7661-47F6-A015-720BDEAEDBB1
 title: WldpGetLockdownPolicy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

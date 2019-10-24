@@ -3,7 +3,7 @@ Description: The CIM\_FileSpecification class represents a file that is either o
 ms.assetid: 25d6cc79-1497-4615-9251-8e00524dff1b
 ms.tgt_platform: multiple
 title: CIM_FileSpecification class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

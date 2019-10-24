@@ -3,7 +3,7 @@ Description: The Privileges property is an SWbemPrivilegeSet object. This proper
 ms.assetid: 6e4cae22-23d6-4981-b38c-d298654e59ab
 ms.tgt_platform: multiple
 title: SWbemSecurity.Privileges property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

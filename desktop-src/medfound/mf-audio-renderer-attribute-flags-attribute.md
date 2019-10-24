@@ -2,7 +2,7 @@
 Description: Contains flags to configure the audio renderer.
 ms.assetid: 07433904-1bf6-4e8d-9571-8d663bf4fd13
 title: MF_AUDIO_RENDERER_ATTRIBUTE_FLAGS attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

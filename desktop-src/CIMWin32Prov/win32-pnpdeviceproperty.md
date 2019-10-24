@@ -3,7 +3,7 @@ Description: The base type for classes representing a property returned by the W
 ms.assetid: f636c106-6ca6-407f-804a-0ec554ed565c
 ms.tgt_platform: multiple
 title: Win32_PnPDeviceProperty class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

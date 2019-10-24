@@ -2,7 +2,7 @@
 Description: The CopyPalette method copies the palette from any VIDEOINFO structure to any palettized VIDEOINFO structure.
 ms.assetid: ea06b40b-3f96-4c11-921c-52f3a44e0a30
 title: CImagePalette.CopyPalette method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

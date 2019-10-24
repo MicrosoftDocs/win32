@@ -2,7 +2,7 @@
 Description: The user input devices are represented by these classes. A virtual machine always has one instance of each class associated with it.
 ms.assetid: FFCA890D-6102-47BB-B499-4B9D77D75E9B
 title: Input classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

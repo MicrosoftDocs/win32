@@ -2,7 +2,7 @@
 Description: Returns the identity quaternion.
 ms.assetid: 8088897b-5755-4ea0-afef-bd49d1921f5c
 title: D3DXQuaternionIdentity function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

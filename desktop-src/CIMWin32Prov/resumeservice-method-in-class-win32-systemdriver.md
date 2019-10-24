@@ -3,7 +3,7 @@ Description: Attempts to place the service managed by the system driver in the r
 ms.assetid: 16bacf06-4236-4d58-9b09-cb86bb73d78a
 ms.tgt_platform: multiple
 title: ResumeService method of the Win32_SystemDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

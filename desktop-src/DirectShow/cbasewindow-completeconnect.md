@@ -2,7 +2,7 @@
 Description: The CompleteConnect method notifies the window that the renderer's input pin has been connected.
 ms.assetid: 82347ded-eb37-4360-9333-7c837d532115
 title: CBaseWindow.CompleteConnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

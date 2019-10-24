@@ -2,7 +2,7 @@
 Description: Specifies whether machines use the built-in automatic configuration (AutoConfig) service to manage wireless connections.
 ms.assetid: c255e0a0-65ae-44a8-95cb-1a000394109d
 title: enableAutoConfig (globalFlags) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

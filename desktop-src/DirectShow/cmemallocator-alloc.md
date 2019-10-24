@@ -2,7 +2,7 @@
 Description: The Alloc method allocates memory for the buffers.
 ms.assetid: 81886163-2f7d-4d4f-be90-4491f76b8514
 title: CMemAllocator.Alloc method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

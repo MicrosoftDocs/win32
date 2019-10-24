@@ -2,7 +2,7 @@
 Description: The MPEG-4 file sink creates MP4 files.
 ms.assetid: 069b8e72-d081-466e-ac8d-c3f81c8a6f35
 title: MPEG-4 File Sink
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

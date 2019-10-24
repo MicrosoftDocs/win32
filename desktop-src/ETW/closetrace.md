@@ -2,7 +2,7 @@
 Description: The CloseTrace function closes a trace.
 ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec
 title: CloseTrace function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Replaces the current CHV (card holder verification) code with new CHV code.
 ms.assetid: 8d47d842-67e8-4948-a63b-49bcfc8a69a1
 title: ISCardVerify::ChangeCode method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

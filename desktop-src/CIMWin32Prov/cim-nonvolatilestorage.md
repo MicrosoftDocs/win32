@@ -3,7 +3,7 @@ Description: The CIM\_NonVolatileStorage class represents the capabilities and m
 ms.assetid: 39158b31-31f7-460c-aef1-1ca423badad6
 ms.tgt_platform: multiple
 title: CIM_NonVolatileStorage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

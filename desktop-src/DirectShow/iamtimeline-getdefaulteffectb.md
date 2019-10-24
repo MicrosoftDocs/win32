@@ -2,7 +2,7 @@
 Description: The GetDefaultEffectB method retrieves the default effect. This method is equivalent to IAMTimeline::GetDefaultEffect, but receives a BSTR value rather than a GUID.
 ms.assetid: 62c37a61-9875-4140-8552-83d82c060715
 title: IAMTimeline::GetDefaultEffectB method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

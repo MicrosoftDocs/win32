@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_SettingCheck class evaluates a partic
 ms.assetid: b2a9baea-cc5c-43d9-a93c-e3a77823d705
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_SettingCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The SetSubtype method specifies the subtype.
 ms.assetid: cf52e0dc-d75b-408e-a63c-481d55151d4a
 title: CMediaType.SetSubtype method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

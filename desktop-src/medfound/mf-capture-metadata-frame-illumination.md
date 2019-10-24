@@ -2,7 +2,7 @@
 Description: A value indicating whether a frame was captured using active infrared (IR) illumination.
 ms.assetid: D84772C8-902F-4302-8288-0430892A1896
 title: MF_CAPTURE_METADATA_FRAME_ILLUMINATION attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

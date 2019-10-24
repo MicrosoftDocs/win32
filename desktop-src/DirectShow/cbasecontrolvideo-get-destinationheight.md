@@ -2,7 +2,7 @@
 Description: The get\_DestinationHeight method retrieves the current destination rectangle height.
 ms.assetid: 0001d98a-3a5c-47f1-8f5e-ce464d64131a
 title: CBaseControlVideo.get_DestinationHeight method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

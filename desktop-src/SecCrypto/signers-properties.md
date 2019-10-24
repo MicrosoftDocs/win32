@@ -2,7 +2,7 @@
 Description: The Signers object exposes the following properties.
 ms.assetid: 5AA19BFB-F340-45C2-B4AE-D4FBFB8E4D83
 title: Signers Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

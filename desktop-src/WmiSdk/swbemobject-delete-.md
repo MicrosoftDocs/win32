@@ -3,7 +3,7 @@ Description: The Delete\_ method of the SWbemObject object deletes either the cu
 ms.assetid: bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb
 ms.tgt_platform: multiple
 title: SWbemObject.Delete_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

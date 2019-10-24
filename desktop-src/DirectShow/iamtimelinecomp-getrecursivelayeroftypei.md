@@ -2,7 +2,7 @@
 Description: Not supported. Call the IAMTimelineComp::GetRecursiveLayerOfType method instead.
 ms.assetid: 857f57e2-6123-43c3-bb74-62afd0fc0b52
 title: IAMTimelineComp::GetRecursiveLayerOfTypeI method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

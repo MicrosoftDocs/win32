@@ -2,7 +2,7 @@
 Description: Generates functions to create typed proxies.
 ms.assetid: 75a686ba-8112-4093-8a1b-13419018aa3a
 title: proxyBuilderImplementations element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

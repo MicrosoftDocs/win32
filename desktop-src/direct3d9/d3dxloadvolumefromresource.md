@@ -2,7 +2,7 @@
 Description: Loads a volume from a resource.
 ms.assetid: 3fa1243b-5e31-4737-8d3c-08852d6528d9
 title: D3DXLoadVolumeFromResource function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -2,7 +2,7 @@
 Description: Builds a transformation matrix. NULL arguments are treated as identity transformations.
 ms.assetid: 39042fc6-f489-4e44-ad3f-858ca395575d
 title: D3DXMatrixTransformation function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

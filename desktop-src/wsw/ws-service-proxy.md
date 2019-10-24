@@ -4,7 +4,7 @@ description: An opaque type used to reference a service proxy.
 ms.assetid: 623766ae-fe82-40f9-93c8-e78fe48bc6d1
 keywords:
 - WS_SERVICE_PROXY
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

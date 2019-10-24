@@ -2,7 +2,7 @@
 Description: Copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
 ms.assetid: D374F14D-24C7-4771-AD40-3AC37E7A2D2F
 title: RtlMoveMemory function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

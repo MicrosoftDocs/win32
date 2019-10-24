@@ -3,7 +3,7 @@ Description: The Value property of the SWbemNamedValue object returns the varian
 ms.assetid: f9609bd2-893a-48c3-9faa-93cd033c4109
 ms.tgt_platform: multiple
 title: SWbemNamedValue.Value property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

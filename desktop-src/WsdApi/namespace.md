@@ -2,7 +2,7 @@
 Description: Describes a namespace.
 ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

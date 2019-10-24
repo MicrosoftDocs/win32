@@ -2,7 +2,7 @@
 Description: A callback function that must be implemented by a user to set a vertex shader.
 ms.assetid: 8f3d3be3-c073-441d-a318-6d2cd5e7aca5
 title: ID3DXEffectStateManager::SetVertexShader method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

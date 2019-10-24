@@ -2,7 +2,7 @@
 Description: Occurs when a new civic address report is generated.
 ms.assetid: a8df870e-6744-4e8a-a103-56b446da135f
 title: NewCivicAddressReport event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

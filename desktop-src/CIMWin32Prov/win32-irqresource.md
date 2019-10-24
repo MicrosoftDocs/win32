@@ -3,7 +3,7 @@ Description: The Win32\_IRQResource &\#160;WMI class represents an interrupt req
 ms.assetid: bae0c28e-2b66-40ac-9679-b2dfe9269306
 ms.tgt_platform: multiple
 title: Win32_IRQResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

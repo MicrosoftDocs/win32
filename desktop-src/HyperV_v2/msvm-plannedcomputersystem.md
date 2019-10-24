@@ -2,7 +2,7 @@
 Description: Represents a planned virtual machine.
 ms.assetid: 4ce6d34c-66fb-4f4f-bf52-26d19bab6d4a
 title: Msvm_PlannedComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

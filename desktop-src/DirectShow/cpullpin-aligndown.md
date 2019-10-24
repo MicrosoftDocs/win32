@@ -2,7 +2,7 @@
 Description: The AlignDown method truncates a value to a specified alignment boundary.
 ms.assetid: f0efdedb-67ec-49d6-92a8-54485aa04e15
 title: CPullPin.AlignDown method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

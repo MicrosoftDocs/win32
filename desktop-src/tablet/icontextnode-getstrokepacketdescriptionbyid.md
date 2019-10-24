@@ -2,7 +2,7 @@
 Description: Retrieves an array containing the packet property identifiers for the specified stroke.
 ms.assetid: 169e3ce3-fb81-4ed6-b380-ef0d12444ba7
 title: IContextNode::GetStrokePacketDescriptionById method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

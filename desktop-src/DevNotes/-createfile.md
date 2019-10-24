@@ -2,7 +2,7 @@
 Description: Creates or opens a file.
 ms.assetid: 2a993f45-7f87-4b9e-bccc-277477558d3c
 title: '_CreateFile function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

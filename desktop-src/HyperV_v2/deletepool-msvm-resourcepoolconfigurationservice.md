@@ -2,7 +2,7 @@
 Description: Deletes a resource pool.
 ms.assetid: bc3111a4-9687-49ec-890e-190358230c53
 title: DeletePool method of the Msvm_ResourcePoolConfigurationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

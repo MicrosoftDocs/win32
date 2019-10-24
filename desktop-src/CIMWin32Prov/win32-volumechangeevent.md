@@ -3,7 +3,7 @@ Description: The Win32\_VolumeChangeEvent represents a local drive event that re
 ms.assetid: 38595319-d7a1-4dcd-9ad8-a27cc484b699
 ms.tgt_platform: multiple
 title: Win32_VolumeChangeEvent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

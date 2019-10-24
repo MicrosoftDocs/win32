@@ -2,7 +2,7 @@
 Description: Flags indicating the method the rasterizer uses to create an image on a surface.
 ms.assetid: 55cf790e-ebe9-4791-a2be-a90fc76bae57
 title: D3DSCANLINEORDERING enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

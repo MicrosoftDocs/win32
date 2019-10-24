@@ -3,7 +3,7 @@ Description: An abstract base class for the preinstalled, calculated data classe
 ms.assetid: 4eb6ad42-0f68-44f4-be19-095c51b4b1b6
 ms.tgt_platform: multiple
 title: Win32_PerfFormattedData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

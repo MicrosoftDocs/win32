@@ -2,7 +2,7 @@
 Description: Ends a scene.
 ms.assetid: f721593e-6cba-4569-8276-6a4ffc0fc37a
 title: ID3DXRenderToSurface::EndScene method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

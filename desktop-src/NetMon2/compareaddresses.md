@@ -2,7 +2,7 @@
 Description: The CompareAddresses function compares two addresses, indicating that one of the addresses is greater than, less than, or equal to the other address.
 ms.assetid: 76ff37d2-714f-4bac-adcc-eab78c8f25d3
 title: CompareAddresses function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

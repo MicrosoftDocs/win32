@@ -2,7 +2,7 @@
 Description: This template is instantiated on a per-mesh basis, holding information about which vertices in the mesh are duplicates of each other.
 ms.assetid: dd30b3d6-767a-4d87-9b5c-1324738bcbb2
 title: FaceAdjacency
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

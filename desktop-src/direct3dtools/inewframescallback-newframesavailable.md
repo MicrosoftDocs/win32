@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: INewFramesCallback::NewFramesAvailable method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: B765A865-5E71-45E0-A35D-E7FE43A9ACD3
 api_name: 

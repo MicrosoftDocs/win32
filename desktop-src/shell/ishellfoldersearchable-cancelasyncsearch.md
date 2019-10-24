@@ -1,7 +1,7 @@
 ---
 Description: Begins the process of canceling a pending asynchronous search.
 title: IShellFolderSearchable::CancelAsyncSearch method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

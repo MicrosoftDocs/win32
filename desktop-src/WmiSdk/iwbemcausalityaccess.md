@@ -3,7 +3,7 @@ Description: Keeps track of child requests that are generated from a parent requ
 ms.assetid: e1d98eae-6fc1-489b-aa8b-2e86bac5c65a
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

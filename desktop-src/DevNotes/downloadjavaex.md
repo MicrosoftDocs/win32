@@ -2,7 +2,7 @@
 Description: Downloads the .cab file signature, verifies the permissions associated with the packages, and executes them based on authentication.
 ms.assetid: b86a8f39-73a1-4e17-ac83-9ed095de4922
 title: DownloadJavaEX function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

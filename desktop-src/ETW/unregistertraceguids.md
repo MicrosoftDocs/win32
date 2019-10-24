@@ -2,7 +2,7 @@
 Description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
 title: UnregisterTraceGuids function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

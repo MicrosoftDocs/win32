@@ -2,7 +2,7 @@
 Description: Specifies the highest volume level occurring in audio content.
 ms.assetid: 177311c4-c348-4d38-8c8d-b6690643529c
 title: MFPKEY_WMADRC_PEAKREF Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The TAPI LINE_MONITORMEDIA message is sent when a change in the calls media type is detected. The sending of this message is controlled with the lineMonitorMedia function
 ms.assetid: 1cfba455-9a15-45f3-8d56-74b8348e080e
 title: LINE_MONITORMEDIA message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Provides COM-standard methods to manage protected storage data items.
 ms.assetid: 6a4200ed-c3cf-4d6c-8936-22261e670087
 title: IPStore interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

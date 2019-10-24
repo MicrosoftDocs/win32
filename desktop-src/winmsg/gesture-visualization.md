@@ -2,7 +2,7 @@
 Description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed gestures is detected.
 ms.assetid: 76D3DFF4-7BB2-49A9-8251-0B5D9376B649
 title: Gesture Visualization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

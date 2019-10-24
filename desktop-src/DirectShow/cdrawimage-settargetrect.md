@@ -2,7 +2,7 @@
 Description: The SetTargetRect method sets the target rectangle.
 ms.assetid: 033f8bae-e63d-4be0-8dd0-715cc1229392
 title: CDrawImage.SetTargetRect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

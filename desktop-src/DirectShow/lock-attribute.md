@@ -2,7 +2,7 @@
 Description: The lock attribute specifies whether an object should be edited. If the value is TRUE, the application should treat the object as locked, and disallow changes to that object or its children. The default value is FALSE.
 ms.assetid: 1aa92665-ab3b-4f04-9e6b-905942c197ef
 title: lock Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

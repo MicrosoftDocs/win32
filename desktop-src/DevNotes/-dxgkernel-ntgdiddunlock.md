@@ -2,7 +2,7 @@
 Description: Releases the lock held on the specified surface.
 ms.assetid: d9d3178b-aadd-4c33-8044-8e6362f9fefe
 title: NtGdiDdUnlock function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

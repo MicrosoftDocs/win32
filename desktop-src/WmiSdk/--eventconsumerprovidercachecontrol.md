@@ -3,7 +3,7 @@ Description: Determines when WMI should release an event consumer provider.
 ms.assetid: 93246826-8070-4e05-96f0-f773041ed1d4
 ms.tgt_platform: multiple
 title: '__EventConsumerProviderCacheControl class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Critical section that locks data shared among threads.
 ms.assetid: 87966d7d-6677-462f-93bc-fedda7f0bdcf
 title: CAMThread::m_WorkerLock member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

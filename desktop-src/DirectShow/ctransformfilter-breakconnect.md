@@ -2,7 +2,7 @@
 Description: The BreakConnect method releases a pin from a connection.
 ms.assetid: cc384786-9cba-4f68-9c60-740205b35661
 title: CTransformFilter.BreakConnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

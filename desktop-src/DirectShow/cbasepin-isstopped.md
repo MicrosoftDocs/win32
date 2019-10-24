@@ -2,7 +2,7 @@
 Description: The IsStopped method determines whether the filter containing this pin is stopped.
 ms.assetid: ffeac352-2f9b-44be-a8e8-7e9238d0b18e
 title: CBasePin.IsStopped method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

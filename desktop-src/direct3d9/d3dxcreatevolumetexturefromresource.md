@@ -2,7 +2,7 @@
 Description: Creates a volume texture from a resource.
 ms.assetid: 82a0b7aa-69fa-450d-b0d2-769f05fd75ea
 title: D3DXCreateVolumeTextureFromResource function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

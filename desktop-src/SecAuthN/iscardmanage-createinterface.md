@@ -2,7 +2,7 @@
 Description: Creates the specified interface.
 ms.assetid: f4cfc407-b006-46a2-9751-834b532309ec
 title: ISCardManage::CreateInterface method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

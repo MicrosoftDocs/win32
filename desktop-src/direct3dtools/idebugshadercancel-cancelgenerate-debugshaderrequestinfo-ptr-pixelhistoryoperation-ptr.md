@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IDebugShaderCancel::CancelGenerate method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 10DA5080-3AA6-47AA-BFE7-774BC26C7F95
 api_name: 

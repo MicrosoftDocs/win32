@@ -3,7 +3,7 @@ Description: The CIM\_Refrigeration class represents the capabilities and manage
 ms.assetid: 3ea557d8-6af3-4851-b667-a9afc1219cc7
 ms.tgt_platform: multiple
 title: CIM_Refrigeration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

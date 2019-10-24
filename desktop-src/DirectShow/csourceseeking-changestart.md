@@ -2,7 +2,7 @@
 Description: The ChangeStart method is called when the start position changes.
 ms.assetid: d0a5497e-43e9-4d1f-9106-1f4cd8fcb372
 title: CSourceSeeking.ChangeStart method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

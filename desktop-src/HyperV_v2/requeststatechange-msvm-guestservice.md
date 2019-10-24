@@ -2,7 +2,7 @@
 Description: Requests that the state of the guest service be changed to the specified value.
 ms.assetid: F2853BB3-4074-431C-9E10-26AA0757FE99
 title: Msvm_GuestService::RequestStateChange method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Options for enumerating display modes.
 ms.assetid: 7e0f5629-f8e2-478b-b8eb-00780a3dcf1f
 title: DXGI_ENUM_MODES
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

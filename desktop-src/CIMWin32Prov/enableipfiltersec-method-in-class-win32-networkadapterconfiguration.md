@@ -3,7 +3,7 @@ Description: The EnableIPFilterSec WMI class static method is used to enable Int
 ms.assetid: 565acc18-61e7-473e-b2cc-41f0e8c29193
 ms.tgt_platform: multiple
 title: EnableIPFilterSec method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

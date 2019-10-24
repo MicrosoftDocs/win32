@@ -2,7 +2,7 @@
 Description: Requests a reset.
 ms.assetid: 991a911c-30a3-46f9-8a70-62cceb912897
 title: Reset method of the Msvm_DisketteController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Provides access to layout analysis, writing and drawing classification, and handwriting recognition.
 ms.assetid: 3a19db78-df14-43c2-9e3e-8cf674aa7b9c
 title: IInkAnalyzer interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

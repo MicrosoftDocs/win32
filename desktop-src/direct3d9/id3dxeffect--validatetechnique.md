@@ -2,7 +2,7 @@
 Description: Validate a technique.
 ms.assetid: d69eaafa-da4d-4599-86fb-83d72e1664cc
 title: ID3DXEffect::ValidateTechnique method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

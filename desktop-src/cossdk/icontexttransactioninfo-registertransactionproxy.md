@@ -2,7 +2,7 @@
 Description: Associates an ITransactionProxy implementation with the current context.
 ms.assetid: 64009632-b536-41fb-95ac-b23e2cbf18da
 title: IContextTransactionInfo::RegisterTransactionProxy method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

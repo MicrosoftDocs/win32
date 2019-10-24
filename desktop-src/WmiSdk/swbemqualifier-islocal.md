@@ -3,7 +3,7 @@ Description: The IsLocal property of the SWbemQualifier object is a Boolean valu
 ms.assetid: ee403bcb-894f-47b7-88cc-d354e20b4e36
 ms.tgt_platform: multiple
 title: SWbemQualifier.IsLocal property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

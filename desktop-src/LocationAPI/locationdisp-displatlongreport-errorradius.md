@@ -2,7 +2,7 @@
 Description: A distance from the reported location, in meters. Combined with the reported location as the origin, this radius describes the circle in which the actual location is probably located.
 ms.assetid: a9565bd5-d1e0-45f8-abeb-3191b16480fa
 title: LocationDisp.DispLatLongReport.ErrorRadius property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Sorts a list of IP addresses.
 ms.assetid: 1266d6f3-e9f5-4e6b-9431-7329df156f0a
 title: sortIpAddressList function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

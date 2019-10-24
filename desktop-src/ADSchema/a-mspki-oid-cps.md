@@ -12,7 +12,7 @@ api_name:
 - ms-PKI-OID-CPS
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

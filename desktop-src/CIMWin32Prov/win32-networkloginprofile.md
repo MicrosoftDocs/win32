@@ -3,7 +3,7 @@ Description: The Win32\_NetworkLoginProfile&\#8194;WMI class represents the netw
 ms.assetid: e5a8e934-d5a7-43fa-b140-c3cca972590f
 ms.tgt_platform: multiple
 title: Win32_NetworkLoginProfile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

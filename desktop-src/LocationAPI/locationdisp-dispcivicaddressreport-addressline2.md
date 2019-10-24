@@ -2,7 +2,7 @@
 Description: The second line of a street address.
 ms.assetid: 9f53d16e-0b07-4dc9-9fc7-c656fa22e10c
 title: LocationDisp.DispCivicAddressReport.AddressLine2 property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

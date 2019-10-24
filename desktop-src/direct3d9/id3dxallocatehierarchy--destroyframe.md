@@ -2,7 +2,7 @@
 Description: Requests deallocation of a frame object.
 ms.assetid: b2793744-1bba-4a2b-938c-44ed316358fd
 title: ID3DXAllocateHierarchy::DestroyFrame method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

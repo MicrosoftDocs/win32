@@ -2,7 +2,7 @@
 Description: The Clear method clears the application protocol data unit (APDU) and reply APDU message buffers.
 ms.assetid: 5fd3ebb9-b492-4668-9dd8-3ffbcfceb12c
 title: ISCardCmd::Clear method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

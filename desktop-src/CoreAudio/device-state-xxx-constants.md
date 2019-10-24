@@ -2,7 +2,7 @@
 Description: The DEVICE\_STATE\_XXX constants indicate the current state of an audio endpoint device.
 ms.assetid: d03f2fbc-313a-42cf-902a-fd9f6dce2a35
 title: DEVICE_STATE_XXX Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

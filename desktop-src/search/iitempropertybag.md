@@ -2,7 +2,7 @@
 Description: Defines methods to obtain information about the properties of a search item. This interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 ms.assetid: 0fef34c5-f20f-475a-9223-5cb73079c842
 title: IItemPropertyBag interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

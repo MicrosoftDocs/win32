@@ -2,7 +2,7 @@
 Description: The m\_DibData member variable is a DIBDATA structure that contains information about a GDI device-independent bitmap (DIB).
 ms.assetid: a7fd79c9-d041-4888-a898-11252d9d8131
 title: CImageSample::m_DibData member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

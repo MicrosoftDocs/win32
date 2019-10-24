@@ -2,7 +2,7 @@
 Description: The get\_OffsetY method retrieves the vertical offset of the target rectangle.
 ms.assetid: 78bb3565-7a98-4a64-a2f2-6c34edb47733
 title: IDxtCompositor::get_OffsetY method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

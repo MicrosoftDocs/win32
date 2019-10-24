@@ -3,7 +3,7 @@ Description: The Security\_ property of the SWbemObjectSet object is used to get
 ms.assetid: ee2ad6d5-c0aa-4510-ba1b-4a152d56011f
 ms.tgt_platform: multiple
 title: SWbemObjectSet.Security_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

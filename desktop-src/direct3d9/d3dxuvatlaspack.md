@@ -2,7 +2,7 @@
 Description: Pack mesh partitioning data into an atlas.
 ms.assetid: 4da85626-c36c-44d9-990b-0db80ed04423
 title: D3DXUVAtlasPack function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

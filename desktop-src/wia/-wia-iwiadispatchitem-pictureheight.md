@@ -2,7 +2,7 @@
 Description: The height, in pixels, of images produced by this digital camera. Applies only to digital cameras. Read-only.
 ms.assetid: ab6bc5fc-4301-46e1-88dc-692702dbe374
 title: Item.PictureHeight property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

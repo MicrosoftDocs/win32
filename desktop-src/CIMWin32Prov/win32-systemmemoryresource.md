@@ -3,7 +3,7 @@ Description: The Win32\_SystemMemoryResource abstract WMI class represents a sys
 ms.assetid: a834a1e4-f3e4-4b57-9521-98520c301016
 ms.tgt_platform: multiple
 title: Win32_SystemMemoryResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -2,7 +2,7 @@
 Description: A list of structures that contain the values of the counters in the parent counter set.
 ms.assetid: e6fb5cc1-08c9-4f8f-9072-ad21908ab3cb
 title: structs (counterSet) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

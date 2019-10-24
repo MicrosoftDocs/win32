@@ -2,7 +2,7 @@
 Description: This class is the event type class for system call enter events. The following syntax is simplified from MOF code.
 ms.assetid: 1ab32977-3f59-4816-b311-67142475dff2
 title: SysCallEnter class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

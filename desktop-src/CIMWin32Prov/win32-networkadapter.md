@@ -3,7 +3,7 @@ Description: The Win32\_NetworkAdapter class is deprecated. Use the MSFT\_NetAda
 ms.assetid: f79cb2a1-a249-479d-a495-37a44fdea995
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapter class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Gets the XML format of an unattached reference to the token.
 ms.assetid: D5D61ED7-68FB-4FC0-9C2A-90D3B1219351
 title: IUpdateEndpointAuthToken::TokenReferenceUnattached method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

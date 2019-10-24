@@ -2,7 +2,7 @@
 Description: Is used as a handle to a CryptoAPI cryptographic service provider (CSP) or CNG CSP.
 ms.assetid: 1ad77adb-5960-4965-bddb-5967b982b034
 title: HCRYPTPROV_OR_NCRYPT_KEY_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

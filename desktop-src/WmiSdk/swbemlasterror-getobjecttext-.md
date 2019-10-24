@@ -3,7 +3,7 @@ Description: The GetObjectText\_ method of the SWbemLastError object returns a t
 ms.assetid: efe3f3f6-c2f2-4295-bbf3-60d5b06ef98f
 ms.tgt_platform: multiple
 title: SWbemLastError.GetObjectText_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The Resume method restarts a paused capture.
 ms.assetid: 685dfdee-3bd0-44b3-ac4f-c9960cf77c5c
 title: IRTC::Resume method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

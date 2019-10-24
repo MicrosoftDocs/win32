@@ -3,7 +3,7 @@ Description: Modifies the start mode of a Win32\_SystemDriver service.
 ms.assetid: 34f4e0ac-d8a0-4be7-8c84-0252e50db441
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_SystemDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

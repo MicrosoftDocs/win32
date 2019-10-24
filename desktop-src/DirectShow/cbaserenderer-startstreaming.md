@@ -2,7 +2,7 @@
 Description: The StartStreaming method initiates streaming when the filter switches to a running state.
 ms.assetid: 198e9c1b-be69-4ba6-aa67-9f24ed080ab6
 title: CBaseRenderer.StartStreaming method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

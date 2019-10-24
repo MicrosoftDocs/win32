@@ -1,7 +1,7 @@
 ---
 Description: Exposes methods that enable a Shell folder to support different views on its content (different hierarchical layouts of its data).
 title: IShellFolderViewType interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

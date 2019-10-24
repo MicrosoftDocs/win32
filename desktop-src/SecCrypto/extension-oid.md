@@ -2,7 +2,7 @@
 Description: The OID property retrieves the object identifier for the extension. This is the default property.
 ms.assetid: 51efd413-f9f0-4577-a554-de6afc32dd87
 title: Extension.OID property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

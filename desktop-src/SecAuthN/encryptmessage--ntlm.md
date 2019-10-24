@@ -2,7 +2,7 @@
 Description: Encrypts a message to provide privacy by using NTLM.
 ms.assetid: 852a4624-792d-4f7d-bd3e-5a28692e2ef3
 title: EncryptMessage (NTLM) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

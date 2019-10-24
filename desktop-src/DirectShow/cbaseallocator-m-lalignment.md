@@ -2,7 +2,7 @@
 Description: Alignment of each buffer. The address of each buffer must be an even multiple of this value. The prefix must be calculated into the alignment; see CBaseAllocator::m\_lPrefix.
 ms.assetid: 2b71b60a-feeb-4f09-bd56-e126eac8e150
 title: CBaseAllocator::m_lAlignment member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

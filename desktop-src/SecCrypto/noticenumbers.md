@@ -2,7 +2,7 @@
 Description: Represents a collection of Extension objects.
 ms.assetid: b0d69df9-12c4-4872-b883-b029c4350502
 title: NoticeNumbers object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

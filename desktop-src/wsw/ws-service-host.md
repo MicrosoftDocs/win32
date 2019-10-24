@@ -4,7 +4,7 @@ description: An opaque type used to reference a service host.
 ms.assetid: 1186e3ae-87d0-4d0b-a7cc-cce63dc091e2
 keywords:
 - WS_SERVICE_HOST
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

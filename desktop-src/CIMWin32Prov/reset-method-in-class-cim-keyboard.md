@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Keyboard class requests a reset of the
 ms.assetid: 737bd50c-8e40-4f60-9deb-587b6f37c151
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Keyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

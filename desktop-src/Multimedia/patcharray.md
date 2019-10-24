@@ -4,7 +4,7 @@ description: PATCHARRAY is a type used to define an array of MIDI patches.
 ms.assetid: f48ee0d2-224a-4530-ac28-ae63160316cc
 keywords:
 - PATCHARRAY MIDIPATCHSIZE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

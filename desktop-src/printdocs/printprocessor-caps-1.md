@@ -2,7 +2,7 @@
 Description: The PRINTPROCESSOR\_CAPS\_1 structure is the format for the printer capability information that is returned by the GetPrinterData function in the buffer specified by the pData variable.
 ms.assetid: 43c568ff-ccc9-4873-b159-ede09b4a7e51
 title: PRINTPROCESSOR_CAPS_1 structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

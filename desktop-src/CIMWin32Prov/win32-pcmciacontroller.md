@@ -3,7 +3,7 @@ Description: The Win32\_PCMCIAController &\#32; WMI class manages the capabiliti
 ms.assetid: 541f8ebd-e976-425a-817a-72ab151e8b93
 ms.tgt_platform: multiple
 title: Win32_PCMCIAController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The Inactive method notifies the pin that the filter is no longer active.
 ms.assetid: 71847578-2271-4243-87c4-9f14b33f770c
 title: CBasePin.Inactive method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

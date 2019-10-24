@@ -2,7 +2,7 @@
 Description: Specifies a numeric representation of the tradeoff between motion smoothness and image quality of codec output.
 ms.assetid: 63915450-71c5-4097-91d7-5817249c1cda
 title: MFPKEY_CRISP Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

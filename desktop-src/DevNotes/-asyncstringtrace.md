@@ -2,7 +2,7 @@
 Description: Finishes setting up a trace buffer with optional fields for sprintf-style traces.
 ms.assetid: a5f3ecbe-d335-4fd0-99aa-4d5a748ca4e1
 title: AsyncStringTrace function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

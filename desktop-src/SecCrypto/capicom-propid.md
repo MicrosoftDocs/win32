@@ -2,7 +2,7 @@
 Description: Defines the CAPICOM property identifiers.
 ms.assetid: faf10018-3ed8-4de6-9838-c553626f6dd7
 title: CAPICOM_PROPID enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Use this method to re-acquire resources and save initial state.
 ms.assetid: 782f3537-f61c-4faa-a0b8-d60c516ba241
 title: ID3DXEffect::OnResetDevice method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

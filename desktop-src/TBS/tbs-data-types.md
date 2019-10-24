@@ -7,7 +7,7 @@ keywords:
 - TBS_COMMAND_PRIORITY
 - TBS_COMMAND_LOCALITY
 - TBS_OWNERAUTH_TYPE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

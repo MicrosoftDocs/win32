@@ -2,7 +2,7 @@
 Description: The MatchesPartial method determines if this media type matches a partially specified media type.
 ms.assetid: 62d531f3-5aa2-4af2-b951-584a49a849fc
 title: CMediaType.MatchesPartial method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The GetTargetRect method retrieves the current destination rectangle.
 ms.assetid: b6542b06-af36-4666-b6fa-d9fa3c6c7044
 title: CDrawImage.GetTargetRect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

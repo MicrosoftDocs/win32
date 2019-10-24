@@ -3,7 +3,7 @@ Description: The CIM\_BootServiceAccessBySAP class associates a boot service and
 ms.assetid: 993469dd-fb9c-4d21-99e0-03c4b19eb7fd
 ms.tgt_platform: multiple
 title: CIM_BootServiceAccessBySAP class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

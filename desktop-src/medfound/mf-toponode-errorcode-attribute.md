@@ -2,7 +2,7 @@
 Description: Contains the error code from the most recent connection failure for this toplogy node.
 ms.assetid: fae90e06-0ae0-43a1-aaf2-7a2d1dabc79b
 title: MF_TOPONODE_ERRORCODE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

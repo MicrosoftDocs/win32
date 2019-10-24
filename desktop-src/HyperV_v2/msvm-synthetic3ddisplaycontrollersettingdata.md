@@ -2,7 +2,7 @@
 Description: Represents settings for a synthetic 3-D display controller for a virtual machine.
 ms.assetid: 7162AEED-90CB-41C3-BD44-8B552C00F597
 title: Msvm_Synthetic3DDisplayControllerSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

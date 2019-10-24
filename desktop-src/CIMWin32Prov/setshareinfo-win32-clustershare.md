@@ -3,7 +3,7 @@ Description: Sets the parameters of the shared resource.
 ms.assetid: 592d0fa6-c865-4f70-89c3-b58204a8c5a6
 ms.tgt_platform: multiple
 title: SetShareInfo method of the Win32_ClusterShare class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

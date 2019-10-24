@@ -2,7 +2,7 @@
 Description: Remotable version of the IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS method.
 ms.assetid: cb15129e-a3ad-4351-a7d6-dd4b883437bd
 title: RemoteEndRegisterPlatformWorkQueueWithMMCSS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

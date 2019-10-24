@@ -2,7 +2,7 @@
 Description: Contains an object for each method on the interface to which the collection is related.
 ms.assetid: e64b007f-e44d-4b6b-97b2-1e017c5a7dbe
 title: MethodsForInterface collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

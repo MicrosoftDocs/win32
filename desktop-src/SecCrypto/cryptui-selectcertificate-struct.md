@@ -2,7 +2,7 @@
 Description: Contains information about the dialog box displayed by the CryptUIDlgSelectCertificate function.
 ms.assetid: 073a67a0-427b-4b81-82a0-1bb0a216a335
 title: CRYPTUI_SELECTCERTIFICATE_STRUCT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

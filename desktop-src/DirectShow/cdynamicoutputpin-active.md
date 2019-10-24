@@ -2,7 +2,7 @@
 Description: The Active method notifies the pin that the filter is now active.
 ms.assetid: c2b8eb54-1bae-4f52-8324-dc70e3cac577
 title: CDynamicOutputPin.Active method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The read-only PatchTransforms property returns the semi-colon delimited list of transforms that are in the specified patch package and applied to the specified product.
 ms.assetid: 6f5d3d67-30eb-41f3-b878-de61edcf6de3
 title: Installer.PatchTransforms property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

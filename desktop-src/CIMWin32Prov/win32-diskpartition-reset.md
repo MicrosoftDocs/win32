@@ -3,7 +3,7 @@ Description: Requests a reset of the logical device. This method is inherited fr
 ms.assetid: 2ad40b35-608f-4918-ac66-e3dc53ebe0bb
 ms.tgt_platform: multiple
 title: Reset method of the Win32_DiskPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

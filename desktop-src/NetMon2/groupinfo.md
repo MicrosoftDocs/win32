@@ -2,7 +2,7 @@
 Description: Associates a group name and its handle.
 ms.assetid: 76f3fe37-cf85-42ab-8f9e-3ab2c6053dcd
 title: GROUPINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

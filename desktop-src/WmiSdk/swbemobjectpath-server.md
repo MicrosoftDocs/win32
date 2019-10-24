@@ -3,7 +3,7 @@ Description: The Server property of the SWbemObjectPath object contains the name
 ms.assetid: 8d711bc5-dd5e-426f-8398-38f90655ff75
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Server property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

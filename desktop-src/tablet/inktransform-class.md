@@ -2,7 +2,7 @@
 Description: Represents a 3x3 matrix that, in turn, represents an affine transformation.
 ms.assetid: 79abff2e-d1d3-4a32-9ac2-f46c1b21f742
 title: InkTransform class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

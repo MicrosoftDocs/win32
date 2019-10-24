@@ -3,7 +3,7 @@ Description: The OnProgress event of SWbemSink is triggered when an asynchronous
 ms.assetid: abb43916-f952-41fe-a5ba-0428864c0685
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnProgress event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

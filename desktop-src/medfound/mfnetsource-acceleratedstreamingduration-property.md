@@ -2,7 +2,7 @@
 Description: Duration of accelerated streaming for the network source, in milliseconds.
 ms.assetid: 3f9cd762-f393-4130-ba25-d16da0642093
 title: MFNETSOURCE_ACCELERATEDSTREAMINGDURATION property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

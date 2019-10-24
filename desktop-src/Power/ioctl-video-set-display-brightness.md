@@ -2,7 +2,7 @@
 Description: Sets the current AC and DC backlight levels.
 ms.assetid: baa77811-046d-4a07-b3df-2a31fba2d9a7
 title: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

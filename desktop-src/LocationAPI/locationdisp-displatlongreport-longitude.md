@@ -2,7 +2,7 @@
 Description: Current longitude, in degrees.
 ms.assetid: f4fa1cbb-d682-42ab-9dd8-dff636ea4c8a
 title: LocationDisp.DispLatLongReport.Longitude property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

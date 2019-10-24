@@ -2,7 +2,7 @@
 Description: Specifies the preferred output format for an encoder.
 ms.assetid: 36a09696-3fe7-41a0-93f1-712220f88b04
 title: MFT_PREFERRED_OUTPUTTYPE_Attribute attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The WBEMTime class facilitates conversions between various Windows 
 ms.assetid: b633bc8c-9d02-4bcf-8528-10773fb5ae7a
 ms.tgt_platform: multiple
 title: WBEMTime class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

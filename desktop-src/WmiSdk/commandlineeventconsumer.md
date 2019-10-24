@@ -3,7 +3,7 @@ Description: The CommandLineEventConsumer class starts an arbitrary process in t
 ms.assetid: 0dcae783-1722-45a4-b5d4-3fcf455dacf8
 ms.tgt_platform: multiple
 title: CommandLineEventConsumer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

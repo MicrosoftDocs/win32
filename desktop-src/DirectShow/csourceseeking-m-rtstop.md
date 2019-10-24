@@ -2,7 +2,7 @@
 Description: Stop time. By default, the value is set to a very large number. The derived class can reset the value in its constructor, or when the filter is initialized.
 ms.assetid: 1fddcf84-fd9a-4dad-892c-1b0abbb0ca55
 title: CSourceSeeking::m_rtStop member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

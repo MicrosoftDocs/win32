@@ -2,7 +2,7 @@
 Description: Gets a function description.
 ms.assetid: a1a0ccf4-2428-4e60-9af0-07dc2132a367
 title: ID3DXBaseEffect::GetFunctionDesc method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Serves as the parent class for classes that are used to register cl
 ms.assetid: f7c569be-8927-42a4-b96a-abe4b7e3e23c
 ms.tgt_platform: multiple
 title: '__ObjectProviderRegistration class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The LoadXML method loads property data expressed in Extensible Markup Language (XML).
 ms.assetid: cc67e7e0-a6e0-43d1-b35d-5d64caf24e6e
 title: IPropertySetter::LoadXML method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

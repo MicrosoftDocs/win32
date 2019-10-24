@@ -3,7 +3,7 @@ Description: Gets or sets a value that represents the day component of the datet
 ms.assetid: 60da99bc-560c-45bc-b787-f4bef8e5a509
 ms.tgt_platform: multiple
 title: SWbemDateTime.Day property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

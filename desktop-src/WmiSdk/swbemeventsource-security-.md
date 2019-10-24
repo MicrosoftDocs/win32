@@ -3,7 +3,7 @@ Description: The Security\_ property of the SWbemEventSource object gets or sets
 ms.assetid: 9c906b80-ae54-4bc1-a587-43580d6b26e7
 ms.tgt_platform: multiple
 title: SWbemEventSource.Security_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

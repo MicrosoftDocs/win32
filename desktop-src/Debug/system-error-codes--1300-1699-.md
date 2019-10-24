@@ -2,7 +2,7 @@
 Description: Describes error codes 1300-1699 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 7b04a2ba-7bf9-4bff-93c8-cbb0060e069d
 title: System Error Codes (1300-1699)
-ms.topic: article
+ms.topic: reference
 ms.date: 07/18/2019
 ---
 

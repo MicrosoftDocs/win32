@@ -2,7 +2,7 @@
 Description: The GetMediaTimes2 method retrieves the media start and stop times. This method is equivalent to IAMTimelineSrc::GetMediaTimes, but takes REFTIME values.
 ms.assetid: c3961c2c-7198-44bd-8734-7301a7c5b21e
 title: IAMTimelineSrc::GetMediaTimes2 method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

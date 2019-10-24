@@ -2,7 +2,7 @@
 Description: The PRINTER\_INFO\_4 structure specifies general printer information.The structure can be used to retrieve minimal printer information on a call to EnumPrinters.
 ms.assetid: 81bd0eab-dc1e-4cf1-8f63-3686f1711c1f
 title: PRINTER_INFO_4 structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

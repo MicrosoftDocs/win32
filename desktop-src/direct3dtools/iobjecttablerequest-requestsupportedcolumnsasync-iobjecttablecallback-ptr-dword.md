@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IObjectTableRequest::RequestSupportedColumnsAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 0931C81A-65D5-493E-9F54-C7E98FA2FA6F
 api_name: 

@@ -2,7 +2,7 @@
 Description: The Dolby audio decoder is an MFT that decodes Dolby Digital (AC-3) and Dolby Digital Plus.
 ms.assetid: A968914A-E4C5-4472-8776-C73F5910089A
 title: Dolby Audio Decoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

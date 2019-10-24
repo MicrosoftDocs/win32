@@ -2,7 +2,7 @@
 Description: Debugging and Error Handling
 ms.assetid: 99745b87-68d9-4190-b81f-06e7107925fa
 title: Debugging and Error Handling
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.technology: diagnostics
 ---

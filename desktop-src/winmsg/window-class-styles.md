@@ -2,7 +2,7 @@
 Description: The following are the window class styles.
 ms.assetid: BE908D51-25DD-45d0-B6AA-28B4C627715B
 title: Window Class Styles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The put\_BorderColor method changes the border color.
 ms.assetid: bb19d338-7fd1-448c-be94-1c71d4a9a330
 title: CBaseControlWindow.put_BorderColor method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

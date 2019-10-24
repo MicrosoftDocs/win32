@@ -2,7 +2,7 @@
 Description: Indicates whether PMK caching will be used.
 ms.assetid: 5650c893-6047-4e99-a2be-22722d6a809a
 title: PMKCacheMode (security) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

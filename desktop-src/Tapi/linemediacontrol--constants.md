@@ -2,7 +2,7 @@
 Description: The LINEMEDIACONTROL\_ bit-flag constants describe a set of generic operations on media streams.
 ms.assetid: 1e8aeda8-2810-462a-bfba-0296d854d9aa
 title: LINEMEDIACONTROL_ Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

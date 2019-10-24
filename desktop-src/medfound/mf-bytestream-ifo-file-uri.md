@@ -2,7 +2,7 @@
 Description: 'Contains the URL of the IFO (DVD Information) file specified by the HTTP server in the HTTP header, &\#0034;Pragma: ifoFileURI.dlna.org&\#0034;.'
 ms.assetid: 007e0f4d-fb37-4dec-96a7-311df567eb04
 title: MF_BYTESTREAM_IFO_FILE_URI attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Returns the normalized version of a 3D vector.
 ms.assetid: 420321a2-0c3b-419c-9620-acf184e7b4f0
 title: D3DXVec3Normalize function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

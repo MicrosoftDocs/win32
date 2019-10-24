@@ -2,7 +2,7 @@
 Description: The SetGuidValue method adds a new GUID value (type VT\_CLSID) or overwrites an existing one.
 ms.assetid: 429a83c0-59b6-4e2f-a657-cbec1dfb9070
 title: IPortableDeviceValues::SetGuidValue method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

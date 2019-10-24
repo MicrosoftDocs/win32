@@ -2,7 +2,7 @@
 Description: Retrieves the number of vertices (or texels) sampled.
 ms.assetid: aed87618-03b8-4130-86bb-68eee66b287c
 title: ID3DXPRTCompBuffer::GetNumSamples method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

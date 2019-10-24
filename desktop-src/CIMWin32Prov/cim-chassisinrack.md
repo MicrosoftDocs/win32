@@ -3,7 +3,7 @@ Description: The CIM\_ChassisInRack association represents the &\#0034;containin
 ms.assetid: 1c8a5058-58fe-42e0-b337-7e1a05120789
 ms.tgt_platform: multiple
 title: CIM_ChassisInRack class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

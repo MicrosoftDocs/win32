@@ -3,7 +3,7 @@ Description: The CIM\_CardOnCard association describes relationships about cards
 ms.assetid: a500b29d-d836-4755-b5df-b296e3cbd2ab
 ms.tgt_platform: multiple
 title: CIM_CardOnCard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

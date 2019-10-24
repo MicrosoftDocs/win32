@@ -2,7 +2,7 @@
 Description: Sets an array of nontransposed matrices.
 ms.assetid: 008de62c-3a36-4499-8a0b-9075756395e9
 title: ID3DXBaseEffect::SetMatrixArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

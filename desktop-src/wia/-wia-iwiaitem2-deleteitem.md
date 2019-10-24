@@ -2,7 +2,7 @@
 Description: Removes the current IWiaItem2 object from the device's object tree.
 ms.assetid: 247eb36f-3e5c-4030-8334-1a4028b3eb44
 title: IWiaItem2::DeleteItem method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

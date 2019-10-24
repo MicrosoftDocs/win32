@@ -3,7 +3,7 @@ Description: The Win32\_ProgramGroupOrItem abstract WMI class represents a logic
 ms.assetid: 48ec5436-e931-4f00-ab36-03b04ad33529
 ms.tgt_platform: multiple
 title: Win32_ProgramGroupOrItem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The OnRenderStart method is called when rendering is about to start.
 ms.assetid: 46af24cf-9075-4ebc-a49b-85f8f0c3da6f
 title: CBaseRenderer.OnRenderStart method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

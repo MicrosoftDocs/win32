@@ -2,7 +2,7 @@
 Description: Saves the Certificate objects in the collection.
 ms.assetid: 1d4b7bd5-3ed3-4ace-9894-4e89c5cf844f
 title: Certificates.Save method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

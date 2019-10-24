@@ -3,7 +3,7 @@ Description: Converts a date and time value in the CIM DATETIME format to the VT
 ms.assetid: e63e7acc-89d4-458a-a1ab-4d4a65cf7f8b
 ms.tgt_platform: multiple
 title: SWbemDateTime.GetVarDate method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

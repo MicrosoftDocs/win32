@@ -2,7 +2,7 @@
 Description: The GetAllocator method retrieves the memory allocator proposed by this pin. This method implements the IMemInputPin::GetAllocator method.
 ms.assetid: e9db4aa0-4f53-4ca4-babb-5e0215c7c284
 title: CTransInPlaceInputPin.GetAllocator method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

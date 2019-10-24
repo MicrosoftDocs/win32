@@ -2,7 +2,7 @@
 Description: The DoCreateWindow method creates the window.
 ms.assetid: bbe38a71-bbf7-4380-96a3-074b992a1d1e
 title: CBaseWindow.DoCreateWindow method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Specifies the size of each sample, in bytes, in a media type.
 ms.assetid: 4c28f73d-ff40-4eb9-a45f-57a60df719c6
 title: MF_MT_SAMPLE_SIZE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

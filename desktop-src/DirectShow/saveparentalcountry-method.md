@@ -2,7 +2,7 @@
 Description: The DVDAdm.SaveParentalCountry method saves the application's new parental country/region to the registry.
 ms.assetid: 2185ad7d-c7c1-4d8b-82e7-5ed5fffaff26
 title: SaveParentalCountry Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

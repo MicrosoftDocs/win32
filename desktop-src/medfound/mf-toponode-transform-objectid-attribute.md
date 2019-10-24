@@ -2,7 +2,7 @@
 Description: The class identifier (CLSID) of the Media Foundation transform (MFT) associated with this topology node.
 ms.assetid: 6aa6e649-d23d-4d8d-be80-2b8814b07a57
 title: MF_TOPONODE_TRANSFORM_OBJECTID attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

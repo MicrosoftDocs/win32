@@ -2,7 +2,7 @@
 Description: Represents an association between a service access point and the logical device that implements it.
 ms.assetid: 5510c179-09e6-4762-b9b3-68ed49eafd66
 title: Msvm_FcDeviceSAPImplementation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

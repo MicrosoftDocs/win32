@@ -2,7 +2,7 @@
 Description: Initializes IME Share.
 ms.assetid: 7f58564e-d660-4936-b74c-af4eb93e2442
 title: FInitIMEShare function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

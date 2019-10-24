@@ -3,7 +3,7 @@ Description: Deletes the class or instance specified in the object path.
 ms.assetid: f5ed170e-d002-4dd9-b8b6-b764a7a41a27
 ms.tgt_platform: multiple
 title: SWbemServices.DeleteAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

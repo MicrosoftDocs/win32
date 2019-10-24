@@ -2,7 +2,7 @@
 Description: Defines per-stage texture-blending operations.
 ms.assetid: 7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3
 title: D3DTEXTUREOP enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

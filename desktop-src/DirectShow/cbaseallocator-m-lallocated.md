@@ -2,7 +2,7 @@
 Description: Number of buffers currently allocated.
 ms.assetid: 6a3d0948-7e03-4f41-8014-fa15d4578014
 title: CBaseAllocator::m_lAllocated member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_HostedJobDestination class represents an association betwe
 ms.assetid: 5d853826-1f27-417b-a053-5e0ee9816376
 ms.tgt_platform: multiple
 title: CIM_HostedJobDestination class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

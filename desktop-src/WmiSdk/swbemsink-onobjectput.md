@@ -3,7 +3,7 @@ Description: The OnObjectPut event of an SWbemSink object is triggered when an a
 ms.assetid: 2046dd03-ac2c-49fa-b1ad-a458967709e5
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnObjectPut event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

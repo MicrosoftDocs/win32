@@ -2,7 +2,7 @@
 Description: The PATCHNEWSUMMARYCOMMENTS property updates the Comments Summary property of an administrative installation during patching.
 ms.assetid: 555813d8-6cb2-4b93-aa01-32d30b75b3d5
 title: PATCHNEWSUMMARYCOMMENTS property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

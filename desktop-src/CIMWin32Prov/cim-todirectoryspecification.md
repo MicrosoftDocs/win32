@@ -3,7 +3,7 @@ Description: The CIM\_ToDirectorySpecification association identifies the target
 ms.assetid: ab31101f-1948-4b3d-baef-0d61d5898b21
 ms.tgt_platform: multiple
 title: CIM_ToDirectorySpecification class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

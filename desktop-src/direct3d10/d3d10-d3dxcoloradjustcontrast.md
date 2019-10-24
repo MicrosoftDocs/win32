@@ -2,7 +2,7 @@
 Description: Adjusts the contrast value of a color.
 ms.assetid: c111d3c7-19c6-4a6b-af0d-a9e1bc0bb7d9
 title: D3DXColorAdjustContrast function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

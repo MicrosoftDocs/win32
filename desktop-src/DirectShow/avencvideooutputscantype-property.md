@@ -2,7 +2,7 @@
 Description: Specifies how the encoder interlaces the output video.
 ms.assetid: f36238dc-2152-4faf-835e-1027ef1af73b
 title: AVEncVideoOutputScanType property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

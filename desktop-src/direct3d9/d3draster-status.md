@@ -2,7 +2,7 @@
 Description: Describes the raster status.
 ms.assetid: f7b5b714-8fc8-47b8-adec-1089b8d07081
 title: D3DRASTER_STATUS structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

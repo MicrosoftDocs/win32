@@ -2,7 +2,7 @@
 Description: This class is the event type class for IPv4 TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: ed835df8-6f53-46a3-abf2-c66a1f13f987
 title: TcpIp_TypeGroup1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

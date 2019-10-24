@@ -2,7 +2,7 @@
 Description: Enables a transport application to query the NTLM [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain attributes of a [security context](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: cfa545e7-c5d9-4ffd-bbba-669d2bd3df2d
 title: QueryContextAttributes (NTLM) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

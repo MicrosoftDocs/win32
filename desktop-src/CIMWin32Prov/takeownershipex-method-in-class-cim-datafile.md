@@ -3,7 +3,7 @@ Description: Obtains ownership of the logical data file that is specified in the
 ms.assetid: 3bc5a060-d805-46f6-802d-9ed16b52da59
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_DataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

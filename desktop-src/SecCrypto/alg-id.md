@@ -2,7 +2,7 @@
 Description: Specifies an algorithm identifier.
 ms.assetid: 557436b4-f7f1-4708-acc7-c6b47e6322ad
 title: ALG_ID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

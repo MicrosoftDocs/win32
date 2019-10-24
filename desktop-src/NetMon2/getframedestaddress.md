@@ -2,7 +2,7 @@
 Description: Retrieves the destination address of a frame.
 ms.assetid: f19a6753-37d8-4ec7-a7d4-ced0292d453c
 title: GetFrameDestAddress function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

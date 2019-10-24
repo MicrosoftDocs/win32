@@ -2,7 +2,7 @@
 Description: Returns one of the encryption types that can be used to encrypt content before it becomes accessible to the CPU or bus.
 ms.assetid: 263c6f00-8bc9-4e9c-8b98-fb8f87c6c008
 title: D3DAUTHENTICATEDQUERY_ENCRYPTIONWHENACCESSIBLEGUID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

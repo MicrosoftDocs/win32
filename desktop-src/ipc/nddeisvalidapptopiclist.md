@@ -2,7 +2,7 @@
 Description: Determines whether an application and topic string (&\#0034;AppName\|TopicName&\#0034;) uses the proper syntax.
 ms.assetid: bcf5442b-452e-4b42-95e9-f09bf885be40
 title: NDdeIsValidAppTopicList function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

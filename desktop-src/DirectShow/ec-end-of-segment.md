@@ -2,7 +2,7 @@
 Description: The end of a segment was reached.
 ms.assetid: 07f141b1-2e96-49e2-9cf7-581690e245b5
 title: EC_END_OF_SEGMENT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

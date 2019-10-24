@@ -3,7 +3,7 @@ Description: Uncompresses the logical shortcut file (or directory) specified in 
 ms.assetid: aa1c04d1-4cce-4096-bce3-b9c61b9a4eb7
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

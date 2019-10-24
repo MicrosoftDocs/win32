@@ -2,7 +2,7 @@
 Description: Specifies whether TCP transport is enabled for the network source.
 ms.assetid: ba655505-dcac-4cea-8ad5-ccd1b55ee9d4
 title: MFNETSOURCE_ENABLE_TCP property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

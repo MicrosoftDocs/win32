@@ -3,7 +3,7 @@ title: IMsRdpDeviceCollection Properties
 description: The IMsRdpDeviceCollection interface exposes the following properties.
 ms.assetid: 2DFF2995-41F9-41ED-B743-20F6CD001A26
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

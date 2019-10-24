@@ -2,7 +2,7 @@
 Description: Transforms the BoundingFrustum.
 ms.assetid: c989e8e5-b94a-4bb3-bd8c-5bc7c1a24d24
 title: BoundingFrustum.Transform methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

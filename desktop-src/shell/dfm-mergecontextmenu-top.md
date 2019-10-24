@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback to add items to the top of the extended menu.
 title: DFM_MERGECONTEXTMENU_TOP message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: eed6aec6-11a0-4738-b5b9-a455d0e35eac
 api_name: 

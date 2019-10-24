@@ -2,7 +2,7 @@
 Description: The Disconnect method disconnects the NPP from the network.
 ms.assetid: 47a0cce0-a50d-4bad-9787-672cc3d13d07
 title: IRTC::Disconnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

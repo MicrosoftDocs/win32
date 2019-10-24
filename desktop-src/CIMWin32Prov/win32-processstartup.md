@@ -3,7 +3,7 @@ Description: The Win32\_ProcessStartup abstract WMI class represents the startup
 ms.assetid: 78508404-cab2-42fb-a0ed-0e6e7d21408c
 ms.tgt_platform: multiple
 title: Win32_ProcessStartup class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

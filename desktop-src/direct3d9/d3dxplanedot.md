@@ -2,7 +2,7 @@
 Description: Computes the dot product of a plane and a 4D vector.
 ms.assetid: e6232ca8-52cc-472d-8bdb-4f8dfc520d4f
 title: D3DXPlaneDot function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

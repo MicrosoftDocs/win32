@@ -2,7 +2,7 @@
 Description: Specifies the level shift that is applied to the Surround channels for Lt/Rt downmixing. This property applies to Dolby Digital audio encoders.
 ms.assetid: 95fd8b3e-de30-4d0d-be3c-8d7e0c925bae
 title: AVEncDDLtRtSurroundMixLvl_x10 property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Occurs before strokes are deleted from the Ink property.
 ms.assetid: 09468416-ad08-48ea-aa4a-3af0fe553f3d
 title: InkOverlay.StrokesDeleting event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

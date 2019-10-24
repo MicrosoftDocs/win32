@@ -2,7 +2,7 @@
 Description: Adds two 4D vectors.
 ms.assetid: da807dc0-6a31-4315-a32d-a42062c22199
 title: D3DXVec4Add function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

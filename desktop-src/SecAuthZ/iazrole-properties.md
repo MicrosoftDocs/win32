@@ -2,7 +2,7 @@
 Description: The IAzRole interface exposes the following properties.
 ms.assetid: 0F086ED8-6BA7-4654-8B3F-3B69139B002C
 title: IAzRole Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

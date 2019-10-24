@@ -2,7 +2,7 @@
 title: IVMGuestOS Properties
 description: The IVMGuestOS interface exposes the following properties.
 ms.assetid: C7C4F01F-B406-4E0E-A11B-E1B5F6E09FF8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

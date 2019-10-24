@@ -2,7 +2,7 @@
 Description: Represents the status of the ink analysis operation by describing whether the analysis was completed successfully and whether any warnings occurred.
 ms.assetid: 57910a1d-3472-4689-ba0d-a220145e77c4
 title: IAnalysisStatus interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

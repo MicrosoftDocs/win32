@@ -4,7 +4,7 @@ description: The following structures are supported by Windows Virtual PC.
 ms.assetid: EF89F64F-CF20-4523-BF6F-61DA404BFB49
 keywords:
 - Windows Virtual PC Virtual PC , structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

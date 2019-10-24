@@ -2,7 +2,7 @@
 Description: The GetCurrentDir method returns an absolute path to the currently selected directory.
 ms.assetid: 12196143-a98a-4772-a803-d0c9b95a66e4
 title: ISCardFileAccess::GetCurrentDir method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

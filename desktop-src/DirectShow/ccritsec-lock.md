@@ -2,7 +2,7 @@
 Description: The Lock method locks the critical section object.
 ms.assetid: b08be5ec-3f02-4ed8-8791-20e4d2a0c55f
 title: CCritSec.Lock method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

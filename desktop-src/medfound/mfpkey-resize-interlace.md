@@ -2,7 +2,7 @@
 Description: Specifies whether the input stream is interlaced.
 ms.assetid: 01ee0766-06ed-4255-9057-2fe033a772cd
 title: MFPKEY_RESIZE_INTERLACE Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

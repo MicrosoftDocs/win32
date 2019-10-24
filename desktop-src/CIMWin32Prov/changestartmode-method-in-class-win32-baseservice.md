@@ -3,7 +3,7 @@ Description: Modifies the start mode of a service object derived from Win32\_Bas
 ms.assetid: 33040632-6c04-4084-af09-8e1b8bc29090
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_BaseService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

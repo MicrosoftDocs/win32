@@ -3,7 +3,7 @@ Description: The SetTcpMaxDataRetransmissions WMI class static method is used to
 ms.assetid: 1b5407ee-8e2b-4aed-a17a-58d960f976f2
 ms.tgt_platform: multiple
 title: SetTcpMaxDataRetransmissions method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

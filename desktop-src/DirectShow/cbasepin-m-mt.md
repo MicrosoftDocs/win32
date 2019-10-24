@@ -2,7 +2,7 @@
 Description: Media type for the current pin connection.
 ms.assetid: ab5d9d3a-a9f6-4c14-b872-7e1d03c86fb0
 title: CBasePin::m_mt member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Boolean value that indicates whether the microseconds component in 
 ms.assetid: 65244ece-2326-4edc-b982-57e2046ec33e
 ms.tgt_platform: multiple
 title: SWbemDateTime.MicrosecondsSpecified property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: f3be3b5a-7ab9-44ca-8a03-33fb905d3aea
 title: IAMTimelineObj::SetDirtyRange method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

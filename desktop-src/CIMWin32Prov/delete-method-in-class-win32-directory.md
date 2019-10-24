@@ -3,7 +3,7 @@ Description: The Delete WMI class method will delete the logical file (or direct
 ms.assetid: 5663b8a8-3089-475b-8a36-454a7315bfca
 ms.tgt_platform: multiple
 title: Delete method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

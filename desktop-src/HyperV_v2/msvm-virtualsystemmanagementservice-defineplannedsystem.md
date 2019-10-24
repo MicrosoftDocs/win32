@@ -2,7 +2,7 @@
 Description: Defines a planned virtual system.
 ms.assetid: f129554b-e43e-4c3a-8418-d5d810f4c4b5
 title: DefinePlannedSystem method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

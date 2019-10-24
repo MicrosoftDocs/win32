@@ -2,7 +2,7 @@
 Description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 ms.assetid: b48399f5-daaa-40e4-bd80-a918539d25c6
 title: IEnumMedia::Clone method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

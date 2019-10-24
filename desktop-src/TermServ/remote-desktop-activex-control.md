@@ -3,7 +3,7 @@ title: Remote Desktop ActiveX control
 description: Describes how to use the Remote Desktop ActiveX control.
 ms.assetid: 28DA1103-549F-4C56-B421-54CDFD1A4AF1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Restore the active configuration of the collector from a backup fil
 ms.assetid: 3ee4156b-c68f-4c44-b9be-dd86e8f4b340
 ms.tgt_platform: multiple
 title: RestoreFromTime method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

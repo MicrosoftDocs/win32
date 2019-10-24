@@ -2,7 +2,7 @@
 Description: Looks for the target of a Shell link, even if the target has been moved or renamed.
 ms.assetid: 60e119be-8e45-4f63-a381-cad048de0765
 title: ShellLinkObject.Resolve method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

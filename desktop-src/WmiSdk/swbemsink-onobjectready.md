@@ -3,7 +3,7 @@ Description: The OnObjectReady event of an SWbemSink object is triggered when an
 ms.assetid: 14110ee7-a808-4786-b695-2ce54189d826
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnObjectReady event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Provides the methods that WUA can use to gather information about the endpoint token.
 ms.assetid: 52D22909-B926-426F-98C7-643C4469D021
 title: IUpdateEndpointAuthToken interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

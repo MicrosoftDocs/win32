@@ -2,7 +2,7 @@
 Description: Decrypts a message by using Digest.
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 title: DecryptMessage (Digest) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

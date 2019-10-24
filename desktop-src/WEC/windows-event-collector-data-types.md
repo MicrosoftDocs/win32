@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - EC_HANDLE
 - EC_OBJECT_ARRAY_PROPERTY_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

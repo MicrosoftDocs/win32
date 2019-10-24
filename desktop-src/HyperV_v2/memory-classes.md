@@ -2,7 +2,7 @@
 Description: The memory classes model the memory for a virtual machine.
 ms.assetid: 4AB58CC3-476E-4214-B0A3-32BF05160753
 title: Memory classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

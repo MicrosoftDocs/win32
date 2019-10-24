@@ -3,7 +3,7 @@ Description: The Win32\_SystemOperatingSystem association WMI class relates a co
 ms.assetid: dc71f80b-6fbd-4bc8-8783-3922d8050518
 ms.tgt_platform: multiple
 title: Win32_SystemOperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

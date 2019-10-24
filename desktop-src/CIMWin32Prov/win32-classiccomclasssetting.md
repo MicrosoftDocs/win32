@@ -3,7 +3,7 @@ Description: Represents the settings of a Component Object Model (COM) component
 ms.assetid: 18d9ddf2-184d-4680-8d56-f012c608ff7d
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClassSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

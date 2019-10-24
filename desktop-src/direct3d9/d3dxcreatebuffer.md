@@ -2,7 +2,7 @@
 Description: Creates a buffer object.
 ms.assetid: 6f44fe84-3e0b-4fb8-821a-c997944fed37
 title: D3DXCreateBuffer function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_SpareGroup class is derived from the CIM\_RedundancyGroup 
 ms.assetid: e60f8cab-a9e8-4f5a-b8d7-833c7832ef7e
 ms.tgt_platform: multiple
 title: CIM_SpareGroup class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

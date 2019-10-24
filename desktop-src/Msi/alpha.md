@@ -2,7 +2,7 @@
 Description: The Alpha property is defined only if running on an Alpha processor.
 ms.assetid: f242fd6f-ae73-4ea6-9650-f2661440f61f
 title: Alpha property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

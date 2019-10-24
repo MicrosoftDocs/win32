@@ -2,7 +2,7 @@
 Description: The Receive method receives the next media sample in the stream. This method overrides the CBaseInputPin::Receive method.
 ms.assetid: b09140f0-2e3a-47b1-ace7-954043dd62eb
 title: CRendererInputPin.Receive method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

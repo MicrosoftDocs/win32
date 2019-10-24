@@ -2,7 +2,7 @@
 Description: Defines the session and the information that the session used to enable the provider.
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9
 title: TRACE_ENABLE_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

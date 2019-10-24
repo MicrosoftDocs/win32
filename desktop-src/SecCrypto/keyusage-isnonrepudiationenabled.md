@@ -2,7 +2,7 @@
 Description: Retrieves a Boolean value that indicates whether the nonRepudiationEnabled bit is set.
 ms.assetid: d9bcf0fc-8b2d-408c-b587-71903ef5f5f6
 title: KeyUsage.IsNonRepudiationEnabled property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

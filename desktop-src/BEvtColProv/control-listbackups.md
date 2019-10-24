@@ -3,7 +3,7 @@ Description: Returns the list of the saved backup configuration files that can b
 ms.assetid: 9487c50e-ef3b-425f-92ef-0614290e9af4
 ms.tgt_platform: multiple
 title: ListBackups method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Multiplies every value in the buffer by a constant value.
 ms.assetid: 3d7ef530-b83a-4123-a2ed-fff2b21378ee
 title: ID3DXPRTBuffer::ScaleBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The GetTotalStatistics method retrieves the total statistics for the current capture.
 ms.assetid: 494634f6-a9b3-4a50-8920-2387be9ba30f
 title: IStats::GetTotalStatistics method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

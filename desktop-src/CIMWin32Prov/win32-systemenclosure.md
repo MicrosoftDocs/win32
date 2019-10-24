@@ -3,7 +3,7 @@ Description: Represents the properties that are associated with a physical syste
 ms.assetid: a8244dc0-a95e-4940-9b92-7820bdf14916
 ms.tgt_platform: multiple
 title: Win32_SystemEnclosure class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

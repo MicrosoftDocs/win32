@@ -3,7 +3,7 @@ Description: The CIM\_Keyboard class represents the capabilities and management 
 ms.assetid: c465a731-03dd-4418-8b16-96dc2c8b60b5
 ms.tgt_platform: multiple
 title: CIM_Keyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

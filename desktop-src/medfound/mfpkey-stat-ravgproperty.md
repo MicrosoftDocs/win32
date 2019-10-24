@@ -2,7 +2,7 @@
 Description: Specifies the average bit rate, in bits per second, of an encoded stream.
 ms.assetid: 8ed6bfa8-5515-430d-8a50-ad9668dc3aea
 title: MFPKEY_STAT_RAVG Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

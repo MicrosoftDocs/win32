@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the selection state of any item or items in the view has changed.
 title: ShellFolderView.SelectionChanged event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

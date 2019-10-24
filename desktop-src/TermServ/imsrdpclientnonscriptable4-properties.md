@@ -3,7 +3,7 @@ title: IMsRdpClientNonScriptable4 Properties
 description: The IMsRdpClientNonScriptable4 interface exposes the following properties.
 ms.assetid: F1920A03-F19B-4060-8AAC-B7BD2EFA5F30
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

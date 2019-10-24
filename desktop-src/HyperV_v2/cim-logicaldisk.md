@@ -2,7 +2,7 @@
 Description: Represents a contiguous range of logical blocks that is identifiable by a file system through the disks DeviceID (key) field.
 ms.assetid: a70b4bee-7f5d-43b1-a7cc-7f0593bc8a11
 title: CIM_LogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

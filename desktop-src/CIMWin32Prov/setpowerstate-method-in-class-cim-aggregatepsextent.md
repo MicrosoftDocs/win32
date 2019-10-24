@@ -3,7 +3,7 @@ Description: The SetPowerState method defines the desired power state for a logi
 ms.assetid: 3808b75d-229e-44c0-a1bc-aa260590cd36
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_AggregatePSExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

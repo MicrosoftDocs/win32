@@ -3,7 +3,7 @@ Description: Returns a collection of objects (classes or instances) called endpo
 ms.assetid: a78e6701-6779-4a02-b811-23b2da4f4167
 ms.tgt_platform: multiple
 title: SWbemServices.AssociatorsOf method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

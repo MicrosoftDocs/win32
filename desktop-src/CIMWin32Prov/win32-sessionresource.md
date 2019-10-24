@@ -3,7 +3,7 @@ Description: The Win32\_SessionResource association represents the relationship 
 ms.assetid: 39c195cf-e70b-4e93-b46b-61ed4f08f57e
 ms.tgt_platform: multiple
 title: Win32_SessionResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

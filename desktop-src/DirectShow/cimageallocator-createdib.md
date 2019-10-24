@@ -2,7 +2,7 @@
 Description: The CreateDIB method creates a GDI device-independent bitmap (DIB). The DIB is allocated in a shared mempory block, which eliminates a copy operation when the owning filter blits the image.
 ms.assetid: 8a9ab1cf-4104-48e9-ba6c-28d0f1a1d226
 title: CImageAllocator.CreateDIB method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_Session class defines state information about the intera
 ms.assetid: 0649001a-914f-403f-9aee-0e9096392fe9
 ms.tgt_platform: multiple
 title: Win32_Session class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Gets the number of callback keys in the animation set.
 ms.assetid: 0c952a86-d252-4f65-95e1-2d1e1f6b7143
 title: ID3DXCompressedAnimationSet::GetNumCallbackKeys method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Contains an object for each publisher property for the parent SubscriptionsForComponent collection.
 ms.assetid: 7699c258-ca11-4652-b2f7-b2f2307c01fc
 title: PublisherProperties collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

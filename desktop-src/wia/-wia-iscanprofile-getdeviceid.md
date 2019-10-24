@@ -2,7 +2,7 @@
 Description: Returns the ID of the device.
 ms.assetid: 72a0843d-36f2-463f-8269-0e91233f1931
 title: IScanProfile::GetDeviceID method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

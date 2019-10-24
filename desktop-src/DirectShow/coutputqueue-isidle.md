@@ -2,7 +2,7 @@
 Description: The IsIdle method determines whether the object is waiting for data.
 ms.assetid: be1b5633-f9e9-497e-8b6f-5634eae91273
 title: COutputQueue.IsIdle method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

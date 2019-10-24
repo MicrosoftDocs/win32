@@ -4,7 +4,7 @@ ms.assetid: 1c198a70-6669-4599-bd9a-ffc26c9fe1d0
 title: SIO_RCVALL Control Code
 author: TimShererWithAquent
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

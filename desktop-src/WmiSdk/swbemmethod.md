@@ -3,7 +3,7 @@ Description: You can use the properties of the SWbemMethod object to inspect a s
 ms.assetid: 461d5c41-4930-40cf-96e2-bc8cae335b60
 ms.tgt_platform: multiple
 title: SWbemMethod object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

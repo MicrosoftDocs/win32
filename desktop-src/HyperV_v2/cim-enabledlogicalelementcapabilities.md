@@ -2,7 +2,7 @@
 Description: Describes the restrictions on the properties of an associated CIM\_EnabledLogicalElement object.
 ms.assetid: debce40c-9a0e-43a7-88fa-9336afd52e17
 title: CIM_EnabledLogicalElementCapabilities class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

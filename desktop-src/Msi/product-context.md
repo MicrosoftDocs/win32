@@ -2,7 +2,7 @@
 Description: The Context property returns the context of this product.
 ms.assetid: aa772a95-eb4e-45af-9788-9833d62139e8
 title: Product.Context property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

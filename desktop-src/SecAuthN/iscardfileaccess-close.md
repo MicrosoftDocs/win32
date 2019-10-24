@@ -2,7 +2,7 @@
 Description: The Close method closes the specified file. No further access to file is allowed.
 ms.assetid: fecce23e-8604-4a87-9efb-a26e2498c2f3
 title: ISCardFileAccess::Close method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

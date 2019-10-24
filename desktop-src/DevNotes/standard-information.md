@@ -2,7 +2,7 @@
 Description: Contains the standard information attribute. This attribute is present in every base file record and must be resident.
 ms.assetid: 8e668309-2722-4115-923d-bf0aa78d24f1
 title: STANDARD_INFORMATION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Notifies the system that the app has saved its data and is ready to be suspended.
 ms.assetid: 5C79AFBA-34E6-4C0B-95A0-731E10D8A17A
 title: ISuspendingDeferral::Complete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

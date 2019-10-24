@@ -3,7 +3,7 @@ Description: The CIM\_RedundancyComponent class associates a redundancy group co
 ms.assetid: 2511ae26-011a-4e0d-ad34-d5fe9c78f0ff
 ms.tgt_platform: multiple
 title: CIM_RedundancyComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

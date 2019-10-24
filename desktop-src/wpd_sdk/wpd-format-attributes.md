@@ -2,7 +2,7 @@
 Description: For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetFormatAttributes method.
 ms.assetid: 53282e01-54da-4adf-8a09-2086d6398275
 title: Format Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Indicates that DVD playback stopped as the result of a call to the IDvdControl2::PlayChaptersAutoStop method.
 ms.assetid: ccafaf76-ec8c-4d67-9b29-565f3ed6593b
 title: EC_DVD_CHAPTER_AUTOSTOP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

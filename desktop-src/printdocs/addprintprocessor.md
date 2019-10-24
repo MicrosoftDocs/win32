@@ -2,7 +2,7 @@
 Description: The AddPrintProcessor function installs a print processor on the specified server and adds the print-processor name to the list of supported print processors.
 ms.assetid: 99899cee-f74d-4405-8ea5-616e3769aba9
 title: AddPrintProcessor function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

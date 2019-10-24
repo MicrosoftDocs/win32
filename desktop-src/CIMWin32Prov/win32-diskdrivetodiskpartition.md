@@ -3,7 +3,7 @@ Description: The Win32\_DiskDriveToDiskPartition association WMI class relates a
 ms.assetid: 82953097-ebfb-42b8-84b4-fb4ed19f3525
 ms.tgt_platform: multiple
 title: Win32_DiskDriveToDiskPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

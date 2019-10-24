@@ -2,7 +2,7 @@
 Description: Represents the attributes that are applied to ink when it is drawn.
 ms.assetid: 10ca7ae5-28dd-42a2-98d9-852d4de5869d
 title: InkDrawingAttributes class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

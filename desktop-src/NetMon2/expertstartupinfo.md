@@ -2,7 +2,7 @@
 Description: Contains data that describes an expert when it starts.
 ms.assetid: 9ecd5395-d10c-411b-a6bd-fbac724d8603
 title: EXPERTSTARTUPINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

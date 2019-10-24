@@ -3,7 +3,7 @@ Description: The Methods\_ property of the SWbemObject object returns an SWbemMe
 ms.assetid: ef9abced-5126-4698-b01e-f3e9c871162f
 ms.tgt_platform: multiple
 title: SWbemObject.Methods_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

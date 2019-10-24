@@ -2,7 +2,7 @@
 Description: The Format method retrieves a pointer to the format block.
 ms.assetid: 368055cd-4592-4144-aef9-d7e830fc4de1
 title: CMediaType.Format method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

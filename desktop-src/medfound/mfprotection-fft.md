@@ -2,7 +2,7 @@
 Description: Specifies FFT protection.
 ms.assetid: 0CFD2A1B-BAE0-4755-9B26-A3D8C3053ABD
 title: MFPROTECTION_FFT attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

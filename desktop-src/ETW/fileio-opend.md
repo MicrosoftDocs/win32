@@ -2,7 +2,7 @@
 Description: This class is the event type class for file operation end events. The following syntax is simplified from MOF code.
 ms.assetid: 3925d5bf-f412-4248-a61f-e667efa9debd
 title: FileIo_OpEnd class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

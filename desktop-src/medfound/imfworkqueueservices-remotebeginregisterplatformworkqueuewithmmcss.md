@@ -2,7 +2,7 @@
 Description: Remotable version of the IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS method.
 ms.assetid: 158497a9-9d66-4e58-919d-e35765fd29e4
 title: RemoteBeginRegisterPlatformWorkQueueWithMMCSS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

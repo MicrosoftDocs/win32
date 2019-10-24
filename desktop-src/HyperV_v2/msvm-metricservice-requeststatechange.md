@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: ee5ea754-42b6-4bea-b312-b88adeea891f
 title: RequestStateChange method of the Msvm_MetricService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

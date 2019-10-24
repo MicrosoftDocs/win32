@@ -2,7 +2,7 @@
 Description: The Insert method adds a CDeferredCommand object to the queue.
 ms.assetid: 41f9c30c-6267-435a-9089-eb34ae606896
 title: CCmdQueue.Insert method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

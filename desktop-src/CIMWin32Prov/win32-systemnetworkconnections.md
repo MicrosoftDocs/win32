@@ -3,7 +3,7 @@ Description: The Win32\_SystemNetworkConnections association WMI class relates a
 ms.assetid: 7c47f653-74a9-4729-a72c-94930181f8c9
 ms.tgt_platform: multiple
 title: Win32_SystemNetworkConnections class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

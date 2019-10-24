@@ -3,7 +3,7 @@ Description: The CIM\_CollectionSetting class represents the association between
 ms.assetid: f09bd656-5fdd-4ab1-8ef9-52d431a5117d
 ms.tgt_platform: multiple
 title: CIM_CollectionSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

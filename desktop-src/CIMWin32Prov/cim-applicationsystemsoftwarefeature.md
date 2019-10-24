@@ -3,7 +3,7 @@ Description: The CIM\_ApplicationSystemSoftwareFeature class represents an assoc
 ms.assetid: e40d0d64-f9f0-4c05-aef6-c759256e408b
 ms.tgt_platform: multiple
 title: CIM_ApplicationSystemSoftwareFeature class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

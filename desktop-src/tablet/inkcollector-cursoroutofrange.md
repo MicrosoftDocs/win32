@@ -2,7 +2,7 @@
 Description: Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
 ms.assetid: a3a570ed-570b-4579-b120-ed5457630bc2
 title: InkCollector.CursorOutOfRange event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

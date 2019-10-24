@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: 0c7123fb-3ddc-4fd8-96a9-aea77fa987cb
 title: RequestStateChange method of the Msvm_SerialController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Manages metrics for managed elements.
 ms.assetid: df249d0c-960b-47d6-9590-f0fd08ddec18
 title: CIM_MetricService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

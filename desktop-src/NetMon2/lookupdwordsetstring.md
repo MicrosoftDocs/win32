@@ -2,7 +2,7 @@
 Description: The LookupDwordSetString function returns the string corresponding to the specified value of a labeled set.
 ms.assetid: ee2b1b7a-6b64-4c8c-a71d-de970b66d46e
 title: LookupDwordSetString function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

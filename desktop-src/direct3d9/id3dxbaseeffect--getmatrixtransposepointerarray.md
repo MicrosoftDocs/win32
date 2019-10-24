@@ -2,7 +2,7 @@
 Description: Gets an array of pointers to transposed matrices.
 ms.assetid: b859ff2f-cf62-4619-b8be-b940fa0513b3
 title: ID3DXBaseEffect::GetMatrixTransposePointerArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

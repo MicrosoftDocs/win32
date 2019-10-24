@@ -2,7 +2,7 @@
 Description: Sets up shared memory communication for the tablet context.
 ms.assetid: 63e6b271-d89a-4c91-9a15-9e41dcdfa363
 title: ITabletContextP::UseNamedSharedMemoryCommunications method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

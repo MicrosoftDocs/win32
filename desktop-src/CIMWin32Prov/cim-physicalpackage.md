@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalPackage class represents physical elements that co
 ms.assetid: 9182d413-aa7e-4c2f-94fe-12e99980520c
 ms.tgt_platform: multiple
 title: CIM_PhysicalPackage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

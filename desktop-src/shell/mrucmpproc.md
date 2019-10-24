@@ -1,7 +1,7 @@
 ---
 Description: Used to determine whether an item is present in a most recently used (MRU) list.
 title: MRUCMPPROC callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

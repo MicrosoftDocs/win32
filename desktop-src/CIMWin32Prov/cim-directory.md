@@ -3,7 +3,7 @@ Description: The CIM\_Directory class represents a file type that logically grou
 ms.assetid: a9594f53-08f0-4a47-9edc-51686c80c5ea
 ms.tgt_platform: multiple
 title: CIM_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,7 +1,7 @@
 ---
 Description: Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.
 title: ShellLinkObject object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

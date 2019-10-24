@@ -2,7 +2,7 @@
 Description: Specifies whether the media types can be changed on this topology node.
 ms.assetid: 8805ed63-1408-40bc-bb82-f3c51576dfa4
 title: MF_TOPONODE_LOCKED attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

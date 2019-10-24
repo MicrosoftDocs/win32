@@ -3,7 +3,7 @@ Description: The CIM\_CompatibleProduct class represents an association between 
 ms.assetid: d822b052-981a-4a66-8404-b4f5f4681502
 ms.tgt_platform: multiple
 title: CIM_CompatibleProduct class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

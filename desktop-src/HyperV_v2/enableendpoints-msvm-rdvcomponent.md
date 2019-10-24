@@ -2,7 +2,7 @@
 Description: Requests the Remote Desktop Services virtual device to start a pipe connection with the virtual machine.
 ms.assetid: e53238ee-8264-416b-8855-193c28089cfa
 title: EnableEndPoints method of the Msvm_RdvComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

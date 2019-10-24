@@ -2,7 +2,7 @@
 Description: Used to execute tasks asynchronously, and created with D3DX10CreateThreadPump.
 ms.assetid: 8d03c94a-9b64-464c-b0f4-4e5f5a00503f
 title: ID3DX10ThreadPump interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

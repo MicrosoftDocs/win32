@@ -2,7 +2,7 @@
 Description: Gets the outcome of an asynchronous action.
 ms.assetid: E5AF357D-B1EE-4581-AEBC-6F1C89D7DBB0
 title: IAsyncAction::GetResults method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

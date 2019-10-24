@@ -3,7 +3,7 @@ Description: The CIM\_SettingContext class associates configuration objects with
 ms.assetid: 8ed7e150-b4e6-4fd4-809b-32e870b559c4
 ms.tgt_platform: multiple
 title: CIM_SettingContext class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

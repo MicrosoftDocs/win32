@@ -2,7 +2,7 @@
 Description: Access the mesh's adjacency buffer.
 ms.assetid: 42b13f14-4edf-4b56-9198-60a548855542
 title: ID3DX10Mesh::GetAdjacencyBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

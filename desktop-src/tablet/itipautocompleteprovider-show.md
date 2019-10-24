@@ -2,7 +2,7 @@
 Description: Displays or hides the auto complete list.
 ms.assetid: 756ffa3d-03ee-4753-a826-3bc22ab16f5f
 title: ITipAutocompleteProvider::Show method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

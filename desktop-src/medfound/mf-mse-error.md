@@ -2,7 +2,7 @@
 Description: Defines the different error states of the Media Source Extension.
 ms.assetid: 8FD54833-F60B-49E8-A673-6130F3B06160
 title: MF_MSE_ERROR enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Raised by the audio renderer when the audio device is removed. The audio renderer is now invalid.
 ms.assetid: a65a3931-e0d6-47ac-b545-9d616e914109
 title: MEAudioSessionDeviceRemoved event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

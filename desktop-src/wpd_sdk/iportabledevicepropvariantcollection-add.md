@@ -2,7 +2,7 @@
 Description: The Add method adds an item to the collection.
 ms.assetid: e9e8975f-f9b8-4940-b967-020cf3812582
 title: IPortableDevicePropVariantCollection::Add method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_NumericSensor class sets the d
 ms.assetid: 0cb5e1d3-e39a-446c-9a24-63bcd278c329
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_NumericSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The CheckTransform method checks whether an input media type is compatible with an output media type.
 ms.assetid: 349145e5-c12d-41df-ae37-7846f8aaa423
 title: CTransformFilter.CheckTransform method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

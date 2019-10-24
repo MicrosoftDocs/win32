@@ -2,7 +2,7 @@
 Description: The UIPreview object is used to view user interface dialog boxes and billboards during authoring. This object is created by the EnableUIPreview method of the Database object.
 ms.assetid: 5df2a4f3-6352-4575-b822-1811150a86be
 title: UIPreview object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

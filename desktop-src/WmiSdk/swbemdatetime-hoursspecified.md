@@ -3,7 +3,7 @@ Description: The HoursSpecified property of the SWbemDateTime object is a Boolea
 ms.assetid: 55211da6-cbd5-4e61-ab7d-ee20363e9d81
 ms.tgt_platform: multiple
 title: SWbemDateTime.HoursSpecified property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

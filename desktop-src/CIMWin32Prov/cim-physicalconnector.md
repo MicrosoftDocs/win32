@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalConnector class represents any physical element th
 ms.assetid: cc135ae8-5ae1-4028-a2e3-a81db8694d9d
 ms.tgt_platform: multiple
 title: CIM_PhysicalConnector class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

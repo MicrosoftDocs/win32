@@ -2,7 +2,7 @@
 Description: This structure contains information about the device firmware.
 ms.assetid: 1A2D30F3-F2DE-40CB-BFFC-8BAD19793AE1
 title: STORAGE_HW_FIRMWARE_INFO_QUERY structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Size of the buffer, in bytes.
 ms.assetid: 1df5baed-3f2e-4303-a4c2-721de2e2fb39
 title: CMediaSample::m_cbBuffer member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

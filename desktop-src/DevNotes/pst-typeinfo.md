@@ -2,7 +2,7 @@
 Description: Describes a type or a subtype.
 ms.assetid: 4b6b77d9-54ea-4101-9c8b-e525f9aa3816
 title: PST_TYPEINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -4,7 +4,7 @@ ms.assetid: 4F7A6454-E3ED-4529-A531-B0640B0767EF
 title: SIO_LOOPBACK_FAST_PATH Control Code
 author: TimShererWithAquent
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

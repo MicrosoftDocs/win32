@@ -2,7 +2,7 @@
 Description: Specifies the height of the source and destination rectangles, in pixels.
 ms.assetid: be53d72f-f7b4-44a7-9231-fe0480daf49c
 title: MFPKEY_COLORCONV_HEIGHT Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

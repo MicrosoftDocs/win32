@@ -2,7 +2,7 @@
 Description: Finds the next frame in the current capture context that matches the filter.
 ms.assetid: cc99b4a0-b6b0-43b4-8121-0e402d024009
 title: FindNextFrame function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

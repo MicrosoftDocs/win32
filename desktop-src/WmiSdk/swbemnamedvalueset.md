@@ -3,7 +3,7 @@ Description: An SWbemNamedValueSet object is a collection of SWbemNamedValue obj
 ms.assetid: 7d1c3a28-d0d3-4108-9628-74ad483e328e
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

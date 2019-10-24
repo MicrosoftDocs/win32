@@ -2,7 +2,7 @@
 Description: Initiates the client side, outbound [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a credential handle by using the NTLM [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: a96b04f6-504c-4fd1-b62e-c08ba2b616e5
 title: InitializeSecurityContext (NTLM) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

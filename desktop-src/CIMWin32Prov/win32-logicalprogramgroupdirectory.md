@@ -3,7 +3,7 @@ Description: The Win32\_LogicalProgramGroupDirectory association WMI class relat
 ms.assetid: 31a8b56a-d4fd-4cc5-9997-ec6211fe9425
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroupDirectory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -23,7 +23,7 @@ api_location:
 - Bits5_0.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 02/20/2019
 ---
 

@@ -2,7 +2,7 @@
 Description: Returns the offset of a specified protocol in the frame.
 ms.assetid: bfe5f477-c9de-4bb9-99e5-b8db895b0ae6
 title: GetProtocolStartOffset function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

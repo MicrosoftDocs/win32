@@ -2,7 +2,7 @@
 Description: The Active method is called when the state is switched to paused or running.
 ms.assetid: 2913bc81-572d-4ee1-a1b6-9e1638e04c9d
 title: CBaseRenderer.Active method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

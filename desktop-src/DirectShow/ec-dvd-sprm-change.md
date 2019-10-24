@@ -2,7 +2,7 @@
 Description: Sent when the value of a system parameter register (SPRM) changes.
 ms.assetid: 266b6de1-740d-4b3d-8487-5a9570d6c852
 title: EC_DVD_SPRM_Change
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

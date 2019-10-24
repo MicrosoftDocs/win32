@@ -2,7 +2,7 @@
 Description: Specifies whether an XPS print job is in the spooling or the rendering phase.
 ms.assetid: 14871d29-59e4-45a2-9697-12550c58396c
 title: EPrintXPSJobOperation enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

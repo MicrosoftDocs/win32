@@ -2,7 +2,7 @@
 Description: Identifies memory data. Deprecated.
 ms.assetid: fe791e13-d5de-425f-b68f-80db8b332cc6
 title: DXFILELOADMEMORY structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

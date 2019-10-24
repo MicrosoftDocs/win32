@@ -2,7 +2,7 @@
 Description: Retrieves an OID object that identifies the Template object.
 ms.assetid: bdd9d401-e9c4-4307-9817-7dcb55c539f8
 title: Template.OID property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

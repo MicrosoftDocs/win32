@@ -3,7 +3,7 @@ Description: A CIM\_ComputerSystem class represents a special collection of CIM\
 ms.assetid: c4fd0598-3cb3-428f-ad39-a14232ef7c17
 ms.tgt_platform: multiple
 title: CIM_ComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

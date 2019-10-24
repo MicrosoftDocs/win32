@@ -3,7 +3,7 @@ Description: Enables the network adapter.
 ms.assetid: ceb71e1b-5107-420f-a677-814307340469
 ms.tgt_platform: multiple
 title: Enable method of the Win32_NetworkAdapter class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

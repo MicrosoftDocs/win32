@@ -2,7 +2,7 @@
 Description: The current desired-accuracy value.
 ms.assetid: dfad833b-bb0c-4c66-9942-da10abee5381
 title: LocationDisp.LatLongReportFactory.DesiredAccuracy property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

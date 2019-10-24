@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 0b372fa2-78a9-4e38-813c-f18123716c6d
 title: CDeferredCommand.CDeferredCommand constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

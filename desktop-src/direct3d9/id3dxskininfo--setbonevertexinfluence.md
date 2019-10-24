@@ -2,7 +2,7 @@
 Description: Sets an influence value of a bone on a single vertex.
 ms.assetid: 9283866f-3dfe-467d-a74f-77e89c2778c4
 title: ID3DXSkinInfo::SetBoneVertexInfluence method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

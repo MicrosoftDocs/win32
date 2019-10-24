@@ -2,7 +2,7 @@
 Description: The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
 ms.assetid: ebc70df3-e99d-4292-990b-99b79ff06461
 title: CTransformInputPin.EndFlush method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Generates a set of Secure Sockets Layer protocol (SSL) session keys.
 ms.assetid: 88465f30-8591-411e-8618-8a381d4c22e9
 title: SslGenerateSessionKeys function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

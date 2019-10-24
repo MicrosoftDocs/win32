@@ -2,7 +2,7 @@
 Description: The OnDisplayChange method posts an EC\_DISPLAY\_CHANGED event to the filter graph manager.
 ms.assetid: e4cdcdf2-7fc2-4893-9897-97bcf2c12610
 title: CBaseRenderer.OnDisplayChange method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.
 ms.assetid: c98368f2-ae0c-4301-be30-7332b19f53ee
 title: CMediaPosition.GetTypeInfoCount method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

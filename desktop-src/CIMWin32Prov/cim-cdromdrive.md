@@ -3,7 +3,7 @@ Description: The CIM\_CDROMDrive class represents a CD-ROM drive on the computer
 ms.assetid: 044c9687-fc25-4a8c-b2ef-bd7ea332af7b
 ms.tgt_platform: multiple
 title: CIM_CDROMDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

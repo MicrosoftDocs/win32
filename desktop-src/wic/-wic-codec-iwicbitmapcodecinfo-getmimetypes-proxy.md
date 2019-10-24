@@ -2,7 +2,7 @@
 Description: Proxy function for the GetMimeTypes method.
 ms.assetid: 9d05624f-da08-4475-933b-faa12bec9012
 title: IWICBitmapCodecInfo_GetMimeTypes_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

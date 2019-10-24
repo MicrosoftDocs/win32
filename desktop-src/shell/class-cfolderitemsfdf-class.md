@@ -1,7 +1,7 @@
 ---
 Description: CFolderItemsFDF is a collection of FolderItems. It implements the IInsertItem interface.
 title: CFolderItemsFDF class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

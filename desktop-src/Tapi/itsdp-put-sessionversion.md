@@ -2,7 +2,7 @@
 Description: The put\_SessionVersion method sets the session version.
 ms.assetid: 8984d608-0fad-4979-9c58-ac2fb7926796
 title: ITSdp::put_SessionVersion method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

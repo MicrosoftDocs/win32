@@ -2,7 +2,7 @@
 Description: The AddMonitor function installs a local port monitor and links the configuration, data, and monitor files.
 ms.assetid: 6a556422-5360-42d2-b177-dba0498c06d8
 title: AddMonitor function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

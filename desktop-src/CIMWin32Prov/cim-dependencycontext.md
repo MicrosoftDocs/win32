@@ -3,7 +3,7 @@ Description: The CIM\_DependencyContext relationship associates a CIM\_Dependenc
 ms.assetid: 9f35fc41-1bfa-4018-a54c-64c875c710d4
 ms.tgt_platform: multiple
 title: CIM_DependencyContext class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

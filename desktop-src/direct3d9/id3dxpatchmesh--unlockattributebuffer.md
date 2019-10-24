@@ -2,7 +2,7 @@
 Description: Unlock the attribute buffer.
 ms.assetid: 4077ad15-9753-4031-81e7-c04e4267a0c9
 title: ID3DXPatchMesh::UnlockAttributeBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

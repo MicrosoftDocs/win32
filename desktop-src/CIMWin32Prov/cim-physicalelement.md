@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalElement subclasses define any component of a syste
 ms.assetid: 7ba6d1a9-f449-4ae2-a37c-517245bea39e
 ms.tgt_platform: multiple
 title: CIM_PhysicalElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

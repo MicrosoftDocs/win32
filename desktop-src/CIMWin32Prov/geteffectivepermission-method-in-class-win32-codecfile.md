@@ -3,7 +3,7 @@ Description: Uses the values set in the Permissions parameter to determine wheth
 ms.assetid: 068dfcaf-037b-4516-b85a-8ba6558ba561
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

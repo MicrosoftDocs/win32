@@ -2,7 +2,7 @@
 Description: Closes a specified data item from protected storage.
 ms.assetid: 74919354-5e31-4ab5-9326-9f9aae206bd7
 title: IPStore::CloseItem method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

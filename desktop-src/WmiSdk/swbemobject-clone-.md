@@ -3,7 +3,7 @@ Description: The Clone\_ method of the SWbemObject object returns a new object t
 ms.assetid: d0773c94-30b5-4217-8a9a-0bceb9e75f02
 ms.tgt_platform: multiple
 title: SWbemObject.Clone_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

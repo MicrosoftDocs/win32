@@ -2,7 +2,7 @@
 Description: Not supported.
 ms.assetid: a74db99b-d7ee-49df-84f1-a84e7a2f7d92
 title: IAMTimelineObj::SetSubObject method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

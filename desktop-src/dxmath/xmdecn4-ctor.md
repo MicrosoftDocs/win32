@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMDECN4.
 ms.assetid: 3edea240-813d-484a-91bc-cba99ecdbe14
 title: XMDECN4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_FloppyController WMI class represents the capabilities a
 ms.assetid: 8c02847c-8329-4adc-b2a5-149b36aead88
 ms.tgt_platform: multiple
 title: Win32_FloppyController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

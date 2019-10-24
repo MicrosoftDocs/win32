@@ -3,7 +3,7 @@ Description: The Origin property of the SWbemProperty object retrieves the name 
 ms.assetid: 25bc0303-43b8-42da-a194-82213c1009d9
 ms.tgt_platform: multiple
 title: SWbemProperty.Origin property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

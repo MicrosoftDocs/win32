@@ -2,7 +2,7 @@
 Description: The CheckStreaming method determines whether the pin can accept samples.
 ms.assetid: fa063966-4c72-466e-933c-def6a6818621
 title: CTransformInputPin.CheckStreaming method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

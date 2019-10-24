@@ -3,7 +3,7 @@ Description: Determines whether the user has all of the required permissions spe
 ms.assetid: 1c417ac2-6968-4faf-b596-8df9308f8647
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

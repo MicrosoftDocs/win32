@@ -2,7 +2,7 @@
 Description: The methods used to work with DirectX .x files can return the following values in addition to the standard COM return values. Deprecated.
 ms.assetid: a91168bc-966a-47b5-ba83-fc480593228d
 title: Return Values
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

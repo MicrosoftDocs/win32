@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine4::UpdateObject method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 90B1DE4F-7DF5-44C9-9A57-1BFB6825EB58
 api_name: 

@@ -2,7 +2,7 @@
 Description: The CloneProps method clones a set of properties from this property setter and adds them to a new property setter.
 ms.assetid: dee93e41-2925-4b4b-b5b2-7cfd6ea10e05
 title: IPropertySetter::CloneProps method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

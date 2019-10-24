@@ -2,7 +2,7 @@
 Description: Represents an attribute record.
 ms.assetid: f9d9458c-b179-441c-9f62-ff0ac2f75329
 title: ATTRIBUTE_RECORD_HEADER structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

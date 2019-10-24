@@ -2,7 +2,7 @@
 Description: Retrieves a collection of IContextLink objects that represents relationships with other IContextNode objects.
 ms.assetid: 0fe56e6d-c779-4916-9c80-6f18cf6f1b09
 title: IContextNode::GetContextLinks method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

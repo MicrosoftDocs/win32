@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_FlatPanel class sets the desir
 ms.assetid: 75f5f588-f3d3-471c-bff4-a511abcee576
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_FlatPanel class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

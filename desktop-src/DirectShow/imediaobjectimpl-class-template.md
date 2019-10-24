@@ -2,7 +2,7 @@
 Description: The IMediaObjectImpl class template provides a base implementation for the IMediaObject interface. For more information on using this template, see Using the DMO Class Template.
 ms.assetid: 81d45b8d-8373-4e42-b768-f6126feb935d
 title: IMediaObjectImpl Class Template
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

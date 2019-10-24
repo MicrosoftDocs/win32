@@ -16,7 +16,7 @@ api_location:
 - tspubplugincom.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

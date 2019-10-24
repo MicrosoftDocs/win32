@@ -2,7 +2,7 @@
 Description: Grants access to the interactive session of the virtual machine to the specified list of trustees.
 ms.assetid: 8a82170d-067b-47e5-a15f-21d6c04128d2
 title: GrantInteractiveSessionAccess method of the Msvm_TerminalService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

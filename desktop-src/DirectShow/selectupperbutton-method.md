@@ -2,7 +2,7 @@
 Description: The SelectUpperButton method selects the upper directional button from the displayed menu.
 ms.assetid: ace9e5b4-5461-46d6-94a5-420ec0825c70
 title: SelectUpperButton Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

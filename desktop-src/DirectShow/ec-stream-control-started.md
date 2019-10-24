@@ -2,7 +2,7 @@
 Description: A stream-control start command has taken effect.
 ms.assetid: e2f8d9a2-c96c-457c-8a88-7c86d4405928
 title: EC_STREAM_CONTROL_STARTED
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

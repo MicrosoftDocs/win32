@@ -2,7 +2,7 @@
 Description: Imports a certificate from a file.
 ms.assetid: 62c3bf8e-2f52-4342-b3ee-744b032578bf
 title: ICertificate2::Load method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

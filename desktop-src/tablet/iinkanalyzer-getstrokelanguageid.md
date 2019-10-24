@@ -2,7 +2,7 @@
 Description: Returns the locale identifier of the specified stroke.
 ms.assetid: a5fb9b7a-ed3e-4552-9412-39529203bd81
 title: IInkAnalyzer::GetStrokeLanguageId method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

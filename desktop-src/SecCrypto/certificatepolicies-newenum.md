@@ -2,7 +2,7 @@
 Description: The \_NewEnum property of CertificatePolicies retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection.
 ms.assetid: 631a11c8-4442-493e-9406-bc63f79db548
 title: CertificatePolicies._NewEnum property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

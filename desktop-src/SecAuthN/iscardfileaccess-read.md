@@ -2,7 +2,7 @@
 Description: The Read method reads and returns the specified data from a given file.
 ms.assetid: 697b8dfa-754b-46cf-ab5c-1ac1d8ae47f2
 title: ISCardFileAccess::Read method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

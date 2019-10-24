@@ -2,7 +2,7 @@
 Description: Returns the number of the current physical scan line.
 ms.assetid: 159d5ea0-25b8-4c2d-9cd4-cf4ee0ca0561
 title: NtGdiDdGetScanLine function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

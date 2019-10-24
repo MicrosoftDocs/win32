@@ -2,7 +2,7 @@
 Description: Specifies the language for a stream.
 ms.assetid: b64a9554-a560-4212-8964-b68ebbadc046
 title: MF_SD_LANGUAGE attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

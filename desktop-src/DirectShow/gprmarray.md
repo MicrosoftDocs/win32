@@ -2,7 +2,7 @@
 Description: The GPRMARRAY data type contains an array of DVD general parameter register (GPRM) values.
 ms.assetid: f0ab0a9d-00fa-4c61-9f5a-727cf69ffa1c
 title: GPRMARRAY
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Searches an item's tree of subitems using the name as the search key.
 ms.assetid: e4ce0bfb-9793-4928-b454-66ae1455b7b5
 title: IWiaItem2::FindItemByName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

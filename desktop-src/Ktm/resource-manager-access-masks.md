@@ -2,7 +2,7 @@
 Description: KTM defines the following enlistment access masks to be used when opening a resource manager.
 ms.assetid: 6b901b73-516d-4f27-b258-3b93a8f9675f
 title: Resource Manager Access Masks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

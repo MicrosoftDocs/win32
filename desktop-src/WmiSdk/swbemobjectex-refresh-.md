@@ -3,7 +3,7 @@ Description: Updates the data for objects that have data supplied by a performan
 ms.assetid: 6aeaa336-fb98-4eda-b746-fc958198d8ae
 ms.tgt_platform: multiple
 title: SWbemObjectEx.Refresh_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

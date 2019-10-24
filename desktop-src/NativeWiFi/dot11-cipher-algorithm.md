@@ -2,7 +2,7 @@
 Description: Defines a cipher algorithm for data encryption and decryption.
 ms.assetid: 6b634d76-a159-438e-8fc6-5f05b326ed68
 title: DOT11_CIPHER_ALGORITHM enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

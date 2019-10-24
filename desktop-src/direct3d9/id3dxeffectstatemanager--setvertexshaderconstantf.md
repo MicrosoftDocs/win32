@@ -2,7 +2,7 @@
 Description: A callback function that must be implemented by a user to set an array of vertex shader floating-point constants.
 ms.assetid: 3a13040d-5d5a-4454-bf11-cda9653585c0
 title: ID3DXEffectStateManager::SetVertexShaderConstantF method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

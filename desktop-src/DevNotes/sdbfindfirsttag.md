@@ -2,7 +2,7 @@
 Description: Searches for a TAG match within the specified parent and returns the TAGID of the first match.
 ms.assetid: ecbe216c-1e46-4472-b1d1-e2ac7ace82ab
 title: SdbFindFirstTag function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

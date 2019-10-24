@@ -2,7 +2,7 @@
 Description: The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
 ms.assetid: 152e4ff3-2809-4c57-b9c8-f51fc50b3703
 title: CBaseFilter.FindPin method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

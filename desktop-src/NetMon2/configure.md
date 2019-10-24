@@ -2,7 +2,7 @@
 Description: Configures the expert within the expert DLL.
 ms.assetid: 3906569d-9ad4-4c03-9637-f4a57697b227
 title: Configure callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

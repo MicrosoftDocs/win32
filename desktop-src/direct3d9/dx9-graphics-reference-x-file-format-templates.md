@@ -2,7 +2,7 @@
 Description: This section lists the .x file templates. Template format is discussed in Templates.
 ms.assetid: 1403fd1e-9799-4683-87ab-cfad102d1fae
 title: Templates
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

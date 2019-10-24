@@ -2,7 +2,7 @@
 Description: A video renderer requires a repaint.
 ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
 title: EC_REPAINT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

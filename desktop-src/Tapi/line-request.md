@@ -2,7 +2,7 @@
 Description: The TAPI LINE\_REQUEST message is sent to report the arrival of a new request from another application.
 ms.assetid: d4dbba0d-8225-48d7-a66b-b189fdae70a8
 title: LINE_REQUEST message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

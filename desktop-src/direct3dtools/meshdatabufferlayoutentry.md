@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: MeshDataBufferLayoutEntry structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: FE1D796C-DFD8-4C6E-9914-3063408FE565
 api_name: 

@@ -2,7 +2,7 @@
 Description: The MPEG4 Part 2 Video decoder decodes video streams that were encoded according to the MPEG4 Part 2 standard.
 ms.assetid: 56e32d3c-9bd0-41fe-bb22-e4ff37b7cc5c
 title: MPEG-4 Part 2 Video Decoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Gets a texture.
 ms.assetid: e009ccc2-4491-4976-9460-7478b2bd34c2
 title: ID3DXBaseEffect::GetTexture method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

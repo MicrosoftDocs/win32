@@ -2,7 +2,7 @@
 Description: This association links a managed element to the metric values being maintained for it.
 ms.assetid: 89b43736-90ae-49e0-a0ed-7918ddec8558
 title: Msvm_MetricForME class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Windows Server Update Services
 ms.assetid: 57631b10-4f2e-4a8e-a81d-858c8543fcc8
 title: Windows Server Update Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

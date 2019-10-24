@@ -2,7 +2,7 @@
 Description: Sets a floating-point number.
 ms.assetid: 920cbcf2-ccb9-4533-abbc-6bab8b159ebe
 title: ID3DXConstantTable::SetFloat method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

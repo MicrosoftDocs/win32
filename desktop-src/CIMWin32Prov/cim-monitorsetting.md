@@ -3,7 +3,7 @@ Description: The CIM\_MonitorSetting class associates the monitor resolution wit
 ms.assetid: 4bf0b2d5-b901-4294-a33b-9c8a87785af0
 ms.tgt_platform: multiple
 title: CIM_MonitorSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

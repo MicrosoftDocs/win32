@@ -2,7 +2,7 @@
 Description: Specifies the chroma resolution of the input video.
 ms.assetid: 1e405def-2958-4f4f-9c15-db186e0df52f
 title: AVEncVideoInputChromaResolution property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

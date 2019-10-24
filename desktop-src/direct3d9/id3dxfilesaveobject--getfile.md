@@ -2,7 +2,7 @@
 Description: Gets the ID3DXFile interface of the object that created this ID3DXFileSaveObject object.
 ms.assetid: 79249d17-cae3-43d9-9ccb-fa804b02a353
 title: ID3DXFileSaveObject::GetFile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

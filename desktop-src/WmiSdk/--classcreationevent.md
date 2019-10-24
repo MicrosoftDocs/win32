@@ -3,7 +3,7 @@ Description: Represents a class creation event, which is a type of intrinsic eve
 ms.assetid: a946a8eb-498c-4104-b80f-e520b0e62e36
 ms.tgt_platform: multiple
 title: '__ClassCreationEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

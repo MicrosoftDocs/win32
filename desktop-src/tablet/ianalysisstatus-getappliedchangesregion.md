@@ -2,7 +2,7 @@
 Description: Retrieves the region of the document that corresponds to changes that were made in the IInkAnalyzer object's context node tree as a result of ink analysis.
 ms.assetid: 25d511fb-ba2d-4c46-8a8c-8bb4187c9a5c
 title: IAnalysisStatus::GetAppliedChangesRegion method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

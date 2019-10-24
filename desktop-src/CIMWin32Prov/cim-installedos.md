@@ -3,7 +3,7 @@ Description: The CIM\_InstalledOS association class represents a link between th
 ms.assetid: 6db5b5a2-91b6-4540-83b8-bb9c86c7f94e
 ms.tgt_platform: multiple
 title: CIM_InstalledOS class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

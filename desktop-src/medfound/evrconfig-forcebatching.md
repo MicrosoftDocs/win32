@@ -2,7 +2,7 @@
 Description: Forces the Enhanced Video Renderer (EVR) to batch calls to the IDirect3D9Device::Present method.
 ms.assetid: d7523000-baa0-4011-97e1-d1ffe7263d01
 title: EVRConfig_ForceBatching attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

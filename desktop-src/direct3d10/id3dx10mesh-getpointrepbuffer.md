@@ -2,7 +2,7 @@
 Description: Get the mesh's point rep buffer.
 ms.assetid: 4be7bee5-15ea-496f-83c2-a3a9bafd97c6
 title: ID3DX10Mesh::GetPointRepBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Defines the memory class that holds the buffers for a resource.
 ms.assetid: 29720b5f-16d7-4bd9-a7bd-e4dbfb00070b
 title: D3DPOOL enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

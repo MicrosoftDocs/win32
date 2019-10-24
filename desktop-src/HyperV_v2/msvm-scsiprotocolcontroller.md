@@ -2,7 +2,7 @@
 Description: Represents a synthetic SCSI controller.
 ms.assetid: 4ABAB4C8-F922-4AA3-8FEE-5F5AA969E8B4
 title: Msvm_SCSIProtocolController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

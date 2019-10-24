@@ -2,7 +2,7 @@
 Description: The RemoveTail method removes the last item in the list.
 ms.assetid: 377af676-8042-430e-87a6-b41c00482a90
 title: CGenericList.RemoveTail method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Instances\_ method of the SWbemObject object creates an enumera
 ms.assetid: 30402d7d-f7cb-43b5-96b5-a8a76144e32d
 ms.tgt_platform: multiple
 title: SWbemObject.Instances_ method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

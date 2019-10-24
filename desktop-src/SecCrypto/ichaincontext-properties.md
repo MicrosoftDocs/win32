@@ -2,7 +2,7 @@
 Description: The IChainContext interface exposes the following properties.
 ms.assetid: 0B233479-80A7-47F1-B5AD-7271FF7F4B7A
 title: IChainContext Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

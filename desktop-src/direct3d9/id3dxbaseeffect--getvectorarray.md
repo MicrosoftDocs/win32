@@ -2,7 +2,7 @@
 Description: Gets an array of vectors.
 ms.assetid: 75fe454c-75f7-4f03-acd2-dd9cbf94fb96
 title: ID3DXBaseEffect::GetVectorArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

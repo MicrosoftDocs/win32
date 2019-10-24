@@ -3,7 +3,7 @@ Description: The Add method of the SWbemQualifierSet object adds an SWbemQualifi
 ms.assetid: 8f4c4da2-4890-4515-a3dc-76d154dae43c
 ms.tgt_platform: multiple
 title: SWbemQualifierSet.Add method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

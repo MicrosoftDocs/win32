@@ -3,7 +3,7 @@ Description: Renames the directory entry file specified in the object path.
 ms.assetid: 8bfe1b69-5f93-4408-a742-f03a9cb16bfe
 ms.tgt_platform: multiple
 title: Rename method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 title: IVMSerialPortCollection Properties
 description: The IVMSerialPortCollection interface exposes the following properties.
 ms.assetid: C198155F-E1C8-408D-A125-97B985DF214F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

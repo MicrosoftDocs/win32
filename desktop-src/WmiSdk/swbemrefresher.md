@@ -3,7 +3,7 @@ Description: The SWbemRefresher object is a container object that can refresh th
 ms.assetid: cc5872a1-932b-4b68-9f5e-a91d35c8e117
 ms.tgt_platform: multiple
 title: SWbemRefresher object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

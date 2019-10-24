@@ -2,7 +2,7 @@
 Description: Specifies the control protocol used by the network source.
 ms.assetid: 4de8b8ba-97d9-4269-a16c-1853dc02f674
 title: MFNETSOURCE_PROTOCOL property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

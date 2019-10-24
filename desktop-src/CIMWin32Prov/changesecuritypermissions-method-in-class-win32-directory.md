@@ -3,7 +3,7 @@ Description: Changes the security permissions for the logical directory entry fi
 ms.assetid: de2b3269-61e0-484c-8bea-00578422491f
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

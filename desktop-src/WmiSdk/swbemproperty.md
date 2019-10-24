@@ -3,7 +3,7 @@ Description: The SWbemProperty object represents a single WMI property of a mana
 ms.assetid: 2ddcfffa-a7b4-4fd6-926d-411de27f6212
 ms.tgt_platform: multiple
 title: SWbemProperty object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

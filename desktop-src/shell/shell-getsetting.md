@@ -2,7 +2,7 @@
 Description: Retrieves a global Shell setting.
 ms.assetid: 3E8C7C6A-5696-4756-B4BF-902FA2420AE9
 title: Shell.GetSetting method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

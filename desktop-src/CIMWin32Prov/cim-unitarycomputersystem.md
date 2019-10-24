@@ -3,7 +3,7 @@ Description: The CIM\_UnitaryComputerSystem class represents a desktop, mobile, 
 ms.assetid: c696050d-c921-4056-adc7-e4a2e9f4e119
 ms.tgt_platform: multiple
 title: CIM_UnitaryComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

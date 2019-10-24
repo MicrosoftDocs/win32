@@ -2,7 +2,7 @@
 Description: Indicates that moov will be written before mdat box in the generated file.
 ms.assetid: 97B68B0A-8266-4FCF-8CD9-35890E1AC774
 title: MF_MPEG4SINK_MOOV_BEFORE_MDAT attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

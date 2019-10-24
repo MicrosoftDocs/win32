@@ -3,7 +3,7 @@ Description: The CIM\_ResidesOnExtent class represents an association between a 
 ms.assetid: 911a81e9-3032-41ff-a337-044c06d02307
 ms.tgt_platform: multiple
 title: CIM_ResidesOnExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

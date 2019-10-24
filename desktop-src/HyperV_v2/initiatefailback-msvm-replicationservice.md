@@ -2,7 +2,7 @@
 Description: Initiates the failback for a recovery virtual machine.
 ms.assetid: F4AE1911-46B2-4412-A17F-3CA7D388276F
 title: Msvm_ReplicationService::InitiateFailback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

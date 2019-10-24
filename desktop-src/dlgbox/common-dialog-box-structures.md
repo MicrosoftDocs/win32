@@ -2,7 +2,7 @@
 title: Common Dialog Box Structures
 description: .
 ms.assetid: 778dd2b8-a01e-4246-b51f-fddb8eae3d13
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

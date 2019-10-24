@@ -2,7 +2,7 @@
 Description: Mesh patch types.
 ms.assetid: 229d01b2-781c-48a8-93f2-9dd9dbd67f3e
 title: D3DXPATCHMESHTYPE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

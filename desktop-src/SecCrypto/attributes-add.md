@@ -2,7 +2,7 @@
 Description: Adds an Attribute object to the collection.
 ms.assetid: dc2fe542-7168-4ffa-a10d-b2c051c4d42c
 title: Attributes.Add method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

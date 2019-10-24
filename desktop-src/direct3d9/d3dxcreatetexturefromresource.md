@@ -2,7 +2,7 @@
 Description: Creates a texture from a resource.
 ms.assetid: 7c841f21-5565-4923-a2fe-bbd618616f87
 title: D3DXCreateTextureFromResource function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

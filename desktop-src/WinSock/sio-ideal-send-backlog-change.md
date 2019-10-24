@@ -4,7 +4,7 @@ ms.assetid: 337883a5-7ceb-40d3-b318-b86dd488b94a
 title: SIO_IDEAL_SEND_BACKLOG_CHANGE Control Code
 author: TimShererWithAquent
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

@@ -3,7 +3,7 @@ Description: The CIM\_DisketteDrive class represents the capabilities and manage
 ms.assetid: 6c1bf597-ca67-4c37-8f90-d13afee0fab3
 ms.tgt_platform: multiple
 title: CIM_DisketteDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.
 ms.assetid: d1ef774d-f0e0-43e7-8a9d-63c2fad5ca4a
 title: CIM_BindsTo class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

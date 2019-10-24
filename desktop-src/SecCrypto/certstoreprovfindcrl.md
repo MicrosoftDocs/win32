@@ -2,7 +2,7 @@
 Description: Enumerates or finds the first or next CRL in an external store that matches specified criteria.
 ms.assetid: caf218f5-f379-4cb6-bb4b-4767b846d45c
 title: CertStoreProvFindCRL callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

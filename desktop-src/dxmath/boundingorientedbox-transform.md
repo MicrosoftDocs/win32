@@ -2,7 +2,7 @@
 Description: Transforms the BoundingOrientedBox.
 ms.assetid: 8602a236-72db-4c1c-8813-03d2f55ac08e
 title: BoundingOrientedBox.Transform methods
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

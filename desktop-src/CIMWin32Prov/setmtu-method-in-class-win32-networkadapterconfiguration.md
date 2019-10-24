@@ -3,7 +3,7 @@ Description: The SetMTU WMI class static method is used to set the default Maxim
 ms.assetid: 262c8bd7-1057-4204-80ab-725c60fc9c52
 ms.tgt_platform: multiple
 title: SetMTU method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

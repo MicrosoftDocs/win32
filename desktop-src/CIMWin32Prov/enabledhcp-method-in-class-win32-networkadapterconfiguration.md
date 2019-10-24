@@ -3,7 +3,7 @@ Description: The EnableDHCP WMI class method enables the Dynamic Host Configurat
 ms.assetid: 8c61d731-77a3-4ef4-bad9-26edaca60892
 ms.tgt_platform: multiple
 title: EnableDHCP method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

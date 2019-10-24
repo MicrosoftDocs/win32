@@ -2,7 +2,7 @@
 Description: Indicates when the current DVD title number changes.
 ms.assetid: 9888f2ec-fc2d-4d6d-a03d-b381373337eb
 title: EC_DVD_TITLE_CHANGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

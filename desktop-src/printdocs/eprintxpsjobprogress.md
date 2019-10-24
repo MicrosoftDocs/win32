@@ -2,7 +2,7 @@
 Description: Specifies what the spooler is currently doing as it processes an XPS print job.
 ms.assetid: 4fa5b749-e4f9-4f08-97b5-e58f82d0b485
 title: EPrintXPSJobProgress enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

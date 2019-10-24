@@ -2,7 +2,7 @@
 Description: Requests that the state of the planned system be changed to the value specified.
 ms.assetid: 54ed9514-4f09-458e-8e86-a807ee66df17
 title: RequestStateChange method of the Msvm_PlannedComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

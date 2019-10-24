@@ -3,7 +3,7 @@ Description: The Win32\_SystemBIOS association WMI class relates a computer syst
 ms.assetid: 92747b1b-ef28-40ab-868a-6755aee8c723
 ms.tgt_platform: multiple
 title: Win32_SystemBIOS class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

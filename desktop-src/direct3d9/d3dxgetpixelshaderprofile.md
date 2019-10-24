@@ -2,7 +2,7 @@
 Description: Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
 ms.assetid: a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b
 title: D3DXGetPixelShaderProfile function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

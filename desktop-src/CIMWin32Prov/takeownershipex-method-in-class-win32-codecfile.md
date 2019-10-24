@@ -3,7 +3,7 @@ Description: Obtains ownership of the logical codec file specified in the object
 ms.assetid: 8f3b495a-f654-4818-b0ea-dc88819d72af
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

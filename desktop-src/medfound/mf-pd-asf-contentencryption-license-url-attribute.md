@@ -2,7 +2,7 @@
 Description: Specifies the license acquisition URL for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the License URL field of the Content Encryption Header, defined in the ASF specification.
 ms.assetid: fe431c38-8227-4385-ac6f-72b9982cde62
 title: MF_PD_ASF_CONTENTENCRYPTION_LICENSE_URL attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: Represents an object in the Shell.
 title: IShellDispatch object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

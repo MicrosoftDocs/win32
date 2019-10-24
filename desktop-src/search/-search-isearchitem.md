@@ -2,7 +2,7 @@
 Description: Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.
 ms.assetid: e48c9e5b-9b15-4bc1-91ef-81ba7a05bfbd
 title: ISearchItem interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_Share class represents a shared resource on a computer s
 ms.assetid: 2d47b726-a0fe-47f3-9e96-d1d507655e56
 ms.tgt_platform: multiple
 title: Win32_Share class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

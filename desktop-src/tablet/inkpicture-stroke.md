@@ -2,7 +2,7 @@
 Description: Occurs when the user draws a new stroke on any tablet.
 ms.assetid: 2829b65a-6120-402e-91e3-5587d1f456f9
 title: InkPicture.Stroke event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

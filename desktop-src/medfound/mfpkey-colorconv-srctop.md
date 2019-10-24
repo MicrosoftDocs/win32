@@ -2,7 +2,7 @@
 Description: Specifies the top edge of the source rectangle, in pixels.
 ms.assetid: 1dfd5557-3f3b-4d59-9df6-e73cb1157619
 title: MFPKEY_COLORCONV_SRCTOP Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

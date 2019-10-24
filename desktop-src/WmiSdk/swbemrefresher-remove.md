@@ -3,7 +3,7 @@ Description: The SWbemRefresher.Remove method removes the SWbemRefreshableItem o
 ms.assetid: db5ac740-e2b3-4667-b511-d750cb092e0f
 ms.tgt_platform: multiple
 title: SWbemRefresher.Remove method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Represents the virtual processor in a virtual machine.
 ms.assetid: 4BA91C44-0F85-42D1-A8B5-147E1D532FB5
 title: Msvm_Processor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

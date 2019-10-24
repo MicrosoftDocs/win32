@@ -2,7 +2,7 @@
 Description: Specifies the MPEG-2 or H.264 level in a video media type.
 ms.assetid: 8dd8e8c4-5a6f-4a87-a643-73af35c362a9
 title: MF_MT_MPEG2_LEVEL attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

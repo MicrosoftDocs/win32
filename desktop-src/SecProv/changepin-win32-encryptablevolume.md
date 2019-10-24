@@ -2,7 +2,7 @@
 Description: Changes the PIN associated with an encrypted volume.
 ms.assetid: 8b0043cc-cf86-44e5-ab7c-038a6782f347
 title: ChangePIN method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

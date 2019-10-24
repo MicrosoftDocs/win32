@@ -2,7 +2,7 @@
 Description: Represents the port bandwidth settings.
 ms.assetid: 62a42c4c-8ea1-47c6-8ae6-e9252f2ed0e4
 title: Msvm_EthernetSwitchPortBandwidthSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Determines the cross-product of two 3D vectors.
 ms.assetid: c9623f35-c8fc-4fbe-87b6-0e5bb8ebd5e8
 title: D3DXVec3Cross function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

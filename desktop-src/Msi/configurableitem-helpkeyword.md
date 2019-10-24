@@ -2,7 +2,7 @@
 Description: The HelpKeyword property returns the value from the HelpKeyword column of the ModuleConfiguration table.
 ms.assetid: 470db520-3a9a-47bf-90ff-a284bafa1020
 title: ConfigurableItem.HelpKeyword property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Gets a floating point value.
 ms.assetid: 239dd29c-092a-4b9f-ba24-eb6181e91461
 title: ID3DXBaseEffect::GetFloat method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

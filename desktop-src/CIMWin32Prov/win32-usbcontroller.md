@@ -3,7 +3,7 @@ Description: The Win32\_USBController &\#32; WMI class manages the capabilities 
 ms.assetid: 2b45eb41-fc4f-4a00-a8e6-5b709240958a
 ms.tgt_platform: multiple
 title: Win32_USBController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

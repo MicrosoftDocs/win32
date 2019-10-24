@@ -2,7 +2,7 @@
 Description: Enables static optimizations in the video pipeline.
 ms.assetid: 62fb3f0f-ab1f-4c61-8e7f-62908b947788
 title: MF_TOPOLOGY_STATIC_PLAYBACK_OPTIMIZATIONS attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Timer-event identifier, for scheduling EC\_COMPLETE notifications.
 ms.assetid: 79bb0ca9-e58f-450d-9288-57535fd06413
 title: CBaseRenderer::m_EndOfStreamTimer member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

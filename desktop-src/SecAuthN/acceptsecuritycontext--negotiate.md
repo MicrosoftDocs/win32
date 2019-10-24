@@ -2,7 +2,7 @@
 Description: Enables the server component of a transport application to establish a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) between the server and a remote client that is using Negotiate.
 ms.assetid: aaec6fee-df6b-4033-8ece-73ecd1799653
 title: AcceptSecurityContext (Negotiate) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

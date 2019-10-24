@@ -3,7 +3,7 @@ Description: The CIM\_ExtraCapacityGroup class is derived from a redundancy grou
 ms.assetid: fbbbd6ed-4a67-4917-8b0e-3cba4cac3b45
 ms.tgt_platform: multiple
 title: CIM_ExtraCapacityGroup class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

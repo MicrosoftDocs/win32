@@ -2,7 +2,7 @@
 Description: Flag that indicates whether the filter is streaming data.
 ms.assetid: d94a22bc-ed4b-460b-96e6-1fb006218cf4
 title: CBaseRenderer::m_bStreaming member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

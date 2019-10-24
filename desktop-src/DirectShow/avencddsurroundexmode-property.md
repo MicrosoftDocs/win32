@@ -2,7 +2,7 @@
 Description: Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This property applies to Dolby Digital audio encoders.
 ms.assetid: bc74a002-ef9a-4cb3-a999-cb7a0481e132
 title: AVEncDDSurroundExMode property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

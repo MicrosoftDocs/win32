@@ -2,7 +2,7 @@
 Description: Structure that contains the attributes of a patch mesh.
 ms.assetid: aaea69c9-2d33-46e8-bc26-95daf65abf50
 title: D3DXPATCHINFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

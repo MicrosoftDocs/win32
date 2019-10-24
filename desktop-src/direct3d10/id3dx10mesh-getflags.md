@@ -2,7 +2,7 @@
 Description: Access the mesh's creation flags.
 ms.assetid: df21aa5d-d8c4-43ee-8b22-ca1ee75ecf64
 title: ID3DX10Mesh::GetFlags method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

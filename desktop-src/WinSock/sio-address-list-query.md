@@ -4,7 +4,7 @@ ms.assetid: 6b23a019-812c-4623-941b-87928acabbd2
 title: SIO_ADDRESS_LIST_QUERY Control Code
 author: TimShererWithAquent
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

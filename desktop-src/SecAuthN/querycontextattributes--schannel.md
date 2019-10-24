@@ -2,7 +2,7 @@
 Description: Enables a transport application to query the Schannel [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain attributes of a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: 0329e525-a743-4e6c-aac4-9f74274dadd2
 title: QueryContextAttributes (Schannel) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

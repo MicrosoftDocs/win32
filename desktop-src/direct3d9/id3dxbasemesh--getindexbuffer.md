@@ -2,7 +2,7 @@
 Description: Retrieves the data in an index buffer.
 ms.assetid: 8e14a047-a8a6-4763-88c7-3b439044eeb4
 title: ID3DXBaseMesh::GetIndexBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

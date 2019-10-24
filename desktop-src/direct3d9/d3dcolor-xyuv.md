@@ -2,7 +2,7 @@
 Description: Initializes a color with the (y, u, v) values.
 ms.assetid: e3091eaf-8639-428c-8dd8-6feeb7d7776e
 title: D3DCOLOR_XYUV macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

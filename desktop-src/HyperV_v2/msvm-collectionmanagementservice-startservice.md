@@ -2,7 +2,7 @@
 Description: Stops the service.
 ms.assetid: 0f9a015d-b895-496a-a4c6-2737c0742746
 title: StartService method of the Msvm_CollectionManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

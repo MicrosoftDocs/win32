@@ -3,7 +3,7 @@ Description: The SetPMTUDiscovery WMI class static method is used to enable Maxi
 ms.assetid: 43c640bb-c4e7-4b4b-9c18-6cc426229954
 ms.tgt_platform: multiple
 title: SetPMTUDiscovery method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

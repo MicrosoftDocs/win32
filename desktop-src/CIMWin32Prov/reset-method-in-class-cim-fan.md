@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Fan class requests a reset of the logi
 ms.assetid: f7755cf6-cc16-4559-ac72-60d3a782f267
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Fan class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

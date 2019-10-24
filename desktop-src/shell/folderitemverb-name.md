@@ -2,7 +2,7 @@
 Description: Contains the verb's name.
 ms.assetid: d18fddac-eb51-4031-a572-1bfef2f757a9
 title: FolderItemVerb.Name property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

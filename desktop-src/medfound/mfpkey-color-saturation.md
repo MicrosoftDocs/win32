@@ -2,7 +2,7 @@
 Description: Adjusts the saturation.
 ms.assetid: bd71f542-36d9-4dfc-b402-35ee8e574731
 title: MFPKEY_COLOR_SATURATION Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

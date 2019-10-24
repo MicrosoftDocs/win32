@@ -3,7 +3,7 @@ Description: Reports when an event is dropped as a result of delivery queue over
 ms.assetid: 7cb1ef3b-3b0a-4f72-96de-862022fd6db8
 ms.tgt_platform: multiple
 title: '__EventQueueOverflowEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

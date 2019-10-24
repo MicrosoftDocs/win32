@@ -2,7 +2,7 @@
 Description: Adds a piece of application-specific data.
 ms.assetid: 86ba37ac-8e65-4397-8ed1-37463152bebd
 title: IContextNode::AddPropertyData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

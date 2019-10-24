@@ -2,7 +2,7 @@
 Description: An abstract base class from which all Machine Check Architecture (MCA) provider data classes, such as MSMCAInfo\_RawMCAData, are derived. This class is available only in 64-bit Windows systems.
 ms.assetid: 22ec8343-fc4f-4b14-9354-26b5d6a6fe09
 title: MSMCAInfo class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

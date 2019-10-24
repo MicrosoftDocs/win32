@@ -2,7 +2,7 @@
 Description: Gets the user name.
 ms.assetid: 1373fc9d-ab1c-49b9-8b82-de2e99c4821c
 title: '_GetUserName function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

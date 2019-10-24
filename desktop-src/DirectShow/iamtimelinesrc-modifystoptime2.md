@@ -2,7 +2,7 @@
 Description: The ModifyStopTime2 method sets the stop time. This method is equivalent to IAMTimelineSrc::ModifyStopTime, but takes a REFTIME value.
 ms.assetid: 8bebda47-3e52-42a2-870c-acc14561fa25
 title: IAMTimelineSrc::ModifyStopTime2 method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

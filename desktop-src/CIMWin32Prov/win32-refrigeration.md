@@ -3,7 +3,7 @@ Description: The Win32\_Refrigeration &\#32; WMI class represents the properties
 ms.assetid: d67ce648-5659-49e5-9427-7c4dbcdfda8c
 ms.tgt_platform: multiple
 title: Win32_Refrigeration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

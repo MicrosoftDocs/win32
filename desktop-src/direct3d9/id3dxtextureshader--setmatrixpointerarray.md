@@ -2,7 +2,7 @@
 Description: Sets an array of pointers to non-transposed matrices.
 ms.assetid: 5ad83abd-1895-4838-85b5-c437c23a3d91
 title: ID3DXTextureShader::SetMatrixPointerArray method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ title: IMsRdpClient8 properties
 description: The IMsRdpClient8 interface exposes the following properties.
 ms.assetid: 9C838F57-7391-4F94-B117-C4D29D3B1F74
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

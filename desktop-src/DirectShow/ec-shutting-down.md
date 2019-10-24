@@ -2,7 +2,7 @@
 Description: The filter graph is shutting down, prior to being destroyed.
 ms.assetid: f1b3fc87-16ec-485b-b659-fc7d975c4a22
 title: EC_SHUTTING_DOWN
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

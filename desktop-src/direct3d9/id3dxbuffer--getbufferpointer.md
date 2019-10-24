@@ -2,7 +2,7 @@
 Description: Retrieves a pointer to the data in the buffer.
 ms.assetid: f38dd003-b476-4937-b5d1-cefe7789bb2b
 title: ID3DXBuffer::GetBufferPointer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

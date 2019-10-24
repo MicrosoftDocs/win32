@@ -2,7 +2,7 @@
 Description: Compares two Unicode character strings, using a specified locale.
 ms.assetid: dff16c1b-d329-40de-b8d7-91edb36ce198
 title: CompareStringWrapW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.
 ms.assetid: 04e07978-fca5-419f-8807-fd7a6846eff9
 title: CBasePin.Disconnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

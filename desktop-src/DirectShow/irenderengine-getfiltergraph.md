@@ -2,7 +2,7 @@
 Description: The GetFilterGraph method retrieves the filter graph that the render engine has constructed, if any.
 ms.assetid: 509b2c9c-c21b-4855-880f-f09ad342e758
 title: IRenderEngine::GetFilterGraph method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_ShortcutFile&\#32;WMI class represents files that are sh
 ms.assetid: 15973234-e418-4869-839e-a7c439512e4e
 ms.tgt_platform: multiple
 title: Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

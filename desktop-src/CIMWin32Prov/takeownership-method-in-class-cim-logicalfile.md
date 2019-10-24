@@ -3,7 +3,7 @@ Description: The TakeOwnerShip method obtains ownership of the logical file spec
 ms.assetid: 5db62da0-ac93-4a8c-af17-306e02bfa756
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

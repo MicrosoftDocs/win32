@@ -3,7 +3,7 @@ Description: Retrieves an object, that is either a class definition or an instan
 ms.assetid: 3071aeb2-adab-47aa-a10c-9796766bb630
 ms.tgt_platform: multiple
 title: SWbemServices.Get method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

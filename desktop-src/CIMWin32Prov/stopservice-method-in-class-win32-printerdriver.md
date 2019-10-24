@@ -3,7 +3,7 @@ Description: Places the service represented by the Win32\_PrinterDriver object i
 ms.assetid: 0e730fe6-ff9f-4866-a255-be6d372f2d7d
 ms.tgt_platform: multiple
 title: StopService method of the Win32_PrinterDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

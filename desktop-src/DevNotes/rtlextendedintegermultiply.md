@@ -2,7 +2,7 @@
 Description: Multiplies extended integers.
 ms.assetid: 6a59d211-4baf-4c7c-af2a-ffb0c5773445
 title: RtlExtendedIntegerMultiply function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

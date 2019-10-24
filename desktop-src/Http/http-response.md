@@ -6,7 +6,7 @@ keywords:
 - HTTP_RESPONSE
 - HTTP_RESPONSE
 - PHTTP_RESPONSE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

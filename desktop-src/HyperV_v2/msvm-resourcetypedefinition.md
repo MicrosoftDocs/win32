@@ -2,7 +2,7 @@
 Description: Defines a mapping of a resource type to its implementation classes.
 ms.assetid: 0911454D-2494-49D5-8480-212E9ADD1B45
 title: Msvm_ResourceTypeDefinition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

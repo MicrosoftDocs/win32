@@ -3,7 +3,7 @@ Description: The Win32\_VideoSettings association WMI class relates a video cont
 ms.assetid: 0cc42352-0a89-434d-a8b6-230c677de49c
 ms.tgt_platform: multiple
 title: Win32_VideoSettings class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

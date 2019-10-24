@@ -3,7 +3,7 @@ Description: The CIM\_ApplicationSystem class represents an application or softw
 ms.assetid: 42471863-ff6c-4464-8b0a-7dad2fd11934
 ms.tgt_platform: multiple
 title: CIM_ApplicationSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

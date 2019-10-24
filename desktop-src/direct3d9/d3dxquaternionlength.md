@@ -2,7 +2,7 @@
 Description: Returns the length of a quaternion.
 ms.assetid: daa835c2-2370-4427-a4ca-eddfb43d5c67
 title: D3DXQuaternionLength function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

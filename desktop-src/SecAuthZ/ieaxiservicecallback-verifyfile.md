@@ -2,7 +2,7 @@
 Description: Performs security checks on the specified ActiveX object and returns the location where the corresponding .cab file was downloaded.
 ms.assetid: ba8e4f9b-1569-43f9-b27c-a987044fff41
 title: IeAxiServiceCallback::VerifyFile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Notifies applications that the system has resumed operation after being suspended.
 ms.assetid: 9058a2ff-9b8e-48e5-accb-4810c8598294
 title: PBT_APMRESUMESUSPEND event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

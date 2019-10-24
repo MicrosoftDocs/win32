@@ -2,7 +2,7 @@
 Description: The SetMediaType method sets the media type for the connection.
 ms.assetid: db32b33b-df71-4f46-b53f-d7e647f5f559
 title: CBasePin.SetMediaType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

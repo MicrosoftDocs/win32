@@ -3,7 +3,7 @@ Description: The Reset method requests a reset of the logical device. This metho
 ms.assetid: 51234db3-496a-4750-a185-84a5945228b9
 ms.tgt_platform: multiple
 title: Reset method of the CIM_MultiStateSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

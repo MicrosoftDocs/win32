@@ -3,7 +3,7 @@ Description: The CIM\_IRQ class represents an Intel architecture interrupt reque
 ms.assetid: d72d4914-c57b-496d-a9fe-d8f5b522504c
 ms.tgt_platform: multiple
 title: CIM_IRQ class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

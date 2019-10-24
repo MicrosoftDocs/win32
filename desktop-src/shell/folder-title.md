@@ -2,7 +2,7 @@
 Description: Contains the title of the folder.
 ms.assetid: 95c064ff-4504-4e9c-80ac-47beca443ad4
 title: Folder.Title property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

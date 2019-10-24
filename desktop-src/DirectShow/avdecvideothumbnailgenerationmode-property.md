@@ -2,7 +2,7 @@
 Description: Enables or disables thumbnail generation mode in a video decoder.
 ms.assetid: c640d915-585b-481d-aa49-0d4a559d291c
 title: AVDecVideoThumbnailGenerationMode property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Defines a range.
 ms.assetid: 28e8c478-f6ce-4f75-95c6-ea2d08424238
 title: D3DRANGE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

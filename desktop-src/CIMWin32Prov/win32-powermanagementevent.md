@@ -3,7 +3,7 @@ Description: The Win32\_PowerManagementEvent &\#32; WMI class represents power m
 ms.assetid: b5781805-87c7-4eaf-afbb-a1770fcff41c
 ms.tgt_platform: multiple
 title: Win32_PowerManagementEvent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_SystemDevice association represents an explicit relationsh
 ms.assetid: df624a9f-0c10-44a3-8075-908e5e481e3c
 ms.tgt_platform: multiple
 title: CIM_SystemDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

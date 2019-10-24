@@ -2,7 +2,7 @@
 Description: Specifies the quality at which maximum coded bandwidth is allowed.
 ms.assetid: a1862ea5-5680-4d20-a8bf-e5ddb84a361e
 title: MFPKEY_DYN_BANDTRUNC_QFLOOR Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

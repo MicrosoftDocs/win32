@@ -2,7 +2,7 @@
 Description: The GetCountOfType method retrieves the number of objects of the specified type that are contained in a specified group and all of its children.
 ms.assetid: f3571fa5-8020-4079-ab7e-ba9ff280c0c5
 title: IAMTimeline::GetCountOfType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

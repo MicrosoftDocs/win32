@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 5ad31d31-7c1c-4877-bc39-218859e4137c
 title: CQueue.CQueue constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

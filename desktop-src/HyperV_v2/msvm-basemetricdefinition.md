@@ -2,7 +2,7 @@
 Description: Represents the definition aspects of a metric.
 ms.assetid: 861a69f6-a3bf-4e18-a9c2-931632e3cccc
 title: Msvm_BaseMetricDefinition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

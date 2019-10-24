@@ -2,7 +2,7 @@
 Description: A callback function that must be implemented by a user to set render state.
 ms.assetid: a5a27e30-c141-44a4-b8d4-38c1d6076b2a
 title: ID3DXEffectStateManager::SetRenderState method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

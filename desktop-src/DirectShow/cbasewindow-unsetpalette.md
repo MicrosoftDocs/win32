@@ -2,7 +2,7 @@
 Description: The UnsetPalette method deletes the window's current palette and restores the default system palette.
 ms.assetid: 9518aaa5-3c1b-409b-bb27-a698c47c4a24
 title: CBaseWindow.UnsetPalette method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

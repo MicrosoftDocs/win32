@@ -2,7 +2,7 @@
 Description: Unsubscribes from service status change notifications.
 ms.assetid: 8c04ebf7-4d61-4617-b120-dbe26b2f9ad2
 title: UnsubscribeServiceChangeNotifications function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Describes a quaternion.
 ms.assetid: e6cb45b2-3132-4315-b02d-a3dfc444f8cc
 title: D3DXQUATERNION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

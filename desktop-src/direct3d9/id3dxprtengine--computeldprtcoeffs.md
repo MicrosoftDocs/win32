@@ -2,7 +2,7 @@
 Description: Computes locally-deformable precomputed radiance transfer (LDPRT) coefficients relative to per-sample normal vectors to minimize the least-squares error with respect to input ID3DXPRTBuffer data.
 ms.assetid: 302c20cd-d495-4a23-9692-7456355471eb
 title: ID3DXPRTEngine::ComputeLDPRTCoeffs method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

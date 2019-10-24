@@ -2,7 +2,7 @@
 Description: Exposes methods that enable HTML pages which are hosted in a wizard extension to communicate with the wizard.
 ms.assetid: 7b3690dc-2007-43a0-80a3-4a68e3c8464d
 title: WebWizardHost object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The DocumentEvent function is an event handler for events associated with printing a document.
 ms.assetid: 1250116e-55c7-470f-97f6-36f27a31a841
 title: DocumentEvent function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

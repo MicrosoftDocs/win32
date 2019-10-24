@@ -2,7 +2,7 @@
 Description: Sets sampling properties used by the precomputed radiance transfer (PRT) simulator.
 ms.assetid: a33963a7-fbcb-4e1c-a4f3-fb20a99fcf9f
 title: ID3DXPRTEngine::SetSamplingInfo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

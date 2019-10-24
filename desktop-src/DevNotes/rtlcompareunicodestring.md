@@ -2,7 +2,7 @@
 Description: Compares two Unicode strings.
 ms.assetid: D2703180-946C-4762-AFBA-1E882B01B944
 title: RtlCompareUnicodeString function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

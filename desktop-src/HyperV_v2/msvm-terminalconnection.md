@@ -2,7 +2,7 @@
 Description: Indicates the state of an active remote session interacting with a virtual machine.
 ms.assetid: EAE6082F-A0CB-4E75-8029-51E20649C0A8
 title: Msvm_TerminalConnection class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Represents a binary PnP device property in the form of an Uint8 arr
 ms.assetid: 7D78B8B1-F5CE-446A-ADDD-F43A61DE186E
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBinary class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

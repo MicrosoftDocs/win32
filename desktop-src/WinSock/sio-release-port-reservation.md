@@ -4,7 +4,7 @@ ms.assetid: 24D67A40-8CE9-4AF1-90BF-599D19C87B89
 title: SIO_RELEASE_PORT_RESERVATION Control Code
 author: TimShererWithAquent
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

@@ -3,7 +3,7 @@ Description: Creates an enumerator that returns the instances of a specified cla
 ms.assetid: 6465a981-f98e-4ece-a9b6-9da8ae618bc6
 ms.tgt_platform: multiple
 title: SWbemServices.InstancesOf method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

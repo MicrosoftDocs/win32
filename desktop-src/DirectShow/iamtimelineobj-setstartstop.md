@@ -2,7 +2,7 @@
 Description: The SetStartStop method sets the object's start and stop times, relative to the object's parent.
 ms.assetid: 6275a36b-f963-4916-bf60-ea68008ad153
 title: IAMTimelineObj::SetStartStop method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

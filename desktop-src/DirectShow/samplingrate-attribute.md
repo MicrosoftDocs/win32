@@ -2,7 +2,7 @@
 Description: The samplingrate attribute specifies the sampling rate of the output audio, in Hz.
 ms.assetid: d053285c-bf94-465a-99d3-bed7c2d09b1a
 title: samplingrate Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

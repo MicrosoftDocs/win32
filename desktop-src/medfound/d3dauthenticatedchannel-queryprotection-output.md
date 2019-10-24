@@ -2,7 +2,7 @@
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_PROTECTION query.
 ms.assetid: eb99089a-5e8e-4970-9c40-7f6a9662b5ec
 title: D3DAUTHENTICATEDCHANNEL_QUERYPROTECTION_OUTPUT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

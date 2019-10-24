@@ -2,7 +2,7 @@
 Description: Builds a matrix that reflects the coordinate system about a plane.
 ms.assetid: f6dc3834-42f2-4ad0-8098-8c5e25e10d58
 title: D3DXMatrixReflect function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

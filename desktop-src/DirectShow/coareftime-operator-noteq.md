@@ -2,7 +2,7 @@
 Description: This operator tests for inequality between two reference times.
 ms.assetid: c081fff2-d85e-409a-8902-4b2aa2c1fc78
 title: COARefTime.operator!= method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

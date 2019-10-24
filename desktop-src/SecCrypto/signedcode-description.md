@@ -2,7 +2,7 @@
 Description: Sets or retrieves the description of the signed executable file.
 ms.assetid: 39ce37bd-fe3e-4195-a132-93f3743f7370
 title: SignedCode.Description property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

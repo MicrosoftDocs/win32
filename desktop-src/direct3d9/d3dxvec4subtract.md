@@ -2,7 +2,7 @@
 Description: Subtracts two 4D vectors.
 ms.assetid: 3bc55b38-818e-40eb-859e-495ee28fc4ae
 title: D3DXVec4Subtract function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

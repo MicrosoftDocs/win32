@@ -2,7 +2,7 @@
 Description: Closes a handle to a print ticket provider.
 ms.assetid: ce979c89-9f9d-4e89-b142-beed414caa3f
 title: UnbindPTProviderThunk function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

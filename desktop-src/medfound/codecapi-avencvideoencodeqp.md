@@ -2,7 +2,7 @@
 Description: Specifies the quantization parameter (QP) for video encoding.
 ms.assetid: 9E3B5E2D-3583-4C89-BC2A-4AC3C5545673
 title: CODECAPI_AVEncVideoEncodeQP property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

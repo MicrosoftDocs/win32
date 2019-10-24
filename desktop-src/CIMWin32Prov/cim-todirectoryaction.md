@@ -3,7 +3,7 @@ Description: The CIM\_ToDirectoryAction association identifies the target direct
 ms.assetid: f4dcd99c-4da8-447d-b6f7-7e3da63ca9c4
 ms.tgt_platform: multiple
 title: CIM_ToDirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

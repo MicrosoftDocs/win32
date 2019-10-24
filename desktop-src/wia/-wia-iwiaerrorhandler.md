@@ -2,7 +2,7 @@
 Description: The IWiaErrorHandler interface provides methods to handle errors that may occur when an application requests image data, whether for preview or final bits.
 ms.assetid: 33d8ccc5-6856-4a54-b1f0-d015933d63ab
 title: IWiaErrorHandler interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

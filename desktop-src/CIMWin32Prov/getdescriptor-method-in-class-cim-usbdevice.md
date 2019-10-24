@@ -3,7 +3,7 @@ Description: The GetDescriptor method returns the USB device descriptor as speci
 ms.assetid: 5f36ac8a-e751-4494-b91e-c6733bc3e349
 ms.tgt_platform: multiple
 title: GetDescriptor method of the CIM_USBDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

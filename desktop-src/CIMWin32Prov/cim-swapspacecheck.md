@@ -3,7 +3,7 @@ Description: The CIM\_SwapSpaceCheck class specifies the amount of swap space th
 ms.assetid: c5e5ec68-bc62-4bdf-93b7-ce868e738dee
 ms.tgt_platform: multiple
 title: CIM_SwapSpaceCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Pointer to the filter's input pin.
 ms.assetid: 405edb7d-7682-4cc0-b862-6ef5c44a26ab
 title: CBaseRenderer::m_pInputPin member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Identifier property of an SWbemPrivilege object is an WbemPrivi
 ms.assetid: d370c3ae-6acf-409a-846a-42a74f1a3c02
 ms.tgt_platform: multiple
 title: SWbemPrivilege.Identifier property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

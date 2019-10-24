@@ -2,7 +2,7 @@
 Description: The GetCount method retrieves the number of items in this collection.
 ms.assetid: b7c8acd2-67f2-47d3-b42a-26aa701fd613
 title: IPortableDevicePropVariantCollection::GetCount method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

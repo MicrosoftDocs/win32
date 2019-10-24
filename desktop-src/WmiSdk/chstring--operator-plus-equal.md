@@ -3,7 +3,7 @@ Description: The += concatenation operator joins characters to the end of this s
 ms.assetid: 026ff9af-4cda-4261-aa27-e215d49b80ce
 ms.tgt_platform: multiple
 title: CHString::operator+=
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

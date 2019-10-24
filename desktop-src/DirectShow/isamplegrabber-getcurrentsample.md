@@ -2,7 +2,7 @@
 Description: The GetCurrentSample method is not implemented.
 ms.assetid: 0c903498-3c1d-4e95-a797-ca8cfded25f2
 title: ISampleGrabber::GetCurrentSample method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

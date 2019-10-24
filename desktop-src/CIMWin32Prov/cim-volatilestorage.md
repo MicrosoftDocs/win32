@@ -3,7 +3,7 @@ Description: The CIM\_VolatileStorage class represents the capabilities and mana
 ms.assetid: c2f7e11e-d7e4-4709-be55-1c94a0b14010
 ms.tgt_platform: multiple
 title: CIM_VolatileStorage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

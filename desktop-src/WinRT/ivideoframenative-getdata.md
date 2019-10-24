@@ -2,7 +2,7 @@
 Description: This method returns an interface that provides access to the video data.
 ms.assetid: 084F020F-A6F5-4982-BA4B-A8F8D6182868
 title: IVideoFrameNative::GetData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

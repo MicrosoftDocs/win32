@@ -2,7 +2,7 @@
 Description: Sample start time. This value is valid only if the CMediaSample::m\_dwFlags member variable contains the AM\_SAMPLE\_TIMEVALID flag.
 ms.assetid: 31af979b-4c10-4f15-aa8a-90807b5cc156
 title: CMediaSample::m_Start member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

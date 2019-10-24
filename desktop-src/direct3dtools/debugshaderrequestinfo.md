@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: DebugShaderRequestInfo structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: DEFFAEE4-6C53-4C89-A533-A5BE73B80DEA
 api_name: 

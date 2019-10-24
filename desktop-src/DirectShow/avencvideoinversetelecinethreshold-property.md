@@ -2,7 +2,7 @@
 Description: Sets the threshold at which the encoder considers a video field redundant.
 ms.assetid: db6c2f0e-f451-4d2d-984f-b507083e8358
 title: AVEncVideoInverseTelecineThreshold property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

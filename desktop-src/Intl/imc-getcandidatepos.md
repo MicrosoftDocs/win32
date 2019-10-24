@@ -2,7 +2,7 @@
 Description: Instructs an IME window to get the position of the candidate window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: e582dbc2-8081-424c-a972-1a182a477293
 title: IMC_GETCANDIDATEPOS command
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

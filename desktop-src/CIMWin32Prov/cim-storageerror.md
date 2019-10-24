@@ -3,7 +3,7 @@ Description: The CIM\_StorageError class represents blocks of media or memory sp
 ms.assetid: e786aa39-4718-416b-b659-bf4b8d3e2851
 ms.tgt_platform: multiple
 title: CIM_StorageError class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

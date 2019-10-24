@@ -3,7 +3,7 @@ Description: The Item method of the SWbemQualifierSet object returns a named SWb
 ms.assetid: 5ed3a336-c06f-446d-85d4-243daddc82a5
 ms.tgt_platform: multiple
 title: SWbemQualifierSet.Item method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

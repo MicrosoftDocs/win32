@@ -2,7 +2,7 @@
 Description: The value of the Subject Summary property conveys the name of the product, transform, or patch that is installed by the package.
 ms.assetid: fb08a240-db30-477f-8dc0-701156d73cfc
 title: Subject Summary property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

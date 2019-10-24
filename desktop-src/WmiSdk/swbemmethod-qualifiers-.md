@@ -3,7 +3,7 @@ Description: The Qualifiers\_ property of the SWbemMethod object returns an SWbe
 ms.assetid: 8cbbec60-3b8a-4390-97b6-1cb616e5b944
 ms.tgt_platform: multiple
 title: SWbemMethod.Qualifiers_ property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

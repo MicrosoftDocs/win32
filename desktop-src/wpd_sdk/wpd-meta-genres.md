@@ -2,7 +2,7 @@
 Description: The WPD\_META\_GENRES enumeration type describes a broad genre type of a media file.
 ms.assetid: a69cab70-5a45-4e75-abbd-230396c2b5ec
 title: WPD_META_GENRES enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Starts a named service.
 ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
 title: Shell.ServiceStart method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

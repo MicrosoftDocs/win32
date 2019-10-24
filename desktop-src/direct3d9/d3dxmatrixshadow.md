@@ -2,7 +2,7 @@
 Description: Builds a matrix that flattens geometry into a plane.
 ms.assetid: 8f283ff9-c879-476c-8057-f4fe77a7a9e7
 title: D3DXMatrixShadow function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

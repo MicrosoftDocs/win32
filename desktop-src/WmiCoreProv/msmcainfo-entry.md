@@ -2,7 +2,7 @@
 Description: Indicates an MCA, corrected machine check (CMC), or corrected platform error (CPE) information entry. This class is available only in 64-bit Windows systems.
 ms.assetid: 4edbca20-2525-4e35-ab79-8cf421343144
 title: MSMCAInfo_Entry class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

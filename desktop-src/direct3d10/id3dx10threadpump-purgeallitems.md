@@ -2,7 +2,7 @@
 Description: Clear all work items from the thread pump.
 ms.assetid: d1682610-d81a-45cd-8c7f-2185d2d48b93
 title: ID3DX10ThreadPump::PurgeAllItems method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

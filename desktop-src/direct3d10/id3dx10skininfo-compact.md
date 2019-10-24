@@ -2,7 +2,7 @@
 Description: Limit the number of bones that can influence a vertex and/or limit the amount of influence a bone can have on a vertex.
 ms.assetid: 75c4d2eb-0a43-494d-9642-4c08aa814794
 title: ID3DX10SkinInfo::Compact method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

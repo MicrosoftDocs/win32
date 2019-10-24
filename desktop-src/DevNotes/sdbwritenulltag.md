@@ -2,7 +2,7 @@
 Description: Writes a NULL entry to the specified database.
 ms.assetid: 2a29389b-d4f6-4527-a429-c9459b095f2f
 title: SdbWriteNULLTag function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

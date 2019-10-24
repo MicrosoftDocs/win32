@@ -2,7 +2,7 @@
 Description: The GetRange method retrieves the range of valid values for a given audio device property.
 ms.assetid: df8985f4-8153-4f32-a90c-a5eb7c76b3c7
 title: ITAudioDeviceControl::GetRange method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

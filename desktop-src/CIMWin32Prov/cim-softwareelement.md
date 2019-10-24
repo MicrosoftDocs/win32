@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareElement class decomposes a CIM\_SoftwareFeature ob
 ms.assetid: b2418735-b738-411a-a620-acc31662f824
 ms.tgt_platform: multiple
 title: CIM_SoftwareElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

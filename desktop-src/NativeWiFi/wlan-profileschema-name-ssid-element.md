@@ -2,7 +2,7 @@
 Description: Contains the SSID of a wireless LAN.
 ms.assetid: ed23ccd0-9b44-4c97-a5ed-93e86632b819
 title: name (SSID) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol (RDP) interfaces
 - Remote Desktop Protocol (RDP) Remote Desktop Services , interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

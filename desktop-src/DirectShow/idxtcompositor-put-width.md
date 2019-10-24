@@ -2,7 +2,7 @@
 Description: The put\_Width method specifies the width of the target rectangle.
 ms.assetid: 16a2d860-6f5d-4f36-ba54-1be2d3fef705
 title: IDxtCompositor::put_Width method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

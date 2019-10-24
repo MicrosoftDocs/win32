@@ -2,7 +2,7 @@
 Description: Performs the necessary initialization to allow the calling app to become a Miracast display sink.
 ms.assetid: D87B427B-0B7F-44BB-BC34-726FDF87CCCC
 title: WFDDisplaySinkStart function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

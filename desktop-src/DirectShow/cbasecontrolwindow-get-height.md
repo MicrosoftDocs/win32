@@ -2,7 +2,7 @@
 Description: The get\_Height method retrieves the current window height.
 ms.assetid: 841c7d5d-f633-41fb-9cde-6126cd1cab9b
 title: CBaseControlWindow.get_Height method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

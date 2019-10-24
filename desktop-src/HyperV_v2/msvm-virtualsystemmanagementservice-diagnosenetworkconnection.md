@@ -2,7 +2,7 @@
 Description: Diagnoses the network connectivity of a VM in a Windows Network Virtualization Environment.
 ms.assetid: c18f48bf-1f57-4a23-a495-462afad42750
 title: DiagnoseNetworkConnection method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The Create method creates a file at a given location within the smart card file system.
 ms.assetid: 6bfe0b22-6aad-4818-bb2a-d5b0af4ee3a6
 title: ISCardFileAccess::Create method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

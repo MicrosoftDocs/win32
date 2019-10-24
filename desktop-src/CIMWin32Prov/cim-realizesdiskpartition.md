@@ -3,7 +3,7 @@ Description: The CIM\_RealizesDiskPartition class represents a disk partition on
 ms.assetid: cc317f7d-06cd-4126-8123-6a3eb32f792e
 ms.tgt_platform: multiple
 title: CIM_RealizesDiskPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

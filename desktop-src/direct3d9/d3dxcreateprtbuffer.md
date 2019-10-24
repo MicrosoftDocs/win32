@@ -2,7 +2,7 @@
 Description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-vertex or volume buffers.
 ms.assetid: f79a3691-ab5f-4404-aafd-f9635ff88e71
 title: D3DXCreatePRTBuffer function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

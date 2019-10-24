@@ -2,7 +2,7 @@
 Description: Enumerates or finds the first or next CTL in an external store that matches specified criteria.
 ms.assetid: 0b465e6e-fb5c-4621-a968-c2cdcab0ea15
 title: CertStoreProvFindCTL callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_PackageTempSensor association represents the relationship 
 ms.assetid: 79f2c4d1-5e1a-4c5f-9ef4-0c8bc3926a13
 ms.tgt_platform: multiple
 title: CIM_PackageTempSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

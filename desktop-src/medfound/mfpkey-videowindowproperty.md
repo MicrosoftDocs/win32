@@ -2,7 +2,7 @@
 Description: Specifies the amount of content, in milliseconds, that can fit into the model buffer.
 ms.assetid: da959bef-1e87-4638-9a77-4135c31a3d27
 title: MFPKEY_VIDEOWINDOW Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

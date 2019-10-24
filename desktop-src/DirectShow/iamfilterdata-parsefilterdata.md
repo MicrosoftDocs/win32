@@ -2,7 +2,7 @@
 Description: Note  This interface has been deprecated.
 ms.assetid: 86095fcf-3364-42a0-95db-08223fa3cc20
 title: IAMFilterData::ParseFilterData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

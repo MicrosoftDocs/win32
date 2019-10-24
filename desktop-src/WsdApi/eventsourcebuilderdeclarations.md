@@ -2,7 +2,7 @@
 Description: Generates declarations for functions that create event source classes.
 ms.assetid: ba303691-d331-4831-8416-47bb9eeb70da
 title: eventSourceBuilderDeclarations element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

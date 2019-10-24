@@ -2,7 +2,7 @@
 Description: Critical section that protects the blocking state.
 ms.assetid: 6d20cf4c-2c27-41e6-8d01-6cb5e3876a38
 title: CDynamicOutputPin::m_BlockStateLock member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

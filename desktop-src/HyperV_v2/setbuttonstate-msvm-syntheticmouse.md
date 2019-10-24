@@ -2,7 +2,7 @@
 Description: Sets the current state of the specified device button.
 ms.assetid: 942DB31C-09A2-43B6-A666-267AF6A84E0E
 title: SetButtonState method of the Msvm_SyntheticMouse class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_USBDevice class requests a reset of th
 ms.assetid: fdb9d23c-60b4-4a32-aa69-5bef501d8c6a
 ms.tgt_platform: multiple
 title: Reset method of the CIM_USBDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

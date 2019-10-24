@@ -2,7 +2,7 @@
 Description: Returns a collection of the extensions associated with the certificate.
 ms.assetid: 07793061-6f94-4467-bb01-aa65db657658
 title: ICertificate2::Extensions method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -3,7 +3,7 @@ Description: The IsAmended property of the SWbemQualifier object is a Boolean va
 ms.assetid: 7619bbf0-e4ed-4afb-a6e5-159eaed6c5df
 ms.tgt_platform: multiple
 title: SWbemQualifier.IsAmended property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

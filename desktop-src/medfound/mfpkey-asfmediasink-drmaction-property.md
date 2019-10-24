@@ -2,7 +2,7 @@
 Description: Specifies how the ASF media sink should apply Windows Media DRM.
 ms.assetid: 5f81294b-859a-4325-98dd-6267c736e1f1
 title: MFPKEY_ASFMEDIASINK_DRMACTION property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

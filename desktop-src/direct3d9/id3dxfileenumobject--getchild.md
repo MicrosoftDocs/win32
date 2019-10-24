@@ -2,7 +2,7 @@
 Description: Retrieves a child object in this file data object.
 ms.assetid: d8f367dd-8858-48ae-9de5-17de1538aadf
 title: ID3DXFileEnumObject::GetChild method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

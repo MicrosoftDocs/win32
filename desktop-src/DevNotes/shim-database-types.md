@@ -2,7 +2,7 @@
 Description: Represent the types for main and custom shim databases.
 ms.assetid: e893963a-6130-4f65-b925-6f3d292fc86d
 title: Shim Database Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

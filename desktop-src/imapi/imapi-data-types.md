@@ -15,7 +15,7 @@ keywords:
 - ULONG_IMAPI2_ALL_MODE_PAGES
 - ULONG_IMAPI2_NONZERO
 - ULONG_IMAPI2_NOT_NEGATIVE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

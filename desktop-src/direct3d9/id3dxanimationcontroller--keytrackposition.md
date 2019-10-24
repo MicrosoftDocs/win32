@@ -2,7 +2,7 @@
 Description: Sets an event key that changes the local time of an animation track.
 ms.assetid: b527e960-8ab9-42a0-bb4d-bea5aaf83424
 title: ID3DXAnimationController::KeyTrackPosition method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

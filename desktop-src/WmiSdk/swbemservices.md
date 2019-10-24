@@ -3,7 +3,7 @@ Description: You can use the methods of an SWbemServices object to perform opera
 ms.assetid: 7fcfa404-2fe6-42e5-85ac-64536f6d2a44
 ms.tgt_platform: multiple
 title: SWbemServices object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

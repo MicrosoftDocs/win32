@@ -2,7 +2,7 @@
 Description: Retrieves information associated with a type.
 ms.assetid: 27a283a5-8924-4a2f-8f58-e673a424e28a
 title: IPStore::GetTypeInfo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

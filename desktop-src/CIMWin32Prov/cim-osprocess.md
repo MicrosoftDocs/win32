@@ -3,7 +3,7 @@ Description: The CIM\_OSProcess class associates the operating system and one or
 ms.assetid: 59d52b29-9d97-464f-bbbc-4191305df8c7
 ms.tgt_platform: multiple
 title: CIM_OSProcess class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

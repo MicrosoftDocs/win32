@@ -3,7 +3,7 @@ Description: Boolean value that indicates whether any field in a CIM datetime va
 ms.assetid: ba5fcf17-7c26-4960-9da9-e380d90e5f3e
 ms.tgt_platform: multiple
 title: SWbemDateTime.IsInterval property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

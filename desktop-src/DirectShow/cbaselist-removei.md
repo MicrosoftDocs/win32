@@ -2,7 +2,7 @@
 Description: The RemoveI method removes the item at the specified position.
 ms.assetid: 6a6d54ce-7ab3-48dd-8d5d-1315816bcbb9
 title: CBaseList.RemoveI method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

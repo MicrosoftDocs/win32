@@ -3,7 +3,7 @@ Description: The SetPowerState method sets the desired power state for a logical
 ms.assetid: 39b51ef7-1bd6-456b-a4d2-59d4769cc9a0
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_CoolingDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

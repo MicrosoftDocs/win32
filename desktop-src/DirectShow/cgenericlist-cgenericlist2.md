@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: 6311d84d-1723-4607-87f8-7cd2ad2582f3
 title: CGenericList.CGenericList constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

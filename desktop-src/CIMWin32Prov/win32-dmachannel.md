@@ -3,7 +3,7 @@ Description: The Win32\_DMAChannel WMI class represents a direct memory access (
 ms.assetid: cc517aac-7bd4-4937-8b07-2597076fca2c
 ms.tgt_platform: multiple
 title: Win32_DMAChannel class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

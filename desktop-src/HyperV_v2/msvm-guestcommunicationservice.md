@@ -2,7 +2,7 @@
 Description: Represents the guest communication service. It is used for communication with the guest, from the Hyper-V host.
 ms.assetid: 8d1d241f-4702-41bc-ab44-4f0aaa83ad4b
 title: Msvm_GuestCommunicationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

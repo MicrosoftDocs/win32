@@ -2,7 +2,7 @@
 Description: The PF\_HANDOFFSET structure defines the protocols that hand off to the parser, or the protocols that the parser hands off to.
 ms.assetid: 2fda399d-a09e-47b4-bb2e-95996de9f950
 title: PF_HANDOFFSET structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

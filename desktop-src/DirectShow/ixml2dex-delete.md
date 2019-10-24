@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: 65ab8253-9fbf-4a1b-bcb7-a1dc916bb47f
 title: IXml2Dex::Delete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

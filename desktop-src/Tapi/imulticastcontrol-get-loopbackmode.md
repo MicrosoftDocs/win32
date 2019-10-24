@@ -2,7 +2,7 @@
 Description: The get\_LoopbackMode method gets the multicast loopback mode.
 ms.assetid: 2499c108-f70b-4afe-aa2b-2376c95b84bd
 title: IMulticastControl::get_LoopbackMode method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The CompleteConnect method completes a connection to an input pin.
 ms.assetid: c23195e7-8d66-4217-bd59-8889459ce4f1
 title: CDynamicOutputPin.CompleteConnect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

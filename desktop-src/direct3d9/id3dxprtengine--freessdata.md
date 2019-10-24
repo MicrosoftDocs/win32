@@ -2,7 +2,7 @@
 Description: Frees memory used for temporary subsurface light scattering simulation data.
 ms.assetid: c85643bf-4a6d-452a-9cd8-17f919123307
 title: ID3DXPRTEngine::FreeSSData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Represents an association in which a CIM\_BaseMetricDefinition object defines metrics for a managed element.
 ms.assetid: 10905038-fc23-4018-bae8-f336e4f001e7
 title: CIM_MetricDefForME class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

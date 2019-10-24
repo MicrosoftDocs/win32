@@ -2,7 +2,7 @@
 Description: The CompareFrameDestAddress function compares an address to the destination address of a frame.
 ms.assetid: 739b3b9f-f989-459d-ac3e-6be7769adc06
 title: CompareFrameDestAddress function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

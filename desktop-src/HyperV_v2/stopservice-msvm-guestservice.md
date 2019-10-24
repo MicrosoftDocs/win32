@@ -2,7 +2,7 @@
 Description: Stops the guest service.
 ms.assetid: 67FFA46C-0B61-4845-A617-BA10F4D42CBC
 title: Msvm_GuestService::StopService method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

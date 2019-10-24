@@ -2,7 +2,7 @@
 Description: Forces the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.
 ms.assetid: e81e67d6-aa72-44c1-90e9-72ab18bca1c9
 title: EVRConfig_ForceThrottle attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

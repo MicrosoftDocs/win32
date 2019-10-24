@@ -3,7 +3,7 @@ Description: Reports a namespace creation event, which is a type of intrinsic ev
 ms.assetid: 50b9860a-d6e8-4dab-a7d0-09da9dd37b6b
 ms.tgt_platform: multiple
 title: '__NamespaceCreationEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

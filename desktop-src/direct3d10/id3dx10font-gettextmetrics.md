@@ -2,7 +2,7 @@
 Description: Retrieve font characteristics.
 ms.assetid: ef7e0d18-492b-476b-945a-bfc0232a939a
 title: ID3DX10Font::GetTextMetrics method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -4,7 +4,7 @@ description: Represents a 4-by-4 matrix.
 ms.assetid: 6df02d4c-cd3c-697e-0aff-7f2d307d3d7d
 keywords:
 - D2D1_MATRIX_4X4_F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

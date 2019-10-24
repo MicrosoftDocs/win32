@@ -15,7 +15,7 @@ keywords:
 - ADS_PRINTABLE_STRING
 - ADS_SEARCH_HANDLE
 - ADS_UTC_TIME
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Supplies operator overloads and type casts for D3DXFLOAT16 structures.
 ms.assetid: d287efb5-d15e-46dc-924d-012e1a108efc
 title: D3DXFLOAT16 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

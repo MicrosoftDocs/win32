@@ -2,7 +2,7 @@
 Description: The CreateImageSample method creates a media sample.
 ms.assetid: dae71692-5cbc-4bc7-a363-41766ef17c58
 title: CImageAllocator.CreateImageSample method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

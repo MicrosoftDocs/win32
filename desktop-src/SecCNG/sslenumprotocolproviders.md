@@ -2,7 +2,7 @@
 Description: Returns an array of installed Secure Sockets Layer protocol (SSL) protocol providers.
 ms.assetid: a61ddcf5-b7e3-40b2-82fc-1cf87eb963ec
 title: SslEnumProtocolProviders function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The PropagatesToSubClass property of the SWbemQualifier object is a
 ms.assetid: d0c272fa-314c-4555-9fcf-6b7caf980f07
 ms.tgt_platform: multiple
 title: SWbemQualifier.PropagatesToSubClass property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

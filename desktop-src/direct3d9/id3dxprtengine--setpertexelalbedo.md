@@ -2,7 +2,7 @@
 Description: Sets an albedo value for each texel, overwriting previous albedo values.
 ms.assetid: 2928c861-a07e-4099-b04f-cdfa41e70874
 title: ID3DXPRTEngine::SetPerTexelAlbedo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

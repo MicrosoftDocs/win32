@@ -2,7 +2,7 @@
 Description: Array of pins belonging to this filter.
 ms.assetid: 98d334ce-c161-40bb-a73f-26ae9ba8b90c
 title: CSource::m_paStreams member
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The SWbemPrivilege object represents a single privilege. This objec
 ms.assetid: 18ee4587-6347-4075-b5e9-c5fb02f3cbf7
 ms.tgt_platform: multiple
 title: SWbemPrivilege object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

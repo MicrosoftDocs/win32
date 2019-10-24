@@ -2,7 +2,7 @@
 Description: The put\_Width method sets the window width.
 ms.assetid: eb5ad1c2-ba39-4c06-84d2-6708dc8796d8
 title: CBaseControlWindow.put_Width method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

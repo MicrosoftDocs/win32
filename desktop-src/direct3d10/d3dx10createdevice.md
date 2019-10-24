@@ -2,7 +2,7 @@
 Description: Create the best Direct3D 10 device that represents the display adapter. If a Direct3D 10.1-compatible device can be created, it will be possible to acquire an ID3D10Device1 Interface pointer from the returned device interface pointer.
 ms.assetid: 1af8f4e5-a59e-403a-95d2-069b91bad93e
 title: D3DX10CreateDevice function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

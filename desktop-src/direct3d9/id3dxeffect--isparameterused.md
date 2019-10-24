@@ -2,7 +2,7 @@
 Description: Determines if a parameter is used by the technique.
 ms.assetid: ac50c0d3-93d9-4477-a854-d0b53df28c90
 title: ID3DXEffect::IsParameterUsed method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

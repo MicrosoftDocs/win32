@@ -2,7 +2,7 @@
 Description: The RemoveAll method removes all the nodes from the list.
 ms.assetid: f6a6ebfe-5f53-4acd-8bfa-93680f5d40fd
 title: CBaseList.RemoveAll method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

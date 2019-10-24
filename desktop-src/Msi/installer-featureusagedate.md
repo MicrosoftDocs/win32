@@ -2,7 +2,7 @@
 Description: The FeatureUsageDate property is a read-only property that returns the date the specified feature was last used.
 ms.assetid: 444e54b2-94e7-44ea-8d7b-eeac984e3715
 title: Installer.FeatureUsageDate property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Occurs when a Windows Store app is activated.
 ms.assetid: CA0DB2D4-3417-48F5-8455-D87D0F323A1E
 title: ICoreApplicationView::Activated event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

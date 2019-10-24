@@ -2,7 +2,7 @@
 Description: The SetMediaType method is called when the pin's media type is set.
 ms.assetid: 91d88523-006e-49fe-92f3-92825fbb323b
 title: CBaseRenderer.SetMediaType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

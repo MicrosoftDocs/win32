@@ -2,7 +2,7 @@
 Description: Remotable version of the IMFPMPHost::CreateObjectByCLSID method.
 ms.assetid: be96be6d-47de-4d2b-81fc-13079de33888
 title: RemoteCreateObjectByCLSID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

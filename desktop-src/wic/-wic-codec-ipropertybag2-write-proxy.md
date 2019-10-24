@@ -2,7 +2,7 @@
 Description: Windows Imaging Component (WIC) proxy function for IPropertyBag2::Write.
 ms.assetid: b97caba6-298a-4b36-9f39-9b5440b866c3
 title: IPropertyBag2_Write_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

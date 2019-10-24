@@ -2,7 +2,7 @@
 Description: The ShowJavaConsole function is a debugging aid for Java developers. Applets (or other Java code) running within Internet Explorer can use it to display error messages and other information.
 ms.assetid: 070dd833-f8cc-403e-afbf-325648760d5f
 title: ShowJavaConsole function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

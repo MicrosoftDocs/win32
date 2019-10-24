@@ -2,7 +2,7 @@
 Description: Provides detailed information for a wireless LAN interface managed by the Wireless Zero Configuration service.
 ms.assetid: e1d2260b-a71f-481e-b505-b5d1a17ee221
 title: WZCQueryInterface function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

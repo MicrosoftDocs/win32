@@ -2,7 +2,7 @@
 Description: The PROMPTROLLBACKCOST property specifies the action the installer takes if rollback installation capabilities are enabled and there is insufficient disk space to complete the installation.The possible values of PROMPTROLLBACKCOST are as follows.ValueActionPDisplay a dialog box asking whether to continue without a rollback.DDisable rollback and continue without asking user.FFail with the out-of-disk-space error prompt. 
 ms.assetid: 6ffd0b3f-79b8-4ce3-a262-4d27ffc5a175
 title: PROMPTROLLBACKCOST property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

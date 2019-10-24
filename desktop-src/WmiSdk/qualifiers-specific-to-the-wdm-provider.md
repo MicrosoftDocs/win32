@@ -3,7 +3,7 @@ Description: The following qualifiers are used by the WDM Provider in device dri
 ms.assetid: 11b0af59-979f-4908-baef-c9ec564b3cfd
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the WDM Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

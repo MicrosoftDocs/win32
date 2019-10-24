@@ -2,7 +2,7 @@
 Description: Specifies the width and height of the encoded video, if the video is cropped.
 ms.assetid: d6217250-63ff-4dff-a357-ff4aaa764695
 title: AVEncVideoEncodeDimension property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

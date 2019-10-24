@@ -2,7 +2,7 @@
 Description: Changes a shared lock to a partial lock.
 ms.assetid: 82122671-b0bd-47ad-9a25-ee8ebd3779be
 title: CShareLockNH::SharedToPartial method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

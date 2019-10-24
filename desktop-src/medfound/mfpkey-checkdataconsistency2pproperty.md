@@ -2,7 +2,7 @@
 Description: Specifies whether whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. Read-write.
 ms.assetid: 68750820-e931-41c2-9d12-89ab83b4b97e
 title: MFPKEY_CHECKDATACONSISTENCY2P Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

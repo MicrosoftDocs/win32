@@ -2,7 +2,7 @@
 Description: Describes the intended aspect ratio for a video media type.
 ms.assetid: 6b32e257-c523-4859-8c8f-661c33810624
 title: MF_MT_SOURCE_CONTENT_HINT attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

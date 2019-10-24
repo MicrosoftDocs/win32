@@ -3,7 +3,7 @@ Description: The RenewDHCPLeaseAll WMI class static method renews the IP address
 ms.assetid: cbe0a607-cb3b-47c4-ad3a-c4fa03fe688c
 ms.tgt_platform: multiple
 title: RenewDHCPLeaseAll method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

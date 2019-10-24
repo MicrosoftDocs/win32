@@ -3,7 +3,7 @@ Description: Provides extended functionality for SWbemObject. Like SWbemObject, 
 ms.assetid: 944d4cdc-ad35-4b53-b755-f10131a087fb
 ms.tgt_platform: multiple
 title: SWbemObjectEx object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

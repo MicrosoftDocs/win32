@@ -2,7 +2,7 @@
 Description: Links to documentation for the IAzBizRuleInterfaces interoperability wrapper methods and properties.
 ms.assetid: 2c9474e3-01d0-412d-9028-89a377d5592d
 title: Microsoft.Interop.Security.AzRoles.IAzBizRuleInterfaces interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

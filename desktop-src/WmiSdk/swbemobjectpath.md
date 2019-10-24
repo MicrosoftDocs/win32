@@ -3,7 +3,7 @@ Description: Use the methods and properties of the SWbemObjectPath object to con
 ms.assetid: f2cf489d-d2a9-4926-84cf-fb33fe3d726a
 ms.tgt_platform: multiple
 title: SWbemObjectPath object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

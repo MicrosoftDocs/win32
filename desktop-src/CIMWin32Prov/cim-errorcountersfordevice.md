@@ -3,7 +3,7 @@ Description: The CIM\_ErrorCountersForDevice class associates the CIM\_DeviceErr
 ms.assetid: 200971ab-df85-4a45-beb3-4ffe11ce92dc
 ms.tgt_platform: multiple
 title: CIM_ErrorCountersForDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

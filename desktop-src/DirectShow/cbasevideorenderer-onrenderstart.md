@@ -2,7 +2,7 @@
 Description: The OnRenderStart method sets information for rendering.
 ms.assetid: 698fe778-e2cb-4b87-a668-084b6c12c71f
 title: CBaseVideoRenderer.OnRenderStart method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

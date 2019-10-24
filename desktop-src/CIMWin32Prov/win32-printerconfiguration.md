@@ -3,7 +3,7 @@ Description: The Win32\_PrinterConfiguration WMI class represents the configurat
 ms.assetid: b6649da0-ecb0-4ed1-979c-5005837eb474
 ms.tgt_platform: multiple
 title: Win32_PrinterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

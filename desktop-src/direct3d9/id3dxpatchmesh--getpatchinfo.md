@@ -2,7 +2,7 @@
 Description: Gets the attributes of the patch.
 ms.assetid: 601a3275-25ea-4e16-8297-a9fc1f5fdd49
 title: ID3DXPatchMesh::GetPatchInfo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

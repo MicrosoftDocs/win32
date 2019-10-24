@@ -2,7 +2,7 @@
 Description: Setting the ARPNOMODIFY property disables Add or Remove Programs functionality in Control Panel that modifies the product.
 ms.assetid: dc804910-cf15-4f9e-863f-78dcac248717
 title: ARPNOMODIFY property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

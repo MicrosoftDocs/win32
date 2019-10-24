@@ -2,7 +2,7 @@
 Description: Instructs an IME window to get the position of the status window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 59c7baae-1b8a-4761-9814-31afd8d39691
 title: IMC_GETSTATUSWINDOWPOS command
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

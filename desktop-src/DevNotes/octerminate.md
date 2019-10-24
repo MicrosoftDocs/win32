@@ -2,7 +2,7 @@
 Description: Closes the OC manager.
 ms.assetid: feba9954-03b2-4b57-b7ba-933e171751ff
 title: OcTerminate function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

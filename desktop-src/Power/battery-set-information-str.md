@@ -2,7 +2,7 @@
 Description: Contains battery information to be set.
 ms.assetid: 535e56cb-2bab-458a-84a8-2d9a4d96412b
 title: BATTERY_SET_INFORMATION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

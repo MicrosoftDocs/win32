@@ -2,7 +2,7 @@
 title: IVMDVDDrive Properties
 description: The IVMDVDDrive interface exposes the following properties.
 ms.assetid: 30A6BEF0-71AE-4888-91EB-B34B8F9E3F74
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

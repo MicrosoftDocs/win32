@@ -2,7 +2,7 @@
 Description: Compile an effect.
 ms.assetid: be6f862a-5091-4a06-a27a-308e81360129
 title: ID3DXEffectCompiler::CompileEffect method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

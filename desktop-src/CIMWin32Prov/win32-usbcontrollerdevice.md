@@ -3,7 +3,7 @@ Description: The Win32\_USBControllerDevice association WMI class relates a univ
 ms.assetid: a0c64984-9116-4cb8-86e0-38c897cb7119
 ms.tgt_platform: multiple
 title: Win32_USBControllerDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

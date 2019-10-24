@@ -3,7 +3,7 @@ Description: The Name property of an SWbemPrivilege object is a string that uniq
 ms.assetid: cc1cdde7-20ad-4ff7-ad49-43eb46c15df9
 ms.tgt_platform: multiple
 title: SWbemPrivilege.Name property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

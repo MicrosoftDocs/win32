@@ -2,7 +2,7 @@
 Description: The EnumerateParticipants method enumerates participants associated with the current conference.
 ms.assetid: 90a2b5f1-8749-42cd-92d4-f5ee4e680eae
 title: ITParticipantControl::EnumerateParticipants method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

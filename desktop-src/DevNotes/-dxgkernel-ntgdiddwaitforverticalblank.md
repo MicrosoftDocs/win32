@@ -2,7 +2,7 @@
 Description: Returns the vertical blank status of the device.
 ms.assetid: d09b684b-3482-424d-8a60-d123a65f9053
 title: NtGdiDdWaitForVerticalBlank function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - IWTSServerChannel interface Remote Desktop Services
 - IWTSServerChannel interface Remote Desktop Services , described
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

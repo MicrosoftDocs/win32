@@ -2,7 +2,7 @@
 Description: A message that is sent whenever there is a change in the system time.
 ms.assetid: 94b5b6f7-04bb-4e0a-848b-e2b31ffc2938
 title: WM_TIMECHANGE message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: This template is instantiated on a per-mesh basis.
 ms.assetid: ac5289c6-989c-43b4-9190-ac8f831a05f0
 title: SkinWeights
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

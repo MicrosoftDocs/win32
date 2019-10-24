@@ -2,7 +2,7 @@
 Description: Implements the IStrokeBuilder Interface.
 ms.assetid: 0d699089-b913-4020-9284-a955f61fd861
 title: StrokeBuilder class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

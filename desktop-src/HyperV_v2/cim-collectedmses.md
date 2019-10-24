@@ -2,7 +2,7 @@
 Description: Represents a generic association between a collection of managed system elements and the members of the collection.
 ms.assetid: c9e2bbca-67be-41f2-a94c-cf4eaf5f4694
 title: CIM_CollectedMSEs class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

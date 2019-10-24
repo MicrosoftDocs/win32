@@ -2,7 +2,7 @@
 Description: The GetMediaType method retrieves a preferred media type, by index value.
 ms.assetid: 96f102b0-e2d1-49a1-84af-aa4622cae2a9
 title: CBasePin.GetMediaType method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

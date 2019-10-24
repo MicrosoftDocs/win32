@@ -2,7 +2,7 @@
 Description: The top-level element in a Journal note XML file.
 ms.assetid: 3887667c-67a7-416a-b94d-c30bb02a7985
 title: JournalDocument Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

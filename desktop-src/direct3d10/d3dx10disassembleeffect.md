@@ -2,7 +2,7 @@
 Description: Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated.
 ms.assetid: 218ac120-33ce-44db-84a7-99fef3281f07
 title: D3DX10DisassembleEffect function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

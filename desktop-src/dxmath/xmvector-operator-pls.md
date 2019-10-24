@@ -2,7 +2,7 @@
 Description: Addition operators.
 ms.assetid: 60489ebb-2809-42ff-9bcc-9b802dd810f0
 title: operator + operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

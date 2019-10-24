@@ -1,7 +1,7 @@
 ---
 Description: Displays your open windows in a 3D stack that you can flip through.
 title: Shell::WindowSwitcher method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

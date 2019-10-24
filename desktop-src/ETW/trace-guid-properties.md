@@ -2,7 +2,7 @@
 Description: The TRACE\_GUID\_PROPERTIES structure contains information about an event trace provider.
 ms.assetid: 849f2d34-14e0-43e8-a735-d46e94671725
 title: TRACE_GUID_PROPERTIES structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

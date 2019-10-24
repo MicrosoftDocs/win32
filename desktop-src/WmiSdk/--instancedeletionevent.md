@@ -3,7 +3,7 @@ Description: Reports an instance deletion event, which is a type of intrinsic ev
 ms.assetid: a370fc95-15e3-49c3-98de-2f40d742f207
 ms.tgt_platform: multiple
 title: '__InstanceDeletionEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

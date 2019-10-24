@@ -2,7 +2,7 @@
 Description: Displays a message box with the specified string, the name of the source file, and the line number. The user can ignore the message, enter the debugger, or quit the application. Ignored in retail builds.
 ms.assetid: ac4da7da-f9d0-44ae-9ad1-9a5908b288fb
 title: DbgBreak macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

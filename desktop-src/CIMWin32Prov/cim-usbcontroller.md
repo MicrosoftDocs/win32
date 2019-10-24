@@ -3,7 +3,7 @@ Description: The CIM\_USBController class represents the capabilities and manage
 ms.assetid: fa891db5-9995-4532-895f-bded8dd0bdac
 ms.tgt_platform: multiple
 title: CIM_USBController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

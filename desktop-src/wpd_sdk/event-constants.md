@@ -2,7 +2,7 @@
 Description: Windows Portable Devices defines the following event values.
 ms.assetid: d73788a1-d0fe-4a69-b472-edf438a28f90
 title: Event Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

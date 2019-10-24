@@ -2,7 +2,7 @@
 Description: XAudio2 specific error codes returned by XAudio2 methods.
 ms.assetid: 42a1c21c-4b14-114a-d79e-15a61eb2139b
 title: XAudio2 Error Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

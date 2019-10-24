@@ -2,7 +2,7 @@
 Description: The GetGroupName method retrieves the application-defined name of the group.
 ms.assetid: 402e97d9-abb5-4d8e-8735-1b06d60ab225
 title: IAMTimelineGroup::GetGroupName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

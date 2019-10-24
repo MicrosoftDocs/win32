@@ -2,7 +2,7 @@
 Description: The Type method retrieves the major type.
 ms.assetid: 9c3badb2-2d9f-44d8-a376-0918104ee431
 title: CMediaType.Type method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

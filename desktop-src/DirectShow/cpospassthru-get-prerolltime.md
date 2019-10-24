@@ -2,7 +2,7 @@
 Description: The get\_PrerollTime method retrieves the amount of data that will be queued before the start position. This method implements the IMediaPosition::get\_PrerollTime method.
 ms.assetid: 37c12798-eb0d-4859-8b2e-52d6ae147863
 title: CPosPassThru.get_PrerollTime method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

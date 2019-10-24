@@ -2,7 +2,7 @@
 Description: Ends an active technique.
 ms.assetid: 7297aa67-5cd4-4557-b5ef-faa6c27eaeb5
 title: ID3DXEffect::End method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

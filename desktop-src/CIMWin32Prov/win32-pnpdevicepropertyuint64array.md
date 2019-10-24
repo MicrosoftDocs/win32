@@ -3,7 +3,7 @@ Description: Represents a PnP device property consisting of an array of Uint64 e
 ms.assetid: F0959F4A-D78F-438B-B680-C01832CBB5F4
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint64Array class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

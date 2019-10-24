@@ -2,7 +2,7 @@
 Description: The GetSubtypeName function retrieves the human-readable name of a video subtype.
 ms.assetid: 493b434e-2d36-4897-a5b2-7be0eb0a560f
 title: GetSubtypeName function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

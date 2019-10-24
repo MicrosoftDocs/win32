@@ -2,7 +2,7 @@
 Description: Sets mesh geometry displacement parameters.
 ms.assetid: 4c78e5b3-fb63-4341-a811-5531cf9564e7
 title: ID3DXPatchMesh::SetDisplaceParam method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

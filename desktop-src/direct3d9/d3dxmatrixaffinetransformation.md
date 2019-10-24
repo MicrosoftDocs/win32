@@ -2,7 +2,7 @@
 Description: Builds a 3D affine transformation matrix. NULL arguments are treated as identity transformations.
 ms.assetid: 54eac78f-57be-4a24-8dfb-0b519e97d6ca
 title: D3DXMatrixAffineTransformation function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

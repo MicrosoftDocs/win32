@@ -2,7 +2,7 @@
 Description: The installer sets the PhysicalMemory property to the size of the installed RAM in megabytes.
 ms.assetid: ef0b5b2c-7a43-41d5-8495-8bd1d44a04d1
 title: PhysicalMemory property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
