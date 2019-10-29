@@ -72,7 +72,7 @@ DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED was introduced in the October 2018 updat
 [**GetAwarenessFromDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext)
 </dt> </dl>
 
-[**GetDpiFRomDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getdpifromdpiawarenesscontext)
+[**GetDpiFromDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getdpifromdpiawarenesscontext)
 </dt> </dl>
 
 [**GetThreadDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext)
