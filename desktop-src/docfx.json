@@ -44,7 +44,7 @@
         "Windows", 
         "Desktop"
       ],
-      "titleSuffix": "Windows applications",
+      "titleSuffix": "Win32 apps",
       "ms.prod": "desktop",
       "ms.author": "jken",
       "author": "GrantMeStrength",
