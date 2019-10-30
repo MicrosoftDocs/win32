@@ -1673,26 +1673,35 @@ An export name is defined only if the export name pointer table contains a point
 
 #### Export Ordinal Table
 
-The export ordinal table is an array of 16-bit indexes into the export address table. The ordinals are biased by the Ordinal Base field of the export directory table. In other words, the ordinal base must be subtracted from the ordinals to obtain true indexes into the export address table.
+The export ordinal table is an array of 16-bit unbiased indexes into the export address table. Ordinals are biased by the Ordinal Base field of the export directory table. In other words, the ordinal base must be subtracted from the ordinals to obtain true indexes into the export address table.
 
 The export name pointer table and the export ordinal table form two parallel arrays that are separated to allow natural field alignment. These two tables, in effect, operate as one table, in which the Export Name Pointer column points to a public (exported) name and the Export Ordinal column gives the corresponding ordinal for that public name. A member of the export name pointer table and a member of the export ordinal table are associated by having the same position (index) in their respective arrays.
 
-Thus, when the export name pointer table is searched and a matching string is found at position i, the algorithm for finding the symbol's address is:
-
+Thus, when the export name pointer table is searched and a matching string is found at position i, the algorithm for finding the symbol's RVA and biased ordinal is:
 
 ```C++
-i = Search_ExportNamePointerTable (ExportName);
+i = Search_ExportNamePointerTable (name);
 ordinal = ExportOrdinalTable [i];
-SymbolRVA = ExportAddressTable [ordinal - OrdinalBase];
+
+rva = ExportAddressTable [ordinal];
+biased_ordinal = offset + OrdinalBase;
 ```
 
+When searching for a symbol by (biased) ordinal, the algorithm for finding the symbol's RVA and name is:
 
+```C++
+ordinal = biased_ordinal - OrdinalBase;
+i = Search_ExportOrdinalTable (ordinal);
+
+rva = ExportAddressTable [ordinal];
+name = ExportNameTable [i];
+```
 
 #### Export Name Table
 
 The export name table contains the actual string data that was pointed to by the export name pointer table. The strings in this table are public names that other images can use to import the symbols. These public export names are not necessarily the same as the private symbol names that the symbols have in their own image file and source code, although they can be.
 
-Every exported symbol has an ordinal value, which is just the index into the export address table (plus the Ordinal Base value). Use of export names, however, is optional. Some, all, or none of the exported symbols can have export names. For exported symbols that do have export names, corresponding entries in the export name pointer table and export ordinal table work together to associate each name with an ordinal.
+Every exported symbol has an ordinal value, which is just the index into the export address table. Use of export names, however, is optional. Some, all, or none of the exported symbols can have export names. For exported symbols that do have export names, corresponding entries in the export name pointer table and export ordinal table work together to associate each name with an ordinal.
 
 The structure of the export name table is a series of null-terminated ASCII strings of variable length.
 
