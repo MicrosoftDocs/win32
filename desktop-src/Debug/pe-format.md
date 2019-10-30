@@ -1684,7 +1684,7 @@ i = Search_ExportNamePointerTable (name);
 ordinal = ExportOrdinalTable [i];
 
 rva = ExportAddressTable [ordinal];
-biased_ordinal = offset + OrdinalBase;
+biased_ordinal = ordinal + OrdinalBase;
 ```
 
 When searching for a symbol by (biased) ordinal, the algorithm for finding the symbol's RVA and name is:
