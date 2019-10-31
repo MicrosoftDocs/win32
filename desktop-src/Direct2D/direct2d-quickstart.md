@@ -442,7 +442,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
             ::SetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA,
-                PtrToUlong(pDemoApp)
+                reinterpret_cast<LONG_PTR>(pDemoApp)
                 );
 
             result = 1;
