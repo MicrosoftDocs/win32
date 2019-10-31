@@ -8,7 +8,7 @@ ms.date: 10/31/2019
 
 # Error Codes
 
-This section is intended for developers who are debugging specific system errors. If you reached this page while search for other errors, here are some links that might help you:
+This section is intended for developers who are debugging system errors. If you reached this page while searching for other errors, here are some links that might help:
 
 *  [Windows Update errors](https://support.microsoft.com/help/10164/fix-windows-update-errors) - For help resolving issues with Windows Update.
 * [Windows activation errors](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) - For help verifying your copy of Windows.
@@ -19,7 +19,7 @@ This section is intended for developers who are debugging specific system errors
 
 System Error Codes are very broad: each one can occur in one of many hundreds of locations in the system. Consequently, the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the runtime context in which these errors occur. 
 
-Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. And sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
+Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. And sometimes the code is returned by a function deep in the stack and far removed from code that is handling the error.
 
 The following topics provide lists of system error codes. These values are defined in the WinError.h header file.
 
