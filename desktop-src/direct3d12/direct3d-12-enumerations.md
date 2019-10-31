@@ -62,6 +62,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_INDEX_BUFFER_STRIP_CUT_VALUE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_index_buffer_strip_cut_value). When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle strip . There is a special index value that represents the desire to have a discontinuity in the strip, the cut index value. This enum lists the supported cut values.  |
 | [**D3D12_INDIRECT_ARGUMENT_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_indirect_argument_type). Specifies the type of the indirect parameter.  |
 | [**D3D12_INPUT_CLASSIFICATION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_input_classification). Identifies the type of data contained in an input slot. |
+| [**D3D12_LIFETIME_STATE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_lifetime_state). Defines constants that specify the lifetime state of a lifetime-tracked object. |
 | [**D3D12_LOGIC_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op). Specifies logical operations to configure for a render target. |
 | [**D3D12_MEASUREMENTS_ACTION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action). Defines constants that specify what should be done with the results of earlier workload instrumentation. |
 | [**D3D12_MEMORY_POOL**](/windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool). Specifies the memory pool for the heap. |

@@ -1462,12 +1462,16 @@
         href: /windows/desktop/api/Wincrypt/nf-wincrypt-cryptstringtobinarya
       - name: "CryptUIDlgCertMgr"
         href: /windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuidlgcertmgr
+      - name: "CryptUIDlgSelectCertificate"
+        href: cryptuidlgselectcertificate.md
       - name: "CryptUIDlgSelectCertificateFromStore"
         href: /windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuidlgselectcertificatefromstore
       - name: "CryptUIDlgViewCertificate"
         href: /windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea
       - name: "CryptUIDlgViewContext"
         href: /windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuidlgviewcontext
+      - name: "CryptUIDlgViewSignerInfo"
+        href: cryptuidlgviewsignerinfo.md
       - name: "CryptUIWizDigitalSign"
         href: /windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign
       - name: "CryptUIWizExport"

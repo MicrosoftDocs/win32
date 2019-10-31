@@ -402,6 +402,8 @@
           items: 
           - name: "CheckDriverMatchingIdentifier"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier
+          - name: "CreateLifetimeTracker"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-createlifetimetracker
           - name: "CreateMetaCommand"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-createmetacommand
           - name: "CreateStateObject"
@@ -412,6 +414,8 @@
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-enumeratemetacommands
           - name: "GetRayTracingAccelerationStructurePrebuildInfo"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo
+          - name: "RemoveDevice"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-removedevice
         - name: "ID3D12Device6"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12device6
           items: 
@@ -615,6 +619,16 @@
           items: 
           - name: "GetDesc"
             href: id3d12heap-getdesc.md
+        - name: "ID3D12LifetimeOwner"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12lifetimeowner
+          items: 
+          - name: "LifetimeStateUpdated"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12lifetimeowner-lifetimestateupdated
+        - name: "ID3D12LifetimeTracker"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12lifetimetracker
+          items: 
+          - name: "DestroyOwnedObject"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12lifetimetracker-destroyownedobject
         - name: "ID3D12MetaCommand"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12metacommand
           items: 
@@ -1220,6 +1234,8 @@
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_indirect_argument_type
         - name: "D3D12_INPUT_CLASSIFICATION"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_input_classification
+        - name: "D3D12_LIFETIME_STATE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_lifetime_state
         - name: "D3D12_LOGIC_OP"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op
         - name: "D3D12_MEASUREMENTS_ACTION"
