@@ -15,7 +15,7 @@ This section is intended for developers who are debugging system errors. If you 
 * [Troubleshooting blue screen errors](https://support.microsoft.com/help/14238/windows-10-troubleshoot-blue-screen-errors) - Discover what caused the stop error.
 * [Microsoft Support](https://support.microsoft.com) - For support with a Microsoft product.
 
-# System Error Codes
+## System Error Codes
 
 System Error Codes are very broad: each one can occur in one of many hundreds of locations in the system. Consequently, the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the runtime context in which these errors occur. 
 
