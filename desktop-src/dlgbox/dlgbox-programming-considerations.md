@@ -27,33 +27,13 @@ ms.date: 05/31/2018
 
 This overview discusses some programming considerations concerning dialog boxes.
 
-The overview includes the following topics.
-
--   [Dialog Box Procedures](#dialog-box-procedures)
-    -   [The WM\_INITDIALOG Message](https://docs.microsoft.com/windows)
-    -   [The WM\_COMMAND Message](https://docs.microsoft.com/windows)
-    -   [The WM\_PARENTNOTIFY Message](https://docs.microsoft.com/windows)
-    -   [Control-Color Messages](#control-color-messages)
-    -   [Dialog Box Default Message Processing](#dialog-box-default-message-processing)
--   [Dialog Box Keyboard Interface](#dialog-box-keyboard-interface)
-    -   [The WS\_TABSTOP Style](https://docs.microsoft.com/windows)
-    -   [The WS\_GROUP Style](https://docs.microsoft.com/windows)
-    -   [Mnemonics](#mnemonics)
--   [Dialog Box Settings](#dialog-box-settings)
-    -   [Radio Buttons and Check Boxes](#radio-buttons-and-check-boxes)
-    -   [Dialog Box Edit Controls](#dialog-box-edit-controls)
-    -   [List Boxes, Combo Boxes, and Directory Listings](#list-boxes-combo-boxes-and-directory-listings)
-    -   [Dialog Box Control Messages](#dialog-box-control-messages)
--   [Custom Dialog Boxes](#custom-dialog-boxes)
-
 ## Dialog Box Procedures
 
 A dialog box procedure is similar to a window procedure in that the system sends messages to the procedure when it has information to give or tasks to carry out. Unlike a window procedure, a dialog box procedure never calls the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Instead, it returns **TRUE** if it processes a message or **FALSE** if it does not.
 
 Every dialog box procedure has the following form:
 
-
-```
+```cpp
 BOOL CALLBACK DlgProc(HWND hwndDlg, UINT message, WPARAM wParam, LPARAM lParam) 
 { 
     switch (message) 
@@ -67,17 +47,15 @@ BOOL CALLBACK DlgProc(HWND hwndDlg, UINT message, WPARAM wParam, LPARAM lParam)
 }
 ```
 
-
-
 The procedure parameters serve the same purpose as in a window procedure, with the *hwndDlg* parameter receiving the window handle of the dialog box.
 
 Most dialog box procedures process the [**WM\_INITDIALOG**](wm-initdialog.md) message and the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages sent by the controls, but process few if any other messages. If a dialog box procedure does not process a message, it must return **FALSE** to direct the system to process the messages internally. The only exception to this rule is the **WM\_INITDIALOG** message. The dialog box procedure must return **TRUE** to direct the system to further process the **WM\_INITDIALOG** message. In any case, the procedure must not call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
--   [The WM\_INITDIALOG Message](https://docs.microsoft.com/windows)
--   [The WM\_COMMAND Message](https://docs.microsoft.com/windows)
--   [The WM\_PARENTNOTIFY Message](https://docs.microsoft.com/windows)
--   [Control-Color Messages](#control-color-messages)
--   [Dialog Box Default Message Processing](#dialog-box-default-message-processing)
+- [The WM\_INITDIALOG Message](#the-wm_initdialog-message)
+- [The WM\_COMMAND Message](#the-wm_command-message)
+- [The WM\_PARENTNOTIFY Message](#the-wm_parentnotify-message)
+- [Control-Color Messages](#control-color-messages)
+- [Dialog Box Default Message Processing](#dialog-box-default-message-processing)
 
 ### The WM\_INITDIALOG Message
 
@@ -91,7 +69,7 @@ To display a custom icon on the caption bar of the dialog box, your [**WM\_INITD
 
 If the application creates the dialog box by using one of the functions [**DialogBoxParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxparama), [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama), [**CreateDialogParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogparama), or [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama), the *lParam* parameter for the [**WM\_INITDIALOG**](wm-initdialog.md) message contains the extra parameter passed to the function. Applications typically use this extra parameter to pass a pointer to additional initialization information to the dialog box procedure, but the dialog box procedure must determine the meaning of the parameter. If the application uses another function to create the dialog box, the system sets the *lParam* parameter to **NULL**.
 
-Before returning from the [**WM\_INITDIALOG**](wm-initdialog.md) message, the procedure should determine whether it should set the input focus to a specified control. If the dialog box procedure returns **TRUE**, the system automatically sets the input focus to the control whose window handle is in the *wParam* parameter. If the control receiving the default focus is not appropriate, it can set the focus to the appropriate control by using the [**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) function. If the procedure sets the input focus, it must return **FALSE** to prevent the system from setting the default focus. The control receiving the default input focus is always the first control specified in the template that is visible, not disabled, and has the [WS\_TABSTOP](https://docs.microsoft.com/windows) style. If no such control exists, the system sets the default input focus to the first control in the template.
+Before returning from the [**WM\_INITDIALOG**](wm-initdialog.md) message, the procedure should determine whether it should set the input focus to a specified control. If the dialog box procedure returns **TRUE**, the system automatically sets the input focus to the control whose window handle is in the *wParam* parameter. If the control receiving the default focus is not appropriate, it can set the focus to the appropriate control by using the [**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) function. If the procedure sets the input focus, it must return **FALSE** to prevent the system from setting the default focus. The control receiving the default input focus is always the first control specified in the template that is visible, not disabled, and has the [WS\_TABSTOP](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style. If no such control exists, the system sets the default input focus to the first control in the template.
 
 ### The WM\_COMMAND Message
 
@@ -147,15 +125,11 @@ The window procedure for the predefined dialog box class carries out default pro
 | [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown)     | Sends a [**CB\_SHOWDROPDOWN**](https://msdn.microsoft.com/library/Bb775919(v=VS.85).aspx) message to the combo box having the input focus, directing the control to hide its drop-down list box. The procedure calls [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) to complete the default action.                                                                                                                                                                                                                                      |
 | [**WM\_NCDESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-ncdestroy)           | Releases global memory allocated for edit controls in the dialog box (applies to dialog boxes that specify the [**DS\_LOCALEDIT**](dialog-box-styles.md) style) and frees any application-defined font (applies to dialog boxes that specify the [**DS\_SETFONT**](dialog-box-styles.md) or [**DS\_SHELLFONT**](dialog-box-styles.md) style). The procedure calls the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function to complete the default action. |
 | [**WM\_NCLBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nclbuttondown) | Sends a [**CB\_SHOWDROPDOWN**](https://msdn.microsoft.com/library/Bb775919(v=VS.85).aspx) message to the combo box having the input focus, directing the control to hide its drop-down list box. The procedure calls [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) to complete the default action.                                                                                                                                                                                                                                      |
-| [**WM\_NEXTDLGCTL**](wm-nextdlgctl.md)            | Sets the input focus to the next or previous control in the dialog box, to the control identified by the handle in the *wParam* parameter, or to the first control in the dialog box that is visible, not disabled, and has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows) style. The procedure ignores this message if the current window with the input focus is not a control.                                                                                                                  |
-| [**WM\_SETFOCUS**](https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus)           | Sets the input focus to the control identified by a previously saved control window handle. If no such handle exists, the procedure sets the input focus to the first control in the dialog box template that is visible, not disabled, and has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows) style. If no such control exists, the procedure sets the input focus to the first control in the template.                                                                                          |
+| [**WM\_NEXTDLGCTL**](wm-nextdlgctl.md)            | Sets the input focus to the next or previous control in the dialog box, to the control identified by the handle in the *wParam* parameter, or to the first control in the dialog box that is visible, not disabled, and has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style. The procedure ignores this message if the current window with the input focus is not a control.                                                                                                                  |
+| [**WM\_SETFOCUS**](https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus)           | Sets the input focus to the control identified by a previously saved control window handle. If no such handle exists, the procedure sets the input focus to the first control in the dialog box template that is visible, not disabled, and has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style. If no such control exists, the procedure sets the input focus to the first control in the template.                                                                                          |
 | [**WM\_SHOWWINDOW**](https://docs.microsoft.com/windows/desktop/winmsg/wm-showwindow)         | Saves a handle to the control having the input focus if the dialog box is being hidden, then calls [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) to complete the default action.                                                                                                                                                                                                                                                                                                                     |
 | [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)         | Saves a handle to the control having the input focus if the dialog box is being minimized, then calls [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) to complete the default action.                                                                                                                                                                                                                                                                                                                  |
 | [**WM\_VKEYTOITEM**](https://msdn.microsoft.com/library/Bb761364(v=VS.85).aspx)         | Returns zero.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-
-
-
- 
 
 The predefined window procedure passes all other messages to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) for default processing.
 
@@ -164,23 +138,18 @@ The predefined window procedure passes all other messages to [**DefWindowProc**]
 The system provides a special keyboard interface for dialog boxes that carries out special processing for several keys. The interface generates messages that correspond to certain buttons in the dialog box or changes the input focus from one control to another. Following are the keys used in this interface and their respective actions.
 
 
-
 | Key            | Action                                                                                                                                                                    |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ALT+*mnemonic* | Moves the input focus to the first control (having the [**WS\_TABSTOP**](https://docs.microsoft.com/windows) style) after the static control containing the specified mnemonic.        |
+| ALT+*mnemonic* | Moves the input focus to the first control (having the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style) after the static control containing the specified mnemonic.        |
 | DOWN           | Moves the input focus to the next control in the group.                                                                                                                   |
 | ENTER          | Sends a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message to the dialog box procedure. The *wParam* parameter is set to IDOK or control identifier of the default push button. |
 | ESC            | Sends a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message to the dialog box procedure. The *wParam* parameter is set to IDCANCEL.                                              |
 | LEFT           | Moves the input focus to the previous control in the group.                                                                                                               |
-| *mnemonic*     | Moves the input focus to the first control (having the [**WS\_TABSTOP**](https://docs.microsoft.com/windows) style) after the static control containing the specified mnemonic.        |
+| *mnemonic*     | Moves the input focus to the first control (having the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style) after the static control containing the specified mnemonic.        |
 | RIGHT          | Moves the input focus to the next control in the group.                                                                                                                   |
-| SHIFT+TAB      | Moves the input focus to the previous control that has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows) style.                                                                |
-| TAB            | Moves the input focus to the next control that has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows) style.                                                                    |
+| SHIFT+TAB      | Moves the input focus to the previous control that has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style.                                                                |
+| TAB            | Moves the input focus to the next control that has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style.                                                                    |
 | UP             | Moves the input focus to the previous control in the group.                                                                                                               |
-
-
-
- 
 
 The system automatically provides the keyboard interface for all modal dialog boxes. It does not provide the interface for modeless dialog boxes unless the application calls the [**IsDialogMessage**](/windows/desktop/api/Winuser/nf-winuser-isdialogmessagea) function to filter messages in its main message loop. This means that the application must pass the message to **IsDialogMessage** immediately after retrieving the message from the message queue. The function processes the messages if it is for the dialog box and returns a nonzero value to indicate that the message has been processed and must not be passed to the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) or [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function.
 
@@ -222,7 +191,7 @@ When the user presses a letter or digit key, the system first determines whether
 
 If the search for a control with a matching mnemonic encounters a window with the **WS\_EX\_CONTROLPARENT** style, the system recursively searches the window's children.
 
-If the system locates a static control and the control is not disabled, the system moves the input focus to the first control after the static control that is visible, not disabled, and that has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows) style. If the system locates some other control that has a matching mnemonic, it moves the input focus to that control. If the control is a default push button, the system sends a [**BN\_CLICKED**](https://msdn.microsoft.com/library/Bb761825(v=VS.85).aspx) notification message to the dialog box procedure. If the control is another style of button and there is no other control in the dialog box having the same mnemonic, the system sends the [**BM\_CLICK**](https://msdn.microsoft.com/library/Bb775985(v=VS.85).aspx) message to the control.
+If the system locates a static control and the control is not disabled, the system moves the input focus to the first control after the static control that is visible, not disabled, and that has the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style. If the system locates some other control that has a matching mnemonic, it moves the input focus to that control. If the control is a default push button, the system sends a [**BN\_CLICKED**](https://msdn.microsoft.com/library/Bb761825(v=VS.85).aspx) notification message to the dialog box procedure. If the control is another style of button and there is no other control in the dialog box having the same mnemonic, the system sends the [**BM\_CLICK**](https://msdn.microsoft.com/library/Bb775985(v=VS.85).aspx) message to the control.
 
 ## Dialog Box Settings
 
@@ -278,11 +247,3 @@ The window procedure for the custom dialog box has the same parameters and requi
 An application can also create custom dialog boxes by subclassing the window procedure of the predefined dialog box. The [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function lets an application specify the window procedure for a specified window. The application may also attempt to subclass by using the [**SetClassLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga) function, but doing so affects all dialog boxes in the system, not just those belonging to the application.
 
 Applications that create custom dialog boxes sometimes provide an alternate keyboard interface for the dialog boxes. For modeless dialog boxes, this may mean the application does not call the [**IsDialogMessage**](/windows/desktop/api/Winuser/nf-winuser-isdialogmessagea) function and instead processes all keyboard input in the custom window procedure. In such cases, the application can use the [**WM\_NEXTDLGCTL**](wm-nextdlgctl.md) message to minimize the code needed to move the input focus from one control to another. This message, when passed to [**DefDlgProc**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw), moves the input focus to a specified control and updates the appearance of the controls, such as moving the default push button border or setting an automatic radio button.
-
- 
-
- 
-
-
-
-
