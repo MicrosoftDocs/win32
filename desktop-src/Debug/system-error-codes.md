@@ -10,7 +10,7 @@ ms.date: 10/31/2019
 
 This section is intended for developers who are debugging system errors. If you reached this page while searching for other errors, here are some links that might help:
 
-*  [Windows Update errors](https://support.microsoft.com/help/10164/fix-windows-update-errors) - For help resolving issues with Windows Update.
+* [Windows Update errors](https://support.microsoft.com/help/10164/fix-windows-update-errors) - For help resolving issues with Windows Update.
 * [Windows activation errors](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) - For help verifying your copy of Windows.
 * [Troubleshooting blue screen errors](https://support.microsoft.com/help/14238/windows-10-troubleshoot-blue-screen-errors) - Discover what caused the stop error.
 * [Microsoft Support](https://support.microsoft.com) - For support with a Microsoft product.
