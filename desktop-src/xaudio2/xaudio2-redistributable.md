@@ -12,7 +12,7 @@ A version of XAudio 2.9 is available as a [NuGet package](/nuget/what-is-nuget).
 
 # Supported platforms
 
-The XAudio 2.9 NuGet package (*Microsoft.Direct3D.XAudio2Win7.\*.nupkg*) includes a 32-bit and a 64-bit version of a DLL that implements the XAudio 2.9 API. The DLL is called XAUDIO2WIN7.DLL. This DLL will work on Windows 7 SP1, Windows 8, Windows 8.1 and Windows 10.
+The XAudio 2.9 NuGet package (*Microsoft.XAudio2.Redist.\*.nupkg*) includes a 32-bit and a 64-bit version of a DLL that implements the XAudio 2.9 API. The DLL is called XAUDIO2\_9REDIST.DLL. This DLL will work on Windows 7 SP1, Windows 8, Windows 8.1 and Windows 10.
 
 When the DLL is used on a Windows 10 system, it checks the version number of the XAUDIO2\_9.DLL that is part of the operating system, and if the operating system is newer, it will delegate all API calls to XAUDIO2\_9.DLL in the operating system. This ensures that apps always use the latest version of XAudio 2.9 that is available on the current platform.
 
@@ -22,9 +22,9 @@ The DLL is not intended for UWP apps. UWP apps should use the XAUDIO2\_9.DLL tha
 
 # Installing the NuGet package
 
-The easiest way to install the NuGet package is to use the [NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in Microsoft Visual Studio. If you do this, your Visual Studio project file will be automatically updated to include *Microsoft.Direct3D.XAudio2Win7.targets*. The *.targets* file adds the Include folder with the header files for the XAudio2 to your collection of project include paths. The *.targets* file will also make your .DLL or .EXE link with XAUDIO2WIN7.LIB and XAPOBASEWIN7.LIB.
+The easiest way to install the NuGet package is to use the [NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in Microsoft Visual Studio. If you do this, your Visual Studio project file will be automatically updated to include *Microsoft.XAudio2.Redist.targets*. The *.targets* file adds the Include folder with the header files for the XAudio2 to your collection of project include paths. The *.targets* file will also make your .DLL or .EXE link with XAUDIO2REDIST.LIB and XAPOBASEREDIST.LIB.
 
-The library XAPOBASEWIN7.LIB is only needed if you intend to impement a custom XAudio Processing Object (XAPO) and you can remove it from the *Microsoft.Direct3D.XAudio2Win7.targets* if it is unused.
+The library XAPOBASEREDIST.LIB is only needed if you intend to impement a custom XAudio Processing Object (XAPO) and you can remove it from the *Microsoft.XAudio2.Redist.targets* if it is unused.
 
 You can also use other tools to extract the contents of the NuGet package, or even rename the file extension to .zip and extract the files with any ZIP extractor tool.
 
@@ -38,19 +38,19 @@ If you [install the NuGet package](#installing-the-nuget-package) using the NuGe
 
 You should be careful if adding the path to the include headers manually to the project, as specifying them in the wrong order can cause the OS-version specific [XAUDIO2.H](/windows/win32/api/xaudio2/) to be included from the Windows SDK, rather than the cross-platform version of XAUDIO2.H.
 
-To make the inclusion of headers less error-prone, the NuGet package contains a version of each header with "WIN7" appended to it. For example, in addition to XAUDIO2.H, the NuGet package also includes XAUDIO2WIN7.H. If you prefer, your code can directly include XAUDIO2WIN7.H to eliminate any ambiguity about which header file is being used. When including the -WIN7.H version of a header file, the order in which the include file directories are listed in the project file do not matter.
+To make the inclusion of headers less error-prone, the NuGet package contains a version of each header with "REDIST" appended to it. For example, in addition to XAUDIO2.H, the NuGet package also includes XAUDIO2REDIST.H. If you prefer, your code can directly include XAUDIO2REDIST.H to eliminate any ambiguity about which header file is being used. When including the -REDIST.H version of a header file, the order in which the include file directories are listed in the project file do not matter.
 
-Note that if your app is also being compiled for Xbox One, you should continue to include XAUDIO2.H when compiling for Xbox One, as some Xbox One-specific APIs are excluded from XAUDIO2WIN7.H. This NuGet package is not intended for Xbox One.
+Note that if your app is also being compiled for Xbox One, you should continue to include XAUDIO2.H when compiling for Xbox One, as some Xbox One-specific APIs are excluded from XAUDIO2REDIST.H. This NuGet package is not intended for Xbox One.
 
 ## Loading the DLL
 
-We recommend that you link your app with XAUDIO2WIN7.LIB and install XAUDIO2WIN7.DLL in the same folder as your app's executable. This will cause XAUDIO2WIN7.DLL to be loaded as soon as your executable is launched. However, if you prefer, you may use [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to load XAUDIO2WIN7.DLL on demand. This is a good solution if your app does not always need to use the XAudio2 APIs. But if you do this, you should keep the XAUDIO2WIN7.DLL loaded until the app exits, as attempting to unload the DLL can cause a crash if a background thread is still executing code in the DLL.
+We recommend that you link your app with XAUDIO2REDIST.LIB and install XAUDIO2\_9REDIST.DLL in the same folder as your app's executable. This will cause XAUDIO2\_9REDIST.DLL to be loaded as soon as your executable is launched. However, if you prefer, you may use [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to load XAUDIO2\_9REDIST.DLL on demand. This is a good solution if your app does not always need to use the XAudio2 APIs. But if you do this, you should keep the XAUDIO2\_9REDIST.DLL loaded until the app exits, as attempting to unload the DLL can cause a crash if a background thread is still executing code in the DLL.
 
 Unlike the older XAudio 2.7, it is not possible to use CoCreateInstance to load the DLL.
 
 ## Verifying the DLL signature
 
-The XAUDIO2WIN7.DLL binary is signed by Microsoft using a SHA-2 signature. Any code that attempts to validate the signature, e.g., anti-cheat modules for games, therefore needs to support SHA-2. Note that Windows 7 SP1 did not originally support SHA-2 and requires an update to add that functionality. The update is available as [KB4474419](https://support.microsoft.com/en-us/help/4474419/sha-2-code-signing-support-update).
+The XAUDIO2\_9REDIST.DLL binary is signed by Microsoft using a SHA-2 signature. Any code that attempts to validate the signature, e.g., anti-cheat modules for games, therefore needs to support SHA-2. Note that Windows 7 SP1 did not originally support SHA-2 and requires an update to add that functionality. The update is available as [KB4474419](https://support.microsoft.com/en-us/help/4474419/sha-2-code-signing-support-update).
 
 # Testing
 
