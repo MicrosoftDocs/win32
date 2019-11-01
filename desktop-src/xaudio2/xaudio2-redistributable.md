@@ -87,7 +87,7 @@ Spatial sound is not enabled if any of the following categories are specified:
 
 ## Error handling
 
-It is important to test that you game can handle a change in audio device, for example, when headphones are plugged in, or unplugged. This should be tested with headphones that only support 44.1 kHz sampling rate. Many low-end USB headphones and Bluetooth headsets only support 44.1 kHz. The transition between 48 kHz sampling rate and 44.1 kHz sampling rate can cause an error even when then [virtual audio endpoint](#virtual-audio-endpoint) is used. The error will not happen if the headphones also support 48 kHz.
+It is important to test that you game can handle a change in audio device, for example, when headphones are plugged in, or unplugged. This should be tested with headphones that only support 44.1 kHz sampling rate. Many low-end USB headphones and Bluetooth headsets only support 44.1 kHz. The transition between 48 kHz sampling rate and 44.1 kHz sampling rate can cause an error even when the [virtual audio endpoint](#virtual-audio-endpoint) feature is used. The error will not happen if the headphones also support 48 kHz. Note that the virtual audio endpoint feature is not available on Windows 7 SP1.
 
 The error code returned by XAudio 2.9 when it cannot automatically recover from a change in audio endpoint is [XAUDIO2\_E\_DEVICE\_INVALIDATED](xaudio2-error-codes.md). However, we recommend that apps do not hard-code a dependency on the error code having a specific value.
 
@@ -118,11 +118,13 @@ XAudio 2.9 will choose a different CPU core on Xbox One than on PC. The IXAudio2
 
 ## Virtual audio endpoint
 
-XAudio 2.9 will use a virtual audio endpoint by default. This means that if the default audio endpoint changes while XAudio 2.9 is used, it will attempt to automatically switch to the new audio endpoint. An example of when this can happen when the default audio endpoint is a pair of headphones that are connected over USB, and then the user unplugs the headphones. This will cause the speakers to be the new default audio endpoint.
+XAudio 2.9 will use a virtual audio endpoint by default, when running on Windows 8 or later. This means that if the default audio endpoint changes while XAudio 2.9 is used, it will attempt to automatically switch to the new audio endpoint. An example of when this can happen when the default audio endpoint is a pair of headphones that are connected over USB, and then the user unplugs the headphones. This will cause the speakers to be the new default audio endpoint.
 
 If the app specifies a specific audio format when invoking [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice), it may not be possible for XAudio 2.9 to perform this switch. For example, if the app specified that the Mastering Voice shall use a 48 kHz sampling rate and the new audio device only supports 44.1 kHz, then the automatic switch will fail, and XAudio 2.9 will report the [XAUDIO2\_E\_DEVICE\_INVALIDATED](xaudio2-error-codes.md) error.
 
 It is possible for the app to opt out of using the virtual audio endpoint by passing in the [**XAUDIO2\_NO\_VIRTUAL\_AUDIO\_CLIENT**](xaudio2-boundary-values-and-flags.md) flag to [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice).
+
+Virtual audio endpoints are not available on Windows 7 SP1. The **XAUDIO2\_NO\_VIRTUAL\_AUDIO\_CLIENT** flag has no effect on Windows 7 SP1.
 
 ## Audio categories
 
