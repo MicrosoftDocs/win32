@@ -202,7 +202,7 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam)
    HeapFree(hHeap, 0, pchRequest);
    HeapFree(hHeap, 0, pchReply);
 
-   printf("InstanceThread exitting.\n");
+   printf("InstanceThread exiting.\n");
    return 1;
 }
 
