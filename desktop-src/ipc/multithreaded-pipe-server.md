@@ -31,7 +31,7 @@ int _tmain(VOID)
    BOOL   fConnected = FALSE; 
    DWORD  dwThreadId = 0; 
    HANDLE hPipe = INVALID_HANDLE_VALUE, hThread = NULL; 
-   LPTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
+   LPCTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
  
 // The main loop creates an instance of the named pipe and 
 // then waits for a client to connect to it. When the client 
@@ -164,7 +164,7 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam)
       {   
           if (GetLastError() == ERROR_BROKEN_PIPE)
           {
-              _tprintf(TEXT("InstanceThread: client disconnected.\n"), GetLastError()); 
+              _tprintf(TEXT("InstanceThread: client disconnected.\n")); 
           }
           else
           {
