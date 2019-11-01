@@ -523,7 +523,7 @@ This parameter reserves the requested number of temporary table resources for us
 
 This parameter reserves the requested number of version store pages for use by an instance. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. This setting will affect how many updates can be held in memory at a time. This in turn will affect either the maximum number of updates a single transaction can perform, the maximum duration a transaction can be held open, the maximum concurrent load of updating transactions on the system, or a combination of these.
 
-Each version store page as configured by this parameter is 16KB in size.
+Each version store page as configured by this parameter is 16KB in size on 32-bit machines, and 32KB on 64-bit machines.
 
 **Windows Vista and later:**  The version store page size can be read and changed via JET_paramVerPageSize.
 
@@ -716,7 +716,7 @@ This parameter represents a threshold relative to **JET_paramMaxVerPages** that 
 
 **Windows Vista and later:**  This is no longer supported and the default value of this parameter was changed to clarify its behavior.
 
-Each version store page as configured by this parameter is 16KB in size.
+Each version store page as configured by this parameter is 16KB in size on 32-bit machines, and 32KB on 64-bit machines.
 
 **Windows Vista and later:**  The version store page size can be read and changed via JET_paramVerPageSize.
 
@@ -792,7 +792,8 @@ The database engine may choose to use a larger version store page size than requ
 <tbody>
 <tr class="odd">
 <td><p>Default Value:</p></td>
-<td><p>16384</p></td>
+  <td><p><strong>32-bit machines:</strong>  16384</p>
+    <p><strong>64-bit machines:</strong>  32768</p></td>
 </tr>
 <tr class="even">
 <td><p>Type:</p></td>
@@ -859,7 +860,7 @@ This parameter controls the number of background cleanup work items that can be 
 </tr>
 <tr class="odd">
 <td><p>Valid Range:</p></td>
-<td><p><strong>Windows XP and Windows Server 2003:  </strong>  1 – 63</p>
+<td><p><strong>Windows XP and Windows Server 2003:</strong>  1 – 63</p>
 <p><strong>Windows Vista:</strong>  1 – 127</p></td>
 </tr>
 <tr class="even">
@@ -872,7 +873,7 @@ This parameter controls the number of background cleanup work items that can be 
 </tr>
 <tr class="even">
 <td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p><strong>Windows XP and Windows Server 2003:  </strong>  No</p>
+<td><p><strong>Windows XP and Windows Server 2003:</strong>  No</p>
 <p><strong>Windows Vista:</strong>  Yes</p></td>
 </tr>
 <tr class="odd">
