@@ -62,37 +62,26 @@ There are two categories into which most applications are likely to fall: any-so
 
 On Windows Vista and later, the following steps apply for any-source applications:
 
-<dl> Use **MCAST\_JOIN\_GROUP** to join a group.  
-Use **MCAST\_BLOCK\_SOURCE** to turn off a given source, if required.  
-Use **MCAST\_UNBLOCK\_SOURCE** to re-allow a blocked source, if required.  
-Use **MCAST\_LEAVE\_GROUP** to leave the group.  
-</dl>
+- Use **MCAST\_JOIN\_GROUP** to join a group.  
+- Use **MCAST\_BLOCK\_SOURCE** to turn off a given source, if required.  
+- Use **MCAST\_UNBLOCK\_SOURCE** to re-allow a blocked source, if required.  
+- Use **MCAST\_LEAVE\_GROUP** to leave the group.  
 
 On Windows Vista and later, the following steps apply for controlled-source applications:
 
-<dl> Use **MCAST\_JOIN\_SOURCE\_GROUP** to join each group/source pair.  
-Use **MCAST\_LEAVE\_SOURCE\_GROUP** to leave each group/source, or use **MCAST\_LEAVE\_GROUP** to leave all sources, if the same group address is used by all sources.  
-</dl>
+- Use **MCAST\_JOIN\_SOURCE\_GROUP** to join each group/source pair.  
+- Use **MCAST\_LEAVE\_SOURCE\_GROUP** to leave each group/source, or use **MCAST\_LEAVE\_GROUP** to leave all sources, if the same group address is used by all sources.  
 
 The following steps apply for any-source applications:
 
-<dl> Use **IP\_ADD\_MEMBERSHIP** to join a group (**IPV6\_ADD\_MEMBERSHIP** for IPv6).  
-Use **IP\_BLOCK\_SOURCE** to turn off a given source, if required.  
-Use **IP\_UNBLOCK\_SOURCE** to re-allow a blocked source, if required.  
-Use **IP\_DROP\_MEMBERSHIP** to leave the group (**IPV6\_DROP\_MEMBERSHIP** for IPv6).  
-</dl>
+- Use **IP\_ADD\_MEMBERSHIP** to join a group (**IPV6\_ADD\_MEMBERSHIP** for IPv6).  
+- Use **IP\_BLOCK\_SOURCE** to turn off a given source, if required.  
+- Use **IP\_UNBLOCK\_SOURCE** to re-allow a blocked source, if required.  
+- Use **IP\_DROP\_MEMBERSHIP** to leave the group (**IPV6\_DROP\_MEMBERSHIP** for IPv6).  
 
 The following steps apply for controlled-source applications:
 
-<dl> Use **IP\_ADD\_SOURCE\_MEMBERSHIP** to join each group/source pair.  
-Use **IP\_DROP\_SOURCE\_MEMBERSHIP** to leave each group/source, or use **IP\_DROP\_MEMBERSHIP** to leave all sources, if the same group address is used by all sources.  
-</dl>
+- Use **IP\_ADD\_SOURCE\_MEMBERSHIP** to join each group/source pair.  
+- Use **IP\_DROP\_SOURCE\_MEMBERSHIP** to leave each group/source, or use **IP\_DROP\_MEMBERSHIP** to leave all sources, if the same group address is used by all sources.  
 
 The order in which these socket options are set has associated rules. For information and troubleshooting information on multicast socket options, see [Multicast Socket Option Behavior](multicast-socket-option-behavior.md).
-
- 
-
- 
-
-
-
