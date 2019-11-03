@@ -248,7 +248,9 @@ int main(int argc, char **argv)
 }
 ```
 
-
+Note: Below points are not permitted to connecting WMI to local computer or executing query on local computer.
+1. We can't provide user credentials to "ConnectServer" API.
+2. We can't provide user credentials or authentication information (domain, username, password) on WMI query/proxy. Something like using "CoSetProxyBlanket" API or "CoInitializeSecurity" API.
 
  
 
