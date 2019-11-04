@@ -18,9 +18,9 @@ The following code sample uses the [**CreateMailslot**](/windows/desktop/api/Win
 #include <stdio.h>
 
 HANDLE hSlot;
-LPTSTR Slot = TEXT("\\\\.\\mailslot\\sample_mailslot");
+LPCTSTR SlotName = TEXT("\\\\.\\mailslot\\sample_mailslot");
 
-BOOL WINAPI MakeSlot(LPTSTR lpszSlotName) 
+BOOL WINAPI MakeSlot(LPCTSTR lpszSlotName) 
 { 
     hSlot = CreateMailslot(lpszSlotName, 
         0,                             // no maximum message size 
@@ -38,7 +38,7 @@ BOOL WINAPI MakeSlot(LPTSTR lpszSlotName)
 
 void main()
 { 
-   MakeSlot(Slot);
+   MakeSlot(SlotName);
 }
 ```
 
