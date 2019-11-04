@@ -19,13 +19,14 @@ There are several options available to decode Microsoft event message codes:
 The Microsoft Error Lookup Tool quickly and easily produces the message text that is associated with a DWORD hexadecimal status code or other code. This text is defined in various Microsoft source-code header files, such as Winerror.h, Setupapi.h, and so on.
 
 > [!NOTE]
-> This tool is digitally signed by Microsoft. The following is the SHA256 information for the file download:
-> |Algorithm |Hash |
+> This tool is digitally signed by Microsoft. The following is the SHA256 information for the file download:  
+> |Algorithm |Hash |  
 > | - | - |
-> |SHA256 |88739EC82BA16A0B4A3C83C1DD2FCA6336AD8E2A1E5F1238C085B1E86AB8834A |
-> Business environments may restrict what files can run and from where.
+> |SHA256 |88739EC82BA16A0B4A3C83C1DD2FCA6336AD8E2A1E5F1238C085B1E86AB8834A |  
+> Business environments may restrict what files can run and from where.  
+>  
 > - Before you can download and run this tool, you may need to get permission and perhaps a security exception.
-> - You may be allowed to store this tool in your 'Documents' folder. Or, this tool could be available on a central file server, which may be the ideal scenario.
+> - You may be allowed to store this tool in your Documents folder. Or, this tool could be available on a central file server, which may be the ideal scenario.
 
 ## Usage
 
