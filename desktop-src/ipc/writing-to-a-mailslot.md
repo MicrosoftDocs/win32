@@ -15,9 +15,9 @@ Writing to a mailslot is similar to writing to a standard disk file. The followi
 #include <windows.h>
 #include <stdio.h>
 
-LPTSTR SlotName = TEXT("\\\\.\\mailslot\\sample_mailslot");
+LPCTSTR SlotName = TEXT("\\\\.\\mailslot\\sample_mailslot");
 
-BOOL WriteSlot(HANDLE hSlot, LPTSTR lpszMessage)
+BOOL WriteSlot(HANDLE hSlot, LPCTSTR lpszMessage)
 {
    BOOL fResult; 
    DWORD cbWritten; 

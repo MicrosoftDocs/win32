@@ -20,7 +20,7 @@ A mailslot exists until the [**CloseHandle**](https://docs.microsoft.com/windows
 #include <strsafe.h>
 
 HANDLE hSlot;
-LPTSTR SlotName = TEXT("\\\\.\\mailslot\\sample_mailslot");
+LPCTSTR SlotName = TEXT("\\\\.\\mailslot\\sample_mailslot");
 
 BOOL ReadSlot() 
 { 
@@ -120,7 +120,7 @@ BOOL ReadSlot()
     return TRUE; 
 }
 
-BOOL WINAPI MakeSlot(LPTSTR lpszSlotName) 
+BOOL WINAPI MakeSlot(LPCTSTR lpszSlotName) 
 { 
     hSlot = CreateMailslot(lpszSlotName, 
         0,                             // no maximum message size 
