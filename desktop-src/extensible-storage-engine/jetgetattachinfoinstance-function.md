@@ -5,7 +5,7 @@ ms:assetid: 978e7817-0720-42fc-a5c1-46e4d44239f0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269350(v=EXCHG.10)
 ms:contentKeyID: 32765637
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetAttachInfoInstanceW
 - JetGetAttachInfoInstanceA

@@ -2,7 +2,7 @@
 Description: Creates a generic transactional object that begins a transaction.
 ms.assetid: 'efaf1468-4973-472f-af91-85957a52b7df'
 title: TransactionContext class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

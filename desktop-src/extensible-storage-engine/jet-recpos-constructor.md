@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECPOS.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos.jet_recpos(v=EXCHG.10)
 ms:contentKeyID: 55103844
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_RECPOS.JET_RECPOS
 dev_langs:

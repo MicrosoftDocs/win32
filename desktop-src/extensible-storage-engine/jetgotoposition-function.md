@@ -5,7 +5,7 @@ ms:assetid: 77b099f1-4a21-4ddb-b269-83ca74219b4d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269300(v=EXCHG.10)
 ms:contentKeyID: 32765592
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGotoPosition
 topic_type: 

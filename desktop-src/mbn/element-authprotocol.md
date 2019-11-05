@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: AuthProtocol
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8274effe-1fcc-43f8-a609-795fe19a1c4f
 api_name: 

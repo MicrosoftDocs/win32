@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.rgconditionalcolumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.rgconditionalcolumn(v=EXCHG.10)
 ms:contentKeyID: 55103653
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.rgconditionalcolumn
 dev_langs:

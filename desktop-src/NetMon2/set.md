@@ -2,7 +2,7 @@
 Description: The SET structure defines a set of values.
 ms.assetid: '88e0ffa1-71a2-4a3f-bdf1-964de0adea62'
 title: SET structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

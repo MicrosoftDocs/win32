@@ -1,4 +1,4 @@
-﻿---
+---
 title: DirectML constants
 description: The following constants are declared in DirectML.h.
 keywords:
@@ -12,7 +12,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 04/19/2019
 ms.custom: 19H1
 ---

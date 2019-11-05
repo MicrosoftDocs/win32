@@ -2,7 +2,7 @@
 Description: Represents a guest file service operation job.
 ms.assetid: '3750707e-e8c8-4188-aed8-1a394d142140'
 title: Msvm_CopyFileToGuestJob class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

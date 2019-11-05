@@ -2,7 +2,7 @@
 Description: Represents a PS2 mouse device.
 ms.assetid: '5e02ec15-95e6-4d82-833e-a48ca117a890'
 title: Msvm_Ps2Mouse class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

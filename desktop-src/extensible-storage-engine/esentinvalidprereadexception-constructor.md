@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidPrereadException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidprereadexception.esentinvalidprereadexception(v=EXCHG.10)
 ms:contentKeyID: 55107280
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidPrereadException.EsentInvalidPrereadException
 dev_langs:

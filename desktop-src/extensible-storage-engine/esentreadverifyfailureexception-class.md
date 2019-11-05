@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentReadVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentreadverifyfailureexception(v=EXCHG.10)
 ms:contentKeyID: 55102552
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentReadVerifyFailureException
 dev_langs:

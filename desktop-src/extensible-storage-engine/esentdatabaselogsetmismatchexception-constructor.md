@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException.
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaselogsetmismatchexception.esentdatabaselogsetmismatchexception(v=EXCHG.10)
 ms:contentKeyID: 55101423
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException.EsentDatabaseLogSetMismatchException
 dev_langs:

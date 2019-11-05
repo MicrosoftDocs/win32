@@ -5,7 +5,7 @@ ms:assetid: 3e069c61-6dab-4b79-8bf2-7844d017598f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269232(v=EXCHG.10)
 ms:contentKeyID: 32765534
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetObjectInfo
 - JetGetObjectInfoA

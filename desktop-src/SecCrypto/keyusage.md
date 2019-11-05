@@ -2,7 +2,7 @@
 Description: Provides read-only access to key usage properties of a certificate.
 ms.assetid: '8b8e9076-1a4f-4383-ac4b-1322d52949f0'
 title: KeyUsage object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

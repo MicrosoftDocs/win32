@@ -13,7 +13,7 @@ api_type:
 - HeaderDef
 ms.author: windowssdkdev
 ms.localizationpriority: low
-ms.topic: interface
+ms.topic: reference
 ms.date: 07/29/2019
 ---
 

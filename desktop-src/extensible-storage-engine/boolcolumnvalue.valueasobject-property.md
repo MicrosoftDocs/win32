@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.BoolColumnValue.ValueAsObject
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.boolcolumnvalue.valueasobject(v=EXCHG.10)
 ms:contentKeyID: 55100952
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.BoolColumnValue.ValueAsObject
 dev_langs:

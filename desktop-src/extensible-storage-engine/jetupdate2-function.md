@@ -5,7 +5,7 @@ ms:assetid: 125f372c-9c4c-4be8-b0df-bbf53d79e90b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269190(v=EXCHG.10)
 ms:contentKeyID: 32765493
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetUpdate2
 topic_type: 

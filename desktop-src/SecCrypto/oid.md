@@ -2,7 +2,7 @@
 Description: Represents an object identifier (OID) that is used by several CAPICOM properties.
 ms.assetid: 'd9dc2a9a-920b-41e1-91fb-da1628df577d'
 title: OID object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

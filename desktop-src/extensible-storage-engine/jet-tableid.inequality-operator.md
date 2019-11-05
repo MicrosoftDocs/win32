@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.op_Inequality(Microsoft.I
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tableid.op_inequality(v=EXCHG.10)
 ms:contentKeyID: 39510333
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_TABLEID.Inequality
 dev_langs:

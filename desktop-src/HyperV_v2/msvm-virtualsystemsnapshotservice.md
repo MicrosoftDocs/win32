@@ -2,7 +2,7 @@
 Description: Service to create, apply, and destroy snapshots of virtual machines.
 ms.assetid: '34efe124-d198-4bad-a3c9-e8457a5faa5e'
 title: Msvm_VirtualSystemSnapshotService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

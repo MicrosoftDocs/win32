@@ -3,7 +3,7 @@ Description: Controls the way instances are created or updated depending on the 
 ms.assetid: 9932edf2-2e5f-4c5e-9889-f2be4af11bf2
 ms.tgt_platform: multiple
 title: pragma instanceflags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

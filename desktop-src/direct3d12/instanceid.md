@@ -3,7 +3,7 @@ Description: The user-provided identifier for the instance on the bottom-level a
 ms.assetid: 
 title: InstanceId
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

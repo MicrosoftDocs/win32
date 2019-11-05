@@ -4,7 +4,7 @@ author: TimShererWithAquent
 description: Multiplies two LONGLONG or ULONGLONG integers.
 ms.assetid: na
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 04/29/2019
 ms.keywords: _allmul, ntoskrnl.exe!_allmul
 topic_type: 

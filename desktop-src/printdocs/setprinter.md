@@ -2,7 +2,7 @@
 Description: The SetPrinter function sets the data for a specified printer or sets the state of the specified printer by pausing printing, resuming printing, or clearing all print jobs.
 ms.assetid: 'ade367c5-20d6-4da9-bb52-ce6768cf7537'
 title: SetPrinter function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

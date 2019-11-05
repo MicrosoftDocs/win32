@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: UserLogonCred
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 12a65d91-1917-49d4-9b58-68c60464c857
 api_name: 

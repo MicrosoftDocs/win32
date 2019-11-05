@@ -2,7 +2,7 @@
 Description: Contains methods that obtain the raw content of Video Input Definition of Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) v.1.x standard 128-byte data blocks.
 ms.assetid: 'c13d4ddd-d171-44d5-9e70-3a6f89ad55da'
 title: WmiMonitorDescriptorMethods class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Assigns vector component data to the current instance of XMXDEC4.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmxdec4.operator = '
 title: XMXDEC4 operator = operators
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2018
 topic_type:
 - APIRef

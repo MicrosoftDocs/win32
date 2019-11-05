@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.jet_opentemporarytable(v=EXCHG.10)
 ms:contentKeyID: 55104118
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.JET_OPENTEMPORARYTABLE
 dev_langs:

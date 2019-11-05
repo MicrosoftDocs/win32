@@ -5,7 +5,7 @@ ms:assetid: 60cbf563-4228-452a-9b20-c7b1330c4514
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269263(v=EXCHG.10)
 ms:contentKeyID: 32765565
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetTruncateLog
 topic_type: 

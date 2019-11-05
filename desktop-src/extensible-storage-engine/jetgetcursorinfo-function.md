@@ -5,7 +5,7 @@ ms:assetid: e779fa5d-1d7e-46f1-80c9-f7c819279188
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294126(v=EXCHG.10)
 ms:contentKeyID: 32765740
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetCursorInfo
 topic_type: 

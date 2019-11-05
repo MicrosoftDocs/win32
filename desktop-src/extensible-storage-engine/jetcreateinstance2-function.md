@@ -5,7 +5,7 @@ ms:assetid: 1f894b19-fa15-4d89-a3d1-ee13b346f545
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269202(v=EXCHG.10)
 ms:contentKeyID: 32765505
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetCreateInstance2
 - JetCreateInstance2W

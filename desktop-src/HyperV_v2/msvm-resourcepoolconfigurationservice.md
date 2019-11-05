@@ -2,7 +2,7 @@
 Description: Provides for active management of resource pools.
 ms.assetid: '34ee3189-cb89-4d36-b12f-333449103968'
 title: Msvm_ResourcePoolConfigurationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

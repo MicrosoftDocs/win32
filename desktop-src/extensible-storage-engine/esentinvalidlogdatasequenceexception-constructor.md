@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException.
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlogdatasequenceexception.esentinvalidlogdatasequenceexception(v=EXCHG.10)
 ms:contentKeyID: 55101974
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException.EsentInvalidLogDataSequenceException
 dev_langs:
