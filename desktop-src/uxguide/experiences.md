@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Experiences
 
-Experiences are the common experiences and use cases for all apps, like set up, first run, and printing. Learn about the best practices fro creating these experiences and communicating your app brand.
+Experiences are the common experiences and use cases for all apps, like set up, first run, and printing. Learn about the best practices for creating these experiences and communicating your app brand.
 
 ## In this section
 
