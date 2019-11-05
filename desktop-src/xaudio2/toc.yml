@@ -22,6 +22,9 @@
         href: xaudio2-key-concepts.md
       - name: "XAudio2 Versions"
         href: xaudio2-versions.md
+        items:
+        - name: "Developer guide for redistributable version of XAudio 2.9"
+          href: xaudio2-redistributable.md
       - name: "How to: Initialize XAudio2"
         href: how-to--initialize-xaudio2.md
       - name: "Resource Interchange File Format (RIFF)"
