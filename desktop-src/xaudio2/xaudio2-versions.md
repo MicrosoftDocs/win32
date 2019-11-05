@@ -10,15 +10,15 @@ ms.date: 05/31/2018
 
 XAudio2 is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8. On Xbox 360, XAudio2 ships as a static library that is compiled into the main game executable. On Windows, XAudio2 is provided as a Dynamic Link Library (DLL) installed into the system folders of the Operating System.
 
-## Current version of XAudio2 on Windows 10
+## XAudio 2.9 (Windows 10 and redistributable for Windows 7 and Windows 8.x)
 
-XAudio2 version 2.9 ships as part of Windows 10, XAUDIO2\_9.DLL, alongside XAudio2.8 to support older applications, and does not require redistribution.
+XAudio2 version 2.9 ships as part of Windows 10, XAUDIO2\_9.DLL, alongside XAudio 2.8 to support older applications. A [redistributable version of XAudio 2.9](xaudio2-redistributable.md) is also available for Windows 7 SP1, Windows 8 and Windows 8.1.
 
 XAudio2.9 has been updated with the following changes:
 
 -   New creation flags: XAUDIO2\_DEBUG\_ENGINE, XAUDIO2\_STOP\_ENGINE\_WHEN\_IDLE, XAUDIO2\_1024\_QUANTUM
 -   xWMA support is available in this version of XAudio2.
--   The [**CreateHrtfApo**](/windows/desktop/api/HrtfApoApi/nf-hrtfapoapi-createhrtfapo) function is supported in this version of XAudio2.
+-   The [**CreateHrtfApo**](/windows/desktop/api/HrtfApoApi/nf-hrtfapoapi-createhrtfapo) function is supported in the Windows 10 version of XAudio 2.9.
 -   [**XAUDIO2FX\_REVERB\_PARAMETERS**](/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters) now includes the value *SideDelay* for 7.1 systems.
 -   The [**ReverbConvertI3DL2ToNative**](/windows/desktop/api/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative) function now includes the boolean *sevenDotOneReverb* parameter enabling 7.1 reverb.
 
@@ -57,6 +57,8 @@ Previous versions of XAudio2 cannot be used to build Windows Store apps for Wind
 [XAudio2 Key Concepts](xaudio2-key-concepts.md)
 </dt> </dl>
 
+[Developer guide for redistributable version of XAudio 2.9](xaudio2-redistributable.md)
+</dt> </dl>
  
 
  
