@@ -20,7 +20,7 @@ Independent software vendors (ISVs) of products that potentially expose users to
 
 ## Run-time requirements
 
-This functionality was introduced in Windows Vista. Parental Controls functionality is only available on selected consumer operating systems; it is not designed for use with versions of Windows Server.
+This functionality was introduced in Windows Vista. Parental Controls functionality is only available on selected consumer operating systems; it is not designed for use with versions of Windows Server. This functionality is not supported in Windows 10.
 
 ## In this section
 
