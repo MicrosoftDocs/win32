@@ -1,5 +1,5 @@
 ---
-title: RWByteAddressBuffer Load methods
+title: RWByteAddressBuffer::RWByteAddressBuffer Load methods
 description: Gets one value from a RWByteAddressBuffer.
 ms.assetid: AD284B6B-A552-4036-954A-988A9593E0A4
 keywords:

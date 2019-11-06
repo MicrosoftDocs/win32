@@ -1,5 +1,5 @@
 ---
-title: RWStructuredBuffer Load methods
+title: RWStructuredBuffer::RWStructuredBuffer Load methods
 description: Reads buffer data into a RWStructuredBuffer.
 ms.assetid: 4162C550-4921-4A49-B812-886B9C9ADFF8
 keywords:

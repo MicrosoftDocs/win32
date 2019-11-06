@@ -1,5 +1,5 @@
 ---
-title: GatherAlpha(S,float,int) function
+title: Texture2DArray::GatherAlpha(S,float,int) function
 description: Samples a texture and returns the alpha component.
 ms.assetid: d7270277-53c1-4034-bf66-9a95bc1b51e4
 keywords:

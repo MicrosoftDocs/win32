@@ -1,5 +1,5 @@
 ---
-title: Gather(S,float,uint) function
+title: TextureCube::Gather(S,float,uint) function
 description: Samples a texture and returns all four components along with status about the operation.
 ms.assetid: 23FA8135-ECF0-4CAE-9A1C-B05DA3676453
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Texture1D Sample methods
+title: Texture1D::Texture1D Sample methods
 description: Samples a Texture1D.
 ms.assetid: 852BC190-E370-4B55-AB64-F0771B1D2D19
 keywords:

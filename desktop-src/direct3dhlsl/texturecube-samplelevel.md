@@ -1,5 +1,5 @@
 ---
-title: TextureCube SampleLevel methods
+title: TextureCube::TextureCube SampleLevel methods
 description: Samples a texture on the specified mipmap level.
 ms.assetid: FB582800-0C0E-4F9F-9702-91049A2FEF6C
 keywords:

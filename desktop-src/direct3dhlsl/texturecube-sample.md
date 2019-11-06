@@ -1,5 +1,5 @@
 ---
-title: TextureCube Sample methods
+title: TextureCube::TextureCube Sample methods
 description: Samples a texture.
 ms.assetid: 8A43006B-E7BB-4D4D-8D46-F611322B0882
 keywords:

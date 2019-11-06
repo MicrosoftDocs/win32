@@ -1,5 +1,5 @@
 ---
-title: StructuredBuffer Load methods
+title: StructuredBuffer::StructuredBuffer Load methods
 description: Reads buffer data from a StructuredBuffer.
 ms.assetid: '4c797f36-d8e6-46ed-8ff0-248c28f82998'
 keywords:

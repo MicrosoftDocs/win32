@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray SampleCmp methods
+title: TextureCubeArray::TextureCubeArray SampleCmp methods
 description: Samples a texture, using a comparison value to reject samples.
 ms.assetid: 62B5C163-9FB8-4567-B63F-34234C938874
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SampleCmp(S,float,float,int,float,uint) function
+title: SampleCmp::SampleCmp(S,float,float,int,float,uint) function
 description: Samples a Texture2D, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
 ms.assetid: 039EA69B-DFE0-4351-963A-C0326FDEF844
 keywords:

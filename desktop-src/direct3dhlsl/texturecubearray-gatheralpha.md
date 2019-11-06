@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray GatherAlpha methods
+title: TextureCubeArray::TextureCubeArray GatherAlpha methods
 description: Samples a texture and returns the alpha component.
 ms.assetid: C7D4B78D-B756-4ADA-B0EA-3360007C02E1
 keywords:

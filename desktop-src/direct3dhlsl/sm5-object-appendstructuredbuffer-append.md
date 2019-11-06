@@ -1,5 +1,5 @@
 ---
-title: Append function
+title: AppendStructuredBuffer::Append function
 description: Appends a value to the end of the buffer.
 ms.assetid: 667bc6dc-c0d0-419a-9227-99ce30b9cc73
 keywords:

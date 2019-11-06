@@ -1,5 +1,5 @@
 ---
-title: Gather(S,float,int) function
+title: Texture2D::Gather(S,float,int) function
 description: Samples a texture and returns all four components.
 ms.assetid: 5d196c1c-8cc9-4add-9d33-654294314ee2
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Texture1DArray SampleLevel methods
+title: Texture1DArray::Texture1DArray SampleLevel methods
 description: Samples a texture on the specified mipmap level.
 ms.assetid: 68C86C79-37DC-49D0-9635-EA548A3DA83B
 keywords:

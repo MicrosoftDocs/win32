@@ -1,5 +1,5 @@
 ---
-title: Texture1DArray Sample methods
+title: Texture1DArray::Texture1DArray Sample methods
 description: Samples a texture.
 ms.assetid: 3BCE2D4F-24F8-427C-A23B-18E26CCE6392
 keywords:

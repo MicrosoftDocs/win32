@@ -1,5 +1,5 @@
 ---
-title: Load(int,int,uint) function
+title: Texture1D::Load(int,int,uint) function
 description: Reads texture data and returns status of the operation.
 ms.assetid: 5C489CBD-E4F6-4CB5-8E7E-EC34633D75B0
 keywords:

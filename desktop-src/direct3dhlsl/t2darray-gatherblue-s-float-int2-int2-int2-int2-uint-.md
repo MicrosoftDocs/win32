@@ -1,5 +1,5 @@
 ---
-title: GatherBlue(S,float,int2,int2,int2,int2,uint) function
+title: Texture2DArray::GatherBlue(S,float,int2,int2,int2,int2,uint) function
 description: Samples a texture and returns the blue component along with status about the operation.
 ms.assetid: 82CDD092-D1C9-4FA9-BD85-65098BA457CD
 keywords:

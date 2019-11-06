@@ -1,5 +1,5 @@
 ---
-title: GatherCmp(S,float,float,uint) function
+title: TextureCubeArray::GatherCmp(S,float,float,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns all four components along with status about the operation.
 ms.assetid: 758CD159-58B6-42AE-92B3-5AA3C72FD0F1
 keywords:

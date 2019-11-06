@@ -1,5 +1,5 @@
 ---
-title: GatherCmpBlue(S,float,float,uint) function
+title: TextureCubeArray::GatherCmpBlue(S,float,float,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns the blue component along with status about the operation.
 ms.assetid: 81F82EB1-D662-4A18-856F-26AE5C1A41C6
 keywords:

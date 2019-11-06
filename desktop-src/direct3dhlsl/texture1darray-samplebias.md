@@ -1,5 +1,5 @@
 ---
-title: Texture1DArray SampleBias methods
+title: Texture1DArray::Texture1DArray SampleBias methods
 description: Samples a texture, after applying the bias value to the mipmap level.
 ms.assetid: 688A3E35-52A5-49D4-806A-DA3B2ECD5B35
 keywords:

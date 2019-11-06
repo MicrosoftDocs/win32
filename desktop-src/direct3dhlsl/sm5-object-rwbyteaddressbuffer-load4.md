@@ -1,5 +1,5 @@
 ---
-title: Load4(uint) function
+title: RWByteAddressBuffer::Load4(uint) function
 description: Gets four values.
 ms.assetid: b46cd119-75be-4c2d-82f9-5dcabd7e4400
 keywords:

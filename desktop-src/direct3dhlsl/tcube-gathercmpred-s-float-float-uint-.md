@@ -1,5 +1,5 @@
 ---
-title: GatherCmpRed(S,float,float,uint) function
+title: TextureCube::GatherCmpRed(S,float,float,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
 ms.assetid: 99ADA450-9665-4870-924E-E4DAEFA912D5
 keywords:

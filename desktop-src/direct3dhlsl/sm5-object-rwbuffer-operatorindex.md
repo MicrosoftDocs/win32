@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: RWBuffer::Operator  function
 description: Returns a resource variable.
 ms.assetid: 59e5e4ec-ff0d-43aa-805a-04b79f5ab57f
 keywords:

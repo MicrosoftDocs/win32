@@ -1,5 +1,5 @@
 ---
-title: Load(int,uint) function
+title: RWBuffer::Load(int,uint) function
 description: Reads buffer data and returns status of the operation.
 ms.assetid: 90C9ECE8-2068-47C7-B87A-941B2D4F221D
 keywords:

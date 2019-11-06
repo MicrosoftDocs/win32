@@ -1,5 +1,5 @@
 ---
-title: Load(int,int,int,uint) function
+title: Texture2DMS::Load(int,int,int,uint) function
 description: Reads texture data and returns status of the operation.
 ms.assetid: 4230962C-2968-4030-9770-8318F1760AEB
 keywords:
