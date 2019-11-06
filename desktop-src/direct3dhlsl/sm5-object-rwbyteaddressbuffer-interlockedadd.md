@@ -1,5 +1,5 @@
 ---
-title: RWByteAddressBuffer::InterlockedAdd function (Winnt.h)
+title: RWByteAddressBuffer::InterlockedAdd function
 description: Adds the value, atomically.
 ms.assetid: 27274aae-1e75-4626-9997-57c4e9393000
 keywords:
@@ -83,11 +83,6 @@ This function is supported in the following types of shaders:
 
 ## Requirements
 
-
-
-|                   |                                                                                    |
-|-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winnt.h</dt> </dl> |
 
 
 
