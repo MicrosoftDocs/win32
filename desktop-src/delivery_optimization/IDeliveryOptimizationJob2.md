@@ -12,7 +12,7 @@ api_location:
 api_type:
 - COM
 ms.author: windowssdkdev
-ms.topic: interface
+ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW
 ---

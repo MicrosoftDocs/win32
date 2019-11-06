@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException.#cto
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcreateindexexception.esentinvalidcreateindexexception(v=EXCHG.10)
 ms:contentKeyID: 55101945
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException.EsentInvalidCreateIndexException
 dev_langs:

@@ -5,7 +5,7 @@ ms:assetid: 629455af-b526-4366-9b9a-112757f72c32
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269265(v=EXCHG.10)
 ms:contentKeyID: 32765567
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetOSSnapshotAbort
 topic_type: 

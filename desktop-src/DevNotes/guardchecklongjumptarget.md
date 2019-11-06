@@ -8,7 +8,7 @@ ms.assetid: na
 ms.author: windowssdkdev
 ms.date: 04/02/2019
 ms.keywords: 
-ms.topic: function
+ms.topic: reference
 req.header: guardapiset.h
 req.include-header: 
 req.target-type: Windows

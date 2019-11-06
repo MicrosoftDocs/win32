@@ -8,7 +8,7 @@ ms.assetid: na
 ms.author: windowssdkdev
 ms.date: 02/20/2018
 ms.keywords: EtwEventUnregister
-ms.topic: function
+ms.topic: reference
 req.header: ntetw.h
 req.include-header: 
 req.target-type: Windows

@@ -5,7 +5,7 @@ ms:assetid: f1c33b78-f2d1-44ea-8ec9-94b729b94e24
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294131(v=EXCHG.10)
 ms:contentKeyID: 32765745
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetBeginSessionA
 - JetBeginSession

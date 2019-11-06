@@ -2,7 +2,7 @@
 Description: Specifies and configures the services that are to be active in the service domain entered when calling either CoCreateActivity or CoEnterServiceDomain.
 ms.assetid: 'f546ded4-255e-4565-b588-f36175902778'
 title: CServiceConfig class
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

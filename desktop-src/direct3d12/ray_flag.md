@@ -3,7 +3,7 @@ Description: Flags passed to the TraceRay function to override transparency, cul
 ms.assetid: 
 title: RAY_FLAG enumeration
 ms.localizationpriority: low
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

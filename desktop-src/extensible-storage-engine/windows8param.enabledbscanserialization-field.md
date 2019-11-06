@@ -5,7 +5,7 @@ ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.EnableDBScanSe
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param.enabledbscanserialization(v=EXCHG.10)
 ms:contentKeyID: 55104475
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.EnableDBScanSerialization
 dev_langs:

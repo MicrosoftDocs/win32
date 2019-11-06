@@ -5,7 +5,7 @@ ms:assetid: 77e036eb-b894-4ff7-b14f-1564bf21873f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269301(v=EXCHG.10)
 ms:contentKeyID: 32765593
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetIdle
 topic_type: 

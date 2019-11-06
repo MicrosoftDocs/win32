@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: AccessString
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 3216ac7b-e799-4734-8655-64e32b888d1c
 api_name: 

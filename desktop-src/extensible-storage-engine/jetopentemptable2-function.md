@@ -5,7 +5,7 @@ ms:assetid: 788ec4f9-b0c3-409b-850c-7567dec47024
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269302(v=EXCHG.10)
 ms:contentKeyID: 32765594
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetOpenTempTable2
 topic_type: 

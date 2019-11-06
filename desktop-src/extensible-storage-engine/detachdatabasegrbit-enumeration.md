@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.detachdatabasegrbit(v=EXCHG.10)
 ms:contentKeyID: 55100985
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit
 - Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit.ForceClose

@@ -3,7 +3,7 @@ Description: Adds a MOF file to the list of files compiled during repository rec
 ms.assetid: 8901c04e-f8c1-45b0-b69d-e2ebc948f088
 ms.tgt_platform: multiple
 title: pragma autorecover
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

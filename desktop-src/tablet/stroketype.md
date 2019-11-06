@@ -2,7 +2,7 @@
 Description: Indicates whether a stroke should be analyzed as part of a drawing or as part of writing.
 ms.assetid: '3f4c4522-ada7-4759-bca7-88b2a71f36ea'
 title: StrokeType enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

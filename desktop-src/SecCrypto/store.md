@@ -2,7 +2,7 @@
 Description: Provides properties and methods that you can use to choose, manage, and use certificate stores and the certificates in those stores.
 ms.assetid: 'de4eecf7-c03b-4733-ac29-d5b26b873dba'
 title: Store object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

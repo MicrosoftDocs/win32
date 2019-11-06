@@ -5,7 +5,7 @@ ms:assetid: 6e111d10-6882-46ac-a70b-7896662d3b5d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269289(v=EXCHG.10)
 ms:contentKeyID: 32765581
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetIntersectIndexes
 topic_type: 

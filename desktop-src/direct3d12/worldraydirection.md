@@ -3,7 +3,7 @@ Description: The world-space direction for the current ray.
 ms.assetid: 
 title: WorldRayDirection
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

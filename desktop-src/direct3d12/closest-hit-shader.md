@@ -3,7 +3,7 @@ Description: A shader that is invoked when it is enabled and the closest hit has
 ms.assetid: 
 title: Closest Hit Shader
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

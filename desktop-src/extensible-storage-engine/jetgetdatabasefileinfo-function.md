@@ -5,7 +5,7 @@ ms:assetid: 457079d9-46c9-4da0-a35b-0c11fca7ed5b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269239(v=EXCHG.10)
 ms:contentKeyID: 32765541
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetDatabaseFileInfo
 - JetGetDatabaseFileInfoW

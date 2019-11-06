@@ -5,7 +5,7 @@ ms:assetid: 11aecf42-22ef-4bea-a3d7-961a7bdc85aa
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ835038(v=EXCHG.10)
 ms:contentKeyID: 49894660
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - c++
 api_name: 

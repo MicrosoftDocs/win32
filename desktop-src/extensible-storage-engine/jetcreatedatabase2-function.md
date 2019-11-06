@@ -5,7 +5,7 @@ ms:assetid: 267ac69f-49d3-4741-b324-d8510d7a36d3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269208(v=EXCHG.10)
 ms:contentKeyID: 32765511
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetCreateDatabase2A
 - JetCreateDatabase2W

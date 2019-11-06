@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.SetColumnGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.setcolumngrbit(v=EXCHG.10)
 ms:contentKeyID: 39509934
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SetColumnGrbit.AppendLV
 - Microsoft.Isam.Esent.Interop.SetColumnGrbit

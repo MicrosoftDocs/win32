@@ -5,7 +5,7 @@ ms:assetid: 7d008eac-2a32-402b-91ef-965ed3c3b0de
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269309(v=EXCHG.10)
 ms:contentKeyID: 32765599
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetStopBackupInstance
 topic_type: 

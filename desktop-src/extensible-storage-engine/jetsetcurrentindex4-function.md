@@ -5,7 +5,7 @@ ms:assetid: 6076d02c-5701-4021-ba0a-da36bff166d1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269262(v=EXCHG.10)
 ms:contentKeyID: 32765564
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetSetCurrentIndex4W
 - JetSetCurrentIndex4A
