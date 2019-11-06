@@ -1,5 +1,5 @@
 ---
-title: EM_UNDO message
+title: EM_UNDO message (Winuser.h)
 description: This message undoes the last edit control operation in the control's undo queue. You can send this message to either an edit control or a rich edit control.
 ms.assetid: c4bff128-0383-40c5-8f29-7738f7f26871
 keywords:

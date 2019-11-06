@@ -1,5 +1,5 @@
 ---
-title: IEnumBackgroundCopyFiles Next method
+title: IEnumBackgroundCopyFiles Next method (Deliveryoptimization.h)
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 ms.assetid: 31E603EC-2684-487D-AB37-4C6A6F661298
 keywords:

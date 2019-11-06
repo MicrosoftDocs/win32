@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer QueryText property
+title: IResultsViewer QueryText property (WdsView.h)
 description: Gets or sets the current query text.
 ms.assetid: 3d6b31fa-3f17-45de-a91a-f24a6b076099
 keywords:

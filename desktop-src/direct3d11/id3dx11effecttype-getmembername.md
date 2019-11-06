@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectType GetMemberName method
+title: ID3DX11EffectType GetMemberName method (D3dx11effect.h)
 description: Get the name of a member.
 ms.assetid: cd231741-09e1-4e69-9384-5cdfbf83fc8b
 keywords:

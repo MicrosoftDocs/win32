@@ -1,7 +1,7 @@
 ---
 Description: Defines texture filtering modes for a texture stage.
 ms.assetid: 4e0420fa-ac76-4be4-90d7-944d8d5a5de1
-title: D3DTEXTUREFILTERTYPE enumeration
+title: D3DTEXTUREFILTERTYPE enumeration (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

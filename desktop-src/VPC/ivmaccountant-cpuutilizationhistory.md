@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant CPUUtilizationHistory property
+title: IVMAccountant CPUUtilizationHistory property (VPCCOMInterfaces.h)
 description: Retrieves the recent CPU utilization of this virtual machine (as an array of percentage values).
 ms.assetid: f6b92b25-9455-4061-8db0-3e42f9f7391d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: COLORTYPE enumeration
+title: COLORTYPE enumeration (Softkbdc.h)
 description: Elements of the COLORTYPE enumeration are used to specify types of colors that are available for a soft keyboard.
 ms.assetid: 63a51f67-d85c-4017-a569-03df164198db
 keywords:

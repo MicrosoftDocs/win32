@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Accountant property
+title: IVMVirtualMachine Accountant property (VPCCOMInterfaces.h)
 description: Retrieves an accountant for this virtual machine.
 ms.assetid: 5e512b83-8630-46ee-b521-c8a8193727f5
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Matrix4x3F class
+title: Matrix4x3F class (D2d1\_helper.h)
 description: The Matrix4x3F class represents a 4-by-3 matrix and provides convenience methods for creating matrices.
 ms.assetid: 633B1828-0CB5-4CD3-9826-C65083C6C0A9
 keywords:

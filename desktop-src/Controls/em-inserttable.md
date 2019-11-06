@@ -1,5 +1,5 @@
 ---
-title: EM_INSERTTABLE message
+title: EM_INSERTTABLE message (Richedit.h)
 description: Inserts one or more identical table rows with empty cells.
 ms.assetid: 7F9B2F28-1035-44AA-9DF6-57BC62886A4E
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Creates a volume texture from a file in memory.
 ms.assetid: 8ea22209-6110-4bef-a0d6-667f59017adc
-title: D3DXCreateVolumeTextureFromFileInMemory function
+title: D3DXCreateVolumeTextureFromFileInMemory function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

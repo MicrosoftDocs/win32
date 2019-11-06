@@ -1,7 +1,7 @@
 ---
 Description: Raised when the IMFMediaSession::Stop method completes asynchronously.
 ms.assetid: 9cac9040-f652-4509-bbab-f2a41959d836
-title: MESessionStopped event
+title: MESessionStopped event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

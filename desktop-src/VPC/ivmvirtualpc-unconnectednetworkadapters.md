@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC UnconnectedNetworkAdapters property
+title: IVMVirtualPC UnconnectedNetworkAdapters property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of unconnected network interfaces.
 ms.assetid: 2d95f289-083a-4388-b842-0a11b4e1a06f
 keywords:

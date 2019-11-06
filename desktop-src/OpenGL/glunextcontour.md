@@ -1,5 +1,5 @@
 ---
-title: gluNextContour function
+title: gluNextContour function (Glu.h)
 description: The gluNextContour function marks the beginning of another contour.
 ms.assetid: 622cd631-3426-4206-9e23-af2a74343da5
 keywords:

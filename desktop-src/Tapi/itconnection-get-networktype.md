@@ -1,7 +1,7 @@
 ---
 Description: The get\_NetworkType method gets the network type.
 ms.assetid: 5597284a-9cc6-422b-a064-cda25aa5964b
-title: ITConnection::get_NetworkType method
+title: ITConnection::get_NetworkType method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

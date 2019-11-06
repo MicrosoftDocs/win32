@@ -1,5 +1,5 @@
 ---
-title: CB_SETMINVISIBLE message
+title: CB_SETMINVISIBLE message (Commctrl.h)
 description: An application sends a CB\_SETMINVISIBLE message to set the minimum number of visible items in the drop-down list of a combo box.
 ms.assetid: 3cf9e488-50ce-4825-acf0-4e665d074f9e
 keywords:

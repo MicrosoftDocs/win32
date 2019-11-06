@@ -1,7 +1,7 @@
 ---
 Description: Occurs when a stroke is added to the InkDisp object.
 ms.assetid: 46bbdb98-524f-4b4b-95c0-005e71d672f1
-title: InkDisp.InkAdded event
+title: InkDisp.InkAdded event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

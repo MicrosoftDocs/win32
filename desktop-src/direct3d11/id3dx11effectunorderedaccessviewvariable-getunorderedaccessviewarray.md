@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectUnorderedAccessViewVariable GetUnorderedAccessViewArray method
+title: ID3DX11EffectUnorderedAccessViewVariable GetUnorderedAccessViewArray method (D3dx11effect.h)
 description: Get an array of unordered-access-views.
 ms.assetid: 38f838bb-cdcb-43c2-8b98-a188f479e93d
 keywords:

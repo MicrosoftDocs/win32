@@ -1,7 +1,7 @@
 ---
 Description: The FRAME\_DESCRIPTOR structure provides descriptive information about raw frames.
 ms.assetid: f2fc256e-8e64-49c1-b2ad-ef656762d5c7
-title: FRAME_DESCRIPTOR structure
+title: FRAME_DESCRIPTOR structure (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentCallback CompareSoHRequests method
+title: INapSystemHealthAgentCallback CompareSoHRequests method (NapSystemHealthAgent.h)
 description: Is used by the SHA to compare SoH requests.
 ms.assetid: 14ba189a-e745-44b0-b729-522087d4e08b
 keywords:

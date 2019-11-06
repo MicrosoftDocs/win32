@@ -1,7 +1,7 @@
 ---
 Description: Consumers implement this callback to receive events from a session. The PEVENT\_RECORD\_CALLBACK type defines a pointer to this callback function. EventRecordCallback is a placeholder for the application-defined function name.
 ms.assetid: 80a30faf-af1f-4440-8a17-9df44bdb2291
-title: PEVENT_RECORD_CALLBACK callback function
+title: PEVENT_RECORD_CALLBACK callback function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

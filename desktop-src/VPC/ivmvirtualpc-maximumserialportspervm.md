@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC MaximumSerialPortsPerVM property
+title: IVMVirtualPC MaximumSerialPortsPerVM property (VPCCOMInterfaces.h)
 description: Retrieves the maximum number of serial ports per virtual machine.
 ms.assetid: e7b874df-105e-4ca8-90ec-2368071dafa0
 keywords:

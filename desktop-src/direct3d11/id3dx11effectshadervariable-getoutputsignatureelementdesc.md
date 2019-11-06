@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetOutputSignatureElementDesc method
+title: ID3DX11EffectShaderVariable GetOutputSignatureElementDesc method (D3dx11effect.h)
 description: Get an output-signature description.
 ms.assetid: 05f43a57-18fa-4be7-814e-ffbe53837cab
 keywords:

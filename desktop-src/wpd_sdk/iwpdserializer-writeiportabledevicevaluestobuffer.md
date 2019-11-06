@@ -1,7 +1,7 @@
 ---
 Description: The WriteIPortableDeviceValuesToBuffer method serializes an IPortableDeviceValues interface to a caller-allocated byte array.
 ms.assetid: 4d0108f1-563e-42df-897b-7cc0e9ff5b3a
-title: IWpdSerializer::WriteIPortableDeviceValuesToBuffer method
+title: IWpdSerializer::WriteIPortableDeviceValuesToBuffer method (PortableDeviceTypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

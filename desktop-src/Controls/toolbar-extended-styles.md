@@ -1,5 +1,5 @@
 ---
-title: Toolbar Extended Styles
+title: Toolbar Extended Styles (CommCtrl.h)
 description: This section lists the extended styles supported by toolbar controls.
 ms.assetid: da31dbbf-8d0a-4711-a1af-382c62e653cd
 topic_type:

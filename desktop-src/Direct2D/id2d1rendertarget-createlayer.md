@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget CreateLayer methods
+title: ID2D1RenderTarget CreateLayer methods (D2d1.h)
 description: Creates a layer resource that can be used with this render target and its compatible render targets.
 ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
 keywords:

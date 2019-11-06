@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile interface
+title: IBackgroundCopyFile interface (Deliveryoptimization.h)
 description: IBackgroundCopyFile contains information about a file that is part of a job. For example, you can use IBackgroundCopyFile methods to retrieve the local and remote names of the file and transfer progress information.
 ms.assetid: 463ED61A-D7C5-4B44-97CF-FDAA138CE9E3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The CheckMediaType method determines if the pin accepts a specific media type. This method implements the pure virtual CBasePin::CheckMediaType method.
 ms.assetid: 3db7c74c-a6aa-4b49-b2a5-9bf8db35fd7e
-title: CSourceStream.CheckMediaType method
+title: CSourceStream.CheckMediaType method (Source.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

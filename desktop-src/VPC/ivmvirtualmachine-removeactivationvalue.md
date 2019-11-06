@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine RemoveActivationValue method
+title: IVMVirtualMachine RemoveActivationValue method (VPCCOMInterfaces.h)
 description: Removes the value of the specified activation setting for this virtual machine.
 ms.assetid: 8e9b9d95-aec9-4b73-afc3-cd0d7300f40f
 keywords:

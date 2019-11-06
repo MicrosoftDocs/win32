@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRenderTargetViewVariable SetRenderTargetArray method
+title: ID3DX11EffectRenderTargetViewVariable SetRenderTargetArray method (D3dx11effect.h)
 description: Set an array of render-targets.
 ms.assetid: 03e1c4ea-292c-439f-a647-070b9e91a044
 keywords:

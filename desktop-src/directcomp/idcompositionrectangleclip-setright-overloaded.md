@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetRight methods
+title: IDCompositionRectangleClip SetRight methods (Dcomp.h)
 description: Animates or changes the value of the Right property of a clip rectangle.
 ms.assetid: DBF1C6CE-5256-4175-9530-30D0B24FAB6D
 keywords:

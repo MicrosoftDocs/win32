@@ -1,7 +1,7 @@
 ---
 Description: The Remove method removes the item at the specified position.
 ms.assetid: a7b8f6fb-f13a-4c24-aa18-463446602e29
-title: CGenericList.Remove method
+title: CGenericList.Remove method (Wxlist.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

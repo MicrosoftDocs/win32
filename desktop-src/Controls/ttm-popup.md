@@ -1,5 +1,5 @@
 ---
-title: TTM_POPUP message
+title: TTM_POPUP message (Commctrl.h)
 description: Causes the tooltip to display at the coordinates of the last mouse message.
 ms.assetid: 6b7b430b-4f59-49f9-bd3f-70099485fac8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_TILE_SHAPE structure
+title: CD3DX12_TILE_SHAPE structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_TILE\_SHAPE structure.
 ms.assetid: 0A5963F1-8CE5-4B03-B69F-83B2B801CC21
 keywords:

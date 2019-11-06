@@ -1,5 +1,5 @@
 ---
-title: LVM_SETITEMINDEXSTATE message
+title: LVM_SETITEMINDEXSTATE message (Commctrl.h)
 description: Sets the state of a list-view item. Send this message explicitly or by using the ListView\_SetItemIndexState macro.
 ms.assetid: 9fea6420-320a-4d2a-84b5-7923fbb14655
 keywords:

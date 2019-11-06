@@ -1,5 +1,5 @@
 ---
-title: WTSLISTENERNAME
+title: WTSLISTENERNAME (WtsApi32.h)
 description: Represents the name of a Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server.
 ms.assetid: 3C41F507-6A67-4244-860F-E89B0F9E33B0
 ms.tgt_platform: multiple

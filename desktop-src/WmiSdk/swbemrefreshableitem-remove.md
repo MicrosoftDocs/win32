@@ -2,7 +2,7 @@
 Description: The SWbemRefreshableItem.Remove method removes the SWbemRefreshableItem object from the parent SWbemRefresher object.SWbemRefreshableItem object from the parent SWbemRefresher object.
 ms.assetid: 8d3f5e22-c343-4191-a20a-6bca2ec9b01a
 ms.tgt_platform: multiple
-title: SWbemRefreshableItem.Remove method
+title: SWbemRefreshableItem.Remove method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

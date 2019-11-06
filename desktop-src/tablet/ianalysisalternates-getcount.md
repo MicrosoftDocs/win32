@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the number of IAnalysisAlternate objects contained in the IAnalysisAlternates collection.
 ms.assetid: 17b71b5a-638a-4e6e-a43b-4ca3c8eba257
-title: IAnalysisAlternates::GetCount method
+title: IAnalysisAlternates::GetCount method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

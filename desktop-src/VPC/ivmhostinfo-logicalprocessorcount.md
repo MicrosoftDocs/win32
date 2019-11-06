@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo LogicalProcessorCount property
+title: IVMHostInfo LogicalProcessorCount property (VPCCOMInterfaces.h)
 description: Retrieves the number of logical processors in the host machine.
 ms.assetid: bf978a80-9a21-426a-ac18-109f20d38cbb
 keywords:

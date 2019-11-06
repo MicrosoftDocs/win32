@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine interface
+title: IVMVirtualMachine interface (VPCCOMInterfaces.h)
 description: Defines the interface for a virtual machine.
 ms.assetid: c1c243f2-0fb7-4249-8dc9-f0b70059e78f
 keywords:

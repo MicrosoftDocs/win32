@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectConstantBuffer GetConstantBuffer method
+title: ID3DX11EffectConstantBuffer GetConstantBuffer method (D3dx11effect.h)
 description: Get a constant-buffer.
 ms.assetid: 857b3dc2-41ae-4a52-904a-9ca8f0afeb9e
 keywords:

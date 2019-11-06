@@ -1,7 +1,7 @@
 ---
 Description: You may use the MOF\_FIELD structures to append event data to the EVENT\_TRACE\_HEADER or EVENT\_INSTANCE\_HEADER structures.
 ms.assetid: 64ff1191-2177-4d51-afcd-b58d510e9ae8
-title: MOF_FIELD structure
+title: MOF_FIELD structure (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

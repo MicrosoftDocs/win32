@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagNoEncryption method
+title: WSMan.SessionFlagNoEncryption method (WSManDisp.h)
 description: Returns the value of the WSManFlagNoEncryption authentication flag for use in the flags parameter of the WSMan.CreateSession method.
 ms.assetid: 15c76f0e-85ae-4ee3-bf9f-ba32195d9adc
 ms.tgt_platform: multiple

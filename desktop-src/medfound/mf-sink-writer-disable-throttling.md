@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the sink writer limits the rate of incoming data.
 ms.assetid: eb79bda7-ece0-4977-a0f9-d40bd5d220ab
-title: MF_SINK_WRITER_DISABLE_THROTTLING attribute
+title: MF_SINK_WRITER_DISABLE_THROTTLING attribute (Mfreadwrite.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

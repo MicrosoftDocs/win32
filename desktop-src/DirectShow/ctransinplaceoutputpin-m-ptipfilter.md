@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the filter that created this pin.
 ms.assetid: e7939bce-d832-45e6-94fd-2f5e07792eef
-title: CTransInPlaceOutputPin::m_pTIPFilter member
+title: CTransInPlaceOutputPin::m_pTIPFilter member (Transip.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

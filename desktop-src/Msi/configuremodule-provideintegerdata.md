@@ -1,7 +1,7 @@
 ---
 Description: The ProvideIntegerData method of the ConfigureModule object is called by Mergemod.dll to retrieve integer data from the client tool.
 ms.assetid: 13d48301-bd63-432c-b663-85a840886dda
-title: ConfigureModule.ProvideIntegerData method
+title: ConfigureModule.ProvideIntegerData method (Mergemod.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

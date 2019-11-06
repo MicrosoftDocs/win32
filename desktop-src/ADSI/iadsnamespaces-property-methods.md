@@ -1,5 +1,5 @@
 ---
-title: IADsNamespaces Property Methods
+title: IADsNamespaces Property Methods (Iads.h)
 description: The IADsNamespaces interface property methods get and set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: fe959741-429e-480a-8111-3ebadaf55f77
 ms.tgt_platform: multiple

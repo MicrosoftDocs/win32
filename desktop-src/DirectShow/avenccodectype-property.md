@@ -1,7 +1,7 @@
 ---
 Description: Specifies the encoding scheme.
 ms.assetid: a26951d6-67fb-43fb-849f-331416e9d7c2
-title: AVEncCodecType property
+title: AVEncCodecType property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

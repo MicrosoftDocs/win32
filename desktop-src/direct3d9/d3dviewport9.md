@@ -1,7 +1,7 @@
 ---
 Description: Defines the window dimensions of a render-target surface onto which a 3D volume projects.
 ms.assetid: fb2c6048-f837-497d-8e4f-e18942d37899
-title: D3DVIEWPORT9 structure
+title: D3DVIEWPORT9 structure (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

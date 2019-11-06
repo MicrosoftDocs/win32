@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine FloppyDrives property
+title: IVMVirtualMachine FloppyDrives property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of floppy drives attached to the virtual machine.
 ms.assetid: 8b8ea1c7-77c3-46b6-ab0b-0c7b4ab387ae
 keywords:

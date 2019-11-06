@@ -1,5 +1,5 @@
 ---
-title: glFrontFace function
+title: glFrontFace function (Gl.h)
 description: The glFrontFace function defines front-facing and back-facing polygons.
 ms.assetid: 4087107c-99cd-4c26-92e3-8dc43633d51f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM_GETNEXTITEMINDEX message
+title: LVM_GETNEXTITEMINDEX message (Commctrl.h)
 description: Retrieves the index of an item in a specified list-view control that matches the specified properties and relationship to another item. Send this message explicitly or by using the ListView\_GetNextItemIndex macro.
 ms.assetid: 'vs|controls|~\controls\listview\messages\lvm_getnextitemindex.htm'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer interface
+title: IResultsViewer interface (WdsSharedIDL.h)
 description: Exposes methods and properties for the results view.
 ms.assetid: 4d476511-d65c-4417-8073-337cfbae621d
 keywords:

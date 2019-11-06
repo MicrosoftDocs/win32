@@ -1,5 +1,5 @@
 ---
-title: TBN_BEGINADJUST notification code
+title: TBN_BEGINADJUST notification code (Commctrl.h)
 description: Notifies a toolbar's parent window that the user has begun customizing a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 689aeda3-5051-4422-9e66-64557b263943
 keywords:

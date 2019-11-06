@@ -1,5 +1,5 @@
 ---
-title: EM_GETTOUCHOPTIONS message
+title: EM_GETTOUCHOPTIONS message (Richedit.h)
 description: Retrieves the touch options that are associated with a rich edit control.
 ms.assetid: 1D367818-5625-4A5A-A7A1-330FED516990
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM_GETENDOFLINE message
+title: EM_GETENDOFLINE message (Commctrl.h)
 description: Retrieves the end-of-line character used when a linebreak is inserted. Send this message explicitly or by using the Edit\_GetEndOfLine macro.
 ms.assetid: 557f796e-c9d1-4ea1-b8a6-44ae0bed5ffc
 keywords:

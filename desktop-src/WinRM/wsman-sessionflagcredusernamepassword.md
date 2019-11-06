@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagCredUsernamePassword method
+title: WSMan.SessionFlagCredUsernamePassword method (WSManDisp.h)
 description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of the WSMan.CreateSession method.
 ms.assetid: 70d12df4-f0ac-499a-8b2f-6ba83b77869e
 ms.tgt_platform: multiple

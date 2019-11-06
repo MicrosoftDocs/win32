@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard TypeKeySequence method
+title: IVMKeyboard TypeKeySequence method (VPCCOMInterfaces.h)
 description: Simulates a comma-delimited list of keys being typed.
 ms.assetid: ba4d4e43-cb2e-49ae-940d-2e81286d3473
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the user draws a new stroke on any tablet.
 ms.assetid: eaa89dfe-6141-4205-845b-634321130e26
-title: InkCollector.Stroke event
+title: InkCollector.Stroke event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: The IESP interface provides the methods that connect the NPP to the network, capture network traffic to a capture file, retrieve statistics, and disconnect the NPP from the network.
 ms.assetid: e483f501-4928-4bfd-b212-e100f2b8f64f
-title: IESP interface
+title: IESP interface (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

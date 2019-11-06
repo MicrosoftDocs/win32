@@ -1,7 +1,7 @@
 ---
 Description: The source file was closed because of an unexpected event. For example, the network server was shut down.
 ms.assetid: 1bbedf76-e840-4ec6-b3b2-c7e7dee47cf5
-title: EC_FILE_CLOSED
+title: EC_FILE_CLOSED (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the user draws a new IInkStrokeDisp object on any IInkTablet object.
 ms.assetid: fac5104d-d0da-40b1-a4a6-00a34718d09f
-title: InkEdit.Stroke event
+title: InkEdit.Stroke event (Inked.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

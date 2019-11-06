@@ -1,5 +1,5 @@
 ---
-title: LB_SELITEMRANGEEX message
+title: LB_SELITEMRANGEEX message (Winuser.h)
 description: Selects one or more consecutive items in a multiple-selection list box.
 ms.assetid: aac85d72-43e2-4ab0-b9ee-c7a87e21d7a1
 keywords:

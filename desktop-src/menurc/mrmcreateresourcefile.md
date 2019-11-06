@@ -1,5 +1,5 @@
 ---
-title: MrmCreateResourceFile function
+title: MrmCreateResourceFile function (MrmResourceIndexer.h)
 description: Creates a PRI file (named \ 0034;resources.pri \ 0034;), or files, on disk in the specified folder. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: B9CE0638-4650-4E1A-BE5E-4CC7C6614030
 keywords:

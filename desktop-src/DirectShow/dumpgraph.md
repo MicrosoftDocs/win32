@@ -1,7 +1,7 @@
 ---
 Description: The DumpGraph function sends information about a filter graph to the debug output location. Ignored in retail builds.
 ms.assetid: c78f86bb-44d0-4904-b7f8-e756bda0151d
-title: DumpGraph function
+title: DumpGraph function (Wxdebug.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

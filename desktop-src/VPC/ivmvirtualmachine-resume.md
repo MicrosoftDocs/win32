@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Resume method
+title: IVMVirtualMachine Resume method (VPCCOMInterfaces.h)
 description: Resumes the VM.
 ms.assetid: 4a2d6b64-8dcf-484e-940d-b0180aba9f01
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IDWriteFontSetBuilder AddFontFaceReference methods
+title: IDWriteFontSetBuilder AddFontFaceReference methods (Dwrite\_3.h)
 description: Adds a reference to a font to the set being built.
 ms.assetid: 2543720f-1b5a-ca1d-9e24-3fcd61a4de37
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Contains a list of RFC 1766 languages used in the current presentation.
 ms.assetid: 8853bd88-d51a-478c-8c78-cf69a260e295
-title: MF_PD_ASF_LANGLIST_LEGACYORDER attribute
+title: MF_PD_ASF_LANGLIST_LEGACYORDER attribute (Wmcontainer.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

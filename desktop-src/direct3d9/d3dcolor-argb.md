@@ -1,7 +1,7 @@
 ---
 Description: Initializes a color with the supplied alpha, red, green, and blue values.
 ms.assetid: e862ba1b-fdcf-4058-8835-e58b4fc5e21a
-title: D3DCOLOR_ARGB macro
+title: D3DCOLOR_ARGB macro (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

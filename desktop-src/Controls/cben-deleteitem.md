@@ -1,5 +1,5 @@
 ---
-title: CBEN_DELETEITEM notification code
+title: CBEN_DELETEITEM notification code (Commctrl.h)
 description: Sent when an item has been deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8b0d03ff-57fa-44dc-ab3e-05089b876e3c
 keywords:

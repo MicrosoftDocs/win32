@@ -1,5 +1,5 @@
 ---
-title: MCM_GETCALENDARCOUNT message
+title: MCM_GETCALENDARCOUNT message (Commctrl.h)
 description: Gets the number of calendars currently displayed in the calendar control. You can send this message explicitly or by using the MonthCal\_GetCalendarCount macro.
 ms.assetid: b9463f02-d37b-49b0-8387-0938020c23ee
 keywords:

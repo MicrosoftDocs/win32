@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_INFOEX_BEHAVIOR structure
+title: MPTHREAT_INFOEX_BEHAVIOR structure (MpClient.h)
 description: Contains behavior modification-specific information.
 ms.assetid: 762E755F-5BA1-476D-B395-6617093309C5
 keywords:

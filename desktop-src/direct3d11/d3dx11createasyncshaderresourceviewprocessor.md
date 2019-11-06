@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateAsyncShaderResourceViewProcessor function
+title: D3DX11CreateAsyncShaderResourceViewProcessor function (D3DX11async.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 ms.assetid: bd9349af-f433-47f9-b443-3049c32fc286
 keywords:

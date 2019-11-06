@@ -1,5 +1,5 @@
 ---
-title: IDeliveryOptimizationJob interface
+title: IDeliveryOptimizationJob interface (Deliveryoptimization.h)
 description: Use the IDeliveryOptimizationJob interface to download ranges of a file.
 ms.assetid: 7549F3B2-47E9-44DA-BD9C-AEFB0C36FF15
 keywords:

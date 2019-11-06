@@ -1,5 +1,5 @@
 ---
-title: glGetIntegerv function
+title: glGetIntegerv function (Gl.h)
 description: The glGetIntegerv function returns the value or values of a selected parameter.
 ms.assetid: '16b04af6-5da3-439f-8d4f-bc8ab1fcb2c5'
 keywords:

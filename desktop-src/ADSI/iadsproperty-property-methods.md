@@ -1,5 +1,5 @@
 ---
-title: IADsProperty Property Methods
+title: IADsProperty Property Methods (Iads.h)
 description: Read and write the properties described in the following table.
 ms.assetid: dd348a3c-0386-4fa2-984d-cdea6f09bd72
 ms.tgt_platform: multiple

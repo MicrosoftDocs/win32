@@ -1,5 +1,5 @@
 ---
-title: Session.Create method
+title: Session.Create method (WSManDisp.h)
 description: Creates a new instance of a resource and returns the endpoint reference (EPR) of the new object.
 ms.assetid: 7629dfff-6c66-4b09-81a4-b1458ff977fa
 ms.tgt_platform: multiple

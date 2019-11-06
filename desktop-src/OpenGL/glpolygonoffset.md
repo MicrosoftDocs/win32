@@ -1,5 +1,5 @@
 ---
-title: glPolygonOffset function
+title: glPolygonOffset function (Gl.h)
 description: The glPolygonOffset function sets the scale and units OpenGL uses to calculate depth values.
 ms.assetid: 06bc1aba-1692-40f0-8535-2cb65b487490
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Identifies the component that generated a capture event.
 ms.assetid: DCCF3054-AF14-44C7-84C0-B03E35B5D90A
-title: MF_CAPTURE_ENGINE_EVENT_GENERATOR_GUID attribute
+title: MF_CAPTURE_ENGINE_EVENT_GENERATOR_GUID attribute (Mfcaptureengine.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

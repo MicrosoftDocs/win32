@@ -1,7 +1,7 @@
 ---
 Description: The LINEGROUPSTATUS\_ constants specify the ACD group status.
 ms.assetid: 18afe11d-24cc-4897-ad59-a47598fe507f
-title: LINEGROUPSTATUS_ Constants
+title: LINEGROUPSTATUS_ Constants (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

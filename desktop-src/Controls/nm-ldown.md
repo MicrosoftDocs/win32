@@ -1,5 +1,5 @@
 ---
-title: NM_LDOWN notification code
+title: NM_LDOWN notification code (Commctrl.h)
 description: Notifies a control's parent window that the left mouse button has been pressed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 59546fc3-f7c5-4b2d-9fd7-2ff89d72cd9f
 keywords:

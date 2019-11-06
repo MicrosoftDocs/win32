@@ -1,5 +1,5 @@
 ---
-title: D3DX11_NORMALMAP_FLAG enumeration
+title: D3DX11_NORMALMAP_FLAG enumeration (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Normal map options. You can combine any number of these flags by using a bitwise OR operation.
 ms.assetid: cc9c8a54-be1e-4594-8274-9955562a6fa8
 keywords:

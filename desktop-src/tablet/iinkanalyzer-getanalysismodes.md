@@ -1,7 +1,7 @@
 ---
 Description: Retrieves flags that control how the IInkAnalyzer performs ink analysis.
 ms.assetid: 982cb9cd-2d73-4064-9a6e-fe123adf0fb6
-title: IInkAnalyzer::GetAnalysisModes method
+title: IInkAnalyzer::GetAnalysisModes method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: PSM_REBOOTSYSTEM message
+title: PSM_REBOOTSYSTEM message (Prsht.h)
 description: Indicates the system needs to be restarted for the changes to take effect. You can send the PSM\_REBOOTSYSTEM message explicitly or by using the PropSheet\_RebootSystem macro.
 ms.assetid: 461fce3c-183a-4b9b-8eab-ed2838d9f866
 keywords:

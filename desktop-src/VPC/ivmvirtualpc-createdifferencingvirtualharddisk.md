@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC CreateDifferencingVirtualHardDisk method
+title: IVMVirtualPC CreateDifferencingVirtualHardDisk method (VPCCOMInterfaces.h)
 description: Creates a differencing virtual hard disk.
 ms.assetid: 6a33aa6f-a0e8-45d8-bdc1-0864561db162
 keywords:

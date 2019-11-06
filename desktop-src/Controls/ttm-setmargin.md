@@ -1,5 +1,5 @@
 ---
-title: TTM_SETMARGIN message
+title: TTM_SETMARGIN message (Commctrl.h)
 description: Sets the top, left, bottom, and right margins for a tooltip window. A margin is the distance, in pixels, between the tooltip window border and the text contained within the tooltip window.
 ms.assetid: f1663861-c217-42dd-8249-7647b1651910
 keywords:

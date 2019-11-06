@@ -1,5 +1,5 @@
 ---
-title: IPX_SPECIFIC_DATA structure
+title: IPX_SPECIFIC_DATA structure (Rtm.h)
 description: The IPX\_SPECIFIC\_DATA structure contains IPX-specific data.
 ms.assetid: 4d97092d-692c-4dc7-af7f-260dc76c6c08
 keywords:

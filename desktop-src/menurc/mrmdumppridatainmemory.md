@@ -1,5 +1,5 @@
 ---
-title: MrmDumpPriDataInMemory function
+title: MrmDumpPriDataInMemory function (MrmResourceIndexer.h)
 description: Dumps PRI info (as a blob in memory, created by a previous call to MrmCreateResourceFileInMemory) to its XML equivalent (as in-memory data), in order to make it more easily readable.
 ms.assetid: 6E563B43-4E0A-465D-A8EA-7DE61738DE06
 keywords:

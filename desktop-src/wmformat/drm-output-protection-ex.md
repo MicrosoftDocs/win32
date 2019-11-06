@@ -1,5 +1,5 @@
 ---
-title: DRM_OUTPUT_PROTECTION_EX structure
+title: DRM_OUTPUT_PROTECTION_EX structure (Wmdrmsdk.h)
 description: The DRM\_OUTPUT\_PROTECTION\_EX structure holds information about an output protection technology. This structure extends DRM\_OUTPUT\_PROTECTION by adding a version number.
 ms.assetid: eeebf5da-172b-4781-8c44-00504a6961bf
 keywords:

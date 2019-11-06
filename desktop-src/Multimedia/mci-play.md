@@ -1,5 +1,5 @@
 ---
-title: MCI_PLAY command
+title: MCI_PLAY command (Mmsystem.h)
 description: The MCI\_PLAY command signals the device to begin transmitting output data. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 ms.assetid: d912ab49-63f0-40a9-aa4c-f9463782b54c
 keywords:

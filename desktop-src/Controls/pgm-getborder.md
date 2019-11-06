@@ -1,5 +1,5 @@
 ---
-title: PGM_GETBORDER message
+title: PGM_GETBORDER message (Commctrl.h)
 description: Retrieves the current border size for the pager control. You can send this message explicitly or use the Pager\_GetBorder macro.
 ms.assetid: 5d2f49ad-d940-4a0b-b5a0-05d742151b1c
 keywords:

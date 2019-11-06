@@ -1,7 +1,7 @@
 ---
 Description: The CAPICOM\_KEY\_STORAGE\_FLAG enumeration defines key storage flags.
 ms.assetid: 326cef75-24a5-4dc9-a7e9-a63dd3d8de54
-title: CAPICOM_KEY_STORAGE_FLAG enumeration
+title: CAPICOM_KEY_STORAGE_FLAG enumeration (Capicom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

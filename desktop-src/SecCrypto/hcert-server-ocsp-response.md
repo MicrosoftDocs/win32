@@ -1,7 +1,7 @@
 ---
 Description: Represents a handle to an OCSP response associated with a server certificate chain.
 ms.assetid: baf173f1-99dc-49f9-9a17-fee79b393db7
-title: HCERT_SERVER_OCSP_RESPONSE
+title: HCERT_SERVER_OCSP_RESPONSE (Wincrypt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

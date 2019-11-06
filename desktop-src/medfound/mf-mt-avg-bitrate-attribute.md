@@ -1,7 +1,7 @@
 ---
 Description: Approximate data rate of the video stream, in bits per second, for a video media type.
 ms.assetid: cf9374a7-3688-4a6c-8339-d68c267c9bed
-title: MF_MT_AVG_BITRATE attribute
+title: MF_MT_AVG_BITRATE attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

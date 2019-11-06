@@ -1,7 +1,7 @@
 ---
 Description: Minimizes all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Minimize All Windows on older systems or clicking the Show Desktop icon on the taskbar.
 ms.assetid: 25DD56B0-221E-44a2-9FAD-FB358ADD7FF1
-title: IShellDispatch.MinimizeAll method
+title: IShellDispatch.MinimizeAll method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Occurs when one or more strokes are added to the InkStrokes collection.
 ms.assetid: d32dcaef-3beb-4ee1-84d6-5944278936f6
-title: InkStrokes.StrokesAdded event
+title: InkStrokes.StrokesAdded event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: MM_ACM_FILTERCHOOSE message
+title: MM_ACM_FILTERCHOOSE message (Msacm.h)
 description: The MM\_ACM\_FILTERCHOOSE message notifies an acmFilterChoose dialog box hook function before adding an element to one of the three drop-down list boxes.
 ms.assetid: f3c68240-a9aa-4771-96b9-1cb3bb5ea906
 keywords:

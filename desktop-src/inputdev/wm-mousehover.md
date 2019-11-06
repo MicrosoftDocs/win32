@@ -1,5 +1,5 @@
 ---
-title: WM_MOUSEHOVER message
+title: WM_MOUSEHOVER message (Winuser.h)
 description: Posted to a window when the cursor hovers over the client area of the window for the period of time specified in a prior call to TrackMouseEvent.
 ms.assetid: efba7f04-2d26-44f1-89df-a565c03ad944
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DsBackupGetBackupLogs function
+title: DsBackupGetBackupLogs function (Ntdsbcli.h)
 description: Obtains the list of log files that must be backed up for the given backup context.
 ms.assetid: 09b3fdac-41ea-471c-a0dd-54414181f6fe
 ms.tgt_platform: multiple

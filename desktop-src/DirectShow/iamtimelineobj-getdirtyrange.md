@@ -1,7 +1,7 @@
 ---
 Description: Not supported.
 ms.assetid: 7f97b1c4-0508-45a5-a6fd-5dae17f0fa60
-title: IAMTimelineObj::GetDirtyRange method
+title: IAMTimelineObj::GetDirtyRange method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

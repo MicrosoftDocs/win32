@@ -1,5 +1,5 @@
 ---
-title: IADsLocality Property Methods
+title: IADsLocality Property Methods (Iads.h)
 description: The methods of the IADsLocality interface read and write the properties described in this topic. For more information, see Interface Property Methods.
 ms.assetid: 5d1cea40-62fb-49d4-857f-4563e9db7f51
 ms.tgt_platform: multiple

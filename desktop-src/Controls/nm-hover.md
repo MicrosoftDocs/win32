@@ -1,5 +1,5 @@
 ---
-title: NM_HOVER notification code
+title: NM_HOVER notification code (Commctrl.h)
 description: Sent by a control when the mouse hovers over an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0eef3e88-c1f0-4f9c-9ccf-580d8e464157
 keywords:

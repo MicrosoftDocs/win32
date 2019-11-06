@@ -1,7 +1,7 @@
 ---
 Description: Moves this IContextNode object from its parent context node's collection of subnodes to the specified context node's collection of subnodes.
 ms.assetid: e19ecbe3-f7aa-499c-86a1-236dc9056fd9
-title: IContextNode::Reparent method
+title: IContextNode::Reparent method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

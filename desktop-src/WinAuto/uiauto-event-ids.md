@@ -1,5 +1,5 @@
 ---
-title: Event Identifiers
+title: Event Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants used to identify Microsoft UI Automation events.
 ms.assetid: 4baf5cb9-c965-4977-ae2b-420e84dc2e94
 topic_type:

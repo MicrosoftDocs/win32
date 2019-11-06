@@ -1,5 +1,5 @@
 ---
-title: RB_MAXIMIZEBAND message
+title: RB_MAXIMIZEBAND message (Commctrl.h)
 description: Resizes a band in a rebar control to either its ideal or largest size.
 ms.assetid: 79fff6d0-01f2-4308-b916-38dc06dad894
 keywords:

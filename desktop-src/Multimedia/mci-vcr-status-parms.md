@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_STATUS_PARMS structure
+title: MCI_VCR_STATUS_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_STATUS\_PARMS structure contains parameters for the MCI\_STATUS command for video-cassette recorders.
 ms.assetid: 5d7cbb64-a81d-4bdd-8f07-8c20dd7b9ef5
 keywords:

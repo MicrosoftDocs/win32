@@ -1,7 +1,7 @@
 ---
 Description: The CBaseReferenceClock class implements a reference clock.
 ms.assetid: 898e1968-a9ab-4bb9-abf0-943bfae502e2
-title: CBaseReferenceClock class
+title: CBaseReferenceClock class (Refclock.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

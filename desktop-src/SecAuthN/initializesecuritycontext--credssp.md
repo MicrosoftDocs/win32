@@ -1,7 +1,7 @@
 ---
 Description: Initiates the client side, outbound security context from a credential handle.
 ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
-title: InitializeSecurityContext (CredSSP) function
+title: InitializeSecurityContext (CredSSP) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

@@ -1,5 +1,5 @@
 ---
-title: Session.Timeout property
+title: Session.Timeout property (WSManDisp.h)
 description: Sets and gets the maximum amount of time, in milliseconds, that the client application waits for Windows Remote Management to complete its operations.
 ms.assetid: ca35722a-1fd3-48bf-a11b-4624cb81aae3
 ms.tgt_platform: multiple

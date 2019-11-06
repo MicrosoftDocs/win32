@@ -1,5 +1,5 @@
 ---
-title: IADsPathname Property Methods
+title: IADsPathname Property Methods (Iads.h)
 description: Get or set the EscapedMode properties.
 ms.assetid: 007ec617-cff2-492a-a62c-50d65fefcd3b
 ms.tgt_platform: multiple

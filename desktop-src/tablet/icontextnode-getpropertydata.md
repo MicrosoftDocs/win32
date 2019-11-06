@@ -1,7 +1,7 @@
 ---
 Description: Retrieves application-specific data or other property data for the specified identifier.
 ms.assetid: eaf95ff8-7b31-4c05-aa49-0c3bb9e996c0
-title: IContextNode::GetPropertyData method
+title: IContextNode::GetPropertyData method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

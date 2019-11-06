@@ -1,7 +1,7 @@
 ---
 Description: The IsValid method determines whether a major type has been assigned to this object.
 ms.assetid: 22d28019-f360-4b93-972c-d1dfe83938f0
-title: CMediaType.IsValid method
+title: CMediaType.IsValid method (Mtype.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMTEXT notification code
+title: NM_CUSTOMTEXT notification code (Commctrl.h)
 description: Notifies a control's parent window about custom text operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b4bde648-3479-4fac-ad32-b34c7272c1fc
 keywords:

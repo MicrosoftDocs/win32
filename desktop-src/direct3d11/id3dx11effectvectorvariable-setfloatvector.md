@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable SetFloatVector method
+title: ID3DX11EffectVectorVariable SetFloatVector method (D3dx11effect.h)
 description: Set a four-component vector that contains floating-point data.
 ms.assetid: fb646df6-b9f9-4d71-93c3-38833076b781
 keywords:

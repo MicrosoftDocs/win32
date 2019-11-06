@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectMatrixVariable SetMatrixTranspose method
+title: ID3DX11EffectMatrixVariable SetMatrixTranspose method (D3dx11effect.h)
 description: Transpose and set a floating-point matrix.
 ms.assetid: 228546c9-0141-4e17-bc8f-bff7201825d7
 keywords:

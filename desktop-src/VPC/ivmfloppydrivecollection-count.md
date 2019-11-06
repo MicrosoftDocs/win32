@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDriveCollection Count property
+title: IVMFloppyDriveCollection Count property (VPCCOMInterfaces.h)
 description: Number of floppy drives in this collection.
 ms.assetid: d430e5ae-9782-4f88-a5a4-744e79545c7a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM_GET_LICENSE_DATA structure
+title: WM_GET_LICENSE_DATA structure (Drmexternals.h)
 description: The WM\_GET\_LICENSE\_DATA structure contains information about where to acquire a DRM license.
 ms.assetid: 7e8053d5-f3f5-4519-97f5-6dbd89982f3a
 keywords:

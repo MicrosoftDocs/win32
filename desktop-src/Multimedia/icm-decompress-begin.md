@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESS_BEGIN message
+title: ICM_DECOMPRESS_BEGIN message (Vfw.h)
 description: The ICM\_DECOMPRESS\_BEGIN message notifies a video decompression driver to prepare to decompress data. You can send this message explicitly or by using the ICDecompressBegin macro.
 ms.assetid: 24cd5220-d473-4968-8678-b00670eecf8f
 keywords:

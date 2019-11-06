@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS OSPlatformId property
+title: IVMGuestOS OSPlatformId property (VPCCOMInterfaces.h)
 description: The platform identifier of the guest operating system running in the virtual machine.
 ms.assetid: c6eaba08-0407-4d22-8ed7-9660cc4879f9
 keywords:

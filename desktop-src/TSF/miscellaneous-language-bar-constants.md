@@ -1,5 +1,5 @@
 ---
-title: Miscellaneous Language Bar Constants
+title: Miscellaneous Language Bar Constants (Ctfutb.h)
 description: The miscellaneous language bar constants set certain properties of language bars.
 ms.assetid: c1740636-7ba3-4748-9005-ee94d04dbb15
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: The following constants identify the standard Media Foundation work queues.
 ms.assetid: c769f876-83ca-4b04-a054-22fa7146310e
-title: Work Queue Identifiers
+title: Work Queue Identifiers (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

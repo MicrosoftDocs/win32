@@ -1,5 +1,5 @@
 ---
-title: ACM_PLAY message
+title: ACM_PLAY message (Commctrl.h)
 description: Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can send this message explicitly or by using the Animate\_Play macro.
 ms.assetid: 738b7305-bb77-441d-a198-17daf3b76039
 keywords:

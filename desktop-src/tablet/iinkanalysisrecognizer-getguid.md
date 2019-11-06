@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the globally unique identifier (GUID) of the recognizer.
 ms.assetid: 9b98993b-eaf3-4207-9d56-33efeceb75cf
-title: IInkAnalysisRecognizer::GetGuid method
+title: IInkAnalysisRecognizer::GetGuid method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

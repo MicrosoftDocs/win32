@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilter LogicOperator property
+title: IPropertyFilter LogicOperator property (WdsSharedIDL.h)
 description: Logic Operator to use when applying a filter.
 ms.assetid: 9461c7a3-1c70-41bf-a4fe-8dacd4d2ba49
 keywords:

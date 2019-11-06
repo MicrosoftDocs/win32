@@ -1,5 +1,5 @@
 ---
-title: idcompositionaffinetransform2deffect SetTransformMatrixElement methods
+title: idcompositionaffinetransform2deffect SetTransformMatrixElement methods (Dcomp.h)
 description: Sets an element of the transform matrix of the effect.
 ms.assetid: c618926b-c059-69dc-ab90-c58344128589
 keywords:

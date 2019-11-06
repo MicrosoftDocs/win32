@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC interface
+title: IVMVirtualPC interface (VPCCOMInterfaces.h)
 description: Defines the top-level Windows Virtual PC application object. All other Windows Virtual PC interface objects are retrieved through this object.
 ms.assetid: 519d3f1b-0a72-4c67-a2d9-124fda6c8b7a
 keywords:

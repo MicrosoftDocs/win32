@@ -1,5 +1,5 @@
 ---
-title: HDN_ITEMDBLCLICK notification code
+title: HDN_ITEMDBLCLICK notification code (Commctrl.h)
 description: Notifies a header control's parent window that the user double-clicked the control. This notification code is sent in the form of a WM\_NOTIFY message. Only header controls that are set to the HDS\_BUTTONS style send this notification code.
 ms.assetid: 72bb00b9-226f-4409-b788-b623868f78b6
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SEQUENCE message
+title: WM_CAP_SEQUENCE message (Vfw.h)
 description: The WM\_CAP\_SEQUENCE message initiates streaming video and audio capture to a file. You can send this message explicitly or by using the capCaptureSequence macro.
 ms.assetid: 33d53abc-e37e-48c6-bfc8-9cd02fde5cb6
 keywords:

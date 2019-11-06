@@ -2,7 +2,7 @@
 Description: The SWbemRefreshableItem.ObjectSet property represents the object set to be refreshed.
 ms.assetid: f52101b1-bb6e-4798-b20f-d6efd31cf7c1
 ms.tgt_platform: multiple
-title: SWbemRefreshableItem.ObjectSet property
+title: SWbemRefreshableItem.ObjectSet property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

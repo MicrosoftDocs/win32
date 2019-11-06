@@ -1,7 +1,7 @@
 ---
 Description: Enables or disables preview mode, which enables the application to overwrite the initial buffering logic.
 ms.assetid: 8aa8c6ac-8746-4bf6-9f57-b1426495a275
-title: MFNETSOURCE_PREVIEWMODEENABLED property
+title: MFNETSOURCE_PREVIEWMODEENABLED property (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

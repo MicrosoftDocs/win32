@@ -1,5 +1,5 @@
 ---
-title: EAPHost Constants
+title: EAPHost Constants (Eaptypes.h)
 description: Constants used by EAPHost methods.
 ms.assetid: 56338B98-06E3-4CD3-B1CA-F8F45AA39566
 topic_type:

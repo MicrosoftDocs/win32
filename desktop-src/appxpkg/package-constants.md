@@ -1,5 +1,5 @@
 ---
-title: Package constants
+title: Package constants (AppModel.h)
 description: Specifies how packages are to be processed.
 ms.assetid: 72E565C3-6CFD-47E3-8BAC-17D6E86B99DA
 topic_type:

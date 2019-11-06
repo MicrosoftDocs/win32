@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANSI_381_IMG_ACQ Constants
+title: WINBIO_ANSI_381_IMG_ACQ Constants (Winbio\_types.h)
 description: Specify image acquisition levels.
 ms.assetid: 1A57C4C0-35FA-43A0-A97E-C87D1DD03404
 topic_type:

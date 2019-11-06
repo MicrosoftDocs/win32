@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget PushLayer methods
+title: ID2D1RenderTarget PushLayer methods (D2d1\_1.h)
 description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.
 ms.assetid: 9336662c-e94e-40ba-adbe-066d704958bc
 keywords:

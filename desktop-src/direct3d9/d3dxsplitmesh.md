@@ -1,7 +1,7 @@
 ---
 Description: Splits a mesh into meshes smaller than the specified size.
 ms.assetid: 55cdd82f-91fa-4805-969f-8fbe53cbde58
-title: D3DXSplitMesh function
+title: D3DXSplitMesh function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

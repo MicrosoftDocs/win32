@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_DRIVER_CONNECT message
+title: WM_CAP_DRIVER_CONNECT message (Vfw.h)
 description: The WM\_CAP\_DRIVER\_CONNECT message connects a capture window to a capture driver. You can send this message explicitly or by using the capDriverConnect macro.
 ms.assetid: 8804bb3c-d06c-4ddc-b116-3d292205a52d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable SetIntArray method
+title: ID3DX11EffectScalarVariable SetIntArray method (D3dx11effect.h)
 description: Set an array of integer variables.
 ms.assetid: 27efb643-0762-4cd7-84ad-f82b2bb1584a
 keywords:

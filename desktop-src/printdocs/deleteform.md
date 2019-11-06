@@ -1,7 +1,7 @@
 ---
 Description: The DeleteForm function removes a form name from the list of supported forms.
 ms.assetid: a2d0345f-2469-46ab-935f-777f2b33b621
-title: DeleteForm function
+title: DeleteForm function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

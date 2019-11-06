@@ -1,7 +1,7 @@
 ---
 Description: Encrypts a message to provide privacy by using Digest.
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
-title: EncryptMessage (Digest) function
+title: EncryptMessage (Digest) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

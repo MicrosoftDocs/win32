@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilViewVariable GetDepthStencilArray method
+title: ID3DX11EffectDepthStencilViewVariable GetDepthStencilArray method (D3dx11effect.h)
 description: Get an array of depth-stencil-view resources.
 ms.assetid: 92b2d9b1-6cf8-4523-88e0-bcd09b95477c
 keywords:

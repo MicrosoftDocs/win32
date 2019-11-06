@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_COMMAND\_STORAGE\_FORMAT command formats a storage functional object on the device.
 ms.assetid: 5dc06ed3-791f-4c6b-9fb3-42452e948e0d
-title: WPD_COMMAND_STORAGE_FORMAT Command
+title: WPD_COMMAND_STORAGE_FORMAT Command (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

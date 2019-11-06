@@ -1,5 +1,5 @@
 ---
-title: EM_SETTABSTOPS message
+title: EM_SETTABSTOPS message (Winuser.h)
 description: The EM\_SETTABSTOPS message sets the tab stops in a multiline edit control.
 ms.assetid: d6fe2828-4ae9-4652-ace0-2f71e146f777
 keywords:

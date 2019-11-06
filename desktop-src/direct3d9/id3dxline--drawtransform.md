@@ -1,7 +1,7 @@
 ---
 Description: Draws a line strip in screen space with a specified input transformation matrix.
 ms.assetid: 869dc705-8162-4cd9-ac6a-c0ce32f430c3
-title: ID3DXLine::DrawTransform method
+title: ID3DXLine::DrawTransform method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

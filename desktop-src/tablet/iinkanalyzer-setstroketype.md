@@ -1,7 +1,7 @@
 ---
 Description: Changes the type of the specified stroke.
 ms.assetid: 1608fed1-cd6c-46c3-a35f-3d262279ec2e
-title: IInkAnalyzer::SetStrokeType method
+title: IInkAnalyzer::SetStrokeType method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: ADSI Attribute Modification Types
+title: ADSI Attribute Modification Types (Iads.h)
 description: Used with the dwControlCode member of ADS\_ATTR\_INFO structure to specify the type of operation to be performed when an attribute is modified with the IDirectoryObject SetObjectAttributes method.
 ms.assetid: e9a454c8-e067-4730-97f4-85c4f5889e05
 ms.tgt_platform: multiple

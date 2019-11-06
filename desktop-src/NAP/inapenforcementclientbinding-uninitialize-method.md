@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding Uninitialize method
+title: INapEnforcementClientBinding Uninitialize method (NapEnforcementClient.h)
 description: Concludes the NapAgent service.
 ms.assetid: 792600e5-586f-4858-8439-75761c928745
 keywords:

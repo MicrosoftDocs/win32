@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC CreateFixedVirtualHardDisk method
+title: IVMVirtualPC CreateFixedVirtualHardDisk method (VPCCOMInterfaces.h)
 description: Creates a fixed-size virtual hard disk.
 ms.assetid: c58a7f2c-efd7-4a39-9ce5-617baa82084b
 keywords:

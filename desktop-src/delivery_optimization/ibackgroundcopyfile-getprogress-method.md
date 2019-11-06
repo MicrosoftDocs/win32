@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile GetProgress method
+title: IBackgroundCopyFile GetProgress method (Deliveryoptimization.h)
 description: Retrieves information on the progress of the file transfer.
 ms.assetid: 3D8AFD65-AF34-4000-A4A9-8A187427E85C
 keywords:

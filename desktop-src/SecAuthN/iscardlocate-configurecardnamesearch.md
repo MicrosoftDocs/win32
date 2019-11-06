@@ -1,7 +1,7 @@
 ---
 Description: The ConfigureCardNameSearch method specifies the card names to be used in the search for the smart card.
 ms.assetid: fb406696-0cf0-4d67-8125-8888ee1b8213
-title: ISCardLocate::ConfigureCardNameSearch method
+title: ISCardLocate::ConfigureCardNameSearch method (Scardmgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

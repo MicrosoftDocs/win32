@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetShaderDesc method
+title: ID3DX11EffectShaderVariable GetShaderDesc method (D3dx11effect.h)
 description: Get a shader description.
 ms.assetid: 7dd667d3-c500-4486-b279-a165befe8733
 keywords:

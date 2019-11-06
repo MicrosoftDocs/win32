@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer Update method
+title: IResultsViewer Update method (WdsView.h)
 description: Applies any query changes and navigates the view to the new set of results.
 ms.assetid: 3bcb4ac0-4a78-4051-bd2b-701d19c83602
 keywords:

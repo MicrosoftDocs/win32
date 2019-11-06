@@ -1,5 +1,5 @@
 ---
-title: glIndexfv function
+title: glIndexfv function (Gl.h)
 description: The glIndexfv function sets the current color index.
 ms.assetid: 355d1896-ea9d-4a80-9dee-285f3bf638e5
 keywords:

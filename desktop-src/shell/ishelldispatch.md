@@ -1,6 +1,6 @@
 ---
 Description: Represents an object in the Shell.
-title: IShellDispatch object
+title: IShellDispatch object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

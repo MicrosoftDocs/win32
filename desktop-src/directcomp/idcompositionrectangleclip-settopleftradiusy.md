@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetTopLeftRadiusY methods
+title: IDCompositionRectangleClip SetTopLeftRadiusY methods (Dcomp.h)
 description: Changes or animates the value of the TopLeftRadiusY property of this clip. The TopLeftRadiusY property specifies the y radius of the ellipse that rounds the top-left corner of the clip.
 ms.assetid: D188BCD0-00F2-406D-BF69-33E8E37C8E6B
 keywords:

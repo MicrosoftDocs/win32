@@ -1,7 +1,7 @@
 ---
 Description: Defines a volume.
 ms.assetid: 415a96bc-1621-4691-b87a-98ca22f0bf07
-title: D3DBOX structure
+title: D3DBOX structure (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

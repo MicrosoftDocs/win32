@@ -1,5 +1,5 @@
 ---
-title: ID3DX11DataLoader Load method
+title: ID3DX11DataLoader Load method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Loads data from a disk.
 ms.assetid: 21dee078-af8f-4ca1-bb2e-d4ecc0471609
 keywords:

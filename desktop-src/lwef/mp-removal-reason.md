@@ -1,5 +1,5 @@
 ---
-title: MP_REMOVAL_REASON enumeration
+title: MP_REMOVAL_REASON enumeration (MpClient.h)
 description: FastPath signature removal reason.
 ms.assetid: A09B4903-E53C-4DA1-BD0B-6DE0124FCAB3
 keywords:

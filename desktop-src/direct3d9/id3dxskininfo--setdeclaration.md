@@ -1,7 +1,7 @@
 ---
 Description: Sets the vertex declaration.
 ms.assetid: cbb802ac-f0ba-41e6-8c67-a787982f975f
-title: ID3DXSkinInfo::SetDeclaration method
+title: ID3DXSkinInfo::SetDeclaration method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS ComputerName property
+title: IVMGuestOS ComputerName property (VPCCOMInterfaces.h)
 description: The computer name of the guest operating system running in the virtual machine.
 ms.assetid: b35fa1a1-e105-43e6-9a2f-a5c7e71772cf
 keywords:

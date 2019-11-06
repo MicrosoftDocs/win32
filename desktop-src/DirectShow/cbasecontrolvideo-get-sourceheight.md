@@ -1,7 +1,7 @@
 ---
 Description: The get\_SourceHeight method retrieves the height of the current source rectangle.
 ms.assetid: bf727cf6-9143-41f0-a482-782a4178ea92
-title: CBaseControlVideo.get_SourceHeight method
+title: CBaseControlVideo.get_SourceHeight method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

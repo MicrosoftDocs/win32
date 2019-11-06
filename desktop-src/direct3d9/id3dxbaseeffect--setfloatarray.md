@@ -1,7 +1,7 @@
 ---
 Description: Sets an array of floating point values.
 ms.assetid: 4b9c27b4-0255-4bbf-9168-491936d64fb9
-title: ID3DXBaseEffect::SetFloatArray method
+title: ID3DXBaseEffect::SetFloatArray method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

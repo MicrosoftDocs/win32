@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo FloppyDrives property
+title: IVMHostInfo FloppyDrives property (VPCCOMInterfaces.h)
 description: Retrieves the drive letters associated with host floppy drives.
 ms.assetid: 9a8ab4b5-6ee8-463f-809b-b88cd28d9373
 keywords:

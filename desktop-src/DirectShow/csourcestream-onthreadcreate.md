@@ -1,7 +1,7 @@
 ---
 Description: The OnThreadCreate method is called when the streaming thread is initialized.
 ms.assetid: eeaa0d12-3185-4c97-b481-fc420cfc0897
-title: CSourceStream.OnThreadCreate method
+title: CSourceStream.OnThreadCreate method (Source.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

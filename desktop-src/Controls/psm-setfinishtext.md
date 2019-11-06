@@ -1,5 +1,5 @@
 ---
-title: PSM_SETFINISHTEXT message
+title: PSM_SETFINISHTEXT message (Prsht.h)
 description: Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can send this message explicitly or by using the PropSheet\_SetFinishText macro.
 ms.assetid: fa89c6d7-9ab7-4e7c-ba08-d665420492a3
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MP_HASH_TYPE enumeration
+title: MP_HASH_TYPE enumeration (MpClient.h)
 description: Possible hash types.
 ms.assetid: 46432C40-6DE1-4FB8-B7C1-C2712CCEB208
 keywords:

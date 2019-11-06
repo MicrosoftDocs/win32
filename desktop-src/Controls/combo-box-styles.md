@@ -1,5 +1,5 @@
 ---
-title: Combo Box Styles
+title: Combo Box Styles (CommCtrl.h)
 description: To create a combo box using the CreateWindow or CreateWindowEx function, specify the COMBOBOX class, appropriate window style constants, and a combination of the following combo box styles.
 ms.assetid: 4dc347b2-7da7-4aa0-b61f-781acf652d84
 topic_type:

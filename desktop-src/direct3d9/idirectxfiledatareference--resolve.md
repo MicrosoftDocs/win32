@@ -1,7 +1,7 @@
 ---
 Description: Resolves data references. Deprecated.
 ms.assetid: e8cf6e5d-c9b2-4a47-b058-24282dc65e74
-title: IDirectXFileDataReference::Resolve method
+title: IDirectXFileDataReference::Resolve method (DXFile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

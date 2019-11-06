@@ -1,7 +1,7 @@
 ---
 Description: The SlowRender method draws the video image using the SetDIBitsToDevice or StretchDIBits functions.
 ms.assetid: e1d8b189-b588-48eb-988a-3e5dedb38dbd
-title: CDrawImage.SlowRender method
+title: CDrawImage.SlowRender method (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

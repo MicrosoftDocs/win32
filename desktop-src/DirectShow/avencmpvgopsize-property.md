@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum number of pictures from one group-of-pictures (GOP) header to the next GOP header.
 ms.assetid: 90433df4-5a96-4bc2-a780-93306abcb0a4
-title: AVEncMPVGOPSize property
+title: AVEncMPVGOPSize property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

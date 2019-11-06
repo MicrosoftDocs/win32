@@ -1,7 +1,7 @@
 ---
 Description: The SetKeyValue method adds a new REFPROPERTYKEY value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: 344c52ec-91b1-43f9-b16a-28c24971d805
-title: IPortableDeviceValues::SetKeyValue method
+title: IPortableDeviceValues::SetKeyValue method (PortableDeviceTypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

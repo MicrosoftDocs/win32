@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect IsOptimized method
+title: ID3DX11Effect IsOptimized method (D3dx11effect.h)
 description: Test an effect to see if the reflection metadata has been removed from memory.
 ms.assetid: fb0a876b-7419-45b7-97fe-8352dd97d8c5
 keywords:

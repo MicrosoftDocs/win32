@@ -1,5 +1,5 @@
 ---
-title: D2DSampleInputAtPosition function
+title: D2DSampleInputAtPosition function (D2d1effecthelpers.h)
 description: Samples input N at an absolute scene position, rather than an input-relative position. Only available for complex inputs.
 ms.assetid: E839287F-91D1-4591-8DE7-1DFC3001A23D
 keywords:

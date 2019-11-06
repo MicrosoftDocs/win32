@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd SetSoftKeyboardTypeMode method
+title: ISoftKbd SetSoftKeyboardTypeMode method (Softkbdc.h)
 description: The ISoftKbd SetSoftKeyboardTypeMode method sets the type mode for a soft keyboard.
 ms.assetid: 0b5b5056-59b3-41c7-bc43-70b5c3cd51c2
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentBinding Uninitialize method
+title: INapSystemHealthAgentBinding Uninitialize method (NapSystemHealthAgent.h)
 description: Causes the NapAgent to release all its references to system health agent COM pointers.
 ms.assetid: 8b9fabc9-7453-41fe-a1e7-2ec5fa275a3a
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The Register method adds the filter to the registry.
 ms.assetid: 934e421a-25a6-40fa-a48b-6d7331f34b78
-title: CBaseFilter.Register method
+title: CBaseFilter.Register method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

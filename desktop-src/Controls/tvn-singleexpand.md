@@ -1,5 +1,5 @@
 ---
-title: TVN_SINGLEEXPAND notification code
+title: TVN_SINGLEEXPAND notification code (Commctrl.h)
 description: Sent by a tree-view control with the TVS\_SINGLEEXPAND style when the user opens or closes a tree item using a single click of the mouse. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ae738237-172a-400b-b9fe-33832224e299
 keywords:

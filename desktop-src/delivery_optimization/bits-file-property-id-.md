@@ -1,5 +1,5 @@
 ---
-title: BITS_FILE_PROPERTY_ID enumeration
+title: BITS_FILE_PROPERTY_ID enumeration (Deliveryoptimization.h)
 description: The BITS_FILE_PROPERTY_ID enumeration specifies values that define ID values corresponding to BackgroundCopyFile properties.
 ms.assetid: 47EFD160-7CA8-48E6-A18E-38D85F7C6E47
 keywords:

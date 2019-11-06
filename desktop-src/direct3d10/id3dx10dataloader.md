@@ -1,7 +1,7 @@
 ---
 Description: Data loading object used by ID3DX10ThreadPump Interface for loading data asynchronously.
 ms.assetid: bda2414c-bbab-47ac-b23a-f58fb86e732d
-title: ID3DX10DataLoader interface
+title: ID3DX10DataLoader interface (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

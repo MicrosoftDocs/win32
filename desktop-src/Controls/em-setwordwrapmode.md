@@ -1,5 +1,5 @@
 ---
-title: EM_SETWORDWRAPMODE message
+title: EM_SETWORDWRAPMODE message (Richedit.h)
 description: Sets the word-wrapping and word-breaking options for a rich edit control.
 ms.assetid: 43703ac8-6ae5-470b-9156-e60330ef97c4
 keywords:

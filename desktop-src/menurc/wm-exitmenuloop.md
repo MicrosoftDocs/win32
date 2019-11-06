@@ -1,5 +1,5 @@
 ---
-title: WM_EXITMENULOOP message
+title: WM_EXITMENULOOP message (Winuser.h)
 description: Notifies an application's main window procedure that a menu modal loop has been exited.
 ms.assetid: b2a9d537-af7c-4c8a-932a-95e45eb8deb5
 keywords:

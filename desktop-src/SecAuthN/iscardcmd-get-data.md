@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the data field from the application protocol data unit (APDU), placing it in a byte buffer object.
 ms.assetid: fbffeeeb-56e5-4484-b294-8b6f59c919eb
-title: ISCardCmd::get_Data method
+title: ISCardCmd::get_Data method (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

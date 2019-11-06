@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the name of this ID3DXFileSaveData file data node.
 ms.assetid: ea697d23-42e7-4661-b605-3654f6a31055
-title: ID3DXFileSaveData::GetName method
+title: ID3DXFileSaveData::GetName method (D3DX9Xof.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

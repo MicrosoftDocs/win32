@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the Digital Living Network Alliance (DLNA) media sink uses the Multimedia Class Scheduler Service (MMCSS).
 ms.assetid: 4c27e2ec-624a-4b1f-bea9-3aaad1534c9b
-title: MF_MP2DLNA_USE_MMCSS attribute
+title: MF_MP2DLNA_USE_MMCSS attribute (Mfmp2dlna.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

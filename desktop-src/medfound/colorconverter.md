@@ -1,7 +1,7 @@
 ---
 Description: Converts a video stream between color formats.
 ms.assetid: 1c15dc2b-0e69-4d16-af02-8056a1eb2c5c
-title: Color Converter DSP
+title: Color Converter DSP (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: The QueryPreferredFormat method retrieves the object's preferred time format. This method implements the IMediaSeeking::QueryPreferredFormat method.
 ms.assetid: 3b73b7cf-1ba7-47c5-8442-5f138b74f335
-title: CSourceSeeking.QueryPreferredFormat method
+title: CSourceSeeking.QueryPreferredFormat method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

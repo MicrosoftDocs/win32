@@ -1,5 +1,5 @@
 ---
-title: glLightModelf function
+title: glLightModelf function (Gl.h)
 description: The glLightModelf function sets lighting model parameters.
 ms.assetid: 7002c157-514e-4102-93f7-21a0df97a5c2
 keywords:

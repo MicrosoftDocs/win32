@@ -1,7 +1,7 @@
 ---
 Description: These flags are used to control how D3DX10ComputeNormalMap generates normal maps. Any number of these flags may be OR'd together in any combination.
 ms.assetid: 307936c1-3137-41fe-8bea-7a82e6db0867
-title: D3DX10_NORMALMAP_FLAG enumeration
+title: D3DX10_NORMALMAP_FLAG enumeration (D3DX10Tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

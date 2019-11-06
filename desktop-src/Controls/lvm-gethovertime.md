@@ -1,5 +1,5 @@
 ---
-title: LVM_GETHOVERTIME message
+title: LVM_GETHOVERTIME message (Commctrl.h)
 description: Retrieves the amount of time that the mouse cursor must hover over an item before it is selected. You can send this message explicitly or use the ListView\_GetHoverTime macro.
 ms.assetid: e7646024-f868-459f-88be-b232b6b4bb2a
 keywords:

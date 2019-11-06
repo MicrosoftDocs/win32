@@ -1,5 +1,5 @@
 ---
-title: IVMTaskCollection Count property
+title: IVMTaskCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of tasks in this collection.
 ms.assetid: 5ff33bea-3f27-47ad-bcbc-6c40f2a8d78d
 keywords:

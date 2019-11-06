@@ -1,7 +1,7 @@
 ---
 Description: Indicates the number of samples that a Microsoft Media Foundation transform (MFT) requires to be allocated for progressive content.
 ms.assetid: 69F9EA59-41B4-4DE5-A77D-1D0E59BFBF3A
-title: MF_SA_REQUIRED_SAMPLE_COUNT_PROGRESSIVE attribute
+title: MF_SA_REQUIRED_SAMPLE_COUNT_PROGRESSIVE attribute (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

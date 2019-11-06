@@ -1,7 +1,7 @@
 ---
 Description: The GetProviderCardId method retrieves the identifier (GUID) of the primary service provider for the specified smart card.
 ms.assetid: 0008bb5a-872f-4e5d-9029-a863cd3eea00
-title: ISCardDatabase::GetProviderCardId method
+title: ISCardDatabase::GetProviderCardId method (Scardmgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

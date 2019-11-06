@@ -1,7 +1,7 @@
 ---
 Description: The put\_TransportProtocol method sets the transport protocol.
 ms.assetid: d2f74d4a-a65d-4829-ad17-7548ef06cfeb
-title: ITMedia::put_TransportProtocol method
+title: ITMedia::put_TransportProtocol method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

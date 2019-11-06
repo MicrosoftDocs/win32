@@ -1,5 +1,5 @@
 ---
-title: D2D_PS_ENTRY function
+title: D2D_PS_ENTRY function (D2d1effecthelpers.h)
 description: A macro that defines a pixel shader entry point with the given function name.
 ms.assetid: 4C87369A-EF51-46BA-9CA4-386630A7F866
 keywords:

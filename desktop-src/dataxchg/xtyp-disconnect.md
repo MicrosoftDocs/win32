@@ -1,5 +1,5 @@
 ---
-title: XTYP_DISCONNECT transaction
+title: XTYP_DISCONNECT transaction (Ddeml.h)
 description: An application's Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_DISCONNECT transaction when the application's partner in a conversation uses the DdeDisconnect function to terminate the conversation.
 ms.assetid: 22a9ec63-8a74-4829-ad02-d07dd0e8fa9b
 keywords:

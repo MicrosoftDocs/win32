@@ -1,7 +1,7 @@
 ---
 Description: Contains additional format data for a media type.
 ms.assetid: 020832c4-40a1-4d8b-ada0-7a04ce097bce
-title: MF_MT_USER_DATA attribute
+title: MF_MT_USER_DATA attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

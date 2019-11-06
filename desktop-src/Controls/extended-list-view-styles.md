@@ -1,5 +1,5 @@
 ---
-title: Extended List-View Styles
+title: Extended List-View Styles (CommCtrl.h)
 description: Use the LVM\_SETEXTENDEDLISTVIEWSTYLE message or one of the ListView\_SetExtendedListViewStyle or ListView\_SetExtendedListViewStyleEx macros to employ these extended list-view control styles.
 ms.assetid: f53daacc-aa17-4652-8fef-8bfb749fae09
 topic_type:

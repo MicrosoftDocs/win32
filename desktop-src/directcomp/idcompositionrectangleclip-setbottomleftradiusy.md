@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetBottomLeftRadiusY methods
+title: IDCompositionRectangleClip SetBottomLeftRadiusY methods (Dcomp.h)
 description: Changes or animates the value of the BottomLeftRadiusY property of this clip. The BottomLeftRadiusY property specifies the y radius of the ellipse that rounds the lower-left corner of the clip.
 ms.assetid: 299D718D-F313-4884-B89B-8CE5EBF78B74
 keywords:

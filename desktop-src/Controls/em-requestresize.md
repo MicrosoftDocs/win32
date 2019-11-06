@@ -1,5 +1,5 @@
 ---
-title: EM_REQUESTRESIZE message
+title: EM_REQUESTRESIZE message (Richedit.h)
 description: Forces a rich edit control to send an EN\_REQUESTRESIZE notification code to its parent window.
 ms.assetid: efc22771-9b9f-4a30-a906-f02095607c21
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: D3DX11_EFFECT_DESC structure
+title: D3DX11_EFFECT_DESC structure (D3dx11effect.h)
 description: Describes an effect.
 ms.assetid: 2efde608-26e0-4234-92d8-dc3ef2a29d89
 keywords:

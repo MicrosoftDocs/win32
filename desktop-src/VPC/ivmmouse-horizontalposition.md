@@ -1,5 +1,5 @@
 ---
-title: IVMMouse HorizontalPosition property
+title: IVMMouse HorizontalPosition property (VPCCOMInterfaces.h)
 description: Absolute x-coordinate of the mouse.
 ms.assetid: 8cf2a247-b6db-49f6-8e19-c862004f26cd
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM_ENABLESEARCHWEB message
+title: EM_ENABLESEARCHWEB message (CommCtrl.h)
 description: Enables or disables the "Search the web" feature and context menu entry.
 ms.assetid: 9393f03e-0719-458b-8122-616df738c417
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Restores the device state to how it was when ID3DXLine::Begin was called.
 ms.assetid: 06243c30-2d1d-4101-a373-46fd9a0d88d3
-title: ID3DXLine::End method
+title: ID3DXLine::End method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

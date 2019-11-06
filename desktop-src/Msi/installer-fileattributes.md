@@ -1,7 +1,7 @@
 ---
 Description: The FileAttributes property of the Installer object returns a number representing the combined file attributes for the designated path to a file or folder.
 ms.assetid: a09ac346-4e4d-440f-bfbe-ff8fb3f69823
-title: Installer.FileAttributes property
+title: Installer.FileAttributes property (Windows.storage.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

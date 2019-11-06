@@ -1,5 +1,5 @@
 ---
-title: Level constant
+title: Level constant (Adomd.h)
 description: Contains the value of the level that will be used in the activity s start and stop events.
 ms.assetid: DBBBE6C8-B952-493F-AE98-89D54536F1E5
 topic_type:

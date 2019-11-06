@@ -1,5 +1,5 @@
 ---
-title: TF_LBI_STYLE_ Constants
+title: TF_LBI_STYLE_ Constants (Ctfutb.h)
 description: The TF\_LBI\_STYLE\_\ constants are used in the dwStyle member of the TF\_LANGBARITEMINFO structure to specify the style of a language bar item.
 ms.assetid: 9180a666-774f-401b-bea3-68d5396fab30
 topic_type:

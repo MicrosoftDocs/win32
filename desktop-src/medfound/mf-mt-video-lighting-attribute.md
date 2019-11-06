@@ -1,7 +1,7 @@
 ---
 Description: Specifies the optimal lighting conditions for a video media type.
 ms.assetid: 697590e3-898e-4ac9-8390-7b0994b6e571
-title: MF_MT_VIDEO_LIGHTING attribute
+title: MF_MT_VIDEO_LIGHTING attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

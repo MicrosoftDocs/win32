@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement CreateLicenseRevocationChallenge method
+title: IWMDRMLicenseManagement CreateLicenseRevocationChallenge method (Wmdrmsdk.h)
 description: The CreateLicenseRevocationChallenge method generates a license revocation challenge.
 ms.assetid: 31fcf7a7-1af8-4474-abac-eddb1070975b
 keywords:

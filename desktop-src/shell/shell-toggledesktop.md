@@ -1,6 +1,6 @@
 ---
 Description: Displays or hides the desktop.
-title: Shell.ToggleDesktop method
+title: Shell.ToggleDesktop method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Enables or disables the specified event trace provider. The EnableTraceEx2 function supersedes this function.
 ms.assetid: 1c675bf7-f292-49b1-8b60-720499a497fd
-title: EnableTraceEx function
+title: EnableTraceEx function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

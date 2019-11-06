@@ -1,5 +1,5 @@
 ---
-title: glFogi function
+title: glFogi function (Gl.h)
 description: The glFogi function specifies fog parameters.
 ms.assetid: c2ffb41d-3d97-4b72-b16d-cfbffa1179d1
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LB_ADDSTRING message
+title: LB_ADDSTRING message (Winuser.h)
 description: Adds a string to a list box. If the list box does not have the LBS\_SORT style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted.
 ms.assetid: 924d9232-6e38-49c3-aa3e-19efd46b01ba
 keywords:

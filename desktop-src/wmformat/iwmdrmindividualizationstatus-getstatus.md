@@ -1,5 +1,5 @@
 ---
-title: IWMDRMIndividualizationStatus GetStatus method
+title: IWMDRMIndividualizationStatus GetStatus method (Wmdrmsdk.h)
 description: The GetStatus method retrieves detailed information about individualization progress.
 ms.assetid: 8985f3cc-006d-4fd5-b218-d3af3473b8e3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The SetSyncSource method sets a reference clock for the object. This method implements the IMediaFilter::SetSyncSource method.
 ms.assetid: ae296741-e3da-4376-a88a-8470f0a414ed
-title: CBaseMediaFilter.SetSyncSource method
+title: CBaseMediaFilter.SetSyncSource method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

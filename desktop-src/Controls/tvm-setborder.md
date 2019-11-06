@@ -1,5 +1,5 @@
 ---
-title: TVM_SETBORDER message
+title: TVM_SETBORDER message (Commctrl.h)
 description: Sets the size of the border for the items in a tree-view control. You can send the message explicitly or by using the TreeView\_SetBorder macro.
 ms.assetid: 468b46ae-2ab2-4753-a0af-7c644f75ce62
 keywords:

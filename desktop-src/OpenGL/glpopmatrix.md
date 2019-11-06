@@ -1,5 +1,5 @@
 ---
-title: glPopMatrix function
+title: glPopMatrix function (Gl.h)
 description: The glPushMatrix and glPopMatrix functions push and pop the current matrix stack.
 ms.assetid: 7b4fc26e-36c8-4252-aba7-2e8ec6b34f91
 keywords:

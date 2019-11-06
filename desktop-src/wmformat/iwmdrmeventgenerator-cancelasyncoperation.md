@@ -1,5 +1,5 @@
 ---
-title: IWMDRMEventGenerator CancelAsyncOperation method
+title: IWMDRMEventGenerator CancelAsyncOperation method (Wmdrmsdk.h)
 description: The CancelAsyncOperation method cancels an asynchronous operation.
 ms.assetid: 95c59e03-b6c8-40c2-b1dc-381cb6d8d558
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DevicePair Server property
+title: DevicePair Server property (Asptlb.h)
 description: Gets the server for the active basic device pair.
 ms.assetid: 25FD523F-36C7-4165-BBB2-6A3410D896EF
 keywords:

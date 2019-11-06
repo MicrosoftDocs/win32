@@ -1,5 +1,5 @@
 ---
-title: glGetError function
+title: glGetError function (Gl.h)
 description: The glGetError function returns error information.
 ms.assetid: 18f0368f-054f-4b84-8397-3f9ee4aa07fa
 keywords:

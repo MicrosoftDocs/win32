@@ -1,5 +1,5 @@
 ---
-title: IMAGELISTSTATEFLAGS
+title: IMAGELISTSTATEFLAGS (Commctrl.h)
 description: The following flags are passed to the IImageList Draw method in the fState member of IMAGELISTDRAWPARAMS.
 ms.assetid: a22b4acf-c290-44b2-9216-b006d0326236
 topic_type:

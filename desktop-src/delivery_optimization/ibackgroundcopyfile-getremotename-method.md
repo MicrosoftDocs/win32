@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile GetRemoteName method
+title: IBackgroundCopyFile GetRemoteName method (Deliveryoptimization.h)
 description: Retrieves the remote name of the file.
 ms.assetid: 518857E0-C16A-400B-8F3D-5264B3CB43FF
 keywords:

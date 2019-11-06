@@ -1,7 +1,7 @@
 ---
 Description: Specifies the dynamic range control mode that the audio decoder will use.
 ms.assetid: 0dbe0c40-39ac-4c1b-9da2-9b142b5bb0eb
-title: MFPKEY_WMADEC_DRCMODE Property
+title: MFPKEY_WMADEC_DRCMODE Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

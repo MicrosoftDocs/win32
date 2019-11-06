@@ -1,7 +1,7 @@
 ---
 Description: The Receive method is called when the object receives a media sample from the output pin. The derived class must implement this method.
 ms.assetid: ef45388b-b038-4838-b76b-dbbdc5388495
-title: CPullPin.Receive method
+title: CPullPin.Receive method (Pullpin.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

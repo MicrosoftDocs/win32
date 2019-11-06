@@ -1,7 +1,7 @@
 ---
 Description: The GetSmartRecompressFormat method retrieves the current compression format for smart recompression.
 ms.assetid: 2d420fe9-691d-4cc9-a8de-363a4be1b364
-title: IAMTimelineGroup::GetSmartRecompressFormat method
+title: IAMTimelineGroup::GetSmartRecompressFormat method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

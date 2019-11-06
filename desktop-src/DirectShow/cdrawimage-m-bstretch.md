@@ -1,7 +1,7 @@
 ---
 Description: The m\_bStretch member variable indicates whether the video image must be stretched to fit the destination window. The value is FALSE if the source rectangle is the same size as the destination rectangle, or TRUE otherwise.
 ms.assetid: f5955f3d-9be1-4e3e-be34-f9de82cd20cc
-title: CDrawImage::m_bStretch member
+title: CDrawImage::m_bStretch member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

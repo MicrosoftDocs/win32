@@ -1,5 +1,5 @@
 ---
-title: INapServerInfo GetNapServerInfo method
+title: INapServerInfo GetNapServerInfo method (NapServerManagement.h)
 description: Retrieves information about the NAP server.
 ms.assetid: 02f7ce40-3443-4263-86b2-4276cbc7b694
 keywords:

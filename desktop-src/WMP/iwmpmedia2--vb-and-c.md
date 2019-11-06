@@ -1,5 +1,5 @@
 ---
-title: IWMPMedia2 (VB and C ) interface
+title: IWMPMedia2 (VB and C ) interface (Wmp.h)
 description: Provides access to an additional media item property.
 ms.assetid: 7d9f8304-ae26-4175-b9d4-9f272861ef87
 keywords:

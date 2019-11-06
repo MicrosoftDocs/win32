@@ -1,5 +1,5 @@
 ---
-title: WSMan.CommandLine property
+title: WSMan.CommandLine property (WSManDisp.h)
 description: Gets the command line of the process that loads the automation component.
 ms.assetid: a4fdad32-9059-452d-9896-f18b57c2a8f9
 ms.tgt_platform: multiple

@@ -1,5 +1,5 @@
 ---
-title: ICM_CONFIGURE message
+title: ICM_CONFIGURE message (Vfw.h)
 description: The ICM\_CONFIGURE message notifies a video compression driver to display its configuration dialog box or queries a video compression driver to determine if it has a configuration dialog box.
 ms.assetid: 9760788e-fa66-44d7-bda6-aa9536143774
 keywords:

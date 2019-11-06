@@ -1,5 +1,5 @@
 ---
-title: WM_PASTE message
+title: WM_PASTE message (Winuser.h)
 description: An application sends a WM\_PASTE message to an edit control or combo box to copy the current content of the clipboard to the edit control at the current caret position. Data is inserted only if the clipboard contains data in CF\_TEXT format.
 ms.assetid: 6830b511-986f-46ef-a977-7adedffe86ea
 keywords:

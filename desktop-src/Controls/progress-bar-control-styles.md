@@ -1,5 +1,5 @@
 ---
-title: Progress Bar Control Styles
+title: Progress Bar Control Styles (CommCtrl.h)
 description: The following control styles are supported by Progress Bar controls
 ms.assetid: bd89aa74-c15e-4745-8b2b-7cbd8b28c1c8
 topic_type:

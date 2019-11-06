@@ -1,5 +1,5 @@
 ---
-title: NM_RETURN (tree view) notification code
+title: NM_RETURN (tree view) notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window that the control has the input focus and that the user has pressed the key. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e4a048ec-4643-458a-bf75-f5b08163d6c6
 keywords:

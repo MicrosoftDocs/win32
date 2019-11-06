@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine SavedStateFilePath property
+title: IVMVirtualMachine SavedStateFilePath property (VPCCOMInterfaces.h)
 description: Retrieves the full path to the saved state file.
 ms.assetid: 01bd5491-4d08-4558-ac33-01b096f057a2
 keywords:

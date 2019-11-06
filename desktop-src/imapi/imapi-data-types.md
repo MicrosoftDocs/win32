@@ -1,5 +1,5 @@
 ---
-title: IMAPI Data Types
+title: IMAPI Data Types (Imapi2.h)
 description: Specifications for optical media and associated devices define range values for items such as the DVD structure description, disc information description, and feature page size.
 ms.assetid: 8797a8d0-5ce5-4b16-9d41-c22fa0d67dcf
 keywords:

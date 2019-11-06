@@ -1,5 +1,5 @@
 ---
-title: LB_SELECTSTRING message
+title: LB_SELECTSTRING message (Winuser.h)
 description: Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected.
 ms.assetid: fd443ade-665d-439a-8951-3d9fed50695b
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The MXDC\_S0\_PAGE\_ENUMS enumeration is used to specify types of resources that can be associated with pages in XPS documents and that can be processed, or passed unprocessed, by Microsoft XPS Document Converter (MXDC) to its output.
 ms.assetid: e111d92e-5102-4b39-b311-f9ff1d1a96f1
-title: MXDC_S0_PAGE_ENUMS enumeration
+title: MXDC_S0_PAGE_ENUMS enumeration (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

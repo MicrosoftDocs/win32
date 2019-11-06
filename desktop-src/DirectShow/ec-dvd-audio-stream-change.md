@@ -1,7 +1,7 @@
 ---
 Description: Signals that the current audio stream number changed for the DVD main title.
 ms.assetid: ab626c6b-765a-4b2e-be96-f45260d1a078
-title: EC_DVD_AUDIO_STREAM_CHANGE
+title: EC_DVD_AUDIO_STREAM_CHANGE (Dvdevcode.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

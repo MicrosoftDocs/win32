@@ -1,7 +1,7 @@
 ---
 Description: The HelpLocation property returns the value from the HelpLocation column of the ModuleConfiguration table.
 ms.assetid: fe011188-c831-4fbd-b2dd-1ad4c08451ed
-title: ConfigurableItem.HelpLocation property
+title: ConfigurableItem.HelpLocation property (Mergemod.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

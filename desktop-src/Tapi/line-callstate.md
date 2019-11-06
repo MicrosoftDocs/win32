@@ -1,7 +1,7 @@
 ---
 Description: The TAPI LINE\_CALLSTATE message is sent when the status of the specified call has changed.
 ms.assetid: 7b24e3c3-bc69-488b-a698-cf17875bc3c5
-title: LINE_CALLSTATE message
+title: LINE_CALLSTATE message (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

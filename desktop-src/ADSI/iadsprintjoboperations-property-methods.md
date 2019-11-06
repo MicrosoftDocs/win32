@@ -1,5 +1,5 @@
 ---
-title: IADsPrintJobOperations Property Methods
+title: IADsPrintJobOperations Property Methods (Iads.h)
 description: The property methods of the IADsPrintJobOperations interface read and write the properties listed in the following table. For more information about property methods, see Interface Property Methods.
 ms.assetid: d1710bd4-e600-4d92-892a-16b4316851d4
 ms.tgt_platform: multiple

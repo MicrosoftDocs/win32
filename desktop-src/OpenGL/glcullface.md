@@ -1,5 +1,5 @@
 ---
-title: glCullFace function
+title: glCullFace function (Gl.h)
 description: The glCullFace function specifies whether front-facing or back-facing facets can be culled.
 ms.assetid: 53bf05b5-a68b-4d96-b4e7-2878a0a86a13
 keywords:

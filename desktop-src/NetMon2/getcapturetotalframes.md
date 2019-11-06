@@ -1,7 +1,7 @@
 ---
 Description: The GetCaptureTotalFrames function returns the total number of frames in the capture.
 ms.assetid: a2b7902c-b80f-4a0a-b12a-2a139df30fca
-title: GetCaptureTotalFrames function
+title: GetCaptureTotalFrames function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The following tablea describe the media types used for line 21 data.
 ms.assetid: ac851882-df33-4905-a507-12044c7d576d
-title: Line 21 Media Types
+title: Line 21 Media Types (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

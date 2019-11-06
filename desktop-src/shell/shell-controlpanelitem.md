@@ -1,6 +1,6 @@
 ---
 Description: Runs the specified Control Panel (\*.cpl) application.
-title: Shell.ControlPanelItem method
+title: Shell.ControlPanelItem method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: MCM_GETMINREQRECT message
+title: MCM_GETMINREQRECT message (Commctrl.h)
 description: Retrieves the minimum size required to display a full month in a month calendar control. You can send this message explicitly or by using the MonthCal\_GetMinReqRect macro.
 ms.assetid: f0378338-4809-48e9-9387-ed8b79356f95
 keywords:

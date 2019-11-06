@@ -1,7 +1,7 @@
 ---
 Description: Specifies the inheritance relationship for a service.
 ms.assetid: e7f5314a-75e8-4f36-8e18-d614eda7a097
-title: WPD_SERVICE_INHERITANCE_TYPES enumeration
+title: WPD_SERVICE_INHERITANCE_TYPES enumeration (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

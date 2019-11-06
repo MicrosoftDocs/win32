@@ -1,5 +1,5 @@
 ---
-title: EM_SETIMESTATUS message
+title: EM_SETIMESTATUS message (Winuser.h)
 description: Sets the status flags that determine how an edit control interacts with the Input Method Editor (IME).
 ms.assetid: 3de2e8b5-bdd8-4b25-9427-38a11b77a17a
 keywords:

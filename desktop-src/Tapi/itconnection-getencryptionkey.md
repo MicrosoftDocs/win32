@@ -1,7 +1,7 @@
 ---
 Description: The GetEncryptionKey method gets the encryption key.
 ms.assetid: a80d8660-d13e-483f-b1d7-ee2043ef5cab
-title: ITConnection::GetEncryptionKey method
+title: ITConnection::GetEncryptionKey method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

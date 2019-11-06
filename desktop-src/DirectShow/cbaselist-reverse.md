@@ -1,7 +1,7 @@
 ---
 Description: The Reverse method reverses the order of the list.
 ms.assetid: f6f72f06-d219-4e18-a4fa-a816f9b50462
-title: CBaseList.Reverse method
+title: CBaseList.Reverse method (Wxlist.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

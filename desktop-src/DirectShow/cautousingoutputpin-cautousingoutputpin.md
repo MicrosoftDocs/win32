@@ -1,7 +1,7 @@
 ---
 Description: Constructor method. The constructor obtains access to the specified pin.
 ms.assetid: 518d41aa-8361-4769-aa9b-14676b676d6f
-title: CAutoUsingOutputPin.CAutoUsingOutputPin constructor
+title: CAutoUsingOutputPin.CAutoUsingOutputPin constructor (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

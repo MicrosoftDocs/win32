@@ -1,7 +1,7 @@
 ---
 Description: Sets an array of floating-point numbers.
 ms.assetid: 7a622dd5-47ed-4166-a6df-f484b03e0b5a
-title: ID3DXConstantTable::SetFloatArray method
+title: ID3DXConstantTable::SetFloatArray method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

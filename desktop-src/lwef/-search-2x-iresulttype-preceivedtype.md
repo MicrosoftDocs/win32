@@ -1,5 +1,5 @@
 ---
-title: IResultType PreceivedType property
+title: IResultType PreceivedType property (WdsSharedIDL.h)
 description: This property contains the string used to identify the type in the index.
 ms.assetid: 26d5f14c-162a-4ded-ac72-875561b8c977
 keywords:

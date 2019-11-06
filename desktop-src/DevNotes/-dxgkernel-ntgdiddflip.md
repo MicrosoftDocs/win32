@@ -1,7 +1,7 @@
 ---
 Description: Causes the surface memory associated with the target and current surfaces to be interchanged.
 ms.assetid: 2c557393-079e-48e5-b3a6-1157265d88e3
-title: NtGdiDdFlip function
+title: NtGdiDdFlip function (Ntgdi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: TCN_KEYDOWN notification code
+title: TCN_KEYDOWN notification code (Commctrl.h)
 description: Notifies a tab control's parent window that a key has been pressed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 884e79cd-5732-44cd-8c7a-38bb9349ec7d
 keywords:

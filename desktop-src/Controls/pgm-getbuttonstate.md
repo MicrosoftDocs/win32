@@ -1,5 +1,5 @@
 ---
-title: PGM_GETBUTTONSTATE message
+title: PGM_GETBUTTONSTATE message (Commctrl.h)
 description: Retrieves the state of the specified button in a pager control. You can send this message explicitly or use the Pager\_GetButtonState macro.
 ms.assetid: 58f99b67-fef7-4695-86e2-0579a2f6de2f
 keywords:

@@ -2,7 +2,7 @@
 Description: The IsClass property of the SWbemObjectPath object is a Boolean value that indicates if this path represents a class. This property is read-only.
 ms.assetid: 55d50785-6cdb-4e42-8b59-121f339494df
 ms.tgt_platform: multiple
-title: SWbemObjectPath.IsClass property
+title: SWbemObjectPath.IsClass property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The ForceRefresh method is obsolete.
 ms.assetid: 9895f72b-abf8-46a8-aa75-2a30901a4c41
-title: CPosPassThru.ForceRefresh method
+title: CPosPassThru.ForceRefresh method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

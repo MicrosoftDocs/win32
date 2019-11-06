@@ -1,7 +1,7 @@
 ---
 Description: The GetRequestParam method retrieves the latest request.
 ms.assetid: f5bf4935-29ea-45b9-a57e-9fdcd9cde20a
-title: CAMThread.GetRequestParam method
+title: CAMThread.GetRequestParam method (Wxutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

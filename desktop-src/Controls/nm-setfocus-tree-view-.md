@@ -1,5 +1,5 @@
 ---
-title: NM_SETFOCUS (tree view) notification code
+title: NM_SETFOCUS (tree view) notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window that the control has received the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 4bdd6cd2-afd3-4c0b-914b-8fff55e474a9
 keywords:

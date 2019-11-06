@@ -1,7 +1,7 @@
 ---
 Description: Marks the current frame as a LTR frame.
 ms.assetid: D70A54D6-DA9B-40E5-B130-0AA9C5363DF0
-title: CODECAPI_AVEncVideoMarkLTRFrame property
+title: CODECAPI_AVEncVideoMarkLTRFrame property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

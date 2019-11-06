@@ -1,5 +1,5 @@
 ---
-title: LB_GETSELITEMS message
+title: LB_GETSELITEMS message (Winuser.h)
 description: Fills a buffer with an array of integers that specify the item numbers of selected items in a multiple-selection list box.
 ms.assetid: 95dd72ef-76a5-4188-b2c8-d4c5eb2f34e3
 keywords:

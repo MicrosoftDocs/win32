@@ -1,7 +1,7 @@
 ---
 Description: Texture save options.
 ms.assetid: c9ca47aa-7273-48b3-ba13-d603104ec1fd
-title: D3DX10_SAVE_TEXTURE_FLAG enumeration
+title: D3DX10_SAVE_TEXTURE_FLAG enumeration (D3DX10Tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

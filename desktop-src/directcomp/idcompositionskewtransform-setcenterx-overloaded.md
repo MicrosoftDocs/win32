@@ -1,5 +1,5 @@
 ---
-title: IDCompositionSkewTransform SetCenterX methods
+title: IDCompositionSkewTransform SetCenterX methods (Dcomp.h)
 description: Changes or animates the value of the CenterX property of a 2D skew transform.
 ms.assetid: 934E3D60-45F4-4645-8E77-22F7E4AEAD60
 keywords:

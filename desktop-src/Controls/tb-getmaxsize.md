@@ -1,5 +1,5 @@
 ---
-title: TB_GETMAXSIZE message
+title: TB_GETMAXSIZE message (Commctrl.h)
 description: Retrieves the total size of all of the visible buttons and separators in the toolbar.
 ms.assetid: 560e6ce2-00ef-46c3-b1d8-fbe0ac79c888
 keywords:

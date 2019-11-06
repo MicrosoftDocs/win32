@@ -1,5 +1,5 @@
 ---
-title: glTexImage2D function
+title: glTexImage2D function (Gl.h)
 description: The glTexImage2D function specifies a two-dimensional texture image.
 ms.assetid: e8b9c692-5239-47de-86eb-80c247c60e1d
 keywords:

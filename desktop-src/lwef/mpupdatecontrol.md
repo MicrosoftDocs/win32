@@ -1,5 +1,5 @@
 ---
-title: MpUpdateControl function
+title: MpUpdateControl function (MpClient.h)
 description: Allows the control of a signature update operation that was asynchronously initiated via MpUpdateStart.
 ms.assetid: 2780E472-6E8D-4839-88EE-46E3448C6BF5
 keywords:

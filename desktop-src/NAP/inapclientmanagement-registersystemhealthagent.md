@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement RegisterSystemHealthAgent method
+title: INapClientManagement RegisterSystemHealthAgent method (NapManagement.h)
 description: Registers an SHA with the NAP system.
 ms.assetid: 37acfd11-8282-42ba-ae02-9a45c4509b8b
 keywords:

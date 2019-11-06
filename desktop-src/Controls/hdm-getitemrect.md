@@ -1,5 +1,5 @@
 ---
-title: HDM_GETITEMRECT message
+title: HDM_GETITEMRECT message (Commctrl.h)
 description: Gets the bounding rectangle for a given item in a header control. You can send this message explicitly or use the Header\_GetItemRect macro.
 ms.assetid: b483ef97-3700-425b-8160-81c673850f68
 keywords:

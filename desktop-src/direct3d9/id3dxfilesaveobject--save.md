@@ -1,7 +1,7 @@
 ---
 Description: Saves a data object and its children to a .x file on disk.
 ms.assetid: a48cd1b2-d1e7-446b-8482-485ccdd59353
-title: ID3DXFileSaveObject::Save method
+title: ID3DXFileSaveObject::Save method (D3DX9Xof.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

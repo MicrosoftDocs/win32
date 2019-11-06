@@ -1,7 +1,7 @@
 ---
 Description: Remotable version of the IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS method.
 ms.assetid: 1ea258c9-1f7f-4324-a17a-d044a4864ea4
-title: RemoteBeginRegisterTopologyWorkQueuesWithMMCSS
+title: RemoteBeginRegisterTopologyWorkQueuesWithMMCSS (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

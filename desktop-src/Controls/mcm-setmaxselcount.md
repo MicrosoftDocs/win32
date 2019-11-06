@@ -1,5 +1,5 @@
 ---
-title: MCM_SETMAXSELCOUNT message
+title: MCM_SETMAXSELCOUNT message (Commctrl.h)
 description: Sets the maximum number of days that can be selected in a month calendar control. You can send this message explicitly or by using the MonthCal\_SetMaxSelCount macro.
 ms.assetid: 190453ab-e53b-4db7-82c1-f9d50188ad39
 keywords:

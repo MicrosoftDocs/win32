@@ -1,7 +1,7 @@
 ---
 Description: Skips over the next specified number of items in the enumeration sequence.
 ms.assetid: 4c02aac8-0496-4ad9-9863-2074b2c71902
-title: IEnumPStoreTypes::Skip method
+title: IEnumPStoreTypes::Skip method (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: Portability Macros
+title: Portability Macros (Rpc.h)
 description: The RPC tools achieve model, calling, and naming-convention independence by associating data types and function-return types in the generated stub files and header files with definitions that are specific to each platform.
 ms.assetid: 94de1138-5a84-41d8-bf88-97f0ac630f5f
 keywords:

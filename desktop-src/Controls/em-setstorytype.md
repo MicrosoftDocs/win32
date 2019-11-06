@@ -1,5 +1,5 @@
 ---
-title: EM_SETSTORYTYPE message
+title: EM_SETSTORYTYPE message (Richedit.h)
 description: Sets the story type.
 ms.assetid: 8FA335E1-EE0A-4F31-B800-C79F617A6019
 keywords:

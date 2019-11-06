@@ -1,7 +1,7 @@
 ---
 Description: This event is not supported.
 ms.assetid: 1a1d4db3-f80a-4dd2-9033-104627d103a5
-title: EC_NEW_PIN
+title: EC_NEW_PIN (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

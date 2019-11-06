@@ -1,5 +1,5 @@
 ---
-title: ICM_COMPRESS_BEGIN message
+title: ICM_COMPRESS_BEGIN message (Vfw.h)
 description: The ICM\_COMPRESS\_BEGIN message notifies a video compression driver to prepare to compress data. You can send this message explicitly or by using the ICCompressBegin macro.
 ms.assetid: dd1d3a66-c625-4f55-b65a-8545c1c16301
 keywords:

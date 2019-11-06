@@ -1,5 +1,5 @@
 ---
-title: gluTessBeginContour function
+title: gluTessBeginContour function (Glu.h)
 description: The gluTessBeginContour and gluTessEndContour functions delimit a contour description.
 ms.assetid: 4008ce9c-86e7-4b24-9bda-5915f469596a
 keywords:

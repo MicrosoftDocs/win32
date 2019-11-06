@@ -1,5 +1,5 @@
 ---
-title: gluNewTess function
+title: gluNewTess function (Glu.h)
 description: The gluNewTess function creates a tessellation object.
 ms.assetid: dfc9fce8-ecab-493b-85ee-6d7487814186
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo GetVersion method
+title: INapComponentInfo GetVersion method (NapCommon.h)
 description: Is used by the NAP System to get the version of a health client.
 ms.assetid: aabd13d9-d2ad-4554-a9f6-7845e6775ccd
 keywords:

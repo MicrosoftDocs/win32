@@ -1,7 +1,7 @@
 ---
 Description: The extents of the BoundingBox.
 ms.assetid: 83e62f07-5bb5-4129-b88f-998a6f47c810
-title: BoundingBox.Extents
+title: BoundingBox.Extents (DirectXCollision.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: The GetDestinationPosition method retrieves the destination rectangle in one atomic operation.
 ms.assetid: 780cbcb5-1db5-4087-8c51-350183cfca31
-title: CBaseControlVideo.GetDestinationPosition method
+title: CBaseControlVideo.GetDestinationPosition method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

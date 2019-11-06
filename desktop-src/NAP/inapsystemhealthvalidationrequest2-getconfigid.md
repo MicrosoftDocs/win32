@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest2 GetConfigID method
+title: INapSystemHealthValidationRequest2 GetConfigID method (NapSystemHealthValidator.h)
 description: Used by the System Health Validators (SHVs) to retrieve the configuration ID in a validation request.
 ms.assetid: 6d5564e4-8386-444b-a859-f0c855e4ee30
 keywords:

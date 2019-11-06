@@ -1,7 +1,7 @@
 ---
 Description: Determines whether Input Panel is ready to have the auto complete list shown.
 ms.assetid: 1e0d4bc6-e6a3-4123-a381-00a41ed9c848
-title: ITipAutocompleteClient::RequestShowUI method
+title: ITipAutocompleteClient::RequestShowUI method (TipAutoComplete.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

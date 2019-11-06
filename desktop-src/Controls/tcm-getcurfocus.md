@@ -1,5 +1,5 @@
 ---
-title: TCM_GETCURFOCUS message
+title: TCM_GETCURFOCUS message (Commctrl.h)
 description: Returns the index of the item that has the focus in a tab control. You can send this message explicitly or by using the TabCtrl\_GetCurFocus macro.
 ms.assetid: ae6ee159-c769-41d6-b0bb-2a9ade4c0e71
 keywords:

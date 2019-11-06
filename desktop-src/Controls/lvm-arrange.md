@@ -1,5 +1,5 @@
 ---
-title: LVM_ARRANGE message
+title: LVM_ARRANGE message (Commctrl.h)
 description: Arranges items in icon view. You can send this message explicitly or by using the ListView\_Arrange macro.
 ms.assetid: f7dbcdd2-3cc9-4bae-827e-8bac3b49486c
 keywords:

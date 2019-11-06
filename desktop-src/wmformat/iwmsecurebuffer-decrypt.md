@@ -1,5 +1,5 @@
 ---
-title: IWMSecureBuffer Decrypt method
+title: IWMSecureBuffer Decrypt method (Wmdrmsdk.h)
 description: The Decrypt method decrypts a data pointer that was encrypted by calling the Encrypt method.
 ms.assetid: 15cedb56-686a-4a3c-81a5-b1797cfe0838
 keywords:

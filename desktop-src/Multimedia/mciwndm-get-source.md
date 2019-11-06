@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GET_SOURCE message
+title: MCIWNDM_GET_SOURCE message (Vfw.h)
 description: The MCIWNDM\_GET\_SOURCE message retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndGetSource macro.
 ms.assetid: d5f25926-5a3d-412e-8248-fbf307583757
 keywords:

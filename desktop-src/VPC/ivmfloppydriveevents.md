@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDriveEvents interface
+title: IVMFloppyDriveEvents interface (VPCCOMInterfaces.h)
 description: Defines the outgoing event interface for the IVMFloppyDrive interface. The client implements these methods to receive events sent from IVMFloppyDrive.
 ms.assetid: fbb66554-f042-4891-94be-1a12b8c179c2
 keywords:

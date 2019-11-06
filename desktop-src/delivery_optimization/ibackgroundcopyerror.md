@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyError interface
+title: IBackgroundCopyError interface (Deliveryoptimization.h)
 description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.
 ms.assetid: 7DCB63CF-4180-4DC3-9093-07C4F8CF7A8E
 keywords:

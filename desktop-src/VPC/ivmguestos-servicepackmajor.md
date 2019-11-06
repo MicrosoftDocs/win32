@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS ServicePackMajor property
+title: IVMGuestOS ServicePackMajor property (VPCCOMInterfaces.h)
 description: The major version of the service pack of the guest operating system running in the virtual machine.
 ms.assetid: 87dbc4cc-8a8d-468f-9a29-e5047029b032
 keywords:

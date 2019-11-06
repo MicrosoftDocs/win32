@@ -1,5 +1,5 @@
 ---
-title: RPC_EP_INQ_HANDLE
+title: RPC_EP_INQ_HANDLE (Rpcasync.h)
 description: The RPC\_EP\_INQ\_HANDLE data type declares a handle for an inquiry context. RPC applications use it to view server address information stored in the endpoint map.
 ms.assetid: e18ce800-0110-4450-9a1b-a3f777d00f2d
 keywords:

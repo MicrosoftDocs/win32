@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard TypeAsciiText method
+title: IVMKeyboard TypeAsciiText method (VPCCOMInterfaces.h)
 description: Simulates a series of ASCII keys being typed into the guest.
 ms.assetid: 6c7fbfed-d495-4f11-a7d1-dc08bd075870
 keywords:

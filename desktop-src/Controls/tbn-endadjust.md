@@ -1,5 +1,5 @@
 ---
-title: TBN_ENDADJUST notification code
+title: TBN_ENDADJUST notification code (Commctrl.h)
 description: Notifies a toolbar's parent window that the user has stopped customizing a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 9a7496ec-787d-4571-8eca-50d60383519b
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MrmDumpType enumeration
+title: MrmDumpType enumeration (MrmResourceIndexer.h)
 description: Defines constants that specify the type of PRI file dump to produce. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: 71E49F35-4B79-478A-A26A-C0D9A9FC2D11
 keywords:

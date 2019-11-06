@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetIsolationInfo method
+title: INapEnforcementClientConnection SetIsolationInfo method (NapEnforcementClient.h)
 description: Is used by the NapAgent to set the isolation information of the client.
 ms.assetid: e92d8762-4ae9-40e5-a18e-7da757aa6f9e
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11ThreadPump interface
+title: ID3DX11ThreadPump interface (D3DX11core.h)
 description: A thread pump executes tasks asynchronously.
 ms.assetid: 1a99f728-149d-4800-a6e4-e3a00cf8cf4f
 keywords:

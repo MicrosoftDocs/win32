@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetDesc method
+title: ID3DX11EffectVariable GetDesc method (D3dx11effect.h)
 description: Get a description.
 ms.assetid: bf6339d7-8eb0-44da-893e-c805309a3cd3
 keywords:

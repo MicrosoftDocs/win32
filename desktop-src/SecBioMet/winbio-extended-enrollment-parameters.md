@@ -1,5 +1,5 @@
 ---
-title: WINBIO_EXTENDED_ENROLLMENT_PARAMETERS structure
+title: WINBIO_EXTENDED_ENROLLMENT_PARAMETERS structure (Winbio\_adapter.h)
 description: Contains additional information that an engine adapter needs to create an enrollment template.
 ms.assetid: E8007316-0A9D-4F35-A266-273B2406D545
 keywords:

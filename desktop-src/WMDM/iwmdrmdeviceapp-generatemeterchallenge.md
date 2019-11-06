@@ -1,5 +1,5 @@
 ---
-title: IWMDRMDeviceApp GenerateMeterChallenge method
+title: IWMDRMDeviceApp GenerateMeterChallenge method (WMDRMDeviceApp.h)
 description: The GenerateMeterChallenge method acquires metering data from a device.
 ms.assetid: 2457cab7-bd45-49a7-ba69-74ae022207ce
 keywords:

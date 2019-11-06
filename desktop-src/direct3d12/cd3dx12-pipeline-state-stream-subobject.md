@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT structure
+title: CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT structure (D3dx12.h)
 description: A templated helper structure used to encapsulate subobject type and subobject data pairs as a single object suitable for a stream description.
 ms.assetid: 4C59D483-6ED8-49BD-B91B-2A912AFE2409
 keywords:

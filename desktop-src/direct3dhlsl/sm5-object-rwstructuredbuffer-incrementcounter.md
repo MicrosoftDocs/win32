@@ -1,5 +1,5 @@
 ---
-title: RWStructuredBuffer::IncrementCounter function
+title: RWStructuredBuffer::IncrementCounter function (Httpserv.h)
 description: Increments the object's hidden counter.
 ms.assetid: 66385d4f-6db8-49ae-a73a-49089695f5ee
 keywords:

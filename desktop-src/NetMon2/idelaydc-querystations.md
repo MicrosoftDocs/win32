@@ -1,7 +1,7 @@
 ---
 Description: The QueryStations method provides a list of all computers that are currently using Network Monitor to capture data.
 ms.assetid: 8e578f50-685e-4799-90ca-5da8810ec2a3
-title: IDelaydC::QueryStations method
+title: IDelaydC::QueryStations method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

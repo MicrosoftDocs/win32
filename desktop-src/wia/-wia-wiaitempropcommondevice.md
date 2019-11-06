@@ -1,7 +1,7 @@
 ---
 Description: In addition to device information properties, Windows Image Acquisition (WIA) devices have property values stored in the registry that applications read and write.
 ms.assetid: 9948318b-7171-45fa-b46f-48f9357fdb32
-title: Common Device Property Constants
+title: Common Device Property Constants (Wiadef.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

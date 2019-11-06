@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnRequestShutdown method
+title: IVMVirtualMachineEvents OnRequestShutdown method (VPCCOMInterfaces.h)
 description: Receives notification that a shutdown request has been made.
 ms.assetid: e04131fd-5ca7-4392-9725-ba62b905324a
 keywords:

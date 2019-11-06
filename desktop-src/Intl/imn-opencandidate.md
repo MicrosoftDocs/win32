@@ -1,7 +1,7 @@
 ---
 Description: Notifies an application when an IME is about to open the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 439ff125-2731-4eb1-8287-4ca8ace7d8ec
-title: IMN_OPENCANDIDATE event
+title: IMN_OPENCANDIDATE event (Imm.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

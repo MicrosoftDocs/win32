@@ -1,5 +1,5 @@
 ---
-title: SoHAttributeValue union
+title: SoHAttributeValue union (NapProtocol.h)
 description: Defines the contents of the type member in a SoHAttribute structure.
 ms.assetid: 53b30455-33a5-4cf5-8d4e-f0fa8e4e1a12
 keywords:

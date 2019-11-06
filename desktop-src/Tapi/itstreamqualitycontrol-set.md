@@ -1,7 +1,7 @@
 ---
 Description: The Set method sets the value of a given stream quality property.
 ms.assetid: 57029d1c-ac63-45c0-9d07-43c7b46a27b1
-title: ITStreamQualityControl::Set method
+title: ITStreamQualityControl::Set method (Ipmsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

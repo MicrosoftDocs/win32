@@ -1,7 +1,7 @@
 ---
 Description: Applies to Windows Vista and later.
 ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
-title: AM_RATE_ReverseMaxFullDataRate Property
+title: AM_RATE_ReverseMaxFullDataRate Property (Dvdmedia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

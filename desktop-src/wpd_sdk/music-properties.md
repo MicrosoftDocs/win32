@@ -1,7 +1,7 @@
 ---
 Description: Windows Portable Devices supports the following music properties.
 ms.assetid: a1688c95-af5a-4061-80d4-61f08787d49e
-title: Music Properties
+title: Music Properties (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

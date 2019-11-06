@@ -1,5 +1,5 @@
 ---
-title: TBM_GETTHUMBRECT message
+title: TBM_GETTHUMBRECT message (Commctrl.h)
 description: Retrieves the size and position of the bounding rectangle for the slider in a trackbar.
 ms.assetid: f53fd7af-36f8-4490-aa95-f1fa20f34efb
 keywords:

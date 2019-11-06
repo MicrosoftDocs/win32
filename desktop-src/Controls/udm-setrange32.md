@@ -1,5 +1,5 @@
 ---
-title: UDM_SETRANGE32 message
+title: UDM_SETRANGE32 message (Commctrl.h)
 description: Sets the 32-bit range of an up-down control.
 ms.assetid: 6167db8f-a823-44d3-a515-888b6d1a39c2
 keywords:

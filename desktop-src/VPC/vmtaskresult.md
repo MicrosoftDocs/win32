@@ -1,5 +1,5 @@
 ---
-title: VMTaskResult enumeration
+title: VMTaskResult enumeration (VPCCOMInterfaces.h)
 description: Specifies the result of a task.
 ms.assetid: 34aa193a-466d-492e-8648-467c286a8c11
 keywords:

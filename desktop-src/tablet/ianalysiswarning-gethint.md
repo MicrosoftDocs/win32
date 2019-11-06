@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the analysis hint that caused this warning.
 ms.assetid: 715aa4b2-6c45-414b-96f2-44c73a073213
-title: IAnalysisWarning::GetHint method
+title: IAnalysisWarning::GetHint method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

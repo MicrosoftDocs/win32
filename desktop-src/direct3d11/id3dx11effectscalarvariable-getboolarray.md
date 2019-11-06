@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable GetBoolArray method
+title: ID3DX11EffectScalarVariable GetBoolArray method (D3dx11effect.h)
 description: Get an array of boolean variables.
 ms.assetid: 0335417a-a0aa-4157-881d-7828ffb3f47a
 keywords:

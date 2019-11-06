@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDriveCollection Item property
+title: IVMDVDDriveCollection Item property (VPCCOMInterfaces.h)
 description: Retrieves the CD or DVD drive object that corresponds to the specified index.
 ms.assetid: ecc94eea-9ddc-46c8-87e2-e67aca83eecc
 keywords:

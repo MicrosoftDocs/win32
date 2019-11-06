@@ -1,5 +1,5 @@
 ---
-title: gluBeginPolygon function
+title: gluBeginPolygon function (Glu.h)
 description: The gluBeginPolygon and gluEndPolygon functions delimit a polygon description.
 ms.assetid: e4da731c-2082-4dbc-ae3a-8d6b30d50253
 keywords:

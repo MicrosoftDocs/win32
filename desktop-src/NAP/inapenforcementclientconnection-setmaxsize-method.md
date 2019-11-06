@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetMaxSize method
+title: INapEnforcementClientConnection SetMaxSize method (NapEnforcementClient.h)
 description: Sets the maximum size of the SoH packet for this client.
 ms.assetid: 30d3747d-bcf8-41b3-b0af-29f20d48417b
 keywords:

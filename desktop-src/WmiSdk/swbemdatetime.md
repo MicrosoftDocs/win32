@@ -2,7 +2,7 @@
 Description: The SWbemDateTime object is a helper object to parse and set Common Information Model (CIM) datetime values.
 ms.assetid: 3dd34c73-3c2b-4d59-827b-169cf8020213
 ms.tgt_platform: multiple
-title: SWbemDateTime object
+title: SWbemDateTime object (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

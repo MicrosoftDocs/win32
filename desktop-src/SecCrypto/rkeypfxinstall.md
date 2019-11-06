@@ -1,7 +1,7 @@
 ---
 Description: The RKeyPFXInstall function is not supported.
 ms.assetid: 061e3d9d-fc92-4204-92f3-f3425afdbe27
-title: RKeyPFXInstall function
+title: RKeyPFXInstall function (Rkeysvcc.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

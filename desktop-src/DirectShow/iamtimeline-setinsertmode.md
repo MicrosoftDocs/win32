@@ -1,7 +1,7 @@
 ---
 Description: Not implemented.
 ms.assetid: 31ff6e32-e8e7-45b4-af62-b6a84e061c94
-title: IAMTimeline::SetInsertMode method
+title: IAMTimeline::SetInsertMode method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: VMUSBDeviceClassEnum enumeration
+title: VMUSBDeviceClassEnum enumeration (VPCCOMInterfaces.h)
 description: Specifies the USB device class.
 ms.assetid: 3f5044ea-f7a4-4524-bfb8-55db22732f81
 keywords:

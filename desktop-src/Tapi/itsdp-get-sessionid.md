@@ -1,7 +1,7 @@
 ---
 Description: The get\_SessionId method gets the 32-bit NTP (Network Time Protocol) value that serves as the session identifier. This is generated automatically when the session is created.
 ms.assetid: 5177f120-4b93-40bc-9481-aedf65a8dee9
-title: ITSdp::get_SessionId method
+title: ITSdp::get_SessionId method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

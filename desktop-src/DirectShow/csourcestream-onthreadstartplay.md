@@ -1,7 +1,7 @@
 ---
 Description: The OnThreadStartPlay method is called at the start of the CSourceStream::DoBufferProcessingLoop method.
 ms.assetid: 16d3b28f-bfae-49af-b8e4-8cc8cb15ecab
-title: CSourceStream.OnThreadStartPlay method
+title: CSourceStream.OnThreadStartPlay method (Source.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The following constants are used by PStore.
 ms.assetid: 4bdccb86-2e0e-461c-9a74-184861b7db1e
-title: PStore Constants
+title: PStore Constants (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

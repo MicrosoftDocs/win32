@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineCollection Item property
+title: IVMVirtualMachineCollection Item property (VPCCOMInterfaces.h)
 description: Retrieves the virtual machine object that corresponds to the specified index.
 ms.assetid: b3afe211-5d97-4ccf-96b7-e074deb320fb
 keywords:

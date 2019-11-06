@@ -1,7 +1,7 @@
 ---
 Description: Sets a normal vector for each texel in a texture object. This method is used to store vertex normal vectors from a mesh (or interpolated vertex normals if pixel-based precomputed radiance transfer (PRT) is being computed).
 ms.assetid: 165a3ef6-c142-4988-b4fb-5aafd8ff11fe
-title: ID3DXPRTEngine::SetPerTexelNormal method
+title: ID3DXPRTEngine::SetPerTexelNormal method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

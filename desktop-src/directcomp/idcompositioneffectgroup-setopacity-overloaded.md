@@ -1,5 +1,5 @@
 ---
-title: IDCompositionEffectGroup SetOpacity methods
+title: IDCompositionEffectGroup SetOpacity methods (Dcomp.h)
 description: Animates or changes the value of the Opacity property.
 ms.assetid: 785DE91D-718B-4704-88E4-B8FB12586E5F
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 6c300f14-5edf-431c-a882-251e87d4de21
-title: COARefTime.COARefTime constructor
+title: COARefTime.COARefTime constructor (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Flags used by the WICJpegScanHeader and WICJpegFrameHeader.
 ms.assetid: 6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9
-title: IWICJpegFrameDecode Constants
+title: IWICJpegFrameDecode Constants (Wincodec.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

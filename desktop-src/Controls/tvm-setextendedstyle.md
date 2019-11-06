@@ -1,5 +1,5 @@
 ---
-title: TVM_SETEXTENDEDSTYLE message
+title: TVM_SETEXTENDEDSTYLE message (Commctrl.h)
 description: Informs the tree-view control to set extended styles. Send this message or use the macro TreeView\_SetExtendedStyle.
 ms.assetid: 35cb6ac8-1c1e-4ecd-88b2-878d3f6ccaa5
 keywords:

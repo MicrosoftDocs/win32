@@ -1,5 +1,5 @@
 ---
-title: Tooltip Styles
+title: Tooltip Styles (CommCtrl.h)
 description: This section lists the control styles used with tooltip controls.
 ms.assetid: a6aeac71-6a69-4903-af78-0bfe1f83e632
 topic_type:

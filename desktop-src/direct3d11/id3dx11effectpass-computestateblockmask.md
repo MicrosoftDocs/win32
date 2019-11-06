@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass ComputeStateBlockMask method
+title: ID3DX11EffectPass ComputeStateBlockMask method (D3dx11effect.h)
 description: Generate a mask for allowing/preventing state changes.
 ms.assetid: 584be931-0e22-43e6-b852-f0d2ab050bdd
 keywords:

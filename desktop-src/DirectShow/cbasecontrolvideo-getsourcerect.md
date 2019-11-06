@@ -1,7 +1,7 @@
 ---
 Description: The GetSourceRect method retrieves the source rectangle. This is an internal method.
 ms.assetid: 51028b79-6aab-4abc-8ee8-2965bda9d191
-title: CBaseControlVideo.GetSourceRect method
+title: CBaseControlVideo.GetSourceRect method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

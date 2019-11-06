@@ -1,5 +1,5 @@
 ---
-title: IWMSecureBuffer Encrypt method
+title: IWMSecureBuffer Encrypt method (Wmdrmsdk.h)
 description: The Encrypt method encrypts a data pointer.
 ms.assetid: da391dcb-3ef8-4c09-bca6-507f67a24ee6
 keywords:

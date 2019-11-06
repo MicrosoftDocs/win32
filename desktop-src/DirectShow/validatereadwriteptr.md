@@ -1,7 +1,7 @@
 ---
 Description: Verifies that the calling process has read/write access to a memory block. If not, the macro calls the DbgBreak macro.
 ms.assetid: 215f6db9-67b6-47e1-bee1-dc37082ae2b8
-title: ValidateReadWritePtr macro
+title: ValidateReadWritePtr macro (Wxdebug.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

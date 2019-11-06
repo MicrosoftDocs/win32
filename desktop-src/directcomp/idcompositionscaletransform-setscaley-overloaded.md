@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform SetScaleY methods
+title: IDCompositionScaleTransform SetScaleY methods (Dcomp.h)
 description: Changes or animates the value of the ScaleY property of a 2D scale transform.
 ms.assetid: 651F98F6-5674-4FB8-A180-FE02B7A1E4B1
 keywords:

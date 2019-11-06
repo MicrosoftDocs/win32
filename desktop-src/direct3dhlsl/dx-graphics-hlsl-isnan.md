@@ -1,5 +1,5 @@
 ---
-title: isnan
+title: isnan (Corecrt\_math.h)
 description: Determines if the specified value is NAN or QNAN.
 ms.assetid: 09085634-e610-4793-848e-abda8241f1cc
 keywords:

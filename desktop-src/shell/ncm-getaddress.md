@@ -1,6 +1,6 @@
 ---
 Description: Indicates whether a network address conforms to a specified type and format.
-title: NCM_GETADDRESS message
+title: NCM_GETADDRESS message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 733CD62D-614C-4ac2-986D-CCFCFF4B1B4D

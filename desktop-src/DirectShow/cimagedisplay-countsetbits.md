@@ -1,7 +1,7 @@
 ---
 Description: The CountSetBits method returns the number of bits set to 1 in a specified bit field.
 ms.assetid: fc5701b8-88ff-4c23-9d26-854bb65cc55c
-title: CImageDisplay.CountSetBits method
+title: CImageDisplay.CountSetBits method (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

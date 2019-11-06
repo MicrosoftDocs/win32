@@ -1,7 +1,7 @@
 ---
 Description: The GetHead method retrieves the item at the head of the list.
 ms.assetid: 1cbaa790-e26a-4d81-b96b-3a07b22dff1e
-title: CGenericList.GetHead method
+title: CGenericList.GetHead method (Wxlist.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

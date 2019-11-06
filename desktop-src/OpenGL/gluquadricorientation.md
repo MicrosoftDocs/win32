@@ -1,5 +1,5 @@
 ---
-title: gluQuadricOrientation function
+title: gluQuadricOrientation function (Glu.h)
 description: The gluQuadricOrientation function specifies inside or outside orientation for quadrics.
 ms.assetid: 4e3fc6d3-5a39-455b-bd24-8eb497333096
 keywords:

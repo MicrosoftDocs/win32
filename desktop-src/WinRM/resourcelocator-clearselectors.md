@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.ClearSelectors method
+title: ResourceLocator.ClearSelectors method (WSManDisp.h)
 description: Removes all of the selectors from a ResourceLocator object.
 ms.assetid: 759880e6-5026-45de-b7e1-a4f5a16c32a0
 ms.tgt_platform: multiple

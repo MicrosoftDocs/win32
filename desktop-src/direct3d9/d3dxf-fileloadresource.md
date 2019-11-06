@@ -1,7 +1,7 @@
 ---
 Description: Identifies resource data.
 ms.assetid: f2ace2ad-228f-4f76-ab31-16e045e09331
-title: D3DXF_FILELOADRESOURCE structure
+title: D3DXF_FILELOADRESOURCE structure (D3dx9xof.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

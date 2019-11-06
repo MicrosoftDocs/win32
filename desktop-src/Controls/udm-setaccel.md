@@ -1,5 +1,5 @@
 ---
-title: UDM_SETACCEL message
+title: UDM_SETACCEL message (Commctrl.h)
 description: Sets the acceleration for an up-down control.
 ms.assetid: af1d0a34-13ba-4bda-82f5-d7afab6bb1ed
 keywords:

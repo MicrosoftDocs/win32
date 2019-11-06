@@ -1,5 +1,5 @@
 ---
-title: IADsDomain Property Methods
+title: IADsDomain Property Methods (Iads.h)
 description: The IADsDomain interface methods read and write the properties described in this topic. For more information, see Interface Property Methods.
 ms.assetid: ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0
 ms.tgt_platform: multiple

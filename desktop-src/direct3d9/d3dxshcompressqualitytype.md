@@ -1,7 +1,7 @@
 ---
 Description: Spherical harmonic (SH) compression setting.
 ms.assetid: 214d6efb-419d-4eea-8360-322885c26bc3
-title: D3DXSHCOMPRESSQUALITYTYPE enumeration
+title: D3DXSHCOMPRESSQUALITYTYPE enumeration (D3dx9mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

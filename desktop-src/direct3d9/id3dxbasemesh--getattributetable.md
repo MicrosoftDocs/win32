@@ -1,7 +1,7 @@
 ---
 Description: Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.
 ms.assetid: 15b24137-0ff9-4299-971b-90fa4ef2686d
-title: ID3DXBaseMesh::GetAttributeTable method
+title: ID3DXBaseMesh::GetAttributeTable method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

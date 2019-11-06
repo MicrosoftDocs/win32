@@ -1,7 +1,7 @@
 ---
 Description: The GetFrameFromFrameHandle function returns a pointer to a frame from a frame handle.
 ms.assetid: 790fe5fe-a857-4947-a471-d0538c0f0d61
-title: GetFrameFromFrameHandle function
+title: GetFrameFromFrameHandle function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

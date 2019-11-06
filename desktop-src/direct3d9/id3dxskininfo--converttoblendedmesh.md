@@ -1,7 +1,7 @@
 ---
 Description: Takes a mesh and returns a new mesh with per-vertex blend weights and a bone combination table. The table describes which bones affect which subsets of the mesh.
 ms.assetid: c26a9e84-5731-4394-a047-5f1ffe7688d9
-title: ID3DXSkinInfo::ConvertToBlendedMesh method
+title: ID3DXSkinInfo::ConvertToBlendedMesh method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

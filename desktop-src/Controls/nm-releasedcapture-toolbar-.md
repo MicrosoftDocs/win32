@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (toolbar) notification code
+title: NM_RELEASEDCAPTURE (toolbar) notification code (Commctrl.h)
 description: Notifies a toolbar control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8d9b637c-710e-4337-9466-8616a93d1c44
 keywords:

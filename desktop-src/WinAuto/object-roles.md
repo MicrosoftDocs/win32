@@ -1,5 +1,5 @@
 ---
-title: Object Roles
+title: Object Roles (Oleacc.h)
 description: This topic describes the constant values used to describe the roles of various UI objects in an application.
 ms.assetid: f015252a-c0df-4a21-a995-ff2f6cafbab8
 topic_type:

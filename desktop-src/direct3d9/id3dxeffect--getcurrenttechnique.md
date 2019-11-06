@@ -1,7 +1,7 @@
 ---
 Description: Gets the current technique.
 ms.assetid: a5c3f094-a37c-4f0d-b8b8-fc58d61d7bcb
-title: ID3DXEffect::GetCurrentTechnique method
+title: ID3DXEffect::GetCurrentTechnique method (D3DX9Effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

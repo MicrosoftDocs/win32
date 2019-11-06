@@ -1,7 +1,7 @@
 ---
 Description: The CBasicAudio class implements the IDispatch methods of the IBasicAudio interface. The remaining IBasicAudio methods are left as pure virtual methods, and must be implemented by a derived class.
 ms.assetid: 6772ade4-84c5-443f-a8b5-0e8e12263f76
-title: CBasicAudio class
+title: CBasicAudio class (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

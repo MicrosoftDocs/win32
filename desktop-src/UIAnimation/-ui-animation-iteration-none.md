@@ -1,5 +1,5 @@
 ---
-title: UI_ANIMATION_ITERATION_NONE
+title: UI_ANIMATION_ITERATION_NONE (UIAnimation.h)
 description: Indicates that this is the initial entry into a given loop.
 ms.assetid: 9E79AA4A-EC66-45C0-93D0-D916BAFF7F97
 topic_type:

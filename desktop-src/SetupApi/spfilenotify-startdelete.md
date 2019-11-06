@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_STARTDELETE notification is sent to the callback function when the queue starts a file delete operation.
 ms.assetid: 244714ad-dde7-4b5a-b3f3-78aa4cc901f5
-title: SPFILENOTIFY_STARTDELETE message
+title: SPFILENOTIFY_STARTDELETE message (Setupapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: PSM_IDTOINDEX message
+title: PSM_IDTOINDEX message (Prsht.h)
 description: Takes the resource ID of a property sheet page and returns its zero-based index. You can send this message explicitly or use the PropSheet\_IdToIndex macro.
 ms.assetid: 'vs|controls|~\controls\propsheet\messages\psm_idtoindex.htm'
 keywords:

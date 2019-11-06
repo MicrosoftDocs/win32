@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard ReleaseKey method
+title: IVMKeyboard ReleaseKey method (VPCCOMInterfaces.h)
 description: Simulates a key being released.
 ms.assetid: 112bf11d-d768-4487-ab41-e915aa4e6a24
 keywords:

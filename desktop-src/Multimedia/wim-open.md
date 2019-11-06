@@ -1,5 +1,5 @@
 ---
-title: WIM_OPEN message
+title: WIM_OPEN message (Mmsystem.h)
 description: The WIM\_OPEN message is sent to a waveform-audio input callback function when a waveform-audio input device is opened.
 ms.assetid: 'de18e6b2-ea28-46d9-812c-e6dac49838ee'
 keywords:

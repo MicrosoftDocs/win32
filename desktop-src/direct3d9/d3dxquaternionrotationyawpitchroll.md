@@ -1,7 +1,7 @@
 ---
 Description: Builds a quaternion with the given yaw, pitch, and roll.
 ms.assetid: be4a3bd5-114b-4652-8e0a-e51338317c16
-title: D3DXQuaternionRotationYawPitchRoll function
+title: D3DXQuaternionRotationYawPitchRoll function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

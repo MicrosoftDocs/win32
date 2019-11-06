@@ -1,5 +1,5 @@
 ---
-title: IWMPStringCollection (VB and C ) interface
+title: IWMPStringCollection (VB and C ) interface (Wmp.h)
 description: Provides a property and a method for accessing a collection of strings by index number.The IWMPStringCollection interface exposes the following property.
 ms.assetid: 03d163f9-40a5-4aff-b36e-b9c6a1d11905
 keywords:

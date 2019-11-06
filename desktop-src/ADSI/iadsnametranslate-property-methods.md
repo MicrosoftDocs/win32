@@ -1,5 +1,5 @@
 ---
-title: IADsNameTranslate Property Methods
+title: IADsNameTranslate Property Methods (Iads.h)
 description: Sets the ChaseReferral property.
 ms.assetid: 7c44fe9b-16a5-4bd5-a80b-8f3dcfec20cc
 ms.tgt_platform: multiple

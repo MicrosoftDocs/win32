@@ -1,5 +1,5 @@
 ---
-title: TB_GETSTATE message
+title: TB_GETSTATE message (Commctrl.h)
 description: Retrieves information about the state of the specified button in a toolbar, such as whether it is enabled, pressed, or checked.
 ms.assetid: e8a9e1ff-506f-413b-8f8c-986c25bce736
 keywords:

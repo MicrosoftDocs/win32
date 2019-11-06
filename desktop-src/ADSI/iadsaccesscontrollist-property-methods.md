@@ -1,5 +1,5 @@
 ---
-title: IADsAccessControlList Property Methods
+title: IADsAccessControlList Property Methods (Iads.h)
 description: The property methods of the IADsAccessControlList interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: cb68bb61-4216-4f69-bea1-ab7f98937a27
 ms.tgt_platform: multiple

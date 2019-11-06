@@ -1,5 +1,5 @@
 ---
-title: WM_LBUTTONUP message
+title: WM_LBUTTONUP message (Winuser.h)
 description: Posted when the user releases the left mouse button while the cursor is in the client area of a window.
 ms.assetid: 6efa298f-85f7-40ab-a64b-16b5071f2437
 keywords:

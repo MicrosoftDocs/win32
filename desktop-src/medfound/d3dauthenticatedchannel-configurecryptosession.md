@@ -1,7 +1,7 @@
 ---
 Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_CRYPTOSESSION command.
 ms.assetid: eed5591d-20b0-495c-8c05-b9cb3b91deab
-title: D3DAUTHENTICATEDCHANNEL_CONFIGURECRYPTOSESSION structure
+title: D3DAUTHENTICATEDCHANNEL_CONFIGURECRYPTOSESSION structure (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

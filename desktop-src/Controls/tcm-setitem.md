@@ -1,5 +1,5 @@
 ---
-title: TCM_SETITEM message
+title: TCM_SETITEM message (Commctrl.h)
 description: Sets some or all of a tab's attributes. You can send this message explicitly or by using the TabCtrl\_SetItem macro.
 ms.assetid: 1d9c6607-d8ec-4644-a714-22bc2677aa78
 keywords:

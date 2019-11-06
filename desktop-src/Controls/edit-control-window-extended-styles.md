@@ -1,5 +1,5 @@
 ---
-title: Edit Control Extended Styles
+title: Edit Control Extended Styles (CommCtrl.h)
 description: This section lists extended styles used when creating edit controls. The value of extended styles is a bitwise combination of these styles.
 ms.assetid: 44ef7cbf-6d90-4ea0-8e23-cd84aacd5506
 topic_type:

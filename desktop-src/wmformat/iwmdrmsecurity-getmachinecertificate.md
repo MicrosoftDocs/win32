@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity GetMachineCertificate method
+title: IWMDRMSecurity GetMachineCertificate method (Wmdrmsdk.h)
 description: The GetMachineCertificate method retrieves the machine certificate of the DRM subsystem on the client computer.
 ms.assetid: 38b8e812-e997-4a63-b906-ebd26a5556be
 keywords:

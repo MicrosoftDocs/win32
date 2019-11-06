@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectMatrixVariable GetMatrixArray method
+title: ID3DX11EffectMatrixVariable GetMatrixArray method (D3dx11effect.h)
 description: Get an array of matrices.
 ms.assetid: a7598687-a11c-41ad-9fb6-2c16d12f5edc
 keywords:

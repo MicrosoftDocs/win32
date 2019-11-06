@@ -1,5 +1,5 @@
 ---
-title: Mode Bias Values
+title: Mode Bias Values (Msctf.h)
 description: The following predefined values are possible values for the GUID\_PROP\_MODEBIAS property.
 ms.assetid: 1a96ed78-923d-454d-a30b-f4673a97a142
 keywords:

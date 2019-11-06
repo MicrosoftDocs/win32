@@ -1,7 +1,7 @@
 ---
 Description: For Windows 7, Windows Portable Devices supports the following attributes for events of a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetEventAttributes method.
 ms.assetid: 2c71c3ec-842b-44f7-b127-5750883b33ba
-title: Event Attributes
+title: Event Attributes (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: COM Error Codes (Security and Setup)
+title: COM Error Codes (Security and Setup) (Winerror.h)
 description: The following table provides a list of error codes used by COM-based APIs.
 ms.assetid: bf562953-a712-4260-8d6b-44d7fdf6c237
 topic_type:

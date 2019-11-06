@@ -1,7 +1,7 @@
 ---
 Description: The following tables describe SOL\_SOCKET socket options. See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
 ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
-title: SOL_SOCKET Socket Options
+title: SOL_SOCKET Socket Options (Winsock2.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

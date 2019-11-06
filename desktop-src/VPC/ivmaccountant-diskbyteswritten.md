@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant DiskBytesWritten property
+title: IVMAccountant DiskBytesWritten property (VPCCOMInterfaces.h)
 description: Total number of bytes written by all storage controllers for this virtual machine.
 ms.assetid: a2a5730b-a411-48b8-aca8-d09cf09432a9
 keywords:

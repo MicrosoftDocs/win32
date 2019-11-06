@@ -1,5 +1,5 @@
 ---
-title: WMDRMStartup function
+title: WMDRMStartup function (Wmdrmsdk.h)
 description: The WMDRMStartup function initializes resources used by the Windows Media DRM Client Extended APIs.
 ms.assetid: 2fd26bcc-8106-4356-933a-d4cf3536f4fb
 keywords:

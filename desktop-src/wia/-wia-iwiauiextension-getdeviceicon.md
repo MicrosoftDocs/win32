@@ -1,7 +1,7 @@
 ---
 Description: Gets a custom device icon.
 ms.assetid: 27763f39-80d8-4862-b045-e49c6e824c28
-title: IWiaUIExtension::GetDeviceIcon method
+title: IWiaUIExtension::GetDeviceIcon method (Wiadevd.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

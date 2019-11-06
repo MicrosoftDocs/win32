@@ -1,5 +1,5 @@
 ---
-title: TB_SETBUTTONWIDTH message
+title: TB_SETBUTTONWIDTH message (Commctrl.h)
 description: Sets the minimum and maximum button widths in the toolbar control.
 ms.assetid: 3311216a-e0b2-48bb-bad7-0a04185573cf
 keywords:

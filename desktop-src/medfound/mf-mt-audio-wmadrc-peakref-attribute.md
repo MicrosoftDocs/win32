@@ -1,7 +1,7 @@
 ---
 Description: Reference peak volume level of a Windows Media Audio file.
 ms.assetid: bb762f9c-cf08-4d32-991e-490eb7b1f579
-title: MF_MT_AUDIO_WMADRC_PEAKREF attribute
+title: MF_MT_AUDIO_WMADRC_PEAKREF attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

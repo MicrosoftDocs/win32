@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectType GetDesc method
+title: ID3DX11EffectType GetDesc method (D3dx11effect.h)
 description: Get an effect-type description.
 ms.assetid: 08a8a1b6-fe2d-431b-a0e4-d628f0ceb1a0
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a media sample is the first sample after a gap in the stream.
 ms.assetid: f9e1e700-9958-404d-8b83-08f846f5a1b0
-title: MFSampleExtension_Discontinuity attribute
+title: MFSampleExtension_Discontinuity attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Occurs after the SizeMode property of the InkPicture control has been changed.
 ms.assetid: ae56b5a2-e3e2-468c-a572-a9b46eb1d39d
-title: InkPicture.SizeModeChanged event
+title: InkPicture.SizeModeChanged event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

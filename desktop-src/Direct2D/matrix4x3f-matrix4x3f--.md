@@ -1,5 +1,5 @@
 ---
-title: Matrix4x3F Matrix4x3F() constructor
+title: Matrix4x3F Matrix4x3F() constructor (D2d1\_helper.h)
 description: Instantiates a new instance of an uninitialized Matrix4x3F class.
 ms.assetid: 3F423650-D1CF-44F7-9560-0C35201F6DE7
 keywords:

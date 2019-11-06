@@ -1,5 +1,5 @@
 ---
-title: ICM_SETSTATE message
+title: ICM_SETSTATE message (Vfw.h)
 description: The ICM\_SETSTATE message notifies a video compression driver to set the state of the compressor. You can send this message explicitly or by using the ICSetState macro.
 ms.assetid: d1a91847-2893-4c8b-9ca1-02db71ec2c81
 keywords:

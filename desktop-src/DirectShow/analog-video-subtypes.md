@@ -1,7 +1,7 @@
 ---
 Description: The following analog video subtypes are now obsolete. Use the AnalogVideoStandard enumeration instead.
 ms.assetid: 67db7ee1-88ec-4e4f-be5e-8b4a7a652bca
-title: Analog Video Subtypes
+title: Analog Video Subtypes (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

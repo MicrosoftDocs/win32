@@ -1,5 +1,5 @@
 ---
-title: PGM_SETBUTTONSIZE message
+title: PGM_SETBUTTONSIZE message (Commctrl.h)
 description: Sets the current button size for the pager control. You can send this message explicitly or use the Pager\_SetButtonSize macro.
 ms.assetid: b31960f8-87c2-4209-8213-df75ac883e11
 keywords:

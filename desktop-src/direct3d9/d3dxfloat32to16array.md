@@ -1,7 +1,7 @@
 ---
 Description: Converts an array of 32-bit floats to 16-bit floats.
 ms.assetid: 00f7ae77-d2b5-4244-8fe9-6fea475700b7
-title: D3DXFloat32To16Array function
+title: D3DXFloat32To16Array function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

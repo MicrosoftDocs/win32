@@ -1,7 +1,7 @@
 ---
 Description: Gets the IContextNode objects that are associated with this alternate.
 ms.assetid: 6dfae9cc-d9d2-44de-b6cf-80bbcd296390
-title: IAnalysisAlternate::GetAlternateNodes method
+title: IAnalysisAlternate::GetAlternateNodes method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

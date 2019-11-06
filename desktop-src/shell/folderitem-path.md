@@ -1,7 +1,7 @@
 ---
 Description: Contains the item's full path and name.
 ms.assetid: c94c7c1c-9dc9-4bb8-b7ec-01541baa2924
-title: FolderItem.Path property
+title: FolderItem.Path property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

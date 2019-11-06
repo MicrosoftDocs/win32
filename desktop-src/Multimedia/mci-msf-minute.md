@@ -1,5 +1,5 @@
 ---
-title: MCI_MSF_MINUTE macro
+title: MCI_MSF_MINUTE macro (Mciapi.h)
 description: The MCI\_MSF\_MINUTE macro retrieves the minutes component from a parameter containing packed minutes/seconds/frames (MSF) information.
 ms.assetid: 60ac6662-d828-4635-a019-2603199523c5
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The Free method releases all of the buffer memory. This method is called when the owning filter decommits the allocator, after the last media sample is released.
 ms.assetid: dd1e6c4d-762a-4caf-902b-015c6c9fdb4d
-title: CBaseAllocator.Free method
+title: CBaseAllocator.Free method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

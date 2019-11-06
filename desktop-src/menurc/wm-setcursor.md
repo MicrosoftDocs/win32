@@ -1,5 +1,5 @@
 ---
-title: WM_SETCURSOR message
+title: WM_SETCURSOR message (Winuser.h)
 description: Sent to a window if the mouse causes the cursor to move within a window and mouse input is not captured.
 ms.assetid: b722689e-925f-40ac-ba4a-55be9dc6a8f8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectInterfaceVariable interface
+title: ID3DX11EffectInterfaceVariable interface (D3dx11effect.h)
 description: Accesses an interface variable.
 ms.assetid: c1d1f564-c7b8-4108-9988-972255662000
 keywords:

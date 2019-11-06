@@ -1,5 +1,5 @@
 ---
-title: MCI_VD_STEP_PARMS structure
+title: MCI_VD_STEP_PARMS structure (Mciapi.h)
 description: The MCI\_VD\_STEP\_PARMS structure contains information for the MCI\_STEP command for videodisc devices.
 ms.assetid: 5345468c-b195-485a-8101-4a076410f26a
 keywords:

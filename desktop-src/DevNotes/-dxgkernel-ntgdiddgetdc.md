@@ -1,7 +1,7 @@
 ---
 Description: Creates a device context (DC) for the specified surface.
 ms.assetid: c2eaaed6-db19-4dab-ac12-6b4e7eeb58e4
-title: NtGdiDdGetDC function
+title: NtGdiDdGetDC function (Ntgdi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

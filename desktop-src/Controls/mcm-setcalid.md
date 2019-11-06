@@ -1,5 +1,5 @@
 ---
-title: MCM_SETCALID message
+title: MCM_SETCALID message (Commctrl.h)
 description: Sets the calendar ID for the given calendar control. You can send this message explicitly or by using the MonthCal\_SetCALID macro.
 ms.assetid: 4b9d06f5-0784-4a17-b401-982206d4be67
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MM_WOM_OPEN message
+title: MM_WOM_OPEN message (Mmsystem.h)
 description: The MM\_WOM\_OPEN message is sent to a window when the given waveform-audio output device is opened.
 ms.assetid: 1b0366de-61cd-4203-9173-ababaefdb153
 keywords:

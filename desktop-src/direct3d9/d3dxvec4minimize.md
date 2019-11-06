@@ -1,7 +1,7 @@
 ---
 Description: Returns a 4D vector that is made up of the smallest components of two 4D vectors.
 ms.assetid: ae3819a3-a5b6-47c2-b789-3e3f07db9f03
-title: D3DXVec4Minimize function
+title: D3DXVec4Minimize function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

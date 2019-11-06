@@ -1,7 +1,7 @@
 ---
 Description: The KEYSVCC\_HANDLE data type defines a key service handle. A KEYSVCC\_HANDLE handle is used by the RKeyOpenKeyService and RKeyCloseKeyService functions.
 ms.assetid: d0fd5184-5c8e-4f96-9ff1-8abd6f718d05
-title: KEYSVCC_HANDLE
+title: KEYSVCC_HANDLE (Rkeysvcc.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

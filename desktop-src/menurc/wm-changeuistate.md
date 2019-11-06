@@ -1,5 +1,5 @@
 ---
-title: WM_CHANGEUISTATE message
+title: WM_CHANGEUISTATE message (Winuser.h)
 description: An application sends the WM\_CHANGEUISTATE message to indicate that the UI state should be changed.
 ms.assetid: d8dfc2fe-c64f-4e7e-b021-127aa85d5dd6
 keywords:

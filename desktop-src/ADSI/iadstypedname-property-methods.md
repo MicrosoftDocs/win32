@@ -1,5 +1,5 @@
 ---
-title: IADsTypedName Property Methods
+title: IADsTypedName Property Methods (Iads.h)
 description: The property method of the IADsTypedName interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 0097c7c0-91f9-4874-93f2-c24900054a49
 ms.tgt_platform: multiple

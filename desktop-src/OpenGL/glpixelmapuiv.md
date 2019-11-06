@@ -1,5 +1,5 @@
 ---
-title: glPixelMapuiv function
+title: glPixelMapuiv function (Gl.h)
 description: The glPixelMapuiv function sets up pixel transfer maps.
 ms.assetid: dd0f7881-fdd1-49c2-b68c-21e2f9e5ecd2
 keywords:

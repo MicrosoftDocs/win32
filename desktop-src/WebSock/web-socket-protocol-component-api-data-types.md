@@ -1,5 +1,5 @@
 ---
-title: WebSocket Protocol Component API Data Types
+title: WebSocket Protocol Component API Data Types (Websocket.h)
 description: The WebSocket Protocol Component API defines these data types.
 ms.assetid: D5D42785-CFAC-4324-9194-1BA8056FBAA1
 keywords:

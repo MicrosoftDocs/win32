@@ -1,5 +1,5 @@
 ---
-title: quaternion structure
+title: quaternion structure (Windowsnumerics.h)
 description: A four dimensional vector, used to represent a rotation.
 ms.assetid: A6B25885-8ECB-4039-9DC6-41D5F3A02489
 keywords:

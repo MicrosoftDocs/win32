@@ -1,7 +1,7 @@
 ---
 Description: Destructor method.
 ms.assetid: 9a8e18b7-7582-4a91-8114-6f96481284c1
-title: CBasePropertyPage.~CBasePropertyPage destructor
+title: CBasePropertyPage.~CBasePropertyPage destructor (Cprop.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

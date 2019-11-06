@@ -1,7 +1,7 @@
 ---
 Description: The ResetStreamingTimes method resets all times that control the streaming.
 ms.assetid: 8a596760-a45a-4486-bb91-aab10bbf927f
-title: CBaseVideoRenderer.ResetStreamingTimes method
+title: CBaseVideoRenderer.ResetStreamingTimes method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Provides the methods needed to support the users of the other smart card COM interfaces.
 ms.assetid: ce81706b-9201-432e-b9d0-c758769e1040
-title: ISCardTypeConv interface
+title: ISCardTypeConv interface (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

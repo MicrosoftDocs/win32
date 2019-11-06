@@ -1,7 +1,7 @@
 ---
 Description: The ReadXMLFile method loads an XML project file.
 ms.assetid: 8269da74-fb33-42cf-ae8c-fe3d7db27aea
-title: IXml2Dex::ReadXMLFile method
+title: IXml2Dex::ReadXMLFile method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

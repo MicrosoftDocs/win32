@@ -1,7 +1,7 @@
 ---
 Description: The LINECONNECTEDMODE\_ bit-flag constants describe different substates of a connected call.
 ms.assetid: d75a5989-3f4e-4e5d-90b1-4e450def017e
-title: LINECONNECTEDMODE_ Constants
+title: LINECONNECTEDMODE_ Constants (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

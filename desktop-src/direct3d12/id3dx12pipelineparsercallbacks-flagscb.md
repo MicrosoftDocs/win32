@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks FlagsCb method
+title: ID3DX12PipelineParserCallbacks FlagsCb method (D3DX12.h)
 description: Calls the flags subobject callback of an object that implements this interface.
 ms.assetid: 81DD8CF3-87BA-4380-BECD-70A80580048A
 keywords:

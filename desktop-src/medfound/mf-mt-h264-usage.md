@@ -1,7 +1,7 @@
 ---
 Description: Specifies the usage mode for a UVC H.264 encoder.
 ms.assetid: 05158F47-CE01-4C99-8FFA-6BBD4F829B59
-title: MF_MT_H264_USAGE attribute
+title: MF_MT_H264_USAGE attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

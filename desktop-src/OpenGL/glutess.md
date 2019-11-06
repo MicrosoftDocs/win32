@@ -1,5 +1,5 @@
 ---
-title: gluTessCallback function
+title: gluTessCallback function (Glu.h)
 description: The gluTessCallback function defines a callback for a tessellation object.
 ms.assetid: a9709919-d34c-42c4-82b8-6a503f2b39b0
 keywords:

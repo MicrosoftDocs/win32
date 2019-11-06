@@ -1,7 +1,7 @@
 ---
 Description: The GetMacAddressFromBlob function retrieves the named MAC address from a BLOB.
 ms.assetid: 1769c92c-0946-447c-885a-fcf175fa1bf3
-title: GetMacAddressFromBlob function
+title: GetMacAddressFromBlob function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

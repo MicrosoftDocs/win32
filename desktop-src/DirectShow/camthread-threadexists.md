@@ -1,7 +1,7 @@
 ---
 Description: The ThreadExists method queries whether the thread exists.
 ms.assetid: 16be31c5-fae0-45d7-905d-4a2eef1ed819
-title: CAMThread.ThreadExists method
+title: CAMThread.ThreadExists method (Wxutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

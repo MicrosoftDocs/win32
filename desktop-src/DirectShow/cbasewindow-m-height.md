@@ -1,7 +1,7 @@
 ---
 Description: Height of the client area, in pixels.
 ms.assetid: 3d32c9db-71f1-4b20-ae7c-5da7dc9b7244
-title: CBaseWindow::m_Height member
+title: CBaseWindow::m_Height member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

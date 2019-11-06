@@ -1,5 +1,5 @@
 ---
-title: IADsTimestamp Property Methods
+title: IADsTimestamp Property Methods (Iads.h)
 description: The property method of the IADsTimestamp interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 0f00d270-3c11-4c60-95b3-178130e31caa
 ms.tgt_platform: multiple

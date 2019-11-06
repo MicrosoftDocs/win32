@@ -1,5 +1,5 @@
 ---
-title: LM_HITTEST message
+title: LM_HITTEST message (Commctrl.h)
 description: Determines whether the user clicked the specified link.
 ms.assetid: a84c0388-26e7-4eda-9c6c-c5f64142d67a
 keywords:

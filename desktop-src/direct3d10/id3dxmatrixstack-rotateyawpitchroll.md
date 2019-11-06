@@ -1,7 +1,7 @@
 ---
 Description: Rotates (relative to world coordinate space) around an arbitrary axis.
 ms.assetid: 35e237f6-40f2-4001-adb0-f489d61f64e7
-title: ID3DXMATRIXStack::RotateYawPitchRoll method
+title: ID3DXMATRIXStack::RotateYawPitchRoll method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

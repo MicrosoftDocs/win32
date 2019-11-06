@@ -1,5 +1,5 @@
 ---
-title: HDN_GETDISPINFO notification code
+title: HDN_GETDISPINFO notification code (Commctrl.h)
 description: Sent to the owner of a header control when the control needs information about a callback header item. This notification code is sent as a WM\_NOTIFY message.
 ms.assetid: 51522df0-83ae-4d9a-a8fc-31083e24242a
 keywords:

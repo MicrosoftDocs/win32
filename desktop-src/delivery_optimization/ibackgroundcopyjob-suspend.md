@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob Suspend method
+title: IBackgroundCopyJob Suspend method (Deliveryoptimization.h)
 description: Suspends a job. New jobs, jobs that are in error, and jobs that have finished transferring files are automatically suspended.
 ms.assetid: 23EED354-A3AC-4865-8C06-ADA097851F96
 keywords:

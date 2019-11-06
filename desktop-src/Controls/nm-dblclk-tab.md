@@ -1,5 +1,5 @@
 ---
-title: NM_DBLCLK (tab) notification code
+title: NM_DBLCLK (tab) notification code (Commctrl.h)
 description: Notifies a parent window of a tab control that the user has double-clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: fd99f195-ceac-47e8-b584-d814b055fa21
 keywords:

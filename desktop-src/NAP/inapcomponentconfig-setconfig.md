@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig SetConfig method
+title: INapComponentConfig SetConfig method (NapCommon.h)
 description: Sets the system health validator (SHV) component configuration.
 ms.assetid: ec27e30b-4205-40bc-a24b-61072a746e53
 keywords:

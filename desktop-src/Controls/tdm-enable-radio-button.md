@@ -1,5 +1,5 @@
 ---
-title: TDM_ENABLE_RADIO_BUTTON message
+title: TDM_ENABLE_RADIO_BUTTON message (Commctrl.h)
 description: Enables or disables a radio button in a task dialog.
 ms.assetid: da605ce0-b2d5-481a-a0e1-628ae5b65726
 keywords:

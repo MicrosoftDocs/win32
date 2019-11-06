@@ -1,5 +1,5 @@
 ---
-title: PATCHARRAY
+title: PATCHARRAY (Mmsystem.h)
 description: PATCHARRAY is a type used to define an array of MIDI patches.
 ms.assetid: f48ee0d2-224a-4530-ac28-ae63160316cc
 keywords:

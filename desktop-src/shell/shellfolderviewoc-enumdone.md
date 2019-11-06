@@ -1,6 +1,6 @@
 ---
 Description: Indicates that the ShellFolderView object has finished enumerating the folder's contents.
-title: ShellFolderViewOC.EnumDone event
+title: ShellFolderViewOC.EnumDone event (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

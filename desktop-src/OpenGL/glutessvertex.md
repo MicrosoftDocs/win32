@@ -1,5 +1,5 @@
 ---
-title: gluTessVertex function
+title: gluTessVertex function (Glu.h)
 description: The gluTessVertex function specifies a vertex on a polygon.
 ms.assetid: 9c555b32-5257-4eeb-9323-ccad59591097
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS IsHeartbeating property
+title: IVMGuestOS IsHeartbeating property (VPCCOMInterfaces.h)
 description: Determines whether the virtual machine has a heartbeat.
 ms.assetid: b1697a7b-6119-47aa-b261-6009f5287993
 keywords:

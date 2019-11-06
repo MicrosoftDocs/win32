@@ -1,7 +1,7 @@
 ---
 Description: The Disconnect method disconnects the NPP from the network.
 ms.assetid: 962e033d-a51c-47a2-83dc-cee1e7150ab8
-title: IESP::Disconnect method
+title: IESP::Disconnect method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

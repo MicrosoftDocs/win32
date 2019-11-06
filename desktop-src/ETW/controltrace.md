@@ -1,7 +1,7 @@
 ---
 Description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
-title: ControlTrace function
+title: ControlTrace function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

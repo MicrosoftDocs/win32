@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyError GetFile method
+title: IBackgroundCopyError GetFile method (Deliveryoptimization.h)
 description: Retrieves an interface pointer to the file object associated with the error.
 ms.assetid: 7E1DB3EE-0690-4D0E-BA98-70F5FBDCF12F
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CFSTR_DSQUERYSCOPE
+title: CFSTR_DSQUERYSCOPE (DSQuery.h)
 description: The CFSTR\_DSQUERYSCOPE clipboard format provides a global memory handle (HGLOBAL) that contains a string that specifies the query scope.
 ms.assetid: 3cf51543-eca4-466c-bf0c-1351fd90798b
 ms.tgt_platform: multiple

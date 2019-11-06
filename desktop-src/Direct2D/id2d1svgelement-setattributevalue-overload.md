@@ -1,5 +1,5 @@
 ---
-title: ID2D1SvgElement SetAttributeValue methods
+title: ID2D1SvgElement SetAttributeValue methods (D2d1svg.h)
 description: Sets an attribute of this element.
 ms.assetid: 33403a07-28d1-4138-ea7f-04f3ac42a8f7
 keywords:

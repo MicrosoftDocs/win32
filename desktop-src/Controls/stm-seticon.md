@@ -1,5 +1,5 @@
 ---
-title: STM_SETICON message
+title: STM_SETICON message (Winuser.h)
 description: An application sends the STM\_SETICON message to associate an icon with an icon control.
 ms.assetid: 105b0667-8e23-47ed-9fb1-0792a22d7100
 keywords:

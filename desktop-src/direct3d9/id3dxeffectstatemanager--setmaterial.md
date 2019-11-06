@@ -1,7 +1,7 @@
 ---
 Description: A callback function that must be implemented by a user to set material state.
 ms.assetid: 4c5e903f-551b-4346-a5eb-301a3a5b9b44
-title: ID3DXEffectStateManager::SetMaterial method
+title: ID3DXEffectStateManager::SetMaterial method (D3DX9Effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

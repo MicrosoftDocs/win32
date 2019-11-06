@@ -1,5 +1,5 @@
 ---
-title: BFT Constants
+title: BFT Constants (Ntdsbcli.h)
 description: The BFT constants are used as bit flags to identify different file types in an Active Directory Domain Services backup.
 ms.assetid: 3658a657-d9e3-4fbf-9120-4b0205b81a36
 ms.tgt_platform: multiple

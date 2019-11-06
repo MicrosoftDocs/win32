@@ -1,7 +1,7 @@
 ---
 Description: Rotates (relative to world coordinate space) around an arbitrary axis.
 ms.assetid: b7ae5195-a2af-429f-9a0d-51cd7e955362
-title: ID3DXMATRIXStack::RotateAxis method
+title: ID3DXMATRIXStack::RotateAxis method (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

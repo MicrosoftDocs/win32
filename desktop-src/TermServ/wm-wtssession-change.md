@@ -1,5 +1,5 @@
 ---
-title: WM_WTSSESSION_CHANGE message
+title: WM_WTSSESSION_CHANGE message (Winuser.h)
 description: Notifies applications of changes in session state.
 ms.assetid: 758a130c-b75a-40fd-8530-3766aa86c5ba
 ms.tgt_platform: multiple

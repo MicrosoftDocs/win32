@@ -1,7 +1,7 @@
 ---
 Description: Registers the provider with the client to enable the client to call the application's auto complete provider object.
 ms.assetid: 7b761b30-66f7-454a-9e0d-f45c8099f19f
-title: ITipAutocompleteClient::AdviseProvider method
+title: ITipAutocompleteClient::AdviseProvider method (TipAutoComplete.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

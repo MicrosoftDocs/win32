@@ -1,7 +1,7 @@
 ---
 Description: The PKEY\_Device\_DeviceDesc property contains the device description of the endpoint device (for example, &\#0034;Speakers&\#0034;).
 ms.assetid: 23715497-a74d-4dab-aade-c7779fe80aa6
-title: PKEY_Device_DeviceDesc
+title: PKEY_Device_DeviceDesc (Functiondiscoverykeys\_devpkey.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

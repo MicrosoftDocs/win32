@@ -1,7 +1,7 @@
 ---
 Description: Defines globally unique identifiers (GUIDs) for properties of an IContextNode.
 ms.assetid: 14992253-c384-43c1-9465-e015ea2348db
-title: Context Node Properties
+title: Context Node Properties (Iaguid.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

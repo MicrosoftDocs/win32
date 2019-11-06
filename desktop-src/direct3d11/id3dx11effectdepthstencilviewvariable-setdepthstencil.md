@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilViewVariable SetDepthStencil method
+title: ID3DX11EffectDepthStencilViewVariable SetDepthStencil method (D3dx11effect.h)
 description: Set a depth-stencil-view resource.
 ms.assetid: 35cbcd3b-6fc8-448d-a82e-724f91038d07
 keywords:

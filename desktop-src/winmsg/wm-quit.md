@@ -1,7 +1,7 @@
 ---
 Description: Indicates a request to terminate an application, and is generated when the application calls the PostQuitMessage function. This message causes the GetMessage function to return zero.
 ms.assetid: a9bff5dc-cab8-4e08-838e-d92c87c265d6
-title: WM_QUIT message
+title: WM_QUIT message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

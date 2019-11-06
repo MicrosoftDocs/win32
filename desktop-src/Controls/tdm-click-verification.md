@@ -1,5 +1,5 @@
 ---
-title: TDM_CLICK_VERIFICATION message
+title: TDM_CLICK_VERIFICATION message (Commctrl.h)
 description: Simulates a click of the verification checkbox of a task dialog, if it exists.
 ms.assetid: 1c6c135e-4e39-4f1a-88f4-5e9f7181a2dd
 keywords:

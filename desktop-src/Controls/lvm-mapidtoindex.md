@@ -1,5 +1,5 @@
 ---
-title: LVM_MAPIDTOINDEX message
+title: LVM_MAPIDTOINDEX message (Commctrl.h)
 description: Maps the ID of an item to an index.
 ms.assetid: 'vs|controls|~\controls\listview\messages\lvm_mapidtoindex.htm'
 keywords:

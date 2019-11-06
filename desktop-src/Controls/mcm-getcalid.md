@@ -1,5 +1,5 @@
 ---
-title: MCM_GETCALID message
+title: MCM_GETCALID message (Commctrl.h)
 description: Gets the calendar ID for the given calendar control. You can send this message explicitly or by using the MonthCal\_GetCALID macro.
 ms.assetid: ecfab4f3-a5af-445d-8b90-243b646524a6
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine UndoAction property
+title: IVMVirtualMachine UndoAction property (VPCCOMInterfaces.h)
 description: Default action to be performed on all undo drives when the VM is shut down.
 ms.assetid: fcdd5217-4909-435a-b11d-63578ab46e37
 keywords:

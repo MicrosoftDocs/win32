@@ -1,7 +1,7 @@
 ---
 Description: Signals that a media source is attempting to reconnect to the server.
 ms.assetid: c5975279-c710-4046-9152-d1e1c62eb785
-title: MEReconnectStart event
+title: MEReconnectStart event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

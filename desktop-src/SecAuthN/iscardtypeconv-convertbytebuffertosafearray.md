@@ -1,7 +1,7 @@
 ---
 Description: Converts a universal buffer of bytes (IStream object) into a SAFEARRAY of unsigned char (byte).
 ms.assetid: b8d052e8-2f36-42cf-b88c-ace215a2fc68
-title: ISCardTypeConv::ConvertByteBufferToSafeArray method
+title: ISCardTypeConv::ConvertByteBufferToSafeArray method (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

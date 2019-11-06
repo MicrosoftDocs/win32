@@ -1,5 +1,5 @@
 ---
-title: DRV_FREE message
+title: DRV_FREE message (Mmsystem.h)
 description: Notifies the driver that it is being removed from memory. The driver should free any memory and other system resources that it has allocated.
 ms.assetid: 0447f8e9-4c4d-4be5-ab1f-ecd3e8cd2e67
 keywords:

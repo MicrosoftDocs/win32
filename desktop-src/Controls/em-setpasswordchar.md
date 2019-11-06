@@ -1,5 +1,5 @@
 ---
-title: EM_SETPASSWORDCHAR message
+title: EM_SETPASSWORDCHAR message (Winuser.h)
 description: Sets or removes the password character for an edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 9091892c-9f37-4e06-a084-9326c5f7f31e
 keywords:

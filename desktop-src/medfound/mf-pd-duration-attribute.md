@@ -1,7 +1,7 @@
 ---
 Description: Specifies the duration of a presentation, in 100-nanosecond units.
 ms.assetid: abc21696-ea97-41ff-9341-6d9e9dcb19ec
-title: MF_PD_DURATION attribute
+title: MF_PD_DURATION attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

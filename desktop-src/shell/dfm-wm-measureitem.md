@@ -1,7 +1,7 @@
 ---
 Description: Sent to the owner window of a control or menu item when the control or menu is created.
 ms.assetid: 4584a3da-6c92-4ecd-8cf2-e4afc1b8321d
-title: DFM_WM_MEASUREITEM message
+title: DFM_WM_MEASUREITEM message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

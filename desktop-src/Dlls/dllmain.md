@@ -1,7 +1,7 @@
 ---
 Description: An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process.
 ms.assetid: 0c3e3083-9297-4626-b2a7-0062d1c2cf9e
-title: DllMain entry point
+title: DllMain entry point (Process.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

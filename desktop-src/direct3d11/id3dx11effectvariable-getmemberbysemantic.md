@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetMemberBySemantic method
+title: ID3DX11EffectVariable GetMemberBySemantic method (D3dx11effect.h)
 description: Get a structure member by semantic.
 ms.assetid: e4ae1f6a-43d2-45df-9dba-833d4f767818
 keywords:

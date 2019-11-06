@@ -1,5 +1,5 @@
 ---
-title: MM_MIXM_LINE_CHANGE message
+title: MM_MIXM_LINE_CHANGE message (Mmsystem.h)
 description: The MM\_MIXM\_LINE\_CHANGE message is sent by a mixer device to notify an application that the state of an audio line on the specified device has changed. The application should refresh its display and cached values for the specified audio line.
 ms.assetid: 68ada0be-9dc5-4edf-b924-ef0d10a1b79a
 keywords:

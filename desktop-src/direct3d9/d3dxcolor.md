@@ -1,7 +1,7 @@
 ---
 Description: Describes color values.
 ms.assetid: 53d3176a-f727-498e-8bea-0e30e0a1c66e
-title: D3DXCOLOR structure
+title: D3DXCOLOR structure (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

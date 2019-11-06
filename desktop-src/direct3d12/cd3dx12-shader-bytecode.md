@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_SHADER_BYTECODE structure
+title: CD3DX12_SHADER_BYTECODE structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_SHADER\_BYTECODE structure.
 ms.assetid: 09CEFCCE-C499-493D-ACDE-806E09995315
 keywords:

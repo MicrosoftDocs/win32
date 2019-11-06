@@ -1,5 +1,5 @@
 ---
-title: MPCLEAN_PRECHECK_DATA structure
+title: MPCLEAN_PRECHECK_DATA structure (MpClient.h)
 description: Notification data passed to clean precheck callback function.
 ms.assetid: 65B3B116-6E83-46F5-AE2B-92A41AE39480
 keywords:

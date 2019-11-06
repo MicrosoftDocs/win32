@@ -1,7 +1,7 @@
 ---
 Description: Creates a memory copy of an image.
 ms.assetid: 83a980bc-1298-439f-8dfc-49534591977f
-title: CBaseControlVideo.CopyImage method
+title: CBaseControlVideo.CopyImage method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

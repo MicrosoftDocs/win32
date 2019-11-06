@@ -1,7 +1,7 @@
 ---
 Description: Enables or disables hardware acceleration for H.264 video decoding.
 ms.assetid: 3912136d-0fc1-49b0-bc79-0785d63041e6
-title: AVDecVideoAcceleration_H264 property
+title: AVDecVideoAcceleration_H264 property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

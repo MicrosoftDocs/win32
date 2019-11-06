@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT structure
+title: CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT structure (D3dx12.h)
 description: A helper structure used to describe an input layout as a single object suitable for a stream description.
 ms.assetid: CEAD9FA6-4FB0-492E-9E81-8C4900A1FBC5
 keywords:

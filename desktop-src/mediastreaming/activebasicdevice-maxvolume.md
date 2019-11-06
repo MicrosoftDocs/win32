@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice MaxVolume property
+title: ActiveBasicDevice MaxVolume property (PlayToDevice.h)
 description: Gets the maximum volume supported by the device.
 ms.assetid: EA0EC323-4A18-4CC1-8FA4-7BD302318863
 keywords:

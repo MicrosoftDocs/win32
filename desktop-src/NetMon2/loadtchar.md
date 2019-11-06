@@ -1,7 +1,7 @@
 ---
 Description: The LoadTCHAR function is called by monitors to set a string variable to a string taken from an HTML configuration string.
 ms.assetid: 515a1053-d575-4b7c-92a7-4a8039f1b2ac
-title: LoadTCHAR function
+title: LoadTCHAR function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

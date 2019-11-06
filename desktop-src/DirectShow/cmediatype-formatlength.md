@@ -1,7 +1,7 @@
 ---
 Description: The FormatLength method retrieves the length of the format block.
 ms.assetid: f990bba9-2227-4746-a9e4-598aeba8b0b7
-title: CMediaType.FormatLength method
+title: CMediaType.FormatLength method (Mtype.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

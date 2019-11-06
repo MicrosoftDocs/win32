@@ -1,5 +1,5 @@
 ---
-title: FreeSoH function
+title: FreeSoH function (NapUtil.h)
 description: Frees a SoH data structure.
 ms.assetid: 587acf64-31be-46c8-9d49-b5014c1a90ba
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MPEXPIRATION_DATA structure
+title: MPEXPIRATION_DATA structure (MpClient.h)
 description: Product expiration status notification.
 ms.assetid: BF464FFD-16AE-4F46-83CD-E0355478180C
 keywords:

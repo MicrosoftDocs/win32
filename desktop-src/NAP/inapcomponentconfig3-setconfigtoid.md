@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig3 SetConfigToID method
+title: INapComponentConfig3 SetConfigToID method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) to provide a way to set the configuration data for a specific configuration ID.
 ms.assetid: 1fa0b8e7-b597-4ab1-bb61-2cab47b92ce3
 keywords:

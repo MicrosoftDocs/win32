@@ -1,5 +1,5 @@
 ---
-title: gluQuadricTexture function
+title: gluQuadricTexture function (Glu.h)
 description: The gluQuadricTexture function specifies whether quadrics are to be textured.
 ms.assetid: 11681497-f099-4856-a0ac-6a44abd3e1a1
 keywords:

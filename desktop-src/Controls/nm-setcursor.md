@@ -1,5 +1,5 @@
 ---
-title: NM_SETCURSOR notification code
+title: NM_SETCURSOR notification code (Commctrl.h)
 description: Notifies a control's parent window that the control is setting the cursor in response to a WM\_SETCURSOR message. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8d70563f-05a3-4116-b686-6d9063940fae
 keywords:

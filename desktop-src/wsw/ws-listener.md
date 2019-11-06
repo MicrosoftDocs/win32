@@ -1,5 +1,5 @@
 ---
-title: WS_LISTENER
+title: WS_LISTENER (WebServices.h)
 description: An opaque type used to reference a listener.
 ms.assetid: 2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa
 keywords:

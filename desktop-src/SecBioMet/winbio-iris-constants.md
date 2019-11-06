@@ -1,5 +1,5 @@
 ---
-title: WINBIO_IRIS Constants
+title: WINBIO_IRIS Constants (Winbio\_types.h)
 description: Specify the types for iris recognition.
 ms.assetid: B1A594E3-6DEA-4071-B40F-569B8094E801
 topic_type:

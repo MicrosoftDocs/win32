@@ -1,7 +1,7 @@
 ---
 Description: Contains the number of items in the collection.
 ms.assetid: a676593b-ea78-433d-a622-221028245c3a
-title: FolderItemVerbs.Count property
+title: FolderItemVerbs.Count property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

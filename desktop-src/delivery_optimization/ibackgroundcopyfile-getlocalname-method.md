@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile GetLocalName method
+title: IBackgroundCopyFile GetLocalName method (Deliveryoptimization.h)
 description: Retrieves the local name of the file.
 ms.assetid: 9AA57EB7-5C29-4E5E-972B-DD34B130E6E4
 keywords:

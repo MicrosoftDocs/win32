@@ -1,5 +1,5 @@
 ---
-title: ID3DX11DataLoader Decompress method
+title: ID3DX11DataLoader Decompress method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Decompresses encoded data.
 ms.assetid: 68579c86-9f77-444b-86b3-746cff745be8
 keywords:

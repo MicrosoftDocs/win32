@@ -1,7 +1,7 @@
 ---
 Description: Requests the title and text for a chevron infotip for the item specified by the accompanying SMDATA structure.
 ms.assetid: 7bce4079-994c-4eb0-ab86-9044701d85a1
-title: SMC_CHEVRONGETTIP message
+title: SMC_CHEVRONGETTIP message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

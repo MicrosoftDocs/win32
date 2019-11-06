@@ -1,5 +1,5 @@
 ---
-title: LVM_GETGROUPINFO message
+title: LVM_GETGROUPINFO message (Commctrl.h)
 description: Gets group information.
 ms.assetid: 72d84e0b-121e-473b-a34d-874234c598b6
 keywords:

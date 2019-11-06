@@ -1,7 +1,7 @@
 ---
 Description: Creates a texture from a file. This is a more advanced function than D3DXCreateTextureFromFile.
 ms.assetid: 820bbd77-98af-4051-a22e-825fa4dd87d8
-title: D3DXCreateTextureFromFileEx function
+title: D3DXCreateTextureFromFileEx function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

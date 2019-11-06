@@ -1,5 +1,5 @@
 ---
-title: EM_GETIMECOLOR message
+title: EM_GETIMECOLOR message (Richedit.h)
 description: Retrieves the Input Method Editor (IME) composition color.
 ms.assetid: 788ac56c-f2d8-4e9a-8829-b92dcd76e6de
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsScalar method
+title: ID3DX11EffectVariable AsScalar method (D3dx11effect.h)
 description: Get a scalar variable.
 ms.assetid: 5cc02fb3-351a-4309-9145-1ed7d759a650
 keywords:

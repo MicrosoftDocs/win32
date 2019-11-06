@@ -1,7 +1,7 @@
 ---
 Description: Initiate the rendering of a hemispheric environment map.
 ms.assetid: 1150aad9-dd8c-4943-afaf-90794faaaf70
-title: ID3DXRenderToEnvMap::BeginHemisphere method
+title: ID3DXRenderToEnvMap::BeginHemisphere method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

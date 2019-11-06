@@ -1,5 +1,5 @@
 ---
-title: TBN_RESTORE notification code
+title: TBN_RESTORE notification code (Commctrl.h)
 description: Notifies a toolbar's parent window that a toolbar is in the process of being restored. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b1f0c801-d56b-4e93-b9ba-b572aaa38647
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM_GETIMEMODEBIAS message
+title: EM_GETIMEMODEBIAS message (Richedit.h)
 description: Retrieves the Input Method Editor (IME) mode bias for a Microsoft Rich Edit control.
 ms.assetid: e8ca899f-3423-4814-86e9-133dfd11f9a6
 keywords:

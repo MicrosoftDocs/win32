@@ -1,7 +1,7 @@
 ---
 Description: Returns the square of the length of a 2D vector.
 ms.assetid: 0ecc40bb-7613-463a-a8a0-5e184feb441f
-title: D3DXVec2LengthSq function
+title: D3DXVec2LengthSq function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

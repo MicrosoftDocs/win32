@@ -1,7 +1,7 @@
 ---
 Description: Opens a handle to a private key.
 ms.assetid: 2406be2c-121c-4475-b193-d370a88641da
-title: SslOpenPrivateKey function
+title: SslOpenPrivateKey function (Sslprovider.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

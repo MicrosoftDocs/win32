@@ -1,7 +1,7 @@
 ---
 Description: Sent one time to a window, after it has exited the moving or sizing modal loop.
 ms.assetid: 3466bfb5-c38d-49d8-a4ab-bf23d09c454c
-title: WM_EXITSIZEMOVE message
+title: WM_EXITSIZEMOVE message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

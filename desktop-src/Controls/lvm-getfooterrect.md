@@ -1,5 +1,5 @@
 ---
-title: LVM_GETFOOTERRECT message
+title: LVM_GETFOOTERRECT message (Commctrl.h)
 description: Retrieves the coordinates of the footer for a list-view control. Send this message explicitly or by using the ListView\_GetFooterRect macro.
 ms.assetid: f8816f35-c1d2-4072-81d3-0a9a3df53d64
 keywords:

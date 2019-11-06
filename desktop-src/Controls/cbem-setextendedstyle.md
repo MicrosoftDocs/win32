@@ -1,5 +1,5 @@
 ---
-title: CBEM_SETEXTENDEDSTYLE message
+title: CBEM_SETEXTENDEDSTYLE message (Commctrl.h)
 description: Sets extended styles within a ComboBoxEx control.
 ms.assetid: 00848bd0-5a2f-4bfb-ae1f-ee3aa88ac57a
 keywords:

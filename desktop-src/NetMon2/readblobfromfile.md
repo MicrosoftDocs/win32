@@ -1,7 +1,7 @@
 ---
 Description: The ReadBlobFromFile function reads a BLOB in a file.
 ms.assetid: c3d4a892-160b-48e9-8881-0ada3ebd49b0
-title: ReadBlobFromFile function
+title: ReadBlobFromFile function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The system broadcasts the DBT\_DEVICETYPESPECIFIC device event when a device-specific event occurs.
 ms.assetid: 5d68e29d-b4d7-46f4-a35e-1db286e944ca
-title: DBT_DEVICETYPESPECIFIC event
+title: DBT_DEVICETYPESPECIFIC event (Dbt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

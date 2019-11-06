@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable interface
+title: ID3DX11EffectScalarVariable interface (D3dx11effect.h)
 description: An effect-scalar-variable interface accesses scalar values.
 ms.assetid: 52e3b856-aa1b-4ed2-b140-7ae96ec1c94b
 keywords:

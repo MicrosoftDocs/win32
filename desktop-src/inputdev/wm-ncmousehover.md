@@ -1,5 +1,5 @@
 ---
-title: WM_NCMOUSEHOVER message
+title: WM_NCMOUSEHOVER message (Winuser.h)
 description: Posted to a window when the cursor hovers over the nonclient area of the window for the period of time specified in a prior call to TrackMouseEvent.
 ms.assetid: ca1afdc2-7884-445e-b9b7-4d7dd5dcea38
 keywords:

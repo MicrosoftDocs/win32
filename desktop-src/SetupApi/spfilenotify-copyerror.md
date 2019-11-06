@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_COPYERROR notification is sent to the callback routine if an error occurs during a file copy operation.
 ms.assetid: d6096954-c6a5-44d4-a358-c1320c50730a
-title: SPFILENOTIFY_COPYERROR message
+title: SPFILENOTIFY_COPYERROR message (Setupapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

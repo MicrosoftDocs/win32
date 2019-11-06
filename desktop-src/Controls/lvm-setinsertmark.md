@@ -1,5 +1,5 @@
 ---
-title: LVM_SETINSERTMARK message
+title: LVM_SETINSERTMARK message (Commctrl.h)
 description: Sets the insertion point to the defined position.
 ms.assetid: 32cf5a11-918a-4dc4-bf10-88b3c26f26cc
 keywords:

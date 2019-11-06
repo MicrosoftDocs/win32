@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable GetIntVectorArray method
+title: ID3DX11EffectVectorVariable GetIntVectorArray method (D3dx11effect.h)
 description: Get an array of four-component vectors that contain integer data.
 ms.assetid: cabc3bb1-8b65-455a-af84-f96219f7cfb5
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The AudioSettingsProperty enum is used by the ITAudioSettings::GetRange, ITAudioSettings::Get, and ITAudioSettings::Set methods to indicate the audio setting property being addressed.
 ms.assetid: b91c8213-f102-4ebb-ad8a-e43709b3daad
-title: AudioSettingsProperty enumeration
+title: AudioSettingsProperty enumeration (Ipmsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget CreateSolidColorBrush methods
+title: ID2D1RenderTarget CreateSolidColorBrush methods (D2d1.h)
 description: Creates a new ID2D1SolidColorBrush that can be used to paint areas with a solid color.
 ms.assetid: 3dbfe26f-cf36-47b0-925e-4934e0d7c390
 keywords:

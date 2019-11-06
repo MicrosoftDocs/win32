@@ -1,5 +1,5 @@
 ---
-title: EM_INSERTIMAGE message
+title: EM_INSERTIMAGE message (Richedit.h)
 description: Replaces the selection with a blob that displays an image.
 ms.assetid: 147B298B-C4A9-455B-9736-A0B09D72902B
 keywords:

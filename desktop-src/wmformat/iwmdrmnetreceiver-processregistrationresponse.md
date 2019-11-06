@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNetReceiver ProcessRegistrationResponse method
+title: IWMDRMNetReceiver ProcessRegistrationResponse method (Wmdrmsdk.h)
 description: The ProcessRegistrationResponse method processes a registration response sent by the transmitter in reply to a registration challenge.
 ms.assetid: d0260e93-0a5e-494b-a723-bb62206ed55b
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The GetSubObject method retrieves the subobject associated with this object.
 ms.assetid: 478597d6-ae13-4fa9-a928-19893f378f1a
-title: IAMTimelineObj::GetSubObject method
+title: IAMTimelineObj::GetSubObject method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

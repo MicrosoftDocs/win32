@@ -1,7 +1,7 @@
 ---
 Description: Evaluates an expression, and displays a diagnostic message if the expression is FALSE. Ignored in retail builds.
 ms.assetid: 8c3815bb-3164-4066-a947-974e791af5cd
-title: ASSERT macro
+title: ASSERT macro (Wxdebug.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

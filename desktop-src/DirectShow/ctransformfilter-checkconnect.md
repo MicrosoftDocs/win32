@@ -1,7 +1,7 @@
 ---
 Description: The CheckConnect method determines whether a pin connection is suitable.
 ms.assetid: 4bec4b19-3f7c-43d8-9a45-2eb2cc15a0d4
-title: CTransformFilter.CheckConnect method
+title: CTransformFilter.CheckConnect method (Transfrm.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: INapServerCallback OnComplete method
+title: INapServerCallback OnComplete method (NapSystemHealthValidator.h)
 description: Used by SHVs to signal asynchronous request completion.
 ms.assetid: 959ee4ac-7c29-4013-a174-24abc6a580c7
 keywords:

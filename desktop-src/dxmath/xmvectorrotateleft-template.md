@@ -1,7 +1,7 @@
 ---
 Description: Rotates the vector left by a given number of 32-bit elements.
 ms.assetid: ba3698ed-212d-4ef0-846a-4099d0e1abec
-title: XMVectorRotateLeft template
+title: XMVectorRotateLeft template (DirectXMath.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

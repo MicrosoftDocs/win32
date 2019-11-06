@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_PAL_PASTE message
+title: WM_CAP_PAL_PASTE message (Vfw.h)
 description: The WM\_CAP\_PAL\_PASTE message copies the palette from the clipboard and passes it to a capture driver. You can send this message explicitly or by using the capPalettePaste macro.
 ms.assetid: d49c7fd9-be40-4a07-8339-b85f7c4c331e
 keywords:

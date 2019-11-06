@@ -1,7 +1,7 @@
 ---
 Description: The orientation of the BoundingFrustum represented as a quaternion.
 ms.assetid: 080ac6f5-aa1d-47ce-804a-f1beb113b769
-title: BoundingFrustum.Orientation
+title: BoundingFrustum.Orientation (DirectXCollision.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

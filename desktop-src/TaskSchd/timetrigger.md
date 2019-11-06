@@ -1,5 +1,5 @@
 ---
-title: TimeTrigger object
+title: TimeTrigger object (Windows.applicationmodel.background.h)
 description: Scripting object that represents a trigger that starts a task at a specific date and time.
 ms.assetid: '3c277827-8e70-42e7-a849-773ecc997a93'
 keywords:

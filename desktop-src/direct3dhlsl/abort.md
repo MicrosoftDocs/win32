@@ -1,5 +1,5 @@
 ---
-title: abort function
+title: abort function (Corecrt\_terminate.h)
 description: Submits an error message to the information queue and terminates the current draw or dispatch call being executed.
 ms.assetid: b8ce153b-0d1c-4294-b88e-b7e50e708ab9
 keywords:

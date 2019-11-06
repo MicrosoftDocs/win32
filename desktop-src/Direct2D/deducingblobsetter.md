@@ -1,5 +1,5 @@
 ---
-title: DeducingBlobSetter
+title: DeducingBlobSetter (D2d1effecthelpers.h)
 description: Deduces the class and arguments and then calls a member-function property setter callback for a blob-type property.
 ms.assetid: 4B8B871D-FE5E-4EF3-AEED-A3D92C10E8C6
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Used with compressed results of the vertex version of the precomputed radiance transfer (PRT) simulator.
 ms.assetid: 0ec28b8c-5010-48a4-8e45-d7f9aa08185f
-title: D3DXSHPRTCompSuperCluster function
+title: D3DXSHPRTCompSuperCluster function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

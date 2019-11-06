@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest SetSoHResponse method
+title: INapSystemHealthValidationRequest SetSoHResponse method (NapSystemHealthValidator.h)
 description: Allows System Health Validators (SHVs) to set the SoHResponse to be sent to its System Health Agent (SHA) counterpart on the client-side.
 ms.assetid: 250b90ac-ce8f-4771-9d20-84c491adfb2c
 keywords:

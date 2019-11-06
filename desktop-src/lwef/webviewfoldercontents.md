@@ -1,5 +1,5 @@
 ---
-title: WebViewFolderContents object
+title: WebViewFolderContents object (Shldisp.h)
 description: Implemented by the Shell for use inside a WebView.
 ms.assetid: c9c46e21-2721-43c9-a6f4-38fafbda3798
 keywords:

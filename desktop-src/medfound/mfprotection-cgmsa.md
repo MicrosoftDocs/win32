@@ -1,7 +1,7 @@
 ---
 Description: Specifies Copy Generational Management System - A (CGMS-A) protection.
 ms.assetid: 40802859-711E-4531-948F-902E8735A977
-title: MFPROTECTION_CGMSA attribute
+title: MFPROTECTION_CGMSA attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

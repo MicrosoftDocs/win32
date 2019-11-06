@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetVariableByName method
+title: ID3DX11Effect GetVariableByName method (D3dx11effect.h)
 description: Get a variable by name.
 ms.assetid: d20c5a85-51a5-482f-b5b0-197d8e993910
 keywords:

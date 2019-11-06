@@ -1,5 +1,5 @@
 ---
-title: Windows numerics and DirectXMath interop APIs
+title: Windows numerics and DirectXMath interop APIs (Windowsnumerics.h)
 description: These functions convert Windows.Foundation.Numerics types to and from the DirectXMath SIMD types XMVECTOR and XMMATRIX.
 ms.assetid: 05851054-196E-4955-B9C5-85C2E33EF488
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: glPassThrough function
+title: glPassThrough function (Gl.h)
 description: The glPassThrough function places a marker in the feedback buffer.
 ms.assetid: 14664ac6-eb25-46ae-86d8-7ece31df103f
 keywords:

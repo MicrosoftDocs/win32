@@ -1,7 +1,7 @@
 ---
 Description: Toggles the mode to draw OpenGL-style lines.
 ms.assetid: 298bf391-9f2b-4352-b9f8-3bc2ab661eee
-title: ID3DXLine::SetGLLines method
+title: ID3DXLine::SetGLLines method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

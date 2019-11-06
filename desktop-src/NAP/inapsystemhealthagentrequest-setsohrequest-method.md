@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentRequest SetSoHRequest method
+title: INapSystemHealthAgentRequest SetSoHRequest method (NapSystemHealthAgent.h)
 description: Is used by health agents to write their SoH request resulting from the call to INapSystemHealthAgentCallback GetSoHRequest.
 ms.assetid: 76471cf2-e5df-4e07-b872-ccac0fd45998
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SBM_SETPOS message
+title: SBM_SETPOS message (Winuser.h)
 description: The SBM\_SETPOS message is sent to set the position of the scroll box (thumb) and, if requested, redraw the scroll bar to reflect the new position of the scroll box.
 ms.assetid: 6b3c16ba-1cdf-41ff-8546-ba98477af334
 keywords:

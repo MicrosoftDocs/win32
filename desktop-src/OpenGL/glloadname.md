@@ -1,5 +1,5 @@
 ---
-title: glLoadName function
+title: glLoadName function (Gl.h)
 description: The glLoadName function loads a name onto the name stack.
 ms.assetid: 8d7d582b-3743-401e-af71-28034e49f3c2
 keywords:

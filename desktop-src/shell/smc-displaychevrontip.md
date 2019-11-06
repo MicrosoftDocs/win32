@@ -1,6 +1,6 @@
 ---
 Description: Notifies you that an infotip is about to be displayed for the chevron associated with the item specified by the accompanying SMDATA structure.
-title: SMC_DISPLAYCHEVRONTIP message
+title: SMC_DISPLAYCHEVRONTIP message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: e4ec4839-e49a-4563-9bc9-79f9d4d54658

@@ -1,7 +1,7 @@
 ---
 Description: The MULTICAST\_LOOPBACK\_MODE enum describes the multicast loopback mode.
 ms.assetid: bf9c3665-71cc-4cde-9ad4-1a8b62eddf9f
-title: MULTICAST_LOOPBACK_MODE enumeration
+title: MULTICAST_LOOPBACK_MODE enumeration (Confpriv.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

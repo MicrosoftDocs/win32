@@ -1,5 +1,5 @@
 ---
-title: Direct2D Error Codes
+title: Direct2D Error Codes (**D2DERR\_UNSUPPORTED\_PIXEL\_FORMAT**</dt> <dt>WINCODEC\_ERR\_UNSUPPORTEDPIXELFORMAT (error in wincodec.h)
 description: This document lists the error codes used by Direct2D.
 ms.assetid: 018bfca5-6ef4-497c-a4b6-8502c3cdac1b
 topic_type:

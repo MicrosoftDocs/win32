@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilter UID property
+title: IPropertyFilter UID property (WdsSharedIDL.h)
 description: UID for the property to filter by.
 ms.assetid: a9dfb34c-a161-4d5f-8d01-695b2f9346e6
 keywords:

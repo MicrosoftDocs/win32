@@ -1,5 +1,5 @@
 ---
-title: IResultType interface
+title: IResultType interface (WdsSharedIDL.h)
 description: Exposes property type information.
 ms.assetid: 68abd470-2505-4836-a17f-f1c14157f8e7
 keywords:

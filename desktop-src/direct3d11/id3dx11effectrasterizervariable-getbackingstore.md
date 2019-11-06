@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRasterizerVariable GetBackingStore method
+title: ID3DX11EffectRasterizerVariable GetBackingStore method (D3dx11effect.h)
 description: Get a pointer to a variable that contains rasteriser state.
 ms.assetid: aff62a6c-bdef-49ad-9492-5db0878f632e
 keywords:

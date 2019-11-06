@@ -1,5 +1,5 @@
 ---
-title: Windows Event Collector Data Types
+title: Windows Event Collector Data Types (Evcoll.h)
 description: The data types for the Windows Event Collector are used as event subscription object variable types, function parameter types, and function return types.
 ms.assetid: b78bdaf8-e034-40fe-acf8-632313e4fd94
 ms.tgt_platform: multiple

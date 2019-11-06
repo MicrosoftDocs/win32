@@ -1,7 +1,7 @@
 ---
 Description: The UpdateColourTable method updates the color table with a new palette.
 ms.assetid: 61ad98c6-a526-4aac-ad68-d44fadc668de
-title: CDrawImage.UpdateColourTable method
+title: CDrawImage.UpdateColourTable method (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

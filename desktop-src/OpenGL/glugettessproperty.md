@@ -1,5 +1,5 @@
 ---
-title: gluGetTessProperty function
+title: gluGetTessProperty function (Glu.h)
 description: The gluGetTessProperty function gets a tessellation object property.
 ms.assetid: 6aa565d8-2257-4259-a959-b7d806a7ed96
 keywords:

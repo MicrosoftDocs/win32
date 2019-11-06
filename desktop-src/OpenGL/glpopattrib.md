@@ -1,5 +1,5 @@
 ---
-title: glPopAttrib function
+title: glPopAttrib function (Gl.h)
 description: Pops the attribute stack.
 ms.assetid: 6a11392c-d5af-47bb-a66a-691730a58260
 keywords:

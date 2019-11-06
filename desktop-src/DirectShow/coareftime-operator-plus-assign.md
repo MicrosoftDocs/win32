@@ -1,7 +1,7 @@
 ---
 Description: This operator adds two reference times, and sets this object to the result.
 ms.assetid: 6d29014b-0e31-497e-8326-e3fefc022227
-title: COARefTime.operator+= method
+title: COARefTime.operator+= method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

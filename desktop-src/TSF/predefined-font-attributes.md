@@ -1,5 +1,5 @@
 ---
-title: Predefined Font Attributes
+title: Predefined Font Attributes (TsAttrid.h)
 description: The following values identify font attributes obtained with the ITfContext GetAppProperty method. The data format and contents of each property type are included.
 ms.assetid: 8d73c258-77d5-46db-9d31-ac41d9e7acb3
 keywords:

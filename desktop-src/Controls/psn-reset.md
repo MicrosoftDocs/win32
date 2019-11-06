@@ -1,5 +1,5 @@
 ---
-title: PSN_RESET notification code
+title: PSN_RESET notification code (Prsht.h)
 description: Notifies a page that the property sheet is about to be destroyed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 75448852-8a5e-41a7-92b6-00692e771a06
 keywords:

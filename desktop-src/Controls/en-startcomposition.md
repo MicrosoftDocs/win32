@@ -1,5 +1,5 @@
 ---
-title: EN_STARTCOMPOSITION notification code
+title: EN_STARTCOMPOSITION notification code (Richedit.h)
 description: Notifies a rich edit control parent window that the user started typing with IME or Text Services Framework.
 ms.assetid: 755C0C5F-061B-44AF-98A5-776AEE1B7AF8
 keywords:

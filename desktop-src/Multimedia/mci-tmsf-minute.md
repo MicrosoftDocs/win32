@@ -1,5 +1,5 @@
 ---
-title: MCI_TMSF_MINUTE macro
+title: MCI_TMSF_MINUTE macro (Mciapi.h)
 description: The MCI\_TMSF\_MINUTE macro retrieves the minutes component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.
 ms.assetid: 9a972579-240f-4641-b65e-9088f39cdf9e
 keywords:

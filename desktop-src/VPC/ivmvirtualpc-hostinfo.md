@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC HostInfo property
+title: IVMVirtualPC HostInfo property (VPCCOMInterfaces.h)
 description: Retrieves information about the physical computer.
 ms.assetid: 9efefea1-e608-48db-a91a-e3808b420fc2
 keywords:

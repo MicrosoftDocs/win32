@@ -1,5 +1,5 @@
 ---
-title: MPCOMPONENT_VERSION structure
+title: MPCOMPONENT_VERSION structure (MpClient.h)
 description: Version and update time for an individual component.
 ms.assetid: 43468230-EE13-4630-8C09-F8DF983EF748
 keywords:

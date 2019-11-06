@@ -1,7 +1,7 @@
 ---
 Description: Enables or disables hardware acceleration for MPEG-2 video decoding.
 ms.assetid: 2e05f9e5-28a6-48f3-956d-a14eaf3bf4ba
-title: AVDecVideoAcceleration_MPEG2 property
+title: AVDecVideoAcceleration_MPEG2 property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: EM_SETFONTSIZE message
+title: EM_SETFONTSIZE message (Richedit.h)
 description: Sets the font size for the selected text in a rich edit control.
 ms.assetid: 18d91370-12c0-4e5f-a0e9-ffde02abc966
 keywords:

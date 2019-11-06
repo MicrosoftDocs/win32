@@ -1,5 +1,5 @@
 ---
-title: WebViewFolderContents.ViewOptions property
+title: WebViewFolderContents.ViewOptions property (Shldisp.h)
 description: Gets a set of ShellFolderViewOptions flags that indicate the current options of the view.
 ms.assetid: 96edb144-e532-4ab5-99ae-d945e211d744
 keywords:

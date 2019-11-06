@@ -1,5 +1,5 @@
 ---
-title: Tree-View Control Item States
+title: Tree-View Control Item States (CommCtrl.h)
 description: This section lists the item state flags used to indicate the state of an item in a tree-view control.
 ms.assetid: 5b11d575-6dfd-47a8-b959-b19aaeeca70e
 topic_type:

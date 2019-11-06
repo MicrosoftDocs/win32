@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement DeleteLicense method
+title: IWMDRMLicenseManagement DeleteLicense method (Wmdrmsdk.h)
 description: The DeleteLicense method removes a license from the temporary local license store.
 ms.assetid: 0aa7143a-845a-41a4-8b3c-a04c68ee280a
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents a printer driver on which other printer drivers depend.
 ms.assetid: b03f9ac1-7ad2-4aee-b496-e1ee15ba7d38
-title: CORE_PRINTER_DRIVER structure
+title: CORE_PRINTER_DRIVER structure (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The IAMTimelineSplittable interface splits a timeline object in DirectShow Editing Services (DES). Sources, effects, transitions, and tracks implement this interface.
 ms.assetid: bb066d34-0ffd-495f-83ce-59ad054a7782
-title: IAMTimelineSplittable interface
+title: IAMTimelineSplittable interface (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

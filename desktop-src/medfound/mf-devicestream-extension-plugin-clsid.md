@@ -1,7 +1,7 @@
 ---
 Description: Specifies the CLSID of a post-processing plug-in for a video capture device.
 ms.assetid: 8F626FAA-C7B8-4DBA-BD65-7CE97CBF3A86
-title: MF_DEVICESTREAM_EXTENSION_PLUGIN_CLSID attribute
+title: MF_DEVICESTREAM_EXTENSION_PLUGIN_CLSID attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

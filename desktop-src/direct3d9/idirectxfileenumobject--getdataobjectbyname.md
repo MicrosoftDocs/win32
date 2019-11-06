@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the data object that has the specified name. Deprecated.
 ms.assetid: d04d5a45-72d9-4256-8700-378e8139ed36
-title: IDirectXFileEnumObject::GetDataObjectByName method
+title: IDirectXFileEnumObject::GetDataObjectByName method (DXFile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: Remote Access Service Data Types
+title: Remote Access Service Data Types (Ras.h)
 description: The following data types are used by the Remote Access Service API.
 ms.assetid: aaa7f971-9c23-4738-a386-9b7db859f6be
 keywords:

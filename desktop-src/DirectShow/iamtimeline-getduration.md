@@ -1,7 +1,7 @@
 ---
 Description: The GetDuration method retrieves the duration of the timeline.
 ms.assetid: d60269b8-597a-4ba4-932a-54b4a36e9a7a
-title: IAMTimeline::GetDuration method
+title: IAMTimeline::GetDuration method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: CDN_INCLUDEITEM notification code
+title: CDN_INCLUDEITEM notification code (Commdlg.h)
 description: Sent by an Open or Save As dialog box to determine whether the dialog box should display an item in a shell folder's item list.
 ms.assetid: 0972a78d-e058-4bac-85bd-fbd4c3885552
 keywords:

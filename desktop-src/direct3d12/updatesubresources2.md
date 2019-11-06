@@ -1,5 +1,5 @@
 ---
-title: UpdateSubresources (heap-allocating) function
+title: UpdateSubresources (heap-allocating) function (D3dx12.h)
 description: Updates subresources with a heap-allocating implementation.
 ms.assetid: 328D8755-D328-471D-AAF4-9771CBFF7539
 keywords:

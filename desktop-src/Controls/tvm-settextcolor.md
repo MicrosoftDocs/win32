@@ -1,5 +1,5 @@
 ---
-title: TVM_SETTEXTCOLOR message
+title: TVM_SETTEXTCOLOR message (Commctrl.h)
 description: Sets the text color of the control. You can send this message explicitly or by using the TreeView\_SetTextColor macro.
 ms.assetid: eb57dfd5-3e7b-4cda-a659-be9e03470a44
 keywords:

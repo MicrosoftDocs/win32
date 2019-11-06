@@ -1,5 +1,5 @@
 ---
-title: D3DX11_EFFECT_SHADER_DESC structure
+title: D3DX11_EFFECT_SHADER_DESC structure (D3dx11effect.h)
 description: Describes an effect shader.
 ms.assetid: 4377eec6-f331-4cad-bf16-189d6296f886
 keywords:

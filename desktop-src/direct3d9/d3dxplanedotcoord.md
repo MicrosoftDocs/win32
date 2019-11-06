@@ -1,7 +1,7 @@
 ---
 Description: Computes the dot product of a plane and a 3D vector. The w parameter of the vector is assumed to be 1.
 ms.assetid: 634de6bc-b631-493d-a7a6-292a3c3253d6
-title: D3DXPlaneDotCoord function
+title: D3DXPlaneDotCoord function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

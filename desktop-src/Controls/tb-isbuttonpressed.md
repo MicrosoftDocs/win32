@@ -1,5 +1,5 @@
 ---
-title: TB_ISBUTTONPRESSED message
+title: TB_ISBUTTONPRESSED message (Commctrl.h)
 description: Determines whether the specified button in a toolbar is pressed.
 ms.assetid: b8e2434c-24c2-47eb-b243-ffdaf31d5b8f
 keywords:

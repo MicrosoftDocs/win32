@@ -1,5 +1,5 @@
 ---
-title: PSM_ADDPAGE message
+title: PSM_ADDPAGE message (Prsht.h)
 description: Adds a new page to the end of an existing property sheet. You can send this message explicitly or by using the PropSheet\_AddPage macro.
 ms.assetid: 41f9a09e-6de6-466b-bdfa-c8c4e8f193e4
 keywords:

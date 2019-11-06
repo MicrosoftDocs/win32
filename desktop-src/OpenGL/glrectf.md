@@ -1,5 +1,5 @@
 ---
-title: glRectf function
+title: glRectf function (Gl.h)
 description: The glRectf function draws a rectangle.
 ms.assetid: 3fb55382-6041-4d9a-83cb-09a5170cc95a
 keywords:

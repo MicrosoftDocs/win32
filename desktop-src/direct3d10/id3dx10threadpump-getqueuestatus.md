@@ -1,7 +1,7 @@
 ---
 Description: Get the number of items in each of the three queues inside the thread pump.
 ms.assetid: b5b829a5-5ef7-4ef5-afb4-efe1bb22ae70
-title: ID3DX10ThreadPump::GetQueueStatus method
+title: ID3DX10ThreadPump::GetQueueStatus method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

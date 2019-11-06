@@ -1,7 +1,7 @@
 ---
 Description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from memory without compiling it.
 ms.assetid: 099bc010-1269-4833-8a96-a7c78ed48206
-title: D3DX10PreprocessShaderFromMemory function
+title: D3DX10PreprocessShaderFromMemory function (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

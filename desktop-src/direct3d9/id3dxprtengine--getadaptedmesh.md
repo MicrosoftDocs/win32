@@ -1,7 +1,7 @@
 ---
 Description: Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).
 ms.assetid: 21447733-b27b-4906-8c0e-7089dec71b5b
-title: ID3DXPRTEngine::GetAdaptedMesh method
+title: ID3DXPRTEngine::GetAdaptedMesh method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

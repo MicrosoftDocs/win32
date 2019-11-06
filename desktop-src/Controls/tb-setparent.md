@@ -1,5 +1,5 @@
 ---
-title: TB_SETPARENT message
+title: TB_SETPARENT message (Commctrl.h)
 description: Sets the window to which the toolbar control sends notification messages.
 ms.assetid: 4863bd9f-021b-4295-9483-459fc19325d9
 keywords:

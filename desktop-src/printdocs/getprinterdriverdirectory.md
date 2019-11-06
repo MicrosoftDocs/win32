@@ -1,7 +1,7 @@
 ---
 Description: The GetPrinterDriverDirectory function retrieves the path of the printer-driver directory.
 ms.assetid: 69c9cc87-d7e3-496a-b631-b3ae30cdb3fd
-title: GetPrinterDriverDirectory function
+title: GetPrinterDriverDirectory function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

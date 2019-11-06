@@ -1,5 +1,5 @@
 ---
-title: Client Error Codes
+title: Client Error Codes (Winbio\_err.h)
 description: Error codes defined in the Winbio\_err.h header file.
 ms.assetid: fc1565d2-43f1-45cd-ab84-4e557cf78107
 topic_type:

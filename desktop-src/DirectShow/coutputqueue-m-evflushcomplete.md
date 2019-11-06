@@ -1,7 +1,7 @@
 ---
 Description: Event that signals when a flush operation has finished.
 ms.assetid: e2640fa1-03d1-4323-a9cb-698d130929f7
-title: COutputQueue::m_evFlushComplete member
+title: COutputQueue::m_evFlushComplete member (Outputq.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

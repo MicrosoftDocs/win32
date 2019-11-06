@@ -1,5 +1,5 @@
 ---
-title: TBM_GETRANGEMAX message
+title: TBM_GETRANGEMAX message (Commctrl.h)
 description: Retrieves the maximum position for the slider in a trackbar.
 ms.assetid: c0ae5f96-f4ce-46cd-84d0-9e7c473441a0
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Tab Control Extended Styles
+title: Tab Control Extended Styles (CommCtrl.h)
 description: The tab control now supports extended styles. These styles are manipulated using the TCM\_GETEXTENDEDSTYLE and TCM\_SETEXTENDEDSTYLE messages and should not be confused with extended window styles that are passed to CreateWindowEx.
 ms.assetid: 24294037-598c-4fcd-8a7c-8647ccfb1d81
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: Computes a bounding sphere for the mesh.
 ms.assetid: efa1365b-fe3a-4165-a3cb-bc1cd2ba03c0
-title: D3DXComputeBoundingSphere function
+title: D3DXComputeBoundingSphere function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

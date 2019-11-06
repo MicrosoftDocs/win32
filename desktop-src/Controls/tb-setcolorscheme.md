@@ -1,5 +1,5 @@
 ---
-title: TB_SETCOLORSCHEME message
+title: TB_SETCOLORSCHEME message (Commctrl.h)
 description: Sets the color scheme information for the toolbar control.
 ms.assetid: 96cf6464-b760-46af-910f-984e41dbfca5
 keywords:

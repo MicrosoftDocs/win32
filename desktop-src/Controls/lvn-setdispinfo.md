@@ -1,5 +1,5 @@
 ---
-title: LVN_SETDISPINFO notification code
+title: LVN_SETDISPINFO notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that it must update the information it maintains for an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 1ea51d50-4a57-4662-972e-89e916fa9b16
 keywords:

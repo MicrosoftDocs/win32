@@ -1,5 +1,5 @@
 ---
-title: PSM_PAGETOINDEX message
+title: PSM_PAGETOINDEX message (Prsht.h)
 description: Takes the HPROPSHEETPAGE handle of the property sheet page and returns its zero-based index. You can send this message explicitly or use the PropSheet\_PageToIndex macro.
 ms.assetid: 'vs|controls|~\controls\propsheet\messages\psm_pagetoindex.htm'
 keywords:

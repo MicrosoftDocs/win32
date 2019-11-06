@@ -1,5 +1,5 @@
 ---
-title: CQPM_GETPARAMETERS message
+title: CQPM_GETPARAMETERS message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page to retrieve data about the query performed by the page.
 ms.assetid: 6b94b318-8356-4554-99fe-f82364325e6e
 ms.tgt_platform: multiple

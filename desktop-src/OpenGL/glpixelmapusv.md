@@ -1,5 +1,5 @@
 ---
-title: glPixelMapusv function
+title: glPixelMapusv function (Gl.h)
 description: The glPixelMapusv function sets up pixel transfer maps.
 ms.assetid: c542a1be-8fb0-4269-afc0-459182c89534
 keywords:

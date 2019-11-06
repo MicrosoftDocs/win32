@@ -1,5 +1,5 @@
 ---
-title: EM_SETPALETTE message
+title: EM_SETPALETTE message (Richedit.h)
 description: Changes the palette that a rich edit control uses for its display window.
 ms.assetid: c1dc0c24-eaf2-47a8-9bb1-59f37b206feb
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The ModifyFrame function alters an existing frame with new data.
 ms.assetid: ebd248e4-b248-4f4a-8b94-a6d1c331d12a
-title: ModifyFrame function
+title: ModifyFrame function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

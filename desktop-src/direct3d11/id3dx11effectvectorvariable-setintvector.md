@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable SetIntVector method
+title: ID3DX11EffectVectorVariable SetIntVector method (D3dx11effect.h)
 description: Set a four-component vector that contains integer data.
 ms.assetid: d0546da4-c3b4-4e97-9aa9-d3b7022e22c5
 keywords:

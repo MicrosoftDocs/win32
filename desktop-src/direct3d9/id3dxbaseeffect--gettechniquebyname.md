@@ -1,7 +1,7 @@
 ---
 Description: Gets the handle of a technique by looking up its name.
 ms.assetid: 34871229-ad63-4575-8c60-f27d7f7dddce
-title: ID3DXBaseEffect::GetTechniqueByName method
+title: ID3DXBaseEffect::GetTechniqueByName method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

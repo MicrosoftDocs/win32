@@ -1,7 +1,7 @@
 ---
 Description: The CheckMediaType method determines if the filter accepts a specific media type.
 ms.assetid: 90d26cf6-443c-4a06-98c6-ffa14e27ee41
-title: CBaseRenderer.CheckMediaType method
+title: CBaseRenderer.CheckMediaType method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

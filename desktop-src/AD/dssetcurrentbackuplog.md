@@ -1,5 +1,5 @@
 ---
-title: DsSetCurrentBackupLog function
+title: DsSetCurrentBackupLog function (Ntdsbcli.h)
 description: Sets the current backup log number after a successful restore.
 ms.assetid: 903bddea-c5a7-4b3f-819c-0467a9c5ae1b
 ms.tgt_platform: multiple

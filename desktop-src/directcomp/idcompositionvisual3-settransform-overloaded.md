@@ -1,5 +1,5 @@
 ---
-title: IDCompositionVisual3 SetTransform methods
+title: IDCompositionVisual3 SetTransform methods (Dcomp.h)
 description: Sets the Transform property of this visual. The Transform property specifies a 3D transform used to modify the coordinate system of this visual. The property can specify either a 4-by-4 transform matrix or a transform object.
 ms.assetid: a59498c2-8659-dd35-8dc2-87457f493965
 keywords:

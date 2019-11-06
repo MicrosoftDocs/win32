@@ -1,5 +1,5 @@
 ---
-title: LVN_COLUMNOVERFLOWCLICK notification code
+title: LVN_COLUMNOVERFLOWCLICK notification code (Commctrl.h)
 description: Sent by a list-view control when its overflow button is clicked. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 3d3bb7be-b598-450a-b829-a5aa5b1a0c5d
 keywords:

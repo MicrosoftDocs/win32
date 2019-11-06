@@ -1,5 +1,5 @@
 ---
-title: EapHostPeerNapInfo structure
+title: EapHostPeerNapInfo structure (Eaphostpeerapis.h)
 description: Contains the Network Access Protection (NAP) information on an EAP supplicant.
 ms.assetid: 703eda56-5932-44d5-ae7f-0a6328d82237
 keywords:

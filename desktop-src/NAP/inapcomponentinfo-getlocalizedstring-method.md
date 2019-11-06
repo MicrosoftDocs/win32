@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo GetLocalizedString method
+title: INapComponentInfo GetLocalizedString method (NapCommon.h)
 description: Is used by the NAP System to get localized strings.
 ms.assetid: ad5be180-6329-4c91-b4d1-871a4d83c323
 keywords:

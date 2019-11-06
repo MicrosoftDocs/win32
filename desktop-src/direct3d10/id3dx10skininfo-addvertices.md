@@ -1,7 +1,7 @@
 ---
 Description: Allocate space for additional vertices.
 ms.assetid: dd6445ea-4754-4ba3-a264-59295325ee08
-title: ID3DX10SkinInfo::AddVertices method
+title: ID3DX10SkinInfo::AddVertices method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

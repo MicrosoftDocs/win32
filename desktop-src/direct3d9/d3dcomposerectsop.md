@@ -1,7 +1,7 @@
 ---
 Description: Specifies how to combine the glyph data from the source and destination surfaces in a call to ComposeRects.
 ms.assetid: 4b0e6e48-48e0-4955-bb20-f953fdce785c
-title: D3DCOMPOSERECTSOP enumeration
+title: D3DCOMPOSERECTSOP enumeration (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

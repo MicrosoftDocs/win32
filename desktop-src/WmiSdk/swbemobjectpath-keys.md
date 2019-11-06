@@ -2,7 +2,7 @@
 Description: The Keys property of the SWbemObjectPath object is an SWbemNamedValueSet object that contains the key value bindings. This property is read-only.
 ms.assetid: 1919403d-6dea-4d41-9bc7-a622a9c9c2c8
 ms.tgt_platform: multiple
-title: SWbemObjectPath.Keys property
+title: SWbemObjectPath.Keys property (Adoctint.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

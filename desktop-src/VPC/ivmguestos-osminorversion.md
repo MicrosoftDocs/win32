@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS OSMinorVersion property
+title: IVMGuestOS OSMinorVersion property (VPCCOMInterfaces.h)
 description: The minor version of the guest operating system running in the virtual machine.
 ms.assetid: fa71e215-8633-4f53-ab71-bc9bfdb56cc8
 keywords:

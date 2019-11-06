@@ -1,5 +1,5 @@
 ---
-title: TVM_GETITEMRECT message
+title: TVM_GETITEMRECT message (Commctrl.h)
 description: Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can send this message explicitly or by using the TreeView\_GetItemRect macro.
 ms.assetid: f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c
 keywords:

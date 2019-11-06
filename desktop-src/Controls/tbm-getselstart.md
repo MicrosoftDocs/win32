@@ -1,5 +1,5 @@
 ---
-title: TBM_GETSELSTART message
+title: TBM_GETSELSTART message (Commctrl.h)
 description: Retrieves the starting position of the current selection range in a trackbar.
 ms.assetid: 0000df2a-c40d-40c2-b120-e5d4fe6c5016
 keywords:

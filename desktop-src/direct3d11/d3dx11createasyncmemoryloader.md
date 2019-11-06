@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateAsyncMemoryLoader function
+title: D3DX11CreateAsyncMemoryLoader function (D3DX11async.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create an asynchronous-memory loader.
 ms.assetid: 0bf1e6a2-a968-4644-a7b4-e847ed4f7450
 keywords:

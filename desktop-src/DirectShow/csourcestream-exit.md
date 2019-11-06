@@ -1,7 +1,7 @@
 ---
 Description: The Exit method signals the streaming thread to exit.
 ms.assetid: 1bb59848-e405-40f9-87ec-33de8754e2dd
-title: CSourceStream.Exit method
+title: CSourceStream.Exit method (Source.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

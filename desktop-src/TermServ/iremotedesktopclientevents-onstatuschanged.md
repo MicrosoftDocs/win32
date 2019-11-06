@@ -1,5 +1,5 @@
 ---
-title: IRemoteDesktopClientEvents OnStatusChanged method
+title: IRemoteDesktopClientEvents OnStatusChanged method (Locationapi.h)
 description: Called when the client control has updated its status.
 ms.assetid: AAFBDC9E-C8B5-4924-AA69-82EF09996AF7
 ms.tgt_platform: multiple

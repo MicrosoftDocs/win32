@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive ReleaseHostDrive method
+title: IVMFloppyDrive ReleaseHostDrive method (VPCCOMInterfaces.h)
 description: Releases a physical drive on the host from the floppy drive.
 ms.assetid: 6d5a8e7c-684c-42bc-84e5-76d3e761b7f0
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: D2D1_TAG
+title: D2D1_TAG (D2d1.h)
 description: An application-defined 64-bit value used to \ 160;mark a set of rendering operations.
 ms.assetid: 4f363295-f140-4149-ba78-3abbc56eebe8
 keywords:

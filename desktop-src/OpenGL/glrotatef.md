@@ -1,5 +1,5 @@
 ---
-title: glRotatef function
+title: glRotatef function (Gl.h)
 description: The glRotatef function multiplies the current matrix by a rotation matrix.
 ms.assetid: 8216a125-de8c-44e5-afb3-3d4e5ffc600d
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The Subtype method retrieves the subtype.
 ms.assetid: b7555092-91e7-4bb8-8080-087b93472faa
-title: CMediaType.Subtype method
+title: CMediaType.Subtype method (Mtype.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

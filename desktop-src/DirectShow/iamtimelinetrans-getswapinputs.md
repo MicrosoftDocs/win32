@@ -1,7 +1,7 @@
 ---
 Description: The GetSwapInputs method retrieves a value that indicates whether the transition inputs are swapped.
 ms.assetid: 84cb5c3d-7c3a-4c35-aac7-97d812d99a38
-title: IAMTimelineTrans::GetSwapInputs method
+title: IAMTimelineTrans::GetSwapInputs method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

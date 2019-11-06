@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard HasExclusiveAccess property
+title: IVMKeyboard HasExclusiveAccess property (VPCCOMInterfaces.h)
 description: Indicates whether this object has exclusive control over the VM's keyboard device.
 ms.assetid: edba154e-e700-488c-9133-91649daecef1
 keywords:

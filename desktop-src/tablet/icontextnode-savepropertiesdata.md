@@ -1,7 +1,7 @@
 ---
 Description: Retrieves an array of bytes that contains the application-specific and internal property data for this IContextNode.
 ms.assetid: f26d71a7-fe71-48a8-9c8f-9c4d99261df1
-title: IContextNode::SavePropertiesData method
+title: IContextNode::SavePropertiesData method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

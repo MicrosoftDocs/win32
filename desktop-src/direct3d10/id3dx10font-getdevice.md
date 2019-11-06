@@ -1,7 +1,7 @@
 ---
 Description: Retrieve the Direct3D device associated with the font object.
 ms.assetid: aad2406e-9461-4a84-9875-74b53d68ef40
-title: ID3DX10Font::GetDevice method
+title: ID3DX10Font::GetDevice method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

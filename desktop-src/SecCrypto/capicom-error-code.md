@@ -1,7 +1,7 @@
 ---
 Description: Defines error codes that are returned by CAPICOM.
 ms.assetid: e72b8290-b482-4629-8b87-5a15677865a6
-title: CAPICOM_ERROR_CODE enumeration
+title: CAPICOM_ERROR_CODE enumeration (Capicom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

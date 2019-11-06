@@ -1,5 +1,5 @@
 ---
-title: IDeliveryOptimizationFile GetStats method
+title: IDeliveryOptimizationFile GetStats method (Deliveryoptimization.h)
 description: Returns download and upload stats for a specific file.
 ms.assetid: 8A3AD658-F1AD-4EA5-B010-AB7B88126FD6
 keywords:

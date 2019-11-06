@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnection UndoHardDisk property
+title: IVMHardDiskConnection UndoHardDisk property (VPCCOMInterfaces.h)
 description: Retrieves a hard disk object corresponding to this connection's undo disk image.
 ms.assetid: 0daec200-0bda-44cf-b97d-b9a179cb63f8
 keywords:

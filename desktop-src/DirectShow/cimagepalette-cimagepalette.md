@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 50fa573c-a244-4a1e-9fd9-2b33a3427c84
-title: CImagePalette.CImagePalette constructor
+title: CImagePalette.CImagePalette constructor (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

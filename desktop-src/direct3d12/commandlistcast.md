@@ -1,5 +1,5 @@
 ---
-title: CommandListCast function
+title: CommandListCast function (D3dx12.h)
 description: This function template casts a constant pointer to any command list into a const pointer to an ID3D12CommandList.
 ms.assetid: 63719AA1-2119-456C-9D23-13933D38AFA9
 keywords:

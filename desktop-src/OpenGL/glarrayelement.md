@@ -1,5 +1,5 @@
 ---
-title: glArrayElement function
+title: glArrayElement function (Gl.h)
 description: The glArrayElement function specifies the array elements used to render a vertex.
 ms.assetid: 2c4d76bb-e4c9-4baa-a190-66298b8a4335
 keywords:

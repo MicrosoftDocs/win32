@@ -1,5 +1,5 @@
 ---
-title: TB_ISBUTTONINDETERMINATE message
+title: TB_ISBUTTONINDETERMINATE message (Commctrl.h)
 description: Determines whether the specified button in a toolbar is indeterminate.
 ms.assetid: b4d759b3-cdbc-417b-9da4-4ed9edc38c0e
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetGroupByIndex method
+title: ID3DX11Effect GetGroupByIndex method (D3dx11effect.h)
 description: Gets an effect group by index.
 ms.assetid: b38ecdbf-0920-48ff-a599-9629a3581d75
 keywords:

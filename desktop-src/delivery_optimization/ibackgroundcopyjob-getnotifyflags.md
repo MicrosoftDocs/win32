@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetNotifyFlags method
+title: IBackgroundCopyJob GetNotifyFlags method (Deliveryoptimization.h)
 description: Retrieves the event notification flags for the job.
 ms.assetid: 95ADC97F-63DC-4EB6-B85C-7BCC79238C12
 keywords:

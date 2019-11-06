@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.MustUnderstandOptions property
+title: ResourceLocator.MustUnderstandOptions property (WSManDisp.h)
 description: Gets or sets the MustUnderstandOptions value for the ResourceLocator object.
 ms.assetid: d366696c-9128-4cbd-98d0-6c2d16c75d59
 ms.tgt_platform: multiple

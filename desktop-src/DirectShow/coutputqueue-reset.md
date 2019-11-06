@@ -1,7 +1,7 @@
 ---
 Description: The Reset method resets the object so that it can receive more data.
 ms.assetid: 7074ed71-1650-4b21-a9a2-ad74d0e3e882
-title: COutputQueue.Reset method
+title: COutputQueue.Reset method (Outputq.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

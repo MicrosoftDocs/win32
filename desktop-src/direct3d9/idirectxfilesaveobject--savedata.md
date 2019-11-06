@@ -1,7 +1,7 @@
 ---
 Description: Saves a data object and its children to a DirectX file. Deprecated.
 ms.assetid: 18bd5ef6-9e17-4c21-bc14-373de8df9ffb
-title: IDirectXFileSaveObject::SaveData method
+title: IDirectXFileSaveObject::SaveData method (DXFile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

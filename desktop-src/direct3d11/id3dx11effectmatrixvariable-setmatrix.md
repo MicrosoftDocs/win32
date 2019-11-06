@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectMatrixVariable SetMatrix method
+title: ID3DX11EffectMatrixVariable SetMatrix method (D3dx11effect.h)
 description: Set a floating-point matrix.
 ms.assetid: 91c69bc0-c8c6-4232-8c70-801ac8ddbcda
 keywords:

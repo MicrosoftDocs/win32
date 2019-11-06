@@ -1,5 +1,5 @@
 ---
-title: CQPM_RELEASE message
+title: CQPM_RELEASE message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page when the page is about to be unloaded.
 ms.assetid: b935ae8d-a07f-4f0d-b379-5512e96a25a5
 ms.tgt_platform: multiple

@@ -1,5 +1,5 @@
 ---
-title: HDM_SETFILTERCHANGETIMEOUT message
+title: HDM_SETFILTERCHANGETIMEOUT message (Commctrl.h)
 description: Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an HDN\_FILTERCHANGE notification. You can send this message explicitly or use the Header\_SetFilterChangeTimeout macro.
 ms.assetid: 9bc8e0e7-d7c1-4dd6-9d39-6ae937f19d60
 keywords:

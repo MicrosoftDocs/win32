@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPCEvents interface
+title: IVMVirtualPCEvents interface (VPCCOMInterfaces.h)
 description: Defines the outgoing event interface for the IVMVirtualPC interface.
 ms.assetid: 40ce14d8-43e4-4c72-9729-e5503d882be6
 keywords:

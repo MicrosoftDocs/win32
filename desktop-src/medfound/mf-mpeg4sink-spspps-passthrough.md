@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the MPEG-4 File Sink filters out sequence parameter set (SPS) and picture parameter set (PPS) NALUs.
 ms.assetid: B2574BE5-6334-4ED2-A008-86326CDC13B8
-title: MF_MPEG4SINK_SPSPPS_PASSTHROUGH attribute
+title: MF_MPEG4SINK_SPSPPS_PASSTHROUGH attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

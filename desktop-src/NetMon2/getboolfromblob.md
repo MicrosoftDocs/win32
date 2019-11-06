@@ -1,7 +1,7 @@
 ---
 Description: Retrieves a named Boolean value from a BLOB.
 ms.assetid: 26acfd2a-5b17-47ad-8f7b-7793174a13c3
-title: GetBoolFromBlob function
+title: GetBoolFromBlob function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

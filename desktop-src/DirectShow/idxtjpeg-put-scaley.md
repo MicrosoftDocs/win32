@@ -1,7 +1,7 @@
 ---
 Description: The put\_ScaleY method specifies the amount by which the wipe is stretched vertically.
 ms.assetid: 1dd84540-b249-482c-9cb7-aab8c7dc4d25
-title: IDxtJpeg::put_ScaleY method
+title: IDxtJpeg::put_ScaleY method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

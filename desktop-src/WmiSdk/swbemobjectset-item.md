@@ -2,7 +2,7 @@
 Description: The Item method of the SWbemObjectSet object gets an SWbemObject from the collection.
 ms.assetid: da91683c-9895-4110-9f51-c340a0c52aec
 ms.tgt_platform: multiple
-title: SWbemObjectSet.Item method
+title: SWbemObjectSet.Item method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

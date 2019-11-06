@@ -1,7 +1,7 @@
 ---
 Description: Acquires a handle to preexisting credentials of a security principal that is using Negotiate.
 ms.assetid: ff372163-c73b-41bb-afcb-7d5de7720967
-title: AcquireCredentialsHandle (Negotiate) function
+title: AcquireCredentialsHandle (Negotiate) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

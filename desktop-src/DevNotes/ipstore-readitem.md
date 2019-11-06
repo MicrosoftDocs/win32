@@ -1,7 +1,7 @@
 ---
 Description: Reads the specified data item from protected storage.
 ms.assetid: e565a0ea-5d8e-4706-a176-2305a95f0d67
-title: IPStore::ReadItem method
+title: IPStore::ReadItem method (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

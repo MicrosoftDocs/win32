@@ -1,7 +1,7 @@
 ---
 Description: Gets the animation set for the given track.
 ms.assetid: d40669ac-c391-4912-82d6-28c366a0f1dc
-title: ID3DXAnimationController::GetTrackAnimationSet method
+title: ID3DXAnimationController::GetTrackAnimationSet method (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

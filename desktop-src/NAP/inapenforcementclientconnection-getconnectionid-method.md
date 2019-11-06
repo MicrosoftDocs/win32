@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetConnectionId method
+title: INapEnforcementClientConnection GetConnectionId method (NapEnforcementClient.h)
 description: Is used to get the unique connection ID of the client.
 ms.assetid: bf744aa6-5786-473f-9508-db4ee0c75578
 keywords:

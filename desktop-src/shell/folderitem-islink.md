@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether the item is a shortcut.
 ms.assetid: f3400f0b-5c7f-4d41-a162-1c35014082ac
-title: FolderItem.IsLink property
+title: FolderItem.IsLink property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

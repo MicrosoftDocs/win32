@@ -1,6 +1,6 @@
 ---
 Description: Sets the network address types that a specified network address control accepts.
-title: NCM_SETALLOWTYPE message
+title: NCM_SETALLOWTYPE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: FD998452-047A-4aea-A08E-8F6F8C30115B

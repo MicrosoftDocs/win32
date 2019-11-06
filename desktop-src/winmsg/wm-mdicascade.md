@@ -1,7 +1,7 @@
 ---
 Description: An application sends the WM\_MDICASCADE message to a multiple-document interface (MDI) client window to arrange all its child windows in a cascade format.
 ms.assetid: 33d04859-4220-40a6-be46-74a812a44ca8
-title: WM_MDICASCADE message
+title: WM_MDICASCADE message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

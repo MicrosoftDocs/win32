@@ -1,7 +1,7 @@
 ---
 Description: The GetCaptureTimeStamp function returns the time and date when the capture started recording frames.
 ms.assetid: a7120a7c-5031-4c71-a177-f08c41037b3c
-title: GetCaptureTimeStamp function
+title: GetCaptureTimeStamp function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: RtmDeregisterClient function
+title: RtmDeregisterClient function (Rtm.h)
 description: The RtmDeregisterClient function deregisters the client, and frees resources associated with the client.
 ms.assetid: 5d04f276-86a7-4e63-8266-e93f0d6e5241
 keywords:

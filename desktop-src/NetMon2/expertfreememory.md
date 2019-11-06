@@ -1,7 +1,7 @@
 ---
 Description: The ExpertFreeMemory function frees memory acquired by calls to the ExpertAllocMemory and ExpertReallocMemory functions.
 ms.assetid: 0e7cc791-98dd-4522-afab-76ac9e74c715
-title: ExpertFreeMemory function
+title: ExpertFreeMemory function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

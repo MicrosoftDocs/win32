@@ -1,7 +1,7 @@
 ---
 Description: Creates an N-patch mesh from a triangle mesh.
 ms.assetid: f565ed0b-72fc-4184-b423-f68b0acfafb0
-title: D3DXCreateNPatchMesh function
+title: D3DXCreateNPatchMesh function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

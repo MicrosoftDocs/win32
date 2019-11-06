@@ -1,7 +1,7 @@
 ---
 Description: The DisplayTypeInfo method displays media type information during debugging.
 ms.assetid: fd10d37b-57f5-4246-8ca3-f4bc59911445
-title: CBasePin.DisplayTypeInfo method
+title: CBasePin.DisplayTypeInfo method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

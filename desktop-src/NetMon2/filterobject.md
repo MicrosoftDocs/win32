@@ -1,7 +1,7 @@
 ---
 Description: Defines a single object of a display filter.
 ms.assetid: 865b55f3-9294-43c5-b4dc-eb5128ce3a38
-title: FILTEROBJECT structure
+title: FILTEROBJECT structure (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

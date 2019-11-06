@@ -1,5 +1,5 @@
 ---
-title: WMDRM_ANALOG_VIDEO_RESTRICTIONS_EX structure
+title: WMDRM_ANALOG_VIDEO_RESTRICTIONS_EX structure (Wmdrmsdk.h)
 description: The WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS\_EX structure holds extended information about a restriction for playing back content as analog video.
 ms.assetid: fe9092fe-a717-4377-9653-1cc07795319f
 keywords:

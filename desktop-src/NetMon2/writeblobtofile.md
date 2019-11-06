@@ -1,7 +1,7 @@
 ---
 Description: The WriteBlobToFile function writes a BLOB to a file.
 ms.assetid: 0793dced-82c2-4553-90b2-acf594c6749e
-title: WriteBlobToFile function
+title: WriteBlobToFile function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

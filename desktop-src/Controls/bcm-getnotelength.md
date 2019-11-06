@@ -1,5 +1,5 @@
 ---
-title: BCM_GETNOTELENGTH message
+title: BCM_GETNOTELENGTH message (Commctrl.h)
 description: Gets the length of the note text that may be displayed in the description for a command link button. Send this message explicitly or by using the Button\_GetNoteLength macro.
 ms.assetid: 62385485-b553-47e9-9f15-696cc4694752
 keywords:

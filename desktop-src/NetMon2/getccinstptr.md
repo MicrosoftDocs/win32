@@ -1,7 +1,7 @@
 ---
 Description: The GetCCInstPtr function returns the pointer to the instance data added to the capture context.
 ms.assetid: 6fb103d3-583b-4460-8b9a-ff921751b0eb
-title: GetCCInstPtr function
+title: GetCCInstPtr function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

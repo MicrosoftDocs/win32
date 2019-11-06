@@ -1,7 +1,7 @@
 ---
 Description: Resets to the beginning of the enumeration sequence.
 ms.assetid: 9c5044b5-25a3-4d10-829b-ef4d8b5ac095
-title: IEnumPStoreProviders::Reset method
+title: IEnumPStoreProviders::Reset method (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

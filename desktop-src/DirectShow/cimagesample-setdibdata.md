@@ -1,7 +1,7 @@
 ---
 Description: The SetDIBData method specifies information about the GDI device-independent bitmap (DIB) that this object is managing. Call this method to initialize the CImageSample object.
 ms.assetid: 850fa16b-d4b9-4fe6-b202-7b54c49a4589
-title: CImageSample.SetDIBData method
+title: CImageSample.SetDIBData method (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine AttachUSBDevice method
+title: IVMVirtualMachine AttachUSBDevice method (VPCCOMInterfaces.h)
 description: Attaches a USB device to a VM.
 ms.assetid: 505078ee-9159-407d-ab8c-a9aba86dec48
 keywords:

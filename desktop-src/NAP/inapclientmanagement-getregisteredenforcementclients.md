@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement GetRegisteredEnforcementClients method
+title: INapClientManagement GetRegisteredEnforcementClients method (NapManagement.h)
 description: Retrieves information about the registered enforcement clients.
 ms.assetid: aae7c57c-a7fe-4cb2-94f6-53e501e38054
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnAdditionsAvailable method
+title: IVMVirtualMachineEvents OnAdditionsAvailable method (VPCCOMInterfaces.h)
 description: Receives notification that integration components are available in a virtual machine.
 ms.assetid: c940104b-4d34-47c2-bf48-9024a7f86c46
 keywords:

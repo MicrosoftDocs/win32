@@ -1,5 +1,5 @@
 ---
-title: RasAdminPortEnum function
+title: RasAdminPortEnum function (Rassapi.h)
 description: The RasAdminPortEnum function enumerates all ports on the specified RAS server. For each port on the server, the function returns the RAS\_PORT\_0 structure that contains information about the port.
 ms.assetid: ad23727c-8f54-4b10-9bc7-1425ac22bc88
 keywords:

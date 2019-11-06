@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter interface
+title: IVMNetworkAdapter interface (VPCCOMInterfaces.h)
 description: Serves as the interface to a virtual network interface card.
 ms.assetid: df050706-09be-47d1-9ae1-1eb0e1836d64
 keywords:

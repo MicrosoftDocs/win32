@@ -1,5 +1,5 @@
 ---
-title: glShadeModel function
+title: glShadeModel function (Gl.h)
 description: The glShadeModel function selects flat or smooth shading.
 ms.assetid: 52985ad7-1d6c-48fc-8f1e-4eb2c0324c8e
 keywords:

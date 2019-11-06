@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectType interface
+title: ID3DX11EffectType interface (D3dx11effect.h)
 description: The ID3DX11EffectType interface accesses effect variables by type.The lifetime of an ID3DX11EffectType object is equal to the lifetime of its parent ID3DX11Effect object.
 ms.assetid: 700076ee-a5fe-4af2-a5f4-053c05d8ddf0
 keywords:

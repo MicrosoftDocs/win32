@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice GetCachedBitrateMeasurement method
+title: ActiveBasicDevice GetCachedBitrateMeasurement method (PlayToDevice.h)
 description: Gets the cached bitrate.
 ms.assetid: 78C3C5D7-C46B-413D-BC18-C3861E5FDAA5
 keywords:

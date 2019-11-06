@@ -1,7 +1,7 @@
 ---
 Description: Gets or sets the video decoding speed.
 ms.assetid: 76F7013D-C172-4D31-93BC-EA3D186EB14C
-title: AVDecVideoFastDecodeMode property
+title: AVDecVideoFastDecodeMode property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

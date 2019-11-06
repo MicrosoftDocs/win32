@@ -1,5 +1,5 @@
 ---
-title: LVM_SETWORKAREAS message
+title: LVM_SETWORKAREAS message (Commctrl.h)
 description: Sets the working areas within a list-view control. You can send this message explicitly or use the ListView\_SetWorkAreas macro.
 ms.assetid: 87ac192d-f481-43ac-b8a5-c754cf33e487
 keywords:

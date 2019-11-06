@@ -1,5 +1,5 @@
 ---
-title: TDM_SET_PROGRESS_BAR_RANGE message
+title: TDM_SET_PROGRESS_BAR_RANGE message (Commctrl.h)
 description: Sets the minimum and maximum values for the progress bar in a task dialog.
 ms.assetid: ca8b48bc-cf56-4678-bb3d-7c730a96d98c
 keywords:

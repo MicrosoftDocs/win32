@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the mouse wheel moves while the InkCollector or InkOverlay object has focus.
 ms.assetid: b7269e07-7001-48ca-8e20-a39cb02f3719
-title: InkOverlay.MouseWheel event
+title: InkOverlay.MouseWheel event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the value of a specified provider property.
 ms.assetid: 69235520-acaa-4ec4-9fd6-4b3297e14376
-title: SslGetProviderProperty function
+title: SslGetProviderProperty function (Sslprovider.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

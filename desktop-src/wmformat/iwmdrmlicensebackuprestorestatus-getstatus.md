@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseBackupRestoreStatus GetStatus method
+title: IWMDRMLicenseBackupRestoreStatus GetStatus method (Wmdrmsdk.h)
 description: The GetStatus method retrieves detailed status information about a license backup or restore operation.
 ms.assetid: 1a695baf-0971-4dbf-90fa-1b10178a3348
 keywords:

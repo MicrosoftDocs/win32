@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetType method
+title: ID3DX11EffectVariable GetType method (D3dx11effect.h)
 description: Get type information.
 ms.assetid: c9ada96a-0259-48c1-b869-ba0f51bf4600
 keywords:

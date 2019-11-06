@@ -1,5 +1,5 @@
 ---
-title: TS_CHAR_ Constants
+title: TS_CHAR_ Constants (Textstor.h)
 description: The TS\_CHAR\_\ constants describe the type of character.
 ms.assetid: b40ca931-d45c-4101-9380-bb2b3ad25fba
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine AddHardDiskConnection method
+title: IVMVirtualMachine AddHardDiskConnection method (VPCCOMInterfaces.h)
 description: Adds a new hard disk connection to the virtual machine.
 ms.assetid: 0f4e0666-2cfd-4c73-884d-6f8b43186c05
 keywords:

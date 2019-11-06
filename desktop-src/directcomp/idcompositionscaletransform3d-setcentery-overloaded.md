@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform3D SetCenterY methods
+title: IDCompositionScaleTransform3D SetCenterY methods (Dcomp.h)
 description: Changes or animates the value of the CenterY property of a 3D scale transform.
 ms.assetid: C650032E-3344-4BE8-9018-F57EFECEBF61
 keywords:

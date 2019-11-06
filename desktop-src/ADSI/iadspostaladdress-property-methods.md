@@ -1,5 +1,5 @@
 ---
-title: IADsPostalAddress Property Methods
+title: IADsPostalAddress Property Methods (Iads.h)
 description: The property method of the IADsPostalAddress interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: f7e61c69-f3a6-4ca6-a276-3cd859252571
 ms.tgt_platform: multiple

@@ -1,5 +1,5 @@
 ---
-title: GetInt32Property method of the Win32_RDMSDeploymentSettings class
+title: GetInt32Property method of the Win32_RDMSDeploymentSettings class (Microsoft.diagnostics.appanalysis.h)
 description: Retrieves an integer property for the deployment settings of a virtual desktop collection.
 ms.assetid: 6b8174bb-ffb7-4699-a3fb-d32ab0b202fc
 ms.tgt_platform: multiple

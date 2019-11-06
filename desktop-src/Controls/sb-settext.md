@@ -1,5 +1,5 @@
 ---
-title: SB_SETTEXT message
+title: SB_SETTEXT message (Commctrl.h)
 description: Sets the text in the specified part of a status window.
 ms.assetid: 6039a61c-6ec6-42cd-94d5-5f1cf2998586
 keywords:

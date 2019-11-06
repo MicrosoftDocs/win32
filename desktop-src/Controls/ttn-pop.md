@@ -1,5 +1,5 @@
 ---
-title: TTN_POP notification code
+title: TTN_POP notification code (Commctrl.h)
 description: Notifies the owner window that a tooltip is about to be hidden. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 44a38f1a-f1df-4057-bf76-f87eb467f0d7
 keywords:

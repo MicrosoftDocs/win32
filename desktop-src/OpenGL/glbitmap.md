@@ -1,5 +1,5 @@
 ---
-title: glBitmap function
+title: glBitmap function (Gl.h)
 description: The glBitmap function draws a bitmap.
 ms.assetid: 3cd8e41b-016b-4610-833a-048b5e50ae7c
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM_GETCOLUMNORDERARRAY message
+title: LVM_GETCOLUMNORDERARRAY message (Commctrl.h)
 description: Gets the current left-to-right order of columns in a list-view control. You can send this message explicitly or use the ListView\_GetColumnOrderArray macro.
 ms.assetid: d4636aa8-c61e-4467-abc7-eea897bf370e
 keywords:

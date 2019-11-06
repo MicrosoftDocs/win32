@@ -1,5 +1,5 @@
 ---
-title: glCallLists function
+title: glCallLists function (Gl.h)
 description: The glCallLists function executes a list of display lists.
 ms.assetid: 7c0a00df-91ee-44ad-9e02-97c1b078e87f
 keywords:

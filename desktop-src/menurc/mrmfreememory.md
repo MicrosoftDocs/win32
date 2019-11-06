@@ -1,5 +1,5 @@
 ---
-title: MrmFreeMemory function
+title: MrmFreeMemory function (MrmResourceIndexer.h)
 description: Frees memory allocated by MrmCreateConfigInMemory, MrmCreateResourceFileInMemory, MrmDumpPriFileInMemory, and MrmDumpPriDataInMemory.
 ms.assetid: F8741379-CE1A-47BD-9B2C-721A5424CAD1
 keywords:

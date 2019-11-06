@@ -1,7 +1,7 @@
 ---
 Description: The IByteBuffer interface is provided to read, write and manage stream objects. This object essentially is a wrapper for the IStream object.
 ms.assetid: dbc46d53-a421-45c0-a86b-b8a0a212a672
-title: IByteBuffer interface
+title: IByteBuffer interface (Scardssp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

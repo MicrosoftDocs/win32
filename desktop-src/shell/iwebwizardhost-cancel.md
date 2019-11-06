@@ -1,6 +1,6 @@
 ---
 Description: Simulates a Cancel button click.
-title: WebWizardHost.Cancel method
+title: WebWizardHost.Cancel method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

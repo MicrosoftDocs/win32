@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectUnorderedAccessViewVariable SetUnorderedAccessView method
+title: ID3DX11EffectUnorderedAccessViewVariable SetUnorderedAccessView method (D3dx11effect.h)
 description: Set an unordered-access-view.
 ms.assetid: a147879c-c5cf-4453-b27f-8716cb33962b
 keywords:

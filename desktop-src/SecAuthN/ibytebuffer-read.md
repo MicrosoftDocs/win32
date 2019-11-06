@@ -1,7 +1,7 @@
 ---
 Description: The Read method reads a specified number of bytes from the buffer object into memory starting at the current seek pointer.
 ms.assetid: 98c4de75-9ecf-4c57-9075-9d0e3675079f
-title: IByteBuffer::Read method
+title: IByteBuffer::Read method (Scardssp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Defines constants that describe the supported shading modes.
 ms.assetid: ba4e0c62-b496-427b-a324-2fb560d153ba
-title: D3DSHADEMODE enumeration
+title: D3DSHADEMODE enumeration (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

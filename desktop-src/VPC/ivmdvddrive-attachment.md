@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive Attachment property
+title: IVMDVDDrive Attachment property (VPCCOMInterfaces.h)
 description: Retrieves the type of media attached to the DVD drive within the virtual machine.
 ms.assetid: 7ae1714d-e5e9-4f6a-85a6-c0b3c4d21820
 keywords:

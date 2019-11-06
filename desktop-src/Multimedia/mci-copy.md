@@ -1,5 +1,5 @@
 ---
-title: MCI_COPY command
+title: MCI_COPY command (Mmsystem.h)
 description: The MCI\_COPY command copies data to the clipboard. Digital-video devices recognize this command.
 ms.assetid: 41807920-3312-4cdb-82e6-6ab4b9b35162
 keywords:

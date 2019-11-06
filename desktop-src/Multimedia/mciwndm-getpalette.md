@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GETPALETTE message
+title: MCIWNDM_GETPALETTE message (Vfw.h)
 description: The MCIWNDM\_GETPALETTE message retrieves a handle of the palette used by an MCI device. You can send this message explicitly or by using the MCIWndGetPalette macro.
 ms.assetid: f8426344-0fee-4419-9d8a-dcee26cb4c28
 keywords:

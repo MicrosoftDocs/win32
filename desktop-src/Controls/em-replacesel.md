@@ -1,5 +1,5 @@
 ---
-title: EM_REPLACESEL message
+title: EM_REPLACESEL message (Winuser.h)
 description: Replaces the selected text in an edit control or a rich edit control with the specified text.
 ms.assetid: 525e6f5a-f52f-4bab-bc76-caa484729897
 keywords:

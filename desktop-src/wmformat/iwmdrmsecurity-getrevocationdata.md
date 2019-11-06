@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity GetRevocationData method
+title: IWMDRMSecurity GetRevocationData method (Wmdrmsdk.h)
 description: The GetRevocationData method retrieves a certificate revocation list from the local store.
 ms.assetid: 218f4f3a-02bc-4b1d-9320-e35ed8cc3b11
 keywords:

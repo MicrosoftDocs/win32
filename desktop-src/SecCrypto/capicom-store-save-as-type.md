@@ -1,7 +1,7 @@
 ---
 Description: The CAPICOM\_STORE\_SAVE\_AS\_TYPE enumeration type indicates the encoding of a certificate store.
 ms.assetid: 7efd983e-3372-4d4a-9d10-fb05b4360cfe
-title: CAPICOM_STORE_SAVE_AS_TYPE enumeration
+title: CAPICOM_STORE_SAVE_AS_TYPE enumeration (Capicom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

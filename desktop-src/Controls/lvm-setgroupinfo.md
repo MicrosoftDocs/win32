@@ -1,5 +1,5 @@
 ---
-title: LVM_SETGROUPINFO message
+title: LVM_SETGROUPINFO message (Commctrl.h)
 description: Sets group information.
 ms.assetid: f79bd235-e2de-4055-be3e-76eb2744e1ee
 keywords:

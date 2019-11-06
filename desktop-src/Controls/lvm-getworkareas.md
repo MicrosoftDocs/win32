@@ -1,5 +1,5 @@
 ---
-title: LVM_GETWORKAREAS message
+title: LVM_GETWORKAREAS message (Commctrl.h)
 description: Retrieves the working areas from a list-view control. You can send this message explicitly or use the ListView\_GetWorkAreas macro.
 ms.assetid: 956368d9-bbb4-414a-ba17-0e8e4f0f1a45
 keywords:

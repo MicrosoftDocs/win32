@@ -1,7 +1,7 @@
 ---
 Description: Contains the camera extrinsics for the sample.
 ms.assetid: C970E958-3866-491A-9806-DB300834360E
-title: MFSampleExtension_CameraExtrinsics attribute
+title: MFSampleExtension_CameraExtrinsics attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

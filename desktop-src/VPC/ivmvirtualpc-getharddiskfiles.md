@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC GetHardDiskFiles method
+title: IVMVirtualPC GetHardDiskFiles method (VPCCOMInterfaces.h)
 description: Retrieves an array of known virtual hard disk files.
 ms.assetid: 3f949ebc-5974-4919-84a2-8411f558f85f
 keywords:

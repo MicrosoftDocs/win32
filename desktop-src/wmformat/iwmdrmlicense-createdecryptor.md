@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense CreateDecryptor method
+title: IWMDRMLicense CreateDecryptor method (Wmdrmsdk.h)
 description: The CreateDecryptor method creates a decryptor object using the settings of the current license.
 ms.assetid: 69b7f96b-a0d6-455e-8ef9-0faf9690cef1
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The GetPreviousProtocolOffsetByName function returns the previous instance of a given protocol.
 ms.assetid: 94f80776-564f-4089-9e3a-fdf38d9dfe8a
-title: GetPreviousProtocolOffsetByName function
+title: GetPreviousProtocolOffsetByName function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

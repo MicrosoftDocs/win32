@@ -1,5 +1,5 @@
 ---
-title: List-View Window Styles
+title: List-View Window Styles (CommCtrl.h)
 description: The following window styles are specific to list-view controls.
 ms.assetid: 8b57239b-112e-4fb6-b394-15501bd3f5b3
 topic_type:

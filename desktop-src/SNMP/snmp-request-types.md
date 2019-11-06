@@ -1,5 +1,5 @@
 ---
-title: SNMP Request Types
+title: SNMP Request Types (Snmp.h)
 description: The SNMP Request Types are used to describe the operation that the SNMP service is requesting the extension agent to perform.
 ms.assetid: a359977f-2edb-4ffd-acba-e14ec8e92544
 topic_type:

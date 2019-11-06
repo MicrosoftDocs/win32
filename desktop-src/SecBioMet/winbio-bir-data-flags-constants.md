@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BIR_DATA_FLAGS Constants
+title: WINBIO_BIR_DATA_FLAGS Constants (Winbio\_types.h)
 description: Specify the condition of the data.
 ms.assetid: F6F7F68A-3294-4AF8-A1A7-C6A869A2CC3C
 topic_type:

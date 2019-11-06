@@ -1,7 +1,7 @@
 ---
 Description: Stores the host name and the port of the proxy server used by the network source.
 ms.assetid: 164f8ac3-08ce-40a8-ac8d-4c2a267d9db5
-title: MFNETSOURCE_PROXYINFO property
+title: MFNETSOURCE_PROXYINFO property (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

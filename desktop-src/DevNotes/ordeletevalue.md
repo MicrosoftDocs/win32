@@ -1,7 +1,7 @@
 ---
 Description: Removes a named value from the specified registry key in an offline registry hive.
 ms.assetid: d2192607-34b8-4915-ac86-8ee206993071
-title: ORDeleteValue function
+title: ORDeleteValue function (Offreg.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

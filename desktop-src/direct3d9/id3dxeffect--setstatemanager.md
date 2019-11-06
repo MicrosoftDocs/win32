@@ -1,7 +1,7 @@
 ---
 Description: Set the effect state manager.
 ms.assetid: 87409687-03f1-4593-ae58-3a8ba08e592b
-title: ID3DXEffect::SetStateManager method
+title: ID3DXEffect::SetStateManager method (D3DX9Effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

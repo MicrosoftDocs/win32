@@ -1,5 +1,5 @@
 ---
-title: HDM_CREATEDRAGIMAGE message
+title: HDM_CREATEDRAGIMAGE message (Commctrl.h)
 description: Creates a semi-transparent version of an item's image for use as a dragging image. You can send this message explicitly or use the Header\_CreateDragImage macro.
 ms.assetid: 1b9dc515-d327-4634-a424-cc15a32f0f7c
 keywords:

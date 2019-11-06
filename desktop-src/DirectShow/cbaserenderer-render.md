@@ -1,7 +1,7 @@
 ---
 Description: The Render method renders a sample.
 ms.assetid: 82b47777-2900-4821-ab79-1856da432832
-title: CBaseRenderer.Render method
+title: CBaseRenderer.Render method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

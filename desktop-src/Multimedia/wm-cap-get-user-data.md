@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_GET_USER_DATA message
+title: WM_CAP_GET_USER_DATA message (Vfw.h)
 description: The WM\_CAP\_GET\_USER\_DATA message retrieves a LONG\_PTR data value associated with a capture window. You can send this message explicitly or by using the capGetUserData macro.
 ms.assetid: f7c121ba-44a1-4916-b602-c53d8332c2af
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo MemoryAvail property
+title: IVMHostInfo MemoryAvail property (VPCCOMInterfaces.h)
 description: Retrieves the amount of available physical memory in the host machine, in megabytes.
 ms.assetid: cb593d02-cdb9-40f6-b57f-72fc3278f1bb
 keywords:

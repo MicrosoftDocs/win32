@@ -1,7 +1,7 @@
 ---
 Description: Specifies the algorithm used for signing, enveloping, and encrypting operations.
 ms.assetid: 9a3071a3-e62d-43d3-acd7-0685592c78b4
-title: Algorithm object
+title: Algorithm object (Capicom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

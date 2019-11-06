@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineCollection Count property
+title: IVMVirtualMachineCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of virtual machines in this collection.
 ms.assetid: c1f38528-fd9b-4b86-aac6-de944379b92e
 keywords:

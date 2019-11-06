@@ -1,7 +1,7 @@
 ---
 Description: The GetRestorePosition method retrieves the position to which the window will be restored when it is not maximized or minimized.
 ms.assetid: 5f129be3-c4d8-4583-bbc8-870e0bcafd80
-title: CBaseControlWindow.GetRestorePosition method
+title: CBaseControlWindow.GetRestorePosition method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

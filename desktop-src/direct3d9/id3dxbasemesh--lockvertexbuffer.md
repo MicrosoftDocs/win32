@@ -1,7 +1,7 @@
 ---
 Description: Locks a vertex buffer and obtains a pointer to the vertex buffer memory.
 ms.assetid: afcd479c-b268-4720-b26c-88b82f1aab08
-title: ID3DXBaseMesh::LockVertexBuffer method
+title: ID3DXBaseMesh::LockVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine ProcessorSpeed property
+title: IVMVirtualMachine ProcessorSpeed property (VPCCOMInterfaces.h)
 description: Speed of the processor, in megahertz (MHz) or gigahertz (GHz).
 ms.assetid: 465157a9-08ad-4636-b7c6-a188ff21e131
 keywords:

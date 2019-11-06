@@ -1,7 +1,7 @@
 ---
 Description: The Stat method retrieves statistical information from the stream object.
 ms.assetid: 7dfb59e9-143a-402e-990a-a2b35e6443dd
-title: IByteBuffer::Stat method
+title: IByteBuffer::Stat method (Scardssp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

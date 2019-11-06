@@ -1,7 +1,7 @@
 ---
 Description: Not implemented and cannot be used.
 ms.assetid: b41ba894-5cee-458d-935f-e89363925968
-title: SslChangeNotify function
+title: SslChangeNotify function (Sslprovider.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: glBindTexture function
+title: glBindTexture function (Gl.h)
 description: The glBindTexture function enables the creation of a named texture that is bound to a texture target.
 ms.assetid: 800f2360-b40e-4911-9a45-6f310aeeefeb
 keywords:

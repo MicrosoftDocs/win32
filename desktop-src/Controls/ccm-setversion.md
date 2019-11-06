@@ -1,5 +1,5 @@
 ---
-title: CCM_SETVERSION message
+title: CCM_SETVERSION message (Commctrl.h)
 description: This message is used to inform the control that you are expecting a behavior associated with a particular version.
 ms.assetid: f87b20bc-0139-4d0a-b38c-32c75743d6f6
 keywords:

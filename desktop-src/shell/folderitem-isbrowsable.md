@@ -1,7 +1,7 @@
 ---
 Description: Indicates if the item can be hosted inside a browser or Windows Explorer frame.
 ms.assetid: 472e0906-9561-4390-a503-c5e490245ea0
-title: FolderItem.IsBrowsable property
+title: FolderItem.IsBrowsable property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The VTrackSwapPriorities method switches the priority levels of two tracks.
 ms.assetid: 87085060-5165-4c32-b5b0-895ae487e7ef
-title: IAMTimelineComp::VTrackSwapPriorities method
+title: IAMTimelineComp::VTrackSwapPriorities method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

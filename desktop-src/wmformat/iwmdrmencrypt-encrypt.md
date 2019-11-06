@@ -1,5 +1,5 @@
 ---
-title: IWMDRMEncrypt Encrypt method
+title: IWMDRMEncrypt Encrypt method (Wmdrmsdk.h)
 description: The Encrypt method encrypts a data buffer in place.
 ms.assetid: 9626f53e-3602-4369-99ed-fbcd8d5f4d9e
 keywords:

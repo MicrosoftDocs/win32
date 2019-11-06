@@ -1,5 +1,5 @@
 ---
-title: TTM_GETMAXTIPWIDTH message
+title: TTM_GETMAXTIPWIDTH message (Commctrl.h)
 description: Retrieves the maximum width for a tooltip window.
 ms.assetid: 0f0a5403-fe2e-4e5a-96c2-a435827a5fd7
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM_AUDIO_OUTPUT_PROTECTION_IDS_EX structure
+title: DRM_AUDIO_OUTPUT_PROTECTION_IDS_EX structure (Wmdrmsdk.h)
 description: The DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS\_EX structure contains a list of audio output protection identifiers. This structure extends DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS by adding a version number.
 ms.assetid: e650ddeb-5e41-4ff8-b872-40c85ab519c1
 keywords:

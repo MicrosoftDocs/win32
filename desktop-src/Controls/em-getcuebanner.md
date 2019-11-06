@@ -1,5 +1,5 @@
 ---
-title: EM_GETCUEBANNER message
+title: EM_GETCUEBANNER message (Commctrl.h)
 description: Gets the text that is displayed as the textual cue, or tip, in an edit control.
 ms.assetid: 311b783a-cd78-440f-bfc2-f5108ae7d1f8
 keywords:

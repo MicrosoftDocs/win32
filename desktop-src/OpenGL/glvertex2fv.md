@@ -1,5 +1,5 @@
 ---
-title: glVertex2fv function
+title: glVertex2fv function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: bae32d27-2a19-40d5-a3f7-0e7a41918034
 keywords:

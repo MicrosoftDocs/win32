@@ -1,7 +1,7 @@
 ---
 Description: Draws a line strip in screen space. Input is in the form of an array that defines points (of D3DXVECTOR2) on the line strip.
 ms.assetid: 10ad5af5-fb57-46ef-a89f-7a05dcf58826
-title: ID3DXLine::Draw method
+title: ID3DXLine::Draw method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

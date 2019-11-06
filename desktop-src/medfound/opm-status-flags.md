@@ -1,7 +1,7 @@
 ---
 Description: The flags in the following table specify the status of an Output Protection Manager (OPM) session.
 ms.assetid: d6d85fd4-e735-4610-93e0-bb2b1782f11b
-title: OPM Status Flags
+title: OPM Status Flags (Opmapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

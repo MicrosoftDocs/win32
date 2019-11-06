@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks StreamOutputCb method
+title: ID3DX12PipelineParserCallbacks StreamOutputCb method (D3DX12.h)
 description: Calls the stream output description subobject callback of an object that implements this interface.
 ms.assetid: 93447ABE-A942-4562-A532-600EC63072DA
 keywords:

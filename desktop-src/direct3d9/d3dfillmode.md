@@ -1,7 +1,7 @@
 ---
 Description: Defines constants describing the fill mode.
 ms.assetid: be835432-e8d5-4afb-a810-2dac25bdc9dc
-title: D3DFILLMODE enumeration
+title: D3DFILLMODE enumeration (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: glDrawPixels function
+title: glDrawPixels function (Gl.h)
 description: The glDrawPixels function writes a block of pixels to the framebuffer.
 ms.assetid: c4eda64f-a75e-4e6d-984d-af49414b94d8
 keywords:

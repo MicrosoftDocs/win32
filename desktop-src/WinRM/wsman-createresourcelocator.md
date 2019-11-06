@@ -1,5 +1,5 @@
 ---
-title: WSMan.CreateResourceLocator method
+title: WSMan.CreateResourceLocator method (WSManDisp.h)
 description: Creates a ResourceLocator object that can be used instead of specifying a resource URI in Session object operations such as Session.Get, Session.Put, or Session.Enumerate.
 ms.assetid: 1b04fe11-ec90-4374-9838-a0df313b722e
 ms.tgt_platform: multiple

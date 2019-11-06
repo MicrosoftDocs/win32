@@ -1,5 +1,5 @@
 ---
-title: glScissor function
+title: glScissor function (Gl.h)
 description: The glScissor function defines the scissor box.
 ms.assetid: c06a1d20-bf7b-4283-b0fe-8bd80bece4ce
 keywords:

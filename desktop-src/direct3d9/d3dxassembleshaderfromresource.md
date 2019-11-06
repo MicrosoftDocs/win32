@@ -1,7 +1,7 @@
 ---
 Description: Assemble a shader.
 ms.assetid: a0d31b15-db79-4aa8-afd8-fa1e20c61725
-title: D3DXAssembleShaderFromResource function
+title: D3DXAssembleShaderFromResource function (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

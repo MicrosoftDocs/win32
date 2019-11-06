@@ -1,7 +1,7 @@
 ---
 Description: The GetErrorValue method retrieves an HRESULT value (type VT\_ERROR) specified by a key.
 ms.assetid: af57ddbd-5503-4b9b-bd75-ba9c9c202b73
-title: IPortableDeviceValues::GetErrorValue method
+title: IPortableDeviceValues::GetErrorValue method (PortableDeviceTypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

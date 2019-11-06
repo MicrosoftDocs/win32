@@ -1,5 +1,5 @@
 ---
-title: EM_SETIMEMODEBIAS message
+title: EM_SETIMEMODEBIAS message (Richedit.h)
 description: Set the Input Method Editor (IME) mode bias for a rich edit control.
 ms.assetid: 4a3f97eb-fe80-4e84-a73e-3ed6d73644de
 keywords:

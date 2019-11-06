@@ -1,6 +1,6 @@
 ---
 ms.assetid: 07ff2ed7-09bc-4af7-84f9-66a921c0f53f
-title: WUA Networking Error Codes
+title: WUA Networking Error Codes (Wuerror.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

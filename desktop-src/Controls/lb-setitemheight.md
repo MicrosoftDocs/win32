@@ -1,5 +1,5 @@
 ---
-title: LB_SETITEMHEIGHT message
+title: LB_SETITEMHEIGHT message (Winuser.h)
 description: Sets the height, in pixels, of items in a list box. If the list box has the LBS\_OWNERDRAWVARIABLE style, this message sets the height of the item specified by the wParam parameter. Otherwise, this message sets the height of all items in the list box.
 ms.assetid: 3ac8e935-6de8-465f-a525-1f493b06ee7c
 keywords:

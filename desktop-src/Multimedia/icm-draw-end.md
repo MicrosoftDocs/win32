@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_END message
+title: ICM_DRAW_END message (Vfw.h)
 description: The ICM\_DRAW\_END message notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can send this message explicitly or by using the ICDrawEnd macro.
 ms.assetid: 03910752-6122-4a5a-84ff-2cecf66cf439
 keywords:

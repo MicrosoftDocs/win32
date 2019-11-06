@@ -1,5 +1,5 @@
 ---
-title: WM_CUT message
+title: WM_CUT message (Winuser.h)
 description: An application sends a WM\_CUT message to an edit control or combo box to delete (cut) the current selection, if any, in the edit control and copy the deleted text to the clipboard in CF\_TEXT format.
 ms.assetid: 6ac45589-3e34-491c-9562-e072ddc478f9
 keywords:

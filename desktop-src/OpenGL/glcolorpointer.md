@@ -1,5 +1,5 @@
 ---
-title: glColorPointer function
+title: glColorPointer function (Gl.h)
 description: The glColorPointer function defines an array of colors.
 ms.assetid: 4d9d05fb-691d-4b71-b079-c42dc7103055
 keywords:

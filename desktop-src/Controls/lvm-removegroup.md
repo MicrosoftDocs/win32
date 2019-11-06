@@ -1,5 +1,5 @@
 ---
-title: LVM_REMOVEGROUP message
+title: LVM_REMOVEGROUP message (Commctrl.h)
 description: Removes a group from a list-view control.
 ms.assetid: c6f4f54c-4cf8-47d0-8e96-fa8a1df0501b
 keywords:

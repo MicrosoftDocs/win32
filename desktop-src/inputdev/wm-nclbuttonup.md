@@ -1,5 +1,5 @@
 ---
-title: WM_NCLBUTTONUP message
+title: WM_NCLBUTTONUP message (Winuser.h)
 description: Posted when the user releases the left mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 0c30dcbd-a4ff-43da-bbd2-fbac1a347c11
 keywords:

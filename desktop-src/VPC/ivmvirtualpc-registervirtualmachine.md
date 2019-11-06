@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC RegisterVirtualMachine method
+title: IVMVirtualPC RegisterVirtualMachine method (VPCCOMInterfaces.h)
 description: Registers an existing virtual machine configuration and retrieves the virtual machine object.
 ms.assetid: d3b13f1b-7537-4e3f-9bcc-98a6fe855f78
 keywords:

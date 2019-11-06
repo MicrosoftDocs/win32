@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_FILLED_V
+title: WMT_VIDEOIMAGE_TRANSITION_FILLED_V (Wmsdkidl.h)
 description: The filled V transition reveals the new image in a triangle originating from one side of the frame.
 ms.assetid: d256178f-cb1d-4d36-9d30-e6dd6b3b23ec
 keywords:

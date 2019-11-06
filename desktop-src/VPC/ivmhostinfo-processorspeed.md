@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo ProcessorSpeed property
+title: IVMHostInfo ProcessorSpeed property (VPCCOMInterfaces.h)
 description: Speed of the host processor, in megahertz (MHz) or gigahertz (GHz).
 ms.assetid: 2d5e3f2e-8e81-4527-bd7f-52bf5b1f56ef
 keywords:

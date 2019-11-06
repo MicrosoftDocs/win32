@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_SETZOOM message
+title: MCIWNDM_SETZOOM message (Vfw.h)
 description: The MCIWNDM\_SETZOOM message resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can send this message explicitly or by using the MCIWndSetZoom macro.
 ms.assetid: c899b678-5ba7-4f0a-9ef9-c5370b3b4ea8
 keywords:

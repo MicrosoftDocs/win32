@@ -1,5 +1,5 @@
 ---
-title: EM_GETFILELINECOUNT message
+title: EM_GETFILELINECOUNT message (CommCtrl.h)
 description: Gets the number of lines in a multiline edit control, independently of how lines are displayed on the screen.
 ms.assetid: 9fe63c10-7395-4f98-a672-14960a70d14f
 keywords:

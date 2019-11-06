@@ -1,5 +1,5 @@
 ---
-title: NM_RCLICK (status bar) notification code
+title: NM_RCLICK (status bar) notification code (Commctrl.h)
 description: Notifies the parent window of a status bar control that the user has clicked the right mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 9a441d32-f4e4-42ae-877f-17079b0188f4
 keywords:

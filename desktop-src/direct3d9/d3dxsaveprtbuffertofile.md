@@ -1,7 +1,7 @@
 ---
 Description: Saves a precomputed radiance transfer (PRT) buffer to disk.
 ms.assetid: 1fca69bd-6729-45af-981f-b7480c741bc2
-title: D3DXSavePRTBufferToFile function
+title: D3DXSavePRTBufferToFile function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

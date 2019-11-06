@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig InvokeUI method
+title: INapComponentConfig InvokeUI method (NapCommon.h)
 description: Launches a customized user interface for a system health validator (SHV) component.
 ms.assetid: da2a5e3e-bc17-4984-bdbe-b72e9e710a9d
 keywords:

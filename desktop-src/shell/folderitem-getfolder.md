@@ -1,7 +1,7 @@
 ---
 Description: Contains the item's Folder object, if the item is a folder.
 ms.assetid: 87afd0b6-245b-4550-9f21-aa0426ba8470
-title: FolderItem.GetFolder property
+title: FolderItem.GetFolder property (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

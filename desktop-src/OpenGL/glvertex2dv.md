@@ -1,5 +1,5 @@
 ---
-title: glVertex2dv function
+title: glVertex2dv function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: b685d0aa-2874-4ad9-a20c-86823e9ad00b
 keywords:

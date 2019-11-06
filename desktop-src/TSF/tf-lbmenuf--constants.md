@@ -1,5 +1,5 @@
 ---
-title: TF_LBMENUF_ Constants
+title: TF_LBMENUF_ Constants (Ctfutb.h)
 description: The TF\_LBMENUF\_\ constants are used in the ITfMenu AddMenuItem method to specify the characteristics of a menu item in the language bar.
 ms.assetid: f8f3f397-b84e-4635-b454-31369c679ce2
 topic_type:

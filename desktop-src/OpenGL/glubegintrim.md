@@ -1,5 +1,5 @@
 ---
-title: gluBeginTrim function
+title: gluBeginTrim function (Glu.h)
 description: The gluBeginTrim and gluEndTrim functions delimit a Non-Uniform Rational B-Spline (NURBS) trimming loop definition.
 ms.assetid: 636402d0-8f6d-4ad8-84c6-66364025d788
 keywords:

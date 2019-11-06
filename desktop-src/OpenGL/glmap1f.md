@@ -1,5 +1,5 @@
 ---
-title: glMap1f function
+title: glMap1f function (Gl.h)
 description: The glMap1d and glMap1f functions define a one-dimensional evaluator.
 ms.assetid: c016ad80-b507-4e21-829f-f173d5c8dee6
 keywords:

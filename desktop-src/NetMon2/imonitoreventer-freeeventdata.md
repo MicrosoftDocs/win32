@@ -1,7 +1,7 @@
 ---
 Description: The FreeEventData method frees space allocated for the NMEVENTDATA structure.
 ms.assetid: f86dcfd8-5a3b-4ce3-9d45-04545b030a89
-title: IMonitorEventer::FreeEventData method
+title: IMonitorEventer::FreeEventData method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

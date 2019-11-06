@@ -1,5 +1,5 @@
 ---
-title: Style Identifiers
+title: Style Identifiers (UIAutomationClient.h)
 description: This set of constants describes the named constants used to identify the visual style of text in a document.
 ms.assetid: BC06F8B6-3A2B-46BF-A8A6-6BA69A72738A
 topic_type:

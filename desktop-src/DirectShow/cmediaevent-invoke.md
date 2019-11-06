@@ -1,7 +1,7 @@
 ---
 Description: Provides access to properties and methods exposed by an object.
 ms.assetid: 2b091b57-0855-489a-9a33-cfc75f63ad07
-title: CMediaEvent.Invoke method
+title: CMediaEvent.Invoke method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

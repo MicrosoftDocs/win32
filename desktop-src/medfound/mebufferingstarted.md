@@ -1,7 +1,7 @@
 ---
 Description: Signals that a media source has started to buffer data.
 ms.assetid: 8637dfcd-2e0c-4cf4-a216-4089c201bfc6
-title: MEBufferingStarted event
+title: MEBufferingStarted event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

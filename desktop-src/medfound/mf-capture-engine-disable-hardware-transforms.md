@@ -1,7 +1,7 @@
 ---
 Description: Disables the use of hardware-based Media Foundation transforms (MFTs) in the capture engine.
 ms.assetid: 1C687FEC-276D-4759-A3B8-9A2A31CB0DE1
-title: MF_CAPTURE_ENGINE_DISABLE_HARDWARE_TRANSFORMS attribute
+title: MF_CAPTURE_ENGINE_DISABLE_HARDWARE_TRANSFORMS attribute (Mfcaptureengine.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

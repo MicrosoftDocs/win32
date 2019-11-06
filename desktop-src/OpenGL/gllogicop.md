@@ -1,5 +1,5 @@
 ---
-title: glLogicOp function
+title: glLogicOp function (Gl.h)
 description: The glLogicOp function specifies a logical pixel operation for color index rendering.
 ms.assetid: 29edf9bd-f3b8-4de7-9afb-07714f4efd92
 keywords:

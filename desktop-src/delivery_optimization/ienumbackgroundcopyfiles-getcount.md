@@ -1,5 +1,5 @@
 ---
-title: IEnumBackgroundCopyFiles GetCount method
+title: IEnumBackgroundCopyFiles GetCount method (Deliveryoptimization.h)
 description: Retrieves a count of the number of files in the enumeration.
 ms.assetid: EE27679D-3AC0-49DA-992F-8DEA10C21646
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The EnumPorts function enumerates the ports that are available for printing on a specified server.
 ms.assetid: 72ea0e35-bf26-4c12-9451-8f6941990d82
-title: EnumPorts function
+title: EnumPorts function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

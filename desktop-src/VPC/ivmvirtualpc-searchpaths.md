@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC SearchPaths property
+title: IVMVirtualPC SearchPaths property (VPCCOMInterfaces.h)
 description: File system paths that are used to find files associated with Windows Virtual PC.
 ms.assetid: 2a2deee5-7e6b-4b90-8ce9-0b0dbeef0f30
 keywords:

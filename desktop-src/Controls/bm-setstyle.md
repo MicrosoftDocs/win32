@@ -1,5 +1,5 @@
 ---
-title: BM_SETSTYLE message
+title: BM_SETSTYLE message (Winuser.h)
 description: Sets the style of a button. You can send this message explicitly or use the Button\_SetStyle macro.
 ms.assetid: 6439e68f-87fc-4a4a-8025-facc3c0e03e2
 keywords:

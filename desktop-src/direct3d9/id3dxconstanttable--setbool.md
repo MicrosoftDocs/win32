@@ -1,7 +1,7 @@
 ---
 Description: Sets a Boolean value.
 ms.assetid: 652e5b68-88f3-4b05-959b-38bb530c546a
-title: ID3DXConstantTable::SetBool method
+title: ID3DXConstantTable::SetBool method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

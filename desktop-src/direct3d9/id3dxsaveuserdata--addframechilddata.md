@@ -1,7 +1,7 @@
 ---
 Description: Add child data to the frame.
 ms.assetid: b1e02b2a-628f-49c3-a81c-0e96ba0d5f4a
-title: ID3DXSaveUserData::AddFrameChildData method
+title: ID3DXSaveUserData::AddFrameChildData method (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

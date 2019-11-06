@@ -1,5 +1,5 @@
 ---
-title: MM_JOY1BUTTONUP message
+title: MM_JOY1BUTTONUP message (Mmsystem.h)
 description: The MM\_JOY1BUTTONUP message notifies the window that has captured joystick JOYSTICKID1 that a button has been released.
 ms.assetid: 37f0f87a-4805-4cec-9c0c-9d6b36a3ff0d
 keywords:

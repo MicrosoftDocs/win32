@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the identifiers for which there is property data.
 ms.assetid: c9c491b7-95e2-421a-8632-f65844cd5ef9
-title: IContextNode::GetPropertyDataIds method
+title: IContextNode::GetPropertyDataIds method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

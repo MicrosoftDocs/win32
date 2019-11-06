@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCVBREnabled
+title: g_wszWMVCVBREnabled (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 908b3d94-303a-43d7-8801-c70b682ba8e8
 keywords:

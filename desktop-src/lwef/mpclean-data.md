@@ -1,5 +1,5 @@
 ---
-title: MPCLEAN_DATA structure
+title: MPCLEAN_DATA structure (MpClient.h)
 description: Notification data passed to clean callback function.
 ms.assetid: 475A6525-5BD8-4B29-A684-53EE2758C790
 keywords:

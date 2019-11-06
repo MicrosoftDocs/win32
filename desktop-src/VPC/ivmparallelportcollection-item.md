@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPortCollection Item property
+title: IVMParallelPortCollection Item property (VPCCOMInterfaces.h)
 description: Retrieves the parallel port object that corresponds to the specified index.
 ms.assetid: f67a4224-ca96-4d68-9f0f-4977ffff859e
 keywords:

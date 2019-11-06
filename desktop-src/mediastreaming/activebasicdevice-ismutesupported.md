@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice IsMuteSupported property
+title: ActiveBasicDevice IsMuteSupported property (PlayToDevice.h)
 description: Gets a value that indicates if the device supports muting the audio.
 ms.assetid: FF4B533F-B416-4DBE-BF86-FA34E785FFA2
 keywords:

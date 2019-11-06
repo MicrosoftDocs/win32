@@ -1,7 +1,7 @@
 ---
 Description: An actual frame from the driver.
 ms.assetid: '867082c1-196a-4580-ba24-187b0752f6f8'
-title: FRAME structure
+title: FRAME structure (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

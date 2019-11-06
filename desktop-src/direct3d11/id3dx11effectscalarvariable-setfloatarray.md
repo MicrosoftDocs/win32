@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable SetFloatArray method
+title: ID3DX11EffectScalarVariable SetFloatArray method (D3dx11effect.h)
 description: Set an array of floating-point variables.
 ms.assetid: af7f3fb1-e5a8-43c9-8c8a-5ee7b3b01242
 keywords:

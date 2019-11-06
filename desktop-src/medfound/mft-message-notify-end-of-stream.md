@@ -1,7 +1,7 @@
 ---
 Description: Notifies a Media Foundation transform (MFT) that an input stream has ended.
 ms.assetid: 2d6cdf45-1bb4-4915-bd27-efa041089100
-title: MFT_MESSAGE_NOTIFY_END_OF_STREAM
+title: MFT_MESSAGE_NOTIFY_END_OF_STREAM (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

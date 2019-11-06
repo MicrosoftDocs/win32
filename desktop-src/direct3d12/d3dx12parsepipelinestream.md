@@ -1,5 +1,5 @@
 ---
-title: D3DX12ParsePipelineStream function
+title: D3DX12ParsePipelineStream function (D3dx12.h)
 description: Parses a pipeline state stream description, calling a user-defined callback for each subobject instance parsed.
 ms.assetid: BE4E8CC4-1E1F-4FE8-B109-05FAF93EB620
 keywords:

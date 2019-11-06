@@ -1,7 +1,7 @@
 ---
 Description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 ms.assetid: 0e9973de-d179-4a2d-a9bd-6d5f2523da52
-title: IEnumTime::Clone method
+title: IEnumTime::Clone method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Applies gutters to an ID3DXPRTBuffer buffer object.
 ms.assetid: db09aa50-3175-4588-8433-dad6bd37cf0c
-title: ID3DXTextureGutterHelper::ApplyGuttersPRT method
+title: ID3DXTextureGutterHelper::ApplyGuttersPRT method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

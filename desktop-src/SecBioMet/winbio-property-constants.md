@@ -1,5 +1,5 @@
 ---
-title: WINBIO_PROPERTY Constants
+title: WINBIO_PROPERTY Constants (Winbio\_types.h)
 description: Specify the property to be queried in the WinBioGetProperty function or changed in the WinBioSetProperty function.
 ms.assetid: 4F595ADB-18B7-442A-8CED-595E7823F37D
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: IMAGELISTDRAWFLAGS
+title: IMAGELISTDRAWFLAGS (Commctrl.h)
 description: Passed to the IImageList Draw method in the fStyle member of IMAGELISTDRAWPARAMS.
 ms.assetid: 99fd2cb2-0cb0-40c2-b184-b6d8e54397b4
 topic_type:

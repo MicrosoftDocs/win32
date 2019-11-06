@@ -1,5 +1,5 @@
 ---
-title: glRectfv function
+title: glRectfv function (Gl.h)
 description: The glRectfv function draws a rectangle.
 ms.assetid: 2053890e-bae7-4c06-98e7-5ce4314fe95c
 keywords:

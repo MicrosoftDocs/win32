@@ -1,5 +1,5 @@
 ---
-title: UpdateSubresources function
+title: UpdateSubresources function (D3dx12.h)
 description: Updates subresources, all the subresource arrays should be populated, typically by calling ID3D12Device GetCopyableFootprints.
 ms.assetid: D6885165-095E-452D-8D93-A2C43A215F48
 keywords:

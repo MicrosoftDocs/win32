@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyManager interface
+title: IBackgroundCopyManager interface (Deliveryoptimization.h)
 description: Creates transfer jobs, retrieves an enumerator object that contains the jobs in the queue, and retrieves individual jobs from the queue.
 ms.assetid: EA7CB5CE-5E95-4C6D-8026-4B8375EE216A
 keywords:

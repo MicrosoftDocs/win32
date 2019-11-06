@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPortCollection interface
+title: IVMParallelPortCollection interface (VPCCOMInterfaces.h)
 description: Defines the collection of parallel ports within the virtual machine. To obtain an IVMParallelPortCollection object, use the IVMVirtualMachine ParallelPorts property.
 ms.assetid: 038a5c08-cd92-426f-a059-9a4c2110548d
 keywords:

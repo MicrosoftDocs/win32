@@ -1,5 +1,5 @@
 ---
-title: EN_DRAGDROPDONE notification code
+title: EN_DRAGDROPDONE notification code (Richedit.h)
 description: Notifies a rich edit control's parent window that the drag-and-drop operation has completed. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 3c8b95cc-86ef-4aec-b551-11dca50ea5c5
 keywords:

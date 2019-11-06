@@ -1,5 +1,5 @@
 ---
-title: EM_GETLIMITTEXT message
+title: EM_GETLIMITTEXT message (Winuser.h)
 description: Gets the current text limit for an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 778967f0-c090-46a2-9f27-194b17bbb1be
 keywords:

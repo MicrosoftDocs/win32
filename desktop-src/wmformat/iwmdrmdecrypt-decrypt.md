@@ -1,5 +1,5 @@
 ---
-title: IWMDRMDecrypt Decrypt method
+title: IWMDRMDecrypt Decrypt method (Wmdrmsdk.h)
 description: The Decrypt method decrypts a data buffer in place.
 ms.assetid: ca0a5b2f-d25f-423e-8956-fca264399083
 keywords:

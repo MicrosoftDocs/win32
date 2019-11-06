@@ -1,7 +1,7 @@
 ---
 Description: Exposes methods and properties for a region that represents an area of a document.
 ms.assetid: ee823a9e-a144-4394-847e-abf390fb839a
-title: IAnalysisRegion interface
+title: IAnalysisRegion interface (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

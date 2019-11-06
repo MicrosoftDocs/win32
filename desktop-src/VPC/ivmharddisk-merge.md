@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk Merge method
+title: IVMHardDisk Merge method (VPCCOMInterfaces.h)
 description: Merges a differencing virtual hard disk with its parent disk image.
 ms.assetid: e2aca4d3-79c1-416a-b135-f4680c03d200
 keywords:

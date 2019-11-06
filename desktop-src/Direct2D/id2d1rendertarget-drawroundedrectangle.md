@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget DrawRoundedRectangle methods
+title: ID2D1RenderTarget DrawRoundedRectangle methods (D2d1.h)
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TB_GETITEMDROPDOWNRECT message
+title: TB_GETITEMDROPDOWNRECT message (Commctrl.h)
 description: Gets the bounding rectangle of the dropdown window for a toolbar item with style BTNS\_DROPDOWN.
 ms.assetid: 4b59c96b-8d75-44c1-b771-c1d62502a2c2
 keywords:

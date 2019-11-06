@@ -1,7 +1,7 @@
 ---
 Description: Generates an output vertex declaration from the input declaration. The output declaration is intended for use by the mesh tessellation functions.
 ms.assetid: 528b0da3-fc31-4872-98f2-31e03c1cae5e
-title: D3DXGenerateOutputDecl function
+title: D3DXGenerateOutputDecl function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_DIAMOND
+title: WMT_VIDEOIMAGE_TRANSITION_DIAMOND (Wmsdkidl.h)
 description: The diamond transition reveals the new image in a diamond.
 ms.assetid: ff36a64d-62f7-424d-acc9-a7902926a90c
 keywords:

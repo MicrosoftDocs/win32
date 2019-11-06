@@ -1,5 +1,5 @@
 ---
-title: IResultType DisplayName property
+title: IResultType DisplayName property (WdsSharedIDL.h)
 description: Localized display name of the type
 ms.assetid: 21695ba3-aa6d-419b-961a-0643caa5ea1f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine BaseBoardSerialNumber property
+title: IVMVirtualMachine BaseBoardSerialNumber property (VPCCOMInterfaces.h)
 description: Base board serial number.
 ms.assetid: 374ad471-e0de-4e55-bab6-f7ddf3e5797f
 keywords:

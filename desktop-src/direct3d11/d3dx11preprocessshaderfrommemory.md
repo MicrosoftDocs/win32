@@ -1,5 +1,5 @@
 ---
-title: D3DX11PreprocessShaderFromMemory function
+title: D3DX11PreprocessShaderFromMemory function (D3DX11async.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the D3DPreprocess API. Create a shader from memory without compiling it.
 ms.assetid: 3c646914-9334-44fe-a8a0-b84d0dc1a16e
 keywords:

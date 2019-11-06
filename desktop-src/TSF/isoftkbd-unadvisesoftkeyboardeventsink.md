@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd UnadviseSoftKeyboardEventSink method
+title: ISoftKbd UnadviseSoftKeyboardEventSink method (Softkbdc.h)
 description: The ISoftKbd UnadviseSoftKeyboardEventSink method removes a soft keyboard event sink.
 ms.assetid: 785340bd-c4f6-4c80-a492-6e60d1c1d552
 keywords:

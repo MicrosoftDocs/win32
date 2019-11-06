@@ -1,7 +1,7 @@
 ---
 Description: Specifies an intermediate frame width for encoded video.
 ms.assetid: 805bd587-31af-49b8-b5ab-2dcf2a3f81c5
-title: MFPKEY_FORCEFRAMEWIDTH Property
+title: MFPKEY_FORCEFRAMEWIDTH Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

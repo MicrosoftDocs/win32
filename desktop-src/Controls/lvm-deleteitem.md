@@ -1,5 +1,5 @@
 ---
-title: LVM_DELETEITEM message
+title: LVM_DELETEITEM message (Commctrl.h)
 description: Removes an item from a list-view control. You can send this message explicitly or by using the ListView\_DeleteItem macro.
 ms.assetid: 0eddd4c1-7786-4a8c-a16d-9fd83cce98b3
 keywords:

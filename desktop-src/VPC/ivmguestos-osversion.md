@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS OSVersion property
+title: IVMGuestOS OSVersion property (VPCCOMInterfaces.h)
 description: The version of the guest operating system running in the virtual machine.
 ms.assetid: ef189c14-dc87-4d77-9567-345f49483b13
 keywords:

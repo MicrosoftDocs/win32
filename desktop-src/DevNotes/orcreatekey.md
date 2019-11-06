@@ -1,7 +1,7 @@
 ---
 Description: Creates the specified registry key in an offline registry hive. If the key already exists, the function opens it.
 ms.assetid: 40e7468d-e781-4945-9023-580c06088b87
-title: ORCreateKey function
+title: ORCreateKey function (Offreg.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

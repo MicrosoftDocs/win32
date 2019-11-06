@@ -1,5 +1,5 @@
 ---
-title: INapSoHProcessor GetAttribute method
+title: INapSoHProcessor GetAttribute method (NapProtocol.h)
 description: Retrieves the attribute type and value, given the attribute location.
 ms.assetid: 0d7bc655-428b-4a31-b03f-445e80a6d194
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Raised by the audio renderer when the grouping parameters change for the audio session.
 ms.assetid: d6f7757c-fd91-40bd-b2b5-a3e808445250
-title: MEAudioSessionGroupingParamChanged event
+title: MEAudioSessionGroupingParamChanged event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

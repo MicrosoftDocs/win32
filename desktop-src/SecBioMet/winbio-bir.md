@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BIR structure
+title: WINBIO_BIR structure (Winbio\_types.h)
 description: Represents a biometric information record (BIR).
 ms.assetid: 39cfab34-0416-4897-bf95-a1b3c3a6a7a1
 keywords:

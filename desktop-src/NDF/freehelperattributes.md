@@ -1,5 +1,5 @@
 ---
-title: FreeHelperAttributes function
+title: FreeHelperAttributes function (Ndattributils.h)
 description: Deallocates the memory allocated internally to an array of HELPER\_ATTRIBUTE structures.
 ms.assetid: d973bdb9-c1d1-4cea-bcc6-98671349413f
 keywords:

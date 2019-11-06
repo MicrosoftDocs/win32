@@ -1,5 +1,5 @@
 ---
-title: D3DX11_SAVE_TEXTURE_FLAG enumeration
+title: D3DX11_SAVE_TEXTURE_FLAG enumeration (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Texture save options.
 ms.assetid: 9fee11c3-628f-4535-8e93-510fc77e1a3e
 keywords:

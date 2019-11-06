@@ -1,7 +1,7 @@
 ---
 Description: Called when user identities are switched.
 ms.assetid: e88383fc-e58e-4987-be4b-8ce2ab1368db
-title: IIdentityChangeNotify::SwitchIdentities method
+title: IIdentityChangeNotify::SwitchIdentities method (Msident.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

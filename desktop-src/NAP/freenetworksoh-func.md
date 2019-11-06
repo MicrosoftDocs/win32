@@ -1,5 +1,5 @@
 ---
-title: FreeNetworkSoH function
+title: FreeNetworkSoH function (NapUtil.h)
 description: Frees a NetworkSoH data structure.
 ms.assetid: a27d54a0-8b9c-4bf7-909c-1de5db55f429
 keywords:

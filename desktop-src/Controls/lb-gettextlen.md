@@ -1,5 +1,5 @@
 ---
-title: LB_GETTEXTLEN message
+title: LB_GETTEXTLEN message (Winuser.h)
 description: Gets the length of a string in a list box.
 ms.assetid: 866730bc-ffd4-42fd-9cea-5d326e129189
 keywords:

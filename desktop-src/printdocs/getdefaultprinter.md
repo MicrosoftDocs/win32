@@ -1,7 +1,7 @@
 ---
 Description: The GetDefaultPrinter function retrieves the printer name of the default printer for the current user on the local computer.
 ms.assetid: 8ec06743-43ce-4fac-83c4-f09eac7ee333
-title: GetDefaultPrinter function
+title: GetDefaultPrinter function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

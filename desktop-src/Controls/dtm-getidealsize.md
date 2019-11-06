@@ -1,5 +1,5 @@
 ---
-title: DTM_GETIDEALSIZE message
+title: DTM_GETIDEALSIZE message (Commctrl.h)
 description: Gets the size needed to display the control without clipping. Send this message explicitly or by using the DateTime\_GetIdealSize macro.
 ms.assetid: 15ec26a1-645b-4a96-af66-1031e1a46c6c
 keywords:

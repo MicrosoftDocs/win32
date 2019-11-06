@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo ProcessorVersionString property
+title: IVMHostInfo ProcessorVersionString property (VPCCOMInterfaces.h)
 description: Retrieves the version of the host processor.
 ms.assetid: 6cbf0295-7975-4b3c-903f-3deded218184
 keywords:

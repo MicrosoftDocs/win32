@@ -1,7 +1,7 @@
 ---
 Description: Begins a pass, within the active technique.
 ms.assetid: fbb2bf1c-e37a-4117-8c3c-5f5b6a267301
-title: ID3DXEffect::BeginPass method
+title: ID3DXEffect::BeginPass method (D3DX9Effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

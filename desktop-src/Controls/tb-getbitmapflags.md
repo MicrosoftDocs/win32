@@ -1,5 +1,5 @@
 ---
-title: TB_GETBITMAPFLAGS message
+title: TB_GETBITMAPFLAGS message (Commctrl.h)
 description: Retrieves the flags that describe the type of bitmap to be used.
 ms.assetid: 64a66fe6-1446-424c-a0c6-388da6a7b081
 keywords:

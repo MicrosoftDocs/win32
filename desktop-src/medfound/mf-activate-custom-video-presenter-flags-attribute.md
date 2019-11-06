@@ -1,7 +1,7 @@
 ---
 Description: Specifies how to create a custom presenter for the enhanced video renderer (EVR).
 ms.assetid: 40893e13-bf2e-4424-ae43-2b253fc0b622
-title: MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_FLAGS attribute
+title: MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_FLAGS attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

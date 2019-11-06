@@ -1,5 +1,5 @@
 ---
-title: glMapGrid2d function
+title: glMapGrid2d function (Gl.h)
 description: Defines a one-dimensional mesh.
 ms.assetid: 5e5887d1-e137-434b-a1f3-b3f10d462823
 keywords:

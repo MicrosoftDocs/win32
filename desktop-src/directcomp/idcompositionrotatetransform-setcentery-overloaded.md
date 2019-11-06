@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform SetCenterY methods
+title: IDCompositionRotateTransform SetCenterY methods (Dcomp.h)
 description: Changes or animates the value of the CenterY property of a 2D rotation transform.
 ms.assetid: 4C586C46-AA3E-4572-AFD6-8661BD26AC50
 keywords:

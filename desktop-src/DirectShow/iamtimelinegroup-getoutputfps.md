@@ -1,7 +1,7 @@
 ---
 Description: The GetOutputFPS method retrieves the output frame rate of this group.
 ms.assetid: e6dfa4a9-4d44-4ce7-9aec-3564fd337ff6
-title: IAMTimelineGroup::GetOutputFPS method
+title: IAMTimelineGroup::GetOutputFPS method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

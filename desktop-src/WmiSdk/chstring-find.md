@@ -3,7 +3,7 @@ Description: The Find method searches a string for the first match of a substrin
 audience: developer
 ms.assetid: 98a7c5ad-5bc7-4918-b978-45d2b439f250
 ms.tgt_platform: multiple
-title: CHString::Find methods
+title: CHString::Find methods (ChString.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

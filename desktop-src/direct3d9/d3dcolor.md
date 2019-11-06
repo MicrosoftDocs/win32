@@ -1,7 +1,7 @@
 ---
 Description: Defines the fundamental Direct3D color type.
 ms.assetid: a4425774-fd4b-4f5c-9e10-7679bc2795f6
-title: D3DCOLOR
+title: D3DCOLOR (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

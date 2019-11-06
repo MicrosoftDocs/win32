@@ -1,5 +1,5 @@
 ---
-title: IMsTscAx Server property
+title: IMsTscAx Server property (Asptlb.h)
 description: Specifies the name of the server to which the current control is connected.
 ms.assetid: 81118ddd-2662-47f5-8e9d-9c2a5056820b
 ms.tgt_platform: multiple

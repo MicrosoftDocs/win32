@@ -1,7 +1,7 @@
 ---
 Description: Identifies the query type.
 ms.assetid: 575c4e71-3cab-4123-a2a5-d23b53e87111
-title: D3DQUERYTYPE enumeration
+title: D3DQUERYTYPE enumeration (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

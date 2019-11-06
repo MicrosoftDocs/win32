@@ -1,5 +1,5 @@
 ---
-title: Video Encoding Properties
+title: Video Encoding Properties (Camerauicontrol.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 1b1b2a12-b3a0-48f5-83be-35b1cea61c81
 keywords:

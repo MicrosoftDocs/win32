@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_LONGDATA message
+title: MM_MIM_LONGDATA message (Mmsystem.h)
 description: The MM\_MIM\_LONGDATA message is sent to a window when either a complete MIDI system-exclusive message is received or when a buffer has been filled with system-exclusive data.
 ms.assetid: 72b9eade-4224-436f-bfef-32204eaf51ae
 keywords:

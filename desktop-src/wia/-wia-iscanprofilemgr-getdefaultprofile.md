@@ -1,7 +1,7 @@
 ---
 Description: Gets the default scan profile.
 ms.assetid: 0e5ca06a-78ca-4d24-8dda-26babc3124b5
-title: IScanProfileMgr::GetDefaultProfile method
+title: IScanProfileMgr::GetDefaultProfile method (Scanprofilemgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

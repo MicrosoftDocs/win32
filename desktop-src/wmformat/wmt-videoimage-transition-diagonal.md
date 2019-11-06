@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_DIAGONAL
+title: WMT_VIDEOIMAGE_TRANSITION_DIAGONAL (Wmsdkidl.h)
 description: The diagonal transition reveals the new image along a diagonal line originating in one corner of the frame.
 ms.assetid: 1aaaf9e8-bbb8-4289-948e-5d352798e831
 keywords:

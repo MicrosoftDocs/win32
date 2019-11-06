@@ -1,7 +1,7 @@
 ---
 Description: Compute tangent, binormal, and normal vectors for a mesh.
 ms.assetid: 54edb9a5-440d-4191-a58f-296e5b804e0c
-title: D3DXComputeTangentFrame function
+title: D3DXComputeTangentFrame function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks PSCb method
+title: ID3DX12PipelineParserCallbacks PSCb method (D3DX12.h)
 description: Calls the pixel shader subobject callback of an object that implements this interface.
 ms.assetid: 3397B018-C26A-426F-88BB-89013BACBEEA
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks ErrorDuplicateSubobject method
+title: ID3DX12PipelineParserCallbacks ErrorDuplicateSubobject method (D3DX12.h)
 description: Calls the duplicate subobject error callback of an object that implements this interface.
 ms.assetid: 625C72C4-7BFB-4DAD-8D39-EDDBC7189499
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The GetFrameDstAddressOffset function returns the offset to the destination address of a given frame.
 ms.assetid: 8922d7d0-1a23-47ac-886b-fcc0bcaa6ba7
-title: GetFrameDstAddressOffset function
+title: GetFrameDstAddressOffset function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

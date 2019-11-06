@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_GET_STATUS message
+title: WM_CAP_GET_STATUS message (Vfw.h)
 description: The WM\_CAP\_GET\_STATUS message retrieves the status of the capture window. You can send this message explicitly or by using the capGetStatus macro.
 ms.assetid: 31349599-a52c-45ba-8f08-91008773f317
 keywords:

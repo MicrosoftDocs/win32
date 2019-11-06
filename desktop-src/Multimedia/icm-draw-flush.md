@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_FLUSH message
+title: ICM_DRAW_FLUSH message (Vfw.h)
 description: The ICM\_DRAW\_FLUSH message notifies a rendering driver to render the contents of any image buffers that are waiting to be drawn. You can send this message explicitly or by using the ICDrawFlush macro.
 ms.assetid: c29ed751-c773-4476-98fe-6edef3ff0cf4
 keywords:

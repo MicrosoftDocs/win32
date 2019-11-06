@@ -1,7 +1,7 @@
 ---
 Description: Gets the certificate from the user credential.
 ms.assetid: 3C79D049-89DC-4AF5-8C0A-5B7EBBBD69D3
-title: GetCertificateFromCred function
+title: GetCertificateFromCred function (Lsaidprov.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

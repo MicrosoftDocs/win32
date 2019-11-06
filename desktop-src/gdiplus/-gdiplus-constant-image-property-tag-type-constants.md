@@ -1,7 +1,7 @@
 ---
 Description: You can store and retrieve image metadata with the help of a PropertyItem object. The type data member of a PropertyItem object specifies the data type of the values stored in the value data member of that same PropertyItem object.
 ms.assetid: d05cdf42-4b30-45ce-85a1-025d4f4e9d13
-title: Image Property Tag Type Constants
+title: Image Property Tag Type Constants (Gdiplusimaging.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

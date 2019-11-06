@@ -1,7 +1,7 @@
 ---
 Description: The Inactive method notifies the pin that the filter is no longer active. This method overrides the CBaseInputPin::Inactive method.
 ms.assetid: a8dd75b8-e0d1-453d-9363-82ac9a53ed63
-title: CRendererInputPin.Inactive method
+title: CRendererInputPin.Inactive method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

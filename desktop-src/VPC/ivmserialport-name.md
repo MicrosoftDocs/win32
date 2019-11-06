@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPort Name property
+title: IVMSerialPort Name property (VPCCOMInterfaces.h)
 description: Name of the serial port.
 ms.assetid: 4d3fe008-f089-4a1b-9c90-2e0b3ded58fa
 keywords:

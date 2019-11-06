@@ -1,5 +1,5 @@
 ---
-title: BN_CLICKED notification code
+title: BN_CLICKED notification code (Winuser.h)
 description: Sent when the user clicks a button. The parent window of the button receives this notification code through the WM\_COMMAND message.
 ms.assetid: 74847549-b92f-4981-a979-d0b2a8a5539a
 keywords:

@@ -2,7 +2,7 @@
 Description: Boolean value that indicates whether the day component in the CIM DATETIME value contains an interval or a wildcard value.
 ms.assetid: a713378b-3953-49d8-9c6a-44aa9337eae2
 ms.tgt_platform: multiple
-title: SWbemDateTime.DaySpecified property
+title: SWbemDateTime.DaySpecified property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

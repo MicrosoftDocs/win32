@@ -1,5 +1,5 @@
 ---
-title: EAP Method Properties
+title: EAP Method Properties (Eaptypes.h)
 description: Used by supplicants and authenticators to determine the EAP methods to be used with a given supplicant or authenticator. Method properties also specify the configuration of a method.
 ms.assetid: 10407b85-5d2c-4c75-9b65-a0d65d4cc7ab
 topic_type:

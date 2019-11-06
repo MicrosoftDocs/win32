@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the event handle. This operator is not supported as an L-value.
 ms.assetid: 9000d6d1-bbca-44ac-8808-0b3b827086c5
-title: CAMEvent.operator HANDLE method
+title: CAMEvent.operator HANDLE method (Wxutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

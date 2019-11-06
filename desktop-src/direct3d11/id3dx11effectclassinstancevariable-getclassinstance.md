@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectClassInstanceVariable GetClassInstance method
+title: ID3DX11EffectClassInstanceVariable GetClassInstance method (D3dx11effect.h)
 description: Gets a class instance.
 ms.assetid: dec00a6b-0587-40cf-abae-dd110a639fe0
 keywords:

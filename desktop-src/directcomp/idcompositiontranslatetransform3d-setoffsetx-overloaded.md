@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTranslateTransform3D SetOffsetX methods
+title: IDCompositionTranslateTransform3D SetOffsetX methods (Dcomp.h)
 description: Changes or animates the value of the OffsetX property of a 3D translation transform effect.
 ms.assetid: 61EDA0AA-0274-446E-9169-974AB84802FA
 keywords:
