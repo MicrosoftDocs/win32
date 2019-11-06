@@ -1,5 +1,5 @@
 ---
-title: Texture1D SampleCmpLevelZero methods
+title: Texture1D::Texture1D SampleCmpLevelZero methods
 description: Samples a Texture1D on mipmap level 0 only and compares the result to a comparison value.
 ms.assetid: DCD555DE-7A54-426D-AFD7-77624BA60E31
 keywords:

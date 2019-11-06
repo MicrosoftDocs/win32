@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray Gather methods
+title: TextureCubeArray::TextureCubeArray Gather methods
 description: Samples a texture and returns all four components.
 ms.assetid: B459E455-EF22-46A7-ADFE-322ED808F83E
 keywords:

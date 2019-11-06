@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: Texture3D::GetDimensions function
 description: Returns the dimensions of the resource.
 ms.assetid: 4a08f14f-7489-4ed1-bf94-4f63f1002eab
 keywords:

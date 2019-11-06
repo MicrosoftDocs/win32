@@ -1,5 +1,5 @@
 ---
-title: GatherCmpRed(S,float,float,int2,int2,int2,int2) function
+title: Texture2D::GatherCmpRed(S,float,float,int2,int2,int2,int2) function
 description: Samples a texture, tests the samples against a compare value, and returns the red component.
 ms.assetid: B20A766E-0B4F-4FBA-A691-70ACE7BECF33
 keywords:

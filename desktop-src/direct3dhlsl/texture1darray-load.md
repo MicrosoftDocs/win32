@@ -1,5 +1,5 @@
 ---
-title: Texture1DArray Load methods
+title: Texture1DArray::Texture1DArray Load methods
 description: Reads texture data.
 ms.assetid: '0cf877fd-7e55-44f3-8965-8cff46f9f595'
 keywords:

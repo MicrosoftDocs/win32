@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherCmpBlue methods
+title: TextureCube::TextureCube GatherCmpBlue methods
 description: Samples and compares a texture and returns the blue component.
 ms.assetid: 28BF865B-906E-4BAC-9EBE-F75590346392
 keywords:

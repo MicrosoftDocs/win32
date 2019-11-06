@@ -1,5 +1,5 @@
 ---
-title: RWTexture3D Load methods
+title: RWTexture3D::RWTexture3D Load methods
 description: Reads texture data from a RWTexture3D.
 ms.assetid: 850A2F93-96C1-4B6F-AFEF-D245791611B4
 keywords:

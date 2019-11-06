@@ -1,5 +1,5 @@
 ---
-title: GatherCmpGreen(S,float,float,uint) function
+title: TextureCube::GatherCmpGreen(S,float,float,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns the green component along with status about the operation.
 ms.assetid: 3EFCEFE1-BFE2-4448-962E-108C3C0861E5
 keywords:

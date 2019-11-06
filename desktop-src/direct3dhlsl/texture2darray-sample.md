@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray Sample methods
+title: Texture2DArray::Texture2DArray Sample methods
 description: Samples a Texture2DArray.
 ms.assetid: 30798438-3599-49DD-8E84-40CEB4AA9BEB
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SampleGrad(S,float,float,float,int,float,uint) function
+title: SampleGrad::SampleGrad(S,float,float,float,int,float,uint) function
 description: Samples a Texture2D, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
 ms.assetid: 896497E1-A795-4674-AB41-2440A7D0CC76
 keywords:

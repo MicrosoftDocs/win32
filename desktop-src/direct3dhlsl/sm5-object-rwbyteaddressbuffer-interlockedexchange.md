@@ -1,5 +1,5 @@
 ---
-title: InterlockedExchange function
+title: RWByteAddressBuffer::InterlockedExchange function
 description: Exchanges a value, atomically.
 ms.assetid: a50f4cba-a7a2-44b0-9de7-003b4c7a947f
 keywords:

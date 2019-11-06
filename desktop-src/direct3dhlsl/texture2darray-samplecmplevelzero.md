@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray SampleCmpLevelZero methods
+title: Texture2DArray::Texture2DArray SampleCmpLevelZero methods
 description: Samples a Texture2DArray on mipmap level 0 only, using a comparison value to reject samples.
 ms.assetid: 3648859C-3932-46B1-B83C-A05EFEFE5EEE
 keywords:

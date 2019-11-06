@@ -1,5 +1,5 @@
 ---
-title: Sample(S,float,int,float,uint) function
+title: Texture3D::Sample(S,float,int,float,uint) function
 description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
 ms.assetid: DB8401A1-1065-4616-BDDE-9ADB59B09C8B
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray Sample methods
+title: TextureCubeArray::TextureCubeArray Sample methods
 description: Samples a texture.
 ms.assetid: D63751DB-68AB-4F62-8719-9232FA35F649
 keywords:

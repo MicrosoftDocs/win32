@@ -1,5 +1,5 @@
 ---
-title: mips.Operator    function
+title: Texture2D::mips.Operator    function
 description: Returns a read-only resource variable.
 ms.assetid: 201996a7-741f-4457-ab77-9cd653f3682b
 keywords:

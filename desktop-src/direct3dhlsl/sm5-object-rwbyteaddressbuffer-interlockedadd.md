@@ -1,5 +1,5 @@
 ---
-title: InterlockedAdd function
+title: RWByteAddressBuffer::InterlockedAdd function
 description: Adds the value, atomically.
 ms.assetid: 27274aae-1e75-4626-9997-57c4e9393000
 keywords:

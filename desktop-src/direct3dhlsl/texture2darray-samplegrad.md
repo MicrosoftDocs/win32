@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray SampleGrad methods
+title: Texture2DArray::Texture2DArray SampleGrad methods
 description: Samples a Texture2DArray using a gradient to influence the way the sample location is calculated.
 ms.assetid: 608223A1-CF76-4FB6-B883-DC7A704BEA9F
 keywords:

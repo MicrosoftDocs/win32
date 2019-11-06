@@ -1,5 +1,5 @@
 ---
-title: Texture2DMSArray Load methods
+title: Texture2DMSArray::Texture2DMSArray Load methods
 description: Reads texture data.
 ms.assetid: '24ebf42c-3e66-471c-aca9-e3b37b40f5ee'
 keywords:

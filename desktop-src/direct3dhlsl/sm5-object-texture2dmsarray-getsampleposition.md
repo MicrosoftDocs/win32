@@ -1,5 +1,5 @@
 ---
-title: GetSamplePosition function
+title: Texture2DMSArray::GetSamplePosition function
 description: Samples a texture and returns all four components.
 ms.assetid: e04717be-58b0-4242-87dd-d769834ae1c2
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: InterlockedAnd function
+title: RWByteAddressBuffer::InterlockedAnd function
 description: Ands the value, atomically.
 ms.assetid: c4024be0-3884-4af9-8075-76774c7c6178
 keywords:

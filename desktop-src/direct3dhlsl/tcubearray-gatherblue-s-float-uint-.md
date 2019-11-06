@@ -1,5 +1,5 @@
 ---
-title: GatherBlue(S,float,uint) function
+title: TextureCubeArray::GatherBlue(S,float,uint) function
 description: Samples a texture and returns the blue component along with status about the operation.
 ms.assetid: 85606EE7-9B05-439F-B525-A1CD42FE32F6
 keywords:

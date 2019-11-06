@@ -1,5 +1,5 @@
 ---
-title: Load(int,uint) function
+title: StructuredBuffer::Load(int,uint) function
 description: Reads buffer data and returns status about the operation.
 ms.assetid: 'd71c6057-6651-4b70-91cf-892fde6d0188'
 keywords:

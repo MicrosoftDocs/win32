@@ -1,5 +1,5 @@
 ---
-title: Load2(uint) function
+title: RWByteAddressBuffer::Load2(uint) function
 description: Gets two values.
 ms.assetid: a00396cb-e68d-479e-ab3f-4c52f2cfc3bc
 keywords:

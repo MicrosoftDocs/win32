@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: Texture2DArray::Operator  function
 description: Returns a read-only resource variable.
 ms.assetid: eb6ff496-c46f-405f-a172-ab747415a2f9
 keywords:

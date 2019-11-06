@@ -1,5 +1,5 @@
 ---
-title: GatherRed(S,float,int2,int2,int2,int2) function
+title: Texture2D::GatherRed(S,float,int2,int2,int2,int2) function
 description: Samples a texture and returns the red component.
 ms.assetid: 85C321CB-B77C-430B-921D-D56E5597B24A
 keywords:

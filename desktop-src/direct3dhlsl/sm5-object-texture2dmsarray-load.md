@@ -1,5 +1,5 @@
 ---
-title: Load(int,int) function
+title: Texture2DMSArray::Load(int,int) function
 description: Gets one value.
 ms.assetid: 955135cf-1bac-4d0c-9870-2b6d59d9dd88
 keywords:

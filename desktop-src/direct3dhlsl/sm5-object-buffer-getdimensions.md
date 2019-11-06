@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: Buffer::GetDimensions function
 description: Gets the length of the buffer.
 ms.assetid: 704890e8-43e4-4e72-b7e2-eeef331bef1c
 keywords:

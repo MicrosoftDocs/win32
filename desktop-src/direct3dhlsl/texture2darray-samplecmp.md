@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray SampleCmp methods
+title: Texture2DArray::Texture2DArray SampleCmp methods
 description: Samples a Texture2DArray, using a comparison value to reject samples.
 ms.assetid: EDA2239F-8A13-4DD0-9DC5-65B879C9DAAC
 keywords:

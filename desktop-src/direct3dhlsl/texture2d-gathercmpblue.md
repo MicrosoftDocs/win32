@@ -1,5 +1,5 @@
 ---
-title: Texture2D GatherCmpBlue methods
+title: Texture2D::Texture2D GatherCmpBlue methods
 description: Samples and compares a Texture2D and returns the blue component.
 ms.assetid: '2d266105-6d15-4593-ad70-b82c06f77a76'
 keywords:
