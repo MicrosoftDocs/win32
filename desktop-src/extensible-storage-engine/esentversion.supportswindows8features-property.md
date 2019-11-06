@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsWindows8Features
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion.supportswindows8features(v=EXCHG.10)
 ms:contentKeyID: 55103187
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentVersion.SupportsWindows8Features
 dev_langs:

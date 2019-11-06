@@ -5,7 +5,7 @@ ms:assetid: 6e6ddb49-702c-4c45-ac9f-35ae817696dd
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269291(v=EXCHG.10)
 ms:contentKeyID: 32765583
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetSystemParameter
 - JetGetSystemParameterA

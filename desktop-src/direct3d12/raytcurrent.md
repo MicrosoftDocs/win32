@@ -3,7 +3,7 @@ Description: A float representing the current parametric ending point for the ra
 ms.assetid: 
 title: RayTCurrent
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

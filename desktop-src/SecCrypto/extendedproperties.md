@@ -2,7 +2,7 @@
 Description: Represents a collection of ExtendedProperty objects.
 ms.assetid: '9de25994-9f0b-47a0-b4c8-781aec782f88'
 title: ExtendedProperties object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

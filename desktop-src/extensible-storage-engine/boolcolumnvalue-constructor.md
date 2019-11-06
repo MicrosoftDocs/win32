@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.BoolColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.boolcolumnvalue.boolcolumnvalue(v=EXCHG.10)
 ms:contentKeyID: 55100900
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.BoolColumnValue.BoolColumnValue
 dev_langs:

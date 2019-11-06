@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.IJET_LOGTIME.ToDateTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.ijet_logtime.todatetime(v=EXCHG.10)
 ms:contentKeyID: 39510507
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.IJET_LOGTIME.ToDateTime
 dev_langs:

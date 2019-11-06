@@ -2,7 +2,7 @@
 Description: Represents a Shell folder. This object contains properties and methods that allow you to retrieve information about the folder.
 ms.assetid: 'f1e82c61-205e-47c8-bc7c-6a52410a672e'
 title: Folder object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

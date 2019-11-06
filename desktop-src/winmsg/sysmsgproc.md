@@ -8,7 +8,7 @@ ms.assetid: na
 ms.author: TimShererWithAquent
 ms.date: 04/05/2019
 ms.keywords: 
-ms.topic: function
+ms.topic: reference
 req.header: 
 req.include-header: 
 req.target-type: Windows

@@ -8,7 +8,7 @@ ms.assetid: na
 ms.author: windowssdkdev
 ms.date: 04/10/2019
 ms.keywords: InterlockedPushListSListEx
-ms.topic: function
+ms.topic: reference
 req.header:
 - WinBase.h on Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2
 - InterlockedAPI.h on Windows 8 and Windows Server 2012

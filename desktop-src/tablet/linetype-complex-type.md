@@ -2,7 +2,7 @@
 Description: Defines the type that contains a line of paragraph.
 ms.assetid: '0c864ca9-7f09-4fea-9490-4e07d82bcf6e'
 title: LineType Complex Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

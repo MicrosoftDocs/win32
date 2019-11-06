@@ -8,7 +8,7 @@ ms.assetid: na
 ms.author: windowssdkdev
 ms.date: 04/10/2019
 ms.keywords: WideCharToMultiByte, MultiByteToWideChar
-ms.topic: function
+ms.topic: reference
 req.header: Gb18030.h
 req.include-header: 
 req.target-type: Windows

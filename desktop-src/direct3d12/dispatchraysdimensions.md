@@ -3,7 +3,7 @@ Description: The width, height and depth values from the D3D12_DISPATCH_RAYS_DES
 ms.assetid: 
 title: DispatchRaysDimensions
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

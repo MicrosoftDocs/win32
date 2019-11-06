@@ -2,7 +2,7 @@
 Description: Indicates the level of confidence that the IInkAnalyzer has in the accuracy of the recognition result.
 ms.assetid: 'fd4fc350-b4db-4f9a-a5ae-00065e33606c'
 title: RecognitionConfidence enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

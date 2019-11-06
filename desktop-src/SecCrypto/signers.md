@@ -2,7 +2,7 @@
 Description: Represents a collection of Signer objects.
 ms.assetid: '72e86acd-eb87-4eff-bd4e-327630ebbfc4'
 title: Signers object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

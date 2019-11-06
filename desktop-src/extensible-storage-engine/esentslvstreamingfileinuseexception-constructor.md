@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException.#
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfileinuseexception.esentslvstreamingfileinuseexception(v=EXCHG.10)
 ms:contentKeyID: 55102833
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException.EsentSLVStreamingFileInUseException
 dev_langs:

@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.fShadowingDisabled
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.fshadowingdisabled(v=EXCHG.10)
 ms:contentKeyID: 39511064
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.fShadowingDisabled
 dev_langs:

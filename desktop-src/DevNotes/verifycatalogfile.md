@@ -2,7 +2,7 @@
 Description: Verifies a single catalog file.
 ms.assetid: '4b2de733-ef95-4b0a-8f53-7bc73ffaa2c2'
 title: VerifyCatalogFile function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

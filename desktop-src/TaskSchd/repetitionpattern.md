@@ -15,7 +15,7 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

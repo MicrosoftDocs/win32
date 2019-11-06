@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailure
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodelanguagevalidationfailureexception(v=EXCHG.10)
 ms:contentKeyID: 55107319
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailureException
 dev_langs:

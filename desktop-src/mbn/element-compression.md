@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: Compression
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 4b2ad853-ecb3-46ef-8ce2-aa001bb070e6
 api_name: 

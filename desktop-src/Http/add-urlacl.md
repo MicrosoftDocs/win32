@@ -10,7 +10,7 @@ api_name:
 - add urlacl
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

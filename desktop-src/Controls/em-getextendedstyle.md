@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 10/19/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Controls the way WMI creates or updates classes depending on the fl
 ms.assetid: ec535662-be14-44dc-ba0f-f9d2cbf630ea
 ms.tgt_platform: multiple
 title: pragma classflags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
