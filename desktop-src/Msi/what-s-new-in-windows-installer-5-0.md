@@ -8,9 +8,15 @@ ms.date: 05/31/2018
 
 # What's New in Windows Installer 5.0
 
-The information in this topic identifies the additions and changes that are available in Windows Installer 5.0.
+The information in this topic identifies the additions and changes that are available in Windows Installer 5.0. 
 
-Windows Installer 5.0 is available for Microsoft Windows 7 and Windows Server 2008 R2. For a complete list of all Windows Installer versions and redistributables, see [Released Versions of Windows Installer](released-versions-of-windows-installer.md).
+Windows Installer 5.0 is included with the following versions of Windows, and it is only supported on these versions:
+
+* Client: Windows 7 and all later versions.
+* Server: Windows Server 2008 R2 and all later versions.
+
+> [!NOTE]
+> Unlike previous versions of Windows Installer, there is no redistributable for Windows Installer 5.0. All Windows Installer 5.0 components are included in the Windows versions listed above. For a list of redistributables available for previous versions of Windows Installer, see [Windows Installer Redistributables](windows-installer-redistributables.md). For a complete list of Windows Installer versions, see [Released Versions of Windows Installer](released-versions-of-windows-installer.md).
 
 This page is provided as a guide to the documentation. You should refer to the Requirements section on the main reference pages to determine the actual operating system requirements. Parts of the Windows Installer that are not linked to from this page may be available in another version of the Windows Installer. For information about other Windows Installer versions, see [What's New in Windows Installer](what-s-new-in-windows-installer.md).
 
