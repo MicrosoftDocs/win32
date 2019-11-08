@@ -3,20 +3,20 @@ Description: The information in this topic identifies the additions and changes 
 ms.assetid: c088c15b-0eef-4a92-bb65-e7fe871afbfe
 title: What's New in Windows Installer 5.0
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/08/2019
 ---
 
 # What's New in Windows Installer 5.0
 
-The information in this topic identifies the additions and changes that are available in Windows Installer 5.0. 
+The information in this topic identifies the additions and changes that are available in Windows Installer 5.0.
 
-Windows Installer 5.0 is included with the following versions of Windows, and it is only supported on these versions:
+Windows Installer 5.0 is included with the following versions of Windows:
 
 * Client: Windows 7 and all later versions.
 * Server: Windows Server 2008 R2 and all later versions.
 
 > [!NOTE]
-> Unlike previous versions of Windows Installer, there is no redistributable for Windows Installer 5.0. All Windows Installer 5.0 components are included in the Windows versions listed above. For a list of redistributables available for previous versions of Windows Installer, see [Windows Installer Redistributables](windows-installer-redistributables.md). For a complete list of Windows Installer versions, see [Released Versions of Windows Installer](released-versions-of-windows-installer.md).
+> There is no redistributable for Windows Installer 5.0. For a list of redistributables available for previous versions of Windows Installer, see [Windows Installer Redistributables](windows-installer-redistributables.md). For a complete list of Windows Installer versions, see [Released Versions of Windows Installer](released-versions-of-windows-installer.md).
 
 This page is provided as a guide to the documentation. You should refer to the Requirements section on the main reference pages to determine the actual operating system requirements. Parts of the Windows Installer that are not linked to from this page may be available in another version of the Windows Installer. For information about other Windows Installer versions, see [What's New in Windows Installer](what-s-new-in-windows-installer.md).
 
@@ -98,9 +98,9 @@ This page is provided as a guide to the documentation. You should refer to the R
 
 Setup developers can use Windows Installer 5.0 to author a single installation package capable of either per-machine installation or per-user installation of the application. For more information, see [Single Package Authoring](single-package-authoring.md). The internal consistency evaluator [ICE105](ice-105.md) checks that the package has been authored to be installed in a per-user context. An application capable of being installed, updated, run, and removed by a standard user without elevation is called a Per-User Application (PUA.) A PUA can provide a better user experience, minimize effects on the system and other users of the computer, and reserves UAC prompting to situations that actually require the elevation of the user's privileges. The Single Package Authoring features of Windows Installer 5.0 can facilitate the development of Per-User Applications.
 
-Services configuration options enable a Windows Installer package to customize the [services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx) on a computer. For more information, see [Using Services Configuration](using-services-configuration.md).
+Services configuration options enable a Windows Installer package to customize the [services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx) on a computer. For more information, see [Using Services Configuration](using-services-configuration.md).
 
-Beginning with Windows Installer 5.0, a Windows Installer package is capable to secure new accounts, Windows [Services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx), files, folders, and registry keys. The [MsiLockPermissionsEx](msilockpermissionsex-table.md) table can specify a security descriptor that denies permissions, specifies inheritance of permissions from a parent resource, or specifies the permissions of a new account. For information, see [Securing Resources](securing-resources-.md).
+Beginning with Windows Installer 5.0, a Windows Installer package is capable to secure new accounts, Windows [Services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx), files, folders, and registry keys. The [MsiLockPermissionsEx](msilockpermissionsex-table.md) table can specify a security descriptor that denies permissions, specifies inheritance of permissions from a parent resource, or specifies the permissions of a new account. For information, see [Securing Resources](securing-resources-.md).
 
 Windows Installer 5.0 can enumerate all components installed on the computer and obtain the key path for the component. For more information, see [Enumerating Components](enumerating-components-.md).
 
