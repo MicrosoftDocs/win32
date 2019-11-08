@@ -84,7 +84,7 @@
     - name: "System Error Codes"
       href: system-error-codes.md
       items: 
-      - name: "How to download and use the Microsoft Error Lookup Tool"
+      - name: "Download and use the Microsoft Error Lookup Tool"
         href: system-error-code-lookup-tool.md
       - name: "System Error Codes (0-499)"
         href: system-error-codes--0-499-.md

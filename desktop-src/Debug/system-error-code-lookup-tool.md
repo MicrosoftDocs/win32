@@ -1,13 +1,13 @@
 ---
 Description: Describes how to use the Microsoft Error Lookup Tool to find text explanations of hexadecimal error codes in Windows.
-title: How to download and use the Microsoft Error Lookup Tool
+title: Download and use the Microsoft Error Lookup Tool
 ms.topic: article
 ms.date: 11/08/2019
 ---
 
-# How to download and use the Microsoft Error Lookup Tool
+# Download and use the Microsoft Error Lookup Tool
 
-Microsoft Windows and other software components report status information, including error-level information, in the form of hexadecimal values. These values often use DWORD (double word) format. This format conserves energy and computer resources because one DWORD value typically takes less space in memory than a string of Unicode text. However, the stored value, by itself, may not have meaning for users and technicians who are trying to understand the event as reported by event logs, text logs, and other diagnostic sources. This is because they would first have to convert those codes to human-readable text.
+Microsoft Windows and other software components report status information, including error-level information, in the form of hexadecimal values. These values often use DWORD (double word) format. This format conserves energy and computer resources because one DWORD value typically takes less space in memory than a string of Unicode text. However, the stored value itself may not have meaning for end users and technicians. They have to convert those codes to human-readable text to understand what event logs, text logs, and other diagnostic sources are reporting.
 
 You can use any of the following methods to decode Microsoft event message codes:
 
@@ -18,11 +18,13 @@ You can use any of the following methods to decode Microsoft event message codes
 
 The Microsoft Error Lookup Tool quickly and easily produces the message text that is associated with a DWORD hexadecimal status code or other code. This text is defined in various Microsoft source-code header files, such as Winerror.h, Setupapi.h, and so on.
 
+This tool is digitally signed by Microsoft. The following is the SHA256 information for the file download:  
+
+|Algorithm |Hash |
+| --- | --- |
+|SHA256 |88739EC82BA16A0B4A3C83C1DD2FCA6336AD8E2A1E5F1238C085B1E86AB8834A |
+
 > [!NOTE]
-> This tool is digitally signed by Microsoft. The following is the SHA256 information for the file download:  
-> - **Algorithm**: SHA256
-> - **Hash**: 88739EC82BA16A0B4A3C83C1DD2FCA6336AD8E2A1E5F1238C085B1E86AB8834A  
->  
 > Business environments may restrict which files can run and from where. Before you download and run this tool, check the following details:
 > - Do you have to have permission and/or a security exception to download or run the tool?
 > - Can you store and run this tool on your computer (for example, in your Documents folder)? Or do you need to store and run the tool on a specialized computer, such as a central file server?
@@ -30,7 +32,7 @@ The Microsoft Error Lookup Tool quickly and easily produces the message text tha
 ## Usage
 
 1. Download the tool by selecting [this link](https://download.microsoft.com/download/4/3/2/432140e8-fb6c-4145-8192-25242838c542/Err_6.4.5/Err_6.4.5.exe).
-1. Go to your download folder, and copy or move the downloaded file (Err_6.4.5.exe) to folder in which you will store the tool. You do not have to expand or install the file.
+1. If you didn't specify a location in Step 1, go to your download folder, and copy or move the downloaded file (Err_6.4.5.exe) to folder in which you will store the tool. You do not have to expand or install the file.
    > [!NOTE]
    > If you copy or move the file to a folder that is listed in your operating system's **Path** environment variable, it will work at any command prompt.
 
