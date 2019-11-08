@@ -131,7 +131,7 @@ Next</code></pre></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>Get-WmiObject -Class CIM_DataFile -namespace &quot;root\cimv2&quot; -Filter &quot;Extension = &quot;mp3&quot; | `
+<td><pre><code>Get-WmiObject -Class CIM_DataFile -namespace &quot;root\cimv2&quot; -Filter &quot;Extension = &#39;mp3&#39;&quot; | `
    format-list Name, Extension, Path</code></pre></td>
 </tr>
 </tbody>
