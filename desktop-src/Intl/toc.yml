@@ -123,13 +123,13 @@
           href: using-unicode-normalization-to-represent-strings.md
         - name: "Working with Custom Locales"
           href: working-with-custom-locales.md
-        - name: "NLS: Internationalized Domain Name (IDN) Conversion Sample"
+        - name: "NLS - Internationalized Domain Name Conversion Sample"
           href: nls--internationalized-domain-name--idn--conversion-sample.md
-        - name: "NLS: Internationalized Domain Name (IDN) Mitigation Sample"
+        - name: "NLS - Internationalized Domain Name Mitigation Sample"
           href: nls--internationalized-domain-name--idn--mitigation-sample.md
-        - name: "NLS: Name-based APIs Sample"
+        - name: "NLS - Name-based APIs Sample"
           href: nls--name-based-apis-sample.md
-        - name: "NLS: Unicode Normalization Sample"
+        - name: "NLS - Unicode Normalization Sample"
           href: nls--unicode-normalization-sample.md
       - name: "National Language Support Reference"
         href: national-language-support-reference.md

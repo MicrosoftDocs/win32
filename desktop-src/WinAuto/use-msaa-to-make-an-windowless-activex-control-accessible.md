@@ -1,5 +1,5 @@
 ---
-title: How to Use MSAA to Make a Windowless ActiveX Control Accessible
+title: Use MSAA to make a windowless ActiveX control accessible
 description: Describes how to use the Microsoft Active Accessibility \ 32;API to ensure that your windowless Microsoft ActiveX control is accessible to assistive technology (AT) client applications.
 ms.assetid: 30F874F9-EA45-4365-8798-FEA011C62DA9
 keywords:
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How to Use MSAA to Make a Windowless ActiveX Control Accessible
+# Use MSAA to make a windowless ActiveX control accessible
 
 Describes how to use the Microsoft Active Accessibility API to ensure that your windowless Microsoft ActiveX control is accessible to assistive technology (AT) client applications.
 

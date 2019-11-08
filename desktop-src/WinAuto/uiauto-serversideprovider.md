@@ -1,5 +1,5 @@
 ---
-title: Implementing a Server-Side UI Automation Provider
+title: Implement a Server-Side UI Automation Provider
 description: This topic describes how to implement a server-side Microsoft UI Automation provider for a custom control written in C++.
 ms.assetid: c3a919b2-8b8c-4dde-ad71-587f3845a9f5
 keywords:
@@ -21,7 +21,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Implementing a Server-Side UI Automation Provider
+# Implement a Server-Side UI Automation Provider
 
 This topic describes how to implement a server-side Microsoft UI Automation provider for a custom control written in C++. It contains the following sections:
 
