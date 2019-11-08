@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Native Wifi API Sample
 
-A Native Wifi API sample that demonstrates the use of basic wireless network management functions is included with the Microsoft Windows Software Development Kit (SDK). The latest version of the Windows SDK is available from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=102968).
+A Native Wifi API sample that demonstrates the use of basic wireless network management functions is included with the Microsoft Windows Software Development Kit (SDK). The latest version of the Windows SDK is available from the [Download Center](https://developer.microsoft.com/en-us/windows/downloads).
 
 By default, the Native Wifi sample source code is installed in the following directory:
 
