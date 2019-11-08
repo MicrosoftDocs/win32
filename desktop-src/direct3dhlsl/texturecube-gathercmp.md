@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherCmp methods
+title: TextureCube::TextureCube GatherCmp methods
 description: Samples and compares a texture and returns all components.
 ms.assetid: EEC90CF8-9479-45D7-A9CE-74FC8DC3B1B5
 keywords:

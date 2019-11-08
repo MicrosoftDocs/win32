@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherCmpAlpha methods
+title: TextureCube::TextureCube GatherCmpAlpha methods
 description: Samples and compares a texture and returns the alpha component.
 ms.assetid: A426AE95-46F9-4147-89AA-99842A9740DF
 keywords:

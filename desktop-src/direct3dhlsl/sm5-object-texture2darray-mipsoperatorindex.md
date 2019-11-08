@@ -1,5 +1,5 @@
 ---
-title: mips.Operator    function
+title: Texture2DArray::mips.Operator    function
 description: Returns a read-only resource variable.
 ms.assetid: 66639bf6-74dd-4c69-9cc1-74cc9314de57
 keywords:

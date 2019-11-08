@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherRed methods
+title: TextureCube::TextureCube GatherRed methods
 description: Samples a texture and returns the red component.
 ms.assetid: DDBFE342-C22D-46A3-BC7D-1D34ED2C0AD6
 keywords:

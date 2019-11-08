@@ -1,5 +1,5 @@
 ---
-title: Load(int,int,int,uint) function
+title: Texture2DMSArray::Load(int,int,int,uint) function
 description: Reads texture data and returns status of the operation.
 ms.assetid: F5EA2FFF-7E43-4A34-9358-EA54382641DC
 keywords:

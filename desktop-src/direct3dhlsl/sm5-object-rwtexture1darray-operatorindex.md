@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: RWTexture1DArray::Operator  function
 description: Returns a resource variable.
 ms.assetid: 7047e670-dd78-4b73-8d80-5575e458f27c
 keywords:

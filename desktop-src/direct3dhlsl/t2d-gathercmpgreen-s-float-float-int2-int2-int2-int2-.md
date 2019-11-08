@@ -1,5 +1,5 @@
 ---
-title: GatherCmpGreen(S,float,float,int2,int2,int2,int2) function
+title: Texture2D::GatherCmpGreen(S,float,float,int2,int2,int2,int2) function
 description: Samples a texture, tests the samples against a compare value, and returns the green component.
 ms.assetid: AC19838B-BA51-408D-8299-DC5F4551628C
 keywords:

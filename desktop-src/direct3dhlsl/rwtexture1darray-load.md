@@ -1,5 +1,5 @@
 ---
-title: RWTexture1DArray Load methods
+title: RWTexture1DArray::RWTexture1DArray Load methods
 description: Reads texture data from a RWTexture1DArray.
 ms.assetid: 8B7DA310-DE75-4B22-83F4-19EF3721A5E6
 keywords:

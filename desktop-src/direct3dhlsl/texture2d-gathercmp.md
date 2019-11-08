@@ -1,5 +1,5 @@
 ---
-title: Texture2D GatherCmp methods
+title: Texture2D::Texture2D GatherCmp methods
 description: Samples and compares a Texture2D and returns all components.
 ms.assetid: 'd520b113-77af-486e-8d3d-8276f72df18f'
 keywords:

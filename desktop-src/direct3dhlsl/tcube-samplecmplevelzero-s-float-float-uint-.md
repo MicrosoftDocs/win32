@@ -1,5 +1,5 @@
 ---
-title: SampleCmpLevelZero(S,float,float,uint) function
+title: SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,uint) function
 description: Samples a texture on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
 ms.assetid: FE40307D-B9BE-434F-A6EF-7CA3C5BC7D70
 keywords:

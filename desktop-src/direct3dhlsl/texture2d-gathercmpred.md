@@ -1,5 +1,5 @@
 ---
-title: Texture2D GatherCmpRed methods
+title: Texture2D::Texture2D GatherCmpRed methods
 description: Samples and compares a Texture2D and returns the red component.
 ms.assetid: '717f42f5-7ffe-4bdf-8737-ab0268978a9e'
 keywords:

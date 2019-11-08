@@ -1,5 +1,5 @@
 ---
-title: RWBuffer Load methods
+title: RWBuffer::RWBuffer Load methods
 description: Gets one value from a RWBuffer.
 ms.assetid: 85A8F1C9-6896-4E3A-AFDF-B82D1D3E96EA
 keywords:

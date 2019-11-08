@@ -1,5 +1,5 @@
 ---
-title: Sample(S,float,float) function
+title: TextureCubeArray::Sample(S,float,float) function
 description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to.
 ms.assetid: E3BACA5E-18FC-4BD7-A8D8-C2808BDF1517
 keywords:

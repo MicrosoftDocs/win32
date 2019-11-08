@@ -1,5 +1,5 @@
 ---
-title: Load(int) function
+title: RWTexture1DArray::Load(int) function
 description: Reads texture data.
 ms.assetid: 8A9ABE4A-C9FA-4092-8C2B-24E55645CA64
 keywords:

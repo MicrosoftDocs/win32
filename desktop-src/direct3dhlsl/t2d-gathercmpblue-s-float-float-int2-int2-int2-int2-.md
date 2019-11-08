@@ -1,5 +1,5 @@
 ---
-title: GatherCmpBlue(S,float,float,int2,int2,int2,int2) function
+title: Texture2D::GatherCmpBlue(S,float,float,int2,int2,int2,int2) function
 description: Samples a texture, tests the samples against a compare value, and returns the blue component.
 ms.assetid: DAA41BF3-6037-404F-9B35-C5F1302367B9
 keywords:

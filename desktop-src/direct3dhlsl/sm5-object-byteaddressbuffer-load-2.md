@@ -1,5 +1,5 @@
 ---
-title: Load(int, uint) function
+title: ByteAddressBuffer::Load(int, uint) function
 description: Gets one value and the status of the operation.
 ms.assetid: 8F90671B-CEEB-4F8C-9469-D85940568872
 keywords:

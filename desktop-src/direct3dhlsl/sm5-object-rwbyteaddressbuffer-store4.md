@@ -1,5 +1,5 @@
 ---
-title: Store4 function
+title: RWByteAddressBuffer::Store4 function
 description: Sets four values.
 ms.assetid: 261dd270-79a7-4566-9fbd-52bd8dc3e1bf
 keywords:

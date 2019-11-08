@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray Load methods
+title: Texture2DArray::Texture2DArray Load methods
 description: Reads Texture2DArray data.
 ms.assetid: '70b99f8c-0ca9-4961-bda9-19c39fd5eaf6'
 keywords:

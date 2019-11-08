@@ -1,5 +1,5 @@
 ---
-title: Texture1DArray SampleCmp methods
+title: Texture1DArray::Texture1DArray SampleCmp methods
 description: Samples a texture, using a comparison value to reject samples.
 ms.assetid: 37708570-C5B7-4D85-AD5B-DF5197899FDB
 keywords:

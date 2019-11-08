@@ -1,5 +1,5 @@
 ---
-title: DecrementCounter function
+title: RWStructuredBuffer::DecrementCounter function
 description: Decrements the object's hidden counter.
 ms.assetid: 24bc0b63-a482-4fa5-9898-2d43bca20cf4
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: GatherCmpAlpha(S,float,float,int) function
+title: Texture2DArray::GatherCmpAlpha(S,float,float,int) function
 description: Samples a texture, tests the samples against a compare value, and returns the alpha component.
 ms.assetid: d5fc78eb-2378-4e63-a712-c6f4ef9fc729
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Texture2D Gather methods
+title: Texture2D::Texture2D Gather methods
 description: Samples a Texture2D and returns all four components.
 ms.assetid: 'bb3ecda8-f167-45ce-a59f-af3e0308e250'
 keywords:

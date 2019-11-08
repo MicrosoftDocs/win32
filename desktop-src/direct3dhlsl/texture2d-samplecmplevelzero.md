@@ -1,5 +1,5 @@
 ---
-title: Texture2D SampleCmpLevelZero methods
+title: Texture2D::Texture2D SampleCmpLevelZero methods
 description: Samples a Texture2D on mipmap level 0 only, using a comparison value to reject samples.
 ms.assetid: 5E0D0C4A-61D2-48F2-A817-969A97537235
 keywords:

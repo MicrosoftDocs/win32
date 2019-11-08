@@ -1,5 +1,5 @@
 ---
-title: GatherRed(S,float,uint) function
+title: TextureCube::GatherRed(S,float,uint) function
 description: Samples a texture and returns the red component along with status about the operation.
 ms.assetid: 6B298DFD-B996-40F4-9304-AA8283FDEC31
 keywords:
