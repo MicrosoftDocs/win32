@@ -1,7 +1,7 @@
 ---
 Description: Performs a Catmull-Rom interpolation, using the specified 4D vectors.
 ms.assetid: 24c26e70-b02c-4621-8b7e-db16f99dddb5
-title: D3DXVec4CatmullRom function
+title: D3DXVec4CatmullRom function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

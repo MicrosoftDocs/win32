@@ -1,5 +1,5 @@
 ---
-title: IWMVideoDecoderHurryup Interface
+title: IWMVideoDecoderHurryup Interface (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 15206194-f49c-444c-858c-20c0a82ead37
 keywords:

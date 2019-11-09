@@ -1,5 +1,5 @@
 ---
-title: TDN_EXPANDO_BUTTON_CLICKED notification code
+title: TDN_EXPANDO_BUTTON_CLICKED notification code (Commctrl.h)
 description: Sent by the task dialog when the user clicks on the dialog's expando button. This notification is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: 15e2a9d0-9986-4fb1-a15e-dd4839e45146
 keywords:

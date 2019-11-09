@@ -1,5 +1,5 @@
 ---
-title: EM_SETRECT message
+title: EM_SETRECT message (Winuser.h)
 description: Sets the formatting rectangle of a multiline edit control.
 ms.assetid: 4f576e94-3bd3-4416-a960-b7f22da963ea
 keywords:

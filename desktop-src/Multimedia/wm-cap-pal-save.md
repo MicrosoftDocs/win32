@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_PAL_SAVE message
+title: WM_CAP_PAL_SAVE message (Vfw.h)
 description: The WM\_CAP\_PAL\_SAVE message saves the current palette to a palette file. Palette files typically use the filename extension .PAL. You can send this message explicitly or by using the capPaletteSave macro.
 ms.assetid: b1fa3978-9147-403f-aa08-db1a803aa5ac
 keywords:

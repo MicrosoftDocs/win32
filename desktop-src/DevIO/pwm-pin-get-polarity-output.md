@@ -1,7 +1,7 @@
 ---
 Description: Contains a polarity value to return.
 ms.assetid: 432C10EF-AC08-4781-9BCA-A31E0DF12704
-title: PWM_PIN_GET_POLARITY_OUTPUT structure
+title: PWM_PIN_GET_POLARITY_OUTPUT structure (Pwm.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

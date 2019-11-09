@@ -1,7 +1,7 @@
 ---
 Description: The get\_BorderSoftness method retrieves the width of the blurry region around the edges of the wipe pattern.
 ms.assetid: f5648cce-e44c-4ed6-8254-6511cd600629
-title: IDxtJpeg::get_BorderSoftness method
+title: IDxtJpeg::get_BorderSoftness method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

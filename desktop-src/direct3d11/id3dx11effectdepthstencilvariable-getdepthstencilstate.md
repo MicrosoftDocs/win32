@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilVariable GetDepthStencilState method
+title: ID3DX11EffectDepthStencilVariable GetDepthStencilState method (D3dx11effect.h)
 description: Get a pointer to a depth-stencil interface.
 ms.assetid: 3e8f7fc6-960c-45f5-9276-9aa2a5e7a6c9
 keywords:

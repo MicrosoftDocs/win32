@@ -1,5 +1,5 @@
 ---
-title: CBEN_DRAGBEGIN notification code
+title: CBEN_DRAGBEGIN notification code (Commctrl.h)
 description: Sent when the user begins dragging the image of the item displayed in the edit portion of the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: bdab2700-a605-48af-aee3-bbf573408e3f
 keywords:

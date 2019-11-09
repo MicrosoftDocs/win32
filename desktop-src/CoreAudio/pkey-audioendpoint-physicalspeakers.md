@@ -1,6 +1,6 @@
 ---
 ms.assetid: 20049071-0a14-421e-8bc5-04af9c7117b0
-title: PKEY_AudioEndpoint_PhysicalSpeakers
+title: PKEY_AudioEndpoint_PhysicalSpeakers (Mmdeviceapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetGeometryShaderDesc method
+title: ID3DX11EffectPass GetGeometryShaderDesc method (D3dx11effect.h)
 description: Get a geometry-shader description.
 ms.assetid: 03298ec3-6b85-40bf-8920-a82c7606d326
 keywords:

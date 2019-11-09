@@ -1,7 +1,7 @@
 ---
 Description: Windows Portable Devices supports the following resource attribute properties.
 ms.assetid: 9b90db8a-e833-48cf-b484-70ac5ac32a76
-title: Resource Attribute Properties
+title: Resource Attribute Properties (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

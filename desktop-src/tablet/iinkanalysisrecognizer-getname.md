@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the name of the recognizer.
 ms.assetid: bd97fead-1e80-49dc-ada0-38eb5dc015ae
-title: IInkAnalysisRecognizer::GetName method
+title: IInkAnalysisRecognizer::GetName method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: RPC_NS_HANDLE
+title: RPC_NS_HANDLE (Rpcnsi.h)
 description: The data type RPC\_NS\_HANDLE defines a name-service handle.
 ms.assetid: d9c2a376-4972-4f16-aa8d-f0e43d5ddb8d
 keywords:

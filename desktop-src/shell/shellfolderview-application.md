@@ -1,7 +1,7 @@
 ---
 Description: Contains the object's Application object.
 ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
-title: ShellFolderView.Application property
+title: ShellFolderView.Application property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

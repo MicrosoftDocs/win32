@@ -1,5 +1,5 @@
 ---
-title: RB_ENDDRAG message
+title: RB_ENDDRAG message (Commctrl.h)
 description: Terminates the rebar control's drag-and-drop operation. This message does not cause an RBN\_ENDDRAG notification to be sent.
 ms.assetid: 4991dda6-32ea-4d3e-9d39-17c2b6995f09
 keywords:

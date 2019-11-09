@@ -1,5 +1,5 @@
 ---
-title: glIndexMask function
+title: glIndexMask function (Gl.h)
 description: The glIndexMask function controls the writing of individual bits in the color-index buffers.
 ms.assetid: f4b5df36-390f-4254-95fb-98589750a11b
 keywords:

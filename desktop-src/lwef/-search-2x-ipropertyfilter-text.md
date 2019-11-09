@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilter Text property
+title: IPropertyFilter Text property (WdsSharedIDL.h)
 description: Text of the filter.
 ms.assetid: 1e0bf432-6d6b-4c29-bb2f-64fb91f5faaf
 keywords:

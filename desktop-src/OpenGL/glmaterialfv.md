@@ -1,5 +1,5 @@
 ---
-title: glMaterialfv function
+title: glMaterialfv function (Gl.h)
 description: The glMaterialfv function specifies material parameters for the lighting model.
 ms.assetid: cd357686-4d6f-49fd-a111-308b5485ac21
 keywords:

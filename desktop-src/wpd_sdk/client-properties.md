@@ -1,7 +1,7 @@
 ---
 Description: Windows Portable Devices supports the following client properties.
 ms.assetid: 6ab75b58-7216-47f6-97fa-0c8fff656eb0
-title: Client Properties
+title: Client Properties (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

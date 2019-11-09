@@ -1,7 +1,7 @@
 ---
 Description: The EnumMediaTypes method enumerates the pin's preferred media types. This method implements the IPin::EnumMediaTypes method.
 ms.assetid: 0360f9fc-6876-4a54-8de1-bf289e0e10ae
-title: CBasePin.EnumMediaTypes method
+title: CBasePin.EnumMediaTypes method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

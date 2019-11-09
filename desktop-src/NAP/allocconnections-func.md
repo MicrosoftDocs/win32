@@ -1,5 +1,5 @@
 ---
-title: AllocConnections function
+title: AllocConnections function (NapUtil.h)
 description: Allocates memory for a specified number of Connections structures.
 ms.assetid: 0e0075ed-6e4c-43f7-af40-c6dea2808d05
 keywords:

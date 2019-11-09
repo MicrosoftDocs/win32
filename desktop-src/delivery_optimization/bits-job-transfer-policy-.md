@@ -1,5 +1,5 @@
 ---
-title: BITS_JOB_TRANSFER_POLICY enumeration
+title: BITS_JOB_TRANSFER_POLICY enumeration (Deliveryoptimization.h)
 description: The BITS_JOB_TRANSFER_POLICY enumeration defines ID values corresponding to DO properties.
 ms.assetid: 4811ADBF-F097-4340-BFF2-52CC9556ACF6
 keywords:

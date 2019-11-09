@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS IntegrationComponentsVersion property
+title: IVMGuestOS IntegrationComponentsVersion property (VPCCOMInterfaces.h)
 description: Retrieves the version of the Integration Components installed in the guest operating system.
 ms.assetid: 4baccb7d-5a3e-460f-9669-ee8dbaec91a9
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: RPC Return Values
+title: RPC Return Values (Winerror.h)
 description: This table lists only the most common values that can be returned by all RPC functions. See the individual method descriptions for lists of the specific return codes each can return.
 ms.assetid: 0223aa7a-b0cf-49e3-9f08-90be5ccffbd1
 topic_type:

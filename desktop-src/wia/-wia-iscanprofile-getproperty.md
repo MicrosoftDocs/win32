@@ -1,7 +1,7 @@
 ---
 Description: Gets the value of specified child properties in the <Properties> element of a scan profile.
 ms.assetid: 528b51f5-51e0-4639-965d-ee318eb2187b
-title: IScanProfile::GetProperty method
+title: IScanProfile::GetProperty method (Scanprofile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

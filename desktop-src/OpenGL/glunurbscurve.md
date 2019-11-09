@@ -1,5 +1,5 @@
 ---
-title: gluNurbsCurve function
+title: gluNurbsCurve function (Glu.h)
 description: The gluNurbsCurve function defines the shape of a Non-Uniform Rational B-Spline (NURBS) curve.
 ms.assetid: d03064a5-26f5-487f-877f-3748646bcb2f
 keywords:

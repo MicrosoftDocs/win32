@@ -1,7 +1,7 @@
 ---
 Description: Occurs after IInkStrokeDisp objects have been deleted from the Ink property.
 ms.assetid: 395544e1-dc93-45d3-ac7a-d54712f3c027
-title: InkPicture.StrokesDeleted event
+title: InkPicture.StrokesDeleted event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

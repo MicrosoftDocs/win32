@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW message
+title: ICM_DRAW message (Vfw.h)
 description: The ICM\_DRAW message notifies a rendering driver to decompress a frame of data and draw it to the screen.
 ms.assetid: eceb42c6-d91a-45b7-98dc-e0944df3e558
 keywords:

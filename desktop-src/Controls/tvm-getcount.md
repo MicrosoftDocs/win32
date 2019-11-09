@@ -1,5 +1,5 @@
 ---
-title: TVM_GETCOUNT message
+title: TVM_GETCOUNT message (Commctrl.h)
 description: Retrieves a count of the items in a tree-view control. You can send this message explicitly or by using the TreeView\_GetCount macro.
 ms.assetid: cb8477be-51c9-4e96-8fa6-f978e0c1595f
 keywords:

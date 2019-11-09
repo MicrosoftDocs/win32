@@ -1,5 +1,5 @@
 ---
-title: Control Pattern Availability Property Identifiers
+title: Control Pattern Availability Property Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants for properties used to determine whether an automation element supports a particular control pattern.
 ms.assetid: b6340776-4e7f-41b8-9ac3-bcb76873ea63
 topic_type:

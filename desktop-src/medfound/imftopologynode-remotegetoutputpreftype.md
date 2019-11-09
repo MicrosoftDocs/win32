@@ -1,7 +1,7 @@
 ---
 Description: Remotable version of the IMFTopologyNode::GetOutputPrefType method.
 ms.assetid: 56fbbf14-0c55-4f98-bcda-7f434cff803c
-title: RemoteGetOutputPrefType
+title: RemoteGetOutputPrefType (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

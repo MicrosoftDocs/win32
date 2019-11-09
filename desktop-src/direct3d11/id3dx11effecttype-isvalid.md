@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectType IsValid method
+title: ID3DX11EffectType IsValid method (D3dx11effect.h)
 description: Tests that the effect type is valid.
 ms.assetid: 3c1d93a0-92a1-4969-a561-5156e2cd2f3b
 keywords:

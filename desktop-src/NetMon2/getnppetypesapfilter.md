@@ -1,7 +1,7 @@
 ---
 Description: The GetNPPEtypeSapFilter function retrieves the Etype/Sap filter from a given BLOB.
 ms.assetid: c4891eff-ab2d-43ff-8d2b-3aa299570c0a
-title: GetNPPEtypeSapFilter function
+title: GetNPPEtypeSapFilter function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The = operator assigns a new reference time.
 ms.assetid: 0b11e2ea-23dc-4c75-88c6-94215a4b14b6
-title: CRefTime.operator= method
+title: CRefTime.operator= method (Reftime.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

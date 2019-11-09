@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the type of relationship this IContextLink represents.
 ms.assetid: 03c13eba-1493-4fb7-b684-f15147e5a0eb
-title: IContextLink::GetContextLinkDirection method
+title: IContextLink::GetContextLinkDirection method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

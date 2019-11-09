@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant UpTime property
+title: IVMAccountant UpTime property (VPCCOMInterfaces.h)
 description: Retrieves the number of seconds that the virtual machine has been running.
 ms.assetid: 0c62d51b-fdf1-43f6-81d8-a5f0538c510f
 keywords:

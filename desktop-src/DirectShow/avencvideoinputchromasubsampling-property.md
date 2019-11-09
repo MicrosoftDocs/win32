@@ -1,7 +1,7 @@
 ---
 Description: Specifies the chroma siting for the input video. Chroma siting defines the positions of the chroma samples relative to the luma samples.
 ms.assetid: e9f8fef5-73da-424d-a239-09779b81a02b
-title: AVEncVideoInputChromaSubsampling property
+title: AVEncVideoInputChromaSubsampling property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: MCM_SETCURRENTVIEW message
+title: MCM_SETCURRENTVIEW message (Commctrl.h)
 description: Sets the current view of the calendar. You can send this message explicitly or by using the MonthCal\_SetCurrentView macro.
 ms.assetid: 26ccbb80-0dba-4241-a2eb-b79000fc3618
 keywords:

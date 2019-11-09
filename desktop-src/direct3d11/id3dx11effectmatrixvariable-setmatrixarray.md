@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectMatrixVariable SetMatrixArray method
+title: ID3DX11EffectMatrixVariable SetMatrixArray method (D3dx11effect.h)
 description: Set an array of floating-point matrices.
 ms.assetid: c90d621c-7500-49c3-ab40-2d0630fc4bec
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TF_SD_ Constants
+title: TF_SD_ Constants (Msctf.h)
 description: The TF\_SD\_\ constants describe the document status.
 ms.assetid: 953d39cd-8af1-4c86-8fb8-8b8ec917c631
 topic_type:

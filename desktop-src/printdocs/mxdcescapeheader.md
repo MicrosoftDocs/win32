@@ -1,7 +1,7 @@
 ---
 Description: The MXDC\_ESCAPE\_HEADER\_T structure holds the operation code for a call to ExtEscape with MXDC\_ESCAPE as the nEscape parameter. It also provides the sizes of the input and output buffers.
 ms.assetid: 3d1f909c-0c3c-49ac-b530-4ce077ad6d94
-title: MXDC_ESCAPE_HEADER_T structure
+title: MXDC_ESCAPE_HEADER_T structure (Mxdc.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

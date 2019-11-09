@@ -1,5 +1,5 @@
 ---
-title: WM_CHAR message
+title: WM_CHAR message (Winuser.h)
 description: Posted to the window with the keyboard focus when a WM\_KEYDOWN message is translated by the TranslateMessage function. The WM\_CHAR message contains the character code of the key that was pressed.
 ms.assetid: 7e45dc6f-ff68-4534-9e52-46e5f4110532
 keywords:

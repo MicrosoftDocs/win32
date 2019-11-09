@@ -1,7 +1,7 @@
 ---
 Description: Contains the preferred RFC 1766 language of the media source.
 ms.assetid: 30f99804-6aea-473b-9bbf-e8c715501391
-title: MF_PD_PREFERRED_LANGUAGE attribute
+title: MF_PD_PREFERRED_LANGUAGE attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: The SetFormat method initializes the format block.
 ms.assetid: 71f1c3d4-9c45-4124-8560-378c8f66e710
-title: CMediaType.SetFormat method
+title: CMediaType.SetFormat method (Mtype.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

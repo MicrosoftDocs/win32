@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilterCollection clear property
+title: IPropertyFilterCollection clear property (WdsSharedIDL.h)
 description: Clears the collection.
 ms.assetid: 99dbedee-bd21-4e82-a2d8-a09c06e9cd5f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: BCM_GETIMAGELIST message
+title: BCM_GETIMAGELIST message (Commctrl.h)
 description: Gets the BUTTON\_IMAGELIST structure that describes the image list assigned to a button control. You can send this message explicitly or use the Button\_GetImageList macro.
 ms.assetid: 79383758-53d4-4955-b472-befd338cbec6
 keywords:

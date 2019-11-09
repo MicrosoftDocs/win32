@@ -1,7 +1,7 @@
 ---
 Description: Specifies the number of video frames dropped during encoding.
 ms.assetid: e55db53e-ab70-42ce-b5cd-2e59a4e96b7b
-title: MFPKEY_DROPPEDFRAMES Property
+title: MFPKEY_DROPPEDFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

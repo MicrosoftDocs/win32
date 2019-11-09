@@ -1,5 +1,5 @@
 ---
-title: D3DX11_EFFECT_TYPE_DESC structure
+title: D3DX11_EFFECT_TYPE_DESC structure (D3dx11effect.h)
 description: Describes an effect-variable type.
 ms.assetid: bf2aa5b7-c68c-42bb-ae70-2fe16f8669a4
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves a value indicating whether the IAnalysisRegion represents an empty region.
 ms.assetid: 3a536b01-e7ee-4103-88c4-d83377ea9fdb
-title: IAnalysisRegion::IsEmpty method
+title: IAnalysisRegion::IsEmpty method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: ID2D1HwndRenderTarget Resize methods
+title: ID2D1HwndRenderTarget Resize methods (D2d1.h)
 description: Changes the size of the render target to the specified pixel size.
 ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
 keywords:

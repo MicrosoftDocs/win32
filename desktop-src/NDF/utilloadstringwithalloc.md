@@ -1,5 +1,5 @@
 ---
-title: UtilLoadStringWithAlloc function
+title: UtilLoadStringWithAlloc function (Ndattributils.h)
 description: Allocates and loads a string out of the resource table.
 ms.assetid: 34bf0b93-2bec-49c3-9441-c83686c4abdb
 keywords:

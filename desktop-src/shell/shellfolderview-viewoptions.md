@@ -1,7 +1,7 @@
 ---
 Description: Gets a set of flags that indicate the current options of the view.
 ms.assetid: 83a17033-bd7f-44de-a0c8-460d12c4825d
-title: ShellFolderView.ViewOptions property
+title: ShellFolderView.ViewOptions property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

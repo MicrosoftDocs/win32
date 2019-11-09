@@ -1,5 +1,5 @@
 ---
-title: glCopyTexImage2D function
+title: glCopyTexImage2D function (Gl.h)
 description: The glCopyTexImage2D function copies pixels from the framebuffer into a two-dimensional texture image.
 ms.assetid: 4b9d7be6-054d-4590-b3f0-a2a670786c4b
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents the possible handwriting recognition word matches for IContextNode objects.
 ms.assetid: a497c140-6166-4309-af0f-851af09015c6
-title: IAnalysisAlternate interface
+title: IAnalysisAlternate interface (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

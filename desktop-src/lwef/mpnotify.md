@@ -1,5 +1,5 @@
 ---
-title: MPNOTIFY enumeration
+title: MPNOTIFY enumeration (MpClient.h)
 description: Possible callback notifications.
 ms.assetid: CCD0CD89-2C6E-453F-9437-E6ED87AD9F29
 keywords:

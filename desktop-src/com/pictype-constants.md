@@ -1,5 +1,5 @@
 ---
-title: PICTYPE Constants
+title: PICTYPE Constants (OleCtl.h)
 description: Describe the type of a picture object as returned by IPicture get\_Type, as well as to describe the type of picture in the picType member of the PICTDESC structure that is passed to OleCreatePictureIndirect.
 ms.assetid: 79f10687-f0eb-4b5e-a1a9-9186dbd0b51f
 topic_type:

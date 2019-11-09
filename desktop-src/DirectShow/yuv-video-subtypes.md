@@ -1,7 +1,7 @@
 ---
 Description: 'YUV formats are categorized according to the following information:'
 ms.assetid: 452f017c-81ce-4be4-9962-4b9c1a9ce849
-title: YUV Video Subtypes
+title: YUV Video Subtypes (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

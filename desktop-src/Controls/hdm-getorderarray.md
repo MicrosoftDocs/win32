@@ -1,5 +1,5 @@
 ---
-title: HDM_GETORDERARRAY message
+title: HDM_GETORDERARRAY message (Commctrl.h)
 description: Gets the current left-to-right order of items in a header control. You can send this message explicitly or use the Header\_GetOrderArray macro.
 ms.assetid: b287d3c1-ae61-41a4-a884-dc008eb24ad8
 keywords:

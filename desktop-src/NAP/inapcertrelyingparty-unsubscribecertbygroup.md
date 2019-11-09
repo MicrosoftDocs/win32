@@ -1,5 +1,5 @@
 ---
-title: INapCertRelyingParty UnSubscribeCertByGroup method
+title: INapCertRelyingParty UnSubscribeCertByGroup method (NapCertRelyingParty.h)
 description: Unsubscribes from a health certificate server (HCS).
 ms.assetid: 2b26b110-8aba-487e-bd49-c6afc6af11f8
 keywords:

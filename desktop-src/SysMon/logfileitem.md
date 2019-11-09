@@ -1,5 +1,5 @@
 ---
-title: LogFileItem object
+title: LogFileItem object (Isysmon.h)
 description: Use this class to retrieve the path of a log file accessed by the System Monitor control. To retrieve this object, call LogFiles.Item.
 ms.assetid: eb808d24-bc35-4284-a531-63c1cb5f9058
 keywords:

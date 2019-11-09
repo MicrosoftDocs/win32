@@ -1,5 +1,5 @@
 ---
-title: DRM_INDIVIDUALIZATION_STATUS enumeration
+title: DRM_INDIVIDUALIZATION_STATUS enumeration (Wmdrmsdk.h)
 description: The DRM\_INDIVIDUALIZATION\_STATUS enumeration type defines the valid states for DRM individualization.
 ms.assetid: 4e6712e2-3297-4636-9b0c-07269bd63d52
 keywords:

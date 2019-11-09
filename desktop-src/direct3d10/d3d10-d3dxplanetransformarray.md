@@ -1,7 +1,7 @@
 ---
 Description: Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
 ms.assetid: 9529b06a-0575-4115-8d35-fc35a7bfb0bd
-title: D3DXPlaneTransformArray function
+title: D3DXPlaneTransformArray function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: LVM_GETGROUPINFOBYINDEX message
+title: LVM_GETGROUPINFOBYINDEX message (Commctrl.h)
 description: Gets information on a specified group. Send this message explicitly or by using the ListView\_GetGroupInfoByIndex macro.
 ms.assetid: 'vs|controls|~\controls\listview\messages\lvm_getgroupinfobyindex.htm'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Other Session Constants
+title: Other Session Constants (WSManDisp.h)
 description: Specify encoding, encryption, and service principal name port.
 ms.assetid: a921b7bc-1f40-427c-971f-c0bc9c9f6887
 ms.tgt_platform: multiple

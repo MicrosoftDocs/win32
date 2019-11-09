@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo SerialPorts property
+title: IVMHostInfo SerialPorts property (VPCCOMInterfaces.h)
 description: Retrieves the serial port names associated with host serial ports.
 ms.assetid: ef3bc474-19c9-4d91-8aa0-7619c89fec2d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetNoProgressTimeout method
+title: IBackgroundCopyJob GetNoProgressTimeout method (Deliveryoptimization.h)
 description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 ms.assetid: 3C31A15B-62EF-4807-8EC3-78BAEA3E23AE
 keywords:

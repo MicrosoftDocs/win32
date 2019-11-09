@@ -1,7 +1,7 @@
 ---
 Description: Array of samples of size COutputQueue::m\_lBatchSize.
 ms.assetid: 5c4b904d-480b-4393-a799-63989669ea1c
-title: COutputQueue::m_ppSamples member
+title: COutputQueue::m_ppSamples member (Outputq.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

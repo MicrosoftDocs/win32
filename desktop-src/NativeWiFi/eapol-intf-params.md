@@ -1,7 +1,7 @@
 ---
 Description: Contains EAPOL configuration parameters.
 ms.assetid: 4157a643-86f2-4f6f-8517-6207b11ea9a1
-title: EAPOL_INTF_PARAMS structure
+title: EAPOL_INTF_PARAMS structure (Wzcsapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

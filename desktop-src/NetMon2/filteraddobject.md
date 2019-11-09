@@ -1,7 +1,7 @@
 ---
 Description: The FilterAddObject function adds a single object to a display filter.
 ms.assetid: 796216f4-a407-4a8c-98b3-8c3761d91913
-title: FilterAddObject function
+title: FilterAddObject function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

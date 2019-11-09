@@ -1,5 +1,5 @@
 ---
-title: HDN_FILTERBTNCLICK notification code
+title: HDN_FILTERBTNCLICK notification code (Commctrl.h)
 description: Notifies the header control's parent window when the filter button is clicked or in response to an HDM\_SETITEM message. This notification code sent in the form of a WM\_NOTIFY message.
 ms.assetid: 36b85cdc-1022-4568-8891-0c919c850fd4
 keywords:

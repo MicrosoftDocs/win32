@@ -1,5 +1,5 @@
 ---
-title: WINBIO_PRESENCE_CHANGE Constants
+title: WINBIO_PRESENCE_CHANGE Constants (Winbio\_types.h)
 description: Describes the types of changes that can occur when the Windows Biometric Framework monitors the presence of individuals.
 ms.assetid: 1E0B65D8-A38F-46BA-A99A-18666729FA30
 topic_type:

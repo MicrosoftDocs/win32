@@ -1,7 +1,7 @@
 ---
 Description: Sets the first parameter (P1) byte of the application protocol data unit (APDU).
 ms.assetid: 359df5cc-10a7-4093-9a77-f3eb0b98545a
-title: ISCardCmd::put_P1 method
+title: ISCardCmd::put_P1 method (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

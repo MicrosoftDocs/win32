@@ -1,5 +1,5 @@
 ---
-title: TDM_SET_PROGRESS_BAR_POS message
+title: TDM_SET_PROGRESS_BAR_POS message (Commctrl.h)
 description: Sets the position of the progress bar in a task dialog.
 ms.assetid: 82247d70-8527-4195-87af-5c4e5fd1d1a2
 keywords:

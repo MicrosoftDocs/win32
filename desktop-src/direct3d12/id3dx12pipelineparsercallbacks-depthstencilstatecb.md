@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks DepthStencilStateCb method
+title: ID3DX12PipelineParserCallbacks DepthStencilStateCb method (D3DX12.h)
 description: Calls the depth stencil state subobject callback of an object that implements this interface.
 ms.assetid: 6E77A3B7-20D8-4D31-9D31-515CF4618157
 keywords:

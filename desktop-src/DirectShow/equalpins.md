@@ -1,7 +1,7 @@
 ---
 Description: The EqualPins function checks if two pins are on the same object.
 ms.assetid: b6a92cb6-f4a9-4a14-831c-3b123e4692c0
-title: EqualPins function
+title: EqualPins function (Wxutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

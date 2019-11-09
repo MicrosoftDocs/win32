@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCBufferFullnessInFirstByte
+title: g_wszWMVCBufferFullnessInFirstByte (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 434a88a2-9039-4b1a-bc4e-84cf3f2b9009
 keywords:

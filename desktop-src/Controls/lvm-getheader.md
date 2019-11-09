@@ -1,5 +1,5 @@
 ---
-title: LVM_GETHEADER message
+title: LVM_GETHEADER message (Commctrl.h)
 description: Gets the handle to the header control used by the list-view control. You can send this message explicitly or use the ListView\_GetHeader macro.
 ms.assetid: 4708b493-4449-4844-bf0d-e6969bcf0246
 keywords:

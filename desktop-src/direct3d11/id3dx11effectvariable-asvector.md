@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsVector method
+title: ID3DX11EffectVariable AsVector method (D3dx11effect.h)
 description: Get a vector variable.
 ms.assetid: 995bd9f3-1417-4048-9a23-4dcb3864c77d
 keywords:

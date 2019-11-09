@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant DiskBytesRead property
+title: IVMAccountant DiskBytesRead property (VPCCOMInterfaces.h)
 description: Total number of bytes read by all storage controllers for this virtual machine.
 ms.assetid: cf2c1a58-2261-496d-b8e2-a0d5285c16ab
 keywords:

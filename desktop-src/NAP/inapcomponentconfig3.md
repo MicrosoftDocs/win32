@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig3 interface
+title: INapComponentConfig3 interface (NapCommon.h)
 description: Provides NAP system configuration methods for system health validators (SHVs) to set and modify configuration data for a specific configuration ID.
 ms.assetid: dbb78f7a-7c6b-4bf1-b471-374857d5dafe
 keywords:

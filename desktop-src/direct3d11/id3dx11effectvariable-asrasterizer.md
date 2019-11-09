@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsRasterizer method
+title: ID3DX11EffectVariable AsRasterizer method (D3dx11effect.h)
 description: Get a rasterizer variable.
 ms.assetid: 6a55d067-f527-4a1b-a4d4-a6d1719aebe7
 keywords:

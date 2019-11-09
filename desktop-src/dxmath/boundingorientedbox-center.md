@@ -1,7 +1,7 @@
 ---
 Description: The center of the BoundingOrientedBox.
 ms.assetid: e1e118cd-4549-4609-9c8e-7ce36a0bcc3f
-title: BoundingOrientedBox.Center
+title: BoundingOrientedBox.Center (DirectXCollision.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

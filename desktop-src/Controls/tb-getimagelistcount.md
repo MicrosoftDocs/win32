@@ -1,5 +1,5 @@
 ---
-title: TB_GETIMAGELISTCOUNT message
+title: TB_GETIMAGELISTCOUNT message (Commctrl.h)
 description: Gets the number of image lists associated with the toolbar.
 ms.assetid: ecabbecf-dfd1-4a34-b03b-d6137e852021
 keywords:

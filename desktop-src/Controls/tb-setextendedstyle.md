@@ -1,5 +1,5 @@
 ---
-title: TB_SETEXTENDEDSTYLE message
+title: TB_SETEXTENDEDSTYLE message (Commctrl.h)
 description: Sets the extended styles for a toolbar control.
 ms.assetid: aec64bc7-74b4-4efc-9864-2c8a9fbd35c2
 keywords:

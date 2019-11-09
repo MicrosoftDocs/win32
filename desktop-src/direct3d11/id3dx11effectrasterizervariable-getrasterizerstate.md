@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRasterizerVariable GetRasterizerState method
+title: ID3DX11EffectRasterizerVariable GetRasterizerState method (D3dx11effect.h)
 description: Get a pointer to a rasterizer interface.
 ms.assetid: 4b8515e0-b79a-4572-9142-07c50a8839b8
 keywords:

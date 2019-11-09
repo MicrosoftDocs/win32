@@ -1,7 +1,7 @@
 ---
 Description: The SetSubObjectGUIDB method specifies the GUID of the subobject associated with this object. This method is equivalent to IAMTimelineObj::SetSubObjectGUID but takes a BSTR value.
 ms.assetid: b2523b17-1df3-4be5-8bbb-6b67815f9349
-title: IAMTimelineObj::SetSubObjectGUIDB method
+title: IAMTimelineObj::SetSubObjectGUIDB method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

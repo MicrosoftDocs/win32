@@ -1,5 +1,5 @@
 ---
-title: BG_JOB_TIMES structure
+title: BG_JOB_TIMES structure (Deliveryoptimization.h)
 description: The BG_JOB_TIMES structure provides job-related time stamps.
 ms.assetid: 0147478F-C850-4B66-AB15-042C1A81D6B5
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Pointer to a critical section object that protects the filter state.
 ms.assetid: e733360d-ed95-493f-a85b-53d584681f60
-title: CBasePin::m_pLock member
+title: CBasePin::m_pLock member (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

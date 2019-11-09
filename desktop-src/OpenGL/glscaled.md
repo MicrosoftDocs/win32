@@ -1,5 +1,5 @@
 ---
-title: glScaled function
+title: glScaled function (Gl.h)
 description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix.
 ms.assetid: 3846289f-5c7b-4bb6-95a8-90a58dd8b9d9
 keywords:

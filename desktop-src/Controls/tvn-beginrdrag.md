@@ -1,5 +1,5 @@
 ---
-title: TVN_BEGINRDRAG notification code
+title: TVN_BEGINRDRAG notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window about the initiation of a drag-and-drop operation involving the right mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 4a61d8b5-ceb9-46a3-95ef-27e843e8c986
 keywords:

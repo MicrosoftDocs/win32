@@ -1,5 +1,5 @@
 ---
-title: IADsEmail Property Methods
+title: IADsEmail Property Methods (Iads.h)
 description: The property method of the IADsEmail interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 605ba62f-b15a-4411-839b-c4ad8acedd8a
 ms.tgt_platform: multiple

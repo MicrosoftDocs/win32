@@ -1,5 +1,5 @@
 ---
-title: TB_SETPADDING message
+title: TB_SETPADDING message (Commctrl.h)
 description: Sets the padding for a toolbar control.
 ms.assetid: a18c4efb-1140-4149-8dce-dfc1f03bb61a
 keywords:

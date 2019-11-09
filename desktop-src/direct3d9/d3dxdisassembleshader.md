@@ -1,7 +1,7 @@
 ---
 Description: Disassemble a shader.
 ms.assetid: 30159223-8f88-4929-8ef1-7a6acc13f485
-title: D3DXDisassembleShader function
+title: D3DXDisassembleShader function (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

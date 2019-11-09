@@ -1,7 +1,7 @@
 ---
 Description: Gets the unfiltered image cached by the IWiaPreview::GetNewPreview method.
 ms.assetid: 121b6866-cca1-4170-9bdf-225491f942f5
-title: IWiaPreview::UpdatePreview method
+title: IWiaPreview::UpdatePreview method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

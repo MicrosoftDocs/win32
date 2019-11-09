@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd Initialize method
+title: ISoftKbd Initialize method (Softkbdc.h)
 description: The ISoftKbd Initialize method initializes all necessary fields for a soft keyboard and generates standard soft keyboard layouts.
 ms.assetid: c997864c-2596-4086-8062-cd30f371c38f
 keywords:

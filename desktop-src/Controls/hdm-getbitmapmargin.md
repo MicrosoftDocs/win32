@@ -1,5 +1,5 @@
 ---
-title: HDM_GETBITMAPMARGIN message
+title: HDM_GETBITMAPMARGIN message (Commctrl.h)
 description: Gets the width of the bitmap margin for a header control. You can send this message explicitly or use the Header\_GetBitmapMargin macro.
 ms.assetid: 67794ad4-3c22-4fad-a1d7-7a5d5cc6ad67
 keywords:

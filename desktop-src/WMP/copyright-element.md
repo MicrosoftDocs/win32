@@ -1,5 +1,5 @@
 ---
-title: COPYRIGHT Element
+title: COPYRIGHT Element (Msfeeds.h)
 description: The COPYRIGHT element defines a text string specifying the copyright information for an ASX or ENTRY element.
 ms.assetid: 264b92de-b10c-41b9-b219-727879079f15
 keywords:

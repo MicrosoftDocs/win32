@@ -1,5 +1,5 @@
 ---
-title: IADsADSystemInfo Property Methods
+title: IADsADSystemInfo Property Methods (Iads.h)
 description: The property methods of the IADsADSystemInfo interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 1cdaa610-4341-4825-b2f9-dd495a9147ff
 ms.tgt_platform: multiple

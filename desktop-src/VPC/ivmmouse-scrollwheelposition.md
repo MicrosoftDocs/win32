@@ -1,5 +1,5 @@
 ---
-title: IVMMouse ScrollWheelPosition property
+title: IVMMouse ScrollWheelPosition property (VPCCOMInterfaces.h)
 description: Adjusts the z-coordinate of the mouse (relative only).
 ms.assetid: 52269d0c-a7a8-4dc2-bb27-c891d1e9c293
 keywords:

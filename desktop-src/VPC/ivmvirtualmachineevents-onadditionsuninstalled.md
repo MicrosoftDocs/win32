@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnAdditionsUninstalled method
+title: IVMVirtualMachineEvents OnAdditionsUninstalled method (VPCCOMInterfaces.h)
 description: Receives notification that integration components are uninstalled in a virtual machine.
 ms.assetid: bbbc01b6-adb1-491e-a5b0-ff463dca7dfd
 keywords:

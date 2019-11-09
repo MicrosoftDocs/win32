@@ -1,5 +1,5 @@
 ---
-title: WINBIO_EXTENDED_ENGINE_INFO structure
+title: WINBIO_EXTENDED_ENGINE_INFO structure (Winbio\_types.h)
 description: Contains information about the capabilities and enrollment requirements of the engine adapter for a biometric unit.
 ms.assetid: 83586E04-24CA-4A39-836F-C80DB1508C71
 keywords:

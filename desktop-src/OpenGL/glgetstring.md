@@ -1,5 +1,5 @@
 ---
-title: glGetString function
+title: glGetString function (Gl.h)
 description: The glGetString function returns a string describing the current OpenGL connection.
 ms.assetid: 768e6ec2-3f00-44e6-b3cb-de0f06d6a73d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMMouse interface
+title: IVMMouse interface (VPCCOMInterfaces.h)
 description: Controls the mouse device within a VM.
 ms.assetid: 13bbf980-aafd-4c63-b1cb-60f00b738d1f
 keywords:

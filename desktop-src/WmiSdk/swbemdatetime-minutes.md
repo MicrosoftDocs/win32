@@ -2,7 +2,7 @@
 Description: Gets or sets a value that represents the minutes component of the datetime value.
 ms.assetid: a52a66c2-f7ab-48d0-bdee-a07984ed3bc2
 ms.tgt_platform: multiple
-title: SWbemDateTime.Minutes property
+title: SWbemDateTime.Minutes property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

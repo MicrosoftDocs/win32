@@ -1,7 +1,7 @@
 ---
 Description: Projects an array (x, y, z, 0) from object space into screen space.
 ms.assetid: cf022741-0bae-4c22-872f-bd94c3721aff
-title: D3DXVec3ProjectArray function
+title: D3DXVec3ProjectArray function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

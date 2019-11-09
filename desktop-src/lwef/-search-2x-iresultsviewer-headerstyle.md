@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer HeaderStyle property
+title: IResultsViewer HeaderStyle property (WdsView.h)
 description: The style of header displayed in the view.
 ms.assetid: 092a2ff2-eb88-4347-a81c-6a8005971ca9
 keywords:

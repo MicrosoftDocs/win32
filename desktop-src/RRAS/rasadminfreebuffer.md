@@ -1,5 +1,5 @@
 ---
-title: RasAdminFreeBuffer function
+title: RasAdminFreeBuffer function (Rassapi.h)
 description: The RasAdminFreeBuffer function frees memory that was allocated by RAS on behalf of the caller.
 ms.assetid: 6dfbba22-3af1-4771-8c22-506996f30c6b
 keywords:

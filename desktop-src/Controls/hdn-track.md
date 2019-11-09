@@ -1,5 +1,5 @@
 ---
-title: HDN_TRACK notification code
+title: HDN_TRACK notification code (Commctrl.h)
 description: Notifies a header control's parent window that the user is dragging a divider in the header control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 26660ae1-0d6e-4ee7-8b6a-d621abef352d
 keywords:

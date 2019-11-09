@@ -1,5 +1,5 @@
 ---
-title: LVM_GETGROUPCOUNT message
+title: LVM_GETGROUPCOUNT message (Commctrl.h)
 description: Gets the number of groups.
 ms.assetid: 6d7f2572-41d4-4fff-92a7-3b59cfbecd61
 keywords:

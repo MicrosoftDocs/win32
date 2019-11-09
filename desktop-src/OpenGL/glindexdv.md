@@ -1,5 +1,5 @@
 ---
-title: glIndexdv function
+title: glIndexdv function (Gl.h)
 description: The glIndexdv function sets the current color index.
 ms.assetid: e718e8c5-66e4-472c-9138-177c5ee697d3
 keywords:

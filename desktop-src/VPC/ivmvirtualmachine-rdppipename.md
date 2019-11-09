@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine RdpPipeName property
+title: IVMVirtualMachine RdpPipeName property (VPCCOMInterfaces.h)
 description: Retrieves the name of the RDP connection named pipe used for video and input.
 ms.assetid: 0c2d0f23-40cd-4a86-96dd-546fb3570871
 keywords:

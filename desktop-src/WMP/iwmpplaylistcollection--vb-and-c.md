@@ -1,5 +1,5 @@
 ---
-title: IWMPPlaylistCollection (VB and C ) interface
+title: IWMPPlaylistCollection (VB and C ) interface (Wmp.h)
 description: Provides methods for manipulating IWMPPlaylist and IWMPPlaylistArray interfaces in a collection.
 ms.assetid: 19a4e0d7-cb3f-42ec-9acb-7ac0c5837662
 keywords:

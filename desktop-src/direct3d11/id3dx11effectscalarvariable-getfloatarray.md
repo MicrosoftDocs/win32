@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable GetFloatArray method
+title: ID3DX11EffectScalarVariable GetFloatArray method (D3dx11effect.h)
 description: Get an array of floating-point variables.
 ms.assetid: e5e0dbee-47f5-46ed-89a0-01782345498f
 keywords:

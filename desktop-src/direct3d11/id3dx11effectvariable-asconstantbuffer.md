@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsConstantBuffer method
+title: ID3DX11EffectVariable AsConstantBuffer method (D3dx11effect.h)
 description: Get a constant buffer.
 ms.assetid: b8d8b43c-4626-43b6-8a49-8ffa7cb48427
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: RtmDeleteRoute function
+title: RtmDeleteRoute function (Rtm.h)
 description: The RtmDeleteRoute function deletes a route entry.
 ms.assetid: a98026e9-40f5-42e9-943c-dfc561feef6d
 keywords:

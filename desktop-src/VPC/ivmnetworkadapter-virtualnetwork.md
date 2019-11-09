@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter VirtualNetwork property
+title: IVMNetworkAdapter VirtualNetwork property (VPCCOMInterfaces.h)
 description: Retrieves the virtual network to which the network interface is attached.
 ms.assetid: 7f52fd86-5f83-41d8-ba48-7db65e9c357c
 keywords:

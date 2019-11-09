@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks GSCb method
+title: ID3DX12PipelineParserCallbacks GSCb method (D3DX12.h)
 description: Calls the geometry shader subobject callback of an object that implements this interface.
 ms.assetid: 0D8846C5-15E4-43EB-AA82-163BB514C5B7
 keywords:

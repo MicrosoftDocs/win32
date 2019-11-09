@@ -1,7 +1,7 @@
 ---
 Description: The StreamTime method retrieves the current stream time.
 ms.assetid: 2e1ff6f1-9815-4ee6-97e8-a5ab5f472b27
-title: CBaseMediaFilter.StreamTime method
+title: CBaseMediaFilter.StreamTime method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

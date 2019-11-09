@@ -1,7 +1,7 @@
 ---
 Description: Describes preprocessor definitions used by an effect object.
 ms.assetid: 43413b79-e331-4466-b288-bd4439c135a2
-title: D3DXMACRO structure
+title: D3DXMACRO structure (D3dx9shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

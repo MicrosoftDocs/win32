@@ -1,7 +1,7 @@
 ---
 Description: Contains information about the codecs and formats that were used to encode the content in an Advanced Systems Format (ASF) file. This attribute corresponds to the Codec List Object in the ASF header, defined in the ASF specification.
 ms.assetid: 6dde30d3-dbdc-469c-ad7e-5e670b7e0a64
-title: MF_PD_ASF_CODECLIST attribute
+title: MF_PD_ASF_CODECLIST attribute (Wmcontainer.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

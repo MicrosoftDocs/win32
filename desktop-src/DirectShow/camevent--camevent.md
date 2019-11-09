@@ -1,7 +1,7 @@
 ---
 Description: Destructor method.
 ms.assetid: 3be76b8f-1141-439e-8837-9edba02707b0
-title: CAMEvent.~CAMEvent destructor
+title: CAMEvent.~CAMEvent destructor (Wxutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

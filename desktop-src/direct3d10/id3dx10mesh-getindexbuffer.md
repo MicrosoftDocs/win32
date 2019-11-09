@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the data in an index buffer.
 ms.assetid: 7e25ad67-7f9d-4c23-a029-a2262034ef38
-title: ID3DX10Mesh::GetIndexBuffer method
+title: ID3DX10Mesh::GetIndexBuffer method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

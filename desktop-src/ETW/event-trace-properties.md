@@ -1,7 +1,7 @@
 ---
 Description: The EVENT\_TRACE\_PROPERTIES structure contains information about an event tracing session. You use this structure when you define a session, change the properties of a session, or query for the properties of a session.
 ms.assetid: 0c967971-8df1-4679-a8a9-a783f5b35860
-title: EVENT_TRACE_PROPERTIES structure
+title: EVENT_TRACE_PROPERTIES structure (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: EM_STREAMIN message
+title: EM_STREAMIN message (Richedit.h)
 description: Replaces the contents of a rich edit control with a stream of data provided by an application defined \ 8211;EditStreamCallback callback function.
 ms.assetid: b8d3a108-b415-4f5e-99e7-0e0e7a82a778
 keywords:

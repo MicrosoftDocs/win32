@@ -1,7 +1,7 @@
 ---
 Description: The Merge method of the Merge object executes a merge of the current database and current module.
 ms.assetid: '4b580b1f-5071-42f1-8022-a152817f9fdc'
-title: Merge.Merge method
+title: Merge.Merge method (Mergemod.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

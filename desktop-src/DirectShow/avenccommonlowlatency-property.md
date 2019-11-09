@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the output stream should be structured so that the encoded stream has a low decoding latency.
 ms.assetid: a000a2d4-afcf-4b88-9bbc-f42758744de2
-title: AVEncCommonLowLatency property
+title: AVEncCommonLowLatency property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

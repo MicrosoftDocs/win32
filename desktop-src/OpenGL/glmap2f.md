@@ -1,5 +1,5 @@
 ---
-title: glMap2f function
+title: glMap2f function (Gl.h)
 description: The glMap2d and glMap2f functions define a two-dimensional evaluator.
 ms.assetid: 804fbf65-98a8-41af-8c39-5b83f3d341b0
 keywords:

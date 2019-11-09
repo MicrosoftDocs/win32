@@ -1,7 +1,7 @@
 ---
 Description: The get\_IsValid method validates the Session Descriptor Protocol (SDP; see RFC 2327) blob for structure and field values.
 ms.assetid: a3f849ac-bda9-4937-bf3b-bce8df20cbf0
-title: ITSdp::get_IsValid method
+title: ITSdp::get_IsValid method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

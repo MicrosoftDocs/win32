@@ -1,5 +1,5 @@
 ---
-title: WINBIO_PROPERTY_TYPE Constants
+title: WINBIO_PROPERTY_TYPE Constants (Winbio.h)
 description: Specify the source of the property information in the WinBioGetProperty function.
 ms.assetid: 82C54092-032B-4F32-820E-A1D4BB81ECCE
 topic_type:

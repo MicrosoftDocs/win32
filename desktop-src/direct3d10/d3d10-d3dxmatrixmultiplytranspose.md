@@ -1,7 +1,7 @@
 ---
 Description: Calculates the transposed product of two matrices.
 ms.assetid: 3db4138c-407c-47b5-b8b9-04af8771e98e
-title: D3DXMatrixMultiplyTranspose function
+title: D3DXMatrixMultiplyTranspose function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

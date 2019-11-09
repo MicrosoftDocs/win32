@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_STOP message
+title: ICM_DRAW_STOP message (Vfw.h)
 description: The ICM\_DRAW\_STOP message notifies a rendering driver to stop its internal clock for the timing of drawing frames. You can send this message explicitly or by using the ICDrawStop macro.
 ms.assetid: 9ffda595-e3d6-48f0-9487-69f7e95979c2
 keywords:

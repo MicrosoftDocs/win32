@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter AttachToVirtualNetwork method
+title: IVMNetworkAdapter AttachToVirtualNetwork method (VPCCOMInterfaces.h)
 description: Attaches the network interface to the specified virtual network.
 ms.assetid: c743e930-c22e-4f32-b691-f7adc2485fed
 keywords:

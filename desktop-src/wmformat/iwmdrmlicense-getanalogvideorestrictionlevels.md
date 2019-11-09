@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense GetAnalogVideoRestrictionLevels method
+title: IWMDRMLicense GetAnalogVideoRestrictionLevels method (Wmdrmsdk.h)
 description: The GetAnalogVideoRestrictionLevels method retrieves all analog video restrictions set on the current license.
 ms.assetid: cf0ac7c0-236d-4d60-8850-81dc6754cf01
 keywords:

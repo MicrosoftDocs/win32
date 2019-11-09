@@ -1,5 +1,5 @@
 ---
-title: LB_FINDSTRING message
+title: LB_FINDSTRING message (Winuser.h)
 description: Finds the first string in a list box that begins with the specified string.
 ms.assetid: 1b7f25a7-0892-4d12-b3e3-21180d9ddfb1
 keywords:

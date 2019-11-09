@@ -1,5 +1,5 @@
 ---
-title: D3DX11SaveTextureToFile function
+title: D3DX11SaveTextureToFile function (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, CaptureTexture then SaveToXXXFile (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). For the simplified scenario of creating a screen shot from a render target texture, we recommend that you use the DirectXTK library, SaveDDSTextureToFile or SaveWICTextureToFile. Save a texture to a file.
 ms.assetid: da161268-fb68-42dd-ba31-b090a993f369
 keywords:

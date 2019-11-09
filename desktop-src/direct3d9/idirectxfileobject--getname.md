@@ -1,7 +1,7 @@
 ---
 Description: Retrieves a pointer to a DirectX file object's name. Deprecated.
 ms.assetid: feb3faa2-22b9-47ed-8a38-33092821d484
-title: IDirectXFileObject::GetName method
+title: IDirectXFileObject::GetName method (DXFile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

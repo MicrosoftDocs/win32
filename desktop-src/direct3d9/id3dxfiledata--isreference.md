@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether this file data object is a reference object that points to another child data object.
 ms.assetid: 4894308d-4f61-4015-8b80-6caab9fcb054
-title: ID3DXFileData::IsReference method
+title: ID3DXFileData::IsReference method (D3DX9Xof.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

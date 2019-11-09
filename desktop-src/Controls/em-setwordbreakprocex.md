@@ -1,5 +1,5 @@
 ---
-title: EM_SETWORDBREAKPROCEX message
+title: EM_SETWORDBREAKPROCEX message (Richedit.h)
 description: Sets the extended word-break procedure for a rich edit control.
 ms.assetid: 2b45f747-ae15-470b-a786-98d8135289da
 keywords:

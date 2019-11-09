@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Display property
+title: IVMVirtualMachine Display property (VPCCOMInterfaces.h)
 description: Retrieves the video display for the virtual machine.
 ms.assetid: ca5a433d-4613-4b6d-9de7-d9c6a2038e38
 keywords:

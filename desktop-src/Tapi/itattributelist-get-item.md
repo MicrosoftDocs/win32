@@ -1,7 +1,7 @@
 ---
 Description: The get\_Item method returns the attribute specified by the index.
 ms.assetid: 67e36587-0bf5-4586-ace9-ef107f0b6548
-title: ITAttributeList::get_Item method
+title: ITAttributeList::get_Item method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Describes the supported image file formats. See Remarks for descriptions of these formats.
 ms.assetid: 245a0052-f156-44ad-ab46-3677a818167e
-title: D3DXIMAGE_FILEFORMAT enumeration
+title: D3DXIMAGE_FILEFORMAT enumeration (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

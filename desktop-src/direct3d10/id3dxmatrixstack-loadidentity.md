@@ -1,7 +1,7 @@
 ---
 Description: Loads identity in the current matrix.
 ms.assetid: 324b49c2-3aca-4bbb-90f3-62f3ffb2fa45
-title: ID3DXMATRIXStack::LoadIdentity method
+title: ID3DXMATRIXStack::LoadIdentity method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

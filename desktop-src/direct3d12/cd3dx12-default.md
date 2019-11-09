@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_DEFAULT structure
+title: CD3DX12_DEFAULT structure (D3dx12.h)
 description: Passes D3D12\_DEFAULT into a constructor for each helper structure. This structure is simply used as a mechanism to set default parameters on the other helper structures.
 ms.assetid: AD41FD7B-9172-400E-9292-374FFAEDE145
 keywords:

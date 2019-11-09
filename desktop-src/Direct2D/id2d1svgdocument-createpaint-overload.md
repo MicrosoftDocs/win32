@@ -1,5 +1,5 @@
 ---
-title: ID2D1SvgDocument CreatePaint methods
+title: ID2D1SvgDocument CreatePaint methods (D2d1svg.h)
 description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
 ms.assetid: dba9be4a-1670-7ab9-e0a8-d9f2895011f4
 keywords:

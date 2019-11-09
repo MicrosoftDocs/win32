@@ -1,5 +1,5 @@
 ---
-title: WM_DDE_EXECUTE message
+title: WM_DDE_EXECUTE message (Dde.h)
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_EXECUTE message to a DDE server application to send a string to the server to be processed as a series of commands.
 ms.assetid: 23c18a57-83ee-4fd3-a5bc-71645bda34eb
 keywords:

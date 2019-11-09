@@ -1,5 +1,5 @@
 ---
-title: gluPickMatrix function
+title: gluPickMatrix function (Glu.h)
 description: The gluPickMatrix function defines a picking region.
 ms.assetid: 2f57345c-17a0-4716-8ab8-170aaed2b4f9
 keywords:

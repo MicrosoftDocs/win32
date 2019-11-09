@@ -1,5 +1,5 @@
 ---
-title: ID3DX11ThreadPump GetQueueStatus method
+title: ID3DX11ThreadPump GetQueueStatus method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Gets the number of items in each of the three queues inside the thread pump.
 ms.assetid: 69e1c786-6c7d-4432-bf34-3bf7606a07f6
 keywords:

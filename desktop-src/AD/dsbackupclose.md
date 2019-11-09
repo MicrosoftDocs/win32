@@ -1,5 +1,5 @@
 ---
-title: DsBackupClose function
+title: DsBackupClose function (Ntdsbcli.h)
 description: Closes a backup file opened with the DsBackupOpenFile function.
 ms.assetid: 5452a222-abe8-4d2d-84ff-6f577073b220
 ms.tgt_platform: multiple

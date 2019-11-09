@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 8c215b16-98e5-42fb-a95b-b6df1ade180e
-title: CImageAllocator.CImageAllocator constructor
+title: CImageAllocator.CImageAllocator constructor (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

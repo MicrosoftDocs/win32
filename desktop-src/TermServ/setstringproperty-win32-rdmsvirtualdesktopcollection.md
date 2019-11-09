@@ -1,5 +1,5 @@
 ---
-title: SetStringProperty method of the Win32_RDMSVirtualDesktopCollection class
+title: SetStringProperty method of the Win32_RDMSVirtualDesktopCollection class (Certenroll.h)
 description: Updates a string property of a virtual desktop collection.
 ms.assetid: d76d5f77-3b51-41b9-8ec5-a737ddc0a9d3
 ms.tgt_platform: multiple

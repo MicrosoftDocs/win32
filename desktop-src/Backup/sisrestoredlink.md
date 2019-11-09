@@ -1,5 +1,5 @@
 ---
-title: SisRestoredLink function
+title: SisRestoredLink function (Sisbkup.h)
 description: Returns the names of the common-store file or files pointed to by the specified restored SIS link.
 ms.assetid: 4eefd975-6055-44c0-93ab-900638948f3e
 keywords:

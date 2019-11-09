@@ -1,5 +1,5 @@
 ---
-title: glVertex3i function
+title: glVertex3i function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: 5f757065-cbe9-401a-855b-f0a9308ae204
 keywords:

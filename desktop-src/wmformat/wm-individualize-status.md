@@ -1,5 +1,5 @@
 ---
-title: WM_INDIVIDUALIZE_STATUS structure
+title: WM_INDIVIDUALIZE_STATUS structure (Drmexternals.h)
 description: The WM\_INDIVIDUALIZE\_STATUS structure records the status of the individualization process.
 ms.assetid: '3779ed6f-c133-4a9d-b60c-ef8c41fcc4af'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentCallback GetSoHRequest method
+title: INapSystemHealthAgentCallback GetSoHRequest method (NapSystemHealthAgent.h)
 description: Is called by the NapAgent to query the system health agent's SoH request.
 ms.assetid: 4161a3e7-2f7a-40d1-b973-47f991bba5d0
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM_DWMSENDICONICLIVEPREVIEWBITMAP message
+title: WM_DWMSENDICONICLIVEPREVIEWBITMAP message (Dwmapi.h)
 description: Instructs a window to provide a static bitmap to use as a live preview (also known as a Peek preview) of that window.
 ms.assetid: 24bf3b42-a850-4aa5-966a-29baab6b4d21
 keywords:

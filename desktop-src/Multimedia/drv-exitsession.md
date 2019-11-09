@@ -1,5 +1,5 @@
 ---
-title: DRV_EXITSESSION message
+title: DRV_EXITSESSION message (Mmsystem.h)
 description: Notifies the driver that Windows is preparing to exit. The driver should prepare for termination.
 ms.assetid: 8d200d64-b89b-47f1-ad21-ab86987efa4b
 keywords:

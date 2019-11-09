@@ -1,5 +1,5 @@
 ---
-title: Windows Event Log Constants
+title: Windows Event Log Constants (WinEvt.h)
 description: Windows Event Log defines the following constants
 ms.assetid: d3a4a136-ca33-4dad-95ad-af1be6687843
 topic_type:

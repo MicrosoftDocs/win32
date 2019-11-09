@@ -1,5 +1,5 @@
 ---
-title: IDWriteGdiInterop1 GetFontSignature methods
+title: IDWriteGdiInterop1 GetFontSignature methods (Dwrite\_3.h)
 description: Retrieves a font signature.
 ms.assetid: 83967afd-8309-74b7-da76-1caee04a4990
 keywords:

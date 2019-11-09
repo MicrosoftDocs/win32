@@ -1,5 +1,5 @@
 ---
-title: Tab Control Item States
+title: Tab Control Item States (CommCtrl.h)
 description: Tab control items now support an item state to support the TCM\_DESELECTALL message. Additionally, the TCITEM structure supports item state values.
 ms.assetid: c4181fe6-0055-45c9-a3d0-8cda051383f2
 topic_type:

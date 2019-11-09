@@ -1,7 +1,7 @@
 ---
 Description: The TraceMessage function sends an informational message to an event tracing session.
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
-title: TraceMessage function
+title: TraceMessage function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

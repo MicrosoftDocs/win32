@@ -1,5 +1,5 @@
 ---
-title: EM_SETSEL message
+title: EM_SETSEL message (Winuser.h)
 description: Selects a range of characters in an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 5cb7ff1e-18e8-49c8-8072-872cf32b18b0
 keywords:

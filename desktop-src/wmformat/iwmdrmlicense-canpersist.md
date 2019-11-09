@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense CanPersist method
+title: IWMDRMLicense CanPersist method (Wmdrmsdk.h)
 description: The CanPersist method queries whether the license can be persisted on in a local license store.
 ms.assetid: 040b30d8-4e47-44a3-8b09-e81cc30e8a53
 keywords:

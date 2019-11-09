@@ -1,7 +1,7 @@
 ---
 Description: Pixel aspect ratio for a video media type.
 ms.assetid: e82cdd22-7d3f-4858-befd-43fa6f9f915e
-title: MF_MT_PIXEL_ASPECT_RATIO attribute
+title: MF_MT_PIXEL_ASPECT_RATIO attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

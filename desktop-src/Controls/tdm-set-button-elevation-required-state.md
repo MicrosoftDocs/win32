@@ -1,5 +1,5 @@
 ---
-title: TDM_SET_BUTTON_ELEVATION_REQUIRED_STATE message
+title: TDM_SET_BUTTON_ELEVATION_REQUIRED_STATE message (Commctrl.h)
 description: Specifies whether a given task dialog button or command link should have a User Account Control (UAC) shield icon; that is, whether the action invoked by the button requires elevation.
 ms.assetid: c4321fdb-3ea9-49bf-b53d-eb73d5b11084
 keywords:

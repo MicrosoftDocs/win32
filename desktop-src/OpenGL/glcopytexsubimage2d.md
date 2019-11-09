@@ -1,5 +1,5 @@
 ---
-title: glCopyTexSubImage2D function
+title: glCopyTexSubImage2D function (Gl.h)
 description: The glCopyTexSubImage2D function copies a sub-image of a two-dimensional texture image from the framebuffer.
 ms.assetid: cbb644d4-6a23-4d66-8599-5f8b48e9b91f
 keywords:

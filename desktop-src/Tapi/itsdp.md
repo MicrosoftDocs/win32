@@ -1,7 +1,7 @@
 ---
 Description: The ITSdp interface provides methods for the manipulation of a Session Descriptor Protocol (SDP, see RFC 2327) conference blob component.
 ms.assetid: 77c1e302-6290-4eeb-b7c9-462a13b29dcd
-title: ITSdp interface
+title: ITSdp interface (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

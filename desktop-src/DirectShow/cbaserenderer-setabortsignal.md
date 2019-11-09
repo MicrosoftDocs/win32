@@ -1,7 +1,7 @@
 ---
 Description: The SetAbortSignal method sets a flag which indicates whether to stop rendering and reject further samples.
 ms.assetid: 2dbf3b4d-e285-4d17-a77c-01a16c09d148
-title: CBaseRenderer.SetAbortSignal method
+title: CBaseRenderer.SetAbortSignal method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Initiates the client side, outbound [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a credential handle by using the Negotiate [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: 031b0e82-f246-4291-aed3-f443ab152e00
-title: InitializeSecurityContext (Negotiate) function
+title: InitializeSecurityContext (Negotiate) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

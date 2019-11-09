@@ -1,5 +1,5 @@
 ---
-title: TVN_ITEMCHANGING notification code
+title: TVN_ITEMCHANGING notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window that item attributes are about to change. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: c997871c-8eca-46c0-999d-2f6d7e3e6c96
 keywords:

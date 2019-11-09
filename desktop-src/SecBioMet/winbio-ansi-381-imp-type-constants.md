@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANSI_381_IMP_TYPE Constants
+title: WINBIO_ANSI_381_IMP_TYPE Constants (Winbio\_types.h)
 description: Specify finger and palm impression types.
 ms.assetid: 838FC1E2-4FEB-4162-B689-4FACAF8F79F5
 topic_type:

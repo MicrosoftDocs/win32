@@ -1,7 +1,7 @@
 ---
 Description: The read-only Version property returns the version of the module required by the current merge.
 ms.assetid: 784fb75c-2ed2-411a-b441-9c81297b487d
-title: Dependency.Version property
+title: Dependency.Version property (Mergemod.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

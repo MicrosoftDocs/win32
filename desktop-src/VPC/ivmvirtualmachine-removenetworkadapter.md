@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine RemoveNetworkAdapter method
+title: IVMVirtualMachine RemoveNetworkAdapter method (VPCCOMInterfaces.h)
 description: Removes a network interface from the virtual machine.
 ms.assetid: 25a5b172-55b8-4cbe-98aa-630148cf6b6d
 keywords:

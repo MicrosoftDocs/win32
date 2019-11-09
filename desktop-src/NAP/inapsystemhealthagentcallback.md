@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentCallback interface
+title: INapSystemHealthAgentCallback interface (NapSystemHealthAgent.h)
 description: Are declared by the system and implemented by the SHA writer so the NapAgent can communicate with the SHA.
 ms.assetid: f299e796-c81d-4a22-b9c8-f80990098044
 keywords:

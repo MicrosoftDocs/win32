@@ -1,7 +1,7 @@
 ---
 Description: The PF\_PARSERDLLINFO structure defines the parsers located in the parser DLL.
 ms.assetid: a7473b58-7767-4224-be3b-e96132d98adf
-title: PF_PARSERDLLINFO structure
+title: PF_PARSERDLLINFO structure (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

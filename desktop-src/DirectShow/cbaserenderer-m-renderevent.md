@@ -1,7 +1,7 @@
 ---
 Description: Event used to schedule rendering.
 ms.assetid: c1fe0d3b-b9b1-48d1-bc54-6d2e9f03e4cd
-title: CBaseRenderer::m_RenderEvent member
+title: CBaseRenderer::m_RenderEvent member (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

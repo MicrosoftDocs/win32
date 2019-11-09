@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Constants (Manipulations.h)
 description: Describes the constants that relate to the IManipulationProcessor interface.
 ms.assetid: 3b039727-0870-4918-9e97-d10b2ff55045
 topic_type:

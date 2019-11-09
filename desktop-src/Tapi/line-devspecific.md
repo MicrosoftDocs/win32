@@ -1,7 +1,7 @@
 ---
 Description: The TAPI LINE\_DEVSPECIFIC message is sent to notify the application about device-specific events occurring on a line, address, or call. The meaning of the message and the interpretation of the parameters are device specific.
 ms.assetid: 6a58e77b-6ee2-4d2d-aca2-71b239f6a1dc
-title: LINE_DEVSPECIFIC message
+title: LINE_DEVSPECIFIC message (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

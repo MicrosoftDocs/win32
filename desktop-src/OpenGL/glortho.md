@@ -1,5 +1,5 @@
 ---
-title: glOrtho function
+title: glOrtho function (Gl.h)
 description: The glOrtho function multiplies the current matrix by an orthographic matrix.
 ms.assetid: 5c70819f-e9b6-49e2-add5-9f6e6aba26ee
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WINBIO_REJECT_DETAIL Constants
+title: WINBIO_REJECT_DETAIL Constants (Winbio\_types.h)
 description: Specify the reason a biometric fingerprint capture or identification procedure did not succeed.
 ms.assetid: b1ae4e65-9e53-42dd-99ba-1910b72688dd
 topic_type:

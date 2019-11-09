@@ -1,5 +1,5 @@
 ---
-title: CQPM_HELP message
+title: CQPM_HELP message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page to allow the page extension to display context-sensitive help for the page.
 ms.assetid: 07f5bd24-bca2-4d87-8e1e-acce552a3bf2
 ms.tgt_platform: multiple

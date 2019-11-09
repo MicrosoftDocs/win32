@@ -1,7 +1,7 @@
 ---
 Description: Windows Portable Devices supports the following common information properties.
 ms.assetid: eaae7431-d53d-42a1-9286-001c6f5b1641
-title: Common Information Properties
+title: Common Information Properties (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant CPUUtilization property
+title: IVMAccountant CPUUtilization property (VPCCOMInterfaces.h)
 description: Retrieves the percentage of current CPU utilization for this virtual machine.
 ms.assetid: 69bb61ec-af41-4bd0-95bd-4698a1d33098
 keywords:

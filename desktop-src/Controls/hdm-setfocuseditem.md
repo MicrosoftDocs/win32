@@ -1,5 +1,5 @@
 ---
-title: HDM_SETFOCUSEDITEM message
+title: HDM_SETFOCUSEDITEM message (Commctrl.h)
 description: Sets the focus to a specified item in a header control. Send this message explicitly or by using the Header\_SetFocusedItem macro.
 ms.assetid: 20a321ce-4420-4239-b34d-9e7f24a89fc3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the &\#0034;leaky bucket&\#0034; parameters for a stream on an ASF media sink.
 ms.assetid: b01e59b6-0a7f-4125-867c-532385a27c15
-title: MFPKEY_ASFSTREAMSINK_CORRECTED_LEAKYBUCKET property
+title: MFPKEY_ASFSTREAMSINK_CORRECTED_LEAKYBUCKET property (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

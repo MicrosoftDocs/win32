@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity CheckCertForRevocation method
+title: IWMDRMSecurity CheckCertForRevocation method (Wmdrmsdk.h)
 description: The CheckCertForRevocation method determines whether a certificate has been revoked.
 ms.assetid: 3efde398-f2ba-486e-b017-6787ca402e4c
 keywords:

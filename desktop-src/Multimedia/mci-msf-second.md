@@ -1,5 +1,5 @@
 ---
-title: MCI_MSF_SECOND macro
+title: MCI_MSF_SECOND macro (Mciapi.h)
 description: The MCI\_MSF\_SECOND macro retrieves the seconds component from a parameter containing packed minutes/seconds/frames (MSF) information.
 ms.assetid: 2d455ce3-1823-46fa-a59e-b9c5c2fe5eb9
 keywords:

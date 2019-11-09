@@ -1,5 +1,5 @@
 ---
-title: WM_DDE_INITIATE message
+title: WM_DDE_INITIATE message (Dde.h)
 description: A Dynamic Data Exchange (DDE) client application sends a WM\_DDE\_INITIATE message to initiate a conversation with a server application responding to the specified application and topic names.
 ms.assetid: d486f584-75a3-4ffd-ba5d-f95f2692cd6c
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The OnDisconnect method is called when the property page should release the associated object.
 ms.assetid: 55bab0ca-587e-405c-9025-f391cf08a620
-title: CBasePropertyPage.OnDisconnect method
+title: CBasePropertyPage.OnDisconnect method (Cprop.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

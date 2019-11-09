@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement RegisterEnforcementClient method
+title: INapClientManagement RegisterEnforcementClient method (NapManagement.h)
 description: Registers an enforcement client with the NAP system.
 ms.assetid: 26ea45ea-a366-4162-91dc-06bcd0261c56
 keywords:

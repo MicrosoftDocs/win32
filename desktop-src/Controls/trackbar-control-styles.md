@@ -1,5 +1,5 @@
 ---
-title: Trackbar Control Styles
+title: Trackbar Control Styles (CommCtrl.h)
 description: This section contains information about the styles used with trackbar controls.
 ms.assetid: ac2f59c6-85a2-4f41-aace-4132971d3559
 topic_type:

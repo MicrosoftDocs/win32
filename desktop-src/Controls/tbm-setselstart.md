@@ -1,5 +1,5 @@
 ---
-title: TBM_SETSELSTART message
+title: TBM_SETSELSTART message (Commctrl.h)
 description: Sets the starting logical position of the current selection range in a trackbar. This message is ignored if the trackbar does not have the TBS\_ENABLESELRANGE style.
 ms.assetid: eec1019c-6dbe-48c4-9c9d-72d657e80b83
 keywords:

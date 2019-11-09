@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest GetSoHResponse method
+title: INapSystemHealthValidationRequest GetSoHResponse method (NapSystemHealthValidator.h)
 description: Retrieves the SoHResponse.
 ms.assetid: 7db9d134-5cd4-4a6c-8576-843b9a920864
 keywords:

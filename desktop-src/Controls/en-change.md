@@ -1,5 +1,5 @@
 ---
-title: EN_CHANGE notification code
+title: EN_CHANGE notification code (Winuser.h)
 description: Sent when the user has taken an action that may have altered text in an edit control.
 ms.assetid: 8a04e6fb-ae9d-4d94-8047-6de96df899f5
 keywords:

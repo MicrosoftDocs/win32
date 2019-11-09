@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetEnforcerPrivateData method
+title: INapEnforcementClientConnection SetEnforcerPrivateData method (NapEnforcementClient.h)
 description: Is used by the enforcer to set private data.
 ms.assetid: 56f6fec7-47ec-4b2c-b8c8-a4d519ba0f91
 keywords:

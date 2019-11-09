@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_FILE_GET_CAPTURE_FILE message
+title: WM_CAP_FILE_GET_CAPTURE_FILE message (Vfw.h)
 description: The WM\_CAP\_FILE\_GET\_CAPTURE\_FILE message returns the name of the current capture file. You can send this message explicitly or by using the capFileGetCaptureFile macro.
 ms.assetid: 86ce2904-834d-449f-9ef8-5a158c55bbaa
 keywords:

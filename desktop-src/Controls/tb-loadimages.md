@@ -1,5 +1,5 @@
 ---
-title: TB_LOADIMAGES message
+title: TB_LOADIMAGES message (Commctrl.h)
 description: Loads system-defined button images into a toolbar control's image list.
 ms.assetid: 61146f43-9fd9-4fe3-b85c-cf465f2de769
 keywords:

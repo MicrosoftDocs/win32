@@ -1,5 +1,5 @@
 ---
-title: NM_RCLICK (list view) notification code
+title: NM_RCLICK (list view) notification code (Commctrl.h)
 description: Sent by a list-view control when the user clicks an item with the right mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: dc7f97b3-4aec-4a8f-a87c-62cef5ba4c40
 keywords:

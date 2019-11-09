@@ -1,6 +1,6 @@
 ---
 Description: Contains information about a selected file in the active File Manager window (the directory window or the Search Results window).
-title: FMS_GETFILESEL structure
+title: FMS_GETFILESEL structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

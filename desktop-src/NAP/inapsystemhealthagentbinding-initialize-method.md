@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentBinding Initialize method
+title: INapSystemHealthAgentBinding Initialize method (NapSystemHealthAgent.h)
 description: Initializes the system health agent (SHA) and binds the SHA to the NapAgent service.
 ms.assetid: abbc942b-0217-4b07-bf43-fab55ca9c411
 keywords:

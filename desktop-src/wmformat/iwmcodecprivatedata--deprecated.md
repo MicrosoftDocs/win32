@@ -1,5 +1,5 @@
 ---
-title: IWMCodecPrivateData
+title: IWMCodecPrivateData (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: a2c7e727-52ce-495e-b538-5e1bd2ad4ce4
 keywords:

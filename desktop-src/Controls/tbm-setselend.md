@@ -1,5 +1,5 @@
 ---
-title: TBM_SETSELEND message
+title: TBM_SETSELEND message (Commctrl.h)
 description: Sets the ending logical position of the current selection range in a trackbar. This message is ignored if the trackbar does not have the TBS\_ENABLESELRANGE style.
 ms.assetid: 1feec14c-1607-49d5-a147-af2443f82dc1
 keywords:

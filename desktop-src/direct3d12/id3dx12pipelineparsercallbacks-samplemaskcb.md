@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks SampleMaskCb method
+title: ID3DX12PipelineParserCallbacks SampleMaskCb method (D3DX12.h)
 description: Calls the sample mask subobject callback of an object that implements this interface.
 ms.assetid: 4D729414-1E04-407B-B32F-ECE1EA9FF414
 keywords:

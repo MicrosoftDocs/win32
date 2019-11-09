@@ -1,5 +1,5 @@
 ---
-title: HealthClassValue enumeration
+title: HealthClassValue enumeration (NapProtocol.h)
 description: Indicates the value of the health class TLV.
 ms.assetid: af80c27a-a686-494b-8795-73eb366deaa0
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: BCM_GETSPLITINFO message
+title: BCM_GETSPLITINFO message (Commctrl.h)
 description: Gets information for a split button control. Send this message explicitly or by using the Button\_GetSplitInfo macro.
 ms.assetid: d608440d-b8d8-4e32-9128-08b7566b185c
 keywords:

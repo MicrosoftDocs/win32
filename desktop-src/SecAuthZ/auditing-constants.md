@@ -1,7 +1,7 @@
 ---
 Description: Represent categories and subcategories of audit-policy events.
 ms.assetid: e3b12139-947d-4922-91fd-f9833c069011
-title: Auditing Constants
+title: Auditing Constants (Ntsecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Array of strings with the parameters to send to the log server.
 ms.assetid: 36d711c7-a1ff-4ef2-b633-5f9f1662801e
-title: MFNETSOURCE_LOGPARAMS property
+title: MFNETSOURCE_LOGPARAMS property (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

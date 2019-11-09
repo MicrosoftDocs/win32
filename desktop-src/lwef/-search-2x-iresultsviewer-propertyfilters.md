@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer PropertyFilters property
+title: IResultsViewer PropertyFilters property (WdsView.h)
 description: When calling the property filter collection it will return the following
 ms.assetid: 8673f2de-f156-4910-8f2f-e8bfe3369f71
 keywords:

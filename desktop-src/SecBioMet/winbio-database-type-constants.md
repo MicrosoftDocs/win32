@@ -1,5 +1,5 @@
 ---
-title: WINBIO_DATABASE_TYPE Constants
+title: WINBIO_DATABASE_TYPE Constants (Winbio\_types.h)
 description: Flags that can be used for the Attributes member of the WINBIO\_STORAGE\_SCHEMA structure.
 ms.assetid: 07e7e91c-3ca6-41cd-a2c7-ac43bb5156a6
 topic_type:

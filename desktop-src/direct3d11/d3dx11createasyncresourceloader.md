@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateAsyncResourceLoader function
+title: D3DX11CreateAsyncResourceLoader function (D3DX11async.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create an asynchronous-resource loader.
 ms.assetid: b49900a1-866d-4a4a-bf3a-2deb9ce4a208
 keywords:

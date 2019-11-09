@@ -1,7 +1,7 @@
 ---
 Description: Defines flags used to control the number or matrices that the system applies when performing multimatrix vertex blending.
 ms.assetid: 5314f455-ce5f-4ff5-81fc-d3dffc8705b7
-title: D3DVERTEXBLENDFLAGS enumeration
+title: D3DVERTEXBLENDFLAGS enumeration (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

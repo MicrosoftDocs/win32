@@ -1,7 +1,7 @@
 ---
 Description: Disconnects the NPP from the network.
 ms.assetid: 01ff8fc2-aa27-4df8-a499-c7b00c1fa2e8
-title: IStats::Disconnect method
+title: IStats::Disconnect method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

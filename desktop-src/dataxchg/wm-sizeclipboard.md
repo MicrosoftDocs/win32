@@ -1,5 +1,5 @@
 ---
-title: WM_SIZECLIPBOARD message
+title: WM_SIZECLIPBOARD message (Winuser.h)
 description: Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the CF\_OWNERDISPLAY format and the clipboard viewer's client area has changed size.
 ms.assetid: 95991d03-8677-4dde-b72a-082dec4834b3
 keywords:

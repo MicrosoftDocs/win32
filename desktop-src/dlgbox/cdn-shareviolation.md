@@ -1,5 +1,5 @@
 ---
-title: CDN_SHAREVIOLATION notification code
+title: CDN_SHAREVIOLATION notification code (Commdlg.h)
 description: Sent by an Explorer-style Open or Save As dialog box when the user clicks the OK button and a network sharing violation occurs for the selected file.
 ms.assetid: a62ca550-0997-4379-aaaf-a5bc9414bd69
 keywords:

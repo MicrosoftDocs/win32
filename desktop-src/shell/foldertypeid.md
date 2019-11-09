@@ -1,7 +1,7 @@
 ---
 Description: The FOLDERTYPEID values represent a view template applied to a folder, usually based on its intended use and contents.
 ms.assetid: d147a05c-6a03-4f20-a7be-20825fcbeec2
-title: FOLDERTYPEID
+title: FOLDERTYPEID (Shlguid.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

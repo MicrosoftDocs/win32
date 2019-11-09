@@ -1,5 +1,5 @@
 ---
-title: TTM_GETCURRENTTOOL message
+title: TTM_GETCURRENTTOOL message (Commctrl.h)
 description: Retrieves the information for the current tool in a tooltip control.
 ms.assetid: acb254cf-064c-4ed8-b488-a3138b648405
 keywords:

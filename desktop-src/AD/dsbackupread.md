@@ -1,5 +1,5 @@
 ---
-title: DsBackupRead function
+title: DsBackupRead function (Ntdsbcli.h)
 description: Reads a block of data from the current open file, into a buffer.
 ms.assetid: 01576d41-3cd6-4540-966b-7d98561f7b8c
 ms.tgt_platform: multiple

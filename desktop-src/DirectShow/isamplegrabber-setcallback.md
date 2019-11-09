@@ -1,7 +1,7 @@
 ---
 Description: The SetCallback method specifies a callback method to call on incoming samples.
 ms.assetid: b84d3f52-b986-492a-a8b9-1d98618dcdd3
-title: ISampleGrabber::SetCallback method
+title: ISampleGrabber::SetCallback method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

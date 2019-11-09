@@ -1,5 +1,5 @@
 ---
-title: DTN_USERSTRING notification code
+title: DTN_USERSTRING notification code (Commctrl.h)
 description: Sent by a date and time picker (DTP) control when a user finishes editing a string in the control.
 ms.assetid: a5b13582-323b-4804-912c-a988d902547d
 keywords:

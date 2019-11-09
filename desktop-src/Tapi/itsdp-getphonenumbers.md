@@ -1,7 +1,7 @@
 ---
 Description: The GetPhoneNumbers method gets an array of phone numbers associated with a conference blob.
 ms.assetid: c4ad6c5a-e15c-45ae-94de-763a843554bb
-title: ITSdp::GetPhoneNumbers method
+title: ITSdp::GetPhoneNumbers method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

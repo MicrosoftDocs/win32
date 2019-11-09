@@ -1,7 +1,7 @@
 ---
 Description: Implements the IGestureRecognizer Interface.
 ms.assetid: 7cdaf3bf-7aae-4d36-af1c-0eb5a726f388
-title: GestureRecognizer class
+title: GestureRecognizer class (RTSCom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

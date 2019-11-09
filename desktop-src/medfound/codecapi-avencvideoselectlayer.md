@@ -1,7 +1,7 @@
 ---
 Description: Sets the video select layer for a video encoder.
 ms.assetid: 2CB83D5B-93BB-43F0-B231-5B773BDB4D5F
-title: CODECAPI_AVEncVideoSelectLayer property
+title: CODECAPI_AVEncVideoSelectLayer property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

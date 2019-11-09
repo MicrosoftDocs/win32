@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the encoder uses concealment motion vectors. This property applies to MPEG video encoders.
 ms.assetid: 8b47a007-525c-4d02-8723-d6217600041e
-title: AVEncMPVUseConcealmentMotionVectors property
+title: AVEncMPVUseConcealmentMotionVectors property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

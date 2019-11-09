@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 6213ce92-d98a-4fb6-b66c-e7cdea6dff0d
-title: CTransformOutputPin.CTransformOutputPin constructor
+title: CTransformOutputPin.CTransformOutputPin constructor (Transfrm.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

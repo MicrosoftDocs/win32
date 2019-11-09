@@ -1,7 +1,7 @@
 ---
 Description: Retrieves an array of rectangles that defines the area of the IAnalysisRegion.
 ms.assetid: 40de4c27-4b3b-4db3-af08-cb53e638db6b
-title: IAnalysisRegion::GetRegionScans method
+title: IAnalysisRegion::GetRegionScans method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

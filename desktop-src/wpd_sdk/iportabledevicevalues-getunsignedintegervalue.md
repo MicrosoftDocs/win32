@@ -1,7 +1,7 @@
 ---
 Description: The GetUnsignedIntegerValue method retrieves a ULONG value (type VT\_UI4) specified by a key.
 ms.assetid: 167163fa-6583-4e6b-b801-3a441a95644b
-title: IPortableDeviceValues::GetUnsignedIntegerValue method
+title: IPortableDeviceValues::GetUnsignedIntegerValue method (PortableDeviceTypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

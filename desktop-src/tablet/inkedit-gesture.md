@@ -1,7 +1,7 @@
 ---
 Description: Occurs when an application gesture is recognized.
 ms.assetid: 736715f4-c610-42cc-9fbb-c2b579da69e5
-title: InkEdit.Gesture event
+title: InkEdit.Gesture event (Inked.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: This operator tests for inequality between CMediaType objects.
 ms.assetid: 9caf4cb9-f049-42e7-abe4-79f8bf0ea542
-title: CMediaType.CMediaType::operator!= method
+title: CMediaType.CMediaType::operator!= method (Mtype.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

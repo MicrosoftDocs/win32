@@ -1,7 +1,7 @@
 ---
 Description: Per-user event that supports up to three fields.
 ms.assetid: e6cf8008-b896-453b-9946-a6b3d94a991a
-title: WPCEVENT_CUSTOM event
+title: WPCEVENT_CUSTOM event (Wpcevent.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

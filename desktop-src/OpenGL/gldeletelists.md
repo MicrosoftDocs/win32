@@ -1,5 +1,5 @@
 ---
-title: glDeleteLists function
+title: glDeleteLists function (Gl.h)
 description: The glDeleteLists function deletes a contiguous group of display lists.
 ms.assetid: 979ab352-99db-4822-922c-a1813b9fcfce
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Transforms an array (x, y, z, w) by a given matrix.
 ms.assetid: afd5cccb-e22f-4726-a84e-9eac1c1c277f
-title: D3DXVec4TransformArray function
+title: D3DXVec4TransformArray function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

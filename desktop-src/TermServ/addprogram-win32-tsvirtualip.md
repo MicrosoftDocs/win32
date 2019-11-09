@@ -1,5 +1,5 @@
 ---
-title: AddProgram method of the Win32_TSVirtualIP class
+title: AddProgram method of the Win32_TSVirtualIP class (Bdaiface.h)
 description: Adds a program to the list of programs that use IP virtualization.
 ms.assetid: 4d142774-fa7a-4cfb-9305-5a61b0ef5438
 ms.tgt_platform: multiple

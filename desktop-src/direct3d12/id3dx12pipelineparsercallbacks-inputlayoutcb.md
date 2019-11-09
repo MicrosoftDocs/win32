@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks InputLayoutCb method
+title: ID3DX12PipelineParserCallbacks InputLayoutCb method (D3DX12.h)
 description: Calls the input layout subobject callback of an object that implements this interface.
 ms.assetid: A21AB7A1-6E51-42CB-BA98-C0BD08D43009
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: VMUndoAction enumeration
+title: VMUndoAction enumeration (VPCCOMInterfaces.h)
 description: Specifies what happens to undo drives when a virtual machine is shut down or turned off.
 ms.assetid: f8f96fd3-0b2a-40ae-8b2e-b6bcc995dedd
 keywords:

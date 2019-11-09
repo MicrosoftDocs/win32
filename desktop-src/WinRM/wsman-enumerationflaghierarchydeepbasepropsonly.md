@@ -1,5 +1,5 @@
 ---
-title: WSMan.EnumerationFlagHierarchyDeepBasePropsOnly method
+title: WSMan.EnumerationFlagHierarchyDeepBasePropsOnly method (WSManDisp.h)
 description: Returns the value of the enumeration flag EnumerationFlagHierarchyDeepBasePropsOnly for use in the flags parameter of Session.Enumerate.
 ms.assetid: f4c5966a-0d9f-4d93-9ccd-2e8a5f32b77f
 ms.tgt_platform: multiple

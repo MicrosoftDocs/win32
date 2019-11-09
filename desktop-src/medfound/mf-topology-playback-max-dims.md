@@ -1,7 +1,7 @@
 ---
 Description: Specifies the size of the destination window for video playback.
 ms.assetid: 46af4c11-042c-4580-ba9d-3aee6172de56
-title: MF_TOPOLOGY_PLAYBACK_MAX_DIMS attribute
+title: MF_TOPOLOGY_PLAYBACK_MAX_DIMS attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

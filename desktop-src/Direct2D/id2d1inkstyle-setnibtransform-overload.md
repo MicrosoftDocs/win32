@@ -1,5 +1,5 @@
 ---
-title: ID2D1InkStyle SetNibTransform methods
+title: ID2D1InkStyle SetNibTransform methods (D2d1\_3.h)
 description: Sets the transform to apply to this style's nib shape.
 ms.assetid: e2caee05-192c-1ea5-103c-e1d44e8c30a8
 keywords:

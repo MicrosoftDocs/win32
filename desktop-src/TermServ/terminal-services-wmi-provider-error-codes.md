@@ -1,5 +1,5 @@
 ---
-title: Remote Desktop Services WMI provider error codes
+title: Remote Desktop Services WMI provider error codes (Wbemcli.h)
 description: Errors returned by the Remote Desktop Services WMI provider. For a list of other WMI errors, see WMI Error Constants.
 ms.assetid: 1e68c41d-f321-4bc5-ba30-b69f5ba741eb
 ms.tgt_platform: multiple

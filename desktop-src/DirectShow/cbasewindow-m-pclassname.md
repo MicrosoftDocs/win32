@@ -1,7 +1,7 @@
 ---
 Description: Static string that contains the name of the window class.
 ms.assetid: a1edf252-23d1-4ee2-96b0-643b80259f38
-title: CBaseWindow::m_pClassName member
+title: CBaseWindow::m_pClassName member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

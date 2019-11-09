@@ -1,7 +1,7 @@
 ---
 Description: Specifies the starting minute number in the group of pictures (GOP) header.
 ms.assetid: 75c0d63c-3ff1-4ba1-9323-55f4ae06fe0f
-title: AVEncVideoHeaderMinutes property
+title: AVEncVideoHeaderMinutes property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

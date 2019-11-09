@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile2 SetRemoteName method
+title: IBackgroundCopyFile2 SetRemoteName method (Deliveryoptimization.h)
 description: Changes the remote name to a new URL in a download job.
 ms.assetid: 344D4193-C96E-4B94-AA53-F9307FEB2565
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine StartCommunicationChannel method
+title: IVMVirtualMachine StartCommunicationChannel method (VPCCOMInterfaces.h)
 description: Sets up a communication channel between host and guest operating system.
 ms.assetid: e4b04aa8-8400-4aa4-ad54-71ef57dec82a
 keywords:

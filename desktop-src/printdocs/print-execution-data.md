@@ -1,7 +1,7 @@
 ---
 Description: Contains the execution context of the printer driver that calls GetPrintExecutionData.
 ms.assetid: 1fd25ed9-6f28-48f9-8132-d48fffc956ec
-title: PRINT_EXECUTION_DATA structure
+title: PRINT_EXECUTION_DATA structure (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

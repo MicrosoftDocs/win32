@@ -1,7 +1,7 @@
 ---
 Description: Sets a new reply APDU.
 ms.assetid: 1d058c89-0de9-4809-b008-ae24c62acc5b
-title: ISCardCmd::put_ApduReply method
+title: ISCardCmd::put_ApduReply method (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: EN_ALIGNRTL notification code
+title: EN_ALIGNRTL notification code (Richedit.h)
 description: Notifies a rich edit control's parent window that the paragraph direction changed to right-to-left. A rich edit control sends this notification code in the form of a WM\_COMMAND message.
 ms.assetid: 2db5fd49-9ecd-49d7-8199-1706648255ca
 keywords:

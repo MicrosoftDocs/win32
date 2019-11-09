@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement GetNapClientInfo method
+title: INapClientManagement GetNapClientInfo method (NapManagement.h)
 description: Retrieves information about the NAP client.
 ms.assetid: c0b57cab-729b-40b2-81d2-32a961e377a5
 keywords:

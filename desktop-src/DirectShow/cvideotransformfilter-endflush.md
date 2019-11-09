@@ -1,7 +1,7 @@
 ---
 Description: The EndFlush method ends a flush operation. This method overrides the CTransformFilter::EndFlush method.
 ms.assetid: e7dfc6f9-1630-426b-95b2-9814331b5e61
-title: CVideoTransformFilter.EndFlush method
+title: CVideoTransformFilter.EndFlush method (Vtrans.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: MCI_STOP command
+title: MCI_STOP command (Mmsystem.h)
 description: The MCI\_STOP command stops all play and record sequences, unloads all play buffers, and ceases display of video images. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 ms.assetid: e5ae20b3-7439-4314-8354-d06e83b29729
 keywords:

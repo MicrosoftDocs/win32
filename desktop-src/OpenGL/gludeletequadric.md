@@ -1,5 +1,5 @@
 ---
-title: gluDeleteQuadric function
+title: gluDeleteQuadric function (Glu.h)
 description: The gluDeleteQuadric function destroys a quadric object.
 ms.assetid: 09efd887-0fe8-4a56-bc6f-2177a4930035
 keywords:

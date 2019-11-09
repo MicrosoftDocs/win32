@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNonSilentLicenseAquisition GetURL method
+title: IWMDRMNonSilentLicenseAquisition GetURL method (Wmdrmsdk.h)
 description: The GetURL method retrieves the URL to which the license challenge should be posted.
 ms.assetid: f65f1984-74bc-4cd0-957e-930aa6a6f6a5
 keywords:

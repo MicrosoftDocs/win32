@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCFrameInterpolationSupported
+title: g_wszWMVCFrameInterpolationSupported (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: c0d8f222-9f50-486b-acee-a1c685199fab
 keywords:

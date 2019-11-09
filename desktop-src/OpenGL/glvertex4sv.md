@@ -1,5 +1,5 @@
 ---
-title: glVertex4sv function
+title: glVertex4sv function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: 969ecb41-7e72-4b95-9d84-2d995f60f2a3
 keywords:

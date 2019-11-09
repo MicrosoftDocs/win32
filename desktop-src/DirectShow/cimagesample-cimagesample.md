@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: d7550c38-d728-41b2-80a6-20728abf6012
-title: CImageSample.CImageSample constructor
+title: CImageSample.CImageSample constructor (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

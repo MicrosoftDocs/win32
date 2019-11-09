@@ -1,5 +1,5 @@
 ---
-title: TBS Data Types
+title: TBS Data Types (Tbs.h)
 description: TBS defines the following data types.
 ms.assetid: c8de883f-9450-47e2-a352-b6f6b1f8e423
 keywords:

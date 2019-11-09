@@ -1,5 +1,5 @@
 ---
-title: IDCompositionSkewTransform SetCenterY methods
+title: IDCompositionSkewTransform SetCenterY methods (Dcomp.h)
 description: Changes or animates the value of the CenterY property of a of a 2D skew transform.
 ms.assetid: D3F5E009-D6D2-431F-AC5C-C14C0AE1CD36
 keywords:

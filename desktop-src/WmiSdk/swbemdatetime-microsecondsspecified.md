@@ -2,7 +2,7 @@
 Description: Boolean value that indicates whether the microseconds component in the CIM datetime value contains an interval or a wildcard value.
 ms.assetid: 65244ece-2326-4edc-b982-57e2046ec33e
 ms.tgt_platform: multiple
-title: SWbemDateTime.MicrosecondsSpecified property
+title: SWbemDateTime.MicrosecondsSpecified property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

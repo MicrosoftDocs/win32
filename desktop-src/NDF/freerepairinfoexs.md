@@ -1,5 +1,5 @@
 ---
-title: FreeRepairInfoExs function
+title: FreeRepairInfoExs function (Ndattributils.h)
 description: Deallocates the memory allocated internally to an array of RepairInfoEx structures.
 ms.assetid: b4e3e758-88cd-4ce2-b1a4-5b47889aae9b
 keywords:

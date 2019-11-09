@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk Compact method
+title: IVMHardDisk Compact method (VPCCOMInterfaces.h)
 description: Compacts a dynamically expanding virtual hard disk image.
 ms.assetid: bd3ec493-1bc0-4c28-8b41-56beac3d0d6d
 keywords:

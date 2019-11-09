@@ -1,7 +1,7 @@
 ---
 Description: Specifies a friendly name for the identification of the client.
 ms.assetid: 04DEFC2A-6870-4C22-B55D-5514C87C1908
-title: MFNETSOURCE_PEERMANAGER property
+title: MFNETSOURCE_PEERMANAGER property (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the default number of consecutive B frames between I and P frames.
 ms.assetid: d41ed713-0159-4325-bc44-f4a3eea10aa2
-title: AVEncMPVDefaultBPictureCount property
+title: AVEncMPVDefaultBPictureCount property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

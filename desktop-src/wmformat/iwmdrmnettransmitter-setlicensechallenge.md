@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNetTransmitter SetLicenseChallenge method
+title: IWMDRMNetTransmitter SetLicenseChallenge method (Wmdrmsdk.h)
 description: The SetLicenseChallenge method processes a license challenge sent by a Windows Media DRM for Network Devices receiver.
 ms.assetid: 3d4cd029-a8f5-49fc-ba8c-d8615ff94366
 keywords:

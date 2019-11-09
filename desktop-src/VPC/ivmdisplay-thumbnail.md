@@ -1,5 +1,5 @@
 ---
-title: IVMDisplay Thumbnail property
+title: IVMDisplay Thumbnail property (VPCCOMInterfaces.h)
 description: Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen.
 ms.assetid: e7b57f16-eec1-4461-acfb-742976eff14a
 keywords:

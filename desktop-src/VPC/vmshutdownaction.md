@@ -1,5 +1,5 @@
 ---
-title: VMShutdownAction enumeration
+title: VMShutdownAction enumeration (VPCCOMInterfaces.h)
 description: Specifies how to shut down a virtual machine when the host shuts down or the vpc.exe process exits.
 ms.assetid: 271a685a-cac9-4a15-b363-bf8873fd5324
 keywords:

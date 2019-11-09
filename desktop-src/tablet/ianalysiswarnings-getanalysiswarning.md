@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the IAnalysisWarning object at the specified index.
 ms.assetid: 8f5d5642-73ec-496e-bad7-9f636fc00217
-title: IAnalysisWarnings::GetAnalysisWarning method
+title: IAnalysisWarnings::GetAnalysisWarning method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

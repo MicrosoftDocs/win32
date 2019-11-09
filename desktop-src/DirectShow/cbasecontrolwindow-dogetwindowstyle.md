@@ -1,7 +1,7 @@
 ---
 Description: The DoGetWindowStyle method retrieves the current normal or extended window styles.
 ms.assetid: 1a854896-4bcb-49d0-92e4-40d1923712f9
-title: CBaseControlWindow.DoGetWindowStyle method
+title: CBaseControlWindow.DoGetWindowStyle method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

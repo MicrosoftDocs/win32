@@ -1,7 +1,7 @@
 ---
 Description: Sent to all top-level windows when the system detects more than 12.5 percent of system time over a 30- to 60-second interval is being spent compacting memory. This indicates that system memory is low.
 ms.assetid: e8adc655-0252-4a43-8a62-b08e96f5744e
-title: WM_COMPACTING message
+title: WM_COMPACTING message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

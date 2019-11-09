@@ -1,5 +1,5 @@
 ---
-title: TTN_NEEDTEXT notification code
+title: TTN_NEEDTEXT notification code (Commctrl.h)
 description: Sent by a tooltip control to retrieve information needed to display a tooltip window. This notification code is identical to TTN\_GETDISPINFO. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 5fd82096-cfad-4b58-aa88-101d73116ec9
 keywords:

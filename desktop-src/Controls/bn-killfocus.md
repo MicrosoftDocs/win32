@@ -1,5 +1,5 @@
 ---
-title: BN_KILLFOCUS notification code
+title: BN_KILLFOCUS notification code (Winuser.h)
 description: Sent when a button loses the keyboard focus. The button must have the BS\_NOTIFY style to send this notification code. The parent window of the button receives this notification code through the WM\_COMMAND message.
 ms.assetid: 740154ba-47fd-4084-8b86-6166f1e1b39f
 keywords:

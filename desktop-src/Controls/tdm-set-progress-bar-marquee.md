@@ -1,5 +1,5 @@
 ---
-title: TDM_SET_PROGRESS_BAR_MARQUEE message
+title: TDM_SET_PROGRESS_BAR_MARQUEE message (Commctrl.h)
 description: Starts and stops the marquee display of the progress bar in a task dialog, and sets the speed of the marquee.
 ms.assetid: df947171-a916-4db9-abe0-57a3bf11037f
 keywords:

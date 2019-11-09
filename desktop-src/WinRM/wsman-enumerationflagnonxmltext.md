@@ -1,5 +1,5 @@
 ---
-title: WSMan.EnumerationFlagNonXmlText method
+title: WSMan.EnumerationFlagNonXmlText method (WSManDisp.h)
 description: Returns the value of the enumeration constant WSManFlagNonXmlText for use in the flags parameter of the Session.Enumerate method.
 ms.assetid: 5e062e73-f833-4090-ba5a-48ca374724e7
 ms.tgt_platform: multiple

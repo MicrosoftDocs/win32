@@ -1,5 +1,5 @@
 ---
-title: EM_AUTOURLDETECT message
+title: EM_AUTOURLDETECT message (Richedit.h)
 description: Enables or disables automatic detection of hyperlinks by a rich edit control.
 ms.assetid: 6970ff36-ff3f-4413-a471-9389a76c8f38
 keywords:

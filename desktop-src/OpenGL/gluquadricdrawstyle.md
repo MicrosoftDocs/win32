@@ -1,5 +1,5 @@
 ---
-title: gluQuadricDrawStyle function
+title: gluQuadricDrawStyle function (Glu.h)
 description: The gluQuadricDrawStyle function specifies the draw style desired for quadrics.
 ms.assetid: 30f6da40-9306-46bb-a815-f51722e57e18
 keywords:

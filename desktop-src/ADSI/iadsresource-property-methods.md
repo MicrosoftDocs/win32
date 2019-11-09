@@ -1,5 +1,5 @@
 ---
-title: IADsResource Property Methods
+title: IADsResource Property Methods (Iads.h)
 description: The property methods of the IADsResource interface get or set the properties described in the following table. For a general discussion of property methods, see Interface Property Methods.
 ms.assetid: a2d6ed76-88e9-468f-928a-a038b73fb362
 ms.tgt_platform: multiple

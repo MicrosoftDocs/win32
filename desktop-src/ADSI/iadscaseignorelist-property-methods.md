@@ -1,5 +1,5 @@
 ---
-title: IADsCaseIgnoreList Property Methods
+title: IADsCaseIgnoreList Property Methods (Iads.h)
 description: The property method of the IADsCaseIgnoreList interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 4f73adbf-abe3-4552-a3e4-19cff22e0ad0
 ms.tgt_platform: multiple

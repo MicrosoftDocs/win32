@@ -1,7 +1,7 @@
 ---
 Description: Enables a transport application to query the Kerberos [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain attributes of a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: 8e80a9ed-0631-4932-aacc-ba3badcbd0a5
-title: QueryContextAttributes (Kerberos) function
+title: QueryContextAttributes (Kerberos) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

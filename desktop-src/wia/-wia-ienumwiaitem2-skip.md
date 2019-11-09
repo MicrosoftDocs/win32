@@ -1,7 +1,7 @@
 ---
 Description: Skips the specified number of items during an enumeration of available IWiaItem2 objects.
 ms.assetid: 7a5e9e1c-1e6e-4de0-9499-bf89e35c19aa
-title: IEnumWiaItem2::Skip method
+title: IEnumWiaItem2::Skip method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

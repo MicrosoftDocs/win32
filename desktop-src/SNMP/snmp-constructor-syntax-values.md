@@ -1,5 +1,5 @@
 ---
-title: SNMP Constructor Syntax Values
+title: SNMP Constructor Syntax Values (Snmp.h)
 description: The SNMP Constructor Syntax Values describe types that are compliant with the Abstract Syntax Notation One (ASN.1) encoding standard.
 ms.assetid: 8e3b6e00-51cf-4e39-a68e-dcf8fbe8ab3b
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: Loads a mesh from an ID3DXFileData object.
 ms.assetid: 3fcf6a91-fcd4-46da-8278-13bda8af8274
-title: D3DXLoadMeshFromXof function
+title: D3DXLoadMeshFromXof function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

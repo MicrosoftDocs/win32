@@ -1,7 +1,7 @@
 ---
 Description: Begins decryption of a fully encrypted volume, or resumes decryption of a partially encrypted volume.
 ms.assetid: 3cdbb1c1-1084-4ddb-ba8d-fc2e3ec75224
-title: Decrypt method of the Win32_EncryptableVolume class
+title: Decrypt method of the Win32_EncryptableVolume class (Infocard.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

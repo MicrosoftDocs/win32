@@ -1,5 +1,5 @@
 ---
-title: gluPartialDisk function
+title: gluPartialDisk function (Glu.h)
 description: The gluPartialDisk function draws an arc of a disk.
 ms.assetid: 46809c15-88c3-40fa-965a-7aeeedc1c598
 keywords:

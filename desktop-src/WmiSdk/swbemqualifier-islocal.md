@@ -2,7 +2,7 @@
 Description: The IsLocal property of the SWbemQualifier object is a Boolean value that indicates if this qualifier is local. This property is read-only.
 ms.assetid: ee403bcb-894f-47b7-88cc-d354e20b4e36
 ms.tgt_platform: multiple
-title: SWbemQualifier.IsLocal property
+title: SWbemQualifier.IsLocal property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

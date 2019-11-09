@@ -1,5 +1,5 @@
 ---
-title: glRectdv function
+title: glRectdv function (Gl.h)
 description: The glRectdv function draws a rectangle.
 ms.assetid: 53000734-bfc3-42c3-aa80-0a54e3dd36ec
 keywords:

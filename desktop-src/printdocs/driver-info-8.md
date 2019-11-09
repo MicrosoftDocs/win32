@@ -1,7 +1,7 @@
 ---
 Description: Contains printer driver information.
 ms.assetid: 6237def2-ffd4-4d93-b3a4-56f225793457
-title: DRIVER_INFO_8 structure
+title: DRIVER_INFO_8 structure (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Private message that realizes the palette.
 ms.assetid: 1a8c9b31-031f-48c4-8f97-58b824d38e06
-title: CBaseWindow::m_RealizePalette member
+title: CBaseWindow::m_RealizePalette member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

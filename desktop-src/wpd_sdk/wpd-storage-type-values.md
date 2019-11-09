@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_STORAGE\_TYPE\_VALUES enumeration type describes the different Windows Portable Device storage types.
 ms.assetid: 52c34458-e64e-4355-9231-7457a6dff5c5
-title: WPD_STORAGE_TYPE_VALUES enumeration
+title: WPD_STORAGE_TYPE_VALUES enumeration (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

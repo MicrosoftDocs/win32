@@ -1,7 +1,7 @@
 ---
 Description: The OnStartStreaming method is called when the filter begins streaming.
 ms.assetid: 02a5b334-f6c4-4cba-8882-c6b36d97feb3
-title: CBaseRenderer.OnStartStreaming method
+title: CBaseRenderer.OnStartStreaming method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

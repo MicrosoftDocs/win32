@@ -1,5 +1,5 @@
 ---
-title: WM_COPY message
+title: WM_COPY message (Winuser.h)
 description: An application sends the WM\_COPY message to an edit control or combo box to copy the current selection to the clipboard in CF\_TEXT format.
 ms.assetid: dcac3ad3-1e70-4b71-accd-261587224e60
 keywords:

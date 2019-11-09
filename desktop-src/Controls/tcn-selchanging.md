@@ -1,5 +1,5 @@
 ---
-title: TCN_SELCHANGING notification code
+title: TCN_SELCHANGING notification code (Commctrl.h)
 description: Notifies a tab control's parent window that the currently selected tab is about to change. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ec7b1bd3-8932-4418-9eed-ecb7c748e4dd
 keywords:

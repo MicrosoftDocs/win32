@@ -1,7 +1,7 @@
 ---
 Description: Gets the global animation time.
 ms.assetid: a46e2a57-a76a-4d79-a3b6-30b242321ed2
-title: ID3DXAnimationController::GetTime method
+title: ID3DXAnimationController::GetTime method (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

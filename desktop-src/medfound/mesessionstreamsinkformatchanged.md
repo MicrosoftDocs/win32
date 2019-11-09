@@ -1,7 +1,7 @@
 ---
 Description: Raised by the Media Session when the format changes on a media sink.
 ms.assetid: f56419f8-7f50-4eda-bf4a-fcdbbe46e180
-title: MESessionStreamSinkFormatChanged event
+title: MESessionStreamSinkFormatChanged event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

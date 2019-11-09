@@ -1,7 +1,7 @@
 ---
 Description: Specifies the minimum packet size for an ASF file, in bytes.
 ms.assetid: 22e5725d-de55-4a0c-a6cc-1ed9f20e7663
-title: MF_ASFPROFILE_MINPACKETSIZE attribute
+title: MF_ASFPROFILE_MINPACKETSIZE attribute (Wmcontainer.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

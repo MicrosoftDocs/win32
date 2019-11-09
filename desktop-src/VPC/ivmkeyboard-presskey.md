@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard PressKey method
+title: IVMKeyboard PressKey method (VPCCOMInterfaces.h)
 description: Simulates a key being pressed down.
 ms.assetid: d945128a-ffde-465c-b615-83a1d5dc789f
 keywords:

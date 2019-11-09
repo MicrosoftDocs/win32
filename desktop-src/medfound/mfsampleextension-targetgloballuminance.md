@@ -1,7 +1,7 @@
 ---
 Description: The value in Nits that specifies the targeted global backlight luminance for the associated video frame.
 ms.assetid: 12B75798-1367-40AB-B9BF-E29D05E5D8F0
-title: MFSampleExtension_TargetGlobalLuminance attribute
+title: MFSampleExtension_TargetGlobalLuminance attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

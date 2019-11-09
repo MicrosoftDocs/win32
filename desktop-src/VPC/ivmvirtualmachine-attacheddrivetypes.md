@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine AttachedDriveTypes property
+title: IVMVirtualMachine AttachedDriveTypes property (VPCCOMInterfaces.h)
 description: An array indicating the type of drive attached to each location in the VM.
 ms.assetid: 6896c9cd-5448-4fbb-8c8e-eef306a5cea1
 keywords:

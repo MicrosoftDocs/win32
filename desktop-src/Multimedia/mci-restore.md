@@ -1,5 +1,5 @@
 ---
-title: MCI_RESTORE command
+title: MCI_RESTORE command (Mmsystem.h)
 description: The MCI\_RESTORE command copies a bitmap from a file to the frame buffer. Digital-video devices recognize this command. This command performs the opposite action of the MCI\_CAPTURE command.
 ms.assetid: ed309cc6-72a3-4abb-aef2-40a55381d8b6
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the encoder produces open groups of pictures (GOPs) or closed GOPs. This property applies to MPEG video encoders.
 ms.assetid: 424751cd-65d2-4cab-9f7b-cad50c09c767
-title: AVEncMPVGOPOpen property
+title: AVEncMPVGOPOpen property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Raised by the Media Session when a new presentation starts. This event indicates when the presentation will start and the offset between the presentation time and the source time.
 ms.assetid: 67c7d5f3-ffaf-4359-a59c-bb26b992b6cd
-title: MESessionNotifyPresentationTime event
+title: MESessionNotifyPresentationTime event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

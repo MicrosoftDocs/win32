@@ -1,7 +1,7 @@
 ---
 Description: The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeeking::ConvertTimeFormat method.
 ms.assetid: e766d112-ee41-4c64-a735-b6317093518a
-title: CPosPassThru.ConvertTimeFormat method
+title: CPosPassThru.ConvertTimeFormat method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

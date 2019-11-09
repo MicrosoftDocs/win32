@@ -1,5 +1,5 @@
 ---
-title: MpThreatEnumerate function
+title: MpThreatEnumerate function (MpClient.h)
 description: Returns information about the next threat in the enumeration list. This function can be called repeatedly until the enumeration of all the threats is complete.
 ms.assetid: 33244F4F-4FB7-4FA7-BC56-B9A30ABC3644
 keywords:

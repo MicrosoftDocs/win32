@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetConstantBufferByName method
+title: ID3DX11Effect GetConstantBufferByName method (D3dx11effect.h)
 description: Get a constant buffer by name.
 ms.assetid: 11757615-4068-430d-9ab0-f83f02af8e55
 keywords:

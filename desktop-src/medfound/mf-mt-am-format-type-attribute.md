@@ -1,7 +1,7 @@
 ---
 Description: Contains a DirectShow format GUID for a media type.
 ms.assetid: dc532791-39e1-4acb-9e62-21d8f25be870
-title: MF_MT_AM_FORMAT_TYPE attribute
+title: MF_MT_AM_FORMAT_TYPE attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

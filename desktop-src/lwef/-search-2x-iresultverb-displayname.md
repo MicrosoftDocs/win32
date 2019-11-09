@@ -1,5 +1,5 @@
 ---
-title: IResultVerb DisplayName property
+title: IResultVerb DisplayName property (WdsSharedIDL.h)
 description: This property returns a pointer to the localized display name for the verb.
 ms.assetid: f1f4a30e-ecfb-4091-b9cd-312e427d0eb4
 keywords:

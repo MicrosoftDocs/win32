@@ -1,7 +1,7 @@
 ---
 Description: The slope of the bottom of the BoundingFrustum.
 ms.assetid: bb5b0e27-efe2-4f78-ab7d-752fcf9ff2e8
-title: BoundingFrustum.BottomSlope
+title: BoundingFrustum.BottomSlope (DirectXCollision.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: The following constants specify the Windows Image Acquisition (WIA) item type.
 ms.assetid: 7961f692-088a-4f3b-84e9-5fabb0373c3c
-title: WIA Item Type Flags
+title: WIA Item Type Flags (Wiadef.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

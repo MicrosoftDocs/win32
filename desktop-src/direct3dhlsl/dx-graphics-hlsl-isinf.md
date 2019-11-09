@@ -1,5 +1,5 @@
 ---
-title: isinf
+title: isinf (Corecrt\_math.h)
 description: Determines if the specified value is infinite.
 ms.assetid: 2028dc5a-e48b-4081-a0ec-35901113aab6
 keywords:

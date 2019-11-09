@@ -1,7 +1,7 @@
 ---
 Description: The DeleteBookmark method deletes the saved bookmark.
 ms.assetid: f408a65d-3b95-446b-9a48-a98dc920ea30
-title: DeleteBookmark Method
+title: DeleteBookmark Method (Segment.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

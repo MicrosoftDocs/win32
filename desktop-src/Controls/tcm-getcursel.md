@@ -1,5 +1,5 @@
 ---
-title: TCM_GETCURSEL message
+title: TCM_GETCURSEL message (Commctrl.h)
 description: Determines the currently selected tab in a tab control. You can send this message explicitly or by using the TabCtrl\_GetCurSel macro.
 ms.assetid: 1caa7fad-da5a-4b26-8e78-12110c126691
 keywords:

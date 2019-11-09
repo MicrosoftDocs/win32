@@ -1,7 +1,7 @@
 ---
 Description: Specifies the range used in motion searches.
 ms.assetid: b2026f47-ac39-4276-8359-c939b202f00c
-title: MFPKEY_MOTIONSEARCHRANGE Property
+title: MFPKEY_MOTIONSEARCHRANGE Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

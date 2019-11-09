@@ -1,5 +1,5 @@
 ---
-title: D3D12CalcSubresource function
+title: D3D12CalcSubresource function (D3dx12.h)
 description: Calculates a subresource index for a texture.
 ms.assetid: 5C63A315-E21E-498B-A832-6BA2D17FF9A7
 keywords:

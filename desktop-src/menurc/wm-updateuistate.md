@@ -1,5 +1,5 @@
 ---
-title: WM_UPDATEUISTATE message
+title: WM_UPDATEUISTATE message (Winuser.h)
 description: An application sends the WM\_UPDATEUISTATE message to change the UI state for the specified window and all its child windows.
 ms.assetid: cbdeeddd-59b2-4a73-bfe9-17647d32bcf3
 keywords:

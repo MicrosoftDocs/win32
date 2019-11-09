@@ -1,7 +1,7 @@
 ---
 Description: Creates a texture shader object from the compiled shader.
 ms.assetid: 3e8017f7-fe6b-4f4e-a80e-b16b16c0b348
-title: D3DXCreateTextureShader function
+title: D3DXCreateTextureShader function (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

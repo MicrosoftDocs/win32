@@ -1,5 +1,5 @@
 ---
-title: TVM_SELECTITEM message
+title: TVM_SELECTITEM message (Commctrl.h)
 description: Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation.
 ms.assetid: 8b943958-7b93-4e54-99de-200121cf0752
 keywords:

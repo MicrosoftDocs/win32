@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter IsEthernetAddressDynamic property
+title: IVMNetworkAdapter IsEthernetAddressDynamic property (VPCCOMInterfaces.h)
 description: Determines whether the Ethernet address is dynamically generated.
 ms.assetid: 7bd87868-f1d1-48e5-9e1b-04d2126f9dad
 keywords:

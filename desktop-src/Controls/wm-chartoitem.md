@@ -1,5 +1,5 @@
 ---
-title: WM_CHARTOITEM message
+title: WM_CHARTOITEM message (Winuser.h)
 description: Sent by a list box with the LBS\_WANTKEYBOARDINPUT style to its owner in response to a WM\_CHAR message.
 ms.assetid: f941c00b-b836-4f1b-b8cf-8ac2b0704af3
 keywords:

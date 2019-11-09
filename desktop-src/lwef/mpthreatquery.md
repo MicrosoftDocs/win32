@@ -1,5 +1,5 @@
 ---
-title: MpThreatQuery function
+title: MpThreatQuery function (MpClient.h)
 description: Used to query static (such as severity and category) or localized (such as category description and advice) information about a particular threat.
 ms.assetid: A06854B2-8444-46A4-A53F-FD5FEAFF47B7
 keywords:

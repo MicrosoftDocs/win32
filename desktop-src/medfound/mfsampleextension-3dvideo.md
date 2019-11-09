@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a media sample contains a 3D video frame.
 ms.assetid: 1B0B9DBD-80EB-4876-B2F2-BE419AC84265
-title: MFSampleExtension_3DVideo attribute
+title: MFSampleExtension_3DVideo attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: glGetTexEnviv function
+title: glGetTexEnviv function (Gl.h)
 description: The glGetTexEnvfv and glGetTexEnviv functions return texture environment parameters.
 ms.assetid: c1429cb9-4392-41ef-a978-a51db66445f2
 keywords:

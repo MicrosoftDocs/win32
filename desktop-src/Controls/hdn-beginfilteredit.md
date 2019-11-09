@@ -1,5 +1,5 @@
 ---
-title: HDN_BEGINFILTEREDIT notification code
+title: HDN_BEGINFILTEREDIT notification code (Commctrl.h)
 description: Notifies a header control's parent window that a filter edit has begun. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 93964453-bb94-4127-8ed4-41acb226b8e2
 keywords:

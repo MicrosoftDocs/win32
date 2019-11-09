@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether an encoder must be included in the transcode topology.
 ms.assetid: 73f23aed-d1b9-4821-b1ca-0a07f02b6913
-title: MF_TRANSCODE_DONOT_INSERT_ENCODER attribute
+title: MF_TRANSCODE_DONOT_INSERT_ENCODER attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

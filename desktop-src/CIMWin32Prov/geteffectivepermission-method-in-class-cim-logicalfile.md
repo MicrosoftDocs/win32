@@ -2,7 +2,7 @@
 Description: Determines whether the caller has the aggregated permissions on the CIM\_LogicalFile object, and the share on which the file or directory resides, as specified by the Permissions argument.
 ms.assetid: 7b6845df-2427-44a8-bd91-9a4ba65caa51
 ms.tgt_platform: multiple
-title: GetEffectivePermission method of the CIM_LogicalFile class
+title: GetEffectivePermission method of the CIM_LogicalFile class (Aclui.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

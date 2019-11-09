@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetComputeShaderDesc method
+title: ID3DX11EffectPass GetComputeShaderDesc method (D3dx11effect.h)
 description: Get a compute-shader description.
 ms.assetid: 9c3a702f-2016-4b1a-a832-d1bb968aec2d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: float3x2 structure
+title: float3x2 structure (Windowsnumerics.h)
 description: A 3x2 matrix, used for 2D transforms.
 ms.assetid: 5C2A4C30-3EC4-4DE9-A42A-6A19F96F8D69
 keywords:

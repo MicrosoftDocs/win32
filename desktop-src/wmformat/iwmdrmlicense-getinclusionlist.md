@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense GetInclusionList method
+title: IWMDRMLicense GetInclusionList method (Wmdrmsdk.h)
 description: The GetInclusionList method retrieves the entire inclusion list for the current license or license chain.
 ms.assetid: a3cb70c5-7d20-413c-aeb8-66c9233b384e
 keywords:

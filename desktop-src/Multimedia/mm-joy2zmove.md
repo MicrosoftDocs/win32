@@ -1,5 +1,5 @@
 ---
-title: MM_JOY2ZMOVE message
+title: MM_JOY2ZMOVE message (Mmsystem.h)
 description: The MM\_JOY2ZMOVE message notifies the window that has captured joystick JOYSTICKID2 that the joystick position on the z-axis has changed.
 ms.assetid: f09a1a11-8c97-4a03-a388-8bf9ab89a3db
 keywords:

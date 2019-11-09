@@ -1,5 +1,5 @@
 ---
-title: UDN_DELTAPOS notification code
+title: UDN_DELTAPOS notification code (Commctrl.h)
 description: Sent by the operating system to the parent window of an up-down control when the position of the control is about to change.
 ms.assetid: 66262566-d35a-4b2a-8157-d1e789a21016
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: NM_OUTOFMEMORY notification code
+title: NM_OUTOFMEMORY notification code (Commctrl.h)
 description: Notifies a control's parent window that the control could not complete an operation because there was not enough memory available. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: d7d80515-ae6c-4817-a698-d486a9d86c4a
 keywords:

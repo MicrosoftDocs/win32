@@ -1,7 +1,7 @@
 ---
 Description: The EOS method delivers an end-of-stream call to the input pin.
 ms.assetid: 65e8db14-6ca8-4c4f-8bd8-2442f743499e
-title: COutputQueue.EOS method
+title: COutputQueue.EOS method (Outputq.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

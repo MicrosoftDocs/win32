@@ -1,7 +1,7 @@
 ---
 Description: The effect element defines an audio or video effect object. An effect is applied to a single stream (such as a composition, track, or source).
 ms.assetid: aedb4491-f1f0-44b3-ad88-3fac8c90144d
-title: effect Element
+title: effect Element (Gdipluseffects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

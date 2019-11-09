@@ -1,5 +1,5 @@
 ---
-title: WMDRM_IMPORT_SESSION_KEY structure
+title: WMDRM_IMPORT_SESSION_KEY structure (Drmexternals.h)
 description: The WMDRM\_IMPORT\_SESSION\_KEY structure holds the session key for importing protected content.
 ms.assetid: 2dd1e8ec-a25f-4ced-8f1b-286534c66ebf
 keywords:

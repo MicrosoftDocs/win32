@@ -1,5 +1,5 @@
 ---
-title: IVMTask Cancel method
+title: IVMTask Cancel method (VPCCOMInterfaces.h)
 description: Cancels the task.
 ms.assetid: 29107942-334c-452a-b787-6e0cb7380f90
 keywords:

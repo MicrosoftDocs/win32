@@ -1,5 +1,5 @@
 ---
-title: gluGetNurbsProperty function
+title: gluGetNurbsProperty function (Glu.h)
 description: The gluGetNurbsProperty function gets a Non-Uniform Rational B-Spline (NURBS) property.
 ms.assetid: 7dbc75a0-d04e-4794-b3dd-a602addf9dfa
 keywords:

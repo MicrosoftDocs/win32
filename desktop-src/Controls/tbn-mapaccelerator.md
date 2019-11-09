@@ -1,5 +1,5 @@
 ---
-title: TBN_MAPACCELERATOR notification code
+title: TBN_MAPACCELERATOR notification code (Commctrl.h)
 description: Requests the index of the button in the toolbar corresponding to the specified accelerator character. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 16d16560-62ef-4457-bf8c-bc6dddb520d7
 keywords:

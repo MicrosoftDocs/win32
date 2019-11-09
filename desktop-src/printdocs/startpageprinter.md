@@ -1,7 +1,7 @@
 ---
 Description: The StartPagePrinter function notifies the spooler that a page is about to be printed on the specified printer.
 ms.assetid: 8ac7c47b-b3a7-4642-bfb7-54e014139fbf
-title: StartPagePrinter function
+title: StartPagePrinter function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

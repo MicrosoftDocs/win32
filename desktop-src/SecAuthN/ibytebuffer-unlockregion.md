@@ -1,7 +1,7 @@
 ---
 Description: Removes the access restriction on a range of bytes previously restricted by using IByteBuffer::LockRegion.
 ms.assetid: f2a1162e-7fc7-4a55-befb-0b017edb9fe2
-title: IByteBuffer::UnlockRegion method
+title: IByteBuffer::UnlockRegion method (Scardssp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IVMTask ErrorDescription property
+title: IVMTask ErrorDescription property (VPCCOMInterfaces.h)
 description: Retrieves the localized error description recorded for this task.
 ms.assetid: 85728775-14b6-4031-9ccd-4c4f8c410705
 keywords:

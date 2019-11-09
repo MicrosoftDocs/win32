@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineCollection interface
+title: IVMVirtualMachineCollection interface (VPCCOMInterfaces.h)
 description: Defines the collection of virtual machines within Windows Virtual PC. To obtain an IVMVirtualMachineCollection object, use the IVMVirtualPC VirtualMachines property.
 ms.assetid: 3d34e791-2dba-4529-b489-96a0c6227294
 keywords:

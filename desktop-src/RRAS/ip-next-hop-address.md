@@ -1,5 +1,5 @@
 ---
-title: IP_NEXT_HOP_ADDRESS structure
+title: IP_NEXT_HOP_ADDRESS structure (Rtm.h)
 description: The IP\_NEXT\_HOP\_ADDRESS structure contains the address for the next-hop router for an IP route.
 ms.assetid: a97b3995-dfaa-4e53-be86-3ad46b8be691
 keywords:

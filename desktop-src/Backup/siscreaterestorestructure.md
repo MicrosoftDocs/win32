@@ -1,5 +1,5 @@
 ---
-title: SisCreateRestoreStructure function
+title: SisCreateRestoreStructure function (Sisbkup.h)
 description: Creates a SIS restore structure based on the supplied information.
 ms.assetid: acdd4258-813d-42af-a2e1-e59a1426f86c
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TVM_SETINSERTMARKCOLOR message
+title: TVM_SETINSERTMARKCOLOR message (Commctrl.h)
 description: Sets the color used to draw the insertion mark for the tree view. You can send this message explicitly or by using the TreeView\_SetInsertMarkColor macro.
 ms.assetid: c82304a8-3726-42c0-81e7-90d8f8205ead
 keywords:

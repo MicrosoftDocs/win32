@@ -1,5 +1,5 @@
 ---
-title: EM_LINEINDEX message
+title: EM_LINEINDEX message (Winuser.h)
 description: Gets the character index of the first character of a specified line in a multiline edit control.
 ms.assetid: 'vs|controls|~\controls\editcontrols\editcontrolreference\editcontrolmessages\em_lineindex.htm'
 keywords:

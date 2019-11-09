@@ -1,5 +1,5 @@
 ---
-title: glEvalMesh2 function
+title: glEvalMesh2 function (Gl.h)
 description: Computes a two-dimensional grid of points or lines.
 ms.assetid: 21e94388-903e-4b9d-8e54-9c914d0ce372
 keywords:

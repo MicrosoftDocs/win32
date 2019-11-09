@@ -1,7 +1,7 @@
 ---
 Description: Returns the type of authenticated channel.
 ms.assetid: eec4b117-a9f2-479d-99d7-e5d4053cf6b4
-title: D3DAUTHENTICATEDQUERY_CHANNELTYPE
+title: D3DAUTHENTICATEDQUERY_CHANNELTYPE (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

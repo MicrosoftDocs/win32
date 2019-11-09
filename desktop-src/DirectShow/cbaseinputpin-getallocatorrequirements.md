@@ -1,7 +1,7 @@
 ---
 Description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
 ms.assetid: 81564924-6d5b-4b2a-b549-e3f358f18371
-title: CBaseInputPin.GetAllocatorRequirements method
+title: CBaseInputPin.GetAllocatorRequirements method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

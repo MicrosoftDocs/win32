@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC GetDVDFiles method
+title: IVMVirtualPC GetDVDFiles method (VPCCOMInterfaces.h)
 description: Retrieves an array of known DVD files.
 ms.assetid: 9fe2191f-c5c0-464d-a190-29b2aba69682
 keywords:

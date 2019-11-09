@@ -1,7 +1,7 @@
 ---
 Description: Windows Portable Devices supports the following SMS properties.
 ms.assetid: d821f378-522f-4f0a-825b-6b15295e7b12
-title: SMS Properties
+title: SMS Properties (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

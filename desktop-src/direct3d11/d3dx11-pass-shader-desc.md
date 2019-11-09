@@ -1,5 +1,5 @@
 ---
-title: D3DX11_PASS_SHADER_DESC structure
+title: D3DX11_PASS_SHADER_DESC structure (D3dx11effect.h)
 description: Describes an effect pass.
 ms.assetid: 4676ad80-1b21-4e8b-8cec-f530ef0b9fd7
 keywords:

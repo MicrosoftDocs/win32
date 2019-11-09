@@ -1,5 +1,5 @@
 ---
-title: EM_FILELINEFROMCHAR message
+title: EM_FILELINEFROMCHAR message (CommCtrl.h)
 description: Gets the index of the line that contains the specified character index in a multiline edit control, independently of how lines are displayed on the screen.
 ms.assetid: e8e9217b-3f0c-478d-b44d-2a51868dbc5a
 keywords:

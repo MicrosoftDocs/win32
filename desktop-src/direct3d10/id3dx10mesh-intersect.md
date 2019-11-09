@@ -1,7 +1,7 @@
 ---
 Description: Determines if a ray intersects with this mesh.
 ms.assetid: 74565d4a-94e6-4faa-bf70-9c1b35e5e5d8
-title: ID3DX10Mesh::Intersect method
+title: ID3DX10Mesh::Intersect method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

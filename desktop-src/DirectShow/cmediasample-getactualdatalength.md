@@ -1,7 +1,7 @@
 ---
 Description: The GetActualDataLength method retrieves the length of the valid data in the buffer. This method implements the IMediaSample::GetActualDataLength method.
 ms.assetid: bdb8c2b9-7be4-494b-bb96-34a9936d4a2f
-title: CMediaSample.GetActualDataLength method
+title: CMediaSample.GetActualDataLength method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

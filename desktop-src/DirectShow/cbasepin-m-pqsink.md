@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the object that handles quality messages.
 ms.assetid: 86f29550-9ab0-48de-879d-afad0589a30c
-title: CBasePin::m_pQSink member
+title: CBasePin::m_pQSink member (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

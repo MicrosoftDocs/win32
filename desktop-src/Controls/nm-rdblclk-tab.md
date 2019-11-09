@@ -1,5 +1,5 @@
 ---
-title: NM_RDBLCLK (tab) notification code
+title: NM_RDBLCLK (tab) notification code (Commctrl.h)
 description: Notifies the parent window of a tab control that the user has double-clicked the right mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: cdf0df70-e30b-4353-8c2a-26fffa0596c4
 keywords:

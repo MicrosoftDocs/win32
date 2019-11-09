@@ -1,7 +1,7 @@
 ---
 Description: Specifies the average encoded bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 8519685a-4f5b-44af-ad46-09eba7a198c6
-title: AVEncCommonMeanBitRate property
+title: AVEncCommonMeanBitRate property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

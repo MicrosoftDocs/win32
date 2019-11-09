@@ -1,7 +1,7 @@
 ---
 Description: Specifies a Multimedia Class Scheduler Service (MMCSS) class for the Source Reader or Sink Writer.
 ms.assetid: A3A295E8-AC9C-4641-ADDA-B97D5AB13A9A
-title: MF_READWRITE_MMCSS_CLASS attribute
+title: MF_READWRITE_MMCSS_CLASS attribute (Mfreadwrite.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

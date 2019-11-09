@@ -1,7 +1,7 @@
 ---
 Description: The RemovePin method removes a specified pin from the filter. The method does not delete the pin.
 ms.assetid: 104eccfa-3fff-4f47-ba1b-3206eab9eef8
-title: CSource.RemovePin method
+title: CSource.RemovePin method (Source.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

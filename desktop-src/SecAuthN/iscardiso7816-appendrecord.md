@@ -1,7 +1,7 @@
 ---
 Description: The AppendRecord method constructs an application protocol data unit (APDU) command that either appends a record to the end of a linear-structured elementary file (EF) or writes record number 1 in a cyclic-structured elementary file.
 ms.assetid: 4dd88661-41c4-4238-88c9-279b39afb206
-title: ISCardISO7816::AppendRecord method
+title: ISCardISO7816::AppendRecord method (Scardssp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

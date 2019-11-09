@@ -1,5 +1,5 @@
 ---
-title: UtilAssembleStringsWithAlloc function
+title: UtilAssembleStringsWithAlloc function (Ndattributils.h)
 description: Allocates a string and formats it using strings provided by the string table. This function uses StringCchPrintf to create the formatted string.
 ms.assetid: eedc2874-b949-4cc2-ba7c-ebf1924f1156
 keywords:

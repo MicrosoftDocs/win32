@@ -1,7 +1,7 @@
 ---
 Description: Defines a vector.
 ms.assetid: 7091617b-935b-466e-8270-90240a1adaee
-title: D3DVECTOR structure
+title: D3DVECTOR structure (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

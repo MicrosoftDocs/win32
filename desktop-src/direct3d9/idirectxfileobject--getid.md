@@ -1,7 +1,7 @@
 ---
 Description: Retrieves a pointer to the GUID that identifies a DirectX file object. Deprecated.
 ms.assetid: 74c7a1d9-85e4-43eb-bcd8-1f3ddd713e9f
-title: IDirectXFileObject::GetId method
+title: IDirectXFileObject::GetId method (DXFile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

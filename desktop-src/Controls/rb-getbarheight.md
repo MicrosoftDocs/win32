@@ -1,5 +1,5 @@
 ---
-title: RB_GETBARHEIGHT message
+title: RB_GETBARHEIGHT message (Commctrl.h)
 description: Retrieves the height of the rebar control.
 ms.assetid: d677bb70-ed28-40bc-b2bb-b1437d947c55
 keywords:

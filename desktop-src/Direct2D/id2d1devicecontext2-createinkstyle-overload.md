@@ -1,5 +1,5 @@
 ---
-title: ID2D1DeviceContext2 CreateInkStyle methods
+title: ID2D1DeviceContext2 CreateInkStyle methods (D2d1\_3.h)
 description: Creates a new ID2D1InkStyle object, for use with ink rendering methods such as DrawInk.
 ms.assetid: 647cf483-c650-4a6a-a1cd-272f3af0e6b6
 keywords:

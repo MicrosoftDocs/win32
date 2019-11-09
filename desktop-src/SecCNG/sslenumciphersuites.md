@@ -1,7 +1,7 @@
 ---
 Description: Enumerates the cipher suites supported by a Secure Sockets Layer protocol (SSL) protocol provider.
 ms.assetid: c12bc422-71c9-44f4-abf7-76902b19d3bd
-title: SslEnumCipherSuites function
+title: SslEnumCipherSuites function (Sslprovider.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,7 @@
 Description: The WBEMTime class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also WBEMTimeSpan Class Methods.
 ms.assetid: b633bc8c-9d02-4bcf-8528-10773fb5ae7a
 ms.tgt_platform: multiple
-title: WBEMTime class
+title: WBEMTime class (WbemTime.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

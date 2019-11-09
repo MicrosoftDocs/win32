@@ -1,5 +1,5 @@
 ---
-title: IADsComputer Property Methods
+title: IADsComputer Property Methods (Iads.h)
 description: The IADsComputer interface methods read and write the properties described in this topic. For more information, see Interface Property Methods.
 ms.assetid: c990b6bb-6256-4216-9435-c85c67db4d13
 ms.tgt_platform: multiple

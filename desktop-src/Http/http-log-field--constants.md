@@ -1,5 +1,5 @@
 ---
-title: HTTP_LOG_FIELD_ Constants
+title: HTTP_LOG_FIELD_ Constants (Http.h)
 description: Define the fields in the W3C log and the error logs.
 ms.assetid: 44307d5a-f413-4ee9-9f9c-586c824d5493
 topic_type:

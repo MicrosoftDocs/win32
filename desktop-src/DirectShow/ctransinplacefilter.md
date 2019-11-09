@@ -1,7 +1,7 @@
 ---
 Description: 'The CTransInPlaceFilter class is designed for in-place transform filters, which are filters that modify the input data rather than copying the data across buffers.To use this class, derive a new class from CTransInPlaceFilter and implement the following methods:'
 ms.assetid: 3d6d5436-f280-4e36-96e4-40161e8115c2
-title: CTransInPlaceFilter class
+title: CTransInPlaceFilter class (Transip.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The GetMediaType method retrieves a preferred media type for the output pin.
 ms.assetid: 1bc6c06d-f399-4b8a-81f2-7fffe4630236
-title: CTransInPlaceFilter.GetMediaType method
+title: CTransInPlaceFilter.GetMediaType method (Transip.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

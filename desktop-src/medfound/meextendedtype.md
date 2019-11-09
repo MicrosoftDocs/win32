@@ -1,7 +1,7 @@
 ---
 Description: Custom event type.
 ms.assetid: a54a446c-0e96-467b-90f6-0f64a7c1727d
-title: MEExtendedType event
+title: MEExtendedType event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

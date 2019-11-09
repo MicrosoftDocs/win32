@@ -1,5 +1,5 @@
 ---
-title: IWMDRMDeviceApp2 QueryDeviceStatus2 method
+title: IWMDRMDeviceApp2 QueryDeviceStatus2 method (WMDRMDeviceApp.h)
 description: The QueryDeviceStatus2 method queries a device for a specific DRM status or capability.
 ms.assetid: f7e95fb7-5929-4a70-8580-a443e152e6d1
 keywords:

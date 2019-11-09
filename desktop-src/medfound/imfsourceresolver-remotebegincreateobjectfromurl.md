@@ -1,7 +1,7 @@
 ---
 Description: Remotable version of the IMFSourceResolver::BeginCreateObjectFromURL method.
 ms.assetid: 3c0b0aaf-832b-4708-bed9-6f448770ee77
-title: RemoteBeginCreateObjectFromURL
+title: RemoteBeginCreateObjectFromURL (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

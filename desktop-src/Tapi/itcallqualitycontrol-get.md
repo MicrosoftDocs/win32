@@ -1,7 +1,7 @@
 ---
 Description: The Get method gets the value of a given call quality control property.
 ms.assetid: 0fec408e-2751-4c99-afe1-4337d22eff83
-title: ITCallQualityControl::Get method
+title: ITCallQualityControl::Get method (Ipmsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

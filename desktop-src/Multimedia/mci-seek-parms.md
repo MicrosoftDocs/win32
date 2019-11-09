@@ -1,5 +1,5 @@
 ---
-title: MCI_SEEK_PARMS structure
+title: MCI_SEEK_PARMS structure (Mciapi.h)
 description: The MCI\_SEEK\_PARMS structure contains positioning information for the MCI\_SEEK command.
 ms.assetid: 2c199855-2134-4709-9313-5b8d66ce4f03
 keywords:

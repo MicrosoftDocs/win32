@@ -1,7 +1,7 @@
 ---
 Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer.
 ms.assetid: 149098c2-35ca-46e9-a13a-94906c95cfd9
-title: ID3DXPRTCompBuffer::ExtractPCA method
+title: ID3DXPRTCompBuffer::ExtractPCA method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

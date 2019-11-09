@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_RESOURCE_BARRIER structure
+title: CD3DX12_RESOURCE_BARRIER structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_RESOURCE\_BARRIER structure.
 ms.assetid: 89E0F38C-8802-46E6-9583-95C5D853CD99
 keywords:

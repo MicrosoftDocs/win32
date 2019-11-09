@@ -1,5 +1,5 @@
 ---
-title: glRecti function
+title: glRecti function (Gl.h)
 description: The glRecti function draws a rectangle.
 ms.assetid: 8f618b5e-5406-4342-8f7a-83a65bad8a6f
 keywords:

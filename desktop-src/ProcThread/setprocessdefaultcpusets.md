@@ -1,7 +1,7 @@
 ---
 Description: Sets the default CPU Sets assignment for threads in the specified process. Threads that are created, which don’t have CPU Sets explicitly set using SetThreadSelectedCpuSets, will inherit the sets specified by SetProcessDefaultCpuSets automatically.
 ms.assetid: 7A510A8D-B06C-4B7B-9A87-BCFE0DE4D17B
-title: SetProcessDefaultCpuSets function
+title: SetProcessDefaultCpuSets function (Processthreadapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: ACM_ISPLAYING message
+title: ACM_ISPLAYING message (Commctrl.h)
 description: Checks whether an Audio-Video Interleaved (AVI) clip is playing. You can send this message explicitly or use the Animate\_IsPlaying macro.
 ms.assetid: ebb0c92a-99d2-49c1-9de1-8bdbd032be3a
 keywords:

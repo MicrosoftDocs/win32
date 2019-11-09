@@ -1,5 +1,5 @@
 ---
-title: ID2D1Factory CreateRectangleGeometry methods
+title: ID2D1Factory CreateRectangleGeometry methods (D2d1.h)
 description: Creates an ID2D1RectangleGeometry.
 ms.assetid: 4c8f4950-7b5a-4f77-9a5b-513916f83d0c
 keywords:

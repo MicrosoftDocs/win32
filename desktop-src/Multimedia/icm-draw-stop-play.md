@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_STOP_PLAY message
+title: ICM_DRAW_STOP_PLAY message (Vfw.h)
 description: The ICM\_DRAW\_STOP\_PLAY message notifies a rendering driver when a play operation is complete. You can send this message explicitly or by using the ICDrawStopPlay macro.
 ms.assetid: cfe2ee98-80d0-4554-bcbd-9873769da674
 keywords:

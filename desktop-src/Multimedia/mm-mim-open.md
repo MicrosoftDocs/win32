@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_OPEN message
+title: MM_MIM_OPEN message (Mmsystem.h)
 description: The MM\_MIM\_OPEN message is sent to a window when a MIDI input device is opened.
 ms.assetid: 8dfc24a0-0ab8-4f49-954f-0c0a55fa28bc
 keywords:

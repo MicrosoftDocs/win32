@@ -1,7 +1,7 @@
 ---
 Description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
-title: PEVENT_TRACE_BUFFER_CALLBACK callback function
+title: PEVENT_TRACE_BUFFER_CALLBACK callback function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

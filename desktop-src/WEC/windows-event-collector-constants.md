@@ -1,5 +1,5 @@
 ---
-title: Windows Event Collector Constants
+title: Windows Event Collector Constants (Evcoll.h)
 description: The Windows Event Collector SDK contains the following constants.
 ms.assetid: 2ba862f9-6849-43b3-8914-e18ede1d63c0
 ms.tgt_platform: multiple

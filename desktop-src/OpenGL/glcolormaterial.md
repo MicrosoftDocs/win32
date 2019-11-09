@@ -1,5 +1,5 @@
 ---
-title: glColorMaterial function
+title: glColorMaterial function (Gl.h)
 description: The glColorMaterial function causes a material color to track the current color.
 ms.assetid: 6dbef2c2-f902-4f25-8a87-9e3d710dd807
 keywords:

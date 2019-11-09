@@ -2,7 +2,7 @@
 Description: Gets or sets the raw CIM date in the DMTF (Distributed Management Task Force) format.
 ms.assetid: 426a60d5-c364-406e-8346-049a13d59c7f
 ms.tgt_platform: multiple
-title: SWbemDateTime.Value property
+title: SWbemDateTime.Value property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

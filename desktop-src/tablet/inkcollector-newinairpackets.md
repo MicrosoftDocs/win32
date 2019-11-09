@@ -1,7 +1,7 @@
 ---
 Description: Occurs when an in-air packet is seen.
 ms.assetid: e8eacdec-0381-435f-b453-24dca1c507c9
-title: InkCollector.NewInAirPackets event
+title: InkCollector.NewInAirPackets event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

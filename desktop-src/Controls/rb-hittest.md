@@ -1,5 +1,5 @@
 ---
-title: RB_HITTEST message
+title: RB_HITTEST message (Commctrl.h)
 description: Determines which portion of a rebar band is at a given point on the screen, if a rebar band exists at that point.
 ms.assetid: 8f27db21-50d8-438f-a44c-2e65dd93fa2a
 keywords:

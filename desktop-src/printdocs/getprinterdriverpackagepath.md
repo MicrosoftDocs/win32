@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the path to the specified printer driver package on a print server.
 ms.assetid: e88e984b-d2c0-43b4-8f70-b05ec202ab14
-title: GetPrinterDriverPackagePath function
+title: GetPrinterDriverPackagePath function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

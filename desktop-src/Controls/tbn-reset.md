@@ -1,5 +1,5 @@
 ---
-title: TBN_RESET notification code
+title: TBN_RESET notification code (Commctrl.h)
 description: Notifies the toolbar's parent window that the user has reset the content of the Customize Toolbar dialog box. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 55efba85-b453-48b9-83df-76820249e7a8
 keywords:

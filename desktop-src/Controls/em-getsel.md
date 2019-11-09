@@ -1,5 +1,5 @@
 ---
-title: EM_GETSEL message
+title: EM_GETSEL message (Winuser.h)
 description: Gets the starting and ending character positions (in TCHARs) of the current selection in an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: cf12aaea-cfa7-4804-ae34-fd0992332288
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DTN_DROPDOWN notification code
+title: DTN_DROPDOWN notification code (Commctrl.h)
 description: Sent by a date and time picker (DTP) control when the user activates the drop-down month calendar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 6f20fa87-2223-4876-b77d-2c684685bf10
 keywords:

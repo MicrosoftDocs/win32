@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_START message
+title: ICM_DRAW_START message (Vfw.h)
 description: The ICM\_DRAW\_START message notifies a rendering driver to start its internal clock for the timing of drawing frames. You can send this message explicitly or by using the ICDrawStart macro.
 ms.assetid: d49e0d97-5a29-46f7-82d7-e3d4b4f7666f
 keywords:

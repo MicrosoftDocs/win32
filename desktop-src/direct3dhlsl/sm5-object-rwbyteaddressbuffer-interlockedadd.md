@@ -85,11 +85,6 @@ This function is supported in the following types of shaders:
 
 
 
-|                   |                                                                                    |
-|-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winnt.h</dt> </dl> |
-
-
 
 ## See also
 

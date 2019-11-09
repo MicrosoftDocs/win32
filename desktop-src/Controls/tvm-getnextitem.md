@@ -1,5 +1,5 @@
 ---
-title: TVM_GETNEXTITEM message
+title: TVM_GETNEXTITEM message (Commctrl.h)
 description: Retrieves the tree-view item that bears the specified relationship to a specified item. You can send this message explicitly, by using the TreeView\_GetNextItem macro.
 ms.assetid: 505c713c-7728-4119-bc0e-482fe7e73193
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine SetConfigurationValue method
+title: IVMVirtualMachine SetConfigurationValue method (VPCCOMInterfaces.h)
 description: Sets the value of the specified configuration setting for this virtual machine (VM).
 ms.assetid: 43c3ac88-2e25-4c9e-a2ac-fcae5add62c5
 keywords:

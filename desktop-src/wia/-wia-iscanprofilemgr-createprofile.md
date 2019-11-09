@@ -1,7 +1,7 @@
 ---
 Description: Creates an empty scan profile and associates it with a scanner or other Windows Image Acquisition (WIA) 2.0 item.
 ms.assetid: daa8cd66-184b-4559-a22a-c3e6d8209a3f
-title: IScanProfileMgr::CreateProfile method
+title: IScanProfileMgr::CreateProfile method (Scanprofilemgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

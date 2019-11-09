@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine File property
+title: IVMVirtualMachine File property (VPCCOMInterfaces.h)
 description: Retrieves the fully qualified path of the .vmc file for the virtual machine configuration.
 ms.assetid: fc215068-e908-417c-bd68-214539a0a14e
 keywords:

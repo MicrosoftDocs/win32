@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection2 GetInstalledShvs method
+title: INapEnforcementClientConnection2 GetInstalledShvs method (NapEnforcementClient.h)
 description: Used by the NAP Agent to query the installed System Health Validators (SHVs) on the client.
 ms.assetid: b2e3ab29-90bf-4117-bc2e-2ff2827ee15c
 keywords:

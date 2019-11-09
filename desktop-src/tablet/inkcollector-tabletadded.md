@@ -1,7 +1,7 @@
 ---
 Description: Occurs when a IInkTablet is added to the system.
 ms.assetid: c5f90fce-faf7-411b-a4d6-deb5d0f22f4a
-title: InkCollector.TabletAdded event
+title: InkCollector.TabletAdded event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

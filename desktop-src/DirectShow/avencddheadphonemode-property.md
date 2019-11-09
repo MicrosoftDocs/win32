@@ -1,7 +1,7 @@
 ---
 Description: Specifies the headphone mode for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: f33259f4-bb96-4d6d-8d03-6975bc32e226
-title: AVEncDDHeadphoneMode property
+title: AVEncDDHeadphoneMode property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

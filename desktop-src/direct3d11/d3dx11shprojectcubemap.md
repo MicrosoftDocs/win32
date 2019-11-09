@@ -1,5 +1,5 @@
 ---
-title: D3DX11SHProjectCubeMap function
+title: D3DX11SHProjectCubeMap function (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the Spherical Harmonics Math library, SHProjectCubeMap.
 ms.assetid: 58c741a3-dd5d-4b18-b257-5e85a9b799fd
 keywords:

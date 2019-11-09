@@ -1,5 +1,5 @@
 ---
-title: TB_GETITEMRECT message
+title: TB_GETITEMRECT message (Commctrl.h)
 description: Retrieves the bounding rectangle of a button in a toolbar.
 ms.assetid: 42c2c86e-0002-4029-be6a-fdfdf405b78c
 keywords:

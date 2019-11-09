@@ -1,5 +1,5 @@
 ---
-title: IWMDRMDeviceApp SynchronizeLicenses method
+title: IWMDRMDeviceApp SynchronizeLicenses method (WMDRMDeviceApp.h)
 description: The SynchronizeLicenses method updates licenses on a device when they are close to expiring.
 ms.assetid: 352378c1-7432-476c-98e9-d811165c020e
 keywords:

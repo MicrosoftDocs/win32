@@ -1,5 +1,5 @@
 ---
-title: CB_SETITEMDATA message
+title: CB_SETITEMDATA message (Winuser.h)
 description: An application sends a CB\_SETITEMDATA message to set the value associated with the specified item in a combo box.
 ms.assetid: 8be9eb57-a635-4c52-9838-556368813c74
 keywords:

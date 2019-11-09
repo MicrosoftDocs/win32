@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESS_SET_PALETTE message
+title: ICM_DECOMPRESS_SET_PALETTE message (Vfw.h)
 description: The ICM\_DECOMPRESS\_SET\_PALETTE message specifies a palette for a video decompression driver to use if it is decompressing to a format that uses a palette. You can send this message explicitly or by using the ICDecompressSetPalette macro.
 ms.assetid: 269d01f9-b7c8-40e4-abdb-24dd0c9cc18d
 keywords:

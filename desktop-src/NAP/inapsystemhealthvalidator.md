@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidator interface
+title: INapSystemHealthValidator interface (NapSystemHealthValidator.h)
 description: Must be implemented by SHV developers to enable the NAP system to communicate with an SHV.
 ms.assetid: 0366d919-39b9-4961-9b8b-c4313448391f
 keywords:

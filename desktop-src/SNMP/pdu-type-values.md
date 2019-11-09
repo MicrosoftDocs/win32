@@ -1,5 +1,5 @@
 ---
-title: PDU Type Values
+title: PDU Type Values (Snmp.h)
 description: The PDU type values are used in the pdu\_type field of the PDU to describe its type.
 ms.assetid: 9d7a3f1c-7940-428b-a4e0-3c9e61dd755f
 topic_type:

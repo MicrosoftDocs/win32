@@ -1,7 +1,7 @@
 ---
 Description: Returns information about the placement and orientation of a glyph in a character cell.
 ms.assetid: 80a78e68-6f88-4cd2-bb7b-0c608ae700aa
-title: ID3DXFont::GetGlyphData method
+title: ID3DXFont::GetGlyphData method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

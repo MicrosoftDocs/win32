@@ -1,5 +1,5 @@
 ---
-title: TTM_TRACKPOSITION message
+title: TTM_TRACKPOSITION message (Commctrl.h)
 description: Sets the position of a tracking tooltip.
 ms.assetid: 9eb7c86c-78e6-442a-ad77-5fb919cab591
 keywords:

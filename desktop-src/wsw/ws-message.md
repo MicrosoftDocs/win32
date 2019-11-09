@@ -1,5 +1,5 @@
 ---
-title: WS_MESSAGE
+title: WS_MESSAGE (WebServices.h)
 description: The opaque type used to reference a message object.
 ms.assetid: 22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee
 keywords:

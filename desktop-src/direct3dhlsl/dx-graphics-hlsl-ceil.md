@@ -1,5 +1,5 @@
 ---
-title: ceil
+title: ceil (Corecrt\_math.h)
 description: Returns the smallest integer value that is greater than or equal to the specified value.
 ms.assetid: 9823f321-14c3-4b27-9a4b-7a885cece39b
 keywords:

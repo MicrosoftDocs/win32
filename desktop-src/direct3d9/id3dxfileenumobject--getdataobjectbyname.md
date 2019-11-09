@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the data object that has the specified name.
 ms.assetid: ed53d871-24e8-4c51-8897-1055ef8a9af1
-title: ID3DXFileEnumObject::GetDataObjectByName method
+title: ID3DXFileEnumObject::GetDataObjectByName method (D3DX9Xof.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

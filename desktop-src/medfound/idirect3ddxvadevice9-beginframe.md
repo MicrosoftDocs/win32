@@ -1,7 +1,7 @@
 ---
 Description: Begins the processing to create a decoded picture.
 ms.assetid: 80471cc6-c66d-49d9-8593-780e41ac39b9
-title: IDirect3DDXVADevice9::BeginFrame method
+title: IDirect3DDXVADevice9::BeginFrame method (Dxva.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Specifies mesh weight attributes.
 ms.assetid: 554bb8f2-9e92-4e9e-b500-c3cc47d57830
-title: D3DX10_ATTRIBUTE_WEIGHTS structure
+title: D3DX10_ATTRIBUTE_WEIGHTS structure (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

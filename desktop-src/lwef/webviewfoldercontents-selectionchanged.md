@@ -1,5 +1,5 @@
 ---
-title: WebViewFolderContents.SelectionChanged event
+title: WebViewFolderContents.SelectionChanged event (Shldisp.h)
 description: Occurs when the selection state of any item or items in the view has changed.
 ms.assetid: 46dfceec-aa81-4950-81e5-526a6e621271
 keywords:

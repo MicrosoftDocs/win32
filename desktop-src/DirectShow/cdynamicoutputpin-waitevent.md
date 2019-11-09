@@ -1,7 +1,7 @@
 ---
 Description: The WaitEvent method waits until the specified event is signaled.
 ms.assetid: 64880f46-7b8f-4823-9d50-052e30ecf04b
-title: CDynamicOutputPin.WaitEvent method
+title: CDynamicOutputPin.WaitEvent method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,7 @@
 Description: The SWbemRefreshableItem.IsSet property is a Boolean value that indicates whether the SWbemRefreshableItem object represents a single object or an object set.SWbemRefreshableItem object represents a single object or an object set.
 ms.assetid: 4be5d27c-9020-4150-84ce-f9efc55be947
 ms.tgt_platform: multiple
-title: SWbemRefreshableItem.IsSet property
+title: SWbemRefreshableItem.IsSet property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

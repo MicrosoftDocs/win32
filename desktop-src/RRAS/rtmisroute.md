@@ -1,5 +1,5 @@
 ---
-title: RtmIsRoute function
+title: RtmIsRoute function (Rtm.h)
 description: The RtmIsRoute function determines if one or more routes to a specified destination network exist. If so, the function returns information for the best route to that network.
 ms.assetid: f9939790-d0a6-487e-9674-a01d436dc962
 keywords:

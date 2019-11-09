@@ -1,5 +1,5 @@
 ---
-title: D3D12_RECT
+title: D3D12_RECT (D3D12.h)
 description: D3D12\_RECT is declared as a RECT.
 ms.assetid: 39511ACE-7AC5-42A2-896D-7E0977A346C6
 keywords:

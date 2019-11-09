@@ -1,7 +1,7 @@
 ---
 Description: Sets the priority blending weight used by the animation controller.
 ms.assetid: b053024b-f219-48b3-906e-161d9cf47556
-title: ID3DXAnimationController::SetPriorityBlend method
+title: ID3DXAnimationController::SetPriorityBlend method (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

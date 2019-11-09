@@ -1,7 +1,7 @@
 ---
 Description: Returns a description of the original contents of an image file.
 ms.assetid: 40d89166-cc11-490d-867c-ae5db23a0784
-title: D3DX10_IMAGE_INFO structure
+title: D3DX10_IMAGE_INFO structure (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

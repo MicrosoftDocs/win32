@@ -1,5 +1,5 @@
 ---
-title: CDM_GETFOLDERIDLIST message
+title: CDM_GETFOLDERIDLIST message (Commdlg.h)
 description: Retrieves the address of the item identifier list corresponding to the folder that an Explorer-style Open or Save As dialog box currently has open.
 ms.assetid: 9d2d2c35-ff1d-43de-ab0b-c96e0f1e9e24
 keywords:

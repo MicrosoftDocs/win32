@@ -1,5 +1,5 @@
 ---
-title: RtmDequeueRouteChangeMessage function
+title: RtmDequeueRouteChangeMessage function (Rtm.h)
 description: The RtmDequeueRouteChangeMessage function returns the next route-change message in the queue associated with the specified client.
 ms.assetid: 44f2116a-3c8d-4ac6-896e-b12930b218a5
 keywords:

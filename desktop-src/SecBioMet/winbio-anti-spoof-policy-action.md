@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANTI_SPOOF_POLICY_ACTION enumeration
+title: WINBIO_ANTI_SPOOF_POLICY_ACTION enumeration (Winbio\_types.h)
 description: Specifies the types of actions you take for the antispoofing policy of a user.
 ms.assetid: 846C0725-1796-49E4-883C-44AC7D618317
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TTM_ADDTOOL message
+title: TTM_ADDTOOL message (Commctrl.h)
 description: Registers a tool with a tooltip control.
 ms.assetid: c974866b-20e7-45bc-914e-9dcf9af161e0
 keywords:

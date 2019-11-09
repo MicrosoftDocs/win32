@@ -1,7 +1,7 @@
 ---
 Description: The IMulticastControl interface is implemented by the IPConf MSP and available only on multicast call objects.
 ms.assetid: 9bdb4ab9-30b3-46fb-b13a-de9c294c8046
-title: IMulticastControl interface
+title: IMulticastControl interface (Confpriv.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the decoder's software deinterlace mode.
 ms.assetid: 254f003f-b3fd-40ab-a472-6bae93f11326
-title: AVDecVideoSoftwareDeinterlaceMode property
+title: AVDecVideoSoftwareDeinterlaceMode property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

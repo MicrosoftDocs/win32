@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine ParallelPorts property
+title: IVMVirtualMachine ParallelPorts property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of parallel ports.
 ms.assetid: 458e6e77-3728-4b5c-910b-f958f42785e4
 keywords:

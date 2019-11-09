@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Save method
+title: IVMVirtualMachine Save method (VPCCOMInterfaces.h)
 description: Saves the virtual machine (VM) state.
 ms.assetid: e9f6e773-4e2d-4d7b-9624-e7864d5b248b
 keywords:

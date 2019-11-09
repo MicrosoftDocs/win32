@@ -1,5 +1,5 @@
 ---
-title: TBM_GETBUDDY message
+title: TBM_GETBUDDY message (Commctrl.h)
 description: Retrieves the handle to a trackbar control buddy window at a given location. The specified location is relative to the control's orientation (horizontal or vertical).
 ms.assetid: 69e4e467-150d-4505-b1c2-2ed9dd83f1a6
 keywords:

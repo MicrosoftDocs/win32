@@ -1,5 +1,5 @@
 ---
-title: glDrawBuffer function
+title: glDrawBuffer function (Gl.h)
 description: The glDrawBuffer function specifies which color buffers are to be drawn into.
 ms.assetid: ea625699-303b-4e60-b9aa-771949a8d52d
 keywords:

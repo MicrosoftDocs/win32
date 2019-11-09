@@ -1,5 +1,5 @@
 ---
-title: PSN_HELP notification code
+title: PSN_HELP notification code (Prsht.h)
 description: Notifies a page that the user has clicked the Help button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 4ad2c608-8caa-44c6-845d-4c0c1bd80763
 keywords:

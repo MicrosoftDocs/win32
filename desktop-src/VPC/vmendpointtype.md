@@ -1,5 +1,5 @@
 ---
-title: VMEndpointType enumeration
+title: VMEndpointType enumeration (VPCCOMInterfaces.h)
 description: Specifies the endpoint type.
 ms.assetid: b48bd860-50dc-4c8c-b65b-69c407d4612a
 keywords:

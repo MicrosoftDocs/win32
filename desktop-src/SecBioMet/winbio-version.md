@@ -1,5 +1,5 @@
 ---
-title: WINBIO_VERSION structure
+title: WINBIO_VERSION structure (Winbio\_types.h)
 description: Contains the software version number of a biometric service provider component.
 ms.assetid: b9d08e10-00db-4f3f-9e27-6063aafa4151
 keywords:

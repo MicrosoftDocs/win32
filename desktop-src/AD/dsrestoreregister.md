@@ -1,5 +1,5 @@
 ---
-title: DsRestoreRegister function
+title: DsRestoreRegister function (Ntdsbcli.h)
 description: Registers a restore operation.
 ms.assetid: 83a56985-89be-4a95-9a8d-7c6f78d61c9a
 ms.tgt_platform: multiple

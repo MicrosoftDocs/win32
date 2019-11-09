@@ -1,5 +1,5 @@
 ---
-title: CB_SETCUEBANNER message
+title: CB_SETCUEBANNER message (Winuser.h)
 description: Sets the cue banner text that is displayed for the edit control of a combo box.
 ms.assetid: 4b2b5042-ba64-4e3f-adeb-9aea66773b0e
 keywords:

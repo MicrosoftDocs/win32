@@ -1,5 +1,5 @@
 ---
-title: CQPM_ENABLE message
+title: CQPM_ENABLE message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page to enable or disable the page.
 ms.assetid: dc75fab7-6de7-4138-86df-84d44e774120
 ms.tgt_platform: multiple

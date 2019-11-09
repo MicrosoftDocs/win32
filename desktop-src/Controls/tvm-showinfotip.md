@@ -1,5 +1,5 @@
 ---
-title: TVM_SHOWINFOTIP message
+title: TVM_SHOWINFOTIP message (Commctrl.h)
 description: Shows the infotip for a specified item in a tree-view control. You can send this message explicitly or by using the TreeView\_ShowInfoTip macro..
 ms.assetid: ed5a1bda-5754-4bb3-aa22-8faaf1af1268
 keywords:

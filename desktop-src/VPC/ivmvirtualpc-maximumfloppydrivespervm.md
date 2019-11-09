@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC MaximumFloppyDrivesPerVM property
+title: IVMVirtualPC MaximumFloppyDrivesPerVM property (VPCCOMInterfaces.h)
 description: Retrieves the maximum number of floppy drives per virtual machine.
 ms.assetid: f0dc351b-73de-4b6b-a953-5d5b683c4e31
 keywords:

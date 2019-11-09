@@ -1,5 +1,5 @@
 ---
-title: IADsAccessControlEntry Property Methods
+title: IADsAccessControlEntry Property Methods (Iads.h)
 description: The property methods of the IADsAccessControlEntry interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: dce11723-0e30-4baa-8666-0a32f0968ebb
 ms.tgt_platform: multiple

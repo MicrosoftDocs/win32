@@ -1,7 +1,7 @@
 ---
 Description: The SelectNPPBlobFromTable function selects a NIC from a supplied NPP BLOB table.
 ms.assetid: 7f8010ed-472a-49b2-8d97-92851b6c14cd
-title: SelectNPPBlobFromTable function
+title: SelectNPPBlobFromTable function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

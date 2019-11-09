@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo SSE2 property
+title: IVMHostInfo SSE2 property (VPCCOMInterfaces.h)
 description: Determines whether the processor supports the SSE2 instruction set.
 ms.assetid: 1db5583c-fb8e-400e-87d3-3c4309696307
 keywords:

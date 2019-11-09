@@ -1,5 +1,5 @@
 ---
-title: LB_GETHORIZONTALEXTENT message
+title: LB_GETHORIZONTALEXTENT message (Winuser.h)
 description: Gets the width, in pixels, that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar.
 ms.assetid: 52461724-c06a-436a-ac95-94c5189ba37e
 keywords:

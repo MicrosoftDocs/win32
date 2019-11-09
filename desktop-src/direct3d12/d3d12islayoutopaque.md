@@ -1,5 +1,5 @@
 ---
-title: D3D12IsLayoutOpaque function
+title: D3D12IsLayoutOpaque function (D3dx12.h)
 description: Indicates whether the layout is opaque.
 ms.assetid: 43B46A18-A725-4999-BD97-108032793A95
 keywords:

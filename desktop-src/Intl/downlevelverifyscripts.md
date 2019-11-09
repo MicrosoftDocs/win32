@@ -1,7 +1,7 @@
 ---
 Description: Compares two enumerated lists of scripts.
 ms.assetid: 3500ce36-75e4-4d61-8449-a65c99532326
-title: DownlevelVerifyScripts function
+title: DownlevelVerifyScripts function (Idndl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

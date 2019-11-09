@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetMemberByName method
+title: ID3DX11EffectVariable GetMemberByName method (D3dx11effect.h)
 description: Get a structure member by name.
 ms.assetid: 09f7f2f8-f55f-411c-8130-6ae44015d58a
 keywords:

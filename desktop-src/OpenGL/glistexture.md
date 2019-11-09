@@ -1,5 +1,5 @@
 ---
-title: glIsTexture function
+title: glIsTexture function (Gl.h)
 description: The glIsTexture function determines if a name corresponds to a texture.
 ms.assetid: 89d06642-ff28-4a67-ac7f-ca58150f301e
 keywords:

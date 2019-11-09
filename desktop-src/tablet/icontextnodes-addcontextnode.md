@@ -1,7 +1,7 @@
 ---
 Description: Adds an IContextNode object to this collection.
 ms.assetid: 48feae05-1cc8-46c3-97cd-4493ee28b8e5
-title: IContextNodes::AddContextNode method
+title: IContextNodes::AddContextNode method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive HostDriveLetter property
+title: IVMFloppyDrive HostDriveLetter property (VPCCOMInterfaces.h)
 description: The letter of the host drive to which the floppy drive is attached.
 ms.assetid: 16d11e06-e3bc-4a4a-850d-f7b4122e6af9
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity GetRevocationDataVersion method
+title: IWMDRMSecurity GetRevocationDataVersion method (Wmdrmsdk.h)
 description: The GetRevocationDataVersion method retrieves the version number of a certificate revocation list in the local store.
 ms.assetid: 2fa13b38-02c2-4c81-938b-409cadca00fb
 keywords:

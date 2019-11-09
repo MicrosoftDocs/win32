@@ -1,7 +1,7 @@
 ---
 Description: Rotates the spherical harmonic (SH) vector in the z-axis by the given angle.
 ms.assetid: 7c4bec55-4a4c-4f7e-8849-1cac373a2340
-title: D3DXSHRotateZ function
+title: D3DXSHRotateZ function (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

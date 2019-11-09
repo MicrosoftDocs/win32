@@ -1,7 +1,7 @@
 ---
 Description: The Inactive method notifies the pin that the filter is no longer active.
 ms.assetid: e00e1562-54bb-4968-8a86-b29e1077d7a5
-title: CBaseInputPin.Inactive method
+title: CBaseInputPin.Inactive method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: DsBackupFree function
+title: DsBackupFree function (Ntdsbcli.h)
 description: Releases memory allocated by the Active Directory Domain Services backup and restore functions.
 ms.assetid: cde2a530-60e6-440c-9d4e-a90d55846973
 ms.tgt_platform: multiple

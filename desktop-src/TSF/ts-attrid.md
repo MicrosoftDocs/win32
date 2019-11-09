@@ -1,5 +1,5 @@
 ---
-title: TS_ATTRID
+title: TS_ATTRID (Textstor.h)
 description: The TS\_ATTRID data type is used to identify a text attribute.
 ms.assetid: 5e375609-3d3c-4c12-ae05-dcaa70779162
 keywords:

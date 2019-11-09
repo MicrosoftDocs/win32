@@ -1,5 +1,5 @@
 ---
-title: PGM_FORWARDMOUSE message
+title: PGM_FORWARDMOUSE message (Commctrl.h)
 description: Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards WM\_MOUSEMOVE messages to the contained window. You can send this message explicitly or use the Pager\_ForwardMouse macro.
 ms.assetid: 269972fe-50b3-4c9f-b5ac-65e768b30684
 keywords:

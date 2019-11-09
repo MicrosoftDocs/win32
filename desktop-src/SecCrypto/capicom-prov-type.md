@@ -1,7 +1,7 @@
 ---
 Description: Specifies the type of cryptographic service provider (CSP).
 ms.assetid: faf2390d-bf78-4943-91f3-1db9939fedfb
-title: CAPICOM_PROV_TYPE enumeration
+title: CAPICOM_PROV_TYPE enumeration (Capicom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

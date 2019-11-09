@@ -1,7 +1,7 @@
 ---
 Description: Determines the product of the current matrix and the given matrix.
 ms.assetid: a673ce82-6fed-4a3f-8c37-d0db11195f06
-title: ID3DXMATRIXStack::MultMatrix method
+title: ID3DXMATRIXStack::MultMatrix method (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

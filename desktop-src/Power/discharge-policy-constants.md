@@ -1,7 +1,7 @@
 ---
 Description: The following list describes the discharge policy constants.
 ms.assetid: a085709e-1c61-4ae2-832e-fda59479cef6
-title: Discharge Policy Constants
+title: Discharge Policy Constants (WinNT.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

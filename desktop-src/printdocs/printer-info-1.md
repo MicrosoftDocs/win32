@@ -1,7 +1,7 @@
 ---
 Description: The PRINTER\_INFO\_1 structure specifies general printer information.
 ms.assetid: 0b0e2d0e-2625-4cab-a8f9-536185479443
-title: PRINTER_INFO_1 structure
+title: PRINTER_INFO_1 structure (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

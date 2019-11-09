@@ -2,7 +2,7 @@
 Description: Places the service represented by the Win32\_SystemDriver object in the stopped state.
 ms.assetid: 0fa8ef44-39eb-448e-8d33-38a5af9a0c13
 ms.tgt_platform: multiple
-title: StopService method of the Win32_SystemDriver class
+title: StopService method of the Win32_SystemDriver class (Sdoias.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

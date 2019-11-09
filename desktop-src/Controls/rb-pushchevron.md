@@ -1,5 +1,5 @@
 ---
-title: RB_PUSHCHEVRON message
+title: RB_PUSHCHEVRON message (Commctrl.h)
 description: Sent to a rebar control to programmatically push a chevron.
 ms.assetid: 00a8ce10-1fb2-488a-a6f9-1814f73f82bd
 keywords:

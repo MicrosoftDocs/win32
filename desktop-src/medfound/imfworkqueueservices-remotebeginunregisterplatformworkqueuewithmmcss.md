@@ -1,7 +1,7 @@
 ---
 Description: Remotable version of the IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS method.
 ms.assetid: c3117086-268e-4e52-acfb-2c8167adaa07
-title: RemoteBeginUnregisterPlatformWorkQueueWithMMCSS
+title: RemoteBeginUnregisterPlatformWorkQueueWithMMCSS (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

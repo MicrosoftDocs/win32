@@ -1,7 +1,7 @@
 ---
 Description: Not supported.
 ms.assetid: ed6fd633-23b8-4b80-901c-d7b50fa4c15e
-title: IAMTimeline::IsDirty method
+title: IAMTimeline::IsDirty method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

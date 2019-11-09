@@ -1,7 +1,7 @@
 ---
 Description: Retrieves a queued CMsg object containing a request.
 ms.assetid: 65b76121-c21c-4525-8dde-138783a4964e
-title: CMsgThread.GetThreadMsg method
+title: CMsgThread.GetThreadMsg method (Msgthrd.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

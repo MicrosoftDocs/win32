@@ -1,7 +1,7 @@
 ---
 Description: Gets the number of animations in the animation set.
 ms.assetid: 8d64c50b-2ec0-4fb4-a9d2-4d889b42502d
-title: ID3DXAnimationSet::GetNumAnimations method
+title: ID3DXAnimationSet::GetNumAnimations method (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

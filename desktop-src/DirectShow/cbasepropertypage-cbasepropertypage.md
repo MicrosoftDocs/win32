@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 5d9863e7-fdd9-4df2-a603-34a240a2286c
-title: CBasePropertyPage.CBasePropertyPage constructor
+title: CBasePropertyPage.CBasePropertyPage constructor (Cprop.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig3 NewConfig method
+title: INapComponentConfig3 NewConfig method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) to provide a way to create configuration data for a specific configuration ID.
 ms.assetid: cea762d3-815d-4034-94c1-5fa9a859cce8
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Adds a child frame to a frame.
 ms.assetid: a04c9bbe-8e54-467a-8e02-27c6469f4dac
-title: D3DXFrameAppendChild function
+title: D3DXFrameAppendChild function (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

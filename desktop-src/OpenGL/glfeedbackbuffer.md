@@ -1,5 +1,5 @@
 ---
-title: glFeedbackBuffer function
+title: glFeedbackBuffer function (Gl.h)
 description: The glFeedbackBuffer function controls feedback mode.
 ms.assetid: fe3773a7-c264-4d49-8f90-1f2319f9af4f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: UDM_SETBASE message
+title: UDM_SETBASE message (Commctrl.h)
 description: Sets the radix base for an up-down control. The base value determines whether the buddy window displays numbers in decimal or hexadecimal digits. Hexadecimal numbers are always unsigned, and decimal numbers are signed.
 ms.assetid: c76cdec1-e73b-4b4b-89be-9a00ff2ea172
 keywords:

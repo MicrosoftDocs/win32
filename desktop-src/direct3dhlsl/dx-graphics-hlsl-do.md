@@ -1,5 +1,5 @@
 ---
-title: do Statement
+title: do Statement (Ocidl.h)
 description: Execute a series of statements continuously until the conditional expression fails.
 ms.assetid: 07fd37b0-59c2-404b-a755-7178e4a058e4
 keywords:

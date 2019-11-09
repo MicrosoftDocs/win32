@@ -1,5 +1,5 @@
 ---
-title: ID3DX11DataLoader Destroy method
+title: ID3DX11DataLoader Destroy method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Destroys the loader after a work item completes.
 ms.assetid: 5d86c4ad-3eb6-421f-bb77-c88e8f5b42bb
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM_GETZOOM message
+title: EM_GETZOOM message (Richedit.h)
 description: Gets the current zoom ratio. The zoom ration is always between 1/64 and 64. You can send this message to either an edit control or a rich edit control.
 ms.assetid: d4a1daee-4af7-44d1-80d6-0fcaaf3672a8
 keywords:

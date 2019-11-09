@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo Memory property
+title: IVMHostInfo Memory property (VPCCOMInterfaces.h)
 description: Retrieves the total amount of physical memory in the host machine, in megabytes.
 ms.assetid: 178013c0-cf29-4f1e-9a9d-d6a5dbd4fe2d
 keywords:

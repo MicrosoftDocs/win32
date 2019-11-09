@@ -1,7 +1,7 @@
 ---
 Description: Raised when a media sink becomes invalid.
 ms.assetid: fa75926e-7cef-44da-9efe-f2f86fd4fd45
-title: MESinkInvalidated event
+title: MESinkInvalidated event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

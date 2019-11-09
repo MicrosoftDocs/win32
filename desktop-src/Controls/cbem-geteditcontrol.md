@@ -1,5 +1,5 @@
 ---
-title: CBEM_GETEDITCONTROL message
+title: CBEM_GETEDITCONTROL message (Commctrl.h)
 description: Gets the handle to the edit control portion of a ComboBoxEx control. A ComboBoxEx control uses an edit box when it is set to the CBS\_DROPDOWN style.
 ms.assetid: def91949-cadc-4297-a504-0680d7d9b815
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the offset, in bytes, from the start of an Advanced Systems Format (ASF) file to the start of the first data packet.
 ms.assetid: 5145d952-19d9-4bf8-9046-0b5d28f5e641
-title: MF_PD_ASF_DATA_START_OFFSET attribute
+title: MF_PD_ASF_DATA_START_OFFSET attribute (Wmcontainer.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

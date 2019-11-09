@@ -1,7 +1,7 @@
 ---
 Description: The SetBandwidthInfo method sets the bandwidth information.
 ms.assetid: bf5db456-ea67-4a65-a681-df0741f73fc9
-title: ITConnection::SetBandwidthInfo method
+title: ITConnection::SetBandwidthInfo method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

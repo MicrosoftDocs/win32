@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo ProcessorManufacturerString property
+title: IVMHostInfo ProcessorManufacturerString property (VPCCOMInterfaces.h)
 description: Retrieves the manufacturer of the host processor.
 ms.assetid: b7f4a03a-184c-4996-8102-994bf7f37e50
 keywords:

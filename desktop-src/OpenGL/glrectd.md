@@ -1,5 +1,5 @@
 ---
-title: glRectd function
+title: glRectd function (Gl.h)
 description: The glRectd function draws a rectangle.
 ms.assetid: d5574c22-7ae1-4040-9b95-769693fa41e3
 keywords:

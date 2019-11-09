@@ -1,5 +1,5 @@
 ---
-title: DTN_CLOSEUP notification code
+title: DTN_CLOSEUP notification code (Commctrl.h)
 description: Sent by a date and time picker (DTP) control when the user closes the drop-down month calendar.
 ms.assetid: 94ace714-55cc-4c59-8b87-8d0348b15f34
 keywords:

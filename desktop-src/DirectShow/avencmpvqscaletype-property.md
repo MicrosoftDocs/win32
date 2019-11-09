@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the quantizer scale is linear or non-linear. This property applies to MPEG video encoders.
 ms.assetid: 0d1a62a2-7595-4c10-a1cf-d32dda337ecd
-title: AVEncMPVQScaleType property
+title: AVEncMPVQScaleType property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

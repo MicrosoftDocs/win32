@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_DATA message
+title: MM_MIM_DATA message (Mmsystem.h)
 description: The MM\_MIM\_DATA message is sent to a window when a complete MIDI message is received by a MIDI input device.
 ms.assetid: 9c580e48-78f3-4914-bdea-393823fb8482
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Width of the client area, in pixels.
 ms.assetid: b4970e1a-a358-4cf0-9ae6-2b221b332f6f
-title: CBaseWindow::m_Width member
+title: CBaseWindow::m_Width member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: Windows Data Types
+title: Windows Data Types (BaseTsd.h)
 description: The data types supported by Windows are used to define function return values, function and message parameters, and structure members.
 ms.assetid: 4553cafc-450e-4493-a4d4-cb6e2f274d46
 keywords:

@@ -2,7 +2,7 @@
 Description: The SWbemRefresher.Item method returns the specified SWbemRefreshableItem from the collection.SWbemRefreshableItem from the collection.
 ms.assetid: 8ae3dea5-0582-422e-9cd8-b6d91b41588a
 ms.tgt_platform: multiple
-title: SWbemRefresher.Item method
+title: SWbemRefresher.Item method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetState method
+title: IBackgroundCopyJob GetState method (Deliveryoptimization.h)
 description: Retrieves the state of the job.
 ms.assetid: 975AF0FB-37AE-4CE8-9EC1-35A972E422D8
 keywords:

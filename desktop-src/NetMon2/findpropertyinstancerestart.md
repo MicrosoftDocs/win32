@@ -1,7 +1,7 @@
 ---
 Description: Finds the next instance of the property specified by the hProperty parameter.
 ms.assetid: f77cb92b-5936-4349-bf66-643c16e9e0df
-title: FindPropertyInstanceRestart function
+title: FindPropertyInstanceRestart function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

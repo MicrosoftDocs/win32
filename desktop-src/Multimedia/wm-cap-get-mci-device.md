@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_GET_MCI_DEVICE message
+title: WM_CAP_GET_MCI_DEVICE message (Vfw.h)
 description: The WM\_CAP\_GET\_MCI\_DEVICE message retrieves the name of an MCI device previously set with the WM\_CAP\_SET\_MCI\_DEVICE message. You can send this message explicitly or by using the capGetMCIDeviceName macro.
 ms.assetid: c5d7d955-ab6a-4959-b79e-9ff35a282ba2
 keywords:

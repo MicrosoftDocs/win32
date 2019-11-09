@@ -1,7 +1,7 @@
 ---
 Description: This topic applies to Windows XP Service Pack 2 or later. The KSTOPOLOGY\_CONNECTION structure describes a node connection within a kernel-streaming (KS) filter. A node can be connected to another node within the filter, or to a pin on the filter.
 ms.assetid: 8fca47b7-4c52-46db-809c-77a0e3414276
-title: KSTOPOLOGY_CONNECTION structure
+title: KSTOPOLOGY_CONNECTION structure (Ks.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

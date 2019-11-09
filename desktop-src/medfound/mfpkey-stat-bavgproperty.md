@@ -1,7 +1,7 @@
 ---
 Description: Specifies the average buffer window, in milliseconds, of an encoded stream.
 ms.assetid: 96bf43c3-5a62-4157-a7bc-2302fd69c522
-title: MFPKEY_STAT_BAVG Property
+title: MFPKEY_STAT_BAVG Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

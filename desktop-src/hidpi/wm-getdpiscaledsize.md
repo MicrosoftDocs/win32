@@ -1,5 +1,5 @@
 ---
-title: WM_GETDPISCALEDSIZE message
+title: WM_GETDPISCALEDSIZE message (Winuser.h)
 description: This message tells the operating system that the window will be sized to dimensions other than the default.
 ms.assetid: 038CAA21-0944-45D3-8C40-A6498F36D9E4
 keywords:

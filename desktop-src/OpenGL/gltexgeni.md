@@ -1,5 +1,5 @@
 ---
-title: glTexGeni function
+title: glTexGeni function (Gl.h)
 description: Controls the generation of texture coordinates.
 ms.assetid: beffcb24-c99b-4b2a-a9c3-2c2cc1afe5e5
 keywords:

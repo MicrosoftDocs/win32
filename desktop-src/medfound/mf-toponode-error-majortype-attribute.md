@@ -1,7 +1,7 @@
 ---
 Description: Contains the major media type for a topology node. This attribute is set when the topology fails to load because the correct decoder could not be found.
 ms.assetid: eb837fe6-12c9-479c-a0be-63b24093e6fd
-title: MF_TOPONODE_ERROR_MAJORTYPE attribute
+title: MF_TOPONODE_ERROR_MAJORTYPE attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

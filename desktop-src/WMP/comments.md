@@ -1,5 +1,5 @@
 ---
-title: Comments
+title: Comments (Msfeeds.h)
 description: Add comments to metafiles by following Extensible Markup Language (XML) syntax. Comments begin with \ 0034; -- \ 0034; and end with \ 0034;-- \ 0034;.
 ms.assetid: 3d8dbf13-bd48-4405-804f-57e0f5eff642
 keywords:

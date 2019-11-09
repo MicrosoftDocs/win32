@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC Tasks property
+title: IVMVirtualPC Tasks property (VPCCOMInterfaces.h)
 description: Retrieves a collection of tasks.
 ms.assetid: bba9c4b4-c933-43c8-9fbc-f2beb59867cf
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Device Information Properties are properties that describe the setup and installation of the device.
 ms.assetid: ff6771ac-491e-4765-8cfe-11c7efc1c971
-title: Device Information Property Constants
+title: Device Information Property Constants (Wiadef.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

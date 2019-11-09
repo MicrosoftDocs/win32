@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BIR_QUALITY Constants
+title: WINBIO_BIR_QUALITY Constants (Winbio\_types.h)
 description: Specify the relative quality of biometric data in the BIR if an integer value from 0 to 100 has not been specified.
 ms.assetid: A42AA21B-9AA5-4DB6-B58F-0776BEC63E6C
 topic_type:

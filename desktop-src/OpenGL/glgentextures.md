@@ -1,5 +1,5 @@
 ---
-title: glGenTextures function
+title: glGenTextures function (Gl.h)
 description: The glGenTextures function generates texture names.
 ms.assetid: f2491faf-2b33-4b06-9a9f-51ac295690fb
 keywords:

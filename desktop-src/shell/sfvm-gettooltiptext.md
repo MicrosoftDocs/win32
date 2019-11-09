@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback object to specify a tooltip text string for menu items or toolbar buttons. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 29849218-0d30-4412-86c8-5d320bc5dd26
-title: SFVM_GETTOOLTIPTEXT message
+title: SFVM_GETTOOLTIPTEXT message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

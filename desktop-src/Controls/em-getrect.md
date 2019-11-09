@@ -1,5 +1,5 @@
 ---
-title: EM_GETRECT message
+title: EM_GETRECT message (Winuser.h)
 description: Gets the formatting rectangle of an edit control.
 ms.assetid: eef0150d-9b7a-4247-acbf-6fea2efd1dc3
 keywords:

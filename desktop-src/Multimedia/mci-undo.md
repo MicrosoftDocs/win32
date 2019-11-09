@@ -1,5 +1,5 @@
 ---
-title: MCI_UNDO command
+title: MCI_UNDO command (Mmsystem.h)
 description: The MCI\_UNDO command reverses the most recent successful MCI\_CUT, MCI\_COPY, MCI\_DELETE, or MCI\_PASTE command. Digital-video devices recognize this command.
 ms.assetid: 1593457a-e680-4732-a89e-00f4eff7605a
 keywords:

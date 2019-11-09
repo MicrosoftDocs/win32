@@ -1,5 +1,5 @@
 ---
-title: glVertex3f function
+title: glVertex3f function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: 9833ef82-1ac8-45d4-b3e0-9c06cb07862d
 keywords:

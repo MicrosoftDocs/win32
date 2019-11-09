@@ -1,7 +1,7 @@
 ---
 Description: Define for applications well-known capabilities by using the AllocateAndInitializeSid function.
 ms.assetid: CD27774F-0B70-4D97-96C9-B247536CC88E
-title: Capability SID Constants
+title: Capability SID Constants (Winnt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

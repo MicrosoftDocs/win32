@@ -1,5 +1,5 @@
 ---
-title: LVM_GETSTRINGWIDTH message
+title: LVM_GETSTRINGWIDTH message (Commctrl.h)
 description: Determines the width of a specified string using the specified list-view control's current font. You can send this message explicitly or by using the ListView\_GetStringWidth macro.
 ms.assetid: ffe97640-d4b6-45ae-be5d-71fed69c2026
 keywords:

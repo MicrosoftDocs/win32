@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetIsolationInfo method
+title: INapEnforcementClientConnection GetIsolationInfo method (NapEnforcementClient.h)
 description: Is used get the isolation information of the client.
 ms.assetid: 33040554-dcbe-4563-b047-fc7e28bac55c
 keywords:

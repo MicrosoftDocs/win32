@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks CachedPSOCb method
+title: ID3DX12PipelineParserCallbacks CachedPSOCb method (D3DX12.h)
 description: Calls the cached PSO (Pipeline State Object) subobject callback of an object that implements this interface.
 ms.assetid: 9EF8C468-1D86-4F49-9091-36B6125F1B68
 keywords:

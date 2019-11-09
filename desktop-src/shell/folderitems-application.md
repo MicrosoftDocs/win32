@@ -1,7 +1,7 @@
 ---
 Description: Contains the Application object of the folder items collection.
 ms.assetid: 2cd4243e-a5a6-4de4-b310-f74558ac0fbe
-title: FolderItems.Application property
+title: FolderItems.Application property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

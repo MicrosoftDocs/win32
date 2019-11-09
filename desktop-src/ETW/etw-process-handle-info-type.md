@@ -1,7 +1,7 @@
 ---
 Description: Specifies what kind of operation will be done on a handle.
 ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B
-title: ETW_PROCESS_HANDLE_INFO_TYPE enumeration
+title: ETW_PROCESS_HANDLE_INFO_TYPE enumeration (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

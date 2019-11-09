@@ -1,5 +1,5 @@
 ---
-title: glColor4iv function
+title: glColor4iv function (Gl.h)
 description: Sets the current color from an already existing array of color values.
 ms.assetid: 2d14f697-1796-4fd2-b007-3a84c6093644
 keywords:

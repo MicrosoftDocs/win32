@@ -1,5 +1,5 @@
 ---
-title: Authorization Constants
+title: Authorization Constants (RpcDce.h)
 description: Defines what the server authorizes.
 ms.assetid: a0bc9337-b7e4-41c5-ae36-4843fa7d98ce
 topic_type:

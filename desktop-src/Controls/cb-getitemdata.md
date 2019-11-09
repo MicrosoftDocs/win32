@@ -1,5 +1,5 @@
 ---
-title: CB_GETITEMDATA message
+title: CB_GETITEMDATA message (Winuser.h)
 description: An application sends a CB\_GETITEMDATA message to a combo box to retrieve the application-supplied value associated with the specified item in the combo box.
 ms.assetid: 433b7f75-2831-4919-b931-c17ba651d145
 keywords:

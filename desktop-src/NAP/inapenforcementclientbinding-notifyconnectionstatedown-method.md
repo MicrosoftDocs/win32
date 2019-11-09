@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding NotifyConnectionStateDown method
+title: INapEnforcementClientBinding NotifyConnectionStateDown method (NapEnforcementClient.h)
 description: Is used to inform the NapAgent that a connection to an enforcement client has gone down.
 ms.assetid: 504c61c1-c8f9-46b8-87cd-c1f04846f0b3
 keywords:

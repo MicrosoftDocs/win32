@@ -1,7 +1,7 @@
 ---
 Description: Builds a 2D transformation matrix that represents transformations in the xy plane. NULL arguments are treated as identity transformations.
 ms.assetid: 671d3d67-b474-4fc1-9913-d21f05d66d9a
-title: D3DXMatrixTransformation2D function
+title: D3DXMatrixTransformation2D function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

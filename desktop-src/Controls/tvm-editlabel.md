@@ -1,5 +1,5 @@
 ---
-title: TVM_EDITLABEL message
+title: TVM_EDITLABEL message (Commctrl.h)
 description: Begins in-place editing of the specified item's text, replacing the text of the item with a single-line edit control containing the text.
 ms.assetid: ae844cbf-fa43-4f91-90cc-688f44bf77a5
 keywords:

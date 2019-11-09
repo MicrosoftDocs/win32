@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateAsyncCompilerProcessor function
+title: D3DX11CreateAsyncCompilerProcessor function (D3DX11async.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create an asynchronous-data processor for a shader.
 ms.assetid: 90756ac3-946d-49fa-9f97-70dc5da812c6
 keywords:

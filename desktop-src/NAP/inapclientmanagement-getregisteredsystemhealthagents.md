@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement GetRegisteredSystemHealthAgents method
+title: INapClientManagement GetRegisteredSystemHealthAgents method (NapManagement.h)
 description: Retrieves information about the registered SHAs.
 ms.assetid: c38d2d23-62d4-49f0-81a3-52394866f0c4
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TfClientId
+title: TfClientId (Msctf.h)
 description: The TfClientId data type is used to identify the client.
 ms.assetid: '984dc390-6e15-4491-8c06-77c27c5bdd6f'
 keywords:

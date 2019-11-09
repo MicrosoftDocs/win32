@@ -1,5 +1,5 @@
 ---
-title: IEnumBackgroundCopyFiles Reset method
+title: IEnumBackgroundCopyFiles Reset method (Deliveryoptimization.h)
 description: Resets the enumeration sequence to the beginning.
 ms.assetid: 6A303069-105C-4053-A8C5-2ECF60E789DE
 keywords:

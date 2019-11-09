@@ -1,7 +1,7 @@
 ---
 Description: The SwitchTerminalToSubStream method sets a terminal to the participant substream.
 ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
-title: ITParticipantSubStreamControl::SwitchTerminalToSubStream method
+title: ITParticipantSubStreamControl::SwitchTerminalToSubStream method (Confpriv.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

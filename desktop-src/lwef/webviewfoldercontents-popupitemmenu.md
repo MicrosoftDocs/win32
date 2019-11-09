@@ -1,5 +1,5 @@
 ---
-title: WebViewFolderContents.PopupItemMenu method
+title: WebViewFolderContents.PopupItemMenu method (Shldisp.h)
 description: Creates a shortcut menu for the specified item and returns the selected command string.
 ms.assetid: 3c07500c-2fe9-4976-a1a8-b128e75f9325
 keywords:

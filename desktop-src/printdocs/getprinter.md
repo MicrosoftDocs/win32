@@ -1,7 +1,7 @@
 ---
 Description: The GetPrinter function retrieves information about a specified printer.
 ms.assetid: f162edbb-83ee-40c3-8710-9c867301d652
-title: GetPrinter function
+title: GetPrinter function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

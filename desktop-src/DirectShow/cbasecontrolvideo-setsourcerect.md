@@ -1,7 +1,7 @@
 ---
 Description: The SetSourceRect method sets the current source video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle changes.
 ms.assetid: 13bb594b-b154-40a2-ad00-f1e86781074d
-title: CBaseControlVideo.SetSourceRect method
+title: CBaseControlVideo.SetSourceRect method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

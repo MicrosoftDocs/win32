@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS CSDVersion property
+title: IVMGuestOS CSDVersion property (VPCCOMInterfaces.h)
 description: The CSDVersion of the guest operating system running in the virtual machine.
 ms.assetid: 6f1d8dd6-6feb-4bdf-a553-631d55c18076
 keywords:

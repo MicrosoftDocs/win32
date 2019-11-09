@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_ROOT_DESCRIPTOR1 structure
+title: CD3DX12_ROOT_DESCRIPTOR1 structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_DESCRIPTOR1 structure.
 ms.assetid: 664822BF-5C27-4541-953F-219894547A6C
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Privacy Type
+title: Privacy Type (Wininet.h)
 description: Specifies that privacy settings are for either first-party or third-party cookies.
 ms.assetid: 7d0846d4-fd81-4af9-b7e6-05c4c1438770
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: IADsOU Property Methods
+title: IADsOU Property Methods (Iads.h)
 description: The property methods of the IADsOU interface get or set the properties listed in the following table. For more information, see Interface Property Methods.
 ms.assetid: 8cb84972-733b-47ca-8647-1b7a85c97021
 ms.tgt_platform: multiple

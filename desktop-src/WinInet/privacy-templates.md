@@ -1,5 +1,5 @@
 ---
-title: Privacy Templates
+title: Privacy Templates (Wininet.h)
 description: The following are privacy levels that equate to rules for accepting, conditionally accepting, or not accepting cookies.
 ms.assetid: d8dd9c12-b159-4f95-820e-521aeb1526bf
 topic_type:

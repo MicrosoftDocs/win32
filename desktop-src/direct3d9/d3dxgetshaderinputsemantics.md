@@ -1,7 +1,7 @@
 ---
 Description: Gets the semantics for the shader inputs. Use this method to determine the input vertex format.
 ms.assetid: e94b2b14-3830-4a13-8c23-7841a56d6730
-title: D3DXGetShaderInputSemantics function
+title: D3DXGetShaderInputSemantics function (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

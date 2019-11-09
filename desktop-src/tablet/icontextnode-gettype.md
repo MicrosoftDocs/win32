@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the type of the IContextNode object.
 ms.assetid: 285384ce-5cdc-47f5-a1c4-6c6d7f18e215
-title: IContextNode::GetType method
+title: IContextNode::GetType method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

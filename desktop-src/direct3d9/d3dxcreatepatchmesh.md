@@ -1,7 +1,7 @@
 ---
 Description: Creates a mesh from a control-patch mesh.
 ms.assetid: 50e4f7aa-a6b8-4a2b-9813-a9448f408d06
-title: D3DXCreatePatchMesh function
+title: D3DXCreatePatchMesh function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

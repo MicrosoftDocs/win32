@@ -1,7 +1,7 @@
 ---
 Description: Notifies applications that the system has resumed operation.
 ms.assetid: f2997905-26c9-4884-ae79-64df5ce6bc55
-title: PBT_APMRESUMECRITICAL event
+title: PBT_APMRESUMECRITICAL event (WinUser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

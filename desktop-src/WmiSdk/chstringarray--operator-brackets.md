@@ -2,7 +2,7 @@
 Description: These subscript operators set or get the element at the specified index. These operators are a convenient substitute for the SetAt and GetAt methods.
 ms.assetid: 93b10bef-908e-4c5e-aac3-b13051b2e7c9
 ms.tgt_platform: multiple
-title: CHStringArray::operator [ ]
+title: CHStringArray::operator [ ] (ChStrArr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

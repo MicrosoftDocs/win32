@@ -1,5 +1,5 @@
 ---
-title: FreePrivateData function
+title: FreePrivateData function (NapUtil.h)
 description: Frees a PrivateData data structure.
 ms.assetid: 94b3618e-224f-4801-94f3-2faa1a298ec0
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionMatrixTransform SetMatrixElement methods
+title: IDCompositionMatrixTransform SetMatrixElement methods (Dcomp.h)
 description: Changes or animates the value of one element of the matrix of this 2D transform.
 ms.assetid: ADF3D443-6764-40A5-AD5C-7C3053E247CB
 keywords:

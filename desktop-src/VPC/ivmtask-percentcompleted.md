@@ -1,5 +1,5 @@
 ---
-title: IVMTask PercentCompleted property
+title: IVMTask PercentCompleted property (VPCCOMInterfaces.h)
 description: Retrieves the completion percentage of the task.
 ms.assetid: 23ba9696-06ed-44ec-a1ec-ef3bf9122c6f
 keywords:

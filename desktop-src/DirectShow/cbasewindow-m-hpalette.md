@@ -1,7 +1,7 @@
 ---
 Description: Handle to the window's palette.
 ms.assetid: 0ab7d6b6-fe19-41d1-8a51-fee722148d1c
-title: CBaseWindow::m_hPalette member
+title: CBaseWindow::m_hPalette member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

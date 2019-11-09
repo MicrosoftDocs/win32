@@ -1,5 +1,5 @@
 ---
-title: TBN_GETDISPINFO notification code
+title: TBN_GETDISPINFO notification code (Commctrl.h)
 description: Retrieves display information for a toolbar item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ed6e4141-2bf8-4a92-8349-f3833c87fcf3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Enables low-latency mode in a codec.
 ms.assetid: 15E8FF6F-AD8C-436F-B3C0-5062B1F86E32
-title: CODECAPI_AVLowLatencyMode property
+title: CODECAPI_AVLowLatencyMode property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

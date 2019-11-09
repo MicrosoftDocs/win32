@@ -1,7 +1,7 @@
 ---
 Description: The LogError method logs an error. Applications do not need to call this method. It is called internally in response to rendering errors.
 ms.assetid: 08765c8a-21ca-4c40-84a8-d13da87d9c5f
-title: IAMErrorLog::LogError method
+title: IAMErrorLog::LogError method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

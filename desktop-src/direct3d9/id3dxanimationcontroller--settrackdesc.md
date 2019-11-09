@@ -1,7 +1,7 @@
 ---
 Description: Sets the track description.
 ms.assetid: bc3324b3-ca23-4035-958d-9763a70071f2
-title: ID3DXAnimationController::SetTrackDesc method
+title: ID3DXAnimationController::SetTrackDesc method (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

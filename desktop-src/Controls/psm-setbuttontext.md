@@ -1,5 +1,5 @@
 ---
-title: PSM_SETBUTTONTEXT message
+title: PSM_SETBUTTONTEXT message (Prsht.h)
 description: Sets the text on a button in an Aero wizard. You can send this message explicitly or by using the PropSheet\_SetButtonText macro.
 ms.assetid: 30b7afd1-5094-430f-9c48-d87832d96050
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetPixelShader method
+title: ID3DX11EffectShaderVariable GetPixelShader method (D3dx11effect.h)
 description: Get a pixel shader.
 ms.assetid: 4ce4b248-23b9-4135-a2b4-262e63247688
 keywords:

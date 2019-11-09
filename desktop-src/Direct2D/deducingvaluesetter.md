@@ -1,5 +1,5 @@
 ---
-title: DeducingValueSetter
+title: DeducingValueSetter (D2d1effecthelpers.h)
 description: Deduces the class and arguments and then calls a member-function property setter callback for a value-type property.
 ms.assetid: 4C3D64A8-0CC0-405A-A5B3-627C2DF25EA1
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the media sink associated with this topology node is rateless.
 ms.assetid: 81ef7005-a9ab-4f26-bc39-68b27c4f92aa
-title: MF_TOPONODE_RATELESS attribute
+title: MF_TOPONODE_RATELESS attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

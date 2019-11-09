@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetwork HostAdapter property
+title: IVMVirtualNetwork HostAdapter property (VPCCOMInterfaces.h)
 description: Name of the adapter to which the virtual network is connected.
 ms.assetid: 7ee074d2-13ba-42db-84db-ecfd22576a9a
 keywords:

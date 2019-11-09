@@ -1,6 +1,6 @@
 ---
 Description: Execute the Shell folder item specified in the accompanying SMDATA structure.
-title: SMC_SFEXEC message
+title: SMC_SFEXEC message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: bb8f6434-0936-460f-b7dc-39be58bb70ce

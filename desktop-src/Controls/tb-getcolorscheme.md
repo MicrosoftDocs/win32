@@ -1,5 +1,5 @@
 ---
-title: TB_GETCOLORSCHEME message
+title: TB_GETCOLORSCHEME message (Commctrl.h)
 description: Retrieves the color scheme information from the toolbar control.
 ms.assetid: af172631-309e-4181-a690-05946cd6e143
 keywords:

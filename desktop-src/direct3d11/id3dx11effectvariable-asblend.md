@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsBlend method
+title: ID3DX11EffectVariable AsBlend method (D3dx11effect.h)
 description: Get a effect-blend variable.
 ms.assetid: e9670d13-e006-408b-9cdf-352bcfa66a52
 keywords:

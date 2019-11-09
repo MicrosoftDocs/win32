@@ -1,7 +1,7 @@
 ---
 Description: Specifies the final level of the encoding buffer, in bits, at the end of the encoding process. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: d5bcdf54-061a-436b-8b1a-61ef7d7c90bf
-title: AVEncCommonBufferOutLevel property
+title: AVEncCommonBufferOutLevel property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

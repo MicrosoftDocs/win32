@@ -1,7 +1,7 @@
 ---
 Description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: 7f641354-c3f5-4eb3-ad1c-98abf7694106
-title: IEnumParticipant::Skip method
+title: IEnumParticipant::Skip method (Confpriv.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

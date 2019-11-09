@@ -1,5 +1,5 @@
 ---
-title: RB_SETBANDWIDTH message
+title: RB_SETBANDWIDTH message (Commctrl.h)
 description: Sets the width for a docked band.
 ms.assetid: dca9dfe9-3e5a-40bb-8de7-a296e6be7d06
 keywords:

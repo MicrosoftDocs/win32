@@ -1,5 +1,5 @@
 ---
-title: TB_INSERTBUTTON message
+title: TB_INSERTBUTTON message (Commctrl.h)
 description: Inserts a button in a toolbar.
 ms.assetid: 6be27817-5d86-4649-bd63-173845197763
 keywords:

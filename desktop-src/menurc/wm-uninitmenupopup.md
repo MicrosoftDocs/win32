@@ -1,5 +1,5 @@
 ---
-title: WM_UNINITMENUPOPUP message
+title: WM_UNINITMENUPOPUP message (Winuser.h)
 description: Sent when a drop-down menu or submenu has been destroyed.
 ms.assetid: 06129d88-6cf9-4d55-b8eb-6f78994bc87a
 keywords:

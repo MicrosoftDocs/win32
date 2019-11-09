@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the current segment topology is empty.
 ms.assetid: efd497dc-affc-4453-975c-09c5dca06374
-title: MF_EVENT_SOURCE_FAKE_START attribute
+title: MF_EVENT_SOURCE_FAKE_START attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

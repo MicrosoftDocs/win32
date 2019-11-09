@@ -1,7 +1,7 @@
 ---
 Description: Gets the characteristics of the media source from the Source Reader.
 ms.assetid: 4cd48b69-6f7b-4b13-86f3-b38969025f70
-title: MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS attribute
+title: MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS attribute (Mfreadwrite.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

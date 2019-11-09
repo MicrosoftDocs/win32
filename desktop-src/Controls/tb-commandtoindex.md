@@ -1,5 +1,5 @@
 ---
-title: TB_COMMANDTOINDEX message
+title: TB_COMMANDTOINDEX message (Commctrl.h)
 description: Retrieves the zero-based index for the button associated with the specified command identifier.
 ms.assetid: 'vs|controls|~\controls\toolbar\messages\tb_commandtoindex.htm'
 keywords:

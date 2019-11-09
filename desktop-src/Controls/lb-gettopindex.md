@@ -1,5 +1,5 @@
 ---
-title: LB_GETTOPINDEX message
+title: LB_GETTOPINDEX message (Winuser.h)
 description: Gets the index of the first visible item in a list box.
 ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_gettopindex.htm'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM_SETHOTKEY message
+title: WM_SETHOTKEY message (Winuser.h)
 description: Sent to a window to associate a hot key with the window. When the user presses the hot key, the system activates the window.
 ms.assetid: b2c7e6ca-da71-440b-a05e-17f2da419d18
 keywords:

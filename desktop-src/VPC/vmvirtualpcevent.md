@@ -1,5 +1,5 @@
 ---
-title: VMVirtualPCEvent enumeration
+title: VMVirtualPCEvent enumeration (VPCCOMInterfaces.h)
 description: Specifies the Windows Virtual PC events.
 ms.assetid: 3b239cd0-d922-42de-8bcc-51f625c0d8b0
 keywords:

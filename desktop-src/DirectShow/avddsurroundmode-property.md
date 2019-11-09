@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the audio is encoded in Dolby Surround.
 ms.assetid: b33839c8-4829-4d90-94de-e461772d3e94
-title: AVDDSurroundMode property
+title: AVDDSurroundMode property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: CBN_CLOSEUP notification code
+title: CBN_CLOSEUP notification code (Winuser.h)
 description: Sent when the list box of a combo box has been closed. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 79b2108e-1ef3-433d-a0b0-ac9ad1a93905
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ICM_COMPRESS message
+title: ICM_COMPRESS message (Vfw.h)
 description: The ICM\_COMPRESS message notifies a video compression driver to compress a frame of data into an application-defined buffer.
 ms.assetid: d95b943f-458d-4a5e-bab1-e3648d323395
 keywords:

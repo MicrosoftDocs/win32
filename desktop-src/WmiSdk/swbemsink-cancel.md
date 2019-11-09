@@ -2,7 +2,7 @@
 Description: The Cancel method of the SWbemSink object cancels all outstanding asynchronous operations that are associated with this object sink.
 ms.assetid: dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a
 ms.tgt_platform: multiple
-title: ISWbemSink::Cancel method
+title: ISWbemSink::Cancel method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: ISearchResult interface
+title: ISearchResult interface (WdsSharedIDL.h)
 description: Exposes information and properties regarding the result set.
 ms.assetid: 2f50b9d7-f6fd-481c-a5db-d622a7b02017
 keywords:

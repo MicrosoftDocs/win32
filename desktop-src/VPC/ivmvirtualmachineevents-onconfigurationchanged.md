@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnConfigurationChanged method
+title: IVMVirtualMachineEvents OnConfigurationChanged method (VPCCOMInterfaces.h)
 description: Receives notification that a value in the configuration for this virtual machine has changed.
 ms.assetid: 1955f23e-b318-41aa-b82e-81283be81608
 keywords:

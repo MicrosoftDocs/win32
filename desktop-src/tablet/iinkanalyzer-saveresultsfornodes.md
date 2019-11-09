@@ -1,7 +1,7 @@
 ---
 Description: Saves analysis results for a specific context node collection associated with an IInkAnalyzer.
 ms.assetid: 671bdb11-6e30-4254-b320-208face1f593
-title: IInkAnalyzer::SaveResultsForNodes method
+title: IInkAnalyzer::SaveResultsForNodes method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

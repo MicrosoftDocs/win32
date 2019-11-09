@@ -1,5 +1,5 @@
 ---
-title: IConnectionBrokerRequest CheckStatus method
+title: IConnectionBrokerRequest CheckStatus method (Cbclient.h)
 description: Called to determine the status of an asynchronous request.
 ms.assetid: 6B0DDDB2-9905-4B48-8CCB-D6A6591B7723
 ms.tgt_platform: multiple

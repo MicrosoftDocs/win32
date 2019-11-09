@@ -1,7 +1,7 @@
 ---
 Description: Sets a string.
 ms.assetid: 7e8eef70-85ee-461d-bf8c-44cda5f184cd
-title: ID3DXBaseEffect::SetString method
+title: ID3DXBaseEffect::SetString method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

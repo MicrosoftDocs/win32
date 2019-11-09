@@ -1,5 +1,5 @@
 ---
-title: TB_GETANCHORHIGHLIGHT message
+title: TB_GETANCHORHIGHLIGHT message (Commctrl.h)
 description: Retrieves the anchor highlight setting for a toolbar.
 ms.assetid: 167d481c-8684-40eb-9323-cfa238be3643
 keywords:

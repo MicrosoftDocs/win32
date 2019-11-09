@@ -1,5 +1,5 @@
 ---
-title: EM_EMPTYUNDOBUFFER message
+title: EM_EMPTYUNDOBUFFER message (Winuser.h)
 description: Resets the undo flag of an edit control. The undo flag is set whenever an operation within the edit control can be undone. You can send this message to either an edit control or a rich edit control.
 ms.assetid: a4ff7bd9-f8ae-4f18-8429-4ceaaeeb0f94
 keywords:

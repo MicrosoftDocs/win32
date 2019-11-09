@@ -1,5 +1,5 @@
 ---
-title: LB_SETTABSTOPS message
+title: LB_SETTABSTOPS message (Winuser.h)
 description: Sets the tab-stop positions in a list box.
 ms.assetid: b96b974e-b1e6-4361-98bb-4dc21c752690
 keywords:

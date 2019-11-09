@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable interface
+title: ID3DX11EffectVariable interface (D3dx11effect.h)
 description: The ID3DX11EffectVariable interface is the base class for all effect variables.The lifetime of an ID3DX11EffectVariable object is equal to the lifetime of its parent ID3DX11Effect object.
 ms.assetid: 07f1b7d7-c266-49ae-b79a-7a645521df89
 keywords:

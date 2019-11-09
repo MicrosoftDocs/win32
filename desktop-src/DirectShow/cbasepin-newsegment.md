@@ -1,7 +1,7 @@
 ---
 Description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. Implements the IPin::NewSegment method.
 ms.assetid: e334d5a7-0398-496c-882c-bf73e6545867
-title: CBasePin.NewSegment method
+title: CBasePin.NewSegment method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

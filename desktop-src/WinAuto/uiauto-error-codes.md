@@ -1,5 +1,5 @@
 ---
-title: Error Codes
+title: Error Codes (UIAutomationCoreApi.h)
 description: This topic describes the error codes exposed by Microsoft UI Automation.
 ms.assetid: f7820aa3-908e-426e-851c-84397019d735
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnection BusNumber property
+title: IVMHardDiskConnection BusNumber property (VPCCOMInterfaces.h)
 description: Retrieves the bus number to which the drive image is attached.
 ms.assetid: 2a792930-d8c9-419d-88eb-ddec7c43c5bc
 keywords:

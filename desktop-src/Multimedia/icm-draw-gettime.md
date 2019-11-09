@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_GETTIME message
+title: ICM_DRAW_GETTIME message (Vfw.h)
 description: The ICM\_DRAW\_GETTIME message requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can send this message explicitly or by using the ICDrawGetTime macro.
 ms.assetid: 77f0a322-c0bc-4cfe-a3d0-7633cf8d682a
 keywords:

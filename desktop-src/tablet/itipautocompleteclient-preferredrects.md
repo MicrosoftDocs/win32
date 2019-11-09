@@ -1,7 +1,7 @@
 ---
 Description: Allows the client to suggest where to position the auto complete list to avoid overlapping the Input Panel.
 ms.assetid: c82ffecb-f3e6-4c50-80bb-8393b39d3b2a
-title: ITipAutocompleteClient::PreferredRects method
+title: ITipAutocompleteClient::PreferredRects method (TipAutoComplete.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: glPolygonStipple function
+title: glPolygonStipple function (Gl.h)
 description: The glPolygonStipple function sets the polygon stippling pattern.
 ms.assetid: e066f9cf-36da-4a3b-a34f-2f8a6f5a0ae6
 keywords:

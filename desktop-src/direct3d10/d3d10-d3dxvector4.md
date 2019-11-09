@@ -1,7 +1,7 @@
 ---
 Description: Describes a four-component vector including operator overloads and type casts.
 ms.assetid: c6348346-f317-48ed-a369-e39fdb4dc1d6
-title: D3DXVECTOR4 structure
+title: D3DXVECTOR4 structure (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

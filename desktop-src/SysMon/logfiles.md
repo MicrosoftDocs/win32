@@ -1,5 +1,5 @@
 ---
-title: LogFiles object
+title: LogFiles object (Isysmon.h)
 description: Use this class to manage a collection of one or more log files that contain performance counter data.To retrieve this object, call SystemMonitor.LogFiles.
 ms.assetid: 1af475c5-ed0c-49b4-a558-13eb8758a986
 keywords:

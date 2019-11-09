@@ -1,5 +1,5 @@
 ---
-title: HDN_OVERFLOWCLICK notification code
+title: HDN_OVERFLOWCLICK notification code (Commctrl.h)
 description: Sent by a header control to its parent when the header's overflow button is clicked. This notification code is sent in the form of an WM\_NOTIFY message.
 ms.assetid: 770ae00a-b87f-4de2-b869-2a233f2c493e
 keywords:

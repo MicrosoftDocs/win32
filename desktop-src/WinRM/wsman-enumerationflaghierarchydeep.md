@@ -1,5 +1,5 @@
 ---
-title: WSMan.EnumerationFlagHierarchyDeep method
+title: WSMan.EnumerationFlagHierarchyDeep method (WSManDisp.h)
 description: Returns the value of the enumeration flag EnumerationFlagHierarchyDeep for use in the flags parameter of Session.Enumerate.
 ms.assetid: b84b82fa-0b2e-418e-850f-6d7a4749fdc1
 ms.tgt_platform: multiple

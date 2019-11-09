@@ -1,7 +1,7 @@
 ---
 Description: Allows an application to enable or disable the return of packet information by the WSARecvMsg function on an IPv4 socket.
 ms.assetid: C6246899-0220-4F88-B43B-CED1B1FF7DC3
-title: IP_PKTINFO socket option
+title: IP_PKTINFO socket option (Ws2ipdef.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

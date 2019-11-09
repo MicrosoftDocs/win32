@@ -1,5 +1,5 @@
 ---
-title: Landmark Type Identifiers
+title: Landmark Type Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants used to identify Microsoft UI Automation landmark types.
 ms.assetid: 73A34568-25DA-4E70-BB2A-725135E6860B
 topic_type:

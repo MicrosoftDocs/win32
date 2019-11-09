@@ -1,5 +1,5 @@
 ---
-title: WM_NCXBUTTONDOWN message
+title: WM_NCXBUTTONDOWN message (Winuser.h)
 description: Posted when the user presses the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 72744c98-1898-4548-bd10-61ad53eeab15
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnHeartbeatStopped method
+title: IVMVirtualMachineEvents OnHeartbeatStopped method (VPCCOMInterfaces.h)
 description: Receives notification that a virtual machine's heartbeat has stopped.
 ms.assetid: 58fc81a8-747c-47f9-98ec-38482694f533
 keywords:

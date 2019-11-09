@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDeviceCollection Item property
+title: IVMUSBDeviceCollection Item property (VPCCOMInterfaces.h)
 description: Retrieves the USB device object that corresponds to the specified index.
 ms.assetid: 664a038e-7c86-43a9-a376-c913d431dc93
 keywords:

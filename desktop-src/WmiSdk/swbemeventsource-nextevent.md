@@ -2,7 +2,7 @@
 Description: If an event is available, the NextEvent method of the SWbemEventSource object retrieves the event from an event query.
 ms.assetid: ff2d54d4-b8ee-4bb8-b6f7-081a1ca20489
 ms.tgt_platform: multiple
-title: SWbemEventSource.NextEvent method
+title: SWbemEventSource.NextEvent method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

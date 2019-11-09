@@ -1,5 +1,5 @@
 ---
-title: EM_GETUNDONAME message
+title: EM_GETUNDONAME message (Richedit.h)
 description: Microsoft Rich Edit 2.0 and later Retrieves the type of the next undo action, if any.Microsoft Rich Edit 1.0 This message is not supported.
 ms.assetid: 43351909-f8bc-425a-9d9b-655e3b47eb75
 keywords:

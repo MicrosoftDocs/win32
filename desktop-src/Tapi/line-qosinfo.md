@@ -1,7 +1,7 @@
 ---
 Description: The TSPI LINE\_QOSINFO message causes TAPI to fire a QOS event. See ITQOSEvent for additional information.
 ms.assetid: b2844d12-c524-42ab-aeb9-8daf4e07a436
-title: LINE_QOSINFO message
+title: LINE_QOSINFO message (Tspi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

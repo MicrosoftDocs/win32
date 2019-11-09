@@ -1,7 +1,7 @@
 ---
 Description: Creates and returns a Folder object for the specified folder.
 ms.assetid: c0d61bc6-6851-4b47-a62d-4c24d2958b98
-title: Shell.NameSpace method
+title: Shell.NameSpace method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

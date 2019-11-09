@@ -1,7 +1,7 @@
 ---
 Description: Adds a data object as a child of the ID3DXFileSaveData file data node.
 ms.assetid: 47faad99-3ee8-4ca8-b8d7-413d4cd5b090
-title: ID3DXFileSaveData::AddDataObject method
+title: ID3DXFileSaveData::AddDataObject method (D3DX9Xof.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

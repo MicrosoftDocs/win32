@@ -1,7 +1,7 @@
 ---
 Description: Reference count.
 ms.assetid: be619a85-ca73-4cee-9df7-20e7be21853b
-title: CUnknown::m_cRef member
+title: CUnknown::m_cRef member (Combase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

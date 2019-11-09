@@ -1,7 +1,7 @@
 ---
 Description: The ListReaderGroups method retrieves the names of the reader groups registered in the smart card database.
 ms.assetid: 81f6356a-92eb-4d27-abfe-e4a32de14d1c
-title: ISCardDatabase::ListReaderGroups method
+title: ISCardDatabase::ListReaderGroups method (Scardmgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: NM_RDBLCLK (list view) notification code
+title: NM_RDBLCLK (list view) notification code (Commctrl.h)
 description: Sent by a list-view control when the user double-clicks an item with the right mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ebbb127f-07bd-48e0-bf38-7bbda5802f70
 keywords:

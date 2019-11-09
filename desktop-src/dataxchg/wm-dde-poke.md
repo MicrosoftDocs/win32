@@ -1,5 +1,5 @@
 ---
-title: WM_DDE_POKE message
+title: WM_DDE_POKE message (Dde.h)
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_POKE message to a DDE server application.
 ms.assetid: 848142b7-a7ef-4206-9bb3-b511388cfaaa
 keywords:

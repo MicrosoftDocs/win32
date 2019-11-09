@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement RestoreLicenses method
+title: IWMDRMLicenseManagement RestoreLicenses method (Wmdrmsdk.h)
 description: The RestoreLicenses method restores licenses from a license backup that was created by calling the BackupLicenses method.
 ms.assetid: 83e4b748-0f69-4a9e-b531-047c9a2be1fe
 keywords:

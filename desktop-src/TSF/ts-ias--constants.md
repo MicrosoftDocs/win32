@@ -1,5 +1,5 @@
 ---
-title: TS_IAS_ Constants
+title: TS_IAS_ Constants (Textstor.h)
 description: The TS\_IAS\_\ constants are used as bitfield flags to control insertion of text or embedded objects at a selection or insertion point.
 ms.assetid: 58e0d13c-d90c-41d2-bd93-4eba5fe0a69a
 topic_type:

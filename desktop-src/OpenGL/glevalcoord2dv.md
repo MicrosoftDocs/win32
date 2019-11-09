@@ -1,5 +1,5 @@
 ---
-title: glEvalCoord2dv function
+title: glEvalCoord2dv function (Gl.h)
 description: The glEvalCoord2dv function evaluates enabled two-dimensional maps.
 ms.assetid: 726a0c0c-d69e-46dc-b78e-a0d1e9ad97cd
 keywords:

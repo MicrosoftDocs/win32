@@ -1,7 +1,7 @@
 ---
 Description: Specifies the RF overmodulation protection setting in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 2befb216-8735-4aed-80e7-22e31b2b147e
-title: AVEncDDRFPreEmphasisFilter property
+title: AVEncDDRFPreEmphasisFilter property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

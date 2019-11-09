@@ -1,5 +1,5 @@
 ---
-title: RB_DELETEBAND message
+title: RB_DELETEBAND message (Commctrl.h)
 description: Deletes a band from a rebar control.
 ms.assetid: 15f2ea78-5c3f-4fe1-a020-025c33f00703
 keywords:

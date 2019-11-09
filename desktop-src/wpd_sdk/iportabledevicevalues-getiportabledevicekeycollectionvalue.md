@@ -1,7 +1,7 @@
 ---
 Description: The GetIPortableDeviceKeyCollectionValue method retrieves an IPortableDeviceKeyCollection value (type VT\_UNKNOWN) specified by a key.
 ms.assetid: 131c8e05-9224-4db4-bdf6-0fd9c563e049
-title: IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue method
+title: IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue method (PortableDeviceTypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

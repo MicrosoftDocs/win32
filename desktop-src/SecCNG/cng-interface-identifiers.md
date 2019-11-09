@@ -1,7 +1,7 @@
 ---
 Description: The following identifiers are used to identify a CNG cryptographic interface.
 ms.assetid: 509c89ff-0c73-4e57-9c39-400522f2086e
-title: CNG Interface Identifiers
+title: CNG Interface Identifiers (Bcrypt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

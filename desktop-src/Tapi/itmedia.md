@@ -1,7 +1,7 @@
 ---
 Description: The ITMedia interface is a representation of media in a Session Descriptor Protocol (SDP, see RFC 2327).
 ms.assetid: f5cd7971-3456-4e2f-8808-deb16678099a
-title: ITMedia interface
+title: ITMedia interface (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

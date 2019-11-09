@@ -1,5 +1,5 @@
 ---
-title: TVM_SETLINECOLOR message
+title: TVM_SETLINECOLOR message (Commctrl.h)
 description: The TVM\_SETLINECOLOR message sets the current line color.
 ms.assetid: c5fc28af-5603-489f-aa6b-73e153f9aebc
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer PreviewStyle property
+title: IResultsViewer PreviewStyle property (WdsView.h)
 description: Controls the preview pane's display mode.
 ms.assetid: 750664ea-506a-4219-ade5-1c7f1ffbd0d7
 keywords:

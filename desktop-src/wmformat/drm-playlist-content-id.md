@@ -1,5 +1,5 @@
 ---
-title: DRM_PLAYLIST_CONTENT_ID structure
+title: DRM_PLAYLIST_CONTENT_ID structure (Drmexternals.h)
 description: The DRM\_PLAYLIST\_CONTENT\_ID structure contains information about content that is to be copied to CD as part of a playlist burn.
 ms.assetid: 124e86ac-b0d4-40b2-868b-fe2fed1898e1
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: BG_JOB_PROGRESS structure
+title: BG_JOB_PROGRESS structure (Deliveryoptimization.h)
 description: The BG_JOB_PROGRESS structure provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file.
 ms.assetid: F07BBDDE-FD34-4779-9E17-3789A8098616
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks PrimitiveTopologyTypeCb method
+title: ID3DX12PipelineParserCallbacks PrimitiveTopologyTypeCb method (D3DX12.h)
 description: Calls the primitive topology type subobject callback of an object that implements this interface.
 ms.assetid: FF9D8D5C-3A6A-40D8-8EA4-3EA305EB4568
 keywords:

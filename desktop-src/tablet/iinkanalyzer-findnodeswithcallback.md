@@ -1,7 +1,7 @@
 ---
 Description: Retrieves all of the IContextNode objects that match the specified criteria.
 ms.assetid: c0ba46f4-a286-454a-8de2-6663fd2dfed6
-title: IInkAnalyzer::FindNodesWithCallBack method
+title: IInkAnalyzer::FindNodesWithCallBack method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

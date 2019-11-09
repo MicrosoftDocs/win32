@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS Restart method
+title: IVMGuestOS Restart method (VPCCOMInterfaces.h)
 description: Restarts the guest operating system.
 ms.assetid: 328c7aa1-d9bd-452d-95dd-9f6a03fa8c9e
 keywords:

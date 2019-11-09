@@ -1,7 +1,7 @@
 ---
 Description: The ClearPendingSample method releases the current sample.
 ms.assetid: 55cb8eed-3ae5-4f45-a87e-e6da8ada5cf5
-title: CBaseRenderer.ClearPendingSample method
+title: CBaseRenderer.ClearPendingSample method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

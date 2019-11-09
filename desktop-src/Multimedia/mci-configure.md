@@ -1,5 +1,5 @@
 ---
-title: MCI_CONFIGURE command
+title: MCI_CONFIGURE command (Mmsystem.h)
 description: The MCI\_CONFIGURE command displays a dialog box for setting the operating options. Digital-video devices recognize this command.
 ms.assetid: 92683579-e6af-42a7-8a0f-6b88b04441f2
 keywords:

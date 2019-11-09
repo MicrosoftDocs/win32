@@ -1,5 +1,5 @@
 ---
-title: LVM_SETSELECTIONMARK message
+title: LVM_SETSELECTIONMARK message (Commctrl.h)
 description: Sets the selection mark in a list-view control. You can send this message explicitly or use the ListView\_SetSelectionMark macro.
 ms.assetid: 3218f1b3-b934-4083-aaaa-e10ef1dbb6bd
 keywords:

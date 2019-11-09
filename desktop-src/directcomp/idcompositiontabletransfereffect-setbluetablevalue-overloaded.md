@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTableTransferEffect SetBlueTableValue methods
+title: IDCompositionTableTransferEffect SetBlueTableValue methods (Dcomp.h)
 description: Sets a value in the blue table.
 ms.assetid: 9c7098d5-17aa-3154-02a7-7acf972a212d
 keywords:

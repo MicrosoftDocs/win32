@@ -1,5 +1,5 @@
 ---
-title: D3D12GetFormatPlaneCount function
+title: D3D12GetFormatPlaneCount function (D3dx12.h)
 description: Gets the number of planes for the specified DXGI format for the specified virtual adapter (an ID3D12Device).
 ms.assetid: CD21F6F9-A9AA-4CE8-A430-57C70326CB4B
 keywords:

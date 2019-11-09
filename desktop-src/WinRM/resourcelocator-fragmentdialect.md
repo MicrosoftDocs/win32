@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.FragmentDialect property
+title: ResourceLocator.FragmentDialect property (WSManDisp.h)
 description: Gets or sets the language dialect for a resource fragment dialect when ResourceLocator is used in Session object operations such as Session.Get, Session.Put, or Session.Enumerate.
 ms.assetid: 60b08084-f4b9-4049-b0cd-a7420fcffd7c
 ms.tgt_platform: multiple

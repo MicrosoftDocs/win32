@@ -1,7 +1,7 @@
 ---
 Description: The GetRecursiveLayerOfType method performs a depth-first ordering of the virtual tracks contained in this composition, and retrieves the nth virtual track from that ordering.
 ms.assetid: 409914fd-3faf-418f-bca1-8adf2948f422
-title: IAMTimelineComp::GetRecursiveLayerOfType method
+title: IAMTimelineComp::GetRecursiveLayerOfType method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: gluDeleteNurbsRenderer function
+title: gluDeleteNurbsRenderer function (Glu.h)
 description: The gluDeleteNurbsRenderer function destroys a Non-Uniform Rational B-Spline (NURBS) object.
 ms.assetid: 77063dcb-90b8-47e4-8b00-e1c46cf4f712
 keywords:

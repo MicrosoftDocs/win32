@@ -1,5 +1,5 @@
 ---
-title: glInterleavedArrays function
+title: glInterleavedArrays function (Gl.h)
 description: The glInterleavedArrays function simultaneously specifies and enables several interleaved arrays in a larger aggregate array.
 ms.assetid: f1133949-d755-43e3-bf29-8e4c7fb17980
 keywords:

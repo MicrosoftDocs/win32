@@ -1,5 +1,5 @@
 ---
-title: LVM_GETITEMCOUNT message
+title: LVM_GETITEMCOUNT message (Commctrl.h)
 description: Retrieves the number of items in a list-view control. You can send this message explicitly or by using the ListView\_GetItemCount macro.
 ms.assetid: 7c639d69-e42c-41b5-9fdd-4943166752a2
 keywords:

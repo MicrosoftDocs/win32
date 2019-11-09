@@ -1,5 +1,5 @@
 ---
-title: IVMTask Result property
+title: IVMTask Result property (VPCCOMInterfaces.h)
 description: Retrieves the result of the task.
 ms.assetid: 640279ef-94b8-4e8f-88f3-a97cec54c121
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Flags for Conversion Mode
+title: Flags for Conversion Mode (Ctffunc.h)
 description: The following flags are used as a value of GUID\_COMPARTMENT\_KEYBOARD\_INPUTMODE\_CONVERSION. This is equivalent with IME\_CMODE values for IMM32.
 ms.assetid: 6e545af5-5fdb-49de-b24e-aaee82b51326
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Authentication-Service Constants
+title: Authentication-Service Constants (Rpcdce.h)
 description: The authentication service constants represent the authentication services passed to various run-time functions.
 ms.assetid: ac95276f-230d-4993-92fe-1739d022c8b3
 topic_type:

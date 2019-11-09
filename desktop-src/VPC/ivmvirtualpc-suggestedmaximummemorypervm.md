@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC SuggestedMaximumMemoryPerVM property
+title: IVMVirtualPC SuggestedMaximumMemoryPerVM property (VPCCOMInterfaces.h)
 description: Retrieves the suggested maximum allowable quantity of physical memory per virtual machine, in megabytes, to avoid low memory conditions on the host.
 ms.assetid: 533cca40-f41d-4717-87ae-d8072414a637
 keywords:

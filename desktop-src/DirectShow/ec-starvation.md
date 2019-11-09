@@ -1,7 +1,7 @@
 ---
 Description: A filter is not receiving enough data.
 ms.assetid: c9cdfe46-02bb-4ea9-ac58-7d63e03c26d8
-title: EC_STARVATION
+title: EC_STARVATION (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

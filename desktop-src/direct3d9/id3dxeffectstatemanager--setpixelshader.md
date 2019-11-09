@@ -1,7 +1,7 @@
 ---
 Description: A callback function that must be implemented by a user to set a pixel shader.
 ms.assetid: 4124eff2-1d88-429c-b7ed-8d87155b5ddc
-title: ID3DXEffectStateManager::SetPixelShader method
+title: ID3DXEffectStateManager::SetPixelShader method (D3DX9Effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

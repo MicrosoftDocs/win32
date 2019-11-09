@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_IRIS
+title: WMT_VIDEOIMAGE_TRANSITION_IRIS (Wmsdkidl.h)
 description: The iris transition reveals the new image along an x-axis and a y-axis. The visual effect of this transition is that the new image appears in a widening cross reaching to all sides of the frame.
 ms.assetid: 7390d959-a566-43e7-937d-1e617bc98a6e
 keywords:

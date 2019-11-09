@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget DrawEllipse methods
+title: ID2D1RenderTarget DrawEllipse methods (D2d1.h)
 description: Draws the outline of an ellipse with the specified dimensions and stroke.
 ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
 keywords:

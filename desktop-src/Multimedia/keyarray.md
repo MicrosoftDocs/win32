@@ -1,5 +1,5 @@
 ---
-title: KEYARRAY
+title: KEYARRAY (Mmsystem.h)
 description: KEYARRAY specifies a type used to define an array of keys.
 ms.assetid: af1a1d2f-4558-4374-93ab-5a705fc879ca
 keywords:

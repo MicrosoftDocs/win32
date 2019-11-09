@@ -1,7 +1,7 @@
 ---
 Description: The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method.
 ms.assetid: 5c3b5f90-4194-4d65-9f1a-55edf327e3b3
-title: CBaseOutputPin.EndOfStream method
+title: CBaseOutputPin.EndOfStream method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

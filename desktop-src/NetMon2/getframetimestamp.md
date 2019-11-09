@@ -1,7 +1,7 @@
 ---
 Description: The GetFrameTimeStamp function returns the time stamp of a given frame.
 ms.assetid: 4ac50400-6674-40fa-9a69-9c0ccb55b92c
-title: GetFrameTimeStamp function
+title: GetFrameTimeStamp function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The get\_Height method retrieves the height of the target rectangle.
 ms.assetid: af555a7b-de0a-4c44-9623-f1ec8b44969a
-title: IDxtCompositor::get_Height method
+title: IDxtCompositor::get_Height method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

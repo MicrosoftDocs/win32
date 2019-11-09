@@ -1,7 +1,7 @@
 ---
 Description: Initiates the hashing of a stream of data.
 ms.assetid: 0EA7C98E-777C-4B2A-AF35-04F90BA3D024
-title: A_SHAInit function
+title: A_SHAInit function (Sha.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

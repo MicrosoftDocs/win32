@@ -1,5 +1,5 @@
 ---
-title: CB_GETMINVISIBLE message
+title: CB_GETMINVISIBLE message (Commctrl.h)
 description: Gets the minimum number of visible items in the drop-down list of a combo box.
 ms.assetid: 9861358a-1ef9-4d78-8ec8-561b97f3f18e
 keywords:

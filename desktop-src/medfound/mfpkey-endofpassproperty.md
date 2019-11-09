@@ -1,7 +1,7 @@
 ---
 Description: Specifies the end of an encoding pass.
 ms.assetid: 8a7e6e09-766c-4346-8893-eea5614b2aa4
-title: MFPKEY_ENDOFPASS Property
+title: MFPKEY_ENDOFPASS Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

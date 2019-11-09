@@ -1,5 +1,5 @@
 ---
-title: PGM_SETBKCOLOR message
+title: PGM_SETBKCOLOR message (Commctrl.h)
 description: Sets the current background color for the pager control. You can send this message explicitly or use the Pager\_SetBkColor macro.
 ms.assetid: 720a25d7-3854-4f28-b227-bafab7b1e8c9
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TBN_QUERYDELETE notification code
+title: TBN_QUERYDELETE notification code (Commctrl.h)
 description: Notifies the toolbar's parent window whether a button may be deleted from a toolbar while the user is customizing the toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: fa6a8fe4-a9a3-4c59-9237-d28bd34d664c
 keywords:

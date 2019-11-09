@@ -1,7 +1,7 @@
 ---
 Description: The SetMediaLength method specifies the duration of the source file.
 ms.assetid: 0a68ad50-91d5-4cb3-95ef-35b9460ac3e4
-title: IAMTimelineSrc::SetMediaLength method
+title: IAMTimelineSrc::SetMediaLength method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

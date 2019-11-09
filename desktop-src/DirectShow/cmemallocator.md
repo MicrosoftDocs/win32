@@ -1,7 +1,7 @@
 ---
 Description: Implements an allocator that supports the IMemAllocator interface.
 ms.assetid: c40eccef-d915-4bf3-81b2-b20e000718fb
-title: CMemAllocator class
+title: CMemAllocator class (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

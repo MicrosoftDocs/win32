@@ -1,7 +1,7 @@
 ---
 Description: The LINEGENERATETERM\_ bit-flag constants describe the conditions under which digit or tone generation is terminated.
 ms.assetid: 5cdc43c0-2349-4ffc-9bf7-3b498b35db95
-title: LINEGENERATETERM_ Constants
+title: LINEGENERATETERM_ Constants (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

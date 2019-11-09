@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the next top-level object in the DirectX file. Deprecated.
 ms.assetid: 91cd3205-5603-4a62-aab2-7ef4adb9e6d1
-title: IDirectXFileEnumObject::GetNextDataObject method
+title: IDirectXFileEnumObject::GetNextDataObject method (DXFile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

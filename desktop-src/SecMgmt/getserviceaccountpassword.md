@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the service account password.
 ms.assetid: B3D3842F-ACEB-4979-B336-BA3D0143044C
-title: GetServiceAccountPassword function
+title: GetServiceAccountPassword function (Secpkg.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

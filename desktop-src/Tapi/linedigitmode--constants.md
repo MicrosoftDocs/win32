@@ -1,7 +1,7 @@
 ---
 Description: The LINEDIGITMODE\_ constants describe different types of inband digit generation.
 ms.assetid: d603ea28-2b93-4548-bb16-78e93087f828
-title: LINEDIGITMODE_ Constants
+title: LINEDIGITMODE_ Constants (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

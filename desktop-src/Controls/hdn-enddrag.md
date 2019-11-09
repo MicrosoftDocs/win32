@@ -1,5 +1,5 @@
 ---
-title: HDN_ENDDRAG notification code
+title: HDN_ENDDRAG notification code (Commctrl.h)
 description: Sent by a header control when a drag operation has ended on one of its items. This notification code is sent as a WM\_NOTIFY message. Only header controls that are set to the HDS\_DRAGDROP style send this notification code.
 ms.assetid: a28df985-73f1-4fc7-a1db-81a86a131c06
 keywords:

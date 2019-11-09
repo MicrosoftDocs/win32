@@ -1,5 +1,5 @@
 ---
-title: TB_HIDEBUTTON message
+title: TB_HIDEBUTTON message (Commctrl.h)
 description: Hides or shows the specified button in a toolbar.
 ms.assetid: 57941a40-279a-426e-baf9-115429c62839
 keywords:

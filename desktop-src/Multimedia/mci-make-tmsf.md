@@ -1,5 +1,5 @@
 ---
-title: MCI_MAKE_TMSF macro
+title: MCI_MAKE_TMSF macro (Mciapi.h)
 description: The MCI\_MAKE\_TMSF macro creates a time value in packed tracks/minutes/seconds/frames (TMSF) format from the given tracks, minutes, seconds, and frames values.
 ms.assetid: ff2d6938-0ff7-46d5-92be-42b4b6f35524
 keywords:

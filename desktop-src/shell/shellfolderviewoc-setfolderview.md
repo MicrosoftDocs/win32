@@ -1,7 +1,7 @@
 ---
 Description: Forwards the events of the specified ShellFolderView object to the corresponding ShellFolderViewOC event handler.
 ms.assetid: 44a2a0a5-aa87-43ae-b4ea-0d301fcb8464
-title: ShellFolderViewOC.SetFolderView method
+title: ShellFolderViewOC.SetFolderView method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

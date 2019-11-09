@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether modes enumerated by the encoder are limeted to those that meet a quality requirement given by MFPKEY\_DESIRED\_VBRQUALITY.
 ms.assetid: b2f1d5c5-d2bb-4a8a-94ea-fd969e07bb0e
-title: MFPKEY_CONSTRAIN_ENUMERATED_VBRQUALITY Property
+title: MFPKEY_CONSTRAIN_ENUMERATED_VBRQUALITY Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

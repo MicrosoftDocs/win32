@@ -1,5 +1,5 @@
 ---
-title: glClearIndex function
+title: glClearIndex function (Gl.h)
 description: The glClearIndex function specifies the clear value for the color-index buffers.
 ms.assetid: 87983d93-c5a1-445f-8621-1c2952d93a0f
 keywords:

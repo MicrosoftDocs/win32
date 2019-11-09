@@ -1,7 +1,7 @@
 ---
 Description: Sets the algorithm used by the video processor.
 ms.assetid: 68AA3D7A-787F-4F0A-A6C6-A1C7E5D99719
-title: MF_VIDEO_PROCESSOR_ALGORITHM attribute
+title: MF_VIDEO_PROCESSOR_ALGORITHM attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

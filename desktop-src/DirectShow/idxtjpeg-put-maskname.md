@@ -1,7 +1,7 @@
 ---
 Description: The put\_MaskName method specifies the name of a JPEG file to use as the wipe mask.
 ms.assetid: f2b93c1e-479e-46c1-afe3-25b0ef720ab3
-title: IDxtJpeg::put_MaskName method
+title: IDxtJpeg::put_MaskName method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

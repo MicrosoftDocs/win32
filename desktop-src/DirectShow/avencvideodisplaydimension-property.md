@@ -1,7 +1,7 @@
 ---
 Description: Specifies the size of the video stream when it is decoded.
 ms.assetid: db7b101a-5ff8-4a62-b9e2-d05fcdc44b3d
-title: AVEncVideoDisplayDimension property
+title: AVEncVideoDisplayDimension property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

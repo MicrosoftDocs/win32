@@ -1,7 +1,7 @@
 ---
 Description: The standard Windows Image Acquisition (WIA) video driver (wiavusd.dll) supports the following properties for streaming video devices.
 ms.assetid: 24fa7e02-c409-49ec-b1a9-309f7c95e292
-title: Video WIA Device Property Constants
+title: Video WIA Device Property Constants (Wiadef.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

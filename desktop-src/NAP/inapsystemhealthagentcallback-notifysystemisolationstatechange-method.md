@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentCallback NotifySystemIsolationStateChange method
+title: INapSystemHealthAgentCallback NotifySystemIsolationStateChange method (NapSystemHealthAgent.h)
 description: Is called by the NapAgent to indicate that the system isolation state or the probation end-time has changed.
 ms.assetid: 0837eea4-6d92-44dc-b8b8-eca6be5f63e6
 keywords:

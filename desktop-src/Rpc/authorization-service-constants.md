@@ -1,5 +1,5 @@
 ---
-title: Authorization-Service Constants
+title: Authorization-Service Constants (Rpcdce.h)
 description: The authorization service constants represent the authorization services passed to various run-time functions.
 ms.assetid: b773bb51-7af0-4eb3-9438-fe3ef9a350db
 topic_type:

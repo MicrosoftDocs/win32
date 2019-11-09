@@ -1,7 +1,7 @@
 ---
 Description: Indicates that the user pressed the F1 key.
 ms.assetid: 6a090125-67dd-4267-9973-10e32c6e4f1f
-title: WM_HELP message
+title: WM_HELP message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,6 +1,6 @@
 ---
 Description: Displays your open windows in a 3D stack that you can flip through.
-title: IShellDispatch5.WindowSwitcher method
+title: IShellDispatch5.WindowSwitcher method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

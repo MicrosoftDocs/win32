@@ -1,7 +1,7 @@
 ---
 Description: Uses a user-provided function to fill each texel of each mip level of a given texture.
 ms.assetid: 9c822472-2bbf-4629-bdb3-6491573e8de2
-title: D3DXFillTexture function
+title: D3DXFillTexture function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

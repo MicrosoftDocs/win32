@@ -1,5 +1,5 @@
 ---
-title: glTexImage1D function
+title: glTexImage1D function (Gl.h)
 description: The glTexImage1D function specifies a one-dimensional texture image.
 ms.assetid: 4f537b89-2ea2-4e2e-8c57-c372bf53f12c
 keywords:

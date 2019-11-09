@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilterCollection RemoveItem property
+title: IPropertyFilterCollection RemoveItem property (WdsSharedIDL.h)
 description: Removes a specific filter to the collection.
 ms.assetid: a8b8a1f7-d47a-45dc-81c9-f01ecf6c1560
 keywords:

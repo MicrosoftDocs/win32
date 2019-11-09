@@ -1,5 +1,5 @@
 ---
-title: BG_ERROR_CONTEXT enumeration
+title: BG_ERROR_CONTEXT enumeration (Deliveryoptimization.h)
 description: The BG_ERROR_CONTEXT enumeration defines the constant values that specify the context in which the error occurred.
 ms.assetid: 86202343-5B5B-4A2E-A58D-7634BCB41E1C
 keywords:

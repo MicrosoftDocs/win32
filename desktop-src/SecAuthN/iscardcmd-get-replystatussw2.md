@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the reply APDU SW2 status byte.
 ms.assetid: 24ad0164-84fc-4a99-b9dd-0f7d789dff92
-title: ISCardCmd::get_ReplyStatusSW2 method
+title: ISCardCmd::get_ReplyStatusSW2 method (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

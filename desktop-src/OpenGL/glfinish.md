@@ -1,5 +1,5 @@
 ---
-title: glFinish function
+title: glFinish function (Gl.h)
 description: The glFinish function blocks until all OpenGL execution is complete.
 ms.assetid: 1dcb4767-02ea-41d8-bf1f-d61d20873d4f
 keywords:

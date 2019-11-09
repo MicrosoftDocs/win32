@@ -1,7 +1,7 @@
 ---
 Description: Specifies that the media source will be created in a remote process.
 ms.assetid: 3a2f9ff5-1780-40f3-b36b-3a7cccb47d05
-title: MF_SESSION_REMOTE_SOURCE_MODE attribute
+title: MF_SESSION_REMOTE_SOURCE_MODE attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

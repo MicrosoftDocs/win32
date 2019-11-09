@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentCallback GetFixupInfo method
+title: INapSystemHealthAgentCallback GetFixupInfo method (NapSystemHealthAgent.h)
 description: Is called by the NapAgent to determine the state of the system health agent, while it is processing a SoHResponse.
 ms.assetid: cf919b56-3d40-4c49-9c91-25c20ae5ccda
 keywords:

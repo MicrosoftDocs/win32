@@ -1,5 +1,5 @@
 ---
-title: glIsList function
+title: glIsList function (Gl.h)
 description: The gllsList function tests for display list existence.
 ms.assetid: 86ef3684-8047-4ee4-befd-ec26bcd036c3
 keywords:

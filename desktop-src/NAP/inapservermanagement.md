@@ -1,5 +1,5 @@
 ---
-title: INapServerManagement interface
+title: INapServerManagement interface (NapServerManagement.h)
 description: Are used to manage the NAP Server.
 ms.assetid: 5c4f9bf1-fe82-48f5-8aa4-5c73ab01a78a
 keywords:

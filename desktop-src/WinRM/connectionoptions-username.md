@@ -1,5 +1,5 @@
 ---
-title: ConnectionOptions.UserName property
+title: ConnectionOptions.UserName property (WSManDisp.h)
 description: Sets and gets the user name of a local or a domain account on the remote computer. This property determines the user name for authentication.
 ms.assetid: e8f70143-f002-4b39-97a3-006b9713262d
 ms.tgt_platform: multiple

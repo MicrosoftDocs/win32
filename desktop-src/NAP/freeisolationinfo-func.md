@@ -1,5 +1,5 @@
 ---
-title: FreeIsolationInfo function
+title: FreeIsolationInfo function (NapUtil.h)
 description: Frees an IsolationInfo data structure.
 ms.assetid: 639cfa74-0823-4a19-9cbe-dd6f0a38e7eb
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.
 ms.assetid: c9158292-281b-4a02-b280-956e340d225c
-title: RegisterTraceGuids function
+title: RegisterTraceGuids function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

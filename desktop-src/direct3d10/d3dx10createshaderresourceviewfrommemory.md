@@ -1,7 +1,7 @@
 ---
 Description: Create a shader-resource view from a file in memory.
 ms.assetid: 8316987f-75b4-4cee-a1f2-10bee77a28e6
-title: D3DX10CreateShaderResourceViewFromMemory function
+title: D3DX10CreateShaderResourceViewFromMemory function (D3DX10Tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

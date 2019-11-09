@@ -1,5 +1,5 @@
 ---
-title: glCopyTexImage1D function
+title: glCopyTexImage1D function (Gl.h)
 description: The glCopyTexImage1D function copies pixels from the framebuffer into a one-dimensional texture image.
 ms.assetid: 3b4d12d5-5efe-40d2-ac5f-95ea5ef243dd
 keywords:

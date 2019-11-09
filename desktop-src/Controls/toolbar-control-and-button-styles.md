@@ -1,5 +1,5 @@
 ---
-title: Toolbar Control and Button Styles
+title: Toolbar Control and Button Styles (CommCtrl.h)
 description: The following window styles are specific to toolbars.
 ms.assetid: 75dc0c2c-6d1d-4b13-b0df-2cc541a9b1bb
 topic_type:

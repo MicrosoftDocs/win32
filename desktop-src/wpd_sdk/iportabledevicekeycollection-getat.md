@@ -1,7 +1,7 @@
 ---
 Description: The GetAt method retrieves a PROPERTYKEY from the collection by index.
 ms.assetid: 9a3c5c28-39b4-4d53-a8d7-0f5a0d4d89ad
-title: IPortableDeviceKeyCollection::GetAt method
+title: IPortableDeviceKeyCollection::GetAt method (PortableDeviceTypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

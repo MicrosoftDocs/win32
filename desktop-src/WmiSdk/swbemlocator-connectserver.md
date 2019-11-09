@@ -2,7 +2,7 @@
 Description: Connects to the namespace on the computer that is specified in the strServer parameter.
 ms.assetid: 31364c68-b031-4cf0-851f-b4e302f077e0
 ms.tgt_platform: multiple
-title: SWbemLocator.ConnectServer method
+title: SWbemLocator.ConnectServer method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

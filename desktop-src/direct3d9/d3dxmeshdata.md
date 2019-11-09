@@ -1,7 +1,7 @@
 ---
 Description: Mesh data structure.
 ms.assetid: 9164b956-95b7-4bc0-bf7e-feed2e3b4a2b
-title: D3DXMESHDATA structure
+title: D3DXMESHDATA structure (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine ChassisAssetTag property
+title: IVMVirtualMachine ChassisAssetTag property (VPCCOMInterfaces.h)
 description: Chassis asset tag.
 ms.assetid: 469816a8-3078-4960-a5e1-79d65b5fc8fc
 keywords:

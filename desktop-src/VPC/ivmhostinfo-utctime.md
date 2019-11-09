@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo UTCTime property
+title: IVMHostInfo UTCTime property (VPCCOMInterfaces.h)
 description: Retrieves the UTC time on the host machine.
 ms.assetid: 07f9b042-0eb6-4cb5-b70b-6fcd3456d46b
 keywords:

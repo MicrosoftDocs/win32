@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable SetInt method
+title: ID3DX11EffectScalarVariable SetInt method (D3dx11effect.h)
 description: Set an integer variable.
 ms.assetid: 614284be-8f70-4d7e-b797-b67e813615ab
 keywords:

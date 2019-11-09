@@ -1,5 +1,5 @@
 ---
-title: COLOROKSTRING message
+title: COLOROKSTRING message (Commdlg.h)
 description: A Color dialog box sends the COLOROKSTRING registered message to your hook procedure, CCHookProc, when the user selects a color and clicks the OK button.
 ms.assetid: 18b28558-1262-4c88-becf-76ce799b7542
 keywords:

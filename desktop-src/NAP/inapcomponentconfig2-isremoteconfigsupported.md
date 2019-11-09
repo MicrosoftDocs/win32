@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig2 IsRemoteConfigSupported method
+title: INapComponentConfig2 IsRemoteConfigSupported method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) to indicate whether remote configuration is supported.
 ms.assetid: c4b8e60b-ed60-49ec-b4d6-4e1575e4d1a5
 keywords:

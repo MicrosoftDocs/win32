@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive ReleaseHostDrive method
+title: IVMDVDDrive ReleaseHostDrive method (VPCCOMInterfaces.h)
 description: Releases a captured host drive from the DVD drive.
 ms.assetid: 88bbe364-0c39-40c2-89e7-22ffd66259a2
 keywords:

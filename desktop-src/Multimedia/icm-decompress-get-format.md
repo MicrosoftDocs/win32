@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESS_GET_FORMAT message
+title: ICM_DECOMPRESS_GET_FORMAT message (Vfw.h)
 description: The ICM\_DECOMPRESS\_GET\_FORMAT message requests the output format of the decompressed data from a video decompression driver. You can send this message explicitly or by using the ICDecompressGetFormat macro.
 ms.assetid: 51753f47-758b-4d3e-9a53-9db284da2473
 keywords:

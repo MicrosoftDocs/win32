@@ -1,5 +1,5 @@
 ---
-title: WM_GETHOTKEY message
+title: WM_GETHOTKEY message (Winuser.h)
 description: Sent to determine the hot key associated with a window.
 ms.assetid: 6f527758-e713-47a8-a571-3bf3270f0b33
 keywords:

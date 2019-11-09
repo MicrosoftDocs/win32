@@ -1,7 +1,7 @@
 ---
 Description: Notifies the system that an appbar has been activated. An appbar should call this message in response to the WM\_ACTIVATE message.
 ms.assetid: 16011302-7c2d-4c34-9953-51cceb96e4b3
-title: ABM_ACTIVATE message
+title: ABM_ACTIVATE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Raised by a stream sink when it completes a scrubbing request.
 ms.assetid: 451c7e09-868e-4c05-b970-d222b97223f2
-title: MEStreamSinkScrubSampleComplete event
+title: MEStreamSinkScrubSampleComplete event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

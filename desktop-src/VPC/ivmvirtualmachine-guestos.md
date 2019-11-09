@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine GuestOS property
+title: IVMVirtualMachine GuestOS property (VPCCOMInterfaces.h)
 description: Retrieves the guest operating system for this virtual machine.
 ms.assetid: 9cca2a4a-e3bb-4c41-873c-e5bc4863c415
 keywords:

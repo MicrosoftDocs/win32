@@ -1,7 +1,7 @@
 ---
 Description: Sets the size and screen position of an appbar.
 ms.assetid: b3c56278-b9a2-4e08-bf98-7b3e4c8bd082
-title: ABM_SETPOS message
+title: ABM_SETPOS message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

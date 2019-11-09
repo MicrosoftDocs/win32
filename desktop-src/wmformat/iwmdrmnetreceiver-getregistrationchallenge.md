@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNetReceiver GetRegistrationChallenge method
+title: IWMDRMNetReceiver GetRegistrationChallenge method (Wmdrmsdk.h)
 description: The GetRegistrationChallenge method generates a Windows Media DRM for Network Devices registration challenge message.
 ms.assetid: 7b3641a1-ccc5-4e29-b0e9-808b111f8841
 keywords:

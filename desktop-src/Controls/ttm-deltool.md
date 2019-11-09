@@ -1,5 +1,5 @@
 ---
-title: TTM_DELTOOL message
+title: TTM_DELTOOL message (Commctrl.h)
 description: Removes a tool from a tooltip control.
 ms.assetid: 433b6f1c-3e9f-4e3a-9834-d447a3f9e6a5
 keywords:

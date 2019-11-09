@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_USER_DATA message
+title: WM_CAP_SET_USER_DATA message (Vfw.h)
 description: The WM\_CAP\_SET\_USER\_DATA message associates a LONG\_PTR data value with a capture window. You can send this message explicitly or by using the capSetUserData macro.
 ms.assetid: 067502e3-f009-4cf2-b612-4a0b64624416
 keywords:

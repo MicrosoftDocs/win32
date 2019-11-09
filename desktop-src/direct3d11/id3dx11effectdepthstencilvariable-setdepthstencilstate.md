@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilVariable SetDepthStencilState method
+title: ID3DX11EffectDepthStencilVariable SetDepthStencilState method (D3dx11effect.h)
 description: Sets the depth stencil state.
 ms.assetid: 4ece246f-4466-4790-8f38-450b67fff7c6
 keywords:

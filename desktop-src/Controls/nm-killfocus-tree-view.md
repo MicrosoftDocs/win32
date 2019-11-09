@@ -1,5 +1,5 @@
 ---
-title: NM_KILLFOCUS (tree view) notification code
+title: NM_KILLFOCUS (tree view) notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window that the control has lost the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: f6646a39-6480-4417-9c1c-ffd2417ca7dd
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: RB_GETROWHEIGHT message
+title: RB_GETROWHEIGHT message (Commctrl.h)
 description: Retrieves the height of a specified row in a rebar control.
 ms.assetid: 1ff6a32e-b344-4dbc-b4a4-fb13f11a9d8c
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM_EDITLABEL message
+title: LVM_EDITLABEL message (Commctrl.h)
 description: Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can send this message explicitly or by using the ListView\_EditLabel macro.
 ms.assetid: b63f13f1-6e66-4770-af84-30bcdb241727
 keywords:

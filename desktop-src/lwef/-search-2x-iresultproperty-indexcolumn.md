@@ -1,5 +1,5 @@
 ---
-title: IResultProperty IndexColumn property
+title: IResultProperty IndexColumn property (WdsSharedIDL.h)
 description: Properties column name in the index.
 ms.assetid: a043be43-49ef-46e0-bfb6-01104288e9ef
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCProduceDummyFrames
+title: g_wszWMVCProduceDummyFrames (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: da52f80a-3ec1-4929-9206-9daf0aae4fe5
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IADsMembers Property Methods
+title: IADsMembers Property Methods (Iads.h)
 description: The methods of the IADsMembers interface read and write the properties described in this topic. For more information, see Interface Property Methods.
 ms.assetid: ed4e98e5-053c-4d3b-bcd0-3add96bbe120
 ms.tgt_platform: multiple

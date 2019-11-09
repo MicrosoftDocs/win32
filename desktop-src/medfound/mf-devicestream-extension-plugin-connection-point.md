@@ -1,7 +1,7 @@
 ---
 Description: Represents a extension plugin connection point.
 ms.assetid: AA95639E-8B20-4714-AFD3-1A492F13FF12
-title: MF_DEVICESTREAM_EXTENSION_PLUGIN_CONNECTION_POINT attribute
+title: MF_DEVICESTREAM_EXTENSION_PLUGIN_CONNECTION_POINT attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

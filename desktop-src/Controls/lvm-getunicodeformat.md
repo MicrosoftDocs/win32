@@ -1,5 +1,5 @@
 ---
-title: LVM_GETUNICODEFORMAT message
+title: LVM_GETUNICODEFORMAT message (Commctrl.h)
 description: Retrieves the UNICODE character format flag for the control. You can send this message explicitly or use the ListView\_GetUnicodeFormat macro.
 ms.assetid: b0598b60-4d0e-4c68-b63a-e614c6268129
 keywords:

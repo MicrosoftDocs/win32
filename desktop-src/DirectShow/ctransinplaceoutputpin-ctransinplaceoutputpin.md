@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: fe7b2d62-0e6a-4253-b469-6cede5dc9bb1
-title: CTransInPlaceOutputPin.CTransInPlaceOutputPin constructor
+title: CTransInPlaceOutputPin.CTransInPlaceOutputPin constructor (Transip.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

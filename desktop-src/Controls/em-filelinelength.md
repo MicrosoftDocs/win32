@@ -1,5 +1,5 @@
 ---
-title: EM_FILELINELENGTH message
+title: EM_FILELINELENGTH message (CommCtrl.h)
 description: Retrieves the length, in characters, of a line in an edit control, independently of how lines are displayed on the screen.
 ms.assetid: cfb0632c-9ba9-4864-939a-dbbaed6c177e
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SBN_SIMPLEMODECHANGE notification code
+title: SBN_SIMPLEMODECHANGE notification code (Commctrl.h)
 description: Sent by a status bar control when the simple mode changes due to a SB\_SIMPLE message. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b2df8feb-5028-4488-a99b-4ceff5b48a92
 keywords:

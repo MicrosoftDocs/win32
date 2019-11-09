@@ -1,5 +1,5 @@
 ---
-title: IResultType PropertyCount property
+title: IResultType PropertyCount property (WdsSharedIDL.h)
 description: This property contains the number of properties exposed by the type.
 ms.assetid: 4ca4b18c-d228-4275-b00d-06c6f227e0ae
 keywords:

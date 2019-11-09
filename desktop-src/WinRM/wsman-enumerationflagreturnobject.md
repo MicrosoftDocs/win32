@@ -1,5 +1,5 @@
 ---
-title: WSMan.EnumerationFlagReturnObject method
+title: WSMan.EnumerationFlagReturnObject method (WSManDisp.h)
 description: Returns the value of the enumeration flag EnumerationFlagReturnObject for use in the flags parameter of Session.Enumerate.
 ms.assetid: a1d82530-63d7-4050-9e82-e31bec93bf38
 ms.tgt_platform: multiple

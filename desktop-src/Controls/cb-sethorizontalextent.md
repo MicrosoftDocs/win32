@@ -1,5 +1,5 @@
 ---
-title: CB_SETHORIZONTALEXTENT message
+title: CB_SETHORIZONTALEXTENT message (Winuser.h)
 description: An application sends the CB\_SETHORIZONTALEXTENT message to set the width, in pixels, by which a list box can be scrolled horizontally (the scrollable width).
 ms.assetid: 85e8ff4f-ad9a-451c-b791-bd442b32d716
 keywords:

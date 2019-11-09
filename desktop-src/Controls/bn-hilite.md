@@ -1,5 +1,5 @@
 ---
-title: BN_HILITE notification code
+title: BN_HILITE notification code (Winuser.h)
 description: Sent when the user selects a button.
 ms.assetid: f20ba77e-257c-44ec-a2dd-dbf23cd78d07
 keywords:

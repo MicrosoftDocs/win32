@@ -1,7 +1,7 @@
 ---
 Description: Represents information maintained on the partition manager about a disk that is part of a cluster.
 ms.assetid: 9138F61A-E295-4F5B-AD65-361FCCB3C4B7
-title: DISK_CLUSTER_INFO structure
+title: DISK_CLUSTER_INFO structure (Ntdddisk.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

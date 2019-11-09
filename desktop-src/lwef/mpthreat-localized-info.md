@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_LOCALIZED_INFO structure
+title: MPTHREAT_LOCALIZED_INFO structure (MpClient.h)
 description: Localized information for a threat.
 ms.assetid: 99DC9737-9A61-4407-B544-A7A979C5B556
 keywords:

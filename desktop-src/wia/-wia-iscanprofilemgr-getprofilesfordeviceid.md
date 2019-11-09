@@ -1,7 +1,7 @@
 ---
 Description: Gets all the scan profiles associated with a device.
 ms.assetid: 2e509f01-9c5e-4d17-8888-b08b6b4b9fa9
-title: IScanProfileMgr::GetProfilesforDeviceID method
+title: IScanProfileMgr::GetProfilesforDeviceID method (Scanprofilemgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

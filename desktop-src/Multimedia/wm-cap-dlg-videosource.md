@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_DLG_VIDEOSOURCE message
+title: WM_CAP_DLG_VIDEOSOURCE message (Vfw.h)
 description: The WM\_CAP\_DLG\_VIDEOSOURCE message displays a dialog box in which the user can control the video source.
 ms.assetid: 8dc2f271-1f48-4e63-badf-9f3322063018
 keywords:

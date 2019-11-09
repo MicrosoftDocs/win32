@@ -1,7 +1,7 @@
 ---
 Description: Gets the next specified number of provider types in the enumeration sequence.
 ms.assetid: 9a1d0db0-1e9b-48f8-b373-2a82a48e4f63
-title: IEnumPStoreTypes::Next method
+title: IEnumPStoreTypes::Next method (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

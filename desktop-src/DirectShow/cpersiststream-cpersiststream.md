@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 48143a61-5ba7-4bf9-bffa-244f2769144d
-title: CPersistStream.CPersistStream constructor
+title: CPersistStream.CPersistStream constructor (Pstream.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: INapSoHProcessor GetNumberOfAttributes method
+title: INapSoHProcessor GetNumberOfAttributes method (NapProtocol.h)
 description: Retrieves the total number of attributes in the SoH.
 ms.assetid: ee0b1857-65a7-47bb-ae91-c939344a24d0
 keywords:

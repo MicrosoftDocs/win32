@@ -1,5 +1,5 @@
 ---
-title: Session.Delete method
+title: Session.Delete method (WSManDisp.h)
 description: Deletes the resource specified in the resource URI.
 ms.assetid: 8803d35d-674c-483d-866b-37129102c7ce
 ms.tgt_platform: multiple

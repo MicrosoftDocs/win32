@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the Direct3D device associated with the line object.
 ms.assetid: 42459668-aa18-478d-82d9-b8b25dc4a898
-title: ID3DXLine::GetDevice method
+title: ID3DXLine::GetDevice method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

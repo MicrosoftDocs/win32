@@ -1,5 +1,5 @@
 ---
-title: HDN_BEGINTRACK notification code
+title: HDN_BEGINTRACK notification code (Commctrl.h)
 description: Notifies a header control's parent window that the user has begun dragging a divider in the control (that is, the user has pressed the left mouse button while the mouse cursor is on a divider in the header control).
 ms.assetid: 363b14bc-2b7e-4c37-9caf-7671fcc3cfa5
 keywords:

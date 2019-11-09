@@ -1,5 +1,5 @@
 ---
-title: Button Styles
+title: Button Styles (Winuser.h)
 description: Specifies a combination of button styles. If you create a button using the BUTTON class with the CreateWindow or CreateWindowEx function, you can specify any of the button styles listed below.
 ms.assetid: 30254cb5-43cd-407f-8ad6-bd7f9ec3edc7
 topic_type:

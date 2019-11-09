@@ -1,5 +1,5 @@
 ---
-title: WM_CHOOSEFONT_GETLOGFONT message
+title: WM_CHOOSEFONT_GETLOGFONT message (Commdlg.h)
 description: An application sends the WM\_CHOOSEFONT\_GETLOGFONT message to a Font dialog box to retrieve information about the user's current font selections.
 ms.assetid: afbf953a-13dd-409b-a988-f1426c8bbd31
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagUTF8 method
+title: WSMan.SessionFlagUTF8 method (WSManDisp.h)
 description: Returns the value of the WSManFlagUTF8 authentication flag for use in the flags parameter of WSMan.CreateSession.
 ms.assetid: a79e292a-364b-4bf3-ae66-6a15ad51524f
 ms.tgt_platform: multiple

@@ -1,7 +1,7 @@
 ---
 Description: Occurs when an application-specific gesture is recognized.
 ms.assetid: 5830f7f8-2870-4194-ab3e-b63b71e97063
-title: InkCollector.Gesture event
+title: InkCollector.Gesture event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

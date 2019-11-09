@@ -1,5 +1,5 @@
 ---
-title: LVN_LINKCLICK notification code
+title: LVN_LINKCLICK notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that a link has been clicked on. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: de8f40d6-b79e-4324-af67-9a3c0915609d
 keywords:

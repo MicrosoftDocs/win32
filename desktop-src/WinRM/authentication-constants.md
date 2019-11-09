@@ -1,5 +1,5 @@
 ---
-title: Authentication Constants
+title: Authentication Constants (WSManDisp.h)
 description: Specify the authentication method and how to handle certificate servers for HTTPS transport of requests.
 ms.assetid: adfefbc9-c386-48db-a0c2-145aa4f91bfa
 ms.tgt_platform: multiple

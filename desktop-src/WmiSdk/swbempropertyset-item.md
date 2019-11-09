@@ -2,7 +2,7 @@
 Description: The Item method of the SWbemPropertySet object gets a named SWbemProperty from the collection. This is the default method for this object.
 ms.assetid: 72025676-01dd-4fd7-b000-de6b09ecc6dc
 ms.tgt_platform: multiple
-title: SWbemPropertySet.Item method
+title: SWbemPropertySet.Item method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

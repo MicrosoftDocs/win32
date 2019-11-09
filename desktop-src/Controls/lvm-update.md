@@ -1,5 +1,5 @@
 ---
-title: LVM_UPDATE message
+title: LVM_UPDATE message (Commctrl.h)
 description: Updates a list-view item. If the list-view control has the LVS\_AUTOARRANGE style, this macro causes the list-view control to be arranged. You can send this message explicitly or by using the ListView\_Update macro.
 ms.assetid: 81b332e9-4bea-481e-a7c5-613371103550
 keywords:

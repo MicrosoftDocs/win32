@@ -1,5 +1,5 @@
 ---
-title: glTexGend function
+title: glTexGend function (Gl.h)
 description: Controls the generation of texture coordinates.
 ms.assetid: 75ab3468-281d-4c8d-95cc-138d75646cdf
 keywords:

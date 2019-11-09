@@ -1,7 +1,7 @@
 ---
 Description: Specifies the compression control mode for a Dolby AC-3 audio stream.
 ms.assetid: c235f28e-94b2-44ec-9915-c4161b40a71c
-title: AVDecDDOperationalMode property
+title: AVDecDDOperationalMode property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

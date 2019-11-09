@@ -1,7 +1,7 @@
 ---
 Description: This topic lists the SaveAdd methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
 ms.assetid: e597f6e6-6e07-4afb-8905-26e4af961685
-title: Image.SaveAdd methods
+title: Image.SaveAdd methods (Gdiplusheaders.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

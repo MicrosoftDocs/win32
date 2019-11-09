@@ -1,5 +1,5 @@
 ---
-title: IWMPErrorItem2 (VB and C ) interface
+title: IWMPErrorItem2 (VB and C ) interface (Wmp.h)
 description: Provides a property for getting an error condition code.
 ms.assetid: 0393cebd-88c0-4bfd-8890-4c456ec19b57
 keywords:

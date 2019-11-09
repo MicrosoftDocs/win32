@@ -1,5 +1,5 @@
 ---
-title: MCI_HMS_MINUTE macro
+title: MCI_HMS_MINUTE macro (Mciapi.h)
 description: The MCI\_HMS\_MINUTE macro retrieves the minutes component from a parameter containing packed hours/minutes/seconds (HMS) information.
 ms.assetid: d083f769-9825-48cc-80f9-34ce3ef66ad6
 keywords:

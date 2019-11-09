@@ -1,7 +1,7 @@
 ---
 Description: The SetSize method changes the size of the stream object.
 ms.assetid: e4027a98-fce4-4db4-a9fe-e7e7436b5147
-title: IByteBuffer::SetSize method
+title: IByteBuffer::SetSize method (Scardssp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

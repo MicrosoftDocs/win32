@@ -1,5 +1,5 @@
 ---
-title: glEnd function
+title: glEnd function (Gl.h)
 description: The glBegin and glend functions delimit the vertices of a primitive or a group of like primitives.
 ms.assetid: 040f8573-683c-4a8a-ae51-66abb0541ac4
 keywords:

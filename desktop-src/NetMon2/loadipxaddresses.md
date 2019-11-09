@@ -1,7 +1,7 @@
 ---
 Description: The LoadIPXAddresses function is called by the monitor to fill in an IPX address list taken from an HTML configuration string variable.
 ms.assetid: d8ffd00b-2741-49e8-a90d-d41e56ee7101
-title: LoadIPXAddresses function
+title: LoadIPXAddresses function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

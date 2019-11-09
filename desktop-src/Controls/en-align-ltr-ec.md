@@ -1,5 +1,5 @@
 ---
-title: EN_ALIGN_LTR_EC notification code
+title: EN_ALIGN_LTR_EC notification code (Winuser.h)
 description: Sent when the user has changed the edit control direction to left-to-right. The parent window of the edit control receives this notification code through a WM\_COMMAND message.
 ms.assetid: 231f9d00-c5a5-445e-9176-201fe1c14a0e
 keywords:

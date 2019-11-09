@@ -1,5 +1,5 @@
 ---
-title: TCM_GETEXTENDEDSTYLE message
+title: TCM_GETEXTENDEDSTYLE message (Commctrl.h)
 description: Retrieves the extended styles that are currently in use for the tab control. You can send this message explicitly or by using the TabCtrl\_GetExtendedStyle macro.
 ms.assetid: 983ffcbe-0d8d-4686-83de-fc564744390f
 keywords:

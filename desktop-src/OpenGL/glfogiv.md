@@ -1,5 +1,5 @@
 ---
-title: glFogiv function
+title: glFogiv function (Gl.h)
 description: The glFogfv function specifies fog parameters.
 ms.assetid: 8d920ddc-6155-412d-af10-585932cb149f
 keywords:

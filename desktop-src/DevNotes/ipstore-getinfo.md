@@ -1,7 +1,7 @@
 ---
 Description: Returns information on the storage provider.
 ms.assetid: bdacb5bb-a37a-4970-add7-57625bec1ce0
-title: IPStore::GetInfo method
+title: IPStore::GetInfo method (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

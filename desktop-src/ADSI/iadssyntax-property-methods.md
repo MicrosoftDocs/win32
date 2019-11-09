@@ -1,5 +1,5 @@
 ---
-title: IADsSyntax Property Methods
+title: IADsSyntax Property Methods (Iads.h)
 description: The property methods of the IADsSyntax interface get or set the properties listed in the following table. For more information about property methods, see Interface Property Methods.
 ms.assetid: a216a55d-63eb-4fdf-a67f-8d4b5eb74262
 ms.tgt_platform: multiple

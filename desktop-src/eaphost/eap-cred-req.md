@@ -1,5 +1,5 @@
 ---
-title: EAP\_CRED\_REQ
+title: EAP\_CRED\_REQ (Eaptypes.h)
 description: Stores EAP security credentials within a EAP\_CONFIG\_INPUT\_FIELD\_ARRAY structure.
 ms.assetid: 537a90fc-4dd2-44d4-93da-949f31130ac4
 keywords:

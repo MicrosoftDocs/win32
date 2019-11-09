@@ -1,7 +1,7 @@
 ---
 Description: Defines a range.
 ms.assetid: 28e8c478-f6ce-4f75-95c6-ea2d08424238
-title: D3DRANGE structure
+title: D3DRANGE structure (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

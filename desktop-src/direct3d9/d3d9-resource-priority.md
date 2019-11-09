@@ -1,7 +1,7 @@
 ---
 Description: Constants used to set the priority of a resource in SetPriority.
 ms.assetid: 98886349-883f-41c3-870b-e4a639977760
-title: D3D9_RESOURCE_PRIORITY
+title: D3D9_RESOURCE_PRIORITY (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

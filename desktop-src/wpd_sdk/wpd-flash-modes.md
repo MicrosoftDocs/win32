@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_FLASH\_MODES enumeration type describes a flash mode to use when capturing images with a device.
 ms.assetid: 4e92c86d-2f35-4bc6-8d37-ec1ab5c518b2
-title: WPD_FLASH_MODES enumeration
+title: WPD_FLASH_MODES enumeration (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

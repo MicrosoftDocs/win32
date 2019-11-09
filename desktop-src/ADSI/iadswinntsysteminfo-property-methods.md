@@ -1,5 +1,5 @@
 ---
-title: IADsWinNTSystemInfo Property Methods
+title: IADsWinNTSystemInfo Property Methods (Iads.h)
 description: The property methods of the IADsWinNTSystemInfo interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 5ba36851-3d03-4179-8cee-dbebe24b7c4e
 ms.tgt_platform: multiple

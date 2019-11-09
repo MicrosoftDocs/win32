@@ -1,7 +1,7 @@
 ---
 Description: The CreateInstance method creates a new instance of the CMemAllocator class.
 ms.assetid: 87a831a4-2414-4240-8448-c5d90f130470
-title: CMemAllocator.CreateInstance method
+title: CMemAllocator.CreateInstance method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

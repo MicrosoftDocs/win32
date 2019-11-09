@@ -1,7 +1,7 @@
 ---
 Description: Determines if a ray intersects the volume of a sphere's bounding box.
 ms.assetid: fa2e9ecf-7905-4a62-ba48-774bd522525a
-title: D3DXSphereBoundProbe function
+title: D3DXSphereBoundProbe function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

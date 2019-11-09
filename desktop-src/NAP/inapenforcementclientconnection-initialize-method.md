@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection Initialize method
+title: INapEnforcementClientConnection Initialize method (NapEnforcementClient.h)
 description: Initializes the client connection.
 ms.assetid: da72bfc3-9551-4fb0-b9a5-2931c14f618f
 keywords:

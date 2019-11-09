@@ -1,7 +1,7 @@
 ---
 Description: Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX10\_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.
 ms.assetid: 8325d50e-a8a9-4ee2-87e2-e60fb3699af6
-title: D3DX10_IMAGE_LOAD_INFO structure
+title: D3DX10_IMAGE_LOAD_INFO structure (D3DX10Tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

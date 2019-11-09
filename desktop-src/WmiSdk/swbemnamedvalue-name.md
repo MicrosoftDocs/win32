@@ -2,7 +2,7 @@
 Description: The Name property of the SWbemNamedValue object is a unique case-insensitive string that is used when getting an SWbemNamedValue item. This property is read-only.
 ms.assetid: c1e97326-b963-44e7-9af4-7fa6a7a3bf63
 ms.tgt_platform: multiple
-title: SWbemNamedValue.Name property
+title: SWbemNamedValue.Name property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

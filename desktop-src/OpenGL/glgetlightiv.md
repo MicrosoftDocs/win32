@@ -1,5 +1,5 @@
 ---
-title: glGetLightiv function
+title: glGetLightiv function (Gl.h)
 description: The glGetLightfv and glGetLightiv functions return light source parameter values.
 ms.assetid: be4316ca-dc49-4bfa-929a-fa25f5057fde
 keywords:

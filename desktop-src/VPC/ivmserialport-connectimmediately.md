@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPort ConnectImmediately property
+title: IVMSerialPort ConnectImmediately property (VPCCOMInterfaces.h)
 description: Determines whether the serial port should be opened without waiting for a modem command to be received.
 ms.assetid: 5ac22906-0fe2-477d-98af-7c05ce274cc5
 keywords:

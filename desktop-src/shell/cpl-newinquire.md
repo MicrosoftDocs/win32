@@ -1,6 +1,6 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
-title: CPL_NEWINQUIRE message
+title: CPL_NEWINQUIRE message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: af52889c-7180-4690-8ed1-a0eb0a9dff35

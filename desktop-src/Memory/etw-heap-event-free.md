@@ -1,7 +1,7 @@
 ---
 Description: Memory management tracing event for a heap free operation.
 ms.assetid: 0CCC59F1-AB96-4B7A-9A86-19CA4FBA4A8A
-title: ETW_HEAP_EVENT_FREE event
+title: ETW_HEAP_EVENT_FREE event (Ntwmi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

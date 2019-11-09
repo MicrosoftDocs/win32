@@ -1,7 +1,7 @@
 ---
 Description: Concatenates a group of meshes into one common mesh. This method can optionally apply a matrix transformation to each input mesh and its texture coordinates.
 ms.assetid: 0f2af63a-ece5-4c99-8cb8-045099eca3ea
-title: D3DXConcatenateMeshes function
+title: D3DXConcatenateMeshes function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: EM_GETIMEPROPERTY message
+title: EM_GETIMEPROPERTY message (Richedit.h)
 description: Retrieves the property and capabilities of the Input Method Editor (IME) associated with the current input locale.
 ms.assetid: 0cbe52d4-c3e7-40bd-a6f6-da0a11056976
 keywords:

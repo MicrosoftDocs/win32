@@ -1,5 +1,5 @@
 ---
-title: LBSELCHSTRING message
+title: LBSELCHSTRING message (Commdlg.h)
 description: An Open or Save As dialog box sends the LBSELCHSTRING registered message to your hook procedure when the selection changes in any of the list boxes or combo boxes of the dialog box.
 ms.assetid: 3a8ebc63-b324-43ed-bb6f-34779f6043e7
 keywords:

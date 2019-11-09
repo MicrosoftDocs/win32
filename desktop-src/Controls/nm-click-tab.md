@@ -1,5 +1,5 @@
 ---
-title: NM_CLICK (tab) notification code
+title: NM_CLICK (tab) notification code (Commctrl.h)
 description: Notifies the parent window of a tab control that the user has clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b892aded-d6b8-4a04-bfdd-0153b65eaccc
 keywords:

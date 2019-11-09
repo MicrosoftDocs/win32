@@ -1,5 +1,5 @@
 ---
-title: D3DX11_EFFECT_VARIABLE_DESC structure
+title: D3DX11_EFFECT_VARIABLE_DESC structure (D3dx11effect.h)
 description: Describes an effect variable.
 ms.assetid: 9c975ad4-b90e-4e69-b78f-4f5cc61083ff
 keywords:

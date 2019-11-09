@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetwork interface
+title: IVMVirtualNetwork interface (VPCCOMInterfaces.h)
 description: Defines a virtual network.
 ms.assetid: 1ddafc33-05d4-45fb-924d-9830288aa240
 keywords:

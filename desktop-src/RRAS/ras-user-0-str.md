@@ -1,5 +1,5 @@
 ---
-title: RAS_USER_0 structure
+title: RAS_USER_0 structure (Rassapi.h)
 description: The RAS\_USER\_0 structure is used in the RasAdminUserSetInfo and RasAdminUserGetInfo functions to specify information about a user.
 ms.assetid: a2d4a935-f46d-4bc2-ada8-beaa3ac74834
 keywords:

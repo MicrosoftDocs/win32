@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive ImageFile property
+title: IVMDVDDrive ImageFile property (VPCCOMInterfaces.h)
 description: Retrieves the full path of the image file set for this device.
 ms.assetid: e7910d37-d3a5-4291-b374-aaa67db50f1b
 keywords:

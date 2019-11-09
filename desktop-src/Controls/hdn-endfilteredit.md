@@ -1,5 +1,5 @@
 ---
-title: HDN_ENDFILTEREDIT notification code
+title: HDN_ENDFILTEREDIT notification code (Commctrl.h)
 description: Notifies a header control's parent window that a filter edit has ended. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: d3832875-4cde-4d8a-b3a4-a8dae0742c56
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: This property is obsolete and should not be set.
 ms.assetid: 7eb51dc6-5450-45b7-9663-5ddddd30ed72
-title: MFPKEY_FRAMECOUNT Property
+title: MFPKEY_FRAMECOUNT Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

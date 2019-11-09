@@ -1,5 +1,5 @@
 ---
-title: glNormal3iv function
+title: glNormal3iv function (Gl.h)
 description: Sets the current normal vector.
 ms.assetid: cf50e801-a34c-43bd-b7eb-facb84a6472d
 keywords:

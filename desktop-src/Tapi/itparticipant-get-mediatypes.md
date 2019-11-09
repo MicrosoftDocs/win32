@@ -1,7 +1,7 @@
 ---
 Description: The get\_MediaTypes method gets the media types associated with a participant.
 ms.assetid: a2323d16-8eec-4c17-b5f2-b6fbd910ba60
-title: ITParticipant::get_MediaTypes method
+title: ITParticipant::get_MediaTypes method (Ipmsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

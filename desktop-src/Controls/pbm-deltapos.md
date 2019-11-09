@@ -1,5 +1,5 @@
 ---
-title: PBM_DELTAPOS message
+title: PBM_DELTAPOS message (Commctrl.h)
 description: Advances the current position of a progress bar by a specified increment and redraws the bar to reflect the new position.
 ms.assetid: 92c89434-d50b-45e7-b686-42e9297518b9
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The IPX\_ADDRESS structure provides an address at the IPX protocol level.
 ms.assetid: 06939ac3-3718-4441-b2c8-c73adfe3babe
-title: IPX_ADDRESS structure
+title: IPX_ADDRESS structure (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: MrmDestroyIndexerAndMessages function
+title: MrmDestroyIndexerAndMessages function (MrmResourceIndexer.h)
 description: Releases machine resources associated with a resource indexer.
 ms.assetid: AD770F40-BEDB-46C3-9527-DC46169C6193
 keywords:

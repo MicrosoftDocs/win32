@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientCallback interface
+title: INapEnforcementClientCallback interface (NapEnforcementClient.h)
 description: Enforcement clients must implement to enable the NapAgent to communicate with them.
 ms.assetid: d7d63c5b-7952-4f04-9d3d-3f13b0b52d97
 keywords:

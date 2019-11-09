@@ -1,5 +1,5 @@
 ---
-title: WINBIO_CREDENTIAL_TYPE enumeration
+title: WINBIO_CREDENTIAL_TYPE enumeration (Winbio\_types.h)
 description: Defines flags that can be used to filter on the credential type.
 ms.assetid: 7ef2d4b3-e1f9-46a0-8fc2-0e8660805ac3
 keywords:

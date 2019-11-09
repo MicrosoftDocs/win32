@@ -1,7 +1,7 @@
 ---
 Description: Builds a left-handed orthographic projection matrix.
 ms.assetid: 67bec4a3-2126-4f5a-9301-97faa6dc6e84
-title: D3DXMatrixOrthoLH function
+title: D3DXMatrixOrthoLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

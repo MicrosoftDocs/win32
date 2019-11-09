@@ -1,5 +1,5 @@
 ---
-title: SBM_GETSCROLLBARINFO message
+title: SBM_GETSCROLLBARINFO message (Winuser.h)
 description: Sent by an application to retrieve information about the specified scroll bar.
 ms.assetid: db6f704f-99ee-448c-ae7a-dd5a23399fb6
 keywords:

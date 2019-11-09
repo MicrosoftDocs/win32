@@ -1,5 +1,5 @@
 ---
-title: IWMPErrorItem (VB and C ) interface
+title: IWMPErrorItem (VB and C ) interface (Wmp.h)
 description: Provides access to error information.
 ms.assetid: 7f1571e1-4e3a-4f06-b9fa-9add34266537
 keywords:

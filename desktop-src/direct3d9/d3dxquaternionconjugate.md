@@ -1,7 +1,7 @@
 ---
 Description: Returns the conjugate of a quaternion.
 ms.assetid: f690fdd8-7805-4fc1-9064-4f249d5f7c4f
-title: D3DXQuaternionConjugate function
+title: D3DXQuaternionConjugate function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

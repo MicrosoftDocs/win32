@@ -1,7 +1,7 @@
 ---
 Description: The FreeSamples method frees all pending samples.
 ms.assetid: 61b7fe6e-41cc-4d5e-b083-bbc400d04e39
-title: COutputQueue.FreeSamples method
+title: COutputQueue.FreeSamples method (Outputq.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_SETSPEED message
+title: MCIWNDM_SETSPEED message (Vfw.h)
 description: The MCIWNDM\_SETSPEED message sets the playback speed of an MCI device. You can send this message explicitly or by using the MCIWndSetSpeed macro.
 ms.assetid: 7658dd25-dc68-4bd1-b995-df06b509be16
 keywords:

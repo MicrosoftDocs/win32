@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense CreateEncryptor method
+title: IWMDRMLicense CreateEncryptor method (Wmdrmsdk.h)
 description: The CreateEncryptor method creates an encryptor object using the settings of the current license.
 ms.assetid: 570ba898-e846-4981-8ea8-ce16f2dad68a
 keywords:

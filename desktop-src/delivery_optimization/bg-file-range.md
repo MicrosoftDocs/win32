@@ -1,5 +1,5 @@
 ---
-title: BG_FILE_RANGE structure
+title: BG_FILE_RANGE structure (Deliveryoptimization.h)
 description: The BG_FILE_RANGE structure identifies a range of bytes to download from a file.
 ms.assetid: 58993C51-E42E-4E44-9E8A-15E982B25413
 keywords:

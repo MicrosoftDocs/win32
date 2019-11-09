@@ -1,7 +1,7 @@
 ---
 Description: Retrieves information about an assembly when using managed code in the .NET Framework common language runtime.
 ms.assetid: 45dcdc6a-74df-4763-ba8b-82f604db78d4
-title: ClrAssemblyLocator class
+title: ClrAssemblyLocator class (ComSvcs.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

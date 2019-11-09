@@ -1,5 +1,5 @@
 ---
-title: NM_SETCURSOR (ComboBoxEx) notification code
+title: NM_SETCURSOR (ComboBoxEx) notification code (Commctrl.h)
 description: Notifies a ComboBoxEx control's parent window that the control is setting the cursor in response to a WM\_SETCURSOR message. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: a1c617fa-8eb2-444f-88d1-9913de7a42d1
 keywords:

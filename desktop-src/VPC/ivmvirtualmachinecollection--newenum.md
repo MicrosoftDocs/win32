@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineCollection _NewEnum property
+title: IVMVirtualMachineCollection _NewEnum property (VPCCOMInterfaces.h)
 description: Retrieves an enumerator for the collection.
 ms.assetid: 86b51542-139c-4e2b-baec-2c90956d99b3
 keywords:

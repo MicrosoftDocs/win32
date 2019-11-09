@@ -1,5 +1,5 @@
 ---
-title: WM_CTLCOLORDLG message
+title: WM_CTLCOLORDLG message (Winuser.h)
 description: Sent to a dialog box before the system draws the dialog box. By responding to this message, the dialog box can set its text and background colors using the specified display device context handle.
 ms.assetid: 5b90ab3f-b751-486f-a0fa-33f791c31a26
 keywords:

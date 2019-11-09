@@ -1,7 +1,7 @@
 ---
 Description: Displays the Run dialog to the user. This method has the same effect as clicking the Start menu and selecting Run.
 ms.assetid: bb984777-e09f-41e6-8359-51c5291654f7
-title: Shell.FileRun method
+title: Shell.FileRun method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

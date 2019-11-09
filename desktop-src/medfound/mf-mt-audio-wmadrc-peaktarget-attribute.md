@@ -1,7 +1,7 @@
 ---
 Description: Target peak volume level of a Windows Media Audio file.
 ms.assetid: 73f4e763-dcb7-48cd-ab80-37635d973da0
-title: MF_MT_AUDIO_WMADRC_PEAKTARGET attribute
+title: MF_MT_AUDIO_WMADRC_PEAKTARGET attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

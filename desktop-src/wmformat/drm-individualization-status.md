@@ -1,5 +1,5 @@
 ---
-title: DRM_INDIVIDUALIZATION_STATUS enumeration
+title: DRM_INDIVIDUALIZATION_STATUS enumeration (Drmexternals.h)
 description: The DRM\_INDIVIDUALIZATION\_STATUS enumeration type defines the valid states for DRM individualization.
 ms.assetid: '76748fb3-340e-47e2-969d-5e857bb4e4d8'
 keywords:

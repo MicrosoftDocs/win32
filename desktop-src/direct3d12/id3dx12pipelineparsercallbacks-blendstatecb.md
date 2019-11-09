@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks BlendStateCb method
+title: ID3DX12PipelineParserCallbacks BlendStateCb method (D3DX12.h)
 description: Calls the blend state description subobject callback of an object that implements this interface.
 ms.assetid: C00C733B-4123-4795-9A93-973F30BE456B
 keywords:

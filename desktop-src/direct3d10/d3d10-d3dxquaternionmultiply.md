@@ -1,7 +1,7 @@
 ---
 Description: Multiplies two quaternions.
 ms.assetid: f549e383-9c39-47a9-84e4-82365bdf1155
-title: D3DXQuaternionMultiply function
+title: D3DXQuaternionMultiply function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

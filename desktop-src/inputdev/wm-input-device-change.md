@@ -1,5 +1,5 @@
 ---
-title: WM_INPUT_DEVICE_CHANGE message
+title: WM_INPUT_DEVICE_CHANGE message (Winuser.h)
 description: Sent to the window that registered to receive raw input. A window receives this message through its WindowProc function.
 ms.assetid: 2f98d8ea-b47b-4dea-9c38-f9697b18053a
 keywords:

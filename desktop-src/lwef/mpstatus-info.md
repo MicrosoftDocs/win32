@@ -1,5 +1,5 @@
 ---
-title: MPSTATUS_INFO structure
+title: MPSTATUS_INFO structure (MpClient.h)
 description: Status information for the malware protection manager.
 ms.assetid: 614F14EC-64CC-4E3F-8A89-42AA1E0DC95D
 keywords:

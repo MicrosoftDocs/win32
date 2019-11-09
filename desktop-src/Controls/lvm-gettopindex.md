@@ -1,5 +1,5 @@
 ---
-title: LVM_GETTOPINDEX message
+title: LVM_GETTOPINDEX message (Commctrl.h)
 description: Retrieves the index of the topmost visible item when in list or report view. You can send this message explicitly or by using the ListView\_GetTopIndex macro.
 ms.assetid: 'vs|controls|~\controls\listview\messages\lvm_gettopindex.htm'
 keywords:

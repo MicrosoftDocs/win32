@@ -1,7 +1,7 @@
 ---
 Description: Retrieves texel barycentric coordinates.
 ms.assetid: f380a37f-b9c1-4433-b1d6-e9feeca79b30
-title: ID3DXTextureGutterHelper::GetBaryMap method
+title: ID3DXTextureGutterHelper::GetBaryMap method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

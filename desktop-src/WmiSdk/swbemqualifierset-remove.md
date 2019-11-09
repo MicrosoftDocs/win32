@@ -2,7 +2,7 @@
 Description: The Remove method of the SWbemQualifierSet object deletes a named qualifier from the collection.
 ms.assetid: 7d386858-efd1-42e6-9176-9cb4bcfc77d0
 ms.tgt_platform: multiple
-title: SWbemQualifierSet.Remove method
+title: SWbemQualifierSet.Remove method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

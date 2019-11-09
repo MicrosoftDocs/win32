@@ -1,5 +1,5 @@
 ---
-title: EM_FINDWORDBREAK message
+title: EM_FINDWORDBREAK message (Richedit.h)
 description: Finds the next word break before or after the specified character position or retrieves information about the character at that position.
 ms.assetid: b5df1365-4672-4c82-8ae4-ebf8b60bf871
 keywords:

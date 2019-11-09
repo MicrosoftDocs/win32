@@ -1,5 +1,5 @@
 ---
-title: Month Calendar Control Styles
+title: Month Calendar Control Styles (CommCtrl.h)
 description: The following style constants are used when creating month calendar controls.
 ms.assetid: 8d9b2239-fd13-4579-81a2-0385fd318e83
 topic_type:

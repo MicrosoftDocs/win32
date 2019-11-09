@@ -1,5 +1,5 @@
 ---
-title: IVMDisplay interface
+title: IVMDisplay interface (VPCCOMInterfaces.h)
 description: Controls the display settings of a virtual machine. The IVMDisplay interface for a virtual machine can be retrieved using the IVMVirtualMachine Display property.
 ms.assetid: b2eafd86-459c-4807-aa77-8b9125bce53e
 keywords:

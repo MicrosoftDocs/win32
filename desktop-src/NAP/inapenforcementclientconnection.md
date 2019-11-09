@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection interface
+title: INapEnforcementClientConnection interface (NapEnforcementClient.h)
 description: Allow for client connection management.
 ms.assetid: 96b94995-24b8-47ed-880e-6182d1bfe925
 keywords:

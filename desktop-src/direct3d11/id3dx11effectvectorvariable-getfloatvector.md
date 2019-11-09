@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable GetFloatVector method
+title: ID3DX11EffectVectorVariable GetFloatVector method (D3dx11effect.h)
 description: Get a four-component vector that contains floating-point data.
 ms.assetid: 980c85db-0d40-49e0-99d0-5049fdf62540
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MsftStreamZero object
+title: MsftStreamZero object (Imapi2.h)
 description: Use this object to create a read-only data stream whose data is initialized to zeros. You must call the SetSize method to set the requested size of the stream.
 ms.assetid: de0d93e7-d63a-43dc-942e-b913668b78ad
 keywords:

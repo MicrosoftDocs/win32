@@ -1,5 +1,5 @@
 ---
-title: Authentication Service Constants
+title: Authentication Service Constants (RpcDce.h)
 description: Defines authentication services by identifying the security package that provides the service, such as NTLMSSP, Kerberos, or Schannel.
 ms.assetid: c16a8e52-a7f9-40d9-99ef-10b382b5cb3c
 topic_type:

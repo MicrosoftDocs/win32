@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTableTransferEffect SetAlphaTableValue methods
+title: IDCompositionTableTransferEffect SetAlphaTableValue methods (Dcomp.h)
 description: Sets a value in the alpha table.
 ms.assetid: 6f4e04e0-1ec6-a475-264e-d64f68e23fb9
 keywords:

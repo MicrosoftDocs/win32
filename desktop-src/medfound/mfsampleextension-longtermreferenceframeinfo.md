@@ -1,7 +1,7 @@
 ---
 Description: Specifies Long Term Reference (LTR) frame info and is returned on the output sample.
 ms.assetid: 0632D780-C56B-4FDB-8A76-B7A7DE414242
-title: MFSampleExtension_LongTermReferenceFrameInfo attribute
+title: MFSampleExtension_LongTermReferenceFrameInfo attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

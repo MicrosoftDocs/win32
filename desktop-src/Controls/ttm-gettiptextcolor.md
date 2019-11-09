@@ -1,5 +1,5 @@
 ---
-title: TTM_GETTIPTEXTCOLOR message
+title: TTM_GETTIPTEXTCOLOR message (Commctrl.h)
 description: Retrieves the text color in a tooltip window.
 ms.assetid: dede991e-35e6-4bd0-9654-656c96135298
 keywords:

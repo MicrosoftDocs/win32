@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: da708712-2773-45f5-9d9b-49fabe7fdb5a
-title: InkPicture.SelectionResizing event
+title: InkPicture.SelectionResizing event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

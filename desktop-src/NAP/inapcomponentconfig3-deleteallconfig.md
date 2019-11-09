@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig3 DeleteAllConfig method
+title: INapComponentConfig3 DeleteAllConfig method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) to provide a way to reset the SHV store to its original state after setup.
 ms.assetid: 7f079743-1c32-430d-a250-b49a96b99f14
 keywords:

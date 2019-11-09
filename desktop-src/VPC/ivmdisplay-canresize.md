@@ -1,5 +1,5 @@
 ---
-title: IVMDisplay CanResize property
+title: IVMDisplay CanResize property (VPCCOMInterfaces.h)
 description: Determines whether the Guest allows resolution changes.
 ms.assetid: 97f2aad9-aa27-4db2-ac5d-fa9645f0e674
 keywords:

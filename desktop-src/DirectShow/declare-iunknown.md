@@ -1,7 +1,7 @@
 ---
 Description: The DECLARE\_IUNKNOWN macro declares the three methods of the base interface for a new interface.
 ms.assetid: 3bf8e830-c923-4c31-8855-88fa08f80422
-title: DECLARE_IUNKNOWN
+title: DECLARE_IUNKNOWN (Combase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Sent by an audio capture source when another program opens the audio device in exclusive mode.
 ms.assetid: E9CC8507-38AB-4049-8DAC-767EC0ECE270
-title: MECaptureAudioSessionExclusiveModeOverride event
+title: MECaptureAudioSessionExclusiveModeOverride event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
