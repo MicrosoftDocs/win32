@@ -1,5 +1,5 @@
 ---
-title: Description
+title: Description (Windows Media Player SDK)
 description: Description
 ms.assetid: '940ef0bf-d651-411a-b36d-99dcc01d8508'
 keywords:

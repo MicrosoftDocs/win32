@@ -1,7 +1,7 @@
 ---
 Description: D3DX supplies the following mesh functions.
 ms.assetid: d6698040-8fdd-40e6-a61a-402647d48dbc
-title: Mesh Functions
+title: Mesh Functions (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---

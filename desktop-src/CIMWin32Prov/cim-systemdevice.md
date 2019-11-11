@@ -2,7 +2,7 @@
 Description: The CIM\_SystemDevice association represents an explicit relationship in which logical devices can be aggregated by a system.
 ms.assetid: df624a9f-0c10-44a3-8075-908e5e481e3c
 ms.tgt_platform: multiple
-title: CIM_SystemDevice class
+title: CIM_SystemDevice class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

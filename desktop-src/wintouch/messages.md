@@ -1,5 +1,5 @@
 ---
-title: Messages
+title: Messages (Touch Input)
 description: This section contains messages for multitouch input.
 ms.assetid: 'ba52b5de-3123-4094-9a3c-42765fccb85a'
 keywords:

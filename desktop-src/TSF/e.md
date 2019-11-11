@@ -1,5 +1,5 @@
 ---
-title: E
+title: E (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: bd7dfe40-bf8b-4745-b08d-8e0fb95d71d1

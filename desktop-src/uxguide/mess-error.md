@@ -1,5 +1,5 @@
 ---
-title: Error Messages
+title: Error Messages (Design basics)
 description: An error message alerts users of a problem that has already occurred.
 ms.assetid: b02110e9-985d-4448-9c95-eb958b0059b1
 ms.topic: article

@@ -2,7 +2,7 @@
 Description: Contains definitions of security terms that begin with the letter K.
 Robots: noindex, nofollow
 ms.assetid: f17042c3-ba1a-408f-af55-5f171b0dee33
-title: K
+title: K (Security Glossary)
 ms.topic: article
 ms.date: 05/31/2018
 ---

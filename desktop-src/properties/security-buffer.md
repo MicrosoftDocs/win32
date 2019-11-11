@@ -1,7 +1,7 @@
 ---
 Description: Security
 ms.assetid: 3754BBDB-3CBE-4C79-897D-15359B90AC82
-title: Security
+title: Security (Windows Property System)
 ms.topic: article
 ms.date: 05/31/2018
 ---

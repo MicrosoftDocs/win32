@@ -1,7 +1,7 @@
 ---
 Description: The Location API defines the following enumeration types.
 ms.assetid: a1d9d274-2861-4818-8fa1-d8d66edf27b3
-title: Structures and Enumeration Types
+title: Structures and Enumeration Types (Location API)
 ms.topic: article
 ms.date: 05/31/2018
 ---

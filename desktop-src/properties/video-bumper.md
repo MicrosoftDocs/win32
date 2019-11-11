@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 5d36b057-3712-4d00-99b7-3ddf45620b7a
-title: Video
+title: Video (Windows Property System)
 ms.topic: article
 ms.date: 05/31/2018
 ---

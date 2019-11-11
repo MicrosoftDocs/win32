@@ -1,5 +1,5 @@
 ---
-title: Resource Enumerations
+title: Resource Enumerations (Direct3D 11 Graphics)
 description: Enumerations are used to specify information about how resources are created and accessed during rendering.
 ms.assetid: b547819b-7006-40b5-84a4-adf198048051
 keywords:

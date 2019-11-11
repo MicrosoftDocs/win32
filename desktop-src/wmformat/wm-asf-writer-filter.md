@@ -1,5 +1,5 @@
 ---
-title: WM ASF Writer Filter
+title: WM ASF Writer Filter (Windows Media Format 11 SDK)
 description: WM ASF Writer Filter
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:

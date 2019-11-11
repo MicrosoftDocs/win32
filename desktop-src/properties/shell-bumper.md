@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 238c95eb-951e-43d3-8125-86e849cd31d7
-title: Shell
+title: Shell (Windows Property System)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,7 @@
 Description: The CIM\_CollectionOfMSEs object allows the grouping of CIM\_ManagedSystemElement objects for the purpose of associating settings and configurations. It is abstract to require further definition and semantic refinement in subclasses.
 ms.assetid: 9448a7a1-defc-4bac-9ce6-29ec2406d573
 ms.tgt_platform: multiple
-title: CIM_CollectionOfMSEs class
+title: CIM_CollectionOfMSEs class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

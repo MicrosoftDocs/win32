@@ -1,7 +1,7 @@
 ---
 Description: Integer values are encoded into a TLV triplet that begins with a Tag value of 0x02.
 ms.assetid: a6fed62f-af59-488c-a690-be8c3413086f
-title: INTEGER
+title: INTEGER (Certificate Enrollment API)
 ms.topic: article
 ms.date: 05/31/2018
 ---

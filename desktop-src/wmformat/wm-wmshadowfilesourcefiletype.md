@@ -1,5 +1,5 @@
 ---
-title: WM/WMShadowFileSourceFileType
+title: WM/WMShadowFileSourceFileType (Windows Media Format 11 SDK)
 description: The WM/WMShadowFileSourceFileType contains the file type of the original file that the ASF file is derived from.
 ms.assetid: e6543f07-b1dd-4a3d-9472-ebedf42e9599
 keywords:

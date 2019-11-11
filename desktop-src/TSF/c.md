@@ -1,5 +1,5 @@
 ---
-title: C
+title: C (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 9f3c58f5-7c04-43e6-b7bc-dc6875a7fefb

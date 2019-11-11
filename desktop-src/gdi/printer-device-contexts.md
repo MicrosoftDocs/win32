@@ -1,7 +1,7 @@
 ---
 Description: The printer DC can be used when printing on a dot-matrix printer, ink-jet printer, laser printer, or plotter.
 ms.assetid: c53f15d8-5a02-4095-8f05-ae309d4553ff
-title: Printer Device Contexts
+title: Printer Device Contexts (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---

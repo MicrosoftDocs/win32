@@ -1,5 +1,5 @@
 ---
-title: K
+title: K (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: '3cd9dd9b-bfc8-4968-9243-16da4ed8938f'

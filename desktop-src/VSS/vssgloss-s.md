@@ -2,7 +2,7 @@
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: c4f826bc-ea80-4fd5-99da-630e7ae56dd7
-title: S
+title: S (Volume Shadow Copy Service)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Represents a generic association between two managed elements that represent different aspects of the same underlying entity.
 ms.assetid: 28d153de-ce9c-4cd3-8995-0d959846be4d
-title: CIM_LogicalIdentity class
+title: CIM_LogicalIdentity class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

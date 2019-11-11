@@ -1,5 +1,5 @@
 ---
-title: Privacy Statement
+title: Privacy Statement (Windows Media Format 11 SDK)
 description: Privacy Statement
 ms.assetid: d2535273-6671-4bd7-9c43-cbb8093d1d52
 keywords:

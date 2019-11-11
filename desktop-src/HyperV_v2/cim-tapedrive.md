@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities and management of a tape drive.
 ms.assetid: 8140fd9a-8a12-43b4-bc61-ec143e5d754c
-title: CIM_TapeDrive class
+title: CIM_TapeDrive class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

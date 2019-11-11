@@ -1,5 +1,5 @@
 ---
-title: FrameRate Attribute
+title: FrameRate Attribute (Windows Media Player SDK)
 description: The FrameRate is a decimal value that specifies the frame rate (in frames per second) for a video file.
 ms.assetid: 9ca54620-f877-4934-8fda-e5ae31566128
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Control Access Rights
+title: Control Access Rights (AD DS)
 description: All objects in Active Directory Domain Services support a standard set of access rights defined in the ADS\_RIGHTS\_ENUM enumeration.
 ms.assetid: 27ad74bd-ad87-422e-a4a2-02c0d51c4dd4
 ms.tgt_platform: multiple

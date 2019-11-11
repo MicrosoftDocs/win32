@@ -1,5 +1,5 @@
 ---
-title: Persistent Object Interfaces
+title: Persistent Object Interfaces (ADSI)
 description: This topic lists ADSI interfaces that create persistent objects in the directory.
 ms.assetid: cbd70e89-c8cc-48b2-af00-3df613b0908e
 ms.tgt_platform: multiple

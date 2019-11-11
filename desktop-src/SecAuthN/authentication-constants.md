@@ -1,7 +1,7 @@
 ---
 Description: Lists the constants used for Microsoft authentication APIs.
 ms.assetid: 3e5b7fd8-01bf-4090-b68f-006b7e2228a9
-title: Authentication Constants
+title: Authentication Constants (Authentication)
 ms.topic: article
 ms.date: 05/31/2018
 ---

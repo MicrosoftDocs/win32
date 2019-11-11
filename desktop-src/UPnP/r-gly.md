@@ -1,5 +1,5 @@
 ---
-title: R
+title: R (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter R.
 Robots: noindex, nofollow
 ms.assetid: 238f5e6b-503f-445e-baf2-0467e95a9d22

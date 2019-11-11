@@ -1,5 +1,5 @@
 ---
-title: Version
+title: Version (COM)
 description: Specifies the version number of the control.
 ms.assetid: '69ad4647-d39c-4bfd-b027-0a2db8fb3881'
 keywords:

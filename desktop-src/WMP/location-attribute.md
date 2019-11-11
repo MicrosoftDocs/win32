@@ -1,5 +1,5 @@
 ---
-title: Location Attribute
+title: Location Attribute (Windows Media Player SDK)
 description: The Location attribute is the geographic location of the radio station or \ 0034;Net only \ 0034;.
 ms.assetid: fdc0b68b-56a5-4027-a618-6811e7536766
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: H
+title: H (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 0aa2f4ed-ca9a-477f-8ae4-e54bb405528c

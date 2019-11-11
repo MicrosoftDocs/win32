@@ -1,5 +1,5 @@
 ---
-title: S
+title: S (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter S.
 Robots: noindex, nofollow
 ms.assetid: 17fb131d-dd0f-4c9a-808d-001563ca0d88

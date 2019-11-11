@@ -1,7 +1,7 @@
 ---
 Description: This section contains reference information for the API elements provided by the D3DX utility library. Reference material is divided into the following categories.
 ms.assetid: 6e4d48bb-d17a-44df-9a4f-c65ce1eaa8be
-title: D3DX Reference
+title: D3DX Reference (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---

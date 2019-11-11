@@ -1,5 +1,5 @@
 ---
-title: Icons
+title: Icons (Menus and Other Resources)
 description: This section discusses icons which are bitmap images combined with a mask to create transparent areas in the picture.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\icons.htm'
 keywords:

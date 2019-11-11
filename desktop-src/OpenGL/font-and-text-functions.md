@@ -1,5 +1,5 @@
 ---
-title: Font and Text Functions
+title: Font and Text Functions (OpenGL)
 description: The following functions can be used to manage fonts and text.
 ms.assetid: 42e16967-1eeb-4d37-bbd6-33c473eb2757
 keywords:

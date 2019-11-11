@@ -1,7 +1,7 @@
 ---
 Description: Returns the USBDevice descriptor as specified by the input parameters.
 ms.assetid: 89bb8a49-6fca-422c-808d-70ae77aae4c3
-title: GetDescriptor method of the CIM_USBDevice class
+title: GetDescriptor method of the CIM_USBDevice class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

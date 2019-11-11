@@ -1,5 +1,5 @@
 ---
-title: DataType Complex Type
+title: DataType Complex Type (Windows Event Log)
 description: Defines a data item.
 ms.assetid: f3b7de63-1ac1-429d-9e36-1f13c26c9618
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: taskType Complex Type
+title: taskType Complex Type (Task Scheduler)
 description: Defines the child elements and sequencing information for the Task element.
 ms.assetid: 622b2bf4-c7e0-403c-bd6c-99b687c1d439
 keywords:

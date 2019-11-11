@@ -1,7 +1,7 @@
 ---
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 14631336-adfc-4edf-81ef-63e426d41c87
-title: Property
+title: Property (Documents and Printing)
 ms.topic: article
 ms.date: 05/31/2018
 ---

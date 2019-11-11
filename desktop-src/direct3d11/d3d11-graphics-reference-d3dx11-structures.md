@@ -1,5 +1,5 @@
 ---
-title: D3DX Structures
+title: D3DX Structures (Direct3D 11 Graphics)
 description: This section contains information about the D3DX 11 structures.
 ms.assetid: a983813a-a31f-4eeb-b17a-654b7cfe5a55
 keywords:

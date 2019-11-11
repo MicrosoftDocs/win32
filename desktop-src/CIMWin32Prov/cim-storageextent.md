@@ -2,7 +2,7 @@
 Description: The CIM\_StorageExtent class represents the capabilities and management of the various media that exist to store data and allow data retrieval.
 ms.assetid: 3895e00e-1a80-4d45-be0a-b159f8f335e8
 ms.tgt_platform: multiple
-title: CIM_StorageExtent class
+title: CIM_StorageExtent class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

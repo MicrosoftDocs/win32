@@ -1,7 +1,7 @@
 ---
 Description: Event trace consumers can process events from one or more providers.
 ms.assetid: 039a9f66-228e-4258-9967-2b2cd7d31091
-title: Consuming Events
+title: Consuming Events (Event Tracing)
 ms.topic: article
 ms.date: 05/31/2018
 ---

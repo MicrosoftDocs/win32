@@ -1,7 +1,7 @@
 ---
 Description: When developing an application that uses Microsoft Windows HTTP Services (WinHTTP), it is important to understand the following concepts and terminology that relate to networking in general and the HTTP protocol in particular.
 ms.assetid: 6ea0c16f-1233-4580-97bb-14e224646857
-title: Network Terminology
+title: Network Terminology (WinHTTP)
 ms.topic: article
 ms.date: 05/31/2018
 ---

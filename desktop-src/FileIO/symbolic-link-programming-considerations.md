@@ -1,7 +1,7 @@
 ---
 Description: Programming considerations for working with symbolic links.
 ms.assetid: 8966ac3e-a92b-4d68-b40b-e32a4173f869
-title: Programming Considerations
+title: Programming Considerations (Local File Systems)
 ms.topic: article
 ms.date: 05/31/2018
 ---

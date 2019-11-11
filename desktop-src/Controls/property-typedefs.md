@@ -1,5 +1,5 @@
 ---
-title: Property Identifiers
+title: Property Identifiers (Windows Controls)
 description: This topic contains information about defined values that are used to retrieve properties of visual styles. The definitions are found in Vssym32.h.
 ms.assetid: b0e22022-fea9-43d1-8ef0-7a1c518760f1
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Volume Tiled Resources
+title: Volume Tiled Resources (Direct3D 11 Graphics)
 description: Volume (3D) textures can be used as tiled resources, noting that tile resolution is three-dimensional.
 ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a higher level CIM\_StorageExtent object and a lower level CIM\_StorageExtent object. For example a CIM\_ProtectedSpaceExtent object is a part of a CIM\_PhysicalExtent object.
 ms.assetid: 40a88927-981b-4fc4-af5f-be91d9933284
-title: CIM_BasedOn class
+title: CIM_BasedOn class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

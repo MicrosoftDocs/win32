@@ -1,5 +1,5 @@
 ---
-title: Q
+title: Q (RPC)
 description: Words starting with Q in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: 2b584eef-8963-4d3e-866f-9b8ebbaeeaac

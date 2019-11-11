@@ -1,5 +1,5 @@
 ---
-title: Indexed Attributes
+title: Indexed Attributes (AD DS)
 description: Attributes may be indexed. Indexing an attribute can improve the performance of queries for that attribute.
 ms.assetid: 20e10fc9-d767-4d82-9ed6-b9f384e77b12
 ms.tgt_platform: multiple

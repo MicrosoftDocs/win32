@@ -1,5 +1,5 @@
 ---
-title: Object Identifiers
+title: Object Identifiers (SNMP)
 description: An SNMP object identifier uniquely names an object and identifies its location within a Management Information Base (MIB) tree structure.
 ms.assetid: 'b4552185-ef37-4e04-9b19-a226165e0b32'
 ms.topic: article

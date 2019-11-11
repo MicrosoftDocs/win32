@@ -1,5 +1,5 @@
 ---
-title: Active Directory Schema
+title: Active Directory Schema (AD Schema)
 description: The Microsoft Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.
 ms.assetid: b3da4519-d0c6-47eb-9455-ada653ad5c9e
 ms.tgt_platform: multiple

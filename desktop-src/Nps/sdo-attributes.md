@@ -1,5 +1,5 @@
 ---
-title: Attributes
+title: Attributes (Network Policy Server)
 description: Attributes
 ms.assetid: af7d220d-f920-4480-9cf1-72a2cb542e4e
 ms.tgt_platform: multiple

@@ -1,5 +1,5 @@
 ---
-title: Using High-Definition Audio
+title: Using High-Definition Audio (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 8a35b7c6-7df5-4ac7-8057-b5b865aeaf39
 keywords:

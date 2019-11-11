@@ -1,5 +1,5 @@
 ---
-title: Memory Management
+title: Memory Management (RPC)
 description: The following topics discuss how RPC programs allocate and deallocate memory for data passed between client and server programs.
 ms.assetid: 'b56ccac1-84cb-4687-bdd2-21ee716b472a'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Active Directory Schema
+title: Active Directory Schema (AD DS)
 description: The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest. The schema also contains formal definitions of every attribute that can exist in an Active Directory object.
 ms.assetid: b901d095-6805-439b-94b0-05af39594126
 ms.tgt_platform: multiple

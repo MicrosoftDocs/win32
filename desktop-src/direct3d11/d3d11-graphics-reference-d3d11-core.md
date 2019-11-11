@@ -1,5 +1,5 @@
 ---
-title: Core Reference
+title: Core Reference (Direct3D 11 Graphics)
 description: The Direct3D API defines several core API elements.
 ms.assetid: 893fff90-6fcb-4f70-8d3a-1d7621baeeb4
 ms.topic: article

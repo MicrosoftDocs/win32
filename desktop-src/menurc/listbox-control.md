@@ -1,5 +1,5 @@
 ---
-title: LISTBOX control
+title: LISTBOX control (Menus and Other Resources)
 description: Defines commonly used controls for a dialog box or window. The control is a rectangle containing a list of strings (such as filenames) from which the user can select.
 ms.assetid: 78f6d36e-5079-4f04-87e4-ca55a1161a51
 keywords:

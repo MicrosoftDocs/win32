@@ -1,5 +1,5 @@
 ---
-title: How-to Topics
+title: How-to Topics (Direct2D)
 description: The topics in this section provide examples that show how to accomplish a variety of tasks with Direct2D.
 ms.assetid: b0756896-40b7-47a3-be8e-8ab100b022a5
 keywords:

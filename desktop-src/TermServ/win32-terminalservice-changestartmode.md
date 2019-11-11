@@ -1,5 +1,5 @@
 ---
-title: ChangeStartMode method of the Win32_Service class
+title: ChangeStartMode method of the Win32_Service class (Remote Desktop Services)
 description: Modifies the start mode of a Win32\_TerminalService.
 ms.assetid: 4F4B8CFC-B38C-47C6-A2BA-D498EC2B7F55
 ms.tgt_platform: multiple

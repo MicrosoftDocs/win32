@@ -1,5 +1,5 @@
 ---
-title: Remote Desktop Services
+title: Remote Desktop Services (Remote Desktop Services)
 description: Microsoft Remote Desktop Services is remote PC access software that supports remote desktop access. Remote Desktop Services connects multiple clients to a Remote Desktop Session Host (RD Session Host) server.
 ms.assetid: 90c40b7a-e324-43fc-a1e6-f29997ed9436
 ms.tgt_platform: multiple

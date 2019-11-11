@@ -1,5 +1,5 @@
 ---
-title: Schema
+title: Schema (AD DS)
 description: Active Directory schema is implemented as a set of object class instances stored in the directory.
 ms.assetid: 77c297ca-0dfc-4545-9832-4202e066822b
 ms.tgt_platform: multiple

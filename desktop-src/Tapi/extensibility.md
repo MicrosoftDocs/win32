@@ -1,7 +1,7 @@
 ---
 Description: Provisions are made for extending constants and structures both in a device-independent way and in a device-specific (vendor-specific) way.
 ms.assetid: bc0a18f3-1f58-4a24-8afb-c31f3b561375
-title: Extensibility
+title: Extensibility (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---

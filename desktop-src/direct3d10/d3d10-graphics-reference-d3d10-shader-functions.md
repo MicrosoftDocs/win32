@@ -1,7 +1,7 @@
 ---
 Description: 'This section contains information about the following shader functions:'
 ms.assetid: c8b33c08-7b3f-4b33-9b3c-4aa2b45b8f32
-title: Shader Functions
+title: Shader Functions (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---

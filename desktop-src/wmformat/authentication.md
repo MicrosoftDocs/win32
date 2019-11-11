@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Authentication (Windows Media Format 11 SDK)
 description: Authentication
 ms.assetid: 9c181615-e864-4588-846f-d04d73824f5f
 keywords:

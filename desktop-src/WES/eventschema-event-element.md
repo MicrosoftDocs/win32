@@ -1,5 +1,5 @@
 ---
-title: Event Element
+title: Event Element (Windows Event Log)
 description: This is the root node of the logged event.
 ms.assetid: 35f93856-e88b-4cce-9439-ad1a01fc8f38
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Group
+title: Group (Windows Ribbon Framework)
 description: The Group organizes related Commands and controls within a Tab.
 ms.assetid: 5d098d3f-a4ee-4f76-8c81-832d0c49cb80
 ms.topic: article

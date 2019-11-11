@@ -2,7 +2,7 @@
 Description: The CIM\_ElementSetting class represents the association between managed system elements and the setting class defined for them.
 ms.assetid: e9b7c43f-7539-48c3-8679-568fb4b036bb
 ms.tgt_platform: multiple
-title: CIM_ElementSetting class
+title: CIM_ElementSetting class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
