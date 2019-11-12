@@ -1,5 +1,5 @@
 ---
-title: How-to Topics
+title: How-to Topics (DirectWrite)
 description: The following topics provide an overview of the DirectWrite API.
 ms.assetid: da4817ee-0bff-433f-b595-4250199bcc14
 ms.topic: article

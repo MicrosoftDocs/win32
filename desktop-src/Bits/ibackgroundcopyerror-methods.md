@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyError Methods
+title: IBackgroundCopyError Methods (BITS)
 description: The IBackgroundCopyError interface exposes the following methods.
 ms.assetid: A840C648-3275-4AAC-89A2-CD0B895F947C
 ms.topic: reference

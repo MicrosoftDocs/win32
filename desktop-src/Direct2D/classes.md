@@ -1,5 +1,5 @@
 ---
-title: Classes
+title: Classes (Direct2D)
 description: The D2D1 namespace defines the following classes.
 ms.assetid: c80d8394-49f3-4450-9116-3eb01640305f
 keywords:

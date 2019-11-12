@@ -1,5 +1,5 @@
 ---
-title: Privacy Statement
+title: Privacy Statement (Windows Media Device Manager 11 SDK)
 description: Privacy Statement
 ms.assetid: cfa5bc63-9774-418a-b1ae-207b277b63ba
 keywords:

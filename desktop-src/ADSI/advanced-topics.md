@@ -1,5 +1,5 @@
 ---
-title: Advanced Topics
+title: Advanced Topics (ADSI)
 description: This topic contains links to advanced topics for ADSI Visual Basic applications.
 ms.assetid: e46211f4-e42c-4103-b651-5c17af2c1a93
 ms.tgt_platform: multiple

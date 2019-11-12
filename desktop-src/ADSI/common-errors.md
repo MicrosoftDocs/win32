@@ -1,5 +1,5 @@
 ---
-title: Common Errors
+title: Common Errors (ADSI)
 description: All ADSI-specific errors have a hexadecimal form of 80005xxx. The most common error codes encountered are outlined in the following table.
 ms.assetid: fdee4f0a-b39e-4011-af4f-9fe408f6ca6c
 ms.tgt_platform: multiple

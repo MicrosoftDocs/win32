@@ -1,5 +1,5 @@
 ---
-title: Appendix
+title: Appendix (VML)
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: e18e9388-d8b6-4eee-b4f1-3948830f7986
 keywords:

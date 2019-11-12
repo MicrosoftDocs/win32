@@ -1,5 +1,5 @@
 ---
-title: Caching
+title: Caching (Windows Internet)
 description: The WinINet functions have simple, yet flexible, built-in caching support.
 ms.assetid: 44c268c9-a745-432a-8540-60d7e7d2cb2d
 ms.topic: article

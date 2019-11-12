@@ -1,7 +1,7 @@
 ---
 Description: This section discusses windows in general.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows.htm'
-title: Windows
+title: Windows (Windows and Messages)
 ms.topic: article
 ms.date: 05/31/2018
 ---

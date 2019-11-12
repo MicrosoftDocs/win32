@@ -1,7 +1,7 @@
 ---
 Description: An abstract class for subclasses that represent a collection of CIM\_ManagedSystemElement objects. These collections allow managed system elements to be grouped for identification purposes and to simplify the association of settings and configurations.
 ms.assetid: f47bf1d6-6d89-4d9f-82d1-99a7343481bc
-title: CIM_CollectionOfMSEs class
+title: CIM_CollectionOfMSEs class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

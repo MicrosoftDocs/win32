@@ -1,5 +1,5 @@
 ---
-title: Menus
+title: Menus (Design basics)
 description: Menus are hierarchical lists of commands or options available to users in the current context.
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article

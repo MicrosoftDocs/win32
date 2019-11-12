@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Glossary (Windows Accessibility features)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: c45583f2-a6e8-4a01-9577-9b604b5bbc62

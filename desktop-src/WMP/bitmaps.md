@@ -1,5 +1,5 @@
 ---
-title: Bitmaps
+title: Bitmaps (Windows Media Player SDK)
 description: Bitmaps
 ms.assetid: cd10bc7d-1167-485e-8acf-13c021bc608b
 keywords:

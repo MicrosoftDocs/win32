@@ -1,5 +1,5 @@
 ---
-title: Shader Enumerations
+title: Shader Enumerations (Direct3D 11 Graphics)
 description: Enumerations are used to specify information about shaders.
 ms.assetid: 068ce652-8596-4492-992c-658d1fcf8a2c
 keywords:

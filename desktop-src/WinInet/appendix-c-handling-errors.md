@@ -1,5 +1,5 @@
 ---
-title: Handling Errors
+title: Handling Errors (Windows Internet)
 description: The GetLastError function retrieves the last error code for all of the WinINet functions.
 ms.assetid: ee619803-b2a3-4a99-a3e6-120e147843f7
 ms.topic: article

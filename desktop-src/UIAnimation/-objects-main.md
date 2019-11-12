@@ -1,5 +1,5 @@
 ---
-title: Objects
+title: Objects (Windows Animation Manager)
 description: Reference documentation for objects defined by the Windows Animation Manager.
 ms.assetid: 9b1c3473-14f8-475f-bbf0-ee40c9359e7f
 ms.topic: article

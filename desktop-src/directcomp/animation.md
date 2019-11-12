@@ -1,5 +1,5 @@
 ---
-title: Animation
+title: Animation (DirectComposition)
 description: This topic discusses the basics of Microsoft DirectComposition animation.
 ms.assetid: 65DA3971-97C0-4B59-BC67-287AAEAAE340
 ms.topic: article

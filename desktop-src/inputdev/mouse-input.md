@@ -1,5 +1,5 @@
 ---
-title: Mouse Input
+title: Mouse Input (Keyboard and Mouse Input)
 description: This section describes how the system provides mouse input to your application and how the application receives and processes that input.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\mouseinput.htm'
 keywords:

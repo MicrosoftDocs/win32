@@ -1,5 +1,5 @@
 ---
-title: Advanced Topics
+title: Advanced Topics (Windows Media Format 11 SDK)
 description: Advanced Topics
 ms.assetid: 782d87ef-3489-4996-b7e2-a10b298375c2
 keywords:

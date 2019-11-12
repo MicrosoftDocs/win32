@@ -1,7 +1,7 @@
 ---
 Description: CIM\_ManagedSystemElement is the base class for the system element hierarchy. Any component of a system can potentially be represented by this class or its subclasses.
 ms.assetid: 838cc77f-8a8d-429a-8e17-5ede3cc9b6ed
-title: CIM_ManagedSystemElement class
+title: CIM_ManagedSystemElement class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

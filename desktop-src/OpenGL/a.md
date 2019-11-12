@@ -1,5 +1,5 @@
 ---
-title: A
+title: A (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter A.
 Robots: noindex, nofollow
 ms.assetid: e583610f-37da-47bb-bbd6-41d353b88244

@@ -1,5 +1,5 @@
 ---
-title: Z
+title: Z (DNS)
 description: Domain Name System (DNS) glossary entries that start with Z.
 Robots: noindex, nofollow
 ms.assetid: d1704296-3b89-42d2-9451-dc79357a635e

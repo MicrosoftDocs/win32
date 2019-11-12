@@ -1,5 +1,5 @@
 ---
-title: Property Identifiers
+title: Property Identifiers (Windows Accessibility features)
 description: This section contains information about Microsoft UI Automation property identifiers.
 ms.assetid: c05163ea-ba06-4005-9b80-661015b9d2ef
 ms.topic: article

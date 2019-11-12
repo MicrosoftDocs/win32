@@ -2,7 +2,7 @@
 Description: The CIM\_DeviceSAPImplementation class represents an association between a service access point (SAP) and how it is implemented.
 ms.assetid: 6c059507-bfc0-4630-9b39-9c4bae2bf138
 ms.tgt_platform: multiple
-title: CIM_DeviceSAPImplementation class
+title: CIM_DeviceSAPImplementation class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

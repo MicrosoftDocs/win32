@@ -1,5 +1,5 @@
 ---
-title: Error Codes
+title: Error Codes (Windows Media Device Manager 11 SDK)
 description: Error Codes
 ms.assetid: 37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad
 keywords:

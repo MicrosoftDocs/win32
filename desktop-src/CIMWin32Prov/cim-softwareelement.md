@@ -2,7 +2,7 @@
 Description: The CIM\_SoftwareElement class decomposes a CIM\_SoftwareFeature object into a set of individually manageable or deployable parts for a particular platform.
 ms.assetid: b2418735-b738-411a-a620-acc31662f824
 ms.tgt_platform: multiple
-title: CIM_SoftwareElement class
+title: CIM_SoftwareElement class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

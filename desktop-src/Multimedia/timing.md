@@ -1,5 +1,5 @@
 ---
-title: Timing
+title: Timing (Windows Multimedia)
 description: Timing
 ms.assetid: 9ab284c7-eebc-4b44-b9e1-cc95efde22c1
 keywords:

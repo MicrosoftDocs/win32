@@ -1,5 +1,5 @@
 ---
-title: Subresources
+title: Subresources (Direct3D 11 Graphics)
 description: This topic describes texture subresources, or portions of a resource.
 ms.assetid: 57444cb5-6c8b-4dac-8d6b-ca2b45eafac9
 ms.topic: article

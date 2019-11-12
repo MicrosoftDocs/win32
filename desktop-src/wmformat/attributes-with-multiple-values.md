@@ -1,5 +1,5 @@
 ---
-title: Attributes with Multiple Values
+title: Attributes with Multiple Values (Windows Media Format 11 SDK)
 description: Attributes with Multiple Values
 ms.assetid: 2e65c5d0-6f5e-45a4-8e13-9e49da007145
 keywords:

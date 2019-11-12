@@ -1,5 +1,5 @@
 ---
-title: Data Types
+title: Data Types (HLSL)
 description: HLSL supports many different intrinsic data types. This table shows which types to use to define shader variables.
 ms.assetid: e4b7738d-e865-4151-a204-0a5b88a913b3
 ms.topic: article

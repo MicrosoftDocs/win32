@@ -1,7 +1,7 @@
 ---
 Description: Access Control
 ms.assetid: d17137f9-b206-4ced-82e5-96a7d927c89b
-title: Access Control
+title: Access Control (WPD API)
 ms.topic: article
 ms.date: 05/31/2018
 ---

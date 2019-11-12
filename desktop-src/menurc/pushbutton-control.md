@@ -1,5 +1,5 @@
 ---
-title: PUSHBUTTON control
+title: PUSHBUTTON control (Menus and Other Resources)
 description: Defines a push-button control. The control is a round-cornered rectangle containing the given text. The text is centered in the control. The control sends a message to its parent whenever the user chooses the control.
 ms.assetid: 'c5fbcfb7-1b7d-4199-acac-d11bfd899298'
 keywords:

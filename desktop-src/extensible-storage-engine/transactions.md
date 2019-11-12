@@ -1,5 +1,5 @@
-﻿---
-title: Transactions
+---
+title: Transactions (Windows Events)
 TOCTitle: Transactions
 ms:assetid: 1ceb362c-1efe-439b-b10a-016c8a54f27b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269197(v=EXCHG.10)
@@ -11,7 +11,7 @@ ms.topic: article
 # Transactions
 
 
-_**Applies to:** Windows | Windows Server_
+_**Applies to:** Windows�| Windows Server_
 
 ## Transactions
 

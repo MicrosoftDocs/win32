@@ -1,5 +1,5 @@
 ---
-title: Versioning
+title: Versioning (HTTP Server API)
 description: The HTTP Server version 2.0 API applies object-scoped versioning to determine the version of the API.
 ms.assetid: 2c2d7501-85e0-44ec-aa42-01372b29266e
 keywords:

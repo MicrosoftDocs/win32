@@ -1,5 +1,5 @@
 ---
-title: Preprocessor Directives
+title: Preprocessor Directives (Menus and Other Resources)
 description: You can use the directives described in the following table as needed in your resource script. They instruct RC to perform actions or to assign values to names.
 ms.assetid: 162f946e-54d8-4e23-9aa7-8e91eda4ee68
 keywords:

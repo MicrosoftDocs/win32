@@ -1,5 +1,5 @@
 ---
-title: D
+title: D (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 9d8cc0b3-7af5-4f5b-bc27-0f1e47efeeb1

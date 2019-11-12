@@ -1,5 +1,5 @@
 ---
-title: Shader Functions
+title: Shader Functions (Direct3D 11 Graphics)
 description: This section contains information about the shader functions.
 ms.assetid: 4acbd433-c28d-4630-aa0e-25f2fb5c32d0
 keywords:

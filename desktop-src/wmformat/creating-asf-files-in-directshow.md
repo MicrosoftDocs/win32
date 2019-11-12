@@ -1,5 +1,5 @@
 ---
-title: Creating ASF Files in DirectShow
+title: Creating ASF Files in DirectShow (Windows Media Format 11 SDK)
 description: Creating ASF Files in DirectShow
 ms.assetid: 8b7af340-934d-43a9-88e9-7bbb2d3a38e0
 keywords:

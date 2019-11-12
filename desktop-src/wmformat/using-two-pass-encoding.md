@@ -1,5 +1,5 @@
 ---
-title: Using Two-Pass Encoding
+title: Using Two-Pass Encoding (Windows Media Format 11 SDK)
 description: Using Two-Pass Encoding
 ms.assetid: 55fc768b-15f0-4236-ad0d-3792ccaa9b4f
 keywords:

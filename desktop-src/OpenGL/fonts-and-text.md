@@ -1,5 +1,5 @@
 ---
-title: Fonts and Text
+title: Fonts and Text (OpenGL)
 description: Microsoft's implementation of OpenGL in Windows supports GDI graphics in a single-buffered OpenGL window.
 ms.assetid: 25a45e1a-6c1e-416b-8993-daeefc1100f3
 keywords:

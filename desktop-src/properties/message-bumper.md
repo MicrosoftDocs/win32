@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 608536cd-cb34-405d-baa7-d99167128cfe
-title: Message
+title: Message (Windows Property System)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: Interface
+title: Interface (COM)
 description: An optional entry that specifies all interface IDs (IIDs) supported by the associated class.
 ms.assetid: '212a6500-14ce-4a9b-9e6a-38d83a5630c8'
 keywords:

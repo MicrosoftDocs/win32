@@ -1,5 +1,5 @@
 ---
-title: Controls
+title: Controls (Windows Ribbon Framework)
 description: Reference documentation for control markup elements in the Windows Ribbon framework.
 ms.assetid: 417bdf54-c241-4eda-a97b-82a6f0d74019
 ms.topic: article

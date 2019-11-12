@@ -1,7 +1,7 @@
 ---
 Description: The following functions are used with fonts and text.
 ms.assetid: 69c04ed7-52da-4cb6-9fd2-f2a8c044df8b
-title: Font and Text Functions
+title: Font and Text Functions (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---

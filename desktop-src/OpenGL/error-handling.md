@@ -1,5 +1,5 @@
 ---
-title: Error Handling
+title: Error Handling (OpenGL)
 description: When OpenGL detects an error, it records a current error code.
 ms.assetid: 8e40e382-14fd-44df-8e1c-ebceb34af19c
 keywords:

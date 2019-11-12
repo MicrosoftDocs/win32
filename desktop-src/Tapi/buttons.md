@@ -1,7 +1,7 @@
 ---
 Description: Microsoft Telephony models a phones buttons and lamps as button-lamp pairs.
 ms.assetid: 6ac912bb-8d2b-4aa3-a6e8-af86fbaabd58
-title: Buttons
+title: Buttons (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---

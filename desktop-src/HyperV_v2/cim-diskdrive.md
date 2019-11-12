@@ -1,7 +1,7 @@
 ---
 Description: Represents a disk drive.
 ms.assetid: f3d853a0-d6e9-45d8-92d3-d233c274238b
-title: CIM_DiskDrive class
+title: CIM_DiskDrive class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

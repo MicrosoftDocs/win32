@@ -1,5 +1,5 @@
 ---
-title: Channel
+title: Channel (COM)
 description: Channel
 ms.assetid: 6e8abd8e-aba2-47eb-9efc-8a960fafaf6c
 ms.topic: article

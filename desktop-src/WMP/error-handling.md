@@ -1,5 +1,5 @@
 ---
-title: Error Handling
+title: Error Handling (Windows Media Player SDK)
 description: Error Handling
 ms.assetid: f0567c77-a855-4b93-9fb7-a36cde63859f
 keywords:

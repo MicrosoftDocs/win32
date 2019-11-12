@@ -1,7 +1,7 @@
 ---
 Description: Configuring Video Decoding
 ms.assetid: 897b8e2d-9827-428d-91ae-632038c4c8c0
-title: Configuring Video Decoding
+title: Configuring Video Decoding (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---

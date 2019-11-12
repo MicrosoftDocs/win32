@@ -1,5 +1,5 @@
 ---
-title: Sliders
+title: Sliders (Windows Multimedia)
 description: Sliders
 ms.assetid: cfd82672-5b22-4b59-82b5-15ca68a451fc
 keywords:

@@ -2,7 +2,7 @@
 Description: The CIM\_PointingDevice class represents a device that points to regions on the display. Any device that manipulates a pointer, or points to regions on a visual display, is a member of this class. For example, a mouse, stylus, touch pad, or tablet.
 ms.assetid: b093134a-534a-4680-8fce-d96baff26139
 ms.tgt_platform: multiple
-title: CIM_PointingDevice class
+title: CIM_PointingDevice class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

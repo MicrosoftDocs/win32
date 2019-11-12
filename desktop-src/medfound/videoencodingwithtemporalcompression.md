@@ -1,7 +1,7 @@
 ---
 Description: Video Encoding with Temporal Compression
 ms.assetid: df363017-97c5-45b0-b8a5-44ac73b7a0e7
-title: Video Encoding with Temporal Compression
+title: Video Encoding with Temporal Compression (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---

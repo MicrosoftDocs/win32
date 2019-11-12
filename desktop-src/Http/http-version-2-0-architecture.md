@@ -1,5 +1,5 @@
 ---
-title: Architecture
+title: Architecture (HTTP Server API)
 description: The server session, request queue, and URL group configuration objects enable applications to configure the HTTP service.
 ms.assetid: 05a2d689-fd10-4065-85fc-2057bee42fbc
 ms.topic: article

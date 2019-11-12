@@ -1,5 +1,5 @@
 ---
-title: SetSecurityDescriptor method of the Win32_Service class
+title: SetSecurityDescriptor method of the Win32_Service class (Remote Desktop Services)
 description: Writes an updated version of the security descriptor that controls access to the service.
 ms.assetid: 4F03B798-0912-4A0D-B31E-419662D5849B
 ms.tgt_platform: multiple

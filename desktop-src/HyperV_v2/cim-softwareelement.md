@@ -1,7 +1,7 @@
 ---
 Description: Represents an individually manageable or deployable part of a CIM\_SoftwareFeature.
 ms.assetid: 96affc55-b001-4122-b883-3610bf95a786
-title: CIM_SoftwareElement class
+title: CIM_SoftwareElement class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

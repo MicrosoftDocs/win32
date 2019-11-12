@@ -1,5 +1,5 @@
 ---
-title: Notifications
+title: Notifications (Touch Input)
 description: This section contains notifications for Windows Touch gestures.
 ms.assetid: 41c0237e-e535-4662-9cf1-e0c47d7a5078
 keywords:

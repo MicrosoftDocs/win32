@@ -1,7 +1,7 @@
 ---
 Description: Describes statistics that you can retrieve from a Windows Media codec.
 ms.assetid: 86c029af-e0fb-436a-b758-3f7d10c8bdeb
-title: Getting Encoding Statistics
+title: Getting Encoding Statistics (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---

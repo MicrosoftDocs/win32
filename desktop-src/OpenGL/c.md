@@ -1,5 +1,5 @@
 ---
-title: C
+title: C (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter C.
 Robots: noindex, nofollow
 ms.assetid: 037c39b1-b728-41d3-a664-c0aa6c487103

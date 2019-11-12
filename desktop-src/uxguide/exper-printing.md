@@ -1,5 +1,5 @@
 ---
-title: Printing
+title: Printing (Design basics)
 description: Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
 ms.assetid: 26f5a8dc-27b2-4c2d-a05a-f942784c3cf9
 ms.topic: article
