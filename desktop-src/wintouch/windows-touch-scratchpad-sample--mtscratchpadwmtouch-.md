@@ -1,6 +1,6 @@
 ---
-title: Windows Touch Scratchpad Sample (MTScratchpadWMTouch)
-description: This section describes the Windows Touch Scratchpad sample.
+title: Windows Touch Scratchpad Sample (C++)
+description: The Windows Touch Scratchpad sample shows how to use Windows Touch messages to draw traces of the touch points to a window.
 ms.assetid: 6c4b4595-1e95-499c-b045-b5ae01aa5a6e
 keywords:
 - Windows Touch,code samples
@@ -8,14 +8,12 @@ keywords:
 - Windows Touch,Scratchpad samples
 - Scratchpad samples
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/28/2019
 ---
 
-# Windows Touch Scratchpad Sample (MTScratchpadWMTouch)
+# Windows Touch Scratchpad Sample (C++)
 
-This section describes the Windows Touch Scratchpad sample.
-
-The Windows Touch Scratchpad sample shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following image shows how the application could look while running.
+The [Windows Touch Scratchpad sample](https://github.com/MicrosoftDocs/win32-pr/blob/d99b905b0c9161069cb9337a92a887d647737b2a/desktop-src/wintouch/windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md) shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following image shows how the application could look while running.
 
 ![screen shot showing the windows touch scratchpad, with red and black squiggles on the screen](images/mtscratchpadwmtouch.png)
 
@@ -23,20 +21,16 @@ For this application, the window is registered as a touch window, touch messages
 
 The following code shows how the window is registered as a touch window.
 
-
 ```C++
     // Register application window for receiving multitouch input. Use default settings.
     if(!RegisterTouchWindow(hWnd, 0))
     {
         MessageBox(hWnd, L"Cannot register application window for multitouch input", L"Error", MB_OK);
         return FALSE;
-    }    
+    }
 ```
 
-
-
 The following code shows how touch messages are used to add touch points to ink strokes.
-
 
 ```C++
         // WM_TOUCH message handlers
@@ -79,10 +73,7 @@ The following code shows how touch messages are used to add touch points to ink 
             break;
 ```
 
-
-
 The following code shows how the ink strokes are drawn to the screen in the **WM\_PAINT** message handler.
-
 
 ```C++
         case WM_PAINT:
@@ -95,10 +86,7 @@ The following code shows how the ink strokes are drawn to the screen in the **WM
             break;
 ```
 
-
-
 The following code shows how the stroke object renders strokes to the screen.
-
 
 ```C++
 void CStroke::Draw(HDC hDC) const
@@ -116,19 +104,7 @@ void CStroke::Draw(HDC hDC) const
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Windows Touch Samples](windows-touch-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Windows Touch Scratchpad sample](https://github.com/MicrosoftDocs/win32-pr/blob/d99b905b0c9161069cb9337a92a887d647737b2a/desktop-src/wintouch/windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)
+- [Windows Touch Samples](windows-touch-samples.md)

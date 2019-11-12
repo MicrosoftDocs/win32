@@ -91,9 +91,9 @@
       - name: "Custom Properties, Events, and Control Patterns"
         href: uiauto-custompropertieseventscontrolpatterns.md
         items: 
-        - name: "Designing Custom Properties, Events, and Control Patterns"
+        - name: "Design custom properties, events, and control patterns"
           href: uiauto-designingcustompropseventpatterns.md
-        - name: "Registering Custom Properties, Events, and Control Patterns"
+        - name: "Register custom properties, events, and control patterns"
           href: uiauto-regcustompropseventpatterns.md
       - name: "UI Automation Support for Textual Content"
         href: uiauto-ui-automation-textpattern-overview.md
@@ -117,7 +117,7 @@
       items: 
       - name: "UI Automation Providers Overview"
         href: uiauto-providersoverview.md
-      - name: "Implementing a Server-Side UI Automation Provider"
+      - name: "Implement a Server-Side UI Automation Provider"
         href: uiauto-serversideprovider.md
       - name: "Implementing a Client-Side (Proxy) UI Automation Provider"
         href: uiauto-clientsideprovider.md
@@ -284,7 +284,7 @@
           href: uiauto-howto-raise-events-from-uiautomation-provider.md
         - name: "How to Enable Navigation in a UI Automation Fragment Provider"
           href: uiauto-howto-enable-navigation-in-fragmentprovider.md
-        - name: "How to Support Control Patterns in a UI Automation Provider"
+        - name: "Support Control Patterns in a UI Automation Provider"
           href: uiauto-howto-support-controlpatterns-in-provider.md
         - name: "How to Create a Client-Side (Proxy) UI Automation Provider"
           href: uiauto-howto-create-clientside-provider.md
@@ -2536,7 +2536,7 @@
       - name: "Supported Platforms"
         href: supported-platforms.md
         items: 
-        - name: "Which Version of Active Accessibility Is Currently Installed?"
+        - name: "Determine the installed version of Active Accessibility"
           href: which-version-of-active-accessibility-is-currently-installed.md
       - name: "Active Accessibility and UI Automation"
         href: active-accessibility-and-ui-automation.md
@@ -2729,9 +2729,9 @@
             - name: "Exposing Additional Information Not Covered by IAccessible Interface"
               href: exposing-additional-information-not-covered-by-iaccessible-interface.md
               items: 
-              - name: "Using OBJID_NATIVEOM to expose a native object model interface for a window"
+              - name: "Use OBJID\_NATIVEOM to expose a native interface for a window"
                 href: using-objid-nativeom-to-expose-a-native-object-model-interface-for-a-window.md
-              - name: "Using QueryService to expose a native object model interface for an IAccessible object"
+              - name: "Use QueryService to retrieve a native interface for an IAccessible object"
                 href: using-queryservice-to-expose-a-native-object-model-interface-for-an-iaccessible-object.md
           - name: "How to Handle WM_GETOBJECT"
             href: how-to-handle-wm-getobject.md
@@ -3175,9 +3175,9 @@
       items: 
       - name: "How to Use UI Automation to Make a Windowless ActiveX Control Accessible"
         href: use-ui-automation-to-make-an-windowless-activex-control-accessible.md
-      - name: "How to Use MSAA to Make a Windowless ActiveX Control Accessible"
+      - name: "Use MSAA to make a windowless ActiveX control accessible"
         href: use-msaa-to-make-an-windowless-activex-control-accessible.md
-      - name: "How to Host a UI Automation Windowless ActiveX Control"
+      - name: "Host a UI Automation Windowless ActiveX Control"
         href: host-a-ui-automation-windowless-activex-control.md
       - name: "How to Host an MSAA Windowless ActiveX Control"
         href: host-an-msaa-windowless-activex-control.md
