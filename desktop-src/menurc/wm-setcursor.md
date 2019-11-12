@@ -41,9 +41,9 @@ A handle to the window that contains the cursor.
 *lParam* 
 </dt> <dd>
 
-The low-order word of *lParam* specifies the hit-test result for the cursor position. See the return values for [WM_NCHITTEST](https://docs.microsoft.com/en-us/windows/win32/inputdev/wm-nchittest) for possible values.
+The low-order word of *lParam* specifies the hit-test result for the cursor position. See the return values for [WM_NCHITTEST](/windows/win32/inputdev/wm-nchittest) for possible values.
 
-The high-order word of *lParam* specifies the mouse window message which triggered this event, such as [WM_MOUSEMOVE](https://docs.microsoft.com/en-us/windows/win32/inputdev/wm-mousemove). When the window enters menu mode, this value is zero.
+The high-order word of *lParam* specifies the mouse window message which triggered this event, such as [WM_MOUSEMOVE](/windows/win32/inputdev/wm-mousemove). When the window enters menu mode, this value is zero.
 
 </dd> </dl>
 
