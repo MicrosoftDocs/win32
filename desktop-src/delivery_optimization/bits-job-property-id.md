@@ -1,5 +1,5 @@
 ---
-title: BITS_JOB_PROPERTY_ID enumeration
+title: BITS_JOB_PROPERTY_ID enumeration (Deliveryoptimization.h)
 description: The BITS_JOB_PROPERTY_ID enumeration specifies the ID of the property for the DO job. This enumeration is used in the BITS_JOB_PROPERTY_VALUE union to determine the type of value contained in the union.
 ms.assetid: B0F3C6C2-474F-4FD8-990A-770FAA993550
 keywords:

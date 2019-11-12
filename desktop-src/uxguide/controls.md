@@ -1,5 +1,5 @@
 ---
-title: Controls
+title: Controls (Design basics)
 description: Controls are UI elements that your users interact with on your app's main window area. See visual examples of controls in Windows-based, desktop apps and get links to guidelines for each control.
 ms.assetid: 5c48728b-6d86-4827-9757-f06c23ca54d8
 ms.topic: article

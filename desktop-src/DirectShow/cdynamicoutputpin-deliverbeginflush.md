@@ -1,7 +1,7 @@
 ---
 Description: The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
 ms.assetid: eafc3835-7696-480b-abc8-154938e19b15
-title: CDynamicOutputPin.DeliverBeginFlush method
+title: CDynamicOutputPin.DeliverBeginFlush method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

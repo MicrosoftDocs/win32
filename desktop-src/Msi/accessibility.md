@@ -1,7 +1,7 @@
 ---
 Description: Authors should be aware of the tables and fields in the following list when designing their UI to be in compliance with Active Accessibility guidelines.
 ms.assetid: 516e504e-7895-4388-a38e-fd2fc7dfd61d
-title: Accessibility
+title: Accessibility (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---

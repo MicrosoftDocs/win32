@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd GetSoftKeyboardTypeMode method
+title: ISoftKbd GetSoftKeyboardTypeMode method (Softkbdc.h)
 description: The ISoftKbd GetSoftKeyboardTypeMode method retrieves the type mode for a soft keyboard.
 ms.assetid: 77294652-b82e-4b69-bb55-5ebebc3c97c7
 keywords:

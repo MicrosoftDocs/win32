@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Authentication (HTTP Server API)
 description: Starting with version 2.0, the HTTP Server API performs server side authentication for the application.
 ms.assetid: e8e41e8e-1b10-4747-b18e-763e0752ade4
 ms.topic: article

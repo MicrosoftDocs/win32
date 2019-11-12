@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS CanShutdown property
+title: IVMGuestOS CanShutdown property (VPCCOMInterfaces.h)
 description: Indicates whether the guest operating system can be cleanly shut down.
 ms.assetid: 239cba43-9494-4efd-a4c8-0bb47f476b81
 keywords:

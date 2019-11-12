@@ -1,5 +1,5 @@
 ---
-title: IADsReplicaPointer Property Methods
+title: IADsReplicaPointer Property Methods (Iads.h)
 description: The property method of the IADsReplicaPointer interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: fc520ea4-b2c2-44c0-8bec-25f8d4a77074
 ms.tgt_platform: multiple

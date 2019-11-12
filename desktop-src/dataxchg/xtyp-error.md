@@ -1,5 +1,5 @@
 ---
-title: XTYP_ERROR transaction
+title: XTYP_ERROR transaction (Ddeml.h)
 description: A Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_ERROR transaction when a critical error occurs.
 ms.assetid: 710daa04-ed83-42e3-a55e-6ccf891a3d52
 keywords:

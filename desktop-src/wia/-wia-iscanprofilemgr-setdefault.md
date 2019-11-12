@@ -1,7 +1,7 @@
 ---
 Description: Sets the specified scan profile as the default profile.
 ms.assetid: c680be8b-88f0-4f7f-b1a3-e12711dba870
-title: IScanProfileMgr::SetDefault method
+title: IScanProfileMgr::SetDefault method (Scanprofilemgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

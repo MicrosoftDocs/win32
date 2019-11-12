@@ -1,5 +1,5 @@
 ---
-title: SNMP Application Syntax Values
+title: SNMP Application Syntax Values (Snmp.h)
 description: The SNMP Application Syntax Values are used by management applications that employ the Microsoft SNMP Management API.
 ms.assetid: fa269f97-f9d3-49f4-b29b-8c4d71f075d0
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: RtmCloseEnumerationHandle function
+title: RtmCloseEnumerationHandle function (Rtm.h)
 description: The RtmCloseEnumerationHandle terminates a specified enumeration and frees the associated resources.
 ms.assetid: 8daea42f-4304-4749-9894-d37f6ba733da
 keywords:

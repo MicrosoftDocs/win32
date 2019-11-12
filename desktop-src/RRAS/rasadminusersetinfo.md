@@ -1,5 +1,5 @@
 ---
-title: RasAdminUserSetInfo function
+title: RasAdminUserSetInfo function (Rassapi.h)
 description: The RasAdminUserSetInfo function sets the RAS permissions and call-back phone number for a specified user.
 ms.assetid: 5b049dfd-ecc8-47e4-82cc-71a875752714
 keywords:

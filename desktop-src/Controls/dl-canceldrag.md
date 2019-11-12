@@ -1,5 +1,5 @@
 ---
-title: DL_CANCELDRAG notification code
+title: DL_CANCELDRAG notification code (Commctrl.h)
 description: Signals that the user has canceled a drag operation by clicking the right mouse button or pressing the ESC key.
 ms.assetid: 62c1377f-41b6-449f-a95e-2689dc1913c6
 keywords:

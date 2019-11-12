@@ -1,6 +1,6 @@
 ---
 Description: Notifies you to initialize the menu band.
-title: SMC_INITMENU message
+title: SMC_INITMENU message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 415ee805-2b57-4f8f-85d9-2b38cd05998d

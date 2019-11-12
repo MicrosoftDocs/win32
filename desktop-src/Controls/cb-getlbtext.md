@@ -1,5 +1,5 @@
 ---
-title: CB_GETLBTEXT message
+title: CB_GETLBTEXT message (Winuser.h)
 description: Gets a string from the list of a combo box.
 ms.assetid: f84e302a-65bb-45c8-958b-1cb438fb5a7a
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 996adc69-8727-431e-a7f5-8fbcc0e305ae
-title: CDynamicOutputPin.CDynamicOutputPin constructor
+title: CDynamicOutputPin.CDynamicOutputPin constructor (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

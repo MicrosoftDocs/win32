@@ -1,7 +1,7 @@
 ---
 Description: The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.
 ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
-title: CreateTraceInstanceId function
+title: CreateTraceInstanceId function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectSamplerVariable GetBackingStore method
+title: ID3DX11EffectSamplerVariable GetBackingStore method (D3dx11effect.h)
 description: Get a pointer to a variable that contains sampler state.
 ms.assetid: b188fb86-f54b-481e-9110-7b8af70ff303
 keywords:

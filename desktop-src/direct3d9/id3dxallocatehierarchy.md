@@ -1,7 +1,7 @@
 ---
 Description: This interface is implemented by the application to allocate or free frame and mesh container objects. Methods on this are called during loading and destroying frame hierarchies.
 ms.assetid: b2c4ecb7-3655-4120-b957-724a754e948a
-title: ID3DXAllocateHierarchy interface
+title: ID3DXAllocateHierarchy interface (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: CB_SETEDITSEL message
+title: CB_SETEDITSEL message (Winuser.h)
 description: An application sends a CB\_SETEDITSEL message to select characters in the edit control of a combo box.
 ms.assetid: 25a07341-a21c-42a9-a220-62650997757b
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine AddDVDROMDrive method
+title: IVMVirtualMachine AddDVDROMDrive method (VPCCOMInterfaces.h)
 description: Adds a new CD or DVD drive to the virtual machine.
 ms.assetid: d39f2728-6146-42ed-b67f-6586566a7209
 keywords:

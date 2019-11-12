@@ -1,5 +1,5 @@
 ---
-title: MM_JOY1MOVE message
+title: MM_JOY1MOVE message (Mmsystem.h)
 description: The MM\_JOY1MOVE message notifies the window that has captured joystick JOYSTICKID1 that the joystick position has changed.
 ms.assetid: 317ac0b2-f873-413d-b071-47d840229643
 keywords:

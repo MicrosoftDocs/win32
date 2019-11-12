@@ -1,7 +1,7 @@
 ---
 Description: The IsStreaming method queries whether the filter is streaming data.
 ms.assetid: af1529e1-f79d-469e-b234-7742916a3431
-title: CBaseRenderer.IsStreaming method
+title: CBaseRenderer.IsStreaming method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

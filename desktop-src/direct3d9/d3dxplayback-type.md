@@ -1,7 +1,7 @@
 ---
 Description: Defines the type of animation set looping modes used for playback.
 ms.assetid: 2ce26bf0-2b33-4193-a58f-03493a051351
-title: D3DXPLAYBACK_TYPE enumeration
+title: D3DXPLAYBACK_TYPE enumeration (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

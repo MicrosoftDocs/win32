@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the device associated with the mesh.
 ms.assetid: 16ff5267-0c64-4c3d-925d-6fc10f54c9c4
-title: ID3DXBaseMesh::GetDevice method
+title: ID3DXBaseMesh::GetDevice method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

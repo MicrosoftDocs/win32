@@ -1,5 +1,5 @@
 ---
-title: DRM_CRYPTO_TYPE enumeration
+title: DRM_CRYPTO_TYPE enumeration (Wmdrmsdk.h)
 description: The DRM\_CRYPTO\_TYPE enumeration defines the cryptographic algorithm types that can be used to encrypt content.
 ms.assetid: e04d22cd-04fe-4b80-9644-7cd24dc99f04
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: gluTessProperty function
+title: gluTessProperty function (Glu.h)
 description: The gluTessProperty function sets the property of a tessellation object.
 ms.assetid: 1306b9ef-4f1e-4684-99ea-464bae1d0a61
 keywords:

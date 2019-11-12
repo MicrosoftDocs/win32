@@ -1,5 +1,5 @@
 ---
-title: Counters collection
+title: Counters collection (Isysmon.h)
 description: Use this class to manage the collection of CounterItem objects. To retrieve this object, call SystemMonitor.Counters.
 ms.assetid: 01542569-3fee-440a-8722-db377380b73c
 keywords:

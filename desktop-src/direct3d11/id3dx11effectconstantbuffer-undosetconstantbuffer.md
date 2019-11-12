@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectConstantBuffer UndoSetConstantBuffer method
+title: ID3DX11EffectConstantBuffer UndoSetConstantBuffer method (D3dx11effect.h)
 description: Reverts a previously set constant buffer.
 ms.assetid: 6c5e1256-3a92-4bfe-8614-f09d627bc3db
 keywords:

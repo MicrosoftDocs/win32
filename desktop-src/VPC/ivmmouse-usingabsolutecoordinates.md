@@ -1,5 +1,5 @@
 ---
-title: IVMMouse UsingAbsoluteCoordinates property
+title: IVMMouse UsingAbsoluteCoordinates property (VPCCOMInterfaces.h)
 description: Retrieves whether mouse coordinates represent absolute or relative coordinates.
 ms.assetid: 668278f8-28ae-4128-9653-4985bddbe184
 keywords:

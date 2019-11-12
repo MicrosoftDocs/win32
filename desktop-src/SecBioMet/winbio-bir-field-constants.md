@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BIR_FIELD Constants
+title: WINBIO_BIR_FIELD Constants (Winbio\_types.h)
 description: Specify a bitmask.
 ms.assetid: D8D12BCF-FEB3-4E02-B751-9F3AE5048BC1
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: Defines values that specify the properties of a recognition alternate. The Tablet PC application programming interface (API) uses globally unique identifiers (GUIDs) to identify packet properties, which in Automation are constant strings.
 ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
-title: RecognitionProperty Constants
+title: RecognitionProperty Constants (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

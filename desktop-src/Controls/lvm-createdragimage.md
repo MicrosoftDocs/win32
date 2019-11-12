@@ -1,5 +1,5 @@
 ---
-title: LVM_CREATEDRAGIMAGE message
+title: LVM_CREATEDRAGIMAGE message (Commctrl.h)
 description: Creates a drag image list for the specified item. You can send this message explicitly or by using the ListView\_CreateDragImage macro.
 ms.assetid: face4c8f-01ff-4f5a-a468-e306a50dae35
 keywords:

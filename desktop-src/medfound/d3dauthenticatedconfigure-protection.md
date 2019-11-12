@@ -1,7 +1,7 @@
 ---
 Description: Enables or disables protection for the device.
 ms.assetid: 120d940f-39a0-4ad5-bd3e-c108b3f98ace
-title: D3DAUTHENTICATEDCONFIGURE_PROTECTION
+title: D3DAUTHENTICATEDCONFIGURE_PROTECTION (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: Window Classes
+title: Window Classes (CommCtrl.h)
 description: This section lists the window class names provided by the common control library.
 ms.assetid: 5ff76b33-1278-4ee8-b3a0-62bea0e9868b
 topic_type:

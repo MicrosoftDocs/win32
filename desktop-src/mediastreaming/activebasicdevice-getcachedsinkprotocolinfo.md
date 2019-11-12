@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice GetCachedSinkProtocolInfo method
+title: ActiveBasicDevice GetCachedSinkProtocolInfo method (PlayToDevice.h)
 description: Gets the cached sink protocol info for the device.
 ms.assetid: C6A3C4B5-1883-4E71-83D2-11E378A4FBCA
 keywords:

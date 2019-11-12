@@ -1,5 +1,5 @@
 ---
-title: Security
+title: Security (RPC)
 description: With the increased use of distributed applications, the need for secure communications between the client and server portions of applications is paramount.
 ms.assetid: '0eceefed-644c-4e4b-a873-8005137c00ef'
 keywords:

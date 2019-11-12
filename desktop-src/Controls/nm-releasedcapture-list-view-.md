@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (list view) notification code
+title: NM_RELEASEDCAPTURE (list view) notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: a43879d9-1465-4c25-936f-cda9b8b8b465
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CB_INSERTSTRING message
+title: CB_INSERTSTRING message (Winuser.h)
 description: Inserts a string or item data into the list of a combo box. Unlike the CB\_ADDSTRING message, the CB\_INSERTSTRING message does not cause a list with the CBS\_SORT style to be sorted.
 ms.assetid: b9067b4e-afca-4c78-9ca2-c717b99c7459
 keywords:

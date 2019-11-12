@@ -1,7 +1,7 @@
 ---
 Description: The SetNetworkInfoInBlob function fills in the NETWORKINFO structure in the BLOB.
 ms.assetid: 1a511c26-2fa7-4fe4-a5a9-23188c59bc34
-title: SetNetworkInfoInBlob function
+title: SetNetworkInfoInBlob function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

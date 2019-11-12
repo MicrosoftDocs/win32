@@ -1,7 +1,7 @@
 ---
 Description: The value of the first portion of the &\#0034;cs(User-Agent)&\#0034; field that the network source uses for logging.
 ms.assetid: b6c33cc8-ff43-4a19-a333-51a7f9b265a9
-title: MFNETSOURCE_BROWSERUSERAGENT property
+title: MFNETSOURCE_BROWSERUSERAGENT property (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

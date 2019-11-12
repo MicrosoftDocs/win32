@@ -1,5 +1,5 @@
 ---
-title: G
+title: G (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter G.
 Robots: noindex, nofollow
 ms.assetid: 588df117-d03c-4a1f-9666-84004cb3d97b

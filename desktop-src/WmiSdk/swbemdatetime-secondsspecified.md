@@ -2,7 +2,7 @@
 Description: Boolean value that indicates whether the seconds component in the CIM DATETIME value contains an interval or a wildcard value.
 ms.assetid: 9f9b75c3-ae08-49a6-b747-294831601a62
 ms.tgt_platform: multiple
-title: SWbemDateTime.SecondsSpecified property
+title: SWbemDateTime.SecondsSpecified property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,7 @@
 Description: The DeleteAll method of the SWbemNamedValueSet object removes all named values from the collection, thus emptying it.
 ms.assetid: db5d2e68-028e-4902-ad42-0b46e1a96bcb
 ms.tgt_platform: multiple
-title: SWbemNamedValueSet.DeleteAll method
+title: SWbemNamedValueSet.DeleteAll method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

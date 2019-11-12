@@ -1,5 +1,5 @@
 ---
-title: Media Samples
+title: Media Samples (Windows Media Format 11 SDK)
 description: Media Samples
 ms.assetid: '5fe0d261-c4a8-4b8e-b5dd-668ce067723c'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MpErrorMessageFormat function
+title: MpErrorMessageFormat function (MpClient.h)
 description: Returns a formatted error message based on an error code.
 ms.assetid: C125FCE4-3BB0-4608-BBF3-E7FEF17D0807
 keywords:

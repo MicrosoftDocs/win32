@@ -1,7 +1,7 @@
 ---
 Description: Raised by the Media Session when the playback rate changes. This event is sent after the IMFRateControl::SetRate method completes asynchronously.
 ms.assetid: 6bef923f-4083-46e1-9a2e-49a6825467ec
-title: MESessionRateChanged event
+title: MESessionRateChanged event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

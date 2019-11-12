@@ -1,5 +1,5 @@
 ---
-title: ACN_START notification code
+title: ACN_START notification code (Commctrl.h)
 description: Notifies an animation control's parent window that the associated AVI clip has started playing. This notification code is sent in the form of a WM\_COMMAND message.
 ms.assetid: b4d12225-36f7-4f87-b58a-dac091d14e4c
 keywords:

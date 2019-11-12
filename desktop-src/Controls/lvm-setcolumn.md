@@ -1,5 +1,5 @@
 ---
-title: LVM_SETCOLUMN message
+title: LVM_SETCOLUMN message (Commctrl.h)
 description: Sets the attributes of a list-view column. You can send this message explicitly or by using the ListView\_SetColumn macro.
 ms.assetid: 8ca1c269-fd86-4561-940d-b75f8ca2b731
 keywords:

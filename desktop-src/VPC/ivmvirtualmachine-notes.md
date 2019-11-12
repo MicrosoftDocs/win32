@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Notes property
+title: IVMVirtualMachine Notes property (VPCCOMInterfaces.h)
 description: Notes for the virtual machine.
 ms.assetid: 4be6842b-31b2-4619-a6ab-b728be1e2174
 keywords:

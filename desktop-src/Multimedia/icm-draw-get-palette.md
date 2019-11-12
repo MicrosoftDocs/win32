@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_GET_PALETTE message
+title: ICM_DRAW_GET_PALETTE message (Vfw.h)
 description: The ICM\_DRAW\_GET\_PALETTE message requests a rendering driver to return a palette.
 ms.assetid: 02a9df7d-e0b9-4bde-9cda-c36d2a10a23c
 keywords:

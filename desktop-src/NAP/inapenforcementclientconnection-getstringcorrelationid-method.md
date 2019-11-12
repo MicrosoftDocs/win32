@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetStringCorrelationId method
+title: INapEnforcementClientConnection GetStringCorrelationId method (NapEnforcementClient.h)
 description: Gets the string version of the ID used to correlate requests and responses.
 ms.assetid: d744fa4e-5e30-429e-810d-7326047bb3f8
 keywords:

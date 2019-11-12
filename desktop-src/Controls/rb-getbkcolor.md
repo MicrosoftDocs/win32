@@ -1,5 +1,5 @@
 ---
-title: RB_GETBKCOLOR message
+title: RB_GETBKCOLOR message (Commctrl.h)
 description: Retrieves a rebar control's default background color.
 ms.assetid: be90d1ce-a1f8-446d-ae64-001f7174ab05
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget CreateCompatibleRenderTarget methods
+title: ID2D1RenderTarget CreateCompatibleRenderTarget methods (D2d1.h)
 description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
 keywords:

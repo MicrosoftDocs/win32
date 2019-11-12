@@ -1,5 +1,5 @@
 ---
-title: MpScanStart function
+title: MpScanStart function (MpClient.h)
 description: Starts a scanning operation.
 ms.assetid: 3AF147C8-A41F-4193-AE28-72C1FBD18BA2
 keywords:

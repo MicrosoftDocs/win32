@@ -1,5 +1,5 @@
 ---
-title: Using Data Unit Extensions
+title: Using Data Unit Extensions (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: b1650560-2261-427a-ace7-5d7ed0bb3f77
 keywords:

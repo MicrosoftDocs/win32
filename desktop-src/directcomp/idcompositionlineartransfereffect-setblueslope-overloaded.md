@@ -1,5 +1,5 @@
 ---
-title: idcompositionlineartransfereffect SetBlueSlope methods
+title: idcompositionlineartransfereffect SetBlueSlope methods (Dcomp.h)
 description: The slope of the linear function for the blue channel.
 ms.assetid: 088b6b01-6c0b-c746-85ed-54b822a4615d
 keywords:

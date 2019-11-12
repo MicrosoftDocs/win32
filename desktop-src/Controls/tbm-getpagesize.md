@@ -1,5 +1,5 @@
 ---
-title: TBM_GETPAGESIZE message
+title: TBM_GETPAGESIZE message (Commctrl.h)
 description: Retrieves the number of logical positions the trackbar's slider moves in response to keyboard input, such as the or keys, or mouse input, such as clicks in the trackbar's channel.
 ms.assetid: f0c5feac-2723-440e-96c0-dac37b0531ed
 keywords:

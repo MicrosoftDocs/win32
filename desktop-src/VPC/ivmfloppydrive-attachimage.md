@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive AttachImage method
+title: IVMFloppyDrive AttachImage method (VPCCOMInterfaces.h)
 description: Attaches a floppy media image on the host to the floppy drive of the virtual machine.
 ms.assetid: ee7ea6ac-47ef-4e7b-8df3-28c716a728b0
 keywords:

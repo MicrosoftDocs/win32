@@ -1,7 +1,7 @@
 ---
 Description: The QueryAccept method determines whether the pin accepts a specified media type. This method implements the IPin::QueryAccept method.
 ms.assetid: 7aa25b45-5116-474b-afee-1eddc8b7fd2a
-title: CBasePin.QueryAccept method
+title: CBasePin.QueryAccept method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

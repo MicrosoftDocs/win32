@@ -1,7 +1,7 @@
 ---
 Description: Exports keying material per the RFC 5705 standard.
 ms.assetid: 19624852-B1A6-4BB4-96AF-0457834DA294
-title: SslExportKeyingMaterial function
+title: SslExportKeyingMaterial function (Sslprovider.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

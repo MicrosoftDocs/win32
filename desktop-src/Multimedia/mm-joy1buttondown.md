@@ -1,5 +1,5 @@
 ---
-title: MM_JOY1BUTTONDOWN message
+title: MM_JOY1BUTTONDOWN message (Mmsystem.h)
 description: The MM\_JOY1BUTTONDOWN message notifies the window that has captured joystick JOYSTICKID1 that a button has been pressed.
 ms.assetid: 764f4bb4-134d-46b8-badb-3fb06af31e13
 keywords:

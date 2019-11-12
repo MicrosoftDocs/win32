@@ -1,5 +1,5 @@
 ---
-title: RB_SETWINDOWTHEME message
+title: RB_SETWINDOWTHEME message (Commctrl.h)
 description: Sets the visual style of a rebar control.
 ms.assetid: 5b32b354-3e25-4d02-9334-cc57acf41a73
 keywords:

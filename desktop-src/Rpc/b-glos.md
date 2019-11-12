@@ -1,5 +1,5 @@
 ---
-title: B
+title: B (RPC)
 description: Words starting with B in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: d1737dac-3799-4f55-8963-bfffb04c94fe

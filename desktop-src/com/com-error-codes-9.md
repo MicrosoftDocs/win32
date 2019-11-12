@@ -1,5 +1,5 @@
 ---
-title: COM Error Codes (WPN, MBN, P2P, Bluetooth)
+title: COM Error Codes (WPN, MBN, P2P, Bluetooth) (Winerror.h)
 description: The following table provides a list of error codes used by COM-based APIs.
 ms.assetid: 351E28F9-89E7-4F19-B72D-FFE12C95A6B3
 topic_type:

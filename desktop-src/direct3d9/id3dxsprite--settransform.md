@@ -1,7 +1,7 @@
 ---
 Description: Sets the sprite transform.
 ms.assetid: 87dfc169-b647-4a96-897d-abbe765ea9e2
-title: ID3DXSprite::SetTransform method
+title: ID3DXSprite::SetTransform method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

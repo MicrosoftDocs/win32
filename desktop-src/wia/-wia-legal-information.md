@@ -1,7 +1,7 @@
 ---
 Description: Information in this document, including URL and other Internet Web site references, is subject to change without notice.
 ms.assetid: 343c8f3c-3172-4e38-b276-082199b2d48b
-title: Legal Information
+title: Legal Information (WIA)
 ms.topic: article
 ms.date: 05/31/2018
 ---

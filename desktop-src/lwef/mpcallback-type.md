@@ -1,5 +1,5 @@
 ---
-title: MPCALLBACK_TYPE enumeration
+title: MPCALLBACK_TYPE enumeration (MpClient.h)
 description: Possible callback types.
 ms.assetid: 8E4F50B7-0F02-434D-B91E-C9966C92CDC0
 keywords:

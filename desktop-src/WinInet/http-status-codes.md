@@ -1,5 +1,5 @@
 ---
-title: HTTP Status Codes
+title: HTTP Status Codes (Wininet.h)
 description: The following table contains the constants and corresponding values for the HTTP status codes returned by servers on the Internet.
 ms.assetid: 28a5e889-c8f3-4996-a1ca-c48866fa59d7
 topic_type:

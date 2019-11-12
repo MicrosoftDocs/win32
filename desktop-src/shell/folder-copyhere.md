@@ -1,6 +1,6 @@
 ---
 Description: Copies an item or items to a folder.
-title: Folder.CopyHere method
+title: Folder.CopyHere method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

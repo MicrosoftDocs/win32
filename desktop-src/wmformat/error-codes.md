@@ -1,5 +1,5 @@
 ---
-title: Error Codes
+title: Error Codes (Windows Media Format 11 SDK)
 description: Error Codes
 ms.assetid: ea1c129b-c0d7-4a1b-934c-c1c07364d4a8
 keywords:

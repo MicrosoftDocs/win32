@@ -1,5 +1,5 @@
 ---
-title: IDCompositionShadowEffect SetStandardDeviation methods
+title: IDCompositionShadowEffect SetStandardDeviation methods (Dcomp.h)
 description: Sets the amount of blur to be applied to the alpha channel of the image.
 ms.assetid: c688967e-9daf-63f7-9275-aa7b4b871246
 keywords:

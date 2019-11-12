@@ -1,7 +1,7 @@
 ---
 Description: Flag that specifies whether the window should realize its palette. If TRUE, the window does not realize its palette. The default value is FALSE.
 ms.assetid: 7039d41a-daea-4128-9e1c-3cbd0c05ce13
-title: CBaseWindow::m_bNoRealize member
+title: CBaseWindow::m_bNoRealize member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

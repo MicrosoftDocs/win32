@@ -1,5 +1,5 @@
 ---
-title: HDM_SETUNICODEFORMAT message
+title: HDM_SETUNICODEFORMAT message (Commctrl.h)
 description: Sets the UNICODE character format flag for the control.
 ms.assetid: 18161fe5-c779-4be0-9e7a-1b5948e42b80
 keywords:

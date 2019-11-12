@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable SetBoolVectorArray method
+title: ID3DX11EffectVectorVariable SetBoolVectorArray method (D3dx11effect.h)
 description: Set an array of four-component vectors that contain boolean data.
 ms.assetid: 063735de-093c-4891-9a5c-fe1622da283b
 keywords:

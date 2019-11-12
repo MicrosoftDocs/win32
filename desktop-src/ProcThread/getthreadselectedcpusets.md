@@ -1,7 +1,7 @@
 ---
 Description: Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the SetThreadSelectedCpuSets API. If no explicit assignment is set, RequiredIdCount is set to 0 and the function returns TRUE.
 ms.assetid: 9ACF72F8-A64C-4FFF-B340-C920E80238CA
-title: GetThreadSelectedCpuSets function
+title: GetThreadSelectedCpuSets function (Processthreadapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

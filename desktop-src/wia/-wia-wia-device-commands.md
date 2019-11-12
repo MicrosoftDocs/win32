@@ -1,7 +1,7 @@
 ---
 Description: The following constants form the set of valid Windows Image Acquisition (WIA) hardware device commands.
 ms.assetid: f86a0944-2f2a-467e-a9e8-4cdecfc50175
-title: WIA Device Commands
+title: WIA Device Commands (Wiadef.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

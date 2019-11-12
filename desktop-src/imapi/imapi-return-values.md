@@ -1,5 +1,5 @@
 ---
-title: IMAPI Return Values
+title: IMAPI Return Values (Imapi2error.h)
 description: The IMAPI methods return non-negative values, (typically S\_OK) if the method was successful. The IMAPI methods return success or error codes from Winerror.h, Imapi2error.h, or Imapi2fserror.h, on failure.
 ms.assetid: 0e62ed6c-4810-4d36-a759-9b02b68face6
 topic_type:

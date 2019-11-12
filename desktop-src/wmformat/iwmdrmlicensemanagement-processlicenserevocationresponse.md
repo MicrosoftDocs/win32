@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement ProcessLicenseRevocationResponse method
+title: IWMDRMLicenseManagement ProcessLicenseRevocationResponse method (Wmdrmsdk.h)
 description: The ProcessLicenseRevocationResponse method revokes licenses from the local license store. This method uses a license revocation blob (LRB) received from a license revocation server to identify the licenses to revoke.
 ms.assetid: 4428ac44-c3f4-404e-9997-cbc7360faedf
 keywords:

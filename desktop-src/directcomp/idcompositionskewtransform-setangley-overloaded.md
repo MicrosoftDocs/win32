@@ -1,5 +1,5 @@
 ---
-title: IDCompositionSkewTransform SetAngleY methods
+title: IDCompositionSkewTransform SetAngleY methods (Dcomp.h)
 description: Changes or animates the value of the AngleY property of a 2D skew transform. The AngleY property specifies the rotation angle, in degrees. The default value is zero.
 ms.assetid: BD3D282C-5BBD-4BCE-AE15-4491A37D9149
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter _ID method
+title: IVMNetworkAdapter _ID method (VPCCOMInterfaces.h)
 description: Retrieves the internal identifier of this network interface.
 ms.assetid: 3e71c2cd-1a75-44d9-9a6d-04e6344dfec3
 keywords:

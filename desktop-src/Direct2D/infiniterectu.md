@@ -1,5 +1,5 @@
 ---
-title: InfiniteRectU function
+title: InfiniteRectU function (D2d1helper\_3.h)
 description: Creates a rectangle that has its upper-left corner set to (0u, 0u) and its lower-right corner set to (infinity, infinity).
 ms.assetid: 9d8b7874-5fa3-d7aa-3289-303e88c2f744
 keywords:

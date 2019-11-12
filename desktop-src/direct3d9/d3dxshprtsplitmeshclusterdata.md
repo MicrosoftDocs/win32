@@ -1,7 +1,7 @@
 ---
 Description: D3DXSHPRTSPLITMESHCLUSTERDATA structure
 ms.assetid: 6a53420c-06bc-4f52-ac2e-5adda5e34cb2
-title: D3DXSHPRTSPLITMESHCLUSTERDATA structure
+title: D3DXSHPRTSPLITMESHCLUSTERDATA structure (D3dx9mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

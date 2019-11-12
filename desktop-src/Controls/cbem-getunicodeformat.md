@@ -1,5 +1,5 @@
 ---
-title: CBEM_GETUNICODEFORMAT message
+title: CBEM_GETUNICODEFORMAT message (Commctrl.h)
 description: Gets the UNICODE character format flag for the control.
 ms.assetid: 854ff8d5-6e2f-4918-a6c5-91356a4454af
 keywords:

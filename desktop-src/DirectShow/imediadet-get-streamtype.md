@@ -1,7 +1,7 @@
 ---
 Description: The get\_StreamType method retrieves the globally unique identifier (GUID) for the media type of the current stream.
 ms.assetid: 2f61b3fe-c041-4031-9211-2f5fc189542b
-title: IMediaDet::get_StreamType method
+title: IMediaDet::get_StreamType method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

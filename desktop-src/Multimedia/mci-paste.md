@@ -1,5 +1,5 @@
 ---
-title: MCI_PASTE command
+title: MCI_PASTE command (Mmsystem.h)
 description: The MCI\_PASTE command pastes data from the clipboard into a file. Digital-video devices recognize this command.
 ms.assetid: cad5799a-08ef-4e34-803a-415b937d8fbd
 keywords:

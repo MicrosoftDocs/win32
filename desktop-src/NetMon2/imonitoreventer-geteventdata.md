@@ -1,7 +1,7 @@
 ---
 Description: The GetEventData method allocates space for the NMEVENTDATA and NMCOLUMNINFO structures.
 ms.assetid: b24a2a30-4543-4311-87ec-66872463aed7
-title: IMonitorEventer::GetEventData method
+title: IMonitorEventer::GetEventData method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

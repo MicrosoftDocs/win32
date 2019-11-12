@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC RemoveConfigurationValue method
+title: IVMVirtualPC RemoveConfigurationValue method (VPCCOMInterfaces.h)
 description: Removes the value of the specified configuration setting.
 ms.assetid: 07bafa5e-bf62-45bf-af4e-a66050f5afad
 keywords:

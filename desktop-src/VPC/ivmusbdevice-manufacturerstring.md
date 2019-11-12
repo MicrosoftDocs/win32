@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDevice ManufacturerString property
+title: IVMUSBDevice ManufacturerString property (VPCCOMInterfaces.h)
 description: Retrieves the name of the USB device manufacturer.
 ms.assetid: 0d815887-96bf-4795-a4eb-32fb2f35c57e
 keywords:

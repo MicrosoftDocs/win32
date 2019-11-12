@@ -1,7 +1,7 @@
 ---
 Description: An object that encapsulates several DSPs related to voice capture.
 ms.assetid: 6c77c8f6-289e-4130-b56a-e1f0bcc40f3e
-title: Voice Capture DSP
+title: Voice Capture DSP (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

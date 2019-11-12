@@ -1,7 +1,7 @@
 ---
 Description: The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
 ms.assetid: 21b7faaa-591f-4e15-b4e9-453ea690ab4a
-title: IDelaydC::GetControlState method
+title: IDelaydC::GetControlState method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

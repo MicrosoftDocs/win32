@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BDB_ANSI_381_RECORD structure
+title: WINBIO_BDB_ANSI_381_RECORD structure (Winbio\_types.h)
 description: Contains information about a single fingerprint or palm sample from an end user.
 ms.assetid: e0b32d05-3e96-4b42-9e18-57d10513f224
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the media source associated with a topology node.
 ms.assetid: 73b84ab6-bdc2-4b22-9ce4-b79b954476e5
-title: MF_TOPONODE_SOURCE attribute
+title: MF_TOPONODE_SOURCE attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

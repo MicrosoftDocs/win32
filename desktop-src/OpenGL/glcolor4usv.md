@@ -1,5 +1,5 @@
 ---
-title: glColor4usv function
+title: glColor4usv function (Gl.h)
 description: Sets the current color from an already existing array of color values.
 ms.assetid: 93a02461-4c8c-4b57-bedd-7d3be078e4c4
 keywords:

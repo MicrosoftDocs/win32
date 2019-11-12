@@ -1,7 +1,7 @@
 ---
 Description: Adjusts the hue.
 ms.assetid: 8dc3c888-5ab8-40a1-8768-bec58b62eaf0
-title: MFPKEY_COLOR_HUE Property
+title: MFPKEY_COLOR_HUE Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

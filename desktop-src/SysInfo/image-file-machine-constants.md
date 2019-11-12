@@ -1,7 +1,7 @@
 ---
 Description: Describes possible machine architectures.
 ms.assetid: 1E5E4F98-925B-424D-9B3D-BC6716FBF990
-title: Image File Machine Constants
+title: Image File Machine Constants (Winnt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

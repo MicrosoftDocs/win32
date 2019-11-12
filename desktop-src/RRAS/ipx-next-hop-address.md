@@ -1,5 +1,5 @@
 ---
-title: IPX_NEXT_HOP_ADDRESS structure
+title: IPX_NEXT_HOP_ADDRESS structure (Rtm.h)
 description: The IPX\_NEXT\_HOP\_ADDRESS structure contains the address for the next-hop router for an IPX route.
 ms.assetid: 079e3284-6238-4bcf-a17f-68ff86775f18
 keywords:

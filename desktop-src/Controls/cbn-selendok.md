@@ -1,5 +1,5 @@
 ---
-title: CBN_SELENDOK notification code
+title: CBN_SELENDOK notification code (Winuser.h)
 description: Sent when the user selects a list item, or selects an item and then closes the list. It indicates that the user's selection is to be processed. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: ef0ac46f-2db9-40d6-ba82-7e90d71fdd37
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LBN_SELCANCEL notification code
+title: LBN_SELCANCEL notification code (Winuser.h)
 description: Notifies the application that the user has canceled the selection in a list box. The parent window of the list box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 82e39f22-090e-4dda-8ddc-6a1fe4704fc7
 keywords:

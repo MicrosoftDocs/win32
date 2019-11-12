@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 2258ecd6-7594-4ff8-961b-9e5e1ae9ff82
-title: CGenericList.CGenericList constructor
+title: CGenericList.CGenericList constructor (Wxlist.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

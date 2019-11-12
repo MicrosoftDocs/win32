@@ -1,5 +1,5 @@
 ---
-title: IWMCodecProps
+title: IWMCodecProps (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: a3720f35-819b-4d32-a45b-ec419b83e9c9
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM_HTTP_STATUS enumeration
+title: DRM_HTTP_STATUS enumeration (Drmexternals.h)
 description: The DRM\_HTTP\_STATUS enumeration type defines a range of states for a DRM request.
 ms.assetid: '9e0fb060-3fbf-45d0-872b-4d666ea9a88d'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Up-Down Control Styles
+title: Up-Down Control Styles (CommCtrl.h)
 description: This section lists the styles used when creating up-down controls.
 ms.assetid: d35198cb-6a5b-485e-a914-1b2ede53462f
 topic_type:

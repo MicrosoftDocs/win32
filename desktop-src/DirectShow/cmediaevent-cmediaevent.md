@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: 7f7a0a9f-e531-4e22-8601-b84ab088e9e7
-title: CMediaEvent.CMediaEvent constructor
+title: CMediaEvent.CMediaEvent constructor (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

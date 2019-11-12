@@ -1,5 +1,5 @@
 ---
-title: WMDRMNET_POLICY_GLOBAL_REQUIREMENTS structure
+title: WMDRMNET_POLICY_GLOBAL_REQUIREMENTS structure (Wmdrmsdk.h)
 description: The WMDRMNET\_POLICY\_GLOBAL\_REQUIREMENTS structure holds global requirements for Windows Media DRM for Network Devices.
 ms.assetid: 140b3a6f-ccba-4735-b48a-2e990f5ec570
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the vendor name of the IInkAnalysisRecognizer.
 ms.assetid: 62ff209e-2a34-4c04-90a0-661d06898298
-title: IInkAnalysisRecognizer::GetVendor method
+title: IInkAnalysisRecognizer::GetVendor method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: 'This section contains information about the following shader interfaces:'
 ms.assetid: d8770b45-a05c-4dd8-9fa7-08fb4330d734
-title: Shader Interfaces
+title: Shader Interfaces (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---

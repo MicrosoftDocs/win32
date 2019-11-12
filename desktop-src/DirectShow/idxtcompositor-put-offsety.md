@@ -1,7 +1,7 @@
 ---
 Description: The put\_OffsetY method specifies the vertical offset of the target rectangle.
 ms.assetid: 68f2774d-9f26-4829-835d-b338c39f1c99
-title: IDxtCompositor::put_OffsetY method
+title: IDxtCompositor::put_OffsetY method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

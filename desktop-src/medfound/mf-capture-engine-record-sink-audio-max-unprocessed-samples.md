@@ -1,7 +1,7 @@
 ---
 Description: Sets the maximum number of unprocessed samples that can be buffered for processing in the record sink audio path.
 ms.assetid: C959ED58-77EB-47EC-8D5D-BBFA9342295D
-title: MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_UNPROCESSED_SAMPLES attribute
+title: MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_UNPROCESSED_SAMPLES attribute (Mfcaptureengine.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

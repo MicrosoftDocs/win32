@@ -1,5 +1,5 @@
 ---
-title: EM_GETTHUMB message
+title: EM_GETTHUMB message (Winuser.h)
 description: Gets the position of the scroll box (thumb) in the vertical scroll bar of a multiline edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 04bd0102-1652-405b-8c42-50e138abaf75
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents a handle to a set of object identifier (OID) installable functions.
 ms.assetid: 83b76466-dc55-4269-91a3-17c2e6102126
-title: HCRYPTOIDFUNCSET
+title: HCRYPTOIDFUNCSET (Wincrypt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

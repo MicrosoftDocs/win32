@@ -1,7 +1,7 @@
 ---
 Description: Sent to a child window when the user clicks the window's title bar or when the window is activated, moved, or sized.
 ms.assetid: 6e60725d-aa01-48bb-86a5-f17f56b97d35
-title: WM_CHILDACTIVATE message
+title: WM_CHILDACTIVATE message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

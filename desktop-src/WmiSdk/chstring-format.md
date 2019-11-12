@@ -3,7 +3,7 @@ Description: The Format method formats and stores a series of characters and val
 audience: developer
 ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
 ms.tgt_platform: multiple
-title: CHString::Format methods
+title: CHString::Format methods (ChString.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

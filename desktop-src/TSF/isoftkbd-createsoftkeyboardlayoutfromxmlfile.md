@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd CreateSoftKeyboardLayoutFromXMLFile method
+title: ISoftKbd CreateSoftKeyboardLayoutFromXMLFile method (Softkbdc.h)
 description: The ISoftKbd CreateSoftKeyboardLayoutFromXMLFile method creates a soft keyboard layout from the specified XML file.
 ms.assetid: e665adab-1d75-4e41-87bf-c8ce0f7a0399
 keywords:

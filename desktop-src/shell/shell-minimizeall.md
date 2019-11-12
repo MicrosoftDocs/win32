@@ -1,7 +1,7 @@
 ---
 Description: Minimizes all of the windows on the desktop.
 ms.assetid: 3af98a16-27d1-4c93-ac72-7c9e24e68c23
-title: Shell.MinimizeAll method
+title: Shell.MinimizeAll method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

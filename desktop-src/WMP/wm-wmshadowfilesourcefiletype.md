@@ -1,5 +1,5 @@
 ---
-title: WM/WMShadowFileSourceFileType
+title: WM/WMShadowFileSourceFileType (Windows Media Player SDK)
 description: The WM/WMShadowFileSourceFileType is the file type of the file contained in the shadow file.
 ms.assetid: 4c4b70b6-0e26-49f3-b7c1-f6e1fe791e48
 keywords:

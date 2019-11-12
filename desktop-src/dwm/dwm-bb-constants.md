@@ -1,5 +1,5 @@
 ---
-title: DWM Blur Behind Constants
+title: DWM Blur Behind Constants (Dwmapi.h)
 description: Flags used by the DWM\_BLURBEHIND structure to indicate which of its members contain valid information.
 ms.assetid: d6dd552c-1f3b-4f16-8705-f5016ed55d9e
 topic_type:

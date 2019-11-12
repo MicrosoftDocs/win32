@@ -1,7 +1,7 @@
 ---
 Description: The AUDCLNT\_SESSIONFLAGS\_XXX constants indicate characteristics of an audio session associated with the stream.
 ms.assetid: 5745d5bc-71e8-4b33-8227-c1c84226b6ee
-title: AUDCLNT_SESSIONFLAGS_XXX Constants
+title: AUDCLNT_SESSIONFLAGS_XXX Constants (Audiosessiontypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sorting
+title: Sorting (ADSI)
 description: A client can request a server to sort the result set.
 ms.assetid: 795d27f0-0bfa-417e-aa1f-f2471f92dc45
 ms.tgt_platform: multiple

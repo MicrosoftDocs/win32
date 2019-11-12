@@ -1,5 +1,5 @@
 ---
-title: BCM_SETSPLITINFO message
+title: BCM_SETSPLITINFO message (Commctrl.h)
 description: Sets information for a split button control. Send this message explicitly or by using the Button\_SetSplitInfo macro.
 ms.assetid: 609b8972-9616-4850-a72c-2f87ce19f563
 keywords:

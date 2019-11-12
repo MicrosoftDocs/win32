@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDevice HubID property
+title: IVMUSBDevice HubID property (VPCCOMInterfaces.h)
 description: Retrieves the identifier of the hub on which the device is connected.
 ms.assetid: 22e1d8fb-33f4-43a3-883f-174ddafa17c2
 keywords:

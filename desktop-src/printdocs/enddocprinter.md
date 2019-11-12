@@ -1,7 +1,7 @@
 ---
 Description: The EndDocPrinter function ends a print job for the specified printer.
 ms.assetid: 13c713e8-cc24-4191-8b1e-967b9e20e541
-title: EndDocPrinter function
+title: EndDocPrinter function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: MOM_OPEN message
+title: MOM_OPEN message (Mmsystem.h)
 description: The MOM\_OPEN message is sent to a MIDI output callback function when a MIDI output device is opened.
 ms.assetid: 'f3360482-7d16-419c-b5d1-0dd3a6e3c690'
 keywords:

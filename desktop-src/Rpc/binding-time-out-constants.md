@@ -1,5 +1,5 @@
 ---
-title: Binding Time-out Constants
+title: Binding Time-out Constants (Rpcdce.h)
 description: The RPC library uses the binding time-out constants to specify the relative amount of time that should be spent to establish a binding to the server before giving up.
 ms.assetid: bf5f3f08-ab29-4732-9ce3-d6d7ad699369
 topic_type:

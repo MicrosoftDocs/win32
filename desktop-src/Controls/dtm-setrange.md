@@ -1,5 +1,5 @@
 ---
-title: DTM_SETRANGE message
+title: DTM_SETRANGE message (Commctrl.h)
 description: Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_SetRange macro.
 ms.assetid: ef0f48f2-906e-4ae0-839d-177e0fb7f14e
 keywords:

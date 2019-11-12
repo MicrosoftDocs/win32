@@ -1,7 +1,7 @@
 ---
 Description: Consumers implement this function to receive events for a specific event trace class from a session.
 ms.assetid: 32e94f58-b8b6-4e0a-b53b-716a534ac374
-title: EventClassCallback callback function
+title: EventClassCallback callback function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Encrypts a message to provide privacy.
 ms.assetid: 2e09f262-9c3e-4db2-9285-017f5e1810c7
-title: EncryptMessage (General) function
+title: EncryptMessage (General) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

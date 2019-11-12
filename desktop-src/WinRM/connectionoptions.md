@@ -1,5 +1,5 @@
 ---
-title: ConnectionOptions object
+title: ConnectionOptions object (WSManDisp.h)
 description: The ConnectionOptions object is passed to the CreateSession method to provide the user name and password associated with the local account on the remote computer.
 ms.assetid: 7a87a5f7-78ed-452c-9b9f-ad48811a3339
 ms.tgt_platform: multiple

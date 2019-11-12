@@ -1,5 +1,5 @@
 ---
-title: PBM_SETMARQUEE message
+title: PBM_SETMARQUEE message (Commctrl.h)
 description: Sets the progress bar to marquee mode. This causes the progress bar to move like a marquee.
 ms.assetid: 6501bcb9-a711-470f-874f-f3484d3613b6
 keywords:

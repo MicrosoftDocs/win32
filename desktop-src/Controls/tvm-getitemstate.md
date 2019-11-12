@@ -1,5 +1,5 @@
 ---
-title: TVM_GETITEMSTATE message
+title: TVM_GETITEMSTATE message (Commctrl.h)
 description: Retrieves some or all of a tree-view item's state attributes. You can send this message explicitly or by using the TreeView\_GetItemState macro.
 ms.assetid: 89aaaa82-2809-4e4e-a325-5666a57c5cbb
 keywords:

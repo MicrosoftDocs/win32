@@ -1,5 +1,5 @@
 ---
-title: RtmAddRoute function
+title: RtmAddRoute function (Rtm.h)
 description: The RtmAddRoute function adds a route entry or updates an existing route entry.
 ms.assetid: 09a9b57d-f10b-40b7-a3c1-2e0613f29431
 keywords:

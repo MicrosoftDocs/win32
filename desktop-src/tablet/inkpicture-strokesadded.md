@@ -1,7 +1,7 @@
 ---
 Description: Occurs when one or more IInkStrokeDisp objects are added to the InkStrokes collection.
 ms.assetid: 577ad52b-ecd3-4a49-8997-481ebdb47203
-title: InkPicture.StrokesAdded event
+title: InkPicture.StrokesAdded event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

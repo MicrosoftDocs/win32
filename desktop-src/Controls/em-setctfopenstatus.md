@@ -1,5 +1,5 @@
 ---
-title: EM_SETCTFOPENSTATUS message
+title: EM_SETCTFOPENSTATUS message (Richedit.h)
 description: Opens or closes the Text Services Framework (TSF) keyboard.
 ms.assetid: 9bdabf5a-93db-4b0e-9528-807d262de866
 keywords:

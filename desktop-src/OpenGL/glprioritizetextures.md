@@ -1,5 +1,5 @@
 ---
-title: glPrioritizeTextures function
+title: glPrioritizeTextures function (Gl.h)
 description: The glPrioritizeTextures function sets the residence priority of textures.
 ms.assetid: 09018c86-c667-4e43-a95a-51a8077aed33
 keywords:

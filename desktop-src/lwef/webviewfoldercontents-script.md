@@ -1,5 +1,5 @@
 ---
-title: WebViewFolderContents.Script property
+title: WebViewFolderContents.Script property (Shldisp.h)
 description: Gets the scripting object for the view.
 ms.assetid: f65246c5-3cd6-43bd-b267-ad27bdd0b41e
 keywords:

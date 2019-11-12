@@ -1,7 +1,7 @@
 ---
 Description: Gets a constant by looking up its index.
 ms.assetid: 7db25171-9bda-4db8-b6a8-8a4d60a842f7
-title: ID3DXConstantTable::GetConstant method
+title: ID3DXConstantTable::GetConstant method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

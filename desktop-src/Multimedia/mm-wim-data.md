@@ -1,5 +1,5 @@
 ---
-title: MM_WIM_DATA message
+title: MM_WIM_DATA message (Mmsystem.h)
 description: The MM\_WIM\_DATA message is sent to a window when waveform-audio data is present in the input buffer and the buffer is being returned to the application. The message can be sent either when the buffer is full or after the waveInReset function is called.
 ms.assetid: 14298153-ea2f-40b7-bca7-196f4e6c1155
 keywords:

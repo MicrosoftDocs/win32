@@ -1,5 +1,5 @@
 ---
-title: BCM_GETIDEALSIZE message
+title: BCM_GETIDEALSIZE message (Commctrl.h)
 description: Gets the size of the button that best fits its text and image, if an image list is present. You can send this message explicitly or use the Button\_GetIdealSize macro.
 ms.assetid: c1bc2043-bf1a-4129-a005-f04048c4c1db
 keywords:

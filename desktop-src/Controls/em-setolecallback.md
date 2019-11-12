@@ -1,5 +1,5 @@
 ---
-title: EM_SETOLECALLBACK message
+title: EM_SETOLECALLBACK message (Richedit.h)
 description: Gives a rich edit control an IRichEditOleCallback object that the control uses to get OLE-related resources and information from the client.
 ms.assetid: bd1f8048-214c-4ac6-b826-bedabb1aaee5
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the type of Direct3D authenticated channel.
 ms.assetid: 99a7664e-b0c8-4e66-ad3b-c6ad039ef6eb
-title: D3DAUTHENTICATEDCHANNELTYPE enumeration
+title: D3DAUTHENTICATEDCHANNELTYPE enumeration (D3d9types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Occurs before the InkPicture control redraws itself.
 ms.assetid: 97d017ce-fdab-49e5-9ea6-0bcc5d7b14fb
-title: InkPicture.Painting event
+title: InkPicture.Painting event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

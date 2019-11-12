@@ -1,7 +1,7 @@
 ---
 Description: Load a series of characters into video memory to improve the efficiency of rendering to the device.
 ms.assetid: 935a6248-e6b7-4fce-aaa7-b7f0c94c1f79
-title: ID3DX10Font::PreloadCharacters method
+title: ID3DX10Font::PreloadCharacters method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

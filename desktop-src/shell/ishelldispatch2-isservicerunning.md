@@ -1,7 +1,7 @@
 ---
 Description: Returns a value that indicates whether a particular service is running.
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
-title: IShellDispatch2.IsServiceRunning method
+title: IShellDispatch2.IsServiceRunning method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

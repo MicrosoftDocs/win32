@@ -1,7 +1,7 @@
 ---
 Description: Creates a font object for a device and font.
 ms.assetid: 3e65dfdc-9608-420c-9672-c38289d13ab1
-title: D3DXCreateFont function
+title: D3DXCreateFont function (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo ProcessorSpeedString property
+title: IVMHostInfo ProcessorSpeedString property (VPCCOMInterfaces.h)
 description: Speed of the host processor, in megahertz (MHz) or gigahertz (GHz), as a string.
 ms.assetid: 1a4a42bf-b7aa-4eec-8df5-1820aac82de3
 keywords:

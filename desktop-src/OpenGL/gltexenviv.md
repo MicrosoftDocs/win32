@@ -1,5 +1,5 @@
 ---
-title: glTexEnviv function
+title: glTexEnviv function (Gl.h)
 description: The glTexEnviv function sets a texture environment parameter.
 ms.assetid: e98ce736-cc68-4687-8c1b-6b0fef7a677a
 keywords:

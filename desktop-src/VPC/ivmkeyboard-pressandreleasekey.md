@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard PressAndReleaseKey method
+title: IVMKeyboard PressAndReleaseKey method (VPCCOMInterfaces.h)
 description: Simulates a key being pressed down and then released.
 ms.assetid: 2a7fc36f-f1bf-4f1d-b8f7-ea5b167c82a7
 keywords:

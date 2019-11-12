@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig2 interface
+title: INapComponentConfig2 interface (NapCommon.h)
 description: Provides NAP system configuration methods for system health validators (SHVs) to configure a network policy server (NPS) user interface remotely.
 ms.assetid: 35150184-300c-4ea4-bff9-b3c33fa3156b
 keywords:

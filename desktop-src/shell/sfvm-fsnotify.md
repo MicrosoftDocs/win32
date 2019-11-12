@@ -1,6 +1,6 @@
 ---
 Description: Notifies the callback object that an event has taken place that affects one of its items. Used by IShellFolderViewCB::MessageSFVCB.
-title: SFVM_FSNOTIFY message
+title: SFVM_FSNOTIFY message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: ff159c35-afdf-4147-8dd6-7febd9519b18

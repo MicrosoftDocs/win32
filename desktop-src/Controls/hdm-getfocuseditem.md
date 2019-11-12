@@ -1,5 +1,5 @@
 ---
-title: HDM_GETFOCUSEDITEM message
+title: HDM_GETFOCUSEDITEM message (Commctrl.h)
 description: Gets the item in a header control that has the focus. Send this message explicitly or by using the Header\_GetFocusedItem macro.
 ms.assetid: 9ad8e497-6f81-4226-b138-d1101f2fd8b3
 keywords:

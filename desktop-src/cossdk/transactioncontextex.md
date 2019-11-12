@@ -1,7 +1,7 @@
 ---
 Description: Creates a generic transactional object that begins a transaction. By calling the methods of this class, you can compose the work of multiple COM objects in a single transaction and explicitly commit or abort the transaction.
 ms.assetid: '5f3f83e0-33fc-4c43-9327-59485c0d8bd3'
-title: TransactionContextEx class
+title: TransactionContextEx class (ComSvcs.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

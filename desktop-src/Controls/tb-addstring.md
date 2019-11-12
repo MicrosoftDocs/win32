@@ -1,5 +1,5 @@
 ---
-title: TB_ADDSTRING message
+title: TB_ADDSTRING message (Commctrl.h)
 description: Adds a new string to the toolbar's string pool.
 ms.assetid: e22ee2cc-6443-49d3-aea6-a4ab256d4538
 keywords:

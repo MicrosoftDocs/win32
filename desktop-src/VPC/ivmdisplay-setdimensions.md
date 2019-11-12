@@ -1,5 +1,5 @@
 ---
-title: IVMDisplay SetDimensions method
+title: IVMDisplay SetDimensions method (VPCCOMInterfaces.h)
 description: Sets the height and width of the VM's display, in pixels.
 ms.assetid: 8ad5cfc4-59b4-4327-b088-d54adf9c6fda
 keywords:

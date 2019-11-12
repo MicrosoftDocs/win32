@@ -1,7 +1,7 @@
 ---
 Description: Creates an enumerator object that will read a .x file.
 ms.assetid: 86d05eab-601c-4beb-9dbe-c23fa524871c
-title: ID3DXFile::CreateEnumObject method
+title: ID3DXFile::CreateEnumObject method (D3DX9Xof.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

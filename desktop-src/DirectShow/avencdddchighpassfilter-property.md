@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a DC-blocking high pass filter is applied to a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 7ec0b642-d50a-4b23-97c4-82c14da80a8b
-title: AVEncDDDCHighPassFilter property
+title: AVEncDDDCHighPassFilter property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

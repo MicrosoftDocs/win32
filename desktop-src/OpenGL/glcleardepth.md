@@ -1,5 +1,5 @@
 ---
-title: glClearDepth function
+title: glClearDepth function (Gl.h)
 description: The glClearDepth function specifies the clear value for the depth buffer.
 ms.assetid: 8e26ae78-edc1-4201-a0db-d5bc8ae6dc82
 keywords:

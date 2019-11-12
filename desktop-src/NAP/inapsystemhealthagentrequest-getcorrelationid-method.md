@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentRequest GetCorrelationId method
+title: INapSystemHealthAgentRequest GetCorrelationId method (NapSystemHealthAgent.h)
 description: Is used by system health agents to correlate SoH's and SoH-Responses.
 ms.assetid: 220db71a-31d7-45a7-a8e7-ddb4955d546e
 keywords:

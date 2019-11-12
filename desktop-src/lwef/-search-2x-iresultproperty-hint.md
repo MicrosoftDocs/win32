@@ -1,5 +1,5 @@
 ---
-title: IResultProperty Hint property
+title: IResultProperty Hint property (WdsSharedIDL.h)
 description: Special value used to aid data retrieval.
 ms.assetid: fa888c5e-898e-4f48-b87e-2d0d078fd1fe
 keywords:

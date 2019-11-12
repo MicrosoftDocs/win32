@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentRequest interface
+title: INapSystemHealthAgentRequest interface (NapSystemHealthAgent.h)
 description: SHAs use to communicate and coordinate processing with the NAP system.
 ms.assetid: 424e0fb7-cce7-4b75-b474-fda0e053284e
 keywords:

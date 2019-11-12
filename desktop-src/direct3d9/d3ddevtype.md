@@ -1,7 +1,7 @@
 ---
 Description: Defines device types.
 ms.assetid: 2bcdc476-7c42-4152-b107-58366faf2abd
-title: D3DDEVTYPE enumeration
+title: D3DDEVTYPE enumeration (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

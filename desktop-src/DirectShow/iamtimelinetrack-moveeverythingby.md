@@ -1,7 +1,7 @@
 ---
 Description: This method is not supported.
 ms.assetid: f263116b-e492-4468-9829-124a096c9d74
-title: IAMTimelineTrack::MoveEverythingBy method
+title: IAMTimelineTrack::MoveEverythingBy method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

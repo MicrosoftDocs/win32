@@ -1,7 +1,7 @@
 ---
 Description: Retrieves information about a given image file.
 ms.assetid: 2e9d7073-4136-4fb7-8749-810aee000433
-title: D3DXGetImageInfoFromFile function
+title: D3DXGetImageInfoFromFile function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the stroke identifier for the stroke referenced by an index value within the IContextNode object.
 ms.assetid: faac142e-cac1-45f9-9b40-76c50ac7006b
-title: IContextNode::GetStrokeId method
+title: IContextNode::GetStrokeId method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

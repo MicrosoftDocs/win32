@@ -1,7 +1,7 @@
 ---
 Description: A user-implemented method for closing a shader \#include file.
 ms.assetid: de54ce56-3884-443a-9879-4e7290bcfb8d
-title: ID3DXInclude::Close method
+title: ID3DXInclude::Close method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: RootDSE
+title: RootDSE (AD Schema)
 description: In LDAP 3.0, rootDSE is defined as the root of the directory data tree on a directory server.
 ms.assetid: dd5a160d-6604-43ca-878c-6b19e90d3adb
 ms.tgt_platform: multiple

@@ -1,7 +1,7 @@
 ---
 Description: The Connect method of the Merge object connects a module to an additional feature. The module must have already been merged into the database or will be merged into the database. The feature must exist before calling this function.
 ms.assetid: '1c1ef664-792c-4cdc-b468-1ffe0b7810a5'
-title: Merge.Connect method
+title: Merge.Connect method (Mergemod.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

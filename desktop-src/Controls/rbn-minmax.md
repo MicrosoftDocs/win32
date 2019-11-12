@@ -1,5 +1,5 @@
 ---
-title: RBN_MINMAX notification code
+title: RBN_MINMAX notification code (Commctrl.h)
 description: Sent by a rebar control prior to maximizing or minimizing a band. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 75619cb0-ef0b-44fa-83b2-15a5e5e92c60
 keywords:

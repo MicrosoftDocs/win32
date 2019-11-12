@@ -1,7 +1,7 @@
 ---
 Description: Specifies the default setting for the original bit in the MPEG-1 audio stream. This property applies to MPEG audio encoders.
 ms.assetid: 62b56868-684f-4f28-90da-dac19cb07946
-title: AVEncMPAOriginalBitstream property
+title: AVEncMPAOriginalBitstream property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

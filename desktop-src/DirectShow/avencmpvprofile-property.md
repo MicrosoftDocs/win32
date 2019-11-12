@@ -1,7 +1,7 @@
 ---
 Description: Specifies the MPEG-2 profile. This property applies to MPEG video encoders.
 ms.assetid: 89c76f7e-8ec9-414b-8929-7392ff3a11bd
-title: AVEncMPVProfile property
+title: AVEncMPVProfile property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

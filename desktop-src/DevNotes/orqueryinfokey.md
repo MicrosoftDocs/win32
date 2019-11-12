@@ -1,7 +1,7 @@
 ---
 Description: Retrieves information about the specified registry key in an offline registry hive.
 ms.assetid: b565c55c-acc2-4880-91eb-7bd9188e4749
-title: ORQueryInfoKey function
+title: ORQueryInfoKey function (Offreg.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

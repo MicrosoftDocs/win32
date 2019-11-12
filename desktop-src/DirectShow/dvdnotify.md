@@ -1,7 +1,7 @@
 ---
 Description: The DVDNotify event notifies an application of many different DVD events and disc instructions.
 ms.assetid: 8e7d85fb-95c0-472d-ab17-a82da303b68f
-title: DVDNotify
+title: DVDNotify (Segment.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

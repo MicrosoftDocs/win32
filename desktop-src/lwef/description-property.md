@@ -1,5 +1,5 @@
 ---
-title: Description Property
+title: Description Property (Legacy Windows Environment Features)
 description: Description Property
 ms.assetid: 81ac4bc7-ef0c-4e7c-b57e-acc4ad315515
 ms.topic: article

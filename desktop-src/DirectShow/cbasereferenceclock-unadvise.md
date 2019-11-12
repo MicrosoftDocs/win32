@@ -1,7 +1,7 @@
 ---
 Description: The Unadvise method removes a pending advise request. This method implements the IReferenceClock::Unadvise method.
 ms.assetid: b137234a-e260-42f9-b583-9e6a5fd7bca4
-title: CBaseReferenceClock.Unadvise method
+title: CBaseReferenceClock.Unadvise method (Refclock.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

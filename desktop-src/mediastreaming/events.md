@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Events (Media Streaming API)
 description: The Media Streaming API generates the following events.
 ms.assetid: 8954B079-5CCB-4D0C-9F48-A8DEA101C3FA
 ms.topic: reference

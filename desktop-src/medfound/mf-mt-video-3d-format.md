@@ -1,7 +1,7 @@
 ---
 Description: For a video media type, specifies how 3D video frames are stored in memory.
 ms.assetid: 880DF017-5841-4C0A-82AF-F092DEF5406B
-title: MF_MT_VIDEO_3D_FORMAT attribute
+title: MF_MT_VIDEO_3D_FORMAT attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer DisplayName property
+title: IResultsViewer DisplayName property (WdsView.h)
 description: Localized display name of the type.
 ms.assetid: 22503996-e693-47bc-b84f-cc4d3af2cb78
 keywords:

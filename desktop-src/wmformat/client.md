@@ -1,5 +1,5 @@
 ---
-title: Client Logging
+title: Client Logging (Windows Media Format 11 SDK)
 description: Client Logging
 ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the nominal range for the input video.
 ms.assetid: 27a378ea-3a89-48d5-a11c-68df09818c9c
-title: AVEncVideoInputColorNominalRange property
+title: AVEncVideoInputColorNominalRange property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

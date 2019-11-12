@@ -1,5 +1,5 @@
 ---
-title: DRV_DISABLE message
+title: DRV_DISABLE message (Mmsystem.h)
 description: Disables the driver. The driver should place the corresponding device, if any, in an inactive state and terminate any callback functions or threads.
 ms.assetid: 83e99397-6f0e-4174-9f96-e10c1f17ef0b
 keywords:

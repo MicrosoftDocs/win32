@@ -1,5 +1,5 @@
 ---
-title: MCI_INFO_PARMS structure
+title: MCI_INFO_PARMS structure (Mciapi.h)
 description: The MCI\_INFO\_PARMS structure contains information for the MCI\_INFO command.
 ms.assetid: c64cff7d-a6d5-44b7-8cfb-9593f6328832
 keywords:

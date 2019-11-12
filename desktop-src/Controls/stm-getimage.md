@@ -1,5 +1,5 @@
 ---
-title: STM_GETIMAGE message
+title: STM_GETIMAGE message (Winuser.h)
 description: An application sends an STM\_GETIMAGE message to retrieve a handle to the image (icon or bitmap) associated with a static control.
 ms.assetid: eb5fe67a-09be-4c13-89c6-0e2f23e8c081
 keywords:

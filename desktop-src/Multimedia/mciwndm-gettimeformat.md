@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GETTIMEFORMAT message
+title: MCIWNDM_GETTIMEFORMAT message (Vfw.h)
 description: The MCIWNDM\_GETTIMEFORMAT message retrieves the current time format of an MCI device in two forms as a numerical value and as a string. You can send this message explicitly or by using the MCIWndGetTimeFormat macro.
 ms.assetid: 01844872-5444-4f3b-92a3-64f80b94d3a0
 keywords:

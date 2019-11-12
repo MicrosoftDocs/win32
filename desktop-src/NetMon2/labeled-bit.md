@@ -1,7 +1,7 @@
 ---
 Description: The LABELED\_BIT structure defines a label BIT pair.
 ms.assetid: 500b5159-bf9f-49d4-8567-d8e462015eb0
-title: LABELED_BIT structure
+title: LABELED_BIT structure (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: RB_GETPALETTE message
+title: RB_GETPALETTE message (Commctrl.h)
 description: Retrieves the rebar control's current palette.
 ms.assetid: f9eeefb3-8308-45bf-89e4-4f282ee6d935
 keywords:

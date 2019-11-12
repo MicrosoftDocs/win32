@@ -1,5 +1,5 @@
 ---
-title: Automation Element Property Identifiers
+title: Automation Element Property Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants that identify the properties of Microsoft UI Automation elements.
 ms.assetid: f7613ad1-0b75-46fb-b9ac-b1ae9eea4193
 topic_type:

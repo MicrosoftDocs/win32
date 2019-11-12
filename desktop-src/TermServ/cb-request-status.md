@@ -1,5 +1,5 @@
 ---
-title: CB_REQUEST_STATUS enumeration
+title: CB_REQUEST_STATUS enumeration (Cbclient.h)
 description: Specifies the status of an asynchronous request.
 ms.assetid: 35FAC8EA-BA17-405F-AE10-33A816029F62
 ms.tgt_platform: multiple

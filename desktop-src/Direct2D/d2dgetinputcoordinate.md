@@ -1,5 +1,5 @@
 ---
-title: D2DGetInputCoordinate function
+title: D2DGetInputCoordinate function (D2d1effecthelpers.h)
 description: Returns the value of the input TEXCOORDN. Only available for complex inputs.
 ms.assetid: 60125E23-53B3-45ED-89FE-684E79004F6B
 keywords:

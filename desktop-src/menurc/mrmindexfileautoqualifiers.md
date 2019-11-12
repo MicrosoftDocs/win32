@@ -1,5 +1,5 @@
 ---
-title: MrmIndexFileAutoQualifiers function
+title: MrmIndexFileAutoQualifiers function (MrmResourceIndexer.h)
 description: Indexes a resource file belonging to a UWP app. Infers a list of resource qualifiers from the filePath parameter. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: CEA4D845-987C-48D6-B80E-9F055363FFE0
 keywords:

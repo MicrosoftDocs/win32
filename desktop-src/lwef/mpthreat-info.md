@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_INFO structure
+title: MPTHREAT_INFO structure (MpClient.h)
 description: Contains information about a threat.
 ms.assetid: ED2A0BDB-0E7C-479D-ADA1-95B9A259F57E
 keywords:

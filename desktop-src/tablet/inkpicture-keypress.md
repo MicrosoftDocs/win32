@@ -1,7 +1,7 @@
 ---
 Description: Occurs when a key is pressed while the InkPicture control has focus.
 ms.assetid: adb61eff-a92c-40b0-940c-02e14cd34e5f
-title: InkPicture.KeyPress event
+title: InkPicture.KeyPress event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

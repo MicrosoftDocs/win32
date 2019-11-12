@@ -1,7 +1,7 @@
 ---
 Description: This API is intended for internal use only and should not be used in your code.
 ms.assetid: 836A7515-8C22-4032-9E99-F89B32C21685
-title: ApiSetQueryApiSetPresence function
+title: ApiSetQueryApiSetPresence function (Apiquery.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: A callback function that must be implemented by a user to set a transform.
 ms.assetid: 5d886554-ddb6-4b8a-a7fd-453e94b9516f
-title: ID3DXEffectStateManager::SetTransform method
+title: ID3DXEffectStateManager::SetTransform method (D3DX9Effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

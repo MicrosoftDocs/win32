@@ -3,7 +3,7 @@ Description: The GetValuesForProp method returns all of the values for a particu
 audience: developer
 ms.assetid: b5ed4b48-f622-4a55-897d-d800ada0270f
 ms.tgt_platform: multiple
-title: CFrameworkQuery::GetValuesForProp methods
+title: CFrameworkQuery::GetValuesForProp methods (FrQuery.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

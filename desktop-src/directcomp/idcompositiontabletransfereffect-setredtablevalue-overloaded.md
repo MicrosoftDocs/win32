@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTableTransferEffect SetRedTableValue methods
+title: IDCompositionTableTransferEffect SetRedTableValue methods (Dcomp.h)
 description: Sets a value in the red table.
 ms.assetid: 9cfa766c-b88d-9a8f-109f-b42e9df79cbf
 keywords:

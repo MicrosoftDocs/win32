@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyCallback JobError method
+title: IBackgroundCopyCallback JobError method (Deliveryoptimization.h)
 description: Delivery Optimization (DO) calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
 ms.assetid: 121712A5-98EB-4B2F-A004-A3BDF9C1332B
 keywords:

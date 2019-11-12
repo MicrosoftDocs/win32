@@ -1,5 +1,5 @@
 ---
-title: ID2D1SvgStrokeDashArray GetDashes methods
+title: ID2D1SvgStrokeDashArray GetDashes methods (D2d1svg.h)
 description: Gets dashes from the array.
 ms.assetid: d244b59c-2681-1da9-9b89-534b4f3be543
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_SETAUDIO_PARMS structure
+title: MCI_VCR_SETAUDIO_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_SETAUDIO\_PARMS structure contains parameters for the MCI\_SETAUDIO command for video-cassette recorders.
 ms.assetid: 328d8e63-7ddd-4c9b-85d6-2e56fd802dbc
 keywords:

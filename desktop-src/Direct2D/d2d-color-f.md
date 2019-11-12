@@ -1,5 +1,5 @@
 ---
-title: D2D_COLOR_F
+title: D2D_COLOR_F (D2DBaseTypes.h)
 description: Describes the red, green, blue, and alpha components of a color.
 ms.assetid: 706c6ba1-1685-4df7-9b40-279eb628df34
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MMIOM_CLOSE message
+title: MMIOM_CLOSE message (Mmsystem.h)
 description: The MMIOM\_CLOSE message is sent to an I/O procedure by the mmioClose function to request that a file be closed.
 ms.assetid: 9d0dad5b-fd0a-4948-a4cf-9d138e353c76
 keywords:

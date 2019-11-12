@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectBlendVariable GetBackingStore method
+title: ID3DX11EffectBlendVariable GetBackingStore method (D3dx11effect.h)
 description: Get a pointer to a blend-state variable.
 ms.assetid: 809daaad-9bf0-48fb-ae91-f237c43db324
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDevice DeviceClass property
+title: IVMUSBDevice DeviceClass property (VPCCOMInterfaces.h)
 description: Retrieves the device class of the USB device.
 ms.assetid: 46c258b9-6064-4e8c-aa5d-71b26c07351c
 keywords:

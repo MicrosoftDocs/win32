@@ -1,5 +1,5 @@
 ---
-title: EN_REQUESTRESIZE notification code
+title: EN_REQUESTRESIZE notification code (Richedit.h)
 description: Notifies a rich edit control's parent window that the control's contents are either smaller or larger than the control's window size. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 708c23b1-7b81-46f1-9595-46230693855d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MPRESOURCE_INFO structure
+title: MPRESOURCE_INFO structure (MpClient.h)
 description: Resource information structure.
 ms.assetid: 2D645722-3DE3-4748-B532-3E522464EA1E
 keywords:

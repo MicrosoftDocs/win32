@@ -1,7 +1,7 @@
 ---
 Description: Issues a command to a Windows Image Acquisition (WIA) 2.0 hardware device.
 ms.assetid: a077448f-2029-4fd3-8bce-c0291afd0b79
-title: IWiaItem2::DeviceCommand method
+title: IWiaItem2::DeviceCommand method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The system broadcasts the DBT\_CONFIGCHANGECANCELED device event when a request to change the current configuration (dock or undock) has been canceled.
 ms.assetid: b4b1455c-9a04-4fa0-a3fa-ed991f278c0c
-title: DBT_CONFIGCHANGECANCELED event
+title: DBT_CONFIGCHANGECANCELED event (Dbt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: CBEM_SETUNICODEFORMAT message
+title: CBEM_SETUNICODEFORMAT message (Commctrl.h)
 description: Sets the UNICODE character format flag for the control. This message enables you to change the character set used by the control at run time rather than having to re-create the control.
 ms.assetid: 4811709b-1639-4468-8598-97d9dc8d9057
 keywords:

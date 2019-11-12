@@ -1,5 +1,5 @@
 ---
-title: MPDETECTION_ORIGIN enumeration
+title: MPDETECTION_ORIGIN enumeration (MpClient.h)
 description: Detection origin.
 ms.assetid: 9FEE2FAD-3E44-4134-B968-53E971F6B092
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity PerformSecurityUpdate method
+title: IWMDRMSecurity PerformSecurityUpdate method (Wmdrmsdk.h)
 description: The PerformSecurityUpdate method initiates a security update to the DRM subsystem on the local computer.
 ms.assetid: e450a1e3-6024-4c00-9978-fbc88fde2101
 keywords:

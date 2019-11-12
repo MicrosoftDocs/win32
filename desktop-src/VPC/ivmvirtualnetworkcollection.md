@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetworkCollection interface
+title: IVMVirtualNetworkCollection interface (VPCCOMInterfaces.h)
 description: Defines a collection of IVMVirtualNetwork objects. To obtain an IVMVirtualNetworkCollection object, use the IVMVirtualPC VirtualNetworks property.
 ms.assetid: 3d595bc3-1a8d-4e09-a809-944d4dcdc675
 keywords:

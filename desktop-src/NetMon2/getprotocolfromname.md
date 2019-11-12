@@ -1,7 +1,7 @@
 ---
 Description: The GetProtocolFromName function returns a handle to a protocol of a given name.
 ms.assetid: 18f5a9a7-4245-479d-a0da-2ede362a60b8
-title: GetProtocolFromName function
+title: GetProtocolFromName function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Remotable version of the IMFMediaTypeHandler::GetCurrentMediaType method.
 ms.assetid: f7f69adb-2a4a-47a9-bb92-ad9d005b962f
-title: RemoteGetCurrentMediaType
+title: RemoteGetCurrentMediaType (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

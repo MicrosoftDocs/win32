@@ -1,5 +1,5 @@
 ---
-title: MpScanControl function
+title: MpScanControl function (MpClient.h)
 description: Allows the control of a scan that was asynchronously initiated via MpScanStart.
 ms.assetid: 00855686-8C46-4B58-829C-AEAB53888704
 keywords:

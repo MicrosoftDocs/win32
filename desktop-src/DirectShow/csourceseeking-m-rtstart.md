@@ -1,7 +1,7 @@
 ---
 Description: Start time. By default, the value is set to zero.
 ms.assetid: bafa69c3-ead0-4409-abbf-4e8cc325e5f9
-title: CSourceSeeking::m_rtStart member
+title: CSourceSeeking::m_rtStart member (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

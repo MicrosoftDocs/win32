@@ -1,7 +1,7 @@
 ---
 Description: Gets the bounding rectangle of the IAnalysisRegion.
 ms.assetid: 6b9deff7-12e9-4b30-86cb-25b94737d28d
-title: IAnalysisRegion::GetBounds method
+title: IAnalysisRegion::GetBounds method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

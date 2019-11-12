@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable GetIntArray method
+title: ID3DX11EffectScalarVariable GetIntArray method (D3dx11effect.h)
 description: Get an array of integer variables.
 ms.assetid: 6db0d5f8-9b15-4149-a80d-1145d5839e93
 keywords:

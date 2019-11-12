@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass interface
+title: ID3DX11EffectPass interface (D3dx11effect.h)
 description: An ID3DX11EffectPass interface encapsulates state assignments within a technique.The lifetime of an ID3DX11EffectPass object is equal to the lifetime of its parent ID3DX11Effect object.
 ms.assetid: 4d86c362-b0f8-4396-86de-c7c89710f46d
 keywords:

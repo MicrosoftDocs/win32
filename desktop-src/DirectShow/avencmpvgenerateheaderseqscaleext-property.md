@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the encoder generates sequence scalable extension headers. This property applies to MPEG video encoders.
 ms.assetid: b4746023-c131-4ac4-a34c-4bf3ef42bd00
-title: AVEncMPVGenerateHeaderSeqScaleExt property
+title: AVEncMPVGenerateHeaderSeqScaleExt property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

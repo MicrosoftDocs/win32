@@ -1,5 +1,5 @@
 ---
-title: INapServerInfo GetFailureCategoryMappings method
+title: INapServerInfo GetFailureCategoryMappings method (NapServerManagement.h)
 description: Retrieves the failure category mappings for a specified SHA or SHV.
 ms.assetid: 89b89003-40b3-4763-aec8-01cd0c307649
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TVM_GETINDENT message
+title: TVM_GETINDENT message (Commctrl.h)
 description: Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can send this message explicitly or by using the TreeView\_GetIndent macro.
 ms.assetid: 4109714e-94a3-4c88-96e7-b4b8ec67f4a1
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
 ms.assetid: 8b4e32cc-5eeb-4a0d-a1b7-f6edb99ed8d8
-title: IsValidDevmode function
+title: IsValidDevmode function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

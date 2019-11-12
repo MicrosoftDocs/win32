@@ -1,7 +1,7 @@
 ---
 Description: Caches internally the unfiltered image returned from the driver.
 ms.assetid: 09cb242d-d1d6-4130-8b49-0770940471d8
-title: IWiaPreview::GetNewPreview method
+title: IWiaPreview::GetNewPreview method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

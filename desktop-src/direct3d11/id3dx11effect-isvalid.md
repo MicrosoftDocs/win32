@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect IsValid method
+title: ID3DX11Effect IsValid method (D3dx11effect.h)
 description: Test an effect to see if it contains valid syntax.
 ms.assetid: 42bf0069-1828-4f55-99f5-d0f81eb04336
 keywords:

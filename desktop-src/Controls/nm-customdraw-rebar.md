@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMDRAW (rebar) notification code
+title: NM_CUSTOMDRAW (rebar) notification code (Commctrl.h)
 description: Sent by the rebar control to notify its parent window about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 3ba9bb59-f297-4af1-a9a9-d8789def5bde
 keywords:

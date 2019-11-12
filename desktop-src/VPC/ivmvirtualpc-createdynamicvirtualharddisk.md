@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC CreateDynamicVirtualHardDisk method
+title: IVMVirtualPC CreateDynamicVirtualHardDisk method (VPCCOMInterfaces.h)
 description: Creates a dynamically resizing virtual hard disk.
 ms.assetid: 2373ac41-c4c4-44c6-93e1-92814cd40b81
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SBM_ENABLE_ARROWS message
+title: SBM_ENABLE_ARROWS message (Winuser.h)
 description: An application sends the SBM\_ENABLE\_ARROWS message to enable or disable one or both arrows of a scroll bar control.
 ms.assetid: 9646826a-3a7c-490b-822d-7511e4ef2262
 keywords:

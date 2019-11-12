@@ -1,7 +1,7 @@
 ---
 Description: Enable or disable debug messages.
 ms.assetid: 5c2aa3cf-ee6a-40fd-b300-67cb6ce691b6
-title: D3DX10DebugMute function
+title: D3DX10DebugMute function (D3DX10Core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

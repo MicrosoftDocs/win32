@@ -1,5 +1,5 @@
 ---
-title: UDM_SETPOS32 message
+title: UDM_SETPOS32 message (Commctrl.h)
 description: Sets the position of an up-down control with 32-bit precision.
 ms.assetid: a337f2a1-0e3d-4ff4-a224-57b7f25c4bd0
 keywords:

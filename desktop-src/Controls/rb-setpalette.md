@@ -1,5 +1,5 @@
 ---
-title: RB_SETPALETTE message
+title: RB_SETPALETTE message (Commctrl.h)
 description: Sets the rebar control's current palette.
 ms.assetid: 85f0726a-21fd-41b3-aa52-6a0a0c1947fa
 keywords:

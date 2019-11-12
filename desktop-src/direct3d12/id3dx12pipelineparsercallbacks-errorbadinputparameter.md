@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks ErrorBadInputParameter method
+title: ID3DX12PipelineParserCallbacks ErrorBadInputParameter method (D3DX12.h)
 description: Calls the bad input parameter error callback of an object that implements this interface.
 ms.assetid: CB1F9A77-B120-4D72-99D3-16594E668520
 keywords:

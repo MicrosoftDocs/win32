@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect interface
+title: ID3DX11Effect interface (D3dx11effect.h)
 description: An ID3DX11Effect interface manages a set of state objects, resources, and shaders for implementing a rendering effect.
 ms.assetid: 34429d51-6b45-4a62-bce1-50c4da02edac
 keywords:

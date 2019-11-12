@@ -17,7 +17,7 @@
       href: creating-hardware-event-subscriptions.md
     - name: "Deleting an Event Collector Subscription"
       href: deleting-an-event-collector-subscription.md
-    - name: "Displaying the Properties of an Event Collector Subscription"
+    - name: "Display event collector subscription properties"
       href: displaying-the-properties-of-an-event-collector-subscription.md
     - name: "Displaying the Status of an Event Collector Subscription"
       href: displaying-the-status-of-an-event-collector-subscription.md

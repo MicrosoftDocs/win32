@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCPacketOverhead
+title: g_wszWMVCPacketOverhead (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 76d412e0-8c7f-4bc8-b8c1-974c495856ba
 keywords:

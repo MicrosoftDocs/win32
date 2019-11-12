@@ -1,7 +1,7 @@
 ---
 Description: Used by applications to enumerate IWiaItem2 objects in the item tree's current folder.
 ms.assetid: a82298e0-fbe7-4ef5-99c5-18ff60538e03
-title: IEnumWiaItem2 interface
+title: IEnumWiaItem2 interface (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

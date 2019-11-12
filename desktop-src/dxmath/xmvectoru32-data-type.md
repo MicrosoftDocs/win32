@@ -1,7 +1,7 @@
 ---
 Description: An opaque, portable type to support the use of C/C++ initializer syntax to load uint32\_t values into an instance of XMVECTOR type.
 ms.assetid: 1ac1f48a-cd7f-7741-933f-c341fc42a21c
-title: XMVECTORU32 Data Type
+title: XMVECTORU32 Data Type (Directxmath.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

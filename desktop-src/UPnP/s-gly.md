@@ -1,5 +1,5 @@
 ---
-title: S
+title: S (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter S.
 Robots: noindex, nofollow
 ms.assetid: 94be0f7f-8263-40ad-9d48-35540eaa3a3d

@@ -1,5 +1,5 @@
 ---
-title: WSMan.CreateConnectionOptions method
+title: WSMan.CreateConnectionOptions method (WSManDisp.h)
 description: Creates a ConnectionOptions object that specifies the user name and password used when creating a session.
 ms.assetid: 3669a5fe-8305-4fa3-aa75-fafefcd8b33d
 ms.tgt_platform: multiple

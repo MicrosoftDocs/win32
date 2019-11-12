@@ -1,7 +1,7 @@
 ---
 Description: Flag indicating whether the buffer requirements have changed.
 ms.assetid: 34d946f9-125c-40fb-b09e-82457add07d6
-title: CBaseAllocator::m_bChanged member
+title: CBaseAllocator::m_bChanged member (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

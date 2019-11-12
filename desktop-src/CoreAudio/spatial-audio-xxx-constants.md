@@ -1,7 +1,7 @@
 ---
 Description: The SPATIAL\_AUDIO\_XXX constants define values related to spatial sound features.
 ms.assetid: F1A01BDB-0CC2-45ED-A423-8CC7F54D4E55
-title: SPATIAL_AUDIO_XXX Constants
+title: SPATIAL_AUDIO_XXX Constants (SpatialAudioMetadata.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

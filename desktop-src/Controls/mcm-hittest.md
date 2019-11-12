@@ -1,5 +1,5 @@
 ---
-title: MCM_HITTEST message
+title: MCM_HITTEST message (Commctrl.h)
 description: Determines which portion of a month calendar control is at a given point on the screen. You can send this message explicitly or by using the MonthCal\_HitTest macro.
 ms.assetid: 51e74b07-4ed7-488d-ad5d-116f046577fc
 keywords:

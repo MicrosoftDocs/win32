@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob Cancel method
+title: IBackgroundCopyJob Cancel method (Deliveryoptimization.h)
 description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
 ms.assetid: DC502DC2-1335-476F-A1B8-FDB6BA595FF1
 keywords:

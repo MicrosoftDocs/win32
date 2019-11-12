@@ -1,5 +1,5 @@
 ---
-title: WM_ADSPROP_NOTIFY_FOREGROUND message
+title: WM_ADSPROP_NOTIFY_FOREGROUND message (Adsprop.h)
 description: The WM\_ADSPROP\_NOTIFY\_FOREGROUND message is used internally by the notification object.
 ms.assetid: c984edd5-deca-490b-ac46-846a365d20c4
 ms.tgt_platform: multiple

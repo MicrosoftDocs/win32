@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_SEQUENCE_SETUP message
+title: WM_CAP_SET_SEQUENCE_SETUP message (Vfw.h)
 description: The WM\_CAP\_SET\_SEQUENCE\_SETUP message sets the configuration parameters used with streaming capture. You can send this message explicitly or by using the capCaptureSetSetup macro.
 ms.assetid: ba9adb26-6627-469b-a836-f4f277ddb7c4
 keywords:

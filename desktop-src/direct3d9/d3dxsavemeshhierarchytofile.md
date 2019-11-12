@@ -1,7 +1,7 @@
 ---
 Description: Creates a .x file and saves the mesh hierarchy and corresponding animations in it.
 ms.assetid: 803926fe-8cb7-422a-9920-56f7d0b0d0ea
-title: D3DXSaveMeshHierarchyToFile function
+title: D3DXSaveMeshHierarchyToFile function (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

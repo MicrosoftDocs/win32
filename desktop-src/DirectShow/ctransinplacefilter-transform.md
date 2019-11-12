@@ -1,7 +1,7 @@
 ---
 Description: The Transform method transforms a sample in place.
 ms.assetid: 2268041b-70d4-48a9-9bb8-4ab921cce649
-title: CTransInPlaceFilter.Transform method
+title: CTransInPlaceFilter.Transform method (Transip.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

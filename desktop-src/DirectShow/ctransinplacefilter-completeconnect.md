@@ -1,7 +1,7 @@
 ---
 Description: The CompleteConnect method completes a pin connection.
 ms.assetid: 0c02c455-dbd0-4606-b1b1-f965c2a5805b
-title: CTransInPlaceFilter.CompleteConnect method
+title: CTransInPlaceFilter.CompleteConnect method (Transip.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

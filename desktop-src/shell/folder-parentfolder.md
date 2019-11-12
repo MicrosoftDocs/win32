@@ -1,7 +1,7 @@
 ---
 Description: Contains the parent Folder object.
 ms.assetid: b832948c-f599-4ada-8760-9280b86abfed
-title: Folder.ParentFolder property
+title: Folder.ParentFolder property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

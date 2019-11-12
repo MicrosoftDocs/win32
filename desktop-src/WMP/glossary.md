@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Glossary (Windows Media Player SDK)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 804d9dcb-20c2-4b4e-b100-b800ba78a0fd

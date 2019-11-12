@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectStringVariable interface
+title: ID3DX11EffectStringVariable interface (D3dx11effect.h)
 description: A string-variable interface accesses a string variable.
 ms.assetid: 8304d7cc-de30-41fe-af12-e11bf7ae32ce
 keywords:

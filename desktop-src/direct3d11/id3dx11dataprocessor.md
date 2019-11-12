@@ -1,5 +1,5 @@
 ---
-title: ID3DX11DataProcessor interface
+title: ID3DX11DataProcessor interface (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Data processing object used by ID3DX11ThreadPump Interface for loading data asynchronously.
 ms.assetid: ab893879-416f-4b17-9035-a7f03a62b753
 keywords:

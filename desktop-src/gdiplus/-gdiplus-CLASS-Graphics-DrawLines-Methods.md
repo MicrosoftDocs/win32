@@ -1,7 +1,7 @@
 ---
 Description: This topic lists the DrawLines methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: dc82feef-7d03-45dd-a949-42589511b177
-title: Graphics.DrawLines methods
+title: Graphics.DrawLines methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

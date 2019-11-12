@@ -2,7 +2,7 @@
 Description: The CIM\_Controller class is a parent class for grouping miscellaneous control-related devices. Examples of controllers are SCSI controllers, USB controllers, and serial controllers.
 ms.assetid: 526d58bb-cdf4-42c2-ae89-7b86d99e2017
 ms.tgt_platform: multiple
-title: CIM_Controller class
+title: CIM_Controller class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

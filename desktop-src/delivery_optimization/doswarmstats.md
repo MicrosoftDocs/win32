@@ -1,5 +1,5 @@
 ---
-title: DOSwarmStats structure
+title: DOSwarmStats structure (Deliveryoptimization.h)
 description: Contains fields for download and upload statistics for a file.
 ms.assetid: 66B2498A-38E0-44E4-96C1-F778BD9AA593
 keywords:

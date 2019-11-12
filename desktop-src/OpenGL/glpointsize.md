@@ -1,5 +1,5 @@
 ---
-title: glPointSize function
+title: glPointSize function (Gl.h)
 description: The glPointSize function specifies the diameter of rasterized points.
 ms.assetid: efa35fa8-721a-48e5-bf59-d33b9bbe7f73
 keywords:

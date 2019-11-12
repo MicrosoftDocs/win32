@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine BIOSSerialNumber property
+title: IVMVirtualMachine BIOSSerialNumber property (VPCCOMInterfaces.h)
 description: BIOS serial number.
 ms.assetid: a105009d-1c44-4079-a7d4-103cb02bad71
 keywords:

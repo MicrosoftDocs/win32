@@ -1,5 +1,5 @@
 ---
-title: Tab
+title: Tab (Windows Controls)
 description: This section contains information about the programming elements used with tab controls.
 ms.assetid: 'vs|controls|~\controls\tab\reflist.htm'
 ms.topic: article

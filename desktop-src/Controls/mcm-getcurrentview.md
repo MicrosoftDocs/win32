@@ -1,5 +1,5 @@
 ---
-title: MCM_GETCURRENTVIEW message
+title: MCM_GETCURRENTVIEW message (Commctrl.h)
 description: Gets the current view of the calendar. You can send this message explicitly or by using the MonthCal\_GetCurrentView macro.
 ms.assetid: 9c42ebf6-611e-4e50-9dcc-cf7fd63b32eb
 keywords:

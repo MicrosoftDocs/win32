@@ -1,5 +1,5 @@
 ---
-title: CB_ADDRESS_TYPE enumeration
+title: CB_ADDRESS_TYPE enumeration (Cbclient.h)
 description: Specifies the address type.
 ms.assetid: 1F6ECFA6-8876-4C9B-A883-BD630D54B8E2
 ms.tgt_platform: multiple

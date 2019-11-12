@@ -1,5 +1,5 @@
 ---
-title: MCM_GETFIRSTDAYOFWEEK message
+title: MCM_GETFIRSTDAYOFWEEK message (Commctrl.h)
 description: Retrieves the first day of the week for a month calendar control. You can send this message explicitly or by using the MonthCal\_GetFirstDayOfWeek macro.
 ms.assetid: bbbc1c45-5693-4a79-908a-ec6e8ef8b218
 keywords:

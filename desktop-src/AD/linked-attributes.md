@@ -1,5 +1,5 @@
 ---
-title: Linked Attributes
+title: Linked Attributes (AD DS)
 description: Linked attributes are pairs of attributes in which the system calculates the values of one attribute (the back link) based on the values set on the other attribute (the forward link) throughout the forest.
 ms.assetid: 31b7e8f5-e46d-4aff-9b17-c8dec7f19bae
 ms.tgt_platform: multiple

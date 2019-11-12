@@ -1,5 +1,5 @@
 ---
-title: DTM_SETMCFONT message
+title: DTM_SETMCFONT message (Commctrl.h)
 description: Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can send this message explicitly or use the DateTime\_SetMonthCalFont macro.
 ms.assetid: 5033e975-9b68-438a-99c3-80ca02cd59e7
 keywords:

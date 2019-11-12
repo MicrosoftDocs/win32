@@ -1,5 +1,5 @@
 ---
-title: glAreTexturesResident function
+title: glAreTexturesResident function (Gl.h)
 description: The glAreTexturesResident function determines whether specified texture objects are resident in texture memory.
 ms.assetid: 55d068a8-d366-4fee-85d5-49373b8c5e02
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID2D1Properties SetValueByName methods
+title: ID2D1Properties SetValueByName methods (D2d1\_1.h)
 description: Sets the named property to the given value.
 ms.assetid: E00C7BDA-B950-435E-AFD8-216FB0E3BA8C
 keywords:

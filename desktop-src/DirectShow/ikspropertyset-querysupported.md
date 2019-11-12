@@ -1,7 +1,7 @@
 ---
 Description: The QuerySupported method determines whether an object supports a specified property set.
 ms.assetid: eda0325c-dba4-4d9f-81e2-7fd67d5b9873
-title: IKsPropertySet::QuerySupported method
+title: IKsPropertySet::QuerySupported method (Ks.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

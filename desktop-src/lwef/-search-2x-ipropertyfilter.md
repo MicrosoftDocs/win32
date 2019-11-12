@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilter interface
+title: IPropertyFilter interface (WdsSharedIDL.h)
 description: Exposes properties used to filter the query.
 ms.assetid: 3760c413-931c-44f2-adaf-eb17df4015c3
 keywords:

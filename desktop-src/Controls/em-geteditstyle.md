@@ -1,5 +1,5 @@
 ---
-title: EM_GETEDITSTYLE message
+title: EM_GETEDITSTYLE message (Richedit.h)
 description: Retrieves the current edit style flags.
 ms.assetid: 568e51a4-0767-4a59-bf34-bc0281b5fe65
 keywords:

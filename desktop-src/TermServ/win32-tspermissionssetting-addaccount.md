@@ -1,5 +1,5 @@
 ---
-title: AddAccount method of the Win32_TSPermissionsSetting class
+title: AddAccount method of the Win32_TSPermissionsSetting class (Faxcomex.h)
 description: The AddAccount method prepares to add an account to the terminal with the specified permission set. You can add users, groups, or computers.
 ms.assetid: da4d8f5b-7aa2-4b55-bf0f-b3e98b70a06b
 ms.tgt_platform: multiple

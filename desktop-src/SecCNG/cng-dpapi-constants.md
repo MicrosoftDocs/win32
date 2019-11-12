@@ -1,7 +1,7 @@
 ---
 Description: The following constants are used by the CNG Data Protection API.
 ms.assetid: 4E43FAA9-7D6F-43DB-A998-189411E0AB4C
-title: CNG DPAPI Constants
+title: CNG DPAPI Constants (NCryptprotect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

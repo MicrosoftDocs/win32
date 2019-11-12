@@ -1,5 +1,5 @@
 ---
-title: SBM_GETRANGE message
+title: SBM_GETRANGE message (Winuser.h)
 description: The SBM\_GETRANGE message is sent to retrieve the minimum and maximum position values for the scroll bar control.
 ms.assetid: 661a9491-3bf6-4685-aea0-c5e4126313af
 keywords:

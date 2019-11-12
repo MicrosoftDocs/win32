@@ -1,5 +1,5 @@
 ---
-title: glTranslatef function
+title: glTranslatef function (Gl.h)
 description: The glTranslatef function multiplies the current matrix by a translation matrix.
 ms.assetid: 2354ad52-e80f-49fc-82e7-ac6c146aa59d
 keywords:

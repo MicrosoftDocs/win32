@@ -1,5 +1,5 @@
 ---
-title: MCI_INFO command
+title: MCI_INFO command (Mmsystem.h)
 description: The MCI\_INFO command retrieves string information from a device.
 ms.assetid: aed3fed3-87b9-4673-9171-4f57770d765c
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCI_SETTUNER command
+title: MCI_SETTUNER command (Mmsystem.h)
 description: The MCI\_SETTUNER command sets the current channel on the tuner. VCR devices recognize this command.
 ms.assetid: d9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4
 keywords:

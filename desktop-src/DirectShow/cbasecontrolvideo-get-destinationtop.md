@@ -1,7 +1,7 @@
 ---
 Description: The get\_DestinationTop method retrieves the top coordinate of the current destination rectangle.
 ms.assetid: 8d5c1361-18db-4ea1-a507-781397189630
-title: CBaseControlVideo.get_DestinationTop method
+title: CBaseControlVideo.get_DestinationTop method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The IWiaDevMgr2::GetImageDlg method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) 2.0 device and write the image to a specified file.
 ms.assetid: 30a63426-150e-44cf-a03e-7b6da14450f7
-title: IWiaDevMgr2::GetImageDlg method
+title: IWiaDevMgr2::GetImageDlg method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

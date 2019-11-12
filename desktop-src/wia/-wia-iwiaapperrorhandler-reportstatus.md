@@ -1,7 +1,7 @@
 ---
 Description: Handles device status and error messages during image data transfers and displays the messages to the user.
 ms.assetid: 8d3ba598-8649-4108-aebc-94f2bcb64ad8
-title: IWiaAppErrorHandler::ReportStatus method
+title: IWiaAppErrorHandler::ReportStatus method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the input pin connected to this pin.
 ms.assetid: 752f01ca-4195-4558-9a81-4a6a24e19b75
-title: CBaseOutputPin::m_pInputPin member
+title: CBaseOutputPin::m_pInputPin member (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

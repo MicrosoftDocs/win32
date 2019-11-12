@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement GetSystemIsolationInfo method
+title: INapClientManagement GetSystemIsolationInfo method (NapManagement.h)
 description: Retrieves information about the isolation state of the NapClient.
 ms.assetid: e1f69e66-71ca-402e-9c94-8af159d00b21
 keywords:

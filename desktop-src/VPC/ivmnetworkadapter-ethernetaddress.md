@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter EthernetAddress property
+title: IVMNetworkAdapter EthernetAddress property (VPCCOMInterfaces.h)
 description: Ethernet (MAC) address of the network interface.
 ms.assetid: 2d94c5b3-6b69-4fb1-bee4-081dc026dde3
 keywords:

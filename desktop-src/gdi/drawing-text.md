@@ -1,7 +1,7 @@
 ---
 Description: Drawing Text
 ms.assetid: 8a06f659-4e08-4738-b7a9-956b599c1344
-title: Drawing Text
+title: Drawing Text (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---

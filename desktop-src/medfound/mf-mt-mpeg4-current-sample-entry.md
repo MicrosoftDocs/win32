@@ -1,7 +1,7 @@
 ---
 Description: Specifies the current entry in the sample description box for an MPEG-4 media type.
 ms.assetid: c8c36abf-6905-4874-a6d2-90dd0725421b
-title: MF_MT_MPEG4_CURRENT_SAMPLE_ENTRY attribute
+title: MF_MT_MPEG4_CURRENT_SAMPLE_ENTRY attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

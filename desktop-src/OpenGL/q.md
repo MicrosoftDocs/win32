@@ -1,5 +1,5 @@
 ---
-title: Q
+title: Q (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter Q.
 Robots: noindex, nofollow
 ms.assetid: daaf8c01-7bfe-45c1-9507-f3a819e2173b

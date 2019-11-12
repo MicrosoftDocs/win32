@@ -1,7 +1,7 @@
 ---
 Description: The GetSourcePosition method retrieves the position and dimensions of the source rectangle in one atomic operation.
 ms.assetid: 44356f62-8b14-4b0e-a587-f832adff3bba
-title: CBaseControlVideo.GetSourcePosition method
+title: CBaseControlVideo.GetSourcePosition method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

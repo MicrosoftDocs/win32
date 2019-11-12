@@ -1,5 +1,5 @@
 ---
-title: MM_MOM_OPEN message
+title: MM_MOM_OPEN message (Mmsystem.h)
 description: The MM\_MOM\_OPEN message is sent to a window when a MIDI output device is opened.
 ms.assetid: 1374a07c-02fa-4b43-82df-cbd96302aec5
 keywords:

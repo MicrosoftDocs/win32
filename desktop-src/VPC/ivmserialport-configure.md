@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPort Configure method
+title: IVMSerialPort Configure method (VPCCOMInterfaces.h)
 description: Configures the serial port.
 ms.assetid: fee2e373-8e7c-4f1d-84d0-f0f187a41e9f
 keywords:

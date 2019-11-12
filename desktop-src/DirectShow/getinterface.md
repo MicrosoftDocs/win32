@@ -1,7 +1,7 @@
 ---
 Description: The GetInterface function retrieves an interface pointer.
 ms.assetid: 75fe8849-c779-4d47-a5ff-5a23308c8a21
-title: GetInterface function
+title: GetInterface function (Combase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: WM_APPCOMMAND message
+title: WM_APPCOMMAND message (Winuser.h)
 description: Notifies a window that the user generated an application command event, for example, by clicking an application command button using the mouse or typing an application command key on the keyboard.
 ms.assetid: ffcdfc44-dbfa-42d4-8749-b33bf0e4de0c
 keywords:

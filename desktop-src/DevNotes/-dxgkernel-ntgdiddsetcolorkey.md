@@ -1,7 +1,7 @@
 ---
 Description: Sets the color key value for the specified surface.
 ms.assetid: 052dba97-c047-4ef7-a908-2a66ade3af10
-title: NtGdiDdSetColorKey function
+title: NtGdiDdSetColorKey function (Ntgdi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

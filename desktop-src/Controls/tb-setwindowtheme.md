@@ -1,5 +1,5 @@
 ---
-title: TB_SETWINDOWTHEME message
+title: TB_SETWINDOWTHEME message (Commctrl.h)
 description: Sets the visual style of a toolbar control.
 ms.assetid: 8b05c561-af66-47e7-8ef3-7f9f81da4840
 keywords:

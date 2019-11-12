@@ -1,5 +1,5 @@
 ---
-title: TB_ADDBUTTONS message
+title: TB_ADDBUTTONS message (Commctrl.h)
 description: Adds one or more buttons to a toolbar.
 ms.assetid: 65294dfc-b04b-475d-b38e-9d84c0fb000b
 keywords:

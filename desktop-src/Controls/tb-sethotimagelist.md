@@ -1,5 +1,5 @@
 ---
-title: TB_SETHOTIMAGELIST message
+title: TB_SETHOTIMAGELIST message (Commctrl.h)
 description: Sets the image list that the toolbar control will use to display hot buttons.
 ms.assetid: 3c29cdde-bd57-4194-984f-220dbf963733
 keywords:

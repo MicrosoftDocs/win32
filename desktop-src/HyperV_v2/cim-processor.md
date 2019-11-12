@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities and management of a processor.
 ms.assetid: 70cf9776-eeda-42c2-90c4-704ecf1cdafe
-title: CIM_Processor class
+title: CIM_Processor class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

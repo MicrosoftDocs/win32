@@ -1,5 +1,5 @@
 ---
-title: NM_CLICK (tree view) notification code
+title: NM_CLICK (tree view) notification code (Commctrl.h)
 description: Notifies the parent window of a tree-view control that the user has clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 39b5716d-cae7-4dc4-b257-0118f4f432c6
 keywords:

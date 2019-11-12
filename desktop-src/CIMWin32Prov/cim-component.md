@@ -2,7 +2,7 @@
 Description: The CIM\_Component association represents the parts of a relationship between MSEs.
 ms.assetid: a074e2f7-b092-4d3c-be5e-2069b643431b
 ms.tgt_platform: multiple
-title: CIM_Component class
+title: CIM_Component class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Save a texture to memory.
 ms.assetid: be541b99-6d07-480e-8f28-b7fc44566e7d
-title: D3DX10SaveTextureToMemory function
+title: D3DX10SaveTextureToMemory function (D3DX10Tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

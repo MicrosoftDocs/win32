@@ -1,5 +1,5 @@
 ---
-title: LVM_SETCOLUMNORDERARRAY message
+title: LVM_SETCOLUMNORDERARRAY message (Commctrl.h)
 description: Sets the left-to-right order of columns in a list-view control. You can send this message explicitly or use the ListView\_SetColumnOrderArray macro.
 ms.assetid: 9b491832-42cc-4262-8f6c-23cbc2c889bf
 keywords:

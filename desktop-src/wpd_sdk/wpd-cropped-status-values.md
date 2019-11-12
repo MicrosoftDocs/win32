@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_CROPPED\_STATUS\_VALUES enumeration type describes the cropping status of an image.
 ms.assetid: 7ee87fb7-1d17-4e89-aee7-e7abacbd790d
-title: WPD_CROPPED_STATUS_VALUES enumeration
+title: WPD_CROPPED_STATUS_VALUES enumeration (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

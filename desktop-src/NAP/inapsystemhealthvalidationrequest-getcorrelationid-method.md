@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest GetCorrelationId method
+title: INapSystemHealthValidationRequest GetCorrelationId method (NapSystemHealthValidator.h)
 description: Is used by System Health Validators (SHVs) to retrieve the correlation ID. The SHV must then log this information.
 ms.assetid: 72603d24-219e-4bb0-9b2b-b58d42939da8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MPSTATUS_FLAG enumeration
+title: MPSTATUS_FLAG enumeration (MpClient.h)
 description: Possible overall product status bit flags.
 ms.assetid: BF2E6506-E76A-4785-8E91-99937B413548
 keywords:

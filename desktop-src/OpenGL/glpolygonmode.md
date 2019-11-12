@@ -1,5 +1,5 @@
 ---
-title: glPolygonMode function
+title: glPolygonMode function (Gl.h)
 description: The glPolygonMode function selects a polygon rasterization mode.
 ms.assetid: d8781bae-e78c-40fb-9f33-c742c70ebda1
 keywords:

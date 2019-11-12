@@ -1,7 +1,7 @@
 ---
 Description: The filter graph has changed.
 ms.assetid: 621591d2-74ac-4b1f-b065-247582b05efc
-title: EC_GRAPH_CHANGED
+title: EC_GRAPH_CHANGED (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

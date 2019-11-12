@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo MMX property
+title: IVMHostInfo MMX property (VPCCOMInterfaces.h)
 description: Determines whether the processor supports the MMX instruction set.
 ms.assetid: 2f556289-c752-4af2-a6d0-abb6e717e609
 keywords:

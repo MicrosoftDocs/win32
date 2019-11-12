@@ -1,5 +1,5 @@
 ---
-title: EM_GETOLEINTERFACE message
+title: EM_GETOLEINTERFACE message (Richedit.h)
 description: Retrieves an IRichEditOle object that a client can use to access a rich edit control's Component Object Model (COM) functionality.
 ms.assetid: fa462c7b-29b9-4694-b7ad-6068c69ffb76
 keywords:

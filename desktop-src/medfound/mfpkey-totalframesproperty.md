@@ -1,7 +1,7 @@
 ---
 Description: Specifies the total number of video frames passed to the encoder during the endocing process.
 ms.assetid: 33009587-6fb2-4331-88d7-21886125467e
-title: MFPKEY_TOTALFRAMES Property
+title: MFPKEY_TOTALFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

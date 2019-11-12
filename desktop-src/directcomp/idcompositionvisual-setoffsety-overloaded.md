@@ -1,5 +1,5 @@
 ---
-title: IDCompositionVisual SetOffsetY methods
+title: IDCompositionVisual SetOffsetY methods (Dcomp.h)
 description: Changes or animates the value of the OffsetY property of this visual, altering the vertical position of the visual relative to its parent.
 ms.assetid: E364BDB4-57E0-4206-9095-F39E6B5B9190
 keywords:

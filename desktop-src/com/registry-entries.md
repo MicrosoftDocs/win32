@@ -1,5 +1,5 @@
 ---
-title: Registry Entries
+title: Registry Entries (COM)
 ms.assetid: f4f8875c-6416-4919-b49b-bcd675efcbd2
 description: 
 ms.topic: article

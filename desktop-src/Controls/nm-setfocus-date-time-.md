@@ -1,5 +1,5 @@
 ---
-title: NM_SETFOCUS (date time) notification code
+title: NM_SETFOCUS (date time) notification code (Commctrl.h)
 description: Notifies a date and time picker control's parent window that the control has received the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 61c62fb2-bc79-404b-9958-7208d1c781fa
 keywords:

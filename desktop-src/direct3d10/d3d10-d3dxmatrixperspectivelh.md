@@ -1,7 +1,7 @@
 ---
 Description: Builds a left-handed perspective projection matrix
 ms.assetid: 5fd8da67-ff12-42fa-b915-b50fa2680b32
-title: D3DXMatrixPerspectiveLH function
+title: D3DXMatrixPerspectiveLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

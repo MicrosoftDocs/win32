@@ -1,5 +1,5 @@
 ---
-title: glLineStipple function
+title: glLineStipple function (Gl.h)
 description: The glLineStipple function specifies the line stipple pattern.
 ms.assetid: 256d968c-9e72-4aec-9faf-afe70f1087a8
 keywords:

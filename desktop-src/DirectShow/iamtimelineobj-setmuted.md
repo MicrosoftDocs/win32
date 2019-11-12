@@ -1,7 +1,7 @@
 ---
 Description: The SetMuted method sets the object's muted state. A muted object is not rendered, but it remains in the timeline.
 ms.assetid: 5dcd8533-8e58-4553-ac01-928723485f5d
-title: IAMTimelineObj::SetMuted method
+title: IAMTimelineObj::SetMuted method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

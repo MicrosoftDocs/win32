@@ -1,7 +1,7 @@
 ---
 Description: Propagate state changes that occur inside of an active pass to the device before rendering.
 ms.assetid: 3a779b63-c106-4a81-afeb-82bd6e556de4
-title: ID3DXEffect::CommitChanges method
+title: ID3DXEffect::CommitChanges method (D3DX9Effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

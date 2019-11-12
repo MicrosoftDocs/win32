@@ -1,5 +1,5 @@
 ---
-title: glViewport function
+title: glViewport function (Gl.h)
 description: The glViewport function sets the viewport.
 ms.assetid: 11816b2f-ee18-42ef-a782-2e96699dd087
 keywords:

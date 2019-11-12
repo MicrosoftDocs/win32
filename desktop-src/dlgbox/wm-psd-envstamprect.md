@@ -1,5 +1,5 @@
 ---
-title: WM_PSD_ENVSTAMPRECT message
+title: WM_PSD_ENVSTAMPRECT message (Commdlg.h)
 description: Notifies the hook procedure of a Page Setup dialog box, PagePaintHook, that the dialog box is about to draw the envelope-stamp rectangle of the sample page.
 ms.assetid: f193baa0-a084-416e-90c9-9c838758a3d3
 keywords:

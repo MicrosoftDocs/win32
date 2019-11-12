@@ -1,7 +1,7 @@
 ---
 Description: Loads a volume from a file in memory.
 ms.assetid: d450b652-3a74-45ea-9506-e05da87821d7
-title: D3DXLoadVolumeFromFileInMemory function
+title: D3DXLoadVolumeFromFileInMemory function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

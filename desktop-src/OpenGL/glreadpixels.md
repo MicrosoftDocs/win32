@@ -1,5 +1,5 @@
 ---
-title: glReadPixels function
+title: glReadPixels function (Gl.h)
 description: The glReadPixels function reads a block of pixels from the framebuffer.
 ms.assetid: 41fbad5c-b8ca-456d-bbfc-b48c176e15b0
 keywords:

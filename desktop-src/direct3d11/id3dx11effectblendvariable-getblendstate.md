@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectBlendVariable GetBlendState method
+title: ID3DX11EffectBlendVariable GetBlendState method (D3dx11effect.h)
 description: Get a pointer to a blend-state interface.
 ms.assetid: ab4ee765-b5ad-4dc3-9b00-48052528d3bd
 keywords:

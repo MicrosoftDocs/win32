@@ -1,5 +1,5 @@
 ---
-title: Color Reference
+title: Color Reference (Windows Media Player SDK)
 description: Color Reference
 ms.assetid: 01d05d18-7b24-4237-973b-b7b84315252d
 keywords:

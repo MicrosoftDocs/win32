@@ -1,5 +1,5 @@
 ---
-title: VMLogoffType enumeration
+title: VMLogoffType enumeration (VPCCOMInterfaces.h)
 description: Specifies how to shut down a virtual machine.
 ms.assetid: 3a2965e3-2637-4677-b487-98d2b508672c
 keywords:

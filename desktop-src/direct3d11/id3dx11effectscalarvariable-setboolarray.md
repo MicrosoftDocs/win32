@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable SetBoolArray method
+title: ID3DX11EffectScalarVariable SetBoolArray method (D3dx11effect.h)
 description: Set an array of boolean variables.
 ms.assetid: 861634a2-547d-497b-b575-bbe6151ade25
 keywords:

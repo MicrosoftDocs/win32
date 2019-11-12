@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice IsSearchSupported property
+title: ActiveBasicDevice IsSearchSupported property (PlayToDevice.h)
 description: Gets a value that indicates if the device supports search.
 ms.assetid: 091D467A-1FF6-4635-BF89-4E62AC9C660A
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Defines some or all of the character attributes, glyphs, advance widths, x and y positions, character-to-glyph mappings, and so forth, for a string.
 ms.assetid: aa93d631-3cfc-449d-9d04-c1f851129c6c
-title: SCRIPT_STRING_ANALYSIS
+title: SCRIPT_STRING_ANALYSIS (Usp10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

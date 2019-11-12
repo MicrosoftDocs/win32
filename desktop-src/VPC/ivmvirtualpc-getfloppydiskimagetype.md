@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC GetFloppyDiskImageType method
+title: IVMVirtualPC GetFloppyDiskImageType method (VPCCOMInterfaces.h)
 description: Retrieves the type of an existing floppy disk image file.
 ms.assetid: 34956a0c-1da0-4968-9a6c-c114d7037da1
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: This section contains reference information for the functions that you need to implement when you work with the D3DX utility library. The following functions are implemented.
 ms.assetid: 1b641211-94c6-4bc5-9f69-d4ae59d96cb7
-title: D3DX Functions
+title: D3DX Functions (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---

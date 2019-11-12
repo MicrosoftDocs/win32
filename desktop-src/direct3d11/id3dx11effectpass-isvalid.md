@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass IsValid method
+title: ID3DX11EffectPass IsValid method (D3dx11effect.h)
 description: Test a pass to see if it contains valid syntax.
 ms.assetid: 3c6ddcef-1303-4161-889c-c3ca271b6ad0
 keywords:

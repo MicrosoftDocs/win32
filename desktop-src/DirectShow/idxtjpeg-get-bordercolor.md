@@ -1,7 +1,7 @@
 ---
 Description: The get\_BorderColor method retrieves the color of the border around the edges of the wipe pattern.
 ms.assetid: 9d36cc49-c174-4b93-a030-ca8d2890c624
-title: IDxtJpeg::get_BorderColor method
+title: IDxtJpeg::get_BorderColor method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

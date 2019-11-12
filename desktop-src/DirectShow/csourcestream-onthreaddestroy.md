@@ -1,7 +1,7 @@
 ---
 Description: The OnThreadDestroy method is called when the streaming thread is about to exit.
 ms.assetid: a484b6d2-bce6-4a42-9176-2a6ce374e28b
-title: CSourceStream.OnThreadDestroy method
+title: CSourceStream.OnThreadDestroy method (Source.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

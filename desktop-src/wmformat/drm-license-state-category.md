@@ -1,5 +1,5 @@
 ---
-title: DRM_LICENSE_STATE_CATEGORY enumeration
+title: DRM_LICENSE_STATE_CATEGORY enumeration (Drmexternals.h)
 description: The DRM\_LICENSE\_STATE\_CATEGORY enumeration type defines the categories for DRM license strings that are displayed to the user.
 ms.assetid: 'f5c5aa78-84f9-4ee4-b551-05bf864243ab'
 keywords:

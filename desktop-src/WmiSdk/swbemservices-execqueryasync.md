@@ -2,7 +2,7 @@
 Description: Executes a query to retrieve objects.
 ms.assetid: 50c7f62b-dd83-4117-b10e-acee1690ce8c
 ms.tgt_platform: multiple
-title: SWbemServices.ExecQueryAsync method
+title: SWbemServices.ExecQueryAsync method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

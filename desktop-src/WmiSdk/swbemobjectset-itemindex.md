@@ -2,7 +2,7 @@
 Description: Returns the SWbemObject associated with the specified index into the collection.
 ms.assetid: 75830f78-0489-4fae-bf9c-2eee8526232e
 ms.tgt_platform: multiple
-title: SWbemObjectSet.ItemIndex method
+title: SWbemObjectSet.ItemIndex method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

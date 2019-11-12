@@ -1,5 +1,5 @@
 ---
-title: gluDeleteTess function
+title: gluDeleteTess function (Glu.h)
 description: The gluDeleteTess function destroys a tessellation object.
 ms.assetid: 7e1540f7-5e7d-4a3b-8c94-5a6800b17411
 keywords:

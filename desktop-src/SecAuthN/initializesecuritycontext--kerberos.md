@@ -1,7 +1,7 @@
 ---
 Description: Initiates the client side, outbound [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a credential handle by using the Kerberos [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: b5c968dc-9343-44ed-acbc-a89c58c14e4a
-title: InitializeSecurityContext (Kerberos) function
+title: InitializeSecurityContext (Kerberos) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Notifies the driver that this motion compensation object will no longer be used. The driver now needs to perform any necessary cleanup.
 ms.assetid: 1d86a564-efe1-4971-99ec-2c9a6aa59c89
-title: NtGdiDdDestroyMoComp function
+title: NtGdiDdDestroyMoComp function (Ntgdi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

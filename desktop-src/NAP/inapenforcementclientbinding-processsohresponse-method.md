@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding ProcessSoHResponse method
+title: INapEnforcementClientBinding ProcessSoHResponse method (NapEnforcementClient.h)
 description: Is used by enforcement clients to process an SoHResponse whenever they receive an SoHResponse data blob from the enforcement server.
 ms.assetid: 6ff6d2c5-9ebe-4d8c-aa27-03147e2e1122
 keywords:

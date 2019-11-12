@@ -1,7 +1,7 @@
 ---
 Description: Gets the extension interfaces that might come with a Windows Image Acquisition (WIA) 2.0 device driver.
 ms.assetid: 70f20f33-905c-4a88-8065-1cf876e98302
-title: IWiaItem2::GetExtension method
+title: IWiaItem2::GetExtension method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

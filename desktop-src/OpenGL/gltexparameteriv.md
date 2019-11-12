@@ -1,5 +1,5 @@
 ---
-title: glTexParameteriv function
+title: glTexParameteriv function (Gl.h)
 description: Sets texture parameters.
 ms.assetid: c6381ee5-5323-4e11-9c32-bc70f25f8f4e
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ICM_SETQUALITY message
+title: ICM_SETQUALITY message (Vfw.h)
 description: The ICM\_SETQUALITY message provides a video compression driver with a quality level to use during compression.
 ms.assetid: 487ff1de-7178-440a-b38d-0b82a30d7297
 keywords:

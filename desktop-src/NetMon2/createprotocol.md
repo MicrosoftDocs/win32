@@ -1,7 +1,7 @@
 ---
 Description: The CreateProtocol function notifies Network Monitor that a specific protocol parser exists.
 ms.assetid: 13ae261f-b1c0-4afc-b718-d64b3d4ec5ee
-title: CreateProtocol function
+title: CreateProtocol function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

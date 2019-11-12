@@ -1,7 +1,7 @@
 ---
 Description: The Stop method stops the filter.
 ms.assetid: 80eac207-5db3-4b06-bbae-eca72e37d09d
-title: CBaseRenderer.Stop method
+title: CBaseRenderer.Stop method (Renbase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

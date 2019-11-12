@@ -1,5 +1,5 @@
 ---
-title: COM Error Codes (TPM, PLA, FVE)
+title: COM Error Codes (TPM, PLA, FVE) (Winerror.h)
 description: The following table provides a list of error codes used by COM-based APIs.
 ms.assetid: ab379550-e577-4be6-a747-24b0837ea0d6
 topic_type:

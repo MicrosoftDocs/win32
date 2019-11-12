@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a low pass filter is applied to the low frequency effect (LFE) channel in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 9fb94ee1-9378-48de-b6e4-97038c15f1d7
-title: AVEncDDLFELowPassFilter property
+title: AVEncDDLFELowPassFilter property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

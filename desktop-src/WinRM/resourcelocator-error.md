@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.Error property
+title: ResourceLocator.Error property (WSManDisp.h)
 description: Gets an XML representation of additional error information.
 ms.assetid: d500ab29-d2d3-4a54-af2d-8729f9caf4dc
 ms.tgt_platform: multiple

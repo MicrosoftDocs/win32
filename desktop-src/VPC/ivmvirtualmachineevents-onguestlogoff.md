@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnGuestLogoff method
+title: IVMVirtualMachineEvents OnGuestLogoff method (VPCCOMInterfaces.h)
 description: Receives notification that a user has logged off from the guest operating system.
 ms.assetid: 3771ba28-eea9-4c8b-9224-231b00d2f2f5
 keywords:

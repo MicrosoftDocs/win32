@@ -1,7 +1,7 @@
 ---
 Description: The StartUsingOutputPin method obtains access to the pin for a streaming operation.
 ms.assetid: afa627a9-00fd-4ad0-b674-9c54a5a1be55
-title: CDynamicOutputPin.StartUsingOutputPin method
+title: CDynamicOutputPin.StartUsingOutputPin method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

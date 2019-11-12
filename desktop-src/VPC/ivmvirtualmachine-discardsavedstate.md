@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine DiscardSavedState method
+title: IVMVirtualMachine DiscardSavedState method (VPCCOMInterfaces.h)
 description: Discards any saved state information for a saved virtual machine.
 ms.assetid: 546d6ea9-bfa3-487d-a333-399986bdf9a1
 keywords:

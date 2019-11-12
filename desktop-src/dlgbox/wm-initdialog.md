@@ -1,5 +1,5 @@
 ---
-title: WM_INITDIALOG message
+title: WM_INITDIALOG message (Winuser.h)
 description: Sent to the dialog box procedure immediately before a dialog box is displayed. Dialog box procedures typically use this message to initialize controls and carry out any other initialization tasks that affect the appearance of the dialog box.
 ms.assetid: bc4f4718-1dab-48db-ae3b-5a81a7be2644
 keywords:

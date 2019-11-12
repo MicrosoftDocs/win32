@@ -1,5 +1,5 @@
 ---
-title: IDWriteFontFace4 GetGlyphImageFormats methods
+title: IDWriteFontFace4 GetGlyphImageFormats methods (Dwrite\_3.h)
 description: Gets supported glyph image formats.
 ms.assetid: bbbb399a-fdcd-5e08-4c50-1bec4784d696
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard interface
+title: IVMKeyboard interface (VPCCOMInterfaces.h)
 description: Controls the keyboard device within a virtual machine. The IVMKeyboard for a virtual machine can be retrieved using the IVMVirtualMachine Keyboard property.
 ms.assetid: a64a23b6-3937-40c6-af9d-fb341c04fbf7
 keywords:

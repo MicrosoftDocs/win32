@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement StoreLicense method
+title: IWMDRMLicenseManagement StoreLicense method (Wmdrmsdk.h)
 description: The StoreLicense method includes a license that was generated outside of the local DRM subsystem in the local license store.
 ms.assetid: 2190ff8c-8969-4f03-9f90-331bff8f4da2
 keywords:

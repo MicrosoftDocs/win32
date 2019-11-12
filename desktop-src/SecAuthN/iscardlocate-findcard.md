@@ -1,7 +1,7 @@
 ---
 Description: The FindCard method searches for the smart card and opens a valid connection to it.
 ms.assetid: ab97eff2-0f41-4a6f-98b3-d5ad5883fa07
-title: ISCardLocate::FindCard method
+title: ISCardLocate::FindCard method (Scardmgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

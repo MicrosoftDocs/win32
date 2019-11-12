@@ -1,7 +1,7 @@
 ---
 Description: The DynamicReconnect method performs a dynamic reconnection with a new media type. The reconnection can occur while the filter graph is running.
 ms.assetid: 1fe9f1cc-1f5d-407e-8c80-fea6cd1cb16f
-title: CDynamicOutputPin.DynamicReconnect method
+title: CDynamicOutputPin.DynamicReconnect method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

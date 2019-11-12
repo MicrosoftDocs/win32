@@ -1,5 +1,5 @@
 ---
-title: INapServerManagement UnregisterSystemHealthValidator method
+title: INapServerManagement UnregisterSystemHealthValidator method (NapServerManagement.h)
 description: Is used to unregister an SHV with the NAP server.
 ms.assetid: f4148df1-a230-4845-ac8b-9e04be9e0d6c
 keywords:

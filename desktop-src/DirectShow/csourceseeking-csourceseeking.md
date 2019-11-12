@@ -1,7 +1,7 @@
 ---
 Description: Constructor method.
 ms.assetid: a51d90c9-4046-42dc-b7cf-51b904c5f57a
-title: CSourceSeeking.CSourceSeeking constructor
+title: CSourceSeeking.CSourceSeeking constructor (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

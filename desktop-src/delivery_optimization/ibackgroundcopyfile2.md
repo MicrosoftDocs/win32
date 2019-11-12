@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile2 interface
+title: IBackgroundCopyFile2 interface (Deliveryoptimization.h)
 description: Use the IBackgroundCopyFile2 interface to specify a new remote name for the file and retrieve the list of ranges to download.
 ms.assetid: 28233310-9F2A-4567-B0B1-B549F862F3C8
 keywords:

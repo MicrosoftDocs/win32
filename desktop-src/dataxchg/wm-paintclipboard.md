@@ -1,5 +1,5 @@
 ---
-title: WM_PAINTCLIPBOARD message
+title: WM_PAINTCLIPBOARD message (Winuser.h)
 description: Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the CF\_OWNERDISPLAY format and the clipboard viewer's client area needs repainting.
 ms.assetid: 85aeefa5-e3d9-4689-a068-47b59ec7b571
 keywords:

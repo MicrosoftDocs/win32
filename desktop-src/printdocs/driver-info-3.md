@@ -1,7 +1,7 @@
 ---
 Description: The DRIVER\_INFO\_3 structure contains printer driver information.
 ms.assetid: ccf87319-0bcf-4f71-8de3-0190459d2b0e
-title: DRIVER_INFO_3 structure
+title: DRIVER_INFO_3 structure (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

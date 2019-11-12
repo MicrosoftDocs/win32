@@ -1,5 +1,5 @@
 ---
-title: Session.Invoke method
+title: Session.Invoke method (WSManDisp.h)
 description: Invokes a method and returns the results of the method call.
 ms.assetid: c83d0631-2efb-47d9-abcf-ab0c8de06c36
 ms.tgt_platform: multiple

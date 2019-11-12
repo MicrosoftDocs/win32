@@ -1,7 +1,7 @@
 ---
 Description: Creates a hierarchical tree of IWiaItem2 objects for a Windows Image Acquisition (WIA) 2.0 device.
 ms.assetid: df7f3cc2-da0a-4238-b280-89c72107753c
-title: IWiaDevMgr2::CreateDevice method
+title: IWiaDevMgr2::CreateDevice method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

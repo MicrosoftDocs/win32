@@ -1,7 +1,7 @@
 ---
 Description: Retrieves information about a given image file in memory.
 ms.assetid: 6363aaf1-abfc-49df-9b99-be8a1c3540e1
-title: D3DXGetImageInfoFromFileInMemory function
+title: D3DXGetImageInfoFromFileInMemory function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

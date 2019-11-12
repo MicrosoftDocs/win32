@@ -1,5 +1,5 @@
 ---
-title: WMDRM_ENCRYPT_SCATTER_BLOCK structure
+title: WMDRM_ENCRYPT_SCATTER_BLOCK structure (Wmdrmsdk.h)
 description: The WMDRM\_ENCRYPT\_SCATTER\_BLOCK structure contains a block of data to be encrypted.
 ms.assetid: 73c871f0-3d0d-480f-856c-0f7d5dde5895
 keywords:

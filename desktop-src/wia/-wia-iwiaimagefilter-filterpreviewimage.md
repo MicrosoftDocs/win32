@@ -1,7 +1,7 @@
 ---
 Description: Filters the preview image.
 ms.assetid: 1710211a-a35c-4a51-b3bb-6f03f234f247
-title: IWiaImageFilter::FilterPreviewImage method
+title: IWiaImageFilter::FilterPreviewImage method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

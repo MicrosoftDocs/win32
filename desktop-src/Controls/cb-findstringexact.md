@@ -1,5 +1,5 @@
 ---
-title: CB_FINDSTRINGEXACT message
+title: CB_FINDSTRINGEXACT message (Winuser.h)
 description: Finds the first list box string in a combo box that matches the string specified in the lParam parameter.
 ms.assetid: 9065af9f-b18e-4fd5-a8cc-f780f8d0fb05
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The Skip method skips over a specified number of pins in the enumeration sequence. This method implements the IEnumPins::Skip method.
 ms.assetid: d42f958c-f488-4730-ab84-fc4e4150b186
-title: CEnumPins.Skip method
+title: CEnumPins.Skip method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

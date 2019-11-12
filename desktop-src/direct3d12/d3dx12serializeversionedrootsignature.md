@@ -1,5 +1,5 @@
 ---
-title: D3DX12SerializeVersionedRootSignature function
+title: D3DX12SerializeVersionedRootSignature function (D3dx12.h)
 description: Helps enable root signature 1.1 features when they are available, and does not require maintaining two code paths for building root signatures. This helper method reconstructs a version 1.0 root signature when version 1.1 is not supported.
 ms.assetid: 0F6BA6C1-9A33-4E99-BF34-4A0358E7427D
 keywords:

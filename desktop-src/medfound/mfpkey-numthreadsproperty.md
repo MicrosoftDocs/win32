@@ -1,7 +1,7 @@
 ---
 Description: Specifies the number of threads that the encoder will use.
 ms.assetid: 2f463cba-2512-455d-9ce1-8797682d4d67
-title: MFPKEY_NUMTHREADS Property
+title: MFPKEY_NUMTHREADS Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

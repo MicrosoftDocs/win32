@@ -1,5 +1,5 @@
 ---
-title: WM_SYSKEYDOWN message
+title: WM_SYSKEYDOWN message (Winuser.h)
 description: Posted to the window with the keyboard focus when the user presses the F10 key (which activates the menu bar) or holds down the ALT key and then presses another key.
 ms.assetid: a3c03dbf-1be7-49ff-b931-1981786b74ce
 keywords:

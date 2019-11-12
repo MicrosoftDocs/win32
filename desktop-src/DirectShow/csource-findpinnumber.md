@@ -1,7 +1,7 @@
 ---
 Description: The FindPinNumber method retrieves the number of a specified pin on the filter.
 ms.assetid: c9366fcc-7b13-4e43-883e-6003c32fadec
-title: CSource.FindPinNumber method
+title: CSource.FindPinNumber method (Source.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

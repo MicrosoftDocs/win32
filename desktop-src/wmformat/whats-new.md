@@ -1,5 +1,5 @@
 ---
-title: What's New
+title: What's New (Windows Media Format 11 SDK)
 description: What's New
 ms.assetid: af04b99a-4653-4c82-944a-7005cf1181fe
 keywords:

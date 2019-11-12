@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice GetEffectiveBandwidth method
+title: ActiveBasicDevice GetEffectiveBandwidth method (PlayToDevice.h)
 description: Gets the current effective bandwidth for the device.
 ms.assetid: 88CE03AB-6F87-4E43-B673-2C693D351F10
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Keyboard Input
+title: Keyboard Input (Keyboard and Mouse Input)
 description: This section discusses how the system generates keyboard input and how an application receives and processes that input.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\keyboardinput.htm'
 keywords:

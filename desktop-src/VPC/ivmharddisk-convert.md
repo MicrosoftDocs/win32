@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk Convert method
+title: IVMHardDisk Convert method (VPCCOMInterfaces.h)
 description: Converts a fixed-size virtual hard disk to a dynamically expanding virtual hard disk or converts a dynamically expanding virtual hard disk to a fixed-size virtual hard disk.
 ms.assetid: 0dee802a-1cac-499e-918a-7dbb6c98415f
 keywords:

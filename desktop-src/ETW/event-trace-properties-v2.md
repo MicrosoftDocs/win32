@@ -1,7 +1,7 @@
 ---
 Description: The EVENT\_TRACE\_PROPERTIES\_V2 structure contains information about an event tracing session.
 ms.assetid: 2EEDB53B-75BC-48AC-A70D-9AEAED526C40
-title: EVENT_TRACE_PROPERTIES_V2 structure
+title: EVENT_TRACE_PROPERTIES_V2 structure (Evntrace.h)
 ms.topic: reference
 ms.date: 07/09/2018
 topic_type: 

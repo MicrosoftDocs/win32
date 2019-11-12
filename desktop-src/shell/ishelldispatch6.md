@@ -1,6 +1,6 @@
 ---
 Description: Extends the IShellDispatch5 object.
-title: IShellDispatch6 object
+title: IShellDispatch6 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

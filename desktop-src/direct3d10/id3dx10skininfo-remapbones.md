@@ -1,7 +1,7 @@
 ---
 Description: Change which bones influence which vertices.
 ms.assetid: 0955e0ba-ffc5-408b-ab38-2abd39e1c429
-title: ID3DX10SkinInfo::RemapBones method
+title: ID3DX10SkinInfo::RemapBones method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetCorrelationId method
+title: INapEnforcementClientConnection SetCorrelationId method (NapEnforcementClient.h)
 description: Sets the ID used to correlate SoH-requests and SoH-responses.
 ms.assetid: 8f9d5bde-95b1-4566-84ee-31c6ed5e8986
 keywords:

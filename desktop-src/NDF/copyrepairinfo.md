@@ -1,5 +1,5 @@
 ---
-title: CopyRepairInfo function
+title: CopyRepairInfo function (Ndattributils.h)
 description: Creates a copy of a RepairInfo structure.
 ms.assetid: a1147ce6-9a90-4a46-8fe4-da3353391a13
 keywords:

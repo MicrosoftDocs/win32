@@ -1,5 +1,5 @@
 ---
-title: LVM_SETBKCOLOR message
+title: LVM_SETBKCOLOR message (Commctrl.h)
 description: Sets the background color of a list-view control. You can send this message explicitly or by using the ListView\_SetBkColor macro.
 ms.assetid: d579249d-421d-4e7e-8992-4c7fd7277593
 keywords:

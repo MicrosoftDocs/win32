@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd GetSoftKeyboardPosSize method
+title: ISoftKbd GetSoftKeyboardPosSize method (Softkbdc.h)
 description: The ISoftKbd GetSoftKeyboardPosSize method retrieves the starting position and size of a soft keyboard.
 ms.assetid: d4482e34-1723-4fe2-a488-e7c18eb3f68e
 keywords:

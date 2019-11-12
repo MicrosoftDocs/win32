@@ -1,7 +1,7 @@
 ---
 Description: The DisconnectInternal method breaks the current pin connection.
 ms.assetid: 070301ad-d079-4ad3-abdf-d5de88872e52
-title: CBasePin.DisconnectInternal method
+title: CBasePin.DisconnectInternal method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Windows GDI+ provides the Metafile class so that you can record and display metafiles.
 ms.assetid: a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077
-title: Metafiles
+title: Metafiles (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
 ---

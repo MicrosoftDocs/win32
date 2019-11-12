@@ -1,7 +1,7 @@
 ---
 Description: Submits configuration data for a data capture.
 ms.assetid: fb8c8ac8-cef4-45e0-bb06-3cf09c8ad9ac
-title: IRTC::Configure method
+title: IRTC::Configure method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

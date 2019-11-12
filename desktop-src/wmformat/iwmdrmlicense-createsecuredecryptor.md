@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense CreateSecureDecryptor method
+title: IWMDRMLicense CreateSecureDecryptor method (Wmdrmsdk.h)
 description: The CreateSecureDecryptor method creates a secure decryptor object. The secure decryptor differs from the normal decryptor in that it decrypts the content and then re-encrypts it according to the settings specified in the parameters of this method.
 ms.assetid: f3fe8d47-ec7b-4ba5-b5ae-6262cb455ffc
 keywords:

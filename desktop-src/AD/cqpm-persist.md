@@ -1,5 +1,5 @@
 ---
-title: CQPM_PERSIST message
+title: CQPM_PERSIST message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page to allow the page to read or write query data from persistent memory.
 ms.assetid: f01586dd-4ed3-45af-9e25-a596a693313d
 ms.tgt_platform: multiple

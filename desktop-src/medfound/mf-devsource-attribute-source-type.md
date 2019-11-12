@@ -1,7 +1,7 @@
 ---
 Description: Specifies a devices type, such as audio capture or video capture.
 ms.assetid: c6c05267-1c93-48e2-b463-b5a1514f1b7b
-title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE attribute
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

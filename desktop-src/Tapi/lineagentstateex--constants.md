@@ -1,7 +1,7 @@
 ---
 Description: The LINEAGENTSTATEEX\_ constants describe the state of an agent on an address.
 ms.assetid: d49025c5-f1db-4b71-a2d5-1cf3df66f3e5
-title: LINEAGENTSTATEEX_ Constants
+title: LINEAGENTSTATEEX_ Constants (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

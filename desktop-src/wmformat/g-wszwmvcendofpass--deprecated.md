@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCEndOfPass
+title: g_wszWMVCEndOfPass (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: e590436f-85b2-472b-8e6d-6f82d4a1fe9d
 keywords:

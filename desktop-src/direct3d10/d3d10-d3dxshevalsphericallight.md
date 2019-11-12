@@ -1,7 +1,7 @@
 ---
 Description: Evaluates a spherical light and returns spectral spherical harmonic (SH) data.
 ms.assetid: e2a2b998-285a-46ef-99fe-ccc923013e9a
-title: D3DXSHEvalSphericalLight function
+title: D3DXSHEvalSphericalLight function (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

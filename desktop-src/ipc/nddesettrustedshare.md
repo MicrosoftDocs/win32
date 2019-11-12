@@ -1,7 +1,7 @@
 ---
 Description: Grants the specified DDE share trusted status within the current users context.
 ms.assetid: 508d3603-468c-4ecb-8e5c-0ab86c2ff3b4
-title: NDdeSetTrustedShare function
+title: NDdeSetTrustedShare function (Nddeapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

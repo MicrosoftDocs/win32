@@ -1,7 +1,7 @@
 ---
 Description: The SetPositions method sets the current position and the stop position. This method implements the IMediaSeeking::SetPositions method.
 ms.assetid: 4359fe1f-f922-4a4d-beaa-8e13c72f407c
-title: CSourceSeeking.SetPositions method
+title: CSourceSeeking.SetPositions method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: glTexEnvi function
+title: glTexEnvi function (Gl.h)
 description: The glTexEnvi function sets a texture environment parameter.
 ms.assetid: 3f4c10c4-524c-4cce-b42b-bc72fc3b9f31
 keywords:

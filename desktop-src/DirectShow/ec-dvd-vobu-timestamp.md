@@ -1,7 +1,7 @@
 ---
 Description: Sent when the DVD Navigator parses a PCI packet.
 ms.assetid: 25548c23-22f0-47cb-9062-273ad39d3007
-title: EC_DVD_VOBU_Timestamp
+title: EC_DVD_VOBU_Timestamp (Dvdevcode.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

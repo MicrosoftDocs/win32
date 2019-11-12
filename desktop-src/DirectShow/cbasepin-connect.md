@@ -1,7 +1,7 @@
 ---
 Description: The Connect method connects the pin to another pin. This method implements the IPin::Connect method.
 ms.assetid: 8ea99d2f-09da-4b15-a3b0-04ceb7888bc1
-title: CBasePin.Connect method
+title: CBasePin.Connect method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

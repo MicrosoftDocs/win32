@@ -1,5 +1,5 @@
 ---
-title: Identity constants
+title: Identity constants (AppModel.h)
 description: Specifies the length of the strings for the package's identity fields.
 ms.assetid: C4F81822-B502-4360-AEA4-829F1AB926BF
 topic_type:

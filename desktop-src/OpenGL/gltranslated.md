@@ -1,5 +1,5 @@
 ---
-title: glTranslated function
+title: glTranslated function (Gl.h)
 description: The glTranslated function multiplies the current matrix by a translation matrix.
 ms.assetid: 9f066a92-ee78-44d1-b8f8-0eacde0e1a47
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Signals that a DVD Navigator command has begun.
 ms.assetid: 230116b4-23f1-4c37-a781-da2c5aa20a1f
-title: EC_DVD_CMD_START
+title: EC_DVD_CMD_START (Dvdevcode.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

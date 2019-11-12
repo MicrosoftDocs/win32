@@ -1,5 +1,5 @@
 ---
-title: List-View Item States
+title: List-View Item States (CommCtrl.h)
 description: An item's state value consists of the item's state, an optional overlay mask index, and an optional state image mask index.
 ms.assetid: 21827f4a-f133-489b-bbd2-6979d1928b40
 topic_type:

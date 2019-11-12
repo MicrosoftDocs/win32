@@ -1,5 +1,5 @@
 ---
-title: HELPMSGSTRING message
+title: HELPMSGSTRING message (Commdlg.h)
 description: A common dialog box sends the HELPMSGSTRING registered message to the window procedure of its owner window when the user clicks the Help button.
 ms.assetid: 21c0fcf5-785b-4005-8133-e48347f991a8
 keywords:

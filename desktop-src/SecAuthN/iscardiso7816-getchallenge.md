@@ -1,7 +1,7 @@
 ---
 Description: The GetChallenge method constructs an application protocol data unit (APDU) command that issue a challenge (for example, a random number) for use in a security-related procedure.
 ms.assetid: 61f6db1c-b83a-4c1f-8ace-0222a12560ff
-title: ISCardISO7816::GetChallenge method
+title: ISCardISO7816::GetChallenge method (Scardssp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

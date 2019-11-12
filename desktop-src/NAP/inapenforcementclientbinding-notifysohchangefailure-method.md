@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding NotifySoHChangeFailure method
+title: INapEnforcementClientBinding NotifySoHChangeFailure method (NapEnforcementClient.h)
 description: Is used by the enforcement client to inform the NapAgent that it could not process a previous INapEnforcementClientCallback NotifySoHChange.
 ms.assetid: 2de1626c-ffda-4191-90c4-72d0275965d9
 keywords:

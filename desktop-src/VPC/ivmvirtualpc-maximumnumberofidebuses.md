@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC MaximumNumberOfIDEBuses property
+title: IVMVirtualPC MaximumNumberOfIDEBuses property (VPCCOMInterfaces.h)
 description: Retrieves the maximum number of buses allowed for IDE.
 ms.assetid: 7b88eda4-0f66-4e26-96cb-1e9ebef9d0b8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCI_HMS_HOUR macro
+title: MCI_HMS_HOUR macro (Mciapi.h)
 description: The MCI\_HMS\_HOUR macro retrieves the hours component from a parameter containing packed hours/minutes/seconds (HMS) information.
 ms.assetid: 55968b2b-2bfe-48ac-a50f-5c8741d11e33
 keywords:

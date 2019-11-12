@@ -1,6 +1,6 @@
 ---
 Description: Forwards the events fired by a specified ShellFolderView object to corresponding ShellFolderViewOC event handlers.
-title: ShellFolderViewOC object
+title: ShellFolderViewOC object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

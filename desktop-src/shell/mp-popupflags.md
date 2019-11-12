@@ -1,6 +1,6 @@
 ---
 Description: Represent options available when displaying a pop-up menu.
-title: MP_POPUPFLAGS constants
+title: MP_POPUPFLAGS constants (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: cc1d9ff0-a03b-4bd3-b481-9b78d20eb771

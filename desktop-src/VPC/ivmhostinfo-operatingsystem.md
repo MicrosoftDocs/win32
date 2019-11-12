@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo OperatingSystem property
+title: IVMHostInfo OperatingSystem property (VPCCOMInterfaces.h)
 description: Retrieves the operating system running on the machine.
 ms.assetid: 1164bb7d-cdce-4649-86d6-22e3ea7bad98
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM_GETFOOTERITEM message
+title: LVM_GETFOOTERITEM message (Commctrl.h)
 description: Gets information on a footer item in a list-view control. Send this message explicitly or by using the ListView\_GetFooterItem macro.
 ms.assetid: 92f55719-c265-433f-84fc-a673680c7ad9
 keywords:

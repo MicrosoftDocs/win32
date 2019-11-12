@@ -1,5 +1,5 @@
 ---
-title: NM_DBLCLK (list view) notification code
+title: NM_DBLCLK (list view) notification code (Commctrl.h)
 description: Sent by a list-view control when the user double-clicks an item with the left mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 28455109-177e-4932-88c5-500a3a91c13a
 keywords:

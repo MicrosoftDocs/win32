@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the class identifier for this filter.
 ms.assetid: f0559437-5d0d-4522-a3dc-947e3494b576
-title: CPersistStream.GetClassID method
+title: CPersistStream.GetClassID method (Pstream.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

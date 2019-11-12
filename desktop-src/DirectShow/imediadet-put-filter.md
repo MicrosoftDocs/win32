@@ -1,7 +1,7 @@
 ---
 Description: The put\_Filter method specifies a source filter for the media detector to use.
 ms.assetid: 59382cb0-c472-48b8-9cc5-52f9dbc61a07
-title: IMediaDet::put_Filter method
+title: IMediaDet::put_Filter method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

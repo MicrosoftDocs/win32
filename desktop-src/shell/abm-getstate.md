@@ -1,6 +1,6 @@
 ---
 Description: Retrieves the autohide and always-on-top states of the Windows taskbar.
-title: ABM_GETSTATE message
+title: ABM_GETSTATE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 18e16752-16be-492b-a4fa-c951e18dc86c

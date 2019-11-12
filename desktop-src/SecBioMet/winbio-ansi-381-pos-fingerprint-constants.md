@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANSI_381_POS Fingerprint Constants
+title: WINBIO_ANSI_381_POS Fingerprint Constants (Winbio\_types.h)
 description: Specify the fingers scanned by a sensor.
 ms.assetid: 86F8E937-41A8-40A8-8246-226A0AE512FB
 topic_type:

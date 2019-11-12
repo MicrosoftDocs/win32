@@ -1,7 +1,7 @@
 ---
 Description: Applies gutters to a FLOAT texture buffer.
 ms.assetid: 822483d7-ae62-498a-bce7-3a925ab21c04
-title: ID3DXTextureGutterHelper::ApplyGuttersFloat method
+title: ID3DXTextureGutterHelper::ApplyGuttersFloat method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

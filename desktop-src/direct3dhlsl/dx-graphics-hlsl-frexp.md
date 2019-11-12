@@ -1,5 +1,5 @@
 ---
-title: frexp
+title: frexp (Corecrt\_math.h)
 description: Returns the mantissa and exponent of the specified floating-point value.
 ms.assetid: 9252feff-da85-4b3e-97db-1fcddd786695
 keywords:

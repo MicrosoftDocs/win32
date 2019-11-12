@@ -1,5 +1,5 @@
 ---
-title: Control Type Identifiers
+title: Control Type Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants used to identify Microsoft UI Automation control types.
 ms.assetid: 774b6078-2491-48e4-8ac3-f14dd60de862
 topic_type:

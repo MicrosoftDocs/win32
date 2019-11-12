@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS interface
+title: IVMGuestOS interface (VPCCOMInterfaces.h)
 description: Defines the guest operating system running inside a virtual machine.
 ms.assetid: fb31f294-94ad-4545-8d59-849a5f2fe780
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Sets the persisted group id list for all the profiles that are persisted by your app.
 ms.assetid: EF83F295-CD53-45A4-B209-560B4069CA7C
-title: WFDDisplaySinkSetPersistedGroupIDList function
+title: WFDDisplaySinkSetPersistedGroupIDList function (Wfdsink.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

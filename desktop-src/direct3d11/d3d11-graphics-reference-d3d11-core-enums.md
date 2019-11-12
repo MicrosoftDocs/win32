@@ -1,5 +1,5 @@
 ---
-title: Core Enumerations
+title: Core Enumerations (Direct3D 11 Graphics)
 description: This section contains information about the core enumerations.
 ms.assetid: 1641713a-5ac8-4597-900b-1bba54f9f522
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Contains information about the access clause for the protected storage.
 ms.assetid: 59634ada-4879-4ae7-b757-dfa6a88549af
-title: PST_ACCESSCLAUSE structure
+title: PST_ACCESSCLAUSE structure (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

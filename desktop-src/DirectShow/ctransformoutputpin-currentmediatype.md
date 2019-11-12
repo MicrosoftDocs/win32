@@ -1,7 +1,7 @@
 ---
 Description: The CurrentMediaType method retrieves the media type for the current pin connection.
 ms.assetid: 1c42664d-160a-4f76-9d7a-40414c5c1704
-title: CTransformOutputPin.CurrentMediaType method
+title: CTransformOutputPin.CurrentMediaType method (Transfrm.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

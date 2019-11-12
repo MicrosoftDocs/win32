@@ -1,5 +1,5 @@
 ---
-title: max macro
+title: max macro (Minwindef.h)
 description: The max macro compares two values and returns the larger one. The data type can be any numeric data type, signed or unsigned. The data type of the arguments and the return value is the same.
 ms.assetid: 224d2ef7-6764-49c0-9782-51bfadbfb77f
 keywords:

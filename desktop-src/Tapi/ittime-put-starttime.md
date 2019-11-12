@@ -1,7 +1,7 @@
 ---
 Description: The put\_StartTime method sets the 32-bit NTP (Network Time Protocol) starting time value. The session is considered active from this time.
 ms.assetid: c7c96265-4588-4f05-83b6-6ef54f02650b
-title: ITTime::put_StartTime method
+title: ITTime::put_StartTime method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

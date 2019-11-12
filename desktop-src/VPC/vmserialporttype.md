@@ -1,5 +1,5 @@
 ---
-title: VMSerialPortType enumeration
+title: VMSerialPortType enumeration (VPCCOMInterfaces.h)
 description: Specifies the type of serial port.
 ms.assetid: 1385292b-ee3c-41f0-805a-df126f33cabb
 keywords:

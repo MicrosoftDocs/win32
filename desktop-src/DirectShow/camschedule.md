@@ -1,7 +1,7 @@
 ---
 Description: The CAMSchedule class implements a scheduler for reference clocks.
 ms.assetid: 67aacffb-b781-4323-8973-355a76821401
-title: CAMSchedule class
+title: CAMSchedule class (Dsschedule.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

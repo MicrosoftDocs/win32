@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ORIENTATION Constants
+title: WINBIO_ORIENTATION Constants (Winbio\_types.h)
 description: The following constants specify the possible camera orientations that the sensor component specifies as mandatory.
 ms.assetid: E44A6F17-5F38-47C7-947B-FB6FB79B1217
 topic_type:

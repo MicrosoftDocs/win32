@@ -1,7 +1,7 @@
 ---
 Description: Sent when the system asks a window which system gestures it would like to receive.
 ms.assetid: 5b747b3c-3b77-4913-932f-182114d1f674
-title: WM_TABLET_QUERYSYSTEMGESTURESTATUS message
+title: WM_TABLET_QUERYSYSTEMGESTURESTATUS message (Tpcshrd.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a decoder is optimized for transcoding rather than for playback.
 ms.assetid: 0e05cb05-87a8-4174-a3c6-a0a0c7765024
-title: MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE attribute
+title: MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE attribute (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

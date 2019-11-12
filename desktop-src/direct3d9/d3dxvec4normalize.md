@@ -1,7 +1,7 @@
 ---
 Description: Returns the normalized version of a 4D vector.
 ms.assetid: e12d5dc7-b26f-41dd-b89d-1df9ba23077a
-title: D3DXVec4Normalize function
+title: D3DXVec4Normalize function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

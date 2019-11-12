@@ -1,5 +1,5 @@
 ---
-title: Inheritance
+title: Inheritance (AD DS)
 description: Inheritance allows a given ACE to be propagated from the container where it was applied to all children of the container.
 ms.assetid: 9779c5d4-295a-4b87-8fdc-b96d09a4f480
 ms.tgt_platform: multiple

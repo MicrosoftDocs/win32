@@ -1,7 +1,7 @@
 ---
 Description: Specifies the status of a topology during playback.
 ms.assetid: f7c93bad-1a64-45b0-ab5c-6edea4a1c0d1
-title: MF_EVENT_TOPOLOGY_STATUS attribute
+title: MF_EVENT_TOPOLOGY_STATUS attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

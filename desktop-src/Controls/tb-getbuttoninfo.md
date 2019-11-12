@@ -1,5 +1,5 @@
 ---
-title: TB_GETBUTTONINFO message
+title: TB_GETBUTTONINFO message (Commctrl.h)
 description: Retrieves extended information for a button in a toolbar.
 ms.assetid: 87430dd2-43d1-4e33-96ac-d33f89a654b6
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EN_MSGFILTER notification code
+title: EN_MSGFILTER notification code (Richedit.h)
 description: Notifies a rich edit control's parent window of a keyboard or mouse event in the control. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 96cf0047-baae-46cd-82e8-ab6f3f353260
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Returns the normalized version of a 2D vector.
 ms.assetid: 2796a5d1-cb1c-4093-87f2-a2ad43279d91
-title: D3DXVec2Normalize function
+title: D3DXVec2Normalize function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

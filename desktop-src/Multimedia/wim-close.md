@@ -1,5 +1,5 @@
 ---
-title: WIM_CLOSE message
+title: WIM_CLOSE message (Mmsystem.h)
 description: The WIM\_CLOSE message is sent to the given waveform-audio input callback function when a waveform-audio input device is closed. The device handle is no longer valid after this message has been sent.
 ms.assetid: '3774b8b4-b03b-49e7-b9cd-cf3f194df847'
 keywords:

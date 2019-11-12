@@ -1,7 +1,7 @@
 ---
 Description: The param element specifies the value of a property on a transition, effect, or other subobject.
 ms.assetid: a727c47c-b925-436c-b1e8-d5f407120dc9
-title: param Element
+title: param Element (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

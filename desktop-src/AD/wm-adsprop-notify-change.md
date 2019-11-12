@@ -1,5 +1,5 @@
 ---
-title: WM_ADSPROP_NOTIFY_CHANGE message
+title: WM_ADSPROP_NOTIFY_CHANGE message (Adsprop.h)
 description: The WM\_ADSPROP\_NOTIFY\_CHANGE message is used internally by the notification object.
 ms.assetid: 3dc36176-eebc-4b7d-9ee9-19d2f8c543b6
 ms.tgt_platform: multiple

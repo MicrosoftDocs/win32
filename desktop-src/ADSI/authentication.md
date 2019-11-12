@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Authentication (ADSI)
 description: In ADSI, credentials that consist of a user name and password are used to provide or restrict access to objects in the directory service.
 ms.assetid: eef6451d-ebb8-4e22-84f4-61b8be73068a
 ms.tgt_platform: multiple

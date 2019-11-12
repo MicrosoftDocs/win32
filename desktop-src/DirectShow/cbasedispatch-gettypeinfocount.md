@@ -1,7 +1,7 @@
 ---
 Description: The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.
 ms.assetid: e09e6f6c-6ac8-4ce1-8ce1-ee5374d54183
-title: CBaseDispatch.GetTypeInfoCount method
+title: CBaseDispatch.GetTypeInfoCount method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: IDWriteFactory4 ComputeGlyphOrigins methods
+title: IDWriteFactory4 ComputeGlyphOrigins methods (Dwrite\_3.h)
 description: Converts glyph run placements to glyph origins.
 ms.assetid: 4cfe6667-f2ca-0cb7-8429-6050bf4fddb3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Adds two 3D vectors.
 ms.assetid: 2979e291-786b-4bc9-b584-421f08db949a
-title: D3DXVec3Add function
+title: D3DXVec3Add function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

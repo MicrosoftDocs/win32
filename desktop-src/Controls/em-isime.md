@@ -1,5 +1,5 @@
 ---
-title: EM_ISIME message
+title: EM_ISIME message (Richedit.h)
 description: Determine with a rich edit control's current input locale is an East Asian locale.
 ms.assetid: 606e9c7f-dd9e-44b3-b37d-d6838bc66818
 keywords:

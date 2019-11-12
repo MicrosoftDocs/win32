@@ -1,7 +1,7 @@
 ---
 Description: The QueryTrace function retrieves the property settings and session statistics for the specified event tracing session. The ControlTrace function supersedes this function.
 ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
-title: QueryTrace function
+title: QueryTrace function (Evntrace.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: CB_SETITEMHEIGHT message
+title: CB_SETITEMHEIGHT message (Winuser.h)
 description: An application sends a CB\_SETITEMHEIGHT message to set the height of list items or the selection field in a combo box.
 ms.assetid: 25a01170-5ffc-4d86-b696-706f5375570b
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCI_SETTIMECODE command
+title: MCI_SETTIMECODE command (Mmsystem.h)
 description: The MCI\_SETTIMECODE command enables or disables timecode recording for a VCR. VCR devices recognize this command.
 ms.assetid: b014fbe0-de97-4540-a5fe-b22d157361f7
 keywords:

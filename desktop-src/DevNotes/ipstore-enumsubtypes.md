@@ -1,7 +1,7 @@
 ---
 Description: Returns an interface for enumerating subtypes of the types currently registered in the protected database.
 ms.assetid: 07cc43ce-2191-4b20-b23d-d96d15aa8dea
-title: IPStore::EnumSubtypes method
+title: IPStore::EnumSubtypes method (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

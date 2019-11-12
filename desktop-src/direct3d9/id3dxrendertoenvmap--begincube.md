@@ -1,7 +1,7 @@
 ---
 Description: Initiate the rendering of a cubic environment map.
 ms.assetid: 0f02b2e2-8132-4994-ab07-c79a1b7821dd
-title: ID3DXRenderToEnvMap::BeginCube method
+title: ID3DXRenderToEnvMap::BeginCube method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

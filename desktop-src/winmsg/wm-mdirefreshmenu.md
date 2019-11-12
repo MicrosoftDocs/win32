@@ -1,7 +1,7 @@
 ---
 Description: An application sends the WM\_MDIREFRESHMENU message to a multiple-document interface (MDI) client window to refresh the window menu of the MDI frame window.
 ms.assetid: 6450d84a-a0b9-45d0-9e0c-757d26502059
-title: WM_MDIREFRESHMENU message
+title: WM_MDIREFRESHMENU message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

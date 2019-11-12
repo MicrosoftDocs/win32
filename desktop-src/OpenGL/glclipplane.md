@@ -1,5 +1,5 @@
 ---
-title: glClipPlane function
+title: glClipPlane function (Gl.h)
 description: The glClipPlane function specifies a plane against which all geometry is clipped.
 ms.assetid: b70d2c30-7502-4399-8c08-5ec9a2a1919c
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The IMonitor interface provides methods that control monitor operation. These methods are called by the Monitor Control Service (MCSVC).
 ms.assetid: 53140e7d-c3a1-45cd-aaa4-c6f5021a6102
-title: IMonitor interface
+title: IMonitor interface (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

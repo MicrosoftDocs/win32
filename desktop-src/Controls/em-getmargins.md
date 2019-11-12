@@ -1,5 +1,5 @@
 ---
-title: EM_GETMARGINS message
+title: EM_GETMARGINS message (Winuser.h)
 description: Gets the widths of the left and right margins for an edit control.
 ms.assetid: 2482354b-aae0-4abd-8287-65c423f30abb
 keywords:

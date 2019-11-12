@@ -1,5 +1,5 @@
 ---
-title: GetRequiredIntermediateSize function
+title: GetRequiredIntermediateSize function (D3dx12.h)
 description: Returns the required size of a buffer to be used for data upload.
 ms.assetid: 424B52E9-DE52-40D2-B8B0-C27FD3D3C298
 keywords:

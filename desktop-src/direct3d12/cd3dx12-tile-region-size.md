@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_TILE_REGION_SIZE structure
+title: CD3DX12_TILE_REGION_SIZE structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_TILE\_REGION\_SIZE structure.
 ms.assetid: 07D2D8DE-C35C-48EE-8E9E-36545B60C594
 keywords:

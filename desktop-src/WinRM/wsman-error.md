@@ -1,5 +1,5 @@
 ---
-title: WSMan.Error property
+title: WSMan.Error property (WSManDisp.h)
 description: Gets additional error information, in an XML stream, for the preceding call to a WSMan method if Windows Remote Management service was unable to create a Session object, a ConnectionOptions object, or a ResourceLocator object.
 ms.assetid: 72d05ef9-672c-4693-b7c9-6d689858acd4
 ms.tgt_platform: multiple

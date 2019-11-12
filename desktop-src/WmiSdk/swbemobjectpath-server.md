@@ -2,7 +2,7 @@
 Description: The Server property of the SWbemObjectPath object contains the name of the server that is part of the object path.
 ms.assetid: 8d711bc5-dd5e-426f-8398-38f90655ff75
 ms.tgt_platform: multiple
-title: SWbemObjectPath.Server property
+title: SWbemObjectPath.Server property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: TTM_SETWINDOWTHEME message
+title: TTM_SETWINDOWTHEME message (Commctrl.h)
 description: Sets the visual style of a tooltip control.
 ms.assetid: eeddb91e-8eb8-4480-9ab2-5efa9e3ef48a
 keywords:

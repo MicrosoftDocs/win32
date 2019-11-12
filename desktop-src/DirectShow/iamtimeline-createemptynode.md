@@ -1,7 +1,7 @@
 ---
 Description: The CreateEmptyNode method creates a new timeline object.
 ms.assetid: 64184bfd-6f93-4865-81e7-b1ed7b7148aa
-title: IAMTimeline::CreateEmptyNode method
+title: IAMTimeline::CreateEmptyNode method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The PKEY\_AudioEndpoint\_Association property associates a kernel-streaming (KS) pin category with an audio endpoint device.
 ms.assetid: a20e082c-eddb-4b81-b851-49350b87e69a
-title: PKEY_AudioEndpoint_Association
+title: PKEY_AudioEndpoint_Association (Mmdeviceapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

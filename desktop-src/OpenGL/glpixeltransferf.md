@@ -1,5 +1,5 @@
 ---
-title: glPixelTransferf function
+title: glPixelTransferf function (Gl.h)
 description: The glPixelTransferf and glPixelTransferi functions set pixel transfer modes.
 ms.assetid: c18ecbb9-af2a-4662-8e3f-0ac850b04fc1
 keywords:

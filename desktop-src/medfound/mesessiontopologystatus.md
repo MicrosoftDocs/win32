@@ -1,7 +1,7 @@
 ---
 Description: Raised by the Media Session when the status of a topology changes.
 ms.assetid: b45fd598-ab1e-4b12-8d82-c88c96d1f770
-title: MESessionTopologyStatus event
+title: MESessionTopologyStatus event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

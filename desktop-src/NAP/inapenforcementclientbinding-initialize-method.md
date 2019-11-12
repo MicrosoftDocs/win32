@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding Initialize method
+title: INapEnforcementClientBinding Initialize method (NapEnforcementClient.h)
 description: Starts up the NapAgent service automatically.
 ms.assetid: 6b51043d-a8e7-41e4-9da9-e7f18f9bd068
 keywords:

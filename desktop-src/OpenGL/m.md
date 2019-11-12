@@ -1,5 +1,5 @@
 ---
-title: M
+title: M (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter M.
 Robots: noindex, nofollow
 ms.assetid: '3fe41d6e-f757-4a11-8e4e-2f04f4671278'

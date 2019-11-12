@@ -1,5 +1,5 @@
 ---
-title: IADsHold Property Methods
+title: IADsHold Property Methods (Iads.h)
 description: The property method of the IADsHold interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 55968bc1-c44a-4db4-acc8-e1b6f1e4ad4c
 ms.tgt_platform: multiple

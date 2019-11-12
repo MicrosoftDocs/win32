@@ -1,5 +1,5 @@
 ---
-title: MCM_GETMONTHRANGE message
+title: MCM_GETMONTHRANGE message (Commctrl.h)
 description: Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar control's display. You can send this message explicitly or by using the MonthCal\_GetMonthRange macro.
 ms.assetid: f50ac4b7-1f58-4639-8c78-341bb33db3c3
 keywords:

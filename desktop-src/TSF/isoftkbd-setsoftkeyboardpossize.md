@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd SetSoftKeyboardPosSize method
+title: ISoftKbd SetSoftKeyboardPosSize method (Softkbdc.h)
 description: The ISoftKbd SetSoftKeyboardPosSize method sets the starting position and size of a soft keyboard.
 ms.assetid: bf827b07-0e8b-4d5a-8178-45d75af83551
 keywords:

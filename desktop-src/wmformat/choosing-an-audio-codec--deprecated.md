@@ -1,5 +1,5 @@
 ---
-title: Choosing an Audio Codec
+title: Choosing an Audio Codec (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: b771c569-7b49-4381-9e56-4036eeeb9832
 keywords:

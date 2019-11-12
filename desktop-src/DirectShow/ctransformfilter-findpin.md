@@ -1,7 +1,7 @@
 ---
 Description: The FindPin method gets the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
 ms.assetid: 56ee3e0d-9e3f-4d25-846b-50119b55a122
-title: CTransformFilter.FindPin method
+title: CTransformFilter.FindPin method (Transfrm.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

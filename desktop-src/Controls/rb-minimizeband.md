@@ -1,5 +1,5 @@
 ---
-title: RB_MINIMIZEBAND message
+title: RB_MINIMIZEBAND message (Commctrl.h)
 description: Resizes a band in a rebar control to its smallest size.
 ms.assetid: 4962d90a-2a69-4490-9063-cc2be995df13
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: NM_THEMECHANGED notification code
+title: NM_THEMECHANGED notification code (Commctrl.h)
 description: Notifies a control's parent window that the theme has changed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 5e6a039e-9c35-4476-8cf1-5aea8977ed2d
 keywords:

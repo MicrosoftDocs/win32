@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget DrawRectangle methods
+title: ID2D1RenderTarget DrawRectangle methods (D2d1\_1.h)
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 keywords:

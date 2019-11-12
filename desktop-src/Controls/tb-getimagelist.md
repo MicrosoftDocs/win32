@@ -1,5 +1,5 @@
 ---
-title: TB_GETIMAGELIST message
+title: TB_GETIMAGELIST message (Commctrl.h)
 description: Retrieves the image list that a toolbar control uses to display buttons in their default state. A toolbar control uses this image list to display buttons when they are not hot or disabled.
 ms.assetid: 21edde99-019b-495c-a38b-4d686e124f8e
 keywords:

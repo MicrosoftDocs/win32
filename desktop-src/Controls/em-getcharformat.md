@@ -1,5 +1,5 @@
 ---
-title: EM_GETCHARFORMAT message
+title: EM_GETCHARFORMAT message (Richedit.h)
 description: Determines the character formatting in a rich edit control.
 ms.assetid: 210b8719-5ed7-49f2-bd93-8a4e1efab1e8
 keywords:

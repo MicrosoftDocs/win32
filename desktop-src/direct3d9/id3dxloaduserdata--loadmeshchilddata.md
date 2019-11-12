@@ -1,7 +1,7 @@
 ---
 Description: Load mesh child data from a .x file.
 ms.assetid: 5ed338f9-48a6-44e6-95da-1bed9ecd6ebf
-title: ID3DXLoadUserData::LoadMeshChildData method
+title: ID3DXLoadUserData::LoadMeshChildData method (D3dx9anim.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

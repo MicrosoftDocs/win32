@@ -1,5 +1,5 @@
 ---
-title: IDCompositionShadowEffect SetBlue methods
+title: IDCompositionShadowEffect SetBlue methods (Dcomp.h)
 description: Sets the blue value for the color of the shadow.
 ms.assetid: 1ef324ce-8a62-ebca-45ca-3c92671dfaa3
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRasterizerVariable SetRasterizerState method
+title: ID3DX11EffectRasterizerVariable SetRasterizerState method (D3dx11effect.h)
 description: Sets the rasterizer state.
 ms.assetid: b2cd93fb-77bb-4a39-b686-7b8f683c9172
 keywords:

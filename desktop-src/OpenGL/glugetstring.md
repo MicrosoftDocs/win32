@@ -1,5 +1,5 @@
 ---
-title: gluGetString function
+title: gluGetString function (Glu.h)
 description: The gluGetString function gets a string that describes the GLU version number or supported GLU extension calls.
 ms.assetid: e6d9ce03-3218-4145-8bb5-3989afe62436
 keywords:

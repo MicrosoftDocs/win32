@@ -1,7 +1,7 @@
 ---
 Description: The FreeMediaType function deletes the format block in an AM\_MEDIA\_TYPE structure.
 ms.assetid: b7ec335e-518d-4aa6-8cde-8cb92184d0b0
-title: FreeMediaType function
+title: FreeMediaType function (Mtype.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

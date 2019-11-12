@@ -1,7 +1,7 @@
 ---
 Description: The GetPin method retrieves a pin.
 ms.assetid: 5d278ef0-e5ce-439e-93b1-fec988c55854
-title: CTransformFilter.GetPin method
+title: CTransformFilter.GetPin method (Transfrm.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

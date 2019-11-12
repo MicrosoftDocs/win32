@@ -1,5 +1,5 @@
 ---
-title: INapServerInfo interface
+title: INapServerInfo interface (NapServerManagement.h)
 description: Management clients (for example, WMI providers or command-line tools) use to query the status of the NAP server system.
 ms.assetid: 3c6d3f76-ea63-4cb2-bac7-e5668e50b7a7
 keywords:

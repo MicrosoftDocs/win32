@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_NOTIFYERROR message
+title: MCIWNDM_NOTIFYERROR message (Vfw.h)
 description: The MCIWNDM\_NOTIFYERROR message notifies the parent window of an application that an MCI error occurred.
 ms.assetid: 0f54886a-77dc-43cc-be46-2d322c75471a
 keywords:

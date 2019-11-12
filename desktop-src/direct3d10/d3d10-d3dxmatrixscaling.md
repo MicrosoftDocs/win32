@@ -1,7 +1,7 @@
 ---
 Description: Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
 ms.assetid: 1804bf41-26de-4be1-ad62-7a871d7408e6
-title: D3DXMatrixScaling function
+title: D3DXMatrixScaling function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

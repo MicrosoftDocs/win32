@@ -1,5 +1,5 @@
 ---
-title: MCI_STATUS_PARMS structure
+title: MCI_STATUS_PARMS structure (Mciapi.h)
 description: The MCI\_STATUS\_PARMS structure contains information for the MCI\_STATUS command.
 ms.assetid: c4897b34-4184-46aa-af17-2127edfbf82d
 keywords:

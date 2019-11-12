@@ -1,5 +1,5 @@
 ---
-title: ID2D1Factory CreateTransformedGeometry methods
+title: ID2D1Factory CreateTransformedGeometry methods (D2d1.h)
 description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
 ms.assetid: 71f26200-0f35-49d7-951d-2962768d16bc
 keywords:

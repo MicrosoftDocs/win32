@@ -1,7 +1,7 @@
 ---
 Description: The AddAfterI method inserts an item after the specified position.
 ms.assetid: 6da6c1ed-5f22-4364-b636-64b5a0ce1560
-title: CBaseList.AddAfterI method
+title: CBaseList.AddAfterI method (Wxlist.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

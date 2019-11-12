@@ -1,5 +1,5 @@
 ---
-title: WM_ASKCBFORMATNAME message
+title: WM_ASKCBFORMATNAME message (Winuser.h)
 description: Sent to the clipboard owner by a clipboard viewer window to request the name of a CF\_OWNERDISPLAY clipboard format.
 ms.assetid: eee026ec-58db-41b3-9705-30a17eebbd70
 keywords:

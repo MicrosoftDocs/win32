@@ -1,7 +1,7 @@
 ---
 Description: Requests a size and screen position for an appbar.
 ms.assetid: 061a30fb-a68a-464e-ad8c-0bda672b57d9
-title: ABM_QUERYPOS message
+title: ABM_QUERYPOS message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

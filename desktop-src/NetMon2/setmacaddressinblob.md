@@ -1,7 +1,7 @@
 ---
 Description: The SetMacAddressInBlob function sets the requested MAC address of a BLOB.
 ms.assetid: f44d0cec-ced7-4d2a-a58e-aeb476bfe800
-title: SetMacAddressInBlob function
+title: SetMacAddressInBlob function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: DTM_SETFORMAT message
+title: DTM_SETFORMAT message (Commctrl.h)
 description: Sets the display of a date and time picker (DTP) control based on a given format string. You can send this message explicitly or use the DateTime\_SetFormat macro.
 ms.assetid: a89fa3ad-9894-4c52-ab56-fb62208e39b3
 keywords:

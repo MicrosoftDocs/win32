@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectStringVariable GetString method
+title: ID3DX11EffectStringVariable GetString method (D3dx11effect.h)
 description: Get the string.
 ms.assetid: ce96ae18-d316-41ba-9b2a-eac084b86098
 keywords:

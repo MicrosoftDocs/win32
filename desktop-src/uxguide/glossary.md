@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Glossary (Design basics)
 description: A glossary of terms used in the UX guidelines for Windows desktop apps.
 ms.assetid: 9f35f9be-6165-4d98-a2e6-26fb4fc91eae
 ms.topic: article

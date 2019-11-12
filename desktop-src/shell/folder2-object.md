@@ -1,6 +1,6 @@
 ---
 Description: Extends the Folder object to support offline folders.
-title: Folder2 object
+title: Folder2 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

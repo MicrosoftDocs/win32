@@ -1,5 +1,5 @@
 ---
-title: WM_NCRBUTTONDOWN message
+title: WM_NCRBUTTONDOWN message (Winuser.h)
 description: Posted when the user presses the right mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: e75e6a65-afca-42c3-ac8b-f665c7534f2d
 keywords:

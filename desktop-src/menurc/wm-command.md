@@ -1,5 +1,5 @@
 ---
-title: WM_COMMAND message
+title: WM_COMMAND message (Winuser.h)
 description: Sent when the user selects a command item from a menu, when a control sends a notification message to its parent window, or when an accelerator keystroke is translated.
 ms.assetid: 5516098e-fd90-49c8-afb0-78164b028376
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The DbgSetModuleLevel function sets the logging level for one or more message types. Ignored in retail builds.
 ms.assetid: 89d25106-8018-4089-8b77-d3c87529e984
-title: DbgSetModuleLevel function
+title: DbgSetModuleLevel function (Wxdebug.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

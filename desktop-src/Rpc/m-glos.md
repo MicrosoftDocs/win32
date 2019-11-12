@@ -1,5 +1,5 @@
 ---
-title: M
+title: M (RPC)
 description: Words starting with M in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: bb846cbd-0930-4558-887f-cd942c509e74

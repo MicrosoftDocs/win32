@@ -1,6 +1,6 @@
 ---
 Description: Updates the Back, Next, and Finish buttons in the client's wizard frame.
-title: WebWizardHost.SetWizardButtons method
+title: WebWizardHost.SetWizardButtons method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

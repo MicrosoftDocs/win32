@@ -1,5 +1,5 @@
 ---
-title: EAP Related Error and Information Constants
+title: EAP Related Error and Information Constants (Eaphosterror.h)
 description: Individual groups of EAP related error and information constants common to all EAPHost API technologies.
 ms.assetid: 081b7a72-abe3-4cbb-9b6c-07bb6717fbfe
 topic_type:

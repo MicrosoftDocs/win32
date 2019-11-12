@@ -1,7 +1,7 @@
 ---
 Description: Pointer to a callback interface, which is called when samples are released.
 ms.assetid: 7a1fa8a9-3f0d-4185-9f2d-9c986f731072
-title: CBaseAllocator::m_pNotify member
+title: CBaseAllocator::m_pNotify member (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

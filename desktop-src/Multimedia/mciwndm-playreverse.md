@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_PLAYREVERSE message
+title: MCIWNDM_PLAYREVERSE message (Vfw.h)
 description: The MCIWNDM\_PLAYREVERSE message plays the current content in the reverse direction, beginning at the current position and ending at the beginning of the content or until another command stops playback.
 ms.assetid: 93a22454-eca6-453f-abbe-6cf20198dbad
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MPSCAN_RESOURCES structure
+title: MPSCAN_RESOURCES structure (MpClient.h)
 description: Resource information passed during a scan operation.
 ms.assetid: D97712A6-547D-44CC-B55D-039A5CCE20BF
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Copies the application protocol data unit (APDU) from the IByteBuffer (IStream) object into the APDU wrapped in this interface object.
 ms.assetid: 28dac222-ee7a-40aa-903b-e9c0b7757c9c
-title: ISCardCmd::put_Apdu method
+title: ISCardCmd::put_Apdu method (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

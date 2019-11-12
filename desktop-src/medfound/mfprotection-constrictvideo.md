@@ -1,7 +1,7 @@
 ---
 Description: Specifies to constrict video.
 ms.assetid: 2C976D71-DBEA-4669-AFA7-167207D45273
-title: MFPROTECTION_CONSTRICTVIDEO attribute
+title: MFPROTECTION_CONSTRICTVIDEO attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

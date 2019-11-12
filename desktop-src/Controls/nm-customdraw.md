@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMDRAW notification code
+title: NM_CUSTOMDRAW notification code (Commctrl.h)
 description: Notifies a control's parent window about custom drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2ca51ee0-4431-45c0-880c-a8b74318d8a9
 keywords:

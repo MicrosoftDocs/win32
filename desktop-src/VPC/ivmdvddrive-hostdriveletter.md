@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive HostDriveLetter property
+title: IVMDVDDrive HostDriveLetter property (VPCCOMInterfaces.h)
 description: The letter of the host drive set for this device.
 ms.assetid: e17f707f-e1cf-4302-a69e-caa5829df1af
 keywords:

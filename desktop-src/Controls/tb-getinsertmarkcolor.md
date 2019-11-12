@@ -1,5 +1,5 @@
 ---
-title: TB_GETINSERTMARKCOLOR message
+title: TB_GETINSERTMARKCOLOR message (Commctrl.h)
 description: Retrieves the color used to draw the insertion mark for the toolbar.
 ms.assetid: 52915dc6-a45c-4f3b-aa9b-99a23d423e59
 keywords:

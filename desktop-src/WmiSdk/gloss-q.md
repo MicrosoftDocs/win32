@@ -3,7 +3,7 @@ Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: 356b5ee1-0027-4b68-94da-fa92cbf9dd98
 ms.tgt_platform: multiple
-title: Q
+title: Q (WMI)
 ms.topic: article
 ms.date: 05/31/2018
 ---

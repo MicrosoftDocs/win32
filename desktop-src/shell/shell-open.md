@@ -1,7 +1,7 @@
 ---
 Description: Opens the specified folder.
 ms.assetid: 96ed9360-fb8f-4f7e-aefb-4a63ec95df07
-title: Shell.Open method
+title: Shell.Open method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the decoder should use frame interpolation.
 ms.assetid: e7e2d585-73eb-420d-b1db-2386449dd8a8
-title: MFPKEY_FI_ENABLED PROPERTY
+title: MFPKEY_FI_ENABLED PROPERTY (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

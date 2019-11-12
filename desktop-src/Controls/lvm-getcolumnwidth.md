@@ -1,5 +1,5 @@
 ---
-title: LVM_GETCOLUMNWIDTH message
+title: LVM_GETCOLUMNWIDTH message (Commctrl.h)
 description: Gets the width of a column in report or list view. You can send this message explicitly or by using the ListView\_GetColumnWidth macro.
 ms.assetid: 06e8ec36-3bc5-4516-ac29-17c36fb6d962
 keywords:

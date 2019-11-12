@@ -2,7 +2,7 @@
 Description: The following terms are useful in understanding the TAPI technology.
 Robots: noindex, nofollow
 ms.assetid: 945c16bf-e835-4759-93d1-4e27080ac873
-title: V
+title: V (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---

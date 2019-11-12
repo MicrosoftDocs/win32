@@ -1,7 +1,7 @@
 ---
 Description: The get\_VideoWidth method retrieves the width of the native video.
 ms.assetid: dfd897f0-f580-44c0-9445-ba61ae267187
-title: CBaseControlVideo.get_VideoWidth method
+title: CBaseControlVideo.get_VideoWidth method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

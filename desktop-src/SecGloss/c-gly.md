@@ -2,7 +2,7 @@
 Description: Contains definitions of security terms that begin with the letter C.
 Robots: noindex, nofollow
 ms.assetid: db46def4-bfdc-4801-a57d-d568e94a2dbb
-title: C
+title: C (Security Glossary)
 ms.topic: article
 ms.date: 05/31/2018
 ---

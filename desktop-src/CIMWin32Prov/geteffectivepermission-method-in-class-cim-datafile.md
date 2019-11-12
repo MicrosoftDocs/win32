@@ -2,7 +2,7 @@
 Description: Determines whether the caller has the aggregated permissions on the CIM\_DataFile object, and the share on which the file or directory resides, as specified by the Permission argument. This method is inherited from CIM\_LogicalFile.
 ms.assetid: 57eadc2e-36ef-4d3c-932f-6f7fafb2b9a4
 ms.tgt_platform: multiple
-title: GetEffectivePermission method of the CIM_DataFile class
+title: GetEffectivePermission method of the CIM_DataFile class (Aclui.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

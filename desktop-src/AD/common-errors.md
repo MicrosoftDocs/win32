@@ -1,5 +1,5 @@
 ---
-title: Common Errors
+title: Common Errors (AD DS)
 description: The following table contains a list of common errors that can occur based on the scope of the group being nested.
 ms.assetid: 844d4280-a943-4906-b0c6-0c650ef9c114
 ms.tgt_platform: multiple

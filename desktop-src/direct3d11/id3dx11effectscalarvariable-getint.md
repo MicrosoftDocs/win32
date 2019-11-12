@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable GetInt method
+title: ID3DX11EffectScalarVariable GetInt method (D3dx11effect.h)
 description: Get an integer variable.
 ms.assetid: 82a5a7a5-17cb-4e5e-ae4e-57c0ff9757c5
 keywords:

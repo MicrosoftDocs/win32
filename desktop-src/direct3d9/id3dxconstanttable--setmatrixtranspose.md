@@ -1,7 +1,7 @@
 ---
 Description: Sets a transposed matrix.
 ms.assetid: 1c4d64ce-64bd-47d4-9912-879f4834c0e8
-title: ID3DXConstantTable::SetMatrixTranspose method
+title: ID3DXConstantTable::SetMatrixTranspose method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

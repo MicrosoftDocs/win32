@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether a stream contains protected content.
 ms.assetid: 1c1a201c-4b55-4b86-a08f-d06c1a7db29d
-title: MF_SD_PROTECTED attribute
+title: MF_SD_PROTECTED attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

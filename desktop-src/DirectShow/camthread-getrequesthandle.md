@@ -1,7 +1,7 @@
 ---
 Description: The GetRequestHandle method retrieves a handle to the event that is signaled by the CAMThread::CallWorker method.
 ms.assetid: 6e4496ae-a635-4b55-ae7a-31748f21068b
-title: CAMThread.GetRequestHandle method
+title: CAMThread.GetRequestHandle method (Wxutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

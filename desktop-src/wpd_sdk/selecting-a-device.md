@@ -1,7 +1,7 @@
 ---
 Description: Selecting a Device
 ms.assetid: d1fc9608-5256-4c58-b77e-9dbe46a6abc5
-title: Selecting a Device
+title: Selecting a Device (WPD API)
 ms.topic: article
 ms.date: 05/31/2018
 ---

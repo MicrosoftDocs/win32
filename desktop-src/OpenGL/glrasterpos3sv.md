@@ -1,5 +1,5 @@
 ---
-title: glRasterPos3sv function
+title: glRasterPos3sv function (Gl.h)
 description: Specifies the raster position for pixel operations.
 ms.assetid: 7b9dcc0c-8d86-4435-8e21-798dbca613fd
 keywords:

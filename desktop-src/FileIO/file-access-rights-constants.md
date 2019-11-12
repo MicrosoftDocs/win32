@@ -1,7 +1,7 @@
 ---
 Description: Lists the access rights that are specific to files and directories.
 ms.assetid: c534e853-b61f-414d-befe-8d3c4bf08d22
-title: File Access Rights Constants
+title: File Access Rights Constants (WinNT.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

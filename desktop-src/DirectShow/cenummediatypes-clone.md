@@ -1,7 +1,7 @@
 ---
 Description: The Clone method makes a copy of the enumerator with the same enumeration state. This method implements the IEnumMediaTypes::Clone method.
 ms.assetid: 3b4eb29e-48fc-4f00-a5f3-597b9aa94ce1
-title: CEnumMediaTypes.Clone method
+title: CEnumMediaTypes.Clone method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

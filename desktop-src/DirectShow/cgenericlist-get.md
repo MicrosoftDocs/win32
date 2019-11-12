@@ -1,7 +1,7 @@
 ---
 Description: The Get method retrieves the item at the specified position.
 ms.assetid: cafa4083-96e6-4ed3-afbc-5828b7f1c5be
-title: CGenericList.Get method
+title: CGenericList.Get method (Wxlist.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

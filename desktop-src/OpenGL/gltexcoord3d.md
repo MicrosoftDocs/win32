@@ -1,5 +1,5 @@
 ---
-title: glTexCoord3d function
+title: glTexCoord3d function (Gl.h)
 description: Sets the current texture coordinates.
 ms.assetid: 41b8aa69-c069-493f-a1e3-51cf6a01209e
 keywords:

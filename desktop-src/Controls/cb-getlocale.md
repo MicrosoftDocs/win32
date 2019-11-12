@@ -1,5 +1,5 @@
 ---
-title: CB_GETLOCALE message
+title: CB_GETLOCALE message (Winuser.h)
 description: Gets the current locale of the combo box. The locale is used to determine the correct sorting order of displayed text for combo boxes with the CBS\_SORT style and text added by using the CB\_ADDSTRING message.
 ms.assetid: 57c77ce2-bad0-43f3-8325-f2a7227994ec
 keywords:

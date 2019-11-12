@@ -1,5 +1,5 @@
 ---
-title: N
+title: N (RPC)
 description: Words starting with N in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: b004002f-ae52-4ae8-a570-19241bfcee51

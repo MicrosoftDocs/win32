@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob SetPriority method
+title: IBackgroundCopyJob SetPriority method (Deliveryoptimization.h)
 description: Specifies the priority level of your job. The priority level determines when your job is processed relative to other jobs in the transfer queue.
 ms.assetid: DC943093-CA1D-4840-B7AC-29710764D4E5
 keywords:

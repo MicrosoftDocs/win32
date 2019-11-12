@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_DETECTION enumeration
+title: MPTHREAT_DETECTION enumeration (MpClient.h)
 description: Possible known bad threat detection types.
 ms.assetid: 14FCA9BD-A9A1-488B-B8E8-88DE0DF18F27
 keywords:

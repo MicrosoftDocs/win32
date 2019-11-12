@@ -1,7 +1,7 @@
 ---
 Description: Verify that the version of D3DX you compiled with is the version that you are running.
 ms.assetid: 57085b07-f77b-425e-a889-22c3071d7143
-title: D3DX10CheckVersion function
+title: D3DX10CheckVersion function (D3DX10Core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

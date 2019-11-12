@@ -1,5 +1,5 @@
 ---
-title: DRV_LOAD message
+title: DRV_LOAD message (Mmsystem.h)
 description: Notifies the driver that it has been loaded. The driver should make sure that any hardware and supporting drivers it needs to function properly are present.
 ms.assetid: f3642d91-cea8-499d-8d2e-bf01a59a7d72
 keywords:

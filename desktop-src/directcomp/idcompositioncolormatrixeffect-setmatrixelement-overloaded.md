@@ -1,5 +1,5 @@
 ---
-title: idcompositioncolormatrixeffect SetMatrixElement methods
+title: idcompositioncolormatrixeffect SetMatrixElement methods (Dcomp.h)
 description: Sets an element of the color matrix.
 ms.assetid: 47fd4fa3-d10f-7750-c7ef-fd03e8cf933a
 keywords:

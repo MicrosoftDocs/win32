@@ -1,5 +1,5 @@
 ---
-title: Authentication Level Constants
+title: Authentication Level Constants (Rpcdce.h)
 description: These values specify an authentication level, which indicates the amount of authentication provided to help protect the integrity of the data. Each level includes the protection provided by the previous levels.
 ms.assetid: 06c409e4-3772-45cf-8c31-c64f99aca244
 topic_type:

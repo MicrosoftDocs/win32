@@ -1,5 +1,5 @@
 ---
-title: TB_GETBUTTONTEXT message
+title: TB_GETBUTTONTEXT message (Commctrl.h)
 description: Retrieves the display text of a button on a toolbar.
 ms.assetid: 16dd7181-a404-4056-b084-05f49f5a4b14
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IRDVTaskPluginNotifySink OnTerminated method
+title: IRDVTaskPluginNotifySink OnTerminated method (Sbtsv.h)
 description: Called by the task agent to request that the task agent be shut down.
 ms.assetid: 163e0ce5-f4ee-4242-bdbb-977c5ede3451
 ms.tgt_platform: multiple

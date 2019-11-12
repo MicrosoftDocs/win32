@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectInterfaceVariable SetClassInstance method
+title: ID3DX11EffectInterfaceVariable SetClassInstance method (D3dx11effect.h)
 description: Sets a class instance.
 ms.assetid: fc71a0d2-054a-48ed-86a5-54cf0017062a
 keywords:

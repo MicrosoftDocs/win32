@@ -1,7 +1,7 @@
 ---
 Description: Gets the size of the rectangle patch.
 ms.assetid: d25373ef-789d-4515-83da-7049f040c9a4
-title: D3DXRectPatchSize function
+title: D3DXRectPatchSize function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

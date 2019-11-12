@@ -1,7 +1,7 @@
 ---
 Description: Specifies the intended lighting conditions for viewing the input video.
 ms.assetid: 718a6d56-c869-4340-bbb8-cac5b231c37e
-title: AVEncVideoInputColorLighting property
+title: AVEncVideoInputColorLighting property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

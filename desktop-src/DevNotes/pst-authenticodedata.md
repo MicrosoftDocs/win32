@@ -1,7 +1,7 @@
 ---
 Description: Defines data to be used in Microsoft Authenticode verification of item data.
 ms.assetid: 73c0e84f-7d59-4efa-927d-af8d7305bc9d
-title: PST_AUTHENTICODEDATA structure
+title: PST_AUTHENTICODEDATA structure (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

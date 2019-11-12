@@ -1,5 +1,5 @@
 ---
-title: TriggerCollection object
+title: TriggerCollection object (Windows.ui.xaml.h)
 description: Scripting object that is used to add to, remove from, and retrieve the triggers of a task.
 ms.assetid: '25d89451-48b6-4ed9-9abd-19d7e8bc1fea'
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_DRIVER_GET_NAME message
+title: WM_CAP_DRIVER_GET_NAME message (Vfw.h)
 description: The WM\_CAP\_DRIVER\_GET\_NAME message returns the name of the capture driver connected to the capture window. You can send this message explicitly or by using the capDriverGetName macro.
 ms.assetid: 84cecaf1-e0ff-424f-8c10-8bfe5cc2e7ea
 keywords:

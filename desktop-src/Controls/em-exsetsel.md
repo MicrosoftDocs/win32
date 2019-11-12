@@ -1,5 +1,5 @@
 ---
-title: EM_EXSETSEL message
+title: EM_EXSETSEL message (Richedit.h)
 description: Selects a range of characters or Component Object Model (COM) objects in a Microsoft Rich Edit control.
 ms.assetid: 85a0d1d4-1826-4ac5-b823-de81a051441d
 keywords:

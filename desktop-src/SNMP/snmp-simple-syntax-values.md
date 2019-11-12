@@ -1,5 +1,5 @@
 ---
-title: SNMP Simple Syntax Values
+title: SNMP Simple Syntax Values (Snmp.h)
 description: The SNMP Simple Syntax Values are used to indicate an SNMP variable type.
 ms.assetid: 42b681e5-721d-4d41-bc1a-c9f0005cde87
 topic_type:

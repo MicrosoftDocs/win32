@@ -1,7 +1,7 @@
 ---
 Description: The QueueSample method queues a sample.
 ms.assetid: f34c0689-5afb-4941-bc3a-e4765fbbe525
-title: COutputQueue.QueueSample method
+title: COutputQueue.QueueSample method (Outputq.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

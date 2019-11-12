@@ -1,5 +1,5 @@
 ---
-title: Authorization Functions
+title: Authorization Functions (RPC)
 description: Each time a server program receives a client request for access to one of the management remote procedures, the RPC run-time library invokes a default authorization function.
 ms.assetid: e3edbf6f-2876-49ac-a93e-14fd0b5adf53
 ms.topic: article

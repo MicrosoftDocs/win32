@@ -1,5 +1,5 @@
 ---
-title: glInitNames function
+title: glInitNames function (Gl.h)
 description: The glInitNames function initializes the name stack.
 ms.assetid: 26c134f5-c17c-4637-93b6-5293f316dd6c
 keywords:

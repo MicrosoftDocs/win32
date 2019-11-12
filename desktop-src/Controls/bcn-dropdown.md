@@ -1,5 +1,5 @@
 ---
-title: BCN_DROPDOWN notification code
+title: BCN_DROPDOWN notification code (Winuser.h)
 description: Sent when the user clicks a drop down arrow on a button. The parent window of the control receives this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 61503b8d-193e-4855-b9eb-35c0dc636c02
 keywords:

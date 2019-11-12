@@ -1,7 +1,7 @@
 ---
 Description: The FlushPrinter function sends a buffer to the printer in order to clear it from a transient state.
 ms.assetid: 08e54175-da68-4ebd-91ec-8f4525f49d30
-title: FlushPrinter function
+title: FlushPrinter function (Winspool.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

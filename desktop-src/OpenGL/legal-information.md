@@ -1,5 +1,5 @@
 ---
-title: Legal Information
+title: Legal Information (OpenGL)
 description: Information in this document, including URL and other Internet Web site references, is subject to change without notice.
 ms.assetid: c17525c3-b438-4529-abf7-a55f532398f8
 keywords:

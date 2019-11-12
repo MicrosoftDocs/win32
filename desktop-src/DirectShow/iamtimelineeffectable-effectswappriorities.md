@@ -1,7 +1,7 @@
 ---
 Description: The EffectSwapPriorities method switches the priority levels of two effects.
 ms.assetid: ff5ab294-3963-4df7-9299-ee7c7165e72f
-title: IAMTimelineEffectable::EffectSwapPriorities method
+title: IAMTimelineEffectable::EffectSwapPriorities method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

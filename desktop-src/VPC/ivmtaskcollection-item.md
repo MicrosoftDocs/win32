@@ -1,5 +1,5 @@
 ---
-title: IVMTaskCollection Item property
+title: IVMTaskCollection Item property (VPCCOMInterfaces.h)
 description: Retrieves the task object that corresponds to the specified index.
 ms.assetid: e4738b7a-12d6-4aed-992d-2f70c5cdd4d0
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Manages the application's side of the Text Input Panel auto complete integration.
 ms.assetid: 02601258-d867-4c01-b094-bf9ff96d2f6e
-title: ITipAutocompleteProvider interface
+title: ITipAutocompleteProvider interface (TipAutoComplete.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Using Video Codec Private Data
 ms.assetid: 0cc24fe4-a5b6-4805-8c8e-3066d12ec4bd
-title: Using Video Codec Private Data
+title: Using Video Codec Private Data (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---

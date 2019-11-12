@@ -1,7 +1,7 @@
 ---
 Description: Unmap a buffer.
 ms.assetid: 47f125cd-5c0a-4814-93c5-f2f11ce33ea6
-title: ID3DX10MeshBuffer::Unmap method
+title: ID3DX10MeshBuffer::Unmap method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

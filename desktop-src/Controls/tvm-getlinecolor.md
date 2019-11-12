@@ -1,5 +1,5 @@
 ---
-title: TVM_GETLINECOLOR message
+title: TVM_GETLINECOLOR message (Commctrl.h)
 description: The TVM\_GETLINECOLOR message gets the current line color.
 ms.assetid: e74441b3-5d4f-4454-b896-2e96ce649419
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable interface
+title: ID3DX11EffectShaderVariable interface (D3dx11effect.h)
 description: A shader-variable interface accesses a shader variable.
 ms.assetid: e547a5e9-7b60-4a85-806d-272be55d12e7
 keywords:

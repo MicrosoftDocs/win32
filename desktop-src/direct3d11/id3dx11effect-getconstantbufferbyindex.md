@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetConstantBufferByIndex method
+title: ID3DX11Effect GetConstantBufferByIndex method (D3dx11effect.h)
 description: Get a constant buffer by index.
 ms.assetid: 146b146b-89ff-4d56-9ac7-e67a92a30e26
 keywords:

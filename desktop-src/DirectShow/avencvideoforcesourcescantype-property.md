@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the input frames are progressive or interlaced.
 ms.assetid: 59aeb20a-5e8b-4e27-8e69-9f373ff45b27
-title: AVEncVideoForceSourceScanType property
+title: AVEncVideoForceSourceScanType property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

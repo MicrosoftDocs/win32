@@ -1,7 +1,7 @@
 ---
 Description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any. This method implements the IPin::ConnectionMediaType method.
 ms.assetid: 57d100ba-4171-4caa-ab98-66a0a327a53b
-title: CBasePin.ConnectionMediaType method
+title: CBasePin.ConnectionMediaType method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

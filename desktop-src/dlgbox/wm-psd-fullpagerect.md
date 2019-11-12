@@ -1,5 +1,5 @@
 ---
-title: WM_PSD_FULLPAGERECT message
+title: WM_PSD_FULLPAGERECT message (Commdlg.h)
 description: Notifies a PagePaintHook hook procedure of the coordinates of the sample page rectangle in the Page Setup dialog box. The dialog box sends this message when it is about to draw the contents of the sample page.
 ms.assetid: 88ca1d60-3335-480a-b874-c6f248a3c23a
 keywords:

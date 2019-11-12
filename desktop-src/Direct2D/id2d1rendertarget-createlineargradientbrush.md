@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget CreateLinearGradientBrush methods
+title: ID2D1RenderTarget CreateLinearGradientBrush methods (D2d1.h)
 description: Creates an ID2D1LinearGradientBrush object for painting areas with a linear gradient.
 ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0
 keywords:

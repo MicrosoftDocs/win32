@@ -1,5 +1,5 @@
 ---
-title: XTYP_CONNECT transaction
+title: XTYP_CONNECT transaction (Ddeml.h)
 description: A client uses the XTYP\_CONNECT transaction to establish a conversation.
 ms.assetid: 74f43b10-f7ac-4370-9caa-7b9ddf3413ed
 keywords:

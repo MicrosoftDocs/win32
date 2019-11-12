@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_NOTIFYMODE message
+title: MCIWNDM_NOTIFYMODE message (Vfw.h)
 description: The MCIWNDM\_NOTIFYMODE message notifies the parent window of an application that the operating mode of the MCI device has changed.
 ms.assetid: 08adfa8b-4d88-4953-acd8-8a4728f9e1b6
 keywords:

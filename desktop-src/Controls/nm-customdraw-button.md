@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMDRAW (button) notification code
+title: NM_CUSTOMDRAW (button) notification code (Commctrl.h)
 description: Notifies the parent window of a button control about custom draw operations on the button. The button control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: cabe5515-ba64-4c53-8746-7a0559df8989
 keywords:

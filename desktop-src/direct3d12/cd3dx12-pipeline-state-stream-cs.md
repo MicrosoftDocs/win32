@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_CS structure
+title: CD3DX12_PIPELINE_STATE_STREAM_CS structure (D3dx12.h)
 description: A helper structure used to describe a compute shader as a single object suitable for a stream description.
 ms.assetid: B76B0CB4-FC76-4C5B-84FC-DCFF907BE2F8
 keywords:

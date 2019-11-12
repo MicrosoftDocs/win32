@@ -1,7 +1,7 @@
 ---
 Description: The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, and mirroring.
 ms.assetid: 1476995A-9692-4B08-8EF7-7DB6321BEC24
-title: Video Processor MFT
+title: Video Processor MFT (Camerauicontrol.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the GUID of the object's template. Deprecated.
 ms.assetid: bb4a4a32-a9e7-4caa-869d-24cfb310d8d1
-title: IDirectXFileData::GetType method
+title: IDirectXFileData::GetType method (DXFile.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

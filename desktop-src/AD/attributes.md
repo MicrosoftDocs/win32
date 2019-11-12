@@ -1,5 +1,5 @@
 ---
-title: Attributes
+title: Attributes (AD DS)
 description: Each object in Active Directory Domain Services contains a set of attributes that define the characteristics of the object.
 ms.assetid: 9efa7ae1-b6a9-4b95-b031-b502772c536c
 ms.tgt_platform: multiple

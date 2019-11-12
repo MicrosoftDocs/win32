@@ -1,5 +1,5 @@
 ---
-title: WINBIO_FRAMEWORK_CHANGE Constants
+title: WINBIO_FRAMEWORK_CHANGE Constants (Winbio\_types.h)
 description: Identify the type of change that occurred in the framework.
 ms.assetid: 826CE4D7-236D-42ED-9888-3898A5057032
 topic_type:

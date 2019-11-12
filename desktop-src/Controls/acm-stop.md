@@ -1,5 +1,5 @@
 ---
-title: ACM_STOP message
+title: ACM_STOP message (Commctrl.h)
 description: Stops playing an AVI clip in an animation control. You can send this message explicitly or by using the Animate\_Stop macro.
 ms.assetid: ba39a579-665e-4d45-8f1f-f190acd76db7
 keywords:

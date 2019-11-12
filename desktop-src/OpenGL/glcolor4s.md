@@ -1,5 +1,5 @@
 ---
-title: glColor4s function
+title: glColor4s function (Gl.h)
 description: Sets the current color.
 ms.assetid: a942e308-8507-4afe-8941-2b9c7e39bb3d
 keywords:

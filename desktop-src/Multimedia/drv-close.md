@@ -1,5 +1,5 @@
 ---
-title: DRV_CLOSE message
+title: DRV_CLOSE message (Mmsystem.h)
 description: Directs the driver to close the given instance. If no other instances are open, the driver should prepare for subsequent release from memory.
 ms.assetid: 98d7fe47-5194-4912-a9d6-3af3d1fa4e60
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: VMDisplayVideoMode enumeration
+title: VMDisplayVideoMode enumeration (VPCCOMInterfaces.h)
 description: Specifies the display video mode.
 ms.assetid: 9ffd1bb5-115d-4554-92c6-5dcf86f904a5
 keywords:

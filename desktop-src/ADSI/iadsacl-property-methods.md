@@ -1,5 +1,5 @@
 ---
-title: IADsAcl Property Methods
+title: IADsAcl Property Methods (Iads.h)
 description: The property method of the IADsAcl interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: eb4786d7-d366-4924-8255-dc28ea47a246
 ms.tgt_platform: multiple

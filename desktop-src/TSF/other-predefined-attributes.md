@@ -1,5 +1,5 @@
 ---
-title: Other Predefined Attributes
+title: Other Predefined Attributes (TsAttrid.h)
 description: The following values identify miscellaneous attributes obtained with the ITfContext GetAppProperty method. The data format and contents of each property type are included.
 ms.assetid: 8536938b-98a1-415b-b5f2-45b90215c270
 keywords:

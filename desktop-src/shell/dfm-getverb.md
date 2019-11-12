@@ -1,6 +1,6 @@
 ---
 Description: Sent by the default context menu implementation to get the verb for the given command ID in the context menu.
-title: DFM_GETVERB message
+title: DFM_GETVERB message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: bd12a38e-4d50-43ad-9d1f-8fefa90b44f9

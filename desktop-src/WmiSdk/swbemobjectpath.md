@@ -2,7 +2,7 @@
 Description: Use the methods and properties of the SWbemObjectPath object to construct and validate an object path. This object can be created by the VBScript CreateObject call.
 ms.assetid: f2cf489d-d2a9-4926-84cf-fb33fe3d726a
 ms.tgt_platform: multiple
-title: SWbemObjectPath object
+title: SWbemObjectPath object (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Enables a transport application to query a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain attributes of a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: 67bc087f-7519-4c8a-9b34-b3ecd306a334
-title: QueryContextAttributes (General) function
+title: QueryContextAttributes (General) function (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
 ---

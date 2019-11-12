@@ -1,5 +1,5 @@
 ---
-title: Directory Service Functions
+title: Directory Service Functions (AD DS)
 description: The directory service functions provide a utility for locating a domain controller (DC) in a Windows NT or Windows 2000 domain.
 ms.assetid: 7b519c81-5a6c-470a-a525-1894efd53305
 ms.tgt_platform: multiple

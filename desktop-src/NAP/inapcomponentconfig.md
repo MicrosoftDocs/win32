@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig interface
+title: INapComponentConfig interface (NapCommon.h)
 description: Provides NAP system configuration methods for system health validators (SHVs).
 ms.assetid: 979b5c34-8efe-4c48-8236-53fbd25d4249
 keywords:

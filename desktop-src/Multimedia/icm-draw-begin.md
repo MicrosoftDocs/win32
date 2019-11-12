@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_BEGIN message
+title: ICM_DRAW_BEGIN message (Vfw.h)
 description: The ICM\_DRAW\_BEGIN message notifies a rendering driver to prepare to draw data.
 ms.assetid: e5ecd7dd-376b-422c-bbb8-4e7c41e3cac8
 keywords:

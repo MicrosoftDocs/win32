@@ -1,7 +1,7 @@
 ---
 Description: Defines font attributes.
 ms.assetid: 66e8a320-2b83-4766-a9a7-5571ee6c9f2a
-title: D3DX10_FONT_DESC structure
+title: D3DX10_FONT_DESC structure (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

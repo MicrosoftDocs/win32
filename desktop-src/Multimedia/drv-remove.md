@@ -1,5 +1,5 @@
 ---
-title: DRV_REMOVE message
+title: DRV_REMOVE message (Mmsystem.h)
 description: Notifies the driver that it is about to be removed from the system. When a driver receives this message, it should remove any sections it created in the registry.
 ms.assetid: e4f6ce7c-29e5-4256-b08a-13571256207c
 keywords:

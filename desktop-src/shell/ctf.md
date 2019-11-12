@@ -1,6 +1,6 @@
 ---
 Description: Flags that control the calling function's behavior. Used by SHCreateThread and SHCreateThreadWithHandle. In those functions, these values are defined as being of type SHCT\_FLAGS.
-title: CTF Flags
+title: CTF Flags (Shlwapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 66cda866-7a39-4c5a-a795-a4c5c64cbab7

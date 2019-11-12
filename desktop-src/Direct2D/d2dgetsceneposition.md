@@ -1,5 +1,5 @@
 ---
-title: D2DGetScenePosition function
+title: D2DGetScenePosition function (D2d1effecthelpers.h)
 description: Returns the value of the input SCENE\_POSITION. Only available when D2D\_REQUIRES\_SCENE\_POSITION is declared in the source file.
 ms.assetid: 451E4C31-D93D-44B6-81D1-AC5FD986ACBD
 keywords:

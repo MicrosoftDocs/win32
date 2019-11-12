@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_EJECT message
+title: MCIWNDM_EJECT message (Vfw.h)
 description: The MCIWNDM\_EJECT message sends a command to an MCI device to eject its media. You can send this message explicitly or by using the MCIWndEject macro.
 ms.assetid: a492f504-8b58-480e-9766-bc2878466c44
 keywords:

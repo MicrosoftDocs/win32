@@ -1,7 +1,7 @@
 ---
 Description: Describes a JPEG AC huffman table.
 ms.assetid: E1923FFA-E7E5-4158-9793-3E7F5A6EA7FA
-title: DXGI_JPEG_AC_HUFFMAN_TABLE structure
+title: DXGI_JPEG_AC_HUFFMAN_TABLE structure (Dxgitype.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

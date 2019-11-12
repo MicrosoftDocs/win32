@@ -1,5 +1,5 @@
 ---
-title: MCM_GETCOLOR message
+title: MCM_GETCOLOR message (Commctrl.h)
 description: Retrieves the color for a given portion of a month calendar control. You can send this message explicitly or by using the MonthCal\_GetColor macro.
 ms.assetid: 6c30ad0d-7584-402a-9c27-3c12c49c87f3
 keywords:

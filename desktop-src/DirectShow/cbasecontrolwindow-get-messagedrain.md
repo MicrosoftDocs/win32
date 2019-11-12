@@ -1,7 +1,7 @@
 ---
 Description: The get\_MessageDrain method retrieves the current message drain.
 ms.assetid: d679e7f7-4628-479b-b722-843cdd91ffe6
-title: CBaseControlWindow.get_MessageDrain method
+title: CBaseControlWindow.get_MessageDrain method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

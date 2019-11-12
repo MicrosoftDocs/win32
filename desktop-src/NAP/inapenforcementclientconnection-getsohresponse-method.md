@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetSoHResponse method
+title: INapEnforcementClientConnection GetSoHResponse method (NapEnforcementClient.h)
 description: Gets the SoH-Response received by the enforcement client.
 ms.assetid: fc0084a3-a668-435e-8390-f322941c5cd4
 keywords:

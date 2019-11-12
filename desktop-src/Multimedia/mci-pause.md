@@ -1,5 +1,5 @@
 ---
-title: MCI_PAUSE command
+title: MCI_PAUSE command (Mmsystem.h)
 description: The MCI\_PAUSE command pauses the current action. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
 ms.assetid: c4d0b0a2-cd7b-4641-a318-eb4b4e88b70f
 keywords:

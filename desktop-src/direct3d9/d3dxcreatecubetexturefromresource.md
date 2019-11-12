@@ -1,7 +1,7 @@
 ---
 Description: Creates a cube texture from a resource.
 ms.assetid: 9153944a-af8b-4365-9e91-fc1136a84caa
-title: D3DXCreateCubeTextureFromResource function
+title: D3DXCreateCubeTextureFromResource function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_WHEEL
+title: WMT_VIDEOIMAGE_TRANSITION_WHEEL (Wmsdkidl.h)
 description: The wheel transition reveals the new image by rotating four lines around a common pivot point, like the spokes of a wheel.
 ms.assetid: 426217be-789b-4b78-b0ea-de9629ecd46c
 keywords:

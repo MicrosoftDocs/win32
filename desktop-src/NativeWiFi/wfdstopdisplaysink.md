@@ -1,7 +1,7 @@
 ---
 Description: Stops the Miracast sink mode, turns off discoverability, and un-registers the callback.
 ms.assetid: 38AE60CB-F601-4C03-A725-9B802341B84B
-title: WFDDisplaySinkStop function
+title: WFDDisplaySinkStop function (Wfdsink.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

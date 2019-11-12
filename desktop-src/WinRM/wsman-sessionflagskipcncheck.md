@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagSkipCNCheck method
+title: WSMan.SessionFlagSkipCNCheck method (WSManDisp.h)
 description: Returns the value of the WSManFlagSkipCNCheck authentication flag for use in the flags parameter of WSMan.CreateSession.
 ms.assetid: 44884a9d-ec5f-4822-945d-2681d214a902
 ms.tgt_platform: multiple

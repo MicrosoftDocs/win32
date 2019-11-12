@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS Logoff method
+title: IVMGuestOS Logoff method (VPCCOMInterfaces.h)
 description: Logs off all users from the guest operating system.
 ms.assetid: 224aa7cb-0892-4e8a-84bd-78dd5cb724df
 keywords:

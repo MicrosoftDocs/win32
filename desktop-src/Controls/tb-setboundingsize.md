@@ -1,5 +1,5 @@
 ---
-title: TB_SETBOUNDINGSIZE message
+title: TB_SETBOUNDINGSIZE message (Commctrl.h)
 description: Sets the bounding size for a multi-column toolbar control.
 ms.assetid: f406d9e3-1c40-4317-8cf1-51706f4c6adf
 keywords:

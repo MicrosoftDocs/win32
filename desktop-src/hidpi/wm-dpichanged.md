@@ -1,5 +1,5 @@
 ---
-title: WM_DPICHANGED message
+title: WM_DPICHANGED message (WinUser.h)
 description: Sent when the effective dots per inch (dpi) for a window has changed.
 ms.assetid: 97C458F2-89CD-45FF-ABEE-F158A3BCE0B8
 keywords:

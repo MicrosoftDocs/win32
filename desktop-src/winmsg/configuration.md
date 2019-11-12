@@ -1,7 +1,7 @@
 ---
 Description: Configuration
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
-title: Configuration
+title: Configuration (Windows and Messages)
 ms.topic: article
 ms.date: 05/31/2018
 ---

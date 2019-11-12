@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd EnumSoftKeyboard method
+title: ISoftKbd EnumSoftKeyboard method (Softkbdc.h)
 description: The ISoftKbd EnumSoftKeyboard method enumerates the possible soft keyboards that support the specified language.
 ms.assetid: c71f99e5-c4c2-4b09-a58f-d3f4348d0c5d
 keywords:

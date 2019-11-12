@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetDisplayName method
+title: IBackgroundCopyJob GetDisplayName method (Deliveryoptimization.h)
 description: Retrieves the display name for the job. Typically, you use the display name to identify the job in a user interface.
 ms.assetid: E3D906E1-5D58-4BA8-A3AB-24BCDCD487F5
 keywords:

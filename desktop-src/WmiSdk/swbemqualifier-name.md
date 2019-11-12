@@ -2,7 +2,7 @@
 Description: The Name property of the SWbemQualifier object defines the name of this qualifier. This property is read-only.
 ms.assetid: c0e0b0fb-8c79-4da1-8706-a9b785431e49
 ms.tgt_platform: multiple
-title: SWbemQualifier.Name property
+title: SWbemQualifier.Name property (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

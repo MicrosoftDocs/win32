@@ -1,5 +1,5 @@
 ---
-title: EN_VSCROLL notification code
+title: EN_VSCROLL notification code (Winuser.h)
 description: Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control.
 ms.assetid: 46307dee-3c5c-4020-9c2b-ec4638a0cea5
 keywords:

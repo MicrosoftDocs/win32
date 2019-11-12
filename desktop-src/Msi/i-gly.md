@@ -1,7 +1,7 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ms.assetid: b8e0a14f-ebdc-4b8f-a884-f6276dccda49
-title: I
+title: I (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: glMatrixMode function
+title: glMatrixMode function (Gl.h)
 description: The glMatrixMode function specifies which matrix is the current matrix.
 ms.assetid: f1006ea3-322a-42a9-b33c-6c7181985ef9
 keywords:

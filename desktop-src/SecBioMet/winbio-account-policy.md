@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ACCOUNT_POLICY structure
+title: WINBIO_ACCOUNT_POLICY structure (Winbio\_adapter.h)
 description: Contains either a default or account-specific antispoofing policy.
 ms.assetid: 7098FC53-E487-42B2-8B4B-EB7E2D296CB6
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Implements the IStrokeBuilder Interface.
 ms.assetid: 0d699089-b913-4020-9284-a955f61fd861
-title: StrokeBuilder class
+title: StrokeBuilder class (RTSCom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

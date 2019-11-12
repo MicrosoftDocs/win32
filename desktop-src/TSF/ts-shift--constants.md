@@ -1,5 +1,5 @@
 ---
-title: TS_SHIFT_ Constants
+title: TS_SHIFT_ Constants (Textstor.h)
 description: The TS\_Shift\_\ constants are used by the IAnchor interface for manipulation of hidden text and character counting.
 ms.assetid: 93329238-f6e8-432e-9167-550a02b33b46
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: Describes a technique used by an effect.
 ms.assetid: 7ba2dbb3-8039-4d1c-ad9d-130d9bf3d80a
-title: D3DXTECHNIQUE_DESC structure
+title: D3DXTECHNIQUE_DESC structure (D3dx9effect.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

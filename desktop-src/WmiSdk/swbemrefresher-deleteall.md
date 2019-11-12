@@ -2,7 +2,7 @@
 Description: The SWbemRefresher.DeleteAll method removes all the items from the collection in the SWbemRefresher object.SWbemRefresher object.
 ms.assetid: c6e462d3-52b3-40c0-9a9c-fa268415a5f0
 ms.tgt_platform: multiple
-title: SWbemRefresher.DeleteAll method
+title: SWbemRefresher.DeleteAll method (Wbemdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

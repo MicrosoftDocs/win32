@@ -1,5 +1,5 @@
 ---
-title: PSM_PRESSBUTTON message
+title: PSM_PRESSBUTTON message (Prsht.h)
 description: Simulates the selection of a property sheet button. You can send this message explicitly or by using the PropSheet\_PressButton macro.
 ms.assetid: 82a55a29-d916-47ee-b0a0-f685a3a386d9
 keywords:

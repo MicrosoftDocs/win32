@@ -1,7 +1,7 @@
 ---
 Description: The NonDelegatingAddRef method increments the reference count on the object. This method implements the INonDelegatingUnknown::NonDelegatingAddRef method.
 ms.assetid: abb6ee51-8fb8-4307-b127-b3667260e35a
-title: CUnknown.NonDelegatingAddRef method
+title: CUnknown.NonDelegatingAddRef method (Combase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

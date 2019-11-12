@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyError GetError method
+title: IBackgroundCopyError GetError method (Deliveryoptimization.h)
 description: Retrieves the error code and identify the context in which the error occurred.
 ms.assetid: C87897CD-9648-4CEF-B963-68EE35356929
 keywords:

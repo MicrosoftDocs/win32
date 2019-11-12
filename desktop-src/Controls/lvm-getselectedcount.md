@@ -1,5 +1,5 @@
 ---
-title: LVM_GETSELECTEDCOUNT message
+title: LVM_GETSELECTEDCOUNT message (Commctrl.h)
 description: Determines the number of selected items in a list-view control. You can send this message explicitly or by using the ListView\_GetSelectedCount macro.
 ms.assetid: 38916227-e6ca-4efa-9821-13f0fdb29834
 keywords:

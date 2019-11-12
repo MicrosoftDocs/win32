@@ -1,7 +1,7 @@
 ---
 Description: Returns the sampler index.
 ms.assetid: 'vs|directx_sdk|~\id3dxconstanttable__getsamplerindex.htm'
-title: ID3DXConstantTable::GetSamplerIndex method
+title: ID3DXConstantTable::GetSamplerIndex method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

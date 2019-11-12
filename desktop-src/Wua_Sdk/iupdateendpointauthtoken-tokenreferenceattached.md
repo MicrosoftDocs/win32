@@ -1,7 +1,7 @@
 ---
 Description: Gets the XML format of an attached reference to the token.
 ms.assetid: F4329A2E-61FD-40E0-9E24-87C9A4585E55
-title: IUpdateEndpointAuthToken::TokenReferenceAttached method
+title: IUpdateEndpointAuthToken::TokenReferenceAttached method (UpdateEndpointAuth.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

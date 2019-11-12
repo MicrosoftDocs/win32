@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsRenderTargetView method
+title: ID3DX11EffectVariable AsRenderTargetView method (D3dx11effect.h)
 description: Get a render-target-view variable.
 ms.assetid: 1eec342e-267a-4eab-886a-a309758065c7
 keywords:

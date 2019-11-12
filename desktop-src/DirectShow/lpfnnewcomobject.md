@@ -1,7 +1,7 @@
 ---
 Description: Pointer to a function that creates an instance of the object.
 ms.assetid: 8c9dab82-a080-4733-8c62-d090b28306e0
-title: LPFNNewCOMObject function pointer
+title: LPFNNewCOMObject function pointer (Combase.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

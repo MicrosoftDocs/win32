@@ -1,5 +1,5 @@
 ---
-title: EN_SETFOCUS notification code
+title: EN_SETFOCUS notification code (Winuser.h)
 description: Sent when an edit control receives the keyboard focus. The parent window of the edit control receives this notification code through a WM\_COMMAND message.
 ms.assetid: 482d2afa-4e21-4f3f-bdf4-6966b34cc3c4
 keywords:

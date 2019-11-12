@@ -1,7 +1,7 @@
 ---
 Description: Draw several instances of the same subset of a mesh.
 ms.assetid: 2a17ecdb-c6f3-401c-b7ed-8a42fe159de0
-title: ID3DX10Mesh::DrawSubsetInstanced method
+title: ID3DX10Mesh::DrawSubsetInstanced method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

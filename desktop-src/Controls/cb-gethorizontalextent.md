@@ -1,5 +1,5 @@
 ---
-title: CB_GETHORIZONTALEXTENT message
+title: CB_GETHORIZONTALEXTENT message (Winuser.h)
 description: Gets the width, in pixels, that the list box can be scrolled horizontally (the scrollable width). This is applicable only if the list box has a horizontal scroll bar.
 ms.assetid: 7c9fff88-2750-4c94-b7f6-6bdd81c224e9
 keywords:

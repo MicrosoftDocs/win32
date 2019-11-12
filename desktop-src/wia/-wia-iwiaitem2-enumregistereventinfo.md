@@ -1,7 +1,7 @@
 ---
 Description: The IWiaItem2::EnumRegisterEventInfo method creates an enumerator that you can use to obtain information about events for which an application is registered.
 ms.assetid: 9c25e9ae-bd3e-46a6-b4c2-c0bbcd265d51
-title: IWiaItem2::EnumRegisterEventInfo method
+title: IWiaItem2::EnumRegisterEventInfo method (Wia.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

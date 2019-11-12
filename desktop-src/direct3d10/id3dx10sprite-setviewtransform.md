@@ -1,7 +1,7 @@
 ---
 Description: Set the view transform that applies to all sprites.
 ms.assetid: 0420b141-46c7-4409-a0c4-67d1e8e02cd4
-title: ID3DX10Sprite::SetViewTransform method
+title: ID3DX10Sprite::SetViewTransform method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

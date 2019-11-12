@@ -1,7 +1,7 @@
 ---
 Description: The ITAudioDeviceControl interface exposes methods that enable an application to get and set parameters for control of an audio device.
 ms.assetid: 9a557cb2-acad-406c-9a87-18cbe96e8a9f
-title: ITAudioDeviceControl interface
+title: ITAudioDeviceControl interface (Ipmsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

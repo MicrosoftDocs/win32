@@ -1,7 +1,7 @@
 ---
 Description: Verifies that the calling process has read access to a wide-character string. If not, the macro calls the DbgBreak macro.
 ms.assetid: 526e8027-31e5-428d-856d-9fc6698693c3
-title: ValidateStringPtrW macro
+title: ValidateStringPtrW macro (Wxdebug.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_COMMAND\_STORAGE\_EJECT command ejects a storage medium that can be ejected remotely by the computer.
 ms.assetid: 38d4dd56-e898-4890-8328-eb2b03cdbd12
-title: WPD_COMMAND_STORAGE_EJECT Command
+title: WPD_COMMAND_STORAGE_EJECT Command (PortableDevice.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

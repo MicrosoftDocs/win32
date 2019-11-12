@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer ItemStore property
+title: IResultsViewer ItemStore property (WdsView.h)
 description: This property will set or return the name of the store to filter results by.
 ms.assetid: c2a60485-c8f7-4951-a75e-2e6f6dcc2e4f
 keywords:

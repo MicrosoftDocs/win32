@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilter NestingDepth property
+title: IPropertyFilter NestingDepth property (WdsSharedIDL.h)
 description: Filters depth within a nested set of parentheses.
 ms.assetid: a52992b3-d232-46a5-907c-8df6bd5ad6fc
 keywords:

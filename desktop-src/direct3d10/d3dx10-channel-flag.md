@@ -1,7 +1,7 @@
 ---
 Description: These flags are used by functions which operate on one or more channels in a texture.
 ms.assetid: 54ecb39a-a36e-43bb-bb51-78b7375716d8
-title: D3DX10_CHANNEL_FLAG enumeration
+title: D3DX10_CHANNEL_FLAG enumeration (D3DX10Tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

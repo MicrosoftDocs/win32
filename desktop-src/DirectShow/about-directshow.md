@@ -1,7 +1,7 @@
 ---
 Description: About DirectShow
 ms.assetid: 505c0a49-8e61-4c28-ada6-e8aa96d60a58
-title: About DirectShow
+title: About DirectShow (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,7 @@
 ---
 Description: The GetPropertyText function returns a pointer to the property text.
 ms.assetid: 1bcbdbb8-4ec5-4cea-a1c6-4a1f37476f50
-title: GetPropertyText function
+title: GetPropertyText function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

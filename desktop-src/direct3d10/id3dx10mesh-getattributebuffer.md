@@ -1,7 +1,7 @@
 ---
 Description: Access the mesh's attribute buffer.
 ms.assetid: 01ebb592-1e0d-4d93-b3f5-ad5f1e0225d0
-title: ID3DX10Mesh::GetAttributeBuffer method
+title: ID3DX10Mesh::GetAttributeBuffer method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

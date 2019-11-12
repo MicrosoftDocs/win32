@@ -1,5 +1,5 @@
 ---
-title: PSN_WIZFINISH notification code
+title: PSN_WIZFINISH notification code (Prsht.h)
 description: Notifies a page that the user has clicked the Finish button in a wizard. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8ef0a8a7-2d25-4969-9b8f-e42dcc1c8fb5
 keywords:

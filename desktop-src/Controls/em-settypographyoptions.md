@@ -1,5 +1,5 @@
 ---
-title: EM_SETTYPOGRAPHYOPTIONS message
+title: EM_SETTYPOGRAPHYOPTIONS message (Richedit.h)
 description: Sets the current state of the typography options of a rich edit control.
 ms.assetid: 000e72a6-3f8c-4735-8190-3ac06a2206ac
 keywords:

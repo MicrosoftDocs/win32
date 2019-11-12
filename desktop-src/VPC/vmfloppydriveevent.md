@@ -1,5 +1,5 @@
 ---
-title: vmFloppyDriveEvent enumeration
+title: vmFloppyDriveEvent enumeration (VPCCOMInterfaces.h)
 description: Specifies the floppy drive events.
 ms.assetid: 31d0c748-609a-4e03-8b5c-0a17a2587242
 keywords:

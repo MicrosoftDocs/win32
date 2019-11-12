@@ -1,7 +1,7 @@
 ---
 Description: The SetResizerGUID method specifies the CLSID of a custom video resizing filter.
 ms.assetid: 709a6e7f-64ae-406d-bb6d-29f6c65b63a8
-title: IRenderEngine2::SetResizerGUID method
+title: IRenderEngine2::SetResizerGUID method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

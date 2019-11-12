@@ -1,5 +1,5 @@
 ---
-title: WM_RBUTTONDBLCLK message
+title: WM_RBUTTONDBLCLK message (Winuser.h)
 description: Posted when the user double-clicks the right mouse button while the cursor is in the client area of a window.
 ms.assetid: 2db9a947-f052-4738-9fae-6ecaba3de9b9
 keywords:

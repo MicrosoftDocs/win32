@@ -1,7 +1,7 @@
 ---
 Description: Releases exclusive access to the smart card.
 ms.assetid: 12256c91-faf2-4a06-9501-f00d0115a069
-title: ISCard::UnlockSCard method
+title: ISCard::UnlockSCard method (Scardmgr.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

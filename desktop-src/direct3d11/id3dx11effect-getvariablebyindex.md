@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetVariableByIndex method
+title: ID3DX11Effect GetVariableByIndex method (D3dx11effect.h)
 description: Get a variable by index.
 ms.assetid: af25b945-9526-45c2-8746-8b62f8166de7
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IWMDRMDeviceApp AcquireDeviceData method
+title: IWMDRMDeviceApp AcquireDeviceData method (WMDRMDeviceApp.h)
 description: The AcquireDeviceData method initializes or resets a device secure clock.
 ms.assetid: 2f1cfdb9-0f07-4bee-94aa-b33b039453d0
 keywords:

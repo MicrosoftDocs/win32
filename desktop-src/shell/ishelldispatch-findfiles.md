@@ -1,7 +1,7 @@
 ---
 Description: 'Displays the Find: All Files dialog box. This is the same as clicking the Start menu and then selecting Search.'
 ms.assetid: 6F588D5E-5B6E-4000-BAD5-B557FB975FCA
-title: IShellDispatch.FindFiles method
+title: IShellDispatch.FindFiles method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

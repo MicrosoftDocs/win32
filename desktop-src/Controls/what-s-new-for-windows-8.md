@@ -1,5 +1,5 @@
 ---
-title: What's New
+title: What's New (Windows Controls)
 description: This topic describes the differences in support for theming and visual styles between Windows 8 and previous versions of Windows .
 ms.assetid: 866C2E0B-D3AF-4DA0-8B45-D5FF1335C350
 ms.topic: article

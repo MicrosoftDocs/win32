@@ -1,5 +1,5 @@
 ---
-title: Matrix5x4F Matrix5x4F(FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT) constructor
+title: Matrix5x4F Matrix5x4F(FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT) constructor (D2d1\_helper.h)
 description: Instantiates a new instance of a Matrix5x4F class that is initialized with all of the floating point matrix values.
 ms.assetid: 46C2741F-9E49-4ABD-9DA5-D4E6D3CA2B09
 keywords:

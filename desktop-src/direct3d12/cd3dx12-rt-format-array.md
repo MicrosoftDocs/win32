@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_RT_FORMAT_ARRAY structure
+title: CD3DX12_RT_FORMAT_ARRAY structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_RT\_FORMAT\_ARRAY structure.
 ms.assetid: E890DD33-599F-4B20-BD15-2734867788E5
 keywords:

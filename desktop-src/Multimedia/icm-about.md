@@ -1,5 +1,5 @@
 ---
-title: ICM_ABOUT message
+title: ICM_ABOUT message (Vfw.h)
 description: The ICM\_ABOUT message notifies a video compression driver to display its About dialog box or queries a video compression driver to determine if it has an About dialog box. You can send this message explicitly or by using the ICAbout macro.
 ms.assetid: 6eca69a3-0463-48e6-befb-5003b7515e7d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_SETOWNER message
+title: MCIWNDM_SETOWNER message (Vfw.h)
 description: The MCIWNDM\_SETOWNER message sets the window to receive notification messages associated with the MCIWnd window. You can send this message explicitly or by using the MCIWndSetOwner macro.
 ms.assetid: c2d0f9d5-bf60-4036-a613-65ba1ed83110
 keywords:

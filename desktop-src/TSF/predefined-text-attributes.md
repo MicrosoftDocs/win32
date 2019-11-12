@@ -1,5 +1,5 @@
 ---
-title: Predefined Text Attributes
+title: Predefined Text Attributes (TsAttrid.h)
 description: The following values identify text attributes obtained with the ITfContext GetAppProperty method. The data format and contents of each property type are included.
 ms.assetid: af73edb8-b706-40e4-a093-4ac22d33ecdc
 keywords:

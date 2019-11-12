@@ -1,7 +1,7 @@
 ---
 Description: Critical section, to serialize access to the object.
 ms.assetid: 24a5b1b2-209e-4262-aa48-fd4534b2da57
-title: CBaseWindow::m_WindowLock member
+title: CBaseWindow::m_WindowLock member (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: DRM_VIDEO_OUTPUT_PROTECTION_IDS_EX structure
+title: DRM_VIDEO_OUTPUT_PROTECTION_IDS_EX structure (Wmdrmsdk.h)
 description: The DRM\_VIDEO\_OUTPUT\_PROTECTION\_IDS\_EX structure holds an array of DRM\_VIDEO\_OUTPUT\_PROTECTION structures.
 ms.assetid: 89de0ade-fa86-4081-b65b-9c84fb68cf3d
 keywords:

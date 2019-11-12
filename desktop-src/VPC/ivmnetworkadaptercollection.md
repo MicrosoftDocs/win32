@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapterCollection interface
+title: IVMNetworkAdapterCollection interface (VPCCOMInterfaces.h)
 description: Defines a collection of virtual network interface cards. To obtain an IVMNetworkAdapterCollection object, use the IVMVirtualMachine NetworkAdapters, IVMVirtualNetwork NetworkAdapters, and IVMVirtualPC UnconnectedNetworkAdapters properties.
 ms.assetid: cfb03a7c-a568-488c-9284-798b7e21027a
 keywords:

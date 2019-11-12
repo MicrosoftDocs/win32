@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Startup method
+title: IVMVirtualMachine Startup method (VPCCOMInterfaces.h)
 description: Starts the virtual machine from either the uninitialized or saved state.
 ms.assetid: 82f9b6f1-99b1-4402-93f5-b4aa3520a505
 keywords:

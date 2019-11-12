@@ -1,7 +1,7 @@
 ---
 Description: The GetDefaultTransitionB method retrieves the default transition. This method is equivalent to IAMTimeline::GetDefaultTransition, but receives a BSTR value, rather than a GUID.
 ms.assetid: ed743766-e970-4bd9-a9a0-8b5d9fec2d80
-title: IAMTimeline::GetDefaultTransitionB method
+title: IAMTimeline::GetDefaultTransitionB method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

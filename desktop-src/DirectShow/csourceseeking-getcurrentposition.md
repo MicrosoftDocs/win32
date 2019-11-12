@@ -1,7 +1,7 @@
 ---
 Description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. Not implemented.
 ms.assetid: 386f41e4-a673-4c67-a28f-e155810fbb5a
-title: CSourceSeeking.GetCurrentPosition method
+title: CSourceSeeking.GetCurrentPosition method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

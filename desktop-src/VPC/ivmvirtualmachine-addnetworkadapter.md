@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine AddNetworkAdapter method
+title: IVMVirtualMachine AddNetworkAdapter method (VPCCOMInterfaces.h)
 description: Adds a network interface to the virtual machine.
 ms.assetid: 1fa39d2c-4a5a-42cb-afa4-520bf19b8cc8
 keywords:

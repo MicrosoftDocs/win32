@@ -1,7 +1,7 @@
 ---
 Description: The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
 ms.assetid: ae0cf869-bf5b-4c23-a924-014554053c92
-title: IRTC::GetControlState method
+title: IRTC::GetControlState method (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: TB_SETBUTTONINFO message
+title: TB_SETBUTTONINFO message (Commctrl.h)
 description: Sets the information for an existing button in a toolbar.
 ms.assetid: ac9b88b9-d0d0-4669-a342-708924d97c8b
 keywords:

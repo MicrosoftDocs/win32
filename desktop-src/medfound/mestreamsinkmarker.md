@@ -1,7 +1,7 @@
 ---
 Description: Raised by a stream sink after the IMFStreamSink::PlaceMarker method is called.
 ms.assetid: 40f68352-86e5-4864-9ca0-f30998857fef
-title: MEStreamSinkMarker event
+title: MEStreamSinkMarker event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE notification code
+title: NM_RELEASEDCAPTURE notification code (Commctrl.h)
 description: Notifies a control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 222a3be1-20f1-43c6-b982-852512209a45
 keywords:

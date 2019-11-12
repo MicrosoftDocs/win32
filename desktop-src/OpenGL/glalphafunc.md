@@ -1,5 +1,5 @@
 ---
-title: glAlphaFunc function
+title: glAlphaFunc function (Gl.h)
 description: The glAlphaFunc function enables your application to set the alpha test function.
 ms.assetid: 6c0c06b5-1bad-4590-a262-f134f63f0936
 keywords:

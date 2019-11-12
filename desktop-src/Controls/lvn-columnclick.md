@@ -1,5 +1,5 @@
 ---
-title: LVN_COLUMNCLICK notification code
+title: LVN_COLUMNCLICK notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that a column header was clicked while the list-view control was in report mode. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: a6bfbd6c-4778-47a7-92e9-9140d46d89cc
 keywords:

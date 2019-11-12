@@ -1,7 +1,7 @@
 ---
 Description: Used to create a driver-level command or vertex buffer of the specified description.
 ms.assetid: c65403a1-5686-4c7d-80a4-6e49417c11eb
-title: NtGdiDdCreateD3DBuffer function
+title: NtGdiDdCreateD3DBuffer function (Ntgdi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: Used to identify a key storage property.
 ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
-title: Key Storage Property Identifiers
+title: Key Storage Property Identifiers (Ncrypt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

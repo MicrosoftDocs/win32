@@ -1,12 +1,12 @@
 ---
 Description: The Windows 7 operating system provides built-in support for sensor devices.
 ms.assetid: 751ba2fc-fbff-4418-82ac-eebc8a145b14
-title: Introduction to the Sensor and Location Platform in Windows
+title: Overview of the Windows sensor and location platform
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Introduction to the Sensor and Location Platform in Windows
+# Overview of the Windows sensor and location platform
 
 The Windows 7 operating system provides built-in support for sensor devices. This includes support for location sensors, such as GPS devices. As part of this support, the Windows Sensor and Location platform provides a standard way for device manufacturers to expose sensor devices to software developers and consumers. At the same time, the platform gives developers a standardized API and device driver interface (DDI) to work with sensors and sensor data.
 

@@ -1,5 +1,5 @@
 ---
-title: gluTessBeginPolygon function
+title: gluTessBeginPolygon function (Glu.h)
 description: The gluTessBeginPolygon and gluTessEndPolygon functions delimit a polygon description.
 ms.assetid: 3a04363a-c492-4fa5-b312-f2fa2a805782
 keywords:

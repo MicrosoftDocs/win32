@@ -1,7 +1,7 @@
 ---
 Description: The UpdateFormat method fills in some optional members of the VIDEOINFO structure.
 ms.assetid: 5ca34fa0-eef4-44f5-bbcc-e686e5181d86
-title: CImageDisplay.UpdateFormat method
+title: CImageDisplay.UpdateFormat method (Winutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

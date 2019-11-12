@@ -1,5 +1,5 @@
 ---
-title: TB_MAPACCELERATOR message
+title: TB_MAPACCELERATOR message (Commctrl.h)
 description: Determines the ID of the button that corresponds to the specified accelerator character.
 ms.assetid: 724b593d-39af-4301-b721-0332844677b1
 keywords:

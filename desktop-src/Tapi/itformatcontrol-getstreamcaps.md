@@ -1,7 +1,7 @@
 ---
 Description: The GetStreamCaps method retrieves the capabilities associated with a given format index.
 ms.assetid: 4c375369-51d9-44ac-a8f0-c2a96fc10805
-title: ITFormatControl::GetStreamCaps method
+title: ITFormatControl::GetStreamCaps method (Ipmsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

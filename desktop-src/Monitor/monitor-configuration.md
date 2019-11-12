@@ -1,5 +1,5 @@
 ---
-title: Monitor Configuration
+title: Monitor Configuration (Monitor Configuration)
 description: Monitor Configuration
 ms.assetid: '8439ca75-dd31-42a8-afd6-e1f7a867d17c'
 keywords:

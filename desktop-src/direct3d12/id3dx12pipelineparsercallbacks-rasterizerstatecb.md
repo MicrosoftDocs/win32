@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks RasterizerStateCb method
+title: ID3DX12PipelineParserCallbacks RasterizerStateCb method (D3DX12.h)
 description: Calls the rasterizer state description subobject callback of an object that implements this interface.
 ms.assetid: 125FC6EC-B749-4EE2-9D34-14BD12993BDC
 keywords:

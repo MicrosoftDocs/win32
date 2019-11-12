@@ -1,7 +1,7 @@
 ---
 Description: The DuplicateBlob function copies a specific BLOB.
 ms.assetid: d2478f53-328c-4799-890c-7849ce1f22e9
-title: DuplicateBlob function
+title: DuplicateBlob function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

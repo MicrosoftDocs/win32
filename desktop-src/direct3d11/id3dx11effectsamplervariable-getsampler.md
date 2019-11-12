@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectSamplerVariable GetSampler method
+title: ID3DX11EffectSamplerVariable GetSampler method (D3dx11effect.h)
 description: Get a pointer to a sampler interface.
 ms.assetid: ac2a05f1-e3ca-4ebf-b655-34133c4e50ac
 keywords:

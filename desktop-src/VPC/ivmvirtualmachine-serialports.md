@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine SerialPorts property
+title: IVMVirtualMachine SerialPorts property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of serial ports.
 ms.assetid: 502fe4f1-c58c-460c-8431-41fddd753d18
 keywords:

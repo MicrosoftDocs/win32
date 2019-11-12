@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentCallback NotifyOrphanedSoHRequest method
+title: INapSystemHealthAgentCallback NotifyOrphanedSoHRequest method (NapSystemHealthAgent.h)
 description: Is called if an SoHRequest was queried from the SHA, but the response never came back.
 ms.assetid: 9e6fac6c-fb23-4725-ae0f-28ef8a6c4ea6
 keywords:

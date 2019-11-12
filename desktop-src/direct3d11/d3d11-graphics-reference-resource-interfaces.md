@@ -1,5 +1,5 @@
 ---
-title: Resource Interfaces
+title: Resource Interfaces (Direct3D 11 Graphics)
 description: There are a number of interfaces for the two basic types of resources buffers and textures.
 ms.assetid: 8e40573a-b186-41ec-b2ff-81279d77bd3a
 keywords:

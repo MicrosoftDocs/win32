@@ -1,5 +1,5 @@
 ---
-title: IWMDRMDeviceApp ProcessMeterResponse method
+title: IWMDRMDeviceApp ProcessMeterResponse method (WMDRMDeviceApp.h)
 description: The ProcessMeterResponse method resets some or all of the metering counts on a device, after data from the device has been sent to and processed by the server.
 ms.assetid: bafc4bb2-aa3c-4b2a-a818-1a78577cefc5
 keywords:

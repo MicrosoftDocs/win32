@@ -1,5 +1,5 @@
 ---
-title: WM_PSD_GREEKTEXTRECT message
+title: WM_PSD_GREEKTEXTRECT message (Commdlg.h)
 description: Notifies the hook procedure of a Page Setup dialog box, PagePaintHook, that the dialog box is about to draw Greek text inside the margin rectangle of the sample page.
 ms.assetid: ad0a200d-5626-4768-b3bd-73d4e3f0d548
 keywords:

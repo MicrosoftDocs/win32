@@ -1,7 +1,7 @@
 ---
 Description: Raised after the IMFMediaSession::SetTopology method completes asynchronously. The Media Session raises this event after it resolves the topology into a full topology and queues the topology for playback.
 ms.assetid: 22a298b7-d32b-44ed-b0a1-4e0398ecfe04
-title: MESessionTopologySet event
+title: MESessionTopologySet event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

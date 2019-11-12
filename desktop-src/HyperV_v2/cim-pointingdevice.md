@@ -1,7 +1,7 @@
 ---
 Description: Represents a device used to point to regions of a display.
 ms.assetid: ffc675c3-29bd-4c54-8e54-8b6212daf66d
-title: CIM_PointingDevice class
+title: CIM_PointingDevice class (Hyper-V management)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

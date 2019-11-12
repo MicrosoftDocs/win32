@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo GetVendorName method
+title: INapComponentInfo GetVendorName method (NapCommon.h)
 description: Is used by the NAP System to get the vendor name of a health client.
 ms.assetid: 7083b0b6-38fc-4c24-a5f7-fe0a1ebd5e88
 keywords:

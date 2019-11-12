@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SINGLE_FRAME_CLOSE message
+title: WM_CAP_SINGLE_FRAME_CLOSE message (Vfw.h)
 description: The WM\_CAP\_SINGLE\_FRAME\_CLOSE message closes the capture file opened by the WM\_CAP\_SINGLE\_FRAME\_OPEN message. You can send this message explicitly or by using the capCaptureSingleFrameClose macro.
 ms.assetid: fde5f34b-0781-49a2-a509-64192a1d9ec0
 keywords:

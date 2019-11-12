@@ -1,5 +1,5 @@
 ---
-title: LVM_SETSELECTEDCOLUMN message
+title: LVM_SETSELECTEDCOLUMN message (Commctrl.h)
 description: Sets the index of the selected column.
 ms.assetid: 11b0838e-24a7-4c1c-b67d-0912b5a6442a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetVertexShader method
+title: ID3DX11EffectShaderVariable GetVertexShader method (D3dx11effect.h)
 description: Get a vertex shader.
 ms.assetid: 31a250ae-154b-43ce-97e3-6480f23dc4e2
 keywords:

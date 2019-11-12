@@ -1,5 +1,5 @@
 ---
-title: IVMTask WaitForCompletion method
+title: IVMTask WaitForCompletion method (VPCCOMInterfaces.h)
 description: Waits for the task to complete or for the specified time-out interval to elapse.
 ms.assetid: 28718c54-4411-4c69-89de-35ea6a8d074c
 keywords:

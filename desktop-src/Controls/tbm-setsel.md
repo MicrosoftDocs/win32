@@ -1,5 +1,5 @@
 ---
-title: TBM_SETSEL message
+title: TBM_SETSEL message (Commctrl.h)
 description: Sets the starting and ending positions for the available selection range in a trackbar.
 ms.assetid: 71f5b9f8-4850-44a8-8acf-adca9bda84c3
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM_SETHOTCURSOR message
+title: LVM_SETHOTCURSOR message (Commctrl.h)
 description: Sets the HCURSOR value that the list-view control uses when the pointer is over an item while hot tracking is enabled.
 ms.assetid: e3ff8608-9389-4167-839b-ecc2be01bb64
 keywords:

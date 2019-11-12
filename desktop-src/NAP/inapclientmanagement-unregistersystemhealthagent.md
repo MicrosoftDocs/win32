@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement UnregisterSystemHealthAgent method
+title: INapClientManagement UnregisterSystemHealthAgent method (NapManagement.h)
 description: Unregisters an SHA with the NAP system.
 ms.assetid: c3ad6f2a-c39a-4590-8487-24c802433845
 keywords:

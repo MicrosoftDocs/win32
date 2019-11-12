@@ -1,7 +1,7 @@
 ---
 Description: Occurs after the InkPicture control has been resized, specifically, after the Width or Height property value changes.
 ms.assetid: a5fc6c82-f9c8-4104-8abe-082c47c56be9
-title: InkPicture.SizeChanged event
+title: InkPicture.SizeChanged event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

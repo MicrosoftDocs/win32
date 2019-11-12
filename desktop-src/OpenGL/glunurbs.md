@@ -1,5 +1,5 @@
 ---
-title: gluNurbsCallback function
+title: gluNurbsCallback function (Glu.h)
 description: The gluNurbsCallback function defines a callback for a Non-Uniform Rational B-Spline (NURBS) object.
 ms.assetid: 1e9afc00-57c6-459e-a9fc-463f45df2084
 keywords:

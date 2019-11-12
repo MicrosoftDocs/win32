@@ -1,7 +1,7 @@
 ---
 Description: Specifies the number of frames after the current frame that the codec will evaluate before encoding the current frame.
 ms.assetid: e5cdd066-e25a-4107-9523-5611bd792372
-title: MFPKEY_LOOKAHEAD Property
+title: MFPKEY_LOOKAHEAD Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

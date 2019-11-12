@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig GetConfig method
+title: INapComponentConfig GetConfig method (NapCommon.h)
 description: Retrieves the system health validator (SHV) component configuration.
 ms.assetid: 57a1d3a7-05c0-4e0f-91b8-b3cf8982d04f
 keywords:

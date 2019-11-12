@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateTextureFromMemory function
+title: D3DX11CreateTextureFromMemory function (D3DX11.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use these DirectXTK library (runtime), CreateXXXTextureFromMemory (where XXX is DDS or WIC)DirectXTex library (tools), LoadFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then CreateTexture Create a texture resource from a file residing in system memory.
 ms.assetid: 1b07653e-8dc8-40b2-b591-bd25a54cfaa2
 keywords:

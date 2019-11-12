@@ -1,5 +1,5 @@
 ---
-title: WM_MENUGETOBJECT message
+title: WM_MENUGETOBJECT message (Winuser.h)
 description: Sent to the owner of a drag-and-drop menu when the mouse cursor enters a menu item or moves from the center of the item to the top or bottom of the item.
 ms.assetid: 08348e43-3d21-4543-b624-5504575efced
 keywords:

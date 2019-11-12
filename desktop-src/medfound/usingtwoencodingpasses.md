@@ -1,7 +1,7 @@
 ---
 Description: Two-pass encoding can be used for constant bit rate (CBR) and for variable bit rate (VBR) encoding with some of the Windows Media codecs.
 ms.assetid: eec5085c-9441-496a-8127-cf5d2686d917
-title: Using Two-Pass Encoding
+title: Using Two-Pass Encoding (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: IWMPControls3 (VB and C ) interface
+title: IWMPControls3 (VB and C ) interface (Wmp.h)
 description: Provides properties and methods for audio language selection and support that supplement the IWMPControls2 interface.In addition to the properties and methods inherited from IWMPControls2, the IWMPControls3 interface exposes the following properties.
 ms.assetid: 1f42a352-da97-4382-9b59-a9b074aa2a5a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: glLightfv function
+title: glLightfv function (Gl.h)
 description: The glLightfv function returns light source parameter values.
 ms.assetid: 0a9feb00-f64a-43fc-b9ca-8a97fdaf4de9
 keywords:

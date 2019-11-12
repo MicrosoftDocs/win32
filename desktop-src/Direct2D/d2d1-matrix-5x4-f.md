@@ -1,5 +1,5 @@
 ---
-title: D2D1_MATRIX_5X4_F
+title: D2D1_MATRIX_5X4_F (D2d1.h)
 description: Represents a 5-by-4 matrix.
 ms.assetid: c6f57691-1530-e57a-c1b4-b68b4d8967e3
 keywords:

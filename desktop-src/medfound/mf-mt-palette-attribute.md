@@ -1,7 +1,7 @@
 ---
 Description: Contains the palette entries for a video media type. Use this attribute for palettized video formats, such as RGB 8.
 ms.assetid: 3efc124b-073e-4c48-9550-c100e29f2d6f
-title: MF_MT_PALETTE attribute
+title: MF_MT_PALETTE attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

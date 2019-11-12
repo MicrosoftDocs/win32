@@ -1,5 +1,5 @@
 ---
-title: WM_NCXBUTTONDBLCLK message
+title: WM_NCXBUTTONDBLCLK message (Winuser.h)
 description: Posted when the user double-clicks the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 8c0b1e96-9cbb-4ef8-83ff-9253f1a934ef
 keywords:

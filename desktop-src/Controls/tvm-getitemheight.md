@@ -1,5 +1,5 @@
 ---
-title: TVM_GETITEMHEIGHT message
+title: TVM_GETITEMHEIGHT message (Commctrl.h)
 description: Retrieves the current height of the each tree-view item. You can send this message explicitly or by using the TreeView\_GetItemHeight macro.
 ms.assetid: 017476a3-1929-4a31-97a7-0f66175d47ea
 keywords:

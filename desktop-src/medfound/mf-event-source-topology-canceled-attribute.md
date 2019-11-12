@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the Sequencer Source canceled a topology.
 ms.assetid: b7252336-1612-43fc-8f08-1fdfdbb293eb
-title: MF_EVENT_SOURCE_TOPOLOGY_CANCELED attribute
+title: MF_EVENT_SOURCE_TOPOLOGY_CANCELED attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

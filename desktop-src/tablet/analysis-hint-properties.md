@@ -1,7 +1,7 @@
 ---
 Description: Defines globally unique identifiers (GUIDs) for properties of an analysis hint node (see IContextNode::GetType).
 ms.assetid: 8300c792-a741-49de-a03b-f4840ea5d647
-title: Analysis Hint Properties
+title: Analysis Hint Properties (Iaguid.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

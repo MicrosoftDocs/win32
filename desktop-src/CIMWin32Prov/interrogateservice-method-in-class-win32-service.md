@@ -2,7 +2,7 @@
 Description: Requests that the referenced service update its state to the service manager.
 ms.assetid: a4ea8753-1859-4d97-b9ca-47598c7e7654
 ms.tgt_platform: multiple
-title: InterrogateService method of the Win32_Service class
+title: InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

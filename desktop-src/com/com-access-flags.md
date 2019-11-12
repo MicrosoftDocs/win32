@@ -1,5 +1,5 @@
 ---
-title: Access Flags
+title: Access Flags (AccCtrl.h)
 description: These values indicate whether an entry in the access list describes rights that are allowed or denied.
 ms.assetid: 460d2c72-3315-4b4c-928e-4bb0640acbe5
 topic_type:

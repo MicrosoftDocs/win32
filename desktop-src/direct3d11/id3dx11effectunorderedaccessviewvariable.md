@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectUnorderedAccessViewVariable interface
+title: ID3DX11EffectUnorderedAccessViewVariable interface (D3dx11effect.h)
 description: Accesses an unordered access view.
 ms.assetid: f78dc8c5-c85a-48cf-b579-f2937aa5ce2a
 keywords:

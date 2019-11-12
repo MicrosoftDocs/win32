@@ -1,5 +1,5 @@
 ---
-title: MCI_LOAD command
+title: MCI_LOAD command (Mmsystem.h)
 description: The MCI\_LOAD command loads a file. Digital-video and video-overlay devices recognize this command.
 ms.assetid: 0f48afa0-e845-4de5-8433-15bbf4eae683
 keywords:

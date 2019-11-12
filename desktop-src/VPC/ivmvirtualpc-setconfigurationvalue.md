@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC SetConfigurationValue method
+title: IVMVirtualPC SetConfigurationValue method (VPCCOMInterfaces.h)
 description: Sets the value of the specified configuration setting.
 ms.assetid: 7760b81e-734d-4970-8875-f2d310ff6c5c
 keywords:

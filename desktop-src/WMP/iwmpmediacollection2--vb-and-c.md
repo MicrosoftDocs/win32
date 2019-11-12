@@ -1,5 +1,5 @@
 ---
-title: IWMPMediaCollection2 (VB and C ) interface
+title: IWMPMediaCollection2 (VB and C ) interface (Wmp.h)
 description: Provides methods that supplement the IWMPMediaCollection interface.
 ms.assetid: 204f336c-ea78-43d4-9686-bcab72362bc9
 keywords:

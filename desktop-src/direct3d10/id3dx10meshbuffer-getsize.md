@@ -1,7 +1,7 @@
 ---
 Description: Get the size of the mesh buffer, in bytes.
 ms.assetid: 6c958190-fb43-4e7b-924d-89bb2d92981d
-title: ID3DX10MeshBuffer::GetSize method
+title: ID3DX10MeshBuffer::GetSize method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

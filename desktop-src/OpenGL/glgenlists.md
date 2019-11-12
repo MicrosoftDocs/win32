@@ -1,5 +1,5 @@
 ---
-title: glGenLists function
+title: glGenLists function (Gl.h)
 description: The glGenLists function generates a contiguous set of empty display lists.
 ms.assetid: 07a97e89-1fbe-4405-b1b0-c4c47b098633
 keywords:

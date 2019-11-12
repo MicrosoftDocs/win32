@@ -1,5 +1,5 @@
 ---
-title: Miscellaneous TSF Text Service Constants
+title: Miscellaneous TSF Text Service Constants (Ctffunc.h)
 description: The following values are used with text services.
 ms.assetid: 38110314-1638-4963-92b6-4ba2f81fb7c2
 topic_type:

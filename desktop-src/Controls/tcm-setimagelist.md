@@ -1,5 +1,5 @@
 ---
-title: TCM_SETIMAGELIST message
+title: TCM_SETIMAGELIST message (Commctrl.h)
 description: Assigns an image list to a tab control. You can send this message explicitly or by using the TabCtrl\_SetImageList macro.
 ms.assetid: b457c73c-4c38-4bc5-af5d-12bbd24504a6
 keywords:

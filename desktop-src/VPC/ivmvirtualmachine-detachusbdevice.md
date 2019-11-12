@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine DetachUSBDevice method
+title: IVMVirtualMachine DetachUSBDevice method (VPCCOMInterfaces.h)
 description: Releases a USB device from a virtual machine.
 ms.assetid: ae2b70b1-7bf3-4a84-9f05-4e91de93fa73
 keywords:

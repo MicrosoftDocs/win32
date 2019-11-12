@@ -1,7 +1,7 @@
 ---
 Description: Frees the byte pointer pointing to the HGLOBAL memory block managed by an IStream COM interface.
 ms.assetid: a76c97a9-d0e9-4eb0-9f97-15f22111187d
-title: ISCardTypeConv::FreeIStreamMemoryPtr method
+title: ISCardTypeConv::FreeIStreamMemoryPtr method (Scarddat.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

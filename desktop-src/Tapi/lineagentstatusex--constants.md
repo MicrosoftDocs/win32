@@ -1,7 +1,7 @@
 ---
 Description: The LINEAGENTSTATUSEX\_ constants describe the status of an agent.
 ms.assetid: 4edebbb4-e031-468e-ad88-3226814a606b
-title: LINEAGENTSTATUSEX_ Constants
+title: LINEAGENTSTATUSEX_ Constants (Tapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

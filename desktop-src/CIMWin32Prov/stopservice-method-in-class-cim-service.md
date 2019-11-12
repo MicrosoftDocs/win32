@@ -2,7 +2,7 @@
 Description: Stops the service represented by the object derived from CIM\_Service.
 ms.assetid: f9eedde7-8d71-40a2-b1e9-7ba97e634f64
 ms.tgt_platform: multiple
-title: StopService method of the CIM_Service class
+title: StopService method of the CIM_Service class (Sdoias.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: HKM_GETHOTKEY message
+title: HKM_GETHOTKEY message (Commctrl.h)
 description: Gets the virtual key code and modifier flags of a hot key from a hot key control.
 ms.assetid: 8b061411-604d-46ea-a082-3eca2d47d992
 keywords:

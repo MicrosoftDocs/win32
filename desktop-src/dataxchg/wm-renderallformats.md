@@ -1,5 +1,5 @@
 ---
-title: WM_RENDERALLFORMATS message
+title: WM_RENDERALLFORMATS message (Winuser.h)
 description: Sent to the clipboard owner before it is destroyed, if the clipboard owner has delayed rendering one or more clipboard formats.
 ms.assetid: dff9100f-2dba-467d-be74-a9a9c2b2122b
 keywords:

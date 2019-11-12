@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC MaximumParallelPortsPerVM property
+title: IVMVirtualPC MaximumParallelPortsPerVM property (VPCCOMInterfaces.h)
 description: Retrieves the maximum number of parallel ports per virtual machine.
 ms.assetid: c5baac59-386c-4373-a560-460750178894
 keywords:

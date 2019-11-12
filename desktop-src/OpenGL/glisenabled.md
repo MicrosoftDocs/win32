@@ -1,5 +1,5 @@
 ---
-title: glIsEnabled function
+title: glIsEnabled function (Gl.h)
 description: The gllsEnabled function tests whether a capability is enabled.
 ms.assetid: 18df5a6f-dc21-434d-a2e8-2c58597df037
 keywords:

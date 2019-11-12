@@ -1,7 +1,7 @@
 ---
 Description: Errors are represented by negative values and cannot be combined.
 ms.assetid: 4149ce6d-e87a-4003-b123-5555c6b3b086
-title: D3DX10_ERR enumeration
+title: D3DX10_ERR enumeration (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

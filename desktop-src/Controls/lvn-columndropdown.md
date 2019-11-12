@@ -1,5 +1,5 @@
 ---
-title: LVN_COLUMNDROPDOWN notification code
+title: LVN_COLUMNDROPDOWN notification code (Commctrl.h)
 description: Sent by a list-view control when the list-view's drop-down button is pressed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 752d745e-4482-425c-af3c-f9707cbb03d7
 keywords:

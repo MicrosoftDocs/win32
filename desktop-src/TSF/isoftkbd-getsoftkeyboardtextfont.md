@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd GetSoftKeyboardTextFont method
+title: ISoftKbd GetSoftKeyboardTextFont method (Softkbdc.h)
 description: The ISoftKbd GetSoftKeyboardTextFont method retrieves the text font used by a soft keyboard.
 ms.assetid: 73239359-70b4-47d6-abc5-9fee279ed3a6
 keywords:

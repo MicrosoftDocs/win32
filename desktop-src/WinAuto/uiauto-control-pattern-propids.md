@@ -1,5 +1,5 @@
 ---
-title: Control Pattern Property Identifiers
+title: Control Pattern Property Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants used to identify the properties associated with specific Microsoft UI Automation control patterns.
 ms.assetid: de5b287f-66fe-4b77-872c-6a3927d24dd2
 topic_type:

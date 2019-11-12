@@ -1,7 +1,7 @@
 ---
 Description: The Add method adds a property key to the collection.
 ms.assetid: 640ef1c4-2843-48dd-a30a-9a2ef9de35b9
-title: IPortableDeviceKeyCollection::Add method
+title: IPortableDeviceKeyCollection::Add method (PortableDeviceTypes.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

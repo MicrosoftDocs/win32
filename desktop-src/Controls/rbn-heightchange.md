@@ -1,5 +1,5 @@
 ---
-title: RBN_HEIGHTCHANGE notification code
+title: RBN_HEIGHTCHANGE notification code (Commctrl.h)
 description: Sent by a rebar control when its height has changed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: cf90e38c-ac3e-4bef-b047-0956ae5041d1
 keywords:

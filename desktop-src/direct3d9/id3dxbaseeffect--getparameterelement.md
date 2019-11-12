@@ -1,7 +1,7 @@
 ---
 Description: Get the handle of an array element parameter.
 ms.assetid: fe8edbc5-dc1d-4386-8149-489541d55bde
-title: ID3DXBaseEffect::GetParameterElement method
+title: ID3DXBaseEffect::GetParameterElement method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

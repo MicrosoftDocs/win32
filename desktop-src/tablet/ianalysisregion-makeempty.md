@@ -1,7 +1,7 @@
 ---
 Description: Reduces the IAnalysisRegion to represent an empty area.
 ms.assetid: 647a90ee-a5fe-4019-92bb-76b84207d86e
-title: IAnalysisRegion::MakeEmpty method
+title: IAnalysisRegion::MakeEmpty method (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

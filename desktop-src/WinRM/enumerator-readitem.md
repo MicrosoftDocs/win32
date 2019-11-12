@@ -1,5 +1,5 @@
 ---
-title: Enumerator.ReadItem method
+title: Enumerator.ReadItem method (WSManDisp.h)
 description: Retrieves an item from the resource and returns an XML representation of the item.
 ms.assetid: 4280ecb8-2449-41bd-868a-785e8ac3b3d5
 ms.tgt_platform: multiple

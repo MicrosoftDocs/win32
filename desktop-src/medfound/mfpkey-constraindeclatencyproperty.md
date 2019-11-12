@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the encoder is constrained by a maximum decoder latency requirement.
 ms.assetid: 054e445e-fc71-4d4f-9e9f-f5ff71f0b4ee
-title: MFPKEY_CONSTRAINDECLATENCY Property
+title: MFPKEY_CONSTRAINDECLATENCY Property (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

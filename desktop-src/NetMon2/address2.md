@@ -1,7 +1,7 @@
 ---
 Description: Contains a single address of any type of supported addresses.
 ms.assetid: 3f840842-8992-4fab-8820-cbbfc63242b8
-title: ADDRESS2 structure
+title: ADDRESS2 structure (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

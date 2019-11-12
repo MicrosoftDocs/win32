@@ -1,5 +1,5 @@
 ---
-title: TBM_SETTIPSIDE message
+title: TBM_SETTIPSIDE message (Commctrl.h)
 description: Positions a tooltip control used by a trackbar control. Trackbar controls that use the TBS\_TOOLTIPS style display tooltips.
 ms.assetid: 40a0eeb0-7bb4-4102-98ea-ee664799b934
 keywords:

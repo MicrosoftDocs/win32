@@ -1,5 +1,5 @@
 ---
-title: TDN_HYPERLINK_CLICKED notification code
+title: TDN_HYPERLINK_CLICKED notification code (Commctrl.h)
 description: Sent by a task dialog when the user clicks a hyperlink in the task dialog content. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: b769af31-32d0-463e-be15-6abf5dcb425c
 keywords:

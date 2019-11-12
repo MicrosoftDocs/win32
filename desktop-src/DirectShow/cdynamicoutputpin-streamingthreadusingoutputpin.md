@@ -1,7 +1,7 @@
 ---
 Description: The StreamingThreadUsingOutputPin method determines whether any thread is performing a streaming operation on the pin.
 ms.assetid: b6432a11-4e8b-4eb4-ad8e-aaff9398641b
-title: CDynamicOutputPin.StreamingThreadUsingOutputPin method
+title: CDynamicOutputPin.StreamingThreadUsingOutputPin method (Amfilter.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

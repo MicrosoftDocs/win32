@@ -1,5 +1,5 @@
 ---
-title: Storing Compressed Media in AVI Files
+title: Storing Compressed Media in AVI Files (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: f6bebf7b-df05-4f3b-b7ae-f9e40b5618d1
 keywords:

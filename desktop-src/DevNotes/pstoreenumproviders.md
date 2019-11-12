@@ -1,7 +1,7 @@
 ---
 Description: Gets an enumerator object that can be used in turn to enumerate the protected storage providers that are currently installed on the system.
 ms.assetid: df162086-caeb-427f-9db8-9722855cfbbf
-title: PStoreEnumProviders function
+title: PStoreEnumProviders function (Pstore.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

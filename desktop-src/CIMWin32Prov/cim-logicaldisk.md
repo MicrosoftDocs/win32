@@ -2,7 +2,7 @@
 Description: The CIM\_LogicalDisk class represents a contiguous range of logical blocks that is identifiable by a file system through the disk's DeviceID (key) field.
 ms.assetid: 1c2fd0bf-a1e3-4706-9f84-5dd4d371a167
 ms.tgt_platform: multiple
-title: CIM_LogicalDisk class
+title: CIM_LogicalDisk class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: PSM_INDEXTOPAGE message
+title: PSM_INDEXTOPAGE message (Prsht.h)
 description: Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can send this message explicitly or use the PropSheet\_IndexToPage macro.
 ms.assetid: b14b35ad-bae0-4461-a90f-e2bc5e2ccfc2
 keywords:

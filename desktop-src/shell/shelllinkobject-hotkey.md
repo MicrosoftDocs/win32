@@ -1,7 +1,7 @@
 ---
 Description: Gets or sets the keyboard shortcut for the link.
 ms.assetid: edc65fe8-c7f3-46d0-86ca-1c0c93e7ca64
-title: ShellLinkObject.Hotkey property
+title: ShellLinkObject.Hotkey property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

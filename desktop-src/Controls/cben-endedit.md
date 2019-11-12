@@ -1,5 +1,5 @@
 ---
-title: CBEN_ENDEDIT notification code
+title: CBEN_ENDEDIT notification code (Commctrl.h)
 description: Sent when the user has concluded an operation within the edit box or has selected an item from the control's drop-down list. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b6b50951-7304-4499-b57b-a5b592de2190
 keywords:

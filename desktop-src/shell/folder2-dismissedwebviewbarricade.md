@@ -1,7 +1,7 @@
 ---
 Description: Called in response to the web view barricade being dismissed by the user.
 ms.assetid: 170893b6-c947-45b1-b717-a93a0b083bda
-title: Folder2.DismissedWebViewBarricade method
+title: Folder2.DismissedWebViewBarricade method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

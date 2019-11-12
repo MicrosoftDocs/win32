@@ -1,7 +1,7 @@
 ---
 Description: Adds another buffer to the ID3DXPRTBuffer and stores the results in ID3DXPRTBuffer.
 ms.assetid: 345412f4-30c5-4c1d-b0ef-6e3e18c4e5ab
-title: ID3DXPRTBuffer::AddBuffer method
+title: ID3DXPRTBuffer::AddBuffer method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

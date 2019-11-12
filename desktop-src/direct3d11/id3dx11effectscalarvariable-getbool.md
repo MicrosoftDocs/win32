@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable GetBool method
+title: ID3DX11EffectScalarVariable GetBool method (D3dx11effect.h)
 description: Get a boolean variable.
 ms.assetid: 9d2789af-c59f-4d2d-87c6-9f36286e8a15
 keywords:

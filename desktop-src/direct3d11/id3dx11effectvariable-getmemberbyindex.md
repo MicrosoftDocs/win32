@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetMemberByIndex method
+title: ID3DX11EffectVariable GetMemberByIndex method (D3dx11effect.h)
 description: Get a structure member by index.
 ms.assetid: 256f65aa-5f49-4b83-8dde-ddb6b31c581a
 keywords:

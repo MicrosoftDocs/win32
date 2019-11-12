@@ -1,7 +1,7 @@
 ---
 Description: Specifies the color primaries for a video media type.
 ms.assetid: 56f31c1a-b610-4da0-9df4-76e15add672c
-title: MF_MT_VIDEO_PRIMARIES attribute
+title: MF_MT_VIDEO_PRIMARIES attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

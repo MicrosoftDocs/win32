@@ -1,5 +1,5 @@
 ---
-title: gluOrtho2D function
+title: gluOrtho2D function (Glu.h)
 description: The gluOrtho2D function defines a 2-D orthographic projection matrix.
 ms.assetid: ba83fb5c-e5c7-4486-a815-a1aff0469757
 keywords:

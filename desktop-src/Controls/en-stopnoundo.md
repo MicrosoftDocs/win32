@@ -1,5 +1,5 @@
 ---
-title: EN_STOPNOUNDO notification code
+title: EN_STOPNOUNDO notification code (Richedit.h)
 description: Notifies a rich edit control's parent window that an action occurred for which the control cannot allocate enough memory to maintain the undo state. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 5608f6dd-83dc-4712-b485-dd9bc17dea24
 keywords:

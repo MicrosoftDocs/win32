@@ -1,5 +1,5 @@
 ---
-title: HWINEVENTHOOK
+title: HWINEVENTHOOK (Windef.h)
 description: Used to declare a window event hook function.
 ms.assetid: fa193e8e-46a8-46d4-83e1-e6274276b218
 keywords:

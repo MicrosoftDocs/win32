@@ -1,5 +1,5 @@
 ---
-title: MCM_SETDAYSTATE message
+title: MCM_SETDAYSTATE message (Commctrl.h)
 description: Sets the day states for all months that are currently visible within a month calendar control. You can send this message explicitly or by using the MonthCal\_SetDayState macro.
 ms.assetid: 518cb2a9-ea82-40b4-88ca-f901b6f9f8c4
 keywords:

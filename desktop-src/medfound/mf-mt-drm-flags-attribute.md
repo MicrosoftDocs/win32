@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a video media type requires the enforcement of copy protection.
 ms.assetid: fb12ba38-a4f4-44fe-bf31-e731c56bb145
-title: MF_MT_DRM_FLAGS attribute
+title: MF_MT_DRM_FLAGS attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

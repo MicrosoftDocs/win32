@@ -1,7 +1,7 @@
 ---
 Description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. This method implements the IMediaSeeking::GetCurrentPosition method.
 ms.assetid: 07020182-2199-4153-9bab-f30d112bc09f
-title: CPosPassThru.GetCurrentPosition method
+title: CPosPassThru.GetCurrentPosition method (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

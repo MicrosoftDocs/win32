@@ -1,5 +1,5 @@
 ---
-title: Description
+title: Description (Windows Media Format 11 SDK)
 description: The Description attribute contains a description of the content of the file.
 ms.assetid: b9a1dcb1-9e8a-49a0-8dd5-388c929645c3
 keywords:

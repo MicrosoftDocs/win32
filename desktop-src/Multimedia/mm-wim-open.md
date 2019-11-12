@@ -1,5 +1,5 @@
 ---
-title: MM_WIM_OPEN message
+title: MM_WIM_OPEN message (Mmsystem.h)
 description: The MM\_WIM\_OPEN message is sent to a window when a waveform-audio input device is opened.
 ms.assetid: 4c646f58-c324-467e-871b-8fc36d5b89bc
 keywords:

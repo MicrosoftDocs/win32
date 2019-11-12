@@ -1,5 +1,5 @@
 ---
-title: FreeRootCauseInfos function
+title: FreeRootCauseInfos function (Ndattributils.h)
 description: Deallocates the memory allocated internally to an array of RootCauseInfo structures.
 ms.assetid: b45fa432-0db4-470b-80ce-ae25c33f88d6
 keywords:

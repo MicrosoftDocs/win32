@@ -1,5 +1,5 @@
 ---
-title: EM_STREAMOUT message
+title: EM_STREAMOUT message (Richedit.h)
 description: Causes a rich edit control to pass its contents to an application \ 8211;defined EditStreamCallback callback function. The callback function can then write the stream of data to a file or any other location that it chooses.
 ms.assetid: 3f14aaac-4b17-47af-8f2b-503390631a88
 keywords:

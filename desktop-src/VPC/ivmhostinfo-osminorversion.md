@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo OSMinorVersion property
+title: IVMHostInfo OSMinorVersion property (VPCCOMInterfaces.h)
 description: Retrieves the minor version of the operating system running on the host machine.
 ms.assetid: 12f3ac59-ab7d-40f6-a0e6-fb870d2dff16
 keywords:

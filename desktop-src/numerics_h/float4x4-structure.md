@@ -1,5 +1,5 @@
 ---
-title: float4x4 structure
+title: float4x4 structure (Windowsnumerics.h)
 description: A 4x4 matrix, used for 3D transforms.
 ms.assetid: C0D2198A-B547-4153-AD02-9A47835FD272
 keywords:

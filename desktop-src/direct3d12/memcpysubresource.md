@@ -1,5 +1,5 @@
 ---
-title: MemcpySubresource function
+title: MemcpySubresource function (D3dx12.h)
 description: Copies a subresource row by row.
 ms.assetid: 33A9F99D-FD85-4FD6-AFD6-7A10F16C3D9B
 keywords:

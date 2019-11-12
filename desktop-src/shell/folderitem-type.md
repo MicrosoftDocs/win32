@@ -1,7 +1,7 @@
 ---
 Description: Contains a string representation of the item's type.
 ms.assetid: e851d632-9562-4194-a24c-12e757227b5b
-title: FolderItem.Type property
+title: FolderItem.Type property (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

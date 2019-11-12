@@ -1,7 +1,7 @@
 ---
 Description: Specifies for a media type whether each sample is independent of the other samples in the stream.
 ms.assetid: 40434f63-e191-45e1-b788-5f80fe7f49ae
-title: MF_MT_ALL_SAMPLES_INDEPENDENT attribute
+title: MF_MT_ALL_SAMPLES_INDEPENDENT attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

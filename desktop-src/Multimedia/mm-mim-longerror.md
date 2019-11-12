@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_LONGERROR message
+title: MM_MIM_LONGERROR message (Mmsystem.h)
 description: The MM\_MIM\_LONGERROR message is sent to a window when an invalid or incomplete MIDI system-exclusive message is received.
 ms.assetid: 2de4c2f8-2ded-4994-934c-6e72c95637b2
 keywords:

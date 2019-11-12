@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_STATIC_SAMPLER_DESC structure
+title: CD3DX12_STATIC_SAMPLER_DESC structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_STATIC\_SAMPLER\_DESC structure.
 ms.assetid: C402415D-7BD5-4E23-82C9-B29B0B5669B8
 keywords:

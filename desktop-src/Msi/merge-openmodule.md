@@ -1,7 +1,7 @@
 ---
 Description: The OpenModule method of the Merge object opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database.
 ms.assetid: 'fc976899-2c39-4314-b2fb-417e0dfc53b9'
-title: Merge.OpenModule method
+title: Merge.OpenModule method (Mergemod.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

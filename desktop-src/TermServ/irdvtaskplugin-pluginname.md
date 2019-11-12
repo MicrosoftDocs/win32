@@ -1,5 +1,5 @@
 ---
-title: IRDVTaskPlugin PluginName property
+title: IRDVTaskPlugin PluginName property (Tspubplugincom.h)
 description: Contains the display name of the task agent.
 ms.assetid: 6f414270-e90b-4075-80fe-f918acbdd205
 ms.tgt_platform: multiple

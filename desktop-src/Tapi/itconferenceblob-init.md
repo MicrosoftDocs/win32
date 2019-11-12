@@ -1,7 +1,7 @@
 ---
 Description: The Init method initializes the conference blob based on a textual string. If pBlob is NULL, default values are used.
 ms.assetid: ba492503-90ff-45dd-a39f-6d4451e57339
-title: ITConferenceBlob::Init method
+title: ITConferenceBlob::Init method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

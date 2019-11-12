@@ -1,5 +1,5 @@
 ---
-title: glReadBuffer function
+title: glReadBuffer function (Gl.h)
 description: The glReadBuffer function selects a color buffer source for pixels.
 ms.assetid: 734153fa-e809-4b70-867e-55e46ab95712
 keywords:

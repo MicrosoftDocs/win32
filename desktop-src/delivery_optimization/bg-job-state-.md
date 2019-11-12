@@ -1,5 +1,5 @@
 ---
-title: BG_JOB_STATE enumeration
+title: BG_JOB_STATE enumeration (Deliveryoptimization.h)
 description: The BG_JOB_STATE enumeration defines constant values for the different states of a job.
 ms.assetid: DB4806BD-08BC-4F0B-A7F4-BA0719112811
 keywords:

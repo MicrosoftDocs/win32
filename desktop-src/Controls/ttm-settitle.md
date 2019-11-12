@@ -1,5 +1,5 @@
 ---
-title: TTM_SETTITLE message
+title: TTM_SETTITLE message (Commctrl.h)
 description: Adds a standard icon and title string to a tooltip.
 ms.assetid: e745a592-eef7-4e0d-8939-a48b52c4ab9f
 keywords:

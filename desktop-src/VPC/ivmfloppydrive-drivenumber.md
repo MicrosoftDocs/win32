@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive DriveNumber property
+title: IVMFloppyDrive DriveNumber property (VPCCOMInterfaces.h)
 description: Retrieves the zero-based index of the controller to which the floppy drive is attached.
 ms.assetid: 79a40cad-d280-4c67-9214-0532569e47e4
 keywords:

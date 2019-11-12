@@ -1,5 +1,5 @@
 ---
-title: RB_GETBARINFO message
+title: RB_GETBARINFO message (Commctrl.h)
 description: Retrieves information about the rebar control and the image list it uses.
 ms.assetid: d3d56b95-7540-4e45-bb2e-b9d41cfcca0d
 keywords:

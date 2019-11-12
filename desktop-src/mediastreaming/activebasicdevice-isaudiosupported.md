@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice IsAudioSupported property
+title: ActiveBasicDevice IsAudioSupported property (PlayToDevice.h)
 description: Gets a value that indicates if the device supports audio.
 ms.assetid: 22ABB97B-58E7-4C21-B359-C10DFC9C7194
 keywords:

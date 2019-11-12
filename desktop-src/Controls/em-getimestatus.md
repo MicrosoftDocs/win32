@@ -1,5 +1,5 @@
 ---
-title: EM_GETIMESTATUS message
+title: EM_GETIMESTATUS message (Winuser.h)
 description: Gets a set of status flags that indicate how the edit control interacts with the Input Method Editor (IME).
 ms.assetid: 56705aed-afab-4f4d-9e0b-dc533b516a15
 keywords:

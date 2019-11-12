@@ -1,5 +1,5 @@
 ---
-title: CDM_GETFILEPATH message
+title: CDM_GETFILEPATH message (Commdlg.h)
 description: Retrieves the path and file name of the selected file in an Explorer-style Open or Save As dialog box.
 ms.assetid: fad8c5e2-9838-45a8-8c51-4326c989d939
 keywords:

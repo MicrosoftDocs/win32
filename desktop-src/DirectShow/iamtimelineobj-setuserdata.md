@@ -1,7 +1,7 @@
 ---
 Description: The SetUserData method sets application-defined persistent data.
 ms.assetid: 195d8e92-a25c-40ff-8cc7-c1f05bdd76ab
-title: IAMTimelineObj::SetUserData method
+title: IAMTimelineObj::SetUserData method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

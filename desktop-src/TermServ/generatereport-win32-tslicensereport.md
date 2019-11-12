@@ -1,5 +1,5 @@
 ---
-title: GenerateReport method of the Win32_TSLicenseReport class
+title: GenerateReport method of the Win32_TSLicenseReport class (Gpmgmt.h)
 description: GenerateReport is no longer available for use as of Windows Server 2012.
 ms.assetid: 2d3b16d6-52e8-491f-b6e5-419e9a21013b
 ms.tgt_platform: multiple

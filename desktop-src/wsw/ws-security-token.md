@@ -1,5 +1,5 @@
 ---
-title: WS_SECURITY_TOKEN
+title: WS_SECURITY_TOKEN (WebServices.h)
 description: The opaque handle representing a security token.
 ms.assetid: 050a2ce5-279e-48fb-85da-1d0b11cd8229
 keywords:

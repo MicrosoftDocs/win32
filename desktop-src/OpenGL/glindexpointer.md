@@ -1,5 +1,5 @@
 ---
-title: glIndexPointer function
+title: glIndexPointer function (Gl.h)
 description: The glIndexPointer function defines an array of color indexes.
 ms.assetid: b435d950-1f87-4041-93e4-f1f8786cabdb
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: glEvalCoord1d function
+title: glEvalCoord1d function (Gl.h)
 description: The glEvalCoord1d function evaluates enabled one-dimensional maps.
 ms.assetid: 5e884f11-fb3f-4158-8041-6c71509bf7d5
 keywords:

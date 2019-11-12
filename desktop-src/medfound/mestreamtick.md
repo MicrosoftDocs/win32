@@ -1,7 +1,7 @@
 ---
 Description: Signals that a media stream does not have data available at a specified time.
 ms.assetid: 1a00fff1-c3ab-4965-a663-3c15bb48ea98
-title: MEStreamTick event
+title: MEStreamTick event (Mfobjects.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

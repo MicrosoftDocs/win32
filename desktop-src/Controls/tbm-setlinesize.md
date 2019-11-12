@@ -1,5 +1,5 @@
 ---
-title: TBM_SETLINESIZE message
+title: TBM_SETLINESIZE message (Commctrl.h)
 description: Sets the number of logical positions the trackbar's slider moves in response to keyboard input from the arrow keys, such as the or keys. The logical positions are the integer increments in the trackbar's range of minimum to maximum slider positions.
 ms.assetid: 7fe3f9b8-2ddf-4460-882f-6be439f83daa
 keywords:

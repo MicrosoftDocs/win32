@@ -1,5 +1,5 @@
 ---
-title: CBEN_GETDISPINFO notification code
+title: CBEN_GETDISPINFO notification code (Commctrl.h)
 description: Sent to retrieve display information about a callback item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: a181be28-0001-4953-8e59-77aff2dc40be
 keywords:

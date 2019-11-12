@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a Media Foundation transform (MFT) is registered only in the applications process.
 ms.assetid: e10d6378-8e85-4f73-9fa3-a2e954fc8249
-title: MFT_PROCESS_LOCAL_Attribute attribute
+title: MFT_PROCESS_LOCAL_Attribute attribute (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

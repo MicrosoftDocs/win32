@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the encoder produces encoded fields or encoded frames. This property applies to MPEG video encoders.
 ms.assetid: bf21ea55-662f-4a69-8528-67592b8b8645
-title: AVEncMPVFrameFieldMode property
+title: AVEncMPVFrameFieldMode property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

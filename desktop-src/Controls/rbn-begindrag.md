@@ -1,5 +1,5 @@
 ---
-title: RBN_BEGINDRAG notification code
+title: RBN_BEGINDRAG notification code (Commctrl.h)
 description: Sent by a rebar control when the user begins dragging a band. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e1565b31-7694-43cc-87ee-c9294a0612cd
 keywords:

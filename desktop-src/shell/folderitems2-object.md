@@ -1,6 +1,6 @@
 ---
 Description: Extends the FolderItems object. It supports one additional method.
-title: FolderItems2 object
+title: FolderItems2 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

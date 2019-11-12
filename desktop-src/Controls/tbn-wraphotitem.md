@@ -1,5 +1,5 @@
 ---
-title: TBN_WRAPHOTITEM notification code
+title: TBN_WRAPHOTITEM notification code (Commctrl.h)
 description: Notifies an application with two or more toolbars that the hot item is about to change. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 169309ec-68dd-4cbb-8963-f842cf75b4fc
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the video is monochrome (black and white) or contains color.
 ms.assetid: 4f6257e0-3ca9-4d10-a207-cd9600502298
-title: AVEncVideoSourceIsBW property
+title: AVEncVideoSourceIsBW property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

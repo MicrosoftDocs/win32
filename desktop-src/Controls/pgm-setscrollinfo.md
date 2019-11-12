@@ -1,5 +1,5 @@
 ---
-title: PGM_SETSCROLLINFO message
+title: PGM_SETSCROLLINFO message (Commctrl.h)
 description: Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can send this message explicitly or by using the Pager\_SetScrollInfo macro.
 ms.assetid: e02450b8-f2b5-45b2-9395-d7412119849c
 keywords:

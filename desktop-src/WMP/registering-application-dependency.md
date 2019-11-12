@@ -1,5 +1,5 @@
 ---
-title: Registering Application Dependency
+title: Registering Application Dependency (Windows Media Player SDK)
 description: Registering Application Dependency
 ms.assetid: 966683d6-e082-448d-8473-baae2311c082
 keywords:

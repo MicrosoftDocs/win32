@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense GetNext method
+title: IWMDRMLicense GetNext method (Wmdrmsdk.h)
 description: The GetNext method loads the information about the next item in the list.
 ms.assetid: 5ef91751-2883-4a8e-9908-7a6dfe6d2af3
 keywords:

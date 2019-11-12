@@ -1,5 +1,5 @@
 ---
-title: PSM_GETTABCONTROL message
+title: PSM_GETTABCONTROL message (Prsht.h)
 description: Retrieves the handle to the tab control of a property sheet. You can send this message explicitly or by using the PropSheet\_GetTabControl macro.
 ms.assetid: 5ddea541-c8e0-4357-b08e-3b5e64be377f
 keywords:

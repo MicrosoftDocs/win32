@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the mouse pointer enters the InkPicture control.
 ms.assetid: cb31bf2f-e889-4da3-b408-e5612e2af95b
-title: InkPicture.MouseEnter event
+title: InkPicture.MouseEnter event (Msinkaut.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

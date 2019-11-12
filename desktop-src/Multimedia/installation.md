@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Installation (Windows Multimedia)
 description: Installation
 ms.assetid: '1f0e23ad-4db7-4f32-98d9-e672370db559'
 keywords:

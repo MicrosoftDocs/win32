@@ -1,7 +1,7 @@
 ---
 Description: The Name property of the ConfigurableItem object returns the value from the Name column of the ModuleConfiguration table.
 ms.assetid: c28f508f-0788-4b60-a383-65c508ceef5f
-title: ConfigurableItem.Name property
+title: ConfigurableItem.Name property (Mergemod.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

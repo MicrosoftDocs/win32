@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC MaximumNetworkAdaptersPerVM property
+title: IVMVirtualPC MaximumNetworkAdaptersPerVM property (VPCCOMInterfaces.h)
 description: Maximum number of networks interfaces per virtual machine.
 ms.assetid: 92da4958-5a67-422e-a6bd-68cabf1835ab
 keywords:

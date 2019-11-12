@@ -1,5 +1,5 @@
 ---
-title: TB_ISBUTTONCHECKED message
+title: TB_ISBUTTONCHECKED message (Commctrl.h)
 description: Determines whether the specified button in a toolbar is checked.
 ms.assetid: ce576951-8db6-4854-8457-211ece018ce8
 keywords:

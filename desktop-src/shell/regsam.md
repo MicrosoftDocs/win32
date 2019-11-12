@@ -1,6 +1,6 @@
 ---
 Description: A data type used for specifying the security access attributes in the registry.
-title: REGSAM
+title: REGSAM (Winnt.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 003f6be9-e4ba-4d23-b486-a167063c630e

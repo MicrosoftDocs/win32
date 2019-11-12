@@ -1,5 +1,5 @@
 ---
-title: glPushAttrib function
+title: glPushAttrib function (Gl.h)
 description: Pushes the attribute stack.
 ms.assetid: 3c7b93cc-2112-4771-b422-a244821447e5
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Primitives
+title: Primitives (OpenGL)
 description: Primitives
 ms.assetid: 'a16e5090-8e33-43f4-91df-241a7dd9a860'
 keywords:

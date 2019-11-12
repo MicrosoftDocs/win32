@@ -2,7 +2,7 @@
 Description: The CIM\_BIOSElement class represents the low-level software that is loaded into non-volatile storage and used to start and configure a computer system.
 ms.assetid: c203244a-51e0-4733-a0bc-cf9b7957f364
 ms.tgt_platform: multiple
-title: CIM_BIOSElement class
+title: CIM_BIOSElement class (CIMWin32 WMI Providers)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

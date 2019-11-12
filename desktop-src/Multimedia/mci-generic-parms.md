@@ -1,5 +1,5 @@
 ---
-title: MCI_GENERIC_PARMS structure
+title: MCI_GENERIC_PARMS structure (Mciapi.h)
 description: The MCI\_GENERIC\_PARMS structure contains the handle of the window that receives notification messages. This structure is used for MCI command messages that have empty parameter lists.
 ms.assetid: 706e406c-d263-4347-932c-e5f125acfe0f
 keywords:

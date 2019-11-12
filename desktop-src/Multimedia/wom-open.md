@@ -1,5 +1,5 @@
 ---
-title: WOM_OPEN message
+title: WOM_OPEN message (Mmsystem.h)
 description: The WOM\_OPEN message is sent to a waveform-audio output callback function when a waveform-audio output device is opened.
 ms.assetid: '7fa175d3-7c07-4ca0-a0bd-4526fbc24f8d'
 keywords:

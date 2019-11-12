@@ -1,7 +1,7 @@
 ---
 Description: Contains the camera extrinsics for the stream.
 ms.assetid: 2236C135-BA3D-4C1B-8A39-5E23EF67425A
-title: MFStreamExtension_CameraExtrinsics attribute
+title: MFStreamExtension_CameraExtrinsics attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

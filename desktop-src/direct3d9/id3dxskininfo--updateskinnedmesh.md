@@ -1,7 +1,7 @@
 ---
 Description: Applies software skinning to the target vertices based on the current matrices.
 ms.assetid: 4858dfd4-dc0d-4852-9165-8ae1b40386d4
-title: ID3DXSkinInfo::UpdateSkinnedMesh method
+title: ID3DXSkinInfo::UpdateSkinnedMesh method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

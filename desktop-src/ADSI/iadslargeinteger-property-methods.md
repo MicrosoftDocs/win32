@@ -1,5 +1,5 @@
 ---
-title: IADsLargeInteger Property Methods
+title: IADsLargeInteger Property Methods (Iads.h)
 description: The property methods of the IADsLargeInteger interface get and set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 73e0c7fe-e468-4f92-9c9e-721bf00dd4bb
 ms.tgt_platform: multiple

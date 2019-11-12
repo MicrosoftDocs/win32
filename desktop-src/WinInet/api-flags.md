@@ -1,5 +1,5 @@
 ---
-title: API Flags
+title: API Flags (Wininet.h)
 description: Many of the WinINet functions accept an array of flags as a parameter. The following is a brief description of the defined flags.
 ms.assetid: 63027a3b-dc59-41c4-a22a-5d6e841159aa
 topic_type:

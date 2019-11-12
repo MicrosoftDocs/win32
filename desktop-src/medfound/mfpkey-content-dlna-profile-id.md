@@ -1,7 +1,7 @@
 ---
 Description: Contains the Digital Living Network Alliance (DLNA) profile identifier for a media source.
 ms.assetid: 940ed0df-0912-4c13-a490-0c6be82c9743
-title: MFPKEY_Content_DLNA_Profile_ID property
+title: MFPKEY_Content_DLNA_Profile_ID property (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: WM_DDE_UNADVISE message
+title: WM_DDE_UNADVISE message (Dde.h)
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_UNADVISE message to inform a DDE server application that the specified item or a particular clipboard format for the item should no longer be updated.
 ms.assetid: 9a5f9a86-e6fa-450e-b8bf-f20042c7e6d1
 keywords:

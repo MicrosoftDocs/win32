@@ -1,7 +1,7 @@
 ---
 Description: Specifies the attributes of an IInkAnalysisRecognizer.
 ms.assetid: 'e9577d83-0212-4f2f-88d7-e9153ec9fae5'
-title: RecognizerCapabilities enumeration
+title: RecognizerCapabilities enumeration (IACom.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

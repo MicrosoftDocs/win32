@@ -1,5 +1,5 @@
 ---
-title: IADsPrintJob Property Methods
+title: IADsPrintJob Property Methods (Iads.h)
 description: Property methods for the IADsPrintJob interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 23e7cbf3-09ce-44ce-b618-2c0fa6b34428
 ms.tgt_platform: multiple

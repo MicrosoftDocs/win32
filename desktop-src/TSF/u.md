@@ -1,5 +1,5 @@
 ---
-title: U
+title: U (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 'e2782eb3-85fb-45bf-baa1-8415e35d751c'

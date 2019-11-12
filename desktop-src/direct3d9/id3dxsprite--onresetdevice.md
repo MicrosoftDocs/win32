@@ -1,7 +1,7 @@
 ---
 Description: Use this method to re-acquire resources and save initial state.
 ms.assetid: 74f8616e-c3ed-4231-b701-009213ea48c0
-title: ID3DXSprite::OnResetDevice method
+title: ID3DXSprite::OnResetDevice method (D3dx9core.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

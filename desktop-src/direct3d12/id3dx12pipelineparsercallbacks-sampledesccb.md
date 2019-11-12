@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks SampleDescCb method
+title: ID3DX12PipelineParserCallbacks SampleDescCb method (D3DX12.h)
 description: Calls the sample description subobject callback of an object that implements this interface.
 ms.assetid: 32F112D3-97B1-45C2-8744-9F27DC95C249
 keywords:

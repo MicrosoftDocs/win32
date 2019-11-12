@@ -1,7 +1,7 @@
 ---
 Description: The AddTail method appends another list to the end of this list.
 ms.assetid: 996523cd-d9ba-406a-afdf-494d328dc9dd
-title: CBaseList.AddTail method
+title: CBaseList.AddTail method (Wxlist.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

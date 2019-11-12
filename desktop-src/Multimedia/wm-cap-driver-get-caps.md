@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_DRIVER_GET_CAPS message
+title: WM_CAP_DRIVER_GET_CAPS message (Vfw.h)
 description: The WM\_CAP\_DRIVER\_GET\_CAPS message returns the hardware capabilities of the capture driver currently connected to a capture window. You can send this message explicitly or by using the capDriverGetCaps macro.
 ms.assetid: 898a800c-1109-47cd-bcc9-cb61d86a4a2e
 keywords:

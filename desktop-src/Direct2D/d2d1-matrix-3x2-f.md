@@ -1,5 +1,5 @@
 ---
-title: D2D1_MATRIX_3X2_F
+title: D2D1_MATRIX_3X2_F (D2d1.h)
 description: Represents a 3-by-2 matrix.
 ms.assetid: f05d7555-6482-4eea-950f-7b443892cc1f
 keywords:

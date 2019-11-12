@@ -1,5 +1,5 @@
 ---
-title: TVM_GETVISIBLECOUNT message
+title: TVM_GETVISIBLECOUNT message (Commctrl.h)
 description: Obtains the number of items that can be fully visible in the client window of a tree-view control. You can send this message explicitly or by using the TreeView\_GetVisibleCount macro.
 ms.assetid: c3519543-3fb2-4ecf-ac01-905d0946cb1b
 keywords:

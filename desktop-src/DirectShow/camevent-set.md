@@ -1,7 +1,7 @@
 ---
 Description: The Set method signals the event.
 ms.assetid: dfcb1601-aa65-47f5-ae3c-f13fcd7b1398
-title: CAMEvent.Set method
+title: CAMEvent.Set method (Wxutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

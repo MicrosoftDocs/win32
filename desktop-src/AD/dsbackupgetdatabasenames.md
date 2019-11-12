@@ -1,5 +1,5 @@
 ---
-title: DsBackupGetDatabaseNames function
+title: DsBackupGetDatabaseNames function (Ntdsbcli.h)
 description: Obtains the list of database files to be backed up for the given backup context.
 ms.assetid: ba0447a1-38b0-4c0a-8c63-abaefb5b908f
 ms.tgt_platform: multiple

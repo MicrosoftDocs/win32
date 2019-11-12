@@ -1,7 +1,7 @@
 ---
 Description: The CBaseVideoWindow class implements the IDispatch methods of the IVideoWindow interface. The remaining IVideoWindow methods are left as pure virtual methods, and must be implemented by a derived class.
 ms.assetid: b6acec98-cff7-46ee-abd7-77f0b7ac3b9d
-title: CBaseVideoWindow class
+title: CBaseVideoWindow class (Ctlutil.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

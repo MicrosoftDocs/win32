@@ -1,5 +1,5 @@
 ---
-title: CFSTR_DSOBJECTNAMES
+title: CFSTR_DSOBJECTNAMES (DSClient.h)
 description: The CFSTR\_DSOBJECTNAMES clipboard format provides a global memory handle (HGLOBAL) that contains DSOBJECTNAMES structure.
 ms.assetid: b28428fa-1504-4dcc-9b2b-32ca1ae30ec5
 ms.tgt_platform: multiple

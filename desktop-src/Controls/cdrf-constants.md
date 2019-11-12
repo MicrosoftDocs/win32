@@ -1,5 +1,5 @@
 ---
-title: RF Constants
+title: RF Constants (CommCtrl.h)
 description: These constants are used as return values by a control in response to an NM\_CUSTOMDRAW notification code.
 ms.assetid: 6b05e27e-5d18-46f2-b326-2a5148597852
 topic_type:

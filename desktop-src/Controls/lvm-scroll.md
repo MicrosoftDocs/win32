@@ -1,5 +1,5 @@
 ---
-title: LVM_SCROLL message
+title: LVM_SCROLL message (Commctrl.h)
 description: Scrolls the content of a list-view control. You can send this message explicitly or by using the ListView\_Scroll macro.
 ms.assetid: 4bf6b74e-8fea-48ca-a151-8fd649fc50f8
 keywords:

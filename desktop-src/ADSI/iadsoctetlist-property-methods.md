@@ -1,5 +1,5 @@
 ---
-title: IADsOctetList Property Methods
+title: IADsOctetList Property Methods (Iads.h)
 description: The property method of the IADsOctetList interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 6fe29a0d-dd53-4cc2-8152-22a0a2756c2c
 ms.tgt_platform: multiple

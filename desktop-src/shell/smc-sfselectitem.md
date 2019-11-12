@@ -1,6 +1,6 @@
 ---
 Description: The user has selected the item specified by the accompanying SMDATA structure.
-title: SMC_SFSELECTITEM message
+title: SMC_SFSELECTITEM message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 82c3dfca-98a8-43ca-bebc-85bfdf640d38

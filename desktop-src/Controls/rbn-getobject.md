@@ -1,5 +1,5 @@
 ---
-title: RBN_GETOBJECT notification code
+title: RBN_GETOBJECT notification code (Commctrl.h)
 description: Sent by a rebar control created with the RBS\_REGISTERDROP style when an object is dragged over a band in the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 057474c1-5f65-4290-973e-4366b760365a
 keywords:

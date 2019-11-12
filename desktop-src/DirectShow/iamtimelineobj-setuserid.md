@@ -1,7 +1,7 @@
 ---
 Description: The SetUserID method sets an application-defined identifier for the object.
 ms.assetid: 102fe29e-dc2c-4377-bce3-ba3c61dcb355
-title: IAMTimelineObj::SetUserID method
+title: IAMTimelineObj::SetUserID method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

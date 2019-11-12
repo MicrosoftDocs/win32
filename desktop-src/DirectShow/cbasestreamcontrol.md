@@ -1,7 +1,7 @@
 ---
 Description: This class implements the IAMStreamControl interface for input and output pins.
 ms.assetid: a0ddc2d5-8385-4209-b1c5-9822c30f8a02
-title: CBaseStreamControl class
+title: CBaseStreamControl class (Strmctl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: ID2D1GeometrySink AddArc methods
+title: ID2D1GeometrySink AddArc methods (D2d1.h)
 description: Creates a single arc and adds it to the path geometry.
 ms.assetid: 845fed36-8425-45fd-a12e-7537e5ba3c4f
 keywords:

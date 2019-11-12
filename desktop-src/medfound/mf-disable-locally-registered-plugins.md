@@ -1,7 +1,7 @@
 ---
 Description: Specifies if locally registered plugins are disabled.
 ms.assetid: 67108955-1EDF-4AAB-8B9A-25926F8B5E62
-title: MF_DISABLE_LOCALLY_REGISTERED_PLUGINS attribute
+title: MF_DISABLE_LOCALLY_REGISTERED_PLUGINS attribute (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

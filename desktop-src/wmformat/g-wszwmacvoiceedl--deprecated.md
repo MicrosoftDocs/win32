@@ -1,5 +1,5 @@
 ---
-title: g_wszWMACVoiceEDL
+title: g_wszWMACVoiceEDL (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 9120fc4f-bfaa-4b34-9f9f-8b22f5af11f5
 keywords:

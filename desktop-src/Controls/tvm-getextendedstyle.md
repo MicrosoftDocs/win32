@@ -1,5 +1,5 @@
 ---
-title: TVM_GETEXTENDEDSTYLE message
+title: TVM_GETEXTENDEDSTYLE message (Commctrl.h)
 description: Retrieves the extended style for a tree-view control. Send this message explicitly or by using the TreeView\_GetExtendedStyle macro.
 ms.assetid: adc74cc5-e741-4966-bf49-a4b0c67e645a
 keywords:

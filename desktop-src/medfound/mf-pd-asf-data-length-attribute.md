@@ -1,7 +1,7 @@
 ---
 Description: Specifies the size, in bytes, of the data section of an Advanced Systems Format (ASF) file.
 ms.assetid: 93a0bf27-23db-4e8a-b471-a42122e8f9aa
-title: MF_PD_ASF_DATA_LENGTH attribute
+title: MF_PD_ASF_DATA_LENGTH attribute (Wmcontainer.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

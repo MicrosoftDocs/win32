@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetPatchConstantSignatureElementDesc method
+title: ID3DX11EffectShaderVariable GetPatchConstantSignatureElementDesc method (D3dx11effect.h)
 description: Get a patch constant signature description.
 ms.assetid: 72a86cf6-ace2-4306-ac5c-37d888c087f7
 keywords:

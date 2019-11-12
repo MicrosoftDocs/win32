@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectTechnique interface
+title: ID3DX11EffectTechnique interface (D3dx11effect.h)
 description: An ID3DX11EffectTechnique interface is a collection of passes.The lifetime of an ID3DX11EffectTechnique object is equal to the lifetime of its parent ID3DX11Effect object.
 ms.assetid: 63d52cac-287d-4432-bf2b-7b4e67e525e6
 keywords:

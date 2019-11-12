@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_VIDEOFORMAT message
+title: WM_CAP_SET_VIDEOFORMAT message (Vfw.h)
 description: The WM\_CAP\_SET\_VIDEOFORMAT message sets the format of captured video data. You can send this message explicitly or by using the capSetVideoFormat macro.
 ms.assetid: 4f9cf90d-7ccb-4fc7-aad5-3d7e082526be
 keywords:

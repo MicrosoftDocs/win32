@@ -1,5 +1,5 @@
 ---
-title: Appendix
+title: Appendix (HLSL)
 description: The HLSL appendix lists additional information such as the words that are recognized as keywords by the language, and the grammar used for creating HLSL statements. It is published here for completeness.
 ms.assetid: f989be4a-2f88-411d-aade-6f6e79120456
 ms.topic: article

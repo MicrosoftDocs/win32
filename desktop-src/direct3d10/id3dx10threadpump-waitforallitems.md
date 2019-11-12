@@ -1,7 +1,7 @@
 ---
 Description: Wait for all work items in the thread pump to finish.
 ms.assetid: d81c57d6-475c-444b-82c0-87b29ce0cbb4
-title: ID3DX10ThreadPump::WaitForAllItems method
+title: ID3DX10ThreadPump::WaitForAllItems method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

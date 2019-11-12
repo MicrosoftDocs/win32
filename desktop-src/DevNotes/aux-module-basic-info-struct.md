@@ -1,7 +1,7 @@
 ---
 Description: Contains basic module information.
 ms.assetid: 5cdb0b11-8bd3-46d2-b214-85cdb2f274a7
-title: AUX_MODULE_BASIC_INFO structure
+title: AUX_MODULE_BASIC_INFO structure (Aux\_klib.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

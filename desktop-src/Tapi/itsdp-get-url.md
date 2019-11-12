@@ -1,7 +1,7 @@
 ---
 Description: The get\_Url method gets the URL.
 ms.assetid: 9ea2ddf6-b8c7-4bfa-aab3-ff2d2056837f
-title: ITSdp::get_Url method
+title: ITSdp::get_Url method (Sdpblb.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

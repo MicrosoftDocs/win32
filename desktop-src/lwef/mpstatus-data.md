@@ -1,5 +1,5 @@
 ---
-title: MPSTATUS_DATA structure
+title: MPSTATUS_DATA structure (MpClient.h)
 description: Contains data about the current status of a component of the product.
 ms.assetid: 6AEF485C-30D1-47DB-92B6-048B8CAA7833
 keywords:

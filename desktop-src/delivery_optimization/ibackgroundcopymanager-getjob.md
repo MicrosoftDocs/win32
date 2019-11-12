@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyManager GetJob method
+title: IBackgroundCopyManager GetJob method (Deliveryoptimization.h)
 description: Retrieves a specified job from the transfer queue. Typically, your application persists the job identifier, so you can later retrieve the job from the queue.
 ms.assetid: ED551A6B-66C7-47E9-93DA-E231BD637522
 keywords:

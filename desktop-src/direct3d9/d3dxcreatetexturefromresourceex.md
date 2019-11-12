@@ -1,7 +1,7 @@
 ---
 Description: Creates a texture from a resource. This is a more advanced function than D3DXCreateTextureFromResource.
 ms.assetid: 6015e2fa-9deb-4e6a-a401-f10fb05f40b7
-title: D3DXCreateTextureFromResourceEx function
+title: D3DXCreateTextureFromResourceEx function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

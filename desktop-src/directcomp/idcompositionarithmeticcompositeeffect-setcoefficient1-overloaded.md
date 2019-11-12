@@ -1,5 +1,5 @@
 ---
-title: IDCompositionArithmeticCompositeEffect setcoefficient1 methods
+title: IDCompositionArithmeticCompositeEffect setcoefficient1 methods (Dcomp.h)
 description: Sets the first coefficient for the equation used to composite the two input images.
 ms.assetid: 74b18201-5710-1213-51f8-2f97ba86c9a4
 keywords:

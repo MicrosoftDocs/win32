@@ -1,7 +1,7 @@
 ---
 Description: Notifies the system when an appbar's position has changed. An appbar should call this message in response to the WM\_WINDOWPOSCHANGED message.
 ms.assetid: 8ca51f5f-b6cf-4f2c-98f4-69c992679320
-title: ABM_WINDOWPOSCHANGED message
+title: ABM_WINDOWPOSCHANGED message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

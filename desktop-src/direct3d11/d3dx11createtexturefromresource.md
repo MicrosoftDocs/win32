@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateTextureFromResource function
+title: D3DX11CreateTextureFromResource function (D3DX11.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use resource functions, then these DirectXTK library (runtime), CreateXXXTextureFromMemory (where XXX is DDS or WIC)DirectXTex library (tools), LoadFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then CreateTexture Create a texture from another resource.
 ms.assetid: 2b62239a-c19b-4d4f-9fd2-afcd87ba0fac
 keywords:

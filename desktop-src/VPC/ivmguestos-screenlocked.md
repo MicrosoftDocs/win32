@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS ScreenLocked property
+title: IVMGuestOS ScreenLocked property (VPCCOMInterfaces.h)
 description: Indicates whether the screen in the guest operating system is locked.
 ms.assetid: 5ce2e0ad-b98c-4aa7-99b5-0fc85026a121
 keywords:

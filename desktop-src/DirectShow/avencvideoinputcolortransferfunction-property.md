@@ -1,7 +1,7 @@
 ---
 Description: Specifies the conversion function from RGB to R'G'B' for input video.
 ms.assetid: ccfdeb65-6188-4fea-bbef-2510271fbf1e
-title: AVEncVideoInputColorTransferFunction property
+title: AVEncVideoInputColorTransferFunction property (Codecapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

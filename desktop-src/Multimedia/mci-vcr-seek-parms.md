@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_SEEK_PARMS structure
+title: MCI_VCR_SEEK_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_SEEK\_PARMS structure contains parameters for the MCI\_SEEK command for video-cassette recorders.
 ms.assetid: 40a9cef0-abdb-4698-b11e-5c3f67ea846b
 keywords:

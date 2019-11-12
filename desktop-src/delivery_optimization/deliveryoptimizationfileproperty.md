@@ -1,5 +1,5 @@
 ---
-title: DeliveryOptimizationFileProperty enumeration 
+title: DeliveryOptimizationFileProperty enumeration  (Deliveryoptimization.h)
 description: The DeliveryOptimizationFileProperty enumeration specifies the ID of an optional property for the DO file.
 keywords:
 - DeliveryOptimizationFileProperty enumeration

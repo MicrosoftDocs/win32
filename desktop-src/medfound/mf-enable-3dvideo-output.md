@@ -1,7 +1,7 @@
 ---
 Description: Specifies how a Media Foundation transform (MFT) should output a 3D stereoscopic video stream.
 ms.assetid: AA75A2FB-DEAC-44E9-93E9-4AC2D9F03B39
-title: MF_ENABLE_3DVIDEO_OUTPUT attribute
+title: MF_ENABLE_3DVIDEO_OUTPUT attribute (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

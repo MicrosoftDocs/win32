@@ -1,7 +1,7 @@
 ---
 Description: Number of valid bits of audio data in each audio sample.
 ms.assetid: b5b97700-c98a-4394-a184-661852add0b4
-title: MF_MT_AUDIO_VALID_BITS_PER_SAMPLE attribute
+title: MF_MT_AUDIO_VALID_BITS_PER_SAMPLE attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

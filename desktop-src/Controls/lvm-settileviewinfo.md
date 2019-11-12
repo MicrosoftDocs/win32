@@ -1,5 +1,5 @@
 ---
-title: LVM_SETTILEVIEWINFO message
+title: LVM_SETTILEVIEWINFO message (Commctrl.h)
 description: Sets information that a list-view control uses in tile view.
 ms.assetid: 1c4f2aff-1ce1-484a-9360-3efbe870b39b
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IMsRdpClientNonScriptable3 PromptForCredentials property
+title: IMsRdpClientNonScriptable3 PromptForCredentials property (Wuapi.h)
 description: Specifies or retrieves whether the prompt for credentials dialog is enabled for the connection.
 ms.assetid: 252ec5bd-bd52-40d4-ae48-b2c00c0720c0
 ms.tgt_platform: multiple

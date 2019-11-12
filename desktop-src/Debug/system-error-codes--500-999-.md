@@ -1,7 +1,7 @@
 ---
 Description: Describes error codes 500-999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 8d8b427b-b761-4023-a834-a6eff96d6ba1
-title: System Error Codes (500-999)
+title: System Error Codes (500-999) (WinError.h)
 ms.topic: reference
 ms.date: 07/18/2019
 ---

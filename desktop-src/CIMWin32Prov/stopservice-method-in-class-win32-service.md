@@ -2,7 +2,7 @@
 Description: Places the service, represented by the Win32\_Service object, in the stopped state.
 ms.assetid: cc2c71f7-12e6-4ba4-bfb4-f23845d798b5
 ms.tgt_platform: multiple
-title: StopService method of the Win32_Service class
+title: StopService method of the Win32_Service class (Sdoias.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

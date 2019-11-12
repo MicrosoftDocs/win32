@@ -1,5 +1,5 @@
 ---
-title: Designing Custom Properties, Events, and Control Patterns
+title: Design custom properties, events, and control patterns
 description: The design of a custom property, event, or control pattern should be useful in a wide variety of control implementations.
 ms.assetid: e4b224a0-3958-4ae7-96cb-fe6dc16511a7
 keywords:
@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Designing Custom Properties, Events, and Control Patterns
+# Design custom properties, events, and control patterns
 
 The design of a custom property, event, or control pattern should be useful in a wide variety of control implementations. Control- or application-specific designs that are useful only in limited scenarios should be avoided. The design should follow the example of the existing Microsoft UI Automation properties, events, and control patterns, which were carefully specified to meet the needs of a wide variety of accessibility and automated testing applications.
 

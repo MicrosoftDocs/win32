@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
 ms.assetid: 38E6AA56-EE38-48D5-92F1-F29ABB2C7A72
-title: MF_MT_TIMESTAMP_CAN_BE_DTS attribute
+title: MF_MT_TIMESTAMP_CAN_BE_DTS attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

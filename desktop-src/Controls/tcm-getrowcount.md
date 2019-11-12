@@ -1,5 +1,5 @@
 ---
-title: TCM_GETROWCOUNT message
+title: TCM_GETROWCOUNT message (Commctrl.h)
 description: Retrieves the current number of rows of tabs in a tab control. You can send this message explicitly or by using the TabCtrl\_GetRowCount macro.
 ms.assetid: ef104374-1030-46c3-876e-083df73854ab
 keywords:

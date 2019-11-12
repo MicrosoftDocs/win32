@@ -1,5 +1,5 @@
 ---
-title: MMIOM_SEEK message
+title: MMIOM_SEEK message (Mmsystem.h)
 description: The MMIOM\_SEEK message is sent to an I/O procedure by the mmioSeek function to request that the current file position be moved.
 ms.assetid: 428b231a-6e00-4458-9ba2-e9b0b028843a
 keywords:

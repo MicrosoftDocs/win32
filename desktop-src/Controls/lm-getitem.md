@@ -1,5 +1,5 @@
 ---
-title: LM_GETITEM message
+title: LM_GETITEM message (Commctrl.h)
 description: Retrieves the states and attributes of an item.
 ms.assetid: 75381f28-04d7-4a5c-bc0e-4cc74a06553f
 keywords:

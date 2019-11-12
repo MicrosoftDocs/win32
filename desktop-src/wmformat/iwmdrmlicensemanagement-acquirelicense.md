@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement AcquireLicense method
+title: IWMDRMLicenseManagement AcquireLicense method (Wmdrmsdk.h)
 description: The AcquireLicense method asynchronously acquires a license from a specified URL.
 ms.assetid: 2e134f39-1f45-4d3a-b7c7-460aa0a250d0
 keywords:

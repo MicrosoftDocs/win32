@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPortCollection interface
+title: IVMSerialPortCollection interface (VPCCOMInterfaces.h)
 description: Defines the collection of serial ports within the virtual machine. To obtain an IVMSerialPortCollection object, use the IVMVirtualMachine SerialPorts property.
 ms.assetid: c0ee9799-f3f7-477e-b33b-52f424752aad
 keywords:

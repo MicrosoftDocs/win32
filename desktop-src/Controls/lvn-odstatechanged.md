@@ -1,5 +1,5 @@
 ---
-title: LVN_ODSTATECHANGED notification code
+title: LVN_ODSTATECHANGED notification code (Commctrl.h)
 description: Sent by a list-view control when the state of an item or range of items has changed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: a3aafda5-a3ec-4f84-8153-8d34097e04f1
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the mesh options enabled for this mesh at creation time.
 ms.assetid: 4be990d7-77ab-4273-b852-e6283a89ac6c
-title: ID3DXBaseMesh::GetOptions method
+title: ID3DXBaseMesh::GetOptions method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,7 @@
 Description: Contains definitions of security terms that begin with the letter R.
 Robots: noindex, nofollow
 ms.assetid: ce589e18-02ac-42c2-b76b-776deb686bbd
-title: R
+title: R (Security Glossary)
 ms.topic: article
 ms.date: 05/31/2018
 ---

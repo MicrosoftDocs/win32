@@ -1,5 +1,5 @@
 ---
-title: EM_GETEXTENDEDSTYLE message
+title: EM_GETEXTENDEDSTYLE message (Commctrl.h)
 description: Retrieves the extended style for an edit control. Send this message explicitly or by using the Edit\_GetExtendedStyle macro.
 ms.assetid: 557f796e-c9d1-4ea1-b8a6-44ae0bed5ffc
 keywords:

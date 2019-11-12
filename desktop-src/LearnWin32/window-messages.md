@@ -1,5 +1,5 @@
 ---
-title: Window Messages
+title: Window Messages (Get Started with Win32 and C++)
 description: .
 ms.assetid: 90c20456-44ed-4f0f-a6d3-b6c5660f0bc7
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 Description: The AttachPropertyInstanceEx function maps an existing property to a specific location in the recognized data, and modifies the value of the property data.
 ms.assetid: 08bd1959-5ce8-4cb8-af8b-abbf4839c484
-title: AttachPropertyInstanceEx function
+title: AttachPropertyInstanceEx function (Netmon.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: Enumerator object
+title: Enumerator object (WSManDisp.h)
 description: Represents a stream of results returned from operations, such as a Pull operation.
 ms.assetid: 8d8b461d-06a7-4600-8b68-2faf741a394b
 ms.tgt_platform: multiple

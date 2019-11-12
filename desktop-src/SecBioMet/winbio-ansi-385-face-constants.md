@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANSI_385_FACE Constants
+title: WINBIO_ANSI_385_FACE Constants (Winbio\_types.h)
 description: Specify the frontal face image types for facial recognition.
 ms.assetid: 16D21E40-C158-4674-80D0-AE9494124B96
 topic_type:

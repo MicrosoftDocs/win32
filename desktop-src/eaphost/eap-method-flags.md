@@ -1,5 +1,5 @@
 ---
-title: EAP Method Flags
+title: EAP Method Flags (Eaptypes.h)
 description: The EAP method flags are used within the supplicant, authenticator, and peer functions to specify behaviors of an EAP authentication session.
 ms.assetid: b6305349-3418-475e-8a37-2c06b399556e
 topic_type:

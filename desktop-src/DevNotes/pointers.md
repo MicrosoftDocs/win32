@@ -1,7 +1,7 @@
 ---
 Description: Pointers
 ms.assetid: C7A3753E-072D-41B6-A445-FA7F270A7D44
-title: Pointers
+title: Pointers (Developer Notes)
 ms.topic: article
 ms.date: 05/31/2018
 ---

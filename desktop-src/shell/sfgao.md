@@ -1,7 +1,7 @@
 ---
 Description: Attributes that can be retrieved on an item (file or folder) or set of items.
 ms.assetid: 4cb85995-cdc8-4474-8c4d-c783ac91c759
-title: SFGAO
+title: SFGAO (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

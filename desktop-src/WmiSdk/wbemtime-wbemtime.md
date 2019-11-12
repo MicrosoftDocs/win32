@@ -3,7 +3,7 @@ Description: The WBEMTime class constructor facilitates conversions between vari
 audience: developer
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
 ms.tgt_platform: multiple
-title: WBEMTime::WBEMTime constructors
+title: WBEMTime::WBEMTime constructors (WbemTime.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

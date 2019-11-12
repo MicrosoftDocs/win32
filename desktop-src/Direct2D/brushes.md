@@ -1,5 +1,5 @@
 ---
-title: Brushes
+title: Brushes (Direct2D)
 description: The topics in this section describe how to use Direct2D brushes, objects you use to paint fills and outlines.
 ms.assetid: acc58877-162b-4ce0-8b8e-0928b109416b
 ms.topic: article

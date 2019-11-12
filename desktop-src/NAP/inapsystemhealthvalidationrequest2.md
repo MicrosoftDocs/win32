@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest2 interface
+title: INapSystemHealthValidationRequest2 interface (NapSystemHealthValidator.h)
 description: Provides methods that are used to support system health validators which are defined by the application developer.
 ms.assetid: 12094203-bb6c-4028-9baf-a2a9b124ce6d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LBN_SETFOCUS notification code
+title: LBN_SETFOCUS notification code (Winuser.h)
 description: Notifies the application that the list box has received the keyboard focus. The parent window of the list box receives this notification code through the WM\_COMMAND message.
 ms.assetid: d9e5e035-98a5-4ece-ba40-6d341c101859
 keywords:

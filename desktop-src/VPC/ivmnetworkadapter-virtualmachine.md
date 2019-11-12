@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter VirtualMachine property
+title: IVMNetworkAdapter VirtualMachine property (VPCCOMInterfaces.h)
 description: Retrieves the virtual machine associated with this network interface.
 ms.assetid: a3519041-0081-44e7-aa76-760d59ca8587
 keywords:

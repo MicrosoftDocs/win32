@@ -1,5 +1,5 @@
 ---
-title: SetStringProperty method of the Win32_RDMSDeploymentSettings class
+title: SetStringProperty method of the Win32_RDMSDeploymentSettings class (Certenroll.h)
 description: Updates a string property for the deployment settings of a virtual desktop collection.
 ms.assetid: 500ab1cb-7336-47a8-adee-790976ea30fe
 ms.tgt_platform: multiple

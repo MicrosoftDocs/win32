@@ -1,5 +1,5 @@
 ---
-title: SNMPv1 Trap Types
+title: SNMPv1 Trap Types (Snmp.h)
 description: The SNMPv1 trap types describe a predefined set of generic trap types that are formatted to comply with the SNMPv1 trap PDU standard.
 ms.assetid: 3a652b8f-2ae1-4f8c-b0d6-388bc9171427
 topic_type:

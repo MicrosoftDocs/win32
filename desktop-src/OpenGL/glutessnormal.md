@@ -1,5 +1,5 @@
 ---
-title: gluTessNormal function
+title: gluTessNormal function (Glu.h)
 description: The gluTessNormal function specifies a normal for a polygon.
 ms.assetid: 8c3a90d3-760d-4a0a-9808-a797383fcc42
 keywords:

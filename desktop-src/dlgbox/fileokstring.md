@@ -1,5 +1,5 @@
 ---
-title: FILEOKSTRING message
+title: FILEOKSTRING message (Commdlg.h)
 description: An Open or Save As dialog box sends the FILEOKSTRING registered message to your hook procedure, OFNHookProc, when the user specifies a file name and clicks the OK button.
 ms.assetid: 32bf3cc7-76a2-4b78-81d7-682b088c4e14
 keywords:

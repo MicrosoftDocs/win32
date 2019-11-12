@@ -1,5 +1,5 @@
 ---
-title: Rebar Control Styles
+title: Rebar Control Styles (CommCtrl.h)
 description: Rebar controls support a variety of control styles in addition to standard window styles.
 ms.assetid: 9690a4bd-51bd-4df9-8988-7da3ece7899f
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: Miscellaneous Text Store Constants
+title: Miscellaneous Text Store Constants (Textstor.h)
 description: The miscellaneous text store constants set certain properties for text stores.
 ms.assetid: 6e05ed74-fff3-4bc4-a21e-9af9492af23b
 topic_type:

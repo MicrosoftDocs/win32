@@ -1,7 +1,7 @@
 ---
 Description: Sets an integer value.
 ms.assetid: e7dcf3f4-1d0c-432a-85fc-0473c49956ff
-title: ID3DXTextureShader::SetInt method
+title: ID3DXTextureShader::SetInt method (D3DX9Shader.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 Description: For a 3D video format, specifies which view is the base view.
 ms.assetid: 11555BA0-D9BE-4239-A857-C9EEE86A8520
-title: MF_MT_VIDEO_3D_LEFT_IS_BASE attribute
+title: MF_MT_VIDEO_3D_LEFT_IS_BASE attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

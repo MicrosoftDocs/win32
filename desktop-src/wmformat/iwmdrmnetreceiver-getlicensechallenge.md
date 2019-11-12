@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNetReceiver GetLicenseChallenge method
+title: IWMDRMNetReceiver GetLicenseChallenge method (Wmdrmsdk.h)
 description: The GetLicenseChallenge method generates a Windows Media DRM for Network Devices license challenge that can be sent to a transmitter when requesting protected content.
 ms.assetid: c13b9e9e-b076-411b-a106-b602544faaba
 keywords:

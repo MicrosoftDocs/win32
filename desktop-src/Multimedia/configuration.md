@@ -1,5 +1,5 @@
 ---
-title: Configuration
+title: Configuration (Windows Multimedia)
 description: Configuration
 ms.assetid: 'd61d6c8b-8dba-45c2-ba99-0b2111a2d624'
 keywords:

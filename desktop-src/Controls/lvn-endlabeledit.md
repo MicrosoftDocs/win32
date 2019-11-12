@@ -1,5 +1,5 @@
 ---
-title: LVN_ENDLABELEDIT notification code
+title: LVN_ENDLABELEDIT notification code (Commctrl.h)
 description: Notifies a list-view control's parent window about the end of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 03129fef-abf1-4374-b4b8-503c46ef7115
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: glEdgeFlag function
+title: glEdgeFlag function (Gl.h)
 description: Flags edges as either boundary or nonboundary.
 ms.assetid: cebaa4af-a3bc-4396-9ee0-8cc10bcaf256
 keywords:

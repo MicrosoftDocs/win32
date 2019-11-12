@@ -1,5 +1,5 @@
 ---
-title: EAP\_CRED\_RESP
+title: EAP\_CRED\_RESP (Eaptypes.h)
 description: Stores EAP security credentials within a EAP\_CONFIG\_INPUT\_FIELD\_ARRAY structure.
 ms.assetid: 714c75d8-71c7-4c3f-802a-a5e4f6ca65c2
 keywords:

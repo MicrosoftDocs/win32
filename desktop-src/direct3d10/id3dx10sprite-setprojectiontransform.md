@@ -1,7 +1,7 @@
 ---
 Description: Set the projection matrix for all sprites.
 ms.assetid: cb4c5546-1a31-40d9-a943-af4fbddcee01
-title: ID3DX10Sprite::SetProjectionTransform method
+title: ID3DX10Sprite::SetProjectionTransform method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

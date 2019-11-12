@@ -1,5 +1,5 @@
 ---
-title: PGN_HOTITEMCHANGE message
+title: PGN_HOTITEMCHANGE message (Commctrl.h)
 description: Notifies a pager control's parent window that the hot (highlighted) item has change. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0f59677c-0251-49f4-b909-6fac6d93f354
 keywords:

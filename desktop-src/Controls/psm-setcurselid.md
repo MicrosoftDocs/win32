@@ -1,5 +1,5 @@
 ---
-title: PSM_SETCURSELID message
+title: PSM_SETCURSELID message (Prsht.h)
 description: Activates the given page in a property sheet based on the resource identifier of the page. You can send this message explicitly or by using the PropSheet\_SetCurSelByID macro.
 ms.assetid: 6db5f6ab-77ce-4a80-a84d-cb66eb1cdeaa
 keywords:

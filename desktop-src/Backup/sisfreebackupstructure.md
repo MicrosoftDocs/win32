@@ -1,5 +1,5 @@
 ---
-title: SisFreeBackupStructure function
+title: SisFreeBackupStructure function (Sisbkup.h)
 description: Frees the specified SIS backup structure.
 ms.assetid: 34d5e919-e4bf-4105-ac15-a2ff5adfbdee
 keywords:

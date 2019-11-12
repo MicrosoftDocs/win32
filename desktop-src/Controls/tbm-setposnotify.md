@@ -1,5 +1,5 @@
 ---
-title: TBM_SETPOSNOTIFY message
+title: TBM_SETPOSNOTIFY message (Commctrl.h)
 description: Sets the current logical position of the slider in a trackbar.
 ms.assetid: 02f8899a-55b0-46ae-8642-9e534ab4abf5
 keywords:

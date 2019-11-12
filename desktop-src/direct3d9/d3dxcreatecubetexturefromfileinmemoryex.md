@@ -1,7 +1,7 @@
 ---
 Description: Creates a cube texture from a file in memory. This is a more advanced function than D3DXCreateCubeTextureFromFileInMemory.
 ms.assetid: 598016eb-9ea9-4dca-a297-5708a957da6a
-title: D3DXCreateCubeTextureFromFileInMemoryEx function
+title: D3DXCreateCubeTextureFromFileInMemoryEx function (D3dx9tex.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:

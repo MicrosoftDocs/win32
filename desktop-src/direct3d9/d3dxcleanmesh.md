@@ -1,7 +1,7 @@
 ---
 Description: Cleans a mesh, preparing it for simplification.
 ms.assetid: 2b586ecc-db87-4b20-a4fc-c8b547bebf65
-title: D3DXCleanMesh function
+title: D3DXCleanMesh function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

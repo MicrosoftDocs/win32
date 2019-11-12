@@ -1,7 +1,7 @@
 ---
 Description: Extracts the per-sample cluster IDs from an ID3DXPRTCompBuffer compressed data buffer.
 ms.assetid: d78d82ab-58bc-4b73-9ca0-8b7f06867618
-title: ID3DXPRTCompBuffer::ExtractClusterIDs method
+title: ID3DXPRTCompBuffer::ExtractClusterIDs method (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

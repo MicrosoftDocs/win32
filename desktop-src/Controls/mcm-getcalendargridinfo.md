@@ -1,5 +1,5 @@
 ---
-title: MCM_GETCALENDARGRIDINFO message
+title: MCM_GETCALENDARGRIDINFO message (Commctrl.h)
 description: Gets information about a calendar grid.
 ms.assetid: 6b385362-f963-4041-bc9f-d2b7a890c9b4
 keywords:

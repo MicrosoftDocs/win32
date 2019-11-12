@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRenderTargetViewVariable GetRenderTarget method
+title: ID3DX11EffectRenderTargetViewVariable GetRenderTarget method (D3dx11effect.h)
 description: Get a render-target.
 ms.assetid: 96984d0a-b8f4-444a-9683-3c37d8274d75
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive AttachHostDrive method
+title: IVMFloppyDrive AttachHostDrive method (VPCCOMInterfaces.h)
 description: Attaches a physical drive on the host to the floppy drive in the virtual machine.
 ms.assetid: 9be84e06-e38a-419a-be50-dddd0cc6d2dd
 keywords:

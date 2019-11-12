@@ -1,5 +1,5 @@
 ---
-title: UtilStringCopyWithAlloc function
+title: UtilStringCopyWithAlloc function (Ndattributils.h)
 description: Allocates and copies a source string.
 ms.assetid: e1400ae1-0edd-4b59-af03-3da1b9d7073b
 keywords:

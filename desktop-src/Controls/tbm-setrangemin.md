@@ -1,5 +1,5 @@
 ---
-title: TBM_SETRANGEMIN message
+title: TBM_SETRANGEMIN message (Commctrl.h)
 description: Sets the minimum logical position for the slider in a trackbar.
 ms.assetid: 85071be2-4df3-4b54-9122-b6dc767f6cb9
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Constructors exposed by XMINT2.
 ms.assetid: 9605c593-6fd1-46f2-9594-7a100c1325ab
-title: XMINT2 constructors
+title: XMINT2 constructors (Directxmath.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

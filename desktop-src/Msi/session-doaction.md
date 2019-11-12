@@ -1,7 +1,7 @@
 ---
 Description: The DoAction method of the Session object executes the action function corresponding to the name supplied.
 ms.assetid: 6cff1cf1-1c8f-4c43-a687-e927e8573e55
-title: Session.DoAction method
+title: Session.DoAction method (Photoacquire.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
