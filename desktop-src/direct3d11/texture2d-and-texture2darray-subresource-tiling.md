@@ -34,7 +34,7 @@ This table shows how [**Texture2D**](https://docs.microsoft.com/windows/desktop/
 
 
 
-| Bits/Pixel (1 sample/pixel) | Tile Dimensions (Pixels, WxH) |
+| Multisample Count           | Divide Tile Dimensions Above by (WxH) |
 |-----------------------------|-------------------------------|
 | 1                           | 1x1                           |
 | 2                           | 2x1                           |
@@ -51,8 +51,6 @@ Only sample counts 1 and 4 are required (and allowed) to be supported with tiled
 Implementations can choose to support 2, 8, and/or 16 sample multisample antialiasing (MSAA) mode for non-tiled resources even though tiled resource don't support them.
 
 Tiled resources with sample counts larger than 1 can't use 128 bpp formats.
-
-The constraints on supported sample counts and formats are due to hardware inconsistencies from the specification.
 
 ## Related topics
 
