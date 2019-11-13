@@ -166,8 +166,8 @@
               href: hazard-tracking-versus-tile-pool-resources.md
           - name: "Tiled resource creation parameters"
             href: tiled-resource-creation-parameters.md
-          - name: "Address apace available for tiled resources"
-            href: address-apace-available-for-tiled-resources.md
+          - name: "Address space available for tiled resources"
+            href: address-space-available-for-tiled-resources.md
           - name: "Tile pool creation parameters"
             href: tile-pool-creation-parameters.md
           - name: "Tiled resource cross process and device sharing"
