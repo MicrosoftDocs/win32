@@ -75,113 +75,113 @@
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions
         items: 
         - name: "GetGlobalLocationPermission method"
-          href: /windows/desktop/api/sensorsapi/ilocationpermissions-getgloballocationpermission.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-getgloballocationpermission.md
         - name: "CheckLocationCapability method"
           href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-checklocationcapability
       - name: "ILogicalSensorManager"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd318934(v=vs.85)
         items: 
         - name: "Connect Method"
-          href: /windows/desktop/api/sensorsapi/ilogicalsensormanager-connect.md
+          href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd374029%28v%3dvs.85%29
         - name: "Disconnect Method"
-          href: /windows/desktop/api/sensorsapi/ilogicalsensormanager-disconnect.md
+          href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd374030%28v%3dvs.85%29
         - name: "Uninstall Method"
-          href: /windows/desktop/api/sensorsapi/ilogicalsensormanager-uninstall.md
+          href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd374031%28v%3dvs.85%29
       - name: "ISensor"
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensor
         items: 
         - name: "GetCategory Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getcategory.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getcategory
         - name: "GetData Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getdata.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getdata.md
         - name: "GetEventInterest Method"
-          href: /windows/desktop/api/sensorsapi/isensor-geteventinterest.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest.md
         - name: "GetFriendlyName Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getfriendlyname.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getfriendlyname.md
         - name: "GetID Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getid.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getid.md
         - name: "GetProperties Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getproperties.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties.md
         - name: "GetProperty Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getproperty.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperty.md
         - name: "GetState Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getstate.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getstate.md
         - name: "GetSupportedDataFields Method"
-          href: /windows/desktop/api/sensorsapi/isensor-getsupporteddatafields.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getsupporteddatafields.md
         - name: "GetType Method"
-          href: /windows/desktop/api/sensorsapi/isensor-gettype.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-gettype.md
         - name: "SetEventInterest Method"
-          href: /windows/desktop/api/sensorsapi/isensor-seteventinterest.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest.md
         - name: "SetEventSink Method"
-          href: /windows/desktop/api/sensorsapi/isensor-seteventsink.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventsink.md
         - name: "SetProperties Method"
-          href: /windows/desktop/api/sensorsapi/isensor-setproperties.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties.md
         - name: "SupportsDataField Method"
-          href: /windows/desktop/api/sensorsapi/isensor-supportsdatafield.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-supportsdatafield.md
         - name: "SupportsEvent Method"
-          href: /windows/desktop/api/sensorsapi/isensor-supportsevent.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-supportsevent.md
       - name: "ISensorCollection"
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection
         items: 
         - name: "Add Method"
-          href: /windows/desktop/api/sensorsapi/isensorcollection-add.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-add.md
         - name: "Clear Method"
-          href: /windows/desktop/api/sensorsapi/isensorcollection-clear.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-clear.md
         - name: "GetAt Method"
-          href: /windows/desktop/api/sensorsapi/isensorcollection-getat.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getat.md
         - name: "GetCount Method"
-          href: /windows/desktop/api/sensorsapi/isensorcollection-getcount.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getcount.md
         - name: "Remove Method"
-          href: /windows/desktop/api/sensorsapi/isensorcollection-remove.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-remove.md
         - name: "RemoveByID Method"
-          href: /windows/desktop/api/sensorsapi/isensorcollection-removebyid.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-removebyid.md
       - name: "ISensorDataReport"
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport
         items: 
         - name: "GetSensorValue Method"
-          href: /windows/desktop/api/sensorsapi/isensordatareport-getsensorvalue.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-getsensorvalue.md
         - name: "GetSensorValues Method"
-          href: /windows/desktop/api/sensorsapi/isensordatareport-getsensorvalues.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-getsensorvalues.md
         - name: "GetTimestamp Method"
-          href: /windows/desktop/api/sensorsapi/isensordatareport-gettimestamp.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-gettimestamp.md
       - name: "ISensorEvents"
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents
         items: 
         - name: "OnEvent Method"
-          href: /windows/desktop/api/sensorsapi/isensorevents-onevent.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onevent.md
         - name: "OnDataUpdated Method"
-          href: /windows/desktop/api/sensorsapi/isensorevents-ondataupdated.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated.md
         - name: "OnLeave Method"
-          href: /windows/desktop/api/sensorsapi/isensorevents-onleave.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onleave.md
         - name: "OnStateChanged Method"
-          href: /windows/desktop/api/sensorsapi/isensorevents-onstatechanged.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged.md
       - name: "ISensorManager"
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager
         items: 
         - name: "GetSensorByID Method"
-          href: /windows/desktop/api/sensorsapi/isensormanager-getsensorbyid.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid.md
         - name: "GetSensorsByCategory Method"
-          href: /windows/desktop/api/sensorsapi/isensormanager-getsensorsbycategory.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorsbycategory.md
         - name: "GetSensorsByType Method"
-          href: /windows/desktop/api/sensorsapi/isensormanager-getsensorsbytype.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorsbytype.md
         - name: "RequestPermissions Method"
-          href: /windows/desktop/api/sensorsapi/isensormanager-requestpermissions.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions.md
         - name: "SetEventSink Method"
-          href: /windows/desktop/api/sensorsapi/isensormanager-seteventsink.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink.md
       - name: "ISensorManagerEvents"
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents
         items: 
         - name: "OnSensorEnter Method"
-          href: /windows/desktop/api/sensorsapi/isensormanagerevents-onsensorenter.md
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanagerevents-onsensorenter.md
     - name: "Enumeration Types"
       href: enumeration-types.md
       items: 
       - name: "MagnetometerAccuracy"
         href: /windows/desktop/api/sensorsapi/ne-sensorsapi-magnetometeraccuracy
       - name: "SensorConnectionType"
-        href: /windows/desktop/api/sensorsapi/sensorconnectiontype.md
+        href: /windows/desktop/api/sensorsapi/ne-sensorsapi-sensorconnectiontype.md
       - name: "SensorState"
-        href: /windows/desktop/api/sensorsapi/sensorstate.md
+        href: /windows/desktop/api/sensorsapi/ne-sensorsapi-sensorstate.md
     - name: "Constants"
       href: constants.md
       items: 
