@@ -42,6 +42,7 @@ Fields that are not marked "HTTP Server API generated" have to be passed inside 
 | Bytes Sent                       | sc-bytes        | The number of bytes sent by the server.                                                                                                    | HTTP Server API generated.     | HTTP\_LOG\_FIELD\_BYTES\_SENT    |
 | Bytes Received                   | cs-bytes        | The number of bytes received and processed by the server.                                                                                  | HTTP Server API generated.     | HTTP\_LOG\_FIELD\_BYTES\_RECV    |
 | Time Taken                       | time-taken      | The length of time that the action took, in milliseconds.                                                                                  | HTTP Server API generated.     | HTTP\_LOG\_FIELD\_TIME\_TAKEN    |
+| Stream ID                      | streamid          | The Stream Id.                                                                                  | HTTP Server API generated.     | HTTP\_LOG\_FIELD\_STREAMID       |
 
 
 
