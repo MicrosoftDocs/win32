@@ -32,6 +32,7 @@ api_name:
 - HTTP_LOG_FIELD_SITE_ID
 - HTTP_LOG_FIELD_REASON
 - HTTP_LOG_FIELD_QUEUE_NAME
+- HTTP_LOG_FIELD_STREAMID
 api_location:
 - http.h
 api_type:
@@ -318,6 +319,16 @@ The error reason phrase. This log field is only used for error logging.
 
 
 The name of the request queue to which the request is dispatched. This log field is only used for error logging.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="HTTP_LOG_FIELD_STREAMID"></span><span id="http_log_field_streamid"></span>**HTTP\_LOG\_FIELD\_STREAMID**
+</dt> <dd> <dl> <dt>
+
+
+
+The stream id.
 
 
 </dt> </dl> </dd> </dl>
