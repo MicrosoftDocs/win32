@@ -81,6 +81,7 @@ The error logging fields are listed in the following table:
 | SiteId               | Yes               | 0x01000000 |
 | Reason Phrase        | Yes               | 0x02000000 |
 | Queue Name           | No                | 0x04000000 |
+| Stream Id            | No                | 0x???????? |
 
 
 
