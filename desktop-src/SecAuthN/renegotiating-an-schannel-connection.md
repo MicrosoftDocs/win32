@@ -21,7 +21,7 @@ To request a redo from a client application, call the [**InitializeSecurityConte
 
 After calling the appropriate function, your application should send the results to the client and continue processing incoming messages using the [**DecryptMessage (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375348(v=VS.85).aspx) function.
 
-The [**DecryptMessage (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375348(v=VS.85).aspx) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed. When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa374708(v=VS.85).aspx) (servers) or [**InitializeSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375924(v=VS.85).aspx) (clients), passing in empty input buffers. After this call returns a value, proceed as though your application were creating a new connection.
+The [**DecryptMessage (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375348(v=VS.85).aspx) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed. When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa374708(v=VS.85).aspx) (servers) or [**InitializeSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375924(v=VS.85).aspx) (clients), and pass SECBUFFER_EXTRA returned from DecryptMessage(). After this call returns a value, proceed as though your application were creating a new connection.
 
  
 
