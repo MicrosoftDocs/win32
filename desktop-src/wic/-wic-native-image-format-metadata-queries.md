@@ -256,9 +256,9 @@ The following table provides the available metadata query paths that can be used
 | /app0/{ushort=5}                                                   | Ythumbnail           | VT\_UI1                                       |
 | /app0/{ushort=6}                                                   | ThumbnailData        | VT\_BLOB                                      |
 | /app1                                                              | App1                 | VT\_UNKNOWN - App1 Query Reader/Writer        |
-| /app1/ifd/ or /app1/{ushort=0}                                     | 0 IFD                | VT\_UNKNOWN - IFD Query Reader/Writer         |
+| /app1/ifd or /app1/{ushort=0}                                     | 0 IFD                | VT\_UNKNOWN - IFD Query Reader/Writer         |
 | /app1/ifd/exif or /app1/ifd/{ushort=34665}                         | EXIF IFD             | VT\_UNKNOWN – EXIF Query Reader/Writer        |
-| /app1/thumb/ or /app1/{ushort=1}                                   | Thumbnail IFD        | VT\_UNKNOWN - SubIFD Query Reader/Writer      |
+| /app1/thumb or /app1/{ushort=1}                                   | Thumbnail IFD        | VT\_UNKNOWN - SubIFD Query Reader/Writer      |
 | /app13                                                             | App13                | VT\_UNKNOWN - App13 Query Reader/Writer       |
 | /app13/irb or /app13/{ushort=0}                                    | IRB                  | VT\_UNKNOWN - IRB Query Reader/Writer         |
 | /app13/irb/{ulonglong=\*} where \* = IRB Identifier (see IRB spec) | IRB Entry            | VT\_UNKNOWN - Unknown Query Reader/Writer     |
