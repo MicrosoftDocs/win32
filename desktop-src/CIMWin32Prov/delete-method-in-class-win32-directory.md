@@ -146,7 +146,7 @@ The following VBScript code sample deletes the folder C:\\Scripts.
 
 
 ```VB
-trComputer = "."
+strComputer = "."
 Set objWMIService = GetObject("winmgmts:" _
  & "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
 Set colFolders = objWMIService.ExecQuery _
