@@ -3156,3 +3156,35 @@
       href: gloss-t.md
     - name: "W"
       href: gloss-w.md
+  - name: "Management Infrastructure Managed API"
+    items:
+    - name: "CimInstance.SetCimSessionComputerName method"
+      href: mi-managed-api\microsoft.management.infrastructure.ciminstance.setcimsessioncomputername.md
+    - name: "CimMofDeserializer class"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.md
+    - name: "CimMofDeserializer.Create method ()"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create.md
+    - name: "CimMofDeserializer.Create method (String, UInt32)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create_string_uint.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], Uint32)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], Uint32, IEnumerable(CimClass))"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], UInt32, IEnumerable(CimClass), OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass2.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], UInt32, IEnumerable(CimClass), String, String, OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass3.md
+    - name: "CimMofDeserializer.DeserializeInstances method (Byte[], UInt32)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint.md
+    - name: "CimMofDeserializer.DeserializeInstances method (Byte[], UInt32, OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint2.md
+    - name: "CimMofDeserializer.DeserializeInstances method (Byte[], UInt32, IEnumerable(CimClass), OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint3.md
+    - name: "CimMofDeserializer.SchemaValidationOption property"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.schemavalidationoption.md
+    - name: "CimMofDeserializer.GetIncludedFileContent delegate"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.getincludedfilecontent.md
+    - name: "CimMofDeserializer.OnClassNeeded delegate"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.onclassneeded.md
+    - name: "MofDeserializerSchemaValidationOption enumeration"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.mofdeserializerschemavalidationoption.md
