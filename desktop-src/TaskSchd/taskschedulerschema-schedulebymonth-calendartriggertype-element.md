@@ -85,7 +85,7 @@ The following XML defines a monthly calendar trigger that starts a task ( at 8:0
             <October/>
             <November/>
             <December/>
-        <Months>
+        </Months>
     </ScheduleByMonth>
 </CalendarTrigger>
 ```
