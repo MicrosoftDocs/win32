@@ -1,7 +1,7 @@
 ---
 Description: You can register a unique Content view property list and layout pattern for the file type or item.
 ms.assetid: EA5A3ADA-4DFD-4F85-A176-93577D822815
-title: How to Register a Unique Content View Set of Properties and Layout Pattern for the File Type or Item
+title: Register a Content View Set of Properties and Layout Pattern for a File Type or Item
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -177,13 +177,13 @@ After you understand the Search Result mode, the Browse mode, and the layout pat
 [File Types](fa-file-types.md)
 </dt> <dt>
 
-[Kind Names](https://msdn.microsoft.com/en-us/library/Cc144136(v=VS.85).aspx)
+[Kind Names](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
 </dt> <dt>
 
-[System.PropList.ContentViewModeForBrowse](https://msdn.microsoft.com/en-us/library/Dd391580(v=VS.85).aspx)
+[System.PropList.ContentViewModeForBrowse](https://msdn.microsoft.com/library/Dd391580(v=VS.85).aspx)
 </dt> <dt>
 
-[System.PropList.ContentViewModeForSearch](https://msdn.microsoft.com/en-us/library/Dd391581(v=VS.85).aspx)
+[System.PropList.ContentViewModeForSearch](https://msdn.microsoft.com/library/Dd391581(v=VS.85).aspx)
 </dt> </dl>
 
  

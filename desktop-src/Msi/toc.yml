@@ -448,7 +448,7 @@
           href: authoring-a-progressbar-control.md
         - name: "Authoring Disk Prompt Messages"
           href: authoring-disk-prompt-messages.md
-        - name: "Authoring a Conditional &quot;Please Wait . . .&quot; Message Box"
+        - name: "Authoring a Conditional Please Wait... Message Box"
           href: authoring-a-conditional-please-wait-------message-box.md
         - name: "Adding Text Stored in a Property"
           href: adding-text-stored-in-a-property.md

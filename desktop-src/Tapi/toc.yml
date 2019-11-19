@@ -4110,14 +4110,14 @@
               items: 
               - name: "RemoveStream Method"
                 href: /windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-removestream
-            - name: "CMSPCallMultiGraph Public Methods, Called by MSPAddress Object"
+            - name: "CMSPCallMultiGraph Public Methods Called by MSPAddress Object"
               href: cmspcallmultigraph-public-methods-called-by-mspaddress-object.md
               items: 
               - name: "Init Method"
                 href: /windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-init
               - name: "ShutDown Method"
                 href: /windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-shutdown
-            - name: "CMSPCallMultiGraph Public Methods, Called by Thread Pool"
+            - name: "CMSPCallMultiGraph Public Methods Called by Thread Pool"
               href: cmspcallmultigraph-public-methods-called-by-thread-pool.md
               items: 
               - name: "DispatchGraphEvent Method"
@@ -4149,7 +4149,7 @@
               href: cmspstream-members.md
             - name: "CMSPStream MSPI Methods Implemented"
               href: cmspstream-mspi-methods-implemented.md
-            - name: "CMSPStream Public Methods, Called by MSPCall Object"
+            - name: "CMSPStream Public Methods Called by MSPCall Object"
               href: cmspstream-public-methods-called-by-mspcall-object.md
               items: 
               - name: "Init Method"

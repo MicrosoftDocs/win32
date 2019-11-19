@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Step 2: Extending a Transaction Across Multiple Components
+# Step 2: Extending a Transaction Across Components
 
 ## Objectives
 

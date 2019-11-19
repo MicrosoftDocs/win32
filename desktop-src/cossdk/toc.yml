@@ -39,7 +39,7 @@
       items: 
       - name: "Step 1: Creating a Transactional Component"
         href: step-1--creating-a-transactional-component.md
-      - name: "Step 2: Extending a Transaction Across Multiple Components"
+      - name: "Step 2: Extending a Transaction Across Components"
         href: step-2--extending-a-transaction-across-multiple-components.md
       - name: "Step 3: Reusing Components"
         href: step-3--reusing-components.md
@@ -632,7 +632,7 @@
           href: populating-com--collections.md
         - name: "Querying for Available Related Collections"
           href: querying-for-available-related-collections.md
-      - name: "Setting Properties and Saving Changes to the COM+ Catalog"
+      - name: "Editing Properties in the COM+ Catalog"
         href: setting-properties-and-saving-changes-to-the-com--catalog.md
         items: 
         - name: "Getting and Setting Properties"

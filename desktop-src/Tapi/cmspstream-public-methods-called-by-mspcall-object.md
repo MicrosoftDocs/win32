@@ -1,12 +1,12 @@
 ---
 Description: The following list contains the CMSPStream methods called by the MSPCall object.
 ms.assetid: 7a59ca78-b5e8-45e9-8fdb-89402ffef916
-title: CMSPStream Public Methods, Called by MSPCall Object
+title: CMSPStream Methods Called by MSPCall Object
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# CMSPStream Public Methods, Called by MSPCall Object
+# CMSPStream Public Methods Called by MSPCall Object
 
 
 
