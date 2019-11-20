@@ -2,7 +2,7 @@
 Description: XMUINT2 describes a 2D vector consisting of two unsigned integer values.
 ms.assetid: 563e5026-1746-483b-80b0-fb931bcf057a
 title: XMUINT2 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

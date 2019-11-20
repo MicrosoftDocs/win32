@@ -2,10 +2,10 @@
 title: frc - ps
 description: Returns the fractional portion of each input component.
 ms.assetid: 378bc516-c81e-4538-8d6f-987536b19467
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

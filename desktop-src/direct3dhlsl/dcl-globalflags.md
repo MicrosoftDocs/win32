@@ -2,10 +2,10 @@
 title: dcl_globalFlags (sm4 - asm)
 description: dcl\_globalFlags (sm4 - asm)
 ms.assetid: 7289db9e-f0cd-4849-854f-34aa38ec2c2d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

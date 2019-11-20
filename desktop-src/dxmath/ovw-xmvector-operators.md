@@ -2,7 +2,7 @@
 Description: The following operators are exposed by the XMVECTOR structure.
 ms.assetid: 16fc1276-7bed-4e6f-8af5-d871afa73b68
 title: XMVECTOR Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

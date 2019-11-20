@@ -2,10 +2,10 @@
 title: dp2add - ps
 description: Performs a 2D dot product and a scalar addition.
 ms.assetid: 4226ee34-2e68-4536-b171-68f3b967182e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

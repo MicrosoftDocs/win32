@@ -2,7 +2,7 @@
 Description: Lists the conversion functions provided by DirectXMath.
 ms.assetid: 6a0a8422-991d-00aa-0fd7-b41387adc72e
 title: DirectXMath Library Conversion Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,10 +2,10 @@
 title: ' define Directive'
 description: Preprocessor directive that creates a function-like macro.
 ms.assetid: 73c19cf8-fbc5-444b-a51f-dc9f881f397b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

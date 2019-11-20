@@ -2,7 +2,7 @@
 title: ieq (sm4 - asm)
 description: Component-wise vector integer equality comparison.
 ms.assetid: AD010554-80DC-4D2D-B04C-2638276DDC34
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

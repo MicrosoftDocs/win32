@@ -2,7 +2,7 @@
 title: break (sm4 - asm)
 description: Moves the point of execution to the instruction after the next endloop or endswitch.
 ms.assetid: 411FB361-FBD1-4180-8D81-2074BA8972B7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: dcl_function_body (sm5 - asm)
 description: Declare a function body.
 ms.assetid: 3A651107-BEA6-4D79-938F-8E0243C874C3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

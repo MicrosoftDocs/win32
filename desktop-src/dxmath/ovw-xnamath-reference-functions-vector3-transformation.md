@@ -2,7 +2,7 @@
 Description: Lists the 3D vector transformation functions.
 ms.assetid: 148972da-e460-63b9-6b01-10201f63d157
 title: DirectXMath Library 3D Vector Transformation Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

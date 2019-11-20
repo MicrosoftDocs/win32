@@ -2,7 +2,7 @@
 title: round_ni (sm4 - asm)
 description: Floating-point round to integral float.
 ms.assetid: 6DEF818B-AFF9-4B44-950E-320EACE1CAC4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,10 +2,10 @@
 title: abs - ps
 description: Computes absolute value.
 ms.assetid: e97db550-2a03-421a-86f4-a6fc5f8e0bca
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

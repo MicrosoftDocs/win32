@@ -2,7 +2,7 @@
 title: ftoi (sm4 - asm)
 description: Floating point to signed integer conversion.
 ms.assetid: 580AB4A6-0C1C-409B-B2B9-BA1D37772F46
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

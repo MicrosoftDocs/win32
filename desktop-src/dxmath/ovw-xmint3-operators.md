@@ -2,7 +2,7 @@
 Description: The XMINT3 structure exposes the following operators.
 ms.assetid: 4c78cb57-52e7-4a06-91d9-2fb3f73a0f0e
 title: XMINT3 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

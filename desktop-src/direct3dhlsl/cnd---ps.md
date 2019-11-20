@@ -2,10 +2,10 @@
 title: cnd - ps
 description: Conditionally chooses between src1 and src2, based on the comparison src0 0.5.
 ms.assetid: 7a3b49e9-d146-47dc-99a8-4f336db7d0d5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

@@ -2,7 +2,7 @@
 title: dcl_output_control_point_count (sm5 - asm)
 description: Declares the hull shader output control point count.
 ms.assetid: 51E8117F-1802-413B-9820-04D5CEBE2DB6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: dmov (sm5 - asm)
 description: Component-wise move.
 ms.assetid: 05DBB9E2-10EC-4324-BB8F-1A9E315DE90C
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

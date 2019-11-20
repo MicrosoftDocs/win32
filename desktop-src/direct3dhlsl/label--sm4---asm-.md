@@ -2,7 +2,7 @@
 title: label (sm4 - asm)
 description: Indicates the beginning of a subroutine.
 ms.assetid: B966AE64-47CA-4A13-A26F-184D9FD26C26
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

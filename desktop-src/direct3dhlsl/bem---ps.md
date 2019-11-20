@@ -2,10 +2,10 @@
 title: bem - ps
 description: Apply a fake bump environment-map transform.
 ms.assetid: b41009d4-a2bb-4397-ad23-c95ef2620a66
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

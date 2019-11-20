@@ -2,10 +2,10 @@
 title: label - ps
 description: Mark the next instruction as having a label index.
 ms.assetid: 21afa062-c536-4891-ba69-ca5284b0539c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

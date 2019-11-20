@@ -2,7 +2,7 @@
 title: UUID
 description: Provides a unique designation of an object such as an interface, a manager entry-point vector, or a client object.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 09/09/2019
 ---
 

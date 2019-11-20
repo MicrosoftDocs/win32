@@ -2,7 +2,7 @@
 title: discard (sm4 - asm)
 description: Conditionally flag results of Pixel Shader to be discarded when the end of the program is reached.
 ms.assetid: 566C4A9A-B32A-4AA6-A888-70F6965B1B5A
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

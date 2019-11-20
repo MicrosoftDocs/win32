@@ -2,10 +2,10 @@
 title: endif - vs
 description: Marks the end of an if bool - vs...else block.
 ms.assetid: 08caa4ee-4f5c-40bd-83c7-a1e810ac68a7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

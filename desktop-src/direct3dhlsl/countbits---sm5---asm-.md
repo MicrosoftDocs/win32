@@ -2,7 +2,7 @@
 title: countbits (sm5 - asm)
 description: Counts the number of bits set in a number.
 ms.assetid: ED75487F-46FF-45F5-BEAA-7A32BEFB0571
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

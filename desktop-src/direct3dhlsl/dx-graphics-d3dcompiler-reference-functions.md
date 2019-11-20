@@ -4,10 +4,10 @@ description: This section contains information about the following Direct3D HLSL
 ms.assetid: aacc5207-3ec8-4031-b5c9-f7c0fb7b7095
 keywords:
 - functions, Compiler
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

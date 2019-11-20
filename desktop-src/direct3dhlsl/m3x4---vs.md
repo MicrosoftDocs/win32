@@ -2,10 +2,10 @@
 title: m3x4 - vs
 description: Multiplies a 3-component vector by a 3x4 matrix.
 ms.assetid: 8bec1ac5-376b-4eae-ba82-b42a6c0e7c4e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

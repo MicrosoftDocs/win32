@@ -2,7 +2,7 @@
 title: dp3 (sm4 - asm)
 description: 3-dimensional vector dot-product of components rgb, POS-swizzle.
 ms.assetid: 8E6EA6CD-B5BB-4D64-8846-F7B9F7135582
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

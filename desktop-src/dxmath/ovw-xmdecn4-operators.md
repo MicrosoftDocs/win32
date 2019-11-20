@@ -2,7 +2,7 @@
 Description: The XMDECN4 structure exposes the following operators.
 ms.assetid: 573b102f-5e8a-49d0-a62d-6735a385118e
 title: XMDECN4 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

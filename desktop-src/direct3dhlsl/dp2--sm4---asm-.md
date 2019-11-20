@@ -2,7 +2,7 @@
 title: dp2 (sm4 - asm)
 description: 2-dimensional vector dot-product of components rg, POS-swizzle.
 ms.assetid: E35F6A8B-6D8E-4660-B0F3-95B76BC19229
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

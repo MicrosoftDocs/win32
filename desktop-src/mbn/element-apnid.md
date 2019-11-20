@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: ApnID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: bfi (sm5 - asm)
 description: Given a bit range from the LSB of a number, place that number of bits in another number at any offset.
 ms.assetid: BA84C882-A141-4AD2-8FD9-C60F1483FC65
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

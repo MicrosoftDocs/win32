@@ -2,7 +2,7 @@
 title: dcl_input vForkInstanceID (sm5 - asm)
 description: Declare the instance ID in a hull shader fork phase.
 ms.assetid: AA73E8B6-C6D7-4483-B46E-C733341F552C
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

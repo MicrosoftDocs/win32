@@ -2,7 +2,7 @@
 Description: The XMFLOAT3X3 structure exposes the following operators.
 ms.assetid: cf055247-b19a-41fd-8090-33714a188ec3
 title: XMFLOAT3X3 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

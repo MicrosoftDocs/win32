@@ -2,10 +2,10 @@
 title: rcp - vs
 description: Computes the reciprocal of the source scalar.
 ms.assetid: be638a42-b693-461d-ab0a-3a6c0fa1acfc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

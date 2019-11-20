@@ -2,7 +2,7 @@
 title: IDXCoreAdapter::SetState
 description: Sets the state of the specified item on the adapter.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

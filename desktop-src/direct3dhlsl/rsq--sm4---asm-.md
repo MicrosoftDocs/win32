@@ -2,7 +2,7 @@
 title: rsq (sm4 - asm)
 description: Component-wise reciprocal square root.
 ms.assetid: CDA3C2DF-2793-4CE3-87CE-4E0AA945A1BB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

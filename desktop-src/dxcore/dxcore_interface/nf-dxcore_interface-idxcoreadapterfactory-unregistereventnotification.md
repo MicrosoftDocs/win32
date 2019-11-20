@@ -2,7 +2,7 @@
 title: IDXCoreAdapterFactory::UnregisterEventNotification
 description: Unregisters from a notification that you previously registered for.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

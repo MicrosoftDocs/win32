@@ -2,10 +2,10 @@
 title: break - ps
 description: Break out of the current loop at the nearest endloop - ps or endrep - ps.
 ms.assetid: c1f81e40-5df3-4094-8ab2-1d8009130367
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

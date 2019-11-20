@@ -2,7 +2,7 @@
 Description: The XMFLOAT3SE structure exposes the following operators.
 ms.assetid: 5a802077-d90b-4fb1-9288-ea556b1b1318
 title: XMFLOAT3SE Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

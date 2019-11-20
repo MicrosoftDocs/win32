@@ -2,7 +2,7 @@
 Description: The XMMATRIX structure exposes the following operators.
 ms.assetid: 74deddbd-0472-43fd-8ad6-2e933812eb14
 title: XMMATRIX Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

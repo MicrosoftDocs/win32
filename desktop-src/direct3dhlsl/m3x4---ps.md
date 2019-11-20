@@ -2,10 +2,10 @@
 title: m3x4 - ps
 description: Multiplies a 3-component vector by a 3x4 matrix.
 ms.assetid: b749d3cd-2acf-450c-94f2-fea5e1c8f4d2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

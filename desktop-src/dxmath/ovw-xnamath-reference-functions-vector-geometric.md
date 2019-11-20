@@ -2,7 +2,7 @@
 Description: Lists the geometric vector functions.
 ms.assetid: 7c941454-7410-f3fb-d750-9007f672ed8c
 title: Geometric Vector Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

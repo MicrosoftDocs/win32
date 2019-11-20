@@ -2,10 +2,10 @@
 title: Sample (DirectX HLSL Texture Object)
 description: Samples a texture.
 ms.assetid: 788ba4b4-8013-411f-9a19-fb9983386fa0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

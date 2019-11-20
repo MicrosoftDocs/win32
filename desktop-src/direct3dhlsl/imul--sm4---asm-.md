@@ -2,7 +2,7 @@
 title: imul (sm4 - asm)
 description: Signed integer multiply.
 ms.assetid: DB95A38F-54E4-4BB6-81DF-CFFEBB4D425B
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

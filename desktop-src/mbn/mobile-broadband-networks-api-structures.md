@@ -2,7 +2,7 @@
 Description: The Mobile Broadband API defines and uses the following structures.
 ms.assetid: 391604b3-fbcb-47cb-b989-06bad68f787f
 title: Mobile Broadband API Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

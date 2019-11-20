@@ -2,7 +2,7 @@
 title: DXCoreAdapterPreference
 description: Defines constants that specify DXCore adapter preferences to be used as list-sorting criteria.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 09/03/2019
 ---
 

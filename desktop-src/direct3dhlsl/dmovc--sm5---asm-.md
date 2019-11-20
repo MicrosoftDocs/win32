@@ -2,7 +2,7 @@
 title: dmovc (sm5 - asm)
 description: Component-wise conditional move.
 ms.assetid: E376FE08-E251-4BE5-9F15-99B3B67A29C8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

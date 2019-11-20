@@ -2,7 +2,7 @@
 Description: XMFLOAT4 describes a structure containing a 4D vector consisting of four single-precision floating-point values.
 ms.assetid: 79c3abc5-1896-4c51-b6a9-a97031961e8e
 title: XMFLOAT4 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

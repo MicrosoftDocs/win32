@@ -2,7 +2,7 @@
 Description: XMUSHORT2 describes a2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type uint16\_t).
 ms.assetid: 20e1c812-2c0b-483e-a9fd-e4188b04a024
 title: XMUSHORT2 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

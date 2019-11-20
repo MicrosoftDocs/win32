@@ -2,7 +2,7 @@
 title: dcl_hs_max_tessfactor (sm5 - asm)
 description: Declare the maxTessFactor for the patch.
 ms.assetid: 7EF0FD81-69FE-49F6-95DF-0C452A90A713
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

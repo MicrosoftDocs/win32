@@ -13,7 +13,7 @@ keywords:
 - SetVertexShader, Direct3D 11 Effect
 - SetGeometryShader, Direct3D 11 Effect
 - SetPixelShader, Direct3D 11 Effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
