@@ -3,7 +3,7 @@ Description: Wait Chain Traversal (WCT) enables debuggers to diagnose applicatio
 ms.assetid: d266a663-b101-4936-9574-f6ce223419ae
 title: Wait Chain Traversal
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/19/2019
 ---
 
 # Wait Chain Traversal

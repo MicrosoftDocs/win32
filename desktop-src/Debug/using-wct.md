@@ -3,7 +3,7 @@ Description: The following sample code demonstrates the use of the wait chain tr
 ms.assetid: 7c5fa606-6e9b-41da-bfa9-1f066449d813
 title: Using WCT
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/19/2019
 ---
 
 # Using WCT
