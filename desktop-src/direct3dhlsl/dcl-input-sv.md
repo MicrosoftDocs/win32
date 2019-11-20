@@ -48,7 +48,7 @@ Declares a shader-input register that expects a [system-value](dx-graphics-hlsl-
 </tr>
 <tr class="even">
 <td><span id="systemValueName"></span><span id="systemvaluename"></span><span id="SYSTEMVALUENAME"></span><em>systemValueName</em><br/></td>
-<td>[in] The system-value name which is a string (see <a href="dx-graphics-hlsl-semantics">system-value semantics</a>) without the &quot;SV_&quot; prefix.<br/></td>
+<td>[in] The system-value name which is a string (see <a href="dx-graphics-hlsl-semantics.md">system-value semantics</a>) without the &quot;SV_&quot; prefix.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="interpolationMode"></span><span id="interpolationmode"></span><span id="INTERPOLATIONMODE"></span><em>interpolationMode</em><br/></td>
