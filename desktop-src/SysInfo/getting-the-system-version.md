@@ -11,6 +11,8 @@ ms.date: 05/31/2018
 The following example uses the [Version API Helper functions](version-helper-apis.md) to determine the version of the current operating system, if it is a Server or Client release, and then displays this information to the console. If compatibility mode is in effect, the example displays the operating system selected for [application compatibility](https://go.microsoft.com/fwlink/p/?linkid=115300).
 
 To obtain the full version number for the operating system, call the [**GetFileVersionInfo**](https://msdn.microsoft.com/library/ms647003(v=VS.85).aspx) function on one of the system DLLs, such as Kernel32.dll, then call [**VerQueryValue**](https://msdn.microsoft.com/library/ms647464(v=VS.85).aspx) to obtain the \\\\StringFileInfo\\\\<lang><codepage>\\\\ProductVersion subblock of the file version information.
+    
+Starting on Windows 10 1909, check the registry keys under Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion : CurrentBuildNumber to obtain the correct build number. The system DLLs, such as Kernel32.dll, may not be updated with the OS build number.
 
 Relying on version information is not the best way to test for a feature. Instead, refer to the documentation for the feature of interest. For more information on common techniques for feature detection, see [Operating System Version](operating-system-version.md).
 
