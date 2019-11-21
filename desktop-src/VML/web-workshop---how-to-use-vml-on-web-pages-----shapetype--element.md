@@ -34,15 +34,15 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-In this topic, we will illustrate how to use the <shapetype> element to define your own frequently-used shapes and then instantiate, or create, shapes from the shapetype.
+In this topic, we will illustrate how to use the `<shapetype>` element to define your own frequently-used shapes and then instantiate, or create, shapes from the shapetype.
 
-If you wanted to draw many shapes that have the same or similar properties, it would be tedious if you had to repeatedly type the same property attributes for each shape. VML provides the <shapetype> element so that you can define a prototype of a shape. You can then use the <shape> element to instantiate many copies of shapes from the same shapetype.
+If you wanted to draw many shapes that have the same or similar properties, it would be tedious if you had to repeatedly type the same property attributes for each shape. VML provides the `<shapetype>` element so that you can define a prototype of a shape. You can then use the `<shape>` element to instantiate many copies of shapes from the same shapetype.
 
 You can follow the three steps to define a shapetype, and then instantiate a shape from the shapetype:
 
-1.  Type a <shapetype> element and give it a name by specifying the id attribute.
+1.  Type a `<shapetype>` element and give it a name by specifying the id attribute.
 2.  Describe the shapetype by using its property attributes or sub-elements.
-3.  Instantiate a shape by typing a <shape> element, and refer the type attribute of the shape to the id attribute of the shapetype.
+3.  Instantiate a shape by typing a `<shape>` element, and refer the type attribute of the shape to the id attribute of the shapetype.
 
 For example, you type the following lines to create a shapetype called "MyShape":
 
@@ -54,7 +54,7 @@ For example, you type the following lines to create a shapetype called "MyShape"
 
 
 
-Then, you alter the shapetype by setting some property attributes, such as `fillcolor="red" strokecolor="blue"`. Or, you can use sub-elements inside the shapetype, such as <path>, <fill>, <stroke> (we will talk about those sub-elements in later topics).
+Then, you alter the shapetype by setting some property attributes, such as `fillcolor="red" strokecolor="blue"`. Or, you can use sub-elements inside the shapetype, such as `<path>`, `<fill>`, `<stroke>` (we will talk about those sub-elements in later topics).
 
 
 ```HTML
@@ -106,9 +106,9 @@ path="m10860,2187c10451,1746,9529,1018,9015,730,7865,152,6685,,5415,,4175,
 
 [Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/ShapeType/type1.md)
 
-As you've learned, when a shape is instantiated from a shapetype, it inherits all of the property attributes from the shapetype. You can overwrite some or all of the inherited attributes by redefining attributes inside the <shape> element. Be aware that the inheritance is only one level. This is because only a <shape> element can reference a <shapetype> element. A <shapetype> element cannot reference another <shapetype> element.
+As you've learned, when a shape is instantiated from a shapetype, it inherits all of the property attributes from the shapetype. You can overwrite some or all of the inherited attributes by redefining attributes inside the `<shape>` element. Be aware that the inheritance is only one level. This is because only a `<shape>` element can reference a `<shapetype>` element. A `<shapetype>` element cannot reference another `<shapetype>` element.
 
-Also, a shapetype doesn't belong to any group. Therefore, the <shapetype> element can appear by itself or inside a <group> element. You can have many shapes inside different groups that reference the same shapetype. If a shapetype appears inside a group, a shape living in another group can still reference this shapetype.
+Also, a shapetype doesn't belong to any group. Therefore, the `<shapetype>` element can appear by itself or inside a `<group>` element. You can have many shapes inside different groups that reference the same shapetype. If a shapetype appears inside a group, a shape living in another group can still reference this shapetype.
 
 For example, in the following VML representation, Rect1 and Rect2 are in GroupA, and Rect3 is in GroupB. All three rectangles are instantiated from MyShape shapetype.
 
