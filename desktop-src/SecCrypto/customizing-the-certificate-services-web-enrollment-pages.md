@@ -1,12 +1,12 @@
 ---
 Description: Certificate Services provides web enrollment pages that can be used to request certificates.
 ms.assetid: 1e198bc8-c712-4d0f-9e3a-35a295445acf
-title: Customizing the Certificate Services Web Enrollment Pages
+title: Customizing Certificate Services Web Enrollment Pages
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Customizing the Certificate Services Web Enrollment Pages
+# Customizing Certificate Services Web Enrollment Pages
 
 [*Certificate Services*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) provides web enrollment pages that can be used to request certificates. An administrator can customize some of the items that can be viewed in the web enrollment pages; however, you should be familiar with the web enrollment pages and web scripting before making any changes. For more information about web scripting, see [Scripting](https://go.microsoft.com/fwlink/p/?linkid=1758).
 

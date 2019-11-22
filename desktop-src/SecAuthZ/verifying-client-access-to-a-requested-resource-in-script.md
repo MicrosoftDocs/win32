@@ -1,7 +1,7 @@
 ---
 Description: Call the IAzClientContext::AccessCheck method to check whether the client has access to one or more operations.
 ms.assetid: cf1070fe-3737-4ae6-a8ef-f0782418a1d5
-title: Verifying Client Access to a Requested Resource in Script
+title: Verifying Client Access to Requested Resources in Script
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Verifying Client Access to a Requested Resource in Script
+# Verifying Client Access to Requested Resources in Script
 
 Call the [**AccessCheck**](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-accesscheck) method of an [**IAzClientContext**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext) object to check whether the client has access to one or more operations. For information about creating an **IAzClientContext** object, see [Establishing a Client Context in Script](establishing-a-client-context-in-script.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Composing and Registering SPNs for an SCP-based Windows Sockets Service
+title: Composing and registering SPNs for SCP-based Windows Sockets Service
 description: The following code example shows how to compose and register the SPNs for a service. Call this code from your service installer after calling CreateService and creating the service's service connection point (SCP).
 ms.assetid: 3957af10-974a-415f-b8fb-d9b52ac5a82d
 ms.tgt_platform: multiple
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Composing and Registering SPNs for an SCP-based Windows Sockets Service
+# Composing and registering SPNs for SCP-based Windows Sockets Service
 
 The following code example shows how to compose and register the SPNs for a service. Call this code from your service installer after calling [**CreateService**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea) and creating the service's service connection point (SCP).
 

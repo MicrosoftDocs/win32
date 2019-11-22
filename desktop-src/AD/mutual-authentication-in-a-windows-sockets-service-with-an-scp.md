@@ -1,5 +1,5 @@
 ---
-title: Mutual Authentication in a Windows Sockets Service with an SCP
+title: Mutual Authentication in a Windows Sockets Service with SCP
 description: The topics in this section include code examples that show how to perform mutual authentication with a service that publishes itself using a service connection point (SCP).
 ms.assetid: f730464c-95ac-4285-960c-18862f6f7852
 ms.tgt_platform: multiple
@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Mutual Authentication in a Windows Sockets Service with an SCP
+# Mutual Authentication in a Windows Sockets Service with SCP
 
 The topics in this section include code examples that show how to perform mutual authentication with a service that publishes itself using a service connection point (SCP). The examples are based on a Microsoft Windows Sockets service that uses an SSPI package to handle the mutual authentication negotiation between a client and the service. Use the following procedures to implement mutual authentication within this scenario.
 

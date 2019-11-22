@@ -1,12 +1,12 @@
 ---
 Description: The server sends the client a reference to their shared security context using the opaque directive of the Digest challenge.
 ms.assetid: 543c4bed-b224-4da7-9746-12c9993a40af
-title: Authenticating Subsequent Requests Using Microsoft Digest
+title: Authenticating Subsequent Requests with Microsoft Digest
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Authenticating Subsequent Requests Using Microsoft Digest
+# Authenticating Subsequent Requests with Microsoft Digest
 
 The server sends the client a reference to their shared [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) using the opaque directive of the Digest challenge. After a successful authentication, the client must specify this value in subsequent requests to the target server. Including the opaque value in requests for resources that are accessible using the existing security context eliminates the need to re-authenticate at the domain controller. Such requests are re-authenticated at the server, using the Digest [*session key*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) cached after the initial authentication.
 
