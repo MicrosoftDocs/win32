@@ -2,7 +2,6 @@
 title: Enabling EAPHost Tracing
 description: Can assist users in finding the root causes of issues that occur during the EAP authentication process. The debugging information can include API calls performed, internal function calls performed, and state transitions performed.
 ms.assetid: 5f401101-59aa-4ee8-825a-0b998489eed9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

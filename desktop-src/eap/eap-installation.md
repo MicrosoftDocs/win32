@@ -2,7 +2,6 @@
 title: EAP Installation
 description: Vendors implement EAPs, also known as authentication protocols, in dynamic-link libraries (DLLs).
 ms.assetid: af10b1e9-45c9-4640-ba79-fc9c23cc3c47
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

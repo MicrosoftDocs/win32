@@ -2,8 +2,6 @@
 Description: Control code queries the association between a socket and an RSS processor core and NUMA node.
 ms.assetid: DAF18C92-B479-474F-B438-0746CBA20653
 title: SIO_QUERY_RSS_PROCESSOR_INFO Control Code
-author: TimShererWithAquent
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]

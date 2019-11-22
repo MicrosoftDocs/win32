@@ -2,7 +2,6 @@
 title: Connection Properties
 description: Show sample XML properties for various network configurations.
 ms.assetid: 95c8f5d5-75c5-48c7-b6af-e9908df56c71
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Client-Side Configuration User Interface
 description: The vendor that implements the authentication protocol may also provide a configuration user interface (UI) for the protocol.
 ms.assetid: 956a7ad6-1fd5-4938-aa2f-4de646dfd6c2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

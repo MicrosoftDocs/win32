@@ -21,7 +21,6 @@ api_location:
 - eaptypes.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
 ---

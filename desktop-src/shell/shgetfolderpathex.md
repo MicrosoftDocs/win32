@@ -1,11 +1,9 @@
 ---
 UID: 
 title: SHGetFolderPathEx function
-author: TimShererWithAquent
 description: Retrieves the path of a known folder identified by the KNOWNFOLDERID.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/10/2019
 ms.keywords: SHGetFolderPath
 ms.topic: reference

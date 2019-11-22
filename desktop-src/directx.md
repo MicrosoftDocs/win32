@@ -4,7 +4,6 @@ ms.assetid: 23693eb7-cc8d-4757-bca7-394114d9a3c9
 title: DirectX Graphics and Gaming
 ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: graphics-gaming
 ---
 
 # DirectX Graphics and Gaming

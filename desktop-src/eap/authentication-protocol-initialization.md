@@ -2,9 +2,6 @@
 title: Authentication Protocol Initialization
 description: The EAP secured connection is initialized between the client and server in similar ways for RAS and wireless (802.1X) clients.
 ms.assetid: 1cd5bfc9-2ba3-477c-9bbb-73578a5623c2
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

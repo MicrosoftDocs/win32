@@ -2,7 +2,6 @@
 title: EAPHost Supplicant Configuration Functions
 description: EAPHost Supplicant Configuration Functions
 ms.assetid: 92a1df11-10f9-4e55-a7ec-db026aaf5c24
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

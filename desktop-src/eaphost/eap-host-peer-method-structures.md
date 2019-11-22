@@ -2,7 +2,6 @@
 title: EAPHost Peer Method Structures
 description: EAPHost Peer Method Structures
 ms.assetid: 546ef715-8f51-4f5a-a569-8bf64d52de85
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

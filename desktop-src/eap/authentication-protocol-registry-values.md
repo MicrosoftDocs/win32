@@ -19,7 +19,6 @@ keywords:
 - RAS_EAP_VALUENAME_PER_POLICY_CONFIG
 - RAS_EAP_VALUENAME_ISTUNNEL_METHOD
 - RAS_EAP_VALUENAME_FILTER_INNERMETHODS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

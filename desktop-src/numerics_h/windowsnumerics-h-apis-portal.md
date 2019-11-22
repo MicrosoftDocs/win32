@@ -2,7 +2,6 @@
 title: windowsnumerics.h APIs
 description: The windowsnumerics.h header file defines C++ vector and matrix types in the Windows.Foundation.Numerics namespace. It extends the structs from Windows.Foundation.Numerics with a range of mathematical operators and functions.
 ms.assetid: 7aa15f80-c440-4dcb-a9a6-f1000a3a95da
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

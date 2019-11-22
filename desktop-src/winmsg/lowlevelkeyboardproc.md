@@ -1,11 +1,9 @@
 ---
 UID: 
 title: LowLevelKeyboardProc callback function
-author: TimShererWithAquent
 description: The system calls this function every time a new keyboard input event is about to be posted into a thread input queue.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/05/2019
 ms.keywords: 
 ms.topic: reference

@@ -2,7 +2,6 @@
 title: Obtaining Identity Information
 description: The vendor that implements the authentication protocol may also provide a function interface that obtains initial identifying information for the user requesting authentication.
 ms.assetid: 773c9fdb-c810-4cea-afed-df6484a9c9c9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

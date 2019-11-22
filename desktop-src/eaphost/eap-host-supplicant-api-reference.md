@@ -2,7 +2,6 @@
 title: EAPHost Supplicant API Reference
 description: EAPHost Supplicant API Reference
 ms.assetid: 127d8f2e-ede5-4667-8272-6a6a38dcd5a6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

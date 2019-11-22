@@ -2,7 +2,6 @@
 title: SSO and PLAP
 description: Represents a set of methods used to obtain EAP method specific credentials for a network user or computer account in a secure fashion without having to raise multiple UI instances.
 ms.assetid: 126ef6cc-aa65-4770-b81a-82d25213618c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
