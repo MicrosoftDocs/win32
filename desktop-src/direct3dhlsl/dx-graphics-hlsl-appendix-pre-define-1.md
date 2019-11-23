@@ -1,5 +1,5 @@
 ---
-title: ' define Directive'
+title: \#define directive (constant)
 description: Preprocessor directive that assigns a meaningful name to a constant in your application.
 ms.assetid: cc9b34a3-4c83-4999-99ec-e6261ecb2785
 ms.topic: reference
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# \#define Directive
+# \#define directive (constant)
 
 Preprocessor directive that assigns a meaningful name to a constant in your application.
 

@@ -1,13 +1,13 @@
 ---
+title: How to call a WMI method
 Description: The main purpose of WMI is to provide access to classes and instances that represent objects on your network.
 ms.assetid: 8d559eee-3dbf-4132-b1c0-a6925b8feb56
 ms.tgt_platform: multiple
-title: Calling a WMI Method
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Calling a WMI Method
+# How to call a WMI method
 
 The main purpose of WMI is to provide access to classes and instances that represent objects on your network. These classes and instances are supported by providers. For example, all of the instances that represent standard hardware devices on your enterprise, such as [**Win32\_PhysicalMemory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-physicalmemory) or [**Win32\_Printer**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-printer), are supported by the Win32 provider. Similarly, you can access the event log through the Event Log provider, and the registry through the Registry provider.
 

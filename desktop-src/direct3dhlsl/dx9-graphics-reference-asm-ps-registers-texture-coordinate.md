@@ -1,5 +1,5 @@
 ---
-title: Texture Coordinate Register
+title: Texture coordinate register (HLSL PS reference)
 description: Pixel shader input register containing texture coordinates.
 ms.assetid: 423f249d-fa9f-41f2-adbf-d97ceace06f5
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Texture Coordinate Register
+# Texture coordinate register (HLSL PS reference)
 
 Pixel shader input register containing texture coordinates.
 

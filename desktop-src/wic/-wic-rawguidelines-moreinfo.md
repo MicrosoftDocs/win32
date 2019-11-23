@@ -1,12 +1,12 @@
 ---
+title: For more info about WIC
 Description: For More Information
 ms.assetid: 63f99cf6-809c-48b9-9b89-6154d026b262
-title: For More Information
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# For More Information
+# For more info about WIC
 
 For information or questions, contact wiccodec@microsoft.com
 

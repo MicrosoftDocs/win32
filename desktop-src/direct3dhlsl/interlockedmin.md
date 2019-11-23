@@ -1,5 +1,5 @@
 ---
-title: InterlockedMin function
+title: InterlockedMin function (HLSL reference)
 description: Performs a guaranteed atomic min.
 ms.assetid: a6d3d81c-45d7-4e15-b8ec-fa2e30f854ce
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedMin function
+# InterlockedMin function (HLSL reference)
 
 Performs a guaranteed atomic min.
 

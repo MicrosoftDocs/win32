@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Format conversion functions (HLSL reference)
 description: The section contains the format conversion functions used in Compute and Pixel Shaders.
 ms.assetid: 05575ee8-4428-437f-bfb6-e5c676405d65
 ms.topic: reference
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Functions
+# Format conversion functions (HLSL reference)
 
 The section contains the format conversion functions used in Compute and Pixel Shaders.
 

@@ -1,5 +1,5 @@
 ---
-Description: IPType
+Description: MBNProfileExt\/...\/IPType (v4)
 MS-HAID: WWAN\_profile\_v4.element\_IPType
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# <span id="WWAN_profile_v4.element_IPType"></span>IPType
+# <span id="WWAN_profile_v4.element_IPType"></span>MBNProfileExt\/...\/IPType (v4)
 
 Specifies the IP type to be used on this data connection.
 
@@ -27,15 +27,13 @@ This element is new in v4 of the schema. The element can have one of the followi
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<Context>](element-context.md)  
-**<IPType>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;[\<Context\>](element-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;**\<IPType\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-[<Context>](element-1-context.md)  
-**<IPType>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;[\<Context\>](element-1-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;**\<IPType\>**
 
 ## Syntax
 

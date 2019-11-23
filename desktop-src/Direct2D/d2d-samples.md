@@ -1,5 +1,5 @@
 ---
-title: Samples
+title: Direct2D samples
 description: The following samples demonstrate the Direct2D API.
 ms.assetid: 4e972beb-5c69-4617-a5fe-0e0e4759240a
 keywords:
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Samples
+# Direct2D samples
 
 The following samples demonstrate the Direct2D API.
 

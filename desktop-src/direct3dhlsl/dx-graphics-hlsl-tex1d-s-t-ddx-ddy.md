@@ -1,5 +1,5 @@
 ---
-title: tex1D
+title: tex1D (HLSL reference)
 description: Samples a 1D texture using a gradient to select the mip level.
 ms.assetid: 1fa01f39-1c01-4a2e-9f7d-ca8e887b00bb
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# tex1D
+# tex1D (HLSL reference)
 
 Samples a 1D texture using a gradient to select the mip level.
 

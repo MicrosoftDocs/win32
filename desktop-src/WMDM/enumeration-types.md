@@ -1,5 +1,5 @@
 ---
-title: Enumeration Types
+title: WMDM enumerations
 description: Enumeration Types
 ms.assetid: 205fe651-a712-4d9a-9ebf-bf7e8ec05ed0
 keywords:
@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumeration Types
+# WMDM enumerations
 
 This topic documents a feature of the Windows Media Device Manager SDK. We recommend that you migrate your application to use the Windows Portable Devices API. For more information, see the Windows Portable Devices SDK.
 

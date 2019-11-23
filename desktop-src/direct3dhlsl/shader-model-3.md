@@ -1,5 +1,5 @@
 ---
-title: Shader Model 3
+title: Shader model 3 (HLSL reference)
 description: Vertex shaders and pixel shaders are simplified considerably from earlier shader versions.
 ms.assetid: 01ac85cb-b309-4169-acc2-320a929b65cb
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Shader Model 3
+# Shader model 3 (HLSL reference)
 
 Vertex shaders and pixel shaders are simplified considerably from earlier shader versions. If you are implementing shaders in hardware, you may not use vs\_3\_0 or ps\_3\_0 with any other shader versions, and you may not use either shader type with the fixed function pipeline. These changes make it possible to simplify drivers and the runtime. The only exception is that software-only vs\_3\_0 shaders may be used with any pixel shader version. In addition, if you are using a software-only vs\_3\_0 shader with a previous pixel shader version, the vertex shader can only use output semantics that are compatible with flexible vertex format (FVF) codes.
 

@@ -1,5 +1,5 @@
 ---
-title: ' define Directive'
+title: \#define directive (macro)
 description: Preprocessor directive that creates a function-like macro.
 ms.assetid: 73c19cf8-fbc5-444b-a51f-dc9f881f397b
 ms.topic: reference
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# \#define Directive
+# \#define directive (macro)
 
 Preprocessor directive that creates a function-like macro.
 

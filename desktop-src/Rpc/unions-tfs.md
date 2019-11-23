@@ -1,12 +1,12 @@
 ---
-title: Unions
+title: RPC unions
 description: Encapsulated and nonencapsulated unions and their format with Remote Procedure Call (RPC).
 ms.assetid: de13151a-f4a4-4440-b287-454df4a1e3e1
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Unions
+# RPC unions
 
 Both encapsulated and nonencapsulated unions share a common union\_arm\_selector<> format:
 

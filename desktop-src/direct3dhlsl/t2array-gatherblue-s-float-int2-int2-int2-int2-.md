@@ -1,5 +1,5 @@
 ---
-title: GatherBlue(S,float,int2,int2,int2,int2) function
+title: GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
 description: Samples a texture and returns the blue component.
 ms.assetid: 0DDD3235-4F12-4D74-975A-F70A271C1FC0
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherBlue(S,float,int2,int2,int2,int2) function
+# GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
 
 Samples a texture and returns the blue component.
 

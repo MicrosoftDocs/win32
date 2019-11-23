@@ -1,5 +1,5 @@
 ---
-title: RAS Administration DLL
+title: About RAS administration DLLs
 description: The RAS Administration DLL exports functions that the RAS server calls whenever a user tries to connect or disconnect.
 ms.assetid: c15c6e2d-3bb6-4583-9ac3-19528feb863f
 keywords:
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# RAS Administration DLL
+# About RAS administration DLLs
 
 The RAS Administration DLL exports functions that the RAS server calls whenever a user tries to connect or disconnect. Here are some of the possible uses for a RAS administration DLL:
 

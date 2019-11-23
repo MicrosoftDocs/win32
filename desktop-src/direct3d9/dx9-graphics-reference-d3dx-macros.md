@@ -1,12 +1,12 @@
 ---
 Description: This section contains reference information for the macros provided by the D3DX utility library.
 ms.assetid: 7219363f-b8ac-42e9-96ff-4825c084d00f
-title: Macros
+title: Macros (D3DX 9)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Macros
+# Macros (D3DX 9)
 
 This section contains reference information for the macros provided by the D3DX utility library.
 

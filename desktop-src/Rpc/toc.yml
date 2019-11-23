@@ -248,7 +248,7 @@
           href: signed-and-unsigned-types.md
         - name: "Wide-Character Types"
           href: wide-character-types.md
-        - name: "Structures"
+        - name: "Structs"
           href: structures.md
         - name: "Unions"
           href: unions.md

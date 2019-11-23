@@ -1,12 +1,12 @@
 ---
-title: Unions
+title: union keyword (RPC)
 description: Unions require special MIDL keywords to support their use with Remote Procedure Call (RPC).
 ms.assetid: e7c8296c-893d-4df7-913a-f969733e1917
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Unions
+# union keyword (RPC)
 
 Some features of the C language, such as unions, require special MIDL keywords to support their use in remote procedure calls. A union in the C language is a variable that holds objects of different types and sizes. The developer usually creates a variable to keep track of the types stored in the union. To operate correctly in a distributed environment, the variable that indicates the type of the union, or the *discriminant*, must also be available to the remote computer. MIDL provides the \[[**switch\_type**](https://docs.microsoft.com/windows/desktop/Midl/switch-type)\] and \[[**switch\_is**](https://docs.microsoft.com/windows/desktop/Midl/switch-is)\] keywords to identify the discriminant type and name.
 

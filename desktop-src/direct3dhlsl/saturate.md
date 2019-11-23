@@ -1,5 +1,5 @@
 ---
-title: Saturate
+title: Saturate (HLSL reference)
 description: Clamps the result of a single or double precision floating point arithmetic operation to \ 0.0f...1.0f\ range.
 ms.assetid: 'ce3e79c7-c3e6-4a2c-910a-2cd568aece50'
 ms.topic: reference
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Saturate
+# Saturate (HLSL reference)
 
 Clamps the result of a single or double precision floating point arithmetic operation to \[0.0f...1.0f\] range.
 

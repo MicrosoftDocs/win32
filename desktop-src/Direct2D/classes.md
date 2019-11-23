@@ -1,5 +1,5 @@
 ---
-title: Classes (Direct2D)
+title: Direct2D helper classes
 description: The D2D1 namespace defines the following classes.
 ms.assetid: c80d8394-49f3-4450-9116-3eb01640305f
 keywords:
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Classes
+# Direct2D helper classes
 
 The D2D1 namespace defines the following classes.
 

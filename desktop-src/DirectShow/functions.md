@@ -1,12 +1,12 @@
 ---
-Description: Functions
+Description: DirectShow functions
 ms.assetid: '5bf62e2a-7d5f-4feb-872a-54d102759824'
 title: Functions
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# DirectShow functions
 
 DirectShow provides the following function.
 

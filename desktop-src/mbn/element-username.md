@@ -1,5 +1,5 @@
 ---
-Description: UserName
+Description: MBNProfileExt\/...\/UserName (v4)
 MS-HAID: WWAN\_profile\_v4.element\_UserName
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -19,7 +19,7 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_UserName"></span>UserName
+# <span id="WWAN_profile_v4.element_UserName"></span>MBNProfileExt\/...\/UserName (v4)
 
 The user name to use for logon.
 
@@ -27,17 +27,15 @@ For more details, see the documentation for the v1 [**UserName**](https://msdn.m
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<Context>](element-context.md)  
-[<UserLogonCred>](element-userlogoncred.md)  
-**<UserName>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;[\<Context\>](element-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<UserName\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-[<Context>](element-1-context.md)  
-[<UserLogonCred>](element-1-userlogoncred.md)  
-**<UserName>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;[\<Context\>](element-1-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-1-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<UserName\>**
 
 ## Syntax
 

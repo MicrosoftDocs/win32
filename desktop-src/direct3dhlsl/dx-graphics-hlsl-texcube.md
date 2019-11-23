@@ -1,5 +1,5 @@
 ---
-title: texCUBE
+title: texCUBE (HLSL reference)
 description: Samples a cube texture.
 ms.assetid: 77943eb9-86e8-4ae4-8975-8f925e084ce4
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# texCUBE
+# texCUBE (HLSL reference)
 
 Samples a cube texture.
 
