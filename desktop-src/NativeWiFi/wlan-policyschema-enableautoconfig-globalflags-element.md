@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether machines use the built-in automatic configuration (AutoConfig) service to manage wireless connections.
 ms.assetid: c255e0a0-65ae-44a8-95cb-1a000394109d
-title: enableAutoConfig (globalFlags) Element
+title: enableAutoConfig (globalFlags) Element (LAN_policy)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# enableAutoConfig (globalFlags) Element
+# enableAutoConfig (globalFlags) Element (LAN_policy)
 
 The **enableAutoConfig** (globalFlags) element specifies whether machines use the built-in automatic configuration (AutoConfig) service to manage wireless connections. When **enableAutoConfig** has a value of FALSE, machines must not use AutoConfig to manage wireless connections, and the AutoConfig service only responds to requests to enable the service. When **enableAutoConfig** has a value of TRUE, machines may use the AutoConfig service.
 

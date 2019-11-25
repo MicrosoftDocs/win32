@@ -1,5 +1,5 @@
 ---
-title: InterlockedAdd function
+title: InterlockedAdd function (HLSL reference)
 description: Performs a guaranteed atomic add of value to the dest resource variable.
 ms.assetid: b3b9cf5c-0da0-4c72-a83f-a0d96f1cac32
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedAdd function
+# InterlockedAdd function (HLSL reference)
 
 Performs a guaranteed atomic add of value to the dest resource variable.
 

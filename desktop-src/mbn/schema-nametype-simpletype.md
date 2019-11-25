@@ -1,7 +1,7 @@
 ---
 Description: Defines a string type for the Mobile Broadband profile.
 ms.assetid: a5c14c39-2731-44f0-9fd2-e78d900b66f0
-title: nameType Simple Type
+title: nameType simple type (Mobile Broadband)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -13,7 +13,7 @@ api_type:
 - Schema
 ---
 
-# nameType Simple Type
+# nameType simple type (Mobile Broadband)
 
 The **nameType** simple type defines a string type for the Mobile Broadband profile. This string is at least one character long and at most 255 characters long.
 

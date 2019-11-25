@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: WMDM structures
 description: Structures
 ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
 keywords:
@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# WMDM structures
 
 Windows Media Device Manager defines the following structures.
 

@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Shader Model 3
+# Shader Model 3 (HLSL reference)
 
 Shader Model 3 added additional capabilities to [shader model 2](dx-graphics-hlsl-sm2.md).
 

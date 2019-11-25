@@ -1,5 +1,5 @@
 ---
-title: Loop Counter Register
+title: Loop counter register (HLSL PS reference)
 description: The only register in this bank is the current loop counter (aL) register.
 ms.assetid: 36999873-a251-4939-aac0-faa7f910bc33
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Loop Counter Register
+# Loop counter register (HLSL PS reference)
 
 The only register in this bank is the current loop counter (aL) register. It automatically gets incremented in each execution of the [loop - ps](loop---ps.md)/[endloop - ps](endloop---ps.md) block. So it can be used in the block for relative addressing if needed and is invalid to use it outside the loop.
 

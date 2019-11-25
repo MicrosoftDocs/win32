@@ -1,5 +1,5 @@
 ---
-title: GUIDType Simple Type
+title: GUIDType simple type (Event Schema)
 description: Defines a globally unique identifier type, in Registry format.
 ms.assetid: dbc305ef-6f07-4a70-9013-b89ccec889ea
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GUIDType Simple Type
+# GUIDType simple type (Event Schema)
 
 Defines a globally unique identifier type, in Registry format.
 

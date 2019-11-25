@@ -1,5 +1,5 @@
 ---
-Description: IgnorePassword
+Description: ModemDMConfigProfile\/...\/IgnorePassword (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_IgnorePassword
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# <span id="WWAN_profile_v4.element_1_IgnorePassword"></span>IgnorePassword
+# <span id="WWAN_profile_v4.element_1_IgnorePassword"></span>ModemDMConfigProfile\/...\/IgnorePassword (v4)
 
 Specifies how passwords are handled when upgrading profiles.
 
@@ -19,17 +19,15 @@ For more details, see the documentation for the v1 [**IgnorePassword**](https://
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<Context>](element-context.md)  
-[<UserLogonCred>](element-userlogoncred.md)  
-**<IgnorePassword>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;[\<Context\>](element-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<IgnorePassword\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-[<Context>](element-1-context.md)  
-[<UserLogonCred>](element-1-userlogoncred.md)  
-**<IgnorePassword>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;[\<Context\>](element-1-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-1-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<IgnorePassword\>**
 
 ## Syntax
 

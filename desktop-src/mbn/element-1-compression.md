@@ -1,5 +1,5 @@
 ---
-Description: Compression
+Description: ModemDMConfigProfile\/...\/Compression (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Compression
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -19,7 +19,7 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_1_Compression"></span>Compression
+# <span id="WWAN_profile_v4.element_1_Compression"></span>ModemDMConfigProfile\/...\/Compression (v4)
 
 Specifies whether compression will be used at the data link for header and data transfer.
 
@@ -27,15 +27,13 @@ For more information, see the documentation for the v1 [**Compression**](https:/
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<Context>](element-context.md)  
-**<Compression>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;[\<Context\>](element-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;**\<Compression\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-[<Context>](element-1-context.md)  
-**<Compression>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;[\<Context\>](element-1-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;**\<Compression\>**
 
 ## Syntax
 

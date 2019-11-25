@@ -1,5 +1,5 @@
 ---
-title: InterlockedMax function
+title: InterlockedMax function (HLSL reference)
 description: Performs a guaranteed atomic max.
 ms.assetid: ea2c67ef-3133-424d-9cc3-81da79aee87e
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedMax function
+# InterlockedMax function (HLSL reference)
 
 Performs a guaranteed atomic max.
 

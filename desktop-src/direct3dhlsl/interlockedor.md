@@ -1,5 +1,5 @@
 ---
-title: InterlockedOr function
+title: InterlockedOr function (HLSL reference)
 description: Performs a guaranteed atomic or.
 ms.assetid: ecbe6b2f-8eff-41d7-9ca3-4487c9ffeaf6
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedOr function
+# InterlockedOr function (HLSL reference)
 
 Performs a guaranteed atomic or.
 

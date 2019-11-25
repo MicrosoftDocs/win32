@@ -1,5 +1,5 @@
 ---
-Description: AdminRoamControl
+Description: ModemDMConfigProfile\/AdminRoamControl (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AdminRoamControl
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -9,19 +9,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# <span id="WWAN_profile_v4.element_1_AdminRoamControl"></span>AdminRoamControl
+# <span id="WWAN_profile_v4.element_1_AdminRoamControl"></span>ModemDMConfigProfile\/AdminRoamControl (v4)
 
 Specifies whether the profile is administratively roam controlled. This element is new for v4. The value of this element is a [**roamControlType**](simpletype-roamcontroltype.md) value. This is an optional element; if no value is specified, then **AllRoamAllowed** is the default.
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<AdminRoamControl>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;**\<AdminRoamControl\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-**<AdminRoamControl>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;**\<AdminRoamControl\>**
 
 ## Syntax
 

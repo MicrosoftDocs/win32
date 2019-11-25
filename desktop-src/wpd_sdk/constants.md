@@ -1,12 +1,12 @@
 ---
+title: WPD constants
 Description: Constants
 ms.assetid: 523d88ac-7a8c-4de3-b973-60ec87334a67
-title: Constants
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# WPD constants
 
 Windows Portable Devices defines the following constant types.
 

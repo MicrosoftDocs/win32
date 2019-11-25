@@ -1,5 +1,5 @@
 ---
-title: Source Register Swizzling
+title: Source Register Swizzling (HLSL VS reference)
 description: Before an instruction runs, the data in a source register is copied to a temporary register. Swizzling refers to the ability to copy any source register component to any temporary register component. Swizzling does not affect the source register data.
 ms.assetid: 6271d846-c68d-467c-a110-be3279e0c11a
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Source Register Swizzling
+# Source Register Swizzling (HLSL VS reference)
 
 Before an instruction runs, the data in a source register is copied to a temporary register. Swizzling refers to the ability to copy any source register component to any temporary register component. Swizzling does not affect the source register data.
 

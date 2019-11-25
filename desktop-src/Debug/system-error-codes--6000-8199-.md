@@ -9,9 +9,7 @@ ms.date: 07/18/2019
 # System Error Codes (6000-8199)
 
 > [!NOTE]
-> This information is intended for developers so that the software they write can better deal with errors. If you're experiencing difficulty with an application that you're installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, visit [Microsoft Support](https://support.microsoft.com).
-
-System Error Codes are very broad: each one can occur in one of many hundreds of locations in the system. Consequently, the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the runtime context in which these errors occur. Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. And sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
+> This information is intended for developers debugging system errors. For other errors, such as issues with Windows Update, there is a list of resources on the [Error codes](system-error-codes.md) page.
 
 The following list describes [system error codes](system-error-codes.md) (errors 6000 to 8199). They are returned by the [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
 

@@ -1,5 +1,5 @@
 ---
-Description: Password
+Description: MBNProfileExt\/...\/Password (v4)
 MS-HAID: WWAN\_profile\_v4.element\_Password
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -19,7 +19,7 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_Password"></span>Password
+# <span id="WWAN_profile_v4.element_Password"></span>MBNProfileExt\/...\/Password (v4)
 
 Specifies the password used to authenticate a user.
 
@@ -27,17 +27,15 @@ For more information, see the documentation for the v1 [**Password**](https://ms
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<Context>](element-context.md)  
-[<UserLogonCred>](element-userlogoncred.md)  
-**<Password>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;[\<Context\>](element-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<Password\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-[<Context>](element-1-context.md)  
-[<UserLogonCred>](element-1-userlogoncred.md)  
-**<Password>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;[\<Context\>](element-1-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-1-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<Password\>**
 
 ## Syntax
 

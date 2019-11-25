@@ -316,7 +316,7 @@
       href: d3d11-programming-guide-migrating.md
     - name: "Direct3D Video Interfaces"
       href: direct3d-video-interfaces.md
-  - name: "Direct3D 11 Reference"
+  - name: "Direct3D 11, utilities, and effects reference"
     href: atoc-d3d11-graphics-reference.md
     items: 
     - name: "Direct3D 11 Reference"

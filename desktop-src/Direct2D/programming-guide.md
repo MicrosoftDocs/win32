@@ -1,5 +1,5 @@
 ---
-title: Programming Guide
+title: Direct2D programming guide
 description: This section contains conceptual programming topics that describe how to use the Direct2D API.
 ms.assetid: 428cc2f2-524a-4330-8916-7fa3c8c7c9b7
 keywords:
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Guide
+# Direct2D programming guide
 
 This section contains conceptual programming topics that describe how to use the Direct2D API.
 

@@ -1,12 +1,12 @@
 ---
+title: Getting started (DirectXMath)
 Description: The DirectXMath Library implements an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4).
 ms.assetid: 9972e382-7a0f-88a7-ad44-18521af3520d
-title: Getting Started
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting started (DirectXMath)
 
 The DirectXMath Library implements an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4). The library has some limited support for integer vector operations. These operations are used extensively in rendering and animation by graphics programs. There is no support for double-precision vectors (including longs, shorts, or bytes), and only limited integer vector operations.
 
