@@ -1,18 +1,20 @@
 ---
-title: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
-description: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
-ms.assetid: 3040262A-85EB-4F26-BE34-D2BBD5886E9E
+title: Operating system version changes - Compatibility Cookbook
+description: GetVersion APIs have been changed significantly in Windows 8 and Windows Server 2012 R2
+keywords: compatibility, windows 8.1, version, GetVersion
+author: QuinnRadich
+ms.author: quradic
+ms.date: 07/11/2018
 ms.topic: article
-ms.date: 05/31/2018
+ms.assetid: 3040262A-85EB-4F26-BE34-D2BBD5886E9E
 ---
 
 # Operating system version changes in Windows 8.1 and Windows Server 2012 R2
 
 ## Platforms
 
-<dl> **Clients -** Windows 8.1  
-**Servers -** Windows Server 2012 R2  
-</dl>
+**Clients -** Windows 8.1
+**Servers -** Windows Server 2012 R2
 
 ## Description
 
@@ -31,7 +33,6 @@ In Windows 8.1, the GetVersion(Ex) APIs have been deprecated. That means that w
 In order to target Windows 8.1, you need to either include the app manifest or include \_NT\_TARGET\_VERSION=$ (\_NT\_TARGET\_VERSION\_LATEST) in the source file.
 
 This is what the app manifest would look like:
-
 
 ```XML
 <exe>.manifest
@@ -69,31 +70,25 @@ This is what the app manifest would look like:
 </assembly>
 ```
 
-
-
 And then add this to your sources:
 
-<dl> SXS\_MANIFEST\_RESOURCE\_ID=1  
-SXS\_MANIFEST=foo.manifest  
-SXS\_ASSEMBLY\_NAME=Microsoft.Windows.Foo  
-SXS\_ASSEMBLY\_VERSION=1.0  
-SXS\_ASSEMBLY\_LANGUAGE\_INDEPENDENT=1  
-SXS\_MANIFEST\_IN\_RESOURCES=1  
-</dl>
-
+SXS\_MANIFEST\_RESOURCE\_ID=1
+SXS\_MANIFEST=foo.manifest
+SXS\_ASSEMBLY\_NAME=Microsoft.Windows.Foo
+SXS\_ASSEMBLY\_VERSION=1.0
+SXS\_ASSEMBLY\_LANGUAGE\_INDEPENDENT=1
+SXS\_MANIFEST\_IN\_RESOURCES=1
 For Windows 8.1, the two lines above marked with an asterisk (\*) show how to accurately target your application for the Windows 8.1 version of the operating system. Manifesting the .exe for Windows 8.1 will not have any impact when run on previous operating systems. You can also add this to your .rc file if you already have it defined.
 
 Adding the trustInfo isn’t essential, but it is highly recommended. This will allow your .exe to always get the correct version, no matter whether the operating system is Windows 8.1 or Windows 8.
 
-The replacement APIs are known as VersionHelpers. They are extremely easy to use; all you have to do is \#include <VersionHelpers.h>.
+The replacement APIs are known as VersionHelpers. They are extremely easy to use; all you have to do is \#include &lt;VersionHelpers.h&gt;.
 
 **Example**
 
 The inline functions available in the VersionHelpers.h header file enable you to verify the version of the operating system by returning a Boolean value when testing for the version of Windows. For example, if your application requires Windows 8 or later, use the following test:
 
-
-```
-C++
+```cpp
 #include <VersionHelpers.h>
 …
     if (!IsWindows8OrGreater())
@@ -102,25 +97,21 @@ C++
     }
 ```
 
-
-
 The available APIs are:
 
-<dl> \#define VERSIONHELPERAPI FORCEINLINE BOOL  
-VERSIONHELPERAPI IsWindowsXPOrGreater()  
-VERSIONHELPERAPI IsWindowsXPSP1OrGreater()  
-VERSIONHELPERAPI IsWindowsXPSP2OrGreater()  
-VERSIONHELPERAPI IsWindowsXPSP3OrGreater()  
-VERSIONHELPERAPI IsWindowsVistaOrGreater()  
-VERSIONHELPERAPI IsWindowsVistaSP1OrGreater()  
-VERSIONHELPERAPI IsWindowsVistaSP2OrGreater()  
-VERSIONHELPERAPI IsWindows7OrGreater()  
-VERSIONHELPERAPI IsWindows7SP1OrGreater()  
-VERSIONHELPERAPI IsWindows8OrGreater()  
-VERSIONHELPERAPI IsWindows8\_1OrGreater()  
-VERSIONHELPERAPI IsWindowsServer()  
-</dl>
-
+\#define VERSIONHELPERAPI FORCEINLINE BOOL
+VERSIONHELPERAPI IsWindowsXPOrGreater()
+VERSIONHELPERAPI IsWindowsXPSP1OrGreater()
+VERSIONHELPERAPI IsWindowsXPSP2OrGreater()
+VERSIONHELPERAPI IsWindowsXPSP3OrGreater()
+VERSIONHELPERAPI IsWindowsVistaOrGreater()
+VERSIONHELPERAPI IsWindowsVistaSP1OrGreater()
+VERSIONHELPERAPI IsWindowsVistaSP2OrGreater()
+VERSIONHELPERAPI IsWindows7OrGreater()
+VERSIONHELPERAPI IsWindows7SP1OrGreater()
+VERSIONHELPERAPI IsWindows8OrGreater()
+VERSIONHELPERAPI IsWindows8\_1OrGreater()
+VERSIONHELPERAPI IsWindowsServer()
 They will return TRUE or FALSE depending on the question you are asking, and you only need to define the minimum level operating system that you support.
 
 ## Resources
@@ -128,11 +119,3 @@ They will return TRUE or FALSE depending on the question you are asking, and you
 -   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?LinkID=205020)
 -   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://go.microsoft.com/fwlink/p/?LinkID=205039)
 -   [VersionHelpers APIs](https://go.microsoft.com/fwlink/p/?LinkId=325426)
-
- 
-
- 
-
-
-
-
