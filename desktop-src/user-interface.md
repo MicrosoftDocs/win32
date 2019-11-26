@@ -4,7 +4,6 @@ ms.assetid: 1ffeeb4f-b337-45b9-885f-307b81670557
 title: Desktop Environment
 ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: desktop-app-ui
 ---
 
 # Desktop Environment

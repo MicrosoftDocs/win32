@@ -1,11 +1,9 @@
 ---
 UID: 
 title: InterlockedPushListSList function
-author: TimShererWithAquent
 description: Inserts a singly-linked list at the front of another singly linked list.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/10/2019
 ms.keywords: InterlockedPushListSListEx
 ms.topic: reference

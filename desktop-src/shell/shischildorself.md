@@ -1,11 +1,9 @@
 ---
 UID: 
 title: SHIsChildOrSelf function
-author: TimShererWithAquent
 description: Compares whether a window is equal to, a child of, or a descendant of, a second window.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/10/2019
 ms.keywords: IsChild
 ms.topic: reference

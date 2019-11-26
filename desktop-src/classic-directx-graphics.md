@@ -4,7 +4,6 @@ ms.assetid: CD246474-3360-4588-86F7-21EB36B8B121
 title: Classic DirectX Graphics
 ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: graphics-gaming
 ---
 
 # Classic DirectX Graphics

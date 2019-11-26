@@ -4,7 +4,6 @@ ms.assetid: 30595274-5234-4722-ac4e-4471b4d8dae2
 title: Audio and Video
 ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: audio-video
 ---
 
 # Audio and Video

@@ -4,7 +4,6 @@ ms.assetid: 537ff8c3-8feb-4dd6-9af5-f476803a3cdb
 title: Application Installation and Servicing
 ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: installation-servicing
 ---
 
 # Application Installation and Servicing

@@ -2,7 +2,6 @@
 title: About EAP and EAPHost
 description: About EAP and EAPHost
 ms.assetid: 2669c858-c4cc-4319-a29c-93fe2fe67f41
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

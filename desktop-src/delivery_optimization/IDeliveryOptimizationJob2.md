@@ -11,7 +11,6 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW

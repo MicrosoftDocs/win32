@@ -1,11 +1,9 @@
 ---
 UID: 
 title: LsaManageSidNameMapping function
-author: TimShererWithAquent
 description: Adds or removes SID/name mappings from the mapping set registered with the LSA Lookup Service.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/10/2019
 ms.keywords: 
 ms.topic: reference

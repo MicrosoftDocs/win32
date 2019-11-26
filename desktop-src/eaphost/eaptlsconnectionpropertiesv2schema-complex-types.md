@@ -2,7 +2,6 @@
 title: eaptlsconnectionpropertiesv2 Schema Complex Types
 description: Defines the following complex types.
 ms.assetid: 439a1621-0a8b-4a2b-8e69-46d99594ded9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

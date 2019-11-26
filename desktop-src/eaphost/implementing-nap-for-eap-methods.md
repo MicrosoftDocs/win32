@@ -2,7 +2,6 @@
 title: Implementing NAP Support for EAP Methods
 description: Explains how to implement NAP for an EAPHost supplicant.
 ms.assetid: c25e4f03-759a-47a7-8b35-bbe669501c5c
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
 ---

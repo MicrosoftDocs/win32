@@ -2,7 +2,6 @@
 title: eapcommon Schema Elements
 description: Is made up of the following schema elements.
 ms.assetid: 2cc293b7-f94d-49a4-86b0-26753c368cf8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

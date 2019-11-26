@@ -2,7 +2,6 @@
 title: Peer Method API Call Sequence
 description: Provides the specific call sequence for the peer method API.
 ms.assetid: aac69e89-249d-4bc8-baef-1f0681f9f7ae
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

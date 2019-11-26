@@ -4,7 +4,6 @@ ms.assetid: 193640FE-7E88-4BC4-B4CD-867169375F2B
 title: Direct3D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: graphics-gaming
 ---
 
 # Direct3D
