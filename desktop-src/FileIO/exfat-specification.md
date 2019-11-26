@@ -763,7 +763,7 @@ The valid values for this field are:
 #### 3.1.14 BytesPerSectorShift Field
 
 The BytesPerSectorShift field shall describe the bytes per sector
-expressed as log~2~(N), where N is the number of bytes per sector. For
+expressed as log<sub>2</sub>(N), where N is the number of bytes per sector. For
 example, for 512 bytes per sector, the value of this field is 9.
 
 The valid range of values for this field shall be:
@@ -775,7 +775,7 @@ The valid range of values for this field shall be:
 #### 3.1.15 SectorsPerClusterShift Field
 
 The SectorsPerClusterShift field shall describe the sectors per cluster
-expressed as log~2~(N), where N is number of sectors per cluster. For
+expressed as log<sub>2</sub>(N), where N is number of sectors per cluster. For
 example, for 8 sectors per cluster, the value of this field is 3.
 
 The valid range of values for this field shall be:
