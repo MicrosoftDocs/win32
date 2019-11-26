@@ -1518,7 +1518,7 @@ sub-directory, or file.
 <td>DirectoryEntry[0]</td>
 <td>0</td>
 <td>32</td>
-<td>This field is mandatory and Section 6.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#61-directoryentry0--directoryentryn--1">Section 6.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td><p>.</p>
@@ -1538,7 +1538,7 @@ sub-directory, or file.
 <td>DirectoryEntry[N–1]</td>
 <td>(N – 1) * 32</td>
 <td>32</td>
-<td><p>This field is mandatory and Section 6.1 defines its contents.</p>
+<td><p>This field is mandatory and <a href="#61-directoryentry0--directoryentryn--1">Section 6.1</a> defines its contents.</p>
 <p>N, the number of DirectoryEntry fields, is the size, in bytes, of the cluster chain which contains the given directory, divided by the size of a DirectoryEntry field, 32 bytes.</p></td>
 </tr>
 </tbody>
@@ -1578,7 +1578,7 @@ mandatory.
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.2.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#621-entrytype-field">Section 6.2.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>CustomDefined</td>
@@ -1590,13 +1590,13 @@ mandatory.
 <td>FirstCluster</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 6.2.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#622-firstcluster-field">Section 6.2.2</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>DataLength</td>
 <td>24</td>
 <td>8</td>
-<td>This field is mandatory and Section 6.2.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#623-datalength-field">Section 6.2.3</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -1671,25 +1671,25 @@ invalid.
 <td>TypeCode</td>
 <td>0</td>
 <td>5</td>
-<td>This field is mandatory and Section 6.2.1.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#6211-typecode-field">Section 6.2.1.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>TypeImportance</td>
 <td>5</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.2.1.2 defines its contents.</td>
+<td>This field is mandatory and Section <a href="#6212-typeimportance-field">Section 6.2.1.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>TypeCategory</td>
 <td>6</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.2.1.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#6213-typecategory-field">Section 6.2.1.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>InUse</td>
 <td>7</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.2.1.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#6214-inuse-field">Section 6.2.1.4</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -1725,9 +1725,9 @@ directory entry.
 
 The valid values for this field shall be:
 
--   0, which means the given directory entry is primary (see [Section    6.3](#63-generic-primary-directoryentry-template))
+-   0, which means the given directory entry is primary (see [Section 6.3](#63-generic-primary-directoryentry-template))
 
--   1, which means the given directory entry is secondary (see [Section     6.4](#64-generic-secondary-directoryentry-template))
+-   1, which means the given directory entry is secondary (see [Section 6.4](#64-generic-secondary-directoryentry-template))
 
 ##### 6.2.1.4 InUse Field
 
@@ -1811,25 +1811,25 @@ DirectoryEntry template (see
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.3.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#631-entrytype-field">Section 6.3.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>SecondaryCount</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.3.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#632-secondarycount-field">Section 6.3.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>SetChecksum</td>
 <td>2</td>
 <td>2</td>
-<td>This field is mandatory and Section 6.3.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#633-setchecksum-field">Section 6.3.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>GeneralPrimaryFlags</td>
 <td>4</td>
 <td>2</td>
-<td>This field is mandatory and Section 6.3.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#634-generalprimaryflags-field">Section 6.3.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>CustomDefined</td>
@@ -1841,13 +1841,13 @@ DirectoryEntry template (see
 <td>FirstCluster</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 6.3.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#635-firstcluster-field">Section 6.3.5</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>DataLength</td>
 <td>24</td>
 <td>8</td>
-<td>This field is mandatory and Section 6.3.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#636-datalength-field">Section 6.3.6</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -1989,13 +1989,13 @@ template may redefine this field.
 <td>AllocationPossible</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.3.4.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#6341-allocationpossible-field">Section 6.3.4.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>NoFatChain</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.3.4.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#6342-nofatchain-field">Section 6.3.4.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>CustomDefined</td>
@@ -2107,13 +2107,13 @@ Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-te
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.4.1 defines its contents.</td>
+<td>This field is mandatory and Section <a href="#641-entrytype-field">Section 6.4.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>GeneralSecondaryFlags</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.4.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#642-generalsecondaryflags-field">Section 6.4.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>CustomDefined</td>
@@ -2125,13 +2125,13 @@ Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-te
 <td>FirstCluster</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 6.4.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#643-firstcluster-field">Section 6.4.3</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>DataLength</td>
 <td>24</td>
 <td>8</td>
-<td>This field is mandatory and Section 6.4.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#644-datalength-field">Section 6.4.4</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -2215,13 +2215,13 @@ The GeneralSecondaryFlags field contains flags (see [Table 19](#table-19-generic
 <td>AllocationPossible</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.4.2.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#6421-allocationpossible-field">Section 6.4.2.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>NoFatChain</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 6.4.2.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#6422-nofatchain-field">Section 6.4.2.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>CustomDefined</td>
