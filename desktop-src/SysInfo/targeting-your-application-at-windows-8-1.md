@@ -62,10 +62,3 @@ Declaring support for Windows 8.1 or Windows 10 in your app manifest will not 
 
 [OSVERSIONINFOEX](/windows/desktop/api/winnt/ns-winnt-osversioninfoexa)
 </dt> </dl>
-
- 
-
- 
-
-
-
