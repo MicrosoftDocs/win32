@@ -918,10 +918,10 @@ depending on any other field in its respective Extended Boot Sector.
 The Main OEM Parameters sub-region contains ten parameters structures
 which may contain manufacturer-specific information (see Table 7). Each
 of the ten parameters structures derives from the Generic Parameters
-template (see Section 3.3.2). Manufacturers may derive their own custom
+template (see [Section 3.3.2](#332-generic-parameters-template)). Manufacturers may derive their own custom
 parameters structures from the Generic Parameters template. This
 specification itself defines two parameters structures: Null Parameters
-(see Section 3.3.3) and Flash Parameters (see Section 3.3.4).
+(see [Section 3.3.3](#333-null-parameters)) and Flash Parameters (see [Section 3.3.4](#334-flash-parameters)).
 
 The Backup OEM Parameters is a backup of the Main OEM Parameters and has
 the same structure (see Table 7).
@@ -991,9 +991,9 @@ Implementations may update the Main and Backup OEM Parameters as needed
 #### 3.3.1 Parameters\[0\] ... Parameters\[9\]
 
 Each Parameters field in this array contains a parameters structure,
-which derives from the Generic Parameters template (see Section 3.3.2).
+which derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)).
 Any unused Parameters field shall be described as containing a Null
-Parameters structure (see Section 3.3.3).
+Parameters structure (see [Section 3.3.3](#333-null-parameters)).
 
 #### 3.3.2 Generic Parameters Template
 
@@ -1043,7 +1043,7 @@ when deriving custom parameters structures from this template.
 #### 3.3.3 Null Parameters
 
 The Null Parameters structure derives from the Generic Parameters
-template (see Section 3.3.2) and shall describe an unused Parameters
+template (see [Section 3.3.2](#332-generic-parameters-template)) and shall describe an unused Parameters
 field (see Table 9). When creating or updating the OEM Parameters
 structure, implementations shall populate unused Parameters fields with
 the Null Parameters structure. Also, when creating or updating the OEM
@@ -1085,7 +1085,7 @@ Support for the Null Parameters structure is mandatory.
 ##### 3.3.3.1 ParametersGuid Field
 
 The ParametersGuid field shall conform to the definition provided by the
-Generic Parameters template (see Section 3.3.2.1).
+Generic Parameters template (see [Section 3.3.2.1](#3321-parametersguid-field)).
 
 The valid value for this field, in GUID notation, is
 {00000000-0000-0000-0000-000000000000}.
@@ -1093,7 +1093,7 @@ The valid value for this field, in GUID notation, is
 #### 3.3.4 Flash Parameters
 
 The Flash Parameter structure derives from the Generic Parameters
-template (see Section 3.3.2) and contains parameters for flash media
+template (see [Section 3.3.2](#332-generic-parameters-template)) and contains parameters for flash media
 (see Table 10). Manufacturers of flash-based storage devices may
 populate a Parameters field (preferably the Parameters\[0\] field) with
 this parameters structure. Implementations may use the information in
@@ -1182,7 +1182,7 @@ field).
 ##### 3.3.4.1 ParametersGuid Field
 
 The ParametersGuid field shall conform to the definition provided in the
-Generic Parameters template (see Section 3.3.2.1).
+Generic Parameters template (see [Section 3.3.2.1](#3321-parametersguid-field)).
 
 The valid value for this field, in GUID notation, is
 {0A0C7E46-3399-4021-90C8-FA6D389C4BA2}.
@@ -1243,29 +1243,28 @@ sectors in their respective Boot regions change.
 
 **Figure 1 Boot Checksum Computation**
 
-```
-UInt32	BootChecksum
+```c
+UInt32 BootChecksum
 (
-    UCHAR *	Sectors,		// points to an in-memory copy of the 11 sectors
-	   USHORT	BytesPerSector
+    UCHAR  * Sectors,        // points to an in-memory copy of the 11 sectors
+    USHORT   BytesPerSector
 )
 {
-	   UInt32	NumberOfBytes =	(UInt32)BytesPerSector * 11;
-	   UInt32	Checksum =		0;
-	   UInt32 	Index;
-	
-	   for (Index = 0; Index < NumberOfBytes; Index++)
-	   {
-        if ((Index == 106) || (Index == 107) || (Index == 112))
-		      {
-			         continue;
-		      }
-		      Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum>>1) + (UInt32)Sectors[Index];
-    }
-	
-	   return Checksum;
-}
+    UInt32 NumberOfBytes = (UInt32)BytesPerSector * 11;
+    UInt32 Checksum = 0;
+    UInt32 Index;
 
+    for (Index = 0; Index < NumberOfBytes; Index++)
+    {
+        if ((Index == 106) || (Index == 107) || (Index == 112))
+        {
+            continue;
+        }
+        Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum>>1) + (UInt32)Sectors[Index];
+    }
+
+    return Checksum;
+}
 ```
 
 ## 4 File Allocation Table Region
@@ -1402,7 +1401,7 @@ SectorsPerClusterShift field defines. Importantly, the first cluster of
 the Cluster Heap has index two, which directly corresponds to the index
 of FatEntry\[2\].
 
-In an exFAT volume, an Allocation Bitmap (see Section 7.1.5) maintains
+In an exFAT volume, an Allocation Bitmap (see [Section 7.1.5](#715-allocation-bitmap)) maintains
 the record of the allocation state of all clusters. This is a
 significant difference from exFAT's predecessors (FAT12, FAT16, and
 FAT32), in which a FAT maintained a record of the allocation state of
@@ -1458,7 +1457,7 @@ all clusters in the Cluster Heap.
 Each Cluster field in this array is a series of contiguous sectors,
 whose size is defined by the SectorsPerClusterShift field.
 
- ## 6 Directory Structure
+## 6 Directory Structure
 
 The exFAT file system uses a directory tree approach to manage the file
 system structures and files which exist in the Cluster Heap. Directories
@@ -1522,7 +1521,7 @@ sub-directory, or file.
 ### 6.1 DirectoryEntry\[0\] ... DirectoryEntry\[N--1\]
 
 Each DirectoryEntry field in this array derives from the Generic
-DirectoryEntry template (see Section 6.2).
+DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
 
 ### 6.2 Generic DirectoryEntry Template
 
@@ -1530,8 +1529,7 @@ The Generic DirectoryEntry template provides the base definition for
 directory entries (see Table 14). All directory entry structures derive
 from this template and only Microsoft-defined directory entry structures
 are valid (exFAT does not have provisions for manufacturer-defined
-directory entry structures except as defined in section 7.8 and section
-7.9). The ability to interpret the Generic DirectoryEntry template is
+directory entry structures except as defined in [Section 7.8](#78-vendor-extension-directory-entry) and [Section 7.9](#79-vendor-allocation-directory-entry)). The ability to interpret the Generic DirectoryEntry template is
 mandatory.
 
 **Table 14 Generic DirectoryEntry Template**
@@ -1607,8 +1605,7 @@ field defines (see list below).
     -   Implementations may overwrite unused directory entries as
         necessary
 
-    -   This range of values corresponds to the InUse field (see Section
-        6.2.1.4) containing the value 0
+    -   This range of values corresponds to the InUse field (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 0
 
 -   Between 81h and FFh inclusively, which is a regular directory entry
     and the following conditions apply:
@@ -1620,9 +1617,9 @@ field defines (see list below).
         inside a directory entry set
 
     -   This range of values directly corresponds to the InUse field
-        (see Section 6.2.1.4) containing the value 1
+        (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 1
 
-To prevent modifications to the InUse field (see Section 6.2.1.4)
+To prevent modifications to the InUse field (see [Section 6.2.1.4](#6214-inuse-field))
 erroneously resulting in an end-of-directory marker, the value 80h is
 invalid.
 
@@ -1671,7 +1668,7 @@ invalid.
 
 The TypeCode field partially describes the specific type of the given
 directory entry. This field, plus the TypeImportance and TypeCategory
-fields (see Sections 6.2.1.2 and 6.2.1.3, respectively) uniquely
+fields (see [Section 6.2.1.2](#6212-typeimportance-field) and [Section 6.2.1.3](#6213-typecategory-field), respectively) uniquely
 identify the type of the given directory entry.
 
 All possible values of this field are valid, unless the TypeImportance
@@ -1685,12 +1682,10 @@ directory entry.
 
 The valid values for this field shall be:
 
--   0, which means the given directory entry is critical (see Sections
-    6.3.1.2.1 and 6.4.1.2.1 for critical primary and critical secondary
+-   0, which means the given directory entry is critical (see [Section    6.3.1.2.1](#63121-critical-primary-directory-entries) and [Section 6.4.1.2.1](#64121-critical-secondary-directory-entries) for critical primary and critical secondary
     directory entries, respectively)
 
--   1, which means the given directory entry is benign (see Sections
-    6.3.1.2.2 and 6.4.1.2.2 for benign primary and benign secondary
+-   1, which means the given directory entry is benign (see [Section    6.3.1.2.2](#63122-benign-primary-directory-entries) and [Section 6.4.1.2.2](#64122-benign-secondary-directory-entries) for benign primary and benign secondary
     directory entries, respectively)
 
 ##### 6.2.1.3 TypeCategory Field
@@ -1700,11 +1695,9 @@ directory entry.
 
 The valid values for this field shall be:
 
--   0, which means the given directory entry is primary (see Section
-    6.3)
+-   0, which means the given directory entry is primary (see [Section    6.3](#63-generic-primary-directoryentry-template))
 
--   1, which means the given directory entry is secondary (see Section
-    6.4)
+-   1, which means the given directory entry is secondary (see [Section     6.4](#64-generic-secondary-directoryentry-template))
 
 ##### 6.2.1.4 InUse Field
 
@@ -1757,15 +1750,16 @@ possible for the derivative structure.
 
 The first directory entry in a directory entry set shall be a primary
 directory entry. All subsequent directory entries, if any, in the
-directory entry set shall be secondary directory entries (see Section
-6.4).
+directory entry set shall be secondary directory entries (see
+[Section 6.4](#64-generic-secondary-directoryentry-template)).
 
 The ability to interpret the Generic Primary DirectoryEntry template is
 mandatory.
 
 All primary directory entry structures derive from the Generic Primary
 DirectoryEntry template (see Table 16), which derives from the Generic
-DirectoryEntry template (see Section 6.2).
+DirectoryEntry template (see
+[Section 6.2](#62-generic-directoryentry-template)).
 
 **Table 16 Generic Primary DirectoryEntry Template**
 
@@ -1829,24 +1823,28 @@ DirectoryEntry template (see Section 6.2).
 #### 6.3.1 EntryType Field
 
 The EntryType field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1).
+Generic DirectoryEntry template (see
+[Section 6.2.1](#621-entrytype-field)).
 
 ##### 6.3.1.1 TypeCode Field
 
 The TypeCode field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1.1).
+Generic DirectoryEntry template (see
+[Section 6.2.1.1](#6211-typecode-field)).
 
 ##### 6.3.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1.2).
+Generic DirectoryEntry template (see 
+[Section 6.2.1.2](#6212-typeimportance-field)).
 
 ###### 6.3.1.2.1 Critical Primary Directory Entries
 
 Critical primary directory entries contain information which is critical
 to the proper management of an exFAT volume. Only the root directory
 contains critical primary directory entries (File directory entries are
-an exception, see Section 7.4).
+an exception, see
+[Section 7.4](#74-file-directory-entry)).
 
 The definition of critical primary directory entries correlates to the
 major exFAT revision number. Implementations shall support all critical
@@ -1869,14 +1867,14 @@ applicable directory entry templates).
 ##### 6.3.1.3 TypeCategory Field
 
 The TypeCategory field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1.3).
+Generic DirectoryEntry template (see [Section 6.2.1.3](#6213-typecategory-field)).
 
 For this template, the valid value for this field shall be 0.
 
 ##### 6.3.1.4 InUse Field
 
 The InUse field shall conform to the definition provided in the Generic
-DirectoryEntry template (see Section 6.2.1.4).
+DirectoryEntry template (see [Section 6.2.1.4](#6214-inuse-field)).
 
 #### 6.3.2 SecondaryCount Field
 
@@ -1909,29 +1907,27 @@ template may redefine both the SecondaryCount and SetChecksum fields.
 
 **Figure 2 EntrySetChecksum Computation**
 
-```
-UInt16	EntrySetChecksum
+```C
+UInt16 EntrySetChecksum
 (
-    UCHAR *	Entries,		// points to an in-memory copy of the directory entry set
-	   UCHAR	SecondaryCount
+    UCHAR * Entries,       // points to an in-memory copy of the directory entry set
+    UCHAR   SecondaryCount
 )
 {
-	   UInt16	NumberOfBytes =	((UInt16)SecondaryCount + 1) * 32;
-   	UInt16	Checksum =		0;
-   	UInt16	Index;
-	
-	   for (Index = 0; Index < NumberOfBytes; Index++)
-   	{
-	      	if ((Index == 2) || (Index == 3))
-		      {
-		         	continue;
-	      	}
-	      	Checksum = ((Checksum&1) ? 0x8000 : 0) + (Checksum>>1) + (UInt16)Entries[Index];
-	   }
-	
-	   return Checksum;
-}
+    UInt16 NumberOfBytes = ((UInt16)SecondaryCount + 1) * 32;
+    UInt16 Checksum = 0;
+    UInt16 Index;
 
+    for (Index = 0; Index < NumberOfBytes; Index++)
+    {
+        if ((Index == 2) || (Index == 3))
+        {
+            continue;
+        }
+        Checksum = ((Checksum&1) ? 0x8000 : 0) + (Checksum>>1) +  (UInt16)Entries[Index];
+    }
+    return Checksum;
+}
 ```
 
 #### 6.3.4 GeneralPrimaryFlags Field
@@ -2017,7 +2013,7 @@ FAT entries for any associated allocation's cluster chain are valid.
 #### 6.3.5 FirstCluster Field
 
 The FirstCluster field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.2).
+Generic DirectoryEntry template (see [Section 6.2.2](#622-firstcluster-field)).
 
 If the NoFatChain bit is 1 then FirstCluster must point to a valid
 cluster in the cluster heap.
@@ -2031,7 +2027,7 @@ value 0.
 #### 6.3.6 DataLength Field
 
 The DataLength field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.3).
+Generic DirectoryEntry template (see [Section 6.2.3](#623-datalength-field)).
 
 If the NoFatChain bit is 1 then DataLength must not be zero. If the
 FirstCluster field is zero, then DataLength must also be zero.
@@ -2055,7 +2051,7 @@ specifications, defines is optional.
 
 All secondary directory entry structures derive from the Generic
 Secondary DirectoryEntry template (see Table 18), which derives from the
-Generic DirectoryEntry template (see Section 6.2).
+Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
 
 **Table 18 Generic Secondary DirectoryEntry Template**
 
@@ -2107,17 +2103,17 @@ Generic DirectoryEntry template (see Section 6.2).
 #### 6.4.1 EntryType Field
 
 The EntryType field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1)
+Generic DirectoryEntry template (see [Section 6.2.1](#621-entrytype-field))
 
 ##### 6.4.1.1 TypeCode Field
 
 The TypeCode field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1.1).
+Generic DirectoryEntry template (see [Section 6.2.1.1](#6211-typecode-field)).
 
 ##### 6.4.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1.2).
+Generic DirectoryEntry template (see [Section 6.2.1.2](#6212-typeimportance-field)).
 
 ###### 6.4.1.2.1 Critical Secondary Directory Entries
 
@@ -2133,7 +2129,8 @@ secondary directory entry which an implementation does not recognize,
 then the implementation shall at most interpret the templates of the
 directory entries in the directory entry set and not the data any
 allocation associated with any directory entry in the directory entry
-set contains (File directory entries are an exception, see Section 7.4).
+set contains (File directory entries are an exception, see 
+[Section 7.4](#74-file-directory-entry)).
 
 ###### 6.4.1.2.2 Benign Secondary Directory Entries
 
@@ -2149,14 +2146,14 @@ recognize.
 ##### 6.4.1.3 TypeCategory Field
 
 The TypeCategory field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.1.3).
+Generic DirectoryEntry template (see [Section 6.2.1.3](#6213-typecategory-field)).
 
 For this template, the valid value for this field is 1.
 
 ##### 6.4.1.4 InUse Field
 
 The InUse field shall conform to the definition provided in the Generic
-DirectoryEntry template (see Section 6.2.1.4).
+DirectoryEntry template (see [Section 6.2.1.4](#6214-inuse-field)).
 
 #### 6.4.2 GeneralSecondaryFlags Field
 
@@ -2201,18 +2198,18 @@ The GeneralSecondaryFlags field contains flags (see Table 19).
 
 The AllocationPossible field shall have the same definition as the
 same-named field in the Generic Primary DirectoryEntry template (see
-Section 6.3.4.1).
+[Section 6.3.4.1](#6341-allocationpossible-field)).
 
 ##### 6.4.2.2 NoFatChain Field
 
 The NoFatChain field shall have the same definition as the same-named
-field in the Generic Primary DirectoryEntry template (see Section
-6.3.4.2).
+field in the Generic Primary DirectoryEntry template (see 
+[Section 6.3.4.2](#6342-nofatchain-field)).
 
 #### 6.4.3 FirstCluster Field
 
 The FirstCluster field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.2).
+Generic DirectoryEntry template (see [Section 6.2.2](#622-firstcluster-field)).
 
 If the NoFatChain bit is 1 then FirstCluster must point to a valid
 cluster in the cluster heap.
@@ -2220,7 +2217,7 @@ cluster in the cluster heap.
 #### 6.4.4 DataLength Field
 
 The DataLength field shall conform to the definition provided in the
-Generic DirectoryEntry template (see Section 6.2.3).
+Generic DirectoryEntry template (see [Section 6.2.3](#623-datalength-field)).
 
 If the NoFatChain bit is 1 then DataLength must not be zero. If the
 FirstCluster field is zero, then DataLength must also be zero.
@@ -2232,39 +2229,39 @@ entries:
 
 -   Critical primary
 
-    -   Allocation Bitmap (Section 7.1)
+    -   Allocation Bitmap ([Section 7.1](#71-allocation-bitmap-directory-entry))
 
-    -   Up-case Table (Section 7.2)
+    -   Up-case Table ([Section 7.2](#72-up-case-table-directory-entry))
 
-    -   Volume Label (Section 7.3)
+    -   Volume Label ([Section 7.3](#73-volume-label-directory-entry))
 
-    -   File (Section 7.4)
+    -   File ([Section 7.4](#74-file-directory-entry))
 
 -   Benign primary
 
-    -   Volume GUID (Section 7.5)
+    -   Volume GUID ([Section 7.5](#75-volume-guid-directory-entry))
 
-    -   TexFAT Padding (Section 7.10)
+    -   TexFAT Padding ([Section 7.10](#710-texfat-padding-directory-entry))
 
 <!-- -->
 
 -   Critical secondary
 
-    -   Stream Extension (Section 7.6)
+    -   Stream Extension ([Section 7.6](#76-stream-extension-directory-entry))
 
-    -   File Name (Section 7.7)
+    -   File Name ([Section 7.7](#77-file-name-directory-entry))
 
 -   Benign secondary
 
-    -   Vendor Extension (Section 7.8)
+    -   Vendor Extension ([Section 7.8](#78-vendor-extension-directory-entry))
 
-    -   Vendor Allocation (Section 7.9)
+    -   Vendor Allocation ([Section 7.9](#79-vendor-allocation-directory-entry))
 
 ### 7.1 Allocation Bitmap Directory Entry
 
 In the exFAT file system, a FAT does not describe the allocation state
 of clusters; rather, an Allocation Bitmap does. Allocation Bitmaps exist
-in the Cluster Heap (see Section 7.1.5) and have corresponding critical
+in the Cluster Heap (see [Section 7.1.5](#715-allocation-bitmap)) and have corresponding critical
 primary directory entries in the root directory (see Table 20).
 
 The NumberOfFats field determines the number of valid Allocation Bitmap
@@ -2272,7 +2269,7 @@ directory entries in the root directory. If the NumberOfFats field
 contains the value 1, then the only valid number of Allocation Bitmap
 directory entries is 1. Further, the one Allocation Bitmap directory
 entry is only valid if it describes the First Allocation Bitmap (see
-Section 7.1.2.1). If the NumberOfFats field contains the value 2, then
+[Section 7.1.2.1](#7121-bitmapidentifier-field)). If the NumberOfFats field contains the value 2, then
 the only valid number of Allocation Bitmap directory entries is 2.
 Further, the two Allocation Bitmap directory entries are only valid if
 one describes the First Allocation Bitmap and the other describes the
@@ -2328,12 +2325,12 @@ Second Allocation Bitmap.
 #### 7.1.1 EntryType Field
 
 The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.1.1.1 TypeCode Field
 
 The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
 For an Allocation Bitmap directory entry, the valid value for this field
 is 1.
@@ -2341,7 +2338,7 @@ is 1.
 ##### 7.1.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.2).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
 For an Allocation Bitmap directory entry, the valid value for this field
 is 0.
@@ -2349,12 +2346,12 @@ is 0.
 ##### 7.1.1.3 TypeCategory Field
 
 The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.3).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.1.1.4 InUse Field
 
 The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see Section 6.3.1.4).
+Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.1.2 BitmapFlags Field
 
@@ -2573,7 +2570,7 @@ Generic Primary DirectoryEntry template (see Section 6.3.1).
 ##### 7.2.1.1 TypeCode Field
 
 The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
 For the Up-case Table directory entry, the valid value for this field is
 2.
@@ -2581,7 +2578,7 @@ For the Up-case Table directory entry, the valid value for this field is
 ##### 7.2.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.2).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
 For the Up-case Table directory entry, the valid value for this field is
 0.
@@ -2589,12 +2586,12 @@ For the Up-case Table directory entry, the valid value for this field is
 ##### 7.2.1.3 TypeCategory Field
 
 The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.3).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.2.1.4 InUse Field
 
 The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see Section 6.3.1.4).
+Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.2.2 TableChecksum Field
 
@@ -3143,12 +3140,12 @@ ranges from 0 to 1.
 #### 7.3.1 EntryType Field
 
 The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.3.1.1 TypeCode Field
 
 The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
 For the Volume Label directory entry, the valid value for this field is
 3.
@@ -3156,7 +3153,7 @@ For the Volume Label directory entry, the valid value for this field is
 ##### 7.3.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.2).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
 For the Volume Label directory entry, the valid value for this field is
 0.
@@ -3164,12 +3161,12 @@ For the Volume Label directory entry, the valid value for this field is
 ##### 7.3.1.3 TypeCategory Field
 
 The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.3).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.3.1.4 InUse Field
 
 The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see Section 6.3.1.4).
+Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.3.2 CharacterCount Field
 
@@ -3303,36 +3300,36 @@ entry (see Sections 7.6 and 7.7, respectively).
 #### 7.4.1 EntryType Field
 
 The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.4.1.1 TypeCode Field
 
 The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
 For a File directory entry, the valid value for this field is 5.
 
 ##### 7.4.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.2).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
 For a File directory entry, the valid value for this field is 0.
 
 ##### 7.4.1.3 TypeCategory Field
 
 The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.3).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.4.1.4 InUse Field
 
 The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see Section 6.3.1.4).
+Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.4.2 SecondaryCount Field
 
 The SecondaryCount field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.2).
+Generic Primary DirectoryEntry template (see [Section 6.3.2](#632-secondarycount-field)).
 
 #### 7.4.3 SetChecksum Field
 
@@ -3799,12 +3796,12 @@ entries ranges from 0 to 1.
 #### 7.5.1 EntryType Field
 
 The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.5.1.1 TypeCode Field
 
 The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.1).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
 For the Volume GUID directory entry, the valid value for this field is
 0.
@@ -3812,7 +3809,7 @@ For the Volume GUID directory entry, the valid value for this field is
 ##### 7.5.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.2).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
 For the Volume GUID directory entry, the valid value for this field is
 1.
@@ -3820,17 +3817,17 @@ For the Volume GUID directory entry, the valid value for this field is
 ##### 7.5.1.3 TypeCategory Field
 
 The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.1.3).
+Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.5.1.4 InUse Field
 
 The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see Section 6.3.1.4).
+Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.5.2 SecondaryCount Field
 
 The SecondaryCount field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.2).
+Generic Primary DirectoryEntry template (see [Section 6.3.2](#632-secondarycount-field)).
 
 For the Volume GUID directory entry, the valid value for this field is
 0.
@@ -3838,12 +3835,12 @@ For the Volume GUID directory entry, the valid value for this field is
 #### 7.5.3 SetChecksum Field
 
 The SetChecksum field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see Section 6.3.3).
+Generic Primary DirectoryEntry template (see [Section 6.3.3](#633-setchecksum-field)).
 
 #### 7.5.4 GeneralPrimaryFlags Field
 
 The GeneralPrimaryFlags field shall conform to the definition provided
-in the Generic Primary DirectoryEntry template (see Section 6.3.4) and
+in the Generic Primary DirectoryEntry template (see [Section 6.3.4](#634-generalprimaryflags-field)) and
 defines the contents of the CustomDefined field to be reserved.
 
 ##### 7.5.4.1 AllocationPossible Field
