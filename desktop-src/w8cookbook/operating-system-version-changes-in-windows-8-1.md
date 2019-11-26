@@ -1,12 +1,8 @@
 ---
-title: Operating system version changes - Compatibility Cookbook
-description: GetVersion APIs have been changed significantly in Windows 8 and Windows Server 2012 R2
-keywords: compatibility, windows 8.1, version, GetVersion
-author: QuinnRadich
-ms.author: quradic
-ms.date: 07/11/2018
-ms.topic: article
+title: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
+description: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
 ms.assetid: 3040262A-85EB-4F26-BE34-D2BBD5886E9E
+ms.date: 05/31/2018
 ---
 
 # Operating system version changes in Windows 8.1 and Windows Server 2012 R2
