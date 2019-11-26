@@ -26,72 +26,46 @@ Some apps perform a version check and simply pass a warning to users. However, t
 -   If you are using the GetVersion API or other Version Helper functions such as [VerifyVersionInfo](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa), remember that the behavior of this API has changed since Windows 8.1. Please refer to [the API documentation](https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis) for more details.
 -   If you own apps such as antimalware or firewall, you should work through your usual feedback channels and via the Windows Insider program.
 
-## App Manifest
+## Declaring Windows 10 Compatibility With An App Manifest
 
-Below is an example app manifest:
+In order for your app to target Windows 10, you'll need to include an [app (executable) manifest](/windows/compatibility/application-executable-manifest) for the app's executable. Then, in the [**&lt;compatibility&gt;** section](../SbsCs/application-manifests.md#compatibility) of the manifest, you'll need to add a **&lt;supportedOS&gt;** element for each Windows version you want to declare that your app supports.
 
+The following example shows an app manifest file for an app that supports all versions of Windows from Windows Vista to Windows 10:
 
-```
-<exe>.manifest
+```XML
+<!-- example.exe.manifest -->
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
-    <assemblyIdentity 
-        type="win32" 
-        name=SXS_ASSEMBLY_NAME
-        version=SXS_ASSEMBLY_VERSION
-        processorArchitecture=SXS_PROCESSOR_ARCHITECTURE
+    <assemblyIdentity
+        type="win32"
+        name="Contoso.ExampleApplication.ExampleBinary"
+        version="1.2.3.4"
+        processorArchitecture="x86"
     />
-    <description> my app exe </description>
-    <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
-        <security>
-            <requestedPrivileges>
-                <requestedExecutionLevel
-                    level="asInvoker"
-                    uiAccess="false"
-                />   
-            </requestedPrivileges>
-        </security>
-    </trustInfo>
-    <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
-        <application> 
-
-      * <!-- Windows 10 --> 
-      * <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+    <description>Contoso Example Application</description>
+    <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+        <application>
+            <!-- Windows 10 -->
+            <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/> <!-- * ADD THIS LINE * -->
             <!-- Windows 8.1 -->
             <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
-            <!-- Windows Vista -->
-            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
-            <!-- Windows 7 -->
-            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
             <!-- Windows 8 -->
             <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
-        </application> 
+            <!-- Windows 7 -->
+            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+            <!-- Windows Vista -->
+            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
+        </application>
     </compatibility>
 </assembly>
 ```
 
+The line above marked `* ADD THIS LINE *` shows how to accurately target your application for Windows 10.
 
-
-Add these variables to your sources:<dl> SXS\_MANIFEST\_RESOURCE\_ID=1  
-SXS\_MANIFEST=foo.manifest  
-SXS\_ASSEMBLY\_NAME=Microsoft.Windows.Foo  
-SXS\_ASSEMBLY\_VERSION=1.0  
-SXS\_ASSEMBLY\_LANGUAGE\_INDEPENDENT=1  
-SXS\_MANIFEST\_IN\_RESOURCES=1  
-</dl>For Windows 10, the two lines above marked with an asterisk (\*) show how to accurately target your application for the Windows 10 version of the OS. Manifesting the .exe for Windows 10 will not have any impact when run on previous versions of the Windows OS. You can also add this to your .rc file if you already have it defined.
-
-Adding the trustInfo isn’t essential, but it is highly recommended. This will allow your .exe to always get the correct version, no matter whether the OS is Windows 10 or Windows 8.1.
+Declaring support for Windows 10 in your app manifest will not have any effect when running your app on previous operating systems.
 
 ## Resources
 
 -   [Application Compatibility Toolkit Download: Download the Windows ADK for Windows 10](https://go.microsoft.com/fwlink/p/?LinkId=526740)
 -   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://go.microsoft.com/fwlink/?LinkID=205039)
 -   [Version Helpers API](https://go.microsoft.com/fwlink/p/?LinkId=325426)
-
- 
-
- 
-
-
-
-
