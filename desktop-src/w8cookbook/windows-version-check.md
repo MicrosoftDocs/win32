@@ -28,7 +28,7 @@ Some apps perform a version check and simply pass a warning to users. However, t
 
 ## Declaring Windows 10 Compatibility With An App Manifest
 
-If your app is compatible with Windows 10, it can declare this fact in the [app (executable) manifest](/windows/compatibility/application-executable-manifest) for the app's executable. Specifically, within the [**&lt;compatibility&gt;** section](../SbsCs/application-manifests.md#compatibility) of the manifest, you'll need to add a **&lt;supportedOS&gt;** element for each Windows version you want to declare that your app supports.
+If your app is compatible with Windows 10, it can declare this fact in the [app (executable) manifest](/windows/compatibility/application-executable-manifest) for the app's executable, letting the system turn off compatibility behaviors applied to apps that don't declare Windows 10 compatibility. Specifically, within the [**&lt;compatibility&gt;** section](../SbsCs/application-manifests.md#compatibility) of the manifest, you'll need to add a **&lt;supportedOS&gt;** element for each Windows version you want to declare that your app supports.
 
 The following example shows an app manifest file for an app that supports all versions of Windows from Windows Vista to Windows 10:
 
