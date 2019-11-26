@@ -42,10 +42,28 @@ The following example shows an app manifest file for an app that supports all ve
             <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
         </application>
     </compatibility>
+    <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+        <security>
+            <requestedPrivileges>
+                <!--
+                  UAC settings:
+                  - app should run at same integrity level as calling process
+                  - app does not need to manipulate windows belonging to
+                    higher-integrity-level processes
+                  -->
+                <requestedExecutionLevel
+                    level="asInvoker"
+                    uiAccess="false"
+                />   
+            </requestedPrivileges>
+        </security>
+    </trustInfo>
 </assembly>
 ```
 
 Declaring support for Windows 8.1 or Windows 10 in your app manifest will not have any effect when running your app on previous operating systems.
+
+The above app manifest also includes a [**&lt;trustInfo&gt;** section](/previous-versions/bb756929(v=msdn.10)), which specifies how the system should treat it with respect to [User Account Control (UAC)](/windows/security/identity-protection/user-account-control/how-user-account-control-works). Adding **trustInfo** isn't essential, but it is highly recommended, even when your app doesn't need any particular UAC-related behavior. In particular, if you don't add **trustInfo** at all, then 32-bit x86 versions of your app will be subject to [UAC file virtualization](/windows/security/identity-protection/user-account-control/how-user-account-control-works#virtualization), which allows writes to administrator-privileged folders like the Windows system folders to succeed when they would otherwise fail, but redirects them to a user-specific "VirtualStore" folder.
 
 ## Related topics
 
