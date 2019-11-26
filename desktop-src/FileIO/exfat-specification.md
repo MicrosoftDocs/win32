@@ -354,109 +354,109 @@ checksum specifically excludes these two fields).
 <td>JumpBoot</td>
 <td>0</td>
 <td>3</td>
-<td>This field is mandatory and Section 3.1.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#311-jumpboot-field">Section 3.1.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FileSystemName</td>
 <td>3</td>
 <td>8</td>
-<td>This field is mandatory and Section 3.1.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#312-filesystemname-field">Section 3.1.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>MustBeZero</td>
 <td>11</td>
 <td>53</td>
-<td>This field is mandatory and Section 3.1.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#313-mustbezero-field">Section 3.1.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>PartitionOffset</td>
 <td>64</td>
 <td>8</td>
-<td>This field is mandatory and Section 3.1.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#314-partitionoffset-field">Section 3.1.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>VolumeLength</td>
 <td>72</td>
 <td>8</td>
-<td>This field is mandatory and Section 3.1.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#315-volumelength-field">Section 3.1.5</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FatOffset</td>
 <td>80</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.1.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#316-fatoffset-field">Section 3.1.6</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>FatLength</td>
 <td>84</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.1.7 defines its contents.</td>
+<td>This field is mandatory and <a href="#317-fatlength-field">Section 3.1.7</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>ClusterHeapOffset</td>
 <td>88</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.1.8 defines its contents.</td>
+<td>This field is mandatory and <a href="#318-clusterheapoffset-field">Section 3.1.8</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>ClusterCount</td>
 <td>92</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.1.9 defines its contents.</td>
+<td>This field is mandatory and <a href="#319-clustercount-field">Section 3.1.9</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FirstClusterOfRootDirectory</td>
 <td>96</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.1.10 defines its contents.</td>
+<td>This field is mandatory and <a href="#3110-firstclusterofrootdirectory-field">Section 3.1.10</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>VolumeSerialNumber</td>
 <td>100</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.1.11 defines its contents.</td>
+<td>This field is mandatory and <a href="#3111-volumeserialnumber-field">Section 3.1.11</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FileSystemRevision</td>
 <td>104</td>
 <td>2</td>
-<td>This field is mandatory and Section 3.1.12 defines its contents.</td>
+<td>This field is mandatory and <a href="#3112-filesystemrevision-field">Section 3.1.12</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>VolumeFlags</td>
 <td>106</td>
 <td>2</td>
-<td>This field is mandatory and Section 3.1.13 defines its contents.</td>
+<td>This field is mandatory and <a href="#3113-volumeflags-field">Section 3.1.13</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>BytesPerSectorShift</td>
 <td>108</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.14 defines its contents.</td>
+<td>This field is mandatory and <a href="#3114-bytespersectorshift-field">Section 3.1.14</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>SectorsPerClusterShift</td>
 <td>109</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.15 defines its contents.</td>
+<td>This field is mandatory and <a href="#3115-sectorsperclustershift-field">Section 3.1.15</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>NumberOfFats</td>
 <td>110</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.16 defines its contents.</td>
+<td>This field is mandatory and <a href="#3116-numberoffats-field">Section 3.1.16</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>DriveSelect</td>
 <td>111</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.17 defines its contents.</td>
+<td>This field is mandatory and <a href="#3117-driveselect-field">Section 3.1.17</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>PercentInUse</td>
 <td>112</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.18 defines its contents.</td>
+<td>This field is mandatory and <a href="#3118-percentinuse-field">Section 3.1.18</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Reserved</td>
@@ -468,13 +468,13 @@ checksum specifically excludes these two fields).
 <td>BootCode</td>
 <td>120</td>
 <td>390</td>
-<td>This field is mandatory and Section 3.1.19 defines its contents.</td>
+<td>This field is mandatory and <a href="#3119-bootcode-field">Section 3.1.19</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>BootSignature</td>
 <td>510</td>
 <td>2</td>
-<td>This field is mandatory and Section 3.1.20 defines its contents.</td>
+<td>This field is mandatory and <a href="#3120-bootsignature-field">Section 3.1.20</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>ExcessSpace</td>
@@ -676,25 +676,25 @@ the Backup Boot Sector, implementations shall treat this field as stale.
 <td>ActiveFat</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.13.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#31131-activefat-field">Section 3.1.13.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>VolumeDirty</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.13.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#31132-volumedirty-field">Section 3.1.13.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>MediaFailure</td>
 <td>2</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.13.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#31133-mediafailure-field">Section 3.1.13.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>ClearToZero</td>
 <td>3</td>
 <td>1</td>
-<td>This field is mandatory and Section 3.1.13.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#31134-cleartozero-field">Section 3.1.13.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Reserved</td>
@@ -895,14 +895,14 @@ needed.
 <td>ExtendedBootCode</td>
 <td>0</td>
 <td>2<sup>BytesPerSectorShift</sup> – 4</td>
-<td><p>This field is mandatory and Section 3.2.1 defines its contents.</p>
+<td><p>This field is mandatory and <a href="#321-extendedbootcode-field">Section 3.2.1</a> defines its contents.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the BytesPerSectorShift field.</p></td>
 </tr>
 <tr class="even">
 <td>ExtendedBootSignature</td>
 <td>2<sup>BytesPerSectorShift</sup> – 4</td>
 <td>4</td>
-<td><p>This field is mandatory and Section 3.2.2 defines its contents.</p>
+<td><p>This field is mandatory and <a href="#322-extendedbootsignature-field">Section 3.2.2</a> defines its contents.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the BytesPerSectorShift field.</p></td>
 </tr>
 </tbody>
@@ -971,7 +971,7 @@ Implementations may update the Main and Backup OEM Parameters as needed
 <td>Parameters[0]</td>
 <td>0</td>
 <td>48</td>
-<td>This field is mandatory and Section 3.3.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#331-parameters0--parameters9">Section 3.3.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td><p>.</p>
@@ -991,7 +991,7 @@ Implementations may update the Main and Backup OEM Parameters as needed
 <td>Parameters[9]</td>
 <td>432</td>
 <td>48</td>
-<td>This field is mandatory and Section 3.3.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#331-parameters0--parameters9">Section 3.3.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved</td>
@@ -1004,7 +1004,6 @@ Implementations may update the Main and Backup OEM Parameters as needed
 </table>
 
 #### 3.3.1 Parameters\[0\] ... Parameters\[9\]
-
 Each Parameters field in this array contains a parameters structure,
 which derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)).
 Any unused Parameters field shall be described as containing a Null
@@ -1037,7 +1036,7 @@ mandatory.
 <td>ParametersGuid</td>
 <td>0</td>
 <td>16</td>
-<td>This field is mandatory and Section 3.3.2.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#3321-parametersguid-field">Section 3.3.2.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>CustomDefined</td>
@@ -1090,7 +1089,7 @@ Support for the Null Parameters structure is mandatory.
 <td>ParametersGuid</td>
 <td>0</td>
 <td>16</td>
-<td>This field is mandatory and Section 3.3.3.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#3331-parametersguid-field">Section 3.3.3.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved</td>
@@ -1142,49 +1141,49 @@ Support for the Flash Parameters structure is optional.
 <td>ParametersGuid</td>
 <td>0</td>
 <td>16</td>
-<td>This field is mandatory and Section 3.3.4.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#3341-parametersguid-field">Section 3.3.4.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>EraseBlockSize</td>
 <td>16</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.3.4.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#3342-eraseblocksize-field">Section 3.3.4.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>PageSize</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.3.4.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#3343-pagesize-field">Section 3.3.4.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>SpareSectors</td>
 <td>24</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.3.4.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#3344-sparesectors-field">Section 3.3.4.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>RandomAccessTime</td>
 <td>28</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.3.4.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#3345-randomaccesstime-field">Section 3.3.4.5</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>ProgrammingTime</td>
 <td>32</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.3.4.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#3346-programmingtime-field">Section 3.3.4.6</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>ReadCycle</td>
 <td>36</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.3.4.7 defines its contents.</td>
+<td>This field is mandatory and <a href="#3347-readcycle-field">Section 3.3.4.7</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>WriteCycle</td>
 <td>40</td>
 <td>4</td>
-<td>This field is mandatory and Section 3.3.4.8 defines its contents.</td>
+<td>This field is mandatory and <a href="#3348-writecycle-field">Section 3.3.4.8</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Reserved</td>
