@@ -705,7 +705,7 @@ active (and implementations shall use), as follows:
 
 Implementations shall consider the inactive FAT and Allocation Bitmap as
 stale. Only TexFAT-aware implementations shall switch the active FAT and
-Allocation Bitmaps (see Section 7.1).
+Allocation Bitmaps (see [Section 7.1](#71-allocation-bitmap-directory-entry)).
 
 ##### 3.1.13.2 VolumeDirty Field
 
@@ -727,7 +727,7 @@ a consistent state.
 If, upon mounting a volume, the value of this field is 0,
 implementations should set this field to 1 before updating file system
 metadata and clear this field to 0 afterwards, similar to the
-recommended write ordering described in Section 8.1.
+recommended write ordering described in [Section 8.1](#81-recommended-write-ordering).
 
 ##### 3.1.13.3 MediaFailure Field
 
