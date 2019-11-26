@@ -165,19 +165,19 @@ four regions (see Table 3).
 <td>Main Boot Sector</td>
 <td>0</td>
 <td>1</td>
-<td>This sub-region is mandatory and Section 3.1 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#31-main-and-backup-boot-sector-sub-regions">Section 3.1</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Main Extended Boot Sectors</td>
 <td>1</td>
 <td>8</td>
-<td>This sub-region is mandatory and Section 3.2 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#32-main-and-backup-extended-boot-sectors-sub-regions">Section 3.2</a>) defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Main OEM Parameters</td>
 <td>9</td>
 <td>1</td>
-<td>This sub-region is mandatory and Section 3.3 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#33-main-and-backup-oem-parameters-sub-regions">Section 3.3</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Main Reserved</td>
@@ -189,7 +189,7 @@ four regions (see Table 3).
 <td>Main Boot Checksum</td>
 <td>11</td>
 <td>1</td>
-<td>This sub-region is mandatory and Section 3.4 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#34-main-and-backup-boot-checksum-sub-regions">Section 3.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td><strong>Backup Boot Region</strong></td>
@@ -201,19 +201,19 @@ four regions (see Table 3).
 <td>Backup Boot Sector</td>
 <td>12</td>
 <td>1</td>
-<td>This sub-region is mandatory and Section 3.1 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#31-main-and-backup-boot-sector-sub-regions">Section 3.1</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Backup Extended Boot Sectors</td>
 <td>13</td>
 <td>8</td>
-<td>This sub-region is mandatory and Section 3.2 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#32-main-and-backup-extended-boot-sectors-sub-regions">Section 3.2</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Backup OEM Parameters</td>
 <td>21</td>
 <td>1</td>
-<td>This sub-region is mandatory and Section 3.3 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#33-main-and-backup-oem-parameters-sub-regions">Section 3.3</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Backup Reserved</td>
@@ -225,7 +225,7 @@ four regions (see Table 3).
 <td>Backup Boot Checksum</td>
 <td>23</td>
 <td>1</td>
-<td>This sub-region is mandatory and Section 3.4 defines its contents.</td>
+<td>This sub-region is mandatory and <a href="#34-main-and-backup-boot-checksum-sub-regions">Section 3.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td><strong>FAT Region</strong></td>
@@ -244,14 +244,14 @@ four regions (see Table 3).
 <td>First FAT</td>
 <td>FatOffset</td>
 <td>FatLength</td>
-<td><p>This sub-region is mandatory and Section 4.1 defines its contents.</p>
+<td><p>This sub-region is mandatory and <a href="#41-first-and-second-fat-sub-regions">Section 4.1</a> defines its contents.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the FatOffset and FatLength fields.</p></td>
 </tr>
 <tr class="even">
 <td>Second FAT</td>
 <td>FatOffset + FatLength</td>
 <td>FatLength * (NumberOfFats – 1)</td>
-<td><p>This sub-region is mandatory and Section 4.1 defines its contents, if any.</p>
+<td><p>This sub-region is mandatory and <a href="#41-first-and-second-fat-sub-regions">Section 4.1</a> defines its contents, if any.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the FatOffset, FatLength, and NumberOfFats fields. The NumberOfFats field may only hold values 1 and 2.</p></td>
 </tr>
 <tr class="odd">
@@ -271,7 +271,7 @@ four regions (see Table 3).
 <td>Cluster Heap</td>
 <td>ClusterHeapOffset</td>
 <td>ClusterCount * 2<sup>SectorsPerClusterShift</sup></td>
-<td><p>This sub-region is mandatory and Section 5.1 defines its contents.</p>
+<td><p>This sub-region is mandatory and <a href="#51-cluster-heap-sub-region">Section 5.1</a> defines its contents.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the ClusterHeapOffset, ClusterCount, and SectorsPerClusterShift fields.</p></td>
 </tr>
 <tr class="even">
