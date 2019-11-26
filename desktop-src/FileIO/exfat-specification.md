@@ -40,7 +40,7 @@ The exFAT file system has three central design goals (see list below).
 
 ### 1.2 Specific Terminology
 
-In the context of this specification, certain terms (see Table 1) carry
+In the context of this specification, certain terms (see [Table 1]("#table-1-definition-of-terms-which-carry-very-specific-meaning")) carry
 specific meaning for the design and implementation of the exFAT file
 system.
 
@@ -95,7 +95,7 @@ system.
 ### 1.3 Full Text of Common Acronyms
 
 This specification uses acronyms in common use in the personal computer
-industry (see Table 2).
+industry (see [Table 2]("#table-2-full-text-of-common-acronyms")).
 
 <div id="table-2-full-text-of-common-acronyms" />
 
@@ -144,7 +144,7 @@ padding descriptors and security descriptors.
 
 A volume is the set of all file system structures and data space
 necessary to store and retrieve user data. All exFAT volumes contain
-four regions (see Table 3).
+four regions (see [Table 3]("#table-3-volume-structure")).
 
 <div id="table-3-volume-structure" />
 
@@ -313,12 +313,12 @@ the contents of the Backup Boot region.
 
 The Main Boot Sector contains code for boot-strapping from an exFAT
 volume and fundamental exFAT parameters which describe the volume
-structure (see Table 4). BIOS, MBR, or other boot-strapping agents may
+structure (see [Table 4]("#table-4-main-and-backup-boot-sector-structure")). BIOS, MBR, or other boot-strapping agents may
 inspect this sector and may load and execute any boot-strapping
 instructions contained therein.
 
 The Backup Boot Sector is a backup of the Main Boot Sector and has the
-same structure (see Table 4). The Backup Boot Sector may aid recovery
+same structure (see [Table 4]("#table-4-main-and-backup-boot-sector-structure")). The Backup Boot Sector may aid recovery
 operations; however, implementations shall treat the contents of the
 VolumeFlags and PercentInUse fields as stale.
 
@@ -650,7 +650,7 @@ corresponding specification.
 #### 3.1.13 VolumeFlags Field
 
 The VolumeFlags field shall contain flags which indicate the status of
-various file system structures on the exFAT volume (see Table 5).
+various file system structures on the exFAT volume (see [Table 5]("#table-5-volumeflags-field-structure")).
 
 Implementations shall not include this field when computing its
 respective Main Boot or Backup Boot region checksum. When referring to
@@ -863,7 +863,7 @@ system's firmware, may load these sectors and execute the instructions
 they contain.
 
 The Backup Extended Boot Sectors is a backup of the Main Extended Boot
-Sectors and has the same structure (see Table 6).
+Sectors and has the same structure (see [Table 6]("#table-6-extended-boot-sector-structure")).
 
 Prior to executing the instructions of either the Main or Backup
 Extended Boot Sectors, implementations should verify their contents by
@@ -929,7 +929,7 @@ depending on any other field in its respective Extended Boot Sector.
 ### 3.3 Main and Backup OEM Parameters Sub-regions
 
 The Main OEM Parameters sub-region contains ten parameters structures
-which may contain manufacturer-specific information (see Table 7). Each
+which may contain manufacturer-specific information (see [Table 7]("#table-7-oem-parameters-structure")). Each
 of the ten parameters structures derives from the Generic Parameters
 template (see [Section 3.3.2](#332-generic-parameters-template)). Manufacturers may derive their own custom
 parameters structures from the Generic Parameters template. This
@@ -937,7 +937,7 @@ specification itself defines two parameters structures: Null Parameters
 (see [Section 3.3.3](#333-null-parameters)) and Flash Parameters (see [Section 3.3.4](#334-flash-parameters)).
 
 The Backup OEM Parameters is a backup of the Main OEM Parameters and has
-the same structure (see Table 7).
+the same structure (see [Table 7]("#table-7-oem-parameters-structure")).
 
 Prior to using the contents of either the Main or Backup OEM Parameters,
 implementations shall verify their contents by validating their
@@ -1013,7 +1013,7 @@ Parameters structure (see [Section 3.3.3](#333-null-parameters)).
 #### 3.3.2 Generic Parameters Template
 
 The Generic Parameters template provides the base definition of a
-parameters structure (see Table 8). All parameters structures derive
+parameters structure (see [Table 8]("#table-8-generic-parameters-template")). All parameters structures derive
 from this template. Support for this Generic Parameters template is
 mandatory.
 
@@ -1061,7 +1061,7 @@ when deriving custom parameters structures from this template.
 
 The Null Parameters structure derives from the Generic Parameters
 template (see [Section 3.3.2](#332-generic-parameters-template)) and shall describe an unused Parameters
-field (see Table 9). When creating or updating the OEM Parameters
+field (see [Table 9]("#table-9-null-parameters-structure")). When creating or updating the OEM Parameters
 structure, implementations shall populate unused Parameters fields with
 the Null Parameters structure. Also, when creating or updating the OEM
 Parameters structure, implementations should consolidate Null Parameters
@@ -1113,7 +1113,7 @@ The valid value for this field, in GUID notation, is
 
 The Flash Parameter structure derives from the Generic Parameters
 template (see [Section 3.3.2](#332-generic-parameters-template)) and contains parameters for flash media
-(see Table 10). Manufacturers of flash-based storage devices may
+(see [Table 10]("#table-10-flash-parameters-structure")). Manufacturers of flash-based storage devices may
 populate a Parameters field (preferably the Parameters\[0\] field) with
 this parameters structure. Implementations may use the information in
 the Flash Parameters structure to optimize access operations during
@@ -1304,7 +1304,7 @@ the inactive FAT and switching between FATs is implementation specific.
 
 ### 4.1 First and Second FAT Sub-regions
 
-A FAT shall describe cluster chains in the Cluster Heap (see Table 11).
+A FAT shall describe cluster chains in the Cluster Heap (see [Table 11]("#table-11-file-allocation-table-structure")).
 A cluster chain is a series of clusters which provides space for
 recording the contents of files, directories, and other file system
 structures. A FAT represents a cluster chain as a singly-linked list of
@@ -1418,7 +1418,7 @@ for file system structures, directories, and files.
 
 ### 5.1 Cluster Heap Sub-region
 
-The Cluster Heap's structure is very simple (see Table 12); each
+The Cluster Heap's structure is very simple (see [Table 12]("#table-12-cluster-heap-structure")); each
 consecutive series of sectors describes one cluster, as the
 SectorsPerClusterShift field defines. Importantly, the first cluster of
 the Cluster Heap has index two, which directly corresponds to the index
@@ -1493,7 +1493,7 @@ The directory to which the FirstClusterOfRootDirectory field refers is
 the root of the directory tree. All other directories descend from the
 root directory in a singly-linked fashion.
 
-Each directory consists of a series of directory entries (see Table 13).
+Each directory consists of a series of directory entries (see [Table 13]("#table-13-directory-structure")).
 
 One or more directory entries combine into a directory entry set which
 describes something of interest, such as a file system structure,
@@ -1553,7 +1553,7 @@ DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template))
 ### 6.2 Generic DirectoryEntry Template
 
 The Generic DirectoryEntry template provides the base definition for
-directory entries (see Table 14). All directory entry structures derive
+directory entries (see [Table 14]("#table-14-generic-directoryentry-template")). All directory entry structures derive
 from this template and only Microsoft-defined directory entry structures
 are valid (exFAT does not have provisions for manufacturer-defined
 directory entry structures except as defined in [Section 7.8](#78-vendor-extension-directory-entry) and [Section 7.9](#79-vendor-allocation-directory-entry)). The ability to interpret the Generic DirectoryEntry template is
@@ -1639,7 +1639,7 @@ field defines (see list below).
 -   Between 81h and FFh inclusively, which is a regular directory entry
     and the following conditions apply:
 
-    -   The contents of the EntryType field (see Table 15) determine the
+    -   The contents of the EntryType field (see [Table 15]("#table-15-generic-entrytype-field-structure")) determine the
         layout of the remainder of the DirectoryEntry structure
 
     -   This range of values, and only this range of values, are valid
@@ -1788,7 +1788,7 @@ The ability to interpret the Generic Primary DirectoryEntry template is
 mandatory.
 
 All primary directory entry structures derive from the Generic Primary
-DirectoryEntry template (see Table 16), which derives from the Generic
+DirectoryEntry template (see [Table 16]("#table-16-generic-primary-directoryentry-template")), which derives from the Generic
 DirectoryEntry template (see
 [Section 6.2](#62-generic-directoryentry-template)).
 
@@ -1965,7 +1965,7 @@ UInt16 EntrySetChecksum
 
 #### 6.3.4 GeneralPrimaryFlags Field
 
-The GeneralPrimaryFlags field contains flags (see Table 17).
+The GeneralPrimaryFlags field contains flags (see [Table 17]("#table-17-generic-generalprimaryflags-field-structure")).
 
 Critical primary directory entry structures which derive from this
 template may redefine this field.
@@ -2085,7 +2085,7 @@ or benign secondary directory entry this specification, or subsequent
 specifications, defines is optional.
 
 All secondary directory entry structures derive from the Generic
-Secondary DirectoryEntry template (see Table 18), which derives from the
+Secondary DirectoryEntry template (see [Table 18]("#table-18-generic-secondary-directoryentry-template")), which derives from the
 Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
 
 <div id="table-18-generic-secondary-directoryentry-template" />
@@ -2194,7 +2194,7 @@ DirectoryEntry template (see [Section 6.2.1.4](#6214-inuse-field)).
 
 #### 6.4.2 GeneralSecondaryFlags Field
 
-The GeneralSecondaryFlags field contains flags (see Table 19).
+The GeneralSecondaryFlags field contains flags (see [Table 19]("#table-19-generic-generalsecondaryflags-field-structure")).
 
 <div id="table-19-generic-generalsecondaryflags-field-structure" />
 
@@ -2301,7 +2301,7 @@ entries:
 In the exFAT file system, a FAT does not describe the allocation state
 of clusters; rather, an Allocation Bitmap does. Allocation Bitmaps exist
 in the Cluster Heap (see [Section 7.1.5](#715-allocation-bitmap)) and have corresponding critical
-primary directory entries in the root directory (see Table 20).
+primary directory entries in the root directory (see [Table 20]("#table-20-allocation-bitmap-directoryentry-structure")).
 
 The NumberOfFats field determines the number of valid Allocation Bitmap
 directory entries in the root directory. If the NumberOfFats field
@@ -2396,7 +2396,7 @@ Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.1.2 BitmapFlags Field
 
-The BitmapFlags field contains flags (see Table 21).
+The BitmapFlags field contains flags (see [Table 21]("#table-21-bitmapflags-field-structure")).
 
 <div id="table-21-bitmapflags-field-structure" />
 
@@ -2466,7 +2466,7 @@ Cluster Heap. Each bit in an Allocation Bitmap indicates whether its
 corresponding cluster is available for allocation or not.
 
 An Allocation Bitmap represents clusters from lowest to highest index
-(see Table 22). For historical reasons, the first cluster has index 2.
+(see [Table 22]("#table-22-allocation-bitmap-structure")). For historical reasons, the first cluster has index 2.
 Note: the first bit in the bitmap is the lowest-order bit of the first
 byte.
 
@@ -2547,7 +2547,7 @@ characters. This is important due to the File Name directory entry (see
 Section 7.7) using Unicode characters and the exFAT file system being
 case insensitive and case preserving. The Up-case Table exists in the
 Cluster Heap (see [Section 7.2.5](#725-up-case-table)) and has a corresponding critical
-primary directory entry in the root directory (see Table 23). The valid
+primary directory entry in the root directory (see [Table 23]("#table-23-up-case-table-directoryentry-structure")). The valid
 number of Up-case Table directory entries is 1.
 
 Due to the relationship between the Up-case Table and file names,
@@ -2688,7 +2688,7 @@ mapping consists of a 2-byte field, with the index of the field in the
 up-case table representing the Unicode character to be up-cased, and the
 2-byte field representing the up-cased Unicode character.
 
-The first 128 Unicode characters have mandatory mappings (see Table 24).
+The first 128 Unicode characters have mandatory mappings (see [Table 24]("#table-24-mandatory-first-128-up-case-table-entries")).
 An up-case table which has any other character mapping for any of the
 first 128 Unicode characters is invalid.
 
@@ -2759,7 +2759,7 @@ on the volume, which may be in either compressed or uncompressed format.
 ##### 7.2.5.1 Recommended Up-case Table
 
 When formatting a volume, implementations should record the recommended
-up-case table in compressed format (see Table 25), for which the value
+up-case table in compressed format (see [Table 25]("#table-25-recommended-up-case-table-in-compressed-format")), for which the value
 of the TableChecksum field is E619D30Dh.
 
 If an implementation defines its own up-case table, either compressed or
@@ -3144,7 +3144,7 @@ range (from character codes 0000h to FFFFh inclusive).
 The Volume Label is a Unicode string which enables end users to
 distinguish their storage volumes. In the exFAT file system, the Volume
 Label exists as a critical primary directory entry in the root directory
-(see Table 26). The valid number of Volume Label directory entries
+(see [Table 26]("#table-26-volume-label-directoryentry-structure")). The valid number of Volume Label directory entries
 ranges from 0 to 1.
 
 <div id="table-26-volume-label-directoryentry-structure" />
@@ -3244,7 +3244,7 @@ entry (see [Section 7.7.3](#773-filename-field)).
 
 File directory entries describe files and directories. They are critical
 primary directory entries and any directory may contain zero or more
-File directory entries (see Table 27). For a File directory entry to be
+File directory entries (see [Table 27]("#table-27-file-directoryentry")). For a File directory entry to be
 valid, exactly one Stream Extension directory entry and at least one
 File Name directory entry must immediately follow the File directory
 entry (see [Section 7.6](#76-stream-extension-directory-entry) and [Section 7.7](#77-file-name-directory-entry), respectively).
@@ -3393,7 +3393,7 @@ Generic Primary DirectoryEntry template (see [Section 6.3.3](#633-setchecksum-fi
 
 #### 7.4.4 FileAttributes Field
 
-The FileAttributes field contains flags (see Table 28).
+The FileAttributes field contains flags (see [Table 28]("#table-28-fileattributes-field-structure")).
 
 <div id="table-28-fileattributes-field-structure" />
 
@@ -3519,7 +3519,7 @@ UtcOffset fields (see
 #### 7.4.8 Timestamp Fields
 
 Timestamp fields describe both local date and time, down to a two-second
-resolution (see Table 29).
+resolution (see [Table 29]("#table-29-timestamp-field-structure")).
 
 <div id="table-29-timestamp-field-structure" />
 
@@ -3650,7 +3650,7 @@ The valid range of values for these fields shall be:
 
 #### 7.4.10 UtcOffset Fields
 
-UtcOffset fields (see Table 30) shall describe the offset from UTC to
+UtcOffset fields (see [Table 30]("#table-30-utcoffset-field-structure")) shall describe the offset from UTC to
 the local date and time their corresponding Timestamp and 10msIncrement
 fields describe. The offset from UTC to the local date and time includes
 the effects of time zones and other date-time adjustments, such as
@@ -3806,7 +3806,7 @@ current local date and time.
 The Volume GUID directory entry contains a GUID which enables
 implementations to uniquely and programmatically distinguish volumes.
 The Volume GUID exists as a benign primary directory entry in the root
-directory (see Table 32). The valid number of Volume GUID directory
+directory (see [Table 32]("#table-32-volume-guid-directoryentry")). The valid number of Volume GUID directory
 entries ranges from 0 to 1.
 
 <div id="table-32-volume-guid-directoryentry" />
@@ -3938,7 +3938,7 @@ which is {00000000-0000-0000-0000-000000000000}.
 ### 7.6 Stream Extension Directory Entry
 
 The Stream Extension directory entry is a critical secondary directory
-entry in File directory entry sets (see Table 33). The valid number of
+entry in File directory entry sets (see [Table 33]("#table-33-stream-extension-directoryentry")). The valid number of
 Stream Extension directory entries in a File directory entry set is 1.
 Further, this directory entry is valid only if it immediately follows
 the File directory entry.
@@ -4158,7 +4158,7 @@ maximum value for this field is 256MB.
 ### 7.7 File Name Directory Entry
 
 File Name directory entries are critical secondary directory entries in
-File directory entry sets (see Table 34). The valid number of File Name
+File directory entry sets (see [Table 34]("#table-34-file-name-directoryentry")). The valid number of File Name
 directory entries in a File directory entry set is NameLength / 15,
 rounded up to the nearest integer. Further, File Name directory entries
 are valid only if they immediately follow the Stream Extension directory
@@ -4267,7 +4267,7 @@ entries, 17, the maximum length of the final, concatenated file name is
 255.
 
 The concatenated file name has the same set of illegal characters as
-other FAT-based file systems (see Table 35). Implementations should set
+other FAT-based file systems (see [Table 35]("#table-35-invalid-filename-characters")). Implementations should set
 the unused characters of FileName fields to the value 0000h.
 
 <div id="table-35-invalid-filename-characters" />
@@ -4307,7 +4307,7 @@ translate to/from ASCII/Unicode when interfacing with the user.
 ### 7.8 Vendor Extension Directory Entry
 
 The Vendor Extension directory entry is a benign secondary directory
-entry in File directory entry sets (see Table 36). A File directory
+entry in File directory entry sets (see [Table 36]("#table-36-vendor-extension-directoryentry")). A File directory
 entry set may contain any number of Vendor Extension directory entries,
 up to the limit of secondary directory entries, less the number of other
 secondary directory entries. Further, Vendor Extension directory entries
@@ -4316,9 +4316,9 @@ File Name directory entries.
 
 Vendor Extension directory entries enable vendors to have unique,
 vendor-specific directory entries in individual File directory entry
-sets via the VendorGuid field (see Table 36). Unique directory entries
+sets via the VendorGuid field (see [Table 36]("#table-36-vendor-extension-directoryentry")). Unique directory entries
 effectively enable vendors to extend the exFAT file system. Vendors may
-define the contents of the VendorDefined field (see Table 36). Vendor
+define the contents of the VendorDefined field (see [Table 36]("#table-36-vendor-extension-directoryentry")). Vendor
 implementations may maintain the contents of the VendorDefined field and
 may provide vendor-specific functionality.
 
@@ -4435,7 +4435,7 @@ VendorDefined field.
 ### 7.9 Vendor Allocation Directory Entry
 
 The Vendor Allocation directory entry is a benign secondary directory
-entry in File directory entry sets (see Table 37). A File directory
+entry in File directory entry sets (see [Table 37]("#table-37-vendor-allocation-directoryentry")). A File directory
 entry set may contain any number of Vendor Allocation directory entries,
 up to the limit of secondary directory entries, less the number of other
 secondary directory entries. Further, Vendor Allocation directory
@@ -4444,7 +4444,7 @@ Extension and File Name directory entries.
 
 Vendor Allocation directory entries enable vendors to have unique,
 vendor-specific directory entries in individual File directory entry
-sets via the VendorGuid field (see Table 37). Unique directory entries
+sets via the VendorGuid field (see [Table 37]("#table-37-vendor-allocation-directoryentry")). Unique directory entries
 effectively enable vendors to extend the exFAT file system. Vendors may
 define the contents of the associated clusters, if any exist. Vendor
 implementations may maintain the contents of the associated clusters, if
@@ -4748,7 +4748,7 @@ A GUID is the Microsoft implementation of a universally unique
 identifier. A GUID is a 128-bit value consisting of one group of 8
 hexadecimal digits, followed by three groups of 4 hexadecimal digits
 each, and followed by one group of 12 hexadecimal digits, for example
-{6B29FC40-CA47-1067-B31D-00DD010662DA}, (see Table 38).
+{6B29FC40-CA47-1067-B31D-00DD010662DA}, (see [Table 38]("#table-38-guid-structure")).
 
 <div id="table-38-guid-structure" />
 
