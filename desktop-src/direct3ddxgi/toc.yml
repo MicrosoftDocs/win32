@@ -9,7 +9,7 @@
     - name: "DXGI 1.2 Improvements"
       href: dxgi-1-2-improvements.md
       items: 
-      - name: "Enhancing presentation with the flip model, dirty rectangles, and scrolled areas"
+      - name: "Flip model, dirty rectangles, scrolled areas"
         href: dxgi-1-2-presentation-improvements.md
         items: 
         - name: "DXGI flip model"

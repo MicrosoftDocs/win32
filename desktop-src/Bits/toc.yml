@@ -43,7 +43,7 @@
     items: 
     - name: "Calling into BITS from .NET and C# using Reference DLLs"
       href: bits-dot-net.md
-    - name: "How to control whether a BITS job is allowed to download over an expensive connection"
+    - name: "Control a BITS download over an expensive connection"
       href: how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md
     - name: "How to get the last set of HTTP headers received for each file in a BITS download job"
       href: how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job.md
@@ -518,7 +518,7 @@
         items: 
         - name: "Example: Common Classes"
           href: common-classes.md
-        - name: "Example: Specifying Server Authentication Credentials for a BITS Transfer Job"
+        - name: "Specify server authentication credentials for a BITS transfer job"
           href: example-specifying-server-authentication-credentials-for-a-bits-transfer-job-.md
         - name: "Example: Using SSPI Authentication Encoding with BITS"
           href: example-using-sspi-authentication-encoding-with-bits.md

@@ -127,7 +127,7 @@
               href: mapping-fvf-codes-to-a-directx-9-declaration.md
             - name: "Fixed Function FVF Codes"
               href: fixed-function-fvf-codes.md
-            - name: "Mapping between a Direct3D 9 Declaration and a Direct3D 8 Declaration"
+            - name: "Map between D3D9 and D3D8 declarations"
               href: mapping-between-a-directx-9-declaration-and-directx-8.md
             - name: "Mapping between a Direct3D Declaration and FVF Codes"
               href: mapping-between-a-directx-9-declaration-and-fvf-codes.md
@@ -307,7 +307,7 @@
           - name: "Texture Coordinate Processing"
             href: texture-coordinate-processing.md
             items: 
-            - name: "Automatically Generated Texture Coordinates"
+            - name: "Auto-generated texture coordinates"
               href: automatically-generated-texture-coordinates.md
             - name: "Texture Coordinate Transformations"
               href: texture-coordinate-transformations.md
@@ -532,7 +532,7 @@
         href: hdr-lighting.md
       - name: "Accurately Profiling Direct3D API Calls"
         href: accurately-profiling-direct3d-api-calls.md
-      - name: "Setting device state with the fixed-function and programmable shader pipeline"
+      - name: "Set device state on fixed-function, shader pipelines"
         href: setting-render-states-with-fixed-function-and-programmable-shader-pipeline.md
       - name: "Queries"
         href: queries.md

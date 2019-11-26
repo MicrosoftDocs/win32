@@ -85,7 +85,7 @@
       items: 
       - name: "What's New in the August 2009 Windows 7/Direct3D 11 SDK"
         href: dx11-whats-new.md
-      - name: "What's New in the November 2008 Direct3D 11 Technical Preview"
+      - name: "What's new in the Nov 2008 Direct3D 11 Tech Preview"
         href: dx11-08nov-whats-new.md
   - name: "Programming Guide for Direct3D 11"
     href: dx-graphics-overviews.md

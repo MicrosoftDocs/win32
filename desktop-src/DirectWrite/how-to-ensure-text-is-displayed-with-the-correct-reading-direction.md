@@ -1,12 +1,12 @@
 ---
-title: How to Ensure Text is Displayed with the Correct Reading Direction
+title: Ensure text is displayed with the correct reading direction
 description: Some languages, such as Arabic and Hebrew, require a right-to-left reading direction.
 ms.assetid: fa9a3dd6-575a-4877-a488-22845c6726c8
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How to Ensure Text is Displayed with the Correct Reading Direction
+# Ensure text is displayed with the correct reading direction
 
 Some languages, such as Arabic and Hebrew, require a right-to-left reading direction. The for a [DirectWrite](direct-write-portal.md) text format object, the default reading direction is left-to-right. DirectWrite does not automatically infer the reading direction from the locale, so you must do this yourself.
 

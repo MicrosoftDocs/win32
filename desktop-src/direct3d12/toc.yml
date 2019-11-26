@@ -158,7 +158,7 @@
     - name: "Counters, Queries and Performance Measurement"
       href: performance-measurement.md
       items: 
-      - name: "Stream-Output Counters, UAV Counters, Queries, and Predication"
+      - name: "Counters, queries, and predication"
         href: counters-and-queries.md
         items: 
         - name: "Stream Output Counters"

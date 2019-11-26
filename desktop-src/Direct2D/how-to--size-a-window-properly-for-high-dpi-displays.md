@@ -1,12 +1,12 @@
 ---
-title: How to Ensure That Your Application Displays Properly on High-DPI Displays (Direct2D)
+title: Displaying properly on a high-DPI display
 description: Describes how to create a window the displays properly on high-DPI displays.
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How to Ensure That Your Application Displays Properly on High-DPI Displays
+# Displaying properly on a high-DPI display
 
 Although Direct2D addresses many high-DPI issues for you, there are two steps you should take to ensure that your application works properly on high-DPI displays:
 

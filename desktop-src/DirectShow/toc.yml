@@ -515,7 +515,7 @@
           href: using-decimation-to-optimize-mixing-performance.md
         - name: "YUV Mixing Mode"
           href: yuv-mixing-mode.md
-        - name: "Displaying an Application-Supplied Bitmap on the Composited Image"
+        - name: "Display an app-supplied bitmap on the composited image"
           href: displaying-an-application-supplied-bitmap-on-the-composited-image.md
       - name: "Setting Deinterlace Preferences"
         href: setting-deinterlace-preferences.md
