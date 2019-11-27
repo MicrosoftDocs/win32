@@ -118,7 +118,6 @@ industry (see [Table 2](#table-2-full-text-of-common-acronyms)).
 | texFAT      | Transaction-safe exFAT                             |
 | UTC         | Coordinated Universal Time                         |
 
-
 ### 1.4 Default Field and Structure Qualifiers
 
 Fields and structures in this specification have the following
