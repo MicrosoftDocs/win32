@@ -2333,13 +2333,13 @@ Second Allocation Bitmap.
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.1.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#711-entrytype-field">Section 7.1.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>BitmapFlags</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.1.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#712-bitmapflags-field">Section 7.1.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Reserved</td>
@@ -2351,13 +2351,13 @@ Second Allocation Bitmap.
 <td>FirstCluster</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.1.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#713-firstcluster-field">Section 7.1.3</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>DataLength</td>
 <td>24</td>
 <td>8</td>
-<td>This field is mandatory and Section 7.1.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#714-datalength-field">Section 7.1.4</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -2417,7 +2417,7 @@ The BitmapFlags field contains flags (see [Table 21](#table-21-bitmapflags-field
 <td>BitmapIdentifier</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.1.2.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#7121-bitmapidentifier-field">Section 7.1.2.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved</td>
@@ -2489,7 +2489,7 @@ byte.
 <td>BitmapEntry[2]</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.1.5.1 defines its contents.</td>
+<td>This field is mandatory and Section <a href="#7151-bitmapentry2--bitmapentryclustercount1-fields">Section 7.1.5.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td><p>.</p>
@@ -2509,7 +2509,7 @@ byte.
 <td>BitmapEntry[ClusterCount+1]</td>
 <td>ClusterCount - 1</td>
 <td>1</td>
-<td><p>This field is mandatory and Section 7.1.5.1 defines its contents.</p>
+<td><p>This field is mandatory and <a href="#7151-bitmapentry2--bitmapentryclustercount1-fields">Section 7.1.5.1</a> defines its contents.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the ClusterCount field.</p></td>
 </tr>
 <tr class="even">
@@ -2573,7 +2573,7 @@ of format operations.
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.2.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#721-entrytype-field">Section 7.2.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved1</td>
@@ -2585,7 +2585,7 @@ of format operations.
 <td>TableChecksum</td>
 <td>4</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.2.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#722-tablechecksum-field">Section 7.2.2</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved2</td>
@@ -2597,13 +2597,13 @@ of format operations.
 <td>FirstCluster</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.2.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#723-firstcluster-field">Section 7.2.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>DataLength</td>
 <td>24</td>
 <td>8</td>
-<td>This field is mandatory and Section 7.2.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#724-datalength-field">Section 7.2.4</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -2648,22 +2648,22 @@ Up-case Table.
 
 **Figure 3 TableChecksum Computation**
 
-```
-UInt32	TableChecksum
+```C
+UInt32 TableChecksum
 (
-	   UCHAR *	Table,		// points to an in-memory copy of the up-case table
-	   UInt64	DataLength
+    UCHAR  * Table,    // points to an in-memory copy of the up-case table
+    UInt64   DataLength
 )
 {
-	   UInt32	Checksum =	0;
-	   UInt64	Index;
-	
-	   for (Index = 0; Index < DataLength; Index++)
-	   {
-	      	Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum>>1) + (UInt32)Table[Index];
-   	}
-	
-	   return Checksum;
+    UInt32 Checksum = 0;
+    UInt64 Index;
+
+    for (Index = 0; Index < DataLength; Index++)
+    {
+        Checksum = ((Checksum&1) ? 0x80000000 : 0) + (Checksum>>1) + (UInt32)Table[Index];
+    }
+
+    return Checksum;
 }
 ```
 
@@ -3166,19 +3166,19 @@ ranges from 0 to 1.
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.3.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#731-entrytype-field">Section 7.3.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>CharacterCount</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.3.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#732-charactercount-field">Section 7.3.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>VolumeLabel</td>
 <td>2</td>
 <td>22</td>
-<td>This field is mandatory and Section 7.3.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#733-volumelabel-field">Section 7.3.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved</td>
@@ -3268,25 +3268,25 @@ entry (see [Section 7.6](#76-stream-extension-directory-entry) and [Section 7.7]
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#741-entrytype-field">Section 7.4.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>SecondaryCount</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#742-secondarycount-field">Section 7.4.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>SetChecksum</td>
 <td>2</td>
 <td>2</td>
-<td>This field is mandatory and Section 7.4.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#743-setchecksum-field">Section 7.4.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FileAttributes</td>
 <td>4</td>
 <td>2</td>
-<td>This field is mandatory and Section 7.4.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#744-fileattributes-field">Section 7.4.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Reserved1</td>
@@ -3298,49 +3298,55 @@ entry (see [Section 7.6](#76-stream-extension-directory-entry) and [Section 7.7]
 <td>CreateTimestamp</td>
 <td>8</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.4.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#745-createtimestamp-create10msincrement-and-createutcoffset-fields">Section 7.4.5</
+a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>LastModifiedTimestamp</td>
 <td>12</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.4.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-field
+s">Section 7.4.6</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>LastAccessedTimestamp</td>
 <td>16</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.4.7 defines its contents.</td>
+<td>This field is mandatory and <a href="#747-lastaccessedtimestamp-and-lastaccessedutcoffset-fields">Section 7.4.7</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Create10msIncrement</td>
 <td>20</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#745-createtimestamp-create10msincrement-and-createutcoffset-fields">Section 7.4.5</
+a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>LastModified10msIncrement</td>
 <td>21</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-field
+s">Section 7.4.6</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>CreateUtcOffset</td>
 <td>22</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#745-createtimestamp-create10msincrement-and-createutcoffset-fields">Section 7.4.5</
+a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>LastModifiedUtcOffset</td>
 <td>23</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-field
+s">Section 7.4.6</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>LastAccessedUtcOffset</td>
 <td>24</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.7 defines its contents.</td>
+<td>This field is mandatory and <a href="#747-lastaccessedtimestamp-and-lastaccessedutcoffset-fields">Section 7.4.7</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved2</td>
@@ -3540,37 +3546,37 @@ resolution (see [Table 29](#table-29-timestamp-field-structure)).
 <td>DoubleSeconds</td>
 <td>0</td>
 <td>5</td>
-<td>This field is mandatory and Section 7.4.8.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#7481-doubleseconds-field">Section 7.4.8.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Minute</td>
 <td>5</td>
 <td>6</td>
-<td>This field is mandatory and Section 7.4.8.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#7482-minute-field">Section 7.4.8.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Hour</td>
 <td>11</td>
 <td>5</td>
-<td>This field is mandatory and Section 7.4.8.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#7483-hour-field">Section 7.4.8.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Day</td>
 <td>16</td>
 <td>5</td>
-<td>This field is mandatory and Section 7.4.8.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#7484-day-field">Section 7.4.8.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Month</td>
 <td>21</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.4.8.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#7485-month-field">Section 7.4.8.5</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Year</td>
 <td>25</td>
 <td>7</td>
-<td>This field is mandatory and Section 7.4.8.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#7486-year-field">Section 7.4.8.6</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -3675,13 +3681,13 @@ daylight saving and regional summer time changes.
 <td>OffsetFromUtc</td>
 <td>0</td>
 <td>7</td>
-<td>This field is mandatory and Section 7.4.10.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#74101-offsetfromutc-field">Section 7.4.10.1</a>defines its contents.</td>
 </tr>
 <tr class="even">
 <td>OffsetValid</td>
 <td>7</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.4.10.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#74102-offsetvalid-field">Section 7.4.10.2</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -3828,31 +3834,31 @@ entries ranges from 0 to 1.
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.5.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#751-entrytype-field">Section 7.5.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>SecondaryCount</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.5.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#752-secondarycount-field">Section 7.5.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>SetChecksum</td>
 <td>2</td>
 <td>2</td>
-<td>This field is mandatory and Section 7.5.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#753-setchecksum-field">Section 7.5.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>GeneralPrimaryFlags</td>
 <td>4</td>
 <td>2</td>
-<td>This field is mandatory and Section 7.5.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#754-generalprimaryflags-field">Section 7.5.4</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>VolumeGuid</td>
 <td>6</td>
 <td>16</td>
-<td>This field is mandatory and Section 7.5.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#755-volumeguid-field">Section 7.5.5</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved</td>
@@ -3962,13 +3968,13 @@ the File directory entry.
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.6.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#761-entrytype-field">Section 7.6.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>GeneralSecondaryFlags</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.6.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#762-generalsecondaryflags-field">Section 7.6.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>Reserved1</td>
@@ -3980,13 +3986,13 @@ the File directory entry.
 <td>NameLength</td>
 <td>3</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.6.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#763-namelength-field">Section 7.6.3</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>NameHash</td>
 <td>4</td>
 <td>2</td>
-<td>This field is mandatory and Section 7.6.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#764-namehash-field">Section 7.6.4</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved2</td>
@@ -3998,7 +4004,7 @@ the File directory entry.
 <td>ValidDataLength</td>
 <td>8</td>
 <td>8</td>
-<td>This field is mandatory and Section 7.6.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#765-validdatalength-field">Section 7.6.5</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>Reserved3</td>
@@ -4010,13 +4016,13 @@ the File directory entry.
 <td>FirstCluster</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.6.6 defines its contents.</td>
+<td>This field is mandatory and <a href="#766-firstcluster-field">Section 7.6.6</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>DataLength</td>
 <td>24</td>
 <td>8</td>
-<td>This field is mandatory and Section 7.6.7 defines its contents.</td>
+<td>This field is mandatory and <a href="#767-datalength-field">Section 7.6.7</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -4188,19 +4194,19 @@ directory names after up-casing within any one directory.
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.7.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#771-entrytype-field">Section 7.7.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>GeneralSecondaryFlags</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.7.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#772-generalsecondaryflags-field">Section 7.7.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>FileName</td>
 <td>2</td>
 <td>30</td>
-<td>This field is mandatory and Section 7.7.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#773-filename-field">Section 7.7.3</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
@@ -4345,19 +4351,19 @@ unrecognized benign secondary directory entry (see [Section 8.2](#82-implication
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.8.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#781-entrytype-field">Section 7.8.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>GeneralSecondaryFlags</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.8.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#782-generalsecondaryflags-field">Section 7.8.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>VendorGuid</td>
 <td>2</td>
 <td>16</td>
-<td>This field is mandatory and Section 7.8.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#783-vendorguid-field">Section 7.8.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>VendorDefined</td>
@@ -4473,19 +4479,19 @@ unrecognized benign secondary directory entry (see [Section 8.2](#82-implication
 <td>EntryType</td>
 <td>0</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.9.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#791-entrytype-field">Section 7.9.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>GeneralSecondaryFlags</td>
 <td>1</td>
 <td>1</td>
-<td>This field is mandatory and Section 7.9.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#792-generalsecondaryflags-field">Section 7.9.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>VendorGuid</td>
 <td>2</td>
 <td>16</td>
-<td>This field is mandatory and Section 7.9.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#793-vendorguid-field">Section 7.9.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>VendorDefined</td>
@@ -4497,13 +4503,13 @@ unrecognized benign secondary directory entry (see [Section 8.2](#82-implication
 <td>FirstCluster</td>
 <td>20</td>
 <td>4</td>
-<td>This field is mandatory and Section 7.9.4 defines its contents.</td>
+<td>This field is mandatory and <a href="#794-firstcluster-field">Section 7.9.4</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>DataLength</td>
 <td>24</td>
 <td>8</td>
-<td>This field is mandatory and Section 7.9.5 defines its contents.</td>
+<td>This field is mandatory and <a href="#795-datalength-field">Section 7.9.5</a> defines its contents.</td>
 </tr>
 </tbody>
 </table>
