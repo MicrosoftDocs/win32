@@ -25,7 +25,7 @@ Defines a serial port inside a virtual machine. This interface allows you to con
 
 ## Members
 
-The **IVMSerialPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMSerialPort** also has these types of members:
+The **IVMSerialPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMSerialPort** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

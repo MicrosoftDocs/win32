@@ -16,11 +16,11 @@ The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) and [**phoneGet
 DWORD DeviceId;  // identifier of audio device
 ```
 
-The **DeviceId** member is the identifier of a closed audio device. You use this identifier in a call to the [**waveInOpen**](https://msdn.microsoft.com/en-us/library/Dd743847(v=VS.85).aspx) function to open the device for input. You can use the resulting device handle to record digitized audio data from the line or phone device.
+The **DeviceId** member is the identifier of a closed audio device. You use this identifier in a call to the [**waveInOpen**](https://msdn.microsoft.com/library/Dd743847(v=VS.85).aspx) function to open the device for input. You can use the resulting device handle to record digitized audio data from the line or phone device.
 
 Although a "wave" device class also exists for low-level wave audio devices, you should always use the wave/in device class for low-level wave input.
 
-For more information about the wave functions, see [**Multimedia Functions**](https://msdn.microsoft.com/en-us/library/Dd743586(v=VS.85).aspx).
+For more information about the wave functions, see [**Multimedia Functions**](https://msdn.microsoft.com/library/Dd743586(v=VS.85).aspx).
 
  
 

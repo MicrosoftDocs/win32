@@ -120,7 +120,7 @@ Vertical position of the baseline origin, in DIPs.
 *glyphRunAnalysis* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteGlyphRunAnalysis**](https://msdn.microsoft.com/en-us/library/Dd371188(v=VS.85).aspx)\*\***
+Type: **[**IDWriteGlyphRunAnalysis**](https://msdn.microsoft.com/library/Dd371188(v=VS.85).aspx)\*\***
 
 Receives a pointer to the newly created object.
 

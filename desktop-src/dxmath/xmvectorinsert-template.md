@@ -43,7 +43,7 @@ Returns the [**XMVECTOR**](xmvector-data-type.md) that results from the rotation
 
 ## Remarks
 
-This function is a template version of [**XMVectorInsert**](https://msdn.microsoft.com/en-us/library/Hh404801(v=VS.85).aspx) where the *Select\** arguments are template values.
+This function is a template version of [**XMVectorInsert**](https://msdn.microsoft.com/library/Hh404801(v=VS.85).aspx) where the *Select\** arguments are template values.
 
 For best performance, the result of `XMVectorInsert` should be assigned back to *VD*.
 

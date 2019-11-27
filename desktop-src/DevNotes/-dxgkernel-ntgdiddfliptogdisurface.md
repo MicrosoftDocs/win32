@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puFlipToGDISurfaceData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_FLIPTOGDISURFACEDATA](https://msdn.microsoft.com/en-us/library/ms793922.aspx) structure that contains the notification information.
+Pointer to a [DD\_FLIPTOGDISURFACEDATA](https://msdn.microsoft.com/library/ms793922.aspx) structure that contains the notification information.
 
 </dd> </dl>
 

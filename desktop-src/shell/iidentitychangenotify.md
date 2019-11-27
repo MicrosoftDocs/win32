@@ -23,7 +23,7 @@ Deprecated. Provides notification of modifications to user identities on the sys
 
 ## Members
 
-The **IIdentityChangeNotify** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IIdentityChangeNotify** also has these types of members:
+The **IIdentityChangeNotify** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IIdentityChangeNotify** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,7 +45,7 @@ The **IIdentityChangeNotify** interface has these methods.
 
 ## Remarks
 
-To implement notifications, a derived interface must connect to the [**IUserIdentityManager**](iuseridentitymanager.md) by calling [**IConnectionPoint::Advise**](https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx) and by passing a pointer to the interface.
+To implement notifications, a derived interface must connect to the [**IUserIdentityManager**](iuseridentitymanager.md) by calling [**IConnectionPoint::Advise**](https://msdn.microsoft.com/library/ms678815(v=VS.85).aspx) and by passing a pointer to the interface.
 
 ## Requirements
 
@@ -68,7 +68,7 @@ To implement notifications, a derived interface must connect to the [**IUserIden
 [**IUserIdentityManager**](iuseridentitymanager.md)
 </dt> <dt>
 
-[**IConnectionPoint**](https://msdn.microsoft.com/en-us/library/ms694318(v=VS.85).aspx)
+[**IConnectionPoint**](https://msdn.microsoft.com/library/ms694318(v=VS.85).aspx)
 </dt> </dl>
 
  

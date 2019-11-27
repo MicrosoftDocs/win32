@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to: Change Voice Pitch
 
-This topic shows you how you can raise or lower the pitch of audio data by changing its rate of playback using the [**SetFrequencyRatio**](https://msdn.microsoft.com/en-us/library/Ee418469(v=VS.85).aspx) function on a source voice.
+This topic shows you how you can raise or lower the pitch of audio data by changing its rate of playback using the [**SetFrequencyRatio**](https://msdn.microsoft.com/library/Ee418469(v=VS.85).aspx) function on a source voice.
 
 ## To change the pitch of a source voice
 
@@ -22,7 +22,7 @@ This topic shows you how you can raise or lower the pitch of audio data by chang
 
     
 
-2.  Use the [**SetFrequencyRatio**](https://msdn.microsoft.com/en-us/library/Ee418469(v=VS.85).aspx) function to set the frequency ratio of the source voice.
+2.  Use the [**SetFrequencyRatio**](https://msdn.microsoft.com/library/Ee418469(v=VS.85).aspx) function to set the frequency ratio of the source voice.
 
     ```
     pSourceVoice->SetFrequencyRatio(frequencyRatio);

@@ -25,10 +25,10 @@ Creates a set of clockwise-wound triangles that cover the geometry after it has 
 
 | Method                                                                                                                                                    | Description                                                                                                                                                                          |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/en-us/library/Dd316754(v=VS.85).aspx)             | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/en-us/library/Dd316762(v=VS.85).aspx)              | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/en-us/library/Dd316751(v=VS.85).aspx) | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance. <br/> |
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/en-us/library/Dd316759(v=VS.85).aspx)  | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.<br/>  |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/library/Dd316754(v=VS.85).aspx)             | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/library/Dd316762(v=VS.85).aspx)              | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/library/Dd316751(v=VS.85).aspx) | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance. <br/> |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1TessellationSink\*)**](https://msdn.microsoft.com/library/Dd316759(v=VS.85).aspx)  | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.<br/>  |
 
 
 
@@ -102,7 +102,7 @@ The following code example shows how to use Tessellate to create a set of clockw
 
 <dl> <dt>
 
-[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
+[**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

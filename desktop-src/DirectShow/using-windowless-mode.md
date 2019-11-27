@@ -173,14 +173,14 @@ Because the VMR does not have its own window, it must be notified if it need to 
 
 **VMR-7**
 
-1.  [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl::RepaintVideo**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo). This method causes the VMR-7 to repaint the most recent video frame.
-2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/en-us/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl::DisplayModeChanged**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged). This method notifies the VMR-7 that the video must be shown at a new resolution or color depth.
+1.  [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl::RepaintVideo**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo). This method causes the VMR-7 to repaint the most recent video frame.
+2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl::DisplayModeChanged**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged). This method notifies the VMR-7 that the video must be shown at a new resolution or color depth.
 3.  [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) or [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx): Recalculate the position of the video and call [**IVMRWindowlessControl::SetVideoPosition**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) to update the position, if needed.
 
 **VMR-9**
 
-1.  [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl9::RepaintVideo**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo). This method causes the VMR-9 to repaint the most recent video frame.
-2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/en-us/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl9::DisplayModeChanged**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged). This method notifies the VMR-9 that the video must be shown at a new resolution or color depth.
+1.  [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl9::RepaintVideo**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo). This method causes the VMR-9 to repaint the most recent video frame.
+2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl9::DisplayModeChanged**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged). This method notifies the VMR-9 that the video must be shown at a new resolution or color depth.
 3.  [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) or [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) to update the position, if needed.
 
 > [!Note]  
@@ -188,7 +188,7 @@ Because the VMR does not have its own window, it must be notified if it need to 
 
  
 
-The following example shows a [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx) message handler. It paints a region defined by the client rectangle minus the video rectangle. Do not draw onto the video rectangle, because the VMR will paint over it, causing flickering. For the same reason, do not set a background brush in your window class.
+The following example shows a [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx) message handler. It paints a region defined by the client rectangle minus the video rectangle. Do not draw onto the video rectangle, because the VMR will paint over it, causing flickering. For the same reason, do not set a background brush in your window class.
 
 
 ```C++
@@ -230,7 +230,7 @@ void OnPaint(HWND hwnd)
 
 
 
-Although you must respond to [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx) messages, there is nothing you need to do between **WM\_PAINT** messages to update the video. As this example shows, windowless mode lets you treat the video image simply as a self-drawing region on the window.
+Although you must respond to [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx) messages, there is nothing you need to do between **WM\_PAINT** messages to update the video. As this example shows, windowless mode lets you treat the video image simply as a self-drawing region on the window.
 
 ## Related topics
 

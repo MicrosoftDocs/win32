@@ -51,7 +51,7 @@ Vertex buffer containing the patch data.
 *pNumSegs* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three floating-point values that identify the number of segments into which each edge of the triangle patch should be divided when tessellated. See [**D3DTRIPATCH\_INFO**](d3dtripatch-info.md).
 
@@ -86,7 +86,7 @@ Pointer to the created mesh. See [**ID3DXMesh**](id3dxmesh.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_SIGNED\_DATA\_VERIFY\_FLAG enumeration
 
-The **CAPICOM\_SIGNED\_DATA\_VERIFY\_FLAG** enumeration indicates what is checked when a [*digital signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) is verified.
+The **CAPICOM\_SIGNED\_DATA\_VERIFY\_FLAG** enumeration indicates what is checked when a [*digital signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) is verified.
 
 ## Members
 

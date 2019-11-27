@@ -34,7 +34,7 @@ This event does not return a value.
 
 ## Remarks
 
-Do not call the [**Exit**](https://msdn.microsoft.com/en-us/library/Hh438368(v=VS.85).aspx) method from within *handler*.
+Do not call the [**Exit**](https://msdn.microsoft.com/library/Hh438368(v=VS.85).aspx) method from within *handler*.
 
 ## Requirements
 

@@ -59,13 +59,13 @@ The following code retrieves the IP address of a client from a collection of cli
 [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
 </dt> <dt>
 
-[**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx)
+[**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx)
 </dt> <dt>
 
-[**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx)
+[**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx)
+[**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx)
 </dt> </dl>
 
  

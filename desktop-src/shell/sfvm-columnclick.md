@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_COLUMNCLICK message
 
-Notifies the callback object that the user has clicked a column header to sort the list of objects in the folder view. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Notifies the callback object that the user has clicked a column header to sort the list of objects in the folder view. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

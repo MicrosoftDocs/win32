@@ -48,7 +48,7 @@ iRetVal = WebWizardHost.SetHeaderText(
 *bstrHeaderTitle* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 String containing the title.
 
@@ -57,7 +57,7 @@ String containing the title.
 *bstrHeaderSubtitle* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 String containing the subtitle.
 

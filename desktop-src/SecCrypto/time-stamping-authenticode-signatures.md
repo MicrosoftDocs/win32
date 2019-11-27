@@ -12,9 +12,9 @@ Microsoft Authenticode signatures provide authorship and integrity guarantees fo
 
 ## A Brief Introduction to Authenticode
 
-[*Authenticode*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) applies digital signature technology to guarantee the authorship and integrity of binary data such as installable software. A client web browser, or other system components, can use the Authenticode signatures to verify the integrity of the data when the software is downloaded or installed. Authenticode signatures can be used with many software formats, including .cab, .exe, .ocx, and .dll.
+[*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) applies digital signature technology to guarantee the authorship and integrity of binary data such as installable software. A client web browser, or other system components, can use the Authenticode signatures to verify the integrity of the data when the software is downloaded or installed. Authenticode signatures can be used with many software formats, including .cab, .exe, .ocx, and .dll.
 
-Microsoft maintains a list of public [*certification authorities*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CAs). Issuers of Authenticode certificates currently include [VeriSign](https://go.microsoft.com/fwlink/p/?linkid=103355), [Thawte](https://go.microsoft.com/fwlink/p/?linkid=103354), [Comodo](https://go.microsoft.com/fwlink/p/?linkid=131567), [Geotrust](https://go.microsoft.com/fwlink/p/?linkid=131568), and [GlobalSign](https://go.microsoft.com/fwlink/p/?linkid=131569).
+Microsoft maintains a list of public [*certification authorities*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CAs). Issuers of Authenticode certificates currently include [VeriSign](https://go.microsoft.com/fwlink/p/?linkid=103355), [Thawte](https://go.microsoft.com/fwlink/p/?linkid=103354), [Comodo](https://go.microsoft.com/fwlink/p/?linkid=131567), [Geotrust](https://go.microsoft.com/fwlink/p/?linkid=131568), and [GlobalSign](https://go.microsoft.com/fwlink/p/?linkid=131569).
 
 ## About Cryptographic Time Stamping
 
@@ -26,7 +26,7 @@ The countersignature method of time stamping implemented below allows for signat
 
 ## PKCS \#7 Signed Documents and Countersignatures
 
-PKCS \#7 is a standard format for cryptographic data, including signed data, certificates, and [*certificate revocation lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRLs). The particular PKCS \#7 type of interest in the context of time stamping is signed data, corresponding to the PKCS \#7 defined [**SignedData**](signeddata.md) content type.
+PKCS \#7 is a standard format for cryptographic data, including signed data, certificates, and [*certificate revocation lists*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CRLs). The particular PKCS \#7 type of interest in the context of time stamping is signed data, corresponding to the PKCS \#7 defined [**SignedData**](signeddata.md) content type.
 
 The PKCS \#7 package consists of [**SignedData**](signeddata.md) that identifies the actual content and certain information about it and SignerInfo signature blocks. A SignerInfo may itself contain a countersignature, which recursively is another SignerInfo. In principle, a sequence of such countersignatures may be present. The countersignature is an unauthenticated attribute with respect to the signature in the SignerInfo; that is, it may be affixed subsequent to the original signature. In outline form:
 
@@ -76,18 +76,18 @@ For more information about tools that may be useful in this context, see [Crypto
 
 ## Implementation Details and Wire Format
 
-[SignTool](signtool.md) relies on the Windows Authenticode implementation to create and time stamp signatures. [*Authenticode*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) operates on binary files, for example .cab, .exe, .dll, or .ocx. Authenticode first creates the signature, producing a PKCS \#7 [**SignedData**](signeddata.md). It is this **SignedData** that must be countersigned, as described in PKCS \#9.
+[SignTool](signtool.md) relies on the Windows Authenticode implementation to create and time stamp signatures. [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) operates on binary files, for example .cab, .exe, .dll, or .ocx. Authenticode first creates the signature, producing a PKCS \#7 [**SignedData**](signeddata.md). It is this **SignedData** that must be countersigned, as described in PKCS \#9.
 
 The countersignature process takes place in four steps:
 
 1.  Copy the signature (that is, the encryptedDigest) from the SignerInfo of the PKCS \#7 [**SignedData**](signeddata.md).
-2.  Construct a time stamp request whose content is the original signature. Send this to the time stamp server [*Abstract Syntax Notation One*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (ASN.1) encoded as a TimeStampRequest.
+2.  Construct a time stamp request whose content is the original signature. Send this to the time stamp server [*Abstract Syntax Notation One*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (ASN.1) encoded as a TimeStampRequest.
 3.  Receive a time stamp, formatted as a second PKCS \#7 [**SignedData**](signeddata.md), returned from the time stamp server.
 4.  Copy the SignerInfo from the time stamp directly into the original PKCS \#7 [**SignedData**](signeddata.md), as a PKCS \#9 countersignature (that is, an unauthenticated attribute in the SignerInfo of the original).
 
 ## Time Stamp Request
 
-The time stamp request is sent within an HTTP 1.1 POST message. In the HTTP header, the CacheControl directive is set to no-cache, and the Content-Type directive is set to application/octet-stream. The body of the HTTP message is a base64 encoding of [*Distinguished Encoding Rules*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) (DER) encoding of the time stamp request.
+The time stamp request is sent within an HTTP 1.1 POST message. In the HTTP header, the CacheControl directive is set to no-cache, and the Content-Type directive is set to application/octet-stream. The body of the HTTP message is a base64 encoding of [*Distinguished Encoding Rules*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) (DER) encoding of the time stamp request.
 
 Although not currently used, the Content-Length directive should also be used in constructing the HTTP message because it helps the time stamp server locate where the request is within the HTTP POST.
 
@@ -103,7 +103,7 @@ TimeStampRequest ::= SEQUENCE {
 }
 ```
 
-The countersignatureType is the [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) that identifies this as a time stamp countersignature and should be the exact OID 1.3.6.1.4.1.311.3.2.1.
+The countersignatureType is the [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) that identifies this as a time stamp countersignature and should be the exact OID 1.3.6.1.4.1.311.3.2.1.
 
 No attributes are currently included in the time stamp request.
 

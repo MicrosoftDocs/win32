@@ -104,7 +104,7 @@ The address of the import, or the failure stub for it.
 
 <dl> <dt>
 
-[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/en-us/library/151kt790(v=VS.71).aspx)
+[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/library/151kt790(v=VS.71).aspx)
 </dt> </dl>
 
  

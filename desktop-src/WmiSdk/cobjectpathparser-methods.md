@@ -16,7 +16,7 @@ The [**CObjectPathParser**](/windows/desktop/api/ObjPath/nl-objpath-cobjectpathp
 ## In this section
 
 -   [**CObjectPathParser method**](/windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-cobjectpathparser)
--   [**Free methods**](https://msdn.microsoft.com/en-us/library/Bb204795(v=VS.85).aspx)
+-   [**Free methods**](https://msdn.microsoft.com/library/Bb204795(v=VS.85).aspx)
 -   [**Parse method**](/windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-parse)
 -   [**UnParse method**](/windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-unparse)
 

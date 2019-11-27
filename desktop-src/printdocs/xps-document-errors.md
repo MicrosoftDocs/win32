@@ -357,7 +357,7 @@ Some XPS document API methods make calls to the [Packaging](https://docs.microso
 
 <dl> <dt>
 
-[Error Handling in COM](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx)
+[Error Handling in COM](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx)
 </dt> </dl>
 
  

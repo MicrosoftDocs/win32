@@ -51,7 +51,7 @@ IShellDispatch2.FindPrinter( _
 *sName* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the printer name.
 
@@ -60,7 +60,7 @@ A **String** that contains the printer name.
 *sLocation* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the printer location.
 
@@ -69,7 +69,7 @@ A **String** that contains the printer location.
 *sModel* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the printer model.
 
@@ -77,7 +77,7 @@ A **String** that contains the printer model.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.FindPrinter**](https://msdn.microsoft.com/en-us/library/Gg537738(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.FindPrinter**](https://msdn.microsoft.com/library/Gg537738(v=VS.85).aspx) method.
 
 If you assign strings to one or more of the optional parameters, they are displayed as default values in the associated edit control when the **Find Printer** dialog box is displayed. The user can either accept or override these values. If no value is assigned to a parameter, the associated edit box is empty and the user must enter a value.
 

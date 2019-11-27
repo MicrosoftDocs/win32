@@ -17,7 +17,7 @@ If an application does not support Microsoft Active Accessibility, it may not be
 
      
 
-To avoid compatibility problems with accessibility aids, you should follow Active Accessibility guidelines closely when designing custom controls. For more information about how to avoid compatibility problems with accessibility aids, see the [Accessibility](https://msdn.microsoft.com/en-us/library/Ee663255(v=VS.85).aspx) section.
+To avoid compatibility problems with accessibility aids, you should follow Active Accessibility guidelines closely when designing custom controls. For more information about how to avoid compatibility problems with accessibility aids, see the [Accessibility](https://msdn.microsoft.com/library/Ee663255(v=VS.85).aspx) section.
 
  
 

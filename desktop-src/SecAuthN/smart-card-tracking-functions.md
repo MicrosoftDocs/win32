@@ -14,7 +14,7 @@ The following functions let you track cards within readers. These routines typic
 
 | Topic                                                | Description                                                                                                                            |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCardLocateCards**](/windows/desktop/api/Winscard/nf-winscard-scardlocatecardsa)         | Search for a card whose [*ATR string*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) matches a supplied card name. |
+| [**SCardLocateCards**](/windows/desktop/api/Winscard/nf-winscard-scardlocatecardsa)         | Search for a card whose [*ATR string*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) matches a supplied card name. |
 | [**SCardGetStatusChange**](/windows/desktop/api/Winscard/nf-winscard-scardgetstatuschangea) | Block execution until the current availability of cards changes.                                                                       |
 | [**SCardCancel**](/windows/desktop/api/Winscard/nf-winscard-scardcancel)                   | Terminate outstanding actions.                                                                                                         |
 

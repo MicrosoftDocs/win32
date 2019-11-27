@@ -14,7 +14,7 @@ The **ITAttributeList** interface supplies methods for getting and setting of un
 
 ## Members
 
-The **ITAttributeList** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITAttributeList** also has these types of members:
+The **ITAttributeList** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITAttributeList** also has these types of members:
 
 -   [Methods](#methods)
 

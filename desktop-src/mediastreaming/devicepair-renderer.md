@@ -37,13 +37,13 @@ HRESULT get_Renderer(
 
 ## Property value
 
-Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx) object that represents the renderer device.
+Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx) object that represents the renderer device.
 
 ## See also
 
 <dl> <dt>
 
-[**DevicePair**](https://msdn.microsoft.com/en-us/library/Dn385771(v=VS.85).aspx)
+[**DevicePair**](https://msdn.microsoft.com/library/Dn385771(v=VS.85).aspx)
 </dt> </dl>
 
  

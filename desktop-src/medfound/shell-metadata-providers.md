@@ -8,17 +8,17 @@ ms.date: 05/31/2018
 
 # Shell Metadata Providers
 
-Starting in Windows 7, Microsoft Media Foundation exposes metadata through the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface.
+Starting in Windows 7, Microsoft Media Foundation exposes metadata through the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface.
 
-Metadata obtained using the process defined in this topic should only be used for read-only access. Writing data using this process is not supported. You can create an [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) object for writing purposes using a class identifier (CLSID) obtained from [**PSLookupPropertyHandlerCLSID**](https://msdn.microsoft.com/en-us/library/Bb762084(v=VS.85).aspx).
+Metadata obtained using the process defined in this topic should only be used for read-only access. Writing data using this process is not supported. You can create an [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) object for writing purposes using a class identifier (CLSID) obtained from [**PSLookupPropertyHandlerCLSID**](https://msdn.microsoft.com/library/Bb762084(v=VS.85).aspx).
 
 ## Reading Metadata
 
 To read metadata from a media source, perform the following steps:
 
 1.  Get a pointer to the [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) interface of the media source. You can use the [**IMFSourceResolver**](/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver) interface to get an **IMFMediaSource** pointer.
-2.  Call [**MFGetService**](/windows/desktop/api/mfidl/nf-mfidl-mfgetservice) on the media source to get a pointer to the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface. In the *guidService* parameter of **MFGetService**, specify the value **MF\_PROPERTY\_HANDLER\_SERVICE**. If the source does not support the **IPropertyStore** interface, **MFGetService** returns **MF\_E\_UNSUPPORTED\_SERVICE**.
-3.  Call [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) methods to enumerate the metadata properties.
+2.  Call [**MFGetService**](/windows/desktop/api/mfidl/nf-mfidl-mfgetservice) on the media source to get a pointer to the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface. In the *guidService* parameter of **MFGetService**, specify the value **MF\_PROPERTY\_HANDLER\_SERVICE**. If the source does not support the **IPropertyStore** interface, **MFGetService** returns **MF\_E\_UNSUPPORTED\_SERVICE**.
+3.  Call [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) methods to enumerate the metadata properties.
 
 The following code shows these steps. Assume that `DisplayProperty` is a function that displays a **PROPVARIANT** value.
 

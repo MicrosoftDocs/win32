@@ -27,7 +27,7 @@ The system calls three different kinds of application-defined functions. Callbac
 
 The callback functions have the following names:
 
--   [**acmDriverEnumCallback**](https://msdn.microsoft.com/en-us/library/Dd742891(v=VS.85).aspx)
+-   [**acmDriverEnumCallback**](https://msdn.microsoft.com/library/Dd742891(v=VS.85).aspx)
 -   [**acmFilterEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfilterenumcb)
 -   [**acmFilterTagEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfiltertagenumcb)
 -   [**acmFormatEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmformatenumcb)

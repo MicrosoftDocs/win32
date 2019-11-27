@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns a pointer to the data in the buffer.
 

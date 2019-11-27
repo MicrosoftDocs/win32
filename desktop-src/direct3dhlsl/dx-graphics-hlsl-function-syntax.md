@@ -85,7 +85,7 @@ You can specify user-specific clip planes with the **clipplanes** attribute. Win
 
 ## Examples
 
-This example is from BasicHLSL10.fx from the [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx).
+This example is from BasicHLSL10.fx from the [BasicHLSL10 Sample](https://msdn.microsoft.com/library/Ee416395(v=VS.85).aspx).
 
 
 ```hlsl
@@ -111,7 +111,7 @@ VS_OUTPUT RenderSceneVS( float4 vPos : POSITION,
 
 
 
-This example from AdvancedParticles.fx from the [AdvancedParticles Sample](https://msdn.microsoft.com/en-us/library/Ee416394(v=VS.85).aspx), illustrates using a semantic for the return type.
+This example from AdvancedParticles.fx from the [AdvancedParticles Sample](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx), illustrates using a semantic for the return type.
 
 
 ```hlsl

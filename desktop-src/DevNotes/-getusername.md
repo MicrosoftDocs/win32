@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetUserName** function. This function may be altered or unavailable in the future. Applications should call **GetUserName** directly.\]
 
-Gets the user name. See [**GetUserName**](https://msdn.microsoft.com/en-us/library/ms724432(v=VS.85).aspx).
+Gets the user name. See [**GetUserName**](https://msdn.microsoft.com/library/ms724432(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ BOOL _GetUserName(
 
 <dl> <dt>
 
-[**GetUserName**](https://msdn.microsoft.com/en-us/library/ms724432(v=VS.85).aspx)
+[**GetUserName**](https://msdn.microsoft.com/library/ms724432(v=VS.85).aspx)
 </dt> </dl>
 
  

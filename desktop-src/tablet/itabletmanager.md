@@ -34,7 +34,7 @@ The **ITabletManager** interface has these methods.
 
 | Method                                                  | Description                                                        |
 |:--------------------------------------------------------|:-------------------------------------------------------------------|
-| [**GetTablet**](https://msdn.microsoft.com/en-us/library/Aa373683(v=VS.85).aspx)           | Retrieves the specified tablet object.<br/>                  |
+| [**GetTablet**](https://msdn.microsoft.com/library/Aa373683(v=VS.85).aspx)           | Retrieves the specified tablet object.<br/>                  |
 | [**GetTabletCount**](itabletmanager-gettabletcount.md) | Retrieves the number of tablets attached to the system.<br/> |
 
 

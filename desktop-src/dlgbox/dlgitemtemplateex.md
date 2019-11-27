@@ -51,7 +51,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The help context identifier for the control. When the system sends a [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) message, it passes the **helpID** value in the **dwContextId** member of the [**HELPINFO**](https://msdn.microsoft.com/en-us/library/Bb773313(v=VS.85).aspx) structure.
+The help context identifier for the control. When the system sends a [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) message, it passes the **helpID** value in the **dwContextId** member of the [**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx) structure.
 
 </dd> <dt>
 
@@ -246,7 +246,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar)
 </dt> <dt>
 
-[**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx)
+[**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to an icon when the user requests that the window be restored to its previous size and position.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -45,7 +45,7 @@ If the icon can be opened, an application that processes this message should ret
 
 ## Remarks
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function returns **TRUE**.
+By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function returns **TRUE**.
 
 While processing this message, the application should not perform any action that would cause an activation or focus change (for example, creating a dialog box).
 
@@ -68,7 +68,7 @@ While processing this message, the application should not perform any action tha
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

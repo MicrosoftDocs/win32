@@ -20,7 +20,7 @@ api_location:
 
 # CreateAudioMediaType function
 
-The **CreateAudioMediaType** function initializes a media type from a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) structure.
+The **CreateAudioMediaType** function initializes a media type from a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ HRESULT STDAPI CreateAudioMediaType(
 *pwfx* 
 </dt> <dd>
 
-Pointer to the supplied [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) structure.
+Pointer to the supplied [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure.
 
 </dd> <dt>
 

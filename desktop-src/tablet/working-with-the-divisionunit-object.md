@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The **DivisionUnit** object represents a single structural element of a **DivisionResult** object. A **DivisionUnit** object may represent a drawing, a single recognition segment of handwriting, a line of handwriting, or a block of handwriting.
 
-The [**InkDivisionType**](https://msdn.microsoft.com/en-us/library/ms694985(v=VS.85).aspx) enumeration defines the structural element types that the layout analysis recognizes. In Automation, the **DivisionUnit** object is called [**IInkDivisionUnit**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit).
+The [**InkDivisionType**](https://msdn.microsoft.com/library/ms694985(v=VS.85).aspx) enumeration defines the structural element types that the layout analysis recognizes. In Automation, the **DivisionUnit** object is called [**IInkDivisionUnit**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit).
 
-The [**DivisionType**](/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype) property of the **DivisionUnit** object returns the structural element type that the **DivisionUnit** object is. The [**RecognitionString**](https://msdn.microsoft.com/en-us/library/ms703283(v=VS.85).aspx) property of the **DivisionUnit** object returns the recognition text for handwriting elements, or **NULL** for drawing elements.
+The [**DivisionType**](/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype) property of the **DivisionUnit** object returns the structural element type that the **DivisionUnit** object is. The [**RecognitionString**](https://msdn.microsoft.com/library/ms703283(v=VS.85).aspx) property of the **DivisionUnit** object returns the recognition text for handwriting elements, or **NULL** for drawing elements.
 
 The [**Strokes**](/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_strokes) property of the **DivisionUnit** object contains the subset of the strokes in the **DivisionResult** object that correspond to this element. Because handwriting elements exist for different levels of detail, the **Strokes** collections for different elements may overlap. Specifically, a recognition segment shares strokes with the line and block it is part of, and a line shares strokes with the block it is part of.
 

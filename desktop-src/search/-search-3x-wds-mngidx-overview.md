@@ -21,7 +21,7 @@ This section is organized as follows:
 
 - For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://go.microsoft.com/fwlink/p/?linkid=201207).
 - To download the Search SDK Code Samples:
-  - [Windows Search Samples on Code Gallery](https://docs.microsoft.com/en-us/windows/desktop/search/-search-samples-ovw)
+  - [Windows Search Samples on Code Gallery](https://docs.microsoft.com/windows/desktop/search/-search-samples-ovw)
 - To download the Windows SDK:
   - For Windows 10: [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
   - For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=129787)

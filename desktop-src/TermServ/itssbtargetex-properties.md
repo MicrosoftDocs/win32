@@ -13,7 +13,7 @@ The [**ITsSbTargetEx**](https://docs.microsoft.com/windows/desktop/TermServ/itss
 
 ## In this section
 
--   [**TargetLoad property**](https://msdn.microsoft.com/en-us/library/Mt703468(v=VS.85).aspx)
+-   [**TargetLoad property**](https://msdn.microsoft.com/library/Mt703468(v=VS.85).aspx)
 
  
 

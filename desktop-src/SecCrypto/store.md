@@ -19,7 +19,7 @@ api_location:
 
 \[The **Store** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/d228271e(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Store** object provides properties and methods that you can use to choose, manage, and use [*certificate stores*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and the certificates in those stores. CAPICOM can use Current-User, Local-Machine, memory, and Active Directory stores. Also, stores support smart card–based certificate stores. Developers should be aware that some methods may fail with some stores if operations are attempted for which the user does not have rights.
+The **Store** object provides properties and methods that you can use to choose, manage, and use [*certificate stores*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and the certificates in those stores. CAPICOM can use Current-User, Local-Machine, memory, and Active Directory stores. Also, stores support smart card–based certificate stores. Developers should be aware that some methods may fail with some stores if operations are attempted for which the user does not have rights.
 
 ## Members
 
@@ -39,7 +39,7 @@ The **Store** object has these methods.
 | [**Add**](store-add.md)       | Adds a [**Certificate**](certificate.md) object to the open certificate store.<br/>                                                                                                                       |
 | [**Close**](store-close.md)   | Closes an open certificate store.<br/> **CAPICOM 2.0.0.3 and earlier:** The [**Close**](store-close.md) method is not supported.<br/>                                                               |
 | [**Delete**](store-delete.md) | Deletes the certificate store represented by the current [**Store**](certificate.md) object.<br/> **CAPICOM 2.0.0.3 and earlier:** The [**Delete**](store-delete.md) method is not supported.<br/> |
-| [**Export**](store-export.md) | Exports the store of an encoded [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx).<br/>                                                                                                       |
+| [**Export**](store-export.md) | Exports the store of an encoded [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx).<br/>                                                                                                       |
 | [**Import**](store-import.md) | Imports a previously exported store.<br/>                                                                                                                                                                  |
 | [**Load**](store-load.md)     | Imports [**Certificate**](certificate.md) objects from a file into the store.<br/>                                                                                                                        |
 | [**Open**](store-open.md)     | Opens a certificate store.<br/>                                                                                                                                                                            |

@@ -24,8 +24,8 @@ Creates a bitmap from a DXGI surface that can be set as a target surface or have
 
 | Method                                                                                                                                                | Description                                                                                                                                 |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateBitmapFromDxgiSurface (IDXGISurface\*, D2D1\_BITMAP\_PROPERTIES1, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841134(v=VS.85).aspx)  | Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.<br/> |
-| [**CreateBitmapFromDxgiSurface (IDXGISurface\*, D2D1\_BITMAP\_PROPERTIES1\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/Hh404482(v=VS.85).aspx) | Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.<br/> |
+| [**CreateBitmapFromDxgiSurface (IDXGISurface\*, D2D1\_BITMAP\_PROPERTIES1, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/JJ841134(v=VS.85).aspx)  | Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.<br/> |
+| [**CreateBitmapFromDxgiSurface (IDXGISurface\*, D2D1\_BITMAP\_PROPERTIES1\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/Hh404482(v=VS.85).aspx) | Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Creates a bitmap from a DXGI surface that can be set as a target surface or have
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx)
+[**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx)
 </dt> </dl>
 
 �

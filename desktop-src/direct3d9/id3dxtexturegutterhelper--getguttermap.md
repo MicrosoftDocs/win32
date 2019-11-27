@@ -38,7 +38,7 @@ HRESULT GetGutterMap(
 *pGutterData* \[in, out\]
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the texel class. Possible texel classes are as follows. There is no texel class 3.
 
@@ -59,7 +59,7 @@ Pointer to the texel class. Possible texel classes are as follows. There is no t
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

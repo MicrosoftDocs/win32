@@ -43,7 +43,7 @@ Returns the shifted and filled in [**XMVECTOR**](xmvector-data-type.md).
 
 ## Remarks
 
-This function is a template version of [**XMVectorShiftLeft**](https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx) where the *Elements* argument is a template value.
+This function is a template version of [**XMVectorShiftLeft**](https://msdn.microsoft.com/library/Hh404823(v=VS.85).aspx) where the *Elements* argument is a template value.
 
 > [!Note]  
 > The `XMVectorShiftLeft` template is new for DirectXMath and is not available for XNAMath 2.x.

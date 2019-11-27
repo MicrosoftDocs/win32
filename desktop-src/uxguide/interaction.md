@@ -47,11 +47,11 @@ Indirect input has had the benefit of more than 25 years of refinement. Features
 
 We provide some general user interaction guidelines here and cover device-specific guidelines in these topics.
 
--   [Touch](https://docs.microsoft.com/en-us/windows/desktop/uxguide/inter-touch)
--   [Mouse](https://docs.microsoft.com/en-us/windows/desktop/uxguide/inter-mouse)
--   [Pen](https://docs.microsoft.com/en-us/windows/desktop/uxguide/inter-pen)
--   [Keyboard](https://docs.microsoft.com/en-us/windows/desktop/uxguide/inter-keyboard)
--   [Accessibility](https://docs.microsoft.com/en-us/windows/desktop/uxguide/inter-accessibility)
+-   [Touch](https://docs.microsoft.com/windows/desktop/uxguide/inter-touch)
+-   [Mouse](https://docs.microsoft.com/windows/desktop/uxguide/inter-mouse)
+-   [Pen](https://docs.microsoft.com/windows/desktop/uxguide/inter-pen)
+-   [Keyboard](https://docs.microsoft.com/windows/desktop/uxguide/inter-keyboard)
+-   [Accessibility](https://docs.microsoft.com/windows/desktop/uxguide/inter-accessibility)
 
 ## Visuals for feedback
 

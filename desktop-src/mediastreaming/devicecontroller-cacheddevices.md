@@ -61,7 +61,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**DeviceController**](https://msdn.microsoft.com/en-us/library/Hh828842(v=VS.85).aspx)
+[**DeviceController**](https://msdn.microsoft.com/library/Hh828842(v=VS.85).aspx)
 </dt> </dl>
 
  

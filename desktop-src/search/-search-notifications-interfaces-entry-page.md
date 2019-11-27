@@ -12,11 +12,11 @@ ms.date: 05/31/2018
 
 This Windows Search reference section consists of the following notifications interfaces:
 
-[**IGatherInlineStatus**](https://msdn.microsoft.com/en-us/library/Bb231473(v=VS.85).aspx)
+[**IGatherInlineStatus**](https://msdn.microsoft.com/library/Bb231473(v=VS.85).aspx)
 
-[**IGatherNotifyInline**](https://msdn.microsoft.com/en-us/library/Bb231470(v=VS.85).aspx)
+[**IGatherNotifyInline**](https://msdn.microsoft.com/library/Bb231470(v=VS.85).aspx)
 
-[**IGatherNotifyInlineInternal**](https://msdn.microsoft.com/en-us/library/Bb231465(v=VS.85).aspx)
+[**IGatherNotifyInlineInternal**](https://msdn.microsoft.com/library/Bb231465(v=VS.85).aspx)
 
 [**ISearchItemsChangedSink**](/windows/desktop/api/Searchapi/nn-searchapi-isearchitemschangedsink)
 

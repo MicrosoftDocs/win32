@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The preferred format for multimedia files is resource interchange file format (RIFF). The RIFF file I/O functions work with the basic buffered and unbuffered file I/O services. You can open, read, and write RIFF files in the same way as other file types. For detailed information about RIFF, see [AVIFile Functions and Macros](avifile-functions-and-macros.md).
 
-RIFF files use four-character codes to identify file elements. These codes are 32-bit quantities representing a sequence of one to four ASCII alphanumeric characters, padded on the right with space characters. The data type for four-character codes is **FOURCC**. Use the [**mmioFOURCC**](https://msdn.microsoft.com/en-us/library/Dd757320(v=VS.85).aspx) macro to convert four characters into a four-character code. To convert a null-terminated string into a four-character code, use the [**mmioStringToFOURCC**](https://msdn.microsoft.com/en-us/library/Dd757340(v=VS.85).aspx) function.
+RIFF files use four-character codes to identify file elements. These codes are 32-bit quantities representing a sequence of one to four ASCII alphanumeric characters, padded on the right with space characters. The data type for four-character codes is **FOURCC**. Use the [**mmioFOURCC**](https://msdn.microsoft.com/library/Dd757320(v=VS.85).aspx) macro to convert four characters into a four-character code. To convert a null-terminated string into a four-character code, use the [**mmioStringToFOURCC**](https://msdn.microsoft.com/library/Dd757340(v=VS.85).aspx) function.
 
 The basic building block of a RIFF file is a *chunk*. A chunk is a logical unit of multimedia data, such as a single frame in a video clip. Each chunk contains the following fields:
 
@@ -40,9 +40,9 @@ A chunk contained in another chunk is a *subchunk*. The only chunks allowed to c
 
 ![riff chunk that contains a list chunk image](images/mmio2.gif)
 
-Multimedia file I/O services include two functions you can use to navigate among chunks in a RIFF file: [**mmioAscend**](https://msdn.microsoft.com/en-us/library/Dd757315(v=VS.85).aspx) and [**mmioDescend**](https://msdn.microsoft.com/en-us/library/Dd757318(v=VS.85).aspx). You can use these functions as high-level seek functions. When you descend into a chunk, the file position is set to the data field of the chunk (8 bytes from the beginning of the chunk). For "RIFF" and "LIST" chunks, the file position is set to the location following the form type or list type (12 bytes from the beginning of the chunk). When you ascend out of a chunk, the file position is set to the location following the end of the chunk.
+Multimedia file I/O services include two functions you can use to navigate among chunks in a RIFF file: [**mmioAscend**](https://msdn.microsoft.com/library/Dd757315(v=VS.85).aspx) and [**mmioDescend**](https://msdn.microsoft.com/library/Dd757318(v=VS.85).aspx). You can use these functions as high-level seek functions. When you descend into a chunk, the file position is set to the data field of the chunk (8 bytes from the beginning of the chunk). For "RIFF" and "LIST" chunks, the file position is set to the location following the form type or list type (12 bytes from the beginning of the chunk). When you ascend out of a chunk, the file position is set to the location following the end of the chunk.
 
-To create a new chunk, use the [**mmioCreateChunk**](https://msdn.microsoft.com/en-us/library/Dd757317(v=VS.85).aspx) function to write a chunk header at the current position in an open file. The **mmioAscend**, **mmioDescend**, and **mmioCreateChunk** functions use the [**MMCKINFO**](https://msdn.microsoft.com/en-us/library/Dd757312(v=VS.85).aspx) structure to specify and retrieve information about "RIFF" chunks.
+To create a new chunk, use the [**mmioCreateChunk**](https://msdn.microsoft.com/library/Dd757317(v=VS.85).aspx) function to write a chunk header at the current position in an open file. The **mmioAscend**, **mmioDescend**, and **mmioCreateChunk** functions use the [**MMCKINFO**](https://msdn.microsoft.com/library/Dd757312(v=VS.85).aspx) structure to specify and retrieve information about "RIFF" chunks.
 
  
 

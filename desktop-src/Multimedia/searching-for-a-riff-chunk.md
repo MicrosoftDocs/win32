@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Searching for a RIFF Chunk
 
-The following example uses the [**mmioDescend**](https://msdn.microsoft.com/en-us/library/Dd757318(v=VS.85).aspx) function to search for a "RIFF" chunk with a form type of "WAVE" to verify that the file that has just been opened is a waveform-audio file.
+The following example uses the [**mmioDescend**](https://msdn.microsoft.com/library/Dd757318(v=VS.85).aspx) function to search for a "RIFF" chunk with a form type of "WAVE" to verify that the file that has just been opened is a waveform-audio file.
 
 
 ```C++

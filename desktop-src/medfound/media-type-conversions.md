@@ -80,11 +80,11 @@ The following functions create or initialize a format structure from a Media Fou
 
 | Function                                                                             | Target Structure                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx), [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat), [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx), or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) |
-| [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
+| [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd373477(v=VS.85).aspx), [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat), [**VIDEOINFOHEADER**](https://msdn.microsoft.com/library/Dd407325(v=VS.85).aspx), or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx) |
+| [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
 | [**MFCreateMFVideoFormatFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype) | [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat)                                                                                                                                              |
 | [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype)   | [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) or [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx)                                                                                    |
-| [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)         | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
+| [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)         | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
 
 
 
@@ -153,7 +153,7 @@ The following tables list the Media Foundation attributes that correspond to var
 
  
 
-The following attributes can be inferred from the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx) or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) structure but also require some knowledge of the format details. For example, different YUV formats have different stride requirements.
+The following attributes can be inferred from the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/library/Dd407325(v=VS.85).aspx) or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx) structure but also require some knowledge of the format details. For example, different YUV formats have different stride requirements.
 
 -   [**MF\_MT\_DEFAULT\_STRIDE**](mf-mt-default-stride-attribute.md)
 -   [**MF\_MT\_MINIMUM\_DISPLAY\_APERTURE**](mf-mt-minimum-display-aperture-attribute.md)
@@ -191,7 +191,7 @@ The following attributes can be inferred from the [**VIDEOINFOHEADER**](https://
 
 ## Examples
 
-The following code fills in a [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd318229(v=VS.85).aspx) structure from a video media type. Note that this conversions loses some of the format information (interlacing, frame rate, extended color data). However, it might be useful when saving a bitmap from a video frame, for example.
+The following code fills in a [**BITMAPINFOHEADER**](https://msdn.microsoft.com/library/Dd318229(v=VS.85).aspx) structure from a video media type. Note that this conversions loses some of the format information (interlacing, frame rate, extended color data). However, it might be useful when saving a bitmap from a video frame, for example.
 
 
 ```C++

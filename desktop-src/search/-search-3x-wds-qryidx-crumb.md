@@ -105,7 +105,7 @@ The third example executes a search within C:\\Documents, limited to files with 
 
 ### Constants for Common Folders
 
-Windows Vista enables the use of [KNOWNFOLDERID](https://msdn.microsoft.com/en-us/library/bb762584(VS.85).aspx) values that provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system. For example, the system folder may be "C:\\Windows" on one system and "C:\\Winnt" on another. Prior to Windows Vista, [CSIDLs](https://docs.microsoft.com/windows/desktop/shell/csidl) were used.
+Windows Vista enables the use of [KNOWNFOLDERID](https://msdn.microsoft.com/library/bb762584(VS.85).aspx) values that provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system. For example, the system folder may be "C:\\Windows" on one system and "C:\\Winnt" on another. Prior to Windows Vista, [CSIDLs](https://docs.microsoft.com/windows/desktop/shell/csidl) were used.
 
 Use these locations with this syntax:
 

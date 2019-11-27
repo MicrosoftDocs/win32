@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_SETTINGCHANGE message
 
-A message that is sent to all top-level windows when the [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) function changes a system-wide setting or when policy settings have changed.
+A message that is sent to all top-level windows when the [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) function changes a system-wide setting or when policy settings have changed.
 
 Applications should send **WM\_SETTINGCHANGE** to all top-level windows when they make changes to system parameters. (This message cannot be sent directly to a window.) To send the **WM\_SETTINGCHANGE** message to all top-level windows, use the [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx) function with the *hwnd* parameter set to **HWND\_BROADCAST**.
 
@@ -29,7 +29,7 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 *wParam* 
 </dt> <dd>
 
-When the system sends this message as a result of a [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) call, the *wParam* parameter is the value of the *uiAction* parameter passed to the **SystemParametersInfo** function. For a list of values, see **SystemParametersInfo**.
+When the system sends this message as a result of a [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) call, the *wParam* parameter is the value of the *uiAction* parameter passed to the **SystemParametersInfo** function. For a list of values, see **SystemParametersInfo**.
 
 When the system sends this message as a result of a change in policy settings, this parameter indicates the type of policy that was applied. This value is 1 if computer policy was applied or zero if user policy was applied.
 
@@ -42,7 +42,7 @@ When an application sends this message, this parameter must be **NULL**.
 *lParam* 
 </dt> <dd>
 
-When the system sends this message as a result of a [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) call, *lParam* is a pointer to a string that indicates the area containing the system parameter that was changed. This parameter does not usually indicate which specific system parameter changed. (Note that some applications send this message with *lParam* set to **NULL**.) In general, when you receive this message, you should check and reload any system parameter settings that are used by your application.
+When the system sends this message as a result of a [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) call, *lParam* is a pointer to a string that indicates the area containing the system parameter that was changed. This parameter does not usually indicate which specific system parameter changed. (Note that some applications send this message with *lParam* set to **NULL**.) In general, when you receive this message, you should check and reload any system parameter settings that are used by your application.
 
 This string can be the name of a registry key or the name of a section in the Win.ini file. When the string is a registry name, it typically indicates only the leaf node in the registry, not the full path.
 
@@ -80,13 +80,13 @@ The *lParam* parameter indicates which system metric has changed, for example, "
 
 <dl> <dt>
 
-[Policy Events](https://msdn.microsoft.com/en-us/library/Aa374368(v=VS.85).aspx)
+[Policy Events](https://msdn.microsoft.com/library/Aa374368(v=VS.85).aspx)
 </dt> <dt>
 
 [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx)
 </dt> <dt>
 
-[**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx)
+[**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx)
 </dt> </dl>
 
  

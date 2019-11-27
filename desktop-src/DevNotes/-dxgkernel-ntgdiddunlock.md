@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdUnlock(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the surface to be unlocked.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface to be unlocked.
 
 </dd> <dt>
 
 *puUnlockData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_UNLOCKDATA**](https://msdn.microsoft.com/en-us/library/Ff551745(v=VS.85).aspx) structure that contains the information required to perform the lock release.
+Pointer to a [**DD\_UNLOCKDATA**](https://msdn.microsoft.com/library/Ff551745(v=VS.85).aspx) structure that contains the information required to perform the lock release.
 
 </dd> </dl>
 

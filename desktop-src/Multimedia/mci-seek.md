@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SEEK command changes the current position in the content as quickly as possible. Video and audio output are disabled during the seek. After the seek is complete, the device is stopped. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

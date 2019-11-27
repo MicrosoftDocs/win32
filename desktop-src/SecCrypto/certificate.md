@@ -19,7 +19,7 @@ api_location:
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://msdn.microsoft.com/library/Hh424017(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Certificate** object represents a single [*digital certificate*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx).
+The **Certificate** object represents a single [*digital certificate*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx).
 
 The **Certificate** object exposes the following interfaces:
 
@@ -61,7 +61,7 @@ The **Certificate** object has these methods.
 | [**ExtendedProperties**](certificate-extendedproperties.md) | Returns a collection of the extended properties of the certificate.<br/> (Inherited from **CertificateICertificate2**)                                                                                                                             |
 | [**Extensions**](certificate-extensions.md)                 | Returns a collection of the extensions associated with the certificate.<br/> (Inherited from **CertificateICertificate2**)                                                                                                                         |
 | [**GetInfo**](certificate-getinfo.md)                       | Retrieves information from the certificate.<br/> (Inherited from **CertificateICertificate2ICertificate**)                                                                                                                                         |
-| [**HasPrivateKey**](certificate-hasprivatekey.md)           | Determines whether the certificate has a [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) associated with it.<br/> (Inherited from **CertificateICertificate2ICertificate**)                                    |
+| [**HasPrivateKey**](certificate-hasprivatekey.md)           | Determines whether the certificate has a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with it.<br/> (Inherited from **CertificateICertificate2ICertificate**)                                    |
 | [**Import**](certificate-import.md)                         | Imports a previously encoded certificate from a string into the **Certificate** object.<br/> (Inherited from **CertificateICertificate2ICertificate**)                                                                                             |
 | [**IsValid**](certificate-isvalid.md)                       | Builds a certificate verification chain for a certificate and returns a [**CertificateStatus**](certificatestatus.md) object that contains the validity status of the certificate.<br/> (Inherited from **CertificateICertificate2ICertificate**) |
 | [**KeyUsage**](certificate-keyusage.md)                     | Returns a [**KeyUsage**](keyusage.md) object that indicates the valid key usage of the certificate.<br/> (Inherited from **CertificateICertificate2ICertificate**)                                                                                |

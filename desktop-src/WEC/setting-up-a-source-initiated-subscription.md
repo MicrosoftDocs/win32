@@ -153,7 +153,7 @@ The following prerequisites must be met before the subscription is created.
 
     **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\Schannel\ClientAuthTrustMode (DWORD) = 2**
 
-Find more information in this article: https://technet.microsoft.com/en-us/library/dn786429(v=ws.11).aspx
+Find more information in this article: https://technet.microsoft.com/library/dn786429(v=ws.11).aspx
 
 ### Setup the listener on the Event collector
 

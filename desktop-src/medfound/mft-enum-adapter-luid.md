@@ -12,7 +12,7 @@ Specifies the unique identifier for a video adapter. Use this attribute when cal
 
 ## Data type
 
-**[**LUID**](https://msdn.microsoft.com/en-us/library/Dd316552(v=VS.85).aspx)**
+**[**LUID**](https://msdn.microsoft.com/library/Dd316552(v=VS.85).aspx)**
 
 ## Requirements
 

@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdQueryMoCompStatus(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Pointer to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
+Pointer to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
 
 </dd> <dt>
 
 *puQueryMoCompStatusData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_QUERYMOCOMPSTATUSDATA**](https://msdn.microsoft.com/en-us/library/Ff551691(v=VS.85).aspx) structure that contains the information needed to query the status.
+Pointer to a [**DD\_QUERYMOCOMPSTATUSDATA**](https://msdn.microsoft.com/library/Ff551691(v=VS.85).aspx) structure that contains the information needed to query the status.
 
 </dd> </dl>
 

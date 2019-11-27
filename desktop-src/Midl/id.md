@@ -92,10 +92,10 @@ interface IKnown : IUnknown
 [**dispinterface**](dispinterface.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/en-us/library/ms221308(v=VS.71).aspx)
+[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
 </dt> <dt>
 
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)

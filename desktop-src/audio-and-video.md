@@ -24,12 +24,12 @@ Microsoft provides components that are designed to enable application developers
 | [Windows Media Format 11 SDK](https://docs.microsoft.com/windows/desktop/wmformat/windows-media-format-11-sdk)<br/>                                     | Supports reading and writing ASF files, decoding and encoding Windows Media audio and video, and streaming ASF over a network.<br/>                                                                                          |
 | [Windows Media Library Sharing Services](https://docs.microsoft.com/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal)<br/>                | Enables applications to discover media devices on the home network, and share media libraries on the home network and the Internet.<br/>                                                                                     |
 | [Windows Media Player SDK](https://docs.microsoft.com/windows/desktop/WMP/windows-media-player-sdk)<br/>                                                | Extends the capabilities of Windows Media Player and Windows Media Player Mobile.<br/>                                                                                                                                       |
-| [Windows Media Rights Manager 10.1.2 SDK](https://msdn.microsoft.com/en-us/library/bb649422(VS.85).aspx)<br/> | Supports digital rights management (DRM) for protecting Windows Media files.<br/>                                                                                                                                            |
-| [Windows Media Services 9 Series](https://msdn.microsoft.com/en-us/library/Dd873819(v=VS.85).aspx)<br/>                                 | Provides an automation-based API for managing Windows Media Services in Windows Server.<br/>                                                                                                                                 |
+| [Windows Media Rights Manager 10.1.2 SDK](https://msdn.microsoft.com/library/bb649422(VS.85).aspx)<br/> | Supports digital rights management (DRM) for protecting Windows Media files.<br/>                                                                                                                                            |
+| [Windows Media Services 9 Series](https://msdn.microsoft.com/library/Dd873819(v=VS.85).aspx)<br/>                                 | Provides an automation-based API for managing Windows Media Services in Windows Server.<br/>                                                                                                                                 |
 | [Windows Media Streaming API](https://docs.microsoft.com/windows/desktop/mediastreaming/media-streaming-api-portal)<br/>                                | Models the Digital Media Renderer (DMR) and Digital Media Server (DMS) devices, as defined by the DLNA guidelines, for easy programmatic use.<br/>                                                                           |
 | [Windows Media Transport Controls](https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/media-transport-controls-portal)<br/>                      | Provides a built-in interface that shows the user information about the currently playing media, such as the title of a song or video. Also provides the user with a common and familiar way to control media playback.<br/> |
-| [Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK](https://msdn.microsoft.com/en-us/library/JJ203965(v=VS.85).aspx)<br/>     | Enables customization of Windows Movie Maker 6.0 and Microsoft Windows DVD Maker 1.0.<br/>                                                                                                                                   |
-| [Legacy Audio and Video](https://msdn.microsoft.com/en-us/library/Hh309469(v=VS.85).aspx)<br/>                                                    | Technologies that are obsolete and should not be used in new applications.<br/>                                                                                                                                              |
+| [Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK](https://msdn.microsoft.com/library/JJ203965(v=VS.85).aspx)<br/>     | Enables customization of Windows Movie Maker 6.0 and Microsoft Windows DVD Maker 1.0.<br/>                                                                                                                                   |
+| [Legacy Audio and Video](https://msdn.microsoft.com/library/Hh309469(v=VS.85).aspx)<br/>                                                    | Technologies that are obsolete and should not be used in new applications.<br/>                                                                                                                                              |
 
 
 
@@ -39,10 +39,10 @@ Microsoft provides components that are designed to enable application developers
 
 <dl> <dt>
 
-[DirectX Graphics and Gaming](https://msdn.microsoft.com/en-us/library/Ee663274(v=VS.85).aspx)
+[DirectX Graphics and Gaming](https://msdn.microsoft.com/library/Ee663274(v=VS.85).aspx)
 </dt> <dt>
 
-[Graphics](https://msdn.microsoft.com/en-us/library/Ee663279(v=VS.85).aspx)
+[Graphics](https://msdn.microsoft.com/library/Ee663279(v=VS.85).aspx)
 </dt> </dl>
 
  

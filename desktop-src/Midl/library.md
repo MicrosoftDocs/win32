@@ -105,7 +105,7 @@ library Hello
 
 <dl> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/en-us/library/ms221355(v=VS.71).aspx)
+[Contents of a Type Library](https://msdn.microsoft.com/library/ms221355(v=VS.71).aspx)
 </dt> <dt>
 
 [**control**](control.md)
@@ -129,7 +129,7 @@ library Hello
 [**lcid**](lcid.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
 [**restricted**](restricted.md)

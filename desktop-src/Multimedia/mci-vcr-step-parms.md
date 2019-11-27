@@ -52,7 +52,7 @@ Number of frames to jump (the length of a single step) as the [**MCI\_STEP**](mc
 
 ## Remarks
 
-When assigning data to the members in this structure, set the corresponding flags in the *fdwCommand* parameter of [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) to validate the members.
+When assigning data to the members in this structure, set the corresponding flags in the *fdwCommand* parameter of [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) to validate the members.
 
 ## Requirements
 
@@ -79,7 +79,7 @@ When assigning data to the members in this structure, set the corresponding flag
 [**MCI\_STEP**](mci-step.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

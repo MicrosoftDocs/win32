@@ -48,7 +48,7 @@ This method does not return a value.
 
 ## C++
 
-See [**ExtractCAB**](https://msdn.microsoft.com/en-us/library/Aa369269(v=VS.85).aspx) function.
+See [**ExtractCAB**](https://msdn.microsoft.com/library/Aa369269(v=VS.85).aspx) function.
 
 ## Requirements
 

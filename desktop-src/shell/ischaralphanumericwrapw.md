@@ -17,12 +17,12 @@ api_location:
 
 # IsCharAlphaNumericWrapW function
 
-\[**IsCharAlphaNumericWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**IsCharAlphaNumericW**](https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx) in its place.\]
+\[**IsCharAlphaNumericWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**IsCharAlphaNumericW**](https://msdn.microsoft.com/library/ms647483(v=VS.85).aspx) in its place.\]
 
 Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 
 > [!Note]  
-> **IsCharAlphaNumericWrapW** is a wrapper for the **IsCharAlphaNumericW** function. See the [**IsCharAlphaNumeric**](https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx) page for further usage notes.
+> **IsCharAlphaNumericWrapW** is a wrapper for the **IsCharAlphaNumericW** function. See the [**IsCharAlphaNumeric**](https://msdn.microsoft.com/library/ms647483(v=VS.85).aspx) page for further usage notes.
 
  
 
@@ -56,11 +56,11 @@ Type: **BOOL**
 
 If the character is alphanumeric, the return value is nonzero.
 
-If the character is not alphanumeric, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx).
+If the character is not alphanumeric, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx).
 
 ## Remarks
 
-**IsCharAlphaNumericWrapW** provides the ability to use Unicode strings in operating systems earlier than Windows XP. The preferred method is to use [**IsCharAlphaNumericW**](https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+**IsCharAlphaNumericWrapW** provides the ability to use Unicode strings in operating systems earlier than Windows XP. The preferred method is to use [**IsCharAlphaNumericW**](https://msdn.microsoft.com/library/ms647483(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **IsCharAlphaNumericWrapW** must be called directly from Shlwapi.dll, using ordinal 28.
 
@@ -80,7 +80,7 @@ If the character is not alphanumeric, the return value is zero. To get extended 
 
 <dl> <dt>
 
-[**IsCharAlphaNumeric**](https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx)
+[**IsCharAlphaNumeric**](https://msdn.microsoft.com/library/ms647483(v=VS.85).aspx)
 </dt> </dl>
 
  

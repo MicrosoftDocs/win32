@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Open and Save As Dialog Boxes
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/en-us/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 The **Open** dialog box lets the user specify the drive, directory, and the name of a file or set of files to open. You create and display an **Open** dialog box by initializing an [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure and passing the structure to the [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) function.
 
@@ -111,7 +111,7 @@ You can create a custom filter by setting the **lpstrCustomFilter** member to th
 
 For Explorer-style dialog boxes, the default extension may change if the user selects a different filter. If the user selects a filter whose first pattern is of the form \*.*xxx* (that is, the extension does not include a wildcard character), the dialog box uses *xxx* as the default extension. This occurs only if you specified a default extension in the **lpstrDefExt** member of the [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure. For example, if the user selects the "Source\\0\*.C;\*.CXX\\0" filter, the default extension changes to "C". However, if you had defined the filter as "Source\\0\*.C\*\\0", the default extension would not change because the extension includes a wildcard.
 
-The [**CDN\_INCLUDEITEM**](cdn-includeitem.md) notification message provides another way to filter the names that the dialog box displays. To use this message, provide an [**OFNHookProc**](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure and specify the **OFN\_ENABLEINCLUDENOTIFY** flag in the [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure when you create the dialog box. Each time the user opens a folder, the dialog box sends a **CDN\_INCLUDEITEM** notification to your hook procedure for each item in the newly opened folder. The return value of the hook procedure indicates whether the dialog box should display the item in the folder's item list.
+The [**CDN\_INCLUDEITEM**](cdn-includeitem.md) notification message provides another way to filter the names that the dialog box displays. To use this message, provide an [**OFNHookProc**](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx) hook procedure and specify the **OFN\_ENABLEINCLUDENOTIFY** flag in the [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure when you create the dialog box. Each time the user opens a folder, the dialog box sends a **CDN\_INCLUDEITEM** notification to your hook procedure for each item in the newly opened folder. The return value of the hook procedure indicates whether the dialog box should display the item in the folder's item list.
 
 ## File and Directory Validation
 
@@ -199,7 +199,7 @@ Currently, there can only be five entries under this key, and the value/name ind
 
 | Value type                         | Meaning                                                                                                   |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **REG\_DWORD**                     | A CSIDL value that identifies a folder. For a list of CSIDL values, see [**CSIDL values**](https://msdn.microsoft.com/en-us/library/Bb762494(v=VS.85).aspx). |
+| **REG\_DWORD**                     | A CSIDL value that identifies a folder. For a list of CSIDL values, see [**CSIDL values**](https://msdn.microsoft.com/library/Bb762494(v=VS.85).aspx). |
 | **REG\_SZ** or **REG\_EXPAND\_SZ** | A null-terminated string that specifies a valid path.                                                     |
 
 
@@ -210,7 +210,7 @@ Currently, there can only be five entries under this key, and the value/name ind
 
 You can customize an Explorer-style **Open** or **Save As** dialog box by providing a hook procedure, a custom template, or both. If you provide a hook procedure for an Explorer-style dialog box, the system creates a dialog box that is a child of the default dialog box. The hook procedure acts as the dialog procedure for the child dialog box. This child dialog box is based on the custom template, or on a default template if none is provided. For more information, see [Explorer-Style Custom Templates](#explorer-style-custom-templates).
 
-To enable a hook procedure for an Explorer-style **Open** or **Save As** dialog box, use the [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure when you create the dialog box. Set the **OFN\_ENABLEHOOK** and **OFN\_EXPLORER** flags in the **Flags** member and specify the address of an [**OFNHookProc**](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure in the **lpfnHook** member. If you provide a hook procedure and omit the **OFN\_EXPLORER** flag, you must use an [**OFNHookProcOldStyle**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) hook procedure and you will get the old-style user-interface. For more information, see [Customizing Old-Style Dialog Boxes](#customizing-old-style-dialog-boxes).
+To enable a hook procedure for an Explorer-style **Open** or **Save As** dialog box, use the [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure when you create the dialog box. Set the **OFN\_ENABLEHOOK** and **OFN\_EXPLORER** flags in the **Flags** member and specify the address of an [**OFNHookProc**](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx) hook procedure in the **lpfnHook** member. If you provide a hook procedure and omit the **OFN\_EXPLORER** flag, you must use an [**OFNHookProcOldStyle**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) hook procedure and you will get the old-style user-interface. For more information, see [Customizing Old-Style Dialog Boxes](#customizing-old-style-dialog-boxes).
 
 An Explorer-style hook procedure receives a variety of messages while the dialog box is open. These include the following:
 

@@ -41,7 +41,7 @@ There is an exception if the Windows Installer encounters a package belonging to
 
 **[Windows Installer 4.0 and earlier](not-supported-in-windows-installer-4-0.md):  **[*Transaction processing*](t-gly.md) of multiple-package Windows Installer installations is not supported. These versions of the Windows Installer are unable to roll back the installation of multiple packages as a single transaction.
 
-**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](msiembeddedchainer-table.md) fails if the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role is enabled.
+**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](msiembeddedchainer-table.md) fails if the [Remote Desktop Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx) role is enabled.
 
  
 

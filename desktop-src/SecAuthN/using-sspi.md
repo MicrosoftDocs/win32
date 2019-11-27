@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using SSPI
 
-The following topics provide information about [*Security Support Provider Interface*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SSPI) tasks, procedures, and samples.
+The following topics provide information about [*Security Support Provider Interface*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SSPI) tasks, procedures, and samples.
 
 -   [Procedures Used with Most Security Packages and Protocols](procedures-used-with-most-security-packages-and-protocols.md)
 -   [Sample SSPI Code](sample-sspi-code.md)

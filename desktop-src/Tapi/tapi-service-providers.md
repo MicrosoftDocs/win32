@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TAPI Service Providers
 
-TAPI service providers are an abstraction layer between TAPI applications and the underlying hardware and transport protocols. A [telephony service provider](telephony-service-providers-start-page.md) (TSP) supplies call controls and a [media service provider](https://msdn.microsoft.com/en-us/library/ms733409(v=VS.85).aspx) (MSP) supplies detailed control over the media of a call. A TSP/MSP pair can implement the capabilities needed for applications ranging from basic telephony to IP multicast multimedia conferencing.
+TAPI service providers are an abstraction layer between TAPI applications and the underlying hardware and transport protocols. A [telephony service provider](telephony-service-providers-start-page.md) (TSP) supplies call controls and a [media service provider](https://msdn.microsoft.com/library/ms733409(v=VS.85).aspx) (MSP) supplies detailed control over the media of a call. A TSP/MSP pair can implement the capabilities needed for applications ranging from basic telephony to IP multicast multimedia conferencing.
 
  
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A Telephony Service Provider (TSPI) handles device-specific controls for communications programming. A TSP must conform to the Telephony Service Provider (TSPI) in order to function as a service provider within the Microsoft Telephony environment. TSPI defines the external functions exposed by a telephony service provider supplied with communications equipment.
 
-A TSP author must be familiar with the material in [Microsoft Telephony Overview](https://msdn.microsoft.com/en-us/library/ms733433(v=VS.85).aspx), which covers general telephony architecture and provides an overview of material common to several telephony APIs. For example, this section contains a list of session control operations, such as Park, with descriptions of each operation and jumps to related TAPI 2.2, TAPI 3, and TSPI programming elements.
+A TSP author must be familiar with the material in [Microsoft Telephony Overview](https://msdn.microsoft.com/library/ms733433(v=VS.85).aspx), which covers general telephony architecture and provides an overview of material common to several telephony APIs. For example, this section contains a list of session control operations, such as Park, with descriptions of each operation and jumps to related TAPI 2.2, TAPI 3, and TSPI programming elements.
 
 The following overviews cover material specific to the needs of a TSP author. Please note that the most difficult parts of writing a TSP are device-and operating-system-specific details, which are outside the scope of this document.
 

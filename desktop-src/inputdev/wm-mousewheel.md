@@ -127,7 +127,7 @@ It is up to the application to forward **MSH\_MOUSEWHEEL** to any embedded objec
 **Reference**
 </dt> <dt>
 
-[**GET\_KEYSTATE\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646251(v=VS.85).aspx)
+[**GET\_KEYSTATE\_WPARAM**](https://msdn.microsoft.com/library/ms646251(v=VS.85).aspx)
 </dt> <dt>
 
 [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
@@ -136,7 +136,7 @@ It is up to the application to forward **MSH\_MOUSEWHEEL** to any embedded objec
 [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**GET\_WHEEL\_DELTA\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646254(v=VS.85).aspx)
+[**GET\_WHEEL\_DELTA\_WPARAM**](https://msdn.microsoft.com/library/ms646254(v=VS.85).aspx)
 </dt> <dt>
 
 [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
@@ -145,7 +145,7 @@ It is up to the application to forward **MSH\_MOUSEWHEEL** to any embedded objec
 [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**mouse\_event**](https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx)
+[**mouse\_event**](https://msdn.microsoft.com/library/ms646260(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

@@ -51,14 +51,14 @@ Handle to previously created kernel-mode DirectDraw object.
 *hSurfaceSource* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the overlay surface.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the overlay surface.
 
 </dd> <dt>
 
 *puUpdateOverlayData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_UPDATEOVERLAYDATA**](https://msdn.microsoft.com/en-us/library/Ff551751(v=VS.85).aspx) structure that contains the information required to update the overlay.
+Pointer to a [**DD\_UPDATEOVERLAYDATA**](https://msdn.microsoft.com/library/Ff551751(v=VS.85).aspx) structure that contains the information required to update the overlay.
 
 </dd> </dl>
 

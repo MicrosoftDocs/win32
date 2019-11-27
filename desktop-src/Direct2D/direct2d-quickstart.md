@@ -145,7 +145,7 @@ In this step, you set up your application to use Direct2D by adding the necessar
 
     
 
-4.  Declare pointers for an [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) object, an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) object, and two [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) objects as class members.
+4.  Declare pointers for an [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) object, an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371461(v=VS.85).aspx) object, and two [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx) objects as class members.
 ```C++
     private:
     HWND m_hwnd;
@@ -306,7 +306,7 @@ DemoApp::~DemoApp()
 
 In this part, you create the Direct2D resources that you use to draw. Direct2D provides two types of resources: device-independent resources that can last for the duration of the application, and device-dependent resources. Device-dependent resources are associated with a particular rendering device and will cease to function if that device is removed.
 
-1.  Implement the DemoApp::CreateDeviceIndependentResources method. In the method, create an [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx), a device-independent resource, for creating other Direct2D resources. Use the **m\_pDirect2DdFactory** class member to store the factory.
+1.  Implement the DemoApp::CreateDeviceIndependentResources method. In the method, create an [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx), a device-independent resource, for creating other Direct2D resources. Use the **m\_pDirect2DdFactory** class member to store the factory.
 ```C++
     HRESULT DemoApp::CreateDeviceIndependentResources()
     {
@@ -321,7 +321,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
 
     
 
-2.  Implement the DemoApp::CreateDeviceResources method. This method creates the window's device-dependent resources, a render target, and two brushes. Retrieve the size of the client area and create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) of the same size that renders to the window's **HWND**. Store the render target in the **m\_pRenderTarget** class member.
+2.  Implement the DemoApp::CreateDeviceResources method. This method creates the window's device-dependent resources, a render target, and two brushes. Retrieve the size of the client area and create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371461(v=VS.85).aspx) of the same size that renders to the window's **HWND**. Store the render target in the **m\_pRenderTarget** class member.
 ```C++
             RECT rc;
             GetClientRect(m_hwnd, &rc);
@@ -342,7 +342,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
 
     
 
-3.  Use the render target to create a gray [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) and a cornflower blue **ID2D1SolidColorBrush**.
+3.  Use the render target to create a gray [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx) and a cornflower blue **ID2D1SolidColorBrush**.
 ```C++
             if (SUCCEEDED(hr))
             {
@@ -549,7 +549,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 
     
 
-6.  Draw a grid background by using a **for** loop and the render target's [**DrawLine**](https://msdn.microsoft.com/en-us/library/Dd371895(v=VS.85).aspx) method to draw a series of lines.
+6.  Draw a grid background by using a **for** loop and the render target's [**DrawLine**](https://msdn.microsoft.com/library/Dd371895(v=VS.85).aspx) method to draw a series of lines.
 ```C++
             // Draw a grid background.
             int width = static_cast<int>(rtSize.width);
@@ -599,7 +599,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 
     
 
-8.  Use the render target's [**FillRectangle**](https://msdn.microsoft.com/en-us/library/Dd371954(v=VS.85).aspx) method to paint the interior of the first rectangle with the gray brush.
+8.  Use the render target's [**FillRectangle**](https://msdn.microsoft.com/library/Dd371954(v=VS.85).aspx) method to paint the interior of the first rectangle with the gray brush.
 ```C++
             // Draw a filled rectangle.
             m_pRenderTarget->FillRectangle(&rectangle1, m_pLightSlateGrayBrush);
@@ -607,7 +607,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 
     
 
-9.  Use the render target's [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method to paint the outline of the second rectangle with the cornflower blue brush.
+9.  Use the render target's [**DrawRectangle**](https://msdn.microsoft.com/library/Dd371902(v=VS.85).aspx) method to paint the outline of the second rectangle with the cornflower blue brush.
 ```C++
             // Draw the outline of a rectangle.
             m_pRenderTarget->DrawRectangle(&rectangle2, m_pCornflowerBlueBrush);
@@ -615,7 +615,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 
     
 
-10. Call the render target's [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method. The **EndDraw** method returns an **HRESULT** to indicate whether the drawing operations were successful. Close the **if** statement you began in Step 3.
+10. Call the render target's [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) method. The **EndDraw** method returns an **HRESULT** to indicate whether the drawing operations were successful. Close the **if** statement you began in Step 3.
 ```C++
             hr = m_pRenderTarget->EndDraw();
         }
@@ -623,7 +623,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 
     
 
-11. Check the **HRESULT** returned by [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx). If it indicates that the render target needs to be recreated, call the DemoApp::DiscardDeviceResources method to release it; it will be recreated the next time the window receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) or [**WM\_DISPLAYCHANGE**](https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange) message.
+11. Check the **HRESULT** returned by [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx). If it indicates that the render target needs to be recreated, call the DemoApp::DiscardDeviceResources method to release it; it will be recreated the next time the window receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) or [**WM\_DISPLAYCHANGE**](https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange) message.
 ```C++
         if (hr == D2DERR_RECREATE_TARGET)
         {

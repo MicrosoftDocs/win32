@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Parameter Flags
 
-Parameter flags supply information on a variety of status flags concerning a communications session, such as whether caller identification should be blocked. See [LINECALLPARAMFLAGS\_ Constants](https://msdn.microsoft.com/en-us/library/ms735533(v=VS.85).aspx) for a list of flags defined by TAPI.
+Parameter flags supply information on a variety of status flags concerning a communications session, such as whether caller identification should be blocked. See [LINECALLPARAMFLAGS\_ Constants](https://msdn.microsoft.com/library/ms735533(v=VS.85).aspx) for a list of flags defined by TAPI.
 
 Not all service providers support use of this information.
 
-**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx) (**dwCallParamFlags** member of *lpCallInfo*).
+**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx) (**dwCallParamFlags** member of *lpCallInfo*).
 
 **TAPI 3.x:** See [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong) (**CIL\_CALLPARAMSFLAGS** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long)).
 

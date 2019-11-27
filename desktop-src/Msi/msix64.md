@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Msix64 property
 
-The **Msix64** property is defined only if running on an x64 processor. The value is set by the installer to the numeric processor level. The values are the same as the **wProcessorLevel** field of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/en-us/library/ms724958(v=VS.85).aspx) structure.
+The **Msix64** property is defined only if running on an x64 processor. The value is set by the installer to the numeric processor level. The values are the same as the **wProcessorLevel** field of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/library/ms724958(v=VS.85).aspx) structure.
 
 ## Remarks
 

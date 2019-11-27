@@ -24,8 +24,8 @@ Sets an element of the transform matrix of the effect.
 
 | Method                                                                                                                                      | Description                                                       |
 |:--------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
-| [**SetTransformMatrixElement**](https://msdn.microsoft.com/en-us/library/Dn919696(v=VS.85).aspx)                                         | Sets an element of the transform matrix of the effect.<br/> |
-| [**SetTransformMatrixElement (int, int, IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919697(v=VS.85).aspx) | Sets an element of the transform matrix of the effect.<br/> |
+| [**SetTransformMatrixElement**](https://msdn.microsoft.com/library/Dn919696(v=VS.85).aspx)                                         | Sets an element of the transform matrix of the effect.<br/> |
+| [**SetTransformMatrixElement (int, int, IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919697(v=VS.85).aspx) | Sets an element of the transform matrix of the effect.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets an element of the transform matrix of the effect.
 
 <dl> <dt>
 
-[**idcompositionaffinetransform2deffect**](https://msdn.microsoft.com/en-us/library/Dn919690(v=VS.85).aspx)
+[**idcompositionaffinetransform2deffect**](https://msdn.microsoft.com/library/Dn919690(v=VS.85).aspx)
 </dt> </dl>
 
 �

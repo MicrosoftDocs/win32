@@ -27,7 +27,7 @@ The `IRenderEngine2` interface enables the application to replace the default vi
 
 ## Members
 
-The **IRenderEngine2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IRenderEngine2** also has these types of members:
+The **IRenderEngine2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IRenderEngine2** also has these types of members:
 
 -   [Methods](#methods)
 

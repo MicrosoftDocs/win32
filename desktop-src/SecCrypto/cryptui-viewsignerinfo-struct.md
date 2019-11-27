@@ -98,7 +98,7 @@ The handle of the message that the signer information was extracted from.
 **pszOID**
 </dt> <dd>
 
-A pointer to a null-terminated ANSI string that contains the string representation of the [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) that signifies what the certificate that did the signing should be validated for. For example, if this is being called to view the signature of a [*certificate trust list*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CTL), the **szOID\_KP\_CTL\_USAGE\_SIGNING** OID string should be passed in. If this member is **NULL**, the certificate is not validated for usages.
+A pointer to a null-terminated ANSI string that contains the string representation of the [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) that signifies what the certificate that did the signing should be validated for. For example, if this is being called to view the signature of a [*certificate trust list*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CTL), the **szOID\_KP\_CTL\_USAGE\_SIGNING** OID string should be passed in. If this member is **NULL**, the certificate is not validated for usages.
 
 </dd> <dt>
 

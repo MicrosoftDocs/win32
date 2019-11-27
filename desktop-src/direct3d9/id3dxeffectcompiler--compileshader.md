@@ -52,7 +52,7 @@ Unique identifier to the function to be compiled. This value must not be **NULL*
 *pTarget* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a shader profile which determines the shader instruction set. See [**D3DXGetVertexShaderProfile**](d3dxgetvertexshaderprofile.md) or [**D3DXGetPixelShaderProfile**](d3dxgetpixelshaderprofile.md) for a list of the profiles available.
 
@@ -61,7 +61,7 @@ Pointer to a shader profile which determines the shader instruction set. See [**
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Compile options identified by various flags. The Direct3D 10 HLSL compiler is now the default. See [D3DXSHADER Flags](d3dxshader-flags.md) for details.
 
@@ -96,7 +96,7 @@ Returns an [**ID3DXConstantTable**](id3dxconstanttable.md) interface, which can 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK.
 
@@ -120,7 +120,7 @@ Targets can be specified for vertex shaders, pixel shaders, and texture fill fun
 
  
 
-This method compiles a shader from a function that is written in a C-like language. For more information, see [HLSL](https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx).
+This method compiles a shader from a function that is written in a C-like language. For more information, see [HLSL](https://msdn.microsoft.com/library/Bb509561(v=VS.85).aspx).
 
 ## Requirements
 

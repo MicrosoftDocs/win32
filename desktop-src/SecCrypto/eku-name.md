@@ -57,7 +57,7 @@ A value of the [**CAPICOM\_EKU**](capicom-eku.md) enumeration that specifies the
 
 ## Remarks
 
-When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the object is reset.
+When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the object is reset.
 
 ## Requirements
 

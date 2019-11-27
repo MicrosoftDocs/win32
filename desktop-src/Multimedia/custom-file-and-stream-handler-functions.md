@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 The following function is used with custom file and stream handlers.
 
-[**DllGetClassObject**](https://msdn.microsoft.com/en-us/library/Dd797891(v=VS.85).aspx)
+[**DllGetClassObject**](https://msdn.microsoft.com/library/Dd797891(v=VS.85).aspx)
 
  
 

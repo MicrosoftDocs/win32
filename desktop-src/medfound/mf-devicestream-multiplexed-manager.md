@@ -12,7 +12,7 @@ Provides an instance of [**IMFMuxStreamAttributesManager**](/windows/desktop/api
 
 ## Data type
 
-**[**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)**
+**[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)**
 
 ## Remarks
 

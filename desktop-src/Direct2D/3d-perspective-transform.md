@@ -143,7 +143,7 @@ For an example of this effect, download the [Direct2D 3D transform effect sample
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

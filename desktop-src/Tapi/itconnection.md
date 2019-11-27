@@ -20,7 +20,7 @@ The **ITConnection** interface is created by calling **QueryInterface** on [**IT
 
 ## Members
 
-The **ITConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITConnection** also has these types of members:
+The **ITConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITConnection** also has these types of members:
 
 -   [Methods](#methods)
 

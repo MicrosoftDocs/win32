@@ -49,7 +49,7 @@ DWORD APIENTRY NtGdiDdCreateD3DBuffer(
 *hDirectDraw* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](https://msdn.microsoft.com/en-us/library/Ff550586(v=VS.85).aspx) structure representing the driver.
+Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](https://msdn.microsoft.com/library/Ff550586(v=VS.85).aspx) structure representing the driver.
 
 </dd> <dt>
 
@@ -63,35 +63,35 @@ Pointer to an array of surface handles. The caller can set these handles to the 
 *puSurfaceDescription* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DDSURFACEDESC**](https://msdn.microsoft.com/en-us/library/Ff550339(v=VS.85).aspx) structure describing the surface or buffer that the driver should create.
+Pointer to a [**DDSURFACEDESC**](https://msdn.microsoft.com/library/Ff550339(v=VS.85).aspx) structure describing the surface or buffer that the driver should create.
 
 </dd> <dt>
 
 *puSurfaceGlobalData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SURFACE\_GLOBAL**](https://msdn.microsoft.com/en-us/library/Ff551726(v=VS.85).aspx) structure containing surface data that is shared globally with multiple surfaces.
+Pointer to a [**DD\_SURFACE\_GLOBAL**](https://msdn.microsoft.com/library/Ff551726(v=VS.85).aspx) structure containing surface data that is shared globally with multiple surfaces.
 
 </dd> <dt>
 
 *puSurfaceLocalData* \[in, out\]
 </dt> <dd>
 
-Pointer to a list of [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structures describing the surface objects created by the driver. There is usually only one entry in this array.
+Pointer to a list of [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structures describing the surface objects created by the driver. There is usually only one entry in this array.
 
 </dd> <dt>
 
 *puSurfaceMoreData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SURFACE\_MORE**](https://msdn.microsoft.com/en-us/library/Ff551737(v=VS.85).aspx) structure that contains additional local surface data.
+Pointer to a [**DD\_SURFACE\_MORE**](https://msdn.microsoft.com/library/Ff551737(v=VS.85).aspx) structure that contains additional local surface data.
 
 </dd> <dt>
 
 *puCreateSurfaceData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_CREATESURFACEDATA**](https://msdn.microsoft.com/en-us/library/Ff550540(v=VS.85).aspx) structure that contains the information required to create the buffer.
+Pointer to a [**DD\_CREATESURFACEDATA**](https://msdn.microsoft.com/library/Ff550540(v=VS.85).aspx) structure that contains the information required to create the buffer.
 
 </dd> <dt>
 

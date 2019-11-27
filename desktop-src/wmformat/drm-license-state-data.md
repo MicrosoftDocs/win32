@@ -105,7 +105,7 @@ Zero or more of the following flags combined with a bitwise **OR**:
 
 ## Remarks
 
-This structure is returned (encapsulated in a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/en-us/library/Dd757942(v=VS.85).aspx) structure) from a call to [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) when you specify one of the DRM license state properties. These properties are:
+This structure is returned (encapsulated in a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/library/Dd757942(v=VS.85).aspx) structure) from a call to [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) when you specify one of the DRM license state properties. These properties are:
 
 -   [**DRM\_LicenseState\_Playback**](drm-licensestate-playback.md)
 -   [**DRM\_LicenseState\_CopyToCD**](drm-licensestate-copytocd.md)

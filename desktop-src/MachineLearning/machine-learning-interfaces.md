@@ -16,10 +16,10 @@ The following topics describe the COM interfaces for the Windows Machine Learnin
 
 | Topic                                                                             | Description                                                                                                                                                                                |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWinMLEvaluationContext**](https://msdn.microsoft.com/en-us/library/Mt845831(v=VS.85).aspx)<br/> | Represents the context to bind inputs and outputs to a WinML model.<br/>                                                                                                             |
-| [**IWinMLModel**](https://msdn.microsoft.com/en-us/library/Mt845835(v=VS.85).aspx)<br/>                         | Represents a Windows Machine Learning model with corresponding metadata; includes model descriptions (name, author, versioning, etc.), as well as expected inputs and outputs. <br/> |
-| [**IWinMLRuntime**](https://msdn.microsoft.com/en-us/library/Mt845840(v=VS.85).aspx)<br/>                     | Represents the runtime to load and evaluate a WinML model.<br/>                                                                                                                      |
-| [**IWinMLRuntimeFactory**](https://msdn.microsoft.com/en-us/library/Mt845841(v=VS.85).aspx)<br/>       | Represents the factory that creates the WinML runtime for model loading and evaluation.<br/>                                                                                         |
+| [**IWinMLEvaluationContext**](https://msdn.microsoft.com/library/Mt845831(v=VS.85).aspx)<br/> | Represents the context to bind inputs and outputs to a WinML model.<br/>                                                                                                             |
+| [**IWinMLModel**](https://msdn.microsoft.com/library/Mt845835(v=VS.85).aspx)<br/>                         | Represents a Windows Machine Learning model with corresponding metadata; includes model descriptions (name, author, versioning, etc.), as well as expected inputs and outputs. <br/> |
+| [**IWinMLRuntime**](https://msdn.microsoft.com/library/Mt845840(v=VS.85).aspx)<br/>                     | Represents the runtime to load and evaluate a WinML model.<br/>                                                                                                                      |
+| [**IWinMLRuntimeFactory**](https://msdn.microsoft.com/library/Mt845841(v=VS.85).aspx)<br/>       | Represents the factory that creates the WinML runtime for model loading and evaluation.<br/>                                                                                         |
 
 
 

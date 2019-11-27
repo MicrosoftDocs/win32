@@ -123,7 +123,7 @@ The revocation status of the certificate or one of the certificates in the certi
 
 </dt> <dd>
 
-One of the certificates in the chain was issued by a [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) that the original certificate had certified.
+One of the certificates in the chain was issued by a [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) that the original certificate had certified.
 
 </dd> <dt>
 

@@ -24,10 +24,10 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[**ITTerminal**](https://msdn.microsoft.com/en-us/library/ms732646(v=VS.85).aspx)
+[**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx)
 </dt> <dt>
 
-[**ITTerminalSupport**](https://msdn.microsoft.com/en-us/library/ms733156(v=VS.85).aspx)
+[**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx)
 </dt> </dl>
 
  

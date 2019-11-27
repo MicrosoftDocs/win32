@@ -15,7 +15,7 @@ api_location:
 
 # BoundingFrustum.Transform methods
 
-Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).
+Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).
 
 ### Overload list
 
@@ -23,8 +23,8 @@ Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh
 
 | Method                                                                                                       | Description                                                                                                                       |
 |:-------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingFrustum::Transform (BoundingFrustum&,XMMATRIX)**](https://msdn.microsoft.com/en-us/library/Hh855950(v=VS.85).aspx)                | Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) by the specified transformation matrix.<br/>                      |
-| [**BoundingFrustum::Transform (BoundingFrustum&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855955(v=VS.85).aspx) | Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) using the specified scale, rotation and translation vectors.<br/> |
+| [**BoundingFrustum::Transform (BoundingFrustum&,XMMATRIX)**](https://msdn.microsoft.com/library/Hh855950(v=VS.85).aspx)                | Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) by the specified transformation matrix.<br/>                      |
+| [**BoundingFrustum::Transform (BoundingFrustum&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh855955(v=VS.85).aspx) | Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) using the specified scale, rotation and translation vectors.<br/> |
 
 
 
@@ -38,7 +38,7 @@ Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
+[**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

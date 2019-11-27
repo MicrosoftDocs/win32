@@ -74,7 +74,7 @@ While processing this message, do not make any function calls that display or ac
 **Reference**
 </dt> <dt>
 
-[**SetFocus**](https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx)
+[**SetFocus**](https://msdn.microsoft.com/library/ms646312(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_SETFOCUS**](wm-setfocus.md)

@@ -13,15 +13,15 @@ Windows Management Instrumentation (WMI) can create the sink to receive asynchro
 
 You can then lower the security on that process and WMI can access the sink without restriction. To assist with this technique WMI provides the Unsecapp.exe process to function as the separate process. You can host Unsecapp.exe with a call to the [**IUnsecuredApartment**](/windows/desktop/api/Wbemcli/nn-wbemcli-iunsecuredapartment) interface.
 
-The [**IUnsecuredApartment**](/windows/desktop/api/Wbemcli/nn-wbemcli-iunsecuredapartment) interface allows a client application to create a separate dedicated process running Unsecapp.exe for hosting a [**IWbemObjectSink**](iwbemobjectsink.md) implementation. The dedicated process can call [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) to grant WMI access to the dedicated process without compromising the security of the main process. After initialization, the dedicated process acts as an intermediary between the main process and WMI.
+The [**IUnsecuredApartment**](/windows/desktop/api/Wbemcli/nn-wbemcli-iunsecuredapartment) interface allows a client application to create a separate dedicated process running Unsecapp.exe for hosting a [**IWbemObjectSink**](iwbemobjectsink.md) implementation. The dedicated process can call [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) to grant WMI access to the dedicated process without compromising the security of the main process. After initialization, the dedicated process acts as an intermediary between the main process and WMI.
 
 The following procedure describes how to perform an asynchronous call with [**IUnsecuredApartment**](/windows/desktop/api/Wbemcli/nn-wbemcli-iunsecuredapartment).
 
 **To perform an asynchronous call with IUnsecuredApartment**
 
-1.  Create a dedicated process with a call to [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx).
+1.  Create a dedicated process with a call to [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
 
-    The following code example calls [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to create a dedicated process.
+    The following code example calls [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to create a dedicated process.
 
     ```C++
     IUnsecuredApartment* pUnsecApp = NULL;
@@ -57,9 +57,9 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
     
 
-4.  Call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) for the wrapper, and request a pointer to the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
+4.  Call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) for the wrapper, and request a pointer to the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
 
-    The following code example calls [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) and requests a pointer to the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
+    The following code example calls [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) and requests a pointer to the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
 
     ```C++
     IWbemObjectSink* pStubSink = NULL;
@@ -107,9 +107,9 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
     Make sure to release the *pStubSink* pointer only after you confirm that the asynchronous call does not need to be canceled. Further, do not release *pStubSink* after WMI releases the *pSink* sink pointer. Releasing *pStubSink* after *pSink* creates a circular reference count in which both the sink and the stub stay in memory forever. Instead, a possible location to release the pointer is in the [**IWbemObjectSink::SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus) call, made by WMI to report that the original asynchronous call is complete.
 
-8.  When finished, uninitialize COM with a call to [**Release()**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx).
+8.  When finished, uninitialize COM with a call to [**Release()**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx).
 
-    The following code example shows how to call [**Release()**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) on the *pUnsecApp* pointer.
+    The following code example shows how to call [**Release()**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on the *pUnsecApp* pointer.
 
     ```C++
     pUnsecApp->Release();
@@ -126,7 +126,7 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
     
 
-For more information about the [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) function and parameters, see the [COM](https://msdn.microsoft.com/en-us/library/ms685978(v=VS.85).aspx) documentation in the Platform Software Development Kit (SDK).
+For more information about the [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) function and parameters, see the [COM](https://msdn.microsoft.com/library/ms685978(v=VS.85).aspx) documentation in the Platform Software Development Kit (SDK).
 
  
 

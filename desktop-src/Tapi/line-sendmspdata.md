@@ -45,7 +45,7 @@ The value LINE\_SENDMSPDATA.
 *dwParam1* 
 </dt> <dd>
 
-Identifies the MSP that should receive the message. If 0, the message will be sent to all MSPs. This is the handle that is passed to the [**TSPI\_LineCreateMSPInstance**](https://msdn.microsoft.com/en-us/library/ms725539(v=VS.85).aspx) function.
+Identifies the MSP that should receive the message. If 0, the message will be sent to all MSPs. This is the handle that is passed to the [**TSPI\_LineCreateMSPInstance**](https://msdn.microsoft.com/library/ms725539(v=VS.85).aspx) function.
 
 </dd> <dt>
 
@@ -82,22 +82,22 @@ The service provider must negotiate a TAPI version 3.0 or later for this message
 
 <dl> <dt>
 
-[About The Media Service Provider (MSP)](https://msdn.microsoft.com/en-us/library/ms726003(v=VS.85).aspx)
+[About The Media Service Provider (MSP)](https://msdn.microsoft.com/library/ms726003(v=VS.85).aspx)
 </dt> <dt>
 
-[**TSPI\_lineMSPIdentify**](https://msdn.microsoft.com/en-us/library/ms725580(v=VS.85).aspx)
+[**TSPI\_lineMSPIdentify**](https://msdn.microsoft.com/library/ms725580(v=VS.85).aspx)
 </dt> <dt>
 
-[**TSPI\_lineCreateMSPInstance**](https://msdn.microsoft.com/en-us/library/ms725539(v=VS.85).aspx)
+[**TSPI\_lineCreateMSPInstance**](https://msdn.microsoft.com/library/ms725539(v=VS.85).aspx)
 </dt> <dt>
 
-[**TSPI\_lineCloseMSPInstance**](https://msdn.microsoft.com/en-us/library/ms725533(v=VS.85).aspx)
+[**TSPI\_lineCloseMSPInstance**](https://msdn.microsoft.com/library/ms725533(v=VS.85).aspx)
 </dt> <dt>
 
-[**TSPI\_lineRecieveMSPData**](https://msdn.microsoft.com/en-us/library/ms725587(v=VS.85).aspx)
+[**TSPI\_lineRecieveMSPData**](https://msdn.microsoft.com/library/ms725587(v=VS.85).aspx)
 </dt> <dt>
 
-[**LINEDEVCAPS**](https://msdn.microsoft.com/en-us/library/ms735602(v=VS.85).aspx)
+[**LINEDEVCAPS**](https://msdn.microsoft.com/library/ms735602(v=VS.85).aspx)
 </dt> </dl>
 
  

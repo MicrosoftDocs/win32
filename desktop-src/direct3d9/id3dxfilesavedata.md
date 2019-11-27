@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFileSaveData interface to add data obje
 
 ## Members
 
-The **ID3DXFileSaveData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileSaveData** also has these types of members:
+The **ID3DXFileSaveData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileSaveData** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -24,8 +24,8 @@ Changes or animates the value of the TopRightRadiusX property of this clip. The 
 
 | Method                                                                                                                       | Description                                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [**SetTopRightRadiusX(float)**](https://msdn.microsoft.com/en-us/library/Hh448916(v=VS.85).aspx)                                     | Changes the value of the TopRightRadiusX property of this clip.<br/>  |
-| [**SetTopRightRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448917(v=VS.85).aspx) | Animates the value of the TopRightRadiusX property of this clip.<br/> |
+| [**SetTopRightRadiusX(float)**](https://msdn.microsoft.com/library/Hh448916(v=VS.85).aspx)                                     | Changes the value of the TopRightRadiusX property of this clip.<br/>  |
+| [**SetTopRightRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448917(v=VS.85).aspx) | Animates the value of the TopRightRadiusX property of this clip.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the TopRightRadiusX property of this clip. The 
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

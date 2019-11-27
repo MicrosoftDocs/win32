@@ -25,7 +25,7 @@ Controls a floppy drive within a virtual machine. **IVMFloppyDrive** can notify 
 
 ## Members
 
-The **IVMFloppyDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDrive** also has these types of members:
+The **IVMFloppyDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDrive** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

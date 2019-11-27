@@ -22,7 +22,7 @@ This Windows Search reference section consists of the following data add-in inte
 
 [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter)
 
-[**IPhraseSink**](https://msdn.microsoft.com/en-us/library/Ff819113(v=VS.85).aspx)
+[**IPhraseSink**](https://msdn.microsoft.com/library/Ff819113(v=VS.85).aspx)
 
 [**ISearchLanguageSupport**](/windows/desktop/api/Searchapi/nn-searchapi-isearchlanguagesupport)
 

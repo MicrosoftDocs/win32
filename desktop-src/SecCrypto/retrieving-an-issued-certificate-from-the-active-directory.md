@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Retrieving an Issued Certificate from the Active Directory
 
-An enterprise [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) publishes issued [*certificates*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) to the Active Directory; a stand-alone certification authority may also publish issued certificates to the Active Directory. The following example shows how to acquire a [*certificate context*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) for a certificate stored in Active Directory. After the certificate context is acquired, you can retrieve the contents of the certificate or perform certificate operations by using the CryptoAPI functions.
+An enterprise [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) publishes issued [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) to the Active Directory; a stand-alone certification authority may also publish issued certificates to the Active Directory. The following example shows how to acquire a [*certificate context*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) for a certificate stored in Active Directory. After the certificate context is acquired, you can retrieve the contents of the certificate or perform certificate operations by using the CryptoAPI functions.
 
 The following example shows retrieving a certificate from Active Directory.
 

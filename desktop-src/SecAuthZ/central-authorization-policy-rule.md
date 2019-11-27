@@ -63,7 +63,7 @@ CAPRs are created though a new UX provided in Active Directory Administrative Ce
 
 <dl> <dt>
 
-[**AccessCheck**](https://msdn.microsoft.com/en-us/library/Aa374815(v=VS.85).aspx)
+[**AccessCheck**](https://msdn.microsoft.com/library/Aa374815(v=VS.85).aspx)
 </dt> <dt>
 
 [Dynamic Access Control (DAC) scenario](https://docs.microsoft.com/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)

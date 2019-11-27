@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 ## Certificate Store Objects
 
-We suggest the following alternatives for working with [*certificate stores*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and the certificates in those stores.
+We suggest the following alternatives for working with [*certificate stores*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and the certificates in those stores.
 
 
 

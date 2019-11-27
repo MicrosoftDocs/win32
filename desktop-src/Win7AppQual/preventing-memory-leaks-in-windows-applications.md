@@ -22,9 +22,9 @@ Windows will free all memory allocated by the application on process termination
 
 Applications can allocate memory on their behalf by multiple means. Each type of allocation can result in a leak if not freed after use. Here are some examples of common allocation patterns:
 
--   Heap memory via the [**HeapAlloc**](https://msdn.microsoft.com/en-us/library/Aa366597(v=VS.85).aspx) function or its C/C++ runtime equivalents **malloc** or **new**
--   Direct allocations from the operating system via the [**VirtualAlloc**](https://msdn.microsoft.com/en-us/library/Aa366887(v=VS.85).aspx) function.
--   Kernel handles created via Kernel32 APIs such as [**CreateFile**](https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx), [**CreateEvent**](https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx), or [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx), hold kernel memory on behalf of the application
+-   Heap memory via the [**HeapAlloc**](https://msdn.microsoft.com/library/Aa366597(v=VS.85).aspx) function or its C/C++ runtime equivalents **malloc** or **new**
+-   Direct allocations from the operating system via the [**VirtualAlloc**](https://msdn.microsoft.com/library/Aa366887(v=VS.85).aspx) function.
+-   Kernel handles created via Kernel32 APIs such as [**CreateFile**](https://msdn.microsoft.com/library/Aa363858(v=VS.85).aspx), [**CreateEvent**](https://msdn.microsoft.com/library/ms682396(v=VS.85).aspx), or [**CreateThread**](https://msdn.microsoft.com/library/ms682453(v=VS.85).aspx), hold kernel memory on behalf of the application
 -   GDI and USER handles created via User32 and Gdi32 APIs (by default, each process has a quota of 10,000 handles)
 
 ## Best Practices
@@ -49,19 +49,19 @@ Certain coding and design practices can limit the number of leaks in your code.
 -   Be aware of leak patterns in web client-side code. Circular references between COM objects and scripting engines like JScript can cause large leaks in web applications. ["Understanding and Solving Internet Explorer Leak Patterns"](https://msdn.microsoft.com/library/ms976398(v=MSDN.10).aspx) has more information on these kinds of leaks. You can use the JavaScript Memory Leak Detector to debug memory leaks in your code. While Windows Internet Explorer 8, which is shipping with Windows 7, mitigates most of these issues, older browsers are still vulnerable to these bugs
 -   Avoid using multiple exit paths from a function. Allocations assigned to variables at function scope should be freed in one particular block at the end of the function
 -   Do not use exceptions in your code without freeing all local variables in functions. If you use native exceptions, free all your allocations inside the \_\_finally block. If you use C++ exceptions, all your heap and handle allocations need to be wrapped in smart pointers
--   Do not discard or reinitialize a [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) object without calling the [**PropVariantClear**](https://msdn.microsoft.com/en-us/library/Aa380073(v=VS.85).aspx) function
+-   Do not discard or reinitialize a [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) object without calling the [**PropVariantClear**](https://msdn.microsoft.com/library/Aa380073(v=VS.85).aspx) function
 
 ## Links to Resources
 
 *Common Allocation Patterns:*
 
--   [**Heap Allocation Function**](https://msdn.microsoft.com/en-us/library/Aa366597(v=VS.85).aspx)
--   [**Memory Allocation Function**](https://msdn.microsoft.com/en-us/library/6ewkz86d(v=VS.71).aspx)
--   [**New Operator (C++)**](https://msdn.microsoft.com/en-us/library/kewsb8ba(v=VS.71).aspx)
--   [**Virtual Allocation Function**](https://msdn.microsoft.com/en-us/library/Aa366887(v=VS.85).aspx)
--   [Kernel Objects](https://msdn.microsoft.com/en-us/library/ms724485(v=VS.85).aspx)
--   [GDI Object Handles](https://msdn.microsoft.com/en-us/library/ms724291(v=VS.85).aspx)
--   [User Interface Object Handles](https://msdn.microsoft.com/en-us/library/ms725486(v=VS.85).aspx)
+-   [**Heap Allocation Function**](https://msdn.microsoft.com/library/Aa366597(v=VS.85).aspx)
+-   [**Memory Allocation Function**](https://msdn.microsoft.com/library/6ewkz86d(v=VS.71).aspx)
+-   [**New Operator (C++)**](https://msdn.microsoft.com/library/kewsb8ba(v=VS.71).aspx)
+-   [**Virtual Allocation Function**](https://msdn.microsoft.com/library/Aa366887(v=VS.85).aspx)
+-   [Kernel Objects](https://msdn.microsoft.com/library/ms724485(v=VS.85).aspx)
+-   [GDI Object Handles](https://msdn.microsoft.com/library/ms724291(v=VS.85).aspx)
+-   [User Interface Object Handles](https://msdn.microsoft.com/library/ms725486(v=VS.85).aspx)
 
 *Microsoft Tools:*
 
@@ -69,22 +69,22 @@ Certain coding and design practices can limit the number of leaks in your code.
 -   [Debugging Tools for Windows](https://msdn.microsoft.com/library/Ff551063(v=VS.85).aspx)
 -   [User-Mode Dump Heap](https://msdn.microsoft.com/library/Ff558947(v=VS.85).aspx)
 -   [Trace Capture, Processing, and Analysis Tool](https://go.microsoft.com/fwlink/p/?linkid=205150)
--   [CRT Debug Heap](https://msdn.microsoft.com/en-us/library/974tc9t1(v=VS.71).aspx)
+-   [CRT Debug Heap](https://msdn.microsoft.com/library/974tc9t1(v=VS.71).aspx)
 
 *Additional Links:*
 
--   [**auto\_ptr Class**](https://msdn.microsoft.com/en-us/library/ew3fk483(v=VS.71).aspx)
--   [Active Template Library (ATL) Memory Classes](https://msdn.microsoft.com/en-us/library/44yh1z4f(v=VS.71).aspx)
--   [**\_com\_ptr\_t Object**](https://msdn.microsoft.com/en-us/library/417w8b3b(v=VS.71).aspx)
--   [**\_bstr\_t Class**](https://msdn.microsoft.com/en-us/library/zthfhkd6(v=VS.71).aspx)
--   [**\_variant\_yt Class**](https://msdn.microsoft.com/en-us/library/x295h94e(v=VS.71).aspx)
+-   [**auto\_ptr Class**](https://msdn.microsoft.com/library/ew3fk483(v=VS.71).aspx)
+-   [Active Template Library (ATL) Memory Classes](https://msdn.microsoft.com/library/44yh1z4f(v=VS.71).aspx)
+-   [**\_com\_ptr\_t Object**](https://msdn.microsoft.com/library/417w8b3b(v=VS.71).aspx)
+-   [**\_bstr\_t Class**](https://msdn.microsoft.com/library/zthfhkd6(v=VS.71).aspx)
+-   [**\_variant\_yt Class**](https://msdn.microsoft.com/library/x295h94e(v=VS.71).aspx)
 -   ["Tracking down managed memory leaks"](https://go.microsoft.com/fwlink/p/?linkid=205152)
 -   ["Understanding and Solving Internet Explorer Leak Patterns"](https://msdn.microsoft.com/library/ms976398(v=MSDN.10).aspx)
 -   ["JavaScript Memory Leak Detector"](https://go.microsoft.com/fwlink/p/?linkid=205153)
 -   [Circular Memory Leak Mitigation (in browsers):](https://msdn.microsoft.com/library/Dd361842(v=VS.85).aspx)
--   [**try-finally statement**](https://msdn.microsoft.com/en-us/library/yb3kz605(v=VS.71).aspx)
--   [**PROPVARIANT Structure**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx)
--   [**PropVariantClear Function**](https://msdn.microsoft.com/en-us/library/Aa380073(v=VS.85).aspx)
+-   [**try-finally statement**](https://msdn.microsoft.com/library/yb3kz605(v=VS.71).aspx)
+-   [**PROPVARIANT Structure**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)
+-   [**PropVariantClear Function**](https://msdn.microsoft.com/library/Aa380073(v=VS.85).aspx)
 
  
 

@@ -39,7 +39,7 @@ HRESULT Tessellate(
 *fTessLevel* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Tessellation level. This is the number of vertices introduced between existing vertices. The range of this float parameter is 0 < fTessLevel <= 32.
 
@@ -56,7 +56,7 @@ Resulting tessellated mesh. See [**ID3DXMesh**](id3dxmesh.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

@@ -20,7 +20,7 @@ If your DLL may be used by a multithreaded application, you should make your DLL
 
 How you specify which functions in a DLL should be exported depends on the tools that you are using for development. Some compilers allow you to export a function directly in the source code by using a modifier in the function declaration. Other times, you must specify exports in a file that you pass to the linker.
 
-For example, using Visual C++, there are two possible ways to export DLL functions: with the [**\_\_declspec(dllexport)**](https://msdn.microsoft.com/en-us/library/3y1sfaz2(v=VS.71).aspx) modifier or with a module-definition (.def) file. If you use the **\_\_declspec(dllexport)** modifier, it is not necessary to use a .def file. For more information, see [Exporting from a DLL](https://go.microsoft.com/fwlink/p/?linkid=107023).
+For example, using Visual C++, there are two possible ways to export DLL functions: with the [**\_\_declspec(dllexport)**](https://msdn.microsoft.com/library/3y1sfaz2(v=VS.71).aspx) modifier or with a module-definition (.def) file. If you use the **\_\_declspec(dllexport)** modifier, it is not necessary to use a .def file. For more information, see [Exporting from a DLL](https://go.microsoft.com/fwlink/p/?linkid=107023).
 
 ## Creating an Import Library
 

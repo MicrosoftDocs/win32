@@ -31,7 +31,7 @@ Exposes callback routines to monitor the search process.
 
 ## Members
 
-The **IShellFolderSearchableCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IShellFolderSearchableCallback** also has these types of members:
+The **IShellFolderSearchableCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IShellFolderSearchableCallback** also has these types of members:
 
 -   [Methods](#methods)
 

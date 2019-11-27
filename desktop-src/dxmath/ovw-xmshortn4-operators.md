@@ -21,7 +21,7 @@ The [**XMSHORTN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvec
 
 | Methods                                                | Description                                                                                                            |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee420223(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMSHORTN4` to the current instance of `XMSHORTN4`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Ee420223(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMSHORTN4` to the current instance of `XMSHORTN4`. <br/> |
 
 
 

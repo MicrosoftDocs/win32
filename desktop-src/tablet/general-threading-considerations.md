@@ -66,9 +66,9 @@ Most [**InkCollector**](inkcollector-class.md) and [**InkOverlay**](inkoverlay-c
 
 ### Ink Object and Strokes Collection Events
 
-The [**Ink**](inkdisp-class.md) object and [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection events may come from the ink thread or the UI thread. When your application manipulates the **Ink** object or **Strokes** collection, the event is generated in the UI thread. When the [**InkCollector**](inkcollector-class.md) or the [**InkOverlay**](inkoverlay-class.md) object updates the **Ink** object or **Strokes** collection, the event is generated in the ink thread.
+The [**Ink**](inkdisp-class.md) object and [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection events may come from the ink thread or the UI thread. When your application manipulates the **Ink** object or **Strokes** collection, the event is generated in the UI thread. When the [**InkCollector**](inkcollector-class.md) or the [**InkOverlay**](inkoverlay-class.md) object updates the **Ink** object or **Strokes** collection, the event is generated in the ink thread.
 
-The [InkPicture](inkpicture-control-reference.md) and [InkEdit](inkedit-control-reference.md) controls operate in a single-threaded apartment (STA). When the InkPicture or InkEdit control updates the [**Ink**](inkdisp-class.md) object or [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection, the event is raised on the UI thread.
+The [InkPicture](inkpicture-control-reference.md) and [InkEdit](inkedit-control-reference.md) controls operate in a single-threaded apartment (STA). When the InkPicture or InkEdit control updates the [**Ink**](inkdisp-class.md) object or [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection, the event is raised on the UI thread.
 
 ### Recognition Events
 

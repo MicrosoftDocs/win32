@@ -16,7 +16,7 @@ A Direct2D effect performs an imaging task, like changing brightness, de-saturat
 
 Each effect creates an internal transform graph made up of individual transforms. Each transform represents a single image operation. The main purpose of a transform is to house the shaders that are executed for each output pixel. These shaders can include pixel shaders, vertex shaders, the blend stage of a GPU, and compute shaders.
 
-Both the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) [built-in effects](built-in-effects.md) and custom effects you can make using the [custom effects API](custom-effects.md) work this way.
+Both the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) [built-in effects](built-in-effects.md) and custom effects you can make using the [custom effects API](custom-effects.md) work this way.
 
 There are a range of [built-in effects](built-in-effects.md) from categories like the ones here. See the [Built-in Effects](built-in-effects.md) section for a full list.
 
@@ -28,9 +28,9 @@ There are a range of [built-in effects](built-in-effects.md) from categories lik
 -   [Transforming and Scaling](built-in-effects.md)
 -   [Sources](built-in-effects.md)
 
-You can apply effects to any bitmap, including: images loaded by the [Windows Imaging Component (WIC)](https://docs.microsoft.com/windows/desktop/wic/-wic-api), primitives drawn by [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx), text from [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal), or scenes rendered by [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics).
+You can apply effects to any bitmap, including: images loaded by the [Windows Imaging Component (WIC)](https://docs.microsoft.com/windows/desktop/wic/-wic-api), primitives drawn by [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx), text from [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal), or scenes rendered by [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics).
 
-With Direct2D effects you can write your own effects that you can use for your applications. A custom effect framework allows you to use GPU features such as pixel shaders, vertex shaders, and the blending unit. You can also include other built-in or custom effects in your custom effect. The framework for building custom effects is the same one that was used to create the built-in effects of [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx). The [Direct2D effect author API](custom-effects.md) provides a set of interfaces to create and register effects.
+With Direct2D effects you can write your own effects that you can use for your applications. A custom effect framework allows you to use GPU features such as pixel shaders, vertex shaders, and the blending unit. You can also include other built-in or custom effects in your custom effect. The framework for building custom effects is the same one that was used to create the built-in effects of [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx). The [Direct2D effect author API](custom-effects.md) provides a set of interfaces to create and register effects.
 
 ### More effects topics
 
@@ -43,8 +43,8 @@ The rest of this topic explains the basics of Direct2D effects, like applying an
 | [Effect Shader Linking](effect-shader-linking.md)<br/>                                                            | Direct2D uses an optimization called effect shader linking which combines multiple effect graph rendering passes into a single pass.<br/>                                               |
 | [Custom effects](custom-effects.md)<br/>                                                                          | Shows you how to write your own custom effects using standard HLSL.<br/>                                                                                                                |
 | [How to load an image into Direct2D Effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md)<br/> | Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker) to load an image into Direct2D effects.<br/>                                      |
-| [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG.<br/> |
-| [How to Apply Effects to Primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | This topic shows how to apply a series of effect to [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) and [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
+| [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG.<br/> |
+| [How to Apply Effects to Primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | This topic shows how to apply a series of effect to [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
 | [Controlling Precision and Numerical Clipping in Effect Graphs](precision-and-clipping-in-effect-graphs.md)<br/>  | Applications that render effects using Direct2D must take care to achieve the desired level of quality and predictability with respect to numerical precision. <br/>                    |
 
 
@@ -56,11 +56,11 @@ The rest of this topic explains the basics of Direct2D effects, like applying an
 You can use the Direct2D effects API to apply transforms to images.
 
 > [!Note]  
-> This example assumes that you already have [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) and [IWICBitmapSource](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapsource) objects created. For more information on creating these objects see [How to load an image into Direct2D effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md) and [Devices and Device Contexts](devices-and-device-contexts.md).
+> This example assumes that you already have [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) and [IWICBitmapSource](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapsource) objects created. For more information on creating these objects see [How to load an image into Direct2D effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md) and [Devices and Device Contexts](devices-and-device-contexts.md).
 
  
 
-1.  Declare an [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx) variable and then create a [bitmap source](bitmap-source.md) effect using the [**ID2DDeviceContext::CreateEffect**](https://msdn.microsoft.com/en-us/library/Hh404500(v=VS.85).aspx) method.
+1.  Declare an [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) variable and then create a [bitmap source](bitmap-source.md) effect using the [**ID2DDeviceContext::CreateEffect**](https://msdn.microsoft.com/library/Hh404500(v=VS.85).aspx) method.
 
     ```C++
         ComPtr<ID2D1Effect> bitmapSourceEffect;
@@ -70,7 +70,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-2.  Set the BitmapSource property to the WIC bitmap source using the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/en-us/library/Hh446885(v=VS.85).aspx).
+2.  Set the BitmapSource property to the WIC bitmap source using the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/library/Hh446885(v=VS.85).aspx).
 
     ```C++
             DX::ThrowIfFailed(m_bitmapSourceEffect->SetValue(D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, m_wicBitmapSource.Get()));
@@ -78,7 +78,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-3.  Declare an [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx) variable and then create the [gaussian blur](gaussian-blur.md) effect.
+3.  Declare an [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) variable and then create the [gaussian blur](gaussian-blur.md) effect.
 
     ```C++
         ComPtr<ID2D1Effect> gaussianBlurEffect;
@@ -88,7 +88,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-4.  Set the input to receive the image from the bitmap source effect. Set the blur amount the [**SetValue**](https://msdn.microsoft.com/en-us/library/Hh446885(v=VS.85).aspx) method and the standard deviation property.
+4.  Set the input to receive the image from the bitmap source effect. Set the blur amount the [**SetValue**](https://msdn.microsoft.com/library/Hh446885(v=VS.85).aspx) method and the standard deviation property.
 
     ```C++
         gaussianBlurEffect->SetInputEffect(0, bitmapSourceEffect.Get());
@@ -113,7 +113,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-    The [**DrawImage**](https://msdn.microsoft.com/en-us/library/Hh404511(v=VS.85).aspx) method must be called between the [**ID2DDeviceContext::BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) and [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) calls like other Direct2D render operations. **DrawImage** can take an image or the output of an effect and render it to the target surface.
+    The [**DrawImage**](https://msdn.microsoft.com/library/Hh404511(v=VS.85).aspx) method must be called between the [**ID2DDeviceContext::BeginDraw**](https://msdn.microsoft.com/library/Dd371768(v=VS.85).aspx) and [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) calls like other Direct2D render operations. **DrawImage** can take an image or the output of an effect and render it to the target surface.
 
 ## Spatial Transforms
 
@@ -250,7 +250,7 @@ Here is the result.
 
 ![shadow effect output.](images/effect-overview-shadow.png)
 
-Effects take [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) objects as input. You can use an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) because the interface is derived from **ID2D1Image**. You can also use the [**ID2D1Effect::GetOutput**](https://msdn.microsoft.com/en-us/library/Hh404585(v=VS.85).aspx) to get the output of an [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx) object as an **ID2D1Image** or use the **SetInputEffect** method, which converts the output for you. In most cases an effect graph consists of **ID2D1Effect** objects directly chained together, which makes it easy to apply multiple effects to an image to create compelling visuals.
+Effects take [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) objects as input. You can use an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) because the interface is derived from **ID2D1Image**. You can also use the [**ID2D1Effect::GetOutput**](https://msdn.microsoft.com/library/Hh404585(v=VS.85).aspx) to get the output of an [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) object as an **ID2D1Image** or use the **SetInputEffect** method, which converts the output for you. In most cases an effect graph consists of **ID2D1Effect** objects directly chained together, which makes it easy to apply multiple effects to an image to create compelling visuals.
 
 See [How to apply effects to primitives](how-to-apply-effects-to-primitives.md) for more info.
 

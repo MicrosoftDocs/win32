@@ -14,7 +14,7 @@ The preferred method for installing Mergemod.dll is by using the Windows Install
 
 Note that Mergemod.dll requires that the Msvcrt.dll be installed on the system.
 
-Note that Mergemod.dll 2.0 is required to create [Configurable Merge Modules](configurable-merge-modules.md). Mergemod.dll version 2.0 provides extended functionality at build time through the [**IMsmMerge2**](/windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2) Interface. This CLSID supports all the existing functionality of the [**IMsmMerge**](https://msdn.microsoft.com/en-us/library/Aa369273(v=VS.85).aspx) Interface provided by Mergemod.dll version 1.0. The default interface on the [**Merge**](merge-object.md) object of Mergemod.dll 2.0 is the **IMsmMerge2** interface instead of the **IMsmMerge** interface.
+Note that Mergemod.dll 2.0 is required to create [Configurable Merge Modules](configurable-merge-modules.md). Mergemod.dll version 2.0 provides extended functionality at build time through the [**IMsmMerge2**](/windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2) Interface. This CLSID supports all the existing functionality of the [**IMsmMerge**](https://msdn.microsoft.com/library/Aa369273(v=VS.85).aspx) Interface provided by Mergemod.dll version 1.0. The default interface on the [**Merge**](merge-object.md) object of Mergemod.dll 2.0 is the **IMsmMerge2** interface instead of the **IMsmMerge** interface.
 
 [Object Model for Mergemod.dll Version 1.0](object-model-for-mergemod-dll-version-1-0.md)
 

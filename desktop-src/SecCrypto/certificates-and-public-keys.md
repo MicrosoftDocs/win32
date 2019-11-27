@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Certificates and Public Keys
 
-Certificate Services is one foundation for the Public Key Infrastructure (PKI) that provides the means for safeguarding and authenticating information. The relationship between a certificate holder, the certificate holder's identity, and the certificate holder's [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) is a critical portion of PKI. This infrastructure is made up of the following parts:
+Certificate Services is one foundation for the Public Key Infrastructure (PKI) that provides the means for safeguarding and authenticating information. The relationship between a certificate holder, the certificate holder's identity, and the certificate holder's [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) is a critical portion of PKI. This infrastructure is made up of the following parts:
 
 -   [The Public/Private Key Pair](#the-publicprivate-key-pair)
 -   [The Certificate Request](#the-certificate-request)
@@ -21,19 +21,19 @@ Certificate Services is one foundation for the Public Key Infrastructure (PKI) t
 
 ## The Public/Private Key Pair
 
-PKI requires the use of [*public/private key pairs*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). The mathematics of public/private key pairs is beyond the scope of this documentation, but it is important to note the functional relationship between a public and a private key. PKI [*cryptographic algorithms*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) use the [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) of the receiver of an encrypted message to encrypt data, and the related [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) and only the related private key to decrypt the encrypted message.
+PKI requires the use of [*public/private key pairs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx). The mathematics of public/private key pairs is beyond the scope of this documentation, but it is important to note the functional relationship between a public and a private key. PKI [*cryptographic algorithms*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) use the [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) of the receiver of an encrypted message to encrypt data, and the related [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) and only the related private key to decrypt the encrypted message.
 
-Similarly, a [*digital signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) of the content, described in greater detail below, is created with the signer's private key. The corresponding public key, which is available to everyone, is used to verify this signature. The secrecy of the private key must be maintained because the framework falls apart after the private key is compromised.
+Similarly, a [*digital signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) of the content, described in greater detail below, is created with the signer's private key. The corresponding public key, which is available to everyone, is used to verify this signature. The secrecy of the private key must be maintained because the framework falls apart after the private key is compromised.
 
 Given enough time and resources, a public/private key pair can be compromised, that is, the private key can be discovered. The longer the key, the more difficult it is to use brute force to discover the private key. In practice, sufficiently strong keys can be used to make it unfeasible to determine the private key in a timely manner, making the Public Key Infrastructure a viable security mechanism.
 
 A private key can be stored, in protected format, on a disk, in which case it can only be used with that specific computer unless it is physically moved to another computer. An alternative is to have a key on a smart card that can be used on a different computer provided it has a smart card reader and supporting software.
 
-The public key, but not the private key, of the subject of a digital certificate is included as part of the [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). (Hence, a public/private key pair must exist before making the certificate request.) That public key becomes part of the issued certificate.
+The public key, but not the private key, of the subject of a digital certificate is included as part of the [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). (Hence, a public/private key pair must exist before making the certificate request.) That public key becomes part of the issued certificate.
 
 ## The Certificate Request
 
-Before a certificate is issued, a [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) must be generated. This request applies to one entity, for example, an end-user, a computer, or an application. For discussion, assume that the entity is yourself. Details of your identity are included in the certificate request. After the request is generated, it is submitted to a [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA). The CA then uses your identity information to determine whether the request meets the CA's criteria for issuing a certificate. If the CA approves the request, it issues a certificate to you, as the entity named in the request.
+Before a certificate is issued, a [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) must be generated. This request applies to one entity, for example, an end-user, a computer, or an application. For discussion, assume that the entity is yourself. Details of your identity are included in the certificate request. After the request is generated, it is submitted to a [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA). The CA then uses your identity information to determine whether the request meets the CA's criteria for issuing a certificate. If the CA approves the request, it issues a certificate to you, as the entity named in the request.
 
 ## The Certification Authority
 
@@ -51,23 +51,23 @@ Assuming the certificate consumer trusts the issuing CA for your certificate, th
 
 ## The Certificate Revocation List
 
-Assuming the certificate is being used in a valid time period and the certificate consumer trusts the issuing CA, there is one more item for the certificate consumer to check before using the certificate: the [*certificate revocation list*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRL). The certificate consumer checks the CA's CRL (the path to which is included as an extension in your certificate) to ensure your certificate is not on the list of certificates that have been revoked. CRLs exist because there are times when a certificate has not expired, but it can no longer be trusted. Periodically, the CA will publish an updated CRL. Certificate consumers are responsible for comparing certificates to the current CRL before considering the certificate trustworthy.
+Assuming the certificate is being used in a valid time period and the certificate consumer trusts the issuing CA, there is one more item for the certificate consumer to check before using the certificate: the [*certificate revocation list*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CRL). The certificate consumer checks the CA's CRL (the path to which is included as an extension in your certificate) to ensure your certificate is not on the list of certificates that have been revoked. CRLs exist because there are times when a certificate has not expired, but it can no longer be trusted. Periodically, the CA will publish an updated CRL. Certificate consumers are responsible for comparing certificates to the current CRL before considering the certificate trustworthy.
 
 ## Your Public Key Used for Encryption
 
-If a sender wants to encrypt a message before sending it to you, the sender first retrieves your certificate. After the sender determines that the CA is trusted and your certificate is valid and not revoked, the sender uses your public key (recall it is part of the certificate) with cryptographic algorithms to encrypt the [*plaintext*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) message into [*ciphertext*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). When you receive the ciphertext, you use your private key to decrypt the ciphertext.
+If a sender wants to encrypt a message before sending it to you, the sender first retrieves your certificate. After the sender determines that the CA is trusted and your certificate is valid and not revoked, the sender uses your public key (recall it is part of the certificate) with cryptographic algorithms to encrypt the [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) message into [*ciphertext*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). When you receive the ciphertext, you use your private key to decrypt the ciphertext.
 
-If a third party intercepts the ciphertext email message, the third party will not be able to decrypt it without access to your [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx).
+If a third party intercepts the ciphertext email message, the third party will not be able to decrypt it without access to your [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx).
 
 Note that the bulk of the activities listed here are handled by software, not directly by the user.
 
 ## Your Public Key Used for Signature Verification
 
-A [*digital signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) is used as confirmation that a message has not been altered and as confirmation of the message sender's identity. This digital signature is dependent on your private key and the message contents. Using the message as input and your private key, cryptographic algorithms create the digital signature. The contents of the message are not changed by the signing process. A recipient can use your public key (after checking your certificate's validity, issuing CA, and revocation status) to determine whether the signature corresponds to the message contents and to determine whether the message was sent by you.
+A [*digital signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) is used as confirmation that a message has not been altered and as confirmation of the message sender's identity. This digital signature is dependent on your private key and the message contents. Using the message as input and your private key, cryptographic algorithms create the digital signature. The contents of the message are not changed by the signing process. A recipient can use your public key (after checking your certificate's validity, issuing CA, and revocation status) to determine whether the signature corresponds to the message contents and to determine whether the message was sent by you.
 
 If a third party intercepts the intended message, alters it (even slightly), and forwards it and the original signature to the recipient, the recipient, upon examination of the message and signature, will be able to determine that the message is suspect. Similarly, if a third party creates a message and sends it with a bogus digital signature under the guise that it originated from you, the recipient will be able to use your public key to determine that the message and signature do not correspond to each other.
 
-[*Nonrepudiation*](https://msdn.microsoft.com/en-us/library/ms721596(v=VS.85).aspx) is also supported by digital signatures. If the sender of a signed message denies sending the message, the recipient can use the signature to refute that claim.
+[*Nonrepudiation*](https://msdn.microsoft.com/library/ms721596(v=VS.85).aspx) is also supported by digital signatures. If the sender of a signed message denies sending the message, the recipient can use the signature to refute that claim.
 
 Note that the bulk of the activities listed here are also handled by software, not directly by the user.
 

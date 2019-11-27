@@ -8,8 +8,8 @@ ms.date: 05/31/2018
 
 # CMSPCallMultiGraph Type Definitions
 
--   [**MSPSTREAMCONTEXT**](https://msdn.microsoft.com/en-us/library/ms733448(v=VS.85).aspx)
--   [**THREADPOOLWAITBLOCK**](https://msdn.microsoft.com/en-us/library/ms734804(v=VS.85).aspx)
+-   [**MSPSTREAMCONTEXT**](https://msdn.microsoft.com/library/ms733448(v=VS.85).aspx)
+-   [**THREADPOOLWAITBLOCK**](https://msdn.microsoft.com/library/ms734804(v=VS.85).aspx)
 
 ## Related topics
 

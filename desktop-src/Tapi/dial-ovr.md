@@ -16,7 +16,7 @@ Every service provider should reject a dial string that contains the **?** chara
 
 An additional reason for an application to use partial dialing is if the service provider does not support one or more of the call progress detection control characters. These characters, which can occur in a dialable address, are W (wait for dial tone); @ (wait for quiet answer); and $ (wait for calling-card prompt tone). These and all other characters used in address strings are discussed in greater detail in [Dialable Addresses](address-ovr.md).
 
-The provider indicates which "wait for" dial string modifiers it supports. A TAPI 2 application finds this data in the **dwDevCapFlags** member of the [**LINEDEVCAPS**](https://msdn.microsoft.com/en-us/library/ms735602(v=VS.85).aspx) structure returned by [**lineGetDevCaps**](https://msdn.microsoft.com/en-us/library/ms735735(v=VS.85).aspx). A TAPI 3 application calls [**ITAddressCapabilities::get\_AddressCapability**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability) with *AddressCap* set to the **AC\_DEVCAPFLAGS** member of [**ADDRESS\_CAPABILITY**](/windows/desktop/api/Tapi3if/ne-tapi3if-address_capability).
+The provider indicates which "wait for" dial string modifiers it supports. A TAPI 2 application finds this data in the **dwDevCapFlags** member of the [**LINEDEVCAPS**](https://msdn.microsoft.com/library/ms735602(v=VS.85).aspx) structure returned by [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx). A TAPI 3 application calls [**ITAddressCapabilities::get\_AddressCapability**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability) with *AddressCap* set to the **AC\_DEVCAPFLAGS** member of [**ADDRESS\_CAPABILITY**](/windows/desktop/api/Tapi3if/ne-tapi3if-address_capability).
 
 The application can choose to prescan dialable strings for unsupported characters or it can pass the "raw" string as part of initiating a session. If the string contains an unsupported modifier or a "?", the provider will return an error indicating which offending modifier occurred first within the string:
 
@@ -29,7 +29,7 @@ The application can then locate the offending modifier in the string, take the d
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineDial**](https://msdn.microsoft.com/en-us/library/ms735612(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineDial**](https://msdn.microsoft.com/library/ms735612(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITBasicCallControl::Dial**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial).
 

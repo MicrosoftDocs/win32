@@ -320,7 +320,7 @@ In the above formulas, S<sub>RGBA</sub> is the RGBA color produced by a texture 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx)
+[**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx)
 </dt> </dl>
 
  

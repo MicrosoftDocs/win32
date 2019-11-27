@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The StylusInput APIs allow you to interact with the tablet pen data stream. To interact with the data stream add a [**RealTimeStylus**](realtimestylus-class.md) object to your application, and add plug-ins to the **RealTimeStylus** object.
 
-Two plug-ins are provided in the StylusInput APIs. The [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) object implements the [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx) interface. The **DynamicRenderer** object renders the ink in real time, as it is being drawn. The [**GestureRecognizer**](gesturerecognizer-class.md) object implements the **IStylusSyncPlugin** and [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) interfaces. The **GestureRecognizer** object recognizes application gestures.
+Two plug-ins are provided in the StylusInput APIs. The [**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx) object implements the [**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx) interface. The **DynamicRenderer** object renders the ink in real time, as it is being drawn. The [**GestureRecognizer**](gesturerecognizer-class.md) object implements the **IStylusSyncPlugin** and [**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx) interfaces. The **GestureRecognizer** object recognizes application gestures.
 
 ## Definitions
 
@@ -18,11 +18,11 @@ The following terms are used in the sections describing the StylusInput APIs:
 
 Synchronous plug-in
 
-A class that implements the [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx) interface. Synchronous plug-ins are generally called directly by the [**RealTimeStylus**](realtimestylus-class.md) object.
+A class that implements the [**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx) interface. Synchronous plug-ins are generally called directly by the [**RealTimeStylus**](realtimestylus-class.md) object.
 
 Asynchronous plug-in
 
-A class that implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) interface. Asynchronous plug-ins are generally called on the application's user interface (UI) thread.
+A class that implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx) interface. Asynchronous plug-ins are generally called on the application's user interface (UI) thread.
 
 Synchronous plug-in collection
 
@@ -70,7 +70,7 @@ The StylusInput APIs reside primarily in the [Microsoft.StylusInput](https://msd
 
 <dl> <dt>
 
-[**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx)
+[**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx)
 </dt> <dt>
 
 [**GestureRecognizer**](gesturerecognizer-class.md)
@@ -79,10 +79,10 @@ The StylusInput APIs reside primarily in the [Microsoft.StylusInput](https://msd
 [**RealTimeStylus**](realtimestylus-class.md)
 </dt> <dt>
 
-[**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx)
+[**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx)
 </dt> <dt>
 
-[**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx)
+[**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx)
 </dt> <dt>
 
 [Working with the StylusInput APIs](working-with-the-stylusinput-apis.md)

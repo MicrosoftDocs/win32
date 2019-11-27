@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 This method returns a pointer to a D3DXMATRIX structure representing the current matrix.
 

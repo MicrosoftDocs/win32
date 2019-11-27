@@ -49,7 +49,7 @@ IShellDispatch2.ServiceStop( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the service.
 
@@ -80,9 +80,9 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ServiceStop**](https://msdn.microsoft.com/en-us/library/Gg537744(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.ServiceStop**](https://msdn.microsoft.com/library/Gg537744(v=VS.85).aspx) method.
 
-The method returns **false** if the service has already been stopped. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/en-us/library/Gg537742(v=VS.85).aspx) to ascertain the status of the service.
+The method returns **false** if the service has already been stopped. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/library/Gg537742(v=VS.85).aspx) to ascertain the status of the service.
 
 This method is not currently available in Microsoft Visual Basic.
 

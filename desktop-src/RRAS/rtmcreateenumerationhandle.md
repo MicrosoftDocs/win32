@@ -77,7 +77,7 @@ Pointer to a protocol-family-specific route structure ([**RTM\_IP\_ROUTE**](rtm-
 
 If the function succeeds, the return value is a **HANDLE** to use with subsequent enumeration calls.
 
-If the function fails, or no routes exist with the specified criteria, the return value is **NULL**. Call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) to obtain more information.
+If the function fails, or no routes exist with the specified criteria, the return value is **NULL**. Call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) to obtain more information.
 
 
 
@@ -117,7 +117,7 @@ If the function fails, or no routes exist with the specified criteria, the retur
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx)
+[**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx)
 </dt> <dt>
 
 [**RTM\_IP\_ROUTE**](rtm-ip-route.md)

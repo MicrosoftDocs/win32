@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section contains the TUISPI phone device function, which is:
 
--   [**TUISPI\_phoneConfigDialog**](https://msdn.microsoft.com/en-us/library/ms725979(v=VS.85).aspx)
+-   [**TUISPI\_phoneConfigDialog**](https://msdn.microsoft.com/library/ms725979(v=VS.85).aspx)
 
  
 

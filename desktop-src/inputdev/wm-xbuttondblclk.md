@@ -137,25 +137,25 @@ Unlike the [**WM\_LBUTTONDBLCLK**](wm-lbuttondblclk.md), [**WM\_MBUTTONDBLCLK**]
 [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**GET\_KEYSTATE\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646251(v=VS.85).aspx)
+[**GET\_KEYSTATE\_WPARAM**](https://msdn.microsoft.com/library/ms646251(v=VS.85).aspx)
 </dt> <dt>
 
 [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
 </dt> <dt>
 
-[**GET\_XBUTTON\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646255(v=VS.85).aspx)
+[**GET\_XBUTTON\_WPARAM**](https://msdn.microsoft.com/library/ms646255(v=VS.85).aspx)
 </dt> <dt>
 
 [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
+[**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetDoubleClickTime**](https://msdn.microsoft.com/en-us/library/ms646258(v=VS.85).aspx)
+[**GetDoubleClickTime**](https://msdn.microsoft.com/library/ms646258(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetDoubleClickTime**](https://msdn.microsoft.com/en-us/library/ms646263(v=VS.85).aspx)
+[**SetDoubleClickTime**](https://msdn.microsoft.com/library/ms646263(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_XBUTTONDOWN**](wm-xbuttondown.md)

@@ -16,7 +16,7 @@ All keywords are not required to be supported. Implementers of PrintTicket MAY s
 
 ## Element Type implementations for PrintTicket Specific Property Descriptions
 
-It is important to pay attention to the Parent and Child elements allowed in the structural content for each keyword. For more information please refer to the [Summary of Element Types](https://msdn.microsoft.com/en-us/library/ms715286(v=VS.85).aspx) section.
+It is important to pay attention to the Parent and Child elements allowed in the structural content for each keyword. For more information please refer to the [Summary of Element Types](https://msdn.microsoft.com/library/ms715286(v=VS.85).aspx) section.
 
 ## Related topics
 

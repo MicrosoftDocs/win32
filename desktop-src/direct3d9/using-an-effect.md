@@ -22,7 +22,7 @@ This page will show you how to generate and use an effect. The topics covered in
 
 ## Create an Effect
 
-Here is an example of creating an effect taken from the [BasicHLSL Sample](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx). The effect creation code for creating a debug shader is from **OnCreateDevice**:
+Here is an example of creating an effect taken from the [BasicHLSL Sample](https://msdn.microsoft.com/library/Ee663275(v=VS.85).aspx). The effect creation code for creating a debug shader is from **OnCreateDevice**:
 
 
 ```
@@ -65,7 +65,7 @@ This function takes these arguments:
 -   A pointer to a buffer to which validation errors can be sent. In this example, the parameter was set to **NULL** and not used.
 
 > [!Note]  
-> Beginning with the December 2006 SDK, the DirectX 10 HLSL compiler is now the default compiler in both DirectX 9 and DirectX 10. See [Effect-Compiler Tool](https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx) for details.
+> Beginning with the December 2006 SDK, the DirectX 10 HLSL compiler is now the default compiler in both DirectX 9 and DirectX 10. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
 
  
 
@@ -181,7 +181,7 @@ Each annotation:
 
 -   Must be either numeric or strings.
 -   Must always be initialized with a default value.
--   Can be associated with [Techniques and Passes (Direct3D 9)](techniques-and-passes.md) and top-level [Effect Parameters](https://msdn.microsoft.com/en-us/library/Ee417539(v=VS.85).aspx).
+-   Can be associated with [Techniques and Passes (Direct3D 9)](techniques-and-passes.md) and top-level [Effect Parameters](https://msdn.microsoft.com/library/Ee417539(v=VS.85).aspx).
 -   Can be written to and read from with either [**ID3DXEffect**](id3dxeffect.md) or [**ID3DXEffectCompiler**](id3dxeffectcompiler.md).
 -   Can be added with [**ID3DXEffect**](id3dxeffect.md).
 -   Cannot be referenced inside the effect.
@@ -208,7 +208,7 @@ Cloned effects use the same effect pool as the effect from which they are cloned
 
 ## Compile an Effect Offline
 
-You can compile an effect at run time with [**D3DXCreateEffect**](d3dxcreateeffect.md), or you can compile an effect offline using the command-line compiler tool fxc.exe. The effect in the [CompiledEffect Sample](https://msdn.microsoft.com/en-us/library/Ee416326(v=VS.85).aspx) contains a vertex shader, a pixel shader, and one technique:
+You can compile an effect at run time with [**D3DXCreateEffect**](d3dxcreateeffect.md), or you can compile an effect offline using the command-line compiler tool fxc.exe. The effect in the [CompiledEffect Sample](https://msdn.microsoft.com/library/Ee416326(v=VS.85).aspx) contains a vertex shader, a pixel shader, and one technique:
 
 
 ```
@@ -249,7 +249,7 @@ technique RenderScene
 
 
 
-Using [Effect-Compiler Tool](https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx) to compile the shader for vs\_1\_1 generated the following assembly shader instructions:
+Using [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) to compile the shader for vs\_1\_1 generated the following assembly shader instructions:
 
 
 ```
@@ -405,7 +405,7 @@ technique RenderVS
 
 
 
-Using [Effect-Compiler Tool](https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx) to compile the shader for vs\_1\_1 generates the following assembly instructions:
+Using [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) to compile the shader for vs\_1\_1 generates the following assembly instructions:
 
 
 ```
@@ -577,7 +577,7 @@ Parameter blocks are blocks of effect state changes. A parameter block can recor
 
 The parameter block saves four changes applied by the API calls. Calling [**ID3DXEffect::BeginParameterBlock**](id3dxeffect--beginparameterblock.md) starts recording the state changes. [**ID3DXEffect::EndParameterBlock**](id3dxeffect--endparameterblock.md) stops adding the changes to the parameter block and returns a handle. The handle will be used when calling [**ID3DXEffect::ApplyParameterBlock**](id3dxeffect--applyparameterblock.md).
 
-In the [EffectParam Sample](https://msdn.microsoft.com/en-us/library/Ee417535(v=VS.85).aspx), the parameter block is applied in the render sequence:
+In the [EffectParam Sample](https://msdn.microsoft.com/library/Ee417535(v=VS.85).aspx), the parameter block is applied in the render sequence:
 
 
 ```

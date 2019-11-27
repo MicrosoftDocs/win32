@@ -54,7 +54,7 @@ Any files in the destination directory with the same name are overwritten. The p
 
 ### C++
 
-See [**ExtractFiles**](https://msdn.microsoft.com/en-us/library/Aa369270(v=VS.85).aspx) function.
+See [**ExtractFiles**](https://msdn.microsoft.com/library/Aa369270(v=VS.85).aspx) function.
 
 ## Requirements
 

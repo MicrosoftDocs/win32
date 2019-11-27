@@ -59,7 +59,7 @@ To track the usage of your [OpenSearch](https://go.microsoft.com/fwlink/p/?linki
 
 ## Additional Resources
 
-For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
+For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/library/dd742958(VS.85).aspx).
 
 ## Related topics
 

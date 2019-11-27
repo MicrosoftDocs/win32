@@ -17,9 +17,9 @@ api_location:
 
 # ISCardDatabase::ListReaders method
 
-\[The **ListReaders** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ListReaders** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ListReaders** method retrieves the names of the smart card [*readers*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) registered in the [*smart card database*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **ListReaders** method retrieves the names of the smart card [*readers*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) registered in the [*smart card database*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -70,9 +70,9 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To retrieve all known [*smart cards*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) or [*reader groups*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx), call [**ListCards**](iscarddatabase-listcards.md) or [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
+To retrieve all known [*smart cards*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) or [*reader groups*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx), call [**ListCards**](iscarddatabase-listcards.md) or [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
 
-To retrieve the [*primary service provider*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
+To retrieve the [*primary service provider*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
 
 For a list of all the methods provided by this interface, see [**ISCardDatabase**](iscarddatabase.md).
 

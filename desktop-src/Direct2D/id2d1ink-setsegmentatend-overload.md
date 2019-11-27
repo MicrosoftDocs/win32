@@ -24,8 +24,8 @@ Updates the last segment in this ink object with new control points.
 
 | Method                                                                              | Description                                                                     |
 |:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
-| [**SetSegmentAtEnd (D2D1\_INK\_BEZIER\_SEGMENT\*)**](https://msdn.microsoft.com/en-us/library/Dn900440(v=VS.85).aspx)  | Updates the last segment in this ink object with new control points.<br/> |
-| [**SetSegmentAtEnd (D2D1\_INK\_BEZIER\_SEGMENT&)**](https://msdn.microsoft.com/en-us/library/Dn900441(v=VS.85).aspx) | Updates the last segment in this ink object with new control points.<br/> |
+| [**SetSegmentAtEnd (D2D1\_INK\_BEZIER\_SEGMENT\*)**](https://msdn.microsoft.com/library/Dn900440(v=VS.85).aspx)  | Updates the last segment in this ink object with new control points.<br/> |
+| [**SetSegmentAtEnd (D2D1\_INK\_BEZIER\_SEGMENT&)**](https://msdn.microsoft.com/library/Dn900441(v=VS.85).aspx) | Updates the last segment in this ink object with new control points.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Updates the last segment in this ink object with new control points.
 
 <dl> <dt>
 
-[**ID2D1Ink**](https://msdn.microsoft.com/en-us/library/Dn900426(v=VS.85).aspx)
+[**ID2D1Ink**](https://msdn.microsoft.com/library/Dn900426(v=VS.85).aspx)
 </dt> </dl>
 
 �

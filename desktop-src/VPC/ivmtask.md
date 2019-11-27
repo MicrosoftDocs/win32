@@ -25,7 +25,7 @@ Use the **IVMTask** interface to monitor and control asynchronous tasks for vari
 
 ## Members
 
-The **IVMTask** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMTask** also has these types of members:
+The **IVMTask** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMTask** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

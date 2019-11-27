@@ -30,10 +30,10 @@ The following support functions are provided by the Security Configuration tool 
 
 | Callback function                                         | Description                                                                                 |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [**PFSCE\_FREE\_INFO**](https://msdn.microsoft.com/en-us/library/ms721887(v=VS.85).aspx)<br/>   | Used to free memory allocated by these support functions.<br/>                        |
-| [**PFSCE\_LOG\_INFO**](https://msdn.microsoft.com/en-us/library/ms721889(v=VS.85).aspx)<br/>     | Used to log message to the configuration log file or analysis log file.<br/>          |
-| [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/en-us/library/ms721890(v=VS.85).aspx)<br/> | Used to query the configuration and analysis information for a specific service.<br/> |
-| [**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/en-us/library/ms721892(v=VS.85).aspx)<br/>     | Used to set configuration and analysis information for a specific service.<br/>       |
+| [**PFSCE\_FREE\_INFO**](https://msdn.microsoft.com/library/ms721887(v=VS.85).aspx)<br/>   | Used to free memory allocated by these support functions.<br/>                        |
+| [**PFSCE\_LOG\_INFO**](https://msdn.microsoft.com/library/ms721889(v=VS.85).aspx)<br/>     | Used to log message to the configuration log file or analysis log file.<br/>          |
+| [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/library/ms721890(v=VS.85).aspx)<br/> | Used to query the configuration and analysis information for a specific service.<br/> |
+| [**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/library/ms721892(v=VS.85).aspx)<br/>     | Used to set configuration and analysis information for a specific service.<br/>       |
 
 
 

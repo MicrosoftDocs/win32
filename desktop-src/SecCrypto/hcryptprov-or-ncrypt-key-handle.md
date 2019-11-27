@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # HCRYPTPROV\_OR\_NCRYPT\_KEY\_HANDLE
 
-The **HCRYPTPROV\_OR\_NCRYPT\_KEY\_HANDLE** data type is used as a handle to a CryptoAPI [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) or CNG CSP. This handle must be an [**HCRYPTPROV**](hcryptprov.md) handle that has been created by using the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function or an **NCRYPT\_KEY\_HANDLE** handle that has been created by using the [**NCryptOpenKey**](https://msdn.microsoft.com/en-us/library/Aa376284(v=VS.85).aspx) function. New applications should always pass in the **NCRYPT\_KEY\_HANDLE** handle to a CNG CSP.
+The **HCRYPTPROV\_OR\_NCRYPT\_KEY\_HANDLE** data type is used as a handle to a CryptoAPI [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) or CNG CSP. This handle must be an [**HCRYPTPROV**](hcryptprov.md) handle that has been created by using the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function or an **NCRYPT\_KEY\_HANDLE** handle that has been created by using the [**NCryptOpenKey**](https://msdn.microsoft.com/library/Aa376284(v=VS.85).aspx) function. New applications should always pass in the **NCRYPT\_KEY\_HANDLE** handle to a CNG CSP.
 
 
 ```C++

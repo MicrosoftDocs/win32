@@ -24,8 +24,8 @@ Sets the saturation of the image.
 
 | Method                                                                                             | Description                                  |
 |:---------------------------------------------------------------------------------------------------|:---------------------------------------------|
-| [**SetSaturation**](https://msdn.microsoft.com/en-us/library/Dn919764(v=VS.85).aspx)                               | Sets the saturation of the image.<br/> |
-| [**SetSaturation (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919765(v=VS.85).aspx) | Sets the saturation of the image.<br/> |
+| [**SetSaturation**](https://msdn.microsoft.com/library/Dn919764(v=VS.85).aspx)                               | Sets the saturation of the image.<br/> |
+| [**SetSaturation (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919765(v=VS.85).aspx) | Sets the saturation of the image.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Sets the saturation of the image.
 
 <dl> <dt>
 
-[**IDCompositionSaturationEffect**](https://msdn.microsoft.com/en-us/library/Dn919763(v=VS.85).aspx)
+[**IDCompositionSaturationEffect**](https://msdn.microsoft.com/library/Dn919763(v=VS.85).aspx)
 </dt> </dl>
 
  

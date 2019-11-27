@@ -59,7 +59,7 @@ The settings object for the RDP client.
 
 <dl> <dt>
 
-[**IRemoteDesktopClient**](https://msdn.microsoft.com/en-us/library/Mt786998(v=VS.85).aspx)
+[**IRemoteDesktopClient**](https://msdn.microsoft.com/library/Mt786998(v=VS.85).aspx)
 </dt> </dl>
 
  

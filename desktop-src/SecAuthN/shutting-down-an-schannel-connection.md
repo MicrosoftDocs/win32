@@ -13,14 +13,14 @@ When a client or server is finished with a connection, it must shut it down. The
 **To shut down an Schannel connection**
 
 1.  Call the [**ApplyControlToken**](/windows/desktop/api/Sspi/nf-sspi-applycontroltoken) function, specifying the SCHANNEL\_SHUTDOWN control token.
-2.  After receiving an SEC\_E\_OK return value from [**ApplyControlToken**](/windows/desktop/api/Sspi/nf-sspi-applycontroltoken), call the [**InitializeSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375924(v=VS.85).aspx) (clients) or [**AcceptSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa374708(v=VS.85).aspx) (servers) function, passing in empty buffers.
+2.  After receiving an SEC\_E\_OK return value from [**ApplyControlToken**](/windows/desktop/api/Sspi/nf-sspi-applycontroltoken), call the [**InitializeSecurityContext (Schannel)**](https://msdn.microsoft.com/library/Aa375924(v=VS.85).aspx) (clients) or [**AcceptSecurityContext (Schannel)**](https://msdn.microsoft.com/library/Aa374708(v=VS.85).aspx) (servers) function, passing in empty buffers.
 3.  Proceed as though your application were creating a new connection until the function returns SEC\_I\_CONTEXT\_EXPIRED or SEC\_E\_OK to indicate that the connection is shut down.
 4.  Send the final output information, if any, to the remote party.
 5.  Call [**DeleteSecurityContext**](/windows/desktop/api/Sspi/nf-sspi-deletesecuritycontext) to free resources held by the connection.
 
 ## Recognizing a Shutdown
 
-The [**DecryptMessage (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375348(v=VS.85).aspx) function returns SEC\_I\_CONTEXT\_EXPIRED when the message sender has shut down the connection. After receiving this return value, follow the procedure To shut down an Schannel connection, earlier in this topic.
+The [**DecryptMessage (Schannel)**](https://msdn.microsoft.com/library/Aa375348(v=VS.85).aspx) function returns SEC\_I\_CONTEXT\_EXPIRED when the message sender has shut down the connection. After receiving this return value, follow the procedure To shut down an Schannel connection, earlier in this topic.
 
  
 

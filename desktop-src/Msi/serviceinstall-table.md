@@ -99,7 +99,7 @@ This column is a set of bit flags that specify when to start the service. One of
 | Type of service start  | Value      | Description                                                                                                |
 |------------------------|------------|------------------------------------------------------------------------------------------------------------|
 | SERVICE\_AUTO\_START   | 0x00000002 | A service start during startup of the system.                                                              |
-| SERVICE\_DEMAND\_START | 0x00000003 | A service start when the service control manager calls the [**StartService**](https://msdn.microsoft.com/en-us/library/ms686321(v=VS.85).aspx) function. |
+| SERVICE\_DEMAND\_START | 0x00000003 | A service start when the service control manager calls the [**StartService**](https://msdn.microsoft.com/library/ms686321(v=VS.85).aspx) function. |
 | SERVICE\_DISABLED      | 0x00000004 | Specifies a service that can no longer be started.                                                         |
 
 
@@ -152,7 +152,7 @@ You must prefix group names with + so that they can be distinguished from a serv
 <span id="StartName"></span><span id="startname"></span><span id="STARTNAME"></span>StartName
 </dt> <dd>
 
-The service is logged on as the name given by the string in this column. If the service type is SERVICE\_WIN32\_OWN\_PROCESS use an account name in the form: DomainName\\UserName. If the account belongs to the built-in domain it is permitted to specify .\\UserName. The LocalSystem account must be used if the type of service is SERVICE\_WIN32\_SHARE\_PROCESS or SERVICE\_INTERACTIVE\_PROCESS. The [**CreateService**](https://msdn.microsoft.com/en-us/library/ms682450(v=VS.85).aspx) function uses the LocalSystem account if StartName is specified as null and most services therefore leave this column blank.
+The service is logged on as the name given by the string in this column. If the service type is SERVICE\_WIN32\_OWN\_PROCESS use an account name in the form: DomainName\\UserName. If the account belongs to the built-in domain it is permitted to specify .\\UserName. The LocalSystem account must be used if the type of service is SERVICE\_WIN32\_SHARE\_PROCESS or SERVICE\_INTERACTIVE\_PROCESS. The [**CreateService**](https://msdn.microsoft.com/library/ms682450(v=VS.85).aspx) function uses the LocalSystem account if StartName is specified as null and most services therefore leave this column blank.
 
 </dd> <dt>
 
@@ -161,7 +161,7 @@ The service is logged on as the name given by the string in this column. If the 
 
 This string is the password to the account name specified in the StartName column. Note that the user must have permissions to log on as a service. The service has no password if StartName is null or an empty string. The Startname of LocalSystem is null, and therefore the password in this instance is null, so most services leave this column blank.
 
-Note that after deleting a service that was installed with a user name and password, the installer cannot rollback the service without first using a custom action to get the password. The installer can acquire all the necessary information about the service except the password, which is stored in a protected part of the system. The custom action acquires the password by prompting the user, reading a property from the database, or reading a file. The custom action must then call [**ChangeServiceConfig**](https://msdn.microsoft.com/en-us/library/ms681987(v=VS.85).aspx), to supply the password, before reinstalling the service.
+Note that after deleting a service that was installed with a user name and password, the installer cannot rollback the service without first using a custom action to get the password. The installer can acquire all the necessary information about the service except the password, which is stored in a protected part of the system. The custom action acquires the password by prompting the user, reading a property from the database, or reading a file. The custom action must then call [**ChangeServiceConfig**](https://msdn.microsoft.com/library/ms681987(v=VS.85).aspx), to supply the password, before reinstalling the service.
 
 Windows Installer does not write the value entered into the Password field into the log file.
 
@@ -192,7 +192,7 @@ This column contains a localizable description for the service being configured.
 
 The [InstallServices](installservices-action.md) action in [*sequence tables*](s-gly.md) processes the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
 
-This table has most of the parameters to the Win32 [**CreateService**](https://msdn.microsoft.com/en-us/library/ms682450(v=VS.85).aspx) function.
+This table has most of the parameters to the Win32 [**CreateService**](https://msdn.microsoft.com/library/ms682450(v=VS.85).aspx) function.
 
 Although it is possible to use the user interface to specify that a service be installed as run-from-source, the installer does not actually support this type of installation. Services that run with the privilege level of the local system must be installed to run from the local hard drive. Avoid installing services that impersonate the privileges of a particular user because this may write security data into a log or the system registry. This can potentially create a security problem, password conflict, or the loss of configuration data when the system is restarted.
 

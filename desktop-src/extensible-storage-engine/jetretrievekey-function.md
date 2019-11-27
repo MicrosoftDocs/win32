@@ -2,7 +2,7 @@
 title: JetRetrieveKey Function
 TOCTitle: JetRetrieveKey Function
 ms:assetid: a96d0a7c-f1db-48bc-807d-4e6357aec726
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294051(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294051(v=EXCHG.10)
 ms:contentKeyID: 32765650
 ms.date: 04/11/2016
 ms.topic: reference
@@ -158,7 +158,7 @@ On failure, the state of the output buffer and the actual size of the key will b
 
 Keys should generally be treated as opaque chunks of data. No attempt should be made to exploit the internal structure of this data. However, the following properties can be known about all ESENT keys:
 
-  - Keys may be compared against each other using [memcmp](https://msdn.microsoft.com/en-us/library/aa246467\(vs.60\).aspx) function to establish their relative ordering in the originating index over the table of the source index entries.
+  - Keys may be compared against each other using [memcmp](https://msdn.microsoft.com/library/aa246467\(vs.60\).aspx) function to establish their relative ordering in the originating index over the table of the source index entries.
 
   - It is meaningless to compare keys of index entries from different indexes against each other.
 

@@ -14,7 +14,7 @@ Contains flags for a Media Foundation transform (MFT) activation object.
 
 **UINT32**
 
-The value is a bitwise **OR** of flags from the [**\_MFT\_ENUM\_FLAG**](https://msdn.microsoft.com/en-us/library/Dd389302(v=VS.85).aspx) enumeration.
+The value is a bitwise **OR** of flags from the [**\_MFT\_ENUM\_FLAG**](https://msdn.microsoft.com/library/Dd389302(v=VS.85).aspx) enumeration.
 
 ## Get/set
 

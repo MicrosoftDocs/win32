@@ -14,7 +14,7 @@ You can get information from the **DivisionResult** object by structural element
 
 The [**Strokes**](/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes) property of the **DivisionResult** object contains a copy of the **Strokes** collection in the **Divider** object at the time the **DivisionResult** object was created.
 
-The [**InkDivisionType**](https://msdn.microsoft.com/en-us/library/ms694985(v=VS.85).aspx) enumeration defines the structural element types that the layout analysis recognizes.
+The [**InkDivisionType**](https://msdn.microsoft.com/library/ms694985(v=VS.85).aspx) enumeration defines the structural element types that the layout analysis recognizes.
 
 The [**ResultByType**](/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype) method of the **DivisionResult** object returns a **DivisionUnits** collection that contains all structural elements of a given type. An individual structural element is represented by a **DivisionUnit** object. Each time you call the **ResultByType** method, the **DivisionResult** object creates a **DivisionUnits** collection. For more information about the **DivisionUnit** object, see [Working with the DivisionUnit Object](working-with-the-divisionunit-object.md).
 

@@ -49,7 +49,7 @@ Returns the number of minutes since the user's last activity.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions. This function is not exported by name; specify ordinal 8 when calling **GetProcAddress**.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions. This function is not exported by name; specify ordinal 8 when calling **GetProcAddress**.
 
 ## Requirements
 

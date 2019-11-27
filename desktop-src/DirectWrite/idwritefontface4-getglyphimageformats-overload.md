@@ -24,8 +24,8 @@ Gets supported glyph image formats.
 
 | Method                                                                                                                           | Description                                                                |
 |:---------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
-| [**GetGlyphImageFormats()**](https://msdn.microsoft.com/en-us/library/Mt725322(v=VS.85).aspx)                                                          | Gets all the glyph image formats supported by the entire font.<br/>  |
-| [**GetGlyphImageFormats(UINT16, UINT32, UINT32, DWRITE\_GLYPH\_IMAGE\_FORMATS\*)**](https://msdn.microsoft.com/en-us/library/Mt725323(v=VS.85).aspx) | Gets the available image formats of a specific glyph and ppem. <br/> |
+| [**GetGlyphImageFormats()**](https://msdn.microsoft.com/library/Mt725322(v=VS.85).aspx)                                                          | Gets all the glyph image formats supported by the entire font.<br/>  |
+| [**GetGlyphImageFormats(UINT16, UINT32, UINT32, DWRITE\_GLYPH\_IMAGE\_FORMATS\*)**](https://msdn.microsoft.com/library/Mt725323(v=VS.85).aspx) | Gets the available image formats of a specific glyph and ppem. <br/> |
 
 
 
@@ -43,7 +43,7 @@ Gets supported glyph image formats.
 
 <dl> <dt>
 
-[**IDWriteFontFace4**](https://msdn.microsoft.com/en-us/library/Mt725320(v=VS.85).aspx)
+[**IDWriteFontFace4**](https://msdn.microsoft.com/library/Mt725320(v=VS.85).aspx)
 </dt> </dl>
 
 �

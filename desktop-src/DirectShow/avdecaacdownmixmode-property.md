@@ -24,7 +24,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVDecAACDownmixMode**](https://msdn.microsoft.com/en-us/library/Dd757608(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVDecAACDownmixMode**](https://msdn.microsoft.com/library/Dd757608(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

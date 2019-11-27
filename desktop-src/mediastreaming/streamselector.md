@@ -18,7 +18,7 @@ api_location:
 
 # StreamSelector class
 
-Implements the [**IStreamSelectorStatics**](https://msdn.microsoft.com/en-us/library/Hh828953(v=VS.85).aspx) interface and enables selecting a stream.
+Implements the [**IStreamSelectorStatics**](https://msdn.microsoft.com/library/Hh828953(v=VS.85).aspx) interface and enables selecting a stream.
 
 **StreamSelector** has these types of members:
 
@@ -32,8 +32,8 @@ The **StreamSelector** class has these methods.
 
 | Method                                                                      | Description                                                  |
 |:----------------------------------------------------------------------------|:-------------------------------------------------------------|
-| [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx) | Gets the properties of the stream asynchronously.<br/> |
-| [**SelectBestStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh829002(v=VS.85).aspx)       | Queries asynchronously for the best stream.<br/>       |
+| [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx) | Gets the properties of the stream asynchronously.<br/> |
+| [**SelectBestStreamAsync**](https://msdn.microsoft.com/library/Hh829002(v=VS.85).aspx)       | Queries asynchronously for the best stream.<br/>       |
 
 
 

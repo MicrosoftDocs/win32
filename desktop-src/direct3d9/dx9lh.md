@@ -27,7 +27,7 @@ Devices are now only lost under two circumstances; when the hardware is reset be
 
 After a driver is stopped, the IDirect9Ex object must be recreated to resume rendering.
 
-When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) will return S\_D3DPRESENTATIONOCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](https://msdn.microsoft.com/en-us/library/ms632614(v=VS.85).aspx) callback message.
+When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) will return S\_D3DPRESENTATIONOCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](https://msdn.microsoft.com/library/ms632614(v=VS.85).aspx) callback message.
 
 In previous versions of DirectX, when an application experienced a mode change, the only way to recover was to reset the device and re-create all video memory resources and swap chains. Now with DirectX for Windows Vista, calling Reset after a mode change does not cause texture memory surfaces, textures and state information to be lost and these resources do not need to be recreated.
 

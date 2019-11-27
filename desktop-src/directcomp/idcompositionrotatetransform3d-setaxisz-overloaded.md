@@ -24,8 +24,8 @@ Changes or animates the value of the AxisZ property of a 3D rotation transform. 
 
 | Method                                                                                                       | Description                                          |
 |:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetAxisZ(float)**](https://msdn.microsoft.com/en-us/library/Hh448947(v=VS.85).aspx)                                     | Changes the value of the AxisZ property.<br/>  |
-| [**SetAxisZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448949(v=VS.85).aspx) | Animates the value of the AxisZ property.<br/> |
+| [**SetAxisZ(float)**](https://msdn.microsoft.com/library/Hh448947(v=VS.85).aspx)                                     | Changes the value of the AxisZ property.<br/>  |
+| [**SetAxisZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448949(v=VS.85).aspx) | Animates the value of the AxisZ property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the AxisZ property of a 3D rotation transform. 
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
 </dt> </dl>
 
 �

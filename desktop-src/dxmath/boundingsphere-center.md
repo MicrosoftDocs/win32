@@ -45,7 +45,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx)
+[**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx)
 </dt> </dl>
 
  

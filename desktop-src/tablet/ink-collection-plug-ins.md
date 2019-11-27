@@ -12,7 +12,7 @@ The [**RealTimeStylus**](realtimestylus-class.md) object does not inherently col
 
 The following is a minimal scenario for using the [**RealTimeStylus**](realtimestylus-class.md) object on a form that collects ink.
 
-1.  Create a form that implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) interface.
+1.  Create a form that implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx) interface.
 2.  Create a [**RealTimeStylus**](realtimestylus-class.md) object, and attach it to a control on the form.
 3.  Set interest in the StylusDown, Packets, and StylusUp notifications in the form's [DataInterest](https://msdn.microsoft.com/library/ms574886(v=VS.90).aspx) property.
 4.  In the form's [**StylusDown**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusdown), [**Packets**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-packets), and [**StylusUp**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusup) methods, add code to handle the stylus down, packets, and stylus up notifications that are sent from the form's [**RealTimeStylus**](realtimestylus-class.md) object. This code should store the pen data, and create and store the strokes.

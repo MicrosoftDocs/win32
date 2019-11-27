@@ -41,7 +41,7 @@ HRESULT GetGlyphData(
 *Glyph* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Glyph identifier.
 
@@ -59,7 +59,7 @@ Address of a pointer to a [**IDirect3DTexture9**](https://msdn.microsoft.com/lib
 *pBlackBox* \[out\]
 </dt> <dd>
 
-Type: **[**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)\***
+Type: **[**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
 
 Pointer to the smallest rectangle object that completely encloses the glyph.
 
@@ -68,15 +68,15 @@ Pointer to the smallest rectangle object that completely encloses the glyph.
 *pCellInc* \[out\]
 </dt> <dd>
 
-Type: **[**POINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**POINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
-Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [**POINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx).
+Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [**POINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx).
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

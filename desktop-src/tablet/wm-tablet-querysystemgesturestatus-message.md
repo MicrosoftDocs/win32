@@ -68,7 +68,7 @@ By default, your window will receive all system gesture events. You can choose w
 
  
 
-Use caution when handling the **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** message. **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** is passed using the [**SendMessageTimeout**](https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx) function. If you call methods on a COM interface, that object must be within the same process. If not, COM throws an exception.
+Use caution when handling the **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** message. **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** is passed using the [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx) function. If you call methods on a COM interface, that object must be within the same process. If not, COM throws an exception.
 
 ## Examples
 

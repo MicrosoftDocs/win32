@@ -24,9 +24,9 @@ Creates a new drawing state block, this can be used in subsequent SaveDrawingSta
 
 | Method                                                                                                                                                                 | Description                                                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateDrawingStateBlock (D2D1\_DRAWING\_STATE\_DESCRIPTION1\*, IDWriteRenderingParams\*, ID2D1DrawingStateBlock1\*\*)**](https://msdn.microsoft.com/en-us/library/Hh847994(v=VS.85).aspx) | Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.<br/>  |
-| [**CreateDrawingStateBlock (ID2D1DrawingStateBlock1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841163(v=VS.85).aspx)                                                                | Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target. <br/> |
-| [**CreateDrawingStateBlock (D2D1\_DRAWING\_STATE\_DESCRIPTION1&, ID2D1DrawingStateBlock1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841162(v=VS.85).aspx)                           | Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.<br/>  |
+| [**CreateDrawingStateBlock (D2D1\_DRAWING\_STATE\_DESCRIPTION1\*, IDWriteRenderingParams\*, ID2D1DrawingStateBlock1\*\*)**](https://msdn.microsoft.com/library/Hh847994(v=VS.85).aspx) | Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.<br/>  |
+| [**CreateDrawingStateBlock (ID2D1DrawingStateBlock1\*\*)**](https://msdn.microsoft.com/library/JJ841163(v=VS.85).aspx)                                                                | Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target. <br/> |
+| [**CreateDrawingStateBlock (D2D1\_DRAWING\_STATE\_DESCRIPTION1&, ID2D1DrawingStateBlock1\*\*)**](https://msdn.microsoft.com/library/JJ841162(v=VS.85).aspx)                           | Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.<br/>  |
 
 
 
@@ -34,7 +34,7 @@ Creates a new drawing state block, this can be used in subsequent SaveDrawingSta
 
 <dl> <dt>
 
-[**ID2D1Factory1**](https://msdn.microsoft.com/en-us/library/Hh404596(v=VS.85).aspx)
+[**ID2D1Factory1**](https://msdn.microsoft.com/library/Hh404596(v=VS.85).aspx)
 </dt> </dl>
 
  

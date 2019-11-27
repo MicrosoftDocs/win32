@@ -25,7 +25,7 @@ Windows supports expanded use of smart card and certificate credentials. To help
 
 ## Generic Credentials
 
-Generic credentials are defined and authenticated by applications that manage authorization and security directly instead of delegating these tasks to the operating system. For example, an application can require users to enter a user name and password provided by the application or to produce a [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) to access a website.
+Generic credentials are defined and authenticated by applications that manage authorization and security directly instead of delegating these tasks to the operating system. For example, an application can require users to enter a user name and password provided by the application or to produce a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) to access a website.
 
 Applications use Credentials Management functions to prompt users for application-defined, generic, credential information, such as user name, certificate, smart card, or password. The information entered by the user is returned to the application for authentication.
 

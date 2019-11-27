@@ -47,7 +47,7 @@ This parameter can be one of the flags listed in [**SHCONTF**](/windows/win32/ap
 *bstrFilter* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A filter string that specifies what should be listed in the [**FolderItems**](folderitems.md) collection.
 

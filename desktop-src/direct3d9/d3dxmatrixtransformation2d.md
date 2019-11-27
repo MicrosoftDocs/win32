@@ -62,7 +62,7 @@ Pointer to a [**D3DXVECTOR2**](d3dxvector2.md) structure, a point identifying th
 *pScalingRotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The scaling rotation factor.
 
@@ -89,7 +89,7 @@ Pointer to a [**D3DXVECTOR2**](d3dxvector2.md) structure, a point identifying th
 *Rotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The angle of rotation in radians.
 

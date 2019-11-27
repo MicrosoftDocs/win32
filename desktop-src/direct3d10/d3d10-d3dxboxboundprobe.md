@@ -41,7 +41,7 @@ BOOL D3DXBoxBoundProbe(
 *pMin* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), describing the lower-left corner of the bounding box. See Remarks.
 
@@ -50,7 +50,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), describing the lower-left 
 *pMax* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the upper-right corner of the bounding box. See Remarks.
 
@@ -59,7 +59,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the u
 *pRayPosition* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure, specifying the origin coordinate of the ray.
 
@@ -68,7 +68,7 @@ Pointer to a D3DXVECTOR3 structure, specifying the origin coordinate of the ray.
 *pRayDirection* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure, specifying the direction of the ray. This vector should not be (0,0,0) but does not need to be normalized.
 
@@ -76,7 +76,7 @@ Pointer to a D3DXVECTOR3 structure, specifying the direction of the ray. This ve
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the ray intersects the volume of the box's bounding box. Otherwise, returns **FALSE**.
 

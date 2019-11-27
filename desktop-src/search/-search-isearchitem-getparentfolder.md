@@ -39,7 +39,7 @@ HRESULT GetParentFolder(
 
 Type: **ppShellFolder\*\***
 
-On return, contains the address of a pointer to the folder that contains the current URL. [IShellFolder Interface](https://msdn.microsoft.com/en-us/library/bb775075(VS.85).aspx) is exposed by all Shell namespace folder objects, and its methods are used to manage folders.
+On return, contains the address of a pointer to the folder that contains the current URL. [IShellFolder Interface](https://msdn.microsoft.com/library/bb775075(VS.85).aspx) is exposed by all Shell namespace folder objects, and its methods are used to manage folders.
 
 </dd> <dt>
 

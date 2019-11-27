@@ -22,8 +22,8 @@ Windows provides the following functions to query and set the volume for auxilia
 
 | Function                             | Description                                                                    |
 |--------------------------------------|--------------------------------------------------------------------------------|
-| [**auxGetVolume**](https://msdn.microsoft.com/en-us/library/Dd756714(v=VS.85).aspx) | Retrieves the current volume setting of the specified auxiliary output device. |
-| [**auxSetVolume**](https://msdn.microsoft.com/en-us/library/Dd756717(v=VS.85).aspx) | Sets the volume of the specified auxiliary output device.                      |
+| [**auxGetVolume**](https://msdn.microsoft.com/library/Dd756714(v=VS.85).aspx) | Retrieves the current volume setting of the specified auxiliary output device. |
+| [**auxSetVolume**](https://msdn.microsoft.com/library/Dd756717(v=VS.85).aspx) | Sets the volume of the specified auxiliary output device.                      |
 
 
 

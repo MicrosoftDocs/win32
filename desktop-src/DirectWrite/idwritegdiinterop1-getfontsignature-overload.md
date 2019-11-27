@@ -24,8 +24,8 @@ Retrieves a font signature.
 
 | Method                                                                                                 | Description                                                   |
 |:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| [**GetFontSignature (\*IDWriteFont, \*FONTSIGNATURE)**](https://msdn.microsoft.com/en-us/library/Dn958417(v=VS.85).aspx)       | Reads the font signature from the given font.<br/>      |
-| [**GetFontSignature (\*IDWriteFontFace, \*FONTSIGNATURE)**](https://msdn.microsoft.com/en-us/library/Dn958418(v=VS.85).aspx) | Reads the font signature from the given font face.<br/> |
+| [**GetFontSignature (\*IDWriteFont, \*FONTSIGNATURE)**](https://msdn.microsoft.com/library/Dn958417(v=VS.85).aspx)       | Reads the font signature from the given font.<br/>      |
+| [**GetFontSignature (\*IDWriteFontFace, \*FONTSIGNATURE)**](https://msdn.microsoft.com/library/Dn958418(v=VS.85).aspx) | Reads the font signature from the given font face.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Retrieves a font signature.
 
 <dl> <dt>
 
-[**IDWriteGdiInterop1**](https://msdn.microsoft.com/en-us/library/Dn958415(v=VS.85).aspx)
+[**IDWriteGdiInterop1**](https://msdn.microsoft.com/library/Dn958415(v=VS.85).aspx)
 </dt> </dl>
 
 �

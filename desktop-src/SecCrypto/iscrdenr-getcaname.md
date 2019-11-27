@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::getCAName method
 
-The **getCAName** method retrieves the name of the specified [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) for a given certificate template.
+The **getCAName** method retrieves the name of the specified [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) for a given certificate template.
 
 ## Syntax
 

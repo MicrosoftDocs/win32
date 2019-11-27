@@ -17,7 +17,7 @@ The application does caret placement and hit testing by using [**ScriptXtoCP**](
 To get widths in a font-independent manner, the application calls [**ScriptGetLogicalWidths**](/windows/desktop/api/Usp10/nf-usp10-scriptgetlogicalwidths). By passing the logical widths to [**ScriptApplyLogicalWidth**](/windows/desktop/api/Usp10/nf-usp10-scriptapplylogicalwidth), a block of text can be redisplayed in the same boundaries with acceptable loss of quality even when the original font is not available. It generates an array of glyph widths ([advance widths](uniscribe-glossary.md)) suitable for passing to [**ScriptTextOut**](/windows/desktop/api/Usp10/nf-usp10-scripttextout). Such recording and reapplying of advance width information in a font-independent manner can be useful in situations such as metafiling in an application defined format.
 
 > [!Note]  
-> Metafiles do not support glyph indexes. To write to an enhanced metafile, the application should use [**ExtTextOut**](https://msdn.microsoft.com/en-us/library/Dd162713(v=VS.85).aspx) and write the logical characters directly. Using this mechanism, the glyph generation and placement does not occur until the text is played back.
+> Metafiles do not support glyph indexes. To write to an enhanced metafile, the application should use [**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx) and write the logical characters directly. Using this mechanism, the glyph generation and placement does not occur until the text is played back.
 
  
 

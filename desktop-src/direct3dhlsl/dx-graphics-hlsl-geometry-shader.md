@@ -110,7 +110,7 @@ The following diagram shows geometry shader invocations.
 
 ## Examples
 
-This example is from exercise 1 from the [Direct3D 10 Shader Model 4.0 Workshop](https://msdn.microsoft.com/en-us/library/Ee416554(v=VS.85).aspx).
+This example is from exercise 1 from the [Direct3D 10 Shader Model 4.0 Workshop](https://msdn.microsoft.com/library/Ee416554(v=VS.85).aspx).
 
 
 ```

@@ -17,7 +17,7 @@ api_location:
 
 # ProtectKeyWithCertificateFile method of the Win32\_EncryptableVolume class
 
-The **ProtectKeyWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) of the provided certificate.
+The **ProtectKeyWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) of the provided certificate.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ A string that specifies a user-assigned string identifier for this key protector
 
 Type: **string**
 
-A string that specifies the location and name of the .cer file used to enable BitLocker. An encryption certificate must be exported in .cer format ([*Distinguished Encoding Rules*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) (DER)-encoded binary [*X.509*](https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
+A string that specifies the location and name of the .cer file used to enable BitLocker. An encryption certificate must be exported in .cer format ([*Distinguished Encoding Rules*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) (DER)-encoded binary [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
 
 </dd> <dt>
 

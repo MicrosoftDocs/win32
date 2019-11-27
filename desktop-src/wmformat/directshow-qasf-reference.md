@@ -36,10 +36,10 @@ The following interfaces are defined for use with the DirectShow QASF components
 
 | Interface                                                  | Description                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IAMWMBufferPass**](https://msdn.microsoft.com/en-us/library/Dd798276(v=VS.85).aspx)                 | Provides a method that enables applications to register for callbacks from the input pins of the [WM ASF Writer](wm-asf-writer-filter.md) or the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter. Used in indexing and when adding data unit extensions. |
-| [**IAMWMBufferPassCallback**](https://msdn.microsoft.com/en-us/library/Dd798277(v=VS.85).aspx) | Implemented by applications and called by the filters. Applications use the one method on this interface to obtain information about individual samples in the stream. Used in indexing and when adding data unit extensions.                                                 |
-| [**IConfigAsfWriter**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)               | Implemented on the WM ASF Writer. Used by applications to specify profiles and indexing parameters for the file.                                                                                                                                                              |
-| [**IConfigAsfWriter2**](https://msdn.microsoft.com/en-us/library/Dd743206(v=VS.85).aspx)             | Provides additional configuration functions on the WM ASF Writer.                                                                                                                                                                                                             |
+| [**IAMWMBufferPass**](https://msdn.microsoft.com/library/Dd798276(v=VS.85).aspx)                 | Provides a method that enables applications to register for callbacks from the input pins of the [WM ASF Writer](wm-asf-writer-filter.md) or the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter. Used in indexing and when adding data unit extensions. |
+| [**IAMWMBufferPassCallback**](https://msdn.microsoft.com/library/Dd798277(v=VS.85).aspx) | Implemented by applications and called by the filters. Applications use the one method on this interface to obtain information about individual samples in the stream. Used in indexing and when adding data unit extensions.                                                 |
+| [**IConfigAsfWriter**](https://msdn.microsoft.com/library/Dd743205(v=VS.85).aspx)               | Implemented on the WM ASF Writer. Used by applications to specify profiles and indexing parameters for the file.                                                                                                                                                              |
+| [**IConfigAsfWriter2**](https://msdn.microsoft.com/library/Dd743206(v=VS.85).aspx)             | Provides additional configuration functions on the WM ASF Writer.                                                                                                                                                                                                             |
 
 
 
@@ -51,7 +51,7 @@ The following enumeration, structure, and events are defined for use with the Di
 
 | Enumeration                                                               | Description                                                                                                                                                                       |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [\_AM\_ASFWRITERCONFIG\_PARAM](https://msdn.microsoft.com/en-us/library/Dd758054(v=VS.85).aspx) | Defines filter configuration parameters used in the [**IConfigAsfWriter2::GetParam**](iconfigasfwriter2-getparam.md) and [**SetParam**](iconfigasfwriter2-setparam.md) methods. |
+| [\_AM\_ASFWRITERCONFIG\_PARAM](https://msdn.microsoft.com/library/Dd758054(v=VS.85).aspx) | Defines filter configuration parameters used in the [**IConfigAsfWriter2::GetParam**](iconfigasfwriter2-getparam.md) and [**SetParam**](iconfigasfwriter2-setparam.md) methods. |
 
 
 
@@ -61,7 +61,7 @@ The following enumeration, structure, and events are defined for use with the Di
 
 | Structure                                         | Description                                                                                                                                           |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AM\_WMT\_EVENT\_DATA**](https://msdn.microsoft.com/en-us/library/Dd743050(v=VS.85).aspx) | Contains information pertaining to a [**WMT\_STATUS**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) event and the associated status code returned by the Windows Media Format SDK. |
+| [**AM\_WMT\_EVENT\_DATA**](https://msdn.microsoft.com/library/Dd743050(v=VS.85).aspx) | Contains information pertaining to a [**WMT\_STATUS**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) event and the associated status code returned by the Windows Media Format SDK. |
 
 
 

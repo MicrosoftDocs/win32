@@ -46,7 +46,7 @@ HRESULT RequestMonitor(
 *punkSrc* \[in\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)\***
+Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
 
 A pointer to the object implementing the [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) interface.
 

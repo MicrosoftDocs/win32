@@ -18,7 +18,7 @@ api_location:
 
 The **DA\_GET\_NFS\_ATTRIBUTES** control code queries additional information about an NFS share.
 
-To perform this operation, call the [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -43,7 +43,7 @@ BOOL
 *hDevice* \[in\]
 </dt> <dd>
 
-A handle to a file on the NFS share. To obtain this handle, call the [**CreateFile**](https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx) function.
+A handle to a file on the NFS share. To obtain this handle, call the [**CreateFile**](https://msdn.microsoft.com/library/Aa363858(v=VS.85).aspx) function.
 
 </dd> <dt>
 
@@ -87,32 +87,32 @@ The size of the output buffer, in bytes.
 
 A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
-If the output buffer is too small, the call fails, [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) returns **ERROR\_INSUFFICIENT\_BUFFER**, and *lpBytesReturned* is zero.
+If the output buffer is too small, the call fails, [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) returns **ERROR\_INSUFFICIENT\_BUFFER**, and *lpBytesReturned* is zero.
 
-If *lpOverlapped* is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and *lpOutBuffer* is **NULL**, [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
+If *lpOverlapped* is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and *lpOutBuffer* is **NULL**, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
 
-If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this parameter is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call [**GetOverlappedResult**](https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx). If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx).
+If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this parameter is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call [**GetOverlappedResult**](https://msdn.microsoft.com/library/ms683209(v=VS.85).aspx). If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx).
 
 </dd> <dt>
 
 *lpOverlapped* \[in\]
 </dt> <dd>
 
-A pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx) structure.
+A pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/library/ms684342(v=VS.85).aspx) structure.
 
 If *hDevice* was opened without specifying **FILE\_FLAG\_OVERLAPPED**, *lpOverlapped* is ignored.
 
-If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
+If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://msdn.microsoft.com/library/ms684342(v=VS.85).aspx) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
 
-For overlapped operations, [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
+For overlapped operations, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 </dd> </dl>
 
 ## Return value
 
-If the operation completes successfully, [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) returns a nonzero value.
+If the operation completes successfully, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) returns a nonzero value.
 
-If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) returns zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx).
+If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) returns zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx).
 
 ## Remarks
 
@@ -349,7 +349,7 @@ Specifies whether the connection on which the handle to the NFS share was create
 
 <dl> <dt>
 
-[**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx)
+[**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx)
 </dt> </dl>
 
  

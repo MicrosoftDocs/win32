@@ -21,13 +21,13 @@ Each user and group [*security identifier*](https://docs.microsoft.com/windows/d
 
  
 
-To set or clear the SE\_GROUP\_ENABLED attribute of a group SID, use the [**AdjustTokenGroups**](https://msdn.microsoft.com/en-us/library/Aa375199(v=VS.85).aspx) function. You cannot disable a group SID that has the SE\_GROUP\_MANDATORY attribute. You cannot use **AdjustTokenGroups** to disable the user SID of an access token.
+To set or clear the SE\_GROUP\_ENABLED attribute of a group SID, use the [**AdjustTokenGroups**](https://msdn.microsoft.com/library/Aa375199(v=VS.85).aspx) function. You cannot disable a group SID that has the SE\_GROUP\_MANDATORY attribute. You cannot use **AdjustTokenGroups** to disable the user SID of an access token.
 
-To determine whether a SID is enabled in a token, that is, whether it has the SE\_GROUP\_ENABLED attribute, call the [**CheckTokenMembership**](https://msdn.microsoft.com/en-us/library/Aa376389(v=VS.85).aspx) function.
+To determine whether a SID is enabled in a token, that is, whether it has the SE\_GROUP\_ENABLED attribute, call the [**CheckTokenMembership**](https://msdn.microsoft.com/library/Aa376389(v=VS.85).aspx) function.
 
-To set the SE\_GROUP\_USE\_FOR\_DENY\_ONLY attribute of a SID, include the SID in the list of deny-only SIDs that you specify when you call the [**CreateRestrictedToken**](https://msdn.microsoft.com/en-us/library/Aa446583(v=VS.85).aspx) function. **CreateRestrictedToken** can apply the SE\_GROUP\_USE\_FOR\_DENY\_ONLY attribute to any SID, including the user SID and group SIDs that have the SE\_GROUP\_MANDATORY attribute. However, you cannot remove the deny-only attribute from a SID, nor can you use [**AdjustTokenGroups**](https://msdn.microsoft.com/en-us/library/Aa375199(v=VS.85).aspx) to set the SE\_GROUP\_ENABLED attribute on a deny-only SID.
+To set the SE\_GROUP\_USE\_FOR\_DENY\_ONLY attribute of a SID, include the SID in the list of deny-only SIDs that you specify when you call the [**CreateRestrictedToken**](https://msdn.microsoft.com/library/Aa446583(v=VS.85).aspx) function. **CreateRestrictedToken** can apply the SE\_GROUP\_USE\_FOR\_DENY\_ONLY attribute to any SID, including the user SID and group SIDs that have the SE\_GROUP\_MANDATORY attribute. However, you cannot remove the deny-only attribute from a SID, nor can you use [**AdjustTokenGroups**](https://msdn.microsoft.com/library/Aa375199(v=VS.85).aspx) to set the SE\_GROUP\_ENABLED attribute on a deny-only SID.
 
-To get the attributes of a SID, call the [**GetTokenInformation**](https://msdn.microsoft.com/en-us/library/Aa446671(v=VS.85).aspx) function with the TokenGroups value. The function returns an array of [**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes) structures that identify the group SIDs and their attributes.
+To get the attributes of a SID, call the [**GetTokenInformation**](https://msdn.microsoft.com/library/Aa446671(v=VS.85).aspx) function with the TokenGroups value. The function returns an array of [**SID\_AND\_ATTRIBUTES**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes) structures that identify the group SIDs and their attributes.
 
  
 

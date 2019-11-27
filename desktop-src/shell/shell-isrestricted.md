@@ -49,7 +49,7 @@ Shell.IsRestricted( _
 *sGroup* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the group name. This value is the name of a registry subkey under which to check for the restriction.
 
@@ -58,7 +58,7 @@ A **String** that contains the group name. This value is the name of a registry 
 *sRestriction* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the restriction whose value is to be retrieved.
 

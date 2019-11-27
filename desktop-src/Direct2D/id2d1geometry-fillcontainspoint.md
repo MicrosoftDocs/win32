@@ -25,10 +25,10 @@ Indicates whether the area filled by the geometry would contain the specified po
 
 | Method                                                                                                                                                             | Description                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F&,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316696(v=VS.85).aspx)              | Indicates whether the area filled by the geometry would contain the specified point. <br/>                                          |
-| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F\*,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316690(v=VS.85).aspx)             | Indicates whether the area filled by this geometry would contain the specified point.<br/>                                          |
-| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F&,FLOAT,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316694(v=VS.85).aspx)  | Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance.<br/>  |
-| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F\*,FLOAT,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316687(v=VS.85).aspx) | Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance. <br/> |
+| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F&,BOOL\*)**](https://msdn.microsoft.com/library/Dd316696(v=VS.85).aspx)              | Indicates whether the area filled by the geometry would contain the specified point. <br/>                                          |
+| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F\*,BOOL\*)**](https://msdn.microsoft.com/library/Dd316690(v=VS.85).aspx)             | Indicates whether the area filled by this geometry would contain the specified point.<br/>                                          |
+| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F&,FLOAT,BOOL\*)**](https://msdn.microsoft.com/library/Dd316694(v=VS.85).aspx)  | Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance.<br/>  |
+| [**FillContainsPoint(D2D1\_POINT\_2F,D2D1\_MATRIX\_3X2\_F\*,FLOAT,BOOL\*)**](https://msdn.microsoft.com/library/Dd316687(v=VS.85).aspx) | Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance. <br/> |
 
 
 
@@ -47,7 +47,7 @@ Indicates whether the area filled by the geometry would contain the specified po
 
 <dl> <dt>
 
-[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
+[**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

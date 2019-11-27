@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Acquiring high-resolution time stamps
 
-Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals. The primary API for native code is [**QueryPerformanceCounter (QPC)**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). For device drivers, the kernel-mode API is [**KeQueryPerformanceCounter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter). For managed code, the [**System.Diagnostics.Stopwatch**](https://msdn.microsoft.com/library/ebf7z0sw(v=VS.96).aspx) class uses **QPC** as its precise time basis.
+Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals. The primary API for native code is [**QueryPerformanceCounter (QPC)**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). For device drivers, the kernel-mode API is [**KeQueryPerformanceCounter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter). For managed code, the [**System.Diagnostics.Stopwatch**](https://msdn.microsoft.com/library/ebf7z0sw(v=VS.96).aspx) class uses **QPC** as its precise time basis.
 
-[**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is independent of and isn't synchronized to any external time reference. To retrieve time stamps that can be synchronized to an external time reference, such as, Coordinated Universal Time (UTC) for use in high-resolution time-of-day measurements, use [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/en-us/library/Hh706895(v=VS.85).aspx).
+[**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is independent of and isn't synchronized to any external time reference. To retrieve time stamps that can be synchronized to an external time reference, such as, Coordinated Universal Time (UTC) for use in high-resolution time-of-day measurements, use [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/library/Hh706895(v=VS.85).aspx).
 
 Time stamps and time-interval measurements are an integral part of computer and network performance measurements. These performance measurement operations include the computation of response time, throughput, and latency as well as profiling code execution. Each of these operations involves a measurement of activities that occur during a time interval that is defined by a start and an end event that can be independent of any external time-of-day reference.
 
-[**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is typically the best method to use to time-stamp events and measure small time intervals that occur on the same system or virtual machine. Consider using [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/en-us/library/Hh706895(v=VS.85).aspx) when you want to time-stamp events across multiple machines, provided that each machine is participating in a time synchronization scheme such as Network Time Protocol (NTP). **QPC** helps you avoid difficulties that can be encountered with other time measurement approaches, such as reading the processor’s time stamp counter (TSC) directly.
+[**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is typically the best method to use to time-stamp events and measure small time intervals that occur on the same system or virtual machine. Consider using [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/library/Hh706895(v=VS.85).aspx) when you want to time-stamp events across multiple machines, provided that each machine is participating in a time synchronization scheme such as Network Time Protocol (NTP). **QPC** helps you avoid difficulties that can be encountered with other time measurement approaches, such as reading the processor’s time stamp counter (TSC) directly.
 
 -   [QPC support in Windows versions](#qpc-support-in-windows-versions)
 -   [Guidance for acquiring time stamps](#guidance-for-acquiring-time-stamps)
@@ -30,43 +30,43 @@ Time stamps and time-interval measurements are an integral part of computer and 
 
 ## QPC support in Windows versions
 
-[**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) was introduced in Windows 2000 and Windows XP and has evolved to take advantage of improvements in the hardware platform and processors. Here we describe the characteristics of **QPC** on different Windows versions to help you maintain software that runs on those Windows versions.
+[**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) was introduced in Windows 2000 and Windows XP and has evolved to take advantage of improvements in the hardware platform and processors. Here we describe the characteristics of **QPC** on different Windows versions to help you maintain software that runs on those Windows versions.
 
 <dl> <dt>
 
 <span id="_and_"></span><span id="_AND_"></span>Windows XP and Windows 2000
 </dt> <dd>
 
-[**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is available on Windows XP and Windows 2000 and works well on most systems. However, some hardware systems' BIOS didn't indicate the hardware CPU characteristics correctly (a non-invariant TSC), and some multi-core or multi-processor systems used processors with TSCs that couldn't be synchronized across cores. Systems with flawed firmware that run these versions of Windows might not provide the same **QPC** reading on different cores if they used the TSC as the basis for **QPC**.
+[**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is available on Windows XP and Windows 2000 and works well on most systems. However, some hardware systems' BIOS didn't indicate the hardware CPU characteristics correctly (a non-invariant TSC), and some multi-core or multi-processor systems used processors with TSCs that couldn't be synchronized across cores. Systems with flawed firmware that run these versions of Windows might not provide the same **QPC** reading on different cores if they used the TSC as the basis for **QPC**.
 
 </dd> <dt>
 
 <span id="_and_"></span><span id="_AND_"></span>Windows Vista and Windows Server 2008
 </dt> <dd>
 
-All computers that shipped with Windows Vista and Windows Server 2008 used a platform counter (High Precision Event Timer (HPET)) or the ACPI Power Management Timer (PM timer) as the basis for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). Such platform timers have higher access latency than the TSC and are shared between multiple processors. This limits scalability of **QPC** if it is called concurrently from multiple processors.
+All computers that shipped with Windows Vista and Windows Server 2008 used a platform counter (High Precision Event Timer (HPET)) or the ACPI Power Management Timer (PM timer) as the basis for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). Such platform timers have higher access latency than the TSC and are shared between multiple processors. This limits scalability of **QPC** if it is called concurrently from multiple processors.
 
 </dd> <dt>
 
 <span id="_and_"></span><span id="_AND_"></span>Windows 7 and Windows Server 2008 R2
 </dt> <dd>
 
-The majority of Windows 7 and Windows Server 2008 R2 computers have processors with constant-rate TSCs and use these counters as the basis for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). TSCs are high-resolution per-processor hardware counters that can be accessed with very low latency and overhead (in the order of 10s or 100s of machine cycles, depending on the processor type). Windows 7 and Windows Server 2008 R2 use TSCs as the basis of **QPC** on single-clock domain systems where the operating system (or the hypervisor) is able to tightly synchronize the individual TSCs across all processors during system initialization. On such systems, the cost of reading the performance counter is significantly lower compared to systems that use a platform counter. Furthermore, there is no added overhead for concurrent calls and user-mode queries often bypass system calls, which further reduces overhead. On systems where the TSC is not suitable for timekeeping, Windows automatically selects a platform counter (either the HPET timer or the ACPI PM timer) as the basis for **QPC**.
+The majority of Windows 7 and Windows Server 2008 R2 computers have processors with constant-rate TSCs and use these counters as the basis for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). TSCs are high-resolution per-processor hardware counters that can be accessed with very low latency and overhead (in the order of 10s or 100s of machine cycles, depending on the processor type). Windows 7 and Windows Server 2008 R2 use TSCs as the basis of **QPC** on single-clock domain systems where the operating system (or the hypervisor) is able to tightly synchronize the individual TSCs across all processors during system initialization. On such systems, the cost of reading the performance counter is significantly lower compared to systems that use a platform counter. Furthermore, there is no added overhead for concurrent calls and user-mode queries often bypass system calls, which further reduces overhead. On systems where the TSC is not suitable for timekeeping, Windows automatically selects a platform counter (either the HPET timer or the ACPI PM timer) as the basis for **QPC**.
 
 </dd> <dt>
 
 <span id="______and_________"></span><span id="______AND_________"></span>Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2
 </dt> <dd>
 
-Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 use TSCs as the basis for the performance counter. The TSC synchronization algorithm was significantly improved to better accommodate large systems with many processors. In addition, support for the new precise time-of-day API was added, which enables acquiring precise wall clock time stamps from the operating system. For more info, see [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/en-us/library/Hh706895(v=VS.85).aspx). On Windows RT PC platforms, the performance counter is based on either a proprietary platform counter or the system counter provided by the Windows RT PC Generic Timer if the platform is so equipped.
+Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 use TSCs as the basis for the performance counter. The TSC synchronization algorithm was significantly improved to better accommodate large systems with many processors. In addition, support for the new precise time-of-day API was added, which enables acquiring precise wall clock time stamps from the operating system. For more info, see [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/library/Hh706895(v=VS.85).aspx). On Windows RT PC platforms, the performance counter is based on either a proprietary platform counter or the system counter provided by the Windows RT PC Generic Timer if the platform is so equipped.
 
 </dd> </dl>
 
 ## Guidance for acquiring time stamps
 
-Windows has and will continue to invest in providing a reliable and efficient performance counter. When you need time stamps with a resolution of 1 microsecond or better and you don't need the time stamps to be synchronized to an external time reference, choose [**QueryPerformanceCounter**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx), [**KeQueryPerformanceCounter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter), or [**KeQueryInterruptTimePrecise**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttimeprecise). When you need UTC-synchronized time stamps with a resolution of 1 microsecond or better, choose [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/en-us/library/Hh706895(v=VS.85).aspx) or [**KeQuerySystemTimePrecise**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtimeprecise).
+Windows has and will continue to invest in providing a reliable and efficient performance counter. When you need time stamps with a resolution of 1 microsecond or better and you don't need the time stamps to be synchronized to an external time reference, choose [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx), [**KeQueryPerformanceCounter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter), or [**KeQueryInterruptTimePrecise**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttimeprecise). When you need UTC-synchronized time stamps with a resolution of 1 microsecond or better, choose [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/library/Hh706895(v=VS.85).aspx) or [**KeQuerySystemTimePrecise**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtimeprecise).
 
-On a relatively small number of platforms that can't use the TSC register as the [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) basis, for example, for reasons explained in [Hardware timer info](#hardware-timer-info), acquiring high resolution time stamps can be significantly more expensive than acquiring time stamps with lower resolution. If resolution of 10 to 16 milliseconds is sufficient, you can use [**GetTickCount64**](https://msdn.microsoft.com/en-us/library/ms724411(v=VS.85).aspx), [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryUnbiasedInterruptTime**](https://msdn.microsoft.com/en-us/library/Ee662307(v=VS.85).aspx), [**KeQueryInterruptTime**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttime), or [**KeQueryUnbiasedInterruptTime**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryunbiasedinterrupttime) to obtain time stamps that aren't synchronized to an external time reference. For UTC-synchronized time stamps, use [**GetSystemTimeAsFileTime**](https://msdn.microsoft.com/en-us/library/ms724397(v=VS.85).aspx) or [**KeQuerySystemTime**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtime). If higher resolution is needed, you can use [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise), or [**KeQueryInterruptTimePrecise**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttimeprecise) to obtain time stamps instead.
+On a relatively small number of platforms that can't use the TSC register as the [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) basis, for example, for reasons explained in [Hardware timer info](#hardware-timer-info), acquiring high resolution time stamps can be significantly more expensive than acquiring time stamps with lower resolution. If resolution of 10 to 16 milliseconds is sufficient, you can use [**GetTickCount64**](https://msdn.microsoft.com/library/ms724411(v=VS.85).aspx), [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryUnbiasedInterruptTime**](https://msdn.microsoft.com/library/Ee662307(v=VS.85).aspx), [**KeQueryInterruptTime**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttime), or [**KeQueryUnbiasedInterruptTime**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryunbiasedinterrupttime) to obtain time stamps that aren't synchronized to an external time reference. For UTC-synchronized time stamps, use [**GetSystemTimeAsFileTime**](https://msdn.microsoft.com/library/ms724397(v=VS.85).aspx) or [**KeQuerySystemTime**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtime). If higher resolution is needed, you can use [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise), or [**KeQueryInterruptTimePrecise**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttimeprecise) to obtain time stamps instead.
 
 In general, the performance counter results are consistent across all processors in multi-core and multi-processor systems, even when measured on different threads or processes. Here are some exceptions to this rule:
 
@@ -75,11 +75,11 @@ In general, the performance counter results are consistent across all processors
     -   The hardware processors have a non-invariant TSC and the BIOS doesn't indicate this condition correctly.
     -   The TSC synchronization algorithm that was used wasn't suitable for systems with large numbers of processors.
 
--   When you compare performance counter results that are acquired from different threads, consider values that differ by ± 1 tick to have an ambiguous ordering. If the time stamps are taken from the same thread, this ± 1 tick uncertainty doesn't apply. In this context, the term tick refers to a period of time equal to 1 ÷ (the frequency of the performance counter obtained from [**QueryPerformanceFrequency**](https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx)).
+-   When you compare performance counter results that are acquired from different threads, consider values that differ by ± 1 tick to have an ambiguous ordering. If the time stamps are taken from the same thread, this ± 1 tick uncertainty doesn't apply. In this context, the term tick refers to a period of time equal to 1 ÷ (the frequency of the performance counter obtained from [**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx)).
 
-When you use the performance counter on large server systems with multiple-clock domains that aren't synchronized in hardware, Windows determines that the TSC can't be used for timing purposes and selects a platform counter as the basis for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). While this scenario still yields reliable time stamps, the access latency and scalability is adversely affected. Therefore, as previously stated in the preceding usage guidance, only use the APIs that provide 1 microsecond or better resolution when such resolution is necessary. The TSC is used as the basis for **QPC** on multi-clock domain systems that include hardware synchronization of all processor clock domains, as this effectively makes them function as a single clock domain system.
+When you use the performance counter on large server systems with multiple-clock domains that aren't synchronized in hardware, Windows determines that the TSC can't be used for timing purposes and selects a platform counter as the basis for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). While this scenario still yields reliable time stamps, the access latency and scalability is adversely affected. Therefore, as previously stated in the preceding usage guidance, only use the APIs that provide 1 microsecond or better resolution when such resolution is necessary. The TSC is used as the basis for **QPC** on multi-clock domain systems that include hardware synchronization of all processor clock domains, as this effectively makes them function as a single clock domain system.
 
-The frequency of the performance counter is fixed at system boot and is consistent across all processors so you only need to query the frequency from [**QueryPerformanceFrequency**](https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx) as the application initializes, and then cache the result.
+The frequency of the performance counter is fixed at system boot and is consistent across all processors so you only need to query the frequency from [**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx) as the application initializes, and then cache the result.
 
 ### Virtualization
 
@@ -87,7 +87,7 @@ The performance counter is expected to work reliably on all guest virtual machin
 
 ### Direct TSC usage
 
-We strongly discourage using the **RDTSC** or **RDTSCP** processor instruction to directly query the TSC because you won't get reliable results on some versions of Windows, across live migrations of virtual machines, and on hardware systems without invariant or tightly synchronized TSCs. Instead, we encourage you to use [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) to leverage the abstraction, consistency, and portability that it offers.
+We strongly discourage using the **RDTSC** or **RDTSCP** processor instruction to directly query the TSC because you won't get reliable results on some versions of Windows, across live migrations of virtual machines, and on hardware systems without invariant or tightly synchronized TSCs. Instead, we encourage you to use [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) to leverage the abstraction, consistency, and portability that it offers.
 
 ### Examples for acquiring time stamps
 
@@ -95,7 +95,7 @@ The various code examples in these sections show how to acquire time stamps.
 
 ### Using QPC in native code
 
-This example shows how to use [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) in C and C++ native code.
+This example shows how to use [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) in C and C++ native code.
 
 
 ```C++
@@ -172,42 +172,42 @@ ElapsedMicroseconds.QuadPart /= Frequency.QuadPart;
 
 ## General FAQ about QPC and TSC
 
-Here are answers to frequently-asked questions about [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) and TSCs in general.
+Here are answers to frequently-asked questions about [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) and TSCs in general.
 
 <dl> <dt>
 
 <span id="Is_QueryPerformanceCounter___the_same_as_the_Win32_GetTickCount___or_________GetTickCount64___function_"></span><span id="is_queryperformancecounter___the_same_as_the_win32_gettickcount___or_________gettickcount64___function_"></span><span id="IS_QUERYPERFORMANCECOUNTER___THE_SAME_AS_THE_WIN32_GETTICKCOUNT___OR_________GETTICKCOUNT64___FUNCTION_"></span>**Is QueryPerformanceCounter() the same as the Win32 GetTickCount() or GetTickCount64() function?**
 </dt> <dd>
 
-No. [**GetTickCount**](https://msdn.microsoft.com/en-us/library/ms724408(v=VS.85).aspx) and [**GetTickCount64**](https://msdn.microsoft.com/en-us/library/ms724411(v=VS.85).aspx) aren't related to [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). **GetTickCount** and **GetTickCount64** return the number of milliseconds since the system was started.
+No. [**GetTickCount**](https://msdn.microsoft.com/library/ms724408(v=VS.85).aspx) and [**GetTickCount64**](https://msdn.microsoft.com/library/ms724411(v=VS.85).aspx) aren't related to [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). **GetTickCount** and **GetTickCount64** return the number of milliseconds since the system was started.
 
 </dd> <dt>
 
 <span id="Should_I_use_QPC_or_call_the_RDTSC__RDTSCP_instructions_directly_"></span><span id="should_i_use_qpc_or_call_the_rdtsc__rdtscp_instructions_directly_"></span><span id="SHOULD_I_USE_QPC_OR_CALL_THE_RDTSC__RDTSCP_INSTRUCTIONS_DIRECTLY_"></span>**Should I use QPC or call the RDTSC /RDTSCP instructions directly?**
 </dt> <dd>
 
-To avoid incorrectness and portability issues, we strongly encourage you to use [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) instead of using the TSC register or the **RDTSC** or **RDTSCP** processor instructions.
+To avoid incorrectness and portability issues, we strongly encourage you to use [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) instead of using the TSC register or the **RDTSC** or **RDTSCP** processor instructions.
 
 </dd> <dt>
 
 <span id="What_is_QPC_s_relation_to_an_external_time_epoch__Can_it_be_synchronized_to_an_________external_epoch_such_as_UTC_"></span><span id="what_is_qpc_s_relation_to_an_external_time_epoch__can_it_be_synchronized_to_an_________external_epoch_such_as_utc_"></span><span id="WHAT_IS_QPC_S_RELATION_TO_AN_EXTERNAL_TIME_EPOCH__CAN_IT_BE_SYNCHRONIZED_TO_AN_________EXTERNAL_EPOCH_SUCH_AS_UTC_"></span>**What is QPC’s relation to an external time epoch? Can it be synchronized to an external epoch such as UTC?**
 </dt> <dd>
 
-[**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is based on a hardware counter that can't be synchronized to an external time reference, such as UTC. For precise time-of-day time stamps that can be synchronized to an external UTC reference, use [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/en-us/library/Hh706895(v=VS.85).aspx).
+[**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is based on a hardware counter that can't be synchronized to an external time reference, such as UTC. For precise time-of-day time stamps that can be synchronized to an external UTC reference, use [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/library/Hh706895(v=VS.85).aspx).
 
 </dd> <dt>
 
 <span id="Is_QPC_affected_by_daylight_savings_time__leap_seconds__time_zones__or_system_________time_changes_made_by_the_administrator_"></span><span id="is_qpc_affected_by_daylight_savings_time__leap_seconds__time_zones__or_system_________time_changes_made_by_the_administrator_"></span><span id="IS_QPC_AFFECTED_BY_DAYLIGHT_SAVINGS_TIME__LEAP_SECONDS__TIME_ZONES__OR_SYSTEM_________TIME_CHANGES_MADE_BY_THE_ADMINISTRATOR_"></span>**Is QPC affected by daylight savings time, leap seconds, time zones, or system time changes made by the administrator?**
 </dt> <dd>
 
-No. [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is completely independent of the system time and UTC.
+No. [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is completely independent of the system time and UTC.
 
 </dd> <dt>
 
 <span id="Is_QPC_accuracy_affected_by_processor_frequency_changes_caused_by_power_________management_or_Turbo_Boost_technology_"></span><span id="is_qpc_accuracy_affected_by_processor_frequency_changes_caused_by_power_________management_or_turbo_boost_technology_"></span><span id="IS_QPC_ACCURACY_AFFECTED_BY_PROCESSOR_FREQUENCY_CHANGES_CAUSED_BY_POWER_________MANAGEMENT_OR_TURBO_BOOST_TECHNOLOGY_"></span>**Is QPC accuracy affected by processor frequency changes caused by power management or Turbo Boost technology?**
 </dt> <dd>
 
-No. If the processor has an invariant TSC, the [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is not affected by these sort of changes. If the processor doesn't have an invariant TSC, **QPC** will revert to a platform hardware timer that won't be affected by processor frequency changes or Turbo Boost technology.
+No. If the processor has an invariant TSC, the [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is not affected by these sort of changes. If the processor doesn't have an invariant TSC, **QPC** will revert to a platform hardware timer that won't be affected by processor frequency changes or Turbo Boost technology.
 
 </dd> <dt>
 
@@ -228,7 +228,7 @@ You don't need to perform such checks.
 <span id="Which_processors_have_non-invariant_TSCs__How_can_I_check_if_my_system_has_a_________non-invariant_TSC_"></span><span id="which_processors_have_non-invariant_tscs__how_can_i_check_if_my_system_has_a_________non-invariant_tsc_"></span><span id="WHICH_PROCESSORS_HAVE_NON-INVARIANT_TSCS__HOW_CAN_I_CHECK_IF_MY_SYSTEM_HAS_A_________NON-INVARIANT_TSC_"></span>**Which processors have non-invariant TSCs? How can I check if my system has a non-invariant TSC?**
 </dt> <dd>
 
-You don't need to perform this check yourself. Windows operating systems perform several checks at system initialization to determine if the TSC is suitable as a basis for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). However, for reference purposes, you can determine whether your processor has an invariant TSC by using one of these:
+You don't need to perform this check yourself. Windows operating systems perform several checks at system initialization to determine if the TSC is suitable as a basis for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). However, for reference purposes, you can determine whether your processor has an invariant TSC by using one of these:
 
 -   the Coreinfo.exe utility from Windows Sysinternals
 -   checking the values returned by the CPUID instruction pertaining to the TSC characteristics
@@ -270,14 +270,14 @@ Not less than 100 years from the most recent system boot, and potentially longer
 <span id="What_is_the_computational_cost_of_calling_QPC_"></span><span id="what_is_the_computational_cost_of_calling_qpc_"></span><span id="WHAT_IS_THE_COMPUTATIONAL_COST_OF_CALLING_QPC_"></span>**What is the computational cost of calling QPC?**
 </dt> <dd>
 
-The computational calling cost of [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is determined primarily by the underlying hardware platform. If the TSC register is used as the basis for QPC, the computational cost is determined primarily by how long the processor takes to process an **RDTSC** instruction. This time ranges from 10s of CPU cycles to several hundred CPU cycles depending upon the processor used. If the TSC can't be used, the system will select a different hardware time basis. Because these time bases are located on the motherboard (for example, on the PCI South Bridge or PCH), the per-call computational cost is higher than the TSC, and is frequently in the vicinity of 0.8 - 1.0 microseconds depending on processor speed and other hardware factors. This cost is dominated by the time required to access the hardware device on the motherboard.
+The computational calling cost of [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is determined primarily by the underlying hardware platform. If the TSC register is used as the basis for QPC, the computational cost is determined primarily by how long the processor takes to process an **RDTSC** instruction. This time ranges from 10s of CPU cycles to several hundred CPU cycles depending upon the processor used. If the TSC can't be used, the system will select a different hardware time basis. Because these time bases are located on the motherboard (for example, on the PCI South Bridge or PCH), the per-call computational cost is higher than the TSC, and is frequently in the vicinity of 0.8 - 1.0 microseconds depending on processor speed and other hardware factors. This cost is dominated by the time required to access the hardware device on the motherboard.
 
 </dd> <dt>
 
 <span id="Does_QPC_require_a_kernel_transition__system_call__"></span><span id="does_qpc_require_a_kernel_transition__system_call__"></span><span id="DOES_QPC_REQUIRE_A_KERNEL_TRANSITION__SYSTEM_CALL__"></span>**Does QPC require a kernel transition (system call)?**
 </dt> <dd>
 
-A kernel transition is not required if the system can use the TSC register as the basis for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). If the system must use a different time base, such as the HPET or PM timer, a system call is required.
+A kernel transition is not required if the system can use the TSC register as the basis for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). If the system must use a different time base, such as the HPET or PM timer, a system call is required.
 
 </dd> <dt>
 
@@ -304,7 +304,7 @@ The answer depends on a variety of factors. For more info, see [Low-level hardwa
 
 ## FAQ about programming with QPC and TSC
 
-Here are answers to frequently-asked questions about programming with [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) and TSCs.
+Here are answers to frequently-asked questions about programming with [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) and TSCs.
 
 <dl> <dt>
 
@@ -324,14 +324,14 @@ As a general principle, delay these computations and conversions as long as poss
 <span id="How_can_I_convert_QPC_to_100_nanosecond_ticks_so_I_can_add_it_to_a_________FILETIME_"></span><span id="how_can_i_convert_qpc_to_100_nanosecond_ticks_so_i_can_add_it_to_a_________filetime_"></span><span id="HOW_CAN_I_CONVERT_QPC_TO_100_NANOSECOND_TICKS_SO_I_CAN_ADD_IT_TO_A_________FILETIME_"></span>**How can I convert QPC to 100 nanosecond ticks so I can add it to a FILETIME?**
 </dt> <dd>
 
-A file time is a 64-bit value that represents the number of 100-nanosecond intervals that have elapsed since 12:00 A.M. January 1, 1601 Coordinated Universal Time (UTC). File times are used by Win32 API calls that return time-of-day, such as [**GetSystemTimeAsFileTime**](https://msdn.microsoft.com/en-us/library/ms724397(v=VS.85).aspx) and [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/en-us/library/Hh706895(v=VS.85).aspx). By contrast, [**QueryPerformanceCounter**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) returns values that represent time in units of 1/(the frequency of the performance counter obtained from [**QueryPerformanceFrequency**](https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx)). Conversion between the two requires calculating the ratio of the **QPC** interval and 100-nanoseconds intervals. Be careful to avoid losing precision because the values might be small (0.0000001 / 0.000000340).
+A file time is a 64-bit value that represents the number of 100-nanosecond intervals that have elapsed since 12:00 A.M. January 1, 1601 Coordinated Universal Time (UTC). File times are used by Win32 API calls that return time-of-day, such as [**GetSystemTimeAsFileTime**](https://msdn.microsoft.com/library/ms724397(v=VS.85).aspx) and [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/library/Hh706895(v=VS.85).aspx). By contrast, [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) returns values that represent time in units of 1/(the frequency of the performance counter obtained from [**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx)). Conversion between the two requires calculating the ratio of the **QPC** interval and 100-nanoseconds intervals. Be careful to avoid losing precision because the values might be small (0.0000001 / 0.000000340).
 
 </dd> <dt>
 
 <span id="Why_is_the_time_stamp_that_is_returned_from_QPC_a_signed_integer_"></span><span id="why_is_the_time_stamp_that_is_returned_from_qpc_a_signed_integer_"></span><span id="WHY_IS_THE_TIME_STAMP_THAT_IS_RETURNED_FROM_QPC_A_SIGNED_INTEGER_"></span>**Why is the time stamp that is returned from QPC a signed integer?**
 </dt> <dd>
 
-Calculations that involve [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) time stamps might involve subtraction. By using a signed value, you can handle calculations that might yield negative values.
+Calculations that involve [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) time stamps might involve subtraction. By using a signed value, you can handle calculations that might yield negative values.
 
 </dd> <dt>
 
@@ -352,7 +352,7 @@ This won't occur on any system that runs Windows XP or later.
 <span id="Do_I_need_to_set_the_thread_affinity_to_a_single_core_to_use_QPC_"></span><span id="do_i_need_to_set_the_thread_affinity_to_a_single_core_to_use_qpc_"></span><span id="DO_I_NEED_TO_SET_THE_THREAD_AFFINITY_TO_A_SINGLE_CORE_TO_USE_QPC_"></span>**Do I need to set the thread affinity to a single core to use QPC?**
 </dt> <dd>
 
-No. For more info, see [Guidance for acquiring time stamps](#guidance-for-acquiring-time-stamps). This scenario is neither necessary nor desirable. Performing this scenario might adversely affect your application's performance by restricting processing to one core or by creating a bottleneck on a single core if multiple threads set their affinity to the same core when calling [**QueryPerformanceCounter**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx).
+No. For more info, see [Guidance for acquiring time stamps](#guidance-for-acquiring-time-stamps). This scenario is neither necessary nor desirable. Performing this scenario might adversely affect your application's performance by restricting processing to one core or by creating a bottleneck on a single core if multiple threads set their affinity to the same core when calling [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -362,11 +362,11 @@ These sections show low-level hardware clock characteristics.
 
 ### Absolute Clocks and Difference Clocks
 
-Absolute clocks provide accurate time-of-day readings. They are typically based on Coordinated Universal Time (UTC) and consequently their accuracy depends in part on how well they are synchronized to an external time reference. Difference clocks measure time intervals and aren't typically based on an external time epoch. [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is a difference clock and isn't synchronized to an external time epoch or reference. When you use **QPC** for time-interval measurements, you typically get better accuracy than you would get by using time stamps that are derived from an absolute clock. This is because the process of synchronizing the time of an absolute clock can introduce phase and frequency shifts that increase the uncertainty of short term time-interval measurements.
+Absolute clocks provide accurate time-of-day readings. They are typically based on Coordinated Universal Time (UTC) and consequently their accuracy depends in part on how well they are synchronized to an external time reference. Difference clocks measure time intervals and aren't typically based on an external time epoch. [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is a difference clock and isn't synchronized to an external time epoch or reference. When you use **QPC** for time-interval measurements, you typically get better accuracy than you would get by using time stamps that are derived from an absolute clock. This is because the process of synchronizing the time of an absolute clock can introduce phase and frequency shifts that increase the uncertainty of short term time-interval measurements.
 
 ### Resolution, Precision, Accuracy, and Stability
 
-[**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) uses a hardware counter as its basis. Hardware timers consist of three parts: a tick generator, a counter that counts the ticks, and a means of retrieving the counter value. The characteristics of these three components determine the resolution, precision, accuracy, and stability of **QPC**.
+[**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) uses a hardware counter as its basis. Hardware timers consist of three parts: a tick generator, a counter that counts the ticks, and a means of retrieving the counter value. The characteristics of these three components determine the resolution, precision, accuracy, and stability of **QPC**.
 
 If a hardware generator provides ticks at a constant rate, time intervals can be measured by simply counting these ticks. The rate at which the ticks are generated is called the frequency and expressed in Hertz (Hz). The reciprocal of the frequency is called the period or tick interval and is expressed in an appropriate International System of Units (SI) time unit (for example, second, millisecond, microsecond, or nanosecond).
 
@@ -384,14 +384,14 @@ The following two diagrams illustrate the impact of the ± 1 tick uncertainty by
 
 ![tick uncertainty](images/tick-uncertainty.png)
 
-[**QueryPerformanceFrequency**](https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx) returns the frequency of [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx), and the period and resolution are equal to the reciprocal of this value. The performance counter frequency that **QueryPerformanceFrequency** returns is determined during system initialization and doesn't change while the system is running.
+[**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx) returns the frequency of [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx), and the period and resolution are equal to the reciprocal of this value. The performance counter frequency that **QueryPerformanceFrequency** returns is determined during system initialization and doesn't change while the system is running.
 
 > [!Note]  
-> Cases might exist where [**QueryPerformanceFrequency**](https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx) doesn't return the actual frequency of the hardware tick generator. For example, in many cases, **QueryPerformanceFrequency** returns the TSC frequency divided by 1024; and on Hyper-V, the performance counter frequency is always 10 MHz when the guest virtual machine runs under a [hypervisor](https://msdn.microsoft.com/library/Ff542584(v=VS.85).aspx) that implements the [hypervisor version 1.0 interface](https://msdn.microsoft.com/library/Ff541458(v=VS.85).aspx). As a result, don't assume that **QueryPerformanceFrequency** will return the precise TSC frequency.
+> Cases might exist where [**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx) doesn't return the actual frequency of the hardware tick generator. For example, in many cases, **QueryPerformanceFrequency** returns the TSC frequency divided by 1024; and on Hyper-V, the performance counter frequency is always 10 MHz when the guest virtual machine runs under a [hypervisor](https://msdn.microsoft.com/library/Ff542584(v=VS.85).aspx) that implements the [hypervisor version 1.0 interface](https://msdn.microsoft.com/library/Ff541458(v=VS.85).aspx). As a result, don't assume that **QueryPerformanceFrequency** will return the precise TSC frequency.
 
  
 
-[**QueryPerformanceCounter**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) reads the performance counter and returns the total number of ticks that have occurred since the Windows operating system was started, including the time when the machine was in a sleep state such as standby, hibernate, or connected standby.
+[**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) reads the performance counter and returns the total number of ticks that have occurred since the Windows operating system was started, including the time when the machine was in a sleep state such as standby, hibernate, or connected standby.
 
 These examples show how to calculate the tick interval and resolution and how to convert the tick count into a time value.
 
@@ -400,7 +400,7 @@ These examples show how to calculate the tick interval and resolution and how to
 <span id="Example_1"></span><span id="example_1"></span><span id="EXAMPLE_1"></span>**Example 1**
 </dt> <dd>
 
-[**QueryPerformanceFrequency**](https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx) returns the value 3,125,000 on a particular machine. What is the tick interval and resolution of [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) measurements on this machine? The tick interval, or period, is the reciprocal of 3,125,000, which is 0.000000320 (320 nanoseconds). Therefore, each tick represents the passing of 320 nanoseconds. Time intervals smaller than 320 nanoseconds can't be measured on this machine.
+[**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx) returns the value 3,125,000 on a particular machine. What is the tick interval and resolution of [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) measurements on this machine? The tick interval, or period, is the reciprocal of 3,125,000, which is 0.000000320 (320 nanoseconds). Therefore, each tick represents the passing of 320 nanoseconds. Time intervals smaller than 320 nanoseconds can't be measured on this machine.
 
 Tick Interval = 1/(Performance Frequency)
 
@@ -411,7 +411,7 @@ Tick Interval = 1/3,125,000 = 320 ns
 <span id="Example_2"></span><span id="example_2"></span><span id="EXAMPLE_2"></span>**Example 2**
 </dt> <dd>
 
-On the same machine as the preceding example, the difference of the values returned from two successive calls to [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is 5. How much time has elapsed between the two calls? 5 ticks multiplied by 320 nanoseconds yields 1.6 microseconds.
+On the same machine as the preceding example, the difference of the values returned from two successive calls to [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is 5. How much time has elapsed between the two calls? 5 ticks multiplied by 320 nanoseconds yields 1.6 microseconds.
 
 ElapsedTime = Ticks \* Tick Interval
 
@@ -423,7 +423,7 @@ It takes time to access (read) the tick counter from software, and this access t
 
 Precision = MAX \[ Resolution, AccessTime\]
 
-For example, consider a hypothetical hardware timer with a 100 nanosecond resolution and an 800 nanosecond access time. This might be the case if the platform timer were used instead of the TSC register as the basis of [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). Thus, the precision would be 800 nanoseconds not 100 nanoseconds as shown in this calculation.
+For example, consider a hypothetical hardware timer with a 100 nanosecond resolution and an 800 nanosecond access time. This might be the case if the platform timer were used instead of the TSC register as the basis of [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). Thus, the precision would be 800 nanoseconds not 100 nanoseconds as shown in this calculation.
 
 Precision = MAX \[800 ns,100 ns\] = 800 ns
 
@@ -433,7 +433,7 @@ These two figures depict this effect.
 
 If the access time is greater than the resolution, don't try to improve the precision by guessing. In other words, it's an error to assume that the time stamp is taken precisely in the middle, or at the beginning or the end of the call.
 
-By contrast, consider the following example in which the [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) access time is only 20 nanoseconds and the hardware clock resolution is 100 nanoseconds. This might be the case if the TSC register was used as the basis for **QPC**. Here the precision is limited by the clock resolution.
+By contrast, consider the following example in which the [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) access time is only 20 nanoseconds and the hardware clock resolution is 100 nanoseconds. This might be the case if the TSC register was used as the basis for **QPC**. Here the precision is limited by the clock resolution.
 
 ![qpc precision](images/qpc-precision.png)
 
@@ -453,7 +453,7 @@ This table provides info on the approximate resolution, access time, and precisi
 
  
 
-Because [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) uses a hardware counter, when you understand some basic characteristics of hardware counters, you gain understanding about the capabilities and limitations of **QPC**.
+Because [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) uses a hardware counter, when you understand some basic characteristics of hardware counters, you gain understanding about the capabilities and limitations of **QPC**.
 
 The most commonly used hardware tick generator is a crystal oscillator. The crystal is a small piece of quartz or other ceramic material that exhibits piezoelectric characteristics that provide an inexpensive frequency reference with excellent stability and accuracy. This frequency is used to generate the ticks counted by the clock.
 
@@ -552,10 +552,10 @@ Some Intel and AMD processors contain a TSC register that is a 64-bit register t
 
 Although the TSC register seems like an ideal time stamp mechanism, here are circumstances in which it can't function reliably for timekeeping purposes:
 
--   Not all processors have TSC registers, so using the TSC register in software directly creates a portability problem. (Windows will select an alternative time source for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) in this case, which avoids the portability problem.)
--   Some processors can vary the frequency of the TSC clock or stop the advancement of the TSC register, which makes the TSC unsuitable for timing purposes on these processors. These processors are said to have non-invariant TSC registers. (Windows will automatically detect this, and select an alternative time source for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx)).
--   On multi-processor or multi-core systems, some processors and systems are unable to synchronize the clocks on each core to the same value. (Windows will automatically detect this, and select an alternative time source for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx)).
--   On some large multi-processor systems, you might not be able to synchronize the processor clocks to the same value even if the processor has an invariant TSC. (Windows will automatically detect this, and select an alternative time source for [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx)).
+-   Not all processors have TSC registers, so using the TSC register in software directly creates a portability problem. (Windows will select an alternative time source for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) in this case, which avoids the portability problem.)
+-   Some processors can vary the frequency of the TSC clock or stop the advancement of the TSC register, which makes the TSC unsuitable for timing purposes on these processors. These processors are said to have non-invariant TSC registers. (Windows will automatically detect this, and select an alternative time source for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)).
+-   On multi-processor or multi-core systems, some processors and systems are unable to synchronize the clocks on each core to the same value. (Windows will automatically detect this, and select an alternative time source for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)).
+-   On some large multi-processor systems, you might not be able to synchronize the processor clocks to the same value even if the processor has an invariant TSC. (Windows will automatically detect this, and select an alternative time source for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)).
 -   Some processors will execute instructions out of order. This can result in incorrect cycle counts when **RDTSC** is used to time instruction sequences because the **RDTSC** instruction might be executed at a different time than specified in your program. The **RDTSCP** instruction has been introduced on some processors in response to this problem.
 
 Like other timers, the TSC is based on a crystal oscillator whose exact frequency is not known in advance and that has a frequency offset error. Thus before it can be used, it must be calibrated using another timing reference.

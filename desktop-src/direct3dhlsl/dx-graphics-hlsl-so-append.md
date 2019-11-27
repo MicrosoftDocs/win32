@@ -43,7 +43,7 @@ None
 
 ## Example
 
-This code snippet (from the [CubeMapGS Sample](https://msdn.microsoft.com/en-us/library/Ee416398(v=VS.85).aspx)) shows a partial example of appending triangle strip primitives to a stream-output object.
+This code snippet (from the [CubeMapGS Sample](https://msdn.microsoft.com/library/Ee416398(v=VS.85).aspx)) shows a partial example of appending triangle strip primitives to a stream-output object.
 
 
 ```

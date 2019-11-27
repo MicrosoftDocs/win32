@@ -13,7 +13,7 @@ The Web Services on Devices programming interface defines and uses the following
 -   [**IWSDAddress**](/windows/desktop/api/Wsdbase/nn-wsdbase-iwsdaddress)
 -   [**IWSDAsyncCallback**](/windows/desktop/api/WsdClient/nn-wsdclient-iwsdasynccallback)
 -   [**IWSDAsyncResult**](/windows/desktop/api/WsdClient/nn-wsdclient-iwsdasyncresult)
--   [**IWSDAttachment**](https://msdn.microsoft.com/en-us/library/Aa385940(v=VS.85).aspx)
+-   [**IWSDAttachment**](https://msdn.microsoft.com/library/Aa385940(v=VS.85).aspx)
 -   [**IWSDDeviceHost**](/windows/desktop/api/WsdHost/nn-wsdhost-iwsddevicehost)
 -   [**IWSDDeviceHostNotify**](/windows/desktop/api/WsdHost/nn-wsdhost-iwsddevicehostnotify)
 -   [**IWSDDeviceProxy**](/windows/desktop/api/WsdClient/nn-wsdclient-iwsddeviceproxy)

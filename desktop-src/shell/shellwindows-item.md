@@ -45,7 +45,7 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 ## Return value
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
 
 An object reference to the [**InternetExplorer**](https://msdn.microsoft.com/library/Aa752084(v=VS.85).aspx) object that represents the Shell window.
 

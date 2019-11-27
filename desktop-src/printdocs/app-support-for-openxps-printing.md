@@ -20,7 +20,7 @@ Here's a brief summary of the **IPrintDocumentPackageTarget** interface:
 
 -   This interface supports printing from tailored solutions as well as desktop applications.
 
--   For desktops apps, this can be used in place of [**StartXpsPrintJob1**](https://msdn.microsoft.com/en-us/library/Ff970306(v=VS.85).aspx).
+-   For desktops apps, this can be used in place of [**StartXpsPrintJob1**](https://msdn.microsoft.com/library/Ff970306(v=VS.85).aspx).
 
 -   Available on Windows 7 with Service Pack 1 (SP1) + Platform Update, and Windows 8.
 

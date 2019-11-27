@@ -13,7 +13,7 @@ Multihead cards are those that have a common frame buffer and accelerator, indep
 Multihead cards are exposed in the API as a single API-level device that can drive several full-screen swap chains. Consequently, all resources are shared with all the heads, and each head has exactly the same capabilities. Each head can be set to independent display modes. You can use separate calls to [**IDirect3DSwapChain9::Present**](/windows/desktop/api) to refresh each head. You can also use one call to [**IDirect3DDevice9::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx) to refresh each head sequentially.
 
 > [!Note]  
-> The refresh of each head does not occur simultaneously with a single call to [**IDirect3DDevice9::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx). Present statistics in Direct3D 9Ex can use the [**D3DPRESENTSTATS**](d3dpresentstats.md) structure to keep the refreshes to each head close to each other to limit tearing effects across multiple heads of adapters. For information about synchronizing frames of Direct3D 9Ex flip model applications, see [Direct3D 9Ex Improvements](https://msdn.microsoft.com/en-us/library/Ee890072(v=VS.85).aspx).
+> The refresh of each head does not occur simultaneously with a single call to [**IDirect3DDevice9::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx). Present statistics in Direct3D 9Ex can use the [**D3DPRESENTSTATS**](d3dpresentstats.md) structure to keep the refreshes to each head close to each other to limit tearing effects across multiple heads of adapters. For information about synchronizing frames of Direct3D 9Ex flip model applications, see [Direct3D 9Ex Improvements](https://msdn.microsoft.com/library/Ee890072(v=VS.85).aspx).
 
  
 

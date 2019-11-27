@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Registering SSP/AP DLLs
 
-After developing a [*security support provider*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx)/[*authentication package*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) dynamic-link library (SSP/AP DLL) containing one or more custom [*security packages*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx), you must register it. To do so, add the name of your custom SSP/AP DLL to the data of the following registry value:
+After developing a [*security support provider*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)/[*authentication package*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) dynamic-link library (SSP/AP DLL) containing one or more custom [*security packages*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), you must register it. To do so, add the name of your custom SSP/AP DLL to the data of the following registry value:
 
 **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\**Lsa**\\**Security Packages**
 

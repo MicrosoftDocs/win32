@@ -19,5 +19,5 @@ The Distributed File System (DFS) functions provide the ability to logically gro
 
 <dl> <dt>
 
-[DFS WMI Provider](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmipdfs/dfs-provider)
+[DFS WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/wmipdfs/dfs-provider)
 </dt> </dl>

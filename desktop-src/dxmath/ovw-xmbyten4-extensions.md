@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMBYTEN4 Extensions
 
-[**XMBYTEN4**](https://msdn.microsoft.com/en-us/library/Ee419284(v=VS.85).aspx) describes a 3D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
+[**XMBYTEN4**](https://msdn.microsoft.com/library/Ee419284(v=VS.85).aspx) describes a 3D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,7 +35,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMBYTEN4**](https://msdn.microsoft.com/en-us/library/Ee419284(v=VS.85).aspx)
+[**XMBYTEN4**](https://msdn.microsoft.com/library/Ee419284(v=VS.85).aspx)
 </dt> </dl>
 
  

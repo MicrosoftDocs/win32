@@ -77,7 +77,7 @@ To obtain the list of pointers, the application passes an array of [**IWiaItem2*
 
 Until the enumeration process completes, the **IEnumWiaItem2::Next** method returns S\_OK. Each time it does, it sets the value pointed to by *pcEltFetched* to the number of items it inserted into the array. When **IEnumWiaItem2::Next** finishes the process of enumerating [**IWiaItem2**](-wia-iwiaitem2.md) objects, it returns S\_FALSE and sets the memory location pointed to by *pcEltFetched* to zero.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
 
 ## Requirements
 

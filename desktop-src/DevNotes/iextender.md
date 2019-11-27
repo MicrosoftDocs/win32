@@ -54,7 +54,7 @@ The **IExtender** interface provides a set of basic properties that are added to
 
 ## Members
 
-The **IExtender** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IExtender** also has these types of members:
+The **IExtender** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IExtender** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

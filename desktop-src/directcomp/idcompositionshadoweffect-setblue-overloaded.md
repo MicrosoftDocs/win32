@@ -24,8 +24,8 @@ Sets the blue value for the color of the shadow.
 
 | Method                                                                             | Description                                                 |
 |:-----------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**SetBlue (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919770(v=VS.85).aspx) | Sets the blue value for the color of the shadow.<br/> |
-| [**SetBlue**](https://msdn.microsoft.com/en-us/library/Dn919769(v=VS.85).aspx)                               | Sets the blue value for the color of the shadow.<br/> |
+| [**SetBlue (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919770(v=VS.85).aspx) | Sets the blue value for the color of the shadow.<br/> |
+| [**SetBlue**](https://msdn.microsoft.com/library/Dn919769(v=VS.85).aspx)                               | Sets the blue value for the color of the shadow.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the blue value for the color of the shadow.
 
 <dl> <dt>
 
-[**IDCompositionShadowEffect**](https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx)
+[**IDCompositionShadowEffect**](https://msdn.microsoft.com/library/Dn919766(v=VS.85).aspx)
 </dt> </dl>
 
 �

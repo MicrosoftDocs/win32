@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SFVM\_GETANIMATION message
 
-Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++
@@ -37,7 +37,7 @@ The instance handle of the module that the resource should be loaded from.
 *pwszName* \[out\]
 </dt> <dd>
 
-A pointer to a null-terminated Unicode string containing the path of the .avi file or the name of an AVI resource. Alternatively, this parameter can consist of the resource identifier in the low-order word and 0 in the high-order word. To create this value, use the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx) macro. The control loads the resource from the module specified by hinst. An AVI resource must have the "AVI" type.
+A pointer to a null-terminated Unicode string containing the path of the .avi file or the name of an AVI resource. Alternatively, this parameter can consist of the resource identifier in the low-order word and 0 in the high-order word. To create this value, use the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx) macro. The control loads the resource from the module specified by hinst. An AVI resource must have the "AVI" type.
 
 </dd> </dl>
 
@@ -45,7 +45,7 @@ A pointer to a null-terminated Unicode string containing the path of the .avi fi
 
 By default, the system folder view object displays the "flashlight" animation during a background enumeration.
 
-*phinst* and *pwszName* will be passed to the [animation control](https://msdn.microsoft.com/library/Bb761884(v=VS.85).aspx) with an [**ACM\_OPEN**](https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx) message.
+*phinst* and *pwszName* will be passed to the [animation control](https://msdn.microsoft.com/library/Bb761884(v=VS.85).aspx) with an [**ACM\_OPEN**](https://msdn.microsoft.com/library/Bb761897(v=VS.85).aspx) message.
 
 ## Requirements
 

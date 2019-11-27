@@ -43,7 +43,7 @@ typedef struct D3DRECTPATCH_INFO {
 **StartVertexOffsetWidth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -54,7 +54,7 @@ Starting vertex offset width, in number of vertices.
 **StartVertexOffsetHeight**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ Starting vertex offset height, in number of vertices.
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ Width of each vertex, in number of vertices.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Height of each vertex, in number of vertices.
 **Stride**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -98,11 +98,11 @@ Width of the imaginary two-dimensional vertex array, which occupies the same spa
 **Basis**
 </dt> <dd>
 
-Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb172507(v=VS.85).aspx)**
+Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb172507(v=VS.85).aspx) enumerated type, defining the basis type for the rectangular high-order patch.
+Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx) enumerated type, defining the basis type for the rectangular high-order patch.
 
 
 
@@ -121,11 +121,11 @@ Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb1725
 **Degree**
 </dt> <dd>
 
-Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx)**
+Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx) enumerated type, defining the degree for the rectangular patch.
+Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx) enumerated type, defining the degree for the rectangular patch.
 
 </dd> </dl>
 

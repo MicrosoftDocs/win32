@@ -19,7 +19,7 @@ api_location:
 
 \[The **Open** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/d228271e(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Open** method opens a specified [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). By default, the CAPICOM\_CURRENT\_USER\_STORE location and CAPICOM\_MY\_STORE store are opened as read-only.
+The **Open** method opens a specified [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). By default, the CAPICOM\_CURRENT\_USER\_STORE location and CAPICOM\_MY\_STORE store are opened as read-only.
 
 ## Syntax
 

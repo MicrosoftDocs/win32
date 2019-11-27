@@ -27,7 +27,7 @@ The `IAMTimelineSplittable` interface splits a timeline object in [DirectShow Ed
 
 ## Members
 
-The **IAMTimelineSplittable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineSplittable** also has these types of members:
+The **IAMTimelineSplittable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineSplittable** also has these types of members:
 
 -   [Methods](#methods)
 

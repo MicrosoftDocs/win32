@@ -50,7 +50,7 @@ Algorithms that can be implemented in the geometry shader include:
 -   Shadow Volume Generation
 -   Single Pass Render-to-Cubemap
 -   Per-Primitive Material Swapping
--   Per-Primitive Material Setup - Including generation of barycentric coordinates as primitive data so that a pixel shader can perform custom attribute interpolation (for an example of higher-order normal interpolation, see [CubeMapGS Sample](https://msdn.microsoft.com/en-us/library/Ee416398(v=VS.85).aspx)).
+-   Per-Primitive Material Setup - Including generation of barycentric coordinates as primitive data so that a pixel shader can perform custom attribute interpolation (for an example of higher-order normal interpolation, see [CubeMapGS Sample](https://msdn.microsoft.com/library/Ee416398(v=VS.85).aspx)).
 
 ## Related topics
 

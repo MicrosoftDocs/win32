@@ -8,8 +8,8 @@ ms.date: 05/31/2018
 
 # Message Structures
 
--   [**BSMINFO**](https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx)
--   [**MSG**](https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx)
+-   [**BSMINFO**](https://msdn.microsoft.com/library/ms644957(v=VS.85).aspx)
+-   [**MSG**](https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx)
 
  
 

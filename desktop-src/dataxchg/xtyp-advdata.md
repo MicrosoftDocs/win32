@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_ADVDATA transaction
 
-Informs the client that the value of the data item has changed. The Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives this transaction after establishing an advise loop with a server.
+Informs the client that the value of the data item has changed. The Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction after establishing an advise loop with a server.
 
 
 ```C++

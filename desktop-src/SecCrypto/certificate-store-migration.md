@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Certificate Store Migration
 
-During a computer upgrade or a computer-to-computer migration, the certificates in certain certificate stores will be migrated. The following table lists the certificate stores that are migrated by default. For the system Automatic Certificate Request Settings (ACRS) store, only the [*certificate trust lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CTLs) are migrated. For all other stores listed below, only the certificates are migrated.
+During a computer upgrade or a computer-to-computer migration, the certificates in certain certificate stores will be migrated. The following table lists the certificate stores that are migrated by default. For the system Automatic Certificate Request Settings (ACRS) store, only the [*certificate trust lists*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CTLs) are migrated. For all other stores listed below, only the certificates are migrated.
 
 <table>
 <thead>

@@ -60,7 +60,7 @@ A **String** that contains the path of the file to add to the list of recently u
 *bstrCategory* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the category in which to place the file.
 

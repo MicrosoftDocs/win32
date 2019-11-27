@@ -41,7 +41,7 @@ typedef struct D3DXSHADER_CONSTANTINFO {
 **Name**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,18 +52,18 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **RegisterSet**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Register set. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/en-us/library/Bb205424(v=VS.85).aspx).
+Register set. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/library/Bb205424(v=VS.85).aspx).
 
 </dd> <dt>
 
 **RegisterIndex**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ The register index.
 **RegisterCount**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Number of registers.
 **Reserved**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -96,7 +96,7 @@ Reserved.
 **TypeInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -107,7 +107,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **DefaultValue**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

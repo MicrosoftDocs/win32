@@ -17,7 +17,7 @@ The Structured Storage enumerations are described in the following sections.
 -   [**LOCKTYPE**](/windows/win32/api/objidl/ne-objidl-locktype)
 -   [**STATFLAG**](/windows/win32/api/wtypes/ne-wtypes-statflag)
 -   [**STGC**](/windows/win32/api/wtypes/ne-wtypes-stgc)
--   [**STGFMT**](https://msdn.microsoft.com/en-us/library/Aa380330(v=VS.85).aspx)
+-   [**STGFMT**](https://msdn.microsoft.com/library/Aa380330(v=VS.85).aspx)
 -   [**STGMOVE**](/windows/win32/api/wtypes/ne-wtypes-stgmove)
 -   [**STGTY**](/windows/win32/api/objidl/ne-objidl-stgty)
 -   [**STREAM\_SEEK**](/windows/win32/api/objidl/ne-objidl-stream_seek)

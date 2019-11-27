@@ -49,21 +49,21 @@ Handle to a kernel-mode DirectDraw object, previously created with [**NtGdiDdCre
 *hSurfColor* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the DirectDraw surface to be used as the rendering target.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the DirectDraw surface to be used as the rendering target.
 
 </dd> <dt>
 
 *hSurfZ* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the DirectDraw surface to be used as a depth buffer. If this member is **NULL**, no depth buffering is to be performed.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the DirectDraw surface to be used as a depth buffer. If this member is **NULL**, no depth buffering is to be performed.
 
 </dd> <dt>
 
 *pdcci* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_CONTEXTCREATEDATA**](https://msdn.microsoft.com/en-us/library/Ff549031(v=VS.85).aspx) structure that contains the information required to create a context and the data that the driver should store in the new context.
+Pointer to a [**D3DNTHAL\_CONTEXTCREATEDATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required to create a context and the data that the driver should store in the new context.
 
 </dd> </dl>
 

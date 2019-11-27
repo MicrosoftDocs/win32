@@ -16,7 +16,7 @@ Group-of-pictures (GOP) start time code, for an MPEG-1 or MPEG-2 video media typ
 
 ## Remarks
 
-This attribute corresponds to the **dwStartTimeCode** member of the [**MPEG1VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx) and [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx) structures.
+This attribute corresponds to the **dwStartTimeCode** member of the [**MPEG1VIDEOINFO**](https://msdn.microsoft.com/library/Dd390700(v=VS.85).aspx) and [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/library/Dd390707(v=VS.85).aspx) structures.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

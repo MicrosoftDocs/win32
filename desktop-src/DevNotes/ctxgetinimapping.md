@@ -52,7 +52,7 @@ This function returns **FALSE** if the Terminal Server is in INSTALL mode, **TRU
 
 <dl> <dt>
 
-[**VerifyVersionInfo**](https://msdn.microsoft.com/en-us/library/ms725492(v=VS.85).aspx)
+[**VerifyVersionInfo**](https://msdn.microsoft.com/library/ms725492(v=VS.85).aspx)
 </dt> </dl>
 
  

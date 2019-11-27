@@ -63,11 +63,11 @@ This function takes six parameters:
 -   The width of the image in pixels.
 -   The height of the image in pixels.
 
-The general idea is to process one row at a time, iterating over each pixel in the row. Assume that SOURCE\_PIXEL\_TYPE and DEST\_PIXEL\_TYPE are structures representing the pixel layout for the source and destination images, respectively. (For example, 32-bit RGB uses the [**RGBQUAD**](https://msdn.microsoft.com/en-us/library/Dd162938(v=VS.85).aspx) structure. Not every pixel format has a predefined structure.) Casting the array pointer to the structure type enables you to access the RGB or YUV components of each pixel. At the start of each row, the function stores a pointer to the row. At the end of the row, it increments the pointer by the width of the image stride, which advances the pointer to the next row.
+The general idea is to process one row at a time, iterating over each pixel in the row. Assume that SOURCE\_PIXEL\_TYPE and DEST\_PIXEL\_TYPE are structures representing the pixel layout for the source and destination images, respectively. (For example, 32-bit RGB uses the [**RGBQUAD**](https://msdn.microsoft.com/library/Dd162938(v=VS.85).aspx) structure. Not every pixel format has a predefined structure.) Casting the array pointer to the structure type enables you to access the RGB or YUV components of each pixel. At the start of each row, the function stores a pointer to the row. At the end of the row, it increments the pointer by the width of the image stride, which advances the pointer to the next row.
 
 This example calls a hypothetical function named TransformPixelValue for each pixel. This could be any function that calculates a target pixel from a source pixel. Of course, the exact details will depend on the particular task. For example, if you have a planar YUV format, you must access the chroma planes independently from the luma plane; with interlaced video, you might need to process the fields separately; and so forth.
 
-To give a more concrete example, the following code converts a 32-bit RGB image into an AYUV image. The RGB pixels are accessed using an [**RGBQUAD**](https://msdn.microsoft.com/en-us/library/Dd162938(v=VS.85).aspx) structure, and the AYUV pixels are accessed using a [**DXVA2\_AYUVSample8**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8) structure structure.
+To give a more concrete example, the following code converts a 32-bit RGB image into an AYUV image. The RGB pixels are accessed using an [**RGBQUAD**](https://msdn.microsoft.com/library/Dd162938(v=VS.85).aspx) structure, and the AYUV pixels are accessed using a [**DXVA2\_AYUVSample8**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8) structure structure.
 
 
 ```C++

@@ -20,7 +20,7 @@ An application should not assume a rigid progression from one state to another. 
 
 All telephony service providers must supply this information.
 
-**TAPI 2.x:  **[**lineGetCallStatus**](https://msdn.microsoft.com/en-us/library/ms735723(v=VS.85).aspx), [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx), [**LINE\_CALLSTATE**](https://msdn.microsoft.com/en-us/library/ms736520(v=VS.85).aspx) message, [LINECALLSTATE\_ Constants](https://msdn.microsoft.com/en-us/library/ms735543(v=VS.85).aspx)
+**TAPI 2.x:  **[**lineGetCallStatus**](https://msdn.microsoft.com/library/ms735723(v=VS.85).aspx), [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx), [**LINE\_CALLSTATE**](https://msdn.microsoft.com/library/ms736520(v=VS.85).aspx) message, [LINECALLSTATE\_ Constants](https://msdn.microsoft.com/library/ms735543(v=VS.85).aspx)
 
 **TAPI 3.x:  **[**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong) (**CIL\_CALLID** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long)), [**ITCallStateEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent) notification, [**CALL\_STATE**](/windows/desktop/api/Tapi3if/ne-tapi3if-call_state) enumerator
 

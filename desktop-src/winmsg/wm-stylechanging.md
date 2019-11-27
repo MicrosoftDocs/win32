@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_STYLECHANGING message
 
-Sent to a window when the [**SetWindowLong**](https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx) function is about to change one or more of the window's styles.
+Sent to a window when the [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx) function is about to change one or more of the window's styles.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -44,7 +44,7 @@ Indicates whether the window's styles or extended window styles are changing. Th
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**STYLESTRUCT**](https://msdn.microsoft.com/en-us/library/ms632607(v=VS.85).aspx) structure that contains the proposed new styles for the window. An application can examine the styles and, if necessary, change them.
+A pointer to a [**STYLESTRUCT**](https://msdn.microsoft.com/library/ms632607(v=VS.85).aspx) structure that contains the proposed new styles for the window. An application can examine the styles and, if necessary, change them.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ An application should return zero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**STYLESTRUCT**](https://msdn.microsoft.com/en-us/library/ms632607(v=VS.85).aspx)
+[**STYLESTRUCT**](https://msdn.microsoft.com/library/ms632607(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_STYLECHANGED**](wm-stylechanged.md)

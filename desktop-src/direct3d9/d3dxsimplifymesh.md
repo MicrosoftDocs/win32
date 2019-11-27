@@ -53,7 +53,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the source m
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be simplified.
 
@@ -71,7 +71,7 @@ Pointer to a [**D3DXATTRIBUTEWEIGHTS**](d3dxattributeweights.md) structure, cont
 *pVertexWeights* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of vertex weights. If this parameter is set to **NULL**, all vertex weights are set to 1.0.
 
@@ -80,7 +80,7 @@ Pointer to an array of vertex weights. If this parameter is set to **NULL**, all
 *MinValue* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices or faces, depending on the flag set in the *Options* parameter, by which to simplify the source mesh.
 
@@ -89,9 +89,9 @@ Number of vertices or faces, depending on the flag set in the *Options* paramete
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Specifies simplification options for the mesh. One of the flags in [**D3DXMESHSIMP**](https://msdn.microsoft.com/en-us/library/Bb205375(v=VS.85).aspx) can be set.
+Specifies simplification options for the mesh. One of the flags in [**D3DXMESHSIMP**](https://msdn.microsoft.com/library/Bb205375(v=VS.85).aspx) can be set.
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ Address of a pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

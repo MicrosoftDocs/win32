@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1RenderTarget::CreateRadialGradientBrush methods
 
-Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) object that can be used to paint areas with a radial gradient.
+Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx) object that can be used to paint areas with a radial gradient.
 
 ### Overload list
 
@@ -24,9 +24,9 @@ Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/libra
 
 | Method                                                                                                                                                                                                                       | Description                                                                                                                                                                      |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateRadialGradientBrush(D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1RadialGradientBrush\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371859(v=VS.85).aspx)                            | Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) that contains the specified gradient stops, has no transform, and has a base opacity of 1.0. <br/> |
-| [**CreateRadialGradientBrush(D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES&,D2D1\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1RadialGradientBrush\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371861(v=VS.85).aspx)   | Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
-| [**CreateRadialGradientBrush(D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES\*,D2D1\_BRUSH\_PROPERTIES\*,ID2D1GradientStopCollection\*,ID2D1RadialGradientBrush\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371855(v=VS.85).aspx) | Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
+| [**CreateRadialGradientBrush(D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1RadialGradientBrush\*\*)**](https://msdn.microsoft.com/library/Dd371859(v=VS.85).aspx)                            | Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx) that contains the specified gradient stops, has no transform, and has a base opacity of 1.0. <br/> |
+| [**CreateRadialGradientBrush(D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES&,D2D1\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1RadialGradientBrush\*\*)**](https://msdn.microsoft.com/library/Dd371861(v=VS.85).aspx)   | Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
+| [**CreateRadialGradientBrush(D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES\*,D2D1\_BRUSH\_PROPERTIES\*,ID2D1GradientStopCollection\*,ID2D1RadialGradientBrush\*\*)**](https://msdn.microsoft.com/library/Dd371855(v=VS.85).aspx) | Creates an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
 
 
 
@@ -50,7 +50,7 @@ For an example, see [How to Create a Radial Gradient Brush](how-to-create-a-radi
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> <dt>
 
 [How to Create a Radial Gradient Brush](how-to-create-a-radial-gradient-brush.md)

@@ -52,43 +52,43 @@ Texture containing the displacement data.
 *MinFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx)**
 
-Minification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx).
+Minification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx).
 
 </dd> <dt>
 
 *MagFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx)**
 
-Magnification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx).
+Magnification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx).
 
 </dd> <dt>
 
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx)**
 
-Mip filter level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx).
+Mip filter level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx).
 
 </dd> <dt>
 
 *Wrap* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/en-us/library/Bb172614(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx)**
 
-Texture address wrap mode. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/en-us/library/Bb172614(v=VS.85).aspx)
+Texture address wrap mode. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx)
 
 </dd> <dt>
 
 *dwLODBias* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Level of detail bias value.
 
@@ -96,7 +96,7 @@ Level of detail bias value.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

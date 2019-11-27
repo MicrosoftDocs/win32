@@ -16,13 +16,13 @@ Some sessions may require special setup parameters, if supported by the service 
 
 Once a session has been initiated, TAPI will inform the application of call progress using the event notification mechanism set up during initialization.
 
-**TAPI 2.x:** Applications initiate a session using the [**lineMakeCall**](https://msdn.microsoft.com/en-us/library/ms735988(v=VS.85).aspx) function. The [**lineTranslateAddress**](https://msdn.microsoft.com/en-us/library/ms736136(v=VS.85).aspx) function is used to perform address translation, if required.
+**TAPI 2.x:** Applications initiate a session using the [**lineMakeCall**](https://msdn.microsoft.com/library/ms735988(v=VS.85).aspx) function. The [**lineTranslateAddress**](https://msdn.microsoft.com/library/ms736136(v=VS.85).aspx) function is used to perform address translation, if required.
 
-Call setup parameters can be stored in the [**LINECALLPARAMS**](https://msdn.microsoft.com/en-us/library/ms735534(v=VS.85).aspx) data structure, and a pointer to this structure is then used as a parameter of [**lineMakeCall**](https://msdn.microsoft.com/en-us/library/ms735988(v=VS.85).aspx). If no **LINECALLPARAMS** structure is supplied to **lineMakeCall**, a default POTS voice-grade call is requested with a set of default values.
+Call setup parameters can be stored in the [**LINECALLPARAMS**](https://msdn.microsoft.com/library/ms735534(v=VS.85).aspx) data structure, and a pointer to this structure is then used as a parameter of [**lineMakeCall**](https://msdn.microsoft.com/library/ms735988(v=VS.85).aspx). If no **LINECALLPARAMS** structure is supplied to **lineMakeCall**, a default POTS voice-grade call is requested with a set of default values.
 
-If the session is set up successfully, a call handle with *owner* [privileges](privilege-ovr.md) is returned to the application and TAPI sends the application [**LINE\_CALLSTATE**](https://msdn.microsoft.com/en-us/library/ms736520(v=VS.85).aspx) messages with information concerning the call's progress. Applications typically use these messages to display status reports to the user.
+If the session is set up successfully, a call handle with *owner* [privileges](privilege-ovr.md) is returned to the application and TAPI sends the application [**LINE\_CALLSTATE**](https://msdn.microsoft.com/library/ms736520(v=VS.85).aspx) messages with information concerning the call's progress. Applications typically use these messages to display status reports to the user.
 
-**TAPI 3.x:** Applications initiate a communications session by invoking the [**ITAddress::CreateCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall) method on an address capable of handling the address type and media type required. If the address exposes the [**ITTerminalSupport**](https://msdn.microsoft.com/en-us/library/ms733156(v=VS.85).aspx) interface, terminals are selected onto the media streams of the call object. See the [Make a Call](make-a-call.md) code example for an illustration of this process.
+**TAPI 3.x:** Applications initiate a communications session by invoking the [**ITAddress::CreateCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall) method on an address capable of handling the address type and media type required. If the address exposes the [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx) interface, terminals are selected onto the media streams of the call object. See the [Make a Call](make-a-call.md) code example for an illustration of this process.
 
 Call setup parameters can be stored or changed using methods exposed by the [**ITCallInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo) interface.
 
@@ -39,7 +39,7 @@ An end-user or server application may store addresses in a format that is not co
 
 TAPI supplies address translation operations that assist an application in presenting the correct address type to a TSP. The service provider specifies to TAPI which address types it supports, and need not include any form of address translation.
 
-**TAPI 2.x:** See [**lineTranslateAddress**](https://msdn.microsoft.com/en-us/library/ms736136(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineTranslateAddress**](https://msdn.microsoft.com/library/ms736136(v=VS.85).aspx).
 
 **TAPI 3:** See [**ITAddressTranslation**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation), [**ITAddressTranslationInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo).
 
@@ -51,7 +51,7 @@ A *toll list* is a list of prefixes in the local area code whose addresses must 
 
 Toll lists are not relevant to service providers, or to applications that do not access a telephone network.
 
-**TAPI 2.x:** See [**lineTranslateAddress**](https://msdn.microsoft.com/en-us/library/ms736136(v=VS.85).aspx) (LINETRANSLATERESULT\_INTOLLLIST and LINETRANSLATERESULT\_NOTINTOLLLIST bits in the [**LINETRANSLATEOUTPUT**](https://msdn.microsoft.com/en-us/library/ms736145(v=VS.85).aspx) structure), [**lineSetTollList**](https://msdn.microsoft.com/en-us/library/ms736112(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineTranslateAddress**](https://msdn.microsoft.com/library/ms736136(v=VS.85).aspx) (LINETRANSLATERESULT\_INTOLLLIST and LINETRANSLATERESULT\_NOTINTOLLLIST bits in the [**LINETRANSLATEOUTPUT**](https://msdn.microsoft.com/library/ms736145(v=VS.85).aspx) structure), [**lineSetTollList**](https://msdn.microsoft.com/library/ms736112(v=VS.85).aspx).
 
 **TAPI 3:** See [**ITAddressTranslation::TranslateAddress**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress), [**ITAddressTranslationInfo::get\_TranslationResults**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_translationresults).
 

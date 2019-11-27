@@ -21,7 +21,7 @@ Provides information about an app suspending operation.
 
 ## Members
 
-The **ISuspendingOperation** interface inherits from [**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx). **ISuspendingOperation** also has these types of members:
+The **ISuspendingOperation** interface inherits from [**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx). **ISuspendingOperation** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -71,7 +71,7 @@ The **ISuspendingOperation** interface has these properties.
 
 <dl> <dt>
 
-[**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx)
+[**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx)
 </dt> <dt>
 
 [**ISuspendingDeferral**](isuspendingdeferral.md)

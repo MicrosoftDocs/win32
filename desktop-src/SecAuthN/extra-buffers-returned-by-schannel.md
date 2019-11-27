@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Information must be sent between the client and server while a [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) is being established and afterward because secure messages are exchanged by using the encryption and decryption features provided by Schannel. The following functions are used to accomplish these tasks:
 
--   [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa374703(v=VS.85).aspx)
--   [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx)
--   [**DecryptMessage (General)**](https://msdn.microsoft.com/en-us/library/Aa375211(v=VS.85).aspx)
+-   [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx)
+-   [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx)
+-   [**DecryptMessage (General)**](https://msdn.microsoft.com/library/Aa375211(v=VS.85).aspx)
 
 Schannel has a well-defined set of behaviors for incomplete or excess information included in the input buffers to these functions. Information is exchanged between the client and server in the following manner:
 

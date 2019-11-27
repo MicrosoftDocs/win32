@@ -281,7 +281,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-If **TRUE**, the provider agrees to prepare to unload by calling [**IUnknown::Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) on all outstanding interface points when WMI calls the **Release** method of its primary interface. Providers that must remain clients of WMI after they do not function as providers should set **Pure** to **FALSE**. The default setting is **TRUE**. For more information, see the Remarks section of this topic.
+If **TRUE**, the provider agrees to prepare to unload by calling [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on all outstanding interface points when WMI calls the **Release** method of its primary interface. Providers that must remain clients of WMI after they do not function as providers should set **Pure** to **FALSE**. The default setting is **TRUE**. For more information, see the Remarks section of this topic.
 
 </dd> <dt>
 

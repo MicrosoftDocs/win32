@@ -76,7 +76,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the directi
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the ray intersects the volume of the box's bounding box. Otherwise, returns **FALSE**.
 

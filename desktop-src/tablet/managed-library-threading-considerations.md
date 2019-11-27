@@ -65,7 +65,7 @@ void recoContext_Recognition(object sender,
 
 If you put a [UserControl](https://msdn.microsoft.com/library/cdhdhykx(v=VS.90).aspx) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](https://msdn.microsoft.com/library/5575keyf(v=VS.90).aspx). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](realtimestylus-class.md), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
-For more information about calling Windows Forms from an MTA application, see [Multithreaded Windows Forms Control Sample](https://msdn.microsoft.com/en-us/library/3s8xdz5c(v=VS.71).aspx).
+For more information about calling Windows Forms from an MTA application, see [Multithreaded Windows Forms Control Sample](https://msdn.microsoft.com/library/3s8xdz5c(v=VS.71).aspx).
 
 ## Clipboard Considerations
 

@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMU555`.
 
-Constructs instances of the [**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx) structure.
+Constructs instances of the [**XMU555**](https://msdn.microsoft.com/library/Ee420402(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -109,7 +109,7 @@ This is only available for C++ based development.
 **Reference**
 </dt> <dt>
 
-[**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx)
+[**XMU555**](https://msdn.microsoft.com/library/Ee420402(v=VS.85).aspx)
 </dt> </dl>
 
  

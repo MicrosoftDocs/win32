@@ -54,7 +54,7 @@ Microsoft provides several different document technologies to support a variety 
 
      
 
-    For more information about document support in .NET Framework, see [Windows Presentation Foundation Documents](https://msdn.microsoft.com/en-us/library/ms749165(v=VS.85).aspx).
+    For more information about document support in .NET Framework, see [Windows Presentation Foundation Documents](https://msdn.microsoft.com/library/ms749165(v=VS.85).aspx).
 
 > [!Note]  
 > To work with XPS documents in a program, use either the native XPS Document API or the .NET Framework; simultaneous use of both in the same program is not supported.
@@ -97,13 +97,13 @@ The following tools are available to assist you with testing and troubleshooting
 
 <dl> <dt>
 
-[XPS Print API](https://msdn.microsoft.com/en-us/library/Ff728890(v=VS.85).aspx)
+[XPS Print API](https://msdn.microsoft.com/library/Ff728890(v=VS.85).aspx)
 </dt> <dt>
 
 [Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
-[Printing](https://msdn.microsoft.com/en-us/library/Ff686805(v=VS.85).aspx)
+[Printing](https://msdn.microsoft.com/library/Ff686805(v=VS.85).aspx)
 </dt> <dt>
 
 [Print Sample Program](https://go.microsoft.com/?linkid=9737083)

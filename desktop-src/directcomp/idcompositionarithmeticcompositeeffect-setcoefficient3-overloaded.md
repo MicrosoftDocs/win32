@@ -24,8 +24,8 @@ Sets the third coefficient for the equation used to composite the two input imag
 
 | Method                                                                                                          | Description                                                                                    |
 |:----------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**SetCoefficient3**](https://msdn.microsoft.com/en-us/library/Dn919704(v=VS.85).aspx)                               | Sets the third coefficient for the equation used to composite the two input images.<br/> |
-| [**SetCoefficient3 (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919705(v=VS.85).aspx) | Sets the third coefficient for the equation used to composite the two input images.<br/> |
+| [**SetCoefficient3**](https://msdn.microsoft.com/library/Dn919704(v=VS.85).aspx)                               | Sets the third coefficient for the equation used to composite the two input images.<br/> |
+| [**SetCoefficient3 (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919705(v=VS.85).aspx) | Sets the third coefficient for the equation used to composite the two input images.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the third coefficient for the equation used to composite the two input imag
 
 <dl> <dt>
 
-[**idcompositionarithmeticcompositeeffect**](https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx)
+[**idcompositionarithmeticcompositeeffect**](https://msdn.microsoft.com/library/Dn919698(v=VS.85).aspx)
 </dt> </dl>
 
 �

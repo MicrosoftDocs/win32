@@ -18,7 +18,7 @@ HRESULT Load(
 );
 ```
 
-Loads a character into the [**Characters**](https://msdn.microsoft.com/en-us/library/ms697571(v=VS.85).aspx) collection.
+Loads a character into the [**Characters**](https://msdn.microsoft.com/library/ms697571(v=VS.85).aspx) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 

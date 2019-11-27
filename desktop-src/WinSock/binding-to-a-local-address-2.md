@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Binding to a Local Address
 
-Before a socket can be used to set up a connection or receive a connection request, it needs to be bound to a local address. This could be done explicitly by calling [**WSPBind**](https://msdn.microsoft.com/en-us/library/ms742268(v=VS.85).aspx), or implicitly by [**WSPConnect**](https://msdn.microsoft.com/en-us/library/ms742272(v=VS.85).aspx) if the socket is unbound when this function is called.
+Before a socket can be used to set up a connection or receive a connection request, it needs to be bound to a local address. This could be done explicitly by calling [**WSPBind**](https://msdn.microsoft.com/library/ms742268(v=VS.85).aspx), or implicitly by [**WSPConnect**](https://msdn.microsoft.com/library/ms742272(v=VS.85).aspx) if the socket is unbound when this function is called.
 
  
 

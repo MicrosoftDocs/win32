@@ -145,7 +145,7 @@ The following constants are used to specify a [locale name](locale-names.md). Th
 
 ## Locale Definition Constants
 
-The following constants define the locale for NLS functions such as [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex) and [**EnumLocalesProcEx**](https://msdn.microsoft.com/en-us/library/Dd317823(v=VS.85).aspx).
+The following constants define the locale for NLS functions such as [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex) and [**EnumLocalesProcEx**](https://msdn.microsoft.com/library/Dd317823(v=VS.85).aspx).
 
 -   LOCALE\_ALL
 -   LOCALE\_ALTERNATE\_SORTS

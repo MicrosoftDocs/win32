@@ -66,10 +66,10 @@ If an application specifies a **NULL** window handle, the message is posted to t
 **Reference**
 </dt> <dt>
 
-[*JournalPlaybackProc*](https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx)
+[*JournalPlaybackProc*](https://msdn.microsoft.com/library/ms644982(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx)
+[**SetWindowsHookEx**](https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

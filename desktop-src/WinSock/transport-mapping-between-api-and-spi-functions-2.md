@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Winsock Transport SPI is similar to the Winsock API in that all of the basic socket functions appear. When a new version of a Winsock function and the original version both exist in the API, only the new version will show up in the SPI. This is illustrated in the following list.
 
--   [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect) and [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect) both map to [**WSPConnect**](https://msdn.microsoft.com/en-us/library/ms742272(v=VS.85).aspx)
+-   [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect) and [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect) both map to [**WSPConnect**](https://msdn.microsoft.com/library/ms742272(v=VS.85).aspx)
 -   [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept) and [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) map to [**WSPAccept**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspaccept)
 -   [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) and [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) map to [**WSPSocket**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspsocket)
 
@@ -30,7 +30,7 @@ Because error codes are returned along with SPI functions, equivalents of [**WSA
 
 The event object manipulation and wait functions, including [**WSACreateEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsacreateevent), [**WSACloseEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsacloseevent), [**WSASetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsasetevent), [**WSAResetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent), and [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) are mapped directly to native Windows services and thus are not present in the SPI.
 
-All the TCP/IP-specific name conversion and resolution functions in Windows Sockets 1.1 such as **GetXbyY**, **WSAAsyncGetXByY**, and [**WSACancelAsyncRequest**](/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest), as well as [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname) are implemented within the Ws2\_32.dll in terms of the new name resolution facilities. For more information, see [Compatible Name Resolution for TCP/IP in the Windows Sockets 1.1 SPI](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md). Conversion functions such as [**inet\_addr**](https://msdn.microsoft.com/en-us/library/ms738563(v=VS.85).aspx) and [**inet\_ntoa**](https://msdn.microsoft.com/en-us/library/ms738564(v=VS.85).aspx) are implemented within the Ws2\_32.dll.
+All the TCP/IP-specific name conversion and resolution functions in Windows Sockets 1.1 such as **GetXbyY**, **WSAAsyncGetXByY**, and [**WSACancelAsyncRequest**](/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest), as well as [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname) are implemented within the Ws2\_32.dll in terms of the new name resolution facilities. For more information, see [Compatible Name Resolution for TCP/IP in the Windows Sockets 1.1 SPI](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md). Conversion functions such as [**inet\_addr**](https://msdn.microsoft.com/library/ms738563(v=VS.85).aspx) and [**inet\_ntoa**](https://msdn.microsoft.com/library/ms738564(v=VS.85).aspx) are implemented within the Ws2\_32.dll.
 
  
 

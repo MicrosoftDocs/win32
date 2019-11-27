@@ -21,7 +21,7 @@ The following steps describe the preferred order:
 
 Of course, not all ACE types are required in an ACL.
 
-Functions such as [**AddAccessAllowedAceEx**](https://msdn.microsoft.com/en-us/library/Aa374951(v=VS.85).aspx) and [**AddAccessAllowedObjectAce**](https://msdn.microsoft.com/en-us/library/Aa374956(v=VS.85).aspx) add an ACE to the end of an ACL. It is the caller's responsibility to ensure that the ACEs are added in the proper order.
+Functions such as [**AddAccessAllowedAceEx**](https://msdn.microsoft.com/library/Aa374951(v=VS.85).aspx) and [**AddAccessAllowedObjectAce**](https://msdn.microsoft.com/library/Aa374956(v=VS.85).aspx) add an ACE to the end of an ACL. It is the caller's responsibility to ensure that the ACEs are added in the proper order.
 
  
 

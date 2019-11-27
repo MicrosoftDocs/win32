@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Writing Custom Modules
 
-You can write policy modules in the C, C++, or Visual Basic programming language. The required Microsoft compiler is available in Visual C++ version 5.0 or later or in Visual Basic version 5.0 or later. An enterprise [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) should use only the Microsoft-provided enterprise policy module.
+You can write policy modules in the C, C++, or Visual Basic programming language. The required Microsoft compiler is available in Visual C++ version 5.0 or later or in Visual Basic version 5.0 or later. An enterprise [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) should use only the Microsoft-provided enterprise policy module.
 
 You must implement [**ICertPolicy**](/windows/desktop/api/Certpol/nn-certpol-icertpolicy) when writing a custom policy module. Additionally, you must implement [**ICertManageModule**](/windows/desktop/api/Certmod/nn-certmod-icertmanagemodule) when writing a custom policy module.
 
-Policy modules can call methods from [**ICertServerPolicy**](/windows/desktop/api/Certif/nn-certif-icertserverpolicy) to assist in the processing of a [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx); **ICertServerPolicy** allows properties and certificate extensions to be set and retrieved.
+Policy modules can call methods from [**ICertServerPolicy**](/windows/desktop/api/Certif/nn-certif-icertserverpolicy) to assist in the processing of a [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx); **ICertServerPolicy** allows properties and certificate extensions to be set and retrieved.
 
 For more information, see the following topics.
 

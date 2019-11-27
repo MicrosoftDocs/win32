@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 To translate a 2-D object is to move the object along the x-axis, the y-axis, or both. You can call either one of the following two methods to create a translation transformation.
 
--   [**Translation(D2D1\_SIZE\_F size)**](https://msdn.microsoft.com/en-us/library/Dd372291(v=VS.85).aspx): takes an ordered pair that defines the distance to translate along the x-axis and the y-axis.
--   [**Translation(float x, float y)**](https://msdn.microsoft.com/en-us/library/Dd372292(v=VS.85).aspx): takes the distance to translate along the x-axis and the distance to translate along the y-axis.
+-   [**Translation(D2D1\_SIZE\_F size)**](https://msdn.microsoft.com/library/Dd372291(v=VS.85).aspx): takes an ordered pair that defines the distance to translate along the x-axis and the y-axis.
+-   [**Translation(float x, float y)**](https://msdn.microsoft.com/library/Dd372292(v=VS.85).aspx): takes the distance to translate along the x-axis and the distance to translate along the y-axis.
 
 The following code creates a translation transformation matrix that moves the square 20 units to the right along the x-axis and 10 units downward along the y-axis.
 

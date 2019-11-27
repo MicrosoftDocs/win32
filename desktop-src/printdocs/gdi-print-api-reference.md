@@ -14,7 +14,7 @@ This section describes the functions and structures that native Windows applicat
 
 [GDI Print API Functions](gdi-print-api-functions.md)  
 [GDI Print API Structures](gdi-print-api-structures.md)  
-[GDI Printer Escape Functions](https://msdn.microsoft.com/en-us/library/Dd162843(v=VS.85).aspx)  
+[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)  
 </dl>
 
  

@@ -25,7 +25,7 @@ The File Type Verifier tests the following things:
 -   [Property Handlers](https://msdn.microsoft.com/library/Bb266532(v=VS.85).aspx)
 -   [Verb Handlers](fa-verbs.md)
 -   [Filters (IFilter)](https://msdn.microsoft.com/library/Bb266533(v=VS.85).aspx)
--   [Kind Associations](https://msdn.microsoft.com/en-us/library/Cc144136(v=VS.85).aspx)
+-   [Kind Associations](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
 -   [Perceived Types](fa-perceivedtypes.md)
 -   [Important Properties](https://msdn.microsoft.com/library/Dd368864(v=VS.85).aspx)
 

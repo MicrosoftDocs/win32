@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Drawing Rectangles
 
-A rectangle is a four-sided polygon whose opposing sides are parallel and equal in length. Although an application can draw a rectangle by calling the [**Polygon**](/windows/desktop/api/Wingdi/nf-wingdi-polygon) function, supplying the coordinates of each corner, the [**Rectangle**](/windows/desktop/api/Wingdi/nf-wingdi-rectangle) function provides a simpler method. This function requires only the coordinates for the upper-left and the lower-right corners. When an application calls the [**Rectangle**](https://msdn.microsoft.com/en-us/library/Dd162898(v=VS.85).aspx) function, the system draws the rectangle, excluding the right and lower sides if no world transformation is set for the given device context.
+A rectangle is a four-sided polygon whose opposing sides are parallel and equal in length. Although an application can draw a rectangle by calling the [**Polygon**](/windows/desktop/api/Wingdi/nf-wingdi-polygon) function, supplying the coordinates of each corner, the [**Rectangle**](/windows/desktop/api/Wingdi/nf-wingdi-rectangle) function provides a simpler method. This function requires only the coordinates for the upper-left and the lower-right corners. When an application calls the [**Rectangle**](https://msdn.microsoft.com/library/Dd162898(v=VS.85).aspx) function, the system draws the rectangle, excluding the right and lower sides if no world transformation is set for the given device context.
 
 If a world transformation has been set by using the [**SetWorldTransform**](/windows/desktop/api/Wingdi/nf-wingdi-setworldtransform) or [**ModifyWorldTransform**](/windows/desktop/api/Wingdi/nf-wingdi-modifyworldtransform) function, the system includes the right and lower edges.
 

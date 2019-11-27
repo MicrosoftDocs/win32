@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetComputerName** function. This function may be altered or unavailable in the future. Applications should call **GetComputerName** directly.\]
 
-Gets the computer name. See [**GetComputerName**](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx).
+Gets the computer name. See [**GetComputerName**](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ BOOL _GetComputerName(
 
 <dl> <dt>
 
-[**GetComputerName**](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx)
+[**GetComputerName**](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx)
 </dt> </dl>
 
  

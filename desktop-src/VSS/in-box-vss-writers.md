@@ -187,7 +187,7 @@ The writer ID for the writer is 6F5B15B5-DA24-4D88-B737-63063E3A1F86.
 
 ## Cluster Service Writer
 
-The Cluster Service VSS writer is documented in the [Cluster Service](https://msdn.microsoft.com/en-us/library/Dd264602(v=VS.85).aspx) API documentation.
+The Cluster Service VSS writer is documented in the [Cluster Service](https://msdn.microsoft.com/library/Dd264602(v=VS.85).aspx) API documentation.
 
 **Windows Vista, Windows Server 2003 and Windows XP:** This writer is not supported until Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.
 
@@ -209,7 +209,7 @@ This writer is responsible for the contents of the %SystemRoot%\\Registration di
 
 The COM+ class registration database depends on a registry key being backed up and hence needs to be backed up and restored together with the registry.
 
-To restore the COM+ Registration Database, a backup application (requester) must call the [**ICOMAdminCatalog::RestoreREGDB**](https://msdn.microsoft.com/en-us/library/ms683256(v=VS.85).aspx) method.
+To restore the COM+ Registration Database, a backup application (requester) must call the [**ICOMAdminCatalog::RestoreREGDB**](https://msdn.microsoft.com/library/ms683256(v=VS.85).aspx) method.
 
 The writer name string for this writer is "COM+ REGDB Writer".
 
@@ -217,13 +217,13 @@ The writer ID for the COM+ class registration database writer is 542DA469-D3E1-4
 
 ## Data Deduplication Writer
 
-The Data Deduplication VSS writer is documented in the [Data Deduplication](https://msdn.microsoft.com/en-us/library/Hh769304(v=VS.85).aspx) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
+The Data Deduplication VSS writer is documented in the [Data Deduplication](https://msdn.microsoft.com/library/Hh769304(v=VS.85).aspx) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
 
 **Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:** This writer is not supported.
 
 ## Distributed File System Replication (DFSR)
 
-The following component includes a VSS writer: [Distributed File System Replication (DFSR)](https://msdn.microsoft.com/en-us/library/Bb540026(v=VS.85).aspx)
+The following component includes a VSS writer: [Distributed File System Replication (DFSR)](https://msdn.microsoft.com/library/Bb540026(v=VS.85).aspx)
 
 **Windows Vista, Windows Server 2003 and Windows XP:** This writer is not supported until Windows Vista with SP1 and Windows Server 2008.
 
@@ -253,7 +253,7 @@ The writer ID for this writer is 12CE4370-5BB7-4C58-A76A-E5D5097E3674.
 
 ## Hyper-V Writer
 
-The Hyper-V VSS writer is documented in the [Hyper-V](https://msdn.microsoft.com/en-us/library/Dd405549(v=VS.85).aspx) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
+The Hyper-V VSS writer is documented in the [Hyper-V](https://msdn.microsoft.com/library/Dd405549(v=VS.85).aspx) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
 
 **Windows Server 2003:** This writer is not supported until Windows Server 2008.
 

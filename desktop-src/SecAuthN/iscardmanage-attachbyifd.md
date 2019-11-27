@@ -16,9 +16,9 @@ api_location:
 
 # ISCardManage::AttachByIFD method
 
-\[The **AttachByIFD** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **AttachByIFD** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **AttachByIFD** method creates a communication link to a [*reader*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx), using a supplied display name for the reader.
+The **AttachByIFD** method creates a communication link to a [*reader*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx), using a supplied display name for the reader.
 
 ## Syntax
 
@@ -60,7 +60,7 @@ The method returns one of the following possible values:
 
 ## Remarks
 
-To attach a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) call [**AttachByHandle**](iscardmanage-attachbyhandle.md).
+To attach a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) call [**AttachByHandle**](iscardmanage-attachbyhandle.md).
 
 To release an attachment call [**Detach**](iscardmanage-detach.md).
 

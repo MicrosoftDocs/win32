@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Implement the IContextMenu Interface
 
-[**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) is the most powerful but also the most complicated interface to implement. We strongly recommend that you implement a verb by using one of the static verb methods. For more information, see [Choosing a Static or Dynamic Shortcut Menu Method](shortcut-choose-method.md). [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) has three methods, [**GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring), [**InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand), and [**QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu), which are discussed here in detail.
+[**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) is the most powerful but also the most complicated interface to implement. We strongly recommend that you implement a verb by using one of the static verb methods. For more information, see [Choosing a Static or Dynamic Shortcut Menu Method](shortcut-choose-method.md). [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) has three methods, [**GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring), [**InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand), and [**QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu), which are discussed here in detail.
 
 ## What you need to know
 
@@ -31,7 +31,7 @@ The *idCmd* parameter holds the identifier offset of the command that was define
 
 The following example shows a simple implementation of [**GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) that corresponds to the [**QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) example given in the [IContextMenu::QueryContextMenu Method](shortcut-menu-using-dynamic-verbs.md) section of this topic. Because the handler adds only one menu item, there is only one set of strings that can be returned. The method tests whether *idCmd* is valid and, if it is, returns the requested string.
 
-The [**StringCchCopy**](https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx) function is used to copy the requested string to *pszName* to ensure that the copied string does not exceed the size of the buffer specified by *cchName*. This example implements support only for the Unicode values of *uFlags*, because only those have been used in Windows Explorer since Windows 2000.
+The [**StringCchCopy**](https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx) function is used to copy the requested string to *pszName* to ensure that the copied string does not exceed the size of the buffer specified by *cchName*. This example implements support only for the Unicode values of *uFlags*, because only those have been used in Windows Explorer since Windows 2000.
 
 
 ```
@@ -163,7 +163,7 @@ There are three flags that can be passed in through the *uFlags* parameter that 
 
  
 
-Use either [**InsertMenu**](https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx) or [**InsertMenuItem**](https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx) to add menu items to the list. Then return an **HRESULT** value with the severity set to SEVERITY\_SUCCESS. Set the code value to the offset of the largest command identifier that was assigned, plus one (1). For example, assume that *idCmdFirst* is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8. The return value should be MAKE\_HRESULT(SEVERITY\_SUCCESS, 0, 8 + 1).
+Use either [**InsertMenu**](https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx) or [**InsertMenuItem**](https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx) to add menu items to the list. Then return an **HRESULT** value with the severity set to SEVERITY\_SUCCESS. Set the code value to the offset of the largest command identifier that was assigned, plus one (1). For example, assume that *idCmdFirst* is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8. The return value should be MAKE\_HRESULT(SEVERITY\_SUCCESS, 0, 8 + 1).
 
 The following example shows a simple implementation of [**QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) that inserts a single command. The identifier offset for the command is IDM\_DISPLAY, which is set to zero. The **m\_pszVerb** and **m\_pwszVerb** variables are private variables that are used to store the associated language-independent verb string in both ANSI and Unicode formats.
 

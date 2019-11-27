@@ -47,7 +47,7 @@ IShellDispatch2.IsServiceRunning( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the service.
 
@@ -69,7 +69,7 @@ Returns **true** if the service specified by *sServiceName* is running; otherwis
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.IsServiceRunning**](https://msdn.microsoft.com/en-us/library/Gg537742(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.IsServiceRunning**](https://msdn.microsoft.com/library/Gg537742(v=VS.85).aspx) method.
 
 This method is not currently available in Microsoft Visual Basic.
 

@@ -121,9 +121,9 @@ Performance providers use the following functions:
 
 A [performance extension DLL](providing-counter-data-using-a-performance-dll.md) that provides performance data implements the following functions:
 
--   [**ClosePerformanceData**](https://msdn.microsoft.com/en-us/library/Aa371895(v=VS.85).aspx)
--   [**CollectPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa371898(v=VS.85).aspx)
--   [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx)
+-   [**ClosePerformanceData**](https://msdn.microsoft.com/library/Aa371895(v=VS.85).aspx)
+-   [**CollectPerformanceData**](https://msdn.microsoft.com/library/Aa371898(v=VS.85).aspx)
+-   [**OpenPerformanceData**](https://msdn.microsoft.com/library/Aa372200(v=VS.85).aspx)
 
 > [!Note]  
 > A performance extension DLL is also called a version1 provider. Although you still can use a performance extension DLL to provide counter data, you are encouraged to use the new architecture for new providers instead. You also are encouraged to replace existing version 1 provides with version 2 providers.

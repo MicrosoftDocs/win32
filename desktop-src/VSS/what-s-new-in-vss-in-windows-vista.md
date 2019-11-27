@@ -92,7 +92,7 @@ VSS\_VOLSNAP\_ATTR\_NOT\_TRANSACTED
 
 ## VSS Error Reporting
 
--   Descriptions of all VSS error codes can now be retrieved by calling the [**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx) function with the FORMAT\_MESSAGE\_FROM\_HMODULE flag specified in the *dwFlags* parameter.
+-   Descriptions of all VSS error codes can now be retrieved by calling the [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx) function with the FORMAT\_MESSAGE\_FROM\_HMODULE flag specified in the *dwFlags* parameter.
 -   The VSS error code messages are contained in vsstrace.dll. A handle to this module must be specified in the *lpSource* parameter.
 
 ## Excluding Files from Shadow Copies

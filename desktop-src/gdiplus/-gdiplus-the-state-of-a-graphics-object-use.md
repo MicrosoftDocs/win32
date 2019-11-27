@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # The State of a Graphics Object
 
-The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class is at the heart of Windows GDI+. To draw anything, you create a **Graphics** object, set its properties, and call its methods ( [DrawLine](https://msdn.microsoft.com/en-us/library/ms535748(v=VS.85).aspx), [DrawImage](https://msdn.microsoft.com/en-us/library/ms535746(v=VS.85).aspx), [DrawString](https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx), and the like).
+The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class is at the heart of Windows GDI+. To draw anything, you create a **Graphics** object, set its properties, and call its methods ( [DrawLine](https://msdn.microsoft.com/library/ms535748(v=VS.85).aspx), [DrawImage](https://msdn.microsoft.com/library/ms535746(v=VS.85).aspx), [DrawString](https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx), and the like).
 
-The following example constructs a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object and then calls the [**Graphics::DrawRectangle**](https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx) method of the **Graphics** object:
+The following example constructs a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object and then calls the [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx) method of the **Graphics** object:
 
 
 ```
@@ -28,11 +28,11 @@ EndPaint(hWnd, &ps);
 
 
 
-In the preceding code, the [BeginPaint](https://msdn.microsoft.com/library/en-us/gdi/pantdraw_7b78.asp) method returns a handle to a device context, and that handle is passed to the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor. A device context is a structure (maintained by Windows) that holds information about the particular display device being used.
+In the preceding code, the [BeginPaint](https://msdn.microsoft.com/library/gdi/pantdraw_7b78.asp) method returns a handle to a device context, and that handle is passed to the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor. A device context is a structure (maintained by Windows) that holds information about the particular display device being used.
 
 ## Graphics State
 
-A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object does more than provide drawing methods, such as [DrawLine](https://msdn.microsoft.com/en-us/library/ms535748(v=VS.85).aspx) and [DrawRectangle](https://msdn.microsoft.com/en-us/library/ms535755(v=VS.85).aspx). A **Graphics** object also maintains graphics state, which can be divided into the following categories:
+A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object does more than provide drawing methods, such as [DrawLine](https://msdn.microsoft.com/library/ms535748(v=VS.85).aspx) and [DrawRectangle](https://msdn.microsoft.com/library/ms535755(v=VS.85).aspx). A **Graphics** object also maintains graphics state, which can be divided into the following categories:
 
 -   A link to a device context
 -   Quality settings
@@ -66,7 +66,7 @@ graphics.DrawEllipse(&pen, 0, 150, 200, 100);
 
 A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object maintains two transformations (world and page) that are applied to all items drawn by that **Graphics** object. Any affine transformation can be stored in the world transformation. Affine transformations include scaling, rotating, reflecting, skewing, and translating. The page transformation can be used for scaling and for changing units (for example, pixels to inches). For more information on transformations, see [Coordinate Systems and Transformations](-gdiplus-coordinate-systems-and-transformations-about.md).
 
-The following example sets the world and page transformations of a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The world transformation is set to a 30-degree rotation. The page transformation is set so that the coordinates passed to the second [**Graphics::DrawEllipse**](https://msdn.microsoft.com/en-us/library/ms536067(v=VS.85).aspx) will be treated as millimeters instead of pixels. The code makes two identical calls to the **Graphics::DrawEllipse** method. The world transformation is applied to the first **Graphics::DrawEllipse** call, and both transformations (world and page) are applied to the second **Graphics::DrawEllipse** call.
+The following example sets the world and page transformations of a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The world transformation is set to a 30-degree rotation. The page transformation is set so that the coordinates passed to the second [**Graphics::DrawEllipse**](https://msdn.microsoft.com/library/ms536067(v=VS.85).aspx) will be treated as millimeters instead of pixels. The code makes two identical calls to the **Graphics::DrawEllipse** method. The world transformation is applied to the first **Graphics::DrawEllipse** call, and both transformations (world and page) are applied to the second **Graphics::DrawEllipse** call.
 
 
 ```
@@ -90,7 +90,7 @@ The following illustration shows the two ellipses. Note that the 30-degree rotat
 
 ### Clipping Region
 
-A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object maintains a clipping region that applies to all items drawn by that **Graphics** object. You can set the clipping region by calling the [SetClip](https://msdn.microsoft.com/en-us/library/ms535789(v=VS.85).aspx) method.
+A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object maintains a clipping region that applies to all items drawn by that **Graphics** object. You can set the clipping region by calling the [SetClip](https://msdn.microsoft.com/library/ms535789(v=VS.85).aspx) method.
 
 The following example creates a plus-shaped region by forming the union of two rectangles. That region is designated as the clipping region of a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. Then the code draws two lines that are restricted to the interior of the clipping region.
 

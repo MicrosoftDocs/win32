@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.SFGAOFlags
 
-[**SFGAO**](https://msdn.microsoft.com/en-us/library/Bb762589(v=VS.85).aspx) values as used in [**IShellFolder::GetAttributesOf**](https://msdn.microsoft.com/en-us/library/Bb775068(v=VS.85).aspx).
+[**SFGAO**](https://msdn.microsoft.com/library/Bb762589(v=VS.85).aspx) values as used in [**IShellFolder::GetAttributesOf**](https://msdn.microsoft.com/library/Bb775068(v=VS.85).aspx).
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -45,7 +45,7 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-Certain [**SFGAO**](https://msdn.microsoft.com/en-us/library/Bb762589(v=VS.85).aspx) values that are considered to cause slow calculations or lack context are excluded here by the application of the [****SFGAO\_PKEYSFGAOMASK****](https://msdn.microsoft.com/en-us/library/Bb762589(v=VS.85).aspx) mask.
+Certain [**SFGAO**](https://msdn.microsoft.com/library/Bb762589(v=VS.85).aspx) values that are considered to cause slow calculations or lack context are excluded here by the application of the [****SFGAO\_PKEYSFGAOMASK****](https://msdn.microsoft.com/library/Bb762589(v=VS.85).aspx) mask.
 
 ## Related topics
 

@@ -22,7 +22,7 @@ The **ID3DXPRTCompBuffer** interface stores a compressed version of a [**ID3DXPR
 
 ## Members
 
-The **ID3DXPRTCompBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTCompBuffer** also has these types of members:
+The **ID3DXPRTCompBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTCompBuffer** also has these types of members:
 
 -   [Methods](#methods)
 

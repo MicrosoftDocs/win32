@@ -17,13 +17,13 @@ Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://doc
 
 ### Technologies
 
--   [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx)
+-   [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)
 -   [Direct2D effects](effects-overview.md)
 -   [**Windows::Storage::Pickers::FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker)
 
 ### Prerequisites
 
--   You need an [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) object for creating effects.
+-   You need an [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) object for creating effects.
 -   You need an [**IWICImagingFactory**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory) object for creating WIC objects.
 
 ## Instructions
@@ -165,12 +165,12 @@ The [**IWICFormatConverter**](https://docs.microsoft.com/windows/desktop/api/win
 
 ### Step 6: Create effect and pass in an IWICBitmapSource
 
-Use the [**CreateEffect**](https://msdn.microsoft.com/en-us/library/Hh404500(v=VS.85).aspx) method to create a [bitmap source](bitmap-source.md) [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx) object using the [Direct2D](getting-started-with-direct2d.md) [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx).
+Use the [**CreateEffect**](https://msdn.microsoft.com/library/Hh404500(v=VS.85).aspx) method to create a [bitmap source](bitmap-source.md) [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) object using the [Direct2D](getting-started-with-direct2d.md) [**device context**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx).
 
-Use the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/en-us/library/Hh446885(v=VS.85).aspx) method to set the *D2D1\_BITMAPSOURCE\_PROP\_WIC\_BITMAP\_SOURCE* property to the [WIC](https://docs.microsoft.com/windows/desktop/wic/-wic-api) [**format converter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter).
+Use the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/library/Hh446885(v=VS.85).aspx) method to set the *D2D1\_BITMAPSOURCE\_PROP\_WIC\_BITMAP\_SOURCE* property to the [WIC](https://docs.microsoft.com/windows/desktop/wic/-wic-api) [**format converter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter).
 
 > [!Note]  
-> The [bitmap source](bitmap-source.md) effect doesn't take an input from the [**SetInput**](https://msdn.microsoft.com/en-us/library/Hh404591(v=VS.85).aspx) method like many [Direct2D effects](effects-overview.md). Instead, the [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) object is specified as a property.
+> The [bitmap source](bitmap-source.md) effect doesn't take an input from the [**SetInput**](https://msdn.microsoft.com/library/Hh404591(v=VS.85).aspx) method like many [Direct2D effects](effects-overview.md). Instead, the [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) object is specified as a property.
 
  
 
@@ -191,7 +191,7 @@ Use the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/en-us/library/Hh4
 
 
 
-Now that you have the [bitmap source](bitmap-source.md) effect, you can use it as input to any [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx) and create an effect graph.
+Now that you have the [bitmap source](bitmap-source.md) effect, you can use it as input to any [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) and create an effect graph.
 
 ## Complete example
 

@@ -19,7 +19,7 @@ api_location:
 
 \[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](https://msdn.microsoft.com/library/za72cszy(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
 
-The **OID** object represents an [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) that is used by several CAPICOM properties.
+The **OID** object represents an [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) that is used by several CAPICOM properties.
 
 ## When to use
 

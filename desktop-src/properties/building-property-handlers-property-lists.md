@@ -31,7 +31,7 @@ The only flag currently available is shown in the following table.
 
  
 
-After you define a property list, you can store that string in the registry through the standard [Shell file association](https://msdn.microsoft.com/en-us/library/Cc144148(v=VS.85).aspx) system under **HKEY\_CLASSES\_ROOT.** The following table summarizes the values for the property lists that can be assigned under the registry key for a particular file name extension.
+After you define a property list, you can store that string in the registry through the standard [Shell file association](https://msdn.microsoft.com/library/Cc144148(v=VS.85).aspx) system under **HKEY\_CLASSES\_ROOT.** The following table summarizes the values for the property lists that can be assigned under the registry key for a particular file name extension.
 
 
 
@@ -107,7 +107,7 @@ HKEY_CLASSES_ROOT
       PreviewDetails = prop:*System.Title;*System.Author
 ```
 
-As explained in the [Shell file association](https://msdn.microsoft.com/en-us/library/Cc144148(v=VS.85).aspx) topic, file associations can be described for the most specific to the most general form. The most specific form is the single file name extension and the most generic form is a key that applies to all files and file folders. Between those two extremes, you can also define a [PROGID](https://msdn.microsoft.com/en-us/library/Cc144152(v=VS.85).aspx) that groups a set of file name extensions together (for instance, .jpg and .jpeg types grouped as **jpegfile**). When you define property lists, you should define them for ProgIDs or, in some cases, specific file name extensions. Avoid relying on broad entries such as the **AllFileSystemObjects** key.
+As explained in the [Shell file association](https://msdn.microsoft.com/library/Cc144148(v=VS.85).aspx) topic, file associations can be described for the most specific to the most general form. The most specific form is the single file name extension and the most generic form is a key that applies to all files and file folders. Between those two extremes, you can also define a [PROGID](https://msdn.microsoft.com/library/Cc144152(v=VS.85).aspx) that groups a set of file name extensions together (for instance, .jpg and .jpeg types grouped as **jpegfile**). When you define property lists, you should define them for ProgIDs or, in some cases, specific file name extensions. Avoid relying on broad entries such as the **AllFileSystemObjects** key.
 
 ## Related topics
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Windows Shell Libraries in Windows
 
-This topic outlines the introduction of libraries for Windows 7 and later. Libraries are a Windows Shell feature. To access Windows Shell functionality, such as libraries, third-party developers of Windows Search applications must first implement a Shell data store. For more information, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/cc144093(VS.85).aspx).
+This topic outlines the introduction of libraries for Windows 7 and later. Libraries are a Windows Shell feature. To access Windows Shell functionality, such as libraries, third-party developers of Windows Search applications must first implement a Shell data store. For more information, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/library/cc144093(VS.85).aspx).
 
 This topic is organized as follows:
 
@@ -27,7 +27,7 @@ In Windows 7 and later, libraries are the default repository of user data. Use
 
 ### User Data Entry Points
 
-Default libraries (such as **My Documents**, **My Pictures**, and so forth) are the equivalent of [Known Folder](https://msdn.microsoft.com/en-us/library/bb776911(VS.85).aspx). Default libraries provide familiar entry points to users, but because library content is not limited to Known Folder content libraries give users more freedom to determine where documents and media should be stored. Libraries are exposed through the Shell namespace (Shell data source). Your application can provide users with the same familiar entry points to their data by enabling library awareness, and browsing.
+Default libraries (such as **My Documents**, **My Pictures**, and so forth) are the equivalent of [Known Folder](https://msdn.microsoft.com/library/bb776911(VS.85).aspx). Default libraries provide familiar entry points to users, but because library content is not limited to Known Folder content libraries give users more freedom to determine where documents and media should be stored. Libraries are exposed through the Shell namespace (Shell data source). Your application can provide users with the same familiar entry points to their data by enabling library awareness, and browsing.
 
 ### Collections of Folders
 
@@ -37,7 +37,7 @@ Libraries are user-defined collections of content. Windows Search indexes suppor
 
 For folders to be supported in libraries, they must be indexable on the local machine, and indexed either on a remote Windows machine, or indexed on a server with files indexed by Windows Search.
 
-Unsupported folders are blocked from being added by users in the Windows library management dialog. If non-indexed remote folders are added to a library using the [IShellLibrary](https://msdn.microsoft.com/en-us/library/dd391719(VS.85).aspx) API, then the library user experience will revert to library **Safe Mode**. In **Safe Mode** features such as property-based stack arrangement views, filter suggestions, and **Start Menu** search support are removed from the affected library.
+Unsupported folders are blocked from being added by users in the Windows library management dialog. If non-indexed remote folders are added to a library using the [IShellLibrary](https://msdn.microsoft.com/library/dd391719(VS.85).aspx) API, then the library user experience will revert to library **Safe Mode**. In **Safe Mode** features such as property-based stack arrangement views, filter suggestions, and **Start Menu** search support are removed from the affected library.
 
 The following table lists folders included in libraries using the Windows Explorer library management dialog, and folders that are unsupported in **Safe Mode**:
 
@@ -54,16 +54,16 @@ Libraries are collections of storage folders. Users can save and copy files to a
 
 ### Non-File System Shell Containers
 
-Libraries can contain on-file system Shell containers, such as **Computer** and **Control Panel**, but contain file system items. Library folders and contents can be enumerated and accessed using APIs for file system files and folders in previous operating systems. If your application is heavily dependent on file system specific APIs, then the [IShellLibrary](https://msdn.microsoft.com/en-us/library/dd391719(VS.85).aspx) API can be used to obtain the file system paths of folders and files within libraries. In most cases it is recommended that you use the Shell programming model to support multiple Windows versions and item flexibility. For more information, see [Navigating the Shell Namespace](https://msdn.microsoft.com/en-us/library/dd378496(VS.85).aspx).
+Libraries can contain on-file system Shell containers, such as **Computer** and **Control Panel**, but contain file system items. Library folders and contents can be enumerated and accessed using APIs for file system files and folders in previous operating systems. If your application is heavily dependent on file system specific APIs, then the [IShellLibrary](https://msdn.microsoft.com/library/dd391719(VS.85).aspx) API can be used to obtain the file system paths of folders and files within libraries. In most cases it is recommended that you use the Shell programming model to support multiple Windows versions and item flexibility. For more information, see [Navigating the Shell Namespace](https://msdn.microsoft.com/library/dd378496(VS.85).aspx).
 
 ### Library Descriptions
 
 Library descriptions are saved on disk as an XML file in the %appdata%Microsoft\\Windows\\Libraries folder (and potentially as **FOLDERID\_Libraries**. For more information about **FOLDERID\_Libraries**, see [KNOWNFOLDERID](https://docs.microsoft.com/windows/desktop/shell/knownfolderid).
 
-Library description files are XML files with the file name extension .library-ms. They files should never be accessed or edited by applications. The folder path text persisted to the library description files is not always current. Library folders are persisted in the library description file in the serialized binary [Shell Links](https://docs.microsoft.com/windows/desktop/shell/links) format. For more information about libraries and the Library Description schema, see [Library Description Schema](https://msdn.microsoft.com/en-us/library/dd798389(VS.85).aspx). For more information about federated search connectors and the Search Connector Description schema, [Search Connector Description Schema](search-sconn-desc-schema-entry.md).
+Library description files are XML files with the file name extension .library-ms. They files should never be accessed or edited by applications. The folder path text persisted to the library description files is not always current. Library folders are persisted in the library description file in the serialized binary [Shell Links](https://docs.microsoft.com/windows/desktop/shell/links) format. For more information about libraries and the Library Description schema, see [Library Description Schema](https://msdn.microsoft.com/library/dd798389(VS.85).aspx). For more information about federated search connectors and the Search Connector Description schema, [Search Connector Description Schema](search-sconn-desc-schema-entry.md).
 
 > [NOTE]  
-> Applications should always use the Shell programming model or the [IShellLibrary](https://msdn.microsoft.com/en-us/library/dd391719(VS.85).aspx) API to consume and manipulate library contents, and never attempt to manually access or edit the library description file.
+> Applications should always use the Shell programming model or the [IShellLibrary](https://msdn.microsoft.com/library/dd391719(VS.85).aspx) API to consume and manipulate library contents, and never attempt to manually access or edit the library description file.
 
 ## Related topics
 

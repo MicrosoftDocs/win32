@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**SealMessage**](https://msdn.microsoft.com/en-us/library/Bb432479(v=VS.85).aspx)
--   [**UnsealMessage**](https://msdn.microsoft.com/en-us/library/Bb432499(v=VS.85).aspx)
+-   [**SealMessage**](https://msdn.microsoft.com/library/Bb432479(v=VS.85).aspx)
+-   [**UnsealMessage**](https://msdn.microsoft.com/library/Bb432499(v=VS.85).aspx)
 
  
 

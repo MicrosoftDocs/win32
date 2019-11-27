@@ -21,7 +21,7 @@ The [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvecto
 
 | Methods                                                            | Description                                                                                                           |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [**operator uint32\_t**](https://msdn.microsoft.com/en-us/library/Hh437884(v=VS.85).aspx)<br/> | Returns an instance of `uint32_t` containing the components of the `XMCOLOR` instance in a packed format. <br/> |
+| [**operator uint32\_t**](https://msdn.microsoft.com/library/Hh437884(v=VS.85).aspx)<br/> | Returns an instance of `uint32_t` containing the components of the `XMCOLOR` instance in a packed format. <br/> |
 | [**operator =**](xmcolor-operator-eq.md)<br/>               | Assigns vector component data to the current instance of `XMCOLOR`.<br/>                                        |
 
 

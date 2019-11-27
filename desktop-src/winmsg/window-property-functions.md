@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Window Property Functions
 
--   [**EnumProps**](https://msdn.microsoft.com/en-us/library/ms633562(v=VS.85).aspx)
--   [**EnumPropsEx**](https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx)
--   [**GetProp**](https://msdn.microsoft.com/en-us/library/ms633564(v=VS.85).aspx)
--   [*PropEnumProc*](https://msdn.microsoft.com/en-us/library/ms633565(v=VS.85).aspx)
--   [*PropEnumProcEx*](https://msdn.microsoft.com/en-us/library/ms633566(v=VS.85).aspx)
--   [**RemoveProp**](https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx)
--   [**SetProp**](https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx)
+-   [**EnumProps**](https://msdn.microsoft.com/library/ms633562(v=VS.85).aspx)
+-   [**EnumPropsEx**](https://msdn.microsoft.com/library/ms633563(v=VS.85).aspx)
+-   [**GetProp**](https://msdn.microsoft.com/library/ms633564(v=VS.85).aspx)
+-   [*PropEnumProc*](https://msdn.microsoft.com/library/ms633565(v=VS.85).aspx)
+-   [*PropEnumProcEx*](https://msdn.microsoft.com/library/ms633566(v=VS.85).aspx)
+-   [**RemoveProp**](https://msdn.microsoft.com/library/ms633567(v=VS.85).aspx)
+-   [**SetProp**](https://msdn.microsoft.com/library/ms633568(v=VS.85).aspx)
 
  
 

@@ -378,7 +378,7 @@ Response.Write "PDC Role Owner: " & sys.PDCRoleOwner
 [**IADsADSystemInfo**](/windows/desktop/api/Iads/nn-iads-iadsadsysteminfo)
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx)
+[**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
 </dt> </dl>
 
  

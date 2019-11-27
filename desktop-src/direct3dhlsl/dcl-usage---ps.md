@@ -84,7 +84,7 @@ texld r1, v1.zw, s1
 [Pixel Shader Instructions](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> <dt>
 
-[Antialias Sample](https://msdn.microsoft.com/en-us/library/Ee415231(v=VS.85).aspx)
+[Antialias Sample](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)
 </dt> </dl>
 
  

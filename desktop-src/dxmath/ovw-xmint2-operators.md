@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMINT2 Operators
 
-The [**XMINT2**](https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx) structure exposes the following operators.
+The [**XMINT2**](https://msdn.microsoft.com/library/Hh404654(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMINT2**](https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx
 
 | Methods                                             | Description                                                                                                     |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Hh404658(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMINT2` to the current instance of `XMINT2`.<br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Hh404658(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMINT2` to the current instance of `XMINT2`.<br/> |
 
 
 
@@ -37,7 +37,7 @@ The [**XMINT2**](https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx
 **Reference**
 </dt> <dt>
 
-[**XMINT2**](https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx)
+[**XMINT2**](https://msdn.microsoft.com/library/Hh404654(v=VS.85).aspx)
 </dt> </dl>
 
  

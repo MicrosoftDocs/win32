@@ -16,7 +16,7 @@ Specifies a list of unicode strings representing the device capabilities require
 
 ## Remarks
 
-This attribute is optional and only required if the sensor transform accesses a protected resource. The value must be a semicolon delimited list of string tokens defined in [**DeviceCapability**](https://msdn.microsoft.com/en-us/library/BR211430(v=Win.10).aspx).
+This attribute is optional and only required if the sensor transform accesses a protected resource. The value must be a semicolon delimited list of string tokens defined in [**DeviceCapability**](https://msdn.microsoft.com/library/BR211430(v=Win.10).aspx).
 
 ## Requirements
 

@@ -29,7 +29,7 @@ The **CInstance::SetCHString** method sets a string property.
 | Method                                                                                           | Description                        |
 |:-------------------------------------------------------------------------------------------------|:-----------------------------------|
 | [**SetCHString(LPCWSTR, LPCSTR)**](/windows/desktop/api/Instance/nf-instance-cinstance-setchstring(lpcwstr_lpcstr))                   | Sets a string property.<br/> |
-| [**SetCHString(LPCWSTR, const CHString&)**](https://msdn.microsoft.com/en-us/library/Aa388996(v=VS.85).aspx) | Sets a string property.<br/> |
+| [**SetCHString(LPCWSTR, const CHString&)**](https://msdn.microsoft.com/library/Aa388996(v=VS.85).aspx) | Sets a string property.<br/> |
 
 
 

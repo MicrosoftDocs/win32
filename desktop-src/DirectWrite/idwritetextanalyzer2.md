@@ -23,7 +23,7 @@ Analyzes various text properties for complex script processing.
 
 ## Members
 
-The **IDWriteTextAnalyzer2** interface inherits from [**IDWriteTextAnalyzer1**](https://msdn.microsoft.com/en-us/library/Hh780428(v=VS.85).aspx). **IDWriteTextAnalyzer2** also has these types of members:
+The **IDWriteTextAnalyzer2** interface inherits from [**IDWriteTextAnalyzer1**](https://msdn.microsoft.com/library/Hh780428(v=VS.85).aspx). **IDWriteTextAnalyzer2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -35,9 +35,9 @@ The **IDWriteTextAnalyzer2** interface has these methods.
 
 | Method                                                                                    | Description                                                                             |
 |:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
-| [**CheckTypographicFeature**](https://msdn.microsoft.com/en-us/library/Dn280455(v=VS.85).aspx)           | Checks if a typographic feature is available for a glyph or a set of glyphs.<br/> |
-| [**GetGlyphOrientationTransform**](https://msdn.microsoft.com/en-us/library/Dn280484(v=VS.85).aspx) | Returns 2x3 transform matrix for the respective angle to draw the glyph run.<br/> |
-| [**GetTypographicFeatures**](https://msdn.microsoft.com/en-us/library/Dn280456(v=VS.85).aspx)             | Returns a complete list of OpenType features available for a script or font.<br/> |
+| [**CheckTypographicFeature**](https://msdn.microsoft.com/library/Dn280455(v=VS.85).aspx)           | Checks if a typographic feature is available for a glyph or a set of glyphs.<br/> |
+| [**GetGlyphOrientationTransform**](https://msdn.microsoft.com/library/Dn280484(v=VS.85).aspx) | Returns 2x3 transform matrix for the respective angle to draw the glyph run.<br/> |
+| [**GetTypographicFeatures**](https://msdn.microsoft.com/library/Dn280456(v=VS.85).aspx)             | Returns a complete list of OpenType features available for a script or font.<br/> |
 
 
 
@@ -61,7 +61,7 @@ The **IDWriteTextAnalyzer2** interface has these methods.
 
 <dl> <dt>
 
-[**IDWriteTextAnalyzer1**](https://msdn.microsoft.com/en-us/library/Hh780428(v=VS.85).aspx)
+[**IDWriteTextAnalyzer1**](https://msdn.microsoft.com/library/Hh780428(v=VS.85).aspx)
 </dt> </dl>
 
  

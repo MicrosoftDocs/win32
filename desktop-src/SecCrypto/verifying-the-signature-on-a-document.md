@@ -15,7 +15,7 @@ When a signed document is received, the validity of the signature or signatures 
 -   Validity of the signature hash
 -   Validity of the signer's certificate
 
-The signature [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) is decrypted using the [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) of the signer found on the signer's [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), included as part of the signature. If the decrypted signature matches a new hash of the original document, the signature was created by the owner of the private key associated with the public key used to decrypt the hash. In addition, the document that the signature is based on is guaranteed not to have been changed after the signature was created.
+The signature [*hash*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) is decrypted using the [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) of the signer found on the signer's [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), included as part of the signature. If the decrypted signature matches a new hash of the original document, the signature was created by the owner of the private key associated with the public key used to decrypt the hash. In addition, the document that the signature is based on is guaranteed not to have been changed after the signature was created.
 
 The certificate that provided the public key and the identity of the signer can also be checked for validity including such issues as whether the certificate has been revoked, whether the certificate is out of date, or whether the certificate was issued by a trusted certificate issuer.
 

@@ -25,7 +25,7 @@ Serves as the interface to a virtual network interface card (NIC). It is used to
 
 ## Members
 
-The **IVMNetworkAdapter** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMNetworkAdapter** also has these types of members:
+The **IVMNetworkAdapter** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMNetworkAdapter** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

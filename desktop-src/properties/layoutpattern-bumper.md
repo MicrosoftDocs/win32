@@ -14,8 +14,8 @@ ms.date: 05/31/2018
 
 | Topic                                                                                                                      | Description                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [System.LayoutPattern.ContentViewModeForBrowse](https://msdn.microsoft.com/en-us/library/Dd391667(v=VS.85).aspx)<br/> | Identifies the layout pattern that the content view mode should apply for this item in the context of browsing.<br/>  |
-| [System.LayoutPattern.ContentViewModeForSearch](https://msdn.microsoft.com/en-us/library/Dd391668(v=VS.85).aspx)<br/> | Identifies the layout pattern that the content view mode should apply for this item in the context of searching.<br/> |
+| [System.LayoutPattern.ContentViewModeForBrowse](https://msdn.microsoft.com/library/Dd391667(v=VS.85).aspx)<br/> | Identifies the layout pattern that the content view mode should apply for this item in the context of browsing.<br/>  |
+| [System.LayoutPattern.ContentViewModeForSearch](https://msdn.microsoft.com/library/Dd391668(v=VS.85).aspx)<br/> | Identifies the layout pattern that the content view mode should apply for this item in the context of searching.<br/> |
 
 
 

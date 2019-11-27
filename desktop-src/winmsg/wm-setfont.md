@@ -45,16 +45,16 @@ This message does not return a value.
 
 The **WM\_SETFONT** message applies to all controls, not just those in dialog boxes.
 
-The best time for the owner of a dialog box control to set the font of the control is when it receives the [**WM\_INITDIALOG**](https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx) message. The application should call the [**DeleteObject**](https://msdn.microsoft.com/en-us/library/Dd183539(v=VS.85).aspx) function to delete the font when it is no longer needed; for example, after it destroys the control.
+The best time for the owner of a dialog box control to set the font of the control is when it receives the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx) message. The application should call the [**DeleteObject**](https://msdn.microsoft.com/library/Dd183539(v=VS.85).aspx) function to delete the font when it is no longer needed; for example, after it destroys the control.
 
 The size of the control does not change as a result of receiving this message. To avoid clipping text that does not fit within the boundaries of the control, the application should correct the size of the control window before it sets the font.
 
-When a dialog box uses the [DS\_SETFONT](https://msdn.microsoft.com/en-us/library/ms644994(v=VS.85).aspx) style to set the text in its controls, the system sends the **WM\_SETFONT** message to the dialog box procedure before it creates the controls. An application can create a dialog box that contains the DS\_SETFONT style by calling any of the following functions:
+When a dialog box uses the [DS\_SETFONT](https://msdn.microsoft.com/library/ms644994(v=VS.85).aspx) style to set the text in its controls, the system sends the **WM\_SETFONT** message to the dialog box procedure before it creates the controls. An application can create a dialog box that contains the DS\_SETFONT style by calling any of the following functions:
 
--   [**CreateDialogIndirect**](https://msdn.microsoft.com/en-us/library/ms645436(v=VS.85).aspx)
--   [**CreateDialogIndirectParam**](https://msdn.microsoft.com/en-us/library/ms645441(v=VS.85).aspx)
--   [**DialogBoxIndirect**](https://msdn.microsoft.com/en-us/library/ms645457(v=VS.85).aspx)
--   [**DialogBoxIndirectParam**](https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx)
+-   [**CreateDialogIndirect**](https://msdn.microsoft.com/library/ms645436(v=VS.85).aspx)
+-   [**CreateDialogIndirectParam**](https://msdn.microsoft.com/library/ms645441(v=VS.85).aspx)
+-   [**DialogBoxIndirect**](https://msdn.microsoft.com/library/ms645457(v=VS.85).aspx)
+-   [**DialogBoxIndirectParam**](https://msdn.microsoft.com/library/ms645461(v=VS.85).aspx)
 
 ## Requirements
 
@@ -75,28 +75,28 @@ When a dialog box uses the [DS\_SETFONT](https://msdn.microsoft.com/en-us/librar
 **Reference**
 </dt> <dt>
 
-[**CreateDialogIndirect**](https://msdn.microsoft.com/en-us/library/ms645436(v=VS.85).aspx)
+[**CreateDialogIndirect**](https://msdn.microsoft.com/library/ms645436(v=VS.85).aspx)
 </dt> <dt>
 
-[**CreateDialogIndirectParam**](https://msdn.microsoft.com/en-us/library/ms645441(v=VS.85).aspx)
+[**CreateDialogIndirectParam**](https://msdn.microsoft.com/library/ms645441(v=VS.85).aspx)
 </dt> <dt>
 
-[**DialogBoxIndirect**](https://msdn.microsoft.com/en-us/library/ms645457(v=VS.85).aspx)
+[**DialogBoxIndirect**](https://msdn.microsoft.com/library/ms645457(v=VS.85).aspx)
 </dt> <dt>
 
-[**DialogBoxIndirectParam**](https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx)
+[**DialogBoxIndirectParam**](https://msdn.microsoft.com/library/ms645461(v=VS.85).aspx)
 </dt> <dt>
 
-[**DLGTEMPLATE**](https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx)
+[**DLGTEMPLATE**](https://msdn.microsoft.com/library/ms645394(v=VS.85).aspx)
 </dt> <dt>
 
-[**MAKELPARAM**](https://msdn.microsoft.com/en-us/library/ms632661(v=VS.85).aspx)
+[**MAKELPARAM**](https://msdn.microsoft.com/library/ms632661(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETFONT**](wm-getfont.md)
 </dt> <dt>
 
-[**WM\_INITDIALOG**](https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx)
+[**WM\_INITDIALOG**](https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**
@@ -108,7 +108,7 @@ When a dialog box uses the [DS\_SETFONT](https://msdn.microsoft.com/en-us/librar
 **Other Resources**
 </dt> <dt>
 
-[**DeleteObject**](https://msdn.microsoft.com/en-us/library/Dd183539(v=VS.85).aspx)
+[**DeleteObject**](https://msdn.microsoft.com/library/Dd183539(v=VS.85).aspx)
 </dt> </dl>
 
  

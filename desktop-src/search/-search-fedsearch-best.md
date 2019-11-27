@@ -22,7 +22,7 @@ This topic is organized as follows:
 Best practices for working with [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) in Windows 7 are as follows:
 
 -   Support the *{startIndex}* and *{count}* parameters, and be sure to always return the number of items requested unless you are returning the last of the results.
--   If you know the file name extension, map it to the [System.FileExtension](https://msdn.microsoft.com/en-us/library/bb760699(VS.85).aspx) Windows Shell property. Using file name extensions is a better way to identify a file type than MIME type.
+-   If you know the file name extension, map it to the [System.FileExtension](https://msdn.microsoft.com/library/bb760699(VS.85).aspx) Windows Shell property. Using file name extensions is a better way to identify a file type than MIME type.
 -   Ensure that the MIME type or file name extension that you specify in the RSS matches the file name and MIME type returned in the HTTP header by the web server that hosts the item when the item content is requested.
 -   If you are returning file items, return a file size whenever possible. This ensures that the download progress dialog box is accurate.
 -   Verify that requests for items beyond the end of the results set return no results.
@@ -34,7 +34,7 @@ Best practices for working with [OpenSearch](https://go.microsoft.com/fwlink/p/?
 -   Do not put HTML tags where they don't belong. Per the RSS specification, they are valid in the description field, but not in the title field.
 -   Do not create enclosures for webpage items. For example, if you create an enclosure and map a file name extension of .aspx, the file is downloaded by Windows Explorer to the Internet cache and executed from there. Web browsers do not handle the .aspx file type. The user would get an **Open with** dialog box, or the file might be opened by an application like Microsoft Visual Studio. Avoid this by returning a link element only for webpages.
 -   Provide a web roll-over URL in the .osdx file using a URL template with `format="text\html"`.
--   Provide a URL to the parent folder, container, or webpage by mapping a custom element URL value to the [System.ItemFolderPathDisplay](https://msdn.microsoft.com/en-us/library/bb760776(VS.85).aspx) Windows Shell property.
+-   Provide a URL to the parent folder, container, or webpage by mapping a custom element URL value to the [System.ItemFolderPathDisplay](https://msdn.microsoft.com/library/bb760776(VS.85).aspx) Windows Shell property.
 
 ## Best Practices for Creating RSS Output
 
@@ -53,7 +53,7 @@ Best practices for creating RSS output are as follows:
 
 ## Additional Resources
 
-For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
+For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/library/dd742958(VS.85).aspx).
 
 ## Related topics
 

@@ -2,7 +2,7 @@
 title: JET_INDEXCREATE Structure
 TOCTitle: JET_INDEXCREATE Structure
 ms:assetid: 0c55f25c-d42a-49ba-a1fe-549850fdc9a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269186(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269186(v=EXCHG.10)
 ms:contentKeyID: 32765489
 ms.date: 04/11/2016
 ms.topic: reference
@@ -193,7 +193,7 @@ The locale identifier (LCID) to use when normalizing the data when the JET_bitIn
 
 **pidxunicode**
 
-A pointer to a [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) structure if the JET_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](https://msdn.microsoft.com/en-us/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
+A pointer to a [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) structure if the JET_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](https://msdn.microsoft.com/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
 
 **cbVarSegMac**
 

@@ -401,7 +401,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (16), **Extension("NoPrint")**, **Max** (176)
 </dt> </dl>
 
-A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms725481(v=VS.85).aspx) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
+A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/ms725481(v=VS.85).aspx) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
 
 </dd> <dt>
 

@@ -20,8 +20,8 @@ The **Format** method formats and stores a series of characters and values in a 
 
 | Method                                              | Description                                                                                      |
 |:----------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [**Format(UINT)**](https://msdn.microsoft.com/en-us/library/Aa385532(v=VS.85).aspx)       | Formats this CHString according to the resource identifier specified by the **UINT**.<br/> |
-| [**Format(LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385527(v=VS.85).aspx) | Formats this CHString according to the format specified by the **LPCWSTR**.<br/>           |
+| [**Format(UINT)**](https://msdn.microsoft.com/library/Aa385532(v=VS.85).aspx)       | Formats this CHString according to the resource identifier specified by the **UINT**.<br/> |
+| [**Format(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385527(v=VS.85).aspx) | Formats this CHString according to the format specified by the **LPCWSTR**.<br/>           |
 
 
 

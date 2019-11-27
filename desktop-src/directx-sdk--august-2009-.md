@@ -12,7 +12,7 @@ Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK
 
 We originally created the DirectX SDK as a high-performance platform for game development on top of Windows. As DirectX technologies matured, they became relevant to a broader range of applications. Today, the availability of Direct3D hardware in computers drives even traditional desktop applications to use graphics hardware acceleration. In parallel, DirectX technologies are more integrated with Windows. DirectX is now a fundamental part of Windows.
 
-Because the Windows SDK is the primary developer SDK for Windows, DirectX is now included in it. You can now use the Windows SDK to build great games for Windows. To download the Windows 8 SDK, see [Windows SDK and emulator archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive).
+Because the Windows SDK is the primary developer SDK for Windows, DirectX is now included in it. You can now use the Windows SDK to build great games for Windows. To download the Windows 8 SDK, see [Windows SDK and emulator archive](https://developer.microsoft.com/windows/downloads/sdk-archive).
 
 The following technologies and tools, formerly part of the DirectX SDK, are now part of the Windows SDK:
 
@@ -149,7 +149,7 @@ These steps also apply to your own projects that are dependent on the DirectX SD
     2.  Wherever "d3dx9.h", "d3dx10.h", or "d3dx11.h" are included in your project, be sure to explicitly include "d3d9.h", "d3d10.h" and "dxgi.h", or "d3d11.h" and "dxgi.h" first to ensure you are picking up the newer version. You can disable **warning C4005** if needed; however, this warning indicates you are using the older version of these headers.
     3.  Remove all references to DXGIType.h in your project. This header doesn't exist in the Windows SDK, and the DirectX SDK version conflicts with the new winerror.h.
     4.  All D3DX DLLs are installed onto your development computer by the DirectX SDK installation. Ensure that the necessary D3DX dependencies are redistributed with any sample or with your application if it is moved to another machine.
-    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://blogs.msdn.microsoft.com/chuckw/2012/03/02/directxtk/). D3DXMath is replaced by [DirectXMath](https://msdn.microsoft.com/en-us/library/Hh437833(v=VS.85).aspx).
+    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://blogs.msdn.microsoft.com/chuckw/2012/03/02/directxtk/). D3DXMath is replaced by [DirectXMath](https://msdn.microsoft.com/library/Hh437833(v=VS.85).aspx).
 
 6.  Ensure that you are using the new version of the HLSL shader compiler by observing the following conditions:
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # InkStrokes.StrokesAdded event
 
-Occurs when one or more strokes are added to the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection.
+Occurs when one or more strokes are added to the [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_SEStrokesAdded.
+This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_SEStrokesAdded.
 
 ## Requirements
 
@@ -59,7 +59,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 <dl> <dt>
 
-[InkStrokes Collection](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx)
+[InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx)
 </dt> <dt>
 
 [**Add Method \[InkStrokes Collection\]**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-add)

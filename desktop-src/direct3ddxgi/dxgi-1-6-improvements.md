@@ -17,7 +17,7 @@ The following APIs have been added in order to detect HDR displays.
 - [**IDXGIAdapter4**](/windows/desktop/api/DXGI1_6/nn-dxgi1_6-idxgiadapter4)
 - [**IDXGIOutput6**](/windows/desktop/api/DXGI1_6/nn-dxgi1_6-idxgioutput6)
 
-Additional fields in [**DXGI\_ADAPTER\_FLAG3**](https://msdn.microsoft.com/en-us/library/Mt825227(v=VS.85).aspx) and [**DXGI\_COLOR\_SPACE\_TYPE**](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) have been added to support these APIs.
+Additional fields in [**DXGI\_ADAPTER\_FLAG3**](https://msdn.microsoft.com/library/Mt825227(v=VS.85).aspx) and [**DXGI\_COLOR\_SPACE\_TYPE**](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) have been added to support these APIs.
 
 ## Related topics
 

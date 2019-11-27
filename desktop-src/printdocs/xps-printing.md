@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XPS Print API
 
-\[The XPS Print API is not supported and may be altered or unavailable in the future. Client applications should use the [Print Document Package API](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx) instead.\]
+\[The XPS Print API is not supported and may be altered or unavailable in the future. Client applications should use the [Print Document Package API](https://msdn.microsoft.com/library/Hh448418(v=VS.85).aspx) instead.\]
 
 Provides an interface to the print spooler. Applications can use this API to send XPS documents to a printer.
 
@@ -21,7 +21,7 @@ This section contains information about the following topics.
 [XPS Print API Reference](xpsprint-interfaces.md)  
 </dl>
 
-Native Windows applications that create XPS documents, such as by using the [XPS Document API](https://msdn.microsoft.com/en-us/library/Dd316976(v=VS.85).aspx), can use the XPS Print API to send XPS document content to a printer.
+Native Windows applications that create XPS documents, such as by using the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx), can use the XPS Print API to send XPS document content to a printer.
 
 The following diagram shows the relationship of the XPS Print API to the other Print APIs that a native Windows application can use.
 

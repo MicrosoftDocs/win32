@@ -41,7 +41,7 @@ typedef enum {
 } ETW_PROVIDER_TRAIT_TYPE;
 ```
 
-TraceLogging providers automatically set the Provider Traits when the [**TraceLoggingRegister**](https://msdn.microsoft.com/en-us/library/Dn904610(v=VS.85).aspx) function is called. The TraceLogging provider's name will always be included in its traits. A group can be set on a TraceLogging provider using the [**TraceLoggingOptionGroup**](https://msdn.microsoft.com/en-us/library/Dn904607(v=VS.85).aspx) macro in the provider definition.
+TraceLogging providers automatically set the Provider Traits when the [**TraceLoggingRegister**](https://msdn.microsoft.com/library/Dn904610(v=VS.85).aspx) function is called. The TraceLogging provider's name will always be included in its traits. A group can be set on a TraceLogging provider using the [**TraceLoggingOptionGroup**](https://msdn.microsoft.com/library/Dn904607(v=VS.85).aspx) macro in the provider definition.
 
 ## Custom Traits
 

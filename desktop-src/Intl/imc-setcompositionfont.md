@@ -31,7 +31,7 @@ Set to IMC\_SETCOMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**LOGFONT**](https://msdn.microsoft.com/en-us/library/Dd145037(v=VS.85).aspx) structure that contains information about the logical font.
+Pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure that contains information about the logical font.
 
 </dd> </dl>
 

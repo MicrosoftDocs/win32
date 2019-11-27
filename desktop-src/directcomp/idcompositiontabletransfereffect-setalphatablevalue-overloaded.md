@@ -24,8 +24,8 @@ Sets a value in the alpha table.
 
 | Method                                                                                                                | Description                                 |
 |:----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
-| [**SetAlphaTableValue**](https://msdn.microsoft.com/en-us/library/Dn919786(v=VS.85).aspx)                                     | Sets a value in the alpha table.<br/> |
-| [**SetAlphaTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919787(v=VS.85).aspx) | Sets a value in the alpha table.<br/> |
+| [**SetAlphaTableValue**](https://msdn.microsoft.com/library/Dn919786(v=VS.85).aspx)                                     | Sets a value in the alpha table.<br/> |
+| [**SetAlphaTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919787(v=VS.85).aspx) | Sets a value in the alpha table.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets a value in the alpha table.
 
 <dl> <dt>
 
-[**idcompositiontabletransfereffect**](https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx)
+[**idcompositiontabletransfereffect**](https://msdn.microsoft.com/library/Dn919783(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**MOUSEMOVEPOINT**](https://msdn.microsoft.com/en-us/library/ms645603(v=VS.85).aspx)
--   [**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
+-   [**MOUSEMOVEPOINT**](https://msdn.microsoft.com/library/ms645603(v=VS.85).aspx)
+-   [**TRACKMOUSEEVENT**](https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx)
 
  
 

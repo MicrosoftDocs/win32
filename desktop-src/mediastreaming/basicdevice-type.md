@@ -42,7 +42,7 @@ A pointer to a [**DeviceTypes**](devicetypes.md) value.
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
 </dt> </dl>
 
  

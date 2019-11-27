@@ -22,7 +22,7 @@ When a session has been picked up successfully, the application receives a state
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**linePickup**](https://msdn.microsoft.com/en-us/library/ms736009(v=VS.85).aspx).
+**TAPI 2.x:** See [**linePickup**](https://msdn.microsoft.com/library/ms736009(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITBasicCallControl::Pickup**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-pickup).
 

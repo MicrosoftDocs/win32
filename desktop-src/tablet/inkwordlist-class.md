@@ -48,9 +48,9 @@ The **InkWordList** class has these methods.
 
 | Method                                       | Description                                                             |
 |:---------------------------------------------|:------------------------------------------------------------------------|
-| [**AddWord**](https://msdn.microsoft.com/en-us/library/ms702462(v=VS.85).aspx)       | Adds a single word to the **InkWordList**.<br/>                   |
-| [**Merge**](https://msdn.microsoft.com/en-us/library/ms700650(v=VS.85).aspx)           | Merges another **InkWordList** to into this **InkWordList**.<br/> |
-| [**RemoveWord**](https://msdn.microsoft.com/en-us/library/ms701127(v=VS.85).aspx) | Removes a single word from a **InkWordList**.<br/>                |
+| [**AddWord**](https://msdn.microsoft.com/library/ms702462(v=VS.85).aspx)       | Adds a single word to the **InkWordList**.<br/>                   |
+| [**Merge**](https://msdn.microsoft.com/library/ms700650(v=VS.85).aspx)           | Merges another **InkWordList** to into this **InkWordList**.<br/> |
+| [**RemoveWord**](https://msdn.microsoft.com/library/ms701127(v=VS.85).aspx) | Removes a single word from a **InkWordList**.<br/>                |
 
 
 

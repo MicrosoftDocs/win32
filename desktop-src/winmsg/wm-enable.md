@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_ENABLE message
 
-Sent when an application changes the enabled state of a window. It is sent to the window whose enabled state is changing. This message is sent before the [**EnableWindow**](https://msdn.microsoft.com/en-us/library/ms646291(v=VS.85).aspx) function returns, but after the enabled state ([**WS\_DISABLED**](window-styles.md) style bit) of the window has changed.
+Sent when an application changes the enabled state of a window. It is sent to the window whose enabled state is changing. This message is sent before the [**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx) function returns, but after the enabled state ([**WS\_DISABLED**](window-styles.md) style bit) of the window has changed.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -62,7 +62,7 @@ If an application processes this message, it should return zero.
 **Reference**
 </dt> <dt>
 
-[**EnableWindow**](https://msdn.microsoft.com/en-us/library/ms646291(v=VS.85).aspx)
+[**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

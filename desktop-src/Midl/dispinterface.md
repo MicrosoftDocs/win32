@@ -131,7 +131,7 @@ The preceding example declares all the members of hello and all the members that
 
  
 
-The properties and methods of a dispinterface are not part of the VTBL of the dispinterface. Consequently, [CreateStdDispatch](https://msdn.microsoft.com/en-us/library/ms221135(v=VS.71).aspx) and [DispInvoke](https://msdn.microsoft.com/en-us/library/ms221366(v=VS.71).aspx) cannot be used to implement IDispatch::Invoke. The dispinterface is used when an application needs to expose existing non-VTBL functions through Automation. These applications can implement IDispatch::Invoke by examining the dispidMember parameter and directly calling the corresponding function.
+The properties and methods of a dispinterface are not part of the VTBL of the dispinterface. Consequently, [CreateStdDispatch](https://msdn.microsoft.com/library/ms221135(v=VS.71).aspx) and [DispInvoke](https://msdn.microsoft.com/library/ms221366(v=VS.71).aspx) cannot be used to implement IDispatch::Invoke. The dispinterface is used when an application needs to expose existing non-VTBL functions through Automation. These applications can implement IDispatch::Invoke by examining the dispidMember parameter and directly calling the corresponding function.
 
 ## Examples
 
@@ -197,13 +197,13 @@ dispinterface MyObject
 [**interface**](interface.md)
 </dt> <dt>
 
-[TYPEFLAGS](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
+[TYPEFLAGS](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/en-us/library/ms221308(v=VS.71).aspx)
+[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
 </dt> <dt>
 
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)

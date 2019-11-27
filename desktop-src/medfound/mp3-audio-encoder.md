@@ -84,7 +84,7 @@ Set the following attributes on the output media type.
 
  
 
-Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd390710(v=VS.85).aspx) structure and call [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) to convert the structure to a Media Foundation media type.
+Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/library/Dd390710(v=VS.85).aspx) structure and call [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) to convert the structure to a Media Foundation media type.
 
 ### Input Types
 

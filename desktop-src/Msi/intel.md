@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Intel property
 
-The **Intel** property is set by the Windows Installer to the numeric processor level when running on an Intel processor. The values are the same as the *wProcessorLevel* field of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/en-us/library/ms724958(v=VS.85).aspx) structure. When running on a x64 processor, the Windows Installer sets the **Intel** property to reflect the x86 processor emulated by the x64 computer as reported by the operating system.
+The **Intel** property is set by the Windows Installer to the numeric processor level when running on an Intel processor. The values are the same as the *wProcessorLevel* field of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/library/ms724958(v=VS.85).aspx) structure. When running on a x64 processor, the Windows Installer sets the **Intel** property to reflect the x86 processor emulated by the x64 computer as reported by the operating system.
 
 ## Requirements
 

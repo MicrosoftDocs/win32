@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating the Master Key
 
-A [*master key*](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx) is key data material from which other keys are derived. Depending on the protocol and cipher suite used, the master key can be from 5 to 48 bytes in length. For the [*RSA*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx)/[*Schannel*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) CSP, the master key is created by the client-side and transferred to the server in an RSA envelope. For a [*Diffie-Hellman*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx)/Schannel CSP, the master key is created by performing a Diffie-Hellman key exchange.
+A [*master key*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) is key data material from which other keys are derived. Depending on the protocol and cipher suite used, the master key can be from 5 to 48 bytes in length. For the [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)/[*Schannel*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) CSP, the master key is created by the client-side and transferred to the server in an RSA envelope. For a [*Diffie-Hellman*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)/Schannel CSP, the master key is created by performing a Diffie-Hellman key exchange.
 
 Code for creating and exchanging master keys is demonstrated in:
 

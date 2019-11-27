@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.AltitudeRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.AltitudeRef](https://msdn.microsoft.com/en-us/library/bb787478(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.AltitudeRef](https://msdn.microsoft.com/library/bb787478(VS.85).aspx) property.
 
 ### PKEY
 
@@ -126,7 +126,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.AltitudeRef](https://msdn.microsoft.com/en-us/library/bb787478(VS.85).aspx)
+[System.GPS.AltitudeRef](https://msdn.microsoft.com/library/bb787478(VS.85).aspx)
 </dt> </dl>
 
  

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Longitude Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Longitude](https://msdn.microsoft.com/en-us/library/bb760566(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Longitude](https://msdn.microsoft.com/library/bb760566(VS.85).aspx) property.
 
 ### PKEY
 
@@ -118,7 +118,7 @@ This value can be written by writing to System.GPS.LongitudeNumerator and System
 
 <dl> <dt>
 
-[System.GPS.Longitude](https://msdn.microsoft.com/en-us/library/bb760566(VS.85).aspx)
+[System.GPS.Longitude](https://msdn.microsoft.com/library/bb760566(VS.85).aspx)
 </dt> </dl>
 
  

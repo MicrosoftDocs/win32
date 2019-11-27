@@ -38,7 +38,7 @@ The creation flags.
 
 ## Remarks
 
-The **GetCreationFlags** method returns flags that were passed to the [**CreateDXGIFactory2**](/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2) function, or were implicitly constructed by [**CreateDXGIFactory**](/windows/desktop/api/DXGI/nf-dxgi-createdxgifactory), [**CreateDXGIFactory1**](/windows/desktop/api/DXGI/nf-dxgi-createdxgifactory1), [**D3D11CreateDevice**](https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx), or [**D3D11CreateDeviceAndSwapChain**](https://msdn.microsoft.com/en-us/library/Ff476083(v=VS.85).aspx).
+The **GetCreationFlags** method returns flags that were passed to the [**CreateDXGIFactory2**](/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2) function, or were implicitly constructed by [**CreateDXGIFactory**](/windows/desktop/api/DXGI/nf-dxgi-createdxgifactory), [**CreateDXGIFactory1**](/windows/desktop/api/DXGI/nf-dxgi-createdxgifactory1), [**D3D11CreateDevice**](https://msdn.microsoft.com/library/Ff476082(v=VS.85).aspx), or [**D3D11CreateDeviceAndSwapChain**](https://msdn.microsoft.com/library/Ff476083(v=VS.85).aspx).
 
 ## See also
 

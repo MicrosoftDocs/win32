@@ -45,7 +45,7 @@ If the message fails, the return value is zero.
 
 ## Remarks
 
-After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx) function to update the menu bar.
+After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx) function to update the menu bar.
 
 If this message replaces the window menu, the MDI child window menu items are removed from the previous window menu and added to the new window menu.
 
@@ -70,7 +70,7 @@ If an MDI child window is maximized and this message replaces the MDI frame wind
 **Reference**
 </dt> <dt>
 
-[**DrawMenuBar**](https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx)
+[**DrawMenuBar**](https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_MDIREFRESHMENU**](wm-mdirefreshmenu.md)

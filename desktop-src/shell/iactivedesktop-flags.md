@@ -50,7 +50,7 @@ topic_type:
 
 # IActiveDesktop Flags
 
-This section describes the flags used by [**IActiveDesktop**](https://msdn.microsoft.com/en-us/library/Bb776357(v=VS.85).aspx) interface methods.
+This section describes the flags used by [**IActiveDesktop**](https://msdn.microsoft.com/library/Bb776357(v=VS.85).aspx) interface methods.
 
 <dl> <dt>
 

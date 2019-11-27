@@ -12,15 +12,15 @@ ms.date: 05/31/2018
 
 The following functions are used with MCI.
 
--   [**mciExecute**](https://msdn.microsoft.com/en-us/library/Dd757154(v=VS.85).aspx)
--   [**mciGetCreatorTask**](https://msdn.microsoft.com/en-us/library/Dd757155(v=VS.85).aspx)
--   [**mciGetDeviceID**](https://msdn.microsoft.com/en-us/library/Dd757156(v=VS.85).aspx)
--   [**mciGetDeviceIDFromElementID**](https://msdn.microsoft.com/en-us/library/Dd757157(v=VS.85).aspx)
--   [**mciGetErrorString**](https://msdn.microsoft.com/en-us/library/Dd757158(v=VS.85).aspx)
--   [**mciGetYieldProc**](https://msdn.microsoft.com/en-us/library/Dd757159(v=VS.85).aspx)
--   [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
--   [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx)
--   [**mciSetYieldProc**](https://msdn.microsoft.com/en-us/library/Dd757163(v=VS.85).aspx)
+-   [**mciExecute**](https://msdn.microsoft.com/library/Dd757154(v=VS.85).aspx)
+-   [**mciGetCreatorTask**](https://msdn.microsoft.com/library/Dd757155(v=VS.85).aspx)
+-   [**mciGetDeviceID**](https://msdn.microsoft.com/library/Dd757156(v=VS.85).aspx)
+-   [**mciGetDeviceIDFromElementID**](https://msdn.microsoft.com/library/Dd757157(v=VS.85).aspx)
+-   [**mciGetErrorString**](https://msdn.microsoft.com/library/Dd757158(v=VS.85).aspx)
+-   [**mciGetYieldProc**](https://msdn.microsoft.com/library/Dd757159(v=VS.85).aspx)
+-   [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
+-   [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx)
+-   [**mciSetYieldProc**](https://msdn.microsoft.com/library/Dd757163(v=VS.85).aspx)
 
 ## Related topics
 

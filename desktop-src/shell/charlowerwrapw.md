@@ -17,12 +17,12 @@ api_location:
 
 # CharLowerWrapW function
 
-\[**CharLowerWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharLowerW**](https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx) in its place.\]
+\[**CharLowerWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharLowerW**](https://msdn.microsoft.com/library/ms647467(v=VS.85).aspx) in its place.\]
 
 Converts a Unicode character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place.
 
 > [!Note]  
-> **CharLowerWrapW** is a wrapper for the **CharLowerW** function. See the [**CharLower**](https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx) page for further usage notes.
+> **CharLowerWrapW** is a wrapper for the **CharLowerW** function. See the [**CharLower**](https://msdn.microsoft.com/library/ms647467(v=VS.85).aspx) page for further usage notes.
 
  
 
@@ -58,11 +58,11 @@ If *pch* is a character string, the function returns a pointer to the converted 
 
 If *pch* is a single character, the return value is a 32-bit value whose high-order word is zero, and low-order word contains the converted character.
 
-There is no indication of success or failure. Failure is rare. There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx).
+There is no indication of success or failure. Failure is rare. There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx).
 
 ## Remarks
 
-The preferred method is to use [**CharLowerW**](https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+The preferred method is to use [**CharLowerW**](https://msdn.microsoft.com/library/ms647467(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **CharLowerWrapW** must be called directly from Shlwapi.dll, using ordinal 38.
 
@@ -82,7 +82,7 @@ The preferred method is to use [**CharLowerW**](https://msdn.microsoft.com/en-us
 
 <dl> <dt>
 
-[**CharLower**](https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx)
+[**CharLower**](https://msdn.microsoft.com/library/ms647467(v=VS.85).aspx)
 </dt> </dl>
 
  

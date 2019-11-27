@@ -21,7 +21,7 @@ Represents the File History configuration of the user under which the **FhConfig
 
 ## When to implement
 
-The File History API implements this class. To create an instance of this class, use the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) function.
+The File History API implements this class. To create an instance of this class, use the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function.
 
 ## Requirements
 

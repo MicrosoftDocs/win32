@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 After address assignment, TAPI assigns address identifiers to the addresses. An *address identifier* is a number between 0 and the number of addresses on the line minus one. An address identifier is a permanent number assigned to a given device and remains constant even across operating system upgrades. The combination of [device identifier](device-identifier-ovr.md) and address identifier uniquely identifies a given address.
 
-**TAPI 2.x:** Applications obtain an address identifier (and device identifier) during a call to [**lineMakeCall**](https://msdn.microsoft.com/en-us/library/ms735988(v=VS.85).aspx) or [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx), in the [**LINECALLINFO**](https://msdn.microsoft.com/en-us/library/ms735527(v=VS.85).aspx) structure, or in a call to [**lineGetAddressID**](https://msdn.microsoft.com/en-us/library/ms735678(v=VS.85).aspx).
+**TAPI 2.x:** Applications obtain an address identifier (and device identifier) during a call to [**lineMakeCall**](https://msdn.microsoft.com/library/ms735988(v=VS.85).aspx) or [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx), in the [**LINECALLINFO**](https://msdn.microsoft.com/library/ms735527(v=VS.85).aspx) structure, or in a call to [**lineGetAddressID**](https://msdn.microsoft.com/library/ms735678(v=VS.85).aspx).
 
 **TAPI 3.x:** The [**ITAddressCapabilities::get\_AddressCapability**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability) called *AddressCap* set to the **AC\_ADDRESSID** member of [**ADDRESS\_CAPABILITY**](/windows/desktop/api/Tapi3if/ne-tapi3if-address_capability) will return with the *plCapability* parameter set to the current address ID.
 

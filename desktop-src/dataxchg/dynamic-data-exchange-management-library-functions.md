@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 -   [**DdeAbandonTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeabandontransaction)
 -   [**DdeAccessData**](/windows/desktop/api/Ddeml/nf-ddeml-ddeaccessdata)
 -   [**DdeAddData**](/windows/desktop/api/Ddeml/nf-ddeml-ddeadddata)
--   [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx)
+-   [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx)
 -   [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction)
 -   [**DdeCmpStringHandles**](/windows/desktop/api/Ddeml/nf-ddeml-ddecmpstringhandles)
 -   [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)

@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::enumCSPName method
 
-The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs).
+The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs).
 
 ## Syntax
 

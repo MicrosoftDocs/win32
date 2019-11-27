@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_REALIZE command causes a graphic device to realize its palette into a device context (DC). Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

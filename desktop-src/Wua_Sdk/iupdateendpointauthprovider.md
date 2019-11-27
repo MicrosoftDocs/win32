@@ -21,7 +21,7 @@ The **IUpdateEndpointAuthProvider** interface contains the methods used for nego
 
 ## Members
 
-The **IUpdateEndpointAuthProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IUpdateEndpointAuthProvider** also has these types of members:
+The **IUpdateEndpointAuthProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IUpdateEndpointAuthProvider** also has these types of members:
 
 -   [Methods](#methods)
 

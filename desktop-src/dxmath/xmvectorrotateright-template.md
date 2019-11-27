@@ -35,7 +35,7 @@ Returns the rotated [**XMVECTOR**](xmvector-data-type.md).
 
 ## Remarks
 
-This function is a template version of [**XMVectorRotateRight**](https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx) where the *Elements* argument is a template value.
+This function is a template version of [**XMVectorRotateRight**](https://msdn.microsoft.com/library/Hh404807(v=VS.85).aspx) where the *Elements* argument is a template value.
 
 > [!Note]  
 > The `XMVectorRotateRight` template is new for DirectXMath and is not available for XNAMath 2.x.

@@ -73,7 +73,7 @@ The address of the callback function.
 
 <dl> <dt>
 
-[Failure Hooks](https://msdn.microsoft.com/en-us/library/sfcfb0a3(v=VS.71).aspx)
+[Failure Hooks](https://msdn.microsoft.com/library/sfcfb0a3(v=VS.71).aspx)
 </dt> </dl>
 
  

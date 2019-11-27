@@ -19,7 +19,7 @@ Contains the method used to get an endpoint that is used to connect to a service
 
 ## Members
 
-The **IUpdateEndpointProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IUpdateEndpointProvider** also has these types of members:
+The **IUpdateEndpointProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IUpdateEndpointProvider** also has these types of members:
 
 -   [Methods](#methods)
 

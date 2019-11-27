@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Microsoft DSS and Diffie-Hellman/Schannel Cryptographic Provider
 
-The Microsoft DSS and [*Diffie-Hellman*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx)/[*Schannel*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) Cryptographic Provider supports hashing, data signing with DSS, generating Diffie-Hellman (D-H) keys, exchanging D-H keys, and exporting a D-H key. This CSP supports key derivation for the SSL3 and TLS1 protocols. It can be exported to other countries/regions.
+The Microsoft DSS and [*Diffie-Hellman*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)/[*Schannel*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) Cryptographic Provider supports hashing, data signing with DSS, generating Diffie-Hellman (D-H) keys, exchanging D-H keys, and exporting a D-H key. This CSP supports key derivation for the SSL3 and TLS1 protocols. It can be exported to other countries/regions.
 
 
 

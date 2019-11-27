@@ -20,7 +20,7 @@ With standard marshaling, the proxies and stubs are systemwide resources for the
 
 As an alternative to standard marshaling, an interface (standard or custom) can use custom marshaling. With custom marshaling, an object dynamically implements the proxies at run time for each interface that it supports. For any given interface, the object can select COM-provided standard marshaling or custom marshaling. This choice is made by the object on an interface-by-interface basis. Once the choice is made for a given interface, it remains in effect during the object's lifetime. However, one interface on an object can use custom marshaling while another uses standard marshaling.
 
-Custom marshaling is inherently unique to the object that implements it. It uses proxies implemented by the object and provided to the system on request at run time. Objects that implement custom marshaling must implement the [**IMarshal**](https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx) interface, whereas objects that support standard marshaling do not.
+Custom marshaling is inherently unique to the object that implements it. It uses proxies implemented by the object and provided to the system on request at run time. Objects that implement custom marshaling must implement the [**IMarshal**](https://msdn.microsoft.com/library/Dd542707(v=VS.85).aspx) interface, whereas objects that support standard marshaling do not.
 
 If you decide to write a custom interface, you must provide marshaling support for it. Typically, you will provide a standard marshaling DLL for the interface you design. You can create the proxy/stub code and the proxy/stub DLL, or you can create a type library that COM will use to do data-driven marshaling (using the data in the type library).
 

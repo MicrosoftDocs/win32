@@ -151,7 +151,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the Instancing.fx file in the [Instancing10 Sample](https://msdn.microsoft.com/en-us/library/Ee416415(v=VS.85).aspx).
+This partial code example is from the Instancing.fx file in the [Instancing10 Sample](https://msdn.microsoft.com/library/Ee416415(v=VS.85).aspx).
 
 
 ```

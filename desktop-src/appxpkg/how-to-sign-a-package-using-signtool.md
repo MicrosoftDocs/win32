@@ -193,7 +193,7 @@ After the package is signed, the certificate that you used to sign the package m
 [Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
 </dt> <dt>
 
-[Signing a package in Visual Studio 2012](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx)
+[Signing a package in Visual Studio 2012](https://msdn.microsoft.com/library/BR230260(v=VS.110).aspx)
 </dt> <dt>
 
 [SignTool](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool)

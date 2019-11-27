@@ -17,7 +17,7 @@ api_location:
 
 # D3DXPATCHMESH enumeration
 
-Not used. Use [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/en-us/library/Bb205384(v=VS.85).aspx) instead to specify mesh patch types.
+Not used. Use [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/library/Bb205384(v=VS.85).aspx) instead to specify mesh patch types.
 
 ## Syntax
 

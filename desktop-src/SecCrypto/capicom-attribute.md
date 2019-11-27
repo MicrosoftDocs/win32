@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_ATTRIBUTE enumeration
 
-The **CAPICOM\_ATTRIBUTE** enumeration type defines the kind of attribute associated with a [*signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx).
+The **CAPICOM\_ATTRIBUTE** enumeration type defines the kind of attribute associated with a [*signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx).
 
 ## Members
 

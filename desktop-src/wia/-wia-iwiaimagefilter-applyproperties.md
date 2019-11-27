@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Do not call this method directly from your application. It is called by Windows Image Acquisition (WIA) 2.0 after the image processing filter has processed the raw data.
 
-*pWiaPropertyStorage* is the [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface into which the image processing filter should write properties. An image processing filter should use only the [IPropertyStorage::WriteMultiple](https://msdn.microsoft.com/en-us/library/Aa379985(v=VS.85).aspx) method to write properties.
+*pWiaPropertyStorage* is the [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface into which the image processing filter should write properties. An image processing filter should use only the [IPropertyStorage::WriteMultiple](https://msdn.microsoft.com/library/Aa379985(v=VS.85).aspx) method to write properties.
 
 This method allows the image processing filter to write properties back to the driver (and device). This may be necessary for filters that implement features such as auto-exposure during film scanning.
 

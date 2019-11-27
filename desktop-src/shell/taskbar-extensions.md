@@ -118,7 +118,7 @@ This toolbar is simply the familiar standard toolbar common control. It has a ma
 Because there is limited room to display thumbnails and a variable number of thumbnails to display, applications are not guaranteed a given toolbar size. If space is restricted, buttons in the toolbar are truncated from right to left. Therefore, when you design your toolbar, you should prioritize the commands associated with your buttons and ensure that the most important come first and are least likely to be dropped because of space issues.
 
 > [!Note]  
-> When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a **TaskbarButtonCreated** message to the window. Its value is computed by calling [**RegisterWindowMessage**](https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx)(L("TaskbarButtonCreated")). That message must be received by your application before it calls any [**ITaskbarList3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3) method.
+> When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a **TaskbarButtonCreated** message to the window. Its value is computed by calling [**RegisterWindowMessage**](https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx)(L("TaskbarButtonCreated")). That message must be received by your application before it calls any [**ITaskbarList3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3) method.
 
  
 
@@ -191,12 +191,12 @@ Thumbnail representations for windows are normally automatic, but in cases where
 
 ### API
 
--   [**DwmSetWindowAttribute**](https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx)
--   [**DwmSetIconicThumbnail**](https://msdn.microsoft.com/en-us/library/Dd389411(v=VS.85).aspx)
--   [**DwmSetIconicLivePreviewBitmap**](https://msdn.microsoft.com/en-us/library/Dd389410(v=VS.85).aspx)
--   [**DwmInvalidateIconicBitmaps**](https://msdn.microsoft.com/en-us/library/Dd389409(v=VS.85).aspx)
--   [**WM\_DWMSENDICONICTHUMBNAIL**](https://msdn.microsoft.com/en-us/library/Dd938875(v=VS.85).aspx)
--   [**WM\_DWMSENDICONICLIVEPREVIEWBITMAP**](https://msdn.microsoft.com/en-us/library/Dd938874(v=VS.85).aspx)
+-   [**DwmSetWindowAttribute**](https://msdn.microsoft.com/library/Aa969524(v=VS.85).aspx)
+-   [**DwmSetIconicThumbnail**](https://msdn.microsoft.com/library/Dd389411(v=VS.85).aspx)
+-   [**DwmSetIconicLivePreviewBitmap**](https://msdn.microsoft.com/library/Dd389410(v=VS.85).aspx)
+-   [**DwmInvalidateIconicBitmaps**](https://msdn.microsoft.com/library/Dd389409(v=VS.85).aspx)
+-   [**WM\_DWMSENDICONICTHUMBNAIL**](https://msdn.microsoft.com/library/Dd938875(v=VS.85).aspx)
+-   [**WM\_DWMSENDICONICLIVEPREVIEWBITMAP**](https://msdn.microsoft.com/library/Dd938874(v=VS.85).aspx)
 
 You can select a particular area of the window to use as the thumbnail. This can be useful when an application knows that its documents or tabs will appear similar when viewed at thumbnail size. The application can then choose to show just the part of its client area that the user can use to distinguish between thumbnails. However, hovering over any thumbnail brings up a view of the full window behind it so the user can quickly glance through them as well.
 
@@ -206,7 +206,7 @@ If there are more thumbnails than can be displayed, the preview reverts to the l
 
 -   [**ITaskbarList3::SetThumbnailClip**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setthumbnailclip)
 
-To add **Pin to Taskbar** to an item's shortcut menu, which is normally required only for file types that include the [IsShortCut](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx) entry, is done by registering the appropriate context menu handler. This also applies to **Pin to Start Menu**. See [Registering Shell Extension Handlers](reg-shell-exts.md) for more information.
+To add **Pin to Taskbar** to an item's shortcut menu, which is normally required only for file types that include the [IsShortCut](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx) entry, is done by registering the appropriate context menu handler. This also applies to **Pin to Start Menu**. See [Registering Shell Extension Handlers](reg-shell-exts.md) for more information.
 
 ## Related topics
 
