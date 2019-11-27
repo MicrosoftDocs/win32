@@ -1412,7 +1412,7 @@ The valid range of values for these fields shall be:
 
 -   Exactly FFFFFFFFh, which marks the given FatEntry's corresponding cluster as the last cluster of a cluster chain; this is the only valid value for the last FatEntry of any given cluster chain
 
- ## 5 Data Region
+## 5 Data Region
 
 The Data region contains the Cluster Heap, which provides managed space
 for file system structures, directories, and files.
@@ -2264,7 +2264,7 @@ Generic DirectoryEntry template (see [Section 6.2.3](#623-datalength-field)).
 If the NoFatChain bit is 1 then DataLength must not be zero. If the
 FirstCluster field is zero, then DataLength must also be zero.
 
- ## 7 Directory Entry Definitions
+## 7 Directory Entry Definitions
 
 Revision 1.00 of the exFAT file system defines the following directory
 entries:
@@ -4604,7 +4604,7 @@ specification shall treat TexFAT Padding directory entries the same as
 any other unrecognized benign primary directory entries, implementations
 shall not move TexFAT Padding directory entries.
 
- ## 8 Implementation Notes
+## 8 Implementation Notes
 
 ### 8.1 Recommended Write Ordering
 
@@ -4697,7 +4697,7 @@ describe implications of these scenarios:
     implementations shall free all cluster allocations, if any,
     associated with unrecognized benign secondary directory entries.
 
- ## 9 File System Limits
+## 9 File System Limits
 
 ### 9.1 Sector Size Limits
 
