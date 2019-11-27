@@ -21,8 +21,6 @@ ms.date: 08/27/2019
 <!-- Disabling this warning until can find alternatives          -->
 <!-- markdownlint-disable MD033                                  -->
 
-# exFAT file system specification
-
 ## 1 Introduction
 
 The exFAT file system is the successor to FAT32 in the FAT family of
