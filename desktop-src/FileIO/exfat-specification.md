@@ -1330,19 +1330,19 @@ entry in a FAT represents exactly one cluster.
 <td>FatEntry[0]</td>
 <td>0</td>
 <td>4</td>
-<td>This field is mandatory and Section 4.1.1 defines its contents.</td>
+<td>This field is mandatory and <a href="#412-fatentry1-field">Section 4.1.2</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FatEntry[1]</td>
 <td>4</td>
 <td>4</td>
-<td>This field is mandatory and Section 4.1.2 defines its contents.</td>
+<td>This field is mandatory and <a href="#412-fatentry1-field">Section 4.1.2</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>FatEntry[2]</td>
 <td>8</td>
 <td>4</td>
-<td>This field is mandatory and Section 4.1.3 defines its contents.</td>
+<td>This field is mandatory and <a href="#413-fatentry2--fatentryclustercount1-fields">Section 4.1.3</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td><p>.</p>
@@ -1362,7 +1362,7 @@ entry in a FAT represents exactly one cluster.
 <td>FatEntry[ClusterCount+1]</td>
 <td>(ClusterCount + 1) * 4</td>
 <td>4</td>
-<td><p>This field is mandatory and Section 4.1.3 defines its contents.</p>
+<td><p>This field is mandatory and <a href="#413-fatentry2--fatentryclustercount1-fields">Section 4.1.3</a> defines its contents.</p>
 <p>ClusterCount + 1 can never exceed FFFFFFF6h.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the ClusterCount field.</p></td>
 </tr>
@@ -1449,7 +1449,7 @@ all clusters in the Cluster Heap.
 <td>Cluster[2]</td>
 <td>ClusterHeapOffset</td>
 <td>2<sup>SectorsPerClusterShift</sup></td>
-<td><p>This field is mandatory and Section 5.1.1 defines its contents.</p>
+<td><p>This field is mandatory and <a href="#511-cluster2--clusterclustercount1-fields">Section 5.1.1</a> defines its contents.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the ClusterHeapOffset and SectorsPerClusterShift fields.</p></td>
 </tr>
 <tr class="even">
@@ -1470,7 +1470,7 @@ all clusters in the Cluster Heap.
 <td>Cluster[ClusterCount+1]</td>
 <td>ClusterHeapOffset + (ClusterCount – 1) * 2<sup>SectorsPerClusterShift</sup></td>
 <td>2<sup>SectorsPerClusterShift</sup></td>
-<td><p>This field is mandatory and Section 5.1.1 defines its contents.</p>
+<td><p>This field is mandatory and <a href="#511-cluster2--clusterclustercount1-fields">Section 5.1.1</a> defines its contents.</p>
 <p>Note: the Main and Backup Boot Sectors both contain the ClusterCount, ClusterHeapOffset, and SectorsPerClusterShift fields.</p></td>
 </tr>
 </tbody>
