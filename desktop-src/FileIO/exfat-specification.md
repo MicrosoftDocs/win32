@@ -1248,7 +1248,7 @@ The Main and Backup Boot Checksums each contain a repeating pattern of
 the four-byte checksum of the contents of all other sub-regions in their
 respective Boot regions. The checksum calculation shall not include the
 VolumeFlags and PercentInUse fields in their respective Boot Sector (see
-Figure 1). The repeating pattern of the four-byte checksum fills its
+[Figure 1](#figure-1-boot-checksum-computation)). The repeating pattern of the four-byte checksum fills its
 respective Boot Checksum sub-region from the beginning to the end of the
 sub-region.
 
@@ -1260,6 +1260,8 @@ While the initial format operation will populate both the Main and
 Backup Boot Checksums with the repeating checksum pattern,
 implementations shall update these sectors as the contents of the other
 sectors in their respective Boot regions change.
+
+<div id="figure-1-boot-checksum-computation" />
 
 **Figure 1 Boot Checksum Computation**
 
@@ -1930,12 +1932,14 @@ template may redefine both the SecondaryCount and SetChecksum fields.
 
 The SetChecksum field shall contain the checksum of all directory
 entries in the given directory entry set. However, the checksum excludes
-this field (see Figure 2). Implementations shall verify the contents of
+this field (see [Figure 2](#figure-2-entrysetchecksum-computation)). Implementations shall verify the contents of
 this field are valid prior to using any other directory entry in the
 given directory entry set.
 
 Critical primary directory entry structures which derive from this
 template may redefine both the SecondaryCount and SetChecksum fields.
+
+<div id="figure-2-entrysetchecksum-computation" />
 
 **Figure 2 EntrySetChecksum Computation**
 
@@ -2645,6 +2649,8 @@ The TableChecksum field contains the checksum of the Up-case Table
 (which the FirstCluster and DataLength fields describe). Implementations
 shall verify the contents of this field are valid prior to using the
 Up-case Table.
+
+<div id="figure-3-tablechecksum-computation" />
 
 **Figure 3 TableChecksum Computation**
 
@@ -4094,11 +4100,13 @@ Directory Entries (see [Section 7.7](#77-file-name-directory-entry)).
 
 #### 7.6.4 NameHash Field
 
-The NameHash field shall contain a 2-byte hash (see Figure 4) of the
+The NameHash field shall contain a 2-byte hash (see [Figure 4](#figure-4-namehash-computation)) of the
 up-cased file name. This enables implementations to perform a quick
 comparison when searching for a file by name. Importantly, the NameHash
 provides a sure verification of a mismatch. Implementations shall verify
 all NameHash matches with a comparison of the up-cased file name.
+
+<div id="figure-4-namehash-computation" />
 
 **Figure 4 NameHash Computation**
 
