@@ -40,9 +40,9 @@
         href: managing-interfaces-using-getinterfaceinfo.md
       - name: "Managing IP Addresses Using GetIpAddrTable"
         href: managing-ip-addresses-using-getipaddrtable.md
-      - name: "Managing DHCP Leases Using IpReleaseAddress and IpRenewAddress"
+      - name: "Manage DHCP leases with IpReleaseAddress, IpRenewAddress"
         href: managing-dhcp-leases-using-ipreleaseaddress-and-iprenewaddress.md
-      - name: "Managing IP Addresses Using AddIPAddress and DeleteIPAddress"
+      - name: "Manage IP addresses with AddIPAddress, DeleteIPAddress"
         href: managing-ip-addresses-using-addipaddress-and-deleteipaddress.md
       - name: "Retrieving Information Using GetIpStatistics"
         href: retrieving-information-using-getipstatistics.md

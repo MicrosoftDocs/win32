@@ -1,14 +1,14 @@
 ---
+title: Use Wireless Hosted Network, Internet Connection Sharing
 Description: Using Wireless Hosted Network and Internet Connection Sharing
 ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
-title: Using Wireless Hosted Network and Internet Connection Sharing
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Wireless Hosted Network and Internet Connection Sharing
+# Use Wireless Hosted Network, Internet Connection Sharing
 
-The wireless Hosted Network is a new WLAN feature supported on Windows 7 and Windows 8. It is also supported on Windows Server 2012 and Windows Server 2008 R2 with the Wireless LAN Service installed. This feature implements two major functions:
+The Wireless Hosted Network is a new WLAN feature supported on Windows 7 and Windows 8. It is also supported on Windows Server 2012 and Windows Server 2008 R2 with the Wireless LAN Service installed. This feature implements two major functions:
 
 -   The virtualization of a physical wireless adapter into more than one virtual wireless adapter sometimes referred to as Virtual Wi-Fi.
 -   A software-based wireless access point (AP) sometimes referred to as a SoftAP that uses a designated virtual wireless adapter.

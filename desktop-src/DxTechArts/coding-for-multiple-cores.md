@@ -1,12 +1,12 @@
 ---
-title: Coding For Multiple Cores on Xbox 360 and Microsoft Windows
+title: Coding for multicore on Xbox 360 and Windows
 description: This topic gives some advice on how to get started with multithreaded programming.
 ms.assetid: 661f13a6-c73d-8513-2bad-0ef9d1a361a0
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Coding For Multiple Cores on Xbox 360 and Microsoft Windows
+# Coding for multicore on Xbox 360 and Windows
 
 For years the performance of processors has increased steadily, and games and other programs have reaped the benefits of this increasing power without having to do anything special.
 

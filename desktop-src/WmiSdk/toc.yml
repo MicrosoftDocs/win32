@@ -172,7 +172,7 @@
             href: accessing-wmi-preinstalled-performance-classes.md
         - name: "Obtaining Statistical Performance Data"
           href: obtaining-statistical-performance-data.md
-        - name: "Monitoring Performance With the Performance Monitoring Provider"
+        - name: "The Performance Monitoring Provider"
           href: monitoring-performance-with-the-performance-monitoring-provider.md
       - name: "Receiving a WMI Event"
         href: receiving-a-wmi-event.md
@@ -417,7 +417,7 @@
               href: mapping-a-registry-data-type-to-a-wmi-data-type.md
             - name: "Defining a Registry Class With Qualifiers"
               href: defining-a-registry-class-with-qualifiers.md
-          - name: "Using the System Registry Provider as a Property Provider"
+          - name: "Use the System Registry Provider as a Property Provider"
             href: using-the-system-registry-provider-as-a-property-provider.md
           - name: "Describing a Resource for the Registry"
             href: describing-a-resource-for-the-registry.md
@@ -426,7 +426,7 @@
         - name: "Registering for System Registry Events"
           href: registering-for-system-registry-events.md
           items: 
-          - name: "Creating a Proper WHERE Clause for the Registry Provider"
+          - name: "Creating a WHERE clause for the registry provider"
             href: creating-a-proper-where-clause-for-the-registry-provider.md
           - name: "Receiving Registry Events"
             href: receiving-registry-events.md
@@ -523,7 +523,7 @@
           items: 
           - name: "Registering an Instance Provider"
             href: registering-an-instance-provider.md
-          - name: "Implementing the Primary Interface for an Instance Provider"
+          - name: "Implementing an instance provider primary interface"
             href: implementing-the-primary-interface-for-an-instance-provider.md
           - name: "Improving the Efficiency of an Instance Provider"
             href: improving-the-efficiency-of-an-instance-provider.md
@@ -588,7 +588,7 @@
           items: 
           - name: "Setting Namespace Security with the WMI Control"
             href: setting-namespace-security-with-the-wmi-control.md
-          - name: "Setting Namespace Security When the Namespace is Created"
+          - name: "Setting security on namespace creation"
             href: setting-namespace-security-when-the-namespace-is-created.md
         - name: "Requiring an Encrypted Connection to a Namespace"
           href: requiring-an-encrypted-connection-to-a-namespace.md
@@ -635,7 +635,7 @@
       - name: "Securing Scripting Clients"
         href: securing-scripting-clients.md
         items: 
-        - name: "Setting the Default Process Security Level Using VBScript"
+        - name: "Set the default process security level with VBScript"
           href: setting-the-default-process-security-level-using-vbscript.md
         - name: "Setting the Authentication Service Using VBScript"
           href: setting-the-authentication-service-using-vbscript.md

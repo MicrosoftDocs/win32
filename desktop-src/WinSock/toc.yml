@@ -108,9 +108,9 @@
         items: 
         - name: "Using WSAJoinLeaf"
           href: using-wsajoinleaf-2.md
-      - name: "Semantic Differences Between Multipoint Sockets and Regular Sockets"
+      - name: "Semantic differences between multipoint sockets and regular sockets"
         href: semantic-differences-between-multipoint-sockets-and-regular-sockets-2.md
-      - name: "How Existing Multipoint Protocols Support These Extensions"
+      - name: "How multipoint protocols support these extensions"
         href: how-existing-multipoint-protocols-support-these-extensions-2.md
         items: 
         - name: "IP Multicast"
@@ -314,7 +314,7 @@
             items: 
             - name: "Multipoint Taxonomy and Glossary"
               href: multipoint-taxonomy-and-glossary-2.md
-            - name: "Multipoint Attributes in the WSAPROTOCOL_INFO Structure"
+            - name: "Multipoint attributes in WSAPROTOCOL_INFO"
               href: multipoint-attributes-in-the-wsaprotocol-info-structure.md
             - name: "Multipoint Socket Attributes"
               href: multipoint-socket-attributes-2.md
@@ -326,7 +326,7 @@
               href: spi-semantics-for-joining-multipoint-leaves-2.md
             - name: "Using WSPJoinLeaf"
               href: using-wspjoinleaf-2.md
-            - name: "Semantic Differences Between Multipoint Sockets and Regular Sockets in the SPI"
+            - name: "Semantic differences between multipoint sockets and regular sockets"
               href: semantic-differences-between-multipoint-sockets-and-regular-sockets-in-the-spi-2.md
           - name: "Socket Options and IOCTLs"
             href: socket-options-and-ioctls-2.md
@@ -356,7 +356,7 @@
             href: name-space-organization-in-the-spi-2.md
           - name: "Namespace Provider Architecture in the SPI"
             href: name-space-provider-architecture-in-the-spi-2.md
-        - name: "Name Resolution Division of Responsibilities Between DLL and Service Providers"
+        - name: "Name resolution for DLL and service providers"
           href: name-resolution-division-of-responsibilities-between-dll-and-service-providers-2.md
         - name: "Name Resolution Mapping Between API and SPI Functions"
           href: name-resolution-mapping-between-api-and-spi-functions-2.md
@@ -555,7 +555,7 @@
           href: future-improvements-2.md
       - name: "Best Practices for Interactive Applications"
         href: best-practices-for-interactive-applications-2.md
-    - name: "Categorizing Layered Service Providers and Applications"
+    - name: "Categorizing layered service providers and apps"
       href: categorizing-layered-service-providers-and-applications.md
     - name: "Multicast Programming"
       href: multicast-programming.md

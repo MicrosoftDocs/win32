@@ -505,7 +505,7 @@
       - name: "Using VMR Mixing Mode"
         href: using-vmr-mixing-mode.md
         items: 
-        - name: "Positioning and Moving Video Rectangles in Composition Space"
+        - name: "Position and move video rectangles in composition space"
           href: positioning-and-moving-video-rectangles-in-composition-space.md
         - name: "Aspect Ratio Correction"
           href: aspect-ratio-correction.md

@@ -1388,7 +1388,7 @@
           href: -wic-photoprop-system-image-compressedbitsperpixel-proxy.md
         - name: "System.Image.Compression Photo Metadata Policy"
           href: -wic-photoprop-system-image-compression.md
-        - name: "System.Image.HorizontalResolution Photo Metadata Policy"
+        - name: "System.Image.HorizontalResolution photo metadata policy"
           href: -wic-photoprop-system-image-horizontalresolution.md
         - name: "System.Image.HorizontalResolution Proxy"
           href: -wic-photoprop-system-image-horizontalresolution-proxy.md

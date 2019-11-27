@@ -113,7 +113,7 @@
         href: independence-from-other-components.md
       - name: "Extended Error Information for the User"
         href: extended-error-information-for-the-user.md
-      - name: "Extended Error Information for the Server or Application"
+      - name: "Extended error information for server or app"
         href: extended-error-information-for-the-server-or-application.md
         items: 
         - name: "Generating Error Information"
@@ -722,7 +722,7 @@
         href: using-http-as-an-rpc-transport.md
       - name: "RPC over HTTP Security"
         href: rpc-over-http-security.md
-      - name: "System Requirements and Interoperability for RPC over HTTP"
+      - name: "RPC over HTTP system requirements, interoperability"
         href: system-requirements-and-interoperability-for-rpc-over-http.md
       - name: "Configuring Computers for RPC over HTTP"
         href: configuring-computers-for-rpc-over-http.md

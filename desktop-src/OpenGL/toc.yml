@@ -1285,7 +1285,7 @@
           href: porting-greset.md
         - name: "Porting IRIS GL &quot;Get&quot; Functions"
           href: porting-iris-gl-get-functions.md
-        - name: "Porting Code that Requires a Current Graphics Position"
+        - name: "Port code that needs a current graphics position"
           href: porting-code-that-requires-a-current-graphics-position.md
           items: 
           - name: "Porting Screen and Buffer Clearing Commands"

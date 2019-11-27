@@ -1955,7 +1955,7 @@
                 href: dx9-graphics-reference-asm-ps-registers-modifiers-scale-x2.md
               - name: "Source Register Signed Scaling"
                 href: dx9-graphics-reference-asm-ps-registers-modifiers-signed-scale.md
-              - name: "ps_1_4 Source Register Modifiers for texld and texcrd"
+              - name: "ps_1_4 source register modifiers for texld, texcrd"
                 href: dx9-graphics-reference-asm-ps-registers-modifiers-ps-1-4.md
               - name: "Source Register Swizzling"
                 href: dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md

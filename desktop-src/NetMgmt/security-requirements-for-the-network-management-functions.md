@@ -1,12 +1,12 @@
 ---
-title: Security Requirements for the Network Management Functions
+title: Network management function security requirements
 description: Calling some of the network management functions does not require special group membership.
 ms.assetid: 846a5b81-d5bf-4275-a898-38e6ba308b8f
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Security Requirements for the Network Management Functions
+# Network management function security requirements
 
 Calling some of the network management functions does not require special group membership. Other functions require that users have a specific privilege level to execute successfully. When applicable, the Remarks section on a function's reference page indicates the privilege level a user must have to execute the particular function.
 

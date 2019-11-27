@@ -29,7 +29,7 @@
       href: native-wifi-api-sample.md
     - name: "Using the Wi-Fi Direct functions"
       href: using-the-wi-fi-direct-api.md
-    - name: "Using Hosted Network and Internet Connection Sharing"
+    - name: "Use Wireless Hosted Network, Internet Connection Sharing"
       href: using-hosted-network-and-internet-connection-sharing.md
     - name: "Wireless Hosted Network Sample"
       href: wireless-hosted-network-sample.md
