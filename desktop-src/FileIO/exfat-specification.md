@@ -1608,46 +1608,46 @@ mandatory.
 The EntryType field has three modes of usage which the value of the
 field defines (see list below).
 
--   00h, which is an end-of-directory marker and the following
-    conditions apply:
+- 00h, which is an end-of-directory marker and the following
+  conditions apply:
 
-    -   All other fields in the given DirectoryEntry are actually
-        reserved
+  - All other fields in the given DirectoryEntry are actually
+    reserved
 
-    -   All subsequent directory entries in the given directory also are
-        end-of-directory markers
+  - All subsequent directory entries in the given directory also are
+    end-of-directory markers
 
-    -   End-of-directory markers are only valid outside directory entry
-        sets
+  - End-of-directory markers are only valid outside directory entry
+    sets
 
-    -   Implementations may overwrite end-of-directory markers as
-        necessary
+  - Implementations may overwrite end-of-directory markers as
+    necessary
 
--   Between 01h and 7Fh inclusively, which is an unused-directory-entry
-    marker and the following conditions apply:
+- Between 01h and 7Fh inclusively, which is an unused-directory-entry
+  marker and the following conditions apply:
 
-    -   All other fields in the given DirectoryEntry are actually
-        undefined
+  - All other fields in the given DirectoryEntry are actually
+    undefined
 
-    -   Unused directory entries are only valid outside of directory
-        entry sets
+  - Unused directory entries are only valid outside of directory
+    entry sets
 
-    -   Implementations may overwrite unused directory entries as
-        necessary
+  - Implementations may overwrite unused directory entries as
+    necessary
 
-    -   This range of values corresponds to the InUse field (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 0
+  - This range of values corresponds to the InUse field (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 0
 
--   Between 81h and FFh inclusively, which is a regular directory entry
-    and the following conditions apply:
+- Between 81h and FFh inclusively, which is a regular directory entry
+  and the following conditions apply:
 
-    -   The contents of the EntryType field (see [Table 15](#table-15-generic-entrytype-field-structure)) determine the
-        layout of the remainder of the DirectoryEntry structure
+  - The contents of the EntryType field (see [Table 15](#table-15-generic-entrytype-field-structure)) determine the
+    layout of the remainder of the DirectoryEntry structure
 
-    -   This range of values, and only this range of values, are valid
-        inside a directory entry set
+  - This range of values, and only this range of values, are valid
+    inside a directory entry set
 
-    -   This range of values directly corresponds to the InUse field
-        (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 1
+  - This range of values directly corresponds to the InUse field
+    (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 1
 
 To prevent modifications to the InUse field (see [Section 6.2.1.4](#6214-inuse-field))
 erroneously resulting in an end-of-directory marker, the value 80h is
@@ -2269,35 +2269,35 @@ FirstCluster field is zero, then DataLength must also be zero.
 Revision 1.00 of the exFAT file system defines the following directory
 entries:
 
--   Critical primary
+- Critical primary
 
-    -   Allocation Bitmap ([Section 7.1](#71-allocation-bitmap-directory-entry))
+  - Allocation Bitmap ([Section 7.1](#71-allocation-bitmap-directory-entry))
 
-    -   Up-case Table ([Section 7.2](#72-up-case-table-directory-entry))
+  - Up-case Table ([Section 7.2](#72-up-case-table-directory-entry))
 
-    -   Volume Label ([Section 7.3](#73-volume-label-directory-entry))
+  - Volume Label ([Section 7.3](#73-volume-label-directory-entry))
 
-    -   File ([Section 7.4](#74-file-directory-entry))
+  - File ([Section 7.4](#74-file-directory-entry))
 
--   Benign primary
+- Benign primary
 
-    -   Volume GUID ([Section 7.5](#75-volume-guid-directory-entry))
+  - Volume GUID ([Section 7.5](#75-volume-guid-directory-entry))
 
-    -   TexFAT Padding ([Section 7.10](#710-texfat-padding-directory-entry))
+  - TexFAT Padding ([Section 7.10](#710-texfat-padding-directory-entry))
 
 <!-- -->
 
--   Critical secondary
+- Critical secondary
 
-    -   Stream Extension ([Section 7.6](#76-stream-extension-directory-entry))
+  - Stream Extension ([Section 7.6](#76-stream-extension-directory-entry))
 
-    -   File Name ([Section 7.7](#77-file-name-directory-entry))
+  - File Name ([Section 7.7](#77-file-name-directory-entry))
 
--   Benign secondary
+- Benign secondary
 
-    -   Vendor Extension ([Section 7.8](#78-vendor-extension-directory-entry))
+  - Vendor Extension ([Section 7.8](#78-vendor-extension-directory-entry))
 
-    -   Vendor Allocation ([Section 7.9](#79-vendor-allocation-directory-entry))
+  - Vendor Allocation ([Section 7.9](#79-vendor-allocation-directory-entry))
 
 ### 7.1 Allocation Bitmap Directory Entry
 
