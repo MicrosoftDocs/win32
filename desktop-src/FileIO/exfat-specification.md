@@ -36,23 +36,23 @@ The exFAT file system has three central design goals (see list below).
 
 1. *Retain the simplicity of FAT-based file systems.*
 
-> Two of the strengths of FAT-based file systems are their relative
-> simplicity and ease of implementation. In the spirit of its
-> predecessors, implementers should find exFAT relatively simple and
-> easy to implement.
+   > Two of the strengths of FAT-based file systems are their relative
+   > simplicity and ease of implementation. In the spirit of its
+   > predecessors, implementers should find exFAT relatively simple and
+   > easy to implement.
 
 2. *Enable very large files and storage devices.*
 
-> The exFAT file system uses 64 bits to describe file size, thereby
-> enabling applications which depend on very large files. The exFAT file
-> system also allows for clusters as large as 32MB, effectively enabling
-> very large storage devices.
+   > The exFAT file system uses 64 bits to describe file size, thereby
+   > enabling applications which depend on very large files. The exFAT file
+   > system also allows for clusters as large as 32MB, effectively enabling
+   > very large storage devices.
 
 3. *Incorporate extensibility for future innovation.*
 
-> The exFAT file system incorporates extensibility into its design,
-> enabling the file system to keep pace with innovations in storage and
-> changes in usage.
+   > The exFAT file system incorporates extensibility into its design,
+   > enabling the file system to keep pace with innovations in storage and
+   > changes in usage.
 
 ### 1.2 Specific Terminology
 
