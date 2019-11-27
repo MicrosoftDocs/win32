@@ -18,21 +18,21 @@ system.
 
 The exFAT file system has three central design goals (see list below).
 
-1.  *Retain the simplicity of FAT-based file systems.*
+1. *Retain the simplicity of FAT-based file systems.*
 
 > Two of the strengths of FAT-based file systems are their relative
 > simplicity and ease of implementation. In the spirit of its
 > predecessors, implementers should find exFAT relatively simple and
 > easy to implement.
 
-2.  *Enable very large files and storage devices.*
+2. *Enable very large files and storage devices.*
 
 > The exFAT file system uses 64 bits to describe file size, thereby
 > enabling applications which depend on very large files. The exFAT file
 > system also allows for clusters as large as 32MB, effectively enabling
 > very large storage devices.
 
-3.  *Incorporate extensibility for future innovation.*
+3. *Incorporate extensibility for future innovation.*
 
 > The exFAT file system incorporates extensibility into its design,
 > enabling the file system to keep pace with innovations in storage and
@@ -123,13 +123,13 @@ industry (see [Table 2](#table-2-full-text-of-common-acronyms)).
 Fields and structures in this specification have the following
 qualifiers (see list below), unless the specification notes otherwise.
 
-1.  Are unsigned
+1. Are unsigned
 
-2.  Use decimal notation to describe values, where not otherwise noted; this specification uses the post-fix letter "h" to denote  hexadecimal numbers and encloses GUIDs in curly braces
+2. Use decimal notation to describe values, where not otherwise noted; this specification uses the post-fix letter "h" to denote  hexadecimal numbers and encloses GUIDs in curly braces
 
-3.  Are in little-endian format
+3. Are in little-endian format
 
-4.  Do not require a null-terminating character for strings
+4. Do not require a null-terminating character for strings
 
 ### 1.5 Windows CE and TexFAT
 
@@ -296,11 +296,11 @@ The Main Boot region provides all the necessary boot-strapping
 instructions, identifying information, and file system parameters to
 enable an implementation to perform the following:
 
-1.  Boot-strap a computer system from an exFAT volume.
+1. Boot-strap a computer system from an exFAT volume.
 
-2.  Identify the file system on the volume as exFAT.
+2. Identify the file system on the volume as exFAT.
 
-3.  Discover the location of the exFAT file system structures.
+3. Discover the location of the exFAT file system structures.
 
 The Backup Boot region is a backup of the Main Boot region. It aids
 recovery of the exFAT volume in the advent of the Main Boot region being
@@ -527,9 +527,9 @@ in sectors.
 
 The valid range of values for this field shall be:
 
--   At least 2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>, which ensures the smallest volume is no less than 1MB
+- At least 2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>, which ensures the smallest volume is no less than 1MB
 
--   At most 2<sup>64</sup>- 1, the largest value this field can describe
+- At most 2<sup>64</sup>- 1, the largest value this field can describe
 
 However, if the size of the Excess Space sub-region is 0, then the value
 of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
@@ -543,9 +543,9 @@ to the characteristics of the underlying storage media.
 
 The valid range of values for this field shall be:
 
--   At least 24, which accounts for the sectors the Main Boot and Backup Boot regions consume
+- At least 24, which accounts for the sectors the Main Boot and Backup Boot regions consume
 
--   At most ClusterHeapOffset - (FatLength \* NumberOfFats), which accounts for the sectors the Cluster Heap consumes
+- At most ClusterHeapOffset - (FatLength \* NumberOfFats), which accounts for the sectors the Cluster Heap consumes
 
 #### 3.1.7 FatLength Field
 
@@ -554,9 +554,9 @@ table (the volume may contain up to two FATs).
 
 The valid range of values for this field shall be:
 
--   At least (ClusterCount + 2) \* 2<sup>2</sup>/ 2<sup>BytesPerSectorShift</sup>rounded up to the nearest integer, which ensures each FAT has sufficient  space for describing all the clusters in the Cluster Heap
+- At least (ClusterCount + 2) \* 2<sup>2</sup>/ 2<sup>BytesPerSectorShift</sup>rounded up to the nearest integer, which ensures each FAT has sufficient  space for describing all the clusters in the Cluster Heap
 
--   At most (ClusterHeapOffset - FatOffset) / NumberOfFats rounded down to the nearest integer, which ensures the FATs exist before the  Cluster Heap
+- At most (ClusterHeapOffset - FatOffset) / NumberOfFats rounded down to the nearest integer, which ensures the FATs exist before the  Cluster Heap
 
 This field may contain a value in excess of its lower bound (as
 described above) to enable the Second FAT, if present, to also be
@@ -572,9 +572,9 @@ the Cluster Heap to the characteristics of the underlying storage media.
 
 The valid range of values for this field shall be:
 
--   At least FatOffset + FatLength \* NumberOfFats, to account for the sectors all the preceding regions consume
+- At least FatOffset + FatLength \* NumberOfFats, to account for the sectors all the preceding regions consume
 
--   At most 2<sup>32</sup>- 1 or VolumeLength - (ClusterCount \* 2<sup>SectorsPerClusterShift</sup>), whichever calculation is less
+- At most 2<sup>32</sup>- 1 or VolumeLength - (ClusterCount \* 2<sup>SectorsPerClusterShift</sup>), whichever calculation is less
 
 #### 3.1.9 ClusterCount Field
 
@@ -583,9 +583,9 @@ Heap contains.
 
 The valid value for this field shall be the lesser of the following:
 
--   (VolumeLength - ClusterHeapOffset) / 2<sup>SectorsPerClusterShift</sup>rounded down to the nearest integer, which is exactly the number of clusters which can fit between the beginning of the Cluster Heap and the end of the volume
+- (VolumeLength - ClusterHeapOffset) / 2<sup>SectorsPerClusterShift</sup>rounded down to the nearest integer, which is exactly the number of clusters which can fit between the beginning of the Cluster Heap and the end of the volume
 
--   2<sup>32</sup>- 11, which is the maximum number of clusters a FAT can describe
+- 2<sup>32</sup>- 11, which is the maximum number of clusters a FAT can describe
 
 The value of the ClusterCount field determines the minimum size of a
 FAT. To avoid extremely large FATs, implementations can control the
@@ -605,9 +605,9 @@ Up-case Table consume.
 
 The valid range of values for this field shall be:
 
--   At least 2, the index of the first cluster in the Cluster Heap
+- At least 2, the index of the first cluster in the Cluster Heap
 
--   At most ClusterCount + 1, the index of the last cluster in the Cluster Heap
+- At most ClusterCount + 1, the index of the last cluster in the Cluster Heap
 
 #### 3.1.11 VolumeSerialNumber Field
 
@@ -634,9 +634,9 @@ describes the revision number 10.15.
 
 The valid range of values for this field shall be:
 
--   At least 0 for the low-order byte and 1 for the high-order byte
+- At least 0 for the low-order byte and 1 for the high-order byte
 
--   At most 99 for the low-order byte and 99 for the high-order byte
+- At most 99 for the low-order byte and 99 for the high-order byte
 
 The revision number of exFAT this specification describes is 1.00.
 Implementations of this specification should mount any exFAT volume with
@@ -709,9 +709,9 @@ the Backup Boot Sector, implementations shall treat this field as stale.
 The ActiveFat field shall describe which FAT and Allocation Bitmap are
 active (and implementations shall use), as follows:
 
--   0, which means the First FAT and First Allocation Bitmap are active
+- 0, which means the First FAT and First Allocation Bitmap are active
 
--   1, which means the Second FAT and Second Allocation Bitmap are active and is possible only when the NumberOfFats field contains the value 2
+- 1, which means the Second FAT and Second Allocation Bitmap are active and is possible only when the NumberOfFats field contains the value 2
 
 Implementations shall consider the inactive FAT and Allocation Bitmap as
 stale. Only TexFAT-aware implementations shall switch the active FAT and
@@ -722,9 +722,9 @@ Allocation Bitmaps (see [Section 7.1](#71-allocation-bitmap-directory-entry)).
 The VolumeDirty field shall describe whether the volume is dirty or not,
 as follows:
 
--   0, which means the volume is probably in a consistent state
+- 0, which means the volume is probably in a consistent state
 
--   1, which means the volume is probably in an inconsistent state
+- 1, which means the volume is probably in an inconsistent state
 
 Implementations should set the value of this field to 1 upon
 encountering file system metadata inconsistencies which they do not
@@ -744,15 +744,15 @@ recommended write ordering described in [Section 8.1](#81-recommended-write-orde
 The MediaFailure field shall describe whether an implementation has
 discovered media failures or not, as follows:
 
--   0, which means the hosting media has not reported failures or any known failures are already recorded in the FAT as "bad" clusters
+- 0, which means the hosting media has not reported failures or any known failures are already recorded in the FAT as "bad" clusters
 
--   1, which means the hosting media has reported failures (i.e. has failed read or write operations)
+- 1, which means the hosting media has reported failures (i.e. has failed read or write operations)
 
 An implementation should set this field to 1 when:
 
-1.  The hosting media fails access attempts to any region in the volume
+1. The hosting media fails access attempts to any region in the volume
 
-2.  The implementation has exhausted access retry algorithms, if any
+2. The implementation has exhausted access retry algorithms, if any
 
 If, upon mounting a volume, the value of this field is 1,
 implementations which scan the entire volume for media failures and
@@ -766,9 +766,9 @@ specification.
 
 The valid values for this field are:
 
--   0, which does not have any particular meaning
+- 0, which does not have any particular meaning
 
--   1, which means implementations shall clear this field to 0 prior to modifying any file system structures, directories, or files
+- 1, which means implementations shall clear this field to 0 prior to modifying any file system structures, directories, or files
 
 #### 3.1.14 BytesPerSectorShift Field
 
@@ -778,9 +778,9 @@ example, for 512 bytes per sector, the value of this field is 9.
 
 The valid range of values for this field shall be:
 
--   At least 9 (sector size of 512 bytes), which is the smallest sector possible for an exFAT volume
+- At least 9 (sector size of 512 bytes), which is the smallest sector possible for an exFAT volume
 
--   At most 12 (sector size of 4096 bytes), which is the memory page size of CPUs common in personal computers
+- At most 12 (sector size of 4096 bytes), which is the memory page size of CPUs common in personal computers
 
 #### 3.1.15 SectorsPerClusterShift Field
 
@@ -790,9 +790,9 @@ example, for 8 sectors per cluster, the value of this field is 3.
 
 The valid range of values for this field shall be:
 
--   At least 0 (1 sector per cluster), which is the smallest cluster possible
+- At least 0 (1 sector per cluster), which is the smallest cluster possible
 
--   At most 25 - BytesPerSectorShift, which evaluates to a cluster size of 32MB
+- At most 25 - BytesPerSectorShift, which evaluates to a cluster size of 32MB
 
 #### 3.1.16 NumberOfFats Field
 
@@ -801,9 +801,9 @@ Bitmaps the volume contains.
 
 The valid range of values for this field shall be:
 
--   1, which indicates the volume only contains the First FAT and First Allocation Bitmap
+- 1, which indicates the volume only contains the First FAT and First Allocation Bitmap
 
--   2, which indicates the volume contains the First FAT, Second FAT, First Allocation Bitmap, and Second Allocation Bitmap; this value is only valid for TexFAT volumes
+- 2, which indicates the volume contains the First FAT, Second FAT, First Allocation Bitmap, and Second Allocation Bitmap; this value is only valid for TexFAT volumes
 
 #### 3.1.17 DriveSelect Field
 
@@ -821,9 +821,9 @@ Cluster Heap which are allocated.
 
 The valid range of values for this field shall be:
 
--   Between 0 and 100 inclusively, which is the percentage of allocated clusters in the Cluster Heap, rounded down to the nearest integer
+- Between 0 and 100 inclusively, which is the percentage of allocated clusters in the Cluster Heap, rounded down to the nearest integer
 
--   Exactly FFh, which indicates the percentage of allocated clusters in the Cluster Heap is not available
+- Exactly FFh, which indicates the percentage of allocated clusters in the Cluster Heap is not available
 
 Implementations shall change the value of this field to reflect changes
 in the allocation of clusters in the Cluster Heap or shall change it to
@@ -1406,11 +1406,11 @@ Cluster Heap.
 
 The valid range of values for these fields shall be:
 
--   Between 2 and ClusterCount + 1, inclusively, which points to the next FatEntry in the given cluster chain; the given FatEntry shall not point to any FatEntry which precedes it in the given cluster chain
+- Between 2 and ClusterCount + 1, inclusively, which points to the next FatEntry in the given cluster chain; the given FatEntry shall not point to any FatEntry which precedes it in the given cluster chain
 
--   Exactly FFFFFFF7h, which marks the given FatEntry's corresponding cluster as "bad"
+- Exactly FFFFFFF7h, which marks the given FatEntry's corresponding cluster as "bad"
 
--   Exactly FFFFFFFFh, which marks the given FatEntry's corresponding cluster as the last cluster of a cluster chain; this is the only valid value for the last FatEntry of any given cluster chain
+- Exactly FFFFFFFFh, which marks the given FatEntry's corresponding cluster as the last cluster of a cluster chain; this is the only valid value for the last FatEntry of any given cluster chain
 
 ## 5 Data Region
 
@@ -1714,10 +1714,10 @@ directory entry.
 
 The valid values for this field shall be:
 
--   0, which means the given directory entry is critical (see [Section    6.3.1.2.1](#63121-critical-primary-directory-entries) and [Section 6.4.1.2.1](#64121-critical-secondary-directory-entries) for critical primary and critical secondary
+- 0, which means the given directory entry is critical (see [Section    6.3.1.2.1](#63121-critical-primary-directory-entries) and [Section 6.4.1.2.1](#64121-critical-secondary-directory-entries) for critical primary and critical secondary
     directory entries, respectively)
 
--   1, which means the given directory entry is benign (see [Section    6.3.1.2.2](#63122-benign-primary-directory-entries) and [Section 6.4.1.2.2](#64122-benign-secondary-directory-entries) for benign primary and benign secondary
+- 1, which means the given directory entry is benign (see [Section    6.3.1.2.2](#63122-benign-primary-directory-entries) and [Section 6.4.1.2.2](#64122-benign-secondary-directory-entries) for benign primary and benign secondary
     directory entries, respectively)
 
 ##### 6.2.1.3 TypeCategory Field
@@ -1727,9 +1727,9 @@ directory entry.
 
 The valid values for this field shall be:
 
--   0, which means the given directory entry is primary (see [Section 6.3](#63-generic-primary-directoryentry-template))
+- 0, which means the given directory entry is primary (see [Section 6.3](#63-generic-primary-directoryentry-template))
 
--   1, which means the given directory entry is secondary (see [Section 6.4](#64-generic-secondary-directoryentry-template))
+- 1, which means the given directory entry is secondary (see [Section 6.4](#64-generic-secondary-directoryentry-template))
 
 ##### 6.2.1.4 InUse Field
 
@@ -1738,11 +1738,11 @@ or not.
 
 The valid values for this field shall be:
 
--   0, which means the given directory entry is not in use; this means
-    the given structure actually is an unused directory entry
+- 0, which means the given directory entry is not in use; this means
+  the given structure actually is an unused directory entry
 
--   1, which means the given directory entry is in use; this means the
-    given structure is a regular directory entry
+- 1, which means the given directory entry is in use; this means the
+  given structure is a regular directory entry
 
 #### 6.2.2 FirstCluster Field
 
@@ -1752,10 +1752,10 @@ entry.
 
 The valid range of values for this field shall be:
 
--   Exactly 0, which means no cluster allocation exists
+- Exactly 0, which means no cluster allocation exists
 
--   Between 2 and ClusterCount + 1, which is the range of valid cluster
-    indices
+- Between 2 and ClusterCount + 1, which is the range of valid cluster
+  indices
 
 Structures which derive from this template may redefine both the
 FirstCluster and DataLength fields, if a cluster allocation is not
@@ -1768,11 +1768,11 @@ associated cluster allocation contains.
 
 The valid range of value for this field is:
 
--   At least 0; if the FirstCluster field contains the value 0, then
-    this field's only valid value is 0
+- At least 0; if the FirstCluster field contains the value 0, then
+  this field's only valid value is 0
 
--   At most ClusterCount \* 2<sup>SectorsPerClusterShift</sup>\*
-    2<sup>BytesPerSectorShift</sup>
+- At most ClusterCount \* 2<sup>SectorsPerClusterShift</sup>\*
+  2<sup>BytesPerSectorShift</sup>
 
 Structures which derive from this template may redefine both the
 FirstCluster and DataLength fields, if a cluster allocation is not
@@ -1919,11 +1919,11 @@ directory entry, comprise the directory entry set.
 
 The valid range of values for this field shall be:
 
--   At least 0, which means this primary directory entry is the only
-    entry in the directory entry set
+- At least 0, which means this primary directory entry is the only
+  entry in the directory entry set
 
--   At most 255, which means the next 255 directory entries and this
-    primary directory entry comprise the directory entry set
+- At most 255, which means the next 255 directory entries and this
+  primary directory entry comprise the directory entry set
 
 Critical primary directory entry structures which derive from this
 template may redefine both the SecondaryCount and SetChecksum fields.
@@ -2017,13 +2017,13 @@ in the Cluster Heap is possible for the given directory entry.
 
 The valid values for this field shall be:
 
--   0, which means an associated allocation of clusters is not possible
-    and the FirstCluster and DataLength fields are actually undefined
-    (structures which derive from this template may redefine those
-    fields)
+- 0, which means an associated allocation of clusters is not possible
+  and the FirstCluster and DataLength fields are actually undefined
+  (structures which derive from this template may redefine those
+  fields)
 
--   1, which means an associated allocation of clusters is possible and
-    the FirstCluster and DataLength fields are as defined
+- 1, which means an associated allocation of clusters is possible and
+  the FirstCluster and DataLength fields are as defined
 
 ##### 6.3.4.2 NoFatChain Field
 
@@ -2032,17 +2032,17 @@ describes the given allocation's cluster chain.
 
 The valid values for this field shall be:
 
--   0, which means the corresponding FAT entries for the allocation's
-    cluster chain are valid and implementations shall interpret them; if
-    the AllocationPossible field contains the value 0, or if the
-    AllocationPossible field contains the value 1 and the FirstCluster
-    field contains the value 0, then this field's only valid value is 0
+- 0, which means the corresponding FAT entries for the allocation's
+  cluster chain are valid and implementations shall interpret them; if
+  the AllocationPossible field contains the value 0, or if the
+  AllocationPossible field contains the value 1 and the FirstCluster
+  field contains the value 0, then this field's only valid value is 0
 
--   1, which means the associated allocation is one contiguous series of
-    clusters; the corresponding FAT entries for the clusters are invalid
-    and implementations shall not interpret them; implementations may
-    use the following equation to calculate the size of the associated
-    allocation: DataLength / (2<sup>SectorsPerClusterShift</sup>\* 2<sup>BytesPerSectorShift</sup>) rounded up to the nearest integer
+- 1, which means the associated allocation is one contiguous series of
+  clusters; the corresponding FAT entries for the clusters are invalid
+  and implementations shall not interpret them; implementations may
+  use the following equation to calculate the size of the associated
+  allocation: DataLength / (2<sup>SectorsPerClusterShift</sup>\* 2<sup>BytesPerSectorShift</sup>) rounded up to the nearest integer
 
 If critical primary directory entry structures which derive from this
 template redefine the GeneralPrimaryFlags field, then the corresponding
@@ -2442,12 +2442,12 @@ ActiveFat field describes which FAT and Allocation Bitmap are active.
 
 The valid values for this field shall be:
 
--   0, which means the given directory entry describes the First
-    Allocation Bitmap
+- 0, which means the given directory entry describes the First
+  Allocation Bitmap
 
--   1, which means the given directory entry describes the Second
-    Allocation Bitmap and is possible only when NumberOfFats contains
-    the value 2
+- 1, which means the given directory entry describes the Second
+  Allocation Bitmap and is possible only when NumberOfFats contains
+  the value 2
 
 #### 7.1.3 FirstCluster Field
 
@@ -2535,13 +2535,13 @@ Cluster Heap.
 
 The valid values for these fields shall be:
 
--   0, which describes the corresponding cluster as available for
-    allocation
+- 0, which describes the corresponding cluster as available for
+  allocation
 
--   1, which describes the corresponding cluster as not available for
-    allocation (a cluster allocation may already consume the
-    corresponding cluster or the active FAT may describe the
-    corresponding cluster as bad)
+- 1, which describes the corresponding cluster as not available for
+  allocation (a cluster allocation may already consume the
+  corresponding cluster or the active FAT may describe the
+  corresponding cluster as bad)
 
 ### 7.2 Up-case Table Directory Entry
 
@@ -3233,10 +3233,10 @@ the VolumeLabel field contains.
 
 The valid range of values for this field shall be:
 
--   At least 0, which means the Unicode string is 0 characters long
-    (which is the equivalent of no volume label)
+- At least 0, which means the Unicode string is 0 characters long
+  (which is the equivalent of no volume label)
 
--   At most 11, which means the Unicode string is 11 characters long
+- At most 11, which means the Unicode string is 11 characters long
 
 #### 7.3.3 VolumeLabel Field
 
@@ -3490,12 +3490,12 @@ Stream Extension directory entry were last modified. The
 LastModifiedUtcOffset field describes the offset of local date and time
 from UTC. Implementations shall update these fields:
 
-1.  After modifying the contents of any of the clusters associated with
-    the given Stream Extension directory entry (except for contents
-    which exist beyond the point the ValidDataLength field describes)
+1. After modifying the contents of any of the clusters associated with
+   the given Stream Extension directory entry (except for contents
+   which exist beyond the point the ValidDataLength field describes)
 
-2.  Upon changing the values of either the ValidDataLength or DataLength
-    fields
+2. Upon changing the values of either the ValidDataLength or DataLength
+   fields
 
 These fields shall conform to the definitions of the Timestamp,
 10msIncrement, and UtcOffset fields (see
@@ -3511,12 +3511,12 @@ Extension directory entry were last accessed. The LastAccessedUtcOffset
 field describes the offset of local date and time from UTC.
 Implementations shall update these fields:
 
-1.  After modifying the contents of any of the clusters associated with
-    the given Stream Extension directory entry (except for contents
-    which exist beyond the ValidDataLength)
+1. After modifying the contents of any of the clusters associated with
+   the given Stream Extension directory entry (except for contents
+   which exist beyond the ValidDataLength)
 
-2.  Upon changing the values of either the ValidDataLength or DataLength
-    fields
+2. Upon changing the values of either the ValidDataLength or DataLength
+   fields
 
 Implementations should update these fields after reading the contents of
 any of the clusters associated with the given Stream Extension directory
@@ -3594,9 +3594,9 @@ Timestamp field, in two-second multiples.
 
 The valid range of values for this field shall be:
 
--   0, which represents 0 seconds
+- 0, which represents 0 seconds
 
--   29, which represents 58 seconds
+- 29, which represents 58 seconds
 
 ##### 7.4.8.2 Minute Field
 
@@ -3605,9 +3605,9 @@ field.
 
 The valid range of values for this field shall be:
 
--   0, which represents 0 minutes
+- 0, which represents 0 minutes
 
--   59, which represents 59 minutes
+- 59, which represents 59 minutes
 
 ##### 7.4.8.3 Hour Field
 
@@ -3615,9 +3615,9 @@ The Hour field shall describe the hours portion of the Timestamp field.
 
 The valid range of values for this field shall be:
 
--   0, which represents 00:00 hours
+- 0, which represents 00:00 hours
 
--   23, which represents 23:00 hours
+- 23, which represents 23:00 hours
 
 ##### 7.4.8.4 Day Field
 
@@ -3625,10 +3625,10 @@ The Day field shall describe the day portion of the Timestamp field.
 
 The valid range of values for this field shall be:
 
--   1, which is the first day of the given month
+- 1, which is the first day of the given month
 
--   The last day of the given month (the given month defines the number
-    of valid days)
+- The last day of the given month (the given month defines the number
+  of valid days)
 
 ##### 7.4.8.5 Month Field
 
@@ -3636,9 +3636,9 @@ The Month field shall describe the month portion of the Timestamp field.
 
 The valid range of values for this field shall be:
 
--   At least 1, which represents January
+- At least 1, which represents January
 
--   At most 12, which represents December
+- At most 12, which represents December
 
 ##### 7.4.8.6 Year Field
 
@@ -3655,9 +3655,9 @@ corresponding Timestamp fields in ten-millisecond multiples.
 
 The valid range of values for these fields shall be:
 
--   At least 0, which represents 0 milliseconds
+- At least 0, which represents 0 milliseconds
 
--   At most 199, which represents 1990 milliseconds
+- At most 199, which represents 1990 milliseconds
 
 #### 7.4.10 UtcOffset Fields
 
@@ -3782,15 +3782,15 @@ As the table above indicates, all possible values for this field are
 valid. However, implementations should only record the value 00h for
 this field when:
 
-1.  Local date and time are actually the same as UTC, in which case the
-    value of the OffsetValid field shall be 1
+1. Local date and time are actually the same as UTC, in which case the
+   value of the OffsetValid field shall be 1
 
-2.  Local date and time are not known, in which case the value of the
-    OffsetValid field shall be 1 and implementations shall consider UTC
-    to be local date and time
+2. Local date and time are not known, in which case the value of the
+   OffsetValid field shall be 1 and implementations shall consider UTC
+   to be local date and time
 
-3.  UTC is not known, in which case the value of the OffsetValid field
-    shall be 0
+3. UTC is not known, in which case the value of the OffsetValid field
+   shall be 0
 
 If the local date and time offset from UTC happens to not be a multiple
 of 15 minute intervals, then implementations shall record 00h in the
@@ -3801,10 +3801,10 @@ OffsetFromUtc field and shall consider UTC to be local date and time.
 The OffsetValid field shall describe whether the contents of the
 OffsetFromUtc field are valid or not, as follows:
 
--   0, which means the contents of the OffsetFromUtc field are invalid
+- 0, which means the contents of the OffsetFromUtc field are invalid
     > and shall be 00h
 
--   1, which means the contents of the OffsetFromUtc field are valid
+- 1, which means the contents of the OffsetFromUtc field are valid
 
 Implementations should only set this field to the value 0 when UTC is
 not available for computing the value of the OffsetFromUtc field. If
@@ -4091,9 +4091,9 @@ contain.
 
 The valid range of values for this field shall be:
 
--   At least 1, which is the shortest possible file name
+- At least 1, which is the shortest possible file name
 
--   At most 255, which is the longest possible file name
+- At most 255, which is the longest possible file name
 
 The value of the NameLength field also affects the number File Name
 Directory Entries (see [Section 7.7](#77-file-name-directory-entry)).
@@ -4144,11 +4144,11 @@ the only valid value for this field is equal to the value of the
 DataLength field. Otherwise, the range of valid values for this field
 shall be:
 
--   At least 0, which means no user data has been written out to the
-    data stream
+- At least 0, which means no user data has been written out to the
+  data stream
 
--   At most DataLength, which means user data has been written out to
-    the entire length of the data stream
+- At most DataLength, which means user data has been written out to
+  the entire length of the data stream
 
 #### 7.6.6 FirstCluster Field
 
@@ -4613,30 +4613,30 @@ power faults and other unavoidable failures. When creating new directory
 entries or modifying cluster allocations, implementations should
 generally follow this writing order:
 
-1.  Set the value of the VolumeDirty field to 1
+1. Set the value of the VolumeDirty field to 1
 
-2.  Update the active FAT, if necessary
+2. Update the active FAT, if necessary
 
-3.  Update the active Allocation Bitmap
+3. Update the active Allocation Bitmap
 
-4.  Create or update the directory entry, if necessary
+4. Create or update the directory entry, if necessary
 
-5.  Clear the value of the VolumeDirty field to 0, if its value prior to
-    the first step was 0
+5. Clear the value of the VolumeDirty field to 0, if its value prior to
+   the first step was 0
 
 When deleting directory entries or freeing cluster allocations,
 implementations should follow this writing order:
 
-1.  Set the value of the VolumeDirty field to 1
+1. Set the value of the VolumeDirty field to 1
 
-2.  Delete or update the directory entry, if necessary
+2. Delete or update the directory entry, if necessary
 
-3.  Update the active FAT, if necessary
+3. Update the active FAT, if necessary
 
-4.  Update the active Allocation Bitmap
+4. Update the active Allocation Bitmap
 
-5.  Clear the value of the VolumeDirty field to 0, if its value prior to
-    the first step was 0
+5. Clear the value of the VolumeDirty field to 0, if its value prior to
+   the first step was 0
 
 ### 8.2 Implications of Unrecognized Directory Entries
 
@@ -4651,51 +4651,51 @@ revision number. This presents scenarios in which an implementation may
 encounter directory entries which it does not recognize. The following
 describe implications of these scenarios:
 
-1.  The presence of unrecognized critical primary directory entries in
-    the root directory renders the volume invalid. The presence of any
-    critical primary directory entry, except File directory entries, in
-    any non-root directory, renders the hosting directory invalid.
+1. The presence of unrecognized critical primary directory entries in
+   the root directory renders the volume invalid. The presence of any
+   critical primary directory entry, except File directory entries, in
+   any non-root directory, renders the hosting directory invalid.
 
-2.  Implementations shall not modify unrecognized benign primary
-    directory entries or their associated cluster allocations. However,
-    when deleting a directory, and only when deleting a directory,
-    implementations shall delete unrecognized benign primary directory
-    entries and free all associated cluster allocations, if any.
+2. Implementations shall not modify unrecognized benign primary
+   directory entries or their associated cluster allocations. However,
+   when deleting a directory, and only when deleting a directory,
+   implementations shall delete unrecognized benign primary directory
+   entries and free all associated cluster allocations, if any.
 
-3.  Implementations shall not modify unrecognized critical secondary
-    directory entries or their associated cluster allocations. The
-    presence of one or more unrecognized critical secondary directory
-    entries in a directory entry set renders the entire directory entry
-    set unrecognized. When deleting a directory entry set which contains
-    one or more unrecognized critical secondary directory entries,
-    implementations shall free all cluster allocations, if any,
-    associated with unrecognized critical secondary directory entries.
-    Further, if the directory entry set describes a directory,
-    implementations may:
+3. Implementations shall not modify unrecognized critical secondary
+   directory entries or their associated cluster allocations. The
+   presence of one or more unrecognized critical secondary directory
+   entries in a directory entry set renders the entire directory entry
+   set unrecognized. When deleting a directory entry set which contains
+   one or more unrecognized critical secondary directory entries,
+   implementations shall free all cluster allocations, if any,
+   associated with unrecognized critical secondary directory entries.
+   Further, if the directory entry set describes a directory,
+   implementations may:
 
-    -   Traverse into the directory
+   - Traverse into the directory
 
-    -   Enumerate the directory entries it contains
+   - Enumerate the directory entries it contains
 
-    -   Delete contained directory entries
+   - Delete contained directory entries
 
-    -   Move contained directory entries to a different directory
+   - Move contained directory entries to a different directory
 
-    However, implementations shall not:
+   However, implementations shall not:
 
-    -   Modify contained directory entries, except delete, as noted
+   - Modify contained directory entries, except delete, as noted
 
-    -   Create new contained directory entries
+   - Create new contained directory entries
 
-    -   Open contained directory entries, except traverse and enumerate, as
-        noted
+   - Open contained directory entries, except traverse and enumerate, as
+     noted
 
-4.  Implementations shall not modify unrecognized benign secondary
-    directory entries or their associated cluster allocations.
-    Implementations should ignore unrecognized benign secondary
-    directory entries. When deleting a directory entry set,
-    implementations shall free all cluster allocations, if any,
-    associated with unrecognized benign secondary directory entries.
+4. Implementations shall not modify unrecognized benign secondary
+   directory entries or their associated cluster allocations.
+   Implementations should ignore unrecognized benign secondary
+   directory entries. When deleting a directory entry set,
+   implementations shall free all cluster allocations, if any,
+   associated with unrecognized benign secondary directory entries.
 
 ## 9 File System Limits
 
