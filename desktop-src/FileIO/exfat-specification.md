@@ -1003,6 +1003,7 @@ Implementations may update the Main and Backup OEM Parameters as needed
 </table>
 
 #### 3.3.1 Parameters\[0\] ... Parameters\[9\]
+
 Each Parameters field in this array contains a parameters structure,
 which derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)).
 Any unused Parameters field shall be described as containing a Null
