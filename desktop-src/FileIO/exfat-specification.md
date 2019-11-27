@@ -1869,7 +1869,7 @@ Generic DirectoryEntry template (see
 ##### 6.3.1.2 TypeImportance Field
 
 The TypeImportance field shall conform to the definition provided in the
-Generic DirectoryEntry template (see 
+Generic DirectoryEntry template (see
 [Section 6.2.1.2](#6212-typeimportance-field)).
 
 ###### 6.3.1.2.1 Critical Primary Directory Entries
@@ -2169,7 +2169,7 @@ secondary directory entry which an implementation does not recognize,
 then the implementation shall at most interpret the templates of the
 directory entries in the directory entry set and not the data any
 allocation associated with any directory entry in the directory entry
-set contains (File directory entries are an exception, see 
+set contains (File directory entries are an exception, see
 [Section 7.4](#74-file-directory-entry)).
 
 ###### 6.4.1.2.2 Benign Secondary Directory Entries
@@ -2245,7 +2245,7 @@ same-named field in the Generic Primary DirectoryEntry template (see
 ##### 6.4.2.2 NoFatChain Field
 
 The NoFatChain field shall have the same definition as the same-named
-field in the Generic Primary DirectoryEntry template (see 
+field in the Generic Primary DirectoryEntry template (see
 [Section 6.3.4.2](#6342-nofatchain-field)).
 
 #### 6.4.3 FirstCluster Field
@@ -4680,7 +4680,7 @@ describe implications of these scenarios:
     -   Delete contained directory entries
 
     -   Move contained directory entries to a different directory
-     
+
     However, implementations shall not:
 
     -   Modify contained directory entries, except delete, as noted
