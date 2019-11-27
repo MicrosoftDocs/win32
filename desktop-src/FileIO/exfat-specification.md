@@ -11,6 +11,16 @@ ms.date: 08/27/2019
 <!-- Disabling this warning as noise                             -->
 <!-- markdownlint-disable MD036                                  -->
 
+<!-- MD033/no-inline-html: Inline HTML                           -->
+<!-- Well over 1k instances                                      -->
+<!-- Includes the following reported elements:                   -->
+<!-- Tables:  table, thead, tbody, tr, th                        -->
+<!-- Lists (used within tables): ol, li                          -->
+<!-- Links/Anchors: a, div                                       -->
+<!-- Formatting: strong, p, sup                                  -->
+<!-- Disabling this warning until can find alternatives          -->
+<!-- markdownlint-disable MD033                                  -->
+
 # exFAT file system specification
 
 ## 1 Introduction
