@@ -5,6 +5,12 @@ ms.topic: article
 ms.date: 08/27/2019
 ---
 
+<!-- MD036/no-emphasis-as-heading/no-emphasis-as-header:         -->
+<!-- Emphasis used instead of a heading                          -->
+<!-- 44 instances: Tables, Figures, and once as a table footnote -->
+<!-- Disabling this warning as noise                             -->
+<!-- markdownlint-disable MD036                                  -->
+
 # exFAT file system specification
 
 ## 1 Introduction
