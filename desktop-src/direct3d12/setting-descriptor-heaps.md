@@ -40,7 +40,6 @@ The initial contents of descriptor heap memory is undefined, so asking the GPU o
 
 If the application configures a descriptor heap to be CPU visible, then the CPU can call methods to create descriptors into the heap and copy from place to place (including across heaps) in an immediate, free threaded manner. If the heap has been configured with a write combine property, reading by the CPU is not permitted.
 
-Descriptors can also record a descriptor copy call on a command list in the event that the application does not want the copy to occur immediately, but rather when the GPU is executing the command list. This can also be useful if an application chooses to put a descriptor heap in a non CPU-visible memory pool and therefore needs to do a GPU operation to manipulate its contents, or if an application simply wants the update to occur on the GPU time-line. Command list descriptor copies require the source of the copy to be in a non shader visible descriptor heap (from which the command list snapshots a copy the source descriptors into the command list at record time), and the destination must be a shader visible descriptor heap (which at command list execution gets written to by the GPU). The API reference for copying descriptors goes into more detail.
 
 For example, setting descriptor heaps when populating command lists.
 
